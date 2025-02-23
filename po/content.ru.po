@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Organic Maps Website.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2024-09-21 06:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/organicmaps/website/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.8-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 12:41+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/organicmaps/website/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -377,9 +377,9 @@ msgstr ""
 
 #. type: Link reference
 #: content/_index.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
-msgstr "[fork]: https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA\n"
+msgstr "[fork]: https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA"
 
 #. type: Plain text
 #: content/_index.md content/donate/index.md content/contribute/index.md

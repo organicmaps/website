@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Carlos Brys <carlos.brys@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-28 08:14+0000\nLast-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-rc\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -55,10 +46,9 @@ msgstr "> En 2023 Organic Maps [alcanzó su primer millón de usuarios](@/news/2
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+#, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
-msgstr "Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid] o [Huawei AppGallery][appgallery] {#install}"
+msgstr "Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -307,7 +297,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "A continuación se indican los apreciados patrocinadores institucionales que han proporcionado subvenciones específicas para cubrir algunos costes de infraestructura y financiar el desarrollo de nuevas características seleccionadas:"
 
 #. type: Plain text
 #: content/_index.md
@@ -425,10 +415,8 @@ msgstr "Siga nuestras novedades en [FOSStodon][fosstodon], [Mastodon][mastodon],
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy
-#| msgid "Join (or create and let us know) local communities: [Hungarian translators Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr "Únase (o cree y háganoslo saber) a las comunidades locales: [Sala Matrix de traductores de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
+msgstr "Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala Matrix de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats de Telegram en [chino][telegram_chat_zh], [francés][telegram_chat_fr], [ruso][telegram_chat_ru] o [turco][telegram_chat_tr]."
 
 #. type: Link reference
 #: content/_index.md
@@ -888,13 +876,13 @@ msgstr "Contacte con nosotros"
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Editar en GitHub"
 
 #. type: Hash Value: engines
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr "Compatibilidad con motores TTS"
+msgstr "Motores TTS admitidos"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
@@ -906,7 +894,7 @@ msgstr "Preguntas frecuentes"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Ir al inicio"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml
@@ -948,7 +936,7 @@ msgstr "Idioma"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Para obtener más información, visite nuestro sitio web"
 
 #. type: Hash Value: name
 #: translations.yaml

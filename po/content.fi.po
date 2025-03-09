@@ -4,25 +4,25 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: fi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-09 11:23+0000\nLast-Translator: Petri Hämäläinen <petri.hamalainen@mailbox.org>\nLanguage-Team: Finnish <https://hosted.weblate.org/projects/organicmaps/website/fi/>\nLanguage: fi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "Nopea ja tarkka offline-kartta matkustajille, turisteille, autoilijoille, retkeilijöille ja pyöräilijöille. MapsWithMe (Maps.Me) -perustajilta."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "Koti"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps: Vaellus, Pyöräily, Retkeily ja Navigaatio"
 
 #. type: Plain text
 #: content/_index.md

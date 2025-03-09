@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-08 17:34+0000\nLast-Translator: Tommi <surfing@tommi.space>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/organicmaps/website/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-08 17:34+0000\nLast-Translator: Arducode <arducode@gmail.com>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/organicmaps/website/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -580,13 +580,13 @@ msgstr "Puoi aiutarci in qualche altro modo?"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Yes! There are many ways to support Organic Maps. Please see [Contribute](@/contribute/index.md) page for more details."
-msgstr ""
+msgstr "Sì! Ci sono tanti modi per supportare Organic Maps. Dai un'occhiata alla pagina [Contribuisci](@/contribute/index.md) per maggiori dettagli."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/news/_index.md
 #, no-wrap
 msgid "Stay in touch with the latest Organic Maps releases, news and updates from our team"
-msgstr ""
+msgstr "Non perderti nulla delle ultime release di Organic Maps, delle novità e degli aggiornamenti del nostro team"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/news/_index.md
@@ -598,13 +598,13 @@ msgstr "Novità"
 #: content/news/_index.md
 #, no-wrap
 msgid "Organic Maps: Latest news and updates from our team"
-msgstr ""
+msgstr "Organic Maps: Ultime novità e aggiornamenti del nostro team"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/privacy/index.md
 #, no-wrap
 msgid "No tracking, no ads, no data collection, no statistics collection, no spyware"
-msgstr ""
+msgstr "Nessun tracking, nessun annuncio, nessuna raccolta di dati o statistiche, nessuno spyware"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/privacy/index.md
@@ -616,132 +616,132 @@ msgstr "Privacy"
 #: content/privacy/index.md
 #, no-wrap
 msgid "Organic Maps: Privacy Policy"
-msgstr ""
+msgstr "Organic Maps: Polizza sulla privacy"
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Organic Maps respects your privacy and DOES NOT TRACK YOU."
-msgstr ""
+msgstr "Organic Maps rispetta la tua privacy e NON TI TRACCIA."
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Unlike most other applications, there is no tracking, no ads, no spyware, no data and statistics collection in Organic Maps."
-msgstr ""
+msgstr "A differenza di molte altre app, Organic Maps non contiene né annunci, né spyware; non effettua né tracking, né raccolta di dati o statistiche."
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Stay away from Big Tech's prying eyes!"
-msgstr ""
+msgstr "Nasconditi dagli occhi indiscreti delle Big Tech!"
 
 #. type: Plain text
 #: content/privacy/index.md content/terms/index.md
 msgid "If you have any questions or suggestions, please contact us at [legal@organicmaps.app](mailto:legal@organicmaps.app)."
-msgstr ""
+msgstr "Se hai domande o suggerimenti, contattaci a [legal@organicmaps.app](mailto:legal@organicmaps.app)."
 
 #. type: Plain text
 #: content/privacy/index.md
 #, no-wrap
 msgid "<sub>This policy is effective as of 2021-04-24.</sub>\n"
-msgstr ""
+msgstr "<sub>Questa polizza ha valore a partire dal 24/04/2021.</sub>\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/contribute/index.md
 #, no-wrap
 msgid "Different ways to support the development of our free application"
-msgstr ""
+msgstr "Diversi modi per supportare lo sviluppo della nostra applicazione gratuita"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/contribute/index.md
 #, no-wrap
 msgid "Contribute"
-msgstr "Aiuta lo Sviluppo"
+msgstr "Contribuisci"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/contribute/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
-msgstr ""
+msgstr "Supporta lo sviluppo di Organic Maps"
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "Organic Maps is a free, open-source app. It is free from ads, it does not collect your personal information, and it is developed by a few enthusiasts with the help of the community."
-msgstr ""
+msgstr "Organic Maps è un'app gratuita e open-source. Non contiene annunci, non raccoglie i tuoi dati personali ed è sviluppata da un gruppo di appassionati con il supporto della comunità."
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "There are different ways to support the development:"
-msgstr ""
+msgstr "Ci sono diversi modi per supportare lo sviluppo:"
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Donate](@/donate/index.md)! Every dollar or euro counts and helps us to pay for servers and scale."
-msgstr ""
+msgstr "[Dona](@/donate/index.md)! Ogni euro conta e ci aiuta a pagare i server e a ingrandirci."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Report bugs and share ideas on our [GitHub][github] or via [email][email]."
-msgstr ""
+msgstr "Segnala bug e condividi idee su [GitHub][github] o via [email][email]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier."
-msgstr ""
+msgstr "Aiutaci a [correggere bug][contributing] e rivedere il codice se sei uno sviluppatore. Ogni piccolo problema risolto fa felice qualcuno."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Translate][translations] missing strings in the app's interface."
-msgstr ""
+msgstr "[Traduci][translations] le stringhe di testo mancanti nell'interfaccia dell'app."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Translate [App Store][translations_appstore] and [Android][translations_googleplay] descriptions into your language."
-msgstr ""
+msgstr "Traduci le descrizioni dell'app su [App Store][translations_appstore] e [Google Play][translations_googleplay] nella tua lingua."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Translate][translations_website] our web site into your language."
-msgstr ""
+msgstr "[Traduci][translations_website] il nostro sito web nella tua lingua."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data."
-msgstr ""
+msgstr "Entra nella comunità [OpenStreetMap][openstreetmap] e contribuisci alle mappe."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app."
-msgstr ""
+msgstr "Sistema le \"città rosse\" individuate dal nostro [sistema di validazione del trasporto pubblico][public_transport_validator], affinché metro e tram funzionino all'interno dell'app."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
-msgstr ""
+msgstr "Aiuta altri utenti su [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Tell everyone about Organic Maps. A bigger community is a stronger community."
-msgstr ""
+msgstr "Racconta a tutti di Organic Maps. Una comunità più grande significa una comunità più forte."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Rate us in [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
-msgstr ""
+msgstr "Lascia una recensione su [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Any help is welcome!"
-msgstr ""
+msgstr "Ogni aiuto è benvenuto!"
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "Our small team is very grateful for your feedback and support. Organic Maps would not be possible without our users ❤️."
-msgstr ""
+msgstr "Il nostro piccolo team apprezza molto il vostro feedback e supporto. Organic Maps non esisterebbe senza i nostri utenti ❤️."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms of use for Organic Maps application"
-msgstr ""
+msgstr "Termini di utilizzo dell'applicazione Organic Maps"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/terms/index.md
@@ -753,27 +753,27 @@ msgstr "Termini"
 #: content/terms/index.md
 #, no-wrap
 msgid "Organic Maps: terms"
-msgstr ""
+msgstr "Organic Maps: termini"
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "This app is licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this application except in compliance with the License."
-msgstr ""
+msgstr "Questa applicazione è coperta dalla licenza Apache License, Version 2.0 (di seguito la \"Licenza\"); l'uso dell'applicazione è consentito esclusivamente sotto i termini della Licenza."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0][license]"
-msgstr ""
+msgstr "Una copia della Licenza (in inglese) è disponibile al link [http://www.apache.org/licenses/LICENSE-2.0][license]"
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
-msgstr ""
+msgstr "Salvo diversamente richiesto dalla normativa vigente o concordato per iscritto, il software distribuito sotto la Licenza viene fornito \"COSÌ COM'È\", SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, esplicite o implicite. Si veda la Licenza per una descrizione precisa delle autorizzazioni e limitazioni poste in atto dalla Licenza."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "Most libraries in the following directories on [GitHub][github] made by other people and organizations and licensed in different ways:"
-msgstr ""
+msgstr "La maggior parte delle librerie nei seguenti progetti su [GitHub][github] è stata realizzata da altre persone e organizzazioni e distribuita sotto licenze diverse:"
 
 #. type: Bullet: '- '
 #: content/terms/index.md
@@ -788,42 +788,42 @@ msgstr "Strumenti"
 #. type: Plain text
 #: content/terms/index.md
 msgid "Please refer to their LICENSE, COPYING or NOTICE files for terms of use."
-msgstr ""
+msgstr "Fare riferimento ai rispettivi file LICENSE, COPYING o NOTICE per i termini di utilizzo."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "See also [data/copyright.html][copyright] file for a full list of copyright notices for Organic Maps application."
-msgstr ""
+msgstr "Una lista completa dei copyright dell'applicazione Organic Maps è disponibile al link [data/copyright.html][copyright]."
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr ""
+msgstr "[github]: https://github.com/organicmaps/organicmaps"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[license]: http://www.apache.org/licenses/LICENSE-2.0"
-msgstr ""
+msgstr "[licenza]: http://www.apache.org/licenses/LICENSE-2.0"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
-msgstr ""
+msgstr "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
 
 #. type: Hash Value: address
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr "Indirizzi"
+msgstr "Indirizzo"
 
 #. type: Hash Value: back
 #: translations.yaml
 #, no-wrap
 msgid "Back to News"
-msgstr ""
+msgstr "Torna alle novità"
 
 #. type: Hash Value: contact
 #: translations.yaml
@@ -835,37 +835,37 @@ msgstr "Contattaci"
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr ""
+msgstr "Motori TTS (Text To Speech) supportati"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
-msgstr ""
+msgstr "Domande frequenti"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Huawei AppGallery"
-msgstr ""
+msgstr "Installa Organic Maps da Huawei AppGallery"
 
 #. type: Hash Value: install-appstore
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from the AppStore"
-msgstr ""
+msgstr "Installa Organic Maps dall'AppStore"
 
 #. type: Hash Value: install-fdroid
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from F-Droid"
-msgstr ""
+msgstr "Installa Organic Maps da F-Droid"
 
 #. type: Hash Value: install-googleplay
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Google Play"
-msgstr ""
+msgstr "Installa Organic Maps da Google Play"
 
 #. type: Hash Value: language
 #: translations.yaml

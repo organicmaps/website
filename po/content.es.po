@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-24 04:48+0000\nLast-Translator: Gonzalo Pesquero <gpesquero@yahoo.es>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-28 08:14+0000\nLast-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-rc\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -882,7 +882,7 @@ msgstr "Editar en GitHub"
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr "Compatibilidad con motores TTS"
+msgstr "Motores TTS admitidos"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
@@ -936,7 +936,7 @@ msgstr "Idioma"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr "Para más información, visite por favor nuestra página web"
+msgstr "Para obtener más información, visite nuestro sitio web"
 
 #. type: Hash Value: name
 #: translations.yaml

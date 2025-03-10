@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Pedro Azevedo <tico.pedro123@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\n"
-"Language: pt-BR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-07 08:42+0000\nLast-Translator: Matheus Gomes Correia <matheus.gomes03@hotmail.com>\nLanguage-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\nLanguage: pt-BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -57,10 +48,9 @@ msgstr "> Em 2023, Organic Maps [alcançou seu primeiro milhão de usuários](@/
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+#, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
-msgstr "Baixe e instale Organic Maps a partir da [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+msgstr "Baixe e instale Organic Maps a partir da [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -309,7 +299,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "Os patrocinadores institucionais abaixo forneceram subsídios direcionados para cobrir alguns custos de infraestrutura e financiar o desenvolvimento de novos recursos selecionados:"
 
 #. type: Plain text
 #: content/_index.md
@@ -357,7 +347,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n<tr>\n<td>\n<a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">O projeto de melhoria de Pesquisa e Fontes</a> foi <a href=\"https://nlnet.nl/project/OrganicMaps/\">financiado</a> pelo NGI0 Entrust Fund. <a href=\"https://nlnet.nl/entrust/\">O NGI0 Entrust Fund</a> é estabelecido pela <a href=\"https://nlnet.nl/\">NLnet Foundation</a> com apoio financeiro do <a href=\"https://www.ngi.eu/\">programa Next Generation Internet</a> da Comissão Europeia, sob a égide da DG Communications Networks, Content and Technology sob o acordo de subvenção n.º 101069594.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\">Google</a> apoiou os projetos de 5 alunos no programa Google Summer of Code durante <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> e <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Projetos notáveis incluem Android Auto e Wikipedia Dump Extractor.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> ISP <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">nos fornece</a> dois servidores virtuais com 400 TB/mês de largura de banda gratuita para hospedar e servir downloads e atualizações de mapas.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://44plus.vn\">44+ Technologies</a> está <a href=\"https://44plus.vn/organicmaps\">nos fornecendo </a> um servidor dedicado gratuito no valor de cerca de US$ 12.000/ano para servir mapas em todo o Vietnã e Sudeste Asiático.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://futo.org\">FUTO</a> <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">concedeu uma microdoação de US$ 1.000</a> para o Organic Maps em fevereiro de 2023.\n</td>\n</tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -427,10 +417,8 @@ msgstr "Siga nossas atualizações no [FOSStodon][fosstodon], [Mastodon][mastodo
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy
-#| msgid "Join (or create and let us know) local communities: [Hungarian translators Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr "Junte-se (ou crie e nos diga) às comunidades locais: [Sala Matrix de tradutores de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
+msgstr "Junte-se (ou crie e nos diga) às comunidades locais: [Sala Matrix de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats de Telegram em [chinês][telegram_chat_zh], [francês][telegram_chat_fr], [russo][telegram_chat_RU] ou [turco][telegram_chat_tr]."
 
 #. type: Link reference
 #: content/_index.md
@@ -890,7 +878,7 @@ msgstr "Contate-nos"
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Editar no GitHub"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -908,7 +896,7 @@ msgstr "Perguntas frequentes"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Ir ao início"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml
@@ -950,7 +938,7 @@ msgstr "Idioma"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Para obter mais informação, visite nosso site"
 
 #. type: Hash Value: name
 #: translations.yaml

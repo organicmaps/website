@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-09 19:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: French (Canada) <https://hosted.weblate.org/projects/organicmaps/website/fr_CA/>\nLanguage: fr-rCA\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-09 19:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Interlingua <https://hosted.weblate.org/projects/organicmaps/website/ia/>\nLanguage: ia\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,7 +16,7 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr "Accueil"
+msgstr "Initio"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Title ###
 #: content/_index.md
 #, markdown-text, no-wrap
-msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
 msgstr ""
 
 #. type: Plain text
@@ -84,7 +84,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "Functionalitates"
 
 #. type: Plain text
 #: content/_index.md
@@ -144,7 +144,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Free and open-source"
-msgstr ""
+msgstr "Codice aperte e libere"
 
 #. type: Title ##
 #: content/_index.md
@@ -338,23 +338,65 @@ msgstr ""
 msgid "{{ donate_buttons() }}"
 msgstr ""
 
-#. type: Title ###
-#: content/_index.md
-#, markdown-text, no-wrap
-msgid "Our sponsors:"
-msgstr "Nos sponsors"
-
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
-msgid "[Mythic Beasts](https://www.mythic-beasts.com/) ISP [provides us][mythic_beasts_donation] two virtual servers with 400 TB/month of free bandwidth to help our users with maps downloads and updates."
+msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
+msgstr ""
+
+#. type: Plain text
+#: content/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"<table style=\"border-spacing: 20px\">\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">The Search & Fonts improvement project</a> has been <a href=\"https://nlnet.nl/project/OrganicMaps/\">funded</a> through NGI0 Entrust Fund. <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> is established by the <a href=\"https://nlnet.nl/\">NLnet Foundation</a> with financial support from the European Commission's <a href=\"https://www.ngi.eu/\">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> and <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> ISP <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\">44+ Technologies</a> is <a href=\"https://44plus.vn/organicmaps\">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\">FUTO</a> has <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">awarded $1000 micro-grant</a> to Organic Maps in February 2023.\n"
+"    </td>\n"
+"  </tr>\n"
+"</table>\n"
 msgstr ""
 
 #. type: Title ##
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "Communitate"
 
 #. type: Plain text
 #: content/_index.md
@@ -431,7 +473,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
-msgid "Join (or create and let us know) local communities: [Hungarian translators Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
+msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
 msgstr ""
 
 #. type: Link reference
@@ -441,7 +483,7 @@ msgid "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
 msgstr ""
 
 #. type: Plain text
-#: content/_index.md content/donate/index.md content/support-us/index.md
+#: content/_index.md content/donate/index.md content/contribute/index.md
 #, markdown-text
 msgid "{{ references() }}"
 msgstr ""
@@ -456,7 +498,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr "Faire un don"
+msgstr "Facer un donation"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -570,7 +612,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Public Transport"
-msgstr "Public Transport"
+msgstr "Public transport"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -665,7 +707,7 @@ msgstr ""
 #. type: Plain text
 #: content/donate/index.md
 #, markdown-text
-msgid "Yes! There are many ways to support Organic Maps. Please see [Support Us](@/support-us/index.md) page for more details."
+msgid "Yes! There are many ways to support Organic Maps. Please see [Contribute](@/contribute/index.md) page for more details."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: description
@@ -678,7 +720,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr "Nouvelles"
+msgstr "Novas"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -696,7 +738,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr "Confidentialité"
+msgstr "Confidentialitate"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -735,109 +777,109 @@ msgid "<sub>This policy is effective as of 2021-04-24.</sub>\n"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: description
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, no-wrap
 msgid "Different ways to support the development of our free application"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, no-wrap
-msgid "Support Us"
-msgstr ""
+msgid "Contribute"
+msgstr "Contribuer"
 
 #. type: Yaml Front Matter Hash Value: title
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
 msgstr ""
 
 #. type: Plain text
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Organic Maps is a free, open-source app. It is free from ads, it does not collect your personal information, and it is developed by a few enthusiasts with the help of the community."
 msgstr ""
 
 #. type: Plain text
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "There are different ways to support the development:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "[Donate](@/donate/index.md)! Every dollar or euro counts and helps us to pay for servers and scale."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Report bugs and share ideas on our [GitHub][github] or via [email][email]."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "[Translate][translations] missing strings in the app's interface."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Translate [App Store][translations_appstore] and [Android][translations_googleplay] descriptions into your language."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "[Translate][translations_website] our web site into your language."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Tell everyone about Organic Maps. A bigger community is a stronger community."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Rate us in [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
 msgstr ""
 
 #. type: Bullet: '- '
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Any help is welcome!"
 msgstr ""
 
 #. type: Plain text
-#: content/support-us/index.md
+#: content/contribute/index.md
 #, markdown-text
 msgid "Our small team is very grateful for your feedback and support. Organic Maps would not be possible without our users ❤️."
 msgstr ""
@@ -852,7 +894,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr "Termes"
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
@@ -930,7 +972,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr "Adresse"
+msgstr "Address"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -942,6 +984,12 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
+msgstr "Contact us"
+
+#. type: Hash Value: edit-on-github
+#: translations.yaml
+#, no-wrap
+msgid "Edit on GitHub"
 msgstr ""
 
 #. type: Hash Value: engines
@@ -954,6 +1002,12 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
+msgstr ""
+
+#. type: Hash Value: go-to-top
+#: translations.yaml
+#, no-wrap
+msgid "Go to Top"
 msgstr ""
 
 #. type: Hash Value: install-appgallery
@@ -984,22 +1038,28 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr "Français (CA)"
+msgstr "English"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr "Langue"
+msgstr "Lingua"
+
+#. type: Hash Value: more-info-om
+#: translations.yaml
+#, no-wrap
+msgid "For more information please visit our web-site"
+msgstr ""
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr "Nom"
+msgstr "Nomine"
 
 #. type: Hash Value: token
 #: translations.yaml
 #, no-wrap
 msgid "Token"
-msgstr "Jeton"
+msgstr ""

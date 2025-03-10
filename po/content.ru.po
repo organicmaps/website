@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Organic Maps Website.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 12:41+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/organicmaps/website/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-08 11:22+0000\nLast-Translator: Am Heu <i3udddd@users.noreply.hosted.weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/organicmaps/website/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -438,12 +438,12 @@ msgstr "Зачем помогать Organic Maps?"
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps."
-msgstr ""
+msgstr "Наша цель - предоставить приватную, быструю и простую в использовании альтернативу Google Maps и Apple Maps."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
 msgid "Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal."
-msgstr ""
+msgstr "Ещё одной нашей целью является улучшение публичных картографических данных для многочисленных веб-сайтов, приложений и платформ, использующих OpenStreetMap, и привлечение большего числа людей к предоставлению картографической информации."
 
 #. type: Bullet: '3. '
 #: content/donate/index.md
@@ -455,18 +455,18 @@ msgstr "Мы полагаемся исключительно на ваши по�
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr ""
+msgstr "Мы любим то, что делаем, и любим наших пользователей. ❤️"
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Why a free project needs money?"
-msgstr ""
+msgstr "Почему бесплатному проекту нужны деньги?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "In 2023, Organic Maps got its first million users.  Our servers provide free, fast and frequent map updates all over the world."
-msgstr ""
+msgstr "В 2023 году у Organic Maps появился первый миллион пользователей. Наши серверы обеспечивают бесплатное, быстрое и частое обновление карт по всему миру."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
@@ -483,7 +483,7 @@ msgstr "При наличии достаточного количества де
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr ""
+msgstr "Резервное копирование и синхронизация меток и треков"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -493,7 +493,7 @@ msgstr "Запись GPS-треков с поддержкой GPX"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Satellite imagery"
-msgstr ""
+msgstr "Спутниковые снимки"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -503,12 +503,12 @@ msgstr "Общественный транспорт"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Traffic and accident reporting"
-msgstr ""
+msgstr "Данные о пробках и авариях"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Photos and Reviews"
-msgstr ""
+msgstr "Фото и Отзывы"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -843,13 +843,13 @@ msgstr "Связаться с нами"
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr ""
+msgstr "Поддерживаемые синтезаторы речи"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
-msgstr ""
+msgstr "Часто задаваемые вопросы"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml

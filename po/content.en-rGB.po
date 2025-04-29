@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-09 19:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: English (United Kingdom) <https://hosted.weblate.org/projects/organicmaps/website/en_GB/>\nLanguage: en-rGB\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-11 17:02+0000\nLast-Translator: Andi Chandler <andi@gowling.com>\nLanguage-Team: English (United Kingdom) <https://hosted.weblate.org/projects/organicmaps/website/en_GB/>\nLanguage: en-rGB\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -126,19 +126,19 @@ msgstr "Fast offline search on the map"
 #: content/_index.md
 #, markdown-text
 msgid "Export/import bookmarks in KML/KMZ, import GPX"
-msgstr ""
+msgstr "Export/import bookmarks in KML/KMZ, import GPX"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Dark Mode to protect your eyes"
-msgstr ""
+msgstr "Dark Mode to protect your eyes"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Countries and regions don't take a lot of space"
-msgstr ""
+msgstr "Countries and regions don't take a lot of space"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -150,19 +150,19 @@ msgstr "Free and Open Source"
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Why Organic?"
-msgstr ""
+msgstr "Why Organic?"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is pure and organic, made with love:"
-msgstr ""
+msgstr "Organic Maps is pure and organic, made with love:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Respects your privacy"
-msgstr ""
+msgstr "Respects your privacy"
 
 #. type: Bullet: '- '
 #: content/_index.md

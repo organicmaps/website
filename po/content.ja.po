@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Japanese <https://hosted.weblate.org/projects/organicmaps/website/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-04-24 03:58+0000\nLast-Translator: KOIZUMI Satoru <koizumistr@minos.ocn.ne.jp>\nLanguage-Team: Japanese <https://hosted.weblate.org/projects/organicmaps/website/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -36,19 +36,19 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**Organic Maps**はアクティブなインターネット接続なしで100％の機能をサポートする、今日では数少ないアプリケーションの1つです。Organic Mapsをインストールし、地図をダウンロードし、SIMカードを投げ捨てて、ネットワークにバイトを送信することなく1回の充電で1週間の旅行に出かけましょう。\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> 2023年にOrganic Mapsは[最初の100万ユーザを獲得しました](@/news/2023-12-23/281/index.md)。 規模の拡大に[協力してください](@/donate/index.md)!\n"
 
 #. type: Title ###
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
-msgstr ""
+msgstr "Organic Mapsを[AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery]からダウンロードしてインストールしましょう {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -162,13 +162,13 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Respects your privacy"
-msgstr ""
+msgstr "あなたのプライバシーを尊重します"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Saves your battery"
-msgstr ""
+msgstr "あなたのバッテリーを節約します"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -192,19 +192,19 @@ msgstr "広告なし"
 #: content/_index.md
 #, markdown-text
 msgid "No tracking"
-msgstr "追跡なし。"
+msgstr "追跡なし"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No data collection"
-msgstr ""
+msgstr "データ収集なし"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No phoning home"
-msgstr ""
+msgstr "自宅への電話なし"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -228,7 +228,7 @@ msgstr ""
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No push notifications"
-msgstr "プッシュ通知"
+msgstr "プッシュ通知なし"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -246,7 +246,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "The application is verified by [Exodus Privacy Project][exodus]:"
-msgstr ""
+msgstr "アプリケーションは[Exodus Privacy Project][exodus]により検証されています:"
 
 #. type: Plain text
 #: content/_index.md
@@ -258,7 +258,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "The iOS application is verified by [TrackerControl for iOS][trackercontrol]:"
-msgstr ""
+msgstr "iOSアプリは[TrackerControl for iOS][trackercontrol]により検証されています:"
 
 #. type: Plain text
 #: content/_index.md
@@ -270,7 +270,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps doesn't request excessive permissions to spy on you:"
-msgstr ""
+msgstr "Organic Mapsは、あなたをスパイするために過剰な許可を要求することはありません:"
 
 #. type: Plain text
 #: content/_index.md
@@ -282,7 +282,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "At Organic Maps, we believe that privacy is a fundamental human right:"
-msgstr ""
+msgstr "Organic Mapsでは、プライバシーは基本的人権であると考えています:"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -294,25 +294,25 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "We protect your privacy from Big Tech's prying eyes"
-msgstr ""
+msgstr "ビッグテックの詮索好きな目からあなたのプライバシーを守ります"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "どこにいても安全です"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
 #, markdown-text
 msgid "Reject surveillance - embrace your freedom."
-msgstr ""
+msgstr "監視を拒否しましょう - 自由を受け入れましょう。"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**[Give Organic Maps a try!](#install)**\n"
-msgstr ""
+msgstr "**[Organic Mapsを試してみましょう!](#install)**\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -342,7 +342,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Our sponsors:"
-msgstr "スポンサー"
+msgstr "スポンサー:"
 
 #. type: Plain text
 #: content/_index.md
@@ -360,13 +360,13 @@ msgstr "コミュニティ"
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is an [open-source software][github] licensed under the Apache License 2.0."
-msgstr ""
+msgstr "Organic MapsはApache License 2.0でライセンスされる[オープンソースソフトウェア][github]です。"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Please join our beta program, suggest your features, and report bugs:"
-msgstr ""
+msgstr "ベータプログラムに参加し、機能を提案し、バグを報告してください:"
 
 #. type: Bullet: '  * '
 #: content/_index.md
@@ -480,13 +480,13 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "No registration"
-msgstr "登録"
+msgstr "登録なし"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
 #, markdown-text
 msgid "Open source"
-msgstr "ソースを開く"
+msgstr "オープンソース"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -546,7 +546,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "With enough money, new features can be developed. To name a few:"
-msgstr ""
+msgstr "十分な資金があれば、新しい機能を開発できます。いくつか列挙しましょう:"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -660,13 +660,13 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Can you help us in any other way?"
-msgstr ""
+msgstr "他に何か私たちを助ける方法はありますか？"
 
 #. type: Plain text
 #: content/donate/index.md
 #, markdown-text
 msgid "Yes! There are many ways to support Organic Maps. Please see [Support Us](@/support-us/index.md) page for more details."
-msgstr ""
+msgstr "はい! Organic Mapsを支援する方法はたくさんあります。詳しくは[Support Us](@/support-us/index.md)のページをご覧ください。"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/news/_index.md
@@ -684,13 +684,13 @@ msgstr "ニュース"
 #: content/news/_index.md
 #, no-wrap
 msgid "Organic Maps: Latest news and updates from our team"
-msgstr ""
+msgstr "Organic Maps: チームからの最新のニュースと更新"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/privacy/index.md
 #, no-wrap
 msgid "No tracking, no ads, no data collection, no statistics collection, no spyware"
-msgstr ""
+msgstr "追跡なし、広告なし、データ収集なし、統計収集なし、スパイウェアなし"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/privacy/index.md
@@ -702,37 +702,37 @@ msgstr "プライバシー"
 #: content/privacy/index.md
 #, no-wrap
 msgid "Organic Maps: Privacy Policy"
-msgstr ""
+msgstr "Organic Maps: プライバシーポリシー"
 
 #. type: Plain text
 #: content/privacy/index.md
 #, markdown-text
 msgid "Organic Maps respects your privacy and DOES NOT TRACK YOU."
-msgstr ""
+msgstr "Organic Mapsはあなたのプライバシーを尊重し、あなたを追跡することはありません。"
 
 #. type: Plain text
 #: content/privacy/index.md
 #, markdown-text
 msgid "Unlike most other applications, there is no tracking, no ads, no spyware, no data and statistics collection in Organic Maps."
-msgstr ""
+msgstr "他のほとんどのアプリケーションと違い、Organic Mapsには追跡、広告、スパイウェア、データや統計の収集はありません。"
 
 #. type: Plain text
 #: content/privacy/index.md
 #, markdown-text
 msgid "Stay away from Big Tech's prying eyes!"
-msgstr ""
+msgstr "ビッグテックの詮索好きな目から遠ざかりましょう！"
 
 #. type: Plain text
 #: content/privacy/index.md content/terms/index.md
 #, markdown-text
 msgid "If you have any questions or suggestions, please contact us at [legal@organicmaps.app](mailto:legal@organicmaps.app)."
-msgstr ""
+msgstr "質問や意見があれば、[legal@organicmaps.app](mailto:legal@organicmaps.app)まで連絡してください。"
 
 #. type: Plain text
 #: content/privacy/index.md
 #, markdown-text, no-wrap
 msgid "<sub>This policy is effective as of 2021-04-24.</sub>\n"
-msgstr ""
+msgstr "<sub>このポリシーは2021-04-24から有効です。</sub>\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/support-us/index.md
@@ -750,61 +750,61 @@ msgstr "サポート"
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
-msgstr ""
+msgstr "Organic Mapsの開発を支援する"
 
 #. type: Plain text
 #: content/support-us/index.md
 #, markdown-text
 msgid "Organic Maps is a free, open-source app. It is free from ads, it does not collect your personal information, and it is developed by a few enthusiasts with the help of the community."
-msgstr ""
+msgstr "Organic Mapsは無料のオープンソースアプリです。広告がなく、個人情報を収集することもなく、数人の愛好家がコミュニティの助けを借りて開発しています。"
 
 #. type: Plain text
 #: content/support-us/index.md
 #, markdown-text
 msgid "There are different ways to support the development:"
-msgstr ""
+msgstr "開発を支援する様々な方法があります:"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "[Donate](@/donate/index.md)! Every dollar or euro counts and helps us to pay for servers and scale."
-msgstr ""
+msgstr "[寄付してください](@/donate/index.md)! 1ドル、1ユーロの積み重ねが私たちのサーバー代やスケールアップに役立ちます。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Report bugs and share ideas on our [GitHub][github] or via [email][email]."
-msgstr ""
+msgstr "[GitHub][github]または[email][email]でバグを報告し、アイデアを共有してください。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier."
-msgstr ""
+msgstr "開発者なら、[バグを修正し][contributing]、コードレビューするのを手伝ってください。小さな問題が修正されるたびに、誰かが幸せになります。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "[Translate][translations] missing strings in the app's interface."
-msgstr ""
+msgstr "アプリのインタフェースで欠けている文字列を[翻訳してください][translations]。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Translate [App Store][translations_appstore] and [Android][translations_googleplay] descriptions into your language."
-msgstr ""
+msgstr "[App Store][translations_appstore]と[Android][translations_googleplay]の説明をあなたの言語に翻訳してください。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "[Translate][translations_website] our web site into your language."
-msgstr ""
+msgstr "私たちのウェブサイトをあなたの言語に[翻訳してください][translations_website]。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data."
-msgstr ""
+msgstr "[OpenStreetMap][openstreetmap]コミュニティに参加して、地図データに貢献しましょう。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
@@ -816,25 +816,25 @@ msgstr ""
 #: content/support-us/index.md
 #, markdown-text
 msgid "Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
-msgstr ""
+msgstr "[GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]で他のユーザをサポートしてください。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Tell everyone about Organic Maps. A bigger community is a stronger community."
-msgstr ""
+msgstr "Organic Mapsのことをみんなに話してください。より大きなコミュニティはより強いコミュニティです。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Rate us in [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
-msgstr ""
+msgstr "[Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]で評価してください。"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md
 #, markdown-text
 msgid "Any help is welcome!"
-msgstr ""
+msgstr "どんな協力でも大歓迎です!"
 
 #. type: Plain text
 #: content/support-us/index.md
@@ -846,85 +846,85 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms of use for Organic Maps application"
-msgstr ""
+msgstr "Organic Mapsアプリケーション利用規約"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr "支払条件"
+msgstr "規約"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
 #, no-wrap
 msgid "Organic Maps: terms"
-msgstr ""
+msgstr "Organic Maps: 規約"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "This app is licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this application except in compliance with the License."
-msgstr ""
+msgstr "本アプリは、Apache License, Version 2.0（以下「本ライセンス」）の下でライセンスされています。本ライセンスに準拠する場合を除き、本アプリを使用することはできません。"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0][license]"
-msgstr ""
+msgstr "[http://www.apache.org/licenses/LICENSE-2.0][license]でライセンスのコピーを入手できます"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
-msgstr "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+msgstr "適用される法律で要求されるか、文書で合意されない限り、本ライセンスの下で頒布されるソフトウェアは「現状のまま」の状態で頒布され、明示的か黙示的かを問わず、いかなる種類の保証や条件も付されません。本ライセンスの下での許可と制限を規定する具体的な文言については、本ライセンスを参照 してください。"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "Most libraries in the following directories on [GitHub][github] made by other people and organizations and licensed in different ways:"
-msgstr ""
+msgstr "[GitHub][github]の以下のディレクトリにあるライブラリのほとんどは、他の人々や組織によって作られ、異なる方法でライセンスされています:"
 
 #. type: Bullet: '- '
 #: content/terms/index.md
 #, markdown-text
 msgid "3party"
-msgstr ""
+msgstr "3party"
 
 #. type: Bullet: '- '
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr "ツール"
+msgstr "tools"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "Please refer to their LICENSE, COPYING or NOTICE files for terms of use."
-msgstr ""
+msgstr "使用条件については、それらのLICENSE、COPYINGまたはNOTICEファイルを参照してください。"
 
 #. type: Plain text
 #: content/terms/index.md
 #, markdown-text
 msgid "See also [data/copyright.html][copyright] file for a full list of copyright notices for Organic Maps application."
-msgstr ""
+msgstr "Organic Mapsアプリケーションの著作権表示の完全なリストについては、[data/copyright.html][copyright]ファイルも参照してください。"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr "https://github.com/organicmaps/organicmaps/issues"
+msgstr "[github]: https://github.com/organicmaps/organicmaps"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[license]: http://www.apache.org/licenses/LICENSE-2.0"
-msgstr ""
+msgstr "[license]: http://www.apache.org/licenses/LICENSE-2.0"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
-msgstr ""
+msgstr "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
 
 #. type: Hash Value: address
 #: translations.yaml
@@ -960,31 +960,31 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Huawei AppGallery"
-msgstr ""
+msgstr "Organic MapsをHuawei AppGalleryからインストールする"
 
 #. type: Hash Value: install-appstore
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from the AppStore"
-msgstr ""
+msgstr "Organic MapsをAppStoreからインストールする"
 
 #. type: Hash Value: install-fdroid
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from F-Droid"
-msgstr ""
+msgstr "Organic MapsをF-Droidからインストールする"
 
 #. type: Hash Value: install-googleplay
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Google Play"
-msgstr ""
+msgstr "Organic MapsをGoogle Playからインストールする"
 
 #. type: Hash Value: language
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr "英語"
+msgstr "日本語"
 
 #. type: Hash Value: language-word
 #: translations.yaml

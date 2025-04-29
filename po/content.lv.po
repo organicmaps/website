@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: lv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 06:36+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Latvian <https://hosted.weblate.org/projects/organicmaps/website/lv/>\nLanguage: lv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\nX-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,13 +16,13 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "Sākums"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
 #, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 #. type: Plain text
 #: content/_index.md
@@ -84,7 +84,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "Funkcijas"
 
 #. type: Plain text
 #: content/_index.md
@@ -228,7 +228,7 @@ msgstr ""
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No push notifications"
-msgstr ""
+msgstr "Nav ziņojumi."
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -342,7 +342,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Our sponsors:"
-msgstr ""
+msgstr "Our sponsors"
 
 #. type: Plain text
 #: content/_index.md
@@ -354,7 +354,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "Kopiena"
 
 #. type: Plain text
 #: content/_index.md
@@ -456,7 +456,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "Ziedot"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -570,7 +570,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Public Transport"
-msgstr ""
+msgstr "Public Transport"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -630,7 +630,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Bank Transfer"
-msgstr ""
+msgstr "Bankas pārskaitījums"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -642,7 +642,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Crypto"
-msgstr ""
+msgstr "Kriptovalūta"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -678,7 +678,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr ""
+msgstr "Jaunumi"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "Privātums"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -744,7 +744,7 @@ msgstr ""
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support Us"
-msgstr ""
+msgstr "Atbalsts"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/support-us/index.md
@@ -852,7 +852,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr ""
+msgstr "Nosacījumi"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
@@ -894,7 +894,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr ""
+msgstr "Rīki"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -930,7 +930,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -942,7 +942,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "Sazināties ar mums"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -984,22 +984,22 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "Latviešu"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "Valoda"
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "Vārds"
 
 #. type: Hash Value: token
 #: translations.yaml
 #, no-wrap
 msgid "Token"
-msgstr ""
+msgstr "atslēga"

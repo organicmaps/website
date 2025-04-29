@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-22 19:44+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Hebrew <https://hosted.weblate.org/projects/organicmaps/website/he/>\nLanguage: iw\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-10 05:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Hebrew <https://hosted.weblate.org/projects/organicmaps/website/he/>\nLanguage: iw\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -14,13 +14,13 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Home"
 msgstr "דף הבית"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
 msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
@@ -82,7 +82,7 @@ msgstr ""
 
 #. type: Title ##
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Features"
 msgstr "יכולות"
 
@@ -142,7 +142,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Free and open-source"
 msgstr "תוכנה חופשית וקוד פתוח"
 
@@ -184,13 +184,13 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "No ads"
 msgstr "בלי פרסומות"
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "No tracking"
 msgstr "ללא מעקב."
 
@@ -340,7 +340,7 @@ msgstr ""
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Our sponsors:"
 msgstr "התומכים שלנו"
 
@@ -352,7 +352,7 @@ msgstr ""
 
 #. type: Title ##
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Community"
 msgstr "קהילה"
 
@@ -454,7 +454,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/donate/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Donate"
 msgstr "תרום"
 
@@ -484,7 +484,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: content/donate/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Open source"
 msgstr "קוד פתוח"
 
@@ -568,7 +568,7 @@ msgstr ""
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Public Transport"
 msgstr "תחבורה ציבורית"
 
@@ -628,7 +628,7 @@ msgstr ""
 
 #. type: Title ###
 #: content/donate/index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Bank Transfer"
 msgstr "העברה בנקאית"
 
@@ -640,7 +640,7 @@ msgstr ""
 
 #. type: Title ###
 #: content/donate/index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Crypto"
 msgstr "מטבעות דיגיטליים"
 
@@ -676,7 +676,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/news/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "News"
 msgstr "News"
 
@@ -694,7 +694,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/privacy/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Privacy"
 msgstr "פרטיות"
 
@@ -742,7 +742,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/support-us/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Support Us"
 msgstr "סיוע בפיתוח"
 
@@ -850,7 +850,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/terms/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Terms"
 msgstr "תנאים"
 
@@ -892,7 +892,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: content/terms/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "tools"
 msgstr "כלים"
 
@@ -928,7 +928,7 @@ msgstr ""
 
 #. type: Hash Value: address
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Address"
 msgstr "כתובת"
 
@@ -940,7 +940,7 @@ msgstr ""
 
 #. type: Hash Value: contact
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Contact Us"
 msgstr "יצירת קשר"
 
@@ -982,24 +982,24 @@ msgstr ""
 
 #. type: Hash Value: language
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "English"
 msgstr "אנגלית"
 
 #. type: Hash Value: language-word
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Language"
 msgstr "שפה"
 
 #. type: Hash Value: name
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Name"
 msgstr "שם"
 
 #. type: Hash Value: token
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Token"
 msgstr "אסימון"

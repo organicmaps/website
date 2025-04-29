@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-25 08:31+0000\nLast-Translator: Bora Atıcı <boratici.acc@gmail.com>\nLanguage-Team: Turkish <https://hosted.weblate.org/projects/organicmaps/website/tr/>\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 06:36+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Turkish <https://hosted.weblate.org/projects/organicmaps/website/tr/>\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -199,7 +199,6 @@ msgstr "Rahatsız edici spam e-posta yok"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
-#, fuzzy
 msgid "No push notifications"
 msgstr "Anlık Bildirimler"
 
@@ -419,7 +418,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/donate/index.md
 msgid "No registration"
-msgstr ""
+msgstr "Hesap açılışı"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
@@ -799,7 +798,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr ""
+msgstr "https://github.com/organicmaps/organicmaps/issues"
 
 #. type: Link reference
 #: content/terms/index.md

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: kn\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-10 05:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Kannada <https://hosted.weblate.org/projects/organicmaps/website/kn/>\nLanguage: kn\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,13 +16,13 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "ಹೋಂ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
 #, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 #. type: Plain text
 #: content/_index.md
@@ -84,7 +84,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "Features"
 
 #. type: Plain text
 #: content/_index.md
@@ -186,7 +186,7 @@ msgstr ""
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No ads"
-msgstr ""
+msgstr "ಜಾಹೀರಾತುಗಳಿಲ್ಲ"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -456,7 +456,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "ಕಾಣಿಕೆ ನೀಡಿ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -486,7 +486,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Open source"
-msgstr ""
+msgstr "ಮುಕ್ತ ಸಂಪನ್ಮೂಲ"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -570,7 +570,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Public Transport"
-msgstr ""
+msgstr "Public transport"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -678,7 +678,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr ""
+msgstr "ಸುದ್ದಿ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "ಗೌಪ್ಯತೆ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -744,7 +744,7 @@ msgstr ""
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support Us"
-msgstr ""
+msgstr "ಅಭಿವೃದ್ಧಿಗೆ ಸಹಾಯ ಮಾಡಿ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/support-us/index.md
@@ -852,7 +852,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr ""
+msgstr "ಅವಧಿಗಳು"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
@@ -894,7 +894,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr ""
+msgstr "ಪರಿಕರಗಳು"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -930,7 +930,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -942,7 +942,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "Contact us"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -984,22 +984,22 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "ಇಂಗ್ಲೀಷ್"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "ಭಾಷೆ"
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "ಹೆಸರು"
 
 #. type: Hash Value: token
 #: translations.yaml
 #, no-wrap
 msgid "Token"
-msgstr ""
+msgstr "ಟೋಕನ್"

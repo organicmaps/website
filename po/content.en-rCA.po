@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: en_CA\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-09 19:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: English (Canada) <https://hosted.weblate.org/projects/organicmaps/website/en_CA/>\nLanguage: en-rCA\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -678,7 +678,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr ""
+msgstr "News"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "Privacy"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -930,7 +930,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -990,13 +990,13 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "Language"
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. type: Hash Value: token
 #: translations.yaml

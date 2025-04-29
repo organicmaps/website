@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-22 19:44+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Macedonian <https://hosted.weblate.org/projects/organicmaps/website/mk/>\nLanguage: mk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-10 05:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Macedonian <https://hosted.weblate.org/projects/organicmaps/website/mk/>\nLanguage: mk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -14,13 +14,13 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Home"
 msgstr "Дома"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
 msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
@@ -82,7 +82,7 @@ msgstr ""
 
 #. type: Title ##
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Features"
 msgstr "Карактеристики"
 
@@ -340,7 +340,7 @@ msgstr ""
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Our sponsors:"
 msgstr "Our sponsors"
 
@@ -352,7 +352,7 @@ msgstr ""
 
 #. type: Title ##
 #: content/_index.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Community"
 msgstr "Заедница"
 
@@ -454,7 +454,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/donate/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Donate"
 msgstr "Донирај"
 
@@ -568,7 +568,7 @@ msgstr ""
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Public Transport"
 msgstr "Javen transport"
 
@@ -676,7 +676,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/news/_index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "News"
 msgstr "Вести"
 
@@ -694,7 +694,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/privacy/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Privacy"
 msgstr "Приватност"
 
@@ -850,7 +850,7 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/terms/index.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Terms"
 msgstr "terms"
 
@@ -892,7 +892,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: content/terms/index.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "tools"
 msgstr "Алатки"
 
@@ -928,7 +928,7 @@ msgstr ""
 
 #. type: Hash Value: address
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Address"
 msgstr "Адреса"
 
@@ -940,7 +940,7 @@ msgstr ""
 
 #. type: Hash Value: contact
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Contact Us"
 msgstr "Contact us"
 
@@ -982,19 +982,19 @@ msgstr ""
 
 #. type: Hash Value: language
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "English"
 msgstr "Angliski"
 
 #. type: Hash Value: language-word
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Language"
 msgstr "Јазик"
 
 #. type: Hash Value: name
 #: translations.yaml
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Name"
 msgstr "Име"
 

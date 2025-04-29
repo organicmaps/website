@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: gu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 06:36+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Gujarati <https://hosted.weblate.org/projects/organicmaps/website/gu/>\nLanguage: gu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,13 +16,13 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "ઘર"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
 #, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 #. type: Plain text
 #: content/_index.md
@@ -354,7 +354,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "સમુદાય"
 
 #. type: Plain text
 #: content/_index.md
@@ -456,7 +456,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "દાન કરો"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "ગોપનીયતા"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -744,7 +744,7 @@ msgstr ""
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support Us"
-msgstr ""
+msgstr "સહાયતા"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/support-us/index.md
@@ -852,7 +852,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr ""
+msgstr "સમયગાળો"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
@@ -894,7 +894,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr ""
+msgstr "Tools"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -930,7 +930,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -942,7 +942,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "સંપર્ક કરો"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -984,19 +984,19 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "અંગ્રેજી"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "ભાષા"
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "નામ"
 
 #. type: Hash Value: token
 #: translations.yaml

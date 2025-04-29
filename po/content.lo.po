@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: lo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-10 02:27+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Lao <https://hosted.weblate.org/projects/organicmaps/website/lo/>\nLanguage: lo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,13 +16,13 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "ຫນ້າທໍາອິດ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
 #, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 #. type: Plain text
 #: content/_index.md
@@ -354,7 +354,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "ຊຸມຊົນ"
 
 #. type: Plain text
 #: content/_index.md
@@ -456,7 +456,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "ບໍລິຈາກ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "ຄວາມເປັນສ່ວນຕົວ"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -942,7 +942,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "ຕິດຕໍ່ຫາພວກເຮົາ"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -984,13 +984,13 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "ພາສາອັງກິດ"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "ພາສາ"
 
 #. type: Hash Value: name
 #: translations.yaml

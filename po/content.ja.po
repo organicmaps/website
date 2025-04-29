@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-10 05:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Japanese <https://hosted.weblate.org/projects/organicmaps/website/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,13 +16,13 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
 #, no-wrap
 msgid "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-msgstr ""
+msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 #. type: Plain text
 #: content/_index.md
@@ -84,7 +84,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "機能"
 
 #. type: Plain text
 #: content/_index.md
@@ -144,7 +144,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Free and open-source"
-msgstr ""
+msgstr "FOSS"
 
 #. type: Title ##
 #: content/_index.md
@@ -186,13 +186,13 @@ msgstr ""
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No ads"
-msgstr ""
+msgstr "広告なし"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No tracking"
-msgstr ""
+msgstr "追跡なし。"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -228,7 +228,7 @@ msgstr ""
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No push notifications"
-msgstr ""
+msgstr "プッシュ通知"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -342,7 +342,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Our sponsors:"
-msgstr ""
+msgstr "スポンサー"
 
 #. type: Plain text
 #: content/_index.md
@@ -354,7 +354,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "コミュニティ"
 
 #. type: Plain text
 #: content/_index.md
@@ -456,7 +456,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "寄付"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -486,7 +486,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Open source"
-msgstr ""
+msgstr "ソースを開く"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -570,7 +570,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Public Transport"
-msgstr ""
+msgstr "公共交通機関"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -630,7 +630,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Bank Transfer"
-msgstr ""
+msgstr "銀行振込"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -642,7 +642,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Crypto"
-msgstr ""
+msgstr "暗号通貨"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -678,7 +678,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -696,7 +696,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "プライバシー"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -852,7 +852,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms"
-msgstr ""
+msgstr "支払条件"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/terms/index.md
@@ -876,7 +876,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
-msgstr ""
+msgstr "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
 
 #. type: Plain text
 #: content/terms/index.md
@@ -894,7 +894,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr ""
+msgstr "ツール"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -930,7 +930,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "住所"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -942,7 +942,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "お問い合わせ"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -984,22 +984,22 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "英語"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #. type: Hash Value: name
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #. type: Hash Value: token
 #: translations.yaml
 #, no-wrap
 msgid "Token"
-msgstr ""
+msgstr "トークン"

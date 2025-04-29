@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 21:45+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 21:45+0000\nLast-Translator: Fjuro <fjuro@users.noreply.hosted.weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -48,10 +48,9 @@ msgstr "> V roce 2023 získaly Organic Maps [první milion](@/news/2023-12-23/28
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+#, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
-msgstr "Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [F-Droid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+msgstr "Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -418,10 +417,8 @@ msgstr "Sledujte naše aktualizace na [FOSStodon][fosstodon], [Mastodonu][mastod
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy
-#| msgid "Join (or create and let us know) local communities: [Hungarian translators Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr "Připojte se (nebo vytvořte vlastní a dejte nám vědět) k lokálním komunitám: [místnost Matrix maďarských překladatelů](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
+msgstr "Připojte se (nebo vytvořte vlastní a dejte nám vědět) k lokálním komunitám: [maďarská místnost Matrix maďarských překladatelů](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Čínský][telegram_chat_zh], [Francouzský][telegram_chat_fr], [Ruský][telegram_chat_ru], [Turecký][telegram_chat_tr] chat na Telegramu."
 
 #. type: Link reference
 #: content/_index.md

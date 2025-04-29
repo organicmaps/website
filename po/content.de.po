@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: \"J. Lavoie\" <j.lavoie@net-c.ca>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-27 19:45+0000\nLast-Translator: mcliquid <info@mcliquid.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-rc\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -55,10 +46,9 @@ msgstr "> Im Jahr 2023 erreichte Organic Maps [seine ersten Million](@/news/2023
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+#, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
-msgstr "Organic Maps von [AppStore][appstore], [Google Play][googleplay], [F-Droid][fdroid], [Huawei AppGallery][appgallery] herunterladen und installieren {#install}"
+msgstr "Organic Maps von [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] herunterladen und installieren {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -307,7 +297,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren haben zweckgebundene Zuschüsse zur Deckung einiger Infrastrukturkosten und zur Finanzierung der Entwicklung neuer ausgewählter Funktionen bereitgestellt:"
 
 #. type: Plain text
 #: content/_index.md
@@ -355,7 +345,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"Die NLnet-Stiftung\" width=\"200px\"></a>\n    </td>\n    <td>\n      Das <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Such- & Schriftverbesserungsprojekt</a> wurde durch das <a href=\"https://nlnet.nl/project/OrganicMaps/\">NGI0 Entrust Fund</a> finanziert. Das <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> wurde von der <a href=\"https://nlnet.nl/\">NLnet-Stiftung</a> mit finanzieller Unterstützung der Europäischen Kommission im Rahmen des <a href=\"https://www.ngi.eu/\">Next Generation Internet-Programms</a> eingerichtet, unter der Schirmherrschaft der Generaldirektion Kommunikationsnetze, Inhalte und Technologie im Rahmen des Fördervertrags Nr. 101069594.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> unterstützte 5 Studierendenprojekte im Rahmen des Google Summer of Code-Programms in den Jahren <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> und <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Zu den bemerkenswerten Projekten gehörten Android Auto und Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      Der Internetanbieter <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">stellt uns</a> zwei virtuelle Server mit 400 TB/Monat kostenlosem Datenverkehr zur Verfügung, um Karten-Downloads und Updates zu hosten und bereitzustellen.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> <a href=\"https://44plus.vn/organicmaps\">stellt uns</a> einen kostenlosen dedizierten Server im Wert von rund 12.000 USD/Jahr zur Verfügung, um Karten in Vietnam und Südostasien bereitzustellen.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> hat Organic Maps im Februar 2023 mit einem <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">$1000-Mikrogrant</a> ausgezeichnet.\n    </td>\n  </tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -425,10 +415,8 @@ msgstr "Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon], [Mastodon][masto
 
 #. type: Bullet: '- '
 #: content/_index.md
-#, fuzzy
-#| msgid "Join (or create and let us know) local communities: [Hungarian translators Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr "Trete lokalen Gemeinschaften bei (oder erstelle eine und informiere uns): [Ungarische Übersetzer Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)"
+msgstr "Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen): [Ungarischer Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinesisch-][telegram_chat_zh], [Französisch-][telegram_chat_fr], [Russisch-][telegram_chat_ru], [Türkisch-][telegram_chat_tr]sprachige Telegram-Chats."
 
 #. type: Link reference
 #: content/_index.md
@@ -888,7 +876,7 @@ msgstr "Kontakt"
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Auf GitHub bearbeiten"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -906,7 +894,7 @@ msgstr "FAQ"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Nach oben"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml
@@ -948,7 +936,7 @@ msgstr "Sprache"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Weitere Informationen findest du auf unserer Website"
 
 #. type: Hash Value: name
 #: translations.yaml

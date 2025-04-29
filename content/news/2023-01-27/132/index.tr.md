@@ -2,8 +2,6 @@
 title: "Organic Maps'in Ocak 2023 güncellemesi ile tanışın"
 date: 2023-01-27T21:26:12+00:00
 slug: "meet-the-january-2023-update-of-organic-maps"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Organic Maps'in Ocak 2023 güncellemesiyle tanışın! Umarız harika bir tatil geçirmişsinizdir ve seyahat etmekten, ilginç yerleri görmekten, başka kültürlere sahip insanlarla tanışmaktan keyif almışsınızdır.

@@ -2,8 +2,6 @@
 title: "Finally, meet the updated Organic Maps in Google Play"
 date: 2022-02-21T17:06:29+00:00
 slug: "finally-meet-the-updated-organic-maps-in-google-play"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Finally, meet the updated Organic Maps in [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)!

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero-sub" style="background-image: url({{ page.extra.hero_image | safe }})">
+    <div class="container hero-sub__container">
+        <nav class="bred-crum">
+            <ul class="bred-crum__row">
+                <li class="bred-crum__item">
+                    <a class="nav-bred bred-crum__link" href="/">{{ page.extra.menu_title_pre }}</a>
+                </li>
+                <li class="bred-crum__item">
+                    <span class="nav-bred">
+                        >
+                    </span>
+                </li>
+                <li class="bred-crum__item">
+                    <a class="nav-bred bred-crum__link bred-crum--active"
+                       href="/{{ page.extra.hero_title | lower }}">{{ page.extra.hero_title }}</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero-sub__content">
+            <h1 class="h1 hero-sub__title">
+                {{ page.extra.hero_title | safe }}
+            </h1>
+
+
+        </div>
+    </div>
+</section>
+<section class="search">
+    <div class="container search__container">
+        <label class="search__label" for="inpSearch">
+            {% include 'ui/search.html' %}
+            <input class="search__input" id="inpSearch" type="text" placeholder="Search">
+        </label>
+    </div>
+</section>
+
+
+<section class="faq-post">
+    <div class="container faq-page-list__row">
+        <h2 class="h2-inter faq-page-list__title">App</h2>
+        <div class="line line--full"></div>
+        <h2 class="h1-inter faq-page-list__title">How to edit or move bookmarks?</h2>
+        <div class="faq-page-list__buttons">
+
+            <button class="button button--line-min">Android</button>
+            <button class="button button--line-min">iOS</button>
+            <button class="button button--line-min">MacOS</button>
+            <button class="button button--line-min">Linux</button>
+
+        </div>
+        <div class="faq-page-list__row">
+            <div class="faq-page-list__item">
+                <div class="faq-page-list__img">
+                    <img src="/images/faq/single-faq/image-1.png" alt="img">
+                </div>
+                <div class="faq-page-list__content">
+                    <p class="p faq-page-list__text">To edit a bookmark use longtap menu or hit "Edit bookmark" when bookmark is selected on map.</p>
+                </div>
+            </div>
+            <div class="faq-page-list__item">
+                <div class="faq-page-list__img">
+                    <img src="/images/faq/single-faq/image-2.png" alt="img">
+                </div>
+                <div class="faq-page-list__content">
+                    <p class="p faq-page-list__text">You can change bookmark name, description, color, and folder. Don't forget to tap "Save".</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock content %}

@@ -2,8 +2,6 @@
 title: "The June release is available only in the AppStore and Huawei AppGallery, the FDroid update is delayed for technical reasons and the Google Play update is still in review for more than one week"
 date: 2022-06-28T06:10:20+00:00
 slug: "the-june-release-is-available-only-in-the-appstore-and-huawei-appgallery-the-fdroid-update-is-delayed-for-technical-reasons-and-the-google-play-update-is-still-in-review-for-more-than-one-week"
-taxonomies:
-  news: ["Releases"]
 ---
 
 The June release is available only in the [AppStore](https://apps.apple.com/app/organic-maps/id1567437057) and [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611), the FDroid update is delayed for technical reasons and the Google Play update is still in review for more than one week. Maybe it’s not so bad, as we expect potential crashes on some older Android devices in that release and forgot to activate Marathi translations. No worries, these and other issues have already been fixed and soon will be available in another update 😉

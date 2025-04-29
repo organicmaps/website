@@ -2,8 +2,6 @@
 title: "Meet new January Organic Maps app update, with many improvements from our beloved contributors 🙏"
 date: 2022-01-14T14:44:07+00:00
 slug: "meet-new-january-organic-maps-app-update-with-many-improvements-from-our-beloved-contributors"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Meet new January Organic Maps app update, with many improvements from our beloved contributors 🙏!

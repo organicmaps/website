@@ -1,0 +1,100 @@
+@import "../variables/media";
+.button {
+  width: fit-content;
+  padding: 12rem 16rem;
+  min-width: 133rem;
+//   display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font: var( --nav-link);
+  color: var(--common-white);
+  text-decoration: none;
+  border-radius: var(--border-r-8);
+  transition: background-color var(--transition), color var(--transition);
+  gap: 10rem;
+  cursor: pointer;
+  &:hover {
+    // transition: background-color var(--transition);
+    background-color: var(--common-green-hover);
+  }
+  &--main {
+  background-color: var(--common-green);
+  }
+//   &--white {
+//     border-color: #fff;
+//     color: var(--common-green);
+//     background-color: #fff;
+//     &:hover, &:focus {border-color: var(--common-green-primery); color: var(--common-green); background-color: var(--common-green-primery);}
+//   }
+  &--line {
+    color: var(--green-button);
+    background-color: transparent;
+    border: 1rem solid var(--green-button);
+    &:hover {
+      color: var(--common-white);
+    }
+  }
+  &--line-min {
+    min-width: auto;
+    font: var(--nav-bred);
+    padding: 7rem 10rem;
+    color: var(--green-button);
+    background-color: transparent;
+    border: 1rem solid var(--green-button);
+    &:hover {
+      color: var(--common-white);
+    }
+  }
+  &--transparent {
+    color: var(--green-button);
+    transition: transform var(--transition);
+    padding: 10rem 0;
+    min-width: fit-content;
+    &:hover {
+      transition: background-color var(--transition);
+      background-color: transparent;
+      transition: transform var(--transition);
+      transform: scale(1.1);
+    }
+  }
+
+  &--card {
+    max-width: 170rem;
+    text-align: left;
+    background-color: var(--common-green-btn-social);
+    font: var(--p-sub);
+    gap: 10rem;
+    padding: 8rem;
+    flex-direction: row-reverse;
+    svg {
+        flex-shrink: 0;
+      transform: scaleX(-1);
+    }
+  }
+
+  &--white {
+    background-color: var(--common-white);
+    color: var(--common-green);
+    border: 1px solid transparent;
+    transition: 300ms ease;
+    &:hover {
+      border: 1px solid #fff;
+      color: var(--common-white);
+    }
+  }
+}
+
+
+.button--appdownload {padding-inline: 12rem; height: 40rem; display: inline-flex; gap: 8rem; align-items: center; justify-content: center; border-radius: 4rem; font-size: 14rem; line-height: 20rem; text-align: center; text-decoration: none; color: var(--common-white); background: var(--common-black); white-space: nowrap;
+    svg {width: auto; height: 20rem; flex-shrink: 0;}
+
+    @media (max-width: $media-sm) {
+        padding-inline: 8rem;
+    }
+}
+
+.button--outlined {padding-inline: 12rem; height: 44rem; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--green-button); border-radius: 8rem; text-decoration: none; text-align: center; color: var(--green-button);
+    &:hover, &:focus {background-color: var(--green-button); color: var(--common-white);}
+}

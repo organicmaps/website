@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block meta_description %}
+  <meta name="description" content="{{ trans(key='faq_content', lang=lang) }}">
+{% endblock %}
+
+{% block content %}
+{% set section = get_section(path="news/_index.md") %}
+{# get_section() does contain paginator, so have to create a custom pagination for this page if used #}
+<section class="hero-sub" style="background-image: url(/images/news/hero-img.png);">
+    <div class="container hero-sub__container">
+        <div class="hero-sub__content">
+            <h1 class="h1 hero-sub__title">
+                {{ section.title }}
+                {# {{ resource_title }}
+                {{ taxonomy.name }} #}
+            </h1>
+        </div>
+    </div>
+</section>
+<div class="container  main-news__nav">
+    <div class="main-news__nav-row">
+        {% for term in terms %}
+            <a href="{{ term.permalink }}">{{ term.name }}</a>
+        {% endfor %}
+        <button class="button button--main">{{ trans(key='all_title', lang=lang) }}</button>
+        <button class="button button--line">{{ trans(key='news_title', lang=lang) }}</button>
+        <button class="button button--line">{{ trans(key='releases_title', lang=lang) }}</button>
+    </div>
+</div>
+{% endblock content %}

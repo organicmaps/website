@@ -1,0 +1,395 @@
+@import "../variables/media";
+
+.crowdfunding {
+  color: var(--common-black);
+
+  .hero-sub__title, .hero-sub__description, .nav-bred {
+    color: var(--common-black);
+  }
+
+  &:before {
+    background: linear-gradient(90deg, rgba(242, 250, 246, 0.81) 0%, rgba(204, 225, 215, 0.00) 100%);
+
+  }
+}
+
+.crowdfunding-loc {
+  padding: var(--container-mob-section) 0 80rem;
+  @media (max-width: $media-sm) {
+    padding-bottom: 60rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50rem;
+    position: relative;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+      gap: 20rem;
+    }
+  }
+
+  &__content {
+    padding-block: 24rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+    @media (max-width: $media-sm) {
+        padding-block: 0;
+        gap: 10rem;
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      color: var(--point-color);
+      opacity: 0.07;
+    }
+  }
+
+  &__img-row {position: relative;
+    @media (max-width: $media-sm) {
+        display: none;
+    }
+  }
+  &__img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20rem;
+  }
+
+  &__img-holder {display: none;
+    @media (max-width: $media-sm) {
+        margin-block: 12rem;
+        display: block;
+    }
+    img {position: static; height: 190px;}
+  }
+
+  &__text {
+    @media (max-width: $media-sm) {
+      font-size: 14rem;
+    }
+  }
+
+  &__button {text-align: center;
+    @media (max-width: $media-sm) {
+      display: none;
+    }
+  }
+}
+
+.crowdfunding-card {
+  .services-support {
+    &__title-row {
+      display: flex;
+      gap: 16rem;
+      align-items: center;
+      margin-bottom: 14rem;
+      @media (max-width: $media-sm) {
+        gap: 24rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    &__icon {
+      margin-left: 0;
+      background: var(--circle-check-bg);
+      color: var(--circle-check-color);
+      @media (max-width: $media-sm) {
+        svg {width: 20rem; height: 20rem;}
+      }
+    }
+
+    &__count {gap: 4rem;
+        @media (max-width: $media-sm) {
+            gap: 16rem;
+        }
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60rem;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+      gap: 20rem;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 20rem;
+    margin-bottom: 20rem;
+    @media (max-width: $media-sm) {
+        margin-bottom: 6rem;
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+    }
+  }
+
+  &__item {
+    .donate {position: relative;
+    //   padding: 70rem 20rem;
+      margin: 0;
+      height: 100%;
+      @media (max-width: $media-sm) {
+        padding: 20rem 0rem;
+      }
+
+      &__container {
+        position: relative;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+
+      }
+
+      &__img {
+        @media (max-width: $media-sm) {
+          margin: 0 auto;
+        }
+      }
+      &__bg {position: absolute; margin-bottom: 0; border-radius: 0;}
+    }
+  }
+  .services-support__sub-title {padding: 0; font-weight: 500;}
+  &__text {
+    @media (max-width: $media-sm) {
+      font-size: 14rem;
+    }
+  }
+}
+
+.crowdfunding-support {
+  padding: 80rem 0;
+  @media (max-width: $media-sm) {
+    margin: 0 15rem;
+    padding-block: 50rem;
+  }
+
+  &__container {
+    background-color: var(--bg-green);
+    padding: 50rem;
+    border-radius: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 62rem;
+    align-items: center;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+      gap: 20rem;
+      padding: 30rem 15rem;
+
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 20rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+  }
+  &__text p {margin-bottom: 24rem;
+    &:last-child {margin-bottom: 0;}
+
+    @media (max-width: $media-sm) {
+        font-size: 14rem;
+        line-height: 24rem;
+    }
+  }
+}
+
+.crowdfunding-card-v2 {
+    .h6-bold {margin-bottom: 6rem;}
+  &__content {
+    margin-top: 25rem;
+    background-color: var(--bg-green);
+    padding: 35rem;
+    border-radius: 20rem;
+    @media (max-width: $media-sm) {
+      margin-top: -20rem;
+      padding: 35rem 15rem 20rem;
+    }
+  }
+
+  &__text {color: var(--text-commongrey-white);}
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30rem;
+
+    &:nth-child(2n) {
+      img {
+        order: 2;
+      }
+    }
+
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+      &:nth-child(2n) {
+        img {
+          order: 0;
+        }
+      }
+    }
+  }
+
+  &__row {
+    padding: 40rem 0;
+    display: grid;
+    gap: 40rem;
+    @media (max-width: $media-sm) {
+      padding: 20rem 0 0rem;
+      gap: 20rem;
+    }
+  }
+
+  &__num {
+    width: 81rem;
+    height: 81rem;
+    border-radius: 81rem;
+    background-color: var(--common-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--common-white);
+    font-family: var(--sub-fonst);
+    margin: -60rem 0 10rem;
+  }
+
+  &__title {
+    margin-bottom: 10rem;
+    font-weight: 500;
+    @media (max-width: $media-sm) {
+        margin-top: -50rem;
+        margin-bottom: 30rem;
+        padding-left: 100rem;
+    }
+  }
+
+  &__button {
+    padding: 20rem 84rem;
+    margin: 0 auto;
+    font-size: 18rem;
+    @media (max-width: $media-sm) {
+        margin-top: 10rem;
+        padding: 14rem 44rem;
+        font-size: 16rem;
+    }
+  }
+
+}
+
+.crowdfunding-journey {
+  margin: var(--container-mob-section) 0;
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20rem;
+    // display: block;
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // max-width: 400rem;
+    @media (max-width: $media-sm) {
+        margin-bottom: 10rem;
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: minmax(430rem, 1fr) 2fr;
+    gap: 40rem;
+    position: relative;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+    }
+     @media (max-width: $media-sm) {
+       text-align: center;
+     }
+  }
+
+  &__title {
+    margin-bottom: 20rem;
+  }
+
+  &__card {
+    margin: 20rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1rem dashed var(--text-green-lgreen);
+    border-radius: 20rem;
+    padding: 14rem 60rem;
+    gap: 20rem;
+    @media (max-width: $media-md) {
+        padding: 10rem 20rem;
+    }
+    @media (max-width: $media-sm) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 24rem;
+    }
+
+    svg {
+      color: var(--common-green);;
+      flex-shrink: 0;
+    }
+  }
+
+  &__media {
+    @media (max-width: $media-sm) {
+        display: none;
+    }
+  }
+  &__media-holder {
+    display: none;
+    @media (max-width: $media-sm) {
+        display: block;
+    }
+  }
+}
+
+
+.donate {position: relative; overflow: hidden;
+    .donate__container {gap: 0; position: relative; z-index: 5;}
+    .donate__title {font-size: 32px; line-height: 1.2;}
+    .donate__icon {margin-bottom: 60rem;}
+    .donate__text--holder {width: 75%;}
+    .donate__description {font-weight: 400; font-size: 32rem; line-height: 1.3;}
+    .donate__bg {position: absolute; top: 32%; left: 16%; z-index: -1;
+        svg {width: 743px; height: auto; color: #fff; opacity: 0.4;}
+    }
+}

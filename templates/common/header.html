@@ -1,0 +1,87 @@
+{% set langPathPrefix = '' %}
+{% if lang != config.default_language %}
+{% set langPathPrefix = '/' ~ lang %}
+{% endif %}
+<div class="container header__container" id="menu" role="navigation">
+    <a class="header__logo logo" href="{{ langPathPrefix | safe }}/">{% include 'ui/logo.html' %}</a>
+    <div class="header__row">
+        {# get_section(path="community/index.md"),
+        get_section(path="donate/index.md"),
+        get_section(path="support-us/index.md"),
+        get_section(path="about-us/index.md"),
+        get_section(path="api/index.md"), #}
+        <ul class="header__ul">
+            <li class="header__nav header__link">
+                <a href="/community/">Community</a>
+            </li>
+            <li class="header__nav header__link">
+                <a href="/donate/">Donate</a>
+            </li>
+            <li class="header__nav header__link">
+                <a href="/support/">Help</a>
+            </li>
+            <li class="header__nav header__link">
+                <a href="/about-us/">About us</a>
+            </li>
+        </ul>
+        <div class="header__mobile">
+            <div class="header__item">
+                <div class="header-involved">
+                    <h3 class="h3-bold header__h3">Get Involved</h3>
+                    <div class="header__card-holder">
+                        <a href="/donate/" class="header__card">
+                            {{ load_data(path="static/images/icons/heart.svg") | safe }}
+                            <h5 class="h4 header__icon-title">
+                                Donate
+                            </h5>
+                        </a>
+                        <a href="/community/" class="header__card">
+                            {{ load_data(path="static/images/icons/codeblock.svg") | safe }}
+                            <h5 class="h4 header__icon-title">
+                                Contribute Code
+                            </h5>
+                        </a>
+                        <a href="/community/" class="header__card">
+                            {{ load_data(path="static/images/icons/mappin.svg") | safe }}
+                            <h5 class="h4 header__icon-title">
+                                Contribute Location Info
+                            </h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-download">
+                    <h3 class="h3-bold header__h3">Freedom Awaits</h3>
+                    <p class="p-sm-light">
+                        Download now
+                    </p>
+                    <div class="header__app-link">
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/google-play.svg") | safe }}
+                            Google Play
+                        </a>
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/app-store.svg") | safe }}
+                            App Store
+                        </a>
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/f-droid.svg") | safe }}
+                            F-Droid
+                        </a>
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/app-gallery.svg") | safe }}
+                            App Gallery
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__btn">
+        {{ macros::button_download() }}
+    </div>
+    <div class="header__menu-btn">
+        <div class="header__close-line"></div>
+        <div class="header__close-line"></div>
+        <div class="header__close-line"></div>
+    </div>
+</div>

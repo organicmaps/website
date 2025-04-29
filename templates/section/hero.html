@@ -1,0 +1,16 @@
+<section class="hero home-page">
+    <div class="container hero__container">
+        <div class="hero__content">
+            <h1 class="h1 hero__title">
+                {{ resource.title }}
+            </h1>
+            {% if resource.description %}
+                <div class="h1-sub hero__description">
+                    {{ resource.description | markdown | safe }}
+                </div>
+            {% endif %}
+            {{ macros::button_download(class="button--main") }}
+        </div>
+        <img class="hero__image" src="/images/sections/hero.webp" alt="{{ resource.title }}">
+    </div>
+</section>

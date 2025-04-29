@@ -1,0 +1,19 @@
+.icon-green {
+  background-color: var(--common-green);
+  color: var(--common-white);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 8rem;
+  border-radius: 8rem;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--dots-color)!important;
+  opacity: 1!important;
+  width: 22rem!important;
+  height: 22rem!important;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--common-green)!important;
+}

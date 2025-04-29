@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.hero_title, desp=page.description, donate=true) }}
+
+<section class="crowdfunding-loc">
+    <div class="container crowdfunding-loc__container">
+        <div class="crowdfunding-loc__content">
+            {{ load_data(path='static/images/icons/point.svg') | safe }}
+            <h2 class="h6-bold crowdfunding-loc__title">{{ page.extra.why.title_1 | safe }}</h2>
+            <p class="p-card crowdfunding-loc__text">{{ page.extra.why.text_1 | safe }}</p>
+            <div class="crowdfunding-loc__button">
+                <a href="/donate/" class="button button--main">{{ trans(key='donate-title', lang=lang) }}</a>
+            </div>
+            <div class="crowdfunding-loc__img-holder">
+                <img class="crowdfunding-loc__img" src="{{ page.extra.why.media }}" alt="{{ page.extra.why.title_2 }}">
+            </div>
+            <h2 class="h6-bold crowdfunding-loc__title">{{ page.extra.why.title_2 | safe }}</h2>
+            <p class="p-card crowdfunding-loc__text"> {{ page.extra.why.text_2 | safe }}</p>
+        </div>
+        <div class="crowdfunding-loc__img-row">
+            <img class="crowdfunding-loc__img" src="{{ page.extra.why.media }}" alt="{{ page.extra.why.title_2 }}">
+        </div>
+    </div>
+</section>
+
+<section class="crowdfunding-card">
+    <div class="container crowdfunding-card__container">
+        {% for i in page.extra.benefits.items %}
+            <div class="crowdfunding-card__item">
+                <img src="{{ i.media }}" alt="{{ i.title }}">
+                <div class="services-support__title-row">
+                    <div class="services-support__count">
+                        <span class="icon-count services-support__number">0{{ loop.index }}</span>
+                        <div class="services-support__icon">
+                            {{ load_data(path="static/images/icons/pin.svg") | safe }}
+                        </div>
+                    </div>
+                    <h2 class="h5 services-support__sub-title">{{ i.title }}</h2>
+                </div>
+                <p class="p-card crowdfunding-card__text">{{ i.text }}</p>
+            </div>
+        {% endfor %}
+        <div class="crowdfunding-card__item">
+            {{ macros::solo_donate(text=page.extra.donate_text) }}
+            {# {% include 'section/solo-donate.html' %} #}
+        </div>
+    </div>
+</section>
+
+<section class="crowdfunding-support">
+    <div class="container crowdfunding-support__container">
+        <div class="crowdfunding-support__content">
+            <h2 class="crowdfunding-support__title">{{ page.extra.support.title | safe }}</h2>
+            <div class="crowdfunding-support__text">{{ page.extra.support.description | markdown | safe }}</div>
+        </div>
+        <img class="crowdfunding-support__img" src="{{ page.extra.support.media }}" alt="{{ page.extra.support.title }}">
+    </div>
+</section>
+
+<section class="crowdfunding-card-v2">
+    <div class="container crowdfunding-card-v2__container">
+        <h2 class="h6-bold">{{ page.extra.rewards.title | safe }}</h2>
+        <p class="p-card">{{ page.extra.rewards.description | safe }}</p>
+        <div class="crowdfunding-card-v2__row">
+            {% for i in page.extra.rewards.items %}
+                <div class="crowdfunding-card-v2__item">
+                    <img class="crowdfunding-card-v2__img" src="{{ i.media }}" alt="{{ i.title }}">
+                    <div class="crowdfunding-card-v2__content">
+                        <div class="price-icon crowdfunding-card-v2__num">{{ i.value }}</div>
+                        <h3 class="h5 crowdfunding-card-v2__title">{{ i.title | safe }}</h3>
+                        <div class="p-card crowdfunding-card-v2__text">{{ i.text | safe }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+            <a href="/donate/" class="button button--main crowdfunding-card-v2__button">{{ trans(key='donate-title', lang=lang) }}</a>
+        </div>
+    </div>
+</section>
+
+<section class="crowdfunding-journey">
+    <div class="container crowdfunding-journey__container">
+        <div class="crowdfunding-journey__media">
+            <img class="crowdfunding-journey__img" src="{{ page.extra.join.media }}" alt="{{ page.extra.join.title }}">
+        </div>
+        <div class="crowdfunding-journey__content">
+            <h2 class="h6-bold crowdfunding-journey__title">{{ page.extra.join.title | safe }}</h2>
+            <div class="crowdfunding-journey__media-holder">
+                <img class="crowdfunding-journey__img" src="{{ page.extra.join.media }}" alt="{{ page.extra.join.title }}">
+            </div>
+            <p class="p-card">{{ page.extra.join.description | safe }}</p>
+            <div class="crowdfunding-journey__card">
+                {{ load_data(path=page.extra.join.help.icon) | safe }}
+                <p class="p-15">{{ page.extra.join.help.text | safe }}</p>
+            </div>
+            <p class="p-card">{{ page.extra.join.text | safe }}</p>
+        </div>
+    </div>
+</section>
+
+{% include 'section/donate.html' %}
+{%- endblock content %}

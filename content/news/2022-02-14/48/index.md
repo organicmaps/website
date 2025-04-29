@@ -2,8 +2,6 @@
 title: "Meet new Organic Maps update 2022.02.11 for iOS"
 date: 2022-02-14T20:58:48+00:00
 slug: "meet-new-organic-maps-update-for-ios"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Meet new Organic Maps update 2022.02.11 for iOS!

@@ -1,77 +1,30 @@
-{% if lang == 'en' %}
-{% set stripe = 'https://donate.organicmaps.app' %}
-{% else %}
-{% set stripe = 'https://donate.organicmaps.app/?locale=' ~ lang %}
-{% endif %}
 <div class="donate_buttons">
   {%- if lang == 'ru' %}
-  <a href="https://t.me/tribute/app?startapp=d849" title="Telegram по карте МИР в рублях"><img id="telegramRu" src="/images/donates/telegram.svg" alt="Telegram по карте МИР в рублях"></a>
+  <a href="https://donate.organicmaps.ru" title="По карте МИР в рублях"><img id="mir" src="/images/donates/mir.svg" alt="По карте МИР в рублях"></a>
+  <a href="https://t.me/OrganicMapsRu/29441" title="Telegram по карте МИР в рублях"><img id="telegramRu" src="/images/donates/telegram.svg" alt="Telegram по карте МИР в рублях"></a>
   {% endif -%}
-  <a href="{{ stripe }}" title="Credit/Debit Card"><img src="/images/donates/visa_mc.svg" alt="Credit/Debit Card"></a>
-  <a href="{{ stripe }}" title="Apple Pay" id="applePay"><img src="/images/donates/apple.svg" alt="Apple Pay"></a>
-  <a href="{{ stripe }}" title="Google Pay" id="googlePay"><img src="/images/donates/google.svg" alt="Google Pay"></a>
-  <form action="https://www.paypal.com/donate" method="post" target="_blank"  title="PayPal">
-    <input type="hidden" name="hosted_button_id" value="JYM34AADM87V8" />
-    <input type="image" src="/images/donates/paypal.svg" name="submit" title="Donate to Organic Maps using PayPal" alt="Donate with PayPal button" />
-  </form>
-  <a href="{{ stripe }}" title="giropay"><img src="/images/donates/giropay.svg" alt="giropay"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="Credit/Debit Card"><img src="/images/donates/visa.svg" alt="Credit/Debit Card"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="Apple Pay"><img src="/images/donates/apple.svg" alt="Apple Pay"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="Google Pay"><img src="/images/donates/google.svg" alt="Google Pay"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="giropay"><img src="/images/donates/giropay.svg" alt="giropay"></a>
   {%- if lang != 'ru' %}
-  <a href="{{ stripe }}" title="iDeal"><img src="/images/donates/ideal.svg" alt="iDeal"></a>
-  <a href="{{ stripe }}" title="Sofort"><img id="sofort" src="/images/donates/sofort.svg" alt="Sofort"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="iDeal"><img src="/images/donates/ideal.svg" alt="iDeal"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="Sofort"><img id="sofort" src="/images/donates/sofort.svg" alt="Sofort"></a>
   {% endif -%}
-  <a href="{{ stripe }}" title="SEPA"><img src="/images/donates/sepa.svg" alt="SEPA"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="SEPA"><img src="/images/donates/sepa.svg" alt="SEPA"></a>
   <a href="/donate#bank-transfer" title="Bank Transfer"><img src="/images/donates/bank.svg" alt="Bank Transfer"></a>
   <a href="https://liberapay.com/OrganicMaps" title="LiberaPay"><img src="/images/donates/liberapay.svg" alt="LiberaPay"></a>
   <a href="https://github.com/sponsors/organicmaps/" title="GitHub Sponsors"><img src="/images/donates/github.svg" alt="GitHub Sponsors"></a>
   <a href="https://www.patreon.com/OrganicMaps" title="Patreon"><img src="/images/donates/patreon.svg" alt="Patreon"></a>
-  <a href="https://opencollective.com/organicmaps" title="OpenCollective"><img src="/images/donates/opencollective.svg" alt="OpenCollective"></a>
-  <a href="{{ stripe }}" title="BanContact"><img src="/images/donates/bancontact.svg" alt="BanContact"></a>
-  <a href="{{ stripe }}" title="EPS"><img id="eps" src="/images/donates/eps.svg" alt="EPS"></a>
-  <a href="/donate#crypto" title="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"><img src="/images/donates/bitcoin.svg" alt="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"></a>
+  <form action="https://www.paypal.com/donate" method="post" target="_blank"  title="PayPal">
+    <input type="hidden" name="hosted_button_id" value="JYM34AADM87V8" />
+    <input type="image" src="/images/donates/paypal.svg" name="submit" title="Donate to Organic Maps using PayPal" alt="Donate with PayPal button" />
+  </form>
+  <a href="{{ config.extra.stripe | safe }}" title="BanContact"><img src="/images/donates/bancontact.svg" alt="BanContact"></a>
+  <a href="{{ config.extra.stripe | safe }}" title="EPS"><img id="eps" src="/images/donates/eps.svg" alt="EPS"></a>
+  <a href="/donate#crypto" title="Bitcoin"><img src="/images/donates/bitcoin.svg" alt="Bitcoin"></a>
+  <a href="/donate#crypto" title="Ethereum"><img src="/images/donates/ethereum.svg" alt="Ethereum"></a>
+  <a href="/donate#crypto" title="Monero"><img src="/images/donates/monero.svg" alt="Monero"></a>
+  <a href="/donate#crypto" title="Tron"><img src="/images/donates/tron.svg" alt="Tron"></a>
+  <a href="/donate#crypto" title="ZCash"><img src="/images/donates/zcash.svg" alt="ZCash"></a>
 </div>
-<script>
-  // Check if Apple Pay JS API is available.
-  // https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability
-  if (!window.ApplePaySession) {
-    var applePayLink = document.getElementById('applePay');
-    if (applePayLink) applePayLink.remove();
-  }
-
-  // https://stackoverflow.com/questions/4565112/javascript-how-to-find-out-if-the-user-browser-is-chrome/13348618#13348618
-  function isAndroidOrDesktopChrome() {
-    // please note,
-    // that IE11 now returns undefined again for window.chrome
-    // and new Opera 30 outputs true for window.chrome
-    // but needs to check if window.opr is not undefined
-    // and new IE Edge outputs to true now for window.chrome
-    // and if not iOS Chrome check
-    // so use the below updated condition
-    var isChromium = window.chrome;
-    var winNav = window.navigator;
-    var vendorName = winNav.vendor;
-    var isOpera = typeof window.opr !== "undefined";
-    var isIEedge = winNav.userAgent.indexOf("Edg") > -1;
-    var isIOSChrome = winNav.userAgent.match("CriOS");
-
-    if (isIOSChrome) {
-      // is Google Chrome on IOS
-      return false;
-    } else if (isChromium !== null &&
-               typeof isChromium !== "undefined" &&
-               vendorName === "Google Inc." &&
-               isOpera === false &&
-               isIEedge === false) {
-      // is Google Chrome
-      return true;
-    } else {
-      // not Google Chrome
-      return false;
-    }
-  }
-
-  // Hide Google Play when not needed.
-  if (!isAndroidOrDesktopChrome()) {
-    var applePayLink = document.getElementById('googlePay');
-    if (applePayLink) applePayLink.remove();
-  }
-</script>

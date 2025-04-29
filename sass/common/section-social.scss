@@ -1,0 +1,65 @@
+@import "../variables/media";
+
+.box-social__title {margin-bottom: 40rem; font-size: 36px; line-height: 1.2; font-weight: 300; text-align: center;
+    @media (max-width: $media-md) {
+        margin-bottom: 24rem; font-size: 24px;
+    }
+}
+
+.section-social {
+    margin-bottom: 68px;
+    margin-top: 48px;
+    @media (max-width: $media-md) {
+        margin-bottom: 40rem;
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        @media (max-width: $media-md) {
+            gap: 20rem 10rem;
+        }
+    }
+
+//   &__title {
+//     color: var(--black-white);
+//     text-align: center;
+//     margin-bottom: 24rem;
+//     font-weight: 300;
+//     @media (max-width: $media-md) {
+//       margin-bottom: 20rem;
+//     }
+//   }
+
+    &__item {
+        width: 48px;
+        height: 48px;
+        // border: 2rem solid var(--black-white);
+        border-radius: 50px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin: 0 auto;
+        background-color: var(--black-white);
+        svg {
+            width: auto;
+            max-width: 40rem;
+            height: 30rem;
+            display: block;
+            color: var(--white-bgbody);
+        }
+        &.icon-x svg {height: 20rem;}
+        &.icon-github svg {width: 48rem; max-width: none; height: 48rem; color: var(--black-white); background-color: var(--white-bgbody);}
+
+        a {
+            display: flex;
+        }
+
+        @media (max-width: $media-md) {
+            // border: 1rem solid var(--black-white);
+            width: 40rem; height: 40rem;
+        }
+    }
+}

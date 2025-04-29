@@ -2,8 +2,6 @@
 title: "Conheça a atualização de janeiro de 2023 do Organic Maps"
 date: 2023-01-27T21:26:12+00:00
 slug: "conheca-atualizacao-janeiro-2023-organic-maps"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Conheça a atualização de janeiro de 2023 do Organic Maps! esperamos que você tenha tido um ótimo período de festas e conseguido viajar e visitar lugares interessantes, além de conhecer pessoas divertidas.

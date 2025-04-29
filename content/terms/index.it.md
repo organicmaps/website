@@ -24,7 +24,7 @@ e organizzazioni e concesse in licenza in modi diversi:
 
 Si prega di fare riferimento ai loro file di LICENZA, COPIA o AVVISO per le condizioni di utilizzo.
 
-Vedere anche [data/copyright.html](https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html)
+Vedere anche [data/copyright.html](https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html)
 per un elenco completo delle note di copyright per l'applicazione Organic Maps.
 
 Se avete domande o suggerimenti, contattateci all'indirizzo [legal@organicmaps.app](mailto:legal@organicmaps.app).

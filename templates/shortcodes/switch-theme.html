@@ -1,0 +1,69 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const switchTheme = document.querySelector('.switch-theme');
+        let activeCheck = localStorage.getItem('switchTheme') === 'true';
+        const bodyThemeClass = document.querySelector('.light')
+
+        let firstCheck = localStorage.getItem('switchTheme') ? localStorage.getItem('switchTheme') : 'first';
+
+
+        if (firstCheck == 'first') {
+
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                switchTheme.classList.add('is-active');
+                switchThemeToggle(true)
+            } else {
+                switchTheme.classList.remove('is-active');
+                switchThemeToggle(false)
+            }
+        } else {
+            if (activeCheck) {
+                switchTheme.classList.add('is-active');
+                switchThemeToggle(true)
+            } else {
+                switchTheme.classList.remove('is-active');
+                switchThemeToggle(false)
+            }
+        }
+
+        switchTheme.addEventListener('click', () => changeToggle(true));
+
+        function switchThemeToggle(arg){
+            if(arg) {
+                bodyThemeClass.classList.remove('light')
+                bodyThemeClass.classList.add('dark')
+            } else {
+                bodyThemeClass.classList.add('light')
+                bodyThemeClass.classList.remove('dark')
+            }
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark';
+        } else {
+            return 'light';
+        }
+
+        function changeToggle(arr) {
+            console.log(activeCheck);
+
+            if (activeCheck) {
+                switchTheme.classList.remove('is-active');
+                switchThemeToggle(false)
+                if (arr) {
+                    localStorage.setItem('switchTheme', 'false');
+                    activeCheck = false;
+                }
+            } else {
+                switchTheme.classList.add('is-active');
+                switchThemeToggle(true)
+                if (arr) {
+                    localStorage.setItem('switchTheme', 'true');
+                    activeCheck = true;
+                }
+            }
+        }
+    });
+
+
+</script>

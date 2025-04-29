@@ -1,0 +1,47 @@
+<style>
+    .pages a {
+        color: black;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .pages li {
+        list-style: none;
+
+    }
+    .pages {
+        position: fixed;
+        bottom: 5px;
+        left: 5px;
+        background: rgba(255, 255, 255, .8);
+        padding: 5px 5px 5px 15px;
+        width: 100px;
+        height: 180px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @media (max-width: 767px) {
+        .pages {
+            display: none;
+        }
+    }
+
+</style>
+
+<ol class="pages">
+    <li><a href="/community/">community</a></li>
+    <li><a href="/news/">news</a></li>
+    <li><a href="/news/2023-09-21/please-vote-for-us-again-on-hackernews/">post</a></li>
+    <li><a href="/support/">support</a></li>
+    {# <li><a href="/faq/">faq</a></li>
+    <li><a href="/faq/what-android-version-can-run-organic-maps/">faq post</a></li> #}
+    <li><a href="/volunteering/">volunteering</a></li>
+    <li><a href="/donate/">donate</a></li>
+    <li><a href="/crowdfunding/">crowdfunding</a></li>
+    <li><a href="/about-us/">about</a></li>
+    <li><a href="/download/">download</a></li>
+</ol>

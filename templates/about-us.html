@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.hero_title, desp=page.description) }}
+
+<section class="about-us">
+    <div class="container about-us__container">
+        {% for i in page.extra.vm.items %}
+            <div class="about-us__item">
+                <img class="about-us__img" src="{{ i.media }}" alt="{{ i.title }}">
+                <div class="about-us__content">
+                    <div class="about-us__title-row">
+                        <div class="about-us__icon">
+                            {{ load_data(path=i.icon) | safe }}
+                        </div>
+                        <h3 class="h5 about-us__title">{{ i.title | safe }}</h3>
+                    </div>
+                    <p class="p-card about-us__text">{{ i.text | safe }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+<section class="free-open">
+    <div class="container free-open__container">
+        <div class="free-open__content">
+            <h2 class="h6 free-open__title">{{ page.extra.about.title | safe }}</h2>
+            <div class="line free-open__line"></div>
+            <div class="free-open__img-row">
+                <img class="free-open__img" src="{{ page.extra.about.media }}" alt="{{ page.extra.about.title }}">
+            </div>
+            <p class="p-15 free-open__text">{{ page.extra.about.text | safe }}</p>
+        </div>
+    </div>
+</section>
+<section class="about-history">
+    <div class="container about-history__container">
+        <h2 class="h6-bold about-history__title">{{ page.extra.history.title | safe }}</h2>
+        <div class="about-history__row">
+            {% for i in page.extra.history.items %}
+                <div class="about-history__item">
+                    <div class="about-history__count">
+                        <div class="h6-date about-history__number{% if i.highlight %} about-history__number--green{% endif %}">{{ i.year }}</div>
+                        <div class="about-history__circle"></div>
+                    </div>
+                    <div class="p-sm about-history__text">{{ i.text | markdown | safe }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{# <section class="about-links">
+    <div class="container about-links__container">
+        <h2 class="h6-bold about-links__title">{{ page.extra.integration_section_title | safe }}</h2>
+        <div class="about-links__buttons">
+            <a class="about-links__link" href="#" target="_blank">
+                <img class="about-links__img" src="/images/about-us/open-maps-banner.png" alt="img">
+            </a>
+            <a class="about-links__link" href="#" target="_blank">
+                <img class="about-links__img" src="/images/about-us/wikipedia-banner.png" alt="img">
+            </a>
+        </div>
+    </div>
+</section> #}
+
+<section class="about-news">
+    {% set media_highlights = load_data(path="data/media-highlights.yaml") %}
+    <div class="container about-news__row">
+        <h2 class="h6-bold about-news__title">Media Highlights</h2>
+        <div class="about-news__content">
+            {% for i in media_highlights.items %}
+                <a href="{{ i.link }}" target="_blank" class="post-min">
+                    <div class="post-min__img-holder">
+                        <img class="post-min__img" src="{{ i.media }}" alt="img">
+                    </div>
+                    <h2 class="h5-bold post-min__title">{{ i.title }}</h2>
+                    <div class="post-min__dates">
+                        <div class="post-min__date">
+                            <span class="p-sm post-min__date-title">{{ i.date | date(format='%B %e, %Y') }}</span>
+                        </div>
+                        <div class="post-min__date">
+                            <span class="p-sm post-min__date-title">{{ i.category }}</span>
+                        </div>
+                    </div>
+                    <p class="p-card post-min__text">{{ i.text }}</p>
+                    <div class="p-sm post-min__link">More</div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% include 'section/donate.html' %}
+<div class="about-info">
+    <div class="container">
+        {% for i in page.extra.info %}
+            <div class="about-info__text">{{ i }}</div>
+        {% endfor %}
+    </div>
+</div>
+{%- endblock content %}

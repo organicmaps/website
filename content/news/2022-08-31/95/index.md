@@ -2,8 +2,6 @@
 title: "🤖Finally, Organic Maps August update is also available in Google Play, Fdroid, Huawei AppGallery, and Flathub (iOS version passed review earlier)."
 date: 2022-08-31T22:10:03+00:00
 slug: "finally-organic-maps-august-update-is-also-available-in-google-play-fdroid-huawei-appgallery-and-flathub-ios-version-passed-review-earlier"
-taxonomies:
-  news: ["Releases"]
 ---
 
 🤖Finally, Organic Maps August update is also available in [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps), [Fdroid](https://f-droid.org/en/packages/app.organicmaps/), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611), and [Flathub](https://flathub.org/apps/details/app.organicmaps.desktop) (iOS version [passed review earlier](https://organicmaps.app/news/2022-08-24/meet-many-improvements-in-the-organic-maps-update-for-ios/)).

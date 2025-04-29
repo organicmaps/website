@@ -1,0 +1,27 @@
+@import "../variables/media";
+
+.single-news {
+  .bred-crum {
+    margin: 0 0 20rem;
+  }
+    .bred-crum__link, .nav-bred  {
+      color: var(--green-theme);
+    }
+
+  &__title {
+    color: var(--black-white);
+    margin-bottom: 20rem;
+  }
+  &__other {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    margin-bottom: 60rem;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__button {
+    margin: 0 auto 60rem;
+  }
+}

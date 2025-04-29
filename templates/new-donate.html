@@ -1,0 +1,1160 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.title, desp=page.description, donate=true) }}
+
+<section class="support-benefit">
+    <div class="container support-benefit__container">
+        {% if page.extra.info %}
+            {% for i in page.extra.info %}
+                <div class="support-benefit__item">
+                    <div class="support-benefit__icon">
+                        {{ load_data(path=i.icon) | safe }}
+                    </div>
+                    <p class="p-15 support-benefit__text">{{ i.text}}</p>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <a href="#donate" class="button button--main support-benefit__btn">{{ trans(key='donate-title', lang=lang) }}</a>
+</section>
+
+<section class="services-support">
+    <div class="container services-support__container">
+        <h2 class="h6 services-support__title">{{ page.extra.funding.title | safe }}</h2>
+        <div class="line services-support__line"></div>
+        <div class="services-support__row">
+            {% for i in page.extra.funding.items %}
+                <div class="services-support__item">
+                    <div class="services-support__media">
+                        <img class="services-support__img" src="{{ i.media }}" alt="{{ i.title }}">
+                    </div>
+                    <div class="services-support__item-content">
+                        <div class="services-support__title-row">
+                            <div class="services-support__count">
+                                <span class="icon-count services-support__number">0{{ loop.index }}</span>
+                                <div class="services-support__icon">
+                                    {{ load_data(path="static/images/icons/pin.svg") | safe }}
+                                </div>
+                            </div>
+                            <h2 class="h5 services-support__sub-title">{{ i.title }}</h2>
+                        </div>
+                        <p class="p-card services-support__text">{{ i.text }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        {# <button class="button button&#45;&#45;main"> {{ trans(key='donate-title', lang=lang) }}</button> #}
+    </div>
+</section>
+
+<section id="donate" class="donate-services">
+    <h2 class="reviews__title">{{ page.extra.hero_title }}</h2>
+    <div class="line reviews__line"></div>
+    <div class="container donate-services__row">
+        <h2 class="h7 donate-services__title">{{ page.extra.service_title }}</h2>
+        <p class="h1-sub donate-services__text">{{ page.extra.service_text }}</p>
+        <div class="donate-services__icons">
+            <a href="https://donate.stripe.com/7sIcPX5ivg2Y2v6145" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon01.png" alt="icon" width="75">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon01_1.png" alt="icon" width="75">
+            </a>
+            <a href="https://www.paypal.com/donate" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon02.png" alt="icon" width="72">
+            </a>
+            <a href="https://github.com/sponsors/organicmaps/" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon03.png" alt="icon" width="72">
+            </a>
+            <a href="https://liberapay.com/OrganicMaps" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon04.png" alt="icon" width="72">
+            </a>
+            <a href="https://www.patreon.com/OrganicMaps" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon05.png" alt="icon" width="72">
+            </a>
+            <a href="https://organicmaps.app/donate/#bank-transfer" target="_blank" class="donate-services__icon donate-services__icon--open-tab">
+                <img src="/images/donate/donat-service/icon06.png" alt="icon" width="72">
+            </a>
+            <a href="https://opencollective.com/organicmaps" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon07.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon08.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon09.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon10.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon11.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon12.png" alt="icon" width="72">
+            </a>
+            <a href="https://organicmaps.app/donate#crypto" target="_blank" class="donate-services__icon donate-services__icon--open-tab">
+                <img src="/images/donate/donat-service/icon13.png" alt="icon" width="72">
+            </a>
+            <a href="https://donate.stripe.com/28odU16mzg2Yc5GfYY" target="_blank" class="donate-services__icon">
+                <img src="/images/donate/donat-service/icon14.png" alt="icon" width="72">
+            </a>
+
+        </div>
+        <div class="donate-services__tab">
+            {# <div class="donate-services__tab-header"> #}
+                {# <div></div> #}
+                <div class="donate-services__tab-close"><i class="fa-solid fa-angle-up"></i></div>
+            {# </div> #}
+            <div class="donate-services__tab--1">
+                <h5 class="h4-bold donate-services__tab-title">
+                    Bank Transfer
+                </h5>
+                <div class="donate-services__tab-row donate-services__tab-bank">
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Account holder for all currencies:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Organic Maps OÜ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Payment description:
+
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Donation
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm-bold donate-services__tab-title">
+                                EUR, Euro €
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                    </div>
+
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                SWIFT/BIC:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                TRWIBEB1XXX
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                IBAN:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                BE39 9672 0031 0319
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Bank name:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Wise
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Bank address:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Avenue Louise 54/S52, Brussels 1050, Belgium
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm-bold donate-services__tab-title">
+                                USD, United States Dollar $
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Wise's Address:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                30 W. 26th Street, Sixth Floor, New York NY 10010, United States
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Receiving fee:
+
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                $4.14 <br> Inside the US
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Routing number:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                84009519
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Account number:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                9.60001005123242E+015
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Bank address:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                6070 Poplar Ave suite 200, Memphis TN 38119, United States<br>
+                                Outside the US
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                SWIFT/BIC:
+
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                CMFGUS33
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Account number:
+
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                8312564881
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Bank address:
+
+
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                89-16 Jamaica Ave, Woodhaven NY 11421, United States
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm-bold donate-services__tab-title">
+                                GBP, British Pound £
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Bank address:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                56 Shoreditch High Street, London, E1 6JJ, United Kingdom
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                IBAN:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                GB97 TRWI 2314 7092 7851 63
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Inside the UK
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Sort code:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                23-14-70
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Account number:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                92785163
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Outside the UK
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                SWIFT/BIC:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                TRWIGB2L
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm-bold donate-services__tab-title">
+                                Turkish lira (TL, TRY)
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                IBAN:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                TR740010300000000047306089
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Ad Soyad:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Organic Maps OÜ (Birleşik Ödeme Hizmetleri ve Elektronik Para A.Ş)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Açiklama:
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Donation
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="donate-services__tab--2">
+                <h5 class="h4-bold donate-services__tab-title">Crypto</h5>
+                <div class="donate-services__tab-row donate-services__tab-crypto">
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <b class="p-sm-bold">
+                                Name
+                            </b>
+                            <b class="p-sm-bold">
+                                Token
+                            </b>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <b class="p-sm-bold">
+                                Address
+                            </b>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Algorand
+
+                            </p>
+                            <p class="p-sm">
+                                ALGO
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                3UZXZEPGFAM7E74IO32Y7O6KOY3E7NNNJVBV4GFS5UWQQSY7AIM5PK7C2E
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Avalanche C/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                AVAX
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Binance Coin/BNB
+                            </p>
+                            <p class="p-sm">
+                                BNB
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                bnb1c8vmnqqhqc6lcajpzvuy4ss5dw3vjc7tc5q8zd
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Binance Coin/BSC
+                            </p>
+                            <p class="p-sm">
+                                BSC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Binance USD/ETH
+                            </p>
+                            <p class="p-sm">
+                                BUSD
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Bitcoin
+                            </p>
+                            <p class="p-sm">
+                                BTC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                bc1qjkq3tpy2gutsfdlcvys8slkempywk230u8rc8u
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Bitcoin Cash
+                            </p>
+                            <p class="p-sm">
+                                BCH
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                qqcjkzf7nlgvhng5vhq7n7hjrcdqccyqlq9h7gq4xw
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Cardano
+                            </p>
+                            <p class="p-sm">
+                                ADA
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                addr1qxh59080ujswxuzapzrdvuzpglfktg09gq9q7dxpdl7jfka0g27wle9qudc96zyx6ecyz37nvks72sq2pu6vzmlayndsj02qhw
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Chainlink/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                LINK
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Chainlink/SOL
+                            </p>
+                            <p class="p-sm">
+                                LINK
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Eyv43vXxmSshDPReJnfMtrDspugsVR3S6PzJV38rMAZE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Cosmos
+                            </p>
+                            <p class="p-sm">
+                                ATOM
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                cosmos1jurqcft6vf8gah8lpyz53ue9qf5gz2rfy8wfla
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Dash
+                            </p>
+                            <p class="p-sm">
+                                DASH
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                XgWTXGVCNEVVEkL9DQutscjcs6zvDUgccf
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Dai/ETH
+                            </p>
+                            <p class="p-sm">
+                                DAI
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Dogecoin
+                            </p>
+                            <p class="p-sm">
+                                DOGE
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                DRdtRetmiSFHLkorNHyf4nL2MT375Xkmrm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                eCash
+                            </p>
+                            <p class="p-sm">
+                                XEC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                ecash:qpy6c5050vyste69tph2xmmqjchwldvggg7pe99937
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Ethereum
+                            </p>
+                            <p class="p-sm">
+                                ETH
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Fantom/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                FTM
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Filecoin
+                            </p>
+                            <p class="p-sm">
+                                FIL
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                f1s4n3oog2d3swxgdqz7llo47pdfxu2ykvvptapiq
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                IOTA/BSC/ETH
+                            </p>
+                            <p class="p-sm">
+                                MIOTA
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Litecoin
+                            </p>
+                            <p class="p-sm">
+                                LTC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                LfmSZ5yKBf17WwahZK9NEq5w2FLVap4Ctw
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Maps.Me/ETH
+                            </p>
+                            <p class="p-sm">
+                                MAPS
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                MAPS/SOL
+                            </p>
+                            <p class="p-sm">
+                                MAPS
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Eyv43vXxmSshDPReJnfMtrDspugsVR3S6PzJV38rMAZE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Monero
+                            </p>
+                            <p class="p-sm">
+                                XMR
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                44YsnJihPB7TBucb17WiXDde7qguUwNmGKFSsyrFqWheEaDKQRtMfGcEU54aJ8PeQNgV7Q9uBWB5CTcvKSMEH4QtE6BT1cm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Nano
+                            </p>
+                            <p class="p-sm">
+                                XNO
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                nano_3udk4q9nne76kkrdgbwkyugwb5r6kg48oujbccoian96xtgkhna37bg5d1qp
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                NEO
+                            </p>
+                            <p class="p-sm">
+                                NEO
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                ASqXj9MJFeytv74xE1UPmJoCZTgRz39Keu
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Polkadot
+                            </p>
+                            <p class="p-sm">
+                                DOT
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                15yRQT2m3wS6yGuAbkxgMNMGZvXktp63ZrgmGG6QYYyoEQiV
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Polygon/ETH
+                            </p>
+                            <p class="p-sm">
+                                MATIC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Shiba Inu/ETH
+                            </p>
+                            <p class="p-sm">
+                                SHIB
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Solana
+                            </p>
+                            <p class="p-sm">
+                                SOL
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                Eyv43vXxmSshDPReJnfMtrDspugsVR3S6PzJV38rMAZE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Status/ETH
+                            </p>
+                            <p class="p-sm">
+                                SNT
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Stellar
+                            </p>
+                            <p class="p-sm">
+                                XLM
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                GBRYVRKX6MOU5IO6QWD4CDULBX32F5B5HCQWQYLFEFQZHRTVNTUKM6IF
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Terra
+                            </p>
+                            <p class="p-sm">
+                                LUNA
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                terra1mx695aqeae5rf9etsvdhr48j9lhtgjsc69khtm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Tether/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                USDT
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Tether/Tron
+
+                            </p>
+                            <p class="p-sm">
+                                USDT
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                TNQGZwAUCpwy1cuVSyu1vc6AT19nsmWqRF
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Tezos
+                            </p>
+                            <p class="p-sm">
+                                XTZ
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                tz1dHBNqXUrYzHHW2AUCL6WDP6fFvfiBZwPU
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Tron
+                            </p>
+                            <p class="p-sm">
+                                TRX
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                TNQGZwAUCpwy1cuVSyu1vc6AT19nsmWqRF
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Uniswap/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                UNI
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                USD Coin/ETH
+
+                            </p>
+                            <p class="p-sm">
+                                USDC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                XRP
+                            </p>
+                            <p class="p-sm">
+                                XRP
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                rQ5hNeQKqiDVyNGgX9qhv5hdDETnsqNgy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="donate-services__tab-text">
+                        <div class="donate-services__tab-item donate-services__tab-item--double">
+                            <p class="p-sm">
+                                Zcash
+                            </p>
+                            <p class="p-sm">
+                                ZEC
+                            </p>
+                        </div>
+                        <div class="donate-services__tab-item">
+                            <p class="p-sm">
+                                t1djHnDg8yGfn6vLPrYgejUFf2ZCF4WMmkp
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <h2 class="reviews__title">{{ page.extra.reviews.title | safe }}</h2>
+    <div class="line reviews__line"></div>
+    <div class="swiper container reviews__carusel">
+        <div class="swiper-wrapper">
+            {% for i in page.extra.reviews.items %}
+                <div class="swiper-slide">
+                    <div class="reviews__item">
+                        <p class="p reviews__text">{{ i.text }}</p>
+                        <h3 class="p-md-bold reviews__s-title">{{ i.name }}</h3>
+                        <img class="reviews__icon" src="{{ i.media }}" alt="{{ i.name }}">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="reviews__pag">
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+{% include 'section/donate.html' %}
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+
+    const openBtn = document.querySelectorAll('.donate-services__icon--open-tab');
+    const tabs03 = document.querySelector('.donate-services__tab');
+    const tabs03CloseBtn = document.querySelector('.donate-services__tab-close');
+
+    const tab101 = document.querySelector('.donate-services__tab--1');
+    const tab102 = document.querySelector('.donate-services__tab--2');
+
+    openBtn[0].onclick = (event) => {
+        tabs03.classList.remove('donate-services__tab--active')
+        event.preventDefault()
+        tabs03.classList.add('donate-services__tab--active')
+        tab101.style.display = 'block'
+        tab102.style.display = 'none'
+    }
+
+    openBtn[1].onclick = (event) => {
+        tabs03.classList.remove('donate-services__tab--active')
+        event.preventDefault()
+        tabs03.classList.add('donate-services__tab--active')
+        tab102.style.display = 'block'
+        tab101.style.display = 'none'
+    }
+
+    tabs03CloseBtn.onclick = () => {
+        tabs03.classList.remove('donate-services__tab--active')
+    }
+
+
+    let swiper = new Swiper(".reviews__carusel", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        autoplay: {
+            delay: 2000,
+            pauseOnMouseEnter: true,
+
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            }
+        }
+    });
+</script>
+{%- endblock content %}

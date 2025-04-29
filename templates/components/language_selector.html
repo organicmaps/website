@@ -1,0 +1,35 @@
+<div class="lang-menu">
+  <script>
+    function onLanguageClick(langCode) {
+      window.localStorage.setItem('lang', langCode);
+      return true;
+    }
+  </script>
+  <!-- Hidden checkbox is used for pure CSS toggle menu. -->
+  {% set translations = resource | get(key="translations", default=[]) %}
+  {% if translations | length > 1 %}
+  <input type="checkbox" id="lang-menu-trigger" class="lang-menu__trigger" />
+  {% endif %}
+  <label class="lang-menu__label no-print" for="lang-menu-trigger">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 21.5999C17.3018 21.5999 21.5999 17.3018 21.5999 11.9999C21.5999 6.69797 17.3018 2.3999 11.9999 2.3999C6.69797 2.3999 2.3999 6.69797 2.3999 11.9999C2.3999 17.3018 6.69797 21.5999 11.9999 21.5999ZM5.19805 9.63279C5.64641 8.34423 6.45059 7.22227 7.49295 6.38457C7.81441 6.87549 8.36929 7.19979 8.99992 7.19979C9.99403 7.19979 10.7999 8.00568 10.7999 8.99979V9.59979C10.7999 10.9253 11.8744 11.9998 13.1999 11.9998C14.5254 11.9998 15.5999 10.9253 15.5999 9.59979C15.5999 8.47165 16.3783 7.52531 17.4273 7.26853C18.5312 8.53383 19.1999 10.1887 19.1999 11.9998C19.1999 12.4087 19.1658 12.8097 19.1003 13.2H17.9999C16.6744 13.2 15.5999 14.2745 15.5999 15.6V18.2366C14.5409 18.8492 13.3112 19.1998 11.9998 19.1998V16.7999C11.9998 15.4744 10.9253 14.3999 9.5998 14.3999C8.27432 14.3999 7.1998 13.3254 7.1998 11.9999C7.1998 10.8101 6.33399 9.8225 5.19805 9.63279Z" fill="currentColor"/>
+    </svg>
+      {{ lang | upper }}
+      <svg class="lang-menu__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.23431 5.83441C4.54673 5.52199 5.05327 5.52199 5.36569 5.83441L8 8.46873L10.6343 5.83441C10.9467 5.52199 11.4533 5.52199 11.7657 5.83441C12.0781 6.14683 12.0781 6.65336 11.7657 6.96578L8.56569 10.1658C8.25327 10.4782 7.74673 10.4782 7.43431 10.1658L4.23431 6.96578C3.9219 6.65336 3.9219 6.14683 4.23431 5.83441Z" fill="currentColor"/>
+      </svg>
+
+  </label>
+
+  <ul class="lang-menu__menu no-print" role="navigation">
+    {% for translation in translations | sort(attribute="lang") %}
+    {% if lang != translation.lang %}
+    <li class="lang-menu__item" role="menuitem">
+      <a class="lang-menu__link" onclick="return onLanguageClick('{{ translation.lang }}');" href="{{ translation.permalink | replace(from=config.base_url, to="") | safe }}">
+        {{ trans(key="language", lang=translation.lang) }}
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

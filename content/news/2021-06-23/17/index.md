@@ -2,8 +2,6 @@
 title: "🚗 iOS update with a (finally!) working CarPlay is live"
 date: 2021-06-23T20:15:35+00:00
 slug: "ios-update-with-a-finally-working-carplay-is-live"
-taxonomies:
-  news: ["Releases"]
 ---
 
 🚗 iOS update with a (finally!) working CarPlay is live. Happy driving!

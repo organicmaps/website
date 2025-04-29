@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ resource.date | date(format='%B %e, %Y') }}</h1>
+
+<div class="news_content"{% if resource.translations | length <= 1 %} dir="auto"{% endif %}>
+  {{ resource.content | safe }}
+</div>
+
+{% for photo in resource.assets | sort %}
+{% set meta = get_image_metadata(path=photo) %}
+<img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ resource.path | safe }}{{ photo | split(pat='/') | last }}" />
+{% endfor %}
+
+<div class="back_to_news">
+  <a href="{{ get_url(path="@/news/_index.md", lang=lang) }}">{{ trans(key='back', lang=lang) }}</a>
+</div>
+
+{% endblock content %}

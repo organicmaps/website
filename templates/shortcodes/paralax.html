@@ -1,0 +1,65 @@
+<script>
+
+    if (window.matchMedia('(min-width: 991px)').matches) {
+        try {
+            let options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+
+            let lastScrollTop = 0;
+            let yPos = 0;
+
+            document.addEventListener("scroll", function onScroll() {
+                let scrollTop = window.scrollY;
+
+                if (scrollTop > lastScrollTop) {
+
+                    if (yPos < 100) {
+                        yPos = yPos + 1;
+
+                    }
+                } else if (scrollTop < lastScrollTop) {
+
+                    if (yPos > 0 && yPos <= 100) {
+                        yPos = yPos - 1;
+
+                    }
+                } else {
+                    console.log('er');
+                }
+
+                lastScrollTop = scrollTop;
+
+                let observer = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let parallaxLayers = entry.target.querySelectorAll(".open-map__icon");
+
+                            parallaxLayers.forEach(function(layer, index) {
+                                let speed = 1 * (index + 1);
+                                layer.style.transform = `translateY(${yPos / speed}px)`;
+                            });
+
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, options);
+
+                let sections = document.querySelectorAll('.open-map');
+
+                sections.forEach(function(section) {
+                    observer.observe(section);
+                });
+            });
+        } catch (err) {
+            console.log(err)
+        }
+    } else {
+
+        console.log('mobile');
+    }
+
+
+</script>

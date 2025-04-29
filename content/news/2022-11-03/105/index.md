@@ -2,8 +2,6 @@
 title: "Finally, after fixing some critical issues, the November Organic Maps update is available in the Apple Store, Huawei AppGallery, and on our Github"
 date: 2022-11-03T17:30:48+00:00
 slug: "finally-after-fixing-some-critical-issues-the-november-organic-maps-update-is-available-in-the-apple-store-huawei-appgallery-and-on-our-github"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Finally, after fixing some critical issues, the November Organic Maps update is available in the [Apple Store](https://apps.apple.com/app/organic-maps/id1567437057), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611), and on our [Github](https://github.com/organicmaps/organicmaps/releases/tag/2022.11.02-2-android). [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps) and [FDroid](https://f-droid.org/en/packages/app.organicmaps/) are coming soon too.

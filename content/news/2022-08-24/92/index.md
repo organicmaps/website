@@ -2,8 +2,6 @@
 title: "🍏 Meet many improvements in the Organic Maps update for iOS"
 date: 2022-08-24T20:51:26+00:00
 slug: "meet-many-improvements-in-the-organic-maps-update-for-ios"
-taxonomies:
-  news: ["Releases"]
 ---
 
 🍏 Meet many improvements in the [Organic Maps](https://apps.apple.com/app/organic-maps/id1567437057) update for iOS!

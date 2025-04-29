@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{%- block content %}
+<section class="hero-sub">
+  <div class="container hero-sub__container">
+  </div>
+</section>
+<section class="section-community">
+  <img src="images/payment/stripe-logo.png">
+  <img src="images/payment/paypal-logo.png">
+  <img src="images/payment/wise-logo.png">
+  <img src="images/payment/lp-logo.png">
+  <img src="images/payment/github-logo.png">
+  <img src="images/payment/crypto-logo.png">
+  <img src="images/payment/bank-transfer-logo.png">
+  <div>
+    <img src="images/payment/card-logo.png">
+    <img src="images/payment/card-label.png">
+  </div>
+  <div>
+    <h1>{{ page.extra.donate_title | safe }}</h1>
+    <h2>{{ page.extra.enter_amount_title | safe }}</h2>
+
+    <p>{{ page.extra.donate_description | safe }}</p>
+  </div>
+  <div clas="form">
+    <form>
+      <h2>{{ page.extra.form_title | safe }}</h2>
+      <p>{{ page.extra.form_email | safe }}</p>
+      <div>
+        <p>{{ page.extra.form_payment_method | safe }}</p>
+        <a>
+          <img src="images/payment/mini-card-logo.png">
+        </a>
+        <a>
+          <img src="images/payment/eps-logo.png">
+        </a>
+        <a>
+          <img src="images/payment/gp-logo.png">
+        </a>
+        <a>
+          <img src="images/payment/sofort-logo.png">
+        </a>
+      </div>
+      <p>{{ page.extra.form_details | safe }}</p>
+      <p>{{ page.extra.form_name | safe }}</p>
+      <p>{{ page.extra.form_country | safe }}</p>
+    </form>
+    <button> {{ trans(key='donate-title', lang=lang) }}</button>
+
+  </div>
+</section>
+{%- endblock content %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.hero_title, desp=page.extra.hero_description) }}
+
+<section class="support-search">
+    <div class="container support-search__row">
+        <h2 class="h2-sub_v2 support-search__title">{{ page.extra.support_card_title_1 | safe }}</h2>
+        <div class="search">
+            <label class="search__label" for="inpSearch">
+                {% include 'ui/search.html' %}
+                <input class="search__input" id="inpSearch" type="text" placeholder="Describe the issue">
+            </label>
+        </div>
+    </div>
+</section>
+<section class="support-buttons">
+    <div class="container support-buttons__row">
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_1 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_2 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_3 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_4 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_5 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_6 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_7 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_8 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_9 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_10 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_11 | safe }}</button>
+        <button class="button button--line">{{ page.extra.hero_buttons.hero_button_12 | safe }}</button>
+    </div>
+</section>
+<section class="section-social">
+    {% include 'section/social-icon.html' %}
+</section>
+{% include 'section/donate.html' %}
+
+{%- endblock content %}

@@ -1,0 +1,112 @@
+@import "../variables/media";
+
+.post-min {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__img {
+    margin-bottom: 20rem;
+    width: 100%;
+
+    &--float {
+      float: right;
+      max-width: 100rem;
+      margin:  5rem;
+      max-height: 200rem;
+      object-fit: contain;
+    }
+    &--one {
+      max-height: 278rem;
+      max-width: 100%;
+      height: 278rem;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10rem;
+      @media (max-width: $media-sm) {
+        max-height: 184rem;
+      }
+
+      &:not(:first-of-type) {
+        display: none;
+      }
+    }
+    &--single {
+      max-width: 500rem;
+      float: right;
+      margin: 0 0 30rem 30rem;
+
+      @media (max-width: $media-sm) {
+        float: none;
+        max-width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    margin-bottom: 60rem;
+  }
+
+  &__title-holder {text-decoration: none;
+    &:hover, &:focus {
+        h2 {color: var(--text-green-lgreen);}
+    }
+  }
+  &__title {
+    color: var(--black-white);
+    font-weight: 400;
+  }
+
+  &__text {
+    color: var(--text-com-color);
+    margin-bottom: 20rem;
+  }
+
+  &__link {
+    color: var(--green-button);
+    font-weight: 300;
+    text-decoration: underline;
+    margin-block-start: 20rem;
+    @media (max-width: $media-sm) {
+      margin-block-start: 10rem;
+    }
+  }
+
+  &__line {
+    margin: 0;
+    max-width: 100%;
+    margin: 15rem 0 20rem;
+
+  }
+
+  &__dates {
+    display: flex;
+    gap: 50rem;
+    align-items: center;
+    margin-bottom: 10rem;
+    color: var(--common-black-sub);
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__date-title {
+    line-height: 1.5;
+    color: var(--data-text-color);
+  }
+  .p-text {font-size: 17rem; line-height: 24rem; font-weight: 300; color: var(--text-com-color);}
+}

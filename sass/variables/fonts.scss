@@ -1,0 +1,165 @@
+//font-family: 'Inter', sans-serif;
+//font-family: 'Lato', sans-serif;
+@import "../variables/media";
+:root {
+  --main-font: 'Inter', sans-serif;
+  --sub-fonst: 'Lato', sans-serif;
+
+  --h1: 300 48rem/60rem var(--sub-fonst);
+  --h2-inter: 700 28rem/normal var(--main-font);
+  --h1-inter: 700 36rem/46rem var(--main-font);
+  --h1-sub: 400 24rem/32rem var(--main-font);
+  --h1-sub_v2: 200 24rem/32rem var(--main-font);
+  --h3-boold: 700 24rem/32rem var(--main-font);
+  --h3-normal: 600 24rem/32rem var(--main-font);
+  --h4: 500 18rem/28rem var(--main-font);
+  --h4-bold: 700 18rem/28rem var(--main-font);
+  --h5: 300 20rem/28rem var(--main-font);
+  --h5-bold: 500 20rem/28rem var(--main-font);
+  --h6: 500 30rem/36rem var(--main-font);
+  --h6-bold: 700 30rem/36rem var(--main-font);
+   --h6-date: 700 30rem/36rem var(--main-font);
+  --h5-boold: 700 22rem/28rem var(--main-font);
+  --h7: 400 32rem/36rem var(--main-font);
+  --p: 300 18rem/28rem var(--main-font);
+  --p-15: 300 15rem/26rem var(--main-font);
+    --p-15-bold: 500 15rem/18rem var(--main-font);
+  --p-md: 400 16rem/28rem var(--main-font);
+  --p-md-bold: 600 16rem/28rem var(--main-font);
+  --p-sm: 500 14rem/21rem var(--main-font);
+  --p-sm-bold: 700 14rem/21rem var(--main-font);
+  --p-sub: 300 12rem/15rem var(--main-font);
+  --p-card: 300 17rem/24rem var(--main-font);
+  --nav-link: 500 16rem/28rem var(--main-font);
+  --nav-bred: 400 13rem/18rem var(--main-font);
+
+  --price-icon: 700 24rem/18rem var(--main-font);
+
+  --icon-count: 700 64rem/60rem var(--sub-fonst);
+}
+
+@media (max-width: $media-md) {
+  :root {
+  --h6-date: 700 16rem/22rem var(--main-font);
+    --h1: 300 36rem/normal var(--sub-fonst);
+    --h1-sub: 400 18rem/32rem var(--main-font);
+    --h5-boold: 700 16rem/28rem var(--main-font);
+    --p: 300 18rem/28rem var(--main-font);
+    --p-md: 400 16rem/28rem var(--main-font);
+    --p-sm: 500 14rem/28rem var(--main-font);
+    --p-sm-light: 300 14rem/18rem var(--main-font);
+    --p-sub: 300 12rem/15rem var(--main-font);
+    --nav-link: 500 13rem/24rem var(--main-font);
+
+    --h1-inter: 500 24rem/36rem var(--main-font);
+     --icon-count: 700 48rem/60rem var(--sub-fonst);
+  }
+}
+
+// Title
+.h1{
+  font: var(--h1);
+  color: var(--common-white);
+}
+.h1-inter {
+  font: var( --h1-inter);
+}
+.h1-sub {
+  font: var(--h1-sub);
+  color: var(--common-white);
+}
+.h2{
+  font: var(--h1);
+  color: var(--black-white);
+}
+.h2-inter {
+  font: var( --h2-inter);
+}
+.h2-sub{
+  font: var(--h1-sub);
+  color: var(--black-white);
+}
+.h2-sub_v2{
+  font: var(--h1-sub_v2);
+  color: var(--common-white);
+}
+.h3-normal {
+  font: var(--h3-normal);
+}
+.h3-bold {
+  font: var( --h3-boold);
+  color: var(--common-black);
+}
+.h4 {
+  font: var(--h4);
+}
+.h4-bold {
+  font: var(--h4-bold);
+}
+.h5 {
+  font: var(--h5);
+  color: var(--black-white);
+}
+
+.h5-bold {
+  font: var(--h5-bold);
+}
+.h6-date {
+  font: var(--h6-date);
+}
+.h6 {
+  font: var(--h6);
+}
+.h6-bold {
+  font: var(--h6-bold);
+}
+.h5-boold {
+  font: var( --h5-boold);
+}
+.h7 {
+  font: var(--h7);
+}
+// Text
+.p{
+  font: var(--p);
+}
+.p-15 {
+  font: var(--p-15);
+}
+.p-md {
+  font: var(--p-md);
+}
+.p-sm {
+  font: var(--p-sm);
+}
+.p-sm-bold{
+  font: var(--p-sm-bold);
+}
+.p-sm-light {
+  font: var(--p-sm-light);
+}
+.p-15-bold {
+  font: var(--p-15-bold);
+}
+.p-card {
+  font: var(--p-card);
+}
+.p-md-bold {
+  font: var(--p-md-bold);
+}
+.nav-link{
+ font: var(--nav-link);
+}
+.nav-bred {
+  font: var(--nav-bred);
+  color: var(--common-white);
+}
+
+.icon-count {
+  font: var(--icon-count);
+}
+
+.price-icon {
+  font: var(--price-icon);
+}
+

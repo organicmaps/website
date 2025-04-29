@@ -1,0 +1,120 @@
+@import "../variables/media";
+
+.section-support {
+  padding: var(--container-mob-section) 0;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 2fr minmax(200px, 1fr);
+    gap: 22rem;
+    @media (max-width: $media-md) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    @media (max-width: $media-sm) {
+      padding: 20rem 0 20rem 75rem;
+    }
+  }
+
+  &__item {
+    background: var(--common-green);
+    color: var(--common-white);
+    padding: 30rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36rem;
+
+    &:nth-child(2) {
+      grid-row: 3/1;
+      grid-column: 2/2;
+      flex-direction: column-reverse;
+      justify-content: center;
+      @media (max-width: $media-md) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    @media (max-width: $media-sm) {
+      position: relative;
+      padding: 20rem;
+    }
+  }
+
+  &__content {
+    max-width: 388rem;
+  }
+
+  &__line {
+    width: 256rem;
+    height: 2rem;
+    background-color: var(--common-line-color);
+    margin: 20rem 0;
+  }
+
+  &__img {
+    max-width: 184rem;
+    @media (max-width: $media-sm) {
+      max-width: 63rem;
+      position: absolute;
+      top: 24rem;
+      left: 17rem;
+    }
+  }
+}
+
+.search-holder {margin-bottom: 40rem;}
+.support-search {
+padding: 60rem 16rem 60rem;
+  @media (max-width: $media-md) {
+    padding: 30rem 0rem;
+  }
+
+  &__row {
+    background-color: var(--bg-green);
+    border-radius: 24rem;
+    padding: 50rem 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .search {
+      width: 100%;
+      max-width: 910rem;
+
+    }
+    @media (max-width: $media-md) {
+      padding: 30rem 16rem;
+    }
+  }
+  &__title {
+    color: var(--black-white);
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20rem;
+
+    @media (max-width: $media-md) {
+        font-size: 20rem;
+        margin-bottom: 20rem;
+    }
+  }
+}
+
+
+.support-buttons {
+  padding: 0 0 80rem;
+  @media (max-width: $media-md) {
+   display: none;
+  }
+  &__row {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+  }
+  .button {padding: 8rem 22rem; font-weight: 400;}
+}

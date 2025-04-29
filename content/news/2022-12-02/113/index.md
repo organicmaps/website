@@ -2,8 +2,6 @@
 title: The Hiking Club recommends Organic Maps to its clients
 date: 2022-12-02T08:42:36+00:00
 slug: "it-s-inspiring-to-know-that-what-we-do-helps-people"
-taxonomies:
-  news: ["Press"]
 ---
 
 It's inspiring to know that what we do helps people. Organic Maps is great for many outdoor activities, including hiking. If you are considering the Alps 🏔 for mountain hiking, you can turn to the experts on this subject: [The Hiking Club](https://www.thehiking.club/). They have a successful history of preparing and planning for long mountain trips.

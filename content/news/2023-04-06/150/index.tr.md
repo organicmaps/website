@@ -2,15 +2,13 @@
 title: "Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz"
 date: 2023-04-06T22:29:27+00:00
 slug: "mutlu-sağlıklı-ve-huzur-dolu-ramazanlar-dileriz"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz.
 
 Yeni Organic Maps güncellemesi ile size en yakın aktarı 🌿 kolayca bulabilirsiniz! Android kullanıcıları bu güncelleme ile sürüş sırasında deneysel şerit önerisini test edebilirler (şehrinizdeki şeritler henüz eklenmemişlerse OpenStreetMap org üzerinden eklemeyi unutmayın). Navigasyon yönergeleri artık iPad'lerde doğru şekilde görüntülenmelidir. Bu güncellemede evcil hayvan bakımı, motosiklet tamircisi ve çilingir gibi yeni dükkan türleri de eklendi. Sevgili katkıda bulunan gönüllülerimizle birlikte, Organic Maps'i en iyi harita uygulaması yapmak için sürekli geliştiriyoruz! Lütfen tam güncelleme notuna göz atın:
 
-* 29 Mart tarihine ait yeni OpenStreetMap harita verileri
+* 29 Mart tarihine ait yeni OpenStreetMap harita verileri 
 * OpenStreetMap wiki bağlantıları artık Türkçe sayfalara yönlendiriyor
 * KML yer işaretleri artık yol kaydı verileriyle doğru bir şekilde içe aktarılıyor
 * Müzik ve enstrüman kategorileri editör aracılığıyla haritaya eklenebilir

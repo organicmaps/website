@@ -2,8 +2,6 @@
 title: "As some of you have already discovered, a new September update of Organic Maps is already available in AppStore, AppGallery, and F-Droid."
 date: 2022-09-22T21:48:36+00:00
 slug: "as-some-of-you-have-already-discovered-a-new-september-update-of-organic-maps-is-already-available-in-appstore-appgallery-and-f-droid"
-taxonomies:
-  news: ["Releases"]
 ---
 
 As some of you have already discovered, a new September update of Organic Maps is already available in [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [AppGallery](https://appgallery.huawei.com/#/app/C104325611), and [F-Droid](https://f-droid.org/en/packages/app.organicmaps/).

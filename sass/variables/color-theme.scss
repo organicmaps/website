@@ -1,0 +1,150 @@
+// Common COLOR
+
+@import "../variables/media";
+
+:root {
+    --common-black: #000D07;
+    --common-white: #ffffff;
+    --common-green: #006C35;
+    --common-green-02: #33453D;
+    --common-green-primery: #CCE1D7;
+    --common-green-btn: #006031;
+    --common-green-hover: #2b6445;
+    --common-grey: #D9DBDA;
+    --common-grey-v2: #5A5A5A;
+    --common-grey-v3: #64776E;
+    --common-grey-v4: #E5F0EB;
+    --common-grey-v5: #CECECE;
+    --common-grey-v6: #BBD7A7;
+    --common-grey-v7: #636363;
+    --common-green-border: #99C4AF;
+    --common-line-color: #AEC5BA;
+    --common-black-sub: #26312C;
+    --common-green-btn-social: #33895E;
+    --common-acord-button: #BFDACC;
+    --common-green-gradient: linear-gradient(90deg, #006C35 0%, rgba(0, 96, 49, 0.00) 100%);
+    --common-card-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    --bg-dark: #242424;
+
+    --text-100: #959595;
+    --text-200: #4a4a4a;
+    --text-800: #05162C;
+}
+
+
+// Theme COLOR change
+.light {
+    --data-text-color: var(--common-black-sub);
+    --text-com-color: var( --common-grey-v2);
+    --map-grey-text: var(--common-grey-v7);
+    --point-color: var(--common-green);
+    --link-map-section: var(--common-white);
+    --cart-bg: var(--common-grey-v4);
+    --card-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    --icon-check-color: var(--common-green-primery);
+    --acordion-green: #F2F8F5;
+    --acordion-green-bg: var(--common-grey-v4);;
+    --dots-color: var(--common-grey-v4);;
+    --body-bg: var(--common-white);
+    --white-black: var(--common-white);
+    --black-white: var(--common-black);
+    --green-theme: #006031;
+    --bg-green: var(--common-grey-v4);;
+    --wite-green: var(--common-white);
+    --footer-bg: #F5F5F5;
+    --green-button: var(--common-green);
+    --green-button-transparent: transparent;
+    --icon-border-green: #66A686;
+    --rewi-card-color: var(--common-white);
+
+    // general
+    --text-grey-white: var(--text-800);
+    --text-grey-lgrey: var(--text-200);
+    --text-green-dgreen: var(--common-green);
+    --text-commongrey-white: var(--common-grey-v2);
+    --text-green-lgreen: var(--common-green);
+    --text-dgreen-lgreen: var(--common-green-btn);
+    // home
+    --section-bg: var(--common-green);
+    // volunteering
+    --btn-green-dgreen: var(--common-green);
+    // donate
+    --text-card-support: var(--common-grey-v2);
+    // about
+    --bg-history-line: var(--common-green-primery);
+    // donwload
+    --bg-device-content: #{rgba(#fff, 0.3)};
+    // showcase
+    --bg-showcase: var(--common-grey-v4);
+    --showcase-text: var(--common-green);
+    --showcase-bg-blend: color-burn;
+    // footer
+    --footer-sep: #{rgba(#D9DBDA, 1)};
+    // pagination
+    --paginator-color: #505050;
+    // support
+    --faq-acc-border: var(--common-acord-button);
+    //social
+    --white-bgbody: var(--common-white);
+
+    --circle-check-bg: var(--common-green-primery);
+    --circle-check-color: var(--common-black-sub);
+}
+
+.dark {
+    --data-text-color: var(--common-white);
+    --text-com-color: var(--common-white);
+    --map-grey-text: var(--common-white);
+    --point-color: var(--common-green-primery);
+    --link-map-section: var(--common-grey-v6);
+    --cart-bg: var(--common-green-02);
+    --card-box-shadow: none;
+    --icon-check-color: var(--common-green-primery);
+    --acordion-green: var(--common-green-02);
+    --acordion-green-bg: var(--common-grey-v3);
+    --body-bg: #2C2C2C;
+    --dots-color: var(--common-grey-v4);;
+    --white-black: var(--common-black);
+    --black-white: var(--common-white);
+    --green-theme: var(--common-green);
+    --bg-green: var(--common-green-02);
+    --wite-green: var(--common-green-02);
+    --footer-bg: var(--bg-dark);
+    --green-button: var(--common-grey-v6);
+    --green-button-transparent: var(--common-grey-v6);
+    --icon-border-green: var(--common-white);
+    --rewi-card-color: var(--common-grey-v3);
+
+    // general
+    --text-grey-white: var(--common-white);
+    --text-grey-lgrey: var(--text-100);
+    --text-green-dgreen: var(--common-green-btn);
+    --text-commongrey-white: var(--common-white);
+    --text-green-lgreen: var(--common-grey-v6);
+    --text-dgreen-lgreen: var(--common-grey-v6);
+    //home
+    --section-bg: var(--common-green-02);
+    // volunteering
+    --btn-green-dgreen: var(--common-green);
+    // donate
+    --text-card-support: #{rgba(#fff, 0.8)};
+    // about
+    --bg-history-line: #{rgba(#BBD7A7, 0.3)};
+    // donwload
+    --bg-device-content: #{rgba(#fff, 0.12)};
+    // showcase
+    --bg-showcase: var(--common-green-02);
+    --showcase-text: var(--common-white);
+    --showcase-bg-blend: multiply;
+    // footer
+    --footer-sep: #{rgba(#D9DBDA, 0.1)};
+    // pagination
+    --paginator-color: var(--common-grey-v6);
+    // support
+    --faq-acc-border: var(--common-acord-button);
+    //social
+    --white-bgbody: var(--body-bg);
+
+    --circle-check-bg: #{rgba(#CCE1D7, 0.1)};
+    --circle-check-color: var(--common-white);
+}

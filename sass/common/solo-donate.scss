@@ -1,0 +1,46 @@
+@import "../variables/media";
+
+.section-donate {margin-bottom: 40rem;}
+.box-solo-donate {position: relative; z-index: 5; padding: 40rem; display: flex; column-gap: 60rem; border-radius: 24rem; color: #fff; background: var(--common-green); overflow: hidden;
+    .sd-title {padding: 24rem; display: flex; gap: 4rem; flex-direction: column; align-items: center; justify-content: center; border-radius: 10rem; text-align: center; background: rgba(#fff, 0.1);
+        svg {width: 56rem; height: 56rem;}
+    }
+    .sd-title-text {font-size: 32rem;}
+    .sd-text {max-width: 400rem; font-size: 24rem; line-height: 1.325; font-weight: 400;}
+    .sd-desp {margin-bottom: 28rem;}
+    .sd-bg {position: absolute; top: 50%; right: 24rem; z-index: -1; margin-top: 40rem; transform: translateY(-50%);
+        svg {color: rgba(#fff, 0.05);}
+    }
+    .button {font-size: 16px;}
+
+    @media (max-width: $media-sm) {
+        row-gap: 40rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .sd-title {margin: -10rem -10rem 0; width: calc(100% + 20rem); column-gap: 12rem; flex-direction: row;
+            svg {width: 32rem; height: 32rem;}
+        }
+        .sd-title-text {font-size: 24rem;}
+        .sd-desp {margin-bottom: 80rem;}
+        .sd-bg {top: 50%; right: 50%; margin-top: 0; transform: translateX(50%) translateY(0);}
+    }
+}
+
+.crowdfunding-card__item {
+    .section-donate {margin-bottom: 0; height: 100%;}
+    .container {padding: 0; height: 100%;}
+    .box-solo-donate {height: 100%; flex-direction: column; align-items: flex-start; justify-content: flex-start;}
+    .sd-text {margin-top: 60rem;}
+    .sd-desp {max-width: 75%; font-size: 32px; line-height: 1.325;}
+    .sd-bg {top: 26%; left: 20%; right: auto; transform: translateY(0);
+        svg {width: 743rem; height: auto;}
+    }
+
+    @media (max-width: $media-sm) {
+        .box-solo-donate {align-items: center;}
+        .sd-text {margin-top: 30rem;}
+        .sd-desp {margin-inline: auto; max-width: none; font-size: 24rem;}
+    }
+}

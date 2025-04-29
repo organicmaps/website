@@ -21,7 +21,7 @@ extra:
 
 Пожалуйста, обратитесь к их файлам LICENCE, COPYING или NOTICE для получения информации об условиях использования.
 
-См. также [data/copyright.html](https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html)
+См. также [data/copyright.html](https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html)
 файл для полного списка уведомлений об авторских правах для приложения Organic Maps.
 
 Если у вас есть вопросы или предложения, пожалуйста, свяжитесь с нами по адресу [legal@organicmaps.app](mailto:legal@organicmaps.app).

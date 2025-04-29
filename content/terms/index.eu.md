@@ -1,7 +1,7 @@
 ---
 description: "Organic Maps aplikazioaren erabilera baldintzak"
 extra:
-  menu_title: "Erabilera baldintzak"
+  menu_title: Baldintzak
 title: "Organic Maps: baldintzak"
 weight: 1000
 ---
@@ -35,4 +35,4 @@ honetan [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[copyright]: https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html

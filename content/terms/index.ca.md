@@ -36,4 +36,4 @@ Si teniu cap dubte o suggeriment, contacteu (en anglès) amb nosaltres a
 
 [github]: https://github.com/organicmaps/organicmaps
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[copyright]: https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html

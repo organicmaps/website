@@ -2,8 +2,6 @@
 title: "Organic Maps'te GPX içe aktarma artık destekleniyor"
 date: 2023-06-07T21:54:20+00:00
 slug: "gpx-import-is-now-supported-in-organic-maps"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Organic Maps'te GPX içe aktarma artık destekleniyor! Artık GPX kayıtlarınızı KML'ye dönüştürmenize gerek yok.
@@ -43,7 +41,7 @@ Stiller:
 * Münih'in en kuzeyindeki metro istasyonunun simgesi düzeltildi
 
 Çeviriler:
-* Çalışma saatlerini seçme menüsü için çeviriler eklendi
+* Çalışma saatlerini seçme menüsü için çeviriler eklendi 
 * Düzeltilmiş Baskça, Belarusça, İngilizce (BK), İngilizce (ABD) ve Ukraynaca çeviriler
 
 Masaüstü

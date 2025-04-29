@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\n"
-"Language: pl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-02 10:21+0000\nLast-Translator: Łukasz Soja <dominacja032@gmail.com>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -51,14 +42,13 @@ msgstr "**Organic Maps** to jedna z niewielu obecnie aplikacji, która obsługuj
 #: content/_index.md
 #, no-wrap
 msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> W roku 2023, Organic Maps [zyskało swój pierwszy milion](@/news/2023-12-23/281/index.md) użytkowników. [Pomóż nam](@/donate/index.md) się rozwijać!\n"
 
 #. type: Title ###
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+#, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
-msgstr "Pobierz i zainstaluj Organic Maps z [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
+msgstr "Pobierz i zainstaluj Organic Maps z [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -491,7 +481,7 @@ msgstr "Dlaczego warto przekazać darowiznę na rzecz Organic Maps?"
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps."
-msgstr ""
+msgstr "Naszym celem jest zapewnienie skoncentrowanej na prywatności, szybkiej i łatwej w użyciu alternatywy do Map Google i Apple Maps."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
@@ -506,18 +496,18 @@ msgstr "Polegamy na Twoich darowiznach, aby realizować naszą misję polegając
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr ""
+msgstr "Kochamy to co robimy i kochamy naszych użytkowników ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Why a free project needs money?"
-msgstr ""
+msgstr "Dlaczego darmowy projekt potrzebuje pieniędzy?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "In 2023, Organic Maps got its first million users.  Our servers provide free, fast and frequent map updates all over the world."
-msgstr ""
+msgstr "W roku 2023 Organic Maps zyskało swój pierwszy milion użytkowników. Nasze serwery zapewniają darmowe, szybkie i częste aktualizacje map na całym świecie."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
@@ -542,7 +532,7 @@ msgstr "Rejestrator śladów GPS z obsługą GPX"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Satellite imagery"
-msgstr ""
+msgstr "Zdjęcia satelitarne"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -557,7 +547,7 @@ msgstr ""
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Photos and Reviews"
-msgstr ""
+msgstr "Zdjęcia i opinie"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -850,7 +840,7 @@ msgstr "Zobacz również plik [data/copyright.html][copyright], aby zapoznać si
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr ""
+msgstr "[github]: https://github.com/organicmaps/organicmaps"
 
 #. type: Link reference
 #: content/terms/index.md
@@ -886,13 +876,13 @@ msgstr "Kontakt z nami"
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Edytuj na GitHub"
 
 #. type: Hash Value: engines
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr ""
+msgstr "Wspierane silniki TTS"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
@@ -904,7 +894,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Wróć do góry"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml

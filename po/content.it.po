@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-08 13:14+0000\nLast-Translator: Arducode <arducode@gmail.com>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/organicmaps/website/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-08 17:34+0000\nLast-Translator: Tommi <surfing@tommi.space>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/organicmaps/website/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -58,22 +58,22 @@ msgstr ""
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Escursione') }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prague') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/prague.jpg', alt='Praga') }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/search.jpg', alt='Offline Search') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/search.jpg', alt='Ricerca offline') }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navigation in dark mode') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navigazione in modalità scura') }}"
 
 #. type: Title ##
 #: content/_index.md
@@ -220,7 +220,7 @@ msgstr "L'app è verificata da [Exodus Privacy Project][exodus]:"
 #. type: Plain text
 #: content/_index.md
 msgid "{{ exodus_screenshot() }}"
-msgstr ""
+msgstr "{{ exodus_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -230,7 +230,7 @@ msgstr "L'app iOS è verificata da [TrackerControl for iOS][trackercontrol]:"
 #. type: Plain text
 #: content/_index.md
 msgid "{{ trackercontrol_screenshot() }}"
-msgstr ""
+msgstr "{{ trackercontrol_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -240,7 +240,7 @@ msgstr "Organic Maps non richiede autorizzazioni inutili per spiarti:"
 #. type: Plain text
 #: content/_index.md
 msgid "{{ privacy_screenshots() }}"
-msgstr ""
+msgstr "{{ privacy_screenshots() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -292,7 +292,7 @@ msgstr "Per donare con facilità, clicca sul tuo metodo di pagamento preferito q
 #. type: Plain text
 #: content/_index.md content/donate/index.md
 msgid "{{ donate_buttons() }}"
-msgstr ""
+msgstr "{{ donate_buttons() }}"
 
 #. type: Title ###
 #: content/_index.md

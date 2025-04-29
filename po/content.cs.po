@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: grreby <grreby@proton.me>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 21:45+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -309,7 +300,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:"
 
 #. type: Plain text
 #: content/_index.md
@@ -357,7 +348,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Projekt vyhledávání a písem</a> byl <a href=\"https://nlnet.nl/project/OrganicMaps/\">financován</a> pomocí fondu NGI0 Entrust. <a href=\"https://nlnet.nl/entrust/\">Fond NGI0 Entrust</a> je zřízen organizací <a href=\"https://nlnet.nl/\">NLnet Foundation</a> s finanční podporou z <a href=\"https://www.ngi.eu/\">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      Společnost <a href=\"https://summerofcode.withgoogle.com/\">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> a <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      ISP <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> is <a href=\"https://44plus.vn/organicmaps\">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> nám <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">udělilo mikro-grant $1000</a> v únoru 2023.\n    </td>\n  </tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -890,7 +881,7 @@ msgstr "Kontaktujte nás"
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Upravit na GitHubu"
 
 #. type: Hash Value: engines
 #: translations.yaml
@@ -908,7 +899,7 @@ msgstr "Často kladené dotazy"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Přejít nahoru"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml
@@ -950,7 +941,7 @@ msgstr "Jazyk"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Pro více informací navštivte náš web"
 
 #. type: Hash Value: name
 #: translations.yaml

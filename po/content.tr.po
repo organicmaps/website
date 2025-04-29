@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2024-09-21 06:40+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Turkish <https://hosted.weblate.org/projects/organicmaps/website/tr/>\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.8-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-25 08:31+0000\nLast-Translator: Bora Atıcı <boratici.acc@gmail.com>\nLanguage-Team: Turkish <https://hosted.weblate.org/projects/organicmaps/website/tr/>\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "MapsWithMe (Maps.Me) uygulaması kurucuları tarafından oluşturulan gezginler, turistler, sürücüler, yürüyüşçüler ve bisikletçiler için hızlı ayrıntılı çevrim dışı haritalar."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -58,12 +58,12 @@ msgstr ""
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prague') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prague') }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -79,12 +79,12 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Features"
-msgstr "Features"
+msgstr "Özellikler"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:"
-msgstr ""
+msgstr "Organik Haritalar, gezginler, turistler, yürüyüşçüler ve bisikletçiler için en iyi yoldaş uygulamasıdır:"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -94,7 +94,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Cycling routes, hiking trails, and walking paths"
-msgstr ""
+msgstr "Bisiklet yolları, yürüyüş parkurları ve yolları"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -109,7 +109,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Fast offline search on the map"
-msgstr ""
+msgstr "Haritada hızlı çevrim dışı arama"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -119,12 +119,12 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Dark Mode to protect your eyes"
-msgstr ""
+msgstr "Gözlerinizi korumak için karanlık kip"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Countries and regions don't take a lot of space"
-msgstr ""
+msgstr "Ülkeler ve bölgeler çok fazla yer kaplamaz"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -135,32 +135,32 @@ msgstr "Özgür ve açık kaynaklı"
 #: content/_index.md
 #, no-wrap
 msgid "Why Organic?"
-msgstr ""
+msgstr "Neden Organik?"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is pure and organic, made with love:"
-msgstr ""
+msgstr "Organik haritalar, saf ve organik sevgi ile yapılmıştır:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Respects your privacy"
-msgstr ""
+msgstr "Gizliliğinize saygı duyar"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Saves your battery"
-msgstr ""
+msgstr "Pilinizi korur"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No unexpected mobile data charges"
-msgstr ""
+msgstr "Beklenmedik mobil veri ücreti yok"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps app is free from trackers and other bad stuff:"
-msgstr ""
+msgstr "Organik Haritalar uygulaması izleyiciler ve diğer kötü şeyler içermez:"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
@@ -170,12 +170,12 @@ msgstr "Reklamsız"
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No tracking"
-msgstr "İzlenme yok."
+msgstr "İzlenme yok"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No data collection"
-msgstr ""
+msgstr "Veri toplama yok"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -185,20 +185,21 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No annoying registration"
-msgstr ""
+msgstr "Can sıkıcı kayıtlar yok"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No mandatory tutorials"
-msgstr ""
+msgstr "Zorunlu öğretici yok"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "No noisy email spam"
-msgstr ""
+msgstr "Rahatsız edici spam e-posta yok"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
+#, fuzzy
 msgid "No push notifications"
 msgstr "Anlık Bildirimler"
 
@@ -210,17 +211,17 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "~~No pesticides~~ Purely organic!"
-msgstr ""
+msgstr "~~Börek zehri yok~~ Tamamen organik!"
 
 #. type: Plain text
 #: content/_index.md
 msgid "The application is verified by [Exodus Privacy Project][exodus]:"
-msgstr ""
+msgstr "Uygulama [Exodus Gizlilik Projesi][exodus] ile doğrulanmıştır:"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ exodus_screenshot() }}"
-msgstr ""
+msgstr "{{ exodus_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -230,22 +231,22 @@ msgstr ""
 #. type: Plain text
 #: content/_index.md
 msgid "{{ trackercontrol_screenshot() }}"
-msgstr ""
+msgstr "{{ trackercontrol_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps doesn't request excessive permissions to spy on you:"
-msgstr ""
+msgstr "Organik haritalar size casusluk yapmak için lüzumsuz izin istemez:"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ privacy_screenshots() }}"
-msgstr ""
+msgstr "{{ privacy_screenshots() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "At Organic Maps, we believe that privacy is a fundamental human right:"
-msgstr ""
+msgstr "Organik haritalarda, gizliliğin temel bir insan hakkı olduğuna inanıyoruz:"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -260,29 +261,29 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "Nerede olursanız olun güvende kalın"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
 msgid "Reject surveillance - embrace your freedom."
-msgstr ""
+msgstr "Gözetimi reddedip - özgürlüğünüzü kucaklayın."
 
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
 msgid "**[Give Organic Maps a try!](#install)**\n"
-msgstr ""
+msgstr "** [Organik Haritaları deneyin!] (#install) **\n"
 
 #. type: Title ##
 #: content/_index.md
 #, no-wrap
 msgid "Who is paying for the free app?"
-msgstr ""
+msgstr "Ücretsiz uygulama için kim ödeme yapıyor?"
 
 #. type: Plain text
 #: content/_index.md
 msgid "The app is free for everyone. Please [donate](@/donate/index.md) to support us!"
-msgstr ""
+msgstr "Uygulama herkes için ücretsizdir. Bizi desteklemek için lütfen [bağış](@/donate/index.md) yapın!"
 
 #. type: Plain text
 #: content/_index.md

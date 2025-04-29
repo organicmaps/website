@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-27 19:45+0000\nLast-Translator: mcliquid <info@mcliquid.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-rc\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-06 10:59+0000\nLast-Translator: Maschga <delphi@freenet.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -30,7 +30,7 @@ msgstr "Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "**Organic Maps** ist eine freie und kostenlose Offline-Karten-App für Android und iOS für Reisende, Touristen, Wanderer und Radfahrer, die auf den Daten von **[OpenStreetMap][openstreetmap]** basiert. Es handelt sich um eine datenschutzfreundliche, quelloffene [Abspaltung][fork] der **Maps.me**-App (früher bekannt als [**MapsWithMe**][mapswithme]), die von denselben Leuten gepflegt wird, die **MapsWithMe** im Jahr 2011 erstellt haben.\n"
+msgstr "**Organic Maps** ist eine freie und kostenlose Offline-Karten-App für Android und iOS für Reisende, Touristen, Wanderer und Radfahrer, die auf den Daten von **[OpenStreetMap][openstreetmap]** basiert.\nEs handelt sich um eine datenschutzfreundliche, quelloffene [Abspaltung][fork] der **Maps.me**-App (früher bekannt als [**MapsWithMe**][mapswithme]), die von denselben Leuten gepflegt wird, die **MapsWithMe** im Jahr 2011 erstellt haben.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -846,7 +846,7 @@ msgstr "[github]: https://github.com/organicmaps/organicmaps"
 #: content/terms/index.md
 #, no-wrap
 msgid "[license]: http://www.apache.org/licenses/LICENSE-2.0"
-msgstr "[license]: http://www.apache.org/licenses/LICENSE-2.0"
+msgstr "[Lizenz]: http://www.apache.org/licenses/LICENSE-2.0"
 
 #. type: Link reference
 #: content/terms/index.md
@@ -888,7 +888,7 @@ msgstr "Unterstützte TTS-Modelle"
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
-msgstr "FAQ"
+msgstr "F.A.Q."
 
 #. type: Hash Value: go-to-top
 #: translations.yaml

@@ -1,0 +1,128 @@
+@import "../variables/media";
+
+.faq-page {
+padding-top: 0;
+
+}
+
+.faq-page-list {
+    &__term {padding-top: var(--spacer);}
+    &__title {
+        color: var(--black-white);
+        margin-bottom: 20rem;
+        @media (max-width: $media-md) {
+            margin-top: 4rem;
+            margin-bottom: 0;
+            font-size: 20rem;
+        }
+    }
+    &__table-title {
+        color: var(--black-white);
+        text-decoration: none;
+    }
+    &__table-tags {margin-top: 10rem; display: flex; gap: 10rem; flex-wrap: wrap;}
+&__row {
+  display: flex;
+//   gap: 10rem;
+  flex-direction: column;
+  margin-bottom: 60rem;
+  @media (max-width: $media-md) {
+    margin-bottom: 30rem;
+    gap: 20rem;
+  }
+}
+  &__buttons {
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 10rem;
+  }
+  &__item {
+    display: flex;
+    gap: 10rem;
+    @media (max-width: $media-md) {
+     flex-direction: column;
+
+    }
+  }
+  &__img {
+    width: 100%;
+    max-width: 300rem;
+    @media (max-width: $media-md) {
+      max-width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__text {
+    position: sticky;
+    top: 20rem;
+  }
+  &__table {
+    border-top: 1rem solid var(--common-acord-button);
+    // border-radius: 10rem;
+    margin-bottom: 20rem;
+  }
+  &__loader {padding: 20rem 30rem; border-bottom: 1rem solid var(--common-acord-button)}
+  &__table-static {
+    scroll-margin-top: 100rem;
+    border: 1rem solid var(--common-acord-button);
+    border-radius: 10rem;
+    .faq-page-list__table-item {padding: 18rem 30rem;
+        &:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: $media-md) {
+            padding: 15rem 18rem;
+        }
+    }
+    .faq-page-list__table-link {display: inline-block; text-decoration: underline; color: var(--text-green-lgreen);
+        @media (max-width: $media-md) {font-size: 14rem; line-height: 1.5;}
+    }
+  }
+  &__table-item {
+    padding: 30rem 30rem;
+    border-bottom: 1rem solid var(--common-acord-button);
+    
+    @media (max-width: $media-md) {
+        padding: 20rem 0;
+    }
+  }
+  &__table-link {
+    color: var(--text-grey-white);
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    @media (max-width: $media-md) {
+      font-size: 16rem;
+      line-height: 1.4;
+    }
+  }
+  &__table-category {
+    margin-block: 2rem;
+    color: var(--text-green-lgreen);
+    @media (max-width: $media-md) {
+        font-size: 15rem;
+    }
+  }
+  &__table-content {
+    @media (max-width: $media-md) {
+      font-size: 15rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+.faq-page-footer {
+  padding-top: 40rem;
+  margin-bottom: 60rem;
+  &__title{
+    margin-bottom: 30rem;
+    text-align: center;
+  }
+  @media (max-width: $media-md) {
+    padding-top: 10rem;
+    margin-bottom: 40rem;
+  }
+}

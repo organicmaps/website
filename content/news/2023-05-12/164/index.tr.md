@@ -2,8 +2,6 @@
 title: "Ekibimiz ve sevgili katılımcılarımız için yoğun bir dönemdi"
 date: 2023-05-12T14:10:24+00:00
 slug: "it-was-a-busy-time-for-our-team-and-our-beloved-contributors"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Ekibimiz ve sevgili katılımcılarımız için yoğun bir dönemdi. Sizler için yeni bir uygulama ve harita verisi güncellemesi hazırladık.

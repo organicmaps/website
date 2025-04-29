@@ -1,0 +1,23 @@
+.switch-theme {
+  background-color: var(--body-bg);
+  width: 70rem;
+  height: 30rem;
+  padding: 3rem;
+  border-radius: 70rem;
+  position: relative;
+  cursor: pointer;
+  &.is-active{
+    .switch-theme__toggle {
+     right: 42rem;
+    }
+  }
+   &__toggle {
+     position: absolute;
+     top: 3rem;
+     right: 3rem;
+     width: 23rem;
+     height: 23rem;
+     border-radius: 50rem;
+     background-color: var(--common-green);
+   }
+}

@@ -1,0 +1,40 @@
+@import "../variables/media";
+
+.main-news {
+  &__row {
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34rem;
+    margin-bottom: 60rem;
+    @media (max-width: $media-sm) {
+      grid-template-columns: 1fr;
+      margin-bottom: 20rem;
+    }
+  }
+  &__nav-row {
+    display: flex;
+    overflow: auto;
+    // flex-wrap: wrap;
+    gap: 10rem;
+    margin: 40rem 0 24rem;
+    padding-bottom: 6rem;
+    .button {padding-inline: 28rem; min-width: 180rem; font-size: 20rem; font-weight: 400; white-space: nowrap;}
+    @media (max-width: $media-sm) {
+      .button {
+        min-width: auto;
+        flex-grow: 1;
+      }
+    }
+  }
+  &__button {
+    margin: 0 auto 60rem;
+  }
+  .news {
+    width: 48%;
+    margin-bottom: 20rem;
+    img {
+      width: 100%;
+    }
+  }
+}
+

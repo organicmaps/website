@@ -2,8 +2,6 @@
 title: "Organic Maps’in ikinci Kasım güncellemesi karşınızda"
 date: 2022-11-30T09:58:35+00:00
 slug: "meet-the-second-november-update-of-organic-maps"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Organic Maps’in ikinci Kasım güncellemesi karşınızda! Seyahatlerinizin tadını çıkarın ve deneyiminizi bizimle paylaşın. Gizlilik odaklı, en hızlı, kullanımı en kolay olan en iyi çevrimdışı haritaları birlikte yapalım!
@@ -23,7 +21,7 @@ Organic Maps’in ikinci Kasım güncellemesi karşınızda! Seyahatlerinizin ta
 * Mekan Sayfasında yerin adı artık yerel dilde gösteriliyor
 * Yerin kapanmasına tam olarak 1 saat kaldığında daha iyi şekilde gösteriliyor
 
-🗺️ Stiller
+🗺️ Stiller 
 * Bazı yanlış örtüşen tipler düzeltildi
 * highway=busway (otobüs yolu) ve fizyoterapist kategorisi eklendi
 * Artık adalar ve takımadalar dünya haritasında gösteriliyor
@@ -39,6 +37,6 @@ Organic Maps’in ikinci Kasım güncellemesi karşınızda! Seyahatlerinizin ta
 🖥️ Desktop (Linux, macOS, Windows)
 * GCC-12'de yapı hataları düzeltildi
 * Fareyi kullanarak haritayı sürüklerken oluşan hatalar düzeltildi
-* "+" tuşu artık haritayı yakınlaştırıyor
+* "+" tuşu artık haritayı yakınlaştırıyor 
 * Mac'lerde yüksek DPI ekranlarda yüksek çözünürlüklü simgeler kullanılıyor
 * WSL ve masaüstü uygulamasını çalıştırma ile ilgili belgeleri iyileştirildi (yerel Windows sürümü [henüz hazır değil](https://github.com/organicmaps/organicmaps/tree/windows), ilgileniyorsanız lütfen bize bildirin)

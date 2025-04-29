@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.menu_title, desp=page.extra.community_hero_description) }}
+{# <section class="hero-sub" style="background-image: url({{ page.extra.hero_image | safe }})">
+    <div class="container hero-sub__container">
+        <nav class="bred-crum">
+            <ul class="bred-crum__row">
+                <li class="bred-crum__item">
+                    <a class="nav-bred bred-crum__link" href="/">{{ page.extra.menu_title_pre }}</a>
+                </li>
+                <li class="bred-crum__item">
+                    <span class="nav-bred">
+                        >
+                    </span>
+                </li>
+                <li class="bred-crum__item">
+                    <a class="nav-bred bred-crum__link bred-crum--active" href="/{{ page.extra.menu_title | lower }}">{{
+                        page.extra.menu_title }}</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero-sub__content">
+            <h1 class="h1 hero-sub__title">
+                {{ page.extra.menu_title }}
+            </h1>
+            <p class="h2-sub_v2 hero-sub__description">
+                {{ page.extra.community_hero_description }}
+            </p>
+
+        </div>
+    </div>
+</section> #}
+<section class="section-social">
+    <h2 class="box-social__title">
+        {{ trans(key='social_title', lang=lang) }}
+    </h2>
+    {% include 'section/social-icon.html' %}
+</section>
+<section class="section-community">
+    <div class="container section-community__container">
+        {% if page.extra.features %}
+        {% for feat in page.extra.features %}
+        <a href="{{ feat.link }}"  class="section-community__card--parent">
+            <div class="section-community__card">
+                <div class="section-community__card--holder">
+                    <div class="section-community__card--icon">
+                        {{ load_data(path="static/images/community/icons/" ~ feat.icon) | safe }}
+                    </div>
+                    <h2 class="section-community__card--title">{{ feat.title | markdown | safe }}</h2>
+                </div>
+                <div class="section-community__card--description">
+                    {{ feat.description | markdown | safe }}
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    {% endif %}
+
+    </div>
+</section>
+
+{{ macros::solo_donate(text=trans(key='donate-description', lang=lang)) }}
+{%- endblock content %}
+

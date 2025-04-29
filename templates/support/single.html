@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% import "macros/macros.html" as macros %}
+
+{% block meta_description %}
+    <meta name="description" content="{{ trans(key='faq_content', lang=lang) }}">
+{% endblock %}
+
+{% block content %}
+{{ macros::showcase_inner(title=term.name) }}
+
+<section class="faq-page-list faq-page-list__term">
+    <div class="container faq-page-list__row">
+        {%- for term in term.pages | sort(attribute="extra.order") -%}
+            <ul class="faq-page-list__table faq-page-list__table-static">
+                <li class="faq-page-list__table-item"><a class="h5 faq-page-list__table-link" href="{{ term.permalink }}">{{ term.title }}</a></li>
+            </ul>
+        {%- endfor -%}
+    </div>
+</section>
+
+<section class="faq-page-footer">
+    <div class="container faq-page-footer__row">
+        <h2 class="box-social__title">{{ trans(key='social_title', lang=lang) }}</h2>
+    </div>
+    {% include 'section/social-icon.html' %}
+</section>
+{% include 'section/donate.html' %}
+
+{% endblock content %}

@@ -23,6 +23,6 @@ weight: 1000
 
 如有任何意见建议，欢迎通过[legal@organicmaps.app](mailto:legal@organicmaps.app)联系我们。
 
-[github]: https://github.com/organicmaps/organicmaps
-[license]: http://www.apache.org/licenses/LICENSE-2.0
-[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[Github]: https://github.com/organicmaps/organicmaps
+[许可协议]: http://www.apache.org/licenses/LICENSE-2.0
+[版权信息]: https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html

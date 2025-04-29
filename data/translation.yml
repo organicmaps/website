@@ -1,0 +1,262 @@
+ru-UA:
+  - title: О нас
+    url: /rus/
+    sublinks:
+      - title: Об клинике
+        url: "/about.html"
+      - title: Вопрос / Ответ
+        url: "/faq.html"
+      - title: Стоимость лечения
+        url: /price.html
+      - title: Наши контакты
+        url: /conatacty.html
+      - title: Памятка пациента
+        url: /for-patient.html
+  - title: Психиатрия
+    url: /psihiatria.html
+    sublinks:
+      - title: Вызов психиатра домой
+        url: /vyklyk-psykhiatra-dodomu.html
+      - title: Обсессивно-компульсивное расстройство
+        url: /obsesyvno-kompulsyvni-rozlady.html
+      - title: Биполярное расстройство
+        url: /bipolyarnyy-rozlad.html
+      - title: Деменция
+        url: /dementsiya.html
+      - title: Игровая зависимость
+        url: /psihiatria/game.html
+      - title: Сексуальные расстройства
+        url: /psihiatria/sex-zavisimosti.html
+      - title: Аффективные расстройства
+        url: /affektivnye-rasstroystva.html
+      - title: Шизоаффективное расстройство
+        url: /sizoaffektivnoe-rastroistva.html
+      - title: Шизотипическое расстройство
+        url: /shizotepia.html
+      - title: Лечение голосов
+        url: /golosov.html
+      - title: Бредовые идеи
+        url: /bred.html
+      - title: Нарушение памяти
+        url: /pamjat.html
+      - title: Шизофрения
+        url: /shizofrena.html
+      - title: Судорожные припадки
+        url: /sudorogi.html
+      - title: Лечении депрессии
+        url: /depressiya.html
+      - title: Лечение психозов
+        url: /psihozi.html
+      - title: Дереализации и деперсонализации
+        url: /depersonalization.html
+      - title: Навязчивые мысли
+        url: /navjaz.html
+      - title: Органические расстройства
+        url: /ocgr.html
+      - title: Психопатия
+        url: /psihopatii.html
+      - title: Тревожно-депрессивное расстройство
+        url: /tds.html
+      - title: Синдром Кандинского - Клерамбо
+        url: /skk.html
+  - title: Психотерапия
+    url: /uslugi/psihoterapia.html
+    sublinks:
+      - title: Нарушение питания
+        url: /narusheniya-pitaniya.html
+      - title: Нарушение сна
+        url: /parasomnia.html
+      - title: Лечение булимии
+        url: /napravlenie-lechenia/bulimija.html
+      - title: Лечение Фобий
+        url: /lechenie-fobij.html
+      - title: ГТР
+        url: /gtr.html
+      - title: Психокоррекция
+        url: /psykhokorektsiya.html
+      - title: ПТСР
+        url: /ptsr.html
+      - title: Лечение гнева
+        url: /gnev.html
+      - title: Лечение кома в горле
+        url: /com-v-gorle.html
+      - title: Истерики
+        url: /isterika.html
+      - title: Эмоциональное выгорание
+        url: /vigoranie.html
+      - title: Меланхолия
+        url: /melanholia.html
+      - title: Хроническая усталость
+        url: /ustalost.html
+  - title: Неврология
+    url: /nevrokog.html
+    sublinks:
+      - title: Энцефалопатия
+        url: /nevrokog/encefalopatia.html
+      - title: Внутричерепная гипертензия
+        url: /nevrokog/vnutricerepnaya-gipertenzia.html
+      - title: Гидроцефалия
+        url: /nevrokog/gidracefalia.html
+      - title: Гиперкинезы
+        url: /nevrokog/giper.html
+      - title: Головные боли
+        url: /nevrokog/golovnie-boli.html
+      - title: Головокружение
+        url: /nevrokog/golovokruzenie.html
+      - title: Болезнь Паркинсона
+        url: /nevrokog/parkinson.html
+      - title: Вегето-сосудистая дистония
+        url: /nevrokog/vsd-help.html
+  - title: Услуги
+    url: /uslugi.html
+    sublinks:
+      - title: Консультация Психиатра
+        url: /konsultatsiya-psykhiatra.html
+      - title: Консультация Психолога
+        url: /konsultatsiya-psykholoha.html
+      - title: Консультация Психотерапевта
+        url: /konsultatsiya-psykhoterapevta.html
+      - title: Скорая психиатрическая помощь
+        url: /skoraya-psikhiatricheskaya-pomoshch.html
+      - title: Вызов медсестры на дому
+        url: /uslugi/medsestra.html
+      - title: Очистка организма
+        url: /uslugi/detox-o.html
+      - title: Трансфер в клинику
+        url: /perevozka.html
+  - title: Стоимость лечения
+    url: /price.html
+
+
+uk-UA:
+  - title: Про нас
+    url: /
+    sublinks:
+      - title: Про клініку
+        url: /ua/about.html
+      - title: Питання/Відповідь
+        url: /ua/faq.html
+      - title: Вартість лікування
+        url: /ua/price.html
+      - title: Наші контакти
+        url: /ua/conatacty.html
+      - title: Пам'ятка пацієнта
+        url: /ua/for-patient.html
+  - title: Психіатрія
+    url: /ua/psihiatria.html
+    sublinks:
+      - title: Виклик психіатра додому
+        url: /ua/vyklyk-psykhiatra-dodomu.html
+      - title: Обсесивно-компульсивний розлад
+        url: /ua/obsesyvno-kompulsyvni-rozlady.html
+      - title: Біполярний розлад
+        url: /ua/bipolyarnyy-rozlad.html
+      - title: Деменція
+        url: /ua/dementsiya.html
+      - title: Ігрова залежність
+        url: /ua/psihiatria/game.html
+      - title: Сексуальні розлади
+        url: /ua/psihiatria/sex-zavisimosti.html
+      - title: Афективні розлади
+        url: /ua/affektivnye-rasstroystva.html
+      - title: Шизоафективний розлад
+        url: /ua/sizoaffektivnoe-rastroistva.html
+      - title: Шизотиповний розлад
+        url: /ua/shizotepia.html
+      - title: Лікування голосів
+        url: /ua/golosov.html
+      - title: Маячні ідеї
+        url: /ua/bred.html
+      - title: Порушення пам'яті
+        url: /ua/pamjat.html
+      - title: Шизофренія
+        url: /ua/shizofrena.html
+      - title: Судомні напади
+        url: /ua/sudorogi.html
+      - title: Лікування депресії
+        url: /ua/depressiya.html
+      - title: Лікування психозів
+        url: /ua/psihozi.html
+      - title: Дереалізації та деперсоналізації
+        url: /ua/depersonalization.html
+      - title: Нав'язливі думки
+        url: /ua/navjaz.html
+      - title: Органічні розлади
+        url: /ua/ocgr.html
+      - title: Психопатія
+        url: /ua/psihopatii.html
+      - title: Тривожно-депресивний розлад
+        url: /ua/tds.html
+      - title: Синдром Кандинського - Клерамбо
+        url: /ua/skk.html
+  - title: Психотерапія
+    url: /ua/uslugi/psihoterapia.html
+    sublinks:
+          - title: Порушення харчування
+            url: /ua/narusheniya-pitaniya.html
+          - title: Порушення сну
+            url: /ua/parasomnia.html
+          - title: Лікування булимії
+            url: /ua/napravlenie-lechenia/bulimija.html
+          - title: Лікування Фобій
+            url: /ua/lechenie-fobij.html
+          - title: ГТР
+            url: /ua/gtr.html
+          - title: Психокорекція
+            url: /ua/psykhokorektsiya.html
+          - title: ПТСР
+            url: /ua/ptsr.html
+          - title: Лікування гніву
+            url: /ua/gnev.html
+          - title: Лікування кома в горлі
+            url: /ua/com-v-gorle.html
+          - title: Істерики
+            url: /ua/isterika.html
+          - title: Емоційне вигоряння
+            url: /ua/vigoranie.html
+          - title: Меланхолія
+            url: /ua/melanholia.html
+          - title: Хронічна втома
+            url: /ua/ustalost.html
+  - title: Неврологія
+    url: /ua/nevrokog.html
+    sublinks:
+      - title: Енцефалопатія
+        url: /ua/nevrokog/encefalopatia.html
+      - title: Внутрішньочерепна гіпертензія
+        url: /ua/nevrokog/vnutricerepnaya-gipertenzia.html
+      - title: Гідроцефалія
+        url: /ua/nevrokog/gidracefalia.html
+      - title: Гіперкінези
+        url: /ua/nevrokog/giper.html
+      - title: Головний біль
+        url: /ua/nevrokog/golovnie-boli.html
+      - title: Запаморочення
+        url: /ua/nevrokog/golovokruzenie.html
+      - title: Хвороба Паркінсона
+        url: /ua/nevrokog/parkinson.html
+      - title: Вегето-судинна дистонія
+        url: /ua/nevrokog/vsd-help.html
+  - title: Послуги
+    url: /ua/uslugi.html
+    sublinks:
+      - title: Консультація Психіатра
+        url: /ua/konsultatsiya-psykhiatra.html
+      - title: Консультація Психолога
+        url: /ua/konsultatsiya-psykholoha.html
+      - title: Консультація Психотерапевта
+        url: /ua/konsultatsiya-psykhoterapevta.html
+      - title: Швидка психіатрична допомога
+        url: /ua/skoraya-psikhiatricheskaya-pomoshch.html
+      - title: Виклик медсестри вдома
+        url: /ua/uslugi/medsestra.html
+      - title: Очищення організму
+        url: /ua/uslugi/detox-o.html
+      - title: Трансфер до клініки
+        url: /ua/perevozka.html
+  - title: Вартість лікування
+    url: /ua/price.html
+
+
+
+

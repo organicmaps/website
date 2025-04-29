@@ -1,0 +1,273 @@
+{% macro showcase_inner(title, desp="", donate=false, tax_section=false, tax_section_permalink="") %}
+<svg class="hidden" viewBox="0 0 5 7" xmlns="http://www.w3.org/2000/svg">
+    <path id="sep" d="M4.18752 3.50002C4.18752 3.42809 4.16003 3.35609 4.10511 3.30117L1.29261 0.488674C1.18271 0.378775 1.00475 0.378775 0.894924 0.488674C0.785096 0.598572 0.785025 0.776533 0.894924 0.886361L3.50858 3.50002L0.894924 6.11367C0.785025 6.22357 0.785025 6.40153 0.894924 6.51136C1.00482 6.62119 1.18278 6.62126 1.29261 6.51136L4.10511 3.69886C4.16003 3.64395 4.18752 3.57195 4.18752 3.50002Z" />
+</svg>    
+<section class="showcase-inner">
+    <div class="container">
+        {# <div class="breadcrumb-container">
+            <a class="breadcrumb-path" href="/">Home</a>
+            {% if term %}
+                <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                <a href="/{{ taxonomy.slug }}">{{ taxonomy.name | capitalize }}</a>
+                <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                <span class="breadcrumb-path active">{{ term.name }}</span>
+            {% elif taxonomy %}
+                <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                <span class="breadcrumb-path active">{{ taxonomy.name | capitalize }}</span>
+            {% else %}
+                {% set current = section | default(value=page) %}
+                {% for ancestor in current.ancestors %}
+                    {% if loop.first %}
+                        {% continue %}
+                    {% endif %}
+                    <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                    {% set section = get_section(path=ancestor) %}
+                    <a class="breadcrumb-path" href="{{ section.permalink }}">{{ section.title }}</a>
+                {% endfor %}
+                {% if tax_section %}
+                    <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                    <a class="breadcrumb-path" href="{{ tax_section_permalink }}">{{ title }}</a>
+                {% endif %}
+                <span class="breadcrumb-separator"><svg viewBox="0 0 5 7"><use href="#sep"/></svg></span>
+                <!-- <a class="breadcrumb-path active" href="{{ current.permalink }}">{{ current.title }}</a> -->
+                <span class="breadcrumb-path active">{{ current.title }}</span>
+            {% endif %}
+        </div> #}
+        <div class="si-header">
+            <h1 class="si-title">{{ title | safe }}</h1>
+            {% if desp %}<div class="si-subtitle">{{ desp | markdown | safe }}</div>{% endif %}
+        </div>
+        {% if donate %}
+            <div class="si-action">
+                <a href="{% if page.path == '/donate/' %}#donate{% else %}/donate/{% endif %}" class="button button--main"> {{ trans(key='donate-title', lang=lang) }}</a>
+            </div>
+        {% endif %}
+    </div>
+</section>
+{% endmacro showcase_inner %}
+
+
+{% macro card_post(page) %}
+<section class="post-min" {% if page.translations | length <= 1 %} dir="auto"{% endif %}>
+    <!-- Display wide images below the text instead of to the right. -->
+    {% set_global noflex = '' %}
+    {% for photo in page.assets %}
+        {% set meta = get_image_metadata(path=photo) %}
+        {% if meta.width > meta.height %}
+            {% set_global noflex = '_noflex' %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if page.assets %}
+        {% for photo in page.assets | sort %}
+            <img class="post-min__img post-min__img--one" src="{{ page.path | safe }}{{ photo | split(pat='/') | last }}"/>
+        {% endfor %}
+    {% else %}
+        <img class="post-min__img post-min__img--one" src="/images/post/img2.png"/>
+    {% endif %}
+
+    {% if page.title %}
+        <a class="post-min__title-holder" href="{{ page.path | safe }}">
+            <h2 class="h2-sub_v2 post-min__title">
+                {{ page.title | safe }}
+            </h2>
+        </a>
+    {% endif %}
+    <div class="line post-min__line"></div>
+    <div class="post-min__dates">
+        <div class="post-min__date">
+            <time class="p-sm post-min__date-title" datetime="{{ page.date }}">
+                {{ page.date | date(format='%B %e, %Y') }}
+            </time>
+            <!-- <span class="p-sm post-min__date-title">{{ page.date | date(format='%B %e, %Y') }}</span> -->
+        </div>
+        <div class="post-min__date">
+            <span class="p-sm post-min__date-title">
+                {% if page.taxonomies.category %}
+                    {% for term in page.taxonomies.category %}{{ term }}{% endfor %}
+                {% else %}
+                    {{ trans(key='news_title', lang=lang) }}
+                {% endif %}
+            </span>
+        </div>
+    </div>
+    {% if page.description %}
+        <p class="p-card post-min__text">
+            {{ page.description | safe }}
+        </p>
+    {% endif %}
+    <div class="p-text">
+        {{ page.content | striptags | truncate(length=120) }}
+    </div>
+    <a class="p-sm post-min__link" href="{{ page.path | safe }}">{{ trans(key='more_title', lang=lang) }}</a>
+</section>
+{% endmacro card_post %}
+
+
+{% macro pagination(base_url) %}
+{% if paginator.number_pagers > 1 %}
+    <div class="container pagination-holder">
+        <nav class="pagination">
+            <a class="previous{% if not paginator.previous %} disabled{% endif %}" href="{{ paginator.previous }}">
+                {{ load_data(path="static/images/icons/arrow.svg") | safe }}
+            </a>
+            {% if paginator.pages %}
+                {% for i in range(end = paginator.number_pagers, start = 0) %}
+                    <a class="{% if paginator.current_index == (i + 1) %}active{% endif %}" href="{{ base_url }}page/{{ i + 1 }}/">{{ i + 1 }}</a>
+                {% endfor %}
+            {% endif %}
+            <a class="next{% if not paginator.next %} disabled{% endif %}" href="{{ paginator.next }}">
+                {{ load_data(path="static/images/icons/arrow.svg") | safe }}
+            </a>
+        </nav>
+        {% if paginator.next %}
+            <a class="button--outlined next next-more" href="{{ paginator.next }}">
+                Show more
+            </a>
+        {% endif %}
+    </div>
+{% endif %}
+{% endmacro pagination %}
+
+
+{% macro solo_donate(text) %}
+<section class="section-donate">
+    <div class="container">
+        <div class="box-solo-donate">
+            <div class="sd-title">
+                {{ load_data(path="static/images/community/icons/heart.svg") | safe }}
+                <h2 class="sd-title-text">
+                    {{ trans(key='donate-title', lang=lang) }}
+                </h2>
+            </div>
+            <div class="sd-text">
+                <div class="sd-desp">{{ text }}</div>
+                {% include 'components/donate-button.html' %}
+            </div>
+            <div class="sd-bg">
+                {{ load_data(path='static/images/icons/point.svg') | safe }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endmacro solo_donate %}
+
+
+{% macro search(list) %}
+<script>
+    let faqs = [
+        {%- for item in list -%}
+        {# {% set pages = get_taxonomy_term(kind="support", term=i.name) %} #}
+        {%- for faq_page in item.pages -%}
+        {
+            "title": "{{ faq_page.title | escape(json=true) }}",
+            "description": "{{ faq_page.description | escape(json=true) }}",
+            "category": "{% for i in faq_page.taxonomies.support %}{{ i }}{% endfor %}",
+            "content": `{{ faq_page.content | striptags | escape(json=true) }}`,
+            "tags": [
+                {%- for i in faq_page.extra.tags -%}
+                "{{ i }}"{% if not loop.last %},{% endif %}
+                {%- endfor -%}
+            ],
+            "url": "{{ faq_page.permalink }}"
+        }{%- if not loop.last -%},{%- endif -%}
+        {%- endfor -%}
+        {%- if not loop.last -%},{%- endif -%}
+        {%- endfor -%}
+    ]
+</script>
+<script>
+    console.log(faqs);
+
+    let inpSear = document.getElementById('inpSearch')
+    let inSearchHolder = document.querySelector('.faq-page-list')
+    let inSearchOut = document.querySelector('.faq-page-list__table')
+    let inSearchOutRow = document.querySelector('.faq-page-list__row')
+    let supportButtons = document.querySelector('.support-buttons')
+    function decodeHtmlEntities(str) {
+        return str.replace(/&amp;/g, '&')
+                .replace(/&lt;/g, '<')
+                .replace(/&gt;/g, '>')
+                .replace(/&quot;/g, '"')
+                .replace(/&apos;/g, "'")
+                .replace(/&#x27;/g, "'")
+                .replace(/&#39;/g, "'")
+                .replace(/&nbsp;/g, ' ')
+                .replace(/&#([0-9]{1,4});/g, function(match, numStr) {
+                    return String.fromCharCode(parseInt(numStr, 10));
+                })
+                .replace(/&#[xX]([A-Fa-f0-9]{1,4});/g, function(match, hexStr) {
+                    return String.fromCharCode(parseInt(hexStr, 16));
+                });
+    }
+
+    function cleateLi123(title, linkA, categoryA, contentA, tags){
+        const li = document.createElement('div')
+        li.classList.add('faq-page-list__table-item')
+
+        const link = document.createElement('a')
+        link.classList.add('h5', 'faq-page-list__table-link')
+        link.href = decodeHtmlEntities(linkA)
+        link.innerText = decodeHtmlEntities(title)
+        li.append(link)
+
+        const catLink = document.createElement('div')
+        catLink.classList.add('faq-page-list__table-category')
+        // catLink.href = '#'
+        catLink.innerText = decodeHtmlEntities(categoryA)
+        li.append(catLink)
+
+        const contentBox = document.createElement('div')
+        contentBox.classList.add('faq-page-list__table-content')
+        contentBox.innerText = decodeHtmlEntities(contentA)
+        li.append(contentBox)
+
+        const tagsBox = document.createElement('div')
+        const tagsLength = tags.length
+        tagsBox.classList.add('faq-page-list__table-tags')
+        for (i = 0; i < tagsLength; i++) {
+            const tag = document.createElement('div')
+            tag.classList.add('page-tag')
+            tag.innerText = decodeHtmlEntities(tags[i])
+            tagsBox.append(tag)
+        }
+        // tagsBox.innerText = tags
+        li.append(tagsBox)
+
+        return li
+    }
+
+    inpSear.addEventListener('keyup', ()=> {
+        inSearchOutRow.innerHTML = ''
+        let out = document.createElement('div')
+        out.classList.add('faq-page-list__table')
+        inSearchOutRow.append(out)
+        out.innerHTML = '<div class="faq-page-list__loader">Loading...</div>'
+
+        if ( supportButtons ) {
+            supportButtons.classList.add('hidden')
+        }
+        if ( inSearchHolder.classList.contains('hidden') ) {
+            inSearchHolder.classList.remove('hidden')
+        }
+        inpSear.value ? setTimeout(()=>{
+            out.innerHTML = ''
+                faqs.map(item => {
+                    let DecodlowTitle = decodeHtmlEntities(item.title)
+                    let lowTitle = DecodlowTitle.toLowerCase()
+                    let DecodlowContent = decodeHtmlEntities(item.content)
+                    let lowContent = DecodlowContent.toLowerCase()
+                    let newInput = inpSear.value.toLowerCase()
+                    if (lowTitle.includes(newInput) || lowContent.includes(newInput)) {
+                        out.append(cleateLi123(item.title, item.url, item.category, item.content, item.tags)) 
+                    }
+                })
+        }, 800) : location.reload()
+    })
+</script>
+{% endmacro search %}
+
+
+{% macro button_download(class="button--white") %}
+<a class="button btn-download {{ class }}" href="/download/">{{ trans(key='button-download', lang=lang) }}</a>
+{% endmacro button_download %}

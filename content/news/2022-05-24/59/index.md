@@ -2,8 +2,6 @@
 title: "Meet the May Organic Maps update"
 date: 2022-05-24T04:24:18+00:00
 slug: "meet-the-may-organic-maps-update"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Meet the May Organic Maps update!

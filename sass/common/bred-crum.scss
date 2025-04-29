@@ -1,0 +1,21 @@
+.bred-crum {
+  padding: 15rem 0 0;
+  &--active {
+    text-decoration: none;
+  }
+  &__row {
+    display: flex;
+    gap: 10rem;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+
+    max-width: 230rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

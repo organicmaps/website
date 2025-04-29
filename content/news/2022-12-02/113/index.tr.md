@@ -2,8 +2,6 @@
 title: The Hiking Club kullanıcılarına Organic Maps'i öneriyor
 date: 2022-12-02T08:42:36+00:00
 slug: "it-s-inspiring-to-know-that-what-we-do-helps-people"
-taxonomies:
-  news: ["Press"]
 ---
 
 Yaptığımız işin insanlara yardımcı olduğunu bilmek ilham verici. Organic Maps, doğa yürüyüşü de dahil olmak üzere birçok açık hava etkinliği için mükemmel bir uygulamadır. Dağ yürüyüşü için Alpleri🏔 düşünüyorsanız, bu konunun uzmanlarına başvurabilirsiniz: [The Hiking Club](https://www.thehiking.club/). Uzun dağ gezileri için hazırlık ve planlama konusunda başarılı bir geçmişe sahipler.

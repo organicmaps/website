@@ -1,0 +1,14 @@
+    <script>
+       try{
+           const select = document.querySelectorAll('.section-volunteering__select')
+
+           select.forEach(item => {
+              item.addEventListener('click', ()=>{
+                 item.classList.toggle('is-active')
+              })
+           })
+       }
+       catch (err) {
+           console.log(err)
+       }
+    </script>

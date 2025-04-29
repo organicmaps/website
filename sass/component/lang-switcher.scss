@@ -1,0 +1,62 @@
+@import "../variables/media";
+
+.lang-menu{
+    font-size: 15rem;
+    position: relative;
+    color: var(--black-white);
+    cursor: pointer;
+    input {
+        display: none;
+    }
+    &__label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 5rem;
+    }
+    &__link {
+        padding: 6rem 10rem;
+        display: inline-block;
+        border-radius: 6rem;
+        color: var(--black-white);
+        text-decoration: none;
+        font-size: 14rem;
+        line-height: 20rem;
+        &:hover {
+            color: var(--common-green);
+            background-color: var(--common-green-primery);
+        }
+    }
+    &__menu {
+        display: none;
+        position: absolute;
+        background-color: var(--white-black);
+        bottom: calc(100% + 6rem);
+        right: 0;
+        z-index: 100;
+        color: var(--black-white);
+        padding: 16rem;
+        border-radius: 8rem;
+        flex-direction: column;
+        gap: 4rem 4rem;
+        grid-template-columns: repeat(3, 1fr);
+        overflow: scroll;
+        width: 480rem;
+        @media (max-width: $media-md) {
+            width: 100vw;
+            right: auto;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__trigger {
+        &:checked ~ .lang-menu__menu {
+            display: grid;
+        }
+    }
+    &__trigger {
+        &:checked ~ .lang-menu__label .lang-menu__arrow {
+            transform: scaleY(-1);
+        }
+    }
+}

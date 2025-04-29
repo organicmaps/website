@@ -2,8 +2,6 @@
 title: "You can easily find the nearest cannabis 🌿 store with the latest Organic Maps update"
 date: 2023-04-06T22:29:27+00:00
 slug: "you-can-easily-find-the-nearest-cannabis-store-with-the-latest-organic-maps-update"
-taxonomies:
-  news: ["Releases"]
 ---
 
 You can easily find the nearest cannabis 🌿 store with the latest Organic Maps update! Android users can test the experimental lanes suggestion while driving (don’t forget to [add lanes in your city](https://wiki.openstreetmap.org/wiki/Lanes) if they are not added yet in [OpenStreetMap.org](http://OpenStreetMap.org/)). Navigation directions should now display correctly on iPads. This update introduces new shops, such as pet grooming, motorcycle repair, and locksmithing among others. Together with our beloved contributors, we’re constantly improving Organic Maps to make it The Best Maps App! Please check out the full list of improvements:

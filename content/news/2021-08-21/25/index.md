@@ -2,8 +2,6 @@
 title: "A minor update is available in Google Play"
 date: 2021-08-21T07:46:14+00:00
 slug: "a-minor-update-is-available-in-google-play"
-taxonomies:
-  news: ["Releases"]
 ---
 
 A minor update is available in Google Play <https://omaps.app/gp>

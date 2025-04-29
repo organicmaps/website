@@ -34,5 +34,5 @@ Jeśli masz jakiekolwiek pytania lub sugestie, skontaktuj się z nami pod
 adresem [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
-[license]: http://www.apache.org/licenses/LICENSE-2.0
-[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[licencja]: http://www.apache.org/licenses/LICENSE-2.0
+[prawa autorskie]: https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html

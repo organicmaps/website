@@ -2,8 +2,6 @@
 title: "New update 2022.07.27 is already available in AppStore and Huawei AppGallery but is still reviewed in other stores"
 date: 2022-07-28T16:19:51+00:00
 slug: "new-update-is-already-available-in-appstore-and-huawei-appgallery-but-is-still-reviewed-in-other-stores"
-taxonomies:
-  news: ["Releases"]
 ---
 
 New update 2022.07.27 is already available in [AppStore](https://apps.apple.com/app/organic-maps/id1567437057) and [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611) but is still reviewed in other stores. The detailed changelog for all platforms:

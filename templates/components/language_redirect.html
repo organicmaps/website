@@ -1,0 +1,23 @@
+<script>
+// Supports partially translated section.
+// Redirects a user to his preferred language page translation only if
+// there were no previous redirects or explicit language selections before (see language_seletor.html)
+if (null === window.localStorage.getItem('lang')) {
+  // ["en", "ru", ...]
+    var pageTranslations = {{ resource | get(key="translations", default=[]) | map(attribute="lang") | sort | json_encode() | safe }};
+  var userPreferredLanguages = navigator.languages ? navigator.languages : [navigator.language];
+  outerLoop:
+  for (var i = 0; i < userPreferredLanguages.length; i++) {
+    for (var j = 0; j < pageTranslations.length; j++) {
+      if (userPreferredLanguages[i].indexOf(pageTranslations[j]) == 0) {
+        window.localStorage.setItem('lang', pageTranslations[j]);
+        // Do not redirect the default 'en' language.
+        if (pageTranslations[j] != '{{ config.default_language }}') {
+          window.location.pathname = '/' + pageTranslations[j] + window.location.pathname;
+        }
+        break outerLoop;
+      }
+    }
+  }
+}
+</script>

@@ -2,8 +2,6 @@
 title: "New app update 2022.07.01 is available on AppStore and AppGalery."
 date: 2022-07-02T07:54:20+00:00
 slug: "new-app-update-is-available-on-appstore-and-appgalery"
-taxonomies:
-  news: ["Releases"]
 ---
 
 New app update 2022.07.01 is available on [AppStore](https://apps.apple.com/app/organic-maps/id1567437057) and [AppGalery](https://appgallery.huawei.com/#/app/C104325611).

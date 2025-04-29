@@ -2,8 +2,6 @@
 title: "Updated OM 🧘 version 2021.07.08 is here!"
 date: 2021-07-10T15:23:44+00:00
 slug: "updated-om-version-is-here"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Updated OM 🧘 version 2021.07.08 is here!

@@ -1,0 +1,20 @@
+@import "../variables/media";
+
+.showcase-inner {padding-block: calc(80rem + 40rem) 60rem; min-height: 354rem; display: flex; align-items: center; background: url(/images/showcase/bg-showcase.webp) no-repeat right center, linear-gradient(to right, var(--bg-showcase) 0%, var(--bg-showcase) 100%); background-size: cover, cover; background-blend-mode: var(--showcase-bg-blend);
+    .si-header {max-width: 50%; color: var(--showcase-text);}
+    h1 {font: var(--h1); font-weight: 400;}
+    .si-subtitle {margin-block-start: 20rem; font-size: 24rem; line-height: 1.3; font-weight: 300;}
+    .si-action {margin-block-start: 20rem;}
+
+    .breadcrumb-container {margin-block-end: 40rem; font: var(--nav-bred); fill: var(--black-white);
+        a {font-weight: 500;}
+    }
+    .breadcrumb-separator {display: inline-block;
+        svg {margin-inline: 8rem; width: auto; height: 8rem;}
+    }
+
+    @media (max-width: $media-md) {min-height: 300rem;
+        .si-header {max-width: 90%;}
+        .si-subtitle {margin-block-start: 10rem; font-size: 18rem;}
+    }
+}

@@ -6,7 +6,7 @@ This static website is built with [Zola](https://www.getzola.org/) and Cloudflar
 
 ## Development
 
-Download the latest [zola](https://www.getzola.org/documentation/getting-started/installation/) (version 0.17.2 at the time of writing) for your operating system and set up the necessary path variable.
+Download the latest zola (version 0.17.2 at the time of writing) for your operating system and set up the necessary path variable.
 
 Run `zola serve` for a local preview or `zola build` to generate static site in the `public` folder.
 
@@ -24,90 +24,6 @@ Every merge into the _master_ branch deploys changes into the production at http
 
 Run `npm run news` to automatically download news from our [Telegram channel](https://t.me/OrganicMapsApp),
 then create a git commit and push it.
-
-An example of a news post that is related to app updates/releases:
-
-```yaml
-title: "OpenStreetMap login was fixed in Google Play"
-date: 2024-03-18T17:45:35+00:00
-slug: "openstreetmap-login-was-fixed-in-google-play"
-taxonomies:
-  news: ["Releases"]
-```
-
-For external links and press releases use this taxonomy:
-
-```yaml
-taxonomies:
-  news: ["Press"]
-```
-
-## Taxonomy and F.A.Q. architecture
-
-Each MD page in `/faq/` has one or more taxonomy defined in header. E.g.:
-
-```yaml
-taxonomies:
-  faq: ["app"]
-```
-
-Zola collects all such taxonomies:
-
-| File                                    | Taxonomy key | Taxonomy value     |
-| --------------------------------------- | ------------ | ------------------ |
-| map/can-find-position/index.md          | `faq`        | `Map`              |
-| map/search-cannot-find-a-place/index.md | `faq`        | `Map`              |
-| editing/map-errors/index.md             | `faq`        | `Map Editing`      |
-| app/crash/index.md                      | `faq`        | `App`              |
-| text-to-speech-android-tts/index.md     | `faq`        | `Voice Directions` |
-| ...                                     | ...          | ...                |
-
-After that Zola gets all values for `faq` taxonomy: `[app, map, editing, tts, ...]`. And generates pages:
-
-- For key `/faq/` with the list of values (see `templates/faq/list.html`)
-- For each value `/faq/app`, `/faq/map`, etc. (including translated `/es/faq/aplicacion`, `/de/faq/karte/`) with the list of questions (see `templates/faq/single.html`)
-
-If you want to add new question then create .md file with header:
-
-```yaml
-title: A full question that is the title of the page
-description: More detailed info with necessary keywords for better SEO
-
-taxonomies:
-  faq: ["Bookmarks and tracks"]
-extra:
-  order: 40
-```
-
-Zola will add your question to specific F.A.Q. sub-page.
-
-If you need to translate the FAQ to a new language please add next lines to config.toml:
-
-```toml
-[languages.XX]
-taxonomies = [
-  {name = "faq", feed = false},
-]
-[languages.XX.translations]
-faq-menu-title = "{Translation of 'F.A.Q.' to a new language}"
-```
-
-**Limitation**: F.A.Q. categories (taxonomies) are sorted alphabetically: "app", "bookmarks", "editing", "map", "tts".
-
-**Limitation**: Each F.A.Q. category has only a name. No description, no icon. Only name 'App', or 'Bookmarks and Tracks', or 'Map Editing', etc.
-
-## Embedded FAQ
-
-A subset of FAQ questions is used to generate static single-page FAQ: [`/faq/embedded-faq/`](https://organicmaps.app/faq/embedded-faq/?lang=en). This page should be used as an embedded offline help page in Organic Maps app on Android and iOS. To see how it looks in different languages use following links:
-
-- https://organicmaps.app/faq/embedded-faq/?lang=en
-- https://organicmaps.app/faq/embedded-faq/?lang=de
-- https://organicmaps.app/faq/embedded-faq/?lang=ru
-- etc.
-
-List of supported languages could be found in `templates/faq/embedded-faq.html`: `en`, `de`, `es`, `fr`, `pt`, `pt-BR`, `pl`, `ru`, `tr`, `uk`, `zh`.
-
-To update embedded FAQ replace [`data/faq.html`](https://github.com/organicmaps/organicmaps/blob/master/data/faq.html) file with the latest version generate by Zola.
 
 ## Contribution
 

@@ -1,99 +1,53 @@
 ---
-title: Nutri i nostri sviluppatori e i server di Organic Maps!
-description: Dona per sostenere lo sviluppo della nostra applicazione gratuita
+title: Donate
+description: Donate and create better maps together!
+template: new-donate.html
 weight: 10
 extra:
-  menu_title: Donate
-  preview_image: donate/donate.png
+    hero_title: Donate
+    hero_image: /donate/donate-bg.png
+    menu_title_pre: Home
+    service_title: Created with love by enthusiast volunteers
+    service_text: Donate to keep the project running
+    hero_description: Donate and create better maps together!
+    info:
+        -
+            icon: static/images/icons/donate/icon01.svg
+            text: We rely on your donations to keep Organic Maps open and free
+        -
+            icon: static/images/icons/donate/icon02.svg
+            text: We are a few enthusiasts contributing in our free time, and spending our families' money on the project. We love what we do, and we love our users
+        -
+            icon: static/images/icons/donate/icon03.svg
+            text: With your support, we are working toward privacy-focused map navigation that is the preferred choice on the market
+    funding:
+        title: How will funding be used?
+        items:
+            -
+                title: Developers
+                text: Currently there is no full time team who is working to develop new features and improve the service. To consistently move the product forward, a core team is needed.
+                media: /images/donate/developers.webp
+            -
+                title: Infrastructure
+                text: We pay for fast servers, so anyone in the world can download free map data updates without delays. The maps data transfers are hundreds of terabytes monthly, and the amount is growing.
+                media: /images/donate/infrastructure.webp
+            -
+                title: Support
+                text: User support, bug fixing, and improving the stability of the app are at the top of our priorities. There are 2000+ issues on GitHub and growing every day, with items to address on AppStore, Google Play, and support emails.
+                media: /images/donate/support.webp
+    reviews:
+        title: People say
+        items:
+            -
+                text: I donate to Organic Maps for the unique offering they bring, and to support positive change
+                name: Emily Johnson
+                media: /images/donate/first-donate-ico.png
+            -
+                text: Simple and fast and battery saving for your device and it's free. I donated a small sum for support and I suggest please support this app. Thank you!
+                name: Emanuel Matis
+                media: /images/donate/icon01.png
+            -
+                text: love it for the simplicity, user-friendly interface. I would like to make a donation to support your effort
+                name: Rosa
+                media: /images/donate/icon02.png
 ---
-
-Stiamo cercando il vostro aiuto per finanziare l'ulteriore sviluppo dell'applicazione Organic Maps.
-
-{{ donate_buttons() }}
-
-## Perché?
-
-Organic Maps promuove una nuova ideologia, unica sul mercato. La nostra applicazione è completamente priva di tracker e di altri elementi dannosi:
-
-- 100% gratuita, senza funzioni a pagamento
-- Nessuna pubblicità
-- Nessun tracciamento
-- Nessuna raccolta dati
-- Nessuna chiamata a casa
-- Nessuna registrazione fastidiosa
-- Nessun tutorial obbligatorio
-- Nessuno spam di e-mail fastidiose
-- Nessuna notifica push
-- Nessun crapware
-- Nessun pesticida
-
-Nessuna pubblicità, nessun tracciamento, nessun accordo segreto sottobanco! Non esiste nemmeno una versione premium a pagamento! Tutti possono installare la versione completa di Organic Maps dall'AppStore, da Google Play, da F-Droid o da GitHub senza alcun costo.
-
-Inoltre, Organic Maps è una delle poche applicazioni che supporta il 100% delle funzioni senza una connessione Internet attiva. Installate Organic Maps, scaricate le mappe, buttate via la scheda SIM (BTW, il vostro operatore vi traccia costantemente) e partite per un viaggio settimanale con una sola carica della batteria senza inviare alcun byte alla rete.
-
-Come si può intuire, i Big Money Brothers non sono interessati a questo progetto. Non c'è nulla da vendere. Fin dall'inizio, nel dicembre 2020, Organic Maps ha coinvolto 0 (zero, null, ноль) soldi di aziende e/o investitori. Lo sviluppo di questo fork è stato finanziato solo dal nostro denaro personale e continueremo a farlo. Si tratta di un massiccio investimento di denaro e tempo personale, a carico dei nostri bilanci familiari.
-
-Contiamo sulle vostre donazioni per portare avanti la nostra missione di mantenere Organic Maps aperta e libera!
-
-## Per che cosa verrà utilizzato il denaro?
-
-Prima di tutto, paghiamo i nostri server e i costi di trasferimento dei dati ogni mese. Supponiamo che con gli attuali aggiornamenti mensili di OSM, un utente medio possa scaricare circa 500Mb di dati cartografici al mese. Per i nostri attuali 100+K utenti, questo porterà a più di 50Tb di mappe scaricate al mese (e ancora di più con gli aggiornamenti settimanali!). Ad esempio, [AWS addebita $0,08 per GB](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer), il che significa $4,4K al mese, solo per il traffico. Naturalmente, non siamo in California per bruciare tutti i soldi degli investitori per AWS, ma almeno dovreste capire il problema che stiamo affrontando.
-
-In secondo luogo, vogliamo concentrarci sulla correzione dei bug e sul miglioramento della stabilità dell'applicazione. Su GitHub sono già stati segnalati centinaia di problemi e il numero cresce ogni giorno. AppStore, Google Play e la nostra e-mail sono invasi da commenti e bug. Vogliamo fornire un prodotto di alta qualità. Questa è la priorità assoluta del nostro elenco.
-
-In terzo luogo, ci sono molte altre cose interessanti da fare:
-
-- Aggiornare i dati delle mappe più spesso, almeno settimanalmente
-- Implementare un registratore di tracce GPS adeguato
-- Aggiungere il supporto GPX nativo
-- Backup e sincronizzazione dei punti di interesse
-- Migliorare gli stili delle mappe e migliorare le carte topografiche
-- Migliorare l'editor di OpenStreetMap
-- Migliorare la ricerca, il percorso e la navigazione offline
-- Trasporto pubblico
-- ... e molte altre funzioni che desiderate e amate
-
-## Come donare?
-
-Ci sono molti modi per donare al progetto:
-
-- **[GitHub Sponsors][] - raccomandato**, nessuna commissione
-- [Liberapay][] - commissioni moderate
-- [PayPal donate@organicmaps.app][paypal] - commissioni elevate
-- [SEPA/bonifico bancario diretto][sepa] - commissioni trascurabili
-- [Criptovalute][crypto] - commissioni estreme
-
-Le donazioni ricorrenti sono il modo migliore per garantire un'entrata relativamente stabile al
-progetto e motivarci per i compiti e gli obiettivi a lungo termine. Ma potete anche
-donare una volta sola.
-
-{{ donate_buttons() }}
-
-### SEPA e bonifico bancario diretto
-
-|                            |                                              |
-| -------------------------- | -------------------------------------------- |
-| Titolare del conto:        | Organic Maps OÜ                              |
-| BIC:                       | TRWIBEB1XXX                                  |
-| IBAN:                      | BE39967200310319                             |
-| Nome della banca:          | TransferWise Europe SA                       |
-| Indirizzo della banca:     | Avenue Louise 54/S52, Brussels 1050, Belgium |
-| Descrizione del pagamento: | Donation                                     |
-
-### Crypto
-
-Si prega di considerare una donazione annuale per ridurre le spese totali. Algorand, Tron,
-Litecoin e Monero offrono commissioni basse, ma la situazione cambia ogni giorno.
-
-{{ crypto_table() }}
-
-## Puoi aiutarci in qualche altro modo?
-
-Sì! Ci sono molti modi per sostenere Organic Maps. Vedi la pagina
-[Supportaci](@/contribute/index.it.md) per maggiori dettagli.
-
-[paypal]: https://www.paypal.com/donate?hosted_button_id=JYM34AADM87V8 "PayPal donate@organicmaps.app"
-[github sponsors]: https://github.com/sponsors/organicmaps "GitHub Sponsors"
-[liberapay]: https://liberapay.com/OrganicMaps/donate "Liberapay"
-[sepa]: #sepa-e-bonifico-bancario-diretto "SEPA e bonifico bancario diretto"
-[crypto]: #crypto "Donazioni in criptovalute"

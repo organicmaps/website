@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.hero_title) }}
+
+<section class="section-device">
+    <div class="container section-device__container">
+        <div class="section-device__item">
+            <div class="section-device__title-row">
+                <h3 class="h5 section-device__title">{{ page.extra.mobile_payment_title | safe }}</h3>
+                {# <div class="section-device__icon">
+                    {% include 'ui/icons/social/upload.html' %}
+                </div> #}
+            </div>
+
+            <div class="section-device__content">
+                <div class="section-device__content-item">
+                    <p class="p-15-bold section-device__content-title">{{ page.extra.mobile_payment_methods_1 | safe }}</p>
+                    <div class="section-device__card">
+                        {# <p class="p-15 section-device__text">{{ page.extra.mobile_shop_name_1 | safe }}</p> #}
+                        {# <img class="section-device__img" src="/images/download/app-store.png" alt="img"> #}
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/app-store.svg") | safe }}
+                            App Store
+                        </a>
+                    </div>
+                </div>
+                <div class="section-device__content-item">
+                    <p class="p-15-bold section-device__content-title">{{ page.extra.mobile_payment_methods_2 | safe }}</p>
+                    <div class="section-device__card-holder">
+                        <div class="section-device__card">
+                            {# <p class="p-15 section-device__text">{{ page.extra.mobile_shop_name_2 | safe }}</p> #}
+                            <a href="#" class="button--appdownload">
+                                {{ load_data(path="static/images/icons/download/google-play.svg") | safe }}
+                                Google Play
+                            </a>
+                        </div>
+                        <div class="section-device__card">
+                            {# <p class="p-15 section-device__text">{{ page.extra.mobile_shop_name_3 | safe }}</p> #}
+                            <a href="#" class="button--appdownload">
+                                {{ load_data(path="static/images/icons/download/f-droid.svg") | safe }}
+                                F-Droid
+                            </a>
+                        </div>
+                        <div class="section-device__card">
+                            {# <p class="p-15 section-device__text">{{ page.extra.mobile_shop_name_4 | safe }}</p> #}
+                            <a href="#" class="button--appdownload">
+                                {{ load_data(path="static/images/icons/download/app-gallery.svg") | safe }}
+                                App Gallery
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-device__item">
+            <div class="section-device__title-row">
+                <h3 class="h5 section-device__title">{{ page.extra.desktop_payment_title | safe }}</h3>
+                {# <div class="section-device__icon">
+                    {% include 'ui/icons/social/upload.html' %}
+                </div> #}
+            </div>
+
+            <div class="section-device__content">
+                <div class="section-device__content-item">
+                    <p class="p-15-bold section-device__content-title">{{ page.extra.desktop_payment_methods_1 | safe }}</p>
+                    <div class="section-device__card">
+                        {# <p class="p-15 section-device__text">{{ page.extra.desktop_shop_name_1 | safe }}</p> #}
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/app-store.svg") | safe }}
+                            App Store
+                        </a>
+                    </div>
+                </div>
+                <div class="section-device__content-item">
+                    <p class="p-15-bold section-device__content-title">{{ page.extra.desktop_payment_methods_2 | safe }}</p>
+                    <div class="section-device__card">
+                        {# <p class="p-15 section-device__text">{{ page.extra.desktop_shop_name_2 | safe }}</p> #}
+                        <a href="#" class="button--appdownload">
+                            {{ load_data(path="static/images/icons/download/flathub.svg") | safe }}
+                            FLATHUB
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-step">
+    <div class="container section-step__container">
+        <h2 class="h6 section-step__title">{{ page.extra.steps.title | safe }}</h2>
+        <div class="section-step__content">
+            {% for i in page.extra.steps.items %}
+                <div class="section-step__item">
+                    <div class="services-support__count">
+                        <span class="icon-count services-support__number">0{{ loop.index }}</span>
+                        <div class="services-support__icon">
+                            {{ load_data(path="static/images/icons/pin.svg") | safe }}
+                        </div>
+                    </div>
+                    <p class="h5 section-step__text">{{ i | safe }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% include 'section/donate.html' %}
+{%- endblock content %}

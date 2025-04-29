@@ -2,10 +2,11 @@
 
 {% block content %}
 
-<h1>{{ resource.title }}</h1>
+{% include 'section/hero.html' %}
+{% include 'section/open_map.html' %}
+{% include 'section/home-services.html' %}
+{% include 'section/single-section.html' %}
 
 {{ resource.content | safe }}
-
-{% include 'google_native_app_prompt.html' %}
 
 {% endblock content %}

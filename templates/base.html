@@ -1,24 +1,20 @@
+{% import "macros/macros.html" as macros %}
 {%- if page %}
-{%- set resource = page %}
-{%- set resource_title = resource.title %}
-{%- set resource_path = resource.path %}
+    {%- set resource = page %}
+    {%- set resource_title = resource.title %}
+    {%- set resource_path = resource.path %}
 {%- elif section %}
-{%- set resource = section %}
-{%- set resource_title = resource.title %}
-{%- set resource_path = resource.path %}
+    {%- set resource = section %}
+    {%- set resource_title = resource.title %}
+    {%- set resource_path = resource.path %}
 {%- elif term %}
-{%- set resource = term %}{# taxonomy term has only 'name', 'slug' and 'path' properties #}
-{%- set resource_path = resource.path %}
-{%- set resource_title = resource.name %}
-{%- elif taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
-{% if lang == 'en' %}
-{% set resource = taxonomy.name ~ "/_index.md" %}
-{% else %}
-{% set resource = taxonomy.name ~ "/_index." ~ lang ~ ".md" %}
-{% endif %}
-{% set resource = get_section(path=resource) %}
-{%- set resource_title = resource.title %}
-{%- set resource_path = resource.path %}
+    {%- set resource = term %}{# taxonomy term has only 'name', 'slug' and 'path' properties #}
+    {%- set resource_path = resource.path %}
+    {%- set resource_title = resource.name %}
+{%- elif taxonomy %}
+    {%- set resource = taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
+    {%- set resource_path = '/' ~ resource.name ~ '/' %}
+    {%- set resource_title = resource.name | capitalize %}
 {%- endif %}
 
 <!DOCTYPE html>
@@ -26,96 +22,206 @@
 <html lang="{{ lang }}" {%- if lang in rtl_langs -%} dir="rtl" {%- endif -%}>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="robots" content="noindex">
+    <!--  <script>-->
+    <!--    var password = "tutorial";-->
+    <!--    (function passcodeprotect() {-->
+    <!--      var passcode = prompt("Enter PassCode");-->
+    <!--      while (passcode !== admin) {-->
+    <!--        alert("Incorrect PassCode");-->
+    <!--        return passcodeprotect();-->
+    <!--      }-->
+    <!--    }());-->
+    <!--    alert('Welcome To The TP..!');-->
+    <!--  </script>-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block meta_description %}
+        <meta name="description" content="{{ resource.description }}">
+    {% endblock %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Lato:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  {% block meta_description -%}
-  {%- if resource.description -%}
-  {% set description = resource.description %}
-  {% elif resource.content -%}
-  {% set description = resource.content | trim | striptags | linebreaksbr | safe | replace(from="<br>", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | truncate(length=160) %}
-  {% endif -%}
-  {%- if description -%}
-  <meta name="description" content="{{ description }}">
-  {% endif -%}
+    {% block rss %}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+    {% endblock %}
 
-  {%- endblock -%}
+    <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">
 
-  {% block rss -%}
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
-  {% endblock -%}
+    {%- set preview_image = 'images/screenshots/prague.jpg' -%}
+    {%- if resource.extra.preview_image -%}
+    {%- set preview_image = resource.extra.preview_image -%}
+    {%- elif resource.assets %}
+    {%- set basename = resource.assets[0] | split(pat='/') | last %}
+    {%- if basename is ending_with('.jpg') or basename is ending_with('.jpeg') or basename is ending_with('.png') or basename is ending_with('.webp') %}
+    {%- set preview_image = resource_path ~ basename -%}
+    {%- endif %}
+    {%- endif %}
+    <meta property="og:image" content="{{ get_url(path=preview_image) }}">
+    <meta property="og:url" content="{{ current_url | safe }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ resource_title }}">
+    {%- if resource.description -%}
+        <meta property="og:description" content="{{ resource.description }}">
+    {%- endif -%}
 
-  <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:title" content="{{ resource_title }}">
+    {%- if resource.description -%}
+        <meta name="twitter:description" content="{{ resource.description }}">
+    {%- endif -%}
 
-  {%- set preview_image = 'images/screenshots/prague.jpg' -%}
-  {%- if resource.extra.preview_image -%}
-  {%- set preview_image = resource.extra.preview_image -%}
-  {%- elif resource.assets %}
-  {%- set basename = resource.assets[0] | split(pat='/') | last %}
-  {%- if basename is ending_with('.jpg') or basename is ending_with('.jpeg') or basename is ending_with('.png') or basename is ending_with('.webp') %}
-  {%- set preview_image = resource_path ~ basename -%}
-  {%- endif %}
-  {%- endif %}
-  <meta property="og:image" content="{{ get_url(path=preview_image) }}">
-  {# TODO: Add og:video support #}
-  <meta property="og:url" content="{{ current_url | safe }}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ resource_title }}">
-  {%- if description %}
-  <meta property="og:description" content="{{ description }}">
-  {%- endif -%}
+    <meta name="apple-itunes-app" content="app-id=1567437057">
+    <meta name="wikidata" content="Q107078602">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ resource_title }}">
-  {%- if description %}
-  <meta name="twitter:description" content="{{ description }}">
-  {%- endif %}
+    {% if resource.date -%}
+        <meta property="article:published_time" content="{{ resource.date }}">
+    {%- endif -%}
 
-  <meta name="apple-itunes-app" content="app-id=1567437057">
-  <meta name="wikidata" content="Q107078602">
+    <meta name="generator" content="Zola">
 
-  {% if resource.date -%}
-  <meta property="article:published_time" content="{{ resource.date }}">
-  {%- endif -%}
+    {%- block meta -%}{%- endblock %}
 
-  <meta name="generator" content="Zola">
+    <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
 
-  {%- block meta -%}{%- endblock %}
+    <title>{{ resource_title }} | {{ config.title | safe }}</title>
 
-  <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
+    {%- if lang == config.default_language %}
+        {% include 'components/language_redirect.html' %}
+    {% endif -%}
 
-  <title>{{ resource_title }}</title>
-
-  {%- if lang == config.default_language %}
-  {% include 'language_redirect.html' %}
-  {% endif -%}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
-<body>
-  <header>
-    {% include 'top_menu.html' %}
-  </header>
+<body class="light">
+<div class="wrapper">
+    <header class="header">
+        {% include 'common/header.html' %}
+    </header>
 
-  <main>
-    {% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
-    {% include 'faq/faq-breadcrumbs.html' %}
-    {% endif %}
-    {% block content %}{% endblock %}
-  </main>
+    <main class="main">
+<!--        {% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}-->
+<!--        <section class="hero-sub" style="background-image: url(/faq/hero_image.png)" >-->
+<!--            <div class="container hero-sub__container">-->
+<!--                <nav class="bred-crum">-->
+<!--                    <ul class="bred-crum__row">-->
+<!--                        <li class="bred-crum__item">-->
+<!--                            <a class="nav-bred bred-crum__link" href="/">Home</a>-->
+<!--                        </li>-->
+<!--                        <li class="bred-crum__item">-->
+<!--                    <span class="nav-bred">-->
+<!--                        >-->
+<!--                    </span>-->
+<!--                        </li>-->
+<!--                        <li class="bred-crum__item">-->
+<!--                            <a class="nav-bred bred-crum__link bred-crum&#45;&#45;active"-->
+<!--                               href="/faq">Faq</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </nav>-->
+<!--                <div class="hero-sub__content">-->
+<!--                    <h1 class="h1 hero-sub__title">-->
+<!--                        Faq-->
+<!--                    </h1>-->
 
-  <footer>
-    {% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ editing link #}
-    {% include 'faq/github_edit_link.html' %}
-    {% endif %}
 
-    {% include 'bottom_menu.html' %}
-    <p>
-      <span data-nosnippet>© 2024 <a href="mailto:legal@organicmaps.app">Organic Maps OÜ</a>, reg. code 16225385</span>
-      <span data-nosnippet>Harju maakond, Tallinn, Kesklinna linnaosa, Rävala pst 8-810, 10143, Estonia</span>
-    </p>
-  </footer>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="search">-->
+<!--            <div class="container search__container">-->
+<!--                <label class="search__label" for="inpSearch">-->
+<!--                    {% include 'ui/search.html' %}-->
+<!--                    <input class="search__input" id="inpSearch" type="text" placeholder="Search">-->
+<!--                </label>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="faq-post">-->
+<!--            <div class="container faq-page-list__row">-->
+<!--                {% set categories = get_taxonomy(kind='faq') | get(key="items") %}-->
+<!--                <h2 class="h2-inter faq-page-list__title">App</h2>-->
+<!--                <div class="line line&#45;&#45;full"></div>-->
+<!--                <h2 class="h1-inter faq-page-list__title">How to edit or move bookmarks?</h2>-->
+<!--                <div class="faq-page-list__buttons">-->
 
+<!--                    {% for item in categories %}-->
+<!--                    <a class="button button&#45;&#45;line-min" href="{{ get_taxonomy_url(kind="faq", name=item.name) }}">{{ item.name }}</a>-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--        </section>-->
+<!--        {% endif %}-->
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        {% include 'common/footer.html' %}
+    </footer>
+</div>
+{% include 'shortcodes/acordeon.html' %}
+{% include 'shortcodes/switch-theme.html' %}
+{% include 'shortcodes/header-switch.html' %}
+{% include 'shortcodes/animation-section-js.html' %}
+{% include 'shortcodes/paralax.html' %}
+<script>
+    var btnDownload = document.querySelectorAll('.btn-download')
+
+    if(btnDownload.length > 0) {
+        function detectDevice() {
+            const ua = navigator.userAgent;
+
+            if (/android/i.test(ua)) {
+                return "https://play.google.com/store/apps/details?id=app.organicmaps";
+            } else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+                return "https://apps.apple.com/us/app/organic-maps-hike-bike-drive/id1567437057";
+            } else if (/Windows Phone/i.test(ua) || /IEMobile/i.test(ua)) {
+                return "https://play.google.com/store/apps/details?id=app.organicmaps";
+            } else if (/linux/i.test(ua)) {
+                return "/download/";
+            } else if (/macintosh|mac os x/i.test(ua)) {
+                return "/download/";
+            } else if (/windows|win32/i.test(ua)) {
+                return "/download/";
+            } else {
+                return "/download/";
+            }
+        }
+        btnDownload.forEach(item => {
+            item.href = detectDevice()
+        })
+    }
+
+    console.log(detectDevice());
+</script>
+<script>
+const options = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: true
+};
+document.querySelectorAll('time').forEach($e => {
+    const date = new Date($e.dateTime);
+    // output the localized date and time
+    $e.innerHTML = date.toLocaleString("en-GB", options);
+
+    // const opts = { year: "numeric", month: "long", day: "numeric" };
+    // const df = new Intl.DateTimeFormat("en-GB", options);
+    // console.log(df.formatToParts());
+
+    // or output the localized date only
+    // $e.innerHTML = date.toLocaleDateString();
+    // or output the localized time only
+    // $e.innerHTML = date.toLocaleTimeString();
+});
+</script>
+{# {% include 'common/page-links.html' %} #}
 </body>
-
 </html>

@@ -1,0 +1,28 @@
+
+
+<section class="hero-sub" style="background-image: url({{ hero_img | safe }})">
+        <div class="container hero__container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">{{ page.extra.menu_title_pre }}</a>
+                    </li>
+                    <li>
+                        ">"
+                    </li>
+                    <li>
+                        <a href="/{{ page.extra.menu_title | lower }}">{{ page.extra.menu_title }}</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hero-sub__content">
+                <h1 class="h1 hero-sub__title">
+                    {{ page.extra.menu_title }}
+                </h1>
+                <p class="h2-sub_v2 hero-sub__description">
+                    {{ page.extra.community_hero_description }}
+                </p>
+
+            </div>
+        </div>
+    </section>

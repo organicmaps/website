@@ -1,0 +1,59 @@
+{# <section class="support-block">
+    <div class="container support-block__container">
+        <h3 class="h3-bold support-block__title"> {{ trans(key='ged-involved-title', lang=lang) }}</h3>
+        <div class="support-block__row">
+            <a href="/donate" class="support-block__card">
+                {% include 'ui/icons/header/donate.html' %}
+                <h5 class="h4 support-block__icon-title">
+                    {{ trans(key='donate-title', lang=lang) }}
+                </h5>
+                <p class="p-sm-light support-block__icon-text">
+                    {{ trans(key='donate-description', lang=lang) }}
+                </p>
+            </a>
+            <a href="/community" class="support-block__card">
+                {% include 'ui/icons/header/code.html' %}
+                <h5 class="h4 support-block__icon-title">
+                    {{ trans(key='contribute-code-title', lang=lang) }}
+                </h5>
+                <p class="p-sm-light support-block__icon-text">
+                    {{ trans(key='contribute-code-description', lang=lang) }}
+                </p>
+            </a>
+            <a href="/community" class="support-block__card">
+                {% include 'ui/icons/header/location.html' %}
+                <h5 class="h4 support-block__icon-title">
+                    {{ trans(key='contribute-location-title', lang=lang) }}
+                </h5>
+                <p class="p-sm-light support-block__icon-text">
+                    {{ trans(key='contribute-location-description', lang=lang) }}
+                </p>
+            </a>
+        </div>
+    </div>
+</section> #}
+
+<section class="section-involved">
+    <div class="container">
+        <div class="box-donate">
+            <h3 class="bd-title">{{ trans(key='inv_title', lang=lang) }}</h3>
+            <div class="bd-content">
+                <a href="/donate/" class="bd-item">
+                    <div class="bd-item-icon">{{ load_data(path="static/images/icons/heart.svg") | safe }}</div>
+                    <div class="bd-item-title">{{ trans(key='inv_donate_title', lang=lang) }}</div>
+                    <div class="bd-item-text">{{ trans(key='inv_donate_text', lang=lang) }}</div>
+                </a>
+                <a href="/community/" class="bd-item">
+                    <div class="bd-item-icon">{{ load_data(path="static/images/icons/codeblock.svg") | safe }}</div>
+                    <div class="bd-item-title">{{ trans(key='inv_code_title', lang=lang) }}</div>
+                    <div class="bd-item-text">{{ trans(key='inv_code_text', lang=lang) }}</div>
+                </a>
+                <a href="/community/" class="bd-item">
+                    <div class="bd-item-icon">{{ load_data(path="static/images/icons/mappin.svg") | safe }}</div>
+                    <div class="bd-item-title">{{ trans(key='inv_info_title', lang=lang) }}</div>
+                    <div class="bd-item-text">{{ trans(key='inv_info_text', lang=lang) }}</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

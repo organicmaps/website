@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as macros %}
+
+{%- block content %}
+{{ macros::showcase_inner(title=page.extra.hero_title, desp=page.description) }}
+
+<section class="section-volunteering">
+    <div class="container section-volunteering__container">
+        {% if page.extra.positions %}
+            {% for i in page.extra.positions %}
+                <div class="section-volunteering__item">
+                    <div class="section-volunteering__select">
+                        <h2 class="h5-boold  section-volunteering__title">
+                            {{ i.title }}
+                        </h2>
+                        <div class="section-volunteering__button"></div>
+                    </div>
+                    <div class="section-volunteering__content">
+                        {% for p in i.items %}
+                            <div class="section-volunteering__block">
+                                <h3>{{ p.title }}</h3>
+                                <div class="section-volunteering__text">{{ p.text | markdown | safe}}</div>
+                                <div class="section-volunteering__text"><a class="button button--main" href="{{ p.action.link }}">{{ p.action.text }}</a></div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+        {# <div class="section-volunteering__item">
+            <div class="section-volunteering__select">
+                <h2 class="h5-boold  section-volunteering__title">
+                    Content Management
+                </h2>
+                <div class="section-volunteering__button">
+                </div>
+            </div>
+            <div class="section-volunteering__content">
+                <div class="section-volunteering__block">
+                    <h3>
+                        Localization Specialist - Translator - All Languages
+                    </h3>
+                    <p>
+                        As a Community Support Engineer you will be working directly with people in the community who use Organic Maps, to provide technical support and assistance with the application and website.  The community ranges from tech savvy engineers, to novice technology users. Support involves maintaining high satisfaction, resolving technical challenges, and enhancing the support experience, to ensure people have a better overall navigation experience.
+                    </p>
+                    <!-- <button class="button button&#45;&#45;main">
+                        {{ trans(key='volunteer-button', lang=lang) }}
+                    </button> -->
+                </div>
+            </div>
+        </div> #}
+    </div>
+</section>
+
+{% include 'section/donate.html' %}
+{%- endblock content %}

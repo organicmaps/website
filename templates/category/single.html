@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% import "macros/macros.html" as macros %}
+
+{% block meta_description %}
+  <meta name="description" content="Organic Maps - F.A.Q.">
+{% endblock %}
+
+{% block content %}
+{{ macros::showcase_inner(title=term.name) }}
+
+{# {{ config.title }} &middot; <a href="/tags">Tags</a> &middot; {{ term.name | capitalize }} #}
+<div class="container  main-news__nav">
+    <div class="main-news__nav-row">
+        <a class="button button--line" href="/news/">All</a>
+        {% set categories = get_taxonomy(kind="category") %}
+        {% for term in categories.items %}
+            <a class="button {% if current_url == term.permalink %} button--main{% else %} button--line{% endif %}" href="{{ term.permalink }}">{{ term.name }}</a>
+        {% endfor %}
+    </div>
+</div>
+<div class="container main-news__row">
+    {% for page in paginator.pages | sort(attribute="date") | reverse %}
+        {{ macros::card_post(page=page) }}
+    {% endfor %}
+</div>
+
+{#  <ul class="postlist">
+    {% for page in term.pages | sort(attribute="date") | reverse %}
+    <li class="postlist-item">
+      {% if page.date %}
+      <div class="date">
+        <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
+      </div>
+      {% endif %}
+      <div class="postlist-head">
+        <h2><a class="postlist-title" href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      </div>
+      <p class="postlist-description">{{ page.description }}</p>
+    </li>
+    {% endfor %}
+  </ul> #}
+
+{% if paginator %}
+    {{ macros::pagination(base_url=term.permalink) }}
+{% endif %}
+
+{% endblock %}

@@ -1,86 +1,53 @@
 ---
-description: "Su dinero paga para todos los gastos relacionados con el proyecto y nos motiva a mejorar Organic Maps."
-extra:
-  menu_title: Donar
-  preview_image: donate/donate.png
-title: "Done para apoyar al desarrollo de Organic Maps"
+title: Donate
+description: Donate and create better maps together!
+template: new-donate.html
 weight: 10
+extra:
+    hero_title: Donate
+    hero_image: /donate/donate-bg.png
+    menu_title_pre: Home
+    service_title: Created with love by enthusiast volunteers
+    service_text: Donate to keep the project running
+    hero_description: Donate and create better maps together!
+    info:
+        -
+            icon: static/images/icons/donate/icon01.svg
+            text: We rely on your donations to keep Organic Maps open and free
+        -
+            icon: static/images/icons/donate/icon02.svg
+            text: We are a few enthusiasts contributing in our free time, and spending our families' money on the project. We love what we do, and we love our users
+        -
+            icon: static/images/icons/donate/icon03.svg
+            text: With your support, we are working toward privacy-focused map navigation that is the preferred choice on the market
+    funding:
+        title: How will funding be used?
+        items:
+            -
+                title: Developers
+                text: Currently there is no full time team who is working to develop new features and improve the service. To consistently move the product forward, a core team is needed.
+                media: /images/donate/developers.webp
+            -
+                title: Infrastructure
+                text: We pay for fast servers, so anyone in the world can download free map data updates without delays. The maps data transfers are hundreds of terabytes monthly, and the amount is growing.
+                media: /images/donate/infrastructure.webp
+            -
+                title: Support
+                text: User support, bug fixing, and improving the stability of the app are at the top of our priorities. There are 2000+ issues on GitHub and growing every day, with items to address on AppStore, Google Play, and support emails.
+                media: /images/donate/support.webp
+    reviews:
+        title: People say
+        items:
+            -
+                text: I donate to Organic Maps for the unique offering they bring, and to support positive change
+                name: Emily Johnson
+                media: /images/donate/first-donate-ico.png
+            -
+                text: Simple and fast and battery saving for your device and it's free. I donated a small sum for support and I suggest please support this app. Thank you!
+                name: Emanuel Matis
+                media: /images/donate/icon01.png
+            -
+                text: love it for the simplicity, user-friendly interface. I would like to make a donation to support your effort
+                name: Rosa
+                media: /images/donate/icon02.png
 ---
-
-La aplicación Organic Maps es _gratuita para todos_ gracias a tus
-**[donaciones][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd],
-[GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah],
-[PLN][stripe_pln]**:
-
-- Sin anuncios
-- Sin rastreadores
-- Sin registro
-- Sin notificaciones
-- Software libre
-
-Haz clic en el icono del método de pago que prefieras:
-
-{{ donate_buttons() }}
-
-## ¿Por qué donar a Organic Maps?
-
-1. Nuestro objetivo es ofrecer una alternativa a Google Maps y Apple Maps
-   centrada en la privacidad, rápida y fácil de usar.
-2. Otro de nuestros objetivos es mejorar los datos de los mapas públicos
-   para las numerosas páginas web, aplicaciones y plataformas que utilizan
-   OpenStreetMap, e implicar a más personas en la aportación de información
-   para los mapas.
-3. Dependemos de sus donativos para seguir con nuestra misión de mantener
-   Organic Maps abierta y gratis. Y libre de anuncios.
-4. Nos encanta lo que hacemos y queremos a nuestros usuarios ❤️.
-
-## ¿Por qué un proyecto gratuito necesita dinero?
-
-1. En 2023, Organic Maps consiguió su primer millón de usuarios. Nuestros
-   servidores proporcionan actualizaciones de mapas gratuitas, rápidas y
-   frecuentes en todo el mundo.
-2. La asistencia a los usuarios, el arreglo de errores y la mejora de la
-   estabilidad de la aplicación son nuestras principales prioridades. Hay
-   más de [2000 informes en GitHub][github issues], y este número crece cada
-   día. AppStore, Google Play y los correos de atención están inundados con
-   comentarios e informes. Queremos entregar un producto de calidad.
-3. Con suficiente dinero, pueden desarrollarse prestaciones nuevas más
-   rápidamente, por ejemplo:
-   - Copia de seguridad y sincronización de favoritos y pistas
-   - Grabadora GPS con compatibilidad para GPX
-   - Imágenes por satélite
-   - Transporte público
-   - Información sobre tráfico y accidentes
-   - Fotos y reseñas
-   - Mejores estilos cartográficos para diferentes actividades
-   - Sombreado de colinas y terreno 3D
-   - Editor OpenStreetMap más avanzado
-   - Mejor búsqueda de direcciones sin conexión, enrutamiento y navegación
-   - ... y [muchas otras][github issues] funcionalidades que desea
-
-## ¿Cómo donar?
-
-Haz clic en el icono del método de pago que prefieras:
-
-{{ donate_buttons() }}
-
-Las donaciones recurrentes son la mejor manera de asegurar un ingreso
-periódico para el proyecto y nos motiva para tareas y objetivos a largo
-plazo. Pero también puede donar una vez.
-
-### Transferencia bancaria
-
-{{ bank_transfer() }}
-
-### Criptomonedas
-
-Considere donar anualmente para reducir las tarifas totales.
-
-{{ crypto_table() }}
-
-## ¿Puede ayudarnos de alguna otra manera?
-
-¡Sí! Hay varias maneras de apoyar a Organic Maps. Consulte la página
-[Contribuir](@/contribute/index.es.md) para más detalles.
-
-{{ references() }}

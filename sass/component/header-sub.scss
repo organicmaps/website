@@ -1,0 +1,66 @@
+@import "../variables/media";
+
+.hero-sub {
+  background-size: cover;
+  padding: 120rem 0 124rem;
+  position: relative;
+  background-position: center center;
+ &:after {
+    content: "";
+    height: 80rem;
+   background-color: var(--common-green-primery);
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+
+  }
+  &:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: var(--common-green-gradient);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.button  {
+    padding: 18rem 40rem;
+  }
+  &--big {
+     padding:calc(var(--menu-height) + 30rem)  0 274rem;
+     @media (max-width: $media-sm) {
+      padding:calc(var(--menu-height) + 30rem)  0 74rem;
+    }
+    &:before {
+      background: transparent;
+    }
+     .hero-sub__title {
+          padding: 100rem 0 22rem;
+       }
+    .hero-sub__description {
+      margin-bottom: 30rem;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    position: relative;
+  }
+
+  &__title {
+    padding: 60rem 0 22rem;
+    z-index: 3;
+    position: relative;
+    @media (max-width: $media-md) {
+      padding: 40rem 0 10rem;
+    }
+  }
+
+  &__description {
+    max-width: 346rem;
+  }
+}

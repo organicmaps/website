@@ -2,8 +2,6 @@
 title: "Sorry, the latest 21.10.07 release for Android has a bug"
 date: 2021-10-09T18:07:49+00:00
 slug: "sorry-the-latest-release-for-android-has-a-bug"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Sorry, the latest 21.10.07 release for Android has a bug: if you clicked before on coordinates in the place info (to switch coordinates format), then you'll have a crash on startup. Only reinstall can help (but you'll loose your bookmarks!). If you have root access, then close the app and delete `/data/data/app.organicmaps.app/files/settings.ini` file.

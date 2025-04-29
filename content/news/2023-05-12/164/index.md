@@ -2,8 +2,6 @@
 title: "It was a busy time for our team and our beloved contributors"
 date: 2023-05-12T14:10:24+00:00
 slug: "it-was-a-busy-time-for-our-team-and-our-beloved-contributors"
-taxonomies:
-  news: ["Releases"]
 ---
 
 It was a busy time for our team and our beloved contributors. We prepared a new app and map data update for you.

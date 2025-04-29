@@ -3,8 +3,7 @@
 title: "Lerne die Juli-Version von Organic Maps kennen"
 date: 2023-07-18T22:49:37+00:00
 slug: "lerne-die-juli-version-von-organic-maps"
-taxonomies:
-  news: ["Releases"]
+
 ---
 
 Lerne die Juli-Version von Organic Maps kennen! Beachte, dass diese Version auf dem Nexus 5X (und vielleicht auf einigen anderen älteren Geräten) abstürzt. Wir arbeiten an einem Fix.

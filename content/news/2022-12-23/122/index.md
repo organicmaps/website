@@ -2,8 +2,6 @@
 title: "We wish you a Merry Christmas 🎅 and a Happy New Year 🎄"
 date: 2022-12-23T23:02:13+00:00
 slug: "we-wish-you-a-merry-christmas-and-a-happy-new-year"
-taxonomies:
-  news: ["Releases"]
 ---
 
 We wish you a Merry Christmas 🎅 and a Happy New Year 🎄! The best gift for us is to know that we are doing The Right Thing and that our time and efforts are helping someone on the Planet 🌎. Meet our small gift 🎁 to you: a New Year's release of Organic Maps is available in [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps), Huawei [AppGallery](https://appgallery.huawei.com/#/app/C104325611?local=en), and [FDroid](https://f-droid.org/en/packages/app.organicmaps/)!

@@ -1,0 +1,119 @@
+@import "../variables/media";
+
+html {
+  font-size: 1px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font: var(--p);
+  color: var(--black-white);
+  background-color: var(--body-bg);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16rem;
+  max-width: var(--container);
+}
+
+* {
+  transition: background-color 0.3s;
+}
+
+.logo .svg-logo {
+  @media(max-width: $media-md) {
+        max-width: 138rem;
+  }
+}
+
+.frizz {
+overflow: hidden;
+}
+.main {
+ min-height: calc(100vh - 200rem);
+}
+.line {
+  width: 100%;
+    background-color: var(--green-button);
+    max-width: 222rem;
+    height: 2rem;
+     margin: 20rem auto 50rem;
+  @media (max-width: $media-sm) {
+    margin: 10rem auto 20rem;
+  }
+  &--full {
+    max-width: 100%;
+    margin: 0;
+    @media (max-width: $media-sm) {
+      margin: 0;
+    }
+  }
+
+}
+
+a {
+
+  color: var(--black-white);
+}
+
+
+.hidden {display: none;}
+
+
+.page-category {margin-bottom: 20rem; padding-bottom: 30rem; font: var(--h2-inter); border-bottom: 1px solid var(--common-acord-button); color: var(--text-grey-lgrey);
+    @media (max-width: $media-md) {
+        padding-bottom: 20rem;
+        font-size: 20rem;
+        line-height: 1.5;
+    }
+}
+.page-title {margin-bottom: 20rem; font: var(--h1-inter);
+    @media (max-width: $media-md) {
+        font-size: 30rem;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+}
+.page-tag-holder {margin-block: -8rem 16rem; display: flex; gap: 10rem; flex-wrap: wrap;}
+.page-tag {padding-inline: 22rem; border: 1px solid var(--text-dgreen-lgreen); border-radius: 5rem; font-size: 13rem; line-height: 31rem; color: var(--black-white);}
+
+.page-content {padding-block: 50rem 60rem;
+    @media (max-width: $media-md) {
+        padding-block: 40rem 50rem;
+    }
+
+    p, ul, ol {margin-block-end: 24rem;
+        &:last-child {margin-block-end: 0;}
+    }
+    p {
+        &:has(+ ul), &:has(+ ol) {margin-block-end: 8rem;}
+    }
+
+    ul {margin-inline-start: 24rem; list-style: disc;}
+    ol {margin-inline-start: 24rem; list-style: decimal;}
+
+    img {max-width: 100%;}
+}
+
+@media (max-width: $media-md) {
+    .page-support-single {
+        .page-tag-holder {display: none;}
+        &.page-content {font-size: 15px; line-height: 1.5;}
+    }
+}
+
+
+// images shortcode
+.img-inline {margin-top: -4rem; max-height: 24rem; display: inline-block; vertical-align: middle;}
+img.max-w-50 {max-width: 50%;
+    @media (max-width: $media-sm) {
+        max-width: 100%;
+    }
+}
+img.max-w-40 {max-width: 40%;
+    @media (max-width: $media-sm) {
+        max-width: 100%;
+    }
+}

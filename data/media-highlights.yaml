@@ -1,0 +1,22 @@
+items:
+    -
+        title: I've Dropped Google Maps in Favor of This Open-Source Alternative
+        date: 2025-01-20T07:20:28+00:00
+        category: News
+        text: A couple weeks ago while perusing Hacker News, I came across an open-source ...
+        link: https://www.msn.com/en-us/travel/news/ive-dropped-google-maps-in-favor-of-this-open-source-alternative/ar-AA1xyc3S
+        media: /images/media/msn.svg
+    -
+        title: 9 techy travel hacks for your next trip
+        date: 2023-06-10T07:20:28+00:00
+        category: News
+        text: Whether you’re about to take a vacation or just dreaming of one, it’s helpful ...
+        link: https://www.pcworld.com/article/1976901/9-tech-travel-vacation-hacks.html
+        media: /images/media/pcworld.png
+    -
+        title: 10 Offline Navigation Apps to Use When You are Lost or No Network
+        date: 2022-11-18T07:20:28+00:00
+        category: News
+        text: Smart navigation apps are a game changer for our daily lives and the way we travel
+        link: https://geekflare.com/offline-navigation-apps/
+        media: /images/media/geekflare.png

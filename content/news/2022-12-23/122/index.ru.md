@@ -2,8 +2,6 @@
 title: "Мы желаем вам счастливого Рождества 🎅 и Нового года 🎄"
 date: 2022-12-23T23:02:13+00:00
 slug: "we-wish-you-a-merry-christmas-and-a-happy-new-year"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Мы поздравляем вас с Рождеством 🎅 и Новым годом 🎄! Лучший подарок для нас — это знать, что мы делаем что-то нужное и полезное. Встречайте наш маленький подарок 🎁 вам: новогодний релиз Organic Maps доступен в [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps), Huawei [AppGallery](https://appgallery.huawei.com/#/app/C104325611?local=en) и [FDroid](https://f-droid.org/en/packages/app.organicmaps/)!

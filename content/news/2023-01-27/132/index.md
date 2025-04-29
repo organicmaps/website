@@ -2,8 +2,6 @@
 title: "We are excited to announce our first update of 2023"
 date: 2023-01-27T21:26:12+00:00
 slug: "we-are-excited-to-announce-our-first-update-of-2023"
-taxonomies:
-  news: ["Releases"]
 ---
 
 We are excited to announce our first update of 2023. We’ve included a comprehensive list of improvements, as always, thanks to the support and input from our dedicated Organic Maps community. Great work by all of us. 🙏

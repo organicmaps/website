@@ -1,11 +1,106 @@
-{# Generic template for any page -#}
-
 {% extends 'base.html' %}
+{% import "macros/macros.html" as macros %}
 
 {% block content %}
+{% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
+<section class="hero-sub" style="background-image: url(/faq/hero_image.png)" >
+ <div class="container hero-sub__container">
+  <nav class="bred-crum">
+   <ul class="bred-crum__row">
+    <li class="bred-crum__item">
+     <a class="nav-bred bred-crum__link" href="/faq">Faq</a>
+    </li>
+    <li class="bred-crum__item">
+                    <span class="nav-bred">
+                        >
+                    </span>
+    </li>
+    <li class="bred-crum__item">
+     <a class="nav-bred bred-crum__link bred-crum--active"
+        href="/{{ resource.title }}">{{ resource.title }}</a>
+    </li>
+   </ul>
+  </nav>
+  <div class="hero-sub__content">
+   <h1 class="h1 hero-sub__title">
+    Faq
+   </h1>
 
-<h1>{{ resource.title }}</h1>
 
-{{ resource.content | safe }}
+  </div>
+ </div>
+</section>
+<section class="search">
+ <div class="container search__container">
+  <label class="search__label" for="inpSearch">
+   {% include 'ui/search.html' %}
+   <input class="search__input" id="inpSearch" type="text" placeholder="Search">
+  </label>
+ </div>
+</section>
+<section class="faq-post">
+ <div class="container faq-page-list__row">
+  {% set categories = get_taxonomy(kind='faq') | get(key="items") %}
+<!--  <h2 class="h2-inter faq-page-list__title">App</h2>-->
+<!--  <div class="line line&#45;&#45;full"></div>-->
+  <h2 class="h1-inter faq-page-list__title">{{ resource.title }}</h2>
+  <div class="faq-page-list__buttons">
 
+   {% for item in categories %}
+   <a class="button button--line-min" href="{{ get_taxonomy_url(kind="faq", name=item.name) }}">{{ item.name }}</a>
+   {% endfor %}
+  </div>
+ </div>
+</section>
+{% endif %}
+
+{% if 'support' in page.taxonomies %}
+    {% set page_support = get_section(path='support/_index.md') %}
+    {{ macros::showcase_inner(title=page_support.extra.hero_title, tax_section=true, tax_section_permalink=page_support.permalink) }}
+{% else %}
+    {{ macros::showcase_inner(title=page.title, desp=page.description) }}
+{% endif %}
+<div class="container page-content{% if 'support' in page.taxonomies %} page-support-single{% endif %}">
+    {% if 'support' in page.taxonomies %}
+        <section class="search-holder">
+            <div class="search">
+                <label class="search__label" for="inpSearch">
+                    <input class="search__input" id="inpSearch" type="text" placeholder="{{ trans(key='search_placeholder_simple', lang=lang) }}">
+                    <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17.0418 16.4523L13.7865 13.197C14.7856 12.0576 15.3369 10.616 15.3369 9.08655C15.3369 7.41703 14.6867 5.84762 13.5063 4.6672C12.3258 3.48678 10.7564 2.83655 9.08691 2.83655C7.4174 2.83655 5.84798 3.48678 4.66756 4.6672C3.48714 5.84762 2.83691 7.41703 2.83691 9.08655C2.83691 10.7561 3.48714 12.3255 4.66756 13.5059C5.84798 14.6863 7.4174 15.3365 9.08691 15.3365C10.6164 15.3365 12.058 14.7853 13.1973 13.7862L16.4526 17.0415C16.534 17.1228 16.6406 17.1635 16.7472 17.1635C16.8538 17.1635 16.9604 17.1228 17.0418 17.0415C17.2046 16.8787 17.2046 16.615 17.0418 16.4523ZM5.25675 12.9167C4.23381 11.8936 3.67025 10.5333 3.67025 9.08655C3.67025 7.63981 4.23381 6.27954 5.25675 5.25639C6.27991 4.23344 7.64018 3.66988 9.08691 3.66988C10.5337 3.66988 11.8939 4.23344 12.9171 5.25639C13.94 6.27954 14.5036 7.63981 14.5036 9.08655C14.5036 10.5333 13.94 11.8936 12.9171 12.9167C11.8939 13.9397 10.5337 14.5032 9.08691 14.5032C7.64018 14.5032 6.27991 13.9397 5.25675 12.9167Z"/>
+                    </svg>
+                </label>
+            </div>
+        </section>
+        <div class="faq-page-list faq-page-list-inner hidden">
+            <div class="container faq-page-list__row">
+                <div class="faq-page-list__table faq-page-list__table-static"></div>
+            </div>
+        </div>
+        <div class="page-category">{% for i in page.taxonomies.support %}{{ i }}{% endfor %}</div>
+        <h2 class="page-title">{{ page.title }}</h2>
+        <div class="page-tag-holder">
+            {% for i in page.extra.tags %}
+                <div class="page-tag">{{ i }}</div>
+            {% endfor %}
+        </div>
+
+        {% set tax_terms = get_taxonomy(kind="support") %}
+        {{ macros::search(list=tax_terms.items) }}
+    {% endif %}
+    {{ page.content | safe }}
+</div>
+
+{% include 'section/donate.html' %}
+
+{% if config.build_search_index %}
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search...">
+        <div class="search-results">
+            <div class="search-results__items"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ get_url(path="elasticlunr.min.js") }}"></script>
+    <script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
+{% endif %}
 {% endblock content %}

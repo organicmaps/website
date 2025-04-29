@@ -1,312 +1,45 @@
-@import "./language_selector";
-@import "./top_menu";
+/// Variables ///
+@import "./variables/media";
+@import "./variables/color-theme";
+@import "./variables/fonts";
+@import "./variables/spasing";
+@import "./variables/images";
 
-$darkBackgroundColor: #121212;
-$darkFontColor: #bbb;
+/// Global Style ///
+@import "./global/reset";
+@import "./global";
 
-body {
-  margin: 1rem;
-  padding: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "segoe ui",
-    Helvetica,
-    Arial,
-    sans-serif,
-    "apple color emoji",
-    "segoe ui emoji",
-    "segoe ui symbol";
-  font-size: 16px;
-  line-height: 1.5;
-  word-wrap: break-word;
-}
+// Common Style
+@import "./common/header";
+@import "./common/footer";
+@import "./common/bred-crum";
+@import "./common/involved";
+@import "./common/showcase";
+@import "./common/support-block";
+@import "./common/search";
+@import "./common/section-social";
+@import "./common/solo-donate";
 
-code {
-  font-family: monospace;
-  font-size: smaller;
-}
+// Component Style
+@import "./component/lang-switcher";
+@import "./component/buttons";
+@import "./component/switch-theme";
+@import "./component/animation";
+@import "./component/header-sub";
+@import "./component/icons";
+@import "./component/post-min";
+@import "./component/pagination";
+@import "./component/tables";
 
-code,
-a {
-  // Prevents horizontal scrolling in Safari on narrow screen for long links and code lines.
-  word-wrap: anywhere;
-}
-
-pre {
-  white-space: pre-wrap;
-  font-size: smaller;
-}
-
-p > code, li > code, dd > code, td > code {
-  background: #ddd;
-  word-wrap: break-word;
-  box-decoration-break: clone;
-  padding: .1rem .3rem .2rem;
-  border-radius: .2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  p > code, li > code, dd > code, td > code {
-    background: #333330;
-  }
-}
-
-header {
-  text-align: center;
-}
-
-main {
-  margin: 0 auto;
-  max-width: 1080px;
-  width: 100%;
-}
-
-figure {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-img[alt="logo"] {
-  width: 60px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-strong {
-  font-weight: 600;
-}
-
-.badge {
-  img {
-    width: 180px;
-  }
-}
-
-.donate_buttons {
-  form,
-  input {
-    display: inline;
-    border-width: 0;
-  }
-
-  img,
-  input[type="image"] {
-    height: 48px;
-    width: 48px;
-    padding: 2px;
-    background-color: white;
-    border-radius: 10px;
-  }
-
-  .donate_currency {
-    position: absolute;
-    color: black;
-  }
-}
-
-#screenshots img {
-  max-width: 400px;
-}
-
-.screenshot {
-  max-width: 400px;
-  width: 100%;
-}
-
-hr {
-  height: 2px;
-  margin: 7px;
-  background: gray;
-  border: 0;
-}
-
-h1,
-h2,
-h3 {
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #eaecef;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-p {
-  margin: 0 0 16px;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-footer {
-  padding-top: 1rem;
-  border-top: 1px solid #eaecef;
-  text-align: center;
-
-  p {
-    font-size: small;
-  }
-}
-
-@media (width <= 768px) {
-  #badges {
-    flex-direction: column;
-  }
-
-  #badges a {
-    margin: 20px auto;
-  }
-
-  .news_content_image {
-    flex-wrap: wrap;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: $darkBackgroundColor;
-    color: $darkFontColor;
-  }
-
-  h1,
-  h2,
-  h3 {
-    border-bottom: 1px solid #555;
-  }
-
-  footer {
-    border-top: 1px solid #555;
-  }
-
-  a {
-    color: lightblue;
-  }
-
-  a:visited {
-    color: #f9f;
-  }
-
-  :root {
-    scrollbar-color: #333 #000;
-  }
-}
-
-.installPWAButton {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-#bottom-menu {
-  margin-bottom: 1em;
-
-  a {
-    text-decoration: none;
-  }
-}
-
-.menuitem_selected {
-  text-decoration: none;
-  border: red 2px solid;
-  border-radius: 1rem;
-  padding: 0.3rem 0.5rem;
-  margin: 0;
-}
-
-#crypto-table + table {
-  font-size: smaller;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.news_date {
-  display: flex;
-  flex-basis: 100%;
-  align-items: center;
-  margin: 1rem 0;
-
-  &::before,
-  &::after {
-    content: "";
-    flex-grow: 1;
-    background-color: gray;
-    height: 1px;
-    font-size: 0;
-    line-height: 0px;
-    margin: 0;
-  }
-}
-
-.news_content_image {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.news_image, .news_video {
-  max-height: 520px;
-  max-width: 300px;
-  margin: 0.5rem;
-  display: inline-block;
-  vertical-align: top;
-  width: auto;
-}
-
-.news_image_landscape {
-  max-height: 520px;
-  margin: 0.5rem;
-  display: inline-block;
-  vertical-align: top;
-  width: auto;
-}
-
-.news_content {
-  display: inline-block;
-}
-
-.back_to_news {
-  margin-top: 1rem;
-}
-
-blockquote {
-  display: block;
-  width: fit-content;
-  border-radius: 3px;
-  border-left: 2px solid rgb(109 115 74);
-  margin: 0.5rem 0;
-  background-color: #ececec;
-  padding: 0.3rem;
-  font-size: smaller;
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  blockquote {
-    background-color: #202020;
-    color: $darkFontColor;
-  }
-}
-
-img.edit-github-icon {
-  width: 20px;
-  height: 20px;
-  vertical-align: text-bottom;
-}
-
-.edit-on-github {
-  display: block;
-  margin: 1rem;
-}
+// Pages Style
+@import "./pages/home";
+@import "./pages/community";
+@import "./pages/support";
+@import "./pages/volunteering";
+@import "./pages/new-support";
+@import "./pages/faq-page";
+@import "./pages/about-us";
+@import "./pages/crowdfunding";
+@import "./pages/download";
+@import "./pages/news";
+@import "./pages/single-news";

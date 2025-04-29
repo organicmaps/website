@@ -2,8 +2,6 @@
 title: "Meet the second November update of Organic Maps"
 date: 2022-11-30T09:58:35+00:00
 slug: "meet-the-second-november-update-of-organic-maps"
-taxonomies:
-  news: ["Releases"]
 ---
 
 Meet the second November update of Organic Maps! Enjoy your travels and share your experience with us. Let's make the best privacy-focused, fastest and easiest to use offline maps [together](https://organicmaps.app/donate)!

@@ -1,6 +1,6 @@
 ---
-title: "Organic Maps: terms"
-description: "Terms of use for Organic Maps application"
+title: "Terms"
+# description: "Terms of use for Organic Maps application"
 weight: 1000
 extra:
   menu_title: Terms
@@ -19,10 +19,10 @@ Most libraries in the following directories on [GitHub][github] made by other pe
 
 Please refer to their LICENSE, COPYING or NOTICE files for terms of use.
 
-See also [data/copyright.html][copyright] file for a full list of copyright notices for Organic Maps application.
+See [data/copyright.html][copyright] file for a full list of copyright notices for Organic Maps application.
 
 If you have any questions or suggestions, please contact us at [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[copyright]: https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html

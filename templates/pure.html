@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{%- block content %}
+<section class="pure" style="padding-top: 100px">
+    <div class="container">
+        {{ page.content | safe }}
+    </div>
+</section>
+{%- endblock content %}
+{% include 'section/solo-donate.html' %}

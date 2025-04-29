@@ -1,10 +1,7 @@
 ---
-title: "Meet a new app August 2021 update"
+title: "Meet a new app update with"
 date: 2021-08-07T06:40:46+00:00
-slug: "august-2021-release-of-organic-maps"
-aliases: ["/news/2021-08-07/meet-a-new-app-update-with/"]
-taxonomies:
-  news: ["Releases"]
+slug: "meet-a-new-app-update-with"
 ---
 
 Meet a new app update with:

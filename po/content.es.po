@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-28 08:14+0000\nLast-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.2-rc\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-04-27 21:11+0000\nLast-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -30,7 +30,7 @@ msgstr "Organic Maps: senderismo, ciclismo y GPS sin conexión"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "**Organic Maps** es una aplicación libre para Android y iOS de mapas sin conexión para viajantes, turistas, senderistas y ciclistas basados en los datos cartográficos abiertos de **[OpenStreetMap][openstreetmap]**. Es una [bifurcación][fork] libre y centrada en la privacidad de la aplicación **Maps.me** (anteriormente conocida como [**MapsWithMe**][mapswithme]), mantenida por la misma gente que creó **MapsWithMe** en 2011.\n"
+msgstr "**Organic Maps** es una aplicación gratuita de mapas sin conexión para Android e iOS para viajeros, turistas, senderistas, conductores y ciclistas, basada en datos de **[OpenStreetMap][openstreetmap]** creados por la comunidad.\nEs una bifurcación de código abierto y centrada en la privacidad de la aplicación **Maps.me** (anteriormente conocida como [**MapsWithMe**][mapswithme]), mantenida por los mismos creadores de **MapsWithMe** en 2011.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -345,7 +345,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n<tr>\n<td>\n<a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"La Fundación NLnet\" width=\"200px\"></a>\n</td>\n<td>\nEl proyecto de mejora de la búsqueda y las fuentes <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">se ha financiado a través del Fondo Entrust de NGI0. El <a href=\"https://nlnet.nl/entrust/\">Fondo NGI0 Entrust</a> fue creado por la <a href=\"https://nlnet.nl/\">Fundación NLnet</a> con el apoyo financiero del programa <a href=\"https://www.ngi.eu/\">Internet de Próxima Generación</a> de la Comisión Europea, bajo los auspicios de la Dirección General de Redes de Comunicación, Contenido y Tecnología, en virtud del acuerdo de subvención n.º 101069594.\n\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n\n</td>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\">Google</a> respaldó los proyectos de cinco estudiantes en el programa Google Summer of Code durante <a Programas href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> y <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Entre los proyectos más destacados se encuentran Android Auto y Wikipedia Dump Extractor. </td>\n</tr>\n<tr>\n<td>\n<a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n</td>\n<td>\nEl proveedor de servicios de internet (ISP) de Mythic Beasts, <a href=\"https://www.mythic-beasts.com/\">nos proporciona</a> dos servidores virtuales con 400 TB al mes de ancho de banda gratuito para alojar y gestionar las descargas y actualizaciones de mapas. </td>\n</tr>\n<tr>\n<td>\n<a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://44plus.vn\">44+ Technologies</a> nos proporciona <a href=\"https://44plus.vn/organicmaps\">un servidor dedicado gratuito con un valor aproximado de $12,000 al año para servir mapas en Vietnam y el Sudeste Asiático.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://futo.org\">FUTO</a> otorgó una <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">microsubvención de $1000</a> a Organic Maps en febrero de 2023.\n</td>\n</tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -846,7 +846,7 @@ msgstr "[github]: https://github.com/organicmaps/organicmaps"
 #: content/terms/index.md
 #, no-wrap
 msgid "[license]: http://www.apache.org/licenses/LICENSE-2.0"
-msgstr "[license]: http://www.apache.org/licenses/LICENSE-2.0"
+msgstr "[licencia]: http://www.apache.org/licenses/LICENSE-2.0"
 
 #. type: Link reference
 #: content/terms/index.md

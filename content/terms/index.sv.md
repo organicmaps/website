@@ -34,6 +34,6 @@ upphovsrättsliga meddelanden för Organic Maps-appen.
 Om du har några frågor eller förslag kan du kontakta oss på
 [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
-[github]: https://github.com/organicmaps/organicmaps
+https://github.com/organicmaps/organicmaps/issues
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

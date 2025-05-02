@@ -11,9 +11,9 @@ title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 
 **Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atmikite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+2023-iaisiais „Organic Maps“ [įgijo pirmąjį milijoną](@/news/2023-12-23/281/index.md) naudotojų. [Padėkite mums](@/donate/index.md) augti!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid] {#install}
 
 {{ badges() }}
 

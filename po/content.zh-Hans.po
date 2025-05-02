@@ -840,7 +840,7 @@ msgstr "参见[data/copyright.html][copyright]文件，了解Organic Maps应用�
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr "https://github.com/organicmaps/organicmaps/issues"
+msgstr "[github]: https://github.com/organicmaps/organicmaps"
 
 #. type: Link reference
 #: content/terms/index.md

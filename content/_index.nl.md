@@ -7,13 +7,14 @@ sort_by: weight
 title: 'Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie'
 ---
 
-**Organic Maps** is een gratis Android & iOS offline kaartenapp voor reizigers, toeristen, wandelaars en fietsers gebaseerd op gecrowdsourcete **[OpenStreetMap][openstreetmap]** gegevens. Het is een privacy-gefocuste, open-source [fork][fork] van de app **Maps.me** (voorheen bekend als [**MapsWithMe**][mapswithme]), en wordt onderhouden door dezelfde mensen die **MapsWithMe** hebben gemaakt in 2011.
+**Organic Maps** is een gratis Android & iOS offline kaartenapp voor reizigers, toeristen, wandelaars en fietsers gebaseerd op gecrowdsourcete **[OpenStreetMap][openstreetmap]** gegevens.
+Het is een privacy-gefocuste, open-source [fork][fork] van de app **Maps.me** (voorheen bekend als [**MapsWithMe**][mapswithme]), en wordt onderhouden door dezelfde mensen die **MapsWithMe** hebben gemaakt in 2011.
 
 **Organic Maps** is één van de weinige apps heden ten dage die 100% van de functionaliteit heeft zonder actieve internetverbinding. Installeer Organic Maps, download kaarten, gooi je SIM kaart weg (trouwens, je provider trackt je altijd), en ga een week op pad zonder je batterij op te laden en zonder dat er één byte naar het netwerk verzonden wordt.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In 2023 kreeg Organic Maps [zijn eerste miljoen](@/news/2023-12-23/281/index.md) gebruikers. [Help ons](@/donate/index.md) om op te schalen!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Download en installeer Organic Maps in de [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
 {{ badges() }}
 
@@ -97,8 +98,9 @@ voorkeurs-betalingsmethode hieronder:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+De geliefde institutionele sponsoren hieronder hebben gerichte beurzen
+beschikbaar gesteld om enkele infrastructuurskoten en te betalen en om de
+ontwikkeling van bepaalde nieuwe functies te betalen:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -106,7 +108,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Het Search & Fonts improvement project</a> is <a href="https://nlnet.nl/project/OrganicMaps/">betaald</a> door het NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is opgezet door de <a href="https://nlnet.nl/">NLnet Foundation</a> met financiële steun van de Europese Commissie's <a href="https://www.ngi.eu/">Next Generation Internet programma</a>, onder de mantel van DG Communications Networks, Content and Technology onder grant agreement No 101069594.
     </td>
   </tr>
   <tr>
@@ -114,7 +116,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> steunde 5 studentenprojecten in het Google Summer of Code programma tijdens <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> en <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programma's. Noemenswaardige projecten waren Android Auto en Wikipedia Dump Extractor.
     </td>
   </tr>
   <tr>
@@ -165,10 +167,10 @@ Apache License 2.0.
 - Volg onze update op [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
+- Ga bij (of maak en laat ons dat weten) lokale communities: [Hongaarse
+  Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
+  [Chinese-][telegram_chat_zh], [Franse-][telegram_chat_fr],
+  [Russische-][telegram_chat_ru], [Turkse-][telegram_chat_tr]sprekende
   Telegram chats.
 
 [fork]: https://nl.wikipedia.org/wiki/Fork_(ontwikkeling)

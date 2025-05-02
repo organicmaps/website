@@ -1,5 +1,5 @@
 ---
-description: "Maradjon kapcsolatban a legfrissebb Organic Maps kiadványokkal, hírekkel és frissítésekkel csapatunktól"
+description: "Legyen naprakész csapatunk legújabb Organic Maps-kiadásaival, híreivel és frissítéseivel"
 extra:
   menu_title: Hírek
 page_template: news/page.html

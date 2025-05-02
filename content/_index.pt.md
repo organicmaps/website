@@ -13,7 +13,7 @@ title: 'Mapas orgânicos: caminhada, ciclismo, trilhos e navegação offline'
 
 > Em 2023, o Organic Maps [alcançou o seu primeiro milhão de utilizadores](@/news/2023-12-23/281/index.md). [Ajude-nos](@/donate/index.md) a crescer!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Descarregue e instale o Organic Maps a partir da [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
 {{ badges() }}
 

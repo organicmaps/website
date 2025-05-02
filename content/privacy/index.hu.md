@@ -8,15 +8,15 @@ weight: 900
 
 Az Organic Maps tiszteletben tartja az Ön magánéletét, és NEM KÖVETI Önt.
 
-A legtöbb más alkalmazással ellentétben az Organic Maps-ben nincs
+A legtöbb más alkalmazással ellentétben az Organic Maps alkalmazásban nincs
 nyomkövetés, nincsenek hirdetések, nincsenek kémprogramok, nincs
 statisztikai vagy más adat gyűjtése.
 
-Utasítsd el a megfigyelést - gyakorold a szabadságodat.
+Utasítsa el a megfigyelést - ölelje magához a szabadságot.
 
-Maradj rejtve a nagy techcégek kíváncsi szemei elől!
+Maradjon távol a nagy technológiai vállalatoktól!
 
-Ha bármilyen kérdése vagy javaslata van, kérjük, lépjen kapcsolatba velünk a
+Ha bármilyen kérdése vagy javaslata van, lépjen kapcsolatba velünk a
 [legal@organicmaps.app](mailto:legal@organicmaps.app) címen.
 
 <sub>Ez a szabályzat 2021-04-24-től hatályos.</sub>

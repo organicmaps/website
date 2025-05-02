@@ -50,7 +50,7 @@ Feu clic a la icona de pagament preferit:
    - Photos and Reviews
    - Millors estils cartogràfics per a diferents activitats
    - Ombreig de pujols i terreny 3D
-   - Millorar l'editor de OpenStreetMap
+   - Editor OpenStreetMap més avançat
    - Millor cerca de direccions sense connexió, encaminament i navegació
    - ... i [moltes altres][github issues] funcionalitats que vulgueu
 

@@ -7,14 +7,14 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.
-It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.
+**Organic Maps** on vaba ja tasuta Androidi ja iOSi võrguvaba kaardirakendus reisijatele, turistidele, matkajatele, autojuhtidele ja jalgratturitele, mis põhineb kogukonna poolt loodud **[OpenStreetMapi][openstreetmap]** andmetel.
+Tegemist on privaatsuskeskse ja avatud lähtekoodil põhineva [versiooniga][fork] **Maps.me** rakendusest (varasema nimega [**MapsWithMe**][mapswithme]) ning seda arendab ja haldab sama seltskond, kes **MapsWithMe** algselt 2011. aastal tegi.
 
-**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.
+**Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mille 100% funktsionaalsustest toimivad ilma internetiühenduseta. Paigalda nutiseadmesse Organic Maps, laadi alla vajalikud kaardid, jäta SIM-kaart laualaekasse ja mine nädalapikkusele reisile, mil piisab ühest aku laadimiskorrast ja ühtegi baiti ei saadeta võrgu suunas.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> 2023. aastal jõudis Organic Maps [miljoni kasutajani](@/news/2023-12-23/281/index.md). [Aita meil](@/donate/index.md) veelgi kasvada!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
 {{ badges() }}
 
@@ -98,12 +98,13 @@ Keeldu pidevast jälgimisest - võta oma sihiks vabadus.
 Meie rakendus on kõigile tasuta. Aga kui soovid [meid rahaliselt
 toetada](@/donate/index.md), siis see on alati hea mõte!
 
-To donate conveniently, click on your preferred payment method icon below:
+Mugavaks annetamiseks vali alljärgnevast endale sobilik makseviis:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Meie allpooltoodud institutsionaalsed toetajad on aidanud eesmärgipäraste
+toetustega katta taristukulusid ja rahastada mõnede valitud arenduste
+edenemist:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -111,7 +112,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Otsingu ja kirjatüüpide parendusprojekiti</a> <a href="https://nlnet.nl/project/OrganicMaps/">rahastas</a> NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> on loodud <a href="https://nlnet.nl/">NLnet Foundationi</a> poolt Euroopa Komisjoni rahalisel toel <a href="https://www.ngi.eu/">Next Generation Internet programme'i</a> alusel, Sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all uurimistoetuse nr 101069594 põhjal.
     </td>
   </tr>
   <tr>
@@ -119,7 +120,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> toetas viie üliõpilase osalemist Google Summer of Code programmis aastatel <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> ja <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Märkimisväärsel projektid olid Android Auto liidestus ja Wikipedia Dump Extractor.
     </td>
   </tr>
   <tr>
@@ -127,7 +128,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      Internetiteenusepakkuja <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">tagab meile</a> kaks virtuaalserverit koos 400 TB/kuus tasuta ribalaiusega kaartide ja uuenduste säilitamiseks ja levitamiseks.
     </td>
   </tr>
   <tr>
@@ -135,7 +136,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">tagab meile </a>tasuta serveri väärtusega $12,000/aastas  tööks Vietnamis ja Kagu-Aasias.
     </td>
   </tr>
   <tr>
@@ -143,15 +144,15 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> kinnitas Organic Mapsile veebruaris 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 mikrotoetuse</a>.
     </td>
   </tr>
 </table>
 
 ## Kogukond
 
-Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mida me oleme
-litsentseerinud Apache License 2.0 alusel.
+Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me
+oleme litsentseerinud Apache License 2.0 alusel.
 
 - Palun liitu meie beetaprogrammiga, paku uusi funktsionaalsusi ning teata
   vigadest:
@@ -163,19 +164,19 @@ litsentseerinud Apache License 2.0 alusel.
   [saada meile e-kiri][email].
 - [Kommenteeri][ideas] juba tehtud ettepanekuid või paku mõni asjalik idee
   omalt poolt.
-- Viimase teabe saamiseks liitu meie [Telegram'i kanaliga][telegram] või
-  [Matrix'i kogukonnaga][matrix].
-- Keskustelemaks teiste kasutajatega liitu meie [Telegram'i
+- Viimase teabe saamiseks liitu meie [Telegrami kanaliga][telegram] või
+  [Matrixi kogukonnaga][matrix].
+- Keskustelemaks teiste kasutajatega liitu meie [Telegrami
   grupiga][telegram_chat].
-- Vaata meie [arenduskeskkonda GitHub'is][github].
+- Vaata meie [arenduskeskkonda GitHubis][github].
 - Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Liitu kohalike kogukondadega: [ungarikeelne Matrixi
+  jututuba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
+  [hiina-][telegram_chat_zh], [prantsuse-][telegram_chat_fr],
+  [vene-][telegram_chat_ru] ja [türgikeelne][telegram_chat_tr]jututuba
+  Telegramis. Kui soovid, siis alati saad luua uue kogukonna.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

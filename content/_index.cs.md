@@ -14,7 +14,7 @@ Jedná se o open-source [odnož][fork] aplikace **Maps.me** (dříve známé jak
 
 > V roce 2023 získaly Organic Maps [první milion](@/news/2023-12-23/281/index.md) uživatelů. [Pomozte nám](@/donate/index.md) dále růst!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}
 
 {{ badges() }}
 
@@ -99,8 +99,8 @@ níže:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých
+nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -108,7 +108,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt vyhledávání a písem</a> byl <a href="https://nlnet.nl/project/OrganicMaps/">financován</a> pomocí fondu NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fond NGI0 Entrust</a> je zřízen organizací <a href="https://nlnet.nl/">NLnet Foundation</a> s finanční podporou z <a href="https://www.ngi.eu/">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..
     </td>
   </tr>
   <tr>
@@ -116,7 +116,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      Společnost <a href="https://summerofcode.withgoogle.com/">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> a <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.
     </td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.
     </td>
   </tr>
   <tr>
@@ -132,7 +132,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.
     </td>
   </tr>
   <tr>
@@ -140,7 +140,7 @@ some infrastructure costs and fund development of new selected features:
       <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> nám <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">udělilo mikro-grant $1000</a> v únoru 2023.
     </td>
   </tr>
 </table>
@@ -167,11 +167,11 @@ License 2.0.
 - Sledujte naše aktualizace na [FOSStodon][fosstodon],
   [Mastodonu][mastodon], [Facebooku][facebook], [Twitteru][twitter],
   [Instagramu][instagram], [Redditu][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Připojte se (nebo vytvořte vlastní a dejte nám vědět) k lokálním
+  komunitám: [maďarská místnost Matrix maďarských
+  překladatelů](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
+  [Čínský][telegram_chat_zh], [Francouzský][telegram_chat_fr],
+  [Ruský][telegram_chat_ru], [Turecký][telegram_chat_tr] chat na Telegramu.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

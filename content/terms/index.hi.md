@@ -32,6 +32,6 @@ weight: 1000
 यदि आपके कोई प्रश्न या सुझाव हैं, तो कृपया हमसे
 [legal@organicmaps.app](mailto:legal@organicmaps.app) पर संपर्क करें।
 
-[github]: https://github.com/organicmaps/organicmaps
+https://github.com/organicmaps/organicmaps/issues
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

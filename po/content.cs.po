@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-02-23 21:45+0000\nLast-Translator: Fjuro <fjuro@users.noreply.hosted.weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.10.1-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: Fjuro <fjuro@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/organicmaps/website/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,12 +36,8 @@ msgstr "Organic Maps: Offline pěší turistika, cykloturistika, stezky a naviga
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
 msgstr ""
-"**Organic Maps** je bezplatná offline mapová aplikace pro systémy Android a iOS pro cestovatele, turisty, výletníky a cyklisty založená na datech **[OpenStreetMap][openstreetmap]**.\n"
-"Jedná se o open-source [odnož][fork] aplikace **Maps.me** (dříve známé jako [**MapsWithMe**][mapswithme]) zaměřenou na ochranu soukromí, kterou spravují stejní lidé, kteří **MapsWithMe** v roce 2011 vytvořili.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -42,8 +47,9 @@ msgstr "**Organic Maps** je jednou z mála aplikací, která v dnešní době po
 
 #. type: Plain text
 #: content/_index.md
-#, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, fuzzy, no-wrap
+#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr "> V roce 2023 získaly Organic Maps [první milion](@/news/2023-12-23/281/index.md) uživatelů. [Pomozte nám](@/donate/index.md) dále růst!\n"
 
 #. type: Title ###
@@ -347,7 +353,49 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Projekt vyhledávání a písem</a> byl <a href=\"https://nlnet.nl/project/OrganicMaps/\">financován</a> pomocí fondu NGI0 Entrust. <a href=\"https://nlnet.nl/entrust/\">Fond NGI0 Entrust</a> je zřízen organizací <a href=\"https://nlnet.nl/\">NLnet Foundation</a> s finanční podporou z <a href=\"https://www.ngi.eu/\">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      Společnost <a href=\"https://summerofcode.withgoogle.com/\">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> a <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      ISP <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> is <a href=\"https://44plus.vn/organicmaps\">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> nám <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">udělilo mikro-grant $1000</a> v únoru 2023.\n    </td>\n  </tr>\n</table>\n"
+msgstr ""
+"<table style=\"border-spacing: 20px\">\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Projekt vyhledávání a písem</a> byl <a href=\"https://nlnet.nl/project/OrganicMaps/\">financován</a> pomocí fondu NGI0 Entrust. <a href=\"https://nlnet.nl/entrust/\">Fond NGI0 Entrust</a> je zřízen organizací <a href=\"https://nlnet.nl/\">NLnet Foundation</a> s finanční podporou z <a href=\"https://www.ngi.eu/\">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      Společnost <a href=\"https://summerofcode.withgoogle.com/\">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> a <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      ISP <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\">44+ Technologies</a> is <a href=\"https://44plus.vn/organicmaps\">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\">FUTO</a> nám <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">udělilo mikro-grant $1000</a> v únoru 2023.\n"
+"    </td>\n"
+"  </tr>\n"
+"</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -951,6 +999,14 @@ msgstr "Název"
 #, no-wrap
 msgid "Token"
 msgstr "Token"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr ""
+#~ "**Organic Maps** je bezplatná offline mapová aplikace pro systémy Android a iOS pro cestovatele, turisty, výletníky a cyklisty založená na datech **[OpenStreetMap][openstreetmap]**.\n"
+#~ "Jedná se o open-source [odnož][fork] aplikace **Maps.me** (dříve známé jako [**MapsWithMe**][mapswithme]) zaměřenou na ochranu soukromí, kterou spravují stejní lidé, kteří **MapsWithMe** v roce 2011 vytvořili.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

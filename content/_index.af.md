@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie'
 ---
 
-**Organic Maps** is ’n gratis Android & iOS vanlyn kaarttoep vir reisigers, toeristen, voetslaners en fietsers gebaseer op skareverkreë **[OpenStreetMap][openstreetmap]**-data. Dit is ’n privaatheidgefokusde, oopbron [vurk][fork] van die toep **Maps.me** (voorheen bekend as [**MapsWithMe**][mapswithme]), en word onderhou deur dieselfde mense wat **MapsWithMe** in 2011 geskep het.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi u SIM-kaart weg (trouens, u verskaffer spoor u altyd na), en gaan ’n week op pad sonder om u battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Laai af en installeer Organic Maps in die [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 

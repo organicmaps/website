@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-04-24 03:58+0000\nLast-Translator: GiannosOB <giannos2105@gmail.com>\nLanguage-Team: Greek <https://hosted.weblate.org/projects/organicmaps/website/el/>\nLanguage: el\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.1-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: GiannosOB <giannos2105@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/organicmaps/website/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,10 +36,8 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "Το **Organic Maps** είναι μια δωρεάν εφαρμογή χαρτών Android & iOS χωρίς σύνδεση για ταξιδιώτες, τουρίστες, πεζοπόρους, οδηγούς και ποδηλάτες που βασίζεται σε δεδομένα **[OpenStreetMap][openstreetmap]** που δημιουργήθηκαν από την κοινότητα.\nΠρόκειται για ένα [fork][fork][διακλάδωση] ανοιχτού κώδικα της εφαρμογής **Maps.me** (παλαιότερα γνωστή ως [**MapsWithMe**][mapswithme]), που συντηρείται από τους ίδιους ανθρώπους που δημιούργησαν το **MapsWithMe** το 2011.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
+msgstr ""
 
 #. type: Plain text
 #: content/_index.md
@@ -40,8 +47,9 @@ msgstr "**Οι Organic Maps** είναι μία από τις λίγες εφα�
 
 #. type: Plain text
 #: content/_index.md
-#, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, fuzzy, no-wrap
+#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr "> Το 2023, οι Organic Maps [απέκτησαν το πρώτο τους εκατομμύριο](@/news/2023-12-23/281/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!\n"
 
 #. type: Title ###
@@ -949,6 +957,14 @@ msgstr "Όνομα"
 #, no-wrap
 msgid "Token"
 msgstr "Token"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr ""
+#~ "Το **Organic Maps** είναι μια δωρεάν εφαρμογή χαρτών Android & iOS χωρίς σύνδεση για ταξιδιώτες, τουρίστες, πεζοπόρους, οδηγούς και ποδηλάτες που βασίζεται σε δεδομένα **[OpenStreetMap][openstreetmap]** που δημιουργήθηκαν από την κοινότητα.\n"
+#~ "Πρόκειται για ένα [fork][fork][διακλάδωση] ανοιχτού κώδικα της εφαρμογής **Maps.me** (παλαιότερα γνωστή ως [**MapsWithMe**][mapswithme]), που συντηρείται από τους ίδιους ανθρώπους που δημιούργησαν το **MapsWithMe** το 2011.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

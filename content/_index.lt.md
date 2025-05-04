@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 ---
 
-**Organic Maps** yra nemokama be interneto veikianti Android ir iOS žemėlapių programėlė, skirta keliautojams, turistams, žygeiviams ir dviratininkams, kuri naudoja bendruomenės tvarkomų **[OpenStreetMap][openstreetmap]** žemėlapių duomenis. Ji yra į privatumą orientuota atviro kodo atšaka nuo [fork][fork] **Maps.me** programėlės (anksčiau žinomos kaip [**MapsWithMe**][mapswithme]), prižiūrima tų pačių žmonių, kurie sukūrė **MapsWithMe** 2011-aisiais metais.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atmikite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
 
-2023-iaisiais „Organic Maps“ [įgijo pirmąjį milijoną](@/news/2023-12-23/281/index.md) naudotojų. [Padėkite mums](@/donate/index.md) augti!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid] {#install}
 

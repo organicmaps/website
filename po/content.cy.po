@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Welsh <https://hosted.weblate.org/projects/organicmaps/website/cy/>\nLanguage: cy\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5;\nX-Generator: Weblate 5.11-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
+"Language-Team: Welsh <https://hosted.weblate.org/projects/organicmaps/website/cy/>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,10 +36,8 @@ msgstr "Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein"
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "Mae **Organic Maps** yn ap am ddim ar gyfer Android ac iOS gyda mapiau all-lein ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr ar sail data cyfraniad torfol **[OpenStreetMap][openstreetmap]**..\nMae'n [fforc][fork] cod agored a phreifat o'r ap **Maps.me** ([**MapsWithMe**][mapswithme] cyn hynny), a chynhelir gan yr union bobl sydd wedi creu **MapsWithMe** yn 2011.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
+msgstr ""
 
 #. type: Plain text
 #: content/_index.md
@@ -41,7 +48,7 @@ msgstr "**Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100%
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr ""
 
 #. type: Title ###
@@ -949,6 +956,14 @@ msgstr "Enw"
 #, no-wrap
 msgid "Token"
 msgstr "Tocyn"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr ""
+#~ "Mae **Organic Maps** yn ap am ddim ar gyfer Android ac iOS gyda mapiau all-lein ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr ar sail data cyfraniad torfol **[OpenStreetMap][openstreetmap]**..\n"
+#~ "Mae'n [fforc][fork] cod agored a phreifat o'r ap **Maps.me** ([**MapsWithMe**][mapswithme] cyn hynny), a chynhelir gan yr union bobl sydd wedi creu **MapsWithMe** yn 2011.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
 ---
 
-**Organic Maps** är en gratis Android- och iOS-app för resenärer, turister, vandrare och cyklister som bygger på data från publiken **[OpenStreetMap][openstreetmap]**. Det är en [fork][fork] med öppen källkod av appen **Maps.me** (tidigare känd som [**MapsWithMe**][mapswithme]), som underhålls av samma personer som skapade **MapsWithMe** 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** är ett av få program som numera stöder 100 % av funktionerna utan en aktiv internetanslutning. Installera Organic Maps, ladda ner kartor, släng ditt SIM-kort (din operatör spårar dig förresten hela tiden) och gör en veckolång resa med en enda batteriladdning utan att någon byte skickas till nätet.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 

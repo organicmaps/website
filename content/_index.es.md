@@ -7,12 +7,11 @@ sort_by: weight
 title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
 ---
 
-**Organic Maps** es una aplicación gratuita de mapas sin conexión para Android e iOS para viajeros, turistas, senderistas, conductores y ciclistas, basada en datos de **[OpenStreetMap][openstreetmap]** creados por la comunidad.
-Es una bifurcación de código abierto y centrada en la privacidad de la aplicación **Maps.me** (anteriormente conocida como [**MapsWithMe**][mapswithme]), mantenida por los mismos creadores de **MapsWithMe** en 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** es una de las pocas aplicaciones que hoy en día permiten usar todas las funcionalidades sin una conexión a Internet activa. Instale Organic Maps, descargue mapas, deseche su tarjeta SIM (por cierto, su operadora le rastrea constantemente) y emprenda un viaje semanal con una única carga sin ningún byte enviado a la red.
 
-> En 2023 Organic Maps [alcanzó su primer millón de usuarios](@/news/2023-12-23/281/index.md). ¡[Ayúdenos](@/donate/index.md) a crecer!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

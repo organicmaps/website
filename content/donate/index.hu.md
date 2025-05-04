@@ -1,5 +1,5 @@
 ---
-description: "Az Ön pénze fedezi a projekttel kapcsolatos összes kiadást, és motivál minket az Organic Maps jobbá tételéhez."
+description: "Az Ön pénze fedezi a projekttel kapcsolatos összes kiadást, és motivál bennünket az Organic Maps jobbá tételéhez."
 extra:
   menu_title: Adományozás
   preview_image: donate/donate.png
@@ -27,11 +27,11 @@ Kattintson a kívánt fizetési mód ikonjára lentebb:
    Maps helyett.
 2. További célunk az OpenStreetMapet használó számos weboldal, alkalmazás és
    platform nyilvános térképadatainak javítása, valamint több ember bevonása
-   a térképadatok felviteléhez.
+   a térképadatok szerkesztésébe.
 3. Az Ön adományaira támaszkodunk, hogy teljesíteni tudjuk küldetésünket,
    hogy az Organic Maps nyitott és szabad maradjon. MIndezt hirdetések
    nélkül.
-4. Szeretjük azt, amit csinálunk, és szeretjük a felhasználóinkat❤️.
+4. Szeretjük, amit csinálunk, és szeretjük a felhasználóinkat ❤️.
 
 ## Miért kell pénz egy ingyenes projekthez?
 
@@ -47,16 +47,16 @@ Kattintson a kívánt fizetési mód ikonjára lentebb:
    mint például:
    - Biztonsági mentés, továbbá a könyvjelzők- és nyomvonalak
      szinkronizálása
-   - GPS-nyomvonalrögzítés GPX-exportálással
+   - GPS-nyomvonalrögzítés GPX-támogatással
    - Műholdképek
    - Tömegközlekedés
-   - Közlekedéssel és balesettel kapcsolatos jelentések
-   - Fotók és vélemények
-   - Jobb térképrétegek a különböző tevékenységekhez
-   - Magassági árnyékolás és 3D terep
+   - Forgalmi és baleseti jelentések
+   - Képek és vélemények
+   - Jobb térképtémák a különböző tevékenységekhez
+   - Domborzatárnyékolás és 3D terep
    - Fejlettebb OpenStreetMap szerkesztő
    - Jobb offline címkeresés, útvonaltervezés és navigáció
-   - ... és [sok más][github issues] funkciót, amiket kedvel és szeretne
+   - … és még [sok más][github issues] funkciót, amit ismer és szeretne
 
 ## Hogyan adományozhat?
 
@@ -81,7 +81,7 @@ Fontolja meg az éves adományozást, hogy csökkentse a teljes díjat.
 
 ## Tud más módon is segíteni nekünk?
 
-Igen! Sokféleképpen lehet támogatni az Organic Maps fejlesztését. További
-részletekért tekintse meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
+Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért
+tekintse meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
 
 {{ references() }}

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन'
 ---
 
-**Organic Maps** (ऑर्गनिक मॅप्स) हे एक अँड्रॉईड व iOS वर चालणारे ऑफलाईन नकाशांचे निःशुल्क अॅप आहे जे जनयोगदानातून तयार केलेल्या **[OpenStreetMap(ओपन स्ट्रीट मॅप)][openstreetmap]** च्या डेटा वर आधारीत आहे.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 

@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-07 17:17+0000\nLast-Translator: Priit Jõerüüt <hwlate@joeruut.com>\nLanguage-Team: Estonian <https://hosted.weblate.org/projects/organicmaps/website/et/>\nLanguage: et\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/organicmaps/website/et/>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,10 +36,8 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "**Organic Maps** on vaba ja tasuta Androidi ja iOSi võrguvaba kaardirakendus reisijatele, turistidele, matkajatele, autojuhtidele ja jalgratturitele, mis põhineb kogukonna poolt loodud **[OpenStreetMapi][openstreetmap]** andmetel.\nTegemist on privaatsuskeskse ja avatud lähtekoodil põhineva [versiooniga][fork] **Maps.me** rakendusest (varasema nimega [**MapsWithMe**][mapswithme]) ning seda arendab ja haldab sama seltskond, kes **MapsWithMe** algselt 2011. aastal tegi.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
+msgstr ""
 
 #. type: Plain text
 #: content/_index.md
@@ -40,8 +47,9 @@ msgstr "**Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mill
 
 #. type: Plain text
 #: content/_index.md
-#, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, fuzzy, no-wrap
+#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr "> 2023. aastal jõudis Organic Maps [miljoni kasutajani](@/news/2023-12-23/281/index.md). [Aita meil](@/donate/index.md) veelgi kasvada!\n"
 
 #. type: Title ###
@@ -345,7 +353,49 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Otsingu ja kirjatüüpide parendusprojekiti</a> <a href=\"https://nlnet.nl/project/OrganicMaps/\">rahastas</a> NGI0 Entrust Fund. <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> on loodud <a href=\"https://nlnet.nl/\">NLnet Foundationi</a> poolt Euroopa Komisjoni rahalisel toel <a href=\"https://www.ngi.eu/\">Next Generation Internet programme'i</a> alusel, Sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all uurimistoetuse nr 101069594 põhjal.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> toetas viie üliõpilase osalemist Google Summer of Code programmis aastatel <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> ja <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Märkimisväärsel projektid olid Android Auto liidestus ja Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      Internetiteenusepakkuja <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">tagab meile</a> kaks virtuaalserverit koos 400 TB/kuus tasuta ribalaiusega kaartide ja uuenduste säilitamiseks ja levitamiseks.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> <a href=\"https://44plus.vn/organicmaps\">tagab meile </a>tasuta serveri väärtusega $12,000/aastas  tööks Vietnamis ja Kagu-Aasias.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> kinnitas Organic Mapsile veebruaris 2023 <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">$1000 mikrotoetuse</a>.\n    </td>\n  </tr>\n</table>\n"
+msgstr ""
+"<table style=\"border-spacing: 20px\">\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Otsingu ja kirjatüüpide parendusprojekiti</a> <a href=\"https://nlnet.nl/project/OrganicMaps/\">rahastas</a> NGI0 Entrust Fund. <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> on loodud <a href=\"https://nlnet.nl/\">NLnet Foundationi</a> poolt Euroopa Komisjoni rahalisel toel <a href=\"https://www.ngi.eu/\">Next Generation Internet programme'i</a> alusel, Sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all uurimistoetuse nr 101069594 põhjal.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> toetas viie üliõpilase osalemist Google Summer of Code programmis aastatel <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> ja <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Märkimisväärsel projektid olid Android Auto liidestus ja Wikipedia Dump Extractor.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      Internetiteenusepakkuja <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">tagab meile</a> kaks virtuaalserverit koos 400 TB/kuus tasuta ribalaiusega kaartide ja uuenduste säilitamiseks ja levitamiseks.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://44plus.vn\">44+ Technologies</a> <a href=\"https://44plus.vn/organicmaps\">tagab meile </a>tasuta serveri väärtusega $12,000/aastas  tööks Vietnamis ja Kagu-Aasias.\n"
+"    </td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n"
+"    </td>\n"
+"    <td>\n"
+"      <a href=\"https://futo.org\">FUTO</a> kinnitas Organic Mapsile veebruaris 2023 <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">$1000 mikrotoetuse</a>.\n"
+"    </td>\n"
+"  </tr>\n"
+"</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -949,6 +999,14 @@ msgstr "Nimi"
 #, no-wrap
 msgid "Token"
 msgstr "Tunnusluba"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr ""
+#~ "**Organic Maps** on vaba ja tasuta Androidi ja iOSi võrguvaba kaardirakendus reisijatele, turistidele, matkajatele, autojuhtidele ja jalgratturitele, mis põhineb kogukonna poolt loodud **[OpenStreetMapi][openstreetmap]** andmetel.\n"
+#~ "Tegemist on privaatsuskeskse ja avatud lähtekoodil põhineva [versiooniga][fork] **Maps.me** rakendusest (varasema nimega [**MapsWithMe**][mapswithme]) ning seda arendab ja haldab sama seltskond, kes **MapsWithMe** algselt 2011. aastal tegi.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

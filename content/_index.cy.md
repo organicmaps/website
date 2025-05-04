@@ -7,12 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
 ---
 
-Mae **Organic Maps** yn ap am ddim ar gyfer Android ac iOS gyda mapiau all-lein ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr ar sail data cyfraniad torfol **[OpenStreetMap][openstreetmap]**..
-Mae'n [fforc][fork] cod agored a phreifat o'r ap **Maps.me** ([**MapsWithMe**][mapswithme] cyn hynny), a chynhelir gan yr union bobl sydd wedi creu **MapsWithMe** yn 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosodwch Organic Maps, lawrlwythwch mapiau, a chael gwared ar eich cerdyn SIM , a chewch fynd ar drip am wythnos heb angen gwefru eich ffôn, a heb ddanfon beit i'r rhwydwaith.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 

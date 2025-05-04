@@ -18,21 +18,21 @@ terjesztésre, MINDEN KIFEJEZETT, vagy hallgatólagos JÓTÁMOGATÁS ÉS
 FELTÉTELEK NÉLKÜL. A Licenc szerinti engedélyekre és korlátozásokra
 vonatkozó konkrét nyelvezetet lásd a Licencben.
 
-A [GitHub][github] következő könyvtáraiban található könyvtárak többsége más
-emberek és szervezetek által készített és különböző módon engedélyezett:
+A [GitHub][github] következő tárhelyeiben található könyvtárak többségét más
+emberek és szervezetek készítették, és különböző módon vannak licencelve:
 
 - Harmadik fél
 - eszközök
 
-A felhasználási feltételeket megtekintheti a LICENSE, COPYING vagy NOTICE
+A felhasználási feltételek megtalálhatók a LICENSE, COPYING vagy NOTICE
 fájlokban.
 
 Tekintse meg a [data/copyright.html][copyright] fájlt az Organic Maps
 alkalmazás szerzői jogi közleményeinek teljes listájáért.
 
 Ha bármilyen kérdése vagy javaslata van, lépjen kapcsolatba velünk a
-[legal@organicmaps.app](mailto:legal@organicmaps.app) címen.
+[legal@organicmaps.app](mailto:legal@organicmaps.app) e-mail-címen.
 
 [github]: https://github.com/organicmaps/organicmaps
 [licenc]: http://www.apache.org/licenses/LICENSE-2.0
-[szerzői jogok]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[szerzői jogok (copyright)]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako'
 ---
 
-**Organic Maps** Android & iOS-erako offline-mapen app bat da, bidaiari, turista, mendizale eta txirrindularientzat, auzolanean sortutako **[OpenStreetMap][openstreetmap]** datuetan oinarrituta. Aurrez ezaguna zen **Maps.me** app-aren kode-irekiko eta pribazitate helburu duen [fork][fork] bat da (lehenago [**MapsWithMe**][mapswithme] izenarekin ezaguna), 2011an **MapsWithMe** app-a sortu zuten pertsona berdinek mantenduta.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** da konexiorik gabe %100-ean funtzionatzen duen aplikazio gutxietako bat. Instalatu Organic Maps, deskargatu mapak eta bota zaborretara zure SIM txartela (bide batez, zure telefono konpainiak uneoro jarraipena egiten dizu), eta joan asteroko ibilaldira bateria karga batekin eta sarera byte bakarra ere bidali gabe.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 

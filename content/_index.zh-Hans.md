@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 ---
 
-**Organic Maps** 是一个免费的安卓和iOS平台离线地图应用程序，为旅行者、游客、徒步旅行者和骑行者提供基于**[OpenStreetMap][openstreetmap]** 的众源数据。它是**Maps.me** 应用程序（以前称为[**MapsWithMe**][mapswithme]，由2011年创建**MapsWithMe** 的同一个人维护）的一个开源且注重隐私的[分支][fork]。
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery] 下载并安装Organic Maps {#install}
 

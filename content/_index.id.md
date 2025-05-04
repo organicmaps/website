@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring'
 ---
 
-**Organic Maps** adalah aplikasi peta luring Android & iOS gratis untuk pelancong, turis, pejalan kaki, dan pesepeda yang berbasis di atas data **[OpenStreetMap][openstreetmap]** yang bersumber dari orang-orang. Ini adalah [modifikasi][fork] sumber terbuka yang berfokus pada privasi dari aplikasi **Maps.me** (sebelumnya dikenal sebagai [**MapsWithMe**][mapswithme]), dikelola oleh orang yang sama yang menciptakan **MapsWithMe** pada tahun 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM Anda (ngomong-ngomong, operator Anda terus melacak Anda), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
 
-> Di tahun 2023, Organic Maps [mendapatkan sejuta](@/news/2023-12-23/281/index.md) pengguna pertama. [Bantu kami](@/donate/index.md) supaya kami dapat berkembang!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

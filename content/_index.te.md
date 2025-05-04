@@ -7,11 +7,11 @@ sort_by: weight
 title: 'ఆర్గానిక్ మ్యాప్స్: ఆఫ్‌లైన్ హైక్, బైక్, ట్రైల్స్ మరియు నావిగేషన్'
 ---
 
-**ఓర్గానిక్ మ్యాప్స్** అనేది ప్రయాణికులు, పర్యాటకులు, హైకర్లు మరియు సైక్లిస్ట్‌ల కోసం ఒక ఉచిత Android & iOS ఆఫ్‌లైన్ మ్యాప్‌ల యాప్. ఇది క్రౌడ్ సోర్స్డ్ **[OpenStreetMap][openstreetmap]** డేటా ఆధారంగా ఉంటుంది. **Maps.me** యాప్ (గతంలో [**MapsWithMe**][mapswithme]గా పిలువబడేది) గోప్యత-కేంద్రీకృత, ఓపెన్-సోర్స్ గా [ఫోర్క్]ఉంటూ, 2011లో **MapsWithMe** సృష్టించిన వారిచే నిర్వహించబడుతుంది.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 ఈరోజుల్లో  ఇంటర్నెట్ కనెక్షన్ లేకుండా 100% లక్షణాలను మద్దతు చేసే ఏకైక  అప్లికేషన్ ఒక్క  ఓర్గానిక్ మ్యాప్స్  మాత్రమే. ఓర్గానిక్ మ్యాప్స్ ఇన్స్టాల్ చేసి, మ్యాప్లను డౌన్‌లోడ్ చేస్కోని మీ సిమ్ కార్డును విసిరేయండి  ( మీ ఆపరేటర్ నిరంతరం మిమ్మల్ని ఎలానో  ట్రాక్ చేస్తుంది అనుకోండి ).ఇప్పుడు ఒక్క బైట్ కూడా నెట్వర్క్ కి పంపకుండా సింగల్ బాటరీ ఛార్జింగ్ తో  వారంపాటు విహారయాత్రకు  నిచ్చతింగా వెళ్లి రండి.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] నుండి ఓర్గానిక్ మ్యాప్స్ ను డౌన్‌లోడ్ చేసి ఇన్‌స్టాల్ చేయండి. {#install}
 

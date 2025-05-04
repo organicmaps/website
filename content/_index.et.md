@@ -7,12 +7,11 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-**Organic Maps** on vaba ja tasuta Androidi ja iOSi võrguvaba kaardirakendus reisijatele, turistidele, matkajatele, autojuhtidele ja jalgratturitele, mis põhineb kogukonna poolt loodud **[OpenStreetMapi][openstreetmap]** andmetel.
-Tegemist on privaatsuskeskse ja avatud lähtekoodil põhineva [versiooniga][fork] **Maps.me** rakendusest (varasema nimega [**MapsWithMe**][mapswithme]) ning seda arendab ja haldab sama seltskond, kes **MapsWithMe** algselt 2011. aastal tegi.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mille 100% funktsionaalsustest toimivad ilma internetiühenduseta. Paigalda nutiseadmesse Organic Maps, laadi alla vajalikud kaardid, jäta SIM-kaart laualaekasse ja mine nädalapikkusele reisile, mil piisab ühest aku laadimiskorrast ja ühtegi baiti ei saadeta võrgu suunas.
 
-> 2023. aastal jõudis Organic Maps [miljoni kasutajani](@/news/2023-12-23/281/index.md). [Aita meil](@/donate/index.md) veelgi kasvada!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

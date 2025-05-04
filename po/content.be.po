@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-03 23:07+0000\nLast-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,10 +36,8 @@ msgstr "Organic Maps: афлайн-карты і навігацыя для па�
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "**Organic Maps** - бясплатныя афлайн-карты для падарожнікаў, турыстаў, кіроўцаў і веласіпедыстаў, якія грунтуюцца на даных супольнасці **[OpenStreetMap][openstreetmap]**. Гэтая праграма з адкрытым зыходным кодам для iOS і Android з'яўляецца [форкам][fork] **Maps.Me** (ранейшая назва [**MapsWithMe**][mapswithme]), яна распрацоўваецца тымі ж людзьмі, што стваралі **MapsWithMe** ў 2011 годзе.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
+msgstr ""
 
 #. type: Plain text
 #: content/_index.md
@@ -41,7 +48,7 @@ msgstr ""
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr ""
 
 #. type: Title ###
@@ -949,6 +956,12 @@ msgstr "Назва"
 #, no-wrap
 msgid "Token"
 msgstr "токен"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr "**Organic Maps** - бясплатныя афлайн-карты для падарожнікаў, турыстаў, кіроўцаў і веласіпедыстаў, якія грунтуюцца на даных супольнасці **[OpenStreetMap][openstreetmap]**. Гэтая праграма з адкрытым зыходным кодам для iOS і Android з'яўляецца [форкам][fork] **Maps.Me** (ранейшая назва [**MapsWithMe**][mapswithme]), яна распрацоўваецца тымі ж людзьмі, што стваралі **MapsWithMe** ў 2011 годзе.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

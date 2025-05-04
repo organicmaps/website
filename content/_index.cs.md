@@ -7,12 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace'
 ---
 
-**Organic Maps** je bezplatná offline mapová aplikace pro systémy Android a iOS pro cestovatele, turisty, výletníky a cyklisty založená na datech **[OpenStreetMap][openstreetmap]**.
-Jedná se o open-source [odnož][fork] aplikace **Maps.me** (dříve známé jako [**MapsWithMe**][mapswithme]) zaměřenou na ochranu soukromí, kterou spravují stejní lidé, kteří **MapsWithMe** v roce 2011 vytvořili.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
 
-> V roce 2023 získaly Organic Maps [první milion](@/news/2023-12-23/281/index.md) uživatelů. [Pomozte nám](@/donate/index.md) dále růst!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}
 

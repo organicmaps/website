@@ -7,12 +7,11 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-Το **Organic Maps** είναι μια δωρεάν εφαρμογή χαρτών Android & iOS χωρίς σύνδεση για ταξιδιώτες, τουρίστες, πεζοπόρους, οδηγούς και ποδηλάτες που βασίζεται σε δεδομένα **[OpenStreetMap][openstreetmap]** που δημιουργήθηκαν από την κοινότητα.
-Πρόκειται για ένα [fork][fork][διακλάδωση] ανοιχτού κώδικα της εφαρμογής **Maps.me** (παλαιότερα γνωστή ως [**MapsWithMe**][mapswithme]), που συντηρείται από τους ίδιους ανθρώπους που δημιούργησαν το **MapsWithMe** το 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Οι Organic Maps** είναι μία από τις λίγες εφαρμογές που υποστηρίζουν το 100% των λειτουργιών χωρίς ενεργή σύνδεση στο Διαδίκτυο. Εγκαταστήστε τους Organic Maps, κατεβάστε χάρτες, πετάξτε την κάρτα SIM και κάντε ένα ταξίδι μιας εβδομάδας με μία μόνο φόρτιση της μπαταρίας, χωρίς να στείλετε κανένα byte στο δίκτυο.
 
-> Το 2023, οι Organic Maps [απέκτησαν το πρώτο τους εκατομμύριο](@/news/2023-12-23/281/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Κατεβάστε και εγκαταστήστε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

@@ -4,7 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-05 23:58+0000\nLast-Translator: Pèire Bréchet <oxytanistzero@tutanota.com>\nLanguage-Team: Occitan <https://hosted.weblate.org/projects/organicmaps/website/oc/>\nLanguage: oc\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.10.3-dev\n"
+msgstr ""
+"Project-Id-Version: Organic Maps Website 1.0\n"
+"Last-Translator: Pèire Bréchet <oxytanistzero@tutanota.com>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/organicmaps/website/oc/>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -27,10 +36,8 @@ msgstr "De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e per
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid ""
-"**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
-"It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr "**Mapas Organicas** es una aplicacion de mapas a gratis sensa connexion per Android e iOS destinada ai viatgaires, toristas, caminaires d’escorregudas e ciclistas, basada sus lei donadas d’**[OpenStreetMap][openstreetmap]**. Es una [bifurcacion][fork] centrada sus la privadesa de **Maps.me** (ancianament conegut per [**MapsWithMe**][mapswithme]), e mantenguda per lei meteissas personas que crearàn **MapsWithMe** en 2011.\n"
+msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
+msgstr ""
 
 #. type: Plain text
 #: content/_index.md
@@ -41,7 +48,7 @@ msgstr "N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas**
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
-msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
 msgstr ""
 
 #. type: Title ###
@@ -949,6 +956,12 @@ msgstr "Nom"
 #, no-wrap
 msgid "Token"
 msgstr "geton"
+
+#, no-wrap
+#~ msgid ""
+#~ "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
+#~ "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
+#~ msgstr "**Mapas Organicas** es una aplicacion de mapas a gratis sensa connexion per Android e iOS destinada ai viatgaires, toristas, caminaires d’escorregudas e ciclistas, basada sus lei donadas d’**[OpenStreetMap][openstreetmap]**. Es una [bifurcacion][fork] centrada sus la privadesa de **Maps.me** (ancianament conegut per [**MapsWithMe**][mapswithme]), e mantenguda per lei meteissas personas que crearàn **MapsWithMe** en 2011.\n"
 
 #, no-wrap
 #~ msgid "Our sponsors:"

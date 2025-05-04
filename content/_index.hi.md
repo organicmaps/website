@@ -7,11 +7,11 @@ sort_by: weight
 title: 'ऑर्गेनिक नक़्शे: ऑफ़लाइन सैर, बाइकिंग, रास्ते, और दिशाएं'
 ---
 
-**ऑर्गेनिक मैप्स**[OpenStreetMap][openstreetmap]** डेटा के शीर्ष पर आधारित यात्रियों, पर्यटकों, हाइकर्स और साइकिल चालकों के लिए एक मुफ़्त Android और iOS ऑफ़लाइन मैप्स ऐप है। यह **Maps.me** ऐप (जिसे पहले [**MapsWithMe**][mapswithme] के नाम से जाना जाता था) का एक गोपनीयता-केंद्रित, खुला-स्रोत [fork][fork] है, जिसकी देखरेख वही लोग करते हैं जिन्होंने **MapsWithMe बनाया था ** 2011 में।
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **ऑर्गेनिक मैप्स** आजकल के कुछ एप्लिकेशन में से एक है जो सक्रिय इंटरनेट कनेक्शन के बिना 100% सुविधाओं का समर्थन करता है। ऑर्गेनिक मैप्स इंस्टॉल करें, मैप्स डाउनलोड करें, अपना सिम कार्ड फेंक दें (वैसे, आपका ऑपरेटर आपको लगातार ट्रैक करता है), और नेटवर्क पर कुछ भी भेजे बिना सिर्फ एक बैटरी चार्ज पर साप्ताहिक यात्रा के लिए जाएं।
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] से ऑर्गेनिक मानचित्र डाउनलोड और इंस्टॉल करें {#install}
 

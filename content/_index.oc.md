@@ -7,11 +7,11 @@ sort_by: weight
 title: 'De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha'
 ---
 
-**Mapas Organicas** es una aplicacion de mapas a gratis sensa connexion per Android e iOS destinada ai viatgaires, toristas, caminaires d’escorregudas e ciclistas, basada sus lei donadas d’**[OpenStreetMap][openstreetmap]**. Es una [bifurcacion][fork] centrada sus la privadesa de **Maps.me** (ancianament conegut per [**MapsWithMe**][mapswithme]), e mantenguda per lei meteissas personas que crearàn **MapsWithMe** en 2011.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que foncionan entierament sensa la connexion a Internet activa. Installatz Mapas Organicas, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

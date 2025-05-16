@@ -5,3 +5,4 @@ public
 translations.yaml
 .idea/*
 .vscode/settings.json
+*.mo

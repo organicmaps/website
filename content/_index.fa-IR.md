@@ -1,5 +1,5 @@
 ---
-title: "Organic Maps: مسیرهای پیاده‌روی، دوچرخه‌سواری، پیاده‌روی در طبیعت و ناوبری آفلاین"
+title: "Organic Maps: مسیرهای پیاده‌روی، دوچرخه‌سواری، پیاده‌روی در طبیعت و مسیریابی آفلاین"
 description: نقشه‌های سریع و دقیق آفلاین برای مسافران، گردشگران، رانندگان، کوهنوردان و دوچرخه‌سواران که توسط بنیان‌گذاران برنامه MapsWithMe (Maps.Me) ایجاد شده‌اند.
 page_template: index.html
 sort_by: weight
@@ -23,7 +23,7 @@ extra:
 
 {{ screenshot(src='/images/screenshots/search.jpg', alt='جستجوی آفلاین') }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='ناوبری در حالت تیره') }}
+{{ screenshot(src='/images/screenshots/dark.jpg', alt='مسیریابی در حالت تیره') }}
 
 ## قابلیت‌ها
 

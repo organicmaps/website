@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/organicmaps/website/et/>\n"
-"Language: et\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-25 23:18+0000\nLast-Translator: Priit Jõerüüt <hwlate@joeruut.com>\nLanguage-Team: Estonian <https://hosted.weblate.org/projects/organicmaps/website/et/>\nLanguage: et\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** on privaatsuskeskne võrguühendust mittevajav kaardirakendus ja GPS-i asukoha kuvaja matkamise, rattasõidu ja autosõidu jaoks. Saadavalt tasuta ning õiguslikult vaba. Pole reklaame ega jälitamist. Arendatud armastusega avatud lähtekoodi kasutava kogukonna poolt. Kaardiandmed on pärit [OpenStreetMapi][openstreetmap] andmekogust.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -47,10 +38,9 @@ msgstr "**Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mill
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> 2023. aastal jõudis Organic Maps [miljoni kasutajani](@/news/2023-12-23/281/index.md). [Aita meil](@/donate/index.md) veelgi kasvada!\n"
+msgstr "> 2024. aastal jõudis Organic Maps [miljoni kolme miljoni paigalduseni](@/news/2024-12-20/411/index.m). [Aita meil](@/donate/index.md) veelgi kasvada!\n"
 
 #. type: Title ###
 #: content/_index.md

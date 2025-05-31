@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Slovenian <https://hosted.weblate.org/projects/organicmaps/website/sl/>\nLanguage: sl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-25 23:18+0000\nLast-Translator: Janez Troha <dz0ny@ubuntu.si>\nLanguage-Team: Slovenian <https://hosted.weblate.org/projects/organicmaps/website/sl/>\nLanguage: sl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "Hitre, podrobne in navoljo brez povezave; karte za popotnike, turiste, voznike, pohodnike in kolesarje, ki so jih ustvarili ustanovitelji aplikacije MapsWithMe (Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -30,13 +30,13 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr ""
+msgstr "Organic Maps je brezplačna aplikacija za brezžične karte za Android in iOS za popotnike, turiste, pohodnike, voznike in kolesarje, ki temelji na podatkih [OpenStreetMap][openstreetmap], ki jih je ustvarila skupnost.\nGre za na zasebnost osredotočeno, odprtokodno [fork][fork] aplikacije Maps.me (prej znane kot [MapsWithMe][mapswithme]), ki jo vzdržujejo isti ljudje, ki so leta 2011 ustvarili MapsWithMe.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**Organic Maps** je ena redkih aplikacij dandanes, ki podpira 100% funkcionalnosti brez aktivne internetne povezave. Namestite Organic Maps, prenesite karte, zavrzite svojo SIM kartico in pojdite na tedenska potovanja z enim polnjenjem baterije, brez poslane katerekoli množice podatkov v omrežje.\n"
 
 #. type: Plain text
 #: content/_index.md

@@ -224,6 +224,28 @@ taxonomies = [
   {name = "faq", feed = false},
   {name = "news", feed = true},
 ]
+[languages.fa-IR.translations]
+address = "نشانی"
+back = "بازگشت به اخبار"
+contact = "تماس با ما"
+edit-on-github = "ویرایش در گیت‌هاب"
+engines = "موتورهای TTS پشتیبانی‌شده"
+faq-menu-title = "سوالات متداول"
+go-to-top = "رفتن به بال"
+install-appgallery = "نصب Organic Maps از Huawei AppGallery"
+install-appstore = "نصب Organic Maps از AppStore"
+install-googleplay = "نصب Organic Maps از Google Play"
+install-fdroid = "نصب Organic Maps از F-Droid"
+language = "فارسی"
+language-word = "زبان"
+more-info-om = "برای اطلاعات بیشتر لطفا به وبگاه ما مراجعه کنید"
+name = "نام"
+token = "توکن"
+[languages.fa-IR]
+taxonomies = [
+  {name = "faq", feed = false},
+  {name = "news", feed = true},
+]
 [languages.fr.translations]
 address = "Adresse"
 back = "Retour aux actualités"

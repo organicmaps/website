@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Dan <jonweblin2205@protonmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/organicmaps/website/uk/>\n"
-"Language: uk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-27 00:34+0000\nLast-Translator: Dan <jonweblin2205@protonmail.com>\nLanguage-Team: Ukrainian <https://hosted.weblate.org/projects/organicmaps/website/uk/>\nLanguage: uk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps: Офлайн карти та GPS навігація"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** — це орієнтовані на приватність автономні мапи та GPS-застосунок для піших прогулянок, велоспорту, велопрогулянок та водіння автомобіля. Абсолютно безплатно. Без реклами. Ніякого відстеження. Розроблено з любов'ю спільнотою з відкритим вихідним кодом. Працює на основі даних [OpenStreetMap] [openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -47,10 +38,9 @@ msgstr "**Organic Maps** - один з небагатьох застосункі
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> У 2023, Organic Maps [отримав свій перший мільйон](@/news/2023-12-23/281/index.md) користувачів. [Допоможіть нам](@/donate/index.md) розвиватися далі!\n"
+msgstr "> У грудні 2024, Organic Maps [досягнув 3 млн встановлень](@/news/2024-12-20/411/index.md) користувачами. [Допоможіть нам](@/donate/index.md) розвиватися далі!\n"
 
 #. type: Title ###
 #: content/_index.md

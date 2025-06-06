@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-02 08:01+0000\nLast-Translator: Piotr Strebski <strebski@gmail.com>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-03 08:05+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -415,7 +415,7 @@ msgstr "Śledź nasze aktualizacje na [FOSStodonie][fosstodon], [Mastodonie][mas
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr ""
+msgstr "Dołącz (lub stwórz własną i daj nam znać) do lokalnych społeczności: [węgierski pokój Matrix](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), czaty Telegram dla osób mówiących po [chińsku][telegram_chat_zh], [francusku][telegram_chat_fr], [rosyjsku][telegram_chat_ru], [turecku][telegram_chat_tr]."
 
 #. type: Link reference
 #: content/_index.md
@@ -521,7 +521,7 @@ msgstr "Mając wystarczająco dużo pieniędzy, można na przykład szybciej roz
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr ""
+msgstr "Tworzenie kopii zapasowych i synchronizacja zakładek oraz tras"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -541,7 +541,7 @@ msgstr "Transport publiczny"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Traffic and accident reporting"
-msgstr ""
+msgstr "Raportowanie ruchu drogowego i wypadków"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md

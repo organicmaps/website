@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Maschga <delphi@freenet.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-27 00:34+0000\nLast-Translator: MaggusK <aspams@magg4u.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/organicmaps/website/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** ist eine datenschutzfreundliche Offline-Karten- und GPS-App zum Wandern, Radfahren und Autofahren. Absolut kostenlos. Keine Werbung. Kein Tracking. Von der Open-Source-Community mit Liebe entwickelt. Unterstützt durch [OpenStreetMap][openstreetmap]-Daten.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -47,10 +38,9 @@ msgstr "**Organic Maps** ist heutzutage eine der wenigen Apps, die 100% ihrer Fu
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> Im Jahr 2023 erreichte Organic Maps [seine ersten Million](@/news/2023-12-23/281/index.md) Nutzer. [Hilf uns](@/donate/index.md), zu skalieren!\n"
+msgstr "> Im Dezember 2024 erreichte Organic Maps [drei Millionen Installationen](@/news/2024-12-20/411/index.md). [Hilf uns](@/donate/index.md), zu wachsen!\n"
 
 #. type: Title ###
 #: content/_index.md

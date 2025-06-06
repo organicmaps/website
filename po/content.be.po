@@ -4,22 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\n"
-"Language: be\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-06 17:07+0000\nLast-Translator: Drugi Sapog <dindrugi@users.noreply.hosted.weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr "Хуткія, падрабязныя афлайн карты для падарожнікаў, турыстаў, кіроўцаў і веласіпедыстаў, створаныя заснавальнікамі праграмы MapsWithMe (пазней перайменаванай у Maps.Me)."
+msgstr "Хуткія, падрабязныя афлайн-карты для падарожнікаў, турыстаў, кіроўцаў і веласіпедыстаў, створаныя заснавальнікамі праграмы MapsWithMe (пазней перайменаванай у Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -446,7 +437,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr "Ахвяраваць"
+msgstr "Падтрымаць грашыма"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -467,12 +458,12 @@ msgstr ""
 #. type: Bullet: '- '
 #: content/donate/index.md
 msgid "No registration"
-msgstr "Рэгістрацыя"
+msgstr "Без рэгістрацыі"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
 msgid "Open source"
-msgstr "адкрыты код"
+msgstr "Адкрыты зыходны код"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -544,7 +535,7 @@ msgstr ""
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Public Transport"
-msgstr "Public Transport"
+msgstr "Грамадскі транспарт"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -702,7 +693,7 @@ msgstr ""
 #: content/contribute/index.md
 #, no-wrap
 msgid "Contribute"
-msgstr "Унесці уклад"
+msgstr "Зрабіць унёсак"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/contribute/index.md
@@ -789,7 +780,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "Terms of use for Organic Maps application"
-msgstr ""
+msgstr "Умовы выкарыстання праграмы Organic Maps"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/terms/index.md
@@ -801,7 +792,7 @@ msgstr "Умовы"
 #: content/terms/index.md
 #, no-wrap
 msgid "Organic Maps: terms"
-msgstr ""
+msgstr "Organic Maps: умовы выкарыстання"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -847,7 +838,7 @@ msgstr ""
 #: content/terms/index.md
 #, no-wrap
 msgid "[github]: https://github.com/organicmaps/organicmaps"
-msgstr "https://github.com/organicmaps/organicmaps/issues"
+msgstr "[github]: https://github.com/organicmaps/organicmaps"
 
 #. type: Link reference
 #: content/terms/index.md
@@ -871,31 +862,31 @@ msgstr "Адрас"
 #: translations.yaml
 #, no-wrap
 msgid "Back to News"
-msgstr ""
+msgstr "Вярнуцца да навін"
 
 #. type: Hash Value: contact
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr "Звязацца з намі"
+msgstr "Кантакты"
 
 #. type: Hash Value: edit-on-github
 #: translations.yaml
 #, no-wrap
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Рэдагаваць на GitHub"
 
 #. type: Hash Value: engines
 #: translations.yaml
 #, no-wrap
 msgid "Supported TTS Engines"
-msgstr ""
+msgstr "Падрымліваюцца сінтэзатары маўлення"
 
 #. type: Hash Value: faq-menu-title
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
-msgstr ""
+msgstr "Частыя пытанні"
 
 #. type: Hash Value: go-to-top
 #: translations.yaml
@@ -907,25 +898,25 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Huawei AppGallery"
-msgstr ""
+msgstr "Усталяваць Organic Maps з Huawei AppGallery"
 
 #. type: Hash Value: install-appstore
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from the AppStore"
-msgstr ""
+msgstr "Усталяваць Organic Maps з AppStore"
 
 #. type: Hash Value: install-fdroid
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from F-Droid"
-msgstr ""
+msgstr "Усталяваць Organic Maps з F-Droid"
 
 #. type: Hash Value: install-googleplay
 #: translations.yaml
 #, no-wrap
 msgid "Install Organic Maps from Google Play"
-msgstr ""
+msgstr "Усталяваць Organic Maps з Google Play"
 
 #. type: Hash Value: language
 #: translations.yaml
@@ -943,7 +934,7 @@ msgstr "Мова"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Каб даведацца больш, наведайце наш вэб-сайт"
 
 #. type: Hash Value: name
 #: translations.yaml
@@ -955,7 +946,7 @@ msgstr "Назва"
 #: translations.yaml
 #, no-wrap
 msgid "Token"
-msgstr "токен"
+msgstr "Токен"
 
 #, no-wrap
 #~ msgid ""

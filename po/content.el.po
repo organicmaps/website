@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: GiannosOB <giannos2105@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/organicmaps/website/el/>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-02 08:01+0000\nLast-Translator: Christos Sidiropoulos <dev@csidirop.de>\nLanguage-Team: Greek <https://hosted.weblate.org/projects/organicmaps/website/el/>\nLanguage: el\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "Το **Organic Maps** είναι μια εφαρμογή χαρτών και GPS χωρίς σύνδεση για ορειβασία, ποδηλασία, μοτοσυκλετισμός, ποδηλασία και οδήγηση. Απολύτως δωρεάν. Χωρίς διαφημίσεις. Χωρίς εντοπισμό. Αναπτύσσεται με αγάπη από την κοινότητα ανοιχτού κώδικα. Λειτουργεί με δεδομένα [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -47,10 +38,9 @@ msgstr "**Οι Organic Maps** είναι μία από τις λίγες εφα�
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> Το 2023, οι Organic Maps [απέκτησαν το πρώτο τους εκατομμύριο](@/news/2023-12-23/281/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!\n"
+msgstr "> Το Δεκέμβριο του 2024, οι Organic Maps [έφτασε 3M εγκαθιστά](@/news/2024-12-20/411/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -353,7 +343,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Το έργο βελτίωσης του Search & Fonts</a> έχει <a href=\"https://nlnet.nl/project/OrganicMaps/\">χρηματοδοτηθεί</a> μέσω του NGI0 Entrust Fund. Το <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> έχει συσταθεί από το <a href=\"https://nlnet.nl/\">NLnet Foundation</a> με την οικονομική υποστήριξη του προγράμματος <a href=\"https://www.ngi.eu/\">Next Generation Internet</a> της Ευρωπαϊκής Επιτροπής, υπό την αιγίδα της ΓΔ Επικοινωνιακά Δίκτυα, Περιεχόμενο και Τεχνολογία στο πλαίσιο της συμφωνίας επιχορήγησης αριθ. 101069594.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> υποστήριξε 5 έργα μαθητών στο πρόγραμμα Google Summer of Code κατά τη διάρκεια των προγραμμάτων <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> και <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Στα αξιοσημείωτα έργα περιλαμβάνονταν το Android Auto και το Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> ISP <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">μας παρέχει</a> δύο εικονικούς διακομιστές με 400 TB/μήνα δωρεάν εύρος ζώνης για τη φιλοξενία και την εξυπηρέτηση λήψεων και ενημερώσεων χαρτών.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> μας <a href=\"https://44plus.vn/organicmaps\">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών σε όλο το Βιετνάμ και τη Νοτιοανατολική Ασία.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a  href=\"https://futo.org\">FUTO</a> έχει <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">αποδώσει $1000 micro-grant</a> στους Organic Maps τον Φεβρουάριο του 2023.\n    </td>\n  </tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -430,7 +420,7 @@ msgstr "Γίνετε μέλη (ή δημιουργήστε και ενημερώ
 #: content/_index.md
 #, no-wrap
 msgid "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
-msgstr "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
+msgstr "[Παρακλάδι]: https://el.wikipedia.org/wiki/%CE%A0%CE%B1%CF%81%CE%B1%CE%BA%CE%BB%CE%AC%CE%B4%CE%B9_(%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%B9%CE%BA%CE%AE)"
 
 #. type: Plain text
 #: content/_index.md content/donate/index.md content/contribute/index.md
@@ -647,7 +637,7 @@ msgstr "Νέα"
 #: content/news/_index.md
 #, no-wrap
 msgid "Organic Maps: Latest news and updates from our team"
-msgstr "Organic Organic Maps: Τελευταία νέα και ενημερώσεις από την ομάδα μας"
+msgstr "Organic Maps: Τελευταία νέα και ενημερώσεις από την ομάδα μας"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/privacy/index.md

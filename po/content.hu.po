@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: summoner001 <summoner@vivaldi.net>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/organicmaps/website/hu/>\n"
-"Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-25 23:18+0000\nLast-Translator: summoner001 <summoner@vivaldi.net>\nLanguage-Team: Hungarian <https://hosted.weblate.org/projects/organicmaps/website/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,20 +28,19 @@ msgstr "Organic Maps: offline túrázás, kerékpározás, turistautak és navig
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség fejleszti és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr "**Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítse az Organic Maps-et, töltse le a térképeket, dobja el a SIM-kártyáját (máskülönben a szolgáltatója folyamatosan nyomon követi Önt), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül induljon el egy egyhetes útra.\n"
+msgstr "Az **Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítse az Organic Maps alkalmazást, töltse le a térképeket, dobja el a SIM-kártyáját (máskülönben a szolgáltatója folyamatosan nyomon követi Önt), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül induljon el egy egyhetes útra.\n"
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> 2023-ban az Organic Maps [elérte az első egymillió](@/news/2023-12-23/281/index.md) felhasználóját. [Segítsen](@/donate/index.md) a növekedésben!\n"
+msgstr "> 2024 decemberében az Organic Maps alkalmazást már [3 millió felhasználó](@/news/2024-12-20/411/index.md) telepítette. [Segítsen nekünk](@/donate/index.md) a további növekedésben!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -526,7 +516,7 @@ msgstr "Kattintson a kívánt fizetési mód ikonjára lentebb:"
 #: content/donate/index.md
 #, no-wrap
 msgid "Why donate to Organic Maps?"
-msgstr "Miért adományozzon az Organic Maps-nek?"
+msgstr "Miért adományozzon az Organic Maps számára?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
@@ -671,7 +661,7 @@ msgstr "Tud más módon is segíteni nekünk?"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Yes! There are many ways to support Organic Maps. Please see [Contribute](@/contribute/index.md) page for more details."
-msgstr "Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért tekintse meg a [Közreműködés](@/contribute/index.hu.md) oldalt."
+msgstr "Igen! Sokféleképpen lehet támogatni az Organic Maps fejlesztését. További részletekért tekintse meg a [Közreműködés](@/contribute/index.hu.md) oldalt."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/news/_index.md
@@ -826,7 +816,7 @@ msgstr "Bármilyen segítséget szívesen fogadunk!"
 #. type: Plain text
 #: content/contribute/index.md
 msgid "Our small team is very grateful for your feedback and support. Organic Maps would not be possible without our users ❤️."
-msgstr "Kis csapatunk nagyon hálás a visszajelzésekért és a támogatásért. Az Organic Maps nem lenne lehetséges a felhasználóink nélkül ❤️."
+msgstr "A kis csapatunk nagyon hálás a visszajelzésekért és a támogatásokért. Az Organic Maps nem működhetne a felhasználóink nélkül ❤️."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/terms/index.md

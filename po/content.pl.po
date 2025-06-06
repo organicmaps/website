@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Łukasz Soja <dominacja032@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\n"
-"Language: pl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-02 08:01+0000\nLast-Translator: Piotr Strebski <strebski@gmail.com>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps: wędrówki, jazda na rowerze, szlaki i nawigacja offline"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** to skupiona na prywatności aplikacja offline z mapami i GPS do wędrówek pieszych, jazdy na rowerze, jazdy na rowerze i jazdy samochodem. Całkowicie za darmo. Bez reklam. Bez śledzenia. Opracowana z miłością przez społeczność open-source. Obsługiwana przez dane [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -305,7 +296,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "Poniżej wymienieni drodzy sponsorzy instytucjonalni przekazali dotacje celowe na pokrycie części kosztów infrastruktury i na sfinansowanie rozwoju nowych wybranych funkcji:"
 
 #. type: Plain text
 #: content/_index.md

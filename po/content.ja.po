@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-03 23:07+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Japanese <https://hosted.weblate.org/projects/organicmaps/website/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-06 17:07+0000\nLast-Translator: KOIZUMI Satoru <koizumistr@minos.ocn.ne.jp>\nLanguage-Team: Japanese <https://hosted.weblate.org/projects/organicmaps/website/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "MapsWithMe (Maps.Me)アプリの創設者によって作成された旅行者、観光客、ドライバー、ハイカー、サイクリストのための高速詳細オフライン地図。"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -30,13 +30,13 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr ""
+msgstr "**OrganicMaps**は、コミュニティによって作成された**[OpenStreetMap][openstreetmap]**データに基づく、旅行者、観光客、ハイカー、ドライバー、サイクリストのための無料のAndroidおよびiOSオフライン地図アプリです。\nプライバシーに焦点を当てた、**Maps.me**アプリ（以前は[**MapsWithMe**][mapswithme]として知られていた）のオープンソース[フォーク][fork]であり、2011年に**MapsWithMe**を作成した同じ人々によって維持されています。\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr "**Organic Maps**はアクティブなインターネット接続なしで100％の機能をサポートする、今日では数少ないアプリケーションの1つです。Organic Mapsをインストールし、地図をダウンロードし、SIMカードを投げ捨てて、ネットワークにバイトを送信することなく1回の充電で1週間の旅行に出かけましょう。\n"
+msgstr "**Organic Maps**はアクティブなインターネット接続なしで100％の機能をサポートする、今日では数少ないアプリケーションの1つです。Organic Mapsをインストールし、地図をダウンロードし、SIMカードを投げ捨てて、ネットワークに1バイトも送信することなく1回の充電で1週間の旅行に出かけましょう。\n"
 
 #. type: Plain text
 #: content/_index.md

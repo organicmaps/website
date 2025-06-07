@@ -57,14 +57,17 @@ Organic Maps uygulaması izleyicilerden ve diğer kötü şeylerden arındırıl
 - Crapware yok
 - ~~Böcek ilacı yok~~ Tamamen organik!
 
-Uygulama <a href='https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/'>Exodus Gizlilik Projesi</a> tarafından doğrulandı:
-<br/>
-<img src='/images/privacy/exodus.png' width='400'>
+Uygulama [Exodus Gizlilik Projesi][exodus] tarafından doğrulandı:
+
+{{ exodus_screenshot() }}
+
+iOS uygulaması [iOS için TrackerControl][trackercontrol] tarafından doğrulanır:
+
+{{ trackercontrol_screenshot() }}
 
 Organic Maps sizi gözetlemek için aşırı izinler istemez:
 
-<img src='/images/privacy/om.jpg' width='400'>
-<img src='/images/privacy/mm.jpg' width='400'>
+{{ privacy_screenshots() }}
 
 Organic Maps'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
@@ -74,7 +77,7 @@ Organic Maps'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
 Gözetlenmeyi reddedin - özgürlüğünüzü kucaklayın.
 
-<a href="#install"><strong>Organic Maps'i deneyin!</strong></a>
+**[Organic Maps'i deneyin!](#install)**
 
 ## Uygulamanın ücretsiz kalması için kim ödeme yapıyor?
 

@@ -65,24 +65,27 @@ Sans trackers et autres mauvaises choses :
 - Pas de logiciels malveillants
 - N̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶ Entièrement bio
 
-Selon <a href='https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/'>Exodus Privacy Project</a> il n'y a aucun tracker et les autorisations requises sont minimales:
-<br/>
-<img src='/images/privacy/exodus.png' width='400'>
+Selon [Exodus Privacy Project][exodus] il n'y a aucun tracker et les autorisations requises sont minimales:
+
+{{ exodus_screenshot() }}
+
+L'application iOS est vérifiée par [TrackerControl pour iOS][trackercontrol] :
+
+{{ trackercontrol_screenshot() }}
 
 Organic Maps ne demande pas de permissions excessives pour vous espionner:
 
-<img src='/images/privacy/om.jpg' width='400'>
-<img src='/images/privacy/mm.jpg' width='400'>
+{{ privacy_screenshots() }}
 
 Chez Organic Maps, nous pensons que la <b>vie privée est un droit humain fondamental</b> :
 
-• Organic Maps est un projet indépendant open-source dirigé par la communauté.
-• Nous protégeons la vie privée des regards indiscrets des géants de la tech
-• Restez en sécurité, où que vous soyez
+- Organic Maps est un projet indépendant open-source dirigé par la communauté.
+- Nous protégeons la vie privée des regards indiscrets des géants de la tech
+- Restez en sécurité, où que vous soyez
 
 Rejeter la surveillance - embrasser votre liberté.
 
-<a href="#install"><strong>Essayez Organic Maps !</strong></a>
+**[Essayez Organic Maps !](#install)**
 
 ## Qui paie pour l'application gratuite ?
 

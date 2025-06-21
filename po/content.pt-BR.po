@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-08 22:01+0000\nLast-Translator: The Cats <philosoph@danwin1210.de>\nLanguage-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\nLanguage: pt-BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-18 20:04+0000\nLast-Translator: Thiago Hilario <thiagolm.hilario@gmail.com>\nLanguage-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\nLanguage: pt-BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.12.1\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr "Mapas offline rápidos e detalhados para viajantes, turistas, motoristas, caminhantes e ciclistas criados pelos fundadores do app MapsWithMe (Maps.Me)."
+msgstr "Mapas offline rápidos e detalhados para viajantes, turistas, motoristas, trilheiros e ciclistas criados pelos fundadores do app MapsWithMe (Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -82,7 +82,7 @@ msgstr "Recursos"
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:"
-msgstr "Organic Maps é o app companheiro ideal para viajantes, turistas, caminhantes e ciclistas:"
+msgstr "Organic Maps é o app companheiro ideal para viajantes, turistas, trilheiros e ciclistas:"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -112,7 +112,7 @@ msgstr "Busca rápida offline no mapa"
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Export/import bookmarks in KML/KMZ, import GPX"
-msgstr "Exportação e importação de marcadores nos formatos KML/KMZ, importação GPX"
+msgstr "Exporte/Importe marcadores nos formatos KML/KMZ, importação GPX"
 
 #. type: Bullet: '- '
 #: content/_index.md

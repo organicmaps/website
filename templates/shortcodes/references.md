@@ -1,3 +1,4 @@
+[accrescent]: https://accrescent.app/app/app.organicmaps "Organic Maps in Accrescent"
 [appgallery]: https://appgallery.huawei.com/#/app/C104325611?local={{ lang }} "{{ trans(key='install-appgallery', lang=lang) }}"
 [appgallery_review]: appmarket://details?id=app.organicmaps
 [appstore]: https://apps.apple.com/app/organic-maps/id1567437057 "{{ trans(key='install-appstore', lang=lang) }}"
@@ -50,3 +51,4 @@
 [translations_googleplay]: https://hosted.weblate.org/projects/organicmaps/fdroid-metadata/
 [translations_website]: https://hosted.weblate.org/projects/organicmaps/website/
 [twitter]: https://twitter.com/OrganicMapsApp
+[weblate]: https://hosted.weblate.org/projects/organicmaps/

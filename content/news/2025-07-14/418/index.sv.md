@@ -1,6 +1,6 @@
 ---
 title: "Bättre spåredigering och många förbättringar och korrigeringar i Organic Maps juli 2025-uppdatering"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Möt Organic Maps juli-uppdatering med många korrigeringar och förbättringar, tack vare våra bidragsgivare ❤️💪! Uppdateringen är redan tillgänglig i [AppStore][appstore], [Obtainium][obtainium] och [Accrescent][accrescent], och kommer att vara redo i [Google Play][googleplay], [Huawei AppGallery][appgallery], och [FDroid][fdroid] om några dagar.

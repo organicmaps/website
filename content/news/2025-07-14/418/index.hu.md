@@ -1,6 +1,6 @@
 ---
 title: "Jobb útvonal szerkesztés és számos fejlesztés és javítás az Organic Maps 2025. júliusi frissítésében"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Ismerkedj meg az Organic Maps júliusi frissítésével, amely számos javítást és fejlesztést tartalmaz, köszönhetően közreműködőinknek ❤️💪! A frissítés már elérhető az [AppStore][appstore]-ban, [Obtainium][obtainium]-ban és [Accrescent][accrescent]-ben, és néhány napon belül készen áll a [Google Play][googleplay]-ben, [Huawei AppGallery][appgallery]-ben és [FDroid][fdroid]-ban.

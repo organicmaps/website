@@ -1,6 +1,6 @@
 ---
 title: "Beter spoorwysiging en baie verbeterings en regstellings in Organic Maps Julie 2025 opdatering"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Ontmoet Organic Maps Julie-opdatering met baie regstellings en verbeterings, dankie aan ons bydraers ❤️💪! Die opdatering is reeds beskikbaar in die [AppStore][appstore], [Obtainium][obtainium] en [Accrescent][accrescent], en sal binne 'n paar dae gereed wees in [Google Play][googleplay], [Huawei AppGallery][appgallery], en [FDroid][fdroid].

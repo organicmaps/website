@@ -1,6 +1,6 @@
 ---
 title: "Gwell golygu traciau a llawer o welliannau a thrwsiadau yn y diweddariad Organic Maps Gorffennaf 2025"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Cyfarwyddwch â diweddariad Gorffennaf Organic Maps gyda llawer o drwsiadau a gwelliannau, diolch i'n cyfranwyr ❤️💪! Mae'r diweddariad eisoes ar gael yn yr [AppStore][appstore], [Obtainium][obtainium] ac [Accrescent][accrescent], a bydd yn barod yn [Google Play][googleplay], [Huawei AppGallery][appgallery], ac [FDroid][fdroid] mewn ychydig ddiwrnodau.

@@ -1,6 +1,6 @@
 ---
 title: "Geresnis maršrutų redagavimas ir daugybė patobulinimų bei pataisymų Organic Maps 2025 m. liepos atnaujinime"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Susipažinkite su Organic Maps liepos atnaujinimu su daugybe pataisymų ir patobulinimų, ačiū mūsų talkininkams ❤️💪! Atnaujinimas jau prieinamas [AppStore][appstore], [Obtainium][obtainium] ir [Accrescent][accrescent], ir bus paruoštas [Google Play][googleplay], [Huawei AppGallery][appgallery] ir [FDroid][fdroid] per kelias dienas.

@@ -1,6 +1,6 @@
 ---
 title: "Better track editing and many improvements and fixes in Organic Maps July 2025 update"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Meet Organic Maps July update with many fixes and improvements, thanks to our contributors ❤️💪! The update is already available in the [AppStore][appstore], [Obtainium][obtainium] and [Accrescent][accrescent], and will be ready in [Google Play][googleplay], [Huawei AppGallery][appgallery], and [FDroid][fdroid] in a few days.
@@ -10,7 +10,7 @@ Meet Organic Maps July update with many fixes and improvements, thanks to our co
 Don't forget that you can sign up for the beta testing program to get earlier access to experimental and upcoming features [for iOS][testflight] and [for Android][firebase].
 
 The full list of changes:
-- New OSM map data as of July 8, Wikipedia data as of July 1
+- New OSM map data as of July 8, Wikipedia map data as of July 1
 - Improved search for the Arabic language (_Omar Mostafa_)
 - Display campsite and resort areas, see industrial zones earlier (_Viktor Govako_)
 - Do not ignore secondary roads at roundabouts (_Viktor Govako_)

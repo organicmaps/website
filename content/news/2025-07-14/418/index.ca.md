@@ -1,6 +1,6 @@
 ---
 title: "Millor edició de rutes i moltes millores i correccions en l'actualització d'Organic Maps de juliol 2025"
-date: 2025-06-12T12:00:00+00:00
+date: 2025-07-14T20:00:00+00:00
 ---
 
 Coneix l'actualització de juliol d'Organic Maps amb moltes correccions i millores, gràcies als nostres col·laboradors ❤️💪! L'actualització ja està disponible a l'[AppStore][appstore], [Obtainium][obtainium] i [Accrescent][accrescent], i estarà preparada a [Google Play][googleplay], [Huawei AppGallery][appgallery] i [FDroid][fdroid] en uns dies.

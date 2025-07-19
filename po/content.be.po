@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-11 09:28+0000\nLast-Translator: Andrei “Talkerbox” Audzei <bigtalkerbox@gmail.com>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.13-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-19 08:03+0000\nLast-Translator: Dmitry Gribenchuk <dmitrygribenchuk@gmail.com>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.13-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -28,7 +28,7 @@ msgstr "Organic Maps: афлайн-карты і навігацыя для па�
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** — гэта афлайн-карты і GPS-прылада, арыентаваная на прыватнасць, для пешых прагулак, язды на ровары і кіравання аўтамабілем. Абсалютна бясплатна. Без рэкламы. Без адсочвання. Распрацавана з любоўю супольнасцю праграмнага забеспячэння з адкрытым зыходным кодам. Працуе на дадзеных [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md

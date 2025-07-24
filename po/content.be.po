@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-20 18:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.13-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-22 19:02+0000\nLast-Translator: Drugi Sapog <dindrugi@users.noreply.hosted.weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.13-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -494,13 +494,13 @@ msgstr "Мы спадзяёмся на вашы ахвяраванні, каб �
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr "Мы любім тое, што мы робім, а таксама мы любім нашых карыстальнікаў ❤️."
+msgstr "Мы любім тое, што робім, а яшчэ мы любім нашых карыстальнікаў ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Why a free project needs money?"
-msgstr "Навошта бясплатнаму праекту патрэбны грошы?"
+msgstr "Навошта бясплатнаму праекту грошы?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md

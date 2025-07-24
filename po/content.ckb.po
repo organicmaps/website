@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: ckb\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-20 18:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Kurdish (Central) <https://hosted.weblate.org/projects/organicmaps/website/ckb/>\nLanguage: ckb\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.13-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -16,7 +16,7 @@ msgstr ""
 #: content/_index.md
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "سەرەتا"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/_index.md
@@ -82,7 +82,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "تایبەتمەندییەکان"
 
 #. type: Plain text
 #: content/_index.md
@@ -394,7 +394,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Community"
-msgstr ""
+msgstr "کۆمەڵگە"
 
 #. type: Plain text
 #: content/_index.md
@@ -496,7 +496,7 @@ msgstr ""
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate"
-msgstr ""
+msgstr "ببەخشە"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/donate/index.md
@@ -520,7 +520,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "No registration"
-msgstr ""
+msgstr "تۆمارکردن"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
@@ -610,7 +610,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "Public Transport"
-msgstr ""
+msgstr "Public transport"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -718,7 +718,7 @@ msgstr ""
 #: content/news/_index.md
 #, no-wrap
 msgid "News"
-msgstr ""
+msgstr "هەواڵەکان"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/news/_index.md
@@ -736,7 +736,7 @@ msgstr ""
 #: content/privacy/index.md
 #, no-wrap
 msgid "Privacy"
-msgstr ""
+msgstr "تایبەتێتی"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/privacy/index.md
@@ -784,7 +784,7 @@ msgstr ""
 #: content/contribute/index.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Contribute"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/contribute/index.md
@@ -934,7 +934,7 @@ msgstr ""
 #: content/terms/index.md
 #, markdown-text
 msgid "tools"
-msgstr ""
+msgstr "ئامڕازەکان"
 
 #. type: Plain text
 #: content/terms/index.md
@@ -970,7 +970,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Address"
-msgstr ""
+msgstr "ناونیشان"
 
 #. type: Hash Value: back
 #: translations.yaml
@@ -982,7 +982,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Contact Us"
-msgstr ""
+msgstr "پەیوەندیکردن"
 
 #. type: Hash Value: edit-on-github
 #: translations.yaml
@@ -1036,13 +1036,13 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "English"
-msgstr ""
+msgstr "ئینگلیزی"
 
 #. type: Hash Value: language-word
 #: translations.yaml
 #, no-wrap
 msgid "Language"
-msgstr ""
+msgstr "زمان"
 
 #. type: Hash Value: more-info-om
 #: translations.yaml
@@ -1054,7 +1054,7 @@ msgstr ""
 #: translations.yaml
 #, no-wrap
 msgid "Name"
-msgstr ""
+msgstr "ناو"
 
 #. type: Hash Value: token
 #: translations.yaml

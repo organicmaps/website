@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-30 16:52+0000\nLast-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\nLanguage-Team: Catalan <https://hosted.weblate.org/projects/organicmaps/website/ca/>\nLanguage: ca\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.13-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-07-23 21:02+0000\nLast-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\nLanguage-Team: Catalan <https://hosted.weblate.org/projects/organicmaps/website/ca/>\nLanguage: ca\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.13-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -494,7 +494,7 @@ msgstr "Depenem dels vostres donatius per a continuar amb la nostra missió de m
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr "Ens encanta el que fem i volem als nostres usuaris ❤️."
+msgstr "Ens encanta el que fem i estimem els nostres usuaris ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
@@ -520,7 +520,7 @@ msgstr "Amb suficients diners, poden desenvolupar-se més ràpidament prestacion
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr "Còpia de seguretat i sincronització de favorits i pistes"
+msgstr "Còpia de seguretat i sincronització de marcadors i recorreguts"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -560,7 +560,7 @@ msgstr "Ombreig de pujols i terreny 3D"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "More advanced OpenStreetMap editor"
-msgstr "Editor OpenStreetMap més avançat"
+msgstr "Editor de l’OpenStreetMap més avançat"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md

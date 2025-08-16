@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Romanian <https://hosted.weblate.org/projects/organicmaps/website/ro/>\nLanguage: ro\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-08-16 18:12+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Romanian <https://hosted.weblate.org/projects/organicmaps/website/ro/>\nLanguage: ro\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\nX-Generator: Weblate 5.13\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "Hărți offline rapide și detaliate pentru călători, turiști, șoferi, drumeți și bicicliști create de fondatorii aplicației MapsWithMe (Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -36,7 +36,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**OrganicMaps** ie unu de puține applicatii in zilele aștia care supportă 100% de funcții fără o connecție cu internet activă. Instalează Organic Maps, încarcă hărți, aruncăți cartela SIM, si du-te pentru o excursie de o săptămână în o singură încărcătură de baterie fără un singur byte trimit pe net.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -54,7 +54,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "{{ badges() }}"
-msgstr ""
+msgstr "{{ badges() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -192,7 +192,7 @@ msgstr "Fără reclame"
 #: content/_index.md
 #, markdown-text
 msgid "No tracking"
-msgstr ""
+msgstr "Fără urmărire"
 
 #. type: Bullet: '- '
 #: content/_index.md

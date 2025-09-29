@@ -1,94 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="32"
-   height="32"
-   viewBox="0 0 32 32"
-   version="1.1"
-   id="svg780"
-   sodipodi:docname="mir.svg"
-   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <sodipodi:namedview
-     id="namedview782"
-     pagecolor="#ffffff"
-     bordercolor="#999999"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="10.34496"
-     inkscape:cx="40.841144"
-     inkscape:cy="25.519673"
-     inkscape:window-width="1309"
-     inkscape:window-height="456"
-     inkscape:window-x="1440"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg780" />
-  <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
-  <title
-     id="title764">mir-logo</title>
-  <desc
-     id="desc766">Created with Sketch.</desc>
-  <defs
-     id="defs773">
-    <linearGradient
-       x1="218.79996"
-       y1="40.171848"
-       x2="154.9808"
-       y2="40.171848"
-       id="linearGradient-1"
-       gradientTransform="scale(1.6087754,0.62159081)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#1F5CD7"
-         offset="0%"
-         id="stop768" />
-      <stop
-         stop-color="#02AEFF"
-         offset="100%"
-         id="stop770" />
-    </linearGradient>
-  </defs>
-  <g
-     id="sim"
-     stroke="none"
-     stroke-width="1"
-     fill="none"
-     fill-rule="evenodd"
-     transform="matrix(0.08773798,0,0,0.08773798,-2.1617618,10.647253)">
-    <g
-       id="mir-logo"
-       transform="translate(31,13)">
-      <g
-         id="Group-5">
-        <path
-           d="M 32.550566,0.01638478 C 35.695292,-0.00242816 45.041237,-0.84417542 49,12.516649 c 2.666667,9 6.914507,23.742417 12.743522,44.22725 v 0 h 2.373915 C 70.368543,35.147351 74.66273,20.404934 77,12.516649 81,-0.98335068 91,0.01664932 95,0.01664932 l 30.86096,3.85e-5 V 96.016441 H 94.406634 V 39.442187 H 92.297398 L 74.763172,96.016441 H 51.097788 L 33.563562,39.400266 H 31.454325 V 96.016441 H 0 V 0.01668782 Z M 171.02873,0.01668782 V 56.633071 H 173.538 L 194.86679,10.077819 C 199.00708,0.81319405 207.83135,0.01668782 207.83135,0.01668782 v 0 h 30.43839 V 96.016649 H 206.1585 V 39.400266 h -2.50927 l -20.91058,46.555252 c -4.14029,9.222704 -13.38277,10.061131 -13.38277,10.061131 H 138.91749 V 0.01668782 Z M 349.26051,45.636504 c -4.47917,12.692941 -18.54559,21.783264 -34.11902,21.783264 v 0 h -33.67498 v 28.596881 h -30.5359 V 45.636504 Z"
-           id="Combined-Shape"
-           fill="#0f754e" />
-        <path
-           d="M 316.61422,0.01668782 H 249.3293 C 250.93061,21.38954 269.33637,39.686093 288.39013,39.686093 H 351.3823 C 355.0174,21.922741 342.50344,0.01668782 316.61422,0.01668782 Z"
-           id="path24"
-           fill="url(#linearGradient-1)"
-           style="fill:url(#linearGradient-1)" />
-      </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 780 780" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+    .st0{fill:#FFFFFF;}
+    .st1{fill:#37A72E;}
+    .st2{fill:url(#gradient);}
+</style>
+<rect class="st0" width="780" height="780"/>
+    <g transform="translate(-91 -14)">
+        <g transform="translate(91 154)">
+            <path class="st1" d="M544.1,240.5v108h60v-64h68c28.6-0.2,52.9-18.5,62.1-44H544.1z"/>
+                <linearGradient id="gradient" x1="362.4" x2="363.4" y1="275.43" y2="275.43" gradientTransform="matrix(201.76 0 0 -79 -72584 21950)" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00A0E5" offset="0"/>
+                <stop stop-color="#0077C3" offset="1"/>
+            </linearGradient>
+            <path class="st2" d="m536.1 151.5c3.5 44.1 45.3 79 96.3 79h104.3c0.8-4 1.2-8.2 1.2-12.5 0-36.6-29.5-66.2-66-66.5h-135.8z"/>
+            <path class="st1" d="m447.3 229.4v-0.1 0.1c0.7-1.2 1.8-1.9 3.2-1.9 2 0 3.5 1.6 3.6 3.5v116.5h60v-196h-60c-7.6 0.3-16.2 5.8-19.4 12.7l-47.7 102.4c-0.1 0.4-0.3 0.8-0.5 1.2-0.7 1-1.9 1.7-3.3 1.7-2.2 0-4-1.8-4-4v-114h-60v196h60c7.5-0.4 15.9-5.9 19.1-12.7l49-105.1c-0.1-0.1 0-0.2 0-0.3z"/>
+            <path class="st1" d="m223.3 232.8-35.1 114.7h-43.2l-35-114.8c-0.3-1.8-1.9-3.2-3.9-3.2-2.2 0-3.9 1.8-3.9 3.9v114h-60v-196h66.8c11 0 22.6 8.6 25.8 19.1l29.2 95.5c1.5 4.8 3.8 4.7 5.3 0l29.2-95.5c3.2-10.6 14.8-19.1 25.8-19.1h66.8v196h-60v-114-0.1c0-2.2-1.8-3.9-3.9-3.9-2 0.1-3.6 1.5-3.9 3.4z"/>
+        </g>
     </g>
-  </g>
-  <metadata
-     id="metadata784">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:title>mir-logo</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
 </svg>

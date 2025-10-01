@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Romanian <https://hosted.weblate.org/projects/organicmaps/website/ro/>\nLanguage: ro\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Romanian <https://hosted.weblate.org/projects/organicmaps/website/ro/>\nLanguage: ro\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "Hărți offline rapide și detaliate pentru călători, turiști, șoferi, drumeți și bicicliști create de fondatorii aplicației MapsWithMe (Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -30,31 +30,31 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr ""
+msgstr "**Organic Maps** e o applicație Android și iOS gratis cu hăți offline pentru călători, turisiți, drumeți, șoferi și ciclisti basat pe date **[OpenStreetMap][openstreetmap]** , contruite de către comunitate.\nSe concentreza pe confidențialitate, sursă deschisă [bifurvație][fork] a aplicației**Maps.me** (știută și ca [**MapsWithMe**][mapswithme]), menținut ăde alcelași oameni care au creat **MapsWithMe** în 2011.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**OrganicMaps** ie unu de puține applicatii in zilele aștia care supportă 100% de funcții fără o connecție cu internet activă. Instalează Organic Maps, încarcă hărți, aruncăți cartela SIM, si du-te pentru o excursie de o săptămână în o singură încărcătură de baterie fără un singur byte trimit pe net.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> În 2003, Organic Maps [a luat prima million](@/news/2023-12-23/282/index.md) utilizatori. [Ajute noi](@/donate/index.md) să creștem!\n"
 
 #. type: Title ###
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
-msgstr ""
+msgstr "Încarcă si instaleaza Organic Maps de la [AppStore][appstore], [Google Play][googleplay], [FDroid][froid], [Huawei AppGallery][appgallery] {#install}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ badges() }}"
-msgstr ""
+msgstr "{{ badges() }}"
 
 #. type: Plain text
 #: content/_index.md
@@ -192,7 +192,7 @@ msgstr "Fără reclame"
 #: content/_index.md
 #, markdown-text
 msgid "No tracking"
-msgstr ""
+msgstr "Fără urmărire"
 
 #. type: Bullet: '- '
 #: content/_index.md

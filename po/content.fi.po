@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Finnish <https://hosted.weblate.org/projects/organicmaps/website/fi/>\nLanguage: fi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Finnish <https://hosted.weblate.org/projects/organicmaps/website/fi/>\nLanguage: fi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -48,7 +48,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
-msgstr ""
+msgstr "Asenna Organic Maps [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
 
 #. type: Plain text
 #: content/_index.md
@@ -114,7 +114,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Turn-by-turn walking, cycling, and car navigation with voice guidance and Android Auto"
-msgstr ""
+msgstr "Käännös käännökseltä -reittiohjeet kävelylle, pyöräilylle ja autoille ääniopastuksella ja Android Autolla"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -132,7 +132,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Dark Mode to protect your eyes"
-msgstr ""
+msgstr "Tumma tila"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -150,7 +150,7 @@ msgstr "Vapaa ja avoin lähde"
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Why Organic?"
-msgstr ""
+msgstr "Miksi Organic?"
 
 #. type: Plain text
 #: content/_index.md
@@ -162,13 +162,13 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Respects your privacy"
-msgstr ""
+msgstr "Kunnioittaa yksityisyyttäsi"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Saves your battery"
-msgstr ""
+msgstr "Säästää akkuasi"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -180,13 +180,13 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps app is free from trackers and other bad stuff:"
-msgstr ""
+msgstr "Organic Mapsin sovelluksessa ei ole seuraimia tai muita huonoja juttuja:"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "No ads"
-msgstr ""
+msgstr "Ei mainoksia"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -210,7 +210,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "No annoying registration"
-msgstr ""
+msgstr "Ei ärsyttävää rekisteröitymistä"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -270,7 +270,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps doesn't request excessive permissions to spy on you:"
-msgstr ""
+msgstr "Organic Maps ei pyydä kohtuuttomia lupia vakoilla sinua:"
 
 #. type: Plain text
 #: content/_index.md
@@ -282,7 +282,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "At Organic Maps, we believe that privacy is a fundamental human right:"
-msgstr ""
+msgstr "Me Organic Mapsillä uskomme, että yksityisyys"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -294,13 +294,13 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "We protect your privacy from Big Tech's prying eyes"
-msgstr ""
+msgstr "Suojelemme yksityisyyttäsi big techin silmiltä"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "Pysy turvassa riippumatta siitä, missä olet"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
@@ -318,7 +318,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Who is paying for the free app?"
-msgstr ""
+msgstr "Kuka maksaa ilmaisesta sovelluksesta?"
 
 #. type: Plain text
 #: content/_index.md
@@ -414,7 +414,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Join our [Telegram Group][telegram_chat] to discuss with other users."
-msgstr ""
+msgstr "Liity Telegram-ryhmäämme keskustellaksesi muiden käyttäjien kanssa."
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -462,7 +462,7 @@ msgstr "Lahjoita"
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate to support the development of Organic Maps"
-msgstr ""
+msgstr "Lahjoita tukeaksesi Organic Mapsin kehittämistä"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -474,7 +474,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "No trackers"
-msgstr ""
+msgstr "Ei seuraimia"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
@@ -486,7 +486,7 @@ msgstr "Rekisteröinti"
 #: content/donate/index.md
 #, markdown-text
 msgid "Open source"
-msgstr ""
+msgstr "Avoin lähdekoodi"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -498,7 +498,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Why donate to Organic Maps?"
-msgstr ""
+msgstr "Miksi lahjoittaa Organic Mapsille?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
@@ -522,7 +522,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "We love what we do, and we love our users ❤️."
-msgstr ""
+msgstr "Rakastamme tekemäämme ja käyttäjiämme ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
@@ -600,7 +600,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "More advanced OpenStreetMap editor"
-msgstr ""
+msgstr "Kehittyneempi OpenStreetMap-muokkain"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -618,7 +618,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "How to donate?"
-msgstr ""
+msgstr "Miten voin lahjoittaa?"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -660,7 +660,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text, no-wrap
 msgid "Can you help us in any other way?"
-msgstr ""
+msgstr "Voitko auttaa meitä jollain toisella tavalla?"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -702,7 +702,7 @@ msgstr "Yksityisyys"
 #: content/privacy/index.md
 #, no-wrap
 msgid "Organic Maps: Privacy Policy"
-msgstr ""
+msgstr "Organic Maps: Yksityisyyskäytäntö"
 
 #. type: Plain text
 #: content/privacy/index.md
@@ -720,7 +720,7 @@ msgstr ""
 #: content/privacy/index.md
 #, markdown-text
 msgid "Stay away from Big Tech's prying eyes!"
-msgstr ""
+msgstr "Pysy loittona big techin urkkivilta silmiltä!"
 
 #. type: Plain text
 #: content/privacy/index.md content/terms/index.md
@@ -750,7 +750,7 @@ msgstr "Tuki"
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
-msgstr ""
+msgstr "Tue Organic Mapsin kehittämistä"
 
 #. type: Plain text
 #: content/support-us/index.md

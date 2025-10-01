@@ -4,13 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-14 16:02+0000\nLast-Translator: Milo Ivir <mail@milotype.de>\nLanguage-Team: Croatian <https://hosted.weblate.org/projects/organicmaps/website/hr/>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.14-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-17 08:01+0000\nLast-Translator: Dominik Rogić <lunacandytestiranjerobloxigric@gmail.com>\nLanguage-Team: Croatian <https://hosted.weblate.org/projects/organicmaps/website/hr/>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
 #, no-wrap
 msgid "Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders."
-msgstr ""
+msgstr "Brze i detaljne izvan mrežne karte za putnike, turiste, vozače, planinare i bicikliste napravljeno od kreatora MapsWithMe (Maps.Me)."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/_index.md
@@ -30,55 +30,55 @@ msgstr "Organic Maps Offline Hike, Bike, GPS Navigation"
 msgid ""
 "**Organic Maps** is a free Android & iOS offline maps app for travelers, tourists, hikers, drivers and cyclists based on **[OpenStreetMap][openstreetmap]** data created by the community.\n"
 "It is a privacy-focused, open-source [fork][fork] of **Maps.me** app (previously known as [**MapsWithMe**][mapswithme]), maintained by the same people who created **MapsWithMe** in 2011.\n"
-msgstr ""
+msgstr "**Organic Maps** je besplatna Android i iOS izvan mrežne karte aplikacija za putnike, turiste, planinare, vozače i bicikliste napravljena sa informacijama od **[OpenStreetMap][openstreetmap]** koje su napravljene od zajednice.Usmjerena je na privatnost, otvorenog koda [fork][fork] od **Maps.me** aplikacije (prijašnje znana kao [**MapsWithMe**][mapswithme]),održavana od istih ljudi koji su napravili **MapsWithMe** u 2011.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**Organic Maps** je jedna od par aplikacija u današnje vrijeme koja podržava 100% od značajka bez aktivne internetske veze. Preuzmi Organic Maps, preuzmi karte, bacite svoje SIM karticu, i idite na putovanje koje traje tjedan dana na jednom punjenju baterije bez ikakvog byta poslanog na internet.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> U 2023, Organic Maps [je dobio svojih prvih milijun](@/news/2023-12-23/281/index.md) korisnika. [Pomozi nam](@/donate/index.md) da se razvijemo!\n"
 
 #. type: Title ###
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}"
-msgstr ""
+msgstr "Preuzmi i instaliraj Organic Maps od [AppStore][appstore],[Google Play][googleplay],[FDroid][fdroid],[Huawei AppGallery][appgallery]{#install}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ badges() }}"
-msgstr ""
+msgstr "{{ badges() }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Planinarenje') }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prague') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/prague.jpg',alt='Prague') }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ screenshot(src='/images/screenshots/search.jpg', alt='Offline Search') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/search.jpg', alt='Izvan mrežno pretraživanje') }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navigation in dark mode') }}"
-msgstr ""
+msgstr "{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navigacija u tamnom načinu rada') }}"
 
 #. type: Title ##
 #: content/_index.md
@@ -90,55 +90,55 @@ msgstr "Značajke"
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:"
-msgstr ""
+msgstr "Organic Maps je vrhunska aplikacija za putnike,turiste,planinare i bickliste:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap][openstreetmap]"
-msgstr ""
+msgstr "Detaljne izvan mrežne karte sa mjestima koje ne postoje na ostalim kartama, zahvaljući [OpenStreetMap][openstreetmap]"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Cycling routes, hiking trails, and walking paths"
-msgstr ""
+msgstr "Biciklističke rute, planinarske rute i putovi za hodanje"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Contour lines, elevation profiles, peaks, and slopes"
-msgstr ""
+msgstr "Izohipse, profili elevacije, vrhovi i nagibi"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Turn-by-turn walking, cycling, and car navigation with voice guidance and Android Auto"
-msgstr ""
+msgstr "Navigacija za hodanje, vožnju biciklom i automobil s glasovnim navođenjem i Android Autom"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Fast offline search on the map"
-msgstr ""
+msgstr "Brzo izvan mrežno pretraživanje na karti"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Export/import bookmarks in KML/KMZ, import GPX"
-msgstr ""
+msgstr "Izvoz/uvoz oznaka u KML/KMZ formatu, uvoz GPX formata"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Dark Mode to protect your eyes"
-msgstr ""
+msgstr "Tamni način rada da štiti vaše oči"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Countries and regions don't take a lot of space"
-msgstr ""
+msgstr "Države i regije ne zauzimaju puno prostora"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -150,31 +150,31 @@ msgstr "Besplatno i otvorenog koda"
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Why Organic?"
-msgstr ""
+msgstr "Zašto Organic?"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is pure and organic, made with love:"
-msgstr ""
+msgstr "Organske karte su čiste i organske, napravljene s ljubavlju:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Respects your privacy"
-msgstr ""
+msgstr "Poštuje vašu privatnost"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Saves your battery"
-msgstr ""
+msgstr "Štedi vašu bateriju"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No unexpected mobile data charges"
-msgstr ""
+msgstr "Nema neočekivanih troškova za mobilne podatke"
 
 #. type: Plain text
 #: content/_index.md

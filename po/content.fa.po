@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-31 01:07+0000\nLast-Translator: Nima <nimabidarvand@gmail.com>\nLanguage-Team: Persian <https://hosted.weblate.org/projects/organicmaps/website/fa/>\nLanguage: fa\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-10-06 07:02+0000\nLast-Translator: Goudarz Jafari <me@goudarzjafari.com>\nLanguage-Team: Persian <https://hosted.weblate.org/projects/organicmaps/website/fa/>\nLanguage: fa\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -144,13 +144,13 @@ msgstr "کشورها و مناطق فضای زیادی را اشغال نمی ک
 #: content/_index.md
 #, markdown-text
 msgid "Free and open-source"
-msgstr "رایگان و اُپن سورس"
+msgstr "آزاد و متن‌باز"
 
 #. type: Title ##
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Why Organic?"
-msgstr "چرا Organic?"
+msgstr "چرا Organic؟"
 
 #. type: Plain text
 #: content/_index.md

@@ -4,16 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: Organic Maps Website 1.0\n"
-"Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/organicmaps/website/ca/>\n"
-"Language: ca\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:01+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Catalan <https://hosted.weblate.org/projects/organicmaps/website/ca/>\nLanguage: ca\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -37,7 +28,7 @@ msgstr "Organic Maps: passejos, bici, rutes i GPS sense connexió"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "***Organic Maps** és una aplicació GPS i de mapes sense connexió centrada en la privacitat per a practicar senderisme, ciclisme i conducció. Totalment gratuïta. Sense publicitat. Sense rastrejadors. Desenvolupada amb amor per la comunitat de codi obert. Basada en dades de [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -49,7 +40,7 @@ msgstr "L’**Organic Maps** és una de les poques aplicacions actuals que admet
 #: content/_index.md
 #, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> Al desembre de 2024, Organic Maps [va aconseguir els 3 milions d'instal·lacions](@/news/2024-12-20/411/index.md). [Ajudeu'ns](@/donate/index.md) a créixer!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -304,7 +295,7 @@ msgstr "{{ donate_buttons() }}"
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "A continuació s'indiquen els benvolguts patrocinadors institucionals que han proporcionat subvencions específiques per a cobrir alguns costos d'infraestructura i finançar el desenvolupament de noves característiques seleccionades:"
 
 #. type: Plain text
 #: content/_index.md
@@ -352,7 +343,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n<tr>\n<td>\n<a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"La Fundación NLnet\" width=\"200px\"></a>\n</td>\n<td>\nEl projecte de millora de la cerca i les fonts <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">s'ha finançat a través del Fons Entrust de NGI0. El <a href=\"https://nlnet.nl/entrust/\">Fons NGI0 Entrust</a> va ser creat per la <a href=\"https://nlnet.nl/\">Fundació NLnet</a> amb el suport financer del programa <a href=\"https://www.ngi.eu/\">Internet de Pròxima Generació Xarxes de Comunicació, Contingut i Tecnologia, en virtut de l'acord de subvenció núm. 101069594.\n\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n\n</td>\n<td>\n<a href=\"https://summerofcode.withgoogle.com/\">Google</a> va donar suport als projectes de cinc estudiants al programa Google Summer of Code durant <a Programes href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> i <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Entre els projectes més destacats hi ha Android Auto i Wikipedia Dump Extractor. </td>\n</tr>\n<tr>\n<td>\n<a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n</td>\n<td>\nEl proveïdor de serveis d'internet (ISP) de Mythic Beasts, <a href=\"https://www.mythic-beasts.com/\">ens proporciona</a> dos servidors virtuals amb 400 TB al mes d'amplada de banda gratuïta per allotjar i gestionar les descàrregues i actualitzacions de mapes. </td>\n</tr>\n<tr>\n<td>\n<a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://44plus.vn\">44+ Technologies</a> ens proporciona <a href=\"https://44plus.vn/organicmaps\">un servidor dedicat gratuït amb un valor aproximat de $12,000 a l'any per servir mapes al Vietnam i al Sud-est Asiàtic.\n</td>\n</tr>\n<tr>\n<td>\n<a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n</td>\n<td>\n<a href=\"https://futo.org\">FUTO</a> va atorgar una <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">microsubvenció de $1000</a> a Organic Maps el febrer de 2023.\n</td>\n</tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -423,7 +414,7 @@ msgstr "Seguiu les nostres novetats al [FOSStodon][fosstodon], [Mastodon][mastod
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr ""
+msgstr "Uniu-vos (o creeu-ne una i feu-nos-ho saber) a les comunitats locals: [Sala Matrix d'hongarès](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), xats de Telegram a [xinès][telegram_chat_zh], [francès][telegram_chat_fr] [turc][telegram_chat_tr]."
 
 #. type: Link reference
 #: content/_index.md
@@ -488,12 +479,12 @@ msgstr "Per què fer donatius a l’Organic Maps?"
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps."
-msgstr ""
+msgstr "El nostre objectiu és oferir una alternativa a Google Maps i Apple Maps centrada en la privacitat, ràpida i fàcil d'usar."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
 msgid "Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal."
-msgstr ""
+msgstr "Un altre dels nostres objectius és millorar les dades dels mapes públics per a les nombroses pàgines web, aplicacions i plataformes que utilitzen OpenStreetMap, i implicar més persones en l'aportació d'informació per als mapes."
 
 #. type: Bullet: '3. '
 #: content/donate/index.md
@@ -503,7 +494,7 @@ msgstr "Depenem dels vostres donatius per a continuar amb la nostra missió de m
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr ""
+msgstr "Ens encanta el que fem i estimem els nostres usuaris ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
@@ -514,7 +505,7 @@ msgstr "Per què un projecte gratuït necessita diners?"
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "In 2023, Organic Maps got its first million users.  Our servers provide free, fast and frequent map updates all over the world."
-msgstr ""
+msgstr "En 2023, Organic Maps va aconseguir el seu primer milió d'usuaris. Els nostres servidors proporcionen actualitzacions de mapes gratuïtes, ràpides i freqüents a tot el món."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
@@ -529,7 +520,7 @@ msgstr "Amb suficients diners, poden desenvolupar-se més ràpidament prestacion
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr ""
+msgstr "Còpia de seguretat i sincronització de marcadors i recorreguts"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -549,12 +540,12 @@ msgstr "Transport públic"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Traffic and accident reporting"
-msgstr ""
+msgstr "Informació sobre trànsit i accidents"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Photos and Reviews"
-msgstr ""
+msgstr "Fotos i ressenyes"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -859,7 +850,7 @@ msgstr "[license]: http://www.apache.org/licenses/LICENSE-2.0"
 #: content/terms/index.md
 #, no-wrap
 msgid "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
-msgstr ""
+msgstr "[drets d'autor]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
 
 #. type: Hash Value: address
 #: translations.yaml
@@ -901,7 +892,7 @@ msgstr "Preguntes freqüents"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Anar a l'inici"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml

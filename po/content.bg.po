@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Bulgarian <https://hosted.weblate.org/projects/organicmaps/website/bg/>\nLanguage: bg\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-21 08:01+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Bulgarian <https://hosted.weblate.org/projects/organicmaps/website/bg/>\nLanguage: bg\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -462,7 +462,7 @@ msgstr "Даряване"
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate to support the development of Organic Maps"
-msgstr ""
+msgstr "Подкрепете разработката на Органични Карти"
 
 #. type: Plain text
 #: content/donate/index.md
@@ -750,7 +750,7 @@ msgstr "Поддръжка"
 #: content/support-us/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
-msgstr ""
+msgstr "Подкрепете разработката на Органични Карти"
 
 #. type: Plain text
 #: content/support-us/index.md
@@ -762,7 +762,7 @@ msgstr ""
 #: content/support-us/index.md
 #, markdown-text
 msgid "There are different ways to support the development:"
-msgstr ""
+msgstr "Има различни начини да подпомогнете разработката:"
 
 #. type: Bullet: '- '
 #: content/support-us/index.md

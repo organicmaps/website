@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-03 08:05+0000\nLast-Translator: Piotr Strebski <strebski@gmail.com>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:01+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Polish <https://hosted.weblate.org/projects/organicmaps/website/pl/>\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -38,10 +38,9 @@ msgstr "**Organic Maps** to jedna z niewielu obecnie aplikacji, która obsługuj
 
 #. type: Plain text
 #: content/_index.md
-#, fuzzy, no-wrap
-#| msgid "> In 2023, Organic Maps [got its first million](@/news/2023-12-23/281/index.md) users. [Help us](@/donate/index.md) to scale!\n"
+#, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> W roku 2023, Organic Maps [zyskało swój pierwszy milion](@/news/2023-12-23/281/index.md) użytkowników. [Pomóż nam](@/donate/index.md) się rozwijać!\n"
+msgstr "> W grudniu 2024 roku, Organic Maps [osiągnęło 3 miliony pobrań](@/news/2024-12-20/411/index.md) przez użytkowników. [Pomóż nam](@/donate/index.md) się rozwijać!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -344,7 +343,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Projekt ulepszenia wyszukiwania i czcionek</a> został <a href=\"https://nlnet.nl/project/OrganicMaps/\">sfinansowany</a> przez fundusz NGI0 Entrust. <a href=\"https://nlnet.nl/entrust/\">Fundusz NGI0 Entrust</a> został utworzony przez <a href=\"https://nlnet.nl/\">Fundację NLnet</a> przy wsparciu finansowym <a href=\"https://www.ngi.eu/\">programu Next Generation Internet</a> Komisji Europejskiej, pod auspicjami Dyrekcji Generalnej ds. Sieci Komunikacyjnych, Treści i Technologii na podstawie umowy grantowej nr 101069594.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> wsparło 5 projektów studenckich w programie Google Summer of Code w latach <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> oraz <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a>. Wśród wyróżniających się projektów znalazły się Android Auto oraz Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      Dostawca internetu <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">udostępnia nam</a> dwa serwery wirtualne z darmowym transferem 400 TB/miesiąc na potrzeby hostowania i udostępniania map oraz aktualizacji.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> <a href=\"https://44plus.vn/organicmaps\">udostępnia nam</a> bezpłatny serwer dedykowany o wartości około 12 000 USD rocznie do obsługi map w Wietnamie i Azji Południowo-Wschodniej.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> przyznało <a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">mikrogrant w wysokości 1000 USD</a> dla Organic Maps w lutym 2023 roku.\n    </td>\n  </tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -851,7 +850,7 @@ msgstr "[license]: http://www.apache.org/licenses/LICENSE-2.0"
 #: content/terms/index.md
 #, no-wrap
 msgid "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
-msgstr ""
+msgstr "[prawa autorskie]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
 
 #. type: Hash Value: address
 #: translations.yaml
@@ -887,7 +886,7 @@ msgstr "Wspierane silniki TTS"
 #: translations.yaml
 #, no-wrap
 msgid "F.A.Q."
-msgstr ""
+msgstr "Najczęściej zadawane pytania"
 
 #. type: Hash Value: go-to-top
 #: translations.yaml
@@ -935,7 +934,7 @@ msgstr "Języki"
 #: translations.yaml
 #, no-wrap
 msgid "For more information please visit our web-site"
-msgstr ""
+msgstr "Po więcej informacji odwiedź naszą stronę internetową"
 
 #. type: Hash Value: name
 #: translations.yaml

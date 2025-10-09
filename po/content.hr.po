@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-03-20 10:58+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Croatian <https://hosted.weblate.org/projects/organicmaps/website/hr/>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.11-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Croatian <https://hosted.weblate.org/projects/organicmaps/website/hr/>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -180,7 +180,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps app is free from trackers and other bad stuff:"
-msgstr ""
+msgstr "Aplikacija Organic Maps ne sadrži programe za praćenje i druge loše stvari:"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
@@ -198,31 +198,31 @@ msgstr "−spacioniranje"
 #: content/_index.md
 #, markdown-text
 msgid "No data collection"
-msgstr ""
+msgstr "Bez prikupljanja podataka"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No phoning home"
-msgstr ""
+msgstr "Bez poziva kući"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No annoying registration"
-msgstr ""
+msgstr "Bez dosadne registracije"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No mandatory tutorials"
-msgstr ""
+msgstr "Bez obaveznih tutorijala"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "No noisy email spam"
-msgstr ""
+msgstr "Bez neželjenih e-mail poruka"
 
 #. type: Bullet: '- '
 #: content/_index.md content/donate/index.md
@@ -234,85 +234,85 @@ msgstr "Nema Obavijestia."
 #: content/_index.md
 #, markdown-text
 msgid "No crapware"
-msgstr ""
+msgstr "Bez neželjenog softvera"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "~~No pesticides~~ Purely organic!"
-msgstr ""
+msgstr "~~Bez pesticida~~ Čisto organski!"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "The application is verified by [Exodus Privacy Project][exodus]:"
-msgstr ""
+msgstr "Aplikaciju je provjern od [Exodus Privacy Project][exodus]:"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ exodus_screenshot() }}"
-msgstr ""
+msgstr "{{ exodus_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "The iOS application is verified by [TrackerControl for iOS][trackercontrol]:"
-msgstr ""
+msgstr "iOS aplikacija je provjerena od [TrackerControl za iOS][trackercontrol]:"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ trackercontrol_screenshot() }}"
-msgstr ""
+msgstr "{{ trackercontrol_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps doesn't request excessive permissions to spy on you:"
-msgstr ""
+msgstr "Organic Maps ne zahtijevaju previše dozvola da te se špijunira:"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "{{ privacy_screenshots() }}"
-msgstr ""
+msgstr "{{ privacy_screenshots() }}"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "At Organic Maps, we believe that privacy is a fundamental human right:"
-msgstr ""
+msgstr "Mi programeri aplikacije Organic Maps vjerujemo da je privatnost temeljno ljudsko pravo:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is an indie community-driven open-source project"
-msgstr ""
+msgstr "Organic Maps je projekt otvorenog koda vođen nezavisnom zajednicom"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "We protect your privacy from Big Tech's prying eyes"
-msgstr ""
+msgstr "Štitimo tvoju privatnost od znatiželjnih očiju velikih tehnoloških tvrtki"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "Ostani sigurna/na gdje god se nalaziš"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
 #, markdown-text
 msgid "Reject surveillance - embrace your freedom."
-msgstr ""
+msgstr "Odbij nadzor – uživaj u slobodi."
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**[Give Organic Maps a try!](#install)**\n"
-msgstr ""
+msgstr "**[Iskušaj Organic Maps!](#install)**\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -396,7 +396,7 @@ msgstr ""
 #: content/_index.md
 #, markdown-text
 msgid "Report bugs or issues to [the issue tracker][issues] or [email us][email]."
-msgstr ""
+msgstr "Prijavi greške ili probleme na [sustav za praćenje problema][issues] ili nam [pošalji e-mail][email]."
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -474,7 +474,7 @@ msgstr ""
 #: content/donate/index.md
 #, markdown-text
 msgid "No trackers"
-msgstr ""
+msgstr "Bez programa za praćenje"
 
 #. type: Bullet: '- '
 #: content/donate/index.md

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-06-06 17:07+0000\nLast-Translator: Drugi Sapog <dindrugi@users.noreply.hosted.weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Belarusian <https://hosted.weblate.org/projects/organicmaps/website/be/>\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -28,19 +28,19 @@ msgstr "Organic Maps: афлайн-карты і навігацыя для па�
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr ""
+msgstr "**Organic Maps** — гэта афлайн-карты і GPS-прыкладанне, арыентаванае на прыватнасць, для пешых прагулак, язды на ровары і кіравання аўтамабілем. Абсалютна бясплатна. Без рэкламы. Без адсочвання. Распрацавана з любоўю супольнасцю праграмнага забеспячэння з адкрытым зыходным кодам. Працуе на даных [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.\n"
-msgstr ""
+msgstr "**Organic Maps** — адна з нямногіх праграм на сённяшні дзень, якая падтрымлівае 100% функцый без актыўнага падключэння да Інтэрнэту. Усталюйце Organic Maps, спампуйце карты, выкіньце SIM-карту і адпраўляйцеся ў тыднёвае падарожжа на адным зарадзе батарэі без адпраўкі ніводнага байта ў сетку.\n"
 
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr ""
+msgstr "> У снежні 2024 года колькасць карыстальнікаў Organic Maps [дасягнула 3 мільёнаў установак](@/news/2024-12-20/411/index.md). [Дапамажыце нам](@/donate/index.md) расці!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -213,89 +213,89 @@ msgstr "~~Без пестыцыдаў~~ Чыстая арганіка!"
 #. type: Plain text
 #: content/_index.md
 msgid "The application is verified by [Exodus Privacy Project][exodus]:"
-msgstr ""
+msgstr "Праграма праверана за дапамогай [Exodus Privacy Project][exodus]:"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ exodus_screenshot() }}"
-msgstr ""
+msgstr "{{ exodus_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "The iOS application is verified by [TrackerControl for iOS][trackercontrol]:"
-msgstr ""
+msgstr "Праграма для iOS праверана [TrackerControl for iOS][trackercontrol]:"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ trackercontrol_screenshot() }}"
-msgstr ""
+msgstr "{{ trackercontrol_screenshot() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps doesn't request excessive permissions to spy on you:"
-msgstr ""
+msgstr "Organic Maps не запытваюць празмерных дазволаў для шпіянажу:"
 
 #. type: Plain text
 #: content/_index.md
 msgid "{{ privacy_screenshots() }}"
-msgstr ""
+msgstr "{{ privacy_screenshots() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "At Organic Maps, we believe that privacy is a fundamental human right:"
-msgstr ""
+msgstr "У Organic Maps мы верым, што прыватнасць гэта фундаментальнае права чалавека:"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Organic Maps is an indie community-driven open-source project"
-msgstr ""
+msgstr "Organic Maps гэта незалежны арыентаваны на супольнасць праект з адкрытым зыходным кодам"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "We protect your privacy from Big Tech's prying eyes"
-msgstr ""
+msgstr "Мы абараняем вашу прыватнасць ад цікаўных вачэй буйных тэхналагічных кампаній"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "Заставайцеся ў бяспецы нягледзячы на тое, дзе вы"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
 msgid "Reject surveillance - embrace your freedom."
-msgstr ""
+msgstr "Адмоўцеся ад назірання - прыміце сваю свабоду."
 
 #. type: Plain text
 #: content/_index.md
 #, no-wrap
 msgid "**[Give Organic Maps a try!](#install)**\n"
-msgstr ""
+msgstr "**[Дай Organic Maps спробу!](#install)**\n"
 
 #. type: Title ##
 #: content/_index.md
 #, no-wrap
 msgid "Who is paying for the free app?"
-msgstr ""
+msgstr "Хто плаціць за бясплатную праграму?"
 
 #. type: Plain text
 #: content/_index.md
 msgid "The app is free for everyone. Please [donate](@/donate/index.md) to support us!"
-msgstr ""
+msgstr "Праграма бясплатная для кожнага! Калі ласка, [ахвяруйце](@/donate/index.md) каб падтрымаць нас!"
 
 #. type: Plain text
 #: content/_index.md
 msgid "To donate conveniently, click on your preferred payment method icon below:"
-msgstr ""
+msgstr "Каб ахвяраваць зручна, клікніце на іконку пераважнага для вас спосаба аплаты ніжэй:"
 
 #. type: Plain text
 #: content/_index.md content/donate/index.md
 msgid "{{ donate_buttons() }}"
-msgstr ""
+msgstr "{{ donate_buttons() }}"
 
 #. type: Plain text
 #: content/_index.md
 msgid "Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:"
-msgstr ""
+msgstr "Улюблюныя інстытуцыйныя спонсары ніжэй забяспечылі мэтавыя гранты на пакрыццё некаторых інфраструктурных плацяжоў і фінансавалі распрацоўку новых выбраных функцый:"
 
 #. type: Plain text
 #: content/_index.md
@@ -343,7 +343,7 @@ msgid ""
 "    </td>\n"
 "  </tr>\n"
 "</table>\n"
-msgstr ""
+msgstr "<table style=\"border-spacing: 20px\">\n  <tr>\n    <td>\n      <a href=\"https://nlnet.nl/\"><img src=\"sponsors/nlnet.svg\" alt=\"The NLnet Foundation\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://github.com/organicmaps/organicmaps/milestone/7\">Праект паляпшэння пошуку і шрыфтоў</a>быў  <a href=\"https://nlnet.nl/project/OrganicMaps/\">прафінансаваны</a> NGI0 Entrust Fund. <a href=\"https://nlnet.nl/entrust/\">NGI0 Entrust Fund</a> заснаваны <a href=\"https://nlnet.nl/\">NLnet Foundation</a> пры фінансавай падтрымцы Еўрапейскай Камісіі праз праграму <a href=\"https://www.ngi.eu/\">Next Generation Internet programme</a>, пад эгідай DG Communications Networks, Content and Technology паводле пагаднення аб гранце № 101069594.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\"><img src=\"sponsors/gsoc.svg\" alt=\"Google Summer of Code\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://summerofcode.withgoogle.com/\">Google</a> падтрымліваў 5 студэнцкіх праектаў па праграме Google Summer of Code на працягу <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps\">2022</a> і <a href=\"https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps\">2023</a> гадоў. Сярод значных праектаў — Android Auto і Wikipedia Dump Extractor.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\"><img src=\"sponsors/mythic-beasts.png\" alt=\"Mythic Beasts\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://www.mythic-beasts.com/\">Mythic Beasts</a> ISP <a href=\"https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/\">забяспечвае нас</a> двума віртуальнымі серверамі з 400 ТБ бясплатнага трафіка штомесяц для размяшчэння і абслугоўвання карт, іх спампоўвання і абнаўлення.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://44plus.vn\"><img src=\"sponsors/44plus.svg\" alt=\"44+ Technologies\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://44plus.vn\">44+ Technologies</a> is <a href=\"https://44plus.vn/organicmaps\">забяспечвае нас </a>бясплатным выдзеленым серверам коштам каля $12,000/год для абслугоўвання карт В'етнама і Паўднёва-Усходняй Азіі.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"https://futo.org\"><img src=\"sponsors/futo.svg\" alt=\"FUTO\" width=\"200px\"></a>\n    </td>\n    <td>\n      <a href=\"https://futo.org\">FUTO</a> выдаткаваў<a href=\"https://www.youtube.com/watch?v=fJJclgBHrEw\">мікра-грант на $1000 </a>для Organic Maps ў лютым 2023 года.\n    </td>\n  </tr>\n</table>\n"
 
 #. type: Title ##
 #: content/_index.md
@@ -354,84 +354,84 @@ msgstr "Супольнасць"
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is an [open-source software][github] licensed under the Apache License 2.0."
-msgstr ""
+msgstr "Organic Maps гэта [праграма з адкрытым зыходным кодам][github] пад ліцэнзіяй Apache License 2.0."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Please join our beta program, suggest your features, and report bugs:"
-msgstr ""
+msgstr "Калі ласка, далучайцеся да нашай beta праграмы, прапануйце вашы ідэі, і паведамляйце пра памылкі:"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 msgid "[iOS Beta (TestFlight)][testflight]"
-msgstr ""
+msgstr "[iOS Beta (TestFlight)][testflight]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 msgid "[Android Beta (Firebase)][firebase]"
-msgstr ""
+msgstr "[Android Beta (Firebase)][firebase]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 msgid "[Linux Desktop Beta (Flatpak)][flatpak]"
-msgstr ""
+msgstr "[Linux Desktop Beta (Flatpak)][flatpak]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 msgid "[Linux Desktop Beta (packages)][repology]"
-msgstr ""
+msgstr "[Linux Desktop Beta (packages)][repology]"
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Report bugs or issues to [the issue tracker][issues] or [email us][email]."
-msgstr ""
+msgstr "Паведамляйце пра памылкі ды праблемы праз [сістэму адсочвання праблем][issues] або [дашліце нам e-mail][email]."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "[Discuss][ideas] ideas or propose feature requests."
-msgstr ""
+msgstr "[Абмеркаваць][ideas] ідэі або прапанаваць запыты на функцыі."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates."
-msgstr ""
+msgstr "Падпісвайцеся на наш [Telegram канал][telegram] або на [matrix прастору][matrix] каб адсочваць абнаўленні."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Join our [Telegram Group][telegram_chat] to discuss with other users."
-msgstr ""
+msgstr "Далучайцеся да нашага [Telegram гурта][telegram_chat] каб абмяркоўваць з іншымі карыстальнікамі."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Visit our [GitHub page][github]."
-msgstr ""
+msgstr "Заходзьце на нашу [GitHub старонку][github]."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Follow our updates in [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn]."
-msgstr ""
+msgstr "Сачыце за нашымі абнаўленнямі у [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn]."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats."
-msgstr ""
+msgstr "Далучайцеся (або стварыце і паведаміце нам) да мясцовых суполак: [венгерскі пакой Matrix](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), чаты Telegram на [кітайскай][telegram_chat_zh], [французскай][telegram_chat_fr], [рускай][telegram_chat_ru], [турэцкай][telegram_chat_tr] мове."
 
 #. type: Link reference
 #: content/_index.md
 #, no-wrap
 msgid "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
-msgstr ""
+msgstr "[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)"
 
 #. type: Plain text
 #: content/_index.md content/donate/index.md content/contribute/index.md
 msgid "{{ references() }}"
-msgstr ""
+msgstr "{{ references() }}"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/donate/index.md
 #, no-wrap
 msgid "Your money pays for all project-related expenses and motivates us to improve Organic Maps."
-msgstr ""
+msgstr "Вашы грошы аплачваюць усе звязаныя з праектам выдаткі і матывуюць нас паляпшаць Organic Maps."
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/donate/index.md
@@ -443,17 +443,17 @@ msgstr "Падтрымаць грашыма"
 #: content/donate/index.md
 #, no-wrap
 msgid "Donate to support the development of Organic Maps"
-msgstr ""
+msgstr "Ахвяруйце на падтрымку распрацоўкі Organic Maps"
 
 #. type: Plain text
 #: content/donate/index.md
 msgid "Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:"
-msgstr ""
+msgstr "Праграма Organic Maps _бясплатная для ўсіх_ дзякуючы вашым **[ахвяраванням][stripe]** у **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
 msgid "No trackers"
-msgstr ""
+msgstr "Без трэкераў"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
@@ -468,69 +468,69 @@ msgstr "Адкрыты зыходны код"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Click on your preferred payment method icon below:"
-msgstr ""
+msgstr "Націсніце ніжэй на значок спосабу аплаты, якому вы аддаяце перавагу:"
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Why donate to Organic Maps?"
-msgstr ""
+msgstr "Навошта ахвяраваць на Organic Maps?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps."
-msgstr ""
+msgstr "Наша мэта — забеспячэнне прыватнай, хуткай і простай у карыстанні альтэрнатывы Google Maps і Apple Maps."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
 msgid "Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal."
-msgstr ""
+msgstr "Наша другая мэта — паляпшэнне агульнадаступных картаграфічных даных для шматлікіх сайтаў, праграм і платформ, якія выкарыстоўваюць OpenStreetMap, а таксама заахвочванне як мага большай колькасці людзей паўдзельнічаць у дадаванні інфармацыі на карты."
 
 #. type: Bullet: '3. '
 #: content/donate/index.md
 msgid "We rely on your donations to keep Organic Maps open and free for everyone.  And free from ads."
-msgstr ""
+msgstr "Мы разлічваем на вашы ахвяраванні, каб пакінуць Organic Maps адкрытай і бясплатнай для ўсіх.  А таксама без рэкламы."
 
 #. type: Bullet: '4. '
 #: content/donate/index.md
 msgid "We love what we do, and we love our users ❤️."
-msgstr ""
+msgstr "Мы любім тое, што робім, а яшчэ мы любім нашых карыстальнікаў ❤️."
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Why a free project needs money?"
-msgstr ""
+msgstr "Навошта бясплатнаму праекту грошы?"
 
 #. type: Bullet: '1. '
 #: content/donate/index.md
 msgid "In 2023, Organic Maps got its first million users.  Our servers provide free, fast and frequent map updates all over the world."
-msgstr ""
+msgstr "Лічба колькасці карыстальнікаў Organic Maps дасягнула першага мільёна ў 2023 годзе.  Нашы серверы забяспечваюць бясплатныя хуткія і частыя абнаўленні карт па ўсім свеце."
 
 #. type: Bullet: '2. '
 #: content/donate/index.md
 msgid "User support, bugfixing and publishing quality app updates are at the top of our priorities.  There are [~2000 bug reports and feature requests on GitHub][github issues], and this number is growing every day.  AppStore, Google Play, and support emails are overflooded with comments and bugs. We want to deliver a high-quality product."
-msgstr ""
+msgstr "Сярод нашых галоўных прыярытэтаў падтрымка карыстальнікаў, выпраўленне памылак і публікацыя якасных абнаўленняў праграмы. На GitHub зараз [каля 2000 справаздач пра памылкі і запытаў новых функцыі][github issues], гэта лічба з кожным днём працягвае расці. AppStore, Google Play і электронная пошта падтрымкі перапоўненыя каментарыямі і паведамленнямі пра памылкі. Нам хочацца выпускаць высакаякасны прадукт."
 
 #. type: Bullet: '3. '
 #: content/donate/index.md
 msgid "With enough money, new features can be developed. To name a few:"
-msgstr ""
+msgstr "З дастатковай колькасцю грошай могуць быць распрацаваны новыя магчымасці. Некаторыя з іх:"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr ""
+msgstr "Рэзервовае капіяванне і сінхранізацыя закладак і маршрутаў"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "GPS track recorder with GPX export"
-msgstr ""
+msgstr "Запіс GPS-трэкаў з падтрымкай экспарту ў GPX"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Satellite imagery"
-msgstr ""
+msgstr "Спадарожнікавыя здымкі"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -540,48 +540,48 @@ msgstr "Грамадскі транспарт"
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Traffic and accident reporting"
-msgstr ""
+msgstr "Паведамленні пра заторы і здарэнні на дарозе"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Photos and Reviews"
-msgstr ""
+msgstr "Фатаграфіі і водгукі"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Map styles for different activities"
-msgstr ""
+msgstr "Стылі карт для розных відаў дзейнасці"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Hill shading and 3D terrain"
-msgstr ""
+msgstr "Зацяненне рэльефу і 3D-рэльеф"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "More advanced OpenStreetMap editor"
-msgstr ""
+msgstr "Пашырэнне магчымасцей рэдактара OpenStreetMap"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Better offline address search, routing, and navigation"
-msgstr ""
+msgstr "Паляпшэнне пошуку адрасоў, маршрутаў і навігацыі ў аўтаномным рэжыме"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "… and [many other][github issues] features you want and love"
-msgstr ""
+msgstr "... і [многія іншыя магчымасці][github issues], якія вы хочаце і любіце"
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "How to donate?"
-msgstr ""
+msgstr "Як ахвяраваць?"
 
 #. type: Plain text
 #: content/donate/index.md
 msgid "Recurring donations are the best way to ensure a relatively stable income for the project and motivate us for long-term tasks and goals. One-time donations are appreciated too."
-msgstr ""
+msgstr "Рэгулярныя ахвяраванні - гэта лепшы спосаб забяспечыць праекту адносна прадказальны даход і матываваць нас на доўгатэрміновыя задачы і мэты. За аднаразовыя ахвяраванні мы таксама будзем удзячныя."
 
 #. type: Title ###
 #: content/donate/index.md
@@ -592,7 +592,7 @@ msgstr "Банкаўскі перавод"
 #. type: Plain text
 #: content/donate/index.md
 msgid "{{ bank_transfer() }}"
-msgstr ""
+msgstr "{{ bank_transfer() }}"
 
 #. type: Title ###
 #: content/donate/index.md
@@ -603,29 +603,29 @@ msgstr "Крыптавалюта"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Please consider donating annually to reduce total fees."
-msgstr ""
+msgstr "Разглядзіце магчымасць ахвяравання адразу за год, каб паменшыць агульныя страты на камісію сэрвісу аплаты."
 
 #. type: Plain text
 #: content/donate/index.md
 msgid "{{ crypto_table() }}"
-msgstr ""
+msgstr "{{ crypto_table() }}"
 
 #. type: Title ##
 #: content/donate/index.md
 #, no-wrap
 msgid "Can you help us in any other way?"
-msgstr ""
+msgstr "Ці можаце вы дапамагчы нам іншым чынам?"
 
 #. type: Plain text
 #: content/donate/index.md
 msgid "Yes! There are many ways to support Organic Maps. Please see [Contribute](@/contribute/index.md) page for more details."
-msgstr ""
+msgstr "Так! Ёсць шмат спосабаў падтрымаць Organic Maps. Наведайце старонку [Зрабіць унёсак](@/contribute/index.md), каб атрымаць больш падрабязную інфармацыю."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/news/_index.md
 #, no-wrap
 msgid "Stay in touch with the latest Organic Maps releases, news and updates from our team"
-msgstr ""
+msgstr "Заставайцеся на сувязі з апошнімі рэлізамі Organic Maps, навінамі і абнаўленнямі ад нашай каманды"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/news/_index.md
@@ -637,13 +637,13 @@ msgstr "Навіны"
 #: content/news/_index.md
 #, no-wrap
 msgid "Organic Maps: Latest news and updates from our team"
-msgstr ""
+msgstr "Organic Maps: апошнія навіны і абнаўленні ад нашай каманды"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/privacy/index.md
 #, no-wrap
 msgid "No tracking, no ads, no data collection, no statistics collection, no spyware"
-msgstr ""
+msgstr "Без сачэння, без рэкламы, без збірання даных, без збору статыстыкі, без шпіёнскіх праграм"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/privacy/index.md
@@ -655,39 +655,39 @@ msgstr "Прыватнасць"
 #: content/privacy/index.md
 #, no-wrap
 msgid "Organic Maps: Privacy Policy"
-msgstr ""
+msgstr "Organic Maps: Палітыка Прыватнасці"
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Organic Maps respects your privacy and DOES NOT TRACK YOU."
-msgstr ""
+msgstr "Organic Maps паважае вашу прыватнасць і НЕ СОЧЫЦЬ ЗА ВАМІ."
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Unlike most other applications, there is no tracking, no ads, no spyware, no data and statistics collection in Organic Maps."
-msgstr ""
+msgstr "У адрозненні ад іншых праграм, у Organic Maps няма сачэння, рэкламы, шпіёнскіх праграм, збірання даных і статыстыкі."
 
 #. type: Plain text
 #: content/privacy/index.md
 msgid "Stay away from Big Tech's prying eyes!"
-msgstr ""
+msgstr "Трымайцеся далей ад цікаўных вачэй Буйных тэхналагічных кампаній!"
 
 #. type: Plain text
 #: content/privacy/index.md content/terms/index.md
 msgid "If you have any questions or suggestions, please contact us at [legal@organicmaps.app](mailto:legal@organicmaps.app)."
-msgstr ""
+msgstr "Калі у вас ёсць пытанні або прапановы, калі ласка, звяжыцеся з намі па [legal@organicmaps.app](mailto:legal@organicmaps.app)."
 
 #. type: Plain text
 #: content/privacy/index.md
 #, no-wrap
 msgid "<sub>This policy is effective as of 2021-04-24.</sub>\n"
-msgstr ""
+msgstr "<sub>Гэта палітыка дзейнічае з 24 красавіка 2021 г.</sub>\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/contribute/index.md
 #, no-wrap
 msgid "Different ways to support the development of our free application"
-msgstr ""
+msgstr "Розныя шляхі падтрымаць распрацоўку нашай бясплатнай праграмы"
 
 #. type: Yaml Front Matter Hash Value: extra menu_title
 #: content/contribute/index.md
@@ -699,82 +699,82 @@ msgstr "Зрабіць унёсак"
 #: content/contribute/index.md
 #, no-wrap
 msgid "Support the development of Organic Maps"
-msgstr ""
+msgstr "Падтрымайце распрацоўку Organic Maps"
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "Organic Maps is a free, open-source app. It is free from ads, it does not collect your personal information, and it is developed by a few enthusiasts with the help of the community."
-msgstr ""
+msgstr "Organic Maps гэта бясплатная праграма з адркытым зыходным кодам. Яна не ўтрымлівае рэкламу, не збірае вашу асабістую інфармацыю, і яна распрацавана некалькімі энтузіястамі пры падтрымцы супольнасці."
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "There are different ways to support the development:"
-msgstr ""
+msgstr "Іншыя спосабы падтрымаць распрацоўку:"
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Donate](@/donate/index.md)! Every dollar or euro counts and helps us to pay for servers and scale."
-msgstr ""
+msgstr "[Ахвяруйце](@/donate/index.md)! Кожны долар або еўра маюць значэнне і дапамагае нам аплачваць серверы і маштабаванне."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Report bugs and share ideas on our [GitHub][github] or via [email][email]."
-msgstr ""
+msgstr "Дасылайце праблемы і дзяліцеся ідэямі на нашым [GitHub][github] або праз [email][email]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier."
-msgstr ""
+msgstr "Дапамагайце нам [выпраўляць праблемы][contributing] і рабіць праверку кода, калі вы распрацоўшчык. Кожная выпраўленная маленькая праблема робіць некага шчаслівейшым."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Translate][translations] missing strings in the app's interface."
-msgstr ""
+msgstr "[Перакладзіце][translations] радкі, якіх не хапае ў інтэрфейсе праграмы."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Translate [App Store][translations_appstore] and [Android][translations_googleplay] descriptions into your language."
-msgstr ""
+msgstr "Перакладзіце на сваю мову апісанне праграмы ў [App Store][translations_appstore] і [Android][translations_googleplay]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "[Translate][translations_website] our web site into your language."
-msgstr ""
+msgstr "[Перакладзіце][translations_website] на сваю мову наш вэб-сайт."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data."
-msgstr ""
+msgstr "Далучайцеся да [OpenStreetMap][openstreetmap] супольнасці і ўносце ўклад у даныя карт."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app."
-msgstr ""
+msgstr "Выпраўляйце чырвоныя гарады, знойдзеныя нашым [валідатарам грамадскага транспарту][public_transport_validator], каб метро і лёгкарэйкавы транспарт працавалі ў праграме."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
-msgstr ""
+msgstr "Займайцеся падтрымкай іншых карыстальнікаў на [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Tell everyone about Organic Maps. A bigger community is a stronger community."
-msgstr ""
+msgstr "Раскажыце ўсім пра Organic Maps. Большая супольнасць - гэта мацнейшая супольнасць."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Rate us in [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
-msgstr ""
+msgstr "Стаўце нам адзнаку ў [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Any help is welcome!"
-msgstr ""
+msgstr "Мы рады любой дапамозе!"
 
 #. type: Plain text
 #: content/contribute/index.md
 msgid "Our small team is very grateful for your feedback and support. Organic Maps would not be possible without our users ❤️."
-msgstr ""
+msgstr "Наша невялікая каманда шчыра ўдзячная за вашы водгукі і падтрымку. Organic Maps не было б без нашых карыстальнікаў ❤️."
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/terms/index.md
@@ -797,27 +797,27 @@ msgstr "Organic Maps: умовы выкарыстання"
 #. type: Plain text
 #: content/terms/index.md
 msgid "This app is licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this application except in compliance with the License."
-msgstr ""
+msgstr "Гэта праграма ліцэнзавана пад Apache License, Version 2.0 (\"Ліцэнзія\"); вы не можаце выкарыстоўваць гэтую праграму, акрамя як у адпаведнасці з Ліцэнзіяй."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0][license]"
-msgstr ""
+msgstr "Вы можаце атрымаць копію Ліцэнзіі па [http://www.apache.org/licenses/LICENSE-2.0][license]"
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
-msgstr ""
+msgstr "Калі гэта не патрабуецца дзеючым заканадаўствам або не ўзгоднена ў пісьмовай форме, праграмнае забеспячэнне, якое распаўсюджваецца па Ліцэнзіі, распаўсюджваецца на ўмовах «ЯК ЁСЦЬ», БЕЗ ГАРАНТЫЙ АБО ЎМОЎ ЛЮБОГА РОДУ, як відавочных, так і ўскосных. Глядзіце Ліцэнзію для атрымання канкрэтнай фармулёўкі, якая рэгулюе дазволы і абмежаванні ў адпаведнасці з Ліцэнзіяй."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "Most libraries in the following directories on [GitHub][github] made by other people and organizations and licensed in different ways:"
-msgstr ""
+msgstr "Большасць бібліятэк у наступных каталогах на [GitHub][github] зроблены іншымі людзьмі і арганызацыямі і ліцэнзаваны іншым спосабам:"
 
 #. type: Bullet: '- '
 #: content/terms/index.md
 msgid "3party"
-msgstr ""
+msgstr "3party"
 
 #. type: Bullet: '- '
 #: content/terms/index.md
@@ -827,12 +827,12 @@ msgstr "Інструменты"
 #. type: Plain text
 #: content/terms/index.md
 msgid "Please refer to their LICENSE, COPYING or NOTICE files for terms of use."
-msgstr ""
+msgstr "Калі ласка, звярніцеся да іх файлаў ЛІЦЭНЗІІ, КАПІРАВАННЯ або ПАВЕДАМЛЕННЯ, каб азнаёміцца з умовамі карыстання."
 
 #. type: Plain text
 #: content/terms/index.md
 msgid "See also [data/copyright.html][copyright] file for a full list of copyright notices for Organic Maps application."
-msgstr ""
+msgstr "Глядзіце таксама [data/copyright.html][copyright] файл, каб атрымаць поўны спіс паведамлення аб аўтарскіх правах для праграмы Organic Maps."
 
 #. type: Link reference
 #: content/terms/index.md
@@ -844,13 +844,13 @@ msgstr "[github]: https://github.com/organicmaps/organicmaps"
 #: content/terms/index.md
 #, no-wrap
 msgid "[license]: http://www.apache.org/licenses/LICENSE-2.0"
-msgstr ""
+msgstr "[ліцэнзія]: http://www.apache.org/licenses/LICENSE-2.0"
 
 #. type: Link reference
 #: content/terms/index.md
 #, no-wrap
 msgid "[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
-msgstr ""
+msgstr "[аўтарскае права]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html"
 
 #. type: Hash Value: address
 #: translations.yaml
@@ -892,7 +892,7 @@ msgstr "Частыя пытанні"
 #: translations.yaml
 #, no-wrap
 msgid "Go to Top"
-msgstr ""
+msgstr "Уверх"
 
 #. type: Hash Value: install-appgallery
 #: translations.yaml

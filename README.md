@@ -1,12 +1,10 @@
 # Organic Maps Website
 
-This static website is built with [Zola](https://www.getzola.org/) and Cloudflare Pages.
-
-![Main Website](./static/images/website-main.png)
+[Organic Maps website](https://organicmaps.app) is built with [Zola](https://www.getzola.org/) and runs on [Cloudflare Pages](https://developers.cloudflare.com/pages/).
 
 ## Development
 
-Download the latest [zola](https://www.getzola.org/documentation/getting-started/installation/) (version 0.17.2 at the time of writing) for your operating system and set up the necessary path variable.
+Install the latest [zola](https://www.getzola.org/documentation/getting-started/installation/) for your operating system.
 
 Run `zola serve` for a local preview or `zola build` to generate static site in the `public` folder.
 
@@ -22,8 +20,7 @@ Every merge into the _master_ branch deploys changes into the production at http
 
 ### Updating News
 
-Run `npm run news` to automatically download news from our [Telegram channel](https://t.me/OrganicMapsApp),
-then create a git commit and push it.
+Use previously published news as a template.
 
 An example of a news post that is related to app updates/releases:
 
@@ -116,4 +113,9 @@ any improvement before implementing it to sync with our vision and plans.
 
 ## Translations
 
-Please help us with translating this web-site in your language. See [TRANSLATIONS.md](TRANSLATIONS.md) file for detailed instructions.
+Please help us with translating this web-site in your language.
+
+Markdown files in the content directly can be [edited directly on GitHub](https://github.com/organicmaps/website/tree/master/content) by pressing the Edit button
+(synchronize the translated file structure with the English `index.md` source). Or create an issue/ [send us](mailto:hello@organicmaps.app) the text, and we'll add translations.
+
+New language should be also added in `config.toml`.

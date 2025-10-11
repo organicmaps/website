@@ -1,7 +1,0 @@
-files:
-  - source: /content/**/index.md
-    ignore:
-      - '/content/news/202[1-4]*'
-    translation: /%original_path%/index.%two_letters_code%.md
-  - source: /content/_index.md
-    translation: /content/_index.%two_letters_code%.md

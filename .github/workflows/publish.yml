@@ -1,7 +1,7 @@
 name: Publish to Cloudflare Pages
 
 env:
-  ZOLA_VERSION: 0.17.2
+  ZOLA_VERSION: 0.21.0
 
 on:
   workflow_dispatch:  # keep manual Github Action trigger in case of any issues with CF pages

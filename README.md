@@ -22,8 +22,7 @@ Every merge into the _master_ branch deploys changes into the production at http
 
 ### Updating News
 
-Run `npm run news` to automatically download news from our [Telegram channel](https://t.me/OrganicMapsApp),
-then create a git commit and push it.
+Use previously published news as a template.
 
 An example of a news post that is related to app updates/releases:
 
@@ -116,4 +115,8 @@ any improvement before implementing it to sync with our vision and plans.
 
 ## Translations
 
-Please help us with translating this web-site in your language. See [TRANSLATIONS.md](TRANSLATIONS.md) file for detailed instructions.
+Please help us with translating this web-site in your language.
+
+Markdown files in the content directly can be edited directly (synchronize the structure with the English `index.md` source). Or create an issue/ [send us](mailto:hello@organicmaps.app) the text, and we'll add translations.
+
+New language should be also added in `config.toml`.

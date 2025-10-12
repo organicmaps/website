@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Inga annonser. Ingen spårning. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** är ett av få program som numera stöder 100 % av funktionerna utan en aktiv internetanslutning. Installera Organic Maps, ladda ner kartor, släng ditt SIM-kort (din operatör spårar dig förresten hela tiden) och gör en veckolång resa med en enda batteriladdning utan att någon byte skickas till nätet.
 
@@ -65,7 +65,7 @@ Organic Maps app är fri från spårare och andra dåliga saker:
 - Ingen skitvara
 - ~~Icke-besprutat~~ Rent organiskt!
 
-Ansökan verifieras av [Exodus Privacy Project][exodus]:
+Ansökan verifieras av [Exodus Integritetspolicy Project][exodus]:
 
 {{ exodus_screenshot() }}
 

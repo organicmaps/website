@@ -43,11 +43,11 @@ Kliknij ikonę preferowanej metody płatności poniżej:
    błędami. Chcemy dostarczać produkt wysokiej jakości.
 3. Mając wystarczająco dużo pieniędzy, można na przykład szybciej rozwijać
    nowe funkcje:
-   - Backup and sync bookmarks and tracks
+   - Tworzenie kopii zapasowych i synchronizacja zakładek oraz tras
    - Rejestrator śladów GPS z obsługą GPX
    - Zdjęcia satelitarne
    - Transport publiczny
-   - Traffic and accident reporting
+   - Raportowanie ruchu drogowego i wypadków
    - Zdjęcia i opinie
    - Lepsze style map dla różnych działań
    - Cieniowanie wzgórz i teren 3D

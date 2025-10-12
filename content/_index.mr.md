@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. विना जाहिराती. महितीचा मागोवा नाही. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे.
 
@@ -64,7 +64,7 @@ Organic Maps अॅप माहिती चोरांपासून आण�
 - कचरासॉफ्टवेयर नाही
 - ~~कीटकनाशक नाही~~~ शुद्ध व सेंद्रिय!
 
-[Exodus Privacy Project][exodus] कडून तपासलेले ऍप:
+[Exodus गोपनीयता Project][exodus] कडून तपासलेले ऍप:
 
 {{ exodus_screenshot() }}
 

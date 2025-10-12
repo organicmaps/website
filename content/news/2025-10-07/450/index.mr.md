@@ -48,7 +48,7 @@ Organic Maps आमच्या योगदानकर्त्यांमु
 - डेटा स्थलांतर UI सुधारणा (Alexander Borsuk)
 - श्रेणी वर्गीकरण UI सुधारणा (Alexander Borsuk)
 - Google स्थान सेवा काढली (Alexander Borsuk)
-- "City Address" शोध श्रेणी आता "Address" (Alexander Borsuk)
+- "City पत्ता" शोध श्रेणी आता "पत्ता" (Alexander Borsuk)
 - शोध परिणामावर क्लिक केल्यावर संभाव्य काळा स्क्रीन दुरुस्त (Viktor Govako)
 - "जवळ काय आहे" शोधात UI समायोजन (Viktor Govako)
 - डार्क थीमचा आदर न करणारे पॉप-अप डायलॉग दुरुस्त (Andrei Shkrob)

@@ -57,8 +57,8 @@ Organic Maps существует исключительно благодаря 
 
 - Присоединяйтесь к [русскоязычной группе в Telegram][telegram_chat_ru] для обратной связи и помощи;
 - Подключайтесь к программе тестирования бета-версий:
-  - [iOS Beta (TestFlight)][testflight]
-  - [Android Beta (Firebase)][firebase]
+  - [iOS Бета (TestFlight)][testflight]
+  - [Android Бета (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)](https://flathub.org/apps/details/app.organicmaps.desktop)
   - [Linux Desktop Beta (packages)](https://repology.org/project/organicmaps/versions)
 - Сообщайте о проблемах и предлагайте новые идеи [на GitHub][issues] или [по почте][email];

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: wędrówki, jazda na rowerze, szlaki i nawigacja offline'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** to skupiona na prywatności aplikacja offline z mapami i GPS do wędrówek pieszych, jazdy na rowerze, jazdy na rowerze i jazdy samochodem. Całkowicie za darmo. Bez reklam. Bez śledzenia. Opracowana z miłością przez społeczność open-source. Obsługiwana przez dane [OpenStreetMap][openstreetmap].
 
 **Organic Maps** to jedna z niewielu obecnie aplikacji, która obsługuje 100% funkcji bez aktywnego połączenia z internetem. Zainstaluj Organic Maps, pobierz mapy, wyrzuć kartę SIM (tak przy okazji, Twój operator stale Cię śledzi) i wybierz się na tygodniową wycieczkę na jednym ładowaniu baterii bez żadnego bajtu wysłanego do sieci.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> W roku 2023, Organic Maps [zyskało swój pierwszy milion](@/news/2023-12-23/281/index.md) użytkowników. [Pomóż nam](@/donate/index.md) się rozwijać!
 
 ### Pobierz i zainstaluj Organic Maps z [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 

@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Dim hysbysebion. Dim tracio. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosodwch Organic Maps, lawrlwythwch mapiau, a chael gwared ar eich cerdyn SIM , a chewch fynd ar drip am wythnos heb angen gwefru eich ffôn, a heb ddanfon beit i'r rhwydwaith.
 
@@ -65,7 +65,7 @@ Does dim tracwyr na phethau drwg arall yn yr ap Organic Maps:
 - Dim 'crapware'
 - ~~Dim plaladdwyr ~~ Yn hollol organig!
 
-Mae'r ap wedi cael ei wirio gan [Exodus Privacy Project][exodus]:
+Mae'r ap wedi cael ei wirio gan [Exodus Preifatrwydd Project][exodus]:
 
 {{ exodus_screenshot() }}
 

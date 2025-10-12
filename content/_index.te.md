@@ -7,7 +7,7 @@ sort_by: weight
 title: 'ఆర్గానిక్ మ్యాప్స్: ఆఫ్‌లైన్ హైక్, బైక్, ట్రైల్స్ మరియు నావిగేషన్'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. ప్రకటనలు ఉండవు. మిమ్మల్ని ట్రాక్ చేయదు. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 ఈరోజుల్లో  ఇంటర్నెట్ కనెక్షన్ లేకుండా 100% లక్షణాలను మద్దతు చేసే ఏకైక  అప్లికేషన్ ఒక్క  ఓర్గానిక్ మ్యాప్స్  మాత్రమే. ఓర్గానిక్ మ్యాప్స్ ఇన్స్టాల్ చేసి, మ్యాప్లను డౌన్‌లోడ్ చేస్కోని మీ సిమ్ కార్డును విసిరేయండి  ( మీ ఆపరేటర్ నిరంతరం మిమ్మల్ని ఎలానో  ట్రాక్ చేస్తుంది అనుకోండి ).ఇప్పుడు ఒక్క బైట్ కూడా నెట్వర్క్ కి పంపకుండా సింగల్ బాటరీ ఛార్జింగ్ తో  వారంపాటు విహారయాత్రకు  నిచ్చతింగా వెళ్లి రండి.
 

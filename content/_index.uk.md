@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Офлайн карти та GPS навігація'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** — це орієнтовані на приватність автономні мапи та GPS-застосунок для піших прогулянок, велоспорту, велопрогулянок та водіння автомобіля. Абсолютно безплатно. Без реклами. Ніякого відстеження. Розроблено з любов'ю спільнотою з відкритим вихідним кодом. Працює на основі даних [OpenStreetMap] [openstreetmap].
 
 **Organic Maps** - один з небагатьох застосунків, який підтримує 100% функціональність без активного інтернет-з’єднання. Встановіть Organic Maps, завантажте мапи, викиньте SIM-карту (до речі, ваш оператор постійно відстежує вас) та вирушайте в тижневу подорож на одному заряді батареї без жодного байта, відправленого в мережу.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> У грудні 2024, Organic Maps [досягнув 3 млн встановлень](@/news/2024-12-20/411/index.md) користувачами. [Допоможіть нам](@/donate/index.md) розвиватися далі!
 
 ### Завантажте та встановіть Organic Maps з [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -65,7 +65,7 @@ Organic Maps не містить відстеження та інших пога
 - Без сміття
 - ~~Без пестицидів!~~ Чиста органіка!
 
-Застосунок перевірений [Exodus Privacy Project][exodus]:
+Застосунок перевірений [Exodus Конфіденційність Project][exodus]:
 
 {{ exodus_screenshot() }}
 

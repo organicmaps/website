@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: offline túrázás, kerékpározás, turistautak és navigáció'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség fejleszti és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
 
 **Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítse az Organic Maps-et, töltse le a térképeket, dobja el a SIM-kártyáját (máskülönben a szolgáltatója folyamatosan nyomon követi Önt), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül induljon el egy egyhetes útra.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> 2024 decemberében az Organic Maps alkalmazást már [3 millió felhasználó](@/news/2024-12-20/411/index.md) telepítette. [Segítsen nekünk](@/donate/index.md) a további növekedésben!
 
 ### Töltse le és telepítse az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -66,7 +66,7 @@ Az Organic Maps alkalmazás mentes a nyomkövetőktől és egyéb rossz dolgokt�
 - Nincs szemét
 - ~~Nincsenek növényvédő szerek~~ Tisztán bio!
 
-Az alkalmazás az [Exodus Privacy Project][exodus] által ellenőrzött:
+Az alkalmazás az [Exodus Adatvédelem Project][exodus] által ellenőrzött:
 
 {{ exodus_screenshot() }}
 

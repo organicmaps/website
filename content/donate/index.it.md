@@ -3,7 +3,7 @@ title: Nutri i nostri sviluppatori e i server di Organic Maps!
 description: Dona per sostenere lo sviluppo della nostra applicazione gratuita
 weight: 10
 extra:
-  menu_title: Donate
+  menu_title: Donazioni
   preview_image: donate/donate.png
 ---
 
@@ -80,7 +80,7 @@ donare una volta sola.
 | Indirizzo della banca:     | Avenue Louise 54/S52, Brussels 1050, Belgium |
 | Descrizione del pagamento: | Donation                                     |
 
-### Crypto
+## Cripto
 
 Si prega di considerare una donazione annuale per ridurre le spese totali. Algorand, Tron,
 Litecoin e Monero offrono commissioni basse, ma la situazione cambia ogni giorno.
@@ -96,4 +96,4 @@ Sì! Ci sono molti modi per sostenere Organic Maps. Vedi la pagina
 [github sponsors]: https://github.com/sponsors/organicmaps "GitHub Sponsors"
 [liberapay]: https://liberapay.com/OrganicMaps/donate "Liberapay"
 [sepa]: #sepa-e-bonifico-bancario-diretto "SEPA e bonifico bancario diretto"
-[crypto]: #crypto "Donazioni in criptovalute"
+[crypto]: #cripto "Donazioni in criptovalute"

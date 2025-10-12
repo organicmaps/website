@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Iragarkirik gabe. Jarraipenik ez. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** da konexiorik gabe %100-ean funtzionatzen duen aplikazio gutxietako bat. Instalatu Organic Maps, deskargatu mapak eta bota zaborretara zure SIM txartela (bide batez, zure telefono konpainiak uneoro jarraipena egiten dizu), eta joan asteroko ibilaldira bateria karga batekin eta sarera byte bakarra ere bidali gabe.
 
@@ -66,7 +66,7 @@ Organic Maps app-ak ez du tracker edo beste trikimailu zikinik:
 - Zabor-koderik ez
 - ~~Pestizidarik ez~~ Guztiz organikoa!
 
-Aplikazio hau [Exodus Privacy Project][exodus]-ek egiaztatzen du:
+Aplikazio hau [Exodus Pribatutasuna Project][exodus]-ek egiaztatzen du:
 
 {{ exodus_screenshot() }}
 

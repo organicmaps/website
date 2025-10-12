@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Geen advertensies. Geen nasporing. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi u SIM-kaart weg (trouens, u verskaffer spoor u altyd na), en gaan ’n week op pad sonder om u battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
 
@@ -64,7 +64,7 @@ Organic Maps is vry van naspoorders en ander slegte dinge:
 - Geen kafware
 - ~~Geen insekdoders~~ Heeltemal organies!
 
-Die toepassing is geverifieer deur [Exodus Privacy Project][exodus]:
+Die toepassing is geverifieer deur [Exodus Privaatheid Project][exodus]:
 
 {{ exodus_screenshot() }}
 

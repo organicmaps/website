@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Sen publicidade. Sen seguimento. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** é unha das poucas aplicacións de hoxe en día que admite o 100 % das funcións sen unha conexión activa a Internet. Instala Organic Maps, descarga mapas, tira a tarxeta SIM (por certo, o teu operador rastrexache constantemente) e fai unha viaxe dunha semana cunha soa carga de batería sen que se envíe ningún byte á rede.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> En 2023, o Organic Maps [alcanzou o seu primeiro millón de usuarios](@/news/2023-12-23/281/index.md). [Axúdenos](@/donate/index.md) a crecer!
 
 ### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -64,7 +64,7 @@ Organic Maps está libre de rastreadores e outras cousas malas:
 - Sen programas basura
 - ~~Sen pesticidas~~ ¡Puramente orgánico!
 
-Esta aplicación foi verificada por [Exodus Privacy Project][exodus]:
+Esta aplicación foi verificada por [Exodus Privacidade Project][exodus]:
 
 {{ exodus_screenshot() }}
 

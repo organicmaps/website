@@ -4,7 +4,7 @@ description: Mappe offline veloci e dettagliate per viaggiatori, turisti, automo
 page_template: index.html
 sort_by: weight
 extra:
-  menu_title: Home
+  menu_title: Panoramica
 ---
 
 **Organic Maps** è un'applicazione gratuita di mappe offline per Android e iOS per viaggiatori, turisti, escursionisti e ciclisti, basata su dati crowd-sourced di **[OpenStreetMap](https://www.openstreetmap.org)**.

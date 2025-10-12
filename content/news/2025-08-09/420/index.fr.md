@@ -49,7 +49,7 @@ P.S. ...et bien plus arrive ! Votre soutien nous aide et nous motive à construi
 - Taper "cop" dans la recherche trouve les postes de police, tandis que "film" ou "movie theater" localise les cinémas (theadventurer62)
 - "Ouvrir dans une autre application" affiche maintenant le point sélectionné dans Google Maps (Alexander Borsuk)
 - Traduction espagnole pour plus de catégories de recherche (David Martinez)
-- Diverses traductions mises à jour (Contributeurs Weblate)
+- Diverses traductions mises à jour (Contribuerurs Weblate)
 
 Obtenez Organic Maps sur [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [FDroid][fdroid].
 

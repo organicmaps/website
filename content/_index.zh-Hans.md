@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. 无广告. 无跟踪器. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
 
@@ -60,7 +60,7 @@ Organic Maps 应用没有跟踪器和其他糟糕的东西：
 - 无垃圾软件
 - ~~无有毒内容~~ 纯粹绿色！
 
-本应用程序已经[Exodus Privacy Project][exodus]认证：
+本应用程序已经[Exodus 隐私 Project][exodus]认证：
 
 {{ exodus_screenshot() }}
 

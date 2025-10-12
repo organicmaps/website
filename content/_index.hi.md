@@ -7,7 +7,7 @@ sort_by: weight
 title: 'ऑर्गेनिक नक़्शे: ऑफ़लाइन सैर, बाइकिंग, रास्ते, और दिशाएं'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. बिना विज्ञापन. कोई ट्रैकिंग नहीं. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
 
 **ऑर्गेनिक मैप्स** आजकल के कुछ एप्लिकेशन में से एक है जो सक्रिय इंटरनेट कनेक्शन के बिना 100% सुविधाओं का समर्थन करता है। ऑर्गेनिक मैप्स इंस्टॉल करें, मैप्स डाउनलोड करें, अपना सिम कार्ड फेंक दें (वैसे, आपका ऑपरेटर आपको लगातार ट्रैक करता है), और नेटवर्क पर कुछ भी भेजे बिना सिर्फ एक बैटरी चार्ज पर साप्ताहिक यात्रा के लिए जाएं।
 
@@ -64,7 +64,7 @@ mode') }}
 - कोई क्रैपवेयर नहीं
 - ~~कोई कीटनाशक नहीं~~केवल आर्गेनिक!
 
-यह ऐप [Exodus Privacy Project][exodus] द्वारा सत्यापित किया गया है:
+यह ऐप [Exodus निजता Project][exodus] द्वारा सत्यापित किया गया है:
 
 {{ exodus_screenshot() }}
 

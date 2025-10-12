@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source. Využívá data [OpenStreetMap][openstreetmap].
 
 **Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> V prosinci 2024 dosáhly Organic Maps [3 milionů instalací](@/news/2024-12-20/411/index.md) uživatelů. [Pomozte nám](@/donate/index.md) dále růst!
 
 ### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}
 
@@ -65,7 +65,7 @@ Organic Maps neobsahuje sledovací zařízení a další špatné věci:
 - Žádný crapware
 - ~~Žádné pesticidy~~ Čistě organické!
 
-Aplikace je ověřena od [Exodus Privacy Project][exodus]:
+Aplikace je ověřena od [Exodus Soukromí Project][exodus]:
 
 {{ exodus_screenshot() }}
 

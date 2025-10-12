@@ -60,7 +60,7 @@ Organic Maps 应用没有跟踪器和其他糟糕的东西：
 - 无垃圾软件
 - ~~无有毒内容~~ 纯粹绿色！
 
-本应用程序已经[Exodus 隐私 Project][exodus]认证：
+本应用程序已经[Exodus Privacy Project][exodus]认证：
 
 {{ exodus_screenshot() }}
 

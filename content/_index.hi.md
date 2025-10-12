@@ -64,7 +64,7 @@ mode') }}
 - कोई क्रैपवेयर नहीं
 - ~~कोई कीटनाशक नहीं~~केवल आर्गेनिक!
 
-यह ऐप [Exodus निजता Project][exodus] द्वारा सत्यापित किया गया है:
+यह ऐप [Exodus Privacy Project][exodus] द्वारा सत्यापित किया गया है:
 
 {{ exodus_screenshot() }}
 

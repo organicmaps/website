@@ -65,7 +65,7 @@ Organic Maps app är fri från spårare och andra dåliga saker:
 - Ingen skitvara
 - ~~Icke-besprutat~~ Rent organiskt!
 
-Ansökan verifieras av [Exodus Integritetspolicy Project][exodus]:
+Ansökan verifieras av [Exodus Privacy Project][exodus]:
 
 {{ exodus_screenshot() }}
 

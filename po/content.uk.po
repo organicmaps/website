@@ -28,7 +28,7 @@ msgstr "Organic Maps: Офлайн карти та GPS навігація"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr "**Organic Maps** — це орієнтовані на приватність автономні мапи та GPS-застосунок для піших прогулянок, велоспорту, велопрогулянок та водіння автомобіля. Абсолютно безплатно. Без реклами. Ніякого відстеження. Розроблено з любов'ю спільнотою з відкритим вихідним кодом. Працює на основі даних [OpenStreetMap] [openstreetmap].\n"
+msgstr "**Organic Maps** — це орієнтовані на приватність автономні мапи та GPS-застосунок для піших прогулянок, велоспорту, велопрогулянок та водіння автомобіля. Абсолютно безплатно. Без реклами. Ніякого відстеження. Розроблено з любов'ю спільнотою з відкритим вихідним кодом. Працює на основі даних [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md

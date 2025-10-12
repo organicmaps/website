@@ -23,6 +23,6 @@ extra:
 
 اگر سوال یا پیشنهادی دارید از طریق این ایمیل ها با ما ارتباط بر قرار کنید [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
-لینکلینک[github]: https://github.com/organicmaps/organicmaps
-لینکلینک[license]: http://www.apache.org/licenses/LICENSE-2.0
-لینک کپی رایتلینک کپی رایت[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[github]: https://github.com/organicmaps/organicmaps
+[license]: http://www.apache.org/licenses/LICENSE-2.0
+[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

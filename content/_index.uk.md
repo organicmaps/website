@@ -107,7 +107,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="../sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Проєкт з покращення пошуку та шрифтів</a> був <a href="https://nlnet.nl/project/OrganicMaps/">профінансований</a> через NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> створений <a href="https://nlnet.nl/">NLnet Foundation</a> за фінансової підтримки програми Європейської комісії <a href="https://www.ngi.eu/">Інтернет наступного покоління</a>під егідою Генерального директорату з питань комунікаційних мереж, контенту та технологій в рамках грантової угоди № 101069594.
@@ -115,7 +115,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="../sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> підтримали 5 студентських проєктів у програмі Google Summer of Code протягом програм <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> та <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> років. Серед проектів, що заслуговують на увагу, — Android Auto та Wikipedia Dump Extractor.
@@ -123,7 +123,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="../sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">надає нам</a> два віртуальні сервери з безплатною пропускною здатністю 400 ТБ / місяць для розміщення та обслуговування завантажень і оновлень мап.
@@ -131,7 +131,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="../sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">надає нам</a>безплатний виділений сервер вартістю близько $12 000 на рік для обслуговування мап В'єтнаму та Південно-Східної Азії.
@@ -139,7 +139,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="../sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> виділила <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">мікрогрант у розмірі $1000 для Organic Maps у лютому 2023 року.
@@ -151,31 +151,5 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 
 Organic Maps - це [ПЗ з відкритим початковим кодом][github], ліцензоване за
 ліцензією Apache License 2.0.
-
-- Будь ласка, приєднуйтесь до нашої бета-програми, пропонуйте свої функції
-  та повідомляйте про помилки:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
-- Повідомляйте про помилки або проблеми на [GitHub][issues] або через
-  [ел. пошту][email].
-- [Обговорюйте][ideas] ідеї або пропонуйте запити на нові функції.
-- Підписуйтесь на наш [Telegram канал][telegram] або на [matrix
-  space][matrix].
-- Приєднуйтесь до нашої [Telegram групи][telegram_chat], щоб подискутувати з
-  іншими користувачами.
-- Відвідайте нашу [сторінку на GitHub][github].
-- Слідкуйте за нами у [FOSStodon][fosstodon], [Mastodon][mastodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
-- Приєднуйтесь (або створіть і повідомте нам) до місцевої спільноти:
-  [Кімната Matrix угорських
-  перекладачів](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [китайсько-][telegram_chat_zh], [французько-][telegram_chat_fr],
-  [російсько-][telegram_chat_ru], [турецько-][telegram_chat_tr]мовні
-  Telegram-чати.
-
-[fork]: https://uk.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA
 
 {{ references() }}

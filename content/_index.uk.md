@@ -107,7 +107,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="../sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Проєкт з покращення пошуку та шрифтів</a> був <a href="https://nlnet.nl/project/OrganicMaps/">профінансований</a> через NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> створений <a href="https://nlnet.nl/">NLnet Foundation</a> за фінансової підтримки програми Європейської комісії <a href="https://www.ngi.eu/">Інтернет наступного покоління</a>під егідою Генерального директорату з питань комунікаційних мереж, контенту та технологій в рамках грантової угоди № 101069594.
@@ -115,7 +115,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="../sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> підтримали 5 студентських проєктів у програмі Google Summer of Code протягом програм <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> та <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> років. Серед проектів, що заслуговують на увагу, — Android Auto та Wikipedia Dump Extractor.
@@ -123,7 +123,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="../sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">надає нам</a> два віртуальні сервери з безплатною пропускною здатністю 400 ТБ / місяць для розміщення та обслуговування завантажень і оновлень мап.
@@ -131,7 +131,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="../sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">надає нам</a>безплатний виділений сервер вартістю близько $12 000 на рік для обслуговування мап В'єтнаму та Південно-Східної Азії.
@@ -139,7 +139,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="../sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> виділила <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">мікрогрант у розмірі $1000 для Organic Maps у лютому 2023 року.

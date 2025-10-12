@@ -104,7 +104,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt vyhledávání a písem</a> byl <a href="https://nlnet.nl/project/OrganicMaps/">financován</a> pomocí fondu NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fond NGI0 Entrust</a> je zřízen organizací <a href="https://nlnet.nl/">NLnet Foundation</a> s finanční podporou z <a href="https://www.ngi.eu/">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..
@@ -112,7 +112,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
       Společnost <a href="https://summerofcode.withgoogle.com/">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> a <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.
@@ -120,7 +120,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.
@@ -128,7 +128,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.
@@ -136,7 +136,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> nám <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">udělilo mikro-grant $1000</a> v únoru 2023.

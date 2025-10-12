@@ -107,7 +107,7 @@ seleccionadas:
 <table style="border-spacing: 20px">
 <tr>
 <td>
-<a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="La Fundación NLnet" width="200px"></a>
+<a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="La Fundación NLnet" width="200px"></a>
 </td>
 <td>
 El proyecto de mejora de la búsqueda y las fuentes <a href="https://github.com/organicmaps/organicmaps/milestone/7">se ha financiado a través del Fondo Entrust de NGI0. El <a href="https://nlnet.nl/entrust/">Fondo NGI0 Entrust</a> fue creado por la <a href="https://nlnet.nl/">Fundación NLnet</a> con el apoyo financiero del programa <a href="https://www.ngi.eu/">Internet de Próxima Generación</a> de la Comisión Europea, bajo los auspicios de la Dirección General de Redes de Comunicación, Contenido y Tecnología, en virtud del acuerdo de subvención n.º 101069594.
@@ -116,7 +116,7 @@ El proyecto de mejora de la búsqueda y las fuentes <a href="https://github.com/
 </tr>
 <tr>
 <td>
-<a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+<a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
 
 </td>
 <td>
@@ -124,14 +124,14 @@ El proyecto de mejora de la búsqueda y las fuentes <a href="https://github.com/
 </tr>
 <tr>
 <td>
-<a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+<a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
 </td>
 <td>
 El proveedor de servicios de internet (ISP) de Mythic Beasts, <a href="https://www.mythic-beasts.com/">nos proporciona</a> dos servidores virtuales con 400 TB al mes de ancho de banda gratuito para alojar y gestionar las descargas y actualizaciones de mapas. </td>
 </tr>
 <tr>
 <td>
-<a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+<a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
 </td>
 <td>
 <a href="https://44plus.vn">44+ Technologies</a> nos proporciona <a href="https://44plus.vn/organicmaps">un servidor dedicado gratuito con un valor aproximado de $12,000 al año para servir mapas en Vietnam y el Sudeste Asiático.
@@ -139,7 +139,7 @@ El proveedor de servicios de internet (ISP) de Mythic Beasts, <a href="https://w
 </tr>
 <tr>
 <td>
-<a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+<a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
 </td>
 <td>
 <a href="https://futo.org">FUTO</a> otorgó una <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">microsubvención de $1000</a> a Organic Maps en febrero de 2023.

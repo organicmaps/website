@@ -108,7 +108,7 @@ edenemist:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Otsingu ja kirjatüüpide parendusprojekiti</a> <a href="https://nlnet.nl/project/OrganicMaps/">rahastas</a> NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> on loodud <a href="https://nlnet.nl/">NLnet Foundationi</a> poolt Euroopa Komisjoni rahalisel toel <a href="https://www.ngi.eu/">Next Generation Internet programme'i</a> alusel, Sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all uurimistoetuse nr 101069594 põhjal.
@@ -116,7 +116,7 @@ edenemist:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> toetas viie üliõpilase osalemist Google Summer of Code programmis aastatel <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> ja <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Märkimisväärsel projektid olid Android Auto liidestus ja Wikipedia Dump Extractor.
@@ -124,7 +124,7 @@ edenemist:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
       Internetiteenusepakkuja <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">tagab meile</a> kaks virtuaalserverit koos 400 TB/kuus tasuta ribalaiusega kaartide ja uuenduste säilitamiseks ja levitamiseks.
@@ -132,7 +132,7 @@ edenemist:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">tagab meile </a>tasuta serveri väärtusega $12,000/aastas  tööks Vietnamis ja Kagu-Aasias.
@@ -140,7 +140,7 @@ edenemist:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> kinnitas Organic Mapsile veebruaris 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 mikrotoetuse</a>.

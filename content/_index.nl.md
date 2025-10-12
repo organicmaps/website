@@ -104,7 +104,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Het Search & Fonts improvement project</a> is <a href="https://nlnet.nl/project/OrganicMaps/">betaald</a> door het NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is opgezet door de <a href="https://nlnet.nl/">NLnet Foundation</a> met financiële steun van de Europese Commissie's <a href="https://www.ngi.eu/">Next Generation Internet programma</a>, onder de mantel van DG Communications Networks, Content and Technology onder grant agreement No 101069594.
@@ -112,7 +112,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> steunde 5 studentenprojecten in het Google Summer of Code programma tijdens <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> en <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programma's. Noemenswaardige projecten waren Android Auto en Wikipedia Dump Extractor.
@@ -120,7 +120,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
@@ -128,7 +128,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
@@ -136,7 +136,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.

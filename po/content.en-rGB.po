@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-04-28 16:05+0000\nLast-Translator: Andi Chandler <andi@gowling.com>\nLanguage-Team: English (United Kingdom) <https://hosted.weblate.org/projects/organicmaps/website/en_GB/>\nLanguage: en-rGB\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:02+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: English (United Kingdom) <https://hosted.weblate.org/projects/organicmaps/website/en_GB/>\nLanguage: en-rGB\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -294,61 +294,61 @@ msgstr "Organic Maps is an indie community-driven open-source project"
 #: content/_index.md
 #, markdown-text
 msgid "We protect your privacy from Big Tech's prying eyes"
-msgstr ""
+msgstr "We protect your privacy from Big Tech's prying eyes"
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Stay safe no matter wherever you are"
-msgstr ""
+msgstr "Stay safe no matter wherever you are"
 
 #. type: Plain text
 #: content/_index.md content/privacy/index.md
 #, markdown-text
 msgid "Reject surveillance - embrace your freedom."
-msgstr ""
+msgstr "Reject surveillance - embrace your freedom."
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "**[Give Organic Maps a try!](#install)**\n"
-msgstr ""
+msgstr "**[Give Organic Maps a try!](#install)**\n"
 
 #. type: Title ##
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Who is paying for the free app?"
-msgstr ""
+msgstr "Who is paying for the free app?"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "The app is free for everyone. Please [donate](@/donate/index.md) to support us!"
-msgstr ""
+msgstr "The app is free for everyone. Please [donate](@/donate/index.md) to support us!"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "To donate conveniently, click on your preferred payment method icon below:"
-msgstr ""
+msgstr "To donate conveniently, click on your preferred payment method icon below:"
 
 #. type: Plain text
 #: content/_index.md content/donate/index.md
 #, markdown-text
 msgid "{{ donate_buttons() }}"
-msgstr ""
+msgstr "{{ donate_buttons() }}"
 
 #. type: Title ###
 #: content/_index.md
 #, markdown-text, no-wrap
 msgid "Our sponsors:"
-msgstr ""
+msgstr "Our sponsors:"
 
 #. type: Plain text
 #: content/_index.md
 #, markdown-text
 msgid "[Mythic Beasts](https://www.mythic-beasts.com/) ISP [provides us][mythic_beasts_donation] two virtual servers with 400 TB/month of free bandwidth to help our users with maps downloads and updates."
-msgstr ""
+msgstr "[Mythic Beasts](https://www.mythic-beasts.com/) ISP [provides us][mythic_beasts_donation] two virtual servers with 400 TB/month of free bandwidth to help our users with maps downloads and updates."
 
 #. type: Title ##
 #: content/_index.md
@@ -360,37 +360,37 @@ msgstr "Community"
 #: content/_index.md
 #, markdown-text
 msgid "Organic Maps is an [open-source software][github] licensed under the Apache License 2.0."
-msgstr ""
+msgstr "Organic Maps is an [open-source software][github] licensed under the Apache Licence 2.0."
 
 #. type: Bullet: '- '
 #: content/_index.md
 #, markdown-text
 msgid "Please join our beta program, suggest your features, and report bugs:"
-msgstr ""
+msgstr "Please join our beta program, suggest your features, and report bugs:"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 #, markdown-text
 msgid "[iOS Beta (TestFlight)][testflight]"
-msgstr ""
+msgstr "[iOS Beta (TestFlight)][testflight]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 #, markdown-text
 msgid "[Android Beta (Firebase)][firebase]"
-msgstr ""
+msgstr "[Android Beta (Firebase)][firebase]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 #, markdown-text
 msgid "[Linux Desktop Beta (Flatpak)][flatpak]"
-msgstr ""
+msgstr "[Linux Desktop Beta (Flatpak)][flatpak]"
 
 #. type: Bullet: '  * '
 #: content/_index.md
 #, markdown-text
 msgid "[Linux Desktop Beta (packages)][repology]"
-msgstr ""
+msgstr "[Linux Desktop Beta (packages)][repology]"
 
 #. type: Bullet: '- '
 #: content/_index.md

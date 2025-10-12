@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-25 23:18+0000\nLast-Translator: summoner001 <summoner@vivaldi.net>\nLanguage-Team: Hungarian <https://hosted.weblate.org/projects/organicmaps/website/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-14 16:01+0000\nLast-Translator: summoner001 <summoner@vivaldi.net>\nLanguage-Team: Hungarian <https://hosted.weblate.org/projects/organicmaps/website/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -490,7 +490,7 @@ msgstr "Adományozzon az Organic Maps fejlesztésének támogatására"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:"
-msgstr "Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][stripe]** köszönhetően :"
+msgstr "Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** **[adományoknak][stripe]** köszönhetően:"
 
 #. type: Bullet: '- '
 #: content/donate/index.md
@@ -796,7 +796,7 @@ msgstr "Javítsa a [tömegközlekedési érvényesítő][public_transport_valida
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]."
-msgstr "Támogassa a többi felhasználót a [GitHub]-[issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] felületeken."
+msgstr "Támogassa a többi felhasználót a [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] felületeken."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md

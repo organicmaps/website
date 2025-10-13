@@ -106,7 +106,7 @@ fejlesztésének finanszírozására:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="Az NLnet Alapítvány" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="Az NLnet Alapítvány" width="200px"></a>
     </td>
     <td>
      <a href="https://github.com/organicmaps/organicmaps/milestone/7">A Keresés és betűtípusfejlesztés projektet</a> az NGI0 Entrust Fund <a href="https://nlnet.nl/project/OrganicMaps/">finanszírozta</a>. <a href="https://nlnet.nl/entrust/">Az NGI0 Entrust Fundot</a> az <a href="https://nlnet.nl/">NLnet Alapítvány</a> hozta létre az Európai Bizottság <a href="https://www.ngi.eu/">Újgenerációs Internet Kezdeményezés</a> pénzügyi támogatásával, a Tartalmak, Technológiák és Kommunikációs Hálózatok Főigazgatóságának égisze alatt, az 101069594 számú támogatási megállapodás keretében.
@@ -114,7 +114,7 @@ fejlesztésének finanszírozására:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
      <a href="https://summerofcode.withgoogle.com/">A Google</a> 5 diák projektjét támogatta a Google Summer of Code programban a <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022-es</a> és <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023-as</a> programok során. A figyelemre méltó projektek között szerepelt az Android Auto és a Wikipedia Dump Extractor.
@@ -122,7 +122,7 @@ fejlesztésének finanszírozására:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
      <a href="https://www.mythic-beasts.com/">A Mythic Beasts</a> ISP két virtuális kiszolgálót <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">biztosít számunkra</a> 400 TB/hó ingyenes sávszélességgel a térképek letöltésének és frissítésének hosztolásához és kiszolgálásához.
@@ -130,7 +130,7 @@ fejlesztésének finanszírozására:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
      <a href="https://44plus.vn">a 44+ Technologies</a> egy ingyenes dedikált kiszolgálót <a href="https://44plus.vn/organicmaps">biztosít számunkra </a>körülbelül $12,000/év értékben, hogy térképeket szolgáltassunk Vietnámban és Délkelet-Ázsiában.
@@ -138,7 +138,7 @@ fejlesztésének finanszírozására:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
      <a href="https://futo.org">A FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 dolláros mikro-ösztöndíjat ítélt oda</a> az Organic Mapsnek 2023 februárjában.

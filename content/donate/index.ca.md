@@ -29,7 +29,7 @@ Feu clic a la icona de pagament preferit:
    info is our another goal.
 3. Depenem dels vostres donatius per a continuar amb la nostra missió de
    mantenir l'Organic Maps obert i gratuït. I lliure d'anuncis.
-4. We love what we do, and we love our users ❤️.
+4. Ens encanta el que fem i estimem els nostres usuaris ❤️.
 
 ## Per què un projecte gratuït necessita diners?
 
@@ -42,12 +42,12 @@ Feu clic a la icona de pagament preferit:
    comentaris i informes. Volem lliurar un producte de qualitat.
 3. Amb suficients diners, poden desenvolupar-se més ràpidament prestacions
    noves, com ara:
-   - Backup and sync bookmarks and tracks
+   - Còpia de seguretat i sincronització de marcadors i recorreguts
    - Gravadora GPS amb compatibilitat per a GPX
    - Imatges satel·litals
    - Transport públic
-   - Traffic and accident reporting
-   - Photos and Reviews
+   - Informació sobre trànsit i accidents
+   - Fotos i ressenyes
    - Millors estils cartogràfics per a diferents activitats
    - Ombreig de pujols i terreny 3D
    - Editor OpenStreetMap més avançat

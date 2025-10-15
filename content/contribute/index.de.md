@@ -9,7 +9,7 @@ weight: 20
 
 Organic Maps ist eine kostenlose, quelloffene App. Sie ist frei von Werbung,
 sie sammelt keine persönlichen Daten und sie wird von Enthusiasten mit Hilfe
-der Community entwickelt.
+der Gemeinschaft entwickelt.
 
 Es gibt verschiedene Möglichkeiten, die Entwicklung zu unterstützen:
 
@@ -25,7 +25,7 @@ Es gibt verschiedene Möglichkeiten, die Entwicklung zu unterstützen:
 - Übersetze [App Store][translations_appstore]- und
   [Android][translations_googleplay]-Beschreibungen in deiner Sprache.
 - [Übersetze][translations_website] unsere Webseite in deine Sprache.
-- Werde Mitglied der [OpenStreetMap][openstreetmap]-Community und trage zu
+- Werde Mitglied der [OpenStreetMap][openstreetmap]-Gemeinschaft und trage zu
   den Kartendaten bei.
 - Repariere rote Städte, die von unserem
   [ÖPNV-Validator][public_transport_validator] gefunden wurden, damit U- und

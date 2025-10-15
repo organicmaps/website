@@ -10,7 +10,7 @@ Er zijn ook veel verbeteringen en oplossingen voor iOS en Android (details hiero
 Recente functies die je misschien gemist hebt:
 - Lijnnummers van openbaar vervoer bij selectie van een halte
 - Wandel- en fietsroutes (schakel ze in via de knop Lagen linksboven)
-- Namen van markeringen op de kaart tonen (inschakelen in Instellingen)
+- Naamn van markeringen op de kaart tonen (inschakelen in Instellingen)
 - Het ✎-pictogram maakt snel bewerken van markeringen mogelijk
 
 Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index.nl.md) en [jouw steun](@/contribute/index.md).

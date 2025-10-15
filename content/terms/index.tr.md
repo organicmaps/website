@@ -3,7 +3,7 @@ title: "Organic Maps: koşullar"
 description: "Organic Maps uygulaması için kullanım koşulları"
 weight: 1000
 extra:
-  menu_title: Terms
+  menu_title: Koşullar
 ---
 
 Bu uygulama Apache Lisansı, Sürüm 2.0 ("Lisans") altında lisanslanmıştır;
@@ -20,7 +20,7 @@ Aşağıdaki dizinlerdeki kütüphanelerin çoğu diğer kişi ve
 kuruluşlar tarafından yapılmış ve farklı şekillerde lisanslanmıştır:
 
 - 3party
-- tools
+- Araçlar
 
 Kullanım şartları için lütfen bu kütüphanelerin LICENCE, COPYING veya NOTICE dosyalarına bakın.
 

@@ -3,7 +3,7 @@ title: Sostieni lo sviluppo di Organic Maps
 description: Diversi modi per sostenere lo sviluppo della nostra applicazione gratuita
 weight: 20
 extra:
-  menu_title: Contribute
+  menu_title: Contribuisci
   preview_image: contribute/contribute.jpg
 ---
 

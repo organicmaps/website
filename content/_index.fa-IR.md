@@ -140,10 +140,10 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
 Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز Apache License 2.0 است.
 
 - لطفا به برنامه آزمایشی ما بپیوندید، ویژگی‌های پیشنهادی خود را مطرح کنید و مشکلات را گزارش دهید:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  * [iOS بتا (TestFlight)][testflight]
+  * [بتا اندروید (Firebase)][firebase]
+  * [بتا دسکتاپ لینوکس (Flatpak)][flatpak]
+  * [بتا دسکتاپ لينوکس (packages)][repology]
 - مشکلات یا ایرادات را به [ردیاب مشکلات][issues] گزارش دهید یا [به ما ایمیل بزنید][email].
 - [ایده‌های خودتون را مطرح کنید][ideas] یا درخواست ویژگی‌های جدید پیشنهاد دهید.
 - برای دریافت به‌روزرسانی‌ها، به [کانال تلگرام ما][telegram] یا [فضای ماتریکس][matrix] بپیوندید.

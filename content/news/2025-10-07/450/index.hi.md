@@ -48,7 +48,7 @@ Organic Maps हमारे योगदानकर्ताओं, [आपक
 - डेटा माइग्रेशन UI सुधार (Alexander Borsuk)
 - कैटेगरी श्रेणी UI सुधार (Alexander Borsuk)
 - Google लोकेशन सर्विस हटाई (Alexander Borsuk)
-- "City Address" खोज श्रेणी अब "Address" है (Alexander Borsuk)
+- "City पता" खोज श्रेणी अब "पता" है (Alexander Borsuk)
 - खोज परिणाम पर क्लिक करते समय संभावित काली स्क्रीन फिक्स (Viktor Govako)
 - "What's Nearby" खोज में UI एडजस्टमेंट (Viktor Govako)
 - पॉप-अप डायलॉग जो डार्क थीम का सम्मान नहीं करते फिक्स (Andrei Shkrob)

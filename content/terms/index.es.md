@@ -34,6 +34,6 @@ completa de los avisos de derechos de copia para la aplicación Organic Maps.
 Si tiene preguntas o sugerencias, póngase en contacto con nosotros en
 [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
-[github]: https://github.com/organicmaps/organicmaps
+[github]: https://github.com/organicmaps/organicmaps/issues
 [licencia]: http://www.apache.org/licenses/LICENSE-2.0
 [copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

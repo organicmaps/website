@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** 是一款注重隐私的离线地图和GPS应用程序，适用于徒步旅行、骑行和驾驶。完全免费。无广告。无跟踪器。由开源社区倾情打造。由 [OpenStreetMap][openstreetmap] 数据驱动。
 
 **Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> 2024年12月，Organic Maps [达到300万安装量](@/news/2024-12-20/411/index.md)。[帮助我们](@/donate/index.md)扩大规模！
 
 ### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery] 下载并安装Organic Maps {#install}
 
@@ -90,8 +90,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+以下亲爱的机构赞助商提供了有针对性的资助，以支付部分基础设施成本并资助新选定功能的开发：
 
 <table style="border-spacing: 20px">
   <tr>
@@ -151,7 +150,7 @@ Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 - 加入我们的[Telegram组][telegram_chat]，与其他用户讨论。
 - 访问我们的[GitHub页面][github]。
 - 在[FOSStodon][fosstodon]、[Mastodon][mastodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Reddit][reddit]、[LinkedIn][LinkedIn]关注我们的更新。
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- 加入（或创建并告诉我们）本地社区：[Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

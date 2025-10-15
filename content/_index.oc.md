@@ -7,11 +7,11 @@ sort_by: weight
 title: 'De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
 
 N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que foncionan entierament sensa la connexion a Internet activa. Installatz Mapas Organicas, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> En decembre 2024, Organic Maps [a atench 3 milions d'installacions](@/news/2024-12-20/411/index.md). [Ajudatz-nos](@/donate/index.md) a creisser!
 
 ### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -98,8 +98,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Los esperonadors institucionals adorats çai-jos an provesit de subvencions ciblejas per cobrir certans còsts d'infrastructura e financiar lo desvolopament de novas foncionalitats seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -166,7 +165,7 @@ Licéncia Apatxe 2.0.
 - Seguissètz lei noveutats sus [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit] e [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Rejuntatz (o creatz e diguetz-nos-o) lei comunautats localas: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

@@ -3,7 +3,7 @@ title: "Organic Maps: condizioni di utilizzo"
 description: "Condizioni d'uso dell'applicazione Organic Maps"
 weight: 1000
 extra:
-  menu_title: Terms
+  menu_title: Termini
 ---
 
 Questa applicazione è concessa in licenza secondo la Licenza Apache, versione 2.0 (la "Licenza");
@@ -20,7 +20,7 @@ La maggior parte delle librerie presenti nelle directory seguenti sono state rea
 e organizzazioni e concesse in licenza in modi diversi:
 
 - 3party
-- tools
+- Strumenti
 
 Si prega di fare riferimento ai loro file di LICENZA, COPIA o AVVISO per le condizioni di utilizzo.
 

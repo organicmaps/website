@@ -5,5 +5,5 @@ template: news/list.html
 page_template: news/page.html
 sort_by: date
 extra:
-  menu_title: News
+  menu_title: वृत्त
 ---

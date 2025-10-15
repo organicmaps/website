@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+Το **Organic Maps** είναι μια εφαρμογή χαρτών και GPS χωρίς σύνδεση για ορειβασία, ποδηλασία, μοτοσυκλετισμός, ποδηλασία και οδήγηση. Απολύτως δωρεάν. Χωρίς διαφημίσεις. Χωρίς εντοπισμό. Αναπτύσσεται με αγάπη από την κοινότητα ανοιχτού κώδικα. Λειτουργεί με δεδομένα [OpenStreetMap][openstreetmap].
 
 **Οι Organic Maps** είναι μία από τις λίγες εφαρμογές που υποστηρίζουν το 100% των λειτουργιών χωρίς ενεργή σύνδεση στο Διαδίκτυο. Εγκαταστήστε τους Organic Maps, κατεβάστε χάρτες, πετάξτε την κάρτα SIM και κάντε ένα ταξίδι μιας εβδομάδας με μία μόνο φόρτιση της μπαταρίας, χωρίς να στείλετε κανένα byte στο δίκτυο.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> Το Δεκέμβριο του 2024, οι Organic Maps [έφτασε 3M εγκαθιστά](@/news/2024-12-20/411/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!
 
 ### Κατεβάστε και εγκαταστήστε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -112,7 +112,7 @@ iOS][trackercontrol]:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Το έργο βελτίωσης του Search & Fonts</a> έχει <a href="https://nlnet.nl/project/OrganicMaps/">χρηματοδοτηθεί</a> μέσω του NGI0 Entrust Fund. Το <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> έχει συσταθεί από το <a href="https://nlnet.nl/">NLnet Foundation</a> με την οικονομική υποστήριξη του προγράμματος <a href="https://www.ngi.eu/">Next Generation Internet</a> της Ευρωπαϊκής Επιτροπής, υπό την αιγίδα της ΓΔ Επικοινωνιακά Δίκτυα, Περιεχόμενο και Τεχνολογία στο πλαίσιο της συμφωνίας επιχορήγησης αριθ. 101069594.
     </td>
   </tr>
   <tr>
@@ -120,7 +120,7 @@ iOS][trackercontrol]:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> υποστήριξε 5 έργα μαθητών στο πρόγραμμα Google Summer of Code κατά τη διάρκεια των προγραμμάτων <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> και <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Στα αξιοσημείωτα έργα περιλαμβάνονταν το Android Auto και το Wikipedia Dump Extractor.
     </td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@ iOS][trackercontrol]:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">μας παρέχει</a> δύο εικονικούς διακομιστές με 400 TB/μήνα δωρεάν εύρος ζώνης για τη φιλοξενία και την εξυπηρέτηση λήψεων και ενημερώσεων χαρτών.
     </td>
   </tr>
   <tr>
@@ -136,7 +136,7 @@ iOS][trackercontrol]:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> μας <a href="https://44plus.vn/organicmaps">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών σε όλο το Βιετνάμ και τη Νοτιοανατολική Ασία.
     </td>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ iOS][trackercontrol]:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a  href="https://futo.org">FUTO</a> έχει <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">αποδώσει $1000 micro-grant</a> στους Organic Maps τον Φεβρουάριο του 2023.
     </td>
   </tr>
 </table>

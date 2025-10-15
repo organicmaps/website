@@ -79,8 +79,8 @@ Organic Maps развивается сообществом энтузиасто�
 - Подписывайтесь на наш [канал новостей в Telegram][telegram];
 - Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
 - Подключайтесь к программе тестирования бета-версий:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
+  * [iOS Бета (TestFlight)][testflight]
+  * [Android Бета (Firebase)][firebase]
   * [Linux Desktop Beta (Flatpak)](https://flathub.org/apps/details/app.organicmaps.desktop)
   * [Linux Desktop Beta (packages)](https://repology.org/project/organicmaps/versions)
 - Сообщайте о проблемах и предлагайте новые идеи [на GitHub][issues] или [по почте][email];

@@ -19,7 +19,7 @@ pour connaître les termes spécifiques régissant les permissions et les limita
 La plupart des bibliothèques présentes dans les répertoires suivants sur [GitHub](https://github.com/organicmaps/organicmaps)
 ont été créées par d'autres personnes et organisations et font l'objet de différentes licences :
 
-- 3party
+- des tiers
 - outils
 
 Veuillez vous référer à leurs fichiers LICENCE, COPYING ou NOTICE pour connaître les conditions d'utilisation.

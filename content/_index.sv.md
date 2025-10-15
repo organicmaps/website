@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** är en integritets-fokuserad offline-kart och GPS-app för vandring, cykling och bilkörning. Helt gratis. Inga annonser. Ingen spårning. Utvecklad med kärlek av open source-gemenskapen. Drivs av [OpenStreetMap][openstreetmap]-data.
 
 **Organic Maps** är ett av få program som numera stöder 100 % av funktionerna utan en aktiv internetanslutning. Installera Organic Maps, ladda ner kartor, släng ditt SIM-kort (din operatör spårar dig förresten hela tiden) och gör en veckolång resa med en enda batteriladdning utan att någon byte skickas till nätet.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> I december 2024 nådde Organic Maps [3M installationer](@/news/2024-12-20/411/index.md). [Hjälp oss](@/donate/index.md) att skala upp!
 
 ### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -99,8 +99,7 @@ nedan:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Älskade institutionella sponsorer nedan har tillhandahållit riktade bidrag för att täcka vissa infrastrukturkostnader och finansiera utvecklingen av nya utvalda funktioner:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -166,7 +165,7 @@ Apache License 2.0.
 - Följ våra uppdateringar på [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Gå med i (eller skapa och låt oss veta) lokala gemenskaper: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

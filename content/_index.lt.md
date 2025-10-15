@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
 
 **Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atmikite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+2023-iaisiais „Organic Maps“ [įgijo pirmąjį milijoną](@/news/2023-12-23/281/index.md) naudotojų. [Padėkite mums](@/donate/index.md) augti!
 
 ### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid] {#install}
 
@@ -65,7 +65,7 @@ Organic Maps programėlė nenaudoja seklių ir neturi kitų kenksmingų savybių
 - Jokių nepageidaujamų funkcijų
 - ~~Jokių pesticidų~~ Visiškai ekologiška!
 
-Programėlė yra patikrinta [Exodus Privacy Project][exodus]:
+Programėlė yra patikrinta [Exodus Privatumas Project][exodus]:
 
 {{ exodus_screenshot() }}
 
@@ -97,8 +97,7 @@ Paaukokite iškart, spauskite ant norimo mokėjimo metodo ženklelio apačioje:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infrastruktūros išlaidoms padengti ir naujų pasirinktų funkcijų kūrimui finansuoti:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -154,16 +153,16 @@ Apache License 2.0 licenzija.
   * [Android Beta (Firebase)][firebase]
   * [Linux darbalaukio Beta (Flatpak)][flatpak]
   * [Linux darbalaukio Beta (paketai)][repology]
-- Report bugs or issues to [the issue tracker][issues] or [email us][email].
-- [Discuss][ideas] ideas or propose feature requests.
+- Praneškite apie klaidas ar problemas į [klaidų sekimo sistemą][issues] arba [rašykite mums el. paštu][email].
+- [Aptarkite][ideas] idėjas arba siūlykite naujų funkcijų prašymus.
 - Subscribe to our [Telegram Channel][telegram] or to the [matrix
   space][matrix] for updates.
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
-- Visit our [GitHub page][github].
-- Follow our updates in [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Apsilankykite mūsų [GitHub puslapyje][github].
+- Sekite mūsų naujienas [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Prisijunkite (arba sukurkite ir praneškite mums) prie vietinių bendruomenių: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

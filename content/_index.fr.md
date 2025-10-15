@@ -65,7 +65,7 @@ Sans trackers et autres mauvaises choses :
 - Pas de logiciels malveillants
 - N̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶ Entièrement bio
 
-Selon [Exodus Privacy Project][exodus] il n'y a aucun tracker et les autorisations requises sont minimales:
+Selon [Exodus Confidentialité Project][exodus] il n'y a aucun tracker et les autorisations requises sont minimales:
 
 {{ exodus_screenshot() }}
 
@@ -107,8 +107,8 @@ Il existe de nombreuses façons de nous soutenir, énumérées [ici](@/contribut
 
 Rejoignez notre programme bêta, proposez vos fonctionnalités et signalez les bogues :
 
-- [iOS Beta (TestFlight)][testflight]
-- [Android Beta (Firebase)][firebase]
+- [Bêta iOS (TestFlight)][testflight]
+- [Bêta Android (Firebase)][firebase]
 - [Linux Desktop Beta (Flatpak)](https://flathub.org/apps/details/app.organicmaps.desktop)
 - [Linux Desktop Beta (packages)](https://repology.org/project/organicmaps/versions)
 

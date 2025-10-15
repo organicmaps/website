@@ -7,11 +7,11 @@ sort_by: weight
 title: 'ऑर्गेनिक नक़्शे: ऑफ़लाइन सैर, बाइकिंग, रास्ते, और दिशाएं'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. बिना विज्ञापन. कोई ट्रैकिंग नहीं. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** लंबी पैदल यात्रा, साइकिलिंग और ड्राइविंग के लिए एक गोपनीयता-केंद्रित ऑफ़लाइन मानचित्र और GPS ऐप है। पूरी तरह से मुफ्त। बिना विज्ञापन. कोई ट्रैकिंग नहीं। ओपन-सोर्स समुदाय द्वारा प्यार से विकसित। [OpenStreetMap][openstreetmap] डेटा द्वारा संचालित।
 
 **ऑर्गेनिक मैप्स** आजकल के कुछ एप्लिकेशन में से एक है जो सक्रिय इंटरनेट कनेक्शन के बिना 100% सुविधाओं का समर्थन करता है। ऑर्गेनिक मैप्स इंस्टॉल करें, मैप्स डाउनलोड करें, अपना सिम कार्ड फेंक दें (वैसे, आपका ऑपरेटर आपको लगातार ट्रैक करता है), और नेटवर्क पर कुछ भी भेजे बिना सिर्फ एक बैटरी चार्ज पर साप्ताहिक यात्रा के लिए जाएं।
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> दिसंबर 2024 में, Organic Maps ने [3M इंस्टॉल हासिल किए](@/news/2024-12-20/411/index.md)। स्केल करने में [हमारी मदद करें](@/donate/index.md)!
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] से ऑर्गेनिक मानचित्र डाउनलोड और इंस्टॉल करें {#install}
 
@@ -96,8 +96,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+नीचे दिए गए प्रिय संस्थागत प्रायोजकों ने कुछ बुनियादी ढांचे की लागत को कवर करने और नई चयनित सुविधाओं के विकास के लिए लक्षित अनुदान प्रदान किया है:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -164,7 +163,7 @@ some infrastructure costs and fund development of new selected features:
 - [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook],
   [Twitter][twitter], [Instagram][instagram], [Reddit][reddit],
   [LinkedIn][LinkedIn] पर हमारे अपडेट का पालन करें।
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- स्थानीय समुदायों में शामिल हों (या बनाएं और हमें बताएं): [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

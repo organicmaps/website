@@ -102,8 +102,7 @@ płatności poniżej:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na pokrycie niektórych kosztów infrastruktury i sfinansowanie rozwoju nowych wybranych funkcji:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -169,7 +168,7 @@ License 2.0.
 - Śledź nasze aktualizacje na [FOSStodonie][fosstodon],
   [Mastodonie][mastodon], [Facebooku][facebook], [Twitterze][twitter],
   [Instagramie][instagram], [Reddicie][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Dołącz (lub stwórz i daj nam znać) do lokalnych społeczności: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

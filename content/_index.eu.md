@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Iragarkirik gabe. Jarraipenik ez. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** mendian ibiltzeko, txirrindularitzarako eta gidatzeko pribatutasunean zentratutako lineaz kanpoko mapen eta GPS aplikazioa da. Erabat doakoa. Iragarkirik gabe. Jarraipenik ez. Kode irekiko komunitateak maitasunez garatua. [OpenStreetMap][openstreetmap] datuekin elikatua.
 
 **Organic Maps** da konexiorik gabe %100-ean funtzionatzen duen aplikazio gutxietako bat. Instalatu Organic Maps, deskargatu mapak eta bota zaborretara zure SIM txartela (bide batez, zure telefono konpainiak uneoro jarraipena egiten dizu), eta joan asteroko ibilaldira bateria karga batekin eta sarera byte bakarra ere bidali gabe.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> 2024ko abenduan, Organic Maps-ek [3M instalazio lortu zituen](@/news/2024-12-20/411/index.md). [Lagun gaitzazu](@/donate/index.md) handitzen!
 
 ### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -99,8 +99,7 @@ ikonoan:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitura-kostu batzuk estaltzeko eta hautatutako ezaugarri berrien garapena finantzatzeko:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -167,7 +166,7 @@ lizentziapean.
 - Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon],
   [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
   [Instagram][instagram], [Reddit][reddit]-en eta [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Elkartu (edo sortu eta jakinarazi) tokiko komunitateei: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

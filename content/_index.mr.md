@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. विना जाहिराती. महितीचा मागोवा नाही. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** हा हायकिंग, सायकलिंग आणि ड्रायव्हिंगसाठी गोपनीयता-केंद्रित ऑफलाइन नकाशे आणि GPS अॅप आहे. पूर्णपणे विनामूल्य. विना जाहिराती. महितीचा मागोवा नाही. मुक्त स्रोत समुदायाने प्रेमाने विकसित केले. [OpenStreetMap][openstreetmap] डेटाद्वारे समर्थित.
 
 **Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> डिसेंबर 2024 मध्ये, Organic Maps ने [3M इंस्टॉल गाठले](@/news/2024-12-20/411/index.md). स्केल करण्यासाठी [आम्हाला मदत करा](@/donate/index.md)!
 
 ### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -96,8 +96,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+खालील प्रिय संस्थात्मक प्रायोजकांनी काही पायाभूत सुविधा खर्च कव्हर करण्यासाठी आणि निवडलेल्या नवीन वैशिष्ट्यांच्या विकासाला निधी देण्यासाठी लक्ष्यित अनुदान प्रदान केले आहे:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -163,7 +162,7 @@ Apache License 2.0 परवान्य अंतर्गत Organic Maps ह�
 - [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook],
   [Twitter][twitter], [Instagram][instagram], [Reddit][reddit],
   [LinkedIn][LinkedIn] वरुन आमची माहिती मिळवा.
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- स्थानिक समुदायांमध्ये सामील व्हा (किंवा तयार करा आणि आम्हाला कळवा): [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

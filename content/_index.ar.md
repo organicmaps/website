@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال حيثما أردت بدون الإنترنت'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. بدون إعلانات. لا تتبع أو تجسس. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** هو تطبيق خرائط ونظام تحديد المواقع العالمي (GPS) بدون اتصال يركز على الخصوصية للمشي لمسافات طويلة وركوب الدراجات والقيادة. مجاني تمامًا. بدون إعلانات. لا تتبع أو تجسس. تم تطويره بحب من قبل مجتمع المصادر المفتوحة. مدعوم ببيانات [OpenStreetMap][openstreetmap].
 
 **Organic Maps** من التطبيقات القليلة في يومنا هذا التي توفر 100% من المزايا بدون اتصال مباشر بشبكة الإنترنت. ثبّت Organic Maps، نزل الخرائط، ارمي بطاقة الشبكة خاصتك (بالمناسبة، مزود الخدمة يتتبعك باستمرار)، واذهب في رحلة اسبوعية بشحن البطارية مرة واحدة ودون أي بايت مرسل من خلال الشبكة.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> في ديسمبر 2024، وصل Organic Maps إلى [3 ملايين تثبيت](@/news/2024-12-20/411/index.md). [ساعدنا](@/donate/index.md) على التوسع!
 
 ### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery] {#install}
 
@@ -96,8 +96,7 @@ Organic Maps لا يطلب أذونات مفرطة للتجسس عليك:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+قدم الرعاة المؤسسيون الأعزاء أدناه منحًا مستهدفة لتغطية بعض تكاليف البنية التحتية وتمويل تطوير ميزات جديدة مختارة:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -161,7 +160,7 @@ Organic Maps هو [برنامج مفتوح المصدر][github] مرخّص تح
 - تابع تحديثاتنا في [ماستودون ][mastodon]، [فيسبوك][facebook]،
   [تويتر][twitter]، [Instagram][instagram]، [Reddit][reddit]،
   [FOSStodon][fosstodon]، [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- انضم (أو أنشئ وأخبرنا) إلى المجتمعات المحلية: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

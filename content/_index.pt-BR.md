@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Caminhada, Ciclismo, Trilhas e Navegação Offline'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Sem anúncios. Sem rastreamento. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** é um aplicativo de mapas offline e GPS focado em privacidade para caminhadas, ciclismo e direção. Absolutamente gratuito. Sem anúncios. Sem rastreamento. Desenvolvido com amor pela comunidade de código aberto. Alimentado por dados do [OpenStreetMap][openstreetmap].
 
 **Organic Maps** é atualmente um dos poucos apps que suporta 100% das suas funcionalidades sem uma conexão ativa com a internet. Instale Organic Maps, baixe mapas, jogue fora seu chip (a propósito, sua operadora o rastreia constantemente), e faça uma viagem no fim de semana com uma única carga de bateria sem nenhum byte enviado para a rede.
 

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Dim hysbysebion. Dim tracio. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
 
 **Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosodwch Organic Maps, lawrlwythwch mapiau, a chael gwared ar eich cerdyn SIM , a chewch fynd ar drip am wythnos heb angen gwefru eich ffôn, a heb ddanfon beit i'r rhwydwaith.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> Ym mis Rhagfyr 2024, cyrhaeddodd Organic Maps [3M o osodiadau](@/news/2024-12-20/411/index.md). [Helpwch ni](@/donate/index.md) i dyfu!
 
 ### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -99,8 +99,7 @@ dalu isod:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu costau seilwaith ac ariannu datblygiad nodweddion newydd a ddewiswyd:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -166,7 +165,7 @@ thrwyddedu o dan y drwydded Apache License 2.0.
 - Dilynwch ein newyddion ar [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

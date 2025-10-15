@@ -7,7 +7,7 @@ sort_by: weight
 title: 'Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Tanpa iklan. Tanpa pelacakan. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** adalah aplikasi peta offline & GPS yang berfokus pada privasi untuk hiking, bersepeda, dan berkendara. Benar-benar gratis. Tanpa iklan. Tanpa pelacakan. Dikembangkan dengan cinta oleh komunitas sumber terbuka. Didukung oleh data [OpenStreetMap][openstreetmap].
 
 **Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM Anda (ngomong-ngomong, operator Anda terus melacak Anda), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
 
@@ -99,8 +99,7 @@ Untuk segera berdonasi, klik ikon metode pembayaran pilihan di bawah ini:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditargetkan untuk menutupi beberapa biaya infrastruktur dan mendanai pengembangan fitur baru yang dipilih:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -167,7 +166,7 @@ dilisensikan di bawah lisensi Apache 2.0.
 - Ikuti pembaruan kami di [FOSStodon][fosstodon], [Mastodon][mastodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
   [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Bergabung (atau buat dan beri tahu kami) komunitas lokal: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

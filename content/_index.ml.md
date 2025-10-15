@@ -7,11 +7,11 @@ extra:
   menu_title: വീട്
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. പരസ്യങ്ങളില്ല. ട്രാക്കിംഗ് ഇല്ല. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** ഹൈക്കിംഗ്, സൈക്ലിംഗ്, ഡ്രൈവിംഗ് എന്നിവയ്ക്കായി സ്വകാര്യത-കേന്ദ്രീകൃത ഓഫ്‌ലൈൻ മാപ്പുകളും GPS ആപ്പുമാണ്. പൂർണ്ണമായും സൗജന്യം. പരസ്യങ്ങളില്ല. ട്രാക്കിംഗ് ഇല്ല. ഓപ്പൺ സോഴ്‌സ് കമ്മ്യൂണിറ്റി സ്നേഹത്തോടെ വികസിപ്പിച്ചത്. [OpenStreetMap][openstreetmap] ഡാറ്റയാൽ പവർ ചെയ്തത്.
 
 **ഓർഗാനിക് മാപ്‌സ്** എന്നത് സജീവമായ ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ലാതെ 100% സവിശേഷതകളെ പിന്തുണയ്ക്കുന്ന ചുരുക്കം ചില പ്രയോഗങ്ങളിൽ ഒന്നാണ്. ഓർഗാനിക് മാപ്‌സ് ഇൻസ്‌റ്റാൾ ചെയ്യുക, ഭൂപടങ്ങൾ ഡൗൺലോഡ് ചെയ്യുക, നിങ്ങളുടെ സിം കാർഡ് വലിച്ചെറിയുക (വഴി, നിങ്ങളുടെ ഓപ്പറേറ്റർ നിങ്ങളെ നിരന്തരം ട്രാക്ക് ചെയ്യുന്നു), നെറ്റ്‌വർക്കിലേക്ക് അയയ്‌ക്കേണ്ട ഒരു ബൈറ്റ് ഇല്ലാതെ ഒരൊറ്റ ബാറ്ററി ചാർജിൽ ഒരു ആഴ്‌ച നീണ്ട യാത്ര പോകുക.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> 2024 ഡിസംബറിൽ, Organic Maps [3M ഇൻസ്റ്റാളുകളിൽ എത്തി](@/news/2024-12-20/411/index.md). സ്കെയിൽ ചെയ്യാൻ [ഞങ്ങളെ സഹായിക്കൂ](@/donate/index.md)!
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] എന്നിവയിൽ നിന്ന് ഓർഗാനിക് മാപ്‌സ് ഡൗൺലോഡ് ചെയ്‌ത് ഇൻസ്റ്റാൾ ചെയ്യുക {#install}
 
@@ -90,7 +90,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:
+ചില അടിസ്ഥാന സൗകര്യ ചെലവുകൾ വഹിക്കുന്നതിനും തിരഞ്ഞെടുത്ത പുതിയ സവിശേഷതകളുടെ വികസനത്തിന് ധനസഹായം നൽകുന്നതിനുമായി താഴെ പ്രിയപ്പെട്ട സ്ഥാപന സ്പോൺസർമാർ ലക്ഷ്യബോധമുള്ള ഗ്രാന്റുകൾ നൽകിയിട്ടുണ്ട്:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -149,8 +149,8 @@ Organic Maps is an [open-source software][github] licensed under the Apache Lice
 - Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.
 - മറ്റ് ഉപയോക്താക്കളുമായി ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ [Telegram Group][telegram_chat] ചേരുക.
 - ഞങ്ങളുടെ [GitHub page][github] സന്ദർശിക്കുക.
-- Follow our updates in [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
+- [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn] എന്നിവയിൽ ഞങ്ങളുടെ അപ്ഡേറ്റുകൾ പിന്തുടരുക.
+- പ്രാദേശിക കമ്മ്യൂണിറ്റികളിൽ ചേരുക (അല്ലെങ്കിൽ സൃഷ്ടിച്ച് ഞങ്ങളെ അറിയിക്കുക): [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

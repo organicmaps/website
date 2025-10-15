@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: passejos, bici, rutes i GPS sense connexió'
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. Sense anuncis. No inclou rastrejadors. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** és una aplicació de mapes fora de línia i GPS centrada en la privadesa per a senderisme, ciclisme i conducció. Totalment gratuïta. Sense anuncis. No inclou rastrejadors. Desenvolupada amb estima per la comunitat de codi obert. Funciona amb dades d'[OpenStreetMap][openstreetmap].
 
 L’**Organic Maps** és una de les poques aplicacions actuals que admet fer servir totes les seves funcions sense una connexió a Internet activa. Instal·leu l’Organic Maps, baixeu mapes, llenceu la vostra targeta SIM (per cert, el vostre operador us rastreja constantment) i feu un viatge setmanal amb una sola càrrega de bateria sense que cap byte s’enviï a la xarxa.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> Al desembre de 2024, Organic Maps [va arribar a 3 milions d'instal·lacions](@/news/2024-12-20/411/index.md). [Ajudeu-nos](@/donate/index.md) a créixer!
 
 ### Baixeu i instal·leu l’Organic Maps des de l’[AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid] o [Huawei AppGallery][appgallery] {#install}
 
@@ -99,8 +99,7 @@ pagament preferit:
 
 {{ donate_buttons() }}
 
-Beloved institutional sponsors below have provided targeted grants to cover
-some infrastructure costs and fund development of new selected features:
+Els estimats patrocinadors institucionals següents han proporcionat subvencions específiques per cobrir alguns costos d'infraestructura i finançar el desenvolupament de noves funcions seleccionades:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -167,7 +166,7 @@ Llicència Apache 2.0.
 - Seguiu les nostres novetats al [FOSStodon][fosstodon],
   [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
   [Instagram][instagram], [Reddit][reddit] i [LinkedIn][LinkedIn].
-- Join (or create and let us know) local communities: [Hungarian Matrix
+- Uniu-vos (o creeu-ne i feu-nos-ho saber) a les comunitats locals: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:01+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Dutch <https://hosted.weblate.org/projects/organicmaps/website/nl/>\nLanguage: nl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-10-16 19:07+0000\nLast-Translator: Max Dpt <evening.arrival.0g@icloud.com>\nLanguage-Team: Dutch <https://hosted.weblate.org/projects/organicmaps/website/nl/>\nLanguage: nl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -28,7 +28,7 @@ msgstr "Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr "**Organic Maps**  is een op privé gebaseerde offline mappen&GPS applicatie voor wandelen, fietsen en  rijden. Absoluut vrij. Geen advertenties. Geen tracking. Ontwikkeld met liefde door de open-source gemeenschap. Ondersteund door  [OpenStreetMap][openstreetmap] gegevens.\n"
+msgstr "**Organic Maps** is een op privacy gerichte offline kaarten- en GPS-app voor wandelen, fietsen en autorijden. Helemaal gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-source community. Aangedreven door [OpenStreetMap][openstreetmap] gegevens.\n"
 
 #. type: Plain text
 #: content/_index.md
@@ -490,7 +490,7 @@ msgstr "Doneer om de ontwikkeling van Organic Maps te ondersteunen"
 #. type: Plain text
 #: content/donate/index.md
 msgid "Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:"
-msgstr "Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]**:"
+msgstr "Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]**in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:"
 
 #. type: Bullet: '- '
 #: content/donate/index.md

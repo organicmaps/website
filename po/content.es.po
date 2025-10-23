@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-05-27 00:34+0000\nLast-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-10-23 17:02+0000\nLast-Translator: Gael <gaelgonzasaiz@protonmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/organicmaps/website/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -40,7 +40,7 @@ msgstr "**Organic Maps** es una de las pocas aplicaciones que hoy en día permit
 #: content/_index.md
 #, no-wrap
 msgid "> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!\n"
-msgstr "> En diciembre de 2024, Organic Maps [alcanzó los 3 millones de instalaciones](@/news/2024-12-20/411/index.md). ¡[Ayúdenos](@/donate/index.md) a crecer!\n"
+msgstr "> En diciembre de 2024, Organic Maps [alcanzó las 3 millones de descargas](@/news/2024-12-20/411/index.md). ¡[Ayúdenos](@/donate/index.md) a crecer!\n"
 
 #. type: Title ###
 #: content/_index.md
@@ -138,7 +138,7 @@ msgstr "¿Por qué Organic?"
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is pure and organic, made with love:"
-msgstr "Organic Maps es pura y orgánica, hecha con amor:"
+msgstr "Organic Maps es puro y orgánico, hecho con amor:"
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -396,12 +396,12 @@ msgstr "Comunidad"
 #. type: Plain text
 #: content/_index.md
 msgid "Organic Maps is an [open-source software][github] licensed under the Apache License 2.0."
-msgstr "Organic Maps es un [programa libre][github] disponible en virtud de la Licencia Apache 2.0."
+msgstr "Organic Maps es un [programa de código abierto][github] disponible bajo la Licencia Apache 2.0."
 
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Please join our beta program, suggest your features, and report bugs:"
-msgstr "Incorpórese a nuestro programa beta para sugerir funcionalidades e informar de defectos:"
+msgstr "Incorpórese a nuestro programa beta para sugerir funcionalidades e informar de errores:"
 
 #. type: Bullet: '  * '
 #: content/_index.md
@@ -426,7 +426,7 @@ msgstr "[Beta de PC Linux (paquetes)][repology]"
 #. type: Bullet: '- '
 #: content/_index.md
 msgid "Report bugs or issues to [the issue tracker][issues] or [email us][email]."
-msgstr "Informe de defectos o problemas al [rastreador de errores][issues] o [mándenos un correo electrónico][email]."
+msgstr "Informe de errores o problemas al [rastreador de errores][issues] o [mándenos un correo electrónico][email]."
 
 #. type: Bullet: '- '
 #: content/_index.md
@@ -562,7 +562,7 @@ msgstr "Con suficiente dinero, pueden desarrollarse prestaciones nuevas más rá
 #. type: Bullet: '   - '
 #: content/donate/index.md
 msgid "Backup and sync bookmarks and tracks"
-msgstr "Copia de seguridad y sincronización de favoritos y pistas"
+msgstr "Copia de seguridad y sincronización de favoritos y rutas"
 
 #. type: Bullet: '   - '
 #: content/donate/index.md
@@ -761,12 +761,12 @@ msgstr "¡[Donar](@/donate/index.es.md)! Cada dólar o euro cuenta y nos ayuda a
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Report bugs and share ideas on our [GitHub][github] or via [email][email]."
-msgstr "Informe de defectos y comparta ideas en nuestro [GitHub][github] o vía [correo electrónico][email]."
+msgstr "Informe de errores y comparta ideas en nuestro [GitHub][github] o vía [correo electrónico][email]."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md
 msgid "Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier."
-msgstr "Ayúdenos a [arreglar errores][contributing] y hacer revisiones de código si es programadore. Cada pequeño informe arreglado hace feliz a alguien."
+msgstr "Ayúdenos a [arreglar errores][contributing] y hacer revisiones del código si es programador. Cada pequeño informe arreglado hace feliz a alguien."
 
 #. type: Bullet: '- '
 #: content/contribute/index.md

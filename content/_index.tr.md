@@ -115,6 +115,6 @@ Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı y
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - [GitHub sayfamızı][github] ziyaret edin
 - [E-posta][email] ile bizimle iletişime geçin
-- Güncellemelerimizi [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Reddit][reddit], [LinkedIn][LinkedIn] ve [Instagram](https://instagram.com/organicmapstr/) üzerinden takip edin.
+- Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram](https://instagram.com/organicmapstr/), [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] ve [TikTok][tiktok] üzerinden takip edin.
 
 {{ references() }}

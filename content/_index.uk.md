@@ -166,9 +166,9 @@ Organic Maps - це [ПЗ з відкритим початковим кодом]
 - Приєднуйтесь до нашої [Telegram групи][telegram_chat], щоб подискутувати з
   іншими користувачами.
 - Відвідайте нашу [сторінку на GitHub][github].
-- Слідкуйте за нами у [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Слідкуйте за нами у [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Приєднуйтесь (або створіть і повідомте нам) до місцевої спільноти:
   [Кімната Matrix угорських
   перекладачів](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),

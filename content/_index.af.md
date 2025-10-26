@@ -160,9 +160,9 @@ Apache Lisensie 2.0.
 - Sluit aan by ons [Telegram-groep][telegram_chat] om met ander gebruikers
   te bespreek.
 - Besoek ons [GitHub-blad][github].
-- Volg ons opdaterings op [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Volg ons opdaterings op [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Sluit aan by (of skep en laat ons weet) plaaslike gemeenskappe: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

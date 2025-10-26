@@ -159,9 +159,9 @@ Apache License 2.0 licenzija.
   space][matrix] for updates.
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - Apsilankykite mūsų [GitHub puslapyje][github].
-- Sekite mūsų naujienas [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Sekite mūsų naujienas [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Prisijunkite (arba sukurkite ir praneškite mums) prie vietinių bendruomenių: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

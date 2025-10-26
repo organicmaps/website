@@ -168,8 +168,8 @@ License 2.0 lizenziert ist.
   Benutzern zu diskutieren.
 - Besuche unsere [GitHub-Seite][github].
 - Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon],
-  [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Facebook][facebook], [Twitter][twitter],
+  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen):
   [Ungarischer
   Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),

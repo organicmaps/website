@@ -163,9 +163,9 @@ dilisensikan di bawah lisensi Apache 2.0.
 - Bergabunglah dengan [grup Telegram][telegram_chat] kami untuk berdiskusi
   dengan pengguna lain.
 - Kunjungi [laman GitHub][github] kami.
-- Ikuti pembaruan kami di [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Ikuti pembaruan kami di [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Bergabung (atau buat dan beri tahu kami) komunitas lokal: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

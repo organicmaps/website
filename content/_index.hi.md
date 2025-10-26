@@ -160,9 +160,9 @@ To donate conveniently, click on your preferred payment method icon below:
 - अन्य उपयोगकर्ताओं के साथ चर्चा करने के लिए हमारे [Telegram
   Group][telegram_chat] में शामिल हों।
 - हमारे [गिटहब पेज][github] पर जाएं।
-- [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook],
-  [Twitter][twitter], [Instagram][instagram], [Reddit][reddit],
-  [LinkedIn][LinkedIn] पर हमारे अपडेट का पालन करें।
+- [FOSStodon][fosstodon], [Facebook][facebook],
+  [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit],
+  [LinkedIn][LinkedIn], [TikTok][tiktok] पर हमारे अपडेट का पालन करें।
 - स्थानीय समुदायों में शामिल हों (या बनाएं और हमें बताएं): [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

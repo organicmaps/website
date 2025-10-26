@@ -164,8 +164,8 @@ lizentziapean.
   egiteko.
 - Bisitatu gure [GitHub orria][github].
 - Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon],
-  [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Reddit][reddit]-en eta [LinkedIn][LinkedIn].
+  [Facebook][facebook], [Twitter][twitter],
+  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
 - Elkartu (edo sortu eta jakinarazi) tokiko komunitateei: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

@@ -159,9 +159,9 @@ Apache License 2.0 परवान्य अंतर्गत Organic Maps ह�
 - इतर वापरकर्त्यांसोबत चर्चा करायला आमच्या [टेलिग्राम गटात][telegram_chat]
   सहभागी व्हा.
 - आमच्या [GitHub पृष्ठावर][github] भेट द्या.
-- [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook],
-  [Twitter][twitter], [Instagram][instagram], [Reddit][reddit],
-  [LinkedIn][LinkedIn] वरुन आमची माहिती मिळवा.
+- [FOSStodon][fosstodon], [Facebook][facebook],
+  [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit],
+  [LinkedIn][LinkedIn], [TikTok][tiktok] वरुन आमची माहिती मिळवा.
 - स्थानिक समुदायांमध्ये सामील व्हा (किंवा तयार करा आणि आम्हाला कळवा): [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

@@ -162,9 +162,9 @@ thrwyddedu o dan y drwydded Apache License 2.0.
   matrix][matrix] ar gyfer newyddion.
 - Ymunwch â'n [grŵp Telegram][telegram_chat] i drafod gyda defnyddwyr arall.
 - Ymweld â'n [tudalen GitHub][github].
-- Dilynwch ein newyddion ar [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Dilynwch ein newyddion ar [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

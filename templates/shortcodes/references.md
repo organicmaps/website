@@ -3,6 +3,7 @@
 [appgallery_review]: appmarket://details?id=app.organicmaps
 [appstore]: https://apps.apple.com/app/organic-maps/id1567437057 "{{ trans(key='install-appstore', lang=lang) }}"
 [appstore_review]: https://itunes.apple.com/app/id1567437057?action=write-review
+[bluesky]: https://bsky.app/profile/organicmaps.bsky.social "Organic Maps on Bluesky"
 [contributing]: https://github.com/organicmaps/organicmaps/blob/master/docs/CONTRIBUTING.md
 [email]: mailto:support@organicmaps.app
 [exodus]: https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/
@@ -45,6 +46,8 @@
 [telegram_chat_tr]: https://t.me/OrganicMapsTr "Organic Maps'la sohbet et"
 [telegram_chat_zh]: https://t.me/OrganicMapsZh "有机地图聊天"
 [testflight]: https://testflight.apple.com/join/lrKCl08I
+[threads]: https://www.threads.net/@organicmaps "Organic Maps on Threads"
+[tiktok]: https://www.tiktok.com/@organicmaps "Organic Maps on TikTok"
 [trackercontrol]: https://ios.trackercontrol.org/analysis/app.organicmaps
 [translations]: https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md
 [translations_appstore]: https://hosted.weblate.org/projects/organicmaps/apple-appstore-metadata/

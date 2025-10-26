@@ -166,8 +166,8 @@ License 2.0.
   użytkownikami.
 - Odwiedź naszą stronę [GitHub][github].
 - Śledź nasze aktualizacje na [FOSStodonie][fosstodon],
-  [Mastodonie][mastodon], [Facebooku][facebook], [Twitterze][twitter],
-  [Instagramie][instagram], [Reddicie][reddit], [LinkedIn][LinkedIn].
+  [Facebooku][facebook], [Twitterze][twitter],
+  [Instagramie][instagram], [Bluesky][bluesky], [Threads][threads], [Reddicie][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Dołącz (lub stwórz i daj nam znać) do lokalnych społeczności: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

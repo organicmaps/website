@@ -164,8 +164,8 @@ Llicència Apache 2.0.
   altres usuaris.
 - Visiteu el nostre [GitHub][github].
 - Seguiu les nostres novetats al [FOSStodon][fosstodon],
-  [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Reddit][reddit] i [LinkedIn][LinkedIn].
+  [Facebook][facebook], [Twitter][twitter],
+  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Uniu-vos (o creeu-ne i feu-nos-ho saber) a les comunitats locals: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

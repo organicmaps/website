@@ -168,9 +168,9 @@ oleme litsentseerinud Apache License 2.0 alusel.
 - Keskustelemaks teiste kasutajatega liitu meie [Telegrami
   grupiga][telegram_chat].
 - Vaata meie [arenduskeskkonda GitHubis][github].
-- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Liitu kohalike kogukondadega: [ungarikeelne Matrixi
   jututuba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [hiina-][telegram_chat_zh], [prantsuse-][telegram_chat_fr],

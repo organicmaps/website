@@ -157,9 +157,9 @@ Organic Maps هو [برنامج مفتوح المصدر][github] مرخّص تح
   التحديثات.
 - انضم إلى [مجموعة Telegram][telegram_chat] للمناقشة مع المستخدمين الآخرين.
 - زُر [صفحة Github][github].
-- تابع تحديثاتنا في [ماستودون ][mastodon]، [فيسبوك][facebook]،
+- تابع تحديثاتنا في [فيسبوك][facebook]،
   [تويتر][twitter]، [Instagram][instagram]، [Reddit][reddit]،
-  [FOSStodon][fosstodon]، [LinkedIn][LinkedIn].
+  [FOSStodon][fosstodon]، [Bluesky][bluesky]، [Threads][threads]، [LinkedIn][LinkedIn]، [TikTok][tiktok].
 - انضم (أو أنشئ وأخبرنا) إلى المجتمعات المحلية: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

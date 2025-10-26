@@ -169,8 +169,8 @@ iOS][trackercontrol]:
   άλλους χρήστες.
 - Επισκεφθείτε την [GitHub σελίδα][github] μας.
 - Ακολουθήστε τις ενημερώσεις μας σε [FOSStodon][fosstodon],
-  [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Reddit][reddit], [LinkedIn][LinkedIn].
+  [Facebook][facebook], [Twitter][twitter],
+  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Γίνετε μέλη (ή δημιουργήστε και ενημερώστε μας) τοπικών κοινοτήτων:
   (https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [κινέζικα-][telegram_chat_zh], [γαλλικά-][telegram_chat_fr],

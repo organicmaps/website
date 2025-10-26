@@ -149,7 +149,7 @@ Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز 
 - برای دریافت به‌روزرسانی‌ها، به [کانال تلگرام ما][telegram] یا [فضای ماتریکس][matrix] بپیوندید.
 - به [گروه تلگرام ما][telegram_chat] بپیوندید تا با سایر کاربران بحث کنید.
 - از [صفحه گیت‌هاب ما][github] دیدن کنید.
-- برای اطلاع از به‌روزرسانی‌ها ما را در [FOSStodon][fosstodon]، [ماستودون][mastodon]، [فیسبوک][facebook]، [توییتر][twitter]، [اینستاگرام][instagram]، [ردیت][reddit]، [لینکدین][linkedin] دنبال کنید.
+- برای اطلاع از به‌روزرسانی‌ها ما را در [FOSStodon][fosstodon]، [فیسبوک][facebook]، [توییتر][twitter]، [اینستاگرام][instagram]، [Bluesky][bluesky]، [Threads][threads]، [ردیت][reddit]، [لینکدین][linkedin]، [TikTok][tiktok] دنبال کنید.
 - به اجتماع‌های محلی بپیوندید (یا ایجاد کنید و به ما اطلاع دهید): [اتاق ماتریکس مجارستانی](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)، چت‌های تلگرامی برای [چینی][telegram_chat_zh]، [فرانسوی][telegram_chat_fr]، [روسی][telegram_chat_ru]، [ترکی][telegram_chat_tr].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)

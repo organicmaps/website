@@ -166,9 +166,9 @@ Licencia Apache 2.0.
 - Únase a nuestro [grupo de Telegram][telegram_chat] para hablar con otros
   usuarios.
 - Visite nuestra [página de GitHub][github].
-- Siga nuestras novedades en [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Siga nuestras novedades en [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit] y [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala
   Matrix de
   húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats

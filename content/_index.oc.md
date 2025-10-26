@@ -162,9 +162,9 @@ Licéncia Apatxe 2.0.
 - Rejonhètz nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei
   utilizators.
 - Visitatz nòstra [pagina GitHub][github].
-- Seguissètz lei noveutats sus [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Seguissètz lei noveutats sus [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit] e [LinkedIn][LinkedIn].
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
 - Rejuntatz (o creatz e diguetz-nos-o) lei comunautats localas: [Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

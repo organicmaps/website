@@ -149,7 +149,7 @@ Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 - 订阅我们的[Telegram频道][telegram]或[matrix空间][matrix]以获取最新信息。
 - 加入我们的[Telegram组][telegram_chat]，与其他用户讨论。
 - 访问我们的[GitHub页面][github]。
-- 在[FOSStodon][fosstodon]、[Mastodon][mastodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Reddit][reddit]、[LinkedIn][LinkedIn]关注我们的更新。
+- 在[FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok]关注我们的更新。
 - 加入（或创建并告诉我们）本地社区：[Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
   [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],

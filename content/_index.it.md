@@ -114,7 +114,7 @@ Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 - Присоединяйтесь к нашей [русскоязычной группе в Telegram][telegram_chat_ru] для обратной связи и помощи.
 - Diğer kullanıcılarla tartışmak için [Telegram Grubumuza](https://t.me/OrganicMapsTR) katılın.
 - Visita la nostra [pagina GitHub][github].
-- Segui i nostri aggiornamenti su [FOSStodon][fosstodon], [Mastodon][mastodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Reddit][reddit], [Linkedin][linkedin].
+- Segui i nostri aggiornamenti su [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [Linkedin][linkedin], [TikTok][tiktok].
 
 [fork]: https://it.wikipedia.org/wiki/Fork_(sviluppo_software)
 

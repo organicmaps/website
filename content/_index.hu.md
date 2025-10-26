@@ -165,9 +165,9 @@ License 2.0-t használja.
 - Csatlakozzon a [Telegram csoportunkhoz][telegram_chat], hogy
   beszélgethessen a többi felhasználóval.
 - Látogasson el a [GitHub oldalunkra][github].
-- Kövesse frissítéseinket a [FOSStodon][fosstodon], [Mastodon][mastodon],
+- Kövesse frissítéseinket a [FOSStodon][fosstodon],
   [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Reddit][reddit] és [LinkedIn][LinkedIn] felületeken.
+  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
 - Csatlakozzon (vagy hozzon létre és tudassa velünk) a helyi közösségekhez:
   [magyar Mátrix
   -szoba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),

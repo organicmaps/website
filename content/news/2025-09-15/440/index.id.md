@@ -1,6 +1,8 @@
 ---
 title: "Rilis 15 September: perencanaan rute baru dan deskripsi OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Rilis kedua bulan September ini menghadirkan layar perencanaan rute baru dan kemampuan menampilkan konten tag OpenStreetMap `description` di iOS. Untuk menemukan tempat dengan tag ini ketik `?description` di pencarian (mirip `?wiki`).

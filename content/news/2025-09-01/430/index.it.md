@@ -1,6 +1,8 @@
 ---
 title: "Vedere i numeri delle linee alle fermate dell'autobus e altro: Caratteristiche principali della versione di settembre"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Ora, quando selezioni una fermata dell'autobus o del tram, puoi vedere i numeri delle linee del trasporto pubblico. Questo è solo il primo passo! Successivamente, prevediamo di mostrare le rotte del trasporto pubblico direttamente sulla mappa. Gli utenti iOS possono anche godere dei pulsanti di contribuzione OpenStreetMap riprogettati ("Aggiungi luogo" e "Modifica luogo").

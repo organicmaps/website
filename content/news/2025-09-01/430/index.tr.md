@@ -1,6 +1,8 @@
 ---
 title: "Otobüs duraklarında rota numaralarını görün ve daha fazlası: Eylül sürümü öne çıkanları"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Artık bir otobüs veya tramvay durağı seçtiğinizde, toplu taşıma rota numaralarını görebilirsiniz. Bu sadece ilk adım! Daha sonra toplu taşıma rotalarını doğrudan harita üzerinde göstermeyi planlıyoruz. iOS kullanıcıları ayrıca yeniden tasarlanan OpenStreetMap katkı düğmelerinin ("Yer Ekle" ve "Yer Düzenle") keyfini çıkarabilir.

@@ -2,6 +2,8 @@
 title: "Save planned routes in June Organic Maps update"
 date: 2025-07-14T20:00:00+00:00
 slug: "save-planned-routes-in-june-2025-update"
+taxonomies:
+  news: ["Releases"]
 ---
 
 Thanks to our beloved ❤️ contributors, there are many improvements and fixes in the June release. You can save planned routes, see the stats for recording track (iOS) and azimuth to the selected place (Android). Many other improvements and fixes are planned!

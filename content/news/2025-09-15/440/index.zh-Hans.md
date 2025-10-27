@@ -1,6 +1,8 @@
 ---
 title: "9月15日发布：全新路线规划与 OSM 描述"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 本月第二次九月更新带来重新设计的路线规划界面，并在 iOS 上支持查看 OpenStreetMap 的 `description` 标签内容。要查找带有该标签的地点，在搜索框输入 `?description`（类似输入 `?wiki`）。

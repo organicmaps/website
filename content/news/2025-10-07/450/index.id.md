@@ -1,6 +1,8 @@
 ---
 title: "Rilis 7 Oktober: Batas kecepatan Android Auto, impor GeoJSON dan lainnya"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Pengguna Android Auto sekarang dapat melihat peringatan batas kecepatan. Penambahan impor file GeoJSON yang dapat diubah menjadi penanda.

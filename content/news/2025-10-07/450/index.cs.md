@@ -2,6 +2,8 @@
 title: "Říjnové vydání: Rychlostní limity v Android Auto, import GeoJSON, statistiky nahrávání tras, zobrazení popisu OSM, ukládání značek na vybrané trase v iOS a další"
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
+taxonomies:
+  news: ["Releases"]
 ---
 
 Tato říjnová aktualizace Organic Maps přidává zobrazení rychlostních limitů v Android Auto, import GeoJSON, statistiky nahrávání tras, zobrazuje značky popisu OSM (zadejte `?description` do vyhledávacího pole, abyste je viděli) a ukládá značku na trase v iOS. Existuje také mnoho vylepšení uživatelského rozhraní, úprav OpenStreetMap a různé opravy chyb na všech platformách, včetně opravy pády při spuštění na některých zařízeních Android.

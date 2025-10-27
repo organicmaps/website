@@ -1,6 +1,8 @@
 ---
 title: "Ikusi Autobus Geltokeetan Bideko Zenbakiak eta Gehiago: Iraileko Bertsioko Nabarmendutakoak"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Orain, autobus edo tranbia geltokia aukeratzerakoan, garraio publikoko bideko zenbakiak ikusiko dituzu. Lehen pausoa baino ez da! Hurrena, garraio publikoko bideak zuzenean mapa gainean erakustea pentsatzen dugu. iOS erabiltzaileek, halaber, OpenStreetMap ekarpen botoien diseinua berritu dugunak gozatu ahal izango dituzte ("Gehitu tokia" eta "Editatu tokia").

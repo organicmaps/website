@@ -1,6 +1,8 @@
 ---
 title: "Wydanie 15 września: nowe planowanie trasy i opisy OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 To drugie wrześniowe wydanie wprowadza przeprojektowany ekran planowania trasy oraz wyświetlanie zawartości tagu OpenStreetMap `description` na iOS. Aby znaleźć miejsca z tym tagiem, wpisz w wyszukiwarce `?description` (podobnie do `?wiki`).

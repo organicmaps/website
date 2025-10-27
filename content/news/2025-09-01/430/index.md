@@ -1,6 +1,8 @@
 ---
-title: "See Route Numbers at Bus Stops and More: September Release Highlights"
+title: "See Route Numbers at Bus Stops and More: September 1st Release Highlights"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Now, when you select a bus or tram stop, you can see the public transport route numbers. This is just the first step! Next, we plan to show public transport routes directly on the map. iOS users can also enjoy redesigned OpenStreetMap contribution buttons ("Add Place" and "Edit Place").

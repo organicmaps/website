@@ -1,6 +1,8 @@
 ---
 title: "Zobrazte čísla linek na autobusových zastávkách a další: Nejdůležitější funkce zářijového vydání"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nyní, když vyberete autobusovou nebo tramvajovou zastávku, můžete vidět čísla linek veřejné dopravy. To je jen první krok! Dále plánujeme zobrazovat trasy veřejné dopravy přímo na mapě. Uživatelé iOS si také mohou vychutnat přepracovaná tlačítka pro přispívání do OpenStreetMap („Přidat místo" a „Upravit místo").

@@ -1,6 +1,8 @@
 ---
 title: "Rutes de senderisme i ciclisme, noms de marcadors al mapa, selecció de tracks, gràfic d'elevació i més a la versió d'agost"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instal·la la versió d'agost d'Organic Maps, descarrega els mapes més recents i descobreix rutes populars de senderisme i ciclisme a tot el món! Prem el botó "Capes" a la part superior esquerra per veure rutes de bicicleta i BTT acolorides, així com senders oficials per caminar i passejar. No veus res a prop? Llavors és moment d'afegir la informació que falta a OpenStreetMap.org, ja que totes les dades de mapes a Organic Maps provenen d'aquest projecte obert, gratuït i impulsat per la comunitat.

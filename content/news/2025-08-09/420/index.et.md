@@ -1,6 +1,8 @@
 ---
 title: "Matka- ja jalgrattateed, järjehoidjate nimed kaardil, raja valik, kõrgusgraafik ja palju muud augusti väljalaskes"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat "Kihid" nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.

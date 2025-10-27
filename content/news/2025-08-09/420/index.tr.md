@@ -1,6 +1,8 @@
 ---
 title: "Yürüyüş ve bisiklet rotaları, haritada yer imi isimleri, iz seçimi, yükseklik grafiği ve ağustos sürümünde daha fazlası"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Organic Maps'in ağustos sürümünü yükleyin, en son haritaları indirin ve dünyanın dört bir yanındaki popüler yürüyüş ve bisiklet rotalarını keşfedin! Renkli bisiklet ve MTB rotalarının yanı sıra resmi yürüyüş ve yürüyüş yollarını görüntülemek için sol üstteki "Katmanlar" düğmesine basın. Yakınlarda hiçbir şey görmüyor musunuz? O zaman eksik bilgileri OpenStreetMap.org'a ekleme zamanı, çünkü Organic Maps'teki tüm harita verileri bu açık, ücretsiz ve topluluk odaklı projeden geliyor.

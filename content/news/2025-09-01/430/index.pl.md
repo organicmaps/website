@@ -1,6 +1,8 @@
 ---
 title: "Zobacz numery linii na przystankach autobusowych i więcej: Najważniejsze funkcje wersji wrześniowej"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Teraz, gdy wybierasz przystanek autobusowy lub tramwajowy, możesz zobaczyć numery linii komunikacji publicznej. To tylko pierwszy krok! Następnie planujemy pokazywać trasy komunikacji publicznej bezpośrednio na mapie. Użytkownicy iOS mogą również cieszyć się przeprojektowanymi przyciskami wkładu OpenStreetMap („Dodaj miejsce" i „Edytuj miejsce").

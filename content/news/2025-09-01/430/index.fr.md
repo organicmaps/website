@@ -1,6 +1,8 @@
 ---
 title: "Voir les numéros de ligne aux arrêts de bus et plus : Points forts de la version de septembre"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Maintenant, lorsque vous sélectionnez un arrêt de bus ou de tramway, vous pouvez voir les numéros de ligne des transports publics. Ce n'est que la première étape ! Ensuite, nous prévoyons d'afficher les itinéraires de transport public directement sur la carte. Les utilisateurs iOS peuvent également profiter des boutons de contribution OpenStreetMap redessinés (« Ajouter un lieu » et « Modifier le lieu »).

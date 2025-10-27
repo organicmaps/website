@@ -1,6 +1,8 @@
 ---
 title: "15. septembri väljalase: uus marsruudi planeerimine ja OSM-kirjeldused"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 See septembri teine väljalase toob uuendatud marsruudi planeerimise ekraani ning võimaluse vaadata OpenStreetMap’i `description` sildi sisu iOS-is. Et leida kohti selle sildiga, kirjuta otsingusse `?description` (sarnaselt `?wiki`).

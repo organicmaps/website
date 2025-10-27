@@ -1,6 +1,8 @@
 ---
 title: "Betere routebewerking en veel verbeteringen en oplossingen in Organic Maps juli 2025 update"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Maak kennis met de Organic Maps juli update met veel oplossingen en verbeteringen, dank aan onze bijdragers ❤️💪! De update is al beschikbaar in de [AppStore][appstore], [Obtainium][obtainium] en [Accrescent][accrescent], en zal binnen enkele dagen klaar zijn in [Google Play][googleplay], [Huawei AppGallery][appgallery], en [FDroid][fdroid].

@@ -1,6 +1,8 @@
 ---
 title: "Rhifyn 15 Medi: cynllunio llwybr newydd a disgrifiadau OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Mae ail ryddhad mis Medi yn dod â sgrin gynllunio llwybr ailddyluniedig a’r gallu i weld cynnwys tag OpenStreetMap `description` ar iOS. I ddod o hyd i leoedd gyda’r tag hwn teipiwch `?description` yn y blwch chwilio (yn debyg i `?wiki`).

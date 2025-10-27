@@ -1,6 +1,8 @@
 ---
 title: "Rutas de senderismo y ciclismo, nombres de marcadores en el mapa, selección de rutas, gráfico de elevación y más en la actualización de agosto"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instala la actualización de agosto de Organic Maps, descarga los mapas más recientes y descubre rutas populares de senderismo y ciclismo en todo el mundo. Pulsa el botón "Capas" en la parte superior izquierda para ver rutas de bicicleta y MTB coloreadas, así como caminos oficiales de senderismo y paseo. ¿No ves nada cerca? Entonces es momento de agregar la información faltante en OpenStreetMap.org, ya que todos los datos de Organic Maps provienen de ese proyecto abierto, gratuito y comunitario.

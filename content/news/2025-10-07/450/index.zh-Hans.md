@@ -1,6 +1,8 @@
 ---
 title: "10月7日发布：Android Auto 速度限制、GeoJSON 导入等"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Android Auto 用户现在可以看到速度限制警告。新增 GeoJSON 文件导入功能，可转换为书签。

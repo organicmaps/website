@@ -1,6 +1,8 @@
 ---
 title: "Rotas de caminhada e ciclismo, nomes de favoritos no mapa, seleção de trilhas, gráfico de elevação e mais na versão de agosto"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instale a versão de agosto do Organic Maps, baixe os mapas mais recentes e descubra rotas populares de caminhada e ciclismo em todo o mundo! Pressione o botão "Camadas" no canto superior esquerdo para visualizar rotas coloridas de bicicleta e mountain bike, bem como trilhas oficiais de caminhada e passeio. Não vê nada nas proximidades? Então é hora de adicionar as informações que faltam ao OpenStreetMap.org, já que todos os dados do mapa no Organic Maps vêm desse projeto aberto, gratuito e gerido pela comunidade.

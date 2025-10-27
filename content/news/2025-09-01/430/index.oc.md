@@ -1,6 +1,8 @@
 ---
 title: "Vejatz los Numèros de Rota a las Paradassas d'Autobús e Pus: Resalhs de l'Edicion de Setembre"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Ara, quand seleccionatz una paradassa d'autobús o tram, veiretz los numèros de rota del transpòrt public. Aquò es sonque lo primièr pas! Aprèp, prevesèm de mostrar las rotas de transpòrt public dirèctament sus la mapa. Los utilizaires d'iOS pòdon tanben gauzir dels botons de contribucion OpenStreetMap tornats far ("Ajustar luòc" e "Editar luòc").

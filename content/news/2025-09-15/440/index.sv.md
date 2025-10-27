@@ -1,6 +1,8 @@
 ---
 title: "Release 15 september: ny ruttplanering och OSM-beskrivningar"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Den här andra septemberreleasen ger en omarbetad skärm för ruttplanering och möjligheten att visa innehåll i OpenStreetMap-taggen `description` på iOS. För att hitta platser med taggen, skriv `?description` i sökfältet (liknande `?wiki`).

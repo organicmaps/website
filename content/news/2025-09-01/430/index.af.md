@@ -1,6 +1,8 @@
 ---
 title: "Sien roetenommers by bushaltes en meer: September vrystelling hoogtepunte"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nou, wanneer jy 'n bus- of tramhalte kies, kan jy die openbare vervoer roetenommers sien. Dit is net die eerste stap! Volgende beplan ons om openbare vervoer roetes direk op die kaart te wys. iOS gebruikers kan ook die herontwerpe OpenStreetMap bydrae knoppies geniet ("Voeg Plek By" en "Redigeer Plek").

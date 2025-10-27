@@ -1,6 +1,8 @@
 ---
 title: "Vrystelling 15 September: Nuwe roete-beplanning en OSM-beskrywings"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Hierdie tweede September-vrystelling bring ’n herontwerpte roete-beplanningskerm en die vermoë om die OpenStreetMap `description`-etiket op iOS te sien. Tik `?description` in die soekveld om plekke met dié etiket te vind (soortgelyk aan `?wiki`).

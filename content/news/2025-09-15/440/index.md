@@ -1,6 +1,8 @@
 ---
 title: "September 15 Release: New Route Planning and OSM Descriptions"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 This second September release brings a redesigned route planning screen and the ability to view OpenStreetMap `description` tag contents for iOS users. To discover places that have this tag, type `?description` in the search box (similar to typing `?wiki` for Wikipedia-linked places).

@@ -1,6 +1,8 @@
 ---
 title: "Szeptember 15-i kiadás: új útvonaltervezés és OSM leírások"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 A szeptemberi második kiadás egy áttervezett útvonaltervező képernyőt és az OpenStreetMap `description` címke tartalmának megjelenítését hozza iOS-en. Helyek kereséséhez ezzel a címkével írd be a keresésbe: `?description` (hasonló a `?wiki`-hez).

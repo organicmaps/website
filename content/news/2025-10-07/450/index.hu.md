@@ -1,6 +1,8 @@
 ---
 title: "Október 7-i kiadás: Android Auto sebességkorlátozás, GeoJSON import és még több"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Az Android Auto felhasználók mostantól láthatják a sebességkorlátozás figyelmeztetéseket. Hozzáadódott a GeoJSON fájlok importja, amelyek jelölőkké alakíthatók.

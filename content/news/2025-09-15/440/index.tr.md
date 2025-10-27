@@ -1,6 +1,8 @@
 ---
 title: "15 Eylül sürümü: yeni rota planlama ve OSM açıklamaları"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Bu ikinci Eylül sürümü yeniden tasarlanmış bir rota planlama ekranı ve iOS’ta OpenStreetMap `description` etiket içeriğini görüntüleme özelliği getiriyor. Bu etikete sahip yerleri bulmak için aramaya `?description` yazın (`?wiki` gibi).

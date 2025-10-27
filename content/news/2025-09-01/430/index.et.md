@@ -1,6 +1,8 @@
 ---
 title: "Vaata bussijaama marsruudinumbreid ja muud: Septembri väljaande esiletõstmised"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nüüd, kui valid bussi- või trammipeatuse, saad näha ühistranspordi marsruudinumbreid. See on ainult esimene samm! Järgmisena kavatseme näidata ühistranspordi marsruute otse kaardil. iOS kasutajad saavad samuti nautida ümber kujundatud OpenStreetMap panustamise nuppe ("Lisa koht" ja "Redigeeri kohta").

@@ -1,6 +1,8 @@
 ---
 title: "Better track editing and many improvements and fixes in Organic Maps July 2025 update"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Meet Organic Maps July update with many fixes and improvements, thanks to our contributors ❤️💪! The update is already available in the [AppStore][appstore], [Obtainium][obtainium] and [Accrescent][accrescent], and will be ready in [Google Play][googleplay], [Huawei AppGallery][appgallery], and [FDroid][fdroid] in a few days.

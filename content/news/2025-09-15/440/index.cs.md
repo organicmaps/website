@@ -1,6 +1,8 @@
 ---
 title: "Vydání 15. září: nové plánování trasy a popisy OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Toto druhé zářijové vydání přináší přepracovanou obrazovku plánování trasy a zobrazení obsahu tagu OpenStreetMap `description` na iOS. Chcete-li najít místa s tímto tagem, zadejte do vyhledávání `?description` (podobně jako `?wiki`).

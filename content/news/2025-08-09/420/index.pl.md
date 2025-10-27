@@ -1,6 +1,8 @@
 ---
 title: "Szlaki piesze i rowerowe, nazwy zakładek na mapie, wybór śladów, wykres wysokości i więcej w sierpniowym wydaniu"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Zainstaluj sierpniową wersję Organic Maps, pobierz najnowsze mapy i odkryj popularne szlaki piesze i rowerowe na całym świecie! Naciśnij przycisk "Warstwy" w lewym górnym rogu, aby zobaczyć kolorowe trasy rowerowe i MTB, a także oficjalne szlaki piesze i spacerowe. Nie widzisz niczego w pobliżu? To czas, aby dodać brakujące informacje do OpenStreetMap.org, ponieważ wszystkie dane mapowe w Organic Maps pochodzą z tego otwartego, bezpłatnego i tworzonego przez społeczność projektu.

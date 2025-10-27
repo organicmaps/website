@@ -2,6 +2,8 @@
 title: "Oktober-release: Hastighetsbegränsningar i Android Auto, GeoJSON-import, statistik för inspelningsspår, visning av OSM-beskrivningstagg, spara bokmärke på valt spår på iOS och mer"
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
+taxonomies:
+  news: ["Releases"]
 ---
 
 Denna oktober-uppdatering av Organic Maps lägger till visning av hastighetsbegränsningar i Android Auto, GeoJSON-import, statistik för inspelningsspår, visar OSM-beskrivningstaggar (skriv `?description` i sökrutan för att se dem) och sparar ett bokmärke på ett spår på iOS. Det finns också många förbättringar av användargränssnittet, OpenStreetMap-redigering och olika buggfixar på alla plattformar, inklusive kraschfixen vid start på vissa Android-enheter.

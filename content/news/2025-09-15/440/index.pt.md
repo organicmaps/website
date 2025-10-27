@@ -1,6 +1,8 @@
 ---
 title: "Lançamento 15 de setembro: novo planeamento de rotas e descrições OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Esta segunda versão de setembro traz um ecrã redesenhado de planeamento de rotas e a possibilidade de ver o conteúdo da etiqueta OpenStreetMap `description` no iOS. Para encontrar locais com essa etiqueta, digite `?description` na pesquisa (semelhante a `?wiki`).

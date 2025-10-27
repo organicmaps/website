@@ -1,6 +1,8 @@
 ---
 title: "Turistické a cyklistické trasy, názvy záložek na mapě, výběr stopy, výškový graf a mnohem více v srpnovém vydání"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko "Vrstvy" vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.

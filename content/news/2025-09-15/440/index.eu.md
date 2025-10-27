@@ -1,6 +1,8 @@
 ---
 title: "Irailaren 15eko argitalpena: ibilbide-plangintza berria eta OSM deskribapenak"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Iraileko bigarren argitalpen honek ibilbideak planifikatzeko pantaila berritu bat eta OpenStreetMap `description` etiketaren edukia iOSen ikusteko aukera ekartzen ditu. Etiketa hori duten lekuak aurkitzeko, idatzi `?description` bilaketan (`?wiki` bezalatsu).

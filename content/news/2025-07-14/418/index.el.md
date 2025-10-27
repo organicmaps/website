@@ -1,6 +1,8 @@
 ---
 title: "Καλύτερη επεξεργασία διαδρομών και πολλές βελτιώσεις και διορθώσεις στην ενημέρωση Organic Maps Ιουλίου 2025"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Γνωρίστε την ενημέρωση Ιουλίου του Organic Maps με πολλές διορθώσεις και βελτιώσεις, χάρη στους συνεισφέροντές μας ❤️💪! Η ενημέρωση είναι ήδη διαθέσιμη στο [AppStore][appstore], [Obtainium][obtainium] και [Accrescent][accrescent], και θα είναι έτοιμη στο [Google Play][googleplay], [Huawei AppGallery][appgallery], και [FDroid][fdroid] σε λίγες μέρες.

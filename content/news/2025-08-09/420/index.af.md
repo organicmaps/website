@@ -1,6 +1,8 @@
 ---
 title: "Stap- en fietsroetes, boekmerk name op die kaart, roete seleksie, hoogte grafiek, en meer in die Augustus vrystelling"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installeer die Augustus vrystelling van Organic Maps, laai die nuutste kaarte af, en ontdek gewilde stap- en fietsroetes regoor die wêreld! Druk die "Lae" knoppie bo-links om gekleurde fiets- en MTB-roetes te sien, sowel as amptelike stap- en wandelroetes. Sien jy niks naby nie? Dan is dit tyd om die ontbrekende inligting by OpenStreetMap.org te voeg, aangesien alle kaartdata in Organic Maps van daardie oop, gratis en gemeenskap-gedrewe projek kom.

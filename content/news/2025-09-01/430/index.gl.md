@@ -1,6 +1,8 @@
 ---
 title: "Ve os Números de Ruta nas Paradas de Autobús e Máis: Destacados da Edición de Setembro"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Agora, ao seleccionar unha parada de autobús ou tranvía, verás os números de ruta do transporte público. Isto é só o primeiro paso! A continuación, planeamos mostrar as rutas de transporte público directamente no mapa. Os usuarios de iOS tamén poden gozar dos botóns de contribución OpenStreetMap rediseñados ("Engadir lugar" e "Editar lugar").

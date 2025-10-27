@@ -2,6 +2,8 @@
 title: "Wydanie październikowe: Limity prędkości w Android Auto, import GeoJSON, statystyki nagrywania ścieżek, wyświetlanie tagów opisów OSM, zapisywanie zakładek na wybranej ścieżce w iOS i więcej"
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
+taxonomies:
+  news: ["Releases"]
 ---
 
 Ta październikowa aktualizacja Organic Maps dodaje wyświetlanie limitów prędkości w Android Auto, import GeoJSON, statystyki nagrywania ścieżek, pokazuje tagi opisów OSM (wpisz `?description` w polu wyszukiwania, aby je zobaczyć) i zapisuje zakładkę na ścieżce w iOS. Dostępnych jest również wiele ulepszeń interfejsu użytkownika, edycji OpenStreetMap i różne poprawki błędów na wszystkich platformach, w tym naprawa awarii podczas uruchamiania na niektórych urządzeniach Android.

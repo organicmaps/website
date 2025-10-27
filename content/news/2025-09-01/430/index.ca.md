@@ -1,6 +1,8 @@
 ---
 title: "Veure números de línies a parades d'autobús i més: Aspectes destacats de la versió de setembre"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Ara, quan seleccioneu una parada d'autobús o tramvia, podeu veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats ("Afegir lloc" i "Editar lloc").

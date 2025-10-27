@@ -1,6 +1,8 @@
 ---
 title: "Gweld Rhifau Llwybrau wrth Safleoedd Bws a Mwy: Uwchbwyntiau Rhyddhad Medi"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nawr, pan dewch chi safle bws neu dram, gallwch weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd ("Ychwanegu Lleoliad" a "Golygu Lleoliad").

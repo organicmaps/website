@@ -2,6 +2,8 @@
 title: "March 2025.03.02 release"
 date: 2025-03-02T12:00:00+00:00
 slug: "march-2025-03-02-release"
+taxonomies:
+  news: ["Releases"]
 ---
 
 March Organic Maps Update: iOS Search Split-Screen Mode, Individual Track Sharing and Enhanced Bicycle Routing.

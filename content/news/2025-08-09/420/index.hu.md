@@ -1,6 +1,8 @@
 ---
 title: "Túra- és kerékpárútvonalak, könyvjelző nevek a térképen, útvonal kiválasztás, magassági grafikon és még sok más az augusztusi kiadásban"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Telepítsd az Organic Maps augusztusi kiadását, töltsd le a legfrissebb térképeket, és fedezd fel a világ népszerű túra- és kerékpárútvonalait! Nyomd meg a bal felső "Rétegek" gombot a színes kerékpáros és MTB útvonalak, valamint a hivatalos túra- és sétaútvonalak megtekintéséhez. Nem látsz semmit a közelben? Akkor itt az ideje, hogy hozzáadd a hiányzó információkat az OpenStreetMap.org-hoz, mivel az Organic Maps összes térképadata ebből a nyílt, ingyenes és közösség által vezérelt projektből származik.

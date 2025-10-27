@@ -1,6 +1,8 @@
 ---
 title: "Percorsi escursionistici e ciclabili, nomi dei segnalibri sulla mappa, selezione tracce, grafico altitudine e altro nella versione di agosto"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installa la versione di agosto di Organic Maps, scarica le mappe più recenti e scopri percorsi escursionistici e ciclabili popolari in tutto il mondo! Premi il pulsante "Livelli" in alto a sinistra per visualizzare percorsi bicicletta e MTB colorati, oltre ai sentieri ufficiali per escursioni e passeggiate. Non vedi nulla nelle vicinanze? Allora è il momento di aggiungere le informazioni mancanti su OpenStreetMap.org, poiché tutti i dati delle mappe in Organic Maps provengono da quel progetto aperto, gratuito e guidato dalla community.

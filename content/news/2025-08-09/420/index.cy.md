@@ -1,6 +1,8 @@
 ---
 title: "Llwybrau cerdded a beicio, enwau nodau ar y map, dewis trac, graff uchder, a mwy yn y rhyddhad mis Awst"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Gosodwch ryddhad mis Awst Organic Maps, lawrlwythwch y mapiau diweddaraf, a darganfyddwch lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasgwch y botwm "Haenau" chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.

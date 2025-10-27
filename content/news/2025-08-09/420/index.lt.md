@@ -1,6 +1,8 @@
 ---
 title: "Žygių ir dviračių maršrutai, žymių pavadinimai žemėlapyje, takelio pasirinkimas, aukščio grafikas ir daugiau rugpjūčio leidime"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką "Sluoksniai", kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.

@@ -1,6 +1,8 @@
 ---
 title: "Daha iyi rota düzenleme ve Organic Maps Temmuz 2025 güncellemesinde birçok iyileştirme ve düzeltme"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Katkıda bulunanlarımız sayesinde ❤️💪 birçok düzeltme ve iyileştirme içeren Organic Maps Temmuz güncellemesi ile tanışın! Güncelleme [AppStore][appstore], [Obtainium][obtainium] ve [Accrescent][accrescent]'te zaten mevcut ve birkaç gün içinde [Google Play][googleplay], [Huawei AppGallery][appgallery] ve [FDroid][fdroid]'de hazır olacak.

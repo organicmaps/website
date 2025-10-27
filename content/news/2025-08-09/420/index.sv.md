@@ -1,6 +1,8 @@
 ---
 title: "Vandring- och cykelrutter, bokmärkesnamn på kartan, spårval, höjdgraf och mer i augustiutgåvan"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installera augustiutgåvan av Organic Maps, ladda ner de senaste kartorna och upptäck populära vandring- och cykelrutter över hela världen! Tryck på knappen "Lager" uppe till vänster för att visa färgade cykel- och MTB-rutter, samt officiella vandring- och promenadstigar. Ser du inget i närheten? Då är det dags att lägga till den saknade informationen på OpenStreetMap.org, eftersom all kartdata i Organic Maps kommer från det öppna, gratis och gemenskapsdrivna projektet.

@@ -1,6 +1,8 @@
 ---
 title: "Spalio 7 leidimas: Android Auto greičio ribojimai, GeoJSON importas ir kt."
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Android Auto naudotojai dabar gali matyti greičio ribojimo įspėjimus. Pridėtas GeoJSON failų importas, kuriuos galima konvertuoti į žymeklius.

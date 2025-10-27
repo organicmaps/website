@@ -1,6 +1,8 @@
 ---
 title: "Itinéraires de randonnée et de vélo, noms des favoris sur la carte, sélection de trace, graphique d'altitude et plus dans la version d'août"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installez la version d'août d'Organic Maps, téléchargez les dernières cartes et découvrez des itinéraires de randonnée et de vélo populaires dans le monde entier ! Appuyez sur le bouton "Couches" en haut à gauche pour afficher les itinéraires colorés de vélo et VTT, ainsi que les sentiers de randonnée et de promenade officiels. Rien à proximité ? Il est alors temps d'ajouter les informations manquantes sur OpenStreetMap.org, car toutes les données cartographiques d'Organic Maps proviennent de ce projet ouvert, gratuit et communautaire.

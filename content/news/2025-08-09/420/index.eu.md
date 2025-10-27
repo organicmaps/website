@@ -1,6 +1,8 @@
 ---
 title: "Mendi-ibilbideak eta txirrindularitza-bideak, laster-marken izenak mapan, track-aukeraketa, altuera-grafikoa eta gehiago abuztuko bertsioan"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instalatu Organic Maps-en abuztuko bertsioa, deskargatu azken mapak, eta aurkitu mendi-ibilbide eta txirrindularitza-bide ospetsuak mundu osoan zehar! Sakatu goiko ezkerreko "Geruzak" botoia bizikleta eta MTB ibilbide koloreztatuak, bai eta mendi-ibilbide eta oinezko bide ofizialak ikusteko. Ez duzu ezer ikusten inguruan? Orduan, OpenStreetMap.org-en informazio falta gehitzeko garaia da, Organic Maps-eko mapa-datu guztiak proiektu ireki, dohaineko eta komunitateak bultzatutako horretatik datozelako.

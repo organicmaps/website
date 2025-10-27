@@ -2,6 +2,8 @@
 title: "November 2024.11.12 release"
 date: 2024-11-12T12:00:00+00:00
 slug: "november-2024-11-12-release"
+taxonomies:
+  news: ["Releases"]
 ---
 
 November 2024.11.12 release:

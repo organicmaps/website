@@ -1,6 +1,8 @@
 ---
 title: "Rhifyn 7 Hydref: terfynau cyflymder Android Auto, mewnforio GeoJSON a mwy"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Gall defnyddwyr Android Auto nawr weld rhybuddion terfyn cyflymder. Ychwanegwyd mewnforio ffeiliau GeoJSON y gellir eu trosi i farciau.

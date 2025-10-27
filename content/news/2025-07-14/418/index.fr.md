@@ -1,6 +1,8 @@
 ---
 title: "Meilleure édition de pistes et de nombreuses améliorations et corrections dans la mise à jour Organic Maps de juillet 2025"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Découvrez la mise à jour de juillet d'Organic Maps avec de nombreuses corrections et améliorations, grâce à nos contributeurs ❤️💪! La mise à jour est déjà disponible sur l'[AppStore][appstore], [Obtainium][obtainium] et [Accrescent][accrescent], et sera prête sur [Google Play][googleplay], [Huawei AppGallery][appgallery], et [FDroid][fdroid] dans quelques jours.

@@ -1,6 +1,8 @@
 ---
 title: "Žiūrėkite maršrutų numerius autobusų stotelėse ir daugiau: Rugsėjo leidimo akcentai"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Dabar, kai pasirenkate autobusų ar tramvajų stotelę, galite matyti viešojo transporto maršrutų numerius. Tai tik pirmas žingsnis! Toliau planuojame rodyti viešojo transporto maršrutus tiesiogiai žemėlapyje. iOS vartotojai taip pat gali mėgautis iš naujo suprojektuotais OpenStreetMap įnašų mygtukais („Pridėti vietą" ir „Redaguoti vietą").

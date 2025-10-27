@@ -1,6 +1,8 @@
 ---
 title: "Liniennummern an Bushaltestellen anzeigen und weitere Verbesserungen im September-Release"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Jetzt können Sie beim Auswählen einer Bus- oder Straßenbahnhaltestelle die Liniennummern des öffentlichen Verkehrs sehen. Das ist nur der erste Schritt! Als nächstes planen wir, öffentliche Verkehrsrouten direkt auf der Karte anzuzeigen. iOS-Nutzer können sich auch über neu gestaltete OpenStreetMap-Beitragstaste („Ort hinzufügen" und „Ort bearbeiten") freuen.

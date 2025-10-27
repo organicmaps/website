@@ -1,6 +1,8 @@
 ---
 title: "Lijnnummers bij bushaltes zien en meer: Hoogtepunten van de september-versie"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Nu kun je, wanneer je een bus- of tramhalte selecteert, de lijnnummers van het openbaar vervoer zien. Dit is slechts de eerste stap! Vervolgens zijn we van plan openbaar vervoer routes direct op de kaart te tonen. iOS-gebruikers kunnen ook genieten van de opnieuw ontworpen OpenStreetMap bijdrage-knoppen ("Plaats toevoegen" en "Plaats bewerken").

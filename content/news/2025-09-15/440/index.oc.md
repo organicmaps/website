@@ -1,6 +1,8 @@
 ---
 title: "Publicacion del 15 de setembre: novèl plan de trajècte e descripcions OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Aquela segonda publicacion de setembre aporta un ecran de planificacion de trajèctes tornat concebre e la possibilitat d'afichar lo contengut de la balisa OpenStreetMap `description` sus iOS. Per trobar de lòcs amb aquela balisa, picatz `?description` dins la recèrca (similar a `?wiki`).

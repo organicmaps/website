@@ -1,6 +1,8 @@
 ---
 title: "Hiking and cycling routes, bookmark names on the map, track selection, elevation graph, and more in the August release"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Install the August release of Organic Maps, download the latest maps, and discover popular hiking and cycling routes all over the world! Press the top-left "Layers" button to view colored bicycle and MTB routes, as well as official hiking and walking paths. Don't see anything nearby? Then it's time to add the missing information to OpenStreetMap.org, since all map data in Organic Maps comes from that open, free, and community-driven project.

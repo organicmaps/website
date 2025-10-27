@@ -1,6 +1,8 @@
 ---
 title: "Llançament 15 de setembre: nova planificació de rutes i descripcions OSM"
 date: 2025-09-15T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Aquesta segona versió de setembre aporta una pantalla de planificació de rutes redissenyada i la possibilitat de veure el contingut de l’etiqueta `description` d’OpenStreetMap a iOS. Per trobar llocs amb aquesta etiqueta, escriu `?description` a la cerca (similar a `?wiki`).

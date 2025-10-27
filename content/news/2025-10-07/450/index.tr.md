@@ -1,6 +1,8 @@
 ---
 title: "7 Ekim sürümü: Android Auto hız limitleri, GeoJSON içe aktarma ve daha fazlası"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Android Auto kullanıcıları artık hız sınırı uyarılarını görebilir. Yer imlerine dönüştürülebilen GeoJSON dosya içe aktarma eklendi.

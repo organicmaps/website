@@ -1,6 +1,8 @@
 ---
 title: "Lihat nomor rute di halte bus dan lainnya: Sorotan rilis September"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Sekarang, ketika Anda memilih halte bus atau tram, Anda dapat melihat nomor rute transportasi umum. Ini hanya langkah pertama! Selanjutnya, kami berencana menampilkan rute transportasi umum langsung di peta. Pengguna iOS juga dapat menikmati tombol kontribusi OpenStreetMap yang didesain ulang ("Tambah Tempat" dan "Edit Tempat").

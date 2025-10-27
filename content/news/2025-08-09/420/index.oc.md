@@ -1,6 +1,8 @@
 ---
 title: "Camins de randonnada e de ciclisme, noms de marcapaginas sus la mapa, seleccion de traças, grafic d'elevacion e mai encara dins la version d'agost"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installatz la version d'agost d'Organic Maps, telecargatz las mapas mai recentas e descobrissètz de camins populars de randonnada e de ciclisme dins lo monde entièr ! Quichatz sul boton « Jaces » en naut a esquèrra per veire las rotas de bicicleta e de VTT en color, e tanben los camins oficials de randonnada e de passejada. Vesètz pas res a proximitat ? Alara es temps d'ajustar las informacions mancantas a OpenStreetMap.org, perque totas las donadas cartograficas d'Organic Maps venon d'aqueste projècte liure, gratuit e menat per la comunautat.

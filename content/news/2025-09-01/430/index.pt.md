@@ -1,6 +1,8 @@
 ---
 title: "Ver números de linha em paragens de autocarro e mais: Destaques da versão de setembro"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Agora, quando seleciona uma paragem de autocarro ou elétrico, pode ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar local" e "Editar local").

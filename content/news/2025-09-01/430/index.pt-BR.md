@@ -1,6 +1,8 @@
 ---
 title: "Ver números de linhas em pontos de ônibus e mais: Destaques da versão de setembro"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Agora, quando você seleciona um ponto de ônibus ou bonde, pode ver os números das linhas de transporte público. Este é apenas o primeiro passo! Em seguida, planejamos mostrar as rotas de transporte público diretamente no mapa. Usuários do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar lugar" e "Editar lugar").

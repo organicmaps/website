@@ -1,6 +1,8 @@
 ---
 title: "Urriaren 7ko argitalpena: Android Auto abiadura-mugak, GeoJSON inportazioa eta gehiago"
 date: 2025-10-07T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Android Auto erabiltzaileek orain abiadura-mugaren oharrak ikus ditzakete. GeoJSON fitxategien inportazioa gehitu da, markatzaile bihur daitezkeenak.

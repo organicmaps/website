@@ -1,6 +1,8 @@
 ---
 title: "Pengeditan trek yang lebih baik dan banyak perbaikan serta penyempurnaan di pembaruan Organic Maps Juli 2025"
 date: 2025-07-14T20:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Temui pembaruan Juli Organic Maps dengan banyak perbaikan dan penyempurnaan, terima kasih kepada kontributor kami ❤️💪! Pembaruan sudah tersedia di [AppStore][appstore], [Obtainium][obtainium] dan [Accrescent][accrescent], dan akan siap di [Google Play][googleplay], [Huawei AppGallery][appgallery], dan [FDroid][fdroid] dalam beberapa hari.

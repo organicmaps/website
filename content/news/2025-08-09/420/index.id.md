@@ -1,6 +1,8 @@
 ---
 title: "Rute hiking dan bersepeda, nama bookmark di peta, pemilihan trek, grafik elevasi, dan lainnya di rilis Agustus"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instal rilis Agustus Organic Maps, unduh peta terbaru, dan temukan rute hiking dan bersepeda populer di seluruh dunia! Tekan tombol "Lapisan" di kiri atas untuk melihat rute sepeda dan MTB berwarna, serta jalur hiking dan jalan kaki resmi. Tidak melihat apa pun di dekat Anda? Maka saatnya menambahkan informasi yang hilang ke OpenStreetMap.org, karena semua data peta di Organic Maps berasal dari proyek terbuka, gratis, dan berbasis komunitas tersebut.

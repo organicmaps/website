@@ -2,6 +2,8 @@
 title: "January 2025.01.26 release"
 date: 2025-01-26T12:00:00+00:00
 slug: "january-2025-01-26-release"
+taxonomies:
+  news: ["Releases"]
 ---
 
 January 2025.01.26 release highlights:
@@ -21,7 +23,7 @@ And many more smaller changes:
 - Recalculate route when routing options are changed
 - "Manage Space" button in Android's app info page opens list of downloaded maps
 - Link to Notes in OSM profile
-- Fixed truncated button labels in the Track Recording stop dialog 
+- Fixed truncated button labels in the Track Recording stop dialog
 - Added a scrollbar to category list in the Editor
 - Android Auto fixes: erroneous world map download prompt, route calculation map download crash
 

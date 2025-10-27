@@ -1,6 +1,8 @@
 ---
 title: "Wandel- en fietsroutes, bladwijzernamen op de kaart, track selectie, hoogtegrafiek en meer in de augustus release"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installeer de augustus release van Organic Maps, download de nieuwste kaarten en ontdek populaire wandel- en fietsroutes over de hele wereld! Druk op de knop "Lagen" linksboven om gekleurde fiets- en MTB-routes te bekijken, evenals officiële wandel- en loopaden. Zie je niets in de buurt? Dan is het tijd om de ontbrekende informatie toe te voegen aan OpenStreetMap.org, omdat alle kaartdata in Organic Maps afkomstig is van dat open, gratis en gemeenschapsgestuurde project.

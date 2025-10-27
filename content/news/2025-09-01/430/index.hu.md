@@ -1,6 +1,8 @@
 ---
 title: "Lásd a vonalszámokat a buszmegállókban és további újdonságok: A szeptemberi kiadás fénypontjai"
 date: 2025-09-01T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Most, amikor kiválasztasz egy busz- vagy villamosmegállót, láthatod a tömegközlekedés vonalszámait. Ez csak az első lépés! Következőként azt tervezzük, hogy a tömegközlekedési útvonalakat közvetlenül a térképen jelenítjük meg. Az iOS felhasználók élvezhetik az újratervezett OpenStreetMap hozzájárulási gombokat („Hely hozzáadása" és „Hely szerkesztése").

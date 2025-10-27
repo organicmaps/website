@@ -1,6 +1,8 @@
 ---
 title: "Wander- und Fahrradrouten, Namen von Lesezeichen auf der Karte, Track-Auswahl, Höhenprofil und mehr im August-Release"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Installiere das August-Update von Organic Maps, lade die neuesten Karten herunter und entdecke beliebte Wander- und Fahrradrouten auf der ganzen Welt! Drücke auf die Schaltfläche "Ebenen" oben links, um farbige Fahrrad- und MTB-Routen sowie offizielle Wander- und Spazierwege anzuzeigen. Siehst du nichts in deiner Nähe? Dann ist es Zeit, die fehlenden Informationen zu OpenStreetMap.org hinzuzufügen, denn alle Kartendaten in Organic Maps stammen aus diesem offenen, kostenlosen und gemeinschaftsbasierten Projekt.

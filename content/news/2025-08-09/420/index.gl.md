@@ -1,6 +1,8 @@
 ---
 title: "Rutas de sendeirismo e ciclismo, nomes de marcadores no mapa, selección de traxectos, gráfico de elevación e máis na versión de agosto"
 date: 2025-08-09T10:00:00+00:00
+taxonomies:
+  news: ["Releases"]
 ---
 
 Instala a versión de agosto de Organic Maps, descarga os últimos mapas e descobre rutas populares de sendeirismo e ciclismo en todo o mundo! Preme o botón "Capas" na parte superior esquerda para ver rutas coloreadas de bicicleta e BTT, así como sendeiros oficiais para camiñar e pasear. Non ves nada cerca? Entón é momento de engadir a información que falta a OpenStreetMap.org, xa que todos os datos do mapa en Organic Maps proveñen dese proxecto aberto, gratuíto e impulsado pola comunidade.

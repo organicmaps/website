@@ -8,12 +8,12 @@ Arabic             | &emsp; Vocalizer, Acapela, Nuance, SherpaTTS
 Aragonese          | &emsp; eSpeak
 Armenian           | &emsp; eSpeak
 Bangla             | &emsp; TTSLexx
-Basque             | &emsp; Vocalizer, Nuance
+Basque             | &emsp; Vocalizer, Nuance, AhoTTS
 Bengal             | &emsp; Vocalizer, Google, Nuance
 Bhojpuri           | &emsp; Vocalizer, Nuance
 Bulgarian          | &emsp; Vocalizer, Nuance, eSpeak
 Cantonese          | &emsp; Vocalizer, Google, Nuance, eSpeak
-Catalan            | &emsp; Vocalizer, Acapela, Nuance, eSpeak, SherpaTTS
+Catalan            | &emsp; Vocalizer, Acapela, Nuance, eSpeak, SherpaTTS, AhoTTS
 Croatian           | &emsp; Vocalizer, Nuance, eSpeak
 Czech              | &emsp; Vocalizer, Acapela, Nuance, eSpeak, SherpaTTS
 Danish             | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, SherpaTTS
@@ -35,7 +35,7 @@ Finnish            | &emsp; Vocalizer, Google, Acapela, Nuance, eSpeak, SherpaTT
 French (BE)        | &emsp; Vocalizer
 French (CA)        | &emsp; Vocalizer, Nuance
 French (FR)        | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, TTSLexx, SherpaTTS
-Galician           | &emsp; Vocalizer, Nuance
+Galician           | &emsp; Vocalizer, Nuance, AhoTTS
 Georgian           | &emsp; RHVoice, eSpeak, SherpaTTS
 German             | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, SherpaTTS, TTSLexx
 Gujarati           | &emsp; TTSLexx
@@ -80,7 +80,7 @@ Slovenian          | &emsp; Vocalizer, SherpaTTS
 Spanish (AR)       | &emsp; Vocalizer, Nuance, SherpaTTS
 Spanish (CL)       | &emsp; Vocalizer, Nuance
 Spanish (CO)       | &emsp; Vocalizer
-Spanish (ES)       | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, SherpaTTS, TTSLexx
+Spanish (ES)       | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, SherpaTTS, TTSLexx, AhoTTS
 Spanish (MX)       | &emsp; Vocalizer, SherpaTTS
 Swahili            | &emsp; eSpeak, SherpaTTS
 Swedish            | &emsp; Vocalizer, Ivona, Nuance, eSpeak, SherpaTTS
@@ -100,6 +100,7 @@ Welsh (Cymraeg, GB)| &emsp; eSpeak, SherpaTTS
 ---
 
 - [Acapela Voices TTS](https://play.google.com/store/apps/details?id=com.acapelagroup.android.tts)
+- [AhoTTS](https://play.google.com/store/apps/details?id=com.aholab.ahottsandroid)
 - [Amazon Ivona TTS](https://apkpure.com/ivona-text-to-speech-hq/com.ivona.tts/download)
 - [eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak/)
 - [Google Speech Services](https://play.google.com/store/apps/details?id=com.google.android.tts)

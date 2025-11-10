@@ -40,7 +40,7 @@ Georgian           | &emsp; RHVoice, eSpeak, SherpaTTS
 German             | &emsp; Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, SherpaTTS, TTSLexx
 Gujarati           | &emsp; TTSLexx
 Greek              | &emsp; Vocalizer, Acapela, Nuance, eSpeak, SherpaTTS
-Hebrew             | &emsp; Vocalizer, Nuance
+Hebrew             | &emsp; Vocalizer, Nuance, Hebrew TTS
 Hindi              | &emsp; Vocalizer, Nuance, eSpeak, TTSLexx, SherpaTTS
 Hungarian          | &emsp; Vocalizer, Google, Nuance, eSpeak, SherpaTTS
 Icelandic          | &emsp; eSpeak, SherpaTTS
@@ -104,6 +104,7 @@ Welsh (Cymraeg, GB)| &emsp; eSpeak, SherpaTTS
 - [Amazon Ivona TTS](https://apkpure.com/ivona-text-to-speech-hq/com.ivona.tts/download)
 - [eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak/)
 - [Google Speech Services](https://play.google.com/store/apps/details?id=com.google.android.tts)
+- [Hebrew TTS](https://play.google.com/store/apps/details?id=com.intu.hebrewtts)
 - [neurokone_app TTS](https://github.com/TartuNLP/neurokone_app)
 - [RHVoice TTS](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)
 - [SherpaTTS](https://f-droid.org/en/packages/org.woheller69.ttsengine/)

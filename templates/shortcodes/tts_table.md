@@ -28,7 +28,7 @@ English (UK)       | &emsp; Vocalizer, Google, Acapela, Yandex, RHVoice, eSpeak,
 English (US)       | &emsp; Vocalizer, Google, Acapela, Ivona, Yandex, Nuance, RHVoice, eSpeak, SherpaTTS, TTSLexx
 English (ZA)       | &emsp; Vocalizer, Nuance
 Esperanto          | &emsp; RHVoice, eSpeak
-Estonian           | &emsp; eSpeak
+Estonian           | &emsp; eSpeak, neurokone_app
 Faroese            | &emsp; Acapela
 Farsi              | &emsp; Vocalizer, Nuance, eSpeak, SherpaTTS
 Finnish            | &emsp; Vocalizer, Google, Acapela, Nuance, eSpeak, SherpaTTS
@@ -103,6 +103,7 @@ Welsh (Cymraeg, GB)| &emsp; eSpeak, SherpaTTS
 - [Amazon Ivona TTS](https://apkpure.com/ivona-text-to-speech-hq/com.ivona.tts/download)
 - [eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak/)
 - [Google Speech Services](https://play.google.com/store/apps/details?id=com.google.android.tts)
+- [neurokone_app TTS](https://github.com/TartuNLP/neurokone_app)
 - [RHVoice TTS](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)
 - [SherpaTTS](https://f-droid.org/en/packages/org.woheller69.ttsengine/)
 - [TTSLexx](https://play.google.com/store/apps/details?id=sia.netttsengine.ttslexx)

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-09-09 21:01+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\nLanguage: pt-BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.14-dev\n"
+msgstr "Project-Id-Version: Organic Maps Website 1.0\nPO-Revision-Date: 2025-11-23 14:51+0000\nLast-Translator: Dias Stebanäk <diasatreader@gmail.com>\nLanguage-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/organicmaps/website/pt_BR/>\nLanguage: pt-BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.15-dev\n"
 
 #. type: Yaml Front Matter Hash Value: description
 #: content/_index.md
@@ -28,7 +28,7 @@ msgstr "Organic Maps: Caminhada, Ciclismo, Trilhas e Navegação Offline"
 #: content/_index.md
 #, no-wrap
 msgid "**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.\n"
-msgstr "O **Organic Maps** é um aplicativo de mapas off-line e GPS com foco na privacidade para caminhadas, ciclismo e condução. Totalmente gratuito. Sem anúncios. Sem rastreamento. Desenvolvido com amor pela comunidade de código aberto. Alimentado por dados do [OpenStreetMap][openstreetmap].\n"
+msgstr "O **Organic Maps** é um aplicativo de mapas off-line e GPS com foco na privacidade para caminhadas, bicicletas e carros. Totalmente gratuito. Sem anúncios. Sem rastreamento. Desenvolvido com amor pela comunidade de código aberto. Alimentado por dados do [OpenStreetMap][openstreetmap].\n"
 
 #. type: Plain text
 #: content/_index.md

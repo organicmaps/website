@@ -55,3 +55,10 @@
 [translations_website]: https://hosted.weblate.org/projects/organicmaps/website/
 [twitter]: https://twitter.com/OrganicMapsApp
 [weblate]: https://hosted.weblate.org/projects/organicmaps/
+[license]: http://www.apache.org/licenses/LICENSE-2.0
+[company]: https://ariregister.rik.ee/eng/company/16225385/Organic-Maps-O%C3%9C
+[odbl-1-0]: https://opendatacommons.org/licenses/odbl/1-0/
+[contributors]: https://github.com/organicmaps/organicmaps/blob/master/CONTRIBUTORS#L6C1
+[notice]: https://github.com/organicmaps/organicmaps/blob/master/NOTICE
+[dep5]: https://github.com/organicmaps/organicmaps/blob/master/.reuse/dep5
+[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

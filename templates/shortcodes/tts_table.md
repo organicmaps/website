@@ -30,7 +30,7 @@ English (ZA)       | &emsp; Vocalizer, Nuance
 Esperanto          | &emsp; RHVoice, eSpeak
 Estonian           | &emsp; eSpeak, neurokone_app
 Faroese            | &emsp; Acapela
-Farsi              | &emsp; Vocalizer, Nuance, eSpeak, SherpaTTS
+Farsi (Persian)    | &emsp; Vocalizer, Nuance, eSpeak, SherpaTTS
 Finnish            | &emsp; Vocalizer, Google, Acapela, Nuance, eSpeak, SherpaTTS
 French (BE)        | &emsp; Vocalizer
 French (CA)        | &emsp; Vocalizer, Nuance

@@ -37,7 +37,7 @@ taxonomies:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps существует благодаря вашим [пожертвованиям][@/donate/index.ru.md] и [вкладу][@/contribute/index.ru.md]. Спасибо! ❤️
+Organic Maps существует благодаря вашим [пожертвованиям](@/donate/index.ru.md) и [вкладу](@/contribute/index.ru.md). Спасибо! ❤️
 
 Команда Organic Maps
 

@@ -37,7 +37,7 @@ Erken özellikleri denemek ve sorunları bildirmek için beta testine katılın:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps, [bağışlarınız][@/donate/index.tr.md] ve [katkılarınız][@/contribute/index.tr.md] sayesinde varlığını sürdürüyor. Teşekkürler! ❤️
+Organic Maps, [bağışlarınız](@/donate/index.tr.md) ve [katkılarınız](@/contribute/index.tr.md) sayesinde varlığını sürdürüyor. Teşekkürler! ❤️
 
 Organic Maps Ekibi
 

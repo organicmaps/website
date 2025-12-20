@@ -37,7 +37,7 @@ https://omaps.app/get वरून किंवा [App Store][appstore], [Googl
 - [iOS][testflight]
 - [Android][firebase]
 
-ऑरगॅनिक मॅप्स तुमच्या [देणग्या][@/donate/index.mr.md] आणि [योगदानांमुळे][@/contribute/index.mr.md] अस्तित्वात आहे. धन्यवाद! ❤️
+ऑरगॅनिक मॅप्स तुमच्या [देणग्या](@/donate/index.mr.md) आणि [योगदानांमुळे](@/contribute/index.mr.md) अस्तित्वात आहे. धन्यवाद! ❤️
 
 ऑरगॅनिक मॅप्स टीम
 

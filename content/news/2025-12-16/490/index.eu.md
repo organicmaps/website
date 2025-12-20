@@ -37,7 +37,7 @@ Sartu beta probetan ezaugarri goiztiarrak probatzeko eta arazoen berri emateko:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps zure [dohaintzei][@/donate/index.eu.md] eta [ekarpenei][@/contribute/index.eu.md] esker existitzen da. Eskerrik asko! ❤️
+Organic Maps zure [dohaintzei](@/donate/index.eu.md) eta [ekarpenei](@/contribute/index.eu.md) esker existitzen da. Eskerrik asko! ❤️
 
 Organic Maps Taldea
 

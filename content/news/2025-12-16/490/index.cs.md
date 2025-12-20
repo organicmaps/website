@@ -37,7 +37,7 @@ Připojte se k beta testování, vyzkoušejte rané funkce a nahlaste problémy:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existuje díky vašim [darům][@/donate/index.cs.md] a [příspěvkům][@/contribute/index.cs.md]. Děkujeme! ❤️
+Organic Maps existuje díky vašim [darům](@/donate/index.cs.md) a [příspěvkům](@/contribute/index.cs.md). Děkujeme! ❤️
 
 Tým Organic Maps
 

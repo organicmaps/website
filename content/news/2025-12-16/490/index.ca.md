@@ -37,7 +37,7 @@ Uniu-vos a la prova beta per provar les primeres funcions i informar de probleme
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existeix gràcies a les vostres [donacions][@/donate/index.ca.md] i [contribucions][@/contribute/index.ca.md]. Gràcies! ❤️
+Organic Maps existeix gràcies a les vostres [donacions](@/donate/index.ca.md) i [contribucions](@/contribute/index.ca.md). Gràcies! ❤️
 
 L'equip d'Organic Maps
 

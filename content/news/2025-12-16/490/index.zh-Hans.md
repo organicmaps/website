@@ -37,7 +37,7 @@ Organic Maps 团队祝您圣诞快乐，新年快乐。寻找节日气氛？搜�
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps 的存在归功于您的 [捐赠][@/donate/index.zh-Hans.md] 和 [贡献][@/contribute/index.zh-Hans.md]。谢谢！ ❤️
+Organic Maps 的存在归功于您的 [捐赠](@/donate/index.zh-Hans.md) 和 [贡献](@/contribute/index.zh-Hans.md)。谢谢！ ❤️
 
 Organic Maps 团队
 

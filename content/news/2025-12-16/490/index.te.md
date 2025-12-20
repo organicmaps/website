@@ -37,7 +37,7 @@ Organic Mapsని https://omaps.app/get నుండి లేదా [App Store
 - [iOS][testflight]
 - [Android][firebase]
 
-మీ [విరాళాలు][@/donate/index.te.md] మరియు [సహకారం][@/contribute/index.te.md] వల్లే ఆర్గానిక్ మ్యాప్స్ మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
+మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) వల్లే ఆర్గానిక్ మ్యాప్స్ మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
 
 ఆర్గానిక్ మ్యాప్స్ బృందం
 

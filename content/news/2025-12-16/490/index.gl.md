@@ -37,7 +37,7 @@ Instala Organic Maps desde https://omaps.app/get ou desde a [App Store][appstore
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existe grazas ás túas [doazóns][@/donate/index.gl.md] e [contribucións][@/contribute/index.gl.md]. Grazas! ❤️
+Organic Maps existe grazas ás túas [doazóns](@/donate/index.gl.md) e [contribucións](@/contribute/index.gl.md). Grazas! ❤️
 
 O equipo de Organic Maps
 

@@ -37,7 +37,7 @@ Rejoignez les tests bêta pour essayer les fonctionnalités en avant-première e
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existe grâce à vos [dons][@/donate/index.fr.md] et [contributions][@/contribute/index.fr.md]. Merci ! ❤️
+Organic Maps existe grâce à vos [dons](@/donate/index.fr.md) et [contributions](@/contribute/index.fr.md). Merci ! ❤️
 
 L'équipe Organic Maps
 

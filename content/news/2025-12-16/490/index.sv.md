@@ -37,7 +37,7 @@ Gå med i betatestning för att prova tidiga funktioner och rapportera problem:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps finns tack vare dina [donationer][@/donate/index.sv.md] och [bidrag][@/contribute/index.sv.md]. Tack! ❤️
+Organic Maps finns tack vare dina [donationer](@/donate/index.sv.md) och [bidrag](@/contribute/index.sv.md). Tack! ❤️
 
 Organic Maps-teamet
 

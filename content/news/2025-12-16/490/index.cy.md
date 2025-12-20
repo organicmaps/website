@@ -37,7 +37,7 @@ Ymunwch â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion
 - [iOS][testflight]
 - [Android][firebase]
 
-Mae Organic Maps yn bodoli diolch i'ch [rhoddion][@/donate/index.cy.md] a'ch [cyfraniadau][@/contribute/index.cy.md]. Diolch! ❤️
+Mae Organic Maps yn bodoli diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [cyfraniadau](@/contribute/index.cy.md). Diolch! ❤️
 
 Tîm Organic Maps
 

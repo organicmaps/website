@@ -37,7 +37,7 @@ Liitu beetatestimisega, et proovida varajasi funktsioone ja teatada probleemides
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps eksisteerib tänu teie [annetustele][@/donate/index.et.md] ja [panusele][@/contribute/index.et.md]. Aitäh! ❤️
+Organic Maps eksisteerib tänu teie [annetustele](@/donate/index.et.md) ja [panusele](@/contribute/index.et.md). Aitäh! ❤️
 
 Organic Mapsi meeskond
 

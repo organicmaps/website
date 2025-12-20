@@ -8,7 +8,7 @@ taxonomies:
 
 Веселого Різдва та щасливого Нового року від команди Organic Maps. Прагнете святкового настрою? Шукайте `Різдвяний ярмарок` або `Різдвяна ялинка`, щоб побачити їх на мапі. Якщо у вашому районі нічого не з'являється, будь ласка, додайте відсутні об'єкти на OpenStreetMap.org та покращуйте мапу для всіх!
 
-Встановіть Organic Maps з https://omaps.app/get або з [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid]
+Встановіть Organic Maps з <https://omaps.app/get> або з [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid]
 
 ### Примітки до випуску
 - Різдвяні ялинки та ярмарки тепер з'являються на мапі (Viktor Govako)

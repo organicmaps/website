@@ -8,7 +8,7 @@ taxonomies:
 
 Bo Nadal e Feliz Aninovo de parte do equipo de Organic Maps. Buscas o espírito do Nadal? Busca `Christmas market` ou `Christmas tree` para velos no mapa. Se non aparece nada na túa zona, engade os elementos que faltan en OpenStreetMap.org e mellora o mapa para todos!
 
-Instala Organic Maps desde https://omaps.app/get ou desde a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
+Instala Organic Maps desde <https://omaps.app/get> ou desde a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
 
 ### Notas da versión
 - As árbores e os mercados de Nadal aparecen agora no mapa (Viktor Govako)

@@ -8,7 +8,7 @@ taxonomies:
 
 Merry Christmas and Happy New Year from the Organic Maps team. Looking for holiday spirit? Search for `Christmas Market` or `Christmas Tree` to see them on the map. If nothing appears in your area, please add the missing features on OpenStreetMap.org and improve the map for everyone!
 
-Install Organic Maps from https://omaps.app/get or from [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid]
+Install Organic Maps from <https://omaps.app/get> or from [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid]
 
 ### Release notes
 - Christmas trees and markets now appear on the map (Viktor Govako)

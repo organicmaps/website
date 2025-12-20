@@ -8,7 +8,7 @@ taxonomies:
 
 ఆర్గానిక్ మ్యాప్స్ బృందం నుండి క్రిస్మస్ మరియు నూతన సంవత్సర శుభాకాంక్షలు. పండుగ ఉత్సాహం కోసం చూస్తున్నారా? మ్యాప్‌లో చూడటానికి `Christmas Market` లేదా `Christmas Tree` కోసం వెతకండి. మీ ప్రాంతంలో ఏమీ కనిపించకపోతే, దయచేసి OpenStreetMap.orgలో తప్పిపోయిన వివరాలను జోడించి, అందరి కోసం మ్యాప్‌ను మెరుగుపరచండి!
 
-Organic Mapsని https://omaps.app/get నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
+Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
 
 ### విడుదల గమనికలు
 - క్రిస్మస్ చెట్లు మరియు మార్కెట్లు ఇప్పుడు మ్యాప్‌లో కనిపిస్తాయి (Viktor Govako)

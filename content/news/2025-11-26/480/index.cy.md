@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Dydd Gwener! Mae'n bryd gosod diweddariad Organic Maps newydd o https://omaps.app/get neu o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Dydd Gwener! Mae'n bryd gosod diweddariad Organic Maps newydd o <https://omaps.app/get> neu o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
 ## Nodiadau Rhyddhau
 - Mae erthyglau Wicipedia ar gyfer lleoedd bellach ar gael yn Twrceg, Japaneeg, a Tsieinëeg. Teipiwch `?wiki` yn y chwiliad i ddod o hyd i leoedd gydag erthyglau ar y map. _(Alexander Borsuk)_

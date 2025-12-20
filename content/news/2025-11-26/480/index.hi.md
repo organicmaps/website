@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-शुक्रवार! https://omaps.app/get से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से नया Organic Maps अपडेट इंस्टॉल करने का समय है।
+शुक्रवार! <https://omaps.app/get> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से नया Organic Maps अपडेट इंस्टॉल करने का समय है।
 
 ## रिलीज़ नोट्स
 - स्थानों के लिए विकिपीडिया लेख अब तुर्की, जापानी और चीनी में उपलब्ध हैं। मैप पर लेखों वाले स्थान खोजने के लिए सर्च में `?wiki` टाइप करें। _(Alexander Borsuk)_

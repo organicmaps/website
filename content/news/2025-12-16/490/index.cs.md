@@ -8,7 +8,7 @@ taxonomies:
 
 Veselé Vánoce a šťastný nový rok od týmu Organic Maps. Hledáte vánoční atmosféru? Vyhledejte `Vánoční trh` nebo `Vánoční stromek` a zobrazte si je na mapě. Pokud se ve vaší oblasti nic nezobrazí, přidejte chybějící prvky na OpenStreetMap.org a vylepšete mapu pro všechny!
 
-Nainstalujte si Organic Maps z https://omaps.app/get nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
+Nainstalujte si Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
 
 ### Poznámky k vydání
 - Vánoční stromky a trhy se nyní zobrazují na mapě (Viktor Govako)

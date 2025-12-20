@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Cuma! https://omaps.app/get adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yeni Organic Maps güncellemesini yükleme zamanı.
+Cuma! <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yeni Organic Maps güncellemesini yükleme zamanı.
 
 ## Sürüm Notları
 - Yerler için Wikipedia makaleleri artık Türkçe, Japonca ve Çince olarak mevcut. Haritada makaleleri olan yerleri bulmak için aramada `?wiki` yazın. _(Alexander Borsuk)_

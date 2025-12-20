@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt https://omaps.app/get või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].
+Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps.app/get> või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].
 
 ## Väljalaskemärkmed
 - Vikipeedia artiklid kohtade kohta on nüüd saadaval türgi, jaapani ja hiina keeles. Sisestage otsingus `?wiki`, et leida kaardil artiklitega kohti. _(Alexander Borsuk)_

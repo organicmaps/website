@@ -8,7 +8,7 @@ taxonomies:
 
 Organic Maps 团队祝您圣诞快乐，新年快乐。寻找节日气氛？搜索 `圣诞市场` 或 `圣诞树` 即可在地图上看到它们。如果您所在的地区没有显示任何内容，请在 OpenStreetMap.org 上添加缺失的功能，为每个人改进地图！
 
-从 https://omaps.app/get 或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装 Organic Maps
+从 <https://omaps.app/get> 或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装 Organic Maps
 
 ### 发行说明
 - 圣诞树和市场现在显示在地图上 (Viktor Govako)

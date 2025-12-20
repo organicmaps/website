@@ -8,7 +8,7 @@ taxonomies:
 
 Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. Ieškote šventinės nuotaikos? Ieškokite `Christmas market` arba `Christmas tree`, kad pamatytumėte jas žemėlapyje. Jei jūsų vietovėje nieko nerodoma, pridėkite trūkstamus objektus OpenStreetMap.org ir pagerinkite žemėlapį visiems!
 
-Įdiekite „Organic Maps“ iš https://omaps.app/get arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
+Įdiekite „Organic Maps“ iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Laidos pastabos
 - Kalėdų eglutės ir mugės dabar rodomos žemėlapyje (Viktor Govako)

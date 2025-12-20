@@ -8,7 +8,7 @@ taxonomies:
 
 Καλά Χριστούγεννα και Ευτυχισμένο το Νέο Έτος από την ομάδα του Organic Maps. Ψάχνετε για το πνεύμα των εορτών; Αναζητήστε `Χριστουγεννιάτικη αγορά` ή `Χριστουγεννιάτικο δέντρο` για να τα δείτε στον χάρτη. Αν δεν εμφανίζεται τίποτα στην περιοχή σας, προσθέστε τα χαρακτηριστικά που λείπουν στο OpenStreetMap.org και βελτιώστε τον χάρτη για όλους!
 
-Εγκαταστήστε το Organic Maps από https://omaps.app/get ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid]
+Εγκαταστήστε το Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid]
 
 ### Σημειώσεις έκδοσης
 - Χριστουγεννιάτικα δέντρα και αγορές εμφανίζονται τώρα στον χάρτη (Viktor Govako)

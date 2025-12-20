@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Παρασκευή! Ήρθε η ώρα να εγκαταστήσετε τη νέα ενημέρωση Organic Maps από https://omaps.app/get ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
+Παρασκευή! Ήρθε η ώρα να εγκαταστήσετε τη νέα ενημέρωση Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
 
 ## Σημειώσεις Έκδοσης
 - Τα άρθρα της Wikipedia για τοποθεσίες είναι πλέον διαθέσιμα στα Τουρκικά, Ιαπωνικά και Κινέζικα. Πληκτρολογήστε `?wiki` στην αναζήτηση για να βρείτε τοποθεσίες με άρθρα στον χάρτη. _(Alexander Borsuk)_

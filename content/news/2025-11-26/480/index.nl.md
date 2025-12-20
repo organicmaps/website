@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf https://omaps.app/get of vanuit de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
+Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <https://omaps.app/get> of vanuit de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
 ## Release-opmerkingen
 - Wikipedia-artikelen voor plaatsen zijn nu beschikbaar in het Turks, Japans en Chinees. Typ `?wiki` in de zoekbalk om plaatsen met artikelen op de kaart te vinden. _(Alexander Borsuk)_

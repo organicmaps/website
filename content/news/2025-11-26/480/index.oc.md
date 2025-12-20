@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Diòus! Es ora d'installar la nòva mesa a jorn d'Organic Maps dempuèi https://omaps.app/get o dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Diòus! Es ora d'installar la nòva mesa a jorn d'Organic Maps dempuèi <https://omaps.app/get> o dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ## Nòtas de version
 - Los articles Wikipèdia per los luòcs son ara disponibles en turc, japonés e chinés. Picatz `?wiki` dins la recèrca per trobar los luòcs amb articles sus la mapa. _(Alexander Borsuk)_

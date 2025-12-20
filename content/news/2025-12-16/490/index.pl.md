@@ -8,7 +8,7 @@ taxonomies:
 
 Wesołych Świąt i Szczęśliwego Nowego Roku od zespołu Organic Maps. Szukasz świątecznego nastroju? Wyszukaj `Jarmark Bożonarodzeniowy` lub `Choinka`, aby zobaczyć je na mapie. Jeśli nic nie pojawia się w Twojej okolicy, dodaj brakujące elementy na OpenStreetMap.org i ulepsz mapę dla wszystkich!
 
-Zainstaluj Organic Maps z https://omaps.app/get lub z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
+Zainstaluj Organic Maps z <https://omaps.app/get> lub z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
 
 ### Informacje o wydaniu
 - Choinki i jarmarki bożonarodzeniowe pojawiają się teraz na mapie (Viktor Govako)

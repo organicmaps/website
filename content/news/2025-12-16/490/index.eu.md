@@ -8,7 +8,7 @@ taxonomies:
 
 Eguberri on eta Urte Berri on Organic Maps taldearen partetik. Gabonetako espirituaren bila? Bilatu `Gabonetako Merkatua` edo `Gabonetako zuhaitza` mapan ikusteko. Zure inguruan ezer agertzen ez bada, mesedez gehitu falta diren elementuak OpenStreetMap.org webgunean eta hobetu mapa guztiontzat!
 
-Instalatu Organic Maps https://omaps.app/get helbidetik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [F-Droid][fdroid] bidez.
+Instalatu Organic Maps <https://omaps.app/get> helbidetik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [F-Droid][fdroid] bidez.
 
 ### Bertsio oharrak
 - Gabonetako zuhaitzak eta merkatuak mapan agertzen dira orain (Viktor Govako)

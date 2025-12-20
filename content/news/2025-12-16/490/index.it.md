@@ -8,7 +8,7 @@ taxonomies:
 
 Buon Natale e Felice Anno Nuovo dal team di Organic Maps. Cerchi lo spirito natalizio? Cerca `Mercatino di Natale` o `Albero di Natale` per vederli sulla mappa. Se non appare nulla nella tua zona, aggiungi le funzionalità mancanti su OpenStreetMap.org e migliora la mappa per tutti!
 
-Installa Organic Maps da https://omaps.app/get o da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
+Installa Organic Maps da <https://omaps.app/get> o da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
 
 ### Note di rilascio
 - Alberi di Natale e mercatini ora appaiono sulla mappa (Viktor Govako)

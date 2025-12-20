@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da https://omaps.app/get-etik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid]-etik.
+Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da <https://omaps.app/get>-etik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid]-etik.
 
 ## Bertsio-oharrak
 - Lekuentzako Wikipedia artikuluak orain turkieraz, japonieraz eta txineraz daude eskuragarri. Idatzi `?wiki` bilaketan mapan artikuluak dituzten lekuak aurkitzeko. _(Alexander Borsuk)_

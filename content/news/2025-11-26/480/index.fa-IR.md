@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-جمعه! وقت نصب به‌روزرسانی جدید Organic Maps از https://omaps.app/get یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] است.
+جمعه! وقت نصب به‌روزرسانی جدید Organic Maps از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] است.
 
 ## یادداشت‌های انتشار
 - مقالات ویکی‌پدیا برای مکان‌ها اکنون به زبان‌های ترکی، ژاپنی و چینی در دسترس است. `?wiki` را در جستجو تایپ کنید تا مکان‌های دارای مقاله را روی نقشه پیدا کنید. _(Alexander Borsuk)_

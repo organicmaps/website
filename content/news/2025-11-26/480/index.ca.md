@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de https://omaps.app/get o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
 ## Notes de la versió
 - Els articles de la Viquipèdia per a llocs ja estan disponibles en turc, japonès i xinès. Escriviu `?wiki` a la cerca per trobar llocs amb articles al mapa. _(Alexander Borsuk)_

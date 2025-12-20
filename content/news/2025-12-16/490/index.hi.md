@@ -8,7 +8,7 @@ taxonomies:
 
 Organic Maps टीम की ओर से मेरी क्रिसमस और नया साल मुबारक हो। छुट्टियों की भावना की तलाश है? उन्हें मानचित्र पर देखने के लिए `क्रिसमस का बाजार` या `क्रिसमस ट्री` खोजें। यदि आपके क्षेत्र में कुछ भी दिखाई नहीं देता है, तो कृपया OpenStreetMap.org पर गायब सुविधाओं को जोड़ें और सभी के लिए मानचित्र में सुधार करें!
 
-Organic Maps को https://omaps.app/get से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से इंस्टॉल करें
+Organic Maps को <https://omaps.app/get> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से इंस्टॉल करें
 
 ### रिलीज़ नोट्स
 - क्रिसमस ट्री और बाज़ार अब मानचित्र पर दिखाई देते हैं (Viktor Govako)

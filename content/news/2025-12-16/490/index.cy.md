@@ -8,7 +8,7 @@ taxonomies:
 
 Nadolig Llawen a Blwyddyn Newydd Dda gan dîm Organic Maps. Chwilio am ysbryd y gwyliau? Chwiliwch am `Christmas Market` neu `Christmas Tree` i'w gweld ar y map. Os nad oes dim yn ymddangos yn eich ardal chi, ychwanegwch y nodweddion coll ar OpenStreetMap.org a gwella'r map i bawb!
 
-Gosodwch Organic Maps o https://omaps.app/get neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
+Gosodwch Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
 
 ### Nodiadau rhyddhau
 - Mae coed Nadolig a marchnadoedd bellach yn ymddangos ar y map (Viktor Govako)

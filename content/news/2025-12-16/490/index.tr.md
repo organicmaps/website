@@ -8,7 +8,7 @@ taxonomies:
 
 Organic Maps ekibinden Mutlu Noeller ve Mutlu Yıllar. Tatil ruhunu mu arıyorsunuz? Haritada görmek için `Noel Pazarı` veya `Noel Ağacı` araması yapın. Bölgenizde hiçbir şey görünmüyorsa, lütfen eksik özellikleri OpenStreetMap.org'a ekleyin ve haritayı herkes için iyileştirin!
 
-Organic Maps'i https://omaps.app/get adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yükleyin
+Organic Maps'i <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yükleyin
 
 ### Sürüm notları
 - Noel ağaçları ve pazarları artık haritada görünüyor (Viktor Govako)

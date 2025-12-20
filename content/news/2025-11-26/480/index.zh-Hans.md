@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-周五！是时候从 https://omaps.app/get 或从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装新的 Organic Maps 更新了。
+周五！是时候从 <https://omaps.app/get> 或从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装新的 Organic Maps 更新了。
 
 ## 发布说明
 - 地点的维基百科文章现在提供土耳其语、日语和中文版本。在搜索中输入 `?wiki` 可在地图上查找有文章的地点。 _(Alexander Borsuk)_

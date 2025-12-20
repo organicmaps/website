@@ -8,7 +8,7 @@ taxonomies:
 
 Vrolijk Kerstfeest en een Gelukkig Nieuwjaar van het Organic Maps team. Op zoek naar kerstsfeer? Zoek naar `Kerstmarkt` of `Kerstboom` om ze op de kaart te zien. Als er niets in uw omgeving verschijnt, voeg dan de ontbrekende functies toe op OpenStreetMap.org en verbeter de kaart voor iedereen!
 
-Installeer Organic Maps via https://omaps.app/get of via [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid]
+Installeer Organic Maps via <https://omaps.app/get> of via [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid]
 
 ### Release-opmerkingen
 - Kerstbomen en markten verschijnen nu op de kaart (Viktor Govako)

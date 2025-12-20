@@ -8,7 +8,7 @@ taxonomies:
 
 С Рождеством и наступающим Новым годом! Ищете праздничное настроение? Поищите `Рождественский рынок` или `Новогодняя ёлка`, чтобы увидеть их на карте. Если в вашем районе ничего не появилось, пожалуйста, добавьте недостающие объекты на OpenStreetMap.org и улучшите карту для всех!
 
-Установите Organic Maps с https://omaps.app/get или из [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid]
+Установите Organic Maps с <https://omaps.app/get> или из [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid]
 
 ### Примечания к выпуску
 - Новогодние елки и ярмарки теперь отображаются на карте (Viktor Govako)

@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Péntek! Ideje telepíteni az új Organic Maps frissítést a https://omaps.app/get címről vagy az [App Store-ból][appstore], [Google Play-ről][googleplay], [Huawei AppGallery-ből][appgallery], [Obtainium-ból][obtainium], [Accrescent-ből][accrescent] és [F-Droid-ról][fdroid].
+Péntek! Ideje telepíteni az új Organic Maps frissítést a <https://omaps.app/get> címről vagy az [App Store-ból][appstore], [Google Play-ről][googleplay], [Huawei AppGallery-ből][appgallery], [Obtainium-ból][obtainium], [Accrescent-ből][accrescent] és [F-Droid-ról][fdroid].
 
 ## Kiadási megjegyzések
 - A helyek Wikipédia cikkei mostantól elérhetők törökül, japánul és kínaiul. Írja be a `?wiki` kifejezést a keresésbe, hogy megtalálja a cikkekkel rendelkező helyeket a térképen. _(Alexander Borsuk)_

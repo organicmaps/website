@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Jumat! Saatnya menginstal pembaruan Organic Maps baru dari https://omaps.app/get atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
+Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
 ## Catatan Rilis
 - Artikel Wikipedia untuk tempat sekarang tersedia dalam bahasa Turki, Jepang, dan Cina. Ketik `?wiki` di pencarian untuk menemukan tempat dengan artikel di peta. _(Alexander Borsuk)_

@@ -8,7 +8,7 @@ taxonomies:
 
 Frohe Weihnachten und ein gutes neues Jahr vom Organic Maps Team. Auf der Suche nach Weihnachtsstimmung? Suchen Sie nach `Weihnachtsmarkt` oder `Weihnachtsbaum`, um sie auf der Karte zu sehen. Wenn in Ihrer Gegend nichts angezeigt wird, fügen Sie bitte die fehlenden Funktionen auf OpenStreetMap.org hinzu und verbessern Sie die Karte für alle!
 
-Installieren Sie Organic Maps von https://omaps.app/get oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid]
+Installieren Sie Organic Maps von <https://omaps.app/get> oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid]
 
 ### Versionshinweise
 - Weihnachtsbäume und -märkte erscheinen jetzt auf der Karte (Viktor Govako)

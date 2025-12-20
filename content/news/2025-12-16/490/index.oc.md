@@ -8,7 +8,7 @@ taxonomies:
 
 Bon Nadal e Bona Annada de la part de l'equipa d'Organic Maps. Cercatz l'esperit de las fèstas? Cercatz `Christmas market` o `Christmas tree` per los veire sus la mapa. Se res apareis pas dins vòstra zòna, apondètz los elements mancants sus OpenStreetMap.org e melhoratz la mapa per tot lo mond!
 
-Installatz Organic Maps dempuèi https://omaps.app/get o dempuèi [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
+Installatz Organic Maps dempuèi <https://omaps.app/get> o dempuèi [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
 
 ### Nòtas de version
 - Los arbres e mercats de Nadal apareisson ara sus la mapa (Viktor Govako)

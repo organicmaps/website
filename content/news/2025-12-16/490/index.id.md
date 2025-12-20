@@ -8,7 +8,7 @@ taxonomies:
 
 Selamat Natal dan Tahun Baru dari tim Organic Maps. Mencari suasana liburan? Cari `Pasar Natal` atau `Pohon Natal` untuk melihatnya di peta. Jika tidak ada yang muncul di area Anda, silakan tambahkan fitur yang hilang di OpenStreetMap.org dan tingkatkan peta untuk semua orang!
 
-Instal Organic Maps dari https://omaps.app/get atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid]
+Instal Organic Maps dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid]
 
 ### Catatan rilis
 - Pohon dan pasar Natal sekarang muncul di peta (Viktor Govako)

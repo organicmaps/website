@@ -56,7 +56,7 @@ Nos traducteurs et réviseurs nous ont aidés à mettre à jour les traductions 
 
 Nous avons également commencé à mettre à jour la [section FAQ](https://organicmaps.app/faq/) sur notre site web. Toute aide pour [ajouter de nouveaux articles](https://github.com/organicmaps/organicmaps.github.io/) et leurs traductions est appréciée !
 
-Nous vous invitons à nous signaler tous les bugs en utilisant le bouton Signaler un bug dans l'application, en nous envoyant un email, ou (le mieux !) en créant/mettant à jour [un problème] (https://github.com/organicmaps/organicmaps/issues/) sur notre GitHub.
+Nous vous invitons à nous signaler tous les bugs en utilisant le bouton Signaler un bug dans l'application, en nous envoyant un email, ou (le mieux !) en créant/mettant à jour [un problème](https://github.com/organicmaps/organicmaps/issues/) sur notre GitHub.
 
 P.S. Nous travaillons actuellement sur la [fonction d'enregistrement des traces](https://github.com/organicmaps/organicmaps/labels/Track%20Recording). Toute aide sous forme d'idées, de [tests](https://organicmaps.app/#community), de [contributions](https://organicmaps.app/support-us/) et de [dons](https://organicmaps.app/donate/) est chaleureusement appréciée ❤️
 

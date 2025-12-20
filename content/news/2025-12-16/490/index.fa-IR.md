@@ -8,7 +8,7 @@ taxonomies:
 
 کریسمس مبارک و سال نو مبارک از طرف تیم Organic Maps. به دنبال حال و هوای تعطیلات هستید؟ برای دیدن آنها روی نقشه، `بازار کریسمس` یا `درخت کریسمس` را جستجو کنید. اگر چیزی در منطقه شما ظاهر نشد، لطفاً ویژگی‌های گمشده را در OpenStreetMap.org اضافه کنید و نقشه را برای همه بهبود بخشید!
 
-Organic Maps را از https://omaps.app/get یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید.
+Organic Maps را از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید.
 
 ### یادداشت‌های انتشار
 - درختان کریسمس و بازارها اکنون روی نقشه ظاهر می‌شوند (Viktor Govako)

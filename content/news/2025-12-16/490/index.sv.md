@@ -8,7 +8,7 @@ taxonomies:
 
 God jul och gott nytt år från Organic Maps-teamet. Letar du efter julstämning? Sök efter `Julmarknad` eller `Julgran` för att se dem på kartan. Om inget visas i ditt område, lägg till de saknade funktionerna på OpenStreetMap.org och förbättra kartan för alla!
 
-Installera Organic Maps från https://omaps.app/get eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid]
+Installera Organic Maps från <https://omaps.app/get> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid]
 
 ### Versionsinformation
 - Julgranar och julmarknader visas nu på kartan (Viktor Govako)

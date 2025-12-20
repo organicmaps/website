@@ -8,7 +8,7 @@ taxonomies:
 
 Bon Nadal i Feliç Any Nou de part de l'equip d'Organic Maps. Busqueu esperit nadalenc? Cerqueu `Mercat de Nadal` o `Arbre de Nadal` per veure'ls al mapa. Si no apareix res a la vostra zona, afegiu les característiques que falten a OpenStreetMap.org i milloreu el mapa per a tothom!
 
-Instal·leu Organic Maps des de https://omaps.app/get o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
+Instal·leu Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
 
 ### Notes de la versió
 - Els arbres de Nadal i els mercats ara apareixen al mapa (Viktor Govako)

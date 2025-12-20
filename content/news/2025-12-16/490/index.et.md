@@ -8,7 +8,7 @@ taxonomies:
 
 Häid jõule ja head uut aastat Organic Mapsi meeskonna poolt. Otsid pühademeeleolu? Otsi kaardilt `Jõuluturg` või `Jõulupuu`. Kui sinu piirkonnas midagi ei ilmu, lisa puuduvad objektid OpenStreetMap.org-is ja paranda kaarti kõigi jaoks!
 
-Paigalda Organic Maps aadressilt https://omaps.app/get või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid] kaudu.
+Paigalda Organic Maps aadressilt <https://omaps.app/get> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid] kaudu.
 
 ### Väljalaskemärkmed
 - Jõulupuud ja -turud ilmuvad nüüd kaardile (Viktor Govako)

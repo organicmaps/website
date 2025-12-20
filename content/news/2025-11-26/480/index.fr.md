@@ -6,7 +6,7 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Vendredi ! Il est temps d'installer la nouvelle mise à jour d'Organic Maps depuis https://omaps.app/get ou depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
+Vendredi ! Il est temps d'installer la nouvelle mise à jour d'Organic Maps depuis <https://omaps.app/get> ou depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
 
 ## Notes de version
 - Les articles Wikipédia pour les lieux sont maintenant disponibles en turc, japonais et chinois. Tapez `?wiki` dans la recherche pour trouver les lieux avec des articles sur la carte. _(Alexander Borsuk)_

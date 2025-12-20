@@ -8,7 +8,7 @@ taxonomies:
 
 Kellemes Karácsonyt és Boldog Új Évet kíván az Organic Maps csapata. Ünnepi hangulatot keres? Keressen rá a `Karácsonyi piac` vagy `Karácsonyfa` kifejezésekre, hogy lássa őket a térképen. Ha semmi sem jelenik meg a környékén, kérjük, adja hozzá a hiányzó helyeket az OpenStreetMap.org oldalon, és javítsa a térképet mindenki számára!
 
-Telepítse az Organic Maps alkalmazást a https://omaps.app/get oldalról, vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
+Telepítse az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
 
 ### Kiadási megjegyzések
 - A karácsonyfák és vásárok mostantól megjelennek a térképen (Viktor Govako)

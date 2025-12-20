@@ -37,7 +37,7 @@ Organic Maps https://omaps.app/get ൽ നിന്നോ [App Store][appstore],
 - [iOS][testflight]
 - [Android][firebase]
 
-നിങ്ങളുടെ [സംഭാവനകൾക്കും][@/donate/index.ml.md] [സഹായങ്ങൾക്കും][@/contribute/index.ml.md] നന്ദി, Organic Maps നിലനിൽക്കുന്നത് നിങ്ങളിലൂടെയാണ്. നന്ദി! ❤️
+നിങ്ങളുടെ [സംഭാവനകൾക്കും](@/donate/index.ml.md) [സഹായങ്ങൾക്കും](@/contribute/index.ml.md) നന്ദി, Organic Maps നിലനിൽക്കുന്നത് നിങ്ങളിലൂടെയാണ്. നന്ദി! ❤️
 
 The Organic Maps Team
 

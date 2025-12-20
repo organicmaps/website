@@ -37,7 +37,7 @@ Bergabunglah dengan pengujian beta untuk mencoba fitur awal dan melaporkan masal
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps ada berkat [donasi][@/donate/index.id.md] dan [kontribusi][@/contribute/index.id.md] Anda. Terima kasih! ❤️
+Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md) Anda. Terima kasih! ❤️
 
 Tim Organic Maps
 

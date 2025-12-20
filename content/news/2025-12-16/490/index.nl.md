@@ -37,7 +37,7 @@ Doe mee aan bètatests om vroege functies te proberen en problemen te melden:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps bestaat dankzij uw [donaties][@/donate/index.nl.md] en [bijdragen][@/contribute/index.nl.md]. Dank u! ❤️
+Organic Maps bestaat dankzij uw [donaties](@/donate/index.nl.md) en [bijdragen](@/contribute/index.nl.md). Dank u! ❤️
 
 Het Organic Maps Team
 

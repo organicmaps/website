@@ -37,7 +37,7 @@ taxonomies:
 - [iOS][testflight]
 - [Android][firebase]
 
-Το Organic Maps υπάρχει χάρη στις [δωρεές][@/donate/index.el.md] και τις [συνεισφορές][@/contribute/index.el.md] σας. Σας ευχαριστούμε! ❤️
+Το Organic Maps υπάρχει χάρη στις [δωρεές](@/donate/index.el.md) και τις [συνεισφορές](@/contribute/index.el.md) σας. Σας ευχαριστούμε! ❤️
 
 Η Ομάδα του Organic Maps
 

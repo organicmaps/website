@@ -37,7 +37,7 @@ Organic Maps را از https://omaps.app/get یا از [App Store][appstore]، [
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps به لطف [کمک‌های مالی][@/donate/index.fa-IR.md] و [مشارکت‌های][@/contribute/index.fa-IR.md] شما وجود دارد. متشکریم! ❤️
+Organic Maps به لطف [کمک‌های مالی](@/donate/index.fa-IR.md) و [مشارکت‌های](@/contribute/index.fa-IR.md) شما وجود دارد. متشکریم! ❤️
 
 تیم Organic Maps
 

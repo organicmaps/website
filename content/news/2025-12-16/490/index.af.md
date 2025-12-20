@@ -37,7 +37,7 @@ Sluit aan by beta-toetsing om vroeë kenmerke te probeer en probleme aan te meld
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps bestaan danksy jou [skenkings][@/donate/index.af.md] en [bydraes][@/contribute/index.af.md]. Dankie! ❤️
+Organic Maps bestaan danksy jou [skenkings](@/donate/index.af.md) en [bydraes](@/contribute/index.af.md). Dankie! ❤️
 
 The Organic Maps Team
 

@@ -37,7 +37,7 @@ Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir pra
 - [iOS][testflight]
 - [Android][firebase]
 
-„Organic Maps“ egzistuoja jūsų [aukų][@/donate/index.lt.md] ir [indėlio][@/contribute/index.lt.md] dėka. Ačiū! ❤️
+„Organic Maps“ egzistuoja jūsų [aukų](@/donate/index.lt.md) ir [indėlio](@/contribute/index.lt.md) dėka. Ačiū! ❤️
 
 „Organic Maps“ komanda
 

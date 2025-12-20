@@ -37,7 +37,7 @@ taxonomies:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps موجود بفضل [تبرعاتكم][@/donate/index.ar.md] و [مساهماتكم][@/contribute/index.ar.md]. شكراً لكم! ❤️
+Organic Maps موجود بفضل [تبرعاتكم](@/donate/index.ar.md) و [مساهماتكم](@/contribute/index.ar.md). شكراً لكم! ❤️
 
 فريق Organic Maps
 

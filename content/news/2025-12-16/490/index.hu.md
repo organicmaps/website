@@ -37,7 +37,7 @@ Csatlakozzon a bétateszteléshez, hogy kipróbálhassa a korai funkciókat és 
 - [iOS][testflight]
 - [Android][firebase]
 
-Az Organic Maps az Önök [adományainak][@/donate/index.hu.md] és [hozzájárulásainak][@/contribute/index.hu.md] köszönhetően létezik. Köszönjük! ❤️
+Az Organic Maps az Önök [adományainak](@/donate/index.hu.md) és [hozzájárulásainak](@/contribute/index.hu.md) köszönhetően létezik. Köszönjük! ❤️
 
 Az Organic Maps Csapata
 

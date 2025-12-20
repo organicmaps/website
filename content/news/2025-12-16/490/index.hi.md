@@ -37,7 +37,7 @@ Organic Maps को https://omaps.app/get से या [App Store][appstore], [
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps आपके [दान][@/donate/index.hi.md] और [योगदान][@/contribute/index.hi.md] की बदौलत मौजूद है। धन्यवाद! ❤️
+Organic Maps आपके [दान](@/donate/index.hi.md) और [योगदान](@/contribute/index.hi.md) की बदौलत मौजूद है। धन्यवाद! ❤️
 
 Organic Maps टीम
 

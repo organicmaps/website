@@ -37,7 +37,7 @@ Rejonhètz los tèsts bèta per ensajar las foncionalitats en avança e senhalar
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existís gràcias a vòstres [dons][@/donate/index.oc.md] e [contribucions][@/contribute/index.oc.md]. Mercés! ❤️
+Organic Maps existís gràcias a vòstres [dons](@/donate/index.oc.md) e [contribucions](@/contribute/index.oc.md). Mercés! ❤️
 
 L'equipa Organic Maps
 

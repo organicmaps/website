@@ -1,7 +1,7 @@
 ---
 title: Was kann ich tun, wenn die App sich aufhängt/abstürzt?
 description: ""
-updated: "2024-06-12"
+updated: "2025-12-31"
 
 taxonomies:
   faq: ["App"]

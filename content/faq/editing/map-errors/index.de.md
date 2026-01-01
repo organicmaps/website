@@ -1,7 +1,7 @@
 ---
 title: Auf der Karte fehlen Orte oder haben falsche Namen
 description: ""
-updated: "2025-12-21"
+updated: "2025-12-31"
 
 taxonomies:
   faq: ["Kartenbearbeitung"]

@@ -1,7 +1,7 @@
 ---
 title: Wie kann ich Lesezeichen und Tracks importieren?
 description: ""
-updated: "2024-06-12"
+updated: "2025-12-31"
 
 taxonomies:
   faq: ["Lesezeichen und Tracks"]

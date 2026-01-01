@@ -1,7 +1,7 @@
 ---
 title: Ich kann keine Karten herunterladen (oder aktualisieren)
 description: ""
-updated: "2024-12-31"
+updated: "2025-12-31"
 
 taxonomies:
   faq: ["Karte"]

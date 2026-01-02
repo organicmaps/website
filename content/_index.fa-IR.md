@@ -7,11 +7,11 @@ extra:
   menu_title: صفحه اصلی
 ---
 
-**Organic Maps** یک برنامه نقشه و GPS آفلاین با تمرکز بر حفظ حریم خصوصی است که برای پیاده‌روی، دوچرخه‌سواری، موتورسواری و رانندگی طراحی شده است. کاملا رایگان، بدون تبلیغات، بدون ردیابی. توسعه‌یافته با عشق توسط اجتماع متن‌باز. بر پایه داده‌های [OpenStreetMap][openstreetmap].
+**Organic Maps** یک برنامه نقشه و GPS آفلاین با تمرکز بر حفظ حریم خصوصی است که برای پیاده‌روی، دوچرخه‌سواری، موتورسواری و رانندگی طراحی شده است. کاملا رایگان، بدون تبلیغات، بدون ردیابی. توسعه‌یافته با عشق توسط اجتماع متن‌باز و همان افرادی که برنامه [**MapsWithMe**][mapswithme]/**Maps.Me** را ایجاد کردند. بر پایه داده‌های [OpenStreetMap][openstreetmap].
 
 **Organic Maps** یکی از معدود برنامه‌هایی است که امروزه بدون اتصال فعال به اینترنت، تمامی قابلیت‌ها را پشتیبانی می‌کند. Organic Maps را نصب کنید، نقشه‌ها را دانلود کنید، سیم‌کارت خود را کنار بگذارید، و با یک بار شارژ باتری، بدون ارسال حتی یک بایت داده به اینترنت، یک سفر یک‌هفته‌ای را تجربه کنید.
 
-> در آذر ماه ۱۴۰۳، Organic Maps [به ۳ میلیون نصب رسید](@/news/2024-12-20/411/index.md). [به ما کمک کنید](@/donate/index.md) تا رشد کنیم!
+> در دسامبر 2025، Organic Maps به [6 میلیون نصب رسید](@/news/2025-12-31/500/index.fa-IR.md). [به ما کمک کنید](@/donate/index.fa-IR.md) تا گسترش یابیم!
 
 ### دانلود و نصب Organic Maps از طریق [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [اف‌دروید][fdroid] {#install}
 
@@ -32,11 +32,13 @@ Organic Maps همراه ایده‌آل برای مسافران، گردشگرا
 - نقشه‌های آفلاین دقیق با مکان‌هایی که در دیگر نقشه‌ها وجود ندارند، به لطف [OpenStreetMap][openstreetmap]
 - مسیرهای دوچرخه‌سواری، مسیرهای کوهنوردی و مسیرهای پیاده‌روی
 - خطوط تراز، پروفایل‌های ارتفاع، قله‌ها و شیب‌ها
-- مسیریابی گام‌به‌گام برای پیاده‌روی، دوچرخه‌سواری و رانندگی با راهنمای صوتی و پشتیبانی از Android Auto
+- مسیریابی گام‌به‌گام برای پیاده‌روی، دوچرخه‌سواری و رانندگی با راهنمای صوتی و پشتیبانی از CarPlay/Android Auto
+- نقشه‌های مترو
 - جستجوی سریع آفلاین روی نقشه
-- امکان صادرات/واردات نشانک‌ها در KML/KMZ، وارد کردن GPX
+- امکان صادرات/واردات نشانک‌ها در KML/KMZ، وارد کردن GPX, GeoJSON
 - حالت تیره برای محافظت از چشم‌ها
 - نقشه‌های کشورها و مناطق فضای زیادی اشغال نمی‌کنند
+- مقالات ویکی‌پدیا برای مکان‌های محبوب
 - رایگان و متن‌باز
 
 ## چرا Organic؟
@@ -84,7 +86,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
 
 ## چه کسی هزینه برنامه رایگان را پرداخت می‌کند؟
 
-این برنامه برای همه رایگان است. لطفا برای حمایت از ما [اهدا](@/donate/index.md) کنید!
+این برنامه برای همه رایگان است. لطفا برای حمایت از ما [اهدا](@/donate/index.fa-IR.md) کنید!
 
 برای کمک مالی به‌راحتی، روی آیکون روش پرداخت مورد نظر خود در زیر کلیک کنید:
 
@@ -98,7 +100,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="بنیاد NLnet" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">پروژه بهبود جستجو و فونت‌ها</a> از طریق <a href="https://nlnet.nl/project/OrganicMaps/">بنیاد NGI0 Entrust</a> تامین مالی شده است. <a href="https://nlnet.nl/entrust/">بنیاد NGI0 Entrust</a> توسط <a href="https://nlnet.nl/">بنیاد NLnet</a> با حمایت مالی از برنامه <a href="https://www.ngi.eu/">اینترنت نسل بعدی</a> کمیسیون اروپا تاسیس شده است، تحت نظارت شبکه‌های ارتباطی، محتوا و فناوری، مطابق با توافقنامه کمک مالی شماره 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">پروژه بهبود جستجو و فونت‌ها</a> از طریق صندوق NGI0 Entrust <a href="https://nlnet.nl/project/OrganicMaps/">تامین مالی</a> شده است. <a href="https://nlnet.nl/entrust/">صندوق NGI0 Entrust</a> توسط <a href="https://nlnet.nl/">بنیاد NLnet</a> با حمایت مالی برنامه <a href="https://www.ngi.eu/">اینترنت نسل آینده</a> کمیسیون اروپا، تحت نظارت اداره کل شبکه‌های ارتباطی، محتوا و فناوری تحت توافقنامه کمک مالی شماره 101069594 تاسیس شده است.
     </td>
   </tr>
   <tr>
@@ -106,7 +108,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">گوگل</a> از ۵ پروژه دانشجویی در برنامه Google Summer of Code طی سال‌های <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">۲۰۲۲</a> و <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">۲۰۲۳</a> حمایت کرد. از جمله پروژه‌های قابل توجه می‌توان به Android Auto و Wikipedia Dump Extractor اشاره کرد.
+      <a href="https://summerofcode.withgoogle.com/">گوگل</a> از پروژه‌های دانشجویی در برنامه Google Summer of Code در طول برنامه‌های <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>، <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>، <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>، <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> حمایت کرد. پروژه‌های قابل توجه شامل Android Auto، استخراج‌کننده دامپ ویکی‌پدیا، ضبط مسیر برای اندروید بود.
     </td>
   </tr>
   <tr>
@@ -114,7 +116,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">دو سرور مجازی</a> با ۴۰۰ ترابایت پهنای باند رایگان در ماه در اختیار ما قرار می‌دهد تا نقشه‌ها را میزبانی کرده و به‌روزرسانی‌ها را ارائه کنیم.
+      ارائه‌دهنده خدمات اینترنتی <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">به ما</a> دو سرور مجازی با حداکثر 400 ترابایت در ماه پهنای باند رایگان برای میزبانی و ارائه دانلودها و به‌روزرسانی‌های نقشه‌ها ارائه می‌دهد.
     </td>
   </tr>
   <tr>
@@ -122,7 +124,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">یک سرور اختصاصی رایگان</a> به ارزش تقریبی ۱۲,۰۰۰ دلار در سال در اختیار ما قرار می‌دهد تا نقشه‌ها را در سراسر ویتنام و جنوب شرق آسیا ارائه کنیم.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">به ما</a> یک سرور اختصاصی رایگان به ارزش حدود 12000 دلار در سال برای ارائه نقشه‌ها در ویتنام و آسیای جنوب شرقی ارائه می‌دهد.
     </td>
   </tr>
   <tr>
@@ -130,7 +132,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> در فوریه ۲۰۲۳ یک <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">کمک‌هزینه کوچک ۱۰۰۰ دلاری</a> به Organic Maps اهدا کرد.
+      <a href="https://futo.org">FUTO</a> در فوریه 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">یک کمک مالی خرد 1000 دلاری</a> به Organic Maps اعطا کرده است.
     </td>
   </tr>
 </table>
@@ -147,11 +149,11 @@ Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز 
 - مشکلات یا ایرادات را به [ردیاب مشکلات][issues] گزارش دهید یا [به ما ایمیل بزنید][email].
 - [ایده‌های خودتون را مطرح کنید][ideas] یا درخواست ویژگی‌های جدید پیشنهاد دهید.
 - برای دریافت به‌روزرسانی‌ها، به [کانال تلگرام ما][telegram] یا [فضای ماتریکس][matrix] بپیوندید.
-- به [گروه تلگرام ما][telegram_chat] بپیوندید تا با سایر کاربران بحث کنید.
+- به [گروه تلگرام ما][telegram_chat_fa] بپیوندید تا با سایر کاربران بحث کنید.
 - از [صفحه گیت‌هاب ما][github] دیدن کنید.
 - برای اطلاع از به‌روزرسانی‌ها ما را در [FOSStodon][fosstodon]، [فیسبوک][facebook]، [توییتر][twitter]، [اینستاگرام][instagram]، [Bluesky][bluesky]، [Threads][threads]، [ردیت][reddit]، [لینکدین][linkedin]، [TikTok][tiktok] دنبال کنید.
 - به اجتماع‌های محلی بپیوندید (یا ایجاد کنید و به ما اطلاع دهید): [اتاق ماتریکس مجارستانی](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)، چت‌های تلگرامی برای [چینی][telegram_chat_zh]، [فرانسوی][telegram_chat_fr]، [روسی][telegram_chat_ru]، [ترکی][telegram_chat_tr].
 
-[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
+[fork]: https://fa.wikipedia.org/wiki/انشعاب_(توسعه_نرم‌افزار)
 
 {{ references() }}

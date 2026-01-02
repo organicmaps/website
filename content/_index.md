@@ -1,17 +1,17 @@
 ---
 title: "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-description: Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders.
+description: Free, open-source, fast, privacy-focused, detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe/Maps.Me app founders
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: Home
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community and the same people, who created [**MapsWithMe**][mapswithme]/**Maps.Me** app. Powered by [OpenStreetMap][openstreetmap] data.
 
 **Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.
 
-> In December 2024, Organic Maps [reached 3M installs](@/news/2024-12-20/411/index.md) users. [Help us](@/donate/index.md) to scale!
+> In December 2025, Organic Maps [reached 6M installs](@/news/2025-12-31/500/index.md) users. [Help us](@/donate/index.md) to scale!
 
 ### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -27,16 +27,18 @@ extra:
 
 ## Features
 
-Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:
+Organic Maps is the ultimate companion app for travelers, tourists, hikers, drivers, and cyclists:
 
 - Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap][openstreetmap]
 - Cycling routes, hiking trails, and walking paths
 - Contour lines, elevation profiles, peaks, and slopes
-- Turn-by-turn walking, cycling, and car navigation with voice guidance and Android Auto
-- Fast offline search on the map
-- Export/import bookmarks in KML/KMZ, import GPX
+- Turn-by-turn walking, cycling, and car navigation with voice guidance and CarPlay/Android Auto support
+- Metro/subway maps
+- Fast offline search on the downloaded maps
+- Import or export bookmarks in KML/KMZ, GPX, GeoJSON formats
 - Dark Mode to protect your eyes
 - Countries and regions don't take a lot of space
+- Wikipedia articles for popular places
 - Free and open-source
 
 ## Why Organic?
@@ -95,7 +97,7 @@ Beloved institutional sponsors below have provided targeted grants to cover some
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
@@ -103,23 +105,23 @@ Beloved institutional sponsors below have provided targeted grants to cover some
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
-    </td>
-    <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> backed student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programs. Noteworthy projects included Android Auto, Wikipedia Dump Extractor, Track Recording for Android.
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with up to 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
@@ -127,7 +129,7 @@ Beloved institutional sponsors below have provided targeted grants to cover some
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
@@ -150,7 +152,7 @@ Organic Maps is an [open-source software][github] licensed under the Apache Lice
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - Visit our [GitHub page][github].
 - Follow our updates in [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Join (or create and let us know) local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
+- Join local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [German-][telegram_chat_de], [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Italian-][telegram_chat_it], [Spanish-][telegram_chat_es], [Russian-][telegram_chat_ru], [Ukrainian-][telegram_chat_uk], [Arabic-][telegram_chat_ar], [Persian-][telegram_chat_fa], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

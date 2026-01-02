@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
 ---
 
-**Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
+**Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored a'r un bobl a greodd ap [**MapsWithMe**][mapswithme]/**Maps.Me**. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
 
 **Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosodwch Organic Maps, lawrlwythwch mapiau, a chael gwared ar eich cerdyn SIM , a chewch fynd ar drip am wythnos heb angen gwefru eich ffôn, a heb ddanfon beit i'r rhwydwaith.
 
-> Ym mis Rhagfyr 2024, cyrhaeddodd Organic Maps [3M o osodiadau](@/news/2024-12-20/411/index.md). [Helpwch ni](@/donate/index.md) i dyfu!
+> Ym mis Rhagfyr 2025, cyrhaeddodd Organic Maps [6M o osodiadau](@/news/2025-12-31/500/index.cy.md). [Helpwch ni](@/donate/index.cy.md) i ehangu!
 
 ### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -37,11 +37,13 @@ seiclwyr:
 - Llwybrau seiclo, heicio, a cherdded
 - Cyfuchlinau, proffeiliau dyrchafiad, copaon, a llethrau
 - Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a
-  gyrru gydag arweiniad llais ac Android Auto
+  gyrru gydag arweiniad llais ac CarPlay/Android Auto
+- Mapiau metro/isffordd
 - Chwilio all-lein cyflym ar y map
-- Llyfrnodau ac olion yn fformatiau KML, KMZ, a GPX
+- Llyfrnodau ac olion yn fformatiau KML, KMZ, a GPX, GeoJSON
 - Thema lliw tywyll i amddiffyn eich llygaid
 - Gwledydd ac ardaloedd sydd ddim yn defnyddio llawer o gof
+- Erthyglau Wicipedia ar gyfer lleoedd poblogaidd
 - Ffynhonnell agored ac am ddim
 
 ## Pam Organic?
@@ -92,7 +94,7 @@ Gwrthodwch wyliadwriaeth - mwynhewch eich rhyddid.
 ## Pwy sy'n talu am yr ap am ddim?
 
 Mae'r ap am ddim i bawb. Os gwelwch yn dda, [cyfrannwch yn
-ariannol](@/donate/index.md) i'n cynorthwyo!
+ariannol](@/donate/index.cy.md) i'n cynorthwyo!
 
 I'n cynorthwyo'n ariannol yn gyfleus, cliciwch ar eicon eich hoff ffordd o
 dalu isod:
@@ -107,7 +109,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Mae'r prosiect gwella Chwilio a Ffontiau</a> wedi cael ei <a href="https://nlnet.nl/project/OrganicMaps/">ariannu</a> trwy Gronfa NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Sefydlir Cronfa NGI0 Entrust</a> gan y <a href="https://nlnet.nl/">Sefydliad NLnet</a> gyda chefnogaeth ariannol gan raglen <a href="https://www.ngi.eu/">Next Generation Internet</a> y Comisiwn Ewropeaidd, o dan nawdd DG Rhwydweithiau Cyfathrebu, Cynnwys a Thechnoleg o dan gytundeb grant Rhif 101069594.
     </td>
   </tr>
   <tr>
@@ -115,7 +117,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> cefnogodd brosiectau myfyrwyr yn rhaglen Google Summer of Code yn ystod rhaglenni <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Roedd prosiectau nodedig yn cynnwys Android Auto, Echdynnwr Dympio Wicipedia, Recordio Traciau ar gyfer Android.
     </td>
   </tr>
   <tr>
@@ -123,7 +125,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      Mae ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">yn darparu i ni</a> ddau weinydd rhithwir gyda hyd at 400 TB/mis o led band am ddim i gynnal a gweini lawrlwythiadau a diweddariadau mapiau.
     </td>
   </tr>
   <tr>
@@ -131,7 +133,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> yn <a href="https://44plus.vn/organicmaps">darparu i ni</a> weinydd pwrpasol am ddim gwerth tua $12,000/flwyddyn i weini mapiau ar draws Fietnam a De-ddwyrain Asia.
     </td>
   </tr>
   <tr>
@@ -139,7 +141,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> wedi <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">dyfarnu micro-grant o $1000</a> i Organic Maps ym mis Chwefror 2023.
     </td>
   </tr>
 </table>

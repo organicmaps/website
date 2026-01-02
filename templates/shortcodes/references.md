@@ -44,6 +44,7 @@
 [telegram_chat]: https://t.me/OrganicMaps "Organic Maps chat"
 [telegram_chat_ar]: https://t.me/OrganicMapsAr "Organic Maps المحادثة"
 [telegram_chat_de]: https://t.me/OrganicMapsDeutsch "Organic Maps-Chat"
+[telegram_chat_en]: https://t.me/OrganicMaps "Organic Maps chat"
 [telegram_chat_es]: https://t.me/OrganicMapsEs "Chat de Organic Maps"
 [telegram_chat_fa]: https://t.me/OrganicMapsPersian "Organic Maps گفتگو"
 [telegram_chat_fr]: https://t.me/OrganicMapsFr "Discussion sur les Organic Maps"

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace'
 ---
 
-**Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source. Využívá data [OpenStreetMap][openstreetmap].
+**Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source a stejnými lidmi, kteří vytvořili aplikaci [**MapsWithMe**][mapswithme]/**Maps.Me**. Využívá data [OpenStreetMap][openstreetmap].
 
 **Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
 
-> V prosinci 2024 dosáhly Organic Maps [3 milionů instalací](@/news/2024-12-20/411/index.md) uživatelů. [Pomozte nám](@/donate/index.md) dále růst!
+> V prosinci 2025 Organic Maps [dosáhly 6 milionů instalací](@/news/2025-12-31/500/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
 
 ### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}
 
@@ -37,11 +37,13 @@ cyklisty:
 - Cyklistické trasy, turistické stezky a pěší trasy
 - Vrstevnice, výškové profily, vrcholy a svahy
 - Pěší, cyklistická a automobilová navigace krok za krokem s hlasovými
-  pokyny, Android Auto
+  pokyny, CarPlay/Android Auto
+- Mapy metra
 - Rychlé offline vyhledávání na mapě
-- Export a import záložek ve formátech KML/KMZ, import GPX
+- Export a import záložek ve formátech KML/KMZ, import GPX, GeoJSON
 - Tmavý režim pro ochranu očí
 - Země a regiony nezabírají mnoho místa
+- Články z Wikipedie pro oblíbená místa
 - Svobodný a otevřený zdrojový kód
 
 ## Proč Organic?
@@ -101,13 +103,14 @@ níže:
 Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých
 nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 
+
 <table style="border-spacing: 20px">
   <tr>
     <td>
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt vyhledávání a písem</a> byl <a href="https://nlnet.nl/project/OrganicMaps/">financován</a> pomocí fondu NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fond NGI0 Entrust</a> je zřízen organizací <a href="https://nlnet.nl/">NLnet Foundation</a> s finanční podporou z <a href="https://www.ngi.eu/">programu Next Generation Internet</a> Evropské komise pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594..
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt vylepšení vyhledávání a písem</a> byl <a href="https://nlnet.nl/project/OrganicMaps/">financován</a> prostřednictvím fondu NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fond NGI0 Entrust</a> je zřízen <a href="https://nlnet.nl/">nadací NLnet</a> s finanční podporou programu Evropské komise <a href="https://www.ngi.eu/">Next Generation Internet</a>, pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594.
     </td>
   </tr>
   <tr>
@@ -115,7 +118,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      Společnost <a href="https://summerofcode.withgoogle.com/">Google</a> podpořila 5 studentských projektů v rámci programu Google Summer of Code v letech <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> a <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Za zmínku stojí projekty Android Auto a Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> podpořil studentské projekty v programu Google Summer of Code během programů <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Mezi pozoruhodné projekty patřily Android Auto, extraktor výpisů Wikipedie, záznam trasy pro Android.
     </td>
   </tr>
   <tr>
@@ -123,7 +126,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nám poskytuje</a> dva virtuální servery s bezplatným provozem 400 TB/měsíc pro hostování a stahování map a aktualizací.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nám poskytuje</a> dva virtuální servery s až 400 TB/měsíc bezplatné šířky pásma pro hostování a poskytování stahování a aktualizací map.
     </td>
   </tr>
   <tr>
@@ -131,7 +134,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">nám poskytuje</a> bezplatný dedikovaný server v hodnotě zhruba $12,000/rok pro hostování map ve Vietnamu a jihovýchodní Asii.
+      <a href="https://44plus.vn">44+ Technologies</a> nám <a href="https://44plus.vn/organicmaps">poskytuje</a> bezplatný dedikovaný server v hodnotě přibližně 12 000 $/rok pro poskytování map ve Vietnamu a jihovýchodní Asii.
     </td>
   </tr>
   <tr>
@@ -139,7 +142,7 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> nám <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">udělilo mikro-grant $1000</a> v únoru 2023.
+      <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">udělilo mikrogrant ve výši 1000 $</a> pro Organic Maps v únoru 2023.
     </td>
   </tr>
 </table>
@@ -172,6 +175,6 @@ License 2.0.
   [Čínský][telegram_chat_zh], [Francouzský][telegram_chat_fr],
   [Ruský][telegram_chat_ru], [Turecký][telegram_chat_tr] chat na Telegramu.
 
-[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
+[fork]: https://cs.wikipedia.org/wiki/Fork
 
 {{ references() }}

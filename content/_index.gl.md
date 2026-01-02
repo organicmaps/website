@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
 ---
 
-**Organic Maps** é unha aplicación de mapas e GPS sen conexión centrada na privacidade para sendeirismo, ciclismo, bicicleta e condución. Completamente gratuíta. Sen publicidade. Sen seguimento. Desenvolvida con amor pola comunidade de código aberto. Impulsada por datos de [OpenStreetMap][openstreetmap].
+**Organic Maps** é unha aplicación de mapas e GPS sen conexión centrada na privacidade para sendeirismo, ciclismo, bicicleta e condución. Completamente gratuíta. Sen publicidade. Sen seguimento. Desenvolvida con amor pola comunidade de código aberto e as mesmas persoas que crearon a aplicación [**MapsWithMe**][mapswithme]/**Maps.Me**. Impulsada por datos de [OpenStreetMap][openstreetmap].
 
 **Organic Maps** é unha das poucas aplicacións de hoxe en día que admite o 100 % das funcións sen unha conexión activa a Internet. Instala Organic Maps, descarga mapas, tira a tarxeta SIM (por certo, o teu operador rastrexache constantemente) e fai unha viaxe dunha semana cunha soa carga de batería sen que se envíe ningún byte á rede.
 
-> En 2023, Organic Maps [alcanzou o seu primeiro millón de usuarios](@/news/2023-12-23/281/index.md). [Axúdanos](@/donate/index.md) a medrar!
+> En decembro de 2025, Organic Maps [alcanzou 6M de instalacións](@/news/2025-12-31/500/index.gl.md). [Axúdanos](@/donate/index.gl.md) a crecer!
 
 ### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -34,11 +34,13 @@ turistas, sendeiristas e ciclistas:
   grazas a [OpenStreetMap][openstreetmap]
 - Rutas ciclistas, rutas de sendeirismo e camiños a pé
 - Curvas de nivel, perfís de elevación, cumes e pendentes
-- Navegación paso a paso, andando en bicicleta e en coche con guía de voz
+- Navegación paso a paso, andando en bicicleta e en coche con guía de voz, CarPlay/Android Auto
+- Mapas de metro
 - Busca rápida sen conexión no mapa
-- Marcadores e pistas en formatos KML, KMZ e GPX
+- Marcadores e pistas en formatos KML, KMZ e GPX, GeoJSON
 - Modo escuro para protexer os ollos
 - Os países e as rexións non ocupan moito espazo
+- Artigos da Wikipedia para lugares populares
 - Libre e de código aberto
 
 ## Por que "Organic"?
@@ -86,21 +88,21 @@ Rexeita a vixilancia: abraza a túa liberdade.
 
 ## Quen paga pola aplicación gratuíta?
 
-A aplicación é gratuíta para todos. Por favor, [fai unha doazón](@/donate/index.md) para apoiarnos!
+A aplicación é gratuíta para todos. Por favor, [fai unha doazón](@/donate/index.gl.md) para apoiarnos!
 
 Para doar inmediatamente, fai clic na icona do método de pago preferido a continuación:
 
 {{ donate_buttons() }}
 
-A continuación móstranse os apreciados patrocinadores institucionais que proporcionaron subvencións específicas para cubrir algúns custos de infraestrutura e financiar o desenvolvemento de novas funcións seleccionadas:
+Os queridos patrocinadores institucionais a continuación proporcionaron subvencións específicas para cubrir algúns custos de infraestrutura e financiar o desenvolvemento de novas funcións seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="Fundación NLnet" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">O proxecto de mellora Busca e fontes</a> <a href="https://nlnet.nl/project/OrganicMaps/">foi financiado</a> a través do NGI0 Entrust Fund. O <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> está establecido pola <a href="https://nlnet.nl/">Fundación NLnet</a> co apoio financeiro do <a href="https://www.ngi.eu/">Programa Next Generation Internet</a> da Comisión Europea, baixo o acordo de subvención da DG Connect. 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">O proxecto de mellora de Busca e Fontes</a> foi <a href="https://nlnet.nl/project/OrganicMaps/">financiado</a> a través do Fondo NGI0 Entrust. <a href="https://nlnet.nl/entrust/">O Fondo NGI0 Entrust</a> está establecido pola <a href="https://nlnet.nl/">Fundación NLnet</a> con apoio financeiro do programa <a href="https://www.ngi.eu/">Next Generation Internet</a> da Comisión Europea, baixo a égida da DG Redes de Comunicación, Contido e Tecnoloxía baixo o acordo de subvención No 101069594.
     </td>
   </tr>
   <tr>
@@ -108,7 +110,7 @@ A continuación móstranse os apreciados patrocinadores institucionais que propo
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> apoiou 5 proxectos de estudantes no programa Google Summer of Code durante <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> e <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Entre os proxectos destacados figuraban Android Auto e Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> apoiou proxectos de estudantes no programa Google Summer of Code durante os programas <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Proxectos notables incluíron Android Auto, Extractor de envorcados da Wikipedia, Gravación de pistas para Android.
     </td>
   </tr>
   <tr>
@@ -116,7 +118,7 @@ A continuación móstranse os apreciados patrocinadores institucionais que propo
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-     <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">proporciónanos</a> dous servidores virtuais con 400 TB de ancho de banda para descargas de mapas e actualizacións.
+      O ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">proporciónanos</a> dous servidores virtuais con ata 400 TB/mes de ancho de banda gratuíto para aloxar e servir descargas e actualizacións de mapas.
     </td>
   </tr>
   <tr>
@@ -124,7 +126,7 @@ A continuación móstranse os apreciados patrocinadores institucionais que propo
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">proporciónanos</a> un servidor dedicado gratuíto valorado en aproximadamente 12.000 USD ao ano para servir mapas de Vietnam e do sueste asiático.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">proporciónanos</a> un servidor dedicado gratuíto por valor de arredor de $12,000/ano para servir mapas en Vietnam e o sueste asiático.
     </td>
   </tr>
   <tr>
@@ -132,7 +134,7 @@ A continuación móstranse os apreciados patrocinadores institucionais que propo
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> concedeu unha <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">microaxuda de 1.000 $</a> a Organic Maps en febreiro de 2023.
+      <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">concedeu unha micro-subvención de $1000</a> a Organic Maps en febreiro de 2023.
     </td>
   </tr>
 </table>

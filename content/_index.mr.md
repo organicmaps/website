@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन'
 ---
 
-**Organic Maps** हा हायकिंग, सायकलिंग आणि ड्रायव्हिंगसाठी गोपनीयता-केंद्रित ऑफलाइन नकाशे आणि GPS अॅप आहे. पूर्णपणे विनामूल्य. विना जाहिराती. महितीचा मागोवा नाही. मुक्त स्रोत समुदायाने प्रेमाने विकसित केले. [OpenStreetMap][openstreetmap] डेटाद्वारे समर्थित.
+**Organic Maps** हा हायकिंग, सायकलिंग आणि ड्रायव्हिंगसाठी गोपनीयता-केंद्रित ऑफलाइन नकाशे आणि GPS अॅप आहे. पूर्णपणे विनामूल्य. विना जाहिराती. महितीचा मागोवा नाही. मुक्त स्रोत समुदायाने आणि [**MapsWithMe**][mapswithme]/**Maps.Me** च्या संस्थापकांनी प्रेमाने विकसित केले. [OpenStreetMap][openstreetmap] डेटाद्वारे समर्थित.
 
 **Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे.
 
-> डिसेंबर 2024 मध्ये, Organic Maps ने [3M इंस्टॉल गाठले](@/news/2024-12-20/411/index.md). स्केल करण्यासाठी [आम्हाला मदत करा](@/donate/index.md)!
+> डिसेंबर 2025 मध्ये, Organic Maps ने [60 लाख इन्स्टॉल्सचा टप्पा गाठला](@/news/2025-12-31/500/index.mr.md). आम्हाला वाढण्यास [मदत करा](@/donate/index.mr.md)!
 
 ### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -35,12 +35,14 @@ title: 'Organic Maps : ऑफलाईन भटकंती, सायकल �
   नसलेल्या ठिकाणांसोबत सखोल ऑफलाईन नकाशे
 - सायकलिंग मार्ग, भटकंती व चालण्याचे मार्ग
 - समोच्च रेषा, उंची प्रोफाइल, शिखरे व चढ-उतार
-- व्हॉइस मार्गदर्शन आणि Android Auto सह कार, सायकली आणि चालण्यासाठी
+- व्हॉइस मार्गदर्शन आणि CarPlay/Android Auto सह कार, सायकली आणि चालण्यासाठी
   टर्न-बाय-टर्न दिशानिर्देश
+- मेट्रो/सबवे नकाशे
 - नकाशावर वेगवान ऑफलाईन शोध
-- KML, KMZ, GPX फॉरमॅटमध्ये बुकमार्क आणि ट्रॅक
+- KML, KMZ, GPX फॉरमॅटमध्ये बुकमार्क आणि ट्रॅक, GeoJSON
 - तुमच्या डोळ्यांच्या संरक्षणासाठी, गडद मोड
 - देश आणि प्रदेश जास्त जागा घेत नाहीत
+- लोकप्रिय ठिकाणांसाठी विकिपीडिया लेख
 - विनामूल्य व मुक्त स्रोत
 
 ## ऑर्गेनिक (सेंद्रिय) कशाला?
@@ -90,7 +92,7 @@ Reject surveillance - embrace your freedom.
 ## ह्या निःशुल्क ऍपचा खर्च कोण काढत आहे?
 
 हे ऍप सर्वांसाठी विमानुल्य आहे. आम्हाला पाठिंबा द्यायला कृपया [देणगी
-द्या](@/donate/index.md)!
+द्या](@/donate/index.mr.md)!
 
 To donate conveniently, click on your preferred payment method icon below:
 
@@ -104,7 +106,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">शोध आणि स्रोत सुधारणा प्रकल्प</a> NGI0 Entrust Fund द्वारे <a href="https://nlnet.nl/project/OrganicMaps/">निधीत</a> केला गेला. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> ची स्थापना <a href="https://nlnet.nl/">NLnet Foundation</a> ने युरोपियन कमिशनच्या <a href="https://www.ngi.eu/">Next Generation Internet</a> कार्यक्रमाच्या आर्थिक पाठिंब्याने, DG Communications Networks, Content and Technology च्या अंतर्गत अनुदान करार क्रमांक 101069594 अंतर्गत केली आहे.
     </td>
   </tr>
   <tr>
@@ -112,7 +114,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> ने <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> कार्यक्रमांदरम्यान Google Summer of Code कार्यक्रमात विद्यार्थी प्रकल्पांना पाठिंबा दिला. उल्लेखनीय प्रकल्पांमध्ये Android Auto, विकिपीडिया डंप एक्स्ट्रॅक्टर, Android ट्रॅक रेकॉर्डिंग यांचा समावेश आहे.
     </td>
   </tr>
   <tr>
@@ -120,7 +122,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> आम्हाला नकाशा डाउनलोड आणि अपडेट्स होस्ट करण्यासाठी आणि सर्व्ह करण्यासाठी 400 TB/महिना पर्यंत मोफत बँडविड्थसह दोन व्हर्च्युअल सर्व्हर <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">प्रदान करतो</a>.
     </td>
   </tr>
   <tr>
@@ -128,7 +130,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> आम्हाला व्हिएतनाम आणि दक्षिण पूर्व आशियामध्ये नकाशे सर्व्ह करण्यासाठी सुमारे $12,000/वर्ष किमतीचा एक मोफत समर्पित सर्व्हर <a href="https://44plus.vn/organicmaps">प्रदान करतो</a>.
     </td>
   </tr>
   <tr>
@@ -136,7 +138,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> ने फेब्रुवारी 2023 मध्ये Organic Maps ला <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 चे सूक्ष्म अनुदान दिले</a>.
     </td>
   </tr>
 </table>

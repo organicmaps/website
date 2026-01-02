@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: wędrówki, jazda na rowerze, szlaki i nawigacja offline'
 ---
 
-**Organic Maps** to skupiona na prywatności aplikacja offline z mapami i GPS do wędrówek pieszych, jazdy na rowerze, jazdy na rowerze i jazdy samochodem. Całkowicie za darmo. Bez reklam. Bez śledzenia. Opracowana z miłością przez społeczność open-source. Obsługiwana przez dane [OpenStreetMap][openstreetmap].
+**Organic Maps** to skupiona na prywatności aplikacja offline z mapami i GPS do wędrówek pieszych, jazdy na rowerze, jazdy na rowerze i jazdy samochodem. Całkowicie za darmo. Bez reklam. Bez śledzenia. Opracowana z miłością przez społeczność open-source i założycieli aplikacji [**MapsWithMe**][mapswithme]/**Maps.Me**. Obsługiwana przez dane [OpenStreetMap][openstreetmap].
 
 **Organic Maps** to jedna z niewielu obecnie aplikacji, która obsługuje 100% funkcji bez aktywnego połączenia z internetem. Zainstaluj Organic Maps, pobierz mapy, wyrzuć kartę SIM (tak przy okazji, Twój operator stale Cię śledzi) i wybierz się na tygodniową wycieczkę na jednym ładowaniu baterii bez żadnego bajtu wysłanego do sieci.
 
-> W roku 2023, Organic Maps [zyskało swój pierwszy milion](@/news/2023-12-23/281/index.md) użytkowników. [Pomóż nam](@/donate/index.md) się rozwijać!
+> W grudniu 2025 Organic Maps [osiągnęło 6 mln instalacji](@/news/2025-12-31/500/index.pl.md). [Pomóż nam](@/donate/index.pl.md) się rozwijać!
 
 ### Pobierz i zainstaluj Organic Maps z [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -38,11 +38,13 @@ wędrowców i rowerzystów:
 - Trasy rowerowe, szlaki turystyczne, ścieżki spacerowe
 - Linie konturowe, profile wysokościowe, szczyty i zbocza
 - Nawigacja piesza, rowerowa i samochodowa "zakręt po zakręcie" ze
-  wskazówkami głosowymi, Android Auto
+  wskazówkami głosowymi, CarPlay/Android Auto
+- Mapy metra
 - Szybkie wyszukiwanie offline na mapie
-- Zakładki i ścieżki w formatach KML, KMZ, GPX
+- Zakładki i ścieżki w formatach KML, KMZ, GPX, GeoJSON
 - Tryb ciemny, aby chronić Twoje oczy
 - Kraje i regiony nie zajmują dużo miejsca
+- Artykuły Wikipedii dla popularnych miejsc
 - Wolne i otwarte źródło
 
 ## Dlaczego Organic?
@@ -95,14 +97,14 @@ Odrzuć inwigilację - ogarnij swoją wolność.
 ## Kto płaci za darmową aplikację?
 
 Aplikacja jest darmowa dla wszystkich. Prosimy o [przekazanie
-darowizny](@/donate/index.md), aby nas wesprzeć!
+darowizny](@/donate/index.pl.md), aby nas wesprzeć!
 
 Aby natychmiast przekazać darowiznę, kliknij ikonę preferowanej metody
 płatności poniżej:
 
 {{ donate_buttons() }}
 
-Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na pokrycie niektórych kosztów infrastruktury i sfinansowanie rozwoju nowych wybranych funkcji:
+Ukochani sponsorzy instytucjonalni poniżej przekazali celowe granty na pokrycie niektórych kosztów infrastruktury i sfinansowanie rozwoju wybranych nowych funkcji:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -110,7 +112,7 @@ Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na p
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt ulepszenia Wyszukiwania i Źródeł</a> został <a href="https://nlnet.nl/project/OrganicMaps/">sfinansowany</a> przez Fundusz NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fundusz NGI0 Entrust</a> został ustanowiony przez <a href="https://nlnet.nl/">Fundację NLnet</a> przy wsparciu finansowym programu <a href="https://www.ngi.eu/">Next Generation Internet</a> Komisji Europejskiej, pod egidą DG Communications Networks, Content and Technology w ramach umowy o grant nr 101069594.
     </td>
   </tr>
   <tr>
@@ -118,7 +120,7 @@ Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na p
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> wspierało projekty studenckie w programie Google Summer of Code podczas programów <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Godne uwagi projekty obejmowały Android Auto, Ekstraktor zrzutów Wikipedii, Nagrywanie śladów Android.
     </td>
   </tr>
   <tr>
@@ -126,7 +128,7 @@ Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na p
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">zapewnia nam</a> dwa wirtualne serwery z do 400 TB/miesiąc darmowej przepustowości do hostowania i serwowania pobrań map i aktualizacji.
     </td>
   </tr>
   <tr>
@@ -134,7 +136,7 @@ Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na p
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">zapewnia nam</a> darmowy serwer dedykowany o wartości około $12,000/rok do serwowania map w Wietnamie i Azji Południowo-Wschodniej.
     </td>
   </tr>
   <tr>
@@ -142,7 +144,7 @@ Ukochani sponsorzy instytucjonalni poniżej zapewnili ukierunkowane dotacje na p
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">przyznało mikrogrant w wysokości $1000</a> dla Organic Maps w lutym 2023.
     </td>
   </tr>
 </table>

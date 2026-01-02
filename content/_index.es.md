@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
 ---
 
-**Organic Maps** es una aplicación GPS y de mapas sin conexión centrada en la privacidad para practicar senderismo, ciclismo y conducción. Totalmente gratuita. Sin publicidad. Sin rastreadores. Desarrollada con amor por la comunidad de código abierto. Basada en datos de [OpenStreetMap][openstreetmap].
+**Organic Maps** es una aplicación GPS y de mapas sin conexión centrada en la privacidad para practicar senderismo, ciclismo y conducción. Totalmente gratuita. Sin publicidad. Sin rastreadores. Desarrollada con amor por la comunidad de código abierto y las mismas personas que crearon la aplicación [**MapsWithMe**][mapswithme]/**Maps.Me**. Basada en datos de [OpenStreetMap][openstreetmap].
 
 **Organic Maps** es una de las pocas aplicaciones que hoy en día permiten usar todas las funcionalidades sin una conexión a Internet activa. Instale Organic Maps, descargue mapas, deseche su tarjeta SIM (por cierto, su operadora le rastrea constantemente) y emprenda un viaje semanal con una única carga sin ningún byte enviado a la red.
 
-> En diciembre de 2024, Organic Maps [alcanzó los 3 millones de instalaciones](@/news/2024-12-20/411/index.md). ¡[Ayúdenos](@/donate/index.md) a crecer!
+> En diciembre de 2025, Organic Maps [alcanzó 6M de instalaciones](@/news/2025-12-31/500/index.es.md). [Ayúdanos](@/donate/index.es.md) a crecer!
 
 ### Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -38,11 +38,13 @@ senderistas y ciclistas:
 - Líneas de contorno, perfiles de elevación, picos y pendientes
 - Navegación paso a paso con guía por voz a pie, en bici y en coche, Android
   Auto
+- Mapas de metro
 - Búsqueda rápida en el mapa y sin conexión
-- Los marcadores se exportan e importan en los formatos KML/KMZ, importan
-  GPX
+- Los marcadores se exportan e importan en los formatos KML/KMZ, importan, GeoJSON
+  GPX, GeoJSON
 - Modo oscuro para proteger sus ojos
 - Los países y regiones no ocupan demasiado espacio
+- Artículos de Wikipedia para lugares populares
 - Libre y de código abierto
 
 ## ¿Por qué Organic?
@@ -105,46 +107,46 @@ infraestructura y financiar el desarrollo de nuevas características
 seleccionadas:
 
 <table style="border-spacing: 20px">
-<tr>
-<td>
-<a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="La Fundación NLnet" width="200px"></a>
-</td>
-<td>
-El proyecto de mejora de la búsqueda y las fuentes <a href="https://github.com/organicmaps/organicmaps/milestone/7">se ha financiado a través del Fondo Entrust de NGI0. El <a href="https://nlnet.nl/entrust/">Fondo NGI0 Entrust</a> fue creado por la <a href="https://nlnet.nl/">Fundación NLnet</a> con el apoyo financiero del programa <a href="https://www.ngi.eu/">Internet de Próxima Generación</a> de la Comisión Europea, bajo los auspicios de la Dirección General de Redes de Comunicación, Contenido y Tecnología, en virtud del acuerdo de subvención n.º 101069594.
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
-
-</td>
-<td>
-<a href="https://summerofcode.withgoogle.com/">Google</a> respaldó los proyectos de cinco estudiantes en el programa Google Summer of Code durante <a Programas href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> y <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Entre los proyectos más destacados se encuentran Android Auto y Wikipedia Dump Extractor. </td>
-</tr>
-<tr>
-<td>
-<a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
-</td>
-<td>
-El proveedor de servicios de internet (ISP) de Mythic Beasts, <a href="https://www.mythic-beasts.com/">nos proporciona</a> dos servidores virtuales con 400 TB al mes de ancho de banda gratuito para alojar y gestionar las descargas y actualizaciones de mapas. </td>
-</tr>
-<tr>
-<td>
-<a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
-</td>
-<td>
-<a href="https://44plus.vn">44+ Technologies</a> nos proporciona <a href="https://44plus.vn/organicmaps">un servidor dedicado gratuito con un valor aproximado de $12,000 al año para servir mapas en Vietnam y el Sudeste Asiático.
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
-</td>
-<td>
-<a href="https://futo.org">FUTO</a> otorgó una <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">microsubvención de $1000</a> a Organic Maps en febrero de 2023.
-</td>
-</tr>
+  <tr>
+    <td>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">El proyecto de mejora de Búsqueda y Fuentes</a> ha sido <a href="https://nlnet.nl/project/OrganicMaps/">financiado</a> a través del Fondo NGI0 Entrust. <a href="https://nlnet.nl/entrust/">El Fondo NGI0 Entrust</a> es establecido por la <a href="https://nlnet.nl/">Fundación NLnet</a> con apoyo financiero del programa <a href="https://www.ngi.eu/">Next Generation Internet</a> de la Comisión Europea, bajo la égida de la DG Redes de Comunicación, Contenido y Tecnología bajo el acuerdo de subvención No 101069594.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://summerofcode.withgoogle.com/">Google</a> respaldó proyectos de estudiantes en el programa Google Summer of Code durante los programas <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Proyectos notables incluyeron Android Auto, Extractor de volcados de Wikipedia, Grabación de pistas para Android.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+    </td>
+    <td>
+      El ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nos proporciona</a> dos servidores virtuales con hasta 400 TB/mes de ancho de banda gratuito para alojar y servir descargas y actualizaciones de mapas.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://44plus.vn">44+ Technologies</a> nos <a href="https://44plus.vn/organicmaps">proporciona</a> un servidor dedicado gratuito por valor de alrededor de $12,000/año para servir mapas en Vietnam y el sudeste asiático.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://futo.org">FUTO</a> ha <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">otorgado una micro-subvención de $1000</a> a Organic Maps en febrero de 2023.
+    </td>
+  </tr>
 </table>
 
 ## Comunidad
@@ -163,7 +165,7 @@ Licencia Apache 2.0.
 - [Debata][ideas] ideas o haga peticiones de funcionalidades.
 - Suscríbase a nuestro [canal de Telegram][telegram] o al [espacio de
   Matrix][matrix] para recibir noticias.
-- Únase a nuestro [grupo de Telegram][telegram_chat] para hablar con otros
+- Únase a nuestro [grupo de Telegram][telegram_chat_es] para hablar con otros
   usuarios.
 - Visite nuestra [página de GitHub][github].
 - Siga nuestras novedades en [FOSStodon][fosstodon],
@@ -172,7 +174,7 @@ Licencia Apache 2.0.
 - Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala
   Matrix de
   húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats
-  de Telegram en [chino][telegram_chat_zh], [francés][telegram_chat_fr],
+  de Telegram en [inglés][telegram_chat_en], [chino][telegram_chat_zh], [francés][telegram_chat_fr],
   [ruso][telegram_chat_ru] o [turco][telegram_chat_tr].
 
 [fork]: https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)

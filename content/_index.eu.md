@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako'
 ---
 
-**Organic Maps** mendian ibiltzeko, txirrindularitzarako eta gidatzeko pribatutasunean zentratutako lineaz kanpoko mapen eta GPS aplikazioa da. Erabat doakoa. Iragarkirik gabe. Jarraipenik ez. Kode irekiko komunitateak maitasunez garatua. [OpenStreetMap][openstreetmap] datuekin elikatua.
+**Organic Maps** mendian ibiltzeko, txirrindularitzarako eta gidatzeko pribatutasunean zentratutako lineaz kanpoko mapen eta GPS aplikazioa da. Erabat doakoa. Iragarkirik gabe. Jarraipenik ez. Kode irekiko komunitateak eta [**MapsWithMe**][mapswithme]/**Maps.Me** aplikazioa sortu zuten pertsona berberek maitasunez garatua. [OpenStreetMap][openstreetmap] datuekin elikatua.
 
 **Organic Maps** da konexiorik gabe %100-ean funtzionatzen duen aplikazio gutxietako bat. Instalatu Organic Maps, deskargatu mapak eta bota zaborretara zure SIM txartela (bide batez, zure telefono konpainiak uneoro jarraipena egiten dizu), eta joan asteroko ibilaldira bateria karga batekin eta sarera byte bakarra ere bidali gabe.
 
-> 2024ko abenduan, Organic Maps-ek [3M instalazio lortu zituen](@/news/2024-12-20/411/index.md). [Lagun gaitzazu](@/donate/index.md) handitzen!
+> 2025eko abenduan, Organic Maps-ek [6 milioi instalazio lortu zituen](@/news/2025-12-31/500/index.eu.md). [Lagundu](@/donate/index.eu.md) handitzen!
 
 ### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -37,12 +37,14 @@ egokiena:
 - Bizikletarako ibilbideak, mendiko zidorrak eta ibiltzeko bideak
 - Profil lerroak, sestra kurbak, gailur eta aldapak
 - Pausoz-pausoko nabigazioa oinez, bizikletan edo autoz ibiltzeko, ahotsaren
-  aukerarekin, Android Auto
+  aukerarekin, CarPlay/Android Auto
+- Metro mapak
 - Mapan offline bilaketa azkarra
-- Tokien laster-markak esportatu eta inportatzeko aukera KML/KMZ
-  formatuetan, inportatzeko GPX
+- Tokien laster-markak esportatu eta inportatzeko aukera KML/KMZ, GeoJSON
+  formatuetan, inportatzeko GPX, GeoJSON
 - Modu iluna zure begiak babesteko
 - Nazio eta herrialdeek ez dute toki askorik hartzen
+- Leku ezagunetarako Wikipedia artikuluak
 - Librea eta kode irekikoa
 
 ## Zergatik Organic?
@@ -91,7 +93,7 @@ Errefusatu jarraipena - besarkatu zure askatasuna.
 
 ## Nork ordaintzen du doako app hau?
 
-App-a denontzat doakoa da. Mesedez [donate](@/donate/index.md) guri
+App-a denontzat doakoa da. Mesedez [donate](@/donate/index.eu.md) guri
 laguntzeko!
 
 Dohaintza egokia emateko, egin klik behean nahi duzun ordainketa-metodoaren
@@ -99,7 +101,7 @@ ikonoan:
 
 {{ donate_buttons() }}
 
-Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitura-kostu batzuk estaltzeko eta hautatutako ezaugarri berrien garapena finantzatzeko:
+Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegitura-kostu batzuk estaltzeko eta hautatutako ezaugarri berrien garapena finantzatzeko:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -107,7 +109,7 @@ Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitur
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Bilaketa eta Letra-tipoak hobetzeko proiektua</a> NGI0 Entrust Funtsaren bidez <a href="https://nlnet.nl/project/OrganicMaps/">finantzatu</a> da. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Funtsa</a> <a href="https://nlnet.nl/">NLnet Fundazioak</a> ezarri du Europako Batzordearen <a href="https://www.ngi.eu/">Next Generation Internet programaren</a> laguntza ekonomikoarekin, Komunikazio Sareen, Edukien eta Teknologiaren Zuzendaritza Nagusiaren babespean 101069594 zenbakiko diru-laguntza hitzarmenaren arabera.
     </td>
   </tr>
   <tr>
@@ -115,7 +117,7 @@ Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitur
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google-k</a> ikasleen proiektuak babestu zituen Google Summer of Code programan <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programetan. Proiektu aipagarrien artean Android Auto, Wikipedia Dump Extractor, Androiderako Ibilbide Grabaketa zeuden.
     </td>
   </tr>
   <tr>
@@ -123,7 +125,7 @@ Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitur
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP-ak <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">ematen dizkigu</a> bi zerbitzari birtual hilean 400 TB arteko banda-zabalera doakoarekin mapen deskargak eta eguneraketak ostatatzeko eta zerbitzatzeko.
     </td>
   </tr>
   <tr>
@@ -131,7 +133,7 @@ Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitur
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies-ek</a> <a href="https://44plus.vn/organicmaps">ematen digu</a> urtean 12.000 $ inguruko balioa duen zerbitzari dedikatu doako bat Vietnam eta Hego-ekialdeko Asian mapak zerbitzatzeko.
     </td>
   </tr>
   <tr>
@@ -139,7 +141,7 @@ Beheko babesle instituzional maitagarriek diru-laguntzak eman dituzte azpiegitur
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO-k</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 $-ko mikro-diru-laguntza eman zion</a> Organic Maps-i 2023ko otsailean.
     </td>
   </tr>
 </table>

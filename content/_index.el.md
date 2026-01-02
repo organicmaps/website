@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-Το **Organic Maps** είναι μια εφαρμογή χαρτών και GPS χωρίς σύνδεση για ορειβασία, ποδηλασία, μοτοσυκλετισμός, ποδηλασία και οδήγηση. Απολύτως δωρεάν. Χωρίς διαφημίσεις. Χωρίς εντοπισμό. Αναπτύσσεται με αγάπη από την κοινότητα ανοιχτού κώδικα. Λειτουργεί με δεδομένα [OpenStreetMap][openstreetmap].
+Το **Organic Maps** είναι μια εφαρμογή χαρτών και GPS χωρίς σύνδεση για ορειβασία, ποδηλασία, μοτοσυκλετισμός, ποδηλασία και οδήγηση. Απολύτως δωρεάν. Χωρίς διαφημίσεις. Χωρίς εντοπισμό. Αναπτύσσεται με αγάπη από την κοινότητα ανοιχτού κώδικα και τους ίδιους ανθρώπους που δημιούργησαν την εφαρμογή [**MapsWithMe**][mapswithme]/**Maps.Me**. Λειτουργεί με δεδομένα [OpenStreetMap][openstreetmap].
 
 **Οι Organic Maps** είναι μία από τις λίγες εφαρμογές που υποστηρίζουν το 100% των λειτουργιών χωρίς ενεργή σύνδεση στο Διαδίκτυο. Εγκαταστήστε τους Organic Maps, κατεβάστε χάρτες, πετάξτε την κάρτα SIM και κάντε ένα ταξίδι μιας εβδομάδας με μία μόνο φόρτιση της μπαταρίας, χωρίς να στείλετε κανένα byte στο δίκτυο.
 
-> Το Δεκέμβριο του 2024, οι Organic Maps [έφτασε 3M εγκαθιστά](@/news/2024-12-20/411/index.md) χρήστες. [Βοηθήστε μας](@/donate/index.md) να επεκταθούμε!
+> Τon Δεκέμβριο του 2025, το Organic Maps [έφτασε τις 6 εκ. εγκαταστάσεις](@/news/2025-12-31/500/index.el.md). [Βοηθήστε μας](@/donate/index.el.md) να επεκταθούμε!
 
 ### Κατεβάστε και εγκαταστήστε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -37,11 +37,13 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 - Ποδηλατικές διαδρομές, μονοπάτια πεζοπορίας και μονοπάτια πεζοπορίας
 - Γραμμές οριζοντιογραφίας, προφίλ υψομέτρων, κορυφές και κλίσεις
 - Περπάτημα, ποδηλασία και πλοήγηση αυτοκινήτου με φωνητική καθοδήγηση και
-  Android Auto
+  CarPlay/Android Auto
+- Χάρτες μετρό
 - Γρήγορη αναζήτηση εκτός σύνδεσης στον χάρτη
-- Σελιδοδείκτες και ίχνη σε μορφές KML, KMZ και GPX
+- Σελιδοδείκτες και ίχνη σε μορφές KML, KMZ και GPX, GeoJSON
 - Σκοτεινή λειτουργία για να προστατέψετε τα μάτια σας
 - Οι χώρες και οι περιφέρειες δεν καταλαμβάνουν πολύ χώρο
+- Άρθρα της Wikipedia για δημοφιλή μέρη
 - Ελεύθερο και ανοιχτό λογισμικό
 
 ## Γιατί Organic;
@@ -94,7 +96,7 @@ iOS][trackercontrol]:
 
 ## Ποιος πληρώνει για τη δωρεάν εφαρμογή;
 
-Η εφαρμογή είναι δωρεάν για όλους. Παρακαλώ [δωρίστε](@/donate/index.md) για
+Η εφαρμογή είναι δωρεάν για όλους. Παρακαλώ [δωρίστε](@/donate/index.el.md) για
 να μας υποστηρίξετε!
 
 Για να κάνετε δωρεά με ευκολία, κάντε κλικ στο εικονίδιο της προτιμώμενης
@@ -102,9 +104,7 @@ iOS][trackercontrol]:
 
 {{ donate_buttons() }}
 
-Οι παρακάτω αγαπημένοι θεσμικοί χορηγοί παρείχαν στοχευμένες επιχορηγήσεις
-για την κάλυψη ορισμένων δαπανών υποδομής και τη χρηματοδότηση της ανάπτυξης
-νέων επιλεγμένων χαρακτηριστικών:
+Οι αγαπημένοι θεσμικοί χορηγοί παρακάτω παρείχαν στοχευμένες επιχορηγήσεις για την κάλυψη ορισμένων εξόδων υποδομής και τη χρηματοδότηση της ανάπτυξης νέων επιλεγμένων χαρακτηριστικών:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -112,7 +112,7 @@ iOS][trackercontrol]:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Το έργο βελτίωσης του Search & Fonts</a> έχει <a href="https://nlnet.nl/project/OrganicMaps/">χρηματοδοτηθεί</a> μέσω του NGI0 Entrust Fund. Το <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> έχει συσταθεί από το <a href="https://nlnet.nl/">NLnet Foundation</a> με την οικονομική υποστήριξη του προγράμματος <a href="https://www.ngi.eu/">Next Generation Internet</a> της Ευρωπαϊκής Επιτροπής, υπό την αιγίδα της ΓΔ Επικοινωνιακά Δίκτυα, Περιεχόμενο και Τεχνολογία στο πλαίσιο της συμφωνίας επιχορήγησης αριθ. 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Το έργο βελτίωσης Αναζήτησης & Γραμματοσειρών</a> έχει <a href="https://nlnet.nl/project/OrganicMaps/">χρηματοδοτηθεί</a> μέσω του Ταμείου NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Το Ταμείο NGI0 Entrust</a> ιδρύθηκε από το <a href="https://nlnet.nl/">Ίδρυμα NLnet</a> με οικονομική υποστήριξη από το πρόγραμμα <a href="https://www.ngi.eu/">Next Generation Internet</a> της Ευρωπαϊκής Επιτροπής, υπό την αιγίδα της ΓΔ Επικοινωνιακών Δικτύων, Περιεχομένου και Τεχνολογίας βάσει της συμφωνίας επιχορήγησης αριθ. 101069594.
     </td>
   </tr>
   <tr>
@@ -120,7 +120,7 @@ iOS][trackercontrol]:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> υποστήριξε 5 έργα μαθητών στο πρόγραμμα Google Summer of Code κατά τη διάρκεια των προγραμμάτων <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> και <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Στα αξιοσημείωτα έργα περιλαμβάνονταν το Android Auto και το Wikipedia Dump Extractor.
+      Η <a href="https://summerofcode.withgoogle.com/">Google</a> υποστήριξε φοιτητικά έργα στο πρόγραμμα Google Summer of Code κατά τη διάρκεια των προγραμμάτων <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Αξιοσημείωτα έργα περιλάμβαναν το Android Auto, τον Εξαγωγέα Dump της Wikipedia, την Καταγραφή Διαδρομής για Android.
     </td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@ iOS][trackercontrol]:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">μας παρέχει</a> δύο εικονικούς διακομιστές με 400 TB/μήνα δωρεάν εύρος ζώνης για τη φιλοξενία και την εξυπηρέτηση λήψεων και ενημερώσεων χαρτών.
+      Ο πάροχος υπηρεσιών διαδικτύου <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">μας παρέχει</a> δύο εικονικούς διακομιστές με έως και 400 TB/μήνα δωρεάν εύρος ζώνης για τη φιλοξενία και την εξυπηρέτηση λήψεων και ενημερώσεων χαρτών.
     </td>
   </tr>
   <tr>
@@ -136,7 +136,7 @@ iOS][trackercontrol]:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> μας <a href="https://44plus.vn/organicmaps">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών σε όλο το Βιετνάμ και τη Νοτιοανατολική Ασία.
+      Η <a href="https://44plus.vn">44+ Technologies</a> μας <a href="https://44plus.vn/organicmaps">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών στο Βιετνάμ και τη Νοτιοανατολική Ασία.
     </td>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ iOS][trackercontrol]:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a  href="https://futo.org">FUTO</a> έχει <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">αποδώσει $1000 micro-grant</a> στους Organic Maps τον Φεβρουάριο του 2023.
+      Η <a href="https://futo.org">FUTO</a> έχει <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">απονείμει μικρο-επιχορήγηση $1000</a> στο Organic Maps τον Φεβρουάριο του 2023.
     </td>
   </tr>
 </table>
@@ -177,6 +177,6 @@ iOS][trackercontrol]:
   [ρωσικά-][telegram_chat_ru], [τουρκικά-][telegram_chat_tr]ομιλούντες
   συνομιλίες Telegram.
 
-[fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
+[fork]: https://el.wikipedia.org/wiki/Παρακλάδι_(πληροφορική)
 
 {{ references() }}

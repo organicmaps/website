@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 ---
 
-**Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
+**Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės ir [**MapsWithMe**][mapswithme]/**Maps.Me** programėlės įkūrėjų. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
 
 **Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atmikite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
 
-2023-iaisiais „Organic Maps“ [įgijo pirmąjį milijoną](@/news/2023-12-23/281/index.md) naudotojų. [Padėkite mums](@/donate/index.md) augti!
+> 2025 m. gruodį „Organic Maps“ [pasiekė 6 mln. įdiegimų](@/news/2025-12-31/500/index.lt.md). [Padėkite mums](@/donate/index.lt.md) augti!
 
 ### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid] {#install}
 
@@ -37,11 +37,13 @@ Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams,
 - Dviračių, žygių ir pėsčiųjų takai
 - Reljefo kontūrai, pakilimo profiliai, viršukalnės ir šlaitai
 - Nuosekli navigacija pėstiesiems, dviratininkams ir automobilių
-  vairuotojams su nurodymais balsu ir Android Auto
+  vairuotojams su nurodymais balsu ir CarPlay/Android Auto
+- Metro žemėlapiai
 - Sparti paieška žemėlapyje neprisijungus
-- Žymelės ir takai KML, KMZ ir GPX formatais
+- Žymelės ir takai KML, KMZ ir GPX formatais, GeoJSON
 - Tamsus režimas apsaugos jūsų akis
 - Šalys ir regionai neužima daug vietos
+- Vikipedijos straipsniai apie populiarias vietas
 - Nemokama ir atvirojo kodo
 
 ## Kodėl Organic?
@@ -90,7 +92,7 @@ Atmeskite sekimą – rinkitės laisvę.
 
 ## Kas moka už nemokamą programėlę?
 
-Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.md), kad
+Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.lt.md), kad
 paremtumėt mus!
 
 Paaukokite iškart, spauskite ant norimo mokėjimo metodo ženklelio apačioje:
@@ -105,7 +107,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Paieškos ir šaltinių tobulinimo projektas</a> buvo <a href="https://nlnet.nl/project/OrganicMaps/">finansuojamas</a> per NGI0 Entrust fondą. <a href="https://nlnet.nl/entrust/">NGI0 Entrust fondą</a> įsteigė <a href="https://nlnet.nl/">NLnet fondas</a> su Europos Komisijos <a href="https://www.ngi.eu/">Next Generation Internet</a> programos finansine parama, globojant DG Communications Networks, Content and Technology pagal dotacijos sutartį Nr. 101069594.
     </td>
   </tr>
   <tr>
@@ -113,7 +115,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> rėmė studentų projektus Google Summer of Code programoje <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> metais. Svarbūs projektai apėmė Android Auto, Vikipedijos duomenų išgavimą, Android maršrutų įrašymą.
     </td>
   </tr>
   <tr>
@@ -121,7 +123,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      Interneto paslaugų teikėjas <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">suteikia mums</a> du virtualius serverius su iki 400 TB/mėn. nemokamu duomenų srautu žemėlapių atsisiuntimams ir atnaujinimams talpinti ir teikti.
     </td>
   </tr>
   <tr>
@@ -129,7 +131,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">suteikia mums</a> nemokamą dedikuotą serverį, kurio vertė apie 12 000 USD per metus, žemėlapiams teikti Vietname ir Pietryčių Azijoje.
     </td>
   </tr>
   <tr>
@@ -137,7 +139,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> 2023 m. vasarį Organic Maps <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">skyrė 1000 USD mikrodotaciją</a>.
     </td>
   </tr>
 </table>

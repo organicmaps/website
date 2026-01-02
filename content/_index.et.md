@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 ---
 
-**Organic Maps** on privaatsuskeskne võrguühendust mittevajav kaardirakendus ja GPS-i asukoha kuvaja matkamise, rattasõidu ja autosõidu jaoks. Saadavalt tasuta ning õiguslikult vaba. Pole reklaame ega jälitamist. Arendatud armastusega avatud lähtekoodi kasutava kogukonna poolt. Kaardiandmed on pärit [OpenStreetMapi][openstreetmap] andmekogust.
+**Organic Maps** on privaatsuskeskne võrguühendust mittevajav kaardirakendus ja GPS-i asukoha kuvaja matkamise, rattasõidu ja autosõidu jaoks. Saadavalt tasuta ning õiguslikult vaba. Pole reklaame ega jälitamist. Arendatud armastusega avatud lähtekoodi kasutava kogukonna ja samade inimeste poolt, kes lõid [**MapsWithMe**][mapswithme]/**Maps.Me** rakenduse. Kaardiandmed on pärit [OpenStreetMapi][openstreetmap] andmekogust.
 
 **Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mille 100% funktsionaalsustest toimivad ilma internetiühenduseta. Paigalda nutiseadmesse Organic Maps, laadi alla vajalikud kaardid, jäta SIM-kaart laualaekasse ja mine nädalapikkusele reisile, mil piisab ühest aku laadimiskorrast ja ühtegi baiti ei saadeta võrgu suunas.
 
-> 2024. aastal jõudis Organic Maps [miljoni kolme miljoni paigalduseni](@/news/2024-12-20/411/index.md). [Aita meil](@/donate/index.md) veelgi kasvada!
+> Detsembris 2025 jõudis Organic Maps [6 miljoni installini](@/news/2025-12-31/500/index.et.md). [Aita meil](@/donate/index.et.md) kasvada!
 
 ### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -32,16 +32,17 @@ kasutades tumedat vaadet') }}
 Organic Maps on suurepärane rakendus reisijatele, turistidele, matkajatele
 ja ratturitele:
 
-- Tänu [OpenStreetMap'ile][openstreetmap] on meil detailsed kaardid, mille
-  kasutamiseks pole vaja võrguühendust
+- Tänu [OpenStreetMap'ile][openstreetmap] on meil detailsed kaardid, mille kasutamiseks pole vaja võrguühendust
 - Rattateed, matkarajad ning võimalused jalutamiseks
 - Kontuurjooned, kõrgusprofiilid, tipud ja nõlvad
 - Täpne teekonna juhatamine koos hääljuhistega jalutamisel, rattasõidul ning
-  autoga liikumisel ning Android Auto
+  autoga liikumisel ning CarPlay/Android Auto
+- Metroo kaardid
 - Kiire kaardiotsing võrguühendust kasutamata
-- Järjehoidjad ja rajad KML-, KMZ-, GPX-vormingus
+- Järjehoidjad ja rajad KML-, KMZ-, GPX-vormingus, GeoJSON
 - Tavavaate kõrval ka silmadesäästlik tume kaardivaade
 - Riikide ja piirkondade andmekogud ei võta palju andmeruumi
+- Vikipeedia artiklid populaarsete kohtade kohta
 - Avatud lähtekoodiga ja tasuta tarkvara
 
 ## Miks Organic Maps?
@@ -95,15 +96,13 @@ Keeldu pidevast jälgimisest - võta oma sihiks vabadus.
 ## Kes maksab tasuta rakenduse eest?
 
 Meie rakendus on kõigile tasuta. Aga kui soovid [meid rahaliselt
-toetada](@/donate/index.md), siis see on alati hea mõte!
+toetada](@/donate/index.et.md), siis see on alati hea mõte!
 
 Mugavaks annetamiseks vali alljärgnevast endale sobilik makseviis:
 
 {{ donate_buttons() }}
 
-Meie allpooltoodud institutsionaalsed toetajad on aidanud eesmärgipäraste
-toetustega katta taristukulusid ja rahastada mõnede valitud arenduste
-edenemist:
+Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetusi, et katta mõningaid infrastruktuurikulusid ja rahastada uute valitud funktsioonide arendamist:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -111,7 +110,7 @@ edenemist:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Otsingu ja kirjatüüpide parendusprojekiti</a> <a href="https://nlnet.nl/project/OrganicMaps/">rahastas</a> NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> on loodud <a href="https://nlnet.nl/">NLnet Foundationi</a> poolt Euroopa Komisjoni rahalisel toel <a href="https://www.ngi.eu/">Next Generation Internet programme'i</a> alusel, Sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all uurimistoetuse nr 101069594 põhjal.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Otsingu ja fontide parandamise projekt</a> on <a href="https://nlnet.nl/project/OrganicMaps/">rahastatud</a> NGI0 Entrust fondi kaudu. <a href="https://nlnet.nl/entrust/">NGI0 Entrust fond</a> on asutatud <a href="https://nlnet.nl/">NLnet Foundationi</a> poolt Euroopa Komisjoni <a href="https://www.ngi.eu/">Next Generation Internet programmi</a> rahalisel toel, sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all toetuslepingu nr 101069594 alusel.
     </td>
   </tr>
   <tr>
@@ -119,7 +118,7 @@ edenemist:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> toetas viie üliõpilase osalemist Google Summer of Code programmis aastatel <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> ja <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>. Märkimisväärsel projektid olid Android Auto liidestus ja Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> toetas üliõpilasprojekte Google Summer of Code programmis aastatel <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Märkimisväärsed projektid hõlmasid Android Autot, Vikipeedia tõmmise ekstraktorit, raja salvestamist Androidile.
     </td>
   </tr>
   <tr>
@@ -127,7 +126,7 @@ edenemist:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      Internetiteenusepakkuja <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">tagab meile</a> kaks virtuaalserverit koos 400 TB/kuus tasuta ribalaiusega kaartide ja uuenduste säilitamiseks ja levitamiseks.
+      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">pakub meile</a> kahte virtuaalserverit kuni 400 TB/kuus tasuta ribalaiusega kaartide allalaadimiste ja uuenduste majutamiseks ja serveerimiseks.
     </td>
   </tr>
   <tr>
@@ -135,7 +134,7 @@ edenemist:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">tagab meile </a>tasuta serveri väärtusega $12,000/aastas  tööks Vietnamis ja Kagu-Aasias.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">pakub meile</a> tasuta pühendatud serverit väärtusega umbes 12 000 dollarit aastas kaartide serveerimiseks Vietnamis ja Kagu-Aasias.
     </td>
   </tr>
   <tr>
@@ -143,7 +142,7 @@ edenemist:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> kinnitas Organic Mapsile veebruaris 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 mikrotoetuse</a>.
+      <a href="https://futo.org">FUTO</a> on <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">andnud 1000 dollari suuruse mikrotoetuse</a> Organic Mapsile veebruaris 2023.
     </td>
   </tr>
 </table>

@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 ---
 
-**Organic Maps** 是一款注重隐私的离线地图和GPS应用程序，适用于徒步旅行、骑行和驾驶。完全免费。无广告。无跟踪器。由开源社区倾情打造。由 [OpenStreetMap][openstreetmap] 数据驱动。
+**Organic Maps** 是一款注重隐私的离线地图和GPS应用程序，适用于徒步旅行、骑行和驾驶。完全免费。无广告。无跟踪器。由开源社区和 [**MapsWithMe**][mapswithme]/**Maps.Me** 应用程序的创始人倾情打造。由 [OpenStreetMap][openstreetmap] 数据驱动。
 
 **Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
 
-> 2024年12月，Organic Maps [达到300万安装量](@/news/2024-12-20/411/index.md)。[帮助我们](@/donate/index.md)扩大规模！
+> 2025年12月，Organic Maps [达到了600万次安装](@/news/2025-12-31/500/index.zh-Hans.md). [帮助我们](@/donate/index.zh-Hans.md) 扩展！
 
 ### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery] 下载并安装Organic Maps {#install}
 
@@ -32,11 +32,13 @@ Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣�
 - 详细的离线地图，有其他地图上没有的地方，感谢[OpenStreetMap][openstreetmap]
 - 骑行路线、远足小径和步行道
 - 等高线、高程剖面、山峰和山坡
-- 弯弯绕的步行、骑行和汽车导航都有语音向导，Android Auto 安卓汽车
+- 弯弯绕的步行、骑行和汽车导航都有语音向导，CarPlay/Android Auto 安卓汽车
+- 地铁地图
 - 地图上的快速离线搜索
-- 以KML/KMZ格式导出和导入书签，GPX 导入
+- 以KML/KMZ格式导出和导入书签，GPX 导入, GeoJSON
 - 保护您眼睛的黑暗模式
 - 国家和地区不会占用太大的空间
+- 热门地点的维基百科文章
 - 自由且开源
 
 ## 为什么选择Organic Maps？
@@ -84,7 +86,7 @@ Organic Maps 无需过多权限：
 
 ## 谁在为免费的应用付费？
 
-本应用免费。但请通过[捐赠](@/donate/index.md)支持我们！
+本应用免费。但请通过[捐赠](@/donate/index.zh-Hans.md)支持我们！
 
 To donate conveniently, click on your preferred payment method icon below:
 
@@ -98,7 +100,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">搜索和来源改进项目</a>通过 NGI0 Entrust 基金<a href="https://nlnet.nl/project/OrganicMaps/">获得资助</a>。<a href="https://nlnet.nl/entrust/">NGI0 Entrust 基金</a>由 <a href="https://nlnet.nl/">NLnet 基金会</a>设立，并在欧盟委员会<a href="https://www.ngi.eu/">下一代互联网</a>计划的财政支持下，在通信网络、内容和技术总局的主持下，根据第 101069594 号赠款协议设立。
     </td>
   </tr>
   <tr>
@@ -106,7 +108,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> 在 <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>、<a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>、<a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>、<a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> 年的 Google Summer of Code 计划中支持了学生项目。著名的项目包括 Android Auto、维基百科转储提取器、Android 轨迹记录。
     </td>
   </tr>
   <tr>
@@ -114,7 +116,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">为我们提供</a>了两台虚拟服务器，每月高达 400 TB 的免费带宽，用于托管和提供地图下载和更新。
     </td>
   </tr>
   <tr>
@@ -122,7 +124,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">为我们提供</a>了一台价值约 12,000 美元/年的免费专用服务器，用于在越南和东南亚提供地图服务。
     </td>
   </tr>
   <tr>
@@ -130,7 +132,7 @@ To donate conveniently, click on your preferred payment method icon below:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> 于 2023 年 2 月向 Organic Maps <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">授予了 1000 美元的小额赠款</a>。
     </td>
   </tr>
 </table>
@@ -147,12 +149,12 @@ Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 - 报告bug、跟踪问题 [the issue tracker][issues]或联系我们[email us][email]。
 - [Discuss][ideas]创意点子、功能需求。
 - 订阅我们的[Telegram频道][telegram]或[matrix空间][matrix]以获取最新信息。
-- 加入我们的[Telegram组][telegram_chat]，与其他用户讨论。
+- 加入我们的[Telegram组][telegram_chat_zh]，与其他用户讨论。
 - 访问我们的[GitHub页面][github]。
 - 在[FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok]关注我们的更新。
 - 加入（或创建并告诉我们）本地社区：[Hungarian Matrix
   room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
+  [English-][telegram_chat_en], [French-][telegram_chat_fr],
   [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
   Telegram chats.
 

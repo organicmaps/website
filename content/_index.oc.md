@@ -7,11 +7,11 @@ sort_by: weight
 title: 'De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha'
 ---
 
-**Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
+**Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
 
 N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que foncionan entierament sensa la connexion a Internet activa. Installatz Mapas Organicas, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> En decembre 2024, Organic Maps [a atench 3 milions d'installacions](@/news/2024-12-20/411/index.md). [Ajudatz-nos](@/donate/index.md) a creisser!
+> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajudatz-nos](@/donate/index.oc.md) a créisser!
 
 ### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -37,11 +37,13 @@ lei ciclistas :
 - Percors ciclistes, draias d’escorregudas e caminaments
 - Linhas de contorn, perfius d’elevacion, cimas e pendents
 - Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de
-  votz, Android Auto
+  votz, CarPlay/Android Auto
+- Mapas de mètro
 - Recèrcas rapidas sus la mapa e fòra de linha
-- Marcas de libre e traças en formats KML, KMZ, GPX
+- Marcas de libre e traças en formats KML, KMZ, GPX, GeoJSON
 - Mòde fosc per protegir vòstreis uelhs
 - Lei país e lei regions utilizan gaire d'espaci
+- Articles de Wikipèdia per luòcs populars
 - De còde liure e dobèrt
 
 ## Perque chausir Organic?
@@ -98,7 +100,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 {{ donate_buttons() }}
 
-Los esperonadors institucionals adorats çai-jos an provesit de subvencions ciblejas per cobrir certans còsts d'infrastructura e financiar lo desvolopament de novas foncionalitats seleccionadas:
+Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas per cobrir d'unes còsts d'infrastructura e finançar lo desvolopament de novèlas foncionalitats seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -106,7 +108,7 @@ Los esperonadors institucionals adorats çai-jos an provesit de subvencions cibl
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Lo projècte de melhorament de Recèrca e Fonts</a> es estat <a href="https://nlnet.nl/project/OrganicMaps/">finançat</a> a travèrs del Fons NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Lo Fons NGI0 Entrust</a> es establit per la <a href="https://nlnet.nl/">Fondacion NLnet</a> amb lo sosten financièr del programa <a href="https://www.ngi.eu/">Next Generation Internet</a> de la Comission Europèa, jos l'egida de la DG Rets de Comunicacion, Contengut e Tecnologia jos l'acòrdi de subvencion No 101069594.
     </td>
   </tr>
   <tr>
@@ -114,7 +116,7 @@ Los esperonadors institucionals adorats çai-jos an provesit de subvencions cibl
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> a sostengut de projèctes d'estudiants dins lo programa Google Summer of Code pendent los programas <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. De projèctes notables an inclús Android Auto, Extractor de dump de Wikipèdia, Enregistrament de traças Android.
     </td>
   </tr>
   <tr>
@@ -122,7 +124,7 @@ Los esperonadors institucionals adorats çai-jos an provesit de subvencions cibl
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      L'ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> nos <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">fornís</a> dos servidors virtuals amb fins a 400 TB/mes de largor de benda gratuita per albergat e servir de telecargaments e mesas a jorn de mapas.
     </td>
   </tr>
   <tr>
@@ -130,7 +132,7 @@ Los esperonadors institucionals adorats çai-jos an provesit de subvencions cibl
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> nos <a href="https://44plus.vn/organicmaps">fornís</a> un servidor dedicat gratuit d'una valor d'environ $12,000/an per servir de mapas al Vietnam e en Asia del Sud-Èst.
     </td>
   </tr>
   <tr>
@@ -138,7 +140,7 @@ Los esperonadors institucionals adorats çai-jos an provesit de subvencions cibl
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> a <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">autregat una micro-subvencion de $1000</a> a Organic Maps en febrièr de 2023.
     </td>
   </tr>
 </table>

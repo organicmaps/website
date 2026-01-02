@@ -7,11 +7,11 @@ extra:
   menu_title: വീട്
 ---
 
-**Organic Maps** ഹൈക്കിംഗ്, സൈക്ലിംഗ്, ഡ്രൈവിംഗ് എന്നിവയ്ക്കായി സ്വകാര്യത-കേന്ദ്രീകൃത ഓഫ്‌ലൈൻ മാപ്പുകളും GPS ആപ്പുമാണ്. പൂർണ്ണമായും സൗജന്യം. പരസ്യങ്ങളില്ല. ട്രാക്കിംഗ് ഇല്ല. ഓപ്പൺ സോഴ്‌സ് കമ്മ്യൂണിറ്റി സ്നേഹത്തോടെ വികസിപ്പിച്ചത്. [OpenStreetMap][openstreetmap] ഡാറ്റയാൽ പവർ ചെയ്തത്.
+**Organic Maps** ഹൈക്കിംഗ്, സൈക്ലിംഗ്, ഡ്രൈവിംഗ് എന്നിവയ്ക്കായി സ്വകാര്യത-കേന്ദ്രീകൃത ഓഫ്‌ലൈൻ മാപ്പുകളും GPS ആപ്പുമാണ്. പൂർണ്ണമായും സൗജന്യം. പരസ്യങ്ങളില്ല. ട്രാക്കിംഗ് ഇല്ല. ഓപ്പൺ സോഴ്‌സ് കമ്മ്യൂണിറ്റി സ്നേഹത്തോടെ വികസിപ്പിച്ചത്. [**MapsWithMe**][mapswithme]/**Maps.Me** സ്ഥാപകർ. [OpenStreetMap][openstreetmap] ഡാറ്റയാൽ പവർ ചെയ്തത്.
 
 **ഓർഗാനിക് മാപ്‌സ്** എന്നത് സജീവമായ ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ലാതെ 100% സവിശേഷതകളെ പിന്തുണയ്ക്കുന്ന ചുരുക്കം ചില പ്രയോഗങ്ങളിൽ ഒന്നാണ്. ഓർഗാനിക് മാപ്‌സ് ഇൻസ്‌റ്റാൾ ചെയ്യുക, ഭൂപടങ്ങൾ ഡൗൺലോഡ് ചെയ്യുക, നിങ്ങളുടെ സിം കാർഡ് വലിച്ചെറിയുക (വഴി, നിങ്ങളുടെ ഓപ്പറേറ്റർ നിങ്ങളെ നിരന്തരം ട്രാക്ക് ചെയ്യുന്നു), നെറ്റ്‌വർക്കിലേക്ക് അയയ്‌ക്കേണ്ട ഒരു ബൈറ്റ് ഇല്ലാതെ ഒരൊറ്റ ബാറ്ററി ചാർജിൽ ഒരു ആഴ്‌ച നീണ്ട യാത്ര പോകുക.
 
-> 2024 ഡിസംബറിൽ, Organic Maps [3M ഇൻസ്റ്റാളുകളിൽ എത്തി](@/news/2024-12-20/411/index.md). സ്കെയിൽ ചെയ്യാൻ [ഞങ്ങളെ സഹായിക്കൂ](@/donate/index.md)!
+> 2025 ഡിസംബറിൽ, ഓർഗാനിക് മാപ്‌സ് [60 ലക്ഷം ഇൻസ്റ്റാളുകളിൽ എത്തി](@/news/2025-12-31/500/index.ml.md). വളരാൻ [ഞങ്ങളെ സഹായിക്കൂ](@/donate/index.ml.md)!
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] എന്നിവയിൽ നിന്ന് ഓർഗാനിക് മാപ്‌സ് ഡൗൺലോഡ് ചെയ്‌ത് ഇൻസ്റ്റാൾ ചെയ്യുക {#install}
 
@@ -32,11 +32,13 @@ extra:
 - മറ്റ് ഭൂപടങ്ങളിൽ നിലവിലില്ലാത്ത സ്ഥലങ്ങളുള്ള വിശദമായ ഓഫ്‌ലൈൻ ഭൂപടങ്ങൾ, [OpenStreetMap][openstreetmap] ന് നന്ദി
 - സൈക്ലിംഗ് പാതകൾ, കാൽനടയാത്രകൾ, നടപ്പാതകൾ
 - കോണ്ടൂർ ലൈനുകൾ, എലവേഷൻ പ്രൊഫൈലുകൾ, കൊടുമുടികൾ, ചരിവുകൾ
-- വോയ്‌സ് ഗൈഡൻസുള്ള ടേൺ-ബൈ-ടേൺ നടത്തം, സൈക്ലിംഗ്, കാർ നാവിഗേഷൻ
+- വോയ്‌സ് ഗൈഡൻസുള്ള ടേൺ-ബൈ-ടേൺ നടത്തം, സൈക്ലിംഗ്, കാർ നാവിഗേഷൻ, CarPlay/Android Auto
+- മെട്രോ/സബ്‌വേ മാപ്പുകൾ
 - ഭൂപടത്തിൽ വേഗത്തിലുള്ള ഓഫ്‌ലൈൻ തിരയൽ
-- KML, KMZ, GPX ഫോർമാറ്റുകളിലെ ബുക്ക്‌മാർക്കുകളും ട്രാക്കുകളും
+- KML, KMZ, GPX ഫോർമാറ്റുകളിലെ ബുക്ക്‌മാർക്കുകളും ട്രാക്കുകളും, GeoJSON
 - നിങ്ങളുടെ കണ്ണുകളെ സംരക്ഷിക്കാൻ ഇരുണ്ട രീതി
 - രാജ്യങ്ങളും പ്രദേശങ്ങളും ധാരാളം സ്ഥലം എടുക്കുന്നില്ല
+- ജനപ്രിയ സ്ഥലങ്ങൾക്കുള്ള വിക്കിപീഡിയ ലേഖനങ്ങൾ
 - സ്വതന്ത്രവും കാണാൻ കഴിയുന്നതുമായ ഉറവിടം
 
 ## എന്തുകൊണ്ട് ജൈവം?
@@ -84,7 +86,7 @@ The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
 
 ## സൗജന്യ പ്രയോഗത്തിന് ആരാണ് പണം നൽകുന്നത്?
 
-ഈ പ്രയോഗം എല്ലാവർക്കും സൗജന്യമാണ്. ഞങ്ങളെ പിന്തുണയ്ക്കാൻ ദയവായി [സംഭാവന](@/donate/index.md)!
+ഈ പ്രയോഗം എല്ലാവർക്കും സൗജന്യമാണ്. ഞങ്ങളെ പിന്തുണയ്ക്കാൻ ദയവായി [സംഭാവന](@/donate/index.ml.md)!
 
 To donate conveniently, click on your preferred payment method icon below:
 
@@ -95,42 +97,42 @@ To donate conveniently, click on your preferred payment method icon below:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
-    </td>
-    <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto and Wikipedia Dump Extractor.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">തിരയൽ & ഉറവിടങ്ങൾ മെച്ചപ്പെടുത്തൽ പദ്ധതി</a> NGI0 Entrust Fund വഴി <a href="https://nlnet.nl/project/OrganicMaps/">ധനസഹായം</a> നൽകി. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> സ്ഥാപിച്ചത് <a href="https://nlnet.nl/">NLnet Foundation</a> ആണ്, യൂറോപ്യൻ കമ്മീഷന്റെ <a href="https://www.ngi.eu/">Next Generation Internet</a> പ്രോഗ്രാമിൽ നിന്നുള്ള സാമ്പത്തിക സഹായത്തോടെ, DG Communications Networks, Content and Technology യുടെ കീഴിൽ ഗ്രാന്റ് കരാർ നമ്പർ 101069594 പ്രകാരം.
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://44plus.vn"><img src="sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> പ്രോഗ്രാമുകളിൽ Google Summer of Code പ്രോഗ്രാമിലെ വിദ്യാർത്ഥി പ്രോജക്റ്റുകളെ പിന്തുണച്ചു. ശ്രദ്ധേയമായ പ്രോജക്റ്റുകളിൽ Android Auto, വിക്കിപീഡിയ ഡംപ് എക്സ്ട്രാക്റ്റർ, Android ട്രാക്ക് റെക്കോർഡിംഗ് എന്നിവ ഉൾപ്പെടുന്നു.
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> മാപ്പ് ഡൗൺലോഡുകളും അപ്‌ഡേറ്റുകളും ഹോസ്റ്റുചെയ്യുന്നതിനും സേവിക്കുന്നതിനുമായി 400 TB/മാസം വരെ സൗജന്യ ബാൻഡ്‌വിഡ്ത്ത് ഉള്ള രണ്ട് വെർച്വൽ സെർവറുകൾ നമുക്ക് <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">നൽകുന്നു</a>.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://44plus.vn">44+ Technologies</a> വിയറ്റ്നാമിലും തെക്കുകിഴക്കൻ ഏഷ്യയിലും മാപ്പുകൾ സേവിക്കുന്നതിനായി ഏകദേശം $12,000/വർഷം വിലമതിക്കുന്ന ഒരു സൗജന്യ ഡെഡിക്കേറ്റഡ് സെർവർ നമുക്ക് <a href="https://44plus.vn/organicmaps">നൽകുന്നു</a>.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+    </td>
+    <td>
+      <a href="https://futo.org">FUTO</a> 2023 ഫെബ്രുവരിയിൽ Organic Maps-ന് <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 മൈക്രോഗ്രാന്റ് നൽകി</a>.
     </td>
   </tr>
 </table>

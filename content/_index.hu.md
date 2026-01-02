@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: offline túrázás, kerékpározás, turistautak és navigáció'
 ---
 
-Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség fejleszti és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
+Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség és a [**MapsWithMe**][mapswithme]/**Maps.Me** alapítói fejlesztik és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
 
 **Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítse az Organic Maps-et, töltse le a térképeket, dobja el a SIM-kártyáját (máskülönben a szolgáltatója folyamatosan nyomon követi Önt), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül induljon el egy egyhetes útra.
 
-> 2024 decemberében az Organic Maps alkalmazást már [3 millió felhasználó](@/news/2024-12-20/411/index.md) telepítette. [Segítsen nekünk](@/donate/index.md) a további növekedésben!
+> 2025 decemberében az Organic Maps [elérte a 6 millió telepítést](@/news/2025-12-31/500/index.hu.md). [Segíts](@/donate/index.hu.md) növekedni!
 
 ### Töltse le és telepítse az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
 
@@ -36,13 +36,15 @@ kerékpárosoknak:
   léteznek, az [OpenStreetMap][openstreetmap] jóvoltából
 - Kerékpárutak, túraútvonalak és sétaútvonalak
 - Szintvonalak, magassági profilok, csúcsok és lejtők
-- Részletes gyalogos, kerékpáros és autós navigáció hangutasítással, Android
+- Részletes gyalogos, kerékpáros és autós navigáció hangutasítással, CarPlay/Android
   Auto
+- Metró térképek
 - Gyors offline keresés a térképen
-- KML/KMZ-könyvjelzők exportálása/importálása, továbbá GPX-fájlok
+- KML/KMZ-könyvjelzők exportálása/importálása, továbbá GPX-fájlok, GeoJSON
   importálása
 - Sötét mód a szem védelme érdekében
 - Az országok és régiók adatai nem foglalnak el sok helyet
+- Wikipédia cikkek népszerű helyekről
 - Ingyenes és nyílt forráskódú
 
 ## Miért válassza az Organic Mapset?
@@ -91,7 +93,7 @@ Utasítsa el a megfigyelést – legyen szabad.
 
 ## Ki fizet az ingyenes alkalmazásért?
 
-Az alkalmazás mindenki számára ingyenes. [Adományozzon](@/donate/index.md),
+Az alkalmazás mindenki számára ingyenes. [Adományozzon](@/donate/index.hu.md),
 hogy támogasson minket!
 
 A kényelmes adományozás jegyében, kattintson a kívánt fizetési mód ikonjára
@@ -99,17 +101,16 @@ lentebb:
 
 {{ donate_buttons() }}
 
-Az alábbi intézményi szponzorok célzott támogatást nyújtottak bizonyos
-infrastrukturális költségek fedezésére és új, kiválasztott funkciók
-fejlesztésének finanszírozására:
+
+Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak bizonyos infrastrukturális költségek fedezésére és kiválasztott új funkciók fejlesztésének finanszírozására:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="Az NLnet Alapítvány" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-     <a href="https://github.com/organicmaps/organicmaps/milestone/7">A Keresés és betűtípusfejlesztés projektet</a> az NGI0 Entrust Fund <a href="https://nlnet.nl/project/OrganicMaps/">finanszírozta</a>. <a href="https://nlnet.nl/entrust/">Az NGI0 Entrust Fundot</a> az <a href="https://nlnet.nl/">NLnet Alapítvány</a> hozta létre az Európai Bizottság <a href="https://www.ngi.eu/">Újgenerációs Internet Kezdeményezés</a> pénzügyi támogatásával, a Tartalmak, Technológiák és Kommunikációs Hálózatok Főigazgatóságának égisze alatt, az 101069594 számú támogatási megállapodás keretében.
+      A <a href="https://github.com/organicmaps/organicmaps/milestone/7">Keresés és Forrás Javítási Projektet</a> az NGI0 Entrust Alapon keresztül <a href="https://nlnet.nl/project/OrganicMaps/">finanszírozták</a>. Az <a href="https://nlnet.nl/entrust/">NGI0 Entrust Alapot</a> az <a href="https://nlnet.nl/">NLnet Alapítvány</a> hozta létre az Európai Bizottság <a href="https://www.ngi.eu/">Next Generation Internet</a> programjának pénzügyi támogatásával, a DG Communications Networks, Content and Technology égisze alatt, a 101069594 számú támogatási megállapodás keretében.
     </td>
   </tr>
   <tr>
@@ -117,7 +118,7 @@ fejlesztésének finanszírozására:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-     <a href="https://summerofcode.withgoogle.com/">A Google</a> 5 diák projektjét támogatta a Google Summer of Code programban a <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022-es</a> és <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023-as</a> programok során. A figyelemre méltó projektek között szerepelt az Android Auto és a Wikipedia Dump Extractor.
+      A <a href="https://summerofcode.withgoogle.com/">Google</a> támogatta a diákprojekteket a Google Summer of Code programban a <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programok során. A kiemelkedő projektek közé tartozott az Android Auto, a Wikipédia dump kinyerő, és az Android nyomvonal rögzítés.
     </td>
   </tr>
   <tr>
@@ -125,7 +126,7 @@ fejlesztésének finanszírozására:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-     <a href="https://www.mythic-beasts.com/">A Mythic Beasts</a> ISP két virtuális kiszolgálót <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">biztosít számunkra</a> 400 TB/hó ingyenes sávszélességgel a térképek letöltésének és frissítésének hosztolásához és kiszolgálásához.
+      A <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> internetszolgáltató két virtuális szervert <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">biztosít számunkra</a> havi 400 TB ingyenes sávszélességgel a térképletöltések és frissítések tárolására és kiszolgálására.
     </td>
   </tr>
   <tr>
@@ -133,7 +134,7 @@ fejlesztésének finanszírozására:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-     <a href="https://44plus.vn">a 44+ Technologies</a> egy ingyenes dedikált kiszolgálót <a href="https://44plus.vn/organicmaps">biztosít számunkra </a>körülbelül $12,000/év értékben, hogy térképeket szolgáltassunk Vietnámban és Délkelet-Ázsiában.
+      A <a href="https://44plus.vn">44+ Technologies</a> egy ingyenes dedikált szervert <a href="https://44plus.vn/organicmaps">biztosít számunkra</a> körülbelül évi 12 000 dollár értékben a térképek kiszolgálására Vietnámban és Délkelet-Ázsiában.
     </td>
   </tr>
   <tr>
@@ -141,7 +142,7 @@ fejlesztésének finanszírozására:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-     <a href="https://futo.org">A FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 dolláros mikro-ösztöndíjat ítélt oda</a> az Organic Mapsnek 2023 februárjában.
+      A <a href="https://futo.org">FUTO</a> 2023 februárjában <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 dolláros mikrotámogatást nyújtott</a> az Organic Maps számára.
     </td>
   </tr>
 </table>

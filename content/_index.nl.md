@@ -7,11 +7,11 @@ sort_by: weight
 title: 'Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie'
 ---
 
-**Organic Maps** is een op privacy gerichte offline kaarten & GPS-app voor wandelen, fietsen en autorijden. Absoluut gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-source gemeenschap. Aangedreven door [OpenStreetMap][openstreetmap]-gegevens.
+**Organic Maps** is een op privacy gerichte offline kaarten & GPS-app voor wandelen, fietsen en autorijden. Absoluut gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-source gemeenschap en de oprichters van de app [**MapsWithMe**][mapswithme]/**Maps.Me**. Aangedreven door [OpenStreetMap][openstreetmap]-gegevens.
 
 **Organic Maps** is één van de weinige apps heden ten dage die 100% van de functionaliteit heeft zonder actieve internetverbinding. Installeer Organic Maps, download kaarten, gooi je SIM kaart weg (trouwens, je provider trackt je altijd), en ga een week op pad zonder je batterij op te laden en zonder dat er één byte naar het netwerk verzonden wordt.
 
-> In 2023 kreeg Organic Maps [zijn eerste miljoen](@/news/2023-12-23/281/index.md) gebruikers. [Help ons](@/donate/index.md) om op te schalen!
+> In december 2025 bereikte Organic Maps [6 miljoen installaties](@/news/2025-12-31/500/index.nl.md). [Help ons](@/donate/index.nl.md) te groeien!
 
 ### Download en installeer Organic Maps in de [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
 
@@ -36,11 +36,13 @@ wandelaars en fietsers:
 - Fietsroutes, wandelroutes en -paden
 - Contourlijnen, hoogteprofielen, pieken en hellingen
 - Routebegeleiding voor wandelen en fietsen en autonavigatie met
-  stembegeleiding en Android Auto
+  stembegeleiding en CarPlay/Android Auto
+- Metrokaarten
 - Snel offline zoeken op de kaart
-- Bladwijzers exporteren en importeren in KML/KMZ formats, importeren GPX
+- Bladwijzers exporteren en importeren in KML/KMZ formats, importeren GPX, GeoJSON
 - Donkere stand om je ogen te beschermen
 - Landen en regio's nemen niet veel ruimte in beslag
+- Wikipedia-artikelen voor populaire plaatsen
 - Gratis en open source
 
 ## Waarom 'Organic'?
@@ -107,7 +109,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
       <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Het Search & Fonts improvement project</a> is <a href="https://nlnet.nl/project/OrganicMaps/">betaald</a> door het NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is opgezet door de <a href="https://nlnet.nl/">NLnet Foundation</a> met financiële steun van de Europese Commissie's <a href="https://www.ngi.eu/">Next Generation Internet programma</a>, onder de mantel van DG Communications Networks, Content and Technology onder grant agreement No 101069594.
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7">Het Zoeken & Bronnen verbeteringsproject</a> is <a href="https://nlnet.nl/project/OrganicMaps/">gefinancierd</a> via het NGI0 Entrust Fonds. <a href="https://nlnet.nl/entrust/">Het NGI0 Entrust Fonds</a> is opgericht door de <a href="https://nlnet.nl/">NLnet Foundation</a> met financiële steun van het <a href="https://www.ngi.eu/">Next Generation Internet</a> programma van de Europese Commissie, onder auspiciën van DG Communications Networks, Content and Technology onder subsidieovereenkomst nr. 101069594.
     </td>
   </tr>
   <tr>
@@ -115,7 +117,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
       <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> steunde 5 studentenprojecten in het Google Summer of Code programma tijdens <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> en <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programma's. Noemenswaardige projecten waren Android Auto en Wikipedia Dump Extractor.
+      <a href="https://summerofcode.withgoogle.com/">Google</a> heeft studentenprojecten ondersteund in het Google Summer of Code programma tijdens de programma's van <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Opmerkelijke projecten waren onder meer Android Auto, Wikipedia dump extractor, Android track recording.
     </td>
   </tr>
   <tr>
@@ -123,7 +125,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
       <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
+      ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">voorziet ons</a> van twee virtuele servers met tot 400 TB/maand gratis bandbreedte voor het hosten en serveren van kaartdownloads en updates.
     </td>
   </tr>
   <tr>
@@ -131,7 +133,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
       <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
     </td>
     <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
+      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">voorziet ons</a> van een gratis dedicated server ter waarde van ongeveer $12.000/jaar om kaarten te serveren in Vietnam en Zuidoost-Azië.
     </td>
   </tr>
   <tr>
@@ -139,7 +141,7 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> heeft in februari 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">een microsubsidie van $1000 toegekend</a> aan Organic Maps.
     </td>
   </tr>
 </table>

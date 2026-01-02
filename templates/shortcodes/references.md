@@ -43,7 +43,7 @@
 [telegram]: https://t.me/OrganicMapsApp "Organic Maps news"
 [telegram_chat]: https://t.me/OrganicMaps "Organic Maps chat"
 [telegram_chat_ar]: https://t.me/OrganicMapsAr "Organic Maps المحادثة"
-[telegram_chat_de]: https://t.me/OrganicMapsDe "Organic Maps-Chat"
+[telegram_chat_de]: https://t.me/OrganicMapsDeutsch "Organic Maps-Chat"
 [telegram_chat_es]: https://t.me/OrganicMapsEs "Chat de Organic Maps"
 [telegram_chat_fa]: https://t.me/OrganicMapsPersian "Organic Maps گفتگو"
 [telegram_chat_fr]: https://t.me/OrganicMapsFr "Discussion sur les Organic Maps"
@@ -60,5 +60,5 @@
 [translations_appstore]: https://hosted.weblate.org/projects/organicmaps/apple-appstore-metadata/
 [translations_googleplay]: https://hosted.weblate.org/projects/organicmaps/fdroid-metadata/
 [translations_website]: https://hosted.weblate.org/projects/organicmaps/website/
-[twitter]: https://twitter.com/OrganicMapsApp
+[twitter]: https://x.com/OrganicMapsApp
 [weblate]: https://hosted.weblate.org/projects/organicmaps/

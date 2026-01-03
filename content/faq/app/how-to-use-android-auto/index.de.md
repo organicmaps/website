@@ -8,6 +8,6 @@ extra:
   order: 20
 ---
 
-Um Organic Maps mit Android Auto zu benutzen, wird Android version 8.0 (Oreo) oder neuer vorausgesetzt. Des Weiteren müssem Sie Organic Maps vom Google Play Store heruntgeladen haben, da Google nur von Google überprüfte Apps auf Android Auto zulasst.
+Um Organic Maps mit Android Auto zu nutzen, wird Android version 8.0 (Oreo) oder neuer vorausgesetzt. Des Weiteren muss Organic Maps vom Google Play Store heruntgeladen sein, da Google nur von Google überprüfte Apps auf Android Auto zulasst.
 
-Bitte besuchen Sie die [Android Auto Website](https://www.android.com/auto/) für weitere Informationen.
+Bitte besuche die [Android Auto Website](https://www.android.com/auto/) für weitere Informationen.

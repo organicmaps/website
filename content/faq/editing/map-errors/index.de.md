@@ -13,7 +13,7 @@ extra:
 Unsere Kartendatenquelle ist [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Das ist ein Kartierungsprojekt ähnlich wie Wikipedia, jedoch für Karten, wo jeder die Weltkarten bearbeiten kann.
 
 
-Wenn du falsche Informationen siehst oder feststellst, dass einige Objekte auf der Karte fehlen, kannst du eine [Notiz für OSM-Freiwillige hinterlassen](https://www.openstreetmap.org/note/new) oder dich bei OSM [registrieren](https://www.openstreetmap.org/user/new) und die Karte bearbeiten.
+Wenn du falsche Informationen siehst oder feststellst, dass einige Objekte auf der Karte fehlen, kannst du einen [Hinweis für OSM-Freiwillige hinterlassen](https://www.openstreetmap.org/note/new) oder dich bei OSM [registrieren](https://www.openstreetmap.org/user/new) und die Karte bearbeiten.
 
 Je mehr Leute beitragen, desto detailliertere Karten erhält jeder. Wir glauben es ist nur eine Frage der Zeit, bis die detaillierteste Karte der Welt ein Werk der offenen Community ist.
 

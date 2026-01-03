@@ -4,7 +4,7 @@ description: ""
 updated: "2025-12-31"
 
 taxonomies:
-  faq: ["Sprachführung"]
+  faq: ["Sprachanweisungen"]
 
 extra:
   order: 20

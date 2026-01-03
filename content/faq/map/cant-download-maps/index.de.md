@@ -10,6 +10,6 @@ extra:
   order: 30
 ---
 
-Ihr Download kann aufgrund eines temporären Netzwerkfehlers oder bestimmter Internetanbieter-/Routereinstellungen (Firewall-Blockade) fehlschlagen. Bitte versuchen Sie es später noch einmal oder verwenden Sie einen anderen WLAN-Access Point. Stellen Sie außerdem sicher, dass auf Ihrem Gerät genügend Speicherplatz frei ist.
+Dein Download kann aufgrund eines temporären Netzwerkfehlers oder bestimmter Internetanbieter-/Routereinstellungen (Firewall-Blockade) fehlschlagen. Bitte versuche es später noch einmal oder verwende einen anderen WLAN-Access Point. Stelle außerdem sicher, dass auf deinem Gerät genügend Speicherplatz frei ist.
 
 Wenn das Aktualisieren bei sehr alten Karten fehlschlägt, kann es helfen die alte Karten zu löschen und anschließend erneut herunterzuladen.

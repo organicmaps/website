@@ -11,7 +11,7 @@ taxonomies:
 ### Alle Plattformen
 
 - *NEU!* Hervorgehobene heruntergeladene Regionen auf der Weltkarte (Viktor Govako)
-- *NEU!* Sehen und suchen Sie nach Naturschutzgebieten, Nationalparks, Schutzgebieten, Gebieten der Aborigines, Gefahrenzonen und Seen auf der Weltkarte ab Zoomstufe 8 (Viktor Govako)
+- *NEU!* Sieh und suche nach Naturschutzgebieten, Nationalparks, Schutzgebieten, Gebieten der Aborigines, Gefahrenzonen und Seen auf der Weltkarte ab Zoomstufe 8 (Viktor Govako)
 - *NEU!* Das Routing unterstützt jetzt Straßensperrzeiten (Viktor Govako)
 
 - OpenStreetMap-Daten vom 9. November 2025 (Viktor Govako)
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto verwendet immer den Auto-Routing-Modus (Andrei Shkrob)
 - Traditionelle chinesische Übersetzungen für die Regionen Hongkong (zh-HK) und Macau (zh-MO) verwenden (Alexander Borsuk)
 
-Bitte lassen Sie uns wissen, ob Sie Organic Maps auf x86-Geräten (einschließlich Chromebooks) mit OpenGL ES 3-Unterstützung ausführen können.
+Bitte lass uns wissen, ob du Organic Maps auf x86-Geräten (einschließlich Chromebooks) mit OpenGL ES 3-Unterstützung ausführen kannst.
 
 ### Karte & Stile
 

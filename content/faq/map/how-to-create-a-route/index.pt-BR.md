@@ -1,5 +1,6 @@
 ---
 title: Como criar uma rota e iniciar a navegação
+slug: como-criar-uma-rota-e-iniciar-a-navegação
 description: 
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /pt-BR/faq/map/how-to-create-a-route/
 ---
 
 Depois que sua localização for determinada no mapa, escolha seu destino. Você pode usar uma das seguintes maneiras:

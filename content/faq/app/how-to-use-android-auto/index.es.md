@@ -6,6 +6,8 @@ taxonomies:
   faq: ["Aplicación"]
 extra:
   order: 20
+aliases:
+  - /es/faq/app/how-to-use-android-auto/
 ---
 
 Para utilizar OM con Android Auto, necesita al menos una versión de Android 8.0 (Oreo) o posterior.

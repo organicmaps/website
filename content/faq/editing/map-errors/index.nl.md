@@ -1,5 +1,6 @@
 ---
 title: Sommige plaatsen ontbreken op de kaart of hebben verkeerde namen
+slug: sommige-plaatsen-ontbreken-op-de-kaart-of-hebben-verkeerde-namen
 description: Tips voor het corrigeren van fouten in kaarten, het aanbrengen van wijzigingen
   en updates aan objecten rechtstreeks in organische kaarten of via OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /nl/faq/editing/map-errors/
 ---
 
 Onze kaartgegevensbron is [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Dit is een kaartproject vergelijkbaar met Wikipedia, maar dan voor kaarten, waarbij iedereen de kaart van de wereld kan maken en bewerken.

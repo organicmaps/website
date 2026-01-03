@@ -1,5 +1,6 @@
 ---
 title: Come posso apportare modifiche più avanzate alla mappa?
+slug: come-posso-apportare-modifiche-più-avanzate-alla-mappa
 description: Tutorial per modificare OpenStreetMap con strumenti più avanzati come
   ID, Go Map e Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /it/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps include un editor semplice e facile da usare che puoi utilizzare per modificare la mappa. L'editor, tuttavia, è limitato e consente solo di aggiungere semplici elementi puntuali, ovvero nessun contorno di edifici, strade, laghi, città, ecc. Se vuoi cambiare qualcosa che non può essere modificato con l'editor integrato, questa è la pagina FAQ giusta da leggere.

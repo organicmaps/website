@@ -1,5 +1,6 @@
 ---
 title: Kaip galiu redaguoti žemėlapį natūraliuose žemėlapiuose?
+slug: kaip-galiu-redaguoti-žemėlapį-natūraliuose-žemėlapiuose
 description: „OpenStreetMap“ redagavimo iš „Organic Maps“ programos mokymo programa
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /lt/faq/editing/organic-maps-map-editing/
 ---
 
 Naudodami natūralius žemėlapius galite lengvai pridėti trūkstamas vietas į žemėlapį, pridėti papildomos informacijos, pvz., darbo valandas, arba pataisyti neteisingus įrašus. Tai darydami pagerinsite visų naudotojų žemėlapio duomenis.

@@ -1,5 +1,6 @@
 ---
 title: Cossí pòdi editar la mapa dins Organic Maps?
+slug: cossí-pòdi-editar-la-mapa-dins-organic-maps
 description: Tutorial per editar OpenStreetMap dempuèi l'aplicacion Organic Maps mai
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Edicion de la mapa
 extra:
   order: 35
+aliases:
+  - /oc/faq/editing/organic-maps-map-editing/
 ---
 
 Amb Organic Maps, podètz aisidament apondre los endreches mancants a la mapa, apondre de detalhs suplementaris coma los oraris d'obertura, o corregir las entradas erronèas. En fasent aquò, melhoratz las donadas de la mapa per totes los utilizaires.

@@ -1,5 +1,6 @@
 ---
 title: Não consigo ouvir as instruções de voz
+slug: não-consigo-ouvir-as-instruções-de-voz
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pt/faq/voice/cant-hear-instructions/
 ---
 
 **Nota:** as instruções de voz estão disponíveis apenas em rotas de carro e de bicicleta. Neste momento pode ouvir as instruções de voz apenas ao conduzir um veículo e quando o ecrã estiver ligado.

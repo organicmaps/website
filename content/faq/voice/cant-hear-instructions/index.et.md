@@ -1,5 +1,6 @@
 ---
 title: Ma ei kuule hääljuhiseid
+slug: ma-ei-kuule-hääljuhiseid
 description: Veaotsingu juhend hääljuhiste jaoks navigeerimisel
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /et/faq/voice/cant-hear-instructions/
 ---
 
 **Märkus:** auto- ja jalgrattamarsruutide jaoks on saadaval hääljuhised. Praegu kuulete hääljuhiseid ainult sõidu ajal ja siis, kui ekraan on sisse lülitatud.

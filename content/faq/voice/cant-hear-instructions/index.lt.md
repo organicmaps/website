@@ -1,5 +1,6 @@
 ---
 title: Negirdžiu nurodymų balsu
+slug: negirdžiu-nurodymų-balsu
 description: Trikčių šalinimo vadovas, skirtas navigacijos nurodymams balsu
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /lt/faq/voice/cant-hear-instructions/
 ---
 
 **Pastaba:** balso nurodymai galimi automobilių ir dviračių maršrutams. Kol kas balso instrukcijas galite išgirsti tik vairuodami ir įjungus ekraną.

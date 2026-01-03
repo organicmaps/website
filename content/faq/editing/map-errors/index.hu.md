@@ -1,5 +1,6 @@
 ---
 title: Néhány hely hiányzik a térképről, vagy rossz a neve
+slug: néhány-hely-hiányzik-a-térképről-vagy-rossz-a-neve
 description: Tippek a térképek hibáinak kijavításához, az objektumok módosításához
   és frissítéséhez közvetlenül az Organikus térképekben vagy az OpenStreetMap.org
   webhelyen keresztül
@@ -9,6 +10,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /hu/faq/editing/map-errors/
 ---
 
 Térképi adatforrásunk az [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Ez egy térképezési projekt, hasonló a Wikipédiához, de térképekhez, ahol bárki létrehozhatja és szerkesztheti a világ térképét.

@@ -1,5 +1,6 @@
 ---
 title: Beth alla i ei wneud os yw'r ap wedi stopio / chwalu?
+slug: beth-alla-i-ei-wneud-os-ywr-ap-wedi-stopio-chwalu
 description: Pa gamau i'w cymryd os bydd y rhaglen yn chwalu. Sut i riportio bygiau critigol i ddatblygwyr
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /cy/faq/app/crash/
 ---
 
 Ar Android, os ydych chi'n storio'ch mapiau ar gerdyn SD, yr achos mwyaf tebygol yw cerdyn SD diffygiol. Gallwch chi:

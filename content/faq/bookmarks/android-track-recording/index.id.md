@@ -1,5 +1,6 @@
 ---
 title: Mengapa trek tidak direkam dengan baik di latar belakang Android?
+slug: mengapa-trek-tidak-direkam-dengan-baik-di-latar-belakang-android
 description: Pengaturan pengoptimalan baterai default pada Samsung, Huawei, Google,
   Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola,
   HTC, dan perangkat lain dapat menghentikan atau mematikan aplikasi Peta Organik
@@ -10,6 +11,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /id/faq/bookmarks/android-track-recording/
 ---
 
 Pengaturan pengoptimalan baterai default pada Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC, dan perangkat lain dapat menghentikan atau mematikan aplikasi Peta Organik di latar belakang.

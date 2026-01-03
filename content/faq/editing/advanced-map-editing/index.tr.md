@@ -1,5 +1,6 @@
 ---
 title: Daha gelişmiş harita düzenlemeyi nasıl yapabilirim?
+slug: daha-gelişmiş-harita-düzenlemeyi-nasıl-yapabilirim
 description: ID, Go Map ve Vespucci gibi daha gelişmiş araçlarla OpenStreetMap'i düzenleme
   eğitimi
 updated: '2024-06-20'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Harita düzenleme"]
 extra:
   order: 40
+aliases:
+  - /tr/faq/editing/advanced-map-editing/
 ---
 
 Organik Haritalar, haritayı düzenlemek için kullanabileceğiniz basit ve kullanımı kolay bir düzenleyici içerir. Ancak düzenleyici sınırlıdır ve yalnızca basit nokta özellikleri eklemeye izin verir; bu, bina taslakları, yollar, göller, kasabalar vb. olmadığı anlamına gelir. Yerleşik düzenleyiciyle düzenlenemeyen bir şeyi değiştirmek istiyorsanız, bu, okunacak doğru SSS sayfasıdır.

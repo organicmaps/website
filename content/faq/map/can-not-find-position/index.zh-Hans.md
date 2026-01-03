@@ -1,5 +1,6 @@
 ---
 title: 应用无法定位到我的位置
+slug: 应用无法定位到我的位置
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /zh-Hans/faq/map/can-not-find-position/
 ---
 
 请确保您的设备具有 GPS，并且位置设置已激活。

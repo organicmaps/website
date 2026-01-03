@@ -2,11 +2,10 @@
 title: Синтез речи (Text-to-Speech, TTS) на Android
 description: Как настроить озвучку навигатора в Organic Maps на Android
 slug: синтез-речи-tts-на-android
-aliases: ["/ru/faq/синтез-речи-tts-на-android"]
-
+aliases:
+  - /ru/faq/voice/text-to-speech-android-tts/
 taxonomies:
   faq: ["Голосовые подсказки"]
-
 extra:
   order: 10
 ---

@@ -1,5 +1,6 @@
 ---
 title: Wie kann ich Lesezeichen und Tracks importieren?
+slug: wie-kann-ich-lesezeichen-und-tracks-importieren
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /de/faq/bookmarks/how-to-import/
 ---
 
 Sie können Lesezeichen und Tracks importieren, die mit Organic Maps oder anderen Apps im KML, KMZ, KMB, GPX-Format geteilt oder exportiert wurden.

@@ -1,5 +1,6 @@
 ---
 title: Aplikazioak ezin du aurkitu nire posizioa mapan
+slug: aplikazioak-ezin-du-aurkitu-nire-posizioa-mapan
 description: iOS eta Android gailuetarako kokapena zehazteko arazoak konpontzeko gida
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /eu/faq/map/can-not-find-position/
 ---
 
 Mesedez, ziurtatu zure gailuak GPSa duela, kokapen-zerbitzuak gaituta daudela eta kokapen-baimenak ematen dizkiola Organic Maps-i.

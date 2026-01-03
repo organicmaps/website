@@ -1,5 +1,6 @@
 ---
 title: Nola inportatu laster-markak eta ibilbideak KML, KMZ, KMB edo GPX formatuan?
+slug: nola-inportatu-laster-markak-eta-ibilbideak-kml-kmz-kmb-edo-gpx-formatuan
 description: Zurekin partekatutako laster-markak eta ibilbideak KML, KMZ, KMB edo
   GPX formatuetan inportatzeko urratsez urratseko argibideak
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /eu/faq/bookmarks/how-to-import/
 ---
 
 Organic Maps edo hirugarrenen aplikazioetatik bidalitako laster-markak inporta ditzakezu KML, KMZ, KMB eta GPX formatuetan laster-markak esportatzen badituzte.

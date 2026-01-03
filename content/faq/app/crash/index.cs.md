@@ -1,5 +1,6 @@
 ---
 title: Co mohu dělat, pokud se aplikace zastavila/selhala?
+slug: co-mohu-dělat-pokud-se-aplikace-zastavilaselhala
 description: Jaké kroky podniknout, pokud aplikace spadne. Jak nahlásit kritické chyby vývojářům
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /cs/faq/app/crash/
 ---
 
 Pokud v systému Android ukládáte mapy na kartu SD, nejpravděpodobnější příčinou je vadná karta SD. Můžete:

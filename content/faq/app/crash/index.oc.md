@@ -1,5 +1,6 @@
 ---
 title: Que pòdi far se l'aplicacion s'es arrestada o plantada?
+slug: que-pòdi-far-se-laplicacion-ses-arrestada-o-plantada
 description: Quines accions cal prendre si l'aplicacion s'es arrestada. Com reportar errors crítics als desvolopaires
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /oc/faq/app/crash/
 ---
 
 Sus Android, s'enregistratz vòstras mapas sus una carta SD, la causa mai probabla es una carta SD defectuosa. Podètz:

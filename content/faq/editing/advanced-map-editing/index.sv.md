@@ -1,5 +1,6 @@
 ---
 title: Hur kan jag göra mer avancerad kartredigering?
+slug: hur-kan-jag-göra-mer-avancerad-kartredigering
 description: Handledning för redigering av OpenStreetMap med mer avancerade verktyg
   som ID, Go Map och Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /sv/faq/editing/advanced-map-editing/
 ---
 
 Organiska kartor innehåller en enkel och lättanvänd redigerare som du kan använda för att redigera kartan. Redaktören är dock begränsad och tillåter bara att lägga till enkla punktfunktioner, det vill säga inga byggnadskonturer, vägar, sjöar, städer etc. Om du vill ändra något som inte går att redigera med den inbyggda editorn är detta rätt FAQ-sida att läsa.

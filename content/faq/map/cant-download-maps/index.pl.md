@@ -1,5 +1,6 @@
 ---
 title: Nie mogę pobrać (zaktualizować) map
+slug: nie-mogę-pobrać-zaktualizować-map
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /pl/faq/map/cant-download-maps/
 ---
 
 Pobieranie może się nie powieść z powodu tymczasowego błędu sieci lub określonej sieci ustawienia dostawcy / routera. Spróbuj ponownie później lub użyj innego punktu dostępu Wi-Fi. Ponadto upewnij się, że masz wystarczającą ilość wolnego miejsca do pobrania map.

@@ -1,11 +1,14 @@
 ---
 title: Android-ലെ ടെക്‌സ്‌റ്റ് ടു സ്‌പീച്ച്
+slug: android-ല-ടകസററ-ട-സപചച
 description: ആൻഡ്രോയിഡിൽ TTS എങ്ങനെ പ്രവർത്തിക്കാം എന്നതിനെക്കുറിച്ചുള്ള ഗൈഡ്
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /ml/faq/voice/text-to-speech-android-tts/
 ---
 
 ## സംഗ്രഹം

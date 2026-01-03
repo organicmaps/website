@@ -1,5 +1,6 @@
 ---
 title: Bagaimana cara mengedit peta di Peta Organik?
+slug: bagaimana-cara-mengedit-peta-di-peta-organik
 description: Tutorial mengedit OpenStreetMap dari dalam aplikasi Organic Maps selengkapnya
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /id/faq/editing/organic-maps-map-editing/
 ---
 
 Dengan Peta Organik, Anda dapat dengan mudah menambahkan tempat yang hilang ke peta, menambahkan detail tambahan seperti jam buka, atau memperbaiki entri yang salah. Dengan melakukan ini, Anda meningkatkan data peta untuk semua pengguna.

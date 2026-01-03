@@ -1,5 +1,6 @@
 ---
 title: Pòdi pas ausir las instruccions vocalas.
+slug: pòdi-pas-ausir-las-instruccions-vocalas
 description: Guia de solucion de problèmas per las instruccions vocalas dins la navigacion
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Instruccions de votz
 extra:
   order: 20
+aliases:
+  - /oc/faq/voice/cant-hear-instructions/
 ---
 
 **Nòta:** las instruccions vocalas son disponiblas per las rotas en veitura e en bicicleta. Per ara, podètz ausir las instruccions vocalas sonque quand condusètz e quand l'ecran es alucat.

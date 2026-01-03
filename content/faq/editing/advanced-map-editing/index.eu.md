@@ -1,5 +1,6 @@
 ---
 title: Nola egin dezaket maparen edizio aurreratuagoa?
+slug: nola-egin-dezaket-maparen-edizio-aurreratuagoa
 description: OpenStreetMap editatzeko tutoriala ID, Go Map eta Vespucci bezalako tresna
   aurreratuagoekin
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /eu/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps-ek mapa editatzeko erabil dezakezun editore sinple eta erabilerraza dakar. Editorea, ordea, mugatua da eta puntu-funtzio sinpleak gehitzeko aukera ematen du, horrek esan nahi du ez dela eraikinen eskemarik, errepiderik, aintzirarik, herririk, etab. Eraikitutako editorearekin editatu ezin den zerbait aldatu nahi baduzu, hau da irakurtzeko FAQ orri egokia.

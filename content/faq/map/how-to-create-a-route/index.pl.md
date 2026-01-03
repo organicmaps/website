@@ -1,5 +1,6 @@
 ---
 title: Jak utworzyć trasę i rozpocząć nawigację
+slug: jak-utworzyć-trasę-i-rozpocząć-nawigację
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /pl/faq/map/how-to-create-a-route/
 ---
 
 Po określeniu lokalizacji na mapie, wybierz miejsce docelowe. Możesz użyć jeden z następujących sposobów:

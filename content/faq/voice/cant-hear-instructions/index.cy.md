@@ -1,5 +1,6 @@
 ---
 title: Ni allaf glywed cyfarwyddiadau llais
+slug: ni-allaf-glywed-cyfarwyddiadau-llais
 description: Canllaw datrys problemau ar gyfer cyfarwyddiadau llais wrth lywio
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /cy/faq/voice/cant-hear-instructions/
 ---
 
 **Sylwer:** mae cyfarwyddiadau llais ar gael ar gyfer ceir a llwybrau beicio. Am y tro, dim ond wrth yrru y gallwch chi glywed cyfarwyddiadau llais a phan fydd y sgrin ymlaen.

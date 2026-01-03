@@ -1,5 +1,6 @@
 ---
 title: ഏത് iOS, Android പതിപ്പുകൾ പിന്തുണയ്ക്കുന്നു?
+slug: ഏത-ios-android-പതപപകൾ-പനതണയകകനന
 description: Android, iOS ഉപകരണങ്ങളിൽ ഓർഗാനിക് മാപ്‌സ് റൺ ചെയ്യുന്നതിനുള്ള ഏറ്റവും കുറഞ്ഞ ആവശ്യകതകൾ
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /ml/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 ആപ്പ് പ്രവർത്തിപ്പിക്കുന്നതിന് നിങ്ങൾക്ക് കുറഞ്ഞത് iOS 12 അല്ലെങ്കിൽ Android 5 എങ്കിലും ആവശ്യമാണ്. പിന്നീടുള്ള പതിപ്പുകളുള്ള ഉപകരണങ്ങൾക്ക് ഓർഗാനിക് മാപ്‌സ് പ്രവർത്തിപ്പിക്കാൻ കഴിയും.

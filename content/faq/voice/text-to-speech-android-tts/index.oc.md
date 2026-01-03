@@ -1,11 +1,14 @@
 ---
 title: Text-a-la-parla sus Android
+slug: text-a-la-parla-sus-android
 description: Guia sus cossí far foncionar lo TTS sus Android
 taxonomies:
   faq:
   - Instruccions de votz
 extra:
   order: 10
+aliases:
+  - /oc/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Resumit

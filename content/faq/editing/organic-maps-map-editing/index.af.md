@@ -1,5 +1,6 @@
 ---
 title: Hoe kan ek die kaart in Organic Maps wysig?
+slug: hoe-kan-ek-die-kaart-in-organic-maps-wysig
 description: Tutoriaal vir die redigering van OpenStreetMap vanuit die Organic Maps-toepassing
   meer
 updated: '2025-01-05'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /af/faq/editing/organic-maps-map-editing/
 ---
 
 Met Organiese kaarte kan jy maklik ontbrekende plekke by die kaart voeg, bykomende besonderhede soos openingstye byvoeg of verkeerde inskrywings regmaak. Deur dit te doen, verbeter jy die kaartdata vir alle gebruikers.

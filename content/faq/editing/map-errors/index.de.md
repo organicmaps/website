@@ -1,5 +1,6 @@
 ---
 title: Auf der Karte fehlen Orte oder haben falsche Namen
+slug: auf-der-karte-fehlen-orte-oder-haben-falsche-namen
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /de/faq/editing/map-errors/
 ---
 
 Unsere Kartendatenquelle ist [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Das ist ein Kartierungsprojekt ähnlich wie Wikipedia, jedoch für Karten, wo jeder die Weltkarten bearbeiten kann.

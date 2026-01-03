@@ -1,5 +1,6 @@
 ---
 title: Útvonal létrehozása és a navigáció elindítása
+slug: útvonal-létrehozása-és-a-navigáció-elindítása
 description: Útmutató az útvonal elkészítéséhez és a térkép használatával történő
   navigációhoz
 updated: '2024-07-22'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /hu/faq/map/how-to-create-a-route/
 ---
 
 Miután meghatározta a helyét a térképen, válassza ki az úti célt.

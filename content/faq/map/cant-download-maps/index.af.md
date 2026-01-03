@@ -1,5 +1,6 @@
 ---
 title: Ek kan nie kaarte aflaai (bywerk) nie
+slug: ek-kan-nie-kaarte-aflaai-bywerk-nie
 description: Wat om te doen as Organic Maps versuim om kaarte van die internet af
   te laai of op te dateer?
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 30
+aliases:
+  - /af/faq/map/cant-download-maps/
 ---
 
 Jou aflaai kan misluk as gevolg van 'n tydelike netwerkfout of spesifieke netwerkverskaffer/roeteerderinstellings (brandmuurblokkering). Probeer asseblief later weer of gebruik 'n ander Wi-Fi-toegangspunt. Maak ook seker dat jy genoeg vrye spasie het om kaarte af te laai.

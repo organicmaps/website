@@ -1,10 +1,13 @@
 ---
 title: Синтез мовлення на Android
+slug: синтез-мовлення-на-android
 description: Посібник, як змусити TTS працювати на Android
 taxonomies:
   faq: ["Голосові інструкції"]
 extra:
   order: 10
+aliases:
+  - /uk/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Резюме

@@ -1,11 +1,14 @@
 ---
 title: 如何在有机地图中编辑地图？
+slug: 如何在有机地图中编辑地图
 description: 在 Organic Maps 应用程序中编辑 OpenStreetMap 的教程 更多
 updated: '2025-01-05'
 taxonomies:
   faq: ["地图编辑"]
 extra:
   order: 35
+aliases:
+  - /zh-Hans/faq/editing/organic-maps-map-editing/
 ---
 
 使用有机地图，您可以轻松地向地图添加缺失的地点、添加开放时间等其他详细信息，或修复错误的条目。通过这样做，您可以改进所有用户的地图数据。

@@ -1,11 +1,14 @@
 ---
 title: Uygulamanın Flatpak sürümünü nasıl kullanırım?
+slug: uygulamanın-flatpak-sürümünü-nasıl-kullanırım
 description: Organik Haritalar uygulaması için sık sorulan sorular
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /tr/faq/linux/how-to-use-flatpak/
 ---
 
 OM'yi Linux'a flatpak ile kurmak için terminali açın ve 'flatpak install flathub app.organicmaps.desktop' yazın

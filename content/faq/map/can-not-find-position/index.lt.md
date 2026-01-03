@@ -1,5 +1,6 @@
 ---
 title: Programa negali rasti mano padėties žemėlapyje
+slug: programa-negali-rasti-mano-padėties-žemėlapyje
 description: Trikčių šalinimo vadovas, skirtas išspręsti „iOS“ ir „Android“ įrenginių
   vietos nustatymo problemas
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /lt/faq/map/can-not-find-position/
 ---
 
 Įsitikinkite, kad jūsų įrenginyje yra GPS, vietos nustatymo paslaugos įjungtos ir natūralūs žemėlapiai suteikti vietos leidimai.

@@ -1,5 +1,6 @@
 ---
 title: Com importar adreces d'interès i pistes en format KML, KMZ, KMB o GPX?
+slug: com-importar-adreces-dinterès-i-pistes-en-format-kml-kmz-kmb-o-gpx
 description: Instruccions pas a pas per importar adreces d'interès i pistes compartides
   amb tu en formats KML, KMZ, KMB o GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /ca/faq/bookmarks/how-to-import/
 ---
 
 Podeu importar les adreces d'interès enviades des d'Organic Maps o d'aplicacions de tercers si les exporten en formats KML, KMZ, KMB i GPX.

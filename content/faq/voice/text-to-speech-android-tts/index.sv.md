@@ -1,11 +1,14 @@
 ---
 title: Text-till-tal på Android
+slug: text-till-tal-på-android
 description: Guide om hur du får TTS att fungera på Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /sv/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Sammanfattning

@@ -1,5 +1,6 @@
 ---
 title: Hur kan jag redigera kartan i Organic Maps?
+slug: hur-kan-jag-redigera-kartan-i-organic-maps
 description: Handledning för att redigera OpenStreetMap från appen Organic Maps mer
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /sv/faq/editing/organic-maps-map-editing/
 ---
 
 Med organiska kartor kan du enkelt lägga till platser som saknas på kartan, lägga till ytterligare information som öppettider eller åtgärda felaktiga poster. Genom att göra detta förbättrar du kartdata för alla användare.

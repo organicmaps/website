@@ -1,5 +1,6 @@
 ---
 title: 地图上有些地方缺失或名称有误
+slug: 地图上有些地方缺失或名称有误
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /zh-Hans/faq/editing/map-errors/
 ---
 
 我们的地图数据源是 [OpenStreetMap](https://welcome.openstreetmap.org/)（简称 OSM）。这是一个类似维基百科的地图项目，任何人都可以创建和编辑地图。

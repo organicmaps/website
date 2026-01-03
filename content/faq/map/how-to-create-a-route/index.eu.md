@@ -1,5 +1,6 @@
 ---
 title: Ibilbide bat nola sortu eta nabigazioa abiarazi
+slug: ibilbide-bat-nola-sortu-eta-nabigazioa-abiarazi
 description: Ibilbidea eraikitzeko eta mapa erabiliz nabigatzeko gida
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /eu/faq/map/how-to-create-a-route/
 ---
 
 Zure kokapena mapan zehaztu ondoren, aukeratu helmuga.

@@ -1,5 +1,6 @@
 ---
 title: На карте отсутствуют или неправильно называются объекты
+slug: на-карте-отсутствуют-или-неправильно-называются-объекты
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /ru/faq/editing/map-errors/
 ---
 
 В Organic Maps мы делаем само приложение и сложные алгоритмы. Наш источник данных – [OpenStreetMap](https://www.openstreetmap.org/) (OSM), это открытый проект, как Википедия, только для карт.

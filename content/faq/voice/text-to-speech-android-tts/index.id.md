@@ -1,11 +1,14 @@
 ---
 title: Teks-ke-Ucapan di Android
+slug: teks-ke-ucapan-di-android
 description: Panduan cara membuat TTS berfungsi di Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /id/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Ringkasan

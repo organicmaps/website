@@ -1,11 +1,14 @@
 ---
 title: Teksto į kalbą funkcija „Android“.
+slug: teksto-į-kalbą-funkcija-android
 description: Vadovas, kaip priversti TTS veikti „Android“.
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /lt/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Santrauka

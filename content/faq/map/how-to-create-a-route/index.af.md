@@ -1,5 +1,6 @@
 ---
 title: Hoe om 'n roete te skep en navigasie te begin
+slug: hoe-om-n-roete-te-skep-en-navigasie-te-begin
 description: Gids vir die bou van 'n roete en navigasie met behulp van die kaart
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /af/faq/map/how-to-create-a-route/
 ---
 
 Sodra jou ligging op die kaart bepaal is, kies jou bestemming.

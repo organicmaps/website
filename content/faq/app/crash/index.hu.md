@@ -1,5 +1,6 @@
 ---
 title: Mit tehetek, ha az alkalmazás leállt/összeomlott?
+slug: mit-tehetek-ha-az-alkalmazás-leálltösszeomlott
 description: Mi a teendő, ha az alkalmazás összeomlik. Hogyan jelentsd a kritikus hibákat a fejlesztőknek
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /hu/faq/app/crash/
 ---
 
 Androidon, ha a térképeket SD-kártyán tárolja, a legvalószínűbb ok egy hibás SD-kártya. A következőket teheti:

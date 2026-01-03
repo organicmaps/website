@@ -1,5 +1,6 @@
 ---
 title: Hur importerar man bokmärken och spår i KML-, KMZ-, KMB- eller GPX-format?
+slug: hur-importerar-man-bokmärken-och-spår-i-kml-kmz-kmb-eller-gpx-format
 description: Steg-för-steg-instruktioner för att importera bokmärken och spår som
   delas med dig i formaten KML, KMZ, KMB eller GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /sv/faq/bookmarks/how-to-import/
 ---
 
 Du kan importera bokmärken som skickats från organiska kartor eller appar från tredje part om de exporterar bokmärken i formaten KML, KMZ, KMB, GPX.

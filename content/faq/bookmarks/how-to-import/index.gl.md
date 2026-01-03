@@ -1,5 +1,6 @@
 ---
 title: Como importar marcadores e pistas en formato KML, KMZ, KMB ou GPX?
+slug: como-importar-marcadores-e-pistas-en-formato-kml-kmz-kmb-ou-gpx
 description: Instrucións paso a paso para importar marcadores e pistas compartidas
   contigo en formatos KML, KMZ, KMB ou GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /gl/faq/bookmarks/how-to-import/
 ---
 
 Podes importar marcadores enviados desde Organic Maps ou aplicacións de terceiros se exportan marcadores en formatos KML, KMZ, KMB e GPX.

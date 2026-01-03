@@ -1,5 +1,6 @@
 ---
 title: Sut i fewnforio nodau tudalen a thraciau mewn fformat KML, KMZ, KMB neu GPX?
+slug: sut-i-fewnforio-nodau-tudalen-a-thraciau-mewn-fformat-kml-kmz-kmb-neu-gpx
 description: Cyfarwyddiadau cam wrth gam ar gyfer mewngludo nodau tudalen a thraciau
   a rennir gyda chi mewn fformatau KML, KMZ, KMB neu GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /cy/faq/bookmarks/how-to-import/
 ---
 
 Gallwch fewnforio nodau tudalen a anfonwyd o Fapiau Organig neu apiau trydydd parti os ydynt yn allforio nodau tudalen mewn fformatau KML, KMZ, KMB, GPX.

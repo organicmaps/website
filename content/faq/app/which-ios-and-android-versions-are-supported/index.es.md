@@ -6,6 +6,8 @@ taxonomies:
   faq: ["Aplicación"]
 extra:
   order: 10
+aliases:
+  - /es/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 Necesita al menos iOS 12 o Android 5 para ejecutar la aplicación. Los dispositivos con versiones posteriores pueden ejecutar Organic Maps.

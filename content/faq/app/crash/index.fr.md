@@ -1,11 +1,14 @@
 ---
 title: Pourquoi l'application s'arrête ou crash?
+slug: pourquoi-lapplication-sarrête-ou-crash
 description: Que faire si l'application plante. Comment signaler les bogues critiques aux développeurs.
 updated: "2024-06-12"
 taxonomies:
   faq: ["Application"]
 extra:
   order: 30
+aliases:
+  - /fr/faq/app/crash/
 ---
 
 Sur Android, si vous stockez vos cartes sur une carte SD, la cause la plus probable est une carte SD défectueuse. Vous pouvez :

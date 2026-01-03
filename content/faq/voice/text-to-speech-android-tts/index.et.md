@@ -1,11 +1,14 @@
 ---
 title: Tekst kõneks muutmine Androidis
+slug: tekst-kõneks-muutmine-androidis
 description: Juhend selle kohta, kuidas TTS-i Androidis tööle panna
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /et/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Kokkuvõte

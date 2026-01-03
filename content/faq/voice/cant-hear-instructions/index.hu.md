@@ -1,5 +1,6 @@
 ---
 title: Nem hallom a hangutasításokat
+slug: nem-hallom-a-hangutasításokat
 description: Hibaelhárítási útmutató a navigáció hangutasításaihoz
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /hu/faq/voice/cant-hear-instructions/
 ---
 
 **Megjegyzés:** hangutasítások állnak rendelkezésre autós és kerékpáros útvonalakhoz. Egyelőre csak vezetés közben és bekapcsolt képernyő mellett hallhatja a hangutasításokat.

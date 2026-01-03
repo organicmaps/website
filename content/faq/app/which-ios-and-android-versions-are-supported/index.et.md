@@ -1,5 +1,6 @@
 ---
 title: Milliseid iOS-i ja Androidi versioone toetatakse?
+slug: milliseid-ios-i-ja-androidi-versioone-toetatakse
 description: Miinimumnõuded orgaaniliste kaartide käitamiseks Android- ja iOS-seadmetes
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /et/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 Rakenduse käitamiseks peab teil olema vähemalt iOS 12 või Android 5. Uuemate versioonidega seadmed saavad käitada orgaanilisi kaarte.

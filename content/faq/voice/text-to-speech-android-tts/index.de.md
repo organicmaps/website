@@ -1,10 +1,13 @@
 ---
 title: Text-to-Speech auf Android
+slug: text-to-speech-auf-android
 description: Anleitung zur Einrichtung von TTS-Sprachanweisungen auf Android
 taxonomies:
   faq: ["Sprachführung"]
 extra:
   order: 10
+aliases:
+  - /de/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Zusammenfassung

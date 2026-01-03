@@ -1,5 +1,6 @@
 ---
 title: Alcuni luoghi mancano sulla mappa o hanno nomi errati
+slug: alcuni-luoghi-mancano-sulla-mappa-o-hanno-nomi-errati
 description: Suggerimenti per correggere errori nelle mappe, apportare modifiche e
   aggiornamenti agli oggetti direttamente in Mappe organiche o tramite OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /it/faq/editing/map-errors/
 ---
 
 La nostra fonte dei dati della mappa è [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Questo è un progetto di mappatura simile a Wikipedia, ma per mappe, in cui chiunque può creare e modificare la mappa del mondo.

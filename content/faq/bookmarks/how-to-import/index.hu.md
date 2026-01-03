@@ -1,5 +1,6 @@
 ---
 title: Hogyan importálhatunk könyvjelzőket és műsorszámokat KML, KMZ, KMB vagy GPX
+slug: hogyan-importálhatunk-könyvjelzőket-és-műsorszámokat-kml-kmz-kmb-vagy-gpx
   formátumban?
 description: Lépésről lépésre az Önnel KML, KMZ, KMB vagy GPX formátumban megosztott
   könyvjelzők és számok importálására vonatkozó utasítások
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /hu/faq/bookmarks/how-to-import/
 ---
 
 Importálhatja az Organikus térképekből vagy harmadik féltől származó alkalmazásokból küldött könyvjelzőket, ha azok KML, KMZ, KMB, GPX formátumban exportálják a könyvjelzőket.

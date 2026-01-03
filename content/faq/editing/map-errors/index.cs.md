@@ -1,5 +1,6 @@
 ---
 title: Některá místa na mapě chybí nebo mají nesprávná jména
+slug: některá-místa-na-mapě-chybí-nebo-mají-nesprávná-jména
 description: Tipy pro opravu chyb v mapách, provádění změn a aktualizací objektů přímo
   v organických mapách nebo prostřednictvím OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /cs/faq/editing/map-errors/
 ---
 
 Náš zdroj mapových dat je [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Jedná se o mapový projekt podobný Wikipedii, ale pro mapy, kde kdokoli může vytvářet a upravovat mapu světa.

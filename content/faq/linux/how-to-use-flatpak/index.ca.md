@@ -1,11 +1,14 @@
 ---
 title: Com puc utilitzar la versió flatpak de l'aplicació?
+slug: com-puc-utilitzar-la-versió-flatpak-de-laplicació
 description: Preguntes més freqüents per a l'aplicació de mapes orgànics
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /ca/faq/linux/how-to-use-flatpak/
 ---
 
 Per instal·lar OM a Linux amb flatpak, obriu el terminal i introduïu "flatpak install flathub app.organicmaps.desktop"

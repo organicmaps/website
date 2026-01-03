@@ -1,11 +1,14 @@
 ---
 title: O que fazer se a aplicação parar de funcionar (bloquear)?
+slug: o-que-fazer-se-a-aplicação-parar-de-funcionar-bloquear
 description: Que ações tomar se a aplicação bloquear. Como reportar bugs críticos aos desenvolvedores.
 updated: "2024-06-12"
 taxonomies:
   faq: ["Aplicação"]
 extra:
   order: 30
+aliases:
+  - /pt/faq/app/crash/
 ---
 
 É provavelmente um erro inesperado e ficaremos contentes em corrigi-lo na próxima atualização.

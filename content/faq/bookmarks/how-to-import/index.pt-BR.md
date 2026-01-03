@@ -1,5 +1,6 @@
 ---
 title: Como importar favoritos?
+slug: como-importar-favoritos
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pt-BR/faq/bookmarks/how-to-import/
 ---
 
 Você pode importar favoritos enviados do Organic Maps ou aplicativos de terceiros, se eles exportarem favoritos no formato KML, KMZ, KMB, GPX:

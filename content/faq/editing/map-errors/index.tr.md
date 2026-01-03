@@ -1,5 +1,6 @@
 ---
 title: Haritada bazı yerler eksik veya yanlış adlara sahip
+slug: haritada-bazı-yerler-eksik-veya-yanlış-adlara-sahip
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /tr/faq/editing/map-errors/
 ---
 
 Harita veri kaynağımız [OpenStreetMap'tir](https://welcome.openstreetmap.org/) (OSM). OpenStreetMap, herkesin harita oluşturabildiği ve düzenleyebildiği Vikipedi'ye benzer bir haritalama projesidir.

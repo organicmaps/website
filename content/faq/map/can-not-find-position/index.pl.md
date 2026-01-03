@@ -1,5 +1,6 @@
 ---
 title: Aplikacja nie może określić mojej lokalizacji
+slug: aplikacja-nie-może-określić-mojej-lokalizacji
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /pl/faq/map/can-not-find-position/
 ---
 
 Upewnij się, że Twoje urządzenie ma GPS i ustawienia lokalizacji są włączone.

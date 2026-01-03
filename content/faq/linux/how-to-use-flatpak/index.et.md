@@ -1,11 +1,14 @@
 ---
 title: Kuidas kasutada rakenduse flatpaki versiooni?
+slug: kuidas-kasutada-rakenduse-flatpaki-versiooni
 description: Korduma kippuvad küsimused orgaaniliste kaartide rakenduse kohta
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /et/faq/linux/how-to-use-flatpak/
 ---
 
 OM-i installimiseks Linuxile koos flatpakiga avage terminal ja sisestage käsk "flatpak install flathub app.organicmaps.desktop".

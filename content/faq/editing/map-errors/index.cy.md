@@ -1,5 +1,6 @@
 ---
 title: Mae rhai lleoedd ar goll ar y map neu mae ganddyn nhw enwau anghywir
+slug: mae-rhai-lleoedd-ar-goll-ar-y-map-neu-mae-ganddyn-nhw-enwau-anghywir
 description: Awgrymiadau ar gyfer cywiro gwallau mewn mapiau, gwneud newidiadau a
   diweddariadau i wrthrychau yn uniongyrchol mewn Mapiau Organig neu drwy OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /cy/faq/editing/map-errors/
 ---
 
 Ffynhonnell data ein map yw [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Mae hwn yn brosiect mapio tebyg i Wikipedia, ond ar gyfer mapiau, lle gall unrhyw un greu a golygu map o'r Byd.

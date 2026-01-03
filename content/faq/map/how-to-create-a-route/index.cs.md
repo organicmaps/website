@@ -1,5 +1,6 @@
 ---
 title: Jak vytvořit trasu a spustit navigaci
+slug: jak-vytvořit-trasu-a-spustit-navigaci
 description: Průvodce pro stavbu trasy a navigaci pomocí mapy
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /cs/faq/map/how-to-create-a-route/
 ---
 
 Jakmile je vaše poloha určena na mapě, vyberte cíl.

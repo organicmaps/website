@@ -1,5 +1,6 @@
 ---
 title: Pòdi pas telecargar (actualizar) las cartas
+slug: pòdi-pas-telecargar-actualizar-las-cartas
 description: Qué far se Organic Maps falla a telecargar o actualizar las cartas dempuèi Internet?
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Mapa
 extra:
   order: 30
+aliases:
+  - /oc/faq/map/cant-download-maps/
 ---
 
 Lo telecargament pòt fallir a causa d'un error temporari de ret o de configuracions especificas del proveïdor de ret o del router (blocatge del cortafocs). Ensajatz tornarmai mai tard o utilizatz un autre punt d'accès Wi-Fi. De mai, asseguratz-vos que tenètz pro d'espaci liure per telecargar las cartas.

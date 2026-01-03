@@ -1,5 +1,6 @@
 ---
 title: A pesquisa não pode encontrar um lugar no mapa
+slug: a-pesquisa-não-pode-encontrar-um-lugar-no-mapa
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pt-BR/faq/map/search-cannot-find-a-place/
 ---
 
 Lembre-se de que para pesquisar um lugar em uma área específica, você precisará baixar um mapa desse local e ampliar o mapa para essa área, ou sua localização deve estar perto dessa área antes de iniciar a pesquisa. Por exemplo, se você deseja encontrar um lugar no Vietnã e sua localização é em outro lugar, você deve fazer o download e abrir o mapa do Vietnã primeiro.

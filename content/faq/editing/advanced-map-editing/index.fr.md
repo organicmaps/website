@@ -1,5 +1,6 @@
 ---
 title: Comment puis-je effectuer des modifications de carte plus avancées ?
+slug: comment-puis-je-effectuer-des-modifications-de-carte-plus-avancées
 description: Tutoriel pour éditer OpenStreetMap avec des outils plus avancés comme
   ID, Go Map et Vespucci
 updated: '2024-06-20'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Édition de la carte"]
 extra:
   order: 40
+aliases:
+  - /fr/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps comprend un éditeur simple et facile à utiliser que vous pouvez utiliser pour modifier la carte. L'éditeur est cependant limité et permet uniquement d'ajouter des entités ponctuelles simples, c'est-à-dire pas de contours de bâtiments, de routes, de lacs, de villes, etc. Si vous souhaitez modifier quelque chose qui ne peut pas être modifié avec l'éditeur intégré, c'est la bonne page FAQ à lire.

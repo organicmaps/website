@@ -1,5 +1,6 @@
 ---
 title: Sut i greu llwybr a dechrau llywio
+slug: sut-i-greu-llwybr-a-dechrau-llywio
 description: Canllaw ar gyfer adeiladu llwybr a llywio gan ddefnyddio'r map
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /cy/faq/map/how-to-create-a-route/
 ---
 
 Unwaith y bydd eich lleoliad wedi'i bennu ar y map, dewiswch eich cyrchfan.

@@ -1,5 +1,6 @@
 ---
 title: Kurios iOS ir Android versijos palaikomos?
+slug: kurios-ios-ir-android-versijos-palaikomos
 description: Minimalūs reikalavimai, norint paleisti natūralius žemėlapius „Android“ ir „iOS“ įrenginiuose
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /lt/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 Norint paleisti programą, reikia bent jau „iOS 12“ arba „Android 5“. Įrenginiuose su naujesnėmis versijomis galima paleisti natūralius žemėlapius.

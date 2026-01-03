@@ -1,5 +1,6 @@
 ---
 title: Ek kan nie steminstruksies hoor nie
+slug: ek-kan-nie-steminstruksies-hoor-nie
 description: Foutspoorgids vir steminstruksies in navigasie
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /af/faq/voice/cant-hear-instructions/
 ---
 
 **Let wel:** steminstruksies is beskikbaar vir motor- en fietsryroetes. Vir nou kan jy steminstruksies net hoor terwyl jy bestuur en wanneer die skerm aan is.

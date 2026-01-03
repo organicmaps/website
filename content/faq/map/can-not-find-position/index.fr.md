@@ -1,5 +1,6 @@
 ---
 title: L'application n'arrive pas à déterminer ma position
+slug: lapplication-narrive-pas-à-déterminer-ma-position
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /fr/faq/map/can-not-find-position/
 ---
 
 Veuillez vous assurer que votre appareil dispose de GPS et que les paramètres de localisation sont activés.

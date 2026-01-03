@@ -1,5 +1,6 @@
 ---
 title: Ik kan geen gesproken instructies horen
+slug: ik-kan-geen-gesproken-instructies-horen
 description: Gids voor probleemoplossing voor gesproken instructies in de navigatie
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /nl/faq/voice/cant-hear-instructions/
 ---
 
 **Opmerking:** Er zijn gesproken instructies beschikbaar voor auto- en fietsroutes. Voorlopig hoor je alleen gesproken instructies tijdens het rijden en als het scherm aanstaat.

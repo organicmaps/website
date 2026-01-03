@@ -1,5 +1,6 @@
 ---
 title: لماذا لا يتم تسجيل المسارات بشكل موثوق في الخلفية على نظام Android؟
+slug: لماذا-لا-يتم-تسجيل-المسارات-بشكل-موثوق-في-الخلفية-على-نظام-android
 description: قد تؤدي إعدادات تحسين البطارية الافتراضية على أجهزة Samsung وHuawei وGoogle
   وXiaomi وOnePlus وMeizu وAsus وWiko وLenovo وOppo وVivo وRealme وSony وMotorola
   وHTC والأجهزة الأخرى إلى إيقاف تطبيق الخرائط العضوية أو إيقافه في الخلفية.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /ar/faq/bookmarks/android-track-recording/
 ---
 
 قد تؤدي إعدادات تحسين البطارية الافتراضية على أجهزة Samsung وHuawei وGoogle وXiaomi وOnePlus وMeizu وAsus وWiko وLenovo وOppo وVivo وRealme وSony وMotorola وHTC والأجهزة الأخرى إلى إيقاف تطبيق الخرائط العضوية أو إيقافه في الخلفية.

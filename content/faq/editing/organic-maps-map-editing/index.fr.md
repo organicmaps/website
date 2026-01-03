@@ -1,5 +1,6 @@
 ---
 title: Comment puis-je modifier la carte dans Organic Maps ?
+slug: comment-puis-je-modifier-la-carte-dans-organic-maps
 description: Tutoriel pour modifier OpenStreetMap à partir de l'application Organic
   Maps.
 updated: '2025-01-05'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Édition de la carte"]
 extra:
   order: 35
+aliases:
+  - /fr/faq/editing/organic-maps-map-editing/
 ---
 
 Avec Organic Maps, vous pouvez facilement ajouter des lieux manquants à la carte, ajouter des détails supplémentaires comme les heures d'ouverture ou corriger des entrées erronées. En faisant cela, vous améliorez les données cartographiques pour tous les utilisateurs.

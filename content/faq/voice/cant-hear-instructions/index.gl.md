@@ -1,5 +1,6 @@
 ---
 title: Non podo escoitar as instrucións de voz
+slug: non-podo-escoitar-as-instrucións-de-voz
 description: Guía de solución de problemas para instrucións de voz na navegación
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /gl/faq/voice/cant-hear-instructions/
 ---
 
 **Nota:** as instrucións de voz están dispoñibles para rutas en coche e en bicicleta. Polo momento, só podes escoitar instrucións de voz mentres conduces e cando a pantalla está acesa.

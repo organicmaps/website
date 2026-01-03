@@ -1,5 +1,6 @@
 ---
 title: Come condividere (esportare) segnalibri e tracce?
+slug: come-condividere-esportare-segnalibri-e-tracce
 description: Guida passo passo per esportare segnalibri e tracce da Organic Maps ad
   altre applicazioni e condividerli con i contatti
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /it/faq/bookmarks/how-to-export/
 ---
 
 Tocca un segnalibro sulla mappa o nell'elenco, quindi tocca il pulsante "Condividi" nella pagina del luogo.

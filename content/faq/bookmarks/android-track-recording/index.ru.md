@@ -1,5 +1,6 @@
 ---
 title: Почему треки не записываются в фоновом режиме на Android?
+slug: почему-треки-не-записываются-в-фоновом-режиме-на-android
 description: "Настройки оптимизации батареи по умолчанию на устройствах Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC и других могут остановить или убить приложение Organic Maps в фоновом режиме."
 updated: "2024-10-05"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /ru/faq/bookmarks/android-track-recording/
 ---
 
 Настройки оптимизации батареи по умолчанию на устройствах Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC и других могут остановить или закрыть приложение Organic Maps в фоновом режиме.

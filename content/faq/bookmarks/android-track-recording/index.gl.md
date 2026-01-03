@@ -1,5 +1,6 @@
 ---
 title: Por que as pistas non se gravan de forma fiable en segundo plano en Android?
+slug: por-que-as-pistas-non-se-gravan-de-forma-fiable-en-segundo-plano-en-android
 description: A configuración predeterminada de optimización da batería en Samsung,
   Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme,
   Sony, Motorola, HTC e outros dispositivos poden deter ou eliminar a aplicación Organic
@@ -10,6 +11,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /gl/faq/bookmarks/android-track-recording/
 ---
 
 A configuración predeterminada de optimización da batería en Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e outros dispositivos poden deter ou eliminar a aplicación Organic Maps en segundo plano.

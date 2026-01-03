@@ -2,6 +2,9 @@
 title: Как использовать Android Auto?
 description: Минимальные требования для запуска Organic Maps с Android Auto
 updated: '2024-06-20'
+slug: как-использовать-android-auto
+aliases:
+  - /ru/faq/app/how-to-use-android-auto/
 taxonomies:
   faq: ["Приложение"]
 extra:

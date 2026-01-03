@@ -1,5 +1,6 @@
 ---
 title: Haritayı Organik Haritalar'da nasıl düzenleyebilirim?
+slug: haritayı-organik-haritalarda-nasıl-düzenleyebilirim
 description: OpenStreetMap'i Organik Haritalar uygulaması içinden düzenlemeye yönelik
   eğitim
 updated: '2025-01-05'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Harita düzenleme"]
 extra:
   order: 35
+aliases:
+  - /tr/faq/editing/organic-maps-map-editing/
 ---
 
 Organik Haritalar ile eksik yerleri kolayca haritaya ekleyebilir, çalışma saatleri gibi ek ayrıntılar ekleyebilir veya yanlış girişleri düzeltebilirsiniz. Bunu yaparak tüm kullanıcılar için harita verilerini iyileştirirsiniz.

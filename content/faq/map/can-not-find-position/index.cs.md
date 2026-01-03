@@ -1,5 +1,6 @@
 ---
 title: Aplikace nemůže najít moji polohu na mapě
+slug: aplikace-nemůže-najít-moji-polohu-na-mapě
 description: Průvodce řešením problémů pro řešení problémů s určením polohy pro zařízení
   iOS a Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /cs/faq/map/can-not-find-position/
 ---
 
 Ujistěte se prosím, že vaše zařízení má GPS, že jsou povoleny služby určování polohy a že organickým mapám jsou udělena oprávnění k poloze.

@@ -1,5 +1,6 @@
 ---
 title: Die App kann meinen Standort nicht bestimmen
+slug: die-app-kann-meinen-standort-nicht-bestimmen
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /de/faq/map/can-not-find-position/
 ---
 
 Bitte stelle sicher, dass dein Gerät über GPS verfügt, die Standorteinstellungen aktiviert sind und Organic Maps die Standortberechtigungen erteilt wurden.

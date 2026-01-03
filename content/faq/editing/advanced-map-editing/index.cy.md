@@ -1,5 +1,6 @@
 ---
 title: Sut alla i wneud gwaith golygu mapiau mwy datblygedig?
+slug: sut-alla-i-wneud-gwaith-golygu-mapiau-mwy-datblygedig
 description: Tiwtorial ar gyfer golygu OpenStreetMap gydag offer mwy datblygedig fel
   ID, Go Map a Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /cy/faq/editing/advanced-map-editing/
 ---
 
 Mae Mapiau Organig yn cynnwys golygydd syml a hawdd ei ddefnyddio y gallwch ei ddefnyddio i olygu'r map. Mae'r golygydd, fodd bynnag, yn gyfyngedig a dim ond yn caniatáu ychwanegu nodweddion pwynt syml, sy'n golygu dim amlinelliadau adeilad, ffyrdd, llynnoedd, trefi, ac ati. Os ydych chi am newid rhywbeth na ellir ei olygu gyda'r golygydd adeiladu, dyma'r dudalen Cwestiynau Cyffredin iawn i'w darllen.

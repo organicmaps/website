@@ -1,11 +1,14 @@
 ---
 title: Uygulama durdurulursa/çökerse ne yapabilirim?
+slug: uygulama-durdurulursaçökerse-ne-yapabilirim
 description: Uygulama çöktüğünde ne yapmalı? Önemli hataları geliştiricilere nasıl bildirmeli?
 updated: "2024-06-12"
 taxonomies:
   faq: ["Uygulama"]
 extra:
   order: 30
+aliases:
+  - /tr/faq/app/crash/
 ---
 
 Bu muhtemelen bizim hatamız ve bir sonraki güncellemede bunu düzeltmekten mutluluk duyacağız.

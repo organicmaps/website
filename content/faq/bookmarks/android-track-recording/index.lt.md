@@ -1,5 +1,6 @@
 ---
 title: Kodėl takeliai nėra patikimai įrašomi fone „Android“?
+slug: kodėl-takeliai-nėra-patikimai-įrašomi-fone-android
 description: Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“,
   „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“,
   „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba
@@ -10,6 +11,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /lt/faq/bookmarks/android-track-recording/
 ---
 
 Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti „Organic Maps“ programą fone.

@@ -1,11 +1,14 @@
 ---
 title: Bagaimana cara menggunakan aplikasi versi flatpak?
+slug: bagaimana-cara-menggunakan-aplikasi-versi-flatpak
 description: Pertanyaan yang sering diajukan untuk aplikasi Peta Organik
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /id/faq/linux/how-to-use-flatpak/
 ---
 
 Untuk menginstal OM di Linux dengan flatpak, buka terminal dan masukkan `flatpak install flathub app.organicmaps.desktop`

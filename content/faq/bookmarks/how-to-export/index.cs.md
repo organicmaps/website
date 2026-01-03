@@ -1,5 +1,6 @@
 ---
 title: Jak sdílet (exportovat) záložky a stopy?
+slug: jak-sdílet-exportovat-záložky-a-stopy
 description: Podrobný průvodce pro export záložek a tras z organických map do jiných
   aplikací a sdílení s kontakty
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /cs/faq/bookmarks/how-to-export/
 ---
 
 Klepněte na záložku na mapě nebo v seznamu a potom klepněte na tlačítko „Sdílet“ na stránce místa.

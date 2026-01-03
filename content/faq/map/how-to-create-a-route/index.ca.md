@@ -1,5 +1,6 @@
 ---
 title: Com crear una ruta i iniciar la navegació
+slug: com-crear-una-ruta-i-iniciar-la-navegació
 description: Guia per construir una ruta i navegar mitjançant el mapa
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /ca/faq/map/how-to-create-a-route/
 ---
 
 Un cop determinada la vostra ubicació al mapa, trieu la vostra destinació.

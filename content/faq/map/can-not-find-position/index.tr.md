@@ -1,5 +1,6 @@
 ---
 title: Uygulama konumumu haritada bulamıyor
+slug: uygulama-konumumu-haritada-bulamıyor
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /tr/faq/map/can-not-find-position/
 ---
 
 Lütfen cihazınızın GPS'i olduğundan ve konum ayarlarının açık olduğundan emin olun.

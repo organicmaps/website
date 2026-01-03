@@ -1,5 +1,6 @@
 ---
 title: Jag kan inte höra röstinstruktioner
+slug: jag-kan-inte-höra-röstinstruktioner
 description: Felsökningsguide för röstinstruktioner i navigering
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /sv/faq/voice/cant-hear-instructions/
 ---
 
 **Obs!** röstinstruktioner finns tillgängliga för bil- och cykelvägar. För närvarande kan du bara höra röstinstruktioner när du kör och när skärmen är på.

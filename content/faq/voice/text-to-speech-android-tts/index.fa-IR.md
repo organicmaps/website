@@ -1,11 +1,14 @@
 ---
 title: تبدیل متن به گفتار در اندروید
+slug: تبدیل-متن-به-گفتار-در-اندروید
 description: راهنمای نحوه کارکرد TTS در اندروید
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /fa-IR/faq/voice/text-to-speech-android-tts/
 ---
 
 ## خلاصه

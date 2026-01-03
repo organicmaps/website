@@ -1,5 +1,6 @@
 ---
 title: Nasıl rota oluşturulur ve navigasyonu başlatma
+slug: nasıl-rota-oluşturulur-ve-navigasyonu-başlatma
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /tr/faq/map/how-to-create-a-route/
 ---
 
 Haritada konumunuz belirlendikten sonra hedefinizi seçin. Aşağıdaki yollardan birini kullanabilirsiniz:

@@ -1,5 +1,6 @@
 ---
 title: Apa yang dapat saya lakukan jika aplikasi berhenti/rusak?
+slug: apa-yang-dapat-saya-lakukan-jika-aplikasi-berhentirusak
 description: Tindakan apa yang harus dilakukan jika aplikasi mogok. Cara melaporkan bug kritis kepada pengembang
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /id/faq/app/crash/
 ---
 
 Di Android, jika Anda menyimpan peta di kartu SD, kemungkinan besar penyebabnya adalah kartu SD yang rusak. Anda dapat:

@@ -1,11 +1,14 @@
 ---
 title: Androidలో టెక్స్ట్-టు-స్పీచ్
+slug: androidల-టకసట-ట-సపచ
 description: ఆండ్రాయిడ్‌లో TTS పని చేయడం ఎలాగో గైడ్
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /te/faq/voice/text-to-speech-android-tts/
 ---
 
 ## సారాంశం

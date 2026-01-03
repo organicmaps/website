@@ -1,5 +1,6 @@
 ---
 title: Ezin ditut ahots-argibideak entzuten
+slug: ezin-ditut-ahots-argibideak-entzuten
 description: Nabigazioan ahots bidezko argibideetarako arazoak konpontzeko gida
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /eu/faq/voice/cant-hear-instructions/
 ---
 
 **Oharra:** ahots bidezko argibideak auto eta bizikleta ibilbideetarako eskuragarri daude. Oraingoz, gidatzen duzun bitartean eta pantaila piztuta dagoenean soilik entzun ditzakezu ahots-argibideak.

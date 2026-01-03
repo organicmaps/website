@@ -1,5 +1,6 @@
 ---
 title: Hogyan végezhetek fejlettebb térképszerkesztést?
+slug: hogyan-végezhetek-fejlettebb-térképszerkesztést
 description: Oktatóanyag az OpenStreetMap szerkesztéséhez olyan fejlettebb eszközökkel,
   mint az ID, a Go Map és a Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /hu/faq/editing/advanced-map-editing/
 ---
 
 Az Organic Maps tartalmaz egy egyszerű és könnyen használható szerkesztőt, amellyel szerkesztheti a térképet. A szerkesztő azonban korlátozott, és csak egyszerű pontjellemzők hozzáadását teszi lehetővé, ami azt jelenti, hogy nincsenek épületek körvonalai, utak, tavak, városok stb. Ha olyan dolgot szeretne megváltoztatni, amelyet nem szerkeszthet a beépített szerkesztővel, akkor ez a megfelelő GYIK oldal.

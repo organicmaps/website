@@ -1,5 +1,6 @@
 ---
 title: Kaip importuoti žymes ir takelius KML, KMZ, KMB arba GPX formatu?
+slug: kaip-importuoti-žymes-ir-takelius-kml-kmz-kmb-arba-gpx-formatu
 description: Žingsnis po žingsnio instrukcijos, kaip importuoti žymes ir takelius,
   bendrinamus KML, KMZ, KMB arba GPX formatais
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /lt/faq/bookmarks/how-to-import/
 ---
 
 Galite importuoti žymes, atsiųstas iš natūralių žemėlapių arba trečiųjų šalių programų, jei jos eksportuoja žymes KML, KMZ, KMB, GPX formatais.

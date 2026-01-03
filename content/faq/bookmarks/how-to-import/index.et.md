@@ -1,5 +1,6 @@
 ---
 title: Kuidas importida järjehoidjaid ja lugusid KML-, KMZ-, KMB- või GPX-vormingus?
+slug: kuidas-importida-järjehoidjaid-ja-lugusid-kml-kmz-kmb-või-gpx-vormingus
 description: Üksikasjalikud juhised teiega KML-, KMZ-, KMB- või GPX-vormingus jagatud
   järjehoidjate ja lugude importimiseks
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /et/faq/bookmarks/how-to-import/
 ---
 
 Saate importida orgaanilistest kaartidest või kolmanda osapoole rakendustest saadetud järjehoidjaid, kui need ekspordivad järjehoidjaid KML-, KMZ-, KMB- või GPX-vormingus.

@@ -1,5 +1,6 @@
 ---
 title: Ni allaf lawrlwytho (diweddaru) mapiau
+slug: ni-allaf-lawrlwytho-diweddaru-mapiau
 description: Beth i'w wneud os na fydd Mapiau Organig yn lawrlwytho neu'n diweddaru
   mapiau o'r Rhyngrwyd?
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 30
+aliases:
+  - /cy/faq/map/cant-download-maps/
 ---
 
 Gall eich lawrlwythiad fethu oherwydd gwall rhwydwaith dros dro neu osodiadau darparwr rhwydwaith/llwybrydd penodol (rhwystro mur gwarchod). Ceisiwch eto yn nes ymlaen neu defnyddiwch bwynt mynediad Wi-Fi gwahanol. Yn ogystal, gwnewch yn siŵr bod gennych chi ddigon o le am ddim i lawrlwytho mapiau.

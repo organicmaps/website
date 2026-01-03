@@ -1,5 +1,6 @@
 ---
 title: L'app non riesce a trovare la mia posizione sulla mappa
+slug: lapp-non-riesce-a-trovare-la-mia-posizione-sulla-mappa
 description: Guida alla risoluzione dei problemi relativi alla determinazione della
   posizione per dispositivi iOS e Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /it/faq/map/can-not-find-position/
 ---
 
 Assicurati che il tuo dispositivo disponga di GPS, che i servizi di localizzazione siano abilitati e che le autorizzazioni di localizzazione siano concesse a Organic Maps.

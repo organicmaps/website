@@ -1,5 +1,6 @@
 ---
 title: Wie kann ich eine erweiterte Kartenbearbeitung durchführen?
+slug: wie-kann-ich-eine-erweiterte-kartenbearbeitung-durchführen
 description: Tutorial zum Bearbeiten von OpenStreetMap mit fortgeschritteneren Tools
   wie ID, Go Map und Vespucci
 updated: '2026-01-03'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Kartenbearbeitung"]
 extra:
   order: 40
+aliases:
+  - /de/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps enthält einen einfachen und benutzerfreundlichen Editor, mit dem du die Karte bearbeiten kannst. Der Editor ist jedoch eingeschränkt und erlaubt nur das Hinzufügen einfacher Punktmerkmale, also keine Gebäudeumrisse, Straßen, Seen, Städte usw. Falls du etwas ändern möchten, das mit dem eingebauten Editor nicht bearbeitet werden kann, ist dies die richtige FAQ-Seite zum Lesen.

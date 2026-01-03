@@ -1,5 +1,6 @@
 ---
 title: Die toepassing kan nie my posisie op die kaart vind nie
+slug: die-toepassing-kan-nie-my-posisie-op-die-kaart-vind-nie
 description: Foutspoorgids vir die oplossing van probleme met liggingbepaling vir
   iOS- en Android-toestelle
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /af/faq/map/can-not-find-position/
 ---
 
 Maak asseblief seker dat jou toestel GPS het, liggingdienste is geaktiveer en liggingtoestemmings word aan Organic Maps gegee.

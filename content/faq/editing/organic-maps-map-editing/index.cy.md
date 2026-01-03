@@ -1,5 +1,6 @@
 ---
 title: Sut alla i olygu'r map mewn Mapiau Organig?
+slug: sut-alla-i-olygur-map-mewn-mapiau-organig
 description: Tiwtorial ar gyfer golygu OpenStreetMap o fewn yr ap Organic Maps yn
   fwy
 updated: '2025-01-05'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /cy/faq/editing/organic-maps-map-editing/
 ---
 
 Gyda Mapiau Organig, gallwch yn hawdd ychwanegu lleoedd coll at y map, ychwanegu manylion ychwanegol fel oriau agor, neu drwsio cofnodion anghywir. Trwy wneud hyn, rydych chi'n gwella'r data map ar gyfer pob defnyddiwr.

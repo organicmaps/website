@@ -1,5 +1,6 @@
 ---
 title: Pencarian tidak dapat menemukan tempat di peta
+slug: pencarian-tidak-dapat-menemukan-tempat-di-peta
 description: Panduan untuk meningkatkan hasil pencarian dan memecahkan masalah dalam
   menemukan objek di peta
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 20
+aliases:
+  - /id/faq/map/search-cannot-find-a-place/
 ---
 
 Ingatlah bahwa untuk mencari suatu tempat di area tertentu, Anda perlu mengunduh peta yang relevan dan memperbesar peta ke area tersebut, atau lokasi Anda harus berada di dekat area tersebut sebelum Anda memulai pencarian. Misalnya, jika Anda ingin mencari suatu tempat di Vietnam dan lokasi Anda berada di tempat lain, Anda harus mengunduh dan membuka peta Vietnam terlebih dahulu, atau secara eksplisit menyebutkan negara (Vietnam) atau nama kota/kota/desa yang diinginkan di kolom pencarian.

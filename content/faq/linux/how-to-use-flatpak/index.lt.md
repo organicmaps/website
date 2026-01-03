@@ -1,11 +1,14 @@
 ---
 title: Kaip naudoti „flatpak“ programos versiją?
+slug: kaip-naudoti-flatpak-programos-versiją
 description: Dažniausiai užduodami klausimai apie organinių žemėlapių programą
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /lt/faq/linux/how-to-use-flatpak/
 ---
 
 Norėdami įdiegti OM sistemoje „Linux“ su „flatpak“, atidarykite terminalą ir įveskite „flatpak install flathub app.organicmaps.desktop“.

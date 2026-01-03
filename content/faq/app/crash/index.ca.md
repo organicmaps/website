@@ -1,5 +1,6 @@
 ---
 title: Què puc fer si l'aplicació s'ha aturat/ha fallat?
+slug: què-puc-fer-si-laplicació-sha-aturatha-fallat
 description: Quines accions cal dur a terme si l'aplicació falla. Com informar d'errors crítics als desenvolupadors
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /ca/faq/app/crash/
 ---
 
 A Android, si emmagatzemeu els vostres mapes en una targeta SD, la causa més probable és una targeta SD defectuosa. Pots:

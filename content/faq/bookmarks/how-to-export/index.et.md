@@ -1,5 +1,6 @@
 ---
 title: Kuidas jagada (eksportida) järjehoidjaid ja lugusid?
+slug: kuidas-jagada-eksportida-järjehoidjaid-ja-lugusid
 description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks orgaanilistest
   kaartidest teistesse rakendustesse ning kontaktidega jagamiseks
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /et/faq/bookmarks/how-to-export/
 ---
 
 Puudutage järjehoidjat kaardil või loendis ja seejärel puudutage koha lehel nuppu "Jaga".

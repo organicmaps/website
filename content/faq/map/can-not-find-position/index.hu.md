@@ -1,5 +1,6 @@
 ---
 title: Az alkalmazás nem találja a pozíciómat a térképen
+slug: az-alkalmazás-nem-találja-a-pozíciómat-a-térképen
 description: Hibaelhárítási útmutató a helymeghatározással kapcsolatos problémák megoldásához
   iOS és Android eszközökön
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /hu/faq/map/can-not-find-position/
 ---
 
 Kérjük, győződjön meg arról, hogy eszköze rendelkezik GPS-szel, a helymeghatározási szolgáltatások engedélyezve vannak, és az Organikus térképek helymeghatározási engedélyekkel rendelkeznek.

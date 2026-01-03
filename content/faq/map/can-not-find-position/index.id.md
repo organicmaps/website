@@ -1,5 +1,6 @@
 ---
 title: Aplikasi tidak dapat menemukan posisi saya di peta
+slug: aplikasi-tidak-dapat-menemukan-posisi-saya-di-peta
 description: Panduan pemecahan masalah untuk memecahkan masalah penentuan lokasi untuk
   perangkat iOS dan Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /id/faq/map/can-not-find-position/
 ---
 
 Pastikan perangkat Anda memiliki GPS, layanan lokasi diaktifkan, dan izin lokasi diberikan ke Peta Organik.

@@ -1,5 +1,6 @@
 ---
 title: Saya tidak dapat mendengar instruksi suara
+slug: saya-tidak-dapat-mendengar-instruksi-suara
 description: Panduan pemecahan masalah untuk instruksi suara dalam navigasi
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /id/faq/voice/cant-hear-instructions/
 ---
 
 **Catatan:** instruksi suara tersedia untuk rute mobil dan bersepeda. Untuk saat ini, Anda hanya dapat mendengar instruksi suara saat mengemudi dan saat layar menyala.

@@ -1,5 +1,6 @@
 ---
 title: Wat kan ik doen als de app is gestopt/gecrasht?
+slug: wat-kan-ik-doen-als-de-app-is-gestoptgecrasht
 description: Welke acties moeten worden ondernomen als de applicatie crasht. Hoe kritieke bugs aan ontwikkelaars te rapporteren
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /nl/faq/app/crash/
 ---
 
 Als u op Android uw kaarten op een SD-kaart opslaat, is de meest waarschijnlijke oorzaak een defecte SD-kaart. U kunt:

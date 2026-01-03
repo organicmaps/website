@@ -1,11 +1,14 @@
 ---
 title: 如何进行更高级的地图编辑？
+slug: 如何进行更高级的地图编辑
 description: 使用 ID、Go Map 和 Vespucci 等更高级工具编辑 OpenStreetMap 的教程
 updated: '2024-06-20'
 taxonomies:
   faq: ["地图编辑"]
 extra:
   order: 40
+aliases:
+  - /zh-Hans/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps 包含一个简单且易于使用的编辑器，您可以用它来编辑地图。然而，编辑器是有限的，只允许添加简单的点要素，这意味着没有建筑物轮廓、道路、湖泊、城镇等。如果您想更改无法使用内置编辑器编辑的内容，这是正确的常见问题解答页面。

@@ -1,5 +1,6 @@
 ---
 title: Android'de parçalar neden arka planda güvenilir bir şekilde kaydedilmiyor?
+slug: androidde-parçalar-neden-arka-planda-güvenilir-bir-şekilde-kaydedilmiyor
 description: Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC ve diğer cihazlardaki varsayılan pil optimizasyon ayarları arka planda Organik Haritalar uygulamasını durdurabilir veya öldürebilir.
 updated: "2024-10-05"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /tr/faq/bookmarks/android-track-recording/
 ---
 
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC ve diğer cihazlardaki varsayılan pil optimizasyon ayarları arka planda Organik Haritalar uygulamasını durdurabilir veya öldürebilir.

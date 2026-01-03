@@ -1,5 +1,6 @@
 ---
 title: Vissa platser saknas på kartan eller har fel namn
+slug: vissa-platser-saknas-på-kartan-eller-har-fel-namn
 description: Tips för att korrigera fel i kartor, göra ändringar och uppdateringar
   av objekt direkt i Organic Maps eller via OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /sv/faq/editing/map-errors/
 ---
 
 Vår kartdatakälla är [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Detta är ett kartprojekt som liknar Wikipedia, men för kartor, där vem som helst kan skapa och redigera världens karta.

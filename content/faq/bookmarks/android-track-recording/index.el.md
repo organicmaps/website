@@ -1,5 +1,6 @@
 ---
 title: Γιατί τα κομμάτια δεν καταγράφονται αξιόπιστα στο παρασκήνιο στο Android;
+slug: γιατί-τα-κομμάτια-δεν-καταγράφονται-αξιόπιστα-στο-παρασκήνιο-στο-android
 description: Οι προεπιλεγμένες ρυθμίσεις βελτιστοποίησης μπαταρίας σε Samsung, Huawei,
   Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola,
   HTC και άλλες συσκευές ενδέχεται να σταματήσουν ή να σκοτώσουν την εφαρμογή Organic
@@ -10,6 +11,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /el/faq/bookmarks/android-track-recording/
 ---
 
 Οι προεπιλεγμένες ρυθμίσεις βελτιστοποίησης μπαταρίας σε Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC και άλλες συσκευές ενδέχεται να σταματήσουν ή να σκοτώσουν την εφαρμογή Organic Maps στο παρασκήνιο.

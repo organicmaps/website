@@ -1,11 +1,14 @@
 ---
 title: Text a veu a Android
+slug: text-a-veu-a-android
 description: Guia sobre com fer que TTS funcioni a Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /ca/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Resum

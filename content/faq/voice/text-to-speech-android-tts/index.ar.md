@@ -1,11 +1,14 @@
 ---
 title: تحويل النص إلى كلام على أندرويد
+slug: تحويل-النص-إلى-كلام-على-أندرويد
 description: دليل حول كيفية جعل تحويل النص إلى كلام (TTS) يعمل على نظام Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /ar/faq/voice/text-to-speech-android-tts/
 ---
 
 ## ملخص

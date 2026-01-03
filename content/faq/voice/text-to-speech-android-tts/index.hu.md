@@ -1,11 +1,14 @@
 ---
 title: Szövegfelolvasó Androidon
+slug: szövegfelolvasó-androidon
 description: Útmutató a TTS működéséhez Androidon
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /hu/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Összegzés

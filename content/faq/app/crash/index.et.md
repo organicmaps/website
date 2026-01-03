@@ -1,5 +1,6 @@
 ---
 title: Mida teha, kui rakendus on seiskunud/jooksnud?
+slug: mida-teha-kui-rakendus-on-seiskunudjooksnud
 description: Mida teha, kui rakendus jookseb kokku. Kuidas arendajatele kriitilistest vigadest teatada
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /et/faq/app/crash/
 ---
 
 Kui salvestate kaardid Androidis SD-kaardile, on kõige tõenäolisem põhjus vigane SD-kaart. Saate teha järgmist.

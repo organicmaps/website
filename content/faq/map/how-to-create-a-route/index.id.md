@@ -1,5 +1,6 @@
 ---
 title: Cara membuat rute dan memulai navigasi
+slug: cara-membuat-rute-dan-memulai-navigasi
 description: Panduan untuk membuat rute dan bernavigasi menggunakan peta
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /id/faq/map/how-to-create-a-route/
 ---
 
 Setelah lokasi Anda ditentukan di peta, pilih tujuan Anda.

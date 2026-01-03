@@ -1,5 +1,6 @@
 ---
 title: Leku batzuk falta dira mapan edo izen okerrak dituzte
+slug: leku-batzuk-falta-dira-mapan-edo-izen-okerrak-dituzte
 description: Mapetan akatsak zuzentzeko, objektuetan aldaketak eta eguneraketak zuzenean
   Organic Maps-en edo OpenStreetMap.org bidez egiteko aholkuak
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /eu/faq/editing/map-errors/
 ---
 
 Gure mapen datu-iturria [OpenStreetMap](https://www.openstreetmap.org/) (OSM) da. Wikipediaren antzeko mapa-proiektua da, baina mapetarako, non edonork sortu eta edita dezakeen Munduko mapa.

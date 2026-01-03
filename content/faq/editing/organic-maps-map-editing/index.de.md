@@ -9,25 +9,25 @@ extra:
   order: 35
 ---
 
-Mit Organic Maps können Sie ganz einfach fehlende Orte zur Karte hinzufügen, zusätzliche Details wie Öffnungszeiten hinzufügen oder falsche Einträge korrigieren. Dadurch verbessern Sie die Kartendaten für alle Benutzer.
+Mit Organic Maps kannst du ganz einfach fehlende Orte zur Karte hinzufügen, zusätzliche Details wie Öffnungszeiten hinzufügen oder falsche Einträge korrigieren. Dadurch verbesserst du die Kartendaten für alle Benutzer.
 
-Da [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) die primäre Quelle für Kartendaten in Organic Maps ist, werden die von Ihnen vorgenommenen Änderungen an OSM gesendet. OSM ist ein Community-Projekt zur Erstellung einer kostenlosen und offenen Karte. Es funktioniert ähnlich wie Wikipedia, sodass alles, was Sie bearbeiten, Millionen von Benutzern auf der ganzen Welt zur Verfügung steht. Treten Sie der Community bei und helfen Sie dabei, eine bessere Karte für alle zu erstellen!
+Da [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) die primäre Quelle für Kartendaten in Organic Maps ist, werden deine vorgenommenen Änderungen an OSM gesendet. OSM ist ein Community-Projekt zur Erstellung einer kostenlosen und offenen Karte. Es funktioniert ähnlich wie Wikipedia, wodruch deine Bearbeitungen für Millionen von Benutzern auf der ganzen Welt zur Verfügung stehen. Trete der Community bei und hilf dabei, eine bessere Karte für alle zu erstellen!
 
 **So bearbeiten Sie OpenStreetMap über Ihre Organic Maps-App:**
-1. Erstellen Sie ein Konto bei [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
-2. Melden Sie sich bei Ihrem Konto in Organic Maps an (Burger-Symbol -> *Einstellungen* -> *OpenStreetMap-Profile*)
-3. Jetzt können Sie bestehende Orte bearbeiten oder neue hinzufügen
+1. Erstelle ein Konto bei [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
+2. Melde dich mit deinem Konto in Organic Maps an (Burger-Menü -> *Einstellungen* -> *OpenStreetMap-Profil*)
+3. Nun kannst du bestehende Orte bearbeiten oder neue hinzufügen
 	- Vorhandenen Ort bearbeiten
-		- Wählen Sie den Ort aus, indem Sie auf das Kartensymbol tippen
-		- Tippen Sie auf *Ort bearbeiten*
-		- Fügen Sie zusätzliche Informationen hinzu
-		- Speichern Sie Ihre Änderungen und beenden Sie den Vorgang mit dem Häkchenpfeil
-	- Fügen Sie der Karte einen Ort hinzu
-		- Burger-Symbol -> *Einen Ort zur OpenStreetMap hinzufügen*
-		- Wählen Sie den Standort so genau wie möglich aus und drücken Sie den Häkchenpfeil
-		- Wählen Sie eine Kategorie aus
-			> Sie können keine passende Kategorie finden? Erstellen Sie dann eine [OSM-Notiz](@/faq/editing/advanced-map-editing/index.md#osm-note).
-		- Fügen Sie zusätzliche Informationen wie den Namen, die Öffnungszeiten und die Website hinzu
-		- Speichern Sie Ihre Änderungen und beenden Sie den Vorgang mit dem Häkchenpfeil
+		- Wähle einen Ort aus, indem du auf die Karte tippst
+		- Erweitere die Ansicht (und scrolle nach unten) und tippe auf *Eintrag bearbeiten*
+		- Füge zusätzliche Informationen hinzu (oder hinterlasse einen Hinweis)
+		- Tippe auf *Speichern* um deine Änderungen hochzuladen
+	- Neuen Ort hinzufügen
+		- Burger-Menü -> *Ort zu OpenStreetMap hinzufügen*
+		- Wähle den Standort so genau wie möglich aus und tippe auf *Fertig*
+		- Wähle eine Kategorie aus
+			> Du kannst keine passende Kategorie finden? Erstelle eine [OSM-Notiz](@/faq/editing/advanced-map-editing/index.md#osm-note).
+		- Füge zusätzliche Informationen wie den Namen, die Öffnungszeiten und die Website hinzu
+		- Tippe auf *Speichern* um deine Änderungen hochzuladen
 
-Beachten Sie, dass der Editor als einfacher POI-Editor konzipiert und daher auf POIs beschränkt ist. Sie können beispielsweise keine Straßen, Seen, Gebäudeumrisse usw. hinzufügen. Außerdem ist das Verschieben von Orten an einen neuen Ort nicht möglich. Wenn Sie etwas mit Organic Maps nicht bearbeiten können, werfen Sie einen Blick auf die Seite [Erweiterte Kartenbearbeitung](@/faq/editing/advanced-map-editing/index.md).
+Beachte, dass der Editor als einfacher POI-Editor konzipiert und daher auf POIs (Punkte von Interesse) beschränkt ist. Es lassen sich beispielsweise keine Straßen, Seen, Gebäudeumrisse usw. hinzufügen. Außerdem ist das Verschieben von Orten an einen neuen Ort nicht möglich. Falls sich etwas nicht mit Organic Maps bearbeiten lässt, wirf einen Blick auf die Seite [Erweiterte Kartenbearbeitung](@/faq/editing/advanced-map-editing/index.md).

@@ -2,10 +2,8 @@
 title: What can I do if the app has stopped/crashed?
 description: What actions to take if the application crashes. How to report critical bugs to developers
 updated: "2024-06-20"
-
 taxonomies:
   faq: ["App"]
-
 extra:
   order: 30
 ---
@@ -20,4 +18,4 @@ If the app still crashes, please check [our GitHub](https://github.com/organicma
 
 * A detailed description of the issue and steps to reproduce it
 * Organic Maps version
-* Device model and OS version (Android or iOS) 
+* Device model and OS version (Android or iOS)

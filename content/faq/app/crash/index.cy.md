@@ -1,0 +1,22 @@
+---
+title: Beth alla i ei wneud os yw'r ap wedi stopio / chwalu?
+description: Pa gamau i'w cymryd os bydd y rhaglen yn chwalu. Sut i riportio bygiau critigol i ddatblygwyr
+updated: '2024-06-20'
+taxonomies:
+  faq:
+  - App
+extra:
+  order: 30
+---
+
+Ar Android, os ydych chi'n storio'ch mapiau ar gerdyn SD, yr achos mwyaf tebygol yw cerdyn SD diffygiol. Gallwch chi:
+1. Dileu'r holl fapiau sydd wedi'u llwytho i lawr a'u hail-lawrlwytho eto i'r cerdyn SD (efallai na fydd yn gweithio eto).
+2. Dileu'r holl fapiau sydd wedi'u llwytho i lawr, dewiswch Storio dyfais fewnol, ac ail-lawrlwytho mapiau.
+3. Fformat cerdyn SD ac ail-lawrlwytho mapiau.
+4. Prynu cerdyn SD newydd (argymhellir)
+
+Os yw'r ap yn dal i ddamwain, gwiriwch [ein GitHub](https://github.com/organicmaps/organicmaps/issues/) am faterion tebyg, a [cysylltwch â ni] (mailto:support@organicmaps.app) a rhowch y canlynol:
+
+* Disgrifiad manwl o'r mater a'r camau i'w hatgynhyrchu
+* Fersiwn Mapiau Organig
+* Model dyfais a fersiwn OS (Android neu iOS)

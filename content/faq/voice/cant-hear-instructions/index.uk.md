@@ -2,10 +2,8 @@
 title: Я не чую голосових підказок
 description: ""
 updated: "2024-07-22"
-
 taxonomies:
   faq: ["Голосові інструкції"]
-
 extra:
   order: 20
 ---

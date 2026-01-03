@@ -1,11 +1,9 @@
 ---
 title: Qué hago si la aplicación se detiene o se bloquea?
-description: ""
+description: Qué medidas tomar si la aplicación se bloquea. Cómo informar de errores críticos a los desarrolladores.
 updated: "2024-06-12"
-
 taxonomies:
   faq: ["Aplicación"]
-
 extra:
   order: 30
 ---

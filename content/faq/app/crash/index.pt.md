@@ -1,11 +1,9 @@
 ---
 title: O que fazer se a aplicação parar de funcionar (bloquear)?
-description: ""
+description: Que ações tomar se a aplicação bloquear. Como reportar bugs críticos aos desenvolvedores.
 updated: "2024-06-12"
-
 taxonomies:
-  faq: ["Aplicativa"]
-
+  faq: ["Aplicação"]
 extra:
   order: 30
 ---

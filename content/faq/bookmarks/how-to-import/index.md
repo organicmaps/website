@@ -10,15 +10,15 @@ extra:
   order: 20
 ---
 
-You can import bookmarks sent from Organic Maps or third party apps if they export bookmarks in KML, KMZ, KMB, GPX formats.
+You can import bookmarks and/or tracks sent from Organic Maps or third party apps if they export bookmarks in KML, KMZ, KMB, GPX, GeoJSON (JSON) formats.
 
 To import a single file:
 
-1. Locate shared KML, KMZ, KMB, GPX file with bookmarks sent by email, instant messenger or cloud storage, for example, iCloud or Google Drive.
+1. Locate shared KML, KMZ, KMB, GPX, GeoJSON (JSON) file sent by email, instant messenger or cloud storage, for example, iCloud or Google Drive.
 
-2. Tap once or tap and hold the KML, KMZ, KMB, GPX file with bookmarks and choose Open with Organic Maps (Android) or "Import with Organic Maps" (iOS) in the pop-up window.
+2. Tap once or tap and hold the KML, KMZ, KMB, GPX, GeoJSON (JSON) file and choose Open with Organic Maps (Android) or "Import with Organic Maps" (iOS) in the pop-up window.
 
-3. It will be open with Organic Maps and you'll see ‘Bookmarks loaded successfully!’. You can find them on the map or in Bookmarks Menu screen.
+3. Organic Maps should launch, and you should see ‘Bookmarks loaded successfully!’ message. You can find them on the map or in Bookmarks Menu screen.
 
 Importing bookmarks and tracks in batch is also possible:
 

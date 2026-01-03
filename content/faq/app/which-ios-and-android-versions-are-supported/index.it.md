@@ -2,10 +2,8 @@
 title: Quali versioni di iOS e Android sono supportate?
 description: "Domande frequenti sull'applicazione Organic Maps"
 slug: quali-versioni-di-ios-e-android-sono-supportate
-
 taxonomies:
   faq: ["Applicazione"]
-
 extra:
   order: 10
 ---

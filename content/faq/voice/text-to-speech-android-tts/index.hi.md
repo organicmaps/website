@@ -1,11 +1,14 @@
 ---
 title: एंड्रॉइड पर टेक्स्ट-टू-स्पीच
+slug: एडरइड-पर-टकसट-ट-सपच
 description: एंड्रॉइड पर टीटीएस कैसे काम करें, इस पर मार्गदर्शन करें
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /hi/faq/voice/text-to-speech-android-tts/
 ---
 
 ## सारांश

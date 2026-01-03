@@ -1,5 +1,6 @@
 ---
 title: Wyszukiwanie nie może znaleźć miejsca na mapie
+slug: wyszukiwanie-nie-może-znaleźć-miejsca-na-mapie
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pl/faq/map/search-cannot-find-a-place/
 ---
 
 Pamiętaj, że aby wyszukać miejsce w określonym obszarze, musisz pobrać odpowiednią mapę i powiększyć mapę do tego obszaru lub Twoja lokalizacja powinna znajdować się w pobliżu tego obszaru przed rozpoczęciem wyszukiwania. Na przykład, jeśli chcesz znaleźć miejsce w Wietnamie, a Twoja lokalizacja znajduje się gdzie indziej, najpierw pobierz i otwórz mapę Wietnamu.

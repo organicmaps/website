@@ -1,11 +1,14 @@
 ---
 title: Tekst-naar-spraak op Android
+slug: tekst-naar-spraak-op-android
 description: Handleiding voor het laten werken van TTS op Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /nl/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Samenvatting

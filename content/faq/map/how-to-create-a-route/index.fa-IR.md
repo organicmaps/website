@@ -1,5 +1,6 @@
 ---
 title: نحوه ایجاد مسیر و شروع ناوبری
+slug: نحوه-ایجاد-مسیر-و-شروع-ناوبری
 description: راهنمای ساخت مسیر و پیمایش با استفاده از نقشه
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /fa-IR/faq/map/how-to-create-a-route/
 ---
 
 هنگامی که موقعیت مکانی شما روی نقشه مشخص شد، مقصد خود را انتخاب کنید.

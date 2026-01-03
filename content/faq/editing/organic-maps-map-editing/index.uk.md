@@ -1,11 +1,14 @@
 ---
 title: Як я можу редагувати карту в Organic Maps?
+slug: як-я-можу-редагувати-карту-в-organic-maps
 description: Посібник із редагування OpenStreetMap у програмі Organic Maps більше
 updated: '2025-01-05'
 taxonomies:
   faq: ["Редагування"]
 extra:
   order: 35
+aliases:
+  - /uk/faq/editing/organic-maps-map-editing/
 ---
 
 За допомогою Organic Maps ви можете легко додати на карту відсутні місця, додати додаткові відомості, як-от години роботи, або виправити неправильні записи. Роблячи це, ви покращуєте дані карти для всіх користувачів.

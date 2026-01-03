@@ -1,5 +1,6 @@
 ---
 title: Não consigo descarregar (atualizar) mapas
+slug: não-consigo-descarregar-atualizar-mapas
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /pt/faq/map/cant-download-maps/
 ---
 
 O descarregamento pode falhar devido a um erro de rede temporário ou a configurações específicas do fornecedor da rede / router. Por favor, tente novamente mais tarde ou use outro ponto de acesso Wi-Fi. Certifique-se também que tem espaço livre suficiente para fazer o descarregamento dos mapas.

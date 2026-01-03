@@ -1,5 +1,6 @@
 ---
 title: Com puc fer una edició de mapes més avançada?
+slug: com-puc-fer-una-edició-de-mapes-més-avançada
 description: Tutorial per editar OpenStreetMap amb eines més avançades com ID, Go
   Map i Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /ca/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps inclou un editor senzill i fàcil d'utilitzar que podeu utilitzar per editar el mapa. Tanmateix, l'editor és limitat i només permet afegir funcions puntuals senzilles, això vol dir que no hi ha contorns d'edificis, carreteres, llacs, pobles, etc. Si voleu canviar alguna cosa que no es pot editar amb l'editor integrat, aquesta és la pàgina de preguntes freqüents adequada per llegir.

@@ -1,5 +1,6 @@
 ---
 title: Miért nem rögzítik megbízhatóan a zeneszámokat a háttérben Androidon?
+slug: miért-nem-rögzítik-megbízhatóan-a-zeneszámokat-a-háttérben-androidon
 description: A Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo,
   Oppo, Vivo, Realme, Sony, Motorola, HTC és más eszközök alapértelmezett akkumulátor-optimalizálási
   beállításai leállíthatják vagy leállíthatják az Organic Maps alkalmazást a háttérben.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /hu/faq/bookmarks/android-track-recording/
 ---
 
 A Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC és más eszközök alapértelmezett akkumulátor-optimalizálási beállításai leállíthatják vagy leállíthatják az Organic Maps alkalmazást a háttérben.

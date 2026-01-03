@@ -1,11 +1,14 @@
 ---
 title: Cosa posso fare se l'app si è fermata/si è bloccata?
+slug: cosa-posso-fare-se-lapp-si-è-fermatasi-è-bloccata
 description: Quali azioni intraprendere se l'applicazione si blocca. Come segnalare bug critici agli sviluppatori
 updated: '2024-06-20'
 taxonomies:
   faq: ["Applicazione"]
 extra:
   order: 30
+aliases:
+  - /it/faq/app/crash/
 ---
 
 Su Android, se memorizzi le tue mappe su una scheda SD, la causa più probabile è una scheda SD difettosa. Puoi:

@@ -1,5 +1,6 @@
 ---
 title: Kuidas teha täpsemat kaarditöötlust?
+slug: kuidas-teha-täpsemat-kaarditöötlust
 description: Õpetus OpenStreetMapi redigeerimiseks keerukamate tööriistadega, nagu
   ID, Go Map ja Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /et/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps sisaldab lihtsat ja hõlpsasti kasutatavat redaktorit, mida saate kasutada kaardi muutmiseks. Redaktor on aga piiratud ja võimaldab lisada ainult lihtsaid punktifunktsioone, mis tähendab, et puuduvad hoonekontuurid, teed, järved, linnad jne. Kui soovite muuta midagi, mida sisseehitatud redaktoriga muuta ei saa, on see lugemiseks õige KKK leht.

@@ -1,5 +1,6 @@
 ---
 title: Algunos lugares no aparecen en el mapa o tienen un nombre incorrecto
+slug: algunos-lugares-no-aparecen-en-el-mapa-o-tienen-un-nombre-incorrecto
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /es/faq/editing/map-errors/
 ---
 
 Nuestra fuente de datos de mapas es [OpenStreetMap](https://www.openstreetmap.org) (OSM). Este es un proyecto de mapeo similar a Wikipedia, pero para mapas, donde cualquiera puede crear y editar mapas.

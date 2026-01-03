@@ -1,5 +1,6 @@
 ---
 title: Hoe om boekmerke en snitte in KML-, KMZ-, KMB- of GPX-formaat in te voer?
+slug: hoe-om-boekmerke-en-snitte-in-kml-kmz-kmb-of-gpx-formaat-in-te-voer
 description: Stap-vir-stap instruksies vir die invoer van boekmerke en snitte wat
   met jou gedeel word in formate KML, KMZ, KMB of GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /af/faq/bookmarks/how-to-import/
 ---
 
 Jy kan boekmerke invoer wat van Organic Maps of derdeparty-toepassings gestuur is as hulle boekmerke in KML-, KMZ-, KMB-, GPX-formate uitvoer.

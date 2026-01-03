@@ -1,5 +1,6 @@
 ---
 title: Hogyan szerkeszthetem a térképet az Organikus térképekben?
+slug: hogyan-szerkeszthetem-a-térképet-az-organikus-térképekben
 description: Oktatóanyag az OpenStreetMap szerkesztéséhez az Organic Maps alkalmazásból
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /hu/faq/editing/organic-maps-map-editing/
 ---
 
 Az Organikus térképekkel egyszerűen hozzáadhat hiányzó helyeket a térképhez, további részleteket adhat hozzá, például nyitvatartási időt, vagy kijavíthatja a hibás bejegyzéseket. Ezzel javítja a térképadatokat az összes felhasználó számára.

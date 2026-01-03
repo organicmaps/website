@@ -1,5 +1,6 @@
 ---
 title: Wie kann ich Lesezeichen und Tracks teilen (exportieren)?
+slug: wie-kann-ich-lesezeichen-und-tracks-teilen-exportieren
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /de/faq/bookmarks/how-to-export/
 ---
 
 Wähle Lesezeichen auf der Karte oder in der Liste aus, und tippe anschließend auf das "Teilen"-Symbol auf der Seite des Ortes.

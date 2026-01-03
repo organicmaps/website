@@ -1,5 +1,6 @@
 ---
 title: Zer egin dezaket aplikazioa gelditu edo huts egin bada?
+slug: zer-egin-dezaket-aplikazioa-gelditu-edo-huts-egin-bada
 description: Zer ekintza egin aplikazioa huts egiten bada. Nola jakinarazi akats kritikoak garatzaileei
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /eu/faq/app/crash/
 ---
 
 Android-en, zure mapak SD txartelean gordetzen badituzu, kausa seguruena SD txartel akastun bat da. Hau egin dezakezu:

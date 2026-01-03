@@ -1,5 +1,6 @@
 ---
 title: Ni all yr ap ddod o hyd i fy safle ar y map
+slug: ni-all-yr-ap-ddod-o-hyd-i-fy-safle-ar-y-map
 description: Canllaw datrys problemau ar gyfer datrys problemau gyda phenderfynu ar
   leoliad ar gyfer dyfeisiau iOS ac Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /cy/faq/map/can-not-find-position/
 ---
 
 Sicrhewch fod gan eich dyfais GPS, bod gwasanaethau lleoliad wedi'u galluogi, a bod caniatâd lleoliad yn cael ei roi i Fapiau Organig.

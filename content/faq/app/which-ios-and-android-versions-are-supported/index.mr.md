@@ -1,5 +1,6 @@
 ---
 title: कोणत्या iOS आणि Android आवृत्त्या समर्थित आहेत?
+slug: कणतय-ios-आण-android-आवततय-समरथत-आहत
 description: Android आणि iOS डिव्हाइसवर ऑरगॅनिक नकाशे चालविण्यासाठी किमान आवश्यकता
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /mr/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 ॲप चालवण्यासाठी तुम्हाला किमान iOS 12 किंवा Android 5 आवश्यक आहे. नंतरच्या आवृत्त्यांसह उपकरणे ऑरगॅनिक नकाशे चालवू शकतात.

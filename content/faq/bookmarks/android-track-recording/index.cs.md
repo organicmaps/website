@@ -1,5 +1,6 @@
 ---
 title: Proč nejsou v systému Android stopy spolehlivě zaznamenávány na pozadí?
+slug: proč-nejsou-v-systému-android-stopy-spolehlivě-zaznamenávány-na-pozadí
 description: Výchozí nastavení optimalizace baterie na zařízeních Samsung, Huawei,
   Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola,
   HTC a dalších zařízeních může zastavit nebo ukončit aplikaci Organic Maps na pozadí.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /cs/faq/bookmarks/android-track-recording/
 ---
 
 Výchozí nastavení optimalizace baterie na zařízeních Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC a dalších zařízeních může zastavit nebo ukončit aplikaci Organic Maps na pozadí.

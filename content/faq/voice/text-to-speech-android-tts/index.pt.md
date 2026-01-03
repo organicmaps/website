@@ -1,10 +1,13 @@
 ---
 title: Conversão de texto para fala no Android
+slug: conversão-de-texto-para-fala-no-android
 description: Guia sobre como fazer o TTS funcionar no Android
 taxonomies:
   faq: ["Instruções de voz"]
 extra:
   order: 10
+aliases:
+  - /pt/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Resumo

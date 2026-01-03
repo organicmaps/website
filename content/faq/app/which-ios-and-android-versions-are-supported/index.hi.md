@@ -1,5 +1,6 @@
 ---
 title: कौन से iOS और Android संस्करण समर्थित हैं?
+slug: कन-स-ios-और-android-ससकरण-समरथत-ह
 description: एंड्रॉइड और आईओएस उपकरणों पर ऑर्गेनिक मैप चलाने के लिए न्यूनतम आवश्यकताएं
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /hi/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 ऐप चलाने के लिए आपके पास कम से कम iOS 12 या Android 5 होना चाहिए। बाद के संस्करणों वाले उपकरण ऑर्गेनिक मानचित्र चला सकते हैं।

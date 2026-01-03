@@ -1,5 +1,6 @@
 ---
 title: Paieška negali rasti vietos žemėlapyje
+slug: paieška-negali-rasti-vietos-žemėlapyje
 description: Paieškos rezultatų tobulinimo ir objektų paieškos žemėlapyje problemų
   sprendimo vadovas
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 20
+aliases:
+  - /lt/faq/map/search-cannot-find-a-place/
 ---
 
 Atminkite, kad norėdami ieškoti vietos konkrečioje vietovėje, turėsite atsisiųsti atitinkamą žemėlapį ir priartinti žemėlapį iki tos srities arba jūsų vieta turi būti netoli tos srities prieš pradėdami paiešką. Pavyzdžiui, jei norite rasti vietą Vietname, o jūsų vieta yra kažkur kitur, pirmiausia turėtumėte atsisiųsti ir atidaryti Vietnamo žemėlapį arba paieškos laukelyje aiškiai nurodyti šalį (Vietnamą) arba norimo miesto / miestelio / kaimo pavadinimą.

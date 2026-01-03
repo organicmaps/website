@@ -6,6 +6,8 @@ taxonomies:
   faq: ["Application"]
 extra:
   order: 20
+aliases:
+  - /fr/faq/app/how-to-use-android-auto/
 ---
 
 Pour utiliser Organic Maps sur Android Auto, vous avez besoin d'un appareil avec au minimum Android 8.0 (Oreo) ou ultérieure.

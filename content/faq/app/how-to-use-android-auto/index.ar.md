@@ -1,5 +1,6 @@
 ---
 title: كيفية استخدام أندرويد أوتو؟
+slug: كيفية-استخدام-أندرويد-أوتو
 description: الحد الأدنى من المتطلبات لتشغيل الخرائط العضوية باستخدام Android Auto
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 20
+aliases:
+  - /ar/faq/app/how-to-use-android-auto/
 ---
 
 لاستخدام OM مع Android Auto، تحتاج على الأقل إلى إصدار Android 8.0 (Oreo) أو إصدار أحدث. علاوة على ذلك، يتعين عليك تنزيل الخرائط العضوية من متجر Google Play، حيث تسمح Google فقط بالتطبيقات المعتمدة من Google على Android Auto.

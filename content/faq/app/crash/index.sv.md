@@ -1,5 +1,6 @@
 ---
 title: Vad kan jag göra om appen har stannat/kraschat?
+slug: vad-kan-jag-göra-om-appen-har-stannatkraschat
 description: Vilka åtgärder du ska vidta om programmet kraschar. Hur man rapporterar kritiska buggar till utvecklare
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /sv/faq/app/crash/
 ---
 
 På Android, om du lagrar dina kartor på ett SD-kort, är den mest troliga orsaken ett felaktigt SD-kort. Du kan:

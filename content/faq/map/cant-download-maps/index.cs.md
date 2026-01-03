@@ -1,5 +1,6 @@
 ---
 title: Nemohu stáhnout (aktualizovat) mapy
+slug: nemohu-stáhnout-aktualizovat-mapy
 description: Co dělat, když Organic Maps nedokáže stáhnout nebo aktualizovat mapy
   z internetu?
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 30
+aliases:
+  - /cs/faq/map/cant-download-maps/
 ---
 
 Stahování může selhat kvůli dočasné chybě sítě nebo konkrétnímu nastavení poskytovatele sítě/routeru (blokování brány firewall). Zkuste to znovu později nebo použijte jiný přístupový bod Wi-Fi. Kromě toho se ujistěte, že máte dostatek volného místa pro stahování map.

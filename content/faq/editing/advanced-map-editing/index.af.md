@@ -1,5 +1,6 @@
 ---
 title: Hoe kan ek meer gevorderde kaartbewerking doen?
+slug: hoe-kan-ek-meer-gevorderde-kaartbewerking-doen
 description: Handleiding vir die redigering van OpenStreetMap met meer gevorderde
   instrumente soos ID, Go Map en Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /af/faq/editing/advanced-map-editing/
 ---
 
 Organiese kaarte bevat 'n eenvoudige en maklik-om-te gebruik redigeerder wat jy kan gebruik om die kaart te wysig. Die redigeerder is egter beperk en laat slegs toe om eenvoudige puntkenmerke by te voeg, dit beteken geen gebouomtrek, paaie, mere, dorpe, ens. As jy iets wil verander wat nie met die ingeboude redigeerder geredigeer kan word nie, is hierdie die regte FAQ-bladsy om te lees.

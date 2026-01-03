@@ -1,5 +1,6 @@
 ---
 title: Soek kan nie 'n plek op die kaart vind nie
+slug: soek-kan-nie-n-plek-op-die-kaart-vind-nie
 description: Gids vir die verbetering van soekresultate en die oplossing van probleme
   met die vind van voorwerpe op die kaart
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 20
+aliases:
+  - /af/faq/map/search-cannot-find-a-place/
 ---
 
 Onthou dat om na 'n plek in 'n spesifieke area te soek, jy 'n relevante kaart sal moet aflaai en die kaart na daardie area moet inzoem, of jou ligging moet naby daardie area wees voordat jy die soektog begin. Byvoorbeeld, as jy 'n plek in Viëtnam wil vind en jou ligging is iewers anders, moet jy eers die kaart van Viëtnam aflaai en oopmaak, of die land (Viëtnam) of gewenste stad/dorp/dorp se naam in die soekveld uitdruklik noem.

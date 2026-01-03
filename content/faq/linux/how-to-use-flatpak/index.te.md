@@ -1,11 +1,14 @@
 ---
 title: యాప్ ఫ్లాట్‌పాక్ వెర్షన్‌ని నేను ఎలా ఉపయోగించగలను?
+slug: యప-ఫలటపక-వరషనన-నన-ఎల-ఉపయగచగలన
 description: ఆర్గానిక్ మ్యాప్స్ అప్లికేషన్ కోసం తరచుగా అడిగే ప్రశ్నలు
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /te/faq/linux/how-to-use-flatpak/
 ---
 
 Flatpakతో Linuxలో OMని ఇన్‌స్టాల్ చేయడానికి, టెర్మినల్‌ని తెరిచి, `flatpak install flathub app.organicmaps.desktop`ని ఇన్‌పుట్ చేయండి

@@ -1,5 +1,6 @@
 ---
 title: Jak mohu provádět pokročilejší úpravy map?
+slug: jak-mohu-provádět-pokročilejší-úpravy-map
 description: Výukový program pro úpravu OpenStreetMap pomocí pokročilejších nástrojů,
   jako je ID, Go Map a Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /cs/faq/editing/advanced-map-editing/
 ---
 
 Organické mapy obsahují jednoduchý a snadno použitelný editor, který můžete použít k úpravě mapy. Editor je však omezený a umožňuje přidávat pouze jednoduché bodové prvky, to znamená žádné obrysy budov, silnice, jezera, města atd. Pokud chcete změnit něco, co nelze upravit pomocí zabudovaného editoru, toto je ta správná stránka s často kladenými dotazy.

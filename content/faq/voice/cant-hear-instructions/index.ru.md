@@ -1,5 +1,6 @@
 ---
 title: Я не слышу голосовые подсказки
+slug: я-не-слышу-голосовые-подсказки
 description: ""
 updated: "2024-07-22"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /ru/faq/voice/cant-hear-instructions/
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: La aplicación no puede establecer mi posición
+slug: la-aplicación-no-puede-establecer-mi-posición
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 10
+aliases:
+  - /es/faq/map/can-not-find-position/
 ---
 
 Asegúrese de que su dispositivo tenga configurados el GPS y la ubicación.

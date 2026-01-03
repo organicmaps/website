@@ -1,5 +1,6 @@
 ---
 title: No escolto instruccions de veu
+slug: no-escolto-instruccions-de-veu
 description: Guia de resolució de problemes per a instruccions de veu a la navegació
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /ca/faq/voice/cant-hear-instructions/
 ---
 
 **Nota:** les instruccions de veu estan disponibles per a rutes en cotxe i en bicicleta. De moment, només podeu escoltar instruccions de veu mentre conduïu i quan la pantalla està encesa.

@@ -1,11 +1,14 @@
 ---
 title: Was kann ich tun, wenn die App sich aufhängt/abstürzt?
+slug: was-kann-ich-tun-wenn-die-app-sich-aufhängtabstürzt
 description: Was ist zu tun, wenn die Anwendung abstürzt? Wie man kritische Fehler an Entwickler meldet.
 updated: "2025-12-31"
 taxonomies:
   faq: ["App"]
 extra:
   order: 30
+aliases:
+  - /de/faq/app/crash/
 ---
 
 Es ist wahrscheinlich unser Fehler und wir werden ihn gerne im nächsten Update beheben.

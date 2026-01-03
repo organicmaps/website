@@ -1,5 +1,6 @@
 ---
 title: 我无法听到语音指示
+slug: 我无法听到语音指示
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /zh-Hans/faq/voice/cant-hear-instructions/
 ---
 
 **请注意：** 语音指示仅适用于汽车和骑行路线。目前，您只能在驾驶时且屏幕打开时听到语音指示。

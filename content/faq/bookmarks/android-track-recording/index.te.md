@@ -1,5 +1,6 @@
 ---
 title: ఆండ్రాయిడ్‌లో బ్యాక్‌గ్రౌండ్‌లో ట్రాక్‌లు ఎందుకు విశ్వసనీయంగా రికార్డ్ చేయబడవు?
+slug: ఆడరయడల-బయకగరడల-టరకల-ఎదక-వశవసనయగ-రకరడ-చయబడవ
 description: Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo,
   Oppo, Vivo, Realme, Sony, Motorola, HTC మరియు ఇతర పరికరాలలో డిఫాల్ట్ బ్యాటరీ ఆప్టిమైజేషన్
   సెట్టింగ్‌లు నేపథ్యంలో ఆర్గానిక్ మ్యాప్స్ యాప్‌ను ఆపివేయవచ్చు లేదా చంపవచ్చు.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /te/faq/bookmarks/android-track-recording/
 ---
 
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC మరియు ఇతర పరికరాలలో డిఫాల్ట్ బ్యాటరీ ఆప్టిమైజేషన్ సెట్టింగ్‌లు నేపథ్యంలో ఆర్గానిక్ మ్యాప్స్ యాప్‌ను ఆపివేయవచ్చు లేదా చంపవచ్చు.

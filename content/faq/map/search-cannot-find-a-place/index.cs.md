@@ -1,5 +1,6 @@
 ---
 title: Vyhledávání nemůže najít místo na mapě
+slug: vyhledávání-nemůže-najít-místo-na-mapě
 description: Průvodce pro zlepšení výsledků vyhledávání a řešení problémů s hledáním
   objektů na mapě
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 20
+aliases:
+  - /cs/faq/map/search-cannot-find-a-place/
 ---
 
 Pamatujte, že pro hledání místa v konkrétní oblasti si budete muset stáhnout relevantní mapu a přiblížit mapu na tuto oblast, nebo by se vaše poloha měla nacházet v blízkosti této oblasti, než začnete hledat. Pokud například chcete najít místo ve Vietnamu a vaše poloha je někde jinde, měli byste si nejprve stáhnout a otevřít mapu Vietnamu, nebo ve vyhledávacím poli výslovně uvést zemi (Vietnam) nebo požadované město/město/vesnici.

@@ -1,11 +1,14 @@
 ---
 title: ആപ്പിൻ്റെ ഫ്ലാറ്റ്പാക്ക് പതിപ്പ് ഞാൻ എങ്ങനെ ഉപയോഗിക്കും?
+slug: ആപപൻറ-ഫലററപകക-പതപപ-ഞൻ-എങങന-ഉപയഗകക
 description: ഓർഗാനിക് മാപ്സ് ആപ്ലിക്കേഷനായി പതിവായി ചോദിക്കുന്ന ചോദ്യങ്ങൾ
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /ml/faq/linux/how-to-use-flatpak/
 ---
 
 ഫ്ലാറ്റ്പാക്ക് ഉപയോഗിച്ച് ലിനക്സിൽ OM ഇൻസ്റ്റാൾ ചെയ്യാൻ, ടെർമിനൽ തുറന്ന് `flatpak install flathub app.organicmaps.desktop` എന്ന് നൽകുക

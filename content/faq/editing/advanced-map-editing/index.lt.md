@@ -1,5 +1,6 @@
 ---
 title: Kaip galiu atlikti sudėtingesnį žemėlapio redagavimą?
+slug: kaip-galiu-atlikti-sudėtingesnį-žemėlapio-redagavimą
 description: „OpenStreetMap“ redagavimo naudojant pažangesnius įrankius, pvz., ID,
   „Go Map“ ir „Vespucci“ mokymo programa
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /lt/faq/editing/advanced-map-editing/
 ---
 
 Organiniuose žemėlapiuose yra paprastas ir lengvai naudojamas redaktorius, kurį galite naudoti norėdami redaguoti žemėlapį. Tačiau redaktorius yra ribotas ir leidžia pridėti tik paprastų taškų ypatybių, t.

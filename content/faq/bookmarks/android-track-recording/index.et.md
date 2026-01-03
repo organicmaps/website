@@ -1,5 +1,6 @@
 ---
 title: Miks ei salvestata Androidi taustal lugusid usaldusväärselt?
+slug: miks-ei-salvestata-androidi-taustal-lugusid-usaldusväärselt
 description: Samsungi, Huawei, Google'i, Xiaomi, OnePlusi, Meizu, Asuse, Wiko, Lenovo,
   Oppo, Vivo, Realme, Sony, Motorola, HTC ja muude seadmete aku optimeerimise vaikeseaded
   võivad taustal peatada või tappa rakenduse Organic Maps.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /et/faq/bookmarks/android-track-recording/
 ---
 
 Samsungi, Huawei, Google'i, Xiaomi, OnePlusi, Meizu, Asuse, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC ja muude seadmete aku optimeerimise vaikeseaded võivad taustal peatada või tappa rakenduse Organic Maps.

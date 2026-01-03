@@ -1,5 +1,6 @@
 ---
 title: Que podo facer se a aplicación se detivo ou fallou?
+slug: que-podo-facer-se-a-aplicación-se-detivo-ou-fallou
 description: Que accións tomar se a aplicación falla. Como informar de erros críticos aos desenvolvedores
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /gl/faq/app/crash/
 ---
 
 En Android, se almacenas os teus mapas nunha tarxeta SD, a causa máis probable é unha tarxeta SD defectuosa. Podes:

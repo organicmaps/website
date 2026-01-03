@@ -1,11 +1,14 @@
 ---
 title: Co mogę zrobić, jeśli aplikacja nie odpowiada/uległa awarii?
+slug: co-mogę-zrobić-jeśli-aplikacja-nie-odpowiadauległa-awarii
 description: Jakie działania podjąć w przypadku awarii aplikacji. Jak zgłaszać krytyczne błędy programistom.
 updated: "2024-06-12"
 taxonomies:
   faq: ["Aplikacja"]
 extra:
   order: 30
+aliases:
+  - /pl/faq/app/crash/
 ---
 
 W systemie Android, jeśli mapy są przechowywane na karcie SD, najprawdopodobniej przyczyną jest uszkodzona karta SD. Można:

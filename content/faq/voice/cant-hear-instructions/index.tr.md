@@ -1,5 +1,6 @@
 ---
 title: Sesli yönergeleri duyamıyorum
+slug: sesli-yönergeleri-duyamıyorum
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /tr/faq/voice/cant-hear-instructions/
 ---
 
 **Not:** Araba ve bisiklet yolları için sesli yönlendirme mevcuttur. Şimdilik sesli yönlendirmeyi yalnızca sürüş sırasında ve ekran açıkken duyabilirsiniz.

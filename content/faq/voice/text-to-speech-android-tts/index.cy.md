@@ -1,11 +1,14 @@
 ---
 title: Testun-i-Leferydd ar Android
+slug: testun-i-leferydd-ar-android
 description: Canllaw ar sut i wneud i TTS weithio ar Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /cy/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Crynodeb

@@ -1,5 +1,6 @@
 ---
 title: Pam nad yw traciau'n cael eu cofnodi'n ddibynadwy yn y cefndir ar Android?
+slug: pam-nad-yw-traciaun-cael-eu-cofnodin-ddibynadwy-yn-y-cefndir-ar-android
 description: Gall gosodiadau optimeiddio batri rhagosodedig ar Samsung, Huawei, Google,
   Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola,
   HTC a dyfeisiau eraill atal neu ladd app Mapiau Organig yn y cefndir.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /cy/faq/bookmarks/android-track-recording/
 ---
 
 Gall gosodiadau optimeiddio batri rhagosodedig ar Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC a dyfeisiau eraill atal neu ladd app Mapiau Organig yn y cefndir.

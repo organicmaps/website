@@ -1,11 +1,14 @@
 ---
 title: 如果应用停止运行（或崩溃），我该怎么办
+slug: 如果应用停止运行或崩溃我该怎么办
 description: 应用程序崩溃时应采取的措施。如何向开发人员报告关键错误。
 updated: "2024-06-12"
 taxonomies:
   faq: ["应用"]
 extra:
   order: 30
+aliases:
+  - /zh-Hans/faq/app/crash/
 ---
 
 这可能是 Organic Maps 的 bug，我们将很乐意在下一个更新中修复。

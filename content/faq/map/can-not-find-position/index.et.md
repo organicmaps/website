@@ -1,5 +1,6 @@
 ---
 title: Rakendus ei leia minu asukohta kaardil
+slug: rakendus-ei-leia-minu-asukohta-kaardil
 description: Veaotsingu juhend asukoha määramisega seotud probleemide lahendamiseks
   iOS-i ja Android-seadmete jaoks
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /et/faq/map/can-not-find-position/
 ---
 
 Veenduge, et teie seadmel on GPS, asukohateenused on lubatud ja orgaanilistele kaartidele on antud asukohaload.

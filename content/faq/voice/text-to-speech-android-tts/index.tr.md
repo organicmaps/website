@@ -1,10 +1,13 @@
 ---
 title: Android'de Metinden Konuşmaya
+slug: androidde-metinden-konuşmaya
 description: TTS'nin Android'de nasıl çalışacağına ilişkin kılavuz
 taxonomies:
   faq: ["Sesli Yönlendirme"]
 extra:
   order: 10
+aliases:
+  - /tr/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Özet

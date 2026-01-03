@@ -1,5 +1,6 @@
 ---
 title: Per què les pistes no s'enregistren de manera fiable en segon pla a Android?
+slug: per-què-les-pistes-no-senregistren-de-manera-fiable-en-segon-pla-a-android
 description: La configuració predeterminada d'optimització de la bateria a Samsung,
   Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme,
   Sony, Motorola, HTC i altres dispositius poden aturar o matar l'aplicació Organic
@@ -10,6 +11,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /ca/faq/bookmarks/android-track-recording/
 ---
 
 La configuració predeterminada d'optimització de la bateria a Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC i altres dispositius poden aturar o matar l'aplicació Organic Maps en segon pla.

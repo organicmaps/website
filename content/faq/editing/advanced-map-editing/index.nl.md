@@ -1,5 +1,6 @@
 ---
 title: Hoe kan ik geavanceerder kaartbewerkingen uitvoeren?
+slug: hoe-kan-ik-geavanceerder-kaartbewerkingen-uitvoeren
 description: Tutorial voor het bewerken van OpenStreetMap met meer geavanceerde tools
   zoals ID, Go Map en Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /nl/faq/editing/advanced-map-editing/
 ---
 
 Organische kaarten bevatten een eenvoudige en gebruiksvriendelijke editor waarmee u de kaart kunt bewerken. De editor is echter beperkt en staat alleen toe om eenvoudige puntkenmerken toe te voegen, dat wil zeggen geen bebouwingscontouren, wegen, meren, steden, etc. Als je iets wilt veranderen dat niet kan worden bewerkt met de ingebouwde editor, dan is dit de juiste FAQ-pagina om te lezen.

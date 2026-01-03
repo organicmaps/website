@@ -1,11 +1,14 @@
 ---
 title: كيف يمكنني استخدام إصدار flatpak من التطبيق؟
+slug: كيف-يمكنني-استخدام-إصدار-flatpak-من-التطبيق
 description: الأسئلة المتداولة لتطبيق الخرائط العضوية
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /ar/faq/linux/how-to-use-flatpak/
 ---
 
 لتثبيت OM على Linux باستخدام flatpak، افتح الوحدة الطرفية وأدخل `flatpak install flathub app.organicmaps.desktop`.

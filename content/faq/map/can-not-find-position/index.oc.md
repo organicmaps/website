@@ -1,5 +1,6 @@
 ---
 title: L'aplicacion pòt pas trobar ma posicion sus la mapa
+slug: laplicacion-pòt-pas-trobar-ma-posicion-sus-la-mapa
 description: Guia de solucion de problèmas per resòlvre los problèmas amb la determinacion de la posicion
   per dispositius iOS e Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Mapa
 extra:
   order: 10
+aliases:
+  - /oc/faq/map/can-not-find-position/
 ---
 
 Asseguratz-vos que vòstre aparelh aja lo GPS, que los servicis de localizacion sián activats, e que las autorizacions de localizacion sián donadas a Organic Maps.

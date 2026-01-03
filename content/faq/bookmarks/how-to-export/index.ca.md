@@ -1,5 +1,6 @@
 ---
 title: Com compartir (exportar) adreces d'interès i pistes?
+slug: com-compartir-exportar-adreces-dinterès-i-pistes
 description: Guia pas a pas per exportar adreces d'interès i pistes des de mapes orgànics
   a altres aplicacions i compartir-les amb contactes
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /ca/faq/bookmarks/how-to-export/
 ---
 
 Toqueu una adreça d'interès al mapa o a la llista i, a continuació, toqueu el botó "Comparteix" a la pàgina del lloc.

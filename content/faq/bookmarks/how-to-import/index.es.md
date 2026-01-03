@@ -1,5 +1,6 @@
 ---
 title: Cómo puedo importar los marcadores?
+slug: cómo-puedo-importar-los-marcadores
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /es/faq/bookmarks/how-to-import/
 ---
 
 Puede importar marcadores enviados desde Organic Maps o aplicaciones de terceros si exportan marcadores en formato KML, KMZ, KMB, GPX:

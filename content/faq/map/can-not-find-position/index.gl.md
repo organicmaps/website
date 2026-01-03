@@ -1,5 +1,6 @@
 ---
 title: A aplicación non pode atopar a miña posición no mapa
+slug: a-aplicación-non-pode-atopar-a-miña-posición-no-mapa
 description: Guía de solución de problemas para resolver problemas coa determinación
   da localización para dispositivos iOS e Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /gl/faq/map/can-not-find-position/
 ---
 
 Asegúrate de que o teu dispositivo teña GPS, que os servizos de localización estean activados e que se outorguen permisos de localización a Organic Maps.

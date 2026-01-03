@@ -1,5 +1,6 @@
 ---
 title: De app kan mijn positie op de kaart niet vinden
+slug: de-app-kan-mijn-positie-op-de-kaart-niet-vinden
 description: Probleemoplossingsgids voor het oplossen van problemen met locatiebepaling
   voor iOS- en Android-apparaten
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /nl/faq/map/can-not-find-position/
 ---
 
 Zorg ervoor dat uw apparaat GPS heeft, locatieservices zijn ingeschakeld en locatierechten zijn gegeven aan organische kaarten.

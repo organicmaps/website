@@ -1,5 +1,6 @@
 ---
 title: Como crear unha ruta e iniciar a navegación
+slug: como-crear-unha-ruta-e-iniciar-a-navegación
 description: Guía para construír unha ruta e navegar mediante o mapa
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /gl/faq/map/how-to-create-a-route/
 ---
 
 Unha vez que se determine a súa localización no mapa, escolla o seu destino.

@@ -1,5 +1,6 @@
 ---
 title: Jak importować zakładki?
+slug: jak-importować-zakładki
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pl/faq/bookmarks/how-to-import/
 ---
 
 Możesz importować zakładki wysyłane z aplikacji Organic Maps lub innych firm, jeśli eksportują zakładki w formacie KML:

@@ -1,5 +1,6 @@
 ---
 title: Cossí importar de marcapàginas e de traças dins los formats KML, KMZ, KMB o GPX?
+slug: cossí-importar-de-marcapàginas-e-de-traças-dins-los-formats-kml-kmz-kmb-o-gpx
 description: Instruccions pas a pas per importar de marcapàginas e de traças partajadas amb vos en formats KML, KMZ, KMB o GPX
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Marcapàginas e traças
 extra:
   order: 20
+aliases:
+  - /oc/faq/bookmarks/how-to-import/
 ---
 
 Podètz importar de marcapaginas mandats dempuèi Organic Maps o d'aplicacions de tèrças partidas s'exportan de marcapaginas dins los formats KML, KMZ, KMB, GPX.

@@ -1,5 +1,6 @@
 ---
 title: Perché le tracce non vengono registrate in modo affidabile in background su
+slug: perché-le-tracce-non-vengono-registrate-in-modo-affidabile-in-background-su
   Android?
 description: Le impostazioni predefinite di ottimizzazione della batteria su Samsung,
   Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme,
@@ -11,6 +12,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /it/faq/bookmarks/android-track-recording/
 ---
 
 Le impostazioni predefinite di ottimizzazione della batteria su Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e altri dispositivi potrebbero interrompere o interrompere l'app Organic Maps in background.

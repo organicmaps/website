@@ -1,5 +1,6 @@
 ---
 title: 搜索功能无法在地图上找到地点
+slug: 搜索功能无法在地图上找到地点
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /zh-Hans/faq/map/search-cannot-find-a-place/
 ---
 
 请记住，要在特定区域搜索地方，您需要下载相关地图并将地图缩放到该区域，或者在开始搜索之前，您的位置应该接近该区域。 例如，如果您想在越南找到一个地方，而您的位置在其他地方，您应该先下载并打开越南的地图。

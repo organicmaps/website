@@ -1,5 +1,6 @@
 ---
 title: 如何导入书签
+slug: 如何导入书签
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /zh-Hans/faq/bookmarks/how-to-import/
 ---
 
 您可以导入从 Organic Maps 或第三方应用发送的以 KML、KMZ、KMB、GPX 格式导出的书签：

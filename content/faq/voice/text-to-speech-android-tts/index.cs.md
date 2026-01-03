@@ -1,11 +1,14 @@
 ---
 title: Převod textu na řeč v systému Android
+slug: převod-textu-na-řeč-v-systému-android
 description: Průvodce, jak zajistit, aby TTS fungovalo na Androidu
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /cs/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Shrnutí

@@ -1,5 +1,6 @@
 ---
 title: Hoe kan ik de kaart in Organische kaarten bewerken?
+slug: hoe-kan-ik-de-kaart-in-organische-kaarten-bewerken
 description: Tutorial voor het bewerken van OpenStreetMap vanuit de Organic Maps-app
   meer
 updated: '2025-01-05'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /nl/faq/editing/organic-maps-map-editing/
 ---
 
 Met organische kaarten kunt u eenvoudig ontbrekende plaatsen aan de kaart toevoegen, extra details toevoegen, zoals openingstijden, of verkeerde invoer corrigeren. Door dit te doen verbetert u de kaartgegevens voor alle gebruikers.

@@ -1,11 +1,14 @@
 ---
 title: Sut mae defnyddio'r fersiwn flatpak o'r app?
+slug: sut-mae-defnyddior-fersiwn-flatpak-or-app
 description: Cwestiynau cyffredin ar gyfer cais Mapiau Organig
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /cy/faq/linux/how-to-use-flatpak/
 ---
 
 I osod OM ar Linux gyda flatpak, agorwch y derfynell a mewnbynnu `flatpak install flathub app.organicmaps.desktop`

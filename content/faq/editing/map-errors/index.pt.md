@@ -1,5 +1,6 @@
 ---
 title: Faltam alguns lugares no mapa ou têm nomes errados
+slug: faltam-alguns-lugares-no-mapa-ou-têm-nomes-errados
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /pt/faq/editing/map-errors/
 ---
 
 A nossa fonte de dados do mapa é [OpenStreetMap](https://welcome.openstreetmap.org/) (OSM). Trata-se de um projeto de mapeamento semelhante à Wikipédia, mas para mapas, onde qualquer pessoa pode criar e editar mapas.

@@ -1,11 +1,14 @@
 ---
 title: Testu-hizketa Android-en
+slug: testu-hizketa-android-en
 description: TTS Android-en funtzionatzeko gida
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /eu/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Laburpena

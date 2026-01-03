@@ -1,5 +1,6 @@
 ---
 title: Cossí crear una rota e començar la navigacion
+slug: cossí-crear-una-rota-e-començar-la-navigacion
 description: Guia per bastir una rota e navegar en utilizant la mapa
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Mapa
 extra:
   order: 40
+aliases:
+  - /oc/faq/map/how-to-create-a-route/
 ---
 
 Un còp que vòstra posicion es determinada sus la mapa, causissètz vòstra destinacion.

@@ -1,5 +1,6 @@
 ---
 title: Não consigo ouvir instruções de voz
+slug: não-consigo-ouvir-instruções-de-voz
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pt-BR/faq/voice/cant-hear-instructions/
 ---
 
 

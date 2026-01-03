@@ -1,5 +1,6 @@
 ---
 title: Jak mogę przeprowadzić bardziej zaawansowaną edycję mapy?
+slug: jak-mogę-przeprowadzić-bardziej-zaawansowaną-edycję-mapy
 description: Samouczek edycji OpenStreetMap za pomocą bardziej zaawansowanych narzędzi,
   takich jak ID, Go Map i Vespucci
 updated: '2024-06-20'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Edycja mapy"]
 extra:
   order: 40
+aliases:
+  - /pl/faq/editing/advanced-map-editing/
 ---
 
 Organic Maps zawiera prosty i łatwy w obsłudze edytor, za pomocą którego możesz edytować mapę. Edytor jest jednak ograniczony i pozwala jedynie na dodawanie prostych obiektów punktowych, co oznacza brak obrysów budynków, dróg, jezior, miast itp. Jeśli chcesz zmienić coś, czego nie można edytować za pomocą wbudowanego edytora, to jest to właściwa strona FAQ do przeczytania.

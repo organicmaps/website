@@ -1,5 +1,6 @@
 ---
 title: Wat kan ek doen as die toepassing gestop/geval het?
+slug: wat-kan-ek-doen-as-die-toepassing-gestopgeval-het
 description: Watter stappe om te neem as die toepassing ineenstort. Hoe om kritieke foute aan ontwikkelaars te rapporteer
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /af/faq/app/crash/
 ---
 
 Op Android, as jy jou kaarte op 'n SD-kaart stoor, is die mees waarskynlike oorsaak 'n foutiewe SD-kaart. Jy kan:

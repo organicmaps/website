@@ -1,5 +1,6 @@
 ---
 title: Nola edita dezaket mapa Organic Maps-en?
+slug: nola-edita-dezaket-mapa-organic-maps-en
 description: Organic Maps aplikazioaren barruan OpenStreetMap editatzeko tutoriala
   gehiago
 updated: '2025-01-05'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /eu/faq/editing/organic-maps-map-editing/
 ---
 
 Organic Maps-ekin, erraz gehi ditzakezu mapan falta diren tokiak, xehetasun gehigarriak gehi ditzakezu, esaterako, ordutegia, edo okerreko sarrerak konpondu. Hori eginez gero, erabiltzaile guztien mapa-datuak hobetuko dituzu.

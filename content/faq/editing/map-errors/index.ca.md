@@ -1,5 +1,6 @@
 ---
 title: Falten alguns llocs al mapa o tenen noms incorrectes
+slug: falten-alguns-llocs-al-mapa-o-tenen-noms-incorrectes
 description: Consells per corregir errors als mapes, fer canvis i actualitzacions
   als objectes directament a Organic Maps o a través d'OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /ca/faq/editing/map-errors/
 ---
 
 La nostra font de dades de mapes és [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Aquest és un projecte de mapeig similar a la Viquipèdia, però per a mapes, on qualsevol pot crear i editar el mapa del món.

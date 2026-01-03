@@ -1,5 +1,6 @@
 ---
 title: Android वर पार्श्वभूमीत ट्रॅक विश्वसनीयरित्या का रेकॉर्ड केले जात नाहीत?
+slug: android-वर-परशवभमत-टरक-वशवसनयरतय-क-रकरड-कल-जत-नहत
 description: Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo,
   Oppo, Vivo, Realme, Sony, Motorola, HTC आणि इतर डिव्हाइसेसवरील डीफॉल्ट बॅटरी ऑप्टिमायझेशन
   सेटिंग्ज पार्श्वभूमीत ऑर्गेनिक नकाशे ॲप थांबवू किंवा नष्ट करू शकतात.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /mr/faq/bookmarks/android-track-recording/
 ---
 
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC आणि इतर डिव्हाइसेसवरील डीफॉल्ट बॅटरी ऑप्टिमायझेशन सेटिंग्ज पार्श्वभूमीत ऑर्गेनिक नकाशे ॲप थांबवू किंवा नष्ट करू शकतात.

@@ -1,5 +1,6 @@
 ---
 title: Nie słyszę instrukcji głosowych
+slug: nie-słyszę-instrukcji-głosowych
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /pl/faq/voice/cant-hear-instructions/
 ---
 
 **Uwaga:** instrukcje głosowe są dostępne dla tras samochodowych i rowerowych. Na razie, można słyszeć instrukcje głosowe tylko podczas jazdy i gdy ekran jest włączony.

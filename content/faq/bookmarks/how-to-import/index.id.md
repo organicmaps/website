@@ -1,5 +1,6 @@
 ---
 title: Bagaimana cara mengimpor bookmark dan trek dalam format KML, KMZ, KMB atau
+slug: bagaimana-cara-mengimpor-bookmark-dan-trek-dalam-format-kml-kmz-kmb-atau
   GPX?
 description: Petunjuk langkah demi langkah untuk mengimpor bookmark dan trek yang
   dibagikan kepada Anda dalam format KML, KMZ, KMB atau GPX
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /id/faq/bookmarks/how-to-import/
 ---
 
 Anda dapat mengimpor bookmark yang dikirim dari Peta Organik atau aplikasi pihak ketiga jika aplikasi tersebut mengekspor bookmark dalam format KML, KMZ, KMB, GPX.

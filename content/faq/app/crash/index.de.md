@@ -1,11 +1,9 @@
 ---
 title: Was kann ich tun, wenn die App sich aufhängt/abstürzt?
-description: ""
+description: Was ist zu tun, wenn die Anwendung abstürzt? Wie man kritische Fehler an Entwickler meldet.
 updated: "2025-12-31"
-
 taxonomies:
   faq: ["App"]
-
 extra:
   order: 30
 ---
@@ -17,7 +15,7 @@ Android: Wenn du deine Karten auf einer SD-Karte speicherst, ist die wahrscheinl
 2. Alle Karten löschen, Internen Speicher auswählen, und erneut herunterladen.
 3. Deine SD-Karte formatieren und die Karten erneut herunterladen
 4. Sie durch eine neue SD-Karte ersetzen (empfohlen)
-5. 
+
 Wenn das Problem weiterhin besteht, [kontaktiere uns bitte](mailto:support@organicmaps.app) und gib uns:
 
 * Eine kurze Beschreibung des Problems mit Schritten zur Reproduktion

@@ -1,11 +1,9 @@
 ---
 title: Text-to-Speech on Android
-description: Guide on how to make TTS work on Android
+description: Guide on how to setup TTS voice directions on Android
 aliases: ["/faq/text-to-speech-android-tts"]
-
 taxonomies:
   faq: ["Voice Directions"]
-
 extra:
   order: 10
 ---

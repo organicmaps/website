@@ -1,0 +1,20 @@
+---
+title: Perqué las pistas se registran pas de manièra fiabla en fons d'Android?
+description: Las configuracions d'optimizacion de la bateria per defaut sus Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e d'autres aparelhs pòdon arrestar o tuar l'aplicacion Organic Maps en fons.
+updated: '2024-10-05'
+taxonomies:
+  faq:
+  - Marcapàginas e traças
+extra:
+  order: 30
+---
+
+Las configuracions d'optimizacion de la bateria per defaut sus Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e d'autres aparelhs pòdon arrestar o tuar l'aplicacion Organic Maps en fons.
+
+Aquò es particularament vertadièr per las versions modèrnas d'Android:
+- Android 14
+- Android 13
+- Android 12
+- Android 11
+
+Los passes exactes per far foncionar Organic Maps (e d'autras aplicacions) en fons son listats aicí: [dontkillmyapp.com](https://dontkillmyapp.com)

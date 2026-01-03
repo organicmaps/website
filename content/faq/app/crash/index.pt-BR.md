@@ -1,11 +1,9 @@
 ---
 title: O que posso fazer se o aplicativo parar (travar)?
-description: ""
+description: Quais ações tomar se o aplicativo travar. Como relatar bugs críticos aos desenvolvedores.
 updated: "2024-06-12"
-
 taxonomies:
-  faq: ["Aplicativa"]
-
+  faq: ["Aplicativo"]
 extra:
   order: 30
 ---

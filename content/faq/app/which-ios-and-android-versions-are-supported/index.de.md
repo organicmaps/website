@@ -2,10 +2,8 @@
 title: Welche iOS- und Android-Versionen werden unterstützt?
 description: Mindestanforderungen um Organic Maps auf Android- und iOS-Geräten zu benutzen
 updated: "2025-12-31"
-
 taxonomies:
   faq: ["App"]
-
 extra:
   order: 10
 ---

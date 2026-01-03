@@ -2,10 +2,8 @@
 title: Wie benutzt man Android Auto?
 description: Mindestanforderungen um Organic Maps mit Android Auto zu benutzen
 updated: "2025-12-31"
-
 taxonomies:
   faq: ["App"]
-
 extra:
   order: 20
 ---

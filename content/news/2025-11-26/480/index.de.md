@@ -43,11 +43,11 @@ Lesen Sie die [vorherigen Versionshinweise](@/news/2025-11-11/470/index.de.md), 
 
 ### Beta-Testprogramm
 
-Treten Sie dem Beta-Test bei, um frühzeitigen Zugang zu neuen Funktionen zu erhalten und uns zu helfen, Fehler früher zu finden:
+Tritt dem Beta-Test bei, um frühzeitigen Zugang zu neuen Funktionen zu erhalten und uns zu helfen, Fehler früher zu finden:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps wäre ohne Ihre [Spenden](@/donate/index.de.md), [Beiträge und Unterstützung](@/contribute/index.de.md) nicht möglich ❤️
+Organic Maps wäre ohne deine [Spenden](@/donate/index.de.md), [Beiträge und Unterstützung](@/contribute/index.de.md) nicht möglich ❤️
 
 Mit Sorgfalt und Liebe,
 Das Organic Maps Team

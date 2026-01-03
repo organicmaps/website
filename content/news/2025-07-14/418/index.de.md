@@ -5,11 +5,11 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Lernen Sie das Organic Maps Juli-Update mit vielen Korrekturen und Verbesserungen kennen, dank unserer Mitwirkenden ❤️💪! Das Update ist bereits im [AppStore][appstore], [Obtainium][obtainium] und [Accrescent][accrescent] verfügbar und wird in wenigen Tagen in [Google Play][googleplay], [Huawei AppGallery][appgallery] und [FDroid][fdroid] bereit sein.
+Lerne das Organic Maps Juli-Update mit vielen Korrekturen und Verbesserungen kennen, dank unserer Mitwirkenden ❤️💪! Das Update ist bereits im [AppStore][appstore], [Obtainium][obtainium] und [Accrescent][accrescent] verfügbar und wird in wenigen Tagen in [Google Play][googleplay], [Huawei AppGallery][appgallery] und [FDroid][fdroid] bereit sein.
 
-[Ihre Spenden](@/donate/index.de.md) und [Unterstützung](@/contribute/index.de.md), [Fehlerberichte][github issues] und [Verbesserungen][github] helfen uns, gemeinsam bessere Karten zu erstellen!
+[Deine Spenden](@/donate/index.de.md) und [Unterstützung](@/contribute/index.de.md), [Fehlerberichte][github issues] und [Verbesserungen][github] helfen uns, gemeinsam bessere Karten zu erstellen!
 
-Vergessen Sie nicht, dass Sie sich für das Beta-Testprogramm anmelden können, um früheren Zugang zu experimentellen und kommenden Funktionen zu erhalten [für iOS][testflight] und [für Android][firebase].
+Vergiss nicht, dass du dich für das Beta-Testprogramm anmelden kannst, um früheren Zugang zu experimentellen und kommenden Funktionen zu erhalten [für iOS][testflight] und [für Android][firebase].
 
 Die vollständige Liste der Änderungen:
 - Neue OSM-Kartendaten vom 8. Juli, Wikipedia-Daten vom 1. Juli

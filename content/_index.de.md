@@ -11,7 +11,7 @@ title: 'Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation'
 
 **Organic Maps** ist heutzutage eine der wenigen Apps, die 100% ihrer Funktionen ohne aktive Internetverbindung unterstützt. Installiere Organic Maps, lade Karten herunter, wirf deine SIM-Karte weg (dein Betreiber verfolgt dich übrigens ständig) und mache einen Wochenausflug mit einer einzigen Akkuladung, ohne dass ein Byte an das Netz gesendet wird.
 
-> Im Dezember 2025 erreichte Organic Maps [6 Millionen Installationen](@/news/2025-12-31/500/index.de.md). [Helfen Sie uns](@/donate/index.de.md) zu wachsen!
+> Im Dezember 2025 erreichte Organic Maps [6 Millionen Installationen](@/news/2025-12-31/500/index.de.md). [Hilf uns](@/donate/index.de.md) zu wachsen!
 
 ### Organic Maps von [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] herunterladen und installieren {#install}
 
@@ -142,7 +142,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
       <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> hat Organic Maps im Februar 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">einen Mikro-Zuschuss von 1000 $ gewährt</a>.
+      <a href="https://futo.org">FUTO</a> hat Organic Maps im Februar 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">einen Microgrant von 1000 $ gewährt</a>.
     </td>
   </tr>
 </table>

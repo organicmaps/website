@@ -6,9 +6,9 @@ taxonomies:
   news: ["Releases"]
 ---
 
-Frohe Weihnachten und ein gutes neues Jahr vom Organic Maps Team. Auf der Suche nach Weihnachtsstimmung? Suchen Sie nach `Weihnachtsmarkt` oder `Weihnachtsbaum`, um sie auf der Karte zu sehen. Wenn in Ihrer Gegend nichts angezeigt wird, fügen Sie bitte die fehlenden Funktionen auf OpenStreetMap.org hinzu und verbessern Sie die Karte für alle!
+Frohe Weihnachten und ein gutes neues Jahr vom Organic Maps Team. Auf der Suche nach Weihnachtsstimmung? Suche nach `Weihnachtsmarkt` oder `Weihnachtsbaum`, um sie auf der Karte zu sehen. Wenn in deiner Gegend nichts angezeigt wird, füge bitte die fehlenden Funktionen auf OpenStreetMap.org hinzu und verbessere die Karte für alle!
 
-Installieren Sie Organic Maps von <https://omaps.app/get> oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid]
+Installiere Organic Maps von <https://omaps.app/get> oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid]
 
 ### Versionshinweise
 - Weihnachtsbäume und -märkte erscheinen jetzt auf der Karte (Viktor Govako)
@@ -33,11 +33,11 @@ Installieren Sie Organic Maps von <https://omaps.app/get> oder aus dem [App Stor
 - Der Fahrzeugstandortsensor in Android Auto ist deaktiviert, um Standortprobleme zu vermeiden (Andrei Shkrob)
 - Die Trackaufzeichnung wird fortgesetzt, auch wenn die App beendet oder geschlossen wird (Alexander Borsuk)
 
-Nehmen Sie am Betatest teil, um frühe Funktionen auszuprobieren und Probleme zu melden:
+Nimm am Betatest teil, um frühe Funktionen auszuprobieren und Probleme zu melden:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existiert dank Ihrer [Spenden](@/donate/index.de.md) und [Beiträge](@/contribute/index.de.md). Vielen Dank! ❤️
+Organic Maps existiert dank deiner [Spenden](@/donate/index.de.md) und [Beiträge](@/contribute/index.de.md). Vielen Dank! ❤️
 
 Das Organic Maps Team
 

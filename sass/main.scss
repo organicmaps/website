@@ -19,7 +19,7 @@ body {
     "segoe ui symbol";
   font-size: 16px;
   line-height: 1.5;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 code {
@@ -30,7 +30,7 @@ code {
 code,
 a {
   // Prevents horizontal scrolling in Safari on narrow screen for long links and code lines.
-  word-wrap: anywhere;
+  overflow-wrap: anywhere;
 }
 
 pre {
@@ -40,7 +40,7 @@ pre {
 
 p > code, li > code, dd > code, td > code {
   background: #ddd;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   box-decoration-break: clone;
   padding: .1rem .3rem .2rem;
   border-radius: .2rem;

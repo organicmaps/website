@@ -47,7 +47,10 @@ $baseBgColor: black;
 input.lang-menu-trigger {
   // Hide input checkbox, label is used for touch events instead.
   position: absolute;
-  clip: rect(0, 0, 0, 0);
+  // For compatibility with older browsers.
+  clip: rect(0, 0, 0, 0);  // stylelint-disable-line
+  // Duplicate of clip for modern browsers.
+  clip-path: inset(50%);
 
   // Show menu on checkbox click.
   &:checked ~ .lang-menu {

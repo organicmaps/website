@@ -30,7 +30,7 @@ Noklikšķiniet uz vēlamās maksājuma metodes ikonas zemāk:
 ## Kāpēc bezmaksas projektam vajadzīga nauda?
 
 1. 2023. gadā Organic Maps sasniedza pirmo miljonu lietotāju.
-   Mūsu serveri nodrošina bezmaksas, ātrus un biežus kartes atjauninājumus visā pasaulē.
+         Mūsu serveri nodrošina bezmaksas, ātrus un biežus kartes atjauninājumus visā pasaulē.
 2. Lietotāju atbalsts, kļūdu labošana un kvalitatīvu lietotnes atjauninājumu publicēšana ir mūsu prioritāte.
    [~2000 kļūdu ziņojumi un funkciju pieprasījumi GitHub][github issues], un šis skaits aug katru dienu.
    AppStore, Google Play un atbalsta e-pasti ir pārpildīti ar komentāriem un kļūdām. Mēs vēlamies nodrošināt augstas kvalitātes produktu.

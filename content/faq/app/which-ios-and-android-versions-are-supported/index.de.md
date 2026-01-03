@@ -8,8 +8,8 @@ extra:
   order: 10
 ---
 
-Es wird mindestens iOS 12 oder Android 5 benötigt um die App zu benutzen. Geräte mit neueren Versionen können Organic Maps benutzen.
+Es wird mindestens iOS 12 oder Android 5 benötigt um die App zu nutzen. Geräte mit neueren Versionen können Organic Maps benutzen.
 
 Bei Android funktioniert Organic Maps auf Geräten mit Google Services und auch ohne Google-Unterstützung.
 
-Um Oragnic Maps mit Android Auto zu benutzen, überprüfen Sie bitte die Anforderungen [hier](../how-to-use-android-auto/).
+Um Oragnic Maps mit Android Auto zu nutzen, überprüfe bitte die Anforderungen [hier](../how-to-use-android-auto/).

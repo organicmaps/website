@@ -1,5 +1,6 @@
 ---
 title: Як імпортувати мітки?
+slug: як-імпортувати-мітки
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /uk/faq/bookmarks/how-to-import/
 ---
 
 Ви можете імпортувати мітки, надіслані з Organic Maps або зі сторонніх додатків, які підтримують експорт у формати KML, KMZ, KMB або GPX:

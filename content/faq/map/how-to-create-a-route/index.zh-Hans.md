@@ -1,5 +1,6 @@
 ---
 title: 如何创建路线并开始导航
+slug: 如何创建路线并开始导航
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /zh-Hans/faq/map/how-to-create-a-route/
 ---
 
 一旦在地图上确定了您的位置，请选择您的目的地。您可以使用以下方法之一：

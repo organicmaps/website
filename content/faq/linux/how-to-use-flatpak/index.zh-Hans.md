@@ -1,11 +1,14 @@
 ---
 title: 如何使用应用程序的 flatpak 版本？
+slug: 如何使用应用程序的-flatpak-版本
 description: 有机地图应用程序的常见问题
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /zh-Hans/faq/linux/how-to-use-flatpak/
 ---
 
 要使用 flatpak 在 Linux 上安装 OM，请打开终端并输入“flatpak install flathub app.organicmaps.desktop”

@@ -1,5 +1,6 @@
 ---
 title: Hogyan lehet megosztani (exportálni) könyvjelzőket és számokat?
+slug: hogyan-lehet-megosztani-exportálni-könyvjelzőket-és-számokat
 description: Lépésről lépésre szóló útmutató könyvjelzők és számok exportálásához
   az Organikus térképekből más alkalmazásokba, valamint a névjegyekkel való megosztáshoz
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /hu/faq/bookmarks/how-to-export/
 ---
 
 Koppintson egy könyvjelzőre a térképen vagy a listában, majd érintse meg a „Megosztás” gombot a hely oldalán.

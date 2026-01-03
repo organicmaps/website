@@ -1,5 +1,6 @@
 ---
 title: Wie kann ich die Karte in Organic Maps bearbeiten?
+slug: wie-kann-ich-die-karte-in-organic-maps-bearbeiten
 description: Tutorial zum Bearbeiten von OpenStreetMap aus der Organic Maps-App heraus
   mehr
 updated: '2025-01-05'
@@ -7,6 +8,8 @@ taxonomies:
   faq: ["Kartenbearbeitung"]
 extra:
   order: 35
+aliases:
+  - /de/faq/editing/organic-maps-map-editing/
 ---
 
 Mit Organic Maps können Sie ganz einfach fehlende Orte zur Karte hinzufügen, zusätzliche Details wie Öffnungszeiten hinzufügen oder falsche Einträge korrigieren. Dadurch verbessern Sie die Kartendaten für alle Benutzer.

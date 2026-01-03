@@ -1,5 +1,6 @@
 ---
 title: Hur man skapar en rutt och startar navigering
+slug: hur-man-skapar-en-rutt-och-startar-navigering
 description: Guide för att bygga en rutt och navigera med hjälp av kartan
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /sv/faq/map/how-to-create-a-route/
 ---
 
 När din plats har fastställts på kartan väljer du din destination.

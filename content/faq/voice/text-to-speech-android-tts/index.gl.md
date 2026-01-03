@@ -1,11 +1,14 @@
 ---
 title: Texto a voz en Android
+slug: texto-a-voz-en-android
 description: Guía sobre como facer que TTS funcione en Android
 taxonomies:
   faq:
   - Voice Directions
 extra:
   order: 10
+aliases:
+  - /gl/faq/voice/text-to-speech-android-tts/
 ---
 
 ## Resumo

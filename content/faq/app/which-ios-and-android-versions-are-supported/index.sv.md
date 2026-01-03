@@ -1,5 +1,6 @@
 ---
 title: Vilka iOS- och Android-versioner stöds?
+slug: vilka-ios-och-android-versioner-stöds
 description: Minimikrav för att köra organiska kartor på Android- och iOS-enheter
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 10
+aliases:
+  - /sv/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
 Du behöver minst iOS 12 eller Android 5 för att köra appen. Enheter med senare versioner kan köra organiska kartor.

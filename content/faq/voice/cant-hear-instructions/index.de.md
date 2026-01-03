@@ -1,5 +1,6 @@
 ---
 title: Ich höre keine Sprachanweisungen
+slug: ich-höre-keine-sprachanweisungen
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /de/faq/voice/cant-hear-instructions/
 ---
 
 

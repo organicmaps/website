@@ -1,10 +1,13 @@
 ---
 title: Android 上的文本转语音
+slug: android-上的文本转语音
 description: 有关如何在 Android 上使用 TTS 的指南
 taxonomies:
   faq: ["语音指导"]
 extra:
   order: 10
+aliases:
+  - /zh-Hans/faq/voice/text-to-speech-android-tts/
 ---
 
 ## 总结

@@ -1,11 +1,14 @@
 ---
 title: मी ॲपची फ्लॅटपॅक आवृत्ती कशी वापरू?
+slug: म-ॲपच-फलटपक-आवतत-कश-वपर
 description: ऑरगॅनिक नकाशे अनुप्रयोगासाठी वारंवार विचारले जाणारे प्रश्न
 taxonomies:
   faq:
   - Linux
 extra:
   order: 10
+aliases:
+  - /mr/faq/linux/how-to-use-flatpak/
 ---
 
 फ्लॅटपॅकसह लिनक्सवर ओएम स्थापित करण्यासाठी, टर्मिनल उघडा आणि `flatpak install flathub app.organicmaps.desktop` इनपुट करा.

@@ -1,5 +1,6 @@
 ---
 title: Yer imleri nasıl içe aktarılır?
+slug: yer-imleri-nasıl-içe-aktarılır
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /tr/faq/bookmarks/how-to-import/
 ---
 
 Organic Maps'ten veya yer imlerini KML, KMZ, KMB, GPX biçiminde dışa aktarıyorsa üçüncü taraf uygulamalardan gönderilen yer imlerini içe aktarabilirsiniz:

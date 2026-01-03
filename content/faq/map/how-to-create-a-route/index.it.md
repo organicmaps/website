@@ -1,5 +1,6 @@
 ---
 title: Come creare un percorso e avviare la navigazione
+slug: come-creare-un-percorso-e-avviare-la-navigazione
 description: Guida per costruire un percorso e navigare utilizzando la mappa
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /it/faq/map/how-to-create-a-route/
 ---
 
 Una volta determinata la tua posizione sulla mappa, scegli la tua destinazione.

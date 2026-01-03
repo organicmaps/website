@@ -1,5 +1,6 @@
 ---
 title: كيفية إنشاء طريق وبدء التنقل
+slug: كيفية-إنشاء-طريق-وبدء-التنقل
 description: دليل لبناء الطريق والملاحة باستخدام الخريطة
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /ar/faq/map/how-to-create-a-route/
 ---
 
 بمجرد تحديد موقعك على الخريطة، اختر وجهتك.

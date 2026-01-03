@@ -1,5 +1,6 @@
 ---
 title: L'aplicació no pot trobar la meva posició al mapa
+slug: laplicació-no-pot-trobar-la-meva-posició-al-mapa
 description: Guia de resolució de problemes per resoldre problemes amb la determinació
   de la ubicació per a dispositius iOS i Android
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /ca/faq/map/can-not-find-position/
 ---
 
 Assegureu-vos que el vostre dispositiu tingui GPS, que els serveis d'ubicació estiguin activats i que s'atorguin permisos d'ubicació a Organic Maps.

@@ -1,5 +1,6 @@
 ---
 title: Kuidas koostada marsruuti ja alustada navigeerimist
+slug: kuidas-koostada-marsruuti-ja-alustada-navigeerimist
 description: Juhend marsruudi koostamiseks ja kaardi abil navigeerimiseks
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /et/faq/map/how-to-create-a-route/
 ---
 
 Kui teie asukoht on kaardil kindlaks määratud, valige sihtkoht.

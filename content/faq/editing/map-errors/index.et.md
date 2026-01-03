@@ -1,5 +1,6 @@
 ---
 title: Mõned kohad on kaardil puudu või on vale nimega
+slug: mõned-kohad-on-kaardil-puudu-või-on-vale-nimega
 description: Näpunäiteid kaartide vigade parandamiseks, objektide muudatuste ja värskenduste
   tegemiseks otse orgaanilistes kaartides või OpenStreetMap.org kaudu
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /et/faq/editing/map-errors/
 ---
 
 Meie kaardiandmete allikas on [OpenStreetMap](https://www.openstreetmap.org/) (OSM). See on Vikipeediaga sarnane kaardistamisprojekt, kuid kaartide jaoks, kus igaüks saab luua ja muuta maailmakaarti.

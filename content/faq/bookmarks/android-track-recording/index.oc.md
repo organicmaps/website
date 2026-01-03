@@ -1,5 +1,6 @@
 ---
 title: Perqué las pistas se registran pas de manièra fiabla en fons d'Android?
+slug: perqué-las-pistas-se-registran-pas-de-manièra-fiabla-en-fons-dandroid
 description: Las configuracions d'optimizacion de la bateria per defaut sus Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e d'autres aparelhs pòdon arrestar o tuar l'aplicacion Organic Maps en fons.
 updated: '2024-10-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Marcapàginas e traças
 extra:
   order: 30
+aliases:
+  - /oc/faq/bookmarks/android-track-recording/
 ---
 
 Las configuracions d'optimizacion de la bateria per defaut sus Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e d'autres aparelhs pòdon arrestar o tuar l'aplicacion Organic Maps en fons.

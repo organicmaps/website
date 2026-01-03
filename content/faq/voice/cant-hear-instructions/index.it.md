@@ -1,11 +1,14 @@
 ---
 title: Non riesco a sentire le istruzioni vocali
+slug: non-riesco-a-sentire-le-istruzioni-vocali
 description: Guida alla risoluzione dei problemi per le istruzioni vocali nella navigazione
 updated: '2024-07-22'
 taxonomies:
   faq: ["Indicazioni vocali"]
 extra:
   order: 20
+aliases:
+  - /it/faq/voice/cant-hear-instructions/
 ---
 
 **Nota:** le istruzioni vocali sono disponibili per i percorsi in auto e in bicicletta. Per ora puoi ascoltare le istruzioni vocali solo durante la guida e quando lo schermo è acceso.

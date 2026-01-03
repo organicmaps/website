@@ -1,5 +1,6 @@
 ---
 title: Je n'arrive pas à entendre les instructions vocales
+slug: je-narrive-pas-à-entendre-les-instructions-vocales
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /fr/faq/voice/cant-hear-instructions/
 ---
 
 **Remarque:** les instructions vocales sont disponibles pour les trajets en voiture et à vélo. Pour l'instant, vous pouvez entendre les instructions vocales uniquement pendant la conduite et lorsque l'écran est allumé.

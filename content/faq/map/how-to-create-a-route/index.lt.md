@@ -1,5 +1,6 @@
 ---
 title: Kaip sukurti maršrutą ir pradėti navigaciją
+slug: kaip-sukurti-maršrutą-ir-pradėti-navigaciją
 description: Maršruto sudarymo ir navigacijos naudojant žemėlapį vadovas
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /lt/faq/map/how-to-create-a-route/
 ---
 
 Kai žemėlapyje bus nustatyta jūsų vieta, pasirinkite kelionės tikslą.

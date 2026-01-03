@@ -1,5 +1,6 @@
 ---
 title: چگونه بوک مارک ها و آهنگ ها را با فرمت KML، KMZ، KMB یا GPX وارد کنیم؟
+slug: چگونه-بوک-مارک-ها-و-آهنگ-ها-را-با-فرمت-kml-kmz-kmb-یا-gpx-وارد-کنیم
 description: دستورالعمل های گام به گام برای وارد کردن نشانک ها و آهنگ های به اشتراک
   گذاشته شده با شما در قالب های KML، KMZ، KMB یا GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /fa-IR/faq/bookmarks/how-to-import/
 ---
 
 اگر نشانک‌هایی را در قالب‌های KML، KMZ، KMB، GPX صادر کنند، می‌توانید از Organic Maps یا برنامه‌های شخص ثالث ارسال شده را وارد کنید.

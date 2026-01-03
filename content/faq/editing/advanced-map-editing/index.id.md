@@ -1,5 +1,6 @@
 ---
 title: Bagaimana saya bisa melakukan pengeditan peta lebih lanjut?
+slug: bagaimana-saya-bisa-melakukan-pengeditan-peta-lebih-lanjut
 description: Tutorial mengedit OpenStreetMap dengan alat yang lebih canggih seperti
   ID, Go Map dan Vespucci
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 40
+aliases:
+  - /id/faq/editing/advanced-map-editing/
 ---
 
 Peta Organik menyertakan editor sederhana dan mudah digunakan yang dapat Anda gunakan untuk mengedit peta. Namun editornya terbatas dan hanya mengizinkan penambahan fitur titik sederhana, yang berarti tidak boleh ada garis besar bangunan, jalan, danau, kota, dll. Jika Anda ingin mengubah sesuatu yang tidak dapat diedit dengan editor bawaan, ini adalah halaman FAQ yang tepat untuk dibaca.

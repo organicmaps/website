@@ -1,5 +1,6 @@
 ---
 title: Jak mohu upravit mapu v organických mapách?
+slug: jak-mohu-upravit-mapu-v-organických-mapách
 description: Výukový program pro úpravu OpenStreetMap z aplikace Organic Maps více
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /cs/faq/editing/organic-maps-map-editing/
 ---
 
 Pomocí organických map můžete snadno přidat chybějící místa do mapy, přidat další podrobnosti, jako je otevírací doba, nebo opravit nesprávné položky. Tímto způsobem zlepšíte mapová data pro všechny uživatele.

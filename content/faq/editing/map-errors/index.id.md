@@ -1,5 +1,6 @@
 ---
 title: Beberapa tempat tidak ada di peta atau ada nama yang salah
+slug: beberapa-tempat-tidak-ada-di-peta-atau-ada-nama-yang-salah
 description: Tips memperbaiki kesalahan pada peta, melakukan perubahan dan pembaruan
   objek langsung di Organic Maps atau melalui OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /id/faq/editing/map-errors/
 ---
 
 Sumber data peta kami adalah [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Ini adalah proyek pemetaan yang mirip dengan Wikipedia, tetapi untuk peta, di mana siapa pun dapat membuat dan mengedit peta Dunia.

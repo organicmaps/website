@@ -1,5 +1,6 @@
 ---
 title: Neslyším hlasové pokyny
+slug: neslyším-hlasové-pokyny
 description: Průvodce odstraňováním problémů pro hlasové pokyny v navigaci
 updated: '2024-07-22'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Voice Directions
 extra:
   order: 20
+aliases:
+  - /cs/faq/voice/cant-hear-instructions/
 ---
 
 **Poznámka:** Hlasové pokyny jsou k dispozici pro automobilové a cyklistické trasy. Hlasové pokyny zatím uslyšíte pouze za jízdy a při zapnuté obrazovce.

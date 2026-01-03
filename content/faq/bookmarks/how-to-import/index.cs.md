@@ -1,5 +1,6 @@
 ---
 title: Jak importovat záložky a stopy ve formátu KML, KMZ, KMB nebo GPX?
+slug: jak-importovat-záložky-a-stopy-ve-formátu-kml-kmz-kmb-nebo-gpx
 description: Podrobné pokyny pro import záložek a tras sdílených s vámi ve formátech
   KML, KMZ, KMB nebo GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /cs/faq/bookmarks/how-to-import/
 ---
 
 Můžete importovat záložky odeslané z organických map nebo aplikací třetích stran, pokud exportují záložky ve formátech KML, KMZ, KMB, GPX.

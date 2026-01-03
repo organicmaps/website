@@ -1,5 +1,6 @@
 ---
 title: Come importare segnalibri e tracce in formato KML, KMZ, KMB o GPX?
+slug: come-importare-segnalibri-e-tracce-in-formato-kml-kmz-kmb-o-gpx
 description: Istruzioni passo passo per importare segnalibri e tracce condivise con
   te nei formati KML, KMZ, KMB o GPX
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 20
+aliases:
+  - /it/faq/bookmarks/how-to-import/
 ---
 
 Puoi importare segnalibri inviati da Mappe organiche o app di terze parti se esportano segnalibri nei formati KML, KMZ, KMB, GPX.

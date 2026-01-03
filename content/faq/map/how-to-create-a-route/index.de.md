@@ -1,5 +1,6 @@
 ---
 title: Wie erstelle ich eine Route und starte die Navigation
+slug: wie-erstelle-ich-eine-route-und-starte-die-navigation
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /de/faq/map/how-to-create-a-route/
 ---
 
 Sobald dein Standort auf der Karte ermittelt wurde, wähle dein Ziel. Das kannst du auf folgende Weisen tun:

@@ -1,5 +1,6 @@
 ---
 title: Ką daryti, jei programa sustojo / sustojo?
+slug: ką-daryti-jei-programa-sustojo-sustojo
 description: Kokių veiksmų imtis, jei programa užstringa. Kaip pranešti kūrėjams apie kritines klaidas
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - App
 extra:
   order: 30
+aliases:
+  - /lt/faq/app/crash/
 ---
 
 Jei naudojate „Android“, žemėlapius saugote SD kortelėje, greičiausiai priežastis yra sugedusi SD kortelė. Galite:

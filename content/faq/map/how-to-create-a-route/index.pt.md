@@ -1,5 +1,6 @@
 ---
 title: Como criar um itinerário e iniciar a navegação
+slug: como-criar-um-itinerário-e-iniciar-a-navegação
 description: 
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 40
+aliases:
+  - /pt/faq/map/how-to-create-a-route/
 ---
 
 Depois da sua localização ter sido determinada no mapa, escolha o seu destino. Pode fazê-lo de duas formas:

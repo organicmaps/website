@@ -1,5 +1,6 @@
 ---
 title: La recèrca pòt pas trobar un endrech sus la mapa.
+slug: la-recèrca-pòt-pas-trobar-un-endrech-sus-la-mapa
 description: Guia per melhorar los resultats de recèrca e resòlvre los problèmas amb la recèrca d'objèctes sus la mapa
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Mapa
 extra:
   order: 20
+aliases:
+  - /oc/faq/map/search-cannot-find-a-place/
 ---
 
 Remembratz-vos que per cercar un endrech dins una zòna especifica, caldrà telecargar una carta pertinenta e far un zoom sus aquela zòna, o vòstra posicion deu èsser prèp d'aquela zòna abans de començar la recèrca. Per exemple, se volètz trobar un endrech en Vietnam e que vòstra posicion es endacòm mai, cal telecargar e dobrir d'en primièr la carta del Vietnam, o mencionar explicitament lo país (Vietnam) o lo nom de la vila, de la comuna o del vilatge desirat dins lo camp de recèrca.

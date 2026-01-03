@@ -1,5 +1,6 @@
 ---
 title: Kai kurių vietų žemėlapyje trūksta arba jos pavadintos neteisingai
+slug: kai-kurių-vietų-žemėlapyje-trūksta-arba-jos-pavadintos-neteisingai
 description: Patarimai, kaip ištaisyti žemėlapių klaidas, atlikti objektų pakeitimus
   ir atnaujinimus tiesiogiai organiniuose žemėlapiuose arba per OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /lt/faq/editing/map-errors/
 ---
 
 Mūsų žemėlapio duomenų šaltinis yra [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Tai žemėlapių projektas, panašus į Vikipediją, bet skirtas žemėlapiams, kur bet kas gali sukurti ir redaguoti pasaulio žemėlapį.

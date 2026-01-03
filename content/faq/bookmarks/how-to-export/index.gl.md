@@ -1,5 +1,6 @@
 ---
 title: Como compartir (exportar) marcadores e pistas?
+slug: como-compartir-exportar-marcadores-e-pistas
 description: Guía paso a paso para exportar marcadores e pistas de Organic Maps a
   outras aplicacións e compartir cos contactos
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /gl/faq/bookmarks/how-to-export/
 ---
 
 Toca un marcador no mapa ou na lista e, a continuación, toca o botón "Compartir" na páxina do lugar.

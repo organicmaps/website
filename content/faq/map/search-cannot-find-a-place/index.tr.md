@@ -1,5 +1,6 @@
 ---
 title: Arama, haritada bir yer bulamıyor
+slug: arama-haritada-bir-yer-bulamıyor
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /tr/faq/map/search-cannot-find-a-place/
 ---
 
 Belirli bir bölgedeki bir yeri aramak için, ilgili yerin haritasını indirmeniz ve o bölgeye haritayı yakınlaştırmanız veya aramaya başlamadan önce bulunduğunuz yerin o bölgeye yakın olması gerektiğini unutmayın. Örneğin, Vietnam'da bir yer bulmak istiyorsanız ve konumunuz başka bir yerdeyse, önce Vietnam haritasını indirip açmalısınız.

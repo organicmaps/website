@@ -1,5 +1,6 @@
 ---
 title: Hoe bladwijzers en tracks delen (exporteren)?
+slug: hoe-bladwijzers-en-tracks-delen-exporteren
 description: Stapsgewijze handleiding voor het exporteren van bladwijzers en tracks
   van organische kaarten naar andere applicaties en delen met contacten
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 10
+aliases:
+  - /nl/faq/bookmarks/how-to-export/
 ---
 
 Tik op een bladwijzer op de kaart of in de lijst en tik vervolgens op de knop 'Delen' op de plaatspagina.

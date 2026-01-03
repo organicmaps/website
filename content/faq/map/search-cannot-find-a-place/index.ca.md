@@ -1,5 +1,6 @@
 ---
 title: La cerca no pot trobar cap lloc al mapa
+slug: la-cerca-no-pot-trobar-cap-lloc-al-mapa
 description: Guia per millorar els resultats de la cerca i resoldre problemes per
   trobar objectes al mapa
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 20
+aliases:
+  - /ca/faq/map/search-cannot-find-a-place/
 ---
 
 Recordeu que per cercar un lloc en una àrea específica, haureu de descarregar un mapa rellevant i ampliar el mapa a aquesta àrea, o la vostra ubicació hauria d'estar a prop d'aquesta àrea abans de començar la cerca. Per exemple, si voleu trobar un lloc a Vietnam i la vostra ubicació és en un altre lloc, primer hauríeu de descarregar i obrir el mapa de Vietnam, o esmentar explícitament el país (Vietnam) o el nom de la ciutat/poble/poble desitjat al camp de cerca.

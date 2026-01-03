@@ -1,5 +1,6 @@
 ---
 title: Faltan algúns lugares no mapa ou teñen nomes incorrectos
+slug: faltan-algúns-lugares-no-mapa-ou-teñen-nomes-incorrectos
 description: Consellos para corrixir erros nos mapas, facer cambios e actualizacións
   de obxectos directamente en Organic Maps ou a través de OpenStreetMap.org
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 30
+aliases:
+  - /gl/faq/editing/map-errors/
 ---
 
 A nosa fonte de datos de mapas é [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Este é un proxecto de cartografía similar á Wikipedia, pero para mapas, onde calquera pode crear e editar o mapa do mundo.

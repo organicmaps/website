@@ -1,5 +1,6 @@
 ---
 title: Quelques lieux sont absents de la carte ou mal orthographiés
+slug: quelques-lieux-sont-absents-de-la-carte-ou-mal-orthographiés
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /fr/faq/editing/map-errors/
 ---
 
 Notre source de données cartographiques est [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Il s'agit d'un projet cartographique similaire à Wikipedia, mais pour les cartes, où tout le monde peut créer et éditer des cartes.

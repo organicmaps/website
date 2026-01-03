@@ -1,5 +1,6 @@
 ---
 title: Die Suche kann einen Ort auf der Karte nicht finden
+slug: die-suche-kann-einen-ort-auf-der-karte-nicht-finden
 description: ""
 updated: "2025-12-31"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /de/faq/map/search-cannot-find-a-place/
 ---
 
 Zur Suche nach einem Ort in einer bestimmten Region musst du das relevante Kartengebiet herunterladen. Zudem solltest du vor Beginn der Suche entweder in der Karte zu diesem Gebiet zoomen oder dein Standort sollte sich in der Nähe dieser Region befinden. Wenn du beispielsweise einen Ort in Vietnam suchen möchtest und dich an einem anderen Ort befindest, solltest du zuerst die Karte von Vietnam herunterladen und öffnen, oder explizit den Namen der Region in der Suche verwenden.

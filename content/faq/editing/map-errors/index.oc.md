@@ -1,5 +1,6 @@
 ---
 title: Qualques endreches mancan sus la mapa o an de noms erronats.
+slug: qualques-endreches-mancan-sus-la-mapa-o-an-de-noms-erronats
 description: Conselhs per corregir d'errors sus las mapas, far de modificacions e de mises a jorn d'objèctes directament dins Organic Maps o a travèrs OpenStreetMap.org
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Edicion de la mapa
 extra:
   order: 30
+aliases:
+  - /oc/faq/editing/map-errors/
 ---
 
 Nòstra font de donadas cartograficas es [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Es un projècte cartografic similar a Wikipedia, mas per las cartas, ont cadun pòt crear e editar la carta del mond.

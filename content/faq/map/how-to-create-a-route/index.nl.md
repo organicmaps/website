@@ -1,5 +1,6 @@
 ---
 title: Hoe u een route kunt maken en de navigatie kunt starten
+slug: hoe-u-een-route-kunt-maken-en-de-navigatie-kunt-starten
 description: Gids voor het samenstellen van een route en navigeren met behulp van
   de kaart
 updated: '2024-07-22'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 40
+aliases:
+  - /nl/faq/map/how-to-create-a-route/
 ---
 
 Zodra uw locatie op de kaart is bepaald, kiest u uw bestemming.

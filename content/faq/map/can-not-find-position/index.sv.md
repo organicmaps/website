@@ -1,5 +1,6 @@
 ---
 title: Appen kan inte hitta min position på kartan
+slug: appen-kan-inte-hitta-min-position-på-kartan
 description: Felsökningsguide för att lösa problem med platsbestämning för iOS- och
   Android-enheter
 updated: '2024-06-20'
@@ -8,6 +9,8 @@ taxonomies:
   - Map
 extra:
   order: 10
+aliases:
+  - /sv/faq/map/can-not-find-position/
 ---
 
 Se till att din enhet har GPS, att platstjänster är aktiverade och att platsbehörigheter ges till organiska kartor.

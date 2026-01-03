@@ -1,5 +1,6 @@
 ---
 title: La función de búsqueda no encuentra un lugar en el mapa
+slug: la-función-de-búsqueda-no-encuentra-un-lugar-en-el-mapa
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /es/faq/map/search-cannot-find-a-place/
 ---
 
 Recuerde que para buscar un lugar en un área específica, deberá descargar un mapa relevante y acercar el mapa a esa área, o su ubicación debe estar cerca de esa área antes de comenzar la búsqueda. Por ejemplo, si desea encontrar un lugar en Vietnam y su ubicación está en otro lugar, primero debe descargar y abrir el mapa de Vietnam.

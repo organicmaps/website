@@ -1,11 +1,14 @@
 ---
 title: Wie benutzt man Android Auto?
+slug: wie-benutzt-man-android-auto
 description: Mindestanforderungen um Organic Maps mit Android Auto zu benutzen
 updated: "2025-12-31"
 taxonomies:
   faq: ["App"]
 extra:
   order: 20
+aliases:
+  - /de/faq/app/how-to-use-android-auto/
 ---
 
 Um Organic Maps mit Android Auto zu benutzen, wird Android version 8.0 (Oreo) oder neuer vorausgesetzt. Des Weiteren müssem Sie Organic Maps vom Google Play Store heruntgeladen haben, da Google nur von Google überprüfte Apps auf Android Auto zulasst.

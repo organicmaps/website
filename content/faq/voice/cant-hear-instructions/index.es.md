@@ -1,5 +1,6 @@
 ---
 title: No oigo las instrucciones de voz
+slug: no-oigo-las-instrucciones-de-voz
 description: ""
 updated: "2024-07-15"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /es/faq/voice/cant-hear-instructions/
 ---
 
 **Nota** por favor que las instrucciones de voz están disponibles para rutas en coche y en bicicleta. Por ahora, puede escuchar las instrucciones de voz solo mientras conduce y cuando una pantalla está encendida.

@@ -1,5 +1,6 @@
 ---
 title: Cossí partejar (exportar) los marcapàginas e las pistas?
+slug: cossí-partejar-exportar-los-marcapàginas-e-las-pistas
 description: Guia pas a pas per exportar de marcapàginas e de traças dempuèi Organic Maps cap a d'autras aplicacions e partejar amb de contacts
 updated: '2024-06-20'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Marcapàginas e traças
 extra:
   order: 10
+aliases:
+  - /oc/faq/bookmarks/how-to-export/
 ---
 
 Tustatz un marcapàgina sus la mapa o dins la lista, puèi tustatz lo boton « Partejar » sus la pagina del luòc.

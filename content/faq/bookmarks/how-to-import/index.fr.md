@@ -1,5 +1,6 @@
 ---
 title: Comment importer des signets?
+slug: comment-importer-des-signets
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /fr/faq/bookmarks/how-to-import/
 ---
 
 Vous pouvez importer des signets envoyés depuis Organic Maps ou des applications tierces exportés au format KML:

@@ -1,5 +1,6 @@
 ---
 title: Как импортировать метки?
+slug: как-импортировать-метки
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 20
+aliases:
+  - /ru/faq/bookmarks/how-to-import/
 ---
 
 Вы можете импортировать метки, отправленные из Organic Maps или сторонних приложений в форматах KML, KMZ, KMB, GPX:

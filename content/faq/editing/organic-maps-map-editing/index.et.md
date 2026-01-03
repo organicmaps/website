@@ -1,5 +1,6 @@
 ---
 title: Kuidas saan orgaanilistes kaartides kaarti muuta?
+slug: kuidas-saan-orgaanilistes-kaartides-kaarti-muuta
 description: Õpetus OpenStreetMapi muutmiseks rakenduses Organic Maps rohkem
 updated: '2025-01-05'
 taxonomies:
@@ -7,6 +8,8 @@ taxonomies:
   - Map Editing
 extra:
   order: 35
+aliases:
+  - /et/faq/editing/organic-maps-map-editing/
 ---
 
 Orgaaniliste kaartide abil saate hõlpsasti lisada kaardile puuduvad kohad, lisada täiendavaid üksikasju (nt lahtiolekuajad) või parandada valesid kirjeid. Seda tehes parandate kõigi kasutajate kaardiandmeid.

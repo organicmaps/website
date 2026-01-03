@@ -1,5 +1,6 @@
 ---
 title: No puedo descargar (actualizar) mapas
+slug: no-puedo-descargar-actualizar-mapas
 description: ""
 updated: "2024-06-12"
 
@@ -8,6 +9,8 @@ taxonomies:
 
 extra:
   order: 30
+aliases:
+  - /es/faq/map/cant-download-maps/
 ---
 
 El error de la descarga puede deberse a un fallo temporal de la red o a ajustes específicos del proveedor de la red o del rúter. Inténtalo de nuevo más tarde o utiliza otro punto de acceso mediante wifi.

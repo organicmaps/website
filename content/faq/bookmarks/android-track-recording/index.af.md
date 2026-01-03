@@ -1,5 +1,6 @@
 ---
 title: Hoekom word snitte nie betroubaar in die agtergrond op Android opgeneem nie?
+slug: hoekom-word-snitte-nie-betroubaar-in-die-agtergrond-op-android-opgeneem-nie
 description: Verstek-batteryoptimaliseringsinstellings op Samsung, Huawei, Google,
   Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola,
   HTC en ander toestelle kan Organic Maps-toepassing in die agtergrond stop of doodmaak.
@@ -9,6 +10,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /af/faq/bookmarks/android-track-recording/
 ---
 
 Verstek-batteryoptimaliseringsinstellings op Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC en ander toestelle kan Organic Maps-toepassing in die agtergrond stop of doodmaak.

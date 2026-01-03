@@ -1,5 +1,6 @@
 ---
 title: എന്തുകൊണ്ടാണ് ട്രാക്കുകൾ ആൻഡ്രോയിഡിൽ പശ്ചാത്തലത്തിൽ വിശ്വസനീയമായി റെക്കോർഡ്
+slug: എനതകണടണ-ടരകകകൾ-ആൻഡരയഡൽ-പശചതതലതതൽ-വശവസനയമയ-റകകർഡ
   ചെയ്യാത്തത്?
 description: Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo,
   Oppo, Vivo, Realme, Sony, Motorola, HTC തുടങ്ങിയ ഉപകരണങ്ങളിലെ ഡിഫോൾട്ട് ബാറ്ററി
@@ -11,6 +12,8 @@ taxonomies:
   - Bookmarks and tracks
 extra:
   order: 30
+aliases:
+  - /ml/faq/bookmarks/android-track-recording/
 ---
 
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC തുടങ്ങിയ ഉപകരണങ്ങളിലെ ഡിഫോൾട്ട് ബാറ്ററി ഒപ്റ്റിമൈസേഷൻ ക്രമീകരണങ്ങൾ പശ്ചാത്തലത്തിൽ ഓർഗാനിക് മാപ്‌സ് ആപ്പ് നിർത്തുകയോ നശിപ്പിക്കുകയോ ചെയ്‌തേക്കാം.

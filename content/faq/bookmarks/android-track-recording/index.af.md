@@ -17,6 +17,8 @@ aliases:
 Verstek-batteryoptimaliseringsinstellings op Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC en ander toestelle kan Organic Maps-toepassing in die agtergrond stop of doodmaak.
 
 Dit is veral waar vir moderne Android-weergawes:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

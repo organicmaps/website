@@ -1,12 +1,10 @@
 ---
-title: O aplicativo não pode determinar minha localização
+title: "O aplicativo não consegue encontrar minha posição no mapa ou mostra uma localização incorreta"
 slug: o-aplicativo-não-pode-determinar-minha-localização
-description: ""
-updated: "2024-06-12"
-
+description: "Guia de solução de problemas para resolver problemas com localização e posição atual do GPS no mapa para dispositivos iOS e Android"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Mapa"]
-
 extra:
   order: 10
 aliases:
@@ -35,3 +33,10 @@ Se você é um usuário de iPhone ou iPad, Por favor, verifique as configuraçõ
 
 * Finalmente, por favor se lembre que determinar sua localização com GPS (com rede Wi-Fi e rede móvel desligados) pode demorar algum tempo. Quanto mais tempo tiver decorrido desde a última vez que usou o GPS, mais tempo demora fazer uma nova localização. A velocidade de localização depende do dispositivo e não do aplicativo. A operação GPS também depende das condições metereológicas – funciona melhor em exterior e com o céu limpo. Os problemas surgem usando no interior de edifícios, numa rua estreita ladeada por prédios altos ou dentro de um veículo em movimento.
 
+
+
+**Localização incorreta é mostrada no mapa**
+
+1. Se houver um grande círculo semitransparente ao redor da seta de sua localização no mapa, isso significa que sua posição está sendo determinada com baixa precisão, usando conexão WiFi ou celular. Certifique-se de ter ativado a precisão de localização "Precisa" para o Organic Maps nas configurações do sistema e tente ir para fora, longe de edifícios altos e árvores, para melhorar a recepção do sinal de GPS via satélite.
+
+2. Se sua posição for determinada incorretamente (por exemplo, você está em uma cidade, mas o aplicativo mostra outra cidade), é muito provável que você esteja em uma área afetada por um sinal de GPS falso (GPS spoofing) devido a medidas de guerra eletrônica (EW). Nesses casos, a única solução é mudar para outro local.

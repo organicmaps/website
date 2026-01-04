@@ -1,12 +1,10 @@
 ---
-title: Uygulama konumumu haritada bulamıyor
+title: "Uygulama haritada konumumu bulamıyor veya yanlış konum gösteriyor"
 slug: uygulama-konumumu-haritada-bulamıyor
-description: ""
-updated: "2024-06-12"
-
+description: "iOS ve Android cihazlar için haritada konum ve mevcut GPS konumu ile ilgili sorunları çözmek için sorun giderme kılavuzu"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Harita"]
-
 extra:
   order: 10
 aliases:
@@ -34,3 +32,10 @@ Bir iPhone veya iPad kullanıcısıysanız, lütfen iOS ayarları → Gizlilik �
 * iPod Touch, sadece Wi-Fi destekli iPad, Amazon Kindle Fire/Kindle Fire HD 7 ve bazı Android tabletler gibi bazı mobil cihazlar dahili GPS alıcılarına sahip değildir. Bu cihazlarda siz internete bağlanana kadar uygulamamız yaklaşık konumunuzu gösterecektir.
 
 * Son olarak, lütfen GPS (WiFi ile ve Mobil Ağ kapalı) ile konumunuzu tespit etmenin biraz zaman alabileceğini unutmayın. GPS uzun süre kullanılmazsa bu daha fazla zaman alır. Konumunuzu tespit etme hızı uygulamaya değil, cihazınıza bağlıdır. GPS'in çalışması hava koşullarından da etkilenir – en iyi hava açıkken dışarıda çalışır. Sorunlar kendinizi kapalı alanda bulmaya çalışırken, dar bir sokakta veya araba sürerken meydana gelebilir.
+
+
+**Haritada yanlış konum gösteriliyor**
+
+1. Haritada konum okunuzun etrafında büyük, yarı saydam bir daire varsa, bu, konumunuzun WiFi veya hücresel bağlantı kullanılarak düşük doğrulukla belirlendiği anlamına gelir. Sistem ayarlarında Organic Maps için "Tam" konum doğruluğunu etkinleştirdiğinizden emin olun ve uydu GPS sinyali alımını iyileştirmek için yüksek binalardan ve ağaçlardan uzakta dışarı çıkmayı deneyin.
+
+2. Konumunuz yanlış belirlenirse (örneğin, bir şehirdesiniz ancak uygulama başka bir şehir gösteriyor), büyük olasılıkla elektronik harp (EW) önlemleri nedeniyle sahte bir GPS sinyalinden (GPS sahtekarlığı) etkilenen bir bölgedesiniz. Bu gibi durumlarda tek çözüm başka bir yere taşınmaktır.

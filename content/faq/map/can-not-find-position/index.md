@@ -1,11 +1,9 @@
 ---
-title: The app can't find my position on the map
-description: Troubleshooting guide for solving problems with location determination for iOS and Android devices
-updated: "2024-06-20"
-
+title: The app can't find my position on the map or shows incorrect location
+description: Troubleshooting guide for solving problems with location and current GPS position on the map for iOS and Android devices
+updated: "2026-01-04"
 taxonomies:
   faq: ["Map"]
-
 extra:
   order: 10
 ---
@@ -23,6 +21,12 @@ Note: you can see it only if you have Google Play services installed (enabled) o
 **iOS**
 
 If you are an iPhone or iPad user, please check iOS settings → Privacy → Location services. Geolocation data sharing should be enabled for Organic Maps.
+
+**Incorrect location is shown on the map**
+
+1. If there is a large semi-transparent circle around your location arrow on the map, it means that your position is determined with low accuracy, using WiFi or cellular connection. Make sure that you enabled "Precise" location accuracy for Organic Maps in system settings, and try going outside, away from tall buildings and trees, to improve satellite GPS signal reception.
+
+2. If your position is determined incorrectly (for example, you are in one city, but the app shows another city), then you are most likely in an area affected by a false GPS signal (GPS spoofing) due to electronic warfare (EW) measures. In such cases, the only solution is to move to another location.
 
 **Notes:**
 

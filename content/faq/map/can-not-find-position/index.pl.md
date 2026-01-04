@@ -1,12 +1,10 @@
 ---
-title: Aplikacja nie może określić mojej lokalizacji
+title: "Aplikacja nie może znaleźć mojej pozycji na mapie lub pokazuje nieprawidłową lokalizację"
 slug: aplikacja-nie-może-określić-mojej-lokalizacji
-description: ""
-updated: "2024-06-12"
-
+description: "Przewodnik rozwiązywania problemów z lokalizacją i aktualną pozycją GPS na mapie dla urządzeń iOS i Android"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Mapa"]
-
 extra:
   order: 10
 aliases:
@@ -34,3 +32,10 @@ Jeśli jesteś użytkownikiem iPhone'a lub iPada, sprawdź ustawienia iOS → Pr
 * Niektóre urządzenia mobilne nie mają wbudowanych odbiorników GPS, takich jak iPod Touch, iPad tylko z Wi-Fi, Amazon Kindle Fire / Kindle Fire HD 7 i niektóre tablety z Androidem. Na tych urządzeniach nasza aplikacja będzie pokazywać przybliżoną lokalizację, o ile jesteś podłączony do Internetu.
 
 * Na koniec pamiętaj, że określanie lokalizacji z GPS (z WiFi i danymi mobilnymi wyłączonymi) może zająć trochę czasu. Im dłużej GPS nie jest używany, tym więcej czasu zajmuje. Szybkość określania lokalizacji zależy od urządzenia, a nie od aplikacji. Pogoda wpływa na funkcjonowanie GPS - najlepiej działa na zewnątrz, gdy niebo jest czyste. Mogą pojawić się problemy podczas próby zlokalizowania się w domu, na wąskiej ulicy lub podczas prowadzenia samochodu.
+
+
+**Na mapie pokazana jest nieprawidłowa lokalizacja**
+
+1. Jeśli wokół strzałki lokalizacji na mapie znajduje się duży półprzezroczysty okrąg, oznacza to, że Twoja pozycja jest określana z niską dokładnością, przy użyciu połączenia WiFi lub komórkowego. Upewnij się, że w ustawieniach systemowych włączyłeś "Dokładną" lokalizację dla Organic Maps i spróbuj wyjść na zewnątrz, z dala od wysokich budynków i drzew, aby poprawić odbiór sygnału satelitarnego GPS.
+
+2. Jeśli Twoja pozycja jest określana nieprawidłowo (na przykład jesteś w jednym mieście, ale aplikacja pokazuje inne miasto), najprawdopodobniej znajdujesz się w obszarze dotkniętym fałszywym sygnałem GPS (GPS spoofing) z powodu środków walki elektronicznej (EW). W takich przypadkach jedynym rozwiązaniem jest przeniesienie się w inne miejsce.

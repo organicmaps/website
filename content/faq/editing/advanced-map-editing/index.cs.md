@@ -52,7 +52,7 @@ OpenStreetMap je komunita. Pokud potřebujete pomoc nebo máte nějaké dotazy, 
 Databáze OpenStreetMap obsahuje objekty jako Nodes, Ways, Areas a Relations, které abstrahují od funkcí reálného světa. Tyto objekty mají atributy, takzvané značky, které je dále popisují. Značka je kombinace klíče a hodnoty.
 
 Protože to zní složitější, než to je, uvedeme příklad:
-Restaurace je např. mapováno jako poznámka nebo oblast se značkou ``` amenity=restaurant```. Další značky jako ```cousine=*``` nebo ```opening_hours=*``` pak lze použít pro další podrobnosti.
+Restaurace je např. mapováno jako poznámka nebo oblast se značkou `amenity=restaurant`. Další značky jako `cuisine=*` nebo `opening_hours=*` pak lze použít pro další podrobnosti.
 
 > Všimněte si, že editor ID skryje před uživateli vnitřní datovou strukturu, aby byl pro začátečníky přívětivější. Ale pro čtení dokumentace Wiki je užitečný stručný přehled datové struktury.
 V Editoru ID můžete zobrazit značky, které před vámi ID skrývá, rozbalením sekce *Tagy* na bočním panelu *Funkce úprav*.

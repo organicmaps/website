@@ -2,7 +2,7 @@
 title: Mida teha, kui rakendus on seiskunud/jooksnud?
 slug: mida-teha-kui-rakendus-on-seiskunudjooksnud
 description: Mida teha, kui rakendus jookseb kokku. Kuidas arendajatele kriitilistest vigadest teatada
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Kui rakendus ikka jookseb kokku, kontrollige sarnaste probleemide osas [meie Git
 * Probleemi üksikasjalik kirjeldus ja sammud selle taasesitamiseks
 * Orgaaniliste kaartide versioon
 * Seadme mudel ja operatsioonisüsteemi versioon (Android või iOS)
+
+Või alternatiivina:
+1. Luba logide salvestamine rakenduse seadetes.
+2. Sundtaaskäivita rakendus.
+3. Korda krahhi.
+4. Saada meile logifail "Teata veast" kaudu Teave ekraanil ja lisa lühike krahhi kirjeldus.

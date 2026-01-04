@@ -17,6 +17,8 @@ aliases:
 Výchozí nastavení optimalizace baterie na zařízeních Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC a dalších zařízeních může zastavit nebo ukončit aplikaci Organic Maps na pozadí.
 
 To platí zejména pro moderní verze systému Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

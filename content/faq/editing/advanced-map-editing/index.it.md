@@ -52,7 +52,7 @@ OpenStreetMap è una comunità. Se hai bisogno di aiuto o hai domande puoi chied
 Il database OpenStreetMap contiene oggetti come nodi, percorsi, aree e relazioni che astraggono dalle caratteristiche del mondo reale. Questi Oggetti hanno Attributi, i cosiddetti Tag per descriverli ulteriormente. Un tag è una combinazione chiave-valore.
 
 Poiché sembra più complicato di quello che è, forniremo un esempio:
-Un ristorante è ad es. mappato come una nota o un'area con il tag ``` amenity=restaurant```. Ulteriori tag come ```cousine=*``` o ```opening_hours=*``` possono essere utilizzati per ulteriori dettagli.
+Un ristorante è ad es. mappato come una nota o un'area con il tag `amenity=restaurant`. Ulteriori tag come `cuisine=*` o `opening_hours=*` possono essere utilizzati per ulteriori dettagli.
 
 > Tieni presente che l'editor ID nasconde la struttura dei dati interni agli utenti per essere più adatto ai principianti. Ma per leggere la documentazione del Wiki è utile avere una breve panoramica della struttura dei dati.
 Nell'editor ID, puoi vedere i tag che l'ID ti nasconde espandendo la sezione *Tag* nel pannello laterale *Funzione di modifica*.

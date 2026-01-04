@@ -2,7 +2,7 @@
 title: Ką daryti, jei programa sustojo / sustojo?
 slug: ką-daryti-jei-programa-sustojo-sustojo
 description: Kokių veiksmų imtis, jei programa užstringa. Kaip pranešti kūrėjams apie kritines klaidas
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Jei programa vis tiek stringa, patikrinkite [mūsų GitHub](https://github.com/o
 * Išsamus problemos aprašymas ir veiksmai, kaip ją atkurti
 * Organinių žemėlapių versija
 * Įrenginio modelis ir OS versija („Android“ arba „iOS“)
+
+Arba alternatyviai:
+1. Programėlės nustatymuose įjunkite žurnalų įrašymą.
+2. Priverstinai iš naujo paleiskite programėlę.
+3. Atkurkite strigtį.
+4. Atsiųskite mums žurnalo failą per „Pranešti apie klaidą“ ekrane Apie ir pridėkite trumpą strigties aprašymą.

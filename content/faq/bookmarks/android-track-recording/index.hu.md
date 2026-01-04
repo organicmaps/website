@@ -17,6 +17,8 @@ aliases:
 A Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC és más eszközök alapértelmezett akkumulátor-optimalizálási beállításai leállíthatják vagy leállíthatják az Organic Maps alkalmazást a háttérben.
 
 Ez különösen igaz a modern Android verziókra:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

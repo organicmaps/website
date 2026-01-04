@@ -17,6 +17,8 @@ aliases:
 قد تؤدي إعدادات تحسين البطارية الافتراضية على أجهزة Samsung وHuawei وGoogle وXiaomi وOnePlus وMeizu وAsus وWiko وLenovo وOppo وVivo وRealme وSony وMotorola وHTC والأجهزة الأخرى إلى إيقاف تطبيق الخرائط العضوية أو إيقافه في الخلفية.
 
 هذا ينطبق بشكل خاص على إصدارات Android الحديثة:
+- أندرويد 16
+- أندرويد 15
 - أندرويد 14
 - أندرويد 13
 - أندرويد 12

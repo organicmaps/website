@@ -51,7 +51,7 @@ OpenStreetMap ist eine Community. Wenn du Hilfe benötigst oder Fragen hast, kan
 Die OpenStreetMap-Datenbank enthält Objekte wie Knoten, Wege, Flächen und Beziehungen, die von realen Merkmalen abstrahieren. Diese Objekte verfügen über Attribute, sogenannte Tags, um sie näher zu beschreiben. Ein Tag ist eine Schlüssel-Wert-Kombination.
 
 Da dies komplizierter klingt als es ist, geben wir ein Beispiel:
-Ein Restaurant ist z.B. als Knoten oder Fläche mit dem Tag „amenity=restaurant“ zugeordnet. Weitere Tags wie „cousine=*“ oder „opening_hours=*“ können dann für weitere Details verwendet werden.
+Ein Restaurant ist z.B. als Knoten oder Fläche mit dem Tag `amenity=restaurant` zugeordnet. Weitere Tags wie `cuisine=*` oder `opening_hours=*` können dann für weitere Details verwendet werden.
 
 > Beachte, dass der ID-Editor die interne Datenstruktur vor den Benutzern versteckt, um die Benutzerfreundlichkeit zu erhöhen. Aber zum Lesen der Wiki-Dokumentation ist ein kurzer Überblick über die Datenstruktur hilfreich.
 Im ID-Editor kannst du die Tags sehen, die ID versteckt hat, indem du den Abschnitt *Eigenschaften* im Seitenbereich *Bearbeite Objekt* ausklappst.

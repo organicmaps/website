@@ -51,7 +51,7 @@ OpenStreetMap bir topluluktur. Yardıma ihtiyacınız varsa veya sorularınız v
 OpenStreetMap veritabanı, gerçek dünyadaki özelliklerden soyutlayan Düğümler, Yollar, Alanlar ve İlişkiler gibi Nesneleri içerir. Bu Nesnelerin, onları daha ayrıntılı açıklamak için Etiketler adı verilen Nitelikleri vardır. Etiket bir Anahtar-Değer birleşimidir.
 
 Bu, olduğundan daha karmaşık göründüğü için bir örnek vereceğiz:
-Bir Restoran ör. ``` amenity=restoran``` Etiketi ile Not veya Alan olarak eşlenir. Daha sonra daha fazla ayrıntı için ```cousine=*``` veya ```opening_hours=*``` gibi diğer Etiketler kullanılabilir.
+Bir Restoran ör. `amenity=restaurant` Etiketi ile Not veya Alan olarak eşlenir. Daha sonra daha fazla ayrıntı için `cuisine=*` veya `opening_hours=*` gibi diğer Etiketler kullanılabilir.
 
 > Yeni başlayanlara daha uygun olması için kimlik düzenleyicinin dahili veri yapısını kullanıcılardan gizlediğini unutmayın. Ancak Wiki belgelerini okumak için veri yapısına kısa bir genel bakış yararlı olacaktır.
 Kimlik Düzenleyicide, *Düzenleme özelliği* yan panelindeki *Etiketler* bölümünü genişleterek kimliğin sizden sakladığı Etiketleri görebilirsiniz.

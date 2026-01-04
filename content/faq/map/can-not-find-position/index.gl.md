@@ -1,9 +1,8 @@
 ---
-title: A aplicación non pode atopar a miña posición no mapa
+title: "A aplicación non pode atopar a miña posición no mapa ou mostra unha localización incorrecta"
 slug: a-aplicación-non-pode-atopar-a-miña-posición-no-mapa
-description: Guía de solución de problemas para resolver problemas coa determinación
-  da localización para dispositivos iOS e Android
-updated: '2024-06-20'
+description: "Guía de resolución de problemas para resolver problemas coa localización e a posición GPS actual no mapa para dispositivos iOS e Android"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Map
@@ -34,3 +33,10 @@ Se es un usuario de iPhone ou iPad, comprobe a configuración de iOS → Privaci
 * Algúns dispositivos móbiles non teñen receptores GPS integrados, como o iPod Touch, o iPad só con WiFi, Amazon Kindle Fire/Kindle Fire HD 7 e algunhas tabletas Android. Nestes dispositivos, todas as aplicacións mostrarán a túa localización aproximada detectada mediante unha rede wifi, sempre que esteas conectado a Internet.
 
 * A detección de localización con satélites GPS (cando a WiFi e as redes móbiles están desactivadas) pode levar algún tempo. Canto máis tempo non se use o GPS, máis tempo leva. A velocidade de detección de localización depende do dispositivo, non da aplicación. O funcionamento do GPS tamén está influenciado polo tempo: funciona mellor ao aire libre cando o ceo está despexado. Poden xurdir problemas ao intentar localizarse no interior, nunha rúa estreita ou ao conducir un coche, con moito metal ao redor ou cun metal/imán na carcasa do dispositivo.
+
+
+**Móstrase unha localización incorrecta no mapa**
+
+1. Se hai un gran círculo semitransparente arredor da frecha da túa localización no mapa, significa que a túa posición se determina con baixa precisión, usando conexión WiFi ou móbil. Asegúrate de ter activada a precisión de localización "Precisa" para Organic Maps na configuración do sistema e proba a saír ao exterior, lonxe de edificios altos e árbores, para mellorar a recepción do sinal GPS por satélite.
+
+2. Se a túa posición se determina incorrectamente (por exemplo, estás nunha cidade, pero a aplicación mostra outra cidade), o máis probable é que esteas nunha zona afectada por un sinal GPS falso (suplantación de GPS) debido a medidas de guerra electrónica (EW). Nestes casos, a única solución é moverse a outra localización.

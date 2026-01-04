@@ -19,9 +19,11 @@ aliases:
 Le impostazioni predefinite di ottimizzazione della batteria su Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e altri dispositivi potrebbero interrompere o interrompere l'app Organic Maps in background.
 
 Ciò è particolarmente vero per le moderne versioni di Android:
--Android 14
-- Androide 13
--Android 12
--Android 11
+- Android 16
+- Android 15
+- Android 14
+- Android 13
+- Android 12
+- Android 11
 
 I passaggi esatti su come far funzionare le mappe organiche (e altre app) in background sono elencati qui: [dontkillmyapp.com](https://dontkillmyapp.com)

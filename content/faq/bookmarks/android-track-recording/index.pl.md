@@ -16,6 +16,8 @@ aliases:
 Domyślne ustawienia optymalizacji baterii na urządzeniach Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC i innych mogą zatrzymać lub zabić aplikację Organic Maps w tle.
 
 Dotyczy to zwłaszcza nowoczesnych wersji Androida:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

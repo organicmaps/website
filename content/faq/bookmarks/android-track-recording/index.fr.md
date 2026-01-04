@@ -16,6 +16,8 @@ aliases:
 Les paramètres d'optimisation de la batterie par défaut sur Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC et d'autres appareils peuvent arrêter ou tuer l'application Organic Maps en arrière-plan.
 
 Cela est particulièrement vrai pour les versions modernes d'Android :
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

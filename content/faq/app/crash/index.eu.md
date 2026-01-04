@@ -2,7 +2,7 @@
 title: Zer egin dezaket aplikazioa gelditu edo huts egin bada?
 slug: zer-egin-dezaket-aplikazioa-gelditu-edo-huts-egin-bada
 description: Zer ekintza egin aplikazioa huts egiten bada. Nola jakinarazi akats kritikoak garatzaileei
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Aplikazioak huts egiten badu oraindik, mesedez begiratu [gure GitHub](https://gi
 * Arazoaren deskribapen zehatza eta hura erreproduzitzeko urratsak
 * Organic Maps bertsioa
 * Gailuaren eredua eta OS bertsioa (Android edo iOS)
+
+Edo bestela:
+1. Gaitu erregistroen grabazioa aplikazioaren ezarpenetan.
+2. Behartu aplikazioa berrabiaraztera.
+3. Errepikatu hutsegitea.
+4. Bidali erregistro-fitxategia "Eman errore baten berri" bidez Honi buruz pantailan eta gehitu hutsegitearen deskribapen laburra.

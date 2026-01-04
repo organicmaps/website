@@ -2,7 +2,7 @@
 title: Què puc fer si l'aplicació s'ha aturat/ha fallat?
 slug: què-puc-fer-si-laplicació-sha-aturatha-fallat
 description: Quines accions cal dur a terme si l'aplicació falla. Com informar d'errors crítics als desenvolupadors
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Si l'aplicació encara es bloqueja, consulteu [el nostre GitHub](https://github.
 * Una descripció detallada del problema i els passos per reproduir-lo
 * Versió de mapes orgànics
 * Model de dispositiu i versió del sistema operatiu (Android o iOS)
+
+O alternativament:
+1. Activeu l'enregistrament de registres a la configuració de l'aplicació.
+2. Forceu el reinici de l'aplicació.
+3. Reproduïu el bloqueig.
+4. Envieu-nos el fitxer de registre mitjançant "Informa d'un error" a la pantalla Quant a i afegiu una breu descripció del bloqueig.

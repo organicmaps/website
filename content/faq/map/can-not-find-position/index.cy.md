@@ -1,9 +1,8 @@
 ---
-title: Ni all yr ap ddod o hyd i fy safle ar y map
+title: "Ni all yr ap ddod o hyd i fy lleoliad ar y map neu mae'n dangos lleoliad anghywir"
 slug: ni-all-yr-ap-ddod-o-hyd-i-fy-safle-ar-y-map
-description: Canllaw datrys problemau ar gyfer datrys problemau gyda phenderfynu ar
-  leoliad ar gyfer dyfeisiau iOS ac Android
-updated: '2024-06-20'
+description: "Canllaw datrys problemau ar gyfer datrys problemau gyda lleoliad a safle GPS cyfredol ar y map ar gyfer dyfeisiau iOS ac Android"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Map
@@ -34,3 +33,10 @@ Os ydych chi'n ddefnyddiwr iPhone neu iPad, gwiriwch osodiadau iOS → Preifatrw
 * Nid oes gan rai dyfeisiau symudol dderbynyddion GPS adeiledig, fel yr iPod Touch, iPad WiFi yn unig, Amazon Kindle Fire / Kindle Fire HD 7, a rhai tabledi Android. Ar y dyfeisiau hyn, bydd pob ap yn dangos eich lleoliad bras a ganfuwyd gan ddefnyddio rhwydwaith Wi-Fi, cyn belled â'ch bod wedi'ch cysylltu â'r rhyngrwyd.
 
 * Gall gymryd peth amser i ganfod lleoliad gyda lloerennau GPS (pan fydd WiFi a Rhwydweithiau Symudol yn anabl). Po hiraf nad yw'r GPS wedi'i ddefnyddio, y mwyaf o amser y mae'n ei gymryd. Mae cyflymder canfod lleoliad yn dibynnu ar y ddyfais, nid yr app. Mae'r tywydd hefyd yn dylanwadu ar weithrediad GPS - mae'n gweithio orau yn yr awyr agored pan fydd yr awyr yn glir. Gall problemau godi wrth geisio lleoli eich hun dan do, ar stryd gul, neu wrth yrru car, gyda llawer o fetel o gwmpas neu gyda metel/magnet ar gas y ddyfais.
+
+
+**Dangosir lleoliad anghywir ar y map**
+
+1. Os oes cylch lled-dryloyw mawr o amgylch eich saeth lleoliad ar y map, mae'n golygu bod eich safle yn cael ei bennu gyda chywirdeb isel, gan ddefnyddio cysylltiad WiFi neu gellog. Gwnewch yn siŵr eich bod wedi galluogi cywirdeb lleoliad "Manwl" ar gyfer Organic Maps yn gosodiadau'r system, a cheisiwch fynd allan, i ffwrdd o adeiladau uchel a choed, i wella derbyniad signal GPS lloeren.
+
+2. Os yw eich safle yn cael ei bennu'n anghywir (er enghraifft, rydych chi mewn un ddinas, ond mae'r ap yn dangos dinas arall), yna rydych chi'n fwyaf tebygol mewn ardal sy'n cael ei heffeithio gan signal GPS ffug (GPS spoofing) oherwydd mesurau rhyfela electronig (EW). Mewn achosion o'r fath, yr unig ateb yw symud i leoliad arall.

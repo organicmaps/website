@@ -2,7 +2,7 @@
 title: Cómo puedo importar los marcadores?
 slug: cómo-puedo-importar-los-marcadores
 description: ""
-updated: "2024-06-12"
+updated: "2024-06-20"
 
 taxonomies:
   faq: ["Marcadores y rutas"]
@@ -13,11 +13,11 @@ aliases:
   - /es/faq/bookmarks/how-to-import/
 ---
 
-Puede importar marcadores enviados desde Organic Maps o aplicaciones de terceros si exportan marcadores en formato KML, KMZ, KMB, GPX:
+Puede importar marcadores enviados desde Organic Maps o aplicaciones de terceros si exportan marcadores en formato KML, KMZ, KMB, GPX, GeoJSON (JSON):
 
-1. Puede importar marcadores desde carpetas y aplicaciones (incluido Maps.Me). Presione un botón de estrella para abrir marcadores, presione "Importar marcadores y trazas" y seleccione la unidad o carpeta con archivos KML, KMZ, KMB, GPX.
+1. Puede importar marcadores desde carpetas y aplicaciones (incluido Maps.Me). Presione un botón de estrella para abrir marcadores, presione "Importar marcadores y trazas" y seleccione la unidad o carpeta con archivos KML, KMZ, KMB, GPX, GeoJSON (JSON).
 
-2. Envía a ti mismo los archivos KML, KMZ, KMB, GPX por correo electrónico. También puede usar mensajería instantánea o almacenamiento en la nube, como iCloud o Google Drive.
+2. Envía a ti mismo los archivos KML, KMZ, KMB, GPX, GeoJSON (JSON) por correo electrónico. También puede usar mensajería instantánea o almacenamiento en la nube, como iCloud o Google Drive.
 
 3. Pulsa un archivo y elige “Copiar en Organic Maps” (iOS) o "Abrir con Organic Maps" (Android).
 

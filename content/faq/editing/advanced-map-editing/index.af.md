@@ -52,7 +52,7 @@ OpenStreetMap is 'n gemeenskap. As jy hulp nodig het of enige vrae het, kan jy i
 Die OpenStreetMap-databasis bevat voorwerpe soos nodusse, maniere, gebiede en verhoudings wat uit werklike kenmerke abstraheer. Hierdie voorwerpe het kenmerke, sogenaamde Tags om hulle verder te beskryf. 'n Merker is 'n sleutel-waarde kombinasie.
 
 Aangesien dit meer ingewikkeld klink as wat dit is, sal ons 'n voorbeeld gee:
-'n Restaurant is bv. gekarteer as 'n nota of area met die merker ``` amenity=restaurant```. Verdere etikette soos ```cousine=*``` of ```opening_hours=*``` kan dan vir verdere besonderhede gebruik word.
+'n Restaurant is bv. gekarteer as 'n nota of area met die merker `amenity=restaurant`. Verdere etikette soos `cuisine=*` of `opening_hours=*` kan dan vir verdere besonderhede gebruik word.
 
 > Let daarop dat die ID-redigeerder die interne datastruktuur vir die gebruikers verberg om meer beginnersvriendelik te wees. Maar om die Wiki-dokumentasie te lees, is 'n kort oorsig van die datastruktuur nuttig.
 In die ID-redigeerder kan jy die Merkers wat ID vir jou wegsteek, sien deur die *Tags*-afdeling in die *Redigeer-kenmerk*-sypaneel uit te brei.

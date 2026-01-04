@@ -51,7 +51,7 @@ OpenStreetMap est une communauté. Si vous avez besoin d'aide ou si vous avez de
 La base de données OpenStreetMap contient des objets tels que des nœuds, des chemins, des zones et des relations qui font abstraction des fonctionnalités du monde réel. Ces objets ont des attributs, appelés balises pour les décrire plus en détail. Une balise est une combinaison clé-valeur.
 
 Comme cela semble plus compliqué qu’il ne l’est, nous allons donner un exemple :
-Un restaurant est par ex. mappé comme une note ou une zone avec la balise ``` amenity=restaurant```. D'autres balises comme ```cousine=*``` ou ```opening_hours=*``` peuvent ensuite être utilisées pour plus de détails.
+Un restaurant est par ex. mappé comme une note ou une zone avec la balise `amenity=restaurant`. D'autres balises comme `cuisine=*` ou `opening_hours=*` peuvent ensuite être utilisées pour plus de détails.
 
 > Notez que l'éditeur d'ID cache la structure de données interne aux utilisateurs pour être plus convivial pour les débutants. Mais pour lire la documentation Wiki, un bref aperçu de la structure des données est utile.
 Dans l'éditeur d'ID, vous pouvez voir les balises que l'ID vous cache en développant la section *Tags* dans le panneau latéral *Modifier la fonctionnalité*.

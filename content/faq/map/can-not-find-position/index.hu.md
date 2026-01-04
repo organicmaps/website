@@ -1,9 +1,8 @@
 ---
-title: Az alkalmazás nem találja a pozíciómat a térképen
+title: "Az alkalmazás nem találja a pozíciómat a térképen, vagy helytelen helyet mutat"
 slug: az-alkalmazás-nem-találja-a-pozíciómat-a-térképen
-description: Hibaelhárítási útmutató a helymeghatározással kapcsolatos problémák megoldásához
-  iOS és Android eszközökön
-updated: '2024-06-20'
+description: "Hibaelhárítási útmutató a helymeghatározással és az aktuális GPS-pozícióval kapcsolatos problémák megoldásához a térképen iOS és Android eszközökön"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Map
@@ -34,3 +33,10 @@ Ha Ön iPhone vagy iPad felhasználó, kérjük, ellenőrizze az iOS beállítá
 * Egyes mobileszközök nem rendelkeznek beépített GPS-vevővel, például az iPod Touch, a csak WiFi-t használó iPad, az Amazon Kindle Fire/Kindle Fire HD 7 és néhány Android táblagép. Ezeken az eszközökön minden alkalmazás megjeleníti az Ön hozzávetőleges tartózkodási helyét a Wi-Fi hálózaton keresztül, mindaddig, amíg csatlakozik az internethez.
 
 * A helyérzékelés GPS-műholdakkal (ha a WiFi és a mobilhálózatok le vannak tiltva) eltarthat egy ideig. Minél hosszabb ideig nem használja a GPS-t, annál több időt vesz igénybe. A helyérzékelés sebessége az eszköztől függ, nem az alkalmazástól. A GPS működését az időjárás is befolyásolja – szabadban működik a legjobban, ha tiszta az ég. Problémák adódhatnak, ha beltérben, szűk utcán próbálunk elhelyezkedni, vagy ha autót vezetünk, ha sok fém van körülötte, vagy fém/mágnes van a készülék házán.
+
+
+**Helytelen hely jelenik meg a térképen**
+
+1. Ha a térképen a helyzetjelző nyíl körül egy nagy, félig átlátszó kör látható, az azt jelenti, hogy a pozíciója alacsony pontossággal, WiFi vagy mobilkapcsolat használatával került meghatározásra. Győződjön meg arról, hogy a rendszerbeállításokban engedélyezte a "Pontos" helymeghatározást az Organic Maps számára, és próbáljon meg kimenni a szabadba, távol a magas épületektől és fáktól, hogy javítsa a műholdas GPS-jel vételét.
+
+2. Ha a pozíciója helytelenül van meghatározva (például az egyik városban tartózkodik, de az alkalmazás egy másik várost mutat), akkor valószínűleg olyan területen tartózkodik, amelyet elektronikus hadviselési (EW) intézkedések miatt hamis GPS-jel (GPS-hamisítás) érint. Ilyen esetekben az egyetlen megoldás az, ha másik helyre megy.

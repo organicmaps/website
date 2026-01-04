@@ -1,8 +1,8 @@
 ---
-title: Aplikazioak ezin du aurkitu nire posizioa mapan
+title: "Aplikazioak ezin du nire posizioa aurkitu mapan edo kokapen okerra erakusten du"
 slug: aplikazioak-ezin-du-aurkitu-nire-posizioa-mapan
-description: iOS eta Android gailuetarako kokapena zehazteko arazoak konpontzeko gida
-updated: '2024-06-20'
+description: "iOS eta Android gailuetarako mapan kokapenarekin eta uneko GPS posizioarekin arazoak konpontzeko gida"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Map
@@ -33,3 +33,10 @@ iPhone edo iPad erabiltzailea bazara, egiaztatu iOS ezarpenak → Pribatutasuna 
 * Gailu mugikor batzuek ez dute GPS hargailu integraturik, hala nola iPod Touch, WiFi-a soilik den iPad, Amazon Kindle Fire/Kindle Fire HD 7 eta Android tableta batzuk. Gailu hauetan, aplikazio guztiek Wi-Fi sare bat erabiliz detektatutako gutxi gorabeherako kokapena erakutsiko dute, Internetera konektatuta bazaude.
 
 * GPS sateliteekin kokapena hautemateak (WiFi eta Sare Mugikorrak desgaituta daudenean) denbora pixka bat behar izan dezake. Zenbat eta denbora gehiago erabili ez den GPSa, orduan eta denbora gehiago behar da. Kokapena detektatzeko abiadura gailuaren araberakoa da, ez aplikazioaren arabera. GPSaren funtzionamendua eguraldiak ere eragiten du; zerua garbi dagoenean kanpoan funtzionatzen du hobekien. Arazoak sor daitezke barrualdean, kale estu batean edo auto bat gidatzen saiatzean, metal asko inguruan edo metal/iman bat gailuaren zorroan.
+
+
+**Kokapen okerra erakusten da mapan**
+
+1. Mapan zure kokapen-geziaren inguruan zirkulu erdi-garden handi bat badago, zure posizioa zehaztasun txikiarekin zehazten dela esan nahi du, WiFi edo konexio zelularra erabiliz. Ziurtatu Organic Maps-erako kokapen-zehaztasun "Zehata" gaitu duzula sistemaren ezarpenetan, eta saiatu kanpora joaten, eraikin altuetatik eta zuhaitzetatik urrun, satelite bidezko GPS seinalearen harrera hobetzeko.
+
+2. Zure posizioa gaizki zehazten bada (adibidez, hiri batean zaude, baina aplikazioak beste hiri bat erakusten du), ziurrenik GPS seinale faltsu batek (GPS spoofing) eragindako eremu batean zaude gerra elektronikoko (EW) neurrien ondorioz. Kasu horietan, irtenbide bakarra beste kokapen batera mugitzea da.

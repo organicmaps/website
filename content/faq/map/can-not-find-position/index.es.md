@@ -1,12 +1,10 @@
 ---
-title: La aplicación no puede establecer mi posición
+title: "La aplicación no puede encontrar mi posición en el mapa o muestra una ubicación incorrecta"
 slug: la-aplicación-no-puede-establecer-mi-posición
-description: ""
-updated: "2024-06-12"
-
+description: "Guía de solución de problemas para resolver problemas con la ubicación y la posición GPS actual en el mapa para dispositivos iOS y Android"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Mapa"]
-
 extra:
   order: 10
 aliases:
@@ -34,3 +32,10 @@ Si usted es un usuario de iPhone o iPad, verifique la configuración de iOS → 
 * Algunos dispositivos móviles no tienen receptores GPS incorporados, como el iPod Touch, el iPad solo WiFi, Amazon Kindle Fire / Kindle Fire HD 7 y algunas tabletas Android. En estos dispositivos, nuestra aplicación mostrará su ubicación aproximada, siempre que esté conectado a internet.
 
 * Por último, recuerde que la determinación de la ubicación con GPS (con WiFi y Red móvil desactivada) puede llevar algo de tiempo. Cuanto más tiempo no se haya utilizado el GPS, más tiempo tomará. La velocidad de determinación de la ubicación depende del dispositivo, no de la aplicación. La operación del GPS también está influenciada por el clima: funciona mejor en exteriores cuando el cielo está despejado. Pueden surgir problemas al tratar de ubicarse en el interior, en una calle estrecha o cuando conduce un automóvil.
+
+
+**Se muestra una ubicación incorrecta en el mapa**
+
+1. Si hay un gran círculo semitransparente alrededor de la flecha de su ubicación en el mapa, significa que su posición se determina con baja precisión, utilizando conexión WiFi o celular. Asegúrese de haber habilitado la precisión de ubicación "Precisa" para Organic Maps en la configuración del sistema e intente salir al exterior, lejos de edificios altos y árboles, para mejorar la recepción de la señal GPS satelital.
+
+2. Si su posición se determina incorrectamente (por ejemplo, está en una ciudad, pero la aplicación muestra otra ciudad), lo más probable es que se encuentre en un área afectada por una señal GPS falsa (suplantación de GPS) debido a medidas de guerra electrónica (EW). En tales casos, la única solución es moverse a otra ubicación.

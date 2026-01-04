@@ -2,7 +2,7 @@
 title: Co mogę zrobić, jeśli aplikacja nie odpowiada/uległa awarii?
 slug: co-mogę-zrobić-jeśli-aplikacja-nie-odpowiadauległa-awarii
 description: Jakie działania podjąć w przypadku awarii aplikacji. Jak zgłaszać krytyczne błędy programistom.
-updated: "2024-06-12"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Aplikacja"]
 extra:
@@ -22,3 +22,9 @@ Jeśli aplikacja nadal się zawiesza, sprawdź [nasz GitHub](https://github.com/
 * Szczegółowy opis problemu i kroki pozwalające go odtworzyć
 * Wersja Organic Maps
 * Model urządzenia i wersja systemu operacyjnego (Android lub iOS)
+
+Lub alternatywnie:
+1. Włącz rejestrowanie logów w ustawieniach aplikacji.
+2. Wymuś ponowne uruchomienie aplikacji.
+3. Zreprodukuje awarię.
+4. Wyślij nam plik logu za pomocą "Zgłoś błąd" na ekranie O aplikacji i dodaj krótki opis awarii.

@@ -49,14 +49,14 @@ OpenStreetMap is a community. If you need help or have any questions you can ask
 The OpenStreetMap database contains Objects like Nodes, Ways, Areas, and Relations that abstract from real-world features. These Objects have Attributes, so-called Tags to further describe them. A Tag is a Key-Value combination.
 
 As this sounds more complicated than it is we will give an example:
-A Restaurant is e.g. mapped as a Node or Area with the Tag ``` amenity=restaurant```. Further Tags like ```cousine=*``` or ```opening_hours=*``` can then be used for further details.
+A Restaurant is e.g. mapped as a Node or Area with the Tag `amenity=restaurant`. Further Tags like `cuisine=*` or `opening_hours=*` can then be used for further details.
 
 > Note that the ID editor hides the internal data structure from the users to be more beginner-friendly. But for reading the Wiki documentation heaving a brief overview of the data structure is helpful.
 In the ID Editor, you can see the Tags that ID is hiding from you by expanding the *Tags* section in the *Edit feature* side panel.
 
 ## OSM Notes {#osm-note}
 
-If you don't have time or the problem is too complicated for editing the OSM data yourself OSM Notes ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) are the way to go. You can place such a note in the location of the map error and describe the problem in detail. Other OSM volunteers can then help and solve the issue. You will get e-mail notifications via your OSM account in case they have further questions or the OSM Note is solved.
+If you don't have time or the problem is too complicated for editing the OSM data yourself, OSM Notes ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) are the way to go. You can place such a note in the location of the map error and describe the problem in detail. Other OSM volunteers can then help and solve the issue. You will get e-mail notifications via your OSM account in case they have further questions or the OSM Note is solved.
 
 1. Create a new account or log in at [OpenStreetMap.org](https://www.openstreetmap.org)
    > You can also open anonymous Notes, but this is not recomended as you won't get notified when the issue is solved or there are further questions.

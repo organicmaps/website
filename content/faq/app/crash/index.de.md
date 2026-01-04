@@ -2,7 +2,7 @@
 title: Was kann ich tun, wenn die App sich aufhängt/abstürzt?
 slug: was-kann-ich-tun-wenn-die-app-sich-aufhängtabstürzt
 description: Was ist zu tun, wenn die Anwendung abstürzt? Wie man kritische Fehler an Entwickler meldet.
-updated: "2025-12-31"
+updated: "2026-01-04"
 taxonomies:
   faq: ["App"]
 extra:
@@ -24,3 +24,9 @@ Wenn das Problem weiterhin besteht, [kontaktiere uns bitte](mailto:support@organ
 * Eine kurze Beschreibung des Problems mit Schritten zur Reproduktion
 * Die Organic Maps Version
 * Dein Gerätemodell und Betriebssystemversion (Android oder iOS).
+
+Oder alternativ:
+1. Aktivieren Sie die Protokollierung in den App-Einstellungen.
+2. Erzwingen Sie einen Neustart der App.
+3. Reproduzieren Sie den Absturz.
+4. Senden Sie uns die Protokolldatei über "Fehler melden" im Über-Bildschirm und fügen Sie eine kurze Beschreibung des Absturzes hinzu.

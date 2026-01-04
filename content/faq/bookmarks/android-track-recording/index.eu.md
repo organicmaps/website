@@ -18,6 +18,8 @@ aliases:
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC eta beste gailu batzuen bateriaren optimizazio ezarpen lehenetsiak atzeko planoan Maps Organikoak aplikazioa geldiarazi edo hil ditzakete.
 
 Hau bereziki egia da Android bertsio modernoetarako:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

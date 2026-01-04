@@ -2,7 +2,7 @@
 title: Wat kan ik doen als de app is gestopt/gecrasht?
 slug: wat-kan-ik-doen-als-de-app-is-gestoptgecrasht
 description: Welke acties moeten worden ondernomen als de applicatie crasht. Hoe kritieke bugs aan ontwikkelaars te rapporteren
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Als de app nog steeds crasht, controleer dan [onze GitHub](https://github.com/or
 * Een gedetailleerde beschrijving van het probleem en stappen om het te reproduceren
 * Organische kaartenversie
 * Apparaatmodel en besturingssysteemversie (Android of iOS)
+
+Of als alternatief:
+1. Schakel logboekregistratie in de app-instellingen in.
+2. Forceer het opnieuw opstarten van de app.
+3. Reproduceer de crash.
+4. Stuur ons het logbestand via "Een bug melden" in het scherm Over en voeg een korte beschrijving van de crash toe.

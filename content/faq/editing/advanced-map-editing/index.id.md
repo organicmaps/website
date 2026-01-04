@@ -52,7 +52,7 @@ OpenStreetMap adalah sebuah komunitas. Jika Anda memerlukan bantuan atau memilik
 Basis data OpenStreetMap berisi Objek seperti Node, Jalan, Area, dan Relasi yang abstrak dari fitur dunia nyata. Objek-objek ini mempunyai Atribut, yang disebut Tag untuk mendeskripsikannya lebih lanjut. Tag adalah kombinasi Nilai-Kunci.
 
 Karena ini terdengar lebih rumit, kami akan memberikan contoh:
-Sebuah Restoran misalnya. dipetakan sebagai Catatan atau Area dengan Tag ``` amenity=restaurant```. Tag lebih lanjut seperti ```sepupu=*``` atau ```jam_buka=*``` kemudian dapat digunakan untuk detail lebih lanjut.
+Sebuah Restoran misalnya. dipetakan sebagai Catatan atau Area dengan Tag `amenity=restaurant`. Tag lebih lanjut seperti `cuisine=*` atau `opening_hours=*` kemudian dapat digunakan untuk detail lebih lanjut.
 
 > Perhatikan bahwa editor ID menyembunyikan struktur data internal dari pengguna agar lebih ramah bagi pemula. Namun untuk membaca dokumentasi Wiki, memberikan gambaran singkat tentang struktur data sangat membantu.
 Di Editor ID, Anda dapat melihat Tag yang ID sembunyikan dari Anda dengan memperluas bagian *Tag* di panel samping *Fitur Edit*.

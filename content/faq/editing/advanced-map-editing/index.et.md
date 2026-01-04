@@ -52,7 +52,7 @@ OpenStreetMap on kogukond. Kui vajate abi või teil on küsimusi, võite küsida
 OpenStreetMapi andmebaas sisaldab selliseid objekte nagu sõlmed, viisid, alad ja seosed, mis eralduvad reaalsetest funktsioonidest. Nendel objektidel on nende edasiseks kirjeldamiseks atribuudid, nn sildid. Silt on võtme-väärtuse kombinatsioon.
 
 Kuna see kõlab keerulisemalt kui see on, toome näite:
-Restoran on nt. kaardistatud märkme või piirkonnana sildiga ``` amenity=restaurant```. Seejärel saab lisateabe saamiseks kasutada täiendavaid silte, nagu ```cousine=*``` või ```avamistunnid=*```.
+Restoran on nt. kaardistatud märkme või piirkonnana sildiga `amenity=restaurant`. Seejärel saab lisateabe saamiseks kasutada täiendavaid silte, nagu `cuisine=*` või `avamistunnid=*`.
 
 > Pange tähele, et ID-redaktor peidab sisemise andmestruktuuri kasutajate eest, et see oleks algajasõbralikum. Kuid Wiki dokumentatsiooni lugemisel on abi andmestruktuuri lühiülevaatest.
 ID-redaktoris näete silte, mida ID teie eest varjab, kui laiendate külgpaneelil *Märgendid* jaotist *Märgendid*.

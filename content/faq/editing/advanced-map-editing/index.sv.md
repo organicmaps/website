@@ -52,7 +52,7 @@ OpenStreetMap är en gemenskap. Om du behöver hjälp eller har några frågor k
 OpenStreetMap-databasen innehåller objekt som noder, sätt, områden och relationer som abstraherar från verkliga funktioner. Dessa objekt har attribut, så kallade taggar för att ytterligare beskriva dem. En tagg är en nyckel-värde kombination.
 
 Eftersom detta låter mer komplicerat än vad det är kommer vi att ge ett exempel:
-En Restaurang är t.ex. mappas som en anteckning eller område med taggen ``` amenity=restaurang```. Ytterligare taggar som ```cousine=*``` eller ```opening_hours=*``` kan sedan användas för ytterligare information.
+En Restaurang är t.ex. mappas som en anteckning eller område med taggen `amenity=restaurant`. Ytterligare taggar som `cuisine=*` eller `opening_hours=*` kan sedan användas för ytterligare information.
 
 > Observera att ID-redigeraren döljer den interna datastrukturen för användarna för att vara mer nybörjarvänlig. Men för att läsa Wiki-dokumentationen är en kort översikt över datastrukturen till hjälp.
 I ID Editor kan du se taggar som ID döljer för dig genom att expandera avsnittet *Taggar* i sidopanelen *Redigera funktion*.

@@ -2,7 +2,7 @@
 title: O que fazer se a aplicação parar de funcionar (bloquear)?
 slug: o-que-fazer-se-a-aplicação-parar-de-funcionar-bloquear
 description: Que ações tomar se a aplicação bloquear. Como reportar bugs críticos aos desenvolvedores.
-updated: "2024-06-12"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Aplicação"]
 extra:
@@ -20,3 +20,9 @@ Se mesmo assim o problema persistir, por favor [contacte-nos](mailto:support@org
 * descrição do problema e etapas para o recriar
 * Versão do Organic Maps
 * modelo do dispositivo e versão do sistema operativo (Android ou iOS).
+
+Ou alternativamente:
+1. Ative a gravação de registos nas definições da aplicação.
+2. Force o reinício da aplicação.
+3. Reproduza a falha.
+4. Envie-nos o ficheiro de registo via "Reportar um erro" no ecrã Sobre e adicione uma breve descrição da falha.

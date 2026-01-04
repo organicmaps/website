@@ -2,8 +2,8 @@
 title: Hoe bladwijzers en tracks in KML-, KMZ-, KMB- of GPX-formaat importeren?
 slug: hoe-bladwijzers-en-tracks-in-kml-kmz-kmb-of-gpx-formaat-importeren
 description: Stapsgewijze instructies voor het importeren van bladwijzers en tracks
-  die met u zijn gedeeld in de formaten KML, KMZ, KMB of GPX
-updated: '2024-06-20'
+  die met u zijn gedeeld in de formaten KML, KMZ, KMB of GPX, GeoJSON (JSON)
+updated: "2024-06-20"
 taxonomies:
   faq:
   - Bookmarks and tracks

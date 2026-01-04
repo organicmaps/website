@@ -2,7 +2,7 @@
 title: Co mohu dělat, pokud se aplikace zastavila/selhala?
 slug: co-mohu-dělat-pokud-se-aplikace-zastavilaselhala
 description: Jaké kroky podniknout, pokud aplikace spadne. Jak nahlásit kritické chyby vývojářům
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Pokud aplikace stále selhává, vyhledejte podobné problémy na [našem GitHub
 * Podrobný popis problému a kroky k jeho reprodukci
 * Verze organických map
 * Model zařízení a verze operačního systému (Android nebo iOS)
+
+Nebo alternativně:
+1. Povolte záznam logů v nastavení aplikace.
+2. Vynutit restart aplikace.
+3. Reprodukujte pád.
+4. Pošlete nám soubor logu přes "Nahlásit chybu" na obrazovce O aplikaci a přidejte krátký popis pádu.

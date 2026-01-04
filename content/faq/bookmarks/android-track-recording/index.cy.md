@@ -17,6 +17,8 @@ aliases:
 Gall gosodiadau optimeiddio batri rhagosodedig ar Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC a dyfeisiau eraill atal neu ladd app Mapiau Organig yn y cefndir.
 
 Mae hyn yn arbennig o wir ar gyfer fersiynau modern Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

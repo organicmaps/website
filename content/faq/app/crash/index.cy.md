@@ -2,7 +2,7 @@
 title: Beth alla i ei wneud os yw'r ap wedi stopio / chwalu?
 slug: beth-alla-i-ei-wneud-os-ywr-ap-wedi-stopio-chwalu
 description: Pa gamau i'w cymryd os bydd y rhaglen yn chwalu. Sut i riportio bygiau critigol i ddatblygwyr
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Os yw'r ap yn dal i ddamwain, gwiriwch [ein GitHub](https://github.com/organicma
 * Disgrifiad manwl o'r mater a'r camau i'w hatgynhyrchu
 * Fersiwn Mapiau Organig
 * Model dyfais a fersiwn OS (Android neu iOS)
+
+Neu fel arall:
+1. Galluogi recordio log yn gosodiadau'r ap.
+2. Gorfodi ailgychwyn yr ap.
+3. Atgynhyrchu'r chwalfa.
+4. Anfonwch y ffeil log atom trwy "Adrodd nam" yn y sgrin About ac ychwanegu disgrifiad byr o'r chwalfa.

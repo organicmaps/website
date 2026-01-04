@@ -52,7 +52,7 @@ Mae OpenStreetMap yn gymuned. Os oes angen help arnoch neu os oes gennych unrhyw
 Mae cronfa ddata OpenStreetMap yn cynnwys Gwrthrychau fel Nodau, Ffyrdd, Ardaloedd, a Chysylltiadau sy'n tynnu o nodweddion y byd go iawn. Mae gan y Gwrthrychau hyn Briodoleddau, fel y'u gelwir Tagiau i'w disgrifio ymhellach. Cyfuniad Gwerth Allweddol yw Tag.
 
 Gan fod hyn yn swnio'n fwy cymhleth nag ydyw, byddwn yn rhoi enghraifft:
-Mae Bwyty e.e. mapio fel Nodyn neu Ardal gyda'r Tag ``` amwynder = bwyty```. Yna gellir defnyddio tagiau pellach fel ```cousine=*``` neu ```opening_hours=*`` am ragor o fanylion.
+Mae Bwyty e.e. mapio fel Nodyn neu Ardal gyda'r Tag `amenity=restaurant`. Yna gellir defnyddio tagiau pellach fel `cuisine=*` neu `opening_hours=*` am ragor o fanylion.
 
 > Sylwch fod y golygydd ID yn cuddio'r strwythur data mewnol rhag y defnyddwyr i fod yn fwy cyfeillgar i ddechreuwyr. Ond ar gyfer darllen dogfennaeth Wiki mae cael trosolwg byr o'r strwythur data yn ddefnyddiol.
 Yn y Golygydd ID, gallwch weld y Tagiau y mae ID yn eu cuddio oddi wrthych trwy ehangu'r adran *Tagiau * yn y panel ochr * Golygu nodwedd*.

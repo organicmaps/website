@@ -1,9 +1,8 @@
 ---
-title: L'aplicacion pòt pas trobar ma posicion sus la mapa
+title: "L'aplicacion tròba pas ma posicion sus la mapa o mòstra un emplaçament incorrècte"
 slug: laplicacion-pòt-pas-trobar-ma-posicion-sus-la-mapa
-description: Guia de solucion de problèmas per resòlvre los problèmas amb la determinacion de la posicion
-  per dispositius iOS e Android
-updated: '2024-06-20'
+description: "Guida de resolucion de problèmas per resòlvre los problèmas de localizacion e de posicion GPS actuala sus la mapa per los aparelhs iOS e Android"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Mapa
@@ -34,3 +33,9 @@ S'utilizatz un iPhone o un iPad, verificatz los paramètres d'iOS → Confidenci
 * Cèrts aparelhs mobils an pas de recepteires GPS integrats, coma l'iPod Touch, l'iPad Wi-Fi solament, l'Amazon Kindle Fire/Kindle Fire HD 7, e d'unas tauletas Android. Sus aquestes aparelhs, totas las aplicacions mostraràn vòstra localizacion aproximativa detectada en utilizant un malhum Wi-Fi, tant que sètz connectat a Internet.
 
 * La deteccion de la localizacion amb los satellits GPS (quand lo Wi-Fi e los Malhums Mobils son desactivats) pòt prene un cèrt temps. Quant mai de temps lo GPS es pas estat utilizat, tant mai de temps cal. La velocitat de la deteccion de la posicion depend de l'aparelh, pas de l'aplicacion. Lo foncionament del GPS es tanben influenciat pel temps – fonciona melhor a l'exterior quand lo cèl es clar. De problèmas pòdon aparéisser quand ensajatz de vos localizar a l'interior, dins una carrièra estrecha, o quand condusètz una veitura, amb fòrça metal a l'entorn o amb un metal/magnet sus la caissa de l'aparelh.
+
+**Un emplaçament incorrècte es mostrat sus la mapa**
+
+1. Se i a un grand cercle semitransparent a l'entorn de vòstra flècha de localizacion sus la mapa, aquò significa que vòstra posicion es determinada amb una precision febla, en utilizant una connexion WiFi o cellulara. Asseguratz-vos qu'avètz activat la precision de localizacion "Precisa" per Organic Maps dins los paramètres del sistèma, e ensajatz d'anar defòra, luènh dels grands bastiments e dels arbres, per melhorar la recepcion del senhal GPS per satellit.
+
+2. Se vòstra posicion es determinada d'un biais incorrècte (per exemple, sètz dins una vila, mas l'aplicacion mòstra una autra vila), sètz fòrça probablament dins una zòna afectada per un fals senhal GPS (usurpacion GPS) a causa de mesuras de guèrra electronica (EW). Dins tals cases, la sola solucion es de se desplaçar cap a un autre emplaçament.

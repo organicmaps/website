@@ -18,6 +18,8 @@ aliases:
 A configuración predeterminada de optimización da batería en Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e outros dispositivos poden deter ou eliminar a aplicación Organic Maps en segundo plano.
 
 Isto é especialmente certo para as versións modernas de Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

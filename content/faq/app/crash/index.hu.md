@@ -2,7 +2,7 @@
 title: Mit tehetek, ha az alkalmazás leállt/összeomlott?
 slug: mit-tehetek-ha-az-alkalmazás-leálltösszeomlott
 description: Mi a teendő, ha az alkalmazás összeomlik. Hogyan jelentsd a kritikus hibákat a fejlesztőknek
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Ha az alkalmazás továbbra is összeomlik, kérjük, ellenőrizze a [GitHubunka
 * A probléma részletes leírása és a reprodukálásához szükséges lépések
 * Organic Maps verzió
 * Eszköz modell és operációs rendszer verziója (Android vagy iOS)
+
+Vagy alternatív megoldásként:
+1. Engedélyezze a naplózást az alkalmazás beállításaiban.
+2. Kényszerítse az alkalmazás újraindítását.
+3. Reprodukálja az összeomlást.
+4. Küldje el nekünk a naplófájlt a "Hiba jelentése" gombbal a Névjegy képernyőn, és adjon hozzá egy rövid leírást az összeomlásról.

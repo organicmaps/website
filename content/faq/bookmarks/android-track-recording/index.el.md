@@ -18,6 +18,8 @@ aliases:
 Οι προεπιλεγμένες ρυθμίσεις βελτιστοποίησης μπαταρίας σε Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC και άλλες συσκευές ενδέχεται να σταματήσουν ή να σκοτώσουν την εφαρμογή Organic Maps στο παρασκήνιο.
 
 Αυτό ισχύει ιδιαίτερα για τις σύγχρονες εκδόσεις Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

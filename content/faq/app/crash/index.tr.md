@@ -2,7 +2,7 @@
 title: Uygulama durdurulursa/çökerse ne yapabilirim?
 slug: uygulama-durdurulursaçökerse-ne-yapabilirim
 description: Uygulama çöktüğünde ne yapmalı? Önemli hataları geliştiricilere nasıl bildirmeli?
-updated: "2024-06-12"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Uygulama"]
 extra:
@@ -24,3 +24,9 @@ Uygulama hala çöküyorsa, lütfen [GitHub sayfamızı](https://github.com/orga
 * Sorunun ayrıntılı açıklaması ve sorunu yeniden oluşturmak için gerekli adımlar
 * Organic Maps sürümü
 * Cihaz modeli ve işletim sistemi sürümü (Android veya iOS)
+
+Veya alternatif olarak:
+1. Uygulama ayarlarında günlük kaydını etkinleştirin.
+2. Uygulamayı zorla yeniden başlatın.
+3. Çökmeyi yeniden oluşturun.
+4. Hakkında ekranındaki "Hata bildir" aracılığıyla günlük dosyasını bize gönderin ve çökme hakkında kısa bir açıklama ekleyin.

@@ -51,7 +51,7 @@ OpenStreetMap é uma comunidade. Se precisar de ajuda ou tiver alguma dúvida, v
 O banco de dados OpenStreetMap contém objetos como nós, caminhos, áreas e relações que abstraem recursos do mundo real. Esses objetos possuem atributos, chamados Tags para descrevê-los melhor. Uma tag é uma combinação de valor-chave.
 
 Como isso parece mais complicado do que é, daremos um exemplo:
-Um restaurante é, por ex. mapeado como uma Nota ou Área com a Tag ``` amenity=restaurant```. Outras tags como ```cousine=*``` ou ```opening_hours=*``` podem então ser usadas para obter mais detalhes.
+Um restaurante é, por ex. mapeado como uma Nota ou Área com a Tag `amenity=restaurant`. Outras tags como `cuisine=*` ou `opening_hours=*` podem então ser usadas para obter mais detalhes.
 
 > Observe que o editor de ID oculta a estrutura de dados interna dos usuários para ser mais amigável para iniciantes. Mas, para ler a documentação do Wiki, é útil ter uma breve visão geral da estrutura de dados.
 No Editor de ID, você pode ver as tags que o ID está escondendo de você expandindo a seção *Tags* no painel lateral *Recurso de edição*.

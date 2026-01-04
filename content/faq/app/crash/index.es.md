@@ -2,7 +2,7 @@
 title: Qué hago si la aplicación se detiene o se bloquea?
 slug: qué-hago-si-la-aplicación-se-detiene-o-se-bloquea
 description: Qué medidas tomar si la aplicación se bloquea. Cómo informar de errores críticos a los desarrolladores.
-updated: "2024-06-12"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Aplicación"]
 extra:
@@ -20,3 +20,9 @@ Si el problema persiste [ponte en contacto con nosotros](mailto:support@organicm
 * la descripción corta del problema
 * la version de Organic Maps
 * el modelo de dispositivo y la versión de OS (Android o iOS).
+
+O alternativamente:
+1. Habilite la grabación de registros en la configuración de la aplicación.
+2. Fuerce el reinicio de la aplicación.
+3. Reproduzca el bloqueo.
+4. Envíenos el archivo de registro a través de "Informar un error" en la pantalla Acerca de y agregue una breve descripción del bloqueo.

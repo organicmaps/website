@@ -52,7 +52,7 @@ OpenStreetMap és una comunitat. Si necessiteu ajuda o teniu cap pregunta, podeu
 La base de dades OpenStreetMap conté objectes com ara nodes, vies, àrees i relacions que abstreuen de les característiques del món real. Aquests Objectes tenen Atributs, els anomenats Etiquetes per descriure'ls amb més detall. Una etiqueta és una combinació clau-valor.
 
 Com que això sembla més complicat del que és, posarem un exemple:
-Un restaurant és, p. assignat com a nota o àrea amb l'etiqueta ``` amenity=restaurant```. A continuació, es poden utilitzar etiquetes addicionals com ```cousine=*``` o ```opening_hours=*``` per a més detalls.
+Un restaurant és, p. assignat com a nota o àrea amb l'etiqueta `amenity=restaurant`. A continuació, es poden utilitzar etiquetes addicionals com `cuisine=*` o `opening_hours=*` per a més detalls.
 
 > Tingueu en compte que l'editor d'identificació amaga l'estructura interna de dades als usuaris perquè sigui més fàcil de començar. Però per llegir la documentació de Wiki és útil fer una breu visió general de l'estructura de dades.
 A l'Editor d'identificació, podeu veure les etiquetes que l'ID us amaga expandint la secció *Etiquetes* al tauler lateral *Funció d'edició*.

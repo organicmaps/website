@@ -15,6 +15,8 @@ aliases:
 Las configuracions d'optimizacion de la bateria per defaut sus Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e d'autres aparelhs pòdon arrestar o tuar l'aplicacion Organic Maps en fons.
 
 Aquò es particularament vertadièr per las versions modèrnas d'Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

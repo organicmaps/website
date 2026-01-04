@@ -16,6 +16,8 @@ aliases:
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC ve diğer cihazlardaki varsayılan pil optimizasyon ayarları arka planda Organik Haritalar uygulamasını durdurabilir veya öldürebilir.
 
 Bu durum özellikle modern Android sürümleri için geçerlidir:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

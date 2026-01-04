@@ -18,6 +18,8 @@ aliases:
 La configuració predeterminada d'optimització de la bateria a Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC i altres dispositius poden aturar o matar l'aplicació Organic Maps en segon pla.
 
 Això és especialment cert per a les versions modernes d'Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

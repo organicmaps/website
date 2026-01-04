@@ -52,7 +52,7 @@ Az OpenStreetMap egy közösség. Ha segítségre van szüksége, vagy bármilye
 Az OpenStreetMap adatbázis olyan objektumokat tartalmaz, mint a csomópontok, utak, területek és kapcsolatok, amelyek elvonatkoztatnak a való világ jellemzőitől. Ezek az objektumok attribútumokkal, úgynevezett címkékkel rendelkeznek a további leírásukra. A címke kulcs-érték kombináció.
 
 Mivel ez bonyolultabbnak hangzik, mint amilyen, adunk egy példát:
-Az étterem pl. jegyzetként vagy területként leképezve az ``` amenity=restaurant``` címkével. Ezután további címkék, például ```cousine=*``` vagy ```opening_hours=*``` használhatók további részletekért.
+Az étterem pl. jegyzetként vagy területként leképezve az `amenity=restaurant` címkével. Ezután további címkék, például `cuisine=*` vagy `opening_hours=*` használhatók további részletekért.
 
 > Vegye figyelembe, hogy az ID szerkesztő elrejti a belső adatstruktúrát a felhasználók elől, hogy kezdőbarátabb legyen. De a Wiki-dokumentáció olvasásához hasznos az adatstruktúra rövid áttekintése.
 Az azonosítószerkesztőben megtekintheti az azonosító által elrejtett címkéket, ha kibontja a *Címkék* részt a *Szerkesztési szolgáltatás* oldalsó panelén.

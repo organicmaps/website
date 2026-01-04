@@ -52,7 +52,7 @@ OpenStreetMap komunitate bat da. Laguntza behar baduzu edo galderarik baduzu [OS
 OpenStreetMap datu-baseak nodoak, bideak, eremuak eta harremanak bezalako objektuak ditu, mundu errealeko ezaugarrietatik abstraitzen direnak. Objektu hauek Atributuak dituzte, Etiketak deitzen direnak gehiago deskribatzeko. Etiketa gako-balioen konbinazioa da.
 
 Honek baino konplikatuagoa dirudienez adibide bat jarriko dugu:
-Jatetxe bat adibidez. ``` amenity=restaurant``` etiketa duen Ohar edo Eremu gisa mapatua. Ondoren, ```cousine=*``` edo ```opening_hours=*``` bezalako etiketa gehiago erabil daitezke xehetasun gehiago lortzeko.
+Jatetxe bat adibidez. `amenity=restaurant` etiketa duen Ohar edo Eremu gisa mapatua. Ondoren, `cuisine=*` edo `opening_hours=*` bezalako etiketa gehiago erabil daitezke xehetasun gehiago lortzeko.
 
 > Kontuan izan ID editoreak barneko datuen egitura ezkutatzen diela erabiltzaileei, hasiberrientzako atseginagoa izan dadin. Baina Wikiaren dokumentazioa irakurtzeko lagungarria da datuen egituraren ikuspegi laburra ematea.
 ID editorean, ID ezkutatzen dizun etiketak ikus ditzakezu *Etiketak* atala zabalduz *Editatu eginbidea* alboko panelean.

@@ -18,9 +18,11 @@ aliases:
 Pengaturan pengoptimalan baterai default pada Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC, dan perangkat lain dapat menghentikan atau mematikan aplikasi Peta Organik di latar belakang.
 
 Hal ini terutama berlaku untuk versi Android modern:
--Android 14
--Android 13
--Android 12
--Android 11
+- Android 16
+- Android 15
+- Android 14
+- Android 13
+- Android 12
+- Android 11
 
 Langkah-langkah tepat tentang cara membuat Peta Organik (dan aplikasi lainnya) berfungsi di latar belakang tercantum di sini: [dontkillmyapp.com](https://dontkillmyapp.com)

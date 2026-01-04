@@ -13,6 +13,8 @@ extra:
 Default battery optimization settings on Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC and other devices may stop or kill Organic Maps app in the background.
 
 This is especially true for modern Android versions:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

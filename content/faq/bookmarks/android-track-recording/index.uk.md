@@ -16,6 +16,8 @@ aliases:
 Стандартні налаштування оптимізації роботи акумулятора на пристроях Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC та інших пристроях можуть зупиняти або закривати додаток Organic Maps у фоновому режимі.
 
 Це особливо актуально для сучасних версій Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

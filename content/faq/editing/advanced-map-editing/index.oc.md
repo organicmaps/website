@@ -51,7 +51,7 @@ OpenStreetMap es una comunautat. S'avètz besonh d'ajuda o de questions, las pod
 La basa de donadas d'OpenStreetMap conten d'Objèctes coma de Nòuds, de Traçats, de Zònas e de Relacions que son d'abstraccions de las caracteristicas del mond real. Aquestes Objèctes an d'Attributs, nomenats Etiquetas, per los descriure mai precisament. Una Etiqueta es una combinason Clau-Valor.
 
 Coma aquò sembla mai complicat qu'es, donarem un exemple :
-Un restaurant es, per exemple, cartografiat coma un Nòde o una Zòna amb l'etiqueta ``` amenity=restaurant```. D'autras etiquetas coma ```cousine=*``` o ```opening_hours=*``` se pòdon puèi utilizar per mai de detalhs.
+Un restaurant es, per exemple, cartografiat coma un Nòde o una Zòna amb l'etiqueta `amenity=restaurant`. D'autras etiquetas coma `cuisine=*` o `opening_hours=*` se pòdon puèi utilizar per mai de detalhs.
 
 > Notatz que l'editor d'ID amaga l'estructura de donadas intèrna als utilizaires per èsser mai accessible als debutants. Mas per legir la documentacion del Wiki, un apercebut brèu de l'estructura de donadas es util.
 Dins l'Editor d'ID, podètz veire los Tags que l'ID vos amaga en desrotlant la seccion *Tags* dins lo panèl lateral *Modificar l'element*.

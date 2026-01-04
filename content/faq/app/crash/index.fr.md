@@ -2,7 +2,7 @@
 title: Pourquoi l'application s'arrête ou crash?
 slug: pourquoi-lapplication-sarrête-ou-crash
 description: Que faire si l'application plante. Comment signaler les bogues critiques aux développeurs.
-updated: "2024-06-12"
+updated: "2026-01-04"
 taxonomies:
   faq: ["Application"]
 extra:
@@ -22,3 +22,9 @@ Si l'application continue de planter, veuillez consulter [notre GitHub](https://
 * Une description détaillée du problème et les étapes permettant de le reproduire
 * La version d'Organic Maps
 * Le modèle de l'appareil et la version du système d'exploitation (Android ou iOS)
+
+Ou alternativement :
+1. Activez l'enregistrement des journaux dans les paramètres de l'application.
+2. Forcez le redémarrage de l'application.
+3. Reproduisez le plantage.
+4. Envoyez-nous le fichier journal via "Signaler un bug" dans l'écran À propos et ajoutez une brève description du plantage.

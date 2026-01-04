@@ -52,7 +52,7 @@ OpenStreetMap is een gemeenschap. Als u hulp nodig heeft of vragen heeft, kunt u
 De OpenStreetMap-database bevat objecten zoals knooppunten, wegen, gebieden en relaties die abstractie maken van kenmerken uit de echte wereld. Deze objecten hebben attributen, zogenaamde tags, om ze verder te beschrijven. Een tag is een sleutel-waardecombinatie.
 
 Omdat dit ingewikkelder klinkt dan het is, zullen we een voorbeeld geven:
-Een restaurant is b.v. in kaart gebracht als een notitie of gebied met de tag ``` amenity=restaurant```. Verdere tags zoals ```cousine=*``` of ```opening_hours=*``` kunnen dan worden gebruikt voor meer details.
+Een restaurant is b.v. in kaart gebracht als een notitie of gebied met de tag `amenity=restaurant`. Verdere tags zoals `cuisine=*` of `opening_hours=*` kunnen dan worden gebruikt voor meer details.
 
 > Merk op dat de ID-editor de interne datastructuur voor de gebruikers verbergt om beginnersvriendelijker te zijn. Maar voor het lezen van de Wiki-documentatie is een kort overzicht van de datastructuur nuttig.
 In de ID-editor kunt u de tags zien die ID voor u verbergt door de sectie *Tags* in het zijpaneel *Functie bewerken* uit te vouwen.

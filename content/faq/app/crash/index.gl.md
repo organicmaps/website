@@ -2,7 +2,7 @@
 title: Que podo facer se a aplicación se detivo ou fallou?
 slug: que-podo-facer-se-a-aplicación-se-detivo-ou-fallou
 description: Que accións tomar se a aplicación falla. Como informar de erros críticos aos desenvolvedores
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Se a aplicación segue fallando, consulta [o noso GitHub](https://github.com/org
 * Unha descrición detallada do problema e os pasos para reproducilo
 * Versión de mapas orgánicos
 * Modelo de dispositivo e versión do SO (Android ou iOS)
+
+Ou alternativamente:
+1. Active a gravación de rexistros na configuración da aplicación.
+2. Force o reinicio da aplicación.
+3. Reproduza o fallo.
+4. Envíenos o ficheiro de rexistro a través de "Informar dun erro" na pantalla Acerca de e engada unha breve descrición do fallo.

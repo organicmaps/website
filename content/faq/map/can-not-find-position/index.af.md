@@ -1,9 +1,8 @@
 ---
-title: Die toepassing kan nie my posisie op die kaart vind nie
+title: "Die app kan nie my posisie op die kaart vind nie of wys 'n verkeerde ligging"
 slug: die-toepassing-kan-nie-my-posisie-op-die-kaart-vind-nie
-description: Foutspoorgids vir die oplossing van probleme met liggingbepaling vir
-  iOS- en Android-toestelle
-updated: '2024-06-20'
+description: "Probleemoplossingsgids vir probleme met ligging en huidige GPS-posisie op die kaart vir iOS- en Android-toestelle"
+updated: "2026-01-04"
 taxonomies:
   faq:
   - Map
@@ -27,6 +26,7 @@ Let wel: jy kan dit net sien as jy Google Play-dienste op jou Android-toestel ge
 
 As jy 'n iPhone- of iPad-gebruiker is, gaan asseblief iOS-instellings → Privaatheid → Liggingdienste na. Geografiese liggingdatadeling moet vir Organiese Kaarte geaktiveer word.
 
+
 **Notas:**
 
 * Om ongewenste data te vermy terwyl jy rondswerf, kan jy alle mobiele data afskakel, 'n vlugmodus aktiveer of mobiele data vir Organiese Kaarte deaktiveer in jou toestelinstellings. Android- en iOS-toestelle kan GPS in die vlugmodus gebruik.
@@ -34,3 +34,10 @@ As jy 'n iPhone- of iPad-gebruiker is, gaan asseblief iOS-instellings → Privaa
 * Sommige mobiele toestelle het nie ingeboude GPS-ontvangers nie, soos die iPod Touch, slegs WiFi-iPad, Amazon Kindle Fire/Kindle Fire HD 7 en sommige Android-tablette. Op hierdie toestelle sal alle programme jou benaderde ligging wys wat met 'n Wi-Fi-netwerk bespeur is, solank jy aan die internet gekoppel is.
 
 * Liggingopsporing met GPS-satelliete (wanneer WiFi en mobiele netwerke gedeaktiveer is) kan 'n rukkie neem. Hoe langer die GPS nie gebruik is nie, hoe meer tyd neem dit. Die spoed van liggingopsporing hang af van die toestel, nie die toepassing nie. Die GPS-werking word ook deur die weer beïnvloed – dit werk die beste buite wanneer die lug helder is. Probleme kan ontstaan ​​wanneer jy probeer om jouself binnenshuis, in 'n nou straat te vind, of wanneer jy 'n motor bestuur, met baie metaal om of met 'n metaal/magneet op die toestel se tas.
+
+
+**Verkeerde ligging word op die kaart gewys**
+
+1. As daar 'n groot half-deursigtige sirkel om jou liggingspyltjie op die kaart is, beteken dit dat jou posisie met lae akkuraatheid bepaal word, deur WiFi of sellulêre verbinding te gebruik. Maak seker dat jy "Presiese" liggingsakkuraatheid vir Organic Maps in stelselinstellings geaktiveer het, en probeer buite gaan, weg van hoë geboue en bome, om satelliet-GPS-seinontvangs te verbeter.
+
+2. As jou posisie verkeerd bepaal word (byvoorbeeld, jy is in een stad, maar die app wys 'n ander stad), dan is jy heel waarskynlik in 'n gebied wat deur 'n valse GPS-sein (GPS-spoofing) geraak word as gevolg van elektroniese oorlogvoering (EW) maatreëls. In sulke gevalle is die enigste oplossing om na 'n ander ligging te beweeg.

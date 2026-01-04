@@ -52,7 +52,7 @@ OpenStreetMap é unha comunidade. Se precisas axuda ou tes algunha dúbida, pode
 A base de datos OpenStreetMap contén Obxectos como Nodos, Camiños, Áreas e Relacións que abstraen de características do mundo real. Estes Obxectos teñen Atributos, os chamados Etiquetas para describilos aínda máis. Unha etiqueta é unha combinación clave-valor.
 
 Como isto parece máis complicado do que é, imos poñer un exemplo:
-Un restaurante é por exemplo. mapeada como nota ou área coa etiqueta ``` amenity=restaurant```. Pódense usar outras etiquetas como ```cousine=*``` ou ```opening_hours=*``` para obter máis detalles.
+Un restaurante é por exemplo. mapeada como nota ou área coa etiqueta `amenity=restaurant`. Pódense usar outras etiquetas como `cuisine=*` ou `opening_hours=*` para obter máis detalles.
 
 > Teña en conta que o editor de ID oculta a estrutura de datos interna dos usuarios para que sexa máis amigable para principiantes. Pero para ler a documentación do Wiki é útil facer unha breve visión xeral da estrutura de datos.
 No Editor de ID, podes ver as etiquetas que o ID está agochando para ti ampliando a sección *Etiquetas* no panel lateral *Función de edición*.

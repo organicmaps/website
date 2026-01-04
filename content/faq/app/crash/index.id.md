@@ -2,7 +2,7 @@
 title: Apa yang dapat saya lakukan jika aplikasi berhenti/rusak?
 slug: apa-yang-dapat-saya-lakukan-jika-aplikasi-berhentirusak
 description: Tindakan apa yang harus dilakukan jika aplikasi mogok. Cara melaporkan bug kritis kepada pengembang
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ Jika aplikasi masih mogok, silakan periksa [Github kami](https://github.com/orga
 * Penjelasan rinci tentang masalah dan langkah-langkah untuk mereproduksinya
 * Versi Peta Organik
 * Model perangkat dan versi OS (Android atau iOS)
+
+Atau sebagai alternatif:
+1. Aktifkan perekaman log di pengaturan aplikasi.
+2. Paksa mulai ulang aplikasi.
+3. Reproduksi kerusakan.
+4. Kirimkan file log kepada kami melalui "Laporkan bug" di layar Tentang dan tambahkan deskripsi singkat tentang kerusakan tersebut.

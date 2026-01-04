@@ -2,7 +2,7 @@
 title: Wat kan ek doen as die toepassing gestop/geval het?
 slug: wat-kan-ek-doen-as-die-toepassing-gestopgeval-het
 description: Watter stappe om te neem as die toepassing ineenstort. Hoe om kritieke foute aan ontwikkelaars te rapporteer
-updated: '2024-06-20'
+updated: "2026-01-04"
 taxonomies:
   faq:
   - App
@@ -23,3 +23,9 @@ As die toepassing steeds ineenstort, kyk asseblief na [ons GitHub](https://githu
 * 'n Gedetailleerde beskrywing van die probleem en stappe om dit weer te gee
 * Organiese kaarte weergawe
 * Toestelmodel en bedryfstelselweergawe (Android of iOS)
+
+Of alternatiewelik:
+1. Aktiveer logopname in die programinstellings.
+2. Dwing die program om weer te begin.
+3. Reproduseer die omval.
+4. Stuur vir ons die loglêer via "Rapporteer 'n fout" in die Oor-skerm en voeg 'n kort beskrywing van die omval by.

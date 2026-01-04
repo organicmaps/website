@@ -51,7 +51,7 @@ OpenStreetMap jest społecznością. Jeśli potrzebujesz pomocy lub masz jakieś
 Baza danych OpenStreetMap zawiera obiekty takie jak węzły, drogi, obszary i relacje, które abstrakcyjnie odnoszą się do obiektów ze świata rzeczywistego. Obiekty te posiadają atrybuty, tzw. znaczniki umożliwiające ich dalszy opis. Tag to kombinacja klucz-wartość.
 
 Ponieważ brzmi to bardziej skomplikowanie, niż jest w rzeczywistości, podamy przykład:
-Restauracja to m.in. mapowany jako Notatka lub Obszar ze znacznikiem ``` amenity=restaurant```. Dalsze znaczniki, takie jak ```cousine=*``` lub ```godziny_otwarcia=*``` mogą być następnie użyte w celu uzyskania dalszych szczegółów.
+Restauracja to m.in. mapowany jako Notatka lub Obszar ze znacznikiem `amenity=restaurant`. Dalsze znaczniki, takie jak `cuisine=*` lub `opening_hours=*` mogą być następnie użyte w celu uzyskania dalszych szczegółów.
 
 > Pamiętaj, że edytor identyfikatorów ukrywa przed użytkownikami wewnętrzną strukturę danych, aby był bardziej przyjazny dla początkujących. Jednak do przeczytania dokumentacji Wiki pomocny jest krótki przegląd struktury danych.
 W Edytorze ID możesz zobaczyć Tagi, które ID ukrywa przed Tobą, rozwijając sekcję *Tagi* w panelu bocznym *Funkcja edycji*.

@@ -1,12 +1,10 @@
 ---
 title: На карте отсутствуют или неправильно называются объекты
 slug: на-карте-отсутствуют-или-неправильно-называются-объекты
-description: ""
-updated: "2024-06-12"
-
+description: Что делать, если вы заметили ошибку на карте в Organic Maps или в OpenStreetMap (OSM)
+updated: "2026-01-04"
 taxonomies:
   faq: ["Редактирование"]
-
 extra:
   order: 30
 aliases:

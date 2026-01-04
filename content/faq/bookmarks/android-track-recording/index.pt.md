@@ -16,6 +16,8 @@ aliases:
 As definições predefinidas de otimização da bateria na Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC e outros dispositivos podem parar ou encerrar a aplicação Organic Maps em segundo plano.
 
 Isso acontece especialmente nas versões mais modernas do Android:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

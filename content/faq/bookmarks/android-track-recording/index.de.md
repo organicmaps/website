@@ -16,6 +16,8 @@ aliases:
 Die Standardeinstellungen zur Akkuoptimierung auf Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC und anderen Geräten können die Organic Maps-App im Hintergrund stoppen oder beenden.
 
 Dies gilt insbesondere für moderne Android-Versionen:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

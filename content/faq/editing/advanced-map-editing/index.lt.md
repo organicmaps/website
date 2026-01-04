@@ -52,7 +52,7 @@ OpenStreetMap yra bendruomenė. Jei jums reikia pagalbos arba turite klausimų, 
 „OpenStreetMap“ duomenų bazėje yra tokių objektų kaip mazgai, keliai, sritys ir ryšiai, kurie atsiriboja nuo realaus pasaulio funkcijų. Šie objektai turi atributų, vadinamųjų žymų, skirtų toliau juos apibūdinti. Žyma yra rakto ir vertės derinys.
 
 Kadangi tai skamba sudėtingiau nei yra, pateiksime pavyzdį:
-Restoranas yra pvz. susietas kaip pastaba arba sritis su žyma ``` amenity=restaurant```. Tada galima naudoti kitas žymas, pvz., ```cousine=*``` arba ```opening_hours=*```, kad gautumėte daugiau informacijos.
+Restoranas yra pvz. susietas kaip pastaba arba sritis su žyma `amenity=restaurant`. Tada galima naudoti kitas žymas, pvz., `cuisine=*` arba `opening_hours=*`, kad gautumėte daugiau informacijos.
 
 > Atminkite, kad ID redaktorius slepia vidinę duomenų struktūrą nuo vartotojų, kad būtų patogesnis pradedantiesiems. Tačiau norint skaityti Wiki dokumentaciją, naudinga trumpa duomenų struktūros apžvalga.
 ID redagavimo priemonėje galite matyti žymas, kurias ID nuo jūsų slepia, išplėsdami skyrių *Žymos* šoniniame *Redagavimo funkcijos* skydelyje.

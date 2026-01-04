@@ -17,6 +17,8 @@ aliases:
 Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC आणि इतर डिव्हाइसेसवरील डीफॉल्ट बॅटरी ऑप्टिमायझेशन सेटिंग्ज पार्श्वभूमीत ऑर्गेनिक नकाशे ॲप थांबवू किंवा नष्ट करू शकतात.
 
 हे विशेषतः आधुनिक Android आवृत्त्यांसाठी सत्य आहे:
+- Android 16
+- Android 15
 - Android 14
 - Android 13
 - Android 12

@@ -26,6 +26,7 @@ external_links_target_blank = true
 # Allows to have localized URLs.
 [slugify]
 paths = "safe"
+taxonomies = "safe"
 
 [extra]
 ada = "addr1q84gt8k70zlj3e8w7j05c9y4t0hs5q4h5dtz5tnz2t9w7m02sk0du79l9rjwaaylfs2f2kl0pgpt0g6k9ghxy5k2aaks7dfjpp"

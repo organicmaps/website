@@ -380,6 +380,30 @@ more-info-om = "Para obter máis información, visite o noso sitio web"
 name = "Nome"
 token = "Token"
 
+# Language: he (Hebrew / עברית)
+[languages.he]
+taxonomies = [
+  {name = "faq", feed = false, lang = "he"},
+  {name = "news", feed = true, lang = "he"},
+]
+[languages.he.translations]
+address = "כתובת"
+back = "חזרה לחדשות"
+contact = "צור קשר"
+edit-on-github = "עריכה ב-GitHub"
+engines = "מנועי דיבור (TTS) נתמכים"
+faq-menu-title = "שאלות ותשובות"
+go-to-top = "חזרה למעלה"
+install-appgallery = "התקנת Organic Maps מ-Huawei AppGallery"
+install-appstore = "התקנת Organic Maps מ-AppStore"
+install-googleplay = "התקנת Organic Maps מ-Google Play"
+install-fdroid = "התקנת Organic Maps מ-F-Droid"
+language = "עברית"
+language-word = "שפה"
+more-info-om = "למידע נוסף אנא בקרו באתר האינטרנט שלנו"
+name = "שם"
+token = "טוקן"
+
 # Language: hi (Hindi / हिंदी)
 [languages.hi]
 taxonomies = [

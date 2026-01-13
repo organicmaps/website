@@ -1,0 +1,54 @@
+---
+title: "Organic Maps חוגגת 4 שנים: האלטרנטיבה ל-Google Maps המתמקדת בפרטיות"
+date: 2024-12-20T09:00:00+00:00
+slug: "organicmaps-turns-four"
+---
+
+**Organic Maps**, האלטרנטיבה הקוד הפתוח של Google Maps המתמקדת בפרטיות, חוגגת את יום השנה הרביעי להקמתה. הפרויקט קם במהלך שבוע חג המולד של 2020, בין ה-20 ל-28 בדצמבר, כתגובה ל[מוות קליני זמני של MAPS.ME 2.0 ב-20 בדצמבר 2020](https://telegra.ph/What-happened-to-the-old-MAPSME-12-20). לחיי המסע! תחי Organic Maps! תחי גם MAPS.ME! תנו למאה פרחים לפרוח! חג מולד שמח. ## Organic Maps היום מה השגנו עד כה לקראת חג המולד 2024:
+
+- כ-3 מיליון¹ משתמשים מכל מדינות העולם - כ-15 אלף דירוגים וביקורות ב-AppStore וב-Google Play - דירוג ממוצע של 4.8/4.6 ב-AppStore/Google Play - מעל 10 אלף כוכבים ב-[GitHub](https://github.com/organicmaps/organicmaps)
+- 10,000 (כמעט) בעיות + PRs ב-[GitHub](https://github.com/organicmaps/organicmaps) - 1,000 (כמעט) פורקים ב-[GitHub](https://github.com/organicmaps/organicmaps) - 7,000+ התחייבויות git שנעשו על ידי 100+ תורמים - 0$ הוצאות על שיווק - צמיחה אורגנית טהורה
+
+¹ מספר משוער בהתבסס על נתונים מה-App Store ו-Google Play, מכיוון שהאפליקציה אינה כוללת ניתוח נתונים ואינה אוספת נתוני משתמשים. ## המקורות זהו זמן טוב להרהר כיצד הכל התחיל.
+
+### MapsWithYou היה הייתה פעם אפליקציית מפות נסיעות נהדרת בשם **MapsWithMe** (ששמה שונה ל-MAPS.ME ב-2014). האפליקציה התבססה על נתוני המפות של [OpenStreetMap](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap), מעין ויקיפדיה, אבל למפות. בניגוד ל-OpenStreetMap, שתמיד הייתה [מאמץ קהילתי פתוח](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap), MapsWithMe [נוצרה](https://wiki.openstreetmap.org/wiki/MAPS.ME/History) כאפליקציה **קניינית** ו**סגורה** שפותחה על ידי [MapsWithMe GmbH](https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-208.496.491). לאפליקציה היו שתי גרסאות - גרסה מוגבלת בחינם וגרסת "Pro" **בתשלום** עם תכונות נוספות. [מעל 7 מיליון משתמשים הורידו](https://vk.company/en/press/releases/9209/) את האפליקציה מאז שחרורה ב-2011 ועד נובמבר 2014.
+
+### MapsWithCode כמו שקורה שוב ושוב, בנובמבר 2014 הבעלים המקוריים [מכרו את החברה](https://www-rbc-ru.translate.goog/rbcfreenews/5464b2eacbb20ff538342f8f?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en-US) לקונצרן טכנולוגי רוסי גדול, תמורת כ-[18 מיליון דולר +/-](https://vk.company/en/investors/info/10761/). כמקובל בעסקאות מסוג זה, הרוכש דרש ככל הנראה מהצוות המקורי להישאר בתפקידו במשך כשנה, ולאחר מכן הם עברו ככל הנראה למשימות חדשות. קונצרן הטכנולוגיה הגדול השקיע מיליוני דולרים נוספים, שכר עוד ועוד מהנדסים, והציג [שלל תכונות מגניבות](https://vk.company/en/press/releases/10100/) שכולנו אוהבים כיום ב-Organic Maps. בשנת 2015, שנה לאחר הרכישה, הם קיבלו החלטה נועזת [לשחרר את האפליקציה כקוד פתוח תחת רישיון Apache 2.0](https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source). ההצהרה הרשמית (https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source) הייתה:
+
+> "אנו שמחים לחלוק את החזון שלנו לגבי תוכנה פתוחה וחופשית הזמינה לקהילות ברחבי העולם. כל הצוות ב-MAPS.ME מעריך את ההזדמנות לתרום למשימות ההומניטריות של HOT ולעזור באזורים שסובלים מאסונות ומשברים פוליטיים"... "פתיחת MAPS.ME היא צעד חשוב לא רק עבורנו, אלא עבור כל קהילת המיפוי החופשי, שכן OSM תהפוך לנגישה עוד יותר לקהל רחב יותר, מה שלדעתי ימשוך עורכים חדשים להצטרף לתנועה המדהימה הזו." 
+
+### CryptoWithoutMaps שנים לאחר שלא הרוויחה, בנובמבר 2020 Big Tech קיבלה החלטה נועזת נוספת [למכור את נכס המפות "הלא מרכזי" שלה](https://vk.company/en/investors/info/10761/) תמורת כ-20 מיליון דולר ל [CryptoFinTech bros, שלפי הדיווחים קשורים](https://www.theguardian.com/technology/2023/mar/26/caught-in-the-ftx-storm-how-a-crypto-high-flyer-fell-to-earth) ל[Sam Bankman-Fried](https://www.justice.gov/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-sche) המפורסם, שנמצא כעת בכלא. [סם בנקמן-פריד](https://www.justice.gov/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) מ-[FTX](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX), בורסת מטבעות קריפטוגרפיים שבסיסה באיי בהאמה.
+
+לבעלי FinTech החדשים, כפי ש[דיווח הגרדיאן](https://www.theguardian.com/technology/2023/mar/26/caught-in-the-ftx-storm-how-a-crypto-high-flyer-fell-to-earth), היה רעיון מבריק כיצד להפיק רווחים מבסיס המשתמשים הרחב על ידי הוספת תשלומים דיגיטליים. בשלב מסוים, היו להם עד מיליון אנשים ברשימת ההמתנה לארנק הדיגיטלי Maps. הרעיון היה חכם, אך [הדברים לא התנהלו לפי התוכנית](https://www.theguardian.com/technology/2023/mar/26/caught-in-the-ftx-storm-how-a-crypto-high-flyer-fell-to-earth).
+
+חזרה לסיפור שלנו. ב-**20 בדצמבר 2020**, גרסה 2.0 של אפליקציית MAPS.ME הועלתה לחנות האפליקציות של Apple. העדכון החדש היה למעשה אפליקציה חדשה לגמרי, שנבנתה מחדש מאפס באמצעות MapBox SDK (שהיה די מצוין בפני עצמו). כצפוי, [חלק מהמשתמשים הוותיקים, אם לא כולם, היו מעט מאוכזבים](https://www.reddit.com/r/openstreetmap/comments/khsjqx/mapsme_seems_have_reached_its_end/). ### OriginalMapsMe אחד המשתמשים המאוכזבים כתב פוסט בשם ["MAPS.ME נעלמה. אנחנו חייבים להחזיר אותה"](https://telegra.ph/What-happened-to-the-old-MAPSME-12-20) ושיתף קישור לקבוצת טלגרם. חובבי הקוד הפתוח החלו להתאסף בקבוצה כדי לחשוב יחד איך להחזיר את MAPS.ME. עשרות פורקים של קוד פתוח צצו במהלך השבוע הראשון על ידי אנשים שונים. תנו לאלף פרחים לפרוח!
+
+רק כדי להזכיר, MapsWithMe המקורי היה **100% קנייני**. למרות ש-Big Tech רישיינה מאוחר יותר את קוד המקור תחת Apache 2.0 והעבירה את הפיתוח ל-GitHub, תהליך הפיתוח עדיין עקב אחר הגישות בסגנון ארגוני, בהסתמך על תהליך קבלת החלטות פנימי, מעקבים פנימיים ותשתית. הפרויקט מעולם לא זכה לשלטון עצמי ונוהל תמיד על ידי עובדים במשרה מלאה של התאגיד.
+
+סיעור מוחות אינסופי בנושא זה ובנושאים אחרים בקבוצת Telegram הוביל בסופו של דבר לשיחת טלפון ארוכה בין [Roman Tsisyk ו-Alexey Naumenko](https://github.com/organicmaps/community/wiki/Members), שהובילה להקמת **הפרויקט הזה**. הכוונה הייתה ליצור פרויקט קוד פתוח ראוי, המונע על ידי הקהילה, ופתוח לכל גורם המעוניין להשתתף. כך נולד **פרויקט זה**. ### OMaps השם הראשוני היה "OMaps", כמובן בהשראת Open and Original Maps. המיתוג מחדש למותג הנוכחי התרחש חודשים רבים לאחר מכן, אך זהו סיפור לפעם אחרת.
+
+למעשה, הבסיס לפרויקט הקוד הפתוח הנוכחי הוקם במהלך האקתון של כ-20 שעות בין ה-27 ל-28 בדצמבר 2020. מה שהושלם עד סוף היום ב-28 בדצמבר 2020, עם המשך פעילות בימים הבאים:
+
+- הקמת GitHub [נושא מס' 1](https://github.com/organicmaps/organicmaps/issues/1), הושלמה.
+- תוכנית הפרויקט המקיפה, שהכילה בתחילה כ-30 נושאים ב-GitHub, הורחבה לאחרונה ליותר מ-100 כרטיסים: [#1](https://github.com/organicmaps/organicmaps/issues/1), [#2](https://github.com/organicmaps/organicmaps/issues/2), 
+   [#3](https://github.com/organicmaps/organicmaps/issues/3), [#4](https://github.com/organicmaps/organicmaps/issues/4), [#5](https://github.com/organicmaps/organicmaps/issues/5), 
+   [#6](https://github.com/organicmaps/organicmaps/issues/6), [#7](https://github.com/organicmaps/organicmaps/issues/7), 
+   [#8](https://github.com/organicmaps/organicmaps/issues/8), [#9](https://github.com/organicmaps/organicmaps/issues/9), [#10](https://github.com/organicmaps/organicmaps/issues/10), 
+   [#11](https://github.com/organicmaps/organicmaps/issues/11), [#12](https://github.com/organicmaps/organicmaps/issues/12), [#13](https://github.com/organicmaps/organicmaps/issues/13), 
+   [#14](https://github.com/organicmaps/organicmaps/issues/14), [#15](https://github.com/organicmaps/organicmaps/issues/15), [#16](https://github.com/organicmaps/organicmaps/issues/16), 
+   [#17](https://github.com/organicmaps/organicmaps/issues/17), [#18](https://github.com/organicmaps/organicmaps/issues/18), [#19](https://github.com/organicmaps/organicmaps/issues/19), 
+   [#20](https://github.com/organicmaps/organicmaps/issues/20), [#21](https://github.com/organicmaps/organicmaps/issues/21), 
+   [#22](https://github.com/organicmaps/organicmaps/issues/22), [#23](https://github.com/organicmaps/organicmaps/issues/23), [#24](https://github.com/organicmaps/organicmaps/issues/24), 
+   [#25](https://github.com/organicmaps/organicmaps/issues/25), [#26](https://github.com/organicmaps/organicmaps/issues/26), 
+   [#27](https://github.com/organicmaps/organicmaps/issues/27), [#28](https://github.com/organicmaps/organicmaps/issues/28), [#29](https://github.com/organicmaps/organicmaps/issues/29), 
+   [#30](https://github.com/organicmaps/organicmaps/issues/30), [#31](https://github.com/organicmaps/organicmaps/issues/31), [#32](https://github.com/organicmaps/organicmaps/issues/32), 
+   [#33](https://github.com/organicmaps/organicmaps/issues/33), [#34](https://github.com/organicmaps/organicmaps/issues/34), [#35](https://github.com/organicmaps/organicmaps/issues/35).
+- מסמך הניהול הראשוני של הפרויקט (https://github.com/organicmaps/community/wiki/Governance), המציין את [רומן ציציק] (https://github.com/organicmaps/community/wiki/Member:Roman-Tsisyk) כ"מנהל פרויקט זמני" והתחייבות להקים מועצת מנהלים לפני סוף 2021 (בוצע).
+- [מבנה הצוות](https://github.com/organicmaps/community/wiki/Members) הראשוני, עם [אלכסיי נאומנקו](https://github.com/ooprizrakoo) כאחראי על קשרי הקהילה וגיוס חברים נלהבים (כל הכבוד על העבודה המצוינת!).
+- [סט הנחיות](https://github.com/organicmaps/community/wiki/Commit-Messages) ומדיניות ראשוני, כולל קוד ההתנהגות.
+- [מעבר בולט משימוש ב-CLA](https://github.com/organicmaps/organicmaps/issues/5) (הסכם רישיון תורם), שדרש מהתורמים להעניק רישיון לשינויים שלהם לכמה בעלים, לשימוש ב-DCO (תעודת מקור מפתחים), ששומרת על זכויות היוצרים של התורמים. זה נעשה בכוונה כדי למנוע כל אפשרות לסגירת המקורות או שינוי הרישיונות בעתיד.
+- [תשתית](https://github.com/organicmaps/community/wiki/Infrastructure) ראשונית, כולל CI/CD ואירוח קבצי מפות.
+- [מאמצים ראשוניים](https://github.com/organicmaps/organicmaps/commits/master/?since=2020-12-25&until=2021-01-04) התמקדו במיתוג מחדש, הסרת פרסומות, הסרת גרפיקה המוגנת בזכויות יוצרים והסרת פונקציונליות התלויה בבקאנד קנייני. - קבוצות טלגרם, סלאק וורקספייס, טוויטר וערוצי תקשורת אחרים.
+- בונוס: אב טיפוס של ממשק משתמש אינטרנטי לניהול סימניות המבוסס על [uMap](https://umap-project.org/) (למרבה הצער, מעולם לא שולב באפליקציה). כולם הוזמנו להצטרף לפרויקט הקוד הפתוח המונע על ידי הקהילה. צוות MAPS.ME החדש הוזמן גם הוא למסיבה (היי A G, בא לך על בירה ליד ליברפול סטריט?). גם הצוות הישן הוזמן. לא בוצעו בדיקות רקע (לצערי). כולם הוזמנו להצטרף ולתרום. כמובן, תחת רישיון קוד פתוח ללא יותר בק-אנד קנייני, רק כדי להימנע מכניסה מחודשת ללולאה של MapsNotWithUs. הקריאה הפתוחה הזו עדיין בתוקף. ### פיתוח נוסף הגרסה הראשונה לאנדרואיד תחת מזהה היישום "app.omaps" אושרה סוף סוף על ידי Google Play ב-**3 בינואר 2021**. הנתונים נלקחו בתחילה מה-[פורק של Axet](https://gitlab.com/axet/omim/-/tree/master/tracking). הדיווח הראשון על באג ממשתמש התקבל ב-**5 בינואר 2021**.
+
+כך הכל התחיל. הדרך עוד הייתה ארוכה, אבל זה סיפור לפעם אחרת. הפורק הזה היה הנכון והוא שרד את האבולוציה. כעת יש לו יותר מ-10,000 כוכבים ב-GitHub ויותר מ-100 תורמים. זהו תפקידו של כפתור "Fork". ברכות לכל המשתמשים והתורמים על העבודה הקשה והמסירות! תודה על השתתפותכם במסע הזה! חג מולד שמח!

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1>{{ trans(key='faq-menu-title', lang=lang) }}</h1>
+  <h1>{{ resource.title }}</h1>
   {%- for term in terms -%}
   <h3><a href="{{term.permalink}}">{{term.name}}</a></h3>
   <ul>

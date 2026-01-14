@@ -6,7 +6,7 @@ available with selected FAQ term.
 #}
 <p class="faq-breadcrumbs">
     {% set faq_root = get_taxonomy(kind='faq', lang=lang) %}
-    <a href="{{ faq_root.permalink }}" class="faq-title">{{ trans(key='faq-menu-title', lang=lang) }}</a>
+    <a href="{{ faq_root.permalink }}" class="faq-title">{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}{{ faq_section.title }}</a>
     {% set categories = faq_root | get(key="items") %}
     {% for item in categories %}
         •

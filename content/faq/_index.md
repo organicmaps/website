@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: This FAQ has answers to many questions about Organic Maps app, our contributors, and our project
 extra:
-  menu_title: F.A.Q.
+  menu_title: Help
 ---
 
 ### This page is replaced with taxonomy "faq" from templates/faq/list.html template

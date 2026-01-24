@@ -13,7 +13,7 @@ Daha önce [**MapsWithMe**][mapswithme] olarak bilinen **Maps.me** uygulamasın�
 
 > Aralık 2025'te Organic Maps [6 milyon yüklemeye ulaştı](@/news/2025-12-31/500/index.tr.md). Büyümemize [yardım edin](@/donate/index.tr.md)!
 
-### Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] adresinden indirin ve yükleyin {#install}
+### Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] adresinden indirin ve yükleyin {#install}
 
 {{ badges() }}
 

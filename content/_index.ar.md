@@ -13,7 +13,7 @@ title: 'Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال
 
 > في ديسمبر 2025، وصلت Organic Maps إلى [6 ملايين تثبيت](@/news/2025-12-31/500/index.ar.md). [ساعدنا](@/donate/index.ar.md) لنتوسع!
 
-### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery] {#install}
+### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery]، [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

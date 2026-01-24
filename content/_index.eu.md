@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabig
 
 > 2025eko abenduan, Organic Maps-ek [6 milioi instalazio lortu zituen](@/news/2025-12-31/500/index.eu.md). [Lagundu](@/donate/index.eu.md) handitzen!
 
-### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

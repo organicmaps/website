@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
 
 > I december 2025 nådde Organic Maps [6 miljoner installationer](@/news/2025-12-31/500/index.sv.md). [Hjälp oss](@/donate/index.sv.md) att växa!
 
-### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

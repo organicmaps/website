@@ -13,7 +13,7 @@ title: 'Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie'
 
 > In Desember 2025 het Organic Maps [6M installasies bereik](@/news/2025-12-31/500/index.af.md). [Help ons](@/donate/index.af.md) om te groei!
 
-### Laai af en installeer Organic Maps in die [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Laai af en installeer Organic Maps in die [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

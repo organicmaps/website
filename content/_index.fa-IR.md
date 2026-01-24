@@ -13,7 +13,7 @@ extra:
 
 > در دسامبر 2025، Organic Maps به [6 میلیون نصب رسید](@/news/2025-12-31/500/index.fa-IR.md). [به ما کمک کنید](@/donate/index.fa-IR.md) تا گسترش یابیم!
 
-### دانلود و نصب Organic Maps از طریق [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [اف‌دروید][fdroid] {#install}
+### دانلود و نصب Organic Maps از طریق [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [اف‌دروید][fdroid]، [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

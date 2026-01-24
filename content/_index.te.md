@@ -13,7 +13,7 @@ title: 'ఆర్గానిక్ మ్యాప్స్: ఆఫ్‌లై
 
 > డిసెంబర్ 2025లో, ఆర్గానిక్ మ్యాప్స్ [60 లక్షల ఇన్‌స్టాల్‌లను చేరుకుంది](@/news/2025-12-31/500/index.te.md). స్కేల్ చేయడానికి [మాకు సహాయం చేయండి](@/donate/index.te.md)!
 
-### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] నుండి ఓర్గానిక్ మ్యాప్స్ ను డౌన్‌లోడ్ చేసి ఇన్‌స్టాల్ చేయండి. {#install}
+### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] నుండి ఓర్గానిక్ మ్యాప్స్ ను డౌన్‌లోడ్ చేసి ఇన్‌స్టాల్ చేయండి. {#install}
 
 {{ badges() }}
 

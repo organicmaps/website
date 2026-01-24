@@ -13,7 +13,7 @@ extra:
 
 > В декабре 2025 года Organic Maps [достиг 6 млн установок](@/news/2025-12-31/500/index.ru.md). [Помогите нам](@/donate/index.ru.md) развиваться!
 
-### Загрузить и установить Organic Maps из [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Загрузить и установить Organic Maps из [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

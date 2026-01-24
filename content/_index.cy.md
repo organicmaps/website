@@ -13,7 +13,7 @@ title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
 
 > Ym mis Rhagfyr 2025, cyrhaeddodd Organic Maps [6M o osodiadau](@/news/2025-12-31/500/index.cy.md). [Helpwch ni](@/donate/index.cy.md) i ehangu!
 
-### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

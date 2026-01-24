@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline pěší turistika, cykloturistika, stezky a naviga
 
 > V prosinci 2025 Organic Maps [dosáhly 6 milionů instalací](@/news/2025-12-31/500/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
 
-### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid] {#install}
+### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

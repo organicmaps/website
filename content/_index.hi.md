@@ -13,7 +13,7 @@ extra:
 
 > दिसंबर 2025 में, Organic Maps ने [60 लाख इंस्टॉल पूरे किए](@/news/2025-12-31/500/index.hi.md)। [हमें बढ़ने में मदद करें](@/donate/index.hi.md)!
 
-### [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] से Organic Maps डाउनलोड और इंस्टॉल करें {#install}
+### [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] से Organic Maps डाउनलोड और इंस्टॉल करें {#install}
 
 {{ badges() }}
 

@@ -13,7 +13,7 @@ title: 'Mapas orgânicos: caminhada, ciclismo, trilhos e navegação offline'
 
 > Em dezembro de 2025, o Organic Maps [atingiu 6 milhões de instalações](@/news/2025-12-31/500/index.pt.md). [Ajude-nos](@/donate/index.pt.md) a crescer!
 
-### Descarregue e instale o Organic Maps a partir da [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Descarregue e instale o Organic Maps a partir da [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

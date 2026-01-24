@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation'
 
 > Im Dezember 2025 erreichte Organic Maps [6 Millionen Installationen](@/news/2025-12-31/500/index.de.md). [Hilf uns](@/donate/index.de.md) zu wachsen!
 
-### Organic Maps von [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] herunterladen und installieren {#install}
+### Organic Maps von [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] herunterladen und installieren {#install}
 
 {{ badges() }}
 

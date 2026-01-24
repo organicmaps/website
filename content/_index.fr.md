@@ -13,7 +13,7 @@ extra:
 
 > En décembre 2025, Organic Maps a [atteint 6 millions d'installations](@/news/2025-12-31/500/index.fr.md). [Aidez-nous](@/donate/index.fr.md) à grandir !
 
-### Télécharger et installer Organic Maps depuis [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Télécharger et installer Organic Maps depuis [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

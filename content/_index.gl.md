@@ -13,7 +13,7 @@ title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
 
 > En decembro de 2025, Organic Maps [alcanzou 6M de instalacións](@/news/2025-12-31/500/index.gl.md). [Axúdanos](@/donate/index.gl.md) a crecer!
 
-### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

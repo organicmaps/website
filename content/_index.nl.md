@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie'
 
 > In december 2025 bereikte Organic Maps [6 miljoen installaties](@/news/2025-12-31/500/index.nl.md). [Help ons](@/donate/index.nl.md) te groeien!
 
-### Download en installeer Organic Maps in de [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Download en installeer Organic Maps in de [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

@@ -13,7 +13,7 @@ Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és 
 
 > 2025 decemberében az Organic Maps [elérte a 6 millió telepítést](@/news/2025-12-31/500/index.hu.md). [Segíts](@/donate/index.hu.md) növekedni!
 
-### Töltse le és telepítse az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Töltse le és telepítse az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

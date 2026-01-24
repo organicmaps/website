@@ -13,7 +13,7 @@ title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 
 > 2025 m. gruodį „Organic Maps“ [pasiekė 6 mln. įdiegimų](@/news/2025-12-31/500/index.lt.md). [Padėkite mums](@/donate/index.lt.md) augti!
 
-### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid] {#install}
+### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

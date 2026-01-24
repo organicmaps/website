@@ -13,7 +13,7 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 
 > Detsembris 2025 jõudis Organic Maps [6 miljoni installini](@/news/2025-12-31/500/index.et.md). [Aita meil](@/donate/index.et.md) kasvada!
 
-### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

@@ -13,7 +13,7 @@ title: 'Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring'
 
 > Pada Desember 2025, Organic Maps [mencapai 6 juta instalasi](@/news/2025-12-31/500/index.id.md). [Bantu kami](@/donate/index.id.md) untuk berkembang!
 
-### Unduh dan instal Organic Maps dari [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] {#install}
+### Unduh dan instal Organic Maps dari [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

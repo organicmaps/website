@@ -13,7 +13,7 @@ title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
 
 > En diciembre de 2025, Organic Maps [alcanzó 6M de instalaciones](@/news/2025-12-31/500/index.es.md). [Ayúdanos](@/donate/index.es.md) a crecer!
 
-### Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

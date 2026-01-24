@@ -13,7 +13,7 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 
 > Τon Δεκέμβριο του 2025, το Organic Maps [έφτασε τις 6 εκ. εγκαταστάσεις](@/news/2025-12-31/500/index.el.md). [Βοηθήστε μας](@/donate/index.el.md) να επεκταθούμε!
 
-### Κατεβάστε και εγκαταστήστε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Κατεβάστε και εγκαταστήστε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ εμβλήματα() }}
 

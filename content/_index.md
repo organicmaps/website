@@ -13,7 +13,7 @@ extra:
 
 > In December 2025, Organic Maps [reached 6M installs](@/news/2025-12-31/500/index.md). [Help us](@/donate/index.md) to scale!
 
-### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Download and install Organic Maps from [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [FDroid][fdroid] {#install}
 
 {{ badges() }}
 

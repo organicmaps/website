@@ -13,7 +13,7 @@ title: 'Organic Maps: Офлайн карти та GPS навігація'
 
 > У грудні 2025 року Organic Maps [досяг 6 млн встановлень](@/news/2025-12-31/500/index.uk.md). [Допоможіть нам](@/donate/index.uk.md) розвиватися!
 
-### Завантажте та встановіть Organic Maps з [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Завантажте та встановіть Organic Maps з [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

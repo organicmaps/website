@@ -13,7 +13,7 @@ title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 
 > 2025年12月，Organic Maps [达到了600万次安装](@/news/2025-12-31/500/index.zh-Hans.md). [帮助我们](@/donate/index.zh-Hans.md) 扩展！
 
-### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery] 下载并安装Organic Maps {#install}
+### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery]、[Accrescent][accrescent] 下载并安装Organic Maps {#install}
 
 {{ badges() }}
 

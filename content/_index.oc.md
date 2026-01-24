@@ -13,7 +13,7 @@ N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que fon
 
 > En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajudatz-nos](@/donate/index.oc.md) a créisser!
 
-### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

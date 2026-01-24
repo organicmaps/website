@@ -13,7 +13,7 @@ extra:
 
 > 2025 ഡിസംബറിൽ, ഓർഗാനിക് മാപ്‌സ് [60 ലക്ഷം ഇൻസ്റ്റാളുകളിൽ എത്തി](@/news/2025-12-31/500/index.ml.md). വളരാൻ [ഞങ്ങളെ സഹായിക്കൂ](@/donate/index.ml.md)!
 
-### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery] എന്നിവയിൽ നിന്ന് ഓർഗാനിക് മാപ്‌സ് ഡൗൺലോഡ് ചെയ്‌ത് ഇൻസ്റ്റാൾ ചെയ്യുക {#install}
+### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] എന്നിവയിൽ നിന്ന് ഓർഗാനിക് മാപ്‌സ് ഡൗൺലോഡ് ചെയ്‌ത് ഇൻസ്റ്റാൾ ചെയ്യുക {#install}
 
 {{ badges() }}
 

@@ -8,6 +8,7 @@ extra:
   order: 10
 aliases:
   - /pt-BR/faq/voice/text-to-speech-android-tts/
+  - /pt-BR/faq/texto-para-fala-android-tts/
 ---
 
 ## Resumo

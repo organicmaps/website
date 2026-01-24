@@ -4,6 +4,7 @@ description: Как настроить озвучку навигатора в Or
 slug: синтез-речи-tts-на-android
 aliases:
   - /ru/faq/voice/text-to-speech-android-tts/
+  - /ru/faq/синтез-речи-tts-на-android/
 taxonomies:
   faq: ["Голосовые подсказки"]
 extra:

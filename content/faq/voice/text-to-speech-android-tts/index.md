@@ -4,6 +4,7 @@ description: Guide on how to setup TTS voice directions on Android
 slug: text-to-speech-tts-and-voice-directions-on-android
 aliases:
   - /faq/voice/text-to-speech-android-tts/
+  - /faq/text-to-speech-android-tts/
 taxonomies:
   faq: ["Voice Directions"]
 extra:

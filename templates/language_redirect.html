@@ -2,20 +2,30 @@
 // Supports partially translated pages.
 // Redirects a user to his preferred language page translation only if
 // there were no previous redirects or explicit language selections before (see language_seletor.html)
-if (null === window.localStorage.getItem('lang')) {
-  // ["en", "ru", ...]
-  var pageTranslations = {{ resource | get(key="translations", default=[]) | map(attribute="lang") | sort | json_encode() | safe }};
+if (window.localStorage.getItem('lang') === null) {
+  // Map of language codes to their actual URLs (handles different slugs per language)
+  var pageTranslations = {
+    {%- if resource.translations %}
+    {% for translation in resource.translations -%}
+    "{{ translation.lang }}": "{{ translation.permalink  | replace(from=config.base_url, to="") | safe }}",
+    {% endfor -%}
+    {%- endif %}
+  };
   var userPreferredLanguages = navigator.languages ? navigator.languages : [navigator.language];
-  outerLoop:
-  for (var i = 0; i < userPreferredLanguages.length; i++) {
-    for (var j = 0; j < pageTranslations.length; j++) {
-      if (userPreferredLanguages[i].indexOf(pageTranslations[j]) == 0) {
-        window.localStorage.setItem('lang', pageTranslations[j]);
-        // Do not redirect the default 'en' language.
-        if (pageTranslations[j] != '{{ config.default_language }}') {
-          window.location.pathname = '/' + pageTranslations[j] + window.location.pathname;
+  var redirected = false;
+
+  for (var i = 0; i < userPreferredLanguages.length && !redirected; i++) {
+    for (var langCode in pageTranslations) {
+      if (pageTranslations.hasOwnProperty(langCode)) {
+        if (userPreferredLanguages[i].indexOf(langCode) === 0) {
+          window.localStorage.setItem('lang', langCode);
+          // Do not redirect the default 'en' language.
+          if (langCode !== '{{ config.default_language }}') {
+            window.location.href = pageTranslations[langCode];
+          }
+          redirected = true;
+          break;
         }
-        break outerLoop;
       }
     }
   }

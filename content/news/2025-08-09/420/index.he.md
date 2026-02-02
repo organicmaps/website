@@ -19,4 +19,6 @@ taxonomies:
 
 #### שיפורים שונים - הקלדת "cop" בחיפוש מוצאת תחנות משטרה, בעוד "film" או "movie theater" מוצאים בתי קולנוע (theadventurer62) - פתיחה באפליקציה אחרת מציגה כעת את הנקודה שנבחרה ב-Google Maps (אלכסנדר בורסוק) - תרגום לספרדית עבור קטגוריות חיפוש נוספות (דייוויד מרטינז) - עדכון תרגומים שונים (תורמי Weblate)
 
-הורידו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[FDroid][fdroid]. {{ references() }}
+הורידו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[FDroid][fdroid].
+
+{{ references() }}

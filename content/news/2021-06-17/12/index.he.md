@@ -12,4 +12,6 @@ taxonomies:
 
 Organic Maps היא אפליקציה טהורה ואורגנית, **ללא מעקבים ודברים רעים אחרים**: ✅ ללא פרסומות<br/> ✅ ללא מעקב<br/> ✅ ללא איסוף נתונים<br/> ✅ ללא שיחות הביתה<br/> ✅ ללא רישום מעצבן<br/> ✅ ללא הדרכות חובה<br/>
 ✅ ללא דואר זבל רועש<br/> ✅ ללא התראות דחיפה<br/> ✅ ללא תוכנות זבל<br/> ✅ ללא חומרי הדברה 😇<br/> 🔗 [ערוץ טלגרם לעדכונים][telegram]<br/> 🔗 [דיונים בטלגרם][telegram_chat]<br/>
-🔗 [טלגרם][telegram_chat_ru] для русскоговорящих<br/> 🔗 [האתר שלנו](https://organicmaps.app/)<br/> 🔗 [GitHub שלנו][github]<br/> {{ references() }}
+🔗 [טלגרם][telegram_chat_ru] для русскоговорящих<br/> 🔗 [האתר שלנו](https://organicmaps.app/)<br/> 🔗 [GitHub שלנו][github]<br/>
+
+{{ references() }}

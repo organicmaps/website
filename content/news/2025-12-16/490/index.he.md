@@ -14,4 +14,6 @@ taxonomies:
 - התרגומים לאוקראינית שופרו (Nnifria) - התרגומים לגרמנית, הונגרית, ליטאית, ספרדית וטורקית שופרו (תורמי Weblate, Viktor Govako) - הכוונה קולית TTS בסיבובית בקרואטית תוקנה (@chupocro, Alexander Borsuk) ### iOS - תוצאות החיפוש מציגות כעת את קיבולת החניה באמצעות אמוג'י (David Martinez) - תוקנה בעיה ב-CarPlay ב-iOS 12 (Kiryl Kaveryn) - מספר בעיות ויזואליות ב-iPhone וב-iPad תוקנו (Kiryl Kaveryn) - חיפוש ברשימת הסימניות מוצא כעת שמות עם סימני ניקוד ואותיות מודגשות (Kiryl Kaveryn) - רצועות מיובאות או מוקלטות הקצרות מ-10 דקות מציגות את משך הזמן בדקות ובשניות (Kiryl Kaveryn) - האנימציות של הכפתורים והסרגל התחתון שופרו (Kiryl Kaveryn)
 - הודעת התזכורת על קווי גובה בעת הפעלת האפליקציה הוסרה (Kiryl Kaveryn) ### Android - תוצאות החיפוש מציגות כעת את קיבולת החניה (Bicky Rawdyrathaur, David Martinez) - חיישן מיקום הרכב ב-Android Auto מושבת כדי למנוע בעיות מיקום (Andrei Shkrob) - הקלטת הרצועות נמשכת גם אם האפליקציה נסגרה או הושבתה (Alexander Borsuk)
 
-הצטרפו לבדיקת הבטא כדי לנסות תכונות חדשות ולדווח על בעיות: - [iOS][testflight] - [Android][firebase] Organic Maps קיים בזכות [התרומות](@/donate/index.md) ו[התרומות](@/contribute/index.md) שלכם. תודה! ❤️ צוות Organic Maps {{ references() }}
+הצטרפו לבדיקת הבטא כדי לנסות תכונות חדשות ולדווח על בעיות: - [iOS][testflight] - [Android][firebase] Organic Maps קיים בזכות [התרומות](@/donate/index.md) ו[התרומות](@/contribute/index.md) שלכם. תודה! ❤️ צוות Organic Maps
+
+{{ references() }}

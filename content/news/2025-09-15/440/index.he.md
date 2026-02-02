@@ -14,4 +14,6 @@ Organic Maps מתאפשרת הודות לתורמים שלנו, [לתרומות 
 - חדש: מסך תכנון מסלול מעוצב מחדש (Kiryl Kaveryn) #### Android - סמלי כיכר חדשים ב-Android Auto (Andrei Shkrob) - הצגת קטגוריית מקום מסומן בסימניה כאשר הוא נבחר (Alexander Borsuk) - תיקון עיכוב בהצגת המרחק למקום מסומן בסימניה (Alexander Borsuk) - עיצוב מחדש של ערכת נושא כהה (Andrei Shkrob)
 - תיקון באג בעדכון המיקום בניווט ב-ROM מותאמים אישית (למשל Lineage + MicroG) (Viktor Govako) - סמל עיפרון כחול (עריכה) לסימניות (Alexander Borsuk) - צמצום המרווח האנכי בתצוגה המקדימה של מידע על המקום (Alexander Borsuk) - הסרת הזווית בין האזימוט לצפון מתצוגה מקדימה של מידע על המקום (הקש על החץ הכחול עם המרחק כדי לראות אותה) (אלכסנדר בורסוק) הורידו את הגרסה העדכנית ביותר של Organic Maps מ-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid].
 
-נ.ב. הצטרפו לבדיקת בטא כדי ליהנות מתכונות חדשות: [iOS][testflight] / [Android][firebase]. {{ references() }}
+נ.ב. הצטרפו לבדיקת בטא כדי ליהנות מתכונות חדשות: [iOS][testflight] / [Android][firebase].
+
+{{ references() }}

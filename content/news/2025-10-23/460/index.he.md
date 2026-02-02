@@ -16,4 +16,6 @@ taxonomies:
 
 הורידו את הגרסה האחרונה של Organic Maps מ-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid].
 
-נ.ב. הצטרפו לבדיקות בטא כדי ליהנות מתכונות חדשות: - [iOS][testflight] - [Android][firebase]. באהבה למשתמשים ולקהילה שלנו צוות Organic Maps {{ references() }}
+נ.ב. הצטרפו לבדיקות בטא כדי ליהנות מתכונות חדשות: - [iOS][testflight] - [Android][firebase]. באהבה למשתמשים ולקהילה שלנו צוות Organic Maps
+
+{{ references() }}

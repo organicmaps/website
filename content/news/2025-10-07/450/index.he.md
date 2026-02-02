@@ -22,4 +22,6 @@ Organic Maps מתאפשר הודות ❤️ לתורמים שלנו, [לתרומ
 
 ### התקן את Organic Maps הורד את הגרסה העדכנית ביותר של Organic Maps מ-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid].
 
-הצטרפו לבדיקת בטא כדי ליהנות מתכונות מוקדמות: [iOS][testflight] / [Android][firebase]. {{ references() }}
+הצטרפו לבדיקת בטא כדי ליהנות מתכונות מוקדמות: [iOS][testflight] / [Android][firebase].
+
+{{ references() }}

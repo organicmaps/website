@@ -31,4 +31,6 @@ Android: - הצגת זווית האזימוט מצפון בלחיצה על חץ 
 
 שולחן עבודה: - נוספה סגנון חוץ חסר לחבילה -- [@vng](https://github.com/vng) - תוקנו דגלים ותוכן בחלון הדו-שיח "אודות" -- [@gezawatt](https://github.com/gezawatt)
 
-תודה לכולם על [התרומות](@/donate/index.md) וה[תמיכה](@/contribute/index.md), [דיווחי הבאגים][github issues] וה[שיפורים][github], על הפצת הבשורה ועל שיפור המפות ביחד! {{ references() }}
+תודה לכולם על [התרומות](@/donate/index.md) וה[תמיכה](@/contribute/index.md), [דיווחי הבאגים][github issues] וה[שיפורים][github], על הפצת הבשורה ועל שיפור המפות ביחד!
+
+{{ references() }}

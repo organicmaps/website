@@ -11,24 +11,24 @@ aliases:
   - /de/faq/linux/how-to-use-flatpak/
 ---
 
-Um OM unter Linux mit Flatpak zu installieren, öffnen Sie das Terminal und geben Sie „flatpak install flathub app.organicmaps.desktop“ ein
+Um OM unter Linux mit Flatpak zu installieren, öffne das Terminal und gib „flatpak install flathub app.organicmaps.desktop“ ein
 
-Sobald die App installiert ist, können Sie mit dem Scrollrad Ihrer Maus oder den Steuerelementen in der rechten Menüleiste in den Bereich hineinzoomen, durch den Sie navigieren möchten, um Karten für diesen Bereich herunterzuladen. Sie können auch unten rechts auf das Symbol „Herunterladen“ klicken. Sobald Sie Karten für die Regionen heruntergeladen haben, die Sie interessieren, sollte die App auch ohne Internetverbindung funktionieren. 
+Sobald die App installiert ist, kannst du mit dem Scrollrad deiner Maus oder den Steuerelementen in der rechten Menüleiste in den Bereich hineinzoomen, in welchem du navigieren möchtest, um Karten für diesen Bereich herunterzuladen. Du kannst auch unten rechts auf das Symbol „Herunterladen“ klicken. Sobald du Karten für die Regionen, die dich interessieren, heruntergeladen hast, sollte die App auch ohne Internetverbindung funktionieren. 
 
-Sie können mit der Maus über die verschiedenen Symbole fahren, um Hilfetexte anzuzeigen. 
+Du kannst mit der Maus über die verschiedenen Symbole fahren, um Hilfetexte anzuzeigen. 
 
-Für die Routenplanung und die Turn-by-Turn-Navigation stehen Ihnen mehrere Optionen zur Verfügung. Wenn Sie die GPS-Koordinaten Ihres Start- und Endpunkts kennen, können Sie auf das Einstellungssymbol (über dem grünen Häkchen) klicken und die Koordinaten Ihres Start- und Zielpunkts eingeben. Um den Startpunkt auf der Karte festzulegen, klicken Sie auf das Navigationssymbol und wählen Sie „Startpunkt“, halten Sie dann die Umschalttaste gedrückt und klicken Sie mit der linken Maustaste auf die Karte. Um das Ziel festzulegen, wechseln Sie zu „Endpunkt“ und klicken Sie auf einen Ort auf der Karte.
+Für die Routenplanung und die Turn-by-Turn-Navigation stehen mehrere Optionen zur Verfügung. Wenn du die GPS-Koordinaten deines Start- und Endpunkts kennst, kannst du auf das Einstellungssymbol (über dem grünen Häkchen) klicken und die Koordinaten des Start- und Zielpunkts eingeben. Um den Startpunkt auf der Karte festzulegen, klicke auf das Navigationssymbol und wähle „Startpunkt“, halte dann die Umschalttaste gedrückt und klicke mit der linken Maustaste auf die Karte. Um das Ziel festzulegen, wechsel zu „Endpunkt“ und klicke auf einen Ort auf der Karte.
 
 ![Startpunkt und Endpunkt festlegen](nav_points.png)
 
-Sie können auf das blaue Symbol direkt über dem Einstellungssymbol klicken, um die Navigation zu löschen. 
+Um die Navigation zu löschen, klicke auf das blaue Symbol direkt über dem Einstellungssymbol.
 
 ![Navigation löschen](clear_route.png)
 
-Um nach Adressen und Zielen zu suchen, klicken Sie auf die Lupe und geben Sie die Adresse oder den Suchbegriff ein.
+Um nach Adressen und Zielen zu suchen, klicke auf die Lupe und gebe die Adresse oder den Suchbegriff ein.
 
-Um einen Ort mit einem Lesezeichen zu versehen, halten Sie die Alt-Taste gedrückt und klicken Sie mit der rechten Maustaste auf den Ort, den Sie mit einem Lesezeichen versehen möchten. Das Lesezeichen ist möglicherweise nicht sofort sichtbar. Um Lesezeichen anzuzeigen und zu verwalten, müssen Sie auf das rote Sternsymbol klicken. 
+Um einen Ort mit einem Lesezeichen zu versehen, halte die Alt-Taste gedrückt und klicke mit der rechten Maustaste auf den Ort, den du mit einem Lesezeichen versehen möchtest. Das Lesezeichen ist möglicherweise nicht sofort sichtbar. Um Lesezeichen anzuzeigen und zu verwalten, musst du auf das rote Sternsymbol klicken. 
 
 ![Lesezeichen anzeigen](view_bookmarks.png)
 
-Die Linux-Desktop-App wird hauptsächlich für Entwicklungszwecke verwendet (automatisiertes Testen und Überprüfen der Logik, ohne dass für Mobilgeräte kompiliert werden muss). Alle Freiwilligen zur Verbesserung der Benutzerfreundlichkeit der Linux-Version sind willkommen!
+Die Linux-Desktop-App wird hauptsächlich für Entwicklungszwecke verwendet (automatisiertes Testen und Überprüfen der Logik, ohne dass für Mobilgeräte kompiliert werden muss). Alle Freiwilligen sind willkommen die Benutzerfreundlichkeit der Linux-Version zu verbessern!

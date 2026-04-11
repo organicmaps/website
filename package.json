@@ -9,13 +9,13 @@
   "devDependencies": {
     "js-beautify": "^1.15.4",
     "node-html-markdown": "^2.0.0",
-    "node-html-parser": "^7.0.1",
+    "node-html-parser": "^7.1.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "^3.6.2",
-    "stylelint": "^16.25.0",
-    "stylelint-config-recommended": "^17.0.0",
-    "stylelint-config-standard": "^39.0.1",
-    "stylelint-scss": "^6.12.1"
+    "prettier": "^3.8.1",
+    "stylelint": "^17.4.0",
+    "stylelint-config-recommended": "^18.0.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-scss": "^7.0.0"
   },
   "scripts": {
     "format": "stylelint --fix ./sass/*.scss && prettier --write *.md content/**/*.md && js-beautify -r templates/base.html",

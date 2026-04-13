@@ -3,7 +3,7 @@ title: Kontraste handiagoko gai iluneko koloreak, aparkalekuaren, alokairuaren e
 date: 2026-01-16
 slug: kontraste-handiagoko-gai-iluneko-koloreak-aparkalekuaren-alokairuaren-eta-kargaren-ahalmena-eta-gehiago-2026ko-urtarrileko-bertsioan
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Has dezagun 2026a Organic Maps eguneratze batekin, gure laguntzaile guztien eskuzko! Instalatu <https://omaps.app/get> helbidetik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [F-Droid][fdroid] dendetatik

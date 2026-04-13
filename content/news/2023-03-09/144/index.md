@@ -3,7 +3,7 @@ title: "Finally, iPad users can use their keyboards without Organic Maps freezin
 date: 2023-03-09T11:37:31+00:00
 slug: "finally-ipad-users-can-use-their-keyboards-without-organic-maps-freezing-and-android-users-can-enjoy-reading-wiki-articles-for-bookmarked-places-we-ve-also-improved-the-search-function-particularly-for-users-who-search-by-categories"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Finally, iPad users can use their keyboards without Organic Maps freezing, and Android users can enjoy reading Wiki articles for bookmarked places 😉 We've also improved the search function, particularly for users who search by categories. Specifically, we've separated vegan and vegetarian cuisine searches 🌱and added some new POI types, such as psychotherapist, speech therapist, audiologist, and blood donation center, which were previously grouped under one 'healthcare' tag.

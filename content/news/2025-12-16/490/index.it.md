@@ -3,7 +3,7 @@ title: "Edizione Natalizia di Organic Maps nel Rilascio del 16 Dicembre"
 date: 2025-12-16
 slug: "organic-maps-edizione-natalizia-rilascio-16-dicembre"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Buon Natale e Felice Anno Nuovo dal team di Organic Maps. Cerchi lo spirito natalizio? Cerca `Mercatino di Natale` o `Albero di Natale` per vederli sulla mappa. Se non appare nulla nella tua zona, aggiungi le funzionalità mancanti su OpenStreetMap.org e migliora la mappa per tutti!

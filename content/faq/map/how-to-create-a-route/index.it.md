@@ -5,7 +5,7 @@ description: Guida per costruire un percorso e navigare utilizzando la mappa
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

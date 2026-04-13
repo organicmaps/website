@@ -3,7 +3,7 @@ title: Didesnio kontrasto tamsios temos spalvos, parkavimo, nuomos ir įkrovimo 
 date: 2026-01-16
 slug: didesnio-kontrasto-tamsios-temos-spalvos-parkavimo-nuomos-ir-ikrovimo-talpa-ir-dar-daugiau-2026-m-sausio-leidime
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendraautoriai! Įdiekite iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]

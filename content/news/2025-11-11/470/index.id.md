@@ -3,7 +3,7 @@ title: "Peta Dunia yang lebih detail dengan penyorotan wilayah peta yang diunduh
 date: 2025-11-11
 slug: "peta-dunia-detail-penyorotan-wilayah-unduhan-dukungan-rute-kondisional-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Catatan Rilis

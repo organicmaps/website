@@ -4,7 +4,7 @@ slug: як-користуватися-версією-програми-flatpak
 description: Часті запитання щодо програми Organic Maps
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

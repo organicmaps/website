@@ -3,7 +3,7 @@ title: "Uus Organic Mapsi väljalase 2025.11.25: Vikipeedia artiklid türgi, jaa
 date: 2025-11-28
 slug: "vikipeedia-artiklid-türgi-jaapani-ja-hiina-keeles-seadistus-allalaaditud-piirkondade-nägemiseks-ja-palju-muud"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps.app/get> või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].

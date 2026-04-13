@@ -3,7 +3,7 @@ title: "Hiking and cycling routes with elevation charts, smarter US address sear
 date: 2026-04-07
 slug: "hiking-cycling-routes-elevation-charts-us-address-search-antimeridian-map-wrapping-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 This April release, in addition to many bug fixes and improvements, is built around three simple truths: hikers want to know how much they'll climb, everyone wants their search address to just work, and no one should feel like they're falling off the edge of the map. Thanks to our contributors, your good reviews, [donations](@/donate/index.md), and [support](@/contribute/index.md), we've tackled all three — and a whole lot more.

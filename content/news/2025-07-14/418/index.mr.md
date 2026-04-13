@@ -2,7 +2,7 @@
 title: "ऑर्गैनिक मैप्स जुलाई 2025 अपडेटमध्ये अधिक चांगले ट्रॅक संपादन आणि अनेक सुधारणा आणि दुरुस्त्या"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 आमच्या योगदानकर्त्यांचे धन्यवाद ❤️💪, अनेक दुरुस्त्या आणि सुधारणांसह ऑर्गैनिक मैप्स जुलाई अपडेटला भेटा! अपडेट आधीच [AppStore][appstore], [Obtainium][obtainium] आणि [Accrescent][accrescent] मध्ये उपलब्ध आहे, आणि काही दिवसांत [Google Play][googleplay], [Huawei AppGallery][appgallery], आणि [FDroid][fdroid] मध्ये तयार होईल।

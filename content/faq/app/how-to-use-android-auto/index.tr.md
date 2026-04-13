@@ -4,7 +4,7 @@ slug: android-auto-nasıl-kullanılır
 description: Organik Haritalar'ı Android Auto ile çalıştırmak için minimum gereksinimler
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Uygulama"]
+  faq: ["uygulama"]
 extra:
   order: 20
 aliases:

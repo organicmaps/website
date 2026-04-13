@@ -4,7 +4,7 @@ slug: quais-versões-de-ios-e-android-são-suportadas
 description: Requisitos mínimos para executar mapas orgânicos em dispositivos Android e iOS
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Aplicação"]
+  faq: ["aplicação"]
 extra:
   order: 10
 aliases:

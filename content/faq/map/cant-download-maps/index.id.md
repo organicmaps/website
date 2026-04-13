@@ -6,7 +6,7 @@ description: Apa yang harus dilakukan jika Peta Organik gagal mengunduh atau mem
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

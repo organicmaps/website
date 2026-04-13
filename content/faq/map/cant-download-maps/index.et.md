@@ -6,7 +6,7 @@ description: Mida teha, kui orgaanilised kaardid ei suuda kaarte Internetist all
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

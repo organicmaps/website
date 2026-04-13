@@ -5,7 +5,7 @@ description: Mi a teendő, ha az alkalmazás összeomlik. Hogyan jelentsd a krit
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

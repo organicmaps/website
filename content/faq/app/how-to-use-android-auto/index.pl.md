@@ -4,7 +4,7 @@ slug: jak-korzystać-z-androida-auto
 description: Minimalne wymagania do uruchomienia organicznych map w Android Auto
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Aplikacja"]
+  faq: ["aplikacja"]
 extra:
   order: 20
 aliases:

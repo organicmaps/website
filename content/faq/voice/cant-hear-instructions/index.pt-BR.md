@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Orientação por voz"]
+  faq: ["orientação-por-voz"]
 
 extra:
   order: 20

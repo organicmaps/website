@@ -3,7 +3,7 @@ title: Colors de tema fosc d'alt contrast, capacitat d'aparcament, lloguer i cà
 date: 2026-01-16
 slug: colors-de-tema-fosc-dalt-contrast-capacitat-daparcament-lloguer-i-carrega-i-mes-en-la-versio-de-gener-de-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots els nostres col·laboradors! Instal·leu-la des de <https://omaps.app/get> o des de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]

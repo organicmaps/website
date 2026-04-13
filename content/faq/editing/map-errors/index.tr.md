@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-12"
 
 taxonomies:
-  faq: ["Harita düzenleme"]
+  faq: ["harita-düzenleme"]
 
 extra:
   order: 30

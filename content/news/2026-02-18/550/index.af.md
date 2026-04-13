@@ -3,7 +3,7 @@ title: Februarie 2026 Organic Maps opdatering
 date: 2026-02-18
 slug: februarie-2026-organic-maps-opdatering
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dankie aan ons bydraers, **Vrydag is 'n goeie tyd om Organic Maps op te dateer!** Kry die opdatering by [https://get.omaps.org](https://get.omaps.org) of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid].

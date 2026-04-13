@@ -2,7 +2,7 @@
 title: "Lepsza edycja tras i wiele ulepszeń oraz poprawek w aktualizacji Organic Maps lipiec 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Poznaj aktualizację Organic Maps na lipiec z wieloma poprawkami i ulepszeniami, dzięki naszym współtwórcom ❤️💪! Aktualizacja jest już dostępna w [AppStore][appstore], [Obtainium][obtainium] i [Accrescent][accrescent], a będzie gotowa w [Google Play][googleplay], [Huawei AppGallery][appgallery] i [FDroid][fdroid] za kilka dni.

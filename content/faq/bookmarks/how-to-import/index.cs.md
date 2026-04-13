@@ -5,11 +5,12 @@ description: Podrobné pokyny pro import záložek a tras sdílených s vámi ve
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /cs/faq/bookmarks/how-to-import/
+  - /cs/faq/bookmarks/jak-importovat-záložky-a-stopy-ve-formátu-kml-kmz-kmb-nebo-gpx/
 ---
 
 Můžete importovat záložky odeslané z organických map nebo aplikací třetích stran, pokud exportují záložky ve formátech KML, KMZ, KMB, GPX, GeoJSON (JSON).

@@ -3,7 +3,7 @@ title: Couleurs de thème sombre à contraste élevé, capacité de stationnemen
 date: 2026-01-16
 slug: couleurs-de-theme-sombre-a-contraste-eleve-capacite-de-stationnement-de-location-et-de-recharge-et-plus-encore-dans-la-version-de-janvier-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Commençons 2026 avec une mise à jour d'Organic Maps, rendue possible par tous nos contributeurs ! Installez-la depuis <https://omaps.app/get> ou depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid]

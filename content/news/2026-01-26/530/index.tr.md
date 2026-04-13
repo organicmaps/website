@@ -3,7 +3,7 @@ title: 26 Ocak Organic Maps güncellemesinde daha hızlı ülkeler arası ve bö
 date: 2026-01-26
 slug: 26-ocak-organic-maps-guncellemesinde-daha-hizli-ulkeler-arasi-ve-bolgeler-arasi-rotalar
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps'i güncelleme zamanı! 2026'daki ikinci uygulama güncellemesinde daha hızlı ülkeler arası ve bölgeler arası rotalar, taze OSM harita verileri ve Android için birçok hata düzeltmesi.

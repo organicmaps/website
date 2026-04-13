@@ -4,7 +4,7 @@ slug: я-не-чую-голосових-підказок
 description: ""
 updated: "2024-07-22"
 taxonomies:
-  faq: ["Голосові інструкції"]
+  faq: ["голосові-інструкції"]
 extra:
   order: 20
 aliases:

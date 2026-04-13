@@ -3,7 +3,7 @@ title: "’n Meer gedetailleerde Wêreldkaart met gemerkte afgelaaide kaartstrek
 date: 2025-11-11
 slug: "detailed-world-map-highlighted-downloaded-regions-conditional-routing-support-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Vrystellingsnotas

@@ -5,7 +5,7 @@ description: ആപ്ലിക്കേഷൻ തകരാറിലായാൽ
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

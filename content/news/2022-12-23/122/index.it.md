@@ -3,7 +3,7 @@ title: "Vi auguriamo un Buon Natale 🎅 e un Felice Anno Nuovo 🎄"
 date: 2022-12-23T23:02:13+00:00
 slug: "we-wish-you-a-merry-christmas-and-a-happy-new-year"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Vi auguriamo un Buon Natale 🎅 e un Felice Anno Nuovo 🎄! Il miglior regalo per noi è sapere che stiamo facendo La Cosa Giusta e che il nostro tempo e i nostri sforzi stanno aiutando qualcuno sul pianeta 🌎. Ecco il nostro piccolo regalo 🎁 per te: una versione di Capodanno di Organic Maps è disponibile in [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps), Huawei [AppGallery](https://appgallery.huawei.com/#/app/C104325611?local=en) e [FDroid]( https://f-droid.org/en/packages/app.organicmaps/)!

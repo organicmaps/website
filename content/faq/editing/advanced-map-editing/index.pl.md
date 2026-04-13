@@ -5,7 +5,7 @@ description: Samouczek edycji OpenStreetMap za pomocą bardziej zaawansowanych n
   takich jak ID, Go Map i Vespucci
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Edycja mapy"]
+  faq: ["edycja-mapy"]
 extra:
   order: 40
 aliases:

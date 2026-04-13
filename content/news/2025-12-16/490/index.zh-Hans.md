@@ -3,7 +3,7 @@ title: "Organic Maps 12月16日发布的圣诞版"
 date: 2025-12-16
 slug: "organic-maps-christmas-edition-december-16-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps 团队祝您圣诞快乐，新年快乐。寻找节日气氛？搜索 `圣诞市场` 或 `圣诞树` 即可在地图上看到它们。如果您所在的地区没有显示任何内容，请在 OpenStreetMap.org 上添加缺失的功能，为每个人改进地图！

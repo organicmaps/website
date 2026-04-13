@@ -6,7 +6,7 @@ description: Que facer se Organic Maps non pode descargar nin actualizar os mapa
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

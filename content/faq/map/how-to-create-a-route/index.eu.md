@@ -5,7 +5,7 @@ description: Ibilbidea eraikitzeko eta mapa erabiliz nabigatzeko gida
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

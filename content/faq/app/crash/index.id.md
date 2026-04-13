@@ -5,7 +5,7 @@ description: Tindakan apa yang harus dilakukan jika aplikasi mogok. Cara melapor
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

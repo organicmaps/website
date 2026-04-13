@@ -4,7 +4,7 @@ slug: pourquoi-lapplication-sarrête-ou-crash
 description: Que faire si l'application plante. Comment signaler les bogues critiques aux développeurs.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Application"]
+  faq: ["application"]
 extra:
   order: 30
 aliases:

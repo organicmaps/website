@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-12"
 
 taxonomies:
-  faq: ["Favoritos e trilhas"]
+  faq: ["favoritos-e-trilhas"]
 
 extra:
   order: 10

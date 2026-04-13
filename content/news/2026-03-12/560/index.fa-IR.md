@@ -3,7 +3,7 @@ title: "محدودیت‌های سرعت شرطی، خطوط تراز ارتفا
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 به‌روزرسانی مارس Organic Maps به دلیل رفع اشکالات فوری و بررسی Google Play بیشتر طول کشید. به‌روزرسانی [Accrescent][accrescent] هنوز به دلیل مشکلات فروشگاه Accrescent آماده نیست. به‌روزرسانی را از <https://get.omaps.org> یا از [App Store][appstore]،‏ [Google Play][googleplay]،‏ [Huawei AppGallery][appgallery]،‏ [Obtainium][obtainium]،‏ [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کنید.

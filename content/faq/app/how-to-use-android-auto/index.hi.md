@@ -5,7 +5,7 @@ description: एंड्रॉइड ऑटो के साथ ऑर्गे
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 20
 aliases:

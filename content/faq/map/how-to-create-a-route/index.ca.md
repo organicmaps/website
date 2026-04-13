@@ -5,7 +5,7 @@ description: Guia per construir una ruta i navegar mitjançant el mapa
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

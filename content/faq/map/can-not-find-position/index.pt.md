@@ -4,7 +4,7 @@ slug: a-aplicação-não-consegue-determinar-a-minha-localização
 description: "Guia de resolução de problemas para resolver problemas com a localização e a posição GPS atual no mapa para dispositivos iOS e Android"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Mapa"]
+  faq: ["mapa"]
 extra:
   order: 10
 aliases:

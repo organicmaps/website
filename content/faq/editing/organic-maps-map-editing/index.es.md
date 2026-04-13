@@ -4,7 +4,7 @@ slug: cómo-puedo-editar-el-mapa-en-organic-maps
 description: Tutorial para editar OpenStreetMap desde la aplicación Organic Maps más
 updated: '2025-01-05'
 taxonomies:
-  faq: ["Edición de mapas"]
+  faq: ["edición-de-mapas"]
 extra:
   order: 35
 aliases:

@@ -3,7 +3,7 @@ title: Hoër-kontras donker tema kleure, parkering, verhuring, en laai kapasitei
 date: 2026-01-16
 slug: hoer-kontras-donker-tema-kleure-parkering-verhuring-en-laai-kapasiteit-en-meer-in-die-januarie-2026-vrystelling
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Kom ons begin 2026 met 'n Organic Maps opdatering, moontlik gemaak deur al ons bydraers! Installeer dit vanaf <https://omaps.app/get> of vanaf [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid]

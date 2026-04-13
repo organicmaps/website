@@ -3,7 +3,7 @@ title: Colors del tèma fosc de mai contrast, capacitat d'aparcament, logacion e
 date: 2026-01-16
 slug: colors-del-tema-fosc-de-mai-contrast-capacitat-daparcament-logacion-e-carga-e-mai-dins-la-version-de-genier-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Començam 2026 amb una mesa a jorn d'Organic Maps, renduda possibla per totes nòstres contributors! Installatz-la dempuèi <https://omaps.app/get> o dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]

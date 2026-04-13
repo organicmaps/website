@@ -4,7 +4,7 @@ slug: co-mogę-zrobić-jeśli-aplikacja-nie-odpowiadauległa-awarii
 description: Jakie działania podjąć w przypadku awarii aplikacji. Jak zgłaszać krytyczne błędy programistom.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Aplikacja"]
+  faq: ["aplikacja"]
 extra:
   order: 30
 aliases:

@@ -2,7 +2,7 @@
 title: "Lançamento 15 de setembro: nova tela de rotas e descrições OSM"
 date: 2025-09-15T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Esta segunda versão de setembro traz uma tela redesenhada de planejamento de rotas e a visualização do conteúdo da tag `description` do OpenStreetMap no iOS. Para achar lugares com essa tag, digite `?description` na busca (semelhante a `?wiki`).

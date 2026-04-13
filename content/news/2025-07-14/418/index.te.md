@@ -2,7 +2,7 @@
 title: "మెరుగైన ట్రాక్ ఎడిటింగ్ మరియు ఆర్గానిక్ మ్యాప్స్ జూలై 2025 అప్‌డేట్‌లో అనేక మెరుగుదలలు మరియు పరిష్కారాలు"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 మా సహాయకుల వల్ల ❤️💪, అనేక పరిష్కారాలు మరియు మెరుగుదలలతో ఆర్గానిక్ మ్యాప్స్ జూలై అప్‌డేట్‌ను పరిచయం చేసుకోండి! అప్‌డేట్ ఇప్పటికే [AppStore][appstore], [Obtainium][obtainium] మరియు [Accrescent][accrescent]లో అందుబాటులో ఉంది, మరియు కొన్ని రోజుల్లో [Google Play][googleplay], [Huawei AppGallery][appgallery], మరియు [FDroid][fdroid]లో సిద్ధంగా ఉంటుంది.

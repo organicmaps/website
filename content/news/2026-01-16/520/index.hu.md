@@ -3,7 +3,7 @@ title: Nagyobb kontrasztú sötét téma színek, parkolási, kölcsönzési és
 date: 2026-01-16
 slug: nagyobb-kontrasztu-sotet-tema-szinek-parkolasi-kolcsonzesi-es-toltesi-kapacitas-es-meg-sok-mas-a-2026-januari-kiadasban
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Kezdjük a 2026-os évet egy Organic Maps frissítéssel, amelyet minden közreműködőnknek köszönhetünk! Telepítsd innen: <https://omaps.app/get> vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból

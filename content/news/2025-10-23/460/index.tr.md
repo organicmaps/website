@@ -3,7 +3,7 @@ title: "23 Ekim Sürümü: iOS'ta AB'de varsayılan navigasyon uygulaması olara
 date: 2025-10-23T17:20:21+00:00
 slug: "23-ekim-sürümü-organic-maps-varsayılan-navigasyon-uygulaması-ab-ios-yol-levhaları-android-iyileştirmeler-düzeltmeler"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 23 Ekim sürümünde düzeltmeler ve iyileştirmelere odaklandık. Aşağıdaki ayrıntılı listeye göz atın.

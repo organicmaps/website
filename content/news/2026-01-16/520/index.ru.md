@@ -3,7 +3,7 @@ title: Цвета тёмной темы с большим контрастом, 
 date: 2026-01-16
 slug: tsveta-temnoi-temy-s-bolshim-kontrastom-vmestimost-parkovok-prokata-i-zaryadnykh-stantsii-i-mnogoe-drugoe-v-vypuske-za-yanvar-2026-goda
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Начнём 2026 год с обновлением Organic Maps, которое стало возможным благодаря всем нашим участникам! Установите его с <https://omaps.app/get> или из [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid]

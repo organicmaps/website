@@ -4,7 +4,7 @@ slug: teksto-į-kalbą-funkcija-android
 description: Vadovas, kaip priversti TTS veikti „Android“.
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

@@ -5,7 +5,7 @@ description: Průvodce pro stavbu trasy a navigaci pomocí mapy
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

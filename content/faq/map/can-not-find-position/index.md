@@ -3,7 +3,7 @@ title: The app can't find my position on the map or shows incorrect location
 description: Troubleshooting guide for solving problems with location and current GPS position on the map for iOS and Android devices
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Map"]
+  faq: ["map"]
 extra:
   order: 10
 ---

@@ -3,7 +3,7 @@ title: "Rhifyn Nadolig Organic Maps yn Rhyddhad Rhagfyr 16"
 date: 2025-12-16
 slug: "argraffiad-nadolig-organic-maps-rhyddhad-rhagfyr-16"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Nadolig Llawen a Blwyddyn Newydd Dda gan dîm Organic Maps. Chwilio am ysbryd y gwyliau? Chwiliwch am `Christmas Market` neu `Christmas Tree` i'w gweld ar y map. Os nad oes dim yn ymddangos yn eich ardal chi, ychwanegwch y nodweddion coll ar OpenStreetMap.org a gwella'r map i bawb!

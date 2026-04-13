@@ -8,7 +8,7 @@ description: A configuración predeterminada de optimización da batería en Sam
 updated: '2024-10-05'
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 30
 aliases:

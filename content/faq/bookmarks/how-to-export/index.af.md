@@ -6,7 +6,7 @@ description: Stap-vir-stap gids vir die uitvoer van boekmerke en snitte van Orga
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

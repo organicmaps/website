@@ -5,7 +5,7 @@ description: यदि एप्लिकेशन क्रैश हो जा
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

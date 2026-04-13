@@ -3,7 +3,7 @@ title: "In 2023 Organic Maps got its first million users"
 date: 2023-12-23T12:12:33+00:00
 slug: "in-2023-organic-maps-got-its-first-million-users"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 In 2023 Organic Maps got its **first million users**. It would not be possible to scale without the help from our beloved community. A million thanks for your energy and time, your [donations](https://organicmaps.app/donate/) and [support](https://organicmaps.app/support-us/) 🙏 ❤️ 🍃

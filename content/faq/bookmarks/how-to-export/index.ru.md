@@ -4,11 +4,12 @@ slug: как-экспортировать-метки-и-треки
 description: Export bookmarks and tracks from Organic Maps to other applications and share with contacts
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Метки и Треки"]
+  faq: ["метки-и-треки"]
 extra:
   order: 10
 aliases:
   - /ru/faq/bookmarks/how-to-export/
+  - /ru/faq/bookmarks/как-экспортировать-метки/
 ---
 
 Выберите метку или трек на карте и нажмите иконку “Поделиться” на нижней панели. Чтобы отправить все метки и треки в группе:

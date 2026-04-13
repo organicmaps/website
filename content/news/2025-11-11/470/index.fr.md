@@ -3,7 +3,7 @@ title: "Une carte du monde plus détaillée avec mise en évidence des régions 
 date: 2025-11-11
 slug: "carte-monde-detaillee-regions-telechargees-surlignees-routage-conditionnel-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Notes de version

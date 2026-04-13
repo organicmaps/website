@@ -5,7 +5,7 @@ description: راهنمای عیب یابی دستورالعمل های صوتی
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

@@ -5,7 +5,7 @@ description: Minimikrav för att köra organiska kartor med Android Auto
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 20
 aliases:

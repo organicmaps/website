@@ -2,7 +2,7 @@
 title: "Se linjenummer vid busshållplatser och mer: Höjdpunkter i septemberversionen"
 date: 2025-09-01T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Nu när du väljer en buss- eller spårvagnshållplats kan du se kollektivtrafikens linjenummer. Detta är bara första steget! Nästa steg är att visa kollektivtrafiklinjer direkt på kartan. iOS-användare kan också njuta av omdesignade OpenStreetMap-bidragsknappar ("Lägg till plats" och "Redigera plats").

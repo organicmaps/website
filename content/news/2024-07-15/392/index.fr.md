@@ -3,7 +3,7 @@ title: "Avez-vous déjà installé la version d'Organic Maps du mois de juillet 
 date: 2024-07-15T21:13:23+00:00
 slug: version-de-juillet-avec-une-recherche-amelioree-dadresses-aux-etats-unis-utilisant-les-donnees-tiger-et-un-rendu-de-texte-corrige-pour-les-ecritures-non-latines-financees-par-le-fonds-dinvestissement-de-lngi0
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Avez-vous déjà [installé](https://omaps.app/get) la version d'Organic Maps du mois de juillet ? Elle introduit deux fonctionnalités majeures [financées](https://nlnet.nl/project/OrganicMaps/) par le fond d'investissement de l'NGI0 :

@@ -6,7 +6,7 @@ description: دستورالعمل های گام به گام برای وارد ک
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:

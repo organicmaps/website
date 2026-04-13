@@ -5,7 +5,7 @@ description: Qué far se Organic Maps falla a telecargar o actualizar las cartas
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Mapa
+  - mapa
 extra:
   order: 30
 aliases:

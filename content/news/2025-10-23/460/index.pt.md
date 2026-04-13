@@ -3,7 +3,7 @@ title: "Lançamento de 23 de outubro: Organic Maps como aplicação de navegaç�
 date: 2025-10-23T17:20:21+00:00
 slug: "lançamento-23-outubro-organic-maps-aplicação-navegação-predefinida-ue-ios-placas-estradas-android-melhorias-correções"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 No lançamento de 23 de outubro focámo-nos em correções e melhorias. Consulte a lista detalhada abaixo.

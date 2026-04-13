@@ -4,11 +4,12 @@ slug: как-импортировать-метки-и-треки-в-формат
 description: How to import bookmarks and tracks into Organic Maps from other applications in different file formats
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Метки и Треки"]
+  faq: ["метки-и-треки"]
 extra:
   order: 20
 aliases:
   - /ru/faq/bookmarks/how-to-import/
+  - /ru/faq/bookmarks/как-импортировать-метки/
 ---
 
 Вы можете импортировать метки и треки, отправленные из Organic Maps или сторонних приложений в форматах KML, KMZ, KMB, GPX, GeoJSON (JSON):

@@ -5,7 +5,7 @@ description: Standard-Akku-Optimierungseinstellungen auf Samsung, Huawei, Google
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Lesezeichen und Tracks"]
+  faq: ["lesezeichen-und-tracks"]
 
 extra:
   order: 30

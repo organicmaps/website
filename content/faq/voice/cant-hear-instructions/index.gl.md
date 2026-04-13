@@ -5,7 +5,7 @@ description: Guía de solución de problemas para instrucións de voz na navegac
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

@@ -5,7 +5,7 @@ description: "Guía de resolución de problemas para resolver problemas coa loca
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

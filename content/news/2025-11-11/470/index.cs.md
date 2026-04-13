@@ -3,7 +3,7 @@ title: "Podrobnější mapa světa se zvýrazněnými staženými regiony, podpo
 date: 2025-11-11
 slug: "podrobnejsi-mapa-sveta-zvýraznene-stazene-regiony-podpora-podmineneho-trasovani-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Poznámky k vydání

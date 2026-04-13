@@ -5,7 +5,7 @@ description: Domyślne ustawienia optymalizacji baterii na urządzeniach Samsung
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Zakładki i trasy"]
+  faq: ["zakładki-i-trasy"]
 
 extra:
   order: 30

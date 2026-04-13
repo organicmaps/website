@@ -2,7 +2,7 @@
 title: "Melhora edicion de pistas e fòrça amelhoraments e correccions dins la mesa a jorn Organic Maps de julh 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Descobrissètz la mesa a jorn de julh d'Organic Maps amb fòrça correccions e amelhoraments, mercé a nòstres contributors ❤️💪! La mesa a jorn es ja disponibla sus l'[AppStore][appstore], [Obtainium][obtainium] e [Accrescent][accrescent], e serà prèsta sus [Google Play][googleplay], [Huawei AppGallery][appgallery], e [FDroid][fdroid] dins qualques jorns.

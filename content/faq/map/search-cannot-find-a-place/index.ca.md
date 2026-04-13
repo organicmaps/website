@@ -6,7 +6,7 @@ description: Guia per millorar els resultats de la cerca i resoldre problemes pe
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

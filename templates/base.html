@@ -9,7 +9,7 @@
 {%- elif term %}
 {%- set resource = term %}{# taxonomy term has only 'name', 'slug' and 'path' properties #}
 {%- set resource_path = resource.path %}
-{%- set resource_title = resource.name %}
+{%- set resource_title = resource.name | replace(from="-", to=" ") | capitalize %}
 {%- elif taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
 {% if lang == 'en' %}
 {% set resource = taxonomy.name ~ "/_index.md" %}

@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-12"
 
 taxonomies:
-  faq: ["Signets et parcours"]
+  faq: ["signets-et-parcours"]
 
 extra:
   order: 10

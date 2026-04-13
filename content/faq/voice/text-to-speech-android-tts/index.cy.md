@@ -4,7 +4,7 @@ slug: testun-i-leferydd-ar-android
 description: Canllaw ar sut i wneud i TTS weithio ar Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

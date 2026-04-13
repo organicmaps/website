@@ -6,7 +6,7 @@ description: Bilaketa-emaitzak hobetzeko eta mapan objektuak aurkitzeko arazoak 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

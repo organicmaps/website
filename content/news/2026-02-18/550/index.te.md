@@ -3,7 +3,7 @@ title: ఫిబ్రవరి 2026 ఆర్గానిక్ మ్యాప
 date: 2026-02-18
 slug: february-2026-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 మా కంట్రిబ్యూటర్లకు ధన్యవాదాలు, **ఆర్గానిక్ మ్యాప్స్‌ని అప్‌డేట్ చేయడానికి శుక్రవారం మంచి సమయం!** అప్‌డేట్‌ను [https://get.omaps.org](https://get.omaps.org) వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందండి.

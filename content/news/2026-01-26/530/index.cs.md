@@ -3,7 +3,7 @@ title: Rychlejší mezistátní a meziregionální trasy v aktualizaci Organic M
 date: 2026-01-26
 slug: rychlejsi-mezistatni-a-meziregionalni-trasy-v-aktualizaci-organic-maps-ze-26-ledna
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Je čas aktualizovat Organic Maps! Rychlejší mezistátní a meziregionální trasy, čerstvá mapová data OSM a mnoho oprav chyb pro Android ve druhé aktualizaci aplikace v roce 2026.

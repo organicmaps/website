@@ -3,7 +3,7 @@ title: "Organic Mapsi jõuluväljaanne 16. detsembri versioonis"
 date: 2025-12-16
 slug: "organic-maps-jouluvaljaanne-16-detsembri-versioon"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Häid jõule ja head uut aastat Organic Mapsi meeskonna poolt. Otsid pühademeeleolu? Otsi kaardilt `Jõuluturg` või `Jõulupuu`. Kui sinu piirkonnas midagi ei ilmu, lisa puuduvad objektid OpenStreetMap.org-is ja paranda kaarti kõigi jaoks!

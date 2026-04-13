@@ -3,7 +3,7 @@ title: "16 Aralık Sürümünde Organic Maps Noel Sürümü"
 date: 2025-12-16
 slug: "organic-maps-noel-surumu-16-aralik-surumu"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps ekibinden Mutlu Noeller ve Mutlu Yıllar. Tatil ruhunu mu arıyorsunuz? Haritada görmek için `Noel Pazarı` veya `Noel Ağacı` araması yapın. Bölgenizde hiçbir şey görünmüyorsa, lütfen eksik özellikleri OpenStreetMap.org'a ekleyin ve haritayı herkes için iyileştirin!

@@ -4,7 +4,7 @@ slug: nola-erabiltzen-dut-aplikazioaren-flatpak-bertsioa
 description: Organic Maps aplikaziorako ohiko galderak
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

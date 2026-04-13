@@ -3,7 +3,7 @@ title: "Meet new contributors and improved European elevation data in March/Apri
 date: 2024-04-05T18:04:24+00:00
 slug: "improved-europe-elevation-data-in-app-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Let us announce the **March/April release** ([install here](https://omaps.app/get)) and welcome new contributors:

@@ -6,7 +6,7 @@ description: Tutorial per editar OpenStreetMap amb eines més avançades com ID,
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 40
 aliases:

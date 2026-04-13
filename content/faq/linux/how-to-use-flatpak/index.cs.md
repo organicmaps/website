@@ -4,7 +4,7 @@ slug: jak-mohu-používat-verzi-aplikace-flatpak
 description: Často kladené otázky pro aplikaci Organické mapy
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

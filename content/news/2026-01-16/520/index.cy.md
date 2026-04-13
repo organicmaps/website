@@ -3,7 +3,7 @@ title: Lliwiau thema dywyll cyferbynnedd uwch, capasiti parcio, rhentu a gwefru,
 date: 2026-01-16
 slug: lliwiau-thema-dywyll-cyferbynnedd-uwch-capasiti-parcio-rhentu-a-gwefru-a-mwy-yn-y-rhyddhad-ionawr-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Gadewch i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein holl gyfranwyr! Gosodwch ef o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]

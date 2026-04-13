@@ -6,7 +6,7 @@ description: Tipy pro opravu chyb v mapách, provádění změn a aktualizací o
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

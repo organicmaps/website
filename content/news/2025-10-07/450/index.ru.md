@@ -3,7 +3,7 @@ title: "Октябрьский релиз: Ограничения скорост
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Это октябрьское обновление Organic Maps добавляет отображение ограничений скорости в Android Auto, импорт GeoJSON, статистику записи треков, показывает теги description OSM (введите `?description` в поле поиска, чтобы увидеть их) и сохраняет метку на треке в iOS. Также доступно множество улучшений пользовательского интерфейса, редактирования OpenStreetMap и различные исправления ошибок на всех платформах, включая исправление вылета при запуске на некоторых устройствах Android.

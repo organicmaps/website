@@ -3,7 +3,7 @@ title: "Október 23-i kiadás: Organic Maps alapértelmezett navigációs alkalm
 date: 2025-10-23T17:20:21+00:00
 slug: "október-23-i-kiadás-organic-maps-alapértelmezett-navigációs-alkalmazás-eu-ios-úttáblák-android-fejlesztések-javítások"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Az október 23-i kiadásban a javításokra és fejlesztésekre összpontosítottunk. Nézze meg az alábbi részletes listát.

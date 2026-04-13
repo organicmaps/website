@@ -3,7 +3,7 @@ title: "Spalio 23 d. leidimas: Organic Maps kaip numatytoji navigacijos programa
 date: 2025-10-23T17:20:21+00:00
 slug: "spalio-23-leidimas-organic-maps-numatytoji-navigacijos-programa-es-ios-kelių-ženklai-android-patobulinimai-pataisymai"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Spalio 23 d. leidime sutelkėme dėmesį į pataisymus ir patobulinimus. Žemiau pateikiamas išsamus sąrašas.

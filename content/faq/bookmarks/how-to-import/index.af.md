@@ -6,7 +6,7 @@ description: Stap-vir-stap instruksies vir die invoer van boekmerke en snitte wa
 updated: "2024-06-20"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:

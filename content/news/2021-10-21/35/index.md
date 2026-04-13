@@ -3,7 +3,7 @@ title: "In 21.10.15 Google Play update we"
 date: 2021-10-21T09:36:45+00:00
 slug: "in-google-play-update-we"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 In 21.10.15 Google Play update we:

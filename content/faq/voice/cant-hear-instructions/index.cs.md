@@ -5,7 +5,7 @@ description: Průvodce odstraňováním problémů pro hlasové pokyny v navigac
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

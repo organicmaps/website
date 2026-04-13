@@ -3,7 +3,7 @@ title: Cores de tema escuro de maior contraste, capacidade de aparcamento, aluga
 date: 2026-01-16
 slug: cores-de-tema-escuro-de-maior-contraste-capacidade-de-aparcamento-alugamento-e-carga-e-mais-na-version-de-xaneiro-de-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Comecemos 2026 cunha actualización de Organic Maps, feita posible por todos os nosos colaboradores! Instálea desde <https://omaps.app/get> ou desde [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]

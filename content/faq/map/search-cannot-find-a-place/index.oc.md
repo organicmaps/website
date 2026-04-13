@@ -5,7 +5,7 @@ description: Guia per melhorar los resultats de recèrca e resòlvre los problè
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Mapa
+  - mapa
 extra:
   order: 20
 aliases:

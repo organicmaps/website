@@ -3,7 +3,7 @@ title: "Voorwaardelike spoedgrense, meer gedetailleerde isolyne vir China, klein
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Die Maart Organic Maps-opdatering het langer geneem weens regstellings en Google Play-hersiening. Die [Accrescent][accrescent]-opdatering is steeds nie gereed nie weens probleme met die Accrescent-toepassingwinkel. Kry die opdatering by <https://get.omaps.org> of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].

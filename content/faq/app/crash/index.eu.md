@@ -5,7 +5,7 @@ description: Zer ekintza egin aplikazioa huts egiten bada. Nola jakinarazi akats
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

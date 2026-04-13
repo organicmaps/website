@@ -4,7 +4,7 @@ slug: lapplication-narrive-pas-à-déterminer-ma-position
 description: "Guide de dépannage pour résoudre les problèmes de localisation et de position GPS actuelle sur la carte pour les appareils iOS et Android"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Carte"]
+  faq: ["carte"]
 extra:
   order: 10
 aliases:

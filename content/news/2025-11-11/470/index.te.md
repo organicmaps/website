@@ -3,7 +3,7 @@ title: "నవంబర్ 11, 2025 Organic Maps విడుదలలో హై
 date: 2025-11-11
 slug: "vivaranatmaka-prapancha-map-highlight-chesina-download-chesina-prantalu-shartulato-kooda-routing-maddatu-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## విడుదల గమనికలు

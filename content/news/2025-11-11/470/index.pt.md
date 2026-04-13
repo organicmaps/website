@@ -3,7 +3,7 @@ title: "Um Mapa Mundial mais detalhado com regiões transferidas realçadas, sup
 date: 2025-11-11
 slug: "mapa-mundial-detalhado-regioes-transferidas-realcadas-suporte-encaminhamento-condicional-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Notas de Lançamento

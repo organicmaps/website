@@ -2,7 +2,7 @@
 title: "7. oktoobri väljalase: Android Auto kiirusepiirangud, GeoJSON import ja muud"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Android Auto kasutajad näevad nüüd kiirusepiirangu hoiatusi. Lisatud on GeoJSON failide import, mida saab markeriteks teisendada.

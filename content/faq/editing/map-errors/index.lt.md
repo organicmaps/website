@@ -6,7 +6,7 @@ description: Patarimai, kaip ištaisyti žemėlapių klaidas, atlikti objektų p
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

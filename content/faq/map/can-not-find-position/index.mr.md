@@ -5,7 +5,7 @@ description: "iOS आणि Android डिव्हाइसेससाठी �
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "23 Oktober Vrystelling: Organic Maps as verstek navigasie-app in EU op i
 date: 2025-10-23T17:20:21+00:00
 slug: "23-oktober-vrystelling-organic-maps-verstek-navigasie-app-eu-ios-padskilde-vertoon-android-verbeterings-regstellings"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 In die 23 Oktober vrystelling het ons gefokus op regstellings en verbeterings. Kyk die gedetailleerde lys hieronder.

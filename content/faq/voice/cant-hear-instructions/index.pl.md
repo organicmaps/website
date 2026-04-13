@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Komunikaty głosowe"]
+  faq: ["komunikaty-głosowe"]
 
 extra:
   order: 20

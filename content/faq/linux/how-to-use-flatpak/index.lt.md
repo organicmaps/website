@@ -4,7 +4,7 @@ slug: kaip-naudoti-flatpak-programos-versiją
 description: Dažniausiai užduodami klausimai apie organinių žemėlapių programą
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

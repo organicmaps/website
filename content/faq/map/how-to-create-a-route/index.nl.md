@@ -6,7 +6,7 @@ description: Gids voor het samenstellen van een route en navigeren met behulp va
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

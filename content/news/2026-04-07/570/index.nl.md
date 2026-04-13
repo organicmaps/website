@@ -3,7 +3,7 @@ title: "Wandel- en fietsroutes met hoogteprofielen, slimmer zoeken naar adressen
 date: 2026-04-07
 slug: "wandel-fietsroutes-hoogtegrafieken-vs-adres-zoeken-antimeridiaan-kaart-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Deze release van april draait, naast veel bugfixes en verbeteringen, om drie simpele waarheden: wandelaars willen weten hoeveel hoogtemeters hen te wachten staan, iedereen wil dat het zoeken naar een adres gewoon werkt en niemand mag het gevoel hebben van de rand van de kaart te vallen. Dankzij onze bijdragers, jullie goede recensies, [donaties](@/donate/index.nl.md) en [steun](@/contribute/index.nl.md), hebben we alle drie aangepakt — en nog veel meer.

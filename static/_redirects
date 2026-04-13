@@ -2,3 +2,66 @@
 /support-us/ /contribute/ 301
 /:code/support-us /:code/contribute/ 301
 /:code/support-us/ /:code/contribute/ 301
+
+# Transliterated FAQ taxonomy URLs (pre-Jan-2026 slugify, non-Latin scripts)
+# After switching to localized Unicode URLs, these old ASCII forms need redirects.
+/ru/faq/prilozhenie/           /ru/faq/приложение/            301
+/ru/faq/karta/                 /ru/faq/карта/                 301
+/ru/faq/metki-i-treki/         /ru/faq/метки-и-треки/         301
+/ru/faq/golosovye-podskazki/   /ru/faq/голосовые-подсказки/   301
+/ru/faq/redaktirovanie/        /ru/faq/редактирование/        301
+/uk/faq/dodatok/               /uk/faq/додаток/               301
+/uk/faq/mapa/                  /uk/faq/мапа/                  301
+/uk/faq/mitki-ta-marshruti/    /uk/faq/мітки-та-маршрути/     301
+/uk/faq/golosovi-instruktsiyi/ /uk/faq/голосові-інструкції/   301
+/uk/faq/redaguvannia/          /uk/faq/редагування/           301
+/zh-Hans/faq/ying-yong/        /zh-Hans/faq/应用/              301
+/zh-Hans/faq/di-tu/            /zh-Hans/faq/地图/              301
+/zh-Hans/faq/shu-qian-he-gui-ji/ /zh-Hans/faq/书签和轨迹/        301
+/zh-Hans/faq/yu-yin-zhi-dao/   /zh-Hans/faq/语音指导/           301
+/zh-Hans/faq/di-tu-bian-ji/    /zh-Hans/faq/地图编辑/           301
+
+# Renamed or removed taxonomy values
+/tr/faq/basvuru/               /tr/faq/uygulama/              301
+/de/faq/sprachfuhrung/         /de/faq/sprachanweisungen/     301
+/pt-BR/faq/aplicativa/         /pt-BR/faq/aplicativo/         301
+/pt/faq/aplicativa/            /pt/faq/aplicação/             301
+/uk/faq/zagal-ni/              /uk/faq/                       301
+/ru/faq/obshchie/              /ru/faq/                       301
+
+# Legacy pages removed from the site
+/downloads                     /                              301
+/downloads/                    /                              301
+/download.html                 /                              301
+/about                         /contribute/                   301
+/about/                        /contribute/                   301
+/transparency                  /                              301
+/transparency/                 /                              301
+/getting-started               /faq/                          301
+/getting-started/              /faq/                          301
+/docs                          /faq/                          301
+/docs/                         /faq/                          301
+
+# Old FAQ URLs that were moved under /faq/app/
+/faq/how-to-use-android-auto/       /faq/app/how-to-use-android-auto/           301
+/faq/come-si-usa-android-auto/      /it/faq/app/come-si-usa-android-auto/       301
+/faq/comment-utiliser-android-auto/ /fr/faq/app/comment-utiliser-android-auto/  301
+/faq/como-utilizar-android-auto/    /es/faq/app/como-utilizar-android-auto/     301
+
+# Shortcut path
+/faq/tts                       /faq/voice/text-to-speech-tts-and-voice-directions-on-android/ 301
+
+# Accent-stripped ASCII URLs indexed before the Unicode URL switch
+/es/faq/aplicacion/            /es/faq/aplicación/            301
+/es/faq/edicion-de-mapas/      /es/faq/edición-de-mapas/      301
+/pt/faq/aplicacao/             /pt/faq/aplicação/             301
+/pt/faq/instrucoes-de-voz/     /pt/faq/instruções-de-voz/     301
+/pt/faq/edicao-de-mapas/       /pt/faq/edição-de-mapas/       301
+/pt-BR/faq/orientacao-por-voz/ /pt-BR/faq/orientação-por-voz/ 301
+/pl/faq/komunikaty-glosowe/    /pl/faq/komunikaty-głosowe/    301
+/pl/faq/zakladki-i-trasy/      /pl/faq/zakładki-i-trasy/      301
+/fr/faq/edition-de-la-carte/   /fr/faq/édition-de-la-carte/   301
+/oc/faq/marcapaginas-e-tracas/ /oc/faq/marcapàginas-e-traças/ 301
+/tr/faq/yer-imleri-ve-kayitlar/ /tr/faq/yer-imleri-ve-kayıtlar/ 301
+/tr/faq/sesli-yonlendirme/     /tr/faq/sesli-yönlendirme/     301
+/tr/faq/harita-duzenleme/      /tr/faq/harita-düzenleme/      301

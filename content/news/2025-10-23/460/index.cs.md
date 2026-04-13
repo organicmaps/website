@@ -3,7 +3,7 @@ title: "Vydání 23. října: Organic Maps jako výchozí navigační aplikace v
 date: 2025-10-23T17:20:21+00:00
 slug: "vydání-23-října-organic-maps-výchozí-navigační-aplikace-eu-ios-dopravní-značky-android-vylepšení-opravy"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ve vydání z 23. října jsme se zaměřili na opravy a vylepšení. Podívejte se na podrobný seznam níže.

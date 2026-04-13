@@ -4,7 +4,7 @@ slug: text-till-tal-på-android
 description: Guide om hur du får TTS att fungera på Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

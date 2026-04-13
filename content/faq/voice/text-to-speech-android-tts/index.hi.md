@@ -4,7 +4,7 @@ slug: एडरइड-पर-टकसट-ट-सपच
 description: एंड्रॉइड पर टीटीएस कैसे काम करें, इस पर मार्गदर्शन करें
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

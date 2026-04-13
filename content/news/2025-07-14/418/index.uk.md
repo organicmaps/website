@@ -2,7 +2,7 @@
 title: "Краще редагування треків та багато покращень і виправлень в оновленні Organic Maps липень 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Знайомтеся з липневим оновленням Organic Maps з багатьма виправленнями та покращеннями, дякуючи нашим учасникам ❤️💪! Оновлення вже доступне в [AppStore][appstore], [Obtainium][obtainium] та [Accrescent][accrescent], і буде готове в [Google Play][googleplay], [Huawei AppGallery][appgallery] та [FDroid][fdroid] через кілька днів.

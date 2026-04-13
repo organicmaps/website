@@ -4,7 +4,7 @@ slug: как-я-могу-редактировать-карту-в-organic-maps
 description: Учебное пособие по редактированию OpenStreetMap из приложения Organic Maps.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Редактирование"]
+  faq: ["редактирование"]
 extra:
   order: 35
 aliases:

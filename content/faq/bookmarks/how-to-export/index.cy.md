@@ -6,7 +6,7 @@ description: Canllaw cam wrth gam ar gyfer allforio nodau tudalen a thraciau o F
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

@@ -4,7 +4,7 @@ description: Tutorial for editing OpenStreetMap with more advanced tools like ID
 updated: "2024-06-20"
 
 taxonomies:
-  faq: ["Map Editing"]
+  faq: ["map-editing"]
 
 extra:
   order: 40

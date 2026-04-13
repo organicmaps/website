@@ -3,7 +3,7 @@ title: "Новий реліз Organic Maps 2025.11.25: Статті Вікіпе
 date: 2025-11-28
 slug: "статті-вікіпедії-турецькою-японською-та-китайською-мовами-налаштування-для-перегляду-завантажених-регіонів"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 П'ятниця! Час встановити нове оновлення Organic Maps з <https://omaps.app/get> або з [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid].

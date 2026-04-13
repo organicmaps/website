@@ -2,7 +2,7 @@
 title: "Mejor edición de rutas y muchas mejoras y correcciones en la actualización de Organic Maps de julio 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Conoce la actualización de julio de Organic Maps con muchas correcciones y mejoras, ¡gracias a nuestros colaboradores ❤️💪! La actualización ya está disponible en el [AppStore][appstore], [Obtainium][obtainium] y [Accrescent][accrescent], y estará lista en [Google Play][googleplay], [Huawei AppGallery][appgallery] y [FDroid][fdroid] en unos días.

@@ -6,7 +6,7 @@ description: دليل خطوة بخطوة لتصدير الإشارات المر
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

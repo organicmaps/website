@@ -5,7 +5,7 @@ description: Guide för att bygga en rutt och navigera med hjälp av kartan
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

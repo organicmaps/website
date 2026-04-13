@@ -3,7 +3,7 @@ title: Кольори темної теми з вищим контрастом, 
 date: 2026-01-16
 slug: kolory-temnoi-temy-z-vyshchym-kontrastom-mistkist-parkovok-orendy-ta-zaryadnykh-stantsii-ta-bahato-inshoho-u-vypusku-za-sichen-2026-roku
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Розпочнемо 2026 рік з оновленням Organic Maps, яке стало можливим завдяки всім нашим учасникам! Встановіть його з <https://omaps.app/get> або з [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid]

@@ -2,7 +2,7 @@
 title: "Pisten edizio hobea eta hobekuntza eta konponketa asko Organic Maps 2025ko uztaileko eguneratzean"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ezagutu Organic Maps uztaileko eguneratzea konponketa eta hobekuntza askorekin, gure kolaboratzaileei esker ❤️💪! Eguneratzea jadanik eskuragarri dago [AppStore][appstore], [Obtainium][obtainium] eta [Accrescent][accrescent]-en, eta egun gutxi barru prest egongo da [Google Play][googleplay], [Huawei AppGallery][appgallery], eta [FDroid][fdroid]-en.

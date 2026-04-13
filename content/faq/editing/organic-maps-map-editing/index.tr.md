@@ -5,7 +5,7 @@ description: OpenStreetMap'i Organik Haritalar uygulaması içinden düzenlemeye
   eğitim
 updated: '2025-01-05'
 taxonomies:
-  faq: ["Harita düzenleme"]
+  faq: ["harita-düzenleme"]
 extra:
   order: 35
 aliases:

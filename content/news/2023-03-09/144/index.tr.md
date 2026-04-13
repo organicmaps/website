@@ -3,7 +3,7 @@ title: "Sonunda iPad kullanıcıları Organic Maps donmadan klavyeyi kullanabili
 date: 2023-03-09T11:37:31+00:00
 slug: "finally-ipad-users-can-use-their-keyboards-without-organic-maps-freezing-and-android-users-can-enjoy-reading-wiki-articles-for-bookmarked-places-we-ve-also-improved-the-search-function-particularly-for-users-who-search-by-categories"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Sonunda iPad kullanıcıları Organic Maps donmadan klavyeyi kullanabilir ve Android kullanıcıları yer imlerine eklenen yerler için Vikipedi makalelerini okumanın keyfini çıkarabilir 😉 Ayrıca, özellikle kategorilere göre arama yapan kullanıcılar için haritada arama özelliğini geliştirdik. Özellikle vegan ve vejetaryen mutfak aramalarını ayırdık 🌱 ve daha önce tek bir 'sağlık' etiketi altında gruplandırılan psikoterapist, konuşma terapisti, odyolog ve kan bağışı merkezi gibi bazı yeni POI (İlgi Çekici Nokta) türleri ekledik.

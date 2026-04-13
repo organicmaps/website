@@ -3,7 +3,7 @@ title: "October 23 Release: Organic Maps as default navigation app in EU on iOS,
 date: 2025-10-23T17:20:21+00:00
 slug: "october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 In the October 23 release we focused on fixes and improvements. Check the detailed list below.

@@ -3,7 +3,7 @@ title: "Urriaren 23ko argitalpena: Organic Maps EBko nabigazio aplikazio lehenet
 date: 2025-10-23T17:20:21+00:00
 slug: "urriaren-23ko-argitalpena-organic-maps-eb-nabigazio-aplikazio-lehenetsi-ios-errepide-ezkutuak-android-hobekuntzak-konponketak"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Urriaren 23ko argitalpenean, konponketa eta hobekuntzetan zentratu gara. Ikusi zerrenda zehatza jarraian.

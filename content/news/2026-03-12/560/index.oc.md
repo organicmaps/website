@@ -3,7 +3,7 @@ title: "Limits de velocitat condicionals, isolinhas mai detalhadas per la China,
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 La mesa a jorn de març d'Organic Maps a fo mai de temps a causa de las correccions urgentas e de la revision de Google Play. La mesa a jorn d'[Accrescent][accrescent] es pas encara prèsta a causa de problèmas amb la botiga d'aplicacions Accrescent. Obtenètz la mesa a jorn sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].

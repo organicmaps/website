@@ -3,7 +3,7 @@ title: उच्च-कॉन्ट्रास्ट डार्क थीम 
 date: 2026-01-16
 slug: uchch-contrast-dark-theme-rang-parking-bhade-ani-charging-kshamta-ani-january-2026-releasemadhe-anakhi-barech-kahi
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 आमच्या सर्व योगदानकर्त्यांमुळे शक्य झालेल्या Organic Maps अपडेटसह 2026 सुरू करूया! <https://omaps.app/get> किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून इंस्टॉल करा

@@ -3,7 +3,7 @@ title: "Version d'octobre : Limites de vitesse sur Android Auto, importation Geo
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Cette mise à jour d'octobre d'Organic Maps ajoute l'affichage de la limite de vitesse dans Android Auto, l'importation de GeoJSON, les statistiques d'enregistrement de parcours, affiche les balises de description OSM (tapez `?description` dans la zone de recherche pour les voir), et enregistre un signet sur une trace sur iOS. Il y a également de nombreuses améliorations de l'interface utilisateur, de l'édition OpenStreetMap et diverses corrections de bogues sur toutes les plateformes, y compris la correction du plantage au démarrage sur certains appareils Android.

@@ -4,7 +4,7 @@ slug: πώς-μπορώ-να-χρησιμοποιήσω-την-έκδοση-flat
 description: Συχνές ερωτήσεις για την εφαρμογή Organic Maps
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

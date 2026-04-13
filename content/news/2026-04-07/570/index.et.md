@@ -3,7 +3,7 @@ title: "Matka- ja jalgrattamarsruudid koos kõrgusprofiilidega, targem USA aadre
 date: 2026-04-07
 slug: "matkarajad-jalgrattamarsruudid-korgusdiagrammid-usa-aadressiotsing-antimeridiaan-kaardi-mahkumine-aprill-2026-organic-maps-uuendus"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 See aprilliväljaanne põhineb lisaks paljudele veaparandustele ja täiustustele kolmel lihtsal tõel: matkajad tahavad teada, kui palju tõusu neid ees ootab, kõik tahavad, et aadressiotsing lihtsalt toimiks, ning keegi ei peaks tundma, nagu kukuks ta kaardi servalt alla. Tänu meie kaastöötajatele, teie headele arvustustele, [annetustele](@/donate/index.et.md) ja [toetusele](@/contribute/index.et.md) saime kõigi nende probleemidega hakkama — ja palju enamagagi.

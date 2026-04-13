@@ -5,7 +5,7 @@ description: ""
 updated: "2026-01-03"
 
 taxonomies:
-  faq: ["Lesezeichen und Tracks"]
+  faq: ["lesezeichen-und-tracks"]
 
 extra:
   order: 20

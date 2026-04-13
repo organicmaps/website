@@ -4,7 +4,7 @@ slug: كيف-يمكنني-استخدام-إصدار-flatpak-من-التطبيق
 description: الأسئلة المتداولة لتطبيق الخرائط العضوية
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

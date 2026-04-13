@@ -3,7 +3,7 @@ title: Actualizacion d'Organic Maps de febrier de 2026
 date: 2026-02-18
 slug: actualizacion-organic-maps-febrier-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mercés a nòstres contributors, **divendres es un bon moment per metre a jorn Organic Maps !** Obtenètz la mesa a jorn sus [https://get.omaps.org](https://get.omaps.org) o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].

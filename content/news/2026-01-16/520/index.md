@@ -3,7 +3,7 @@ title: Higher-contrast dark theme colors, parking, rental, and charging capacity
 date: 2026-01-16
 slug: higher-contrast-dark-theme-colors-parking-rental-and-charging-capacity-and-more-in-the-january-2026-release
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Let's start 2026 with an Organic Maps update, made possible by all our contributors! Install it from <https://omaps.app/get> or from [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid]

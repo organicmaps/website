@@ -3,7 +3,7 @@ title: "Límites de velocidade condicionais, illíñas de nivel máis detalladas
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 A actualización de marzo de Organic Maps levou máis tempo debido ás correccións urxentes e á revisión de Google Play. A actualización de [Accrescent][accrescent] aínda non está lista debido a problemas coa tenda de aplicacións Accrescent. Obtén a actualización en <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].

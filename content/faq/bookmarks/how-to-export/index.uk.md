@@ -5,7 +5,7 @@ description: ""
 updated: "2026-01-03"
 
 taxonomies:
-  faq: ["Мітки та Маршрути"]
+  faq: ["мітки-та-маршрути"]
 
 extra:
   order: 10

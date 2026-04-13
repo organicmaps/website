@@ -4,7 +4,7 @@ slug: aplikacja-nie-może-określić-mojej-lokalizacji
 description: "Przewodnik rozwiązywania problemów z lokalizacją i aktualną pozycją GPS na mapie dla urządzeń iOS i Android"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Mapa"]
+  faq: ["mapa"]
 extra:
   order: 10
 aliases:

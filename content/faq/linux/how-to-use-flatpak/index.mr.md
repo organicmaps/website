@@ -4,7 +4,7 @@ slug: म-ॲपच-फलटपक-आवतत-कश-वपर
 description: ऑरगॅनिक नकाशे अनुप्रयोगासाठी वारंवार विचारले जाणारे प्रश्न
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

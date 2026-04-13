@@ -4,7 +4,7 @@ description: Troubleshooting guide for voice instructions in navigation
 updated: "2024-07-22"
 
 taxonomies:
-  faq: ["Voice Directions"]
+  faq: ["voice-directions"]
 
 extra:
   order: 20

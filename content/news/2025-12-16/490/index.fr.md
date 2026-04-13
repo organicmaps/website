@@ -3,7 +3,7 @@ title: "Édition de Noël d'Organic Maps dans la version du 16 décembre"
 date: 2025-12-16
 slug: "edition-noel-organic-maps-version-16-decembre"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Joyeux Noël et Bonne Année de la part de l'équipe Organic Maps. Vous cherchez l'esprit des fêtes ? Recherchez `Marché de Noël` ou `Arbre de Noël` pour les voir sur la carte. Si rien n'apparaît dans votre région, veuillez ajouter les éléments manquants sur OpenStreetMap.org et améliorer la carte pour tout le monde !

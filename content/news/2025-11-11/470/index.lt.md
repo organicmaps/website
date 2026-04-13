@@ -3,7 +3,7 @@ title: "Išsamesnis pasaulio žemėlapis su paryškintais atsisiųstų žemėlap
 date: 2025-11-11
 slug: "issamesnis-pasaulio-zemelapis-paryskinti-atsisiusti-regionai-salyginis-marsrutas-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Leidimo pastabos

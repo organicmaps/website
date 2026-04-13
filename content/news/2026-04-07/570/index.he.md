@@ -3,7 +3,7 @@ title: "מסלולי הליכה ורכיבה על אופניים עם פרופי
 date: 2026-04-07
 slug: "hiking-cycling-routes-elevation-charts-us-address-search-antimeridian-map-wrapping-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 מהדורת אפריל הזו, נוסף על תיקוני באגים ושיפורים רבים, בנויה סביב שלוש אמיתות פשוטות: מטיילים רוצים לדעת כמה עלייה מחכה להם, כולם רוצים שחיפוש הכתובת פשוט יעבוד, ואף אחד לא אמור להרגיש שהוא נופל מקצה המפה. הודות לתורמים שלנו, לביקורות החיוביות שלכם, ל[תרומות](@/donate/index.he.md) ול[תמיכה](@/contribute/index.he.md), טיפלנו בכל שלושת הדברים האלה — ובעוד הרבה יותר.

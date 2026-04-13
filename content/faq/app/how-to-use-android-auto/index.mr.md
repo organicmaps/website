@@ -5,7 +5,7 @@ description: Android Auto सह ऑरगॅनिक नकाशे चाल
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 20
 aliases:

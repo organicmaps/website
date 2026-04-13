@@ -3,7 +3,7 @@ title: "Tingimuslikud kiiruspiirangud, Hiina üksikasjalikumad eraldusjooned, ja
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps märtsivärskendus võttis rohkem aega, kuna tehti hotfix'eid ja Google Play läbivaatamine. [Accrescent][accrescent] värskendus ei ole endiselt valmis Accrescenti rakenduste poe probleemide tõttu. Hankige värskendus aadressil <https://get.omaps.org> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].

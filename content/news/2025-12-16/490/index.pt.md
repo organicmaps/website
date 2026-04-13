@@ -3,7 +3,7 @@ title: "Edição de Natal do Organic Maps no lançamento de 16 de dezembro"
 date: 2025-12-16
 slug: "edicao-de-natal-organic-maps-lancamento-16-dezembro"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Feliz Natal e Próspero Ano Novo da equipa do Organic Maps. À procura do espírito natalício? Pesquise por `Mercado de Natal` ou `Árvore de Natal` para vê-los no mapa. Se nada aparecer na sua área, por favor adicione os elementos em falta no OpenStreetMap.org e melhore o mapa para todos!

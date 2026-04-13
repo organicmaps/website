@@ -5,7 +5,7 @@ description: Jaké kroky podniknout, pokud aplikace spadne. Jak nahlásit kritic
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

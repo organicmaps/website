@@ -6,7 +6,7 @@ description: Näpunäiteid kaartide vigade parandamiseks, objektide muudatuste j
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

@@ -6,7 +6,7 @@ description: Podrobný průvodce pro export záložek a tras z organických map 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

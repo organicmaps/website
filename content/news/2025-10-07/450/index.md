@@ -3,7 +3,7 @@ title: "October 7 Release: Android Auto speed limits, GeoJSON import, recording 
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 This October 7 Organic Maps update adds speed limit display in Android Auto, GeoJSON import, recording track statistics, shows OSM description tags (type `?description` in the search box to see them), and saves a bookmark on a track on iOS. There are also many improvements to the user interface, OpenStreetMap editing, and various bug fixes across all platforms, including the crash fix on startup on some Android devices.

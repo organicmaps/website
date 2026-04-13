@@ -3,7 +3,7 @@ title: "En mer detaljerad världskarta med markerade nedladdade kartregioner, st
 date: 2025-11-11
 slug: "detaljerad-varldskarta-markerade-nedladdade-regioner-stod-villkorlig-navigering-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Versionsanteckningar

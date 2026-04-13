@@ -5,11 +5,12 @@ description: Instruccions pas a pas per importar adreces d'interès i pistes com
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /ca/faq/bookmarks/how-to-import/
+  - /ca/faq/bookmarks/com-importar-adreces-dinterès-i-pistes-en-format-kml-kmz-kmb-o-gpx/
 ---
 
 Podeu importar les adreces d'interès enviades des d'Organic Maps o d'aplicacions de tercers si les exporten en formats KML, KMZ, KMB i GPX, GeoJSON (JSON).

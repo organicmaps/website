@@ -3,7 +3,7 @@ title: Daha yüksek kontrastlı koyu tema renkleri, park, kiralama ve şarj kapa
 date: 2026-01-16
 slug: daha-yuksek-kontrastli-koyu-tema-renkleri-park-kiralama-ve-sarj-kapasitesi-ve-ocak-2026-surumunde-daha-fazlasi
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 2026'ya tüm katkıda bulunanlarımız sayesinde mümkün olan bir Organic Maps güncellemesiyle başlayalım! <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yükleyin

@@ -3,7 +3,7 @@ title: Högre kontrast mörka temafärger, parkerings-, uthyrnings- och laddning
 date: 2026-01-16
 slug: hogre-kontrast-morka-temafrarger-parkerings-uthyrnings-och-laddningskapacitet-och-mer-i-januariutgavan-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Låt oss börja 2026 med en Organic Maps-uppdatering, möjliggjord av alla våra bidragsgivare! Installera den från <https://omaps.app/get> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid]

@@ -5,7 +5,7 @@ description: ID, Go Map ve Vespucci gibi daha gelişmiş araçlarla OpenStreetMa
   eğitimi
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Harita düzenleme"]
+  faq: ["harita-düzenleme"]
 extra:
   order: 40
 aliases:

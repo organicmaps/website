@@ -3,7 +3,7 @@ title: "Rotas de caminhada e ciclismo com gráficos de elevação, busca de ende
 date: 2026-04-07
 slug: "rotas-caminhadas-ciclismo-graficos-elevacao-pesquisa-enderecos-eua-antimeridiano-mapa-abril-2026-organic-maps-atualizacao"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Nesta versão de abril, além de muitas correções de bugs e melhorias, partimos de três verdades simples: quem faz trilha quer saber quanto vai subir, todo mundo quer que a busca por endereços simplesmente funcione, e ninguém deveria ter a sensação de cair para fora da borda do mapa. Graças aos nossos colaboradores, às suas boas avaliações, às [doações](@/donate/index.pt-BR.md) e ao [suporte](@/contribute/index.pt-BR.md), resolvemos essas três questões — e muito mais.

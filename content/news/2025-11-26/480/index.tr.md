@@ -3,7 +3,7 @@ title: "Yeni Organic Maps Sürümü 2025.11.25: Türkçe, Japonca ve Çince Wiki
 date: 2025-11-28
 slug: "türkçe-japonca-ve-çince-wikipedia-makaleleri-indirilen-bölgeleri-görme-ayarı-ve-daha-fazlası"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Cuma! <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yeni Organic Maps güncellemesini yükleme zamanı.

@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-20"
 
 taxonomies:
-  faq: ["Yer İmleri ve Kayıtlar"]
+  faq: ["yer-imleri-ve-kayıtlar"]
 
 extra:
   order: 20

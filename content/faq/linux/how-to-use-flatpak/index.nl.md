@@ -4,7 +4,7 @@ slug: hoe-gebruik-ik-de-flatpak-versie-van-de-app
 description: Veelgestelde vragen over de toepassing Organische kaarten
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

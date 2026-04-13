@@ -3,7 +3,7 @@ title: Synthèse vocale sur Android
 description: Guide pour utiliser la synthèse vocale sur Android
 slug: synthèse-vocale-tts-sur-android
 taxonomies:
-  faq: ["Instructions vocales"]
+  faq: ["instructions-vocales"]
 extra:
   order: 10
 aliases:

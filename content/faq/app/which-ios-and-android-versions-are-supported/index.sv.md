@@ -5,7 +5,7 @@ description: Minimikrav för att köra organiska kartor på Android- och iOS-enh
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

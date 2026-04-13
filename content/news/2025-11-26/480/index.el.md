@@ -3,7 +3,7 @@ title: "Νέα έκδοση Organic Maps 2025.11.25: Άρθρα Wikipedia στα
 date: 2025-11-28
 slug: "άρθρα-wikipedia-στα-τουρκικά-ιαπωνικά-και-κινέζικα-ρύθμιση-για-να-βλέπετε-τις-ληφθείσες-περιοχές-και-άλλα"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Παρασκευή! Ήρθε η ώρα να εγκαταστήσετε τη νέα ενημέρωση Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].

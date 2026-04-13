@@ -3,7 +3,7 @@ title: "Nová verze Organic Maps 2025.11.25: Články z Wikipedie v turečtině,
 date: 2025-11-28
 slug: "články-z-wikipedie-v-turečtině-japonštině-a-čínštině-nastavení-pro-zobrazení-stažených-oblastí-a-další"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Pátek! Je čas nainstalovat novou aktualizaci Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].

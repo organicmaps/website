@@ -4,7 +4,7 @@ description: Default battery optimization settings on Samsung, Huawei, Google, X
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Bookmarks and tracks"]
+  faq: ["bookmarks-and-tracks"]
 
 extra:
   order: 30

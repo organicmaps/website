@@ -2,7 +2,7 @@
 title: "Parem jälje redigeerimine ja palju täiustusi ja parandusi Organic Maps juuli 2025 uuenduses"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Tutvuge Organic Maps juuli uuendusega, mis toob palju parandusi ja täiustusi, tänu meie panustajatele ❤️💪! Uuendus on juba saadaval [AppStore'is][appstore], [Obtainium'is][obtainium] ja [Accrescent'is][accrescent] ning on valmis [Google Play's][googleplay], [Huawei AppGallery's][appgallery] ja [FDroid'is][fdroid] mõne päeva jooksul.

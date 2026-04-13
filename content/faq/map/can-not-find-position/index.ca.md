@@ -5,7 +5,7 @@ description: "Guia de resolució de problemes per solucionar problemes amb la ub
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

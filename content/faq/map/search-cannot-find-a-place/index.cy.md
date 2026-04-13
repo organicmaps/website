@@ -6,7 +6,7 @@ description: Canllaw ar gyfer Gwella canlyniadau chwilio a datrys problemau gyda
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

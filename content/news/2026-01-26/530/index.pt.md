@@ -3,7 +3,7 @@ title: Rotas transfronteiriças e inter-regionais mais rápidas na atualização
 date: 2026-01-26
 slug: rotas-transfronteiricas-e-inter-regionais-mais-rapidas-na-atualizacao-de-26-de-janeiro-do-organic-maps
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Hora de atualizar o Organic Maps! Rotas transfronteiriças e inter-regionais mais rápidas, dados de mapas OSM atualizados e muitas correções de erros para Android na segunda atualização da aplicação em 2026.

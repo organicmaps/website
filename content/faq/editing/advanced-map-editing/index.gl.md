@@ -6,7 +6,7 @@ description: Titorial para editar OpenStreetMap con ferramentas máis avanzadas 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 40
 aliases:

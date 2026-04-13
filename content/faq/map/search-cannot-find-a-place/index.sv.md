@@ -6,7 +6,7 @@ description: Guide för att förbättra sökresultat och lösa problem med att h
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

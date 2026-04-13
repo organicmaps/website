@@ -3,7 +3,7 @@ title: "Organic Maps now with iCloud backup and sync"
 date: 2024-06-06T14:43:37+00:00
 slug: "organic-maps-now-with-icloud-backup-and-sync"
 taxonomies:
-  news: ["Press"]
+  news: ["press"]
 ---
 
 Organic Maps now backs up and syncs all bookmarks and tracks using iCloud!

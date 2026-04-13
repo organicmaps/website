@@ -5,11 +5,12 @@ description: Istruzioni passo passo per importare segnalibri e tracce condivise 
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /it/faq/bookmarks/how-to-import/
+  - /it/faq/bookmarks/come-importare-segnalibri-e-tracce-in-formato-kml-kmz-kmb-o-gpx/
 ---
 
 Puoi importare segnalibri inviati da Mappe organiche o app di terze parti se esportano segnalibri nei formati KML, KMZ, KMB, GPX, GeoJSON (JSON).

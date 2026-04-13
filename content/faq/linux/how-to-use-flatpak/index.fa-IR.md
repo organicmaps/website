@@ -4,7 +4,7 @@ slug: چگونه-از-نسخه-flatpak-برنامه-استفاده-کنم
 description: سوالات متداول برای برنامه Organic Maps
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

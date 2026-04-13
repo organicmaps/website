@@ -3,7 +3,7 @@ title: Colores de tema oscuro con mayor contraste, capacidad de estacionamiento,
 date: 2026-01-16
 slug: colores-de-tema-oscuro-con-mayor-contraste-capacidad-de-estacionamiento-alquiler-y-carga-y-mas-en-la-version-de-enero-de-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Comencemos 2026 con una actualización de Organic Maps, hecha posible por todos nuestros colaboradores! Instálala desde <https://omaps.app/get> o desde [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid]

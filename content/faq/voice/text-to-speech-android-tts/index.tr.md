@@ -3,7 +3,7 @@ title: Android'de Metinden Konuşmaya
 slug: androidde-metinden-konuşmaya
 description: TTS'nin Android'de nasıl çalışacağına ilişkin kılavuz
 taxonomies:
-  faq: ["Sesli Yönlendirme"]
+  faq: ["sesli-yönlendirme"]
 extra:
   order: 10
 aliases:

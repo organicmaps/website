@@ -3,7 +3,7 @@ title: "Bedingte Geschwindigkeitsbegrenzungen, detailliertere Isolinien für Chi
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Die Aktualisierung von Organic Maps im März hat aufgrund von Hotfixes und der Überprüfung durch Google Play mehr Zeit in Anspruch genommen. Das [Accrescent][accrescent]-Update ist aufgrund von Problemen mit dem Accrescent-App-Store noch nicht fertig. Holen Sie sich das Update unter <https://get.omaps.org> oder im [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], und [F-Droid][fdroid].

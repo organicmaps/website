@@ -5,7 +5,7 @@ description: Tutorial per editar OpenStreetMap amb d'otisses mai avançats coma 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Edicion de la mapa
+  - edicion-de-la-mapa
 extra:
   order: 40
 aliases:

@@ -3,7 +3,7 @@ title: Hogere contrast donkere thema kleuren, parkeer-, verhuur- en oplaadcapaci
 date: 2026-01-16
 slug: hogere-contrast-donkere-thema-kleuren-parkeer-verhuur-en-oplaadcapaciteit-en-meer-in-de-release-van-januari-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Laten we 2026 beginnen met een Organic Maps update, mogelijk gemaakt door al onze bijdragers! Installeer het vanaf <https://omaps.app/get> of vanaf de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid]

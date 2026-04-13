@@ -5,7 +5,7 @@ description: Gids voor probleemoplossing voor gesproken instructies in de naviga
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

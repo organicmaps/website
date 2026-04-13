@@ -3,7 +3,7 @@ title: "Rilis Organic Maps Baru 2025.11.25: Artikel Wikipedia dalam bahasa Turki
 date: 2025-11-28
 slug: "artikel-wikipedia-dalam-bahasa-turki-jepang-dan-cina-pengaturan-untuk-melihat-wilayah-yang-diunduh-dan-lainnya"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].

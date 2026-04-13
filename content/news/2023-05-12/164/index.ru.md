@@ -3,7 +3,7 @@ title: "Майское обновление Organic Maps и Google Summer of Cod
 date: 2023-05-12T14:10:24+00:00
 slug: "it-was-a-busy-time-for-our-team-and-our-beloved-contributors"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Мы подготовили для вас новое приложение и обновление картографических данных. Кроме того, в этом году Organic Maps получили 4 слота в программе Google Summer of Code 2023 для следующих функций:

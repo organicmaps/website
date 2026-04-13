@@ -6,7 +6,7 @@ description: „OpenStreetMap“ redagavimo naudojant pažangesnius įrankius, p
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 40
 aliases:

@@ -3,7 +3,7 @@ title: Itinéraires transfrontaliers et interrégionaux plus rapides dans la mis
 date: 2026-01-26
 slug: itineraires-transfrontaliers-et-interregionaux-plus-rapides-dans-la-mise-a-jour-organic-maps-du-26-janvier
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Il est temps de mettre à jour Organic Maps ! Des itinéraires transfrontaliers et interrégionaux plus rapides, des données de carte OSM fraîches et de nombreux correctifs de bogues pour Android dans la deuxième mise à jour de l'application en 2026.

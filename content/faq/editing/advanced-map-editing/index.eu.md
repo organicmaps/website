@@ -6,7 +6,7 @@ description: OpenStreetMap editatzeko tutoriala ID, Go Map eta Vespucci bezalako
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 40
 aliases:

@@ -3,7 +3,7 @@ title: "Vánoční edice Organic Maps ve vydání z 16. prosince"
 date: 2025-12-16
 slug: "vanocni-edice-organic-maps-vydani-16-prosince"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Veselé Vánoce a šťastný nový rok od týmu Organic Maps. Hledáte vánoční atmosféru? Vyhledejte `Vánoční trh` nebo `Vánoční stromek` a zobrazte si je na mapě. Pokud se ve vaší oblasti nic nezobrazí, přidejte chybějící prvky na OpenStreetMap.org a vylepšete mapu pro všechny!

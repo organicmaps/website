@@ -3,7 +3,7 @@ title: "Una mapa del monde mai detalhada amb las regions telecargadas mesas en e
 date: 2025-11-11
 slug: "mapa-monde-detalhada-regions-telecargadas-evidenciadas-supòrt-rotatge-condicional-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Nòtas de version

@@ -3,7 +3,7 @@ title: "An article about Organic Maps for Android Auto, and OM advantages compar
 date: 2024-03-28T20:58:47+00:00
 slug: "an-article-about-organic-maps-for-android-auto-and-om-advantages-compared-to-other-maps"
 taxonimies:
-  news: ["Press"]
+  news: ["press"]
 ---
 
 An article about Organic Maps for Android Auto, and OM advantages compared to other maps:

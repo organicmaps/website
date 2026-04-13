@@ -5,7 +5,7 @@ description: Requisitos mínimos para executar Organic Maps en dispositivos Andr
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

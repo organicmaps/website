@@ -4,7 +4,7 @@ slug: تبدیل-متن-به-گفتار-در-اندروید
 description: راهنمای نحوه کارکرد TTS در اندروید
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "Edición de Nadal de Organic Maps na versión do 16 de decembro"
 date: 2025-12-16
 slug: "edicion-nadal-organic-maps-version-16-decembro"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Bo Nadal e Feliz Aninovo de parte do equipo de Organic Maps. Buscas o espírito do Nadal? Busca `Christmas market` ou `Christmas tree` para velos no mapa. Se non aparece nada na túa zona, engade os elementos que faltan en OpenStreetMap.org e mellora o mapa para todos!

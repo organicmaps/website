@@ -3,7 +3,7 @@ title: Herrialde eta eskualde arteko ibilbide azkarragoak Organic Maps-en urtarr
 date: 2026-01-26
 slug: herrialde-eta-eskualde-arteko-ibilbide-azkarragoak-organic-maps-en-urtarrilaren-26ko-eguneratzean
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps eguneratzeko ordua! Herrialde eta eskualde arteko ibilbide azkarragoak, OSM mapa-datu berriak eta Android-erako errore-konponketa asko 2026ko aplikazioaren bigarren eguneratzean.

@@ -4,7 +4,7 @@ slug: teks-ke-ucapan-di-android
 description: Panduan cara membuat TTS berfungsi di Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

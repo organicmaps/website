@@ -5,7 +5,7 @@ description: Linux users can install and use Organic Maps via Flatpak
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

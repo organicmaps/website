@@ -3,7 +3,7 @@ title: Rute lintas negara dan lintas wilayah lebih cepat dalam pembaruan Organic
 date: 2026-01-26
 slug: rute-lintas-negara-dan-lintas-wilayah-lebih-cepat-dalam-pembaruan-organic-maps-26-januari
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Saatnya memperbarui Organic Maps! Rute lintas negara dan lintas wilayah lebih cepat, data peta OSM segar, dan banyak perbaikan bug untuk Android dalam pembaruan aplikasi kedua di 2026.

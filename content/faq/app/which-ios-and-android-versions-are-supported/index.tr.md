@@ -4,7 +4,7 @@ slug: hangi-ios-ve-android-sürümleri-destekleniyor
 description: Organik Haritalar'ı Android ve iOS cihazlarda çalıştırmak için minimum gereksinimler
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Uygulama"]
+  faq: ["uygulama"]
 extra:
   order: 10
 aliases:

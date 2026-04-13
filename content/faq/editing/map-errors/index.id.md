@@ -6,7 +6,7 @@ description: Tips memperbaiki kesalahan pada peta, melakukan perubahan dan pemba
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

@@ -5,7 +5,7 @@ description: Pa gamau i'w cymryd os bydd y rhaglen yn chwalu. Sut i riportio byg
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

@@ -5,7 +5,7 @@ description: Guia pas a pas per exportar de marcapàginas e de traças dempuèi 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Marcapàginas e traças
+  - marcapàginas-e-traças
 extra:
   order: 10
 aliases:

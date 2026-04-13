@@ -5,7 +5,7 @@ description: Tutorial zum Bearbeiten von OpenStreetMap aus der Organic Maps-App 
   mehr
 updated: '2025-01-05'
 taxonomies:
-  faq: ["Kartenbearbeitung"]
+  faq: ["kartenbearbeitung"]
 extra:
   order: 35
 aliases:

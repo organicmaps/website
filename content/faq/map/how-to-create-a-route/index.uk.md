@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Мапа"]
+  faq: ["мапа"]
 
 extra:
   order: 40

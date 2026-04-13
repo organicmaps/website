@@ -3,7 +3,7 @@ title: "Eine detailliertere Weltkarte mit hervorgehobenen heruntergeladenen Kart
 date: 2025-11-11
 slug: "detaillierte-weltkarte-hervorgehobene-heruntergeladene-regionen-bedingte-routing-unterstuetzung-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Versionshinweise

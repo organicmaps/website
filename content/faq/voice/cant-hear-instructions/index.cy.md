@@ -5,7 +5,7 @@ description: Canllaw datrys problemau ar gyfer cyfarwyddiadau llais wrth lywio
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

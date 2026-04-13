@@ -3,7 +3,7 @@ title: "Rilis 23 Oktober: Organic Maps sebagai aplikasi navigasi default di UE p
 date: 2025-10-23T17:20:21+00:00
 slug: "rilis-23-oktober-organic-maps-aplikasi-navigasi-default-ue-ios-perisai-jalan-android-perbaikan-peningkatan"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dalam rilis 23 Oktober kami fokus pada perbaikan dan peningkatan. Periksa daftar terperinci di bawah ini.

@@ -5,7 +5,7 @@ description: Õpetus OpenStreetMapi muutmiseks rakenduses Organic Maps rohkem
 updated: '2025-01-05'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 35
 aliases:

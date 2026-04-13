@@ -3,7 +3,7 @@ title: "Versió del 23 d'octubre: Organic Maps com a aplicació de navegació pr
 date: 2025-10-23T17:20:21+00:00
 slug: "versió-23-octubre-organic-maps-aplicació-navegació-predeterminada-ue-ios-escuts-carreteres-android-millores-correccions"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 En la versió del 23 d'octubre ens hem centrat en correccions i millores. Consulteu la llista detallada a continuació.

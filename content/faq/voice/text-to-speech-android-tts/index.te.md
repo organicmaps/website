@@ -4,7 +4,7 @@ slug: androidల-టకసట-ట-సపచ
 description: ఆండ్రాయిడ్‌లో TTS పని చేయడం ఎలాగో గైడ్
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

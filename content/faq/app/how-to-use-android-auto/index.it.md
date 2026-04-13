@@ -3,7 +3,7 @@ title: Come si usa Android Auto?
 description: "Domande frequenti sull'applicazione Organic Maps"
 slug: come-si-usa-android-auto
 taxonomies:
-  faq: ["Applicazione"]
+  faq: ["applicazione"]
 extra:
   order: 20
 aliases:

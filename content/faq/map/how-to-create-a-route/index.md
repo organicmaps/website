@@ -4,7 +4,7 @@ description: Guide for building a route and navigating using the map
 updated: "2024-07-22"
 
 taxonomies:
-  faq: ["Map"]
+  faq: ["map"]
 
 extra:
   order: 40

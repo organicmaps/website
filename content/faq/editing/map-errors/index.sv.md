@@ -6,7 +6,7 @@ description: Tips för att korrigera fel i kartor, göra ändringar och uppdater
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

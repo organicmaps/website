@@ -3,7 +3,7 @@ title: "Deze versie bevat geüpdatete kaartengegevens voor Turkije en Syrië, in
 date: 2023-02-14T23:23:55+00:00
 slug: "deze-versie-bevat-geupdatete-kaartengegevens-voor-turkije-en-syrie-inclusief-de-humanitarian-openstreetmap-teamhttpswwwhotosmorg-aanpassingen-na-de-recente-aardbeving"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Deze versie bevat geüpdatete kaartengegevens voor Turkije en Syrië, inclusief de [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) aanpassingen na de recente aardbeving. Nauwkeurige kaarten zijn cruciaal in ramp-respons, omdat ze helpen bij betere planning en navigatie voor helpers in het veld. We zijn iedereen die ooit heeft bijgedraagd aan OpenStreetMap dankbaar. Als je nu wil beginnen met bijdragen, volg dan [deze link](https://www.openstreetmap.org/user/Heather%20Leson/diary/400951).

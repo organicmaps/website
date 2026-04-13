@@ -3,7 +3,7 @@ title: 2026. februári Organic Maps frissítés
 date: 2026-02-18
 slug: 2026-februari-organic-maps-frissites
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Köszönet a közreműködőinknek, **a péntek remek alkalom az Organic Maps frissítésére!** Szerezd be a frissítést innen: [https://get.omaps.org](https://get.omaps.org) vagy az [App Store-ból][appstore], [Google Play-ről][googleplay], [Huawei AppGallery-ből][appgallery], [Obtainium-ból][obtainium], [Accrescent-ből][accrescent], és az [F-Droid-ról][fdroid].

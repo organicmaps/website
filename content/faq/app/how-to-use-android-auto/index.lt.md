@@ -5,7 +5,7 @@ description: Minimalūs reikalavimai, norint paleisti natūralius žemėlapius n
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 20
 aliases:

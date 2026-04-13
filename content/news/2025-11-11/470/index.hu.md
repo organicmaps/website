@@ -3,7 +3,7 @@ title: "Részletesebb világtérkép a letöltött régiók kiemelésével, felt
 date: 2025-11-11
 slug: "reszletesebb-vilagterkep-kiemelt-letoltott-regiok-felteteles-utvonaltervezes-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Kiadási megjegyzések

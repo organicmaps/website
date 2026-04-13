@@ -3,7 +3,7 @@ title: "Llwybrau heicio a beicio gyda siartiau drychiad, chwiliad cyfeiriadau UD
 date: 2026-04-07
 slug: "llwybrau-heicio-beicio-siartiau-drychiad-chwilio-cyfeiriadau-us-antimeridian-lapio-map-ebrill-2026-diweddariad-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mae datganiad mis Ebrill hwn, yn ogystal â llawer o gywiriadau bygiau a gwelliannau, wedi'i adeiladu o amgylch tri gwirionedd syml: mae cerddwyr eisiau gwybod faint y byddant yn ei ddringo, mae pawb eisiau i chwilio am gyfeiriad weithio'n ddi-drafferth, ac ni ddylai neb deimlo fel pe bai'n syrthio oddi ar ymyl y map. Diolch i'n cyfranwyr, eich adolygiadau da, [rhoddion](@/donate/index.cy.md), a'ch [cefnogaeth](@/contribute/index.cy.md), rydym wedi mynd i'r afael â'r tri pheth hyn — a llawer iawn mwy.

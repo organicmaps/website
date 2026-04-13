@@ -6,7 +6,7 @@ description: Τι πρέπει να κάνετε εάν το Organic Maps δεν
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

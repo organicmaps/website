@@ -3,7 +3,7 @@ title: "Edició de Nadal d'Organic Maps en el llançament del 16 de desembre"
 date: 2025-12-16
 slug: "edicio-de-nadal-organic-maps-llancament-16-desembre"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Bon Nadal i Feliç Any Nou de part de l'equip d'Organic Maps. Busqueu esperit nadalenc? Cerqueu `Mercat de Nadal` o `Arbre de Nadal` per veure'ls al mapa. Si no apareix res a la vostra zona, afegiu les característiques que falten a OpenStreetMap.org i milloreu el mapa per a tothom!

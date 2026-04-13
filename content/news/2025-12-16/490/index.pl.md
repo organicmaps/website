@@ -3,7 +3,7 @@ title: "Świąteczna edycja Organic Maps w wydaniu z 16 grudnia"
 date: 2025-12-16
 slug: "swiateczna-edycja-organic-maps-wydanie-16-grudnia"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Wesołych Świąt i Szczęśliwego Nowego Roku od zespołu Organic Maps. Szukasz świątecznego nastroju? Wyszukaj `Jarmark Bożonarodzeniowy` lub `Choinka`, aby zobaczyć je na mapie. Jeśli nic nie pojawia się w Twojej okolicy, dodaj brakujące elementy na OpenStreetMap.org i ulepsz mapę dla wszystkich!

@@ -5,11 +5,12 @@ description: Cyfarwyddiadau cam wrth gam ar gyfer mewngludo nodau tudalen a thra
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /cy/faq/bookmarks/how-to-import/
+  - /cy/faq/bookmarks/sut-i-fewnforio-nodau-tudalen-a-thraciau-mewn-fformat-kml-kmz-kmb-neu-gpx/
 ---
 
 Gallwch fewnforio nodau tudalen a anfonwyd o Fapiau Organig neu apiau trydydd parti os ydynt yn allforio nodau tudalen mewn fformatau KML, KMZ, KMB, GPX, GeoJSON (JSON).

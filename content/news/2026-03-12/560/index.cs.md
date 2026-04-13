@@ -3,7 +3,7 @@ title: "Podmíněná rychlostní omezení, podrobnější izolinie pro Čínu, r
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Březnová aktualizace Organic Maps si vyžádala více času kvůli opravám a revizi Google Play. Aktualizace [Accrescent][accrescent] stále není hotová kvůli problémům s obchodem s aplikacemi Accrescent. Aktualizaci získáte na <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].

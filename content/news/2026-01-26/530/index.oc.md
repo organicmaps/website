@@ -3,7 +3,7 @@ title: Camins mai rapids entre païses e regions dins la mesa a jorn d'Organic M
 date: 2026-01-26
 slug: camins-mai-rapids-entre-paises-e-regions-dins-la-mesa-a-jorn-dorganic-maps-del-26-de-genier
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Es temps de metre a jorn Organic Maps! Camins mai rapids entre païses e regions, donadas de mapa OSM novèlas e fòrça correccion de bugs per Android dins la segonda mesa a jorn de l'aplicacion en 2026.

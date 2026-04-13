@@ -3,7 +3,7 @@ title: "Rutas de sendeirismo e ciclismo con perfís de elevación, busca máis i
 date: 2026-04-07
 slug: "rutas-sendeirismo-ciclismo-graficos-elevacion-busca-enderezos-eua-antimeridiano-envoltura-mapa-abril-2026-organic-maps-actualizacion"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Esta versión de abril, ademais de moitas correccións de erros e melloras, baséase en tres verdades moi sinxelas: os sendeiristas queren saber canto van subir, todo o mundo quere que a busca de enderezos funcione sen máis, e ninguén debería ter a sensación de caer polo bordo do mapa. Grazas aos nosos colaboradores, ás túas boas valoracións, ás [doazóns](@/donate/index.gl.md) e ao [apoio](@/contribute/index.gl.md), abordamos esas tres cousas… e moitas máis.

@@ -4,7 +4,7 @@ slug: text-a-la-parla-sus-android
 description: Guia sus cossí far foncionar lo TTS sus Android
 taxonomies:
   faq:
-  - Instruccions de votz
+  - instruccions-de-votz
 extra:
   order: 10
 aliases:

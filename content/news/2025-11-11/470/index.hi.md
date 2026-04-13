@@ -3,7 +3,7 @@ title: "11 नवंबर, 2025 के ऑर्गेनिक मैप्स
 date: 2025-11-11
 slug: "detailed-world-map-highlighted-downloaded-regions-conditional-routing-support-carplay-android-auto-chromebook-hindi"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## रिलीज़ नोट्स

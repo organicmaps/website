@@ -5,7 +5,7 @@ description: नकाशा वापरून मार्ग तयार क
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

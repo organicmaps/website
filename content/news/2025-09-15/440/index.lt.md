@@ -2,7 +2,7 @@
 title: "Rugsėjo 15 leidimas: naujas maršrutų planavimas ir OSM aprašymai"
 date: 2025-09-15T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Antrasis rugsėjo leidimas pateikia atnaujintą maršruto planavimo ekraną ir galimybę iOS įrenginiuose peržiūrėti OpenStreetMap `description` žymos turinį. Norėdami rasti vietas su šia žyma, įveskite paieškoje `?description` (panašiai kaip `?wiki`).

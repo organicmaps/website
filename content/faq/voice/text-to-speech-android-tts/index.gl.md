@@ -4,7 +4,7 @@ slug: texto-a-voz-en-android
 description: Guía sobre como facer que TTS funcione en Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

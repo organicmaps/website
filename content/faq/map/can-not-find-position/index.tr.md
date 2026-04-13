@@ -4,7 +4,7 @@ slug: uygulama-konumumu-haritada-bulamıyor
 description: "iOS ve Android cihazlar için haritada konum ve mevcut GPS konumu ile ilgili sorunları çözmek için sorun giderme kılavuzu"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Harita"]
+  faq: ["harita"]
 extra:
   order: 10
 aliases:

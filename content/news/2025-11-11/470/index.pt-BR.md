@@ -3,7 +3,7 @@ title: "Um Mapa-múndi mais detalhado com regiões baixadas destacadas, suporte 
 date: 2025-11-11
 slug: "mapa-mundi-detalhado-regioes-baixadas-destacadas-suporte-roteamento-condicional-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Notas de Lançamento

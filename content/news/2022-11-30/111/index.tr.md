@@ -3,7 +3,7 @@ title: "Organic Maps’in ikinci Kasım güncellemesi karşınızda"
 date: 2022-11-30T09:58:35+00:00
 slug: "meet-the-second-november-update-of-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps’in ikinci Kasım güncellemesi karşınızda! Seyahatlerinizin tadını çıkarın ve deneyiminizi bizimle paylaşın. Gizlilik odaklı, en hızlı, kullanımı en kolay olan en iyi çevrimdışı haritaları birlikte yapalım!

@@ -5,7 +5,7 @@ description: Conselhs per corregir d'errors sus las mapas, far de modificacions 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Edicion de la mapa
+  - edicion-de-la-mapa
 extra:
   order: 30
 aliases:

@@ -3,7 +3,7 @@ title: "23. Oktober Release: Organic Maps als Standard-Navigations-App in der EU
 date: 2025-10-23T17:20:21+00:00
 slug: "23-oktober-release-organic-maps-standard-navigations-app-eu-ios-straßenschilder-android-verbesserungen-fehlerbehebungen"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Im Release vom 23. Oktober haben wir uns auf Fehlerbehebungen und Verbesserungen konzentriert. Die detaillierte Liste findest du unten.

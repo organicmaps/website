@@ -6,7 +6,7 @@ description: دليل لتحسين نتائج البحث وحل المشكلات
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

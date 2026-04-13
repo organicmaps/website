@@ -4,7 +4,7 @@ slug: szövegfelolvasó-androidon
 description: Útmutató a TTS működéséhez Androidon
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

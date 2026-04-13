@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Sesli Yönlendirme"]
+  faq: ["sesli-yönlendirme"]
 
 extra:
   order: 20

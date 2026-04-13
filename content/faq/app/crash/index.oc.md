@@ -5,7 +5,7 @@ description: Quines accions cal prendre si l'aplicacion s'es arrestada. Com repo
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

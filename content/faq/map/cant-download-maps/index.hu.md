@@ -6,7 +6,7 @@ description: Mi a teendő, ha az Organic Maps nem tudja letölteni vagy frissít
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

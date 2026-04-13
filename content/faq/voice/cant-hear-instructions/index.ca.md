@@ -5,7 +5,7 @@ description: Guia de resolució de problemes per a instruccions de veu a la nave
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

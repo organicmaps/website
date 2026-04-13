@@ -5,7 +5,7 @@ description: Guia per bastir una rota e navegar en utilizant la mapa
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Mapa
+  - mapa
 extra:
   order: 40
 aliases:

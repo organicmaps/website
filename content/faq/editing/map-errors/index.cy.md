@@ -6,7 +6,7 @@ description: Awgrymiadau ar gyfer cywiro gwallau mewn mapiau, gwneud newidiadau 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

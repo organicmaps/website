@@ -3,7 +3,7 @@ title: Colori del tema scuro ad alto contrasto, capacità di parcheggio, noleggi
 date: 2026-01-16
 slug: colori-del-tema-scuro-ad-alto-contrasto-capacita-di-parcheggio-noleggio-e-ricarica-e-altro-nella-versione-di-gennaio-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Iniziamo il 2026 con un aggiornamento di Organic Maps, reso possibile da tutti i nostri contributori! Installalo da <https://omaps.app/get> o dall'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]

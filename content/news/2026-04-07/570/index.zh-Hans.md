@@ -3,7 +3,7 @@ title: "带海拔图的徒步与骑行路线、更智能的美国地址搜索、
 date: 2026-04-07
 slug: "hiking-cycling-routes-elevation-charts-us-address-search-antimeridian-map-wrapping-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 这次四月发布除了带来大量错误修复和改进外，也围绕着三个简单的事实展开：徒步者想知道自己要爬升多少，每个人都希望地址搜索开箱即用，而且谁都不想感觉自己像是要从地图边缘掉下去。感谢贡献者、您的好评、[捐款](@/donate/index.zh-Hans.md) 和 [支持](@/contribute/index.zh-Hans.md)，我们解决了这三个问题，还远不止如此。

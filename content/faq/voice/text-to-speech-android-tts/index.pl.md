@@ -3,7 +3,7 @@ title: Zamiana tekstu na mowę na Androidzie
 slug: zamiana-tekstu-na-mowę-na-androidzie
 description: Poradnik, jak sprawić, by TTS działał na Androidzie
 taxonomies:
-  faq: ["Komunikaty głosowe"]
+  faq: ["komunikaty-głosowe"]
 extra:
   order: 10
 aliases:

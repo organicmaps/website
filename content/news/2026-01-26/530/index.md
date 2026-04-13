@@ -3,7 +3,7 @@ title: Faster cross-country and cross-region routes in January 26 Organic Maps u
 date: 2026-01-26
 slug: faster-cross-country-and-cross-region-routes-in-january-26-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Time to update Organic Maps! Faster cross-country and cross-region routes, fresh OSM map data, and many bug fixes for Android in the second app update in 2026.

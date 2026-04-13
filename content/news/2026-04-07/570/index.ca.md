@@ -3,7 +3,7 @@ title: "Rutes de senderisme i ciclisme amb gràfics d'elevació, una cerca d'adr
 date: 2026-04-07
 slug: "rutes-senderisme-ciclisme-grafics-elevacio-cerca-adreces-eua-antimeridia-desplacament-mapa-abril-2026-actualitzacio-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Aquesta versió d'abril, a més de moltes correccions d'errors i millores, es basa en tres veritats senzilles: els excursionistes volen saber quant pujaran, tothom vol que la cerca d'adreces funcioni sense complicacions i ningú no hauria de sentir que cau per la vora del mapa. Gràcies als nostres col·laboradors, a les vostres bones ressenyes, [donacions](@/donate/index.ca.md) i [suport](@/contribute/index.ca.md), hem abordat totes tres coses, i molt més.

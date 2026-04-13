@@ -5,7 +5,7 @@ description: Vilka åtgärder du ska vidta om programmet kraschar. Hur man rappo
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

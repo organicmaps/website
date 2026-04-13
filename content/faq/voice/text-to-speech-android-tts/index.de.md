@@ -3,7 +3,7 @@ title: Text-to-Speech auf Android
 slug: text-to-speech-auf-android
 description: Anleitung zur Einrichtung von TTS-Sprachanweisungen auf Android
 taxonomies:
-  faq: ["Sprachanweisungen"]
+  faq: ["sprachanweisungen"]
 extra:
   order: 10
 aliases:

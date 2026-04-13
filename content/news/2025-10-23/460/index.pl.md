@@ -3,7 +3,7 @@ title: "Wydanie z 23 października: Organic Maps jako domyślna aplikacja nawiga
 date: 2025-10-23T17:20:21+00:00
 slug: "wydanie-23-października-organic-maps-domyślna-aplikacja-nawigacyjna-ue-ios-tarcze-drogowe-android-ulepszenia-poprawki"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 W wydaniu z 23 października skupiliśmy się na poprawkach i ulepszeniach. Sprawdź szczegółową listę poniżej.

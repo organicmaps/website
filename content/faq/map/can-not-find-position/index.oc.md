@@ -5,7 +5,7 @@ description: "Guida de resolucion de problèmas per resòlvre los problèmas de 
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Mapa
+  - mapa
 extra:
   order: 10
 aliases:

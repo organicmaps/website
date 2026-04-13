@@ -4,7 +4,7 @@ slug: come-posso-utilizzare-la-versione-flatpak-dellapp
 description: Domande frequenti per l'applicazione Mappe organiche
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

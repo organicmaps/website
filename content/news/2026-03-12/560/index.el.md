@@ -3,7 +3,7 @@ title: "Όρια ταχύτητας υπό όρους, πιο λεπτομερε
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Η ενημέρωση των Organic Maps του Μαρτίου χρειάστηκε περισσότερο χρόνο λόγω των διορθώσεων και της αναθεώρησης του Google Play. Η ενημέρωση [Accrescent][accrescent] δεν είναι ακόμα έτοιμη λόγω των προβλημάτων του καταστήματος εφαρμογών Accrescent. Αποκτήστε την ενημέρωση στο <https://get.omaps.org> ή στα [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].

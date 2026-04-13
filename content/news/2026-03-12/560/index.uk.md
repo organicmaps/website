@@ -3,7 +3,7 @@ title: "Умовні обмеження швидкості, детальніші
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Березневе оновлення Organic Maps зайняло більше часу через виправлення та перевірку Google Play. Оновлення [Accrescent][accrescent] ще не готове через проблеми з магазином додатків Accrescent. Отримайте оновлення на <https://get.omaps.org> або в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid].

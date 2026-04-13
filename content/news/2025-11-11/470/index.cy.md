@@ -3,7 +3,7 @@ title: "Map Byd mwy manwl gyda rhanbarthau map wedi'u lawrlwytho wedi'u hamlygu,
 date: 2025-11-11
 slug: "map-byd-manwl-rhanbarthau-wedi-lawrlwytho-wedi-hamlygu-cefnogaeth-llwybro-amodol-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Nodiadau Rhyddhau

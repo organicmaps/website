@@ -4,7 +4,7 @@ slug: tekst-naar-spraak-op-android
 description: Handleiding voor het laten werken van TTS op Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

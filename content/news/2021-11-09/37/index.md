@@ -3,7 +3,7 @@ title: "Meet November 4 Organic Maps update"
 date: 2021-11-09T22:05:28+00:00
 slug: "meet-november-4-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Meet November 4 Organic Maps update!

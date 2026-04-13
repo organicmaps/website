@@ -3,7 +3,7 @@ title: "„Organic Maps“ Kalėdinis leidimas gruodžio 16 d. versijoje"
 date: 2025-12-16
 slug: "organic-maps-kaledinis-leidimas-gruodzio-16-versija"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. Ieškote šventinės nuotaikos? Ieškokite `Christmas market` arba `Christmas tree`, kad pamatytumėte jas žemėlapyje. Jei jūsų vietovėje nieko nerodoma, pridėkite trūkstamus objektus OpenStreetMap.org ir pagerinkite žemėlapį visiems!

@@ -5,11 +5,12 @@ description: Instrucións paso a paso para importar marcadores e pistas comparti
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /gl/faq/bookmarks/how-to-import/
+  - /gl/faq/bookmarks/como-importar-marcadores-e-pistas-en-formato-kml-kmz-kmb-ou-gpx/
 ---
 
 Podes importar marcadores enviados desde Organic Maps ou aplicacións de terceiros se exportan marcadores en formatos KML, KMZ, KMB e GPX, GeoJSON (JSON).

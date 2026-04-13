@@ -3,7 +3,7 @@ title: "Munduko mapa xeheagoa deskargatutako mapen eskualde nabarmenduekin, bald
 date: 2025-11-11
 slug: "munduko-mapa-xehea-deskargatutako-eskualde-nabarmenduak-baldintzapeko-bideratze-euskarria-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Bertsioaren oharrak

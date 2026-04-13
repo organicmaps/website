@@ -2,7 +2,7 @@
 title: "Version du 15 septembre : nouvel écran d’itinéraire et descriptions OSM"
 date: 2025-09-15T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Cette deuxième version de septembre apporte un écran de planification d’itinéraire repensé et l’affichage du contenu de la balise OpenStreetMap `description` sur iOS. Pour trouver les lieux qui possèdent cette balise, saisissez `?description` dans la recherche (similaire à `?wiki`).

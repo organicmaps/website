@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Instrucciones de voz"]
+  faq: ["instrucciones-de-voz"]
 
 extra:
   order: 20

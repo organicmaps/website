@@ -6,7 +6,7 @@ description: Wat moet ik doen als Organische kaarten er niet in slagen kaarten v
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

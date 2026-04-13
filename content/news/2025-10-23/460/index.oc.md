@@ -3,7 +3,7 @@ title: "Publicacion del 23 d'octobre : Organic Maps coma aplicacion de navigacio
 date: 2025-10-23T17:20:21+00:00
 slug: "publicacion-23-octobre-organic-maps-aplicacion-navigacion-per-defaut-ue-ios-panèls-rota-android-melhoraments-correccions"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dins la version del 23 d'octobre, nos sèm concentrats sus las correccions e los melhoraments. Consultatz la lista detalhada çaijós.

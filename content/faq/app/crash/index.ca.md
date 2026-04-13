@@ -5,7 +5,7 @@ description: Quines accions cal dur a terme si l'aplicació falla. Com informar 
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

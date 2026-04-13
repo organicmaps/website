@@ -3,7 +3,7 @@ title: "Android Auto is finally available in Google Play"
 date: 2024-01-10T23:52:48+00:00
 slug: "android-auto-is-finally-available-in-google-play"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Android Auto is finally [available in Google Play](https://play.google.com/store/apps/details?id=app.organicmaps). Many thanks to the team and beta testers!

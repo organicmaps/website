@@ -5,7 +5,7 @@ description: "Hibaelhárítási útmutató a helymeghatározással és az aktuá
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

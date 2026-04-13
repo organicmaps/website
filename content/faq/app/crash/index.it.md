@@ -4,7 +4,7 @@ slug: cosa-posso-fare-se-lapp-si-è-fermatasi-è-bloccata
 description: Quali azioni intraprendere se l'applicazione si blocca. Come segnalare bug critici agli sviluppatori
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Applicazione"]
+  faq: ["applicazione"]
 extra:
   order: 30
 aliases:

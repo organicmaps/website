@@ -3,7 +3,7 @@ title: "Oktober-vrystelling: Spoedbeperkings in Android Auto, GeoJSON-invoer, op
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Hierdie Oktober Organic Maps-opdatering voeg spoedbeperkingsvertoning in Android Auto, GeoJSON-invoer, opname-baan statistieke, wys OSM-beskrywingetikette (tik `?description` in die soekveld om hulle te sien), en stoor 'n boekmerk op 'n baan op iOS. Daar is ook baie verbeterings aan die gebruikerskoppelvlak, OpenStreetMap-redigering, en verskeie foutoplossings oor alle platforms, insluitend die breekoplossing by aanvang op sommige Android-toestelle.

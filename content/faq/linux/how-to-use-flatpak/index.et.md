@@ -4,7 +4,7 @@ slug: kuidas-kasutada-rakenduse-flatpaki-versiooni
 description: Korduma kippuvad küsimused orgaaniliste kaartide rakenduse kohta
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

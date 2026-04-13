@@ -6,7 +6,7 @@ description: Guía paso a paso para exportar marcadores e pistas de Organic Maps
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

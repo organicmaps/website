@@ -5,7 +5,7 @@ description: Miinimumnõuded orgaaniliste kaartide käitamiseks Android- ja iOS-
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

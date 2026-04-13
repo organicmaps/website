@@ -4,7 +4,7 @@ slug: почему-треки-не-записываются-в-фоновом-р
 description: "Настройки оптимизации батареи по умолчанию на устройствах Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC и других могут остановить или убить приложение Organic Maps в фоновом режиме."
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Метки и Треки"]
+  faq: ["метки-и-треки"]
 extra:
   order: 30
 aliases:

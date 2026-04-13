@@ -5,7 +5,7 @@ description: As definições predefinidas de otimização da bateria na Samsung,
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Favoritos e trilhas"]
+  faq: ["favoritos-e-trilhas"]
 
 extra:
   order: 30

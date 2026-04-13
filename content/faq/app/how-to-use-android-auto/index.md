@@ -3,7 +3,7 @@ title: How to use Android Auto?
 description: Minimum requirements to run Organic Maps with Android Auto
 updated: "2024-06-20"
 taxonomies:
-  faq: ["App"]
+  faq: ["app"]
 extra:
   order: 20
 ---

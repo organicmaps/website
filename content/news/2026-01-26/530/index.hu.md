@@ -3,7 +3,7 @@ title: Gyorsabb országok közötti és régiók közötti útvonalak az Organic
 date: 2026-01-26
 slug: gyorsabb-orszagok-kozotti-es-regiok-kozotti-utvonalak-az-organic-maps-januar-26-i-frissiteseben
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ideje frissíteni az Organic Maps-ot! Gyorsabb országok közötti és régiók közötti útvonalak, friss OSM térképadatok és számos hibajavítás Androidra a 2026-os második alkalmazásfrissítésben.

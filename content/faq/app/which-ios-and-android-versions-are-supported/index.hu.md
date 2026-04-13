@@ -5,7 +5,7 @@ description: Minimális követelmények az Organikus térképek Android és iOS 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

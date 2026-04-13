@@ -3,7 +3,7 @@ title: "The May 2024 Organic Maps update with bookmarks and tracks sorting by na
 date: 2024-05-19T09:48:57+00:00
 slug: "the-may-2024-organic-maps-update-bookmarks-and-tracks-sorting-by-name-gpx-fixes"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 The May 2024 Organic Maps update ([get it here](https://omaps.app/get)) supports bookmarks and tracks sorting by name, paved paths are white, and unpaved ones are brown. And there are so many other changes and fixes, thanks to our contributors! Update and enjoy, and don't forget to update maps too. And [donate](https://organicmaps.app/donate/) to [support](https://organicmaps.app/support-us/) the open-source, community-driven, privacy-focused maps project!

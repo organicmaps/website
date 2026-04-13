@@ -3,7 +3,7 @@ title: "Detailsem maailmakaart koos allalaaditud kaardipiirkondade esiletõstmis
 date: 2025-11-11
 slug: "detailne-maailmakaart-esiletoodud-allalaaditud-piirkonnad-tingimuslik-marsruutimine-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Väljalaske märkmed

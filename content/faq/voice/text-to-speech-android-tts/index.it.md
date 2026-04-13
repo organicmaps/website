@@ -6,7 +6,7 @@ aliases:
   - /it/faq/voice/text-to-speech-android-tts/
   - /it/faq/sintesi-vocale-tts-su-android/
 taxonomies:
-  faq: ["Indicazioni vocali"]
+  faq: ["indicazioni-vocali"]
 extra:
   order: 10
 ---

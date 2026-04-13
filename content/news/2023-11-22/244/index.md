@@ -3,7 +3,7 @@ title: "Organic Maps November 2023 Release with outdoor map style preview"
 date: 2023-11-22T11:46:18+00:00
 slug: "organic-maps-november-2023-release-with-outdoor-map-style-preview"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 This release was delayed due to [OpenStreetMap vandalism](https://community.openstreetmap.org/t/vandalism-and-blocks-in-israel/105176), and due to a longer testing of many fixes and changes prepared by our contributors.

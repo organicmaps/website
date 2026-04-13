@@ -5,7 +5,7 @@ description: Guia de solucion de problèmas per las instruccions vocalas dins la
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Instruccions de votz
+  - instruccions-de-votz
 extra:
   order: 20
 aliases:

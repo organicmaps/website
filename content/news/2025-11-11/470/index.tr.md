@@ -3,7 +3,7 @@ title: "11 Kasım 2025 Organic Maps sürümünde vurgulanan indirilmiş harita b
 date: 2025-11-11
 slug: "ayrintili-dunya-haritasi-vurgulanan-indirilen-bolgeler-kosullu-yonlendirme-destegi-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Sürüm Notları

@@ -5,7 +5,7 @@ description: Gofynion sylfaenol i redeg Mapiau Organig ar ddyfeisiau Android ac 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

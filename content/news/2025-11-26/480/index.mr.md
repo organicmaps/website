@@ -3,7 +3,7 @@ title: "नवीन Organic Maps रिलीज 2025.11.25: तुर्की
 date: 2025-11-28
 slug: "तुर्की-जपानी-आणि-चीनी-भाषेत-विकिपीडिया-लेख-डाउनलोड-केलेले-प्रदेश-पाहण्यासाठी-सेटिंग"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 शुक्रवार! <https://omaps.app/get> वरून किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] आणि [F-Droid][fdroid] वरून नवीन Organic Maps अपडेट इंस्टॉल करण्याची वेळ आली आहे.

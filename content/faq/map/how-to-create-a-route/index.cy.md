@@ -5,7 +5,7 @@ description: Canllaw ar gyfer adeiladu llwybr a llywio gan ddefnyddio'r map
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

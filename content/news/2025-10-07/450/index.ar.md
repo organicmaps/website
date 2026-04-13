@@ -2,7 +2,7 @@
 title: "إصدار 7 أكتوبر: حدود السرعة في Android Auto، استيراد GeoJSON وأكثر"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 يمكن لمستخدمي Android Auto الآن مشاهدة تحذيرات حدود السرعة. تم إضافة استيراد ملفات GeoJSON التي يمكن تحويلها إلى علامات.

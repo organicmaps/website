@@ -3,7 +3,7 @@ title: "إصدار عيد الميلاد من Organic Maps في تحديث 16 د
 date: 2025-12-16
 slug: "organic-maps-christmas-edition-december-16-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 نتمنى لكم عيد ميلاد مجيد وسنة جديدة سعيدة من فريق Organic Maps. هل تبحث عن أجواء العطلة؟ ابحث عن `سوق الكريسماس` أو `شجرة الكريسماس` لرؤيتها على الخريطة. إذا لم يظهر أي شيء في منطقتك، يرجى إضافة المعالم المفقودة على OpenStreetMap.org وتحسين الخريطة للجميع!

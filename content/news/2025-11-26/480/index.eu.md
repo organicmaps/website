@@ -3,7 +3,7 @@ title: "Organic Maps-en bertsio berria 2025.11.25: Wikipedia artikuluak turkiera
 date: 2025-11-28
 slug: "wikipedia-artikuluak-turkieraz-japonieraz-eta-txineraz-deskargatutako-eskualdeak-ikusteko-ezarpena-eta-gehiago"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da <https://omaps.app/get>-etik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid]-etik.

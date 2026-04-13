@@ -3,7 +3,7 @@ title: "Organic Maps 新版本 2025.11.25：土耳其语、日语和中文维基
 date: 2025-11-28
 slug: "土耳其语-日语和中文维基百科文章-查看已下载区域的设置-以及更多"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 周五！是时候从 <https://omaps.app/get> 或从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装新的 Organic Maps 更新了。

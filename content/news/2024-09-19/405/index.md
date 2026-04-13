@@ -3,7 +3,7 @@ title: "The september release is slowly but surely rolling out"
 date: 2024-09-19T12:00:00+00:00
 slug: "the-september-release-is-slowly-but-surely-rolling-out"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 The september 2024.09.19-2 release is slowly but surely rolling out.

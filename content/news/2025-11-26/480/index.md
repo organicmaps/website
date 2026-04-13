@@ -3,7 +3,7 @@ title: "New Organic Maps Release 2025.11.25: Wikipedia articles in Turkish, Japa
 date: 2025-11-28
 slug: "wikipedia-articles-in-turkish-japanese-and-chinese-setting-to-see-downloaded-regions"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Friday! It's time to install the new Organic Maps update from <https://omaps.app/get> or from the [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid].

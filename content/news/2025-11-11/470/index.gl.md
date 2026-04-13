@@ -3,7 +3,7 @@ title: "Un mapa do mundo máis detallado con rexións de mapas descargadas resal
 date: 2025-11-11
 slug: "mapa-do-mundo-detallado-rexions-descargadas-resaltadas-soporte-rutas-condicionais-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Notas da versión

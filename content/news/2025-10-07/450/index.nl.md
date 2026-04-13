@@ -3,7 +3,7 @@ title: "Release oktober: Snelheidslimiet in Android Auto, GeoJSON-import, statis
 date: 2025-10-07T07:20:28+00:00
 slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Deze oktober-update van Organic Maps voegt snelheidslimietweergave in Android Auto toe, GeoJSON-import, statistieken van opname tracks, toont OSM beschrijvingstags (typ `?description` in het zoekvak om ze te zien), en slaat een markering op een track op iOS op. Er zijn ook veel verbeteringen aan de gebruikersinterface, OpenStreetMap-bewerking en verschillende bugfixes op alle platforms, inclusief de crashfix bij opstarten op sommige Android-apparaten.

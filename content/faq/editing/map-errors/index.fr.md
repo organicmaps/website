@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-12"
 
 taxonomies:
-  faq: ["Édition de la carte"]
+  faq: ["édition-de-la-carte"]
 
 extra:
   order: 30

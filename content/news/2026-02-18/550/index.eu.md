@@ -3,7 +3,7 @@ title: Organic Maps-en 2026ko otsaileko eguneratzea
 date: 2026-02-18
 slug: organic-maps-eguneratzea-2026-otsaila
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Gure laguntzaileei esker, **ostirala Organic Maps eguneratzeko une ona da!** Eskuratu eguneratzea [https://get.omaps.org](https://get.omaps.org) edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [F-Droid][fdroid] bidez.

@@ -3,7 +3,7 @@ title: "Túra- és kerékpárútvonalak magassági profillal, okosabb amerikai c
 date: 2026-04-07
 slug: "tura-kerekparos-utvonalak-magassagi-grafikonok-amerikai-cimkereses-antimeridian-terkepkezeles-aprilis-2026-organic-maps-frissites"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ez az áprilisi kiadás a sok hibajavítás és fejlesztés mellett három egyszerű igazság köré épül: a túrázók tudni akarják, mennyi szintemelkedés vár rájuk, mindenki azt szeretné, hogy a címkeresés egyszerűen működjön, és senki ne érezze úgy, hogy leesik a térkép széléről. Közreműködőinknek, pozitív értékeléseiteknek, [adományaitoknak](@/donate/index.hu.md) és [támogatásotoknak](@/contribute/index.hu.md) köszönhetően mindhárommal — és még sok minden mással is — foglalkoztunk.

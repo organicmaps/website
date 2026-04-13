@@ -3,7 +3,7 @@ title: به‌روزرسانی فوریه ۲۰۲۶ ارگانیک مپس
 date: 2026-02-18
 slug: february-2026-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 با تشکر از مشارکت‌کنندگان ما، **جمعه زمان خوبی برای به‌روزرسانی ارگانیک مپس است!** به‌روزرسانی را از [https://get.omaps.org](https://get.omaps.org) یا در [اپ استور][appstore]، [گوگل پلی][googleplay]، [هوآوی اپ‌گالری][appgallery]، [اوبتینیوم][obtainium]، [اکرسنت][accrescent]، و [اف-دروید][fdroid] دریافت کنید.

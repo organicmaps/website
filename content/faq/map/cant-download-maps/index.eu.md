@@ -6,7 +6,7 @@ description: Zer egin Organic Maps-ek mapak Internetetik deskargatu edo egunerat
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

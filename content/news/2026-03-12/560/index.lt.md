@@ -3,7 +3,7 @@ title: "Kovo mėnesio \"Organic Maps\" atnaujinime - sąlyginiai greičio apribo
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Kovo mėnesio "Organic Maps" atnaujinimas užtruko ilgiau dėl karštųjų pataisymų ir "Google Play" peržiūros. [Accrescent][accrescent] atnaujinimas vis dar neparengtas dėl "Accrescent" programėlių parduotuvės problemų. Gaukite atnaujinimą adresu <https://get.omaps.org> arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].

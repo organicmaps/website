@@ -5,7 +5,7 @@ description: دليل لبناء الطريق والملاحة باستخدام 
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

@@ -4,7 +4,7 @@ slug: какие-версии-ios-и-android-поддерживаются
 description: Минимальные требования для запуска Organic Maps на устройствах Android и iOS
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Приложение"]
+  faq: ["приложение"]
 extra:
   order: 10
 aliases:

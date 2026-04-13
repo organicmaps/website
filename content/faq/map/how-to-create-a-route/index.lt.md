@@ -5,7 +5,7 @@ description: Maršruto sudarymo ir navigacijos naudojant žemėlapį vadovas
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

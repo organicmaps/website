@@ -3,7 +3,7 @@ title: איך לייבא סימניות ומסלולים בפורמט KML, KMZ, 
 description: "הוראות שלב אחר שלב לייבוא סימניות ומסלולים ששותפו איתך כקובצי KML, KMZ, KMB, GPX או GeoJSON (JSON) לתוך Organic Maps"
 updated: "2026-01-13"
 taxonomies:
-  faq: ["סימניות ומסלולים"]
+  faq: ["סימניות-ומסלולים"]
 extra:
   order: 20
 ---

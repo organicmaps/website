@@ -3,7 +3,7 @@ title: "此版本已含HOTOSM团队在土耳其和叙利亚地震后所做的更
 date: 2023-02-14T23:23:55+00:00
 slug: "this-release-includes-the-updated-map-data-for-turkey-and-syria-including-the-humanitarian-openstreetmap-team-changes-after-the-recent-earthquake"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 此版本包括更新的土耳其和叙利亚地图数据，包括[人道主义 OpenStreetMap 团队](https://www.hotosm.org/)在地震后做出的贡献。准确的地图对于灾难后的应急响应至关重要，因为它们可以更好地为当地的救援人员提供路线指引。我们感谢所有为 OpenStreetMap 做出过贡献的人。若您也想参与贡献，可点击[此处](https://www.openstreetmap.org/user/Heather%20Leson/diary/400951)。

@@ -3,7 +3,7 @@ title: "Naujas Organic Maps leidimas 2025.11.25: Vikipedijos straipsniai turkų,
 date: 2025-11-28
 slug: "vikipedijos-straipsniai-turkų-japonų-ir-kinų-kalbomis-nustatymas-atsisiųstų-regionų-peržiūrai-ir-dar-daugiau"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Penktadienis! Laikas įdiegti naują Organic Maps atnaujinimą iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].

@@ -3,7 +3,7 @@ title: Schnellere länder- und regionsübergreifende Routen im Organic Maps-Upda
 date: 2026-01-26
 slug: schnellere-laender-und-regionenuebergreifende-routen-im-organic-maps-update-vom-26-januar
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Zeit für ein Organic Maps-Update! Schnellere länder- und regionsübergreifende Routen, frische OSM-Kartendaten und viele Fehlerbehebungen für Android im zweiten App-Update 2026.

@@ -3,7 +3,7 @@ title: "23. oktoobri väljalase: Organic Maps kui vaikimisi navigatsioonirakendu
 date: 2025-10-23T17:20:21+00:00
 slug: "23-oktoobri-väljalase-organic-maps-vaikimisi-navigatsioonirakendus-el-ios-teesildid-android-parandused-täiustused"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 23. oktoobri väljalaskes keskendusime paranduste ja täiustuste tegemisele. Vaadake üksikasjalikku loendit allpool.

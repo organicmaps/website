@@ -6,7 +6,7 @@ description: Paieškos rezultatų tobulinimo ir objektų paieškos žemėlapyje 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

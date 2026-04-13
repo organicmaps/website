@@ -3,7 +3,7 @@ title: Llwybrau cyflymach rhwng gwledydd a rhanbarthau yn diweddariad 26 Ionawr 
 date: 2026-01-26
 slug: llwybrau-cyflymach-rhwng-gwledydd-a-rhanbarthau-yn-diweddariad-26-ionawr-organic-maps
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mae'n bryd diweddaru Organic Maps! Llwybrau cyflymach rhwng gwledydd a rhanbarthau, data map OSM ffres, a llawer o drwsiadau bygiau ar gyfer Android yn ail ddiweddariad yr ap yn 2026.

@@ -5,11 +5,12 @@ description: Instruccions pas a pas per importar de marcapàginas e de traças p
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Marcapàginas e traças
+  - marcapàginas-e-traças
 extra:
   order: 20
 aliases:
   - /oc/faq/bookmarks/how-to-import/
+  - /oc/faq/bookmarks/cossí-importar-de-marcapàginas-e-de-traças-dins-los-formats-kml-kmz-kmb-o-gpx/
 ---
 
 Podètz importar de marcapaginas mandats dempuèi Organic Maps o d'aplicacions de tèrças partidas s'exportan de marcapaginas dins los formats KML, KMZ, KMB, GPX, GeoJSON (JSON).

@@ -5,7 +5,7 @@ description: Gids vir die bou van 'n roete en navigasie met behulp van die kaart
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

@@ -3,7 +3,7 @@ title: "A more detailed World Map with highlighted downloaded map regions, condi
 date: 2025-11-11
 slug: "detailed-world-map-highlighted-downloaded-regions-conditional-routing-support-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Release Notes

@@ -4,7 +4,7 @@ slug: was-kann-ich-tun-wenn-die-app-sich-aufhängtabstürzt
 description: Was ist zu tun, wenn die Anwendung abstürzt? Wie man kritische Fehler an Entwickler meldet.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["App"]
+  faq: ["app"]
 extra:
   order: 30
 aliases:

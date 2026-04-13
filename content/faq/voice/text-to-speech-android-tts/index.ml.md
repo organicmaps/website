@@ -4,7 +4,7 @@ slug: android-ല-ടകസററ-ട-സപചച
 description: ആൻഡ്രോയിഡിൽ TTS എങ്ങനെ പ്രവർത്തിക്കാം എന്നതിനെക്കുറിച്ചുള്ള ഗൈഡ്
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "Rhyddhad Organic Maps Newydd 2025.11.25: Erthyglau Wicipedia yn Twrceg, 
 date: 2025-11-28
 slug: "erthyglau-wicipedia-yn-twrceg-japaneeg-a-tsieinëeg-gosodiad-i-weld-rhanbarthau-wediu-lawrlwytho-a-mwy"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dydd Gwener! Mae'n bryd gosod diweddariad Organic Maps newydd o <https://omaps.app/get> neu o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].

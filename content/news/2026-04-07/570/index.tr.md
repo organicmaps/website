@@ -3,7 +3,7 @@ title: "Organic Maps'in Nisan güncellemesinde yükseklik grafikli yürüyüş v
 date: 2026-04-07
 slug: "hiking-cycling-routes-elevation-charts-us-address-search-antimeridian-map-wrapping-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Bu Nisan sürümü, birçok hata düzeltmesi ve iyileştirmenin yanı sıra üç basit gerçeğe dayanıyor: yürüyüşçüler ne kadar tırmanacaklarını bilmek istiyor, herkes adres aramasının sorunsuz çalışmasını bekliyor ve hiç kimse haritanın kenarından düşüyormuş gibi hissetmemeli. Katkıda bulunanlarımız, olumlu değerlendirmeleriniz, [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md) sayesinde bu üçünün de ve çok daha fazlasının da üstesinden geldik.

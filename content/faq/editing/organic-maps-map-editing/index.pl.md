@@ -4,7 +4,7 @@ slug: jak-mogę-edytować-mapę-w-organic-maps
 description: Samouczek edycji OpenStreetMap z poziomu aplikacji Organic Maps więcej
 updated: '2025-01-05'
 taxonomies:
-  faq: ["Edycja mapy"]
+  faq: ["edycja-mapy"]
 extra:
   order: 35
 aliases:

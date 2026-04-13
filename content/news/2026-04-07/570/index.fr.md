@@ -3,7 +3,7 @@ title: "Itinéraires de randonnée et de vélo avec profils d'altitude, recherch
 date: 2026-04-07
 slug: "itineraires-randonnee-cyclisme-profils-altitude-recherche-adresses-us-antimeridien-avril-2026-mise-a-jour-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Cette version d'avril, en plus de nombreuses corrections de bogues et améliorations, repose sur trois vérités simples : les randonneurs veulent savoir combien de dénivelé les attend, tout le monde veut que la recherche d'adresse fonctionne tout simplement, et personne ne devrait avoir l'impression de tomber du bord de la carte. Grâce à nos contributeurs, à vos bons avis, aux [dons](@/donate/index.fr.md) et au [soutien](@/contribute/index.fr.md), nous nous sommes attaqués à ces trois sujets — et à bien d'autres encore.

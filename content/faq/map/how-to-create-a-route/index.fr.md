@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-15"
 
 taxonomies:
-  faq: ["Carte"]
+  faq: ["carte"]
 
 extra:
   order: 40

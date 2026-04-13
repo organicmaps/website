@@ -4,7 +4,7 @@ slug: testu-hizketa-android-en
 description: TTS Android-en funtzionatzeko gida
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

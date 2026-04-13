@@ -6,7 +6,7 @@ description: Panduan langkah demi langkah untuk mengekspor bookmark dan trek dar
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

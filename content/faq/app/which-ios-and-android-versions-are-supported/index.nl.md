@@ -5,7 +5,7 @@ description: Minimale vereisten om organische kaarten op Android- en iOS-apparat
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 10
 aliases:

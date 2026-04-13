@@ -3,7 +3,7 @@ title: Percorsi transfrontalieri e interregionali più veloci nell'aggiornamento
 date: 2026-01-26
 slug: percorsi-transfrontalieri-e-interregionali-piu-veloci-nell-aggiornamento-di-organic-maps-del-26-gennaio
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 È ora di aggiornare Organic Maps! Percorsi transfrontalieri e interregionali più veloci, dati della mappa OSM aggiornati e molte correzioni di bug per Android nel secondo aggiornamento dell'app nel 2026.

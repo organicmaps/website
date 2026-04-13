@@ -3,7 +3,7 @@ title: "إصدار Organic Maps الجديد 2025.11.25: مقالات ويكيب
 date: 2025-11-28
 slug: "مقالات-ويكيبيديا-باللغات-التركية-واليابانية-والصينية-إعداد-لرؤية-المناطق-المحملة-والمزيد"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 الجمعة! حان الوقت لتثبيت تحديث Organic Maps الجديد من <https://omaps.app/get> أو من [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid].

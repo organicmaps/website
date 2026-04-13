@@ -3,7 +3,7 @@ title: "Organic Maps Weihnachtsedition im Release vom 16. Dezember"
 date: 2025-12-16
 slug: "organic-maps-weihnachtsedition-release-16-dezember"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Frohe Weihnachten und ein gutes neues Jahr vom Organic Maps Team. Auf der Suche nach Weihnachtsstimmung? Suche nach `Weihnachtsmarkt` oder `Weihnachtsbaum`, um sie auf der Karte zu sehen. Wenn in deiner Gegend nichts angezeigt wird, füge bitte die fehlenden Funktionen auf OpenStreetMap.org hinzu und verbessere die Karte für alle!

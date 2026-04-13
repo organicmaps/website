@@ -3,7 +3,7 @@ title: "Більш детальна Мапа світу з виділеними 
 date: 2025-11-11
 slug: "detalna-karta-svitu-vydeleni-zavantazheni-regiony-pidtrymka-umovnoi-marshrutyzatsii-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Примітки до випуску

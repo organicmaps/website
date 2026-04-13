@@ -4,7 +4,7 @@ slug: μετατροπή-κειμένου-σε-ομιλία-στο-android
 description: Οδηγός για το πώς να κάνετε το TTS να λειτουργεί στο Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

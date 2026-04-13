@@ -5,7 +5,7 @@ description: Tutoriel pour éditer OpenStreetMap avec des outils plus avancés c
   ID, Go Map et Vespucci
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Édition de la carte"]
+  faq: ["édition-de-la-carte"]
 extra:
   order: 40
 aliases:

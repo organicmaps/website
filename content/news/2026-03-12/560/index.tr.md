@@ -3,7 +3,7 @@ title: "Mart Organic Maps güncellemesinde koşullu hız sınırları, Çin içi
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mart Organic Maps güncellemesi, düzeltmeler ve Google Play incelemesi nedeniyle daha fazla zaman aldı. [Accrescent][accrescent] güncellemesi, Accrescent uygulama mağazası sorunları nedeniyle hala hazır değil. Güncellemeyi <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] adreslerinden edinin.

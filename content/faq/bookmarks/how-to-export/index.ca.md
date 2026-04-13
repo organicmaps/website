@@ -6,7 +6,7 @@ description: Guia pas a pas per exportar adreces d'interès i pistes des de mape
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

@@ -5,7 +5,7 @@ description: ""
 updated: "2025-12-31"
 
 taxonomies:
-  faq: ["Sprachanweisungen"]
+  faq: ["sprachanweisungen"]
 
 extra:
   order: 20

@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-20"
 
 taxonomies:
-  faq: ["Zakładki i trasy"]
+  faq: ["zakładki-i-trasy"]
 
 extra:
   order: 20

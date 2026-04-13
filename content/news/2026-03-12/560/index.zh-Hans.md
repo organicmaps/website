@@ -3,7 +3,7 @@ title: "三月更新的Organic Maps中包括有条件的速度限制、更详细
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 三月的 Organic Maps 更新由于热修复和 Google Play 审核而花费了更多时间。由于 Accrescent 应用商店的问题，[Accrescent][accrescent] 更新仍未准备就绪。请登录 <https://get.omaps.org>或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取更新。

@@ -3,7 +3,7 @@ title: Dunkles Design mit höherem Kontrast, Parkplatz-, Verleih- und Ladekapazi
 date: 2026-01-16
 slug: dunkles-design-mit-hoherem-kontrast-parkplatz-verleih-und-ladekapazitaten-und-mehr-im-januar-2026-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Starten wir 2026 mit einem Organic Maps-Update, das durch alle unsere Mitwirkenden ermöglicht wurde! Installieren Sie es von <https://omaps.app/get> oder vom [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid]

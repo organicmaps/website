@@ -4,7 +4,7 @@ slug: tekst-kõneks-muutmine-androidis
 description: Juhend selle kohta, kuidas TTS-i Androidis tööle panna
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

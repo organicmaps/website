@@ -3,7 +3,7 @@ title: "Nòva version d'Organic Maps 2025.11.25: Articles Wikipèdia en turc, ja
 date: 2025-11-28
 slug: "articles-wikipèdia-en-turc-japonés-e-chinés-paramètre-per-veire-las-regions-telecargadas-e-mai-encara"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Diòus! Es ora d'installar la nòva mesa a jorn d'Organic Maps dempuèi <https://omaps.app/get> o dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].

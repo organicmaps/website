@@ -6,7 +6,7 @@ description: खोज परिणामों को बेहतर बना
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

@@ -3,7 +3,7 @@ title: Ταχύτερες διασυνοριακές και διαπεριφερ
 date: 2026-01-26
 slug: tachyteres-diasynoriakes-kai-diaperifereiakes-diadromes-stin-enimerosi-tou-organic-maps-tis-26is-ianouariou
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Ώρα να ενημερώσετε το Organic Maps! Ταχύτερες διασυνοριακές και διαπεριφερειακές διαδρομές, φρέσκα δεδομένα χάρτη OSM και πολλές διορθώσεις σφαλμάτων για Android στη δεύτερη ενημέρωση εφαρμογής του 2026.

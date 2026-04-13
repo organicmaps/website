@@ -5,7 +5,7 @@ description: ""
 updated: "2024-07-22"
 
 taxonomies:
-  faq: ["Голосовые подсказки"]
+  faq: ["голосовые-подсказки"]
 
 extra:
   order: 20

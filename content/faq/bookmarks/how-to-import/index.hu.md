@@ -5,11 +5,12 @@ description: Lépésről lépésre az Önnel KML, KMZ, KMB vagy GPX, GeoJSON (JS
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /hu/faq/bookmarks/how-to-import/
+  - /hu/faq/bookmarks/hogyan-importálhatunk-könyvjelzőket-és-műsorszámokat-kml-kmz-kmb-vagy-gpx-formátumban/
 ---
 
 Importálhatja az Organikus térképekből vagy harmadik féltől származó alkalmazásokból küldött könyvjelzőket, ha azok KML, KMZ, KMB, GPX, GeoJSON (JSON) formátumban exportálják a könyvjelzőket.

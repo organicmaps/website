@@ -5,11 +5,12 @@ description: Zurekin partekatutako laster-markak eta ibilbideak KML, KMZ, KMB ed
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /eu/faq/bookmarks/how-to-import/
+  - /eu/faq/bookmarks/nola-inportatu-laster-markak-eta-ibilbideak-kml-kmz-kmb-edo-gpx-formatuan/
 ---
 
 Organic Maps edo hirugarrenen aplikazioetatik bidalitako laster-markak inporta ditzakezu KML, KMZ, KMB eta GPX, GeoJSON (JSON) formatuetan laster-markak esportatzen badituzte.

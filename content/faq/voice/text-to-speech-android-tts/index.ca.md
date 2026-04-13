@@ -4,7 +4,7 @@ slug: text-a-veu-a-android
 description: Guia sobre com fer que TTS funcioni a Android
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

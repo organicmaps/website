@@ -3,7 +3,7 @@ title: "Přinášíme aktualizaci Organic Maps pro leden 2023"
 date: 2023-01-27T21:26:12+00:00
 slug: "meet-the-january-2023-update-of-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Přinášíme aktualizaci Organic Maps pro leden 2023! Doufáme, že jste měli skvělé prázdniny a užili si cestování, navštěvování zajímavých míst a potkávání zajímavých lidí.

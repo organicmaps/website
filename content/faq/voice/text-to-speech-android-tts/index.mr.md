@@ -4,7 +4,7 @@ slug: android-वर-टकसट-ट-सपच
 description: Android वर TTS कसे कार्य करावे याबद्दल मार्गदर्शन
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

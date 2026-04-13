@@ -3,7 +3,7 @@ title: "Bardziej szczegółowa Mapa Świata z podświetlonymi pobranymi regionam
 date: 2025-11-11
 slug: "szczegolowa-mapa-swiata-podswietlone-pobrane-regiony-obsluga-warunkowego-routingu-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Informacje o wydaniu

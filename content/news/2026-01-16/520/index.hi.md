@@ -3,7 +3,7 @@ title: उच्च-कंट्रास्ट डार्क थीम रं
 date: 2026-01-16
 slug: uchch-contrast-dark-theme-rang-parking-kiraya-aur-charging-kshamta-aur-january-2026-release-mein-aur-bhi-bahut-kuch
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 आइए 2026 को Organic Maps अपडेट के साथ शुरू करें, जो हमारे सभी योगदानकर्ताओं द्वारा संभव बनाया गया है! इसे <https://omaps.app/get> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से इंस्टॉल करें

@@ -6,7 +6,7 @@ description: نصائح لتصحيح الأخطاء في الخرائط وإجر
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

@@ -3,7 +3,7 @@ title: "May 2025.05.20 Release"
 date: 2025-05-20T12:00:00+00:00
 slug: "back-on-track-may-2025-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 We're getting back on track! May release is available in all app stores: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] and [FDroid][fdroid]

@@ -3,7 +3,7 @@ title: "Organic Maps julutgåva i releasen den 16 december"
 date: 2025-12-16
 slug: "organic-maps-julutgava-16-december-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 God jul och gott nytt år från Organic Maps-teamet. Letar du efter julstämning? Sök efter `Julmarknad` eller `Julgran` för att se dem på kartan. Om inget visas i ditt område, lägg till de saknade funktionerna på OpenStreetMap.org och förbättra kartan för alla!

@@ -5,7 +5,7 @@ description: "Gids voor probleemoplossing voor het oplossen van problemen met lo
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

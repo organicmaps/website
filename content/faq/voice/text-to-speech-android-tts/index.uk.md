@@ -3,7 +3,7 @@ title: Синтез мовлення на Android
 slug: синтез-мовлення-на-android
 description: Посібник, як змусити TTS працювати на Android
 taxonomies:
-  faq: ["Голосові інструкції"]
+  faq: ["голосові-інструкції"]
 extra:
   order: 10
 aliases:

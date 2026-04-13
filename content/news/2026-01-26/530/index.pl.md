@@ -3,7 +3,7 @@ title: Szybsze trasy międzykrajowe i międzyregionalne w aktualizacji Organic M
 date: 2026-01-26
 slug: szybsze-trasy-miedzykrajowe-i-miedzyregionalne-w-aktualizacji-organic-maps-z-26-stycznia
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Czas zaktualizować Organic Maps! Szybsze trasy międzykrajowe i międzyregionalne, świeże dane map OSM i wiele poprawek błędów dla Androida w drugiej aktualizacji aplikacji w 2026 roku.

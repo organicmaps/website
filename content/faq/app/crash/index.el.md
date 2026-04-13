@@ -5,7 +5,7 @@ description: Τι ενέργειες πρέπει να κάνετε εάν η ε
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

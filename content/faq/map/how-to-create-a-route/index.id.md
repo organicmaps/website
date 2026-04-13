@@ -5,7 +5,7 @@ description: Panduan untuk membuat rute dan bernavigasi menggunakan peta
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

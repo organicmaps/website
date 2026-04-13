@@ -3,7 +3,7 @@ title: "GPX import is now supported in Organic Maps"
 date: 2023-06-07T21:54:20+00:00
 slug: "gpx-import-is-now-supported-in-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 GPX import is now supported in Organic Maps! You don't need to convert your GPX tracks into KML anymore.

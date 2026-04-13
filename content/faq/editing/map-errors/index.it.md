@@ -6,7 +6,7 @@ description: Suggerimenti per correggere errori nelle mappe, apportare modifiche
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

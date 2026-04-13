@@ -3,7 +3,7 @@ title: "Nova versión de Organic Maps 2025.11.25: Artigos da Wikipedia en turco,
 date: 2025-11-28
 slug: "artigos-da-wikipedia-en-turco-xaponés-e-chinés-axuste-para-ver-as-rexións-descargadas-e-máis"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Venres! É hora de instalar a nova actualización de Organic Maps desde <https://omaps.app/get> ou desde a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].

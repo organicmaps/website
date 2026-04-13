@@ -3,7 +3,7 @@ title: "Una mappa del mondo più dettagliata con regioni evidenziate scaricate, 
 date: 2025-11-11
 slug: "mappa-mondo-dettagliata-regioni-scaricate-evidenziate-supporto-routing-condizionale-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Note di rilascio

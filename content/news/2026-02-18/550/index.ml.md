@@ -3,7 +3,7 @@ title: ഓർഗാനിക് മാപ്പുകൾ 2026 ഫെബ്രു
 date: 2026-02-18
 slug: organic-maps-february-2026-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ഞങ്ങളുടെ സന്നദ്ധപ്രവർത്തകർക്ക് നന്ദി, **ഓർഗാനിക് മാപ്‌സ് അപ്‌ഡേറ്റ് ചെയ്യാൻ വെള്ളിയാഴ്ച നല്ല സമയമാണ്!** അപ്‌ഡേറ്റ് [https://get.omaps.org](https://get.omaps.org)-ൽ അല്ലെങ്കിൽ [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], കൂടാതെ [F-Droid][fdroid]-ൽ നേടുക.

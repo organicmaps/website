@@ -4,7 +4,7 @@ slug: převod-textu-na-řeč-v-systému-android
 description: Průvodce, jak zajistit, aby TTS fungovalo na Androidu
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 10
 aliases:

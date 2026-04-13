@@ -3,7 +3,7 @@ title: Kolory ciemnego motywu o wyższym kontraście, pojemność parkingów, wy
 date: 2026-01-16
 slug: kolory-ciemnego-motywu-o-wyzszym-kontrascie-pojemnosc-parkingow-wypozyczalni-i-ladowarek-oraz-wiecej-w-wydaniu-ze-stycznia-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Rozpocznijmy rok 2026 aktualizacją Organic Maps, możliwą dzięki wszystkim naszym współtwórcom! Zainstaluj ją z <https://omaps.app/get> lub z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]

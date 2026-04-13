@@ -6,7 +6,7 @@ slug: как-использовать-android-auto
 aliases:
   - /ru/faq/app/how-to-use-android-auto/
 taxonomies:
-  faq: ["Приложение"]
+  faq: ["приложение"]
 extra:
   order: 20
 ---

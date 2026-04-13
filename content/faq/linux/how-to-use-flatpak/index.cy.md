@@ -4,7 +4,7 @@ slug: sut-mae-defnyddior-fersiwn-flatpak-or-app
 description: Cwestiynau cyffredin ar gyfer cais Mapiau Organig
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "Organic Maps'te GPX içe aktarma artık destekleniyor"
 date: 2023-06-07T21:54:20+00:00
 slug: "gpx-import-is-now-supported-in-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps'te GPX içe aktarma artık destekleniyor! Artık GPX kayıtlarınızı KML'ye dönüştürmenize gerek yok.

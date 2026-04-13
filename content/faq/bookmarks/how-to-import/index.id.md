@@ -7,7 +7,7 @@ description: Petunjuk langkah demi langkah untuk mengimpor bookmark dan trek yan
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:

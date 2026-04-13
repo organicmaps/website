@@ -6,7 +6,7 @@ description: Handledning för redigering av OpenStreetMap med mer avancerade ver
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 40
 aliases:

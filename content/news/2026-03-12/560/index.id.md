@@ -3,7 +3,7 @@ title: "Batas kecepatan bersyarat, garis batas yang lebih rinci untuk Cina, wila
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Pembaruan Organic Maps bulan Maret membutuhkan lebih banyak waktu karena adanya perbaikan dan tinjauan Google Play. Pembaruan [Accrescent][accrescent] masih belum siap karena masalah toko aplikasi Accrescent. Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].

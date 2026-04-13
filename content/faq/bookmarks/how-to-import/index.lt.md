@@ -5,11 +5,12 @@ description: Žingsnis po žingsnio instrukcijos, kaip importuoti žymes ir take
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /lt/faq/bookmarks/how-to-import/
+  - /lt/faq/bookmarks/kaip-importuoti-žymes-ir-takelius-kml-kmz-kmb-arba-gpx-formatu/
 ---
 
 Galite importuoti žymes, atsiųstas iš natūralių žemėlapių arba trečiųjų šalių programų, jei jos eksportuoja žymes KML, KMZ, KMB, GPX, GeoJSON (JSON) formatais.

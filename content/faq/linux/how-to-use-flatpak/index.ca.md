@@ -4,7 +4,7 @@ slug: com-puc-utilitzar-la-versió-flatpak-de-laplicació
 description: Preguntes més freqüents per a l'aplicació de mapes orgànics
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

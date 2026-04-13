@@ -3,7 +3,7 @@ title: Rutes més ràpides entre països i regions a l'actualització del 26 de 
 date: 2026-01-26
 slug: rutes-mes-rapides-entre-paisos-i-regions-a-lactualitzacio-del-26-de-gener-dorganic-maps
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 És hora d'actualitzar Organic Maps! Rutes més ràpides entre països i regions, dades de mapa OSM actualitzades i moltes correccions d'errors per a Android a la segona actualització de l'aplicació del 2026.

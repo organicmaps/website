@@ -3,7 +3,7 @@ title: "Baldintzapeko abiadura mugak, isolinea zehatzagoak Txinarako, Tanzania e
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Organic Maps-en martxoko eguneratzeak denbora gehiago behar izan du konponketa azkarrak eta Google Play-ren berrikuspenaren ondorioz. [Accrescent][accrescent] eguneratzea oraindik ez dago prest Accrescent aplikazio dendaren arazoengatik. Eskuratu eguneratzea <https://get.omaps.org> helbidean edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid] bidez.

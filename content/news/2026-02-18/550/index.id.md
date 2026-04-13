@@ -3,7 +3,7 @@ title: Pembaruan Organic Maps Februari 2026
 date: 2026-02-18
 slug: pembaruan-organic-maps-februari-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Berkat kontributor kami, **Jumat adalah waktu yang tepat untuk memperbarui Organic Maps!** Dapatkan pembaruan di [https://get.omaps.org](https://get.omaps.org) atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].

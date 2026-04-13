@@ -5,7 +5,7 @@ description: Tutoriel pour modifier OpenStreetMap à partir de l'application Org
   Maps.
 updated: '2025-01-05'
 taxonomies:
-  faq: ["Édition de la carte"]
+  faq: ["édition-de-la-carte"]
 extra:
   order: 35
 aliases:

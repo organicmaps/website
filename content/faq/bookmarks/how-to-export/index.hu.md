@@ -6,7 +6,7 @@ description: Lépésről lépésre szóló útmutató könyvjelzők és számok 
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

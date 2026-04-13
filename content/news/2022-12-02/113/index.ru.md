@@ -3,7 +3,7 @@ title: The Hiking Club рекомендует Organic Maps своим клиен
 date: 2022-12-02T08:42:36+00:00
 slug: "it-s-inspiring-to-know-that-what-we-do-helps-people"
 taxonomies:
-  news: ["Press"]
+  news: ["press"]
 ---
 
 Приятно осознавать, что то, что мы делаем, помогает людям. Organic Maps прекрасно подходит для разных активностей, в том числе для походов по горам. Если вам интересны Альпы, тогда можно обратиться к экспертам по этому вопросу: [The Hiking Club](https://www.thehiking.club/). Ребята давно уже занимаются подготовкой и планированием длительных путешествий по Альпам. Теперь [The Hiking Club рекомендует](https://www.thehiking.club/blog/the-hiking-club-partners-with-organic-maps) всем своим клиентам Organic Maps. И это здорово, потому что самое важное в горах — не заблудиться, и сэкономить заряд батареи вашего устройства. А здесь мы (по нашему скромному мнению 😉) лучшие!

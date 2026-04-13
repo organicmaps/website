@@ -5,7 +5,7 @@ description: Mida teha, kui rakendus jookseb kokku. Kuidas arendajatele kriitili
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

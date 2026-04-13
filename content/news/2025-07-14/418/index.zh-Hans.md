@@ -2,7 +2,7 @@
 title: "更好的轨迹编辑和Organic Maps 2025年7月更新中的许多改进和修复"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 感谢我们的贡献者❤️💪，来认识包含许多修复和改进的Organic Maps 7月更新！更新已在[AppStore][appstore]、[Obtainium][obtainium]和[Accrescent][accrescent]中提供，并将在几天内在[Google Play][googleplay]、[Huawei AppGallery][appgallery]和[FDroid][fdroid]中准备就绪。

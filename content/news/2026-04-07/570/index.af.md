@@ -3,7 +3,7 @@ title: "Stap- en fietsryroetes met hoogteprofiele, slimmer Amerikaanse adressoek
 date: 2026-04-07
 slug: "stap-fietsry-roetes-hoogteprofiele-amerikaanse-adressoektog-antimeridiaan-kaartomvou-april-2026-organic-maps-opdatering"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Hierdie April-vrystelling is, benewens baie foutoplossings en verbeterings, gebou rondom drie eenvoudige waarhede: stappers wil weet hoeveel hulle gaan klim, almal wil hê hul adressoektog moet eenvoudig net werk, en niemand moet voel asof hulle van die rand van die kaart af val nie. Danksy ons bydraers, jou goeie resensies, [skenkings](@/donate/index.af.md) en [ondersteuning](@/contribute/index.af.md), het ons al drie aangepak — en nog baie meer.

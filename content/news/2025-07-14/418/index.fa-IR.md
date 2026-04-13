@@ -2,7 +2,7 @@
 title: "ویرایش مسیر بهتر و بسیاری بهبودها و رفع مشکلات در به‌روزرسانی جولای ۲۰۲۵ نقشه‌های ارگانیک"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 با به‌روزرسانی جولای نقشه‌های ارگانیک آشنا شوید که حاوی بسیاری رفع مشکلات و بهبودها است، به لطف مشارکت‌کنندگان ما ❤️💪! این به‌روزرسانی در حال حاضر در [AppStore][appstore]، [Obtainium][obtainium] و [Accrescent][accrescent] در دسترس است و طی چند روز در [Google Play][googleplay]، [Huawei AppGallery][appgallery] و [FDroid][fdroid] آماده خواهد بود.

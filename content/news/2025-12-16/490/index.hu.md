@@ -3,7 +3,7 @@ title: "Organic Maps Karácsonyi Kiadás a december 16-i verzióban"
 date: 2025-12-16
 slug: "organic-maps-karacsonyi-kiadas-december-16-verzio"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Kellemes Karácsonyt és Boldog Új Évet kíván az Organic Maps csapata. Ünnepi hangulatot keres? Keressen rá a `Karácsonyi piac` vagy `Karácsonyfa` kifejezésekre, hogy lássa őket a térképen. Ha semmi sem jelenik meg a környékén, kérjük, adja hozzá a hiányzó helyeket az OpenStreetMap.org oldalon, és javítsa a térképet mindenki számára!

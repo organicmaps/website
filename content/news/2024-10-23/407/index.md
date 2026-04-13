@@ -3,7 +3,7 @@ title: "October 2024.10.23 release"
 date: 2024-10-23T12:00:00+00:00
 slug: "october-2024-10-23-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 October 2024.10.23 release:

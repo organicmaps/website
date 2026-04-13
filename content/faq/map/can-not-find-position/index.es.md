@@ -4,7 +4,7 @@ slug: la-aplicación-no-puede-establecer-mi-posición
 description: "Guía de solución de problemas para resolver problemas con la ubicación y la posición GPS actual en el mapa para dispositivos iOS y Android"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Mapa"]
+  faq: ["mapa"]
 extra:
   order: 10
 aliases:

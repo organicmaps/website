@@ -3,7 +3,7 @@ title: Vinniger grensoorskrydende en streeksoorskrydende roetes in 26 Januarie O
 date: 2026-01-26
 slug: vinniger-grensoorskrydende-en-streeksoorskrydende-roetes-in-26-januarie-organic-maps-opdatering
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Tyd om Organic Maps op te dateer! Vinniger grensoorskrydende en streeksoorskrydende roetes, vars OSM kaartdata, en baie foutoplossings vir Android in die tweede app-opdatering in 2026.

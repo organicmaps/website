@@ -6,7 +6,7 @@ description: Gids vir die verbetering van soekresultate en die oplossing van pro
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

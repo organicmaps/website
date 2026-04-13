@@ -3,7 +3,7 @@ title: Mise à jour Organic Maps de février 2026
 date: 2026-02-18
 slug: mise-a-jour-organic-maps-fevrier-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Merci à nos contributeurs, **vendredi est un bon moment pour mettre à jour Organic Maps !** Obtenez la mise à jour sur [https://get.omaps.org](https://get.omaps.org) ou sur l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid].

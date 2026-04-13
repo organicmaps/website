@@ -5,11 +5,12 @@ slug: kml-kmz-kmb-geojson-json-कव-gpx-फरमटमधय-बकमरक-
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:
   - /mr/faq/bookmarks/how-to-import/
+  - /mr/faq/bookmarks/kml-kmz-kmb-कव-gpx-फरमटमधय-बकमरक-आण-टरक-कस-इपरट-करयच/
 ---
 
 तुम्ही सेंद्रिय नकाशे किंवा तृतीय पक्ष ॲप्सवरून पाठवलेले बुकमार्क आयात करू शकता जर ते KML, KMZ, KMB, GPX, GeoJSON (JSON) फॉरमॅटमध्ये बुकमार्क निर्यात करत असतील.

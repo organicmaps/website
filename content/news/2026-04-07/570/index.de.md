@@ -3,7 +3,7 @@ title: "Wander- und Fahrradrouten mit Höhendiagrammen, intelligentere US-Adress
 date: 2026-04-07
 slug: "wander-fahrradrouten-hoehendiagramme-us-adressensuche-antimeridian-kartenumbruch-april-2026-organic-maps-update"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Diese April-Version enthält nicht nur viele Fehlerkorrekturen und Verbesserungen, sondern beruht auch auf drei einfachen Wahrheiten: Wanderer möchten wissen, wie viele Höhenmeter vor ihnen liegen, jeder möchte, dass die Adresssuche einfach funktioniert, und niemand sollte das Gefühl haben, vom Rand der Karte zu fallen. Dank unserer Mitwirkenden, Ihrer guten Bewertungen, [Spenden](@/donate/index.de.md) und [Unterstützung](@/contribute/index.de.md) haben wir alle drei Punkte angepackt — und noch vieles mehr.

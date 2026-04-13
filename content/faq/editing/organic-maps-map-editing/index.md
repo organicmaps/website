@@ -4,7 +4,7 @@ description: Tutorial for editing OpenStreetMap from within the Organic Maps app
 updated: "2025-01-05"
 
 taxonomies:
-  faq: ["Map Editing"]
+  faq: ["map-editing"]
 
 extra:
   order: 35

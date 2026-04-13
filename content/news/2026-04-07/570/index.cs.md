@@ -3,7 +3,7 @@ title: "Pěší a cyklistické trasy s výškovými grafy, chytřejší vyhledá
 date: 2026-04-07
 slug: "pesi-a-cyklisticke-trasy-vyskove-grafy-vyhledavani-adres-usa-antimeridian-obtekani-mapy-duben-2026-organic-maps-aktualizace"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Tato dubnová verze je kromě mnoha oprav chyb a vylepšení postavena na třech jednoduchých pravdách: turisté chtějí vědět, kolik nastoupají, každý chce, aby vyhledávání adres prostě fungovalo, a nikdo by neměl mít pocit, že padá z okraje mapy. Díky našim přispěvatelům, vašim skvělým recenzím, [darům](@/donate/index.cs.md) a [podpoře](@/contribute/index.cs.md) jsme zvládli vyřešit všechny tři — a ještě mnohem víc.

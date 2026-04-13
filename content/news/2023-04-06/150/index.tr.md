@@ -3,7 +3,7 @@ title: "Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz"
 date: 2023-04-06T22:29:27+00:00
 slug: "mutlu-sağlıklı-ve-huzur-dolu-ramazanlar-dileriz"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz.

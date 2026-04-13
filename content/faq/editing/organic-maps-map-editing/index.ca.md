@@ -5,7 +5,7 @@ description: Tutorial per editar OpenStreetMap des de l'aplicació Organic Maps 
 updated: '2025-01-05'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 35
 aliases:

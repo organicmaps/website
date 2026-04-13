@@ -51,7 +51,7 @@
         </tr>
         {% for faq_category in all_categories | get(key="items") %}
             <tr class="faq_category">
-                <td colspan="100%">{{ faq_category.name }}</td>
+                <td colspan="100%">{{ faq_category.name | replace(from="-", to=" ") | capitalize }}</td>
             </tr>
             {%- for faq_page in faq_category.pages | sort(attribute="extra.order") -%}
             {% set eng_page_updated = faq_page | get(key="updated", defaut="") %}

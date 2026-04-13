@@ -3,7 +3,7 @@ title: "Pėsčiųjų ir dviračių maršrutai su aukščio profiliais, išmanesn
 date: 2026-04-07
 slug: "pesciuju-dviraciu-marsrutai-aukscio-diagramos-jav-adresu-paieska-antimeridianas-zemelapio-apsivyniojimas-2026-balandzio-organic-maps-atnaujinimas"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Šis balandžio mėnesio leidimas, be daugybės klaidų taisymų ir patobulinimų, paremtas trimis paprastomis tiesomis: žygeiviai nori žinoti, kiek teks kopti, visi nori, kad adresų paieška tiesiog veiktų, ir niekas neturėtų jaustis taip, lyg nukristų nuo žemėlapio krašto. Mūsų bendradarbių, jūsų gerų atsiliepimų, [aukų](@/donate/index.lt.md) ir [paramos](@/contribute/index.lt.md) dėka išsprendėme visus tris dalykus — ir dar daug daugiau.

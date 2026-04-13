@@ -4,7 +4,7 @@ slug: які-версії-ios-і-android-підтримуються
 description: Мінімальні вимоги для запуску Organic Maps на пристроях Android та iOS
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Додаток"]
+  faq: ["додаток"]
 extra:
   order: 10
 aliases:

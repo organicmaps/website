@@ -6,7 +6,7 @@ description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks orgaa
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

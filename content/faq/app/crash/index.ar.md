@@ -5,7 +5,7 @@ description: ما هي الإجراءات التي يجب اتخاذها في ح
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

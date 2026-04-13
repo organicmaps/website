@@ -10,7 +10,7 @@
   {% endif %}
   {% set rootNewsSection = get_section(path=rootNewsSection) %}
   <h1>{{ rootNewsSection.title }}</h1>
-  <h2>{{ term.name }}</h2>
+  <h2>{{ term.name | replace(from="-", to=" ") | capitalize }}</h2>
   {%- for page in term.pages -%}
   <h3>{{ page.date | date(format='%B %e, %Y') }} <a href="{{ page.permalink }}">{{ page.title }}</a></h3>
   {%- endfor -%}

@@ -3,7 +3,7 @@ title: Snellere grensoverschrijdende en interregionale routes in de Organic Maps
 date: 2026-01-26
 slug: snellere-grensoverschrijdende-en-interregionale-routes-in-de-organic-maps-update-van-26-januari
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Tijd om Organic Maps bij te werken! Snellere grensoverschrijdende en interregionale routes, verse OSM-kaartgegevens en veel bugfixes voor Android in de tweede app-update van 2026.

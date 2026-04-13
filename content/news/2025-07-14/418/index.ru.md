@@ -2,7 +2,7 @@
 title: "Упрощённое редактирование треков и множество улучшений и исправлений в июльском обновлении Organic Maps"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Встречайте июльское обновление Organic Maps с множеством исправлений и улучшений, благодаря нашим контрибуторам ❤️💪! Обновление уже доступно в [AppStore][appstore], [Obtainium][obtainium] и [Accrescent][accrescent], и будет в [Google Play][googleplay], [Huawei AppGallery][appgallery] и [FDroid][fdroid] через несколько дней.

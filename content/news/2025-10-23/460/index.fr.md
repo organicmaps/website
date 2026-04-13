@@ -3,7 +3,7 @@ title: "Version du 23 octobre : Organic Maps comme application de navigation par
 date: 2025-10-23T17:20:21+00:00
 slug: "version-23-octobre-organic-maps-application-navigation-par-défaut-ue-ios-panneaux-routiers-android-améliorations-corrections"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dans la version du 23 octobre, nous nous sommes concentrés sur les corrections et les améliorations. Consultez la liste détaillée ci-dessous.

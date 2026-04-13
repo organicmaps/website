@@ -5,7 +5,7 @@ description: Las configuracions d'optimizacion de la bateria per defaut sus Sams
 updated: '2024-10-05'
 taxonomies:
   faq:
-  - Marcapàginas e traças
+  - marcapàginas-e-traças
 extra:
   order: 30
 aliases:

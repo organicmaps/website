@@ -3,7 +3,7 @@ title: Organic Maps 2026年2月更新
 date: 2026-02-18
 slug: organic-maps-2026-2-gengxin
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 感谢我们的贡献者，**周五是更新 Organic Maps 的好时机！** 请在 [https://get.omaps.org](https://get.omaps.org) 获取更新，或者在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 上下载。

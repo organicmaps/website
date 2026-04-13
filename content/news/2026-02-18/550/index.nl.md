@@ -3,7 +3,7 @@ title: Organic Maps-update van februari 2026
 date: 2026-02-18
 slug: organic-maps-update-februari-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dankzij onze bijdragers **is vrijdag een goed moment om Organic Maps bij te werken!** Download de update op [https://get.omaps.org](https://get.omaps.org) of via de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].

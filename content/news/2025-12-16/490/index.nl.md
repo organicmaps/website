@@ -3,7 +3,7 @@ title: "Organic Maps Kersteditie in de uitgave van 16 december"
 date: 2025-12-16
 slug: "organic-maps-kersteditie-uitgave-16-december"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Vrolijk Kerstfeest en een Gelukkig Nieuwjaar van het Organic Maps team. Op zoek naar kerstsfeer? Zoek naar `Kerstmarkt` of `Kerstboom` om ze op de kaart te zien. Als er niets in uw omgeving verschijnt, voeg dan de ontbrekende functies toe op OpenStreetMap.org en verbeter de kaart voor iedereen!

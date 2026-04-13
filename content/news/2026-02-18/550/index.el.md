@@ -3,7 +3,7 @@ title: Ενημέρωση Organic Maps Φεβρουαρίου 2026
 date: 2026-02-18
 slug: enimerosi-organic-maps-fevrouariou-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Χάρη στους συνεισφέροντες μας, **η Παρασκευή είναι μια καλή στιγμή για να ενημερώσετε το Organic Maps!** Αποκτήστε την ενημέρωση στο [https://get.omaps.org](https://get.omaps.org) ή στο [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid].

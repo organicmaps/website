@@ -2,7 +2,7 @@
 title: "Lepší úprava stop a mnoho vylepšení a oprav v červencové aktualizaci Organic Maps 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Seznamte se s červencovou aktualizací Organic Maps s mnoha opravami a vylepšeními, díky našim přispěvatelům ❤️💪! Aktualizace je již dostupná v [AppStore][appstore], [Obtainium][obtainium] a [Accrescent][accrescent] a bude připravena v [Google Play][googleplay], [Huawei AppGallery][appgallery] a [FDroid][fdroid] za několik dní.

@@ -3,7 +3,7 @@ title: Organic Maps 2026 m. vasario atnaujinimas
 date: 2026-02-18
 slug: organic-maps-2026-m-vasario-atnaujinimas
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dėka mūsų bendradarbių, **penktadienis yra puikus laikas atnaujinti Organic Maps!** Gaukite atnaujinimą adresu [https://get.omaps.org](https://get.omaps.org) arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].

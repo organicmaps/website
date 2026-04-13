@@ -3,7 +3,7 @@ title: "While many are enjoying their holidays, our community and contributors a
 date: 2023-08-21T22:05:00+00:00
 slug: "while-many-are-enjoying-their-holidays-our-community-and-contributors-are-creating-better-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 While many are enjoying their holidays, our community and contributors are creating better maps! Thanks ♥️ to everyone who helps and supports us, it motivates us more and more 🚀

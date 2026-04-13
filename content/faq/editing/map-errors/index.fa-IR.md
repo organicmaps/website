@@ -6,7 +6,7 @@ description: نکاتی برای تصحیح خطاها در نقشه ها، ای
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

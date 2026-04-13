@@ -5,7 +5,7 @@ description: Panduan pemecahan masalah untuk instruksi suara dalam navigasi
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

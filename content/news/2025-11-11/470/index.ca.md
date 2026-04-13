@@ -3,7 +3,7 @@ title: "Un mapa del món més detallat amb regions de mapes descarregades ressal
 date: 2025-11-11
 slug: "mapa-mon-detallat-regions-descarregades-ressaltades-suport-rutes-condicionals-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Notes de la versió

@@ -3,7 +3,7 @@ title: "Organic Maps-en Gabonetako Edizioa abenduaren 16ko bertsioan"
 date: 2025-12-16
 slug: "organic-maps-gabonetako-edizioa-abenduaren-16ko-bertsioa"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Eguberri on eta Urte Berri on Organic Maps taldearen partetik. Gabonetako espirituaren bila? Bilatu `Gabonetako Merkatua` edo `Gabonetako zuhaitza` mapan ikusteko. Zure inguruan ezer agertzen ez bada, mesedez gehitu falta diren elementuak OpenStreetMap.org webgunean eta hobetu mapa guztiontzat!

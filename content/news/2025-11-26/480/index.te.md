@@ -3,7 +3,7 @@ title: "కొత్త Organic Maps విడుదల 2025.11.25: టర్క
 date: 2025-11-28
 slug: "wikipedia-articles-in-turkish-japanese-and-chinese-setting-to-see-downloaded-regions"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 శుక్రవారం! <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి కొత్త Organic Maps అప్‌డేట్‌ను ఇన్‌స్టాల్ చేయడానికి ఇది సమయం.

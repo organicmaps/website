@@ -4,7 +4,7 @@ slug: యప-ఫలటపక-వరషనన-నన-ఎల-ఉపయగచగల
 description: ఆర్గానిక్ మ్యాప్స్ అప్లికేషన్ కోసం తరచుగా అడిగే ప్రశ్నలు
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

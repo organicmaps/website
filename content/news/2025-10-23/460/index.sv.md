@@ -3,7 +3,7 @@ title: "23 oktober-utgåvan: Organic Maps som standardnavigeringsapp i EU på iO
 date: 2025-10-23T17:20:21+00:00
 slug: "23-oktober-utgåvan-organic-maps-standardnavigeringsapp-eu-ios-vägskyltar-android-förbättringar-fixar"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 I 23 oktober-utgåvan fokuserade vi på fixar och förbättringar. Kolla den detaljerade listan nedan.

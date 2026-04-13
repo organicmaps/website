@@ -3,7 +3,7 @@ title: Kõrgema kontrastsusega tumeda teema värvid, parkimis-, üürimis- ja la
 date: 2026-01-16
 slug: korgema-kontrastsusega-tumeda-teema-varvid-parkimis-uurimis-ja-laadimismaht-ning-muud-jaanuari-2026-valjaandes
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Alustame aastat 2026 Organic Mapsi värskendusega, mille on võimaliks teinud kõik meie kaastöölised! Installige see aadressilt <https://omaps.app/get> või rakendusest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid]

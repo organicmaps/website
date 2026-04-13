@@ -5,7 +5,7 @@ description: "Canllaw datrys problemau ar gyfer datrys problemau gyda lleoliad a
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

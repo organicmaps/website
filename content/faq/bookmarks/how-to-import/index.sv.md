@@ -6,7 +6,7 @@ description: Steg-för-steg-instruktioner för att importera bokmärken och spå
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 20
 aliases:

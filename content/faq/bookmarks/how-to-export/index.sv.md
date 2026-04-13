@@ -6,7 +6,7 @@ description: Steg-för-steg-guide för att exportera bokmärken och spår från 
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

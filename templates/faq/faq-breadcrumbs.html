@@ -9,11 +9,12 @@ available with selected FAQ term.
     <a href="{{ faq_root.permalink }}" class="faq-title">{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}{{ faq_section.title }}</a>
     {% set categories = faq_root | get(key="items") %}
     {% for item in categories %}
+        {% set display_name = item.name | replace(from="-", to=" ") | capitalize %}
         •
         {% if term and term.name == item.name %} {# Do not show link for current FAQ term #}
-            <span class="faq-taxonomy">{{ item.name }}</span>
+            <span class="faq-taxonomy">{{ display_name }}</span>
         {% else %}
-            <a href="{{ item.permalink }}" class="faq-taxonomy">{{ item.name }}</a>
+            <a href="{{ item.permalink }}" class="faq-taxonomy">{{ display_name }}</a>
         {% endif %}
     {% endfor %}
 </p>

@@ -3,7 +3,7 @@ title: Snabbare gränsöverskridande och interregionala rutter i 26 januari-uppd
 date: 2026-01-26
 slug: snabbare-gransoverskridande-och-interregionala-rutter-i-26-januari-uppdateringen-av-organic-maps
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Dags att uppdatera Organic Maps! Snabbare gränsöverskridande och interregionala rutter, färsk OSM-kartdata och många buggfixar för Android i den andra appuppdateringen 2026.

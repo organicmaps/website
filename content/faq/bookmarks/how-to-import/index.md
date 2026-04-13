@@ -3,7 +3,7 @@ title: How to import bookmarks and tracks in KML, KMZ, KMB, GPX or GeoJSON (JSON
 description: Step-by-step instructions for importing bookmarks and tracks shared with you as KML, KMZ, KMB, GPX or GeoJSON (JSON) files into Organic Maps
 updated: "2026-01-03"
 taxonomies:
-  faq: ["Bookmarks and tracks"]
+  faq: ["bookmarks-and-tracks"]
 extra:
   order: 20
 ---

@@ -4,7 +4,7 @@ slug: hoe-gebruik-ek-die-flatpak-weergawe-van-die-toepassing
 description: Gereelde vrae vir Organic Maps-toepassing
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "Edisi Natal Organic Maps pada Rilis 16 Desember"
 date: 2025-12-16
 slug: "edisi-natal-organic-maps-rilis-16-desember"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Selamat Natal dan Tahun Baru dari tim Organic Maps. Mencari suasana liburan? Cari `Pasar Natal` atau `Pohon Natal` untuk melihatnya di peta. Jika tidak ada yang muncul di area Anda, silakan tambahkan fitur yang hilang di OpenStreetMap.org dan tingkatkan peta untuk semua orang!

@@ -6,7 +6,7 @@ description: Organic Maps-etatik laster-markak eta ibilbideak beste aplikazio ba
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

@@ -5,7 +5,7 @@ description: "Panduan pemecahan masalah untuk menyelesaikan masalah dengan lokas
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

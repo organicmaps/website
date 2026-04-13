@@ -3,7 +3,7 @@ title: "January 2025.01.26 release"
 date: 2025-01-26T12:00:00+00:00
 slug: "january-2025-01-26-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 January 2025.01.26 release highlights:

@@ -4,7 +4,7 @@ slug: ആപപൻറ-ഫലററപകക-പതപപ-ഞൻ-എങങന-ഉ
 description: ഓർഗാനിക് മാപ്സ് ആപ്ലിക്കേഷനായി പതിവായി ചോദിക്കുന്ന ചോദ്യങ്ങൾ
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

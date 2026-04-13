@@ -3,7 +3,7 @@ title: "Meet the July release of Organic Maps"
 date: 2023-07-18T22:49:37+00:00
 slug: "meet-the-july-release-of-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Meet the July release of Organic Maps! Note that this release crashes on Nexus 5X (and maybe on some other older devices), but we're working on a fix.

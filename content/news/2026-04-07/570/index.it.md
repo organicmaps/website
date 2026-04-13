@@ -3,7 +3,7 @@ title: "Percorsi escursionistici e ciclabili con profili altimetrici, ricerca pi
 date: 2026-04-07
 slug: "percorsi-escursionistici-ciclabili-grafici-altimetrici-ricerca-indirizzi-usa-antimeridiano-aggiornamento-organic-maps-aprile-2026"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Questa versione di aprile, oltre a numerose correzioni di bug e miglioramenti, si basa su tre semplici verità: gli escursionisti vogliono sapere quanto dovranno salire, tutti vogliono che la ricerca degli indirizzi funzioni e basta, e nessuno dovrebbe avere la sensazione di cadere dal bordo della mappa. Grazie ai nostri collaboratori, alle vostre ottime recensioni, alle [donazioni](@/donate/index.it.md) e al [supporto](@/contribute/index.it.md), abbiamo risolto tutte e tre queste cose — e molto altro ancora.

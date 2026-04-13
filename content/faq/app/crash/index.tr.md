@@ -4,7 +4,7 @@ slug: uygulama-durdurulursaçökerse-ne-yapabilirim
 description: Uygulama çöktüğünde ne yapmalı? Önemli hataları geliştiricilere nasıl bildirmeli?
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Uygulama"]
+  faq: ["uygulama"]
 extra:
   order: 30
 aliases:

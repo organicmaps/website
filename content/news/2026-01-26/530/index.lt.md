@@ -3,7 +3,7 @@ title: Greitesni tarpvalstybiniai ir tarpregioniniai maršrutai sausio 26 d. Org
 date: 2026-01-26
 slug: greitesni-tarpvalstybiniai-ir-tarpregioniniai-marsrutai-sausio-26-d-organic-maps-atnaujinime
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Laikas atnaujinti Organic Maps! Greitesni tarpvalstybiniai ir tarpregioniniai maršrutai, naujausi OSM žemėlapio duomenys ir daug klaidų taisymų Android sistemai antrajame programos atnaujinime 2026 m.

@@ -4,7 +4,7 @@ slug: non-riesco-a-sentire-le-istruzioni-vocali
 description: Guida alla risoluzione dei problemi per le istruzioni vocali nella navigazione
 updated: '2024-07-22'
 taxonomies:
-  faq: ["Indicazioni vocali"]
+  faq: ["indicazioni-vocali"]
 extra:
   order: 20
 aliases:

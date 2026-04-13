@@ -3,7 +3,7 @@ title: "21.09.14 app update is available in Google Play"
 date: 2021-09-15T20:34:14+00:00
 slug: "app-update-is-available-in-google-play"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 21.09.14 app update is available in Google Play. We:

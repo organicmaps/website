@@ -3,7 +3,7 @@ title: Şubat 2026 Organic Maps güncellemesi
 date: 2026-02-18
 slug: subat-2026-organic-maps-guncellemesi
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Katkıda bulunanlarımız sayesinde, **Organic Maps'i güncellemek için Cuma iyi bir zaman!** Güncellemeyi [https://get.omaps.org](https://get.omaps.org) adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] üzerinden edinin.

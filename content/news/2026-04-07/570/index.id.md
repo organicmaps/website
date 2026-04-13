@@ -3,7 +3,7 @@ title: "Rute hiking dan bersepeda dengan profil elevasi, pencarian alamat AS yan
 date: 2026-04-07
 slug: "rute-hiking-bersepeda-grafik-ketinggian-pencarian-alamat-as-pembungkusan-peta-antimeridian-pembaruan-organic-maps-april-2026"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 

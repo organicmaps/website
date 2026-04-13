@@ -3,7 +3,7 @@ title: How do I use the flatpak version of the app?
 description: "Frequently asked questions for Organic Maps application"
 
 taxonomies:
-  faq: ["Linux"]
+  faq: ["linux"]
 
 extra:
   order: 10

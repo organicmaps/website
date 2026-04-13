@@ -3,7 +3,7 @@ title: "Itineraris de randonada e de ciclisme amb perfils d'altitud, recèrca d'
 date: 2026-04-07
 slug: "itineraris-randonada-ciclisme-perfils-altitud-recerca-adrecas-us-antimeridian-abril-2026-mesa-jorn-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Aquesta version d'abril, en mai de fòrça correccions de bògues e melhoraments, es bastida a l'entorn de tres veritats simplas : los randonaires vòlon saber quant van montar, tot lo monde vòl que la recèrca d'adreça foncione simplament, e degun deu pas aver l'impression de tombar del bòrd de la mapa. Gràcias a nòstres contributors, a vòstras bonas criticas, a las [donacions](@/donate/index.oc.md) e al [sosten](@/contribute/index.oc.md), avèm reglat aquelas tres causas — e fòrça mai encara.

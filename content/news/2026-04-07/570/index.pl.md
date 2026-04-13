@@ -3,7 +3,7 @@ title: "Trasy piesze i rowerowe z wykresami wysokości, inteligentniejsze wyszuk
 date: 2026-04-07
 slug: "trasy-piesze-rowerowe-wykresy-wysokosci-wyszukiwanie-adresow-usa-zawijanie-mapy-antymeridian-kwiecien-2026-organic-maps-aktualizacja"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 To kwietniowe wydanie, oprócz wielu poprawek błędów i ulepszeń, opiera się na trzech prostych prawdach: piechurzy chcą wiedzieć, ile podejść mają przed sobą, każdy chce, żeby wyszukiwanie adresów po prostu działało, i nikt nie powinien mieć wrażenia, że spada z krawędzi mapy. Dzięki naszym współtwórcom, waszym dobrym opiniom, [darowiznom](@/donate/index.pl.md) i [wsparciu](@/contribute/index.pl.md) udało nam się zadbać o wszystkie te trzy sprawy — i o wiele więcej.

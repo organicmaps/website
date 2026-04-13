@@ -3,7 +3,7 @@ title: Kiiremad riikide- ja piirkondadevahelised marsruudid 26. jaanuari Organic
 date: 2026-01-26
 slug: kiiremad-riikide-ja-piirkondadevahelised-marsruudid-26-jaanuari-organic-maps-varskenduses
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 On aeg värskendada Organic Maps! Kiiremad riikide- ja piirkondadevahelised marsruudid, värske OSM-kaardi andmed ja palju veaparandusi Androidi jaoks 2026. aasta teises rakenduse värskenduses.

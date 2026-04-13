@@ -3,7 +3,7 @@ title: Diweddariad Organic Maps Chwefror 2026
 date: 2026-02-18
 slug: diweddariad-organic-maps-chwefror-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Diolch i'n cyfranwyr, **mae dydd Gwener yn amser da i ddiweddaru Organic Maps!** Mynnwch y diweddariad yn [https://get.omaps.org](https://get.omaps.org) neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].

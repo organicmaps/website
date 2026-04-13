@@ -3,7 +3,7 @@ title: "Organic Maps Christmas Edition in the December 16 Release"
 date: 2025-12-16
 slug: "organic-maps-christmas-edition-december-16-release"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Merry Christmas and Happy New Year from the Organic Maps team. Looking for holiday spirit? Search for `Christmas Market` or `Christmas Tree` to see them on the map. If nothing appears in your area, please add the missing features on OpenStreetMap.org and improve the map for everyone!

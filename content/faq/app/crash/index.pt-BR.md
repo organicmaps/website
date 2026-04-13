@@ -4,7 +4,7 @@ slug: o-que-posso-fazer-se-o-aplicativo-parar-travar
 description: Quais ações tomar se o aplicativo travar. Como relatar bugs críticos aos desenvolvedores.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Aplicativo"]
+  faq: ["aplicativo"]
 extra:
   order: 30
 aliases:

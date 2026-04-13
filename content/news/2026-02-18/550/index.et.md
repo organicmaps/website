@@ -3,7 +3,7 @@ title: Organic Mapsi 2026. aasta veebruari uuendus
 date: 2026-02-18
 slug: organic-mapsi-veebruari-uuendus-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Tänu meie kaastöölistele on **reede hea aeg Organic Mapsi uuendamiseks!** Hangi uuendus aadressilt [https://get.omaps.org](https://get.omaps.org) või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].

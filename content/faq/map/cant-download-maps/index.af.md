@@ -6,7 +6,7 @@ description: Wat om te doen as Organic Maps versuim om kaarte van die internet a
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

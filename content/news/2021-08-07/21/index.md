@@ -4,7 +4,7 @@ date: 2021-08-07T06:40:46+00:00
 slug: "august-2021-release-of-organic-maps"
 aliases: ["/news/2021-08-07/meet-a-new-app-update-with/"]
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Meet a new app update with:

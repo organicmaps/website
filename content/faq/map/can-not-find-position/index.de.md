@@ -4,11 +4,12 @@ slug: die-app-kann-meinen-standort-nicht-bestimmen-oder-zeigt-einen-falschen-sta
 description: "Anleitung zur Fehlerbehebung bei Problemen mit dem Standort und der aktuellen GPS-Position auf der Karte für iOS- und Android-Geräte"
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Karte"]
+  faq: ["karte"]
 extra:
   order: 10
 aliases:
   - /de/faq/map/can-not-find-position/
+  - /de/faq/map/die-app-kann-meinen-standort-nicht-bestimmen/
 ---
 
 Bitte stelle sicher, dass dein Gerät über GPS verfügt, die Standorteinstellungen aktiviert sind und Organic Maps die Standortberechtigungen erteilt wurden.

@@ -3,7 +3,7 @@ title: Aktualizace Organic Maps z února 2026
 date: 2026-02-18
 slug: aktualizace-organic-maps-unor-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Díky našim přispěvatelům **je pátek vhodný čas na aktualizaci Organic Maps!** Získejte aktualizaci na [https://get.omaps.org](https://get.omaps.org) nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].

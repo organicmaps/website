@@ -4,7 +4,7 @@ slug: o-que-fazer-se-a-aplicação-parar-de-funcionar-bloquear
 description: Que ações tomar se a aplicação bloquear. Como reportar bugs críticos aos desenvolvedores.
 updated: "2026-01-04"
 taxonomies:
-  faq: ["Aplicação"]
+  faq: ["aplicação"]
 extra:
   order: 30
 aliases:

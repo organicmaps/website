@@ -3,7 +3,7 @@ title: "Maak kennis met de januari 2023 update van Organic Maps"
 date: 2023-01-27T21:26:12+00:00
 slug: "maak-kennis-met-de-januari-2023-update-van-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Maak kennis met de januari 2023 update van Organic Maps! We hopen dat jullie fijne feestdagen hebben gehad, en ervan hebben genoten om te reizen, interessante plekken te bezoeken, en interessante mensen te ontmoeten.

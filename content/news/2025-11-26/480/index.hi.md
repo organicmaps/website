@@ -3,7 +3,7 @@ title: "नया Organic Maps रिलीज़ 2025.11.25: तुर्की
 date: 2025-11-28
 slug: "wikipedia-articles-in-turkish-japanese-and-chinese-setting-to-see-downloaded-regions-and-more"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 शुक्रवार! <https://omaps.app/get> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से नया Organic Maps अपडेट इंस्टॉल करने का समय है।

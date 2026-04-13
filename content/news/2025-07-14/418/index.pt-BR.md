@@ -2,7 +2,7 @@
 title: "Melhor edição de trilhas e muitas melhorias e correções na atualização do Organic Maps julho 2025"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Conheça a atualização de julho do Organic Maps com muitas correções e melhorias, graças aos nossos colaboradores ❤️💪! A atualização já está disponível na [AppStore][appstore], [Obtainium][obtainium] e [Accrescent][accrescent], e estará pronta no [Google Play][googleplay], [Huawei AppGallery][appgallery], e [FDroid][fdroid] em alguns dias.

@@ -3,7 +3,7 @@ title: "Nova versió d'Organic Maps 2025.11.25: articles de la Viquipèdia en tu
 date: 2025-11-28
 slug: "articles-de-la-viquipèdia-en-turc-japonès-i-xinès-configuració-per-veure-les-regions-descarregades-i-molt-més"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].

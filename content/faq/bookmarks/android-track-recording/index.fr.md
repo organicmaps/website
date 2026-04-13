@@ -5,7 +5,7 @@ description: Les paramètres d'optimisation de la batterie par défaut sur Samsu
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Signets et parcours"]
+  faq: ["signets-et-parcours"]
 
 extra:
   order: 30

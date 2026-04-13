@@ -6,7 +6,7 @@ description: Què cal fer si Organic Maps no pot descarregar o actualitzar els m
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

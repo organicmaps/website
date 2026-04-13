@@ -5,7 +5,7 @@ description: मार्ग बनाने और मानचित्र क
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 40
 aliases:

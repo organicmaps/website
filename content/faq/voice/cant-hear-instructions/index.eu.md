@@ -5,7 +5,7 @@ description: Nabigazioan ahots bidezko argibideetarako arazoak konpontzeko gida
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

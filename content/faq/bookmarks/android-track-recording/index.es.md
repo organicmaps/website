@@ -5,7 +5,7 @@ description: La configuración predeterminada de optimización de la batería en
 updated: "2024-10-05"
 
 taxonomies:
-faq: ["Marcadores y rutas"]
+faq: ["marcadores-y-rutas"]
 
 extra:
 order: 30

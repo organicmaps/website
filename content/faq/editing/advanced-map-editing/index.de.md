@@ -5,7 +5,7 @@ description: Tutorial zum Bearbeiten von OpenStreetMap mit fortgeschritteneren T
   wie ID, Go Map und Vespucci
 updated: '2026-01-03'
 taxonomies:
-  faq: ["Kartenbearbeitung"]
+  faq: ["kartenbearbeitung"]
 extra:
   order: 40
 aliases:

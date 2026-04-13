@@ -4,7 +4,7 @@ slug: 如何使用应用程序的-flatpak-版本
 description: 有机地图应用程序的常见问题
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

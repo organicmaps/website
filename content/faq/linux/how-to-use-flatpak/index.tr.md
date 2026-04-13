@@ -4,7 +4,7 @@ slug: uygulamanın-flatpak-sürümünü-nasıl-kullanırım
 description: Organik Haritalar uygulaması için sık sorulan sorular
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

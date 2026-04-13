@@ -5,7 +5,7 @@ description: Kokių veiksmų imtis, jei programa užstringa. Kaip pranešti kūr
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - App
+  - app
 extra:
   order: 30
 aliases:

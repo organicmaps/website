@@ -6,7 +6,7 @@ description: Guida passo passo per esportare segnalibri e tracce da Organic Maps
 updated: "2026-01-03"
 taxonomies:
   faq:
-  - Bookmarks and tracks
+  - bookmarks-and-tracks
 extra:
   order: 10
 aliases:

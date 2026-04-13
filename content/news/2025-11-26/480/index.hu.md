@@ -3,7 +3,7 @@ title: "Új Organic Maps kiadás 2025.11.25: Wikipédia cikkek törökül, japá
 date: 2025-11-28
 slug: "wikipédia-cikkek-törökül-japánul-és-kínaiul-beállítás-a-letöltött-régiók-megjelenítéséhez-és-még-sok-más"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Péntek! Ideje telepíteni az új Organic Maps frissítést a <https://omaps.app/get> címről vagy az [App Store-ból][appstore], [Google Play-ről][googleplay], [Huawei AppGallery-ből][appgallery], [Obtainium-ból][obtainium], [Accrescent-ből][accrescent] és [F-Droid-ról][fdroid].

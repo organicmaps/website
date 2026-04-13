@@ -6,7 +6,7 @@ description: Beth i'w wneud os na fydd Mapiau Organig yn lawrlwytho neu'n diwedd
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

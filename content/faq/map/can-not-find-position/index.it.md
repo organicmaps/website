@@ -5,7 +5,7 @@ description: "Guida alla risoluzione dei problemi per risolvere i problemi con l
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: Warna tema gelap kontras lebih tinggi, kapasitas parkir, rental, dan peng
 date: 2026-01-16
 slug: warna-tema-gelap-kontras-lebih-tinggi-kapasitas-parkir-rental-dan-pengisian-daya-dan-lainnya-dalam-rilis-januari-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Mari mulai 2026 dengan pembaruan Organic Maps, yang dimungkinkan oleh semua kontributor kami! Instal dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid]

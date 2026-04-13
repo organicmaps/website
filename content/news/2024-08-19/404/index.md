@@ -3,7 +3,7 @@ title: "The new August release of the best offline maps is finally available in 
 date: 2024-08-19T19:07:10+00:00
 slug: "the-new-august-release-was-delayed-by-an-unexpected-removal-of-organic-maps-from-the-google-play-store"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 The new August release was delayed by an unexpected [removal](https://organicmaps.app/news/2024-08-17/last-night-organic-maps-was-removed-from-the-play-store-without-any-warnings-or-additional-details-due-to-not-meeting-the-requirements-for-the-family-program/) of Organic Maps from the Google Play Store.

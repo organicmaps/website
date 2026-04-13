@@ -3,7 +3,7 @@ title: "מגבלות מהירות מותנות, קווי גובה מפורטים
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 עדכון מרץ של Organic Maps לקח יותר זמן בשל תיקוני באגים ובדיקת Google Play. העדכון ב-[Accrescent][accrescent] עדיין לא מוכן בשל בעיות בחנות האפליקציות Accrescent. קבלו את העדכון בכתובת <https://get.omaps.org> או ב-[App Store][appstore],‏ [Google Play][googleplay],‏ [Huawei AppGallery][appgallery],‏ [Obtainium][obtainium],‏ [Accrescent][accrescent] ו-[F-Droid][fdroid].

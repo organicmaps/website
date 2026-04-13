@@ -5,7 +5,7 @@ description: Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo
 updated: "2024-10-05"
 
 taxonomies:
-  faq: ["Yer İmleri ve Kayıtlar"]
+  faq: ["yer-imleri-ve-kayıtlar"]
 
 extra:
   order: 30

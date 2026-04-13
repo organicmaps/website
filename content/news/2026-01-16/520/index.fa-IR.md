@@ -3,7 +3,7 @@ title: رنگ‌های تم تیره با کنتراست بالاتر، ظرفی
 date: 2026-01-16
 slug: ranghay-tem-tireh-ba-kontrast-balatar-zarfiat-parking-ejareh-va-sharj-va-bishtar-dar-noskheh-janvieh-2026
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 بیایید سال 2026 را با به‌روزرسانی Organic Maps آغاز کنیم که توسط همه مشارکت‌کنندگان ما امکان‌پذیر شده است! آن را از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید

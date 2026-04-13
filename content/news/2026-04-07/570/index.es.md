@@ -3,7 +3,7 @@ title: "Rutas de senderismo y ciclismo con perfiles de elevación, búsqueda má
 date: 2026-04-07
 slug: "rutas-senderismo-ciclismo-graficos-elevacion-busqueda-direcciones-eeuu-antimeridiano-mapa-abril-2026-actualizacion-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Esta versión de abril, además de muchas correcciones de errores y mejoras, se basa en tres verdades sencillas: quienes salen a caminar quieren saber cuánto desnivel les espera, todo el mundo quiere que la búsqueda de direcciones funcione sin más, y nadie debería sentir que se cae por el borde del mapa. Gracias a nuestros colaboradores, a vuestras buenas reseñas, a las [donaciones](@/donate/index.es.md) y al [apoyo](@/contribute/index.es.md), hemos resuelto las tres cosas… y mucho más.

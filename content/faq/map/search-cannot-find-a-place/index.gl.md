@@ -6,7 +6,7 @@ description: Guía para mellorar os resultados da busca e resolver problemas par
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 20
 aliases:

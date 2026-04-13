@@ -3,7 +3,7 @@ title: "Een meer gedetailleerde Wereldkaart met gemarkeerde gedownloade kaartreg
 date: 2025-11-11
 slug: "gedetailleerde-wereldkaart-gemarkeerde-gedownloade-regios-conditionele-routering-ondersteuning-carplay-android-auto-chromebook"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 ## Release-opmerkingen

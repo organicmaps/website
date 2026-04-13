@@ -4,7 +4,7 @@ slug: które-wersje-ios-i-androida-są-obsługiwane
 description: Minimalne wymagania do uruchomienia Map organicznych na urządzeniach z Androidem i iOS
 updated: '2024-06-20'
 taxonomies:
-  faq: ["Aplikacja"]
+  faq: ["aplikacja"]
 extra:
   order: 10
 aliases:

@@ -3,7 +3,7 @@ title: "Percursos pedestres e de ciclismo com perfis de elevação, pesquisa de 
 date: 2026-04-07
 slug: "percursos-caminhada-ciclismo-graficos-elevacao-pesquisa-enderecos-eua-antimeridiano-abril-2026-atualizacao-organic-maps"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Esta versão de abril, além de muitas correcções de erros e melhorias, gira em torno de três verdades simples: quem faz caminhadas quer saber quanto vai subir, toda a gente quer que a pesquisa de endereços funcione, e ninguém deve sentir que está a cair da beira do mapa. Graças aos nossos colaboradores, às suas boas avaliações, aos [donativos](@/donate/index.pt.md) e ao [apoio](@/contribute/index.pt.md), resolvemos estas três questões — e muito mais.

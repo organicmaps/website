@@ -5,7 +5,7 @@ description: "Trikčių šalinimo vadovas, skirtas spręsti problemas, susijusia
 updated: "2026-01-04"
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 10
 aliases:

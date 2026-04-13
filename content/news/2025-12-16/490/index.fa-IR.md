@@ -3,7 +3,7 @@ title: "نسخه کریسمس Organic Maps در انتشار ۱۶ دسامبر"
 date: 2025-12-16
 slug: "noskhe-ye-christmas-organic-maps-enteshare-16-december"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 کریسمس مبارک و سال نو مبارک از طرف تیم Organic Maps. به دنبال حال و هوای تعطیلات هستید؟ برای دیدن آنها روی نقشه، `بازار کریسمس` یا `درخت کریسمس` را جستجو کنید. اگر چیزی در منطقه شما ظاهر نشد، لطفاً ویژگی‌های گمشده را در OpenStreetMap.org اضافه کنید و نقشه را برای همه بهبود بخشید!

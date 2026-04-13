@@ -3,7 +3,7 @@ title: "Rhyddhad 23 Hydref: Organic Maps fel ap lywio diofyn yn yr UE ar iOS, ta
 date: 2025-10-23T17:20:21+00:00
 slug: "rhyddhad-23-hydref-organic-maps-ap-lywio-diofyn-ue-ios-tarianau-ffyrdd-android-gwelliannau-trwsiadau"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Yn y rhyddhad ar 23 Hydref, fe wnaethon ni ganolbwyntio ar drwsiadau a gwelliannau. Gwiriwch y rhestr fanwl isod.

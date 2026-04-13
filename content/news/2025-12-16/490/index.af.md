@@ -3,7 +3,7 @@ title: "Organic Maps Kersfees-uitgawe in die 16 Desember-vrystelling"
 date: 2025-12-16
 slug: "organic-maps-kersfees-uitgawe-16-desember-vrystelling"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Geseënde Kersfees en 'n Voorspoedige Nuwejaar van die Organic Maps-span. Op soek na vakansiegees? Soek vir `Christmas Market` of `Christmas Tree` om dit op die kaart te sien. As niks in jou area verskyn nie, voeg asseblief die ontbrekende kenmerke by op OpenStreetMap.org en verbeter die kaart vir almal!

@@ -5,7 +5,7 @@ description: ""
 updated: "2024-06-20"
 
 taxonomies:
-  faq: ["Marcadores y rutas"]
+  faq: ["marcadores-y-rutas"]
 
 extra:
   order: 20

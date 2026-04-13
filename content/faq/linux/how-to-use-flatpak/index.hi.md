@@ -4,7 +4,7 @@ slug: म-ऐप-क-फलटपक-ससकरण-क-उपयग-कस-क
 description: ऑर्गेनिक मैप्स एप्लिकेशन के लिए अक्सर पूछे जाने वाले प्रश्न
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

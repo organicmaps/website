@@ -3,7 +3,7 @@ title: "A list of articles about Organic Maps we have recently found on the web"
 date: 2024-02-14T14:09:49+00:00
 slug: "a-list-of-articles-about-organic-maps-we-have-recently-found-on-the-web"
 taxonomies:
-  news: ["Press"]
+  news: ["press"]
 ---
 
 A list of articles about Organic Maps we have recently found on the web. Read, enjoy, share! A bit of organic word-of-mouth marketing doesn't hurt 😉

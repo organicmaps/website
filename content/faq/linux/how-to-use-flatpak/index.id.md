@@ -4,7 +4,7 @@ slug: bagaimana-cara-menggunakan-aplikasi-versi-flatpak
 description: Pertanyaan yang sering diajukan untuk aplikasi Peta Organik
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

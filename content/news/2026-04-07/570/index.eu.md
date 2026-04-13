@@ -3,7 +3,7 @@ title: "Mendi- eta bizikleta-ibilbideak kota-profilekin, AEBetako helbideen bila
 date: 2026-04-07
 slug: "mendi-bizikleta-ibilbideak-kota-diagramak-aeb-helbideen-bilaketa-antimeridian-mapa-bilketa-2026-apirila-organic-maps-eguneratzea"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Apirileko bertsio hau, akatsen zuzenketa eta hobekuntza ugariz gain, hiru egia erraz hauen inguruan eraiki dugu: mendizaleek zenbat desnibel igo behar duten jakin nahi dute, denok nahi dugu helbide-bilaketak ondo funtzionatzea, eta inork ez luke sentitu behar maparen ertzetik erortzen ari dela. Gure laguntzaileei, zuen iritzi onei, [dohaintzei](@/donate/index.eu.md) eta [laguntzari](@/contribute/index.eu.md) esker, hirurei heldu diegu — eta beste gauza askori ere bai.

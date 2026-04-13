@@ -3,7 +3,7 @@ title: What can I do if the app has stopped/crashed?
 description: What actions to take if the application crashes. How to report critical bugs to developers
 updated: "2026-01-04"
 taxonomies:
-  faq: ["App"]
+  faq: ["app"]
 extra:
   order: 30
 ---

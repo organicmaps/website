@@ -4,7 +4,7 @@ slug: hogyan-használhatom-az-alkalmazás-flatpak-verzióját
 description: Gyakran ismételt kérdések az Organic Maps alkalmazással kapcsolatban
 taxonomies:
   faq:
-  - Linux
+  - linux
 extra:
   order: 10
 aliases:

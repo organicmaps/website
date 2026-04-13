@@ -6,7 +6,7 @@ description: اگر نقشه های ارگانیک نتواند نقشه ها ر
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map
+  - map
 extra:
   order: 30
 aliases:

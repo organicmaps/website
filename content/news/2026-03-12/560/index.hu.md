@@ -3,7 +3,7 @@ title: "Feltételes sebességkorlátozások, részletesebb elszigetelt vonalak K
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 A márciusi Organic Maps frissítés több időt vett igénybe a javítások és a Google Play felülvizsgálata miatt. Az [Accrescent][accrescent] frissítés még mindig nem készült el az Accrescent alkalmazásbolt problémái miatt. A frissítést a <https://get.omaps.org> oldalon vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalakon szerezze be.

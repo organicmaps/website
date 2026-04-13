@@ -6,7 +6,7 @@ description: Wenke vir die regstelling van foute in kaarte, die maak van verande
 updated: '2024-06-20'
 taxonomies:
   faq:
-  - Map Editing
+  - map-editing
 extra:
   order: 30
 aliases:

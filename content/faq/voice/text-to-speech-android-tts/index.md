@@ -6,7 +6,7 @@ aliases:
   - /faq/voice/text-to-speech-android-tts/
   - /faq/text-to-speech-android-tts/
 taxonomies:
-  faq: ["Voice Directions"]
+  faq: ["voice-directions"]
 extra:
   order: 10
 ---

@@ -3,7 +3,7 @@ title: "Terfynau cyflymder amodol, isoliniau mwy manwl ar gyfer Tsieina, rhanbar
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Cymerodd diweddariad Mawrth Organic Maps fwy o amser oherwydd atgyweiriadau brys ac adolygiad Google Play. Nid yw diweddariad [Accrescent][accrescent] yn barod eto oherwydd problemau siop apiau Accrescent. Mynnwch y diweddariad yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].

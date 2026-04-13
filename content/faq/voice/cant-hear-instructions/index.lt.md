@@ -5,7 +5,7 @@ description: Trikčių šalinimo vadovas, skirtas navigacijos nurodymams balsu
 updated: '2024-07-22'
 taxonomies:
   faq:
-  - Voice Directions
+  - voice-directions
 extra:
   order: 20
 aliases:

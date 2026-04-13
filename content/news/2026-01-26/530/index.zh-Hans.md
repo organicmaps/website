@@ -3,7 +3,7 @@ title: 1月26日Organic Maps更新中更快的跨国和跨地区路线
 date: 2026-01-26
 slug: 1yue26ri-organic-maps-gengxin-zhong-gengkuai-de-kuaguo-he-kuadiqu-luxian
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 是时候更新Organic Maps了！在2026年的第二次应用更新中，跨国和跨地区路线更快、全新的OSM地图数据以及Android的许多错误修复。

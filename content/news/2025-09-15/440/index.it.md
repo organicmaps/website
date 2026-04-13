@@ -2,7 +2,7 @@
 title: "Versione 15 settembre: nuova pianificazione percorso e descrizioni OSM"
 date: 2025-09-15T10:00:00+00:00
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Questa seconda versione di settembre introduce una schermata di pianificazione dei percorsi ridisegnata e la possibilità di visualizzare il contenuto del tag OpenStreetMap `description` su iOS. Per trovare i luoghi con questo tag, digita `?description` nella ricerca (simile a `?wiki`).

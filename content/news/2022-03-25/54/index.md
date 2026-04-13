@@ -3,7 +3,7 @@ title: "A new Organic Maps update is available in all stores."
 date: 2022-03-25T08:21:01+00:00
 slug: "a-new-organic-maps-update-is-available-in-all-stores"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 A new Organic Maps update is available in all stores.

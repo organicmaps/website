@@ -3,7 +3,7 @@ title: "Vandrings- och cykelleder med höjdprofiler, smartare adressökning i US
 date: 2026-04-07
 slug: "vandrings-cykelleder-hojdkurvor-us-adressokning-antimeridian-kartomslagning-april-2026-organic-maps-uppdatering"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 Den här aprilversionen innehåller, utöver många buggfixar och förbättringar, tre enkla sanningar: vandrare vill veta hur många höjdmeter som väntar, alla vill att adressökningen bara ska fungera, och ingen ska känna att de faller av kartans kant. Tack vare våra bidragsgivare, era fina recensioner, [donationer](@/donate/index.sv.md) och [stöd](@/contribute/index.sv.md) har vi löst alla tre — och mycket mer därtill.

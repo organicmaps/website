@@ -3,7 +3,7 @@ title: "A hotfix Android release (May 31) is available in stores"
 date: 2022-06-05T23:15:02+00:00
 slug: "a-hotfix-android-release-may-31-is-available-in-stores"
 taxonomies:
-  news: ["Releases"]
+  news: ["releases"]
 ---
 
 A hotfix Android release (May 31) is available in stores:

@@ -310,3 +310,58 @@ img.edit-github-icon {
   display: block;
   margin: 1rem;
 }
+
+.thanks-page {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: min(80vmin, 720px);
+    height: min(80vmin, 720px);
+    background: url("/logos/green-on-transparent.svg") center / contain no-repeat;
+    transform: translate(-50%, -50%);
+    opacity: 0.08;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+.thanks-card {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+
+  h1 {
+    color: #006c35;
+    border-bottom: none;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .thanks-page::before {
+    opacity: 0.15;
+  }
+
+  .thanks-card h1 {
+    color: #4caf50;
+  }
+}

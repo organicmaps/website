@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="thanks-page">
+  <div class="thanks-card">
+    <h1>{{ resource.title }}</h1>
+    {{ resource.content | safe }}
+  </div>
+</section>
+{% endblock content %}

@@ -65,5 +65,4 @@ Veuillez envisager de faire un don annuel pour réduire les frais totaux. Les r�
 
 Oui ! Il existe de nombreuses façons de soutenir Organic Maps. Veuillez consulter la page [Contribuer](@/contribute/index.fr.md) pour plus de détails.
 
-[stripe]: https://donate.organicmaps.app/ "Faire un don via Stripe"
-[github issues]: https://github.com/organicmaps/organicmaps/issues "GitHub Issues"
+{{ references() }}

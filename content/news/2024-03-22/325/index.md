@@ -14,7 +14,6 @@ We have added additional currencies and payment methods to our [donation page](@
 * $ 💵 [US Dollar USD](https://donate.organicmaps.app/?currency=usd)
 * £ 💷 [British Pound GBP](https://donate.organicmaps.app/?currency=gbp)
 * ₣ 🇨🇭 [Swiss Franc CHF](https://donate.organicmaps.app/?currency=chf)
-* ₴ 🇺🇦 [Ukrainian Hryvnia UAH](https://donate.organicmaps.app/?currency=uah)
 
 #### S€PA 🇪🇺 bank transfer with 0% fee:
 

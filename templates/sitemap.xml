@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemaps-image/0.9">
+{%- for entry in entries %}
+    <url>
+        <loc>{{ entry.permalink | escape_xml | safe }}</loc>
+        {%- if entry.updated %}
+        <lastmod>{{ entry.updated }}</lastmod>
+        {%- endif %}
+        {%- if entry.extra.preview_image %}
+        {%- set img = entry.extra.preview_image | trim_start_matches(pat='/') -%}
+        <image:image>
+            {%- if img is starting_with("http") %}
+            <image:loc>{{ img | escape_xml | safe }}</image:loc>
+            {%- else %}
+            <image:loc>https://organicmaps.app/{{ img | escape_xml | safe }}</image:loc>
+            {%- endif %}
+        </image:image>
+        {%- endif %}
+    </url>
+{%- endfor %}
+</urlset>

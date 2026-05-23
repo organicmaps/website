@@ -2,8 +2,8 @@
 
 {% block content %}
   {% include 'faq/faq-breadcrumbs.html' %}
-  <h2>{{ term.name | replace(from="-", to=" ") | capitalize }}</h2>
+  <h1>{{ term_name }} – {{ section_label }}</h1>
   {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
-  <h3><a href="{{ faq_page.permalink }}">{{ faq_page.title }}</a></h3>
+  <h2><a href="{{ faq_page.permalink }}">{{ faq_page.title }}</a></h2>
   {%- endfor -%}
 {% endblock %}

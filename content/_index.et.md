@@ -17,7 +17,7 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Matkamine') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Matkamine', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Praha') }}
 
@@ -107,7 +107,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Otsingu ja fontide parandamise projekt</a> on <a href="https://nlnet.nl/project/OrganicMaps/">rahastatud</a> NGI0 Entrust fondi kaudu. <a href="https://nlnet.nl/entrust/">NGI0 Entrust fond</a> on asutatud <a href="https://nlnet.nl/">NLnet Foundationi</a> poolt Euroopa Komisjoni <a href="https://www.ngi.eu/">Next Generation Internet programmi</a> rahalisel toel, sidevõrkude, sisu ja tehnoloogia peadirektoraadi egiidi all toetuslepingu nr 101069594 alusel.
@@ -115,7 +115,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> toetas üliõpilasprojekte Google Summer of Code programmis aastatel <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Märkimisväärsed projektid hõlmasid Android Autot, Vikipeedia tõmmise ekstraktorit, raja salvestamist Androidile.
@@ -123,7 +123,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">pakub meile</a> kahte virtuaalserverit kuni 400 TB/kuus tasuta ribalaiusega kaartide allalaadimiste ja uuenduste majutamiseks ja serveerimiseks.
@@ -131,7 +131,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">pakub meile</a> tasuta pühendatud serverit väärtusega umbes 12 000 dollarit aastas kaartide serveerimiseks Vietnamis ja Kagu-Aasias.
@@ -139,7 +139,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> on <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">andnud 1000 dollari suuruse mikrotoetuse</a> Organic Mapsile veebruaris 2023.

@@ -17,7 +17,7 @@ title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Senderismo') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Senderismo', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Praga') }}
 
@@ -109,7 +109,7 @@ seleccionadas:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">El proyecto de mejora de Búsqueda y Fuentes</a> ha sido <a href="https://nlnet.nl/project/OrganicMaps/">financiado</a> a través del Fondo NGI0 Entrust. <a href="https://nlnet.nl/entrust/">El Fondo NGI0 Entrust</a> es establecido por la <a href="https://nlnet.nl/">Fundación NLnet</a> con apoyo financiero del programa <a href="https://www.ngi.eu/">Next Generation Internet</a> de la Comisión Europea, bajo la égida de la DG Redes de Comunicación, Contenido y Tecnología bajo el acuerdo de subvención No 101069594.
@@ -117,7 +117,7 @@ seleccionadas:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> respaldó proyectos de estudiantes en el programa Google Summer of Code durante los programas <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Proyectos notables incluyeron Android Auto, Extractor de volcados de Wikipedia, Grabación de pistas para Android.
@@ -125,7 +125,7 @@ seleccionadas:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       El ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nos proporciona</a> dos servidores virtuales con hasta 400 TB/mes de ancho de banda gratuito para alojar y servir descargas y actualizaciones de mapas.
@@ -133,7 +133,7 @@ seleccionadas:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> nos <a href="https://44plus.vn/organicmaps">proporciona</a> un servidor dedicado gratuito por valor de alrededor de $12,000/año para servir mapas en Vietnam y el sudeste asiático.
@@ -141,7 +141,7 @@ seleccionadas:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ha <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">otorgado una micro-subvención de $1000</a> a Organic Maps en febrero de 2023.

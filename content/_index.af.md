@@ -17,7 +17,7 @@ title: 'Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie'
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Voetslaan') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Voetslaan', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Praag') }}
 
@@ -104,7 +104,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Die Soek & Fonte verbeteringsprojek</a> is <a href="https://nlnet.nl/project/OrganicMaps/">befonds</a> deur NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is gestig deur die <a href="https://nlnet.nl/">NLnet Foundation</a> met finansiële ondersteuning van die Europese Kommissie se <a href="https://www.ngi.eu/">Next Generation Internet-program</a>, onder die beskerming van DG Communications Networks, Content and Technology onder toekenningsooreenkoms No 101069594.
@@ -112,7 +112,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> het studenteprojekte in die Google Summer of Code-program ondersteun gedurende <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Noemenswaardige projekte sluit in Android Auto, Wikipedia Dump Extractor, Track Recording vir Android.
@@ -120,7 +120,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">verskaf aan ons</a> twee virtuele bedieners met tot 400 TB/maand gratis bandwydte om kaart-aflaaie en opdaterings te huisves en te bedien.
@@ -128,7 +128,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">verskaf aan ons</a> 'n gratis toegewyde bediener ter waarde van ongeveer $12,000/jaar om kaarte oor Viëtnam & Suidoos-Asië te bedien.
@@ -136,7 +136,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> het <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 mikro-toekenning toegeken</a> aan Organic Maps in Februarie 2023.

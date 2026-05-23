@@ -17,7 +17,7 @@ title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='登山') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='登山', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='布拉格') }}
 
@@ -97,7 +97,7 @@ To donate conveniently, click on your preferred payment method icon below:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">搜索和来源改进项目</a>通过 NGI0 Entrust 基金<a href="https://nlnet.nl/project/OrganicMaps/">获得资助</a>。<a href="https://nlnet.nl/entrust/">NGI0 Entrust 基金</a>由 <a href="https://nlnet.nl/">NLnet 基金会</a>设立，并在欧盟委员会<a href="https://www.ngi.eu/">下一代互联网</a>计划的财政支持下，在通信网络、内容和技术总局的主持下，根据第 101069594 号赠款协议设立。
@@ -105,7 +105,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> 在 <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>、<a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>、<a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>、<a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> 年的 Google Summer of Code 计划中支持了学生项目。著名的项目包括 Android Auto、维基百科转储提取器、Android 轨迹记录。
@@ -113,7 +113,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">为我们提供</a>了两台虚拟服务器，每月高达 400 TB 的免费带宽，用于托管和提供地图下载和更新。
@@ -121,7 +121,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">为我们提供</a>了一台价值约 12,000 美元/年的免费专用服务器，用于在越南和东南亚提供地图服务。
@@ -129,7 +129,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> 于 2023 年 2 月向 Organic Maps <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">授予了 1000 美元的小额赠款</a>。

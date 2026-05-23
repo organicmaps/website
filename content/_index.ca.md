@@ -17,7 +17,7 @@ L’**Organic Maps** és una de les poques aplicacions actuals que admet fer ser
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Senderisme') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Senderisme', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Praga') }}
 
@@ -107,7 +107,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">El projecte de millora de Cerca i Fonts</a> ha estat <a href="https://nlnet.nl/project/OrganicMaps/">finançat</a> a través del Fons NGI0 Entrust. <a href="https://nlnet.nl/entrust/">El Fons NGI0 Entrust</a> està establert per la <a href="https://nlnet.nl/">Fundació NLnet</a> amb suport financer del programa <a href="https://www.ngi.eu/">Next Generation Internet</a> de la Comissió Europea, sota l'ègida de la DG Xarxes de Comunicació, Continguts i Tecnologia sota l'acord de subvenció núm. 101069594.
@@ -115,7 +115,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> ha donat suport als projectes d'estudiants al programa Google Summer of Code durant els programes <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Els projectes destacats inclouen Android Auto, Extractor de bolcats de la Viquipèdia, Enregistrament de rutes per a Android.
@@ -123,7 +123,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       El proveïdor d'Internet <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">ens proporciona</a> dos servidors virtuals amb fins a 400 TB/mes d'ample de banda gratuït per allotjar i servir descàrregues i actualitzacions de mapes.
@@ -131,7 +131,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> ens <a href="https://44plus.vn/organicmaps">proporciona</a> un servidor dedicat gratuït per valor d'uns 12.000 $/any per servir mapes a Vietnam i el sud-est asiàtic.
@@ -139,7 +139,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ha <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">atorgat una micro-subvenció de 1000 $</a> a Organic Maps el febrer de 2023.

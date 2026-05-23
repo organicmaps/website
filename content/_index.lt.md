@@ -17,7 +17,7 @@ title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Žygiavimas') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Žygiavimas', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Praha') }}
 
@@ -104,7 +104,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Paieškos ir šaltinių tobulinimo projektas</a> buvo <a href="https://nlnet.nl/project/OrganicMaps/">finansuojamas</a> per NGI0 Entrust fondą. <a href="https://nlnet.nl/entrust/">NGI0 Entrust fondą</a> įsteigė <a href="https://nlnet.nl/">NLnet fondas</a> su Europos Komisijos <a href="https://www.ngi.eu/">Next Generation Internet</a> programos finansine parama, globojant DG Communications Networks, Content and Technology pagal dotacijos sutartį Nr. 101069594.
@@ -112,7 +112,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> rėmė studentų projektus Google Summer of Code programoje <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> metais. Svarbūs projektai apėmė Android Auto, Vikipedijos duomenų išgavimą, Android maršrutų įrašymą.
@@ -120,7 +120,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Interneto paslaugų teikėjas <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">suteikia mums</a> du virtualius serverius su iki 400 TB/mėn. nemokamu duomenų srautu žemėlapių atsisiuntimams ir atnaujinimams talpinti ir teikti.
@@ -128,7 +128,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">suteikia mums</a> nemokamą dedikuotą serverį, kurio vertė apie 12 000 USD per metus, žemėlapiams teikti Vietname ir Pietryčių Azijoje.
@@ -136,7 +136,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> 2023 m. vasarį Organic Maps <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">skyrė 1000 USD mikrodotaciją</a>.

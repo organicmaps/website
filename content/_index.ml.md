@@ -17,7 +17,7 @@ extra:
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking', loading='eager', fetchpriority='high') }}
 
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Prague') }}
 
@@ -97,7 +97,7 @@ To donate conveniently, click on your preferred payment method icon below:
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">തിരയൽ & ഉറവിടങ്ങൾ മെച്ചപ്പെടുത്തൽ പദ്ധതി</a> NGI0 Entrust Fund വഴി <a href="https://nlnet.nl/project/OrganicMaps/">ധനസഹായം</a> നൽകി. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> സ്ഥാപിച്ചത് <a href="https://nlnet.nl/">NLnet Foundation</a> ആണ്, യൂറോപ്യൻ കമ്മീഷന്റെ <a href="https://www.ngi.eu/">Next Generation Internet</a> പ്രോഗ്രാമിൽ നിന്നുള്ള സാമ്പത്തിക സഹായത്തോടെ, DG Communications Networks, Content and Technology യുടെ കീഴിൽ ഗ്രാന്റ് കരാർ നമ്പർ 101069594 പ്രകാരം.
@@ -105,7 +105,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> പ്രോഗ്രാമുകളിൽ Google Summer of Code പ്രോഗ്രാമിലെ വിദ്യാർത്ഥി പ്രോജക്റ്റുകളെ പിന്തുണച്ചു. ശ്രദ്ധേയമായ പ്രോജക്റ്റുകളിൽ Android Auto, വിക്കിപീഡിയ ഡംപ് എക്സ്ട്രാക്റ്റർ, Android ട്രാക്ക് റെക്കോർഡിംഗ് എന്നിവ ഉൾപ്പെടുന്നു.
@@ -113,7 +113,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> മാപ്പ് ഡൗൺലോഡുകളും അപ്‌ഡേറ്റുകളും ഹോസ്റ്റുചെയ്യുന്നതിനും സേവിക്കുന്നതിനുമായി 400 TB/മാസം വരെ സൗജന്യ ബാൻഡ്‌വിഡ്ത്ത് ഉള്ള രണ്ട് വെർച്വൽ സെർവറുകൾ നമുക്ക് <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">നൽകുന്നു</a>.
@@ -121,7 +121,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200px"></a>
+      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> വിയറ്റ്നാമിലും തെക്കുകിഴക്കൻ ഏഷ്യയിലും മാപ്പുകൾ സേവിക്കുന്നതിനായി ഏകദേശം $12,000/വർഷം വിലമതിക്കുന്ന ഒരു സൗജന്യ ഡെഡിക്കേറ്റഡ് സെർവർ നമുക്ക് <a href="https://44plus.vn/organicmaps">നൽകുന്നു</a>.
@@ -129,7 +129,7 @@ To donate conveniently, click on your preferred payment method icon below:
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> 2023 ഫെബ്രുവരിയിൽ Organic Maps-ന് <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 മൈക്രോഗ്രാന്റ് നൽകി</a>.

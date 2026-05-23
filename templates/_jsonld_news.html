@@ -1,0 +1,42 @@
+{# NewsArticle structured data for individual news posts.
+   Required by Google for Top Stories / Discover eligibility. #}
+{%- if has_article_image -%}
+{%- set preview_image_url = preview_image -%}
+{%- if preview_image_url and not (preview_image_url is starting_with("http")) -%}
+{%- set preview_image_url = get_url(path=preview_image_url) -%}
+{%- endif -%}
+{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ page.title | json_encode | safe }},
+  "datePublished": {{ page.date | date(format="%+") | json_encode | safe }},
+  {%- if page.updated %}
+  "dateModified": {{ page.updated | date(format="%+") | json_encode | safe }},
+  {%- else %}
+  "dateModified": {{ page.date | date(format="%+") | json_encode | safe }},
+  {%- endif %}
+  {%- if has_article_image %}
+  "image": [{{ preview_image_url | json_encode | safe }}],
+  {%- endif %}
+  "author": {
+    "@type": "Organization",
+    "name": "Organic Maps",
+    "url": "{{ config.base_url | safe }}/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Organic Maps",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ config.base_url | safe }}/logos/green-on-white.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ current_url | json_encode | safe }}
+  }{% if page.description %},
+  "description": {{ page.description | json_encode | safe }}{% endif %}
+}
+</script>

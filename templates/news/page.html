@@ -9,6 +9,7 @@
   <meta property="article:section" content="{{ section | replace(from='-', to=' ') | capitalize }}">
   {%- endfor %}
   {%- endif %}
+  {% include '_jsonld_news.html' %}
 {% endblock %}
 
 {% block content %}

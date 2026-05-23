@@ -2,6 +2,12 @@
 
 {% extends 'base.html' %}
 
+{% block article_meta %}
+{%- if page.taxonomies.faq -%}
+{% include '_jsonld_faq.html' %}
+{%- endif -%}
+{% endblock %}
+
 {% block content %}
 
 <h1>{{ resource.title }}</h1>

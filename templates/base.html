@@ -48,6 +48,23 @@
 
   <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">
 
+  {%- set translations = resource | get(key="translations", default=[]) -%}
+  {%- if translations | length > 0 %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ current_url | safe }}">
+  {%- for t in translations %}
+  {%- if t.lang != lang %}
+  <link rel="alternate" hreflang="{{ t.lang }}" href="{{ t.permalink | safe }}">
+  {%- endif %}
+  {%- endfor %}
+  {%- if lang == config.default_language %}
+  <link rel="alternate" hreflang="x-default" href="{{ current_url | safe }}">
+  {%- else %}
+  {%- for t in translations %}{% if t.lang == config.default_language %}
+  <link rel="alternate" hreflang="x-default" href="{{ t.permalink | safe }}">
+  {%- endif %}{% endfor %}
+  {%- endif %}
+  {%- endif %}
+
   {%- set preview_image = 'images/screenshots/prague.jpg' -%}
   {%- if resource.extra.preview_image -%}
   {%- set preview_image = resource.extra.preview_image -%}

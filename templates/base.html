@@ -112,12 +112,15 @@
   {%- endif %}
 
   {%- set preview_image = 'images/screenshots/prague.jpg' -%}
+  {%- set has_article_image = false -%}
   {%- if resource.extra.preview_image -%}
   {%- set preview_image = resource.extra.preview_image -%}
+  {%- set has_article_image = true -%}
   {%- elif resource.assets %}
   {%- set basename = resource.assets[0] | split(pat='/') | last %}
   {%- if basename is ending_with('.jpg') or basename is ending_with('.jpeg') or basename is ending_with('.png') or basename is ending_with('.webp') %}
   {%- set preview_image = resource_path ~ basename -%}
+  {%- set has_article_image = true -%}
   {%- endif %}
   {%- endif %}
   <meta property="og:image" content="{{ get_url(path=preview_image) }}">

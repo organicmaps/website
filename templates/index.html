@@ -1,5 +1,14 @@
 {% extends 'base.html' %}
 
+{% block article_meta %}
+{# Only the homepage (root section) gets the Organization+MobileApplication
+   schema; other pages in the root section reuse this template via
+   page_template = index.html but should not inherit homepage schema. #}
+{%- if section -%}
+{% include '_jsonld_home.html' %}
+{%- endif -%}
+{% endblock %}
+
 {% block content %}
 
 <h1>{{ resource.title }}</h1>

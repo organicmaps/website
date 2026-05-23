@@ -1,0 +1,51 @@
+{# FAQPage + BreadcrumbList structured data for individual FAQ answer pages.
+   Only emitted when page.taxonomies.faq is set. #}
+{%- set term_slug = page.taxonomies.faq[0] -%}
+{%- set term_label = term_slug | replace(from="-", to=" ") | capitalize -%}
+{%- set help_label = trans(key="faq-menu-title", lang=lang) -%}
+{%- if lang == config.default_language -%}
+{%- set lang_prefix = "" -%}
+{%- else -%}
+{%- set lang_prefix = "/" ~ lang -%}
+{%- endif -%}
+{%- set faq_root_url = config.base_url ~ lang_prefix ~ "/faq/" -%}
+{%- set term_url = faq_root_url ~ term_slug ~ "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": {{ page.title | json_encode | safe }},
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": {{ page.content | json_encode | replace(from="</", to="<\/") | safe }}
+    }
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ help_label | json_encode | safe }},
+      "item": {{ faq_root_url | json_encode | safe }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ term_label | json_encode | safe }},
+      "item": {{ term_url | json_encode | safe }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | json_encode | safe }}
+    }
+  ]
+}
+</script>

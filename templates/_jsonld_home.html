@@ -1,0 +1,52 @@
+{# Organization + MobileApplication structured data for the homepage.
+   Helps Google build a knowledge panel and link to App Store / Play / GitHub. #}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Organic Maps",
+    "alternateName": "Organic Maps OÜ",
+    "url": "{{ config.base_url | safe }}/",
+    "logo": "{{ config.base_url | safe }}/logos/green-on-white.svg",
+    "email": "hello@organicmaps.app",
+    "sameAs": [
+      "https://github.com/organicmaps/organicmaps",
+      "https://fosstodon.org/@organicmaps",
+      "https://facebook.com/OrganicMaps",
+      "https://x.com/OrganicMapsApp",
+      "https://instagram.com/organicmaps.app/",
+      "https://bsky.app/profile/organicmaps.bsky.social",
+      "https://www.threads.net/@organicmaps",
+      "https://www.reddit.com/r/organicmaps/",
+      "https://www.linkedin.com/company/organic-maps/",
+      "https://www.tiktok.com/@organicmaps",
+      "https://www.wikidata.org/wiki/Q107078602"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Organic Maps",
+    "operatingSystem": ["Android", "iOS"],
+    "applicationCategory": "TravelApplication",
+    "applicationSubCategory": "Navigation",
+    "url": "{{ config.base_url | safe }}/",
+    "downloadUrl": [
+      "https://apps.apple.com/app/organic-maps/id1567437057",
+      "https://play.google.com/store/apps/details?id=app.organicmaps",
+      "https://appgallery.huawei.com/#/app/C104325611",
+      "https://f-droid.org/en/packages/app.organicmaps/"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Organic Maps"
+    }
+  }
+]
+</script>

@@ -1,0 +1,52 @@
+{# 404 page deliberately doesn't extend base.html: base.html assumes
+   page/section/term/taxonomy is defined, which is never the case for a
+   404. Stub the variables the menu partials need. #}
+{% set resource_path = "/404.html" %}
+{% set_global resource = config %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+
+  <link rel="canonical" href="{{ config.base_url | safe }}/404.html">
+
+  <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
+
+  <title>Page not found – Organic Maps</title>
+</head>
+
+<body>
+  <header>
+    {% include 'top_menu.html' %}
+  </header>
+
+  <main>
+    <h1>Page not found</h1>
+    <p>The page you’re looking for doesn’t exist or has moved. Here are some good places to start:</p>
+    <ul>
+      <li><a href="/">Home</a> — about Organic Maps</li>
+      <li><a href="/faq/">Help</a> — frequently asked questions</li>
+      <li><a href="/news/">News</a> — latest releases and updates</li>
+      <li><a href="/donate/">Donate</a> — support the project</li>
+      <li><a href="/contribute/">Contribute</a> — get involved</li>
+    </ul>
+    <p>If you arrived here from a broken link on our site, please <a href="https://github.com/organicmaps/organicmaps.github.io/issues/new">let us know</a>.</p>
+  </main>
+
+  <footer>
+    {% include 'bottom_menu.html' %}
+    <p>
+      <span data-nosnippet>© 2026 Organic Maps OÜ, reg. code 16225385</span>
+      <span data-nosnippet>Harju maakond, Tallinn, Kesklinna linnaosa, Rävala pst 8-810, 10143, Estonia</span>
+      <span data-nosnippet>VAT EE102389234</span>
+      <span data-nosnippet><a href="mailto:hello@organicmaps.app">hello@organicmaps.app</a></span>
+    </p>
+  </footer>
+
+</body>
+
+</html>

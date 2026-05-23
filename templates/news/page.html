@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
+{% block og_type %}article{% endblock %}
+
+{% block article_meta %}
+  <meta property="article:author" content="Organic Maps">
+  {%- if page.taxonomies.news %}
+  {%- for section in page.taxonomies.news %}
+  <meta property="article:section" content="{{ section | replace(from='-', to=' ') | capitalize }}">
+  {%- endfor %}
+  {%- endif %}
+{% endblock %}
+
 {% block content %}
 
 <h1>{{ resource.title }}</h1>

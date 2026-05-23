@@ -9,6 +9,10 @@ if (window.localStorage.getItem('lang') === null) {
     {% for translation in resource.translations -%}
     "{{ translation.lang }}": "{{ translation.permalink  | replace(from=config.base_url, to="") | safe }}",
     {% endfor -%}
+    {%- elif term_translation_langs is defined and term_translation_langs | length > 0 -%}
+    {% for i in range(end=term_translation_langs | length) -%}
+    "{{ term_translation_langs[i] }}": "{{ term_translation_urls[i] | replace(from=config.base_url, to="") | safe }}",
+    {% endfor -%}
     {%- endif %}
   };
   var userPreferredLanguages = navigator.languages ? navigator.languages : [navigator.language];

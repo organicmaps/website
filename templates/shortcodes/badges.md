@@ -1,5 +1,5 @@
-<span class="badge">[![](/images/badges/apple-appstore.svg)][appstore]</span>
-<span class="badge">[![](/images/badges/googleplay.svg)][googleplay]</span>
-<span class="badge">[![](/images/badges/huawei-appgallery.svg)][appgallery]</span>
-<span class="badge">[![](/images/badges/obtainium.svg)][obtainium]</span>
-<span class="badge">[![](/images/badges/f-droid.svg)][fdroid]</span>
+<span class="badge"><a href="https://apps.apple.com/app/organic-maps/id1567437057" title="{{ trans(key='install-appstore', lang=lang) }}"><img src="/images/badges/apple-appstore.svg" alt="{{ trans(key='install-appstore', lang=lang) }}" width="180" height="53" loading="lazy" decoding="async" /></a></span>
+<span class="badge"><a href="https://play.google.com/store/apps/details?id=app.organicmaps&hl={{ lang }}" title="{{ trans(key='install-googleplay', lang=lang) }}"><img src="/images/badges/googleplay.svg" alt="{{ trans(key='install-googleplay', lang=lang) }}" width="180" height="53" loading="lazy" decoding="async" /></a></span>
+<span class="badge"><a href="https://appgallery.huawei.com/#/app/C104325611?local={{ lang }}" title="{{ trans(key='install-appgallery', lang=lang) }}"><img src="/images/badges/huawei-appgallery.svg" alt="{{ trans(key='install-appgallery', lang=lang) }}" width="180" height="54" loading="lazy" decoding="async" /></a></span>
+<span class="badge"><a href="https://github.com/organicmaps/organicmaps/wiki/Installing-Organic-Maps-from-GitHub-using-Obtainium" title="Organic Maps from GitHub Releases"><img src="/images/badges/obtainium.svg" alt="Install Organic Maps via Obtainium" width="180" height="53" loading="lazy" decoding="async" /></a></span>
+<span class="badge"><a href="https://f-droid.org/{{ lang | truncate(length=2, end='') }}/packages/app.organicmaps/" title="{{ trans(key='install-fdroid', lang=lang) }}"><img src="/images/badges/f-droid.svg" alt="{{ trans(key='install-fdroid', lang=lang) }}" width="180" height="54" loading="lazy" decoding="async" /></a></span>

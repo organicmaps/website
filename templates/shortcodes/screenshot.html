@@ -1,1 +1,9 @@
-<img class="screenshot" src="{{ src }}" alt="{{ alt }}" title="{{ alt }}" />
+{%- set loading = loading | default(value="lazy") -%}
+{%- set fetchpriority = fetchpriority | default(value="auto") -%}
+{%- set local_path = "static" ~ src -%}
+{%- set meta = get_image_metadata(path=local_path, allow_missing=true) -%}
+<img class="screenshot" src="{{ src }}" alt="{{ alt }}" title="{{ alt }}"
+  {%- if meta %} width="{{ meta.width }}" height="{{ meta.height }}"{% endif %}
+  loading="{{ loading }}"
+  decoding="async"
+  {%- if fetchpriority and fetchpriority != "auto" %} fetchpriority="{{ fetchpriority }}"{% endif %} />

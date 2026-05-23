@@ -21,6 +21,50 @@
 {%- set resource_path = resource.path %}
 {%- endif %}
 
+{#- Build a descriptive page_title for <title>, og:title, twitter:title.
+    Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
+    "{Term} – {Section label} – {Brand}" so the title is unique and
+    branded; everything else uses the resource's own title verbatim.
+    On non-default-language pages, only use the term name when it
+    contains non-ASCII characters (i.e. it was actually localized):
+    the term slug is otherwise the untranslated English form and
+    emitting it would mix languages in the title. -#}
+{%- set page_title = resource_title -%}
+{%- set term_description = "" -%}
+{%- if term -%}
+  {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
+  {%- set use_term_name = lang == config.default_language -%}
+  {%- if not use_term_name -%}
+    {%- if term.name | regex_replace(pattern="[a-zA-Z0-9-]", rep="") | length > 0 -%}
+      {%- set use_term_name = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if taxonomy.name == "faq" -%}
+    {%- set section_label = trans(key="faq-menu-title", lang=lang) -%}
+    {%- if use_term_name -%}
+      {%- set term_description = trans(key="faq-term-description", lang=lang) | replace(from="{}", to=term_name) -%}
+    {%- endif -%}
+  {%- elif taxonomy.name == "news" -%}
+    {%- if lang == config.default_language -%}
+      {%- set news_section = get_section(path="news/_index.md") -%}
+    {%- else -%}
+      {%- set news_section = get_section(path="news/_index." ~ lang ~ ".md") -%}
+    {%- endif -%}
+    {%- set section_label = news_section.extra.menu_title -%}
+    {%- if use_term_name -%}
+      {%- set term_description = trans(key="news-term-description", lang=lang) | replace(from="{}", to=term_name) -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if section_label -%}
+    {%- set brand = config.title | default(value="Organic Maps") -%}
+    {%- if use_term_name -%}
+      {%- set page_title = term_name ~ " – " ~ section_label ~ " – " ~ brand -%}
+    {%- else -%}
+      {%- set page_title = section_label ~ " – " ~ brand -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
 <!DOCTYPE html>
 {%- set rtl_langs = ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"] -%}
 <html lang="{{ lang }}" {%- if lang in rtl_langs -%} dir="rtl" {%- endif -%}>
@@ -31,7 +75,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
   {% block meta_description -%}
-  {%- if resource.description -%}
+  {%- if term_description -%}
+  {% set description = term_description %}
+  {%- elif resource.description -%}
   {% set description = resource.description %}
   {% elif resource.content -%}
   {% set description = resource.content | trim | striptags | linebreaksbr | safe | replace(from="<br>", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | truncate(length=160) %}
@@ -78,13 +124,13 @@
   {# TODO: Add og:video support #}
   <meta property="og:url" content="{{ current_url | safe }}">
   <meta property="og:type" content="{% block og_type %}website{% endblock %}">
-  <meta property="og:title" content="{{ resource_title }}">
+  <meta property="og:title" content="{{ page_title }}">
   {%- if description %}
   <meta property="og:description" content="{{ description }}">
   {%- endif -%}
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ resource_title }}">
+  <meta name="twitter:title" content="{{ page_title }}">
   {%- if description %}
   <meta name="twitter:description" content="{{ description }}">
   {%- endif %}
@@ -104,7 +150,7 @@
 
   <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
 
-  <title>{{ resource_title }}</title>
+  <title>{{ page_title }}</title>
 
   {%- if lang == config.default_language %}
   {% include 'language_redirect.html' %}

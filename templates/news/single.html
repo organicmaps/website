@@ -3,15 +3,8 @@
 
 {% block content %}
   {# TODO: Show articles tagged for the en language if they are missing for the other language #}
-  {% if lang == 'en' %}
-    {% set rootNewsSection = "news/_index.md" %}
-  {% else %}
-    {% set rootNewsSection = "news/_index." ~ lang ~ ".md" %}
-  {% endif %}
-  {% set rootNewsSection = get_section(path=rootNewsSection) %}
-  <h1>{{ rootNewsSection.title }}</h1>
-  <h2>{{ term.name | replace(from="-", to=" ") | capitalize }}</h2>
+  <h1>{{ term_name }} – {{ section_label }}</h1>
   {%- for page in term.pages -%}
-  <h3>{{ page.date | date(format='%B %e, %Y') }} <a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+  <h2>{{ page.date | date(format='%B %e, %Y') }} <a href="{{ page.permalink }}">{{ page.title }}</a></h2>
   {%- endfor -%}
 {% endblock %}

@@ -95,6 +95,13 @@
   <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">
 
   {%- set translations = resource | get(key="translations", default=[]) -%}
+
+  {#- Taxonomy term pages (/faq/app/, /news/releases/) intentionally
+      get no hreflang annotations. Zola's term resource has no
+      .translations field, and inferring equivalents from the term's
+      pages produces inconsistent clusters when content uses mixed
+      slugs across languages (e.g. Hebrew posts tagged both
+      "releases" and "גרסאות"), which Google may discard entirely. -#}
   {%- if translations | length > 0 %}
   <link rel="alternate" hreflang="{{ lang }}" href="{{ current_url | safe }}">
   {%- for t in translations %}

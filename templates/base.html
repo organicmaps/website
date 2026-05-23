@@ -151,6 +151,17 @@
 
   {%- block meta -%}{%- endblock %}
 
+  {# DNS warm-up for the most-clicked external destinations across the
+     site (app stores, code repo, donation flow). Lightweight DNS-only
+     hints; no preconnect to avoid wasting sockets on links the user
+     may not click. #}
+  <link rel="dns-prefetch" href="//apps.apple.com">
+  <link rel="dns-prefetch" href="//play.google.com">
+  <link rel="dns-prefetch" href="//github.com">
+  <link rel="dns-prefetch" href="//appgallery.huawei.com">
+  <link rel="dns-prefetch" href="//f-droid.org">
+  <link rel="dns-prefetch" href="//donate.organicmaps.app">
+
   <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
 
   <title>{{ page_title }}</title>

@@ -1,7 +1,7 @@
 [accrescent]: https://accrescent.app/app/app.organicmaps "Organic Maps in Accrescent"
 [api]: https://omaps.app/api "Organic Maps API"
 [appgallery]: https://appgallery.huawei.com/#/app/C104325611?local={{ lang }} "{{ trans(key='install-appgallery', lang=lang) }}"
-[appgallery_review]: appmarket://details?id=app.organicmaps
+[appgallery_review]: https://appgallery.huawei.com/#/app/C104325611?local={{ lang }}
 [appstore]: https://apps.apple.com/app/organic-maps/id1567437057 "{{ trans(key='install-appstore', lang=lang) }}"
 [appstore_review]: https://itunes.apple.com/app/id1567437057?action=write-review
 [bluesky]: https://bsky.app/profile/organicmaps.bsky.social "Organic Maps on Bluesky"
@@ -16,7 +16,7 @@
 [github]: https://github.com/organicmaps/organicmaps
 [github issues]: https://github.com/organicmaps/organicmaps/issues "GitHub Issues"
 [googleplay]: https://play.google.com/store/apps/details?id=app.organicmaps&hl={{ lang }} "{{ trans(key='install-googleplay', lang=lang) }}"
-[googleplay_review]: market://details?id=app.organicmaps
+[googleplay_review]: https://play.google.com/store/apps/details?id=app.organicmaps&hl={{ lang }}
 [gpx_issue]: https://github.com/organicmaps/organicmaps/issues/624
 [ideas]: https://github.com/organicmaps/organicmaps/discussions/categories/ideas
 [instagram]: https://instagram.com/organicmaps.app/

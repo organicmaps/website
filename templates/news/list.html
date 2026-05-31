@@ -20,6 +20,7 @@
 <section{% if page.translations | length <= 1 %} dir="auto"{% endif %} class="{% for taxonomy, terms in page.taxonomies %}{% for term in terms%}{{ term }} {% endfor %}{% else %}News{% endfor %}">
 
 <div class="news_date">&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format='%B %e, %Y') }}</a>&nbsp;</div>
+<h1>{{ page.title | safe }}</h1>
 {# Display wide images below the text instead of to the right. #}
 {% set_global noflex = '' %}
 {% for photo in page.assets %}

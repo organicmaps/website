@@ -539,6 +539,32 @@ name = "Nome"
 news-term-description = "Notizie e aggiornamenti su {} da Organic Maps."
 token = "Token"
 
+# Language: ja (Japanese / 日本語)
+[languages.ja]
+taxonomies = [
+  {name = "faq", feed = false},
+  {name = "news", feed = true},
+]
+[languages.ja.translations]
+address = "住所"
+back = "ニュースに戻る"
+contact = "お問い合わせ"
+edit-on-github = "GitHub で編集"
+engines = "対応 TTS エンジン"
+faq-menu-title = "よくある質問"
+faq-term-description = "Organic Maps の {} に関するよくある質問。"
+go-to-top = "トップへ戻る"
+install-appgallery = "Huawei AppGallery から Organic Maps をインストール"
+install-appstore = "AppStore から Organic Maps をインストール"
+install-googleplay = "Google Play から Organic Maps をインストール"
+install-fdroid = "F-Droid から Organic Maps をインストール"
+language = "日本語"
+language-word = "言語"
+more-info-om = "詳しくは公式サイトをご覧ください"
+name = "名前"
+news-term-description = "Organic Maps からの {} に関するニュースと更新情報。"
+token = "トークン"
+
 # Language: mr (Marathi / मराठी)
 [languages.mr]
 taxonomies = [

@@ -53,7 +53,7 @@
 [telegram_chat_it]: https://t.me/OrganicMapsIt "Chat di Organic Maps"
 [telegram_chat_ru]: https://t.me/OrganicMapsRu "Organic Maps чат"
 [telegram_chat_tr]: https://t.me/OrganicMapsTr "Organic Maps'la sohbet et"
-[telegram_chat_uk]: https://t.me/OrganicMapsUa "Organic Maps чат"
+[telegram_chat_uk]: https://t.me/OrganicMapsUa "Organic Maps українською"
 [telegram_chat_zh]: https://t.me/OrganicMapsZh "有机地图聊天"
 [testflight]: https://testflight.apple.com/join/lrKCl08I
 [threads]: https://www.threads.net/@organicmaps "Organic Maps on Threads"

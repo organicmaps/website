@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{#- Emails link to donate-api's own manage page carrying the token. When someone lands here
+    with a token anyway, forward it. Runs from <head>, above the stylesheet link, so a token
+    visitor is redirected before this page's CSS is even requested. #}
+{% block meta %}
+<script>
+  if (/[?&]token=[^&]/.test(window.location.search)) {
+    window.location.replace('https://donate-api.organicmaps.app/manage' + window.location.search);
+  }
+</script>
+{% endblock meta %}
+
+{% block content %}
+{% set f = resource.extra.form %}
+<section class="donate-form-page">
+  <h1>{{ resource.title }}</h1>
+  <div class="donate-form-intro">{{ resource.content | safe }}</div>
+
+  <form class="donate-form" method="POST" action="https://donate-api.organicmaps.app/lost-link">
+    {# Same as the subscribe form: donate-api answers on its own pages and needs to know which
+       translation of this one the donor came from to send them back to it. #}
+    <input type="hidden" name="lang" value="{{ lang }}">
+    <p class="donate-field">
+      <label for="email">{{ f.email_label }}</label>
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+      <small>{{ f.email_why }}</small>
+    </p>
+    <button type="submit">{{ f.submit }}</button>
+  </form>
+</section>
+{% endblock content %}

@@ -1,5 +1,6 @@
 @import "./language_selector";
 @import "./top_menu";
+@import "./donate_form";
 
 $darkBackgroundColor: #121212;
 $darkFontColor: #bbb;
@@ -357,7 +358,7 @@ img.edit-github-icon {
   max-width: 640px;
 
   h1 {
-    color: #006c35;
+    color: $donateAccent;
     border-bottom: none;
     font-size: clamp(2rem, 5vw, 2.75rem);
     margin-top: 0;
@@ -377,6 +378,6 @@ img.edit-github-icon {
   }
 
   .thanks-card h1 {
-    color: #4caf50;
+    color: $donateAccentDark;
   }
 }

@@ -1,2 +1,39 @@
-https://*.pages.dev/*
+# The production pages.dev alias duplicates the custom domain. Cloudflare adds noindex to
+# preview deployments itself; this rule covers the production alias with one permitted splat.
+https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+# Donation pages: lock down where forms can post and scripts can come from.
+# Production host only: preview deployments reference production assets by absolute URL
+# (get_url), which 'self' would block, leaving the preview unstyled and without the JS.
+# 'unsafe-inline' covers the templates' small language/redirect scripts, JSON-LD, and existing
+# inline styles; executable and visual resources otherwise stay same-origin.
+# form-action: Chrome also applies it to the 303 after the POST, i.e. to Mollie's checkout
+# host — hence the mollie.com wildcard rather than today's www.mollie.com.
+# The paths stay narrow because /donate/* would cover /donate/ itself, whose donate_buttons
+# shortcode posts to www.paypal.com, and this form-action would block that button.
+# Cloudflare gives _headers no include mechanism and allows one wildcard per rule, and :lang
+# cannot match zero segments —
+# so the English and localized subscribe paths genuinely need two rules.
+https://organicmaps.app/donate/subscribe/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app https://*.mollie.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+https://organicmaps.app/:lang/donate/subscribe/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app https://*.mollie.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+# manage never redirects to Mollie (it posts to /lost-link and gets HTML back), so its
+# form-action deliberately omits the mollie.com wildcard the subscribe rules need. It needs
+# the same two rules as subscribe for the same reason — :lang cannot match zero segments.
+https://organicmaps.app/donate/manage/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+https://organicmaps.app/:lang/donate/manage/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff

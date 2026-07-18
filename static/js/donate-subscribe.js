@@ -24,14 +24,26 @@
   var submitButton = document.getElementById('donate-submit');
   var presetInputs = form.querySelectorAll('input[name="amount"]');
   var intervalInputs = form.querySelectorAll('input[name="interval"]');
+  var langInput = form.querySelector('input[name="lang"]');
 
-  // Subscriptions are limited to these currencies (kept in sync with donate-api config.ts).
-  var SUB_CURRENCIES = ['EUR', 'USD', 'GBP'];
-  // Preset amounts per interval, scaled per currency below. Index 1 is the default.
+  // Preset amounts per interval, in EUR-equivalent units. Index 1 is the default.
   var PRESETS = { once: [5, 10, 25, 50], month: [3, 5, 10], year: [25, 35, 70] };
-  var CURRENCY_FACTOR = { JPY: 100, PLN: 4 };
-  var NO_DECIMALS = { JPY: true };
-  var SYMBOLS = { EUR: '€', USD: '$', GBP: '£', PLN: 'zł', CAD: '$', AUD: '$', NZD: '$', JPY: '¥', SGD: '$' };
+  // Rough units-per-EUR, kept in sync with donate-api config.ts bounds. Precision is
+  // irrelevant — this only scales the suggested preset buttons.
+  var CURRENCY_FACTOR = {
+    EUR: 1, USD: 1, GBP: 1, CHF: 1,
+    AED: 4, AUD: 1.5, BRL: 6, CAD: 1.5, CZK: 25, DKK: 7.5, HKD: 8, HUF: 400,
+    ILS: 4, ISK: 150, JPY: 150, MXN: 20, MYR: 5, NOK: 11, NZD: 2, PHP: 60,
+    PLN: 4, RON: 5, SEK: 11, SGD: 1.5, THB: 40, TWD: 35, ZAR: 20
+  };
+  var SYMBOLS = {
+    EUR: '€', USD: '$', GBP: '£', PLN: 'zł', CAD: '$', AUD: '$', NZD: '$', JPY: '¥',
+    SGD: 'S$', CZK: 'Kč', DKK: 'kr', SEK: 'kr', NOK: 'kr', ISK: 'kr', HUF: 'Ft',
+    RON: 'lei', ILS: '₪', AED: 'AED', HKD: 'HK$', MXN: 'MX$', MYR: 'RM', PHP: '₱',
+    THB: '฿', TWD: 'NT$', ZAR: 'R', BRL: 'R$', CHF: 'CHF'
+  };
+  // Default currency when the page language implies one and no ?currency= was passed.
+  var LANG_CURRENCY = { pl: 'PLN', cs: 'CZK', hu: 'HUF', sv: 'SEK' };
 
   function selectedInterval() {
     for (var i = 0; i < intervalInputs.length; i++) if (intervalInputs[i].checked) return intervalInputs[i].value;
@@ -47,20 +59,33 @@
 
   function formatAmount(value, currency) {
     var symbol = SYMBOLS[currency] || currency;
-    return currency === 'JPY' || currency === 'PLN' ? value + ' ' + symbol : symbol + value;
+    // Symbol-first for currencies where that is customary, amount-first otherwise.
+    if ('€$£₪₱¥'.indexOf(symbol.charAt(0)) !== -1 || symbol === 'HK$' || symbol === 'MX$' ||
+        symbol === 'NT$' || symbol === 'S$' || symbol === 'R$' || symbol === 'RM' || symbol === 'R') {
+      return symbol + value;
+    }
+    return value + ' ' + symbol;
+  }
+
+  function scalePreset(base, currency) {
+    var factor = CURRENCY_FACTOR[currency] || 1;
+    var value = base * factor;
+    if (factor === 1) return value;
+    // Snap scaled presets to friendly figures.
+    if (value >= 1000) return Math.round(value / 100) * 100;
+    if (value >= 100) return Math.round(value / 10) * 10;
+    return Math.round(value);
   }
 
   function refreshPresets(keepChecked) {
     var interval = selectedInterval();
     var currency = currencySelect.value;
-    var factor = CURRENCY_FACTOR[currency] || 1;
     var presets = PRESETS[interval];
     for (var i = 0; i < presetInputs.length; i++) {
       var input = presetInputs[i];
       var label = form.querySelector('label[for="' + input.id + '"]');
       if (i < presets.length) {
-        var value = presets[i] * factor;
-        if (NO_DECIMALS[currency]) value = Math.round(value);
+        var value = scalePreset(presets[i], currency);
         input.value = String(value);
         input.hidden = false;
         if (label) {
@@ -78,18 +103,6 @@
     }
   }
 
-  function refreshCurrencies() {
-    var interval = selectedInterval();
-    var subscription = interval !== 'once';
-    for (var i = 0; i < currencySelect.options.length; i++) {
-      var option = currencySelect.options[i];
-      var onceOnly = option.hasAttribute('data-once-only');
-      option.disabled = subscription && onceOnly;
-      option.hidden = subscription && onceOnly;
-    }
-    if (subscription && SUB_CURRENCIES.indexOf(currencySelect.value) === -1) currencySelect.value = 'EUR';
-  }
-
   function refreshSubmitLabel() {
     var interval = selectedInterval();
     var amount = selectedAmount();
@@ -103,11 +116,17 @@
   }
 
   function refresh(keepChecked) {
-    refreshCurrencies();
     refreshPresets(keepChecked);
     refreshSubmitLabel();
     refreshEmailWarning();
   }
+
+  // Anti-bot page-load timestamp: humans need more than 3 seconds to fill the form.
+  var tsInput = document.createElement('input');
+  tsInput.type = 'hidden';
+  tsInput.name = 'ts';
+  tsInput.value = String(new Date().getTime());
+  form.appendChild(tsInput);
 
   // Prefill from query parameters (the app's place-page buttons link with these).
   var qInterval = queryParam('interval');
@@ -115,6 +134,7 @@
     for (var i = 0; i < intervalInputs.length; i++) intervalInputs[i].checked = intervalInputs[i].value === qInterval;
   }
   var qCurrency = (queryParam('currency') || '').toUpperCase();
+  if (!qCurrency && langInput && LANG_CURRENCY[langInput.value]) qCurrency = LANG_CURRENCY[langInput.value];
   if (qCurrency) {
     for (var j = 0; j < currencySelect.options.length; j++) {
       if (currencySelect.options[j].value === qCurrency) currencySelect.value = qCurrency;

@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% set f = resource.extra.form %}
+{% set donate = get_page(path="donate/index.md") %}
+{% set donate_translated = donate.translations | filter(attribute='lang', value=lang) | first %}
+{% if donate_translated %}
+  {% set donate_url = donate_translated.permalink %}
+{% else %}
+  {% set donate_url = donate.permalink %}
+{% endif %}
+<section class="donate-form-page">
+  <h1>{{ resource.title }}</h1>
+  <div class="donate-form-intro">{{ resource.content | safe }}</div>
+
+  <form id="donate-form" class="donate-form" method="POST" action="https://donate-api.organicmaps.app/checkout">
+    <input type="hidden" name="lang" value="{{ lang }}">
+    {# Honeypot: humans never see or fill this field. #}
+    <p class="visually-hidden" aria-hidden="true">
+      <label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </p>
+
+    <fieldset class="donate-fieldset">
+      <legend>{{ f.interval_label }}</legend>
+      <div class="donate-pills donate-intervals">
+        <input type="radio" id="interval-once" name="interval" value="once" checked>
+        <label for="interval-once">{{ f.once }}</label>
+        <input type="radio" id="interval-month" name="interval" value="month">
+        <label for="interval-month">{{ f.monthly }}</label>
+        <input type="radio" id="interval-year" name="interval" value="year">
+        <label for="interval-year">{{ f.yearly }}</label>
+      </div>
+    </fieldset>
+
+    <fieldset class="donate-fieldset">
+      <legend>{{ f.amount_label }}</legend>
+      <div class="donate-pills donate-amounts">
+        <input type="radio" id="amount-0" name="amount" value="5"><label for="amount-0">5</label>
+        <input type="radio" id="amount-1" name="amount" value="10" checked><label for="amount-1">10</label>
+        <input type="radio" id="amount-2" name="amount" value="25"><label for="amount-2">25</label>
+        <input type="radio" id="amount-3" name="amount" value="50"><label for="amount-3">50</label>
+      </div>
+      <p class="donate-custom-row">
+        <label for="amount-custom">{{ f.other_label }}</label>
+        <input id="amount-custom" name="amount_custom" type="text" inputmode="decimal" autocomplete="off"
+               placeholder="7.50" aria-describedby="amount-error">
+        <select name="currency" id="currency" aria-label="{{ f.currency_label }}">
+          <option value="EUR" selected>€ EUR</option>
+          <option value="USD">$ USD</option>
+          <option value="GBP">£ GBP</option>
+          <option value="CHF" data-once-only>CHF</option>
+          <option value="PLN" data-once-only>zł PLN</option>
+          <option value="CAD" data-once-only>$ CAD</option>
+          <option value="AUD" data-once-only>$ AUD</option>
+          <option value="NZD" data-once-only>$ NZD</option>
+          <option value="JPY" data-once-only>¥ JPY</option>
+          <option value="SGD" data-once-only>$ SGD</option>
+        </select>
+      </p>
+      <small id="amount-error" class="donate-warning" role="alert" hidden>{{ f.error_amount }}</small>
+    </fieldset>
+
+    <p class="donate-field">
+      <label for="email">{{ f.email_label }}</label>
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email"
+             aria-describedby="email-why email-warning">
+      <small id="email-why">{{ f.email_why }}</small>
+      <small id="email-warning" class="donate-warning" hidden>{{ f.email_warning }}</small>
+    </p>
+
+    <p class="donate-field">
+      <label for="donor-name">{{ f.name_label }}</label>
+      <input id="donor-name" name="name" type="text" autocomplete="name" maxlength="100"
+             aria-describedby="name-why">
+      <small id="name-why">{{ f.name_why }}</small>
+    </p>
+
+    <button type="submit" id="donate-submit"
+            data-label-once="{{ f.submit_once }}"
+            data-label-month="{{ f.submit_month }}"
+            data-label-year="{{ f.submit_year }}"
+            data-label-loading="{{ f.submit_loading }}">{{ f.submit }}</button>
+    <p class="donate-secure-note">{{ f.secure_note }}</p>
+    <p class="donate-alt"><a href="{{ donate_url | replace(from=config.base_url, to="") | safe }}">{{ f.other_ways }}</a></p>
+  </form>
+</section>
+<script src="{{ get_url(path="js/donate-subscribe.js", cachebust=true) }}" defer></script>
+{% endblock content %}

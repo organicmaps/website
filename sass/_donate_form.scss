@@ -1,0 +1,220 @@
+// Donation subscribe/manage form (/donate/subscribe/, /donate/manage/).
+// Mobile-first, logical properties for RTL, dark-mode block at the bottom.
+
+$donateAccent: #006c35;
+$donateAccentDark: #4caf50;
+
+.donate-form-page {
+  max-width: 30rem;
+  margin-inline: auto;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.donate-form-intro {
+  color: #555;
+}
+
+.donate-form {
+  margin-block-start: 1rem;
+
+  fieldset.donate-fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0 0 1.1rem;
+
+    legend {
+      font-weight: 600;
+      padding: 0;
+      margin-block-end: 0.4rem;
+    }
+  }
+
+  .donate-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+
+      + label {
+        display: inline-block;
+        min-width: 3.2rem;
+        padding: 0.6rem 1rem;
+        text-align: center;
+        border: 1px solid #bbb;
+        border-radius: 999px;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      &:checked + label {
+        background: $donateAccent;
+        border-color: $donateAccent;
+        color: #fff;
+      }
+
+      &:focus-visible + label {
+        outline: 3px solid $donateAccent;
+        outline-offset: 2px;
+      }
+
+      &[hidden] + label,
+      + label[hidden] {
+        display: none;
+      }
+    }
+  }
+
+  .donate-custom-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-block: 0.8rem 0.2rem;
+
+    label {
+      flex-basis: 100%;
+      font-weight: 600;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+    font-size: 1rem;
+    padding: 0.6rem 0.7rem;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    min-height: 2.75rem;
+    box-sizing: border-box;
+  }
+
+  #amount-custom {
+    flex: 1 1 8rem;
+  }
+
+  .donate-field {
+    display: block;
+    margin-block: 1rem;
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-block-end: 0.3rem;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    small {
+      display: block;
+      margin-block-start: 0.3rem;
+      color: #666;
+    }
+  }
+
+  .donate-warning {
+    display: block;
+    margin-block-start: 0.4rem;
+    color: #a1440b;
+  }
+
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.9rem 1rem;
+    margin-block-start: 1.2rem;
+    background: $donateAccent;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:focus-visible {
+      outline: 3px solid $donateAccent;
+      outline-offset: 2px;
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: progress;
+    }
+  }
+
+  .donate-secure-note {
+    font-size: 0.85rem;
+    color: #666;
+    text-align: center;
+  }
+
+  .donate-alt {
+    text-align: center;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  .donate-form-intro,
+  .donate-form .donate-field small,
+  .donate-form .donate-secure-note {
+    color: #999;
+  }
+
+  .donate-form {
+    .donate-pills input[type="radio"] {
+      + label {
+        border-color: #444;
+      }
+
+      &:checked + label {
+        background: $donateAccentDark;
+        border-color: $donateAccentDark;
+        color: #000;
+      }
+
+      &:focus-visible + label {
+        outline-color: $donateAccentDark;
+      }
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      background: #1e1e1e;
+      border-color: #444;
+    }
+
+    button[type="submit"] {
+      background: $donateAccentDark;
+      color: #000;
+
+      &:focus-visible {
+        outline-color: $donateAccentDark;
+      }
+    }
+
+    .donate-warning {
+      color: #e8a06a;
+    }
+  }
+}

@@ -1,2 +1,20 @@
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+# Donation pages: lock down where forms can post and scripts can come from.
+# 'unsafe-inline' stays because base.html embeds small inline scripts (language redirect,
+# JSON-LD); no third-party origin is allowed anywhere.
+/donate/subscribe/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action https://donate-api.organicmaps.app https://www.mollie.com https://pay.mollie.com https://payment-links.mollie.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+/:lang/donate/subscribe/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action https://donate-api.organicmaps.app https://www.mollie.com https://pay.mollie.com https://payment-links.mollie.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+/donate/manage/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action https://donate-api.organicmaps.app; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff

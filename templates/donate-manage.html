@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% set f = resource.extra.form %}
+<section class="donate-form-page">
+  <h1>{{ resource.title }}</h1>
+  <div class="donate-form-intro">{{ resource.content | safe }}</div>
+
+  {# Emails link to donate-api's own manage page carrying the token. When someone lands
+     here with a token anyway, forward it. #}
+  <script>
+    (function () {
+      var query = window.location.search.substring(1).split('&');
+      for (var i = 0; i < query.length; i++) {
+        var pair = query[i].split('=');
+        if (decodeURIComponent(pair[0]) === 'token' && pair[1]) {
+          window.location.replace('https://donate-api.organicmaps.app/manage' + window.location.search);
+          return;
+        }
+      }
+    })();
+  </script>
+
+  <form class="donate-form" method="POST" action="https://donate-api.organicmaps.app/lost-link">
+    <p class="donate-field">
+      <label for="email">{{ f.email_label }}</label>
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+      <small>{{ f.email_why }}</small>
+    </p>
+    <button type="submit">{{ f.submit }}</button>
+  </form>
+</section>
+{% endblock content %}

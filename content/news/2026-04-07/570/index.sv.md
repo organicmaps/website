@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Den här aprilversionen innehåller, utöver många buggfixar och förbättringar, tre enkla sanningar: vandrare vill veta hur många höjdmeter som väntar, alla vill att adressökningen bara ska fungera, och ingen ska känna att de faller av kartans kant. Tack vare våra bidragsgivare, era fina recensioner, [donationer](@/donate/index.sv.md) och [stöd](@/contribute/index.sv.md) har vi löst alla tre — och mycket mer därtill.
+Den här aprilversionen innehåller, utöver många buggfixar och förbättringar, tre enkla sanningar: vandrare vill veta hur många höjdmeter som väntar, alla vill att adressökningen bara ska fungera, och ingen ska känna att de faller av kartans kant. Tack vare våra bidragsgivare, dina fina recensioner, [donationer](@/donate/index.sv.md) och [stöd](@/contribute/index.sv.md) har vi löst alla tre — och mycket mer därtill.
 
 Oavsett om våren lockar dig ut på nya stigar eller om hösten på södra halvklotet manar till en sista lång tur, hoppas vi att den här uppdateringen gör din nästa resa lite enklare och mycket vackrare.
 
@@ -31,14 +31,14 @@ Hämta apriluppdateringen på <https://get.omaps.org> eller på [App Store][apps
 - Du kan nu lägga till en ny plats i OpenStreetMap efter att ha valt din nuvarande position på kartan (Mikhail Listratsenka)
 - Lade till ikoner för food courts och stadsportar (David Martinez)
 - Lagt till underkategorier för klädbutiker: kvinnor, män, barn, bröllop, sport och underkläder, plus kontorstyper (Viktor Govako)
-- Uppdaterade sökkategorier: lade till "Bread" för bagerier, "Shawarma" som kök och andra synonymförbättringar (Viktor Govako)
+- Uppdaterade sökkategorier: lade till ”Bread” för bagerier, ”Shawarma” som kök och andra synonymförbättringar (Viktor Govako)
 - Kartan fortsätter nu korrekt över antimeridianen (±180° longitud) när du drar och roterar den (Alexander Borsuk, Viktor Govako)
 - Cykelnavigering använder nu kompassriktning vid låga hastigheter (HossamSaberr)
 - Förbättrad adressökning med husnummer (Viktor Govako)
 - Åtgärdat ett systemfel vid planering av rutter nära vissa regionala gränser (Viktor Govako)
 - Korrigerade sökresultat när stads- och delstatsnamn är desamma (Viktor Govako)
 - Lagt till synonymer för amerikanska gator: highway, hwy, freeway och fwy (Viktor Govako)
-- Åtgärdade felplacerat hårkors i redigeraren när du trycker på "Lägg till plats" (José Araújo)
+- Åtgärdade felplacerat hårkors i redigeraren när du trycker på ”Lägg till plats” (José Araújo)
 - Fixad visning av öppettider för platser med förskjuten soluppgång/solnedgång (Alexander Borsuk)
 - Fixade att GPS-spårinspelning tappade punkter mellan segment (Alexander Borsuk)
 - Korrigerad hantering av sommartid för tidszoner (Andrei Shkrob)
@@ -57,7 +57,7 @@ Hämta apriluppdateringen på <https://get.omaps.org> eller på [App Store][apps
 - Fixat punktval i höjdprofilen för interpolerade punkter (Kiryl Kaveryn)
 - Förbättrade gester i modala vyer: snäpper till närmaste steg, stängs vid kantdragning och återställer föregående läge när de öppnas igen (Kiryl Kaveryn)
 - Du kan nu starta en giltig rutt även när du uppmanas att ladda ner ytterligare kartor (Kiryl Kaveryn)
-- Ökade tryckytan för knapparna i navigeringsfältet "Lägg till plats" (Noahdyn)
+- Ökade tryckytan för knapparna i navigeringsfältet ”Lägg till plats” (Noahdyn)
 - Fixade en krasch vid export av spår (Alexander Borsuk, Kiryl Kaveryn)
 - Fixad sökning i listor över bokmärken och spår när du öppnar den från platsdetaljer (Kiryl Kaveryn)
 
@@ -71,7 +71,7 @@ Hämta apriluppdateringen på <https://get.omaps.org> eller på [App Store][apps
 - Fixat uppladdning av kartredigeringar till OpenStreetMap (Viktor Govako)
 - Fixat fildelning till Google Drive och andra appar (Alexander Borsuk)
 - Fixade återimport av bokmärken när appen öppnas igen från de senaste apparna (Alexander Borsuk)
-- Att öppna OpenStreetMap-sök-URL:er som `openstreetmap.org/search?query=Pizza` startar nu sökningen i Organic Maps (Rawdyrathaur)
+- Att öppna OpenStreetMap-söklänkar som `openstreetmap.org/search?query=Pizza` startar nu sökningen i Organic Maps (Rawdyrathaur)
 - Flera krascher åtgärdade (Alexander Borsuk)
 
 ### Skrivbord (Linux och Mac OS)

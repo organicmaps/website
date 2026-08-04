@@ -1,5 +1,5 @@
 ---
-title: "11 नोव्हेंबर 2025 च्या ऑर्गेनिक मॅप्स रिलीझमध्ये हायलाइट केलेल्या डाउनलोड केलेल्या नकाशा क्षेत्रांसह अधिक तपशीलवार जागतिक नकाशा, सशर्त मार्ग समर्थन आणि बरेच काही"
+title: "11 नोव्हेंबर 2025 च्या Organic Maps रिलीझमध्ये हायलाइट केलेल्या डाउनलोड केलेल्या नकाशा क्षेत्रांसह अधिक तपशीलवार जागतिक नकाशा, सशर्त मार्ग समर्थन आणि बरेच काही"
 date: 2025-11-11
 slug: "detailed-world-map-highlighted-downloaded-regions-conditional-routing-support-carplay-android-auto-chromebook-mr"
 taxonomies:
@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- बुकमार्क सूची किंवा ट्रॅक सूची हटविल्यानंतर ("अधिक" बटणाद्वारे), ॲप आता योग्यरित्या मागील स्क्रीनवर परत येतो (Kiryl Kaveryn)
-- "बद्दल" स्क्रीनवर [TikTok][tiktok], [Threads][threads], आणि [Bluesky][bluesky] सोशल मीडिया लिंक्स जोडल्या (Kiryl Kaveryn)
-- होम स्क्रीनवरील ॲप आयकॉनच्या द्रुत क्रियांमध्ये "बगची तक्रार करा" जोडले (Kiryl Kaveryn)
+- बुकमार्क सूची किंवा ट्रॅक सूची हटविल्यानंतर (“अधिक” बटणाद्वारे), ॲप आता योग्यरित्या मागील स्क्रीनवर परत येतो (Kiryl Kaveryn)
+- “बद्दल” स्क्रीनवर [TikTok][tiktok], [Threads][threads], आणि [Bluesky][bluesky] सोशल मीडिया लिंक्स जोडल्या (Kiryl Kaveryn)
+- होम स्क्रीनवरील ॲप आयकॉनच्या द्रुत क्रियांमध्ये “बगची तक्रार करा” जोडले (Kiryl Kaveryn)
 - विविध ॲप आणि CarPlay क्रॅश निश्चित केले (Kiryl Kaveryn)
 
 ### Android
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto नेहमी कार राउटिंग मोड वापरते (Andrei Shkrob)
 - हाँगकाँग (zh-HK) आणि मकाऊ (zh-MO) प्रदेशांसाठी पारंपारिक चीनी भाषांतरे वापरा (Alexander Borsuk)
 
-कृपया आम्हाला कळवा की तुम्ही OpenGL ES 3 समर्थनासह कोणत्याही x86 डिव्हाइसवर (Chromebooks सह) ऑर्गेनिक मॅप्स चालवू शकता का.
+कृपया आम्हाला कळव की तू OpenGL ES 3 समर्थनासह कोणत्याही x86 डिव्हाइसवर (Chromebooks सह) Organic Maps चालवू शकतोस का.
 
 ### नकाशा आणि शैली
 
@@ -62,14 +62,14 @@ taxonomies:
 
 मागील रिलीझ नोट्स: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-नवीनतम ऑर्गेनिक मॅप्स आवृत्ती [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून मिळवा.
+नवीनतम Organic Maps आवृत्ती [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून मिळव.
 
-P.S. लवकर वैशिष्ट्यांसाठी बीटा चाचणीमध्ये सामील व्हा आणि आम्हाला बग आणि समस्या शोधण्यात मदत करा:
+P.S. लवकर वैशिष्ट्यांसाठी बीटा चाचणीमध्ये सामील हो आणि आम्हाला बग आणि समस्या शोधण्यात मदत कर:
 - [iOS][testflight]
 - [Android][firebase].
 
-ऑर्गेनिक मॅप्स वापरल्याबद्दल आणि प्रकल्पाला पाठिंबा दिल्याबद्दल धन्यवाद!
+Organic Maps वापरल्याबद्दल आणि प्रकल्पाला पाठिंबा दिल्याबद्दल धन्यवाद!
 
-ऑर्गेनिक मॅप्स टीम
+Organic Maps टीम
 
 {{ references() }}

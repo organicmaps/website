@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Dėka mūsų bendradarbių, **penktadienis yra puikus laikas atnaujinti Organic Maps!** Gaukite atnaujinimą adresu [https://get.omaps.org](https://get.omaps.org) arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Dėka mūsų bendradarbių, **penktadienis yra puikus laikas atnaujinti Organic Maps!** Gauk atnaujinimą adresu [https://get.omaps.org](https://get.omaps.org) arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-Jei norite matyti **realaus laiko viešojo transporto tvarkaraščius** savo mieste viename iš būsimų atnaujinimų, prašome:
+Jei nori matyti **realaus laiko viešojo transporto tvarkaraščius** savo mieste viename iš būsimų atnaujinimų, prašome:
 
 1. [Atsiųsti mums](https://github.com/organicmaps/gtfs-osm-matcher/issues) **statinio ir realaus laiko GTFS srauto šaltinius** iš vietinių transporto agentūrų, kad galėtume juos išbandyti ir integruoti.
-2. Patikrinti, ar **OpenStreetMap duomenys** jūsų vietovėje apima visas autobusų/tramvajų/traukinių stoteles su reikiamomis žymomis adresu [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+2. Patikrinti, ar **OpenStreetMap duomenys** tavo vietovėje apima visas autobusų/tramvajų/traukinių stoteles su reikiamomis žymomis adresu [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Išleidimo pastabos
 
@@ -24,7 +24,7 @@ Jei norite matyti **realaus laiko viešojo transporto tvarkaraščius** savo mie
 * Pagerintas paieškos rezultatų reitingavimas kategorijoms (Viktor Govako)
 * Pridėta uzbekų virtuvė (alnzrv)
 * Žemėlapyje pridėtos nusileidimo lynais (zip line) vietos (Rawdyrathaur)
-* Pataisytos „Wikimedia“ nuorodos su „?“ pavadinime (alnzrv)
+* Pataisytos Wikimedia nuorodos su „?“ pavadinime (alnzrv)
 * Palaikomi GPX failai su „+“ koordinatėse (Alexander Borsuk)
 
 ### iOS
@@ -36,12 +36,12 @@ Jei norite matyti **realaus laiko viešojo transporto tvarkaraščius** savo mie
 * Išskleidžiamos darbo valandos (Rover track)
 * Pataisytas darbo valandų rodymas (DaN0mic)
 * Pataisyta dialogo įvesties teksto fokusavimo problema (Alexander Borsuk)
-* Rodyti ir naudoti MSL aukštį įrašytiems pėdsakams Android 14+ (Alexander Borsuk, Viktor Govako)
+* Rodyti ir naudoti MSL aukštį įrašytoms trasoms Android 14+ (Alexander Borsuk, Viktor Govako)
 * Pataisytas KML, KMZ, GPX, GeoJSON importas iš WhatsApp (Sergiy Kozyr)
-* Pataisytas strigimas (Alexander Borsuk)
+* Pataisyta strigtis (Alexander Borsuk)
 * Išsamesni OSM prisijungimo klaidų pranešimai (Owm Dubey)
 * Pagerintas vietos puslapio našumas (Owm Dubey)
-* Pataisyta žymių/pėdsakų sąrašo matomumo piktograma senesniuose Android įrenginiuose (Owm Dubey)
+* Pataisyta žymų/trasų sąrašo matomumo piktograma senesniuose Android įrenginiuose (Owm Dubey)
 
 ### Vertimai
 
@@ -57,7 +57,7 @@ Jei norite matyti **realaus laiko viešojo transporto tvarkaraščius** savo mie
 * Atnaujinti vertimai iš Weblate bendradarbių (Viktor Govako)
 
 
-Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir praneštumėte apie problemas:
+Prisijunk prie beta testavimo, kad išbandytum ankstyvas funkcijas ir praneštum apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

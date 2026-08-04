@@ -5,21 +5,21 @@ taxonomies:
   news: ["releases"]
 ---
 
-Aquela segonda publicacion de setembre aporta un ecran de planificacion de trajèctes tornat concebre e la possibilitat d'afichar lo contengut de la balisa OpenStreetMap `description` sus iOS. Per trobar de lòcs amb aquela balisa, picatz `?description` dins la recèrca (similar a `?wiki`).
+Aquela segonda publicacion de setembre aporta un ecran de planificacion de trajèctes tornat concebre e la possibilitat d'afichar lo contengut de la balisa OpenStreetMap `description` sus iOS. Per trobar de lòcs amb aquela balisa, pica `?description` dins la recèrca (similar a `?wiki`).
 
 Inclutz tanben mantas correccions e melhoraments sus iOS e Android (detalhs çai-jos).
 
-Foncionnalitats recentas que poiriatz aver mancat:
-- Nombres de linhas de transpòrt public quand seleccionatz una arrèsta
-- Rutas de caminada e de bicicleta (activatz per lo boton de las Jaças en naut a esquèrra)
+Foncionnalitats recentas que poiriás aver mancat:
+- Nombres de linhas de transpòrt public quand seleccionas una arrèsta
+- Rutas de caminada e de bicicleta (activa amb lo boton de las Jaças en naut a esquèrra)
 - Afichar los noms dels marcaplans sus la mapa (activar dins los Paramètres)
 - L’icòna ✎ permet l’edicion rapida dels marcaplans
 
-Organic Maps es possible mercé als contributors, [vòstras donacions](@/donate/index.oc.md) e [vòstre sosten](@/contribute/index.md).
+Organic Maps es possible mercé als contributors, [tas donacions](@/donate/index.oc.md) e [ton sosten](@/contribute/index.md).
 
 ### Nòtas detalhadas
 
-- Donadas OpenStreetMap novèlas al 13 de septembre
+- Donadas OpenStreetMap novèlas al 13 de setembre
 - Illas fòrça pichonas suprimidas de la mapa mondiala (Viktor Govako)
 - Afichar lo còde postal (ZIP) dins los detalhs d’adreça (Viktor Govako)
 - Correccion del centrat incorrècte sus la posicion actuala (Kiryl Kaveryn, Viktor Govako)
@@ -38,7 +38,7 @@ Organic Maps es possible mercé als contributors, [vòstras donacions](@/donate/
 
 #### iOS
 
-- NOVÈL: afichar lo contengut de la balisa OSM `description` (recercatz `?description`) (Kiryl Kaveryn, Viktor Govako)
+- NOVÈL: afichar lo contengut de la balisa OSM `description` (recèrca `?description`) (Kiryl Kaveryn, Viktor Govako)
 - NOVÈL: ecran de planificacion de trajècte tornat concebre (Kiryl Kaveryn)
 
 #### Android
@@ -50,10 +50,10 @@ Organic Maps es possible mercé als contributors, [vòstras donacions](@/donate/
 - Correccion de la mesa a jorn de posicion en navigation sus ROM personalizadas (ex. Lineage + MicroG) (Viktor Govako)
 - Icòna de greda blu (editar) pels marcaplans (Alexander Borsuk)
 - Reduccion de l’auçada verticau de l’apercebut d’informacion del lòc (Alexander Borsuk)
-- Supression de l’angle d’azimut cap al nòrd de l’apercebut (tocatz la sageta blava) (Alexander Borsuk)
+- Supression de l’angle d’azimut cap al nòrd de l’apercebut (toca la sageta blava) (Alexander Borsuk)
 
-Telecargatz la darrièra version: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Telecarga la darrièra version d’Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Rejonhètz la beta: [iOS][testflight] / [Android][firebase].
+Rejonh la beta: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

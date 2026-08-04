@@ -6,15 +6,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-وقت به‌روزرسانی Organic Maps است! مسیرهای سریع‌تر بین کشورها و مناطق، داده‌های نقشه OSM جدید، و بسیاری رفع اشکالات برای Android در دومین به‌روزرسانی برنامه در ۲۰۲۶.
+وقت به‌روزرسانی Organic Maps است! مسیرهای سریع‌تر بین کشورها و مناطق، داده‌های نقشه OSM جدید، و رفع اشکال‌های فراوان برای Android در دومین به‌روزرسانی برنامه در ۲۰۲۶.
 
-آن را از [get.omaps.org](https://get.omaps.org) یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید.
+آن را از [get.omaps.org](https://get.omaps.org) یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کن.
 
 ### چه چیزی جدید است
 
 * مسیرها بین کشورها سریع‌تر ایجاد می‌شوند و دیگر در برخی موارد باعث خرابی کمبود حافظه نمی‌شوند _(Viktar Havaka)_
 * داده‌های به‌روزرسانی شده OpenStreetMap تا ۲۵ ژانویه _(Viktar Havaka)_
-* پشتیبانی از صادرات GeoJSON برای نشانک‌ها و مسیرها _(Sergiy Kozyr, Alexander Borsuk, Viktar Havaka)_
+* پشتیبانی از صدور GeoJSON برای نشانک‌ها و مسیرهای ضبط‌شده _(Sergiy Kozyr, Alexander Borsuk, Viktar Havaka)_
 * پیوندهای اصلاح شده و به‌روزرسانی شده به وب‌سایت Organic Maps _(Alexander Borsuk)_
 
 ### Android
@@ -40,11 +40,11 @@ taxonomies:
 * افزودن ترجمه‌های از دست رفته برای پل‌های متروکه _(Alexander Borsuk)_
 
 
-به آزمایش نسخه بتا بپیوندید تا ویژگی‌های اولیه را امتحان کرده و مشکلات را گزارش دهید:
+به آزمایش نسخه بتا بپیوند تا ویژگی‌های اولیه را امتحان کنی و مشکلات را گزارش بدهی:
 - [iOS][testflight]
 - [Android][firebase]
 
-[کمک مالی کنید](@/donate/index.fa-IR.md) و [مشارکت کنید](@/contribute/index.fa-IR.md) تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های Apple و Google بسازیم.
+[کمک مالی کن](@/donate/index.fa-IR.md) و [مشارکت کن](@/contribute/index.fa-IR.md) تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های Apple و Google بسازیم.
 
 با عشق،
 تیم Organic Maps

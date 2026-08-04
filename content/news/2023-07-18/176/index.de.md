@@ -1,4 +1,3 @@
-
 ---
 title: "Lerne die Juli-Version von Organic Maps kennen"
 date: 2023-07-18T22:49:37+00:00

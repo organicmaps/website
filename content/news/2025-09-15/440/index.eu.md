@@ -12,8 +12,8 @@ iOS eta Androiderako konponketa eta hobekuntza ugari ere baditu (xehetasunak beh
 Azkenaldiko funtzio batzuk, agian ikusi ez dituzunak:
 - Garraio publikoaren lineen zenbakiak geltokia aukeratzean
 - Mendi- eta bizikleta-ibilbideak (aktibatu goiko ezkerreko Geruzak botoiarekin)
-- Erakutsi markatzaileen izenak mapan (Gospen aktibatu)
-- ✎ ikonoak markatzaileak azkar editatzea ahalbidetzen du
+- Erakutsi laster-marken izenak mapan (aplikazioaren Ezarpenetan aktibatu)
+- ✎ ikonoak laster-markak azkar editatzea ahalbidetzen du
 
 Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.eu.md) eta [zure babesari](@/contribute/index.md) esker.
 
@@ -23,7 +23,7 @@ Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.
 - Munduko mapatik uharte txiki-txikiak kendu dira (Viktor Govako)
 - Posta-kodea (ZIP) erakutsi helbidearen xehetasunetan (Viktor Govako)
 - Uneko posizioaren gaineko zentratze okerra zuzendu (Kiryl Kaveryn, Viktor Govako)
-- Markatzaileen koloreak gorde GPX esportatzean/inportatzean (cyber-toad)
+- Laster-marken koloreak gorde GPX esportatzean/inportatzean (cyber-toad)
 - Itzulpen eguneratuak (Weblate kolaboratzaileak)
 
 #### Maparen estiloak (Viktor Govako)
@@ -44,16 +44,16 @@ Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.
 #### Android
 
 - Biribilgune ikono berriak Android Auto-n (Andrei Shkrob)
-- Hautatutako markatzailearen kategoria erakustea (Alexander Borsuk)
+- Hautatutako laster-markaren kategoria erakustea (Alexander Borsuk)
 - Distantzia erakusteko atzerapena konpondu (Alexander Borsuk)
 - Gai iluna berrantolatua (Andrei Shkrob)
 - Nabigazio posizio eguneraketa arazoa konpondu ROM pertsonalizatuetan (adib. Lineage + MicroG) (Viktor Govako)
-- Urdin ✎ (editatu) ikonoa markatzaileentzat (Alexander Borsuk)
+- ✎ (editatu) ikono urdina laster-markentzat (Alexander Borsuk)
 - Leku-informazioaren aurrebistaren altuera bertikala murriztu (Alexander Borsuk)
 - Iparrerako azimut angelua kendu aurrebistatik (sakatu gezi urdina distantziarekin) (Alexander Borsuk)
 
-Deskargatu azken bertsioa: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Deskargatu Organic Maps-en azken bertsioa: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Batu beta probetara: [iOS][testflight] / [Android][firebase].
+P.S. Batu beta probetara ezaugarri berriak lehenago probatzeko: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

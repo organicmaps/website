@@ -10,11 +10,11 @@ Cette version comprend les cartes mises à jour pour la Turquie et la Syrie, inc
 
 Liste des changements dans cette version d'Organic Maps :
 
-Nouvelles données OpenStreetMap au 10 février
-Filtrage des résultats incorrects à la fois dans la liste et sur la carte
-Amélioration des notifications de virage suivant pour les courtes distances
-Meilleures icônes pour les entrées principales et secondaires d'immeubles
-Amélioration de la langue persan et correction d'erreurs dans la traduction polonaise et allemande
+* Nouvelles données OpenStreetMap au 10 février
+* Filtrage des résultats incorrects à la fois dans la liste et sur la carte
+* Amélioration des notifications de virage suivant pour les courtes distances
+* Meilleures icônes pour les entrées principales et secondaires d'immeubles
+* Amélioration de la langue persan et correction d'erreurs dans la traduction polonaise et allemande
 
 Android
 
@@ -23,7 +23,7 @@ Android
 
 iOS
 
-- Correction d'un plantage lors de l'ouverture des liens om:// et https://omaps.app/
-- Affichage du nom du Point d'Intérêt dans les liens om:// et https://omaps.app/
+- Correction d'un plantage lors de l'ouverture des liens om:// et <https://omaps.app/>
+- Affichage du nom du Point d'Intérêt dans les liens om:// et <https://omaps.app/>
 
-Retrouvez plus d'exemples d'utilisation de notre API et schéma d'URL pour Android et iOS sur https://omaps.app/api
+Retrouvez plus d'exemples d'utilisation de notre API et schéma d'URL pour Android et iOS sur <https://omaps.app/api>

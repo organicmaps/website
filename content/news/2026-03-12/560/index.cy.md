@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Cymerodd diweddariad Mawrth Organic Maps fwy o amser oherwydd atgyweiriadau brys ac adolygiad Google Play. Nid yw diweddariad [Accrescent][accrescent] yn barod eto oherwydd problemau siop apiau Accrescent. Mynnwch y diweddariad yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Cymerodd diweddariad Mawrth Organic Maps fwy o amser oherwydd atgyweiriadau brys ac adolygiad Google Play. Nid yw diweddariad [Accrescent][accrescent] yn barod eto oherwydd problemau siop apiau Accrescent. Mynna'r diweddariad yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
-O.N. Cysylltwch â ni drwy e-bost yn <sdk@organicmaps.app> os oes gennych ddiddordeb mewn SDK iOS/Android/Linux/MacOS/Windows gyda mapiau all-lein y gallwch eu hailddefnyddio yn eich prosiectau.
+O.N. Cysyllta â ni drwy e-bost yn <sdk@organicmaps.app> os oes gennyt ddiddordeb mewn SDK iOS/Android/Linux/MacOS/Windows gyda mapiau all-lein y gelli eu hailddefnyddio yn dy brosiectau.
 
-O.N.N. A wyddech chi am yr API y gallwch ei ddefnyddio yn eich ap os yw ap Organic Maps wedi'i osod hefyd? Edrychwch arno yma: <https://omaps.app/api>
+O.N.N. A wyddet ti am yr API y gelli ei ddefnyddio yn dy ap os yw ap Organic Maps wedi'i osod hefyd? Edrycha arno yma: <https://omaps.app/api>
 
 ### Nodiadau rhyddhau
 * Data map OSM fel ar Fawrth 10
@@ -22,7 +22,7 @@ O.N.N. A wyddech chi am yr API y gallwch ei ddefnyddio yn eich ap os yw ap Organ
 * Ychwanegwyd llwyfannau arosfannau trafnidiaeth gyhoeddus heb arosfannau bysiau gerllaw (Viktor Govako)
 * Rhannwyd Tanzania yn rhanbarthau llai (Emile Villette, Viktor Govako)
 * Trwsiwyd cyfrifiad cynnydd lawrlwytho gwlad (Kiryl Kaveryn)
-* Trwsiwyd sawl damwain, gwellwyd sefydlogrwydd a pherfformiad (Alexander Borsuk, Viktor Govako)
+* Trwsiwyd sawl chwalfa, gwellwyd sefydlogrwydd a pherfformiad (Alexander Borsuk, Viktor Govako)
 
 ### iOS
 * Ychwanegwyd hanes categorïau a ddefnyddiwyd yn ddiweddar yn y Golygydd (Rahul Kolluru)
@@ -40,7 +40,7 @@ O.N.N. A wyddech chi am yr API y gallwch ei ddefnyddio yn eich ap os yw ap Organ
 * Diweddarwyd cyfieithiadau gan gyfranwyr Weblate (Viktor Govako)
 * Trwsiwyd cyfieithiad Wcreineg (Nnifria)
 
-Ymunwch â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
+Ymuna â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
 - [iOS][testflight]
 - [Android][firebase]
 

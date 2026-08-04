@@ -1,19 +1,19 @@
 ---
-title: "Limitations de vitesse conditionnelles, isolignes plus détaillées pour la Chine, régions de Tanzanie divisées/plus petites, magasins de cuir et plus encore dans la mise à jour de mars de Organic Maps"
+title: "Limitations de vitesse conditionnelles, isolignes plus détaillées pour la Chine, régions de Tanzanie divisées/plus petites, magasins de cuir et plus encore dans la mise à jour de mars d'Organic Maps"
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
   news: ["releases"]
 ---
 
-La mise à jour de mars de Organic Maps a pris plus de temps en raison des correctifs et de la révision de Google Play. La mise à jour [Accrescent][accrescent] n'est toujours pas prête en raison des problèmes liés à l'app store Accrescent. Téléchargez la mise à jour sur <https://get.omaps.org> ou sur [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid].
+La mise à jour de mars d'Organic Maps a pris plus de temps en raison des correctifs et de la révision de Google Play. La mise à jour [Accrescent][accrescent] n'est toujours pas prête en raison des problèmes liés à l'app store Accrescent. Télécharge la mise à jour sur <https://get.omaps.org> ou sur [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid].
 
-P.S. Contactez nous par email à <sdk@organicmaps.app> si vous êtes intéressé par un SDK iOS/Android/Linux/MacOS/Windows avec des cartes hors ligne que vous pouvez réutiliser dans vos projets.
+P.S. Contacte-nous par e-mail à <sdk@organicmaps.app> si tu es intéressé par un SDK iOS/Android/Linux/MacOS/Windows avec des cartes hors ligne que tu peux réutiliser dans tes projets.
 
-P.P.S. Connaissez-vous l'API que vous pouvez déjà utiliser dans votre application si l'application Organic Maps est également installée ? Consultez-la ici : <https://omaps.app/api>
+P.P.S. Connais-tu l'API que tu peux déjà utiliser dans ton application si l'application Organic Maps est également installée ? Consulte-la ici : <https://omaps.app/api>
 
 ### Notes de version
-* Données cartographiques OSM à partir du 10 mars
+* Données cartographiques OSM au 10 mars
 * Données Wikipédia au 1er mars
 * Isolignes d'élévation plus détaillées pour les provinces chinoises (ZiyiGaoCN)
 * Ajout de la prise en charge des limitations de vitesse conditionnelles (Abdelhadi Wael, Viktor Govako)
@@ -40,7 +40,7 @@ P.P.S. Connaissez-vous l'API que vous pouvez déjà utiliser dans votre applicat
 * Mise à jour des traductions des contributeurs de Weblate (Viktor Govako)
 * Correction de la traduction en ukrainien (Nnifria)
 
-Rejoignez le bêta-test pour essayer les premières fonctionnalités et signaler les problèmes :
+Rejoins le bêta-test pour essayer les premières fonctionnalités et signaler les problèmes :
 - [iOS][testflight]
 - [Android][firebase]
 

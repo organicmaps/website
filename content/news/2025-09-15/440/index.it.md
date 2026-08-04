@@ -12,8 +12,8 @@ Include anche molte correzioni e miglioramenti per iOS e Android (dettagli sotto
 Funzionalità recenti che potresti aver perso:
 - Numeri delle linee del trasporto pubblico selezionando una fermata
 - Percorsi escursionistici e ciclabili (attivali con il pulsante Livelli in alto a sinistra)
-- Mostra i nomi dei segnaposto sulla mappa (attiva nelle Impostazioni)
-- L’icona ✎ consente di modificare rapidamente i segnaposto
+- Mostra i nomi dei segnalibri sulla mappa (attiva nelle Impostazioni)
+- L’icona ✎ consente di modificare rapidamente i segnalibri
 
 Organic Maps è possibile grazie ai nostri contributori, [alle tue donazioni](@/donate/index.it.md) e [al tuo supporto](@/contribute/index.md).
 
@@ -23,7 +23,7 @@ Organic Maps è possibile grazie ai nostri contributori, [alle tue donazioni](@/
 - Rimosse piccolissime isole dalla mappa mondiale (Viktor Govako)
 - Mostra CAP (ZIP) nei dettagli dell’indirizzo (Viktor Govako)
 - Corretto centraggio errato della mappa sulla posizione attuale (Kiryl Kaveryn, Viktor Govako)
-- Conserva i colori dei segnaposto durante export/import GPX (cyber-toad)
+- Conserva i colori dei segnalibri durante export/import GPX (cyber-toad)
 - Traduzioni aggiornate (contributor Weblate)
 
 #### Stili mappa (Viktor Govako)
@@ -43,16 +43,16 @@ Organic Maps è possibile grazie ai nostri contributori, [alle tue donazioni](@/
 
 #### Android
 
-- Nuove icone rotatorie in Android Auto (Andrei Shkrob)
-- Mostra categoria del segnaposto selezionato (Alexander Borsuk)
-- Corretto ritardo nel mostrare distanza a un segnaposto (Alexander Borsuk)
+- Nuove icone delle rotatorie in Android Auto (Andrei Shkrob)
+- Mostra categoria del segnalibro selezionato (Alexander Borsuk)
+- Corretto ritardo nel mostrare distanza a un segnalibro (Alexander Borsuk)
 - Tema scuro ristrutturato (Andrei Shkrob)
 - Corretto aggiornamento posizione in navigazione su ROM personalizzate (es. Lineage + MicroG) (Viktor Govako)
-- Icona matita blu (modifica) per segnaposti (Alexander Borsuk)
+- Icona matita blu (modifica) per segnalibri (Alexander Borsuk)
 - Ridotta altezza verticale anteprima informazioni luogo (Alexander Borsuk)
 - Rimosso angolo dell’azimut verso nord dall’anteprima (tocca la freccia blu con distanza per vederlo) (Alexander Borsuk)
 
-Scarica l’ultima versione: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Scarica l’ultima versione di Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Partecipa alla beta: [iOS][testflight] / [Android][firebase].
 

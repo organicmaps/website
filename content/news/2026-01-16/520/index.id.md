@@ -14,8 +14,8 @@ Mari mulai 2026 dengan pembaruan Organic Maps, yang dimungkinkan oleh semua kont
 * Data OpenStreetMap yang diperbarui (11 Januari) (Viktor Govako)
 * Menambahkan panduan suara bahasa Albania (TTS) (Alexander Borsuk)
 * Menambahkan sinonim pencarian bahasa Bulgaria (Clippy)
-* Mengecualikan kasino dari kategori "Hiburan" (Clippy)
-* Mengurangi ketebalan garis subway (Manik)
+* Mengecualikan kasino dari kategori “Hiburan” (Clippy)
+* Mengurangi ketebalan garis kereta bawah tanah (Manik)
 * Menambahkan informasi kapasitas ke hasil pencarian untuk parkir sepeda motor, rental sepeda, pengisian daya sepeda, dan pengisian daya mobil (David Martinez)
 * Menambahkan tingkat lantai ke hasil pencarian (David Martinez)
 
@@ -25,7 +25,7 @@ Mari mulai 2026 dengan pembaruan Organic Maps, yang dimungkinkan oleh semua kont
 * Memperbarui FAQ dan menambahkan terjemahan FAQ untuk bahasa Arab, Ceko, Belanda, Persia, Yunani, Ibrani, Hindi, Hungaria, Indonesia, Italia, Lituania, Marathi, Swedia, Telugu (Alexander Borsuk)
 * Meningkatkan terjemahan aplikasi dan FAQ bahasa Jerman (DaN0mic)
 * Meningkatkan terjemahan aplikasi bahasa Spanyol Amerika Latin (Alexander Borsuk)
-* Mengganti nama pengaturan "Tombol zoom" untuk kejelasan (Alexander Borsuk)
+* Mengganti nama pengaturan “Tombol zoom” untuk kejelasan (Alexander Borsuk)
 * Perbaikan terjemahan dari kontributor Weblate untuk berbagai bahasa (Viktor Govako)
 
 ### Perubahan khusus iOS
@@ -35,7 +35,7 @@ Mari mulai 2026 dengan pembaruan Organic Maps, yang dimungkinkan oleh semua kont
 ### Perubahan khusus Android
 
 * Menambahkan dukungan Google Assistant untuk navigasi dan pencarian (skirm-tech)
-* Memperbarui pengaturan tema navigasi "Otomatis" untuk mengikuti mode gelap/terang sistem (Dzmitry Strekha)
+* Memperbarui pengaturan tema navigasi “Otomatis” untuk mengikuti mode gelap/terang sistem (Dzmitry Strekha)
 * Memperbaiki crash saat memulai navigasi (Owm Dubey)
 * Memperbaiki crash saat mengunggah catatan ke OpenStreetMap (Prakamy Awasthi)
 * Memperbaiki crash di Android Auto (Alexander Borsuk)
@@ -46,7 +46,7 @@ Bergabunglah dengan pengujian beta untuk mencoba fitur awal dan melaporkan masal
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md) Anda ❤️
+Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md) kamu ❤️
 
 Tim Organic Maps
 

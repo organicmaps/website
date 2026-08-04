@@ -12,14 +12,24 @@ Vários recursos notáveis foram introduzidos, incluindo [rotas globais de camin
 Este ano, alcançamos um crescimento ainda mais forte em nossa base de instalações em comparação aos anos anteriores, terminando o ano com um total vitalício de quase 2 milhões de downloads na App Store e quase 3 milhões de downloads no Google Play, com países europeus e norte-americanos no topo da lista. Estimamos pelo menos mais 1 milhão de downloads e instalações do Organic Maps para Android de outras fontes, elevando o total para cerca de ***6 milhões de downloads em todas as plataformas*** desde o lançamento do aplicativo há 5 anos.
 
 Outras conquistas notáveis em 2025 incluem:
+
+
+#### Estatísticas do GitHub
+
 - 1.000 [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) criados e 808 mesclados em 2025 de um total de 5.000.
 - 800 [novos problemas][github issues] criados e 482 corrigidos/fechados em 2025 de um total de 6.000.
 - [1,5 mil commits](https://github.com/organicmaps/organicmaps/commits) de 100 colaboradores em 2025 de um total de 8,6 mil commits desde o início do projeto em 2020.
 - O projeto atingiu 1.244 forks e 12.411 estrelas [no GitHub][github], indicando forte interesse dos desenvolvedores e uso no mundo real.
+
+#### Avaliações nas lojas e engajamento dos usuários
+
 - Ao longo de 2025, as avaliações totais na App Store aumentaram de 4,1 mil para 11,1 mil, o que significa que o aplicativo recebeu mais que o dobro de novas avaliações em 2025 do que em todos os anos anteriores combinados, refletindo forte apreciação de vocês, nossos amados usuários.
 - Os usuários do Android também mostraram maior engajamento, com 5,3 mil novas avaliações em 2025, atingindo um total de 16,5 mil ❤️
 - Enviamos 4.000 e-mails de suporte e respondemos a 2.500 avaliações no Google Play e na App Store em 2025.
 - 10 petabytes de dados de mapas foram baixados por usuários em todo o mundo de nossos servidores em 2025.
+
+#### Mídias sociais e comunidade
+
 - Graças a vocês, nossas estatísticas de mídia social também estão crescendo (siga-nos se ainda não o fez! 😊):
    - [13 mil no Fosstodon][FOSStodon]
    - [6 mil no Telegram][telegram]

@@ -8,6 +8,7 @@ taxonomies:
 
 Siamo lieti di annunciare il nostro primo aggiornamento del 2023. Abbiamo incluso un elenco completo di miglioramenti, come sempre, grazie al supporto ed all'input della nostra devota comunità Organic Maps. Grazie a tutti dell'ottimo lavoro. 🙏
 
+* Nuovi dati OpenStreetMap del 21 gennaio 2023
 * Corretta l'importazione di alcune tracce KML
 * Ricerca automatica della posizione attuale in 30 ore di inattività anziché 8 ore
 * Migliorati i risultati di ricerca per categoria
@@ -21,7 +22,7 @@ Android 🤖
 * Lingue abilitate basco, bielorusso, croato, norvegese, marathi, swahili nella guida vocale
 
 Instradamento 🚗
-* Gestione corretta dell'altitudine per escursionisti e ciclisti
+* Gestione corretta dell'altitudine per escursionismo e ciclismo
 * Risolto il problema dell'instradamento interregionale
 * Corretto l'instradamento via alcuni ponti
 * Busway sono ora supportate

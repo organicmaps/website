@@ -6,9 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Maak kennis met de januari 2023 update van Organic Maps! We hopen dat jullie fijne feestdagen hebben gehad, en ervan hebben genoten om te reizen, interessante plekken te bezoeken, en interessante mensen te ontmoeten.
-
-Hier is de volledige lijst met veranderingen:
+We zijn verheugd om onze eerste update van 2023 aan te kondigen. Zoals altijd hebben we een uitgebreide lijst met verbeteringen samengesteld, dankzij de steun en inbreng van onze toegewijde Organic Maps-gemeenschap. Goed werk van ons allemaal. 🙏
 
 * Nieuwe OpenStreetMap data vanaf 21 januari, 2023
 * Gefixt: sommige KLM-routes importeren

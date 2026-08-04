@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Jak być może już Państwo zauważyli, ukazała się lipcowa aktualizacja Organic Maps. Można ją pobrać ze strony <https://get.omaps.org> lub z serwisów [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] oraz [F-Droid][fdroid].
+Jak być może już zauważyłeś, ukazała się lipcowa aktualizacja Organic Maps. Możesz ją pobrać ze strony <https://get.omaps.org> lub z serwisów [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] oraz [F-Droid][fdroid].
 
-Dzięki Państwa [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/index.pl.md) w lipcu skupiliśmy się na usuwaniu błędów i wprowadzaniu ulepszeń. Jeśli przegapili Państwo tę informację, dostępne są również następujące funkcje z [poprzedniej, czerwcowej wersji](@/news/2026-06-29/610/index.pl.md):
+Dzięki twoim [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/index.pl.md) w lipcu skupiliśmy się na usuwaniu błędów i wprowadzaniu ulepszeń. Jeśli to przegapiłeś, dostępne są również następujące funkcje z [poprzedniej, czerwcowej wersji](@/news/2026-06-29/610/index.pl.md):
 - Trasy transportu publicznego (aktualne rozkłady jazdy są w trakcie opracowywania)
 - Zdjęcia satelitarne
 - Alternatywne trasy do jazdy samochodem, wędrówek pieszych i jazdy na rowerze
@@ -21,7 +21,7 @@ Dzięki Państwa [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/
 
 ### Mapa i miejsca
 - Dane OpenStreetMap zaktualizowane na dzień 14 lipca
-- Notatki zgłoszone do [OpenStreetMap](https://www.openstreetmap.org) są teraz umieszczane dokładnie w wybranym przez Państwa miejscu, a nie na środku całej ulicy lub obszaru _(Alexander Borsuk)_
+- Notatki zgłoszone do [OpenStreetMap](https://www.openstreetmap.org) są teraz umieszczane dokładnie w wybranym przez ciebie miejscu, a nie na środku całej ulicy lub obszaru _(Alexander Borsuk)_
 - Ulepszony wybór miejsc po dotknięciu mapy w regionach, które przecinają antypołudnik 180° _(Viktor Govako)_
 - Po usunięciu śladu na profilach wysokościowych nie wyświetlają się już nieaktualne lub puste wykresy _(Kiryl Kaveryn)_
 
@@ -36,7 +36,7 @@ Dzięki Państwa [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/
 - Poprawiono błędne i brakujące wskazówki dotyczące skrętów _(Alexander Borsuk)_
 
 ### iOS
-- Nowe ustawienie „Zapisz historię wyszukiwania”, które pozwala wyłączyć historię i ukryć ją, jeśli nie chcą jej Państwo zachowywać _(Kiryl Kaveryn)_
+- Nowe ustawienie „Zapisz historię wyszukiwania”, które pozwala wyłączyć historię i ukryć ją, jeśli nie chcesz jej zachowywać _(Kiryl Kaveryn)_
 - Nowy przycisk „Edytuj” ułatwiający usuwanie zakładek _(Kiryl Kaveryn)_
 - Zakładki są teraz zapisywane automatycznie po opuszczeniu ekranu _(Kiryl Kaveryn)_
 - Paleta kolorów zawiera teraz gotowe kolory i umożliwia wybór dowolnego koloru niestandardowego _(Kiryl Kaveryn)_
@@ -61,7 +61,7 @@ Dzięki Państwa [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/
 - Zaktualizowane tłumaczenia na język ukraiński _(Nnifria)_
 - Poprawiono włoskie tłumaczenia nazw regionów na mapie _(Vittorio Bertola)_
 
-## Weźcie Państwo udział w beta-testach, aby wypróbować wczesne funkcje i zgłaszać problemy:
+## Weź udział w beta-testach, aby wypróbować wczesne funkcje i zgłaszać problemy:
 
 Wskazówka: wersja beta zawiera nowe cieniowanie terenu, ulepszone dane dotyczące wysokości z obsługą stóp i metrów oraz inne ciekawe funkcje!
 

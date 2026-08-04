@@ -8,10 +8,10 @@ taxonomies:
 
 感谢我们的贡献者，**周五是更新 Organic Maps 的好时机！** 请在 [https://get.omaps.org](https://get.omaps.org) 获取更新，或者在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 上下载。
 
-如果您希望在即将发布的更新中看到您所在城市的**实时公共交通时刻表**，请：
+如果你希望在即将发布的更新中看到你所在城市的**实时公共交通时刻表**，请：
 
-1. [发给我们](https://github.com/organicmaps/gtfs-osm-matcher/issues)来自您当地交通机构的**静态和实时 GTFS 数据源**，以便我们可以进行测试和集成。
-2. 在 [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) 检查您所在地区的 **OpenStreetMap 数据**是否包含所有带有必要标签的公交/电车/火车站点。
+1. [发给我们](https://github.com/organicmaps/gtfs-osm-matcher/issues)来自你当地交通机构的**静态和实时 GTFS 数据源**，以便我们可以进行测试和集成。
+2. 在 [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) 检查你所在地区的 **OpenStreetMap 数据**是否包含所有带有必要标签的公交/有轨电车/火车站点。
 
 ### 发行说明
 

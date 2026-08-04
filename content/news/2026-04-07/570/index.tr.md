@@ -6,39 +6,39 @@ taxonomies:
   news: ["releases"]
 ---
 
-Bu Nisan sürümü, birçok hata düzeltmesi ve iyileştirmenin yanı sıra üç basit gerçeğe dayanıyor: yürüyüşçüler ne kadar tırmanacaklarını bilmek istiyor, herkes adres aramasının sorunsuz çalışmasını bekliyor ve hiç kimse haritanın kenarından düşüyormuş gibi hissetmemeli. Katkıda bulunanlarımız, olumlu değerlendirmeleriniz, [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md) sayesinde bu üçünün de ve çok daha fazlasının da üstesinden geldik.
+Bu Nisan sürümü, birçok hata düzeltmesi ve iyileştirmenin yanı sıra üç basit gerçeğe dayanıyor: yürüyüşçüler ne kadar tırmanacaklarını bilmek istiyor, herkes adres aramasının sorunsuz çalışmasını bekliyor ve hiç kimse haritanın kenarından düşüyormuş gibi hissetmemeli. Katkıda bulunanlarımız, olumlu değerlendirmelerin, [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.tr.md) sayesinde bu üçünün de ve çok daha fazlasının da üstesinden geldik.
 
-İster bahar sizi yeni patikalara çıkarsın, ister güney yarımkürede sonbahar sizi son bir uzun sürüşe çağırıyor olsun, umarız bu güncelleme bir sonraki yolculuğunuzu biraz daha kolay ve çok daha güzel hale getirir.
+İster bahar seni yeni patikalara çıkarsın, ister güney yarımkürede sonbahar seni son bir uzun sürüşe çağırıyor olsun, umarız bu güncelleme bir sonraki yolculuğunu biraz daha kolay ve çok daha güzel hale getirir.
 
-Nisan güncellemesini <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] üzerinden edinin.
+Nisan güncellemesini <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] üzerinden edin.
 
 ## Önemli Noktalar
 
-- **Bir patikaya dokunun, tırmanışı görün.** Yürüyüş ve bisiklet rotaları artık doğrudan harita üzerinde seçilebiliyor. Bir rotaya dokunup onu vurgulayın ve yükseklik profilini anında görün.
-- **İki milyon ek ABD adresi ve daha akıllı arama.** TIGER Census veri kümesinden ayrıştırılan daha fazla adres artık uygulamanın içinde. Daha akıllı ev numarası eşleştirmesine ek olarak bu, arama sonuçlarını her yerde iyileştiriyor. Eksik adresleri [OpenStreetMap](https://www.openstreetmap.org)'e eklemenin aramayı iyileştirmenin her zaman en iyi yolu olduğunu unutmayın.
-- **Kenarsız bir harita.** Organic Maps artık antimeridyen boyunca (±180° boylam) sorunsuz şekilde devam ediyor. Çukotka ile Alaska ya da Yeni Zelanda ile Fiji arasında görünmez duvarlar ve tuhaf sıfırlamalar olmadan sürükleyip döndürün; Pasifik sonunda gerçekten yuvarlak hissediliyor.
-- **Tüm bir kategoriyi tek seferde yeniden renklendirin.** Bir kategorideki tüm yer imlerinin ve/veya izlerin rengini tek dokunuşla değiştirin; geçen yazın dağınık gezi arşivini gerçekten açmak isteyeceğiniz bir şeye dönüştüren küçük ama etkili bir dokunuş.
+- **Bir patikaya dokun, tırmanışı gör.** Yürüyüş ve bisiklet rotaları artık doğrudan harita üzerinde seçilebiliyor. Bir rotaya dokunup onu vurgula ve yükseklik profilini anında gör.
+- **İki milyon ek ABD adresi ve daha akıllı arama.** TIGER Census veri kümesinden ayrıştırılan daha fazla adres artık uygulamanın içinde. Daha akıllı ev numarası eşleştirmesine ek olarak bu, arama sonuçlarını her yerde iyileştiriyor. Eksik adresleri [OpenStreetMap](https://www.openstreetmap.org)'e eklemenin aramayı iyileştirmenin her zaman en iyi yolu olduğunu unutma.
+- **Kenarsız bir harita.** Organic Maps artık antimeridyen boyunca (±180° boylam) sorunsuz şekilde devam ediyor. Çukotka ile Alaska ya da Yeni Zelanda ile Fiji arasında görünmez duvarlar ve tuhaf sıfırlamalar olmadan sürükleyip döndür; Pasifik sonunda gerçekten yuvarlak hissediliyor.
+- **Tüm bir kategoriyi tek seferde yeniden renklendir.** Bir kategorideki tüm yer imlerinin ve/veya izlerin rengini tek dokunuşla değiştir; geçen yazın dağınık gezi arşivini gerçekten açmak isteyeceğin bir şeye dönüştüren küçük ama etkili bir dokunuş.
 
 ## Sürüm notları
 
 ### Tüm platformlar
 
 - YENİ! TIGER Census verilerinden ayrıştırılan iki milyon ek adres ile ABD'de daha iyi arama (Viktor Govako)
-- YENİ! Yürüyüş ve bisiklet rotaları için geliştirilmiş çok renkli gösterim; seçmek ve yükseklik grafiğini görmek için bir rotaya dokunun (Viktor Govako)
+- YENİ! Yürüyüş ve bisiklet rotaları için geliştirilmiş çok renkli gösterim; seçmek ve yükseklik grafiğini görmek için bir rotaya dokun (Viktor Govako)
 - OpenStreetMap verileri 4 Nisan itibariyle güncellenmiştir
 - Wikipedia verileri 1 Nisan itibariyle güncellenmiştir
 - İz grafiklerindeki çıkış ve iniş hesaplaması, diğer uygulamalarda gösterilen değerlerle daha iyi eşleşecek şekilde ayarlandı (Viktor Govako)
-- Artık harita üzerinde mevcut konumunuzu seçtikten sonra OpenStreetMap'e yeni bir yer ekleyebilirsiniz (Mikhail Listratsenka)
+- Artık harita üzerinde mevcut konumunu seçtikten sonra OpenStreetMap'e yeni bir yer ekleyebilirsin (Mikhail Listratsenka)
 - Yemek alanları ve şehir kapıları için simgeler eklendi (David Martinez)
 - Giyim mağazası alt kategorileri eklendi: kadın, erkek, çocuk, düğün, spor ve iç giyim, ayrıca ofis türleri (Viktor Govako)
-- Güncellenen arama kategorileri: fırınlar için "Ekmek", "Shawarma" mutfağı ve diğer eşanlamlı iyileştirmeler eklendi (Viktor Govako)
+- Güncellenen arama kategorileri: fırınlar için “Ekmek”, “Shawarma” mutfağı ve diğer eş anlamlı iyileştirmeler eklendi (Viktor Govako)
 - Harita artık sürüklenirken ve döndürülürken antimeridyende (±180° boylam) doğru şekilde devam ediyor (Alexander Borsuk, Viktor Govako)
 - Bisiklet navigasyonu artık düşük hızlarda pusula yönünü kullanıyor (HossamSaberr)
 - Geliştirilmiş ev numarası adres araması (Viktor Govako)
 - Bazı bölgesel sınırların yakınında rota planlanırken oluşan sistem hatası düzeltildi (Viktor Govako)
 - Şehir ve eyalet isimleri aynı olduğunda arama sonuçları düzeltildi (Viktor Govako)
 - ABD cadde eş anlamlıları eklendi: otoyol, hwy, otoban ve fwy (Viktor Govako)
-- "Yer Ekle" düğmesine basıldığında düzenleyici artı işaretinin yanlış hizalanması düzeltildi (José Araújo)
+- “Yer Ekle” düğmesine basıldığında düzenleyici artı işaretinin yanlış hizalanması düzeltildi (José Araújo)
 - Gün doğumu/gün batımı ofsetleri olan yerler için çalışma saatleri gösterimi düzeltildi (Alexander Borsuk)
 - GPS izi kaydının segmentler arasındaki noktaları düşürmesi düzeltildi (Alexander Borsuk)
 - Saat dilimleri için yaz saati uygulaması düzeltildi (Andrei Shkrob)
@@ -51,19 +51,19 @@ Nisan güncellemesini <https://get.omaps.org> adresinden veya [App Store][appsto
 
 **Eski iPhone ve iPad sahipleri için uyarı:** TestFlight ve App Store'daki son değişiklikler nedeniyle bu sürüm yalnızca iOS 15 ve sonrasını destekliyor. iOS 12, 13 ve 14 artık desteklenmiyor. Organic Maps'in daha önce yüklenmiş sürümleri eski cihazlarda çalışmaya devam edecek, ancak yeni haritalar, özellikler ve düzeltmeler artık yalnızca iOS 15 ve üzerindeki cihazlara gelecek.
 
-- YENİ! Bir kategorideki tüm yer imi ve iz renklerini aynı anda değiştirin (Kiryl Kaveryn)
+- YENİ! Bir kategorideki tüm yer imi ve iz renklerini aynı anda değiştir (Kiryl Kaveryn)
 - Yer imi ayrıntılarında tablo ve resim içeren HTML içeriğinin görüntülenmesi iyileştirildi (Alexander Borsuk, Kiryl Kaveryn)
 - Yükseklik grafiğinde çok segmentli izler için dikey ayırıcılar eklendi (Kiryl Kaveryn)
 - Yükseklik grafiğinde enterpole edilen noktalar için nokta seçimi düzeltildi (Kiryl Kaveryn)
 - Modal pencere hareketleri iyileştirildi: en yakın adıma yapışma, kenardan kaydırınca kapanma ve yeniden açıldığında önceki durumun geri yüklenmesi (Kiryl Kaveryn)
-- Artık ek haritalar indirmeniz istendiğinde bile geçerli bir rota başlatabilirsiniz (Kiryl Kaveryn)
-- "Yer Ekle" gezinti çubuğundaki düğmelerin dokunma alanı artırıldı (Noahdyn)
+- Artık ek haritaları indirmen istendiğinde bile geçerli bir rota başlatabilirsin (Kiryl Kaveryn)
+- “Yer Ekle” gezinti çubuğundaki düğmelerin dokunma alanı artırıldı (Noahdyn)
 - İzler dışa aktarılırken oluşan bir çökme düzeltildi (Alexander Borsuk, Kiryl Kaveryn)
 - Yer Ayrıntıları'ndan açıldığında yer imi/iz listesi araması düzeltildi (Kiryl Kaveryn)
 
 ### Android
 
-- YENİ! Bir kategorideki tüm yer imi ve iz renklerini aynı anda değiştirin (Mikhail Listratsenka)
+- YENİ! Bir kategorideki tüm yer imi ve iz renklerini aynı anda değiştir (Mikhail Listratsenka)
 - YENİ! Gün doğumu ve gün batımına göre otomatik açık/koyu tema geçişi için Ayarlar'da zamanlanmış görünüm modu (Dzmitry Strekha)
 - Harita düzenleyicisine son kullanılan kategori geçmişi eklendi (Mikhail Listratsenka)
 - Haritada seçilen tramvay durakları için bir tramvay simgesi eklendi (Mikhail Listratsenka)
@@ -80,7 +80,7 @@ Nisan güncellemesini <https://get.omaps.org> adresinden veya [App Store][appsto
 - Yer imlerini/izleri kaydetme veya dışa aktarma işlemlerinin, yerel ayara bağlı ondalık ayırıcılar nedeniyle bazı dillerde bozuk dosyalar oluşturması düzeltildi (Alexander Borsuk)
 
 
-Erken özellikleri denemek ve sorunları bildirmek için beta testine katılın:
+Yeni özellikleri erkenden denemek ve sorunları bildirmek için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase]
 

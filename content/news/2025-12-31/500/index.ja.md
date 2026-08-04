@@ -43,7 +43,7 @@ slug: "organic-maps-2025-year-in-review"
    - [Threads で355][threads]
    - [TikTok で275][tiktok]
    - [BlueSky で251][bluesky]
-- 新しい機能のテストと問題の報告にご協力いただいている 2.6K 人のベータテスターに [iOS][testflight] と、Android で約2K 人のベータテスターにご参加いただいています。
+- 新しい機能のテストと問題の報告にご協力いただいている 2.6K 人のベータテスターに [iOS][testflight] と、[Android][firebase] で約2K 人のベータテスターにご参加いただいています。
 - [最も要望の多い不足機能についての投票](https://t.me/OrganicMapsApp/568)に約1,000人のユーザーが参加し、公共交通機関が1位、交通情報が2位、検索の改善が3位になりました。
 - Telegram で Organic Maps の地域コミュニティをサポートしています。[英語][telegram_chat]、[ドイツ語][telegram_chat_de]、[フランス語][telegram_chat_fr]、[イタリア語][telegram_chat_it]、[スペイン語][telegram_chat_es]、[トルコ語][telegram_chat_tr]、[ウクライナ語][telegram_chat_uk]、[ロシア語][telegram_chat_ru]、[中国語][telegram_chat_zh]、[アラビア語][telegram_chat_ar]、[ペルシア語][telegram_chat_fa] 話者のコミュニティにご参加ください。
 

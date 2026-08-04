@@ -6,20 +6,19 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps'in Ocak 2023 güncellemesiyle tanışın! Umarız harika bir tatil geçirmişsinizdir ve seyahat etmekten, ilginç yerleri görmekten, başka kültürlere sahip insanlarla tanışmaktan keyif almışsınızdır.
-
-Bu güncellememizdeki tüm yenilikler:
+Organic Maps'in Ocak 2023 güncellemesiyle tanış! Umarız harika bir tatil geçirmişsindir ve seyahat etmekten, ilginç yerleri görmekten, başka kültürlere sahip insanlarla tanışmaktan keyif almışsındır. İşte bu güncellemedeki tüm yenilikler:
 * 21 Ocak 2023 tarihine ait yeni OpenStreetMap harita verileri
 * Bazı KML dosyalarının içe aktarılmasında oluşan hatalar düzeltildi
 * Geçerli konum artık 8 saat yerine 30 saatlik hareketsizlikten sonra otomatik olarak aranıyor
 * Geliştirilmiş arama kategorileri sonuçları
+* Arama sonuçlarında Avustralya'nın yazımı düzeltildi
 * leisure=track etiketi artık aranabilir
 
 iOS
 * Koyu tema etkinleştirildiğinde ayarlardaki görünmeyen ipucu metinleri düzeltildi
 
 Android
-* Baskça, Belarusça, Hırvatça, Norveççe, Marathi, Swahili dillleri için TTS desteği eklendi
+* Baskça, Belarusça, Hırvatça, Norveççe, Marathi, Svahili dilleri için TTS desteği eklendi
 
 Rota
 * Artık yürüyüş ve bisiklet için yükseklik uygun şekilde hesaplanıyor
@@ -35,7 +34,7 @@ Stiller
 * Pınarlar için eşit simge boyutları
 
 Editör
-* Artık mekan isimlerine /\°[] sembollerini ekleyebilirsiniz
+* Artık mekan isimlerine /\°[] sembollerini ekleyebilirsin
 * amenity=public_bookcase eklendi
 * Maksimum düzenlenebilir bina kat sayısı 25'ten 50'ye çıkarıldı
 
@@ -44,5 +43,5 @@ Editör
 * Fince ve Portekizce için TTS çevirileri düzeltildi
 
 Linux
-* Büyük / küçük harfe duyarlı Linux dosya sistemlerinde büyük / küçük KML ve KMZ dosyalarını artık içe aktarabilirsiniz
+* Büyük / küçük harfe duyarlı Linux dosya sistemlerinde büyük harfli KML ve KMZ dosyalarını artık içe aktarabilirsin
 * Artık bağlantının kopup kopmadığını kontrol etmek için Organic Maps sunucusu kullanılıyor

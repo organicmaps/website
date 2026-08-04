@@ -23,7 +23,7 @@ taxonomies:
 Вот полный список изменений. И не забудьте оценить Organic Maps в [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps), [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611) и [donate](https://organicmaps.app/donate/), чтобы поддержать развитие лучших карт!
 
 
-* Более точные высотные данные для европейских стран
+* Более точные высотные данные для европейских стран, спасибо [Sonny](https://sonny.4lima.de/)
 * Свежие карты от OpenStreetMap по состоянию на 26 марта
 * Списки меток сортируются по времени изменения (сначала новые)
 * Иконки в виде глаз для видимых/скрытых списков меток

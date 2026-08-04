@@ -1,5 +1,5 @@
 ---
-title: "Release 15. September: Neues Routen-Planning und OSM-Beschreibungen"
+title: "Release 15. September: Neue Routenplanung und OSM-Beschreibungen"
 date: 2025-09-15T10:00:00+00:00
 taxonomies:
   news: ["releases"]
@@ -10,10 +10,10 @@ Dieses zweite September-Release bringt einen neu gestalteten Routenplanungsbilds
 Außerdem enthält es viele Fehlerbehebungen und Verbesserungen für iOS und Android (Details unten).
 
 Neuere Funktionen, die du vielleicht verpasst hast:
-- Liniennummern des öffentlichen Verkehrs beim Auswählen einer Haltestelle
+- Liniennummern der öffentlichen Verkehrsmittel beim Auswählen einer Haltestelle
 - Wander- und Fahrradrouten (über die Schaltfläche Ebenen links oben aktivieren)
-- Markernamen auf der Karte anzeigen (in den Einstellungen aktivieren)
-- Das ✎ Stiftsymbol ermöglicht schnelles Bearbeiten von Markern
+- Lesezeichennamen auf der Karte anzeigen (in den Einstellungen aktivieren)
+- Das ✎ Stiftsymbol ermöglicht schnelles Bearbeiten von Lesezeichen
 
 Organic Maps ist dank unserer Mitwirkenden, [deiner Spenden](@/donate/index.de.md) und [deiner Unterstützung](@/contribute/index.md) möglich.
 
@@ -23,7 +23,7 @@ Organic Maps ist dank unserer Mitwirkenden, [deiner Spenden](@/donate/index.de.m
 - Sehr kleine Inseln von der Weltkarte entfernt (Viktor Govako)
 - Postleitzahl (ZIP) in Adressdetails anzeigen (Viktor Govako)
 - Falsche Kartenzentrierung auf aktueller Position behoben (Kiryl Kaveryn, Viktor Govako)
-- Markerfarben beim Export/Import von GPX beibehalten (cyber-toad)
+- Lesezeichenfarben beim Export/Import von GPX beibehalten (cyber-toad)
 - Aktualisierte Übersetzungen (Weblate-Mitwirkende)
 
 #### Kartenstile (Viktor Govako)
@@ -44,16 +44,16 @@ Organic Maps ist dank unserer Mitwirkenden, [deiner Spenden](@/donate/index.de.m
 #### Android
 
 - Neue Kreisverkehr-Symbole in Android Auto (Andrei Shkrob)
-- Kategorie des ausgewählten Markers anzeigen (Alexander Borsuk)
-- Verzögerung bei Anzeige der Entfernung zu einem Marker behoben (Alexander Borsuk)
+- Kategorie des ausgewählten Lesezeichens anzeigen (Alexander Borsuk)
+- Verzögerung bei Anzeige der Entfernung zu einem Lesezeichen behoben (Alexander Borsuk)
 - Dunkles Thema überarbeitet (Andrei Shkrob)
 - Positionsaktualisierung im Navigationsmodus auf Custom-ROMs behoben (z.B. Lineage + MicroG) (Viktor Govako)
-- Blaues Stift-Symbol (Bearbeiten) für Marker (Alexander Borsuk)
+- Blaues Stift-Symbol (Bearbeiten) für Lesezeichen (Alexander Borsuk)
 - Vertikale Höhe der Ortsinfo-Vorschau reduziert (Alexander Borsuk)
-- Azimut-Winkel nach Norden aus Vorschau entfernt (blaue Pfeil mit Entfernung tippen um ihn zu sehen) (Alexander Borsuk)
+- Azimut-Winkel nach Norden aus der Vorschau entfernt (tippe auf den blauen Pfeil mit der Entfernung, um ihn zu sehen) (Alexander Borsuk)
 
-Lade die neueste Version: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Hol dir die neueste Organic Maps-Version aus dem [App Store][appstore], [Google Play][googleplay], der [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
 
-Betatests: [iOS][testflight] / [Android][firebase].
+P.S. Tritt den Betatests bei, um neue Funktionen früher zu erhalten: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

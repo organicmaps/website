@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Zoals u misschien al hebt gemerkt, is de juli-update van Organic Maps nu beschikbaar. U kunt deze downloaden via <https://get.omaps.org> of via de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
+Zoals je misschien al hebt gemerkt, is de juli-update van Organic Maps nu beschikbaar. Je kunt hem downloaden via <https://get.omaps.org> of via de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
-Dankzij uw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.nl.md) hebben we ons in juli gericht op het verhelpen van bugs en het doorvoeren van verbeteringen. Mocht u het gemist hebben: de volgende functies uit de [vorige release van juni](@/news/2026-06-29/610/index.nl.md) zijn ook beschikbaar:
+Dankzij jouw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.nl.md) hebben we ons in juli gericht op het verhelpen van bugs en het doorvoeren van verbeteringen. Mocht je het gemist hebben: de volgende functies uit de [vorige release van juni](@/news/2026-06-29/610/index.nl.md) zijn ook beschikbaar:
 - Openbaarvervoersroutes (realtime dienstregelingen worden momenteel ontwikkeld)
 - Satellietbeelden
 - Alternatieve routes voor de auto, wandelen en fietsen
@@ -21,13 +21,13 @@ Dankzij uw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.nl.
 
 ### Kaart & plaatsen
 - OpenStreetMap-gegevens bijgewerkt tot 14 juli
-- Notities die aan [OpenStreetMap](https://www.openstreetmap.org) worden gemeld, worden nu op de exacte plek geplaatst die u hebt geselecteerd, in plaats van in het midden van de hele straat of het hele gebied _(Alexander Borsuk)_
+- Notities die aan [OpenStreetMap](https://www.openstreetmap.org) worden gemeld, worden nu op de exacte plek geplaatst die je hebt geselecteerd, in plaats van in het midden van de hele straat of het hele gebied _(Alexander Borsuk)_
 - Verbeterde plaatskeuze bij het tikken op de kaart in gebieden die de 180°-antimeridiaan doorkruisen _(Viktor Govako)_
 - In hoogteprofielen van tracks worden geen verouderde of lege grafieken meer weergegeven nadat een track is verwijderd _(Kiryl Kaveryn)_
 
 ### Openbaar vervoer
 - De namen van haltes, overstapplaatsen en stations hebben nu een witte omtrek, zodat ze zowel in het lichte als in het donkere thema goed leesbaar blijven _(Viktor Govako)_
-- De metrolaag verschijnt weer correct nadat u het voorbeeld van een openbaarvervoerroute hebt gesloten _(Mikhail Listratsenka)_
+- De metrolaag verschijnt weer correct nadat je het voorbeeld van een openbaarvervoerroute hebt gesloten _(Mikhail Listratsenka)_
 
 ### Routebepaling en navigatie
 - Routewaarschuwingen (tolwegen, veerboten, onverharde wegen, trappen, enzovoort) worden nu weergegeven voor alle alternatieve routes _(Viktor Govako)_
@@ -36,10 +36,10 @@ Dankzij uw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.nl.
 - Onjuiste en ontbrekende aanwijzingen voor afslagen gecorrigeerd _(Alexander Borsuk)_
 
 ### iOS
-- Nieuwe instelling ‘Zoekgeschiedenis opslaan’, waarmee u de geschiedenis kunt uitschakelen en verbergen als u deze liever niet wilt bewaren _(Kiryl Kaveryn)_
+- Nieuwe instelling ‘Zoekgeschiedenis opslaan’, waarmee je de geschiedenis kunt uitschakelen en verbergen als je deze liever niet wilt bewaren _(Kiryl Kaveryn)_
 - Nieuwe knop ‘Bewerken’ om bladwijzers gemakkelijker te verwijderen _(Kiryl Kaveryn)_
-- Bladwijzers worden nu automatisch opgeslagen wanneer u het scherm verlaat _(Kiryl Kaveryn)_
-- Het kleurenpalet biedt nu vooraf gedefinieerde kleuren en geeft u de mogelijkheid om elke gewenste kleur te kiezen _(Kiryl Kaveryn)_
+- Bladwijzers worden nu automatisch opgeslagen wanneer je het scherm verlaat _(Kiryl Kaveryn)_
+- Het kleurenpalet biedt nu vooraf gedefinieerde kleuren en geeft je de mogelijkheid om elke gewenste kleur te kiezen _(Kiryl Kaveryn)_
 - De lege toestand van de hoogtegrafiek voor een opgenomen track is verbeterd _(Kiryl Kaveryn)_
 - De weergave van de voortgang van de route op de Start-knop is verbeterd _(Kiryl Kaveryn)_
 - Het herschikken van de haltes op een route zorgt er niet langer voor dat de lijst gaat springen _(Kiryl Kaveryn)_
@@ -54,7 +54,7 @@ Dankzij uw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.nl.
 - Crashes verholpen _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
-- De lijst met kaarten die u kunt downloaden, is nu alfabetisch gesorteerd _(goncalo109560)_
+- De lijst met kaarten die je kunt downloaden, is nu alfabetisch gesorteerd _(goncalo109560)_
 
 ### Vertalingen
 - Verbeterde Chinese formulering _(Chenxi Zhao)_

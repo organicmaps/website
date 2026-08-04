@@ -1,73 +1,83 @@
 ---
-title: "7 अक्टूबर रिलीज़: Android Auto स्पीड लिमिट, GeoJSON इम्पोर्ट और अन्य"
+title: "7 अक्टूबर रिलीज़: Android Auto में स्पीड लिमिट, GeoJSON इम्पोर्ट, ट्रैक रिकॉर्डिंग के आँकड़े, OSM description टैग प्रदर्शन, iOS पर चुने गए ट्रैक पर बुकमार्क सहेजना और बहुत कुछ"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Android Auto यूज़र्स अब स्पीड लिमिट वॉर्निंग देख सकते हैं। GeoJSON फाइल इम्पोर्ट जोड़ा गया जिसे बुकमार्क में बदला जा सकता है।
+यह 7 अक्टूबर का Organic Maps अपडेट Android Auto में स्पीड लिमिट प्रदर्शन, GeoJSON इम्पोर्ट और ट्रैक रिकॉर्डिंग के आँकड़े जोड़ता है, OSM description टैग दिखाता है (उन्हें देखने के लिए खोज बॉक्स में `?description` टाइप करो) और iOS पर ट्रैक पर बुकमार्क सहेजता है। सभी प्लेटफ़ॉर्म पर यूज़र इंटरफ़ेस और OpenStreetMap संपादन में कई सुधार तथा कई बग फिक्स भी हैं, जिनमें कुछ Android डिवाइस पर शुरुआत में होने वाले क्रैश का फिक्स शामिल है।
 
-iOS, Android, Android Auto और Desktop के लिए विभिन्न फिक्स और सुधार। नीचे विवरण देखें।
+Organic Maps हमारे योगदानकर्ताओं, [तुम्हारे दान](@/donate/index.hi.md) और [तुम्हारे समर्थन](@/contribute/index.hi.md) ❤️ की बदौलत संभव है।
 
-हाल की कुछ विशेषताएँ जो आप मिस कर सकते हैं:
-- नई रूट प्लानिंग स्क्रीन (iOS)
-- iOS पर OSM `description` टैग (खोज `?description`)
-- बस स्टॉप चुनते समय पब्लिक ट्रांसपोर्ट रूट नंबर
-- हाइकिंग और साइकिल रूट (ऊपर बाएँ Layers बटन से सक्षम करें)
-- मैप पर बुकमार्क नाम दिखाएँ (सेटिंग्स में सक्षम करें)
-- ✎ आइकन से बुकमार्क जल्दी संपादित करें
+### विस्तृत रिलीज़ नोट्स (पिछले छोटे अपडेट के बदलावों सहित)
 
-Organic Maps हमारे योगदानकर्ताओं, [आपके दान](@/donate/index.hi.md) और [आपके समर्थन](@/contribute/index.hi.md) से संभव है।
+- नया! GeoJSON इम्पोर्ट (Sergiy Kozyr)
+- 4 अक्टूबर तक का OpenStreetMap डेटा
+- 1 अक्टूबर तक का Wikipedia डेटा
+- सार्वजनिक परिवहन के लिए Seattle लाइट रेल समर्थन (tjasz)
+- संपादित OSM स्थान सहेजते समय मैप चयन निष्क्रिय नहीं होगा (Kiryl Kaveryn)
+- अपडेट किए गए अनुवाद (Weblate योगदानकर्ता)
 
-### विस्तृत रिलीज़ नोट्स
+#### मैप स्टाइल
 
-- 5 अक्टूबर तक के ताजा OpenStreetMap डेटा
-- अनुवाद अपडेट (Weblate योगदानकर्ता)
-- बिना GNSS सिग्नल के लोकेशन एरो फिक्स (Viktor Govako)
-
-#### मैप स्टाइल (Viktor Govako)
-
-- "Outdoor" स्टाइल आइकन पुनर्निर्मित
-- वॉटर लेबल रंग फिक्स
-- ज़ूम 16 पर बिल्डिंग्स दिखाएँ
-- ज़ूम 14 से व्यूइंग प्लेटफ़ॉर्म और व्यू पॉइंट दिखाएँ
-- सामान्य मैप फिक्स और सुधार
+- amenity=bicycle + rental=shop टैग वाली साइकिल किराया दुकानें दिखाना (David Martinez)
+- Outdoors स्टाइल में ऐतिहासिक पुरातात्विक स्थल ज़ूम 12 से और अन्य ऐतिहासिक स्थल ज़ूम 15 से दिखाना (Viktor Govako)
+- Outdoors स्टाइल में मस्तूल, संचार और बिजली टावरों के लिए नए आइकन (David Martinez)
+- Outdoors स्टाइल में चोटी आइकन का आकार बढ़ाया गया (David Martinez)
+- छूटे हुए POI आइकन वैरिएंट जोड़े गए (David Martinez)
+- और अधिक बैरियर प्रकार जोड़े गए (Viktor Govako)
 
 #### iOS
 
-- रूट पॉइंट रंग फिक्स (Alexander Borsuk)
-- लॉन्ग-प्रेस मेनू सुधार (Alexander Borsuk)
-- यूनिट टाइप बदलने पर आगमन समय फिक्स (Viktor Govako)
-- डिलीट किए गए ऑब्जेक्ट संपादन रोकें (Kiryl Kaveryn)
+- नया: चुने गए ट्रैक पॉइंट पर बुकमार्क सहेजना (Kiryl Kaveryn)
+- नया: रिकॉर्डिंग ट्रैक को पहले सहेजे बिना हटाना (Kiryl Kaveryn)
+- प्लेस पेज में बहु-पंक्ति बुकमार्क सूची शीर्षक दिखाना (David Martinez)
+- OSM लॉगिन बटन की स्टाइल अपडेट की गई (Kiryl Kaveryn)
+- नेविगेशन जानकारी अपडेट होने की समस्या ठीक की गई (Kiryl Kaveryn)
+- नई मार्ग योजना की समस्याएँ ठीक की गईं (Kiryl Kaveryn)
+- 3 महीने से पुराने मैप के लिए OSM स्थान जोड़ने/संपादित करने की दृश्यता ठीक की गई (Kiryl Kaveryn)
+- iOS 26 के लिए परिवहन विकल्प सेगमेंट कंट्रोल का लेआउट ठीक किया गया (Kiryl Kaveryn)
+- बुकमार्क चयन के एनिमेशन सरल किए गए (Kiryl Kaveryn)
+- खोज परिणाम चयन की समस्या ठीक की गई (Kiryl Kaveryn)
+- प्लेस इनफ़ॉर्मेशन पेज की स्टाइल, स्वाइप और एनिमेशन ठीक किए गए (Kiryl Kaveryn)
+
+#### Android Auto (केवल Google Play)
+
+- नया: Android Auto में स्पीड लिमिट प्रदर्शन (Andrei Shkrob)
+- Android Auto नेविगेशन मोड में डिस्प्ले स्विच होने की समस्या ठीक की गई (Andrei Shkrob)
+- Android Auto में रूटिंग एरो का ऑफ़सेट ठीक किया गया (Andrei Shkrob)
+- डिवाइस के कार से जुड़ने/अलग होने पर आने वाली समस्या ठीक की गई (Andrei Shkrob)
+- Android Auto लोकेशन सर्विस जोड़ी गई (Andrei Shkrob)
+- Android Auto रूट सिम्युलेटर बेहतर किया गया (Viktor Govako)
 
 #### Android
 
-- नया: GeoJSON फाइल इम्पोर्ट करें और बुकमार्क में बदलें (Andrei Shkrob, Alexander Borsuk)
-- "My Position" के नीचे नजदीकी WiFi और सेल्यूलर नेटवर्क लिस्ट (डीबग बिल्ड में) (Kiryl Kaveryn)
-- OSM लॉगिन अपडेट (Viktor Govako)
-- मैप डाउनलोड एरर मैसेज फिक्स (Viktor Govako)
-- ज्यादा विश्वसनीय GeoIntent हैंडलिंग (Alexander Borsuk)
-- डेटा माइग्रेशन UI सुधार (Alexander Borsuk)
-- कैटेगरी श्रेणी UI सुधार (Alexander Borsuk)
-- Google लोकेशन सर्विस हटाई (Alexander Borsuk)
-- "City पता" खोज श्रेणी अब "पता" है (Alexander Borsuk)
-- खोज परिणाम पर क्लिक करते समय संभावित काली स्क्रीन फिक्स (Viktor Govako)
-- "What's Nearby" खोज में UI एडजस्टमेंट (Viktor Govako)
-- पॉप-अप डायलॉग जो डार्क थीम का सम्मान नहीं करते फिक्स (Andrei Shkrob)
-
-#### Android Auto
-
-- नया: स्पीड लिमिट और स्पीड कैमरा वॉर्निंग (Denis Koronchik)
-- रूट प्रीव्यू फिक्स (Andrei Shkrob)
-- सर्च UI सुधार (Andrei Shkrob)
+- नया: ट्रैक रिकॉर्डिंग के आँकड़े रीयल टाइम में देखना (Kavi Khalique)
+- नया: OSM `description` टैग की सामग्री दिखाना (Alexander Borsuk)
+- थीम बदलने का प्रबंधन ठीक किया गया (Andrei Shkrob)
+- शुरुआत में होने वाले क्रैश सहित कई क्रैश ठीक किए गए (Andrei Shkrob, Viktor Govako, Alexander Borsuk)
+- डाउनलोड प्रगति की सूचनाएँ अब बिना आवाज़ के (Viktor Govako)
+- पेंसिल आइकन की पैडिंग कम की गई (Alexander Borsuk)
 
 #### Desktop
 
-- मैप एडाप्टेशन सुधार (Andrew Shkrob)
-- डार्क थीम में माउस कर्सर कंट्रास्ट फिक्स (Andrew Shkrob)
+- Linux पर अटकने वाला curl ठीक किया गया (Alexander Borsuk)
+- OSM में लॉग इन करते समय macOS पर अटकना ठीक किया गया (Alexander Borsuk)
+- कॉन्टेक्स्ट मेनू से फ़ीचर चुनने की क्रिया (Viktor Govako)
+- डाउनलोड रद्द करने का विकल्प (Viktor Govako)
+- कॉन्टेक्स्ट मेनू में ज्यामिति प्रकार दिखाना (Viktor Govako)
 
-नवीनतम संस्करण प्राप्त करें: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+### हाल में जारी हुई वे सुविधाएँ जो शायद तुम चूक गए हो
 
-बीटा परीक्षण में शामिल हों: [iOS][testflight] / [Android][firebase].
+- बस स्टॉप चुनते समय सार्वजनिक परिवहन मार्ग संख्या
+- हाइकिंग और साइकिलिंग मार्ग (ऊपर बाएँ Layers बटन से इन्हें चालू करो)
+- ऐप सेटिंग्स में चालू करके मैप पर बुकमार्क के नाम देखो
+- ✎ पेंसिल आइकन बुकमार्क जल्दी संपादित करने का तरीका देता है
+
+### Organic Maps इंस्टॉल करो
+
+नवीनतम Organic Maps संस्करण [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] और [F-Droid][fdroid] से प्राप्त करो।
+
+शुरुआती सुविधाओं के लिए बीटा परीक्षण में शामिल हो जाओ: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

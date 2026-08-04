@@ -1,17 +1,17 @@
 ---
-title: ఫిబ్రవరి 2026 ఆర్గానిక్ మ్యాప్స్ నవీకరణ
+title: ఫిబ్రవరి 2026 Organic Maps నవీకరణ
 date: 2026-02-18
 slug: february-2026-organic-maps-update
 taxonomies:
   news: ["releases"]
 ---
 
-మా కంట్రిబ్యూటర్లకు ధన్యవాదాలు, **ఆర్గానిక్ మ్యాప్స్‌ని అప్‌డేట్ చేయడానికి శుక్రవారం మంచి సమయం!** అప్‌డేట్‌ను [https://get.omaps.org](https://get.omaps.org) వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందండి.
+మా కంట్రిబ్యూటర్లకు ధన్యవాదాలు, **Organic Maps‌ని అప్‌డేట్ చేయడానికి శుక్రవారం మంచి సమయం!** అప్‌డేట్‌ను [https://get.omaps.org](https://get.omaps.org) వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందు.
 
-మీరు రాబోయే అప్‌డేట్‌లలో మీ నగరంలో **రియల్-టైమ్ పబ్లిక్ ట్రాన్స్‌పోర్ట్ షెడ్యూల్‌లను** చూడాలనుకుంటే, దయచేసి:
+నువ్వు రాబోయే అప్‌డేట్‌లలో నీ నగరంలో **రియల్-టైమ్ పబ్లిక్ ట్రాన్స్‌పోర్ట్ షెడ్యూల్‌లను** చూడాలనుకుంటే, దయచేసి:
 
-1. మీ స్థానిక రవాణా ఏజెన్సీల నుండి **స్టాటిక్ మరియు రియల్-టైమ్ GTFS ఫీడ్ సోర్స్‌లను** [మాకు పంపండి](https://github.com/organicmaps/gtfs-osm-matcher/issues), తద్వారా మేము వాటిని పరీక్షించి ఇంటిగ్రేట్ చేయగలము.
-2. మీ ప్రాంతంలోని **OpenStreetMap డేటా**లో అన్ని బస్సు/ట్రామ్/రైలు స్టాప్‌లు అవసరమైన ట్యాగ్‌లతో ఉన్నాయో లేదో [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) వద్ద తనిఖీ చేయండి.
+1. నీ స్థానిక రవాణా ఏజెన్సీల నుండి **స్టాటిక్ మరియు రియల్-టైమ్ GTFS ఫీడ్ సోర్స్‌లను** [మాకు పంపు](https://github.com/organicmaps/gtfs-osm-matcher/issues), తద్వారా మేము వాటిని పరీక్షించి ఇంటిగ్రేట్ చేయగలము.
+2. నీ ప్రాంతంలోని **OpenStreetMap డేటా**లో అన్ని బస్సు/ట్రామ్/రైలు స్టాప్‌లు అవసరమైన ట్యాగ్‌లతో ఉన్నాయో లేదో [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) వద్ద తనిఖీ చేయి.
 
 ### విడుదల నోట్స్
 
@@ -24,8 +24,8 @@ taxonomies:
 * కేటగిరీల కోసం శోధన ఫలితాల ర్యాంకింగ్ మెరుగుపరచబడింది (Viktor Govako)
 * ఉజ్లెక్ వంటకాలు జోడించబడ్డాయి (alnzrv)
 * మ్యాప్‌లో జిప్ లైన్‌లు జోడించబడ్డాయి (Rawdyrathaur)
-* టైటిల్‌లో "?" ఉన్న వికీమీడియా లింక్‌లు సరిచేయబడ్డాయి (alnzrv)
-* కోఆర్డినేట్‌లలో "+" ఉన్న GPX ఫైల్స్‌కు మద్దతు (Alexander Borsuk)
+* టైటిల్‌లో “?” ఉన్న వికీమీడియా లింక్‌లు సరిచేయబడ్డాయి (alnzrv)
+* కోఆర్డినేట్‌లలో “+” ఉన్న GPX ఫైల్స్‌కు మద్దతు (Alexander Borsuk)
 
 ### iOS
 
@@ -57,13 +57,13 @@ taxonomies:
 * వెబ్‌లేట్ కంట్రిబ్యూటర్ల నుండి అనువాదాలు నవీకరించబడ్డాయి (Viktor Govako)
 
 
-ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరండి:
+ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరు:
 - [iOS][testflight]
 - [Android][firebase]
 
 ప్రతి [విరాళం](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) Apple మరియు Google Mapsకి మెరుగైన, గోప్యతా-కేంద్రీకృత ప్రత్యామ్నాయాన్ని రూపొందించడంలో మాకు సహాయపడుతుంది.
 
 జాగ్రత్త మరియు ప్రేమతో,
-ఆర్గానిక్ మ్యాప్స్ టీమ్
+Organic Maps టీమ్
 
 {{ references() }}

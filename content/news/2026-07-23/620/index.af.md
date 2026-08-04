@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Soos u dalk reeds opgemerk het, is die Julie-opdatering van Organic Maps uit. Kry dit by <https://get.omaps.org> of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
+Soos jy dalk reeds opgemerk het, is die Julie-opdatering van Organic Maps uit. Kry dit by <https://get.omaps.org> of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
-Danksy u [skenkings](@/donate/index.af.md) en [terugvoer](@/contribute/index.af.md) het ons in Julie op foutregstellings en verbeterings gefokus. As u dit misgeloop het, is die volgende funksies uit die [vorige Junie-vrystelling](@/news/2026-06-29/610/index.af.md) ook beskikbaar:
+Danksy jou [skenkings](@/donate/index.af.md) en [terugvoer](@/contribute/index.af.md) het ons in Julie op foutregstellings en verbeterings gefokus. As jy dit misgeloop het, is die volgende funksies uit die [vorige Junie-vrystelling](@/news/2026-06-29/610/index.af.md) ook beskikbaar:
 - Openbare vervoerroetes (regstreekse skedules is in ontwikkeling)
 - Satelietbeelde
 - Alternatiewe roetes vir motorry, stap en fietsry
@@ -21,13 +21,13 @@ Danksy u [skenkings](@/donate/index.af.md) en [terugvoer](@/contribute/index.af.
 
 ### Kaart en plekke
 - OpenStreetMap-data bygewerk tot 14 Julie
-- Aantekeninge wat aan [OpenStreetMap](https://www.openstreetmap.org) gerapporteer is, word nou op die presiese plek geplaas wat u gekies het, in plaas van in die middel van die hele straat of area _(Alexander Borsuk)_
-- Verbeterde plekkeuse wanneer u op die kaart tik in gebiede wat die 180°-antimeridiaan kruis _(Viktor Govako)_
+- Aantekeninge wat aan [OpenStreetMap](https://www.openstreetmap.org) gerapporteer is, word nou op die presiese plek geplaas wat jy gekies het, in plaas van in die middel van die hele straat of area _(Alexander Borsuk)_
+- Verbeterde plekkeuse wanneer jy op die kaart tik in gebiede wat die 180°-antimeridiaan kruis _(Viktor Govako)_
 - Spoor-hoogteprofiele wys nie meer verouderde of leë grafieke nie nadat 'n spoor uitgevee is _(Kiryl Kaveryn)_
 
 ### Openbare vervoer
 - Stop-, oorstap- en stasiename het nou 'n wit omtrek om in beide ligte en donker temas leesbaar te bly _(Viktor Govako)_
-- Die metro-laag verskyn korrek weer nadat u 'n openbare vervoerroute-voorskou gesluit het _(Mikhail Listratsenka)_
+- Die metro-laag verskyn korrek weer nadat jy 'n openbare vervoerroute-voorskou gesluit het _(Mikhail Listratsenka)_
 
 ### Roetebepaling en navigasie
 - Roetewaarskuwings (tolheffings, veerbote, ongeasfalteerde paaie, trappe, ensovoorts) word nou vir alle alternatiewe roetes gewys _(Viktor Govako)_
@@ -36,10 +36,10 @@ Danksy u [skenkings](@/donate/index.af.md) en [terugvoer](@/contribute/index.af.
 - Onjuiste en ontbrekende draai-instruksies is reggestel _(Alexander Borsuk)_
 
 ### iOS
-- Nuwe instelling “Bewaar soekgeskiedenis” waarmee u die geskiedenis kan afskakel en versteek as u dit liewer nie wil bewaar nie _(Kiryl Kaveryn)_
+- Nuwe instelling “Bewaar soekgeskiedenis” waarmee jy die geskiedenis kan afskakel en versteek as jy dit liewer nie wil bewaar nie _(Kiryl Kaveryn)_
 - Nuwe Wysig-knoppie om boekmerke makliker te verwyder _(Kiryl Kaveryn)_
-- Boekmerke word nou outomaties gestoor wanneer u die skerm verlaat _(Kiryl Kaveryn)_
-- Die kleurpalet bied nou vooraf gedefinieerde kleure en laat u enige pasgemaakte kleur kies _(Kiryl Kaveryn)_
+- Boekmerke word nou outomaties gestoor wanneer jy die skerm verlaat _(Kiryl Kaveryn)_
+- Die kleurpalet bied nou vooraf gedefinieerde kleure en laat jou enige pasgemaakte kleur kies _(Kiryl Kaveryn)_
 - Die leë toestand van die hoogtegrafiek vir 'n opgeneemde spoor is verbeter _(Kiryl Kaveryn)_
 - Die roetevordering wat op die Start-knoppie vertoon word, is verbeter _(Kiryl Kaveryn)_
 - Om die roetestoppe weer in 'n ander volgorde te rangskik, laat die lys nie meer rondspring nie _(Kiryl Kaveryn)_

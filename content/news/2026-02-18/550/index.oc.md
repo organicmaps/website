@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Mercés a nòstres contributors, **divendres es un bon moment per metre a jorn Organic Maps !** Obtenètz la mesa a jorn sus [https://get.omaps.org](https://get.omaps.org) o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
+Mercés a nòstres contributors, **divendres es un bon moment per metre a jorn Organic Maps !** Obtén la mesa a jorn sus [https://get.omaps.org](https://get.omaps.org) o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
 
-Se volètz veire los **oraris dels transpòrts publics en temps real** dins vòstra vila dins una de las pròchainas mesas a jorn, vos pregam de :
+Se vòls veire los **oraris dels transpòrts publics en temps real** dins ta vila dins una de las pròchainas mesas a jorn, te pregam de :
 
-1. [Nos mandar](https://github.com/organicmaps/gtfs-osm-matcher/issues) los **fluxes GTFS statics e en temps real** de vòstras agéncias de transpòrt localas per que poscam los testar e integrar.
-2. Verificar se las **donadas OpenStreetMap** dins vòstra zòna inclun totei los arrèsts de bus/tram/tren amb las etiquetas necessàrias sus [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Nos mandar](https://github.com/organicmaps/gtfs-osm-matcher/issues) los **fluxes GTFS statics e en temps real** de tas agéncias de transpòrt localas per que poscam los testar e integrar.
+2. Verificar se las **donadas OpenStreetMap** dins ta zòna inclun totei los arrèsts de bus/tram/tren amb las etiquetas necessàrias sus [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Nòtas de version
 
@@ -24,8 +24,8 @@ Se volètz veire los **oraris dels transpòrts publics en temps real** dins vòs
 * Melhorament del classament dels resultats de recèrca per categorias (Viktor Govako)
 * Apond de la cosina ozbèca (alnzrv)
 * Apond de tirolianas sus la carta (Rawdyrathaur)
-* Correccion dels ligams Wikimedia amb "?" dins lo títol (alnzrv)
-* Prise en carga dels fichièrs GPX amb "+" dins las coordenadas (Alexander Borsuk)
+* Correccion dels ligams Wikimedia amb « ? » dins lo títol (alnzrv)
+* Presa en carga dels fichièrs GPX amb « + » dins las coordenadas (Alexander Borsuk)
 
 ### iOS
 
@@ -57,7 +57,7 @@ Se volètz veire los **oraris dels transpòrts publics en temps real** dins vòs
 * Mesa a jorn de las traduccions dels contributors Weblate (Viktor Govako)
 
 
-Rejonhètz los tèsts bèta per ensajar las foncionalitats en avança e senhalar los problemas :
+Rejonh los tèsts bèta per ensajar las foncionalitats en avança e senhalar los problèmas :
 - [iOS][testflight]
 - [Android][firebase]
 

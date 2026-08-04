@@ -6,13 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz.
-
-Yeni Organic Maps güncellemesi ile size en yakın aktarı 🌿 kolayca bulabilirsiniz! Android kullanıcıları bu güncelleme ile sürüş sırasında deneysel şerit önerisini test edebilirler (şehrinizdeki şeritler henüz eklenmemişlerse OpenStreetMap org üzerinden eklemeyi unutmayın). Navigasyon yönergeleri artık iPad'lerde doğru şekilde görüntülenmelidir. Bu güncellemede evcil hayvan bakımı, motosiklet tamircisi ve çilingir gibi yeni dükkan türleri de eklendi. Sevgili katkıda bulunan gönüllülerimizle birlikte, Organic Maps'i en iyi harita uygulaması yapmak için sürekli geliştiriyoruz! Lütfen tam güncelleme notuna göz atın:
+Mutlu, Sağlıklı ve Huzur Dolu bir Ramazan dileriz. Yeni Organic Maps güncellemesi ile sana en yakın aktarı 🌿 kolayca bulabilirsin! Android kullanıcıları bu güncelleme ile sürüş sırasında deneysel şerit önerisini test edebilirler ([OpenStreetMap.org](http://OpenStreetMap.org/) üzerinde henüz eklenmemişse [şehrindeki şeritleri eklemeyi](https://wiki.openstreetmap.org/wiki/Lanes) unutma). Navigasyon yönergeleri artık iPad'lerde doğru şekilde görüntülenmelidir. Bu güncellemede evcil hayvan bakımı, motosiklet tamircisi ve çilingir gibi yeni dükkan türleri de eklendi. Sevgili katkıda bulunan gönüllülerimizle birlikte, Organic Maps'i en iyi harita uygulaması yapmak için sürekli geliştiriyoruz! Lütfen tam güncelleme notuna göz at:
 
 * 29 Mart tarihine ait yeni OpenStreetMap harita verileri
 * OpenStreetMap wiki bağlantıları artık Türkçe sayfalara yönlendiriyor
-* KML yer işaretleri artık yol kaydı verileriyle doğru bir şekilde içe aktarılıyor
+* KML yer imleri artık iz verileriyle doğru bir şekilde içe aktarılıyor
 * Müzik ve enstrüman kategorileri editör aracılığıyla haritaya eklenebilir
 * Dikiş dükkanları ve tuhafiyeler artık aranabilir
 * Süpermarket ve marketler birbirinden ayrıldı
@@ -25,11 +23,13 @@ iOS
 Android
 * Deneysel şerit asistanı
 * Navigasyon sırasındaki konum okunun konumu düzeltildi
+* Yer imi renk seçici sağdan sola (RTL) modunda düzeltildi
 * Artık navigasyon modundayken hız ve mesafe düzgün şekilde görüntüleniyor
 * API için haritadan nokta seçimi düzeltildi
 * Yokuş yukarı ve aşağı simgeleri daha net oklarla değiştirildi
 * Güç tasarrufu modundayken artık 3D yapılar devre dışı bırakılıyor
 * Yakınlaştırma butonları artık ayarlardan gizlenebilir
+* Android 13 ve üzeri için İbranice ve Endonezce uygulama dilleri etkinleştirildi
 * Gelişmiş açılış zamanı düzenleyicisi için hata işleme iyileştirildi
 * Yer imi listesi açıklaması artık görüntüleniyor
 * F-Droid sürümünde yönlendirme yapmak artık harita indirmeyi durdurmuyor
@@ -44,13 +44,16 @@ Stiller
 * Park, orman ve çalılık renkleri artık farklı
 * Metal konstrüksiyon simgeleri eklendi
 * Hava yolları, teleferikler, elektrik hatları ve çitler iyileştirildi
+* Barselona metrosunun görünürlüğü azaltıldı
 * Bina, yol vb. nesnelerin üzerinden geçen eş yükselti çizgileri (izohipsler) düzeltildi
+* Simgelerinden önce görüntülenen bazı POI başlıkları düzeltildi
 
 Çeviriler
-* Türkçe çeviriler iyileştirildi
+* Almanca, Türkçe, Belarusça ve Macarca çeviriler iyileştirildi
+* Arapça sesli yönlendirme talimatları iyileştirildi
 
 Masaüstü
 * Uygulamanın görüntülenen adı Organic Maps olarak değiştirildi
 * Hakkında bölümündeki Organic Maps sürümü artık seçilebilir
 
-Organic Maps'i [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps&hl=tr), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611?local=tr), [F-Droid](https://f-droid.org/en/packages/app.organicmaps/) veya [Flathub](https://flathub.org/apps/details/app.organicmaps.desktop)'dan yükleyebilirsiniz!
+Organic Maps'i [AppStore](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps&hl=tr), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611?local=tr), [F-Droid](https://f-droid.org/en/packages/app.organicmaps/) veya [Flathub](https://flathub.org/apps/details/app.organicmaps.desktop)'dan yükleyebilirsin!

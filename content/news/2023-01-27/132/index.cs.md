@@ -6,9 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Přinášíme aktualizaci Organic Maps pro leden 2023! Doufáme, že jste měli skvělé prázdniny a užili si cestování, navštěvování zajímavých míst a potkávání zajímavých lidí.
-
-Tady je celý seznam změn:
+S nadšením oznamujeme naši první aktualizaci roku 2023. Jako vždy jsme připravili obsáhlý seznam vylepšení, a to díky podpoře a podnětům naší oddané komunity Organic Maps. Skvělá práce nás všech. 🙏
 
 * Nová OpenStreetMap data z 21. ledna 2023
 * Opraven import některých KML tras
@@ -16,7 +14,6 @@ Tady je celý seznam změn:
 * Vylepšeny výsledky vyhledávání kategorií
 * Austrálie je napsaná správně ve výsledcích vyhledávání
 * leisure=track je nyní vyhledatelné
-* Opraveny neviditelné nápovědy v Nastavení v tmavém režimu
 
 iOS 🍏
 * Opraveny neviditelné textové nápovědy v Nastavení v tmavém tématu

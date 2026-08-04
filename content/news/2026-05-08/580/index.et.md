@@ -8,7 +8,7 @@ taxonomies:
 
 Maikuu uuendus viib Organic Mapsi täieliku ühistranspordi toe veel ühe sammu võrra lähemale. Bussi-, rongi-, parvlaeva- või trammipeatus on sealt läbivate liinide alguspunkt — seega kui puudutad peatuses mõnda marsruuti, kuvatakse see liin oma värviga üle kogu kaardi. Peagi lisanduvad ka tegelikud veebipõhised sõiduplaanid. Ära unusta oma piirkonna [OSM-i ühistranspordi andmeid lisada või uuendada](https://gtfs-osm-matcher.organicmaps.app/), kui sa pole seda veel teinud!
 
-Nagu alati, suur tänu meie panustajatele, teie heade arvustuste, [annetuste](@/donate/index.et.md) ja [toetuse](@/contribute/index.et.md) eest.
+Nagu alati, suur tänu meie panustajatele ning sinu heade arvustuste, [annetuste](@/donate/index.et.md) ja [toetuse](@/contribute/index.et.md) eest.
 
 Laadi maikuu uuendus alla aadressilt <https://get.omaps.org> või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGallery'st][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].
 
@@ -18,7 +18,7 @@ Laadi maikuu uuendus alla aadressilt <https://get.omaps.org> või [App Store'ist
 - **Selgemad järjehoidjate sildid ja loetavam kaart.** Uus siltide paigutus takistab järjehoidjate pealkirjadel üksteisega kattumist, jalakäijate alad on veidi tumedamad ja marsruutide värve on kohandatud parema kontrasti jaoks nii heledas kui ka tumedas teemas.
 - **Üksikasjalikumad piirkonnad Aasias.** Vietnam ja Malaisia on nüüd jagatud väiksemateks kaartideks, nii et saad alla laadida just selle piirkonna, mida vajad, ning Hongkong, Macau ja Hainan on nüüd Guangdongist eraldi.
 
-## Väljalaskemärkmed
+## Väljalaskemärkused
 
 ### Kõik platvormid
 

@@ -1,17 +1,17 @@
 ---
-title: به‌روزرسانی فوریه ۲۰۲۶ ارگانیک مپس
+title: به‌روزرسانی فوریه ۲۰۲۶ Organic Maps
 date: 2026-02-18
 slug: february-2026-organic-maps-update
 taxonomies:
   news: ["releases"]
 ---
 
-با تشکر از مشارکت‌کنندگان ما، **جمعه زمان خوبی برای به‌روزرسانی ارگانیک مپس است!** به‌روزرسانی را از [https://get.omaps.org](https://get.omaps.org) یا در [اپ استور][appstore]، [گوگل پلی][googleplay]، [هوآوی اپ‌گالری][appgallery]، [اوبتینیوم][obtainium]، [اکرسنت][accrescent]، و [اف-دروید][fdroid] دریافت کنید.
+با تشکر از مشارکت‌کنندگان ما، **جمعه زمان خوبی برای به‌روزرسانی Organic Maps است!** به‌روزرسانی را از [https://get.omaps.org](https://get.omaps.org) یا در [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] دریافت کن.
 
-اگر می‌خواهید **برنامه‌های حمل‌ونقل عمومی در زمان واقعی** شهر خود را در یکی از به‌روزرسانی‌های آینده مشاهده کنید، لطفاً:
+اگر می‌خواهی **برنامه‌های حمل‌ونقل عمومی در زمان واقعی** شهر خود را در یکی از به‌روزرسانی‌های آینده ببینی، لطفاً:
 
-۱. **فیدهای GTFS استاتیک و در زمان واقعی** آژانس‌های حمل‌ونقل محلی خود را برای ما [ارسال کنید](https://github.com/organicmaps/gtfs-osm-matcher/issues) تا بتوانیم آنها را آزمایش و ادغام کنیم.
-۲. بررسی کنید که آیا **داده‌های اوپن‌استریت‌مپ** در منطقه شما شامل تمام ایستگاه‌های اتوبوس/تراموا/قطار با برچسب‌های لازم در [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) است یا خیر.
+1. **فیدهای GTFS استاتیک و در زمان واقعی** آژانس‌های حمل‌ونقل محلی خود را برای ما [ارسال کن](https://github.com/organicmaps/gtfs-osm-matcher/issues) تا بتوانیم آنها را آزمایش و ادغام کنیم.
+2. بررسی کن که آیا **داده‌های OpenStreetMap** در منطقهٔ تو شامل تمام ایستگاه‌های اتوبوس/تراموا/قطار با برچسب‌های لازم در [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) است یا خیر.
 
 ### یادداشت‌های انتشار
 
@@ -24,24 +24,24 @@ taxonomies:
 * رتبه‌بندی نتایج جستجو برای دسته‌ها بهبود یافت (Viktor Govako)
 * غذاهای ازبک اضافه شد (alnzrv)
 * زیپ‌لاین‌ها روی نقشه اضافه شدند (Rawdyrathaur)
-* پیوندهای ویکی‌مدیا با "؟" در عنوان اصلاح شدند (alnzrv)
-* پشتیبانی از فایل‌های GPX با "+" در مختصات (Alexander Borsuk)
+* پیوندهای ویکی‌مدیا با «?» در عنوان اصلاح شدند (alnzrv)
+* پشتیبانی از فایل‌های GPX با «+» در مختصات (Alexander Borsuk)
 
-### آی‌اواس
+### iOS
 
 * احراز هویت مرورگر OSM و لوگو اضافه شد (Rahul Kolluru)
 
-### اندروید
+### Android
 
 * ساعات کاری قابل گسترش (Rover track)
 * نمایش ساعات کاری اصلاح شد (DaN0mic)
 * مشکل تمرکز روی متن ورودی گفتگو اصلاح شد (Alexander Borsuk)
-* نمایش و استفاده از ارتفاع MSL برای مسیرهای ضبط شده در اندروید ۱۴+ (Alexander Borsuk, Viktor Govako)
+* نمایش و استفاده از ارتفاع MSL برای مسیرهای ضبط‌شده در Android 14+ (Alexander Borsuk, Viktor Govako)
 * وارد کردن KML، KMZ، GPX، GeoJSON از واتس‌اپ اصلاح شد (Sergiy Kozyr)
 * خرابی برنامه اصلاح شد (Alexander Borsuk)
 * پیام‌های خطای ورود به سیستم OSM دقیق‌تر شدند (Owm Dubey)
 * عملکرد صفحه مکان بهبود یافت (Owm Dubey)
-* آیکون قابلیت مشاهده لیست نشانک/مسیر در دستگاه‌های اندروید قدیمی‌تر اصلاح شد (Owm Dubey)
+* آیکون قابلیت مشاهده لیست نشانک/مسیر ضبط‌شده در دستگاه‌های Android قدیمی‌تر اصلاح شد (Owm Dubey)
 
 ### ترجمه‌ها
 
@@ -57,13 +57,13 @@ taxonomies:
 * به‌روزرسانی ترجمه‌ها از مشارکت‌کنندگان Weblate (Viktor Govako)
 
 
-برای آزمایش ویژگی‌های اولیه و گزارش مشکلات به آزمایش بتا بپیوندید:
+برای آزمایش ویژگی‌های اولیه و گزارش مشکلات به آزمایش بتا بپیوند:
 - [iOS][testflight]
 - [Android][firebase]
 
-هر [کمک مالی](@/donate/index.fa-IR.md) و [مشارکت](@/contribute/index.fa-IR.md) به ما کمک می‌کند تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های اپل و گوگل بسازیم.
+هر [کمک مالی](@/donate/index.fa-IR.md) و [مشارکت](@/contribute/index.fa-IR.md) به ما کمک می‌کند تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های Apple و Google بسازیم.
 
 با مراقبت و عشق،
-تیم ارگانیک مپس
+تیم Organic Maps
 
 {{ references() }}

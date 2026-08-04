@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Mae ail ryddhad mis Medi yn dod â sgrin gynllunio llwybr ailddyluniedig a’r gallu i weld cynnwys tag OpenStreetMap `description` ar iOS. I ddod o hyd i leoedd gyda’r tag hwn teipiwch `?description` yn y blwch chwilio (yn debyg i `?wiki`).
+Mae ail ryddhad mis Medi yn dod â sgrin gynllunio llwybr ailddyluniedig a’r gallu i weld cynnwys tag OpenStreetMap `description` ar iOS. I ddod o hyd i leoedd gyda’r tag hwn, teipia `?description` yn y blwch chwilio (yn debyg i `?wiki`).
 
 Mae hefyd yn cynnwys sawl trwsio a gwelliant ar iOS ac Android (manylion isod).
 
-Nodweddion diweddar efallai a gollwyd gennych:
+Nodweddion diweddar efallai i ti eu colli:
 - Rhifau llwybrau trafnidiaeth gyhoeddus wrth ddewis safle bws
-- Llwybrau cerdded a beicio (eu galluogi trwy’r botwm Haenau ar y chwith uchaf)
+- Llwybrau cerdded a beicio (galluoga nhw drwy’r botwm Haenau ar y chwith uchaf)
 - Dangos enwau marciau ar y map (galluogi yn y Gosodiadau)
 - Mae’r eicon ✎ yn galluogi golygu marciau’n gyflym
 
-Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [eich rhoddion](@/donate/index.cy.md) a [eich cefnogaeth](@/contribute/index.md).
+Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [dy roddion](@/donate/index.cy.md) a [dy gefnogaeth](@/contribute/index.md).
 
 ### Nodiadau Rhyddhau Manwl
 
@@ -38,7 +38,7 @@ Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [eich rhoddion](@/donate/inde
 
 #### iOS
 
-- NEWYDD: dangos cynnwys tag OSM `description` (chwiliwch `?description`) (Kiryl Kaveryn, Viktor Govako)
+- NEWYDD: dangos cynnwys tag OSM `description` (chwilia `?description`) (Kiryl Kaveryn, Viktor Govako)
 - NEWYDD: sgrin gynllunio llwybr ailddyluniedig (Kiryl Kaveryn)
 
 #### Android
@@ -50,10 +50,10 @@ Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [eich rhoddion](@/donate/inde
 - Trwsio diweddariad safle yn y modd llywio ar ROMs cyfaddas (e.e. Lineage + MicroG) (Viktor Govako)
 - Eicon pensil glas (golygu) ar gyfer marciau (Alexander Borsuk)
 - Lleihau uchder fertigol rhagolwg gwybodaeth lle (Alexander Borsuk)
-- Tynnu ongl azimuth tua’r gogledd o’r rhagolwg (tapiwch y saeth las) (Alexander Borsuk)
+- Tynnu ongl azimuth tua’r gogledd o’r rhagolwg (tapia’r saeth las) (Alexander Borsuk)
 
-Lawrlwythwch y fersiwn ddiweddaraf: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Lawrlwytha’r fersiwn ddiweddaraf o Organic Maps o’r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Ymunwch â’r beta: [iOS][testflight] / [Android][firebase].
+O.N. Ymuna â’r profion beta i gael nodweddion cynnar: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

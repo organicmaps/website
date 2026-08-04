@@ -8,7 +8,7 @@ taxonomies:
 
 Organic Maps'i güncelleme zamanı! 2026'daki ikinci uygulama güncellemesinde daha hızlı ülkeler arası ve bölgeler arası rotalar, taze OSM harita verileri ve Android için birçok hata düzeltmesi.
 
-[get.omaps.org](https://get.omaps.org) adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] üzerinden yükleyin.
+[get.omaps.org](https://get.omaps.org) adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] üzerinden yükle.
 
 ### Yenilikler
 
@@ -29,7 +29,7 @@ Organic Maps'i güncelleme zamanı! 2026'daki ikinci uygulama güncellemesinde d
 * Küçük ekranlarda yönlendirme araç çubuğu örtüşmesi düzeltildi _(Anton P)_
 * Android 5 ve 6'da arama çökmesi düzeltildi _(Alexander Borsuk)_
 * Android 5'te SSS çevirileri düzeltildi _(Alexander Borsuk)_
-* Haritalar güncellenirken "Yeterli Boş Alan Yok" hatası düzeltildi _(Alexander Borsuk)_
+* Haritalar güncellenirken “Yeterli Boş Alan Yok” hatası düzeltildi _(Alexander Borsuk)_
 
 ### Çeviriler
 
@@ -40,11 +40,11 @@ Organic Maps'i güncelleme zamanı! 2026'daki ikinci uygulama güncellemesinde d
 * Kullanılmayan köprüler için eksik çeviriler eklendi _(Alexander Borsuk)_
 
 
-Erken özellikleri denemek ve sorunları bildirmek için beta testine katılın:
+Yeni özellikleri erkenden denemek ve sorunları bildirmek için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase]
 
-Apple ve Google Haritalar'a daha iyi, gizlilik odaklı bir alternatif oluşturmak için [bağış yapın](@/donate/index.tr.md) ve [katkıda bulunun](@/contribute/index.tr.md).
+Apple ve Google Haritalar'a daha iyi, gizlilik odaklı bir alternatif oluşturmak için [bağış yap](@/donate/index.tr.md) ve [katkıda bulun](@/contribute/index.tr.md).
 
 Sevgiyle,
 Organic Maps Ekibi

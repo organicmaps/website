@@ -12,14 +12,24 @@ Hainbat ezaugarri aipagarri aurkeztu dira, besteak beste [OpenStreetMap-eko mend
 Aurten, gure instalazio-oinarrian hazkunde are handiagoa lortu dugu aurreko urteekin alderatuta, urtea App Store-n ia 2 milioi deskarga eta Google Play-n ia 3 milioi deskarga guztira lortuz, Europako eta Ipar Amerikako herrialdeak zerrendaburu direlarik. Beste iturri batzuetatik gutxienez milioi 1 Organic Maps Android deskarga eta instalazio gehiago kalkulatzen ditugu, guztira ***6 milioi deskarga inguru plataforma guztietan*** aplikazioa duela 5 urte abiarazi zenetik.
 
 2025eko beste lorpen aipagarri batzuk honako hauek dira:
+
+
+#### GitHub estatistikak
+
 - 1.000 [Pull Request](https://github.com/organicmaps/organicmaps/pulls) sortu eta 808 batu dira 2025ean, guztira 5.000tik.
 - 800 [arazo berri][github issues] sortu eta 482 konpondu/itxi dira 2025ean, guztira 6.000tik.
 - [1.500 commit](https://github.com/organicmaps/organicmaps/commits) 100 kolaboratzaileren eskutik 2025ean, proiektua 2020an hasi zenetik guztira 8.600 commitetatik.
 - Proiektuak 1.244 fork eta 12.411 izar lortu ditu [GitHub-en][github], garatzaileen interes handia eta mundu errealeko erabilera adieraziz.
+
+#### Dendetako balorazioak eta erabiltzaileen partaidetza
+
 - 2025ean zehar, App Store-ko balorazio osoak 4.100etik 11.100era igo ziren, hau da, aplikazioak 2025ean aurreko urte guztietan baino bi aldiz balorazio berri gehiago jaso zituen, zuek, gure erabiltzaile maiteok, duzuen estimu handia islatuz.
 - Android erabiltzaileek ere konpromiso handiagoa erakutsi zuten, 2025ean 5.300 balorazio berrirekin, guztira 16.500era iritsiz ❤️
 - 4.000 laguntza-mezu elektroniko bidali genituen eta Google Play eta App Store-ko 2.500 iritziri erantzun genien 2025ean.
 - Mundu osoko erabiltzaileek 10 petabyte mapa-datu deskargatu zituzten gure zerbitzarietatik 2025ean.
+
+#### Sare sozialak eta komunitatea
+
 - Zuei esker, gure sare sozialetako estatistikak ere hazten ari dira (jarrai gaitzazu oraindik egin ez baduzu! 😊):
    - [13.000 Fosstodon-en][FOSStodon]
    - [6.000 Telegram-en][telegram]

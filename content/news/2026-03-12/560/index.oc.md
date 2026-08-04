@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-La mesa a jorn de març d'Organic Maps a fo mai de temps a causa de las correccions urgentas e de la revision de Google Play. La mesa a jorn d'[Accrescent][accrescent] es pas encara prèsta a causa de problèmas amb la botiga d'aplicacions Accrescent. Obtenètz la mesa a jorn sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+La mesa a jorn de març d'Organic Maps a pres mai de temps a causa de las correccions urgentas e de la revision de Google Play. La mesa a jorn d'[Accrescent][accrescent] es pas encara prèsta a causa de problèmas amb la botiga d'aplicacions Accrescent. Obtén la mesa a jorn sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-P.S. Contactatz-nos per corrièr electronic a <sdk@organicmaps.app> se sètz interessats per un SDK per iOS/Android/Linux/MacOS/Windows amb de mapas fòra linha que podètz reutilizar dins vòstres projèctes.
+P.S. Contacta-nos per corrièr electronic a <sdk@organicmaps.app> se sès interessat per un SDK per iOS/Android/Linux/MacOS/Windows amb de mapas fòra linha que pòdes reutilizar dins tos projèctes.
 
-P.P.S. Sabiatz que podètz ja utilizar l'API dins vòstra aplicacion se Organic Maps es tanben installada? Consultatz aquí: <https://omaps.app/api>
+P.P.S. Sabiás que pòdes ja utilizar l'API dins ta aplicacion se Organic Maps es tanben installada? Consulta aquí: <https://omaps.app/api>
 
 ### Nòtas de version
 * Donadas de mapa OSM del 10 de març
@@ -19,9 +19,9 @@ P.P.S. Sabiatz que podètz ja utilizar l'API dins vòstra aplicacion se Organic 
 * Apondon del supòrt pels limits de velocitat condicionals (Abdelhadi Wael, Viktor Govako)
 * Apondudas las botigas de cuèr e las botigas d'articles religioses (Viktor Govako)
 * Apondudas las filèras d'arbres (Viktor Govako)
-* Apondudas las plataòrmas d'arrèst de transpòrt public sens arrèsts de bus a proximitat (Viktor Govako)
+* Apondudas las plataformas d'arrèst de transpòrt public sens arrèsts de bus a proximitat (Viktor Govako)
 * Tanzania dividida en regions mai pichonas (Emile Villette, Viktor Govako)
-* Corregit lo calcul del progrès de telecòpia de país (Kiryl Kaveryn)
+* Corregit lo calcul del progrès de telecargament de país (Kiryl Kaveryn)
 * Corregits mantuns plantatges, estabilitat e performança melhoradas (Alexander Borsuk, Viktor Govako)
 
 ### iOS
@@ -40,7 +40,7 @@ P.P.S. Sabiatz que podètz ja utilizar l'API dins vòstra aplicacion se Organic 
 * Traduccions dels contributors de Weblate actualizadas (Viktor Govako)
 * Corregida la traduccion en ucraïnès (Nnifria)
 
-Refo̊nhètz los èssais bèta per ensajar las foncions nòvas e senhalar los problèmas:
+Rejonh los èssais bèta per ensajar las foncions nòvas e senhalar los problèmas:
 - [iOS][testflight]
 - [Android][firebase]
 

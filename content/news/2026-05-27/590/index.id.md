@@ -13,9 +13,9 @@ Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Go
 ### Semua platform
 
 - Data peta OSM per 27 Mei 2026 _(Viktor Govako)_
-- Menambahkan perisai jalan Australia dan Selandia Baru _(Viktor Govako)_
 - Menambahkan ikon untuk boules, bersepeda, dan tempat olahraga motor _(Viktor Govako)_
 - Menambahkan gerbang upacara, seluncuran air, taman hiburan, dan roller coaster _(David Martinez)_
+- Memperbaiki perisai jalan Australia dan Selandia Baru _(Viktor Govako)_
 - Peningkatan gerakan jari untuk kontrol peta dalam tampilan perspektif selama mode Navigasi _(Viktor Govako)_
 - Memperbaiki rute transportasi umum untuk stasiun dan objek area lainnya (ketuk halte atau stasiun untuk melihat rute) _(Viktor Govako)_
 - Memperbaiki rendering batas kecepatan untuk kamera kecepatan _(Alexander Borsuk)_
@@ -46,7 +46,7 @@ Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Go
 - BARU! Teks trek dan deskripsi HTML sekarang didukung, dengan cara yang sama seperti deskripsi untuk penanda. Tekan ikon pensil untuk menambahkan deskripsi. _(Mikhail Listratsenka)_
 - BARU! Pilih warna apa pun untuk trek, tidak hanya subset terbatas _(Mikhail Listratsenka)_
 - Pengguna Korea, Cina, dan Jepang sekarang akan melihat font yang tepat berdasarkan lokasi perangkat _(Alexander Borsuk)_
-- Memperbaiki masalah halaman tempat trek dan tombol "Buka Dalam" _(Mikhail Listratsenka)_
+- Memperbaiki masalah halaman tempat trek dan tombol “Buka Dalam” _(Mikhail Listratsenka)_
 
 ### Linux dan macOS
 - Menambahkan terjemahan bahasa Mandarin ke komentar file `.desktop` _(DeepChirp)_
@@ -57,7 +57,7 @@ Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Go
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]
 
-Bepergian dengan mudah, dan temukan petualangan Anda dengan Organic Maps! ✈️🚅🚌🚢🌴🗺️🌎
+Bepergian dengan mudah, dan temukan petualanganmu dengan Organic Maps! ✈️🚅🚌🚢🌴🗺️🌎
 
 Tim Organic Maps
 

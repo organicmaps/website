@@ -12,14 +12,24 @@ Verskeie noemenswaardige funksies is bekendgestel, insluitend [wêreldwye stap- 
 Hierdie jaar het ons selfs sterker groei in ons installasiebasis behaal in vergelyking met vorige jare, en die jaar afgesluit met 'n leeftydtotaal van byna 2M aflaaie op die App Store en byna 3M aflaaie op Google Play, met Europese en Noord-Amerikaanse lande bo-aan die lys. Ons skat ten minste 1M meer Organic Maps Android-aflaaie en installasies van ander bronne, wat die totaal op ongeveer ***6M aflaaie oor alle platforms*** te staan bring sedert die app se bekendstelling 5 jaar gelede.
 
 Ander noemenswaardige prestasies in 2025 sluit in:
+
+
+#### GitHub-statistieke
+
 - 1K [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) geskep en 808 saamgevoeg in 2025 uit 'n totaal van 5K.
 - 800 [nuwe kwessies][github issues] geskep en 482 reggestel/gesluit in 2025 uit 'n totaal van 6K.
 - [1.5K commits](https://github.com/organicmaps/organicmaps/commits) van 100 bydraers in 2025 uit 'n totaal van 8.6K commits sedert die projek in 2020 begin het.
 - Die projek het 1,244 "forks" en 12,411 sterre [op GitHub][github] bereik, wat dui op sterk ontwikkelaarsbelangstelling en werklike gebruik.
+
+#### Winkelgraderings en gebruikersbetrokkenheid
+
 - In die loop van 2025 het totale graderings op die App Store toegeneem van 4.1K tot 11.1K, wat beteken die app het meer as twee keer soveel nuwe graderings in 2025 ontvang as in alle vorige jare saam, wat sterk waardering van jou, ons geliefde gebruikers, weerspieël.
 - Android-gebruikers het ook verhoogde betrokkenheid getoon, met 5.3K nuwe graderings in 2025, wat 'n totaal van 16.5K bereik ❤️
 - Ons het 4K ondersteunings-e-posse gestuur en gereageer op 2.5K resensies op Google Play en App Store in 2025.
 - 10 petagrepe kaartdata is wêreldwyd deur gebruikers van ons bedieners afgelaai in 2025.
+
+#### Sosiale media en gemeenskap
+
 - Danksy jou groei ons sosiale media statistieke ook (volg ons as jy nog nie het nie! 😊):
    - [13K op Fosstodon][FOSStodon]
    - [6K op Telegram][telegram]

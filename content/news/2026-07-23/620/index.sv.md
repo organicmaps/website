@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Som ni kanske redan har märkt har juli-uppdateringen av Organic Maps släppts. Ladda ner den på <https://get.omaps.org> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid].
+Som du kanske redan har märkt har juli-uppdateringen av Organic Maps släppts. Ladda ner den på <https://get.omaps.org> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid].
 
-Tack vare era [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/index.sv.md) kunde vi under juli månad fokusera på buggfixar och förbättringar. Om ni missade det finns även följande funktioner från den [tidigare juni-versionen](@/news/2026-06-29/610/index.sv.md) tillgängliga:
+Tack vare dina [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/index.sv.md) kunde vi under juli månad fokusera på buggfixar och förbättringar. Om du missade det finns även följande funktioner från den [tidigare juni-versionen](@/news/2026-06-29/610/index.sv.md) tillgängliga:
 - Kollektivtrafikrutter (tidtabeller i realtid är under utveckling)
 - Satellitbilder
 - Alternativa rutter för bilkörning, vandring och cykling
@@ -21,13 +21,13 @@ Tack vare era [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/i
 
 ### Karta och platser
 - OpenStreetMap-data är uppdaterade per den 14 juli
-- Anteckningar som skickas till [OpenStreetMap](https://www.openstreetmap.org) placeras nu exakt på den plats ni valt, istället för mitt på hela gatan eller området _(Alexander Borsuk)_
+- Anteckningar som skickas till [OpenStreetMap](https://www.openstreetmap.org) placeras nu exakt på den plats du valt, istället för mitt på hela gatan eller området _(Alexander Borsuk)_
 - Förbättrat platsval när man trycker på kartan i områden som sträcker sig över 180°-antimeridianen _(Viktor Govako)_
 - Höjdprofilerna för spår visar inte längre föråldrade eller tomma diagram efter att ett spår har raderats _(Kiryl Kaveryn)_
 
 ### Kollektivtrafik
 - Namnen på hållplatser, byten och stationer har nu en vit kontur för att vara läsbara både i ljusa och mörka teman _(Viktor Govako)_
-- Tunnelbanelagret visas igen på rätt sätt när ni stänger förhandsvisningen av en kollektivtrafikrutt _(Mikhail Listratsenka)_
+- Tunnelbanelagret visas igen på rätt sätt när du stänger förhandsvisningen av en kollektivtrafikrutt _(Mikhail Listratsenka)_
 
 ### Ruttplanering och navigering
 - Vägvarningar (vägtullar, färjor, oasfalterade vägar, trappsteg och så vidare) visas nu för alla alternativa rutter _(Viktor Govako)_
@@ -36,10 +36,10 @@ Tack vare era [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/i
 - Rättat felaktiga och saknade svänganvisningar _(Alexander Borsuk)_
 
 ### iOS
-- Ny inställning ”Spara sökhistorik” som gör att ni kan stänga av historiken och dölja den om ni hellre inte vill spara den _(Kiryl Kaveryn)_
+- Ny inställning ”Spara sökhistorik” som gör att du kan stänga av historiken och dölja den om du hellre inte vill spara den _(Kiryl Kaveryn)_
 - Ny knapp ”Redigera” för att enklare ta bort bokmärken _(Kiryl Kaveryn)_
-- Bokmärken sparas nu automatiskt när ni lämnar skärmen _(Kiryl Kaveryn)_
-- Färgpaletten innehåller nu fördefinierade färger och ger er möjlighet att välja vilken anpassad färg som helst _(Kiryl Kaveryn)_
+- Bokmärken sparas nu automatiskt när du lämnar skärmen _(Kiryl Kaveryn)_
+- Färgpaletten innehåller nu fördefinierade färger och ger dig möjlighet att välja vilken anpassad färg som helst _(Kiryl Kaveryn)_
 - Det tomma tillståndet för höjddiagrammet för ett inspelat spår har förbättrats _(Kiryl Kaveryn)_
 - Visningen av framsteg längs rutten på Start-knappen har förbättrats _(Kiryl Kaveryn)_
 - När man ändrar ordningen på hållplatserna hoppar listan inte längre hit och dit _(Kiryl Kaveryn)_

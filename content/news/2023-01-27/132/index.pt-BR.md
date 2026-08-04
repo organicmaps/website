@@ -6,11 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Conheça a atualização de janeiro de 2023 do Organic Maps! esperamos que você tenha tido um ótimo período de festas e conseguido viajar e visitar lugares interessantes, além de conhecer pessoas divertidas.
+Estamos animados para anunciar a nossa primeira atualização de 2023. Como sempre, incluímos uma lista completa de melhorias, graças ao apoio e às sugestões da nossa dedicada comunidade Organic Maps. Ótimo trabalho de todos nós. 🙏
 
-Aqui está a lista completa de mudanças:
-
-* Novos dados OSM de 21 de janeiro de 2023
+* Novos dados do OpenStreetMap de 21 de janeiro de 2023
 * Correção da importação de algumas trilhas KML
 * Busca automática da posição atual em 30 horas de inatividade em vez de 8 horas
 * Melhoria nos resultados de categorias de busca
@@ -34,10 +32,10 @@ Estilos
 * Correção dos ícones de metrô de Buenos Aires
 * Adição de pistas de boliche
 * Correção de ícones para fontes históricas e postos de informações de turismo
-* Tamanhos de ícones iguais para fontes
+* Tamanhos de ícones iguais para nascentes e fontes termais
 
 Editor
-* Permite adicionar nomes com símbolos /\°[]
+* Permite editar nomes com símbolos /\°[]
 * Adição de amenity=public_bookcase
 * Aumento do número máximo de andares editáveis de 25 para 50
 

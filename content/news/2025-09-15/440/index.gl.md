@@ -9,7 +9,7 @@ Esta segunda versión de setembro trae unha pantalla de planificación de rutas 
 
 Inclúe tamén moitas correccións e melloras en iOS e Android (detalles abaixo).
 
-Funcionalidades recentes que quizais non viseches:
+Funcionalidades recentes que quizais non viches:
 - Números de liñas de transporte público ao seleccionar unha parada
 - Rutas de sendeirismo e ciclismo (actívaas co botón Capas arriba á esquerda)
 - Amosar nomes dos marcadores no mapa (activa en Axustes)
@@ -48,11 +48,11 @@ Organic Maps é posible grazas ás persoas colaboradoras, [ás túas doazóns](@
 - Corrixido atraso ao amosar distancia a un marcador (Alexander Borsuk)
 - Tema escuro reestruturado (Andrei Shkrob)
 - Corrixida actualización de posición en navegación en ROMs personalizadas (ex. Lineage + MicroG) (Viktor Govako)
-- Icona lápis azul (editar) para marcadores (Alexander Borsuk)
+- Icona de lapis azul (editar) para marcadores (Alexander Borsuk)
 - Reducida altura vertical da previsualización de información do lugar (Alexander Borsuk)
-- Eliminado ángulo de acimut cara ao norte da previsualización (toca frecha azul coa distancia) (Alexander Borsuk)
+- Eliminado ángulo de acimut cara ao norte da previsualización (toca a frecha azul coa distancia) (Alexander Borsuk)
 
-Obtén a última versión: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Obtén a última versión de Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Únete á beta: [iOS][testflight] / [Android][firebase].
 

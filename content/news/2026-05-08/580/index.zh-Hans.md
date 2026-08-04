@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-5 月的更新让 Organic Maps 朝着全面支持公共交通又迈进了一步。公交、火车、轮渡或有轨电车站点，是查看途经公共交通线路的入口——因此，现在在站点上点按某条路线，该路线就会以自己的颜色在整张地图上完整显示。实际运营时刻表也将在线提供；如果您还没有为所在地区添加或更新 [OSM 公共交通数据](https://gtfs-osm-matcher.organicmaps.app/)，请别忘了补充！
+5 月的更新让 Organic Maps 朝着全面支持公共交通又迈进了一步。公交、火车、轮渡或有轨电车站点，是查看途经公共交通线路的入口——因此，现在在站点上点按某条路线，该路线就会以自己的颜色在整张地图上完整显示。实际运营时刻表也将在线提供；如果你还没有为所在地区添加或更新 [OSM 公共交通数据](https://gtfs-osm-matcher.organicmaps.app/)，请别忘了补充！
 
-一如既往，衷心感谢我们的贡献者们，感谢您的好评、[捐赠](@/donate/index.zh-Hans.md)与[支持](@/contribute/index.zh-Hans.md)。
+一如既往，衷心感谢我们的贡献者们，感谢你的好评、[捐赠](@/donate/index.zh-Hans.md)与[支持](@/contribute/index.zh-Hans.md)。
 
 请通过 <https://get.omaps.org> 或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 以及 [F-Droid][fdroid] 获取 5 月更新。
 
@@ -16,7 +16,7 @@ taxonomies:
 
 - **点击地图上的公交、有轨电车、火车或轮渡站点**，Organic Maps 即可高亮整条公共交通线路，并可从显示的线路和路线列表中选择具体路线。
 - **更清爽的书签标签和更易读的地图。** 新的标签布局让书签标题不再互相挤占，步行区域颜色略微加深，路线颜色经过调校，在浅色与深色主题下对比度更佳。
-- **更精细的亚洲地区划分。** 越南和马来西亚现已拆分为更小的地图，便于您只下载所需区域；香港、澳门、海南也已从广东独立出来。
+- **更精细的亚洲地区划分。** 越南和马来西亚现已拆分为更小的地图，便于你只下载所需区域；香港、澳门、海南也已从广东独立出来。
 
 ## 发布说明
 
@@ -29,7 +29,7 @@ taxonomies:
 - 越南和马来西亚已拆分为更小、可单独下载的区域（Viktor Govako）
 - 香港、澳门和海南已从广东独立出来，并更新了相邻边界（Viktor Govako）
 - 更新了印度尼西亚、马来西亚、坦桑尼亚、泰国和越南的等高线（Viktor Govako）
-- 路线规划：恢复路线时，现在会自动去除您已经经过的中间点（Viktor Govako）
+- 路线规划：恢复路线时，现在会自动去除你已经经过的中间点（Viktor Govako）
 - 新增活火山和水上通道入口图标；船台现在可被搜索（David Martinez）
 - 新增水烟馆（alnzrv）
 - 新增在建建筑物（Viktor Govako）

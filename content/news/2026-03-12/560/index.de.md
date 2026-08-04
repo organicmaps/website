@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Die Aktualisierung von Organic Maps im März hat aufgrund von Hotfixes und der Überprüfung durch Google Play mehr Zeit in Anspruch genommen. Das [Accrescent][accrescent]-Update ist aufgrund von Problemen mit dem Accrescent-App-Store noch nicht fertig. Holen Sie sich das Update unter <https://get.omaps.org> oder im [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], und [F-Droid][fdroid].
+Die Aktualisierung von Organic Maps im März hat aufgrund von Hotfixes und der Überprüfung durch Google Play mehr Zeit in Anspruch genommen. Das [Accrescent][accrescent]-Update ist aufgrund von Problemen mit dem Accrescent-App-Store noch nicht fertig. Hol dir das Update unter <https://get.omaps.org> oder im [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], und [F-Droid][fdroid].
 
-P.S. Kontaktieren Sie uns per E-Mail an <sdk@organicmaps.app>, wenn Sie an iOS/Android/Linux/MacOS/Windows SDK mit Offline-Karten interessiert sind, die Sie in Ihren Projekten wiederverwenden können.
+P.S. Kontaktiere uns per E-Mail an <sdk@organicmaps.app>, wenn du an einem iOS/Android/Linux/MacOS/Windows SDK mit Offline-Karten interessiert bist, das du in deinen Projekten wiederverwenden kannst.
 
-P.P.S. Wussten Sie schon von der API, die Sie in Ihrer App verwenden können, wenn die Organic Maps App ebenfalls installiert ist? Prüfen Sie es hier: <https://omaps.app/api>
+P.P.S. Wusstest du schon von der API, die du in deiner App verwenden kannst, wenn die Organic Maps App ebenfalls installiert ist? Schau sie dir hier an: <https://omaps.app/api>
 
 ### Versionshinweise
 * OSM-Kartendaten ab 10. März
@@ -37,10 +37,10 @@ P.P.S. Wussten Sie schon von der API, die Sie in Ihrer App verwenden können, we
 * Verbesserte Länderbeschreibungen (alnzrv)
 * Korrekturen an der rumänischen Übersetzung von Eugen Dedu vorgenommen (Alexander Borsuk)
 * Aktualisierte Ländernamen (Viktor Govako)
-* Aktualisierte Übersetzungen von Weblate-Mitarbeitern (Viktor Govako)
+* Aktualisierte Übersetzungen von Weblate-Mitwirkenden (Viktor Govako)
 * Ukrainische Übersetzung korrigiert (Nnifria)
 
-Nehmen Sie am Betatest teil, um erste Funktionen auszuprobieren und Probleme zu melden:
+Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:
 - [iOS][testflight]
 - [Android][firebase]
 

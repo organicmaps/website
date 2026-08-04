@@ -13,7 +13,7 @@ taxonomies:
 - Новый интерфейс поиска и построения маршрутов для Android
 - Поддержка крупных шрифтов доступности для iOS
 
-Получи его на <https://get.omaps.org> или в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid] и расскажи нам, что думаешь!
+Получите его на <https://get.omaps.org> или в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid] и расскажите нам, что вы думаете!
 
 ## Подробный список изменений
 
@@ -22,10 +22,10 @@ taxonomies:
 - НОВОЕ! Предупреждения на маршрутах о ступеньках, воротах и шлагбаумах по пути _(Viktor Govako)_
 - НОВОЕ! Выбор любого цвета для меток _(Alexander Borsuk, Mikhail Listratsenka)_
 - НОВОЕ! Поддержка координат British National Grid (OS Grid), Irish Grid и Irish Transverse Mercator (ITM) _(Alexander Borsuk)_
-- ЭКСПЕРИМЕНТАЛЬНО: включи спутниковые снимки в настройках Organic Maps, указав URL пользовательского сервера растровых тайлов. Мы всё ещё работаем над собственным сервером, поэтому пока найди общедоступный сервер с плейсхолдерами `{x}`, `{y}`, `{z}` в его URL _(Viktor Govako, renderexpert)_
+- ЭКСПЕРИМЕНТАЛЬНО: включите спутниковые снимки в настройках Organic Maps, указав URL пользовательского сервера растровых тайлов. Мы всё ещё работаем над собственным сервером, поэтому пока найдите общедоступный сервер с плейсхолдерами `{x}`, `{y}`, `{z}` в его URL _(Viktor Govako, renderexpert)_
 - Данные OpenStreetMap обновлены по состоянию на 24 июня _(Viktor Govako)_
 - Данные Wikipedia обновлены по состоянию на 20 июня, включая статьи на итальянском _(Alexander Borsuk)_
-- Введи `?map-download-server:https://your-server.com/` в окне поиска, чтобы переопределить серверы загрузки карт Organic Maps. Введи `?no-map-download-server`, чтобы удалить переопределение _(Alexander Borsuk)_
+- Введите `?map-download-server:https://your-server.com/` в окне поиска, чтобы переопределить серверы загрузки карт Organic Maps. Введите `?no-map-download-server`, чтобы удалить переопределение _(Alexander Borsuk)_
 
 #### Отрисовка карты и стили
 
@@ -77,7 +77,7 @@ taxonomies:
 - Обновлены немецкие и французские переводы _(Wuzzy, Alexander Borsuk)_
 - Исправлены неверные переводы голосовой подсказки «onto street» для китайского, сербского и каталанского языков _(Alexander Borsuk)_
 
-## Присоединяйся к бета-тестированию, чтобы попробовать новые функции раньше и сообщать о проблемах:
+## Присоединяйтесь к бета-тестированию, чтобы попробовать новые функции раньше и сообщать о проблемах:
 
 - [iOS][testflight]
 - [Android][firebase]

@@ -6,35 +6,35 @@ taxonomies:
   news: ["releases"]
 ---
 
-Mae diweddariad mis Mai yn dod â chymorth llawn i drafnidiaeth gyhoeddus yn Organic Maps gam yn nes. Mae arhosfa bws, trên, fferi, neu dram yn fan cychwyn i'r llinellau trafnidiaeth sy'n mynd drwyddi — felly mae tapio llwybr wrth arhosfa bellach yn dangos y llinell honno, yn ei lliw ei hun, yr holl ffordd ar draws y map. Mae amserlenni ar-lein go iawn yn dod hefyd, felly peidiwch ag anghofio [ychwanegu/diweddaru data trafnidiaeth gyhoeddus OSM](https://gtfs-osm-matcher.organicmaps.app/) yn eich ardal os nad ydych eisoes wedi gwneud hynny!
+Mae diweddariad mis Mai yn dod â chymorth llawn i drafnidiaeth gyhoeddus yn Organic Maps gam yn nes. Mae arhosfa bws, trên, fferi, neu dram yn fan cychwyn i'r llinellau trafnidiaeth sy'n mynd drwyddi — felly mae tapio llwybr wrth arhosfa bellach yn dangos y llinell honno, yn ei lliw ei hun, yr holl ffordd ar draws y map. Mae amserlenni ar-lein go iawn yn dod hefyd, felly paid ag anghofio [ychwanegu/diweddaru data trafnidiaeth gyhoeddus OSM](https://gtfs-osm-matcher.organicmaps.app/) yn dy ardal os nad wyt ti eisoes wedi gwneud hynny!
 
-Fel bob amser, diolch yn fawr i'n cyfranwyr, eich adolygiadau da, [rhoddion](@/donate/index.cy.md), a [chefnogaeth](@/contribute/index.cy.md).
+Fel bob amser, diolch yn fawr i'n cyfranwyr, dy adolygiadau da, dy [roddion](@/donate/index.cy.md), a dy [gefnogaeth](@/contribute/index.cy.md).
 
-Gallwch gael diweddariad mis Mai yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Gelli gael diweddariad mis Mai yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
 ## Uchafbwyntiau
 
-- **Tapiwch arhosfa bws, tram, trên, neu fferi ar y map,** ac mae Organic Maps yn amlygu'r llinell drafnidiaeth gyfan, y gellir ei dewis o'r rhestr o linellau a llwybrau sy'n cael eu harddangos.
+- **Tapia arhosfa bws, tram, trên, neu fferi ar y map,** ac mae Organic Maps yn amlygu'r llinell drafnidiaeth gyfan, y gellir ei dewis o'r rhestr o linellau a llwybrau sy'n cael eu harddangos.
 - **Labeli nodau tudalen glanach a map mwy darllenadwy.** Mae'r ffordd newydd o osod labeli yn atal teitlau nodau tudalen rhag pentyrru dros ei gilydd, mae ardaloedd cerddwyr ychydig yn dywyllach, ac mae lliwiau llwybrau wedi'u mireinio i roi gwell cyferbyniad ar themâu golau a thywyll.
-- **Rhanbarthau manylach ar draws Asia.** Mae Fietnam a Malaysia bellach wedi'u rhannu'n fapiau llai fel y gallwch lawrlwytho dim ond yr ardal sydd ei hangen arnoch, ac mae Hong Kong, Macau, a Hainan bellach ar wahân i Guangdong.
+- **Rhanbarthau manylach ar draws Asia.** Mae Fietnam a Malaysia bellach wedi'u rhannu'n fapiau llai fel y gelli lawrlwytho dim ond yr ardal sydd ei hangen arnat, ac mae Hong Kong, Macau, a Hainan bellach ar wahân i Guangdong.
 
 ## Nodiadau rhyddhau
 
 ### Pob llwyfan
 
-- NEWYDD! Tapiwch arhosfa trafnidiaeth gyhoeddus a dewiswch rif llwybr i amlygu'r llwybr trafnidiaeth cyfan ar y map, fel yn yr haen map Subway (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NEWYDD! Tapia arhosfa trafnidiaeth gyhoeddus a dewisa rif llwybr i amlygu'r llwybr trafnidiaeth cyfan ar y map, fel yn yr haen map Subway (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NEWYDD! Nid yw labeli nodau tudalen ar y map yn gorgyffwrdd (Viktor Govako)
 - Cywirwyd cyfrifiadau colli ac ennill drychiad ar y graffiau traciau i gyfateb yn well â gwerthoedd o apiau poblogaidd eraill (Viktor Govako)
 - Mae trafnidiaeth gyhoeddus pellter hir a pherthnasau map eraill bellach wedi'u cysylltu ar draws ffiniau mapiau yn un llinell ddi-dor (Viktor Govako)
 - Rhannwyd Fietnam a Malaysia yn rhanbarthau llai y gellir eu lawrlwytho'n unigol (Viktor Govako)
 - Mae Hong Kong, Macau, a Hainan wedi'u gwahanu oddi wrth Guangdong, gyda ffiniau cyfagos wedi'u diweddaru (Viktor Govako)
 - Isolinau (llinellau cyfuchlin) wedi'u diweddaru ar gyfer Indonesia, Malaysia, Tanzania, Gwlad Thai, a Fietnam (Viktor Govako)
-- Llwybro: mae llwybrau a ailddechreuir bellach yn hepgor pwyntiau canolradd yr ydych eisoes wedi mynd heibio iddynt (Viktor Govako)
+- Llwybro: mae llwybrau a ailddechreuir bellach yn hepgor pwyntiau canolradd yr wyt ti eisoes wedi mynd heibio iddynt (Viktor Govako)
 - Ychwanegwyd eiconau ar gyfer llosgfynyddoedd gweithredol a phwyntiau mynediad dyfrffyrdd; mae llithrfeydd bellach yn chwiliadwy (David Martinez)
 - Ychwanegwyd lolfeydd hookah (alnzrv)
 - Ychwanegwyd adeiladau sy'n cael eu hadeiladu (Viktor Govako)
-- Ychwanegwyd "Lookout" fel cyfystyr chwilio ar gyfer golygfannau (alnzrv)
-- Ychwanegwyd "pkwy" fel cyfystyr stryd UDA (Viktor Govako)
+- Ychwanegwyd ‘Lookout’ fel cyfystyr chwilio ar gyfer golygfannau (alnzrv)
+- Ychwanegwyd ‘pkwy’ fel cyfystyr stryd UDA (Viktor Govako)
 - Tywyllwyd lliwiau ardaloedd cerddwyr ychydig i sicrhau gwell darllenadwyedd (Viktor Govako)
 - Mae testun aml-linell bellach wedi'i dorri'n lân ar y map (Viktor Govako)
 - Nid yw enwau strydoedd bellach yn cynnwys rhannau wedi'u dyblygu (Viktor Govako)
@@ -76,7 +76,7 @@ Gallwch gael diweddariad mis Mai yn <https://get.omaps.org> neu ar yr [App Store
 - Mae lawrlwythiadau mapiau yn ailddechrau o'r man lle y gadawsant wrth gau i lawr yn daclus (Alexander Borsuk)
 - Mae Organic Maps bellach yn gweithio ar yrwyr OpenGL ES 3.0 (Alexander Borsuk)
 
-Ymunwch â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am broblemau:
+Ymuna â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am broblemau:
 - [iOS][testflight]
 - [Android][firebase]
 

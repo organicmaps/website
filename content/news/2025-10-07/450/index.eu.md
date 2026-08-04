@@ -1,73 +1,83 @@
 ---
-title: "Urriaren 7ko argitalpena: Android Auto abiadura-mugak, GeoJSON inportazioa eta gehiago"
+title: "Urriaren 7ko argitalpena: abiadura-mugak Android Auto-n, GeoJSON inportazioa, grabatzen ari den trackaren estatistikak, OSM description etiketaren bistaratzea, laster-marka gordetzea hautatutako trackean iOSen, eta gehiago"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Android Auto erabiltzaileek orain abiadura-mugaren oharrak ikus ditzakete. GeoJSON fitxategien inportazioa gehitu da, markatzaile bihur daitezkeenak.
+Urriaren 7ko Organic Maps eguneraketa honek abiadura-mugen bistaratzea gehitzen du Android Auto-n, baita GeoJSON inportazioa eta grabatzen ari den trackaren estatistikak ere, OSM description etiketak erakusten ditu (idatzi `?description` bilaketa-koadroan ikusteko), eta laster-marka bat gordetzen du track batean iOSen. Erabiltzaile-interfazearen eta OpenStreetMap edizioaren hobekuntza asko ere badaude, bai eta plataforma guztietako hainbat akats-zuzenketa ere, Android gailu batzuetan abiaraztean gertatzen zen kraskadura konpontzea barne.
 
-iOS, Android, Android Auto eta Desktoperako konponketa eta hobekuntza ugari. Xehetasunak behean.
+Organic Maps posible da gure kolaboratzaileei ❤️, [zure dohaintzei](@/donate/index.eu.md) eta [zure babesari](@/contribute/index.eu.md) esker.
 
-Azkenaldiko funtzio batzuk, agian ikusi ez dituzunak:
-- Ibilbide-plangintza pantaila berria (iOS)
-- OSM `description` etiketa iOSen (bilatu `?description`)
-- Garraio publikoaren lineen zenbakiak geltokia aukeratzean
-- Mendi- eta bizikleta-ibilbideak (aktibatu goiko ezkerreko Geruzak botoiarekin)
-- Erakutsi markatzaileen izenak mapan (Gospen aktibatu)
-- ✎ ikonoak markatzaileak azkar editatzea ahalbidetzen du
+### Argitalpen-ohar xehatuak (aurreko eguneraketa txikiaren aldaketak barne)
 
-Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.eu.md) eta [zure babesari](@/contribute/index.eu.md) esker.
-
-### Argitalpenaren xehetasunak
-
-- OpenStreetMap datu berriak: urriak 5
+- BERRIA! GeoJSON inportazioa (Sergiy Kozyr)
+- OpenStreetMap datuak: urriak 4
+- Wikipedia datuak: urriak 1
+- Seattleko tren arinaren euskarria garraio publikorako (tjasz)
+- Ez desaktibatu maparen hautapena editatutako OSM leku bat gordetzean (Kiryl Kaveryn)
 - Itzulpen eguneratuak (Weblate kolaboratzaileak)
-- Kokapen gezia GNSS seinalerik gabe zuzendu (Viktor Govako)
 
-#### Maparen estiloak (Viktor Govako)
+#### Maparen estiloak
 
-- "Outdoor" estiloaren ikonoak berrdiseinatuak
-- Ur-etiketen kolorea zuzendu
-- Eraikinak erakutsi zoom 16an
-- Ikuski-plataformak eta ikuspuntuak erakutsi zoom 14tik aurrera
-- Maparen konponketa eta hobekuntza orokorrak
+- Erakutsi amenity=bicycle + rental=shop gisa etiketatutako bizikleta-alokairuko dendak (David Martinez)
+- Erakutsi aztarnategi arkeologikoak 12. zoometik aurrera eta gainerako gune historikoak 15. zoometik aurrera Outdoor estiloan (Viktor Govako)
+- Ikono berriak mastentzat eta komunikazio- eta elektrizitate-dorreentzat Outdoors estiloan (David Martinez)
+- Handitu gailur-ikonoaren tamaina Outdoors estiloan (David Martinez)
+- Gehitu falta ziren POI ikonoen aldaerak (David Martinez)
+- Langa mota gehiago gehitu dira (Viktor Govako)
 
 #### iOS
 
-- Ibilbide-puntuen koloreak zuzendu (Alexander Borsuk)
-- Sakatze luzearen menuaren hobekuntzak (Alexander Borsuk)
-- Helmuga-ordua zuzendu unitate-mota aldatzean (Viktor Govako)
-- Ezabatutako objektuak editatzea galarazi (Kiryl Kaveryn)
+- BERRIA: Gorde laster-marka hautatutako trackaren puntuan (Kiryl Kaveryn)
+- BERRIA: Ezabatu grabatzen ari den tracka aurretik gorde beharrik gabe (Kiryl Kaveryn)
+- Erakutsi laster-marken zerrenden izenburuak lerro anitzetan Lekuaren orrian (David Martinez)
+- Eguneratu OSMn saioa hasteko botoien estiloa (Kiryl Kaveryn)
+- Konpondu nabigazio-informazioa eguneratzeko arazoa (Kiryl Kaveryn)
+- Konpondu ibilbide-plangintza berriaren arazoak (Kiryl Kaveryn)
+- Konpondu OSM lekuak gehitzeko/editatzeko aukeraren ikusgaitasuna 3 hilabete baino zaharragoak diren mapetan (Kiryl Kaveryn)
+- Konpondu garraio-aukeren segmentu-kontrolaren diseinua iOS 26rako (Kiryl Kaveryn)
+- Sinplifikatu laster-marken hautapen-animazioak (Kiryl Kaveryn)
+- Konpondu bilaketa-emaitza hautatzeko arazoa (Kiryl Kaveryn)
+- Estiloa, hatz-mugimenduak eta animazioak konpondu dira Lekuaren Informazio Orrian (Kiryl Kaveryn)
+
+#### Android Auto (Google Play soilik)
+
+- BERRIA: Abiadura-mugaren bistaratzea Android Auto-n (Andrei Shkrob)
+- Konpondu pantaila-aldaketa Android Auto-ren nabigazio moduan (Andrei Shkrob)
+- Konpondu ibilbide-geziaren desplazamendua Android Auto-n (Andrei Shkrob)
+- Konpondu gailu bat autora konektatzean/deskonektatzean gertatzen zen arazoa (Andrei Shkrob)
+- Gehitu Android Auto-ren Kokapen Zerbitzua (Andrei Shkrob)
+- Hobetu Android Auto-ren ibilbide-simulagailua (Viktor Govako)
 
 #### Android
 
-- BERRIA: GeoJSON fitxategiak inportatu eta markatzaile bihurtu (Andrei Shkrob, Alexander Borsuk)
-- Inguruko WiFi eta zelular sareen zerrenda "Nire kokapena" azpian (debug bertsio bakarrik) (Kiryl Kaveryn)
-- OSM saio-hasiera eguneratua (Viktor Govako)
-- Mapa deskargatzeko errore-mezua zuzendu (Viktor Govako)
-- GeoIntent kudeaketa fidagarriagoa (Alexander Borsuk)
-- Datu-migrazioaren UI hobekuntzak (Alexander Borsuk)
-- Kategoria-sailkapenaren UI hobekuntzak (Alexander Borsuk)
-- Google kokapen-zerbitzuak kendu dira (Alexander Borsuk)
-- "Hiri Helbidea" bilaketa-kategoria orain "Helbidea" da (Alexander Borsuk)
-- Bilaketa-emaitza batean klik egitean ager litekeen pantaila beltza zuzendu (Viktor Govako)
-- UI doikuntzak "Zer dago inguruan" bilaketan (Viktor Govako)
-- Gai iluna errespetatzen ez duten laster-leihoak zuzendu (Andrei Shkrob)
-
-#### Android Auto
-
-- BERRIA: Abiadura-muga eta abiadura-kamera oharrak (Denis Koronchik)
-- Ibilbidearen aurrebista zuzendu (Andrei Shkrob)
-- Bilaketa UIren hobekuntzak (Andrei Shkrob)
+- BERRIA: Ikusi grabatzen ari den trackaren estatistikak denbora errealean (Kavi Khalique)
+- BERRIA: Erakutsi OSM `description` etiketaren edukia (Alexander Borsuk)
+- Konpondu gai-aldaketaren kudeaketa (Andrei Shkrob)
+- Hainbat kraskadura konpondu dira, abiaraztekoa barne (Andrei Shkrob, Viktor Govako, Alexander Borsuk)
+- Deskargaren aurrerapenaren jakinarazpen isilak (Viktor Govako)
+- Murriztu arkatz-ikonoaren betegarria (Alexander Borsuk)
 
 #### Desktop
 
-- Maparen egokitze-hobekuntzak (Andrew Shkrob)
-- Sagu-kurtsorearen kontrastea zuzendu gai ilunean (Andrew Shkrob)
+- Konpondu curl-en blokeoa Linuxen (Alexander Borsuk)
+- Konpondu macOSen gertatzen zen blokeoa OSMn saioa hastean (Alexander Borsuk)
+- Testuinguru-menutik elementua hautatzeko ekintza (Viktor Govako)
+- Deskarga bertan behera uzteko aukera (Viktor Govako)
+- Erakutsi geometria mota testuinguru-menuan (Viktor Govako)
 
-Deskargatu azken bertsioa: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+### Duela gutxi kaleratutako ezaugarriak, agian ikusi ez dituzunak
 
-Batu beta probetara: [iOS][testflight] / [Android][firebase].
+- Garraio publikoaren ibilbide-zenbakiak autobus-geltokia hautatzean
+- Mendi- eta bizikleta-ibilbideak (aktibatu goiko ezkerreko Geruzak botoiaren bidez)
+- Ikusi laster-marken izenak mapan, aplikazioaren Ezarpenetan aktibatuta
+- ✎ arkatz-ikonoak laster-markak azkar editatzeko modua eskaintzen du
+
+### Instalatu Organic Maps
+
+Eskuratu Organic Maps-en azken bertsioa [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid] dendetan.
+
+Batu beta probetara ezaugarriak lehenago probatzeko: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

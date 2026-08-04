@@ -6,13 +6,13 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps'te GPX içe aktarma artık destekleniyor! Artık GPX kayıtlarınızı KML'ye dönüştürmenize gerek yok.
+Organic Maps'te GPX içe aktarma artık destekleniyor! Artık GPX izlerini KML'ye dönüştürmene gerek yok.
 
 Tüm inceleme yorumlarımızı sabırla düzelten, [dvdmrtnz](https://github.com/dvdmrtnz) tarafından başlatılan kodu cilalayan ve bitiren [@cyber-toad](https://github.com/cyber-toad)'a çok teşekkürler.
 Ve elbette, bizi birçok farklı şekilde [destekleyen](https://organicmaps.app/tr/support-us/) tüm kullanıcılarımıza, topluluğumuza ve katkıda bulunanlara sevgiler ❤️. En iyi harita uygulamasını hep birlikte oluşturabiliriz!
 
-Organic Maps'i [App Store](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps) ve [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611)'den edinebilirsiniz.
-F-Droid derlemesi her zamanki gibi başarısız oluyor, ancak yakında düzeltileceğini umuyoruz.
+Organic Maps'i [App Store](https://apps.apple.com/app/organic-maps/id1567437057), [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps) ve [Huawei AppGallery](https://appgallery.huawei.com/#/app/C104325611)'den edinebilirsin.
+[F-Droid](https://f-droid.org/en/packages/app.organicmaps/) derlemesi her zamanki gibi başarısız oluyor, ancak yakında düzeltileceğini umuyoruz.
 
 Bu sürümdeki diğer önemli değişiklikler:
 
@@ -23,7 +23,7 @@ Bu sürümdeki diğer önemli değişiklikler:
 
 Android:
 * Pil tasarrufu modundayken harita düzenlemelerinin OpenStreetMap’e yüklenmesini engelleyen hata düzeltildi
-* MRGS ve UTM koordinat desteği (sistemler arasında geçiş yapmak için koordinatlara dokunun)
+* MRGS ve UTM koordinat desteği (sistemler arasında geçiş yapmak için koordinatlara dokun)
 * Artık pusula, jiroskop sensörü olmayan cihazlarda da çalışıyor
 * Navigasyon modu başlığı ve rota menüsü üzerinden tıklamalar önlendi
 * Eksik Vikipedi açıklamaları düzeltildi

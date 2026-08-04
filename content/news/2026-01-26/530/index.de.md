@@ -8,7 +8,7 @@ taxonomies:
 
 Zeit für ein Organic Maps-Update! Schnellere länder- und regionsübergreifende Routen, frische OSM-Kartendaten und viele Fehlerbehebungen für Android im zweiten App-Update 2026.
 
-Installieren Sie es von [get.omaps.org](https://get.omaps.org) oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
+Installiere es von [get.omaps.org](https://get.omaps.org) oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
 
 ### Was ist neu
 
@@ -29,7 +29,7 @@ Installieren Sie es von [get.omaps.org](https://get.omaps.org) oder aus dem [App
 * Überlappung der Routing-Symbolleiste auf kleinen Bildschirmen behoben _(Anton P)_
 * Suchfehler auf Android 5 und 6 behoben _(Alexander Borsuk)_
 * FAQ-Übersetzungen auf Android 5 behoben _(Alexander Borsuk)_
-* Fehler „Nicht genügend freier Speicherplatz" beim Aktualisieren von Karten behoben _(Alexander Borsuk)_
+* Fehler „Nicht genügend freier Speicherplatz“ beim Aktualisieren von Karten behoben _(Alexander Borsuk)_
 
 ### Übersetzungen
 
@@ -40,11 +40,11 @@ Installieren Sie es von [get.omaps.org](https://get.omaps.org) oder aus dem [App
 * Fehlende Übersetzungen für stillgelegte Brücken hinzugefügt _(Alexander Borsuk)_
 
 
-Nehmen Sie am Betatest teil, um frühzeitige Funktionen auszuprobieren und Probleme zu melden:
+Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Spenden](@/donate/index.de.md) und [beitragen](@/contribute/index.de.md) Sie, um eine bessere, datenschutzorientierte Alternative zu Apple und Google Maps aufzubauen.
+[Spende](@/donate/index.de.md) und [hilf mit](@/contribute/index.de.md), um eine bessere, datenschutzorientierte Alternative zu Apple und Google Maps aufzubauen.
 
 Mit Liebe,
 Das Organic Maps-Team

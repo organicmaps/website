@@ -1,5 +1,5 @@
 ---
-title: "Ortsspezifische CJK-Glyphen auf Android, Track-Anpassung (Android-Farbauswahl, iOS-Beschreibungsbearbeitung) und neue Themenpark-Attraktionen im nächsten Organic Maps-Update"
+title: "Gebietsschemaabhängige CJK-Glyphen auf Android, Track-Anpassung (Android-Farbauswahl, iOS-Beschreibungsbearbeitung) und neue Themenpark-Attraktionen im nächsten Organic Maps-Update"
 date: 2026-05-27
 slug: "cjk-glyphen-android-farbauswahl-ios-track-beschreibungen-themenpark-attraktionen"
 taxonomies:
@@ -17,9 +17,9 @@ Hol dir das Update unter <https://get.omaps.org> oder im [App Store][appstore], 
 - Zeremonielle Tore, Wasserrutschen, Freizeitparks und Achterbahnen hinzugefügt _(David Martinez)_
 - Verbesserte Fingergesten für die Kartensteuerung in der perspektivischen Ansicht im Navigationsmodus _(Viktor Govako)_
 - Australische und neuseeländische Straßenschilder korrigiert _(Viktor Govako)_
-- Routen des öffentlichen Nahverkehrs für Bahnhöfe und andere Gebietsobjekte korrigiert (tippe auf eine Haltestelle oder einen Halt, um Linien zu sehen) _(Viktor Govako)_
+- Routen der öffentlichen Verkehrsmittel für Bahnhöfe und andere Gebietsobjekte korrigiert (tippe auf eine Haltestelle oder einen Halt, um Linien zu sehen) _(Viktor Govako)_
 - Darstellung von Geschwindigkeitsbegrenzungen für Radarkameras korrigiert _(Alexander Borsuk)_
-- Herauszoomen über den Antimeridianen bei mehr als einer Weltkopie korrigiert _(Alexander Borsuk, Viktor Govako)_
+- Herauszoomen über den Antimeridian bei mehr als einer Weltkopie korrigiert _(Alexander Borsuk, Viktor Govako)_
 - Genauere Anzeige von Straßen- und Hausadressen _(Viktor Govako)_
 - Unnötige Kartenanimationen behoben _(Mikhail Listratsenka)_
 - Stabilitäts- und Leistungsverbesserungen _(Alexander Borsuk, Viktor Govako)_
@@ -46,12 +46,13 @@ Hol dir das Update unter <https://get.omaps.org> oder im [App Store][appstore], 
 - NEU! Track-Text und HTML-Beschreibungen werden jetzt unterstützt, genauso wie Beschreibungen für Lesezeichen. Drücke auf das Bleistiftsymbol, um eine Beschreibung hinzuzufügen. _(Mikhail Listratsenka)_
 - NEU! Wähle eine beliebige Farbe für Tracks, nicht nur eine begrenzte Auswahl _(Mikhail Listratsenka)_
 - Koreanische, chinesische und japanische Nutzer sehen jetzt die richtigen Schriftarten je nach Gebietsschema des Geräts _(Alexander Borsuk)_
-- Probleme mit der Track-Ortsseite und der Schaltfläche „Öffnen in" behoben _(Mikhail Listratsenka)_
+- Probleme mit der Track-Ortsseite und der Schaltfläche „Öffnen in“ behoben _(Mikhail Listratsenka)_
 
 ### Linux und macOS
 - Chinesische Übersetzungen zu den `.desktop`-Dateikommentaren hinzugefügt _(DeepChirp)_
 
-Nimm am Beta-Test teil, um erste Funktionen auszuprobieren und Probleme zu melden:
+## Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:
+
 - [iOS][testflight]
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]

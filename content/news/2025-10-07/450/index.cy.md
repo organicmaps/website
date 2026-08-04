@@ -1,73 +1,83 @@
 ---
-title: "Rhifyn 7 Hydref: terfynau cyflymder Android Auto, mewnforio GeoJSON a mwy"
+title: "Rhifyn 7 Hydref: terfynau cyflymder Android Auto, mewnforio GeoJSON, ystadegau recordio trac, dangos tag description OSM, cadw nod tudalen ar y trac dewisedig ar iOS, a mwy"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Gall defnyddwyr Android Auto nawr weld rhybuddion terfyn cyflymder. Ychwanegwyd mewnforio ffeiliau GeoJSON y gellir eu trosi i farciau.
+Mae diweddariad Organic Maps 7 Hydref yn ychwanegu dangos terfynau cyflymder yn Android Auto, mewnforio GeoJSON ac ystadegau recordio trac, yn dangos tagiau description OSM (teipia `?description` yn y blwch chwilio i'w gweld), ac yn cadw nod tudalen ar drac ar iOS. Mae yna hefyd lawer o welliannau i'r rhyngwyneb defnyddiwr, i olygu OpenStreetMap, ac amryw drwsiadau namau ar bob llwyfan, gan gynnwys trwsio'r chwalfa wrth gychwyn ar rai dyfeisiau Android.
 
-Amryw drwsiadau a gwelliannau ar iOS, Android, Android Auto a Desktop. Manylion isod.
+Mae Organic Maps yn bosibl diolch ❤️ i'n cyfranwyr, [dy roddion](@/donate/index.cy.md), a [dy gefnogaeth](@/contribute/index.cy.md).
 
-Nodweddion diweddar efallai a gollwyd gennych:
-- Sgrin gynllunio llwybr newydd (iOS)
-- Tag OSM `description` ar iOS (chwiliwch `?description`)
-- Rhifau llwybrau trafnidiaeth gyhoeddus wrth ddewis safle bws
-- Llwybrau cerdded a beicio (eu galluogi trwy'r botwm Haenau ar y chwith uchaf)
-- Dangos enwau marciau ar y map (galluogi yn y Gosodiadau)
-- Mae'r eicon ✎ yn galluogi golygu marciau'n gyflym
+### Nodiadau rhyddhau manwl (yn cynnwys newidiadau'r diweddariad bach blaenorol)
 
-Mae Organic Maps yn bosibl diolch i'n cyfranwyr, [eich rhoddion](@/donate/index.cy.md) a [eich cefnogaeth](@/contribute/index.cy.md).
-
-### Nodiadau Rhyddhau Manwl
-
-- Data OpenStreetMap newydd ar 5 Hydref
+- NEWYDD! Mewnforio GeoJSON (Sergiy Kozyr)
+- Data OpenStreetMap fel ar 4 Hydref
+- Data Wikipedia fel ar 1 Hydref
+- Cefnogaeth i reilffordd ysgafn Seattle ar gyfer Trafnidiaeth Gyhoeddus (tjasz)
+- Peidio â dad-ddewis y map wrth gadw lle OSM wedi'i olygu (Kiryl Kaveryn)
 - Cyfieithiadau wedi'u diweddaru (cyfranwyr Weblate)
-- Saeth safle heb signal GNSS wedi'i drwsio (Viktor Govako)
 
-#### Arddulliau Map (Viktor Govako)
+#### Arddulliau map
 
-- Eiconau arddull "Outdoor" ailddyluniedig
-- Lliw label dŵr wedi'i drwsio
-- Dangos adeiladau ar chwyddo 16
-- Dangos llwyfannau gwylio a mannau gwylio o chwyddo 14
-- Trwsiadau a gwelliannau map cyffredinol
+- Dangos siopau llogi beiciau sydd wedi'u tagio fel amenity=bicycle + rental=shop (David Martinez)
+- Dangos safleoedd archeolegol hanesyddol o chwyddo 12 a safleoedd hanesyddol eraill o chwyddo 15 yn yr arddull Outdoor (Viktor Govako)
+- Eiconau newydd ar gyfer mastiau a thyrau cyfathrebu a phŵer yn yr arddull Outdoor (David Martinez)
+- Cynyddu maint eicon copa yn yr arddull Outdoor (David Martinez)
+- Ychwanegu'r amrywiadau eiconau POI oedd ar goll (David Martinez)
+- Ychwanegwyd rhagor o fathau o rwystrau (Viktor Govako)
 
 #### iOS
 
-- Lliwiau pwyntiau llwybr wedi'u trwsio (Alexander Borsuk)
-- Gwelliannau i'r ddewislen basio-hir (Alexander Borsuk)
-- Amser cyrraedd wedi'i drwsio wrth newid math uned (Viktor Govako)
-- Atal golygu gwrthrychau sydd wedi'u dileu (Kiryl Kaveryn)
+- NEWYDD: Cadw nod tudalen ar bwynt trac dewisedig (Kiryl Kaveryn)
+- NEWYDD: Dileu'r trac sy'n cael ei recordio heb ei gadw yn gyntaf (Kiryl Kaveryn)
+- Dangos teitlau rhestrau nodau tudalen ar sawl llinell yn y Dudalen Lle (David Martinez)
+- Diweddaru arddull botymau mewngofnodi OSM (Kiryl Kaveryn)
+- Trwsio'r broblem wrth ddiweddaru gwybodaeth llywio (Kiryl Kaveryn)
+- Trwsio problemau cynllunio llwybr newydd (Kiryl Kaveryn)
+- Trwsio gwelededd ychwanegu/golygu lle OSM ar gyfer mapiau hŷn na 3 mis (Kiryl Kaveryn)
+- Trwsio cynllun rheolydd segmentau'r dewisiadau trafnidiaeth ar gyfer iOS 26 (Kiryl Kaveryn)
+- Symleiddio animeiddiadau dewis nodau tudalen (Kiryl Kaveryn)
+- Trwsio'r broblem dewis canlyniad chwilio (Kiryl Kaveryn)
+- Trwsiwyd yr arddull, y sweipio a'r animeiddiadau ar y Dudalen Gwybodaeth Lle (Kiryl Kaveryn)
+
+#### Android Auto (Google Play yn unig)
+
+- NEWYDD: Dangos terfyn cyflymder yn Android Auto (Andrei Shkrob)
+- Trwsio newid arddangosfa ym modd llywio Android Auto (Andrei Shkrob)
+- Trwsio gwrthbwyso saeth llwybro yn Android Auto (Andrei Shkrob)
+- Trwsio problem pan fydd dyfais yn cael ei chysylltu/datgysylltu â char (Andrei Shkrob)
+- Ychwanegu Gwasanaeth Lleoliad Android Auto (Andrei Shkrob)
+- Gwella efelychydd llwybrau Android Auto (Viktor Govako)
 
 #### Android
 
-- NEWYDD: Mewnforio ffeiliau GeoJSON a'u trosi i farciau (Andrei Shkrob, Alexander Borsuk)
-- Rhestr rhwydweithiau WiFi a chelloedd agos o dan "Fy Safle" (adeiledd dadfygio yn unig) (Kiryl Kaveryn)
-- Mewngofnodi OSM wedi'i ddiweddaru (Viktor Govako)
-- Neges gwall lawrlwytho map wedi'i drwsio (Viktor Govako)
-- Trafod GeoIntent mwy dibynadwy (Alexander Borsuk)
-- Gwelliannau UI mudo data (Alexander Borsuk)
-- Gwelliannau UI categori dosbarth (Alexander Borsuk)
-- Gwasanaethau lleoliad Google wedi'u tynnu (Alexander Borsuk)
-- Categori chwilio "Cyfeiriad Dinas" nawr yn "Cyfeiriad" (Alexander Borsuk)
-- Sgrin ddu bosib wrth glicio canlyniad chwilio wedi'i drwsio (Viktor Govako)
-- Addasiadau UI yn chwilio "Beth sydd gerllaw" (Viktor Govako)
-- Deialogau naid-allan nad ydynt yn parchu'r thema dywyll wedi'u trwsio (Andrei Shkrob)
+- NEWYDD: Gweld ystadegau'r trac sy'n cael ei recordio mewn amser real (Kavi Khalique)
+- NEWYDD: Dangos cynnwys tag `description` OSM (Alexander Borsuk)
+- Trwsio trin newid thema (Andrei Shkrob)
+- Trwsiwyd sawl chwalfa, gan gynnwys yr un wrth gychwyn (Andrei Shkrob, Viktor Govako, Alexander Borsuk)
+- Hysbysiadau cynnydd lawrlwytho distaw (Viktor Govako)
+- Lleihau padin eicon y pensil (Alexander Borsuk)
 
-#### Android Auto
+#### Penbwrdd
 
-- NEWYDD: Rhybuddion terfyn cyflymder a chamera cyflymder (Denis Koronchik)
-- Rhagolwg llwybr wedi'i drwsio (Andrei Shkrob)
-- Gwelliannau UI chwilio (Andrei Shkrob)
+- Trwsio curl yn hongian ar Linux (Alexander Borsuk)
+- Trwsio hongian ar macOS wrth fewngofnodi i OSM (Alexander Borsuk)
+- Gweithred i ddewis nodwedd o'r ddewislen cyd-destun (Viktor Govako)
+- Opsiwn canslo lawrlwytho (Viktor Govako)
+- Dangos y math o geometreg yn y ddewislen cyd-destun (Viktor Govako)
 
-#### Desktop
+### Nodweddion diweddar efallai i ti eu colli
 
-- Gwelliannau addasu map (Andrew Shkrob)
-- Cyferbyniad cyrchwr llygoden wedi'i drwsio yn y thema dywyll (Andrew Shkrob)
+- Rhifau llwybrau trafnidiaeth gyhoeddus wrth ddewis safle bws
+- Llwybrau cerdded a beicio (galluoga nhw drwy'r botwm Haenau ar y chwith uchaf)
+- Gweld enwau nodau tudalen ar y map drwy eu galluogi yng Ngosodiadau'r ap
+- Mae'r eicon ✎ (pensil) yn cynnig ffordd gyflym o olygu nodau tudalen
 
-Lawrlwythwch y fersiwn ddiweddaraf: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+### Gosod Organic Maps
 
-Ymunwch â'r beta: [iOS][testflight] / [Android][firebase].
+Lawrlwytha'r fersiwn ddiweddaraf o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+
+Ymuna â'r profion beta i gael nodweddion cynnar: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -1,5 +1,5 @@
 ---
-title: "Batas kecepatan bersyarat, garis batas yang lebih rinci untuk Cina, wilayah Tanzania yang terpecah/kecil, toko-toko kulit, dan banyak lagi di pembaruan Organic Maps bulan Maret"
+title: "Batas kecepatan bersyarat, garis kontur yang lebih rinci untuk Tiongkok, wilayah Tanzania yang terpecah/kecil, toko-toko kulit, dan banyak lagi di pembaruan Organic Maps bulan Maret"
 date: 2026-03-12
 slug: conditional-speed-limits-more-detailed-isolines-for-china-splitsmaller-tanzania-regions-leather-shops-and-more-in-the-march-organic-maps-update
 taxonomies:
@@ -8,14 +8,14 @@ taxonomies:
 
 Pembaruan Organic Maps bulan Maret membutuhkan lebih banyak waktu karena adanya perbaikan dan tinjauan Google Play. Pembaruan [Accrescent][accrescent] masih belum siap karena masalah toko aplikasi Accrescent. Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
-P.S. Hubungi kami melalui email di <sdk@organicmaps.app> jika Anda tertarik dengan iOS/Android/Linux/MacOS/Windows SDK dengan peta offline yang dapat Anda gunakan kembali dalam proyek Anda.
+P.S. Hubungi kami melalui email di <sdk@organicmaps.app> kalau kamu tertarik dengan iOS/Android/Linux/MacOS/Windows SDK dengan peta offline yang dapat kamu gunakan kembali dalam proyekmu.
 
-P.P.S. Tahukah Anda tentang API yang sudah bisa Anda gunakan di aplikasi Anda jika aplikasi Organic Maps juga sudah terinstal? Periksa di sini: <https://omaps.app/api>
+P.P.S. Tahukah kamu tentang API yang sudah bisa kamu gunakan di aplikasimu kalau aplikasi Organic Maps juga sudah terpasang? Periksa di sini: <https://omaps.app/api>
 
 ### Catatan rilis
 * Data peta OSM per tanggal 10 Maret
 * Data Wikipedia per tanggal 1 Maret
-* Garis batas ketinggian yang lebih rinci untuk provinsi-provinsi di Tiongkok (ZiyiGaoCN)
+* Garis kontur ketinggian yang lebih rinci untuk provinsi-provinsi di Tiongkok (ZiyiGaoCN)
 * Menambahkan dukungan untuk batas kecepatan bersyarat (Abdelhadi Wael, Viktor Govako)
 * Menambahkan toko kulit dan toko yang menjual barang-barang keagamaan (Viktor Govako)
 * Menambahkan deretan pohon (Viktor Govako)

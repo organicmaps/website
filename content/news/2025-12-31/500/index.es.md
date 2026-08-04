@@ -12,14 +12,24 @@ Se introdujeron varias características notables, incluyendo [rutas globales de 
 Este año, logramos un crecimiento aún más fuerte en nuestra base de instalaciones en comparación con años anteriores, terminando el año con un total histórico de casi 2 millones de descargas en la App Store y casi 3 millones de descargas en Google Play, con países europeos y norteamericanos encabezando la lista. Estimamos al menos 1 millón más de descargas e instalaciones de Organic Maps para Android desde otras fuentes, llevando el total a alrededor de ***6 millones de descargas en todas las plataformas*** desde el lanzamiento de la aplicación hace 5 años.
 
 Otros logros notables en 2025 incluyen:
+
+
+#### Estadísticas de GitHub
+
 - 1.000 [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) creados y 808 fusionados en 2025 de un total de 5.000.
 - 800 [nuevos problemas][github issues] creados y 482 solucionados/cerrados en 2025 de un total de 6.000.
 - [1.500 commits](https://github.com/organicmaps/organicmaps/commits) de 100 colaboradores en 2025 de un total de 8.600 commits desde que comenzó el proyecto en 2020.
 - El proyecto alcanzó 1.244 forks y 12.411 estrellas [en GitHub][github], indicando un fuerte interés de los desarrolladores y un uso en el mundo real.
+
+#### Valoraciones en las tiendas y participación de los usuarios
+
 - A lo largo de 2025, las valoraciones totales en la App Store aumentaron de 4.100 a 11.100, lo que significa que la aplicación recibió más del doble de nuevas valoraciones en 2025 que en todos los años anteriores combinados, reflejando un fuerte aprecio por vuestra parte, nuestros queridos usuarios.
 - Los usuarios de Android también mostraron una mayor participación, con 5.300 nuevas valoraciones en 2025, alcanzando un total de 16.500 ❤️
 - Enviamos 4.000 correos electrónicos de soporte y respondimos a 2.500 reseñas en Google Play y App Store en 2025.
 - 10 petabytes de datos de mapas fueron descargados por usuarios de todo el mundo desde nuestros servidores en 2025.
+
+#### Redes sociales y comunidad
+
 - Gracias a vosotros, nuestras estadísticas en redes sociales también están creciendo (¡síguenos si aún no lo has hecho! 😊):
    - [13.000 en Fosstodon][FOSStodon]
    - [6.000 en Telegram][telegram]

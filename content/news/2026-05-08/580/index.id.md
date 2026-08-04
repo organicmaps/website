@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Pembaruan bulan Mei ini membawa Organic Maps selangkah lebih dekat ke dukungan penuh untuk angkutan umum. Halte bus, kereta, feri, atau trem adalah titik awal untuk jalur transit yang melewatinya — jadi, saat Anda mengetuk rute di halte, jalur tersebut kini ditampilkan dengan warnanya sendiri di seluruh peta. Jadwal daring aktual juga akan segera hadir; jangan lupa [menambahkan atau memperbarui data transportasi umum OSM](https://gtfs-osm-matcher.organicmaps.app/) di wilayah Anda jika belum melakukannya!
+Pembaruan bulan Mei ini membawa Organic Maps selangkah lebih dekat ke dukungan penuh untuk angkutan umum. Halte bus, kereta, feri, atau trem adalah titik awal untuk jalur transit yang melewatinya — jadi, saat kamu mengetuk rute di halte, jalur tersebut kini ditampilkan dengan warnanya sendiri di seluruh peta. Jadwal daring aktual juga akan segera hadir; jangan lupa [menambahkan atau memperbarui data transportasi umum OSM](https://gtfs-osm-matcher.organicmaps.app/) di wilayahmu jika belum melakukannya!
 
-Seperti biasa, terima kasih banyak kepada para kontributor kami, ulasan baik Anda, [donasi](@/donate/index.id.md), dan [dukungan](@/contribute/index.id.md).
+Seperti biasa, terima kasih banyak kepada para kontributor kami, ulasan baikmu, [donasi](@/donate/index.id.md), dan [dukungan](@/contribute/index.id.md).
 
 Dapatkan pembaruan bulan Mei di <https://get.omaps.org> atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
@@ -16,7 +16,7 @@ Dapatkan pembaruan bulan Mei di <https://get.omaps.org> atau di [App Store][apps
 
 - **Ketuk halte bus, trem, kereta, atau feri di peta,** dan Organic Maps akan menyoroti seluruh jalur transit tersebut, yang dapat dipilih dari daftar jalur dan rute yang ditampilkan.
 - **Label penanda yang lebih rapi dan peta yang lebih mudah dibaca.** Penempatan label yang baru mencegah judul penanda saling bertumpuk, area pejalan kaki kini sedikit lebih gelap, dan warna rute telah disesuaikan agar kontrasnya lebih baik pada tema terang maupun gelap.
-- **Wilayah yang lebih terperinci di Asia.** Vietnam dan Malaysia kini dibagi menjadi peta-peta yang lebih kecil sehingga Anda dapat mengunduh hanya area yang Anda butuhkan, sedangkan Hong Kong, Makau, dan Hainan kini dipisahkan dari Guangdong.
+- **Wilayah yang lebih terperinci di Asia.** Vietnam dan Malaysia kini dibagi menjadi peta-peta yang lebih kecil sehingga kamu dapat mengunduh hanya area yang kamu butuhkan, sedangkan Hong Kong, Makau, dan Hainan kini dipisahkan dari Guangdong.
 
 ## Catatan rilis
 
@@ -29,12 +29,12 @@ Dapatkan pembaruan bulan Mei di <https://get.omaps.org> atau di [App Store][apps
 - Vietnam dan Malaysia dibagi menjadi wilayah-wilayah yang lebih kecil yang dapat diunduh secara terpisah (Viktor Govako)
 - Hong Kong, Makau, dan Hainan dipisahkan dari Guangdong, dengan perbatasan di sekitarnya diperbarui (Viktor Govako)
 - Isoline (garis kontur) diperbarui untuk Indonesia, Malaysia, Tanzania, Thailand, dan Vietnam (Viktor Govako)
-- Perutean: rute yang dilanjutkan kini menghapus titik perantara yang telah Anda lewati (Viktor Govako)
+- Perutean: rute yang dilanjutkan kini menghapus titik perantara yang telah kamu lewati (Viktor Govako)
 - Ditambahkan ikon untuk gunung berapi aktif dan titik akses perairan; slipway kini dapat dicari (David Martinez)
 - Ditambahkan tempat shisha (alnzrv)
 - Ditambahkan bangunan yang sedang dibangun (Viktor Govako)
-- Ditambahkan "Lookout" sebagai sinonim pencarian untuk titik pandang (alnzrv)
-- Ditambahkan "pkwy" sebagai sinonim nama jalan di AS (Viktor Govako)
+- Ditambahkan “Lookout” sebagai sinonim pencarian untuk titik pandang (alnzrv)
+- Ditambahkan “pkwy” sebagai sinonim nama jalan di AS (Viktor Govako)
 - Warna area pejalan kaki sedikit dipergelap agar lebih mudah dibaca (Viktor Govako)
 - Teks multi-baris kini dipotong dengan rapi pada peta (Viktor Govako)
 - Nama jalan tidak lagi mengandung bagian yang terduplikasi (Viktor Govako)
@@ -51,7 +51,7 @@ Dapatkan pembaruan bulan Mei di <https://get.omaps.org> atau di [App Store][apps
 - Diperbaiki daftar penanda yang salah ditampilkan pada versi TestFlight (Alexander Borsuk)
 - Tombol Stop yang lebih besar dan area sentuh yang lebih luas untuk tombol-tombol di panel bawah saat navigasi: bisukan TTS, pengaturan, perekaman trek (Kiryl Kaveryn)
 - Animasi bagian deskripsi yang dapat diperluas disempurnakan di halaman tempat (Kiryl Kaveryn)
-- Halaman tempat tidak lagi tertutup saat Anda selesai menggeser grafik elevasi, tidak lagi memantul secara tak terduga, dan tetap menampilkan judul saat mengedit dengan papan ketik terbuka (Kiryl Kaveryn)
+- Halaman tempat tidak lagi tertutup saat kamu selesai menggeser grafik elevasi, tidak lagi memantul secara tak terduga, dan tetap menampilkan judul saat mengedit dengan papan ketik terbuka (Kiryl Kaveryn)
 - Diperbaiki masalah warna grafik elevasi dan progres melingkar saat tampilan sistem berubah (Kiryl Kaveryn)
 - Diperbaiki crash saat menghapus trek atau penanda yang sudah tidak ada (Kiryl Kaveryn)
 

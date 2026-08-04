@@ -11,7 +11,7 @@ Inclui também várias correções e melhorias no iOS e Android (detalhes abaixo
 
 Recursos recentes que você pode ter perdido:
 - Números das linhas de transporte público ao selecionar um ponto de ônibus
-- Rotas de trilha e ciclismo (ative pelo botão Camadas no canto superior esquerdo)
+- Rotas de caminhada e ciclismo (ative pelo botão Camadas no canto superior esquerdo)
 - Mostrar nomes dos marcadores no mapa (ative em Configurações)
 - O ícone ✎ permite editar marcadores rapidamente
 
@@ -52,7 +52,7 @@ Organic Maps é possível graças aos nossos contribuidores, [às suas doações
 - Redução da altura vertical da prévia de informações do lugar (Alexander Borsuk)
 - Remoção do ângulo de azimute para o norte da prévia (toque na seta azul com a distância para ver) (Alexander Borsuk)
 
-Obtenha a versão mais recente: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Obtenha a versão mais recente do Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Participe do beta: [iOS][testflight] / [Android][firebase].
 

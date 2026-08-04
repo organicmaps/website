@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Díky našim přispěvatelům **je pátek vhodný čas na aktualizaci Organic Maps!** Získejte aktualizaci na [https://get.omaps.org](https://get.omaps.org) nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Díky našim přispěvatelům **je pátek vhodný čas na aktualizaci Organic Maps!** Získej aktualizaci na [https://get.omaps.org](https://get.omaps.org) nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Pokud chcete vidět **jízdní řády veřejné dopravy v reálném čase** ve vašem městě v jedné z nadcházejících aktualizací, prosím:
+Pokud chceš vidět **jízdní řády veřejné dopravy v reálném čase** ve svém městě v jedné z nadcházejících aktualizací, prosím:
 
-1. [Pošlete nám](https://github.com/organicmaps/gtfs-osm-matcher/issues) zdroje **statických a reálných GTFS kanálů** od vašich místních dopravních podniků, abychom je mohli otestovat a integrovat.
-2. Zkontrolujte, zda **data OpenStreetMap** ve vaší oblasti zahrnují všechny zastávky autobusu/tramvaje/vlaku s nezbytnými značkami na [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Pošli nám](https://github.com/organicmaps/gtfs-osm-matcher/issues) zdroje **statických a reálných GTFS kanálů** od svých místních dopravních podniků, abychom je mohli otestovat a integrovat.
+2. Zkontroluj, zda **data OpenStreetMap** ve své oblasti zahrnují všechny zastávky autobusu/tramvaje/vlaku s nezbytnými značkami na [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Poznámky k vydání
 
@@ -23,9 +23,9 @@ Pokud chcete vidět **jízdní řády veřejné dopravy v reálném čase** ve v
 * Opraven výpočet průměrné rychlosti (Viktor Govako)
 * Vylepšené řazení výsledků vyhledávání pro kategorie (Viktor Govako)
 * Přidána uzbecká kuchyně (alnzrv)
-* Přidány lanové dráhy na mapě (Rawdyrathaur)
-* Opraveny odkazy Wikimedia s "?" v názvu (alnzrv)
-* Podpora souborů GPX s "+" v souřadnicích (Alexander Borsuk)
+* Přidány lanové skluzavky (zipline) na mapě (Rawdyrathaur)
+* Opraveny odkazy Wikimedia s „?“ v názvu (alnzrv)
+* Podpora souborů GPX s „+“ v souřadnicích (Alexander Borsuk)
 
 ### iOS
 
@@ -57,7 +57,7 @@ Pokud chcete vidět **jízdní řády veřejné dopravy v reálném čase** ve v
 * Aktualizovány překlady od přispěvatelů Weblate (Viktor Govako)
 
 
-Připojte se k beta testování, abyste vyzkoušeli rané funkce a nahlásili problémy:
+Připoj se k beta testování, abys vyzkoušel rané funkce a nahlásil problémy:
 - [iOS][testflight]
 - [Android][firebase]
 

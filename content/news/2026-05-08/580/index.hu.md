@@ -8,7 +8,7 @@ taxonomies:
 
 A májusi frissítéssel egy lépéssel közelebb kerülünk az Organic Maps teljes tömegközlekedési támogatásához. A busz-, vonat-, komp- vagy villamosmegállók kiindulópontjai az ott áthaladó tömegközlekedési vonalaknak — így ha egy megállónál egy útvonalra koppintasz, az adott vonal a saját színében jelenik meg a térképen, teljes hosszában. Hamarosan érkeznek a valós online menetrendek is, ezért ne felejtsd el [hozzáadni vagy frissíteni az OSM tömegközlekedési adatait](https://gtfs-osm-matcher.organicmaps.app/) a környékeden, ha még nem tetted meg!
 
-Mint mindig, köszönjük a közreműködőinknek, a jó értékeléseiteket, az [adományaitokat](@/donate/index.hu.md) és a [támogatásotokat](@/contribute/index.hu.md).
+Mint mindig, köszönjük a közreműködőinknek, a jó értékelésedet, [az adományaidat](@/donate/index.hu.md) és [a támogatásodat](@/contribute/index.hu.md).
 
 Töltsd le a májusi frissítést a <https://get.omaps.org> oldalról, vagy az [App Store][appstore], a [Google Play][googleplay], a [Huawei AppGallery][appgallery], az [Obtainium][obtainium], az [Accrescent][accrescent] és az [F-Droid][fdroid] áruházból.
 
@@ -51,7 +51,7 @@ Töltsd le a májusi frissítést a <https://get.omaps.org> oldalról, vagy az [
 - Javítva a TestFlight-verzióban megjelenő hibás könyvjelzőlista (Alexander Borsuk)
 - Nagyobb Stop gomb és nagyobb érintési felületek a navigáció közbeni alsó panel gombjainál: TTS-némítás, beállítások, nyomvonalrögzítés (Kiryl Kaveryn)
 - Finomított animáció a hely adatlapján a kibontható leírás szakaszánál (Kiryl Kaveryn)
-- A hely adatlapja már nem záródik be, amikor véget ér a magasságdiagram csúsztatása, nem ugrál váratlanul, és a cím látható marad, miközben a billentyűzettel szerkesztesz (Kiryl Kaveryn)
+- A helyadatlap már nem záródik be, amikor véget ér a magasságdiagram csúsztatása, nem ugrál váratlanul, és a cím látható marad, miközben a billentyűzettel szerkesztesz (Kiryl Kaveryn)
 - Javított magasságdiagram- és körkörös haladásjelző-színek a rendszer megjelenésének váltásakor (Kiryl Kaveryn)
 - Javítottuk a már nem létező nyomvonal vagy könyvjelző törlésekor előforduló összeomlásokat (Kiryl Kaveryn)
 

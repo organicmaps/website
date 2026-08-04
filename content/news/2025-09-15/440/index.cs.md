@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Toto druhé zářijové vydání přináší přepracovanou obrazovku plánování trasy a zobrazení obsahu tagu OpenStreetMap `description` na iOS. Chcete-li najít místa s tímto tagem, zadejte do vyhledávání `?description` (podobně jako `?wiki`).
+Toto druhé zářijové vydání přináší přepracovanou obrazovku plánování trasy a zobrazení obsahu tagu OpenStreetMap `description` na iOS. Chceš-li najít místa s tímto tagem, zadej do vyhledávání `?description` (podobně jako `?wiki` u míst propojených s Wikipedií).
 
 Obsahuje také mnoho oprav a vylepšení pro iOS a Android (viz níže).
 
-Nedávné funkce, které vám mohly uniknout:
+A samozřejmě připomínka dalších nedávných funkcí, které ti mohly uniknout:
 - Čísla linek veřejné dopravy při výběru zastávky
-- Pěší a cyklistické trasy (aktivujte přes tlačítko Vrstvy vlevo nahoře)
-- Zobrazení názvů značek na mapě (zapněte v Nastavení)
-- Ikona ✎ umožňuje rychlou úpravu značek
+- Pěší a cyklistické trasy (aktivuj je tlačítkem Vrstvy vlevo nahoře)
+- Zobrazení názvů záložek na mapě (zapni v Nastavení aplikace)
+- Ikona tužky ✎ umožňuje rychlou úpravu záložek
 
-Organic Maps je možný díky přispěvatelům, [vašim darům](@/donate/index.cs.md) a [vaší podpoře](@/contribute/index.md).
+Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs.md) a [tvé podpoře](@/contribute/index.md).
 
 ### Podrobné poznámky k vydání
 
@@ -23,7 +23,7 @@ Organic Maps je možný díky přispěvatelům, [vašim darům](@/donate/index.c
 - Odstraněny velmi malé ostrovy ze světové mapy (Viktor Govako)
 - Zobrazení PSČ (ZIP) v detailech adresy (Viktor Govako)
 - Opraveno nesprávné vystředění mapy na aktuální pozici (Kiryl Kaveryn, Viktor Govako)
-- Zachování barev značek při exportu/importu GPX (cyber-toad)
+- Zachování barev záložek při exportu/importu GPX (cyber-toad)
 - Aktualizované překlady (přispěvatelé Weblate)
 
 #### Styly map (Viktor Govako)
@@ -38,22 +38,22 @@ Organic Maps je možný díky přispěvatelům, [vašim darům](@/donate/index.c
 
 #### iOS
 
-- NOVÉ: zobrazení obsahu tagu OSM `description` (hledejte `?description`) (Kiryl Kaveryn, Viktor Govako)
+- NOVÉ: zobrazení obsahu tagu OSM `description` (vyzkoušej zadáním `?description` do vyhledávání) (Kiryl Kaveryn, Viktor Govako)
 - NOVÉ: přepracovaná obrazovka plánování trasy (Kiryl Kaveryn)
 
 #### Android
 
 - Nové ikony kruhových objezdů v Android Auto (Andrei Shkrob)
-- Zobrazení kategorie vybrané značky (Alexander Borsuk)
-- Opraveno zpoždění při zobrazení vzdálenosti ke značce (Alexander Borsuk)
+- Zobrazení kategorie vybrané záložky (Alexander Borsuk)
+- Opraveno zpoždění při zobrazení vzdálenosti k záložce (Alexander Borsuk)
 - Přepracované tmavé téma (Andrei Shkrob)
 - Opravená aktualizace polohy v navigaci na custom ROM (např. Lineage + MicroG) (Viktor Govako)
-- Modrá ikona tužky (úpravy) pro značky (Alexander Borsuk)
+- Modrá ikona tužky (úpravy) pro záložky (Alexander Borsuk)
 - Snížená vertikální výška náhledu informací o místě (Alexander Borsuk)
-- Odstraněn azimutální úhel k severu z náhledu (klepněte na modrou šipku se vzdáleností) (Alexander Borsuk)
+- Odstraněn azimutální úhel k severu z náhledu informací o místě (klepni na modrou šipku se vzdáleností a uvidíš ho) (Alexander Borsuk)
 
-Stáhněte si nejnovější verzi: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Stáhni si nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Připojte se k betě: [iOS][testflight] / [Android][firebase].
+P.S. Připoj se k beta testování a vyzkoušej novinky dřív: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

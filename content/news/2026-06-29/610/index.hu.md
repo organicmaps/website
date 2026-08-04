@@ -18,7 +18,7 @@ Szerezd be a <https://get.omaps.org> címen vagy az [App Store][appstore], [Goog
 ## Részletes változásnapló
 
 - ÚJ! Tömegközlekedési útvonaltervezés metróval, könnyűvasúttal, busszal és villamossal _(Viktor Govako)_
-- ÚJ! Alternatív útvonalak: a leggyorsabb útvonal mellett az alkalmazás most a legrövidebb útvonalat is megmutatja _(Viktor Govako)_
+- ÚJ! Alternatív útvonalak: a leggyorsabb útvonal mellett mostantól a legrövidebb útvonal is megjelenik _(Viktor Govako)_
 - ÚJ! Figyelmeztetések gyalogos és kerékpáros útvonalakon lépcsőkről, kapukról és sorompókról az út mentén _(Viktor Govako)_
 - ÚJ! Bármilyen színt választhatsz a könyvjelzőkhöz _(Alexander Borsuk, Mikhail Listratsenka)_
 - ÚJ! British National Grid (OS Grid), Irish Grid és Irish Transverse Mercator (ITM) koordináták támogatása _(Alexander Borsuk)_
@@ -41,7 +41,7 @@ Szerezd be a <https://get.omaps.org> címen vagy az [App Store][appstore], [Goog
 - A GeoJSON-nyomvonalak importáláskor és exportáláskor mostantól megőrzik a magasságot és az időbélyegeket _(Alexander Borsuk)_
 - Javítva egy összeomlás, amely egy nyomvonal másik listába mozgatása után történt _(Viktor Govako)_
 - Az örökségi helyszínekhez mostantól webhelyek is megjelennek _(Viktor Govako)_
-- A névtelen keresési találatoknál mostantól megjelennek az üzemeltetőnevek. Például egy névtelen ATM most megmutatja a bankját _(Anton Makouski)_
+- A névtelen keresési találatoknál mostantól megjelennek az üzemeltetőnevek. Például egy névtelen ATM-nél mostantól látszik a bank neve _(Anton Makouski)_
 - Szerkesztő: javítva a lakóházakhoz kapcsolódó OpenStreetMap-szerkesztések/changesetek leíró szövege _(titanniya542-spec)_
 - Javított HTML-felismerés könyvjelzők és nyomvonalak leírásaiban _(Alexander Borsuk)_
 
@@ -66,7 +66,7 @@ Szerezd be a <https://get.omaps.org> címen vagy az [App Store][appstore], [Goog
 
 - A megjelenített koordinátarendszer váltásának támogatása _(Alexander Borsuk)_
 - A kiválasztott hely adatai mostantól bal oldalon jelennek meg _(Viktor Govako)_
-- Javítva a helyi menü pozíciója _(Osyotr)_
+- Javítva a helyi menü elhelyezkedése _(Osyotr)_
 - Javítva az OpenStreetMap-bejelentkezés és -szerkesztés lefagyása Qt 6.4 és korábbi verziókon _(Alexander Borsuk)_
 - Javítva a váratlan térképstílus-váltás útvonaltervezés közben macOS-en _(Alexander Borsuk)_
 - Javítva egy összeomlás a macOS-alkalmazás bezárásakor KMZ-fájl exportálása után _(Alexander Borsuk)_

@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Březnová aktualizace Organic Maps si vyžádala více času kvůli opravám a revizi Google Play. Aktualizace [Accrescent][accrescent] stále není hotová kvůli problémům s obchodem s aplikacemi Accrescent. Aktualizaci získáte na <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Březnová aktualizace Organic Maps si vyžádala více času kvůli opravám a revizi Google Play. Aktualizace [Accrescent][accrescent] stále není hotová kvůli problémům s obchodem s aplikacemi Accrescent. Aktualizaci si stáhneš na <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-P.S. Pokud máte zájem o sadu SDK pro iOS/Android/Linux/MacOS/Windows s offline mapami, které můžete znovu použít ve svých projektech, kontaktujte nás e-mailem na adrese <sdk@organicmaps.app>.
+P.S. Pokud máš zájem o sadu SDK pro iOS/Android/Linux/MacOS/Windows s offline mapami, které můžeš znovu použít ve svých projektech, kontaktuj nás e-mailem na adrese <sdk@organicmaps.app>.
 
-P.P.S. Věděli jste o rozhraní API, které již můžete ve své aplikaci používat, pokud je nainstalována také aplikace Organic Maps? Podívejte se na něj zde: <https://omaps.app/api>
+P.P.S. Věděl jsi o rozhraní API, které už můžeš ve své aplikaci používat, pokud je nainstalována také aplikace Organic Maps? Podívej se na něj zde: <https://omaps.app/api>
 
 ### Poznámky k vydání
 * Mapová data OSM k 10. březnu
@@ -40,7 +40,7 @@ P.P.S. Věděli jste o rozhraní API, které již můžete ve své aplikaci pou�
 * Aktualizovány překlady od přispěvatelů Weblate (Viktor Govako)
 * Opraven ukrajinský překlad (Nnifria)
 
-Zapojte se do beta testování a vyzkoušejte první funkce a nahlaste problémy:
+Zapoj se do beta testování, vyzkoušej první funkce a nahlas problémy:
 - [iOS][testflight]
 - [Android][firebase]
 

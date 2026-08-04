@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Dank unserer Mitwirkenden: **Freitag ist ein guter Zeitpunkt für ein Organic Maps Update!** Holen Sie sich das Update unter [https://get.omaps.org](https://get.omaps.org) oder im [App Store][appstore], bei [Google Play][googleplay], in der [Huawei AppGallery][appgallery], über [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
+Dank unserer Mitwirkenden: **Freitag ist ein guter Zeitpunkt für ein Organic Maps Update!** Hol dir das Update unter [https://get.omaps.org](https://get.omaps.org) oder im [App Store][appstore], bei [Google Play][googleplay], in der [Huawei AppGallery][appgallery], über [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
 
-Wenn Sie in einem der kommenden Updates **Echtzeit-Fahrpläne für öffentliche Verkehrsmittel** in Ihrer Stadt sehen möchten, bitte:
+Wenn du in einem der kommenden Updates **Echtzeit-Fahrpläne für öffentliche Verkehrsmittel** in deiner Stadt sehen möchtest, bitte:
 
-1. [Senden Sie uns](https://github.com/organicmaps/gtfs-osm-matcher/issues) die **statischen und Echtzeit-GTFS-Feed-Quellen** Ihrer lokalen Verkehrsbetriebe, damit wir diese testen und integrieren können.
-2. Prüfen Sie unter [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/), ob die **OpenStreetMap-Daten** in Ihrem Gebiet alle Bus-/Straßenbahn-/Zughaltestellen mit den notwendigen Tags enthalten.
+1. [Schick uns](https://github.com/organicmaps/gtfs-osm-matcher/issues) die **statischen und Echtzeit-GTFS-Feed-Quellen** deiner lokalen Verkehrsbetriebe, damit wir diese testen und integrieren können.
+2. Prüfe unter [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/), ob die **OpenStreetMap-Daten** in deinem Gebiet alle Bus-/Straßenbahn-/Zughaltestellen mit den notwendigen Tags enthalten.
 
 ### Versionshinweise
 
@@ -57,7 +57,7 @@ Wenn Sie in einem der kommenden Updates **Echtzeit-Fahrpläne für öffentliche 
 * Übersetzungen von Weblate-Mitwirkenden aktualisiert (Viktor Govako)
 
 
-Nehmen Sie am Betatest teil, um frühe Funktionen auszuprobieren und Probleme zu melden:
+Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:
 - [iOS][testflight]
 - [Android][firebase]
 

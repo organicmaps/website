@@ -1,35 +1,35 @@
 ---
-title: "Touchez un arrêt de transport en commun pour afficher les lignes sur la carte, les étiquettes des signets ne se chevauchent plus, des régions téléchargeables plus petites au Vietnam, en Malaisie et dans le sud de la Chine dans la mise à jour de mai d'Organic Maps"
+title: "Touche un arrêt de transport en commun pour afficher les lignes sur la carte, les étiquettes des signets ne se chevauchent plus, des régions téléchargeables plus petites au Vietnam, en Malaisie et dans le sud de la Chine dans la mise à jour de mai d'Organic Maps"
 date: 2026-05-08
 slug: "selection-arret-transport-lignes-etiquettes-signets-sans-chevauchement-vietnam-malaisie-chine-regions-divisees"
 taxonomies:
   news: ["releases"]
 ---
 
-La mise à jour de mai nous rapproche un peu plus d'une prise en charge complète des transports en commun dans Organic Maps. Un arrêt de bus, de train, de ferry ou de tramway donne accès aux lignes qui le desservent : ainsi, lorsque vous touchez une ligne depuis un arrêt, elle s'affiche désormais dans sa propre couleur sur toute la carte. Les horaires réels en ligne arrivent aussi ; n'oubliez pas d'[ajouter ou de mettre à jour les données OSM relatives aux transports en commun](https://gtfs-osm-matcher.organicmaps.app/) dans votre région si ce n'est pas déjà fait !
+La mise à jour de mai nous rapproche un peu plus d'une prise en charge complète des transports en commun dans Organic Maps. Un arrêt de bus, de train, de ferry ou de tramway donne accès aux lignes qui le desservent : ainsi, lorsque tu touches une ligne depuis un arrêt, elle s'affiche désormais dans sa propre couleur sur toute la carte. Les horaires réels en ligne arrivent aussi ; n'oublie pas d'[ajouter ou de mettre à jour les données OSM relatives aux transports en commun](https://gtfs-osm-matcher.organicmaps.app/) dans ta région si ce n'est pas déjà fait !
 
-Comme toujours, un grand merci à nos contributeurs, ainsi qu'à vous pour vos avis positifs, [vos dons](@/donate/index.fr.md) et [votre soutien](@/contribute/index.fr.md).
+Comme toujours, un grand merci à nos contributeurs, ainsi qu'à toi pour tes avis positifs, [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.fr.md).
 
-Téléchargez la mise à jour de mai sur <https://get.omaps.org> ou sur l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
+Télécharge la mise à jour de mai sur <https://get.omaps.org> ou sur l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
 
 ## Points forts
 
-- **Touchez un arrêt de bus, de tramway, de train ou de ferry sur la carte,** et Organic Maps met en évidence toute la ligne de transport en commun, sélectionnable dans la liste des lignes et itinéraires affichés.
+- **Touche un arrêt de bus, de tramway, de train ou de ferry sur la carte,** et Organic Maps met en évidence toute la ligne de transport en commun, sélectionnable dans la liste des lignes et itinéraires affichés.
 - **Des étiquettes de signets plus nettes et une carte plus lisible.** Le nouveau placement des étiquettes évite que les titres des signets ne se chevauchent, les zones piétonnes sont légèrement plus sombres et les couleurs des itinéraires ont été ajustées pour offrir un meilleur contraste, sur les thèmes clairs comme sombres.
-- **Des régions plus détaillées en Asie.** Le Vietnam et la Malaisie sont désormais divisés en cartes plus petites afin que vous puissiez télécharger uniquement la zone dont vous avez besoin, et Hong Kong, Macao et Hainan sont désormais séparés du Guangdong.
+- **Des régions plus détaillées en Asie.** Le Vietnam et la Malaisie sont désormais divisés en cartes plus petites afin que tu puisses télécharger uniquement la zone dont tu as besoin, et Hong Kong, Macao et Hainan sont désormais séparés du Guangdong.
 
 ## Notes de mise à jour
 
 ### Toutes les plateformes
 
-- NOUVEAU ! Touchez un arrêt de transport en commun et sélectionnez un numéro de ligne pour mettre en évidence tout l'itinéraire de cette ligne sur la carte, comme dans le calque « Plan du métro » (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NOUVEAU ! Touche un arrêt de transport en commun et sélectionne un numéro de ligne pour mettre en évidence tout l'itinéraire de cette ligne sur la carte, comme dans la couche « Plan du métro » (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NOUVEAU ! Les étiquettes des signets sur la carte ne se chevauchent plus (Viktor Govako)
 - Correction des calculs de dénivelé positif et négatif sur les graphiques d'altitude des traces afin de mieux correspondre aux valeurs fournies par d'autres applications populaires (Viktor Govako)
 - Les transports en commun longue distance et d'autres relations cartographiques sont désormais raccordés au-delà des limites des cartes pour former une seule ligne continue (Viktor Govako)
 - Le Vietnam et la Malaisie ont été divisés en régions plus petites, téléchargeables séparément (Viktor Govako)
 - Hong Kong, Macao et Hainan sont désormais distincts du Guangdong, et les frontières avec les régions voisines ont été mises à jour (Viktor Govako)
 - Mise à jour des isolignes (courbes de niveau) pour l'Indonésie, la Malaisie, la Tanzanie, la Thaïlande et le Vietnam (Viktor Govako)
-- Itinéraires : les itinéraires repris ignorent désormais les points intermédiaires que vous avez déjà dépassés (Viktor Govako)
+- Itinéraires : les itinéraires repris ignorent désormais les points intermédiaires que tu as déjà dépassés (Viktor Govako)
 - Ajout d'icônes pour les volcans actifs et les points d'accès aux voies navigables ; les cales de mise à l'eau peuvent désormais être recherchées (David Martinez)
 - Ajout des salons de narguilé (alnzrv)
 - Ajout des bâtiments en construction (Viktor Govako)
@@ -76,7 +76,7 @@ Téléchargez la mise à jour de mai sur <https://get.omaps.org> ou sur l'[App S
 - Le téléchargement des cartes reprend là où il s'était arrêté en cas d'arrêt normal (Alexander Borsuk)
 - Organic Maps fonctionne désormais avec les pilotes OpenGL ES 3.0 (Alexander Borsuk)
 
-Participez au test bêta pour découvrir les nouvelles fonctionnalités en avant-première et signaler les problèmes :
+Participe au test bêta pour découvrir les nouvelles fonctionnalités en avant-première et signaler les problèmes :
 - [iOS][testflight]
 - [Android][firebase]
 

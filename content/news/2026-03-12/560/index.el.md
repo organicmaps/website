@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Η ενημέρωση των Organic Maps του Μαρτίου χρειάστηκε περισσότερο χρόνο λόγω των διορθώσεων και της αναθεώρησης του Google Play. Η ενημέρωση [Accrescent][accrescent] δεν είναι ακόμα έτοιμη λόγω των προβλημάτων του καταστήματος εφαρμογών Accrescent. Αποκτήστε την ενημέρωση στο <https://get.omaps.org> ή στα [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
+Η ενημέρωση των Organic Maps του Μαρτίου χρειάστηκε περισσότερο χρόνο λόγω των διορθώσεων και της αναθεώρησης του Google Play. Η ενημέρωση [Accrescent][accrescent] δεν είναι ακόμα έτοιμη λόγω των προβλημάτων του καταστήματος εφαρμογών Accrescent. Απόκτησε την ενημέρωση στο <https://get.omaps.org> ή στα [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
 
-Υ.Γ. Επικοινωνήστε μαζί μας μέσω email στο <sdk@organicmaps.app> αν ενδιαφέρεστε για iOS/Android/Linux/MacOS/Windows SDK με offline χάρτες που μπορείτε να επαναχρησιμοποιήσετε στα έργα σας.
+Υ.Γ. Επικοινώνησε μαζί μας μέσω email στο <sdk@organicmaps.app> αν σε ενδιαφέρει ένα SDK για iOS/Android/Linux/MacOS/Windows με offline χάρτες που μπορείς να επαναχρησιμοποιήσεις στα έργα σου.
 
-P.P.S. Γνωρίζατε για το API που μπορείτε ήδη να χρησιμοποιήσετε στην εφαρμογή σας εάν είναι επίσης εγκατεστημένη η εφαρμογή Organic Maps; Ελέγξτε το εδώ: <https://omaps.app/api>
+Υ.Γ.2. Ήξερες για το API που μπορείς ήδη να χρησιμοποιήσεις στη δική σου εφαρμογή, αν είναι επίσης εγκατεστημένη η εφαρμογή Organic Maps; Δες το εδώ: <https://omaps.app/api>
 
 ### Σημειώσεις έκδοσης
 * Δεδομένα χαρτών OSM από τις 10 Μαρτίου
@@ -22,7 +22,7 @@ P.P.S. Γνωρίζατε για το API που μπορείτε ήδη να χ
 * Προστέθηκαν πλατφόρμες στάσεων δημόσιας συγκοινωνίας χωρίς κοντινές στάσεις λεωφορείων (Viktor Govako)
 * Χωρίστηκε η Τανζανία σε μικρότερες περιοχές (Emile Villette, Viktor Govako)
 * Διορθώθηκε ο υπολογισμός της προόδου λήψης της χώρας (Kiryl Kaveryn)
-* Διορθώθηκαν αρκετές συντριβές, βελτιώθηκε η σταθερότητα και η απόδοση (Alexander Borsuk, Viktor Govako)
+* Διορθώθηκαν αρκετές καταρρεύσεις, βελτιώθηκε η σταθερότητα και η απόδοση (Alexander Borsuk, Viktor Govako)
 
 ### iOS
 * Προστέθηκε ιστορικό των κατηγοριών που χρησιμοποιήθηκαν πρόσφατα στον επεξεργαστή (Rahul Kolluru)
@@ -37,10 +37,10 @@ P.P.S. Γνωρίζατε για το API που μπορείτε ήδη να χ
 * Βελτιωμένες περιγραφές χωρών (alnzrv)
 * Εφαρμόστηκαν διορθώσεις στη ρουμανική μετάφραση από τον Eugen Dedu (Alexander Borsuk)
 * Επικαιροποίηση των ονομάτων των χωρών (Viktor Govako)
-* Επικαιροποιημένες μεταφράσεις από συνεργάτες του Weblate (Viktor Govako)
+* Επικαιροποιημένες μεταφράσεις από συνεισφέροντες του Weblate (Viktor Govako)
 * Διορθωμένη ουκρανική μετάφραση (Nnifria)
 
-Πάρτε μέρος στις δοκιμές beta για να δοκιμάσετε τα πρώτα χαρακτηριστικά και να αναφέρετε προβλήματα:
+Πάρε μέρος στις δοκιμές beta για να δοκιμάσεις τα πρώτα χαρακτηριστικά και να αναφέρεις προβλήματα:
 - [iOS][testflight]
 - [Android][firebase]
 

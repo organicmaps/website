@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-بیایید سال 2026 را با به‌روزرسانی Organic Maps آغاز کنیم که توسط همه مشارکت‌کنندگان ما امکان‌پذیر شده است! آن را از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید
+بیایید سال 2026 را با به‌روزرسانی Organic Maps آغاز کنیم که توسط همه مشارکت‌کنندگان ما امکان‌پذیر شده است! آن را از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کن
 
 ### یادداشت‌های نسخه (همه پلتفرم‌ها)
 
@@ -42,11 +42,11 @@ taxonomies:
 * اعلان‌های راهنمای صوتی TTS از دست رفته برطرف شد (Alexander Borsuk)
 
 
-به آزمایش بتا بپیوندید تا ویژگی‌های اولیه را امتحان کرده و مشکلات را گزارش دهید:
+به آزمایش بتا بپیوند تا ویژگی‌های اولیه را امتحان کنی و مشکلات را گزارش بدهی:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps به لطف [کمک‌های مالی](@/donate/index.fa-IR.md) و [مشارکت‌های](@/contribute/index.fa-IR.md) شما وجود دارد ❤️
+Organic Maps به لطف [کمک‌های مالی](@/donate/index.fa-IR.md) و [مشارکت‌های](@/contribute/index.fa-IR.md) تو وجود دارد ❤️
 
 تیم Organic Maps
 

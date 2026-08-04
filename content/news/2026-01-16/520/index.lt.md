@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendraautoriai! Įdiekite iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
+Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendraautoriai! Įdiek jį iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Leidimo pastabos (visos platformos)
 
@@ -14,7 +14,7 @@ Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendr
 * Atnaujinti OpenStreetMap duomenys (sausio 11 d.) (Viktor Govako)
 * Pridėtas albanų kalbos balso vedimas (TTS) (Alexander Borsuk)
 * Pridėti bulgarų paieškos sinonimai (Clippy)
-* Kazino pašalinti iš kategorijos „Pramogos" (Clippy)
+* Kazino pašalinti iš kategorijos „Pramogos“ (Clippy)
 * Sumažintas metro linijų storis (Manik)
 * Pridėta talpos informacija į paieškos rezultatus motociklų parkavimui, dviračių nuomai, dviračių įkrovimui ir automobilių įkrovimui (David Martinez)
 * Pridėtas aukšto lygis į paieškos rezultatus (David Martinez)
@@ -25,7 +25,7 @@ Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendr
 * Atnaujinti DUK ir pridėti DUK vertimai arabų, čekų, olandų, persų, graikų, hebrajų, hindi, vengrų, indoneziečių, italų, lietuvių, marati, švedų, telugu kalbomis (Alexander Borsuk)
 * Patobulinti vokiečių kalbos programos ir DUK vertimai (DaN0mic)
 * Patobulinti Lotynų Amerikos ispanų kalbos programos vertimai (Alexander Borsuk)
-* Pervardytas parametras „Priartinimo mygtukai" aiškumo tikslais (Alexander Borsuk)
+* Pervardytas parametras „Priartinimo mygtukai“ aiškumo tikslais (Alexander Borsuk)
 * Vertimų pataisymai iš Weblate bendraautorių įvairiomis kalbomis (Viktor Govako)
 
 ### Tik iOS pakeitimai
@@ -34,19 +34,19 @@ Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendr
 
 ### Tik Android pakeitimai
 
-* Pridėta Google Assistant palaikymas navigacijai ir paieškai (skirm-tech)
-* Atnaujintas navigacijos temos parametras „Automatinis", kad sektų sistemos tamsų/šviesų režimą (Dzmitry Strekha)
-* Ištaisytas strigtis pradedant navigaciją (Owm Dubey)
-* Ištaisytas strigtis įkeliant pastabas į OpenStreetMap (Prakamy Awasthi)
-* Ištaisytas strigtis Android Auto (Alexander Borsuk)
+* Pridėtas Google Assistant palaikymas navigacijai ir paieškai (skirm-tech)
+* Atnaujintas navigacijos temos parametras „Automatinis“, kad sektų sistemos tamsų/šviesų režimą (Dzmitry Strekha)
+* Ištaisyta strigtis pradedant navigaciją (Owm Dubey)
+* Ištaisyta strigtis įkeliant pastabas į OpenStreetMap (Prakamy Awasthi)
+* Ištaisyta strigtis Android Auto (Alexander Borsuk)
 * Ištaisyti trūkstami TTS balso vedimo pranešimai (Alexander Borsuk)
 
 
-Prisijunkite prie bandomojo testavimo, kad išbandytumėte ankstyvąsias funkcijas ir praneštumėte apie problemas:
+Prisijunk prie beta testavimo, kad išbandytum ankstyvąsias funkcijas ir praneštum apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps egzistuoja dėka jūsų [aukų](@/donate/index.lt.md) ir [indėlių](@/contribute/index.lt.md) ❤️
+Organic Maps egzistuoja dėka tavo [aukų](@/donate/index.lt.md) ir [indėlių](@/contribute/index.lt.md) ❤️
 
 Organic Maps komanda
 

@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Esta segunda versão de setembro traz um ecrã redesenhado de planeamento de rotas e a possibilidade de ver o conteúdo da etiqueta OpenStreetMap `description` no iOS. Para encontrar locais com essa etiqueta, digite `?description` na pesquisa (semelhante a `?wiki`).
+Esta segunda versão de setembro traz um ecrã redesenhado de planeamento de rotas e a possibilidade de ver o conteúdo da etiqueta OpenStreetMap `description` no iOS. Para encontrar locais com essa etiqueta, digita `?description` na pesquisa (semelhante a `?wiki`).
 
 Inclui também muitas correções e melhorias no iOS e Android (detalhes abaixo).
 
-Funcionalidades recentes que pode ter perdido:
+Funcionalidades recentes que podes ter perdido:
 - Números de linhas de transporte público ao selecionar uma paragem
-- Rotas de caminhada e ciclismo (ative-as com o botão Camadas no canto superior esquerdo)
+- Rotas de caminhada e ciclismo (ativa-as com o botão Camadas no canto superior esquerdo)
 - Mostrar nomes dos marcadores no mapa (ativar nas Definições)
 - O ícone ✎ permite editar marcadores rapidamente
 
-Organic Maps é possível graças aos nossos contribuidores, [às suas doações](@/donate/index.pt.md) e [ao seu apoio](@/contribute/index.md).
+Organic Maps é possível graças aos nossos contribuidores, [aos teus donativos](@/donate/index.pt.md) e [ao teu apoio](@/contribute/index.md).
 
 ### Notas detalhadas
 
@@ -38,7 +38,7 @@ Organic Maps é possível graças aos nossos contribuidores, [às suas doações
 
 #### iOS
 
-- NOVO: mostrar conteúdo da etiqueta OSM `description` (pesquise `?description`) (Kiryl Kaveryn, Viktor Govako)
+- NOVO: mostrar conteúdo da etiqueta OSM `description` (pesquisa `?description`) (Kiryl Kaveryn, Viktor Govako)
 - NOVO: ecrã de planeamento de rotas redesenhado (Kiryl Kaveryn)
 
 #### Android
@@ -50,10 +50,10 @@ Organic Maps é possível graças aos nossos contribuidores, [às suas doações
 - Correção de atualização de posição em navegação em ROMs personalizadas (ex. Lineage + MicroG) (Viktor Govako)
 - Ícone de lápis azul (editar) para marcadores (Alexander Borsuk)
 - Redução da altura vertical da pré-visualização de informação do local (Alexander Borsuk)
-- Remoção do ângulo de azimute para norte na pré-visualização (toque na seta azul com distância para ver) (Alexander Borsuk)
+- Remoção do ângulo de azimute para norte na pré-visualização (toca na seta azul com distância para ver) (Alexander Borsuk)
 
-Obtenha a versão mais recente: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Obtém a versão mais recente do Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Junte-se à beta: [iOS][testflight] / [Android][firebase].
+Junta-te à beta: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

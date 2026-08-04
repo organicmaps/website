@@ -5,25 +5,25 @@ taxonomies:
   news: ["releases"]
 ---
 
-Antrasis rugsėjo leidimas pateikia atnaujintą maršruto planavimo ekraną ir galimybę iOS įrenginiuose peržiūrėti OpenStreetMap `description` žymos turinį. Norėdami rasti vietas su šia žyma, įveskite paieškoje `?description` (panašiai kaip `?wiki`).
+Antrasis rugsėjo leidimas pateikia atnaujintą maršruto planavimo ekraną ir galimybę iOS įrenginiuose peržiūrėti OpenStreetMap `description` žymos turinį. Kad rastum vietas su šia žyma, paieškos laukelyje įvesk `?description` (panašiai kaip `?wiki` su Wikipedia susietoms vietoms).
 
 Taip pat yra daug pataisymų ir patobulinimų iOS ir Android (išsamiau žemiau).
 
-Pastaruoju metu galėjote praleisti:
+Ir, žinoma, priminimas apie kitas naujoves, kurias galbūt praleidai:
 - Viešojo transporto maršrutų numeriai pasirinkus stotelę
-- Žygių ir dviračių maršrutai (įjunkite per sluoksnių mygtuką kairėje viršuje)
-- Žymeklių pavadinimai žemėlapyje (įjunkite Nustatymuose)
-- ✎ piktograma leidžia greitai redaguoti žymeklius
+- Žygių ir dviračių maršrutai (įjunk juos Sluoksnių mygtuku kairėje viršuje)
+- Žymų pavadinimai žemėlapyje (įjunk programėlės Nustatymuose)
+- ✎ pieštuko piktograma leidžia greitai redaguoti žymas
 
-Organic Maps įmanomas dėka bendradarbių, [jūsų aukų](@/donate/index.lt.md) ir [jūsų palaikymo](@/contribute/index.md).
+Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) ir [tavo palaikymo](@/contribute/index.md).
 
 ### Išsamios leidimo pastabos
 
-- Nauji OpenStreetMap duomenys  rugsėjo 13 d.
+- Nauji OpenStreetMap duomenys nuo rugsėjo 13 d.
 - Pašalintos labai mažos salos iš pasaulio žemėlapio (Viktor Govako)
 - Pašto kodas (ZIP) rodomas adreso informacijoje (Viktor Govako)
 - Ištaisyta neteisinga žemėlapio centro padėtis ties dabartine vieta (Kiryl Kaveryn, Viktor Govako)
-- Išsaugomos žymeklių spalvos eksportuojant / importuojant GPX (cyber-toad)
+- Išsaugomos žymų spalvos eksportuojant / importuojant GPX (cyber-toad)
 - Atnaujinti vertimai (Weblate bendradarbiai)
 
 #### Žemėlapio stiliai (Viktor Govako)
@@ -38,22 +38,22 @@ Organic Maps įmanomas dėka bendradarbių, [jūsų aukų](@/donate/index.lt.md)
 
 #### iOS
 
-- NAUJA: rodyti OSM `description` žymos turinį (ieškokite `?description`) (Kiryl Kaveryn, Viktor Govako)
+- NAUJA: rodyti OSM `description` žymos turinį (išbandyk įvesdamas `?description` paieškos laukelyje) (Kiryl Kaveryn, Viktor Govako)
 - NAUJA: atnaujintas maršrutų planavimo ekranas (Kiryl Kaveryn)
 
 #### Android
 
 - Naujos žiedinių sankryžų piktogramos Android Auto (Andrei Shkrob)
-- Rodyti pasirinkto žymeklio kategoriją (Alexander Borsuk)
-- Pataisytas vėlavimas rodant atstumą iki žymeklio (Alexander Borsuk)
+- Rodyti pasirinktos žymos kategoriją (Alexander Borsuk)
+- Pataisytas vėlavimas rodant atstumą iki žymos (Alexander Borsuk)
 - Pakeista tamsi tema (Andrei Shkrob)
 - Pataisytas pozicijos atnaujinimas navigacijoje pritaikytuose ROM (pvz., Lineage + MicroG) (Viktor Govako)
-- Mėlyna pieštuko (redagavimo) piktograma žymekliams (Alexander Borsuk)
+- Mėlyna pieštuko (redagavimo) piktograma žymoms (Alexander Borsuk)
 - Sumažintas vietos informacijos peržiūros vertikalus aukštis (Alexander Borsuk)
-- Pašalintas azimuto į šiaurę kampas iš peržiūros (bakstelėkite mėlyną rodyklę) (Alexander Borsuk)
+- Pašalintas azimuto į šiaurę kampas iš vietos informacijos peržiūros (bakstelėk mėlyną rodyklę su atstumu, kad jį pamatytum) (Alexander Borsuk)
 
-Atsisiųskite naujausią versiją: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Atsisiųsk naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-Prisijunkite prie beta: [iOS][testflight] / [Android][firebase].
+P.S. Prisijunk prie beta testavimo, kad naujoves išbandytum pirmas: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -1,35 +1,35 @@
 ---
-title: "Tocatz un arrèst de transpòrt public per veire los itineraris sus la mapa, las etiquetas dels marcadors se superpausan pas pus, regions telecargadas mai pichonas al Vietnam, en Malàisia e dins lo sud de China dins la mesa a jorn de mai d'Organic Maps"
+title: "Toca un arrèst de transpòrt public per veire los itineraris sus la mapa, las etiquetas dels marcadors se superpausan pas pus, regions telecargadas mai pichonas al Vietnam, en Malàisia e dins lo sud de China dins la mesa a jorn de mai d'Organic Maps"
 date: 2026-05-08
 slug: "seleccion-arrest-transport-public-etiquetas-marcadors-sens-superposicion-regions-vietnam-malaisia-china"
 taxonomies:
   news: ["releases"]
 ---
 
-La mesa a jorn de mai apròcha encara mai Organic Maps del supòrt complet del transpòrt public. Un arrèst d'autobús, de tren, de transbordador o de tram es un punt de partença per las linhas que i passan; doncas, tocar un itinerari a un arrèst mòstra ara aquela linha, dins sa color pròpria, sus tota la mapa. Los oraris en linha arriban tanben; oblidetz pas d'[apondre/metre a jorn las donadas de transpòrt public OSM](https://gtfs-osm-matcher.organicmaps.app/) dins vòstra zòna se o avètz pas encara fach !
+La mesa a jorn de mai apròcha encara mai Organic Maps del supòrt complet del transpòrt public. Un arrèst d'autobús, de tren, de transbordador o de tram es un punt de partença per las linhas que i passan; doncas, tocar un itinerari a un arrèst mòstra ara aquela linha, dins sa color pròpria, sus tota la mapa. Los oraris en linha arriban tanben; oblides pas d'[apondre/metre a jorn las donadas de transpòrt public OSM](https://gtfs-osm-matcher.organicmaps.app/) dins ta zòna se o as pas encara fach !
 
-Coma totjorn, fòrça mercés als nòstres contributors, a vòstras bonas criticas, a vòstras [donacions](@/donate/index.oc.md) e a vòstre [sosten](@/contribute/index.oc.md).
+Coma totjorn, fòrça mercés als nòstres contributors, a tas bonas criticas, a tas [donacions](@/donate/index.oc.md) e a ton [sosten](@/contribute/index.oc.md).
 
-Obtenètz la mesa a jorn de mai sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obtén la mesa a jorn de mai sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ## Destacats
 
-- **Tocatz un arrèst d'autobús, de tram, de tren o de transbordador sus la mapa,** e Organic Maps met en evidéncia tota la linha de transpòrt, que podètz seleccionar dins la lista de las linhas e dels itineraris afichats.
+- **Toca un arrèst d'autobús, de tram, de tren o de transbordador sus la mapa,** e Organic Maps met en evidéncia tota la linha de transpòrt, que pòdes seleccionar dins la lista de las linhas e dels itineraris afichats.
 - **Etiquetas de marcadors mai netas e mapa mai legibla.** Lo novèl plaçament de las etiquetas empacha los títols dels marcadors de se trebolar entre eles, las zònas pedonalas son un pauc mai escuras, e las colors dels itineraris son estadas ajustadas per un melhor contraste suls tèmas clars e escurs.
-- **Regions mai detalhadas en Asia.** Vietnam e Malàisia son ara devesits en mapas mai pichonas per que poscatz telecargar pas que l'airal que vos cal, e Hong Kong, Macau e Hainan son ara separats de Guangdong.
+- **Regions mai detalhadas en Asia.** Vietnam e Malàisia son ara devesits en mapas mai pichonas per que poscas telecargar pas que l'airal que te cal, e Hong Kong, Macau e Hainan son ara separats de Guangdong.
 
 ## Nòtas de version
 
 ### Totas las plataformas
 
-- NÒU! Tocatz un arrèst de transpòrt public e seleccionatz un numèro d'itinerari per metre en evidéncia tot l'itinerari sus la mapa, coma dins lo jaç de mapa del metrò (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NÒU! Toca un arrèst de transpòrt public e selecciona un numèro d'itinerari per metre en evidéncia tot l'itinerari sus la mapa, coma dins lo jaç de mapa del metrò (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NÒU! Las etiquetas dels marcadors sus la mapa se superpausan pas pus (Viktor Govako)
 - Calculs de pèrda e de ganh d'altitud corregits suls grafics de las traças per correspondre melhor a las valors d'autras aplicacions popularas (Viktor Govako)
 - Lo transpòrt public de longa distància e d'autras relacions de mapa son ara jonches a travèrs las frontièras de las mapas per formar una sola linha continua (Viktor Govako)
 - Vietnam e Malàisia devesits en regions mai pichonas, telecargablas individualament (Viktor Govako)
 - Hong Kong, Macau e Hainan son separats de Guangdong, amb las frontièras vesinas mesas a jorn (Viktor Govako)
 - Isolinhas (corbas de nivèl) mesas a jorn per Indonesia, Malàisia, Tanzania, Tailàndia e Vietnam (Viktor Govako)
-- Encaminament : los itineraris represes abandonan ara los punts intermediaris qu'avètz ja passats (Viktor Govako)
+- Encaminament : los itineraris represes abandonan ara los punts intermediaris qu'as ja passats (Viktor Govako)
 - Icònas apondudas pels volcans actius e los punts d'accès a las vias navegablas ; las rampas de lançament son ara recercablas (David Martinez)
 - Apondudes salas de narguilé (alnzrv)
 - Aponduts edificis en construccion (Viktor Govako)
@@ -76,7 +76,7 @@ Obtenètz la mesa a jorn de mai sus <https://get.omaps.org> o sus l'[App Store][
 - Los telecargaments de mapas reprenon ont s'èran arrestats aprèp una tampadura normala (Alexander Borsuk)
 - Organic Maps fonciona ara sus los pilòts OpenGL ES 3.0 (Alexander Borsuk)
 
-Rejonhètz lo tèst beta per ensajar de foncionalitats en avança e senhalar de problèmas :
+Rejonh lo tèst beta per ensajar de foncionalitats en avança e senhalar de problèmas :
 - [iOS][testflight]
 - [Android][firebase]
 

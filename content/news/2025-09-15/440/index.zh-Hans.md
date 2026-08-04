@@ -52,8 +52,8 @@ Organic Maps 得益于贡献者、[你的捐赠](@/donate/index.zh-Hans.md) 与 
 - 减少地点信息预览垂直高度 (Alexander Borsuk)
 - 从预览移除指向北方的方位角（点蓝色箭头查看） (Alexander Borsuk)
 
-获取最新版本： [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、[F-Droid][fdroid]。
+获取最新版 Organic Maps：[App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、[F-Droid][fdroid]。
 
-加入测试版： [iOS][testflight] / [Android][firebase]。
+加入测试版：[iOS][testflight] / [Android][firebase]。
 
 {{ references() }}

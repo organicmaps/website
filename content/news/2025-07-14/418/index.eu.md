@@ -20,7 +20,7 @@ Aldaketen zerrenda osoa:
 - Laster-marka eta Pisten ikono berria mapan erabiltzaileei beren grabatutako edo inportatutako pistak aurkitzen laguntzeko (_@euf_)
 - Karga geltokiek orain beren ikono bereizgarria dute mapan eta bilaketan (_David Martinez_)
 - Gorde altxaera/altuera (_presente badago_) ibilbide bat gordetzerakoan (_Kiryl Kaveryn_)
-- Itzulpen eguneratuak, itzulpen oker edo falta direnak konpontzen lagun dezakezu [Weblate]-n[weblate]
+- Itzulpen eguneratuak, itzulpen oker edo falta direnak konpontzen lagun dezakezu [Weblate-n][weblate]
 
 Android:
 - Konponduta Android 16an funtzionatzen ez zen Atzera botoia (_Andrei Shkrob_)

@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-您可能已经注意到，7 月份的 Organic Maps 更新现已发布。您可以通过 <https://get.omaps.org> 或在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 以及 [F-Droid][fdroid] 下载。
+你可能已经注意到，7 月份的 Organic Maps 更新现已发布。你可以通过 <https://get.omaps.org> 或在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 以及 [F-Droid][fdroid] 下载。
 
-得益于您的[捐款](@/donate/index.zh-Hans.md)和[反馈](@/contribute/index.zh-Hans.md)，我们在 7 月主要专注于错误修复和功能改进。如果您之前错过了，[上一个 6 月版本](@/news/2026-06-29/610/index.zh-Hans.md)中推出的以下功能现已可用：
+得益于你的[捐款](@/donate/index.zh-Hans.md)和[反馈](@/contribute/index.zh-Hans.md)，我们在 7 月主要专注于错误修复和功能改进。如果你之前错过了，[上一个 6 月版本](@/news/2026-06-29/610/index.zh-Hans.md)中推出的以下功能现已可用：
 - 公共交通线路（实时时刻表正在开发中）
 - 卫星图像
 - 驾车、徒步和骑行的替代路线
@@ -21,7 +21,7 @@ extra:
 
 ### 地图与地点
 - OpenStreetMap 数据更新至 7 月 14 日
-- 报告至 [OpenStreetMap](https://www.openstreetmap.org) 的备注现已放置在您选定的精确位置，而非整条街道或区域的中间 _(Alexander Borsuk)_
+- 报告至 [OpenStreetMap](https://www.openstreetmap.org) 的备注现已放置在你选定的精确位置，而非整条街道或区域的中间 _(Alexander Borsuk)_
 - 在跨越 180° 对经线的区域点击地图时，地点选择已得到改进 _(Viktor Govako)_
 - 删除轨迹后，轨迹海拔剖面图将不再显示过时或空白的图表 _(Kiryl Kaveryn)_
 
@@ -36,10 +36,10 @@ extra:
 - 修复了错误和缺失的转弯说明 _(Alexander Borsuk)_
 
 ### iOS
-- 新增“保存搜索记录”设置，如果您不希望保留搜索记录，可以关闭该功能并将其隐藏 _(Kiryl Kaveryn)_
+- 新增“保存搜索记录”设置，如果你不希望保留搜索记录，可以关闭该功能并将其隐藏 _(Kiryl Kaveryn)_
 - 新增“编辑”按钮，可更轻松地删除书签 _(Kiryl Kaveryn)_
-- 现在，当您离开屏幕时，书签会自动保存 _(Kiryl Kaveryn)_
-- 颜色面板现在提供了预设颜色，并允许您选择任何自定义颜色 _(Kiryl Kaveryn)_
+- 现在，当你离开屏幕时，书签会自动保存 _(Kiryl Kaveryn)_
+- 颜色面板现在提供了预设颜色，并允许你选择任何自定义颜色 _(Kiryl Kaveryn)_
 - 改进了已记录轨迹的高程图空状态 _(Kiryl Kaveryn)_
 - 改进了“开始”按钮上显示的路线进度 _(Kiryl Kaveryn)_
 - 重新排序路线停靠点后，列表不再出现跳动现象 _(Kiryl Kaveryn)_

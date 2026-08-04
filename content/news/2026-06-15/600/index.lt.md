@@ -6,20 +6,20 @@ taxonomies:
   news: ["beta"]
 ---
 
-Gaukite naujausią Organic Maps beta versiją adresu <https://beta.omaps.org/> arba [atsisiųskite APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
+Gauk naujausią Organic Maps beta versiją adresu <https://beta.omaps.org/> arba [atsisiųsk APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - OSM žemėlapio duomenys nuo birželio 12 d.
-- NAUJA! Pasirenkamas palydovinis fono vaizdas (OM nustatymuose raskite „Žemėlapio plytelės")
+- NAUJA! Pasirenkamas palydovinis fono vaizdas (OM nustatymuose rask „Žemėlapio plytelės“)
 - NAUJA! Viešojo transporto maršrutai su metro, lengvuoju traukiniu, AUTOBUSU ir TRAMVAJUMI
 - NAUJA! Trumpiausias maršrutas kaip alternatyva greičiausiam maršrutui
 - NAUJA! Laiptų, vartų ir keliamųjų užtvarų įspėjimai maršrute žemėlapyje
 - NAUJA! Ploto objektų šrafavimas ir užpildymas simboliais (įskaitant miškus)
 - NAUJA! Kelių trasų ir maršrutų pasirinkimas vienu metu
-- NAUJA! Pasirinktinis atsisiuntimo serveris naudojant „Debug" paieškos komandą (`?map-download-server`)
+- NAUJA! Pasirinktinis atsisiuntimo serveris naudojant „Debug“ paieškos komandą (`?map-download-server`)
 - NAUJA! iOS: pritaikymas neįgaliesiems naudojant didelius šriftus
 - NAUJA! Android: atnaujinta paieškos sąsaja ir naudojimo patirtis
 - NAUJA! Android: išsamios viešojo transporto maršrutų instrukcijos
 
 … ir daugybė kitų patobulinimų bei klaidų pataisymų!
 
-Norite daugiau puikių funkcijų ir mažiau klaidų? Prisidėkite prie kūrimo, [paaukodami](@/donate/index.lt.md)!
+Nori daugiau puikių funkcijų ir mažiau klaidų? Prisidėk prie kūrimo, [paaukodamas](@/donate/index.lt.md)!

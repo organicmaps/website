@@ -9,13 +9,13 @@ Aquesta segona versió de setembre aporta una pantalla de planificació de rutes
 
 També inclou moltes correccions i millores a iOS i Android (detalls a continuació).
 
-Funcions recents que potser us heu perdut:
+Funcions recents que potser t’has perdut:
 - Números de línia de transport públic en seleccionar una parada
-- Rutes de senderisme i ciclisme (activeu-les amb el botó Capa a dalt a l’esquerra)
-- Mostrar noms dels marcadors al mapa (activeu-ho a Configuració)
+- Rutes de senderisme i ciclisme (activa-les amb el botó Capes a dalt a l’esquerra)
+- Mostrar noms dels marcadors al mapa (activa-ho a Configuració)
 - La icona ✎ permet editar marcadors ràpidament
 
-Organic Maps és possible gràcies als col·laboradors, [les vostres donacions](@/donate/index.ca.md) i [el vostre suport](@/contribute/index.md).
+Organic Maps és possible gràcies als col·laboradors, [les teves donacions](@/donate/index.ca.md) i [el teu suport](@/contribute/index.md).
 
 ### Notes detallades
 
@@ -50,10 +50,10 @@ Organic Maps és possible gràcies als col·laboradors, [les vostres donacions](
 - Corregida actualització de posició en navegació en ROMs personalitzades (ex. Lineage + MicroG) (Viktor Govako)
 - Icona de llapis blau (edició) per a marcadors (Alexander Borsuk)
 - Reduïda alçada vertical de la previsualització d’informació del lloc (Alexander Borsuk)
-- Eliminat angle d’azimut cap al nord de la previsualització (toqueu la fletxa blava amb la distància per veure’l) (Alexander Borsuk)
+- Eliminat angle d’azimut cap al nord de la previsualització (toca la fletxa blava amb la distància per veure’l) (Alexander Borsuk)
 
-Descarregueu l’última versió: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Descarrega l’última versió d’Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Uniu-vos a la beta: [iOS][testflight] / [Android][firebase].
+Uneix-te a la beta: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

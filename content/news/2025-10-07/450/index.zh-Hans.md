@@ -1,73 +1,83 @@
 ---
-title: "10月7日发布：Android Auto 速度限制、GeoJSON 导入等"
+title: "10月7日发布：Android Auto 限速显示、GeoJSON 导入、轨迹录制统计、OSM description 标签显示、在 iOS 上为选中的轨迹保存书签等"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Android Auto 用户现在可以看到速度限制警告。新增 GeoJSON 文件导入功能，可转换为书签。
+这次 10 月 7 日的 Organic Maps 更新新增了 Android Auto 中的限速显示、GeoJSON 导入、轨迹录制统计，可显示 OSM description 标签（在搜索框中输入 `?description` 即可查看），并支持在 iOS 上为轨迹保存书签。此外，所有平台都带来了大量用户界面和 OpenStreetMap 编辑方面的改进以及各种错误修复，包括修复了部分 Android 设备上的启动崩溃问题。
 
-iOS、Android、Android Auto 和桌面版本的各种修复与改进。详见下文。
+Organic Maps 得以存在，要感谢 ❤️ 我们的贡献者、[你的捐赠](@/donate/index.zh-Hans.md)和[你的支持](@/contribute/index.zh-Hans.md)。
 
-您可能错过的近期功能：
-- 全新路线规划界面（iOS）
-- iOS 上的 OSM `description` 标签（搜索 `?description`）
-- 选择公交站时显示公交线路号
-- 徒步与骑行路线（通过左上角"图层"按钮启用）
-- 地图上显示书签名称（在设置中启用）
-- ✎ 图标可快速编辑书签
+### 详细更新日志（包含上一个小版本更新的变更）
 
-Organic Maps 得益于贡献者、[您的捐赠](@/donate/index.zh-Hans.md) 和 [您的支持](@/contribute/index.zh-Hans.md)。
+- 新增！导入 GeoJSON (Sergiy Kozyr)
+- 截至 10 月 4 日的 OpenStreetMap 数据
+- 截至 10 月 1 日的 Wikipedia 数据
+- 公共交通支持西雅图轻轨 (tjasz)
+- 保存已编辑的 OSM 地点时不再取消地图上的选中状态 (Kiryl Kaveryn)
+- 更新翻译 (Weblate 贡献者)
 
-### 详细更新日志
+#### 地图样式
 
-- 截至 10 月 5 日的最新 OpenStreetMap 数据
-- 更新翻译（Weblate 贡献者）
-- 修复无 GNSS 信号时的位置箭头（Viktor Govako）
-
-#### 地图样式（Viktor Govako）
-
-- 重新设计"户外"样式图标
-- 修复水标签颜色
-- 在缩放 16 时显示建筑
-- 从缩放 14 起显示观景台和观景点
-- 通用地图修复与改进
+- 显示标记为 amenity=bicycle + rental=shop 的自行车租赁店 (David Martinez)
+- 在 Outdoor 样式中从缩放级别 12 起显示考古遗址，从缩放级别 15 起显示其他历史遗迹 (Viktor Govako)
+- Outdoors 样式中桅杆、通信塔和电力塔的新图标 (David Martinez)
+- 增大 Outdoors 样式中山峰图标的尺寸 (David Martinez)
+- 补充缺失的 POI 图标变体 (David Martinez)
+- 添加了更多障碍物类型 (Viktor Govako)
 
 #### iOS
 
-- 修复路线点颜色（Alexander Borsuk）
-- 长按菜单改进（Alexander Borsuk）
-- 修复更改单位类型时到达点的时间问题（Viktor Govako）
-- 阻止编辑已删除的对象（Kiryl Kaveryn）
+- 新增：在选中的轨迹点上保存书签 (Kiryl Kaveryn)
+- 新增：无需先保存即可删除正在录制的轨迹 (Kiryl Kaveryn)
+- 在地点页面中以多行显示书签列表标题 (David Martinez)
+- 更新 OSM 登录按钮样式 (Kiryl Kaveryn)
+- 修复导航信息更新问题 (Kiryl Kaveryn)
+- 修复新版路线规划的问题 (Kiryl Kaveryn)
+- 修复地图超过 3 个月时 OSM 添加/编辑地点入口的可见性 (Kiryl Kaveryn)
+- 修复 iOS 26 上出行方式分段控件的布局 (Kiryl Kaveryn)
+- 简化书签选择动画 (Kiryl Kaveryn)
+- 修复搜索结果选择问题 (Kiryl Kaveryn)
+- 修复了地点信息页面的样式、滑动和动画 (Kiryl Kaveryn)
+
+#### Android Auto（仅限 Google Play）
+
+- 新增：Android Auto 中的限速显示 (Andrei Shkrob)
+- 修复 Android Auto 导航模式下的显示切换 (Andrei Shkrob)
+- 修复 Android Auto 中路线箭头的偏移 (Andrei Shkrob)
+- 修复设备与汽车连接/断开时的问题 (Andrei Shkrob)
+- 新增 Android Auto 定位服务 (Andrei Shkrob)
+- 改进 Android Auto 路线模拟器 (Viktor Govako)
 
 #### Android
 
-- 新增：导入 GeoJSON 文件并转换为书签（Andrei Shkrob，Alexander Borsuk）
-- 在"我的位置"下方列出最近的 WiFi 和手机网络（仅限调试版本）（Kiryl Kaveryn）
-- 更新 OSM 登录功能（Viktor Govako）
-- 修复下载地图时的错误消息显示问题（Viktor Govako）
-- 更可靠的 GeoIntent 处理（Alexander Borsuk）
-- 数据迁移 UI 改进（Alexander Borsuk）
-- 分类类别的 UI 改进（Alexander Borsuk）
-- 移除 Google 位置服务（Alexander Borsuk）
-- "城市地址"搜索类别现在为"地址"（Alexander Borsuk）
-- 修复点击搜索结果时可能出现的暗屏问题（Viktor Govako）
-- "附近有什么"搜索中的 UI 调整（Viktor Govako）
-- 修复弹出式对话框不适应深色主题问题（Andrei Shkrob）
-
-#### Android Auto
-
-- 新增：速度限制和速度摄像头警告（Denis Koronchik）
-- 修复路线预览（Andrei Shkrob）
-- 搜索 UI 改进（Andrei Shkrob）
+- 新增：实时查看轨迹录制统计 (Kavi Khalique)
+- 新增：显示 OSM `description` 标签内容 (Alexander Borsuk)
+- 修复主题切换的处理 (Andrei Shkrob)
+- 修复了多个崩溃问题，包括启动时的崩溃 (Andrei Shkrob, Viktor Govako, Alexander Borsuk)
+- 下载进度通知改为静默 (Viktor Govako)
+- 减小铅笔图标的内边距 (Alexander Borsuk)
 
 #### 桌面版
 
-- 地图调整改进（Andrew Shkrob）
-- 修复深色主题下鼠标光标的对比度（Andrew Shkrob）
+- 修复 Linux 上 curl 卡死的问题 (Alexander Borsuk)
+- 修复 macOS 上登录 OSM 时卡死的问题 (Alexander Borsuk)
+- 可从右键菜单中选择地图要素 (Viktor Govako)
+- 新增取消下载的选项 (Viktor Govako)
+- 在右键菜单中显示几何类型 (Viktor Govako)
 
-获取最新版本：[App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、[F-Droid][fdroid]。
+### 你可能错过的近期功能
 
-加入测试版：[iOS][testflight] / [Android][firebase]。
+- 选择公交站时显示公共交通线路号
+- 徒步与骑行路线（通过左上角的“图层”按钮开启）
+- 在应用设置中开启后，即可在地图上查看书签名称
+- ✎ 铅笔图标可快速编辑书签
+
+### 安装 Organic Maps
+
+从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新版 Organic Maps。
+
+加入测试版，抢先体验新功能：[iOS][testflight] / [Android][firebase]。
 
 {{ references() }}

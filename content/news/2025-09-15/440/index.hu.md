@@ -12,8 +12,8 @@ Számos javítást és fejlesztést is tartalmaz iOS-hez és Androidhoz (részle
 Friss funkciók, amelyeket esetleg kihagytál:
 - Tömegközlekedési járatszámok megjelenítése megálló kiválasztásakor
 - Túra- és kerékpár-útvonalak (kapcsold be a Rétegek gombbal bal felül)
-- Jelölők neveinek megjelenítése a térképen (Beállításokban engedélyezhető)
-- A ✎ ikon gyors szerkesztést biztosít a jelölőknél
+- Könyvjelzők neveinek megjelenítése a térképen (kapcsold be a Beállításokban)
+- A ✎ ceruza ikonnal gyorsan szerkesztheted a könyvjelzőket
 
 Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) és [támogatásodnak](@/contribute/index.md) köszönhető.
 
@@ -23,7 +23,7 @@ Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) é
 - Nagyon kicsi szigetek eltávolítva a világtérképről (Viktor Govako)
 - Irányítószám (ZIP) megjelenítése a cím részleteiben (Viktor Govako)
 - Hibás térkép-középre igazítás javítva az aktuális pozícióra (Kiryl Kaveryn, Viktor Govako)
-- Jelölőszínek megőrzése GPX export/import során (cyber-toad)
+- Könyvjelzőszínek megőrzése GPX export/import során (cyber-toad)
 - Frissített fordítások (Weblate közreműködők)
 
 #### Térképstílusok (Viktor Govako)
@@ -44,15 +44,15 @@ Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) é
 #### Android
 
 - Új körforgalom ikonok Android Auto-ban (Andrei Shkrob)
-- Kiválasztott jelölő kategóriájának megjelenítése (Alexander Borsuk)
-- Késleltetés javítása jelölő távolságának megjelenítésénél (Alexander Borsuk)
+- Kiválasztott könyvjelző kategóriájának megjelenítése (Alexander Borsuk)
+- Késleltetés javítása a könyvjelző távolságának megjelenítésénél (Alexander Borsuk)
 - Újrastrukturált sötét téma (Andrei Shkrob)
 - Pozíciófrissítési hiba javítva navigációban egyedi ROM-okon (pl. Lineage + MicroG) (Viktor Govako)
-- Kék ceruza (szerkesztés) ikon jelölőkhöz (Alexander Borsuk)
+- Kék ceruza (szerkesztés) ikon a könyvjelzőkhöz (Alexander Borsuk)
 - Helyinformáció-előnézet függőleges magasságának csökkentése (Alexander Borsuk)
-- Észak felé mutató azimut szög eltávolítva az előnézetből (kék nyíl érintésével megtekinthető) (Alexander Borsuk)
+- Észak felé mutató azimut szög eltávolítva az előnézetből (érintsd meg a távolságot mutató kék nyilat, ha látni szeretnéd) (Alexander Borsuk)
 
-Töltsd le a legújabb verziót: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Töltsd le a legújabb Organic Maps verziót: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Csatlakozz a béta teszteléshez: [iOS][testflight] / [Android][firebase].
 

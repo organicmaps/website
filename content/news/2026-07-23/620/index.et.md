@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Nagu te ehk juba märkasite, on Organic Mapsi juulivärskendus väljas. Laadige see alla aadressilt <https://get.omaps.org> või poodidest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
+Nagu sa ehk juba märkasid, on Organic Mapsi juulivärskendus väljas. Laadi see alla aadressilt <https://get.omaps.org> või poodidest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
 
-Tänu teie [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/index.et.md) keskendusime juulis veaparandustele ja täiustustele. Juhul, kui see jäi teil märkamata, on saadaval ka järgmised funktsioonid [eelmisest juuni versioonist](@/news/2026-06-29/610/index.et.md):
+Tänu sinu [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/index.et.md) keskendusime juulis veaparandustele ja täiustustele. Juhul, kui see jäi sul märkamata, on saadaval ka järgmised funktsioonid [eelmisest juuni versioonist](@/news/2026-06-29/610/index.et.md):
 - Ühistranspordi marsruudid (reaalajas sõiduplaanid on väljatöötamisel)
 - Satelliidipildid
 - Alternatiivsed marsruudid autoga sõitmiseks, matkamiseks ja jalgrattasõiduks
@@ -21,7 +21,7 @@ Tänu teie [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 
 ### Kaart ja kohad
 - OpenStreetMapi andmed on ajakohastatud seisuga 14. juuli
-- [OpenStreetMapi](https://www.openstreetmap.org) edastatud märkused paigutatakse nüüd täpselt teie valitud kohale, mitte enam kogu tänava või piirkonna keskele _(Alexander Borsuk)_
+- [OpenStreetMapi](https://www.openstreetmap.org) edastatud märkused paigutatakse nüüd täpselt sinu valitud kohale, mitte enam kogu tänava või piirkonna keskele _(Alexander Borsuk)_
 - Parandatud kohavalik kaardile koputamisel piirkondades, mis ületavad 180° antimeridiaani _(Viktor Govako)_
 - Radade kõrgusprofiilides ei kuvata enam aegunud ega tühje graafikuid pärast raja kustutamist _(Kiryl Kaveryn)_
 
@@ -36,10 +36,10 @@ Tänu teie [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 - Parandati valesid ja puuduvaid pööramisjuhiseid _(Alexander Borsuk)_
 
 ### iOS
-- Uus säte „Salvesta otsinguajalugu“, mis võimaldab ajaloo välja lülitada ja peita, kui te seda pigem säilitada ei soovi _(Kiryl Kaveryn)_
+- Uus säte „Salvesta otsinguajalugu“, mis võimaldab ajaloo välja lülitada ja peita, kui sa seda pigem säilitada ei soovi _(Kiryl Kaveryn)_
 - Uus nupp „Muuda“, mis võimaldab järjehoidjaid hõlpsamalt eemaldada _(Kiryl Kaveryn)_
-- Järjehoidjad salvestatakse nüüd automaatselt, kui ekraanilt lahkute _(Kiryl Kaveryn)_
-- Värvipalett pakub nüüd eeldefineeritud värve ja võimaldab teil valida mistahes kohandatud värvi _(Kiryl Kaveryn)_
+- Järjehoidjad salvestatakse nüüd automaatselt, kui ekraanilt lahkud _(Kiryl Kaveryn)_
+- Värvipalett pakub nüüd eeldefineeritud värve ja võimaldab sul valida mis tahes kohandatud värvi _(Kiryl Kaveryn)_
 - Parandati salvestatud raja kõrgusgraafiku tühja olekut _(Kiryl Kaveryn)_
 - Parandati „Start“-nupul kuvatavat marsruudi edenemist _(Kiryl Kaveryn)_
 - Marsruudi peatuste järjekorra muutmine ei põhjusta enam nimekirja hüppamist _(Kiryl Kaveryn)_
@@ -61,7 +61,7 @@ Tänu teie [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 - Ajakohastatud ukrainakeelsed tõlked _(Nnifria)_
 - Parandati kaardipiirkondade nimede itaaliakeelseid tõlkeid _(Vittorio Bertola)_
 
-## Liituge beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:
+## Liitu beetatestimisega, et proovida uusi funktsioone varakult ja anda teada probleemidest:
 
 Vihje: beetaversioonis on uus reljeefivarjutus, täiustatud kõrgusandmed, mis toetavad nii jalgu kui ka meetreid, ning muud lahedad funktsioonid!
 

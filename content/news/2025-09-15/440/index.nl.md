@@ -12,8 +12,8 @@ Er zijn ook veel verbeteringen en oplossingen voor iOS en Android (details hiero
 Recente functies die je misschien gemist hebt:
 - Lijnnummers van openbaar vervoer bij selectie van een halte
 - Wandel- en fietsroutes (schakel ze in via de knop Lagen linksboven)
-- Naamn van markeringen op de kaart tonen (inschakelen in Instellingen)
-- Het ✎-pictogram maakt snel bewerken van markeringen mogelijk
+- Namen van bladwijzers op de kaart tonen (inschakelen in Instellingen)
+- Het ✎-pictogram maakt snel bewerken van bladwijzers mogelijk
 
 Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index.nl.md) en [jouw steun](@/contribute/index.md).
 
@@ -23,7 +23,7 @@ Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index
 - Zeer kleine eilanden van de wereldkaart verwijderd (Viktor Govako)
 - Postcode (ZIP) tonen in adresdetails (Viktor Govako)
 - Onjuiste centrering op huidige positie verholpen (Kiryl Kaveryn, Viktor Govako)
-- Marker-kleuren behouden bij exporteren/importeren van GPX (cyber-toad)
+- Bladwijzerkleuren behouden bij exporteren/importeren van GPX (cyber-toad)
 - Bijgewerkte vertalingen (Weblate-bijdragers)
 
 #### Kaartstijlen (Viktor Govako)
@@ -44,16 +44,16 @@ Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index
 #### Android
 
 - Nieuwe rotondepictogrammen in Android Auto (Andrei Shkrob)
-- Categorie van geselecteerde markering tonen (Alexander Borsuk)
-- Vertraging bij tonen afstand naar markering verholpen (Alexander Borsuk)
+- Categorie van geselecteerde bladwijzer tonen (Alexander Borsuk)
+- Vertraging bij tonen van afstand tot een bladwijzer verholpen (Alexander Borsuk)
 - Donker thema herzien (Andrei Shkrob)
 - Positie-update probleem in navigatie op custom ROM's verholpen (bv. Lineage + MicroG) (Viktor Govako)
-- Blauw potloodpictogram (bewerken) voor markeringen (Alexander Borsuk)
+- Blauw potloodpictogram (bewerken) voor bladwijzers (Alexander Borsuk)
 - Verticale hoogte plaatsinfo-voorbeeld verminderd (Alexander Borsuk)
-- Azimut naar het noorden verwijderd uit voorbeeld (tik op blauwe pijl met afstand om te zien) (Alexander Borsuk)
+- Azimut naar het noorden verwijderd uit het voorbeeld (tik op de blauwe pijl met de afstand om het te zien) (Alexander Borsuk)
 
-Download de nieuwste versie: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Haal de nieuwste Organic Maps-versie op uit de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
-Doe mee aan de bèta: [iOS][testflight] / [Android][firebase].
+P.S. Doe mee met bètatesten voor vroege toegang tot nieuwe functies: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

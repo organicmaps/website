@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-ഹോട്ട്ഫിക്സുകളും Google Play അവലോകനവും കാരണം മാർച്ച് Organic Maps അപ്‌ഡേറ്റിന് കൂടുതൽ സമയം ആവശ്യമായി. Accrescent ആപ്പ് സ്റ്റോർ പ്രശ്നങ്ങൾ കാരണം [Accrescent][accrescent] അപ്‌ഡേറ്റ് ഇനിയും തയ്യാറായിട്ടില്ല. അപ്‌ഡേറ്റ് <https://get.omaps.org>-ൽ അല്ലെങ്കിൽ [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], കൂടാതെ [F-Droid][fdroid]-ൽ നേടുക.
+ഹോട്ട്ഫിക്സുകളും Google Play അവലോകനവും കാരണം മാർച്ച് Organic Maps അപ്‌ഡേറ്റിന് കൂടുതൽ സമയം ആവശ്യമായി. Accrescent ആപ്പ് സ്റ്റോർ പ്രശ്നങ്ങൾ കാരണം [Accrescent][accrescent] അപ്‌ഡേറ്റ് ഇനിയും തയ്യാറായിട്ടില്ല. അപ്‌ഡേറ്റ് <https://get.omaps.org>-ൽ അല്ലെങ്കിൽ [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], കൂടാതെ [F-Droid][fdroid]-ൽ നേടൂ.
 
-കുറിപ്പ്: നിങ്ങളുടെ പ്രോജക്ടുകളിൽ ഓഫ്‌ലൈൻ മാപ്പുകളോടുകൂടിയ iOS/Android/Linux/MacOS/Windows SDK-യിൽ താൽപ്പര്യമുണ്ടെങ്കിൽ <sdk@organicmaps.app> എന്ന ഇമെയിലിൽ ഞങ്ങളെ ബന്ധപ്പെടുക.
+കുറിപ്പ്: നിന്റെ പ്രോജക്ടുകളിൽ ഓഫ്‌ലൈൻ മാപ്പുകളോടുകൂടിയ iOS/Android/Linux/MacOS/Windows SDK-യിൽ താൽപ്പര്യമുണ്ടെങ്കിൽ <sdk@organicmaps.app> എന്ന ഇമെയിലിൽ ഞങ്ങളെ ബന്ധപ്പെടൂ.
 
-രണ്ടാം കുറിപ്പ്: Organic Maps ആപ്പ് കൂടി ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ നിങ്ങളുടെ ആപ്പിൽ ഉപയോഗിക്കാവുന്ന API-യെക്കുറിച്ച് നിങ്ങൾക്കറിയാമോ? ഇവിടെ പരിശോധിക്കുക: <https://omaps.app/api>
+രണ്ടാം കുറിപ്പ്: Organic Maps ആപ്പ് കൂടി ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ നിന്റെ ആപ്പിൽ ഉപയോഗിക്കാവുന്ന API-യെക്കുറിച്ച് നിനക്കറിയാമോ? ഇവിടെ പരിശോധിക്കൂ: <https://omaps.app/api>
 
 ### റിലീസ് കുറിപ്പുകൾ
 * മാർച്ച് 10 പ്രകാരമുള്ള OSM മാപ്പ് ഡാറ്റ
@@ -40,7 +40,7 @@ taxonomies:
 * Weblate സന്നദ്ധപ്രവർത്തകരിൽ നിന്നുള്ള വിവർത്തനങ്ങൾ അപ്‌ഡേറ്റ് ചെയ്തു (Viktor Govako)
 * ഉക്രേനിയൻ വിവർത്തനം ശരിയാക്കി (Nnifria)
 
-നേരത്തെയുള്ള ഫീച്ചറുകൾ പരീക്ഷിക്കുന്നതിനും പ്രശ്നങ്ങൾ റിപ്പോർട്ടുചെയ്യുന്നതിനും ബീറ്റ ടെസ്റ്റിംഗിൽ ചേരുക:
+നേരത്തെയുള്ള ഫീച്ചറുകൾ പരീക്ഷിക്കുന്നതിനും പ്രശ്നങ്ങൾ റിപ്പോർട്ടുചെയ്യുന്നതിനും ബീറ്റ ടെസ്റ്റിംഗിൽ ചേരൂ:
 - [iOS][testflight]
 - [Android][firebase]
 

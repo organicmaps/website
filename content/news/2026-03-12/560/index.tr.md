@@ -6,28 +6,28 @@ taxonomies:
   news: ["releases"]
 ---
 
-Mart Organic Maps güncellemesi, düzeltmeler ve Google Play incelemesi nedeniyle daha fazla zaman aldı. [Accrescent][accrescent] güncellemesi, Accrescent uygulama mağazası sorunları nedeniyle hala hazır değil. Güncellemeyi <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] adreslerinden edinin.
+Mart Organic Maps güncellemesi, acil düzeltmeler ve Google Play incelemesi nedeniyle daha fazla zaman aldı. [Accrescent][accrescent] güncellemesi, Accrescent uygulama mağazası sorunları nedeniyle hala hazır değil. Güncellemeyi <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] adreslerinden edin.
 
-Not: Projelerinizde yeniden kullanabileceğiniz çevrimdışı haritalara sahip iOS/Android/Linux/MacOS/Windows SDK ile ilgileniyorsanız <sdk@organicmaps.app> e-posta adresinden bize ulaşın.
+Not: Projelerinde yeniden kullanabileceğin çevrimdışı haritalara sahip iOS/Android/Linux/MacOS/Windows SDK ile ilgileniyorsan <sdk@organicmaps.app> e-posta adresinden bize ulaş.
 
-Not: Organic Maps uygulaması da yüklüyse uygulamanızda zaten kullanabileceğiniz API'yi biliyor muydunuz? Buradan kontrol edin: <https://omaps.app/api>
+Ayrıca: Organic Maps uygulaması da yüklüyse kendi uygulamanda hemen kullanabileceğin API'yi biliyor muydun? Buradan bak: <https://omaps.app/api>
 
 ### Sürüm notları
 * OSM harita verileri 10 Mart itibariyle
 * Wikipedia verileri 1 Mart itibariyle
-* Çin eyaletleri için daha ayrıntılı yükseklik izolatları (ZiyiGaoCN)
+* Çin eyaletleri için daha ayrıntılı yükseklik izolinleri (ZiyiGaoCN)
 * Koşullu hız sınırları için destek eklendi (Abdelhadi Wael, Viktor Govako)
 * Deri dükkanları ve dini ürünler satan dükkanlar eklendi (Viktor Govako)
 * Ağaç sıraları eklendi (Viktor Govako)
 * Yakınında otobüs durağı olmayan toplu taşıma durak platformları eklendi (Viktor Govako)
-* Tanzanya'yı daha küçük bölgelere ayırmak (Emile Villette, Viktor Govako)
+* Tanzanya daha küçük bölgelere ayrıldı (Emile Villette, Viktor Govako)
 * Ülke indirme ilerleme hesaplaması düzeltildi (Kiryl Kaveryn)
 * Birkaç çökme düzeltildi, kararlılık ve performans iyileştirildi (Alexander Borsuk, Viktor Govako)
 
 ### iOS
 * Editör'e son kullanılan kategoriler geçmişi eklendi (Rahul Kolluru)
 * Rota planlama ekranında geliştirilmiş yukarı kaydırma hareketi (Kiryl Kaveryn)
-* CarPlay için sabit cetvel konumu (Kiryl Kaveryn)
+* CarPlay için cetvel konumu düzeltildi (Kiryl Kaveryn)
 
 ### Android
 * İşyeri açılış saatlerinin daha iyi gösterilmesi (Anton P)
@@ -35,12 +35,12 @@ Not: Organic Maps uygulaması da yüklüyse uygulamanızda zaten kullanabileceğ
 
 ### Çeviriler
 * Geliştirilmiş ülke açıklamaları (alnzrv)
-* Eugen Dedu tarafından yapılan uygulamalı Romence çeviri düzeltmeleri (Alexander Borsuk)
+* Eugen Dedu tarafından yapılan Romence çeviri düzeltmeleri uygulandı (Alexander Borsuk)
 * Güncellenmiş ülke adları (Viktor Govako)
 * Weblate katılımcılarından güncellenmiş çeviriler (Viktor Govako)
 * Ukraynaca çeviri düzeltildi (Nnifria)
 
-İlk özellikleri denemek ve sorunları bildirmek için beta testine katılın:
+Yeni özellikleri erkenden denemek ve sorunları bildirmek için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase]
 

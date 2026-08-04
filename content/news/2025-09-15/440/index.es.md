@@ -43,7 +43,7 @@ Organic Maps es posible gracias a nuestros colaboradores, [tus donaciones](@/don
 
 #### Android
 
-- Nuevos íconos de rotondas en Android Auto (Andrei Shkrob)
+- Nuevos iconos de rotondas en Android Auto (Andrei Shkrob)
 - Mostrar categoría del marcador seleccionado (Alexander Borsuk)
 - Corregido retraso al mostrar distancia a un marcador (Alexander Borsuk)
 - Tema oscuro reestructurado (Andrei Shkrob)
@@ -52,8 +52,8 @@ Organic Maps es posible gracias a nuestros colaboradores, [tus donaciones](@/don
 - Reducido espacio vertical en la vista previa de información del lugar (Alexander Borsuk)
 - Eliminado ángulo de acimut hacia el norte en la vista previa (toca la flecha azul con la distancia para verlo) (Alexander Borsuk)
 
-Obtén la última versión: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Obtén la última versión de Organic Maps: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Únete a las betas: [iOS][testflight] / [Android][firebase].
+Únete a la beta: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

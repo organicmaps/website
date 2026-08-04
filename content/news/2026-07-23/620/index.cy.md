@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Fel rydych chi efallai wedi sylwi'n barod, mae diweddariad Gorffennaf o Organic Maps allan. Gallwch ei gael yn <https://get.omaps.org> neu ar y [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Fel rwyt ti efallai wedi sylwi'n barod, mae diweddariad Gorffennaf o Organic Maps allan. Gelli ei gael yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
-Diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [adborth](@/contribute/index.cy.md), ym mis Gorffennaf fe wnaethom ganolbwyntio ar drwsio namau a gwelliannau. Rhag ofn i chi ei golli, mae'r nodweddion canlynol o'r [fersiwn Mehefin flaenorol](@/news/2026-06-29/610/index.cy.md) hefyd ar gael:
+Diolch i dy [roddion](@/donate/index.cy.md) a dy [adborth](@/contribute/index.cy.md), ym mis Gorffennaf fe wnaethom ganolbwyntio ar drwsio namau a gwelliannau. Rhag ofn i ti ei golli, mae'r nodweddion canlynol o'r [fersiwn Mehefin flaenorol](@/news/2026-06-29/610/index.cy.md) hefyd ar gael:
 - Llwybrau trafnidiaeth gyhoeddus (mae amserlenni byw yn cael eu datblygu)
 - Delweddau lloeren
 - Llwybrau amgen ar gyfer gyrru, heicio a beicio
@@ -21,13 +21,13 @@ Diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [adborth](@/contribute/index.c
 
 ### Map a lleoedd
 - Data OpenStreetMap wedi'u diweddaru ar 14 Gorffennaf
-- Mae nodiadau a adroddir i [OpenStreetMap](https://www.openstreetmap.org) bellach yn cael eu gosod ar yr union fan a ddewisoch, yn hytrach na chanol y stryd neu'r ardal gyfan _(Alexander Borsuk)_
-- Gwell dewis lleoedd wrth dapio'r map mewn rhanbarthau sy'n croesi meridian 180° _(Viktor Govako)_
+- Mae nodiadau a adroddir i [OpenStreetMap](https://www.openstreetmap.org) bellach yn cael eu gosod ar yr union fan a ddewisaist, yn hytrach na chanol y stryd neu'r ardal gyfan _(Alexander Borsuk)_
+- Gwell dewis lleoedd wrth dapio'r map mewn rhanbarthau sy'n croesi'r antimeridian 180° _(Viktor Govako)_
 - Nid yw proffiliau uchder traciau bellach yn dangos siartiau darfodedig na rhai gwag ar ôl dileu trac _(Kiryl Kaveryn)_
 
 ### Trafnidiaeth gyhoeddus
 - Mae gan enwau arosfannau, cyfnewidfeydd a gorsafoedd amlinelliad gwyn bellach er mwyn aros yn ddarllenadwy mewn themâu golau a thywyll _(Viktor Govako)_
-- Mae haen y metro yn ailymddangos yn gywir ar ôl i chi gau rhagolwg llwybr trafnidiaeth gyhoeddus _(Mikhail Listratsenka)_
+- Mae haen y metro yn ailymddangos yn gywir ar ôl i ti gau rhagolwg llwybr trafnidiaeth gyhoeddus _(Mikhail Listratsenka)_
 
 ### Cynllunio llwybrau a llywio
 - Mae rhybuddion llwybr (tollau, fferïau, ffyrdd heb eu palmantio, grisiau, ac ati) bellach yn cael eu dangos ar gyfer pob llwybr amgen _(Viktor Govako)_
@@ -36,10 +36,10 @@ Diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [adborth](@/contribute/index.c
 - Cywirwyd cyfarwyddiadau troi anghywir a rhai coll _(Alexander Borsuk)_
 
 ### iOS
-- Gosodiad newydd ‘Cadw hanes chwiliadau’ sy'n eich galluogi i ddiffodd yr hanes a'i guddio os byddai'n well gennych beidio â'i gadw _(Kiryl Kaveryn)_
+- Gosodiad newydd ‘Cadw hanes chwiliadau’ sy'n dy alluogi i ddiffodd yr hanes a'i guddio os byddai'n well gennyt beidio â'i gadw _(Kiryl Kaveryn)_
 - Botwm ‘Golygu’ newydd i ddileu nodau tudalen yn haws _(Kiryl Kaveryn)_
-- Mae nodau tudalen bellach yn cael eu cadw'n awtomatig pan fyddwch chi'n gadael y sgrin _(Kiryl Kaveryn)_
-- Mae'r palet lliwiau bellach yn cynnig lliwiau a ddiffinnir ymlaen llaw ac yn eich galluogi i ddewis unrhyw liw pwrpasol _(Kiryl Kaveryn)_
+- Mae nodau tudalen bellach yn cael eu cadw'n awtomatig pan fyddi di'n gadael y sgrin _(Kiryl Kaveryn)_
+- Mae'r palet lliwiau bellach yn cynnig lliwiau a ddiffinnir ymlaen llaw ac yn dy alluogi i ddewis unrhyw liw pwrpasol _(Kiryl Kaveryn)_
 - Gwellwyd cyflwr gwag y siart uchder ar gyfer trac wedi'i gofnodi _(Kiryl Kaveryn)_
 - Gwellwyd y cynnydd ar y llwybr a ddangosir ar y botwm ‘Cychwyn’ _(Kiryl Kaveryn)_
 - Nid yw aildrefnu arosfannau'r llwybr bellach yn gwneud i'r rhestr neidio o gwmpas _(Kiryl Kaveryn)_
@@ -61,7 +61,7 @@ Diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [adborth](@/contribute/index.c
 - Cyfieithiadau Wcreinaidd wedi'u diweddaru _(Nnifria)_
 - Cywirwyd cyfieithiadau Eidaleg o enwau rhanbarthau map _(Vittorio Bertola)_
 
-## Ymunwch â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:
+## Ymuna â'r profi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:
 
 Awgrym: mae gan y fersiwn beta gysgodi bryniau newydd, data uchder gwell gyda chefnogaeth i droedfeddi a metrau, a nodweddion cŵl eraill!
 

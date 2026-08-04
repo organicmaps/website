@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Diolch i'n cyfranwyr, **mae dydd Gwener yn amser da i ddiweddaru Organic Maps!** Mynnwch y diweddariad yn [https://get.omaps.org](https://get.omaps.org) neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Diolch i'n cyfranwyr, **mae dydd Gwener yn amser da i ddiweddaru Organic Maps!** Mynna'r diweddariad yn [https://get.omaps.org](https://get.omaps.org) neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
-Os ydych chi eisiau gweld **amserlenni trafnidiaeth gyhoeddus amser real** yn eich dinas yn un o'r diweddariadau sydd i ddod, os gwelwch yn dda:
+Os wyt ti eisiau gweld **amserlenni trafnidiaeth gyhoeddus amser real** yn dy ddinas yn un o'r diweddariadau sydd i ddod, gwna'r canlynol:
 
-1. [Anfonwch atom](https://github.com/organicmaps/gtfs-osm-matcher/issues) ffynonellau **bwyd anifeiliaid GTFS statig ac amser real** o'ch asiantaethau trafnidiaeth lleol fel y gallwn eu profi a'u hintegreiddio.
-2. Gwiriwch a yw **data OpenStreetMap** yn eich ardal yn cynnwys pob safle bws/tram/trên gyda'r tagiau angenrheidiol yn [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Anfona atom](https://github.com/organicmaps/gtfs-osm-matcher/issues) **ffynonellau ffrydiau GTFS statig ac amser real** o dy asiantaethau trafnidiaeth lleol fel y gallwn eu profi a'u hintegreiddio.
+2. Gwiria a yw **data OpenStreetMap** yn dy ardal yn cynnwys pob safle bws/tram/trên gyda'r tagiau angenrheidiol yn [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Nodiadau rhyddhau
 
@@ -24,8 +24,8 @@ Os ydych chi eisiau gweld **amserlenni trafnidiaeth gyhoeddus amser real** yn ei
 * Gwellwyd safle canlyniadau chwilio ar gyfer categorïau (Viktor Govako)
 * Ychwanegwyd bwyd Wsbec (alnzrv)
 * Ychwanegwyd llinellau gwifren (zip lines) ar y map (Rawdyrathaur)
-* Trwsio dolenni Wikimedia gyda "?" yn y teitl (alnzrv)
-* Cefnogi ffeiliau GPX gyda "+" mewn cyfesurynnau (Alexander Borsuk)
+* Trwsio dolenni Wikimedia gyda ‘?’ yn y teitl (alnzrv)
+* Cefnogi ffeiliau GPX gyda ‘+’ mewn cyfesurynnau (Alexander Borsuk)
 
 ### iOS
 
@@ -57,11 +57,11 @@ Os ydych chi eisiau gweld **amserlenni trafnidiaeth gyhoeddus amser real** yn ei
 * Diweddarwyd cyfieithiadau gan gyfranwyr Weblate (Viktor Govako)
 
 
-Ymunwch â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
+Ymuna â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
 - [iOS][testflight]
 - [Android][firebase]
 
-Mae pob [rhodd](@/donate/index.cy.md) ac [cyfraniad](@/contribute/index.cy.md) yn ein helpu i adeiladu dewis arall gwell, sy'n canolbwyntio ar breifatrwydd, yn lle Apple a Google Maps.
+Mae pob [rhodd](@/donate/index.cy.md) a [chyfraniad](@/contribute/index.cy.md) yn ein helpu i adeiladu dewis arall gwell, sy'n canolbwyntio ar breifatrwydd, yn lle Apple a Google Maps.
 
 Gyda gofal a chariad,
 Tîm Organic Maps

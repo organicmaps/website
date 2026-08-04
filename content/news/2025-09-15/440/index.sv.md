@@ -12,8 +12,8 @@ Den innehåller också många fixar och förbättringar för iOS och Android (de
 Nya funktioner du kanske missat:
 - Linjenummer för kollektivtrafik när du väljer en hållplats
 - Vandrings- och cykelleder (aktivera via knappen Lager uppe till vänster)
-- Visa markörnamn på kartan (aktivera i Inställningar)
-- ✎-ikonen gör snabb redigering av markörer möjlig
+- Visa bokmärkesnamn på kartan (aktivera i Inställningar)
+- ✎-ikonen gör snabb redigering av bokmärken möjlig
 
 Organic Maps är möjlig tack vare våra bidragsgivare, [dina donationer](@/donate/index.sv.md) och [ditt stöd](@/contribute/index.md).
 
@@ -23,7 +23,7 @@ Organic Maps är möjlig tack vare våra bidragsgivare, [dina donationer](@/dona
 - Mycket små öar borttagna från världskartan (Viktor Govako)
 - Visa postnummer (ZIP) i adressdetaljer (Viktor Govako)
 - Felaktig kartcentrering på aktuell position fixad (Kiryl Kaveryn, Viktor Govako)
-- Behåll markörfärger vid export/import av GPX (cyber-toad)
+- Behåll bokmärkesfärger vid export/import av GPX (cyber-toad)
 - Uppdaterade översättningar (Weblate-bidragsgivare)
 
 #### Kartstilar (Viktor Govako)
@@ -44,16 +44,16 @@ Organic Maps är möjlig tack vare våra bidragsgivare, [dina donationer](@/dona
 #### Android
 
 - Nya rondell-ikoner i Android Auto (Andrei Shkrob)
-- Visa kategori för vald markör (Alexander Borsuk)
-- Fördröjning vid visning av avstånd till markör fixad (Alexander Borsuk)
+- Visa kategori för valt bokmärke (Alexander Borsuk)
+- Fördröjning vid visning av avstånd till bokmärke fixad (Alexander Borsuk)
 - Omstrukturerat mörkt tema (Andrei Shkrob)
 - Positionsuppdateringsproblem i navigering på anpassade ROM:ar fixat (t.ex. Lineage + MicroG) (Viktor Govako)
-- Blå penna (redigera)-ikon för markörer (Alexander Borsuk)
-- Minskad vertikal höjd på platsinföregivning (Alexander Borsuk)
-- Azimutvinkel mot norr borttagen från förhandsvisning (tryck blå pil) (Alexander Borsuk)
+- Blå penn-ikon (redigera) för bokmärken (Alexander Borsuk)
+- Minskad vertikal höjd på förhandsvisningen av platsinformation (Alexander Borsuk)
+- Azimutvinkel mot norr borttagen från förhandsvisningen (tryck på den blå pilen med avståndet för att se den) (Alexander Borsuk)
 
-Hämta senaste versionen: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Hämta den senaste versionen av Organic Maps från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid].
 
-Gå med i betan: [iOS][testflight] / [Android][firebase].
+P.S. Gå med i betatestningen för tidig tillgång till nya funktioner: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

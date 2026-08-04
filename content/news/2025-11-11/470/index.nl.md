@@ -8,11 +8,11 @@ taxonomies:
 
 ## Release-opmerkingen
 
-### Alle platforms
-
 - *NIEUW!* Gemarkeerde gedownloade regio's op de Wereldkaart (Viktor Govako)
 - *NIEUW!* Bekijk en zoek naar natuurreservaten, nationale parken, beschermde gebieden, Aboriginal-landen, gevarenzones en meren op de Wereldkaart vanaf zoomniveau 8 (Viktor Govako)
 - *NIEUW!* Routering ondersteunt nu tijden van wegafsluitingen (Viktor Govako)
+
+### Alle platforms
 
 - OpenStreetMap-gegevens per 9 november 2025 (Viktor Govako)
 - Een probleem opgelost met standaard en gelokaliseerde straatnamen bij het bewerken van adressen en het uploaden van wijzigingen naar OpenStreetMap (Viktor Govako)
@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Na het verwijderen van een bladwijzerlijst of sporenlijst (via de knop "Meer"), keert de app nu correct terug naar het vorige scherm (Kiryl Kaveryn)
-- Sociale media-links voor [TikTok][tiktok], [Threads][threads] en [Bluesky][bluesky] toegevoegd aan het "Over"-scherm (Kiryl Kaveryn)
-- "Een bug rapporteren" toegevoegd aan de snelle acties van het app-icoon op het startscherm (Kiryl Kaveryn)
+- Na het verwijderen van een bladwijzerlijst of tracklijst (via de knop “Meer”), keert de app nu correct terug naar het vorige scherm (Kiryl Kaveryn)
+- Sociale media-links voor [TikTok][tiktok], [Threads][threads] en [Bluesky][bluesky] toegevoegd aan het “Over”-scherm (Kiryl Kaveryn)
+- “Een bug rapporteren” toegevoegd aan de snelle acties van het app-pictogram op het startscherm (Kiryl Kaveryn)
 - Diverse app- en CarPlay-crashes opgelost (Kiryl Kaveryn)
 
 ### Android
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto gebruikt altijd de autoroute-modus (Andrei Shkrob)
 - Gebruik traditionele Chinese vertalingen voor de regio's Hongkong (zh-HK) en Macau (zh-MO) (Alexander Borsuk)
 
-Laat het ons weten als u Organic Maps kunt draaien op x86-apparaten (inclusief Chromebooks) met ondersteuning voor OpenGL ES 3.
+Laat het ons weten als je Organic Maps kunt draaien op x86-apparaten (inclusief Chromebooks) met ondersteuning voor OpenGL ES 3.
 
 ### Kaart & Stijlen
 
@@ -60,7 +60,7 @@ Laat het ons weten als u Organic Maps kunt draaien op x86-apparaten (inclusief C
 - Een instelling toegevoegd om het markeren van gedownloade regio's op de kaart in of uit te schakelen (Viktor Govako)
 
 
-Vorige release-opmerkingen: https://organicmaps.app/nl/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/
+Vorige release-opmerkingen: [organicmaps.app/nl/news/2025-10-23](https://organicmaps.app/nl/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
 Download de nieuwste versie van Organic Maps via de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 

@@ -12,14 +12,24 @@ Sono state introdotte diverse funzionalità notevoli, tra cui [percorsi escursio
 Quest'anno, abbiamo ottenuto una crescita ancora più forte nella nostra base di installazioni rispetto agli anni precedenti, chiudendo l'anno con un totale storico di quasi 2 milioni di download sull'App Store e quasi 3 milioni di download su Google Play, con i paesi europei e nordamericani in cima alla lista. Stimiamo almeno 1 milione in più di download e installazioni di Organic Maps per Android da altre fonti, portando il totale a circa ***6 milioni di download su tutte le piattaforme*** dal lancio dell'app 5 anni fa.
 
 Altri risultati notevoli nel 2025 includono:
+
+
+#### Statistiche GitHub
+
 - 1K [Pull Request](https://github.com/organicmaps/organicmaps/pulls) create e 808 unite nel 2025 su un totale di 5K.
 - 800 [nuovi problemi][github issues] creati e 482 risolti/chiusi nel 2025 su un totale di 6K.
 - [1.5K commit](https://github.com/organicmaps/organicmaps/commits) da 100 collaboratori nel 2025 su un totale di 8.6K commit dall'inizio del progetto nel 2020.
 - Il progetto ha raggiunto 1244 fork e 12411 stelle [su GitHub][github], indicando un forte interesse degli sviluppatori e un utilizzo nel mondo reale.
+
+#### Valutazioni negli store e coinvolgimento degli utenti
+
 - Nel corso del 2025, le valutazioni totali sull'App Store sono aumentate da 4.1K a 11.1K, il che significa che l'app ha ricevuto più del doppio delle nuove valutazioni nel 2025 rispetto a tutti gli anni precedenti messi insieme, riflettendo un forte apprezzamento da parte vostra, i nostri amati utenti.
 - Anche gli utenti Android hanno mostrato un maggiore coinvolgimento, con 5.3K nuove valutazioni nel 2025, raggiungendo un totale di 16.5K ❤️
 - Abbiamo inviato 4K e-mail di supporto e risposto a 2.5K recensioni su Google Play e App Store nel 2025.
 - 10 petabyte di dati cartografici sono stati scaricati dagli utenti di tutto il mondo dai nostri server nel 2025.
+
+#### Social media e comunità
+
 - Grazie a voi, anche le nostre statistiche sui social media stanno crescendo (seguiteci se non l'avete già fatto! 😊):
    - [13K su Fosstodon][FOSStodon]
    - [6K su Telegram][telegram]

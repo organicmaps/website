@@ -6,16 +6,16 @@ taxonomies:
   news: ["releases"]
 ---
 
-又一个 Organic Maps 5 月更新来了，其中包含修复和改进（详情见下）。Organic Maps 团队感谢所有支持该项目的人，感谢您的[捐赠](@/donate/index.zh-Hans.md)、传播口碑、撰写好评以及[贡献](@/contribute/index.zh-Hans.md)。更多新功能即将推出，包括改进的[公共交通](@/news/2026-05-08/580/index.zh-Hans.md)，敬请关注！
+又一个 Organic Maps 5 月更新来了，其中包含修复和改进（详情见下）。Organic Maps 团队感谢所有支持该项目的人，感谢你的[捐赠](@/donate/index.zh-Hans.md)、传播口碑、撰写好评以及[贡献](@/contribute/index.zh-Hans.md)。更多新功能即将推出，包括改进的[公共交通](@/news/2026-05-08/580/index.zh-Hans.md)，敬请关注！
 
 请通过 <https://get.omaps.org> 或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 以及 [F-Droid][fdroid] 获取更新。
 
 ### 所有平台
 
 - OSM 截至 2026 年 5 月 27 日的地图数据 _(Viktor Govako)_
-- 新增澳大利亚和新西兰路盾 _(Viktor Govako)_
 - 新增滚球、自行车和赛车场所的图标 _(Viktor Govako)_
 - 新增仪式门、水滑梯、主题公园和过山车 _(David Martinez)_
+- 修复了澳大利亚和新西兰的路盾 _(Viktor Govako)_
 - 改进了导航模式下透视图中地图控制的手指手势 _(Viktor Govako)_
 - 修复了车站和其他区域对象的公共交通路线（点击站点或站台可查看线路） _(Viktor Govako)_
 - 修复了测速摄像头的速度限制渲染 _(Alexander Borsuk)_
@@ -46,20 +46,20 @@ taxonomies:
 - 新增！轨迹现已支持文本和 HTML 描述，与书签描述方式相同。点击铅笔图标即可添加描述。 _(Mikhail Listratsenka)_
 - 新增！可为轨迹选择任意颜色，而不仅限于有限的预设子集 _(Mikhail Listratsenka)_
 - 韩语、中文和日语用户现在将根据设备区域设置显示正确的字体 _(Alexander Borsuk)_
-- 修复了轨迹地点页面问题及"打开方式"按钮 _(Mikhail Listratsenka)_
+- 修复了轨迹地点页面问题及“打开方式”按钮 _(Mikhail Listratsenka)_
 
 ### Linux 和 macOS
 
 - 在 `.desktop` 文件注释中新增中文翻译 _(DeepChirp)_
 
 
-加入测试版，抢先体验新功能并反馈问题：
+## 加入测试版，抢先体验新功能并反馈问题：
 
 - [iOS][testflight]
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]
 
-轻松出行，与 Organic Maps 一起探索您的旅程！ ✈️🚅🚌🚢🌴🗺️🌎
+轻松出行，与 Organic Maps 一起探索你的旅程！ ✈️🚅🚌🚢🌴🗺️🌎
 
 Organic Maps 团队
 

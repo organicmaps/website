@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Bu ikinci Eylül sürümü yeniden tasarlanmış bir rota planlama ekranı ve iOS’ta OpenStreetMap `description` etiket içeriğini görüntüleme özelliği getiriyor. Bu etikete sahip yerleri bulmak için aramaya `?description` yazın (`?wiki` gibi).
+Bu ikinci Eylül sürümü yeniden tasarlanmış bir rota planlama ekranı ve iOS’ta OpenStreetMap `description` etiket içeriğini görüntüleme özelliği getiriyor. Bu etikete sahip yerleri bulmak için aramaya `?description` yaz (`?wiki` gibi).
 
 Ayrıca iOS ve Android için birçok düzeltme ve iyileştirme içerir (ayrıntılar aşağıda).
 
-Kaçırmış olabileceğiniz yakın tarihli özellikler:
+Kaçırmış olabileceğin yakın tarihli özellikler:
 - Bir otobüs durağı seçerken toplu taşıma hat numaraları
-- Yürüyüş ve bisiklet rotaları (sol üstteki Katmanlar düğmesiyle etkinleştirin)
-- Haritada yer imi adlarını göster (Ayarlar’dan etkinleştirin)
+- Yürüyüş ve bisiklet rotaları (sol üstteki Katmanlar düğmesiyle etkinleştir)
+- Haritada yer imi adlarını göster (Ayarlar’dan etkinleştir)
 - ✎ simgesi yer imlerini hızlıca düzenlemeyi sağlar
 
-Organic Maps katkıcılar, [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.md) sayesinde mümkündür.
+Organic Maps katkıcılar, [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.md) sayesinde mümkündür.
 
 ### Ayrıntılı sürüm notları
 
@@ -50,10 +50,10 @@ Organic Maps katkıcılar, [bağışlarınız](@/donate/index.tr.md) ve [desteğ
 - Özel ROM’larda (örn. Lineage + MicroG) gezinmede konum güncelleme sorunu düzeltildi (Viktor Govako)
 - Yer imleri için mavi kalem (düzenle) simgesi (Alexander Borsuk)
 - Mekan bilgi önizlemesinin dikey yüksekliği azaltıldı (Alexander Borsuk)
-- Önizlemeden kuzeye olan azimut açısı kaldırıldı (mavi oku dokunun) (Alexander Borsuk)
+- Önizlemeden kuzeye olan azimut açısı kaldırıldı (görmek için mesafeyi gösteren mavi oka dokun) (Alexander Borsuk)
 
-En son sürümü edinin: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+En son Organic Maps sürümünü şuradan edin: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-Betaya katılın: [iOS][testflight] / [Android][firebase].
+Betaya katıl: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

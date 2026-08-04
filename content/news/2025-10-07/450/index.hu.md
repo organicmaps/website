@@ -1,73 +1,83 @@
 ---
-title: "Október 7-i kiadás: Android Auto sebességkorlátozás, GeoJSON import és még több"
+title: "Október 7-i kiadás: Android Auto sebességkorlátozás, GeoJSON import, nyomvonalrögzítési statisztikák, OSM leírás címke megjelenítése, könyvjelző mentése a kiválasztott nyomvonalra iOS-en, és még több"
 date: 2025-10-07T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Az Android Auto felhasználók mostantól láthatják a sebességkorlátozás figyelmeztetéseket. Hozzáadódott a GeoJSON fájlok importja, amelyek jelölőkké alakíthatók.
+Ez az október 7-i Organic Maps frissítés sebességkorlátozás-megjelenítést hoz az Android Autóba, GeoJSON importot és nyomvonalrögzítési statisztikákat ad, megjeleníti az OSM leírás címkéket (ha látni szeretnéd őket, írd be a keresőmezőbe: `?description`), iOS-en pedig könyvjelzőt menthetsz egy nyomvonalra. Emellett számos fejlesztés érkezett a felhasználói felülethez és az OpenStreetMap-szerkesztéshez, valamint sok hibajavítás minden platformon, köztük az indításkori összeomlás javítása néhány Android készüléken.
 
-Különféle javítások és fejlesztések iOS-hez, Androidhoz, Android Autóhoz és Desktophoz. Részletek lentebb.
+Az Organic Maps a közreműködőinknek, [az adományaidnak](@/donate/index.hu.md) és [a támogatásodnak](@/contribute/index.hu.md) köszönhető ❤️.
 
-Friss funkciók, amelyeket esetleg kihagytál:
-- Új útvonaltervező képernyő (iOS)
-- OSM `description` címke iOS-en (keresd: `?description`)
-- Tömegközlekedési járatszámok megjelenítése megálló kiválasztásakor
-- Túra- és kerékpár-útvonalak (kapcsold be a Rétegek gombbal bal felül)
-- Jelölők neveinek megjelenítése a térképen (Beállításokban engedélyezhető)
-- A ✎ ikon gyors szerkesztést biztosít a jelölőknél
+### Részletes kiadási megjegyzések (az előző kisebb frissítés változásaival együtt)
 
-Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) és [támogatásodnak](@/contribute/index.hu.md) köszönhető.
-
-### Részletes kiadási megjegyzések
-
-- Új OpenStreetMap adatok: október 5.
+- ÚJ! GeoJSON import (Sergiy Kozyr)
+- OpenStreetMap adatok október 4-i állapot szerint
+- Wikipédia adatok október 1-jei állapot szerint
+- Seattle-i gyorsvasút támogatása a tömegközlekedésben (tjasz)
+- A térképi kijelölés megmarad a szerkesztett OSM hely mentésekor (Kiryl Kaveryn)
 - Frissített fordítások (Weblate közreműködők)
-- Helyzetnyíl javítva GNSS jel nélkül (Viktor Govako)
 
-#### Térképstílusok (Viktor Govako)
+#### Térképstílusok
 
-- Újratervezett "Outdoor" stílusikonok
-- Vízcímke színének javítása
-- Épületek megjelenítése 16-os nagyításnál
-- Kilátópontok és nézőpontok megjelenítése 14-es nagyítástól
-- Általános térképjavítások és fejlesztések
+- Kerékpárkölcsönző boltok megjelenítése amenity=bicycle + rental=shop címkével (David Martinez)
+- Régészeti helyszínek megjelenítése 12-es nagyítástól, egyéb történelmi helyszínek 15-ös nagyítástól Outdoor stílusban (Viktor Govako)
+- Új ikonok az árbocokhoz, a távközlési és a villanyoszlopokhoz Outdoors stílusban (David Martinez)
+- A csúcs ikon méretének növelése Outdoors stílusban (David Martinez)
+- Hiányzó POI-ikonváltozatok pótlása (David Martinez)
+- További sorompótípusok hozzáadva (Viktor Govako)
 
 #### iOS
 
-- Útvonalpont-színek javítva (Alexander Borsuk)
-- Hosszú nyomás menü fejlesztései (Alexander Borsuk)
-- Érkezési idő javítva mértékegység-típus váltásakor (Viktor Govako)
-- Törölt objektumok szerkesztésének megakadályozása (Kiryl Kaveryn)
+- ÚJ: Könyvjelző mentése a kiválasztott nyomvonalpontra (Kiryl Kaveryn)
+- ÚJ: A rögzített nyomvonal törlése előzetes mentés nélkül (Kiryl Kaveryn)
+- Többsoros könyvjelzőlista-címek megjelenítése a Hely oldalon (David Martinez)
+- Az OSM bejelentkezési gombok stílusának frissítése (Kiryl Kaveryn)
+- A navigációs információk frissítési hibájának javítása (Kiryl Kaveryn)
+- Az új útvonaltervezés hibáinak javítása (Kiryl Kaveryn)
+- OSM hely hozzáadásának és szerkesztésének láthatósága javítva a 3 hónapnál régebbi térképeknél (Kiryl Kaveryn)
+- A közlekedési módok szegmensvezérlőjének elrendezése javítva iOS 26-hoz (Kiryl Kaveryn)
+- Egyszerűsített könyvjelző-kijelölési animációk (Kiryl Kaveryn)
+- Javítva a keresési találat kijelölésekor fellépő hiba (Kiryl Kaveryn)
+- Javított stílus, csúsztatás és animációk a Hely információs oldalon (Kiryl Kaveryn)
+
+#### Android Auto (csak Google Play)
+
+- ÚJ: Sebességkorlátozás megjelenítése az Android Autóban (Andrei Shkrob)
+- A képernyőváltás javítása az Android Auto navigációs módjában (Andrei Shkrob)
+- Az útvonalnyíl eltolódásának javítása az Android Autóban (Andrei Shkrob)
+- Javítva a hiba, amely az eszköz autóhoz csatlakoztatásakor vagy leválasztásakor lépett fel (Andrei Shkrob)
+- Android Auto helyszolgáltatás hozzáadva (Andrei Shkrob)
+- Az Android Auto útvonalszimulátorának fejlesztése (Viktor Govako)
 
 #### Android
 
-- ÚJ: GeoJSON fájlok importálása és jelölőkké alakítása (Andrei Shkrob, Alexander Borsuk)
-- Közeli WiFi és mobilhálózatok felsorolása a "Saját pozíció" alatt (csak debug build) (Kiryl Kaveryn)
-- OSM bejelentkezés frissítve (Viktor Govako)
-- Térkép letöltési hibaüzenet javítva (Viktor Govako)
-- Megbízhatóbb GeoIntent kezelés (Alexander Borsuk)
-- Adatáttelepítés felhasználói felület fejlesztései (Alexander Borsuk)
-- Kategória-besorolás felhasználói felület fejlesztései (Alexander Borsuk)
-- Google helyszolgáltatások eltávolítva (Alexander Borsuk)
-- "Városi cím" keresési kategória most "Cím" (Alexander Borsuk)
-- Lehetséges fekete képernyő javítva keresési eredmény kattintásakor (Viktor Govako)
-- Felhasználói felület finomítások "Mi van a közelben" keresésben (Viktor Govako)
-- Felugró párbeszédek javítva, amelyek nem tartják tiszteletben a sötét témát (Andrei Shkrob)
+- ÚJ: A nyomvonalrögzítés statisztikáinak megtekintése valós időben (Kavi Khalique)
+- ÚJ: Az OSM `description` címke tartalmának megjelenítése (Alexander Borsuk)
+- A témaváltás kezelésének javítása (Andrei Shkrob)
+- Több összeomlás javítva, köztük az indításkori is (Andrei Shkrob, Viktor Govako, Alexander Borsuk)
+- Csendes letöltési folyamatjelző értesítések (Viktor Govako)
+- A ceruza ikon belső margójának csökkentése (Alexander Borsuk)
 
-#### Android Auto
+#### Asztali gép
 
-- ÚJ: Sebességkorlátozás és sebességmérő kamera figyelmeztetések (Denis Koronchik)
-- Útvonal-előnézet javítva (Andrei Shkrob)
-- Keresési felhasználói felület fejlesztései (Andrei Shkrob)
+- A Linuxon lefagyó curl javítása (Alexander Borsuk)
+- A macOS-en az OSM-be való bejelentkezéskor tapasztalt lefagyás javítása (Alexander Borsuk)
+- Objektum kijelölése a helyi menüből (Viktor Govako)
+- Letöltés megszakítási lehetőség (Viktor Govako)
+- Geometriatípus megjelenítése a helyi menüben (Viktor Govako)
 
-#### Desktop
+### Friss funkciók, amelyeket esetleg kihagytál
 
-- Térképadaptáció fejlesztései (Andrew Shkrob)
-- Egérmutató kontrasztja javítva sötét témában (Andrew Shkrob)
+- Tömegközlekedési járatszámok megjelenítése megálló kiválasztásakor
+- Túra- és kerékpárútvonalak (kapcsold be őket a bal felső Rétegek gombbal)
+- A könyvjelzők nevei a térképen: kapcsold be a Beállításokban
+- A ✎ ceruza ikonnal gyorsan szerkesztheted a könyvjelzőket
 
-Töltsd le a legújabb verziót: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+### Az Organic Maps telepítése
 
-Csatlakozz a béta teszteléshez: [iOS][testflight] / [Android][firebase].
+Töltsd le a legújabb Organic Maps verziót innen: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid].
+
+Csatlakozz a béta teszteléshez, hogy elsőként próbálhasd ki az újdonságokat: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

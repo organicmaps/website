@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-या सप्टेंबरमधील दुसऱ्या प्रकाशनात नवीन मार्ग नियोजन स्क्रीन आणि iOS वर OpenStreetMap `description` टॅगचे सामग्री पाहण्याची सुविधा समाविष्ट आहे. या टॅग असलेली स्थाने शोधण्यासाठी शोधात `?description` टाइप करा (`?wiki` सारखेच).
+या सप्टेंबरमधील दुसऱ्या प्रकाशनात नवीन मार्ग नियोजन स्क्रीन आणि iOS वर OpenStreetMap `description` टॅगचे सामग्री पाहण्याची सुविधा समाविष्ट आहे. या टॅग असलेली स्थाने शोधण्यासाठी शोधात `?description` टाइप कर (`?wiki` सारखेच).
 
 iOS आणि Android साठी अनेक सुधारणा आणि दुरुस्त्या समाविष्ट आहेत (तपशील खाली).
 
-अलीकडच्या काही वैशिष्ट्यांकडे तुमचे लक्ष नसेल:
+अलीकडच्या काही वैशिष्ट्यांकडे तुझे लक्ष नसेल:
 - बस थांबा निवडताना सार्वजनिक वाहतूक मार्ग क्रमांक
 - भटकंती आणि सायकल मार्ग (डाव्या वरच्या लेअर्स बटणातून सक्षम करा)
 - नकाशावर बुकमार्क नावे दाखवा (सेटिंग्जमध्ये सक्षम करा)
 - ✎ चिन्हाने बुकमार्क पटकन संपादित करा
 
-Organic Maps आमच्या योगदानकर्त्यांमुळे, [तुमच्या देणग्यांमुळे](@/donate/index.mr.md) आणि [तुमच्या पाठिंब्यामुळे](@/contribute/index.md) शक्य झाले आहे.
+Organic Maps आमच्या योगदानकर्त्यांमुळे, [तुझ्या देणग्यांमुळे](@/donate/index.mr.md) आणि [तुझ्या पाठिंब्यामुळे](@/contribute/index.md) शक्य झाले आहे.
 
 ### सविस्तर प्रकाशन टीप
 
@@ -52,8 +52,8 @@ Organic Maps आमच्या योगदानकर्त्यांमु
 - स्थान माहिती पूर्वावलोकनाची उंची कमी (Alexander Borsuk)
 - पूर्वावलोकनातून उत्तर दिशेचा अझीमुथ कोन काढला (निळ्या बाणावर टॅप करा) (Alexander Borsuk)
 
-नवीनतम आवृत्ती मिळवा: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+नवीनतम Organic Maps आवृत्ती मिळव: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
-बीटा चाचणीत सामील व्हा: [iOS][testflight] / [Android][firebase].
+बीटा चाचणीत सामील हो: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

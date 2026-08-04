@@ -15,7 +15,7 @@ Fitur terbaru yang mungkin terlewat:
 - Tampilkan nama penanda di peta (aktifkan di Pengaturan)
 - Ikon ✎ memungkinkan pengeditan penanda cepat
 
-Organic Maps dimungkinkan oleh kontributor, [donasi Anda](@/donate/index.id.md), dan [dukungan Anda](@/contribute/index.md).
+Organic Maps dimungkinkan oleh kontributor, [donasimu](@/donate/index.id.md), dan [dukunganmu](@/contribute/index.md).
 
 ### Catatan rilis terperinci
 
@@ -52,7 +52,7 @@ Organic Maps dimungkinkan oleh kontributor, [donasi Anda](@/donate/index.id.md),
 - Kurangi tinggi vertikal pratinjau info tempat (Alexander Borsuk)
 - Hapus sudut azimut ke utara dari pratinjau (ketuk panah biru) (Alexander Borsuk)
 
-Dapatkan versi terbaru: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Dapatkan versi Organic Maps terbaru: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Bergabung dengan beta: [iOS][testflight] / [Android][firebase].
 

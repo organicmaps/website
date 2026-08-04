@@ -1,5 +1,5 @@
 ---
-title: "Fehlerbehebungen und Verbesserungen für den öffentlichen Nahverkehr, die Routenplanung, die Suche und die Lesezeichen im Update vom Juli 2026"
+title: "Fehlerbehebungen und Verbesserungen für die öffentlichen Verkehrsmittel, die Routenplanung, die Suche und die Lesezeichen im Update vom Juli 2026"
 date: 2026-07-23
 slug: "fehlerbehebungen-verbesserungen-oepnv-routenplanung-suche-lesezeichen-juli-2026"
 taxonomies:
@@ -8,10 +8,10 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Wie Sie vielleicht schon bemerkt haben, ist das Juli-Update von Organic Maps erschienen. Sie können es unter <https://get.omaps.org> oder auf [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid] herunterladen.
+Wie du vielleicht schon bemerkt hast, ist das Juli-Update von Organic Maps erschienen. Du kannst es unter <https://get.omaps.org> oder auf [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid] herunterladen.
 
-Dank Ihrer [Spenden](@/donate/index.de.md) und Ihres [Feedbacks](@/contribute/index.de.md) haben wir uns im Juli auf Fehlerbehebungen und Verbesserungen konzentriert. Falls Sie es verpasst haben: Die folgenden Funktionen aus der [vorherigen Juni-Version](@/news/2026-06-29/610/index.de.md) sind ebenfalls verfügbar:
-- ÖPNV-Routen (Echtzeit-Fahrpläne sind in Vorbereitung)
+Dank deiner [Spenden](@/donate/index.de.md) und deines [Feedbacks](@/contribute/index.de.md) haben wir uns im Juli auf Fehlerbehebungen und Verbesserungen konzentriert. Falls du es verpasst hast: Die folgenden Funktionen aus der [vorherigen Juni-Version](@/news/2026-06-29/610/index.de.md) sind ebenfalls verfügbar:
+- Routen für öffentliche Verkehrsmittel (Echtzeit-Fahrpläne sind in Vorbereitung)
 - Satellitenbilder
 - Alternative Routen zum Autofahren, Wandern und Radfahren
 - Neue Such- und Routenplanungsoberfläche für Android
@@ -21,13 +21,13 @@ Dank Ihrer [Spenden](@/donate/index.de.md) und Ihres [Feedbacks](@/contribute/in
 
 ### Karte & Orte
 - OpenStreetMap-Daten mit Stand vom 14. Juli
-- Notizen, die an [OpenStreetMap](https://www.openstreetmap.org) gemeldet werden, werden nun genau an der von Ihnen ausgewählten Stelle platziert und nicht mehr in der Mitte der gesamten Straße oder des gesamten Gebiets _(Alexander Borsuk)_
+- Notizen, die an [OpenStreetMap](https://www.openstreetmap.org) gemeldet werden, werden nun genau an der von dir ausgewählten Stelle platziert und nicht mehr in der Mitte der gesamten Straße oder des gesamten Gebiets _(Alexander Borsuk)_
 - Verbesserte Ortsauswahl beim Antippen der Karte in Regionen, die den 180°-Antimeridian überqueren _(Viktor Govako)_
 - Höhenprofile von Tracks zeigen nach dem Löschen eines Tracks keine veralteten oder leeren Diagramme mehr an _(Kiryl Kaveryn)_
 
 ### Öffentliche Verkehrsmittel
 - Haltestellen-, Umsteige- und Bahnhofsnamen sind nun weiß umrandet, damit sie sowohl im hellen als auch im dunklen Design gut lesbar bleiben _(Viktor Govako)_
-- Die U-Bahn-Ebene wird wieder korrekt angezeigt, nachdem Sie die Vorschau einer ÖPNV-Route geschlossen haben _(Mikhail Listratsenka)_
+- Die U-Bahn-Ebene wird wieder korrekt angezeigt, nachdem du die Vorschau einer Route mit öffentlichen Verkehrsmitteln geschlossen hast _(Mikhail Listratsenka)_
 
 ### Routenplanung und Navigation
 - Für alle Alternativrouten werden nun Routenhinweise (Maut, Fähren, unbefestigte Straßen, Stufen usw.) angezeigt _(Viktor Govako)_
@@ -36,10 +36,10 @@ Dank Ihrer [Spenden](@/donate/index.de.md) und Ihres [Feedbacks](@/contribute/in
 - Falsche und fehlende Abbiegehinweise wurden korrigiert _(Alexander Borsuk)_
 
 ### iOS
-- Neue Einstellung „Suchverlauf speichern“, mit der Sie den Verlauf deaktivieren und ausblenden können, falls Sie ihn lieber nicht behalten möchten _(Kiryl Kaveryn)_
+- Neue Einstellung „Suchverlauf speichern“, mit der du den Verlauf deaktivieren und ausblenden kannst, falls du ihn lieber nicht behalten möchtest _(Kiryl Kaveryn)_
 - Neue Schaltfläche „Bearbeiten“ zum einfacheren Löschen von Lesezeichen _(Kiryl Kaveryn)_
-- Lesezeichen werden nun automatisch gespeichert, wenn Sie den Bildschirm verlassen _(Kiryl Kaveryn)_
-- Die Farbpalette bietet nun vordefinierte Farben und ermöglicht es Ihnen, eine beliebige benutzerdefinierte Farbe auszuwählen _(Kiryl Kaveryn)_
+- Lesezeichen werden nun automatisch gespeichert, wenn du den Bildschirm verlässt _(Kiryl Kaveryn)_
+- Die Farbpalette bietet nun vordefinierte Farben und ermöglicht es dir, eine beliebige benutzerdefinierte Farbe auszuwählen _(Kiryl Kaveryn)_
 - Der Leerzustand des Höhendiagramms für einen aufgezeichneten Track wurde verbessert _(Kiryl Kaveryn)_
 - Die Anzeige des Routenfortschritts auf der Schaltfläche „Start“ wurde verbessert _(Kiryl Kaveryn)_
 - Das Neuanordnen der Haltestellen auf einer Route führt nicht mehr dazu, dass die Liste hin und her springt _(Kiryl Kaveryn)_
@@ -61,7 +61,7 @@ Dank Ihrer [Spenden](@/donate/index.de.md) und Ihres [Feedbacks](@/contribute/in
 - Aktualisierte ukrainische Übersetzungen _(Nnifria)_
 - Die italienischen Übersetzungen der Namen der Kartenregionen wurden korrigiert _(Vittorio Bertola)_
 
-## Machen Sie beim Beta-Test mit, um frühe Funktionen auszuprobieren und Probleme zu melden:
+## Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:
 
 Tipp: Die Beta-Version bietet eine neue Geländeschattierung, verbesserte Höhendaten mit Unterstützung für Fuß und Meter sowie weitere coole Funktionen!
 

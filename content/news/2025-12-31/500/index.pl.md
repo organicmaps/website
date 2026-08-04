@@ -12,14 +12,24 @@ Wprowadzono kilka znaczących funkcji, w tym [globalne szlaki piesze i rowerowe 
 W tym roku osiągnęliśmy jeszcze silniejszy wzrost naszej bazy instalacji w porównaniu z poprzednimi latami, kończąc rok z łączną liczbą prawie 2 milionów pobrań w App Store i prawie 3 milionów pobrań w Google Play, przy czym kraje europejskie i północnoamerykańskie znajdują się na szczycie listy. Szacujemy, że co najmniej 1 milion więcej pobrań i instalacji Organic Maps na Androida pochodzi z innych źródeł, co daje łącznie około ***6 milionów pobrań na wszystkich platformach*** od momentu uruchomienia aplikacji 5 lat temu.
 
 Inne znaczące osiągnięcia w 2025 roku to:
+
+
+#### Statystyki GitHub
+
 - 1000 [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) utworzonych i 808 scalonych w 2025 roku z łącznie 5000.
 - 800 [nowych zgłoszeń][github issues] utworzonych i 482 naprawionych/zamkniętych w 2025 roku z łącznie 6000.
 - [1,5 tys. commitów](https://github.com/organicmaps/organicmaps/commits) od 100 współtwórców w 2025 roku z łącznie 8,6 tys. commitów od rozpoczęcia projektu w 2020 roku.
 - Projekt osiągnął 1244 forki i 12 411 gwiazdek [na GitHubie][github], co wskazuje na duże zainteresowanie deweloperów i rzeczywiste wykorzystanie.
+
+#### Oceny w sklepach i zaangażowanie użytkowników
+
 - W ciągu 2025 roku łączna liczba ocen w App Store wzrosła z 4,1 tys. do 11,1 tys., co oznacza, że aplikacja otrzymała ponad dwa razy więcej nowych ocen w 2025 roku niż we wszystkich poprzednich latach łącznie, co odzwierciedla silne uznanie ze strony Was, naszych ukochanych użytkowników.
 - Użytkownicy Androida również wykazali zwiększone zaangażowanie, z 5,3 tys. nowych ocen w 2025 roku, osiągając łącznie 16,5 tys. ❤️
 - Wysłaliśmy 4000 e-maili wsparcia i odpowiedzieliśmy na 2500 recenzji w Google Play i App Store w 2025 roku.
 - 10 petabajtów danych map zostało pobranych przez użytkowników na całym świecie z naszych serwerów w 2025 roku.
+
+#### Media społecznościowe i społeczność
+
 - Dzięki Wam rosną również nasze statystyki w mediach społecznościowych (obserwujcie nas, jeśli jeszcze tego nie zrobiliście! 😊):
    - [13 tys. na Fosstodon][FOSStodon]
    - [6 tys. na Telegramie][telegram]

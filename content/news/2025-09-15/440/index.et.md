@@ -12,8 +12,8 @@ Sisaldab ka palju parandusi ja täiendusi iOS-i ja Androidi jaoks (detailid allp
 Hiljutised funktsioonid, mida võisid märkamata jätta:
 - Ühistranspordi liininumbrid peatusel
 - Matka- ja rattarajad (lülita sisse vasakus ülanurgas Kihid nupu alt)
-- Kuva markerite nimed kaardil (lülita Sätetes)
-- ✎ ikoon võimaldab markereid kiiresti muuta
+- Kuva järjehoidjate nimed kaardil (lülita sisse Sätetes)
+- ✎ pliiatsi ikoon võimaldab järjehoidjaid kiiresti muuta
 
 Organic Maps on võimalik tänu panustajatele, [sinu annetustele](@/donate/index.et.md) ja [toetusele](@/contribute/index.md).
 
@@ -23,7 +23,7 @@ Organic Maps on võimalik tänu panustajatele, [sinu annetustele](@/donate/index
 - Väga väikesed saared eemaldatud maailmakaardilt (Viktor Govako)
 - Postiindeksi (ZIP) kuvamine aadressi detailides (Viktor Govako)
 - Vale kaardi tsentreerimine praegusele asukohale parandatud (Kiryl Kaveryn, Viktor Govako)
-- Markerite värvid säilivad GPX ekspordi/impordi ajal (cyber-toad)
+- Järjehoidjate värvid säilivad GPX ekspordi/impordi ajal (cyber-toad)
 - Uuendatud tõlked (Weblate’i panustajad)
 
 #### Kaardistiilid (Viktor Govako)
@@ -44,15 +44,15 @@ Organic Maps on võimalik tänu panustajatele, [sinu annetustele](@/donate/index
 #### Android
 
 - Uued ringristmiku ikoonid Android Autos (Andrei Shkrob)
-- Valitud markeri kategooria kuvamine (Alexander Borsuk)
-- Viivituse parandamine markeri kauguse näitamisel (Alexander Borsuk)
+- Valitud järjehoidja kategooria kuvamine (Alexander Borsuk)
+- Viivituse parandamine järjehoidja kauguse näitamisel (Alexander Borsuk)
 - Tume teema ümberstruktureeritud (Andrei Shkrob)
 - Asukoha uuenduse tõrge navigeerimisel kohandatud ROM-idel parandatud (nt Lineage + MicroG) (Viktor Govako)
-- Sinine pliiatsi (muuda) ikoon markeritele (Alexander Borsuk)
-- Koha info eelveeru vertikaalse kõrguse vähendamine (Alexander Borsuk)
-- Azimuti nurk põhja suunas eelveerust eemaldatud (vajuta sinist noolt koos kaugusega) (Alexander Borsuk)
+- Sinine pliiatsi (muuda) ikoon järjehoidjatele (Alexander Borsuk)
+- Koha teabe eelvaate vertikaalse kõrguse vähendamine (Alexander Borsuk)
+- Azimuudi nurk põhja suunas eemaldatud koha teabe eelvaatest (selle nägemiseks vajuta kaugust näitavat sinist noolt) (Alexander Borsuk)
 
-Laadi alla uusim versioon: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Laadi alla uusim Organic Maps versioon: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 Liitu beetaga: [iOS][testflight] / [Android][firebase].
 

@@ -8,11 +8,11 @@ taxonomies:
 
 ## 版本说明
 
-### 所有平台
-
 - *新功能！* 世界地图上突出显示已下载的区域 (Viktor Govako)
 - *新功能！* 从缩放级别 8 开始，在世界地图上查看和搜索自然保护区、国家公园、保护区、原住民土地、危险区域和湖泊 (Viktor Govako)
 - *新功能！* 路线规划现在支持道路关闭时间 (Viktor Govako)
+
+### 所有平台
 
 - 截至2025年11月9日的OpenStreetMap数据 (Viktor Govako)
 - 修复了在编辑地址并将更改上传到OpenStreetMap时默认和本地化街道名称的问题 (Viktor Govako)
@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- 删除书签列表或轨迹列表后（通过"更多"按钮），应用现在可以正确返回到上一个屏幕 (Kiryl Kaveryn)
-- 在"关于"屏幕添加了 [TikTok][tiktok]、[Threads][threads] 和 [Bluesky][bluesky] 社交媒体链接 (Kiryl Kaveryn)
-- 在主屏幕上的应用图标快捷操作中添加了"报告错误" (Kiryl Kaveryn)
+- 删除书签列表或轨迹列表后（通过“更多”按钮），应用现在可以正确返回到上一个屏幕 (Kiryl Kaveryn)
+- 在“关于”屏幕添加了 [TikTok][tiktok]、[Threads][threads] 和 [Bluesky][bluesky] 社交媒体链接 (Kiryl Kaveryn)
+- 在主屏幕上的应用图标快捷操作中添加了“报告错误” (Kiryl Kaveryn)
 - 修复了各种应用和CarPlay崩溃 (Kiryl Kaveryn)
 
 ### Android
@@ -33,11 +33,11 @@ taxonomies:
 - Android Auto始终使用汽车路线规划模式 (Andrei Shkrob)
 - 为香港 (zh-HK) 和澳门 (zh-MO) 地区使用繁体中文翻译 (Alexander Borsuk)
 
-如果您可以在任何支持OpenGL ES 3的x86设备（包括Chromebook）上运行Organic Maps，请告诉我们。
+如果你可以在任何支持OpenGL ES 3的x86设备（包括Chromebook）上运行Organic Maps，请告诉我们。
 
 ### 地图和样式
 
-- 交换了"废弃"和"停用"铁路的渲染 (Lukas Hamm)
+- 交换了“废弃”和“停用”铁路的渲染 (Lukas Hamm)
 - 在地图上添加了钟表匠和学生住宿 (David Martinez)
 - 添加了旅行社图标 (David Martinez)
 - 将厕所图标颜色更改为灰色 (David Martinez)
@@ -60,7 +60,7 @@ taxonomies:
 - 添加了一个设置来启用或禁用地图上已下载区域的突出显示 (Viktor Govako)
 
 
-以前的版本说明：https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/
+以前的版本说明：[organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
 从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新的Organic Maps版本。
 
@@ -68,7 +68,7 @@ taxonomies:
 - [iOS][testflight]
 - [Android][firebase]。
 
-感谢您使用Organic Maps并支持该项目！
+感谢你使用Organic Maps并支持该项目！
 
 Organic Maps团队
 

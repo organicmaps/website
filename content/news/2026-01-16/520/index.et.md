@@ -6,15 +6,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Alustame aastat 2026 Organic Mapsi värskendusega, mille on võimaliks teinud kõik meie kaastöölised! Installige see aadressilt <https://omaps.app/get> või rakendusest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid]
+Alustame aastat 2026 Organic Mapsi värskendusega, mille on võimalikuks teinud kõik meie panustajad! Installi see aadressilt <https://omaps.app/get> või poest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid]
 
 ### Väljaande märkmed (kõik platvormid)
 
 * **Kõrgema kontrastsusega tumeda teema värvid** (David Martinez)
 * Värskendatud OpenStreetMap andmed (11. jaanuar) (Viktor Govako)
-* Lisatud albaania keele häälsuunis (TTS) (Alexander Borsuk)
+* Lisatud albaania keele hääljuhised (TTS) (Alexander Borsuk)
 * Lisatud bulgaaria keele otsingu sünonüümid (Clippy)
-* Kasiinod välistatud kategooriast „Meelelahutus" (Clippy)
+* Kasiinod välistatud kategooriast „Meelelahutus“ (Clippy)
 * Vähendatud metrooliinide paksust (Manik)
 * Lisatud mahuteavet otsingutulemustesse mootorrataste parkimise, jalgrataste üürimise, jalgrataste laadimise ja autode laadimise jaoks (David Martinez)
 * Lisatud korruse tase otsingutulemustesse (David Martinez)
@@ -25,8 +25,8 @@ Alustame aastat 2026 Organic Mapsi värskendusega, mille on võimaliks teinud k�
 * Värskendatud KKK ja lisatud KKK tõlked araabia, tšehhi, hollandi, farsi, kreeka, heebrea, hindi, ungari, indoneesia, itaalia, leedu, marathi, rootsi, telugu keelde (Alexander Borsuk)
 * Täiustatud saksa keele rakenduse ja KKK tõlkeid (DaN0mic)
 * Täiustatud Ladina-Ameerika hispaania keele rakenduse tõlkeid (Alexander Borsuk)
-* Selguse huvides ümber nimetatud seadistus „Suumise nupud" (Alexander Borsuk)
-* Tõlkeparandused Weblate kaastöölistelt erinevates keeltes (Viktor Govako)
+* Selguse huvides ümber nimetatud seadistus „Suumise nupud“ (Alexander Borsuk)
+* Tõlkeparandused Weblate'i panustajatelt erinevates keeltes (Viktor Govako)
 
 ### Ainult iOS-i muudatused
 
@@ -35,18 +35,18 @@ Alustame aastat 2026 Organic Mapsi värskendusega, mille on võimaliks teinud k�
 ### Ainult Androidi muudatused
 
 * Lisatud Google Assistenti tugi navigeerimiseks ja otsinguks (skirm-tech)
-* Värskendatud „Automaatne" navigeerimise teema seadistust, et järgida süsteemi tumedat/heledat režiimi (Dzmitry Strekha)
+* Värskendatud „Automaatne“ navigeerimise teema seadistust, et järgida süsteemi tumedat/heledat režiimi (Dzmitry Strekha)
 * Parandatud krahh navigeerimise käivitamisel (Owm Dubey)
-* Parandatud krahh märkmete OpenStreetMapi üleslaadmisel (Prakamy Awasthi)
+* Parandatud krahh märkmete OpenStreetMapi üleslaadimisel (Prakamy Awasthi)
 * Parandatud krahh Android Autos (Alexander Borsuk)
-* Parandatud puuduvad TTS häälsuunise teadaanded (Alexander Borsuk)
+* Parandatud puuduvad TTS hääljuhiste teadaanded (Alexander Borsuk)
 
 
-Liituge beetatestimisega, et proovida varaseid funktsioone ja teatada probleemidest:
+Liitu beetatestimisega, et proovida uusi funktsioone varakult ja anda teada probleemidest:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps eksisteerib tänu teie [annetustele](@/donate/index.et.md) ja [panustele](@/contribute/index.et.md) ❤️
+Organic Maps eksisteerib tänu sinu [annetustele](@/donate/index.et.md) ja [panustele](@/contribute/index.et.md) ❤️
 
 Organic Mapsi meeskond
 

@@ -6,13 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Kahramanmaraş ve çevre illerimizde gerçekleşen depremin büyük üzüntüsü içerisindeyiz. Kalbimiz depremden etkilenen herkesle birlikte...
-
-Yaşamını yitirenlere Allah'tan rahmet, yaralılara acil şifalar dileriz. Tüm milletimizin başı sağ olsun.
-
-🎗#GeçmişOlsunTürkiye
-
-Bu sürüm, son depremin ardından [Humanitarian OpenStreetMap Ekibi](https://www.hotosm.org/) tarafından yapılan değişiklikler de dahil olmak üzere Türkiye ve Suriye için güncellenmiş harita verilerini içermektedir. Doğru harita verileri afet müdahalesinde çok önemlidir çünkü sahada yardım edenlere daha iyi planlama ve navigasyon konusunda yardımcı olabilmektedir. OpenStreetMap'e bugüne kadar katkıda bulunan herkese teşekkür ederiz. Katkıda bulunmaya başlamak istiyorsanız lütfen [bu bağlantıyı](https://www.openstreetmap.org/user/Heather%20Leson/diary/400951) ziyaret edin.
+Kahramanmaraş ve çevre illerimizde gerçekleşen depremin büyük üzüntüsü içerisindeyiz. Kalbimiz depremden etkilenen herkesle birlikte… Yaşamını yitirenlere Allah'tan rahmet, yaralılara acil şifalar dileriz, tüm milletimizin başı sağ olsun. 🎗 #GeçmişOlsunTürkiye — Bu sürüm, son depremin ardından [Humanitarian OpenStreetMap Ekibi](https://www.hotosm.org/) tarafından yapılan değişiklikler de dahil olmak üzere Türkiye ve Suriye için güncellenmiş harita verilerini içeriyor. Doğru harita verileri afet müdahalesinde çok önemlidir çünkü sahada yardım edenlere daha iyi planlama ve navigasyon konusunda yardımcı olabilir. OpenStreetMap'e bugüne kadar katkıda bulunan herkese teşekkür ederiz. Katkıda bulunmaya başlamak istiyorsan lütfen [bu bağlantıyı](https://www.openstreetmap.org/user/Heather%20Leson/diary/400951) ziyaret et.
 
 🗺 Bu Organic Maps güncellemesindeki yeniliklerin listesi:
 - 10 Şubat tarihine ait yeni OpenStreetMap verileri
@@ -29,4 +23,4 @@ Bu sürüm, son depremin ardından [Humanitarian OpenStreetMap Ekibi](https://ww
 - om:// ve <https://omaps.app/> bağlantıları açılırken oluşan çökme sorunu düzeltildi
 - Artık om:// ve <https://omaps.app/> bağlantılarında paylaşılan POI'nin (İlgi Çekici Nokta) adı gösteriliyor
 
-<https://omaps.app/api> adresinde hem Android hem de iOS için API ve URL şemalarımızın daha fazla  örneklerini görebilirsiniz.
+<https://omaps.app/api> adresinde hem Android hem de iOS için API ve URL şemalarımızın daha fazla örneğini görebilirsin.

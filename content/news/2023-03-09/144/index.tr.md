@@ -36,5 +36,6 @@ Android
 * Yardım sayfası yeniden tasarlandı
 * Karmaşık çalışma saatlerinin gösterilmeme sorunu düzeltildi
 * Harita indirme sayfasında birden fazla satır ile yazılan bölge isimleri, artık düzgün bir şekilde gösteriliyor
+* Eksik Geleneksel Çince yerelleştirmesi düzeltildi
 
 Uygulamanın kodlarına, çevirilere katkıda bulunan veya iyi yorumlar ve [bağışlarla](https://organicmaps.app/tr/donate/) bizi destekleyen herkese minnettarız 🙏!

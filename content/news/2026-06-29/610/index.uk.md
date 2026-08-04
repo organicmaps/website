@@ -13,7 +13,7 @@ taxonomies:
 - Новий інтерфейс пошуку й планування маршрутів для Android
 - Підтримка великих шрифтів доступності для iOS
 
-Отримай його на <https://get.omaps.org> або в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid] і розкажи нам, що думаєш!
+Отримайте його на <https://get.omaps.org> або в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid] і розкажіть нам, що ви думаєте!
 
 ## Докладний список змін
 
@@ -22,10 +22,10 @@ taxonomies:
 - НОВИНКА! Попередження для пішохідних і велосипедних маршрутів про сходи, ворота й шлагбауми на шляху _(Viktor Govako)_
 - НОВИНКА! Вибір будь-якого кольору для міток _(Alexander Borsuk, Mikhail Listratsenka)_
 - НОВИНКА! Підтримка координат British National Grid (OS Grid), Irish Grid та Irish Transverse Mercator (ITM) _(Alexander Borsuk)_
-- ЕКСПЕРИМЕНТАЛЬНО: увімкни супутникові знімки в налаштуваннях Organic Maps, указавши URL користувацького сервера растрових тайлів. Ми все ще працюємо над власним сервером, тому поки знайди відкрито доступний сервер із плейсхолдерами `{x}`, `{y}`, `{z}` у його URL _(Viktor Govako, renderexpert)_
+- ЕКСПЕРИМЕНТАЛЬНО: увімкніть супутникові знімки в налаштуваннях Organic Maps, указавши URL користувацького сервера растрових тайлів. Ми все ще працюємо над власним сервером, тому поки знайдіть відкрито доступний сервер із плейсхолдерами `{x}`, `{y}`, `{z}` у його URL _(Viktor Govako, renderexpert)_
 - Дані OpenStreetMap оновлено станом на 24 червня _(Viktor Govako)_
 - Дані Wikipedia оновлено станом на 20 червня, включно зі статтями італійською мовою _(Alexander Borsuk)_
-- Введи `?map-download-server:https://your-server.com/` у вікні пошуку, щоб перевизначити сервери завантаження мап Organic Maps. Введи `?no-map-download-server`, щоб прибрати перевизначення _(Alexander Borsuk)_
+- Введіть `?map-download-server:https://your-server.com/` у вікні пошуку, щоб перевизначити сервери завантаження мап Organic Maps. Введіть `?no-map-download-server`, щоб прибрати перевизначення _(Alexander Borsuk)_
 
 #### Відображення мапи та стилі
 
@@ -48,7 +48,7 @@ taxonomies:
 ### iOS
 
 - НОВИНКА! Підтримка доступності для Dynamic Type і великих шрифтів _(Kiryl Kaveryn)_
-- НОВИНКА! Торкнись, щоб вибрати між треками й маршрутами, що накладаються _(Kiryl Kaveryn)_
+- НОВИНКА! Торкніться, щоб вибрати між треками й маршрутами, що накладаються _(Kiryl Kaveryn)_
 - Покращено відображення HTML в описах міток і треків _(Kiryl Kaveryn)_
 - Охайніший стиль таблиць в інтерфейсі _(Kiryl Kaveryn)_
 
@@ -77,7 +77,7 @@ taxonomies:
 - Оновлено німецький і французький переклади _(Wuzzy, Alexander Borsuk)_
 - Виправлено неправильні переклади голосової вказівки «onto street» китайською, сербською та каталанською _(Alexander Borsuk)_
 
-## Приєднуйся до бета-тестування, щоб спробувати ранні функції та повідомити про проблеми:
+## Приєднуйтеся до бета-тестування, щоб спробувати ранні функції та повідомити про проблеми:
 
 - [iOS][testflight]
 - [Android][firebase]

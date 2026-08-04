@@ -12,14 +12,20 @@ Számos figyelemre méltó funkciót vezettünk be, köztük a [globális túra-
 Idén még erőteljesebb növekedést értünk el telepítési bázisunkban az előző évekhez képest, az évet összesen közel 2 millió letöltéssel zárva az App Store-ban és közel 3 millió letöltéssel a Google Playen, az európai és észak-amerikai országokkal a lista élén. Becsléseink szerint legalább további 1 millió Organic Maps Android letöltés és telepítés származik más forrásokból, így a teljes letöltések száma körülbelül ***6 millióra nőtt minden platformon*** az alkalmazás 5 évvel ezelőtti indulása óta.
 
 A 2025-ös év egyéb figyelemre méltó eredményei közé tartozik:
+#### GitHub statisztikák
+
 - 1000 [Pull Request](https://github.com/organicmaps/organicmaps/pulls) jött létre és 808 került összefésülésre 2025-ben az összesen 5000-ből.
 - 800 [új probléma][github issues] jött létre és 482 került javításra/lezárásra 2025-ben az összesen 6000-ből.
 - [1500 commit](https://github.com/organicmaps/organicmaps/commits) 100 közreműködőtől 2025-ben a projekt 2020-as indulása óta összesen 8600 commitból.
 - A projekt elérte az 1244 forkot és a 12 411 csillagot a [GitHubon][github], ami erős fejlesztői érdeklődést és valós használatot jelez.
+#### Áruházi értékelések és felhasználói aktivitás
+
 - 2025 folyamán az App Store-ban az összes értékelés 4100-ról 11 100-ra nőtt, ami azt jelenti, hogy az alkalmazás 2025-ben több mint kétszer annyi új értékelést kapott, mint az összes előző évben együttvéve, ami tükrözi az erős elismerést tőletek, szeretett felhasználóinktól.
 - Az Android felhasználók is fokozott elkötelezettséget mutattak, 2025-ben 5300 új értékeléssel, elérve az összesen 16 500-at ❤️
 - 4000 támogatási e-mailt küldtünk és 2500 véleményre válaszoltunk a Google Playen és az App Store-ban 2025-ben.
 - 2025-ben a felhasználók világszerte 10 petabájt térképadatot töltöttek le szervereinkről.
+#### Közösségi média és közösség
+
 - Nektek köszönhetően közösségi média statisztikáink is nőnek (kövessetek minket, ha még nem tettétek meg! 😊):
    - [13 ezer a Fosstodonon][FOSStodon]
    - [6 ezer a Telegramon][telegram]

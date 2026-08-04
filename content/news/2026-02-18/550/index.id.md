@@ -8,10 +8,10 @@ taxonomies:
 
 Berkat kontributor kami, **Jumat adalah waktu yang tepat untuk memperbarui Organic Maps!** Dapatkan pembaruan di [https://get.omaps.org](https://get.omaps.org) atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
-Jika Anda ingin melihat **jadwal transportasi umum waktu nyata** di kota Anda dalam salah satu pembaruan mendatang, silakan:
+Kalau kamu ingin melihat **jadwal transportasi umum waktu nyata** di kotamu dalam salah satu pembaruan mendatang, silakan:
 
-1. [Kirimkan kepada kami](https://github.com/organicmaps/gtfs-osm-matcher/issues) **sumber umpan GTFS statis dan waktu nyata** dari agen transportasi lokal Anda sehingga kami dapat menguji dan mengintegrasikannya.
-2. Periksa apakah **data OpenStreetMap** di area Anda mencakup semua halte bus/trem/kereta dengan tag yang diperlukan di [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Kirimkan kepada kami](https://github.com/organicmaps/gtfs-osm-matcher/issues) **sumber umpan GTFS statis dan waktu nyata** dari agen transportasi lokal di daerahmu sehingga kami dapat menguji dan mengintegrasikannya.
+2. Periksa apakah **data OpenStreetMap** di areamu mencakup semua halte bus/trem/kereta dengan tag yang diperlukan di [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Catatan rilis
 
@@ -24,8 +24,8 @@ Jika Anda ingin melihat **jadwal transportasi umum waktu nyata** di kota Anda da
 * Meningkatkan peringkat hasil pencarian untuk kategori (Viktor Govako)
 * Menambahkan masakan Uzbekistan (alnzrv)
 * Menambahkan flying fox di peta (Rawdyrathaur)
-* Memperbaiki tautan Wikimedia dengan "?" di judul (alnzrv)
-* Mendukung file GPX dengan "+" dalam koordinat (Alexander Borsuk)
+* Memperbaiki tautan Wikimedia dengan “?” di judul (alnzrv)
+* Mendukung file GPX dengan “+” dalam koordinat (Alexander Borsuk)
 
 ### iOS
 
@@ -41,7 +41,7 @@ Jika Anda ingin melihat **jadwal transportasi umum waktu nyata** di kota Anda da
 * Memperbaiki kerusakan aplikasi (Alexander Borsuk)
 * Pesan kesalahan login OSM yang lebih rinci (Owm Dubey)
 * Meningkatkan kinerja Halaman Tempat (Owm Dubey)
-* Memperbaiki ikon visibilitas daftar bookmark/trek pada perangkat Android lama (Owm Dubey)
+* Memperbaiki ikon visibilitas daftar penanda/trek pada perangkat Android lama (Owm Dubey)
 
 ### Terjemahan
 

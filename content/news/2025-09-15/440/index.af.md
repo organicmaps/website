@@ -12,8 +12,8 @@ Daar is ook baie regstellings en verbeterings vir iOS en Android (sien hieronder
 Onlangse funksies wat jy dalk gemis het:
 - Openbare vervoer roetenommers wanneer ’n bushalte gekies word
 - Stap- en fietsroetes (aktiveer via die Lagensknoppie links bo)
-- Wys merkername op die kaart (aktiveer in Instellings)
-- Die ✎-ikoon laat jou merkers vinnig wysig
+- Wys boekmerkname op die kaart (aktiveer in Instellings)
+- Die ✎-ikoon laat jou boekmerke vinnig wysig
 
 Organic Maps is moontlik danksy ons bydraers, [jou donasies](@/donate/index.af.md) en [jou ondersteuning](@/contribute/index.md).
 
@@ -23,7 +23,7 @@ Organic Maps is moontlik danksy ons bydraers, [jou donasies](@/donate/index.af.m
 - Baie klein eilande van die wêreldkaart verwyder (Viktor Govako)
 - Poskode (ZIP) in adresbesonderhede wys (Viktor Govako)
 - Verkeerde sentrering op huidige posisie reggestel (Kiryl Kaveryn, Viktor Govako)
-- Behou merkerkleur by uitvoer en invoer van GPX (cyber-toad)
+- Behou boekmerkkleure by uitvoer en invoer van GPX (cyber-toad)
 - Vertalings bygewerk (Weblate-bydraers)
 
 #### Kaartstyle (Viktor Govako)
@@ -44,16 +44,16 @@ Organic Maps is moontlik danksy ons bydraers, [jou donasies](@/donate/index.af.m
 #### Android
 
 - Nuwe rotonde-ikone in Android Auto (Andrei Shkrob)
-- Wys kategorie van gekose merker (Alexander Borsuk)
-- Vertraging by afstand na merker reggestel (Alexander Borsuk)
+- Wys kategorie van gekose boekmerk (Alexander Borsuk)
+- Vertraging by die wys van afstand na ’n boekmerk reggestel (Alexander Borsuk)
 - Donker tema herstruktureer (Andrei Shkrob)
 - Posisioneringsopdatering op pasgemaakte ROMs reggestel (bv. Lineage + MicroG) (Viktor Govako)
-- Blou potlood (wysig) ikoon vir merkers (Alexander Borsuk)
+- Blou potlood-ikoon (wysig) vir boekmerke (Alexander Borsuk)
 - Vertikale hoogte van plek-inligtingsvoorskou verminder (Alexander Borsuk)
-- Azimut-na-Noord hoek uit voorskou verwyder (tik blou pyl met afstand) (Alexander Borsuk)
+- Azimut-na-Noord hoek uit die voorskou verwyder (tik op die blou pyl met die afstand om dit te sien) (Alexander Borsuk)
 
-Laai die nuutste weergawe af: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+Laai die nuutste weergawe van Organic Maps af vanuit die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
-Sluit aan by beta-toetsing: [iOS][testflight] / [Android][firebase].
+P.S. Sluit aan by beta-toetsing vir vroeë toegang tot nuwe funksies: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

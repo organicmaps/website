@@ -6,9 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Le damos la bienvenida a la actualización de enero de 2023 de Organic Maps. Esperamos que haya tenido un período vacacional espléndido y haya disfrutado de sitios y personas interesantes.
-
-He aquí la lista de cambios completa:
+Nos complace anunciar nuestra primera actualización de 2023. Como siempre, hemos incluido una lista completa de mejoras, gracias al apoyo y las aportaciones de nuestra dedicada comunidad de Organic Maps. Un gran trabajo de todos nosotros. 🙏
 
 * Datos de OpenStreetMap al 21 de enero de 2023
 * Arreglos de importación de determinadas vías KML

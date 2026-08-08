@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Comecemos 2026 cunha actualización de Organic Maps, feita posible por todos os nosos colaboradores! Instálea desde <https://omaps.app/get> ou desde [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
+Comecemos 2026 cunha actualización de Organic Maps, feita posible por todos os nosos colaboradores! Instálaa desde <https://omaps.app/get> ou desde [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
 
 ### Notas da versión (todas as plataformas)
 

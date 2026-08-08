@@ -1,13 +1,13 @@
 ---
-description: "O seu dinheiro paga todas as despesas relacionadas com o projeto e motiva-nos a melhorar o Organic Maps."
+description: "O teu dinheiro paga todas as despesas relacionadas com o projeto e motiva-nos a melhorar o Organic Maps."
 extra:
   menu_title: Doar
   preview_image: donate/donate.png
-title: "Faça uma doação para apoiar o desenvolvimento do Organic Maps"
+title: "Faz uma doação para apoiar o desenvolvimento do Organic Maps"
 weight: 10
 ---
 
-O app Organic Maps é _gratuito para todos_ graças as suas **[doações][stripe]**:
+O app Organic Maps é _gratuito para todos_ graças às tuas **[doações][stripe]**:
 
 - Sem anúncios
 - Sem rastreadores
@@ -15,7 +15,7 @@ O app Organic Maps é _gratuito para todos_ graças as suas **[doações][stripe
 - Sem notificações
 - Código-fonte aberto
 
-Clique no ícone do seu método de pagamento preferido abaixo:
+Clica no ícone do teu método de pagamento preferido abaixo:
 
 {{ donate_buttons() }}
 
@@ -23,7 +23,7 @@ Clique no ícone do seu método de pagamento preferido abaixo:
 
 1. O nosso objetivo é fornecer uma alternativa ao Google Maps e ao Apple Maps centrada na privacidade, rápida e fácil de utilizar.
 2. Melhorar os dados de mapas públicos para os inúmeros sítios web, aplicações e plataformas que utilizam o OpenStreetMap e envolver mais pessoas na contribuição de informações de mapas é outro dos nossos objetivos.
-3. Contamos com os vossos donativos para levar a cabo a nossa missão de manter o Organic Maps aberto e livre. E livre de anúncios.
+3. Contamos com os teus donativos para levar a cabo a nossa missão de manter o Organic Maps aberto e livre. E livre de anúncios.
 4. Adoramos o que fazemos e adoramos os nossos utilizadores ❤️.
 
 ## Porque é que um projeto gratuito precisa de dinheiro?
@@ -41,15 +41,15 @@ Clique no ícone do seu método de pagamento preferido abaixo:
    - Sombreamento de colinas e terreno 3D
    - Melhorar o editor do OpenStreetMap
    - Melhor pesquisa de endereços offline, roteamento e navegação
-   - ... e [muitas outras][github issues] funcionalidades que deseja e adora
+   - ... e [muitas outras][github issues] funcionalidades que desejas e adoras
 
 ## Como fazer um donativo?
 
-Clique no ícone do seu método de pagamento preferido abaixo:
+Clica no ícone do teu método de pagamento preferido abaixo:
 
 {{ donate_buttons() }}
 
-Os donativos recorrentes são a melhor forma de garantir um rendimento relativamente estável para o projeto e de nos motivar para tarefas e objetivos a longo prazo. Mas também pode fazer um donativo único.
+Os donativos recorrentes são a melhor forma de garantir um rendimento relativamente estável para o projeto e de nos motivar para tarefas e objetivos a longo prazo. Mas também podes fazer um donativo único.
 
 ### Transferência bancária
 
@@ -57,12 +57,12 @@ Os donativos recorrentes são a melhor forma de garantir um rendimento relativam
 
 ### Criptomoeda
 
-Considere a possibilidade de efetuar um donativo anual para reduzir as taxas totais.
+Considera a possibilidade de efetuar um donativo anual para reduzir as taxas totais.
 
 {{ crypto_table() }}
 
-## Pode ajudar-nos de outra forma?
+## Podes ajudar-nos de outra forma?
 
-Sim! Há muitas maneiras de apoiar o Organic Maps. Por favor, consulte a página [Contribuir](@/contribute/index.pt.md) para mais detalhes.
+Sim! Há muitas maneiras de apoiar o Organic Maps. Por favor, consulta a página [Contribuir](@/contribute/index.pt.md) para mais detalhes.
 
 {{ references() }}

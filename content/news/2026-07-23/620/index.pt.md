@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Como já deve ter reparado, a atualização de julho do Organic Maps já está disponível. Pode descarregá-la em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Como já deves ter reparado, a atualização de julho do Organic Maps já está disponível. Podes descarregá-la em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Graças às suas [doações](@/donate/index.pt.md) e aos seus [comentários](@/contribute/index.pt.md), em julho dedicámo-nos à correção de erros e a melhorias. Caso não tenha visto, as seguintes funcionalidades da [versão anterior de junho](@/news/2026-06-29/610/index.pt.md) também estão disponíveis:
+Graças às tuas [doações](@/donate/index.pt.md) e aos teus [comentários](@/contribute/index.pt.md), em julho dedicámo-nos à correção de erros e a melhorias. Caso não tenhas visto, as seguintes funcionalidades da [versão anterior de junho](@/news/2026-06-29/610/index.pt.md) também estão disponíveis:
 - Percursos de transportes públicos (os horários em tempo real estão em desenvolvimento)
 - Imagens de satélite
 - Percursos alternativos para conduzir, fazer caminhadas e andar de bicicleta
@@ -40,10 +40,10 @@ Graças às suas [doações](@/donate/index.pt.md) e aos seus [comentários](@/c
 
 ### iOS
 
-- Nova opção «Guardar histórico de pesquisa», que lhe permite desativar o histórico e ocultá-lo, caso prefira não o guardar _(Kiryl Kaveryn)_
+- Nova opção «Guardar histórico de pesquisa», que te permite desativar o histórico e ocultá-lo, caso prefiras não o guardar _(Kiryl Kaveryn)_
 - Novo botão «Editar» para remover marcadores com mais facilidade _(Kiryl Kaveryn)_
 - Os marcadores passam agora a ser guardados automaticamente quando sai do ecrã _(Kiryl Kaveryn)_
-- A paleta de cores oferece agora cores predefinidas e permite-lhe escolher qualquer cor personalizada _(Kiryl Kaveryn)_
+- A paleta de cores oferece agora cores predefinidas e permite-te escolher qualquer cor personalizada _(Kiryl Kaveryn)_
 - Foi melhorado o estado vazio do gráfico de elevação de um trilho gravado _(Kiryl Kaveryn)_
 - Foi melhorada a visualização do progresso do percurso apresentada no botão «Iniciar» _(Kiryl Kaveryn)_
 - A reordenação das paragens do percurso já não faz com que a lista salte de um lado para o outro _(Kiryl Kaveryn)_
@@ -68,7 +68,7 @@ Graças às suas [doações](@/donate/index.pt.md) e aos seus [comentários](@/c
 - Traduções atualizadas para o ucraniano _(Nnifria)_
 - Corrigidas as traduções para italiano dos nomes das regiões do mapa _(Vittorio Bertola)_
 
-## Junte-se aos testes beta para experimentar funcionalidades antecipadas e comunicar problemas:
+## Junta-te aos testes beta para experimentar funcionalidades antecipadas e comunicar problemas:
 
 Dica: a versão beta inclui um novo sombreado de relevo, dados de altitude melhorados com suporte para pés e metros, e outras funcionalidades fantásticas!
 

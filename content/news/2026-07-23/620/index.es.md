@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Como quizá ya haya notado, ya está disponible la actualización de julio de Organic Maps. Puede descargarla en <https://get.omaps.org> o en [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
+Como quizá ya hayas notado, ya está disponible la actualización de julio de Organic Maps. Puedes descargarla en <https://get.omaps.org> o en [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
 
-Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contribute/index.es.md), en julio nos hemos centrado en la corrección de errores y en mejoras. Por si se lo ha perdido, también están disponibles las siguientes funciones de la [versión anterior de junio](@/news/2026-06-29/610/index.es.md):
+Gracias a tus [donaciones](@/donate/index.es.md) y a tus [comentarios](@/contribute/index.es.md), en julio nos hemos centrado en la corrección de errores y en mejoras. Por si te lo has perdido, también están disponibles las siguientes funciones de la [versión anterior de junio](@/news/2026-06-29/610/index.es.md):
 - Rutas de transporte público (se están elaborando los horarios en tiempo real)
 - Imágenes por satélite
 - Rutas alternativas para ir en coche, hacer senderismo y montar en bicicleta
@@ -40,10 +40,10 @@ Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contrib
 
 ### iOS
 
-- Nueva opción «Guardar historial de búsqueda» que le permite desactivar el historial y ocultarlo si prefiere no conservarlo _(Kiryl Kaveryn)_
+- Nueva opción «Guardar historial de búsqueda» que te permite desactivar el historial y ocultarlo si prefieres no conservarlo _(Kiryl Kaveryn)_
 - Nuevo botón «Editar» para eliminar marcadores más fácilmente _(Kiryl Kaveryn)_
 - Ahora los marcadores se guardan automáticamente al salir de la pantalla _(Kiryl Kaveryn)_
-- La paleta de colores ofrece ahora colores predefinidos y le permite elegir cualquier color personalizado _(Kiryl Kaveryn)_
+- La paleta de colores ofrece ahora colores predefinidos y te permite elegir cualquier color personalizado _(Kiryl Kaveryn)_
 - Se ha mejorado el estado vacío del gráfico de altitud de un track grabado _(Kiryl Kaveryn)_
 - Se ha mejorado la visualización del progreso de la ruta que aparece en el botón «Inicio» _(Kiryl Kaveryn)_
 - Al reordenar las paradas de una ruta, la lista ya no da saltos _(Kiryl Kaveryn)_
@@ -68,7 +68,7 @@ Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contrib
 - Traducciones al ucraniano actualizadas _(Nnifria)_
 - Se han corregido las traducciones al italiano de los nombres de las regiones de los mapas _(Vittorio Bertola)_
 
-## Únase a las pruebas beta para probar funciones anticipadas e informar problemas:
+## Únete a las pruebas beta para probar funciones anticipadas e informar problemas:
 
 Consejo: ¡la versión beta incluye un nuevo sombreado de relieve, datos de altitud mejorados con opciones en pies y metros, y otras funciones interesantes!
 

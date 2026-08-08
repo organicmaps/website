@@ -14,8 +14,8 @@ aliases:
 
 En Android, se almacenas os teus mapas nunha tarxeta SD, a causa máis probable é unha tarxeta SD defectuosa. Podes:
 1. Elimina todos os mapas descargados e volve descargalos de novo na tarxeta SD (pode que non funcione de novo).
-2. Elimine todos os mapas descargados, seleccione Almacenamento interno do dispositivo e volva descargar os mapas.
-3. Formatee a tarxeta SD e volva descargar os mapas.
+2. Elimina todos os mapas descargados, selecciona Almacenamento interno do dispositivo e volve descargar os mapas.
+3. Formatea a tarxeta SD e volve descargar os mapas.
 4. Compra unha tarxeta SD nova (recomendado)
 
 Se a aplicación segue fallando, consulta [o noso GitHub](https://github.com/organicmaps/organicmaps/issues/) para ver problemas similares e [contacta connosco](mailto:support@organicmaps.app) e proporciona o seguinte:
@@ -25,7 +25,7 @@ Se a aplicación segue fallando, consulta [o noso GitHub](https://github.com/org
 * Modelo de dispositivo e versión do SO (Android ou iOS)
 
 Ou alternativamente:
-1. Active a gravación de rexistros na configuración da aplicación.
-2. Force o reinicio da aplicación.
-3. Reproduza o fallo.
-4. Envíenos o ficheiro de rexistro a través de "Informar dun erro" na pantalla Acerca de e engada unha breve descrición do fallo.
+1. Activa a gravación de rexistros na configuración da aplicación.
+2. Forza o reinicio da aplicación.
+3. Reproduce o fallo.
+4. Envíanos o ficheiro de rexistro a través de "Informar dun erro" na pantalla Acerca de e engade unha breve descrición do fallo.

@@ -6,10 +6,10 @@ taxonomies:
   news: ["beta"]
 ---
 
-Obtenha a versão beta mais recente do Organic Maps em <https://beta.omaps.org/> ou [descarregue o APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
+Obtém a versão beta mais recente do Organic Maps em <https://beta.omaps.org/> ou [descarrega o APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - Dados cartográficos do OSM a 12 de junho
-- NOVO! Imagens de fundo de satélite opcionais (procure «Map tiles» nas definições do OM)
+- NOVO! Imagens de fundo de satélite opcionais (procura «Map tiles» nas definições do OM)
 - NOVO! Cálculo de rotas de transportes públicos com metro, metro ligeiro, autocarro e elétrico
 - NOVO! O percurso mais curto como alternativa ao percurso mais rápido
 - NOVO! Avisos de rota no mapa sobre degraus, portões e cancelas

@@ -49,7 +49,7 @@ Fai clic no icono do método de pago preferido a continuación:
 
 {{ donate_buttons() }}
 
-As doazóns recorrentes son a mellor forma de garantir uns ingresos relativamente estables para o proxecto e de motivarnos para tarefas e obxectivos a longo prazo. Pero tamén pode doar unha vez.
+As doazóns recorrentes son a mellor forma de garantir uns ingresos relativamente estables para o proxecto e de motivarnos para tarefas e obxectivos a longo prazo. Pero tamén podes doar unha vez.
 
 ### Transferencia bancaria
 
@@ -57,12 +57,12 @@ As doazóns recorrentes son a mellor forma de garantir uns ingresos relativament
 
 ### Cripto
 
-Considere doar anualmente para reducir as taxas totais.
+Considera doar anualmente para reducir as taxas totais.
 
 {{crypto_table()}}
 
 ## ¿Podes axudarnos doutra maneira?
 
-Si! Hai moitas formas de admitir Organic Maps. Consulte a páxina [Contribuir](@/contribute/index.gl.md) para obter máis detalles.
+Si! Hai moitas formas de admitir Organic Maps. Consulta a páxina [Contribuir](@/contribute/index.gl.md) para obter máis detalles.
 
 {{references()}}

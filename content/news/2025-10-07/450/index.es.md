@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Esta actualización de octubre de Organic Maps añade la visualización del límite de velocidad en Android Auto, la importación de GeoJSON, las estadísticas de grabación de rutas, muestra las etiquetas de descripción de OSM (escriba `?description` en el cuadro de búsqueda para verlas) y guarda un marcador en una ruta en iOS. También hay muchas mejoras en la interfaz de usuario, la edición de OpenStreetMap y varias correcciones de errores en todas las plataformas, incluida la corrección del bloqueo al inicio en algunos dispositivos Android.
+Esta actualización de octubre de Organic Maps añade la visualización del límite de velocidad en Android Auto, la importación de GeoJSON, las estadísticas de grabación de rutas, muestra las etiquetas de descripción de OSM (escribe `?description` en el cuadro de búsqueda para verlas) y guarda un marcador en una ruta en iOS. También hay muchas mejoras en la interfaz de usuario, la edición de OpenStreetMap y varias correcciones de errores en todas las plataformas, incluida la corrección del bloqueo al inicio en algunos dispositivos Android.
 
-Organic Maps es posible gracias ❤️ a nuestros colaboradores, [sus donaciones](@/donate/index.es.md) y [su apoyo](@/contribute/index.es.md).
+Organic Maps es posible gracias ❤️ a nuestros colaboradores, [tus donaciones](@/donate/index.es.md) y [tu apoyo](@/contribute/index.es.md).
 
 ### Notas de lanzamiento detalladas (incluyendo los cambios de la actualización menor anterior)
 
@@ -68,17 +68,17 @@ Organic Maps es posible gracias ❤️ a nuestros colaboradores, [sus donaciones
 - Opción para cancelar la descarga (Viktor Govako)
 - Mostrar tipo de geometría en el menú contextual (Viktor Govako)
 
-### Funciones lanzadas recientemente que podría haber perdido
+### Funciones lanzadas recientemente que podrías haberte perdido
 
 - Números de ruta de transporte público al seleccionar una parada de autobús
-- Rutas de senderismo y ciclismo (actívelas con el botón Capas en la esquina superior izquierda)
+- Rutas de senderismo y ciclismo (actívalas con el botón Capas en la esquina superior izquierda)
 - Ver nombres de marcadores en el mapa activándolo en la Configuración de la aplicación
 - El icono de lápiz ✎ ofrece una forma rápida de editar marcadores
 
 ### Instalar Organic Maps
 
-Obtenga la última versión de Organic Maps desde la [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
+Obtén la última versión de Organic Maps desde la [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
 
-Únase a las pruebas beta para funciones tempranas: [iOS][testflight] / [Android][firebase].
+Únete a las pruebas beta para funciones tempranas: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

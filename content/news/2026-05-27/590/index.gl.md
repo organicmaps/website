@@ -36,7 +36,7 @@ Consigue a actualización en <https://get.omaps.org> ou en [App Store][appstore]
 ### iOS
 
 - NOVO! Agora se admite o texto dos tracks e as descricións HTML, do mesmo xeito que as descricións para os marcadores. Preme na icona do lápis para engadir unha descrición. _(Kiryl Kaveryn)_
-- Text-to-Speech (TTS) agora elixe a mellor voz instalada para o idioma (Ampliada / Premium). Consulte a configuración de Organic Maps para saber como descargar unha voz de maior calidade. _(Kiryl Kaveryn)_
+- Text-to-Speech (TTS) agora elixe a mellor voz instalada para o idioma (Ampliada / Premium). Consulta a configuración de Organic Maps para saber como descargar unha voz de maior calidade. _(Kiryl Kaveryn)_
 - Corrixiuse un erro ao renomear un track no que o novo nome non se actualizaba correctamente _(Kiryl Kaveryn)_
 - CarPlay: arranxouse o botón de recentrar _(Kiryl Kaveryn)_
 - Arranxouse un fallo que provocaba o peche forzado ao engadir un marcador nunha ruta de sendeirismo ou ciclismo _(Alexander Borsuk)_

@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instale a versão de agosto do Organic Maps, descarregue os mapas mais recentes e descubra rotas populares de caminhada e ciclismo em todo o mundo! Pressione o botão "Camadas" no canto superior esquerdo para ver rotas coloridas de bicicleta e BTT, bem como caminhos oficiais de caminhada e passeio. Não vê nada nas proximidades? Então é hora de adicionar a informação em falta ao OpenStreetMap.org, uma vez que todos os dados de mapas no Organic Maps vêm desse projeto aberto, gratuito e gerido pela comunidade.
+Instala a versão de agosto do Organic Maps, descarrega os mapas mais recentes e descobre rotas populares de caminhada e ciclismo em todo o mundo! Pressiona o botão "Camadas" no canto superior esquerdo para ver rotas coloridas de bicicleta e BTT, bem como caminhos oficiais de caminhada e passeio. Não vês nada nas proximidades? Então é hora de adicionar a informação em falta ao OpenStreetMap.org, uma vez que todos os dados de mapas no Organic Maps vêm desse projeto aberto, gratuito e gerido pela comunidade.
 
-Sabia que qualquer percurso gravado ou importado em GPX/KML no mapa pode ser selecionado? Percursos com dados de altitude exibirão o seu gráfico de elevação.
+Sabias que qualquer percurso gravado ou importado em GPX/KML no mapa pode ser selecionado? Percursos com dados de altitude exibirão o seu gráfico de elevação.
 
-Para ver nomes de marcadores no mapa, ative este novo recurso nas definições do Organic Maps.
+Para ver nomes de marcadores no mapa, ativa este novo recurso nas definições do Organic Maps.
 
-Graças aos nossos colaboradores ❤️ e às suas [doações](@/donate/index.pt.md), há muito mais nesta atualização.
+Graças aos nossos colaboradores ❤️ e às tuas [doações](@/donate/index.pt.md), há muito mais nesta atualização.
 
-P.S. ...e muito mais está para vir! O seu apoio ajuda-nos e motiva-nos a construir os melhores mapas – juntos.
+P.S. …e muito mais está para vir! O teu apoio ajuda-nos e motiva-nos a construir os melhores mapas – juntos.
 
 ### Notas detalhadas da versão
 
@@ -57,6 +57,6 @@ P.S. ...e muito mais está para vir! O seu apoio ajuda-nos e motiva-nos a constr
 - Tradução em espanhol para mais categorias de pesquisa (David Martinez)
 - Atualizadas várias traduções (colaboradores do Weblate)
 
-Obtenha o Organic Maps na [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [FDroid][fdroid].
+Obtém o Organic Maps na [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [FDroid][fdroid].
 
 {{ references() }}

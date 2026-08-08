@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por todos os nossos contribuidores! Instale a partir de <https://omaps.app/get> ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
+Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por todos os nossos contribuidores! Instala a partir de <https://omaps.app/get> ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
 
 ### Notas da versão (todas as plataformas)
 
@@ -42,11 +42,11 @@ Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por tod
 * Corrigidos anúncios de orientação por voz TTS ausentes (Alexander Borsuk)
 
 
-Participe dos testes beta para experimentar recursos antecipados e relatar problemas:
+Participa nos testes beta para experimentar recursos antecipados e relatar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-O Organic Maps existe graças às suas [doações](@/donate/index.pt.md) e [contribuições](@/contribute/index.pt.md) ❤️
+O Organic Maps existe graças às tuas [doações](@/donate/index.pt.md) e [contribuições](@/contribute/index.pt.md) ❤️
 
 A Equipa do Organic Maps
 

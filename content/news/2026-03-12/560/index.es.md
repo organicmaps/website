@@ -8,7 +8,7 @@ taxonomies:
 
 La actualización de Organic Maps de marzo tardó más tiempo debido a las correcciones y a la revisión de Google Play. La actualización de [Accrescent][accrescent] aún no está lista debido a los problemas de la tienda de aplicaciones de Accrescent. Consigue la actualización en <https://get.omaps.org> o en [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
 
-P.D. Contacte con nosotros por correo electrónico en <sdk@organicmaps.app> si está interesado en iOS/Android/Linux/MacOS/Windows SDK con mapas offline que pueda reutilizar en sus proyectos.
+P.D. Contacta con nosotros por correo electrónico en <sdk@organicmaps.app> si estás interesado en iOS/Android/Linux/MacOS/Windows SDK con mapas offline que puedas reutilizar en tus proyectos.
 
 P.P.S. ¿Sabías de la API que ya puedes usar en tu aplicación si la aplicación Organic Maps también está instalada? Compruébalo aquí: <https://omaps.app/api>
 

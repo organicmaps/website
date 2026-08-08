@@ -12,8 +12,8 @@ A diferencia da maioría das outras aplicacións, non hai seguimento, anuncios, 
 
 Rexeita a vixilancia - abraza a túa liberdade.
 
-Mantéñase lonxe dos ollos indiscretos das grandes tecnolóxicas!
+Mantente lonxe dos ollos indiscretos das grandes tecnolóxicas!
 
-Se tes algunha pregunta ou suxestión, póñase en contacto connosco en [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Se tes algunha pregunta ou suxestión, ponte en contacto connosco en [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Esta política entrará en vigor o 24/04/2021.</sub>

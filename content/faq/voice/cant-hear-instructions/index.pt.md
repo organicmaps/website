@@ -13,12 +13,12 @@ aliases:
   - /pt/faq/voice/cant-hear-instructions/
 ---
 
-**Nota:** as instruções de voz estão disponíveis apenas em rotas de carro e de bicicleta. Neste momento pode ouvir as instruções de voz apenas ao conduzir um veículo e quando o ecrã estiver ligado.
+**Nota:** as instruções de voz estão disponíveis apenas em rotas de carro e de bicicleta. Neste momento podes ouvir as instruções de voz apenas ao conduzir um veículo e quando o ecrã estiver ligado.
 
-Se não consegue ouvir as instruções de voz:
+Se não consegues ouvir as instruções de voz:
 
-* Certifique-se que o volume do seu dispositivo não está no mínimo. Pode alterar o nível de volume com os botões de volume do seu dispositivo. Para isso, pode ter de desativar a opção "Regular volume com botões" (se estiver ativado) nas configurações do dispositivo → Sons.
+* Certifica-te que o volume do teu dispositivo não está no mínimo. Podes alterar o nível de volume com os botões de volume do teu dispositivo. Para isso, podes ter de desativar a opção "Regular volume com botões" (se estiver ativado) nas configurações do dispositivo → Sons.
 
-* Quando tem o Bluetooth ativado, este não deve refletir as instruções de voz. No entanto, não testamos a orientação por voz com o áudio do carro, isso pode causar problemas. Neste caso, pode desativar o Bluetooth.
+* Quando tens o Bluetooth ativado, este não deve refletir as instruções de voz. No entanto, não testamos a orientação por voz com o áudio do carro, isso pode causar problemas. Neste caso, podes desativar o Bluetooth.
 
-* Se usar o Android e a opção estiver desativada (ou se alguns idiomas suportados estiverem indisponíveis), verifique as configurações do sistema TTS do Android.
+* Se usares o Android e a opção estiver desativada (ou se alguns idiomas suportados estiverem indisponíveis), verifica as configurações do sistema TTS do Android.

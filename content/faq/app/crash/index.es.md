@@ -22,7 +22,7 @@ Si el problema persiste [ponte en contacto con nosotros](mailto:support@organicm
 * el modelo de dispositivo y la versión de OS (Android o iOS).
 
 O alternativamente:
-1. Habilite la grabación de registros en la configuración de la aplicación.
-2. Fuerce el reinicio de la aplicación.
-3. Reproduzca el bloqueo.
-4. Envíenos el archivo de registro a través de "Informar un error" en la pantalla Acerca de y agregue una breve descripción del bloqueo.
+1. Habilita la grabación de registros en la configuración de la aplicación.
+2. Fuerza el reinicio de la aplicación.
+3. Reproduce el bloqueo.
+4. Envíanos el archivo de registro a través de "Informar un error" en la pantalla Acerca de y agrega una breve descripción del bloqueo.

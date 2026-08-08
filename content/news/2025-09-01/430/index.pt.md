@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Agora, quando seleciona uma paragem de autocarro ou elétrico, pode ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar local" e "Editar local").
+Agora, quando selecionas uma paragem de autocarro ou elétrico, podes ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar local" e "Editar local").
 
-Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações](@/donate/index.pt.md) e [vosso apoio](@/contribute/index.pt.md).
+Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [tuas doações](@/donate/index.pt.md) e [teu apoio](@/contribute/index.pt.md).
 
 ### Notas detalhadas da versão
 
@@ -46,10 +46,10 @@ Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações
 - Ordem original de cores predefinidas de marcadores/percursos restaurada (Andrei Shkrob)
 - Botão "Limpar pesquisa" corrigido ao editar cozinhas (Ansh Jain)
 
-Obtenha a versão mais recente de setembro do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
+Obtém a versão mais recente de setembro do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
 
-Se ainda não experimentou, pode agora ativar uma funcionalidade nas definições do Organic Maps para ver nomes de marcadores no mapa. Além disso, um ícone de lápis ✎ é agora usado como uma forma mais rápida de editar marcadores.
+Se ainda não experimentaste, podes agora ativar uma funcionalidade nas definições do Organic Maps para ver nomes de marcadores no mapa. Além disso, um ícone de lápis ✎ é agora usado como uma forma mais rápida de editar marcadores.
 
-P.S. Não se esqueça, pode inscrever-se no nosso programa de testes beta para obter acesso antecipado a funcionalidades experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
+P.S. Não te esqueças, podes inscrever-te no nosso programa de testes beta para obter acesso antecipado a funcionalidades experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
 
 {{ references() }}

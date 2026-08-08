@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Graças aos nossos colaboradores, **sexta-feira é um bom momento para atualizar o Organic Maps!** Obtenha a atualização em [https://get.omaps.org](https://get.omaps.org) ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Graças aos nossos colaboradores, **sexta-feira é um bom momento para atualizar o Organic Maps!** Obtém a atualização em [https://get.omaps.org](https://get.omaps.org) ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Se pretende ver **horários de transportes públicos em tempo real** na sua cidade numa das próximas atualizações, por favor:
+Se pretendes ver **horários de transportes públicos em tempo real** na tua cidade numa das próximas atualizações, por favor:
 
-1. [Envie-nos](https://github.com/organicmaps/gtfs-osm-matcher/issues) as **fontes de feeds GTFS estáticos e em tempo real** das suas agências de transporte locais para que possamos testá-las e integrá-las.
-2. Verifique se os **dados do OpenStreetMap** na sua área incluem todas as paragens de autocarro/elétrico/comboio com as etiquetas necessárias em [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Envia-nos](https://github.com/organicmaps/gtfs-osm-matcher/issues) as **fontes de feeds GTFS estáticos e em tempo real** das tuas agências de transporte locais para que possamos testá-las e integrá-las.
+2. Verifica se os **dados do OpenStreetMap** na tua área incluem todas as paragens de autocarro/elétrico/comboio com as etiquetas necessárias em [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Notas de lançamento
 
@@ -57,7 +57,7 @@ Se pretende ver **horários de transportes públicos em tempo real** na sua cida
 * Atualizadas as traduções dos colaboradores do Weblate (Viktor Govako)
 
 
-Junte-se aos testes beta para experimentar funcionalidades antecipadas e reportar problemas:
+Junta-te aos testes beta para experimentar funcionalidades antecipadas e reportar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

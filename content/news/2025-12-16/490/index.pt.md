@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Feliz Natal e Próspero Ano Novo da equipa do Organic Maps. À procura do espírito natalício? Pesquise por `Mercado de Natal` ou `Árvore de Natal` para vê-los no mapa. Se nada aparecer na sua área, por favor adicione os elementos em falta no OpenStreetMap.org e melhore o mapa para todos!
+Feliz Natal e Próspero Ano Novo da equipa do Organic Maps. À procura do espírito natalício? Pesquisa por `Mercado de Natal` ou `Árvore de Natal` para vê-los no mapa. Se nada aparecer na tua área, por favor adiciona os elementos em falta no OpenStreetMap.org e melhora o mapa para todos!
 
-Instale o Organic Maps a partir de <https://omaps.app/get> ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
+Instala o Organic Maps a partir de <https://omaps.app/get> ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
 
 ### Notas de lançamento
 
@@ -36,11 +36,11 @@ Instale o Organic Maps a partir de <https://omaps.app/get> ou da [App Store][app
 - O sensor de localização do carro no Android Auto foi desativado para evitar problemas de localização (Andrei Shkrob)
 - A gravação do trilho continua mesmo se a aplicação for encerrada ou fechada (Alexander Borsuk)
 
-Junte-se aos testes beta para experimentar funcionalidades antecipadas e reportar problemas:
+Junta-te aos testes beta para experimentar funcionalidades antecipadas e reportar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-O Organic Maps existe graças aos seus [donativos](@/donate/index.pt.md) e [contribuições](@/contribute/index.pt.md). Obrigado! ❤️
+O Organic Maps existe graças aos teus [donativos](@/donate/index.pt.md) e [contribuições](@/contribute/index.pt.md). Obrigado! ❤️
 
 A Equipa Organic Maps
 

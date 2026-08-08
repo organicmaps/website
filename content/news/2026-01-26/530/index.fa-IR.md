@@ -8,7 +8,7 @@ taxonomies:
 
 وقت به‌روزرسانی Organic Maps است! مسیرهای سریع‌تر بین کشورها و مناطق، داده‌های نقشه OSM جدید، و رفع اشکال‌های فراوان برای Android در دومین به‌روزرسانی برنامه در ۲۰۲۶.
 
-آن را از [get.omaps.org](https://get.omaps.org) یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کن.
+آن را از [get.omaps.org](https://get.omaps.org) یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید.
 
 ### چه چیزی جدید است
 
@@ -40,11 +40,11 @@ taxonomies:
 * افزودن ترجمه‌های از دست رفته برای پل‌های متروکه _(Alexander Borsuk)_
 
 
-به آزمایش نسخه بتا بپیوند تا ویژگی‌های اولیه را امتحان کنی و مشکلات را گزارش بدهی:
+به آزمایش نسخه بتا بپیوندید تا ویژگی‌های اولیه را امتحان کنید و مشکلات را گزارش بدهید:
 - [iOS][testflight]
 - [Android][firebase]
 
-[کمک مالی کن](@/donate/index.fa-IR.md) و [مشارکت کن](@/contribute/index.fa-IR.md) تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های Apple و Google بسازیم.
+[کمک مالی کنید](@/donate/index.fa-IR.md) و [مشارکت کنید](@/contribute/index.fa-IR.md) تا جایگزینی بهتر و متمرکز بر حریم خصوصی برای نقشه‌های Apple و Google بسازیم.
 
 با عشق،
 تیم Organic Maps

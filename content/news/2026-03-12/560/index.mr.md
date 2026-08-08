@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-हॉटफिक्स आणि Google Play पुनरावलोकनामुळे मार्चच्या Organic Maps अपडेटला अधिक वेळ लागला. Accrescent ॲप स्टोरच्या समस्यांमुळे [Accrescent][accrescent] अपडेट अद्याप तयार नाही. अपडेट <https://get.omaps.org> वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर मिळव.
+हॉटफिक्स आणि Google Play पुनरावलोकनामुळे मार्चच्या Organic Maps अपडेटला अधिक वेळ लागला. Accrescent ॲप स्टोरच्या समस्यांमुळे [Accrescent][accrescent] अपडेट अद्याप तयार नाही. अपडेट <https://get.omaps.org> वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर मिळवा.
 
-टीप: तुझ्या प्रोजेक्ट्समध्ये ऑफलाइन नकाशांसह iOS/Android/Linux/MacOS/Windows SDK मध्ये स्वारस्य असल्यास आम्हाला <sdk@organicmaps.app> वर ईमेलद्वारे संपर्क कर.
+टीप: तुमच्या प्रोजेक्ट्समध्ये ऑफलाइन नकाशांसह iOS/Android/Linux/MacOS/Windows SDK मध्ये स्वारस्य असल्यास आम्हाला <sdk@organicmaps.app> वर ईमेलद्वारे संपर्क करा.
 
-दुसरी टीप: Organic Maps ॲप देखील इंस्टॉल असल्यास तुझ्या ॲपमध्ये वापरता येणाऱ्या API बद्दल तुला माहीत आहे का? येथे तपास: <https://omaps.app/api>
+दुसरी टीप: Organic Maps ॲप देखील इंस्टॉल असल्यास तुमच्या ॲपमध्ये वापरता येणाऱ्या API बद्दल तुम्हाला माहीत आहे का? येथे तपासा: <https://omaps.app/api>
 
 ### प्रकाशन नोट्स
 * 10 मार्चपर्यंतचा OSM नकाशा डेटा
@@ -40,7 +40,7 @@ taxonomies:
 * Weblate योगदानकर्त्यांकडून भाषांतरे अद्यतनित केली (Viktor Govako)
 * युक्रेनियन भाषांतर निश्चित केले (Nnifria)
 
-प्रारंभिक वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा चाचणीमध्ये सामील हो:
+प्रारंभिक वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा चाचणीमध्ये सामील व्हा:
 - [iOS][testflight]
 - [Android][firebase]
 

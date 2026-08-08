@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-आमच्या सर्व योगदानकर्त्यांमुळे शक्य झालेल्या Organic Maps अपडेटसह 2026 सुरू करूया! <https://omaps.app/get> किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून इंस्टॉल कर
+आमच्या सर्व योगदानकर्त्यांमुळे शक्य झालेल्या Organic Maps अपडेटसह 2026 सुरू करूया! <https://omaps.app/get> किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून इंस्टॉल करा
 
 ### रिलीझ नोट्स (सर्व प्लॅटफॉर्म)
 
@@ -42,11 +42,11 @@ taxonomies:
 * गहाळ TTS व्हॉईस मार्गदर्शन घोषणा निश्चित केल्या (Alexander Borsuk)
 
 
-लवकर वैशिष्ट्ये वापरण्यासाठी आणि समस्या अहवाल देण्यासाठी बीटा चाचणीमध्ये सामील हो:
+लवकर वैशिष्ट्ये वापरण्यासाठी आणि समस्या अहवाल देण्यासाठी बीटा चाचणीमध्ये सामील व्हा:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps तुझ्या [देणग्या](@/donate/index.mr.md) आणि [योगदान](@/contribute/index.mr.md) मुळे अस्तित्वात आहे ❤️
+Organic Maps तुमच्या [देणग्या](@/donate/index.mr.md) आणि [योगदान](@/contribute/index.mr.md) मुळे अस्तित्वात आहे ❤️
 
 Organic Maps टीम
 

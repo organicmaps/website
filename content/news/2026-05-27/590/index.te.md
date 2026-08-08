@@ -8,7 +8,7 @@ taxonomies:
 
 పరిష్కారాలు మరియు మెరుగుదలలతో (మరిన్ని వివరాలు దిగువన) మరో Organic Maps మే అప్‌డేట్‌ని కలువు. ప్రాజెక్ట్‌కి మద్దతిచ్చే ప్రతి ఒక్కరికీ Organic Maps బృందం కృతజ్ఞతలు, [విరాళాలు ఇస్తారు](@/donate/index.te.md), ప్రచారం చేస్తారు, మంచి సమీక్షలు వ్రాస్తారు మరియు [సహకరిస్తారు](@/contribute/index.te.md) దానికి. మెరుగుపరచబడిన [ప్రజా రవాణా](@/news/2026-05-08/580/index.te.md)తో సహా మరిన్ని కొత్త ఫీచర్‌లు రానున్నాయి, వేచి ఉండండి!
 
-<https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో నవీకరణను పొందు.
+<https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో నవీకరణను పొందండి.
 
 ### అన్ని ప్లాట్‌ఫారమ్‌లు
 
@@ -51,13 +51,13 @@ taxonomies:
 - `.desktop` ఫైల్ వ్యాఖ్యలకు చైనీస్ అనువాదాలు జోడించబడ్డాయి _(DeepChirp)_
 
 
-## ప్రారంభ లక్షణాలను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరు:
+## ప్రారంభ లక్షణాలను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరండి:
 
 - [iOS][testflight]
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]
 
-సులభంగా ప్రయాణించు మరియు Organic Mapsతో నీ సాహసాలను కనుగొను! ✈️🚅🚌🚢🌴🗺️🌎
+సులభంగా ప్రయాణించండి మరియు Organic Mapsతో మీ సాహసాలను కనుగొనండి! ✈️🚅🚌🚢🌴🗺️🌎
 
 Organic Maps బృందం
 

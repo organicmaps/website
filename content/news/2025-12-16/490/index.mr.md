@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps टीमकडून ख्रिसमस आणि नवीन वर्षाच्या शुभेच्छा. सुट्टीचा आनंद शोधत आहेस? नकाशावर पाहण्यासाठी `ख्रिसमस मार्केट` किंवा `ख्रिसमस ट्री` शोध. जर तुझ्या भागात काहीही दिसत नसेल, तर कृपया OpenStreetMap.org वर गहाळ वैशिष्ट्ये जोड आणि प्रत्येकासाठी नकाशा सुधार!
+Organic Maps टीमकडून ख्रिसमस आणि नवीन वर्षाच्या शुभेच्छा. सुट्टीचा आनंद शोधत आहात? नकाशावर पाहण्यासाठी `ख्रिसमस मार्केट` किंवा `ख्रिसमस ट्री` शोधा. जर तुमच्या भागात काहीही दिसत नसेल, तर कृपया OpenStreetMap.org वर गहाळ वैशिष्ट्ये जोडा आणि प्रत्येकासाठी नकाशा सुधारा!
 
-https://omaps.app/get वरून किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून Organic Maps इंस्टॉल कर.
+https://omaps.app/get वरून किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून Organic Maps इंस्टॉल करा.
 
 ### रिलीज नोट्स
 - ख्रिसमस ट्री आणि मार्केट आता नकाशावर दिसतात (Viktor Govako)
@@ -33,11 +33,11 @@ https://omaps.app/get वरून किंवा [App Store][appstore], [Googl
 - स्थान समस्या टाळण्यासाठी Android Auto मधील कार स्थान सेन्सर अक्षम केला आहे (Andrei Shkrob)
 - ॲप बंद केले किंवा मारले तरीही ट्रॅक रेकॉर्डिंग चालू राहते (Alexander Borsuk)
 
-लवकर वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा टेस्टिंगमध्ये सामील हो:
+लवकर वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा टेस्टिंगमध्ये सामील व्हा:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps तुझ्या [देणग्या](@/donate/index.mr.md) आणि [योगदानांमुळे](@/contribute/index.mr.md) अस्तित्वात आहे. धन्यवाद! ❤️
+Organic Maps तुमच्या [देणग्या](@/donate/index.mr.md) आणि [योगदानांमुळे](@/contribute/index.mr.md) अस्तित्वात आहे. धन्यवाद! ❤️
 
 Organic Maps टीम
 

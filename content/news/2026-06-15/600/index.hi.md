@@ -6,7 +6,7 @@ taxonomies:
   news: ["beta"]
 ---
 
-नवीनतम Organic Maps बीटा <https://beta.omaps.org/> पर प्राप्त करो या [APK डाउनलोड करो](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
+नवीनतम Organic Maps बीटा <https://beta.omaps.org/> पर प्राप्त करें या [APK डाउनलोड करें](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - 12 जून तक का OSM मानचित्र डेटा
 - नया! वैकल्पिक सैटेलाइट पृष्ठभूमि छवियाँ (OM सेटिंग्स में “मैप टाइलें” खोजें)
@@ -22,4 +22,4 @@ taxonomies:
 
 … और भी कई सुधार और बग फिक्स!
 
-क्या तुम और अधिक शानदार सुविधाएँ और कम बग्स चाहते हो? विकास का समर्थन करने के लिए [दान करो](@/donate/index.hi.md)!
+क्या आप और अधिक शानदार सुविधाएँ और कम बग्स चाहते हैं? विकास का समर्थन करने के लिए [दान करें](@/donate/index.hi.md)!

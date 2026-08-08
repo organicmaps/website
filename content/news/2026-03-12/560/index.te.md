@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-హాట్‌ఫిక్స్‌లు మరియు Google Play సమీక్ష కారణంగా మార్చి Organic Maps అప్‌డేట్‌కు ఎక్కువ సమయం పట్టింది. Accrescent యాప్ స్టోర్ సమస్యల కారణంగా [Accrescent][accrescent] అప్‌డేట్ ఇంకా సిద్ధం కాలేదు. అప్‌డేట్‌ను <https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందు.
+హాట్‌ఫిక్స్‌లు మరియు Google Play సమీక్ష కారణంగా మార్చి Organic Maps అప్‌డేట్‌కు ఎక్కువ సమయం పట్టింది. Accrescent యాప్ స్టోర్ సమస్యల కారణంగా [Accrescent][accrescent] అప్‌డేట్ ఇంకా సిద్ధం కాలేదు. అప్‌డేట్‌ను <https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందండి.
 
-గమనిక: నీ ప్రాజెక్ట్‌లలో ఆఫ్‌లైన్ మ్యాప్‌లతో iOS/Android/Linux/MacOS/Windows SDK పై ఆసక్తి ఉంటే <sdk@organicmaps.app> కు ఇమెయిల్ ద్వారా మమ్మల్ని సంప్రదించు.
+గమనిక: మీ ప్రాజెక్ట్‌లలో ఆఫ్‌లైన్ మ్యాప్‌లతో iOS/Android/Linux/MacOS/Windows SDK పై ఆసక్తి ఉంటే <sdk@organicmaps.app> కు ఇమెయిల్ ద్వారా మమ్మల్ని సంప్రదించండి.
 
-రెండవ గమనిక: Organic Maps యాప్ కూడా ఇన్‌స్టాల్ చేయబడి ఉంటే నీ యాప్‌లో ఉపయోగించగల API గురించి నీకు తెలుసా? ఇక్కడ చూడు: <https://omaps.app/api>
+రెండవ గమనిక: Organic Maps యాప్ కూడా ఇన్‌స్టాల్ చేయబడి ఉంటే మీ యాప్‌లో ఉపయోగించగల API గురించి మీకు తెలుసా? ఇక్కడ చూడండి: <https://omaps.app/api>
 
 ### విడుదల నోట్స్
 * మార్చి 10 నాటి OSM మ్యాప్ డేటా
@@ -40,7 +40,7 @@ taxonomies:
 * Weblate కంట్రిబ్యూటర్ల నుండి అనువాదాలు నవీకరించబడ్డాయి (Viktor Govako)
 * ఉక్రేనియన్ అనువాదం సరిచేయబడింది (Nnifria)
 
-ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరు:
+ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరండి:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -13,7 +13,7 @@ taxonomies:
 - رابط جدید جستجو و برنامه‌ریزی مسیر برای Android
 - پشتیبانی از فونت‌های بزرگ دسترس‌پذیری برای iOS
 
-آن را از <https://get.omaps.org> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کن و نظرت را به ما بگو!
+آن را از <https://get.omaps.org> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کنید و نظرتان را به ما بگویید!
 
 ## فهرست تغییرات تفصیلی
 
@@ -22,10 +22,10 @@ taxonomies:
 - جدید! هشدارهای مسیر پیاده‌روی و دوچرخه‌سواری دربارهٔ پله‌ها، دروازه‌ها و راه‌بندها در طول مسیر _(Viktor Govako)_
 - جدید! انتخاب هر رنگ برای نشانک‌ها _(Alexander Borsuk, Mikhail Listratsenka)_
 - جدید! پشتیبانی از مختصات شبکهٔ ملی بریتانیا (OS Grid)، شبکهٔ ایرلند و مرکاتور عرضی ایرلند (ITM) _(Alexander Borsuk)_
-- آزمایشی: تصاویر ماهواره‌ای را در تنظیمات Organic Maps با نشانی URL سرور کاشی رستری سفارشی فعال کن. ما هنوز روی سرور خودمان کار می‌کنیم، بنابراین لطفاً یک سرور در دسترس عمومی پیدا کن که جای‌نگهدارهای `{x}`، `{y}`، `{z}` را در URL خود داشته باشد _(Viktor Govako, renderexpert)_
+- آزمایشی: تصاویر ماهواره‌ای را در تنظیمات Organic Maps با نشانی URL سرور کاشی رستری سفارشی فعال کنید. ما هنوز روی سرور خودمان کار می‌کنیم، بنابراین لطفاً یک سرور در دسترس عمومی پیدا کنید که جای‌نگهدارهای `{x}`، `{y}`، `{z}` را در URL خود داشته باشد _(Viktor Govako, renderexpert)_
 - داده‌های OpenStreetMap تا ۲۴ ژوئن به‌روزرسانی شد _(Viktor Govako)_
 - داده‌های Wikipedia تا ۲۰ ژوئن به‌روزرسانی شد، از جمله مقاله‌های ایتالیایی _(Alexander Borsuk)_
-- برای نادیده گرفتن سرورهای دانلود نقشهٔ Organic Maps، در پنجرهٔ جستجو `?map-download-server:https://your-server.com/` را وارد کن. برای حذف این تغییر، `?no-map-download-server` را وارد کن _(Alexander Borsuk)_
+- برای نادیده گرفتن سرورهای دانلود نقشهٔ Organic Maps، در پنجرهٔ جستجو `?map-download-server:https://your-server.com/` را وارد کنید. برای حذف این تغییر، `?no-map-download-server` را وارد کنید _(Alexander Borsuk)_
 
 #### رندر نقشه و سبک‌ها
 
@@ -48,7 +48,7 @@ taxonomies:
 ### iOS
 
 - جدید! پشتیبانی دسترس‌پذیری از Dynamic Type و فونت‌های بزرگ _(Kiryl Kaveryn)_
-- جدید! برای انتخاب میان مسیرهای ضبط‌شده و مسیرهای هم‌پوشان، ضربه بزن _(Kiryl Kaveryn)_
+- جدید! برای انتخاب میان مسیرهای ضبط‌شده و مسیرهای هم‌پوشان، ضربه بزنید _(Kiryl Kaveryn)_
 - نمایش HTML توضیحات نشانک‌ها و مسیرهای ضبط‌شده بهبود یافت _(Kiryl Kaveryn)_
 - سبک‌بندی جدول‌ها در رابط کاربری تمیزتر شد _(Kiryl Kaveryn)_
 
@@ -77,7 +77,7 @@ taxonomies:
 - ترجمه‌های آلمانی و فرانسوی به‌روزرسانی شدند _(Wuzzy, Alexander Borsuk)_
 - ترجمه‌های نادرست راهنمای صوتی «به خیابان» برای زبان‌های چینی، صربی و کاتالانی اصلاح شد _(Alexander Borsuk)_
 
-## برای امتحان کردن ویژگی‌های اولیه و گزارش مشکلات، به تست بتا بپیوند:
+## برای امتحان کردن ویژگی‌های اولیه و گزارش مشکلات، به تست بتا بپیوندید:
 
 - [iOS][testflight]
 - [Android][firebase]

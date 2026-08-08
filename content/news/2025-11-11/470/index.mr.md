@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto नेहमी कार राउटिंग मोड वापरते (Andrei Shkrob)
 - हाँगकाँग (zh-HK) आणि मकाऊ (zh-MO) प्रदेशांसाठी पारंपारिक चीनी भाषांतरे वापरा (Alexander Borsuk)
 
-कृपया आम्हाला कळव की तू OpenGL ES 3 समर्थनासह कोणत्याही x86 डिव्हाइसवर (Chromebooks सह) Organic Maps चालवू शकतोस का.
+कृपया आम्हाला कळवा की तुम्ही OpenGL ES 3 समर्थनासह कोणत्याही x86 डिव्हाइसवर (Chromebooks सह) Organic Maps चालवू शकता का.
 
 ### नकाशा आणि शैली
 
@@ -62,9 +62,9 @@ taxonomies:
 
 मागील रिलीझ नोट्स: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-नवीनतम Organic Maps आवृत्ती [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून मिळव.
+नवीनतम Organic Maps आवृत्ती [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून मिळवा.
 
-P.S. लवकर वैशिष्ट्यांसाठी बीटा चाचणीमध्ये सामील हो आणि आम्हाला बग आणि समस्या शोधण्यात मदत कर:
+P.S. लवकर वैशिष्ट्यांसाठी बीटा चाचणीमध्ये सामील व्हा आणि आम्हाला बग आणि समस्या शोधण्यात मदत करा:
 - [iOS][testflight]
 - [Android][firebase].
 

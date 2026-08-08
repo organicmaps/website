@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-हमारे सहयोगियों को धन्यवाद, **Organic Maps को अपडेट करने के लिए शुक्रवार एक अच्छा समय है!** अपडेट यहाँ प्राप्त करो [https://get.omaps.org](https://get.omaps.org) या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] पर।
+हमारे सहयोगियों को धन्यवाद, **Organic Maps को अपडेट करने के लिए शुक्रवार एक अच्छा समय है!** अपडेट यहाँ प्राप्त करें [https://get.omaps.org](https://get.omaps.org) या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] पर।
 
-यदि तुम आगामी अपडेट में अपने शहर में **वास्तविक समय की सार्वजनिक परिवहन समय सारिणी** देखना चाहते हो, तो कृपया:
+यदि आप आगामी अपडेट में अपने शहर में **वास्तविक समय की सार्वजनिक परिवहन समय सारिणी** देखना चाहते हैं, तो कृपया:
 
-1. हमें अपनी स्थानीय परिवहन एजेंसियों से **स्थैतिक और रीयल-टाइम GTFS फ़ीड स्रोत** [भेजो](https://github.com/organicmaps/gtfs-osm-matcher/issues) ताकि हम उनका परीक्षण और एकीकरण कर सकें।
-2. जाँचो कि क्या तुम्हारे क्षेत्र में **OpenStreetMap डेटा** में सभी बस/ट्राम/ट्रेन स्टॉप आवश्यक टैग के साथ [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) पर शामिल हैं।
+1. हमें अपनी स्थानीय परिवहन एजेंसियों से **स्थैतिक और रीयल-टाइम GTFS फ़ीड स्रोत** [भेजें](https://github.com/organicmaps/gtfs-osm-matcher/issues) ताकि हम उनका परीक्षण और एकीकरण कर सकें।
+2. जाँचें कि क्या आपके क्षेत्र में **OpenStreetMap डेटा** में सभी बस/ट्राम/ट्रेन स्टॉप आवश्यक टैग के साथ [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) पर शामिल हैं।
 
 ### रिलीज़ नोट्स
 
@@ -57,7 +57,7 @@ taxonomies:
 * वीबलेट सहयोगियों से अनुवाद अपडेट किए गए (Viktor Govako)
 
 
-शुरुआती सुविधाओं को आज़माने और समस्याओं की रिपोर्ट करने के लिए बीटा परीक्षण में शामिल हो जाओ:
+शुरुआती सुविधाओं को आज़माने और समस्याओं की रिपोर्ट करने के लिए बीटा परीक्षण में शामिल हों:
 - [iOS][testflight]
 - [Android][firebase]
 

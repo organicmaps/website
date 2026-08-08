@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-మా సహాయకులందరికీ కృతజ్ఞతలు తెలుపుతూ 2026ని Organic Maps నవీకరణతో ప్రారంభిద్దాం! <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయి
+మా సహాయకులందరికీ కృతజ్ఞతలు తెలుపుతూ 2026ని Organic Maps నవీకరణతో ప్రారంభిద్దాం! <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
 
 ### విడుదల గమనికలు (అన్ని ప్లాట్‌ఫారమ్‌లు)
 
@@ -42,11 +42,11 @@ taxonomies:
 * తప్పిపోయిన TTS వాయిస్ గైడెన్స్ ప్రకటనలు పరిష్కరించబడ్డాయి (Alexander Borsuk)
 
 
-ప్రారంభ ఫీచర్లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరు:
+ప్రారంభ ఫీచర్లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరండి:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps నీ [విరాళాలు](@/donate/index.te.md) మరియు [సహాయం](@/contribute/index.te.md) వల్ల ఉనికిలో ఉంది ❤️
+Organic Maps మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహాయం](@/contribute/index.te.md) వల్ల ఉనికిలో ఉంది ❤️
 
 Organic Maps బృందం
 

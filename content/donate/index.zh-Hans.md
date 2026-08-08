@@ -67,6 +67,6 @@ Organic Maps 应用因您的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
 
 ## 还有其他方式可以帮助我们吗？
 
-有！支持 Organic Maps 的方式有很多。详情请参见 [贡献](@/contribute/index.md) 页面。
+有！支持 Organic Maps 的方式有很多。详情请参见 [贡献](@/contribute/index.zh-Hans.md) 页面。
 
 {{ references() }}

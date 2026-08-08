@@ -12,7 +12,7 @@ taxonomies:
 - הגדלנו את גודל כפתור 'התחל ניווט' (Kiryl Kaveryn) - הסרנו את הרווח הריק בעת תכנון מסלול ב-iPad (Kiryl Kaveryn) - Organic Maps עשויה לבקש מכם לדרג אותה ב-App Store. הביקורות הטובות שלכם מהוות מוטיבציה לצוות שלנו! ## Android - כעת מופיעים שלטי דרך בכיווני הניווט (Andrei Shkrob) - שיפורים במידע על הקלטת מסלולים (Kavi Khalique)
 - Organic Maps פועלת במכשירים ישנים יותר עם מעבד Intel x86 (Andrei Shkrob) - תוקן תקלה שבה הוראות קוליות TTS לא פעלו במקרים מסוימים (Andrei Shkrob) - מסך פתיחה משופר בעת ההפעלה (Andrei Shkrob) ### Android Auto - שחזור המסלול לאחר ביטול (Andrei Shkrob) - תוקנו קריסות במכשירים מסוימים (Andrei Shkrob)
 
-## Linux/Mac OS - פרטי POI מוצגים כעת בפורמט "שם | ref" (ויקטור גובקו) - מצב כהה מסתנכרן אוטומטית עם הגדרות המערכת (DeepChirp) ## הערות שוליים Organic Maps מתאפשר הודות ❤️ לתורמים שלנו, [לתרומות שלכם](@/donate/index.md) ול[תמיכתכם](@/contribute/index.md).
+## Linux/Mac OS - פרטי POI מוצגים כעת בפורמט "שם | ref" (ויקטור גובקו) - מצב כהה מסתנכרן אוטומטית עם הגדרות המערכת (DeepChirp) ## הערות שוליים Organic Maps מתאפשר הודות ❤️ לתורמים שלנו, [לתרומות שלכם](@/donate/index.he.md) ול[תמיכתכם](@/contribute/index.he.md).
 
 הורידו את הגרסה האחרונה של Organic Maps מ-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid].
 

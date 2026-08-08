@@ -13,7 +13,7 @@ fejlesztette a közösség segítségével.
 
 A fejlesztést különböző módokon lehet támogatni:
 
-- [Adományozzon](@/donate/index.md)! Minden dollár vagy euró számít, és
+- [Adományozzon](@/donate/index.hu.md)! Minden dollár vagy euró számít, és
   segít nekünk a kiszolgálók kifizetésében és a kapacitásuk növelésében.
 - Jelentse a hibákat és ossza meg ötleteit a [GitHubon][github] vagy
   [e-mailben][email].

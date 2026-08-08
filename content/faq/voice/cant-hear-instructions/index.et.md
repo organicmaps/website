@@ -20,7 +20,7 @@ Kui te ei kuule hääljuhiseid:
 
 * Teatage kõigist Bluetoothi probleemidest meie [GitHubis] (https://github.com/organicmaps/organicmaps/issues) koos vajalike üksikasjadega.
 
-* Kui olete Androidi kasutaja ja see valik on keelatud (või mõned toetatud keeled pole saadaval), kontrollige [TTS-i seadeid] (@/faq/voice/text-to-speech-android-tts/index.md).
+* Kui olete Androidi kasutaja ja see valik on keelatud (või mõned toetatud keeled pole saadaval), kontrollige [TTS-i seadeid] (@/faq/voice/text-to-speech-android-tts/index.et.md).
 
 Androidis on hääljuhised saadaval 39 keeles: inglise, araabia, baski, valgevene, katalaani, hiina (lihtsustatud ja traditsiooniline), horvaadi, tšehhi, taani, hollandi, soome, prantsuse, saksa, kreeka, hindi, ungari, indoneesia, itaalia, jaapani, korea, marati, norra, pärsia (farsi), slovaki, slovaki, vene, serbia, poola, portugali keel. hispaania, hispaania (Mehhiko), suahiili, rootsi, tai, türgi, ukraina, vietnami keel.
 

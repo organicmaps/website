@@ -15,7 +15,7 @@ taxonomies:
 - 在地图上显示书签名称（在设置中开启）
 - ✎ 图标可快速编辑书签
 
-Organic Maps 得益于贡献者、[你的捐赠](@/donate/index.zh-Hans.md) 与 [你的支持](@/contribute/index.md)。
+Organic Maps 得益于贡献者、[你的捐赠](@/donate/index.zh-Hans.md) 与 [你的支持](@/contribute/index.zh-Hans.md)。
 
 ### 详细更新日志
 

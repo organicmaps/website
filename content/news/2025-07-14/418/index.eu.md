@@ -7,7 +7,7 @@ taxonomies:
 
 Ezagutu Organic Maps uztaileko eguneratzea konponketa eta hobekuntza askorekin, gure kolaboratzaileei esker ❤️💪! Eguneratzea jadanik eskuragarri dago [AppStore][appstore], [Obtainium][obtainium] eta [Accrescent][accrescent]-en, eta egun gutxi barru prest egongo da [Google Play][googleplay], [Huawei AppGallery][appgallery], eta [FDroid][fdroid]-en.
 
-[Zuen dohaintzak](@/donate/index.md) eta [laguntza](@/contribute/index.md), [akats txostenak][github issues] eta [hobekuntzak][github] elkarrekin mapa hobeak egiten laguntzen digute!
+[Zuen dohaintzak](@/donate/index.eu.md) eta [laguntza](@/contribute/index.eu.md), [akats txostenak][github issues] eta [hobekuntzak][github] elkarrekin mapa hobeak egiten laguntzen digute!
 
 Ez ahaztu beta probetarako programan izena eman dezakezuela esperimentaleko eta etorkizuneko ezaugarrietara goiz sartzeko [iOS-erako][testflight] eta [Android-erako][firebase].
 

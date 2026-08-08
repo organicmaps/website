@@ -20,7 +20,7 @@ As jy nie steminstruksies kan hoor nie:
 
 * Rapporteer asseblief enige Bluetooth-kwessies met die nodige besonderhede op ons [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* As jy 'n Android-gebruiker is en die opsie is gedeaktiveer (of sommige van die ondersteunde tale is nie beskikbaar nie), gaan asseblief na [TTS-instellings](@/faq/voice/text-to-speech-android-tts/index.md).
+* As jy 'n Android-gebruiker is en die opsie is gedeaktiveer (of sommige van die ondersteunde tale is nie beskikbaar nie), gaan asseblief na [TTS-instellings](@/faq/voice/text-to-speech-android-tts/index.af.md).
 
 Op Android is steminstruksies beskikbaar in 39 tale: Engels, Arabies, Baskies, Wit-Russies, Katalaans, Chinees (vereenvoudig en tradisioneel), Kroaties, Tsjeggies, Deens, Nederlands, Fins, Frans, Duits, Grieks, Hindi, Hongaars, Indonesies, Italiaans, Japannees, Koreaans, Marathi, Noors, Persies (Farsi, Portugees, Russies, Portugees, Russies, Portugees, Russies, Portugees, Russies, Slowaaks, Spaans, Spaans (Mexiko), Swahili, Sweeds, Thai, Turks, Oekraïens, Viëtnamees.
 

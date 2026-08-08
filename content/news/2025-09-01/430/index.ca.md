@@ -7,7 +7,7 @@ taxonomies:
 
 Ara, quan seleccioneu una parada d'autobús o tramvia, podeu veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats ("Afegir lloc" i "Editar lloc").
 
-Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres donacions](@/donate/index.md) i el [vostre suport](@/contribute/index.md).
+Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres donacions](@/donate/index.ca.md) i el [vostre suport](@/contribute/index.ca.md).
 
 ### Notes detallades de la versió
 

@@ -20,7 +20,7 @@ Jika Anda tidak dapat mendengar instruksi suara:
 
 * Silakan laporkan masalah Bluetooth apa pun dengan detail yang diperlukan di [GitHub] kami(https://github.com/organicmaps/organicmaps/issues)
 
-* Jika Anda pengguna Android dan opsi ini dinonaktifkan (atau beberapa bahasa yang didukung tidak tersedia), silakan periksa [Pengaturan TTS](@/faq/voice/text-to-speech-android-tts/index.md).
+* Jika Anda pengguna Android dan opsi ini dinonaktifkan (atau beberapa bahasa yang didukung tidak tersedia), silakan periksa [Pengaturan TTS](@/faq/voice/text-to-speech-android-tts/index.id.md).
 
 Di Android, instruksi suara tersedia dalam 39 bahasa: Inggris, Arab, Basque, Belarusia, Catalan, China (Sederhana dan Tradisional), Kroasia, Ceko, Denmark, Belanda, Finlandia, Prancis, Jerman, Yunani, Hindi, Hungaria, Indonesia, Italia, Jepang, Korea, Marathi, Norwegia, Persia (Farsi), Polandia, Portugis, Portugis (Brasil), Rumania, Rusia, Serbia, Slovakia, Spanyol, Spanyol (Meksiko), Swahili, Swedia, Thai, Turki, Ukraina, Vietnam.
 

@@ -82,6 +82,6 @@ Considere doar anualmente para reducir as taxas totais.
 ## ¿Podes axudarnos doutra maneira?
 
 Si! Hai moitas formas de admitir os mapas orgánicos. Consulte a páxina
-[Contribuir](@/contribute/index.md) para obter máis detalles.
+[Contribuir](@/contribute/index.gl.md) para obter máis detalles.
 
 {{references()}}

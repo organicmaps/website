@@ -15,7 +15,7 @@ I oczywiście przypomnienie o innych ostatnich funkcjach, które mogłeś przeoc
 - Nazwy zakładek na mapie (włącz w Ustawieniach aplikacji)
 - Ikona ołówka ✎ umożliwia szybkie edytowanie zakładek
 
-Organic Maps istnieje dzięki współtwórcom, [Twoim darowiznom](@/donate/index.pl.md) i [Twojemu wsparciu](@/contribute/index.md).
+Organic Maps istnieje dzięki współtwórcom, [Twoim darowiznom](@/donate/index.pl.md) i [Twojemu wsparciu](@/contribute/index.pl.md).
 
 ### Szczegółowe informacje o wydaniu
 

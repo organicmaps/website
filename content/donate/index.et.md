@@ -84,6 +84,6 @@ aastas.
 ## Kas saan ka mõnel muul viisil aidata?
 
 Justnimelt! Organic Mapsi aitamiseks on palju muid viise. Lisateavet leiad
-[Kaastöö](@/contribute/index.md) lehelt.
+[Kaastöö](@/contribute/index.et.md) lehelt.
 
 {{ references() }}

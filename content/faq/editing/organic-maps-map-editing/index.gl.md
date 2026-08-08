@@ -29,8 +29,8 @@ Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- icona de hamburguesa -> *Engadir un lugar ao OpenStreetMap*
 		- Seleccione a localización coa maior precisión posible e prema a frecha de verificación
 		- Seleccione unha categoría
-			> Non podes atopar unha categoría que se axuste? A continuación, cree unha [OSM Note] (@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Non podes atopar unha categoría que se axuste? A continuación, cree unha [OSM Note] (@/faq/editing/advanced-map-editing/index.gl.md#osm-note).
 		- Engade información adicional como o nome, o horario de apertura e o sitio web
 		- Garda os cambios e sae usando a frecha de verificación
 
-Teña en conta que o editor está deseñado como un simple editor de PDI e, polo tanto, limitado a PDI. Podes, por exemplo, non engadir estradas, lagos, contornos de edificios, etc. Ademais, non é posible mover lugares a unha nova localización. Se non podes editar algo con Organic Maps, bótalle unha ollada á páxina [Edición de mapas máis avanzada](@/faq/editing/advanced-map-editing/index.md).
+Teña en conta que o editor está deseñado como un simple editor de PDI e, polo tanto, limitado a PDI. Podes, por exemplo, non engadir estradas, lagos, contornos de edificios, etc. Ademais, non é posible mover lugares a unha nova localización. Se non podes editar algo con Organic Maps, bótalle unha ollada á páxina [Edición de mapas máis avanzada](@/faq/editing/advanced-map-editing/index.gl.md).

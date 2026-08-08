@@ -13,7 +13,7 @@ entusiastide tiim kogukonna toel.
 
 Arenduses osalemiseks on palju erinevaid võimalust:
 
-- [Toeta rahaliselt](@/donate/index.md)! Iga dollar või euro loeb ning aitab
+- [Toeta rahaliselt](@/donate/index.et.md)! Iga dollar või euro loeb ning aitab
   meil tasuda serverite eest ning kasvada.
 - Teata vigadest või paku uusi ideid [GitHubis][github] või [e-kirja
   teel][email].

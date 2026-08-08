@@ -7,7 +7,7 @@ taxonomies:
 
 Nawr, pan dewch chi safle bws neu dram, gallwch weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd ("Ychwanegu Lleoliad" a "Golygu Lleoliad").
 
-Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [eich rhoddion](@/donate/index.md) a'ch [cefnogaeth](@/contribute/index.md).
+Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [eich rhoddion](@/donate/index.cy.md) a'ch [cefnogaeth](@/contribute/index.cy.md).
 
 ### Nodiadau Rhyddhad Manwl
 

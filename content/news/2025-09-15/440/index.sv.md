@@ -15,7 +15,7 @@ Nya funktioner du kanske missat:
 - Visa bokmärkesnamn på kartan (aktivera i Inställningar)
 - ✎-ikonen gör snabb redigering av bokmärken möjlig
 
-Organic Maps är möjlig tack vare våra bidragsgivare, [dina donationer](@/donate/index.sv.md) och [ditt stöd](@/contribute/index.md).
+Organic Maps är möjlig tack vare våra bidragsgivare, [dina donationer](@/donate/index.sv.md) och [ditt stöd](@/contribute/index.sv.md).
 
 ### Detaljerade versionsnoteringar
 

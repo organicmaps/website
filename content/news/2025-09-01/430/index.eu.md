@@ -7,7 +7,7 @@ taxonomies:
 
 Orain, autobus edo tranbia geltokia aukeratzerakoan, garraio publikoko bideko zenbakiak ikusiko dituzu. Lehen pausoa baino ez da! Hurrena, garraio publikoko bideak zuzenean mapa gainean erakustea pentsatzen dugu. iOS erabiltzaileek, halaber, OpenStreetMap ekarpen botoien diseinua berritu dugunak gozatu ahal izango dituzte ("Gehitu tokia" eta "Editatu tokia").
 
-Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.md) eta [zuen laguntzari](@/contribute/index.md) ere bai.
+Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.eu.md) eta [zuen laguntzari](@/contribute/index.eu.md) ere bai.
 
 ### Bertsioaren oharra xeheak
 

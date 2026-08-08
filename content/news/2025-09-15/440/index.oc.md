@@ -15,7 +15,7 @@ Foncionnalitats recentas que poiriás aver mancat:
 - Afichar los noms dels marcaplans sus la mapa (activar dins los Paramètres)
 - L’icòna ✎ permet l’edicion rapida dels marcaplans
 
-Organic Maps es possible mercé als contributors, [tas donacions](@/donate/index.oc.md) e [ton sosten](@/contribute/index.md).
+Organic Maps es possible mercé als contributors, [tas donacions](@/donate/index.oc.md) e [ton sosten](@/contribute/index.oc.md).
 
 ### Nòtas detalhadas
 

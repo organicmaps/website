@@ -7,7 +7,7 @@ taxonomies:
 
 Ontmoet Organic Maps Julie-opdatering met baie regstellings en verbeterings, dankie aan ons bydraers ❤️💪! Die opdatering is reeds beskikbaar in die [AppStore][appstore], [Obtainium][obtainium] en [Accrescent][accrescent], en sal binne 'n paar dae gereed wees in [Google Play][googleplay], [Huawei AppGallery][appgallery], en [FDroid][fdroid].
 
-[Jou skenkings](@/donate/index.md) en [ondersteuning](@/contribute/index.md), [foutverslae][github issues] en [verbeterings][github] help ons om beter kaarte saam te maak!
+[Jou skenkings](@/donate/index.af.md) en [ondersteuning](@/contribute/index.af.md), [foutverslae][github issues] en [verbeterings][github] help ons om beter kaarte saam te maak!
 
 Moenie vergeet dat jy kan inteken vir die bèta-toetsprogram om vroeër toegang tot eksperimentele en komende funksies te kry [vir iOS][testflight] en [vir Android][firebase] nie.
 

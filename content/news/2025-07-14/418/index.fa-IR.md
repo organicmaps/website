@@ -7,7 +7,7 @@ taxonomies:
 
 با به‌روزرسانی جولای نقشه‌های ارگانیک آشنا شوید که حاوی بسیاری رفع مشکلات و بهبودها است، به لطف مشارکت‌کنندگان ما ❤️💪! این به‌روزرسانی در حال حاضر در [AppStore][appstore]، [Obtainium][obtainium] و [Accrescent][accrescent] در دسترس است و طی چند روز در [Google Play][googleplay]، [Huawei AppGallery][appgallery] و [FDroid][fdroid] آماده خواهد بود.
 
-[کمک‌های مالی شما](@/donate/index.md) و [حمایت](@/contribute/index.md)، [گزارش‌های باگ][github issues] و [بهبودها][github] به ما کمک می‌کند تا با هم نقشه‌های بهتری بسازیم!
+[کمک‌های مالی شما](@/donate/index.fa-IR.md) و [حمایت](@/contribute/index.fa-IR.md)، [گزارش‌های باگ][github issues] و [بهبودها][github] به ما کمک می‌کند تا با هم نقشه‌های بهتری بسازیم!
 
 فراموش نکنید که می‌توانید برای برنامه آزمایش بتا ثبت‌نام کنید تا دسترسی زودتر به قابلیت‌های آزمایشی و آینده داشته باشید [برای iOS][testflight] و [برای Android][firebase].
 

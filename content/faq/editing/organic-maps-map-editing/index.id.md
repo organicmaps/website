@@ -29,8 +29,8 @@ Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreet
 		- ikon burger -> *Tambahkan tempat ke OpenStreetMap*
 		- Pilih lokasi seakurat mungkin dan tekan panah centang
 		- Pilih kategori
-			> Tidak dapat menemukan kategori yang sesuai? Kemudian buat [Catatan OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Tidak dapat menemukan kategori yang sesuai? Kemudian buat [Catatan OSM](@/faq/editing/advanced-map-editing/index.id.md#osm-note).
 		- Tambahkan informasi tambahan seperti nama, jam buka, dan situs web
 		- Simpan perubahan Anda dan keluar menggunakan panah centang
 
-Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Anda dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika Anda tidak dapat mengedit sesuatu dengan Peta Organik, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.md).
+Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Anda dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika Anda tidak dapat mengedit sesuatu dengan Peta Organik, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.id.md).

@@ -20,7 +20,7 @@ Om du inte kan höra röstinstruktioner:
 
 * Rapportera eventuella Bluetooth-problem med nödvändig information på vår [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Om du är en Android-användare och alternativet är inaktiverat (eller om några av de språk som stöds inte är tillgängliga), kontrollera [TTS-inställningar](@/faq/voice/text-to-speech-android-tts/index.md).
+* Om du är en Android-användare och alternativet är inaktiverat (eller om några av de språk som stöds inte är tillgängliga), kontrollera [TTS-inställningar](@/faq/voice/text-to-speech-android-tts/index.sv.md).
 
 På Android finns röstinstruktioner tillgängliga på 39 språk: engelska, arabiska, baskiska, vitryska, katalanska, kinesiska (förenklad och traditionell), kroatiska, tjeckiska, danska, holländska, finska, franska, tyska, grekiska, hindi, ungerska, indonesiska, italienska, japanska, koreanska, marathi, norska, persiska (farsi, portugisiska, portugisiska, portugisiska, ryska, portugisiska, ryska, polska, slovakiska, spanska, spanska (Mexiko), swahili, svenska, thailändska, turkiska, ukrainska, vietnamesiska.
 

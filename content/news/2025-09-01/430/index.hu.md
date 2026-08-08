@@ -7,7 +7,7 @@ taxonomies:
 
 Most, amikor kiválasztasz egy busz- vagy villamosmegállót, láthatod a tömegközlekedés vonalszámait. Ez csak az első lépés! Következőként azt tervezzük, hogy a tömegközlekedési útvonalakat közvetlenül a térképen jelenítjük meg. Az iOS felhasználók élvezhetik az újratervezett OpenStreetMap hozzájárulási gombokat („Hely hozzáadása" és „Hely szerkesztése").
 
-Hálásak vagyunk ❤️ közreműködőinknek, valamint [adományaitokért](@/donate/index.md) és [támogatásotokért](@/contribute/index.md).
+Hálásak vagyunk ❤️ közreműködőinknek, valamint [adományaitokért](@/donate/index.hu.md) és [támogatásotokért](@/contribute/index.hu.md).
 
 ### Részletes kiadási megjegyzések
 

@@ -15,7 +15,7 @@ Recursos recentes que você pode ter perdido:
 - Mostrar nomes dos marcadores no mapa (ative em Configurações)
 - O ícone ✎ permite editar marcadores rapidamente
 
-Organic Maps é possível graças aos nossos contribuidores, [às suas doações](@/donate/index.pt-BR.md) e [ao seu apoio](@/contribute/index.md).
+Organic Maps é possível graças aos nossos contribuidores, [às suas doações](@/donate/index.pt-BR.md) e [ao seu apoio](@/contribute/index.pt-BR.md).
 
 ### Notas detalhadas
 

@@ -7,7 +7,7 @@ taxonomies:
 
 Nyní, když vyberete autobusovou nebo tramvajovou zastávku, můžete vidět čísla linek veřejné dopravy. To je jen první krok! Dále plánujeme zobrazovat trasy veřejné dopravy přímo na mapě. Uživatelé iOS si také mohou vychutnat přepracovaná tlačítka pro přispívání do OpenStreetMap („Přidat místo" a „Upravit místo").
 
-Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/donate/index.md) a [vaši podporu](@/contribute/index.md).
+Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/donate/index.cs.md) a [vaši podporu](@/contribute/index.cs.md).
 
 ### Podrobné poznámky k vydání
 

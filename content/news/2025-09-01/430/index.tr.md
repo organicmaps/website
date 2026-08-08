@@ -7,7 +7,7 @@ taxonomies:
 
 Artık bir otobüs veya tramvay durağı seçtiğinizde, toplu taşıma rota numaralarını görebilirsiniz. Bu sadece ilk adım! Daha sonra toplu taşıma rotalarını doğrudan harita üzerinde göstermeyi planlıyoruz. iOS kullanıcıları ayrıca yeniden tasarlanan OpenStreetMap katkı düğmelerinin ("Yer Ekle" ve "Yer Düzenle") keyfini çıkarabilir.
 
-Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.md) ve [desteğiniz](@/contribute/index.md) için minnettarız.
+Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md) için minnettarız.
 
 ### Detaylı Sürüm Notları
 

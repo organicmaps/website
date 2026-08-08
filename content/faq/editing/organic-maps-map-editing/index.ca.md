@@ -29,8 +29,8 @@ Com que [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStree
 		- icona d'hamburguesa -> *Afegeix un lloc a l'OpenStreetMap*
 		- Seleccioneu la ubicació amb la màxima precisió possible i premeu la fletxa de verificació
 		- Seleccioneu una categoria
-			> No trobeu una categoria que encaixi? A continuació, creeu una [Nota OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> No trobeu una categoria que encaixi? A continuació, creeu una [Nota OSM](@/faq/editing/advanced-map-editing/index.ca.md#osm-note).
 		- Afegiu informació addicional com el nom, l'horari d'obertura i el lloc web
 		- Deseu els vostres canvis i sortiu amb la fletxa de verificació
 
-Tingueu en compte que l'editor està dissenyat com un simple editor de PDI i, per tant, limitat a PDI. Per exemple, no podeu afegir carreteres, llacs, contorns d'edificis, etc. A més, no és possible moure llocs a una nova ubicació. Si no podeu editar alguna cosa amb Organic Maps, feu una ullada a la pàgina [Edició de mapes més avançada](@/faq/editing/advanced-map-editing/index.md).
+Tingueu en compte que l'editor està dissenyat com un simple editor de PDI i, per tant, limitat a PDI. Per exemple, no podeu afegir carreteres, llacs, contorns d'edificis, etc. A més, no és possible moure llocs a una nova ubicació. Si no podeu editar alguna cosa amb Organic Maps, feu una ullada a la pàgina [Edició de mapes més avançada](@/faq/editing/advanced-map-editing/index.ca.md).

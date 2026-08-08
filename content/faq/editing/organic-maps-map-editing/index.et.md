@@ -29,8 +29,8 @@ Kuna [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- burgeriikoon -> *Lisa koht OpenStreetMapi*
 		- Valige asukoht nii täpselt kui võimalik ja vajutage kontrollnoolt
 		- Valige kategooria
-			> Kas te ei leia sobivat kategooriat? Seejärel looge [OSM-i märkus](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Kas te ei leia sobivat kategooriat? Seejärel looge [OSM-i märkus](@/faq/editing/advanced-map-editing/index.et.md#osm-note).
 		- Lisage lisateavet, nagu nimi, lahtiolekuajad ja veebisait
 		- Salvestage muudatused ja väljuge kontrollnoole abil
 
-Pange tähele, et redaktor on loodud lihtsa POI-redaktorina ja seetõttu piirdub HP-dega. Näiteks ei saa lisada teid, järvi, hoonete piirjooni jne. Lisaks ei ole võimalik uude asukohta kolida. Kui te ei saa orgaaniliste kaartidega midagi muuta, vaadake lehte [Kaardi täpsem redigeerimine](@/faq/editing/advanced-map-editing/index.md).
+Pange tähele, et redaktor on loodud lihtsa POI-redaktorina ja seetõttu piirdub HP-dega. Näiteks ei saa lisada teid, järvi, hoonete piirjooni jne. Lisaks ei ole võimalik uude asukohta kolida. Kui te ei saa orgaaniliste kaartidega midagi muuta, vaadake lehte [Kaardi täpsem redigeerimine](@/faq/editing/advanced-map-editing/index.et.md).

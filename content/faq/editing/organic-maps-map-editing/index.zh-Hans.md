@@ -28,8 +28,8 @@ aliases:
 		- 汉堡图标 -> *将地点添加到 OpenStreetMap*
 		- 尽可能准确地选择位置，然后按复选箭头
 		- 选择一个类别
-			> 找不到合适的类别？然后创建一个[OSM注释](@/faq/editing/advanced-map-editing/index.md#osm-note)。
+			> 找不到合适的类别？然后创建一个[OSM注释](@/faq/editing/advanced-map-editing/index.zh-Hans.md#osm-note)。
 		- 添加其他信息，例如名称、开放时间和网站
 		- 保存更改并使用复选箭头退出
 
-请注意，该编辑器被设计为简单的 POI 编辑器，因此仅限于 POI。例如，您可以不添加道路、湖泊、建筑物轮廓等。此外，无法将地点移动到新位置。如果您无法使用有机地图编辑某些内容，请查看[更高级的地图编辑](@/faq/editing/advanced-map-editing/index.md) 页面。
+请注意，该编辑器被设计为简单的 POI 编辑器，因此仅限于 POI。例如，您可以不添加道路、湖泊、建筑物轮廓等。此外，无法将地点移动到新位置。如果您无法使用有机地图编辑某些内容，请查看[更高级的地图编辑](@/faq/editing/advanced-map-editing/index.zh-Hans.md) 页面。

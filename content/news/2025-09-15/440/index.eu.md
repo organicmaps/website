@@ -15,7 +15,7 @@ Azkenaldiko funtzio batzuk, agian ikusi ez dituzunak:
 - Erakutsi laster-marken izenak mapan (aplikazioaren Ezarpenetan aktibatu)
 - ✎ ikonoak laster-markak azkar editatzea ahalbidetzen du
 
-Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.eu.md) eta [zure babesari](@/contribute/index.md) esker.
+Organic Maps posible da gure kolaboratzaileei, [zure dohaintzei](@/donate/index.eu.md) eta [zure babesari](@/contribute/index.eu.md) esker.
 
 ### Argitalpenaren xehetasunak
 

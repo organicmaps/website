@@ -7,7 +7,7 @@ taxonomies:
 
 Dabar, kai pasirenkate autobusų ar tramvajų stotelę, galite matyti viešojo transporto maršrutų numerius. Tai tik pirmas žingsnis! Toliau planuojame rodyti viešojo transporto maršrutus tiesiogiai žemėlapyje. iOS vartotojai taip pat gali mėgautis iš naujo suprojektuotais OpenStreetMap įnašų mygtukais („Pridėti vietą" ir „Redaguoti vietą").
 
-Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [jūsų aukas](@/donate/index.md) ir [jūsų palaikymą](@/contribute/index.md).
+Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [jūsų aukas](@/donate/index.lt.md) ir [jūsų palaikymą](@/contribute/index.lt.md).
 
 ### Išsamūs leidimo pastabos
 

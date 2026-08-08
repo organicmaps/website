@@ -7,7 +7,7 @@ taxonomies:
 
 Agora, quando você seleciona um ponto de ônibus ou bonde, pode ver os números das linhas de transporte público. Este é apenas o primeiro passo! Em seguida, planejamos mostrar as rotas de transporte público diretamente no mapa. Usuários do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar lugar" e "Editar lugar").
 
-Somos gratos ❤️ aos nossos colaboradores, assim como pelas [suas doações](@/donate/index.md) e [seu apoio](@/contribute/index.md).
+Somos gratos ❤️ aos nossos colaboradores, assim como pelas [suas doações](@/donate/index.pt-BR.md) e [seu apoio](@/contribute/index.pt-BR.md).
 
 ### Notas detalhadas da versão
 

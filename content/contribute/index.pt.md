@@ -13,7 +13,7 @@ alguns entusiastas com a ajuda da comunidade.
 
 Existem diferentes formas de apoiar o desenvolvimento:
 
-- [Doar](@/donate/index.md)! Cada dólar ou euro conta e ajuda-nos a pagar os
+- [Doar](@/donate/index.pt.md)! Cada dólar ou euro conta e ajuda-nos a pagar os
   servidores e o desenvolvimento.
 - Reporte erros e partilhe ideias no [GitHub][github] ou por [email][email].
 - Ajude-nos a [corrigir erros][contributing] e fazer revisões do código se

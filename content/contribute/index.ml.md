@@ -11,7 +11,7 @@ extra:
 
 വികസനത്തെ പിന്തുണയ്ക്കുന്നതിന് വ്യത്യസ്ത മാർഗങ്ങളുണ്ട്:
 
-- [സംഭാവനചെയ്യുക](@/donate/index.md)! Every dollar or euro counts and helps us to pay for servers and scale.
+- [സംഭാവനചെയ്യുക](@/donate/index.ml.md)! Every dollar or euro counts and helps us to pay for servers and scale.
 - Report bugs and share ideas on our [GitHub][github] or via [email][email].
 - Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier.
 - [Translate][translations] missing strings in the app's interface.

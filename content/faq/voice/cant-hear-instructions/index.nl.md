@@ -20,7 +20,7 @@ Als u geen gesproken instructies kunt horen:
 
 * Rapporteer eventuele Bluetooth-problemen met de nodige details op onze [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Als u een Android-gebruiker bent en de optie is uitgeschakeld (of sommige van de ondersteunde talen zijn niet beschikbaar), controleer dan [TTS-instellingen] (@/faq/voice/text-to-speech-android-tts/index.md).
+* Als u een Android-gebruiker bent en de optie is uitgeschakeld (of sommige van de ondersteunde talen zijn niet beschikbaar), controleer dan [TTS-instellingen] (@/faq/voice/text-to-speech-android-tts/index.nl.md).
 
 Op Android zijn gesproken instructies beschikbaar in 39 talen: Engels, Arabisch, Baskisch, Wit-Russisch, Catalaans, Chinees (vereenvoudigd en traditioneel), Kroatisch, Tsjechisch, Deens, Nederlands, Fins, Frans, Duits, Grieks, Hindi, Hongaars, Indonesisch, Italiaans, Japans, Koreaans, Marathi, Noors, Perzisch (Farsi), Pools, Portugees, Portugees (Brazilië), Roemeens, Russisch, Servisch, Slowaaks, Spaans, Spaans (Mexico), Swahili, Zweeds, Thais, Turks, Oekraïens, Vietnamees.
 

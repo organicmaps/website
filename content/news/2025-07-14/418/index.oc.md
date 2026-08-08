@@ -7,7 +7,7 @@ taxonomies:
 
 Descobrissètz la mesa a jorn de julh d'Organic Maps amb fòrça correccions e amelhoraments, mercé a nòstres contributors ❤️💪! La mesa a jorn es ja disponibla sus l'[AppStore][appstore], [Obtainium][obtainium] e [Accrescent][accrescent], e serà prèsta sus [Google Play][googleplay], [Huawei AppGallery][appgallery], e [FDroid][fdroid] dins qualques jorns.
 
-[Vòstres dons](@/donate/index.md) e [vòstre sosteniment](@/contribute/index.md), [vòstres rapòrts de bugs][github issues] e [vòstres amelhoraments][github] nos ajudan a crear de melhores mapas ensemble!
+[Vòstres dons](@/donate/index.oc.md) e [vòstre sosteniment](@/contribute/index.oc.md), [vòstres rapòrts de bugs][github issues] e [vòstres amelhoraments][github] nos ajudan a crear de melhores mapas ensemble!
 
 Oblidetz pas que podètz vos inscriure al programa de tèst beta per aver un accès anticipat a las foncionalitats experimentalas e a venir [per iOS][testflight] e [per Android][firebase].
 

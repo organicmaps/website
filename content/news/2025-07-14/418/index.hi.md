@@ -7,7 +7,7 @@ taxonomies:
 
 हमारे योगदानकर्ताओं के लिए धन्यवाद ❤️💪, कई सुधारों और बग फिक्स के साथ ऑर्गैनिक मैप्स जुलाई अपडेट से मिलें! अपडेट पहले से ही [AppStore][appstore], [Obtainium][obtainium] और [Accrescent][accrescent] में उपलब्ध है, और कुछ दिनों में [Google Play][googleplay], [Huawei AppGallery][appgallery], और [FDroid][fdroid] में तैयार होगा।
 
-[आपके दान](@/donate/index.md) और [समर्थन](@/contribute/index.md), [बग रिपोर्ट][github issues] और [सुधार][github] बेहतर नक्शे बनाने में हमारी सहायता करते हैं!
+[आपके दान](@/donate/index.hi.md) और [समर्थन](@/contribute/index.hi.md), [बग रिपोर्ट][github issues] और [सुधार][github] बेहतर नक्शे बनाने में हमारी सहायता करते हैं!
 
 यह न भूलें कि आप प्रयोगात्मक और आगामी सुविधाओं तक पहले पहुंच के लिए बीटा परीक्षण कार्यक्रम के लिए साइन अप कर सकते हैं [iOS के लिए][testflight] और [Android के लिए][firebase]।
 

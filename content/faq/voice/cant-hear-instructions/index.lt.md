@@ -20,7 +20,7 @@ Jei negirdite nurodymų balsu:
 
 * Praneškite apie visas „Bluetooth“ problemas pateikdami reikiamą informaciją mūsų [GitHub] (https://github.com/organicmaps/organicmaps/issues)
 
-* Jei esate „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrinkite [TTS nustatymus] (@/faq/voice/text-to-speech-android-tts/index.md).
+* Jei esate „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrinkite [TTS nustatymus] (@/faq/voice/text-to-speech-android-tts/index.lt.md).
 
 „Android“ balso instrukcijos pasiekiamos 39 kalbomis: anglų, arabų, baskų, baltarusių, katalonų, kinų (supaprastinta ir tradicinė), kroatų, čekų, danų, olandų, suomių, prancūzų, vokiečių, graikų, hindi, vengrų, indoneziečių, italų, japonų, korėjiečių, maratų, norvegų, slovakų, persų (persų, rusų), lenkų, rumunų, portugalų (B), lenkų, portugalų (B) Ispanų, ispanų (Meksika), suahilių, švedų, tajų, turkų, ukrainiečių, vietnamiečių.
 

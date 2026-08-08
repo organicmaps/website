@@ -28,8 +28,8 @@ Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- ícono de hamburguesa -> *Agregar un lugar a OpenStreetMap*
 		- Seleccione la ubicación con la mayor precisión posible y presione la flecha de verificación
 		- Seleccione una categoría
-			> ¿No encuentras una categoría que encaje? Luego cree una [Nota OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> ¿No encuentras una categoría que encaje? Luego cree una [Nota OSM](@/faq/editing/advanced-map-editing/index.es.md#osm-note).
 		- Agregue información adicional como el nombre, el horario de apertura y el sitio web.
 		- Guarde sus cambios y salga usando la flecha de verificación
 
-Tenga en cuenta que el editor está diseñado como un editor de puntos de interés simple y, por lo tanto, está limitado a puntos de interés. Por ejemplo, no puede agregar carreteras, lagos, contornos de edificios, etc. Además, no es posible mover lugares a una nueva ubicación. Si no puede editar algo con Organic Maps, eche un vistazo a la página [Edición de mapas más avanzada](@/faq/editing/advanced-map-editing/index.md).
+Tenga en cuenta que el editor está diseñado como un editor de puntos de interés simple y, por lo tanto, está limitado a puntos de interés. Por ejemplo, no puede agregar carreteras, lagos, contornos de edificios, etc. Además, no es posible mover lugares a una nueva ubicación. Si no puede editar algo con Organic Maps, eche un vistazo a la página [Edición de mapas más avanzada](@/faq/editing/advanced-map-editing/index.es.md).

@@ -7,7 +7,7 @@ taxonomies:
 
 Agora, ao seleccionar unha parada de autobús ou tranvía, verás os números de ruta do transporte público. Isto é só o primeiro paso! A continuación, planeamos mostrar as rutas de transporte público directamente no mapa. Os usuarios de iOS tamén poden gozar dos botóns de contribución OpenStreetMap rediseñados ("Engadir lugar" e "Editar lugar").
 
-Agradecemos ❤️ aos nosos contribuíntes, así como ás [vosas doazóns](@/donate/index.md) e [o voso apoio](@/contribute/index.md).
+Agradecemos ❤️ aos nosos contribuíntes, así como ás [vosas doazóns](@/donate/index.gl.md) e [o voso apoio](@/contribute/index.gl.md).
 
 ### Notas detalladas da versión
 

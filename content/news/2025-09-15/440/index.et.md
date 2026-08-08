@@ -15,7 +15,7 @@ Hiljutised funktsioonid, mida võisid märkamata jätta:
 - Kuva järjehoidjate nimed kaardil (lülita sisse Sätetes)
 - ✎ pliiatsi ikoon võimaldab järjehoidjaid kiiresti muuta
 
-Organic Maps on võimalik tänu panustajatele, [sinu annetustele](@/donate/index.et.md) ja [toetusele](@/contribute/index.md).
+Organic Maps on võimalik tänu panustajatele, [sinu annetustele](@/donate/index.et.md) ja [toetusele](@/contribute/index.et.md).
 
 ### Üksikasjalikud väljalaskemärkused
 

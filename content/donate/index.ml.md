@@ -70,6 +70,6 @@ are appreciated too.
 ## മറ്റേതെങ്കിലും വിധത്തിൽ ഞങ്ങളെ സഹായിക്കാമോ?
 
 Yes! There are many ways to support Organic Maps. Please see
-[ഞങ്ങളെ പിന്തുണയ്ക്കുക](@/contribute/index.md) page for more details.
+[ഞങ്ങളെ പിന്തുണയ്ക്കുക](@/contribute/index.ml.md) page for more details.
 
 {{ references() }}

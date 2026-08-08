@@ -15,7 +15,7 @@ Funciones recientes que quizá te hayas perdido:
 - Mostrar nombres de marcadores en el mapa (activa en Ajustes)
 - El icono ✎ permite editar marcadores rápidamente
 
-Organic Maps es posible gracias a nuestros colaboradores, [tus donaciones](@/donate/index.es.md) y [tu apoyo](@/contribute/index.md).
+Organic Maps es posible gracias a nuestros colaboradores, [tus donaciones](@/donate/index.es.md) y [tu apoyo](@/contribute/index.es.md).
 
 ### Notas detalladas
 

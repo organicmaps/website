@@ -15,7 +15,7 @@ Onlangse funksies wat jy dalk gemis het:
 - Wys boekmerkname op die kaart (aktiveer in Instellings)
 - Die ✎-ikoon laat jou boekmerke vinnig wysig
 
-Organic Maps is moontlik danksy ons bydraers, [jou donasies](@/donate/index.af.md) en [jou ondersteuning](@/contribute/index.md).
+Organic Maps is moontlik danksy ons bydraers, [jou donasies](@/donate/index.af.md) en [jou ondersteuning](@/contribute/index.af.md).
 
 ### Gedetailleerde vrystellingsnotas
 

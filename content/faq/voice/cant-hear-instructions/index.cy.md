@@ -20,7 +20,7 @@ Os na allwch glywed cyfarwyddiadau llais:
 
 * Rhowch wybod am unrhyw broblemau Bluetooth gyda'r manylion angenrheidiol ar ein [GitHub] (https://github.com/organicmaps/organicmaps/issues)
 
-* Os ydych chi'n ddefnyddiwr Android a bod yr opsiwn wedi'i analluogi (neu nad yw rhai o'r ieithoedd a gefnogir ar gael), gwiriwch [gosodiadau TTS] (@/faq/voice/text-to-speech-android-tts/index.md).
+* Os ydych chi'n ddefnyddiwr Android a bod yr opsiwn wedi'i analluogi (neu nad yw rhai o'r ieithoedd a gefnogir ar gael), gwiriwch [gosodiadau TTS] (@/faq/voice/text-to-speech-android-tts/index.cy.md).
 
 Ar Android mae cyfarwyddiadau llais ar gael mewn 39 o ieithoedd: Saesneg, Arabeg, Basgeg, Belarwseg, Catalaneg, Tsieinëeg (Syml a Thraddodiadol), Croateg, Tsieceg, Daneg, Iseldireg, Ffinneg, Ffrangeg, Almaeneg, Groeg, Hindi, Hwngari, Indoneseg, Eidaleg, Japaneaidd, Corëeg, Marathi, Norwyeg, Perseg (Farsi), Pwyleg, Portiwgaleg, Portiwgaleg, Sbaeneg, Rwmaneg, Rwmaneg, Rwmania (Mecsico), Swahili, Swedeg, Thai, Twrceg, Wcreineg, Fietnameg.
 

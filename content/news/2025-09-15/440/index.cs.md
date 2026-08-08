@@ -15,7 +15,7 @@ A samozřejmě připomínka dalších nedávných funkcí, které ti mohly unikn
 - Zobrazení názvů záložek na mapě (zapni v Nastavení aplikace)
 - Ikona tužky ✎ umožňuje rychlou úpravu záložek
 
-Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs.md) a [tvé podpoře](@/contribute/index.md).
+Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs.md) a [tvé podpoře](@/contribute/index.cs.md).
 
 ### Podrobné poznámky k vydání
 

@@ -15,7 +15,7 @@ Funcionalidades recentes que quizais non viches:
 - Amosar nomes dos marcadores no mapa (activa en Axustes)
 - A icona ✎ permite editar marcadores rapidamente
 
-Organic Maps é posible grazas ás persoas colaboradoras, [ás túas doazóns](@/donate/index.gl.md) e [ao teu apoio](@/contribute/index.md).
+Organic Maps é posible grazas ás persoas colaboradoras, [ás túas doazóns](@/donate/index.gl.md) e [ao teu apoio](@/contribute/index.gl.md).
 
 ### Notas detalladas
 

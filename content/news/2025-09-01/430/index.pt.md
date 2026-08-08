@@ -7,7 +7,7 @@ taxonomies:
 
 Agora, quando seleciona uma paragem de autocarro ou elétrico, pode ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar local" e "Editar local").
 
-Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações](@/donate/index.md) e [vosso apoio](@/contribute/index.md).
+Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações](@/donate/index.pt.md) e [vosso apoio](@/contribute/index.pt.md).
 
 ### Notas detalhadas da versão
 

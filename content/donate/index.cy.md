@@ -67,6 +67,6 @@ Ystyriwch roi'n flynyddol i leihau cyfanswm y ffioedd.
 
 ## Allwch chi helpu mewn unrhyw ffordd arall?
 
-Gallwch! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.md) am fwy o fanylion.
+Gallwch! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.
 
 {{ references() }}

@@ -15,7 +15,7 @@ Ir, žinoma, priminimas apie kitas naujoves, kurias galbūt praleidai:
 - Žymų pavadinimai žemėlapyje (įjunk programėlės Nustatymuose)
 - ✎ pieštuko piktograma leidžia greitai redaguoti žymas
 
-Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) ir [tavo palaikymo](@/contribute/index.md).
+Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) ir [tavo palaikymo](@/contribute/index.lt.md).
 
 ### Išsamios leidimo pastabos
 

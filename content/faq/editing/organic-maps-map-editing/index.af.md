@@ -30,8 +30,8 @@ Aangesien [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStr
 		- burger-ikoon -> *Voeg 'n plek by die OpenStreetMap*
 		- Kies die ligging so akkuraat as wat jy kan en druk die tjekpyltjie
 		- Kies 'n kategorie
-			> Kan jy nie 'n kategorie kry wat pas nie? Skep dan 'n [OSM-nota](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Kan jy nie 'n kategorie kry wat pas nie? Skep dan 'n [OSM-nota](@/faq/editing/advanced-map-editing/index.af.md#osm-note).
 		- Voeg bykomende inligting soos die naam, openingstye en webwerf by
 		- Stoor jou veranderinge en gaan uit met die tjekpyltjie
 
-Let daarop dat die redigeerder ontwerp is as 'n eenvoudige PVB-redigeerder en dus beperk is tot PVB's. Jy kan bv. nie paaie, mere, bouomlyne, ens byvoeg nie. Verder is dit nie moontlik om plekke na 'n nuwe ligging te verskuif nie. As jy iets nie met Organic Maps kan wysig nie, kyk na die [Meer gevorderde kaartbewerking](@/faq/editing/advanced-map-editing/index.md)-bladsy.
+Let daarop dat die redigeerder ontwerp is as 'n eenvoudige PVB-redigeerder en dus beperk is tot PVB's. Jy kan bv. nie paaie, mere, bouomlyne, ens byvoeg nie. Verder is dit nie moontlik om plekke na 'n nuwe ligging te verskuif nie. As jy iets nie met Organic Maps kan wysig nie, kyk na die [Meer gevorderde kaartbewerking](@/faq/editing/advanced-map-editing/index.af.md)-bladsy.

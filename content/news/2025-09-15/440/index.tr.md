@@ -15,7 +15,7 @@ Kaçırmış olabileceğin yakın tarihli özellikler:
 - Haritada yer imi adlarını göster (Ayarlar’dan etkinleştir)
 - ✎ simgesi yer imlerini hızlıca düzenlemeyi sağlar
 
-Organic Maps katkıcılar, [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.md) sayesinde mümkündür.
+Organic Maps katkıcılar, [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.tr.md) sayesinde mümkündür.
 
 ### Ayrıntılı sürüm notları
 

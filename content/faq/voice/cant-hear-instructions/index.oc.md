@@ -20,7 +20,7 @@ Se ausissètz pas las instruccions vocalas:
 
 * Mercé de senhalar tot problèma Bluetooth amb los detalhs necessaris sus nòstre [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* S'utilizatz Android e que l'opcion es desactivada (o que d'unas de las lengas suportadas son pas disponiblas), mercé de verificar los [parametres TTS](@/faq/voice/text-to-speech-android-tts/index.md).
+* S'utilizatz Android e que l'opcion es desactivada (o que d'unas de las lengas suportadas son pas disponiblas), mercé de verificar los [parametres TTS](@/faq/voice/text-to-speech-android-tts/index.oc.md).
 
 Sus Android, las instruccions vocalas son disponiblas en 39 lengas: Anglés, Arabe, Basc, Bielorus, Català, Chines (Simplificat e Tradicional), Croat, Tchec, Danés, Neerlandés, Finés, Francés, Alemand, Grèc, Hindi, Ongrés, Indonesian, Italian, Japonés, Corean, Maratí, Norvegian, Persan (Farsi), Polonés, Portugués, Portugués (Brasil), Romanés, Rus, Serb, Eslovac, Espanhòl, Espanhòl (Mexic), Swahili, Suedés, Thai, Turc, Ucrainés, Vietnamian.
 

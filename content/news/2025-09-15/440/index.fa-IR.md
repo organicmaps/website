@@ -52,7 +52,7 @@ Organic Maps به لطف مشارکت‌کنندگان، [اهداهای شما]
 - کاهش ارتفاع عمودی پیش‌نمایش اطلاعات مکان (Alexander Borsuk)
 - حذف زاویهٔ آزیموت به شمال از پیش‌نمایش (برای دیدن روی پیکان آبی با فاصله بزنید) (Alexander Borsuk)
 
-آخرین نسخه را دریافت کنید: [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، [F-Droid][fdroid].
+آخرین نسخهٔ Organic Maps را دریافت کنید: [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، [F-Droid][fdroid].
 
 در بتا شرکت کنید: [iOS][testflight] / [Android][firebase].
 

@@ -8,4 +8,6 @@ taxonomies:
 
 אנא הצביעו עבורנו שוב ב-[HackerNews](https://news.ycombinator.com/item?id=37592712)!
 
-המאמר [המוזכר](https://hardfault.life/p/organic-maps-review) מספק נקודת מבט מעניינת על Organic Maps מאת משתמש בארצות הברית. הבעיה בנתוני OSM המוזכרת במאמר אמורה להיפתר בעדכון הקרוב של Organic Maps. הישארו מעודכנים!
+המאמר [המוזכר](https://hardfault.life/p/organic-maps-review) מספק נקודת מבט מעניינת על Organic Maps מאת משתמש בארצות הברית.
+
+הבעיה בנתוני OSM המוזכרת במאמר אמורה להיפתר בעדכון הקרוב של Organic Maps. הישארו מעודכנים!

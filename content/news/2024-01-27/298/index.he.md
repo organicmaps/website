@@ -6,4 +6,5 @@ taxonomies:
   news: ["עיתונות"]
 ---
 
-כיצד להפעיל את Organic Maps ב-Windows: <https://dimakorolev.substack.com/p/organic-maps-on-windows>
+כיצד להפעיל את Organic Maps ב-Windows:
+<https://dimakorolev.substack.com/p/organic-maps-on-windows>

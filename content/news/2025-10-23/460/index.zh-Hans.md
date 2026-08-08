@@ -55,7 +55,7 @@ taxonomies:
 
 Organic Maps 的实现要感谢 ❤️ 我们的贡献者、[您的捐款](@/donate/index.zh-Hans.md)和[您的支持](@/contribute/index.zh-Hans.md)。
 
-从 [App Store][appstore]、[Google Play][googleplay]、[华为应用市场][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新的 Organic Maps 版本。
+从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新的 Organic Maps 版本。
 
 附：加入 Beta 测试以获得早期功能：
 - [iOS][testflight]

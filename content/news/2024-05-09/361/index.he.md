@@ -8,4 +8,6 @@ taxonomies:
 
 האם ניסית את Organic Maps ב-Linux? אנו משתמשים בו ב-Mac וב-Linux לצורך פיתוח 🧑‍💻👨‍💻👨‍💻, ולכן הוא עדיין לא ידידותי למשתמש כמו ב-iOS וב-Android.
 
-<https://www.maketecheasier.com/best-travel-tools-linux/> נ.ב. גרסת Windows אפשרית גם היא עם קצת אהבה ותמיכה. כל עזרה בהתנדבות תתקבל בברכה!
+<https://www.maketecheasier.com/best-travel-tools-linux/>
+
+נ.ב. גרסת Windows אפשרית גם היא עם קצת אהבה ותמיכה. כל עזרה בהתנדבות תתקבל בברכה!

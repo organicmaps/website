@@ -149,7 +149,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   - [Linux Desktop Beta (Flatpak)][flatpak]
   - [Linux Desktop Beta (πακέτα)][repology]
 - Ανάφερε σφάλματα ή προβλήματα στον [εντοπισμό προβλημάτων][issues] ή [στείλε μας email][email].
-- [Συζήτησε][ιδέες] ιδέες ή πρότεινε αιτήματα χαρακτηριστικών.
+- [Συζήτησε][ideas] ιδέες ή πρότεινε αιτήματα χαρακτηριστικών.
 - Εγγράψου στο [Telegram Channel][telegram] ή στο [matrix space][matrix] για ενημερώσεις.
 - Γίνε μέλος της [Telegram Group][telegram_chat] για να συζητήσεις με άλλους χρήστες.
 - Επισκέψου την [GitHub σελίδα][github] μας.

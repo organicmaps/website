@@ -23,4 +23,6 @@ weight: 1000
 
 Εάν έχεις οποιεσδήποτε ερωτήσεις ή προτάσεις, επικοινώνησε μαζί μας στο [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
-https://github.com/organicmaps/organicmaps/issues [άδεια]: http://www.apache.org/licenses/LICENSE-2.0 [copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[github]: https://github.com/organicmaps/organicmaps/issues
+[license]: http://www.apache.org/licenses/LICENSE-2.0
+[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

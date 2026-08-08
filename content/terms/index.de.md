@@ -24,5 +24,5 @@ In der Datei [data/copyright.html][copyright] findest du die vollständige Liste
 Wenn du Fragen oder Anregungen hast, kontaktiere uns bitte unter [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
-[Lizenz]: http://www.apache.org/licenses/LICENSE-2.0
+[license]: http://www.apache.org/licenses/LICENSE-2.0
 [copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

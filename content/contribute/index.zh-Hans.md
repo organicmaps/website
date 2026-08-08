@@ -13,7 +13,7 @@ Organic Maps是一个免费的、开源的应用程序，没有广告，不收�
 
 - [捐赠](@/donate/index.zh-Hans.md)！每一分钱都很重要，可以帮助我们支付服务器和规模扩展的费用。
 - 在[GitHub][github]或发邮件[email][email]报告bug和分享想法。
-- 如果你是开发人员，请帮助我们[修复bug][作出贡献]并审查代码。每次修复问题总使人兴奋。
+- 如果你是开发人员，请帮助我们[修复bug][contributing]并审查代码。每次修复问题总使人兴奋。
 - [翻译][translations]应用程序界面中缺少的文字。
 - 将[App Store][translations_appstore]和[Android][translations_googleplay]详情翻译成你的语言。
 - 将我们的网站[翻译][translations_website]成你的语言。

@@ -24,5 +24,5 @@ Tekintsd meg a [data/copyright.html][copyright] fájlt az Organic Maps alkalmaz�
 Ha bármilyen kérdésed vagy javaslatod van, lépj kapcsolatba velünk a [legal@organicmaps.app](mailto:legal@organicmaps.app) e-mail-címen.
 
 [github]: https://github.com/organicmaps/organicmaps
-[licenc]: http://www.apache.org/licenses/LICENSE-2.0
-[szerzői jogok (copyright)]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html
+[license]: http://www.apache.org/licenses/LICENSE-2.0
+[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

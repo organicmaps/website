@@ -1,7 +1,7 @@
 ---
 title: ¿Cómo uso la versión flatpak de la aplicación?
 slug: cómo-uso-la-versión-flatpak-de-la-aplicación
-description: Preguntas frecuentes para la aplicación de Mapas Orgánicos
+description: Preguntas frecuentes para la aplicación Organic Maps
 taxonomies:
   faq:
   - linux

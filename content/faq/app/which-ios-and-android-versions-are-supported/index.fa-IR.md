@@ -16,4 +16,4 @@ aliases:
 
 در Android، Organic Maps می‌تواند روی دستگاه‌هایی با سرویس‌های Google نصب شده و بدون پشتیبانی Google کار کند.
 
-برای استفاده از OM با Android Auto، لطفاً شرایط مورد نیاز [اینجا] را بررسی کنید (../how-to-use-android-auto/).
+برای استفاده از OM با Android Auto، لطفاً شرایط مورد نیاز را [اینجا](../how-to-use-android-auto/) بررسی کنید.

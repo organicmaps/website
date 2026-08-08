@@ -16,4 +16,4 @@ Om de app te kunnen gebruiken heb je minimaal iOS 12 of Android 5 nodig. Apparat
 
 In Android kan Organic Maps werken op apparaten waarop Google Services is geïnstalleerd en zonder Google-ondersteuning.
 
-Als je OM met Android Auto wilt gebruiken, controleer je [hier] de vereisten (../how-to-use-android-auto/).
+Als je OM met Android Auto wilt gebruiken, controleer je de vereisten [hier](../how-to-use-android-auto/).

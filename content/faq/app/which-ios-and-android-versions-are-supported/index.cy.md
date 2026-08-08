@@ -16,4 +16,4 @@ Mae angen o leiaf iOS 12 neu Android 5 arnat i redeg yr ap. Gall dyfeisiau gyda 
 
 Yn Android, gall Organic Maps weithio ar ddyfeisiau gyda Gwasanaethau Google wedi'u gosod a heb gefnogaeth Google.
 
-I ddefnyddio OM gyda Android Auto, gwiria'r gofynion [yma] (../how-to-use-android-auto/).
+I ddefnyddio OM gyda Android Auto, gwiria'r gofynion [yma](../how-to-use-android-auto/).

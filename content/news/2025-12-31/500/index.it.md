@@ -37,7 +37,7 @@ Altri risultati notevoli nel 2025 includono:
    - [3K su Instagram][instagram]
    - [2.8K su Matrix][matrix]
    - [2K su Facebook][facebook]
-   - [1.7K su Reddit][reddit] con 100.000 visualizzazioni annuali
+   - [1.7K su Reddit][reddit] con 100K visualizzazioni annuali
    - [1K su Linkedin][linkedin]
    - [355 su Threads][threads]
    - [275 su TikTok][tiktok]

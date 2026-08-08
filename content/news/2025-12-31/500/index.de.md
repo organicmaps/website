@@ -18,7 +18,7 @@ Weitere bemerkenswerte Erfolge im Jahr 2025 sind:
 
 - 1K [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) erstellt und 808 im Jahr 2025 von insgesamt 5K zusammengeführt.
 - 800 [neue Issues][github issues] erstellt und 482 im Jahr 2025 von insgesamt 6K behoben/geschlossen.
-- [1.5K Commits](https://github.com/organicmaps/organicmaps/commits) von 100 Mitwirkenden im Jahr 2025 von insgesamt 8.600 Commits seit Projektstart im Jahr 2020.
+- [1.5K Commits](https://github.com/organicmaps/organicmaps/commits) von 100 Mitwirkenden im Jahr 2025 von insgesamt 8.6K Commits seit Projektstart im Jahr 2020.
 - Das Projekt erreichte 1.244 Forks und 12.411 Sterne [auf GitHub][github], was auf ein starkes Entwicklerinteresse und eine reale Nutzung hinweist.
 
 #### Store-Bewertungen und Nutzerbeteiligung
@@ -37,13 +37,13 @@ Weitere bemerkenswerte Erfolge im Jahr 2025 sind:
    - [3K auf Instagram][instagram]
    - [2.8K auf Matrix][matrix]
    - [2K auf Facebook][facebook]
-   - [1.7K auf Reddit][reddit] mit 100.000 jährlichen Aufrufen
+   - [1.7K auf Reddit][reddit] mit 100K jährlichen Aufrufen
    - [1K auf Linkedin][linkedin]
    - [355 auf Threads][threads]
    - [275 auf TikTok][tiktok]
    - [251 auf BlueSky][bluesky]
-- Schließ dich 2.600 Betatestern [auf iOS][testflight] und fast 2.000 [auf Android][firebase] an, die uns helfen, neue Funktionen zu testen und Probleme zu melden.
-- Fast 1.000 Nutzer nahmen [an der Umfrage zur am meisten gewünschten fehlenden Funktion teil](https://t.me/OrganicMapsApp/568), wobei der öffentliche Verkehr auf Platz 1, Verkehrsinformationen auf Platz 2 und eine bessere Suche auf Platz 3 landeten.
+- Schließ dich 2.6K Betatestern [auf iOS][testflight] und fast 2K [auf Android][firebase] an, die uns helfen, neue Funktionen zu testen und Probleme zu melden.
+- Fast 1K Nutzer nahmen [an der Umfrage zur am meisten gewünschten fehlenden Funktion teil](https://t.me/OrganicMapsApp/568), wobei der öffentliche Verkehr auf Platz 1, Verkehrsinformationen auf Platz 2 und eine bessere Suche auf Platz 3 landeten.
 - Wir unterstützen lokale Organic Maps-Communities auf Telegram. Tritt unseren [englisch-][telegram_chat], [deutsch-][telegram_chat_de], [französisch-][telegram_chat_fr], [italienisch-][telegram_chat_it], [spanisch-][telegram_chat_es], [türkisch-][telegram_chat_tr], [ukrainisch-][telegram_chat_uk], [russisch-][telegram_chat_ru], [chinesisch-][telegram_chat_zh], [arabisch-][telegram_chat_ar] und [persischsprachigen][telegram_chat_fa] Communities bei.
 
 Nichts davon wäre ohne euch möglich gewesen: unsere Nutzer, unsere [Mitwirkenden](@/contribute/index.de.md), unsere Unterstützer. Jeder Commit, jede Fehlerbehebung, jede [Spende](@/donate/index.de.md) und sogar ein Stern auf GitHub, eine Stimme auf Telegram oder eine Shop-Bewertung hilft uns, unserem Ziel näher zu kommen, kostenlose, quelloffene und datenschutzfreundliche Karten für alle zugänglicher zu machen. Danke!

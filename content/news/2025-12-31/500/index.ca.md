@@ -16,15 +16,15 @@ Altres èxits notables el 2025 inclouen:
 
 #### Estadístiques de GitHub
 
-- 1.000 [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) creats i 808 fusionats el 2025 d'un total de 5.000.
+- 1K [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) creats i 808 fusionats el 2025 d'un total de 5.000.
 - 800 [noves incidències][github issues] creades i 482 solucionades/tancades el 2025 d'un total de 6.000.
-- [1.5K commits](https://github.com/organicmaps/organicmaps/commits) de 100 col·laboradors el 2025 d'un total de 8.600 commits des que el projecte va començar el 2020.
+- [1.5K commits](https://github.com/organicmaps/organicmaps/commits) de 100 col·laboradors el 2025 d'un total de 8.6K commits des que el projecte va començar el 2020.
 - El projecte ha arribat a 1.244 forks i 12.411 estrelles [a GitHub][github], indicant un fort interès dels desenvolupadors i un ús real.
 
 #### Valoracions a les botigues i participació dels usuaris
 
-- Al llarg del 2025, les valoracions totals a l'App Store han augmentat de 4.100 a 11.100, la qual cosa significa que l'aplicació ha rebut més del doble de noves valoracions el 2025 que en tots els anys anteriors junts, reflectint una forta apreciació per part vostra, els nostres estimats usuaris.
-- Els usuaris d'Android també han mostrat un augment de la participació, amb 5.300 noves valoracions el 2025, arribant a un total de 16.500 ❤️
+- Al llarg del 2025, les valoracions totals a l'App Store han augmentat de 4.1K a 11.100, la qual cosa significa que l'aplicació ha rebut més del doble de noves valoracions el 2025 que en tots els anys anteriors junts, reflectint una forta apreciació per part vostra, els nostres estimats usuaris.
+- Els usuaris d'Android també han mostrat un augment de la participació, amb 5.3K noves valoracions el 2025, arribant a un total de 16.5K ❤️
 - Hem enviat 4K correus electrònics de suport i hem respost a 2.5K ressenyes a Google Play i App Store el 2025.
 - 10 petabytes de dades de mapes han estat descarregats per usuaris de tot el món des dels nostres servidors el 2025.
 
@@ -37,7 +37,7 @@ Altres èxits notables el 2025 inclouen:
    - [3K a Instagram][instagram]
    - [2.8K a Matrix][matrix]
    - [2K a Facebook][facebook]
-   - [1.7K a Reddit][reddit] amb 100.000 visualitzacions anuals
+   - [1.7K a Reddit][reddit] amb 100K visualitzacions anuals
    - [1K a Linkedin][linkedin]
    - [355 a Threads][threads]
    - [275 a TikTok][tiktok]

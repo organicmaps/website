@@ -13,7 +13,7 @@ title: "Organic Maps : ऑफलाईन भटकंती, सायकल �
 
 > डिसेंबर 2025 मध्ये, Organic Maps ने [60 लाख इन्स्टॉल्सचा टप्पा गाठला](@/news/2025-12-31/500/index.mr.md). आम्हाला वाढण्यास [मदत करा](@/donate/index.mr.md)!
 
-### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 

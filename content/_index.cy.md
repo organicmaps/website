@@ -4,7 +4,7 @@ extra:
   menu_title: Hafan
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
+title: "Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein"
 ---
 
 **Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored a'r un bobl a greodd ap [**MapsWithMe**][mapswithme]/**Maps.Me**. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ lliw tywyll') }}
 
 ## Nodweddion
 
-Organic Maps yw'r ap gorau ar gyfer teithwyr, twristiaid, heicwyr a
-seiclwyr:
+Organic Maps yw'r ap gorau ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr:
 
-- Mapiau manwl all-lein gyda lleoliadau sydd ddim yn bodoli ar fapiau
-  eraill, diolch i [OpenStreetMap][openstreetmap]
+- Mapiau manwl all-lein gyda lleoliadau sydd ddim yn bodoli ar fapiau eraill, diolch i [OpenStreetMap][openstreetmap]
 - Llwybrau seiclo, heicio, a cherdded
 - Cyfuchlinau, proffeiliau dyrchafiad, copaon, a llethrau
-- Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a
-  gyrru gydag arweiniad llais ac CarPlay/Android Auto
+- Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a gyrru gydag arweiniad llais ac CarPlay/Android Auto
 - Mapiau metro/isffordd
 - Chwilio all-lein cyflym ar y map
 - Llyfrnodau ac olion yn fformatiau KML, KMZ, a GPX, GeoJSON
@@ -71,8 +68,7 @@ Mae'r ap wedi cael ei wirio gan [Exodus Preifatrwydd Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-Mae'r ap iOS wedi cael ei wirio gan [TrackerControl for
-iOS][trackercontrol]:
+Mae'r ap iOS wedi cael ei wirio gan [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -82,8 +78,7 @@ Dydy Organic Maps ddim yn gofyn am ormod o ganiatadau i ysbïo arnoch chi:
 
 At Organic Maps, credwn fod preifatrwydd yn hawl dynol sylfaenol:
 
-- Mae Organic Maps yn brosiect ffynhonnell agored annibynnol sydd wedi'i
-  yrru gan y gymuned
+- Mae Organic Maps yn brosiect ffynhonnell agored annibynnol sydd wedi'i yrru gan y gymuned
 - Rydym yn amddiffyn eich preifatrwydd o lygaid cwmnïoedd technoleg fawr
 - Arhoswch yn ddiogel ble bynnag yr ydych
 
@@ -93,11 +88,9 @@ Gwrthodwch wyliadwriaeth - mwynhewch eich rhyddid.
 
 ## Pwy sy'n talu am yr ap am ddim?
 
-Mae'r ap am ddim i bawb. Os gwelwch yn dda, [cyfrannwch yn
-ariannol](@/donate/index.cy.md) i'n cynorthwyo!
+Mae'r ap am ddim i bawb. Os gwelwch yn dda, [cyfrannwch yn ariannol](@/donate/index.cy.md) i'n cynorthwyo!
 
-I'n cynorthwyo'n ariannol yn gyfleus, cliciwch ar eicon eich hoff ffordd o
-dalu isod:
+I'n cynorthwyo'n ariannol yn gyfleus, cliciwch ar eicon eich hoff ffordd o dalu isod:
 
 {{ donate_buttons() }}
 
@@ -148,30 +141,20 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
 
 ## Cymuned
 
-Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i
-thrwyddedu o dan y drwydded Apache License 2.0.
+Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i thrwyddedu o dan y drwydded Apache License 2.0.
 
-- Os gwelwch yn dda, ymunwch â'n system profi beta, awgrymwch eich syniadau,
-  ac adroddwch broblemau:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Bwrdd Gwaith Linux Beta (Flatpak)][flatpak]
-  * [Bwrdd Gwaith Linux Beta (packages)][repology]
-- Adroddwch broblemau i'r [olrhain problemau][issues] neu [anfonwch e-bost
-  aton ni][email].
+- Os gwelwch yn dda, ymunwch â'n system profi beta, awgrymwch eich syniadau, ac adroddwch broblemau:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Bwrdd Gwaith Linux Beta (Flatpak)][flatpak]
+  - [Bwrdd Gwaith Linux Beta (packages)][repology]
+- Adroddwch broblemau i'r [olrhain problemau][issues] neu [anfonwch e-bost aton ni][email].
 - [Trafodwch][ideas] syniadau neu gofynnwch am nodweddion newydd.
-- Tanysgrifiwch i'n [sianel Telegram][telegram] neu i'r [gofod
-  matrix][matrix] ar gyfer newyddion.
+- Tanysgrifiwch i'n [sianel Telegram][telegram] neu i'r [gofod matrix][matrix] ar gyfer newyddion.
 - Ymunwch â'n [grŵp Telegram][telegram_chat] i drafod gyda defnyddwyr arall.
 - Ymweld â'n [tudalen GitHub][github].
-- Dilynwch ein newyddion ar [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Dilynwch ein newyddion ar [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

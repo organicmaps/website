@@ -142,10 +142,10 @@ Organic Maps में, हम मानते हैं कि गोपनी�
 Organic Maps एक [ओपन-सोर्स सॉफ्टवेयर][github] है जिसे Apache License 2.0 के तहत लाइसेंस दिया गया है।
 
 - कृपया हमारे बीटा प्रोग्राम में शामिल हों, अपनी सुविधाओं का सुझाव दें, और बग्स को रिपोर्ट करें:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - [समस्या ट्रैकर][issues] या [हमें ईमेल करें][email] पर बग या मुद्दों की रिपोर्ट करें।
 - विचारों पर [चर्चा करें][ideas] या सुविधा अनुरोधों का प्रस्ताव करें।
 - अपडेट के लिए हमारे [Telegram Channel][telegram] या [matrix space][matrix] की सदस्यता लें।

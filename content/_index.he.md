@@ -17,10 +17,7 @@ extra:
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='טיולי הליכה', loading='eager', fetchpriority='high') }}
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='פראג') }}
-{{ screenshot(src='/images/screenshots/search.jpg', alt='חיפוש אופליין') }}
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='ניווט במצב כהה') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='טיולי הליכה', loading='eager', fetchpriority='high') }} {{ screenshot(src='/images/screenshots/prague.jpg', alt='פראג') }} {{ screenshot(src='/images/screenshots/search.jpg', alt='חיפוש אופליין') }} {{ screenshot(src='/images/screenshots/dark.jpg', alt='ניווט במצב כהה') }}
 
 ## תכונות
 
@@ -139,10 +136,10 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
 Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache License 2.0.
 
 - אנא הצטרפו לתוכנית הבטא שלנו, הציעו תכונות ודווחו על באגים:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - דווחו על באגים או בעיות ל-[issue tracker][issues] או [שלחו לנו דוא"ל][email].
 - [דונו][ideas] ברעיונות או הציעו בקשות לתכונות.
 - הירשמו ל-[ערוץ הטלגרם][telegram] שלנו או ל-[matrix space][matrix] לעדכונים.

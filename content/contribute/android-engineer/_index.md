@@ -24,16 +24,11 @@ Organic Maps [by the end of 2024](@/news/2024-12-20/411/index.md):
 
 ### Vision
 
-Our vision is to provide free and open navigation with built-in privacy, developed
-by the community. Organic Maps aims to build a navigation app that serves the public
-good, prioritizing the needs of users over the interests of big tech, VCs, or banks.
+Our vision is to provide free and open navigation with built-in privacy, developed by the community. Organic Maps aims to build a navigation app that serves the public good, prioritizing the needs of users over the interests of big tech, VCs, or banks.
 
 ### Opportunity
 
-Contribute to building a world-class navigation app that sets a new standard
-for privacy and offline functionality, all while remaining independent of corporate
-interests. You will play a crucial role in shaping the future of navigation for
-travelers around the world.
+Contribute to building a world-class navigation app that sets a new standard for privacy and offline functionality, all while remaining independent of corporate interests. You will play a crucial role in shaping the future of navigation for travelers around the world.
 
 ### What You Will Do
 

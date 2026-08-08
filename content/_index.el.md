@@ -1,10 +1,10 @@
 ---
-description: 'Γρήγοροι και αναλυτικοί χάρτες χωρίς την ανάγκη σύνδεσης στο διαδίκτυο για ταξιδιώτες, τουρίστες, οδηγούς, πεζοπόρους και ποδηλάτες, από τους δημιουργούς του MapsWithMe (Maps.Me).'
+description: "Γρήγοροι και αναλυτικοί χάρτες χωρίς την ανάγκη σύνδεσης στο διαδίκτυο για ταξιδιώτες, τουρίστες, οδηγούς, πεζοπόρους και ποδηλάτες, από τους δημιουργούς του MapsWithMe (Maps.Me)."
 extra:
   menu_title: Αρχική
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
+title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 ---
 
 Το **Organic Maps** είναι μια εφαρμογή χαρτών και GPS χωρίς σύνδεση για ορειβασία, ποδηλασία, μοτοσυκλετισμός, ποδηλασία και οδήγηση. Απολύτως δωρεάν. Χωρίς διαφημίσεις. Χωρίς εντοπισμό. Αναπτύσσεται με αγάπη από την κοινότητα ανοιχτού κώδικα και τους ίδιους ανθρώπους που δημιούργησαν την εφαρμογή [**MapsWithMe**][mapswithme]/**Maps.Me**. Λειτουργεί με δεδομένα [OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 
 ## Χαρακτηριστικά
 
-Το Οrganic Maps είναι ο πληρής πλοηγός για ταξιδιώτες, τουρίστες, οδηγούς,
-πεζοπόρους και ποδηλάτες:
+Το Οrganic Maps είναι ο πληρής πλοηγός για ταξιδιώτες, τουρίστες, οδηγούς, πεζοπόρους και ποδηλάτες:
 
-- Λεπτομερείς offline χάρτες με μέρη που δεν υπάρχουν σε άλλους χάρτες, χάρη
-  στο [OpenStreetMap][openstreetmap]
+- Λεπτομερείς offline χάρτες με μέρη που δεν υπάρχουν σε άλλους χάρτες, χάρη στο [OpenStreetMap][openstreetmap]
 - Ποδηλατικές διαδρομές, μονοπάτια πεζοπορίας και μονοπάτια πεζοπορίας
 - Γραμμές οριζοντιογραφίας, προφίλ υψομέτρων, κορυφές και κλίσεις
-- Περπάτημα, ποδηλασία και πλοήγηση αυτοκινήτου με φωνητική καθοδήγηση και
-  CarPlay/Android Auto
+- Περπάτημα, ποδηλασία και πλοήγηση αυτοκινήτου με φωνητική καθοδήγηση και CarPlay/Android Auto
 - Χάρτες μετρό
 - Γρήγορη αναζήτηση εκτός σύνδεσης στον χάρτη
 - Σελιδοδείκτες και ίχνη σε μορφές KML, KMZ και GPX, GeoJSON
@@ -54,8 +51,7 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 - Εξοικονομεί την μπαταρία σας
 - Χωρίς απροσδόκητες χρεώσεις δεδομένων κινητής τηλεφωνίας
 
-Η εφαρμογή Organic Maps είναι απαλλαγμένη από trackers και άλλα κακά
-πράγματα:
+Η εφαρμογή Organic Maps είναι απαλλαγμένη από trackers και άλλα κακά πράγματα:
 
 - Χωρίς διαφημίσεις
 - Χωρίς παρακολούθηση
@@ -72,21 +68,17 @@ title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
 
 {{ exodus_screenshot() }}
 
-Η iOS εφαρμογή έχει επαληθευτεί από το [TrackerControl για
-iOS][trackercontrol]:
+Η iOS εφαρμογή έχει επαληθευτεί από το [TrackerControl για iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Οι Organic Maps δεν ζητούν υπερβολικά πολλά δικαιώματα για να σας
-κατασκοπεύουν:
+Οι Organic Maps δεν ζητούν υπερβολικά πολλά δικαιώματα για να σας κατασκοπεύουν:
 
 {{ privacy_screenshots() }}
 
-Στο Organic Maps, πιστεύουμε ότι η ιδιωτικότητα είναι θεμελιώδες ανθρώπινο
-δικαίωμα:
+Στο Organic Maps, πιστεύουμε ότι η ιδιωτικότητα είναι θεμελιώδες ανθρώπινο δικαίωμα:
 
-- Οι Organic Maps είναι ένα ανεξάρτητο έργο ανοικτού κώδικα με γνώμονα την
-  κοινότητα
+- Οι Organic Maps είναι ένα ανεξάρτητο έργο ανοικτού κώδικα με γνώμονα την κοινότητα
 - Προστατεύουμε το απόρρητό σας από τα αδιάκριτα μάτια της Big Tech
 - Μείνετε ασφαλείς όπου κι αν βρίσκεστε
 
@@ -96,11 +88,9 @@ iOS][trackercontrol]:
 
 ## Ποιος πληρώνει για τη δωρεάν εφαρμογή;
 
-Η εφαρμογή είναι δωρεάν για όλους. Παρακαλώ [δωρίστε](@/donate/index.el.md) για
-να μας υποστηρίξετε!
+Η εφαρμογή είναι δωρεάν για όλους. Παρακαλώ [δωρίστε](@/donate/index.el.md) για να μας υποστηρίξετε!
 
-Για να κάνετε δωρεά με ευκολία, κάντε κλικ στο εικονίδιο της προτιμώμενης
-μεθόδου πληρωμής παρακάτω:
+Για να κάνετε δωρεά με ευκολία, κάντε κλικ στο εικονίδιο της προτιμώμενης μεθόδου πληρωμής παρακάτω:
 
 {{ donate_buttons() }}
 
@@ -151,31 +141,20 @@ iOS][trackercontrol]:
 
 ## Κοινότητα
 
-Οι Organic Maps είναι ένα [λογισμικό ανοικτού κώδικα][github] με άδεια
-χρήσης υπό την Άδεια Apache License 2.0.
+Οι Organic Maps είναι ένα [λογισμικό ανοικτού κώδικα][github] με άδεια χρήσης υπό την Άδεια Apache License 2.0.
 
-- Παρακαλούμε να συμμετάσχετε στο πρόγραμμα beta, να προτείνετε τα
-  χαρακτηριστικά σας και να αναφέρετε σφάλματα:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (πακέτα)][repology]
-- Αναφέρετε σφάλματα ή προβλήματα στον [εντοπισμό προβλημάτων][issues] ή
-  [στείλτε μας email][email].
+- Παρακαλούμε να συμμετάσχετε στο πρόγραμμα beta, να προτείνετε τα χαρακτηριστικά σας και να αναφέρετε σφάλματα:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (πακέτα)][repology]
+- Αναφέρετε σφάλματα ή προβλήματα στον [εντοπισμό προβλημάτων][issues] ή [στείλτε μας email][email].
 - [Συζητήστε][ιδέες] ιδέες ή προτείνετε αιτήματα χαρακτηριστικών.
-- Εγγραφείτε στο [Telegram Channel][telegram] ή στο [matrix space][matrix]
-  για ενημερώσεις.
-- Γίνετε μέλος της [Telegram Group][telegram_chat] για να συζητήσετε με
-  άλλους χρήστες.
+- Εγγραφείτε στο [Telegram Channel][telegram] ή στο [matrix space][matrix] για ενημερώσεις.
+- Γίνετε μέλος της [Telegram Group][telegram_chat] για να συζητήσετε με άλλους χρήστες.
 - Επισκεφθείτε την [GitHub σελίδα][github] μας.
-- Ακολουθήστε τις ενημερώσεις μας σε [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Γίνετε μέλη (ή δημιουργήστε και ενημερώστε μας) τοπικών κοινοτήτων:
-  (https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [κινέζικα-][telegram_chat_zh], [γαλλικά-][telegram_chat_fr],
-  [ρωσικά-][telegram_chat_ru], [τουρκικά-][telegram_chat_tr]ομιλούντες
-  συνομιλίες Telegram.
+- Ακολουθήστε τις ενημερώσεις μας σε [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Γίνετε μέλη (ή δημιουργήστε και ενημερώστε μας) τοπικών κοινοτήτων: (https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [κινέζικα-][telegram_chat_zh], [γαλλικά-][telegram_chat_fr], [ρωσικά-][telegram_chat_ru], [τουρκικά-][telegram_chat_tr]ομιλούντες συνομιλίες Telegram.
 
 [fork]: https://el.wikipedia.org/wiki/Παρακλάδι_(πληροφορική)
 

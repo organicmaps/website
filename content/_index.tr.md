@@ -7,9 +7,7 @@ extra:
   menu_title: Ana sayfa
 ---
 
-**Organic Maps** gezginler, turistler, yürüyüşçüler ve bisikletçiler için ücretsiz bir Android ve iOS çevrimdışı harita uygulamasıdır.
-Topluluk kaynaklı [**OpenStreetMap**][openstreetmap] verilerine dayanmaktadır.
-Daha önce [**MapsWithMe**][mapswithme] olarak bilinen **Maps.me** uygulamasının gizlilik odaklı, açık kaynaklı bir [çatalı](https://tr.wikipedia.org/wiki/%C3%87atal_(yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme)) olan Organic Maps, 2011 yılında **MapsWithMe** uygulamasını geliştiren kişiler tarafından sürdürülmektedir.
+**Organic Maps** gezginler, turistler, yürüyüşçüler ve bisikletçiler için ücretsiz bir Android ve iOS çevrimdışı harita uygulamasıdır. Topluluk kaynaklı [**OpenStreetMap**][openstreetmap] verilerine dayanmaktadır. Daha önce [**MapsWithMe**][mapswithme] olarak bilinen **Maps.me** uygulamasının gizlilik odaklı, açık kaynaklı bir [çatalı](<https://tr.wikipedia.org/wiki/%C3%87atal_(yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme)>) olan Organic Maps, 2011 yılında **MapsWithMe** uygulamasını geliştiren kişiler tarafından sürdürülmektedir.
 
 > Aralık 2025'te Organic Maps [6 milyon yüklemeye ulaştı](@/news/2025-12-31/500/index.tr.md). Büyümemize [yardım edin](@/donate/index.tr.md)!
 
@@ -17,10 +15,7 @@ Daha önce [**MapsWithMe**][mapswithme] olarak bilinen **Maps.me** uygulamasın�
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Yürüyüş', loading='eager', fetchpriority='high') }}
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prag') }}
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Çevrimdışı Arama') }}
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Koyu modda navigasyon') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Yürüyüş', loading='eager', fetchpriority='high') }} {{ screenshot(src='/images/screenshots/prague.jpg', alt='Prag') }} {{ screenshot(src='/images/screenshots/search.jpg', alt='Çevrimdışı Arama') }} {{ screenshot(src='/images/screenshots/dark.jpg', alt='Koyu modda navigasyon') }}
 
 ## Özellikler
 
@@ -133,7 +128,6 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
     </td>
   </tr>
 </table>
-
 
 ### Sponsorlarımız:
 

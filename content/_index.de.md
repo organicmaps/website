@@ -1,10 +1,10 @@
 ---
-description: 'Schnelle, detaillierte Offline-Karten für Reisende, Touristen, Autofahrer, Wanderer und Radfahrer, erstellt von den Gründern der MapsWithMe-App (Maps.Me).'
+description: "Schnelle, detaillierte Offline-Karten für Reisende, Touristen, Autofahrer, Wanderer und Radfahrer, erstellt von den Gründern der MapsWithMe-App (Maps.Me)."
 extra:
   menu_title: Startseite
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation'
+title: "Organic Maps: Offline Wandern, Radfahren, Wanderwege und Navigation"
 ---
 
 **Organic Maps** ist eine datenschutzfreundliche Offline-Karten- und GPS-App zum Wandern, Radfahren und Autofahren. Absolut kostenlos. Keine Werbung. Kein Tracking. Von der Open-Source-Gemeinschaft und denselben Leuten, die die [**MapsWithMe**][mapswithme]/**Maps.Me**-App erstellt haben, mit Liebe entwickelt. Unterstützt durch [OpenStreetMap][openstreetmap]-Daten.
@@ -28,15 +28,12 @@ Modus') }}
 
 ## Funktionen
 
-Organic Maps ist die ultimative Begleit-App für Reisende, Touristen,
-Wanderer und Radfahrer:
+Organic Maps ist die ultimative Begleit-App für Reisende, Touristen, Wanderer und Radfahrer:
 
-- Detaillierte Offline-Karten mit Orten, die es auf anderen Karten nicht
-  gibt, dank [OpenStreetMap][openstreetmap]
+- Detaillierte Offline-Karten mit Orten, die es auf anderen Karten nicht gibt, dank [OpenStreetMap][openstreetmap]
 - Rad-, Wander- und Spazierwege
 - Höhenlinien, Höhenprofile, Bergspitzen und Steigungen
-- Schritt-für-Schritt-Navigation für Fußgänger, Radfahrer und Autofahrer mit
-  Sprachführung, CarPlay/Android Auto
+- Schritt-für-Schritt-Navigation für Fußgänger, Radfahrer und Autofahrer mit Sprachführung, CarPlay/Android Auto
 - U-Bahn-Pläne
 - Schnelle Offline-Suche von Orten auf der Karte
 - Export und Import von Lesezeichen im KML/KMZ-Format, Import GPX, GeoJSON
@@ -74,18 +71,14 @@ Die iOS-App wurde von [TrackerControl für iOS][trackercontrol] geprüft:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps fordert keine unnötigen Berechtigungen an, um dich
-auszuspionieren:
+Organic Maps fordert keine unnötigen Berechtigungen an, um dich auszuspionieren:
 
 {{ privacy_screenshots() }}
 
-Wir bei Organic Maps glauben, dass die Privatsphäre ein grundlegendes
-Menschenrecht ist:
+Wir bei Organic Maps glauben, dass die Privatsphäre ein grundlegendes Menschenrecht ist:
 
-- Organic Maps ist ein von einer unabhängigen Gemeinschaft betriebenes
-  Open-Source-Projekt
-- Wir schützen deine Privatsphäre vor den neugierigen Augen der großen
-  Technologiekonzerne
+- Organic Maps ist ein von einer unabhängigen Gemeinschaft betriebenes Open-Source-Projekt
+- Wir schützen deine Privatsphäre vor den neugierigen Augen der großen Technologiekonzerne
 - Bleib sicher, egal wo du bist
 
 Lehne Überwachung ab - lebe deine Freiheit.
@@ -94,11 +87,9 @@ Lehne Überwachung ab - lebe deine Freiheit.
 
 ## Wer zahlt für die kostenlose App?
 
-Die App ist für alle kostenlos. Bitte unterstütze uns mit einer
-[Spende](@/donate/index.de.md)!
+Die App ist für alle kostenlos. Bitte unterstütze uns mit einer [Spende](@/donate/index.de.md)!
 
-Wenn du sofort spenden möchtest, klicke unten auf das Symbol einer
-bevorzugten Zahlungsmethode:
+Wenn du sofort spenden möchtest, klicke unten auf das Symbol einer bevorzugten Zahlungsmethode:
 
 {{ donate_buttons() }}
 
@@ -149,28 +140,20 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
 
 ## Gemeinschaft
 
-Organic Maps ist eine [Open-Source-Software][github], die unter der Apache
-License 2.0 lizenziert ist.
+Organic Maps ist eine [Open-Source-Software][github], die unter der Apache License 2.0 lizenziert ist.
 
 - Bitte nimm an unserem Beta-Programm teil, schlage Funktionen vor und melde Fehler:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (Pakete)][repology]
-- Melde Bugs oder Probleme an den [Issue Tracker][issues] oder per [E-Mail
-  an uns][email].
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (Pakete)][repology]
+- Melde Bugs oder Probleme an den [Issue Tracker][issues] oder per [E-Mail an uns][email].
 - [Diskutiere][ideas] Ideen oder äußere Funktionswünsche.
-- Abonniere unseren [Telegram-Channel][telegram] oder den
-  [Matrix-Raum][matrix] für Neuigkeiten.
-- Tritt unserer [Telegram-Gruppe][telegram_chat_de] bei, um mit anderen
-  Benutzern zu diskutieren.
+- Abonniere unseren [Telegram-Channel][telegram] oder den [Matrix-Raum][matrix] für Neuigkeiten.
+- Tritt unserer [Telegram-Gruppe][telegram_chat_de] bei, um mit anderen Benutzern zu diskutieren.
 - Besuche unsere [GitHub-Seite][github].
-- Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen):
-  [Ungarischer
-  Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Englisch-][telegram_chat], [Chinesisch-][telegram_chat_zh], [Französisch-][telegram_chat_fr], [Russisch-][telegram_chat_ru], [Türkisch-][telegram_chat_tr]sprachige Telegram-Chats.
+- Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen): [Ungarischer Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Englisch-][telegram_chat], [Chinesisch-][telegram_chat_zh], [Französisch-][telegram_chat_fr], [Russisch-][telegram_chat_ru], [Türkisch-][telegram_chat_tr]sprachige Telegram-Chats.
 
 [fork]: https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)
 

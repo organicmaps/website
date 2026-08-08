@@ -63,9 +63,7 @@ Ci sono molti modi per donare al progetto:
 - [SEPA/bonifico bancario diretto][sepa] - commissioni trascurabili
 - [Criptovalute][crypto] - commissioni estreme
 
-Le donazioni ricorrenti sono il modo migliore per garantire un'entrata relativamente stabile al
-progetto e motivarci per i compiti e gli obiettivi a lungo termine. Ma potete anche
-donare una volta sola.
+Le donazioni ricorrenti sono il modo migliore per garantire un'entrata relativamente stabile al progetto e motivarci per i compiti e gli obiettivi a lungo termine. Ma potete anche donare una volta sola.
 
 {{ donate_buttons() }}
 
@@ -82,14 +80,12 @@ donare una volta sola.
 
 ## Cripto
 
-Si prega di considerare una donazione annuale per ridurre le spese totali. Algorand, Tron,
-Litecoin e Monero offrono commissioni basse, ma la situazione cambia ogni giorno.
+Si prega di considerare una donazione annuale per ridurre le spese totali. Algorand, Tron, Litecoin e Monero offrono commissioni basse, ma la situazione cambia ogni giorno.
 
 {{ crypto_table() }}
 
 ## Puoi aiutarci in qualche altro modo?
 
-Sì! Ci sono molti modi per sostenere Organic Maps. Vedi la pagina
-[Supportaci](@/contribute/index.it.md) per maggiori dettagli.
+Sì! Ci sono molti modi per sostenere Organic Maps. Vedi la pagina [Supportaci](@/contribute/index.it.md) per maggiori dettagli.
 
 {{ references() }}

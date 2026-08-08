@@ -1,10 +1,10 @@
 ---
-description: 'A MapsWithMe (Maps.Me) alkalmazás alapítói által készített gyors, részletes, offline térképek utazók, turisták, sofőrök, túrázók és kerékpárosok számára.'
+description: "A MapsWithMe (Maps.Me) alkalmazás alapítói által készített gyors, részletes, offline térképek utazók, turisták, sofőrök, túrázók és kerékpárosok számára."
 extra:
   menu_title: Kezdőlap
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: offline túrázás, kerékpározás, turistautak és navigáció'
+title: "Organic Maps: offline túrázás, kerékpározás, turistautak és navigáció"
 ---
 
 Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség és a [**MapsWithMe**][mapswithme]/**Maps.Me** alapítói fejlesztik és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
@@ -29,19 +29,15 @@ módban') }}
 
 ## Funkciók
 
-Az Organic Maps tökéletes társa az utazóknak, turistáknak, kirándulóknak és
-kerékpárosoknak:
+Az Organic Maps tökéletes társa az utazóknak, turistáknak, kirándulóknak és kerékpárosoknak:
 
-- Részletes offline térképek olyan helyekkel, amelyek más térképeken nem
-  léteznek, az [OpenStreetMap][openstreetmap] jóvoltából
+- Részletes offline térképek olyan helyekkel, amelyek más térképeken nem léteznek, az [OpenStreetMap][openstreetmap] jóvoltából
 - Kerékpárutak, túraútvonalak és sétaútvonalak
 - Szintvonalak, magassági profilok, csúcsok és lejtők
-- Részletes gyalogos, kerékpáros és autós navigáció hangutasítással, CarPlay/Android
-  Auto
+- Részletes gyalogos, kerékpáros és autós navigáció hangutasítással, CarPlay/Android Auto
 - Metró térképek
 - Gyors offline keresés a térképen
-- KML/KMZ-könyvjelzők exportálása/importálása, továbbá GPX-fájlok, GeoJSON
-  importálása
+- KML/KMZ-könyvjelzők exportálása/importálása, továbbá GPX-fájlok, GeoJSON importálása
 - Sötét mód a szem védelme érdekében
 - Az országok és régiók adatai nem foglalnak el sok helyet
 - Wikipédia cikkek népszerű helyekről
@@ -82,8 +78,7 @@ Az Organic Maps nem kér rengeteg engedélyt, hogy kémkedjen:
 
 Az Organic Mapsnél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
-- Az Organic Maps egy független, közösség által irányított, nyílt forráskódú
-  projekt
+- Az Organic Maps egy független, közösség által irányított, nyílt forráskódú projekt
 - Megvédjük a magánéletét a nagy techcégek kíváncsi szemeitől
 - Maradjon biztonságban, bárhol is van
 
@@ -93,14 +88,11 @@ Utasítsa el a megfigyelést – legyen szabad.
 
 ## Ki fizet az ingyenes alkalmazásért?
 
-Az alkalmazás mindenki számára ingyenes. [Adományozzon](@/donate/index.hu.md),
-hogy támogasson minket!
+Az alkalmazás mindenki számára ingyenes. [Adományozzon](@/donate/index.hu.md), hogy támogasson minket!
 
-A kényelmes adományozás jegyében, kattintson a kívánt fizetési mód ikonjára
-lentebb:
+A kényelmes adományozás jegyében, kattintson a kívánt fizetési mód ikonjára lentebb:
 
 {{ donate_buttons() }}
-
 
 Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak bizonyos infrastrukturális költségek fedezésére és kiválasztott új funkciók fejlesztésének finanszírozására:
 
@@ -149,32 +141,20 @@ Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak b
 
 ## Közösség
 
-Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache
-License 2.0-t használja.
+Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache License 2.0-t használja.
 
-- Csatlakozzon a béta programunkhoz, javasoljon funkciókat, és jelezze a
-  hibákat:
-  * [iOS – béta (TestFlight)][testflight]
-  * [Android – béta (Firebase)][firebase]
-  * [Linuxos alkalmazás számítógépre – béta (Flatpak)][flatpak]
-  * [Linuxos alkalmazás számítógépre – béta (csomagok)][repology]
-- Jelentse a hibákat vagy a problémákat a [hibakövetőnkbe][issues], vagy
-  [küldjön nekünk egy e-mailt][email].
+- Csatlakozzon a béta programunkhoz, javasoljon funkciókat, és jelezze a hibákat:
+  - [iOS – béta (TestFlight)][testflight]
+  - [Android – béta (Firebase)][firebase]
+  - [Linuxos alkalmazás számítógépre – béta (Flatpak)][flatpak]
+  - [Linuxos alkalmazás számítógépre – béta (csomagok)][repology]
+- Jelentse a hibákat vagy a problémákat a [hibakövetőnkbe][issues], vagy [küldjön nekünk egy e-mailt][email].
 - [Vita][ideas], ötletek vagy funkciókérések.
-- Iratkozzon fel a [Telegram csatornánkra][telegram] vagy a [matrix
-  terünkre][matrix] az újdonságokért.
-- Csatlakozzon a [Telegram csoportunkhoz][telegram_chat], hogy
-  beszélgethessen a többi felhasználóval.
+- Iratkozzon fel a [Telegram csatornánkra][telegram] vagy a [matrix terünkre][matrix] az újdonságokért.
+- Csatlakozzon a [Telegram csoportunkhoz][telegram_chat], hogy beszélgethessen a többi felhasználóval.
 - Látogasson el a [GitHub oldalunkra][github].
-- Kövesse frissítéseinket a [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
-- Csatlakozzon (vagy hozzon létre és tudassa velünk) a helyi közösségekhez:
-  [magyar Mátrix
-  -szoba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [kínai-][telegram_chat_zh], [francia-][telegram_chat_fr],
-  [orosz-][telegram_chat_ru] és [török-][telegram_chat_tr] nyelvű
-  beszélgetések a Telegramon.
+- Kövesse frissítéseinket a [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
+- Csatlakozzon (vagy hozzon létre és tudassa velünk) a helyi közösségekhez: [magyar Mátrix -szoba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [kínai-][telegram_chat_zh], [francia-][telegram_chat_fr], [orosz-][telegram_chat_ru] és [török-][telegram_chat_tr] nyelvű beszélgetések a Telegramon.
 
 [fork]: https://hu.wikipedia.org/wiki/Fork_%28szoftverfejleszt%C3%A9s%29
 

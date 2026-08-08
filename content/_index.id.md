@@ -1,10 +1,10 @@
 ---
-description: 'Peta luring cepat terperinci untuk pelancong, turis, pengemudi, pejalan kaki, dan pengendara sepeda yang dibuat oleh pendiri aplikasi MapsWithMe (Maps.Me).'
+description: "Peta luring cepat terperinci untuk pelancong, turis, pengemudi, pejalan kaki, dan pengendara sepeda yang dibuat oleh pendiri aplikasi MapsWithMe (Maps.Me)."
 extra:
-  menu_title: 'Halaman depan'
+  menu_title: "Halaman depan"
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring'
+title: "Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring"
 ---
 
 **Organic Maps** adalah aplikasi peta offline & GPS yang berfokus pada privasi untuk hiking, bersepeda, dan berkendara. Benar-benar gratis. Tanpa iklan. Tanpa pelacakan. Dikembangkan dengan cinta oleh komunitas sumber terbuka dan pendiri aplikasi [**MapsWithMe**][mapswithme]/**Maps.Me**. Didukung oleh data [OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ gelap') }}
 
 ## Fitur
 
-Organic Maps adalah aplikasi pendamping terlengkap bagi para pelancong,
-turis, pejalan kaki, dan pengendara sepeda:
+Organic Maps adalah aplikasi pendamping terlengkap bagi para pelancong, turis, pejalan kaki, dan pengendara sepeda:
 
-- Peta luring terperinci dengan tempat-tempat yang tidak ada di peta lain,
-  berkat [OpenStreetMap][openstreetmap]
+- Peta luring terperinci dengan tempat-tempat yang tidak ada di peta lain, berkat [OpenStreetMap][openstreetmap]
 - Rute bersepeda, jalur pendakian, dan jalur pejalan kaki
 - Garis kontur, profil ketinggian, puncak, dan lereng
-- Navigasi berjalan kaki, bersepeda, dan mobil belok demi belok dengan
-  panduan suara dan CarPlay/Android Auto
+- Navigasi berjalan kaki, bersepeda, dan mobil belok demi belok dengan panduan suara dan CarPlay/Android Auto
 - Peta metro/kereta bawah tanah
 - Pencarian luring cepat pada peta
 - Bookmark dan trek dalam format KML, KMZ, GPX, GeoJSON
@@ -71,8 +68,7 @@ Aplikasi ini diverifikasi oleh [Proyek Privasi Exodus][exodus]:
 
 {{ exodus_screenshot() }}
 
-Aplikasi iOS telah diverifikasi oleh [TrackerControl untuk
-iOS][trackercontrol]:
+Aplikasi iOS telah diverifikasi oleh [TrackerControl untuk iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -80,11 +76,9 @@ Organic Maps tidak meminta izin berlebihan untuk memata-matai Anda:
 
 {{ privacy_screenshots() }}
 
-Di Organic Maps, kami percaya bahwa privasi adalah hak asasi manusia yang
-mendasar:
+Di Organic Maps, kami percaya bahwa privasi adalah hak asasi manusia yang mendasar:
 
-- Organic Maps adalah proyek sumber terbuka yang digerakkan oleh komunitas
-  tersendiri
+- Organic Maps adalah proyek sumber terbuka yang digerakkan oleh komunitas tersendiri
 - Kami melindungi privasi Anda dari pengintaian Teknologi Besar
 - Tetap aman di mana pun Anda berada
 
@@ -94,8 +88,7 @@ Tolak pengawasan — rangkul kebebasan Anda.
 
 ## Siapa yang membayar untuk aplikasi gratis ini?
 
-Aplikasi ini gratis untuk semua orang. Silakan
-[berdonasi](@/donate/index.id.md) untuk mendukung kami!
+Aplikasi ini gratis untuk semua orang. Silakan [berdonasi](@/donate/index.id.md) untuk mendukung kami!
 
 Untuk segera berdonasi, klik ikon metode pembayaran pilihan di bawah ini:
 
@@ -148,31 +141,20 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
 
 ## Komunitas
 
-Organic Maps adalah [perangkat lunak sumber terbuka][github] yang
-dilisensikan di bawah lisensi Apache 2.0.
+Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan di bawah lisensi Apache 2.0.
 
-- Silakan bergabung dengan program beta kami, sarankan fitur Anda, dan
-  laporkan kutu:
-  * [Beta iOS (TestFlight)][testflight]
-  * [Beta Android (Firebase)][firebase]
-  * [Beta Desktop Linux (Flatpak)][flatpak]
-  * [Beta Desktop Linux (paket)][repology]
-- Laporkan kutu atau masalah ke [pelacak masalah][issues] atau [kirim surel
-  kepada kami][email].
+- Silakan bergabung dengan program beta kami, sarankan fitur Anda, dan laporkan kutu:
+  - [Beta iOS (TestFlight)][testflight]
+  - [Beta Android (Firebase)][firebase]
+  - [Beta Desktop Linux (Flatpak)][flatpak]
+  - [Beta Desktop Linux (paket)][repology]
+- Laporkan kutu atau masalah ke [pelacak masalah][issues] atau [kirim surel kepada kami][email].
 - [Diskusikan][ideas] ide atau usulkan permintaan fitur.
-- Berlangganan ke [saluran Telegram][telegram] atau ke [space
-  Matrix][matrix] untuk pembaruan.
-- Bergabunglah dengan [grup Telegram][telegram_chat] kami untuk berdiskusi
-  dengan pengguna lain.
+- Berlangganan ke [saluran Telegram][telegram] atau ke [space Matrix][matrix] untuk pembaruan.
+- Bergabunglah dengan [grup Telegram][telegram_chat] kami untuk berdiskusi dengan pengguna lain.
 - Kunjungi [laman GitHub][github] kami.
-- Ikuti pembaruan kami di [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Bergabung (atau buat dan beri tahu kami) komunitas lokal: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Ikuti pembaruan kami di [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Bergabung (atau buat dan beri tahu kami) komunitas lokal: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://id.wikipedia.org/wiki/Fork_(pengembangan_perangkat_lunak)
 

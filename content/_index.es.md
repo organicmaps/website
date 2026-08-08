@@ -1,10 +1,10 @@
 ---
-description: 'Mapas rápidos y detallados sin conexión para viajantes, turistas, conductores, senderistas y ciclistas creados por los fundadores de MapsWithMe (Maps.Me).'
+description: "Mapas rápidos y detallados sin conexión para viajantes, turistas, conductores, senderistas y ciclistas creados por los fundadores de MapsWithMe (Maps.Me)."
 extra:
   menu_title: Inicio
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
+title: "Organic Maps: senderismo, ciclismo y GPS sin conexión"
 ---
 
 **Organic Maps** es una aplicación GPS y de mapas sin conexión centrada en la privacidad para practicar senderismo, ciclismo y conducción. Totalmente gratuita. Sin publicidad. Sin rastreadores. Desarrollada con amor por la comunidad de código abierto y las mismas personas que crearon la aplicación [**MapsWithMe**][mapswithme]/**Maps.Me**. Basada en datos de [OpenStreetMap][openstreetmap].
@@ -29,19 +29,15 @@ oscuro') }}
 
 ## Funcionalidades
 
-Organic Maps es la aplicación definitiva para viajantes, turistas,
-senderistas y ciclistas:
+Organic Maps es la aplicación definitiva para viajantes, turistas, senderistas y ciclistas:
 
-- Mapas detallados sin conexión con lugares que no existen en otros mapas,
-  gracias a [OpenStreetMap][openstreetmap]
+- Mapas detallados sin conexión con lugares que no existen en otros mapas, gracias a [OpenStreetMap][openstreetmap]
 - Rutas ciclistas, pistas de senderismo y caminos
 - Líneas de contorno, perfiles de elevación, picos y pendientes
-- Navegación paso a paso con guía por voz a pie, en bici y en coche, Android
-  Auto
+- Navegación paso a paso con guía por voz a pie, en bici y en coche, Android Auto
 - Mapas de metro
 - Búsqueda rápida en el mapa y sin conexión
-- Los marcadores se exportan e importan en los formatos KML/KMZ, importan, GeoJSON
-  GPX, GeoJSON
+- Los marcadores se exportan e importan en los formatos KML/KMZ, importan, GeoJSON GPX, GeoJSON
 - Modo oscuro para proteger sus ojos
 - Los países y regiones no ocupan demasiado espacio
 - Artículos de Wikipedia para lugares populares
@@ -72,8 +68,7 @@ La aplicación está verificada por el [Proyecto Exodus Privacidad][exodus]:
 
 {{ exodus_screenshot() }}
 
-La aplicación iOS es verificada por [TrackerControl para
-iOS][trackercontrol]:
+La aplicación iOS es verificada por [TrackerControl para iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -93,18 +88,13 @@ Rechace la vigilancia. Asuma su libertad.
 
 ## ¿Quién paga por la aplicación gratuita?
 
-La aplicación es gratis para todo el mundo. ¡[Haga una
-donación](@/donate/index.es.md) para apoyarnos!
+La aplicación es gratis para todo el mundo. ¡[Haga una donación](@/donate/index.es.md) para apoyarnos!
 
-Para donar inmediatamente, haz clic en el icono del método de pago que
-prefieras:
+Para donar inmediatamente, haz clic en el icono del método de pago que prefieras:
 
 {{ donate_buttons() }}
 
-A continuación se indican los apreciados patrocinadores institucionales que
-han proporcionado subvenciones específicas para cubrir algunos costes de
-infraestructura y financiar el desarrollo de nuevas características
-seleccionadas:
+A continuación se indican los apreciados patrocinadores institucionales que han proporcionado subvenciones específicas para cubrir algunos costes de infraestructura y financiar el desarrollo de nuevas características seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -151,31 +141,20 @@ seleccionadas:
 
 ## Comunidad
 
-Organic Maps es un [programa libre][github] disponible en virtud de la
-Licencia Apache 2.0.
+Organic Maps es un [programa libre][github] disponible en virtud de la Licencia Apache 2.0.
 
-- Incorpórese a nuestro programa beta para sugerir funcionalidades e
-  informar de defectos:
-  * [Beta de iOS (TestFlight)][testflight]
-  * [Beta de Android (Firebase)][firebase]
-  * [Beta de PC Linux (Flatpak)][flatpak]
-  * [Beta de PC Linux (paquetes)][repology]
-- Informe de defectos o problemas al [rastreador de errores][issues] o
-  [mándenos un correo electrónico][email].
+- Incorpórese a nuestro programa beta para sugerir funcionalidades e informar de defectos:
+  - [Beta de iOS (TestFlight)][testflight]
+  - [Beta de Android (Firebase)][firebase]
+  - [Beta de PC Linux (Flatpak)][flatpak]
+  - [Beta de PC Linux (paquetes)][repology]
+- Informe de defectos o problemas al [rastreador de errores][issues] o [mándenos un correo electrónico][email].
 - [Debata][ideas] ideas o haga peticiones de funcionalidades.
-- Suscríbase a nuestro [canal de Telegram][telegram] o al [espacio de
-  Matrix][matrix] para recibir noticias.
-- Únase a nuestro [grupo de Telegram][telegram_chat_es] para hablar con otros
-  usuarios.
+- Suscríbase a nuestro [canal de Telegram][telegram] o al [espacio de Matrix][matrix] para recibir noticias.
+- Únase a nuestro [grupo de Telegram][telegram_chat_es] para hablar con otros usuarios.
 - Visite nuestra [página de GitHub][github].
-- Siga nuestras novedades en [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala
-  Matrix de
-  húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats
-  de Telegram en [inglés][telegram_chat_en], [chino][telegram_chat_zh], [francés][telegram_chat_fr],
-  [ruso][telegram_chat_ru] o [turco][telegram_chat_tr].
+- Siga nuestras novedades en [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala Matrix de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats de Telegram en [inglés][telegram_chat_en], [chino][telegram_chat_zh], [francés][telegram_chat_fr], [ruso][telegram_chat_ru] o [turco][telegram_chat_tr].
 
 [fork]: https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)
 

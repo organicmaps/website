@@ -8,15 +8,12 @@ weight: 900
 
 Organic Maps menghormati privasi Anda dan TIDAK MELACAK ANDA.
 
-Tidak seperti kebanyakan aplikasi lain, ini tidak memiliki pelacakan, tanpa
-iklan, tanpa perangkat lunak pengintai, tanpa pengumpulan data dan statistik
-di Organic Maps.
+Tidak seperti kebanyakan aplikasi lain, ini tidak memiliki pelacakan, tanpa iklan, tanpa perangkat lunak pengintai, tanpa pengumpulan data dan statistik di Organic Maps.
 
 Tolak pengawasan — rangkul kebebasan Anda.
 
 Jauhi mata-mata Teknologi Besar!
 
-Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di
-[legal@organicmaps.app](mailto:legal@organicmaps.app).
+Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Kebijakan ini berlaku mulai 2021-04-24.</sub>

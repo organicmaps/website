@@ -1,10 +1,10 @@
 ---
-description: 'Snelle, gedetailleerde, offline kaarten voor reizigers, toeristen, automobilisten, wandelaars, en fietsers gemaakt door de oprichters van de app MapsWithMe (Maps.Me).'
+description: "Snelle, gedetailleerde, offline kaarten voor reizigers, toeristen, automobilisten, wandelaars, en fietsers gemaakt door de oprichters van de app MapsWithMe (Maps.Me)."
 extra:
   menu_title: Start
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie'
+title: "Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie"
 ---
 
 **Organic Maps** is een op privacy gerichte offline kaarten & GPS-app voor wandelen, fietsen en autorijden. Absoluut gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-source gemeenschap en de oprichters van de app [**MapsWithMe**][mapswithme]/**Maps.Me**. Aangedreven door [OpenStreetMap][openstreetmap]-gegevens.
@@ -28,15 +28,12 @@ stand') }}
 
 ## Functies
 
-Organic Maps is als app de ultieme metgezel voor reizigers, toeristen,
-wandelaars en fietsers:
+Organic Maps is als app de ultieme metgezel voor reizigers, toeristen, wandelaars en fietsers:
 
-- Gedetailleerde offline kaarten met plaatsen die niet bestaan op andere
-  kaarten, dankzij [OpenStreetMap][openstreetmap]
+- Gedetailleerde offline kaarten met plaatsen die niet bestaan op andere kaarten, dankzij [OpenStreetMap][openstreetmap]
 - Fietsroutes, wandelroutes en -paden
 - Contourlijnen, hoogteprofielen, pieken en hellingen
-- Routebegeleiding voor wandelen en fietsen en autonavigatie met
-  stembegeleiding en CarPlay/Android Auto
+- Routebegeleiding voor wandelen en fietsen en autonavigatie met stembegeleiding en CarPlay/Android Auto
 - Metrokaarten
 - Snel offline zoeken op de kaart
 - Bladwijzers exporteren en importeren in KML/KMZ formats, importeren GPX, GeoJSON
@@ -70,8 +67,7 @@ De applicatie is geverifieerd door [Exodus Privacy Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-De iOS applicatie is geverifieerd door [TrackerControl voor
-iOS][trackercontrol]:
+De iOS applicatie is geverifieerd door [TrackerControl voor iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -91,17 +87,13 @@ Weiger toezicht – omarm je vrijheid.
 
 ## Wie betaalt er voor de gratis app?
 
-De app is voor iedereen gratis. [Doneer](@/donate/index.nl.md) alstublieft
-om ons te ondersteunen!
+De app is voor iedereen gratis. [Doneer](@/donate/index.nl.md) alstublieft om ons te ondersteunen!
 
-Om gemakkelijk te doneren, klik op het icoon van uw
-voorkeurs-betalingsmethode hieronder:
+Om gemakkelijk te doneren, klik op het icoon van uw voorkeurs-betalingsmethode hieronder:
 
 {{ donate_buttons() }}
 
-De geliefde institutionele sponsoren hieronder hebben gerichte beurzen
-beschikbaar gesteld om enkele infrastructuurskoten en te betalen en om de
-ontwikkeling van bepaalde nieuwe functies te betalen:
+De geliefde institutionele sponsoren hieronder hebben gerichte beurzen beschikbaar gesteld om enkele infrastructuurskoten en te betalen en om de ontwikkeling van bepaalde nieuwe functies te betalen:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -148,31 +140,20 @@ ontwikkeling van bepaalde nieuwe functies te betalen:
 
 ## Gemeenschap
 
-Organic Maps is [open-source software][github], die gelicenseerd is onder de
-Apache License 2.0.
+Organic Maps is [open-source software][github], die gelicenseerd is onder de Apache License 2.0.
 
-- Neemt u alstublieft deel aan ons beta-programma, suggereer uw functies en
-  rapporteer fouten:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (paketten)][repology]
-- Rapporteer bugs of problemen via [de issue tracker][issues] of [mail
-  ons][email].
+- Neemt u alstublieft deel aan ons beta-programma, suggereer uw functies en rapporteer fouten:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (paketten)][repology]
+- Rapporteer bugs of problemen via [de issue tracker][issues] of [mail ons][email].
 - [Bediscussieer][ideas] ideeën of stel functieverzoeken voor.
-- Abonneer op ons [Telegram kanaal][telegram] of op de [matrix
-  space][matrix] voor updates.
-- Kom bij onze [Telegram groep][telegram_chat] om te discussiëren met andere
-  gebruikers.
+- Abonneer op ons [Telegram kanaal][telegram] of op de [matrix space][matrix] voor updates.
+- Kom bij onze [Telegram groep][telegram_chat] om te discussiëren met andere gebruikers.
 - Bezoek onze [GitHub pagina][github].
-- Volg onze update op [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Ga bij (of maak en laat ons dat weten) lokale communities: [Hongaarse
-  Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [Franse-][telegram_chat_fr],
-  [Russische-][telegram_chat_ru], [Turkse-][telegram_chat_tr]sprekende
-  Telegram chats.
+- Volg onze update op [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Ga bij (of maak en laat ons dat weten) lokale communities: [Hongaarse Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [Franse-][telegram_chat_fr], [Russische-][telegram_chat_ru], [Turkse-][telegram_chat_tr]sprekende Telegram chats.
 
 [fork]: https://nl.wikipedia.org/wiki/Fork_(ontwikkeling)
 

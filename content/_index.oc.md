@@ -1,10 +1,10 @@
 ---
-description: 'De mapas detalhadas, rapidas e sensa connexion per lei viatgaires, lei toristas, leis automobilistas, leis caminaires e lei ciclistas creadas per lei fondators de l’aplicacion MapsWithMe (Maps.Me).'
+description: "De mapas detalhadas, rapidas e sensa connexion per lei viatgaires, lei toristas, leis automobilistas, leis caminaires e lei ciclistas creadas per lei fondators de l’aplicacion MapsWithMe (Maps.Me)."
 extra:
   menu_title: Acuèlh
 page_template: index.html
 sort_by: weight
-title: 'De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha'
+title: "De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha"
 ---
 
 **Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ fosc') }}
 
 ## Foncionalitats
 
-Mapas Organicas es l’aplicacion ultima per lei viatjaires, lei caminaires e
-lei ciclistas :
+Mapas Organicas es l’aplicacion ultima per lei viatjaires, lei caminaires e lei ciclistas :
 
-- De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis
-  autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
+- De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
 - Percors ciclistes, draias d’escorregudas e caminaments
 - Linhas de contorn, perfius d’elevacion, cimas e pendents
-- Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de
-  votz, CarPlay/Android Auto
+- Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de votz, CarPlay/Android Auto
 - Mapas de mètro
 - Recèrcas rapidas sus la mapa e fòra de linha
 - Marcas de libre e traças en formats KML, KMZ, GPX, GeoJSON
@@ -54,8 +51,7 @@ Mapas Organicas es pur e organic e mai o fasèm amb amor:
 - Esparnha la batariá
 - A pas besonh de cargar una quantitat de donadas inesperadas
 
-L'aplicacion Mapas Organicas escapa ais espiadors e autreis seguidors
-malins:
+L'aplicacion Mapas Organicas escapa ais espiadors e autreis seguidors malins:
 
 - Sensa anóncias
 - Conten pas d'espiadors
@@ -80,8 +76,7 @@ Mapas Organicas demanda pas de permissions excessivas per vos espiar:
 
 {{ privacy_screenshots() }}
 
-En cò de Mapas Organicas, cresèm que la vida privada es un drech uman
-fondamentau:
+En cò de Mapas Organicas, cresèm que la vida privada es un drech uman fondamentau:
 
 - Mapas Organicas es un projècte independent, comunautari e dobèrt
 - Gardam la vida privada de cadun deis espiadors dei Grandei Tecnologias
@@ -93,8 +88,7 @@ Rebutar la susvelhança. Assegurar la libertat.
 
 ## Cu paga per l'aplicacion a gratis?
 
-L'aplicacion es a gratis per totei. Se volètz [donar](@/donate/index.ca.md)
-per nos ajudar!
+L'aplicacion es a gratis per totei. Se volètz [donar](@/donate/index.ca.md) per nos ajudar!
 
 To donate conveniently, click on your preferred payment method icon below:
 
@@ -147,31 +141,20 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
 
 ## Comunautat
 
-Mapas Organicas es un [programa liure][github] disponible en vertut de la
-Licéncia Apatxe 2.0.
+Mapas Organicas es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 
-- Rejonhètz nòstre programa beta per suggerir de fonccionalitats e avertir
-  d’errors:
-  * [Beta de iOS (TestFlight)][testflight]
-  * [Beta de Android (Firebase)][firebase]
-  * [Beta de PC Linux (Flatpak)][flatpak]
-  * [Beta de PC Linux (paquets)][repology]
-- Senhalatz d'errors ò de dificultats per lo [seguidor d'errors][issues] ò
-  [mandatz-nos un corrier electronic][email].
+- Rejonhètz nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
+  - [Beta de iOS (TestFlight)][testflight]
+  - [Beta de Android (Firebase)][firebase]
+  - [Beta de PC Linux (Flatpak)][flatpak]
+  - [Beta de PC Linux (paquets)][repology]
+- Senhalatz d'errors ò de dificultats per lo [seguidor d'errors][issues] ò [mandatz-nos un corrier electronic][email].
 - [Debatre][ideas] d'idèas ò prepausar de foncions.
-- Marcatz-vos a nòstre [canau Telegram][telegram] ò a l’ [espaci
-  matritz][matrix] per èstre au corrent.
-- Rejonhètz nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei
-  utilizators.
+- Marcatz-vos a nòstre [canau Telegram][telegram] ò a l’ [espaci matritz][matrix] per èstre au corrent.
+- Rejonhètz nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei utilizators.
 - Visitatz nòstra [pagina GitHub][github].
-- Seguissètz lei noveutats sus [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
-- Rejuntatz (o creatz e diguetz-nos-o) lei comunautats localas: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Seguissètz lei noveutats sus [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
+- Rejuntatz (o creatz e diguetz-nos-o) lei comunautats localas: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

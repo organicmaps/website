@@ -35,7 +35,7 @@ slug: "organicmaps-turns-four"
 
 קונצרן הטכנולוגיה הגדול השקיע מיליוני דולרים נוספים, שכר עוד ועוד מהנדסים, והציג [שלל תכונות מגניבות](https://vk.company/en/press/releases/10100/) שכולנו אוהבים כיום ב-Organic Maps. בשנת 2015, שנה לאחר הרכישה, הם קיבלו החלטה נועזת [לשחרר את האפליקציה כקוד פתוח תחת רישיון Apache 2.0](https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source). [ההצהרה הרשמית](https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source) הייתה:
 
-> "אנו שמחים לחלוק את החזון שלנו לגבי תוכנה פתוחה וחופשית הזמינה לקהילות ברחבי העולם. כל הצוות ב-MAPS.ME מעריך את ההזדמנות לתרום למשימות ההומניטריות של HOT ולעזור באזורים שסובלים מאסונות ומשברים פוליטיים"... "פתיחת MAPS.ME היא צעד חשוב לא רק עבורנו, אלא עבור כל קהילת המיפוי החופשי, שכן OSM תהפוך לנגישה עוד יותר לקהל רחב יותר, מה שלדעתי ימשוך עורכים חדשים להצטרף לתנועה המדהימה הזו." 
+> "אנו שמחים לחלוק את החזון שלנו לגבי תוכנה פתוחה וחופשית הזמינה לקהילות ברחבי העולם. כל הצוות ב-MAPS.ME מעריך את ההזדמנות לתרום למשימות ההומניטריות של HOT ולעזור באזורים שסובלים מאסונות ומשברים פוליטיים"... "פתיחת MAPS.ME היא צעד חשוב לא רק עבורנו, אלא עבור כל קהילת המיפוי החופשי, שכן OSM תהפוך לנגישה עוד יותר לקהל רחב יותר, מה שלדעתי ימשוך עורכים חדשים להצטרף לתנועה המדהימה הזו."
 
 ### CryptoWithoutMaps
 
@@ -60,42 +60,7 @@ slug: "organicmaps-turns-four"
 למעשה, הבסיס לפרויקט הקוד הפתוח הנוכחי הוקם במהלך האקתון של כ-20 שעות בין ה-27 ל-28 בדצמבר 2020. מה שהושלם עד סוף היום ב-28 בדצמבר 2020, עם המשך פעילות בימים הבאים:
 
 - הקמת GitHub [נושא מס' 1](https://github.com/organicmaps/organicmaps/issues/1), הושלמה.
-- תוכנית הפרויקט המקיפה, שהכילה בתחילה כ-30 נושאים ב-GitHub, הורחבה לאחרונה ליותר מ-100 כרטיסים:
-   [#1](https://github.com/organicmaps/organicmaps/issues/1), 
-   [#2](https://github.com/organicmaps/organicmaps/issues/2), 
-   [#3](https://github.com/organicmaps/organicmaps/issues/3), 
-   [#4](https://github.com/organicmaps/organicmaps/issues/4), 
-   [#5](https://github.com/organicmaps/organicmaps/issues/5), 
-   [#6](https://github.com/organicmaps/organicmaps/issues/6), 
-   [#7](https://github.com/organicmaps/organicmaps/issues/7), 
-   [#8](https://github.com/organicmaps/organicmaps/issues/8), 
-   [#9](https://github.com/organicmaps/organicmaps/issues/9), 
-   [#10](https://github.com/organicmaps/organicmaps/issues/10), 
-   [#11](https://github.com/organicmaps/organicmaps/issues/11), 
-   [#12](https://github.com/organicmaps/organicmaps/issues/12), 
-   [#13](https://github.com/organicmaps/organicmaps/issues/13), 
-   [#14](https://github.com/organicmaps/organicmaps/issues/14), 
-   [#15](https://github.com/organicmaps/organicmaps/issues/15), 
-   [#16](https://github.com/organicmaps/organicmaps/issues/16), 
-   [#17](https://github.com/organicmaps/organicmaps/issues/17), 
-   [#18](https://github.com/organicmaps/organicmaps/issues/18), 
-   [#19](https://github.com/organicmaps/organicmaps/issues/19), 
-   [#20](https://github.com/organicmaps/organicmaps/issues/20), 
-   [#21](https://github.com/organicmaps/organicmaps/issues/21), 
-   [#22](https://github.com/organicmaps/organicmaps/issues/22), 
-   [#23](https://github.com/organicmaps/organicmaps/issues/23), 
-   [#24](https://github.com/organicmaps/organicmaps/issues/24), 
-   [#25](https://github.com/organicmaps/organicmaps/issues/25), 
-   [#26](https://github.com/organicmaps/organicmaps/issues/26), 
-   [#27](https://github.com/organicmaps/organicmaps/issues/27), 
-   [#28](https://github.com/organicmaps/organicmaps/issues/28), 
-   [#29](https://github.com/organicmaps/organicmaps/issues/29), 
-   [#30](https://github.com/organicmaps/organicmaps/issues/30), 
-   [#31](https://github.com/organicmaps/organicmaps/issues/31), 
-   [#32](https://github.com/organicmaps/organicmaps/issues/32), 
-   [#33](https://github.com/organicmaps/organicmaps/issues/33), 
-   [#34](https://github.com/organicmaps/organicmaps/issues/34), 
-   [#35](https://github.com/organicmaps/organicmaps/issues/35).
+- תוכנית הפרויקט המקיפה, שהכילה בתחילה כ-30 נושאים ב-GitHub, הורחבה לאחרונה ליותר מ-100 כרטיסים: [#1](https://github.com/organicmaps/organicmaps/issues/1), [#2](https://github.com/organicmaps/organicmaps/issues/2), [#3](https://github.com/organicmaps/organicmaps/issues/3), [#4](https://github.com/organicmaps/organicmaps/issues/4), [#5](https://github.com/organicmaps/organicmaps/issues/5), [#6](https://github.com/organicmaps/organicmaps/issues/6), [#7](https://github.com/organicmaps/organicmaps/issues/7), [#8](https://github.com/organicmaps/organicmaps/issues/8), [#9](https://github.com/organicmaps/organicmaps/issues/9), [#10](https://github.com/organicmaps/organicmaps/issues/10), [#11](https://github.com/organicmaps/organicmaps/issues/11), [#12](https://github.com/organicmaps/organicmaps/issues/12), [#13](https://github.com/organicmaps/organicmaps/issues/13), [#14](https://github.com/organicmaps/organicmaps/issues/14), [#15](https://github.com/organicmaps/organicmaps/issues/15), [#16](https://github.com/organicmaps/organicmaps/issues/16), [#17](https://github.com/organicmaps/organicmaps/issues/17), [#18](https://github.com/organicmaps/organicmaps/issues/18), [#19](https://github.com/organicmaps/organicmaps/issues/19), [#20](https://github.com/organicmaps/organicmaps/issues/20), [#21](https://github.com/organicmaps/organicmaps/issues/21), [#22](https://github.com/organicmaps/organicmaps/issues/22), [#23](https://github.com/organicmaps/organicmaps/issues/23), [#24](https://github.com/organicmaps/organicmaps/issues/24), [#25](https://github.com/organicmaps/organicmaps/issues/25), [#26](https://github.com/organicmaps/organicmaps/issues/26), [#27](https://github.com/organicmaps/organicmaps/issues/27), [#28](https://github.com/organicmaps/organicmaps/issues/28), [#29](https://github.com/organicmaps/organicmaps/issues/29), [#30](https://github.com/organicmaps/organicmaps/issues/30), [#31](https://github.com/organicmaps/organicmaps/issues/31), [#32](https://github.com/organicmaps/organicmaps/issues/32), [#33](https://github.com/organicmaps/organicmaps/issues/33), [#34](https://github.com/organicmaps/organicmaps/issues/34), [#35](https://github.com/organicmaps/organicmaps/issues/35).
 - [מסמך הניהול הראשוני של הפרויקט](https://github.com/organicmaps/community/wiki/Governance), המציין את [Roman Tsisyk](https://github.com/organicmaps/community/wiki/Member:Roman-Tsisyk) כ"מנהל פרויקט זמני" והתחייבות להקים מועצת מנהלים לפני סוף 2021 (בוצע).
 - [מבנה הצוות](https://github.com/organicmaps/community/wiki/Members) הראשוני, עם [Alexey Naumenko](https://github.com/ooprizrakoo) כאחראי על קשרי הקהילה וגיוס חברים נלהבים (כל הכבוד על העבודה המצוינת!).
 - [סט הנחיות](https://github.com/organicmaps/community/wiki/Commit-Messages) ומדיניות ראשוני, כולל קוד ההתנהגות.

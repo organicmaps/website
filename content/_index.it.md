@@ -142,10 +142,10 @@ I cari sponsor istituzionali elencati di seguito hanno fornito sovvenzioni mirat
 Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 
 - Partecipa al nostro programma beta, suggerisci funzionalità e segnala bug:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - Segnala bug o problemi tramite il [tracker dei problemi][issues] o [inviaci un'email][email].
 - [Discuti][ideas] idee o proponi richieste di funzionalità.
 - Iscriviti al nostro [Canale Telegram][telegram] o allo spazio [matrix][matrix] per ricevere aggiornamenti.

@@ -19,19 +19,14 @@ Organic Maps, **[bağışlarınız][stripe]** sayesinde _herkes için ücretsizd
 
 ## Neden Organic Maps'e bağış yapmalıyım?
 
-1. Organic Maps'i aktif ve ücretsiz tutma misyonumuzu yerine getirmek için bağışlarınıza güveniyoruz.
-   Ve tek bir reklam dahi yok.
-2. Boş zamanlarımızda katkıda bulunan ve ailelerimizin parasını bu projeye harcayan birkaç teknoloji tutkunuyuz.
-   Yaptığımız işi ve kullanıcılarımızı seviyoruz ❤️.
+1. Organic Maps'i aktif ve ücretsiz tutma misyonumuzu yerine getirmek için bağışlarınıza güveniyoruz. Ve tek bir reklam dahi yok.
+2. Boş zamanlarımızda katkıda bulunan ve ailelerimizin parasını bu projeye harcayan birkaç teknoloji tutkunuyuz. Yaptığımız işi ve kullanıcılarımızı seviyoruz ❤️.
 3. Desteğinizle, Google Haritalar'ın daha iyi, gizlilik odaklı bir sürümü olmak istiyoruz.
 
 ## Paralar ne için kullanılacak?
 
-1. Daha hızlı sunucular için ödeme yapıyoruz, böylece dünyadaki herkes ücretsiz harita güncellemelerini gecikme olmadan indirebiliyor.
-   Aylık yüzlerce terabayt harita indiriliyor ve bu rakam her geçen gün artıyor.
-2. Kullanıcı desteği, hata düzeltme ve uygulamanın kararlılığını iyileştirme, önceliklerimizin başında geliyor.
-   [GitHub sayfamızda 1800'den fazla sorun][github issues] var ve bu sayı her geçen gün artıyor.
-   App Store, Google Play ve destek e-postamız; yorum ve hatalarla dolu. Yüksek kaliteli bir ürün sunmak istiyoruz.
+1. Daha hızlı sunucular için ödeme yapıyoruz, böylece dünyadaki herkes ücretsiz harita güncellemelerini gecikme olmadan indirebiliyor. Aylık yüzlerce terabayt harita indiriliyor ve bu rakam her geçen gün artıyor.
+2. Kullanıcı desteği, hata düzeltme ve uygulamanın kararlılığını iyileştirme, önceliklerimizin başında geliyor. [GitHub sayfamızda 1800'den fazla sorun][github issues] var ve bu sayı her geçen gün artıyor. App Store, Google Play ve destek e-postamız; yorum ve hatalarla dolu. Yüksek kaliteli bir ürün sunmak istiyoruz.
 3. Yeterli para ile yeni özellikler daha hızlı geliştirilebilir, örneğin:
    - Haftalık ve otomatik harita güncellemeleri
    - Yer imleri yedekleme ve senkronizasyon
@@ -47,9 +42,7 @@ Organic Maps, **[bağışlarınız][stripe]** sayesinde _herkes için ücretsizd
 
 {{ donate_buttons() }}
 
-Yinelenen bağışlar, nispeten istikrarlı bir gelir sağlamak için
-en iyi yoldur ve bizi uzun vadeli görevler ve hedefler için motive
-eder. Ancak tek seferlik bağış da yapabilirsiniz.
+Yinelenen bağışlar, nispeten istikrarlı bir gelir sağlamak için en iyi yoldur ve bizi uzun vadeli görevler ve hedefler için motive eder. Ancak tek seferlik bağış da yapabilirsiniz.
 
 ### Banka Havalesi
 
@@ -63,7 +56,6 @@ Lütfen toplam ücretleri azaltmak için yıllık bağış yapmayı düşünün.
 
 ## Size başka bir şekilde yardımcı olabilir miyim?
 
-Evet! Organic Maps'i desteklemenin birçok yolu var. Daha fazla
-detay için lütfen [Bizi Destekleyin](@/contribute/index.tr.md) sayfasına bakın.
+Evet! Organic Maps'i desteklemenin birçok yolu var. Daha fazla detay için lütfen [Bizi Destekleyin](@/contribute/index.tr.md) sayfasına bakın.
 
 {{ references() }}

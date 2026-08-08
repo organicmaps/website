@@ -142,10 +142,10 @@ Les sponsors institutionnels bien-aimés ci-dessous ont fourni des subventions c
 Organic Maps est un [logiciel open-source][github] sous licence Apache 2.0.
 
 - Veuillez rejoindre notre programme bêta, suggérer vos fonctionnalités et signaler les bugs :
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - Signalez les bugs ou les problèmes sur [le suivi des problèmes][issues] ou [envoyez-nous un e-mail][email].
 - [Discutez][ideas] des idées ou proposez des demandes de fonctionnalités.
 - Abonnez-vous à notre [Canal Telegram][telegram] ou à l'espace [matrix][matrix] pour les mises à jour.

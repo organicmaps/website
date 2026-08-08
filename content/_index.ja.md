@@ -142,10 +142,10 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
 Organic Maps は [Apache License 2.0][github] の下でライセンスされた [オープンソースソフトウェア][github] です。
 
 - ベータプログラムにご参加いただき、機能の提案やバグの報告をお願いします:
-  * [iOS ベータ (TestFlight)][testflight]
-  * [Android ベータ (Firebase)][firebase]
-  * [Linux Desktop ベータ (Flatpak)][flatpak]
-  * [Linux Desktop ベータ (パッケージ)][repology]
+  - [iOS ベータ (TestFlight)][testflight]
+  - [Android ベータ (Firebase)][firebase]
+  - [Linux Desktop ベータ (Flatpak)][flatpak]
+  - [Linux Desktop ベータ (パッケージ)][repology]
 - バグや問題は [issue トラッカー][issues] または [メール][email] でご報告ください。
 - アイデアについて[議論][ideas]するか、機能リクエストを提案してください。
 - アップデート情報を得るには、[Telegram チャンネル][telegram] または [matrix space][matrix] を購読してください。

@@ -1,10 +1,10 @@
 ---
-description: 'Mapes detallats, ràpids i sense connexió per a viatgers, turistes, conductors, excursionistes i ciclistes creats pels fundadors de l’aplicació MapsWithMe (Maps.Me).'
+description: "Mapes detallats, ràpids i sense connexió per a viatgers, turistes, conductors, excursionistes i ciclistes creats pels fundadors de l’aplicació MapsWithMe (Maps.Me)."
 extra:
   menu_title: Inici
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: passejos, bici, rutes i GPS sense connexió'
+title: "Organic Maps: passejos, bici, rutes i GPS sense connexió"
 ---
 
 **Organic Maps** és una aplicació de mapes fora de línia i GPS centrada en la privadesa per a senderisme, ciclisme i conducció. Totalment gratuïta. Sense anuncis. No inclou rastrejadors. Desenvolupada amb estima per la comunitat de codi obert i les mateixes persones que van crear l'aplicació [**MapsWithMe**][mapswithme]/**Maps.Me**. Funciona amb dades d'[OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ fosc') }}
 
 ## Funcionalitats
 
-L’Organic Maps és l’aplicació definitiva per a viatgers, turistes,
-excursionistes i ciclistes:
+L’Organic Maps és l’aplicació definitiva per a viatgers, turistes, excursionistes i ciclistes:
 
-- Mapes detallats fora de línia amb llocs que no existeixen en altres mapes,
-  gràcies a l'[OpenStreetMap][openstreetmap]
+- Mapes detallats fora de línia amb llocs que no existeixen en altres mapes, gràcies a l'[OpenStreetMap][openstreetmap]
 - Rutes ciclistes, pistes de senderisme i camins
 - Línies de contorn, perfils d'elevació, pics i pendents
-- Navegació pas a pas a peu, amb bicicleta i amb cotxe amb guia de veu,
-  CarPlay/Android Auto
+- Navegació pas a pas a peu, amb bicicleta i amb cotxe amb guia de veu, CarPlay/Android Auto
 - Mapes de metro
 - Cerques ràpides al mapa, sense connexió
 - Marcadors i rutes en format KML, KMZ i GPX, GeoJSON
@@ -54,8 +51,7 @@ L’Organic Maps és pur i orgànic i el fem amb amor:
 - Estalvia la bateria
 - Sense càrrecs d'ús de dades inesperades
 
-L'aplicació Organic Maps està lliure de rastrejadors i altres coses
-dolentes:
+L'aplicació Organic Maps està lliure de rastrejadors i altres coses dolentes:
 
 - Sense anuncis
 - No inclou rastrejadors
@@ -72,8 +68,7 @@ L'aplicació està verificada pel [Projecte Exodus Privadesa][exodus]:
 
 {{ exodus_screenshot() }}
 
-L'aplicació iOS està verificada per[ TrackerControl per a
-iOS][trackercontrol]:
+L'aplicació iOS està verificada per[ TrackerControl per a iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -93,14 +88,11 @@ Rebutgeu la vigilància. Assumiu la vostra llibertat.
 
 ## Qui paga per l'aplicació gratuïta?
 
-L'aplicació és gratuïta per a tothom. Si us plau,
-[doneu](@/donate/index.ca.md) per a ajudar-nos!
+L'aplicació és gratuïta per a tothom. Si us plau, [doneu](@/donate/index.ca.md) per a ajudar-nos!
 
-Per a fer un donatiu immediatament, feu clic a la icona del mètode de
-pagament preferit:
+Per a fer un donatiu immediatament, feu clic a la icona del mètode de pagament preferit:
 
 {{ donate_buttons() }}
-
 
 Els estimats patrocinadors institucionals a continuació han proporcionat subvencions específiques per cobrir alguns costos d'infraestructura i finançar el desenvolupament de noves funcions seleccionades:
 
@@ -149,31 +141,20 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
 
 ## Comunitat
 
-Organic Maps és un [programa lliure][github] disponible en virtut de la
-Llicència Apache 2.0.
+Organic Maps és un [programa lliure][github] disponible en virtut de la Llicència Apache 2.0.
 
-- Uniu-vos al nostre programa beta i suggeriu funcionalitats o informeu
-  d'errors:
-  * [Beta d'iOS (TestFlight)][testflight]
-  * [Beta d'Android (Firebase)][firebase]
-  * [Beta de PC Linux (Flatpak)][flatpak]
-  * [Beta de PC Linux (paquets)][repology]
-- Informeu d'errors o problemes mitjançant el [rastrejador d'errors][issues]
-  o [enviant-nos un correu electrònic][email].
+- Uniu-vos al nostre programa beta i suggeriu funcionalitats o informeu d'errors:
+  - [Beta d'iOS (TestFlight)][testflight]
+  - [Beta d'Android (Firebase)][firebase]
+  - [Beta de PC Linux (Flatpak)][flatpak]
+  - [Beta de PC Linux (paquets)][repology]
+- Informeu d'errors o problemes mitjançant el [rastrejador d'errors][issues] o [enviant-nos un correu electrònic][email].
 - [Debateu][ideas] idees o proposeu característiques.
-- Uniu-vos al nostre [canal del Telegram][telegram] o al [Matrix][matrix]
-  per a estar al dia.
-- Uniu-vos al nostre [grup del Telegram][telegram_chat] i converseu amb
-  altres usuaris.
+- Uniu-vos al nostre [canal del Telegram][telegram] o al [Matrix][matrix] per a estar al dia.
+- Uniu-vos al nostre [grup del Telegram][telegram_chat] i converseu amb altres usuaris.
 - Visiteu el nostre [GitHub][github].
-- Seguiu les nostres novetats al [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Uniu-vos (o creeu-ne i feu-nos-ho saber) a les comunitats locals: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Seguiu les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Uniu-vos (o creeu-ne i feu-nos-ho saber) a les comunitats locals: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://ca.wikipedia.org/wiki/Fork
 

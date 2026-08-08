@@ -1,10 +1,10 @@
 ---
-description: 'Szybkie szczegółowe mapy offline dla podróżników, turystów, kierowców, wędrowców i rowerzystów stworzone przez założycieli aplikacji MapsWithMe (Maps.Me).'
+description: "Szybkie szczegółowe mapy offline dla podróżników, turystów, kierowców, wędrowców i rowerzystów stworzone przez założycieli aplikacji MapsWithMe (Maps.Me)."
 extra:
-  menu_title: 'Strona główna'
+  menu_title: "Strona główna"
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: wędrówki, jazda na rowerze, szlaki i nawigacja offline'
+title: "Organic Maps: wędrówki, jazda na rowerze, szlaki i nawigacja offline"
 ---
 
 **Organic Maps** to skupiona na prywatności aplikacja offline z mapami i GPS do wędrówek pieszych, jazdy na rowerze, jazdy na rowerze i jazdy samochodem. Całkowicie za darmo. Bez reklam. Bez śledzenia. Opracowana z miłością przez społeczność open-source i założycieli aplikacji [**MapsWithMe**][mapswithme]/**Maps.Me**. Obsługiwana przez dane [OpenStreetMap][openstreetmap].
@@ -30,15 +30,12 @@ ciemnym') }}
 
 ## Funkcje
 
-Organic Maps to doskonała aplikacja towarzysząca dla podróżników, turystów,
-wędrowców i rowerzystów:
+Organic Maps to doskonała aplikacja towarzysząca dla podróżników, turystów, wędrowców i rowerzystów:
 
-- Szczegółowe mapy offline z miejscami, które nie istnieją na innych mapach,
-  dzięki [OpenStreetMap][openstreetmap]
+- Szczegółowe mapy offline z miejscami, które nie istnieją na innych mapach, dzięki [OpenStreetMap][openstreetmap]
 - Trasy rowerowe, szlaki turystyczne, ścieżki spacerowe
 - Linie konturowe, profile wysokościowe, szczyty i zbocza
-- Nawigacja piesza, rowerowa i samochodowa "zakręt po zakręcie" ze
-  wskazówkami głosowymi, CarPlay/Android Auto
+- Nawigacja piesza, rowerowa i samochodowa "zakręt po zakręcie" ze wskazówkami głosowymi, CarPlay/Android Auto
 - Mapy metra
 - Szybkie wyszukiwanie offline na mapie
 - Zakładki i ścieżki w formatach KML, KMZ, GPX, GeoJSON
@@ -55,8 +52,7 @@ Organic Maps jest czyste i organiczne, wykonane z miłością:
 - Oszczędza baterię
 - Brak nieoczekiwanych opłat za dane mobilne
 
-Aplikacja Organic Maps jest wolna od mechanizmów śledzących i innych złych
-rzeczy:
+Aplikacja Organic Maps jest wolna od mechanizmów śledzących i innych złych rzeczy:
 
 - Brak reklam
 - Brak śledzenia
@@ -73,8 +69,7 @@ Aplikacja jest weryfikowana przez [Projekt Prywatności Exodus][exodus]:
 
 {{ exodus_screenshot() }}
 
-Aplikacja iOS jest weryfikowana przez [TrackerControl for
-iOS][trackercontrol]:
+Aplikacja iOS jest weryfikowana przez [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -84,10 +79,8 @@ Organic Maps nie żąda nadmiernych uprawnień celem szpiegowania użytkownika:
 
 W Organic Maps wierzymy, że prywatność jest podstawowym prawem człowieka:
 
-- Organic Maps to niezależny, kierowany przez społeczność projekt
-  otwartoźródłowy
-- Chronimy Twoją prywatność przed wścibskimi oczami megakorporacji
-  technologicznych
+- Organic Maps to niezależny, kierowany przez społeczność projekt otwartoźródłowy
+- Chronimy Twoją prywatność przed wścibskimi oczami megakorporacji technologicznych
 - Utrzymuj bezpieczeństwo bez względu na to, gdzie jesteś
 
 Odrzuć inwigilację - ogarnij swoją wolność.
@@ -96,11 +89,9 @@ Odrzuć inwigilację - ogarnij swoją wolność.
 
 ## Kto płaci za darmową aplikację?
 
-Aplikacja jest darmowa dla wszystkich. Prosimy o [przekazanie
-darowizny](@/donate/index.pl.md), aby nas wesprzeć!
+Aplikacja jest darmowa dla wszystkich. Prosimy o [przekazanie darowizny](@/donate/index.pl.md), aby nas wesprzeć!
 
-Aby natychmiast przekazać darowiznę, kliknij ikonę preferowanej metody
-płatności poniżej:
+Aby natychmiast przekazać darowiznę, kliknij ikonę preferowanej metody płatności poniżej:
 
 {{ donate_buttons() }}
 
@@ -151,30 +142,20 @@ Ukochani sponsorzy instytucjonalni poniżej przekazali celowe granty na pokrycie
 
 ## Społeczność
 
-Organic Maps to oprogramowanie [otwarte][github] licencjonowane na Apache
-License 2.0.
+Organic Maps to oprogramowanie [otwarte][github] licencjonowane na Apache License 2.0.
 
 - Dołącz do naszego programu beta, zaproponuj swoje funkcje i zgłoś błędy:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux PC Beta (Flatpak)][flatpak]
-  * [Linux PC Beta (pakiety)][repology]
-- Zgłoś błędy lub problemy na [GitHub][issues] lub [napisz nam
-  e-mail][email].
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux PC Beta (Flatpak)][flatpak]
+  - [Linux PC Beta (pakiety)][repology]
+- Zgłoś błędy lub problemy na [GitHub][issues] lub [napisz nam e-mail][email].
 - [Dyskutuj o][ideas] pomysłach lub zaproponuj nowe funkcje.
-- Subskrybuj nasz [kanał Telegram][telegram] lub [przestrzeń matrix][matrix]
-  dla aktualizacji.
-- Dołącz do naszej [grupy Telegram][telegram_chat], aby dyskutować z innymi
-  użytkownikami.
+- Subskrybuj nasz [kanał Telegram][telegram] lub [przestrzeń matrix][matrix] dla aktualizacji.
+- Dołącz do naszej [grupy Telegram][telegram_chat], aby dyskutować z innymi użytkownikami.
 - Odwiedź naszą stronę [GitHub][github].
-- Śledź nasze aktualizacje na [FOSStodonie][fosstodon],
-  [Facebooku][facebook], [Twitterze][twitter],
-  [Instagramie][instagram], [Bluesky][bluesky], [Threads][threads], [Reddicie][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Dołącz (lub stwórz i daj nam znać) do lokalnych społeczności: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Śledź nasze aktualizacje na [FOSStodonie][fosstodon], [Facebooku][facebook], [Twitterze][twitter], [Instagramie][instagram], [Bluesky][bluesky], [Threads][threads], [Reddicie][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Dołącz (lub stwórz i daj nam znać) do lokalnych społeczności: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://pl.wikipedia.org/wiki/Fork
 

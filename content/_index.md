@@ -142,10 +142,10 @@ Beloved institutional sponsors below have provided targeted grants to cover some
 Organic Maps is an [open-source software][github] licensed under the Apache License 2.0.
 
 - Please join our beta program, suggest your features, and report bugs:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - Report bugs or issues to [the issue tracker][issues] or [email us][email].
 - [Discuss][ideas] ideas or propose feature requests.
 - Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.

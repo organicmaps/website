@@ -1,10 +1,10 @@
 ---
-description: 'Sparčiai be interneto veikiantys detalūs žemėlapiai keliautojams, turistams, vairuotojams, žygeiviams ir dviratininkams, sukurti MapsWithMe (Maps.Me) programėlės įkūrėjų.'
+description: "Sparčiai be interneto veikiantys detalūs žemėlapiai keliautojams, turistams, vairuotojams, žygeiviams ir dviratininkams, sukurti MapsWithMe (Maps.Me) programėlės įkūrėjų."
 extra:
   menu_title: Pagrindinis
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija'
+title: "Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija"
 ---
 
 **Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės ir [**MapsWithMe**][mapswithme]/**Maps.Me** programėlės įkūrėjų. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
@@ -29,15 +29,12 @@ režimu') }}
 
 ## Funkcijos
 
-Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams,
-žygeiviams ir dviratininkams:
+Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams, žygeiviams ir dviratininkams:
 
-- Detalūs žemėlapiai be interneto su vietomis, kurių nerasite kituose
-  žemėlapiuose, dėka [OpenStreetMap][openstreetmap]
+- Detalūs žemėlapiai be interneto su vietomis, kurių nerasite kituose žemėlapiuose, dėka [OpenStreetMap][openstreetmap]
 - Dviračių, žygių ir pėsčiųjų takai
 - Reljefo kontūrai, pakilimo profiliai, viršukalnės ir šlaitai
-- Nuosekli navigacija pėstiesiems, dviratininkams ir automobilių
-  vairuotojams su nurodymais balsu ir CarPlay/Android Auto
+- Nuosekli navigacija pėstiesiems, dviratininkams ir automobilių vairuotojams su nurodymais balsu ir CarPlay/Android Auto
 - Metro žemėlapiai
 - Sparti paieška žemėlapyje neprisijungus
 - Žymelės ir takai KML, KMZ ir GPX formatais, GeoJSON
@@ -81,8 +78,7 @@ Organic Maps neprašo perdėtų leidimų, kurie leistų jus šnipinėti:
 
 Mes, iš Organic Maps, tikime, kad privatumas yra pamatinė žmogaus teisė:
 
-- Organic Maps yra nekomercinis bendruomenės prižiūrimas atvirojo kodo
-  projektas
+- Organic Maps yra nekomercinis bendruomenės prižiūrimas atvirojo kodo projektas
 - Mes saugome jūsų privatumą nuo didžiųjų įmonių sekimo
 - Likite saugūs nesvarbu, kur esate
 
@@ -92,8 +88,7 @@ Atmeskite sekimą – rinkitės laisvę.
 
 ## Kas moka už nemokamą programėlę?
 
-Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.lt.md), kad
-paremtumėt mus!
+Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.lt.md), kad paremtumėt mus!
 
 Paaukokite iškart, spauskite ant norimo mokėjimo metodo ženklelio apačioje:
 
@@ -146,29 +141,20 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
 
 ## Bendruomenė
 
-Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su
-Apache License 2.0 licenzija.
+Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache License 2.0 licenzija.
 
-- Kviečiame prisijungti prie beta testuotojų programos, siūlyti savo
-  funkcijas ir pranešti riktus:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux darbalaukio Beta (Flatpak)][flatpak]
-  * [Linux darbalaukio Beta (paketai)][repology]
+- Kviečiame prisijungti prie beta testuotojų programos, siūlyti savo funkcijas ir pranešti riktus:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux darbalaukio Beta (Flatpak)][flatpak]
+  - [Linux darbalaukio Beta (paketai)][repology]
 - Praneškite apie klaidas ar problemas į [klaidų sekimo sistemą][issues] arba [rašykite mums el. paštu][email].
 - [Aptarkite][ideas] idėjas arba siūlykite naujų funkcijų prašymus.
-- Subscribe to our [Telegram Channel][telegram] or to the [matrix
-  space][matrix] for updates.
+- Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - Apsilankykite mūsų [GitHub puslapyje][github].
-- Sekite mūsų naujienas [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Prisijunkite (arba sukurkite ir praneškite mums) prie vietinių bendruomenių: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Prisijunkite (arba sukurkite ir praneškite mums) prie vietinių bendruomenių: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

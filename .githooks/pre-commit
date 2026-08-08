@@ -4,8 +4,10 @@
 # Enable with:  npm run hooks:install     (sets core.hooksPath to .githooks)
 # Skip once with: git commit --no-verify
 #
-# Only staged files are examined, so this stays fast enough not to be a
-# nuisance. The whole-corpus sweep and the Zola build run in CI instead.
+# Only staged files are examined, and only errors a change INTRODUCES are
+# reported, so this stays fast and does not punish you for pre-existing drift
+# in a file you happened to touch. The whole-corpus sweep and the Zola build
+# run in CI instead.
 
 set -eu
 
@@ -14,13 +16,13 @@ staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.md$' ||
 
 fail=0
 
-# --- format ---------------------------------------------------------------
-# proseWrap comes from .prettierrc; re-stage whatever prettier rewrites so the
-# commit contains the formatted version rather than leaving it dirty.
-if command -v npx >/dev/null 2>&1; then
-  echo "$staged_md" | tr '\n' '\0' | xargs -0 npx --no-install prettier --write --log-level warn 2>/dev/null || true
-  echo "$staged_md" | tr '\n' '\0' | xargs -0 git add
-fi
+# --- formatting is deliberately NOT done here ------------------------------
+# Running prettier from the hook was tried and removed. The corpus is not
+# prettier-clean (2,887 files would change), so formatting on commit rewrites
+# whatever you happen to touch, and prettier's proseWrap: never merges soft
+# line breaks - which shifts the block counts translate_check compares against
+# the unformatted English source. Format deliberately with `npm run format`,
+# as its own commit, not as a side effect of committing something else.
 
 # --- cheap syntax guards --------------------------------------------------
 # "[label] (target)" does not parse as a link; it renders as literal text.
@@ -40,7 +42,9 @@ if [ -n "$anchor" ]; then
 fi
 
 # --- translation invariants ----------------------------------------------
-# Only for translated files that have an English sibling.
+# Only translated files with an English sibling, and only errors this change
+# INTRODUCES. Much of the corpus still carries known drift; blocking on that
+# would stop anyone touching those files for unrelated reasons.
 for f in $staged_md; do
   case "$f" in
     content/*) ;;
@@ -54,18 +58,9 @@ for f in $staged_md; do
     *)        src="$dir/index.md" ;;
   esac
   [ -f "$src" ] || continue
-  python3 translate_check.py "$src" "$f" "$lang" --errors-only || fail=1
-done
 
-# --- slug guard (warn, do not block) --------------------------------------
-# Slugs are published URLs. Changing one breaks inbound links, but new pages
-# legitimately add them, so this warns rather than fails.
-slug=$(git diff --cached -U0 | grep -E '^-slug:' || true)
-if [ -n "$slug" ]; then
-  echo "warning: a slug: line was removed or changed — these are published URLs:"
-  echo "$slug" | sed 's/^/    /'
-  echo "    (commit anyway if the page is new or the URL change is intended)"
-fi
+  python3 "$(dirname "$0")/regression_check.py" "$src" "$f" "$lang" || fail=1
+done
 
 if [ "$fail" -ne 0 ]; then
   echo

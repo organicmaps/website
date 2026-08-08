@@ -1,5 +1,5 @@
 ---
-title: "11 नवंबर, 2025 के ऑर्गेनिक मैप्स रिलीज़ में हाइलाइट किए गए डाउनलोड किए गए मानचित्र क्षेत्रों, सशर्त रूटिंग समर्थन और बहुत कुछ के साथ एक अधिक विस्तृत विश्व मानचित्र"
+title: "11 नवंबर, 2025 के Organic Maps रिलीज़ में हाइलाइट किए गए डाउनलोड किए गए मानचित्र क्षेत्रों, सशर्त रूटिंग समर्थन और बहुत कुछ के साथ एक अधिक विस्तृत विश्व मानचित्र"
 date: 2025-11-11
 slug: "detailed-world-map-highlighted-downloaded-regions-conditional-routing-support-carplay-android-auto-chromebook-hindi"
 taxonomies:
@@ -10,12 +10,12 @@ taxonomies:
 
 ### सभी प्लेटफ़ॉर्म
 
-- *नया!* विश्व मानचित्र पर डाउनलोड किए गए क्षेत्रों को हाइलाइट किया गया (Viktor Govako)
-- *नया!* ज़ूम स्तर 8 से शुरू होने वाले विश्व मानचित्र पर प्रकृति भंडार, राष्ट्रीय उद्यान, संरक्षित क्षेत्र, आदिवासी भूमि, खतरे वाले क्षेत्र और झीलों को देखें और खोजें (Viktor Govako)
-- *नया!* रूटिंग अब सड़क बंद होने के समय का समर्थन करती है (Viktor Govako)
+- _नया!_ विश्व मानचित्र पर डाउनलोड किए गए क्षेत्रों को हाइलाइट किया गया (Viktor Govako)
+- _नया!_ ज़ूम स्तर 8 से शुरू होने वाले विश्व मानचित्र पर प्रकृति भंडार, राष्ट्रीय उद्यान, संरक्षित क्षेत्र, आदिवासी भूमि, खतरे वाले क्षेत्र और झीलों को देखें और खोजें (Viktor Govako)
+- _नया!_ रूटिंग अब सड़क बंद होने के समय का समर्थन करती है (Viktor Govako)
 
-- 9 नवंबर, 2025 तक का ओपनस्ट्रीटमैप डेटा (Viktor Govako)
-- पते संपादित करते समय और ओपनस्ट्रीटमैप पर परिवर्तन अपलोड करते समय डिफ़ॉल्ट और स्थानीयकृत सड़क नामों के साथ एक समस्या को ठीक किया गया (Viktor Govako)
+- 9 नवंबर, 2025 तक का OpenStreetMap डेटा (Viktor Govako)
+- पते संपादित करते समय और OpenStreetMap पर परिवर्तन अपलोड करते समय डिफ़ॉल्ट और स्थानीयकृत सड़क नामों के साथ एक समस्या को ठीक किया गया (Viktor Govako)
 - विश्व मानचित्र से खोज परिणामों पर टैप करते समय लागू ज़ूम स्तर को ठीक किया गया (Viktor Govako)
 - उन मामलों को ठीक किया गया जहां नेविगेशन ऑटो-ज़ूम सेटिंग काम नहीं करती थी (Viktor Govako)
 
@@ -33,7 +33,7 @@ taxonomies:
 - एंड्रॉइड ऑटो हमेशा कार रूटिंग मोड का उपयोग करता है (Andrei Shkrob)
 - हांगकांग (zh-HK) और मकाऊ (zh-MO) क्षेत्रों के लिए पारंपरिक चीनी अनुवाद का उपयोग करें (Alexander Borsuk)
 
-कृपया हमें बताएं कि क्या आप OpenGL ES 3 समर्थन वाले किसी भी x86 डिवाइस (Chromebooks सहित) पर ऑर्गेनिक मैप्स चला सकते हैं।
+कृपया हमें बताएं कि क्या आप OpenGL ES 3 समर्थन वाले किसी भी x86 डिवाइस (Chromebooks सहित) पर Organic Maps चला सकते हैं।
 
 ### मानचित्र और शैलियाँ
 
@@ -62,14 +62,14 @@ taxonomies:
 
 पिछला रिलीज़ नोट: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-नवीनतम ऑर्गेनिक मैप्स संस्करण [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से प्राप्त करें।
+नवीनतम Organic Maps संस्करण [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से प्राप्त करें।
 
 पुनश्च: शुरुआती सुविधाओं के लिए बीटा परीक्षण में शामिल हों और हमें बग और समस्याओं को खोजने में मदद करें:
 - [iOS][testflight]
 - [Android][firebase]।
 
-ऑर्गेनिक मैप्स का उपयोग करने और परियोजना का समर्थन करने के लिए धन्यवाद!
+Organic Maps का उपयोग करने और परियोजना का समर्थन करने के लिए धन्यवाद!
 
-ऑर्गेनिक मैप्स टीम
+Organic Maps टीम
 
 {{ references() }}

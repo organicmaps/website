@@ -1,8 +1,8 @@
 ---
-description: "ऑर्गेनिक मैप्स एप्लिकेशन के उपयोग की शर्तें"
+description: "Organic Maps एप्लिकेशन के उपयोग की शर्तें"
 extra:
   menu_title: शर्तें
-title: "ऑर्गेनिक मैप्स: शर्तें"
+title: "Organic Maps: शर्तें"
 weight: 1000
 ---
 
@@ -19,7 +19,7 @@ weight: 1000
 
 उपयोग की शर्तों के लिए कृपया उनकी LICENSE, COPY या NOTICE फ़ाइलें देखें।
 
-ऑर्गेनिक मैप्स ऐप के लिए कॉपीराइट नोटिस की पूरी सूची जानने के लिए [data/copyright.html][copyright] फ़ाइल देखें।
+Organic Maps ऐप के लिए कॉपीराइट नोटिस की पूरी सूची जानने के लिए [data/copyright.html][copyright] फ़ाइल देखें।
 
 यदि आपके कोई प्रश्न या सुझाव हैं, तो कृपया हमसे [legal@organicmaps.app](mailto:legal@organicmaps.app) पर संपर्क करें।
 

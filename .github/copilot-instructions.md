@@ -211,6 +211,25 @@ These are the invariants a translated markdown file must hold. Each one was brok
 
 **Watch the glossary in non-map contexts.** Terminology substitution is context-blind: `track → 轨迹` turned "no tracking" in the privacy policy into "no GPS traces". Translate such text with `use_glossary=False`.
 
+## Formatting and validating on commit
+
+`npm run hooks:install` points `core.hooksPath` at `.githooks`, so committing
+runs `.githooks/pre-commit` on **staged** files. It rejects a `[label] (target)`
+link with a space, rejects a non-ASCII heading anchor, and runs
+`translate_check.py` — reporting only errors the change **introduces**, since
+much of the corpus carries known drift and blocking on that would stop anyone
+editing those files for unrelated reasons. Bypass once with `--no-verify`.
+
+The hook deliberately does **not** format. Running prettier from it was tried
+and removed: the corpus is not prettier-clean, so it rewrites whatever you
+touch, and `proseWrap: never` merges soft line breaks, which shifts the block
+counts `translate_check` compares against the unformatted English source. Run
+`npm run format` deliberately, as its own commit.
+
+CI (`.github/workflows/check.yml`) enforces the two syntax guards corpus-wide
+and runs `npm run check` (`translate_check.py --all`) as a report, alongside
+the Zola build.
+
 ## Validating a translation
 
 `translate_check.py` compares a translation against its English source and reports what broke. `translate_md.py` runs it automatically after each language and exits non-zero if anything is ERROR-level, so it can gate a publish step.

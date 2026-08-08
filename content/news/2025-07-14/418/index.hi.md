@@ -1,11 +1,11 @@
 ---
-title: "बेहतर ट्रैक संपादन और ऑर्गैनिक मैप्स जुलाई 2025 अपडेट में कई सुधार और बग फिक्स"
+title: "बेहतर ट्रैक संपादन और Organic Maps जुलाई 2025 अपडेट में कई सुधार और बग फिक्स"
 date: 2025-07-14T20:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-हमारे योगदानकर्ताओं के लिए धन्यवाद ❤️💪, कई सुधारों और बग फिक्स के साथ ऑर्गैनिक मैप्स जुलाई अपडेट से मिलें! अपडेट पहले से ही [AppStore][appstore], [Obtainium][obtainium] और [Accrescent][accrescent] में उपलब्ध है, और कुछ दिनों में [Google Play][googleplay], [Huawei AppGallery][appgallery], और [FDroid][fdroid] में तैयार होगा।
+हमारे योगदानकर्ताओं के लिए धन्यवाद ❤️💪, कई सुधारों और बग फिक्स के साथ Organic Maps जुलाई अपडेट से मिलें! अपडेट पहले से ही [AppStore][appstore], [Obtainium][obtainium] और [Accrescent][accrescent] में उपलब्ध है, और कुछ दिनों में [Google Play][googleplay], [Huawei AppGallery][appgallery], और [FDroid][fdroid] में तैयार होगा।
 
 [आपके दान](@/donate/index.hi.md) और [समर्थन](@/contribute/index.hi.md), [बग रिपोर्ट][github issues] और [सुधार][github] बेहतर नक्शे बनाने में हमारी सहायता करते हैं!
 

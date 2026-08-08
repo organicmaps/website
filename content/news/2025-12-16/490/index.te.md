@@ -1,12 +1,12 @@
 ---
-title: "డిసెంబర్ 16 విడుదలలో ఆర్గానిక్ మ్యాప్స్ క్రిస్మస్ ఎడిషన్"
+title: "డిసెంబర్ 16 విడుదలలో Organic Maps క్రిస్మస్ ఎడిషన్"
 date: 2025-12-16
 slug: "organic-maps-christmas-edition-december-16-release"
 taxonomies:
   news: ["releases"]
 ---
 
-ఆర్గానిక్ మ్యాప్స్ బృందం నుండి క్రిస్మస్ మరియు నూతన సంవత్సర శుభాకాంక్షలు. పండుగ ఉత్సాహం కోసం చూస్తున్నారా? మ్యాప్‌లో చూడటానికి `Christmas Market` లేదా `Christmas Tree` కోసం వెతకండి. మీ ప్రాంతంలో ఏమీ కనిపించకపోతే, దయచేసి OpenStreetMap.orgలో తప్పిపోయిన వివరాలను జోడించి, అందరి కోసం మ్యాప్‌ను మెరుగుపరచండి!
+Organic Maps బృందం నుండి క్రిస్మస్ మరియు నూతన సంవత్సర శుభాకాంక్షలు. పండుగ ఉత్సాహం కోసం చూస్తున్నారా? మ్యాప్‌లో చూడటానికి `Christmas Market` లేదా `Christmas Tree` కోసం వెతకండి. మీ ప్రాంతంలో ఏమీ కనిపించకపోతే, దయచేసి OpenStreetMap.orgలో తప్పిపోయిన వివరాలను జోడించి, అందరి కోసం మ్యాప్‌ను మెరుగుపరచండి!
 
 Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
 
@@ -37,8 +37,8 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - [iOS][testflight]
 - [Android][firebase]
 
-మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) వల్లే ఆర్గానిక్ మ్యాప్స్ మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
+మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) వల్లే Organic Maps మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
 
-ఆర్గానిక్ మ్యాప్స్ బృందం
+Organic Maps బృందం
 
 {{ references() }}

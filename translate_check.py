@@ -49,7 +49,10 @@ class Problem:
 def fingerprint(text: str) -> dict[str, int]:
     """Structural features that translation must preserve exactly."""
     return {
-        "lines": len([l for l in text.split("\n") if l.strip()]),
+        # Blank-line-separated blocks, not raw lines: a soft line break inside
+        # a paragraph renders identically, and prettier normalises it, so a
+        # raw-line count would flag pure reformatting as lost content.
+        "blocks": len([b for b in re.split(r"\n\s*\n", text) if b.strip()]),
         "bullets": len(re.findall(r"(?m)^[ \t]*[-*+][ \t]+", text)),
         "headings": len(re.findall(r"(?m)^[ \t]*#{1,6}[ \t]+", text)),
         "inline_links": len(re.findall(r"\]\(", text)),
@@ -71,7 +74,10 @@ QUOTE_CHARS = "\"'«»„“”‘’《》〈〉「」〔〕"
 # Android natively; the Indic scripts transliterate everything.
 BRAND_TRANSLITERATING = {
     "he": {"Android"}, "ar": {"Android"}, "fa-IR": {"Android"},
-    "hi": None, "ml": None, "te": None,   # None = all brands exempt
+    # hi, ml and te used to be exempt from every brand check because they
+    # transliterated the product name. That was decided against: they now keep
+    # Latin brands like everyone else, so only Android stays exempt.
+    "hi": {"Android"}, "ml": {"Android"}, "te": {"Android"},
 }
 
 # The product name rendered as translated words rather than kept in Latin.
@@ -100,6 +106,10 @@ TRANSLATED_BRAND = {
     "sv": r"organiska\s+kartor",
     "tr": r"organik\s+harita",
     "zh-Hans": r"有机地图",
+    # Transliterations as well as translations: these three keep Latin brands.
+    "hi": r"ऑर्ग[ैे]?निक\s*(मैप|मानचित्र|नक़?्श)|जैविक\s*(मानचित्र|नक्शे)",
+    "ml": r"ഓർഗാനിക്\s*മാപ്|ജ[ൈെ]െ?വ\s*ഭൂപട",
+    "te": r"ఆర్గానిక్\s*మ(్య)?ాప|సేంద్రీయ\s*మ్యాప్",
 }
 # The homepage's "Why organic?" section uses the adjective legitimately.
 TRANSLATED_BRAND_EXEMPT = {"mr": ("Why organic", "सेंद्रिय")}
@@ -195,12 +205,12 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             if extra:
                 bits.append(f"extra {extra[:6]}")
             detail = "; ".join(bits)
-        elif key == "lines":
+        elif key == "blocks":
             kind = lambda t: Counter(
-                "bullet" if l.startswith(("-", "*", "+")) else
-                "heading" if l.startswith("#") else
-                "html" if l.startswith("<") else "paragraph"
-                for l in t.split("\n") if l.strip())
+                "bullet" if b.lstrip().startswith(("-", "*", "+")) else
+                "heading" if b.lstrip().startswith("#") else
+                "html" if b.lstrip().startswith("<") else "paragraph"
+                for b in re.split(r"\n\s*\n", t) if b.strip())
             ks, ko = kind(src_body), kind(out_body)
             detail = ", ".join(f"{k}: {ko[k] - ks[k]:+d}"
                                for k in sorted(set(ks) | set(ko)) if ks[k] != ko[k])

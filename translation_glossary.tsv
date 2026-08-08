@@ -1,0 +1,771 @@
+# Organic Maps translation glossary — source of truth for DeepL glossaries.
+#
+# Format:  <english term>\t<site language code>\t<target term>
+# Lines starting with # are comments. Blank lines are ignored.
+#
+# Upload/refresh the DeepL glossaries with:
+#     python3 deepl_glossary.py sync
+# Use them from any script with:
+#     from deepl_glossary import get_glossary_id
+#     gid = get_glossary_id("ru")   # pass as glossary_id= to /v2/translate
+#
+# HOW THESE WERE DERIVED
+# Mined from the site's own proofread translations with tmp/glossary_extract.py,
+# which aligns English news posts line-by-line with each translation and scores
+# target tokens by keyness. An entry is included only when the corpus evidence
+# is unambiguous, or when CLAUDE.md mandates the term. Terms with split or
+# contradictory evidence are listed under NEEDS NATIVE REVIEW at the bottom and
+# deliberately left out — a missing entry is safe, a wrong one is not.
+#
+# Sources are lowercase: DeepL matches case-insensitively and preserves the
+# casing of the surrounding text. Singular and plural are separate entries so
+# the target lands in the right number; DeepL inflects for case in context.
+
+# ---------------------------------------------------------------- Arabic (ar)
+icon	ar	أيقونة
+icons	ar	أيقونات
+layer	ar	طبقة
+tram	ar	ترام
+subway	ar	مترو الأنفاق
+public transport	ar	النقل العام
+track recording	ar	تسجيل المسار
+voice guidance	ar	الإرشاد الصوتي
+team	ar	فريق
+
+# ----------------------------------------------------------------- Czech (cs)
+bookmark	cs	záložka
+bookmarks	cs	záložky
+route	cs	trasa
+routes	cs	trasy
+icon	cs	ikona
+icons	cs	ikony
+layers	cs	vrstvy
+tram	cs	tramvaj
+subway	cs	metro
+public transport	cs	veřejná doprava
+crash	cs	pád
+team	cs	tým
+
+# ---------------------------------------------------------------- German (de)
+bookmark	de	Lesezeichen
+bookmarks	de	Lesezeichen
+track	de	Track
+tracks	de	Tracks
+route	de	Route
+routes	de	Routen
+icon	de	Symbol
+icons	de	Symbole
+layer	de	Ebene
+layers	de	Ebenen
+light rail	de	Stadtbahn
+tram	de	Straßenbahn
+subway	de	U-Bahn
+public transport	de	öffentliche Verkehrsmittel
+crash	de	Absturz
+team	de	Team
+antimeridian	de	Antimeridian
+
+# ----------------------------------------------------------------- Greek (el)
+bookmark	el	σελιδοδείκτης
+bookmarks	el	σελιδοδείκτες
+route	el	διαδρομή
+routes	el	διαδρομές
+icon	el	εικονίδιο
+icons	el	εικονίδια
+layer	el	επίπεδο
+tram	el	τραμ
+subway	el	μετρό
+public transport	el	δημόσιες συγκοινωνίες
+crash	el	κατάρρευση
+team	el	ομάδα
+antimeridian	el	αντιμεσημβρινός
+voice guidance	el	φωνητική καθοδήγηση
+
+# --------------------------------------------------------------- Spanish (es)
+bookmark	es	marcador
+bookmarks	es	marcadores
+track	es	track
+tracks	es	tracks
+route	es	ruta
+routes	es	rutas
+icon	es	icono
+icons	es	iconos
+layer	es	capa
+layers	es	capas
+light rail	es	tren ligero
+tram	es	tranvía
+subway	es	metro
+public transport	es	transporte público
+track recording	es	grabación de track
+team	es	equipo
+antimeridian	es	antimeridiano
+voice guidance	es	guía por voz
+
+# -------------------------------------------------------------- Estonian (et)
+bookmark	et	järjehoidja
+bookmarks	et	järjehoidjad
+track	et	rada
+tracks	et	rajad
+route	et	marsruut
+routes	et	marsruudid
+icon	et	ikoon
+icons	et	ikoonid
+public transport	et	ühistransport
+track recording	et	raja salvestamine
+crash	et	krahh
+team	et	meeskond
+antimeridian	et	antimeridiaan
+
+# ---------------------------------------------------------------- French (fr)
+bookmark	fr	signet
+bookmarks	fr	signets
+track	fr	trace
+tracks	fr	traces
+route	fr	itinéraire
+routes	fr	itinéraires
+icon	fr	icône
+icons	fr	icônes
+layer	fr	couche
+layers	fr	couches
+tram	fr	tramway
+subway	fr	métro
+public transport	fr	transports en commun
+track recording	fr	enregistrement de trace
+crash	fr	plantage
+team	fr	équipe
+antimeridian	fr	antiméridien
+voice guidance	fr	guidage vocal
+
+# ---------------------------------------------------------------- Hebrew (he)
+bookmark	he	סימנייה
+bookmarks	he	סימניות
+icon	he	סמל
+subway	he	רכבת תחתית
+public transport	he	תחבורה ציבורית
+crash	he	קריסה
+team	he	צוות
+
+# ------------------------------------------------------------- Hungarian (hu)
+bookmark	hu	könyvjelző
+bookmarks	hu	könyvjelzők
+track	hu	nyomvonal
+tracks	hu	nyomvonalak
+route	hu	útvonal
+routes	hu	útvonalak
+icon	hu	ikon
+icons	hu	ikonok
+public transport	hu	tömegközlekedés
+crash	hu	összeomlás
+team	hu	csapat
+antimeridian	hu	antimeridián
+
+# ------------------------------------------------------------ Indonesian (id)
+bookmark	id	penanda
+bookmarks	id	penanda
+track	id	trek
+tracks	id	trek
+icon	id	ikon
+icons	id	ikon
+layer	id	lapisan
+layers	id	lapisan
+tram	id	trem
+subway	id	kereta bawah tanah
+public transport	id	transportasi umum
+track recording	id	perekaman trek
+team	id	tim
+voice guidance	id	panduan suara
+
+# --------------------------------------------------------------- Italian (it)
+bookmark	it	segnalibro
+bookmarks	it	segnalibri
+track	it	traccia
+tracks	it	tracce
+route	it	percorso
+routes	it	percorsi
+icon	it	icona
+icons	it	icone
+layer	it	livello
+layers	it	livelli
+light rail	it	metropolitana leggera
+tram	it	tram
+subway	it	metropolitana
+public transport	it	trasporto pubblico
+track recording	it	registrazione della traccia
+team	it	Team
+antimeridian	it	antimeridiano
+
+# ------------------------------------------------------------ Lithuanian (lt)
+# track -> trasa is mandated by CLAUDE.md; the corpus drifted to "takelis".
+bookmark	lt	žyma
+bookmarks	lt	žymos
+track	lt	trasa
+tracks	lt	trasos
+route	lt	maršrutas
+routes	lt	maršrutai
+icon	lt	piktograma
+icons	lt	piktogramos
+tram	lt	tramvajus
+subway	lt	metro
+public transport	lt	viešasis transportas
+crash	lt	strigtis
+team	lt	komanda
+
+# ----------------------------------------------------------------- Dutch (nl)
+bookmark	nl	bladwijzer
+bookmarks	nl	bladwijzers
+track	nl	track
+tracks	nl	tracks
+route	nl	route
+routes	nl	routes
+icon	nl	pictogram
+icons	nl	pictogrammen
+layers	nl	lagen
+tram	nl	tram
+subway	nl	metro
+public transport	nl	openbaar vervoer
+track recording	nl	trackopname
+team	nl	Team
+antimeridian	nl	antimeridiaan
+
+# ---------------------------------------------------------------- Polish (pl)
+bookmark	pl	zakładka
+bookmarks	pl	zakładki
+track	pl	ślad
+tracks	pl	ślady
+route	pl	trasa
+routes	pl	trasy
+icon	pl	ikona
+icons	pl	ikony
+tram	pl	tramwaj
+subway	pl	metro
+public transport	pl	transport publiczny
+track recording	pl	nagrywanie śladu
+crash	pl	awaria
+team	pl	zespół
+
+# --------------------------------------------------- Portuguese, European (pt)
+bookmark	pt	marcador
+bookmarks	pt	marcadores
+track	pt	trilho
+tracks	pt	trilhos
+route	pt	rota
+routes	pt	rotas
+icon	pt	ícone
+icons	pt	ícones
+layer	pt	camada
+layers	pt	camadas
+light rail	pt	metro ligeiro
+tram	pt	elétrico
+subway	pt	metro
+public transport	pt	transportes públicos
+track recording	pt	gravação de trilho
+crash	pt	falha
+team	pt	equipa
+antimeridian	pt	antimeridiano
+voice guidance	pt	orientação por voz
+
+# ------------------------------------------------ Portuguese, Brazilian (pt-BR)
+# DeepL glossaries are keyed by base language code, so pt and pt-BR may not be
+# able to coexist. deepl_glossary.py verifies this at sync time and reports it.
+bookmark	pt-BR	marcador
+bookmarks	pt-BR	marcadores
+track	pt-BR	trilha
+tracks	pt-BR	trilhas
+route	pt-BR	rota
+routes	pt-BR	rotas
+icon	pt-BR	ícone
+icons	pt-BR	ícones
+layer	pt-BR	camada
+layers	pt-BR	camadas
+tram	pt-BR	bonde
+subway	pt-BR	metrô
+public transport	pt-BR	transporte público
+isolines	pt-BR	isolinhas
+track recording	pt-BR	gravação de trilha
+crash	pt-BR	falha
+team	pt-BR	equipe
+antimeridian	pt-BR	antimeridiano
+voice guidance	pt-BR	orientação por voz
+
+# --------------------------------------------------------------- Russian (ru)
+# bookmark -> метка and track -> трек are mandated by CLAUDE.md (not закладка).
+bookmark	ru	метка
+bookmarks	ru	метки
+track	ru	трек
+tracks	ru	треки
+route	ru	маршрут
+routes	ru	маршруты
+icon	ru	иконка
+icons	ru	иконки
+tram	ru	трамвай
+subway	ru	метро
+public transport	ru	общественный транспорт
+track recording	ru	запись трека
+crash	ru	сбой
+team	ru	команда
+outdoors	ru	активный отдых
+
+# --------------------------------------------------------------- Swedish (sv)
+bookmark	sv	bokmärke
+bookmarks	sv	bokmärken
+track	sv	spår
+tracks	sv	spår
+route	sv	rutt
+routes	sv	rutter
+icon	sv	ikon
+icons	sv	ikoner
+layer	sv	lager
+public transport	sv	kollektivtrafik
+track recording	sv	spårinspelning
+crash	sv	krasch
+team	sv	team
+
+# --------------------------------------------------------------- Turkish (tr)
+bookmark	tr	yer imi
+bookmarks	tr	yer imleri
+track	tr	iz
+tracks	tr	izler
+route	tr	rota
+routes	tr	rotalar
+icon	tr	simge
+icons	tr	simgeler
+tram	tr	tramvay
+subway	tr	metro
+public transport	tr	toplu taşıma
+track recording	tr	iz kaydı
+crash	tr	çökme
+team	tr	ekip
+voice guidance	tr	sesli yönlendirme
+
+# ------------------------------------------------------------- Ukrainian (uk)
+# bookmark -> мітка and map -> мапа are mandated by CLAUDE.md.
+bookmark	uk	мітка
+bookmarks	uk	мітки
+track	uk	трек
+tracks	uk	треки
+route	uk	маршрут
+routes	uk	маршрути
+icon	uk	іконка
+icons	uk	іконки
+map	uk	мапа
+maps	uk	мапи
+tram	uk	трамвай
+subway	uk	метро
+public transport	uk	громадський транспорт
+isolines	uk	ізолінії
+track recording	uk	запис треку
+crash	uk	збій
+team	uk	команда
+outdoors	uk	активний відпочинок
+
+# ---------------------------------------------------- Chinese Simplified (zh-Hans)
+bookmark	zh-Hans	书签
+bookmarks	zh-Hans	书签
+track	zh-Hans	轨迹
+tracks	zh-Hans	轨迹
+route	zh-Hans	路线
+routes	zh-Hans	路线
+icon	zh-Hans	图标
+icons	zh-Hans	图标
+layer	zh-Hans	图层
+layers	zh-Hans	图层
+tram	zh-Hans	有轨电车
+subway	zh-Hans	地铁
+public transport	zh-Hans	公共交通
+track recording	zh-Hans	轨迹录制
+crash	zh-Hans	崩溃
+team	zh-Hans	团队
+voice guidance	zh-Hans	语音导航
+
+# =============================================================================
+# Languages DeepL glossaries do not support — surfaced via get_review_terms()
+# =============================================================================
+# Mined from the same corpus as the rest. DeepL cannot enforce these, so they
+# are guidance for the proofreading pass rather than substitutions.
+
+# ------------------------------------------------------------- Occitan (oc)
+track	oc	traça
+tracks	oc	traças
+route	oc	itinerari
+routes	oc	itineraris
+icon	oc	icòna
+icons	oc	icònas
+subway	oc	mètro
+public transport	oc	transpòrt public
+track recording	oc	enregistrament de traça
+crash	oc	plantatge
+team	oc	equipa
+
+# ------------------------------------------------------------- Catalan (ca)
+bookmark	ca	marcador
+bookmarks	ca	marcadors
+track	ca	traça
+tracks	ca	traces
+route	ca	ruta
+routes	ca	rutes
+icon	ca	icona
+icons	ca	icones
+layer	ca	capa
+layers	ca	capes
+tram	ca	tramvia
+subway	ca	metro
+public transport	ca	transport públic
+track recording	ca	enregistrament
+crash	ca	bloqueig
+team	ca	equip
+
+# ----------------------------------------------------------- Galician (gl)
+bookmark	gl	marcador
+bookmarks	gl	marcadores
+track	gl	track
+tracks	gl	tracks
+route	gl	ruta
+routes	gl	rutas
+icon	gl	icona
+icons	gl	iconas
+layer	gl	capa
+layers	gl	capas
+tram	gl	tranvía
+subway	gl	metro
+public transport	gl	transporte público
+track recording	gl	gravación
+crash	gl	fallo
+team	gl	equipo
+
+# ------------------------------------------------------------- Basque (eu)
+bookmark	eu	laster-marka
+bookmarks	eu	laster-markak
+route	eu	ibilbide
+routes	eu	ibilbideak
+icon	eu	ikonoa
+icons	eu	ikonoak
+layers	eu	geruzak
+public transport	eu	garraio publiko
+team	eu	taldea
+
+# -------------------------------------------------------------- Welsh (cy)
+bookmark	cy	nod tudalen
+bookmarks	cy	nodau tudalen
+track	cy	trac
+tracks	cy	traciau
+route	cy	llwybr
+routes	cy	llwybrau
+icon	cy	eicon
+icons	cy	eiconau
+layer	cy	haen
+layers	cy	haenau
+subway	cy	metro
+public transport	cy	trafnidiaeth gyhoeddus
+crash	cy	chwalfa
+team	cy	tîm
+
+# --------------------------------------------------------- Afrikaans (af)
+bookmark	af	boekmerk
+bookmarks	af	boekmerke
+track	af	spoor
+tracks	af	spore
+route	af	roete
+routes	af	roetes
+icon	af	ikoon
+icons	af	ikone
+subway	af	metro
+public transport	af	openbare vervoer
+track recording	af	opname
+crash	af	ineenstorting
+team	af	span
+
+# =============================================================================
+# REPAIRS — post-translation fixes, applied to the OUTPUT text
+# =============================================================================
+# Format: <wrong text>\t<lang>\t<right text>\trepair
+#
+# These are not terminology; they are known translator defects. Apply with
+# deepl_glossary.apply_repairs(text, lang) after translating.
+#
+# ru метek: DeepL corrupts the genitive plural of the glossary term "метки",
+# emitting Cyrillic "мет" + LATIN "ek". Confirmed reproducible, glossary-only
+# (clean without it), Russian-only — Ukrainian's identical genitive plural
+# "міток" is unaffected. Supplying "меток" as the entry avoids this but then
+# breaks the prepositional ("метах" for "метках"), so the correct entries are
+# kept and the output is repaired instead.
+метek	ru	меток	repair
+метeк	ru	меток	repair
+
+# =============================================================================
+# NEEDS NATIVE REVIEW — deliberately NOT in the glossary above
+# =============================================================================
+#
+# 1. track / route collapse (ar, cs, el, he)
+#    In these languages the proofread corpus renders BOTH "track" and "route"
+#    with the same word, so the corpus cannot supply a distinct "track":
+#        ar  track = المسار   route = المسار
+#        cs  track = trasa    route = trasa
+#        el  track = διαδρομή route = διαδρομή
+#        he  track = מסלול    route = מסלול
+#    "route" is entered above for cs/el (the settled sense); "track" is omitted
+#    everywhere here. A native speaker should pick a distinct recorded-GPS-track
+#    term. Candidates to evaluate, NOT yet approved:
+#        cs stopa,  el ίχνος,  he מסלול מוקלט,  ar المسار المسجل
+#
+# 2. Arabic "bookmark" — corpus and prior guidance disagree
+#    corpus: العلامات المرجعية (18 hits)   vs   الإشارات المرجعية (5 hits)
+#    Earlier release-note review recorded الإشارات المرجعية as canonical.
+#    Omitted until one is confirmed.
+#
+# 3. Split evidence, no clear winner — omitted
+#    es crash   fallo (6) / bloqueo (6)
+#    ar crash   عطل (5) / تعطل (5)
+#    it crash   kept as "crash" (13) / arresto anomalo (5)
+#    pt track   trilho (11) / percurso (6)  — trilho entered, worth confirming
+#    hu track recording  "útvonalrögzítés" uses útvonal (route), not nyomvonal
+#
+# 4. No corpus coverage
+#    ja — only one translated news post on the site, too little to align.
+#    oc bookmark — corpus is split, marcapaginas (12) vs marcadors (5). The
+#    first is the book sense, the second the map-marker sense the project uses
+#    elsewhere; omitted until a native speaker settles it.
+#    eu crash — hutsegitea (4) vs kraskadura (4), no winner.
+#    eu track — the corpus keeps the English word in some files and uses
+#    ibilbide (route) in others, collapsing the two senses.
+#    Languages DeepL glossaries do not support at all, needing local
+#    substitution instead: af, ca, cy, eu, fa-IR, gl, hi, ml, mr, oc, te
+#
+# 5. Excluded English terms — ambiguous in the corpus, unsafe to force
+#    steps  ("these steps will vary" vs stairs)
+#    note   ("Please note that" vs OSM note)
+#    style  ("a song in a different style" vs map style)
+#    place  (generic vs Place Page)
+#    recording ("recording of the Zoom session" vs track recording)
+#    search (high frequency, noun/verb ambiguity across languages)
+
+# =============================================================================
+# BRAND LOCK — keep product names Latin while still VISIBLE to the translator
+# =============================================================================
+# Hiding brands behind <x> placeholders wrecks word order: the translator
+# cannot see them, so "OpenStreetMap data as of August 4" came back as
+# "OpenStreetMap Теперь включены данные…" in ~30 of 32 languages. Leaving them
+# visible fixes the word order, and these identity entries stop DeepL
+# transliterating them (أندرويد, אנדרואיד). Languages with no glossary support
+# (hi, ml, te, fa-IR …) keep placeholder protection instead — see BRAND_VISIBLE
+# in translate_md.py.
+
+Organic Maps	ar	Organic Maps
+OpenStreetMap	ar	OpenStreetMap
+ID Editor	ar	ID Editor
+Android	ar	Android
+iOS	ar	iOS
+Google Play	ar	Google Play
+App Store	ar	App Store
+F-Droid	ar	F-Droid
+Obtainium	ar	Obtainium
+Accrescent	ar	Accrescent
+Organic Maps	cs	Organic Maps
+OpenStreetMap	cs	OpenStreetMap
+ID Editor	cs	ID Editor
+Android	cs	Android
+iOS	cs	iOS
+Google Play	cs	Google Play
+App Store	cs	App Store
+F-Droid	cs	F-Droid
+Obtainium	cs	Obtainium
+Accrescent	cs	Accrescent
+Organic Maps	de	Organic Maps
+OpenStreetMap	de	OpenStreetMap
+ID Editor	de	ID Editor
+Android	de	Android
+iOS	de	iOS
+Google Play	de	Google Play
+App Store	de	App Store
+F-Droid	de	F-Droid
+Obtainium	de	Obtainium
+Accrescent	de	Accrescent
+Organic Maps	el	Organic Maps
+OpenStreetMap	el	OpenStreetMap
+ID Editor	el	ID Editor
+Android	el	Android
+iOS	el	iOS
+Google Play	el	Google Play
+App Store	el	App Store
+F-Droid	el	F-Droid
+Obtainium	el	Obtainium
+Accrescent	el	Accrescent
+Organic Maps	es	Organic Maps
+OpenStreetMap	es	OpenStreetMap
+ID Editor	es	ID Editor
+Android	es	Android
+iOS	es	iOS
+Google Play	es	Google Play
+App Store	es	App Store
+F-Droid	es	F-Droid
+Obtainium	es	Obtainium
+Accrescent	es	Accrescent
+Organic Maps	et	Organic Maps
+OpenStreetMap	et	OpenStreetMap
+ID Editor	et	ID Editor
+Android	et	Android
+iOS	et	iOS
+Google Play	et	Google Play
+App Store	et	App Store
+F-Droid	et	F-Droid
+Obtainium	et	Obtainium
+Accrescent	et	Accrescent
+Organic Maps	fr	Organic Maps
+OpenStreetMap	fr	OpenStreetMap
+ID Editor	fr	ID Editor
+Android	fr	Android
+iOS	fr	iOS
+Google Play	fr	Google Play
+App Store	fr	App Store
+F-Droid	fr	F-Droid
+Obtainium	fr	Obtainium
+Accrescent	fr	Accrescent
+Organic Maps	he	Organic Maps
+OpenStreetMap	he	OpenStreetMap
+ID Editor	he	ID Editor
+Android	he	Android
+iOS	he	iOS
+Google Play	he	Google Play
+App Store	he	App Store
+F-Droid	he	F-Droid
+Obtainium	he	Obtainium
+Accrescent	he	Accrescent
+Organic Maps	hu	Organic Maps
+OpenStreetMap	hu	OpenStreetMap
+ID Editor	hu	ID Editor
+Android	hu	Android
+iOS	hu	iOS
+Google Play	hu	Google Play
+App Store	hu	App Store
+F-Droid	hu	F-Droid
+Obtainium	hu	Obtainium
+Accrescent	hu	Accrescent
+Organic Maps	id	Organic Maps
+OpenStreetMap	id	OpenStreetMap
+ID Editor	id	ID Editor
+Android	id	Android
+iOS	id	iOS
+Google Play	id	Google Play
+App Store	id	App Store
+F-Droid	id	F-Droid
+Obtainium	id	Obtainium
+Accrescent	id	Accrescent
+Organic Maps	it	Organic Maps
+OpenStreetMap	it	OpenStreetMap
+ID Editor	it	ID Editor
+Android	it	Android
+iOS	it	iOS
+Google Play	it	Google Play
+App Store	it	App Store
+F-Droid	it	F-Droid
+Obtainium	it	Obtainium
+Accrescent	it	Accrescent
+Organic Maps	ja	Organic Maps
+OpenStreetMap	ja	OpenStreetMap
+ID Editor	ja	ID Editor
+Android	ja	Android
+iOS	ja	iOS
+Google Play	ja	Google Play
+App Store	ja	App Store
+F-Droid	ja	F-Droid
+Obtainium	ja	Obtainium
+Accrescent	ja	Accrescent
+Organic Maps	lt	Organic Maps
+OpenStreetMap	lt	OpenStreetMap
+ID Editor	lt	ID Editor
+Android	lt	Android
+iOS	lt	iOS
+Google Play	lt	Google Play
+App Store	lt	App Store
+F-Droid	lt	F-Droid
+Obtainium	lt	Obtainium
+Accrescent	lt	Accrescent
+Organic Maps	nl	Organic Maps
+OpenStreetMap	nl	OpenStreetMap
+ID Editor	nl	ID Editor
+Android	nl	Android
+iOS	nl	iOS
+Google Play	nl	Google Play
+App Store	nl	App Store
+F-Droid	nl	F-Droid
+Obtainium	nl	Obtainium
+Accrescent	nl	Accrescent
+Organic Maps	pl	Organic Maps
+OpenStreetMap	pl	OpenStreetMap
+ID Editor	pl	ID Editor
+Android	pl	Android
+iOS	pl	iOS
+Google Play	pl	Google Play
+App Store	pl	App Store
+F-Droid	pl	F-Droid
+Obtainium	pl	Obtainium
+Accrescent	pl	Accrescent
+Organic Maps	pt	Organic Maps
+OpenStreetMap	pt	OpenStreetMap
+ID Editor	pt	ID Editor
+Android	pt	Android
+iOS	pt	iOS
+Google Play	pt	Google Play
+App Store	pt	App Store
+F-Droid	pt	F-Droid
+Obtainium	pt	Obtainium
+Accrescent	pt	Accrescent
+Organic Maps	pt-BR	Organic Maps
+OpenStreetMap	pt-BR	OpenStreetMap
+ID Editor	pt-BR	ID Editor
+Android	pt-BR	Android
+iOS	pt-BR	iOS
+Google Play	pt-BR	Google Play
+App Store	pt-BR	App Store
+F-Droid	pt-BR	F-Droid
+Obtainium	pt-BR	Obtainium
+Accrescent	pt-BR	Accrescent
+Organic Maps	ru	Organic Maps
+OpenStreetMap	ru	OpenStreetMap
+ID Editor	ru	ID Editor
+Android	ru	Android
+iOS	ru	iOS
+Google Play	ru	Google Play
+App Store	ru	App Store
+F-Droid	ru	F-Droid
+Obtainium	ru	Obtainium
+Accrescent	ru	Accrescent
+Organic Maps	sv	Organic Maps
+OpenStreetMap	sv	OpenStreetMap
+ID Editor	sv	ID Editor
+Android	sv	Android
+iOS	sv	iOS
+Google Play	sv	Google Play
+App Store	sv	App Store
+F-Droid	sv	F-Droid
+Obtainium	sv	Obtainium
+Accrescent	sv	Accrescent
+Organic Maps	tr	Organic Maps
+OpenStreetMap	tr	OpenStreetMap
+ID Editor	tr	ID Editor
+Android	tr	Android
+iOS	tr	iOS
+Google Play	tr	Google Play
+App Store	tr	App Store
+F-Droid	tr	F-Droid
+Obtainium	tr	Obtainium
+Accrescent	tr	Accrescent
+Organic Maps	uk	Organic Maps
+OpenStreetMap	uk	OpenStreetMap
+ID Editor	uk	ID Editor
+Android	uk	Android
+iOS	uk	iOS
+Google Play	uk	Google Play
+App Store	uk	App Store
+F-Droid	uk	F-Droid
+Obtainium	uk	Obtainium
+Accrescent	uk	Accrescent
+Organic Maps	zh-Hans	Organic Maps
+OpenStreetMap	zh-Hans	OpenStreetMap
+ID Editor	zh-Hans	ID Editor
+Android	zh-Hans	Android
+iOS	zh-Hans	iOS
+Google Play	zh-Hans	Google Play
+App Store	zh-Hans	App Store
+F-Droid	zh-Hans	F-Droid
+Obtainium	zh-Hans	Obtainium
+Accrescent	zh-Hans	Accrescent

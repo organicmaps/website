@@ -7,9 +7,9 @@ extra:
 ---
 
 La présente application est régie par la licence Apache, version 2.0 (la "licence") ;
-vous ne pouvez utiliser cette application qu'en conformité avec la licence.
+tu ne peux utiliser cette application qu'en conformité avec la licence.
 
-Vous pouvez obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Tu peux obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 Sauf si la loi applicable l'exige ou si un accord écrit est conclu, le logiciel distribué sous la
 licence est distribué "EN L'ÉTAT", SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, que ce soit en termes
@@ -22,9 +22,9 @@ ont été créées par d'autres personnes et organisations et font l'objet de di
 - des tiers
 - outils
 
-Veuillez vous référer à leurs fichiers LICENCE, COPYING ou NOTICE pour connaître les conditions d'utilisation.
+Merci de te référer à leurs fichiers LICENCE, COPYING ou NOTICE pour connaître les conditions d'utilisation.
 
 Voir également [data/copyright.html](https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html)
 pour une liste complète des avis de droits d'auteur pour l'application Organic Maps.
 
-Si vous avez des questions ou des suggestions, veuillez nous contacter à l'adresse [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Si tu as des questions ou des suggestions, merci de nous contacter à l'adresse [legal@organicmaps.app](mailto:legal@organicmaps.app).

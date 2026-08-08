@@ -13,16 +13,16 @@ aliases:
   - /tr/faq/map/how-to-create-a-route/
 ---
 
-Haritada konumunuz belirlendikten sonra hedefinizi seçin. Aşağıdaki yollardan birini kullanabilirsiniz:
+Haritada konumun belirlendikten sonra hedefini seç. Aşağıdaki yollardan birini kullanabilirsin:
 
-* arama düğmesine dokunun
-* yer imleri düğmesine dokunun
-* haritada herhangi bir yere dokunun (boş alanlar için basılı tutun)
+* arama düğmesine dokun
+* yer imleri düğmesine dokun
+* haritada herhangi bir yere dokun (boş alanlar için basılı tut)
 
-Varış noktasını seçtikten sonra, yer bilgileri sayfasındaki “Varış Yeri” düğmesine basın. Rota oluşturulacak ve mesafeyi ve tahmini seyahat süresini göreceksiniz. Ekranın üst kısmındaki Araba, Yaya, Metro, Bisiklet veya Cetvel simgesine basarak rota türünü değiştirebilirsiniz. Rotayı başlatmak için “Başla” düğmesine dokunun. Rotayı bitirmek için ekranın sağ alt köşesindeki ok işaretine basın ve Durdur'a dokunun.
+Varış noktasını seçtikten sonra, yer bilgileri sayfasındaki “Varış Yeri” düğmesine bas. Rota oluşturulacak ve mesafeyi ve tahmini seyahat süresini göreceksin. Ekranın üst kısmındaki Araba, Yaya, Metro, Bisiklet veya Cetvel simgesine basarak rota türünü değiştirebilirsin. Rotayı başlatmak için “Başla” düğmesine dokun. Rotayı bitirmek için ekranın sağ alt köşesindeki ok işaretine bas ve Durdur'a dokun.
 
-Bir rotayı önizlemek için farklı bir başlangıç noktası (Başlangıç Yeri düğmesi) seçebilirsiniz, ancak navigasyon yalnızca mevcut konumunuzdan kullanılabilir.
+Bir rotayı önizlemek için farklı bir başlangıç noktası (Başlangıç Yeri düğmesi) seçebilirsin, ancak navigasyon yalnızca mevcut konumundan kullanılabilir.
 
-Bir rotaya en fazla 100 ara nokta ekleyebilirsiniz. Bir ara nokta eklemek için: başlangıç ve hedef arasında bir rota oluşturun → ardından haritada bir yere dokunun ve “Ara Nokta Ekle”ye dokunun.
+Bir rotaya en fazla 100 ara nokta ekleyebilirsin. Bir ara nokta eklemek için: başlangıç ve hedef arasında bir rota oluştur → ardından haritada bir yere dokun ve “Ara Nokta Ekle”ye dokun.
 
-Araba rotasının ayarlarını değiştirebilir ve kaçınmak istediğiniz yol türlerini seçebilirsiniz (paralı yollar, asfaltsız yollar, otoyollar, feribotlar). Uygulama ayarlarını açın → Sürüş seçenekleri → gerekli seçenekleri açın.
+Araba rotasının ayarlarını değiştirebilir ve kaçınmak istediğin yol türlerini seçebilirsin (paralı yollar, asfaltsız yollar, otoyollar, feribotlar). Uygulama ayarlarını aç → Sürüş seçenekleri → gerekli seçenekleri aç.

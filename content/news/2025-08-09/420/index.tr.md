@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps'in ağustos sürümünü yükleyin, en son haritaları indirin ve dünyanın dört bir yanındaki popüler yürüyüş ve bisiklet rotalarını keşfedin! Renkli bisiklet ve MTB rotalarının yanı sıra resmi yürüyüş ve yürüyüş yollarını görüntülemek için sol üstteki "Katmanlar" düğmesine basın. Yakınlarda hiçbir şey görmüyor musunuz? O zaman eksik bilgileri OpenStreetMap.org'a ekleme zamanı, çünkü Organic Maps'teki tüm harita verileri bu açık, ücretsiz ve topluluk odaklı projeden geliyor.
+Organic Maps'in ağustos sürümünü yükle, en son haritaları indir ve dünyanın dört bir yanındaki popüler yürüyüş ve bisiklet rotalarını keşfet! Renkli bisiklet ve MTB rotalarının yanı sıra resmi yürüyüş ve yürüyüş yollarını görüntülemek için sol üstteki "Katmanlar" düğmesine bas. Yakınlarda hiçbir şey görmüyor musun? O zaman eksik bilgileri OpenStreetMap.org'a ekleme zamanı, çünkü Organic Maps'teki tüm harita verileri bu açık, ücretsiz ve topluluk odaklı projeden geliyor.
 
-Haritadaki herhangi bir kaydedilmiş veya içe aktarılmış GPX/KML izinin seçilebileceğini biliyor muydunuz? Yükseklik verilerine sahip izler yükseklik grafiklerini gösterecektir.
+Haritadaki herhangi bir kaydedilmiş veya içe aktarılmış GPX/KML izinin seçilebileceğini biliyor muydun? Yükseklik verilerine sahip izler yükseklik grafiklerini gösterecektir.
 
-Haritada yer imi isimlerini görmek için Organic Maps ayarlarında bu yeni özelliği etkinleştirin.
+Haritada yer imi isimlerini görmek için Organic Maps ayarlarında bu yeni özelliği etkinleştir.
 
-Katkıda bulunanlarımız ❤️ ve [bağışlarınız](@/donate/index.tr.md) sayesinde bu güncellemede çok daha fazlası var.
+Katkıda bulunanlarımız ❤️ ve [bağışların](@/donate/index.tr.md) sayesinde bu güncellemede çok daha fazlası var.
 
-P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
+P.S. ...ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
 
 ### Ayrıntılı Sürüm Notları
 
@@ -53,6 +53,6 @@ P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturma
 - Daha fazla arama kategorisi için İspanyolca çeviri (David Martinez)
 - Çeşitli çeviriler güncellendi (Weblate katkıda bulunanları)
 
-Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [FDroid][fdroid]'den edinin.
+Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [FDroid][fdroid]'den edin.
 
 {{ references() }}

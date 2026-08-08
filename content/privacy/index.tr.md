@@ -6,14 +6,14 @@ extra:
   menu_title: Gizlilik
 ---
 
-Organic Maps gizliliğinize saygı duyar ve SİZİ TAKİP ETMEZ.
+Organic Maps gizliliğine saygı duyar ve SENİ TAKİP ETMEZ.
 
-Diğer çoğu uygulamadan farklı olarak, Organic Maps’te izleme, reklam ya da casus yazılım yoktur: Cihazınızdan konum, istatistiksel veya kişisel veriler toplanmaz.
+Diğer çoğu uygulamadan farklı olarak, Organic Maps’te izleme, reklam ya da casus yazılım yoktur: Cihazından konum, istatistiksel veya kişisel veriler toplanmaz.
 
-Gözetlemeyi reddedin - özgürlüğünüzü kucaklayın.
+Gözetlemeyi reddet - özgürlüğünü kucakla.
 
-Big Tech'in meraklı gözlerinden uzak durun!
+Big Tech'in meraklı gözlerinden uzak dur!
 
-Eğer herhangi bir sorunuz veya öneriniz varsa lütfen [legal@organicmaps.app](mailto:legal@organicmaps.app) adresinden bizimle iletişime geçin.
+Eğer herhangi bir soru veya önerin varsa lütfen [legal@organicmaps.app](mailto:legal@organicmaps.app) adresinden bizimle iletişime geç.
 
 <sub>Bu politika 2021-04-24 itibarıyla geçerlidir.</sub>

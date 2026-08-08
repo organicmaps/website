@@ -1,13 +1,13 @@
 ---
-title: Faites un don pour soutenir le développement d'Organic Maps
-description: "Votre argent permet de couvrir toutes les dépenses liées au projet et nous motive à améliorer Organic Maps."
+title: Fais un don pour soutenir le développement d'Organic Maps
+description: "Ton argent permet de couvrir toutes les dépenses liées au projet et nous motive à améliorer Organic Maps."
 weight: 10
 extra:
   menu_title: Faire un don
   preview_image: donate/donate.png
 ---
 
-L'application Organic Maps est _gratuite pour tout le monde_ grâce à vos **[donations][stripe]** :
+L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[donations][stripe]** :
 
 - Pas de publicité
 - Pas de trackers
@@ -19,11 +19,11 @@ L'application Organic Maps est _gratuite pour tout le monde_ grâce à vos **[do
 
 ## Pourquoi faire un don à Organic Maps ?
 
-1. Nous comptons sur vos dons pour mener à bien notre mission, à savoir maintenir Organic Maps ouvert et gratuit.
+1. Nous comptons sur tes dons pour mener à bien notre mission, à savoir maintenir Organic Maps ouvert et gratuit.
    Et libre de toute publicité.
 2. Nous sommes quelques passionnés qui consacrent leur temps libre et l'argent de leurs familles à ce projet.
    Nous aimons ce que nous faisons, et nous aimons nos utilisateurs ❤️.
-3. Avec votre soutien, nous voulons devenir une version de Google Maps meilleure et respectueuse de la vie privée.
+3. Avec ton soutien, nous voulons devenir une version de Google Maps meilleure et respectueuse de la vie privée.
 
 ## A quoi servira l'argent ?
 
@@ -41,7 +41,7 @@ L'application Organic Maps est _gratuite pour tout le monde_ grâce à vos **[do
    - Amélioration de l'éditeur OpenStreetMap
    - Amélioration de la recherche d'adresses, du routage et de la navigation hors ligne
    - Transport public
-   - ... et [beaucoup d'autres][github issues] fonctionnalités que vous voulez et aimez.
+   - ... et [beaucoup d'autres][github issues] fonctionnalités que tu veux et aimes.
 
 ## Comment faire un don ?
 
@@ -49,7 +49,7 @@ Il existe plusieurs façons de faire un don au projet :
 
 {{ donate_buttons() }}
 
-Les dons récurrents sont le meilleur moyen d'assurer un revenu relativement stable pour le projet et de nous motiver pour les tâches et les objectifs à long terme. Mais vous pouvez également faire un don ponctuel.
+Les dons récurrents sont le meilleur moyen d'assurer un revenu relativement stable pour le projet et de nous motiver pour les tâches et les objectifs à long terme. Mais tu peux également faire un don ponctuel.
 
 ### Virement bancaire
 
@@ -57,12 +57,12 @@ Les dons récurrents sont le meilleur moyen d'assurer un revenu relativement sta
 
 ### Crypto
 
-Veuillez envisager de faire un don annuel pour réduire les frais totaux. Les réseaux Algorand, Tron, Litecoin et Monero offrent des frais réduits, mais la situation change tous les jours.
+Merci d'envisager de faire un don annuel pour réduire les frais totaux. Les réseaux Algorand, Tron, Litecoin et Monero offrent des frais réduits, mais la situation change tous les jours.
 
 {{ crypto_table() }}
 
 ### Autres moyens de donner
 
-Oui ! Il existe de nombreuses façons de soutenir Organic Maps. Veuillez consulter la page [Contribuer](@/contribute/index.fr.md) pour plus de détails.
+Oui ! Il existe de nombreuses façons de soutenir Organic Maps. Merci de consulter la page [Contribuer](@/contribute/index.fr.md) pour plus de détails.
 
 {{ references() }}

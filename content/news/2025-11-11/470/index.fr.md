@@ -11,7 +11,7 @@ taxonomies:
 ### Toutes les plateformes
 
 - *NOUVEAU !* Mise en évidence des régions téléchargées sur la carte du monde (Viktor Govako)
-- *NOUVEAU !* Visualisez et recherchez les réserves naturelles, les parcs nationaux, les zones protégées, les terres aborigènes, les zones de danger et les lacs sur la carte du monde à partir du niveau de zoom 8 (Viktor Govako)
+- *NOUVEAU !* Visualise et recherche les réserves naturelles, les parcs nationaux, les zones protégées, les terres aborigènes, les zones de danger et les lacs sur la carte du monde à partir du niveau de zoom 8 (Viktor Govako)
 - *NOUVEAU !* Le routage prend désormais en charge les horaires de fermeture des routes (Viktor Govako)
 
 - Données OpenStreetMap au 9 novembre 2025 (Viktor Govako)
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto utilise toujours le mode de routage pour voiture (Andrei Shkrob)
 - Utilisation des traductions en chinois traditionnel pour les régions de Hong Kong (zh-HK) et Macao (zh-MO) (Alexander Borsuk)
 
-Veuillez nous faire savoir si vous pouvez exécuter Organic Maps sur des appareils x86 (y compris les Chromebooks) avec prise en charge d'OpenGL ES 3.
+Merci de nous faire savoir si tu peux exécuter Organic Maps sur des appareils x86 (y compris les Chromebooks) avec prise en charge d'OpenGL ES 3.
 
 ### Carte & Styles
 
@@ -62,9 +62,9 @@ Veuillez nous faire savoir si vous pouvez exécuter Organic Maps sur des apparei
 
 Notes de version précédentes : [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Obtenez la dernière version d'Organic Maps sur [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
+Obtiens la dernière version d'Organic Maps sur [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
 
-P.S. Participez aux tests bêta pour découvrir les fonctionnalités en avant-première et nous aider à trouver les bogues et les problèmes :
+P.S. Participe aux tests bêta pour découvrir les fonctionnalités en avant-première et nous aider à trouver les bogues et les problèmes :
 - [iOS][testflight]
 - [Android][firebase].
 

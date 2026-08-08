@@ -9,9 +9,9 @@ extra:
 
 **Organic Maps** est une application de cartes hors ligne et de GPS axée sur la confidentialité pour la randonnée, le vélo et la conduite. Absolument gratuit. Pas de publicité. Pas de suivi. Développé avec amour par la communauté open-source et les mêmes personnes qui ont créé l'application [**MapsWithMe**][mapswithme]/**Maps.Me**. Basé sur les données [OpenStreetMap][openstreetmap].
 
-**Organic Maps** est l'une des rares applications actuelles à prendre en charge 100 % des fonctionnalités sans connexion Internet active. Installez Organic Maps, téléchargez des cartes, jetez votre carte SIM (d'ailleurs, votre opérateur vous suit constamment), et partez pour un voyage d'une semaine sur une seule charge de batterie sans aucun octet envoyé au réseau.
+**Organic Maps** est l'une des rares applications actuelles à prendre en charge 100 % des fonctionnalités sans connexion Internet active. Installe Organic Maps, télécharge des cartes, jette ta carte SIM (d'ailleurs, ton opérateur te suit constamment), et pars pour un voyage d'une semaine sur une seule charge de batterie sans aucun octet envoyé au réseau.
 
-> En décembre 2025, Organic Maps a [atteint 6 millions d'installations](@/news/2025-12-31/500/index.fr.md). [Aidez-nous](@/donate/index.fr.md) à grandir !
+> En décembre 2025, Organic Maps a [atteint 6 millions d'installations](@/news/2025-12-31/500/index.fr.md). [Aide-nous](@/donate/index.fr.md) à grandir !
 
 ### Télécharger et installer Organic Maps depuis [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
@@ -36,7 +36,7 @@ Organic Maps est l'application idéale pour les voyageurs, les touristes, les ra
 - Plans de métro
 - Recherche rapide hors ligne sur les cartes téléchargées
 - Importation et exportation de signets aux formats KML/KMZ, GPX, GeoJSON
-- Mode sombre pour protéger vos yeux
+- Mode sombre pour protéger tes yeux
 - Les pays et les régions ne prennent pas beaucoup de place
 - Articles Wikipédia pour les lieux populaires
 - Gratuit et open-source
@@ -45,8 +45,8 @@ Organic Maps est l'application idéale pour les voyageurs, les touristes, les ra
 
 Organic Maps est pur et biologique, fabriqué avec amour :
 
-- Respecte votre vie privée
-- Économise votre batterie
+- Respecte ta vie privée
+- Économise ta batterie
 - Pas de frais de données mobiles inattendus
 
 L'application Organic Maps est exempte de traceurs et d'autres éléments indésirables :
@@ -70,25 +70,25 @@ L'application iOS est vérifiée par [TrackerControl pour iOS][trackercontrol] :
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps ne demande pas de permissions excessives pour vous espionner :
+Organic Maps ne demande pas de permissions excessives pour t'espionner :
 
 {{ privacy_screenshots() }}
 
 Chez Organic Maps, nous pensons que la vie privée est un droit humain fondamental :
 
 - Organic Maps est un projet indépendant open-source dirigé par la communauté
-- Nous protégeons votre vie privée des regards indiscrets des géants de la tech
-- Restez en sécurité, où que vous soyez
+- Nous protégeons ta vie privée des regards indiscrets des géants de la tech
+- Reste en sécurité, où que tu sois
 
-Rejetez la surveillance - embrassez votre liberté.
+Rejette la surveillance - embrasse ta liberté.
 
-**[Essayez Organic Maps !](#install)**
+**[Essaie Organic Maps !](#install)**
 
 ## Qui paie pour l'application gratuite ?
 
-L'application est gratuite pour tous. Veuillez [faire un don](@/donate/index.fr.md) pour nous soutenir !
+L'application est gratuite pour tous. Merci de [faire un don](@/donate/index.fr.md) pour nous soutenir !
 
-Pour faire un don facilement, cliquez sur l'icône de votre méthode de paiement préférée ci-dessous :
+Pour faire un don facilement, clique sur l'icône de ta méthode de paiement préférée ci-dessous :
 
 {{ donate_buttons() }}
 
@@ -141,17 +141,17 @@ Les sponsors institutionnels bien-aimés ci-dessous ont fourni des subventions c
 
 Organic Maps est un [logiciel open-source][github] sous licence Apache 2.0.
 
-- Veuillez rejoindre notre programme bêta, suggérer vos fonctionnalités et signaler les bugs :
+- Merci de rejoindre notre programme bêta, suggérer tes fonctionnalités et signaler les bugs :
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
   - [Linux Desktop Beta (packages)][repology]
-- Signalez les bugs ou les problèmes sur [le suivi des problèmes][issues] ou [envoyez-nous un e-mail][email].
-- [Discutez][ideas] des idées ou proposez des demandes de fonctionnalités.
-- Abonnez-vous à notre [Canal Telegram][telegram] ou à l'espace [matrix][matrix] pour les mises à jour.
-- Rejoignez notre [Chat Telegram en français][telegram_chat_fr] ou [en anglais][telegram_chat] pour discuter avec d'autres utilisateurs.
-- Visitez notre [page GitHub][github].
-- Suivez nos mises à jour sur [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Signale les bugs ou les problèmes sur [le suivi des problèmes][issues] ou [envoie-nous un e-mail][email].
+- [Discute][ideas] des idées ou propose des demandes de fonctionnalités.
+- Abonne-toi à notre [Canal Telegram][telegram] ou à l'espace [matrix][matrix] pour les mises à jour.
+- Rejoins notre [Chat Telegram en français][telegram_chat_fr] ou [en anglais][telegram_chat] pour discuter avec d'autres utilisateurs.
+- Visite notre [page GitHub][github].
+- Suis nos mises à jour sur [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://fr.wikipedia.org/wiki/Fourche_(d%C3%A9veloppement_de_logiciel)
 

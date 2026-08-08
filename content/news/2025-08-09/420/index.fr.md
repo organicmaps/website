@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installez la version d'août d'Organic Maps, téléchargez les dernières cartes et découvrez des itinéraires de randonnée et de vélo populaires dans le monde entier ! Appuyez sur le bouton "Couches" en haut à gauche pour afficher les itinéraires colorés de vélo et VTT, ainsi que les sentiers de randonnée et de promenade officiels. Rien à proximité ? Il est alors temps d'ajouter les informations manquantes sur OpenStreetMap.org, car toutes les données cartographiques d'Organic Maps proviennent de ce projet ouvert, gratuit et communautaire.
+Installe la version d'août d'Organic Maps, télécharge les dernières cartes et découvre des itinéraires de randonnée et de vélo populaires dans le monde entier ! Appuie sur le bouton "Couches" en haut à gauche pour afficher les itinéraires colorés de vélo et VTT, ainsi que les sentiers de randonnée et de promenade officiels. Rien à proximité ? Il est alors temps d'ajouter les informations manquantes sur OpenStreetMap.org, car toutes les données cartographiques d'Organic Maps proviennent de ce projet ouvert, gratuit et communautaire.
 
-Saviez-vous que toute trace GPX/KML enregistrée ou importée sur la carte peut être sélectionnée ? Les traces avec des données d'altitude afficheront leur graphique d'altitude.
+Savais-tu que toute trace GPX/KML enregistrée ou importée sur la carte peut être sélectionnée ? Les traces avec des données d'altitude afficheront leur graphique d'altitude.
 
-Pour voir les noms des favoris sur la carte, activez cette nouvelle fonctionnalité dans les paramètres d'Organic Maps.
+Pour voir les noms des favoris sur la carte, active cette nouvelle fonctionnalité dans les paramètres d'Organic Maps.
 
-Merci à nos contributeurs ❤️ et à vos [dons](@/donate/index.fr.md), il y a bien plus dans cette mise à jour.
+Merci à nos contributeurs ❤️ et à tes [dons](@/donate/index.fr.md), il y a bien plus dans cette mise à jour.
 
-P.S. ...et bien plus arrive ! Votre soutien nous aide et nous motive à construire ensemble les meilleures cartes.
+P.S. ...et bien plus arrive ! Ton soutien nous aide et nous motive à construire ensemble les meilleures cartes.
 
 ### Notes de version détaillées
 
@@ -53,6 +53,6 @@ P.S. ...et bien plus arrive ! Votre soutien nous aide et nous motive à construi
 - Traduction espagnole pour plus de catégories de recherche (David Martinez)
 - Diverses traductions mises à jour (Contribuerurs Weblate)
 
-Obtenez Organic Maps sur [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [FDroid][fdroid].
+Obtiens Organic Maps sur [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [FDroid][fdroid].
 
 {{ references() }}

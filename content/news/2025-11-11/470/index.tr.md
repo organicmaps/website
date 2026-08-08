@@ -11,7 +11,7 @@ taxonomies:
 ### Tüm platformlar
 
 - *YENİ!* Dünya haritasında vurgulanan indirilmiş bölgeler (Viktor Govako)
-- *YENİ!* Dünya haritasında yakınlaştırma seviyesi 8'den başlayarak doğa rezervlerini, milli parkları, koruma alanlarını, yerli topraklarını, tehlike alanlarını ve gölleri görün ve arayın (Viktor Govako)
+- *YENİ!* Dünya haritasında yakınlaştırma seviyesi 8'den başlayarak doğa rezervlerini, milli parkları, koruma alanlarını, yerli topraklarını, tehlike alanlarını ve gölleri gör ve ara (Viktor Govako)
 - *YENİ!* Yönlendirme artık yol kapanış saatlerini destekliyor (Viktor Govako)
 
 - 9 Kasım 2025 itibariyle OpenStreetMap verileri (Viktor Govako)
@@ -31,9 +31,9 @@ taxonomies:
 - Metinden Konuşmaya (TTS) ayarları güncellendi (Andrei Shkrob)
 - Android Auto çökmesi düzeltildi (Andrei Shkrob)
 - Android Auto her zaman araba yönlendirme modunu kullanır (Andrei Shkrob)
-- Hong Kong (zh-HK) ve Makao (zh-MO) bölgeleri için Geleneksel Çince çevirileri kullanın (Alexander Borsuk)
+- Hong Kong (zh-HK) ve Makao (zh-MO) bölgeleri için Geleneksel Çince çevirileri kullan (Alexander Borsuk)
 
-Lütfen OpenGL ES 3 desteğine sahip herhangi bir x86 cihazda (Chromebook'lar dahil) Organic Maps'i çalıştırıp çalıştıramadığınızı bize bildirin.
+Lütfen OpenGL ES 3 desteğine sahip herhangi bir x86 cihazda (Chromebook'lar dahil) Organic Maps'i çalıştırıp çalıştıramadığını bize bildir.
 
 ### Harita ve Stiller
 
@@ -43,7 +43,7 @@ Lütfen OpenGL ES 3 desteğine sahip herhangi bir x86 cihazda (Chromebook'lar da
 - Tuvalet simgesinin rengi griye değiştirildi (David Martinez)
 - Odyolog, podiyatrist, optometrist ve işitme cihazı simgeleri güncellendi (David Martinez)
 - Karanlık modda bisiklet kiralama simgesi düzeltildi (David Martinez)
-- ABD ve Kanada eyalet adlarını Dünya haritasında daha erken görüntüleyin (yakınlaştırma seviyesi 5'ten itibaren) (Viktor Govako)
+- ABD ve Kanada eyalet adlarını Dünya haritasında daha erken görüntüle (yakınlaştırma seviyesi 5'ten itibaren) (Viktor Govako)
 
 ### Çeviriler
 
@@ -56,19 +56,19 @@ Lütfen OpenGL ES 3 desteğine sahip herhangi bir x86 cihazda (Chromebook'lar da
 
 ### Masaüstü
 
-- Masaüstü bağlam menüsünde Dünya haritası özelliklerini — doğa rezervleri ve göller gibi — gösterin (Viktor Govako)
+- Masaüstü bağlam menüsünde Dünya haritası özelliklerini — doğa rezervleri ve göller gibi — göster (Viktor Govako)
 - Haritada indirilmiş bölgelerin vurgulanmasını etkinleştirmek veya devre dışı bırakmak için bir ayar eklendi (Viktor Govako)
 
 
 Önceki sürüm notları: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-En son Organic Maps sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edinin.
+En son Organic Maps sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edin.
 
-Not: Erken özelliklere erişmek ve hataları ve sorunları bulmamıza yardımcı olmak için beta testine katılın:
+Not: Erken özelliklere erişmek ve hataları ve sorunları bulmamıza yardımcı olmak için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase].
 
-Organic Maps'i kullandığınız ve projeyi desteklediğiniz için teşekkür ederiz!
+Organic Maps'i kullandığın ve projeyi desteklediğin için teşekkür ederiz!
 
 Organic Maps Ekibi
 

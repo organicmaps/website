@@ -11,23 +11,23 @@ aliases:
   - /tr/faq/linux/how-to-use-flatpak/
 ---
 
-OM'yi Linux'a flatpak ile kurmak için terminali açın ve 'flatpak install flathub app.organicmaps.desktop' yazın
+OM'yi Linux'a flatpak ile kurmak için terminali aç ve 'flatpak install flathub app.organicmaps.desktop' yaz
 
-Uygulama yüklendikten sonra farenizin kaydırma tekerleğini veya sağ menü çubuğundaki kontrolleri kullanarak gezinmek istediğiniz alanı yakınlaştırıp o bölgeye ait haritaları indirebilirsiniz. Ayrıca sağ alt kısımdaki "indir" simgesine de tıklayabilirsiniz. İlgilendiğiniz bölgelerin haritalarını indirdikten sonra uygulama internet bağlantısı olmasa bile çalışmalıdır. 
+Uygulama yüklendikten sonra farenin kaydırma tekerleğini veya sağ menü çubuğundaki kontrolleri kullanarak gezinmek istediğin alanı yakınlaştırıp o bölgeye ait haritaları indirebilirsin. Ayrıca sağ alt kısımdaki "indir" simgesine de tıklayabilirsin. İlgilendiğin bölgelerin haritalarını indirdikten sonra uygulama internet bağlantısı olmasa bile çalışmalıdır. 
 
-Bazı yardım metinlerini görmek için farenizi çeşitli simgelerin üzerine getirebilirsiniz. 
+Bazı yardım metinlerini görmek için fareni çeşitli simgelerin üzerine getirebilirsin. 
 
-Yönlendirme gerçekleştirmek ve adım adım navigasyon yapmak için birkaç seçeneğiniz vardır. Başlangıç ​​ve bitiş noktalarınızın GPS koordinatlarını biliyorsanız, ayarlar simgesine (yeşil onay işaretinin üstünde) tıklayıp başlangıç ​​noktanızın ve varış noktanızın koordinatlarını girebilirsiniz. Haritada başlangıç ​​noktasını ayarlamak için navigasyon simgesine tıklayın ve "başlangıç ​​noktası"nı seçin, ardından Shift tuşunu basılı tutarak haritaya sol tıklayın. Hedefi belirlemek için "bitiş noktası" olarak değiştirin ve haritada bir konuma tıklayın.
+Yönlendirme gerçekleştirmek ve adım adım navigasyon yapmak için birkaç seçeneğin vardır. Başlangıç ​​ve bitiş noktalarının GPS koordinatlarını biliyorsan, ayarlar simgesine (yeşil onay işaretinin üstünde) tıklayıp başlangıç ​​noktanın ve varış noktanın koordinatlarını girebilirsin. Haritada başlangıç ​​noktasını ayarlamak için navigasyon simgesine tıkla ve "başlangıç ​​noktası"nı seç, ardından Shift tuşunu basılı tutarak haritaya sol tıkla. Hedefi belirlemek için "bitiş noktası" olarak değiştir ve haritada bir konuma tıkla.
 
 ![Başlangıç noktası ve bitiş noktasının ayarlanması](nav_points.png)
 
-Gezinmeyi temizlemek için ayarlar simgesinin hemen üzerindeki mavi simgeyi tıklayabilirsiniz. 
+Gezinmeyi temizlemek için ayarlar simgesinin hemen üzerindeki mavi simgeyi tıklayabilirsin. 
 
 ![navigasyonu temizle](clear_route.png)
 
-Adresleri ve varış noktalarını aramak için büyüteci tıklayın ve adresi veya arama terimini girin.
+Adresleri ve varış noktalarını aramak için büyüteci tıkla ve adresi veya arama terimini gir.
 
-Bir konumu yer imlerine eklemek için Alt tuşunu basılı tutun ve yer imlerine eklemek istediğiniz yeri sağ tıklayın. Yer imi hemen görünmeyebilir; yer imlerini görüntülemek ve yönetmek için kırmızı yıldız simgesini tıklamanız gerekir. 
+Bir konumu yer imlerine eklemek için Alt tuşunu basılı tut ve yer imlerine eklemek istediğin yeri sağ tıkla. Yer imi hemen görünmeyebilir; yer imlerini görüntülemek ve yönetmek için kırmızı yıldız simgesini tıklaman gerekir. 
 
 ![yer imlerini görüntüleme](view_bookmarks.png)
 

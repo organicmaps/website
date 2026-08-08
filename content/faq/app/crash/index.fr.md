@@ -11,20 +11,20 @@ aliases:
   - /fr/faq/app/crash/
 ---
 
-Sur Android, si vous stockez vos cartes sur une carte SD, la cause la plus probable est une carte SD défectueuse. Vous pouvez :
+Sur Android, si tu stockes tes cartes sur une carte SD, la cause la plus probable est une carte SD défectueuse. Tu peux :
 1. Supprimer toutes les cartes téléchargées et les télécharger à nouveau sur la carte SD (cela peut ne pas fonctionner à nouveau).
 2. Supprimer toutes les cartes téléchargées, sélectionner le stockage interne de l'appareil et télécharger à nouveau les cartes.
 3. Formater la carte SD et télécharger à nouveau les cartes.
 4. Acheter une nouvelle carte SD (recommandé)
 
-Si l'application continue de planter, veuillez consulter [notre GitHub](https://github.com/organicmaps/organicmaps/issues/) pour voir si des problèmes similaires ont été signalés, puis [nous contacter](mailto:support@organicmaps.app) en fournissant les informations suivantes :
+Si l'application continue de planter, merci de consulter [notre GitHub](https://github.com/organicmaps/organicmaps/issues/) pour voir si des problèmes similaires ont été signalés, puis [nous contacter](mailto:support@organicmaps.app) en fournissant les informations suivantes :
 
 * Une description détaillée du problème et les étapes permettant de le reproduire
 * La version d'Organic Maps
 * Le modèle de l'appareil et la version du système d'exploitation (Android ou iOS)
 
 Ou alternativement :
-1. Activez l'enregistrement des journaux dans les paramètres de l'application.
-2. Forcez le redémarrage de l'application.
-3. Reproduisez le plantage.
-4. Envoyez-nous le fichier journal via "Signaler un bug" dans l'écran À propos et ajoutez une brève description du plantage.
+1. Active l'enregistrement des journaux dans les paramètres de l'application.
+2. Force le redémarrage de l'application.
+3. Reproduis le plantage.
+4. Envoie-nous le fichier journal via "Signaler un bug" dans l'écran À propos et ajoute une brève description du plantage.

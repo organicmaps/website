@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps ekibinden Mutlu Noeller ve Mutlu Yıllar. Tatil ruhunu mu arıyorsunuz? Haritada görmek için `Noel Pazarı` veya `Noel Ağacı` araması yapın. Bölgenizde hiçbir şey görünmüyorsa, lütfen eksik özellikleri OpenStreetMap.org'a ekleyin ve haritayı herkes için iyileştirin!
+Organic Maps ekibinden Mutlu Noeller ve Mutlu Yıllar. Tatil ruhunu mu arıyorsun? Haritada görmek için `Noel Pazarı` veya `Noel Ağacı` araması yap. Bölgende hiçbir şey görünmüyorsa, lütfen eksik özellikleri OpenStreetMap.org'a ekle ve haritayı herkes için iyileştir!
 
-Organic Maps'i <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yükleyin
+Organic Maps'i <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yükle
 
 ### Sürüm notları
 - Noel ağaçları ve pazarları artık haritada görünüyor (Viktor Govako)
@@ -33,11 +33,11 @@ Organic Maps'i <https://omaps.app/get> adresinden veya [App Store][appstore], [G
 - Konum sorunlarını önlemek için Android Auto'daki araç konum sensörü devre dışı bırakıldı (Andrei Shkrob)
 - Uygulama kapatılsa veya sonlandırılsa bile iz kaydı devam eder (Alexander Borsuk)
 
-Erken özellikleri denemek ve sorunları bildirmek için beta testine katılın:
+Erken özellikleri denemek ve sorunları bildirmek için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps, [bağışlarınız](@/donate/index.tr.md) ve [katkılarınız](@/contribute/index.tr.md) sayesinde varlığını sürdürüyor. Teşekkürler! ❤️
+Organic Maps, [bağışların](@/donate/index.tr.md) ve [katkıların](@/contribute/index.tr.md) sayesinde varlığını sürdürüyor. Teşekkürler! ❤️
 
 Organic Maps Ekibi
 

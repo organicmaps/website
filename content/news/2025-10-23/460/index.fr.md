@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-Dans la version du 23 octobre, nous nous sommes concentrés sur les corrections et les améliorations. Consultez la liste détaillée ci-dessous.
+Dans la version du 23 octobre, nous nous sommes concentrés sur les corrections et les améliorations. Consulte la liste détaillée ci-dessous.
 
 Pour ceux qui l'ont manqué, la [mise à jour précédente du 7 octobre](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) a ajouté l'import GeoJSON, les statistiques d'enregistrement de trace, l'affichage de la limite de vitesse dans Android Auto, l'affichage des balises de description OSM (tapez `?description` dans la zone de recherche pour les voir), la sauvegarde d'un signet sur une trace sur iOS et de nombreuses autres améliorations.
+) a ajouté l'import GeoJSON, les statistiques d'enregistrement de trace, l'affichage de la limite de vitesse dans Android Auto, l'affichage des balises de description OSM (tape `?description` dans la zone de recherche pour les voir), la sauvegarde d'un signet sur une trace sur iOS et de nombreuses autres améliorations.
 
 ## Toutes les plateformes
 
@@ -32,7 +32,7 @@ Pour ceux qui l'ont manqué, la [mise à jour précédente du 7 octobre](https:/
 - Correction de la barre d'état blanc sur blanc en mode navigation (Kiryl Kaveryn)
 - Augmentation de la taille du bouton Démarrer la navigation (Kiryl Kaveryn)
 - Suppression de l'espace vide lors de la planification d'un itinéraire sur iPad (Kiryl Kaveryn)
-- Organic Maps peut vous demander de l'évaluer dans l'App Store. Vos bons avis motivent notre équipe !
+- Organic Maps peut te demander de l'évaluer dans l'App Store. Tes bons avis motivent notre équipe !
 
 ## Android
 
@@ -53,11 +53,11 @@ Pour ceux qui l'ont manqué, la [mise à jour précédente du 7 octobre](https:/
 
 ## Notes de bas de page
 
-Organic Maps est possible grâce ❤️ à nos contributeurs, [vos dons](@/donate/index.fr.md) et [votre soutien](@/contribute/index.fr.md).
+Organic Maps est possible grâce ❤️ à nos contributeurs, [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.fr.md).
 
-Obtenez la dernière version d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
+Obtiens la dernière version d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
 
-P.S. Rejoignez les tests bêta pour les fonctionnalités anticipées :
+P.S. Rejoins les tests bêta pour les fonctionnalités anticipées :
 - [iOS][testflight]
 - [Android][firebase].
 

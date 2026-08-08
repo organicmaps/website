@@ -11,8 +11,8 @@ aliases:
   - /tr/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Uygulamayı çalıştırmak için en az iOS 12 veya Android 5'e ihtiyacınız var. Daha sonraki sürümlere sahip cihazlar Organic Maps'i çalıştırabilir.
+Uygulamayı çalıştırmak için en az iOS 12 veya Android 5'e ihtiyacın var. Daha sonraki sürümlere sahip cihazlar Organic Maps'i çalıştırabilir.
 
 Android'de Organic Maps, Google Hizmetlerinin yüklü olduğu ve Google desteğinin olmadığı cihazlarda çalışabilir.
 
-OM'yi Android Auto ile kullanmak için lütfen [buradan](../how-to-use-android-auto/) gereksinimleri kontrol edin.
+OM'yi Android Auto ile kullanmak için lütfen [buradan](../how-to-use-android-auto/) gereksinimleri kontrol et.

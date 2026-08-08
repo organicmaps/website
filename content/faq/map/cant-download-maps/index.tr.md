@@ -13,8 +13,8 @@ aliases:
   - /tr/faq/map/cant-download-maps/
 ---
 
-İndirme işleminiz geçici bir ağ hatası veya belirli ağ sağlayıcısı/yönlendirici ayarları nedeniyle başarısız olabilir. Lütfen daha sonra tekrar deneyin veya farklı bir WiFi erişim noktası kullanın. Ayrıca, haritaları indirmek için yeterli boş alana sahip olduğunuzdan emin olun.
+İndirme işlemin geçici bir ağ hatası veya belirli ağ sağlayıcısı/yönlendirici ayarları nedeniyle başarısız olabilir. Lütfen daha sonra tekrar dene veya farklı bir WiFi erişim noktası kullan. Ayrıca, haritaları indirmek için yeterli boş alana sahip olduğundan emin ol.
 
-Android'de lütfen Organic Maps ve sistem İndirme Yöneticisi (İndirme Sağlayıcısı) için ağ erişimi verdiğinizden emin olun.
+Android'de lütfen Organic Maps ve sistem İndirme Yöneticisi (İndirme Sağlayıcısı) için ağ erişimi verdiğinden emin ol.
 
-Ayrıca, haritalarınız çok eskiyse ve uygulama bunları güncelleyemiyorsa, eski haritaları silip yeniden indirmek yardımcı olabilir.
+Ayrıca, haritaların çok eskiyse ve uygulama bunları güncelleyemiyorsa, eski haritaları silip yeniden indirmek yardımcı olabilir.

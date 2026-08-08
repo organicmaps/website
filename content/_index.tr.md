@@ -9,9 +9,9 @@ extra:
 
 **Organic Maps** gezginler, turistler, yürüyüşçüler ve bisikletçiler için ücretsiz bir Android ve iOS çevrimdışı harita uygulamasıdır. Topluluk kaynaklı [**OpenStreetMap**][openstreetmap] verilerine dayanmaktadır. Daha önce [**MapsWithMe**][mapswithme] olarak bilinen **Maps.me** uygulamasının gizlilik odaklı, açık kaynaklı bir [çatalı](<https://tr.wikipedia.org/wiki/%C3%87atal_(yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme)>) olan Organic Maps, 2011 yılında **MapsWithMe** uygulamasını geliştiren kişiler tarafından sürdürülmektedir.
 
-> Aralık 2025'te Organic Maps [6 milyon yüklemeye ulaştı](@/news/2025-12-31/500/index.tr.md). Büyümemize [yardım edin](@/donate/index.tr.md)!
+> Aralık 2025'te Organic Maps [6 milyon yüklemeye ulaştı](@/news/2025-12-31/500/index.tr.md). Büyümemize [yardım et](@/donate/index.tr.md)!
 
-### Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] adresinden indirin ve yükleyin {#install}
+### Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] adresinden indir ve yükle {#install}
 
 {{ badges() }}
 
@@ -28,7 +28,7 @@ Organic Maps gezginler, turistler, yürüyüşçüler ve bisikletçiler için m�
 - Metro haritaları
 - Haritada hızlı ve çevrimdışı arama
 - Yer imlerini KML/KMZ formatlarında dışa ve içe aktarma, GPX formatında içe aktarılması, GeoJSON
-- Gözlerinizi korumak için Koyu Mod
+- Gözlerini korumak için Koyu Mod
 - Fazla depolama alanı kaplamayan ülke ve bölgeler
 - Popüler yerler için Wikipedia makaleleri
 - Özgür ve açık kaynak kodlu
@@ -37,7 +37,7 @@ Organic Maps gezginler, turistler, yürüyüşçüler ve bisikletçiler için m�
 
 Organic Maps saf ve organiktir, sevgiyle yapılmıştır:
 
-- Gizliliğinize saygı duyar
+- Gizliliğine saygı duyar
 - Pil gücünden tasarruf sağlar
 - Beklenmeyen mobil veri ücreti olmaz
 
@@ -62,23 +62,23 @@ iOS uygulaması [iOS için TrackerControl][trackercontrol] tarafından doğrulan
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps sizi gözetlemek için aşırı izinler istemez:
+Organic Maps seni gözetlemek için aşırı izinler istemez:
 
 {{ privacy_screenshots() }}
 
 Organic Maps'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
 - Organic Maps, bağımsız bir topluluk tarafından yönlendirilen açık kaynaklı bir projedir
-- Gizliliğinizi Big Tech'in meraklı gözlerinden koruyoruz
-- Nerede olursanız olun güvende kalın
+- Gizliliğini Big Tech'in meraklı gözlerinden koruyoruz
+- Nerede olursan ol güvende kal
 
-Gözetlenmeyi reddedin - özgürlüğünüzü kucaklayın.
+Gözetlenmeyi reddet - özgürlüğünü kucakla.
 
-**[Organic Maps'i deneyin!](#install)**
+**[Organic Maps'i dene!](#install)**
 
 ## Uygulamanın ücretsiz kalması için kim ödeme yapıyor?
 
-Bu uygulama herkes için ücretsizdir. Lütfen bizi desteklemek için [bağış yapın](@/donate/index.tr.md)!
+Bu uygulama herkes için ücretsizdir. Lütfen bizi desteklemek için [bağış yap](@/donate/index.tr.md)!
 
 ### Bağış yapmanın farklı yolları vardır:
 
@@ -139,7 +139,7 @@ Bizi desteklemenin birçok yolu var, tüm yollar [burada](@/contribute/index.tr.
 
 ## Beta
 
-Lütfen beta programımıza katılın, yeni özellikler önerin ve hataları bildirin:
+Lütfen beta programımıza katıl, yeni özellikler öner ve hataları bildir:
 
 - [iOS Beta (TestFlight)][testflight]
 - [Android Beta (Firebase)][firebase]
@@ -150,12 +150,12 @@ Lütfen beta programımıza katılın, yeni özellikler önerin ve hataları bil
 
 Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı yazılımdır][github].
 
-- [Sorun izleyicisine][issues] sorunları ve hataları bildirin.
-- Fikirleri [tartışın][ideas] ya da özellik istekleri önerin
-- Güncellemeler için [Telegram Kanalımıza][telegram] abone olun
-- Diğer kullanıcılarla tartışmak için [Türkçe Telegram Grubumuza][telegram_chat_tr], [İngilizce gruba][telegram_chat] veya [matrix odamıza][matrix] katılın
-- [GitHub sayfamızı][github] ziyaret edin
-- [E-posta][email] ile bizimle iletişime geçin
-- Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram](https://instagram.com/organicmapstr/), [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] ve [TikTok][tiktok] üzerinden takip edin.
+- [Sorun izleyicisine][issues] sorunları ve hataları bildir.
+- Fikirleri [tartış][ideas] ya da özellik istekleri öner
+- Güncellemeler için [Telegram Kanalımıza][telegram] abone ol
+- Diğer kullanıcılarla tartışmak için [Türkçe Telegram Grubumuza][telegram_chat_tr], [İngilizce gruba][telegram_chat] veya [matrix odamıza][matrix] katıl
+- [GitHub sayfamızı][github] ziyaret et
+- [E-posta][email] ile bizimle iletişime geç
+- Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram](https://instagram.com/organicmapstr/), [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] ve [TikTok][tiktok] üzerinden takip et.
 
 {{ references() }}

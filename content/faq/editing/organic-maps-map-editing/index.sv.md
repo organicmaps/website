@@ -29,8 +29,8 @@ Eftersom [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStre
 		- hamburgerikon -> *Lägg till en plats på OpenStreetMap*
 		- Välj platsen så noggrant du kan och tryck på bockpilen
 		- Välj en kategori
-			> Hittar du inte en kategori som passar? Skapa sedan en [OSM Note](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Hittar du inte en kategori som passar? Skapa sedan en [OSM Note](@/faq/editing/advanced-map-editing/index.sv.md#osm-note).
 		- Lägg till ytterligare information som namn, öppettider och webbplats
 		- Spara dina ändringar och avsluta med bockpilen
 
-Observera att editorn är utformad som en enkel POI-redigerare och därför begränsad till POIs. Du kan t.ex. inte lägga till vägar, sjöar, byggnadskonturer etc. Det är dessutom inte möjligt att flytta platser till en ny plats. Om du inte kan redigera något med Organic Maps, ta en titt på sidan [Mer avancerad kartredigering](@/faq/editing/advanced-map-editing/index.md).
+Observera att editorn är utformad som en enkel POI-redigerare och därför begränsad till POIs. Du kan t.ex. inte lägga till vägar, sjöar, byggnadskonturer etc. Det är dessutom inte möjligt att flytta platser till en ny plats. Om du inte kan redigera något med Organic Maps, ta en titt på sidan [Mer avancerad kartredigering](@/faq/editing/advanced-map-editing/index.sv.md).

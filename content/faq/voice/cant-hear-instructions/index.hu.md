@@ -20,7 +20,7 @@ Ha nem hallja a hangutasításokat:
 
 * Kérjük, jelentse a Bluetooth-problémákat a szükséges részletekkel a [GitHubon] (https://github.com/organicmaps/organicmaps/issues)
 
-* Ha Ön Android-felhasználó, és az opció le van tiltva (vagy a támogatott nyelvek egy része nem érhető el), ellenőrizze a [TTS-beállításokat] (@/faq/voice/text-to-speech-android-tts/index.md).
+* Ha Ön Android-felhasználó, és az opció le van tiltva (vagy a támogatott nyelvek egy része nem érhető el), ellenőrizze a [TTS-beállításokat] (@/faq/voice/text-to-speech-android-tts/index.hu.md).
 
 Az Androidon a hangutasítások 39 nyelven érhetők el: angol, arab, baszk, fehérorosz, katalán, kínai (egyszerűsített és hagyományos), horvát, cseh, dán, holland, finn, francia, német, görög, hindi, magyar, indonéz, olasz, japán, koreai, marathi, norvég, perzsa (fárszi, szlovák), román, portugál (orosz), lengyel, portugál (B) Spanyol, spanyol (Mexikó), szuahéli, svéd, thai, török, ukrán, vietnami.
 

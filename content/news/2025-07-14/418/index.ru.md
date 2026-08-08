@@ -7,7 +7,7 @@ taxonomies:
 
 Встречайте июльское обновление Organic Maps с множеством исправлений и улучшений, благодаря нашим контрибуторам ❤️💪! Обновление уже доступно в [AppStore][appstore], [Obtainium][obtainium] и [Accrescent][accrescent], и будет в [Google Play][googleplay], [Huawei AppGallery][appgallery] и [FDroid][fdroid] через несколько дней.
 
-[Ваши пожертвования](@/donate/index.md) и [поддержка](@/contribute/index.md), [отчёты об ошибках][github issues] и [улучшения][github] помогают создавать лучшие карты вместе!
+[Ваши пожертвования](@/donate/index.ru.md) и [поддержка](@/contribute/index.ru.md), [отчёты об ошибках][github issues] и [улучшения][github] помогают создавать лучшие карты вместе!
 
 Не забывайте, что вы можете зарегистрироваться в программе бета-тестирования для раннего доступа к экспериментальным функциям [для iOS][testflight] и [для Android][firebase].
 

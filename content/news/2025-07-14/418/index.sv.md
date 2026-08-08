@@ -7,7 +7,7 @@ taxonomies:
 
 Möt Organic Maps juli-uppdatering med många korrigeringar och förbättringar, tack vare våra bidragsgivare ❤️💪! Uppdateringen är redan tillgänglig i [AppStore][appstore], [Obtainium][obtainium] och [Accrescent][accrescent], och kommer att vara redo i [Google Play][googleplay], [Huawei AppGallery][appgallery], och [FDroid][fdroid] om några dagar.
 
-[Era donationer](@/donate/index.md) och [stöd](@/contribute/index.md), [felrapporter][github issues] och [förbättringar][github] hjälper oss att göra bättre kartor tillsammans!
+[Era donationer](@/donate/index.sv.md) och [stöd](@/contribute/index.sv.md), [felrapporter][github issues] och [förbättringar][github] hjälper oss att göra bättre kartor tillsammans!
 
 Glöm inte att ni kan registrera er för beta-testprogrammet för att få tidigare tillgång till experimentella och kommande funktioner [för iOS][testflight] och [för Android][firebase].
 

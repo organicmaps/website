@@ -15,7 +15,7 @@ Neuere Funktionen, die du vielleicht verpasst hast:
 - Lesezeichennamen auf der Karte anzeigen (in den Einstellungen aktivieren)
 - Das ✎ Stiftsymbol ermöglicht schnelles Bearbeiten von Lesezeichen
 
-Organic Maps ist dank unserer Mitwirkenden, [deiner Spenden](@/donate/index.de.md) und [deiner Unterstützung](@/contribute/index.md) möglich.
+Organic Maps ist dank unserer Mitwirkenden, [deiner Spenden](@/donate/index.de.md) und [deiner Unterstützung](@/contribute/index.de.md) möglich.
 
 ### Detaillierte Versionshinweise
 

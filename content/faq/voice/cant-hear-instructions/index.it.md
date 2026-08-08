@@ -19,7 +19,7 @@ Se non riesci a sentire le istruzioni vocali:
 
 * Segnala eventuali problemi Bluetooth con i dettagli necessari sul nostro [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Se sei un utente Android e l'opzione è disabilitata (o alcune delle lingue supportate non sono disponibili), controlla le [Impostazioni TTS](@/faq/voice/text-to-speech-android-tts/index.md).
+* Se sei un utente Android e l'opzione è disabilitata (o alcune delle lingue supportate non sono disponibili), controlla le [Impostazioni TTS](@/faq/voice/text-to-speech-android-tts/index.it.md).
 
 Su Android le istruzioni vocali sono disponibili in 39 lingue: inglese, arabo, basco, bielorusso, catalano, cinese (semplificato e tradizionale), croato, ceco, danese, olandese, finlandese, francese, tedesco, greco, hindi, ungherese, indonesiano, italiano, giapponese, coreano, marathi, norvegese, persiano (farsi), polacco, portoghese, portoghese (Brasile), rumeno, russo, serbo, slovacco, spagnolo, spagnolo (Messico), swahili, svedese, tailandese, turco, ucraino, vietnamita.
 

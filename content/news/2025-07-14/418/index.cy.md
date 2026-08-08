@@ -7,7 +7,7 @@ taxonomies:
 
 Cyfarwyddwch â diweddariad Gorffennaf Organic Maps gyda llawer o drwsiadau a gwelliannau, diolch i'n cyfranwyr ❤️💪! Mae'r diweddariad eisoes ar gael yn yr [AppStore][appstore], [Obtainium][obtainium] ac [Accrescent][accrescent], a bydd yn barod yn [Google Play][googleplay], [Huawei AppGallery][appgallery], ac [FDroid][fdroid] mewn ychydig ddiwrnodau.
 
-Mae [eich rhoddion](@/donate/index.md) a'ch [cefnogaeth](@/contribute/index.md), [adroddiadau nam][github issues] a [gwelliannau][github] yn ein helpu i wneud mapiau gwell gyda'n gilydd!
+Mae [eich rhoddion](@/donate/index.cy.md) a'ch [cefnogaeth](@/contribute/index.cy.md), [adroddiadau nam][github issues] a [gwelliannau][github] yn ein helpu i wneud mapiau gwell gyda'n gilydd!
 
 Peidiwch ag anghofio y gallwch chi gofrestru ar gyfer y rhaglen profi beta i gael mynediad cynharach i nodweddion arbrofol a'r rhai sydd i ddod [ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
 

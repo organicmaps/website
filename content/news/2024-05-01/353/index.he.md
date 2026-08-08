@@ -6,8 +6,8 @@ slug: "summit-serenity-with-organic-maps-song"
 description: "Public transit, just the road ahead, Organic Maps, my guide, my thread. Contours and elevations, guide my pace, With each step, I find my grace."
 ---
 
-שיר נוסף על Organic Maps, הפעם בקצב רגוע יותר. תוכלו ליהנות משלושת השירים כאן: [@OrganicMaps\_song](https://t.me/OrganicMaps%5Fsong) או לבדוק אותם בפוסטים הקודמים שלנו: - [Travel with Organic Maps](@/news/2024-04-26/344/index.md)
-- [ההמנון לפרטיות וחופש](@/news/2024-04-27/347/index.md)
+שיר נוסף על Organic Maps, הפעם בקצב רגוע יותר. תוכלו ליהנות משלושת השירים כאן: [@OrganicMaps\_song](https://t.me/OrganicMaps%5Fsong) או לבדוק אותם בפוסטים הקודמים שלנו: - [Travel with Organic Maps](@/news/2024-04-26/344/index.he.md)
+- [ההמנון לפרטיות וחופש](@/news/2024-04-27/347/index.he.md)
 
 ### שלווה בפסגה עם Organic Maps {{ audio(title="שלווה בפסגה עם Organic Maps", url="/news/2024-05-01/summit-serenity-with-organic-maps-song/Summit Serenity with Organic Maps.mp3") }} <pre> (בית)
 עם Organic Maps, אני מתחיל לטפס, מונחה על ידי אהבה, כל פסגה בזמן. בלי פרסומות, בלי מעקב, רק קריאת הטבע, במסע הזה, אני עומד זקוף. (פזמון) מטפס לגבהים, תחת שמיים כחולים, מדווש בעמקים, בשבילים חדשים. עם Organic Maps, המסע שלי אמיתי.

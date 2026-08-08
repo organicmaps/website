@@ -30,8 +30,8 @@ Gan mai [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStree
 		- eicon byrgyr -> *Ychwanegu lle i'r OpenStreetMap*
 		- Dewiswch y lleoliad mor gywir ag y gallwch a gwasgwch y saeth wirio
 		- Dewiswch gategori
-			> Methu dod o hyd i gategori sy'n cyd-fynd? Yna creu [Nodyn OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Methu dod o hyd i gategori sy'n cyd-fynd? Yna creu [Nodyn OSM](@/faq/editing/advanced-map-editing/index.cy.md#osm-note).
 		- Ychwanegu gwybodaeth ychwanegol fel yr enw, oriau agor, a gwefan
 		- Arbedwch eich newidiadau ac ymadael gan ddefnyddio'r saeth wirio
 
-Sylwch fod y golygydd wedi'i gynllunio fel golygydd POI syml ac, felly, wedi'i gyfyngu i POIs. Gallwch, e.e., beidio ag ychwanegu ffyrdd, llynnoedd, amlinelliadau adeiladau, ac ati. Hefyd, nid yw symud lleoedd i leoliad newydd yn bosibl. Os na allwch olygu rhywbeth gyda Mapiau Organig, edrychwch ar y dudalen [Golygu mapiau mwy datblygedig](@/faq/editing/advanced-map-editing/index.md).
+Sylwch fod y golygydd wedi'i gynllunio fel golygydd POI syml ac, felly, wedi'i gyfyngu i POIs. Gallwch, e.e., beidio ag ychwanegu ffyrdd, llynnoedd, amlinelliadau adeiladau, ac ati. Hefyd, nid yw symud lleoedd i leoliad newydd yn bosibl. Os na allwch olygu rhywbeth gyda Mapiau Organig, edrychwch ar y dudalen [Golygu mapiau mwy datblygedig](@/faq/editing/advanced-map-editing/index.cy.md).

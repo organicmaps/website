@@ -7,7 +7,7 @@ taxonomies:
 
 现在，当您选择公交或电车站时，可以看到公共交通线路号码。这只是第一步！接下来，我们计划直接在地图上显示公共交通路线。iOS 用户还可以享受重新设计的 OpenStreetMap 贡献按钮（"添加地点"和"编辑地点"）。
 
-我们感谢 ❤️ 我们的贡献者，以及[您的捐赠](@/donate/index.md)和[您的支持](@/contribute/index.md)。
+我们感谢 ❤️ 我们的贡献者，以及[您的捐赠](@/donate/index.zh-Hans.md)和[您的支持](@/contribute/index.zh-Hans.md)。
 
 ### 详细版本说明
 

@@ -7,7 +7,7 @@ taxonomies:
 
 Susipažinkite su Organic Maps liepos atnaujinimu su daugybe pataisymų ir patobulinimų, ačiū mūsų talkininkams ❤️💪! Atnaujinimas jau prieinamas [AppStore][appstore], [Obtainium][obtainium] ir [Accrescent][accrescent], ir bus paruoštas [Google Play][googleplay], [Huawei AppGallery][appgallery] ir [FDroid][fdroid] per kelias dienas.
 
-[Jūsų parama](@/donate/index.md) ir [pagalba](@/contribute/index.md), [klaidų pranešimai][github issues] ir [patobulinimai][github] padeda mums kartu kurti geresnius žemėlapius!
+[Jūsų parama](@/donate/index.lt.md) ir [pagalba](@/contribute/index.lt.md), [klaidų pranešimai][github issues] ir [patobulinimai][github] padeda mums kartu kurti geresnius žemėlapius!
 
 Nepamirškite, kad galite užsiregistruoti beta testavimo programoje, kad gautumėte ankstesnį prieigą prie eksperimentinių ir būsimų funkcijų [iOS][testflight] ir [Android][firebase].
 

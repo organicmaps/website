@@ -67,6 +67,6 @@ Oorweeg asseblief om jaarliks te skenk om totale fooie te verminder.
 
 ## Kan jy op enige ander manier help?
 
-Ja! Daar is baie maniere om Organic Maps te ondersteun. Sien asseblief die [Dra by](@/contribute/index.md) bladsy vir meer besonderhede.
+Ja! Daar is baie maniere om Organic Maps te ondersteun. Sien asseblief die [Dra by](@/contribute/index.af.md) bladsy vir meer besonderhede.
 
 {{ references() }}

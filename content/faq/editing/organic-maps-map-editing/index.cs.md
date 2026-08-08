@@ -29,8 +29,8 @@ Protože [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStre
 		- ikona burgeru -> *Přidat místo do OpenStreetMap*
 		- Vyberte umístění co nejpřesněji a stiskněte šipku zaškrtnutí
 		- Vyberte kategorii
-			> Nemůžete najít kategorii, která by vyhovovala? Poté vytvořte [OSM Note](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Nemůžete najít kategorii, která by vyhovovala? Poté vytvořte [OSM Note](@/faq/editing/advanced-map-editing/index.cs.md#osm-note).
 		- Přidejte další informace, jako je název, otevírací doba a webové stránky
 		- Uložte změny a ukončete pomocí šipky zaškrtnutí
 
-Pamatujte, že editor je navržen jako jednoduchý editor POI, a proto je omezen na POI. Můžete např. nepřidávat silnice, jezera, obrysy budov atd. Navíc není možné přesunout místa na nové místo. Pokud nemůžete něco upravit pomocí organických map, podívejte se na stránku [Pokročilejší úpravy map](@/faq/editing/advanced-map-editing/index.md).
+Pamatujte, že editor je navržen jako jednoduchý editor POI, a proto je omezen na POI. Můžete např. nepřidávat silnice, jezera, obrysy budov atd. Navíc není možné přesunout místa na nové místo. Pokud nemůžete něco upravit pomocí organických map, podívejte se na stránku [Pokročilejší úpravy map](@/faq/editing/advanced-map-editing/index.cs.md).

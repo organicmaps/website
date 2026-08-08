@@ -7,7 +7,7 @@ taxonomies:
 
 आमच्या योगदानकर्त्यांचे धन्यवाद ❤️💪, अनेक दुरुस्त्या आणि सुधारणांसह Organic Maps जुलाई अपडेटला भेट! अपडेट आधीच [AppStore][appstore], [Obtainium][obtainium] आणि [Accrescent][accrescent] मध्ये उपलब्ध आहे, आणि काही दिवसांत [Google Play][googleplay], [Huawei AppGallery][appgallery], आणि [FDroid][fdroid] मध्ये तयार होईल।
 
-[तुझी देणगी](@/donate/index.md) आणि [समर्थन](@/contribute/index.md), [बग रिपोर्ट][github issues] आणि [सुधारणा][github] आम्हाला एकत्र चांगले नकाशे बनवण्यात मदत करतात!
+[तुझी देणगी](@/donate/index.mr.md) आणि [समर्थन](@/contribute/index.mr.md), [बग रिपोर्ट][github issues] आणि [सुधारणा][github] आम्हाला एकत्र चांगले नकाशे बनवण्यात मदत करतात!
 
 विसरू नकोस की तू प्रायोगिक आणि आगामी वैशिष्ट्यांसाठी लवकर प्रवेश मिळवण्यासाठी बीटा चाचणी कार्यक्रमासाठी साइन अप करू शकतोस [iOS साठी][testflight] आणि [Android साठी][firebase]।
 

@@ -67,6 +67,6 @@ Lūdzu, apsveriet iespēju ziedot reizi gadā, lai samazinātu kopējās komisij
 
 ## Vai varat palīdzēt citādi?
 
-Jā! Ir daudz veidu, kā atbalstīt Organic Maps. Lūdzu, skatiet lapu [Palīdzēt](@/contribute/index.md) lai uzzinātu vairāk.
+Jā! Ir daudz veidu, kā atbalstīt Organic Maps. Lūdzu, skatiet lapu [Palīdzēt](@/contribute/index.lt.md) lai uzzinātu vairāk.
 
 {{ references() }}

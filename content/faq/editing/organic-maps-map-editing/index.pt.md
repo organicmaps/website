@@ -28,8 +28,8 @@ Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- ícone de hambúrguer -> *Adicionar um lugar ao OpenStreetMap*
 		- Selecione o local com a maior precisão possível e pressione a seta de verificação
 		- Selecione uma categoria
-			> Não consegue encontrar uma categoria adequada? Em seguida, crie uma [Nota OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Não consegue encontrar uma categoria adequada? Em seguida, crie uma [Nota OSM](@/faq/editing/advanced-map-editing/index.pt.md#osm-note).
 		- Adicione informações adicionais como nome, horário de funcionamento e site
 		- Salve suas alterações e saia usando a seta de verificação
 
-Note que o editor foi concebido como um simples editor de POI e, portanto, limitado a POIs. Você não pode, por exemplo, adicionar estradas, lagos, contornos de edifícios, etc. Além disso, não é possível mover locais para um novo local. Se você não consegue editar algo com mapas orgânicos, dê uma olhada na página [Edição mais avançada de mapas](@/faq/editing/advanced-map-editing/index.md).
+Note que o editor foi concebido como um simples editor de POI e, portanto, limitado a POIs. Você não pode, por exemplo, adicionar estradas, lagos, contornos de edifícios, etc. Além disso, não é possível mover locais para um novo local. Se você não consegue editar algo com mapas orgânicos, dê uma olhada na página [Edição mais avançada de mapas](@/faq/editing/advanced-map-editing/index.pt.md).

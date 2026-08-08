@@ -7,7 +7,7 @@ taxonomies:
 
 Nu kun je, wanneer je een bus- of tramhalte selecteert, de lijnnummers van het openbaar vervoer zien. Dit is slechts de eerste stap! Vervolgens zijn we van plan openbaar vervoer routes direct op de kaart te tonen. iOS-gebruikers kunnen ook genieten van de opnieuw ontworpen OpenStreetMap bijdrage-knoppen ("Plaats toevoegen" en "Plaats bewerken").
 
-We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/donate/index.md) en [jullie steun](@/contribute/index.md).
+We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/donate/index.nl.md) en [jullie steun](@/contribute/index.nl.md).
 
 ### Gedetailleerde versienotities
 

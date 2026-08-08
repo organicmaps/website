@@ -20,7 +20,7 @@ Ahots-argibideak entzuten ez badituzu:
 
 * Mesedez, jakinarazi Bluetooth-a arazoren bat beharrezko xehetasunekin gure [GitHub]-en (https://github.com/organicmaps/organicmaps/issues)
 
-* Android erabiltzailea bazara eta aukera desgaituta badago (edo onartzen diren hizkuntza batzuk ez daude erabilgarri), egiaztatu [TTS ezarpenak](@/faq/voice/text-to-speech-android-tts/index.md).
+* Android erabiltzailea bazara eta aukera desgaituta badago (edo onartzen diren hizkuntza batzuk ez daude erabilgarri), egiaztatu [TTS ezarpenak](@/faq/voice/text-to-speech-android-tts/index.eu.md).
 
 Android-en ahots-argibideak 39 hizkuntzatan daude eskuragarri: ingelesa, arabiera, euskara, bielorrusiera, katalana, txinera (sinplifikatua eta tradizionala), kroaziera, txekiera, daniera, nederlandera, finlandiera, frantsesa, alemana, greziar, hindia, hungariera, indonesiera, italiera, japoniera, koreera, marathi, norvegiera, persiera (farsi), poloniera, portugesa, portugesa (Brasil), errumaniera, errumaniera, gaztelania, suediera, suediera, eslovakiera, ukrainera, errumaniera, suediera, suediera, eslovakiera, ukrainera. Vietnamera.
 

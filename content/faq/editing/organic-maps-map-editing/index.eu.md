@@ -30,8 +30,8 @@ Organic Maps-ekin, erraz gehi ditzakezu mapan falta diren tokiak, xehetasun gehi
 		- hanburgesa ikonoa -> *Gehitu leku bat OpenStreetMap-era*
 		- Hautatu kokapena ahalik eta zehatzen eta sakatu egiaztapen-gezia
 		- Aukeratu kategoria bat
-			> Ezin duzu aurkitu egokitzen den kategoriarik? Ondoren, sortu [OSM Oharra](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Ezin duzu aurkitu egokitzen den kategoriarik? Ondoren, sortu [OSM Oharra](@/faq/editing/advanced-map-editing/index.eu.md#osm-note).
 		- Gehitu informazio gehigarria, hala nola izena, ordutegia eta webgunea
 		- Gorde aldaketak eta irten egiaztapen-gezia erabiliz
 
-Kontuan izan editorea POI editore soil gisa diseinatuta dagoela eta, beraz, POIetara mugatuta dagoela. Ezin duzu, adibidez, errepideak, aintzirak, eraikinen eskema eta abar gehitu. Gainera, leku berri batera lekuz aldatzea ezinezkoa da. Mapa organikoekin zerbait editatu ezin baduzu, begiratu [Mapen edizio aurreratuagoa](@/faq/editing/advanced-map-editing/index.md) orrialdera.
+Kontuan izan editorea POI editore soil gisa diseinatuta dagoela eta, beraz, POIetara mugatuta dagoela. Ezin duzu, adibidez, errepideak, aintzirak, eraikinen eskema eta abar gehitu. Gainera, leku berri batera lekuz aldatzea ezinezkoa da. Mapa organikoekin zerbait editatu ezin baduzu, begiratu [Mapen edizio aurreratuagoa](@/faq/editing/advanced-map-editing/index.eu.md) orrialdera.

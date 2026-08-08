@@ -7,7 +7,7 @@ taxonomies:
 
 Sekarang, ketika Anda memilih halte bus atau tram, Anda dapat melihat nomor rute transportasi umum. Ini hanya langkah pertama! Selanjutnya, kami berencana menampilkan rute transportasi umum langsung di peta. Pengguna iOS juga dapat menikmati tombol kontribusi OpenStreetMap yang didesain ulang ("Tambah Tempat" dan "Edit Tempat").
 
-Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi Anda](@/donate/index.md) dan [dukungan Anda](@/contribute/index.md).
+Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi Anda](@/donate/index.id.md) dan [dukungan Anda](@/contribute/index.id.md).
 
 ### Catatan Rilis Terperinci
 

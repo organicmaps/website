@@ -29,8 +29,8 @@ Mivel az Organic Maps térképadatainak elsődleges forrása az [OpenStreetMap(O
 		- burger ikon -> *Hely hozzáadása az OpenStreetMaphez*
 		- Válassza ki a helyet a lehető legpontosabban, és nyomja meg az ellenőrző nyilat
 		- Válasszon ki egy kategóriát
-			> Nem találsz megfelelő kategóriát? Ezután hozzon létre egy [OSM-jegyzetet](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Nem találsz megfelelő kategóriát? Ezután hozzon létre egy [OSM-jegyzetet](@/faq/editing/advanced-map-editing/index.hu.md#osm-note).
 		- Adjon hozzá további információkat, például a nevet, a nyitvatartási időt és a webhelyet
 		- Mentse el a változtatásokat, és lépjen ki az ellenőrző nyíl segítségével
 
-Vegye figyelembe, hogy a szerkesztőt egyszerű POI-szerkesztőnek tervezték, és ezért POI-kra korlátozódik. Például nem adhat hozzá utakat, tavakat, épületkörvonalakat stb. Ezen túlmenően a helyek új helyre költöztetése nem lehetséges. Ha valamit nem tud szerkeszteni az Organikus térképekkel, nézze meg a [További térképszerkesztés](@/faq/editing/advanced-map-editing/index.md) oldalt.
+Vegye figyelembe, hogy a szerkesztőt egyszerű POI-szerkesztőnek tervezték, és ezért POI-kra korlátozódik. Például nem adhat hozzá utakat, tavakat, épületkörvonalakat stb. Ezen túlmenően a helyek új helyre költöztetése nem lehetséges. Ha valamit nem tud szerkeszteni az Organikus térképekkel, nézze meg a [További térképszerkesztés](@/faq/editing/advanced-map-editing/index.hu.md) oldalt.

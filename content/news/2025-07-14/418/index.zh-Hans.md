@@ -7,7 +7,7 @@ taxonomies:
 
 感谢我们的贡献者❤️💪，来认识包含许多修复和改进的Organic Maps 7月更新！更新已在[AppStore][appstore]、[Obtainium][obtainium]和[Accrescent][accrescent]中提供，并将在几天内在[Google Play][googleplay]、[Huawei AppGallery][appgallery]和[FDroid][fdroid]中准备就绪。
 
-[您的捐赠](@/donate/index.md)和[支持](@/contribute/index.md)、[错误报告][github issues]和[改进][github]帮助我们一起制作更好的地图！
+[您的捐赠](@/donate/index.zh-Hans.md)和[支持](@/contribute/index.zh-Hans.md)、[错误报告][github issues]和[改进][github]帮助我们一起制作更好的地图！
 
 不要忘记您可以注册测试版测试程序以提前访问实验性和即将推出的功能[适用于iOS][testflight]和[适用于Android][firebase]。
 

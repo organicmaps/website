@@ -13,7 +13,7 @@ o bobl frwdfrydig gyda chefnogaeth y gymuned.
 
 Mae yna nifer o ffyrdd gwahanol o gefnogi'r datblygiad:
 
-- [Cyfrannwch](@/donate/index.md)! Mae pob doler neu ewro yn cyfri ac yn ein
+- [Cyfrannwch](@/donate/index.cy.md)! Mae pob doler neu ewro yn cyfri ac yn ein
   helpu i dalu am weinyddion a graddio.
 - Adroddwch broblemau a rhannwch syniadau ar ein [GitHub][github] neu trwy
   [e-bost][email].

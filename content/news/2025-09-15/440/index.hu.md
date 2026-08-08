@@ -15,7 +15,7 @@ Friss funkciók, amelyeket esetleg kihagytál:
 - Könyvjelzők neveinek megjelenítése a térképen (kapcsold be a Beállításokban)
 - A ✎ ceruza ikonnal gyorsan szerkesztheted a könyvjelzőket
 
-Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) és [támogatásodnak](@/contribute/index.md) köszönhető.
+Az Organic Maps a közreműködőknek, [adományaidnak](@/donate/index.hu.md) és [támogatásodnak](@/contribute/index.hu.md) köszönhető.
 
 ### Részletes kiadási megjegyzések
 

@@ -30,8 +30,8 @@ Omdat [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetM
 		- hamburgerpictogram -> *Voeg een plaats toe aan de OpenStreetMap*
 		- Selecteer de locatie zo nauwkeurig mogelijk en druk op de controlepijl
 		- Selecteer een categorie
-			> Kunt u geen geschikte categorie vinden? Maak vervolgens een [OSM Note](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Kunt u geen geschikte categorie vinden? Maak vervolgens een [OSM Note](@/faq/editing/advanced-map-editing/index.nl.md#osm-note).
 		- Voeg aanvullende informatie toe, zoals de naam, openingstijden en website
 		- Sla uw wijzigingen op en sluit af met de vinkpijl
 
-Houd er rekening mee dat de editor is ontworpen als een eenvoudige POI-editor en daarom beperkt is tot POI's. Je kunt bijvoorbeeld geen wegen, meren, bebouwingscontouren etc. toevoegen. Bovendien is het verplaatsen van plaatsen naar een nieuwe locatie niet mogelijk. Als u iets niet kunt bewerken met Organische kaarten, kijk dan eens naar de pagina [Meer geavanceerde kaartbewerking](@/faq/editing/advanced-map-editing/index.md).
+Houd er rekening mee dat de editor is ontworpen als een eenvoudige POI-editor en daarom beperkt is tot POI's. Je kunt bijvoorbeeld geen wegen, meren, bebouwingscontouren etc. toevoegen. Bovendien is het verplaatsen van plaatsen naar een nieuwe locatie niet mogelijk. Als u iets niet kunt bewerken met Organische kaarten, kijk dan eens naar de pagina [Meer geavanceerde kaartbewerking](@/faq/editing/advanced-map-editing/index.nl.md).

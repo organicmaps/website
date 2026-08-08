@@ -15,7 +15,7 @@ Nodweddion diweddar efallai i ti eu colli:
 - Dangos enwau marciau ar y map (galluogi yn y Gosodiadau)
 - Mae’r eicon ✎ yn galluogi golygu marciau’n gyflym
 
-Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [dy roddion](@/donate/index.cy.md) a [dy gefnogaeth](@/contribute/index.md).
+Mae Organic Maps yn bosibl diolch i’n cyfranwyr, [dy roddion](@/donate/index.cy.md) a [dy gefnogaeth](@/contribute/index.cy.md).
 
 ### Nodiadau Rhyddhau Manwl
 

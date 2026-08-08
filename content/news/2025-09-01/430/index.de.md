@@ -7,7 +7,7 @@ taxonomies:
 
 Jetzt kannst du beim Auswählen einer Bus- oder Straßenbahnhaltestelle die Liniennummern des öffentlichen Verkehrs sehen. Das ist nur der erste Schritt! Als nächstes planen wir, öffentliche Verkehrsrouten direkt auf der Karte anzuzeigen. iOS-Nutzer können sich auch über neu gestaltete OpenStreetMap-Beitragstaste („Ort hinzufügen" und „Ort bearbeiten") freuen.
 
-Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/donate/index.md) und [deine Unterstützung](@/contribute/index.md).
+Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/donate/index.de.md) und [deine Unterstützung](@/contribute/index.de.md).
 
 ### Detaillierte Versionshinweise
 

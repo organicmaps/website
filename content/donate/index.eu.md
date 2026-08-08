@@ -67,6 +67,6 @@ Mesedez, kontuan hartu urtero ematea, guztizko tasak murrizteko.
 
 ## Beste modu batean lagundu dezakezu?
 
-Bai! Organic Maps laguntzeko hainbat modu daude. Ikusi [Lagundu](@/contribute/index.md) orria xehetasun gehiagorako.
+Bai! Organic Maps laguntzeko hainbat modu daude. Ikusi [Lagundu](@/contribute/index.eu.md) orria xehetasun gehiagorako.
 
 {{ references() }}

@@ -15,7 +15,7 @@ Recente functies die je misschien gemist hebt:
 - Namen van bladwijzers op de kaart tonen (inschakelen in Instellingen)
 - Het ✎-pictogram maakt snel bewerken van bladwijzers mogelijk
 
-Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index.nl.md) en [jouw steun](@/contribute/index.md).
+Organic Maps is mogelijk dankzij onze bijdragers, [jouw donaties](@/donate/index.nl.md) en [jouw steun](@/contribute/index.nl.md).
 
 ### Gedetailleerde release-opmerkingen
 

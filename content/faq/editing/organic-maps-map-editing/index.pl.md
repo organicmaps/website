@@ -28,8 +28,8 @@ Ponieważ [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStr
 		- ikona burgera -> *Dodaj miejsce do OpenStreetMap*
 		- Wybierz lokalizację najdokładniej jak potrafisz i naciśnij strzałkę zaznaczenia
 		- Wybierz kategorię
-			> Nie możesz znaleźć odpowiedniej kategorii? Następnie utwórz [Notatkę OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Nie możesz znaleźć odpowiedniej kategorii? Następnie utwórz [Notatkę OSM](@/faq/editing/advanced-map-editing/index.pl.md#osm-note).
 		- Dodaj dodatkowe informacje, takie jak nazwa, godziny otwarcia i strona internetowa
 		- Zapisz zmiany i wyjdź za pomocą strzałki zaznaczenia
 
-Należy pamiętać, że edytor został zaprojektowany jako prosty edytor POI i dlatego jest ograniczony do POI. Można np. nie dodawać dróg, jezior, obrysów budynków itp. Nie ma też możliwości przeniesienia miejsc w nowe miejsce. Jeśli nie możesz edytować czegoś w organicznych mapach, zajrzyj na stronę [Bardziej zaawansowana edycja map](@/faq/editing/advanced-map-editing/index.md).
+Należy pamiętać, że edytor został zaprojektowany jako prosty edytor POI i dlatego jest ograniczony do POI. Można np. nie dodawać dróg, jezior, obrysów budynków itp. Nie ma też możliwości przeniesienia miejsc w nowe miejsce. Jeśli nie możesz edytować czegoś w organicznych mapach, zajrzyj na stronę [Bardziej zaawansowana edycja map](@/faq/editing/advanced-map-editing/index.pl.md).

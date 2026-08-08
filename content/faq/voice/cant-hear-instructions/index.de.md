@@ -22,7 +22,7 @@ Wenn du keine Sprachanweisungen hören kannst:
 
 * Melde uns bitte Bluetooth Probleme inklusive aller Details auf unserem [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Wenn du Android verwendest und die Einstellung deaktiviert ist (oder einige der unterstützten Sprachen nicht verfügbar sind), überprüfe die [System TTS(Text-zu-Sprache) Einstellungen](@/faq/voice/text-to-speech-android-tts/index.md).
+* Wenn du Android verwendest und die Einstellung deaktiviert ist (oder einige der unterstützten Sprachen nicht verfügbar sind), überprüfe die [System TTS(Text-zu-Sprache) Einstellungen](@/faq/voice/text-to-speech-android-tts/index.de.md).
 
 Auf Android sind Sprachanweisungen in 39 Sprachen verfügbar: Arabisch, Baskisch, Chinesisch (vereinfacht und traditionell), Dänisch, **Deutsch**, Englisch, Finnisch, Französisch, Griechisch, Hindi, Indonesisch, Italienisch, Japanisch, Katalanisch, Koreanisch, Kroatisch, Marathi, Niederländisch, Norwegisch, Persisch (Farsi), Polnisch, Portugiesisch, Portugiesisch (Brasilien), Rumänisch, Russisch, Schwedisch, Serbisch, Slowakisch, Spanisch, Spanisch (Mexiko), Swahili, Thailändisch, Tschechisch, Türkisch, Ukrainisch, Ungarisch, Vietnamesisch, Weißrussisch.
 

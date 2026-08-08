@@ -7,7 +7,7 @@ taxonomies:
 
 Ora, quando selezioni una fermata dell'autobus o del tram, puoi vedere i numeri delle linee del trasporto pubblico. Questo è solo il primo passo! Successivamente, prevediamo di mostrare le rotte del trasporto pubblico direttamente sulla mappa. Gli utenti iOS possono anche godere dei pulsanti di contribuzione OpenStreetMap riprogettati ("Aggiungi luogo" e "Modifica luogo").
 
-Siamo grati ❤️ ai nostri collaboratori, così come per le [vostre donazioni](@/donate/index.md) e il [vostro supporto](@/contribute/index.md).
+Siamo grati ❤️ ai nostri collaboratori, così come per le [vostre donazioni](@/donate/index.it.md) e il [vostro supporto](@/contribute/index.it.md).
 
 ### Note di rilascio dettagliate
 

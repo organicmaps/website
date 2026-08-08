@@ -15,7 +15,7 @@ Funzionalità recenti che potresti aver perso:
 - Mostra i nomi dei segnalibri sulla mappa (attiva nelle Impostazioni)
 - L’icona ✎ consente di modificare rapidamente i segnalibri
 
-Organic Maps è possibile grazie ai nostri contributori, [alle tue donazioni](@/donate/index.it.md) e [al tuo supporto](@/contribute/index.md).
+Organic Maps è possibile grazie ai nostri contributori, [alle tue donazioni](@/donate/index.it.md) e [al tuo supporto](@/contribute/index.it.md).
 
 ### Note di rilascio dettagliate
 

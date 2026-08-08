@@ -29,8 +29,8 @@ Poiché [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStree
 		- icona hamburger -> *Aggiungi un luogo a OpenStreetMap*
 		- Seleziona la posizione nel modo più accurato possibile e premi la freccia di controllo
 		- Seleziona una categoria
-			> Non riesci a trovare una categoria adatta? Quindi crea una [Nota OSM](@/faq/editing/advanced-map-editing/index.md#osm-note).
+			> Non riesci a trovare una categoria adatta? Quindi crea una [Nota OSM](@/faq/editing/advanced-map-editing/index.it.md#osm-note).
 		- Aggiungi ulteriori informazioni come il nome, gli orari di apertura e il sito web
 		- Salva le modifiche ed esci utilizzando la freccia di controllo
 
-Tieni presente che l'editor è concepito come un semplice editor di POI e, pertanto, limitato ai POI. Non è possibile, ad esempio, aggiungere strade, laghi, contorni di edifici, ecc. Inoltre non è possibile spostare luoghi in una nuova posizione. Se non riesci a modificare qualcosa con le mappe organiche, dai un'occhiata alla pagina [Modifica più avanzata delle mappe](@/faq/editing/advanced-map-editing/index.md).
+Tieni presente che l'editor è concepito come un semplice editor di POI e, pertanto, limitato ai POI. Non è possibile, ad esempio, aggiungere strade, laghi, contorni di edifici, ecc. Inoltre non è possibile spostare luoghi in una nuova posizione. Se non riesci a modificare qualcosa con le mappe organiche, dai un'occhiata alla pagina [Modifica più avanzata delle mappe](@/faq/editing/advanced-map-editing/index.it.md).

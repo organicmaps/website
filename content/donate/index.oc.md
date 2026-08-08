@@ -67,6 +67,6 @@ Mercé de considerar de donar annalament per redusir las taxas totalas.
 
 ## Podètz ajudar d’un autre biais?
 
-Òc! I a mantun biais de sosténer Organic Maps. Consultatz la pagina [Contribuir](@/contribute/index.md) per mai de detalhs.
+Òc! I a mantun biais de sosténer Organic Maps. Consultatz la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.
 
 {{ references() }}

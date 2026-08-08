@@ -15,7 +15,7 @@ Fonctionnalités récentes que tu as peut‑être manquées :
 - Affichage des noms des signets sur la carte (à activer dans Réglages)
 - L’icône ✎ permet d’éditer rapidement les signets
 
-Organic Maps est possible grâce à nos contributeurs, [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.md).
+Organic Maps est possible grâce à nos contributeurs, [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.fr.md).
 
 ### Notes de version détaillées
 

@@ -7,7 +7,7 @@ taxonomies:
 
 Ara, quand seleccionatz una paradassa d'autobús o tram, veiretz los numèros de rota del transpòrt public. Aquò es sonque lo primièr pas! Aprèp, prevesèm de mostrar las rotas de transpòrt public dirèctament sus la mapa. Los utilizaires d'iOS pòdon tanben gauzir dels botons de contribucion OpenStreetMap tornats far ("Ajustar luòc" e "Editar luòc").
 
-Mercejam ❤️ a nòstres contribuidors, e tanben a [vòstras donacions](@/donate/index.md) e [vòstre supòrt](@/contribute/index.md).
+Mercejam ❤️ a nòstres contribuidors, e tanben a [vòstras donacions](@/donate/index.oc.md) e [vòstre supòrt](@/contribute/index.oc.md).
 
 ### Nòtas detalhadassas de la version
 

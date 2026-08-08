@@ -67,6 +67,6 @@ Klicka på din föredragna betalningsmetod nedan:
 
 ## Kan du hjälpa till på något annat sätt?
 
-Ja! Det finns många sätt att stödja Organic Maps. Se sidan [Bidra](@/contribute/index.md) för mer information.
+Ja! Det finns många sätt att stödja Organic Maps. Se sidan [Bidra](@/contribute/index.sv.md) för mer information.
 
 {{ references() }}

@@ -7,7 +7,7 @@ taxonomies:
 
 Teraz, gdy wybierasz przystanek autobusowy lub tramwajowy, możesz zobaczyć numery linii komunikacji publicznej. To tylko pierwszy krok! Następnie planujemy pokazywać trasy komunikacji publicznej bezpośrednio na mapie. Użytkownicy iOS mogą również cieszyć się przeprojektowanymi przyciskami wkładu OpenStreetMap („Dodaj miejsce" i „Edytuj miejsce").
 
-Jesteśmy wdzięczni ❤️ naszym współtwórcom, a także za [wasze darowizny](@/donate/index.md) i [wasze wsparcie](@/contribute/index.md).
+Jesteśmy wdzięczni ❤️ naszym współtwórcom, a także za [wasze darowizny](@/donate/index.pl.md) i [wasze wsparcie](@/contribute/index.pl.md).
 
 ### Szczegółowe notatki wydania
 

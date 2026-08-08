@@ -7,7 +7,7 @@ taxonomies:
 
 Maintenant, lorsque vous sélectionnez un arrêt de bus ou de tramway, vous pouvez voir les numéros de ligne des transports publics. Ce n'est que la première étape ! Ensuite, nous prévoyons d'afficher les itinéraires de transport public directement sur la carte. Les utilisateurs iOS peuvent également profiter des boutons de contribution OpenStreetMap redessinés (« Ajouter un lieu » et « Modifier le lieu »).
 
-Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos dons](@/donate/index.md) et [votre soutien](@/contribute/index.md).
+Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos dons](@/donate/index.fr.md) et [votre soutien](@/contribute/index.fr.md).
 
 ### Notes de version détaillées
 

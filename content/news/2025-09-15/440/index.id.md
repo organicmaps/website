@@ -15,7 +15,7 @@ Fitur terbaru yang mungkin terlewat:
 - Tampilkan nama penanda di peta (aktifkan di Pengaturan)
 - Ikon ✎ memungkinkan pengeditan penanda cepat
 
-Organic Maps dimungkinkan oleh kontributor, [donasimu](@/donate/index.id.md), dan [dukunganmu](@/contribute/index.md).
+Organic Maps dimungkinkan oleh kontributor, [donasimu](@/donate/index.id.md), dan [dukunganmu](@/contribute/index.id.md).
 
 ### Catatan rilis terperinci
 

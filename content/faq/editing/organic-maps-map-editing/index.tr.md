@@ -26,7 +26,7 @@ Organic Maps'teki harita verilerinin birincil kaynağı [OpenStreetMap(OSM)](htt
 		- Ek bilgi ekle
 		- Değişikliklerini kaydet ve onay okunu kullanarak çık
 	- Haritaya bir yer ekle
-		- burger simgesi -> *OpenStreetMap'e bir yer ekle*
+		- burger simgesi -> *OpenStreetMap'e bir yer ekleyin*
 		- Konumu mümkün olduğunca doğru seç ve onay okuna bas
 		- Bir kategori seç
 			> Uygun bir kategori bulamıyor musun? Ardından bir [OSM Notu](@/faq/editing/advanced-map-editing/index.tr.md#osm-note) oluştur.

@@ -14,10 +14,10 @@ Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/ge
 - Data OpenStreetMap diperbarui hingga 23 November 2025. _(Viktor Govako)_
 
 ### iOS
-- BARU! Anda dapat mengedit nama penanda atau trek langsung di Halaman Informasi Tempat dengan mengetuk nama. _(Kiryl Kaveryn)_
+- BARU! Kamu dapat mengedit nama penanda atau trek langsung di Halaman Informasi Tempat dengan mengetuk nama. _(Kiryl Kaveryn)_
 - Menambahkan dukungan untuk iOS 26 dan macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Ketuk lama nama atau alamat tempat atau penanda yang dipilih untuk menyalinnya ke clipboard. _(Kiryl Kaveryn)_
-- Ketuk nama daftar di Halaman Informasi Tempat untuk memilih daftar baru untuk penanda atau trek, dan gunakan pencarian baru untuk menemukan daftar yang Anda inginkan dengan cepat. _(Kiryl Kaveryn)_
+- Ketuk nama daftar di Halaman Informasi Tempat untuk memilih daftar baru untuk penanda atau trek, dan gunakan pencarian baru untuk menemukan daftar yang kamu inginkan dengan cepat. _(Kiryl Kaveryn)_
 - Memperbaiki tata letak peta selama navigasi di iPad agar rute tetap terlihat jelas. _(Kiryl Kaveryn)_
 - Memperbaiki animasi untuk tombol samping dan memperbaiki warna tombol "Unduh Peta" dalam tema gelap. _(Kiryl Kaveryn)_
 
@@ -33,13 +33,13 @@ Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/ge
 - Rute sepeda sekarang melewati jalan pemukiman satu arah di Austria. _(Viktor Govako)_
 - Peningkatan impor GeoJSON, termasuk penanda `Saved Places.json` dari [Google Takeout](https://takeout.google.com/) _(Sergiy Kozyr)_
 - File `.json` sekarang juga dapat diimpor sebagai file `.geojson`. _(Alexander Borsuk)_
-- Ketika Anda memindahkan trek ke daftar, daftar tersebut menjadi default untuk penanda dan trek baru. _(Kiryl Kaveryn)_
+- Ketika kamu memindahkan trek ke daftar, daftar tersebut menjadi default untuk penanda dan trek baru. _(Kiryl Kaveryn)_
 - Memperbarui terjemahan untuk berbagai bahasa, termasuk perbaikan untuk bahasa Ibrani. _(Alexander Borsuk, Michael Zeevi)_
 - Menyederhanakan petunjuk bundaran. _(Viktor Govako)_
 
 ### Catatan rilis sebelumnya
 
-Baca [catatan rilis sebelumnya](@/news/2025-11-11/470/index.id.md) jika Anda melewatkannya.
+Baca [catatan rilis sebelumnya](@/news/2025-11-11/470/index.id.md) jika kamu melewatkannya.
 
 ### Program pengujian beta
 
@@ -47,7 +47,7 @@ Bergabunglah dengan pengujian beta untuk mendapatkan akses awal ke fitur baru da
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps tidak akan mungkin tanpa [donasi](@/donate/index.id.md), [kontribusi dan dukungan](@/contribute/index.id.md) Anda ❤️
+Organic Maps tidak akan mungkin tanpa [donasi](@/donate/index.id.md), [kontribusi dan dukungan](@/contribute/index.id.md) kamu ❤️
 
 Dengan perhatian dan cinta,
 Tim Organic Maps

@@ -12,7 +12,7 @@ aliases:
   - /id/faq/app/crash/
 ---
 
-Di Android, jika Anda menyimpan peta di kartu SD, kemungkinan besar penyebabnya adalah kartu SD yang rusak. Anda dapat:
+Di Android, jika kamu menyimpan peta di kartu SD, kemungkinan besar penyebabnya adalah kartu SD yang rusak. Kamu dapat:
 1. Hapus semua peta yang diunduh dan unduh ulang lagi ke kartu SD (mungkin tidak berfungsi lagi).
 2. Hapus semua peta yang diunduh, pilih Penyimpanan perangkat internal, dan unduh ulang peta.
 3. Format kartu SD dan unduh ulang peta.

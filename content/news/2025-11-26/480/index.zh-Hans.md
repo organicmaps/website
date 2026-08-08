@@ -14,7 +14,7 @@ taxonomies:
 - OpenStreetMap 数据已更新至 2025 年 11 月 23 日。 _(Viktor Govako)_
 
 ### iOS
-- 新功能！您可以通过点击名称直接在地点信息页面上编辑书签或轨迹名称。 _(Kiryl Kaveryn)_
+- 新功能！你可以通过点击名称直接在地点信息页面上编辑书签或轨迹名称。 _(Kiryl Kaveryn)_
 - 添加了对 iOS 26 和 macOS 26 "Liquid Glass" 的支持。 _(Kiryl Kaveryn)_
 - 长按所选地点或书签的名称或地址以将其复制到剪贴板。 _(Kiryl Kaveryn)_
 - 点击地点信息页面上的列表名称以为书签或轨迹选择新列表，并使用新搜索功能快速找到所需的列表。 _(Kiryl Kaveryn)_
@@ -33,13 +33,13 @@ taxonomies:
 - 自行车路线现在会跳过奥地利的单向居住街道。 _(Viktor Govako)_
 - 改进了 GeoJSON 导入，包括来自 [Google Takeout](https://takeout.google.com/) 的 `Saved Places.json` 书签 _(Sergiy Kozyr)_
 - `.json` 文件现在也可以作为 `.geojson` 文件导入。 _(Alexander Borsuk)_
-- 当您将轨迹移动到列表时，该列表将成为新书签和轨迹的默认列表。 _(Kiryl Kaveryn)_
+- 当你将轨迹移动到列表时，该列表将成为新书签和轨迹的默认列表。 _(Kiryl Kaveryn)_
 - 更新了多种语言的翻译，包括希伯来语的修复。 _(Alexander Borsuk, Michael Zeevi)_
 - 简化了环岛方向指示。 _(Viktor Govako)_
 
 ### 上一版发布说明
 
-如果您错过了，请阅读[上一版发布说明](@/news/2025-11-11/470/index.zh-Hans.md)。
+如果你错过了，请阅读[上一版发布说明](@/news/2025-11-11/470/index.zh-Hans.md)。
 
 ### Beta 测试计划
 
@@ -47,7 +47,7 @@ taxonomies:
 - [iOS][testflight]
 - [Android][firebase]
 
-没有您的[捐赠](@/donate/index.zh-Hans.md)、[贡献和支持](@/contribute/index.zh-Hans.md)，Organic Maps 将不可能存在 ❤️
+没有你的[捐赠](@/donate/index.zh-Hans.md)、[贡献和支持](@/contribute/index.zh-Hans.md)，Organic Maps 将不可能存在 ❤️
 
 用心和爱，
 Organic Maps 团队

@@ -7,9 +7,9 @@ taxonomies:
 
 Temui pembaruan Juli Organic Maps dengan banyak perbaikan dan penyempurnaan, terima kasih kepada kontributor kami ❤️💪! Pembaruan sudah tersedia di [AppStore][appstore], [Obtainium][obtainium] dan [Accrescent][accrescent], dan akan siap di [Google Play][googleplay], [Huawei AppGallery][appgallery], dan [FDroid][fdroid] dalam beberapa hari.
 
-[Donasi Anda](@/donate/index.id.md) dan [dukungan](@/contribute/index.id.md), [laporan bug][github issues] dan [perbaikan][github] membantu kami membuat peta yang lebih baik bersama!
+[Donasi kamu](@/donate/index.id.md) dan [dukungan](@/contribute/index.id.md), [laporan bug][github issues] dan [perbaikan][github] membantu kami membuat peta yang lebih baik bersama!
 
-Jangan lupa bahwa Anda dapat mendaftar untuk program pengujian beta untuk mendapatkan akses lebih awal ke fitur eksperimental dan yang akan datang [untuk iOS][testflight] dan [untuk Android][firebase].
+Jangan lupa bahwa kamu dapat mendaftar untuk program pengujian beta untuk mendapatkan akses lebih awal ke fitur eksperimental dan yang akan datang [untuk iOS][testflight] dan [untuk Android][firebase].
 
 Daftar lengkap perubahan:
 - Data peta OSM baru per 8 Juli, data Wikipedia per 1 Juli
@@ -20,7 +20,7 @@ Daftar lengkap perubahan:
 - Ikon Bookmark dan Trek baru di peta untuk membantu pengguna menemukan trek yang direkam atau diimpor (_@euf_)
 - Stasiun pengisian sekarang memiliki ikon yang dapat dibedakan sendiri di peta dan dalam pencarian (_David Martinez_)
 - Simpan ketinggian/altitud (_jika ada_) saat menyimpan rute (_Kiryl Kaveryn_)
-- Terjemahan yang diperbarui, Anda dapat membantu memperbaiki terjemahan yang salah atau hilang [di Weblate][weblate]
+- Terjemahan yang diperbarui, kamu dapat membantu memperbaiki terjemahan yang salah atau hilang [di Weblate][weblate]
 
 Android:
 - Memperbaiki tombol Kembali yang tidak berfungsi di Android 16 (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 Perubahan iOS, semua pujian untuk _Kiryl Kaveryn_:
 - Pengeditan bookmark dan trek yang ditingkatkan: ubah warna dan daftar langsung dari Halaman Informasi Trek
-- Sekarang Anda dapat mengedit atau menghapus trek yang direkam segera setelah menyimpannya
+- Sekarang kamu dapat mengedit atau menghapus trek yang direkam segera setelah menyimpannya
 - Area sentuh yang diperluas untuk tombol
 - Memperbaiki catatan OSM yang melompat saat mengetik teks
 - Tampilkan tombol "Tambah Tempat" untuk bisnis
 
-P.S. Jika Anda suka membaca catatan rilis yang detail, silakan beri tahu kami di [jaringan sosial](/#community) kami
+P.S. Jika kamu suka membaca catatan rilis yang detail, silakan beri tahu kami di [jaringan sosial](/#community) kami
 
 {{ references() }}

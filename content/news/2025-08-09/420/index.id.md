@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instal rilis Agustus Organic Maps, unduh peta terbaru, dan temukan rute hiking dan bersepeda populer di seluruh dunia! Tekan tombol "Lapisan" di kiri atas untuk melihat rute sepeda dan MTB berwarna, serta jalur hiking dan jalan kaki resmi. Tidak melihat apa pun di dekat Anda? Maka saatnya menambahkan informasi yang hilang ke OpenStreetMap.org, karena semua data peta di Organic Maps berasal dari proyek terbuka, gratis, dan berbasis komunitas tersebut.
+Instal rilis Agustus Organic Maps, unduh peta terbaru, dan temukan rute hiking dan bersepeda populer di seluruh dunia! Tekan tombol "Lapisan" di kiri atas untuk melihat rute sepeda dan MTB berwarna, serta jalur hiking dan jalan kaki resmi. Tidak melihat apa pun di dekat kamu? Maka saatnya menambahkan informasi yang hilang ke OpenStreetMap.org, karena semua data peta di Organic Maps berasal dari proyek terbuka, gratis, dan berbasis komunitas tersebut.
 
-Tahukah Anda bahwa trek GPX/KML yang direkam atau diimpor di peta dapat dipilih? Trek dengan data ketinggian akan menampilkan grafik elevasinya.
+Tahukah kamu bahwa trek GPX/KML yang direkam atau diimpor di peta dapat dipilih? Trek dengan data ketinggian akan menampilkan grafik elevasinya.
 
 Untuk melihat nama bookmark di peta, aktifkan fitur baru ini di pengaturan Organic Maps.
 
-Terima kasih kepada kontributor kami ❤️ dan [donasi Anda](@/donate/index.id.md), masih banyak lagi di pembaruan ini.
+Terima kasih kepada kontributor kami ❤️ dan [donasi kamu](@/donate/index.id.md), masih banyak lagi di pembaruan ini.
 
-P.S. ...dan masih banyak lagi yang akan datang! Dukungan Anda membantu dan memotivasi kami untuk membangun peta terbaik – bersama.
+P.S. ...dan masih banyak lagi yang akan datang! Dukungan kamu membantu dan memotivasi kami untuk membangun peta terbaik – bersama.
 
 ### Catatan Rilis Detail
 

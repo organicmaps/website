@@ -19,18 +19,18 @@ Rekomendasi resmi dari Organic Maps adalah [RHVoice](https://rhvoice.org/), yang
 
 ## Petunjuk
 
-- Buka aplikasi Pengaturan di perangkat Android Anda
+- Buka aplikasi Pengaturan di perangkat Android kamu
 - Pilih Pengaturan Tambahan lalu pilih Aksesibilitas
-- Pilih mesin, kecepatan bicara, dan nada pilihan Anda
+- Pilih mesin, kecepatan bicara, dan nada pilihan kamu
 - **Mulai ulang aplikasi Organic Maps**
 - Buka Pengaturan => Petunjuk Suara di Organic Maps dan atur
 - Mulai ulang aplikasi Organic Maps (atau reboot perangkat) jika suaranya tidak berfungsi
 
-Jika Anda tidak dapat menemukan pengaturan yang relevan, buka aplikasi pengaturan dan cari Text-to-speech.
+Jika kamu tidak dapat menemukan pengaturan yang relevan, buka aplikasi pengaturan dan cari Text-to-speech.
 
-P.S: Perlu diperhatikan bahwa langkah-langkah ini akan berbeda-beda berdasarkan merek ponsel yang Anda gunakan.
+P.S: Perlu diperhatikan bahwa langkah-langkah ini akan berbeda-beda berdasarkan merek ponsel yang kamu gunakan.
 
-Opsi tersebut mungkin tidak muncul jika Anda belum menginstal TTS di perangkat Anda. Silakan merujuk ke tabel di bawah untuk menginstal salah satu dari mereka yang mendukung bahasa ibu Anda.
+Opsi tersebut mungkin tidak muncul jika kamu belum menginstal TTS di perangkat kamu. Silakan merujuk ke tabel di bawah untuk menginstal salah satu dari mereka yang mendukung bahasa ibu kamu.
 
 ## Tangkapan layar
 
@@ -46,7 +46,7 @@ Di bawah ini adalah daftar lengkap yang menunjukkan beberapa mesin dan bahasa ya
 
 ## Solusi
 
-Jika Anda mengalami masalah saat menginisialisasi mesin RHVoice TTS di LineageOS atau ROM khusus lainnya, coba solusi ini. RHVoice mungkin tidak diinisialisasi dengan benar dan aplikasi mungkin mogok, terutama jika Anda belum pernah menggunakan mesin TTS apa pun di ponsel Anda sebelumnya (misalnya, instalasi baru, reset pabrik, dll.). Jika Anda menggunakan ROM khusus seperti LineageOS <ins>tanpa layanan Google Play dan Layanan Ucapan dari Google</ins>, dan Anda ingin menggunakan RHVoice sebagai mesin TTS pilihan Anda, ikuti petunjuk di bawah sebagai solusinya:
+Jika kamu mengalami masalah saat menginisialisasi mesin RHVoice TTS di LineageOS atau ROM khusus lainnya, coba solusi ini. RHVoice mungkin tidak diinisialisasi dengan benar dan aplikasi mungkin mogok, terutama jika kamu belum pernah menggunakan mesin TTS apa pun di ponsel kamu sebelumnya (misalnya, instalasi baru, reset pabrik, dll.). Jika kamu menggunakan ROM khusus seperti LineageOS <ins>tanpa layanan Google Play dan Layanan Ucapan dari Google</ins>, dan kamu ingin menggunakan RHVoice sebagai mesin TTS pilihan kamu, ikuti petunjuk di bawah sebagai solusinya:
 
 1. Instal [mesin eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) yang tersedia di F-Droid
 2. Tetapkan sebagai mesin sistem pilihan
@@ -55,13 +55,13 @@ Jika Anda mengalami masalah saat menginisialisasi mesin RHVoice TTS di LineageOS
     - Pilih **text-to-speech output** dan **Preferred engine** (sisi kiri) dan pastikan **eSpeak** dipilih.
 3. Kembali dan tekan **mainkan** untuk melihat apakah ini berfungsi
 4. Instal [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) yang tersedia di F-droid.
-    - Buka, pilih bahasa yang ingin Anda gunakan, ketuk ikon cloud (paling kiri) untuk mengunduh suara.
+    - Buka, pilih bahasa yang ingin kamu gunakan, ketuk ikon cloud (paling kiri) untuk mengunduh suara.
     - Tekan tombol putar untuk memverifikasi apakah itu berfungsi
 5. Tetapkan **RHVoice** sebagai mesin pilihan (lihat langkah 2)
-6. Sekarang, Anda seharusnya dapat menggunakan RHVoice tanpa masalah apa pun
+6. Sekarang, kamu seharusnya dapat menggunakan RHVoice tanpa masalah apa pun
 
 ## Pengujian
 
-Untuk menguji instruksi suara, Anda dapat mengetuk "Uji Arah Suara (TTS, Text-To-Speech)" di menu OM "Pengaturan → Petunjuk Suara" atau Anda dapat memulai navigasi untuk menerima keluaran suara apa pun. Organic Maps tidak akan memberi Anda instruksi suara apa pun saat Anda diam.
+Untuk menguji instruksi suara, kamu dapat mengetuk "Uji Arah Suara (TTS, Text-To-Speech)" di menu OM "Pengaturan → Petunjuk Suara" atau kamu dapat memulai navigasi untuk menerima keluaran suara apa pun. Organic Maps tidak akan memberi kamu instruksi suara apa pun saat kamu diam.
 
 ![Tes TTS](tts_test.png "Tes TTS")

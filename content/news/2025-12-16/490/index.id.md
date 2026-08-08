@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Selamat Natal dan Tahun Baru dari tim Organic Maps. Mencari suasana liburan? Cari `Pasar Natal` atau `Pohon Natal` untuk melihatnya di peta. Jika tidak ada yang muncul di area Anda, silakan tambahkan fitur yang hilang di OpenStreetMap.org dan tingkatkan peta untuk semua orang!
+Selamat Natal dan Tahun Baru dari tim Organic Maps. Mencari suasana liburan? Cari `Pasar Natal` atau `Pohon Natal` untuk melihatnya di peta. Jika tidak ada yang muncul di area kamu, silakan tambahkan fitur yang hilang di OpenStreetMap.org dan tingkatkan peta untuk semua orang!
 
 Instal Organic Maps dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid]
 
@@ -37,7 +37,7 @@ Bergabunglah dengan pengujian beta untuk mencoba fitur awal dan melaporkan masal
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md) Anda. Terima kasih! ❤️
+Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md) kamu. Terima kasih! ❤️
 
 Tim Organic Maps
 

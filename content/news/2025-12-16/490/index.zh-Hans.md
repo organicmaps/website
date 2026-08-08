@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps 团队祝您圣诞快乐，新年快乐。寻找节日气氛？搜索 `圣诞市场` 或 `圣诞树` 即可在地图上看到它们。如果您所在的地区没有显示任何内容，请在 OpenStreetMap.org 上添加缺失的功能，为每个人改进地图！
+Organic Maps 团队祝你圣诞快乐，新年快乐。寻找节日气氛？搜索 `圣诞市场` 或 `圣诞树` 即可在地图上看到它们。如果你所在的地区没有显示任何内容，请在 OpenStreetMap.org 上添加缺失的功能，为每个人改进地图！
 
 从 <https://omaps.app/get> 或 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装 Organic Maps
 
@@ -37,7 +37,7 @@ Organic Maps 团队祝您圣诞快乐，新年快乐。寻找节日气氛？搜�
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps 的存在归功于您的 [捐赠](@/donate/index.zh-Hans.md) 和 [贡献](@/contribute/index.zh-Hans.md)。谢谢！ ❤️
+Organic Maps 的存在归功于你的 [捐赠](@/donate/index.zh-Hans.md) 和 [贡献](@/contribute/index.zh-Hans.md)。谢谢！ ❤️
 
 Organic Maps 团队
 

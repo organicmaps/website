@@ -12,25 +12,25 @@ aliases:
   - /id/faq/editing/organic-maps-map-editing/
 ---
 
-Dengan Organic Maps, Anda dapat dengan mudah menambahkan tempat yang hilang ke peta, menambahkan detail tambahan seperti jam buka, atau memperbaiki entri yang salah. Dengan melakukan ini, Anda meningkatkan data peta untuk semua pengguna.
+Dengan Organic Maps, kamu dapat dengan mudah menambahkan tempat yang hilang ke peta, menambahkan detail tambahan seperti jam buka, atau memperbaiki entri yang salah. Dengan melakukan ini, kamu meningkatkan data peta untuk semua pengguna.
 
-Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) adalah sumber utama data peta di Organic Maps, hasil edit yang Anda lakukan akan dikirim ke OSM. OSM adalah proyek komunitas untuk membangun peta yang bebas dan terbuka. Cara kerjanya mirip dengan Wikipedia, sehingga semua yang Anda edit tersedia untuk jutaan pengguna di seluruh dunia. Bergabunglah dengan komunitas dan bantu membuat peta yang lebih baik untuk semua orang!
+Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) adalah sumber utama data peta di Organic Maps, hasil edit yang kamu lakukan akan dikirim ke OSM. OSM adalah proyek komunitas untuk membangun peta yang bebas dan terbuka. Cara kerjanya mirip dengan Wikipedia, sehingga semua yang kamu edit tersedia untuk jutaan pengguna di seluruh dunia. Bergabunglah dengan komunitas dan bantu membuat peta yang lebih baik untuk semua orang!
 
-**Untuk mengedit OpenStreetMap dari aplikasi Organic Maps Anda:**
+**Untuk mengedit OpenStreetMap dari aplikasi Organic Maps kamu:**
 1. Buat akun di [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
-2. Masuk ke akun Anda di Organic Maps (ikon burger -> *pengaturan* -> *Profil-OpenStreetMap*)
-3. Sekarang Anda dapat mengedit tempat yang sudah ada atau menambahkan tempat baru
+2. Masuk ke akun kamu di Organic Maps (ikon burger -> *pengaturan* -> *Profil-OpenStreetMap*)
+3. Sekarang kamu dapat mengedit tempat yang sudah ada atau menambahkan tempat baru
 	- Edit tempat yang ada
 		- pilih tempat dengan mengetuk ikon peta
 		- ketuk *edit tempat*
 		- Tambahkan informasi tambahan
-		- Simpan perubahan Anda dan keluar menggunakan panah centang
+		- Simpan perubahan kamu dan keluar menggunakan panah centang
 	- Tambahkan tempat ke peta
 		- ikon burger -> *Tambahkan tempat ke OpenStreetMap*
 		- Pilih lokasi seakurat mungkin dan tekan panah centang
 		- Pilih kategori
 			> Tidak dapat menemukan kategori yang sesuai? Kemudian buat [Catatan OSM](@/faq/editing/advanced-map-editing/index.id.md#osm-note).
 		- Tambahkan informasi tambahan seperti nama, jam buka, dan situs web
-		- Simpan perubahan Anda dan keluar menggunakan panah centang
+		- Simpan perubahan kamu dan keluar menggunakan panah centang
 
-Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Anda dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika Anda tidak dapat mengedit sesuatu dengan Organic Maps, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.id.md).
+Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Kamu dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika kamu tidak dapat mengedit sesuatu dengan Organic Maps, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.id.md).

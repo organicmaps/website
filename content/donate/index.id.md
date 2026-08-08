@@ -1,5 +1,5 @@
 ---
-description: "Uang Anda membayar semua pengeluaran yang terkait dengan proyek dan memotivasi kami untuk meningkatkan Organic Maps."
+description: "Uang kamu membayar semua pengeluaran yang terkait dengan proyek dan memotivasi kami untuk meningkatkan Organic Maps."
 extra:
   menu_title: Donasi
   preview_image: donate/donate.png
@@ -23,7 +23,7 @@ Klik ikon metode pembayaran yang diinginkan di bawah ini:
 
 1. Misi kami adalah membuat alternatif Google Maps dan Apple Maps yang berfokus pada privasi, cepat, dan mudah untuk digunakan.
 2. Meningkatkan data peta umum untuk berbagai situs web, aplikasi, dan platform yang menggunakan OpenStreetMap, dan mengajak orang-orang lain dalam berkontribusi informasi peta adalah misi tambahan kami.
-3. Kami mengandalkan donasi Anda untuk menjalankan misi kami agar Organic Maps tetap terbuka dan bebas. Dan bebas dari iklan.
+3. Kami mengandalkan donasi kamu untuk menjalankan misi kami agar Organic Maps tetap terbuka dan bebas. Dan bebas dari iklan.
 4. Kami mencintai apa yang kami lakukan, dan kami mencintai pengguna kami. ❤️
 
 ## Mengapa proyek yang bebas memerlukan dana?
@@ -41,7 +41,7 @@ Klik ikon metode pembayaran yang diinginkan di bawah ini:
    - Bayangan bukit dan medan 3D
    - Memperbaiki penyunting OpenStreetMap
    - Pencarian alamat, perutean, dan navigasi luring yang lebih baik
-   - … dan [banyak fitur lain][github issues] yang Anda inginkan dan sukai
+   - … dan [banyak fitur lain][github issues] yang kamu inginkan dan sukai
 
 ## Bagaimana cara berdonasi?
 
@@ -49,7 +49,7 @@ Klik ikon metode pembayaran yang diinginkan di bawah ini:
 
 {{ donate_buttons() }}
 
-Donasi berulang adalah cara terbaik untuk memastikan pendapatan yang relatif stabil untuk proyek dan memotivasi kami untuk tugas dan tujuan jangka panjang. Tetapi Anda juga dapat menyumbang satu kali.
+Donasi berulang adalah cara terbaik untuk memastikan pendapatan yang relatif stabil untuk proyek dan memotivasi kami untuk tugas dan tujuan jangka panjang. Tetapi kamu juga dapat menyumbang satu kali.
 
 ### Transfer Bank
 
@@ -61,7 +61,7 @@ Silakan pertimbangkan untuk menyumbang setiap tahun untuk mengurangi total biaya
 
 {{ crypto_table() }}
 
-## Dapatkah Anda membantu kami dengan cara lain?
+## Dapatkah kamu membantu kami dengan cara lain?
 
 Ya! Ada banyak cara untuk mendukung Organic Maps. Silakan lihat halaman [Dukung Kami](@/contribute/index.id.md) untuk lebih jelasnya.
 

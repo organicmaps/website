@@ -36,7 +36,7 @@ Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣�
 - 地铁地图
 - 地图上的快速离线搜索
 - 以KML/KMZ格式导出和导入书签，GPX 导入, GeoJSON
-- 保护您眼睛的黑暗模式
+- 保护你眼睛的黑暗模式
 - 国家和地区不会占用太大的空间
 - 热门地点的维基百科文章
 - 自由且开源
@@ -45,7 +45,7 @@ Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣�
 
 Organic Maps 既纯粹而有机，用爱发电：
 
-- 尊重您的隐私
+- 尊重你的隐私
 - 省电
 - 没有意外的移动数据费用
 
@@ -77,8 +77,8 @@ Organic Maps 无需过多权限：
 在Organic Maps，我们相信隐私是一项基本人权：
 
 - Organic Maps是一个独立的社区驱动的开源项目
-- 我们保护您的隐私不受大型科技公司的窥视
-- 无论身处何处，安全在您左右
+- 我们保护你的隐私不受大型科技公司的窥视
+- 无论身处何处，安全在你左右
 
 拒绝监视 - 拥抱自由。
 
@@ -141,7 +141,7 @@ To donate conveniently, click on your preferred payment method icon below:
 
 Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 
-- 邀您加入测试计划，提出建议、反馈问题：
+- 邀你加入测试计划，提出建议、反馈问题：
   - [iOS测试版（TestFlight）][testflight]
   - [安卓测试版（Firebase）][firebase]
   - [Linux 桌面端 Beta (Flatpak)][flatpak]

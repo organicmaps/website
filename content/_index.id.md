@@ -9,7 +9,7 @@ title: "Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring"
 
 **Organic Maps** adalah aplikasi peta offline & GPS yang berfokus pada privasi untuk hiking, bersepeda, dan berkendara. Benar-benar gratis. Tanpa iklan. Tanpa pelacakan. Dikembangkan dengan cinta oleh komunitas sumber terbuka dan pendiri aplikasi [**MapsWithMe**][mapswithme]/**Maps.Me**. Didukung oleh data [OpenStreetMap][openstreetmap].
 
-**Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM Anda (ngomong-ngomong, operator Anda terus melacak Anda), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
+**Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM kamu (ngomong-ngomong, operator kamu terus melacak kamu), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
 
 > Pada Desember 2025, Organic Maps [mencapai 6 juta instalasi](@/news/2025-12-31/500/index.id.md). [Bantu kami](@/donate/index.id.md) untuk berkembang!
 
@@ -38,7 +38,7 @@ Organic Maps adalah aplikasi pendamping terlengkap bagi para pelancong, turis, p
 - Peta metro/kereta bawah tanah
 - Pencarian luring cepat pada peta
 - Bookmark dan trek dalam format KML, KMZ, GPX, GeoJSON
-- Mode Gelap untuk melindungi mata Anda
+- Mode Gelap untuk melindungi mata kamu
 - Negara dan wilayah tidak memakan banyak ruang
 - Artikel Wikipedia untuk tempat-tempat populer
 - Bebas dan sumber terbuka
@@ -47,8 +47,8 @@ Organic Maps adalah aplikasi pendamping terlengkap bagi para pelancong, turis, p
 
 Organic Maps murni dan organik, dibuat dengan cinta:
 
-- Menghormati privasi Anda
-- Menghemat baterai Anda
+- Menghormati privasi kamu
+- Menghemat baterai kamu
 - Tidak ada biaya data seluler yang tidak diduga
 
 Aplikasi Organic Maps bebas dari pelacak dan hal-hal buruk lainnya:
@@ -72,17 +72,17 @@ Aplikasi iOS telah diverifikasi oleh [TrackerControl untuk iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps tidak meminta izin berlebihan untuk memata-matai Anda:
+Organic Maps tidak meminta izin berlebihan untuk memata-matai kamu:
 
 {{ privacy_screenshots() }}
 
 Di Organic Maps, kami percaya bahwa privasi adalah hak asasi manusia yang mendasar:
 
 - Organic Maps adalah proyek sumber terbuka yang digerakkan oleh komunitas tersendiri
-- Kami melindungi privasi Anda dari pengintaian Teknologi Besar
-- Tetap aman di mana pun Anda berada
+- Kami melindungi privasi kamu dari pengintaian Teknologi Besar
+- Tetap aman di mana pun kamu berada
 
-Tolak pengawasan — rangkul kebebasan Anda.
+Tolak pengawasan — rangkul kebebasan kamu.
 
 **[Cobalah Organic Maps!](#install)**
 
@@ -143,7 +143,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
 
 Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan di bawah lisensi Apache 2.0.
 
-- Silakan bergabung dengan program beta kami, sarankan fitur Anda, dan laporkan kutu:
+- Silakan bergabung dengan program beta kami, sarankan fitur kamu, dan laporkan kutu:
   - [Beta iOS (TestFlight)][testflight]
   - [Beta Android (Firebase)][firebase]
   - [Beta Desktop Linux (Flatpak)][flatpak]

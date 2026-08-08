@@ -3,7 +3,7 @@ title: Bagaimana cara mengimpor bookmark dan trek dalam format KML, KMZ, KMB ata
 slug: bagaimana-cara-mengimpor-bookmark-dan-trek-dalam-format-kml-kmz-kmb-atau
   GPX?
 description: Petunjuk langkah demi langkah untuk mengimpor bookmark dan trek yang
-  dibagikan kepada Anda dalam format KML, KMZ, KMB atau GPX, GeoJSON (JSON)
+  dibagikan kepada kamu dalam format KML, KMZ, KMB atau GPX, GeoJSON (JSON)
 updated: "2026-01-03"
 taxonomies:
   faq:
@@ -14,7 +14,7 @@ aliases:
   - /id/faq/bookmarks/how-to-import/
 ---
 
-Anda dapat mengimpor bookmark yang dikirim dari Organic Maps atau aplikasi pihak ketiga jika aplikasi tersebut mengekspor bookmark dalam format KML, KMZ, KMB, GPX, GeoJSON (JSON).
+Kamu dapat mengimpor bookmark yang dikirim dari Organic Maps atau aplikasi pihak ketiga jika aplikasi tersebut mengekspor bookmark dalam format KML, KMZ, KMB, GPX, GeoJSON (JSON).
 
 Untuk mengimpor satu file:
 
@@ -22,10 +22,10 @@ Untuk mengimpor satu file:
 
 2. Ketuk sekali atau ketuk dan tahan file KML, KMZ, KMB, GPX, GeoJSON (JSON) dengan bookmark dan pilih Buka dengan Organic Maps (Android) atau "Impor dengan Organic Maps" (iOS) di jendela pop-up.
 
-3. Ini akan terbuka dengan Organic Maps dan Anda akan melihat 'Bookmark berhasil dimuat!'. Anda dapat menemukannya di peta atau di layar Menu Bookmark.
+3. Ini akan terbuka dengan Organic Maps dan kamu akan melihat 'Bookmark berhasil dimuat!'. Kamu dapat menemukannya di peta atau di layar Menu Bookmark.
 
 Mengimpor bookmark dan trek secara berkelompok juga dimungkinkan:
 
 1. Buka Organic Maps dan ketuk tombol bintang untuk membuka daftar penanda dan trek. Tekan tombol "Impor Bookmark dan Trek".
 
-2. Pilih folder dengan file KML, KMZ, KMB, GPX, GeoJSON (JSON). Organic Maps akan memindainya termasuk subfolder dan mengimpor semua file yang didukung dengan bookmark dan trek. Anda dapat memilih folder root untuk mencari di seluruh penyimpanan.
+2. Pilih folder dengan file KML, KMZ, KMB, GPX, GeoJSON (JSON). Organic Maps akan memindainya termasuk subfolder dan mengimpor semua file yang didukung dengan bookmark dan trek. Kamu dapat memilih folder root untuk mencari di seluruh penyimpanan.

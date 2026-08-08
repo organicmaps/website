@@ -11,7 +11,7 @@ aliases:
   - /zh-Hans/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-您至少需要 iOS 12 或 Android 5 才能运行该应用程序。更高版本的设备可以运行 Organic Maps。
+你至少需要 iOS 12 或 Android 5 才能运行该应用程序。更高版本的设备可以运行 Organic Maps。
 
 在 Android 中，Organic Maps 可以在安装了 Google 服务且无需 Google 支持的设备上运行。
 

@@ -11,6 +11,6 @@ aliases:
   - /zh-Hans/faq/app/how-to-use-android-auto/
 ---
 
-要将 OM 与 Android Auto 结合使用，您至少需要 Android 版本 8.0 (Oreo) 或更高版本。此外，您需要从 Google Play 商店下载 Organic Maps，因为 Google 只允许在 Android Auto 上使用 Google 批准的应用程序。
+要将 OM 与 Android Auto 结合使用，你至少需要 Android 版本 8.0 (Oreo) 或更高版本。此外，你需要从 Google Play 商店下载 Organic Maps，因为 Google 只允许在 Android Auto 上使用 Google 批准的应用程序。
 
 请查看 [Android Auto 网站](https://www.android.com/auto/) 了解更多详情。

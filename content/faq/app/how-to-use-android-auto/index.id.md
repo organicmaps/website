@@ -12,6 +12,6 @@ aliases:
   - /id/faq/app/how-to-use-android-auto/
 ---
 
-Untuk menggunakan OM dengan Android Auto, Anda memerlukan setidaknya Android versi 8.0 (Oreo) atau lebih baru. Selain itu, Anda perlu mengunduh Organic Maps dari Google Play Store karena Google hanya mengizinkan aplikasi yang disetujui Google di Android Auto.
+Untuk menggunakan OM dengan Android Auto, kamu memerlukan setidaknya Android versi 8.0 (Oreo) atau lebih baru. Selain itu, kamu perlu mengunduh Organic Maps dari Google Play Store karena Google hanya mengizinkan aplikasi yang disetujui Google di Android Auto.
 
 Silakan periksa [situs web Android Auto](https://www.android.com/auto/) untuk detail lebih lanjut.

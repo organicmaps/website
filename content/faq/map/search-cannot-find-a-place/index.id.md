@@ -13,8 +13,8 @@ aliases:
   - /id/faq/map/search-cannot-find-a-place/
 ---
 
-Ingatlah bahwa untuk mencari suatu tempat di area tertentu, Anda perlu mengunduh peta yang relevan dan memperbesar peta ke area tersebut, atau lokasi Anda harus berada di dekat area tersebut sebelum Anda memulai pencarian. Misalnya, jika Anda ingin mencari suatu tempat di Vietnam dan lokasi Anda berada di tempat lain, Anda harus mengunduh dan membuka peta Vietnam terlebih dahulu, atau secara eksplisit menyebutkan negara (Vietnam) atau nama kota/kota/desa yang diinginkan di kolom pencarian.
+Ingatlah bahwa untuk mencari suatu tempat di area tertentu, kamu perlu mengunduh peta yang relevan dan memperbesar peta ke area tersebut, atau lokasi kamu harus berada di dekat area tersebut sebelum kamu memulai pencarian. Misalnya, jika kamu ingin mencari suatu tempat di Vietnam dan lokasi kamu berada di tempat lain, kamu harus mengunduh dan membuka peta Vietnam terlebih dahulu, atau secara eksplisit menyebutkan negara (Vietnam) atau nama kota/kota/desa yang diinginkan di kolom pencarian.
 
-Selain itu, tempat tersebut mungkin belum ditambahkan ke peta di [OpenStreetMap.org](https://www.openstreetmap.org/). Jika Anda ingin membantu dan menyempurnakan peta, periksa [panduan ini](https://wiki.openstreetmap.org/wiki/Contribute_map_data) dan tambahkan sendiri informasi peta yang hilang.
+Selain itu, tempat tersebut mungkin belum ditambahkan ke peta di [OpenStreetMap.org](https://www.openstreetmap.org/). Jika kamu ingin membantu dan menyempurnakan peta, periksa [panduan ini](https://wiki.openstreetmap.org/wiki/Contribute_map_data) dan tambahkan sendiri informasi peta yang hilang.
 
-Jika tempat tersebut ditampilkan pada peta di Organic Maps, tetapi pencarian kami tidak dapat menemukannya, [laporkan kepada kami](mailto:support@organicmaps.app) koordinat tempat tersebut dan contoh permintaan pencarian Anda.
+Jika tempat tersebut ditampilkan pada peta di Organic Maps, tetapi pencarian kami tidak dapat menemukannya, [laporkan kepada kami](mailto:support@organicmaps.app) koordinat tempat tersebut dan contoh permintaan pencarian kamu.

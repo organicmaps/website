@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto selalu menggunakan mode perutean mobil (Andrei Shkrob)
 - Menggunakan terjemahan Bahasa Tionghoa Tradisional untuk wilayah Hong Kong (zh-HK) dan Makau (zh-MO) (Alexander Borsuk)
 
-Beri tahu kami jika Anda dapat menjalankan Organic Maps di perangkat x86 apa pun (termasuk Chromebook) dengan dukungan OpenGL ES 3.
+Beri tahu kami jika kamu dapat menjalankan Organic Maps di perangkat x86 apa pun (termasuk Chromebook) dengan dukungan OpenGL ES 3.
 
 ### Peta & Gaya
 

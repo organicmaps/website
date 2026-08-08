@@ -1,5 +1,5 @@
 ---
-title: Organic Mapsളുടെ വികസനത്തെ പിന്തുണയ്ക്കുക
+title: Organic Maps ന്റെ വികസനത്തെ പിന്തുണയ്ക്കുക
 description: Different ways to support the development of our free application
 weight: 20
 extra:
@@ -20,7 +20,7 @@ Organic Maps ഒരു സൗജന്യ ഓപ്പൺ സോഴ്‌സ് 
 - Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data.
 - Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app.
 - Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
-- Organic Mapsളെക്കുറിച്ച് എല്ലാവരോടും പറയുക. ഒരു വലിയ സമൂഹം ശക്തമായ ഒരു സമൂഹമാണ്.
+- Organic Maps നെക്കുറിച്ച് എല്ലാവരോടും പറയുക. ഒരു വലിയ സമൂഹം ശക്തമായ ഒരു സമൂഹമാണ്.
 - ഞങ്ങളെ വിലയിരുത്തുക [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - ഏത് സഹായവും സ്വാഗതം ചെയ്യുന്നു!
 

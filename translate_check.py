@@ -22,6 +22,7 @@ import argparse
 import re
 import sys
 import unicodedata
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -174,14 +175,38 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     out_body, out_meta = strip_frontmatter(out)
     problems: list[Problem] = []
 
-    # 1. Structure must match the source exactly.
+    # 1. Structure must match the source exactly. Report *what* differs, not
+    #    just the counts: "42 vs 35 reference links" is unactionable, whereas
+    #    naming the missing ids points straight at the drift.
     a, b = fingerprint(src_body), fingerprint(out_body)
     for key in a:
-        if a[key] != b[key]:
-            problems.append(Problem(
-                ERROR, "structure",
-                f"{key}: source has {a[key]}, translation has {b[key]}",
-            ))
+        if a[key] == b[key]:
+            continue
+        detail = ""
+        if key in ("ref_links", "inline_links"):
+            pat = r"\]\[([^\]]+)\]" if key == "ref_links" else r"\]\(([^)]+)\)"
+            src_ids = Counter(re.findall(pat, src_body))
+            out_ids = Counter(re.findall(pat, out_body))
+            missing = sorted((src_ids - out_ids).elements())
+            extra = sorted((out_ids - src_ids).elements())
+            bits = []
+            if missing:
+                bits.append(f"missing {missing[:6]}")
+            if extra:
+                bits.append(f"extra {extra[:6]}")
+            detail = "; ".join(bits)
+        elif key == "lines":
+            kind = lambda t: Counter(
+                "bullet" if l.startswith(("-", "*", "+")) else
+                "heading" if l.startswith("#") else
+                "html" if l.startswith("<") else "paragraph"
+                for l in t.split("\n") if l.strip())
+            ks, ko = kind(src_body), kind(out_body)
+            detail = ", ".join(f"{k}: {ko[k] - ks[k]:+d}"
+                               for k in sorted(set(ks) | set(ko)) if ks[k] != ko[k])
+        problems.append(Problem(
+            ERROR, "structure",
+            f"{key}: source has {a[key]}, translation has {b[key]}", detail))
 
     # 2. Leftover machinery from the XML round-trip.
     leftover = re.findall(r"</?x>|</?[abis]\d+>", out_body)
@@ -375,13 +400,50 @@ def check_folder(folder: Path, errors_only: bool = False) -> int:
     return 1 if n_err else 0
 
 
+def check_all(errors_only: bool = True) -> int:
+    """Sweep every translated page that has an English sibling."""
+    import glob
+    n = bad = 0
+    for f in sorted(glob.glob("content/**/*.md", recursive=True)):
+        p = Path(f)
+        m = re.search(r"\.([a-zA-Z-]+)\.md$", p.name)
+        if not m:
+            continue
+        base = p.parent / ("_index.md" if p.name.startswith("_index") else "index.md")
+        if not base.is_file():
+            continue
+        # news date folders carry template-only _index stubs with no prose
+        if p.name.startswith("_index") and "/news/" in f and p.parent.name != "news":
+            continue
+        n += 1
+        problems = check_translation(base.read_text(encoding="utf-8"),
+                                     p.read_text(encoding="utf-8"), m.group(1))
+        if errors_only:
+            problems = [x for x in problems if x.level == ERROR]
+        if problems:
+            bad += 1
+            print(f"\n{f}")
+            for x in problems:
+                print(x)
+    print(f"\n{'='*66}\n{n - bad}/{n} pages clean")
+    return 1 if bad else 0
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Validate machine translations.")
-    ap.add_argument("target", type=Path, help="folder, or the English source")
+    ap.add_argument("target", type=Path, nargs="?", help="folder, or the English source")
     ap.add_argument("translated", type=Path, nargs="?")
     ap.add_argument("lang", nargs="?")
     ap.add_argument("--errors-only", action="store_true")
+    ap.add_argument("--all", action="store_true",
+                    help="check every translated page in content/")
     args = ap.parse_args()
+
+    if args.all:
+        sys.exit(check_all(args.errors_only))
+
+    if args.target is None:
+        ap.error("pass a target, or --all")
 
     if args.target.is_dir():
         sys.exit(check_folder(args.target, args.errors_only))

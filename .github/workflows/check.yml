@@ -20,3 +20,47 @@ jobs:
           wget -q -O zola.tar.gz -c https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz
           tar -zxvf zola.tar.gz
           ./zola build
+
+  markdown:
+    runs-on: ubuntu-latest
+    name: Check markdown and translations
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet pyyaml
+
+      # Syntax defects that Zola cannot see: a link with a space between ] and
+      # ( renders as literal text rather than a link, and a translated heading
+      # anchor breaks every reference to it. Both are currently at zero, so
+      # they are enforced.
+      - name: Markdown syntax
+        run: |
+          fail=0
+          spaced=$(grep -rnE '\]\s+\((https?://|@/|/|mailto:|#)' content/ || true)
+          if [ -n "$spaced" ]; then
+            echo "::error::markdown link with a space between ] and ( — will not render as a link"
+            echo "$spaced"
+            fail=1
+          fi
+          anchor=$(grep -rnE '\{#[^}]*[^ -~][^}]*\}' content/ || true)
+          if [ -n "$anchor" ]; then
+            echo "::error::non-ASCII heading anchor — anchors are identifiers, keep the English form"
+            echo "$anchor"
+            fail=1
+          fi
+          exit $fail
+
+      # Translation invariants: brand names, contributor names, structure
+      # against the English source. Reported but not yet gating — the corpus
+      # still carries known drift (see the Keeping translations correct
+      # section in CLAUDE.md), so failing here would block every PR.
+      - name: Translation checks (report only)
+        continue-on-error: true
+        run: python3 translate_check.py --all --errors-only

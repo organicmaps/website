@@ -52,7 +52,16 @@ FORMALITY_SUPPORTED = {"DE", "ES", "FR", "IT", "NL", "PL", "PT-PT", "PT-BR",
 
 # CLAUDE.md requires the informal second person everywhere EXCEPT these, which
 # address the reader politely (ru вы, uk ви, be вы). Maintainer decision.
-FORMAL_LANGUAGES = {"ru", "uk", "be"}
+#
+# hi/mr/te/ml/fa-IR are formal for a different reason: in these languages the
+# polite form is the UNMARKED way to address an adult stranger, not a stiff
+# alternative to a warm one. Hindi आप, Marathi तुम्ही, Telugu మీరు, Malayalam
+# നിങ്ങൾ and Persian شما are what every consumer app uses; the familiar forms
+# (तुम/तू, तू, నువ్వు, നീ, تو) are for children, intimates and subordinates, so
+# a product using them reads as condescending rather than friendly. Organic
+# Maps' own app strings already agree: hi 73 formal vs 1 informal marker,
+# mr 29 vs 0, fa 49 vs 0 in data/strings/strings.txt.
+FORMAL_LANGUAGES = {"ru", "uk", "be", "hi", "mr", "te", "ml", "fa-IR"}
 
 
 def expected_register(lang: str) -> str:
@@ -85,20 +94,38 @@ REGISTER_MARKERS = {
     "de": (r"\bSie\b|\bIhre?[nmrs]?\b|\bIhnen\b", r"\bdu\b|\bDu\b|\bdein|\bdir\b|\bdich\b"),
     "el": (r"\bεσείς\b|\bσας\b|είτε\b", r"\bεσύ\b|\bσου\b|εις\b"),
     "es": (r"\busted\b|\bUsted\b", r"\btú\b|\btu\b|\btus\b|\bti\b"),
-    "et": (r"\bteie\b|\bTeie\b|\bteid\b", r"\bsina\b|\bsinu\b|\bsa\b|\bsind\b"),
+    # "teid" is the partitive plural of "tee" (road) as often as it is the
+    # pronoun — "ei saa lisada teid, järvi" is "cannot add roads, lakes" — and
+    # \bteie\b already covers the pronoun stem. The informal side needs the
+    # capitalised forms or a sentence-initial "Sinu" reads as register-free.
+    "et": (r"\bteie\b|\bTeie\b|\bteil\w*\b|\bteie\w+\b",
+           r"\b[Ss]ina\b|\b[Ss]inu\b|\b[Ss]a\b|\b[Ss]ind\b"),
     # Bare "شما" also matches شماره (number) and شمالی (northern).
-    "fa-IR": (r"\bشما\b", r"\bتو\b"),
+    # Persian marks the informal register on the verb as often as on the
+    # pronoun, so the 2sg endings are listed too: without them a post whose
+    # only informality is "بپیوند"/"کنی" reads as register-free.
+    "fa-IR": (r"(?<![ؠ-ۓ])شما(?![ؠ-ۓ])",
+              r"(?<![ؠ-ۓ])(?:تو|کنی|توانی|بتوانی|بپیوند|بدهی|باشی)(?![ؠ-ۓ])"),
     "fr": (r"\bvous\b|\bvotre\b|\bvos\b", r"\btu\b|\bton\b|\bta\b|\btes\b|\bt'"),
     "gl": (r"\bvostede\b", r"\bti\b|\bteu\b|\btúa\b"),
-    "hi": (r"\bआप\b", r"\bतुम\b|\bतू\b"),
+    # Indic scripts cannot use \b: Python classifies vowel signs and the
+    # virama as non-word, so \bतुम्ही\b never matches the Marathi polite
+    # pronoun at all, \bतू\b never matches तू but DOES match inside वस्तू,
+    # धातू and मस्तूल, and "నీ " hits కానీ ("but"). These use explicit script
+    # boundaries: a marker may not touch another letter of the same script.
+    "hi": (r"(?<![ऀ-ॣ०-ॿ])आप(?:क[ोेाी]|न[ेा]|से|में)?(?![ऀ-ॣ०-ॿ])",
+           r"(?<![ऀ-ॣ०-ॿ])(?:तुम|तुझ)|(?<![ऀ-ॣ०-ॿ])तू(?![ऀ-ॣ०-ॿ])"),
     # Hungarian marks the informal imperative with -d/-sd, which is how a text
     # ends up mixed: "szerkesztheti" (formal) beside "Töltsd le" (informal).
     "hu": (r"\bÖn\b|\bÖnök\b|\bÖnnek\b|heti\b|hatja\b", r"\bte\b|\bti\b|\bneked\b|hetsz\b|\w+sd\b|\w+dd\b"),
     "id": (r"\bAnda\b", r"\bkamu\b|\bmu\b"),
     "it": (r"\bLei\b|\bSuo\b|\bSua\b", r"\btu\b|\btuo|\btua|\bti\b"),
     "lt": (r"\bjūs\b|\bJūs\b|\bjūsų\b|kite\b", r"\btu\b|\btavo\b|\btave\b"),
-    "ml": (r"നിങ്ങൾ|താങ്കൾ", r"\bനീ\b|നിന്റെ"),
-    "mr": (r"\bतुम्ही\b|\bतुमच", r"\bतू\b|\bतुझ"),
+    # Bare നീ / നീ- also begins നീല (blue), നീണ്ട (long), നീക്കം (removal).
+    "ml": (r"(?<![ഀ-ൿ])(?:നിങ്ങ|താങ്ക)",
+           r"(?<![ഀ-ൿ])(?:നിന്റെ|നിനക്ക|നിന്നെ|നിന്നോട)|(?<![ഀ-ൿ])നീ(?![ഀ-ൿ])"),
+    "mr": (r"(?<![ऀ-ॣ०-ॿ])(?:तुम्ही|तुमच|तुम्हा|आपण|आपल)",
+           r"(?<![ऀ-ॣ०-ॿ])(?:तुझ|तुला)|(?<![ऀ-ॣ०-ॿ])तू(?![ऀ-ॣ०-ॿ])"),
     "nl": (r"\bu\b|\bU\b|\buw\b", r"\bje\b|\bjij\b|\bjouw\b"),
     "oc": (r"\bvos\b|\bvòstre\b|\bvòstra\b", r"\btu\b|\bton\b|\bta\b"),
     "pl": (r"\bPan\b|\bPani\b|\bPaństw", r"\bty\b|\btwoj|\bcię\b|sz\b"),
@@ -106,7 +133,9 @@ REGISTER_MARKERS = {
     "pt-BR": (r"\bo senhor\b|\bvós\b", r"\bvocê\b|\bseu\b|\bsua\b"),
     "ru": (r"\bВы\b|\bвы\b|\bваш|\bвас\b|\bвам\b", r"\bты\b|\bтво|\bтебя\b|шь\b"),
     "sv": (r"\bni\b|\bNi\b|\ber\b", r"\bdu\b|\bDu\b|\bdin\b|\bdig\b"),
-    "te": (r"మీరు|మీ ", r"నువ్వు|నీ "),
+    # Bare నీ / నీ- also begins నీలం (blue), నీటి (water), నీడ (shade).
+    "te": (r"(?<![ఀ-౿])(?:మీరు|మీకు|మీతో|మిమ్మల్ని)|(?<![ఀ-౿])మీ(?![ఀ-౿])",
+           r"(?<![ఀ-౿])(?:నువ్వు|నీవు|నిన్ను|నీకు|నీతో)|(?<![ఀ-౿])నీ(?![ఀ-౿])"),
     "tr": (r"\bsiz\b|iniz\b|ınız\b|unuz\b|ünüz\b|yin\b|yın\b", r"\bsen\b|\bsenin\b|\bsana\b"),
     "uk": (r"\bВи\b|\bви\b|\bваш|\bвас\b", r"\bти\b|\bтво|єш\b|иш\b"),
     "zh-Hans": (r"您", r"你"),

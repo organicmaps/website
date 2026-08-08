@@ -317,6 +317,21 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             f"{len(leftover)} untranslated placeholder tag(s) remain",
             ", ".join(sorted(set(leftover))[:8])))
 
+    # 2b. Heading anchors are identifiers, not prose. A translated anchor
+    #     silently breaks every link that points at it — Estonian had turned
+    #     `{#engines}` into `{#mootorid}` while the other 31 languages kept it,
+    #     so every inbound link to that section died for Estonian readers only.
+    src_anchors = set(re.findall(r"\{#([^}\s]+)\}", src_body))
+    out_anchors = set(re.findall(r"\{#([^}\s]+)\}", out_body))
+    invented = sorted(out_anchors - src_anchors)
+    if invented:
+        problems.append(Problem(
+            ERROR, "anchor-translated",
+            f"{len(invented)} heading anchor(s) differ from the source",
+            ", ".join(f"{{#{a}}}" for a in invented[:6])
+            + (f" (source has {', '.join(sorted(src_anchors)[:4])})"
+               if src_anchors else "")))
+
     # 3. Bracket integrity, per link rather than per line: an earlier well-formed
     #    link on the same line must not mask a later one that lost its "[".
     for lineno, line in enumerate(out_body.split("\n"), 1):

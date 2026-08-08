@@ -1,9 +1,9 @@
 ---
-description: "Az Ön pénze fedezi a projekttel kapcsolatos összes kiadást, és motivál bennünket az Organic Maps jobbá tételéhez."
+description: "A pénzed fedezi a projekttel kapcsolatos összes kiadást, és motivál bennünket az Organic Maps jobbá tételéhez."
 extra:
   menu_title: Adományozás
   preview_image: donate/donate.png
-title: "Adományozzon az Organic Maps fejlesztésének támogatására"
+title: "Adományozz az Organic Maps fejlesztésének támogatására"
 weight: 10
 ---
 
@@ -15,15 +15,15 @@ Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][s
 - Nincsenek leküldéses értesítések
 - Nyílt forráskódú
 
-Kattintson a kívánt fizetési mód ikonjára lentebb:
+Kattints a kívánt fizetési mód ikonjára lentebb:
 
 {{ donate_buttons() }}
 
-## Miért adományozzon az Organic Maps-nek?
+## Miért adományozz az Organic Maps-nek?
 
 1. Célunk, hogy egy adatvédelmi szempontokat figyelembe vevő, gyors és könnyen használható alternatíváját nyújtsuk a Google Maps és az Apple Maps helyett.
 2. További célunk az OpenStreetMapet használó számos weboldal, alkalmazás és platform nyilvános térképadatainak javítása, valamint több ember bevonása a térképadatok szerkesztésébe.
-3. Az Ön adományaira támaszkodunk, hogy teljesíteni tudjuk küldetésünket, hogy az Organic Maps nyitott és szabad maradjon. MIndezt hirdetések nélkül.
+3. Az adományaidra támaszkodunk, hogy teljesíteni tudjuk küldetésünket, hogy az Organic Maps nyitott és szabad maradjon. MIndezt hirdetések nélkül.
 4. Szeretjük, amit csinálunk, és szeretjük a felhasználóinkat ❤️.
 
 ## Miért kell pénz egy ingyenes projekthez?
@@ -41,11 +41,11 @@ Kattintson a kívánt fizetési mód ikonjára lentebb:
    - Domborzatárnyékolás és 3D terep
    - Fejlettebb OpenStreetMap szerkesztő
    - Jobb offline címkeresés, útvonaltervezés és navigáció
-   - … és még [sok más][github issues] funkciót, amit ismer és szeretne
+   - … és még [sok más][github issues] funkciót, amit ismersz és szeretnél
 
-## Hogyan adományozhat?
+## Hogyan adományozhatsz?
 
-Kattintson a kívánt fizetési mód ikonjára lentebb:
+Kattints a kívánt fizetési mód ikonjára lentebb:
 
 {{ donate_buttons() }}
 
@@ -57,12 +57,12 @@ Az ismétlődő adományok a legjobb módja annak, hogy viszonylag stabil bevét
 
 ### Kriptovaluta
 
-Fontolja meg az éves adományozást, hogy csökkentse a teljes díjat.
+Fontold meg az éves adományozást, hogy csökkentsd a teljes díjat.
 
 {{ crypto_table() }}
 
-## Tud más módon is segíteni nekünk?
+## Tudsz más módon is segíteni nekünk?
 
-Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért tekintse meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
+Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért tekintsd meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
 
 {{ references() }}

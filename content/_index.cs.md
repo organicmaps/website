@@ -9,11 +9,11 @@ title: "Organic Maps: Offline pěší turistika, cykloturistika, stezky a naviga
 
 **Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source a stejnými lidmi, kteří vytvořili aplikaci [**MapsWithMe**][mapswithme]/**Maps.Me**. Využívá data [OpenStreetMap][openstreetmap].
 
-**Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
+**Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstaluj si Organic Maps, stáhni si mapy, zahoď SIM kartu (mimochodem, tvůj operátor tě neustále sleduje) a vyraz na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
 
-> V prosinci 2025 Organic Maps [dosáhly 6 milionů instalací](@/news/2025-12-31/500/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
+> V prosinci 2025 Organic Maps [dosáhly 6 milionů instalací](@/news/2025-12-31/500/index.cs.md). [Pomoz nám](@/donate/index.cs.md) růst!
 
-### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid], [Accrescent][accrescent] {#install}
+### Stáhni a nainstaluj si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -47,7 +47,7 @@ Organic Maps je dokonalá aplikace pro cestovatele, turisty, pěší turisty a c
 
 Organic Maps je čistý a organický produkt vyrobený s láskou:
 
-- Respektuje vaše soukromí
+- Respektuje tvoje soukromí
 - Šetří baterii
 - Žádné neočekávané poplatky za mobilní data
 
@@ -79,18 +79,18 @@ Organic Maps nevyžaduje nadměrná oprávnění ke špehování:
 V Organic Maps věříme, že soukromí je základním lidským právem:
 
 - Organic Maps je nezávislý projekt s otevřeným zdrojovým kódem, který je řízen komunitou
-- Chráníme vaše soukromí před zvědavýma očima velkých technologických firem
-- Zůstaňte v bezpečí, ať jste kdekoli
+- Chráníme tvoje soukromí před zvědavýma očima velkých technologických firem
+- Zůstaň v bezpečí, ať jsi kdekoli
 
-Odmítněte dohled - přijměte svou svobodu.
+Odmítni dohled - přijmi svou svobodu.
 
-**[Vyzkoušejte Organic Maps!](#install)**
+**[Vyzkoušej Organic Maps!](#install)**
 
 ## Kdo platí za bezplatnou aplikaci?
 
-Aplikace je pro všechny zdarma. Podpořte nás prosím [donate](@/donate/index.cs.md)!
+Aplikace je pro všechny zdarma. Podpoř nás prosím [donate](@/donate/index.cs.md)!
 
-Chcete-li přispět okamžitě, klikněte na ikonu preferovaného způsobu platby níže:
+Chceš-li přispět okamžitě, klikni na ikonu preferovaného způsobu platby níže:
 
 {{ donate_buttons() }}
 
@@ -143,17 +143,17 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
 
 Organic Maps je [open-source software][github] licencovaný pod Apache License 2.0.
 
-- Zapojte se prosím do našeho beta programu, navrhujte funkce a nahlašujte chyby:
+- Zapoj se prosím do našeho beta programu, navrhuj funkce a nahlašuj chyby:
   - [iOS Beta (TestFlight)] [testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)] [flatpak]
   - [Linux Desktop Beta (balíčky)][repology]
-- Chyby nebo problémy nahlaste na [issue tracker][issues] nebo [na e-mail][email].
-- [Diskutujte][ideas] nápady nebo navrhněte požadavky na funkce.
-- Přihlaste se k odběru novinek na našem [Telegram kanálu][telegram] nebo na [matrix space][matrix].
-- Připojte se k naší [Telegram skupině][telegram_chat] a diskutujte s ostatními uživateli.
-- Navštivte náš [GitHub][github].
-- Sledujte naše aktualizace na [FOSStodon][fosstodon], [Facebooku][facebook], [Twitteru][twitter], [Instagramu][instagram], [Bluesky][bluesky], [Threads][threads], [Redditu][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Chyby nebo problémy nahlas na [issue tracker][issues] nebo [na e-mail][email].
+- [Diskutuj][ideas] nápady nebo navrhni požadavky na funkce.
+- Přihlas se k odběru novinek na našem [Telegram kanálu][telegram] nebo na [matrix space][matrix].
+- Připoj se k naší [Telegram skupině][telegram_chat] a diskutuj s ostatními uživateli.
+- Navštiv náš [GitHub][github].
+- Sleduj naše aktualizace na [FOSStodon][fosstodon], [Facebooku][facebook], [Twitteru][twitter], [Instagramu][instagram], [Bluesky][bluesky], [Threads][threads], [Redditu][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://cs.wikipedia.org/wiki/Fork
 

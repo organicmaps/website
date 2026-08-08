@@ -12,31 +12,31 @@ aliases:
   - /lt/faq/map/can-not-find-position/
 ---
 
-Įsitikinkite, kad jūsų įrenginyje yra GPS, vietos nustatymo paslaugos įjungtos ir Organic Maps programėlei suteikti vietos leidimai.
+Įsitikink, kad tavo įrenginyje yra GPS, vietos nustatymo paslaugos įjungtos ir Organic Maps programėlei suteikti vietos leidimai.
 
 **Android**
 
-Įrenginyje atidarykite Nustatymai → Vieta. Geriau įjungti didelio tikslumo režimą, nes jis leidžia tiksliai nustatyti GPS vietą.
+Įrenginyje atidaryk Nustatymai → Vieta. Geriau įjungti didelio tikslumo režimą, nes jis leidžia tiksliai nustatyti GPS vietą.
 
-Jei jūsų „Android“ įrenginys negali nustatyti jūsų vietos, programos nustatymuose įgalinkite (arba išjunkite, jei įjungta) parinktį „Google Play Services“.
+Jei tavo „Android“ įrenginys negali nustatyti tavo vietos, programos nustatymuose įgalink (arba išjunk, jei įjungta) parinktį „Google Play Services“.
 
-Pastaba: jį galite matyti tik tada, jei „Android“ įrenginyje įdiegėte (įjungėte) „Google Play“ paslaugas. „Google Play“ paslaugos naudojamos norint tiksliau nustatyti vietą. Jei išjungus parinktį kyla problemų dėl vietovės tikslumo, įjunkite ją.
+Pastaba: jį gali matyti tik tada, jei „Android“ įrenginyje įdiegei (įjungei) „Google Play“ paslaugas. „Google Play“ paslaugos naudojamos norint tiksliau nustatyti vietą. Jei išjungus parinktį kyla problemų dėl vietovės tikslumo, įjunk ją.
 
 **iOS**
 
-Jei esate iPhone arba iPad naudotojas, patikrinkite iOS nustatymus → Privatumas → Vietos paslaugos. Geografinės vietos duomenų bendrinimas turėtų būti įgalintas Organic Maps programėlei.
+Jei esi iPhone arba iPad naudotojas, patikrink iOS nustatymus → Privatumas → Vietos paslaugos. Geografinės vietos duomenų bendrinimas turėtų būti įgalintas Organic Maps programėlei.
 
 **Pastabos:**
 
-* Kad išvengtumėte nepageidaujamų duomenų tarptinklinio ryšio metu, įrenginio nustatymuose galite išjungti visus mobiliuosius duomenis, suaktyvinti skrydžio režimą arba išjungti mobiliuosius duomenis Organic Maps programėlei. Android ir iOS įrenginiai gali naudoti GPS skrydžio režimu.
+* Kad išvengtum nepageidaujamų duomenų tarptinklinio ryšio metu, įrenginio nustatymuose gali išjungti visus mobiliuosius duomenis, suaktyvinti skrydžio režimą arba išjungti mobiliuosius duomenis Organic Maps programėlei. Android ir iOS įrenginiai gali naudoti GPS skrydžio režimu.
 
-* Kai kuriuose mobiliuosiuose įrenginiuose nėra įmontuotų GPS imtuvų, tokių kaip „iPod Touch“, „iPad“, kuriame veikia tik WiFi, „Amazon Kindle Fire“ / „Kindle Fire HD 7“ ir kai kurie „Android“ planšetiniai kompiuteriai. Šiuose įrenginiuose visos programos rodys jūsų apytikslę vietą, aptiktą naudojant „Wi-Fi“ tinklą, jei būsite prisijungę prie interneto.
+* Kai kuriuose mobiliuosiuose įrenginiuose nėra įmontuotų GPS imtuvų, tokių kaip „iPod Touch“, „iPad“, kuriame veikia tik WiFi, „Amazon Kindle Fire“ / „Kindle Fire HD 7“ ir kai kurie „Android“ planšetiniai kompiuteriai. Šiuose įrenginiuose visos programos rodys tavo apytikslę vietą, aptiktą naudojant „Wi-Fi“ tinklą, jei būsi prisijungęs prie interneto.
 
 * Vietos aptikimas naudojant GPS palydovus (kai Wi-Fi ir mobilieji tinklai išjungti) gali šiek tiek užtrukti. Kuo ilgiau GPS nenaudojamas, tuo daugiau laiko užtrunka. Vietos aptikimo greitis priklauso nuo įrenginio, o ne nuo programos. GPS veikimui įtakos turi ir oras – geriausiai veikia lauke, kai giedras dangus. Problemų gali kilti bandant įsikurti patalpoje, siauroje gatvėje arba važiuojant automobiliu, kai aplink yra daug metalo arba ant prietaiso korpuso yra metalinis/magnetas.
 
 
 **Žemėlapyje rodoma neteisinga vieta**
 
-1. Jei aplink jūsų vietos rodyklę žemėlapyje yra didelis pusiau permatomas apskritimas, tai reiškia, kad jūsų padėtis nustatoma mažai tiksliai, naudojant WiFi arba korinį ryšį. Įsitikinkite, kad sistemos nustatymuose įjungėte "Tikslų" vietos tikslumą Organic Maps, ir pabandykite išeiti į lauką, toliau nuo aukštų pastatų ir medžių, kad pagerintumėte palydovinio GPS signalo priėmimą.
+1. Jei aplink tavo vietos rodyklę žemėlapyje yra didelis pusiau permatomas apskritimas, tai reiškia, kad tavo padėtis nustatoma mažai tiksliai, naudojant WiFi arba korinį ryšį. Įsitikink, kad sistemos nustatymuose įjungei "Tikslų" vietos tikslumą Organic Maps, ir pabandyk išeiti į lauką, toliau nuo aukštų pastatų ir medžių, kad pagerintum palydovinio GPS signalo priėmimą.
 
-2. Jei jūsų padėtis nustatoma neteisingai (pavyzdžiui, esate viename mieste, bet programėlė rodo kitą miestą), greičiausiai esate zonoje, kurią veikia klaidingas GPS signalas (GPS klastojimas) dėl elektroninės kovos (EW) priemonių. Tokiais atvejais vienintelis sprendimas yra persikelti į kitą vietą.
+2. Jei tavo padėtis nustatoma neteisingai (pavyzdžiui, esi viename mieste, bet programėlė rodo kitą miestą), greičiausiai esi zonoje, kurią veikia klaidingas GPS signalas (GPS klastojimas) dėl elektroninės kovos (EW) priemonių. Tokiais atvejais vienintelis sprendimas yra persikelti į kitą vietą.

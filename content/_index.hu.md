@@ -9,11 +9,11 @@ title: "Organic Maps: offline túrázás, kerékpározás, turistautak és navig
 
 Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség és a [**MapsWithMe**][mapswithme]/**Maps.Me** alapítói fejlesztik és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
 
-**Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítse az Organic Maps-et, töltse le a térképeket, dobja el a SIM-kártyáját (máskülönben a szolgáltatója folyamatosan nyomon követi Önt), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül induljon el egy egyhetes útra.
+**Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítsd az Organic Maps-et, töltsd le a térképeket, dobd el a SIM-kártyádat (máskülönben a szolgáltatód folyamatosan nyomon követ téged), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül indulj el egy egyhetes útra.
 
 > 2025 decemberében az Organic Maps [elérte a 6 millió telepítést](@/news/2025-12-31/500/index.hu.md). [Segíts](@/donate/index.hu.md) növekedni!
 
-### Töltse le és telepítse az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
+### Töltsd le és telepítsd az Organic Maps alkalmazást a következő helyekről: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -43,11 +43,11 @@ Az Organic Maps tökéletes társa az utazóknak, turistáknak, kirándulóknak 
 - Wikipédia cikkek népszerű helyekről
 - Ingyenes és nyílt forráskódú
 
-## Miért válassza az Organic Mapset?
+## Miért válaszd az Organic Mapset?
 
 Az Organic Maps letisztult és organikus:
 
-- Tiszteletben tartja a magánéletét
+- Tiszteletben tartja a magánéletedet
 - Kíméli az akkumulátort
 - Nincsenek váratlan mobil adatforgalmi díjak
 
@@ -79,18 +79,18 @@ Az Organic Maps nem kér rengeteg engedélyt, hogy kémkedjen:
 Az Organic Mapsnél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
 - Az Organic Maps egy független, közösség által irányított, nyílt forráskódú projekt
-- Megvédjük a magánéletét a nagy techcégek kíváncsi szemeitől
-- Maradjon biztonságban, bárhol is van
+- Megvédjük a magánéletedet a nagy techcégek kíváncsi szemeitől
+- Maradj biztonságban, bárhol is vagy
 
-Utasítsa el a megfigyelést – legyen szabad.
+Utasítsd el a megfigyelést – légy szabad.
 
-**[Próbálja ki az Organic Maps alkalmazást!](#install)**
+**[Próbáld ki az Organic Maps alkalmazást!](#install)**
 
 ## Ki fizet az ingyenes alkalmazásért?
 
-Az alkalmazás mindenki számára ingyenes. [Adományozzon](@/donate/index.hu.md), hogy támogasson minket!
+Az alkalmazás mindenki számára ingyenes. [Adományozz](@/donate/index.hu.md), hogy támogass minket!
 
-A kényelmes adományozás jegyében, kattintson a kívánt fizetési mód ikonjára lentebb:
+A kényelmes adományozás jegyében, kattints a kívánt fizetési mód ikonjára lentebb:
 
 {{ donate_buttons() }}
 
@@ -143,17 +143,17 @@ Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak b
 
 Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache License 2.0-t használja.
 
-- Csatlakozzon a béta programunkhoz, javasoljon funkciókat, és jelezze a hibákat:
+- Csatlakozz a béta programunkhoz, javasolj funkciókat, és jelezd a hibákat:
   - [iOS – béta (TestFlight)][testflight]
   - [Android – béta (Firebase)][firebase]
   - [Linuxos alkalmazás számítógépre – béta (Flatpak)][flatpak]
   - [Linuxos alkalmazás számítógépre – béta (csomagok)][repology]
-- Jelentse a hibákat vagy a problémákat a [hibakövetőnkbe][issues], vagy [küldjön nekünk egy e-mailt][email].
+- Jelentsd a hibákat vagy a problémákat a [hibakövetőnkbe][issues], vagy [küldj nekünk egy e-mailt][email].
 - [Vita][ideas], ötletek vagy funkciókérések.
-- Iratkozzon fel a [Telegram csatornánkra][telegram] vagy a [matrix terünkre][matrix] az újdonságokért.
-- Csatlakozzon a [Telegram csoportunkhoz][telegram_chat], hogy beszélgethessen a többi felhasználóval.
-- Látogasson el a [GitHub oldalunkra][github].
-- Kövesse frissítéseinket a [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
+- Iratkozz fel a [Telegram csatornánkra][telegram] vagy a [matrix terünkre][matrix] az újdonságokért.
+- Csatlakozz a [Telegram csoportunkhoz][telegram_chat], hogy beszélgethess a többi felhasználóval.
+- Látogass el a [GitHub oldalunkra][github].
+- Kövesd frissítéseinket a [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
 
 [fork]: https://hu.wikipedia.org/wiki/Fork_%28szoftverfejleszt%C3%A9s%29
 

@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Začněme rok 2026 aktualizací Organic Maps, kterou umožnili všichni naši přispěvatelé! Nainstalujte si ji z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
+Začněme rok 2026 aktualizací Organic Maps, kterou umožnili všichni naši přispěvatelé! Nainstaluj si ji z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
 
 ### Poznámky k vydání (všechny platformy)
 
@@ -42,11 +42,11 @@ Začněme rok 2026 aktualizací Organic Maps, kterou umožnili všichni naši p�
 * Opravena chybějící hlasová oznámení TTS (Alexander Borsuk)
 
 
-Připojte se k beta testování, vyzkoušejte nové funkce a nahlaste problémy:
+Připoj se k beta testování, vyzkoušej nové funkce a nahlas problémy:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existuje díky vašim [darům](@/donate/index.cs.md) a [příspěvkům](@/contribute/index.cs.md) ❤️
+Organic Maps existuje díky tvým [darům](@/donate/index.cs.md) a [příspěvkům](@/contribute/index.cs.md) ❤️
 
 Tým Organic Maps
 

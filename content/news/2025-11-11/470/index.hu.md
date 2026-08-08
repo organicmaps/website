@@ -33,7 +33,7 @@ taxonomies:
 - Az Android Auto mindig az autós útvonaltervezési módot használja (Andrei Shkrob)
 - Hagyományos kínai fordítások használata Hongkong (zh-HK) és Makaó (zh-MO) régiókban (Alexander Borsuk)
 
-Kérjük, tudassa velünk, ha bármilyen x86-os eszközön (beleértve a Chromebookokat is) futtatni tudja az Organic Maps-et OpenGL ES 3 támogatással.
+Kérjük, tudasd velünk, ha bármilyen x86-os eszközön (beleértve a Chromebookokat is) futtatni tudod az Organic Maps-et OpenGL ES 3 támogatással.
 
 ### Térkép és stílusok
 
@@ -62,13 +62,13 @@ Kérjük, tudassa velünk, ha bármilyen x86-os eszközön (beleértve a Chromeb
 
 Korábbi kiadási megjegyzések: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Szerezze be a legújabb Organic Maps verziót az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
+Szerezd be a legújabb Organic Maps verziót az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
 
-P.S. Csatlakozzon a bétateszteléshez a korai funkciókért, és segítsen nekünk megtalálni a hibákat és problémákat:
+P.S. Csatlakozz a bétateszteléshez a korai funkciókért, és segíts nekünk megtalálni a hibákat és problémákat:
 - [iOS][testflight]
 - [Android][firebase].
 
-Köszönjük, hogy az Organic Maps-et használja és támogatja a projektet!
+Köszönjük, hogy az Organic Maps-et használod és támogatod a projektet!
 
 Az Organic Maps csapata
 

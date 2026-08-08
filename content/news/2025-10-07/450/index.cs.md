@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Tato říjnová aktualizace Organic Maps přidává zobrazení rychlostních limitů v Android Auto, import GeoJSON, statistiky nahrávání tras, zobrazuje značky popisu OSM (zadejte `?description` do vyhledávacího pole, abyste je viděli) a ukládá značku na trase v iOS. Existuje také mnoho vylepšení uživatelského rozhraní, úprav OpenStreetMap a různé opravy chyb na všech platformách, včetně opravy pády při spuštění na některých zařízeních Android.
+Tato říjnová aktualizace Organic Maps přidává zobrazení rychlostních limitů v Android Auto, import GeoJSON, statistiky nahrávání tras, zobrazuje značky popisu OSM (zadej `?description` do vyhledávacího pole, abys je viděl) a ukládá značku na trase v iOS. Existuje také mnoho vylepšení uživatelského rozhraní, úprav OpenStreetMap a různé opravy chyb na všech platformách, včetně opravy pády při spuštění na některých zařízeních Android.
 
-Organic Maps je možný díky ❤️ našim přispěvatelům, [vašim darům](@/donate/index.cs.md) a [vaší podpoře](@/contribute/index.cs.md).
+Organic Maps je možný díky ❤️ našim přispěvatelům, [tvým darům](@/donate/index.cs.md) a [tvé podpoře](@/contribute/index.cs.md).
 
 ### Podrobné poznámky k vydání (včetně změn předchozí menší aktualizace)
 
@@ -68,17 +68,17 @@ Organic Maps je možný díky ❤️ našim přispěvatelům, [vašim darům](@/
 - Možnost zrušení stahování (Viktor Govako)
 - Zobrazení typu geometrie v kontextovém menu (Viktor Govako)
 
-### Nedávno vydané funkce, které jste mohli přehlédnout
+### Nedávno vydané funkce, které jsi mohl přehlédnout
 
 - Čísla tras veřejné dopravy při výběru autobusové zastávky
-- Pěší a cyklistické trasy (aktivujte je přes tlačítko Vrstvy v levém horním rohu)
+- Pěší a cyklistické trasy (aktivuj je přes tlačítko Vrstvy v levém horním rohu)
 - Zobrazení názvů značek na mapě jejich aktivací v nastavení aplikace
 - Ikona tužky ✎ nabízí rychlý způsob úpravy značek
 
 ### Instalace Organic Maps
 
-Získejte nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Získej nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Připojte se k beta testování pro včasné funkce: [iOS][testflight] / [Android][firebase].
+Připoj se k beta testování pro včasné funkce: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-Az október 23-i kiadásban a javításokra és fejlesztésekre összpontosítottunk. Nézze meg az alábbi részletes listát.
+Az október 23-i kiadásban a javításokra és fejlesztésekre összpontosítottunk. Nézd meg az alábbi részletes listát.
 
 Azoknak, akik lemaradtak róla, az [előző október 7-i frissítés](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) hozzáadta a GeoJSON importálást, a nyomvonalrögzítési statisztikákat, a sebességkorlát megjelenítését az Android Auto-ban, az OSM leíró címkék megjelenítését (írja be a `?description` szöveget a keresőmezőbe a megtekintéshez), könyvjelző mentését egy nyomvonalon iOS-en, és sok más fejlesztést.
+) hozzáadta a GeoJSON importálást, a nyomvonalrögzítési statisztikákat, a sebességkorlát megjelenítését az Android Auto-ban, az OSM leíró címkék megjelenítését (írd be a `?description` szöveget a keresőmezőbe a megtekintéshez), könyvjelző mentését egy nyomvonalon iOS-en, és sok más fejlesztést.
 
 ## Minden platform
 
@@ -32,7 +32,7 @@ Azoknak, akik lemaradtak róla, az [előző október 7-i frissítés](https://or
 - Javítva a fehér-fehér állapotsáv navigációs módban (Kiryl Kaveryn)
 - Megnövelt Navigáció indítása gomb méret (Kiryl Kaveryn)
 - Eltávolítva az üres hely útvonaltervezéskor iPaden (Kiryl Kaveryn)
-- Az Organic Maps megkérheti Önt, hogy értékelje az App Store-ban. A jó értékelései motiválják csapatunkat!
+- Az Organic Maps megkérhet téged, hogy értékeld az App Store-ban. A jó értékeléseid motiválják csapatunkat!
 
 ## Android
 
@@ -55,9 +55,9 @@ Azoknak, akik lemaradtak róla, az [előző október 7-i frissítés](https://or
 
 Az Organic Maps lehetséges köszönhetően ❤️ közreműködőinknek, [adományaidnak](@/donate/index.hu.md) és [támogatásodnak](@/contribute/index.hu.md).
 
-Szerezze be a legújabb Organic Maps verziót az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalról.
+Szerezd be a legújabb Organic Maps verziót az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalról.
 
-P.S. Csatlakozzon a béta teszteléshez a korai funkciókért:
+P.S. Csatlakozz a béta teszteléshez a korai funkciókért:
 - [iOS][testflight]
 - [Android][firebase].
 

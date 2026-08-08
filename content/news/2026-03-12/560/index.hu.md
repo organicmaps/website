@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-A márciusi Organic Maps frissítés több időt vett igénybe a javítások és a Google Play felülvizsgálata miatt. Az [Accrescent][accrescent] frissítés még mindig nem készült el az Accrescent alkalmazásbolt problémái miatt. A frissítést a <https://get.omaps.org> oldalon vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalakon szerezze be.
+A márciusi Organic Maps frissítés több időt vett igénybe a javítások és a Google Play felülvizsgálata miatt. Az [Accrescent][accrescent] frissítés még mindig nem készült el az Accrescent alkalmazásbolt problémái miatt. A frissítést a <https://get.omaps.org> oldalon vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalakon szerezd be.
 
-P.S. Lépjen kapcsolatba velünk e-mailben az <sdk@organicmaps.app> címen, ha érdekli az iOS/Android/Linux/MacOS/Windows SDK offline térképekkel, amelyeket újra felhasználhat a projektjeiben.
+P.S. Lépj kapcsolatba velünk e-mailben az <sdk@organicmaps.app> címen, ha érdekel az iOS/Android/Linux/MacOS/Windows SDK offline térképekkel, amelyeket újra felhasználhatsz a projektjeidben.
 
 P.P.S. Tudtad, hogy az API-t már használhatod az alkalmazásodban, ha az Organic Maps alkalmazás is telepítve van? Nézd meg itt: <https://omaps.app/api>
 

@@ -12,17 +12,17 @@ aliases:
   - /cs/faq/map/how-to-create-a-route/
 ---
 
-Jakmile je vaše poloha určena na mapě, vyberte cíl.
-Můžete použít jeden z následujících způsobů:
+Jakmile je tvoje poloha určena na mapě, vyber cíl.
+Můžeš použít jeden z následujících způsobů:
 
-* klepněte na tlačítko vyhledávání
-* klepněte na tlačítko záložek
-* klepněte na libovolné místo na mapě
+* klepni na tlačítko vyhledávání
+* klepni na tlačítko záložek
+* klepni na libovolné místo na mapě
 
-Jakmile vyberete cílový bod, stiskněte tlačítko „Route to“ ve spodní části. Trasa se vytvoří a uvidíte vzdálenost a odhadovanou dobu cesty. Typ trasy můžete změnit stisknutím ikony Auto, Chodec, Metro, Kolo nebo Pravítko v horní části obrazovky. Chcete-li začít sledovat trasu, klepněte na tlačítko „Start“. Stiskněte šipku v pravém dolním rohu obrazovky a dokončete trasu klepnutím na Zastavit.
+Jakmile vybereš cílový bod, stiskni tlačítko „Route to“ ve spodní části. Trasa se vytvoří a uvidíš vzdálenost a odhadovanou dobu cesty. Typ trasy můžeš změnit stisknutím ikony Auto, Chodec, Metro, Kolo nebo Pravítko v horní části obrazovky. Chceš-li začít sledovat trasu, klepni na tlačítko „Start“. Stiskni šipku v pravém dolním rohu obrazovky a dokonči trasu klepnutím na Zastavit.
 
-Chcete-li zobrazit náhled trasy, můžete si vybrat jiný výchozí bod (tlačítko „Trasa z“), ale navigace je dostupná pouze z vaší aktuální polohy.
+Chceš-li zobrazit náhled trasy, můžeš si vybrat jiný výchozí bod (tlačítko „Trasa z“), ale navigace je dostupná pouze z tvojí aktuální polohy.
 
-Do trasy můžete přidat až 100 mezilehlých bodů. Chcete-li přidat mezilehlý bod, vytvořte trasu mezi začátkem a cílem, poté klepněte na bod na mapě (nebo jej vyberte ze záložek/pomocí vyhledávání) a klepněte na „Přidat zastávku“.
+Do trasy můžeš přidat až 100 mezilehlých bodů. Chceš-li přidat mezilehlý bod, vytvoř trasu mezi začátkem a cílem, poté klepni na bod na mapě (nebo jej vyber ze záložek/pomocí vyhledávání) a klepni na „Přidat zastávku“.
 
-Můžete změnit nastavení trasy pro auto a vybrat typy silnic, kterým se chcete vyhnout (mýtné, nezpevněné silnice, dálnice, trajekty). Otevřete nastavení aplikace → Možnosti směrování → Zapnout potřebné možnosti. Při vytváření trasy se také zobrazují možnosti Vyhnout se, pokud změna některé z možností může změnit trasu.
+Můžeš změnit nastavení trasy pro auto a vybrat typy silnic, kterým se chceš vyhnout (mýtné, nezpevněné silnice, dálnice, trajekty). Otevři nastavení aplikace → Možnosti směrování → Zapnout potřebné možnosti. Při vytváření trasy se také zobrazují možnosti Vyhnout se, pokud změna některé z možností může změnit trasu.

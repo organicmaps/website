@@ -5,11 +5,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Seznamte se s červencovou aktualizací Organic Maps s mnoha opravami a vylepšeními, díky našim přispěvatelům ❤️💪! Aktualizace je již dostupná v [AppStore][appstore], [Obtainium][obtainium] a [Accrescent][accrescent] a bude připravena v [Google Play][googleplay], [Huawei AppGallery][appgallery] a [FDroid][fdroid] za několik dní.
+Seznam se s červencovou aktualizací Organic Maps s mnoha opravami a vylepšeními, díky našim přispěvatelům ❤️💪! Aktualizace je již dostupná v [AppStore][appstore], [Obtainium][obtainium] a [Accrescent][accrescent] a bude připravena v [Google Play][googleplay], [Huawei AppGallery][appgallery] a [FDroid][fdroid] za několik dní.
 
-[Vaše dary](@/donate/index.cs.md) a [podpora](@/contribute/index.cs.md), [hlášení chyb][github issues] a [vylepšení][github] nám pomáhají vytvářet lepší mapy společně!
+[Tvoje dary](@/donate/index.cs.md) a [podpora](@/contribute/index.cs.md), [hlášení chyb][github issues] a [vylepšení][github] nám pomáhají vytvářet lepší mapy společně!
 
-Nezapomeňte, že se můžete přihlásit k beta testovacímu programu pro dřívější přístup k experimentálním a nadcházejícím funkcím [pro iOS][testflight] a [pro Android][firebase].
+Nezapomeň, že se můžeš přihlásit k beta testovacímu programu pro dřívější přístup k experimentálním a nadcházejícím funkcím [pro iOS][testflight] a [pro Android][firebase].
 
 Úplný seznam změn:
 - Nová mapová data OSM k 8. červenci, data Wikipedie k 1. červenci
@@ -20,7 +20,7 @@ Nezapomeňte, že se můžete přihlásit k beta testovacímu programu pro dří
 - Nová ikona Záložek a Stop na mapě pomáhá uživatelům najít jejich zaznamenané nebo importované stopy (_@euf_)
 - Nabíjecí stanice mají nyní svou vlastní rozpoznatelnou ikonu na mapě a ve vyhledávání (_David Martinez_)
 - Uložení nadmořské výšky/výšky (_pokud je přítomna_) při ukládání trasy (_Kiryl Kaveryn_)
-- Aktualizované překlady, můžete pomoci opravit špatné nebo chybějící překlady [na Weblate][weblate]
+- Aktualizované překlady, můžeš pomoci opravit špatné nebo chybějící překlady [na Weblate][weblate]
 
 Android:
 - Opraveno nefunkční tlačítko Zpět na Android 16 (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 Změny iOS, všechny zásluhy _Kiryl Kaveryn_:
 - Vylepšená úprava záložek a stop: změna barvy a seznamu přímo ze Stránky informací o stopě
-- Nyní můžete upravit nebo smazat zaznamenanou stopu ihned po jejím uložení
+- Nyní můžeš upravit nebo smazat zaznamenanou stopu ihned po jejím uložení
 - Rozšířená oblast klepnutí pro tlačítka
 - Opraveny skákající OSM poznámky při psaní textu
 - Zobrazení tlačítka "Přidat místo" pro podniky
 
-P.S. Pokud rádi čtete podrobné poznámky k vydání, dejte nám prosím vědět na našich [sociálních sítích](/cs/#komunita)
+P.S. Pokud rád čteš podrobné poznámky k vydání, dej nám prosím vědět na našich [sociálních sítích](/cs/#komunita)
 
 {{ references() }}

@@ -12,15 +12,15 @@ aliases:
   - /lt/faq/voice/cant-hear-instructions/
 ---
 
-**Pastaba:** balso nurodymai galimi automobilių ir dviračių maršrutams. Kol kas balso instrukcijas galite išgirsti tik vairuodami ir įjungus ekraną.
+**Pastaba:** balso nurodymai galimi automobilių ir dviračių maršrutams. Kol kas balso instrukcijas gali išgirsti tik vairuodamas ir įjungus ekraną.
 
-Jei negirdite nurodymų balsu:
+Jei negirdi nurodymų balsu:
 
-* Įsitikinkite, kad jūsų įrenginio garsas nėra nutildytas. Garsumo lygį galite keisti įrenginio garsumo mygtukais. Norėdami tai padaryti, įrenginio nustatymuose → Garsai gali tekti išjungti parinktį „Keisti mygtukais“ (jei įjungta).
+* Įsitikink, kad tavo įrenginio garsas nėra nutildytas. Garsumo lygį gali keisti įrenginio garsumo mygtukais. Norėdamas tai padaryti, įrenginio nustatymuose → Garsai gali tekti išjungti parinktį „Keisti mygtukais“ (jei įjungta).
 
-* Praneškite apie visas „Bluetooth“ problemas pateikdami reikiamą informaciją mūsų [GitHub](https://github.com/organicmaps/organicmaps/issues)
+* Pranešk apie visas „Bluetooth“ problemas pateikdamas reikiamą informaciją mūsų [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Jei esate „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrinkite [TTS nustatymus](@/faq/voice/text-to-speech-android-tts/index.lt.md).
+* Jei esi „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrink [TTS nustatymus](@/faq/voice/text-to-speech-android-tts/index.lt.md).
 
 „Android“ balso instrukcijos pasiekiamos 39 kalbomis: anglų, arabų, baskų, baltarusių, katalonų, kinų (supaprastinta ir tradicinė), kroatų, čekų, danų, olandų, suomių, prancūzų, vokiečių, graikų, hindi, vengrų, indoneziečių, italų, japonų, korėjiečių, maratų, norvegų, slovakų, persų (persų, rusų), lenkų, rumunų, portugalų (B), lenkų, portugalų (B) Ispanų, ispanų (Meksika), suahilių, švedų, tajų, turkų, ukrainiečių, vietnamiečių.
 

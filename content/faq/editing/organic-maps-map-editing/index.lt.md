@@ -12,25 +12,25 @@ aliases:
   - /lt/faq/editing/organic-maps-map-editing/
 ---
 
-Naudodami Organic Maps galite lengvai pridėti trūkstamas vietas į žemėlapį, pridėti papildomos informacijos, pvz., darbo valandas, arba pataisyti neteisingus įrašus. Tai darydami pagerinsite visų naudotojų žemėlapio duomenis.
+Naudodamas Organic Maps gali lengvai pridėti trūkstamas vietas į žemėlapį, pridėti papildomos informacijos, pvz., darbo valandas, arba pataisyti neteisingus įrašus. Tai darydamas pagerinsi visų naudotojų žemėlapio duomenis.
 
-Kadangi [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) yra pagrindinis Organic Maps žemėlapio duomenų šaltinis, jūsų atlikti pakeitimai siunčiami į OSM. OSM yra bendruomenės projektas, skirtas sukurti nemokamą ir atvirą žemėlapį. Jis veikia panašiai kaip Vikipedija, todėl viskas, ką redaguojate, tampa prieinama milijonams vartotojų visame pasaulyje. Prisijunkite prie bendruomenės ir padėkite sukurti geresnį žemėlapį visiems!
+Kadangi [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) yra pagrindinis Organic Maps žemėlapio duomenų šaltinis, tavo atlikti pakeitimai siunčiami į OSM. OSM yra bendruomenės projektas, skirtas sukurti nemokamą ir atvirą žemėlapį. Jis veikia panašiai kaip Vikipedija, todėl viskas, ką redaguoji, tampa prieinama milijonams vartotojų visame pasaulyje. Prisijunk prie bendruomenės ir padėk sukurti geresnį žemėlapį visiems!
 
-**Jei norite redaguoti OpenStreetMap iš Organic Maps programos:**
-1. Sukurkite paskyrą [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
-2. Prisijunkite prie savo paskyros Organic Maps programėlėje (mėsainio piktograma -> *nustatymai* -> *OpenStreetMap-Profile*)
-3. Dabar galite redaguoti esamas vietas arba pridėti naujų
+**Jei nori redaguoti OpenStreetMap iš Organic Maps programos:**
+1. Sukurk paskyrą [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
+2. Prisijunk prie savo paskyros Organic Maps programėlėje (mėsainio piktograma -> *nustatymai* -> *OpenStreetMap-Profile*)
+3. Dabar gali redaguoti esamas vietas arba pridėti naujų
 	- Redaguoti esamą vietą
-		- pasirinkite vietą bakstelėdami ant žemėlapio piktogramos
-		- bakstelėkite *redaguoti vietą*
-		- Pridėkite papildomos informacijos
-		- Išsaugokite pakeitimus ir išeikite naudodami tikrinimo rodyklę
-	- Įtraukite vietą į žemėlapį
+		- pasirink vietą bakstelėdamas ant žemėlapio piktogramos
+		- bakstelėk *redaguoti vietą*
+		- Pridėk papildomos informacijos
+		- Išsaugok pakeitimus ir išeik naudodamas tikrinimo rodyklę
+	- Įtrauk vietą į žemėlapį
 		- mėsainio piktograma -> *Pridėti vietą į OpenStreetMap*
-		- Pasirinkite vietą kuo tiksliau ir paspauskite tikrinimo rodyklę
-		- Pasirinkite kategoriją
-			> Nerandate tinkamos kategorijos? Tada sukurkite [OSM pastabą](@/faq/editing/advanced-map-editing/index.lt.md#osm-note).
-		- Pridėkite papildomos informacijos, pvz., pavadinimą, darbo valandas ir svetainę
-		- Išsaugokite pakeitimus ir išeikite naudodami tikrinimo rodyklę
+		- Pasirink vietą kuo tiksliau ir paspausk tikrinimo rodyklę
+		- Pasirink kategoriją
+			> Nerandi tinkamos kategorijos? Tada sukurk [OSM pastabą](@/faq/editing/advanced-map-editing/index.lt.md#osm-note).
+		- Pridėk papildomos informacijos, pvz., pavadinimą, darbo valandas ir svetainę
+		- Išsaugok pakeitimus ir išeik naudodamas tikrinimo rodyklę
 
-Atkreipkite dėmesį, kad redaktorius sukurtas kaip paprastas POI redaktorius ir todėl apsiriboja POI. Galite, pvz., nepridėti kelių, ežerų, pastatų kontūrų ir pan. Be to, negalima perkelti vietų į naują vietą. Jei negalite ko nors redaguoti naudodami Organic Maps, peržiūrėkite puslapį [Išplėstinis žemėlapio redagavimas](@/faq/editing/advanced-map-editing/index.lt.md).
+Atkreipk dėmesį, kad redaktorius sukurtas kaip paprastas POI redaktorius ir todėl apsiriboja POI. Gali, pvz., nepridėti kelių, ežerų, pastatų kontūrų ir pan. Be to, negalima perkelti vietų į naują vietą. Jei negali ko nors redaguoti naudodamas Organic Maps, peržiūrėk puslapį [Išplėstinis žemėlapio redagavimas](@/faq/editing/advanced-map-editing/index.lt.md).

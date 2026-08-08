@@ -12,20 +12,20 @@ aliases:
   - /lt/faq/app/crash/
 ---
 
-Jei naudojate „Android“, žemėlapius saugote SD kortelėje, greičiausiai priežastis yra sugedusi SD kortelė. Galite:
-1. Ištrinkite visus atsisiųstus žemėlapius ir dar kartą atsisiųskite juos į SD kortelę (gali nebeveikti).
-2. Ištrinkite visus atsisiųstus žemėlapius, pasirinkite Vidinė įrenginio saugykla ir iš naujo atsisiųskite žemėlapius.
-3. Suformatuokite SD kortelę ir iš naujo atsisiųskite žemėlapius.
-4. Įsigykite naują SD kortelę (rekomenduojama)
+Jei naudoji „Android“, žemėlapius saugai SD kortelėje, greičiausiai priežastis yra sugedusi SD kortelė. Gali:
+1. Ištrink visus atsisiųstus žemėlapius ir dar kartą atsisiųsk juos į SD kortelę (gali nebeveikti).
+2. Ištrink visus atsisiųstus žemėlapius, pasirink Vidinė įrenginio saugykla ir iš naujo atsisiųsk žemėlapius.
+3. Suformatuok SD kortelę ir iš naujo atsisiųsk žemėlapius.
+4. Įsigyk naują SD kortelę (rekomenduojama)
 
-Jei programa vis tiek stringa, patikrinkite [mūsų GitHub](https://github.com/organicmaps/organicmaps/issues/), ar nėra panašių problemų, ir [susisiekite su mumis](mailto:support@organicmaps.app) ir pateikite:
+Jei programa vis tiek stringa, patikrink [mūsų GitHub](https://github.com/organicmaps/organicmaps/issues/), ar nėra panašių problemų, ir [susisiek su mumis](mailto:support@organicmaps.app) ir pateik:
 
 * Išsamus problemos aprašymas ir veiksmai, kaip ją atkurti
 * Organic Maps versija
 * Įrenginio modelis ir OS versija („Android“ arba „iOS“)
 
 Arba alternatyviai:
-1. Programėlės nustatymuose įjunkite žurnalų įrašymą.
-2. Priverstinai iš naujo paleiskite programėlę.
-3. Atkurkite strigtį.
-4. Atsiųskite mums žurnalo failą per „Pranešti apie klaidą“ ekrane Apie ir pridėkite trumpą strigties aprašymą.
+1. Programėlės nustatymuose įjunk žurnalų įrašymą.
+2. Priverstinai iš naujo paleisk programėlę.
+3. Atkurk strigtį.
+4. Atsiųsk mums žurnalo failą per „Pranešti apie klaidą“ ekrane Apie ir pridėk trumpą strigties aprašymą.

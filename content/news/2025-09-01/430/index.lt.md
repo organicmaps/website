@@ -1,13 +1,13 @@
 ---
-title: "Žiūrėkite maršrutų numerius autobusų stotelėse ir daugiau: Rugsėjo leidimo akcentai"
+title: "Žiūrėk maršrutų numerius autobusų stotelėse ir daugiau: Rugsėjo leidimo akcentai"
 date: 2025-09-01T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Dabar, kai pasirenkate autobusų ar tramvajų stotelę, galite matyti viešojo transporto maršrutų numerius. Tai tik pirmas žingsnis! Toliau planuojame rodyti viešojo transporto maršrutus tiesiogiai žemėlapyje. iOS vartotojai taip pat gali mėgautis iš naujo suprojektuotais OpenStreetMap įnašų mygtukais („Pridėti vietą" ir „Redaguoti vietą").
+Dabar, kai pasirenki autobusų ar tramvajų stotelę, gali matyti viešojo transporto maršrutų numerius. Tai tik pirmas žingsnis! Toliau planuojame rodyti viešojo transporto maršrutus tiesiogiai žemėlapyje. iOS vartotojai taip pat gali mėgautis iš naujo suprojektuotais OpenStreetMap įnašų mygtukais („Pridėti vietą" ir „Redaguoti vietą").
 
-Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [jūsų aukas](@/donate/index.lt.md) ir [jūsų palaikymą](@/contribute/index.lt.md).
+Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [tavo aukas](@/donate/index.lt.md) ir [tavo palaikymą](@/contribute/index.lt.md).
 
 ### Išsamūs leidimo pastabos
 
@@ -44,10 +44,10 @@ Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [jūsų aukas](@/donat
 - Atkurta originali iš anksto nustatytų žymių/takelių spalvų tvarka (Andrei Shkrob)
 - Ištaisytas „Išvalyti paiešką" mygtukas redaguojant virtuvės (Ansh Jain)
 
-Gaukite naujausią rugsėjo Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ir [F-Droid][fdroid].
+Gauk naujausią rugsėjo Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ir [F-Droid][fdroid].
 
-Jei dar nebandėte, dabar galite įjungti funkciją Organic Maps nustatymuose, kad matytumėte žymių pavadinimus žemėlapyje. Be to, pieštuko piktograma ✎ dabar naudojama kaip greitesnis būdas redaguoti žymes.
+Jei dar nebandei, dabar gali įjungti funkciją Organic Maps nustatymuose, kad matytum žymių pavadinimus žemėlapyje. Be to, pieštuko piktograma ✎ dabar naudojama kaip greitesnis būdas redaguoti žymes.
 
-P.S. Nepamirškite, galite registruotis mūsų beta testavimo programoje, kad gautumėte ankstyvą prieigą prie eksperimentinių ir būsimų funkcijų—[iOS][testflight] ir [Android][firebase].
+P.S. Nepamiršk, gali registruotis mūsų beta testavimo programoje, kad gautum ankstyvą prieigą prie eksperimentinių ir būsimų funkcijų—[iOS][testflight] ir [Android][firebase].
 
 {{ references() }}

@@ -11,7 +11,7 @@ taxonomies:
 ### Visos platformos
 
 - *NAUJIENA!* Pasaulio žemėlapyje paryškinti atsisiųsti regionai (Viktor Govako)
-- *NAUJIENA!* Pasaulio žemėlapyje nuo 8 mastelio lygio matykite ir ieškokite gamtos rezervatų, nacionalinių parkų, saugomų teritorijų, aborigenų žemių, pavojingų zonų ir ežerų (Viktor Govako)
+- *NAUJIENA!* Pasaulio žemėlapyje nuo 8 mastelio lygio matyk ir ieškok gamtos rezervatų, nacionalinių parkų, saugomų teritorijų, aborigenų žemių, pavojingų zonų ir ežerų (Viktor Govako)
 - *NAUJIENA!* Maršrutų parinkimas dabar palaiko kelių uždarymo laikus (Viktor Govako)
 
 - OpenStreetMap duomenys 2025 m. lapkričio 9 d. (Viktor Govako)
@@ -33,7 +33,7 @@ taxonomies:
 - „Android Auto“ visada naudoja automobilio maršruto režimą (Andrei Shkrob)
 - Naudojami tradicinės kinų kalbos vertimai Honkongo (zh-HK) ir Makao (zh-MO) regionams (Alexander Borsuk)
 
-Praneškite mums, jei galite paleisti „Organic Maps“ bet kuriame x86 įrenginyje (įskaitant „Chromebook“) su „OpenGL ES 3“ palaikymu.
+Pranešk mums, jei gali paleisti „Organic Maps“ bet kuriame x86 įrenginyje (įskaitant „Chromebook“) su „OpenGL ES 3“ palaikymu.
 
 ### Žemėlapis ir stiliai
 
@@ -62,13 +62,13 @@ Praneškite mums, jei galite paleisti „Organic Maps“ bet kuriame x86 įrengi
 
 Ankstesnės leidimo pastabos: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Gaukite naujausią „Organic Maps“ versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Gauk naujausią „Organic Maps“ versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-P.S. Prisijunkite prie beta testavimo, kad gautumėte ankstyvąsias funkcijas ir padėtumėte mums rasti klaidų ir problemų:
+P.S. Prisijunk prie beta testavimo, kad gautum ankstyvąsias funkcijas ir padėtum mums rasti klaidų ir problemų:
 - [iOS][testflight]
 - [Android][firebase].
 
-Dėkojame, kad naudojatės „Organic Maps“ ir remiate projektą!
+Dėkojame, kad naudojiesi „Organic Maps“ ir remi projektą!
 
 „Organic Maps“ komanda
 

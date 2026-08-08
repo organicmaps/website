@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką "Sluoksniai", kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
+Įdiek rugpjūčio Organic Maps leidimą, atsisiųsk naujausius žemėlapius ir atrask populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspausk viršuje kairėje esantį mygtuką "Sluoksniai", kad pamatytum spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematai nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
 
-Ar žinojote, kad bet kurį įrašytą ar importuotą GPX/KML takelį žemėlapyje galima pasirinkti? Takeliai su aukščio duomenimis parodys savo aukščio grafiką.
+Ar žinojai, kad bet kurį įrašytą ar importuotą GPX/KML takelį žemėlapyje galima pasirinkti? Takeliai su aukščio duomenimis parodys savo aukščio grafiką.
 
-Norėdami matyti žymių pavadinimus žemėlapyje, įjunkite šią naują funkciją Organic Maps nustatymuose.
+Norėdamas matyti žymių pavadinimus žemėlapyje, įjunk šią naują funkciją Organic Maps nustatymuose.
 
-Dėkojame mūsų bendradarbiams ❤️ ir jūsų [aukoms](@/donate/index.lt.md), šiame atnaujinime yra daug daugiau.
+Dėkojame mūsų bendradarbiams ❤️ ir tavo [aukoms](@/donate/index.lt.md), šiame atnaujinime yra daug daugiau.
 
-P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
+P.S. ...ir daug daugiau ateina! Tavo palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
 
 ### Išsamūs leidimo pastabos
 
@@ -53,6 +53,6 @@ P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti 
 - Ispanų kalbos vertimas daugiau paieškos kategorijų (David Martinez)
 - Atnaujinti įvairūs vertimai (Weblate bendradarbiai)
 
-Gaukite Organic Maps iš [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [FDroid][fdroid].
+Gauk Organic Maps iš [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [FDroid][fdroid].
 
 {{ references() }}

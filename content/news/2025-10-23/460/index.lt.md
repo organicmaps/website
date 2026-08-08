@@ -9,7 +9,7 @@ taxonomies:
 Spalio 23 d. leidime sutelkėme dėmesį į pataisymus ir patobulinimus. Žemiau pateikiamas išsamus sąrašas.
 
 Tiems, kas praleido, [ankstesnis spalio 7 d. atnaujinimas](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) pridėjo GeoJSON importavimą, tako įrašymo statistiką, greičio ribojimo rodymą Android Auto, OSM aprašymo žymių rodymą (įveskite `?description` paieškos lauke, kad jas pamatytumėte), žymelės išsaugojimą ant tako iOS sistemoje ir daugelį kitų patobulinimų.
+) pridėjo GeoJSON importavimą, tako įrašymo statistiką, greičio ribojimo rodymą Android Auto, OSM aprašymo žymių rodymą (įvesk `?description` paieškos lauke, kad jas pamatytum), žymelės išsaugojimą ant tako iOS sistemoje ir daugelį kitų patobulinimų.
 
 ## Visos platformos
 
@@ -32,7 +32,7 @@ Tiems, kas praleido, [ankstesnis spalio 7 d. atnaujinimas](https://organicmaps.a
 - Pataisyta balta ant baltos būsenos juosta navigacijos režimu (Kiryl Kaveryn)
 - Padidintas Pradėti navigaciją mygtuko dydis (Kiryl Kaveryn)
 - Pašalinta tuščia vieta planuojant maršrutą iPad įrenginyje (Kiryl Kaveryn)
-- Organic Maps gali paprašyti jūsų įvertinti jį App Store. Jūsų geri atsiliepimai motyvuoja mūsų komandą!
+- Organic Maps gali paprašyti tavęs įvertinti jį App Store. Tavo geri atsiliepimai motyvuoja mūsų komandą!
 
 ## Android
 
@@ -53,11 +53,11 @@ Tiems, kas praleido, [ankstesnis spalio 7 d. atnaujinimas](https://organicmaps.a
 
 ## Išnašos
 
-Organic Maps yra įmanomas dėka ❤️ mūsų bendradarbiams, [jūsų paaukojimams](@/donate/index.lt.md) ir [jūsų palaikymui](@/contribute/index.lt.md).
+Organic Maps yra įmanomas dėka ❤️ mūsų bendradarbiams, [tavo paaukojimams](@/donate/index.lt.md) ir [tavo palaikymui](@/contribute/index.lt.md).
 
-Gaukite naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Gauk naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-P.S. Prisijunkite prie beta testavimo ankstyvoms funkcijoms:
+P.S. Prisijunk prie beta testavimo ankstyvoms funkcijoms:
 - [iOS][testflight]
 - [Android][firebase].
 

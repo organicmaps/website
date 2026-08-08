@@ -5,11 +5,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Susipažinkite su Organic Maps liepos atnaujinimu su daugybe pataisymų ir patobulinimų, ačiū mūsų talkininkams ❤️💪! Atnaujinimas jau prieinamas [AppStore][appstore], [Obtainium][obtainium] ir [Accrescent][accrescent], ir bus paruoštas [Google Play][googleplay], [Huawei AppGallery][appgallery] ir [FDroid][fdroid] per kelias dienas.
+Susipažink su Organic Maps liepos atnaujinimu su daugybe pataisymų ir patobulinimų, ačiū mūsų talkininkams ❤️💪! Atnaujinimas jau prieinamas [AppStore][appstore], [Obtainium][obtainium] ir [Accrescent][accrescent], ir bus paruoštas [Google Play][googleplay], [Huawei AppGallery][appgallery] ir [FDroid][fdroid] per kelias dienas.
 
-[Jūsų parama](@/donate/index.lt.md) ir [pagalba](@/contribute/index.lt.md), [klaidų pranešimai][github issues] ir [patobulinimai][github] padeda mums kartu kurti geresnius žemėlapius!
+[Tavo parama](@/donate/index.lt.md) ir [pagalba](@/contribute/index.lt.md), [klaidų pranešimai][github issues] ir [patobulinimai][github] padeda mums kartu kurti geresnius žemėlapius!
 
-Nepamirškite, kad galite užsiregistruoti beta testavimo programoje, kad gautumėte ankstesnį prieigą prie eksperimentinių ir būsimų funkcijų [iOS][testflight] ir [Android][firebase].
+Nepamiršk, kad gali užsiregistruoti beta testavimo programoje, kad gautum ankstesnį prieigą prie eksperimentinių ir būsimų funkcijų [iOS][testflight] ir [Android][firebase].
 
 Visas pakeitimų sąrašas:
 - Nauji OSM žemėlapio duomenys iki liepos 8 d., Wikipedia duomenys iki liepos 1 d.
@@ -20,7 +20,7 @@ Visas pakeitimų sąrašas:
 - Nauja žymeklių ir maršrutų piktograma žemėlapyje, padedanti naudotojams rasti savo įrašytus ar importuotus maršrutus (_@euf_)
 - Įkrovimo stotys dabar turi savo atpažįstamą piktogramą žemėlapyje ir paieškoje (_David Martinez_)
 - Išsaugoti aukštį/altitudę (_jei yra_) išsaugant maršrutą (_Kiryl Kaveryn_)
-- Atnaujinti vertimai, galite padėti ištaisyti neteisingus ar trūkstamus vertimus [Weblate][weblate]
+- Atnaujinti vertimai, gali padėti ištaisyti neteisingus ar trūkstamus vertimus [Weblate][weblate]
 
 Android:
 - Ištaisytas neveikiantis Atgal mygtukas Android 16 (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 iOS pakeitimai, visi kreditus _Kiryl Kaveryn_:
 - Pagerintas žymeklių ir maršrutų redagavimas: keisti spalvą ir sąrašą tiesiogiai iš Maršruto informacijos puslapio
-- Dabar galite redaguoti ar ištrinti įrašytą maršrutą iš karto po išsaugojimo
+- Dabar gali redaguoti ar ištrinti įrašytą maršrutą iš karto po išsaugojimo
 - Išplėsta paliečiama zona mygtukams
 - Ištaisytos šokančios OSM pastabos rašant tekstą
 - Rodyti "Pridėti vietą" mygtuką verslams
 
-P.S. Jei mėgstate skaityti išsamias leidimo pastabas, praneškite mums mūsų [socialiniuose tinkluose](/#community)
+P.S. Jei mėgsti skaityti išsamias leidimo pastabas, pranešk mums mūsų [socialiniuose tinkluose](/#community)
 
 {{ references() }}

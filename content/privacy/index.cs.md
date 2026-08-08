@@ -6,14 +6,14 @@ title: "Organic Maps: Zásady ochrany osobních údajů"
 weight: 900
 ---
 
-Organic Maps respektuje vaše soukromí a NESLEDUJE VÁS.
+Organic Maps respektuje tvoje soukromí a NESLEDUJE TĚ.
 
-Na rozdíl od většiny ostatních aplikací neobsahuje Organic Maps žádné sledování, žádné reklamy ani žádný spyware: nedochází k žádnému shromažďování údajů o poloze, statistických ani osobních údajů z vašeho zařízení.
+Na rozdíl od většiny ostatních aplikací neobsahuje Organic Maps žádné sledování, žádné reklamy ani žádný spyware: nedochází k žádnému shromažďování údajů o poloze, statistických ani osobních údajů z tvého zařízení.
 
-Odmítněte dohled - přijměte svou svobodu.
+Odmítni dohled - přijmi svou svobodu.
 
-Držte se dál od zvědavých očí velkých technologických firem!
+Drž se dál od zvědavých očí velkých technologických firem!
 
-Máte-li jakékoli dotazy nebo návrhy, kontaktujte nás prosím na adrese [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Máš-li jakékoli dotazy nebo návrhy, kontaktuj nás prosím na adrese [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Tyto zásady jsou účinné od 2021-04-24.</sub>

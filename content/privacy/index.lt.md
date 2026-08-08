@@ -6,14 +6,14 @@ extra:
   menu_title: Privatumo politika
 ---
 
-Organic Maps gerbia jūsų privatumą ir JŪSŲ NESEKA.
+Organic Maps gerbia tavo privatumą ir TAVĘS NESEKA.
 
-Skirtingai nei dauguma kitų programėlių, Organic Maps nėra jokio sekimo, jokių reklamų, jokios šnipinėjimo programinės įrangos: jokio buvimo vietos, statistinių ar asmeninių duomenų rinkimo iš jūsų įrenginio.
+Skirtingai nei dauguma kitų programėlių, Organic Maps nėra jokio sekimo, jokių reklamų, jokios šnipinėjimo programinės įrangos: jokio buvimo vietos, statistinių ar asmeninių duomenų rinkimo iš tavo įrenginio.
 
-Atsisakykite sekimo - pasinaudokite savo laisve.
+Atsisakyk sekimo - pasinaudok savo laisve.
 
-Laikykitės atokiau nuo Big Tech smalsių akių!
+Laikykis atokiau nuo Big Tech smalsių akių!
 
-Jei turite klausimų ar pasiūlymų, susisiekite su mumis el. paštu [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Jei turi klausimų ar pasiūlymų, susisiek su mumis el. paštu [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Ši politika galioja nuo 2021-04-24.</sub>

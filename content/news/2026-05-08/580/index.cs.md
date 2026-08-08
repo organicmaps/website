@@ -1,5 +1,5 @@
 ---
-title: "Klepnutím na zastávku veřejné dopravy zobrazíte na mapě linky, popisky záložek se už nepřekrývají a květnová aktualizace Organic Maps přináší menší regiony ke stažení ve Vietnamu, Malajsii a jižní Číně"
+title: "Klepnutím na zastávku veřejné dopravy zobrazíš na mapě linky, popisky záložek se už nepřekrývají a květnová aktualizace Organic Maps přináší menší regiony ke stažení ve Vietnamu, Malajsii a jižní Číně"
 date: 2026-05-08
 slug: "klepnuti-na-zastavku-verejne-dopravy-neprekryvajici-se-popisky-zalozek-mensi-regiony-vietnam-malajsie-cina"
 taxonomies:

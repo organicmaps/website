@@ -13,18 +13,18 @@ aliases:
   - /lt/faq/bookmarks/kaip-importuoti-žymes-ir-takelius-kml-kmz-kmb-arba-gpx-formatu/
 ---
 
-Galite importuoti žymes, atsiųstas iš Organic Maps arba trečiųjų šalių programų, jei jos eksportuoja žymes KML, KMZ, KMB, GPX, GeoJSON (JSON) formatais.
+Gali importuoti žymes, atsiųstas iš Organic Maps arba trečiųjų šalių programų, jei jos eksportuoja žymes KML, KMZ, KMB, GPX, GeoJSON (JSON) formatais.
 
-Norėdami importuoti vieną failą:
+Norėdamas importuoti vieną failą:
 
-1. Raskite bendrinamą KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis, išsiųstomis el. paštu, momentinių pranešimų programa arba debesies saugykla, pvz., „iCloud“ arba „Google“ diske.
+1. Rask bendrinamą KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis, išsiųstomis el. paštu, momentinių pranešimų programa arba debesies saugykla, pvz., „iCloud“ arba „Google“ diske.
 
-2. Bakstelėkite vieną kartą arba bakstelėkite ir palaikykite KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis ir iššokančiajame lange pasirinkite Atidaryti naudojant Organic Maps (Android) arba "Importuoti naudojant Organic Maps" (iOS).
+2. Bakstelėk vieną kartą arba bakstelėk ir palaikyk KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis ir iššokančiajame lange pasirink Atidaryti naudojant Organic Maps (Android) arba "Importuoti naudojant Organic Maps" (iOS).
 
-3. Jis bus atidarytas naudojant Organic Maps ir pamatysite „Žymės įkeltos sėkmingai!“. Juos galite rasti žemėlapyje arba žymių meniu ekrane.
+3. Jis bus atidarytas naudojant Organic Maps ir pamatysi „Žymės įkeltos sėkmingai!“. Juos gali rasti žemėlapyje arba žymių meniu ekrane.
 
 Taip pat galima importuoti žymes ir takelius paketu:
 
-1. Atidarykite Organic Maps ir bakstelėkite žvaigždės mygtuką, kad atidarytumėte žymių ir takelių sąrašą. Paspauskite mygtuką „Importuoti žymes ir takelius“.
+1. Atidaryk Organic Maps ir bakstelėk žvaigždės mygtuką, kad atidarytum žymių ir takelių sąrašą. Paspausk mygtuką „Importuoti žymes ir takelius“.
 
-2. Pasirinkite aplanką su KML, KMZ, KMB, GPX, GeoJSON (JSON) failais. Organic Maps nuskaitys jį, įskaitant poaplankius, ir importuos visus palaikomus failus su žymėmis ir takeliais. Galite pasirinkti šakninį aplanką, kad galėtumėte ieškoti visoje saugykloje.
+2. Pasirink aplanką su KML, KMZ, KMB, GPX, GeoJSON (JSON) failais. Organic Maps nuskaitys jį, įskaitant poaplankius, ir importuos visus palaikomus failus su žymėmis ir takeliais. Gali pasirinkti šakninį aplanką, kad galėtum ieškoti visoje saugykloje.

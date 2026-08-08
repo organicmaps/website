@@ -16,4 +16,4 @@ Norint paleisti programą, reikia bent jau „iOS 12“ arba „Android 5“. Į
 
 „Android“ sistemoje Organic Maps gali veikti įrenginiuose, kuriuose įdiegtos „Google“ paslaugos ir be „Google“ palaikymo.
 
-Jei norite naudoti OM su „Android Auto“, patikrinkite reikalavimus [čia](../how-to-use-android-auto/).
+Jei nori naudoti OM su „Android Auto“, patikrink reikalavimus [čia](../how-to-use-android-auto/).

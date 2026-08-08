@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. Ieškote šventinės nuotaikos? Ieškokite `Christmas market` arba `Christmas tree`, kad pamatytumėte jas žemėlapyje. Jei jūsų vietovėje nieko nerodoma, pridėkite trūkstamus objektus OpenStreetMap.org ir pagerinkite žemėlapį visiems!
+Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. Ieškai šventinės nuotaikos? Ieškok `Christmas market` arba `Christmas tree`, kad pamatytum jas žemėlapyje. Jei tavo vietovėje nieko nerodoma, pridėk trūkstamus objektus OpenStreetMap.org ir pagerink žemėlapį visiems!
 
-Įdiekite „Organic Maps“ iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
+Įdiek „Organic Maps“ iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Laidos pastabos
 - Kalėdų eglutės ir mugės dabar rodomos žemėlapyje (Viktor Govako)
@@ -33,11 +33,11 @@ Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. 
 - Automobilio vietos jutiklis „Android Auto“ yra išjungtas, kad būtų išvengta vietos nustatymo problemų (Andrei Shkrob)
 - Maršruto įrašymas tęsiamas net jei programa yra priverstinai sustabdoma arba uždaroma (Alexander Borsuk)
 
-Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir praneštumėte apie problemas:
+Prisijunk prie beta testavimo, kad išbandytum ankstyvas funkcijas ir praneštum apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-„Organic Maps“ egzistuoja jūsų [aukų](@/donate/index.lt.md) ir [indėlio](@/contribute/index.lt.md) dėka. Ačiū! ❤️
+„Organic Maps“ egzistuoja tavo [aukų](@/donate/index.lt.md) ir [indėlio](@/contribute/index.lt.md) dėka. Ačiū! ❤️
 
 „Organic Maps“ komanda
 

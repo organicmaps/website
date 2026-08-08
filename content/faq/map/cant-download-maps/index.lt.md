@@ -13,6 +13,6 @@ aliases:
   - /lt/faq/map/cant-download-maps/
 ---
 
-Atsisiuntimas gali nepavykti dėl laikinos tinklo klaidos arba konkrečių tinklo teikėjo / maršruto parinktuvo nustatymų (užkardos blokavimas). Bandykite dar kartą vėliau arba naudokite kitą „Wi-Fi“ prieigos tašką. Be to, įsitikinkite, kad turite pakankamai laisvos vietos žemėlapiams atsisiųsti.
+Atsisiuntimas gali nepavykti dėl laikinos tinklo klaidos arba konkrečių tinklo teikėjo / maršruto parinktuvo nustatymų (užkardos blokavimas). Bandyk dar kartą vėliau arba naudok kitą „Wi-Fi“ prieigos tašką. Be to, įsitikink, kad turi pakankamai laisvos vietos žemėlapiams atsisiųsti.
 
-Be to, jei turite labai pasenusių žemėlapių ir programa negali jų atnaujinti, gali padėti pasenusių žemėlapių ištrynimas ir pakartotinis atsisiuntimas.
+Be to, jei turi labai pasenusių žemėlapių ir programa negali jų atnaujinti, gali padėti pasenusių žemėlapių ištrynimas ir pakartotinis atsisiuntimas.

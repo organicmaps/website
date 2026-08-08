@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Kellemes Karácsonyt és Boldog Új Évet kíván az Organic Maps csapata. Ünnepi hangulatot keres? Keressen rá a `Karácsonyi piac` vagy `Karácsonyfa` kifejezésekre, hogy lássa őket a térképen. Ha semmi sem jelenik meg a környékén, kérjük, adja hozzá a hiányzó helyeket az OpenStreetMap.org oldalon, és javítsa a térképet mindenki számára!
+Kellemes Karácsonyt és Boldog Új Évet kíván az Organic Maps csapata. Ünnepi hangulatot keresel? Keress rá a `Karácsonyi piac` vagy `Karácsonyfa` kifejezésekre, hogy lásd őket a térképen. Ha semmi sem jelenik meg a környékeden, kérjük, add hozzá a hiányzó helyeket az OpenStreetMap.org oldalon, és javítsd a térképet mindenki számára!
 
-Telepítse az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
+Telepítsd az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
 
 ### Kiadási megjegyzések
 - A karácsonyfák és vásárok mostantól megjelennek a térképen (Viktor Govako)
@@ -33,11 +33,11 @@ Telepítse az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vag
 - Az Android Auto autó helymeghatározó érzékelője le van tiltva a helymeghatározási problémák elkerülése érdekében (Andrei Shkrob)
 - Az útvonalrögzítés akkor is folytatódik, ha az alkalmazást bezárják vagy leállítják (Alexander Borsuk)
 
-Csatlakozzon a bétateszteléshez, hogy kipróbálhassa a korai funkciókat és jelentse a hibákat:
+Csatlakozz a bétateszteléshez, hogy kipróbálhasd a korai funkciókat és jelentsd a hibákat:
 - [iOS][testflight]
 - [Android][firebase]
 
-Az Organic Maps az Önök [adományainak](@/donate/index.hu.md) és [hozzájárulásainak](@/contribute/index.hu.md) köszönhetően létezik. Köszönjük! ❤️
+Az Organic Maps az [adományaidnak](@/donate/index.hu.md) és [hozzájárulásaidnak](@/contribute/index.hu.md) köszönhetően létezik. Köszönjük! ❤️
 
 Az Organic Maps Csapata
 

@@ -8,7 +8,7 @@ taxonomies:
 
 Je čas aktualizovat Organic Maps! Rychlejší mezistátní a meziregionální trasy, čerstvá mapová data OSM a mnoho oprav chyb pro Android ve druhé aktualizaci aplikace v roce 2026.
 
-Nainstalujte si ji z [get.omaps.org](https://get.omaps.org) nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Nainstaluj si ji z [get.omaps.org](https://get.omaps.org) nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
 ### Co je nového
 
@@ -40,11 +40,11 @@ Nainstalujte si ji z [get.omaps.org](https://get.omaps.org) nebo z [App Store][a
 * Přidány chybějící překlady pro nepoužívané mosty _(Alexander Borsuk)_
 
 
-Připojte se k beta testování, abyste mohli vyzkoušet nové funkce a nahlásit problémy:
+Připoj se k beta testování, abys mohl vyzkoušet nové funkce a nahlásit problémy:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Přispějte](@/donate/index.cs.md) a [přidejte se](@/contribute/index.cs.md) k vytvoření lepší alternativy map Apple a Google zaměřené na ochranu soukromí.
+[Přispěj](@/donate/index.cs.md) a [přidej se](@/contribute/index.cs.md) k vytvoření lepší alternativy map Apple a Google zaměřené na ochranu soukromí.
 
 S láskou,
 Tým Organic Maps

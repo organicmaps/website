@@ -6,9 +6,9 @@ extra:
   menu_title: Sąlygos
 ---
 
-Ši programėlė licencijuota pagal Apache License, Version 2.0 („Licencija“); negalite naudoti šios programos nesilaikydami Licencijos.
+Ši programėlė licencijuota pagal Apache License, Version 2.0 („Licencija“); negali naudoti šios programos nesilaikydamas Licencijos.
 
-Licencijos kopiją galite gauti adresu [http://www.apache.org/licenses/LICENSE-2.0][license]
+Licencijos kopiją gali gauti adresu [http://www.apache.org/licenses/LICENSE-2.0][license]
 
 Jei to nereikalauja galiojantys įstatymai arba nėra susitarta raštu, pagal Licenciją platinama programinė įranga platinama „KAIP YRA“, BE JOKIŲ GARANTIJŲ AR SĄLYGŲ, tiek išreikštų, tiek numanomų. Žr. Licenciją dėl konkrečių kalbų, reglamentuojančių leidimus ir apribojimus pagal Licenciją.
 
@@ -21,7 +21,7 @@ Prašome žiūrėti jų LICENSE, COPYING arba NOTICE failus dėl naudojimo sąly
 
 Taip pat žr. [data/copyright.html][copyright] failą, kuriame pateikiamas visas Organic Maps programėlės autorių teisių pranešimų sąrašas.
 
-Jei turite klausimų ar pasiūlymų, susisiekite su mumis el. paštu [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Jei turi klausimų ar pasiūlymų, susisiek su mumis el. paštu [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
 [license]: http://www.apache.org/licenses/LICENSE-2.0

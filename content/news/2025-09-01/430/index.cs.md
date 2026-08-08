@@ -1,13 +1,13 @@
 ---
-title: "Zobrazte čísla linek na autobusových zastávkách a další: Nejdůležitější funkce zářijového vydání"
+title: "Zobraz čísla linek na autobusových zastávkách a další: Nejdůležitější funkce zářijového vydání"
 date: 2025-09-01T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Nyní, když vyberete autobusovou nebo tramvajovou zastávku, můžete vidět čísla linek veřejné dopravy. To je jen první krok! Dále plánujeme zobrazovat trasy veřejné dopravy přímo na mapě. Uživatelé iOS si také mohou vychutnat přepracovaná tlačítka pro přispívání do OpenStreetMap („Přidat místo" a „Upravit místo").
+Nyní, když vybereš autobusovou nebo tramvajovou zastávku, můžeš vidět čísla linek veřejné dopravy. To je jen první krok! Dále plánujeme zobrazovat trasy veřejné dopravy přímo na mapě. Uživatelé iOS si také mohou vychutnat přepracovaná tlačítka pro přispívání do OpenStreetMap („Přidat místo" a „Upravit místo").
 
-Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/donate/index.cs.md) a [vaši podporu](@/contribute/index.cs.md).
+Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [tvoje dary](@/donate/index.cs.md) a [tvoji podporu](@/contribute/index.cs.md).
 
 ### Podrobné poznámky k vydání
 
@@ -44,10 +44,10 @@ Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/don
 - Obnoveno původní pořadí předdefinovaných barev záložek/stop (Andrei Shkrob)
 - Opraveno tlačítko „Vymazat hledání" při úpravě kuchyní (Ansh Jain)
 
-Získejte nejnovější zářijovou verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Získej nejnovější zářijovou verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Pokud jste to ještě nezkusili, nyní můžete povolit funkci v nastavení Organic Maps pro zobrazení názvů záložek na mapě. Kromě toho se nyní používá ikona tužky ✎ jako rychlejší způsob úpravy záložek.
+Pokud jsi to ještě nezkusil, nyní můžeš povolit funkci v nastavení Organic Maps pro zobrazení názvů záložek na mapě. Kromě toho se nyní používá ikona tužky ✎ jako rychlejší způsob úpravy záložek.
 
-P.S. Nezapomeňte, můžete se zaregistrovat do našeho beta testovacího programu pro získání včasného přístupu k experimentálním a nadcházejícím funkcím—[pro iOS][testflight] a [pro Android][firebase].
+P.S. Nezapomeň, můžeš se zaregistrovat do našeho beta testovacího programu pro získání včasného přístupu k experimentálním a nadcházejícím funkcím—[pro iOS][testflight] a [pro Android][firebase].
 
 {{ references() }}

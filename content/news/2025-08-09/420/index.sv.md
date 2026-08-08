@@ -24,6 +24,7 @@ P.S. ...och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de
 - Jordbruks- och skogsvägar är nu uteslutna från ruttplanering (Viktor Govako)
 
 #### iOS
+
 - Löste flera krascher och förbättrad iCloud-synkroniseringsstabilitet (Kiryl Kaveryn)
 - Introducerade flerradsrubriker i bokmärkeslistor (David Martinez)
 - Fixade zoomproblemet vid avmarkering av spår (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de
 - Ersatte saknade översättningar med engelska alternativ (Viktor Govako)
 
 #### Android
+
 - Lade till spårhöjdgraf och spårval på kartan (Kavi Khalique)
 - Lämna en OpenStreetMap-anteckning om en nyligen tillagd intressepunkt (POI) ännu inte stöds i Organic Maps (hemanggs)
 - Tog bort OpenGL ES 2.0-stöd till förmån för OpenGL ES 3.0 (renderexpert)
 - Visa bokmärkesikoner i färgväljaren (Andrei Shkrob)
 
 #### Stil- och ikonförbättringar
+
 - Gaffel- och knivikon för mathallar (David Martinez)
 - Markerade våtmarker med horisontell skraffering (Viktor Govako)
 - Ikoner för snabbmat och cyklar i sökresultat och bokmärken (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de
 - Korrigerade prioritetsinställningar för diplomatiska kontor (Viktor Govako)
 
 #### Diverse förbättringar
+
 - Att skriva "cop" i sökningen hittar polisbyrås, medan "film" eller "movie theater" hittar biografer (theadventurer62)
 - Öppna i annan app visar nu den valda punkten i Google Maps (Alexander Borsuk)
 - Spansk översättning för fler sökkategorier (David Martinez)

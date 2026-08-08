@@ -24,6 +24,7 @@ P.S. …and much more is coming! Your support helps and motivates us to build th
 - Agricultural and forestry roads are now excluded from routing (Viktor Govako)
 
 #### iOS
+
 - Resolved several crashes and improved iCloud synchronization stability (Kiryl Kaveryn)
 - Introduced multi-line titles in bookmark lists (David Martinez)
 - Fixed the zooming issue when deselecting a track (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. …and much more is coming! Your support helps and motivates us to build th
 - Replaced missing translations with English alternatives (Viktor Govako)
 
 #### Android
+
 - Added track elevation graph and track selection on the map (Kavi Khalique)
 - Leave an OpenStreetMap note if a newly added point of interest (POI) is not yet supported in Organic Maps (hemanggs)
 - Removed OpenGL ES 2.0 support in favor of OpenGL ES 3.0 (renderexpert)
 - Show bookmark icons in the color selector (Andrei Shkrob)
 
 #### Styles & Icons Enhancements
+
 - Fork and knife icon for food courts (David Martinez)
 - Marked wetlands with horizontal hatching (Viktor Govako)
 - Icons for fast food and bicycles in search results and bookmarks (David Martinez)
@@ -48,6 +51,7 @@ P.S. …and much more is coming! Your support helps and motivates us to build th
 - Corrected priority settings for diplomatic offices (Viktor Govako)
 
 #### Miscellaneous Improvements
+
 - Typing "cop" in the search finds police stations, while "film" or "movie theater" locates cinemas (theadventurer62)
 - Open in another app now displays the selected point in Google Maps (Alexander Borsuk)
 - Spanish translation for more search categories (David Martinez)

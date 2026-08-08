@@ -13,6 +13,7 @@ P.S. Neem contact met ons op via e-mail op <sdk@organicmaps.app> als je geïnter
 P.P.S. Wist je van de API die je al in je app kunt gebruiken als de Organic Maps app ook is geïnstalleerd? Bekijk het hier: <https://omaps.app/api>
 
 ### Releaseopmerkingen
+
 * OSM-kaartgegevens vanaf 10 maart
 * Wikipedia-gegevens vanaf 1 maart
 * Meer gedetailleerde hoogte isolijnen voor Chinese provincies (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Wist je van de API die je al in je app kunt gebruiken als de Organic Maps
 * Diverse crashes opgelost, stabiliteit en prestaties verbeterd (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Geschiedenis van recent gebruikte categorieën toegevoegd in de editor (Rahul Kolluru)
 * Verbeterde veegbeweging omhoog op het routeplanningsscherm (Kiryl Kaveryn)
 * Liniaalpositie voor CarPlay hersteld (Kiryl Kaveryn)
 
 ### Android
+
 * Verbeterde weergave van openingstijden van bedrijven (Anton P)
 * Grijs pictogram voor verborgen lijsten toegevoegd (Alexander Borsuk)
 
 ### Vertalingen
+
 * Landenbeschrijvingen verbeterd (alnzrv)
 * Roemeense vertaling verbeterd door Eugen Dedu (Alexander Borsuk)
 * Namen van landen bijgewerkt (Viktor Govako)

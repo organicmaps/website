@@ -27,6 +27,7 @@ We are grateful ❤️ to our contributors, as well as for [your donations](@/do
 - Updated translations (Weblate contributors)
 
 #### iOS
+
 - NEW! Redesigned "Add Place to OpenStreetMap" and "Edit Place" buttons (Kiryl Kaveryn)
 - Fixed the jumping crosshair when adding a new place to OpenStreetMap (Kiryl Kaveryn)
 - New icons for map layers and menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ We are grateful ❤️ to our contributors, as well as for [your donations](@/do
 - The "Update maps to contribute" button is now shown in the menu when maps are too outdated (Kiryl Kaveryn)
 
 #### Android
+
 - New layer icons (Andrei Shkrob, @euf)
 - The touch area for the edit bookmark (pencil) icon is now larger (Kavi Khalique)
 - Fixed a crash when saving certain routes and a rare crash on startup (Viktor Govako)

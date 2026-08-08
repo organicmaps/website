@@ -27,6 +27,7 @@ Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [tes 
 - Traductions mises à jour (contributeurs Weblate)
 
 #### iOS
+
 - NOUVEAU ! Boutons « Ajouter un lieu à OpenStreetMap » et « Modifier le lieu » redessinés (Kiryl Kaveryn)
 - Réticule sautant corrigé lors de l'ajout d'un nouveau lieu à OpenStreetMap (Kiryl Kaveryn)
 - Nouvelles icônes pour les couches de carte et le menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [tes 
 - Le bouton « Mettre à jour les cartes pour contribuer » est maintenant affiché dans le menu lorsque les cartes sont trop obsolètes (Kiryl Kaveryn)
 
 #### Android
+
 - Nouvelles icônes de couche (Andrei Shkrob, @euf)
 - La zone tactile pour l'icône de modification de signet (crayon) est maintenant plus grande (Kavi Khalique)
 - Plantage corrigé lors de la sauvegarde de certains itinéraires et plantage rare au démarrage (Viktor Govako)

@@ -9,11 +9,13 @@ taxonomies:
 Friday! It's time to install the new Organic Maps update from <https://omaps.app/get> or from the [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid].
 
 ## Release Notes
+
 - NEW! Wikipedia articles for places are now available in Turkish, Japanese, and Chinese. Type `?wiki` in search to find places with articles on the map. _(Alexander Borsuk)_
 - NEW! Added a setting that visually highlights downloaded regions on the map in purple. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap data updated as of November 23, 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NEW! You can edit a bookmark or track name directly on the Place Information Page by tapping the name. _(Kiryl Kaveryn)_
 - Added support for iOS 26 and macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Long-tap the name or address of a selected place or bookmark to copy it to the clipboard. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Friday! It's time to install the new Organic Maps update from <https://omaps.app
 - Fixed animations for side buttons and corrected the color of the "Download Maps" button in the dark theme. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Added scrollbars to the Search screen and the "Bookmarks and Tracks" screen. _(shantanu1k)_
 - Improved handling of audio playback and interruptions. _(Andrei Shkrob)_
 - Fixed crashes on the Editor Profile screen. _(Alexander Borsuk)_
 - Fixed crashes during map downloads. _(Viktor Govako)_
 
 ### Other improvements
+
 - Added custom emojis on the Place Information Page. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Increased road brightness and contrast in dark vehicle mode. _(Manish Rathaur)_
 - Bicycle routing now skips one-way living streets in Austria. _(Viktor Govako)_

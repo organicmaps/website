@@ -43,6 +43,7 @@ Vir diegene wat gemis het, die [vorige 7 Oktober opdatering](https://organicmaps
 - Beter spatskerm by aanvang (Andrei Shkrob)
 
 ### Android Auto
+
 - Herstel die roete na kansellasie (Andrei Shkrob)
 - Reggestel ongelukke op sommige toestelle (Andrei Shkrob)
 

@@ -11,6 +11,7 @@ Kellemes Karácsonyt és Boldog Új Évet kíván az Organic Maps csapata. Ünne
 Telepítsd az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] áruházakból.
 
 ### Kiadási megjegyzések
+
 - A karácsonyfák és vásárok mostantól megjelennek a térképen (Viktor Govako)
 - Az OpenStreetMap adatok 2025. december 14-i állapotúak (Viktor Govako)
 - A nemzeti parkok határai és feliratai kevésbé hangsúlyosak a világtérképen (Viktor Govako)
@@ -20,6 +21,7 @@ Telepítsd az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vag
 - A körforgalom TTS hangutasításai horvát nyelven javításra kerültek (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - A keresési eredmények mostantól emojival mutatják a parkolókapacitást (David Martinez)
 - Javításra került egy CarPlay probléma iOS 12 rendszeren (Kiryl Kaveryn)
 - Számos vizuális hiba javításra került iPhone és iPad készülékeken (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Telepítsd az Organic Maps alkalmazást a <https://omaps.app/get> oldalról, vag
 - Az alkalmazás indításakor megjelenő szintvonal emlékeztető üzenet eltávolításra került (Kiryl Kaveryn)
 
 ### Android
+
 - A keresési eredmények mostantól mutatják a parkolókapacitást (Bicky Rawdyrathaur, David Martinez)
 - Az Android Auto autó helymeghatározó érzékelője le van tiltva a helymeghatározási problémák elkerülése érdekében (Andrei Shkrob)
 - Az útvonalrögzítés akkor is folytatódik, ha az alkalmazást bezárják vagy leállítják (Alexander Borsuk)

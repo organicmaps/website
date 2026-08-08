@@ -43,6 +43,7 @@ Kaçıranlar için, [önceki 7 Ekim güncellemesi](https://organicmaps.app/news/
 - Başlangıçta daha iyi açılış ekranı (Andrei Shkrob)
 
 ### Android Auto
+
 - İptalden sonra rotayı geri yükle (Andrei Shkrob)
 - Bazı cihazlarda çökmeler düzeltildi (Andrei Shkrob)
 

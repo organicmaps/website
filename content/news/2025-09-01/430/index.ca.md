@@ -27,6 +27,7 @@ Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres do
 - Traduccions actualitzades (col·laboradors de Weblate)
 
 #### iOS
+
 - NOU! Botons "Afegir lloc a OpenStreetMap" i "Editar lloc" redissenyats (Kiryl Kaveryn)
 - Mira saltant corregida en afegir un nou lloc a OpenStreetMap (Kiryl Kaveryn)
 - Noves icones per a capes del mapa i menú (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres do
 - El botó "Actualitzar mapes per contribuir" ara es mostra al menú quan els mapes són massa obsolets (Kiryl Kaveryn)
 
 #### Android
+
 - Noves icones de capa (Andrei Shkrob, @euf)
 - L'àrea tàctil per a la icona d'editar marcador (llapis) ara és més gran (Kavi Khalique)
 - Corregit bloqueig en desar certes rutes i bloqueig rar a l'inici (Viktor Govako)

@@ -24,6 +24,7 @@ P.S. ...ir daug daugiau ateina! Tavo palaikymas padeda ir motyvuoja mus kurti ge
 - Žemės ūkio ir miškų keliai dabar išskirti iš maršrutų sudarymo (Viktor Govako)
 
 #### iOS
+
 - Išspręsti keli gedimai ir pagerinta iCloud sinchronizavimo stabilumas (Kiryl Kaveryn)
 - Pristatomos kelių eilučių antraštės žymių sąrašuose (David Martinez)
 - Ištaisyta mastelio keitimo problema atšaukiant takelio pasirinkimą (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ir daug daugiau ateina! Tavo palaikymas padeda ir motyvuoja mus kurti ge
 - Trūkstami vertimai pakeisti anglų kalbos alternatyvomis (Viktor Govako)
 
 #### Android
+
 - Pridėtas takelio aukščio grafikas ir takelio pasirinkimas žemėlapyje (Kavi Khalique)
 - Palikti OpenStreetMap pastabą, jei naujai pridėtas pominutės taškas (POI) dar nepalaikomas Organic Maps (hemanggs)
 - Pašalinta OpenGL ES 2.0 parama OpenGL ES 3.0 naudai (renderexpert)
 - Rodyti žymių piktogramas spalvų rinkiklyje (Andrei Shkrob)
 
 #### Stilių ir piktogramų patobulinimai
+
 - Šakutės ir peilio piktograma maisto kiemams (David Martinez)
 - Pažymėtos pelkės horizontaliu brūkšniavimu (Viktor Govako)
 - Greitojo maisto ir dviračių piktogramos paieškos rezultatuose ir žymėse (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...ir daug daugiau ateina! Tavo palaikymas padeda ir motyvuoja mus kurti ge
 - Ištaisyti prioriteto nustatymai diplomatiniams biurams (Viktor Govako)
 
 #### Įvairūs patobulinimai
+
 - Įvedus "cop" paieškoje randamos policijos nuovados, o "film" ar "movie theater" randami kino teatrai (theadventurer62)
 - Atidarimas kitoje programoje dabar rodo pasirinktą tašką Google Maps (Alexander Borsuk)
 - Ispanų kalbos vertimas daugiau paieškos kategorijų (David Martinez)

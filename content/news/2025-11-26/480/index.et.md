@@ -9,11 +9,13 @@ taxonomies:
 Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps.app/get> või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].
 
 ## Väljalaskemärkmed
+
 - Vikipeedia artiklid kohtade kohta on nüüd saadaval türgi, jaapani ja hiina keeles. Sisesta otsingus `?wiki`, et leida kaardil artiklitega kohti. _(Alexander Borsuk)_
 - Lisati seadistus, mis tõstab kaardil visuaalselt esile allalaaditud piirkonnad lillaga. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMapi andmed uuendatud seisuga 23. november 2025. _(Viktor Govako)_
 
 ### iOS
+
 - UUS! Saad järjehoidja või raja nime muuta otse koha teabelehel, puudutades nime. _(Kiryl Kaveryn)_
 - Lisati tugi iOS 26 ja macOS 26 "Liquid Glass" jaoks. _(Kiryl Kaveryn)_
 - Pikk puudutus valitud koha või järjehoidja nimel või aadressil kopeerib selle lõikelauale. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps
 - Parandati küljenuppude animatsioonid ja "Laadi kaardid alla" nupu värv tumedas teemas. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Lisati kerimisribad otsingukuvale ja "Järjehoidjad ja rajad" kuvale. _(shantanu1k)_
 - Täiustatud heli taasesituse ja katkestuste käsitlemine. _(Andrei Shkrob)_
 - Parandati kokkujooksmised redaktori profiili kuval. _(Alexander Borsuk)_
 - Parandati kokkujooksmised kaartide allalaadimisel. _(Viktor Govako)_
 
 ### Muud täiustused
+
 - Lisati kohandatud emotikonid koha teabelehele. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Suurendati teede heledust ja kontrasti tumedas sõidukireežiimis. _(Manish Rathaur)_
 - Jalgrattamarsruutimine jätab nüüd Austrias vahele ühesuunalised elutänavad. _(Viktor Govako)_

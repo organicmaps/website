@@ -24,6 +24,7 @@ P.S. ...ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgog
 - Mae ffyrdd amaethyddol a choedwigaeth bellach wedi'u heithrio o lwybrau (Viktor Govako)
 
 #### iOS
+
 - Wedi datrys sawl damwain a gwella sefydlogrwydd cydamseru iCloud (Kiryl Kaveryn)
 - Cyflwyno teitlau aml-linell mewn rhestrau nodau (David Martinez)
 - Wedi trwsio'r broblem chwyddo wrth ddad-ddewis trac (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgog
 - Wedi amnewid cyfieithiadau coll gydag opsiynau Saesneg (Viktor Govako)
 
 #### Android
+
 - Wedi ychwanegu graff uchder trac a dewis trac ar y map (Kavi Khalique)
 - Gadael nodyn OpenStreetMap os nad yw pwynt diddordeb (POI) newydd eto'n cael ei gefnogi yn Organic Maps (hemanggs)
 - Wedi tynnu cefnogaeth OpenGL ES 2.0 o blaid OpenGL ES 3.0 (renderexpert)
 - Dangos eiconau nodau yn y dewisydd lliw (Andrei Shkrob)
 
 #### Gwelliannau Arddulliau ac Eiconau
+
 - Eicon fforc a chyllell ar gyfer cyrtiau bwyd (David Martinez)
 - Wedi marcio gwlyptiroedd gyda hatshio llorweddol (Viktor Govako)
 - Eiconau ar gyfer bwyd cyflym a beiciau mewn canlyniadau chwilio a nodau (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgog
 - Wedi cywiro gosodiadau blaenoriaeth ar gyfer swyddfeydd diplomataidd (Viktor Govako)
 
 #### Gwelliannau Amrywiol
+
 - Mae teipio "cop" yn y chwiliad yn dod o hyd i orsafoedd heddlu, tra mae "film" neu "movie theater" yn lleoli sinemâu (theadventurer62)
 - Mae agor mewn app arall bellach yn dangos y pwynt a ddewiswyd yn Google Maps (Alexander Borsuk)
 - Cyfieithiad Sbaeneg ar gyfer mwy o gategorïau chwilio (David Martinez)

@@ -16,4 +16,6 @@ aliases:
 
 في Android، يمكن لـ Organic Maps أن يعمل على الأجهزة المثبت عليها خدمات Google وبدون دعم Google.
 
+يجب أن تدعم أجهزة Android معيار OpenGL ES 3.0 أو إصدارًا أحدث، أو واجهة برمجة التطبيقات (API) Vulkan حتى تعمل.
+
 لاستخدام OM مع Android Auto، يرجى التحقق من المتطلبات [هنا](../how-to-use-android-auto/).

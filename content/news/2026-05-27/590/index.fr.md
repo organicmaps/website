@@ -49,6 +49,7 @@ Obtenez la mise à jour sur <https://get.omaps.org> ou sur les [App Store][appst
 - Correction des problèmes liés à la page de la trace et au bouton "Ouvrir dans" _(Mikhail Listratsenka)_
 
 ### Linux et macOS
+
 - Ajout de traductions chinoises aux commentaires du fichier `.desktop` _(DeepChirp)_
 
 ## Rejoins le bêta-test pour essayer les premières fonctionnalités et signaler les problèmes :

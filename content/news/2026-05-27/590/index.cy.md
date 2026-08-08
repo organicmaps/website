@@ -49,6 +49,7 @@ Lawrlwytha'r diweddariad yn <https://get.omaps.org> neu ar yr [App Store][appsto
 - Trwsiwyd problemau gyda thudalennau lleoliad trac a'r botwm ‘Agor Yn’ _(Mikhail Listratsenka)_
 
 ### Linux a macOS
+
 - Ychwanegwyd cyfieithiadau Tsieineaidd at sylwadau ffeil `.desktop` _(DeepChirp)_
 
 ## Ymuna â'r profi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:

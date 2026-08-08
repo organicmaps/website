@@ -11,6 +11,7 @@ taxonomies:
 ثبت Organic Maps من <https://omaps.app/get> أو من [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid]
 
 ### ملاحظات الإصدار
+
 - تظهر الآن أشجار الكريسماس والأسواق على الخريطة (Viktor Govako)
 - بيانات OpenStreetMap محدثة بتاريخ 14 ديسمبر 2025 (Viktor Govako)
 - حدود المتنزهات الوطنية وتسمياتها أقل بروزًا على خريطة العالم (Viktor Govako)
@@ -20,6 +21,7 @@ taxonomies:
 - تم تصحيح التوجيهات الصوتية للدوارات باللغة الكرواتية (@chupocro، Alexander Borsuk)
 
 ### iOS
+
 - تظهر نتائج البحث الآن سعة مواقف السيارات باستخدام الرموز التعبيرية (David Martinez)
 - تم إصلاح مشكلة CarPlay على iOS 12 (Kiryl Kaveryn)
 - تم إصلاح العديد من المشاكل المرئية على iPhone و iPad (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ taxonomies:
 - تمت إزالة رسالة التذكير بخطوط الكنتور عند تشغيل التطبيق (Kiryl Kaveryn)
 
 ### Android
+
 - تظهر نتائج البحث الآن سعة مواقف السيارات (Bicky Rawdyrathaur، David Martinez)
 - تم تعطيل مستشعر موقع السيارة في Android Auto لتجنب مشاكل الموقع (Andrei Shkrob)
 - يستمر تسجيل المسار حتى إذا تم إغلاق التطبيق أو إنهاؤه (Alexander Borsuk)

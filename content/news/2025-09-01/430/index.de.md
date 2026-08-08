@@ -27,6 +27,7 @@ Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/do
 - Aktualisierte Übersetzungen (Weblate-Mitwirkende)
 
 #### iOS
+
 - NEU! Neu gestaltete „Ort zu OpenStreetMap hinzufügen" und „Ort bearbeiten" Schaltflächen (Kiryl Kaveryn)
 - Springendes Fadenkreuz beim Hinzufügen eines neuen Ortes zu OpenStreetMap behoben (Kiryl Kaveryn)
 - Neue Symbole für Kartenebenen und Menü (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/do
 - Die Schaltfläche „Karten aktualisieren zum Beitragen" wird jetzt im Menü angezeigt, wenn Karten zu veraltet sind (Kiryl Kaveryn)
 
 #### Android
+
 - Neue Ebenensymbole (Andrei Shkrob, @euf)
 - Der Berührungsbereich für das Symbol zum Bearbeiten von Lesezeichen (Stift) ist jetzt größer (Kavi Khalique)
 - Absturz beim Speichern bestimmter Routen und seltenen Absturz beim Start behoben (Viktor Govako)

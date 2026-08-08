@@ -49,6 +49,7 @@ Gauk atnaujinimą adresu <https://get.omaps.org> arba iš [App Store][appstore],
 - Ištaisytos trasos vietos puslapio ir mygtuko „Open In“ problemos _(Mikhail Listratsenka)_
 
 ### Linux ir macOS
+
 - Į `.desktop` failo komentarus įtraukti vertimai į kinų kalbą _(DeepChirp)_
 
 

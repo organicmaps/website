@@ -9,11 +9,13 @@ taxonomies:
 جمعه! وقت نصب به‌روزرسانی جدید Organic Maps از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] است.
 
 ## یادداشت‌های انتشار
+
 - مقالات ویکی‌پدیا برای مکان‌ها اکنون به زبان‌های ترکی، ژاپنی و چینی در دسترس است. `?wiki` را در جستجو تایپ کنید تا مکان‌های دارای مقاله را روی نقشه پیدا کنید. _(Alexander Borsuk)_
 - تنظیماتی اضافه شد که مناطق دانلود شده را روی نقشه با رنگ بنفش برجسته می‌کند. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - داده‌های OpenStreetMap تا ۲۳ نوامبر ۲۰۲۵ به‌روزرسانی شد. _(Viktor Govako)_
 
 ### iOS
+
 - جدید! می‌توانید نام نشانک یا مسیر را مستقیماً در صفحه اطلاعات مکان با ضربه زدن روی نام ویرایش کنید. _(Kiryl Kaveryn)_
 - پشتیبانی از iOS 26 و macOS 26 "Liquid Glass" اضافه شد. _(Kiryl Kaveryn)_
 - روی نام یا آدرس مکان یا نشانک انتخاب شده لمس طولانی کنید تا در کلیپ‌بورد کپی شود. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ taxonomies:
 - انیمیشن‌های دکمه‌های کناری و رنگ دکمه "دانلود نقشه‌ها" در تم تاریک اصلاح شد. _(Kiryl Kaveryn)_
 
 ### Android
+
 - نوارهای پیمایش به صفحه جستجو و صفحه "نشانک‌ها و مسیرها" اضافه شد. _(shantanu1k)_
 - بهبود مدیریت پخش صوتی و وقفه‌ها. _(Andrei Shkrob)_
 - خرابی‌ها در صفحه پروفایل ویرایشگر رفع شد. _(Alexander Borsuk)_
 - خرابی‌ها در هنگام دانلود نقشه‌ها رفع شد. _(Viktor Govako)_
 
 ### بهبودهای دیگر
+
 - ایموجی‌های سفارشی در صفحه اطلاعات مکان اضافه شد. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - روشنایی و کنتراست جاده در حالت خودروی تاریک افزایش یافت. _(Manish Rathaur)_
 - مسیریابی دوچرخه اکنون خیابان‌های مسکونی یک‌طرفه را در اتریش نادیده می‌گیرد. _(Viktor Govako)_

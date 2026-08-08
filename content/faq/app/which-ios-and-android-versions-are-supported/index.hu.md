@@ -16,4 +16,6 @@ Az alkalmazás futtatásához legalább iOS 12 vagy Android 5 szükséges. A ké
 
 Android rendszeren az Organic Maps olyan eszközökön is működhet, amelyekre telepítve vannak a Google-szolgáltatások, és nincs Google-támogatás.
 
-Az OM Android Auto rendszerrel való használatához ellenőrizd a követelményeket [itt] (../how-to-use-android-auto/).
+Az Android-eszközöknek az OpenGL ES 3.0 vagy újabb verzióját, illetve a Vulkan API-t kell támogatniuk a működéshez.
+
+Az OM Android Auto rendszerrel való használatához ellenőrizd a követelményeket [itt](../how-to-use-android-auto/).

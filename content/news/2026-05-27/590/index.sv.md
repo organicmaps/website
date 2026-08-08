@@ -49,6 +49,7 @@ Få uppdateringen på <https://get.omaps.org> eller på [App Store][appstore], [
 - Fixade problem med spårplatssidan och "Öppna i"-knappen _(Mikhail Listratsenka)_
 
 ### Linux och macOS
+
 - Lade till kinesiska översättningar till `.desktop`-filkommentarer _(DeepChirp)_
 
 ## Gå med i betatestning för att testa tidiga funktioner och rapportera problem:

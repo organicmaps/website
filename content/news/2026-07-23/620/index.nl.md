@@ -20,22 +20,26 @@ Dankzij jouw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.n
 ## Gedetailleerd wijzigingslogboek
 
 ### Kaart & plaatsen
+
 - OpenStreetMap-gegevens bijgewerkt tot 14 juli
 - Notities die aan [OpenStreetMap](https://www.openstreetmap.org) worden gemeld, worden nu op de exacte plek geplaatst die je hebt geselecteerd, in plaats van in het midden van de hele straat of het hele gebied _(Alexander Borsuk)_
 - Verbeterde plaatskeuze bij het tikken op de kaart in gebieden die de 180°-antimeridiaan doorkruisen _(Viktor Govako)_
 - In hoogteprofielen van tracks worden geen verouderde of lege grafieken meer weergegeven nadat een track is verwijderd _(Kiryl Kaveryn)_
 
 ### Openbaar vervoer
+
 - De namen van haltes, overstapplaatsen en stations hebben nu een witte omtrek, zodat ze zowel in het lichte als in het donkere thema goed leesbaar blijven _(Viktor Govako)_
 - De metrolaag verschijnt weer correct nadat je het voorbeeld van een openbaarvervoerroute hebt gesloten _(Mikhail Listratsenka)_
 
 ### Routebepaling en navigatie
+
 - Routewaarschuwingen (tolwegen, veerboten, onverharde wegen, trappen, enzovoort) worden nu weergegeven voor alle alternatieve routes _(Viktor Govako)_
 - Een zeldzame vastloper tijdens het uitstippelen van een route is verholpen _(Viktor Govako)_
 - Verbeterde afhandeling van doodlopende wegen en van begin- en eindpunten op wegen met toegangsbeperkingen _(Viktor Govako)_
 - Onjuiste en ontbrekende aanwijzingen voor afslagen gecorrigeerd _(Alexander Borsuk)_
 
 ### iOS
+
 - Nieuwe instelling ‘Zoekgeschiedenis opslaan’, waarmee je de geschiedenis kunt uitschakelen en verbergen als je deze liever niet wilt bewaren _(Kiryl Kaveryn)_
 - Nieuwe knop ‘Bewerken’ om bladwijzers gemakkelijker te verwijderen _(Kiryl Kaveryn)_
 - Bladwijzers worden nu automatisch opgeslagen wanneer je het scherm verlaat _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Dankzij jouw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.n
 - Andere kleine verbeteringen aan de gebruikersinterface _(Kiryl Kaveryn)_
 
 ### Android
+
 - De openingstijden tonen nu gesplitste diensten (zoals een lunchpauze), beginnen bij de huidige dag en tonen de hele week zonder apart scrollgebied _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Een overzichtelijkere zoekbalk met een gecombineerde knop voor ‘Wissen’ en ‘Spraak’, een ‘Wissen’-pictogram dat niet meer verschuift, en lay-outcorrecties voor liggende modus en telefoonrotatie _(Mikhail Listratsenka)_
 - Vernieuwde bladwijzer- en track-editor _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Dankzij jouw [donaties](@/donate/index.nl.md) en [feedback](@/contribute/index.n
 - Crashes verholpen _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - De lijst met kaarten die je kunt downloaden, is nu alfabetisch gesorteerd _(goncalo109560)_
 
 ### Vertalingen
+
 - Verbeterde Chinese formulering _(Chenxi Zhao)_
 - Bijgewerkte Oekraïense vertalingen _(Nnifria)_
 - Italiaanse vertalingen van de namen van kaartregio’s gecorrigeerd _(Vittorio Bertola)_

@@ -49,6 +49,7 @@ Saad uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Goo
 - Parandatud raja kohalehekülje probleemid ja "Ava sisse" nupp _(Mikhail Listratsenka)_
 
 ### Linux ja macOS
+
 - `.desktop` faili kommentaaridesse lisati hiina keele tõlked _(DeepChirp)_
 
 ## Liitu beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:

@@ -27,6 +27,7 @@ Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate
 - Cyfieithiadau wedi'u diweddaru (cyfranwyr Weblate)
 
 #### iOS
+
 - NEWYDD! Botymau "Ychwanegu Lleoliad i OpenStreetMap" a "Golygu Lleoliad" wedi'u hailgynllunio (Kiryl Kaveryn)
 - Croesfaen neidiol wedi'i gywiro wrth ychwanegu lleoliad newydd i OpenStreetMap (Kiryl Kaveryn)
 - Eiconau newydd ar gyfer haenau map a dewislen (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate
 - Mae'r botwm "Diweddaru mapiau i gyfrannu" bellach yn cael ei ddangos yn y ddewislen pan fo mapiau'n rhy hen (Kiryl Kaveryn)
 
 #### Android
+
 - Eiconau haen newydd (Andrei Shkrob, @euf)
 - Mae'r ardal gyffwrdd ar gyfer yr eicon golygu nod (pensil) bellach yn fwy (Kavi Khalique)
 - Damwain wedi'i chywiro wrth gadw llwybrau penodol a damwain brin wrth gychwyn (Viktor Govako)

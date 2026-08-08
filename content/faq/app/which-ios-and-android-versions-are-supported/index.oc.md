@@ -16,4 +16,6 @@ Vos cal almens iOS 12 o Android 5 per far foncionar l'aplicacion. Los aparelhs a
 
 Suls aparelhs Android, Organic Maps pòt foncionar amb los Servicis Google installats e sens supòrt de Google.
 
+Los aparelhs Android devon suportar OpenGL ES 3.0 o una version mai recenta, o l'API Vulkan, per foncionar.
+
 Per utilizar OM amb Android Auto, consultatz las exigéncias [aicí](../how-to-use-android-auto/).

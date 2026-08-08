@@ -20,22 +20,26 @@ Dzięki twoim [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/ind
 ## Szczegółowy dziennik zmian
 
 ### Mapa i miejsca
+
 - Dane OpenStreetMap zaktualizowane na dzień 14 lipca
 - Notatki zgłoszone do [OpenStreetMap](https://www.openstreetmap.org) są teraz umieszczane dokładnie w wybranym przez ciebie miejscu, a nie na środku całej ulicy lub obszaru _(Alexander Borsuk)_
 - Ulepszony wybór miejsc po dotknięciu mapy w regionach, które przecinają antypołudnik 180° _(Viktor Govako)_
 - Po usunięciu śladu na profilach wysokościowych nie wyświetlają się już nieaktualne lub puste wykresy _(Kiryl Kaveryn)_
 
 ### Transport publiczny
+
 - Nazwy przystanków, przesiadek i stacji mają teraz białą obwódkę, dzięki czemu są czytelne zarówno w jasnym, jak i ciemnym motywie _(Viktor Govako)_
 - Po zamknięciu podglądu trasy transportu publicznego warstwa metra pojawia się ponownie prawidłowo _(Mikhail Listratsenka)_
 
 ### Trasy i nawigacja
+
 - Ostrzeżenia dotyczące tras (opłaty drogowe, promy, drogi nieutwardzone, schody itp.) są teraz wyświetlane dla wszystkich tras alternatywnych _(Viktor Govako)_
 - Naprawiono rzadki błąd powodujący zawieszanie się programu podczas wyznaczania trasy _(Viktor Govako)_
 - Ulepszona obsługa ślepych uliczek oraz punktów początkowych i końcowych na drogach z ograniczeniami _(Viktor Govako)_
 - Poprawiono błędne i brakujące wskazówki dotyczące skrętów _(Alexander Borsuk)_
 
 ### iOS
+
 - Nowe ustawienie „Zapisz historię wyszukiwania”, które pozwala wyłączyć historię i ukryć ją, jeśli nie chcesz jej zachowywać _(Kiryl Kaveryn)_
 - Nowy przycisk „Edytuj” ułatwiający usuwanie zakładek _(Kiryl Kaveryn)_
 - Zakładki są teraz zapisywane automatycznie po opuszczeniu ekranu _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Dzięki twoim [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/ind
 - Inne drobne ulepszenia interfejsu _(Kiryl Kaveryn)_
 
 ### Android
+
 - Godziny otwarcia uwzględniają teraz podzielone zmiany (takie jak przerwa obiadowa), zaczynają się od dzisiejszego dnia i są wyświetlane dla całego tygodnia bez osobnego obszaru przewijania _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Przejrzystszy pasek wyszukiwania z połączonym przyciskiem „Wyczyść” i „Głos”, ikoną „Wyczyść”, która już się nie przesuwa, oraz poprawkami układu w trybie poziomym i po obróceniu telefonu _(Mikhail Listratsenka)_
 - Przerobiony edytor zakładek i śladów _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Dzięki twoim [darowiznom](@/donate/index.pl.md) oraz [opiniom](@/contribute/ind
 - Naprawiono awarie _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Lista map dostępnych do pobrania jest teraz posortowana alfabetycznie _(goncalo109560)_
 
 ### Tłumaczenia
+
 - Poprawione chińskie sformułowania _(Chenxi Zhao)_
 - Zaktualizowane tłumaczenia na język ukraiński _(Nnifria)_
 - Poprawiono włoskie tłumaczenia nazw regionów na mapie _(Vittorio Bertola)_

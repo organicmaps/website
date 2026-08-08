@@ -24,6 +24,7 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Landwirtschafts- und Forststraßen sind jetzt vom Routing ausgeschlossen (Viktor Govako)
 
 #### iOS
+
 - Mehrere Abstürze behoben und iCloud-Synchronisation stabilisiert (Kiryl Kaveryn)
 - Mehrzeilige Titel in Lesezeichenlisten eingeführt (David Martinez)
 - Zoomproblem beim Abwählen eines Tracks behoben (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Fehlende Übersetzungen durch englische Alternativen ersetzt (Viktor Govako)
 
 #### Android
+
 - Höhenprofil und Track-Auswahl auf der Karte hinzugefügt (Kavi Khalique)
 - OpenStreetMap-Notiz hinterlassen, wenn ein neu hinzugefügter POI noch nicht in Organic Maps unterstützt wird (hemanggs)
 - OpenGL ES 2.0 Unterstützung entfernt zugunsten von OpenGL ES 3.0 (renderexpert)
 - Lesezeichen-Symbole im Farbwähler angezeigt (Andrei Shkrob)
 
 #### Verbesserungen bei Stilen & Symbolen
+
 - Gabel-und-Messer-Symbol für Food Courts (David Martinez)
 - Feuchtgebiete mit horizontaler Schraffur markiert (Viktor Govako)
 - Symbole für Fast Food und Fahrräder in Suchergebnissen und Lesezeichen (David Martinez)
@@ -48,6 +51,7 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Korrektur der Prioritätseinstellungen für diplomatische Vertretungen (Viktor Govako)
 
 #### Sonstige Verbesserungen
+
 - Die Eingabe von "cop" findet Polizeistationen, während "film" oder "movie theater" Kinos findet (theadventurer62)
 - "In einer anderen App öffnen" zeigt jetzt den ausgewählten Punkt in Google Maps an (Alexander Borsuk)
 - Spanische Übersetzung für weitere Suchkategorien (David Martinez)

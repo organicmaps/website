@@ -27,6 +27,7 @@ We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/d
 - Bijgewerkte vertalingen (Weblate bijdragers)
 
 #### iOS
+
 - NIEUW! Opnieuw ontworpen "Plaats toevoegen aan OpenStreetMap" en "Plaats bewerken" knoppen (Kiryl Kaveryn)
 - Springend dradenkruis gecorrigeerd bij het toevoegen van een nieuwe plaats aan OpenStreetMap (Kiryl Kaveryn)
 - Nieuwe pictogrammen voor kaartlagen en menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/d
 - De "Kaarten bijwerken om bij te dragen" knop wordt nu getoond in het menu wanneer kaarten te verouderd zijn (Kiryl Kaveryn)
 
 #### Android
+
 - Nieuwe laagpictogrammen (Andrei Shkrob, @euf)
 - Het aanraakgebied voor het bladwijzer bewerken (potlood) pictogram is nu groter (Kavi Khalique)
 - Crash gecorrigeerd bij het opslaan van bepaalde routes en zeldzame crash bij opstarten (Viktor Govako)

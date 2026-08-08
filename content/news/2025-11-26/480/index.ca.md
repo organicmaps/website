@@ -9,11 +9,13 @@ taxonomies:
 Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
 ## Notes de la versió
+
 - Els articles de la Viquipèdia per a llocs ja estan disponibles en turc, japonès i xinès. Escriviu `?wiki` a la cerca per trobar llocs amb articles al mapa. _(Alexander Borsuk)_
 - S'ha afegit una configuració que destaca visualment les regions descarregades al mapa en color porpra. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Dades d'OpenStreetMap actualitzades a 23 de novembre de 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NOU! Podeu editar el nom d'un marcador o traça directament a la pàgina d'informació del lloc tocant el nom. _(Kiryl Kaveryn)_
 - S'ha afegit suport per a iOS 26 i macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Mantingueu premut el nom o l'adreça d'un lloc o marcador seleccionat per copiar-lo al porta-retalls. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de <
 - S'han corregit les animacions dels botons laterals i el color del botó "Descarregar Mapes" en el tema fosc. _(Kiryl Kaveryn)_
 
 ### Android
+
 - S'han afegit barres de desplaçament a la pantalla de cerca i a la pantalla de "Marcadors i Traces". _(shantanu1k)_
 - S'ha millorat la gestió de la reproducció d'àudio i les interrupcions. _(Andrei Shkrob)_
 - S'han corregit els errors a la pantalla del perfil de l'editor. _(Alexander Borsuk)_
 - S'han corregit els errors durant les descàrregues de mapes. _(Viktor Govako)_
 
 ### Altres millores
+
 - S'han afegit emojis personalitzats a la pàgina d'informació del lloc. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - S'ha augmentat la brillantor i el contrast de les carreteres en el mode de vehicle fosc. _(Manish Rathaur)_
 - L'encaminament de bicicletes ara omet els carrers residencials d'un sol sentit a Àustria. _(Viktor Govako)_

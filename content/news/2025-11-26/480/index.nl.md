@@ -9,11 +9,13 @@ taxonomies:
 Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <https://omaps.app/get> of vanuit de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].
 
 ## Release-opmerkingen
+
 - Wikipedia-artikelen voor plaatsen zijn nu beschikbaar in het Turks, Japans en Chinees. Typ `?wiki` in de zoekbalk om plaatsen met artikelen op de kaart te vinden. _(Alexander Borsuk)_
 - Een instelling toegevoegd die gedownloade regio's visueel markeert op de kaart in paars. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap-gegevens bijgewerkt tot 23 november 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NIEUW! Je kunt een bladwijzer- of routenaam direct op de Plaatsinformatiepagina bewerken door op de naam te tikken. _(Kiryl Kaveryn)_
 - Ondersteuning toegevoegd voor iOS 26 en macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Houd de naam of het adres van een geselecteerde plaats of bladwijzer lang ingedrukt om deze naar het klembord te kopiëren. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <http
 - Animaties voor zijknoppen gecorrigeerd en de kleur van de "Kaarten downloaden"-knop in het donkere thema gecorrigeerd. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Schuifbalken toegevoegd aan het zoekscherm en het scherm "Bladwijzers en Routes". _(shantanu1k)_
 - Verbeterde afhandeling van audio-afspelen en onderbrekingen. _(Andrei Shkrob)_
 - Crashes op het Editor-profielscherm opgelost. _(Alexander Borsuk)_
 - Crashes tijdens het downloaden van kaarten opgelost. _(Viktor Govako)_
 
 ### Overige verbeteringen
+
 - Aangepaste emoji's toegevoegd op de Plaatsinformatiepagina. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Verhoogde helderheid en contrast van wegen in de donkere voertuigmodus. _(Manish Rathaur)_
 - Fietsroutering slaat nu eenrichtingsstraten in woonwijken in Oostenrijk over. _(Viktor Govako)_

@@ -11,6 +11,7 @@ Bon Nadal e Bona Annada de la part de l'equipa d'Organic Maps. Cèrcas l'esperit
 Installa Organic Maps dempuèi <https://omaps.app/get> o dempuèi [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
 
 ### Nòtas de version
+
 - Los arbres e mercats de Nadal apareisson ara sus la mapa (Viktor Govako)
 - Las donadas OpenStreetMap son a jorn al 14 de decembre de 2025 (Viktor Govako)
 - Las bordaduras e las etiquetas dels parcs nacionals son mens visiblas sus la mapa del mond (Viktor Govako)
@@ -20,6 +21,7 @@ Installa Organic Maps dempuèi <https://omaps.app/get> o dempuèi [App Store][ap
 - Las indicacions vocalas TTS per las redondas en croat son corrigidas (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Los resultats de recèrca mòstran ara la capacitat dels parkings amb d'emojis (David Martinez)
 - Un problèma CarPlay sus iOS 12 es corregit (Kiryl Kaveryn)
 - Mantun problèma visual sus iPhone e iPad son corregits (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Installa Organic Maps dempuèi <https://omaps.app/get> o dempuèi [App Store][ap
 - Lo messatge de rapèl de las isolinhas a l'aviada de l'aplicacion es suprimit (Kiryl Kaveryn)
 
 ### Android
+
 - Los resultats de recèrca mòstran ara la capacitat dels parkings (Bicky Rawdyrathaur, David Martinez)
 - Lo sensor de localizacion de la veitura dins Android Auto es desactivat per evitar los problèmas de localizacion (Andrei Shkrob)
 - L'enregistrament de la traça contunha quitament se l'aplicacion es tuada o barrada (Alexander Borsuk)

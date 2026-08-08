@@ -16,4 +16,6 @@ Jy benodig ten minste iOS 12 of Android 5 om die toepassing te laat loop. Toeste
 
 In Android kan Organic Maps werk op toestelle met Google-dienste geïnstalleer en sonder Google-ondersteuning.
 
+Android-toestelle moet OpenGL ES 3.0 of hoër, of die Vulkan-API ondersteun om te werk.
+
 Om OM met Android Auto te gebruik, gaan asseblief die vereistes na [hier](../how-to-use-android-auto/).

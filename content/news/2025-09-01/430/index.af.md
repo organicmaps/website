@@ -27,6 +27,7 @@ Ons is dankbaar ❤️ vir ons bydraers, sowel as vir [julle donasies](@/donate/
 - Bygewerkte vertalings (Weblate bydraers)
 
 #### iOS
+
 - NUUT! Herontwerpe "Voeg Plek by OpenStreetMap" en "Redigeer Plek" knoppies (Kiryl Kaveryn)
 - Reggestelde springende kruishare wanneer nuwe plek by OpenStreetMap gevoeg word (Kiryl Kaveryn)
 - Nuwe ikone vir kaart lae en kieslys (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Ons is dankbaar ❤️ vir ons bydraers, sowel as vir [julle donasies](@/donate/
 - Die "Werk kaarte by om by te dra" knoppie word nou in die kieslys gewys wanneer kaarte te verouderd is (Kiryl Kaveryn)
 
 #### Android
+
 - Nuwe laag ikone (Andrei Shkrob, @euf)
 - Die raak area vir die redigeer boekmerk (potlood) ikoon is nou groter (Kavi Khalique)
 - Reggestelde ineenstorting wanneer sekere roetes gestoor word en seldsame ineenstorting by opstart (Viktor Govako)

@@ -49,6 +49,7 @@ Scopri l'aggiornamento su <https://get.omaps.org> o su [App Store][appstore], [G
 - Risolti i problemi relativi alla pagina delle tracce e al pulsante "Apri in" _(Mikhail Listratsenka)_
 
 ### Linux e macOS
+
 - Aggiunte traduzioni in cinese ai commenti del file `.desktop` _(DeepChirp)_
 
 ## Partecipa al beta testing per provare le prime funzionalità e segnalare i problemi:

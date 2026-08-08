@@ -11,6 +11,7 @@ taxonomies:
 Organic Maps را از <https://omaps.app/get> یا از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] نصب کنید.
 
 ### یادداشت‌های انتشار
+
 - درختان کریسمس و بازارها اکنون روی نقشه ظاهر می‌شوند (Viktor Govako)
 - داده‌های OpenStreetMap از ۱۴ دسامبر ۲۰۲۵ به‌روز هستند (Viktor Govako)
 - مرزها و برچسب‌های پارک‌های ملی در نقشه جهان کمتر برجسته هستند (Viktor Govako)
@@ -20,6 +21,7 @@ Organic Maps را از <https://omaps.app/get> یا از [App Store][appstore]،
 - جهت‌های صوتی TTS میدان در زبان کرواتی اصلاح شده‌اند (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - نتایج جستجو اکنون ظرفیت پارکینگ را با استفاده از ایموجی نشان می‌دهند (David Martinez)
 - یک مشکل CarPlay در iOS 12 برطرف شده است (Kiryl Kaveryn)
 - چندین مشکل بصری در iPhone و iPad برطرف شده است (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Organic Maps را از <https://omaps.app/get> یا از [App Store][appstore]،
 - پیام یادآوری خطوط تراز در هنگام راه اندازی برنامه حذف شده است (Kiryl Kaveryn)
 
 ### Android
+
 - نتایج جستجو اکنون ظرفیت پارکینگ را نشان می‌دهند (Bicky Rawdyrathaur, David Martinez)
 - سنسور موقعیت مکانی خودرو در Android Auto برای جلوگیری از مشکلات موقعیت مکانی غیرفعال شده است (Andrei Shkrob)
 - ضبط مسیر حتی اگر برنامه بسته یا متوقف شود ادامه می‌یابد (Alexander Borsuk)

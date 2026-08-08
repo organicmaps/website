@@ -43,6 +43,7 @@ Pour ceux qui l'ont manqué, la [mise à jour précédente du 7 octobre](https:/
 - Meilleur écran de démarrage au lancement (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurer l'itinéraire après annulation (Andrei Shkrob)
 - Correction des plantages sur certains appareils (Andrei Shkrob)
 

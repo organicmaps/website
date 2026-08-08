@@ -20,22 +20,26 @@ Mercés a tas [donacions](@/donate/index.oc.md) e a tos [retorns](@/contribute/i
 ## Jornal de cambiaments detalhat
 
 ### Mapa e luòcs
+
 - Donadas OpenStreetMap mesas a jorn lo 14 de julhet
 - Las nòtas reportadas a [OpenStreetMap](https://www.openstreetmap.org) son ara plaçadas exactament al ponch qu'as seleccionat, en luòc d'èsser plaçadas al mitan de tota la carrièra o de la zòna _(Alexander Borsuk)_
 - Melhorament de la seleccion del luòc en tocant la mapa dins las regions que travèrsan l'antimeridian de 180° _(Viktor Govako)_
 - Los perfils d'elevacion de las traças mòstran pas mai de grafics obsolets o voids aprèp qu'una traça es suprimida _(Kiryl Kaveryn)_
 
 ### Transpòrt public
+
 - Los noms de las paradas, dels transbòrdaments e de las estacions an ara un contorn blanc per demorar legibles dins los tèmas clars e escurs _(Viktor Govako)_
 - La capa del mètro reapareis corrèctament aprèp qu'as tampat la previsualizacion d'un itinerari de transpòrt public _(Mikhail Listratsenka)_
 
 ### Itineraris e navigacion
+
 - Los avertiments d'itinerari (peatges, ferris, rotas non asfaltadas, escalièrs, e aital) son ara mostrats per totes los itineraris alternatius _(Viktor Govako)_
 - Corregiment d'un blocatge rar pendent la construccion d'un itinerari _(Viktor Govako)_
 - Melhor gestion dels impasses e dels punts de començament e de fin sus las carrièras restrenchas _(Viktor Govako)_
 - Correccion de las instruccions de viratge incorrèctas e mancantas _(Alexander Borsuk)_
 
 ### iOS
+
 - Nòva configuracion «Enregistrar l'istoric de recèrca» que te permet de desactivar l'istoric e de l'amagar se preferisses pas lo conservar _(Kiryl Kaveryn)_
 - Nòu boton «Modificar» per suprimir los marcadors mai aisidament _(Kiryl Kaveryn)_
 - Los marcadors son ara enregistrats automaticament quand quitas l'ecran _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Mercés a tas [donacions](@/donate/index.oc.md) e a tos [retorns](@/contribute/i
 - Autres melhoraments menuts de l'interfàcia _(Kiryl Kaveryn)_
 
 ### Android
+
 - Los oraris d'obertura mòstran ara de torns fraccionats (coma una pausa de dinnar), començan al jorn actual, e mòstran tota la setmana sens zòna de desfilament separada _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Barra de recèrca mai neta amb un boton combinat d'escafament e de votz, una icòna d'escafament que se mòu pas mai, e de correccions de disposicion per al mòde païsatge e la rotacion del telefòn _(Mikhail Listratsenka)_
 - Editor de marcadors e de traças revisat _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Mercés a tas [donacions](@/donate/index.oc.md) e a tos [retorns](@/contribute/i
 - Correccion de plantatges _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - La lista de las cartas disponiblas per telecargament es ara ordenada alfabeticament _(goncalo109560)_
 
 ### Traduccions
+
 - Amelhorament de la formulacion chinesa _(Chenxi Zhao)_
 - Traduccions ucraïnas actualizadas _(Nnifria)_
 - Correccion de las traduccions italianas dels noms de las regions de la mapa _(Vittorio Bertola)_

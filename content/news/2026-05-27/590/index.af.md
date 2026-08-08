@@ -49,6 +49,7 @@ Kry die opdatering by <https://get.omaps.org> of op die [App Store][appstore], [
 - Spoor-plekbladsy-probleme en die "Open in"-knoppie is reggestel _(Mikhail Listratsenka)_
 
 ### Linux en macOS
+
 - Chinese vertalings bygevoeg tot die `.desktop`-lêeropmerkings _(DeepChirp)_
 
 ## Sluit aan by beta-toetsing om vroeë funksies te probeer en probleme aan te meld:

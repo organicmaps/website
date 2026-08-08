@@ -49,6 +49,7 @@ Download de update op <https://get.omaps.org> of op de [App Store][appstore], [G
 - Problemen met de trackplaatspagina en de knop "Open In" opgelost _(Mikhail Listratsenka)_
 
 ### Linux en macOS
+
 - Chinese vertalingen toegevoegd aan het `.desktop`-bestandsopmerkingen _(DeepChirp)_
 
 ## Doe mee aan bètatests om vroege functies uit te proberen en problemen te melden:

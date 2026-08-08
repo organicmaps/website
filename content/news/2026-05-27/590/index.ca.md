@@ -49,6 +49,7 @@ Obteniu l'actualització a <https://get.omaps.org> o a les [App Store][appstore]
 - S'han solucionat problemes amb la pàgina de la traça i el botó «Obre a». _(Mikhail Listratsenka)_
 
 ### Linux i macOS
+
 - S'han afegit traduccions al xinès als comentaris dels fitxers de `.desktop` _(DeepChirp)_
 
 ## Uniu-vos a les proves beta per provar les noves funcions i informar de problemes:

@@ -27,6 +27,7 @@ taxonomies:
 - 更新翻译（Weblate 贡献者）
 
 #### iOS
+
 - 新功能！重新设计的"向 OpenStreetMap 添加地点"和"编辑地点"按钮（Kiryl Kaveryn）
 - 修复向 OpenStreetMap 添加新地点时跳跃的十字线（Kiryl Kaveryn）
 - 地图图层和菜单的新图标（Kiryl Kaveryn, @euf）
@@ -37,6 +38,7 @@ taxonomies:
 - 当地图过于过时时，菜单中现在显示"更新地图以贡献"按钮（Kiryl Kaveryn）
 
 #### Android
+
 - 新的图层图标（Andrei Shkrob, @euf）
 - 编辑书签（铅笔）图标的触摸区域现在更大（Kavi Khalique）
 - 修复保存某些路线时的崩溃和启动时的罕见崩溃（Viktor Govako）

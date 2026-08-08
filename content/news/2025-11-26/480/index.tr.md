@@ -9,11 +9,13 @@ taxonomies:
 Cuma! <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den yeni Organic Maps güncellemesini yükleme zamanı.
 
 ## Sürüm Notları
+
 - Yerler için Wikipedia makaleleri artık Türkçe, Japonca ve Çince olarak mevcut. Haritada makaleleri olan yerleri bulmak için aramada `?wiki` yaz. _(Alexander Borsuk)_
 - İndirilen bölgeleri haritada mor renkte görsel olarak vurgulayan bir ayar eklendi. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap verileri 23 Kasım 2025 tarihine güncellendi. _(Viktor Govako)_
 
 ### iOS
+
 - YENİ! Yer Bilgi Sayfasında isme dokunarak yer imi veya rota adını doğrudan düzenleyebilirsin. _(Kiryl Kaveryn)_
 - iOS 26 ve macOS 26 "Liquid Glass" desteği eklendi. _(Kiryl Kaveryn)_
 - Seçilen yer veya yer iminin adını veya adresini panoya kopyalamak için uzun dokun. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Cuma! <https://omaps.app/get> adresinden veya [App Store][appstore], [Google Pla
 - Yan düğmeler için animasyonlar düzeltildi ve karanlık temada "Haritaları İndir" düğmesinin rengi düzeltildi. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Arama ekranına ve "Yer İmleri ve Rotalar" ekranına kaydırma çubukları eklendi. _(shantanu1k)_
 - Ses çalma ve kesintilerin iyileştirilmiş işlenmesi. _(Andrei Shkrob)_
 - Editör Profili ekranındaki çökmeler düzeltildi. _(Alexander Borsuk)_
 - Harita indirmeleri sırasındaki çökmeler düzeltildi. _(Viktor Govako)_
 
 ### Diğer iyileştirmeler
+
 - Yer Bilgi Sayfasına özel emojiler eklendi. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Karanlık araç modunda yol parlaklığı ve kontrastı artırıldı. _(Manish Rathaur)_
 - Bisiklet yönlendirmesi artık Avusturya'da tek yönlü yaşam caddelerini atlıyor. _(Viktor Govako)_

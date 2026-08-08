@@ -24,6 +24,7 @@ taxonomies:
 - 农业和林业道路现已从路线规划中排除 (Viktor Govako)
 
 #### iOS
+
 - 解决了几个崩溃问题并改善了 iCloud 同步稳定性 (Kiryl Kaveryn)
 - 在书签列表中引入多行标题 (David Martinez)
 - 修复取消选择轨迹时的缩放问题 (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ taxonomies:
 - 用英文替代方案替换了缺失的翻译 (Viktor Govako)
 
 #### Android
+
 - 添加了轨迹海拔图表和地图上的轨迹选择 (Kavi Khalique)
 - 如果新添加的兴趣点 (POI) 在 Organic Maps 中尚未支持，则留下 OpenStreetMap 注释 (hemanggs)
 - 移除了 OpenGL ES 2.0 支持，改用 OpenGL ES 3.0 (renderexpert)
 - 在颜色选择器中显示书签图标 (Andrei Shkrob)
 
 #### 样式和图标增强
+
 - 美食广场的叉子和刀子图标 (David Martinez)
 - 用水平阴影线标记湿地 (Viktor Govako)
 - 在搜索结果和书签中添加快餐和自行车图标 (David Martinez)
@@ -48,6 +51,7 @@ taxonomies:
 - 修正了外交办公室的优先级设置 (Viktor Govako)
 
 #### 其他改进
+
 - 在搜索中输入"cop"可找到警察局，而"film"或"movie theater"可定位电影院 (theadventurer62)
 - 在其他应用中打开现在会在 Google Maps 中显示选定的点 (Alexander Borsuk)
 - 为更多搜索类别添加了西班牙语翻译 (David Martinez)

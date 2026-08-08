@@ -43,6 +43,7 @@ Per a aquells que es van perdre, l'[actualització anterior del 7 d'octubre](htt
 - Millor pantalla de presentació a l'inici (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar la ruta després de la cancel·lació (Andrei Shkrob)
 - Corregits els errors en alguns dispositius (Andrei Shkrob)
 

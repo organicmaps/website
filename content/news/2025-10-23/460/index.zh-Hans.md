@@ -43,6 +43,7 @@ taxonomies:
 - 启动时更好的启动画面（Andrei Shkrob）
 
 ### Android Auto
+
 - 取消后恢复路线（Andrei Shkrob）
 - 修复了某些设备上的崩溃问题（Andrei Shkrob）
 

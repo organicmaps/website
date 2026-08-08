@@ -13,6 +13,7 @@ P.S. Pokud máš zájem o sadu SDK pro iOS/Android/Linux/MacOS/Windows s offline
 P.P.S. Věděl jsi o rozhraní API, které už můžeš ve své aplikaci používat, pokud je nainstalována také aplikace Organic Maps? Podívej se na něj zde: <https://omaps.app/api>
 
 ### Poznámky k vydání
+
 * Mapová data OSM k 10. březnu
 * Data Wikipedie k 1. březnu
 * Podrobnější výškové izolinie pro čínské provincie (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Věděl jsi o rozhraní API, které už můžeš ve své aplikaci použí
 * Opraveno několik pádů, zlepšena stabilita a výkon (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Přidána historie naposledy použitých kategorií v editoru (Rahul Kolluru)
 * Vylepšeno gesto přejetí prstem nahoru na obrazovce plánování trasy (Kiryl Kaveryn)
 * Opravena pozice pravítka pro CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Vylepšeno zobrazování otevírací doby podniků (Anton P)
 * Přidána šedá ikona pro skryté seznamy (Alexander Borsuk)
 
 ### Překlady
+
 * Vylepšené popisy zemí (alnzrv)
 * Použity opravy rumunského překladu od Eugena Dedu (Alexander Borsuk)
 * Aktualizovány názvy zemí (Viktor Govako)

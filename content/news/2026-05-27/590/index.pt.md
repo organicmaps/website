@@ -42,12 +42,14 @@ Obtenha a atualização em <https://get.omaps.org> ou na [App Store][appstore], 
 - Corrigida uma falha ao adicionar um marcador numa rota de caminhada ou ciclismo _(Alexander Borsuk)_
 
 ### Android
+
 - NOVO! O texto e as descrições HTML dos trilhos são agora suportados, tal como as descrições dos marcadores. Prima o ícone de lápis para adicionar uma descrição. _(Mikhail Listratsenka)_
 - NOVO! Escolha qualquer cor para os trilhos, não apenas um subconjunto limitado _(Mikhail Listratsenka)_
 - Os utilizadores coreanos, chineses e japoneses irão agora ver as fontes adequadas com base na região do dispositivo _(Alexander Borsuk)_
 - Corrigidos problemas na página do local dos trilhos e no botão "Abrir em" _(Mikhail Listratsenka)_
 
 ### Linux e macOS
+
 - Adicionadas traduções em chinês aos comentários do ficheiro `.desktop` _(DeepChirp)_
 
 

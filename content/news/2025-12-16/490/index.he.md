@@ -11,6 +11,7 @@ taxonomies:
 התקינו את Organic Maps מ-<https://omaps.app/get> או מ-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid]
 
 ### הערות שחרור
+
 - עצי חג מולד ושווקים מופיעים כעת במפה (Viktor Govako)
 - נתוני OpenStreetMap מעודכנים ל-14 בדצמבר 2025 (Viktor Govako)
 - גבולות ותוויות של פארקים לאומיים פחות בולטים במפת העולם (Viktor Govako)
@@ -20,6 +21,7 @@ taxonomies:
 - הכוונה קולית TTS בסיבובית בקרואטית תוקנה (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - תוצאות החיפוש מציגות כעת את קיבולת החניה באמצעות אמוג'י (David Martinez)
 - תוקנה בעיה ב-CarPlay ב-iOS 12 (Kiryl Kaveryn)
 - מספר בעיות ויזואליות ב-iPhone וב-iPad תוקנו (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ taxonomies:
 - הודעת התזכורת על קווי גובה בעת הפעלת האפליקציה הוסרה (Kiryl Kaveryn)
 
 ### Android
+
 - תוצאות החיפוש מציגות כעת את קיבולת החניה (Bicky Rawdyrathaur, David Martinez)
 - חיישן מיקום הרכב ב-Android Auto מושבת כדי למנוע בעיות מיקום (Andrei Shkrob)
 - הקלטת הרצועות נמשכת גם אם האפליקציה נסגרה או הושבתה (Alexander Borsuk)

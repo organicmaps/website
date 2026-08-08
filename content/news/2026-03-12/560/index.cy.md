@@ -13,6 +13,7 @@ O.N. Cysyllta â ni drwy e-bost yn <sdk@organicmaps.app> os oes gennyt ddiddorde
 O.N.N. A wyddet ti am yr API y gelli ei ddefnyddio yn dy ap os yw ap Organic Maps wedi'i osod hefyd? Edrycha arno yma: <https://omaps.app/api>
 
 ### Nodiadau rhyddhau
+
 * Data map OSM fel ar Fawrth 10
 * Data Wicipedia fel ar Fawrth 1
 * Isoliniau uchder mwy manwl ar gyfer taleithiau Tsieineaidd (ZiyiGaoCN)
@@ -25,15 +26,18 @@ O.N.N. A wyddet ti am yr API y gelli ei ddefnyddio yn dy ap os yw ap Organic Map
 * Trwsiwyd sawl chwalfa, gwellwyd sefydlogrwydd a pherfformiad (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Ychwanegwyd hanes categorïau a ddefnyddiwyd yn ddiweddar yn y Golygydd (Rahul Kolluru)
 * Gwellwyd yr ystum troi i fyny ar y sgrin cynllunio llwybr (Kiryl Kaveryn)
 * Trwsiwyd safle'r riwler ar gyfer CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Gwellwyd arddangosiad oriau agor busnesau (Anton P)
 * Ychwanegwyd eicon llwyd ar gyfer rhestrau cudd (Alexander Borsuk)
 
 ### Cyfieithiadau
+
 * Gwellwyd disgrifiadau gwledydd (alnzrv)
 * Cymhwyswyd atgyweiriadau cyfieithiad Rwmaneg gan Eugen Dedu (Alexander Borsuk)
 * Diweddarwyd enwau gwledydd (Viktor Govako)

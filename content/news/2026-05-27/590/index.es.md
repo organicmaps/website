@@ -49,6 +49,7 @@ Consigue la actualización en <https://get.omaps.org> o en [App Store][appstore]
 - Arreglados los problemas con la página de ubicación de los tracks y el botón "Abrir en" _(Mikhail Listratsenka)_
 
 ### Linux y macOS
+
 - Añadidas traducciones al chino en los comentarios del archivo `.desktop` _(DeepChirp)_
 
 ## Únete a las pruebas beta para probar las primeras funciones e informar de los problemas:

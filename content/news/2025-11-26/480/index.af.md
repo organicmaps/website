@@ -9,11 +9,13 @@ taxonomies:
 Vrydag! Dit is tyd om die nuwe Organic Maps-opdatering te installeer vanaf <https://omaps.app/get> of vanaf die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid].
 
 ## Vrystellingsnotas
+
 - Wikipedia-artikels vir plekke is nou beskikbaar in Turks, Japannees en Sjinees. Tik `?wiki` in soek om plekke met artikels op die kaart te vind. _(Alexander Borsuk)_
 - 'n Instelling bygevoeg wat afgelaaide streke visueel in pers op die kaart uitlig. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap-data opgedateer tot 23 November 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NUUT! Jy kan 'n boekmerk- of snitspoor-naam direk op die Plekinligtingbladsy wysig deur op die naam te tik. _(Kiryl Kaveryn)_
 - Ondersteuning bygevoeg vir iOS 26 en macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Langdruk op die naam of adres van 'n geselekteerde plek of boekmerk om dit na die knipbord te kopieer. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Vrydag! Dit is tyd om die nuwe Organic Maps-opdatering te installeer vanaf <http
 - Animasies vir syknoppies reggestel en die kleur van die "Laai Kaarte Af"-knoppie in die donker tema reggestel. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Rolbalke bygevoeg by die Soekskerm en die "Boekmerke en Snitspore"-skerm. _(shantanu1k)_
 - Verbeterde hantering van oudioterugspeel en onderbrekings. _(Andrei Shkrob)_
 - Ineenstortings op die Redigeerder Profiel-skerm reggestel. _(Alexander Borsuk)_
 - Ineenstortings tydens kaartaflaai reggestel. _(Viktor Govako)_
 
 ### Ander verbeterings
+
 - Pasgemaakte emojis bygevoeg op die Plekinligtingbladsy. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Padhelderheid en kontras in donker voertuigmodus verhoog. _(Manish Rathaur)_
 - Fietsroetes slaan nou eenrigtingwoonbuurtestrate in Oostenryk oor. _(Viktor Govako)_

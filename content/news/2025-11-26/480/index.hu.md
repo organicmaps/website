@@ -9,11 +9,13 @@ taxonomies:
 Péntek! Ideje telepíteni az új Organic Maps frissítést a <https://omaps.app/get> címről vagy az [App Store-ból][appstore], [Google Play-ről][googleplay], [Huawei AppGallery-ből][appgallery], [Obtainium-ból][obtainium], [Accrescent-ből][accrescent] és [F-Droid-ról][fdroid].
 
 ## Kiadási megjegyzések
+
 - A helyek Wikipédia cikkei mostantól elérhetők törökül, japánul és kínaiul. Írd be a `?wiki` kifejezést a keresésbe, hogy megtaláld a cikkekkel rendelkező helyeket a térképen. _(Alexander Borsuk)_
 - Beállítás hozzáadva, amely vizuálisan kiemeli a letöltött régiókat a térképen lila színnel. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Az OpenStreetMap adatai 2025. november 23-ig frissítve. _(Viktor Govako)_
 
 ### iOS
+
 - ÚJ! Szerkesztheted a könyvjelző vagy útvonal nevét közvetlenül a Hely információs oldalon a névre koppintva. _(Kiryl Kaveryn)_
 - iOS 26 és macOS 26 "Liquid Glass" támogatás hozzáadva. _(Kiryl Kaveryn)_
 - Hosszan érintsd meg a kiválasztott hely vagy könyvjelző nevét vagy címét a vágólapra másoláshoz. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Péntek! Ideje telepíteni az új Organic Maps frissítést a <https://omaps.app
 - Javítva az oldalsó gombok animációi és a "Térképek letöltése" gomb színe a sötét témában. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Görgetősávok hozzáadva a Keresés képernyőhöz és a "Könyvjelzők és Útvonalak" képernyőhöz. _(shantanu1k)_
 - Javított hanglejátszás és megszakítások kezelése. _(Andrei Shkrob)_
 - Összeomlások javítva a Szerkesztő profil képernyőn. _(Alexander Borsuk)_
 - Összeomlások javítva a térképek letöltése közben. _(Viktor Govako)_
 
 ### Egyéb fejlesztések
+
 - Egyéni emojik hozzáadva a Hely információs oldalon. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Megnövelt út fényerő és kontraszt sötét járműmódban. _(Manish Rathaur)_
 - A kerékpáros útvonaltervezés mostantól kihagyja az egyirányú lakóutcákat Ausztriában. _(Viktor Govako)_

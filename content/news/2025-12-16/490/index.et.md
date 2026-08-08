@@ -11,6 +11,7 @@ Häid jõule ja head uut aastat Organic Mapsi meeskonna poolt. Otsid pühademeel
 Paigalda Organic Maps aadressilt <https://omaps.app/get> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid] kaudu.
 
 ### Väljalaskemärkmed
+
 - Jõulupuud ja -turud ilmuvad nüüd kaardile (Viktor Govako)
 - OpenStreetMapi andmed on seisuga 14. detsember 2025 (Viktor Govako)
 - Rahvusparkide piirid ja sildid on maailmakaardil vähem silmatorkavad (Viktor Govako)
@@ -20,6 +21,7 @@ Paigalda Organic Maps aadressilt <https://omaps.app/get> või [App Store][appsto
 - Ringristmike TTS hääljuhised horvaadi keeles on parandatud (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Otsingutulemused näitavad nüüd parkimiskohtade arvu emotikonidega (David Martinez)
 - Parandatud CarPlay probleem iOS 12-s (Kiryl Kaveryn)
 - Parandatud mitmed visuaalsed probleemid iPhone'is ja iPadis (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Paigalda Organic Maps aadressilt <https://omaps.app/get> või [App Store][appsto
 - Eemaldatud samakõrgusjoonte meeldetuletussõnum rakenduse käivitamisel (Kiryl Kaveryn)
 
 ### Android
+
 - Otsingutulemused näitavad nüüd parkimiskohtade arvu (Bicky Rawdyrathaur, David Martinez)
 - Auto asukoha andur Android Autos on asukohaprobleemide vältimiseks keelatud (Andrei Shkrob)
 - Raja salvestamine jätkub isegi siis, kui rakendus suletakse või tapetakse (Alexander Borsuk)

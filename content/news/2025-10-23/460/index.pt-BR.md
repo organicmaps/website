@@ -43,6 +43,7 @@ Para quem perdeu, a [atualização anterior de 7 de outubro](https://organicmaps
 - Melhor tela de abertura na inicialização (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar a rota após cancelamento (Andrei Shkrob)
 - Corrigidas falhas em alguns dispositivos (Andrei Shkrob)
 

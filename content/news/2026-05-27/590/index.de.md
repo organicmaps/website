@@ -49,6 +49,7 @@ Hol dir das Update unter <https://get.omaps.org> oder im [App Store][appstore], 
 - Probleme mit der Track-Ortsseite und der Schaltfläche „Öffnen in“ behoben _(Mikhail Listratsenka)_
 
 ### Linux und macOS
+
 - Chinesische Übersetzungen zu den `.desktop`-Dateikommentaren hinzugefügt _(DeepChirp)_
 
 ## Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu melden:

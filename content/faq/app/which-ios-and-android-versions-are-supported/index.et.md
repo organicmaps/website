@@ -16,4 +16,6 @@ Rakenduse käitamiseks peab sul olema vähemalt iOS 12 või Android 5. Uuemate v
 
 Androidis saab Organic Maps töötada seadmetes, kuhu on installitud Google'i teenused ja ilma Google'i toeta.
 
+Android-seadmed peavad töötamiseks toetama OpenGL ES 3.0 või uuemat versiooni või Vulkan API-d.
+
 OM-i kasutamiseks koos Android Autoga vaata nõudeid [siin](../how-to-use-android-auto/).

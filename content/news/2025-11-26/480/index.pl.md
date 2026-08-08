@@ -9,11 +9,13 @@ taxonomies:
 Piątek! Czas zainstalować nową aktualizację Organic Maps z <https://omaps.app/get> lub z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
 ## Informacje o wydaniu
+
 - Artykuły Wikipedii dla miejsc są teraz dostępne po turecku, japońsku i chińsku. Wpisz `?wiki` w wyszukiwaniu, aby znaleźć miejsca z artykułami na mapie. _(Alexander Borsuk)_
 - Dodano ustawienie, które wizualnie podświetla pobrane regiony na mapie na fioletowo. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Dane OpenStreetMap zaktualizowane do 23 listopada 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NOWOŚĆ! Możesz edytować nazwę zakładki lub trasy bezpośrednio na stronie informacji o miejscu, dotykając nazwy. _(Kiryl Kaveryn)_
 - Dodano obsługę iOS 26 i macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Przytrzymaj nazwę lub adres wybranego miejsca lub zakładki, aby skopiować do schowka. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Piątek! Czas zainstalować nową aktualizację Organic Maps z <https://omaps.ap
 - Naprawiono animacje przycisków bocznych i poprawiono kolor przycisku "Pobierz mapy" w ciemnym motywie. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Dodano paski przewijania do ekranu wyszukiwania i ekranu "Zakładki i Trasy". _(shantanu1k)_
 - Ulepszona obsługa odtwarzania dźwięku i przerw. _(Andrei Shkrob)_
 - Naprawiono awarie na ekranie profilu edytora. _(Alexander Borsuk)_
 - Naprawiono awarie podczas pobierania map. _(Viktor Govako)_
 
 ### Inne ulepszenia
+
 - Dodano niestandardowe emoji na stronie informacji o miejscu. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Zwiększono jasność i kontrast dróg w ciemnym trybie pojazdu. _(Manish Rathaur)_
 - Routing rowerowy pomija teraz jednokierunkowe ulice mieszkalne w Austrii. _(Viktor Govako)_

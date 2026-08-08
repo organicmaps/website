@@ -24,6 +24,7 @@ P.S. ...e molto altro sta arrivando! Il vostro supporto ci aiuta e ci motiva a c
 - Le strade agricole e forestali sono ora escluse dal routing (Viktor Govako)
 
 #### iOS
+
 - Risolti diversi crash e migliorata la stabilità della sincronizzazione iCloud (Kiryl Kaveryn)
 - Introdotti titoli multiriga negli elenchi dei segnalibri (David Martinez)
 - Risolto il problema di zoom quando si deseleziona una traccia (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...e molto altro sta arrivando! Il vostro supporto ci aiuta e ci motiva a c
 - Sostituire traduzioni mancanti con alternative inglesi (Viktor Govako)
 
 #### Android
+
 - Aggiunto grafico elevazione traccia e selezione traccia sulla mappa (Kavi Khalique)
 - Lascia una nota OpenStreetMap se un punto di interesse (POI) appena aggiunto non è ancora supportato in Organic Maps (hemanggs)
 - Rimosso supporto OpenGL ES 2.0 a favore di OpenGL ES 3.0 (renderexpert)
 - Mostra icone segnalibri nel selettore colori (Andrei Shkrob)
 
 #### Miglioramenti stili e icone
+
 - Icona forchetta e coltello per food court (David Martinez)
 - Zone umide contrassegnate con tratteggio orizzontale (Viktor Govako)
 - Icone per fast food e biciclette nei risultati di ricerca e segnalibri (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...e molto altro sta arrivando! Il vostro supporto ci aiuta e ci motiva a c
 - Corrette impostazioni priorità per uffici diplomatici (Viktor Govako)
 
 #### Miglioramenti vari
+
 - Digitare "cop" nella ricerca trova stazioni di polizia, mentre "film" o "movie theater" localizza cinema (theadventurer62)
 - Apri in altra app ora mostra il punto selezionato in Google Maps (Alexander Borsuk)
 - Traduzione spagnola per più categorie di ricerca (David Martinez)

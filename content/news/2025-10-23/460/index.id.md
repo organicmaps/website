@@ -43,6 +43,7 @@ Bagi yang terlewat, [pembaruan 7 Oktober sebelumnya](https://organicmaps.app/new
 - Layar splash yang lebih baik saat startup (Andrei Shkrob)
 
 ### Android Auto
+
 - Pulihkan rute setelah pembatalan (Andrei Shkrob)
 - Perbaikan crash pada beberapa perangkat (Andrei Shkrob)
 

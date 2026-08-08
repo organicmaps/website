@@ -9,11 +9,13 @@ taxonomies:
 Penktadienis! Laikas įdiegti naują Organic Maps atnaujinimą iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
 ## Leidimo pastabos
+
 - Vikipedijos straipsniai vietoms dabar prieinami turkų, japonų ir kinų kalbomis. Įvesk `?wiki` paieškoje, kad rastum vietas su straipsniais žemėlapyje. _(Alexander Borsuk)_
 - Pridėtas nustatymas, kuris vizualiai paryškina atsisiųstus regionus žemėlapyje violetine spalva. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap duomenys atnaujinti iki 2025 m. lapkričio 23 d. _(Viktor Govako)_
 
 ### iOS
+
 - NAUJA! Gali redaguoti žymės arba maršruto pavadinimą tiesiogiai vietos informacijos puslapyje, paliesdamas pavadinimą. _(Kiryl Kaveryn)_
 - Pridėta iOS 26 ir macOS 26 "Liquid Glass" palaikymas. _(Kiryl Kaveryn)_
 - Ilgai palaikyk pasirinktos vietos arba žymės pavadinimą ar adresą, kad nukopijuotum jį į iškarpinę. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Penktadienis! Laikas įdiegti naują Organic Maps atnaujinimą iš <https://omap
 - Ištaisytos šoninių mygtukų animacijos ir ištaisyta "Atsisiųsti žemėlapius" mygtuko spalva tamsioje temoje. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Pridėtos slinkties juostos paieškos ekranui ir "Žymės ir maršrutai" ekranui. _(shantanu1k)_
 - Patobulinta garso atkūrimo ir pertraukimų valdymas. _(Andrei Shkrob)_
 - Ištaisyti gedimai redaktoriaus profilio ekrane. _(Alexander Borsuk)_
 - Ištaisyti gedimai atsisiunčiant žemėlapius. _(Viktor Govako)_
 
 ### Kiti patobulinimai
+
 - Pridėti pasirinktiniai jaustukais vietos informacijos puslapyje. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Padidinta kelių ryškumas ir kontrastas tamsiame transporto priemonės režime. _(Manish Rathaur)_
 - Dviračių maršrutizavimas dabar praleidžia vienpuses gyvenamųjų rajonų gatves Austrijoje. _(Viktor Govako)_

@@ -9,11 +9,13 @@ taxonomies:
 शुक्रवार! <https://omaps.app/get> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] से नया Organic Maps अपडेट इंस्टॉल करने का समय है।
 
 ## रिलीज़ नोट्स
+
 - स्थानों के लिए विकिपीडिया लेख अब तुर्की, जापानी और चीनी में उपलब्ध हैं। मैप पर लेखों वाले स्थान खोजने के लिए सर्च में `?wiki` टाइप करें। _(Alexander Borsuk)_
 - एक सेटिंग जोड़ी गई जो मैप पर डाउनलोड किए गए क्षेत्रों को बैंगनी रंग में दृश्य रूप से हाइलाइट करती है। _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap डेटा 23 नवंबर, 2025 तक अपडेट किया गया। _(Viktor Govako)_
 
 ### iOS
+
 - नया! आप नाम पर टैप करके सीधे स्थान सूचना पृष्ठ पर बुकमार्क या ट्रैक नाम संपादित कर सकते हैं। _(Kiryl Kaveryn)_
 - iOS 26 और macOS 26 "Liquid Glass" के लिए समर्थन जोड़ा गया। _(Kiryl Kaveryn)_
 - चयनित स्थान या बुकमार्क के नाम या पते को क्लिपबोर्ड पर कॉपी करने के लिए लंबे समय तक दबाएं। _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ taxonomies:
 - साइड बटन के लिए एनिमेशन ठीक किए गए और डार्क थीम में "मैप्स डाउनलोड करें" बटन का रंग सही किया गया। _(Kiryl Kaveryn)_
 
 ### Android
+
 - सर्च स्क्रीन और "बुकमार्क और ट्रैक" स्क्रीन में स्क्रॉलबार जोड़े गए। _(shantanu1k)_
 - ऑडियो प्लेबैक और रुकावटों की बेहतर हैंडलिंग। _(Andrei Shkrob)_
 - एडिटर प्रोफाइल स्क्रीन पर क्रैश ठीक किए गए। _(Alexander Borsuk)_
 - मैप डाउनलोड के दौरान क्रैश ठीक किए गए। _(Viktor Govako)_
 
 ### अन्य सुधार
+
 - स्थान सूचना पृष्ठ पर कस्टम इमोजी जोड़े गए। _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - डार्क वाहन मोड में सड़क की चमक और कंट्रास्ट बढ़ाई गई। _(Manish Rathaur)_
 - साइकिल रूटिंग अब ऑस्ट्रिया में एकतरफा आवासीय सड़कों को छोड़ देती है। _(Viktor Govako)_

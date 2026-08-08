@@ -11,6 +11,7 @@ Organic Maps బృందం నుండి క్రిస్మస్ మర�
 Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
 
 ### విడుదల గమనికలు
+
 - క్రిస్మస్ చెట్లు మరియు మార్కెట్లు ఇప్పుడు మ్యాప్‌లో కనిపిస్తాయి (Viktor Govako)
 - OpenStreetMap డేటా డిసెంబర్ 14, 2025 నాటికి తాజాకరించబడింది (Viktor Govako)
 - ప్రపంచ మ్యాప్‌లో జాతీయ ఉద్యానవన సరిహద్దులు మరియు లేబుల్‌లు తక్కువగా కనిపిస్తాయి (Viktor Govako)
@@ -20,6 +21,7 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - క్రొయేషియన్ భాషలో రౌండ్‌అబౌట్ వాయిస్ సూచనలు సరిచేయబడ్డాయి (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - శోధన ఫలితాలు ఇప్పుడు ఎమోజీని ఉపయోగించి పార్కింగ్ సామర్థ్యాన్ని చూపుతాయి (David Martinez)
 - iOS 12లో CarPlay సమస్య పరిష్కరించబడింది (Kiryl Kaveryn)
 - iPhone మరియు iPadలో అనేక దృశ్య సమస్యలు పరిష్కరించబడ్డాయి (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - యాప్ ప్రారంభంలో ఐసోలైన్స్ రిమైండర్ సందేశం తొలగించబడింది (Kiryl Kaveryn)
 
 ### Android
+
 - శోధన ఫలితాలు ఇప్పుడు పార్కింగ్ సామర్థ్యాన్ని చూపుతాయి (Bicky Rawdyrathaur, David Martinez)
 - లొకేషన్ సమస్యలను నివారించడానికి Android Autoలో కార్ లొకేషన్ సెన్సార్ నిలిపివేయబడింది (Andrei Shkrob)
 - యాప్ క్లోజ్ చేసినా లేదా ఆపివేసినా ట్రాక్ రికార్డింగ్ కొనసాగుతుంది (Alexander Borsuk)

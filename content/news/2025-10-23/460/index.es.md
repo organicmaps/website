@@ -43,6 +43,7 @@ Para aquellos que se lo perdieron, la [actualización anterior del 7 de octubre]
 - Mejor pantalla de inicio al arrancar (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar la ruta después de la cancelación (Andrei Shkrob)
 - Corregidos los bloqueos en algunos dispositivos (Andrei Shkrob)
 

@@ -49,6 +49,7 @@ Eguneratzea lortu <https://get.omaps.org>-n edo [App Store][appstore], [Google P
 - Konpondu ibilbidearen kokapen-orrien arazoak eta "Ireki…" botoia _(Mikhail Listratsenka)_
 
 ### Linux eta macOS
+
 - `.desktop` fitxategi-komentarioetara txinierazko itzulpenak gehitu dira _(DeepChirp)_
 
 ## Beta-testeari batu zaitez funtzio berriak lehenago probatzeko eta arazoak jakinarazteko:

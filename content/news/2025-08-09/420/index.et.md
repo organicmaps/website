@@ -24,6 +24,7 @@ P.S. ...ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama
 - Põllumajandus- ja metsateed on nüüd marsruutimisest välja jäetud (Viktor Govako)
 
 #### iOS
+
 - Lahendatud mitu krahhi ja parandatud iCloud sünkroniseerimise stabiilsus (Kiryl Kaveryn)
 - Tutvustatud mitmerealised pealkirjad järjehoidjate loendites (David Martinez)
 - Parandatud suurendamise probleem raja valiku tühistamisel (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama
 - Asendatud puuduvad tõlked ingliskeelsete alternatiividega (Viktor Govako)
 
 #### Android
+
 - Lisatud raja kõrgusgraafik ja raja valik kaardil (Kavi Khalique)
 - Jäta OpenStreetMap märkus, kui äsja lisatud huvipunkt (POI) ei ole Organic Maps-is veel toetatud (hemanggs)
 - Eemaldatud OpenGL ES 2.0 tugi OpenGL ES 3.0 kasuks (renderexpert)
 - Näita järjehoidja ikoone värvi valijas (Andrei Shkrob)
 
 #### Stiilide ja ikoonide täiustused
+
 - Kahvli ja noa ikoon toidukohtadele (David Martinez)
 - Märgistatud märgalad horisontaalse viirutamisega (Viktor Govako)
 - Ikoonid kiirtoidule ja jalgrattale otsingutulemites ja järjehoidjates (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama
 - Parandatud prioriteedi seaded diplomaatilistele büroodele (Viktor Govako)
 
 #### Mitmesugused täiustused
+
 - "cop" sisestamine otsingus leiab politseijaoskonnad, samas kui "film" või "movie theater" leiab kinod (theadventurer62)
 - Ava teises rakenduses näitab nüüd valitud punkti Google Maps-is (Alexander Borsuk)
 - Hispaaniakeelne tõlge rohkematele otsingukategooriatele (David Martinez)

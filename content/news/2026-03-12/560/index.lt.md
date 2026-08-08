@@ -13,6 +13,7 @@ P.S. Susisiek su mumis el. paštu <sdk@organicmaps.app>, jei tave domina iOS / A
 P.P.S. Ar žinojai apie API, kurią jau gali naudoti savo programėlėje, jei įdiegta ir Organic Maps programa? Pasižiūrėk ją čia: <https://omaps.app/api>
 
 ### Išleidimo pastabos
+
 * OSM žemėlapių duomenys nuo kovo 10 d.
 * Vikipedijos duomenys nuo kovo 1 d.
 * Išsamesni Kinijos provincijų aukščio izolinijos duomenys (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Ar žinojai apie API, kurią jau gali naudoti savo programėlėje, jei į
 * Ištaisytos kelios strigtys, pagerintas stabilumas ir našumas (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Redaktoriuje pridėta neseniai naudotų kategorijų istorija (Rahul Kolluru)
 * Patobulintas perbraukimo aukštyn gestas maršruto planavimo ekrane (Kiryl Kaveryn)
 * Ištaisyta CarPlay liniuotės padėtis (Kiryl Kaveryn)
 
 ### Android
+
 * Patobulintas įmonių darbo valandų rodymas (Anton P)
 * Pridėta pilka paslėptų sąrašų piktograma (Alexander Borsuk)
 
 ### Vertimai
+
 * Patobulinti šalių aprašymai (alnzrv)
 * Pritaikytos Eugeno Dedu atliktos rumunų kalbos vertimo pataisos (Alexander Borsuk)
 * Atnaujinti šalių pavadinimai (Viktor Govako)

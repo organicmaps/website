@@ -11,6 +11,7 @@ Organic Maps टीमकडून ख्रिसमस आणि नवीन 
 https://omaps.app/get वरून किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वरून Organic Maps इंस्टॉल करा.
 
 ### रिलीज नोट्स
+
 - ख्रिसमस ट्री आणि मार्केट आता नकाशावर दिसतात (Viktor Govako)
 - OpenStreetMap डेटा १४ डिसेंबर २०२५ पर्यंतचा अद्ययावत आहे (Viktor Govako)
 - नॅशनल पार्कच्या सीमा आणि लेबले जगाच्या नकाशावर कमी ठळक आहेत (Viktor Govako)
@@ -20,6 +21,7 @@ https://omaps.app/get वरून किंवा [App Store][appstore], [Googl
 - क्रोएशियनमधील राउंडअबाउट TTS व्हॉइस निर्देश दुरुस्त केले आहेत (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - शोध परिणाम आता इमोजी वापरून पार्किंग क्षमता दर्शवतात (David Martinez)
 - iOS 12 वरील CarPlay समस्या निश्चित केली आहे (Kiryl Kaveryn)
 - iPhone आणि iPad वरील अनेक दृश्य समस्या निश्चित केल्या आहेत (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ https://omaps.app/get वरून किंवा [App Store][appstore], [Googl
 - ॲप लाँच करताना आयसोलाइन्स रिमाइंडर संदेश काढला आहे (Kiryl Kaveryn)
 
 ### Android
+
 - शोध परिणाम आता पार्किंग क्षमता दर्शवतात (Bicky Rawdyrathaur, David Martinez)
 - स्थान समस्या टाळण्यासाठी Android Auto मधील कार स्थान सेन्सर अक्षम केला आहे (Andrei Shkrob)
 - ॲप बंद केले किंवा मारले तरीही ट्रॅक रेकॉर्डिंग चालू राहते (Alexander Borsuk)

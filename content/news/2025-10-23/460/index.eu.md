@@ -43,6 +43,7 @@ Galdu zutenendako, [aurreko urriaren 7ko eguneraketak](https://organicmaps.app/n
 - Hasiera pantaila hobea abioan (Andrei Shkrob)
 
 ### Android Auto
+
 - Leheneratu bidea ezeztatu ondoren (Andrei Shkrob)
 - Konponduta kraskak gailu batzuetan (Andrei Shkrob)
 

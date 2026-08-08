@@ -13,6 +13,7 @@ Not: Projelerinde yeniden kullanabileceğin çevrimdışı haritalara sahip iOS/
 Ayrıca: Organic Maps uygulaması da yüklüyse kendi uygulamanda hemen kullanabileceğin API'yi biliyor muydun? Buradan bak: <https://omaps.app/api>
 
 ### Sürüm notları
+
 * OSM harita verileri 10 Mart itibariyle
 * Wikipedia verileri 1 Mart itibariyle
 * Çin eyaletleri için daha ayrıntılı yükseklik izolinleri (ZiyiGaoCN)
@@ -25,15 +26,18 @@ Ayrıca: Organic Maps uygulaması da yüklüyse kendi uygulamanda hemen kullanab
 * Birkaç çökme düzeltildi, kararlılık ve performans iyileştirildi (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Editör'e son kullanılan kategoriler geçmişi eklendi (Rahul Kolluru)
 * Rota planlama ekranında geliştirilmiş yukarı kaydırma hareketi (Kiryl Kaveryn)
 * CarPlay için cetvel konumu düzeltildi (Kiryl Kaveryn)
 
 ### Android
+
 * İşyeri açılış saatlerinin daha iyi gösterilmesi (Anton P)
 * Gizli listeler için gri simge eklendi (Alexander Borsuk)
 
 ### Çeviriler
+
 * Geliştirilmiş ülke açıklamaları (alnzrv)
 * Eugen Dedu tarafından yapılan Romence çeviri düzeltmeleri uygulandı (Alexander Borsuk)
 * Güncellenmiş ülke adları (Viktor Govako)

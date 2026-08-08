@@ -11,6 +11,7 @@ Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. 
 Įdiek „Organic Maps“ iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Laidos pastabos
+
 - Kalėdų eglutės ir mugės dabar rodomos žemėlapyje (Viktor Govako)
 - OpenStreetMap duomenys atnaujinti 2025 m. gruodžio 14 d. (Viktor Govako)
 - Nacionalinių parkų ribos ir etiketės pasaulio žemėlapyje yra mažiau pastebimos (Viktor Govako)
@@ -20,6 +21,7 @@ Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. 
 - Ištaisyti žiedinių sankryžų TTS balso nurodymai kroatų kalba (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Paieškos rezultatuose dabar rodoma automobilių stovėjimo aikštelės talpa naudojant jaustukus (David Martinez)
 - Ištaisyta „CarPlay“ problema „iOS 12“ versijoje (Kiryl Kaveryn)
 - Ištaisytos kelios vizualinės problemos „iPhone“ ir „iPad“ įrenginiuose (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. 
 - Pašalintas izolinijų priminimo pranešimas paleidžiant programą (Kiryl Kaveryn)
 
 ### Android
+
 - Paieškos rezultatuose dabar rodoma automobilių stovėjimo aikštelės talpa (Bicky Rawdyrathaur, David Martinez)
 - Automobilio vietos jutiklis „Android Auto“ yra išjungtas, kad būtų išvengta vietos nustatymo problemų (Andrei Shkrob)
 - Maršruto įrašymas tęsiamas net jei programa yra priverstinai sustabdoma arba uždaroma (Alexander Borsuk)

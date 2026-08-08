@@ -27,6 +27,7 @@ Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/inde
 - Värskendatud tõlked (Weblate panustajad)
 
 #### iOS
+
 - UUS! Ümber kujundatud "Lisa koht OpenStreetMap-i" ja "Redigeeri kohta" nupud (Kiryl Kaveryn)
 - Parandatud hüppav ristjoon uue koha OpenStreetMap-i lisamisel (Kiryl Kaveryn)
 - Uued ikoonid kaardi kihtide ja menüü jaoks (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/inde
 - "Värskenda kaarte panustamiseks" nupp kuvatakse nüüd menüüs, kui kaardid on liiga aegunud (Kiryl Kaveryn)
 
 #### Android
+
 - Uued kihi ikoonid (Andrei Shkrob, @euf)
 - Järjehoidja redigeerimise (pliiats) ikooni puudutusala on nüüd suurem (Kavi Khalique)
 - Parandatud krahh teatud marsruutide salvestamisel ja harv krahh käivitamisel (Viktor Govako)

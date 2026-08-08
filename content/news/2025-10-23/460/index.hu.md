@@ -43,6 +43,7 @@ Azoknak, akik lemaradtak róla, az [előző október 7-i frissítés](https://or
 - Jobb kezdőképernyő indításkor (Andrei Shkrob)
 
 ### Android Auto
+
 - Útvonal visszaállítása törlés után (Andrei Shkrob)
 - Javítva az összeomlások néhány eszközön (Andrei Shkrob)
 

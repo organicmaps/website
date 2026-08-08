@@ -9,11 +9,13 @@ taxonomies:
 Pátek! Je čas nainstalovat novou aktualizaci Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
 ## Poznámky k vydání
+
 - Články z Wikipedie pro místa jsou nyní k dispozici v turečtině, japonštině a čínštině. Zadej `?wiki` do vyhledávání a najdi místa s články na mapě. _(Alexander Borsuk)_
 - Přidáno nastavení, které vizuálně zvýrazňuje stažené oblasti na mapě fialovou barvou. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Data OpenStreetMap aktualizována k 23. listopadu 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NOVINKA! Název záložky nebo trasy můžeš upravit přímo na stránce s informacemi o místě klepnutím na název. _(Kiryl Kaveryn)_
 - Přidána podpora pro iOS 26 a macOS 26 „Liquid Glass". _(Kiryl Kaveryn)_
 - Dlouhým stisknutím názvu nebo adresy vybraného místa nebo záložky ji zkopíruješ do schránky. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Pátek! Je čas nainstalovat novou aktualizaci Organic Maps z <https://omaps.app
 - Opraveny animace postranních tlačítek a opravena barva tlačítka „Stáhnout mapy" v tmavém motivu. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Přidány posuvníky na obrazovku Hledání a obrazovku „Záložky a trasy". _(shantanu1k)_
 - Vylepšeno zpracování přehrávání zvuku a přerušení. _(Andrei Shkrob)_
 - Opraveny pády na obrazovce profilu editoru. _(Alexander Borsuk)_
 - Opraveny pády během stahování map. _(Viktor Govako)_
 
 ### Další vylepšení
+
 - Přidány vlastní emotikony na stránku s informacemi o místě. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Zvýšen jas a kontrast silnic v tmavém režimu vozidla. _(Manish Rathaur)_
 - Směrování pro cyklisty nyní v Rakousku přeskakuje jednosměrné obytné ulice. _(Viktor Govako)_

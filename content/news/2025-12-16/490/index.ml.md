@@ -11,6 +11,7 @@ Organic Maps ടീമിൽ നിന്ന് ഏവർക്കും ക്�
 Organic Maps <https://omaps.app/get> ൽ നിന്നോ [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid] എന്നിവയിൽ നിന്നോ ഇൻസ്റ്റാൾ ചെയ്യുക
 
 ### റിലീസ് കുറിപ്പുകൾ
+
 - ക്രിസ്മസ് ട്രീകളും മാർക്കറ്റുകളും ഇപ്പോൾ മാപ്പിൽ ദൃശ്യമാകും (Viktor Govako)
 - OpenStreetMap ഡാറ്റ 2025 ഡിസംബർ 14 പ്രകാരമുള്ളതാണ് (Viktor Govako)
 - ലോക ഭൂപടത്തിൽ ദേശീയ പാർക്ക് അതിർത്തികളും ലേബലുകളും ഇപ്പോൾ കുറച്ചുകൂടി വ്യക്തത കുറഞ്ഞതാണ് (Viktor Govako)
@@ -20,6 +21,7 @@ Organic Maps <https://omaps.app/get> ൽ നിന്നോ [App Store][appstore
 - ക്രൊയേഷ്യൻ ഭാഷയിലുള്ള റൗണ്ട് എബൗട്ട് വോയ്‌സ് നിർദ്ദേശങ്ങൾ തിരുത്തി (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - തിരയൽ ഫലങ്ങളിൽ ഇപ്പോൾ പാർക്കിംഗ് കപ്പാസിറ്റി ഇമോജി ഉപയോഗിച്ച് കാണിക്കുന്നു (David Martinez)
 - iOS 12-ലെ CarPlay പ്രശ്നം പരിഹരിച്ചു (Kiryl Kaveryn)
 - iPhone, iPad എന്നിവയിലെ നിരവധി ദൃശ്യ പ്രശ്നങ്ങൾ പരിഹരിച്ചു (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Organic Maps <https://omaps.app/get> ൽ നിന്നോ [App Store][appstore
 - ആപ്പ് ലോഞ്ച് ചെയ്യുമ്പോൾ വരുന്ന ഐസോലൈൻസ് റിമൈൻഡർ സന്ദേശം നീക്കം ചെയ്തു (Kiryl Kaveryn)
 
 ### Android
+
 - തിരയൽ ഫലങ്ങളിൽ ഇപ്പോൾ പാർക്കിംഗ് കപ്പാസിറ്റി കാണിക്കുന്നു (Bicky Rawdyrathaur, David Martinez)
 - ലൊക്കേഷൻ പ്രശ്നങ്ങൾ ഒഴിവാക്കാൻ Android Auto-യിലെ കാർ ലൊക്കേഷൻ സെൻസർ പ്രവർത്തനരഹിതമാക്കി (Andrei Shkrob)
 - ആപ്പ് കിൽ ചെയ്യുകയോ ക്ലോസ് ചെയ്യുകയോ ചെയ്താലും ട്രാക്ക് റെക്കോർഡിംഗ് തുടരും (Alexander Borsuk)

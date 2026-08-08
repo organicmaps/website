@@ -11,6 +11,7 @@ God jul och gott nytt år från Organic Maps-teamet. Letar du efter julstämning
 Installera Organic Maps från <https://omaps.app/get> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid]
 
 ### Versionsinformation
+
 - Julgranar och julmarknader visas nu på kartan (Viktor Govako)
 - OpenStreetMap-data är aktuell från den 14 december 2025 (Viktor Govako)
 - Nationalparksgränser och etiketter är mindre framträdande på världskartan (Viktor Govako)
@@ -20,6 +21,7 @@ Installera Organic Maps från <https://omaps.app/get> eller från [App Store][ap
 - Röstanvisningar för rondeller på kroatiska har korrigerats (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Sökresultat visar nu parkeringskapacitet med emoji (David Martinez)
 - Ett CarPlay-problem på iOS 12 har åtgärdats (Kiryl Kaveryn)
 - Flera visuella problem på iPhone och iPad har åtgärdats (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Installera Organic Maps från <https://omaps.app/get> eller från [App Store][ap
 - Påminnelsemeddelandet om isolinjer vid appstart har tagits bort (Kiryl Kaveryn)
 
 ### Android
+
 - Sökresultat visar nu parkeringskapacitet (Bicky Rawdyrathaur, David Martinez)
 - Bilplatssensorn i Android Auto är inaktiverad för att undvika platsproblem (Andrei Shkrob)
 - Spårinspelning fortsätter även om appen dödas eller stängs (Alexander Borsuk)

@@ -24,6 +24,7 @@ P.D. ...i molt més està per venir! El vostre suport ens ajuda i ens motiva per
 - Les carreteres agrícoles i forestals ara queden excloses de l'enrutament (Viktor Govako)
 
 #### iOS
+
 - S'han resolt diversos problemes i s'ha millorat l'estabilitat de sincronització amb iCloud (Kiryl Kaveryn)
 - S'han introduït títols multilínia a les llistes de marcadors (David Martinez)
 - S'ha corregit el problema de zoom en deseleccionar un track (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.D. ...i molt més està per venir! El vostre suport ens ajuda i ens motiva per
 - S'han substituït traduccions que faltaven per alternatives en anglès (Viktor Govako)
 
 #### Android
+
 - S'ha afegit el gràfic d'elevació de track i selecció de track al mapa (Kavi Khalique)
 - Es pot deixar una nota a OpenStreetMap si un punt d'interès (POI) acabat d'afegir encara no és compatible amb Organic Maps (hemanggs)
 - S'ha eliminat el suport per a OpenGL ES 2.0 en favor d'OpenGL ES 3.0 (renderexpert)
 - Es mostren les icones dels marcadors al selector de colors (Andrei Shkrob)
 
 #### Millores d'estils i icones
+
 - Icona de forquilla i ganivet per a àrees de menjar (David Martinez)
 - Zones humides marcades amb ratllat horitzontal (Viktor Govako)
 - Icones per a menjar ràpid i bicicletes als resultats de cerca i marcadors (David Martinez)
@@ -48,6 +51,7 @@ P.D. ...i molt més està per venir! El vostre suport ens ajuda i ens motiva per
 - S'han corregit els paràmetres de prioritat per a oficines diplomàtiques (Viktor Govako)
 
 #### Millores diverses
+
 - Escrivint "cop" a la cerca troba comissaries de policia, mentre que "film" o "movie theater" localitza cinemes (theadventurer62)
 - Obrir en una altra aplicació ara mostra el punt seleccionat a Google Maps (Alexander Borsuk)
 - Traducció a l'espanyol per a més categories de cerca (David Martinez)

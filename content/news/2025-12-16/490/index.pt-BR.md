@@ -11,6 +11,7 @@ Feliz Natal e Próspero Ano Novo da equipe do Organic Maps. Procurando pelo esp�
 Instale o Organic Maps em <https://omaps.app/get> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid]
 
 ### Notas de lançamento
+
 - Árvores e mercados de Natal agora aparecem no mapa (Viktor Govako)
 - Os dados do OpenStreetMap estão atualizados até 14 de dezembro de 2025 (Viktor Govako)
 - Fronteiras e rótulos de parques nacionais estão menos proeminentes no mapa mundial (Viktor Govako)
@@ -20,6 +21,7 @@ Instale o Organic Maps em <https://omaps.app/get> ou na [App Store][appstore], [
 - Direções de voz TTS em rotatórias em croata foram corrigidas (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Os resultados da pesquisa agora mostram a capacidade de estacionamento usando emoji (David Martinez)
 - Um problema no CarPlay no iOS 12 foi corrigido (Kiryl Kaveryn)
 - Vários problemas visuais no iPhone e iPad foram corrigidos (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Instale o Organic Maps em <https://omaps.app/get> ou na [App Store][appstore], [
 - A mensagem de lembrete de isolinhas na inicialização do aplicativo foi removida (Kiryl Kaveryn)
 
 ### Android
+
 - Os resultados da pesquisa agora mostram a capacidade de estacionamento (Bicky Rawdyrathaur, David Martinez)
 - O sensor de localização do carro no Android Auto foi desativado para evitar problemas de localização (Andrei Shkrob)
 - A gravação da trilha continua mesmo se o aplicativo for encerrado ou fechado (Alexander Borsuk)

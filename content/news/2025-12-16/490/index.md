@@ -11,6 +11,7 @@ Merry Christmas and Happy New Year from the Organic Maps team. Looking for holid
 Install Organic Maps from <https://omaps.app/get> or from [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid]
 
 ### Release notes
+
 - Christmas trees and markets now appear on the map (Viktor Govako)
 - OpenStreetMap data is current as of December 14, 2025 (Viktor Govako)
 - National park borders and labels are less prominent on the world map (Viktor Govako)
@@ -20,6 +21,7 @@ Install Organic Maps from <https://omaps.app/get> or from [App Store][appstore],
 - Roundabout TTS voice directions in Croatian are corrected (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Search results now show parking capacity using emoji (David Martinez)
 - A CarPlay issue on iOS 12 is fixed (Kiryl Kaveryn)
 - Several visual issues on iPhone and iPad are fixed (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Install Organic Maps from <https://omaps.app/get> or from [App Store][appstore],
 - The isolines reminder message at app launch is removed (Kiryl Kaveryn)
 
 ### Android
+
 - Search results now show parking capacity (Bicky Rawdyrathaur, David Martinez)
 - The car location sensor in Android Auto is disabled to avoid location issues (Andrei Shkrob)
 - Track recording continues even if the app is killed or closed (Alexander Borsuk)

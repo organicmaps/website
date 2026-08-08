@@ -43,6 +43,7 @@ taxonomies:
 - شاشة بداية أفضل عند بدء التشغيل (Andrei Shkrob)
 
 ### Android Auto
+
 - استعادة المسار بعد الإلغاء (Andrei Shkrob)
 - إصلاح الأعطال على بعض الأجهزة (Andrei Shkrob)
 

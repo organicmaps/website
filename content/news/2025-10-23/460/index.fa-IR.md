@@ -43,6 +43,7 @@ taxonomies:
 - صفحه شروع بهتر در هنگام راه‌اندازی (Andrei Shkrob)
 
 ### Android Auto
+
 - بازیابی مسیر پس از لغو (Andrei Shkrob)
 - رفع کرش‌ها در برخی دستگاه‌ها (Andrei Shkrob)
 

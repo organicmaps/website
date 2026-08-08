@@ -27,6 +27,7 @@ Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [tavo aukas](@/donate/
 - Atnaujinti vertimai (Weblate bendradarbiai)
 
 #### iOS
+
 - NAUJA! Iš naujo suprojektuoti „Pridėti vietą į OpenStreetMap" ir „Redaguoti vietą" mygtukai (Kiryl Kaveryn)
 - Ištaisytas šokantis kryžmenis pridedant naują vietą į OpenStreetMap (Kiryl Kaveryn)
 - Naujos piktogramos žemėlapio sluoksniams ir meniu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Esame dėkingi ❤️ mūsų bendradarbiams, taip pat už [tavo aukas](@/donate/
 - Mygtukas „Atnaujinti žemėlapius indėliui" dabar rodomas meniu, kai žemėlapiai per daug pasenę (Kiryl Kaveryn)
 
 #### Android
+
 - Naujos sluoksnių piktogramos (Andrei Shkrob, @euf)
 - Paliestų srities žymės redagavimo (pieštuko) piktogramai dabar didesnė (Kavi Khalique)
 - Ištaisytas gedimas išsaugant tam tikrus maršrutus ir retas gedimas paleidžiant (Viktor Govako)

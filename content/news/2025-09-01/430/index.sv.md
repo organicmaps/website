@@ -27,6 +27,7 @@ Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/
 - Uppdaterade översättningar (Weblate-bidragsgivare)
 
 #### iOS
+
 - NYTT! Omdesignade "Lägg till plats i OpenStreetMap" och "Redigera plats"-knappar (Kiryl Kaveryn)
 - Fixat hoppande hårkors när ny plats läggs till i OpenStreetMap (Kiryl Kaveryn)
 - Nya ikoner för kartlager och meny (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/
 - Knappen "Uppdatera kartor för att bidra" visas nu i menyn när kartor är för gamla (Kiryl Kaveryn)
 
 #### Android
+
 - Nya lagerikoner (Andrei Shkrob, @euf)
 - Tryckområdet för redigera bokmärke (penna)-ikonen är nu större (Kavi Khalique)
 - Fixat krasch vid sparning av vissa rutter och sällsynt krasch vid uppstart (Viktor Govako)

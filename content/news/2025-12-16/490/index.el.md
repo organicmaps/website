@@ -11,6 +11,7 @@ taxonomies:
 Εγκατάστησε το Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid]
 
 ### Σημειώσεις έκδοσης
+
 - Χριστουγεννιάτικα δέντρα και αγορές εμφανίζονται τώρα στον χάρτη (Viktor Govako)
 - Τα δεδομένα του OpenStreetMap είναι ενημερωμένα από τις 14 Δεκεμβρίου 2025 (Viktor Govako)
 - Τα σύνορα και οι ετικέτες των εθνικών πάρκων είναι λιγότερο έντονα στον παγκόσμιο χάρτη (Viktor Govako)
@@ -20,6 +21,7 @@ taxonomies:
 - Οι φωνητικές οδηγίες TTS για κυκλικούς κόμβους στα Κροατικά διορθώθηκαν (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Τα αποτελέσματα αναζήτησης εμφανίζουν τώρα τη χωρητικότητα στάθμευσης χρησιμοποιώντας emoji (David Martinez)
 - Διορθώθηκε ένα πρόβλημα CarPlay στο iOS 12 (Kiryl Kaveryn)
 - Διορθώθηκαν διάφορα οπτικά προβλήματα σε iPhone και iPad (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ taxonomies:
 - Το μήνυμα υπενθύμισης ισοϋψών καμπυλών κατά την εκκίνηση της εφαρμογής αφαιρέθηκε (Kiryl Kaveryn)
 
 ### Android
+
 - Τα αποτελέσματα αναζήτησης εμφανίζουν τώρα τη χωρητικότητα στάθμευσης (Bicky Rawdyrathaur, David Martinez)
 - Ο αισθητήρας τοποθεσίας αυτοκινήτου στο Android Auto απενεργοποιήθηκε για την αποφυγή προβλημάτων τοποθεσίας (Andrei Shkrob)
 - Η καταγραφή διαδρομής συνεχίζεται ακόμα και αν η εφαρμογή τερματιστεί ή κλείσει (Alexander Borsuk)

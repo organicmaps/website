@@ -9,11 +9,13 @@ taxonomies:
 Freitag! Es ist Zeit, das neue Organic Maps Update von <https://omaps.app/get> oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid] zu installieren.
 
 ## Versionshinweise
+
 - Wikipedia-Artikel für Orte sind jetzt auf Türkisch, Japanisch und Chinesisch verfügbar. Geben Sie `?wiki` in die Suche ein, um Orte mit Artikeln auf der Karte zu finden. _(Alexander Borsuk)_
 - Eine Einstellung hinzugefügt, die heruntergeladene Regionen auf der Karte visuell in Lila hervorhebt. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap-Daten aktualisiert auf den Stand vom 23. November 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NEU! Sie können einen Lesezeichen- oder Track-Namen direkt auf der Ortsinformationsseite bearbeiten, indem Sie auf den Namen tippen. _(Kiryl Kaveryn)_
 - Unterstützung für iOS 26 und macOS 26 „Liquid Glass" hinzugefügt. _(Kiryl Kaveryn)_
 - Tippen Sie lange auf den Namen oder die Adresse eines ausgewählten Ortes oder Lesezeichens, um es in die Zwischenablage zu kopieren. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Freitag! Es ist Zeit, das neue Organic Maps Update von <https://omaps.app/get> o
 - Animationen für Seitentasten korrigiert und die Farbe der Schaltfläche „Karten herunterladen" im dunklen Thema korrigiert. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Scrollleisten zum Suchbildschirm und zum Bildschirm „Lesezeichen und Tracks" hinzugefügt. _(shantanu1k)_
 - Verbesserte Handhabung der Audiowiedergabe und Unterbrechungen. _(Andrei Shkrob)_
 - Abstürze auf dem Editor-Profilbildschirm behoben. _(Alexander Borsuk)_
 - Abstürze beim Herunterladen von Karten behoben. _(Viktor Govako)_
 
 ### Weitere Verbesserungen
+
 - Benutzerdefinierte Emojis auf der Ortsinformationsseite hinzugefügt. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Straßenhelligkeit und Kontrast im dunklen Fahrzeugmodus erhöht. _(Manish Rathaur)_
 - Fahrradrouting überspringt jetzt Einbahnstraßen in Wohngebieten in Österreich. _(Viktor Govako)_

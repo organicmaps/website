@@ -43,6 +43,7 @@ Neile, kes jäid ilma, [eelmine 7. oktoobri uuendus](https://organicmaps.app/new
 - Parem algusekraan käivitamisel (Andrei Shkrob)
 
 ### Android Auto
+
 - Taasta marsruut pärast tühistamist (Andrei Shkrob)
 - Parandatud kokkujooksmised mõnedel seadmetel (Andrei Shkrob)
 

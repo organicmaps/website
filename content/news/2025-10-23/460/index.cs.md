@@ -43,6 +43,7 @@ Pro ty, kteří to zmeškali, [předchozí aktualizace ze 7. října](https://or
 - Lepší úvodní obrazovka při spuštění (Andrei Shkrob)
 
 ### Android Auto
+
 - Obnovení trasy po zrušení (Andrei Shkrob)
 - Opraveny pády na některých zařízeních (Andrei Shkrob)
 

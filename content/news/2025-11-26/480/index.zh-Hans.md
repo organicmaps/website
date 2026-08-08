@@ -9,11 +9,13 @@ taxonomies:
 周五！是时候从 <https://omaps.app/get> 或从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 安装新的 Organic Maps 更新了。
 
 ## 发布说明
+
 - 地点的维基百科文章现在提供土耳其语、日语和中文版本。在搜索中输入 `?wiki` 可在地图上查找有文章的地点。 _(Alexander Borsuk)_
 - 添加了一项设置，可在地图上以紫色高亮显示已下载的区域。 _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap 数据已更新至 2025 年 11 月 23 日。 _(Viktor Govako)_
 
 ### iOS
+
 - 新功能！你可以通过点击名称直接在地点信息页面上编辑书签或轨迹名称。 _(Kiryl Kaveryn)_
 - 添加了对 iOS 26 和 macOS 26 "Liquid Glass" 的支持。 _(Kiryl Kaveryn)_
 - 长按所选地点或书签的名称或地址以将其复制到剪贴板。 _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ taxonomies:
 - 修复了侧边按钮的动画，并修正了深色主题中"下载地图"按钮的颜色。 _(Kiryl Kaveryn)_
 
 ### Android
+
 - 在搜索屏幕和"书签和轨迹"屏幕中添加了滚动条。 _(shantanu1k)_
 - 改进了音频播放和中断的处理。 _(Andrei Shkrob)_
 - 修复了编辑器配置文件屏幕上的崩溃问题。 _(Alexander Borsuk)_
 - 修复了地图下载期间的崩溃问题。 _(Viktor Govako)_
 
 ### 其他改进
+
 - 在地点信息页面添加了自定义表情符号。 _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - 增加了深色车辆模式下的道路亮度和对比度。 _(Manish Rathaur)_
 - 自行车路线现在会跳过奥地利的单向居住街道。 _(Viktor Govako)_

@@ -43,6 +43,7 @@ I'r rhai a gollodd, ychwanegodd y [diweddariad blaenorol ar 7 Hydref](https://or
 - Sgrin tasgu gwell wrth gychwyn (Andrei Shkrob)
 
 ### Android Auto
+
 - Adfer y llwybr ar ôl canslo (Andrei Shkrob)
 - Trwsio damweiniau ar rai dyfeisiau (Andrei Shkrob)
 

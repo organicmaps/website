@@ -13,6 +13,7 @@ P.S. Entre em contato conosco pelo e-mail <sdk@organicmaps.app> se estiver inter
 P.P.S. Você sabia sobre a API que já pode ser usada em seu aplicativo se o aplicativo Organic Maps também estiver instalado? Confira aqui: <https://omaps.app/api>
 
 ### Notas de versão
+
 * Dados de mapas do OSM a partir de 10 de março
 * Dados da Wikipedia em 1º de março
 * Isolinhas de elevação mais detalhadas para as províncias chinesas (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Você sabia sobre a API que já pode ser usada em seu aplicativo se o apl
 * Correção de várias falhas, melhoria da estabilidade e do desempenho (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Adicionado histórico de categorias usadas recentemente no Editor (Rahul Kolluru)
 * Melhoria do gesto de deslizar para cima na tela de planejamento de rotas (Kiryl Kaveryn)
 * Posição da régua corrigida para CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Melhoria na exibição do horário de funcionamento das empresas (Anton P)
 * Adicionado ícone cinza para listas ocultas (Alexander Borsuk)
 
 ### Traduções
+
 * Melhorias nas descrições dos países (alnzrv)
 * Correções aplicadas à tradução para o romeno feitas por Eugen Dedu (Alexander Borsuk)
 * Atualizados os nomes dos países (Viktor Govako)

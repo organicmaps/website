@@ -20,22 +20,26 @@ Grazas ás súas [doazóns](@/donate/index.gl.md) e [comentarios](@/contribute/i
 ## Rexistro de cambios detallado
 
 ### Mapa e lugares
+
 - Datos de OpenStreetMap actualizados a 14 de xullo
 - As notas enviadas a [OpenStreetMap](https://www.openstreetmap.org) colócanse agora no punto exacto que seleccionou, en lugar de no medio de toda a rúa ou zona _(Alexander Borsuk)_
 - Mellorouse a selección de lugar ao tocar o mapa en rexións que cruzan o antimeridiano de 180° _(Viktor Govako)_
 - Os perfís de elevación dos tracks xa non amosan gráficos obsoletos ou baleiros despois de eliminar un track _(Kiryl Kaveryn)_
 
 ### Transporte público
+
 - Os nomes das paradas, transbordos e estacións agora teñen un contorno branco para manterse lexibles tanto en temas claros como escuros _(Viktor Govako)_
 - A capa do metro reaparece correctamente despois de pechar unha vista previa dunha ruta de transporte público _(Mikhail Listratsenka)_
 
 ### Rutas e navegación
+
 - Os avisos de ruta (peaxes, ferries, estradas non asfaltadas, escaleiras, etc.) móstranse agora para todas as rutas alternativas _(Viktor Govako)_
 - Arranxouse un bloqueo pouco frecuente ao construír unha ruta _(Viktor Govako)_
 - Mellor xestión de rúas sen saída e dos puntos de inicio e fin en estradas restrinxidas _(Viktor Govako)_
 - Corrixíronse as instrucións de xiro incorrectas e ausentes _(Alexander Borsuk)_
 
 ### iOS
+
 - Nova opción «Gardar historial de buscas» que lle permite desactivar o historial e ocultalo se prefire non gardalo _(Kiryl Kaveryn)_
 - Novo botón «Editar» para eliminar marcadores máis facilmente _(Kiryl Kaveryn)_
 - Os marcadores gárdanse agora automaticamente cando sae da pantalla _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Grazas ás súas [doazóns](@/donate/index.gl.md) e [comentarios](@/contribute/i
 - Outras melloras menores na interface _(Kiryl Kaveryn)_
 
 ### Android
+
 - O horario de apertura agora mostra quendas partidas (como o descanso para xantar), comeza polo día actual e amosa toda a semana sen unha área de desprazamento á parte _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Barra de busca máis limpa cun botón combinado de borrado e voz, unha icona de borrado que xa non se move, e correccións de deseño para o modo horizontal e a rotación do teléfono _(Mikhail Listratsenka)_
 - Reestruturado o editor de marcadores e tracks _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Grazas ás súas [doazóns](@/donate/index.gl.md) e [comentarios](@/contribute/i
 - Arranxáronse varios peches inesperados _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Escritorio
+
 - A lista de mapas dispoñibles para descargar está agora ordenada alfabeticamente _(goncalo109560)_
 
 ### Traducións
+
 - Mellorada a redacción en chinés _(Chenxi Zhao)_
 - Traducións ucraínas actualizadas _(Nnifria)_
 - Corrixíronse as traducións italianas dos nomes das rexións do mapa _(Vittorio Bertola)_

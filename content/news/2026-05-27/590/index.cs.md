@@ -49,6 +49,7 @@ Aktualizaci si stáhneš na <https://get.omaps.org> nebo na [App Store][appstore
 - Opraveny problémy se stránkou místa tras a tlačítkem „Otevřít v“ _(Mikhail Listratsenka)_
 
 ### Linux a macOS
+
 - Do komentářů k souborům `.desktop` byly přidány překlady do čínštiny _(DeepChirp)_
 
 ## Zapoj se do beta testování, vyzkoušej první funkce a nahlas problémy:

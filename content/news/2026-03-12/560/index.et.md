@@ -13,6 +13,7 @@ P.S. Võta meiega ühendust e-posti aadressil <sdk@organicmaps.app>, kui oled hu
 P.P.S. Kas teadsid API-st, mida saad oma rakenduses juba kasutada, kui on paigaldatud ka Organic Maps rakendus? Vaata seda siin: <https://omaps.app/api>
 
 ### Väljaandmismärkused
+
 * OSMi kaardiandmed seisuga 10. märts
 * Vikipeedia andmed seisuga 1. märts
 * Hiina provintside üksikasjalikumad kõrgusjooned (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Kas teadsid API-st, mida saad oma rakenduses juba kasutada, kui on paigal
 * Parandatud mitmeid tõrkeid, parandatud stabiilsust ja jõudlust (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Lisatud hiljuti kasutatud kategooriate ajalugu redaktoris (Rahul Kolluru)
 * Parandatud ülespoole pühkimise žesti marsruudi planeerimise ekraanil (Kiryl Kaveryn)
 * Parandatud joonlaua asukoht CarPlay jaoks (Kiryl Kaveryn)
 
 ### Android
+
 * Parandatud ettevõtete lahtiolekuaegade kuvamist (Anton P)
 * Lisatud hall ikoon peidetud nimekirjade jaoks (Alexander Borsuk)
 
 ### Tõlked
+
 * Parandatud riikide kirjeldusi (alnzrv)
 * Rakendatud Eugen Dedu poolt tehtud rumeenia keele tõlke parandused (Alexander Borsuk)
 * Uuendatud riikide nimed (Viktor Govako)

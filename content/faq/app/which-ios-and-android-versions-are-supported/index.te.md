@@ -16,4 +16,6 @@ aliases:
 
 Androidలో, Google సేవలు ఇన్‌స్టాల్ చేయబడిన మరియు Google మద్దతు లేకుండానే Organic Maps పని చేయగలదు.
 
+పని చేయడానికి Android పరికరాలు OpenGL ES 3.0 లేదా అంతకంటే ఎక్కువ, లేదా Vulkan APIని సపోర్ట్ చేయాలి.
+
 Android Autoతో OMని ఉపయోగించడానికి, దయచేసి [ఇక్కడ](../how-to-use-android-auto/) అవసరాలను తనిఖీ చేయండి.

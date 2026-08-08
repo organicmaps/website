@@ -27,6 +27,7 @@ Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.
 - Itzulpenak eguneratu (Weblate laguntzaileak)
 
 #### iOS
+
 - BERRIA! "Gehitu tokia OpenStreetMap-era" eta "Editatu tokia" botoien diseinua berriz egin (Kiryl Kaveryn)
 - Jauzi-linea konpondu toki berria OpenStreetMap-era gehitzerakoan (Kiryl Kaveryn)
 - Mapa geruza eta menurako ikono berriak (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.
 - "Eguneratu mapak ekarpenak egiteko" botoia orain menuan erakusten mapak zaharregietan direnean (Kiryl Kaveryn)
 
 #### Android
+
 - Geruza ikono berriak (Andrei Shkrob, @euf)
 - Laster-marka editatzeko (arkatza) ikonoaren ukipen-area orain handiagoa (Kavi Khalique)
 - Bide batzuk gordetzean kraxa konpondu eta krampa arrunta aplikazioa abiatzerakoan (Viktor Govako)

@@ -34,9 +34,11 @@ Organic Maps משתמשת במנוע הטקסט-לדיבור (TTS) של המער
 ![Settings](tts_config_1.png "Settings") | ![Accessibility](tts_config_2.png "Accessibility")
 
 ## מנועים {#engines}
+
 להלן רשימה מקיפה המציגה מספר מנועים והשפות בהן הם תומכים:
 {{ tts_table() }}
 
 ## בדיקה
+
 כדי לבדוק את ההוראות הקוליות, אתם יכולים להקיש על "Test Voice Directions (TTS, Text-To-Speech)" בתפריט "הגדרות → הוראות קוליות" ב-OM או שאתם יכולים להתחיל ניווט בפועל לקבלת פלט קולי כלשהו. Organic Maps לא תיתן לכם הוראות קוליות בזמן שאתם עומדים במקום.
 ![TTS Test](tts_test.png "TTS Test")

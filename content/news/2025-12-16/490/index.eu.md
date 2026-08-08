@@ -11,6 +11,7 @@ Eguberri on eta Urte Berri on Organic Maps taldearen partetik. Gabonetako espiri
 Instalatu Organic Maps <https://omaps.app/get> helbidetik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [F-Droid][fdroid] bidez.
 
 ### Bertsio oharrak
+
 - Gabonetako zuhaitzak eta merkatuak mapan agertzen dira orain (Viktor Govako)
 - OpenStreetMap datuak 2025eko abenduaren 14koak dira (Viktor Govako)
 - Parke nazionalen mugak eta etiketak ez dira hain nabarmenak munduko mapan (Viktor Govako)
@@ -20,6 +21,7 @@ Instalatu Organic Maps <https://omaps.app/get> helbidetik edo [App Store][appsto
 - Biribilguneetako TTS ahots-jarraibideak kroazieraz zuzendu dira (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Bilaketa-emaitzek orain aparkaleku-edukiera erakusten dute emojiak erabiliz (David Martinez)
 - iOS 12ko CarPlay arazo bat konpondu da (Kiryl Kaveryn)
 - iPhone eta iPad-eko hainbat ikus-arazo konpondu dira (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Instalatu Organic Maps <https://omaps.app/get> helbidetik edo [App Store][appsto
 - Aplikazioa abiaraztean isolineen abisu-mezua kendu da (Kiryl Kaveryn)
 
 ### Android
+
 - Bilaketa-emaitzek orain aparkaleku-edukiera erakusten dute (Bicky Rawdyrathaur, David Martinez)
 - Android Auto-ko autoaren kokapen-sentsorea desgaitu da kokapen-arazoak saihesteko (Andrei Shkrob)
 - Ibilbidearen grabazioak jarraitzen du aplikazioa hil edo itxi arren (Alexander Borsuk)

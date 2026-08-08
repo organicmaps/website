@@ -9,11 +9,13 @@ taxonomies:
 Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/get> atau dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
 ## Catatan Rilis
+
 - Artikel Wikipedia untuk tempat sekarang tersedia dalam bahasa Turki, Jepang, dan Cina. Ketik `?wiki` di pencarian untuk menemukan tempat dengan artikel di peta. _(Alexander Borsuk)_
 - Menambahkan pengaturan yang menyorot wilayah yang diunduh secara visual di peta dengan warna ungu. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Data OpenStreetMap diperbarui hingga 23 November 2025. _(Viktor Govako)_
 
 ### iOS
+
 - BARU! Kamu dapat mengedit nama penanda atau trek langsung di Halaman Informasi Tempat dengan mengetuk nama. _(Kiryl Kaveryn)_
 - Menambahkan dukungan untuk iOS 26 dan macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Ketuk lama nama atau alamat tempat atau penanda yang dipilih untuk menyalinnya ke clipboard. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/ge
 - Memperbaiki animasi untuk tombol samping dan memperbaiki warna tombol "Unduh Peta" dalam tema gelap. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Menambahkan scrollbar ke layar Pencarian dan layar "Penanda dan Trek". _(shantanu1k)_
 - Penanganan pemutaran audio dan interupsi yang ditingkatkan. _(Andrei Shkrob)_
 - Memperbaiki crash di layar Profil Editor. _(Alexander Borsuk)_
 - Memperbaiki crash selama pengunduhan peta. _(Viktor Govako)_
 
 ### Perbaikan lainnya
+
 - Menambahkan emoji kustom di Halaman Informasi Tempat. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Meningkatkan kecerahan dan kontras jalan dalam mode kendaraan gelap. _(Manish Rathaur)_
 - Rute sepeda sekarang melewati jalan pemukiman satu arah di Austria. _(Viktor Govako)_

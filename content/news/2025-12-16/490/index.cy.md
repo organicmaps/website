@@ -11,6 +11,7 @@ Nadolig Llawen a Blwyddyn Newydd Dda gan dîm Organic Maps. Chwilio am ysbryd y 
 Gosoda Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
 
 ### Nodiadau rhyddhau
+
 - Mae coed Nadolig a marchnadoedd bellach yn ymddangos ar y map (Viktor Govako)
 - Mae data OpenStreetMap yn gyfredol ar Rhagfyr 14, 2025 (Viktor Govako)
 - Mae ffiniau a labeli parciau cenedlaethol yn llai amlwg ar fap y byd (Viktor Govako)
@@ -20,6 +21,7 @@ Gosoda Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Goog
 - Mae cyfarwyddiadau llais TTS cylchfan yn Croateg wedi'u cywiro (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Mae canlyniadau chwilio bellach yn dangos capasiti parcio gan ddefnyddio emoji (David Martinez)
 - Mae mater CarPlay ar iOS 12 wedi'i drwsio (Kiryl Kaveryn)
 - Mae sawl mater gweledol ar iPhone ac iPad wedi'u trwsio (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Gosoda Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Goog
 - Mae'r neges atgoffa isolines wrth lansio'r ap wedi'i dileu (Kiryl Kaveryn)
 
 ### Android
+
 - Mae canlyniadau chwilio bellach yn dangos capasiti parcio (Bicky Rawdyrathaur, David Martinez)
 - Mae synhwyrydd lleoliad y car yn Android Auto wedi'i analluogi i osgoi problemau lleoliad (Andrei Shkrob)
 - Mae recordio trac yn parhau hyd yn oed os yw'r ap yn cael ei ladd neu ei gau (Alexander Borsuk)

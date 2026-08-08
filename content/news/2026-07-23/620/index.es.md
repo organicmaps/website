@@ -20,22 +20,26 @@ Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contrib
 ## Registro de cambios detallado
 
 ### Mapa y lugares
+
 - Datos de OpenStreetMap actualizados a 14 de julio
 - Las notas enviadas a [OpenStreetMap](https://www.openstreetmap.org) ahora se colocan exactamente en el lugar que haya seleccionado, en lugar de en el centro de toda la calle o zona _(Alexander Borsuk)_
 - Se ha mejorado la selección de lugares al pulsar en el mapa en regiones que cruzan el antimeridiano de 180° _(Viktor Govako)_
 - Los perfiles de altitud de los tracks ya no muestran gráficos obsoletos o vacíos tras eliminar un track _(Kiryl Kaveryn)_
 
 ### Transporte público
+
 - Los nombres de las paradas, los transbordos y las estaciones ahora tienen un contorno blanco para que se puedan leer tanto en el tema claro como en el oscuro _(Viktor Govako)_
 - La capa del metro vuelve a aparecer correctamente tras cerrar la vista previa de una ruta de transporte público _(Mikhail Listratsenka)_
 
 ### Rutas y navegación
+
 - Ahora se muestran avisos de ruta (peajes, transbordadores, carreteras sin asfaltar, escalones, etc.) para todas las rutas alternativas _(Viktor Govako)_
 - Se ha corregido un fallo poco frecuente que provocaba que el programa se colgara al crear una ruta _(Viktor Govako)_
 - Mejora en la gestión de callejones sin salida y de los puntos de inicio y fin en vías con restricciones _(Viktor Govako)_
 - Se han corregido las indicaciones de giro incorrectas y que faltaban _(Alexander Borsuk)_
 
 ### iOS
+
 - Nueva opción «Guardar historial de búsqueda» que le permite desactivar el historial y ocultarlo si prefiere no conservarlo _(Kiryl Kaveryn)_
 - Nuevo botón «Editar» para eliminar marcadores más fácilmente _(Kiryl Kaveryn)_
 - Ahora los marcadores se guardan automáticamente al salir de la pantalla _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contrib
 - Otras mejoras menores en la interfaz _(Kiryl Kaveryn)_
 
 ### Android
+
 - Los horarios de apertura ahora muestran turnos partidos (como la pausa para comer), empiezan por el día actual y muestran la semana completa sin un área de desplazamiento aparte _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Una barra de búsqueda más limpia, con un botón combinado de borrado y voz, un icono de borrado que ya no se mueve, y correcciones de diseño para el modo horizontal y la rotación del teléfono _(Mikhail Listratsenka)_
 - Editor de marcadores y tracks rediseñado _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Gracias a sus [donaciones](@/donate/index.es.md) y a sus [comentarios](@/contrib
 - Se han corregido varios cierres inesperados _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Escritorio
+
 - La lista de mapas disponibles para descargar ya está ordenada alfabéticamente _(goncalo109560)_
 
 ### Traducciones
+
 - Redacción en chino mejorada _(Chenxi Zhao)_
 - Traducciones al ucraniano actualizadas _(Nnifria)_
 - Se han corregido las traducciones al italiano de los nombres de las regiones de los mapas _(Vittorio Bertola)_

@@ -27,6 +27,7 @@ Estamos agradecidos ❤️ con nuestros colaboradores, así como por [sus donaci
 - Traducciones actualizadas (colaboradores de Weblate)
 
 #### iOS
+
 - ¡NUEVO! Botones "Agregar lugar a OpenStreetMap" y "Editar lugar" rediseñados (Kiryl Kaveryn)
 - Retícula saltarina corregida al agregar un nuevo lugar a OpenStreetMap (Kiryl Kaveryn)
 - Nuevos iconos para capas de mapa y menú (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Estamos agradecidos ❤️ con nuestros colaboradores, así como por [sus donaci
 - El botón "Actualizar mapas para contribuir" ahora se muestra en el menú cuando los mapas están demasiado desactualizados (Kiryl Kaveryn)
 
 #### Android
+
 - Nuevos iconos de capa (Andrei Shkrob, @euf)
 - El área táctil para el icono de editar marcador (lápiz) ahora es más grande (Kavi Khalique)
 - Fallo corregido al guardar ciertas rutas y fallo raro al iniciar (Viktor Govako)

@@ -13,6 +13,7 @@ O.H. Jarri gurekin harremanetan <sdk@organicmaps.app> helbidean iOS/Android/Linu
 O.O.H. Ba al zenekien dagoeneko zure aplikazioan erabil dezakezun API bat dagoela Organic Maps aplikazioa ere instalatuta badago? Begiratu hemen: <https://omaps.app/api>
 
 ### Oharrak
+
 * OSM maparen datuak martxoaren 10ekoak
 * Wikipedia datuak martxoaren 1ekoak
 * Altuera isolinea zehatzagoak Txinako probintzietarako (ZiyiGaoCN)
@@ -25,15 +26,18 @@ O.O.H. Ba al zenekien dagoeneko zure aplikazioan erabil dezakezun API bat dagoel
 * Hainbat hutsegite konpondu dira, egonkortasuna eta errendimendua hobetu dira (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Berriki erabilitako kategorien historia gehitu da Editorean (Rahul Kolluru)
 * Gora irristatzeko keinua hobetu da ibilbidea planifikatzeko pantailan (Kiryl Kaveryn)
 * Erregela kokapena konpondu da CarPlay-rako (Kiryl Kaveryn)
 
 ### Android
+
 * Negozioen irekitze-orduen bistaratzea hobetu da (Anton P)
 * Ikono grisa gehitu da ezkutuko zerrendetarako (Alexander Borsuk)
 
 ### Itzulpenak
+
 * Herrialdeen deskribapenak hobetu dira (alnzrv)
 * Errumanierazko itzulpen zuzenketak aplikatu dira Eugen Deduren eskutik (Alexander Borsuk)
 * Herrialdeen izenak eguneratu dira (Viktor Govako)

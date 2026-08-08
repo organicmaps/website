@@ -24,6 +24,7 @@ P.S. ...a přichází mnohem více! Tvoje podpora nám pomáhá a motivuje nás 
 - Zemědělské a lesní cesty jsou nyní vyloučeny z navigace (Viktor Govako)
 
 #### iOS
+
 - Vyřešeno několik pádů a zlepšena stabilita iCloud synchronizace (Kiryl Kaveryn)
 - Představeny víceřádkové titulky v seznamech záložek (David Martinez)
 - Opraven problém s přibližováním při zrušení výběru stopy (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...a přichází mnohem více! Tvoje podpora nám pomáhá a motivuje nás 
 - Chybějící překlady nahrazeny anglickými alternativami (Viktor Govako)
 
 #### Android
+
 - Přidán výškový graf stopy a výběr stopy na mapě (Kavi Khalique)
 - Zanechat OpenStreetMap poznámku, pokud nově přidaný bod zájmu (POI) ještě není podporován v Organic Maps (hemanggs)
 - Odstraněna podpora OpenGL ES 2.0 ve prospěch OpenGL ES 3.0 (renderexpert)
 - Zobrazení ikon záložek v barevném voliči (Andrei Shkrob)
 
 #### Vylepšení stylů a ikon
+
 - Ikona vidličky a nože pro food courty (David Martinez)
 - Mokřady označené horizontálním šrafováním (Viktor Govako)
 - Ikony pro rychlé občerstvení a kola ve výsledcích vyhledávání a záložkách (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...a přichází mnohem více! Tvoje podpora nám pomáhá a motivuje nás 
 - Opravena nastavení priority pro diplomatické úřady (Viktor Govako)
 
 #### Různá vylepšení
+
 - Zadání "cop" do vyhledávání najde policejní stanice, zatímco "film" nebo "movie theater" najde kina (theadventurer62)
 - Otevření v jiné aplikaci nyní zobrazuje vybraný bod v Google Maps (Alexander Borsuk)
 - Španělský překlad pro více kategorií vyhledávání (David Martinez)

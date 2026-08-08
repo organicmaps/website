@@ -43,6 +43,7 @@ Per los que l'an mancat, la [mesa a jorn precedenta del 7 d'octobre](https://org
 - Melhor ecran d'aviada a l'aviada (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar l'itinerari aprèp anullacion (Andrei Shkrob)
 - Correccion dels plantatges sus d'unes aparelhs (Andrei Shkrob)
 

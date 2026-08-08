@@ -43,6 +43,7 @@ För dem som missade, den [tidigare uppdateringen den 7 oktober](https://organic
 - Bättre startskärm vid uppstart (Andrei Shkrob)
 
 ### Android Auto
+
 - Återställ rutten efter avbokning (Andrei Shkrob)
 - Fixade krascher på vissa enheter (Andrei Shkrob)
 

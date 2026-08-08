@@ -13,6 +13,7 @@ N.S. Kontak ons per e-pos by <sdk@organicmaps.app> as jy belangstel in iOS/Andro
 N.N.S. Het jy geweet van die API wat jy reeds in jou toepassing kan gebruik as Organic Maps ook geïnstalleer is? Kyk hier: <https://omaps.app/api>
 
 ### Vrystelling notas
+
 * OSM-kaartdata vanaf 10 Maart
 * Wikipedia-data vanaf 1 Maart
 * Meer gedetailleerde hoogte-isolyne vir Chinese provinsies (ZiyiGaoCN)
@@ -25,15 +26,18 @@ N.N.S. Het jy geweet van die API wat jy reeds in jou toepassing kan gebruik as O
 * Verskeie ineenstortings reggestel, stabiliteit en werkverrigting verbeter (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Onlangs gebruikte kategorie-geskiedenis in die Redigeerder bygevoeg (Rahul Kolluru)
 * Opvee-gebaar op die roetebeplanning-skerm verbeter (Kiryl Kaveryn)
 * Liniaalposisie vir CarPlay reggestel (Kiryl Kaveryn)
 
 ### Android
+
 * Vertoning van besigheid se openingstye verbeter (Anton P)
 * Grys ikoon vir versteekte lyste bygevoeg (Alexander Borsuk)
 
 ### Vertalings
+
 * Landbeskrywings verbeter (alnzrv)
 * Roemeense vertalingregstellings deur Eugen Dedu toegepas (Alexander Borsuk)
 * Landname opgedateer (Viktor Govako)

@@ -49,6 +49,7 @@ Obtén la mesa a jorn a <https://get.omaps.org> o sus [App Store][appstore], [Go
 - Corregit los problèmas de pagina de plaça de traça e lo boton « Dobrir dins » _(Mikhail Listratsenka)_
 
 ### Linux e macOS
+
 - Ajustat de traduccions chinesas als comentaris del fichièr `.desktop` _(DeepChirp)_
 
 ## Inscriu-te als tèsts beta per ensajar de foncionalitats primièras e raportar de problèmas :

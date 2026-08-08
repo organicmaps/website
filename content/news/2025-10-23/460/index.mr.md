@@ -43,6 +43,7 @@ taxonomies:
 - स्टार्टअपवर उत्तम स्प्लॅश स्क्रीन (Andrei Shkrob)
 
 ### Android Auto
+
 - रद्द केल्यानंतर मार्ग पुनर्संचयित करा (Andrei Shkrob)
 - काही उपकरणांवर क्रॅश दुरुस्त केले (Andrei Shkrob)
 

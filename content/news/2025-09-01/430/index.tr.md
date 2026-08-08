@@ -27,6 +27,7 @@ Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışların](@/donate/index.tr.
 - Güncellenmiş çeviriler (Weblate katkıda bulunanları)
 
 #### iOS
+
 - YENİ! Yeniden tasarlanan "OpenStreetMap'e Yer Ekle" ve "Yer Düzenle" düğmeleri (Kiryl Kaveryn)
 - OpenStreetMap'e yeni yer eklerken zıplayan artı işareti düzeltildi (Kiryl Kaveryn)
 - Harita katmanları ve menü için yeni simgeler (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışların](@/donate/index.tr.
 - "Katkıda bulunmak için haritaları güncelle" düğmesi artık haritalar çok eski olduğunda menüde gösteriliyor (Kiryl Kaveryn)
 
 #### Android
+
 - Yeni katman simgeleri (Andrei Shkrob, @euf)
 - Yer imi düzenleme (kalem) simgesi için dokunma alanı artık daha büyük (Kavi Khalique)
 - Belirli rotaları kaydetme sırasında çökme ve başlangıçta nadir çökme düzeltildi (Viktor Govako)

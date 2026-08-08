@@ -20,22 +20,26 @@ Berkat [donasi](@/donate/index.id.md) dan [masukan](@/contribute/index.id.md) da
 ## Daftar perubahan terperinci
 
 ### Peta & tempat
+
 - Data OpenStreetMap diperbarui per 14 Juli
 - Catatan yang dilaporkan ke [OpenStreetMap](https://www.openstreetmap.org) kini ditempatkan tepat di lokasi yang kamu pilih, bukan di tengah-tengah jalan atau area tersebut _(Alexander Borsuk)_
 - Peningkatan pemilihan lokasi saat mengetuk peta di wilayah yang melintasi antimeridian 180° _(Viktor Govako)_
 - Profil ketinggian trek tidak lagi menampilkan grafik yang sudah usang atau kosong setelah trek dihapus _(Kiryl Kaveryn)_
 
 ### Angkutan umum
+
 - Nama pemberhentian, transfer, dan stasiun kini dilengkapi garis tepi putih agar tetap mudah dibaca baik pada tema terang maupun gelap _(Viktor Govako)_
 - Lapisan jalur kereta bawah tanah akan muncul kembali dengan benar setelah kamu menutup pratinjau rute angkutan umum _(Mikhail Listratsenka)_
 
 ### Perutean & navigasi
+
 - Peringatan rute (tol, feri, jalan tidak beraspal, tangga, dan sebagainya) kini ditampilkan untuk semua rute alternatif _(Viktor Govako)_
 - Telah diperbaiki masalah hang yang jarang terjadi saat membuat rute _(Viktor Govako)_
 - Peningkatan penanganan jalan buntu serta titik awal dan akhir pada jalan dengan pembatasan _(Viktor Govako)_
 - Memperbaiki petunjuk belokan yang salah dan yang hilang _(Alexander Borsuk)_
 
 ### iOS
+
 - Pengaturan baru “Simpan riwayat pencarian” yang memungkinkan kamu menonaktifkan riwayat tersebut dan menyembunyikannya kalau kamu memilih untuk tidak menyimpannya _(Kiryl Kaveryn)_
 - Tombol “Edit” baru untuk menghapus penanda dengan lebih mudah _(Kiryl Kaveryn)_
 - Penanda kini disimpan secara otomatis saat kamu meninggalkan layar _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Berkat [donasi](@/donate/index.id.md) dan [masukan](@/contribute/index.id.md) da
 - Perbaikan antarmuka kecil lainnya _(Kiryl Kaveryn)_
 
 ### Android
+
 - Jam operasional kini menampilkan shift terbagi (seperti waktu istirahat makan siang), dimulai dari hari ini, dan menampilkan seluruh minggu tanpa area gulir terpisah _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Bilah pencarian yang lebih rapi dengan tombol hapus dan perintah suara yang digabungkan, ikon hapus yang tidak lagi berpindah-pindah, serta perbaikan tata letak untuk mode lanskap dan rotasi ponsel _(Mikhail Listratsenka)_
 - Editor penanda dan trek yang telah dirombak _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Berkat [donasi](@/donate/index.id.md) dan [masukan](@/contribute/index.id.md) da
 - Memperbaiki masalah crash _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Daftar peta yang tersedia untuk diunduh kini telah diurutkan berdasarkan abjad _(goncalo109560)_
 
 ### Terjemahan
+
 - Perbaikan redaksi dalam bahasa Mandarin _(Chenxi Zhao)_
 - Terjemahan bahasa Ukraina yang telah diperbarui _(Nnifria)_
 - Telah diperbaiki terjemahan nama wilayah peta dalam bahasa Italia _(Vittorio Bertola)_

@@ -9,11 +9,13 @@ taxonomies:
 Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da <https://omaps.app/get>-etik edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid]-etik.
 
 ## Bertsio-oharrak
+
 - Lekuentzako Wikipedia artikuluak orain turkieraz, japonieraz eta txineraz daude eskuragarri. Idatzi `?wiki` bilaketan mapan artikuluak dituzten lekuak aurkitzeko. _(Alexander Borsuk)_
 - Deskargatutako eskualdeak mapan bisualki morez nabarmentzen dituen ezarpena gehitu da. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap datuak 2025eko azaroaren 23ra eguneratuak. _(Viktor Govako)_
 
 ### iOS
+
 - BERRIA! Laster-marka edo ibilbide izen bat zuzenean Leku Informazio Orrian editatu dezakezu izena sakatuz. _(Kiryl Kaveryn)_
 - iOS 26 eta macOS 26 "Liquid Glass" euskarria gehitu da. _(Kiryl Kaveryn)_
 - Luze sakatu hautatutako leku edo laster-marka baten izena edo helbidea arbelera kopiatzeko. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da <https://omap
 - Konponduta alboko botoien animazioak eta "Mapak deskargatu" botoiaren kolorea gai ilunean. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Korritze-barrak gehitu dira Bilaketa pantailara eta "Laster-markak eta Ibilbideak" pantailara. _(shantanu1k)_
 - Audio erreprodukzioaren eta etenen kudeaketa hobetua. _(Andrei Shkrob)_
 - Konponduta blokeoak Editore Profil pantailan. _(Alexander Borsuk)_
 - Konponduta blokeoak mapa deskargetan. _(Viktor Govako)_
 
 ### Beste hobekuntza batzuk
+
 - Emoji pertsonalizatuak gehitu dira Leku Informazio Orrian. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Errepideen distira eta kontrastea handitu da ibilgailu modu ilunean. _(Manish Rathaur)_
 - Bizikleta bideratzeak orain norabide bakarreko bizitze-kaleak saltzen ditu Austrian. _(Viktor Govako)_

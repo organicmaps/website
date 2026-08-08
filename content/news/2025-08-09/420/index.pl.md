@@ -24,6 +24,7 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Drogi rolnicze i leśne są teraz wykluczone z wyznaczania tras (Viktor Govako)
 
 #### iOS
+
 - Rozwiązano kilka awarii i poprawiono stabilność synchronizacji iCloud (Kiryl Kaveryn)
 - Wprowadzono wielowierszowe tytuły na listach zakładek (David Martinez)
 - Naprawiono problem z powiększeniem podczas odznaczania śladu (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Zastąpiono brakujące tłumaczenia alternatywami w języku angielskim (Viktor Govako)
 
 #### Android
+
 - Dodano wykres wysokości śladu i wybór śladu na mapie (Kavi Khalique)
 - Możliwość pozostawienia notatki w OpenStreetMap, jeśli nowo dodany punkt zainteresowania (POI) nie jest jeszcze obsługiwany w Organic Maps (hemanggs)
 - Usunięto obsługę OpenGL ES 2.0 na rzecz OpenGL ES 3.0 (renderexpert)
 - Pokazanie ikon zakładek w selektorze kolorów (Andrei Shkrob)
 
 #### Ulepszenia stylów i ikon
+
 - Ikona widelca i noża dla stref gastronomicznych (David Martinez)
 - Oznaczenie terenów podmokłych poziomym kreskowaniem (Viktor Govako)
 - Ikony dla fast foodów i rowerów w wynikach wyszukiwania i zakładkach (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Poprawiono ustawienia priorytetów dla placówek dyplomatycznych (Viktor Govako)
 
 #### Różne ulepszenia
+
 - Wpisanie "cop" w wyszukiwarce znajduje posterunki policji, podczas gdy "film" lub "movie theater" lokalizuje kina (theadventurer62)
 - Otwieranie w innej aplikacji teraz wyświetla wybrany punkt w Mapach Google (Alexander Borsuk)
 - Hiszpańskie tłumaczenie dla większej liczby kategorii wyszukiwania (David Martinez)

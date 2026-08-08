@@ -43,6 +43,7 @@ Voor degenen die het gemist hebben, de [vorige update van 7 oktober](https://org
 - Beter opstartscherm bij opstarten (Andrei Shkrob)
 
 ### Android Auto
+
 - Herstel de route na annulering (Andrei Shkrob)
 - Vastgestelde crashes op sommige apparaten (Andrei Shkrob)
 

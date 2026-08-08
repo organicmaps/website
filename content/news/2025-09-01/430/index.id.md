@@ -27,6 +27,7 @@ Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi kamu](@/
 - Terjemahan diperbarui (kontributor Weblate)
 
 #### iOS
+
 - BARU! Tombol "Tambah Tempat ke OpenStreetMap" dan "Edit Tempat" yang didesain ulang (Kiryl Kaveryn)
 - Garis bidik yang melompat diperbaiki saat menambah tempat baru ke OpenStreetMap (Kiryl Kaveryn)
 - Ikon baru untuk lapisan peta dan menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi kamu](@/
 - Tombol "Perbarui peta untuk berkontribusi" sekarang ditampilkan di menu ketika peta terlalu usang (Kiryl Kaveryn)
 
 #### Android
+
 - Ikon lapisan baru (Andrei Shkrob, @euf)
 - Area sentuh untuk ikon edit bookmark (pensil) sekarang lebih besar (Kavi Khalique)
 - Crash diperbaiki saat menyimpan rute tertentu dan crash langka saat startup (Viktor Govako)

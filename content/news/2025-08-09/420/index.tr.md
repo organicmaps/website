@@ -24,6 +24,7 @@ P.S. ...ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmam�
 - Tarım ve orman yolları artık rotalamadan hariç tutuldu (Viktor Govako)
 
 #### iOS
+
 - Birkaç çökme çözüldü ve iCloud senkronizasyon kararlılığı iyileştirildi (Kiryl Kaveryn)
 - Yer imi listelerinde çok satırlı başlıklar tanıtıldı (David Martinez)
 - İz seçimini kaldırırken yakınlaştırma sorunu düzeltildi (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmam�
 - Eksik çeviriler İngilizce alternatiflerle değiştirildi (Viktor Govako)
 
 #### Android
+
 - Haritaya iz yükseklik grafiği ve iz seçimi eklendi (Kavi Khalique)
 - Yeni eklenen ilgi noktası (POI) Organic Maps'te henüz desteklenmiyorsa OpenStreetMap notu bırak (hemanggs)
 - OpenGL ES 2.0 desteği OpenGL ES 3.0 lehine kaldırıldı (renderexpert)
 - Renk seçicide yer imi simgelerini göster (Andrei Shkrob)
 
 #### Stil ve Simge İyileştirmeleri
+
 - Yemek alanları için çatal ve bıçak simgesi (David Martinez)
 - Sulak alanlar yatay taramalarla işaretlendi (Viktor Govako)
 - Arama sonuçlarında ve yer imlerinde fast food ve bisiklet simgeleri (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmam�
 - Diplomatik ofisler için öncelik ayarları düzeltildi (Viktor Govako)
 
 #### Çeşitli İyileştirmeler
+
 - Arama kutusuna "cop" yazmak polis karakollarını bulur, "film" veya "movie theater" ise sinemaları bulur (theadventurer62)
 - Başka uygulamada aç artık seçilen noktayı Google Maps'te gösteriyor (Alexander Borsuk)
 - Daha fazla arama kategorisi için İspanyolca çeviri (David Martinez)

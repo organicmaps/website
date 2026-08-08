@@ -13,6 +13,7 @@ taxonomies:
 再附注：如果用户也安装了 Organic Maps 应用，你知道可以在自己的应用中使用的 API 吗？请点击此处查看：<https://omaps.app/api>
 
 ### 发布说明
+
 * 截至 3 月 10 日的 OSM 地图数据
 * 截至 3 月 1 日的维基百科数据
 * 为中国各省提供了更详细的高程等高线 (ZiyiGaoCN)
@@ -25,15 +26,18 @@ taxonomies:
 * 修复了几次崩溃，提高了稳定性和性能 (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * 在编辑器中添加了最近使用的类别历史记录(Rahul Kolluru)
 * 改进了路线规划屏幕上的向上轻扫手势(Kiryl Kaveryn)
 * 修复了 CarPlay 的标尺位置 (Kiryl Kaveryn)
 
 ### Android
+
 * 改进了营业时间显示(Anton P)
 * 为隐藏列表添加了灰色图标 (Alexander Borsuk)
 
 ### 翻译
+
 * 改进了国家说明 (alnzrv)
 * 应用了 Eugen Dedu 的罗马尼亚语翻译修正程序 (Alexander Borsuk)
 * 更新了国家名称 (Viktor Govako)

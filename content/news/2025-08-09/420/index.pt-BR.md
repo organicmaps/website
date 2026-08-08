@@ -24,6 +24,7 @@ P.S. ...e muito mais está por vir! Seu apoio nos ajuda e nos motiva a construir
 - Estradas agrícolas e florestais agora são excluídas do roteamento (Viktor Govako)
 
 #### iOS
+
 - Resolvidos vários travamentos e melhorada a estabilidade da sincronização do iCloud (Kiryl Kaveryn)
 - Introduzidos títulos multilinhas nas listas de favoritos (David Martinez)
 - Corrigido o problema de zoom ao desselecionar uma trilha (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...e muito mais está por vir! Seu apoio nos ajuda e nos motiva a construir
 - Substituídas traduções ausentes por alternativas em inglês (Viktor Govako)
 
 #### Android
+
 - Adicionado gráfico de elevação de trilhas e seleção de trilhas no mapa (Kavi Khalique)
 - Deixe uma nota no OpenStreetMap se um ponto de interesse (POI) recém-adicionado ainda não for suportado no Organic Maps (hemanggs)
 - Removido suporte ao OpenGL ES 2.0 em favor do OpenGL ES 3.0 (renderexpert)
 - Mostrar ícones de favoritos no seletor de cores (Andrei Shkrob)
 
 #### Melhorias de estilos e ícones
+
 - Ícone de garfo e faca para praças de alimentação (David Martinez)
 - Zonas úmidas marcadas com sombreamento horizontal (Viktor Govako)
 - Ícones para fast food e bicicletas nos resultados de pesquisa e favoritos (David Martinez)
@@ -48,6 +51,7 @@ P.S. ...e muito mais está por vir! Seu apoio nos ajuda e nos motiva a construir
 - Corrigidas as configurações de prioridade para escritórios diplomáticos (Viktor Govako)
 
 #### Melhorias diversas
+
 - Digitando "cop" na pesquisa encontra delegacias de polícia, enquanto "film" ou "movie theater" localiza cinemas (theadventurer62)
 - Abrir em outro aplicativo agora exibe o ponto selecionado no Google Maps (Alexander Borsuk)
 - Tradução em espanhol para mais categorias de pesquisa (David Martinez)

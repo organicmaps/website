@@ -27,6 +27,7 @@ Mercejam ❤️ a nòstres contribuidors, e tanben a [tas donacions](@/donate/in
 - Traduccions actualizadassas (Contribuidors Weblate)
 
 #### iOS
+
 - NOVÈL! Botons "Ajustar luòc a OpenStreetMap" e "Editar luòc" tornats far (Kiryl Kaveryn)
 - Linha de saut reparada quand s'ajusta un luòc novèl a OpenStreetMap (Kiryl Kaveryn)
 - Icònas novèlassas per las capas de mapa e lo menú (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Mercejam ❤️ a nòstres contribuidors, e tanben a [tas donacions](@/donate/in
 - Lo boton "Actualizar mapas per contribuir" se mòstra ara dins lo menú quand las mapas son tròp vièlhassas (Kiryl Kaveryn)
 
 #### Android
+
 - Icònas de capa novèlassas (Andrei Shkrob, @euf)
 - L'àrea tactila de l'icòna d'edicion de marcapagina (gredon) es ara mai granda (Kavi Khalique)
 - Plantatge reparats quand se salvan certanassas rotas e plantatge rar a l'aviada (Viktor Govako)

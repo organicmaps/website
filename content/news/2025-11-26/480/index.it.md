@@ -9,11 +9,13 @@ taxonomies:
 Venerdì! È ora di installare il nuovo aggiornamento di Organic Maps da <https://omaps.app/get> o dall'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ## Note di rilascio
+
 - Gli articoli di Wikipedia per i luoghi sono ora disponibili in turco, giapponese e cinese. Digita `?wiki` nella ricerca per trovare luoghi con articoli sulla mappa. _(Alexander Borsuk)_
 - Aggiunta un'impostazione che evidenzia visivamente le regioni scaricate sulla mappa in viola. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Dati OpenStreetMap aggiornati al 23 novembre 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NOVITÀ! Puoi modificare il nome di un segnalibro o traccia direttamente sulla pagina delle informazioni del luogo toccando il nome. _(Kiryl Kaveryn)_
 - Aggiunto supporto per iOS 26 e macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Tocca a lungo il nome o l'indirizzo di un luogo o segnalibro selezionato per copiarlo negli appunti. _(Kiryl Kaveryn)_
@@ -22,12 +24,14 @@ Venerdì! È ora di installare il nuovo aggiornamento di Organic Maps da <https:
 - Corrette le animazioni per i pulsanti laterali e corretto il colore del pulsante "Scarica Mappe" nel tema scuro. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Aggiunte barre di scorrimento alla schermata di ricerca e alla schermata "Segnalibri e Tracce". _(shantanu1k)_
 - Migliorata la gestione della riproduzione audio e delle interruzioni. _(Andrei Shkrob)_
 - Corretti i crash nella schermata del profilo dell'editor. _(Alexander Borsuk)_
 - Corretti i crash durante il download delle mappe. _(Viktor Govako)_
 
 ### Altri miglioramenti
+
 - Aggiunte emoji personalizzate nella pagina delle informazioni del luogo. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Aumentata la luminosità e il contrasto delle strade nella modalità veicolo scura. _(Manish Rathaur)_
 - Il routing per biciclette ora salta le strade residenziali a senso unico in Austria. _(Viktor Govako)_

@@ -43,6 +43,7 @@ taxonomies:
 - Покращений екран-заставка під час запуску (Andrei Shkrob)
 
 ### Android Auto
+
 - Відновлення маршруту після скасування (Andrei Shkrob)
 - Виправлено збої на деяких пристроях (Andrei Shkrob)
 

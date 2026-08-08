@@ -4,7 +4,7 @@ date: 2025-12-31
 slug: "organic-maps-2025-jahresrueckblick"
 ---
 
-Da sich das Jahr 2025 dem Ende zuneigt, möchten wir auf das Jahr zurückblicken, über unsere Erfolge nachdenken und einige Einblicke mit dir teilen.
+Da sich das Jahr 2025 dem Ende zuneigt, möchten wir auf das Jahr zurückblicken, über unsere Erfolge nachdenken und einige Einblicke mit euch teilen.
 
 Trotz vieler Herausforderungen sind wir wieder auf Kurs gekommen und haben in diesem Jahr [13 App-Versionen](/news/releases/) mit vielen Verbesserungen veröffentlicht.
 Mehrere bemerkenswerte Funktionen wurden eingeführt, darunter [globale Wander- und Fahrradrouten von OpenStreetMap](@/news/2025-08-09/420/index.de.md) und der erste Schritt zur Navigation im öffentlichen Verkehr durch [Anzeige von Busnummern an Bushaltestellen](@/news/2025-09-01/430/index.de.md). Die laufende Arbeit am Android SDK (das die bestehende [API][api] ergänzt), der Rendering-Engine und anderen Kernkomponenten wird es uns ermöglichen, 2026 neue Funktionen einzuführen.
@@ -30,7 +30,7 @@ Weitere bemerkenswerte Erfolge im Jahr 2025 sind:
 
 #### Social Media und Community
 
-- Dank euch wachsen auch unsere Social-Media-Statistiken (folge uns, falls du es noch nicht getan hast! 😊):
+- Dank euch wachsen auch unsere Social-Media-Statistiken (folgt uns, falls ihr es noch nicht getan habt! 😊):
    - [13K auf Fosstodon][FOSStodon]
    - [6K auf Telegram][telegram]
    - [5K auf X (Twitter)][twitter]
@@ -42,7 +42,7 @@ Weitere bemerkenswerte Erfolge im Jahr 2025 sind:
    - [355 auf Threads][threads]
    - [275 auf TikTok][tiktok]
    - [251 auf BlueSky][bluesky]
-- Schließ dich 2.6K Betatestern [auf iOS][testflight] und fast 2K [auf Android][firebase] an, die uns helfen, neue Funktionen zu testen und Probleme zu melden.
+- Schließt euch 2.6K Betatestern [auf iOS][testflight] und fast 2K [auf Android][firebase] an, die uns helfen, neue Funktionen zu testen und Probleme zu melden.
 - Fast 1K Nutzer nahmen [an der Umfrage zur am meisten gewünschten fehlenden Funktion teil](https://t.me/OrganicMapsApp/568), wobei der öffentliche Verkehr auf Platz 1, Verkehrsinformationen auf Platz 2 und eine bessere Suche auf Platz 3 landeten.
 - Wir unterstützen lokale Organic Maps-Communities auf Telegram. Tritt unseren [englisch-][telegram_chat], [deutsch-][telegram_chat_de], [französisch-][telegram_chat_fr], [italienisch-][telegram_chat_it], [spanisch-][telegram_chat_es], [türkisch-][telegram_chat_tr], [ukrainisch-][telegram_chat_uk], [russisch-][telegram_chat_ru], [chinesisch-][telegram_chat_zh], [arabisch-][telegram_chat_ar] und [persischsprachigen][telegram_chat_fa] Communities bei.
 

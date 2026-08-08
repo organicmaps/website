@@ -88,7 +88,7 @@ Rebutar la susvelhança. Assegurar la libertat.
 
 ## Cu paga per l'aplicacion a gratis?
 
-L'aplicacion es a gratis per totei. Se vòles [donar](@/donate/index.ca.md) per nos ajudar!
+L'aplicacion es a gratis per totei. Se vòles [donar](@/donate/index.oc.md) per nos ajudar!
 
 To donate conveniently, click on your preferred payment method icon below:
 

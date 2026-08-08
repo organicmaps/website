@@ -11,7 +11,7 @@ Organic Maps es una aplicacion dubèrta e a gratis. Es liura d’anóncias, reca
 
 I a diferéntei manieras d’ajudar au desvelopament:
 
-- [Donar](@/donate/index.ca.md)! Cada dòlar o euro còmpta e nos ajuda a pagar lei servidors e ganhar d’escala.
+- [Donar](@/donate/index.oc.md)! Cada dòlar o euro còmpta e nos ajuda a pagar lei servidors e ganhar d’escala.
 - Senhalar d'errors e partejar d’idèas dins nòstre [GitHub][github] ò per [email][email].
 - Ajuda-nos a [fix bugs][contributing] e repassar lo còde se siás desvelopaire. Cada dificultat reglada fa plaser en quauqu’un.
 - [Translate][translations] cadenas mancan dins l’interfàcia de l’aplicacion.

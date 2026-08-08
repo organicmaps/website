@@ -11,7 +11,7 @@ Organic Maps is ’n gratis, oopbrontoep. Dit is vry van advertensies, dit versa
 
 Daar is verskillende maniere om die ontwikkeling te ondersteun:
 
-- [Skenk](@/donate/index.nl.md)! Elke euro of dollar tel en help ons om bedieners te betaal en op te skaal.
+- [Skenk](@/donate/index.af.md)! Elke euro of dollar tel en help ons om bedieners te betaal en op te skaal.
 - Rapporteer foute en deel ideë op ons [GitHub][github] of d.m.v. [e-pos][email].
 - Help ons om [foute op te los][contributing] en hersien kode as jy ’n ontwikkelaar is. Elke klein opgeloste fout maak iemand blyer.
 - [Vertaal][translations] ontbrekende stringe in die toep se koppelvlak.

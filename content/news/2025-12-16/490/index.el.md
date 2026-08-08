@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Καλά Χριστούγεννα και Ευτυχισμένο το Νέο Έτος από την ομάδα του Organic Maps. Ψάχνετε για το πνεύμα των εορτών; Αναζητήστε `Χριστουγεννιάτικη αγορά` ή `Χριστουγεννιάτικο δέντρο` για να τα δείτε στον χάρτη. Αν δεν εμφανίζεται τίποτα στην περιοχή σας, προσθέστε τα χαρακτηριστικά που λείπουν στο OpenStreetMap.org και βελτιώστε τον χάρτη για όλους!
+Καλά Χριστούγεννα και Ευτυχισμένο το Νέο Έτος από την ομάδα του Organic Maps. Ψάχνεις για το πνεύμα των εορτών; Αναζήτησε `Χριστουγεννιάτικη αγορά` ή `Χριστουγεννιάτικο δέντρο` για να τα δεις στον χάρτη. Αν δεν εμφανίζεται τίποτα στην περιοχή σου, πρόσθεσε τα χαρακτηριστικά που λείπουν στο OpenStreetMap.org και βελτίωσε τον χάρτη για όλους!
 
-Εγκαταστήστε το Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid]
+Εγκατάστησε το Organic Maps από <https://omaps.app/get> ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [F-Droid][fdroid]
 
 ### Σημειώσεις έκδοσης
 - Χριστουγεννιάτικα δέντρα και αγορές εμφανίζονται τώρα στον χάρτη (Viktor Govako)
@@ -33,11 +33,11 @@ taxonomies:
 - Ο αισθητήρας τοποθεσίας αυτοκινήτου στο Android Auto απενεργοποιήθηκε για την αποφυγή προβλημάτων τοποθεσίας (Andrei Shkrob)
 - Η καταγραφή διαδρομής συνεχίζεται ακόμα και αν η εφαρμογή τερματιστεί ή κλείσει (Alexander Borsuk)
 
-Λάβετε μέρος στις δοκιμές beta για να δοκιμάσετε πρώιμες λειτουργίες και να αναφέρετε προβλήματα:
+Λάβε μέρος στις δοκιμές beta για να δοκιμάσεις πρώιμες λειτουργίες και να αναφέρεις προβλήματα:
 - [iOS][testflight]
 - [Android][firebase]
 
-Το Organic Maps υπάρχει χάρη στις [δωρεές](@/donate/index.el.md) και τις [συνεισφορές](@/contribute/index.el.md) σας. Σας ευχαριστούμε! ❤️
+Το Organic Maps υπάρχει χάρη στις [δωρεές](@/donate/index.el.md) και τις [συνεισφορές](@/contribute/index.el.md) σου. Σε ευχαριστούμε! ❤️
 
 Η Ομάδα του Organic Maps
 

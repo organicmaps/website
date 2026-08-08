@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Γνωρίστε την ενημέρωση Ιουλίου του Organic Maps με πολλές διορθώσεις και βελτιώσεις, χάρη στους συνεισφέροντές μας ❤️💪! Η ενημέρωση είναι ήδη διαθέσιμη στο [AppStore][appstore], [Obtainium][obtainium] και [Accrescent][accrescent], και θα είναι έτοιμη στο [Google Play][googleplay], [Huawei AppGallery][appgallery], και [FDroid][fdroid] σε λίγες μέρες.
+Γνώρισε την ενημέρωση Ιουλίου του Organic Maps με πολλές διορθώσεις και βελτιώσεις, χάρη στους συνεισφέροντές μας ❤️💪! Η ενημέρωση είναι ήδη διαθέσιμη στο [AppStore][appstore], [Obtainium][obtainium] και [Accrescent][accrescent], και θα είναι έτοιμη στο [Google Play][googleplay], [Huawei AppGallery][appgallery], και [FDroid][fdroid] σε λίγες μέρες.
 
 [Οι δωρεές σου](@/donate/index.el.md) και η [υποστήριξή σου](@/contribute/index.el.md), οι [αναφορές σφαλμάτων][github issues] και οι [βελτιώσεις][github] μας βοηθούν να φτιάχνουμε καλύτερους χάρτες μαζί!
 

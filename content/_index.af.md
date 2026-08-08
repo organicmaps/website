@@ -87,7 +87,7 @@ Weier waarneming – omarm jou vryheid.
 
 ## Wie betaal vir die gratis toep?
 
-Die toep is gratis vir almal. [Skenk](@/donate/index.nl.md) asseblief om ons te ondersteun!
+Die toep is gratis vir almal. [Skenk](@/donate/index.af.md) asseblief om ons te ondersteun!
 
 Om onmiddellik te skenk kan jy op ’n voorkeurbetaalmetode hier onder klik:
 

@@ -20,7 +20,7 @@ Organic Maps是一个免费的、开源的应用程序，没有广告，不收�
 - 将我们的网站[翻译][translations_website]成您的语言。
 - 加入[OpenStreetMap][openstreetmap]社区，为地图数据作出贡献。
 - 修复由[公共交通验证器][public_transport_validator]发现的红色城市，让地铁和轻轨在应用程序中更好用。
-- 在[GitHub][issues]、[Telegram][telegram_chat]、[Matrix][matrix]、[Twitter][twitter]、[Facebook][facebook]、[Instagram][instagram]支持其他用户。
+- 在[GitHub][issues]、[Telegram][telegram_chat_zh]、[Matrix][matrix]、[Twitter][twitter]、[Facebook][facebook]、[Instagram][instagram]支持其他用户。
 - 传播Organic Maps，助力社区更大更强。
 - 在[Google Play][googleplay_review]、[Apple Store][appstore_review]、[Huawei
   Appgallery][appgallery_review]为我们评分。

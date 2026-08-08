@@ -19,7 +19,7 @@ Organic Maps - це безкоштовний застосунок з відкр�
 - [Перекладайте][translations_website] наш веб-сайт на свою мову.
 - Приєднуйтесь до [OpenStreetMap][openstreetmap] спільноти та робіть внесок у створення мапи.
 - Виправте червоні місця, знайдені нашим [валідатором громадського транспорту][public_transport_validator], щоб метро і швидкісний трамвай працювали в застосунку.
-- Підтримуйте інших користувачів на [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
+- Підтримуйте інших користувачів на [GitHub][issues], [Telegram][telegram_chat_uk], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Розкажіть усім про Organic Maps. Більша спільнота – сильніша спільнота.
 - Оцініть нас у [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Будь-яка допомога вітається!

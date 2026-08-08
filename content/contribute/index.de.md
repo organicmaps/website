@@ -19,7 +19,7 @@ Es gibt verschiedene Möglichkeiten, die Entwicklung zu unterstützen:
 - [Übersetze][translations_website] unsere Webseite in deine Sprache.
 - Werde Mitglied der [OpenStreetMap][openstreetmap]-Gemeinschaft und trage zu den Kartendaten bei.
 - Repariere rote Städte, die von unserem [ÖPNV-Validator][public_transport_validator] gefunden wurden, damit U- und S-Bahnen in der App funktionieren.
-- Unterstütze andere Nutzer auf [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
+- Unterstütze andere Nutzer auf [GitHub][issues], [Telegram][telegram_chat_de], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Erzähle allen von Organic Maps. Eine größere Gemeinschaft ist eine stärkere Gemeinschaft.
 - Bewerte uns in [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Jede Hilfe ist willkommen!

@@ -19,7 +19,7 @@ Organic Maps هو تطبيق مجاني مفتوح المصدر. إنه خالٍ
 - [ترجم][translations_website] موقعنا على الويب بلغتك.
 - انضم إلى مجتمع [OpenStreetMap][openstreetmap] و ساهم في بيانات الخرائط.
 - أصلح المدن الحمراء التي عُثر عليها بواسطة [أداة التحقق من وسائل النقل العام] [public_transport_validator]، لمترو الأنفاق والسكك الحديدية للعمل في التطبيق.
-- دعم المستخدمين الآخرين على [GitHub][issues], [Telegram][telegram_chat], [ماتركس][matrix], [تويتر][twitter], [فيسبوك][facebook], [إنستغرام][instagram].
+- دعم المستخدمين الآخرين على [GitHub][issues], [Telegram][telegram_chat_ar], [ماتركس][matrix], [تويتر][twitter], [فيسبوك][facebook], [إنستغرام][instagram].
 - أخبر الجميع عن Organic Maps. المجتمع الأكبر هو المجتمع الأقوى.
 - قيمنا في [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - نرحب بأي مساعدة!

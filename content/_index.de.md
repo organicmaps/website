@@ -153,7 +153,7 @@ Organic Maps ist eine [Open-Source-Software][github], die unter der Apache Licen
 - Tritt unserer [Telegram-Gruppe][telegram_chat_de] bei, um mit anderen Benutzern zu diskutieren.
 - Besuche unsere [GitHub-Seite][github].
 - Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen): [Ungarischer Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Englisch-][telegram_chat], [Chinesisch-][telegram_chat_zh], [Französisch-][telegram_chat_fr], [Russisch-][telegram_chat_ru], [Türkisch-][telegram_chat_tr]sprachige Telegram-Chats.
+- Tritt lokalen Communities bei (oder erstelle eine und lass es uns wissen): [Ungarischer Matrix-Raum](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Englisch-][telegram_chat_de], [Chinesisch-][telegram_chat_zh], [Französisch-][telegram_chat_fr], [Russisch-][telegram_chat_ru], [Türkisch-][telegram_chat_tr]sprachige Telegram-Chats.
 
 [fork]: https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)
 

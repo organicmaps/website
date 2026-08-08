@@ -19,7 +19,7 @@ Organic Maps یک برنامه رایگان و متن‌باز است. بدون 
 - [وبگاه ما را ترجمه کنید][translations_website] تا کاربران بیشتری از آن بهره ببرند.
 - به اجتماع [OpenStreetMap][openstreetmap] بپیوندید و به بهبود داده‌های نقشه‌ها کمک کنید.
 - شهرهای قرمز مشخص‌شده توسط [اعتبارسنج حمل‌ونقل عمومی][public_transport_validator] را اصلاح کنید تا متروها و قطارهای سبک شهری در برنامه کار کنند.
-- از سایر کاربران در [گیت‌هاب][issues]، [تلگرام][telegram_chat]، [ماتریکس][matrix]، [توییتر][twitter]، [فیسبوک][facebook]، [اینستاگرام][instagram] حمایت کنید.
+- از سایر کاربران در [گیت‌هاب][issues]، [تلگرام][telegram_chat_fa]، [ماتریکس][matrix]، [توییتر][twitter]، [فیسبوک][facebook]، [اینستاگرام][instagram] حمایت کنید.
 - Organic Maps را به دیگران معرفی کنید. یک اجتماع بزرگ‌تر، اجتماع‌ی قوی‌تر است.
 - ما را در [Google Play][googleplay_review]، [Apple Store][appstore_review]، [Huawei AppGallery][appgallery_review] امتیاز دهید.
 - هر نوع کمکی استقبال می‌شود!

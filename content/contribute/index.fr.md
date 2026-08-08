@@ -19,7 +19,7 @@ Il existe différentes façons de soutenir le développement :
 - [Traduisez][translations_website] notre site web dans votre langue.
 - Rejoignez la communauté [OpenStreetMap][openstreetmap] et contribuez aux données cartographiques.
 - Corriger les villes rouges trouvées par notre [validateur de transport public][public_transport_validator], pour que les métros et les tramways fonctionnent dans l'application.
-- Soutenez les autres utilisateurs sur [GitHub][issues], [Telegram][telegram_chat] ([на русском][telegram_chat_ru]), [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
+- Soutenez les autres utilisateurs sur [GitHub][issues], [Telegram][telegram_chat_fr], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Parlez à tout le monde d'Organic Maps. Une communauté plus grande est une communauté plus forte.
 - Notez-nous sur [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Toute aide est la bienvenue !

@@ -152,7 +152,6 @@ Organic Maps, అపాచీ లైసెన్స్ 2.0 గల ఒక [స్
 - ఇతర వినియోగదారులతో చర్చించడానికి మా [టెలీగ్రామ్ సమూహం][telegram_chat]లో చేరండి.
 - మా [గిట్ హబ్ పేజీ][github]ని సందర్సించండి.
 - [ఫోస్టోడాన్][fosstodon], [ఫేస్‌బుక్][facebook], [ట్విట్టర్][twitter], [ఇన్‌స్టాగ్రామ్][instagram], [Bluesky][bluesky], [Threads][threads], [రెడ్డిట్][reddit], [లింకిడిన్][LinkedIn], [TikTok][tiktok] లో మమ్మల్ని ఫాలో అవ్వండి.
-- స్థానిక కమ్యూనిటీలలో చేరండి (లేదా సృష్టించి మాకు తెలియజేయండి): [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

@@ -153,8 +153,7 @@ Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı y
 - [Sorun izleyicisine][issues] sorunları ve hataları bildirin.
 - Fikirleri [tartışın][ideas] ya da özellik istekleri önerin
 - Güncellemeler için [Telegram Kanalımıza][telegram] abone olun
-- Diğer kullanıcılarla tartışmak için [Telegram Grubumuza](https://t.me/OrganicMapsTR) veya [matrix odamıza][matrix] katılın
-- Join our [Telegram Group][telegram_chat_tr] to discuss with other users.
+- Diğer kullanıcılarla tartışmak için [Türkçe Telegram Grubumuza][telegram_chat_tr], [İngilizce gruba][telegram_chat] veya [matrix odamıza][matrix] katılın
 - [GitHub sayfamızı][github] ziyaret edin
 - [E-posta][email] ile bizimle iletişime geçin
 - Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram](https://instagram.com/organicmapstr/), [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] ve [TikTok][tiktok] üzerinden takip edin.

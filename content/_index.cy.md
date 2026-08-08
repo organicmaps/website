@@ -154,7 +154,6 @@ Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i thrwydde
 - Ymunwch â'n [grŵp Telegram][telegram_chat] i drafod gyda defnyddwyr arall.
 - Ymweld â'n [tudalen GitHub][github].
 - Dilynwch ein newyddion ar [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

@@ -152,7 +152,6 @@ Organic Maps は [Apache License 2.0][github] の下でライセンスされた 
 - 他のユーザーと議論するには [Telegram グループ][telegram_chat] にご参加ください。
 - [GitHub ページ][github] をご覧ください。
 - アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
-- 地域のコミュニティにご参加ください: [ハンガリー語 Matrix ルーム](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)、[ドイツ語][telegram_chat_de]、[中国語][telegram_chat_zh]、[フランス語][telegram_chat_fr]、[イタリア語][telegram_chat_it]、[スペイン語][telegram_chat_es]、[ロシア語][telegram_chat_ru]、[ウクライナ語][telegram_chat_uk]、[アラビア語][telegram_chat_ar]、[ペルシア語][telegram_chat_fa]、[トルコ語][telegram_chat_tr] の Telegram チャット。
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

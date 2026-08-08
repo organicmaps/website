@@ -149,10 +149,9 @@ Organic Maps est un [logiciel open-source][github] sous licence Apache 2.0.
 - Signalez les bugs ou les problèmes sur [le suivi des problèmes][issues] ou [envoyez-nous un e-mail][email].
 - [Discutez][ideas] des idées ou proposez des demandes de fonctionnalités.
 - Abonnez-vous à notre [Canal Telegram][telegram] ou à l'espace [matrix][matrix] pour les mises à jour.
-- Rejoignez notre [Chat Telegram en anglais][telegram_chat_fr] ou [en français][telegram_chat_fr] pour discuter avec d'autres utilisateurs.
+- Rejoignez notre [Chat Telegram en français][telegram_chat_fr] ou [en anglais][telegram_chat] pour discuter avec d'autres utilisateurs.
 - Visitez notre [page GitHub][github].
 - Suivez nos mises à jour sur [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Rejoignez les communautés locales : chats Telegram [hongrois (Matrix)](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [allemand][telegram_chat_de], [chinois][telegram_chat_zh], [français][telegram_chat_fr], [italien][telegram_chat_it], [espagnol][telegram_chat_es], [russe][telegram_chat_ru], [ukrainien][telegram_chat_uk], [arabe][telegram_chat_ar], [persan][telegram_chat_fa], [turc][telegram_chat_tr].
 
 [fork]: https://fr.wikipedia.org/wiki/Fourche_(d%C3%A9veloppement_de_logiciel)
 

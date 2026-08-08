@@ -133,7 +133,7 @@ Organic Maps развивается сообществом энтузиасто�
 ## Сообщество
 
 - Подписывайтесь на наш [канал новостей в Telegram][telegram];
-- Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat_ru], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
+- Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
 - Подключайтесь к программе тестирования бета-версий:
   - [iOS Бета (TestFlight)][testflight]
   - [Android Бета (Firebase)][firebase]

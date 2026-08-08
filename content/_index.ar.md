@@ -152,10 +152,9 @@ Organic Maps هو [برنامج مفتوح المصدر][github] مرخّص تح
 - أبلغ عن الأخطاء أو المشكلات إلى [متعقب المشكلات][issues] أو [مراسلتنا عبر البريد الإلكتروني][email].
 - [مناقشة][ideas] الأفكار أو اقتراح طلبات الميزات.
 - اشترك في [قناة Telegram][telegram] أو في [فضاء ماتركس][matrix] للحصول على التحديثات.
-- انضم إلى [مجموعة Telegram][telegram_chat_ar] للمناقشة مع المستخدمين الآخرين.
+- انضم إلى [مجموعة Telegram العربية][telegram_chat_ar] أو [المجموعة الإنجليزية][telegram_chat] للمناقشة مع المستخدمين الآخرين.
 - زُر [صفحة Github][github].
 - تابع تحديثاتنا في [فيسبوك][facebook]، [تويتر][twitter]، [Instagram][instagram]، [Reddit][reddit]، [FOSStodon][fosstodon]، [Bluesky][bluesky]، [Threads][threads]، [LinkedIn][LinkedIn]، [TikTok][tiktok].
-- انضم (أو أنشئ وأخبرنا) إلى المجتمعات المحلية: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://ar.wikipedia.org/wiki/تفرع_معدل_(برمجة)
 

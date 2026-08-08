@@ -151,11 +151,9 @@ Organic Maps - це [ПЗ з відкритим початковим кодом]
 - Повідомляйте про помилки або проблеми на [GitHub][issues] або через [ел. пошту][email].
 - [Обговорюйте][ideas] ідеї або пропонуйте запити на нові функції.
 - Підписуйтесь на наш [Telegram канал][telegram] або на [matrix space][matrix].
-- Приєднуйтесь до нашої [Telegram групи][telegram_chat_uk], щоб подискутувати з іншими користувачами.
+- Приєднуйтесь до нашої [україномовної Telegram групи][telegram_chat_uk] або до [англомовної групи][telegram_chat], щоб подискутувати з іншими користувачами.
 - Відвідайте нашу [сторінку на GitHub][github].
 - Слідкуйте за нами у [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Приєднуйтесь (або створіть і повідомте нам) до місцевої спільноти: [Кімната Matrix угорських перекладачів](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [китайсько-][telegram_chat_zh], [французько-][telegram_chat_fr], [російсько-][telegram_chat_ru], [турецько-][telegram_chat_tr]мовні Telegram-чати.
-- Приєднуйтесь до місцевих спільнот: [Угорська кімната Matrix](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [українська][telegram_chat_uk], [англомовна][telegram_chat_en], [німецька][telegram_chat_de], [китайська][telegram_chat_zh], [французька][telegram_chat_fr], [італійська][telegram_chat_it], [іспанська][telegram_chat_es], [російська][telegram_chat_ru], [арабська][telegram_chat_ar], [перська][telegram_chat_fa], [турецька][telegram_chat_tr] чати Telegram.
 
 [fork]: https://uk.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA
 

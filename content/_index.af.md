@@ -153,7 +153,6 @@ Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die Apa
 - Sluit aan by ons [Telegram-groep][telegram_chat] om met ander gebruikers te bespreek.
 - Besoek ons [GitHub-blad][github].
 - Volg ons opdaterings op [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Sluit aan by (of skep en laat ons weet) plaaslike gemeenskappe: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

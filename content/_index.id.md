@@ -154,7 +154,6 @@ Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan d
 - Bergabunglah dengan [grup Telegram][telegram_chat] kami untuk berdiskusi dengan pengguna lain.
 - Kunjungi [laman GitHub][github] kami.
 - Ikuti pembaruan kami di [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Bergabung (atau buat dan beri tahu kami) komunitas lokal: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://id.wikipedia.org/wiki/Fork_(pengembangan_perangkat_lunak)
 

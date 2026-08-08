@@ -153,7 +153,6 @@ Organic Maps é um [software de código aberto][github] licenciado sob a Licenç
 - Junte-se ao nosso [grupo do Telegram][telegram_chat] para conversar com outros usuários.
 - Visite nossa [página no GitHub][github].
 - Siga nossas atualizações no [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
-- Junte-se (ou crie e nos diga) às comunidades locais: [Sala Matrix de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats de Telegram em [chinês][telegram_chat_zh], [francês][telegram_chat_fr], [russo][telegram_chat_RU] ou [turco][telegram_chat_tr].
 
 [fork]: https://pt.wikipedia.org/wiki/Bifurcação_(desenvolvimento_de_software)
 

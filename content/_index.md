@@ -152,7 +152,6 @@ Organic Maps is an [open-source software][github] licensed under the Apache Lice
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - Visit our [GitHub page][github].
 - Follow our updates in [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Join local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [German-][telegram_chat_de], [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Italian-][telegram_chat_it], [Spanish-][telegram_chat_es], [Russian-][telegram_chat_ru], [Ukrainian-][telegram_chat_uk], [Arabic-][telegram_chat_ar], [Persian-][telegram_chat_fa], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

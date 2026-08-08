@@ -152,7 +152,6 @@ Organic Maps एक [ओपन-सोर्स सॉफ्टवेयर][gith
 - अन्य उपयोगकर्ताओं के साथ चर्चा करने के लिए हमारे [Telegram Group][telegram_chat] में शामिल हों।
 - हमारे [GitHub पेज][github] पर जाएं।
 - [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] पर हमारे अपडेट का पालन करें।
-- स्थानीय समुदायों में शामिल हों: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [German-][telegram_chat_de], [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Italian-][telegram_chat_it], [Spanish-][telegram_chat_es], [Russian-][telegram_chat_ru], [Ukrainian-][telegram_chat_uk], [Arabic-][telegram_chat_ar], [Persian-][telegram_chat_fa], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

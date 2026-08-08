@@ -154,7 +154,6 @@ Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache Lic
 - Csatlakozzon a [Telegram csoportunkhoz][telegram_chat], hogy beszélgethessen a többi felhasználóval.
 - Látogasson el a [GitHub oldalunkra][github].
 - Kövesse frissítéseinket a [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] és [TikTok][tiktok] felületeken.
-- Csatlakozzon (vagy hozzon létre és tudassa velünk) a helyi közösségekhez: [magyar Mátrix -szoba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [kínai-][telegram_chat_zh], [francia-][telegram_chat_fr], [orosz-][telegram_chat_ru] és [török-][telegram_chat_tr] nyelvű beszélgetések a Telegramon.
 
 [fork]: https://hu.wikipedia.org/wiki/Fork_%28szoftverfejleszt%C3%A9s%29
 

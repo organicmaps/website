@@ -146,7 +146,6 @@ Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache L
 - הצטרפו ל-[קבוצת הטלגרם][telegram_chat] שלנו לדיון עם משתמשים אחרים.
 - בקרו ב-[דף ה-GitHub][github] שלנו.
 - עקבו אחר העדכונים שלנו ב-[FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- הצטרפו לקהילות מקומיות: [חדר Matrix הונגרי](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), קבוצות טלגרם דוברות [גרמנית][telegram_chat_de], [סינית][telegram_chat_zh], [צרפתית][telegram_chat_fr], [איטלקית][telegram_chat_it], [ספרדית][telegram_chat_es], [רוסית][telegram_chat_ru], [אוקראינית][telegram_chat_uk], [ערבית][telegram_chat_ar], [פרסית][telegram_chat_fa], [טורקית][telegram_chat_tr].
 
 [fork]: https://he.wikipedia.org/wiki/פיצול_(פיתוח_תוכנה)
 

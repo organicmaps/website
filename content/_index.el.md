@@ -154,7 +154,6 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 - Γίνετε μέλος της [Telegram Group][telegram_chat] για να συζητήσετε με άλλους χρήστες.
 - Επισκεφθείτε την [GitHub σελίδα][github] μας.
 - Ακολουθήστε τις ενημερώσεις μας σε [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Γίνετε μέλη (ή δημιουργήστε και ενημερώστε μας) τοπικών κοινοτήτων: (https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [κινέζικα-][telegram_chat_zh], [γαλλικά-][telegram_chat_fr], [ρωσικά-][telegram_chat_ru], [τουρκικά-][telegram_chat_tr]ομιλούντες συνομιλίες Telegram.
 
 [fork]: https://el.wikipedia.org/wiki/Παρακλάδι_(πληροφορική)
 

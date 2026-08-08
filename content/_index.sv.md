@@ -154,7 +154,6 @@ Organic Maps är en [programvara med öppen källkod][github] licensierad under 
 - Gå med i vår [Telegramgrupp][telegram_chat] för att diskutera med andra användare.
 - Besök vår [GitHub-sida][github].
 - Följ våra uppdateringar på [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Gå med i (eller skapa och låt oss veta) lokala gemenskaper: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://sv.wikipedia.org/wiki/Fork
 

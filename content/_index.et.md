@@ -154,7 +154,6 @@ Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me oleme 
 - Keskustelemaks teiste kasutajatega liitu meie [Telegrami grupiga][telegram_chat].
 - Vaata meie [arenduskeskkonda GitHubis][github].
 - Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Liitu kohalike kogukondadega: [ungarikeelne Matrixi jututuba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [hiina-][telegram_chat_zh], [prantsuse-][telegram_chat_fr], [vene-][telegram_chat_ru] ja [türgikeelne][telegram_chat_tr]jututuba Telegramis. Kui soovid, siis alati saad luua uue kogukonna.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

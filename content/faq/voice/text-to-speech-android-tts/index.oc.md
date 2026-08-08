@@ -19,18 +19,18 @@ La recomandacion oficiala d'Organic Maps es [RHVoice](https://rhvoice.org/), qu'
 
 ## Instruccions
 
-- Dobrissètz l'aplicacion Paramètres sus vòstre aparelh Android
-- Seleccionatz Paramètres suplementaris puèi seleccionatz Accessibilitat
-- Causissètz vòstre motor preferit, la velocitat de la paraula e lo ton
+- Dobrís l'aplicacion Paramètres sus ton aparelh Android
+- Selecciona Paramètres suplementaris puèi selecciona Accessibilitat
+- Causís ton motor preferit, la velocitat de la paraula e lo ton
 - **Reamodar l'aplicacion Organic Maps**
-- Dobrissètz Paramètres => Instruccions vocalas dins Organic Maps e configuratz-las
-- Reamodatz tornarmai l'aplicacion Organic Maps (o reamodatz lo dispositiu) se la votz fonciona pas
+- Dobrís Paramètres => Instruccions vocalas dins Organic Maps e configura-las
+- Reamoda tornarmai l'aplicacion Organic Maps (o reamoda lo dispositiu) se la votz fonciona pas
 
-Se trobatz pas lo paramètre pertinent, dobrissètz l'aplicacion de paramètres e cercatz 'Text-to-speech'.
+Se tròbas pas lo paramètre pertinent, dobrís l'aplicacion de paramètres e cerca 'Text-to-speech'.
 
-P.S: Notatz que las estapas poirián variar segon la marca de vòstre telefòn.
+P.S: Nòta que las estapas poirián variar segon la marca de ton telefòn.
 
-Aquestas opcions poirián pas aparéisser s'avètz pas ja un TTS installat sus vòstre aparelh. Consultatz la taula çaijós per installar un d'eles que supòrta vòstra lenga materna.
+Aquestas opcions poirián pas aparéisser s'as pas ja un TTS installat sus ton aparelh. Consulta la taula çaijós per installar un d'eles que supòrta ta lenga materna.
 
 ## Capturas d'ecran
 
@@ -40,28 +40,28 @@ Aquestas opcions poirián pas aparéisser s'avètz pas ja un TTS installat sus v
 
 ## Motors {#engines}
 
-Çaijós trobaretz una lista completa que mòstra plusors motors e las lengas que supòrtan (los ligams de telecargament se tròban après la taula):
+Çaijós trobaràs una lista completa que mòstra plusors motors e las lengas que supòrtan (los ligams de telecargament se tròban après la taula):
 
 {{ tts_table() }}
 
 ## Solucions de contornament
 
-S'avètz de problèmas per inicializar lo motor TTS RHVoice sus LineageOS o d'autras ROM personalizadas, ensajatz aquesta solucion de contornament. Es possible que RHVoice s'inicialize pas corrèctament e que l'aplicacion s'arrèste, especialament s'avètz pas jamai utilizat cap de motor TTS sus vòstre telefòn (per exemple, installacion novèla, restabliment d'usina, etc.). S'utilizatz una ROM personalizada coma LineageOS <ins>sens los servicis Google Play e los servicis de paraula de Google</ins>, e volètz utilizar RHVoice coma vòstre motor TTS preferit, seguissètz las instruccions çaijós coma solucion de contornament:
+S'as de problèmas per inicializar lo motor TTS RHVoice sus LineageOS o d'autras ROM personalizadas, ensaja aquesta solucion de contornament. Es possible que RHVoice s'inicialize pas corrèctament e que l'aplicacion s'arrèste, especialament s'as pas jamai utilizat cap de motor TTS sus ton telefòn (per exemple, installacion novèla, restabliment d'usina, etc.). S'utilizas una ROM personalizada coma LineageOS <ins>sens los servicis Google Play e los servicis de paraula de Google</ins>, e vòles utilizar RHVoice coma ton motor TTS preferit, seguís las instruccions çaijós coma solucion de contornament:
 
-1. Installatz lo [motor TTS eSpeak](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible sus F-Droid
+1. Installa lo [motor TTS eSpeak](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible sus F-Droid
 2. Lo configurar coma motor preferit del sistèma
-    - Anatz dins los **Paramètres** principals de LineageOS.
-    - Desfilatz cap aval fins a **Accessibilitat**.
-    - Seleccionatz **Sortida text-a-la-parla** e **Motor preferit** (costat esquèrre) e asseguratz-vos que **eSpeak** siá seleccionat.
-3. Tornatz en arrièr e premetz sus **play** per veire se fonciona
-4. Installatz [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) disponible sus F-droid.
-    - Dobrissètz-lo, seleccionatz la lenga que volètz utilizar, picatz sus l'icòna del nívol (a l'extrèma esquèrra) per telecargar de voses.
-    - Quichatz sul boton de lectura per verificar se fonciona
-5. Configuratz **RHVoice** coma motor preferit (veire l'etapa 2)
-6. Ara, deuriatz poder utilizar RHVoice sens cap de problèma
+    - Vai dins los **Paramètres** principals de LineageOS.
+    - Desfila cap aval fins a **Accessibilitat**.
+    - Selecciona **Sortida text-a-la-parla** e **Motor preferit** (costat esquèrre) e assegura-te que **eSpeak** siá seleccionat.
+3. Torna en arrièr e prem sus **play** per veire se fonciona
+4. Installa [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) disponible sus F-droid.
+    - Dobrís-lo, selecciona la lenga que vòles utilizar, pica sus l'icòna del nívol (a l'extrèma esquèrra) per telecargar de voses.
+    - Quicha sul boton de lectura per verificar se fonciona
+5. Configura **RHVoice** coma motor preferit (veire l'etapa 2)
+6. Ara, deuriás poder utilizar RHVoice sens cap de problèma
 
 ## Testatge
 
-Per testar las instruccions vocalas, podètz picar sus « Testar las Directivas Vocalas (TTS, Tèxte-Vòs) » dins lo menú OM « Paramètres → Instruccions Vocalas » o podètz efectivament començar una navigacion per recebre una sortida vocala. Organic Maps vos donarà pas cap d'instruccion vocala quand sètz immobil.
+Per testar las instruccions vocalas, pòdes picar sus « Testar las Directivas Vocalas (TTS, Tèxte-Vòs) » dins lo menú OM « Paramètres → Instruccions Vocalas » o pòdes efectivament començar una navigacion per recebre una sortida vocala. Organic Maps te donarà pas cap d'instruccion vocala quand siás immobil.
 
 ![Tèst TTS](tts_test.png "Tèst TTS")

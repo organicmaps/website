@@ -7,16 +7,16 @@ title: "Ondersteun die ontwikkeling van Organic Maps"
 weight: 20
 ---
 
-Organic Maps is ’n gratis, oopbrontoep. Dit is vry van advertensies, dit versamel nie u persoonlike data nie, en word ontwikkel deur ’n paar entoesiaste met die hulp van die gemeenskap.
+Organic Maps is ’n gratis, oopbrontoep. Dit is vry van advertensies, dit versamel nie jou persoonlike data nie, en word ontwikkel deur ’n paar entoesiaste met die hulp van die gemeenskap.
 
 Daar is verskillende maniere om die ontwikkeling te ondersteun:
 
 - [Skenk](@/donate/index.nl.md)! Elke euro of dollar tel en help ons om bedieners te betaal en op te skaal.
 - Rapporteer foute en deel ideë op ons [GitHub][github] of d.m.v. [e-pos][email].
-- Help ons om [foute op te los][contributing] en hersien kode as u ’n ontwikkelaar is. Elke klein opgeloste fout maak iemand blyer.
+- Help ons om [foute op te los][contributing] en hersien kode as jy ’n ontwikkelaar is. Elke klein opgeloste fout maak iemand blyer.
 - [Vertaal][translations] ontbrekende stringe in die toep se koppelvlak.
-- Vertaal [App Store][translations_appstore] en [Android][translations_googleplay] beskrywings in u taal.
-- [Vertaal][translations_website] ons webwerf in u taal.
+- Vertaal [App Store][translations_appstore] en [Android][translations_googleplay] beskrywings in jou taal.
+- [Vertaal][translations_website] ons webwerf in jou taal.
 - Sluit aan by die [OpenStreetMap][openstreetmap]-gemeenskap en dra by tot die kaartdata.
 - Herstel rooi stede wat deur ons [OV-kontroleerder][public_transport_validator] gevind is, sodat moltreine en sneltrems in die toep werk.
 - Ondersteun ander gebruikers op [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
@@ -24,6 +24,6 @@ Daar is verskillende maniere om die ontwikkeling te ondersteun:
 - Gradeer ons op [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Enige hulp is welkom!
 
-Ons klein span is baie dankbaar vir u terugvoer en ondersteuning. Organic Maps sou nie moontlik wees sonder ons gebruikers nie ❤️.
+Ons klein span is baie dankbaar vir jou terugvoer en ondersteuning. Organic Maps sou nie moontlik wees sonder ons gebruikers nie ❤️.
 
 {{ references() }}

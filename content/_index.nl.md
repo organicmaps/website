@@ -87,9 +87,9 @@ Weiger toezicht – omarm je vrijheid.
 
 ## Wie betaalt er voor de gratis app?
 
-De app is voor iedereen gratis. [Doneer](@/donate/index.nl.md) alstublieft om ons te ondersteunen!
+De app is voor iedereen gratis. [Doneer](@/donate/index.nl.md) alsjeblieft om ons te ondersteunen!
 
-Om gemakkelijk te doneren, klik op het icoon van uw voorkeurs-betalingsmethode hieronder:
+Om gemakkelijk te doneren, klik op het icoon van je voorkeurs-betalingsmethode hieronder:
 
 {{ donate_buttons() }}
 
@@ -142,7 +142,7 @@ De geliefde institutionele sponsoren hieronder hebben gerichte beurzen beschikba
 
 Organic Maps is [open-source software][github], die gelicenseerd is onder de Apache License 2.0.
 
-- Neemt u alstublieft deel aan ons beta-programma, suggereer uw functies en rapporteer fouten:
+- Neem alsjeblieft deel aan ons beta-programma, suggereer je functies en rapporteer fouten:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Vrolijk Kerstfeest en een Gelukkig Nieuwjaar van het Organic Maps team. Op zoek naar kerstsfeer? Zoek naar `Kerstmarkt` of `Kerstboom` om ze op de kaart te zien. Als er niets in uw omgeving verschijnt, voeg dan de ontbrekende functies toe op OpenStreetMap.org en verbeter de kaart voor iedereen!
+Vrolijk Kerstfeest en een Gelukkig Nieuwjaar van het Organic Maps team. Op zoek naar kerstsfeer? Zoek naar `Kerstmarkt` of `Kerstboom` om ze op de kaart te zien. Als er niets in je omgeving verschijnt, voeg dan de ontbrekende functies toe op OpenStreetMap.org en verbeter de kaart voor iedereen!
 
 Installeer Organic Maps via <https://omaps.app/get> of via [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid]
 
@@ -37,7 +37,7 @@ Doe mee aan bètatests om vroege functies te proberen en problemen te melden:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps bestaat dankzij uw [donaties](@/donate/index.nl.md) en [bijdragen](@/contribute/index.nl.md). Dank u! ❤️
+Organic Maps bestaat dankzij je [donaties](@/donate/index.nl.md) en [bijdragen](@/contribute/index.nl.md). Dank je! ❤️
 
 Het Organic Maps Team
 

@@ -9,7 +9,7 @@ title: "Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie"
 
 **Organic Maps** is ’n privaatheidgefokusde, vanlyn kaarte- en GPS-toep vir voetslaan, fietsry en motorbestuur. Absoluut gratis. Geen advertensies. Geen nasporing. Met liefde ontwikkel deur die oopbrongemeenskap en dieselfde mense wat die [**MapsWithMe**][mapswithme]/**Maps.Me**-toep geskep het. Aangedryf deur [OpenStreetMap][openstreetmap]-data.
 
-**Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi u SIM-kaart weg (trouens, u verskaffer spoor u altyd na), en gaan ’n week op pad sonder om u battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
+**Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi jou SIM-kaart weg (trouens, jou verskaffer spoor jou altyd na), en gaan ’n week op pad sonder om jou battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
 
 > In Desember 2025 het Organic Maps [6M installasies bereik](@/news/2025-12-31/500/index.af.md). [Help ons](@/donate/index.af.md) om te groei!
 
@@ -37,7 +37,7 @@ Organic Maps is die topkameraadtoep vir reisigers, toeriste, voetslaners en fiet
 - Metro/moltreinkaarte
 - Soek vinnig vanlyn op die kaart
 - Stuur boekmerke uit en voer dit in in KML/KMZ-formate, voer GPX in, GeoJSON
-- Donkermodus om u oë te beskerm
+- Donkermodus om jou oë te beskerm
 - Lande en streke neem nie baie spasie op nie
 - Wikipedia-artikels vir gewilde plekke
 - Gratis en oopbron
@@ -46,8 +46,8 @@ Organic Maps is die topkameraadtoep vir reisigers, toeriste, voetslaners en fiet
 
 Organic Maps is suiwer en organies, met liefde gemaak:
 
-- Eerbiedig u privaatheid
-- Bespaar u battery
+- Eerbiedig jou privaatheid
+- Bespaar jou battery
 - Geen onverwagte mobieledatarekeninge
 
 Organic Maps is vry van naspoorders en ander slegte dinge:
@@ -71,17 +71,17 @@ Die iOS-toepassing is geverifieer deur [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps vra nie om oordrewe magtigings om op u te spioeneer nie:
+Organic Maps vra nie om oordrewe magtigings om op jou te spioeneer nie:
 
 {{ privacy_screenshots() }}
 
 By Organic Maps glo ons dat privaatheid ’n fundamentele mensereg is:
 
 - Organic Maps is ’n onafhanklike gemeenskapsgedrewe oopbronprojek
-- Ons beskerm u privaatheid van tegnoreuse se nuuskierige oë
-- Bly veilig, waar u ook al is
+- Ons beskerm jou privaatheid van tegnoreuse se nuuskierige oë
+- Bly veilig, waar jy ook al is
 
-Weier waarneming – omarm u vryheid.
+Weier waarneming – omarm jou vryheid.
 
 **[Probeer Organic Maps gerus!](#install)**
 
@@ -89,7 +89,7 @@ Weier waarneming – omarm u vryheid.
 
 Die toep is gratis vir almal. [Skenk](@/donate/index.nl.md) asseblief om ons te ondersteun!
 
-Om onmiddellik te skenk kan u op ’n voorkeurbetaalmetode hier onder klik:
+Om onmiddellik te skenk kan jy op ’n voorkeurbetaalmetode hier onder klik:
 
 {{ donate_buttons() }}
 

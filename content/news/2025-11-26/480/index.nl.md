@@ -14,7 +14,7 @@ Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <http
 - OpenStreetMap-gegevens bijgewerkt tot 23 november 2025. _(Viktor Govako)_
 
 ### iOS
-- NIEUW! U kunt een bladwijzer- of routenaam direct op de Plaatsinformatiepagina bewerken door op de naam te tikken. _(Kiryl Kaveryn)_
+- NIEUW! Je kunt een bladwijzer- of routenaam direct op de Plaatsinformatiepagina bewerken door op de naam te tikken. _(Kiryl Kaveryn)_
 - Ondersteuning toegevoegd voor iOS 26 en macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
 - Houd de naam of het adres van een geselecteerde plaats of bladwijzer lang ingedrukt om deze naar het klembord te kopiëren. _(Kiryl Kaveryn)_
 - Tik op de lijstnaam op de Plaatsinformatiepagina om een nieuwe lijst te selecteren voor een bladwijzer of route, en gebruik de nieuwe zoekfunctie om snel de gewenste lijst te vinden. _(Kiryl Kaveryn)_
@@ -33,13 +33,13 @@ Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <http
 - Fietsroutering slaat nu eenrichtingsstraten in woonwijken in Oostenrijk over. _(Viktor Govako)_
 - Verbeterde GeoJSON-import, inclusief `Saved Places.json`-bladwijzers van [Google Takeout](https://takeout.google.com/) _(Sergiy Kozyr)_
 - `.json`-bestanden kunnen nu ook worden geïmporteerd als `.geojson`-bestanden. _(Alexander Borsuk)_
-- Wanneer u een route naar een lijst verplaatst, wordt die lijst de standaard voor nieuwe bladwijzers en routes. _(Kiryl Kaveryn)_
+- Wanneer je een route naar een lijst verplaatst, wordt die lijst de standaard voor nieuwe bladwijzers en routes. _(Kiryl Kaveryn)_
 - Vertalingen bijgewerkt voor meerdere talen, inclusief een correctie voor het Hebreeuws. _(Alexander Borsuk, Michael Zeevi)_
 - Vereenvoudigde rotonde-aanwijzingen. _(Viktor Govako)_
 
 ### Vorige release-opmerkingen
 
-Lees de [vorige release-opmerkingen](@/news/2025-11-11/470/index.nl.md) als u deze hebt gemist.
+Lees de [vorige release-opmerkingen](@/news/2025-11-11/470/index.nl.md) als je deze hebt gemist.
 
 ### Bètatestprogramma
 
@@ -47,7 +47,7 @@ Doe mee aan bètatesten om vroege toegang te krijgen tot nieuwe functies en ons 
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps zou niet mogelijk zijn zonder uw [donaties](@/donate/index.nl.md), [bijdragen en ondersteuning](@/contribute/index.nl.md) ❤️
+Organic Maps zou niet mogelijk zijn zonder je [donaties](@/donate/index.nl.md), [bijdragen en ondersteuning](@/contribute/index.nl.md) ❤️
 
 Met zorg en liefde,
 Het Organic Maps-team

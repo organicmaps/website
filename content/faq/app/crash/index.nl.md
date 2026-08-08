@@ -12,7 +12,7 @@ aliases:
   - /nl/faq/app/crash/
 ---
 
-Als u op Android uw kaarten op een SD-kaart opslaat, is de meest waarschijnlijke oorzaak een defecte SD-kaart. U kunt:
+Als je op Android je kaarten op een SD-kaart opslaat, is de meest waarschijnlijke oorzaak een defecte SD-kaart. Je kunt:
 1. Verwijder alle gedownloade kaarten en download ze opnieuw naar de SD-kaart (werkt mogelijk niet meer).
 2. Verwijder alle gedownloade kaarten, selecteer Interne apparaatopslag en download de kaarten opnieuw.
 3. Formatteer de SD-kaart en download de kaarten opnieuw.

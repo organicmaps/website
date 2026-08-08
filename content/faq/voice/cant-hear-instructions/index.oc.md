@@ -12,15 +12,15 @@ aliases:
   - /oc/faq/voice/cant-hear-instructions/
 ---
 
-**Nòta:** las instruccions vocalas son disponiblas per las rotas en veitura e en bicicleta. Per ara, podètz ausir las instruccions vocalas sonque quand condusètz e quand l'ecran es alucat.
+**Nòta:** las instruccions vocalas son disponiblas per las rotas en veitura e en bicicleta. Per ara, pòdes ausir las instruccions vocalas sonque quand condusès e quand l'ecran es alucat.
 
-Se ausissètz pas las instruccions vocalas:
+Se ausisses pas las instruccions vocalas:
 
-* Verificatz que lo volum de vòstre aparelh siá pas mutat. Podètz cambiar lo nivèl de volum amb los botons de volum de vòstre aparelh. Per o far, benlèu caldrà desactivar l'opcion "Cambiar amb los botons" (s'es activada) dins los paramètres de l'aparelh → Sons.
+* Verifica que lo volum de ton aparelh siá pas mutat. Pòdes cambiar lo nivèl de volum amb los botons de volum de ton aparelh. Per o far, benlèu caldrà desactivar l'opcion "Cambiar amb los botons" (s'es activada) dins los paramètres de l'aparelh → Sons.
 
 * Mercé de senhalar tot problèma Bluetooth amb los detalhs necessaris sus nòstre [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* S'utilizatz Android e que l'opcion es desactivada (o que d'unas de las lengas suportadas son pas disponiblas), mercé de verificar los [parametres TTS](@/faq/voice/text-to-speech-android-tts/index.oc.md).
+* S'utilizas Android e que l'opcion es desactivada (o que d'unas de las lengas suportadas son pas disponiblas), mercé de verificar los [parametres TTS](@/faq/voice/text-to-speech-android-tts/index.oc.md).
 
 Sus Android, las instruccions vocalas son disponiblas en 39 lengas: Anglés, Arabe, Basc, Bielorus, Català, Chines (Simplificat e Tradicional), Croat, Tchec, Danés, Neerlandés, Finés, Francés, Alemand, Grèc, Hindi, Ongrés, Indonesian, Italian, Japonés, Corean, Maratí, Norvegian, Persan (Farsi), Polonés, Portugués, Portugués (Brasil), Romanés, Rus, Serb, Eslovac, Espanhòl, Espanhòl (Mexic), Swahili, Suedés, Thai, Turc, Ucrainés, Vietnamian.
 

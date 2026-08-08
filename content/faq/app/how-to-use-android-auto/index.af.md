@@ -12,6 +12,6 @@ aliases:
   - /af/faq/app/how-to-use-android-auto/
 ---
 
-Om OM met Android Auto te gebruik, benodig jy ten minste 'n Android-weergawe 8.0 (Oreo) of later. Boonop moet u Organic Maps van die Google Play Winkel aflaai, aangesien Google slegs Google-goedgekeurde toepassings op Android Auto toelaat.
+Om OM met Android Auto te gebruik, benodig jy ten minste 'n Android-weergawe 8.0 (Oreo) of later. Boonop moet jy Organic Maps van die Google Play Winkel aflaai, aangesien Google slegs Google-goedgekeurde toepassings op Android Auto toelaat.
 
 Gaan asseblief die [Android Auto-webwerf](https://www.android.com/auto/) na vir verdere besonderhede.

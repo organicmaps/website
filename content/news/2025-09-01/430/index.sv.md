@@ -7,7 +7,7 @@ taxonomies:
 
 Nu när du väljer en buss- eller spårvagnshållplats kan du se kollektivtrafikens linjenummer. Detta är bara första steget! Nästa steg är att visa kollektivtrafiklinjer direkt på kartan. iOS-användare kan också njuta av omdesignade OpenStreetMap-bidragsknappar ("Lägg till plats" och "Redigera plats").
 
-Vi är tacksamma ❤️ för våra bidragsgivare, samt för [era donationer](@/donate/index.sv.md) och [ert stöd](@/contribute/index.sv.md).
+Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/donate/index.sv.md) och [ditt stöd](@/contribute/index.sv.md).
 
 ### Detaljerade versionsanteckningar
 

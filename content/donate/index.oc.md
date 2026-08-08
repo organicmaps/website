@@ -1,13 +1,13 @@
 ---
-title: Donatz per sosténer lo desvolopament d’Organic Maps
-description: Vòstres donatius pagon totas las despensas del projècte e nos motivan a melhorar Organic Maps.
+title: Dona per sosténer lo desvolopament d’Organic Maps
+description: Tos donatius pagon totas las despensas del projècte e nos motivan a melhorar Organic Maps.
 weight: 10
 extra:
   menu_title: Donar
   preview_image: donate/donate.png
 ---
 
-L’aplicacion Organic Maps es _gratuita per totes_ gràcias a vòstres **[donatius][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+L’aplicacion Organic Maps es _gratuita per totes_ gràcias a tos **[donatius][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
 
 - Pas de publicitat
 - Pas de traçadors
@@ -15,7 +15,7 @@ L’aplicacion Organic Maps es _gratuita per totes_ gràcias a vòstres **[donat
 - Pas de notificacions push
 - Còdi font liure
 
-Clicatz sus l’icòna de vòstra metòde de pagament preferida çai jos:
+Clica sus l’icòna de ta metòde de pagament preferida çai jos:
 
 {{ donate_buttons() }}
 
@@ -23,7 +23,7 @@ Clicatz sus l’icòna de vòstra metòde de pagament preferida çai jos:
 
 1. Nòstre objectiu es de provesir una alternativa centrada sus la confidencialitat, rapida e aisida d’utilizar a Google Maps e Apple Maps.
 2. Melhorar las donadas publicas de mapas per los nombroses sites web, aplicacions e plataformas que utilizan OpenStreetMap, e implicar mai de monde dins la contribucion d’informacions de mapas es un autre objectiu.
-3. Dependèm de vòstres donatius per manténer Organic Maps dobèrt e gratuit per totes.
+3. Dependèm de tos donatius per manténer Organic Maps dobèrt e gratuit per totes.
    E sens publicitat.
 4. Aimam çò que fasèm, e aimam nòstres utilizaires ❤️.
 
@@ -45,11 +45,11 @@ Clicatz sus l’icòna de vòstra metòde de pagament preferida çai jos:
    - Ombra de relèu e terren 3D
    - Editor OpenStreetMap mai avançat
    - Melhor recèrca d’adreça hors linha, itinerari e navigacion
-   - … e [mai d’autras][github issues] foncionalitats que volètz e aimatz
+   - … e [mai d’autras][github issues] foncionalitats que vòles e aimas
 
 ## Cossí donar?
 
-Clicatz sus l’icòna de vòstra metòde de pagament preferida çai jos:
+Clica sus l’icòna de ta metòde de pagament preferida çai jos:
 
 {{ donate_buttons() }}
 
@@ -65,8 +65,8 @@ Mercé de considerar de donar annalament per redusir las taxas totalas.
 
 {{ crypto_table() }}
 
-## Podètz ajudar d’un autre biais?
+## Pòdes ajudar d’un autre biais?
 
-Òc! I a mantun biais de sosténer Organic Maps. Consultatz la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.
+Òc! I a mantun biais de sosténer Organic Maps. Consulta la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.
 
 {{ references() }}

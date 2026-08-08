@@ -41,7 +41,7 @@ Dit is dit, jy is nou deel van die OSM-gemeenskap.
 
 Sodra jy op *Laai op* druk, word jou veranderinge onmiddellik by die publieke OSM-databasis gevoeg. Wees dus bedagsaam wanneer jy redigeer. In Organic Maps sal jou veranderinge sigbaar wees na die volgende maandelikse kaartopdatering.
 
-Jou e-pos is nie gepubliseer nie, maar ander mense sal jou OSM-gebruikersnaam kan sien. Aangesien OSM die moontlikheid bied om veranderinge te bespreek, kan jy vrae oor jou wysigings van ander OSM-bydraers kry. U sal hieroor in kennis gestel word via die e-posadres wat u gebruik het om u OSM-rekening te registreer. Aangesien OSM 'n gemeenskapsprojek is wat op samewerking bou, moet jy altyd sulke vrae beantwoord.
+Jou e-pos is nie gepubliseer nie, maar ander mense sal jou OSM-gebruikersnaam kan sien. Aangesien OSM die moontlikheid bied om veranderinge te bespreek, kan jy vrae oor jou wysigings van ander OSM-bydraers kry. Jy sal hieroor in kennis gestel word via die e-posadres wat jy gebruik het om jou OSM-rekening te registreer. Aangesien OSM 'n gemeenskapsprojek is wat op samewerking bou, moet jy altyd sulke vrae beantwoord.
 
 ## Gemeenskap en Wiki
 

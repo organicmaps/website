@@ -9,11 +9,11 @@ title: "Organic Maps : escorregudas ciclistas, caminadas, itineraris e percors g
 
 **Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
 
-N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installatz Organic Maps, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
+N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installa Organic Maps, teledescarga de mapas, escampa ta carteta SIM (que, o sabes, ton operator t’es a l’après de lònga) e parte per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajudatz-nos](@/donate/index.oc.md) a créisser!
+> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajuda-nos](@/donate/index.oc.md) a créisser!
 
-### Teledescargatz e installatz Organic Maps de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
+### Teledescarga e installa Organic Maps de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -38,7 +38,7 @@ Organic Maps es l’aplicacion ultima per lei viatjaires, lei caminaires e lei c
 - Mapas de mètro
 - Recèrcas rapidas sus la mapa e fòra de linha
 - Marcas de libre e traças en formats KML, KMZ, GPX, GeoJSON
-- Mòde fosc per protegir vòstreis uelhs
+- Mòde fosc per protegir teis uelhs
 - Lei país e lei regions utilizan gaire d'espaci
 - Articles de Wikipèdia per luòcs populars
 - De còde liure e dobèrt
@@ -47,7 +47,7 @@ Organic Maps es l’aplicacion ultima per lei viatjaires, lei caminaires e lei c
 
 Organic Maps es pur e organic e mai o fasèm amb amor:
 
-- Respècta vòstra vida privada
+- Respècta ta vida privada
 - Esparnha la batariá
 - A pas besonh de cargar una quantitat de donadas inesperadas
 
@@ -72,7 +72,7 @@ The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps demanda pas de permissions excessivas per vos espiar:
+Organic Maps demanda pas de permissions excessivas per t’espiar:
 
 {{ privacy_screenshots() }}
 
@@ -80,7 +80,7 @@ En cò d'Organic Maps, cresèm que la vida privada es un drech uman fondamentau:
 
 - Organic Maps es un projècte independent, comunautari e dobèrt
 - Gardam la vida privada de cadun deis espiadors dei Grandei Tecnologias
-- Gardatz-vos sauves e segurs onte que vos trobètz
+- Garda-te sauve e segur onte que te tròbes
 
 Rebutar la susvelhança. Assegurar la libertat.
 
@@ -88,7 +88,7 @@ Rebutar la susvelhança. Assegurar la libertat.
 
 ## Cu paga per l'aplicacion a gratis?
 
-L'aplicacion es a gratis per totei. Se volètz [donar](@/donate/index.ca.md) per nos ajudar!
+L'aplicacion es a gratis per totei. Se vòles [donar](@/donate/index.ca.md) per nos ajudar!
 
 To donate conveniently, click on your preferred payment method icon below:
 
@@ -143,17 +143,17 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
 
 Organic Maps es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 
-- Rejonhètz nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
+- Rejonh nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
   - [Beta de iOS (TestFlight)][testflight]
   - [Beta de Android (Firebase)][firebase]
   - [Beta de PC Linux (Flatpak)][flatpak]
   - [Beta de PC Linux (paquets)][repology]
-- Senhalatz d'errors ò de dificultats per lo [seguidor d'errors][issues] ò [mandatz-nos un corrier electronic][email].
+- Senhala d'errors ò de dificultats per lo [seguidor d'errors][issues] ò [manda-nos un corrier electronic][email].
 - [Debatre][ideas] d'idèas ò prepausar de foncions.
-- Marcatz-vos a nòstre [canau Telegram][telegram] ò a l’ [espaci matritz][matrix] per èstre au corrent.
-- Rejonhètz nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei utilizators.
-- Visitatz nòstra [pagina GitHub][github].
-- Seguissètz lei noveutats sus [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
+- Marca-te a nòstre [canau Telegram][telegram] ò a l’ [espaci matritz][matrix] per èstre au corrent.
+- Rejonh nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei utilizators.
+- Visita nòstra [pagina GitHub][github].
+- Seguís lei noveutats sus [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

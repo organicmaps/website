@@ -1,13 +1,13 @@
 ---
-title: "Vejatz los Numèros de Rota a las Paradassas d'Autobús e Pus: Resalhs de l'Edicion de Setembre"
+title: "Vei los Numèros de Rota a las Paradassas d'Autobús e Pus: Resalhs de l'Edicion de Setembre"
 date: 2025-09-01T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Ara, quand seleccionatz una paradassa d'autobús o tram, veiretz los numèros de rota del transpòrt public. Aquò es sonque lo primièr pas! Aprèp, prevesèm de mostrar las rotas de transpòrt public dirèctament sus la mapa. Los utilizaires d'iOS pòdon tanben gauzir dels botons de contribucion OpenStreetMap tornats far ("Ajustar luòc" e "Editar luòc").
+Ara, quand selecciones una paradassa d'autobús o tram, veiràs los numèros de rota del transpòrt public. Aquò es sonque lo primièr pas! Aprèp, prevesèm de mostrar las rotas de transpòrt public dirèctament sus la mapa. Los utilizaires d'iOS pòdon tanben gauzir dels botons de contribucion OpenStreetMap tornats far ("Ajustar luòc" e "Editar luòc").
 
-Mercejam ❤️ a nòstres contribuidors, e tanben a [vòstras donacions](@/donate/index.oc.md) e [vòstre supòrt](@/contribute/index.oc.md).
+Mercejam ❤️ a nòstres contribuidors, e tanben a [tas donacions](@/donate/index.oc.md) e [ton supòrt](@/contribute/index.oc.md).
 
 ### Nòtas detalhadassas de la version
 
@@ -44,10 +44,10 @@ Mercejam ❤️ a nòstres contribuidors, e tanben a [vòstras donacions](@/dona
 - Òrdre original de las colors per defaut de marcapagina/pista restablit (Andrei Shkrob)
 - Boton "Anullar la recèrca" reparat quand s'editan las cosinas (Ansh Jain)
 
-Obtenètz la darrièra version de setembre d'Organic Maps de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obten la darrièra version de setembre d'Organic Maps de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Se l'avètz pas encara ensajat, ara podètz activar la foncion per veire los noms de marcapaginas sus la mapa dins los paramètres d'Organic Maps. E mai, l'icòna del gredon ✎ es ara un biais mai rapid per editar las marcapaginas.
+Se l'as pas encara ensajat, ara pòdes activar la foncion per veire los noms de marcapaginas sus la mapa dins los paramètres d'Organic Maps. E mai, l'icòna del gredon ✎ es ara un biais mai rapid per editar las marcapaginas.
 
-P.S. Oblidetz pas, podètz vos inscriure dins nòstre programa de tèst bèta per obténer un accès primièr a las foncions experimentalassas e futuras—[per iOS][testflight] e [per Android][firebase].
+P.S. Oblides pas, pòdes t'inscriure dins nòstre programa de tèst bèta per obténer un accès primièr a las foncions experimentalassas e futuras—[per iOS][testflight] e [per Android][firebase].
 
 {{ references() }}

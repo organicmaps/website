@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-Dins la version del 23 d'octobre, nos sèm concentrats sus las correccions e los melhoraments. Consultatz la lista detalhada çaijós.
+Dins la version del 23 d'octobre, nos sèm concentrats sus las correccions e los melhoraments. Consulta la lista detalhada çaijós.
 
 Per los que l'an mancat, la [mesa a jorn precedenta del 7 d'octobre](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) a apondut l'impòrt GeoJSON, las estadisticas d'enregistrament de traça, l'afichatge del limit de velocitat dins Android Auto, l'afichatge de las balisas de descripcion OSM (picatz `?description` dins la zòna de recèrca per las veire), la salvagarda d'un marcapagina sus una traça sus iOS e fòrça d'autres melhoraments.
+) a apondut l'impòrt GeoJSON, las estadisticas d'enregistrament de traça, l'afichatge del limit de velocitat dins Android Auto, l'afichatge de las balisas de descripcion OSM (pica `?description` dins la zòna de recèrca per las veire), la salvagarda d'un marcapagina sus una traça sus iOS e fòrça d'autres melhoraments.
 
 ## Totas las plataformas
 
@@ -32,7 +32,7 @@ Per los que l'an mancat, la [mesa a jorn precedenta del 7 d'octobre](https://org
 - Correccion de la barra d'estat blanc sus blanc en mòde navigacion (Kiryl Kaveryn)
 - Aumentacion de la talha del boton Aviar la navigacion (Kiryl Kaveryn)
 - Supression de l'espaci void en planejar un itinerari sus iPad (Kiryl Kaveryn)
-- Organic Maps pòt vos demandar de l'avaluar dins l'App Store. Vòstres bons avises motivan nòstra equipa !
+- Organic Maps pòt te demandar de l'avaluar dins l'App Store. Tos bons avises motivan nòstra equipa !
 
 ## Android
 
@@ -53,11 +53,11 @@ Per los que l'an mancat, la [mesa a jorn precedenta del 7 d'octobre](https://org
 
 ## Nòtas de bas de pagina
 
-Organic Maps es possible gràcias ❤️ a nòstres contributors, [vòstres dons](@/donate/index.oc.md) e [vòstre susten](@/contribute/index.oc.md).
+Organic Maps es possible gràcias ❤️ a nòstres contributors, [tos dons](@/donate/index.oc.md) e [ton susten](@/contribute/index.oc.md).
 
-Obtenètz la darrièra version d'Organic Maps dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obten la darrièra version d'Organic Maps dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-P.S. Rejoinissètz los tèsts bèta per las foncionalitats anticipadas :
+P.S. Rejoinís los tèsts bèta per las foncionalitats anticipadas :
 - [iOS][testflight]
 - [Android][firebase].
 

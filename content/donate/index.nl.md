@@ -1,5 +1,5 @@
 ---
-description: "Uw geld betaalt voor alle project-gerelateerde uitgaven en motiveert ons om Organic Maps te verbeteren."
+description: "Je geld betaalt voor alle project-gerelateerde uitgaven en motiveert ons om Organic Maps te verbeteren."
 extra:
   menu_title: Doneer
   preview_image: donate/donate.png
@@ -15,7 +15,7 @@ Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]**
 - Geen pushmeldingen
 - Open source
 
-Klik hieronder op het icoon van uw voorkeurs-betalingsmethode:
+Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
 
 {{ donate_buttons() }}
 
@@ -45,7 +45,7 @@ Klik hieronder op het icoon van uw voorkeurs-betalingsmethode:
 
 ## Hoe kan je doneren?
 
-Klik hieronder op het icoon van uw voorkeurs-betalingsmethode:
+Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
 
 {{ donate_buttons() }}
 
@@ -57,12 +57,12 @@ Terugkerende donaties zijn de beste manier om een relatief stabiel inkomen voor 
 
 ### Crypto
 
-Overweegt u alstublieft om jaarlijs te doneren om de totale kosten te reduceren.
+Overweeg alsjeblieft om jaarlijs te doneren om de totale kosten te reduceren.
 
 {{ crypto_table() }}
 
-## Kunt u ons op een andere manier helpen?
+## Kun je ons op een andere manier helpen?
 
-Ja! Er zijn vele manieren om Organic Maps te ondersteunen. Kijk alstublieft op de pagina [Steun ons](@/contribute/index.nl.md) voor meer details.
+Ja! Er zijn vele manieren om Organic Maps te ondersteunen. Kijk alsjeblieft op de pagina [Steun ons](@/contribute/index.nl.md) voor meer details.
 
 {{ references() }}

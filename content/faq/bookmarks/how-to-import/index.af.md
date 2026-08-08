@@ -27,4 +27,4 @@ Die invoer van boekmerke en snitte in bondel is ook moontlik:
 
 1. Maak Organic Maps oop en tik op sterknoppie om lys van boekmerke en snitte oop te maak. Druk "Voer boekmerke en snitte in" knoppie.
 
-2. Kies 'n vouer met KML-, KMZ-, KMB-, GPX-lêers. Organic Maps sal dit skandeer insluitend subgidse en alle ondersteunde lêers met boekmerke en snitte invoer. U kan die wortelgids kies om oor alle berging te soek.
+2. Kies 'n vouer met KML-, KMZ-, KMB-, GPX-lêers. Organic Maps sal dit skandeer insluitend subgidse en alle ondersteunde lêers met boekmerke en snitte invoer. Jy kan die wortelgids kies om oor alle berging te soek.

@@ -4,7 +4,9 @@ date: 2024-03-22T14:51:39+00:00
 slug: "lets-build-the-best-maps-app-together"
 ---
 
-בואו נבנה יחד את המפות הטובות ביותר ללא פרסומות, בקוד פתוח, עם דגש על פרטיות! הוספנו מטבעות ושיטות תשלום נוספות לדף התרומות שלנו (@/donate/index.he.md) כדי למזער את עמלות העסקה.
+### בואו נבנה יחד את המפות הטובות ביותר ללא פרסומות, בקוד פתוח, עם דגש על פרטיות!
+
+הוספנו מטבעות ושיטות תשלום נוספות ל[דף התרומות שלנו](@/donate/index.he.md) כדי למזער את עמלות העסקה.
 
 #### Visa, MasterCard, Apple Pay, Google Pay, PayPal:
 
@@ -13,14 +15,31 @@ slug: "lets-build-the-best-maps-app-together"
 * £ 💷 [לירה שטרלינג GBP](https://donate.organicmaps.app/?currency=gbp)
 * ₣ 🇨🇭 [פרנק שוויצרי CHF](https://donate.organicmaps.app/?currency=chf)
 
-#### העברה בנקאית S€PA 🇪🇺 עם עמלה של 0%: | | | |---|---|
+#### העברה בנקאית S€PA 🇪🇺 עם עמלה של 0%:
 
-SWIFT/BIC: | TRWIBEB1XXX IBAN: | BE39 9672 0031 0319 שם הבנק: | Wise כתובת הבנק: | Rue du Trône 100, קומה 3, בריסל, 1050, בלגיה ראה מטבעות אחרים [כאן](@/donate/index.he.md).
+|   |   |
+|---|---|
+SWIFT/BIC:      | TRWIBEB1XXX
+IBAN:           | BE39 9672 0031 0319
+שם הבנק:        | Wise
+כתובת הבנק:     | Rue du Trône 100, קומה 3, בריסל, 1050, בלגיה
+
+ראה מטבעות אחרים [כאן](@/donate/index.he.md).
 
 #### מטבעות קריפטוגרפיים:
 
+```
+BTC: bc1qjkq3tpy2gutsfdlcvys8slkempywk230u8rc8u
+ETH: 0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
+USDT+TRX: TNQGZwAUCpwy1cuVSyu1vc6AT19nsmWqRF
+```
 ראו רשתות נוספות [כאן](/he/donate/#crypto).
 
-#### תרומה באמצעות [Telegram](https://t.me/OrganicMapsApp/117) ---
+#### תרומה באמצעות [Telegram](https://t.me/OrganicMapsApp/117)
 
-התרומות שלכם מממנות את הפיתוח וההרחבה של Organic Maps, ומניעות מאוד את הצוות שלנו. לא ניתן היה לקיים פרויקט עם יותר מ[מיליון משתמשים](@/news/2023-12-23/281/index.he.md) ללא התמיכה שלכם! לא יכולים לתרום כרגע? בדקו [דרכים אחרות לתמוך בפרויקט](@/contribute/index.he.md), או הצטרפו לצוות התורמים שלנו!
+---
+
+התרומות שלכם מממנות את הפיתוח וההרחבה של Organic Maps, ומניעות מאוד את הצוות שלנו.
+לא ניתן היה לקיים פרויקט עם יותר מ[מיליון משתמשים](@/news/2023-12-23/281/index.he.md) ללא התמיכה שלכם!
+
+לא יכולים לתרום כרגע? בדקו [דרכים אחרות לתמוך בפרויקט](@/contribute/index.he.md), או הצטרפו לצוות התורמים שלנו!

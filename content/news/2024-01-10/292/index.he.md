@@ -6,4 +6,6 @@ taxonomies:
   news: ["גרסאות"]
 ---
 
-Android Auto סוף סוף [זמין ב-Google Play](https://play.google.com/store/apps/details?id=app.organicmaps). תודה רבה לצוות ולבוחני הבטא! נ.ב. אל תשכחו לעדכן את המפות לאחר עדכון האפליקציה כדי לראות את כל השיפורים ולמנוע בעיות בלתי צפויות.
+Android Auto סוף סוף [זמין ב-Google Play](https://play.google.com/store/apps/details?id=app.organicmaps). תודה רבה לצוות ולבוחני הבטא!
+
+נ.ב. אל תשכחו לעדכן את המפות לאחר עדכון האפליקציה כדי לראות את כל השיפורים ולמנוע בעיות בלתי צפויות.

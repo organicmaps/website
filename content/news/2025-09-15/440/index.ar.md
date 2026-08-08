@@ -52,7 +52,7 @@ taxonomies:
 - تقليل الارتفاع العمودي لمعاينة معلومات المكان (Alexander Borsuk)
 - إزالة زاوية السمت نحو الشمال من المعاينة (انقر السهم الأزرق مع المسافة) (Alexander Borsuk)
 
-احصل على أحدث إصدار: [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، [F-Droid][fdroid].
+احصل على أحدث إصدار من Organic Maps: [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، [F-Droid][fdroid].
 
 انضم للاختبار التجريبي: [iOS][testflight] / [Android][firebase].
 

@@ -6,4 +6,7 @@ taxonomies:
   news: ["עיתונות"]
 ---
 
-Organic Maps כעת מגבה ומסנכרן את כל הסימניות והמסלולים באמצעות iCloud! ניתן להשתמש בו גם ב-Mac עם מעבד Apple Silicon. קרא את המאמר בגרמנית: <https://www.ifun.de/organic-maps-jetzt-mit-icloud-auch-fuer-den-mac-empfehlenswert-233696/>
+Organic Maps כעת מגבה ומסנכרן את כל הסימניות והמסלולים באמצעות iCloud!
+ניתן להשתמש בו גם ב-Mac עם מעבד Apple Silicon.
+
+קרא את המאמר בגרמנית: <https://www.ifun.de/organic-maps-jetzt-mit-icloud-auch-fuer-den-mac-empfehlenswert-233696/>

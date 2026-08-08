@@ -44,7 +44,7 @@ taxonomies:
 - ترتيب ألوان العلامات المرجعية/المسارات المحددة مسبقاً الأصلي مستعاد (Andrei Shkrob)
 - زر "مسح البحث" مصحح عند تحرير المطابخ (Ansh Jain)
 
-احصل على أحدث إصدار سبتمبر من Organic Maps من [متجر التطبيقات][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid].
+احصل على أحدث إصدار سبتمبر من Organic Maps من [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid].
 
 إذا لم تجربه بعد، يمكنك الآن تمكين ميزة في إعدادات Organic Maps لرؤية أسماء العلامات المرجعية على الخريطة. بالإضافة إلى ذلك، أيقونة قلم رصاص ✎ تستخدم الآن كطريقة أسرع لتحرير العلامات المرجعية.
 

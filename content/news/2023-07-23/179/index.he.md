@@ -4,4 +4,5 @@ date: 2023-07-23T13:21:02+00:00
 slug: "read-about-1700km-5-months-4-major-south-african-rivers-solo-canoe-trip-with-organic-maps"
 ---
 
-קראו על מסע של כ-1700 ק"מ, 5 חודשים, 4 נהרות גדולים בדרום אפריקה, מסע קאנו סולו עם Organic Maps! <https://github.com/organicmaps/organicmaps/issues/4871>
+קראו על מסע של כ-1700 ק"מ, 5 חודשים, 4 נהרות גדולים בדרום אפריקה, מסע קאנו סולו עם Organic Maps!
+<https://github.com/organicmaps/organicmaps/issues/4871>

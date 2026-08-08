@@ -8,7 +8,7 @@ extra:
 
 Organic Maps respecte votre vie privée et NE VOUS ESPIONNE PAS.
 
-Unlike most other applications, in Organic Maps there is no tracking, no ads, no spyware: no collection of location or statistical or personal data from your device whatsoever.
+Contrairement à la plupart des autres applications, Organic Maps ne trace pas, ne contient pas de pubs ni de logiciels espions : aucune collecte de données de localisation, statistiques ou personnelles n'est effectuée à partir de ton appareil.
 
 Refusez la surveillance - adoptez votre liberté.
 

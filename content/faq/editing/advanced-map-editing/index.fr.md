@@ -30,7 +30,7 @@ Pour modifier OpenStreetMap avec ID, suis ces étapes :
 
 1. Crée un nouveau compte ou connecte-toi à [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Accède à l'emplacement que tu souhaites modifier sur OpenStreetMap.org et clique sur *Modifier* en haut.
-3. *Démarrez la procédure pas à pas* et suis le court didacticiel qui explique l'ID Editor.
+3. *Démarre la procédure pas à pas* et suis le court didacticiel qui explique l'ID Editor.
 4. Modifie la carte
 5. Télécharge tes modifications
 

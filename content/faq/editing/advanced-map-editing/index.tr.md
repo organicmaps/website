@@ -30,7 +30,7 @@ OpenStreetMap'i ID ile düzenlemek için şu adımları izle:
 
 1. Yeni bir hesap oluştur veya [OpenStreetMap.org](https://www.openstreetmap.org) adresinden oturum aç.
 2. OpenStreetMap.org'da düzenlemek istediğin konuma göz at ve üstteki *Düzenle* seçeneğine tıkla
-3. *İzlenecek Yolu başlatın* ve ID Editor'ü açıklayan kısa eğitimi izle
+3. *İzlenecek Yolu başlat* ve ID Editor'ü açıklayan kısa eğitimi izle
 4. Haritayı düzenle
 5. Değişikliklerini yükle
 

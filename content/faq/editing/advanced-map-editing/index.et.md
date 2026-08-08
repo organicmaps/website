@@ -31,7 +31,7 @@ ID-ga OpenStreetMapi redigeerimiseks toimi järgmiselt.
 
 1. Loo uus konto või logi sisse saidil [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Sirvi saidil OpenStreetMap.org asukohta, mida soovid muuta, ja klõpsa ülaosas nuppu *Muuda*
-3. *Alustage läbivaatust* ja järgi ID Editorit selgitavat lühikest õpetust
+3. *Alusta läbivaatust* ja järgi ID Editorit selgitavat lühikest õpetust
 4. Redigeeri kaarti
 5. Laadi oma muudatused üles
 

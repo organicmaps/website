@@ -31,7 +31,7 @@ I olygu OpenStreetMap ag ID dilyna'r camau hyn:
 
 1. Creu cyfrif newydd neu fewngofnodi yn [OpenStreetMap.org]( https://www.openstreetmap.org )
 2. Pora i'r lleoliad rwyt am ei olygu ar OpenStreetMap.org a chlicia ar *Golygu* ar y brig
-3. *Dechreuwch y Teithiau Cerdded* a dilyna'r tiwtorial byr sy'n esbonio'r ID Editor
+3. *Dechreua'r Teithiau Cerdded* a dilyna'r tiwtorial byr sy'n esbonio'r ID Editor
 4. Golygu'r map
 5. Llwytha dy newidiadau i fyny
 

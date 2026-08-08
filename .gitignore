@@ -1,7 +1,9 @@
 *~
 .DS_Store
+.deepl_glossaries.json
 node_modules
 public
 .idea/*
 .vscode/settings.json
 .venv
+__pycache__/

@@ -133,6 +133,11 @@ def _script(ch: str) -> str:
         name = unicodedata.name(ch).split()[0]
     except ValueError:
         return "?"
+    # Modifier letters belong to no alphabet. U+02BC MODIFIER LETTER
+    # APOSTROPHE is the correct Ukrainian apostrophe in "обʼїзду", and
+    # counting it as its own script made every such word look spliced.
+    if unicodedata.category(ch) == "Lm":
+        return "COMMON"
     return "CJK" if name.startswith(_CJK_PREFIXES) else name
 
 

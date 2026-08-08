@@ -48,7 +48,7 @@ Di seguito è riportato un elenco completo di diversi motori di sintesi vocale e
 
 Se hai problemi ad inizializzare il motore TTS di RHVoice su LineageOS o altre ROM personalizzate, prova questa soluzione. RHVoice potrebbe non inizializzarsi correttamente e l'applicazione potrebbe bloccarsi, soprattutto se non è mai stato usato un motore TTS sul telefono (ad esempio, in caso di nuova installazione, reset di fabbrica, ecc.). Se si utilizza una ROM personalizzata come ad es. LineageOS <ins>senza i servizi Google Play e Speech Services by Google</ins>, e si desidera utilizzare RHVoice come motore TTS preferito, seguire le istruzioni riportate di seguito come soluzione alternativa:
 
-1. Installare il motore [eSpeak TTS] (https://f-droid.org/en/packages/com.reecedunn.espeak) disponibile su F-Droid.
+1. Installare il motore [eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) disponibile su F-Droid.
 2. Impostarlo come motore TTS di sistema preferito
     - Aprire le **Impostazioni** principali di LineageOS.
     - Scorrere fino a **Accessibilità**.

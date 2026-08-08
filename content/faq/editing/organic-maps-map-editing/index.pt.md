@@ -13,7 +13,7 @@ aliases:
 
 Com o Organic Maps, você pode facilmente adicionar lugares ausentes ao mapa, adicionar detalhes adicionais, como horário de funcionamento, ou corrigir entradas erradas. Ao fazer isso, você melhora os dados do mapa para todos os usuários.
 
-Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) é a principal fonte de dados de mapas em Mapas Orgânicos, as edições que você faz são enviadas ao OSM. OSM é um projeto comunitário para construir um mapa gratuito e aberto. Funciona de forma semelhante à Wikipedia, então tudo que você edita fica disponível para milhões de usuários em todo o mundo. Junte-se à comunidade e ajude a fazer um mapa melhor para todos!
+Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) é a principal fonte de dados de mapas no Organic Maps, as edições que você faz são enviadas ao OSM. OSM é um projeto comunitário para construir um mapa gratuito e aberto. Funciona de forma semelhante à Wikipedia, então tudo que você edita fica disponível para milhões de usuários em todo o mundo. Junte-se à comunidade e ajude a fazer um mapa melhor para todos!
 
 **Para editar o OpenStreetMap a partir do seu aplicativo Organic Maps:**
 1. Crie uma conta em [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
@@ -32,4 +32,4 @@ Como [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- Adicione informações adicionais como nome, horário de funcionamento e site
 		- Salve suas alterações e saia usando a seta de verificação
 
-Note que o editor foi concebido como um simples editor de POI e, portanto, limitado a POIs. Você não pode, por exemplo, adicionar estradas, lagos, contornos de edifícios, etc. Além disso, não é possível mover locais para um novo local. Se você não consegue editar algo com mapas orgânicos, dê uma olhada na página [Edição mais avançada de mapas](@/faq/editing/advanced-map-editing/index.pt.md).
+Note que o editor foi concebido como um simples editor de POI e, portanto, limitado a POIs. Você não pode, por exemplo, adicionar estradas, lagos, contornos de edifícios, etc. Além disso, não é possível mover locais para um novo local. Se você não consegue editar algo com o Organic Maps, dê uma olhada na página [Edição mais avançada de mapas](@/faq/editing/advanced-map-editing/index.pt.md).

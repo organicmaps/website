@@ -23,7 +23,7 @@ Ar gyfer golygu OSM, mae yna sawl opsiwn. Os oes gennych liniadur neu gyfrifiadu
 
 Ar gyfer golygu mapiau datblygedig o ddyfais symudol, defnyddiwch [Go Map]( https://apps.apple.com/us/app/go-map/id592990211 ) ar gyfer iOS neu [Vespucci]( https://play.google.com/store/apps/details?id=de.blau.android) ar gyfer Android. Mae Go Map yn hawdd i ddechreuwyr, tra bod Vespucci yn targedu defnyddwyr mwy datblygedig. Mae LearnOSM yn darparu tiwtorialau ar gyfer [Go Map] ( https://learnosm.org/en/mobile-mapping/gomap/ ) a [Vespucci]( https://learnosm.org/en/mobile-mapping/vespucci/ ).
 
-Ar gyfer golygiadau symlach gyda mwy o hwyl, gallwch hefyd roi cynnig ar [Every Door app] (https://every-door.app/) ar gyfer iOS ac Android ac [ap StreetComplete](https://streetcomplete.app/) ar gyfer Android.
+Ar gyfer golygiadau symlach gyda mwy o hwyl, gallwch hefyd roi cynnig ar [Every Door app](https://every-door.app/) ar gyfer iOS ac Android ac [ap StreetComplete](https://streetcomplete.app/) ar gyfer Android.
 
 #### ID Editor
 

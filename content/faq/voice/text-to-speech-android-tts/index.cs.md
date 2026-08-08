@@ -54,7 +54,7 @@ Pokud máte potíže s inicializací enginu RHVoice TTS na LineageOS nebo jinýc
     - Přejděte dolů na **Přístupnost**.
     - Vyberte **výstup převodu textu na řeč** a **Preferovaný modul** (levá strana) a ujistěte se, že je vybrána možnost **eSpeak**.
 3. Vraťte se a stiskněte **přehrát**, abyste zjistili, zda to funguje
-4. Nainstalujte [RHVoice] (https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) dostupný na F-droid.
+4. Nainstalujte [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) dostupný na F-droid.
     - Otevřete jej, vyberte jazyk, který chcete použít, klepnutím na ikonu cloudu (zcela vlevo) stáhněte hlasy.
     - Stisknutím tlačítka přehrávání ověřte, zda funguje
 5. Nastavte **RHVoice** jako preferovaný motor (viz krok 2)

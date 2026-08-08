@@ -15,6 +15,6 @@ aliases:
 
 Pidage meeles, et kindlas piirkonnas koha otsimiseks peate alla laadima asjakohase kaardi ja suumima kaarti sellesse piirkonda või peaks teie asukoht olema selle piirkonna lähedal enne otsingu alustamist. Näiteks kui soovite leida kohta Vietnamis ja teie asukoht on kusagil mujal, peaksite esmalt alla laadima ja avama Vietnami kaardi või mainima otse otsinguväljal riigi (Vietnam) või soovitud linna/küla nime.
 
-Lisaks ei pruugi see koht olla veel saidil [OpenStreetMap.org] (https://www.openstreetmap.org/) kaardile lisatud. Kui soovite kaarti aidata ja täiustada, vaadake [seda juhendit](https://wiki.openstreetmap.org/wiki/Contribute_map_data) ja lisage ise puuduv kaarditeave.
+Lisaks ei pruugi see koht olla veel saidil [OpenStreetMap.org](https://www.openstreetmap.org/) kaardile lisatud. Kui soovite kaarti aidata ja täiustada, vaadake [seda juhendit](https://wiki.openstreetmap.org/wiki/Contribute_map_data) ja lisage ise puuduv kaarditeave.
 
 Kui koht kuvatakse Organic Mapsis kaardil, kuid meie otsing seda ei leia, [teavitage meid](mailto:support@organicmaps.app) koha koordinaadid ja otsingupäringu näide.

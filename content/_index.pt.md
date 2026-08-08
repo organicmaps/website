@@ -4,7 +4,7 @@ extra:
   menu_title: Início
 page_template: index.html
 sort_by: weight
-title: "Mapas orgânicos: caminhada, ciclismo, trilhos e navegação offline"
+title: "Organic Maps: caminhada, ciclismo, trilhos e navegação offline"
 ---
 
 **Organic Maps** é uma aplicação de mapas offline e GPS focada na privacidade para caminhadas, ciclismo e condução. Totalmente gratuita. Sem anúncios. Sem rastreamento. Desenvolvida com amor pela comunidade open-source e pelos fundadores da aplicação [**MapsWithMe**][mapswithme]/**Maps.Me**. Alimentada por dados do [OpenStreetMap][openstreetmap].

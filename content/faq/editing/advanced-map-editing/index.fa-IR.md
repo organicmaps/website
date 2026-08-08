@@ -15,15 +15,15 @@ aliases:
 
 Organic Maps شامل یک ویرایشگر ساده و کاربردی است که می توانید برای ویرایش نقشه از آن استفاده کنید. با این حال، ویرایشگر محدود است و فقط امکان اضافه کردن ویژگی‌های نقطه‌ای ساده را می‌دهد، به این معنی که هیچ طرح کلی ساختمان، جاده، دریاچه، شهر و غیره وجود ندارد. اگر می‌خواهید چیزی را تغییر دهید که با ویرایشگر داخلی قابل ویرایش نباشد، این صفحه سؤالات متداول مناسب برای خواندن است.
 
-از آنجایی که تمام داده های نقشه استفاده شده در Organic Maps از [OpenStreetMap.org (OSM)] (https://www.openstreetmap.org) می آیند، می توانید مستقیماً نقشه را در آنجا به روز کنید. سپس تغییرات شما با به‌روزرسانی نقشه بعدی در Organic Maps گنجانده می‌شود.
+از آنجایی که تمام داده های نقشه استفاده شده در Organic Maps از [OpenStreetMap.org (OSM)](https://www.openstreetmap.org) می آیند، می توانید مستقیماً نقشه را در آنجا به روز کنید. سپس تغییرات شما با به‌روزرسانی نقشه بعدی در Organic Maps گنجانده می‌شود.
 
 ## ویرایشگر OpenStreetMap
 
-برای ویرایش OSM، چندین گزینه وجود دارد. اگر لپ تاپ یا رایانه رومیزی در دسترس دارید، بهتر است از [ID Editor] (https://www.openstreetmap.org/edit) که در مرورگر شما اجرا می شود استفاده کنید. ID Editor برای مبتدیان آسان است و صفحه نمایش بزرگتر، ماوس و صفحه کلید ویرایش نقشه را آسان تر می کند.
+برای ویرایش OSM، چندین گزینه وجود دارد. اگر لپ تاپ یا رایانه رومیزی در دسترس دارید، بهتر است از [ID Editor](https://www.openstreetmap.org/edit) که در مرورگر شما اجرا می شود استفاده کنید. ID Editor برای مبتدیان آسان است و صفحه نمایش بزرگتر، ماوس و صفحه کلید ویرایش نقشه را آسان تر می کند.
 
-برای ویرایش پیشرفته نقشه از دستگاه همراه، از [Go Map](https://apps.apple.com/us/app/go-map/id592990211) برای iOS یا [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) برای Android استفاده کنید. Go Map برای مبتدیان آسان است، در حالی که Vespucci کاربران پیشرفته تر را هدف قرار می دهد. LearnOSM آموزش‌هایی را برای [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) و [Vespucci] (https://learnosm.org/en/mobile-mapping/vespucci/) ارائه می‌کند.
+برای ویرایش پیشرفته نقشه از دستگاه همراه، از [Go Map](https://apps.apple.com/us/app/go-map/id592990211) برای iOS یا [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) برای Android استفاده کنید. Go Map برای مبتدیان آسان است، در حالی که Vespucci کاربران پیشرفته تر را هدف قرار می دهد. LearnOSM آموزش‌هایی را برای [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) و [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/) ارائه می‌کند.
 
-برای ویرایش‌های ساده‌تر و سرگرم‌کننده‌تر، می‌توانید [برنامه هر در] (https://every-door.app/) را برای iOS و Android و [برنامه StreetComplete] (https://streetcomplete.app/) را برای Android نیز امتحان کنید.
+برای ویرایش‌های ساده‌تر و سرگرم‌کننده‌تر، می‌توانید [برنامه هر در](https://every-door.app/) را برای iOS و Android و [برنامه StreetComplete](https://streetcomplete.app/) را برای Android نیز امتحان کنید.
 
 #### ID Editor
 
@@ -45,7 +45,7 @@ Organic Maps شامل یک ویرایشگر ساده و کاربردی است ک
 
 ## انجمن و ویکی
 
-OpenStreetMap یک انجمن است. اگر به کمک نیاز دارید یا سؤالی دارید می‌توانید در [تالار گفتمان OSM] (https://community.openstreetmap.org/c/help-and-support) بپرسید یا نگاهی به مستندات [OSM Wiki] (https://wiki.openstreetmap.org/) بیندازید.
+OpenStreetMap یک انجمن است. اگر به کمک نیاز دارید یا سؤالی دارید می‌توانید در [تالار گفتمان OSM](https://community.openstreetmap.org/c/help-and-support) بپرسید یا نگاهی به مستندات [OSM Wiki](https://wiki.openstreetmap.org/) بیندازید.
 
 ## برچسب - مدل داده OSM چگونه کار می کند
 
@@ -63,7 +63,7 @@ OpenStreetMap یک انجمن است. اگر به کمک نیاز دارید ی�
 
 1. یک حساب کاربری جدید ایجاد کنید یا در [OpenStreetMap.org] وارد شوید (https://www.openstreetmap.org)
    > همچنین می‌توانید یادداشت‌های ناشناس را باز کنید، اما این کار توصیه نمی‌شود، زیرا وقتی مشکل حل شد یا سؤالات دیگری وجود داشت به شما اطلاع داده نمی‌شود.
-2. روی مکان نقشه در [OpenStreetMap.org] (https://www.openstreetmap.org) زوم کنید و *Add a note to the map* (نماد دوم از پایین در منوی سمت راست) را فشار دهید. سپس نشانگر نقشه آبی را به محل دقیق بکشید.
+2. روی مکان نقشه در [OpenStreetMap.org](https://www.openstreetmap.org) زوم کنید و *Add a note to the map* (نماد دوم از پایین در منوی سمت راست) را فشار دهید. سپس نشانگر نقشه آبی را به محل دقیق بکشید.
    > سعی کنید تا جایی که می توانید دقیق باشید.
 3. شرح مفصلی از مشکل نقشه ارائه دهید و *افزودن یادداشت* را فشار دهید
    > برای مغازه ها به عنوان مثال نام را ارائه دهید و آنچه را که در آنجا فروخته می شود یا خدمات ارائه شده را ذکر کنید.

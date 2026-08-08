@@ -23,7 +23,7 @@ Clique no ícone do seu método de pagamento preferido abaixo:
 
 1. O nosso objetivo é fornecer uma alternativa ao Google Maps e ao Apple Maps centrada na privacidade, rápida e fácil de utilizar.
 2. Melhorar os dados de mapas públicos para os inúmeros sítios web, aplicações e plataformas que utilizam o OpenStreetMap e envolver mais pessoas na contribuição de informações de mapas é outro dos nossos objetivos.
-3. Contamos com os vossos donativos para levar a cabo a nossa missão de manter os Mapas Orgânicos abertos e livres. E livre de anúncios.
+3. Contamos com os vossos donativos para levar a cabo a nossa missão de manter o Organic Maps aberto e livre. E livre de anúncios.
 4. Adoramos o que fazemos e adoramos os nossos utilizadores ❤️.
 
 ## Porque é que um projeto gratuito precisa de dinheiro?

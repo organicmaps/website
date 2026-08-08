@@ -63,7 +63,7 @@ Pokud nemáte čas nebo je problém příliš komplikovaný na to, abyste si dat
 
 1. Vytvořte si nový účet nebo se přihlaste na [OpenStreetMap.org](https://www.openstreetmap.org)
    > Můžete také otevřít anonymní poznámky, ale to se nedoporučuje, protože nebudete informováni, když je problém vyřešen nebo existují další otázky.
-2. Přibližte umístění mapy na [OpenStreetMap.org] (https://www.openstreetmap.org) a stiskněte *Přidat poznámku do mapy* (druhá ikona zespodu v pravé nabídce). Poté přetáhněte modrou značku na mapě na přesné místo.
+2. Přibližte umístění mapy na [OpenStreetMap.org](https://www.openstreetmap.org) a stiskněte *Přidat poznámku do mapy* (druhá ikona zespodu v pravé nabídce). Poté přetáhněte modrou značku na mapě na přesné místo.
    > Snažte se být co nejpřesnější.
 3. Uveďte podrobný popis problému s mapou a stiskněte *Přidat poznámku*
    > Pro obchody např. uveďte název a uveďte, co se tam prodává nebo jaké služby jsou nabízeny.

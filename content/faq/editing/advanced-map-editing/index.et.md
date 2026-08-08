@@ -15,13 +15,13 @@ aliases:
 
 Organic Maps sisaldab lihtsat ja hõlpsasti kasutatavat redaktorit, mida saate kasutada kaardi muutmiseks. Redaktor on aga piiratud ja võimaldab lisada ainult lihtsaid punktifunktsioone, mis tähendab, et puuduvad hoonekontuurid, teed, järved, linnad jne. Kui soovite muuta midagi, mida sisseehitatud redaktoriga muuta ei saa, on see lugemiseks õige KKK leht.
 
-Kuna kõik Organic Mapsis kasutatavad kaardiandmed pärinevad saidilt [OpenStreetMap.org (OSM)] (https://www.openstreetmap.org), saate seal kaarti otse värskendada. Seejärel kaasatakse teie muudatused järgmise kaardivärskendusega Organic Mapsisse.
+Kuna kõik Organic Mapsis kasutatavad kaardiandmed pärinevad saidilt [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), saate seal kaarti otse värskendada. Seejärel kaasatakse teie muudatused järgmise kaardivärskendusega Organic Mapsisse.
 
 ## OpenStreetMapi redaktorid
 
 OSM-i redigeerimiseks on mitu võimalust. Kui teil on käepärast sülearvuti või lauaarvuti, on parem kasutada brauseris töötavat [ID Editorit](https://www.openstreetmap.org/edit). ID Editor on algajatele lihtne ning suurem ekraan, hiir ja klaviatuur muudavad kaardi redigeerimise lihtsamaks.
 
-Mobiilseadmest kaardi täpsemaks muutmiseks kasutage iOS-i jaoks rakendust [Go Map](https://apps.apple.com/us/app/go-map/id592990211) või Androidi jaoks [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android). Go Map on algajatele lihtne, samas kui Vespucci on suunatud kogenumatele kasutajatele. LearnOSM pakub õpetusi [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) ja [Vespucci] (https://learnosm.org/en/mobile-mapping/vespucci/) jaoks.
+Mobiilseadmest kaardi täpsemaks muutmiseks kasutage iOS-i jaoks rakendust [Go Map](https://apps.apple.com/us/app/go-map/id592990211) või Androidi jaoks [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android). Go Map on algajatele lihtne, samas kui Vespucci on suunatud kogenumatele kasutajatele. LearnOSM pakub õpetusi [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) ja [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/) jaoks.
 
 Lihtsamaks ja lõbusamaks muutmiseks võite proovida ka rakendust [Every Door](https://every-door.app/) iOS-i ja Androidi jaoks ning rakendust [StreetComplete](https://streetcomplete.app/) Androidi jaoks.
 
@@ -63,7 +63,7 @@ Kui teil pole aega või probleem on liiga keeruline, et ise OSM-i andmeid redige
 
 1. Looge uus konto või logige sisse saidil [OpenStreetMap.org](https://www.openstreetmap.org)
    > Saate avada ka anonüümseid märkmeid, kuid see pole soovitatav, kuna te ei saa probleemi lahendamisest või lisaküsimuste tekkimisest teavitust.
-2. Suumige kaardil olevale asukohale saidil [OpenStreetMap.org] (https://www.openstreetmap.org) ja vajutage nuppu *Lisa kaardile märge* (parempoolses menüüs allservas teine ​​ikoon). Seejärel lohistage sinine kaardimarker täpsesse asukohta.
+2. Suumige kaardil olevale asukohale saidil [OpenStreetMap.org](https://www.openstreetmap.org) ja vajutage nuppu *Lisa kaardile märge* (parempoolses menüüs allservas teine ​​ikoon). Seejärel lohistage sinine kaardimarker täpsesse asukohta.
    > Proovige olla nii täpne kui võimalik.
 3. Esitage kaardiprobleemi üksikasjalik kirjeldus ja vajutage *Lisa märkus*
    > Kauplustele nt. nimetage nimi ja mainige, mida seal müüakse või milliseid teenuseid pakutakse.

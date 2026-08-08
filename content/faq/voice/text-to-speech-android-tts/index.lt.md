@@ -48,13 +48,13 @@ Minėtos parinktys gali nebūti rodomos, jei jūsų įrenginyje dar neįdiegta T
 
 Jei kyla problemų inicijuojant RHVoice TTS variklį LineageOS ar kituose tinkintuose ROM, išbandykite šį sprendimą. „RHVoice“ gali netinkamai inicijuoti ir programa gali sugesti, ypač jei anksčiau savo telefone nenaudojote jokio TTS variklio (pvz., naujai įdiegėte, atkūrėte gamyklinius nustatymus ir pan.). Jei naudojate tinkintą ROM, pvz., „LineageOS“, <ins>be „Google Play“ paslaugų ir „Google“ kalbėjimo paslaugų</ins> ir norite naudoti „RHVoice“ kaip pageidaujamą TTS variklį, vadovaukitės toliau pateiktomis instrukcijomis.
 
-1. Įdiekite [eSpeak TTS modulį] (https://f-droid.org/en/packages/com.reecedunn.espeak), pasiekiamą F-Droid
+1. Įdiekite [eSpeak TTS modulį](https://f-droid.org/en/packages/com.reecedunn.espeak), pasiekiamą F-Droid
 2. Nustatykite jį kaip pageidaujamą sistemos variklį
     - Eikite į pagrindinį „LineageOS“ **Nustatymai**.
     - Slinkite žemyn iki **Prieinamumas**.
     – Pasirinkite **teksto į kalbą išvestis** ir **Preferred engine** (kairėje pusėje) ir įsitikinkite, kad pasirinkta **eSpeak**.
 3. Grįžkite atgal ir paspauskite **play**, kad pamatytumėte, ar jis veikia
-4. Įdiekite [RHVoice] (https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), pasiekiamą F-droid.
+4. Įdiekite [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), pasiekiamą F-droid.
     - Atidarykite jį, pasirinkite kalbą, kurią norite naudoti, bakstelėkite debesies piktogramą (kairėje), kad atsisiųstumėte balsus.
     - Paspauskite paleidimo mygtuką, kad patikrintumėte, ar jis veikia
 5. Nustatykite **RHVoice** kaip pageidaujamą variklį (žr. 2 veiksmą)

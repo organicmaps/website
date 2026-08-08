@@ -17,4 +17,4 @@ Cofiwch, i chwilio am le mewn ardal benodol, bydd angen i chi lawrlwytho map per
 
 Yn ogystal, efallai nad yw’r lle wedi’i ychwanegu at y map eto yn [OpenStreetMap.org]( https://www.openstreetmap.org/ ). Os ydych chi eisiau helpu a gwella'r map, gwiriwch [y canllaw hwn](https://wiki.openstreetmap.org/wiki/Contribute_map_data) ac ychwanegu gwybodaeth map coll eich hun.
 
-Os dangosir y lle ar y map yn Organic Maps, ond ni all ein chwiliad ddod o hyd iddo, [rhowch wybod i ni] (mailto:support@organicmaps.app) cyfesurynnau'r lle ac enghraifft o'ch cais am chwiliad.
+Os dangosir y lle ar y map yn Organic Maps, ond ni all ein chwiliad ddod o hyd iddo, [rhowch wybod i ni](mailto:support@organicmaps.app) cyfesurynnau'r lle ac enghraifft o'ch cais am chwiliad.

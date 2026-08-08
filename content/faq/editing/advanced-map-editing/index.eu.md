@@ -21,7 +21,7 @@ Organic Maps-en erabiltzen diren mapa-datu guztiak [OpenStreetMap.org (OSM)](htt
 
 OSM editatzeko, hainbat aukera daude. Eskuartean ordenagailu eramangarri bat edo mahaigaineko ordenagailu bat baduzu, hobe da zure arakatzailean exekutatzen den [ID Editor](https://www.openstreetmap.org/edit) erabiltzea. ID Editor erraza da hasiberrientzat, eta pantaila, sagua eta teklatu handiagoak mapak editatzea errazten du.
 
-Gailu mugikor batetik mapak editatzeko, erabili [Go Map](https://apps.apple.com/us/app/go-map/id592990211) iOSerako edo [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) Androiderako. Go Map erraza da hasiberrientzat, Vespucci erabiltzaile aurreratuagoentzat zuzenduta dagoen bitartean. LearnOSM-k [Go Map] (https://learnosm.org/en/mobile-mapping/gomap/) eta [Vespucci] (https://learnosm.org/en/mobile-mapping/vespucci/) tutorialak eskaintzen ditu.
+Gailu mugikor batetik mapak editatzeko, erabili [Go Map](https://apps.apple.com/us/app/go-map/id592990211) iOSerako edo [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) Androiderako. Go Map erraza da hasiberrientzat, Vespucci erabiltzaile aurreratuagoentzat zuzenduta dagoen bitartean. LearnOSM-k [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) eta [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/) tutorialak eskaintzen ditu.
 
 Dibertigarriagoa eta errazagoa den edizioetarako, [Every Door aplikazioa](https://every-door.app/) iOS eta Androiderako eta [StreetComplete aplikazioa](https://streetcomplete.app/) Androiderako ere proba dezakezu.
 

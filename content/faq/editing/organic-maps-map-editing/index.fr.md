@@ -29,8 +29,8 @@ Avec Organic Maps, vous pouvez facilement ajouter des lieux manquants à la cart
 		- icône de hamburger -> *Ajouter un lieu à OpenStreetMap*
 		- Sélectionnez l'emplacement aussi précisément que possible et appuyez sur la flèche de vérification
 		- Sélectionnez une catégorie
-			> Vous ne trouvez pas de catégorie qui vous convient ? Créez ensuite une [Note OSM] (@/faq/editing/advanced-map-editing/index.fr.md#osm-note).
+			> Vous ne trouvez pas de catégorie qui vous convient ? Créez ensuite une [Note OSM](@/faq/editing/advanced-map-editing/index.fr.md#osm-note).
 		- Ajoutez des informations supplémentaires telles que le nom, les heures d'ouverture et le site Web
 		- Enregistrez vos modifications et quittez en utilisant la flèche de vérification
 
-Notez que l'éditeur est conçu comme un simple éditeur de POI et, par conséquent, limité aux POI. Vous ne pouvez par exemple pas ajouter de routes, de lacs, de contours de bâtiments, etc. De plus, déplacer des lieux vers un nouvel emplacement n'est pas possible. Si vous ne pouvez pas modifier quelque chose avec Organic Maps, jetez un œil à la page [Édition de carte plus avancée] (@/faq/editing/advanced-map-editing/index.fr.md).
+Notez que l'éditeur est conçu comme un simple éditeur de POI et, par conséquent, limité aux POI. Vous ne pouvez par exemple pas ajouter de routes, de lacs, de contours de bâtiments, etc. De plus, déplacer des lieux vers un nouvel emplacement n'est pas possible. Si vous ne pouvez pas modifier quelque chose avec Organic Maps, jetez un œil à la page [Édition de carte plus avancée](@/faq/editing/advanced-map-editing/index.fr.md).

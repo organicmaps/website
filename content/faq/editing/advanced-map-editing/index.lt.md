@@ -19,11 +19,11 @@ Kadangi visi Organic Maps programėlėje naudojami žemėlapio duomenys gaunami 
 
 ## OpenStreetMap redaktoriai
 
-OSM redagavimui yra keletas parinkčių. Jei po ranka turite nešiojamąjį ar stalinį kompiuterį, geriau naudokite [ID Editor] (https://www.openstreetmap.org/edit), kuris veikia jūsų naršyklėje. ID Editor yra paprastas pradedantiesiems, o didesnis ekranas, pelė ir klaviatūra palengvina žemėlapio redagavimą.
+OSM redagavimui yra keletas parinkčių. Jei po ranka turite nešiojamąjį ar stalinį kompiuterį, geriau naudokite [ID Editor](https://www.openstreetmap.org/edit), kuris veikia jūsų naršyklėje. ID Editor yra paprastas pradedantiesiems, o didesnis ekranas, pelė ir klaviatūra palengvina žemėlapio redagavimą.
 
 Jei norite išplėsti žemėlapio redagavimą mobiliajame įrenginyje, naudokite [Go Map](https://apps.apple.com/us/app/go-map/id592990211), skirtą „iOS“, arba [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android), skirtą „Android“. „Go Map“ yra lengvas pradedantiesiems, o „Vespucci“ skirtas labiau pažengusiems vartotojams. LearnOSM teikia mokymo programas, skirtas [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) ir [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
-Jei norite paprastesnio ir smagiau redagavimo, taip pat galite išbandyti [Every Door programą] (https://every-door.app/), skirtą „iOS“ ir „Android“, ir [programėlę „StreetComplete“](https://streetcomplete.app/), skirtą „Android“.
+Jei norite paprastesnio ir smagiau redagavimo, taip pat galite išbandyti [Every Door programą](https://every-door.app/), skirtą „iOS“ ir „Android“, ir [programėlę „StreetComplete“](https://streetcomplete.app/), skirtą „Android“.
 
 #### ID Editor
 
@@ -45,7 +45,7 @@ Jūsų el. paštas neskelbiamas, bet kiti žmonės galės matyti jūsų OSM vart
 
 ## Bendruomenė ir Wiki
 
-OpenStreetMap yra bendruomenė. Jei jums reikia pagalbos arba turite klausimų, galite užduoti [OSM forume] (https://community.openstreetmap.org/c/help-and-support) arba peržiūrėti [OSM Wiki] (https://wiki.openstreetmap.org/) dokumentaciją.
+OpenStreetMap yra bendruomenė. Jei jums reikia pagalbos arba turite klausimų, galite užduoti [OSM forume](https://community.openstreetmap.org/c/help-and-support) arba peržiūrėti [OSM Wiki](https://wiki.openstreetmap.org/) dokumentaciją.
 
 ## Žymos – kaip veikia OSM duomenų modelis
 
@@ -63,7 +63,7 @@ Jei neturite laiko arba problema per daug sudėtinga, kad galėtumėte patys red
 
 1. Sukurkite naują paskyrą arba prisijunkite adresu [OpenStreetMap.org](https://www.openstreetmap.org)
    > Taip pat galite atidaryti anoniminius užrašus, bet tai nerekomenduojama, nes negausite pranešimo, kai problema bus išspręsta arba kils daugiau klausimų.
-2. Padidinkite žemėlapio vietą [OpenStreetMap.org] (https://www.openstreetmap.org) ir paspauskite *Pridėti pastabą į žemėlapį* (antra piktograma iš apačios dešiniajame meniu). Tada vilkite mėlyną žemėlapio žymeklį į tikslią vietą.
+2. Padidinkite žemėlapio vietą [OpenStreetMap.org](https://www.openstreetmap.org) ir paspauskite *Pridėti pastabą į žemėlapį* (antra piktograma iš apačios dešiniajame meniu). Tada vilkite mėlyną žemėlapio žymeklį į tikslią vietą.
    > Stenkitės būti kuo tikslesni.
 3. Pateikite išsamų žemėlapio problemos aprašymą ir paspauskite *Pridėti pastabą*
    > Parduotuvėms pvz. nurodykite pavadinimą ir paminėkite, kas ten parduodama ar kokios paslaugos siūlomos.

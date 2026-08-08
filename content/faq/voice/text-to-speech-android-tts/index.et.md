@@ -54,7 +54,7 @@ Kui teil on probleeme RHVoice TTS-mootori käivitamisega LineageOS-is või muude
     - Kerige alla jaotiseni **Juurdepääsetavus**.
     - Valige **kõnesünteesi väljund** ja **Eelistatud mootor** (vasakul) ning veenduge, et valitud on **eSpeak**.
 3. Minge tagasi ja vajutage **esita**, et näha, kas see töötab
-4. Installige [RHVoice] (https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), mis on saadaval F-droidis.
+4. Installige [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), mis on saadaval F-droidis.
     - Avage see, valige keel, mida soovite kasutada, puudutage häälte allalaadimiseks pilvikooni (vasakul).
     - Vajutage esitusnuppu, et kontrollida, kas see töötab
 5. Määrake eelistatud mootoriks **RHVoice** (vt 2. sammu)

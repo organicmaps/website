@@ -15,7 +15,7 @@ aliases:
 
 Az Organic Maps a rendszer text-to-speech (TTS) motorját használja hangutasításokhoz. Az alapértelmezett motorok eszközönként változnak. A lehetőségek között szerepelhet a Google Text-to Speech, az eszközgyártó motorja vagy egy harmadik fél motorja.
 
-Az Organic Maps hivatalos ajánlása az [RHVoice](https://rhvoice.org/), amely egy ingyenes és nyílt forráskódú beszédmotor, amely letölthető a [Google Playről] (https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) és [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+Az Organic Maps hivatalos ajánlása az [RHVoice](https://rhvoice.org/), amely egy ingyenes és nyílt forráskódú beszédmotor, amely letölthető a [Google Playről](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) és [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Útmutató
 
@@ -48,7 +48,7 @@ Az alábbiakban egy átfogó lista több motort és az általuk támogatott nyel
 
 Ha problémái vannak az RHVoice TTS motor inicializálásával LineageOS-en vagy más egyéni ROM-okon, próbálkozzon ezzel a megoldással. Előfordulhat, hogy az RHVoice nem inicializálódik megfelelően, és az alkalmazás összeomolhat, különösen, ha korábban nem használt TTS-motort a telefonon (pl. új telepítés, gyári beállítások visszaállítása stb.). Ha egyéni ROM-ot, például LineageOS-t használ <ins>a Google Play-szolgáltatások és a Google beszédszolgáltatásai nélkül</ins>, és az RHVoice-ot szeretné előnyben részesített TTS-motorként használni, megoldásként kövesse az alábbi utasításokat:
 
-1. Telepítse az F-Droidon elérhető [eSpeak TTS motort] (https://f-droid.org/en/packages/com.reecedunn.espeak)
+1. Telepítse az F-Droidon elérhető [eSpeak TTS motort](https://f-droid.org/en/packages/com.reecedunn.espeak)
 2. Állítsa be preferált rendszermotorként
     - Nyissa meg a LineageOS fő **Beállítások** részét.
     - Görgessen le a **Kisegítő lehetőségek** részhez.

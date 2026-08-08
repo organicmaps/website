@@ -47,7 +47,7 @@ Poniżej znajduje się obszerna lista pokazująca kilka silników i obsługiwane
 
 Jeśli masz problemy z inicjalizacją silnika RHVoice TTS w systemie LineageOS lub innych niestandardowych pamięciach ROM, wypróbuj to obejście. RHVoice może nie zostać poprawnie zainicjowany, a aplikacja może ulec awarii, szczególnie jeśli nie korzystałeś wcześniej z żadnego silnika TTS w telefonie (np. nowa instalacja, reset do ustawień fabrycznych itp.). Jeśli używasz niestandardowej pamięci ROM, takiej jak LineageOS <ins>bez usług Google Play i usług mowy Google</ins>, i chcesz używać RHVoice jako preferowanego silnika TTS, wykonaj poniższe instrukcje jako obejście:
 
-1. Zainstaluj [silnik eSpeak TTS] (https://f-droid.org/en/packages/com.reecedunn.espeak) dostępny na F-Droid
+1. Zainstaluj [silnik eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) dostępny na F-Droid
 2. Ustaw go jako preferowany silnik systemowy
     - Przejdź do głównych **Ustawień** LineageOS.
     - Przewiń w dół do **Dostępność**.

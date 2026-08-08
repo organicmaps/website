@@ -18,7 +18,7 @@ Como todos los datos de mapas utilizados en Organic Maps provienen de [OpenStree
 
 ## Editores de OpenStreetMap
 
-Para editar OSM, existen varias opciones. Si tiene una computadora portátil o de escritorio a mano, es mejor usar el [ID Editor] (https://www.openstreetmap.org/edit) que se ejecuta en su navegador. El ID Editor es fácil para principiantes y una pantalla, un mouse y un teclado más grandes facilitan la edición de mapas.
+Para editar OSM, existen varias opciones. Si tiene una computadora portátil o de escritorio a mano, es mejor usar el [ID Editor](https://www.openstreetmap.org/edit) que se ejecuta en su navegador. El ID Editor es fácil para principiantes y una pantalla, un mouse y un teclado más grandes facilitan la edición de mapas.
 
 Para la edición avanzada de mapas desde un dispositivo móvil, utilice [Go Map](https://apps.apple.com/us/app/go-map/id592990211) para iOS o [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) para Android. Go Map es fácil para principiantes, mientras que Vespucci está dirigido a usuarios más avanzados. LearnOSM proporciona tutoriales para [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) y [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 

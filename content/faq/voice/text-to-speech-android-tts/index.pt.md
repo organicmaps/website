@@ -22,7 +22,7 @@ A recomendação oficial do Organic Maps é [RHVoice](https://rhvoice.org/), que
 - Selecione Configurações adicionais e selecione Acessibilidade
 - Escolha seu mecanismo, velocidade de fala e tom preferidos
 - **Reinicie o aplicativo Organic Maps**
-- Abra Configurações => Instruções de voz em mapas orgânicos e configure-o
+- Abra Configurações => Instruções de voz no Organic Maps e configure-o
 - Reinicie o aplicativo Organic Maps novamente (ou reinicie o dispositivo) se a voz não estiver funcionando
 
 Se você não conseguir encontrar a configuração relevante, abra o aplicativo de configurações e pesquise Text-to-speech.
@@ -37,7 +37,7 @@ Essas opções podem não aparecer se você ainda não tiver um TTS instalado no
 | ----------- | ----------- |
 ![Configurações](tts_config_1.png "Configurações") | ![Acessibilidade](tts_config_2.png "Acessibilidade")
 
-## Motores {#motores}
+## Motores {#engines}
 
 Abaixo está uma lista abrangente mostrando vários mecanismos e os idiomas que eles suportam (links para download podem ser encontrados após a tabela):
 

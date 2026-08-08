@@ -1,7 +1,7 @@
 ---
 title: كيف يمكنني استخدام إصدار flatpak من التطبيق؟
 slug: كيف-يمكنني-استخدام-إصدار-flatpak-من-التطبيق
-description: الأسئلة المتداولة لتطبيق الخرائط العضوية
+description: الأسئلة المتداولة لتطبيق Organic Maps
 taxonomies:
   faq:
   - linux

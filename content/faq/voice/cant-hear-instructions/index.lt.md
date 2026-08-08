@@ -18,9 +18,9 @@ Jei negirdite nurodymų balsu:
 
 * Įsitikinkite, kad jūsų įrenginio garsas nėra nutildytas. Garsumo lygį galite keisti įrenginio garsumo mygtukais. Norėdami tai padaryti, įrenginio nustatymuose → Garsai gali tekti išjungti parinktį „Keisti mygtukais“ (jei įjungta).
 
-* Praneškite apie visas „Bluetooth“ problemas pateikdami reikiamą informaciją mūsų [GitHub] (https://github.com/organicmaps/organicmaps/issues)
+* Praneškite apie visas „Bluetooth“ problemas pateikdami reikiamą informaciją mūsų [GitHub](https://github.com/organicmaps/organicmaps/issues)
 
-* Jei esate „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrinkite [TTS nustatymus] (@/faq/voice/text-to-speech-android-tts/index.lt.md).
+* Jei esate „Android“ naudotojas ir parinktis išjungta (arba kai kurios palaikomos kalbos nepasiekiamos), patikrinkite [TTS nustatymus](@/faq/voice/text-to-speech-android-tts/index.lt.md).
 
 „Android“ balso instrukcijos pasiekiamos 39 kalbomis: anglų, arabų, baskų, baltarusių, katalonų, kinų (supaprastinta ir tradicinė), kroatų, čekų, danų, olandų, suomių, prancūzų, vokiečių, graikų, hindi, vengrų, indoneziečių, italų, japonų, korėjiečių, maratų, norvegų, slovakų, persų (persų, rusų), lenkų, rumunų, portugalų (B), lenkų, portugalų (B) Ispanų, ispanų (Meksika), suahilių, švedų, tajų, turkų, ukrainiečių, vietnamiečių.
 

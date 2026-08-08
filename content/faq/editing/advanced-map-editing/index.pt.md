@@ -14,13 +14,13 @@ aliases:
 
 Organic Maps inclui um editor simples e fácil de usar que você pode usar para editar o mapa. O editor é, no entanto, limitado e só permite adicionar recursos de pontos simples, o que significa que não há contornos de edifícios, estradas, lagos, cidades, etc. Se você quiser alterar algo que não pode ser editado com o editor integrado, esta é a página de FAQ certa para ler.
 
-Como todos os dados do mapa usados ​​nos Mapas Orgânicos vêm de [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), você pode atualizar o mapa diretamente lá. Suas modificações serão incluídas nos Mapas Orgânicos na próxima atualização do mapa.
+Como todos os dados do mapa usados ​​no Organic Maps vêm de [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), você pode atualizar o mapa diretamente lá. Suas modificações serão incluídas no Organic Maps na próxima atualização do mapa.
 
 ## Editores do OpenStreetMap
 
 Para editar o OSM, existem várias opções. Se você tiver um laptop ou desktop em mãos, é melhor usar o [ID Editor](https://www.openstreetmap.org/edit) que roda em seu navegador. O ID Editor é fácil para iniciantes, e uma tela maior, mouse e teclado facilitam a edição de mapas.
 
-Para edição avançada de mapas em um dispositivo móvel, use [Go Map](https://apps.apple.com/us/app/go-map/id592990211) para iOS ou [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) para Android. Go Map é fácil para iniciantes, enquanto Vespucci é voltado para usuários mais avançados. LearnOSM fornece tutoriais para [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) e [Vespucci](https://leanosm.org/en/mobile-mapping/vespucci/).
+Para edição avançada de mapas em um dispositivo móvel, use [Go Map](https://apps.apple.com/us/app/go-map/id592990211) para iOS ou [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) para Android. Go Map é fácil para iniciantes, enquanto Vespucci é voltado para usuários mais avançados. LearnOSM fornece tutoriais para [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) e [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Para edições mais simples e mais divertidas, você também pode experimentar o [aplicativo Every Door](https://every-door.app/) para iOS e Android e o [aplicativo StreetComplete](https://streetcomplete.app/) para Android.
 
@@ -38,7 +38,7 @@ Para editar o OpenStreetMap com ID siga estes passos:
 
 ## O que acontece com minhas edições?
 
-Assim que você pressionar *Upload*, suas alterações serão adicionadas instantaneamente ao banco de dados público do OSM. Portanto, seja atencioso ao editar. Nos Mapas Orgânicos, suas alterações ficarão visíveis após a próxima atualização mensal do mapa.
+Assim que você pressionar *Upload*, suas alterações serão adicionadas instantaneamente ao banco de dados público do OSM. Portanto, seja atencioso ao editar. No Organic Maps, suas alterações ficarão visíveis após a próxima atualização mensal do mapa.
 
 Seu e-mail não será publicado, mas outras pessoas poderão ver seu nome de usuário OSM. Como o OSM oferece a possibilidade de discutir alterações, você poderá receber perguntas sobre suas edições de outros contribuidores do OSM. Você será notificado sobre isso através do endereço de e-mail que utilizou para registrar sua conta OSM. Como o OSM é um projeto comunitário que se baseia na colaboração, você deve sempre responder a essas perguntas.
 

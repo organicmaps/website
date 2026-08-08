@@ -18,7 +18,7 @@ aliases:
 3. فرمت کارت SD و بارگیری مجدد نقشه ها.
 4. خرید یک کارت SD جدید (توصیه می شود)
 
-اگر برنامه همچنان خراب می‌شود، لطفاً [GitHub ما](https://github.com/organicmaps/organicmaps/issues/) را برای مشکلات مشابه بررسی کنید، و [با ما تماس بگیرید] (mailto:support@organicmaps.app) و موارد زیر را ارائه دهید:
+اگر برنامه همچنان خراب می‌شود، لطفاً [GitHub ما](https://github.com/organicmaps/organicmaps/issues/) را برای مشکلات مشابه بررسی کنید، و [با ما تماس بگیرید](mailto:support@organicmaps.app) و موارد زیر را ارائه دهید:
 
 * شرح مفصلی از موضوع و مراحل بازتولید آن
 * نسخه Organic Maps

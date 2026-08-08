@@ -29,8 +29,8 @@ Kadangi [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStree
 		- mėsainio piktograma -> *Pridėti vietą į OpenStreetMap*
 		- Pasirinkite vietą kuo tiksliau ir paspauskite tikrinimo rodyklę
 		- Pasirinkite kategoriją
-			> Nerandate tinkamos kategorijos? Tada sukurkite [OSM pastabą] (@/faq/editing/advanced-map-editing/index.lt.md#osm-note).
+			> Nerandate tinkamos kategorijos? Tada sukurkite [OSM pastabą](@/faq/editing/advanced-map-editing/index.lt.md#osm-note).
 		- Pridėkite papildomos informacijos, pvz., pavadinimą, darbo valandas ir svetainę
 		- Išsaugokite pakeitimus ir išeikite naudodami tikrinimo rodyklę
 
-Atkreipkite dėmesį, kad redaktorius sukurtas kaip paprastas POI redaktorius ir todėl apsiriboja POI. Galite, pvz., nepridėti kelių, ežerų, pastatų kontūrų ir pan. Be to, negalima perkelti vietų į naują vietą. Jei negalite ko nors redaguoti naudodami Organic Maps, peržiūrėkite puslapį [Išplėstinis žemėlapio redagavimas] (@/faq/editing/advanced-map-editing/index.lt.md).
+Atkreipkite dėmesį, kad redaktorius sukurtas kaip paprastas POI redaktorius ir todėl apsiriboja POI. Galite, pvz., nepridėti kelių, ežerų, pastatų kontūrų ir pan. Be to, negalima perkelti vietų į naują vietą. Jei negalite ko nors redaguoti naudodami Organic Maps, peržiūrėkite puslapį [Išplėstinis žemėlapio redagavimas](@/faq/editing/advanced-map-editing/index.lt.md).

@@ -18,7 +18,7 @@ Ar Android, os ydych chi'n storio'ch mapiau ar gerdyn SD, yr achos mwyaf tebygol
 3. Fformat cerdyn SD ac ail-lawrlwytho mapiau.
 4. Prynu cerdyn SD newydd (argymhellir)
 
-Os yw'r ap yn dal i ddamwain, gwiriwch [ein GitHub](https://github.com/organicmaps/organicmaps/issues/) am faterion tebyg, a [cysylltwch â ni] (mailto:support@organicmaps.app) a rhowch y canlynol:
+Os yw'r ap yn dal i ddamwain, gwiriwch [ein GitHub](https://github.com/organicmaps/organicmaps/issues/) am faterion tebyg, a [cysylltwch â ni](mailto:support@organicmaps.app) a rhowch y canlynol:
 
 * Disgrifiad manwl o'r mater a'r camau i'w hatgynhyrchu
 * Fersiwn Organic Maps

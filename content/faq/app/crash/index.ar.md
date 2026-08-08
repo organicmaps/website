@@ -21,7 +21,7 @@ aliases:
 إذا استمر تعطل التطبيق، فيرجى مراجعة [GitHub](https://github.com/organicmaps/organicmaps/issues/) لمعرفة المشكلات المماثلة، و[اتصل بنا](mailto:support@organicmaps.app) وتقديم ما يلي:
 
 * وصف تفصيلي للمشكلة وخطوات إعادة إنتاجها
-* نسخة الخرائط العضوية
+* نسخة Organic Maps
 * طراز الجهاز وإصدار نظام التشغيل (Android أو iOS)
 
 أو بدلاً من ذلك:

@@ -14,4 +14,4 @@ aliases:
 
 Chcete-li používat OM s Android Auto, potřebujete alespoň Android verze 8.0 (Oreo) nebo novější. Kromě toho si musíte stáhnout Organic Maps z obchodu Google Play, protože Google povoluje pouze aplikace schválené společností Google pro Android Auto.
 
-Další podrobnosti naleznete na [webu Android Auto] (https://www.android.com/auto/).
+Další podrobnosti naleznete na [webu Android Auto](https://www.android.com/auto/).

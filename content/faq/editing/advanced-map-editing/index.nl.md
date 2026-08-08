@@ -19,19 +19,19 @@ Omdat alle kaartgegevens die in Organic Maps worden gebruikt, afkomstig zijn van
 
 ## OpenStreetMap-editors
 
-Voor het bewerken van OSM zijn er verschillende opties. Als u een laptop of desktopcomputer bij de hand heeft, kunt u beter de [ID Editor](https://www.openstreetmap.org/edit) gebruiken die in uw browser draait. De ID-editor is gemakkelijk voor beginners, en een groter scherm, muis en toetsenbord maken het bewerken van kaarten eenvoudiger.
+Voor het bewerken van OSM zijn er verschillende opties. Als u een laptop of desktopcomputer bij de hand heeft, kunt u beter de [ID Editor](https://www.openstreetmap.org/edit) gebruiken die in uw browser draait. De ID Editor is gemakkelijk voor beginners, en een groter scherm, muis en toetsenbord maken het bewerken van kaarten eenvoudiger.
 
 Voor geavanceerde kaartbewerking vanaf een mobiel apparaat gebruikt u [Go Map](https://apps.apple.com/us/app/go-map/id592990211) voor iOS of [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) voor Android. Go Map is gemakkelijk voor beginners, terwijl Vespucci zich richt op meer gevorderde gebruikers. LearnOSM biedt tutorials voor [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) en [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Voor eenvoudigere bewerkingen met meer plezier kunt u ook de [Every Door-app](https://every-door.app/) voor iOS en Android en de [StreetComplete-app](https://streetcomplete.app/) voor Android proberen.
 
-#### ID-editor
+#### ID Editor
 
 Volg deze stappen om OpenStreetMap met ID te bewerken:
 
 1. Maak een nieuw account aan of log in op [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Blader naar de locatie die u wilt bewerken op OpenStreetMap.org en klik bovenaan op *Bewerken*
-3. *Start de Walkthrough* en volg de korte tutorial waarin de ID-editor wordt uitgelegd
+3. *Start de Walkthrough* en volg de korte tutorial waarin de ID Editor wordt uitgelegd
 4. Bewerk de kaart
 5. Upload uw wijzigingen
 
@@ -54,8 +54,8 @@ De OpenStreetMap-database bevat objecten zoals knooppunten, wegen, gebieden en r
 Omdat dit ingewikkelder klinkt dan het is, zullen we een voorbeeld geven:
 Een restaurant is b.v. in kaart gebracht als een notitie of gebied met de tag `amenity=restaurant`. Verdere tags zoals `cuisine=*` of `opening_hours=*` kunnen dan worden gebruikt voor meer details.
 
-> Merk op dat de ID-editor de interne datastructuur voor de gebruikers verbergt om beginnersvriendelijker te zijn. Maar voor het lezen van de Wiki-documentatie is een kort overzicht van de datastructuur nuttig.
-In de ID-editor kunt u de tags zien die ID voor u verbergt door de sectie *Tags* in het zijpaneel *Functie bewerken* uit te vouwen.
+> Merk op dat de ID editor de interne datastructuur voor de gebruikers verbergt om beginnersvriendelijker te zijn. Maar voor het lezen van de Wiki-documentatie is een kort overzicht van de datastructuur nuttig.
+In de ID Editor kunt u de tags zien die ID voor u verbergt door de sectie *Tags* in het zijpaneel *Functie bewerken* uit te vouwen.
 
 ## OSM-notities {#osm-note}
 

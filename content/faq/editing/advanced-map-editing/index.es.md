@@ -18,19 +18,19 @@ Como todos los datos de mapas utilizados en Organic Maps provienen de [OpenStree
 
 ## Editores de OpenStreetMap
 
-Para editar OSM, existen varias opciones. Si tiene una computadora portátil o de escritorio a mano, es mejor usar el [Editor de ID] (https://www.openstreetmap.org/edit) que se ejecuta en su navegador. El editor de ID es fácil para principiantes y una pantalla, un mouse y un teclado más grandes facilitan la edición de mapas.
+Para editar OSM, existen varias opciones. Si tiene una computadora portátil o de escritorio a mano, es mejor usar el [ID Editor] (https://www.openstreetmap.org/edit) que se ejecuta en su navegador. El ID Editor es fácil para principiantes y una pantalla, un mouse y un teclado más grandes facilitan la edición de mapas.
 
 Para la edición avanzada de mapas desde un dispositivo móvil, utilice [Go Map](https://apps.apple.com/us/app/go-map/id592990211) para iOS o [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) para Android. Go Map es fácil para principiantes, mientras que Vespucci está dirigido a usuarios más avanzados. LearnOSM proporciona tutoriales para [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) y [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Para realizar ediciones más sencillas y más divertidas, también puedes probar la [aplicación Every Door](https://every-door.app/) para iOS y Android y la [aplicación StreetComplete](https://streetcomplete.app/) para Android.
 
-#### Editor de identificación
+#### ID Editor
 
 Para editar OpenStreetMap con ID sigue estos pasos:
 
 1. Cree una cuenta nueva o inicie sesión en [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Busque la ubicación que desea editar en OpenStreetMap.org y haga clic en *Editar* en la parte superior.
-3. *Inicie el tutorial* y siga el breve tutorial que explica el Editor de ID
+3. *Inicie el tutorial* y siga el breve tutorial que explica el ID Editor
 4. Edita el mapa
 5. Sube tus cambios
 
@@ -53,8 +53,8 @@ La base de datos de OpenStreetMap contiene objetos como nodos, vías, áreas y r
 Como esto suena más complicado de lo que es, daremos un ejemplo:
 Un restaurante es p.e. mapeado como una Nota o Área con la Etiqueta `amenity=restaurant`. Luego se pueden utilizar más etiquetas como `cuisine=*` o `opening_hours=*` para obtener más detalles.
 
-> Tenga en cuenta que el editor de ID oculta la estructura de datos interna a los usuarios para que sea más amigable para los principiantes. Pero para leer la documentación Wiki es útil tener una breve descripción general de la estructura de datos.
-En el Editor de ID, puede ver las etiquetas que ID le oculta expandiendo la sección *Etiquetas* en el panel lateral *Función de edición*.
+> Tenga en cuenta que el ID editor oculta la estructura de datos interna a los usuarios para que sea más amigable para los principiantes. Pero para leer la documentación Wiki es útil tener una breve descripción general de la estructura de datos.
+En el ID Editor, puede ver las etiquetas que ID le oculta expandiendo la sección *Etiquetas* en el panel lateral *Función de edición*.
 
 ## Notas de OSM {#osm-note}
 

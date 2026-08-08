@@ -18,13 +18,13 @@ Como todos os dados do mapa usados ​​nos Mapas Orgânicos vêm de [OpenStree
 
 ## Editores do OpenStreetMap
 
-Para editar o OSM, existem várias opções. Se você tiver um laptop ou desktop em mãos, é melhor usar o [Editor de ID](https://www.openstreetmap.org/edit) que roda em seu navegador. O ID Editor é fácil para iniciantes, e uma tela maior, mouse e teclado facilitam a edição de mapas.
+Para editar o OSM, existem várias opções. Se você tiver um laptop ou desktop em mãos, é melhor usar o [ID Editor](https://www.openstreetmap.org/edit) que roda em seu navegador. O ID Editor é fácil para iniciantes, e uma tela maior, mouse e teclado facilitam a edição de mapas.
 
 Para edição avançada de mapas em um dispositivo móvel, use [Go Map](https://apps.apple.com/us/app/go-map/id592990211) para iOS ou [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) para Android. Go Map é fácil para iniciantes, enquanto Vespucci é voltado para usuários mais avançados. LearnOSM fornece tutoriais para [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) e [Vespucci](https://leanosm.org/en/mobile-mapping/vespucci/).
 
 Para edições mais simples e mais divertidas, você também pode experimentar o [aplicativo Every Door](https://every-door.app/) para iOS e Android e o [aplicativo StreetComplete](https://streetcomplete.app/) para Android.
 
-####Editor de IDs
+#### ID Editor
 
 Para editar o OpenStreetMap com ID siga estes passos:
 
@@ -53,8 +53,8 @@ O banco de dados OpenStreetMap contém objetos como nós, caminhos, áreas e rel
 Como isso parece mais complicado do que é, daremos um exemplo:
 Um restaurante é, por ex. mapeado como uma Nota ou Área com a Tag `amenity=restaurant`. Outras tags como `cuisine=*` ou `opening_hours=*` podem então ser usadas para obter mais detalhes.
 
-> Observe que o editor de ID oculta a estrutura de dados interna dos usuários para ser mais amigável para iniciantes. Mas, para ler a documentação do Wiki, é útil ter uma breve visão geral da estrutura de dados.
-No Editor de ID, você pode ver as tags que o ID está escondendo de você expandindo a seção *Tags* no painel lateral *Recurso de edição*.
+> Observe que o ID editor oculta a estrutura de dados interna dos usuários para ser mais amigável para iniciantes. Mas, para ler a documentação do Wiki, é útil ter uma breve visão geral da estrutura de dados.
+No ID Editor, você pode ver as tags que o ID está escondendo de você expandindo a seção *Tags* no painel lateral *Recurso de edição*.
 
 ## Notas OSM {#osm-note}
 

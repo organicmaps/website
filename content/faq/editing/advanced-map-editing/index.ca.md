@@ -19,19 +19,19 @@ Com que totes les dades del mapa que s'utilitzen a Organic Maps provenen de [Ope
 
 ## Editors d'OpenStreetMap
 
-Per editar OSM, hi ha diverses opcions. Si teniu un ordinador portàtil o d'escriptori a mà, és millor utilitzar l'[Editor d'ID](https://www.openstreetmap.org/edit) que s'executa al vostre navegador. L'Editor d'identificació és fàcil per als principiants, i una pantalla, un ratolí i un teclat més grans faciliten l'edició de mapes.
+Per editar OSM, hi ha diverses opcions. Si teniu un ordinador portàtil o d'escriptori a mà, és millor utilitzar l'[ID Editor](https://www.openstreetmap.org/edit) que s'executa al vostre navegador. L'ID Editor és fàcil per als principiants, i una pantalla, un ratolí i un teclat més grans faciliten l'edició de mapes.
 
 Per a l'edició avançada de mapes des d'un dispositiu mòbil, utilitzeu [Go Map](https://apps.apple.com/us/app/go-map/id592990211) per a iOS o [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) per a Android. Go Map és fàcil per als principiants, mentre que Vespucci s'adreça als usuaris més avançats. LearnOSM ofereix tutorials per a [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) i [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Per a edicions més senzilles i més divertides, també podeu provar [aplicació Every Door](https://every-door.app/) per a iOS i Android i [aplicació StreetComplete](https://streetcomplete.app/) per a Android.
 
-#### Editor d'identificació
+#### ID Editor
 
 Per editar OpenStreetMap amb ID, seguiu aquests passos:
 
 1. Creeu un compte nou o inicieu sessió a [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Navegueu a la ubicació que voleu editar a OpenStreetMap.org i feu clic a *Edita* a la part superior
-3. *Inicieu el tutorial* i seguiu el tutorial breu que explica l'editor d'ID
+3. *Inicieu el tutorial* i seguiu el tutorial breu que explica l'ID Editor
 4. Editeu el mapa
 5. Carregueu els vostres canvis
 
@@ -54,8 +54,8 @@ La base de dades OpenStreetMap conté objectes com ara nodes, vies, àrees i rel
 Com que això sembla més complicat del que és, posarem un exemple:
 Un restaurant és, p. assignat com a nota o àrea amb l'etiqueta `amenity=restaurant`. A continuació, es poden utilitzar etiquetes addicionals com `cuisine=*` o `opening_hours=*` per a més detalls.
 
-> Tingueu en compte que l'editor d'identificació amaga l'estructura interna de dades als usuaris perquè sigui més fàcil de començar. Però per llegir la documentació de Wiki és útil fer una breu visió general de l'estructura de dades.
-A l'Editor d'identificació, podeu veure les etiquetes que l'ID us amaga expandint la secció *Etiquetes* al tauler lateral *Funció d'edició*.
+> Tingueu en compte que l'ID editor amaga l'estructura interna de dades als usuaris perquè sigui més fàcil de començar. Però per llegir la documentació de Wiki és útil fer una breu visió general de l'estructura de dades.
+A l'ID Editor, podeu veure les etiquetes que l'ID us amaga expandint la secció *Etiquetes* al tauler lateral *Funció d'edició*.
 
 ## Notes OSM {#osm-note}
 

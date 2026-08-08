@@ -19,7 +19,7 @@ Karena semua data peta yang digunakan di Organic Maps berasal dari [OpenStreetMa
 
 ## Editor OpenStreetMap
 
-Untuk mengedit OSM, ada beberapa pilihan. Jika Anda memiliki laptop atau komputer desktop, lebih baik gunakan [ID Editor](https://www.openstreetmap.org/edit) yang berjalan di browser Anda. Editor ID mudah untuk pemula, dan layar, mouse, dan keyboard yang lebih besar membuat pengeditan peta menjadi lebih mudah.
+Untuk mengedit OSM, ada beberapa pilihan. Jika Anda memiliki laptop atau komputer desktop, lebih baik gunakan [ID Editor](https://www.openstreetmap.org/edit) yang berjalan di browser Anda. ID Editor mudah untuk pemula, dan layar, mouse, dan keyboard yang lebih besar membuat pengeditan peta menjadi lebih mudah.
 
 Untuk pengeditan peta tingkat lanjut dari perangkat seluler, gunakan [Go Map](https://apps.apple.com/us/app/go-map/id592990211) untuk iOS atau [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) untuk Android. Go Map mudah untuk pemula, sedangkan Vespucci menargetkan pengguna yang lebih mahir. LearnOSM menyediakan tutorial untuk [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) dan [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
@@ -31,7 +31,7 @@ Untuk mengedit OpenStreetMap dengan ID ikuti langkah-langkah berikut:
 
 1. Buat akun baru atau masuk ke [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Telusuri lokasi yang ingin Anda edit di OpenStreetMap.org dan klik *Edit* di bagian atas
-3. *Mulai Panduan* dan ikuti tutorial singkat yang menjelaskan Editor ID
+3. *Mulai Panduan* dan ikuti tutorial singkat yang menjelaskan ID Editor
 4. Edit peta
 5. Unggah perubahan Anda
 
@@ -54,8 +54,8 @@ Basis data OpenStreetMap berisi Objek seperti Node, Jalan, Area, dan Relasi yang
 Karena ini terdengar lebih rumit, kami akan memberikan contoh:
 Sebuah Restoran misalnya. dipetakan sebagai Catatan atau Area dengan Tag `amenity=restaurant`. Tag lebih lanjut seperti `cuisine=*` atau `opening_hours=*` kemudian dapat digunakan untuk detail lebih lanjut.
 
-> Perhatikan bahwa editor ID menyembunyikan struktur data internal dari pengguna agar lebih ramah bagi pemula. Namun untuk membaca dokumentasi Wiki, memberikan gambaran singkat tentang struktur data sangat membantu.
-Di Editor ID, Anda dapat melihat Tag yang ID sembunyikan dari Anda dengan memperluas bagian *Tag* di panel samping *Fitur Edit*.
+> Perhatikan bahwa ID editor menyembunyikan struktur data internal dari pengguna agar lebih ramah bagi pemula. Namun untuk membaca dokumentasi Wiki, memberikan gambaran singkat tentang struktur data sangat membantu.
+Di ID Editor, Anda dapat melihat Tag yang ID sembunyikan dari Anda dengan memperluas bagian *Tag* di panel samping *Fitur Edit*.
 
 ## Catatan OSM {#osm-note}
 

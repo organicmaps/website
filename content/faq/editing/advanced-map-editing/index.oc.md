@@ -24,13 +24,13 @@ Per l'edicion avançada de mapas dempuèi un aparelh mobil, utilizatz [Go Map](h
 
 Per de modificacions mai simplas e mai ludicas, podètz tanben ensajar l'aplicacion [Every Door](https://every-door.app/) per iOS e Android e l'aplicacion [StreetComplete](https://streetcomplete.app/) per Android.
 
-#### Editor ID
+#### ID Editor
 
-Per modificar OpenStreetMap amb l'Editor ID, seguissètz aquestas estapas:
+Per modificar OpenStreetMap amb l'ID Editor, seguissètz aquestas estapas:
 
 1. Creatz un compte novèl o connectatz-vos sus [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Anatz a l'endrech que volètz modificar sus OpenStreetMap.org e clicatz sus *Modificar* en naut de la pagina
-3. *Aviamatz lo tutorial* e seguissètz lo tutorial cort qu'explica l'Editor ID
+3. *Aviamatz lo tutorial* e seguissètz lo tutorial cort qu'explica l'ID Editor
 4. Modificar la mapa
 5. Enregistrar vòstras modificacions
 
@@ -53,8 +53,8 @@ La basa de donadas d'OpenStreetMap conten d'Objèctes coma de Nòuds, de Traçat
 Coma aquò sembla mai complicat qu'es, donarem un exemple :
 Un restaurant es, per exemple, cartografiat coma un Nòde o una Zòna amb l'etiqueta `amenity=restaurant`. D'autras etiquetas coma `cuisine=*` o `opening_hours=*` se pòdon puèi utilizar per mai de detalhs.
 
-> Notatz que l'editor d'ID amaga l'estructura de donadas intèrna als utilizaires per èsser mai accessible als debutants. Mas per legir la documentacion del Wiki, un apercebut brèu de l'estructura de donadas es util.
-Dins l'Editor d'ID, podètz veire los Tags que l'ID vos amaga en desrotlant la seccion *Tags* dins lo panèl lateral *Modificar l'element*.
+> Notatz que l'ID editor amaga l'estructura de donadas intèrna als utilizaires per èsser mai accessible als debutants. Mas per legir la documentacion del Wiki, un apercebut brèu de l'estructura de donadas es util.
+Dins l'ID Editor, podètz veire los Tags que l'ID vos amaga en desrotlant la seccion *Tags* dins lo panèl lateral *Modificar l'element*.
 
 ## Nòtas OSM {#osm-note}
 

@@ -18,19 +18,19 @@ Comme toutes les données cartographiques utilisées dans Organic Maps provienne
 
 ## Éditeurs OpenStreetMap
 
-Pour éditer OSM, il existe plusieurs options. Si vous disposez d'un ordinateur portable ou de bureau, il est préférable d'utiliser l'[ID Editor](https://www.openstreetmap.org/edit) qui s'exécute dans votre navigateur. L'éditeur d'ID est simple pour les débutants, et un écran, une souris et un clavier plus grands facilitent l'édition de cartes.
+Pour éditer OSM, il existe plusieurs options. Si vous disposez d'un ordinateur portable ou de bureau, il est préférable d'utiliser l'[ID Editor](https://www.openstreetmap.org/edit) qui s'exécute dans votre navigateur. L'ID Editor est simple pour les débutants, et un écran, une souris et un clavier plus grands facilitent l'édition de cartes.
 
 Pour une édition avancée de cartes à partir d'un appareil mobile, utilisez [Go Map](https://apps.apple.com/us/app/go-map/id592990211) pour iOS ou [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) pour Android. Go Map est facile pour les débutants, tandis que Vespucci cible les utilisateurs plus avancés. LearnOSM propose des didacticiels pour [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) et [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Pour des modifications plus simples et plus amusantes, vous pouvez également essayer [l'application Every Door](https://every-door.app/) pour iOS et Android et [l'application StreetComplete](https://streetcomplete.app/) pour Android.
 
-#### Éditeur d'identifiants
+#### ID Editor
 
 Pour modifier OpenStreetMap avec ID, suivez ces étapes :
 
 1. Créez un nouveau compte ou connectez-vous à [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Accédez à l'emplacement que vous souhaitez modifier sur OpenStreetMap.org et cliquez sur *Modifier* en haut.
-3. *Démarrez la procédure pas à pas* et suivez le court didacticiel qui explique l'éditeur d'ID.
+3. *Démarrez la procédure pas à pas* et suivez le court didacticiel qui explique l'ID Editor.
 4. Modifiez la carte
 5. Téléchargez vos modifications
 
@@ -53,8 +53,8 @@ La base de données OpenStreetMap contient des objets tels que des nœuds, des c
 Comme cela semble plus compliqué qu’il ne l’est, nous allons donner un exemple :
 Un restaurant est par ex. mappé comme une note ou une zone avec la balise `amenity=restaurant`. D'autres balises comme `cuisine=*` ou `opening_hours=*` peuvent ensuite être utilisées pour plus de détails.
 
-> Notez que l'éditeur d'ID cache la structure de données interne aux utilisateurs pour être plus convivial pour les débutants. Mais pour lire la documentation Wiki, un bref aperçu de la structure des données est utile.
-Dans l'éditeur d'ID, vous pouvez voir les balises que l'ID vous cache en développant la section *Tags* dans le panneau latéral *Modifier la fonctionnalité*.
+> Notez que l'ID editor cache la structure de données interne aux utilisateurs pour être plus convivial pour les débutants. Mais pour lire la documentation Wiki, un bref aperçu de la structure des données est utile.
+Dans l'ID Editor, vous pouvez voir les balises que l'ID vous cache en développant la section *Tags* dans le panneau latéral *Modifier la fonctionnalité*.
 
 ## Notes OSM {#osm-note}
 

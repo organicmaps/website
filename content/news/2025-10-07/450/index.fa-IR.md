@@ -1,6 +1,7 @@
 ---
 title: "انتشار ۷ اکتبر: محدودیت سرعت در Android Auto، درون‌ریزی GeoJSON، آمار مسیر در حال ضبط، نمایش برچسب description در OSM، ذخیرهٔ نشانک روی مسیر ضبط‌شدهٔ انتخابی در iOS و موارد دیگر"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

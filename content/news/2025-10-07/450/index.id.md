@@ -1,6 +1,7 @@
 ---
 title: "Rilis 7 Oktober: batas kecepatan Android Auto, impor GeoJSON, statistik perekaman trek, tampilan tag description OSM, simpan penanda pada trek terpilih di iOS, dan lainnya"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

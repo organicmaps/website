@@ -1,6 +1,7 @@
 ---
 title: "Κυκλοφορία 7 Οκτωβρίου: όρια ταχύτητας στο Android Auto, εισαγωγή GeoJSON, στατιστικά καταγραφής ίχνους, εμφάνιση της ετικέτας description του OSM, αποθήκευση σελιδοδείκτη στο επιλεγμένο ίχνος στο iOS και άλλα"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

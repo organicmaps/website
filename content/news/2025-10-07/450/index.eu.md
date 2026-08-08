@@ -1,6 +1,7 @@
 ---
 title: "Urriaren 7ko argitalpena: abiadura-mugak Android Auto-n, GeoJSON inportazioa, grabatzen ari den trackaren estatistikak, OSM description etiketaren bistaratzea, laster-marka gordetzea hautatutako trackean iOSen, eta gehiago"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

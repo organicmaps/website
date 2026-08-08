@@ -1,6 +1,7 @@
 ---
 title: "7 अक्टूबर रिलीज़: Android Auto में स्पीड लिमिट, GeoJSON इम्पोर्ट, ट्रैक रिकॉर्डिंग के आँकड़े, OSM description टैग प्रदर्शन, iOS पर चुने गए ट्रैक पर बुकमार्क सहेजना और बहुत कुछ"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

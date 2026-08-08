@@ -1,6 +1,7 @@
 ---
 title: "10月7日发布：Android Auto 限速显示、GeoJSON 导入、轨迹录制统计、OSM description 标签显示、在 iOS 上为选中的轨迹保存书签等"
-date: 2025-10-07T10:00:00+00:00
+date: 2025-10-07T07:20:28+00:00
+slug: "android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display"
 taxonomies:
   news: ["releases"]
 ---

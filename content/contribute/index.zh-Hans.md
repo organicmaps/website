@@ -15,15 +15,13 @@ Organic Maps是一个免费的、开源的应用程序，没有广告，不收�
 - 在[GitHub][github]或发邮件[email][email]报告bug和分享想法。
 - 如果你是开发人员，请帮助我们[修复bug][作出贡献]并审查代码。每次修复问题总使人兴奋。
 - [翻译][translations]应用程序界面中缺少的文字。
-- 将[App
-  Store][translations_appstore]和[Android][translations_googleplay]详情翻译成你的语言。
+- 将[App Store][translations_appstore]和[Android][translations_googleplay]详情翻译成你的语言。
 - 将我们的网站[翻译][translations_website]成你的语言。
 - 加入[OpenStreetMap][openstreetmap]社区，为地图数据作出贡献。
 - 修复由[公共交通验证器][public_transport_validator]发现的红色城市，让地铁和轻轨在应用程序中更好用。
 - 在[GitHub][issues]、[Telegram][telegram_chat_zh]、[Matrix][matrix]、[Twitter][twitter]、[Facebook][facebook]、[Instagram][instagram]支持其他用户。
 - 传播Organic Maps，助力社区更大更强。
-- 在[Google Play][googleplay_review]、[Apple Store][appstore_review]、[Huawei
-  Appgallery][appgallery_review]为我们评分。
+- 在[Google Play][googleplay_review]、[Apple Store][appstore_review]、[Huawei Appgallery][appgallery_review]为我们评分。
 - 欢迎各种帮助！
 
 我们的小团队非常感谢你的反馈和支持。离开用户❤️，Organic Maps无法存在。

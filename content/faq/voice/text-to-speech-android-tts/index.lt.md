@@ -19,8 +19,8 @@ Oficiali Organic Maps rekomendacija yra [RHVoice](https://rhvoice.org/), kuri yr
 
 ## Instrukcijos
 
-– „Android“ įrenginyje atidaryk nustatymų programą
-– Pasirink Papildomi nustatymai, tada – Prieinamumas
+- „Android“ įrenginyje atidaryk nustatymų programą
+- Pasirink Papildomi nustatymai, tada – Prieinamumas
 - Pasirink pageidaujamą variklį, kalbos greitį ir toną
 - **Iš naujo paleisk Organic Maps programą**
 - Atidaryk Nustatymai => Balso instrukcijos Organic Maps programėlėje ir nustatyk
@@ -52,7 +52,7 @@ Jei kyla problemų inicijuojant RHVoice TTS variklį LineageOS ar kituose tinkin
 2. Nustatyk jį kaip pageidaujamą sistemos variklį
     - Eik į pagrindinį „LineageOS“ **Nustatymai**.
     - Slink žemyn iki **Prieinamumas**.
-    – Pasirink **teksto į kalbą išvestis** ir **Preferred engine** (kairėje pusėje) ir įsitikink, kad pasirinkta **eSpeak**.
+    - Pasirink **teksto į kalbą išvestis** ir **Preferred engine** (kairėje pusėje) ir įsitikink, kad pasirinkta **eSpeak**.
 3. Grįžk atgal ir paspausk **play**, kad pamatytum, ar jis veikia
 4. Įdiek [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), pasiekiamą F-droid.
     - Atidaryk jį, pasirink kalbą, kurią nori naudoti, bakstelėk debesies piktogramą (kairėje), kad atsisiųstum balsus.

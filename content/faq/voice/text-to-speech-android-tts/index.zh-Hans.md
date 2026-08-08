@@ -48,11 +48,11 @@ P.S：请注意，这些步骤会根据您使用的手机品牌而有所不同�
 如果您在 LineageOS 或其他自定义 ROM 上初始化 RHVoice TTS 引擎时遇到问题，请尝试此解决方法。 RHVoice 可能无法正确初始化，并且应用程序可能会崩溃，特别是如果您之前没有在手机上使用过任何 TTS 引擎（例如，新安装、恢复出厂设置等）。如果您使用的是 LineageOS 等自定义 ROM，<ins>没有 Google Play 服务和 Google 语音服务</ins>，并且希望使用 RHVoice 作为首选 TTS 引擎，请按照以下说明作为解决方法：
 
 1. 安装 F-Droid 上可用的 [eSpeak TTS 引擎](https://f-droid.org/en/packages/com.reecedunn.espeak)
-2.将其设置为首选系统引擎
+2. 将其设置为首选系统引擎
     - 转到 LineageOS 主 **设置**。
     - 向下滚动到**辅助功能**。
     - 选择 **文本转语音输出** 和 **首选引擎**（左侧），并确保选择 **eSpeak**。
-3.返回并按**播放**查看是否正常工作
+3. 返回并按**播放**查看是否正常工作
 4. 安装 F-droid 上可用的 [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/)。
     - 打开它，选择您要使用的语言，点击云图标（最左侧）下载语音。
     - 按播放按钮验证其是否正常工作

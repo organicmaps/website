@@ -19,18 +19,18 @@ Yr argymhelliad swyddogol gan Organic Maps yw [RHVoice](https://rhvoice.org/), s
 
 ## Cyfarwyddiadau
 
-- Agorwch yr app Gosodiadau ar eich dyfais Android
-- Dewiswch Gosodiadau Ychwanegol ac yna dewiswch Hygyrchedd
-- Dewiswch eich hoff injan, cyfradd lleferydd a thraw
+- Agora'r app Gosodiadau ar dy ddyfais Android
+- Dewisa Gosodiadau Ychwanegol ac yna dewisa Hygyrchedd
+- Dewisa dy hoff injan, cyfradd lleferydd a thraw
 - **Ailgychwyn ap Organic Maps**
 - Gosodiadau Agored => Cyfarwyddiadau Llais yn Organic Maps a'i osod
 - Ailgychwyn ap Organic Maps eto (neu ailgychwyn y ddyfais) os nad yw'r llais yn gweithio
 
-Os na allwch ddod o hyd i'r gosodiad perthnasol, agorwch yr ap gosodiadau a chwiliwch am Testun-i-leferydd.
+Os na elli ddod o hyd i'r gosodiad perthnasol, agora'r ap gosodiadau a chwilia am Testun-i-leferydd.
 
-PS: Sylwch y bydd y camau hyn yn amrywio yn seiliedig ar y brand ffôn rydych chi'n ei ddefnyddio.
+PS: Sylwa y bydd y camau hyn yn amrywio yn seiliedig ar y brand ffôn rwyt ti'n ei ddefnyddio.
 
-Mae'n bosibl na fydd yr opsiynau a ddywedwyd yn ymddangos os nad oes gennych TTS eisoes wedi'i osod ar eich dyfais. Cyfeiriwch at y tabl isod i osod unrhyw un ohonynt sy'n cefnogi eich iaith frodorol.
+Mae'n bosibl na fydd yr opsiynau a ddywedwyd yn ymddangos os nad oes gennyt TTS eisoes wedi'i osod ar dy ddyfais. Cyfeiria at y tabl isod i osod unrhyw un ohonynt sy'n cefnogi dy iaith frodorol.
 
 ## Sgrinluniau
 
@@ -46,22 +46,22 @@ Isod mae rhestr gynhwysfawr yn dangos nifer o beiriannau a'r ieithoedd y maent y
 
 ## Workarounds
 
-Os ydych chi'n cael trafferth cychwyn yr injan RHVoice TTS ar LineageOS neu ROMs arferol eraill, rhowch gynnig ar y datrysiad hwn. Efallai na fydd RHVoice yn cychwyn yn iawn a gall yr ap chwalu, yn enwedig os nad ydych wedi defnyddio unrhyw injan TTS ar eich ffôn o'r blaen (e.e., gosodiad newydd, ailosod ffatri, ac ati). Os ydych chi'n defnyddio ROM personol fel LineageOS <ins>heb wasanaethau Google Play a Gwasanaethau Lleferydd gan Google</ins>, a'ch bod am ddefnyddio RHVoice fel eich peiriant TTS dewisol, dilynwch y cyfarwyddiadau isod fel ateb:
+Os wyt ti'n cael trafferth cychwyn yr injan RHVoice TTS ar LineageOS neu ROMs arferol eraill, rho gynnig ar y datrysiad hwn. Efallai na fydd RHVoice yn cychwyn yn iawn a gall yr ap chwalu, yn enwedig os nad wyt wedi defnyddio unrhyw injan TTS ar dy ffôn o'r blaen (e.e., gosodiad newydd, ailosod ffatri, ac ati). Os wyt ti'n defnyddio ROM personol fel LineageOS <ins>heb wasanaethau Google Play a Gwasanaethau Lleferydd gan Google</ins>, a dy fod am ddefnyddio RHVoice fel dy beiriant TTS dewisol, dilyna'r cyfarwyddiadau isod fel ateb:
 
-1. Gosodwch yr [injan eSpeak TTS] ( https://f-droid.org/en/packages/com.reecedunn.espeak ) sydd ar gael ar F-Droid
-2. Gosodwch ef fel yr injan system a ffefrir
-    - Ewch i brif **Gosodiadau** LineageOS.
-    - Sgroliwch i lawr i **Hygyrchedd**.
-    - Dewiswch **allbwn testun-i-leferydd** a **Injan a ffefrir** (ochr chwith) a gwnewch yn siŵr bod **eSpeak** yn cael ei ddewis.
-3. Ewch yn ôl a gwasgwch **chwarae** i weld a yw'n gweithio
+1. Gosoda'r [injan eSpeak TTS] ( https://f-droid.org/en/packages/com.reecedunn.espeak ) sydd ar gael ar F-Droid
+2. Gosoda ef fel yr injan system a ffefrir
+    - Dos i brif **Gosodiadau** LineageOS.
+    - Sgrolia i lawr i **Hygyrchedd**.
+    - Dewisa **allbwn testun-i-leferydd** a **Injan a ffefrir** (ochr chwith) a gwna'n siŵr bod **eSpeak** yn cael ei ddewis.
+3. Dos yn ôl a gwasga **chwarae** i weld a yw'n gweithio
 4. Gosod [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) ar gael ar F-droid.
-    - Agorwch hi, dewiswch yr iaith rydych chi am ei defnyddio, tapiwch eicon y cwmwl (chwith pellaf) i lawrlwytho lleisiau.
-    - Pwyswch y botwm chwarae i wirio a yw'n gweithio
+    - Agora hi, dewisa'r iaith rwyt ti am ei defnyddio, tapia eicon y cwmwl (chwith pellaf) i lawrlwytho lleisiau.
+    - Pwysa'r botwm chwarae i wirio a yw'n gweithio
 5. Gosod **RHVoice** fel yr injan ddewisol (gweler cam 2)
-6. Nawr, dylech allu defnyddio RHVoice heb unrhyw broblemau
+6. Nawr, dylet allu defnyddio RHVoice heb unrhyw broblemau
 
 ## Profi
 
-Er mwyn profi'r cyfarwyddiadau llais, gallwch chi tapio ar "Test Voice Directions (TTS, Text-To-Speech)" yn newislen OM "Settings → Voice Instructions" neu gallwch chi ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Organic Maps yn rhoi unrhyw gyfarwyddiadau llais i chi tra byddwch yn sefyll yn llonydd.
+Er mwyn profi'r cyfarwyddiadau llais, gelli di tapio ar "Test Voice Directions (TTS, Text-To-Speech)" yn newislen OM "Settings → Voice Instructions" neu gelli di ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Organic Maps yn rhoi unrhyw gyfarwyddiadau llais i ti tra byddi'n sefyll yn llonydd.
 
 ![TTS Prawf](tts_test.png "Prawf TTS")

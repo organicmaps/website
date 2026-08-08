@@ -11,23 +11,23 @@ aliases:
   - /et/faq/linux/how-to-use-flatpak/
 ---
 
-OM-i installimiseks Linuxile koos flatpakiga avage terminal ja sisestage käsk "flatpak install flathub app.organicmaps.desktop".
+OM-i installimiseks Linuxile koos flatpakiga ava terminal ja sisesta käsk "flatpak install flathub app.organicmaps.desktop".
 
-Kui rakendus on installitud, saate selle piirkonna kaartide allalaadimiseks kasutada hiire kerimisratast või parempoolsel menüüribal olevaid juhtnuppe, et suumida piirkonda, kus soovite navigeerida. Samuti võite klõpsata paremas alanurgas ikooni "allalaadimine". Kui olete teile oluliste piirkondade kaardid alla laadinud, peaks rakendus töötama ka ilma Interneti-ühenduseta. 
+Kui rakendus on installitud, saad selle piirkonna kaartide allalaadimiseks kasutada hiire kerimisratast või parempoolsel menüüribal olevaid juhtnuppe, et suumida piirkonda, kus soovid navigeerida. Samuti võid klõpsata paremas alanurgas ikooni "allalaadimine". Kui oled sulle oluliste piirkondade kaardid alla laadinud, peaks rakendus töötama ka ilma Interneti-ühenduseta. 
 
-Abiteksti nägemiseks hõljutage kursorit erinevate ikoonide kohal. 
+Abiteksti nägemiseks hõljuta kursorit erinevate ikoonide kohal. 
 
-Marsruudi määramiseks ja pöörde kaupa navigeerimiseks on teil paar võimalust. kui teate oma algus- ja lõpp-punkti GPS-koordinaate, võite klõpsata sätete ikoonil (rohelise linnukese kohal) ja sisestada oma alguspunkti ja sihtkoha koordinaadid. Kaardil alguspunkti määramiseks klõpsake navigeerimisikooni ja valige "Start point", seejärel hoidke all tõstuklahvi ja tehke kaardil vasakklõps. Sihtkoha määramiseks valige "lõpp-punkt" ja klõpsake kaardil asukohta.
+Marsruudi määramiseks ja pöörde kaupa navigeerimiseks on sul paar võimalust. kui tead oma algus- ja lõpp-punkti GPS-koordinaate, võid klõpsata sätete ikoonil (rohelise linnukese kohal) ja sisestada oma alguspunkti ja sihtkoha koordinaadid. Kaardil alguspunkti määramiseks klõpsa navigeerimisikooni ja vali "Start point", seejärel hoia all tõstuklahvi ja tee kaardil vasakklõps. Sihtkoha määramiseks vali "lõpp-punkt" ja klõpsa kaardil asukohta.
 
 ![Algus- ja lõpp-punkti määramine](nav_points.png)
 
-Navigeerimise tühjendamiseks võite klõpsata sinisel ikoonil otse seadete ikooni kohal. 
+Navigeerimise tühjendamiseks võid klõpsata sinisel ikoonil otse seadete ikooni kohal. 
 
 ![tühjenda navigeerimine](clear_route.png)
 
-Aadresside ja sihtkohtade otsimiseks klõpsake suurendusklaasil ja sisestage aadress või otsingutermin.
+Aadresside ja sihtkohtade otsimiseks klõpsa suurendusklaasil ja sisesta aadress või otsingutermin.
 
-Asukoha järjehoidjatesse lisamiseks hoidke all klahvi Alt ja paremklõpsake kohta, mille soovite järjehoidjatesse lisada. Järjehoidja ei pruugi olla kohe nähtav. Järjehoidjate vaatamiseks ja haldamiseks peate klõpsama punase tärni ikoonil. 
+Asukoha järjehoidjatesse lisamiseks hoia all klahvi Alt ja paremklõpsa kohta, mille soovid järjehoidjatesse lisada. Järjehoidja ei pruugi olla kohe nähtav. Järjehoidjate vaatamiseks ja haldamiseks pead klõpsama punase tärni ikoonil. 
 
 ![järjehoidjate vaatamine](view_bookmarks.png)
 

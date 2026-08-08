@@ -6,7 +6,7 @@ taxonomies:
   news: ["beta"]
 ---
 
-Mynnwch y beta diweddaraf o Organic Maps ar <https://beta.omaps.org/> neu [lawrlwythwch yr APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
+Mynna'r beta diweddaraf o Organic Maps ar <https://beta.omaps.org/> neu [lawrlwytha'r APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - Data map OSM o 12 Mehefin
 - NEWYDD! Delweddau cefndir lloeren dewisol (Dewch o hyd i 'Teils map' yng ngosodiadau OM)
@@ -22,4 +22,4 @@ Mynnwch y beta diweddaraf o Organic Maps ar <https://beta.omaps.org/> neu [lawrl
 
 … a llawer mwy o welliannau a thrwsiadau bygiau!
 
-Eisiau mwy o nodweddion cŵl a llai o fygiau? [Rhowch](@/donate/index.cy.md) i gefnogi'r datblygiad!
+Eisiau mwy o nodweddion cŵl a llai o fygiau? [Rho](@/donate/index.cy.md) i gefnogi'r datblygiad!

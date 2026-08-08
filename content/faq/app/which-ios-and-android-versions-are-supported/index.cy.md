@@ -12,8 +12,8 @@ aliases:
   - /cy/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Mae angen o leiaf iOS 12 neu Android 5 arnoch i redeg yr ap. Gall dyfeisiau gyda fersiynau diweddarach redeg Organic Maps.
+Mae angen o leiaf iOS 12 neu Android 5 arnat i redeg yr ap. Gall dyfeisiau gyda fersiynau diweddarach redeg Organic Maps.
 
 Yn Android, gall Organic Maps weithio ar ddyfeisiau gyda Gwasanaethau Google wedi'u gosod a heb gefnogaeth Google.
 
-I ddefnyddio OM gyda Android Auto, gwiriwch y gofynion [yma] (../how-to-use-android-auto/).
+I ddefnyddio OM gyda Android Auto, gwiria'r gofynion [yma] (../how-to-use-android-auto/).

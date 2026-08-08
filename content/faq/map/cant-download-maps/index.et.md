@@ -13,6 +13,6 @@ aliases:
   - /et/faq/map/cant-download-maps/
 ---
 
-Teie allalaadimine võib ebaõnnestuda ajutise võrguvea või konkreetsete võrgupakkuja/ruuteri sätete (tulemüüri blokeerimine) tõttu. Proovige hiljem uuesti või kasutage teist WiFi-pääsupunkti. Lisaks veenduge, et teil oleks kaartide allalaadimiseks piisavalt vaba ruumi.
+Sinu allalaadimine võib ebaõnnestuda ajutise võrguvea või konkreetsete võrgupakkuja/ruuteri sätete (tulemüüri blokeerimine) tõttu. Proovi hiljem uuesti või kasuta teist WiFi-pääsupunkti. Lisaks veendu, et sul oleks kaartide allalaadimiseks piisavalt vaba ruumi.
 
-Samuti, kui teil on väga aegunud kaardid ja rakendus ei saa neid värskendada, võib abi olla vananenud kaartide kustutamisest ja uuesti allalaadimisest.
+Samuti, kui sul on väga aegunud kaardid ja rakendus ei saa neid värskendada, võib abi olla vananenud kaartide kustutamisest ja uuesti allalaadimisest.

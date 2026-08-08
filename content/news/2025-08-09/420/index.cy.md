@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Gosodwch ryddhad mis Awst Organic Maps, lawrlwythwch y mapiau diweddaraf, a darganfyddwch lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasgwch y botwm "Haenau" chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
+Gosoda ryddhad mis Awst Organic Maps, lawrlwytha'r mapiau diweddaraf, a darganfydda lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasga'r botwm "Haenau" chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
 
-A oeddech chi'n gwybod y gellir dewis unrhyw drac GPX/KML a gofnodwyd neu a fewnforiwyd ar y map? Bydd traciau gyda data uchder yn dangos eu graff uchder.
+A oeddet ti'n gwybod y gellir dewis unrhyw drac GPX/KML a gofnodwyd neu a fewnforiwyd ar y map? Bydd traciau gyda data uchder yn dangos eu graff uchder.
 
-I weld enwau nodau ar y map, galluogwch y nodwedd newydd hon yn osodiadau Organic Maps.
+I weld enwau nodau ar y map, galluoga'r nodwedd newydd hon yn osodiadau Organic Maps.
 
-Diolch i'n cyfranwyr ❤️ a'ch [rhoddion](@/donate/index.cy.md), mae llawer mwy yn y diweddariad hwn.
+Diolch i'n cyfranwyr ❤️ a dy [roddion](@/donate/index.cy.md), mae llawer mwy yn y diweddariad hwn.
 
-P.S. ...ac mae llawer mwy yn dod! Mae eich cefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
+P.S. ...ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
 
 ### Nodiadau Rhyddhad Manwl
 

@@ -7,13 +7,13 @@ taxonomies:
 
 Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat "Kihid" nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.
 
-Kas teadsite, et mistahes salvestatud või imporditud GPX/KML-rada kaardil saab valida? Kõrgusandmetega rajad näitavad oma kõrgusgraafikut.
+Kas teadsid, et mistahes salvestatud või imporditud GPX/KML-rada kaardil saab valida? Kõrgusandmetega rajad näitavad oma kõrgusgraafikut.
 
-Järjehoidjate nimede nägemiseks kaardil lülitage see uus funktsioon sisse Organic Maps-i seadetes.
+Järjehoidjate nimede nägemiseks kaardil lülita see uus funktsioon sisse Organic Maps-i seadetes.
 
-Tänu meie kaastöötajatele ❤️ ja teie [annetustele](@/donate/index.et.md) on selles värskenduses palju enamat.
+Tänu meie kaastöötajatele ❤️ ja sinu [annetustele](@/donate/index.et.md) on selles värskenduses palju enamat.
 
-P.S. ...ja palju enamat on tulemas! Teie toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
+P.S. ...ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
 
 ### Üksikasjalikud väljalaskemärkused
 

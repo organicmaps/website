@@ -4,7 +4,7 @@ date: 2025-12-31
 slug: "organic-maps-2025-aasta-ulevaade"
 ---
 
-Kuna 2025. aasta hakkab lõppema, soovime vaadata tagasi aastale, mõtiskleda oma saavutuste üle ja jagada teiega mõningaid teadmisi.
+Kuna 2025. aasta hakkab lõppema, soovime vaadata tagasi aastale, mõtiskleda oma saavutuste üle ja jagada sinuga mõningaid teadmisi.
 
 Vaatamata paljudele väljakutsetele saime taas rajale ja andsime sel aastal välja [13 rakenduse versiooni](/news/releases/) paljude täiustustega.
 Tutvustati mitmeid märkimisväärseid funktsioone, sealhulgas [ülemaailmsed matka- ja jalgrattateed OpenStreetMapist](@/news/2025-08-09/420/index.et.md) ning esimene samm ühistranspordi navigeerimise suunas, [kuvades bussipeatustes bussinumbreid](@/news/2025-09-01/430/index.et.md). Jätkuv töö Android SDK (mis täiendab olemasolevat [API-t][api]), renderdusmootori ja muude põhikomponentide kallal võimaldab meil 2026. aastal tutvustada uusi funktsioone.
@@ -26,7 +26,7 @@ Muud märkimisväärsed saavutused 2025. aastal on:
 - Kasutajad üle maailma laadisid 2025. aastal meie serveritest alla 10 petabaiti kaardiandmeid.
 #### Sotsiaalmeedia ja kogukond
 
-- Tänu teile kasvab ka meie sotsiaalmeedia statistika (jälgige meid, kui te seda veel teinud pole! 😊):
+- Tänu sulle kasvab ka meie sotsiaalmeedia statistika (jälgi meid, kui sa seda veel teinud pole! 😊):
    - [13 000 Fosstodonis][FOSStodon]
    - [6000 Telegramis][telegram]
    - [5000 X-is (Twitter)][twitter]
@@ -38,9 +38,9 @@ Muud märkimisväärsed saavutused 2025. aastal on:
    - [355 Threadsis][threads]
    - [275 TikTokis][tiktok]
    - [251 BlueSkys][bluesky]
-- Liituge 2600 beetatestijaga [iOS-is][testflight] ja peaaegu 2000-ga [Androidis][firebase], kes aitavad meil uusi funktsioone testida ja probleemidest teatada.
+- Liitu 2600 beetatestijaga [iOS-is][testflight] ja peaaegu 2000-ga [Androidis][firebase], kes aitavad meil uusi funktsioone testida ja probleemidest teatada.
 - Peaaegu 1000 kasutajat osales [küsitluses enim soovitud puuduva funktsiooni kohta](https://t.me/OrganicMapsApp/568), kus ühistransport oli 1. kohal, liiklusinfo 2. kohal ja parem otsing 3. kohal.
-- Toetame kohalikke Organic Mapsi kogukondi Telegramis. Liituge meie [inglise][telegram_chat], [saksa][telegram_chat_de], [prantsuse][telegram_chat_fr], [itaalia][telegram_chat_it], [hispaania][telegram_chat_es], [türgi][telegram_chat_tr], [ukraina][telegram_chat_uk], [vene][telegram_chat_ru], [hiina][telegram_chat_zh], [araabia][telegram_chat_ar] ja [pärsia][telegram_chat_fa] keelt kõnelevate kogukondadega.
+- Toetame kohalikke Organic Mapsi kogukondi Telegramis. Liitu meie [inglise][telegram_chat], [saksa][telegram_chat_de], [prantsuse][telegram_chat_fr], [itaalia][telegram_chat_it], [hispaania][telegram_chat_es], [türgi][telegram_chat_tr], [ukraina][telegram_chat_uk], [vene][telegram_chat_ru], [hiina][telegram_chat_zh], [araabia][telegram_chat_ar] ja [pärsia][telegram_chat_fa] keelt kõnelevate kogukondadega.
 
 Midagi sellest poleks saavutatud ilma teieta: meie kasutajad, meie [kaastöötajad](@/contribute/index.et.md), meie toetajad. Iga commit, veaparandus, [annetus](@/donate/index.et.md) ja isegi tärn GitHubis, hääl Telegramis või poe hinnang aitab meil jõuda lähemale meie eesmärgile muuta tasuta, avatud lähtekoodiga ja privaatsust austavad kaardid kõigile kättesaadavamaks. Aitäh!
 

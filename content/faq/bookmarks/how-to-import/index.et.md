@@ -1,7 +1,7 @@
 ---
 title: Kuidas importida järjehoidjaid ja lugusid KML-, KMZ-, KMB- või GPX-vormingus?
 slug: kuidas-importida-järjehoidjaid-ja-lugusid-kml-kmz-kmb-või-gpx-vormingus
-description: Üksikasjalikud juhised teiega KML-, KMZ-, KMB- või GPX-vormingus jagatud
+description: Üksikasjalikud juhised sinuga KML-, KMZ-, KMB- või GPX-vormingus jagatud
   järjehoidjate ja lugude importimiseks
 updated: '2024-06-20'
 taxonomies:
@@ -13,18 +13,18 @@ aliases:
   - /et/faq/bookmarks/how-to-import/
 ---
 
-Saate importida Organic Mapsist või kolmanda osapoole rakendustest saadetud järjehoidjaid, kui need ekspordivad järjehoidjaid KML-, KMZ-, KMB- või GPX-vormingus.
+Saad importida Organic Mapsist või kolmanda osapoole rakendustest saadetud järjehoidjaid, kui need ekspordivad järjehoidjaid KML-, KMZ-, KMB- või GPX-vormingus.
 
-Ühe faili importimiseks toimige järgmiselt.
+Ühe faili importimiseks toimi järgmiselt.
 
-1. Otsige üles jagatud KML-, KMZ-, KMB-, GPX-fail koos järjehoidjatega, mis on saadetud meili, kiirsõnumi või pilvesalvestusega, näiteks iCloud või Google Drive.
+1. Otsi üles jagatud KML-, KMZ-, KMB-, GPX-fail koos järjehoidjatega, mis on saadetud meili, kiirsõnumi või pilvesalvestusega, näiteks iCloud või Google Drive.
 
-2. Puudutage üks kord või puudutage ja hoidke järjehoidjatega KML-, KMZ-, KMB-, GPX-faili ja valige hüpikaknas Ava Organic Mapsiga (Android) või "Impordi Organic Mapsiga" (iOS).
+2. Puuduta üks kord või puuduta ja hoia järjehoidjatega KML-, KMZ-, KMB-, GPX-faili ja vali hüpikaknas Ava Organic Mapsiga (Android) või "Impordi Organic Mapsiga" (iOS).
 
-3. See avaneb Organic Mapsiga ja näete teadet „Järjehoidjad on edukalt laaditud!”. Leiate need kaardilt või järjehoidjate menüü ekraanilt.
+3. See avaneb Organic Mapsiga ja näed teadet „Järjehoidjad on edukalt laaditud!”. Leiad need kaardilt või järjehoidjate menüü ekraanilt.
 
 Järjehoidjate ja radade importimine partiidena on samuti võimalik:
 
-1. Avage Organic Maps ja puudutage järjehoidjate ja radade loendi avamiseks tärninuppu. Vajutage nuppu "Impordi järjehoidjad ja rajad".
+1. Ava Organic Maps ja puuduta järjehoidjate ja radade loendi avamiseks tärninuppu. Vajuta nuppu "Impordi järjehoidjad ja rajad".
 
-2. Valige KML-, KMZ-, KMB-, GPX-failidega kaust. Organic Maps skannib selle, sealhulgas alamkaustad, ja impordib kõik toetatud failid koos järjehoidjate ja radadega. Saate valida kogu salvestusruumi otsimiseks juurkausta.
+2. Vali KML-, KMZ-, KMB-, GPX-failidega kaust. Organic Maps skannib selle, sealhulgas alamkaustad, ja impordib kõik toetatud failid koos järjehoidjate ja radadega. Saad valida kogu salvestusruumi otsimiseks juurkausta.

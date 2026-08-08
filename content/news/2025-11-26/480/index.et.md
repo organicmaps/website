@@ -9,15 +9,15 @@ taxonomies:
 Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps.app/get> või [App Store'ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] ja [F-Droidist][fdroid].
 
 ## Väljalaskemärkmed
-- Vikipeedia artiklid kohtade kohta on nüüd saadaval türgi, jaapani ja hiina keeles. Sisestage otsingus `?wiki`, et leida kaardil artiklitega kohti. _(Alexander Borsuk)_
+- Vikipeedia artiklid kohtade kohta on nüüd saadaval türgi, jaapani ja hiina keeles. Sisesta otsingus `?wiki`, et leida kaardil artiklitega kohti. _(Alexander Borsuk)_
 - Lisati seadistus, mis tõstab kaardil visuaalselt esile allalaaditud piirkonnad lillaga. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMapi andmed uuendatud seisuga 23. november 2025. _(Viktor Govako)_
 
 ### iOS
-- UUS! Saate järjehoidja või raja nime muuta otse koha teabelehel, puudutades nime. _(Kiryl Kaveryn)_
+- UUS! Saad järjehoidja või raja nime muuta otse koha teabelehel, puudutades nime. _(Kiryl Kaveryn)_
 - Lisati tugi iOS 26 ja macOS 26 "Liquid Glass" jaoks. _(Kiryl Kaveryn)_
 - Pikk puudutus valitud koha või järjehoidja nimel või aadressil kopeerib selle lõikelauale. _(Kiryl Kaveryn)_
-- Puudutage koha teabelehel loendi nime, et valida järjehoidjale või rajale uus loend, ja kasutage uut otsingut, et kiiresti leida soovitud loend. _(Kiryl Kaveryn)_
+- Puuduta koha teabelehel loendi nime, et valida järjehoidjale või rajale uus loend, ja kasuta uut otsingut, et kiiresti leida soovitud loend. _(Kiryl Kaveryn)_
 - Parandati kaardi paigutus navigeerimise ajal iPadis, et marsruut jääks selgelt nähtavaks. _(Kiryl Kaveryn)_
 - Parandati küljenuppude animatsioonid ja "Laadi kaardid alla" nupu värv tumedas teemas. _(Kiryl Kaveryn)_
 
@@ -33,21 +33,21 @@ Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps
 - Jalgrattamarsruutimine jätab nüüd Austrias vahele ühesuunalised elutänavad. _(Viktor Govako)_
 - Täiustatud GeoJSON import, sealhulgas `Saved Places.json` järjehoidjad [Google Takeoutist](https://takeout.google.com/) _(Sergiy Kozyr)_
 - `.json` faile saab nüüd importida ka `.geojson` failidena. _(Alexander Borsuk)_
-- Kui liigutate raja loendisse, muutub see loend uute järjehoidjate ja radade vaikimisi loendiks. _(Kiryl Kaveryn)_
+- Kui liigutad raja loendisse, muutub see loend uute järjehoidjate ja radade vaikimisi loendiks. _(Kiryl Kaveryn)_
 - Uuendati tõlkeid mitmetes keeltes, sealhulgas parandus heebrea keele jaoks. _(Alexander Borsuk, Michael Zeevi)_
 - Lihtsustatud ringristmiku juhised. _(Viktor Govako)_
 
 ### Eelmised väljalaskemärkmed
 
-Lugege [eelmisi väljalaskemärkmeid](@/news/2025-11-11/470/index.et.md), kui teil need vahele jäid.
+Loe [eelmisi väljalaskemärkmeid](@/news/2025-11-11/470/index.et.md), kui sul need vahele jäid.
 
 ### Beetatestimise programm
 
-Liituge beetatestimisega, et saada varajast juurdepääsu uutele funktsioonidele ja aidata meil vigu varem leida:
+Liitu beetatestimisega, et saada varajast juurdepääsu uutele funktsioonidele ja aidata meil vigu varem leida:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps poleks võimalik ilma teie [annetuste](@/donate/index.et.md), [panuse ja toetuseta](@/contribute/index.et.md) ❤️
+Organic Maps poleks võimalik ilma sinu [annetuste](@/donate/index.et.md), [panuse ja toetuseta](@/contribute/index.et.md) ❤️
 
 Hoolimise ja armastusega,
 Organic Mapsi meeskond

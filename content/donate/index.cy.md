@@ -1,13 +1,13 @@
 ---
-title: Rhoddwch i gefnogi datblygiad Organic Maps
-description: Mae eich arian yn talu am bob cost sy'n gysylltiedig â'r prosiect ac yn ein cymell i wella Organic Maps.
+title: Rhodda i gefnogi datblygiad Organic Maps
+description: Mae dy arian yn talu am bob cost sy'n gysylltiedig â'r prosiect ac yn ein cymell i wella Organic Maps.
 weight: 10
 extra:
-  menu_title: Rhoddwch
+  menu_title: Rhodda
   preview_image: donate/donate.png
 ---
 
-Mae ap Organic Maps yn _rhwydd i bawb_ diolch i'ch **[rhoddion][stripe]** yn **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
 
 - Dim hysbysebion
 - Dim traciwr
@@ -15,7 +15,7 @@ Mae ap Organic Maps yn _rhwydd i bawb_ diolch i'ch **[rhoddion][stripe]** yn **[
 - Dim hysbysiadau gwthio
 - Cod agored
 
-Cliciwch ar eich dull talu dewisol isod:
+Clicia ar dy ddull talu dewisol isod:
 
 {{ donate_buttons() }}
 
@@ -23,7 +23,7 @@ Cliciwch ar eich dull talu dewisol isod:
 
 1. Ein nod yw darparu dewis amgen sy'n canolbwyntio ar breifatrwydd, yn gyflym ac yn hawdd i'w ddefnyddio i Google Maps ac Apple Maps.
 2. Gwella data map cyhoeddus ar gyfer y nifer o wefannau, apiau a llwyfannau sy'n defnyddio OpenStreetMap, ac annog mwy o bobl i gyfrannu gwybodaeth map yw ein nod arall.
-3. Rydym yn dibynnu ar eich rhoddion i gadw Organic Maps yn agored ac yn rhydd i bawb.
+3. Rydym yn dibynnu ar dy roddion i gadw Organic Maps yn agored ac yn rhydd i bawb.
    Ac yn rhydd o hysbysebion.
 4. Rydym yn caru'r hyn rydym yn ei wneud, ac yn caru ein defnyddwyr ❤️.
 
@@ -45,11 +45,11 @@ Cliciwch ar eich dull talu dewisol isod:
    - Cysgodi bryniau a thirwedd 3D
    - Golygydd OpenStreetMap mwy datblygedig
    - Gwell chwilio cyfeiriad all-lein, llwybro a llywio
-   - ... a [llawer o nodweddion eraill][github issues] rydych chi eisiau ac yn eu caru
+   - ... a [llawer o nodweddion eraill][github issues] rwyt ti eisiau ac yn eu caru
 
 ## Sut i roi?
 
-Cliciwch ar eich dull talu dewisol isod:
+Clicia ar dy ddull talu dewisol isod:
 
 {{ donate_buttons() }}
 
@@ -61,12 +61,12 @@ Rhoddion ailadroddus yw'r ffordd orau o sicrhau incwm cymharol sefydlog i'r pros
 
 ### Crypto
 
-Ystyriwch roi'n flynyddol i leihau cyfanswm y ffioedd.
+Ystyria roi'n flynyddol i leihau cyfanswm y ffioedd.
 
 {{ crypto_table() }}
 
-## Allwch chi helpu mewn unrhyw ffordd arall?
+## Elli di helpu mewn unrhyw ffordd arall?
 
-Gallwch! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.
+Gelli! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.
 
 {{ references() }}

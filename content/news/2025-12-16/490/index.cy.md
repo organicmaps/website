@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nadolig Llawen a Blwyddyn Newydd Dda gan dîm Organic Maps. Chwilio am ysbryd y gwyliau? Chwiliwch am `Christmas Market` neu `Christmas Tree` i'w gweld ar y map. Os nad oes dim yn ymddangos yn eich ardal chi, ychwanegwch y nodweddion coll ar OpenStreetMap.org a gwella'r map i bawb!
+Nadolig Llawen a Blwyddyn Newydd Dda gan dîm Organic Maps. Chwilio am ysbryd y gwyliau? Chwilia am `Christmas Market` neu `Christmas Tree` i'w gweld ar y map. Os nad oes dim yn ymddangos yn dy ardal di, ychwanega'r nodweddion coll ar OpenStreetMap.org a gwella'r map i bawb!
 
-Gosodwch Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
+Gosoda Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
 
 ### Nodiadau rhyddhau
 - Mae coed Nadolig a marchnadoedd bellach yn ymddangos ar y map (Viktor Govako)
@@ -33,11 +33,11 @@ Gosodwch Organic Maps o <https://omaps.app/get> neu o [App Store][appstore], [Go
 - Mae synhwyrydd lleoliad y car yn Android Auto wedi'i analluogi i osgoi problemau lleoliad (Andrei Shkrob)
 - Mae recordio trac yn parhau hyd yn oed os yw'r ap yn cael ei ladd neu ei gau (Alexander Borsuk)
 
-Ymunwch â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
+Ymuna â phrofion beta i roi cynnig ar nodweddion cynnar ac adrodd am faterion:
 - [iOS][testflight]
 - [Android][firebase]
 
-Mae Organic Maps yn bodoli diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [cyfraniadau](@/contribute/index.cy.md). Diolch! ❤️
+Mae Organic Maps yn bodoli diolch i dy [roddion](@/donate/index.cy.md) a dy [gyfraniadau](@/contribute/index.cy.md). Diolch! ❤️
 
 Tîm Organic Maps
 

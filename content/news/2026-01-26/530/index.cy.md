@@ -8,7 +8,7 @@ taxonomies:
 
 Mae'n bryd diweddaru Organic Maps! Llwybrau cyflymach rhwng gwledydd a rhanbarthau, data map OSM ffres, a llawer o drwsiadau bygiau ar gyfer Android yn ail ddiweddariad yr ap yn 2026.
 
-Gosodwch ef o [get.omaps.org](https://get.omaps.org) neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ac [F-Droid][fdroid].
+Gosoda ef o [get.omaps.org](https://get.omaps.org) neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ac [F-Droid][fdroid].
 
 ### Beth sy'n Newydd
 
@@ -40,11 +40,11 @@ Gosodwch ef o [get.omaps.org](https://get.omaps.org) neu o [App Store][appstore]
 * Cyfieithiadau coll wedi'u hychwanegu ar gyfer pontydd segur _(Alexander Borsuk)_
 
 
-Ymunwch â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:
+Ymuna â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Rhowch](@/donate/index.cy.md) a [chyfrannu](@/contribute/index.cy.md) i adeiladu dewis arall gwell sy'n canolbwyntio ar breifatrwydd i Fapiau Apple a Google.
+[Rho](@/donate/index.cy.md) a [chyfrannu](@/contribute/index.cy.md) i adeiladu dewis arall gwell sy'n canolbwyntio ar breifatrwydd i Fapiau Apple a Google.
 
 Gyda chariad,
 Y Tîm Organic Maps

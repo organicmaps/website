@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Tutvuge teise Organic Maps maikuu värskendusega koos paranduste ja täiustustega (lisateave allpool). Organic Maps meeskond on tänulik kõigile, kes projekti toetavad, [annetab](@/donate/index.et.md), levitab sõna, kirjutab häid arvustusi ja [aitab kaasa](@/contribute/index.et.md) sellele. Tulemas on rohkem uusi funktsioone, sealhulgas täiustatud [ühistransport](@/news/2026-05-08/580/index.et.md), püsi lainel!
+Tutvu teise Organic Maps maikuu värskendusega koos paranduste ja täiustustega (lisateave allpool). Organic Maps meeskond on tänulik kõigile, kes projekti toetavad, [annetab](@/donate/index.et.md), levitab sõna, kirjutab häid arvustusi ja [aitab kaasa](@/contribute/index.et.md) sellele. Tulemas on rohkem uusi funktsioone, sealhulgas täiustatud [ühistransport](@/news/2026-05-08/580/index.et.md), püsi lainel!
 
-Saate uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
+Saad uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
 
 ### Kõik platvormid
 
@@ -35,7 +35,7 @@ Saate uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Go
 
 ### iOS
 
-- UUS! Nüüd on toetatud raja tekst ja HTML kirjeldused, samamoodi nagu järjehoidjate kirjeldused. Kirjelduse lisamiseks vajutage pliiatsi ikooni. _(Kiryl Kaveryn)_
+- UUS! Nüüd on toetatud raja tekst ja HTML kirjeldused, samamoodi nagu järjehoidjate kirjeldused. Kirjelduse lisamiseks vajuta pliiatsi ikooni. _(Kiryl Kaveryn)_
 - Text-to-Speech (TTS) valib nüüd keele jaoks parima paigaldatud hääle (täiustatud / Premium). Vaata Organic Maps seaded, kuidas kvaliteetsemat häält alla laadida. _(Kiryl Kaveryn)_
 - Parandatud raja ümbernimetamise viga, mille tõttu ei uuendatud uut nime korralikult _(Kiryl Kaveryn)_
 - CarPlay: parandatud asukoha tsentreerimise nupp _(Kiryl Kaveryn)_
@@ -43,21 +43,21 @@ Saate uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Go
 
 ### Android
 
-- UUS! Raja tekst ja HTML kirjeldused on nüüd toetatud, samamoodi nagu järjehoidjate kirjeldused. Kirjelduse lisamiseks vajutage pliiatsi ikooni. _(Mikhail Listratsenka)_
-- UUS! Valige radade jaoks mis tahes värvi, mitte ainult piiratud alamhulk _(Mikhail Listratsenka)_
+- UUS! Raja tekst ja HTML kirjeldused on nüüd toetatud, samamoodi nagu järjehoidjate kirjeldused. Kirjelduse lisamiseks vajuta pliiatsi ikooni. _(Mikhail Listratsenka)_
+- UUS! Vali radade jaoks mis tahes värvi, mitte ainult piiratud alamhulk _(Mikhail Listratsenka)_
 - Korea, hiina ja jaapani keele kasutajad näevad nüüd õigeid kirjatüüpe vastavalt seadme asukohale _(Alexander Borsuk)_
 - Parandatud raja kohalehekülje probleemid ja "Ava sisse" nupp _(Mikhail Listratsenka)_
 
 ### Linux ja macOS
 - `.desktop` faili kommentaaridesse lisati hiina keele tõlked _(DeepChirp)_
 
-## Liituge beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:
+## Liitu beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:
 
 - [iOS][testflight]
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]
 
-Reisige hõlpsasti ja leidke oma seiklused koos Organic Maps! ✈️🚅🚌🚢🌴🗺️🌎
+Reisi hõlpsasti ja leia oma seiklused koos Organic Maps! ✈️🚅🚌🚢🌴🗺️🌎
 
 Organic Maps meeskond
 

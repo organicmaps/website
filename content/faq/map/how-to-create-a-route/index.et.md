@@ -12,17 +12,17 @@ aliases:
   - /et/faq/map/how-to-create-a-route/
 ---
 
-Kui teie asukoht on kaardil kindlaks määratud, valige sihtkoht.
-Võite kasutada ühte järgmistest viisidest.
+Kui sinu asukoht on kaardil kindlaks määratud, vali sihtkoht.
+Võid kasutada ühte järgmistest viisidest.
 
 * puuduta otsingunuppu
-* puudutage järjehoidjate nuppu
-* puudutage mis tahes kohta kaardil
+* puuduta järjehoidjate nuppu
+* puuduta mis tahes kohta kaardil
 
-Kui olete sihtpunkti valinud, vajutage allosas nuppu "Marsruut". Marsruut luuakse ja näete vahemaad ja hinnangulist reisiaega. Saate muuta marsruudi tüüpi, vajutades ekraani ülaosas ikooni auto, jalakäija, metroo, jalgratas või joonlaud. Marsruudi jälgimise alustamiseks puuduta nuppu "Alusta". Vajutage noolemärki ekraani paremas alanurgas ja puudutage marsruudi lõpetamiseks Stopp.
+Kui oled sihtpunkti valinud, vajuta allosas nuppu "Marsruut". Marsruut luuakse ja näed vahemaad ja hinnangulist reisiaega. Saad muuta marsruudi tüüpi, vajutades ekraani ülaosas ikooni auto, jalakäija, metroo, jalgratas või joonlaud. Marsruudi jälgimise alustamiseks puuduta nuppu "Alusta". Vajuta noolemärki ekraani paremas alanurgas ja puuduta marsruudi lõpetamiseks Stopp.
 
-Marsruudi eelvaate kuvamiseks saate valida erineva alguspunkti (nupp „Marsruut asukohast“, kuid navigeerimine on saadaval ainult teie praegusest asukohast).
+Marsruudi eelvaate kuvamiseks saad valida erineva alguspunkti (nupp „Marsruut asukohast“, kuid navigeerimine on saadaval ainult sinu praegusest asukohast).
 
-Saate marsruudile lisada kuni 100 vahepunkti. Vahepunkti lisamiseks loo marsruut alguse ja sihtkoha vahel, seejärel puuduta punkti kaardil (või vali see järjehoidjatest/otsingu abil) ja puuduta “Lisa peatus”.
+Saad marsruudile lisada kuni 100 vahepunkti. Vahepunkti lisamiseks loo marsruut alguse ja sihtkoha vahel, seejärel puuduta punkti kaardil (või vali see järjehoidjatest/otsingu abil) ja puuduta “Lisa peatus”.
 
-Saate muuta auto marsruudi seadeid ja valida teetüübid, mida soovite vältida (maksutasud, katmata teed, kiirteed, praamid). Avage rakenduse seaded → Marsruutimise valikud → Lülitage vajalikud suvandid sisse. Vältimisvalikud kuvatakse ka marsruudi koostamisel, kui suvandite muutmine võib marsruuti muuta.
+Saad muuta auto marsruudi seadeid ja valida teetüübid, mida soovid vältida (maksutasud, katmata teed, kiirteed, praamid). Ava rakenduse seaded → Marsruutimise valikud → Lülita vajalikud suvandid sisse. Vältimisvalikud kuvatakse ka marsruudi koostamisel, kui suvandite muutmine võib marsruuti muuta.

@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nawr, pan dewch chi safle bws neu dram, gallwch weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd ("Ychwanegu Lleoliad" a "Golygu Lleoliad").
+Nawr, pan ddoi di safle bws neu dram, gelli weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd ("Ychwanegu Lleoliad" a "Golygu Lleoliad").
 
-Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [eich rhoddion](@/donate/index.cy.md) a'ch [cefnogaeth](@/contribute/index.cy.md).
+Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate/index.cy.md) a dy [gefnogaeth](@/contribute/index.cy.md).
 
 ### Nodiadau Rhyddhad Manwl
 
@@ -44,10 +44,10 @@ Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [eich rhoddion](@/don
 - Trefn wreiddiol lliwiau nod/trac rhagosodedig wedi'i hadfer (Andrei Shkrob)
 - Botwm "Clirio Chwilio" wedi'i gywiro wrth olygu ceginau (Ansh Jain)
 
-Cewch fersiwn ddiweddaraf Medi o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
+Cei fersiwn ddiweddaraf Medi o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 
-Os nad ydych wedi'i roi cynnig arni eto, gallwch nawr alluogi nodwedd yn osodiadau Organic Maps i weld enwau nodau ar y map. Hefyd, mae eicon pensil ✎ bellach yn cael ei ddefnyddio fel ffordd gyflymach o olygu nodau.
+Os nad wyt wedi'i roi cynnig arni eto, gelli nawr alluogi nodwedd yn osodiadau Organic Maps i weld enwau nodau ar y map. Hefyd, mae eicon pensil ✎ bellach yn cael ei ddefnyddio fel ffordd gyflymach o olygu nodau.
 
-P.S. Peidiwch ag anghofio, gallwch gofrestru ar gyfer ein rhaglen profi beta i gael mynediad cynnar i nodweddion arbrofol a'r rhai sydd i ddod—[ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
+P.S. Paid ag anghofio, gelli gofrestru ar gyfer ein rhaglen profi beta i gael mynediad cynnar i nodweddion arbrofol a'r rhai sydd i ddod—[ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
 
 {{ references() }}

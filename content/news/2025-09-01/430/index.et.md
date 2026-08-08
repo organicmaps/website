@@ -7,7 +7,7 @@ taxonomies:
 
 Nüüd, kui valid bussi- või trammipeatuse, saad näha ühistranspordi marsruudinumbreid. See on ainult esimene samm! Järgmisena kavatseme näidata ühistranspordi marsruute otse kaardil. iOS kasutajad saavad samuti nautida ümber kujundatud OpenStreetMap panustamise nuppe ("Lisa koht" ja "Redigeeri kohta").
 
-Oleme tänulikud ❤️ oma panustajatele, samuti [teie annetuste](@/donate/index.et.md) ja [teie toe](@/contribute/index.et.md) eest.
+Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/index.et.md) ja [sinu toe](@/contribute/index.et.md) eest.
 
 ### Üksikasjalikud väljaande märkused
 

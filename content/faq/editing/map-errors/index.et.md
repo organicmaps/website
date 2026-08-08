@@ -15,12 +15,12 @@ aliases:
 
 Meie kaardiandmete allikas on [OpenStreetMap](https://www.openstreetmap.org/) (OSM). See on Vikipeediaga sarnane kaardistamisprojekt, kuid kaartide jaoks, kus igaüks saab luua ja muuta maailmakaarti.
 
-Kui näete ebaõiget teavet või kui leiate, et kaardil on mõni objekt puudu, võite [jätke märkus](https://www.openstreetmap.org/note/new) OSM-i vabatahtlikele või [registreeruda](https://www.openstreetmap.org/user/new) ja kaarti redigeerida.
+Kui näed ebaõiget teavet või kui leiad, et kaardil on mõni objekt puudu, võid [jäta märkus](https://www.openstreetmap.org/note/new) OSM-i vabatahtlikele või [registreeruda](https://www.openstreetmap.org/user/new) ja kaarti redigeerida.
 
 Mida rohkem inimesi panustab, seda üksikasjalikumad kaardid saavad kõik. Usume, et avatud kogukonna loodud kõige detailsem kogu maailma kaart on vaid aja küsimus.
 
 **Märkused:**
 
-* Samuti saate otse Organic Mapsis lisada uusi kohti, muuta olemasolevaid huvipunkte ja hooneteavet (aadressid, lahtiolekuajad, nimed). Kui olete OSM-i kontoga sisse loginud, laaditakse teie muudatused automaatselt OSM-i üles. Olge muutmisel ettevaatlik, kuna teie muudatused on nähtavad kõigile teistele kasutajatele.
+* Samuti saad otse Organic Mapsis lisada uusi kohti, muuta olemasolevaid huvipunkte ja hooneteavet (aadressid, lahtiolekuajad, nimed). Kui oled OSM-i kontoga sisse loginud, laaditakse sinu muudatused automaatselt OSM-i üles. Ole muutmisel ettevaatlik, kuna sinu muudatused on nähtavad kõigile teistele kasutajatele.
 
-* OpenStreetMapi andmebaasi uuendatakse iga minuti järel. Meie eesmärk on värskendada rakenduses kaarte 1–4 korda kuus. Kui muutsite midagi OSM-is, ilmuvad teie muudatused tulevastes kaardivärskendustes.
+* OpenStreetMapi andmebaasi uuendatakse iga minuti järel. Meie eesmärk on värskendada rakenduses kaarte 1–4 korda kuus. Kui muutsid midagi OSM-is, ilmuvad sinu muudatused tulevastes kaardivärskendustes.

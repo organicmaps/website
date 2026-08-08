@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Gadewch i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein holl gyfranwyr! Gosodwch ef o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
+Gad i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein holl gyfranwyr! Gosoda ef o <https://omaps.app/get> neu o [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid]
 
 ### Nodiadau rhyddhau (pob platfform)
 
@@ -42,11 +42,11 @@ Gadewch i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan 
 * Trwsiwyd cyhoeddiadau arweiniad llais TTS coll (Alexander Borsuk)
 
 
-Ymunwch â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar faterion:
+Ymuna â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar faterion:
 - [iOS][testflight]
 - [Android][firebase]
 
-Mae Organic Maps yn bodoli diolch i'ch [rhoddion](@/donate/index.cy.md) a'ch [cyfraniadau](@/contribute/index.cy.md) ❤️
+Mae Organic Maps yn bodoli diolch i dy [roddion](@/donate/index.cy.md) a dy [gyfraniadau](@/contribute/index.cy.md) ❤️
 
 Tîm Organic Maps
 

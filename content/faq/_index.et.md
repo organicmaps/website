@@ -1,6 +1,6 @@
 ---
 title: Korduma Kippuvad Küsimused
-description: Siit leiate vastused paljudele küsimustele Organic Maps rakenduse, meie kaastöötajate ja projekti kohta
+description: Siit leiad vastused paljudele küsimustele Organic Maps rakenduse, meie kaastöötajate ja projekti kohta
 extra:
   menu_title: KKK
 ---

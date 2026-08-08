@@ -8,7 +8,7 @@ taxonomies:
 
 On aeg värskendada Organic Maps! Kiiremad riikide- ja piirkondadevahelised marsruudid, värske OSM-kaardi andmed ja palju veaparandusi Androidi jaoks 2026. aasta teises rakenduse värskenduses.
 
-Installige see aadressilt [get.omaps.org](https://get.omaps.org) või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
+Installi see aadressilt [get.omaps.org](https://get.omaps.org) või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
 
 ### Mis on uut
 
@@ -40,7 +40,7 @@ Installige see aadressilt [get.omaps.org](https://get.omaps.org) või [App Store
 * Lisatud puuduvad tõlked kasutusest väljas olevate sildade jaoks _(Alexander Borsuk)_
 
 
-Liituge beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:
+Liitu beetatestimisega, et proovida varajasi funktsioone ja teatada probleemidest:
 - [iOS][testflight]
 - [Android][firebase]
 

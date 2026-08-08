@@ -5,11 +5,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Cyfarwyddwch â diweddariad Gorffennaf Organic Maps gyda llawer o drwsiadau a gwelliannau, diolch i'n cyfranwyr ❤️💪! Mae'r diweddariad eisoes ar gael yn yr [AppStore][appstore], [Obtainium][obtainium] ac [Accrescent][accrescent], a bydd yn barod yn [Google Play][googleplay], [Huawei AppGallery][appgallery], ac [FDroid][fdroid] mewn ychydig ddiwrnodau.
+Cyfarwydda â diweddariad Gorffennaf Organic Maps gyda llawer o drwsiadau a gwelliannau, diolch i'n cyfranwyr ❤️💪! Mae'r diweddariad eisoes ar gael yn yr [AppStore][appstore], [Obtainium][obtainium] ac [Accrescent][accrescent], a bydd yn barod yn [Google Play][googleplay], [Huawei AppGallery][appgallery], ac [FDroid][fdroid] mewn ychydig ddiwrnodau.
 
-Mae [eich rhoddion](@/donate/index.cy.md) a'ch [cefnogaeth](@/contribute/index.cy.md), [adroddiadau nam][github issues] a [gwelliannau][github] yn ein helpu i wneud mapiau gwell gyda'n gilydd!
+Mae [dy roddion](@/donate/index.cy.md) a dy [gefnogaeth](@/contribute/index.cy.md), [adroddiadau nam][github issues] a [gwelliannau][github] yn ein helpu i wneud mapiau gwell gyda'n gilydd!
 
-Peidiwch ag anghofio y gallwch chi gofrestru ar gyfer y rhaglen profi beta i gael mynediad cynharach i nodweddion arbrofol a'r rhai sydd i ddod [ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
+Paid ag anghofio y gelli di gofrestru ar gyfer y rhaglen profi beta i gael mynediad cynharach i nodweddion arbrofol a'r rhai sydd i ddod [ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
 
 Y rhestr lawn o newidiadau:
 - Data map OSM newydd hyd at 8 Gorffennaf, data Wicipedia hyd at 1 Gorffennaf
@@ -20,7 +20,7 @@ Y rhestr lawn o newidiadau:
 - Eicon newydd Nodau Tudalen a Traciau ar y map i helpu defnyddwyr ddod o hyd i'w traciau wedi'u recordio neu eu mewnforio (_@euf_)
 - Mae gorsafoedd gwefru bellach yn cael eu heicon unigryw ar y map ac yn y chwilio (_David Martinez_)
 - Cadw dringo/uchder (_os yw'n bresennol_) wrth gadw llwybr (_Kiryl Kaveryn_)
-- Cyfieithiadau wedi'u diweddaru, gallwch helpu trwsio cyfieithiadau anghywir neu goll [yn Weblate][weblate]
+- Cyfieithiadau wedi'u diweddaru, gelli helpu trwsio cyfieithiadau anghywir neu goll [yn Weblate][weblate]
 
 Android:
 - Trwsiwyd y botwm Yn ôl nad oedd yn gweithio ar Android 16 (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 Newidiadau iOS, pob clod i _Kiryl Kaveryn_:
 - Gwell golygu nodau tudalen a thraciau: newid y lliw a'r rhestr yn uniongyrchol o'r Dudalen Gwybodaeth Trac
-- Nawr gallwch olygu neu ddileu'r trac a recordiwyd yn syth ar ôl ei gadw
+- Nawr gelli olygu neu ddileu'r trac a recordiwyd yn syth ar ôl ei gadw
 - Ardal tapio ehangu ar gyfer botymau
 - Trwsiwyd nodiadau OSM neidiol wrth deipio testun
 - Dangos botwm "Ychwanegu Lle" ar gyfer busnesau
 
-O.N. Os ydych chi'n hoffi darllen nodiadau rhyddhau manwl, rhowch wybod i ni ar ein [rhwydweithiau cymdeithasol](/#community)
+O.N. Os wyt ti'n hoffi darllen nodiadau rhyddhau manwl, rho wybod i ni ar ein [rhwydweithiau cymdeithasol](/#community)
 
 {{ references() }}

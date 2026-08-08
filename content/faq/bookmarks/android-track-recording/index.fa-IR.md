@@ -24,4 +24,4 @@ aliases:
 - اندروید 12
 - اندروید 11
 
-مراحل دقیق نحوه کارکردن نقشه های ارگانیک (و سایر برنامه ها) در پس زمینه در اینجا فهرست شده است: [dontkillmyapp.com] (https://dontkillmyapp.com)
+مراحل دقیق نحوه کارکردن Organic Maps (و سایر برنامه ها) در پس زمینه در اینجا فهرست شده است: [dontkillmyapp.com] (https://dontkillmyapp.com)

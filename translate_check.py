@@ -177,6 +177,49 @@ def mixed_script_words(text: str) -> list[str]:
     return bad
 
 
+# --------------------------------------------------------------- link diffing
+
+_LANG_SUFFIX = re.compile(r"/index\.[a-zA-Z]{2}(?:-[A-Za-z]+)?\.md\b")
+
+
+def _inline_targets(text: str) -> Counter:
+    """Inline-link targets, normalised so a correct translation matches source.
+
+    Three differences between a source and its translation are legitimate and
+    must not read as drift: the `@/…/index.LANG.md` suffix a translated link is
+    *required* to carry, an optional `"title"`, and padding inside the parens.
+    Leaving them in buried the real drift under noise — every localised link
+    showed up as one `missing` plus one `extra`.
+
+    Scanning for the balanced closing paren also fixes a truncation bug: with
+    `\\]\\(([^)]+)\\)` a URL containing a bracketed segment — Wikipedia's
+    `Çatal_(yazılım_geliştirme)` is one in the corpus — was cut at its first
+    inner `)`, so it never matched its own source.
+    """
+    targets: Counter = Counter()
+    for m in re.finditer(r"\]\(", text):
+        i = j = m.end()
+        depth = 1
+        while j < len(text):
+            c = text[j]
+            if c == "\\":
+                j += 2
+                continue
+            if c == "\n":
+                break
+            if c == "(":
+                depth += 1
+            elif c == ")":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        target = text[i:j].strip()
+        target = re.sub(r"""\s+["'][^"']*["']$""", "", target).strip()
+        targets[_LANG_SUFFIX.sub("/index.md", target)] += 1
+    return targets
+
+
 # ------------------------------------------------------------------- checks
 
 def check_translation(src: str, out: str, lang: str) -> list[Problem]:
@@ -194,9 +237,13 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             continue
         detail = ""
         if key in ("ref_links", "inline_links"):
-            pat = r"\]\[([^\]]+)\]" if key == "ref_links" else r"\]\(([^)]+)\)"
-            src_ids = Counter(re.findall(pat, src_body))
-            out_ids = Counter(re.findall(pat, out_body))
+            if key == "ref_links":
+                pat = r"\]\[([^\]]+)\]"
+                src_ids = Counter(re.findall(pat, src_body))
+                out_ids = Counter(re.findall(pat, out_body))
+            else:
+                src_ids = _inline_targets(src_body)
+                out_ids = _inline_targets(out_body)
             missing = sorted((src_ids - out_ids).elements())
             extra = sorted((out_ids - src_ids).elements())
             bits = []

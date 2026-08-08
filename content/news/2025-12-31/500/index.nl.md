@@ -37,7 +37,7 @@ Andere opmerkelijke prestaties in 2025 zijn onder meer:
    - [3K op Instagram][instagram]
    - [2,8K op Matrix][matrix]
    - [2K op Facebook][facebook]
-   - [1,7K op Reddit][reddit] met 100.000 jaarlijkse weergaven
+   - [1,7K op Reddit][reddit] met 100K jaarlijkse weergaven
    - [1K op Linkedin][linkedin]
    - [355 op Threads][threads]
    - [275 op TikTok][tiktok]

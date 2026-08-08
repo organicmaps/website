@@ -220,6 +220,48 @@ def _inline_targets(text: str) -> Counter:
     return targets
 
 
+def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
+    """Reference ids a translation may legitimately add to its source.
+
+    A translation localises a community link one of two ways, and only one of
+    them changes the reference count:
+
+    - It *substitutes*: `contribute` points a German reader at
+      `[telegram_chat_de]` where English has `[telegram_chat]`. One reference
+      either way, so the counts already agree and nothing is needed here.
+    - It *adds*: the homepage sends every reader to the English chat and, where
+      one exists, to their own language's chat too, so `de` carries
+      `[telegram_chat]` *and* `[telegram_chat_de]`, and `ru` adds `[matrix_ru]`
+      beside `[matrix]`. That is deliberately one reference more than the
+      source.
+
+    Only the second case is an allowance, and it needs two guards:
+
+    - `X` must be present alongside `X_<lang>`, or every substituting page
+      becomes a phantom "missing X" — 10 of them across `contribute`.
+    - Only the *surplus* over the source's own count is discounted. The 500
+      release notes list every language's chat in the English source, so
+      `telegram_chat_de` appears on both sides there and is not an addition
+      at all; discounting it regardless invented a missing reference on 10
+      more pages.
+    """
+    base = lang.split("-")[0]
+    src_ids = Counter(re.findall(r"\]\[([^\]]+)\]", src_body))
+    out_ids = Counter(re.findall(r"\]\[([^\]]+)\]", out_body))
+
+    added: Counter = Counter()
+    for ref, n in out_ids.items():
+        if not ref.endswith(f"_{base}"):
+            continue
+        stem = ref[:-len(base) - 1]
+        if stem not in src_ids or stem not in out_ids:
+            continue
+        surplus = n - src_ids[ref]
+        if surplus > 0:
+            added[ref] = surplus
+    return added
+
+
 # ------------------------------------------------------------------- checks
 
 def check_translation(src: str, out: str, lang: str) -> list[Problem]:
@@ -232,6 +274,8 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     #    just the counts: "42 vs 35 reference links" is unactionable, whereas
     #    naming the missing ids points straight at the drift.
     a, b = fingerprint(src_body), fingerprint(out_body)
+    localised = _localised_refs(src_body, out_body, lang)
+    b["ref_links"] -= sum(localised.values())
     for key in a:
         if a[key] == b[key]:
             continue
@@ -240,7 +284,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             if key == "ref_links":
                 pat = r"\]\[([^\]]+)\]"
                 src_ids = Counter(re.findall(pat, src_body))
-                out_ids = Counter(re.findall(pat, out_body))
+                out_ids = Counter(re.findall(pat, out_body)) - localised
             else:
                 src_ids = _inline_targets(src_body)
                 out_ids = _inline_targets(out_body)

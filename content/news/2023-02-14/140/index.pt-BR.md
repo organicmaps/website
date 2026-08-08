@@ -23,5 +23,5 @@ iOS
 * Correção de falha ao abrir os links om:// e <https://omaps.app/>
 * Mostrar o nome do POI compartilhado nos links om:// e <https://omaps.app/>
 
-Veja mais exemplos sobre nossos esquemas de API e URL tanto para Android como iOS em <omaps.app/api>
+Veja mais exemplos sobre nossos esquemas de API e URL tanto para Android como iOS em <https://omaps.app/api>
 

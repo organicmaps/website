@@ -38,7 +38,7 @@ Genoemde opsies sal dalk nie verskyn as jy nie reeds 'n TTS op jou toestel geïn
 | ---------- | ---------- |
 ![Settings](tts_config_1.png "Instellings") | ![Toeganklikheid](tts_config_2.png "Toeganklikheid")
 
-## Enjins {#enjins}
+## Enjins {#engines}
 
 Hieronder is 'n omvattende lys met verskeie enjins en die tale wat hulle ondersteun (aflaaiskakels kan na die tabel gevind word):
 

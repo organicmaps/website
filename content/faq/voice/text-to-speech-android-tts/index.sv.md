@@ -38,7 +38,7 @@ Nämnda alternativ kanske inte visas om du inte redan har en TTS installerad på
 | ----------- | ----------- |
 ![Inställningar](tts_config_1.png "Inställningar") | ![Tillgänglighet](tts_config_2.png "Tillgänglighet")
 
-## Motorer {#motorer}
+## Motorer {#engines}
 
 Nedan finns en omfattande lista som visar flera motorer och de språk de stöder (nedladdningslänkar finns efter tabellen):
 

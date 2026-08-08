@@ -37,7 +37,7 @@ Wspomniane opcje mogą się nie pojawić, jeśli nie masz jeszcze zainstalowaneg
 | ----------- | ----------- |
 ![Ustawienia](tts_config_1.png "Ustawienia") | ![Dostępność](tts_config_2.png "Dostępność")
 
-## Silniki {#silniki}
+## Silniki {#engines}
 
 Poniżej znajduje się obszerna lista pokazująca kilka silników i obsługiwane przez nie języki (linki do pobrania znajdują się pod tabelą):
 

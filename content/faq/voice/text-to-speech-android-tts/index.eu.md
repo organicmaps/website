@@ -38,7 +38,7 @@ Baliteke aukera horiek ez agertzea zure gailuan TTSrik instalatuta ez baduzu. Me
 | ----------- | ----------- |
 ![Ezarpenak](tts_config_1.png "Ezarpenak") | ![Erisgarritasuna](tts_config_2.png "Irisgarritasuna")
 
-## Motorrak {#motorrak}
+## Motorrak {#engines}
 
 Jarraian, hainbat motor eta onartzen dituzten hizkuntzak erakusten dituen zerrenda zabala dago (deskargarako estekak taularen ondoren aurki daitezke):
 

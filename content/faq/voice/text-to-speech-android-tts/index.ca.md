@@ -38,7 +38,7 @@ PD: Tingueu en compte que aquests passos variaran en funció de la marca de tel�
 | ----------- | ----------- |
 ![Configuració](tts_config_1.png "Configuració") | ![Accessibilitat](tts_config_2.png "Accessibilitat")
 
-## Motors {#motors}
+## Motors {#engines}
 
 A continuació es mostra una llista completa que mostra diversos motors i els idiomes que admeten (els enllaços de descàrrega es poden trobar després de la taula):
 

@@ -38,7 +38,7 @@ Deze opties verschijnen mogelijk niet als er nog geen TTS op je apparaat is geï
 | ----------- | ----------- |
 ![Instellingen](tts_config_1.png "Instellingen") | ![Toegankelijkheid](tts_config_2.png "Toegankelijkheid")
 
-## Motoren {#motoren}
+## Motoren {#engines}
 
 Hieronder vind je een uitgebreide lijst met verschillende zoekmachines en de talen die ze ondersteunen (downloadlinks vind je na de tabel):
 

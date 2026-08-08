@@ -37,7 +37,7 @@ Cihazında önceden bir TTS kurulu değilse söz konusu seçenekler görünmeyeb
 | ----------- | ----------- |
 ![Ayarlar](tts_config_1.png "Ayarlar") | ![Erişilebilirlik](tts_config_2.png "Erişilebilirlik")
 
-## Motorlar {#motorlar}
+## Motorlar {#engines}
 
 Aşağıda çeşitli motorları ve destekledikleri dilleri gösteren kapsamlı bir liste bulunmaktadır (indirme bağlantıları tablodan sonra bulunabilir):
 

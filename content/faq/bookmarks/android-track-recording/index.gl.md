@@ -25,4 +25,4 @@ Isto é especialmente certo para as versións modernas de Android:
 - Android 12
 - Android 11
 
-Os pasos exactos sobre como facer que os mapas orgánicos (e outras aplicacións) funcionen en segundo plano móstranse aquí: [dontkillmyapp.com](https://dontkillmyapp.com)
+Os pasos exactos sobre como facer que Organic Maps (e outras aplicacións) funcionen en segundo plano móstranse aquí: [dontkillmyapp.com](https://dontkillmyapp.com)

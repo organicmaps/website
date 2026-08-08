@@ -1,7 +1,7 @@
 ---
 title: 如何使用应用程序的 flatpak 版本？
 slug: 如何使用应用程序的-flatpak-版本
-description: 有机地图应用程序的常见问题
+description: Organic Maps 应用程序的常见问题
 taxonomies:
   faq:
   - linux

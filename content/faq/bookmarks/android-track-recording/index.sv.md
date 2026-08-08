@@ -24,4 +24,4 @@ Detta gäller särskilt för moderna Android-versioner:
 - Android 12
 - Android 11
 
-De exakta stegen för hur man får organiska kartor (och andra appar) att fungera i bakgrunden listas här: [dontkillmyapp.com](https://dontkillmyapp.com)
+De exakta stegen för hur man får Organic Maps (och andra appar) att fungera i bakgrunden listas här: [dontkillmyapp.com](https://dontkillmyapp.com)

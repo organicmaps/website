@@ -12,7 +12,7 @@ aliases:
   - /nl/faq/map/can-not-find-position/
 ---
 
-Zorg ervoor dat uw apparaat GPS heeft, locatieservices zijn ingeschakeld en locatierechten zijn gegeven aan organische kaarten.
+Zorg ervoor dat uw apparaat GPS heeft, locatieservices zijn ingeschakeld en locatierechten zijn gegeven aan Organic Maps.
 
 **Android**
 
@@ -24,11 +24,11 @@ Let op: je kunt het alleen zien als je Google Play-services hebt geïnstalleerd 
 
 **iOS**
 
-Als u een iPhone- of iPad-gebruiker bent, controleer dan de iOS-instellingen → Privacy → Locatieservices. Het delen van geolocatiegegevens moet zijn ingeschakeld voor organische kaarten.
+Als u een iPhone- of iPad-gebruiker bent, controleer dan de iOS-instellingen → Privacy → Locatieservices. Het delen van geolocatiegegevens moet zijn ingeschakeld voor Organic Maps.
 
 **Opmerkingen:**
 
-* Om ongewenste gegevens tijdens het roamen te voorkomen, kunt u in uw apparaatinstellingen alle mobiele gegevens uitschakelen, een vluchtmodus activeren of mobiele gegevens voor organische kaarten uitschakelen. Android- en iOS-apparaten kunnen GPS gebruiken in de vliegmodus.
+* Om ongewenste gegevens tijdens het roamen te voorkomen, kunt u in uw apparaatinstellingen alle mobiele gegevens uitschakelen, een vluchtmodus activeren of mobiele gegevens voor Organic Maps uitschakelen. Android- en iOS-apparaten kunnen GPS gebruiken in de vliegmodus.
 
 * Sommige mobiele apparaten hebben geen ingebouwde GPS-ontvangers, zoals de iPod Touch, iPad met alleen WiFi, Amazon Kindle Fire/Kindle Fire HD 7 en sommige Android-tablets. Op deze apparaten geven alle apps uw geschatte locatie weer die is gedetecteerd via een Wi-Fi-netwerk, zolang u verbonden bent met internet.
 

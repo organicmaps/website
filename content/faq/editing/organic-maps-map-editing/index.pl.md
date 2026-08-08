@@ -11,9 +11,9 @@ aliases:
   - /pl/faq/editing/organic-maps-map-editing/
 ---
 
-Dzięki organicznym mapom możesz łatwo dodać brakujące miejsca do mapy, dodać dodatkowe szczegóły, takie jak godziny otwarcia, lub poprawić błędne wpisy. W ten sposób poprawiasz jakość danych map dla wszystkich użytkowników.
+Dzięki Organic Maps możesz łatwo dodać brakujące miejsca do mapy, dodać dodatkowe szczegóły, takie jak godziny otwarcia, lub poprawić błędne wpisy. W ten sposób poprawiasz jakość danych map dla wszystkich użytkowników.
 
-Ponieważ [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) jest głównym źródłem danych map w Mapach organicznych, wprowadzone przez Ciebie zmiany są wysyłane do OSM. OSM to projekt społecznościowy mający na celu zbudowanie bezpłatnej i otwartej mapy. Działa podobnie do Wikipedii, więc wszystko, co edytujesz, staje się dostępne dla milionów użytkowników na całym świecie. Dołącz do społeczności i pomóż stworzyć lepszą mapę dla wszystkich!
+Ponieważ [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) jest głównym źródłem danych map w Organic Maps, wprowadzone przez Ciebie zmiany są wysyłane do OSM. OSM to projekt społecznościowy mający na celu zbudowanie bezpłatnej i otwartej mapy. Działa podobnie do Wikipedii, więc wszystko, co edytujesz, staje się dostępne dla milionów użytkowników na całym świecie. Dołącz do społeczności i pomóż stworzyć lepszą mapę dla wszystkich!
 
 **Aby edytować OpenStreetMap w aplikacji Organic Maps:**
 1. Utwórz konto na [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
@@ -32,4 +32,4 @@ Ponieważ [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStr
 		- Dodaj dodatkowe informacje, takie jak nazwa, godziny otwarcia i strona internetowa
 		- Zapisz zmiany i wyjdź za pomocą strzałki zaznaczenia
 
-Należy pamiętać, że edytor został zaprojektowany jako prosty edytor POI i dlatego jest ograniczony do POI. Można np. nie dodawać dróg, jezior, obrysów budynków itp. Nie ma też możliwości przeniesienia miejsc w nowe miejsce. Jeśli nie możesz edytować czegoś w organicznych mapach, zajrzyj na stronę [Bardziej zaawansowana edycja map](@/faq/editing/advanced-map-editing/index.pl.md).
+Należy pamiętać, że edytor został zaprojektowany jako prosty edytor POI i dlatego jest ograniczony do POI. Można np. nie dodawać dróg, jezior, obrysów budynków itp. Nie ma też możliwości przeniesienia miejsc w nowe miejsce. Jeśli nie możesz edytować czegoś w Organic Maps, zajrzyj na stronę [Bardziej zaawansowana edycja map](@/faq/editing/advanced-map-editing/index.pl.md).

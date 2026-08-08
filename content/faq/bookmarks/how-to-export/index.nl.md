@@ -2,7 +2,7 @@
 title: Hoe bladwijzers en tracks delen (exporteren)?
 slug: hoe-bladwijzers-en-tracks-delen-exporteren
 description: Stapsgewijze handleiding voor het exporteren van bladwijzers en tracks
-  van organische kaarten naar andere applicaties en delen met contacten
+  van Organic Maps naar andere applicaties en delen met contacten
 updated: '2024-06-20'
 taxonomies:
   faq:

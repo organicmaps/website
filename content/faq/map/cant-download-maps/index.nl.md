@@ -1,7 +1,7 @@
 ---
 title: Ik kan geen kaarten downloaden (bijwerken).
 slug: ik-kan-geen-kaarten-downloaden-bijwerken
-description: Wat moet ik doen als Organische kaarten er niet in slagen kaarten van
+description: Wat moet ik doen als Organic Maps er niet in slaagt kaarten van
   internet te downloaden of bij te werken?
 updated: '2024-06-20'
 taxonomies:

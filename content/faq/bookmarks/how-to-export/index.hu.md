@@ -2,7 +2,7 @@
 title: Hogyan lehet megosztani (exportálni) könyvjelzőket és számokat?
 slug: hogyan-lehet-megosztani-exportálni-könyvjelzőket-és-számokat
 description: Lépésről lépésre szóló útmutató könyvjelzők és számok exportálásához
-  az Organikus térképekből más alkalmazásokba, valamint a névjegyekkel való megosztáshoz
+  az Organic Maps-ből más alkalmazásokba, valamint a névjegyekkel való megosztáshoz
 updated: '2024-06-20'
 taxonomies:
   faq:

@@ -24,12 +24,12 @@ Let wel: jy kan dit net sien as jy Google Play-dienste op jou Android-toestel ge
 
 **iOS**
 
-As jy 'n iPhone- of iPad-gebruiker is, gaan asseblief iOS-instellings → Privaatheid → Liggingdienste na. Geografiese liggingdatadeling moet vir Organiese Kaarte geaktiveer word.
+As jy 'n iPhone- of iPad-gebruiker is, gaan asseblief iOS-instellings → Privaatheid → Liggingdienste na. Geografiese liggingdatadeling moet vir Organic Maps geaktiveer word.
 
 
 **Notas:**
 
-* Om ongewenste data te vermy terwyl jy rondswerf, kan jy alle mobiele data afskakel, 'n vlugmodus aktiveer of mobiele data vir Organiese Kaarte deaktiveer in jou toestelinstellings. Android- en iOS-toestelle kan GPS in die vlugmodus gebruik.
+* Om ongewenste data te vermy terwyl jy rondswerf, kan jy alle mobiele data afskakel, 'n vlugmodus aktiveer of mobiele data vir Organic Maps deaktiveer in jou toestelinstellings. Android- en iOS-toestelle kan GPS in die vlugmodus gebruik.
 
 * Sommige mobiele toestelle het nie ingeboude GPS-ontvangers nie, soos die iPod Touch, slegs WiFi-iPad, Amazon Kindle Fire/Kindle Fire HD 7 en sommige Android-tablette. Op hierdie toestelle sal alle programme jou benaderde ligging wys wat met 'n Wi-Fi-netwerk bespeur is, solank jy aan die internet gekoppel is.
 

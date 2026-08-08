@@ -24,4 +24,4 @@ To platí zejména pro moderní verze systému Android:
 - Android 12
 - Android 11
 
-Přesné kroky, jak zajistit, aby organické mapy (a další aplikace) fungovaly na pozadí, jsou uvedeny zde: [dontkillmyapp.com](https://dontkillmyapp.com)
+Přesné kroky, jak zajistit, aby Organic Maps (a další aplikace) fungovaly na pozadí, jsou uvedeny zde: [dontkillmyapp.com](https://dontkillmyapp.com)

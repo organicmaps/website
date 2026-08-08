@@ -23,7 +23,7 @@ Den officiella rekommendationen från Organic Maps är [RHVoice](https://rhvoice
 - Välj Ytterligare inställningar och välj sedan Tillgänglighet
 - Välj önskad motor, talhastighet och tonhöjd
 - **Starta om appen Organic Maps**
-- Öppna Inställningar => Röstinstruktioner i organiska kartor och ställ in det
+- Öppna Inställningar => Röstinstruktioner i Organic Maps och ställ in det
 - Starta om appen Organic Maps igen (eller starta om enheten) om rösten inte fungerar
 
 Om du inte kan hitta den relevanta inställningen, öppna inställningsappen och sök efter Text-till-tal.
@@ -62,6 +62,6 @@ Om du har problem med att initiera RHVoice TTS-motorn på LineageOS eller andra 
 
 ## Testning
 
-För att testa röstinstruktionerna kan du trycka på "Testa röstanvisningar (TTS, text-till-tal)" i OM-menyn "Inställningar → Röstinstruktioner" eller så kan du faktiskt starta en navigering för att ta emot röstutdata. Organiska kartor ger dig inga röstinstruktioner medan du står still.
+För att testa röstinstruktionerna kan du trycka på "Testa röstanvisningar (TTS, text-till-tal)" i OM-menyn "Inställningar → Röstinstruktioner" eller så kan du faktiskt starta en navigering för att ta emot röstutdata. Organic Maps ger dig inga röstinstruktioner medan du står still.
 
 ![TTS-test](tts_test.png "TTS-test")

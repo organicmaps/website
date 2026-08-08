@@ -25,4 +25,4 @@ Dit geldt vooral voor moderne Android-versies:
 - Android-12
 - Android-11
 
-De exacte stappen om organische kaarten (en andere apps) op de achtergrond te laten werken, vindt u hier: [dontkillmyapp.com](https://dontkillmyapp.com)
+De exacte stappen om Organic Maps (en andere apps) op de achtergrond te laten werken, vindt u hier: [dontkillmyapp.com](https://dontkillmyapp.com)

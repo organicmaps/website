@@ -1,8 +1,7 @@
 ---
 title: Sut i rannu (allforio) nodau tudalen a thraciau?
 slug: sut-i-rannu-allforio-nodau-tudalen-a-thraciau
-description: Canllaw cam wrth gam ar gyfer allforio nodau tudalen a thraciau o Fapiau
-  Organig i gymwysiadau eraill a'u rhannu â chysylltiadau
+description: Canllaw cam wrth gam ar gyfer allforio nodau tudalen a thraciau o Organic Maps i gymwysiadau eraill a'u rhannu â chysylltiadau
 updated: "2026-01-03"
 taxonomies:
   faq:

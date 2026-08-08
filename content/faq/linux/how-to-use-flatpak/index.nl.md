@@ -1,7 +1,7 @@
 ---
 title: Hoe gebruik ik de flatpak-versie van de app?
 slug: hoe-gebruik-ik-de-flatpak-versie-van-de-app
-description: Veelgestelde vragen over de toepassing Organische kaarten
+description: Veelgestelde vragen over de toepassing Organic Maps
 taxonomies:
   faq:
   - linux

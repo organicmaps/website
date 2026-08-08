@@ -23,7 +23,7 @@ Az Organic Maps hivatalos ajánlása az [RHVoice](https://rhvoice.org/), amely e
 - Válassza a További beállítások, majd a Kisegítő lehetőségek lehetőséget
 - Válassza ki a kívánt motort, beszédsebességet és hangmagasságot
 - **Indítsa újra az Organic Maps alkalmazást**
-- Nyissa meg a Beállítások => Hangutasításokat az Organikus térképekben, és állítsa be
+- Nyissa meg a Beállítások => Hangutasításokat az Organic Maps-ben, és állítsa be
 - Indítsa újra az Organic Maps alkalmazást (vagy indítsa újra az eszközt), ha a hang nem működik
 
 Ha nem találja a megfelelő beállítást, nyissa meg a beállítások alkalmazást, és keresse meg a Szövegfelolvasó lehetőséget.

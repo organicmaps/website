@@ -13,19 +13,19 @@ aliases:
   - /af/faq/editing/advanced-map-editing/
 ---
 
-Organiese kaarte bevat 'n eenvoudige en maklik-om-te gebruik redigeerder wat jy kan gebruik om die kaart te wysig. Die redigeerder is egter beperk en laat slegs toe om eenvoudige puntkenmerke by te voeg, dit beteken geen gebouomtrek, paaie, mere, dorpe, ens. As jy iets wil verander wat nie met die ingeboude redigeerder geredigeer kan word nie, is hierdie die regte FAQ-bladsy om te lees.
+Organic Maps bevat 'n eenvoudige en maklik-om-te gebruik redigeerder wat jy kan gebruik om die kaart te wysig. Die redigeerder is egter beperk en laat slegs toe om eenvoudige puntkenmerke by te voeg, dit beteken geen gebouomtrek, paaie, mere, dorpe, ens. As jy iets wil verander wat nie met die ingeboude redigeerder geredigeer kan word nie, is hierdie die regte FAQ-bladsy om te lees.
 
-Aangesien alle kaartdata wat in Organic Maps gebruik word, afkomstig is van [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), kan jy die kaart direk daar bywerk. Jou wysigings sal dan by Organiese Kaarte ingesluit word met die volgende kaartopdatering.
+Aangesien alle kaartdata wat in Organic Maps gebruik word, afkomstig is van [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), kan jy die kaart direk daar bywerk. Jou wysigings sal dan by Organic Maps ingesluit word met die volgende kaartopdatering.
 
 ## OpenStreetMap Editors
 
-Vir die redigering van OSM is daar verskeie opsies. As jy 'n skootrekenaar of rekenaar byderhand het, is dit beter om die [ID-redigeerder](https://www.openstreetmap.org/edit) te gebruik wat in jou blaaier loop. Die ID-redigeerder is maklik vir beginners, en 'n groter skerm, muis en sleutelbord maak kaartredigering makliker.
+Vir die redigering van OSM is daar verskeie opsies. As jy 'n skootrekenaar of rekenaar byderhand het, is dit beter om die [ID Editor](https://www.openstreetmap.org/edit) te gebruik wat in jou blaaier loop. Die ID Editor is maklik vir beginners, en 'n groter skerm, muis en sleutelbord maak kaartredigering makliker.
 
 Vir gevorderde kaartredigering vanaf 'n mobiele toestel, gebruik [Go Map](https://apps.apple.com/us/app/go-map/id592990211) vir iOS of [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) vir Android. Go Map is maklik vir beginners, terwyl Vespucci meer gevorderde gebruikers teiken. LearnOSM verskaf tutoriale vir [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) en [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Vir eenvoudiger wysigings met meer pret, kan jy ook [Every Door-toepassing](https://every-door.app/) vir iOS en Android en [StreetComplete-toepassing](https://streetcomplete.app/) vir Android probeer.
 
-#### ID-redakteur
+#### ID Editor
 
 Volg hierdie stappe om OpenStreetMap met ID te wysig:
 
@@ -39,7 +39,7 @@ Dit is dit, jy is nou deel van die OSM-gemeenskap.
 
 ## Wat gebeur met my wysigings?
 
-Sodra jy op *Laai op* druk, word jou veranderinge onmiddellik by die publieke OSM-databasis gevoeg. Wees dus bedagsaam wanneer jy redigeer. In Organiese Kaarte sal jou veranderinge sigbaar wees na die volgende maandelikse kaartopdatering.
+Sodra jy op *Laai op* druk, word jou veranderinge onmiddellik by die publieke OSM-databasis gevoeg. Wees dus bedagsaam wanneer jy redigeer. In Organic Maps sal jou veranderinge sigbaar wees na die volgende maandelikse kaartopdatering.
 
 Jou e-pos is nie gepubliseer nie, maar ander mense sal jou OSM-gebruikersnaam kan sien. Aangesien OSM die moontlikheid bied om veranderinge te bespreek, kan jy vrae oor jou wysigings van ander OSM-bydraers kry. U sal hieroor in kennis gestel word via die e-posadres wat u gebruik het om u OSM-rekening te registreer. Aangesien OSM 'n gemeenskapsprojek is wat op samewerking bou, moet jy altyd sulke vrae beantwoord.
 
@@ -55,7 +55,7 @@ Aangesien dit meer ingewikkeld klink as wat dit is, sal ons 'n voorbeeld gee:
 'n Restaurant is bv. gekarteer as 'n nota of area met die merker `amenity=restaurant`. Verdere etikette soos `cuisine=*` of `opening_hours=*` kan dan vir verdere besonderhede gebruik word.
 
 > Let daarop dat die ID-redigeerder die interne datastruktuur vir die gebruikers verberg om meer beginnersvriendelik te wees. Maar om die Wiki-dokumentasie te lees, is 'n kort oorsig van die datastruktuur nuttig.
-In die ID-redigeerder kan jy die Merkers wat ID vir jou wegsteek, sien deur die *Tags*-afdeling in die *Redigeer-kenmerk*-sypaneel uit te brei.
+In die ID Editor kan jy die Merkers wat ID vir jou wegsteek, sien deur die *Tags*-afdeling in die *Redigeer-kenmerk*-sypaneel uit te brei.
 
 ## OSM-notas {#osm-note}
 

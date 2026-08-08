@@ -1,7 +1,7 @@
 ---
 title: Kaip naudoti „flatpak“ programos versiją?
 slug: kaip-naudoti-flatpak-programos-versiją
-description: Dažniausiai užduodami klausimai apie organinių žemėlapių programą
+description: Dažniausiai užduodami klausimai apie Organic Maps programą
 taxonomies:
   faq:
   - linux

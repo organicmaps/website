@@ -1,7 +1,7 @@
 ---
 title: Bagaimana cara menggunakan aplikasi versi flatpak?
 slug: bagaimana-cara-menggunakan-aplikasi-versi-flatpak
-description: Pertanyaan yang sering diajukan untuk aplikasi Peta Organik
+description: Pertanyaan yang sering diajukan untuk aplikasi Organic Maps
 taxonomies:
   faq:
   - linux

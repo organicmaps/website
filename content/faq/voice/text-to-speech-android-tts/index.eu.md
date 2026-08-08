@@ -23,7 +23,7 @@ Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [G
 - Hautatu Ezarpen gehigarriak eta, gero, hautatu Irisgarritasuna
 - Aukeratu nahi duzun motorra, hizketa-abiadura eta tonua
 - **Berrabiarazi Organic Maps aplikazioa**
-- Ireki Ezarpenak => Ahots-argibideak Mapa organikoetan eta konfiguratu
+- Ireki Ezarpenak => Ahots-argibideak Organic Maps-en eta konfiguratu
 - Berrabiarazi Organic Maps aplikazioa berriro (edo berrabiarazi gailua) ahotsak funtzionatzen ez badu
 
 Ezin baduzu dagokion ezarpena aurkitzen, ireki ezarpenen aplikazioa eta bilatu Text-to-speech.

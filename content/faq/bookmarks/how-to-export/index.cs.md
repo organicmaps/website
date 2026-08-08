@@ -1,7 +1,7 @@
 ---
 title: Jak sdílet (exportovat) záložky a stopy?
 slug: jak-sdílet-exportovat-záložky-a-stopy
-description: Podrobný průvodce pro export záložek a tras z organických map do jiných
+description: Podrobný průvodce pro export záložek a tras z Organic Maps do jiných
   aplikací a sdílení s kontakty
 updated: '2024-06-20'
 taxonomies:

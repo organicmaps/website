@@ -25,4 +25,4 @@ This is especially true for modern Android versions:
 - Android 12
 - Android 11
 
-Tikslūs veiksmai, kaip priversti natūralius žemėlapius (ir kitas programas) veikti fone, išvardyti čia: [dontkillmyapp.com](https://dontkillmyapp.com)
+Tikslūs veiksmai, kaip priversti Organic Maps programą (ir kitas programas) veikti fone, išvardyti čia: [dontkillmyapp.com](https://dontkillmyapp.com)

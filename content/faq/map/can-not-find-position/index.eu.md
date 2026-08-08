@@ -28,7 +28,7 @@ iPhone edo iPad erabiltzailea bazara, egiaztatu iOS ezarpenak → Pribatutasuna 
 
 **Oharrak:**
 
-* Ibiltaritzan zaudenean nahi ez diren datuak saihesteko, datu mugikor guztiak desaktibatu, hegaldi modu bat aktibatu edo Map organikoetarako datu mugikorrak desgai ditzakezu gailuaren ezarpenetan. Android eta iOS gailuek GPSa erabil dezakete hegaldi moduan.
+* Ibiltaritzan zaudenean nahi ez diren datuak saihesteko, datu mugikor guztiak desaktibatu, hegaldi modu bat aktibatu edo Organic Maps-erako datu mugikorrak desgai ditzakezu gailuaren ezarpenetan. Android eta iOS gailuek GPSa erabil dezakete hegaldi moduan.
 
 * Gailu mugikor batzuek ez dute GPS hargailu integraturik, hala nola iPod Touch, WiFi-a soilik den iPad, Amazon Kindle Fire/Kindle Fire HD 7 eta Android tableta batzuk. Gailu hauetan, aplikazio guztiek Wi-Fi sare bat erabiliz detektatutako gutxi gorabeherako kokapena erakutsiko dute, Internetera konektatuta bazaude.
 

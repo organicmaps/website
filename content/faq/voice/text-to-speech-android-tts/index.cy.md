@@ -22,9 +22,9 @@ Yr argymhelliad swyddogol gan Organic Maps yw [RHVoice](https://rhvoice.org/), s
 - Agorwch yr app Gosodiadau ar eich dyfais Android
 - Dewiswch Gosodiadau Ychwanegol ac yna dewiswch Hygyrchedd
 - Dewiswch eich hoff injan, cyfradd lleferydd a thraw
-- **Ailgychwyn ap Mapiau Organig**
-- Gosodiadau Agored => Cyfarwyddiadau Llais mewn Mapiau Organig a'i osod
-- Ailgychwyn ap Mapiau Organig eto (neu ailgychwyn y ddyfais) os nad yw'r llais yn gweithio
+- **Ailgychwyn ap Organic Maps**
+- Gosodiadau Agored => Cyfarwyddiadau Llais yn Organic Maps a'i osod
+- Ailgychwyn ap Organic Maps eto (neu ailgychwyn y ddyfais) os nad yw'r llais yn gweithio
 
 Os na allwch ddod o hyd i'r gosodiad perthnasol, agorwch yr ap gosodiadau a chwiliwch am Testun-i-leferydd.
 
@@ -62,6 +62,6 @@ Os ydych chi'n cael trafferth cychwyn yr injan RHVoice TTS ar LineageOS neu ROMs
 
 ## Profi
 
-Er mwyn profi'r cyfarwyddiadau llais, gallwch chi tapio ar "Test Voice Directions (TTS, Text-To-Speech)" yn newislen OM "Settings → Voice Instructions" neu gallwch chi ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Mapiau Organig yn rhoi unrhyw gyfarwyddiadau llais i chi tra byddwch yn sefyll yn llonydd.
+Er mwyn profi'r cyfarwyddiadau llais, gallwch chi tapio ar "Test Voice Directions (TTS, Text-To-Speech)" yn newislen OM "Settings → Voice Instructions" neu gallwch chi ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Organic Maps yn rhoi unrhyw gyfarwyddiadau llais i chi tra byddwch yn sefyll yn llonydd.
 
 ![TTS Prawf](tts_test.png "Prawf TTS")

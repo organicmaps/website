@@ -1,7 +1,7 @@
 ---
 title: Kuidas kasutada rakenduse flatpaki versiooni?
 slug: kuidas-kasutada-rakenduse-flatpaki-versiooni
-description: Korduma kippuvad küsimused orgaaniliste kaartide rakenduse kohta
+description: Korduma kippuvad küsimused Organic Mapsi rakenduse kohta
 taxonomies:
   faq:
   - linux

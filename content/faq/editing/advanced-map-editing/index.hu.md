@@ -15,7 +15,7 @@ aliases:
 
 Az Organic Maps tartalmaz egy egyszerű és könnyen használható szerkesztőt, amellyel szerkesztheti a térképet. A szerkesztő azonban korlátozott, és csak egyszerű pontjellemzők hozzáadását teszi lehetővé, ami azt jelenti, hogy nincsenek épületek körvonalai, utak, tavak, városok stb. Ha olyan dolgot szeretne megváltoztatni, amelyet nem szerkeszthet a beépített szerkesztővel, akkor ez a megfelelő GYIK oldal.
 
-Mivel az organikus térképekben használt összes térképadat az [OpenStreetMap.org (OSM)] webhelyről (https://www.openstreetmap.org) származik, ott közvetlenül frissítheti a térképet. A módosítások ezután a következő térképfrissítéssel bekerülnek az Organikus térképek közé.
+Mivel az Organic Maps-ben használt összes térképadat az [OpenStreetMap.org (OSM)] webhelyről (https://www.openstreetmap.org) származik, ott közvetlenül frissítheti a térképet. A módosítások ezután a következő térképfrissítéssel bekerülnek az Organic Maps-be.
 
 ## OpenStreetMap szerkesztők
 
@@ -25,13 +25,13 @@ Ha speciális térképszerkesztést szeretne végezni mobileszközről, használ
 
 Az egyszerűbb és szórakoztatóbb szerkesztések érdekében kipróbálhatja az [Every Door alkalmazást](https://every-door.app/) iOS-re és Androidra, illetve a [StreetComplete alkalmazást](https://streetcomplete.app/) Androidra.
 
-#### Azonosító szerkesztő
+#### ID Editor
 
 Az OpenStreetMap azonosítóval történő szerkesztéséhez kövesse az alábbi lépéseket:
 
 1. Hozzon létre egy új fiókot, vagy jelentkezzen be az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org)
 2. Keresse meg a szerkeszteni kívánt helyet az OpenStreetMap.org oldalon, és kattintson a felül található *Szerkesztés* gombra.
-3. *Indítsa el a Walkthrough-t*, és kövesse az ID-szerkesztőt ismertető rövid útmutatót
+3. *Indítsa el a Walkthrough-t*, és kövesse az ID Editor-t ismertető rövid útmutatót
 4. Szerkessze a térképet
 5. Töltse fel a módosításokat
 
@@ -39,7 +39,7 @@ Ez az, most az OSM közösség tagja vagy.
 
 ## Mi történik a szerkesztéseimmel?
 
-Miután megnyomta a *Feltöltés* gombot, a módosítások azonnal hozzáadódnak a nyilvános OSM adatbázishoz. Tehát legyen körültekintő a szerkesztés során. Az Organikus térképekben a módosítások a következő havi térképfrissítés után lesznek láthatók.
+Miután megnyomta a *Feltöltés* gombot, a módosítások azonnal hozzáadódnak a nyilvános OSM adatbázishoz. Tehát legyen körültekintő a szerkesztés során. Az Organic Maps-ben a módosítások a következő havi térképfrissítés után lesznek láthatók.
 
 Az Ön e-mailje nincs közzétéve, de mások láthatják az Ön OSM-felhasználónevét. Mivel az OSM lehetőséget kínál a változtatások megvitatására, előfordulhat, hogy az OSM többi közreműködőjétől kérdéseket kaphat a módosításaival kapcsolatban. Erről az OSM-fiók regisztrálásához használt e-mail címen kap értesítést. Mivel az OSM egy együttműködésre épülő közösségi projekt, mindig válaszolnia kell az ilyen kérdésekre.
 
@@ -55,7 +55,7 @@ Mivel ez bonyolultabbnak hangzik, mint amilyen, adunk egy példát:
 Az étterem pl. jegyzetként vagy területként leképezve az `amenity=restaurant` címkével. Ezután további címkék, például `cuisine=*` vagy `opening_hours=*` használhatók további részletekért.
 
 > Vegye figyelembe, hogy az ID szerkesztő elrejti a belső adatstruktúrát a felhasználók elől, hogy kezdőbarátabb legyen. De a Wiki-dokumentáció olvasásához hasznos az adatstruktúra rövid áttekintése.
-Az azonosítószerkesztőben megtekintheti az azonosító által elrejtett címkéket, ha kibontja a *Címkék* részt a *Szerkesztési szolgáltatás* oldalsó panelén.
+Az ID Editor-ben megtekintheti az azonosító által elrejtett címkéket, ha kibontja a *Címkék* részt a *Szerkesztési szolgáltatás* oldalsó panelén.
 
 ## OSM Notes {#osm-note}
 

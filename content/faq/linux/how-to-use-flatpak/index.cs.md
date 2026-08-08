@@ -1,7 +1,7 @@
 ---
 title: Jak mohu používat verzi aplikace flatpak?
 slug: jak-mohu-používat-verzi-aplikace-flatpak
-description: Často kladené otázky pro aplikaci Organické mapy
+description: Často kladené otázky pro aplikaci Organic Maps
 taxonomies:
   faq:
   - linux

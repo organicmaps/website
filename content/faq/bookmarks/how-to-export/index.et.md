@@ -1,8 +1,7 @@
 ---
 title: Kuidas jagada (eksportida) järjehoidjaid ja lugusid?
 slug: kuidas-jagada-eksportida-järjehoidjaid-ja-lugusid
-description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks orgaanilistest
-  kaartidest teistesse rakendustesse ning kontaktidega jagamiseks
+description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks Organic Mapsist teistesse rakendustesse ning kontaktidega jagamiseks
 updated: "2026-01-03"
 taxonomies:
   faq:

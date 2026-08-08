@@ -22,8 +22,8 @@ Oficiální doporučení od Organic Maps je [RHVoice](https://rhvoice.org/), co�
 - Otevřete na svém zařízení Android aplikaci Nastavení
 - Vyberte Další nastavení a poté vyberte Usnadnění
 - Vyberte si preferovaný motor, rychlost řeči a výšku
-- **Restartujte aplikaci Organické mapy**
-- Otevřete Nastavení => Hlasové pokyny v Organických mapách a nastavte je
+- **Restartujte aplikaci Organic Maps**
+- Otevřete Nastavení => Hlasové pokyny v Organic Maps a nastavte je
 - Pokud hlas nefunguje, znovu spusťte aplikaci Organic Maps (nebo restartujte zařízení).
 
 Pokud nemůžete najít příslušné nastavení, otevřete aplikaci nastavení a vyhledejte Převod textu na řeč.
@@ -62,6 +62,6 @@ Pokud máte potíže s inicializací enginu RHVoice TTS na LineageOS nebo jinýc
 
 ## Testování
 
-Chcete-li otestovat hlasové pokyny, můžete klepnout na „Testovat hlasové pokyny (TTS, Text-To-Speech)“ v nabídce OM „Nastavení → Hlasové pokyny“ nebo můžete skutečně spustit navigaci a přijímat jakýkoli hlasový výstup. Organické mapy vám neposkytnou žádné hlasové pokyny, když budete stát na místě.
+Chcete-li otestovat hlasové pokyny, můžete klepnout na „Testovat hlasové pokyny (TTS, Text-To-Speech)“ v nabídce OM „Nastavení → Hlasové pokyny“ nebo můžete skutečně spustit navigaci a přijímat jakýkoli hlasový výstup. Organic Maps vám neposkytne žádné hlasové pokyny, když budete stát na místě.
 
 ![Test TTS](tts_test.png "Test TTS")

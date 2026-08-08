@@ -1,5 +1,5 @@
 ---
-title: Kuidas saan orgaanilistes kaartides kaarti muuta?
+title: Kuidas saan Organic Mapsis kaarti muuta?
 slug: kuidas-saan-orgaanilistes-kaartides-kaarti-muuta
 description: Õpetus OpenStreetMapi muutmiseks rakenduses Organic Maps rohkem
 updated: '2025-01-05'
@@ -12,9 +12,9 @@ aliases:
   - /et/faq/editing/organic-maps-map-editing/
 ---
 
-Orgaaniliste kaartide abil saate hõlpsasti lisada kaardile puuduvad kohad, lisada täiendavaid üksikasju (nt lahtiolekuajad) või parandada valesid kirjeid. Seda tehes parandate kõigi kasutajate kaardiandmeid.
+Organic Mapsi abil saate hõlpsasti lisada kaardile puuduvad kohad, lisada täiendavaid üksikasju (nt lahtiolekuajad) või parandada valesid kirjeid. Seda tehes parandate kõigi kasutajate kaardiandmeid.
 
-Kuna [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) on orgaaniliste kaartide peamine kaardiandmete allikas, saadetakse teie tehtud muudatused OSM-i. OSM on kogukonna projekt tasuta ja avatud kaardi loomiseks. See töötab sarnaselt Wikipediaga, nii et kõik, mida muudate, muutub kättesaadavaks miljonitele kasutajatele üle kogu maailma. Liituge kogukonnaga ja aidake teha kõigi jaoks parem kaart!
+Kuna [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) on Organic Mapsi peamine kaardiandmete allikas, saadetakse teie tehtud muudatused OSM-i. OSM on kogukonna projekt tasuta ja avatud kaardi loomiseks. See töötab sarnaselt Wikipediaga, nii et kõik, mida muudate, muutub kättesaadavaks miljonitele kasutajatele üle kogu maailma. Liituge kogukonnaga ja aidake teha kõigi jaoks parem kaart!
 
 **OpenStreetMapi muutmiseks rakenduses Organic Maps toimige järgmiselt.**
 1. Looge konto aadressil [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
@@ -33,4 +33,4 @@ Kuna [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMa
 		- Lisage lisateavet, nagu nimi, lahtiolekuajad ja veebisait
 		- Salvestage muudatused ja väljuge kontrollnoole abil
 
-Pange tähele, et redaktor on loodud lihtsa POI-redaktorina ja seetõttu piirdub HP-dega. Näiteks ei saa lisada teid, järvi, hoonete piirjooni jne. Lisaks ei ole võimalik uude asukohta kolida. Kui te ei saa orgaaniliste kaartidega midagi muuta, vaadake lehte [Kaardi täpsem redigeerimine](@/faq/editing/advanced-map-editing/index.et.md).
+Pange tähele, et redaktor on loodud lihtsa POI-redaktorina ja seetõttu piirdub HP-dega. Näiteks ei saa lisada teid, järvi, hoonete piirjooni jne. Lisaks ei ole võimalik uude asukohta kolida. Kui te ei saa Organic Mapsiga midagi muuta, vaadake lehte [Kaardi täpsem redigeerimine](@/faq/editing/advanced-map-editing/index.et.md).

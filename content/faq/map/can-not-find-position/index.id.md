@@ -12,7 +12,7 @@ aliases:
   - /id/faq/map/can-not-find-position/
 ---
 
-Pastikan perangkat Anda memiliki GPS, layanan lokasi diaktifkan, dan izin lokasi diberikan ke Peta Organik.
+Pastikan perangkat Anda memiliki GPS, layanan lokasi diaktifkan, dan izin lokasi diberikan ke Organic Maps.
 
 **Android**
 
@@ -24,11 +24,11 @@ Catatan: Anda hanya dapat melihatnya jika Anda menginstal (mengaktifkan) layanan
 
 **iOS**
 
-Jika Anda pengguna iPhone atau iPad, silakan periksa pengaturan iOS → Privasi → Layanan lokasi. Berbagi data geolokasi harus diaktifkan untuk Peta Organik.
+Jika Anda pengguna iPhone atau iPad, silakan periksa pengaturan iOS → Privasi → Layanan lokasi. Berbagi data geolokasi harus diaktifkan untuk Organic Maps.
 
 **Catatan:**
 
-* Untuk menghindari data yang tidak diinginkan saat roaming, Anda dapat mematikan semua data seluler, mengaktifkan mode penerbangan, atau menonaktifkan data seluler untuk Peta Organik di pengaturan perangkat Anda. Perangkat Android dan iOS dapat menggunakan GPS dalam mode penerbangan.
+* Untuk menghindari data yang tidak diinginkan saat roaming, Anda dapat mematikan semua data seluler, mengaktifkan mode penerbangan, atau menonaktifkan data seluler untuk Organic Maps di pengaturan perangkat Anda. Perangkat Android dan iOS dapat menggunakan GPS dalam mode penerbangan.
 
 * Beberapa perangkat seluler tidak memiliki penerima GPS internal, seperti iPod Touch, iPad khusus WiFi, Amazon Kindle Fire/Kindle Fire HD 7, dan beberapa tablet Android. Di perangkat ini, semua aplikasi akan menampilkan perkiraan lokasi Anda yang terdeteksi menggunakan jaringan Wi-Fi, selama Anda terhubung ke internet.
 

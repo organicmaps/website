@@ -15,23 +15,23 @@ aliases:
 
 Organic Maps sisaldab lihtsat ja hõlpsasti kasutatavat redaktorit, mida saate kasutada kaardi muutmiseks. Redaktor on aga piiratud ja võimaldab lisada ainult lihtsaid punktifunktsioone, mis tähendab, et puuduvad hoonekontuurid, teed, järved, linnad jne. Kui soovite muuta midagi, mida sisseehitatud redaktoriga muuta ei saa, on see lugemiseks õige KKK leht.
 
-Kuna kõik orgaanilistes kaartides kasutatavad kaardiandmed pärinevad saidilt [OpenStreetMap.org (OSM)] (https://www.openstreetmap.org), saate seal kaarti otse värskendada. Seejärel kaasatakse teie muudatused järgmise kaardivärskendusega orgaanilistesse kaartidesse.
+Kuna kõik Organic Mapsis kasutatavad kaardiandmed pärinevad saidilt [OpenStreetMap.org (OSM)] (https://www.openstreetmap.org), saate seal kaarti otse värskendada. Seejärel kaasatakse teie muudatused järgmise kaardivärskendusega Organic Mapsisse.
 
 ## OpenStreetMapi redaktorid
 
-OSM-i redigeerimiseks on mitu võimalust. Kui teil on käepärast sülearvuti või lauaarvuti, on parem kasutada brauseris töötavat [ID-redaktorit](https://www.openstreetmap.org/edit). ID-redaktor on algajatele lihtne ning suurem ekraan, hiir ja klaviatuur muudavad kaardi redigeerimise lihtsamaks.
+OSM-i redigeerimiseks on mitu võimalust. Kui teil on käepärast sülearvuti või lauaarvuti, on parem kasutada brauseris töötavat [ID Editorit](https://www.openstreetmap.org/edit). ID Editor on algajatele lihtne ning suurem ekraan, hiir ja klaviatuur muudavad kaardi redigeerimise lihtsamaks.
 
 Mobiilseadmest kaardi täpsemaks muutmiseks kasutage iOS-i jaoks rakendust [Go Map](https://apps.apple.com/us/app/go-map/id592990211) või Androidi jaoks [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android). Go Map on algajatele lihtne, samas kui Vespucci on suunatud kogenumatele kasutajatele. LearnOSM pakub õpetusi [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) ja [Vespucci] (https://learnosm.org/en/mobile-mapping/vespucci/) jaoks.
 
 Lihtsamaks ja lõbusamaks muutmiseks võite proovida ka rakendust [Every Door](https://every-door.app/) iOS-i ja Androidi jaoks ning rakendust [StreetComplete](https://streetcomplete.app/) Androidi jaoks.
 
-#### ID-redaktor
+#### ID Editor
 
 ID-ga OpenStreetMapi redigeerimiseks toimige järgmiselt.
 
 1. Looge uus konto või logige sisse saidil [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Sirvige saidil OpenStreetMap.org asukohta, mida soovite muuta, ja klõpsake ülaosas nuppu *Muuda*
-3. *Alustage läbivaatust* ja järgige ID-redaktorit selgitavat lühikest õpetust
+3. *Alustage läbivaatust* ja järgige ID Editorit selgitavat lühikest õpetust
 4. Redigeerige kaarti
 5. Laadige oma muudatused üles
 
@@ -39,7 +39,7 @@ See on kõik, olete nüüd osa OSM-i kogukonnast.
 
 ## Mis juhtub minu muudatustega?
 
-Kui vajutate nuppu *Laadi üles*, lisatakse teie muudatused koheselt avalikku OSM-i andmebaasi. Seega olge toimetamisel tähelepanelik. Orgaanilistes kaartides on teie muudatused nähtavad pärast järgmist igakuist kaardivärskendust.
+Kui vajutate nuppu *Laadi üles*, lisatakse teie muudatused koheselt avalikku OSM-i andmebaasi. Seega olge toimetamisel tähelepanelik. Organic Mapsis on teie muudatused nähtavad pärast järgmist igakuist kaardivärskendust.
 
 Teie e-posti ei avaldata, kuid teised inimesed näevad teie OSM-i kasutajanime. Kuna OSM pakub võimalust arutada muudatusi, võite saada oma muudatuste kohta küsimusi teistelt OSM-i kaasautoritelt. Teid teavitatakse sellest e-posti aadressi kaudu, mida kasutasite oma OSM-i konto registreerimisel. Kuna OSM on kogukonnaprojekt, mis põhineb koostööl, peaksite sellistele küsimustele alati vastama.
 
@@ -54,8 +54,8 @@ OpenStreetMapi andmebaas sisaldab selliseid objekte nagu sõlmed, viisid, alad j
 Kuna see kõlab keerulisemalt kui see on, toome näite:
 Restoran on nt. kaardistatud märkme või piirkonnana sildiga `amenity=restaurant`. Seejärel saab lisateabe saamiseks kasutada täiendavaid silte, nagu `cuisine=*` või `avamistunnid=*`.
 
-> Pange tähele, et ID-redaktor peidab sisemise andmestruktuuri kasutajate eest, et see oleks algajasõbralikum. Kuid Wiki dokumentatsiooni lugemisel on abi andmestruktuuri lühiülevaatest.
-ID-redaktoris näete silte, mida ID teie eest varjab, kui laiendate külgpaneelil *Märgendid* jaotist *Märgendid*.
+> Pange tähele, et ID Editor peidab sisemise andmestruktuuri kasutajate eest, et see oleks algajasõbralikum. Kuid Wiki dokumentatsiooni lugemisel on abi andmestruktuuri lühiülevaatest.
+ID Editoris näete silte, mida ID teie eest varjab, kui laiendate külgpaneelil *Märgendid* jaotist *Märgendid*.
 
 ## OSM-i märkmed {#osm-note}
 

@@ -19,9 +19,9 @@ Fitxategi bakarra inportatzeko:
 
 1. Bilatu partekatutako KML, KMZ, KMB, GPX, GeoJSON (JSON) fitxategiak posta elektronikoz, berehalako mezularitzaz edo hodeiko biltegiratze bidez bidalitako laster-markekin, adibidez, iCloud edo Google Drive.
 
-2. Ukitu behin edo luze sakatu KML, KMZ, KMB, GPX, GeoJSON (JSON) fitxategia laster-markekin eta hautatu Ireki mapa organikoekin (Android) edo "Inportatu mapa organikoekin" (iOS) laster-leihoan.
+2. Ukitu behin edo luze sakatu KML, KMZ, KMB, GPX, GeoJSON (JSON) fitxategia laster-markekin eta hautatu Ireki Organic Maps-ekin (Android) edo "Inportatu Organic Maps-ekin" (iOS) laster-leihoan.
 
-3. Map organikoekin irekita egongo da eta 'Laster-markak behar bezala kargatu dira!' ikusiko duzu. Mapan edo Laster-marken menu pantailan aurki ditzakezu.
+3. Organic Maps-ekin irekita egongo da eta 'Laster-markak behar bezala kargatu dira!' ikusiko duzu. Mapan edo Laster-marken menu pantailan aurki ditzakezu.
 
 Laster-markak eta ibilbideak lotean inportatzea ere posible da:
 

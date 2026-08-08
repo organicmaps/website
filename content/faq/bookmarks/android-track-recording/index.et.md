@@ -24,4 +24,4 @@ See kehtib eriti tänapäevaste Androidi versioonide kohta:
 - Android 12
 - Android 11
 
-Täpsed juhised orgaaniliste kaartide (ja muude rakenduste) taustal tööle panemiseks on loetletud siin: [dontkillmyapp.com](https://dontkillmyapp.com)
+Täpsed juhised Organic Mapsi (ja muude rakenduste) taustal tööle panemiseks on loetletud siin: [dontkillmyapp.com](https://dontkillmyapp.com)

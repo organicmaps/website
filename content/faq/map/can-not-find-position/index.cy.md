@@ -12,7 +12,7 @@ aliases:
   - /cy/faq/map/can-not-find-position/
 ---
 
-Sicrhewch fod gan eich dyfais GPS, bod gwasanaethau lleoliad wedi'u galluogi, a bod caniatâd lleoliad yn cael ei roi i Fapiau Organig.
+Sicrhewch fod gan eich dyfais GPS, bod gwasanaethau lleoliad wedi'u galluogi, a bod caniatâd lleoliad yn cael ei roi i Organic Maps.
 
 **Android**
 
@@ -24,11 +24,11 @@ Nodyn: dim ond os oes gennych chi wasanaethau Google Play wedi'u gosod (wedi'u g
 
 **iOS**
 
-Os ydych chi'n ddefnyddiwr iPhone neu iPad, gwiriwch osodiadau iOS → Preifatrwydd → Gwasanaethau lleoliad. Dylid galluogi rhannu data geolocation ar gyfer Mapiau Organig.
+Os ydych chi'n ddefnyddiwr iPhone neu iPad, gwiriwch osodiadau iOS → Preifatrwydd → Gwasanaethau lleoliad. Dylid galluogi rhannu data geolocation ar gyfer Organic Maps.
 
 **Nodiadau:**
 
-* Er mwyn osgoi data diangen wrth grwydro, gallwch ddiffodd yr holl ddata symudol, actifadu modd hedfan neu analluogi data symudol ar gyfer Mapiau Organig yng ngosodiadau eich dyfais. Gall dyfeisiau Android ac iOS ddefnyddio GPS yn y modd hedfan.
+* Er mwyn osgoi data diangen wrth grwydro, gallwch ddiffodd yr holl ddata symudol, actifadu modd hedfan neu analluogi data symudol ar gyfer Organic Maps yng ngosodiadau eich dyfais. Gall dyfeisiau Android ac iOS ddefnyddio GPS yn y modd hedfan.
 
 * Nid oes gan rai dyfeisiau symudol dderbynyddion GPS adeiledig, fel yr iPod Touch, iPad WiFi yn unig, Amazon Kindle Fire / Kindle Fire HD 7, a rhai tabledi Android. Ar y dyfeisiau hyn, bydd pob ap yn dangos eich lleoliad bras a ganfuwyd gan ddefnyddio rhwydwaith Wi-Fi, cyn belled â'ch bod wedi'ch cysylltu â'r rhyngrwyd.
 

@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps inclou un editor senzill i fàcil d'utilitzar que podeu utilitzar per editar el mapa. Tanmateix, l'editor és limitat i només permet afegir funcions puntuals senzilles, això vol dir que no hi ha contorns d'edificis, carreteres, llacs, pobles, etc. Si voleu canviar alguna cosa que no es pot editar amb l'editor integrat, aquesta és la pàgina de preguntes freqüents adequada per llegir.
 
-Com que totes les dades del mapa que s'utilitzen als mapes orgànics provenen de [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), podeu actualitzar el mapa directament allà. Aleshores, les vostres modificacions s'inclouran a Organic Maps amb la propera actualització del mapa.
+Com que totes les dades del mapa que s'utilitzen a Organic Maps provenen de [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), podeu actualitzar el mapa directament allà. Aleshores, les vostres modificacions s'inclouran a Organic Maps amb la propera actualització del mapa.
 
 ## Editors d'OpenStreetMap
 

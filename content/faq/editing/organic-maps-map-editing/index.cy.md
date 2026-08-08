@@ -1,5 +1,5 @@
 ---
-title: Sut alla i olygu'r map mewn Mapiau Organig?
+title: Sut alla i olygu'r map yn Organic Maps?
 slug: sut-alla-i-olygur-map-mewn-mapiau-organig
 description: Tiwtorial ar gyfer golygu OpenStreetMap o fewn yr ap Organic Maps yn
   fwy
@@ -13,7 +13,7 @@ aliases:
   - /cy/faq/editing/organic-maps-map-editing/
 ---
 
-Gyda Mapiau Organig, gallwch yn hawdd ychwanegu lleoedd coll at y map, ychwanegu manylion ychwanegol fel oriau agor, neu drwsio cofnodion anghywir. Trwy wneud hyn, rydych chi'n gwella'r data map ar gyfer pob defnyddiwr.
+Gyda Organic Maps, gallwch yn hawdd ychwanegu lleoedd coll at y map, ychwanegu manylion ychwanegol fel oriau agor, neu drwsio cofnodion anghywir. Trwy wneud hyn, rydych chi'n gwella'r data map ar gyfer pob defnyddiwr.
 
 Gan mai [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) yw prif ffynhonnell data mapio yn Organic Maps, anfonir y golygiadau a wnewch at OSM. Mae OSM yn brosiect cymunedol i adeiladu map agored ac am ddim. Mae'n gweithio'n debyg i Wikipedia, felly mae popeth rydych chi'n ei olygu ar gael i filiynau o ddefnyddwyr ledled y byd. Ymunwch â'r gymuned a helpwch i wneud map gwell i bawb!
 
@@ -34,4 +34,4 @@ Gan mai [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStree
 		- Ychwanegu gwybodaeth ychwanegol fel yr enw, oriau agor, a gwefan
 		- Arbedwch eich newidiadau ac ymadael gan ddefnyddio'r saeth wirio
 
-Sylwch fod y golygydd wedi'i gynllunio fel golygydd POI syml ac, felly, wedi'i gyfyngu i POIs. Gallwch, e.e., beidio ag ychwanegu ffyrdd, llynnoedd, amlinelliadau adeiladau, ac ati. Hefyd, nid yw symud lleoedd i leoliad newydd yn bosibl. Os na allwch olygu rhywbeth gyda Mapiau Organig, edrychwch ar y dudalen [Golygu mapiau mwy datblygedig](@/faq/editing/advanced-map-editing/index.cy.md).
+Sylwch fod y golygydd wedi'i gynllunio fel golygydd POI syml ac, felly, wedi'i gyfyngu i POIs. Gallwch, e.e., beidio ag ychwanegu ffyrdd, llynnoedd, amlinelliadau adeiladau, ac ati. Hefyd, nid yw symud lleoedd i leoliad newydd yn bosibl. Os na allwch olygu rhywbeth gyda Organic Maps, edrychwch ar y dudalen [Golygu mapiau mwy datblygedig](@/faq/editing/advanced-map-editing/index.cy.md).

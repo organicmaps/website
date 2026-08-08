@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps-ek mapa editatzeko erabil dezakezun editore sinple eta erabilerraza dakar. Editorea, ordea, mugatua da eta puntu-funtzio sinpleak gehitzeko aukera ematen du, horrek esan nahi du ez dela eraikinen eskemarik, errepiderik, aintzirarik, herririk, etab. Eraikitutako editorearekin editatu ezin den zerbait aldatu nahi baduzu, hau da irakurtzeko FAQ orri egokia.
 
-Organic Maps-en erabiltzen diren mapa-datu guztiak [OpenStreetMap.org (OSM)](https://www.openstreetmap.org)-tik datozenez), zuzenean egunera dezakezu mapa bertan. Ondoren, zure aldaketak Map organikoetan sartuko dira hurrengo mapa eguneratzean.
+Organic Maps-en erabiltzen diren mapa-datu guztiak [OpenStreetMap.org (OSM)](https://www.openstreetmap.org)-tik datozenez), zuzenean egunera dezakezu mapa bertan. Ondoren, zure aldaketak Organic Maps-en sartuko dira hurrengo mapa eguneratzean.
 
 ## OpenStreetMap editoreak
 

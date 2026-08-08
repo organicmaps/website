@@ -54,7 +54,7 @@ OpenStreetMap yra bendruomenė. Jei jums reikia pagalbos arba turite klausimų, 
 Kadangi tai skamba sudėtingiau nei yra, pateiksime pavyzdį:
 Restoranas yra pvz. susietas kaip pastaba arba sritis su žyma `amenity=restaurant`. Tada galima naudoti kitas žymas, pvz., `cuisine=*` arba `opening_hours=*`, kad gautumėte daugiau informacijos.
 
-> Atminkite, kad ID redaktorius slepia vidinę duomenų struktūrą nuo vartotojų, kad būtų patogesnis pradedantiesiems. Tačiau norint skaityti Wiki dokumentaciją, naudinga trumpa duomenų struktūros apžvalga.
+> Atminkite, kad ID Editor slepia vidinę duomenų struktūrą nuo vartotojų, kad būtų patogesnis pradedantiesiems. Tačiau norint skaityti Wiki dokumentaciją, naudinga trumpa duomenų struktūros apžvalga.
 ID Editor redagavimo priemonėje galite matyti žymas, kurias ID nuo jūsų slepia, išplėsdami skyrių *Žymos* šoniniame *Redagavimo funkcijos* skydelyje.
 
 ## OSM pastabos {#osm-note}

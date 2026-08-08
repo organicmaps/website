@@ -2,7 +2,7 @@
 title: Bagaimana cara berbagi (mengekspor) bookmark dan trek?
 slug: bagaimana-cara-berbagi-mengekspor-bookmark-dan-trek
 description: Panduan langkah demi langkah untuk mengekspor bookmark dan trek dari
-  Peta Organik ke aplikasi lain dan berbagi dengan kontak
+  Organic Maps ke aplikasi lain dan berbagi dengan kontak
 updated: "2026-01-03"
 taxonomies:
   faq:

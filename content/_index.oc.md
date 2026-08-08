@@ -4,16 +4,16 @@ extra:
   menu_title: Acuèlh
 page_template: index.html
 sort_by: weight
-title: "De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha"
+title: "Organic Maps : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha"
 ---
 
 **Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
 
-N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que foncionan entierament sensa la connexion a Internet activa. Installatz Mapas Organicas, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
+N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installatz Organic Maps, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
 > En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajudatz-nos](@/donate/index.oc.md) a créisser!
 
-### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
+### Teledescargatz e installatz Organic Maps de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,7 +29,7 @@ fosc') }}
 
 ## Foncionalitats
 
-Mapas Organicas es l’aplicacion ultima per lei viatjaires, lei caminaires e lei ciclistas :
+Organic Maps es l’aplicacion ultima per lei viatjaires, lei caminaires e lei ciclistas :
 
 - De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
 - Percors ciclistes, draias d’escorregudas e caminaments
@@ -45,13 +45,13 @@ Mapas Organicas es l’aplicacion ultima per lei viatjaires, lei caminaires e le
 
 ## Perque chausir Organic?
 
-Mapas Organicas es pur e organic e mai o fasèm amb amor:
+Organic Maps es pur e organic e mai o fasèm amb amor:
 
 - Respècta vòstra vida privada
 - Esparnha la batariá
 - A pas besonh de cargar una quantitat de donadas inesperadas
 
-L'aplicacion Mapas Organicas escapa ais espiadors e autreis seguidors malins:
+L'aplicacion Organic Maps escapa ais espiadors e autreis seguidors malins:
 
 - Sensa anóncias
 - Conten pas d'espiadors
@@ -72,19 +72,19 @@ The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Mapas Organicas demanda pas de permissions excessivas per vos espiar:
+Organic Maps demanda pas de permissions excessivas per vos espiar:
 
 {{ privacy_screenshots() }}
 
-En cò de Mapas Organicas, cresèm que la vida privada es un drech uman fondamentau:
+En cò d'Organic Maps, cresèm que la vida privada es un drech uman fondamentau:
 
-- Mapas Organicas es un projècte independent, comunautari e dobèrt
+- Organic Maps es un projècte independent, comunautari e dobèrt
 - Gardam la vida privada de cadun deis espiadors dei Grandei Tecnologias
 - Gardatz-vos sauves e segurs onte que vos trobètz
 
 Rebutar la susvelhança. Assegurar la libertat.
 
-**[¡Assaja Mapas Organicas!](#install)**
+**[¡Assaja Organic Maps!](#install)**
 
 ## Cu paga per l'aplicacion a gratis?
 
@@ -141,7 +141,7 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
 
 ## Comunautat
 
-Mapas Organicas es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
+Organic Maps es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 
 - Rejonhètz nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
   - [Beta de iOS (TestFlight)][testflight]

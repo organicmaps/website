@@ -13,15 +13,15 @@ aliases:
   - /hu/faq/bookmarks/hogyan-importálhatunk-könyvjelzőket-és-műsorszámokat-kml-kmz-kmb-vagy-gpx-formátumban/
 ---
 
-Importálhatja az Organikus térképekből vagy harmadik féltől származó alkalmazásokból küldött könyvjelzőket, ha azok KML, KMZ, KMB, GPX, GeoJSON (JSON) formátumban exportálják a könyvjelzőket.
+Importálhatja az Organic Maps-ből vagy harmadik féltől származó alkalmazásokból küldött könyvjelzőket, ha azok KML, KMZ, KMB, GPX, GeoJSON (JSON) formátumban exportálják a könyvjelzőket.
 
 Egyetlen fájl importálása:
 
 1. Keresse meg a megosztott KML-, KMZ-, KMB-, GPX-fájlt e-mailben, azonnali üzenetküldőben vagy felhőalapú tárhelyen küldött könyvjelzőkkel, például iCloud vagy Google Drive segítségével.
 
-2. Érintse meg egyszer vagy érintse meg hosszan a KML, KMZ, KMB, GPX, GeoJSON (JSON) fájlt könyvjelzőkkel, és válassza a Megnyitás organikus térképekkel (Android) vagy az „Importálás szerves térképekkel” (iOS) lehetőséget a felugró ablakban.
+2. Érintse meg egyszer vagy érintse meg hosszan a KML, KMZ, KMB, GPX, GeoJSON (JSON) fájlt könyvjelzőkkel, és válassza a Megnyitás Organic Maps-szel (Android) vagy az „Importálás Organic Maps-szel” (iOS) lehetőséget a felugró ablakban.
 
-3. Megnyílik az Organikus térképekkel, és a „Könyvjelzők sikeresen betöltve!” üzenet jelenik meg. Megtalálhatja őket a térképen vagy a Könyvjelzők menü képernyőjén.
+3. Megnyílik az Organic Maps-szel, és a „Könyvjelzők sikeresen betöltve!” üzenet jelenik meg. Megtalálhatja őket a térképen vagy a Könyvjelzők menü képernyőjén.
 
 Könyvjelzők és számok kötegelt importálása is lehetséges:
 

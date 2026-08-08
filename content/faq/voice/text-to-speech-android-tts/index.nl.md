@@ -13,7 +13,7 @@ aliases:
 
 ## Samenvatting
 
-Organische kaarten gebruiken de tekst-naar-spraak-engine (TTS) van het systeem voor gesproken instructies. De standaardengines variëren per apparaat. De keuzes kunnen bestaan ​​uit Google Text-to Speech, de engine van de apparaatfabrikant of een engine van derden.
+Organic Maps gebruikt de tekst-naar-spraak-engine (TTS) van het systeem voor gesproken instructies. De standaardengines variëren per apparaat. De keuzes kunnen bestaan ​​uit Google Text-to Speech, de engine van de apparaatfabrikant of een engine van derden.
 
 De officiële aanbeveling van Organic Maps is [RHVoice](https://rhvoice.org/), een gratis en open source spraakengine die kan worden gedownload van [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) en [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
@@ -23,7 +23,7 @@ De officiële aanbeveling van Organic Maps is [RHVoice](https://rhvoice.org/), e
 - Selecteer Aanvullende instellingen en selecteer vervolgens Toegankelijkheid
 - Kies de gewenste engine, spreeksnelheid en toonhoogte
 - **Start de Organic Maps-app opnieuw**
-- Open Instellingen => Gesproken instructies in organische kaarten en stel het in
+- Open Instellingen => Gesproken instructies in Organic Maps en stel het in
 - Start de Organic Maps-app opnieuw (of start het apparaat opnieuw op) als de stem niet werkt
 
 Als u de relevante instelling niet kunt vinden, opent u de instellingen-app en zoekt u naar Tekst-naar-spraak.
@@ -62,6 +62,6 @@ Probeer deze oplossing als u problemen ondervindt bij het initialiseren van de R
 
 ## Testen
 
-Om de gesproken instructies te testen, kunt u tikken op "Test stemaanwijzingen (TTS, tekst-naar-spraak)" in het OM-menu "Instellingen → Gesproken instructies" of u kunt daadwerkelijk een navigatie starten om stemuitvoer te ontvangen. Organische kaarten geven u geen gesproken instructies terwijl u stilstaat.
+Om de gesproken instructies te testen, kunt u tikken op "Test stemaanwijzingen (TTS, tekst-naar-spraak)" in het OM-menu "Instellingen → Gesproken instructies" of u kunt daadwerkelijk een navigatie starten om stemuitvoer te ontvangen. Organic Maps geeft u geen gesproken instructies terwijl u stilstaat.
 
 ![TTS-test](tts_test.png "TTS-test")

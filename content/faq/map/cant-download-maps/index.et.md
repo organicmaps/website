@@ -1,7 +1,7 @@
 ---
 title: Ma ei saa kaarte alla laadida (värskendada).
 slug: ma-ei-saa-kaarte-alla-laadida-värskendada
-description: Mida teha, kui orgaanilised kaardid ei suuda kaarte Internetist alla
+description: Mida teha, kui Organic Maps ei suuda kaarte Internetist alla
   laadida ega värskendada?
 updated: '2024-06-20'
 taxonomies:

@@ -1,7 +1,7 @@
 ---
 title: Uygulamanın Flatpak sürümünü nasıl kullanırım?
 slug: uygulamanın-flatpak-sürümünü-nasıl-kullanırım
-description: Organik Haritalar uygulaması için sık sorulan sorular
+description: Organic Maps uygulaması için sık sorulan sorular
 taxonomies:
   faq:
   - linux

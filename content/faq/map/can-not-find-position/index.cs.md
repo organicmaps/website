@@ -12,7 +12,7 @@ aliases:
   - /cs/faq/map/can-not-find-position/
 ---
 
-Ujistěte se prosím, že vaše zařízení má GPS, že jsou povoleny služby určování polohy a že organickým mapám jsou udělena oprávnění k poloze.
+Ujistěte se prosím, že vaše zařízení má GPS, že jsou povoleny služby určování polohy a že aplikaci Organic Maps jsou udělena oprávnění k poloze.
 
 **Android**
 
@@ -24,11 +24,11 @@ Poznámka: Zobrazí se pouze v případě, že máte na svém zařízení Androi
 
 **iOS**
 
-Pokud používáte iPhone nebo iPad, zkontrolujte nastavení iOS → Soukromí → Služby určování polohy. Pro organické mapy by mělo být povoleno sdílení geolokačních dat.
+Pokud používáte iPhone nebo iPad, zkontrolujte nastavení iOS → Soukromí → Služby určování polohy. Pro Organic Maps by mělo být povoleno sdílení geolokačních dat.
 
 **Poznámky:**
 
-* Chcete-li se vyhnout nechtěným datům při roamingu, můžete v nastavení zařízení vypnout všechna mobilní data, aktivovat letový režim nebo deaktivovat mobilní data pro organické mapy. Zařízení Android a iOS mohou používat GPS v režimu letu.
+* Chcete-li se vyhnout nechtěným datům při roamingu, můžete v nastavení zařízení vypnout všechna mobilní data, aktivovat letový režim nebo deaktivovat mobilní data pro Organic Maps. Zařízení Android a iOS mohou používat GPS v režimu letu.
 
 * Některá mobilní zařízení nemají vestavěné GPS přijímače, jako je iPod Touch, iPad pouze s WiFi, Amazon Kindle Fire/Kindle Fire HD 7 a některé tablety Android. Na těchto zařízeních budou všechny aplikace zobrazovat vaši přibližnou polohu zjištěnou pomocí sítě Wi-Fi, pokud jste připojeni k internetu.
 

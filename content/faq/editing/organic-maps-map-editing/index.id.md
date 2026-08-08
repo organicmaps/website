@@ -1,5 +1,5 @@
 ---
-title: Bagaimana cara mengedit peta di Peta Organik?
+title: Bagaimana cara mengedit peta di Organic Maps?
 slug: bagaimana-cara-mengedit-peta-di-peta-organik
 description: Tutorial mengedit OpenStreetMap dari dalam aplikasi Organic Maps selengkapnya
 updated: '2025-01-05'
@@ -12,9 +12,9 @@ aliases:
   - /id/faq/editing/organic-maps-map-editing/
 ---
 
-Dengan Peta Organik, Anda dapat dengan mudah menambahkan tempat yang hilang ke peta, menambahkan detail tambahan seperti jam buka, atau memperbaiki entri yang salah. Dengan melakukan ini, Anda meningkatkan data peta untuk semua pengguna.
+Dengan Organic Maps, Anda dapat dengan mudah menambahkan tempat yang hilang ke peta, menambahkan detail tambahan seperti jam buka, atau memperbaiki entri yang salah. Dengan melakukan ini, Anda meningkatkan data peta untuk semua pengguna.
 
-Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) adalah sumber utama data peta di Peta Organik, hasil edit yang Anda lakukan akan dikirim ke OSM. OSM adalah proyek komunitas untuk membangun peta yang bebas dan terbuka. Cara kerjanya mirip dengan Wikipedia, sehingga semua yang Anda edit tersedia untuk jutaan pengguna di seluruh dunia. Bergabunglah dengan komunitas dan bantu membuat peta yang lebih baik untuk semua orang!
+Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) adalah sumber utama data peta di Organic Maps, hasil edit yang Anda lakukan akan dikirim ke OSM. OSM adalah proyek komunitas untuk membangun peta yang bebas dan terbuka. Cara kerjanya mirip dengan Wikipedia, sehingga semua yang Anda edit tersedia untuk jutaan pengguna di seluruh dunia. Bergabunglah dengan komunitas dan bantu membuat peta yang lebih baik untuk semua orang!
 
 **Untuk mengedit OpenStreetMap dari aplikasi Organic Maps Anda:**
 1. Buat akun di [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
@@ -33,4 +33,4 @@ Karena [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreet
 		- Tambahkan informasi tambahan seperti nama, jam buka, dan situs web
 		- Simpan perubahan Anda dan keluar menggunakan panah centang
 
-Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Anda dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika Anda tidak dapat mengedit sesuatu dengan Peta Organik, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.id.md).
+Perhatikan bahwa editor dirancang sebagai editor POI sederhana dan oleh karena itu terbatas pada POI. Anda dapat, misalnya, tidak menambahkan jalan, danau, garis besar bangunan, dll. Terlebih lagi, memindahkan tempat ke lokasi baru tidak dapat dilakukan. Jika Anda tidak dapat mengedit sesuatu dengan Organic Maps, lihat halaman [Pengeditan peta lebih lanjut](@/faq/editing/advanced-map-editing/index.id.md).

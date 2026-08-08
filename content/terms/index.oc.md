@@ -1,6 +1,6 @@
 ---
-title: "Mapas Organicas : condicions"
-description: "Condicions d’us de l’aplicacion Mapas Organicas"
+title: "Organic Maps : condicions"
+description: "Condicions d’us de l’aplicacion Organic Maps"
 weight: 1000
 extra:
   menu_title: Tèrmes

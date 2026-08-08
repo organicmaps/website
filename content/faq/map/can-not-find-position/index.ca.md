@@ -24,11 +24,11 @@ Nota: només el podeu veure si teniu els serveis de Google Play instal·lats (ac
 
 **iOS**
 
-Si sou un usuari d'iPhone o iPad, comproveu la configuració d'iOS → Privadesa → Serveis d'ubicació. L'ús compartit de dades de geolocalització s'hauria d'habilitar per als mapes orgànics.
+Si sou un usuari d'iPhone o iPad, comproveu la configuració d'iOS → Privadesa → Serveis d'ubicació. L'ús compartit de dades de geolocalització s'hauria d'habilitar per a Organic Maps.
 
 **Notes:**
 
-* Per evitar dades no desitjades durant la itinerància, podeu desactivar totes les dades mòbils, activar un mode de vol o desactivar les dades mòbils per als mapes orgànics a la configuració del dispositiu. Els dispositius Android i iOS poden utilitzar el GPS en mode vol.
+* Per evitar dades no desitjades durant la itinerància, podeu desactivar totes les dades mòbils, activar un mode de vol o desactivar les dades mòbils per a Organic Maps a la configuració del dispositiu. Els dispositius Android i iOS poden utilitzar el GPS en mode vol.
 
 * Alguns dispositius mòbils no tenen receptors GPS integrats, com ara l'iPod Touch, l'iPad només amb WiFi, Amazon Kindle Fire/Kindle Fire HD 7 i algunes tauletes Android. En aquests dispositius, totes les aplicacions mostraran la vostra ubicació aproximada detectada mitjançant una xarxa Wi-Fi, sempre que estigueu connectat a Internet.
 

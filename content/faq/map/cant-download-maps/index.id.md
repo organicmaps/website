@@ -1,7 +1,7 @@
 ---
 title: Saya tidak dapat mengunduh (memperbarui) peta
 slug: saya-tidak-dapat-mengunduh-memperbarui-peta
-description: Apa yang harus dilakukan jika Peta Organik gagal mengunduh atau memperbarui
+description: Apa yang harus dilakukan jika Organic Maps gagal mengunduh atau memperbarui
   peta dari Internet?
 updated: '2024-06-20'
 taxonomies:

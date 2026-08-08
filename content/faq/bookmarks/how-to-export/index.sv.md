@@ -1,8 +1,7 @@
 ---
 title: Hur delar man (exporterar) bokmärken och spår?
 slug: hur-delar-man-exporterar-bokmärken-och-spår
-description: Steg-för-steg-guide för att exportera bokmärken och spår från organiska
-  kartor till andra applikationer och dela med kontakter
+description: Steg-för-steg-guide för att exportera bokmärken och spår från Organic Maps till andra applikationer och dela med kontakter
 updated: "2026-01-03"
 taxonomies:
   faq:

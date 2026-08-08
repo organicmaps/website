@@ -24,11 +24,11 @@ Nota: puoi visualizzarlo solo se hai installato (abilitato) i servizi Google Pla
 
 **iOS**
 
-Se sei un utente iPhone o iPad, controlla le impostazioni iOS → Privacy → Servizi di localizzazione. La condivisione dei dati di geolocalizzazione dovrebbe essere abilitata per le mappe organiche.
+Se sei un utente iPhone o iPad, controlla le impostazioni iOS → Privacy → Servizi di localizzazione. La condivisione dei dati di geolocalizzazione dovrebbe essere abilitata per Organic Maps.
 
 **Note:**
 
-* Per evitare dati indesiderati durante il roaming, puoi disattivare tutti i dati mobili, attivare una modalità aereo o disabilitare i dati mobili per Mappe organiche nelle impostazioni del tuo dispositivo. I dispositivi Android e iOS possono utilizzare il GPS in modalità aereo.
+* Per evitare dati indesiderati durante il roaming, puoi disattivare tutti i dati mobili, attivare una modalità aereo o disabilitare i dati mobili per Organic Maps nelle impostazioni del tuo dispositivo. I dispositivi Android e iOS possono utilizzare il GPS in modalità aereo.
 
 * Alcuni dispositivi mobili non dispongono di ricevitori GPS integrati, come iPod Touch, iPad solo WiFi, Amazon Kindle Fire/Kindle Fire HD 7 e alcuni tablet Android. Su questi dispositivi, tutte le app mostreranno la tua posizione approssimativa rilevata utilizzando una rete Wi-Fi, purché tu sia connesso a Internet.
 

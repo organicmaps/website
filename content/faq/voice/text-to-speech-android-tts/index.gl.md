@@ -23,7 +23,7 @@ A recomendación oficial de Organic Maps é [RHVoice](https://rhvoice.org/), que
 - Seleccione Configuración adicional e, a continuación, seleccione Accesibilidade
 - Escolla o seu motor preferido, velocidade de voz e ton
 - **Reinicie a aplicación Organic Maps**
-- Abre Configuración => Instrucións de voz en Mapas orgánicos e configúrao
+- Abre Configuración => Instrucións de voz en Organic Maps e configúrao
 - Reinicie de novo a aplicación Organic Maps (ou reinicie o dispositivo) se a voz non funciona
 
 Se non atopa a configuración relevante, abra a aplicación de configuración e busque Texto a voz.

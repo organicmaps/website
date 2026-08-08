@@ -12,7 +12,7 @@ aliases:
   - /ca/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Necessites almenys iOS 12 o Android 5 per executar l'aplicació. Els dispositius amb versions posteriors poden executar mapes orgànics.
+Necessites almenys iOS 12 o Android 5 per executar l'aplicació. Els dispositius amb versions posteriors poden executar Organic Maps.
 
 A Android, Organic Maps pot funcionar en dispositius amb els serveis de Google instal·lats i sense suport de Google.
 

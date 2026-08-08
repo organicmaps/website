@@ -1,7 +1,7 @@
 ---
 title: Ni allaf lawrlwytho (diweddaru) mapiau
 slug: ni-allaf-lawrlwytho-diweddaru-mapiau
-description: Beth i'w wneud os na fydd Mapiau Organig yn lawrlwytho neu'n diweddaru
+description: Beth i'w wneud os na fydd Organic Maps yn lawrlwytho neu'n diweddaru
   mapiau o'r Rhyngrwyd?
 updated: '2024-06-20'
 taxonomies:

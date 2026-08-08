@@ -24,4 +24,4 @@ Dit is veral waar vir moderne Android-weergawes:
 - Android 12
 - Android 11
 
-Die presiese stappe oor hoe om organiese kaarte (en ander toepassings) op die agtergrond te laat werk, word hier gelys: [dontkillmyapp.com](https://dontkillmyapp.com)
+Die presiese stappe oor hoe om Organic Maps (en ander toepassings) op die agtergrond te laat werk, word hier gelys: [dontkillmyapp.com](https://dontkillmyapp.com)

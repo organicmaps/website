@@ -12,7 +12,7 @@ aliases:
   - /et/faq/map/can-not-find-position/
 ---
 
-Veenduge, et teie seadmel on GPS, asukohateenused on lubatud ja orgaanilistele kaartidele on antud asukohaload.
+Veenduge, et teie seadmel on GPS, asukohateenused on lubatud ja Organic Mapsile on antud asukohaload.
 
 **Android**
 
@@ -24,11 +24,11 @@ Märkus: näete seda ainult siis, kui teie Android-seadmesse on installitud (lub
 
 **iOS**
 
-Kui olete iPhone'i või iPadi kasutaja, kontrollige iOS-i seadeid → Privaatsus → Asukohateenused. Orgaaniliste kaartide jaoks peaks olema lubatud geograafilise asukoha andmete jagamine.
+Kui olete iPhone'i või iPadi kasutaja, kontrollige iOS-i seadeid → Privaatsus → Asukohateenused. Organic Mapsi jaoks peaks olema lubatud geograafilise asukoha andmete jagamine.
 
 **Märkused:**
 
-* Rändluse ajal soovimatute andmete vältimiseks saate oma seadme seadetes välja lülitada kogu mobiilse andmeside, aktiveerida lennurežiimi või keelata mobiilse andmeside orgaaniliste kaartide jaoks. Android- ja iOS-seadmed saavad GPS-i kasutada lennurežiimis.
+* Rändluse ajal soovimatute andmete vältimiseks saate oma seadme seadetes välja lülitada kogu mobiilse andmeside, aktiveerida lennurežiimi või keelata mobiilse andmeside Organic Mapsi jaoks. Android- ja iOS-seadmed saavad GPS-i kasutada lennurežiimis.
 
 * Mõnel mobiilseadmel pole sisseehitatud GPS-vastuvõtjaid, nagu iPod Touch, ainult WiFi-ühendusega iPad, Amazon Kindle Fire/Kindle Fire HD 7 ja mõned Android-tahvelarvutid. Nendes seadmetes näitavad kõik rakendused teie ligikaudset asukohta, mis on tuvastatud Wi-Fi-võrgu kaudu, kuni olete Internetiga ühendatud.
 

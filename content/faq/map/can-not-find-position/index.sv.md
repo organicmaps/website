@@ -12,7 +12,7 @@ aliases:
   - /sv/faq/map/can-not-find-position/
 ---
 
-Se till att din enhet har GPS, att platstjänster är aktiverade och att platsbehörigheter ges till organiska kartor.
+Se till att din enhet har GPS, att platstjänster är aktiverade och att platsbehörigheter ges till Organic Maps.
 
 **Android**
 
@@ -24,11 +24,11 @@ Obs: du kan bara se det om du har Google Play-tjänster installerade (aktiverade
 
 **iOS**
 
-Om du använder iPhone eller iPad, kontrollera iOS-inställningar → Sekretess → Platstjänster. Geolokaliseringsdatadelning bör aktiveras för organiska kartor.
+Om du använder iPhone eller iPad, kontrollera iOS-inställningar → Sekretess → Platstjänster. Geolokaliseringsdatadelning bör aktiveras för Organic Maps.
 
 **Anmärkningar:**
 
-* För att undvika oönskad data under roaming kan du stänga av all mobildata, aktivera ett flygläge eller inaktivera mobildata för organiska kartor i dina enhetsinställningar. Android- och iOS-enheter kan använda GPS i flygläget.
+* För att undvika oönskad data under roaming kan du stänga av all mobildata, aktivera ett flygläge eller inaktivera mobildata för Organic Maps i dina enhetsinställningar. Android- och iOS-enheter kan använda GPS i flygläget.
 
 * Vissa mobila enheter har inte inbyggda GPS-mottagare, som iPod Touch, iPad med endast WiFi, Amazon Kindle Fire/Kindle Fire HD 7 och vissa Android-surfplattor. På dessa enheter kommer alla appar att visa din ungefärliga plats som identifierats med hjälp av ett Wi-Fi-nätverk, så länge du är ansluten till internet.
 

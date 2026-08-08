@@ -12,7 +12,7 @@ aliases:
 
 ## Podsumowanie
 
-Organiczne Mapy korzystają z systemowego mechanizmu zamiany tekstu na mowę (TTS) do obsługi instrukcji głosowych. Domyślne silniki różnią się w zależności od urządzenia. Dostępne opcje obejmują funkcję zamiany tekstu na mowę Google, silnik producenta urządzenia lub silnik innej firmy.
+Organic Maps korzysta z systemowego mechanizmu zamiany tekstu na mowę (TTS) do obsługi instrukcji głosowych. Domyślne silniki różnią się w zależności od urządzenia. Dostępne opcje obejmują funkcję zamiany tekstu na mowę Google, silnik producenta urządzenia lub silnik innej firmy.
 
 Oficjalna rekomendacja Organic Maps to [RHVoice](https://rhvoice.org/), czyli darmowy silnik mowy o otwartym kodzie źródłowym, który można pobrać z [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) i [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
@@ -21,8 +21,8 @@ Oficjalna rekomendacja Organic Maps to [RHVoice](https://rhvoice.org/), czyli da
 - Otwórz aplikację Ustawienia na urządzeniu z Androidem
 - Wybierz opcję Ustawienia dodatkowe, a następnie opcję Dostępność
 - Wybierz preferowany silnik, tempo mowy i ton
-- **Uruchom ponownie aplikację Mapy organiczne**
-- Otwórz Ustawienia => Instrukcje głosowe w organicznych mapach i skonfiguruj
+- **Uruchom ponownie aplikację Organic Maps**
+- Otwórz Ustawienia => Instrukcje głosowe w Organic Maps i skonfiguruj
 - Uruchom ponownie aplikację Organic Maps ponownie (lub zrestartuj urządzenie), jeśli głos nie działa
 
 Jeśli nie możesz znaleźć odpowiedniego ustawienia, otwórz aplikację ustawień i wyszukaj opcję zamiany tekstu na mowę.
@@ -61,6 +61,6 @@ Jeśli masz problemy z inicjalizacją silnika RHVoice TTS w systemie LineageOS l
 
 ## Testowanie
 
-Aby przetestować instrukcje głosowe, możesz dotknąć „Testuj wskazówki głosowe (TTS, zamiana tekstu na mowę)” w menu OM „Ustawienia → Instrukcje głosowe” lub możesz rozpocząć nawigację, aby otrzymać dowolny sygnał głosowy. Mapy organiczne nie będą podawać żadnych instrukcji głosowych, gdy stoisz w miejscu.
+Aby przetestować instrukcje głosowe, możesz dotknąć „Testuj wskazówki głosowe (TTS, zamiana tekstu na mowę)” w menu OM „Ustawienia → Instrukcje głosowe” lub możesz rozpocząć nawigację, aby otrzymać dowolny sygnał głosowy. Organic Maps nie będzie podawać żadnych instrukcji głosowych, gdy stoisz w miejscu.
 
 ![Test TTS](tts_test.png "Test TTS")

@@ -1,7 +1,7 @@
 ---
 title: Sut mae defnyddio'r fersiwn flatpak o'r app?
 slug: sut-mae-defnyddior-fersiwn-flatpak-or-app
-description: Cwestiynau cyffredin ar gyfer cais Mapiau Organig
+description: Cwestiynau cyffredin ar gyfer cais Organic Maps
 taxonomies:
   faq:
   - linux

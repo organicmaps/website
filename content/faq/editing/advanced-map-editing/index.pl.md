@@ -14,7 +14,7 @@ aliases:
 
 Organic Maps zawiera prosty i łatwy w obsłudze edytor, za pomocą którego możesz edytować mapę. Edytor jest jednak ograniczony i pozwala jedynie na dodawanie prostych obiektów punktowych, co oznacza brak obrysów budynków, dróg, jezior, miast itp. Jeśli chcesz zmienić coś, czego nie można edytować za pomocą wbudowanego edytora, to jest to właściwa strona FAQ do przeczytania.
 
-Ponieważ wszystkie dane map używane w Mapach organicznych pochodzą z [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), możesz tam bezpośrednio aktualizować mapę. Twoje modyfikacje zostaną następnie uwzględnione w Mapach organicznych przy następnej aktualizacji map.
+Ponieważ wszystkie dane map używane w Organic Maps pochodzą z [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), możesz tam bezpośrednio aktualizować mapę. Twoje modyfikacje zostaną następnie uwzględnione w Organic Maps przy następnej aktualizacji map.
 
 ## Redaktorzy OpenStreetMap
 
@@ -38,7 +38,7 @@ To wszystko, jesteś teraz częścią społeczności OSM.
 
 ## Co się stanie z moimi zmianami?
 
-Po naciśnięciu przycisku *Prześlij* zmiany zostaną natychmiast dodane do publicznej bazy danych OSM. Zachowaj więc ostrożność podczas edycji. W Mapach organicznych Twoje zmiany będą widoczne po kolejnej comiesięcznej aktualizacji map.
+Po naciśnięciu przycisku *Prześlij* zmiany zostaną natychmiast dodane do publicznej bazy danych OSM. Zachowaj więc ostrożność podczas edycji. W Organic Maps Twoje zmiany będą widoczne po kolejnej comiesięcznej aktualizacji map.
 
 Twój e-mail nie zostanie opublikowany, ale inne osoby będą mogły zobaczyć Twoją nazwę użytkownika OSM. Ponieważ OSM oferuje możliwość omówienia zmian, możesz otrzymać pytania dotyczące swoich zmian od innych autorów OSM. Zostaniesz o tym poinformowany na adres e-mail, który podałeś podczas rejestracji konta OSM. Ponieważ OSM jest projektem społecznościowym, który opiera się na współpracy, zawsze powinieneś odpowiadać na takie pytania.
 

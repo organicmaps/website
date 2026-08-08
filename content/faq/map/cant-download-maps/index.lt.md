@@ -1,7 +1,7 @@
 ---
 title: Negaliu atsisiųsti (atnaujinti) žemėlapių
 slug: negaliu-atsisiųsti-atnaujinti-žemėlapių
-description: Ką daryti, jei organiniams žemėlapiams nepavyksta atsisiųsti arba atnaujinti
+description: Ką daryti, jei Organic Maps programai nepavyksta atsisiųsti arba atnaujinti
   žemėlapių iš interneto?
 updated: '2024-06-20'
 taxonomies:

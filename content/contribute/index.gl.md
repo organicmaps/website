@@ -24,6 +24,6 @@ Hai diferentes formas de apoiar o desenvolvemento:
 - Califícanos en [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Calquera axuda é benvida!
 
-O noso pequeno equipo está moi agradecido polos teus comentarios e apoio. Os mapas orgánicos non serían posibles sen os nosos usuarios ❤️.
+O noso pequeno equipo está moi agradecido polos teus comentarios e apoio. Organic Maps non sería posible sen os nosos usuarios ❤️.
 
 {{references()}}

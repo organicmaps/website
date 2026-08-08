@@ -12,7 +12,7 @@ aliases:
   - /lt/faq/map/can-not-find-position/
 ---
 
-Įsitikinkite, kad jūsų įrenginyje yra GPS, vietos nustatymo paslaugos įjungtos ir natūralūs žemėlapiai suteikti vietos leidimai.
+Įsitikinkite, kad jūsų įrenginyje yra GPS, vietos nustatymo paslaugos įjungtos ir Organic Maps programėlei suteikti vietos leidimai.
 
 **Android**
 
@@ -24,11 +24,11 @@ Pastaba: jį galite matyti tik tada, jei „Android“ įrenginyje įdiegėte (�
 
 **iOS**
 
-Jei esate iPhone arba iPad naudotojas, patikrinkite iOS nustatymus → Privatumas → Vietos paslaugos. Geografinės vietos duomenų bendrinimas turėtų būti įgalintas natūraliems žemėlapiams.
+Jei esate iPhone arba iPad naudotojas, patikrinkite iOS nustatymus → Privatumas → Vietos paslaugos. Geografinės vietos duomenų bendrinimas turėtų būti įgalintas Organic Maps programėlei.
 
 **Pastabos:**
 
-* Kad išvengtumėte nepageidaujamų duomenų tarptinklinio ryšio metu, įrenginio nustatymuose galite išjungti visus mobiliuosius duomenis, suaktyvinti skrydžio režimą arba išjungti mobiliuosius duomenis organiniams žemėlapiams. Android ir iOS įrenginiai gali naudoti GPS skrydžio režimu.
+* Kad išvengtumėte nepageidaujamų duomenų tarptinklinio ryšio metu, įrenginio nustatymuose galite išjungti visus mobiliuosius duomenis, suaktyvinti skrydžio režimą arba išjungti mobiliuosius duomenis Organic Maps programėlei. Android ir iOS įrenginiai gali naudoti GPS skrydžio režimu.
 
 * Kai kuriuose mobiliuosiuose įrenginiuose nėra įmontuotų GPS imtuvų, tokių kaip „iPod Touch“, „iPad“, kuriame veikia tik WiFi, „Amazon Kindle Fire“ / „Kindle Fire HD 7“ ir kai kurie „Android“ planšetiniai kompiuteriai. Šiuose įrenginiuose visos programos rodys jūsų apytikslę vietą, aptiktą naudojant „Wi-Fi“ tinklą, jei būsite prisijungę prie interneto.
 

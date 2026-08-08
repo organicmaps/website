@@ -15,23 +15,23 @@ aliases:
 
 Organic Maps include un editor semplice e facile da usare che puoi utilizzare per modificare la mappa. L'editor, tuttavia, è limitato e consente solo di aggiungere semplici elementi puntuali, ovvero nessun contorno di edifici, strade, laghi, città, ecc. Se vuoi cambiare qualcosa che non può essere modificato con l'editor integrato, questa è la pagina FAQ giusta da leggere.
 
-Poiché tutti i dati della mappa utilizzati in Organic Maps provengono da [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), puoi aggiornare direttamente la mappa lì. Le tue modifiche verranno quindi incluse nelle mappe organiche con il prossimo aggiornamento della mappa.
+Poiché tutti i dati della mappa utilizzati in Organic Maps provengono da [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), puoi aggiornare direttamente la mappa lì. Le tue modifiche verranno quindi incluse in Organic Maps con il prossimo aggiornamento della mappa.
 
 ## Editor di OpenStreetMap
 
-Per modificare OSM ci sono diverse opzioni. Se hai un laptop o un computer desktop a portata di mano, è meglio utilizzare l'[ID Editor](https://www.openstreetmap.org/edit) che viene eseguito nel tuo browser. L'editor ID è facile per i principianti e uno schermo, un mouse e una tastiera più grandi semplificano la modifica della mappa.
+Per modificare OSM ci sono diverse opzioni. Se hai un laptop o un computer desktop a portata di mano, è meglio utilizzare l'[ID Editor](https://www.openstreetmap.org/edit) che viene eseguito nel tuo browser. L'ID Editor è facile per i principianti e uno schermo, un mouse e una tastiera più grandi semplificano la modifica della mappa.
 
 Per la modifica avanzata della mappa da un dispositivo mobile, utilizza [Go Map](https://apps.apple.com/us/app/go-map/id592990211) per iOS o [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) per Android. Go Map è facile per i principianti, mentre Vespucci si rivolge agli utenti più avanzati. LearnOSM fornisce tutorial per [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) e [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Per modifiche più semplici e più divertenti, puoi anche provare l'[app Every Door](https://every-door.app/) per iOS e Android e l'[app StreetComplete](https://streetcomplete.app/) per Android.
 
-#### Editore ID
+#### ID Editor
 
 Per modificare OpenStreetMap con ID segui questi passaggi:
 
 1. Crea un nuovo account o accedi a [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Individua la posizione che desideri modificare su OpenStreetMap.org e fai clic su *Modifica* in alto
-3. *Avvia la procedura dettagliata* e segui il breve tutorial che spiega l'editor ID
+3. *Avvia la procedura dettagliata* e segui il breve tutorial che spiega l'ID Editor
 4. Modifica la mappa
 5. Carica le tue modifiche
 
@@ -39,7 +39,7 @@ Questo è tutto, ora fai parte della comunità OSM.
 
 ## Cosa succede con le mie modifiche?
 
-Dopo aver premuto *Carica* le modifiche verranno immediatamente aggiunte al database OSM pubblico. Quindi sii attento durante la modifica. Nelle mappe organiche, le modifiche saranno visibili dopo il prossimo aggiornamento mensile della mappa.
+Dopo aver premuto *Carica* le modifiche verranno immediatamente aggiunte al database OSM pubblico. Quindi sii attento durante la modifica. In Organic Maps, le modifiche saranno visibili dopo il prossimo aggiornamento mensile della mappa.
 
 La tua email non verrà pubblicata, ma altre persone potranno vedere il tuo nome utente OSM. Poiché OSM offre la possibilità di discutere le modifiche, potresti ricevere domande sulle tue modifiche da altri contributori OSM. Riceverai una notifica a riguardo tramite l'indirizzo e-mail che hai utilizzato per registrare il tuo account OSM. Poiché OSM è un progetto comunitario che si basa sulla collaborazione, dovresti sempre rispondere a queste domande.
 
@@ -55,7 +55,7 @@ Poiché sembra più complicato di quello che è, forniremo un esempio:
 Un ristorante è ad es. mappato come una nota o un'area con il tag `amenity=restaurant`. Ulteriori tag come `cuisine=*` o `opening_hours=*` possono essere utilizzati per ulteriori dettagli.
 
 > Tieni presente che l'editor ID nasconde la struttura dei dati interni agli utenti per essere più adatto ai principianti. Ma per leggere la documentazione del Wiki è utile avere una breve panoramica della struttura dei dati.
-Nell'editor ID, puoi vedere i tag che l'ID ti nasconde espandendo la sezione *Tag* nel pannello laterale *Funzione di modifica*.
+Nell'ID Editor, puoi vedere i tag che l'ID ti nasconde espandendo la sezione *Tag* nel pannello laterale *Funzione di modifica*.
 
 ## Note OSM {#osm-note}
 

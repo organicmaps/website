@@ -24,11 +24,11 @@ Nota: só podes velo se tes os servizos de Google Play instalados (activados) no
 
 **iOS**
 
-Se es un usuario de iPhone ou iPad, comprobe a configuración de iOS → Privacidade → Servizos de localización. O uso compartido de datos de xeolocalización debería estar activado para os mapas orgánicos.
+Se es un usuario de iPhone ou iPad, comprobe a configuración de iOS → Privacidade → Servizos de localización. O uso compartido de datos de xeolocalización debería estar activado para Organic Maps.
 
 **Notas:**
 
-* Para evitar datos non desexados durante a itinerancia, podes desactivar todos os datos móbiles, activar un modo de voo ou desactivar os datos móbiles para os mapas orgánicos na configuración do teu dispositivo. Os dispositivos Android e iOS poden usar o GPS no modo voo.
+* Para evitar datos non desexados durante a itinerancia, podes desactivar todos os datos móbiles, activar un modo de voo ou desactivar os datos móbiles para Organic Maps na configuración do teu dispositivo. Os dispositivos Android e iOS poden usar o GPS no modo voo.
 
 * Algúns dispositivos móbiles non teñen receptores GPS integrados, como o iPod Touch, o iPad só con WiFi, Amazon Kindle Fire/Kindle Fire HD 7 e algunhas tabletas Android. Nestes dispositivos, todas as aplicacións mostrarán a túa localización aproximada detectada mediante unha rede wifi, sempre que esteas conectado a Internet.
 

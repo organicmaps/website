@@ -3,11 +3,11 @@ description: "Diferentei manieras d’ajudar lo desvelopament de nòstra aplicac
 extra:
   menu_title: "Ajudatz lo desvelopament"
   preview_image: contribute/contribute.jpg
-title: "Ajudatz lo desvelopament de Mapas Organicas"
+title: "Ajudatz lo desvelopament d’Organic Maps"
 weight: 20
 ---
 
-Mapas Organicas es una aplicacion dubèrta e a gratis. Es liura d’anóncias, recampa pas d’informacions personalas e es desvelopada per un rodolet d’afogats e l’ajuda de la comunautat.
+Organic Maps es una aplicacion dubèrta e a gratis. Es liura d’anóncias, recampa pas d’informacions personalas e es desvelopada per un rodolet d’afogats e l’ajuda de la comunautat.
 
 I a diferéntei manieras d’ajudar au desvelopament:
 
@@ -24,6 +24,6 @@ I a diferéntei manieras d’ajudar au desvelopament:
 - Avalora-nos dins [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Un pauc d’ajuda fa grand ben !
 
-Vòstrei comentaris e ajuda fan un gròs plaser a nòstra chormeta. Mapas Organicas seriá pas possible sensa nòstreis utilisators ❤️.
+Vòstrei comentaris e ajuda fan un gròs plaser a nòstra chormeta. Organic Maps seriá pas possible sensa nòstreis utilisators ❤️.
 
 {{ references() }}

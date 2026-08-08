@@ -63,6 +63,6 @@ Silakan pertimbangkan untuk menyumbang setiap tahun untuk mengurangi total biaya
 
 ## Dapatkah Anda membantu kami dengan cara lain?
 
-Ya! Ada banyak cara untuk mendukung Peta Organik. Silakan lihat halaman [Dukung Kami](@/contribute/index.id.md) untuk lebih jelasnya.
+Ya! Ada banyak cara untuk mendukung Organic Maps. Silakan lihat halaman [Dukung Kami](@/contribute/index.id.md) untuk lebih jelasnya.
 
 {{ references() }}

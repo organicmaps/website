@@ -12,7 +12,7 @@ aliases:
   - /hu/faq/map/can-not-find-position/
 ---
 
-Kérjük, győződjön meg arról, hogy eszköze rendelkezik GPS-szel, a helymeghatározási szolgáltatások engedélyezve vannak, és az Organikus térképek helymeghatározási engedélyekkel rendelkeznek.
+Kérjük, győződjön meg arról, hogy eszköze rendelkezik GPS-szel, a helymeghatározási szolgáltatások engedélyezve vannak, és az Organic Maps helymeghatározási engedélyekkel rendelkezik.
 
 **Android**
 
@@ -24,11 +24,11 @@ Megjegyzés: csak akkor láthatja, ha a Google Play-szolgáltatások telepítve 
 
 **iOS**
 
-Ha Ön iPhone vagy iPad felhasználó, kérjük, ellenőrizze az iOS beállításait → Adatvédelem → Helymeghatározási szolgáltatások. A földrajzi helyadatok megosztását engedélyezni kell az organikus térképekhez.
+Ha Ön iPhone vagy iPad felhasználó, kérjük, ellenőrizze az iOS beállításait → Adatvédelem → Helymeghatározási szolgáltatások. A földrajzi helyadatok megosztását engedélyezni kell az Organic Maps-hez.
 
 **Megjegyzések:**
 
-* A barangolás közbeni nem kívánt adatforgalom elkerülése érdekében eszköze beállításaiban kikapcsolhatja az összes mobiladat-forgalmat, aktiválhat egy repülési módot, vagy letilthatja a mobiladatokat az Organikus térképekhez. Az Android és iOS eszközök repülési módban használhatják a GPS-t.
+* A barangolás közbeni nem kívánt adatforgalom elkerülése érdekében eszköze beállításaiban kikapcsolhatja az összes mobiladat-forgalmat, aktiválhat egy repülési módot, vagy letilthatja a mobiladatokat az Organic Maps-hez. Az Android és iOS eszközök repülési módban használhatják a GPS-t.
 
 * Egyes mobileszközök nem rendelkeznek beépített GPS-vevővel, például az iPod Touch, a csak WiFi-t használó iPad, az Amazon Kindle Fire/Kindle Fire HD 7 és néhány Android táblagép. Ezeken az eszközökön minden alkalmazás megjeleníti az Ön hozzávetőleges tartózkodási helyét a Wi-Fi hálózaton keresztül, mindaddig, amíg csatlakozik az internethez.
 

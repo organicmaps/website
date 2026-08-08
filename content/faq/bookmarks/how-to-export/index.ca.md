@@ -1,7 +1,7 @@
 ---
 title: Com compartir (exportar) adreces d'interès i pistes?
 slug: com-compartir-exportar-adreces-dinterès-i-pistes
-description: Guia pas a pas per exportar adreces d'interès i pistes des de mapes orgànics
+description: Guia pas a pas per exportar adreces d'interès i pistes des d'Organic Maps
   a altres aplicacions i compartir-les amb contactes
 updated: "2026-01-03"
 taxonomies:

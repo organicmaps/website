@@ -1,6 +1,6 @@
 ---
 title: 问题和解答
-description: 本常见问题回答了有关有机地图应用程序、我们的贡献者和我们项目的许多问题
+description: 本常见问题回答了有关 Organic Maps 应用程序、我们的贡献者和我们项目的许多问题
 extra:
   menu_title: 问题和解答
 ---

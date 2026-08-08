@@ -23,7 +23,7 @@ Organic Mapsi ametlik soovitus on [RHVoice](https://rhvoice.org/), mis on tasuta
 - Valige Lisasätted ja seejärel Juurdepääsetavus
 - Valige eelistatud mootor, kõne kiirus ja helikõrgus
 - **Taaskäivitage rakendus Organic Maps**
-- Avage orgaanilistes kaartides Seaded => Hääljuhised ja seadistage see
+- Avage Organic Mapsis Seaded => Hääljuhised ja seadistage see
 - Kui hääl ei tööta, taaskäivitage rakendus Organic Maps uuesti (või taaskäivitage seade).
 
 Kui te ei leia asjakohast seadet, avage seadete rakendus ja otsige teksti kõneks muutmist.
@@ -62,6 +62,6 @@ Kui teil on probleeme RHVoice TTS-mootori käivitamisega LineageOS-is või muude
 
 ## Testimine
 
-Hääljuhiste testimiseks võite puudutada OM-i menüüs "Seaded → Hääljuhised" valikut "Testi hääljuhiseid (TTS, tekst kõneks muutmine)" või saate tegelikult alustada navigeerimist, et saada mis tahes häälväljundit. Orgaanilised kaardid ei anna teile paigal seistes hääljuhiseid.
+Hääljuhiste testimiseks võite puudutada OM-i menüüs "Seaded → Hääljuhised" valikut "Testi hääljuhiseid (TTS, tekst kõneks muutmine)" või saate tegelikult alustada navigeerimist, et saada mis tahes häälväljundit. Organic Maps ei anna teile paigal seistes hääljuhiseid.
 
 ![TTS-test](tts_test.png "TTS-test")

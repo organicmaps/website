@@ -13,7 +13,7 @@ aliases:
 
 ## Ringkasan
 
-Peta Organik menggunakan mesin sistem text-to-speech (TTS) untuk instruksi suara. Mesin default berbeda-beda menurut perangkat. Pilihannya dapat mencakup Google Text-to Speech, mesin pabrikan perangkat, atau mesin pihak ketiga.
+Organic Maps menggunakan mesin sistem text-to-speech (TTS) untuk instruksi suara. Mesin default berbeda-beda menurut perangkat. Pilihannya dapat mencakup Google Text-to Speech, mesin pabrikan perangkat, atau mesin pihak ketiga.
 
 Rekomendasi resmi dari Organic Maps adalah [RHVoice](https://rhvoice.org/), yang merupakan mesin ucapan gratis dan bersumber terbuka yang dapat diunduh dari [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) dan [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
@@ -22,9 +22,9 @@ Rekomendasi resmi dari Organic Maps adalah [RHVoice](https://rhvoice.org/), yang
 - Buka aplikasi Pengaturan di perangkat Android Anda
 - Pilih Pengaturan Tambahan lalu pilih Aksesibilitas
 - Pilih mesin, kecepatan bicara, dan nada pilihan Anda
-- **Mulai ulang aplikasi Peta Organik**
-- Buka Pengaturan => Petunjuk Suara di Peta Organik dan atur
-- Mulai ulang aplikasi Peta Organik (atau reboot perangkat) jika suaranya tidak berfungsi
+- **Mulai ulang aplikasi Organic Maps**
+- Buka Pengaturan => Petunjuk Suara di Organic Maps dan atur
+- Mulai ulang aplikasi Organic Maps (atau reboot perangkat) jika suaranya tidak berfungsi
 
 Jika Anda tidak dapat menemukan pengaturan yang relevan, buka aplikasi pengaturan dan cari Text-to-speech.
 
@@ -62,6 +62,6 @@ Jika Anda mengalami masalah saat menginisialisasi mesin RHVoice TTS di LineageOS
 
 ## Pengujian
 
-Untuk menguji instruksi suara, Anda dapat mengetuk "Uji Arah Suara (TTS, Text-To-Speech)" di menu OM "Pengaturan → Petunjuk Suara" atau Anda dapat memulai navigasi untuk menerima keluaran suara apa pun. Peta Organik tidak akan memberi Anda instruksi suara apa pun saat Anda diam.
+Untuk menguji instruksi suara, Anda dapat mengetuk "Uji Arah Suara (TTS, Text-To-Speech)" di menu OM "Pengaturan → Petunjuk Suara" atau Anda dapat memulai navigasi untuk menerima keluaran suara apa pun. Organic Maps tidak akan memberi Anda instruksi suara apa pun saat Anda diam.
 
 ![Tes TTS](tts_test.png "Tes TTS")

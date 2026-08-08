@@ -23,7 +23,7 @@ La recomanació oficial d'Orgànic Maps és [RHVoice](https://rhvoice.org/), que
 - Seleccioneu Configuració addicional i després seleccioneu Accessibilitat
 - Trieu el vostre motor preferit, velocitat de parla i to
 - **Reinicia l'aplicació Organic Maps**
-- Obriu Configuració => Instruccions de veu a Mapes orgànics i configureu-lo
+- Obriu Configuració => Instruccions de veu a Organic Maps i configureu-lo
 - Reinicieu l'aplicació Organic Maps de nou (o reinicieu el dispositiu) si la veu no funciona
 
 Si no trobeu la configuració rellevant, obriu l'aplicació de configuració i cerqueu Text a veu.

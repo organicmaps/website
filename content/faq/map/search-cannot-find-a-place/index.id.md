@@ -17,4 +17,4 @@ Ingatlah bahwa untuk mencari suatu tempat di area tertentu, Anda perlu mengunduh
 
 Selain itu, tempat tersebut mungkin belum ditambahkan ke peta di [OpenStreetMap.org](https://www.openstreetmap.org/). Jika Anda ingin membantu dan menyempurnakan peta, periksa [panduan ini](https://wiki.openstreetmap.org/wiki/Contribute_map_data) dan tambahkan sendiri informasi peta yang hilang.
 
-Jika tempat tersebut ditampilkan pada peta di Peta Organik, tetapi pencarian kami tidak dapat menemukannya, [laporkan kepada kami](mailto:support@organicmaps.app) koordinat tempat tersebut dan contoh permintaan pencarian Anda.
+Jika tempat tersebut ditampilkan pada peta di Organic Maps, tetapi pencarian kami tidak dapat menemukannya, [laporkan kepada kami](mailto:support@organicmaps.app) koordinat tempat tersebut dan contoh permintaan pencarian Anda.

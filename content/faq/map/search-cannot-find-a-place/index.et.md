@@ -17,4 +17,4 @@ Pidage meeles, et kindlas piirkonnas koha otsimiseks peate alla laadima asjakoha
 
 Lisaks ei pruugi see koht olla veel saidil [OpenStreetMap.org] (https://www.openstreetmap.org/) kaardile lisatud. Kui soovite kaarti aidata ja täiustada, vaadake [seda juhendit](https://wiki.openstreetmap.org/wiki/Contribute_map_data) ja lisage ise puuduv kaarditeave.
 
-Kui koht kuvatakse orgaanilistes kaartides kaardil, kuid meie otsing seda ei leia, [teavitage meid](mailto:support@organicmaps.app) koha koordinaadid ja otsingupäringu näide.
+Kui koht kuvatakse Organic Mapsis kaardil, kuid meie otsing seda ei leia, [teavitage meid](mailto:support@organicmaps.app) koha koordinaadid ja otsingupäringu näide.

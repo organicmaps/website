@@ -21,7 +21,7 @@ Ar Android, os ydych chi'n storio'ch mapiau ar gerdyn SD, yr achos mwyaf tebygol
 Os yw'r ap yn dal i ddamwain, gwiriwch [ein GitHub](https://github.com/organicmaps/organicmaps/issues/) am faterion tebyg, a [cysylltwch â ni] (mailto:support@organicmaps.app) a rhowch y canlynol:
 
 * Disgrifiad manwl o'r mater a'r camau i'w hatgynhyrchu
-* Fersiwn Mapiau Organig
+* Fersiwn Organic Maps
 * Model dyfais a fersiwn OS (Android neu iOS)
 
 Neu fel arall:

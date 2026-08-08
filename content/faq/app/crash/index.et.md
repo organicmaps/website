@@ -21,7 +21,7 @@ Kui salvestate kaardid Androidis SD-kaardile, on kõige tõenäolisem põhjus vi
 Kui rakendus ikka jookseb kokku, kontrollige sarnaste probleemide osas [meie GitHubit](https://github.com/organicmaps/organicmaps/issues/) ja [võtke meiega ühendust](mailto:support@organicmaps.app) ja esitage järgmine teave.
 
 * Probleemi üksikasjalik kirjeldus ja sammud selle taasesitamiseks
-* Orgaaniliste kaartide versioon
+* Organic Mapsi versioon
 * Seadme mudel ja operatsioonisüsteemi versioon (Android või iOS)
 
 Või alternatiivina:

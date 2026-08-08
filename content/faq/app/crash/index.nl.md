@@ -21,7 +21,7 @@ Als u op Android uw kaarten op een SD-kaart opslaat, is de meest waarschijnlijke
 Als de app nog steeds crasht, controleer dan [onze GitHub](https://github.com/organicmaps/organicmaps/issues/) op soortgelijke problemen en [neem contact met ons op](mailto:support@organicmaps.app) en geef het volgende op:
 
 * Een gedetailleerde beschrijving van het probleem en stappen om het te reproduceren
-* Organische kaartenversie
+* Organic Maps-versie
 * Apparaatmodel en besturingssysteemversie (Android of iOS)
 
 Of als alternatief:

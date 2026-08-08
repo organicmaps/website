@@ -21,7 +21,7 @@ Di Android, jika Anda menyimpan peta di kartu SD, kemungkinan besar penyebabnya 
 Jika aplikasi masih mogok, silakan periksa [Github kami](https://github.com/organicmaps/organicmaps/issues/) untuk masalah serupa, dan [hubungi kami](mailto:support@organicmaps.app) dan berikan yang berikut:
 
 * Penjelasan rinci tentang masalah dan langkah-langkah untuk mereproduksinya
-* Versi Peta Organik
+* Versi Organic Maps
 * Model perangkat dan versi OS (Android atau iOS)
 
 Atau sebagai alternatif:

@@ -12,18 +12,18 @@ aliases:
 
 ## Özet
 
-Organik Haritalar, sesli talimatlar için sistemin metinden konuşmaya (TTS) motorunu kullanır. Varsayılan motorlar cihaza göre değişir. Seçenekler Google Metin-Konuşma, cihaz üreticisinin motoru veya üçüncü taraf motorunu içerebilir.
+Organic Maps, sesli talimatlar için sistemin metinden konuşmaya (TTS) motorunu kullanır. Varsayılan motorlar cihaza göre değişir. Seçenekler Google Metin-Konuşma, cihaz üreticisinin motoru veya üçüncü taraf motorunu içerebilir.
 
-Organik Haritalar'ın resmi önerisi, [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) adresinden indirilebilen ücretsiz ve açık kaynaklı bir konuşma motoru olan [RHVoice](https://rhvoice.org/)'dur ve [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+Organic Maps'in resmi önerisi, [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) adresinden indirilebilen ücretsiz ve açık kaynaklı bir konuşma motoru olan [RHVoice](https://rhvoice.org/)'dur ve [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Talimatlar
 
 - Android cihazınızda Ayarlar uygulamasını açın
 - Ek Ayarlar'ı ve ardından Erişilebilirlik'i seçin
 - Tercih ettiğiniz motoru, konuşma hızını ve perdesini seçin
-- **Organik Haritalar uygulamasını yeniden başlatın**
-- Organik Haritalar'da Ayarlar => Sesli Talimatlar'ı açın ve kurun
-- Ses çalışmıyorsa Organik Haritalar uygulamasını yeniden başlatın (veya cihazı yeniden başlatın)
+- **Organic Maps uygulamasını yeniden başlatın**
+- Organic Maps'te Ayarlar => Sesli Talimatlar'ı açın ve kurun
+- Ses çalışmıyorsa Organic Maps uygulamasını yeniden başlatın (veya cihazı yeniden başlatın)
 
 İlgili ayarı bulamıyorsanız ayarlar uygulamasını açın ve Metinden konuşmaya arama yapın.
 
@@ -61,6 +61,6 @@ RHVoice TTS motorunu LineageOS veya diğer özel ROM'larda başlatma konusunda s
 
 ## Test etme
 
-Sesli talimatları test etmek için OM "Ayarlar → Sesli Talimatlar" menüsünde "Sesli Yönleri Test Et (TTS, Metinden Konuşmaya)" seçeneğine dokunabilir veya herhangi bir ses çıkışı almak için gerçekten bir navigasyon başlatabilirsiniz. Organik Haritalar siz hareketsiz dururken size herhangi bir sesli talimat vermez.
+Sesli talimatları test etmek için OM "Ayarlar → Sesli Talimatlar" menüsünde "Sesli Yönleri Test Et (TTS, Metinden Konuşmaya)" seçeneğine dokunabilir veya herhangi bir ses çıkışı almak için gerçekten bir navigasyon başlatabilirsiniz. Organic Maps siz hareketsiz dururken size herhangi bir sesli talimat vermez.
 
 ![TTS Testi](tts_test.png "TTS Testi")

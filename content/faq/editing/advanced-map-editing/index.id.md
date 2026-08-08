@@ -13,9 +13,9 @@ aliases:
   - /id/faq/editing/advanced-map-editing/
 ---
 
-Peta Organik menyertakan editor sederhana dan mudah digunakan yang dapat Anda gunakan untuk mengedit peta. Namun editornya terbatas dan hanya mengizinkan penambahan fitur titik sederhana, yang berarti tidak boleh ada garis besar bangunan, jalan, danau, kota, dll. Jika Anda ingin mengubah sesuatu yang tidak dapat diedit dengan editor bawaan, ini adalah halaman FAQ yang tepat untuk dibaca.
+Organic Maps menyertakan editor sederhana dan mudah digunakan yang dapat Anda gunakan untuk mengedit peta. Namun editornya terbatas dan hanya mengizinkan penambahan fitur titik sederhana, yang berarti tidak boleh ada garis besar bangunan, jalan, danau, kota, dll. Jika Anda ingin mengubah sesuatu yang tidak dapat diedit dengan editor bawaan, ini adalah halaman FAQ yang tepat untuk dibaca.
 
-Karena semua data peta yang digunakan di Peta Organik berasal dari [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), Anda dapat langsung memperbarui peta di sana. Modifikasi Anda kemudian akan dimasukkan ke dalam Peta Organik pada pembaruan peta berikutnya.
+Karena semua data peta yang digunakan di Organic Maps berasal dari [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), Anda dapat langsung memperbarui peta di sana. Modifikasi Anda kemudian akan dimasukkan ke dalam Organic Maps pada pembaruan peta berikutnya.
 
 ## Editor OpenStreetMap
 
@@ -25,7 +25,7 @@ Untuk pengeditan peta tingkat lanjut dari perangkat seluler, gunakan [Go Map](ht
 
 Untuk pengeditan yang lebih sederhana dan lebih seru, Anda juga dapat mencoba [aplikasi Every Door](https://every-door.app/) untuk iOS dan Android serta [aplikasi StreetComplete](https://streetcomplete.app/) untuk Android.
 
-#### Penyunting Identitas
+#### ID Editor
 
 Untuk mengedit OpenStreetMap dengan ID ikuti langkah-langkah berikut:
 
@@ -39,7 +39,7 @@ Itu saja, Anda sekarang menjadi bagian dari komunitas OSM.
 
 ## Apa yang terjadi dengan hasil edit saya?
 
-Setelah Anda menekan *Unggah* perubahan Anda akan langsung ditambahkan ke database OSM publik. Jadi berhati-hatilah saat mengedit. Di Peta Organik, perubahan Anda akan terlihat setelah pembaruan peta bulanan berikutnya.
+Setelah Anda menekan *Unggah* perubahan Anda akan langsung ditambahkan ke database OSM publik. Jadi berhati-hatilah saat mengedit. Di Organic Maps, perubahan Anda akan terlihat setelah pembaruan peta bulanan berikutnya.
 
 Email Anda tidak dipublikasikan, namun orang lain akan dapat melihat nama pengguna OSM Anda. Karena OSM menawarkan kemungkinan untuk mendiskusikan perubahan, Anda mungkin mendapat pertanyaan tentang hasil edit Anda dari kontributor OSM lainnya. Anda akan diberitahu tentang hal ini melalui alamat email yang Anda gunakan untuk mendaftarkan akun OSM Anda. Karena OSM adalah proyek komunitas yang dibangun berdasarkan kolaborasi, Anda harus selalu menjawab pertanyaan-pertanyaan tersebut.
 

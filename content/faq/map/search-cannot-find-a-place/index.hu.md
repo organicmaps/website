@@ -17,4 +17,4 @@ Ne feledje, hogy egy adott területen lévő hely kereséséhez le kell tölteni
 
 Ezenkívül előfordulhat, hogy a hely még nem került fel a térképre az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org/). Ha szeretne segíteni és javítani szeretné a térképet, tekintse meg [ezt az útmutatót](https://wiki.openstreetmap.org/wiki/Contribute_map_data), és saját maga adja meg a hiányzó térképinformációkat.
 
-Ha a hely megjelenik a térképen az Organikus térképekben, de a keresésünk nem találja, [jelentse be](mailto:support@organicmaps.app) a hely koordinátáit és egy példát a keresési kérelmére.
+Ha a hely megjelenik a térképen az Organic Maps-ben, de a keresésünk nem találja, [jelentse be](mailto:support@organicmaps.app) a hely koordinátáit és egy példát a keresési kérelmére.

@@ -21,7 +21,7 @@ Op Android, as jy jou kaarte op 'n SD-kaart stoor, is die mees waarskynlike oors
 As die toepassing steeds ineenstort, kyk asseblief na [ons GitHub](https://github.com/organicmaps/organicmaps/issues/) vir soortgelyke kwessies, en [kontak ons](mailto:support@organicmaps.app) en verskaf die volgende:
 
 * 'n Gedetailleerde beskrywing van die probleem en stappe om dit weer te gee
-* Organiese kaarte weergawe
+* Organic Maps-weergawe
 * Toestelmodel en bedryfstelselweergawe (Android of iOS)
 
 Of alternatiewelik:

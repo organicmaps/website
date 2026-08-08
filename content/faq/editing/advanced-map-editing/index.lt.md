@@ -13,25 +13,25 @@ aliases:
   - /lt/faq/editing/advanced-map-editing/
 ---
 
-Organiniuose žemėlapiuose yra paprastas ir lengvai naudojamas redaktorius, kurį galite naudoti norėdami redaguoti žemėlapį. Tačiau redaktorius yra ribotas ir leidžia pridėti tik paprastų taškų ypatybių, t.
+Organic Maps programėlėje yra paprastas ir lengvai naudojamas redaktorius, kurį galite naudoti norėdami redaguoti žemėlapį. Tačiau redaktorius yra ribotas ir leidžia pridėti tik paprastų taškų ypatybių, t.
 
-Kadangi visi natūraliuose žemėlapiuose naudojami žemėlapio duomenys gaunami iš [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), čia galite tiesiogiai atnaujinti žemėlapį. Tada jūsų pakeitimai bus įtraukti į natūralius žemėlapius su kitu žemėlapio atnaujinimu.
+Kadangi visi Organic Maps programėlėje naudojami žemėlapio duomenys gaunami iš [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), čia galite tiesiogiai atnaujinti žemėlapį. Tada jūsų pakeitimai bus įtraukti į Organic Maps su kitu žemėlapio atnaujinimu.
 
 ## OpenStreetMap redaktoriai
 
-OSM redagavimui yra keletas parinkčių. Jei po ranka turite nešiojamąjį ar stalinį kompiuterį, geriau naudokite [ID redaktorių] (https://www.openstreetmap.org/edit), kuris veikia jūsų naršyklėje. ID redaktorius yra paprastas pradedantiesiems, o didesnis ekranas, pelė ir klaviatūra palengvina žemėlapio redagavimą.
+OSM redagavimui yra keletas parinkčių. Jei po ranka turite nešiojamąjį ar stalinį kompiuterį, geriau naudokite [ID Editor] (https://www.openstreetmap.org/edit), kuris veikia jūsų naršyklėje. ID Editor yra paprastas pradedantiesiems, o didesnis ekranas, pelė ir klaviatūra palengvina žemėlapio redagavimą.
 
 Jei norite išplėsti žemėlapio redagavimą mobiliajame įrenginyje, naudokite [Go Map](https://apps.apple.com/us/app/go-map/id592990211), skirtą „iOS“, arba [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android), skirtą „Android“. „Go Map“ yra lengvas pradedantiesiems, o „Vespucci“ skirtas labiau pažengusiems vartotojams. LearnOSM teikia mokymo programas, skirtas [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) ir [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Jei norite paprastesnio ir smagiau redagavimo, taip pat galite išbandyti [Every Door programą] (https://every-door.app/), skirtą „iOS“ ir „Android“, ir [programėlę „StreetComplete“](https://streetcomplete.app/), skirtą „Android“.
 
-#### ID redaktorius
+#### ID Editor
 
 Norėdami redaguoti OpenStreetMap su ID, atlikite šiuos veiksmus:
 
 1. Sukurkite naują paskyrą arba prisijunkite adresu [OpenStreetMap.org](https://www.openstreetmap.org)
 2. OpenStreetMap.org suraskite vietą, kurią norite redaguoti, ir viršuje spustelėkite *Redaguoti*
-3. *Pradėkite apžvalgą* ir vadovaukitės trumpa pamoka, kurioje paaiškinama ID redaktorius
+3. *Pradėkite apžvalgą* ir vadovaukitės trumpa pamoka, kurioje paaiškinamas ID Editor
 4. Redaguokite žemėlapį
 5. Įkelkite pakeitimus
 
@@ -39,7 +39,7 @@ Viskas, dabar esate OSM bendruomenės dalis.
 
 ## Kas atsitiks su mano pakeitimais?
 
-Kai paspausite *Įkelti*, jūsų pakeitimai akimirksniu įtraukiami į viešąją OSM duomenų bazę. Taigi redaguodami būkite atidūs. Natūraliuose žemėlapiuose jūsų pakeitimai bus matomi po kito mėnesio žemėlapio atnaujinimo.
+Kai paspausite *Įkelti*, jūsų pakeitimai akimirksniu įtraukiami į viešąją OSM duomenų bazę. Taigi redaguodami būkite atidūs. Organic Maps programėlėje jūsų pakeitimai bus matomi po kito mėnesio žemėlapio atnaujinimo.
 
 Jūsų el. paštas neskelbiamas, bet kiti žmonės galės matyti jūsų OSM vartotojo vardą. Kadangi OSM suteikia galimybę aptarti pakeitimus, galite sulaukti klausimų apie savo pakeitimus iš kitų OSM bendradarbių. Apie tai jums bus pranešta el. pašto adresu, kurį naudojote registruodami savo OSM paskyrą. Kadangi OSM yra bendruomenės projektas, pagrįstas bendradarbiavimu, visada turėtumėte atsakyti į tokius klausimus.
 
@@ -55,7 +55,7 @@ Kadangi tai skamba sudėtingiau nei yra, pateiksime pavyzdį:
 Restoranas yra pvz. susietas kaip pastaba arba sritis su žyma `amenity=restaurant`. Tada galima naudoti kitas žymas, pvz., `cuisine=*` arba `opening_hours=*`, kad gautumėte daugiau informacijos.
 
 > Atminkite, kad ID redaktorius slepia vidinę duomenų struktūrą nuo vartotojų, kad būtų patogesnis pradedantiesiems. Tačiau norint skaityti Wiki dokumentaciją, naudinga trumpa duomenų struktūros apžvalga.
-ID redagavimo priemonėje galite matyti žymas, kurias ID nuo jūsų slepia, išplėsdami skyrių *Žymos* šoniniame *Redagavimo funkcijos* skydelyje.
+ID Editor redagavimo priemonėje galite matyti žymas, kurias ID nuo jūsų slepia, išplėsdami skyrių *Žymos* šoniniame *Redagavimo funkcijos* skydelyje.
 
 ## OSM pastabos {#osm-note}
 

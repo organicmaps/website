@@ -17,4 +17,4 @@ aliases:
 
 याव्यतिरिक्त, [OpenStreetMap.org](https://www.openstreetmap.org/) वर त्या ठिकाणाची नकाशात अद्याप नोंद झालेली नसेल. जर तुम्हाला मदत करायची असेल आणि नकाशा सुधारवायचा असेल, तर [या मार्गदर्शकाला](https://wiki.openstreetmap.org/wiki/Contribute_map_data) तपासा आणि गहाळ नकाशाची माहिती स्वतः जोडा.
 
-जर ऑर्गेनिक मॅप्समध्ये नकाशावर स्थान दिसत असेल, परंतु आमच्या शोधात ते सापडत नसेल, तर त्या स्थानाचे निर्देशांक आणि आपल्या शोध विनंतीचे उदाहरण आम्हाला [mailto:support@organicmaps.app](mailto:support@organicmaps.app) वर कळवा.
+जर Organic Maps मध्ये नकाशावर स्थान दिसत असेल, परंतु आमच्या शोधात ते सापडत नसेल, तर त्या स्थानाचे निर्देशांक आणि आपल्या शोध विनंतीचे उदाहरण आम्हाला [mailto:support@organicmaps.app](mailto:support@organicmaps.app) वर कळवा.

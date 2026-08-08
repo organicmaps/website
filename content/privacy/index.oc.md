@@ -2,13 +2,13 @@
 description: "Sensa corsejament, anóncias, reculhiment de donadas, estatisticas ò programa espia"
 extra:
   menu_title: Privacy
-title: "Mapas Organicas: Politica de Privadesa"
+title: "Organic Maps: Politica de Privadesa"
 weight: 900
 ---
 
-Mapas Organicas respècta la vida privada e vos corseja pas.
+Organic Maps respècta la vida privada e vos corseja pas.
 
-A la diferéncia d’autreis aplicacions, ges de corsejadors, ni d’anóncias, ni mai de programa espia, ni de reculhiment de donadas e d’estatisticas dins Mapas Organicas.
+A la diferéncia d’autreis aplicacions, ges de corsejadors, ni d’anóncias, ni mai de programa espia, ni de reculhiment de donadas e d’estatisticas dins Organic Maps.
 
 Rebutar la susvelhança. Assegurar la libertat.
 

@@ -2,7 +2,7 @@
 title: Některá místa na mapě chybí nebo mají nesprávná jména
 slug: některá-místa-na-mapě-chybí-nebo-mají-nesprávná-jména
 description: Tipy pro opravu chyb v mapách, provádění změn a aktualizací objektů přímo
-  v organických mapách nebo prostřednictvím OpenStreetMap.org
+  v Organic Maps nebo prostřednictvím OpenStreetMap.org
 updated: '2024-06-20'
 taxonomies:
   faq:
@@ -21,6 +21,6 @@ Pokud vidíte nesprávné informace nebo zjistíte, že některé objekty na map
 
 **Poznámky:**
 
-* Můžete také přidávat nová místa, upravovat stávající POI a informace o budovách (adresy, otevírací doby, názvy) přímo v organických mapách. Jakmile se přihlásíte pomocí účtu OSM, vaše úpravy budou automaticky nahrány do OSM. Při úpravách buďte opatrní, protože vaše úpravy budou viditelné všem ostatním uživatelům.
+* Můžete také přidávat nová místa, upravovat stávající POI a informace o budovách (adresy, otevírací doby, názvy) přímo v Organic Maps. Jakmile se přihlásíte pomocí účtu OSM, vaše úpravy budou automaticky nahrány do OSM. Při úpravách buďte opatrní, protože vaše úpravy budou viditelné všem ostatním uživatelům.
 
 * Databáze OpenStreetMap se aktualizuje každou minutu. Naším cílem je aktualizovat mapy v aplikaci 1-4krát za měsíc. Pokud jste něco upravili v OSM, vaše úpravy se objeví v budoucích aktualizacích map.

@@ -21,7 +21,7 @@ Jei naudojate „Android“, žemėlapius saugote SD kortelėje, greičiausiai p
 Jei programa vis tiek stringa, patikrinkite [mūsų GitHub](https://github.com/organicmaps/organicmaps/issues/), ar nėra panašių problemų, ir [susisiekite su mumis](mailto:support@organicmaps.app) ir pateikite:
 
 * Išsamus problemos aprašymas ir veiksmai, kaip ją atkurti
-* Organinių žemėlapių versija
+* Organic Maps versija
 * Įrenginio modelis ir OS versija („Android“ arba „iOS“)
 
 Arba alternatyviai:

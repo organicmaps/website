@@ -2,7 +2,7 @@
 title: Kai kurių vietų žemėlapyje trūksta arba jos pavadintos neteisingai
 slug: kai-kurių-vietų-žemėlapyje-trūksta-arba-jos-pavadintos-neteisingai
 description: Patarimai, kaip ištaisyti žemėlapių klaidas, atlikti objektų pakeitimus
-  ir atnaujinimus tiesiogiai organiniuose žemėlapiuose arba per OpenStreetMap.org
+  ir atnaujinimus tiesiogiai Organic Maps programėlėje arba per OpenStreetMap.org
 updated: '2024-06-20'
 taxonomies:
   faq:
@@ -21,6 +21,6 @@ Kuo daugiau žmonių prisideda, tuo detalesnius žemėlapius visi gaus. Manome, 
 
 **Pastabos:**
 
-* Taip pat galite pridėti naujų vietų, redaguoti esamą LV ir pastato informaciją (adresus, darbo valandas, pavadinimus) tiesiogiai organiniuose žemėlapiuose. Kai prisijungsite naudodami OSM paskyrą, jūsų pakeitimai bus automatiškai įkelti į OSM. Būkite atsargūs redaguodami, nes jūsų pakeitimai bus matomi visiems kitiems naudotojams.
+* Taip pat galite pridėti naujų vietų, redaguoti esamą LV ir pastato informaciją (adresus, darbo valandas, pavadinimus) tiesiogiai Organic Maps programėlėje. Kai prisijungsite naudodami OSM paskyrą, jūsų pakeitimai bus automatiškai įkelti į OSM. Būkite atsargūs redaguodami, nes jūsų pakeitimai bus matomi visiems kitiems naudotojams.
 
 * OpenStreetMap duomenų bazė atnaujinama kas minutę. Siekiame atnaujinti žemėlapius programėlėje 1-4 kartus per mėnesį. Jei ką nors pakeitėte OSM, jūsų pakeitimai bus rodomi būsimuose žemėlapių atnaujinimuose.

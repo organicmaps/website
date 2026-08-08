@@ -2,7 +2,7 @@
 title: Alcuni luoghi mancano sulla mappa o hanno nomi errati
 slug: alcuni-luoghi-mancano-sulla-mappa-o-hanno-nomi-errati
 description: Suggerimenti per correggere errori nelle mappe, apportare modifiche e
-  aggiornamenti agli oggetti direttamente in Mappe organiche o tramite OpenStreetMap.org
+  aggiornamenti agli oggetti direttamente in Organic Maps o tramite OpenStreetMap.org
 updated: '2024-06-20'
 taxonomies:
   faq:
@@ -21,6 +21,6 @@ Più persone contribuiscono, più mappe dettagliate riceveranno tutti. Crediamo 
 
 **Note:**
 
-* Puoi anche aggiungere nuovi luoghi, modificare PDI esistenti e informazioni sugli edifici (indirizzi, orari di apertura, nomi) direttamente in Mappe organiche. Una volta effettuato l'accesso con l'account OSM, le tue modifiche verranno automaticamente caricate su OSM. Fai attenzione durante la modifica, poiché le tue modifiche saranno visibili a tutti gli altri utenti.
+* Puoi anche aggiungere nuovi luoghi, modificare PDI esistenti e informazioni sugli edifici (indirizzi, orari di apertura, nomi) direttamente in Organic Maps. Una volta effettuato l'accesso con l'account OSM, le tue modifiche verranno automaticamente caricate su OSM. Fai attenzione durante la modifica, poiché le tue modifiche saranno visibili a tutti gli altri utenti.
 
 * Il database OpenStreetMap viene aggiornato ogni minuto. Il nostro obiettivo è aggiornare le mappe nell'app 1-4 volte al mese. Se hai modificato qualcosa in OSM, le tue modifiche appariranno nei futuri aggiornamenti delle mappe.

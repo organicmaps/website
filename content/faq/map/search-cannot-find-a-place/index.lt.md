@@ -17,4 +17,4 @@ Atminkite, kad norėdami ieškoti vietos konkrečioje vietovėje, turėsite atsi
 
 Be to, vieta gali būti dar neįtraukta į žemėlapį adresu [OpenStreetMap.org](https://www.openstreetmap.org/). Jei norite padėti ir patobulinti žemėlapį, peržiūrėkite [šį vadovą](https://wiki.openstreetmap.org/wiki/Contribute_map_data) ir patys pridėkite trūkstamą žemėlapio informaciją.
 
-Jei vieta natūralių žemėlapių žemėlapyje rodoma, bet mūsų paieška jos neranda, [praneškite mums](mailto:support@organicmaps.app) vietos koordinates ir paieškos užklausos pavyzdį.
+Jei vieta Organic Maps žemėlapyje rodoma, bet mūsų paieška jos neranda, [praneškite mums](mailto:support@organicmaps.app) vietos koordinates ir paieškos užklausos pavyzdį.

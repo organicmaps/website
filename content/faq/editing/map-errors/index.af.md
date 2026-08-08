@@ -21,6 +21,6 @@ Hoe meer mense bydra, hoe meer gedetailleerde kaarte kry almal. Ons glo dat die 
 
 ** Notas:**
 
-* Jy kan ook nuwe plekke byvoeg, bestaande PVB en gebou-inligting (adresse, openingstye, name) direk in Organiese Kaarte wysig. Sodra jy met OSM-rekening ingeteken het, sal jou wysigings outomaties na OSM opgelaai word. Wees asseblief versigtig wanneer jy redigeer, aangesien jou wysigings vir alle ander gebruikers sigbaar sal wees.
+* Jy kan ook nuwe plekke byvoeg, bestaande PVB en gebou-inligting (adresse, openingstye, name) direk in Organic Maps wysig. Sodra jy met OSM-rekening ingeteken het, sal jou wysigings outomaties na OSM opgelaai word. Wees asseblief versigtig wanneer jy redigeer, aangesien jou wysigings vir alle ander gebruikers sigbaar sal wees.
 
 * Die OpenStreetMap-databasis word elke minuut opgedateer. Ons beoog om kaarte in die toepassing 1-4 keer per maand op te dateer. As jy iets in OSM verander het, sal jou wysigings in toekomstige kaartopdaterings verskyn.

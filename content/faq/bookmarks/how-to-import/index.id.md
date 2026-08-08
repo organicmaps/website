@@ -14,18 +14,18 @@ aliases:
   - /id/faq/bookmarks/how-to-import/
 ---
 
-Anda dapat mengimpor bookmark yang dikirim dari Peta Organik atau aplikasi pihak ketiga jika aplikasi tersebut mengekspor bookmark dalam format KML, KMZ, KMB, GPX, GeoJSON (JSON).
+Anda dapat mengimpor bookmark yang dikirim dari Organic Maps atau aplikasi pihak ketiga jika aplikasi tersebut mengekspor bookmark dalam format KML, KMZ, KMB, GPX, GeoJSON (JSON).
 
 Untuk mengimpor satu file:
 
 1. Temukan file KML, KMZ, KMB, GPX, GeoJSON (JSON) bersama dengan bookmark yang dikirim melalui email, pesan instan, atau penyimpanan cloud, misalnya iCloud atau Google Drive.
 
-2. Ketuk sekali atau ketuk dan tahan file KML, KMZ, KMB, GPX, GeoJSON (JSON) dengan bookmark dan pilih Buka dengan Peta Organik (Android) atau "Impor dengan Peta Organik" (iOS) di jendela pop-up.
+2. Ketuk sekali atau ketuk dan tahan file KML, KMZ, KMB, GPX, GeoJSON (JSON) dengan bookmark dan pilih Buka dengan Organic Maps (Android) atau "Impor dengan Organic Maps" (iOS) di jendela pop-up.
 
-3. Ini akan terbuka dengan Peta Organik dan Anda akan melihat 'Bookmark berhasil dimuat!'. Anda dapat menemukannya di peta atau di layar Menu Bookmark.
+3. Ini akan terbuka dengan Organic Maps dan Anda akan melihat 'Bookmark berhasil dimuat!'. Anda dapat menemukannya di peta atau di layar Menu Bookmark.
 
 Mengimpor bookmark dan trek secara berkelompok juga dimungkinkan:
 
-1. Buka Peta Organik dan ketuk tombol bintang untuk membuka daftar penanda dan trek. Tekan tombol "Impor Bookmark dan Trek".
+1. Buka Organic Maps dan ketuk tombol bintang untuk membuka daftar penanda dan trek. Tekan tombol "Impor Bookmark dan Trek".
 
-2. Pilih folder dengan file KML, KMZ, KMB, GPX, GeoJSON (JSON). Peta Organik akan memindainya termasuk subfolder dan mengimpor semua file yang didukung dengan bookmark dan trek. Anda dapat memilih folder root untuk mencari di seluruh penyimpanan.
+2. Pilih folder dengan file KML, KMZ, KMB, GPX, GeoJSON (JSON). Organic Maps akan memindainya termasuk subfolder dan mengimpor semua file yang didukung dengan bookmark dan trek. Anda dapat memilih folder root untuk mencari di seluruh penyimpanan.

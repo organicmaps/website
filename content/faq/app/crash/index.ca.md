@@ -21,7 +21,7 @@ A Android, si emmagatzemeu els vostres mapes en una targeta SD, la causa més pr
 Si l'aplicació encara es bloqueja, consulteu [el nostre GitHub](https://github.com/organicmaps/organicmaps/issues/) per problemes similars i [contacteu amb nosaltres](mailto:support@organicmaps.app) i proporcioneu el següent:
 
 * Una descripció detallada del problema i els passos per reproduir-lo
-* Versió de mapes orgànics
+* Versió d'Organic Maps
 * Model de dispositiu i versió del sistema operatiu (Android o iOS)
 
 O alternativament:

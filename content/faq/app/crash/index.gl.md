@@ -21,7 +21,7 @@ En Android, se almacenas os teus mapas nunha tarxeta SD, a causa máis probable 
 Se a aplicación segue fallando, consulta [o noso GitHub](https://github.com/organicmaps/organicmaps/issues/) para ver problemas similares e [contacta connosco](mailto:support@organicmaps.app) e proporciona o seguinte:
 
 * Unha descrición detallada do problema e os pasos para reproducilo
-* Versión de mapas orgánicos
+* Versión de Organic Maps
 * Modelo de dispositivo e versión do SO (Android ou iOS)
 
 Ou alternativamente:

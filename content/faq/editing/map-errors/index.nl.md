@@ -2,7 +2,7 @@
 title: Sommige plaatsen ontbreken op de kaart of hebben verkeerde namen
 slug: sommige-plaatsen-ontbreken-op-de-kaart-of-hebben-verkeerde-namen
 description: Tips voor het corrigeren van fouten in kaarten, het aanbrengen van wijzigingen
-  en updates aan objecten rechtstreeks in organische kaarten of via OpenStreetMap.org
+  en updates aan objecten rechtstreeks in Organic Maps of via OpenStreetMap.org
 updated: '2024-06-20'
 taxonomies:
   faq:
@@ -21,6 +21,6 @@ Hoe meer mensen bijdragen, hoe gedetailleerder de kaarten iedereen krijgt. Wij g
 
 **Opmerkingen:**
 
-* U kunt ook rechtstreeks in Organische kaarten nieuwe plaatsen toevoegen en bestaande POI- en gebouwinformatie (adressen, openingstijden, namen) bewerken. Zodra u zich aanmeldt met een OSM-account, worden uw bewerkingen automatisch geüpload naar OSM. Wees voorzichtig bij het bewerken, aangezien uw bewerkingen zichtbaar zijn voor alle andere gebruikers.
+* U kunt ook rechtstreeks in Organic Maps nieuwe plaatsen toevoegen en bestaande POI- en gebouwinformatie (adressen, openingstijden, namen) bewerken. Zodra u zich aanmeldt met een OSM-account, worden uw bewerkingen automatisch geüpload naar OSM. Wees voorzichtig bij het bewerken, aangezien uw bewerkingen zichtbaar zijn voor alle andere gebruikers.
 
 * De OpenStreetMap-database wordt elke minuut bijgewerkt. We streven ernaar om de kaarten in de app 1-4 keer per maand te updaten. Als u iets in OSM hebt gewijzigd, zullen uw bewerkingen verschijnen in toekomstige kaartupdates.

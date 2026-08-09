@@ -6,8 +6,7 @@ extra:
   menu_title: Termini
 ---
 
-Questa applicazione è concessa in licenza secondo la Licenza Apache, versione 2.0 (la "Licenza");
-l'utente non può utilizzare questa applicazione se non in conformità con la Licenza.
+Questa applicazione è concessa in licenza secondo la Licenza Apache, versione 2.0 (la « Licenza »); non puoi utilizzare questa applicazione se non in conformità con la Licenza.
 
 È possibile ottenere una copia della Licenza all'indirizzo [http://www.apache.org/licenses/LICENSE-2.0][license]
 
@@ -25,7 +24,7 @@ Si prega di fare riferimento ai loro file LICENSE, COPYING o NOTICE per le condi
 
 Vedere anche il file [data/copyright.html][copyright] per un elenco completo delle note di copyright per l'applicazione Organic Maps.
 
-Se avete domande o suggerimenti, contattateci all'indirizzo [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Se hai domande o suggerimenti, contattaci all'indirizzo [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps
 [license]: http://www.apache.org/licenses/LICENSE-2.0

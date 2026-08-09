@@ -11,10 +11,7 @@ tu ne peux utiliser cette application qu'en conformité avec la licence.
 
 Tu peux obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0][license].
 
-Sauf si la loi applicable l'exige ou si un accord écrit est conclu, le logiciel distribué sous la
-licence est distribué "EN L'ÉTAT", SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, que ce soit en termes
-CONDITIONS DE QUELQUE NATURE QUE CE SOIT, explicites ou implicites. Voir la Licence pour les
-pour connaître les termes spécifiques régissant les permissions et les limitations de la Licence.
+Sauf si la loi applicable l'exige ou si un accord écrit le prévoit, le logiciel distribué sous la Licence est distribué « EN L'ÉTAT », SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, expresses ou implicites. Voir la Licence pour connaître les termes spécifiques régissant les autorisations et les limitations prévues par la Licence.
 
 La plupart des bibliothèques présentes dans les répertoires suivants sur [GitHub][github] ont été créées par d'autres personnes et organisations et font l'objet de différentes licences :
 

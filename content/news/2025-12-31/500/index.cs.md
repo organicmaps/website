@@ -19,12 +19,14 @@ Mezi další významné úspěchy v roce 2025 patří:
 - 800 [nových problémů][github issues] vytvořeno a 482 opraveno/uzavřeno v roce 2025 z celkového počtu 6 000.
 - [1 500 commitů](https://github.com/organicmaps/organicmaps/commits) od 100 přispěvatelů v roce 2025 z celkového počtu 8 600 commitů od zahájení projektu v roce 2020.
 - Projekt dosáhl 1 244 forků a 12 411 hvězdiček [na GitHubu][github], což naznačuje silný zájem vývojářů a reálné využití.
+
 #### Hodnocení v obchodech a zapojení uživatelů
 
 - V průběhu roku 2025 se celkový počet hodnocení v App Store zvýšil ze 4 100 na 11 100, což znamená, že aplikace získala v roce 2025 více než dvakrát tolik nových hodnocení než ve všech předchozích letech dohromady, což odráží silné uznání od tebe, našeho milovaného uživatele.
 - Uživatelé Androidu také projevili zvýšenou angažovanost s 5 300 novými hodnoceními v roce 2025, čímž dosáhli celkového počtu 16 500 ❤️
 - V roce 2025 jsme odeslali 4 000 e-mailů podpory a odpověděli na 2 500 recenzí na Google Play a App Store.
 - Uživatelé po celém světě stáhli z našich serverů v roce 2025 10 petabajtů mapových dat.
+
 #### Sociální sítě a komunita
 
 - Díky tobě rostou i naše statistiky na sociálních sítích (pokud nás ještě nesleduješ, přidej se! 😊):

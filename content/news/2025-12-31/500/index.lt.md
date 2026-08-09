@@ -19,12 +19,14 @@ Kiti svarbūs pasiekimai 2025 m.:
 - 2025 m. sukurta 800 [naujų problemų][github issues] ir ištaisyta / uždaryta 482 iš 6 tūkst.
 - [1,5 tūkst. pakeitimų](https://github.com/organicmaps/organicmaps/commits) iš 100 bendradarbių 2025 m. iš viso 8,6 tūkst. pakeitimų nuo projekto pradžios 2020 m.
 - Projektas pasiekė 1 244 atšakas ir 12 411 žvaigždučių [GitHub][github], kas rodo didelį kūrėjų susidomėjimą ir realų naudojimą.
+
 #### Parduotuvių įvertinimai ir naudotojų įsitraukimas
 
 - Per 2025 m. bendras įvertinimų skaičius App Store padidėjo nuo 4,1 tūkst. iki 11,1 tūkst., o tai reiškia, kad programėlė 2025 m. gavo daugiau nei dvigubai daugiau naujų įvertinimų nei per visus ankstesnius metus kartu sudėjus, kas atspindi stiprų tavo, mūsų mylimo naudotojo, įvertinimą.
 - Android vartotojai taip pat parodė didesnį įsitraukimą – 2025 m. buvo gauta 5,3 tūkst. naujų įvertinimų, iš viso pasiekta 16,5 tūkst. ❤️
 - 2025 m. išsiuntėme 4 tūkst. palaikymo el. laiškų ir atsakėme į 2,5 tūkst. atsiliepimų Google Play ir App Store.
 - 2025 m. vartotojai visame pasaulyje iš mūsų serverių atsisiuntė 10 petabaitų žemėlapio duomenų.
+
 #### Socialiniai tinklai ir bendruomenė
 
 - Tavo dėka auga ir mūsų socialinių tinklų statistika (sek mus, jei dar to nepadarei! 😊):

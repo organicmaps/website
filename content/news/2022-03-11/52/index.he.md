@@ -8,7 +8,7 @@ slug: "organic-maps-is-participating-in-the-google-summer-of-code-2022-program"
 
 התחלנו להכין [רשימת תכונות](https://github.com/organicmaps/organicmaps/wiki/GSoC-2022-ideas) שעליהן תוכלו לעבוד כסטודנטים. אתם מוזמנים להוסיף את הרעיונות שלכם! יש לנו בקשות רבות נוספות לתכונות ב-[GitHub שלנו](https://github.com/organicmaps/organicmaps/issues).
 * Android Auto
-* מקליט מסלולים
+* מקליט מסלולי GPS
 * פורמט GPX
 * מסלולים חלופיים
 * תחבורה ציבורית

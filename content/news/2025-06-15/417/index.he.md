@@ -6,12 +6,12 @@ taxonomies:
   news: ["גרסאות"]
 ---
 
-הודות לתורמים האהובים שלנו ❤️, בגרסת יוני ישנם שיפורים ותיקונים רבים. ניתן לשמור מסלולים מתוכננים, לראות את הנתונים הסטטיסטיים של מסלול ההקלטה (iOS) ואת האזימוט למקום הנבחר (Android). מתוכננים שיפורים ותיקונים רבים נוספים!
+הודות לתורמים האהובים שלנו ❤️, בגרסת יוני ישנם שיפורים ותיקונים רבים. ניתן לשמור מסלולים מתוכננים, לראות את הנתונים הסטטיסטיים של המסלול המוקלט (iOS) ואת האזימוט למקום הנבחר (Android). מתוכננים שיפורים ותיקונים רבים נוספים!
 
 העדכון כבר זמין ב-[AppStore][appstore], [Obtainium][obtainium] ו-[Accrescent](https://accrescent.app/app/app.organicmaps), ויהיה זמין ב-[Google Play][googleplay], [Huawei AppGallery][appgallery] ו-[FDroid][fdroid] בעוד מספר ימים.
 
 - נתוני OpenStreetMap חדשים נכון ל-8 ביוני 2025
-- שמירת מסלולים מתוכננים כמסלולים -- [@cyber-toad](https://github.com/cyber-toad) ו-[@kirylkaveryn](https://github.com/kirylkaveryn)
+- שמירת מסלולים מתוכננים כמסלולי GPS -- [@cyber-toad](https://github.com/cyber-toad) ו-[@kirylkaveryn](https://github.com/kirylkaveryn)
 - אייקונים פחות מעצבנים לתחנות טעינה לרכבים -- [@euf](https://github.com/euf)
 - הצגת משתלות צמחים, מחסומי תאונות/תנועה, אולפני רדיו/טלוויזיה/מוזיקה, מדורות, סולמות, מנופים ומלונות אהבה -- [@hemanggs](https://github.com/hemanggs) ו-[@vng](https://github.com/vng)
 - סמלי מטרו צ'ינגדאו -- [@sddzhyc](https://github.com/sddzhyc) ו-[@vng](https://github.com/vng)

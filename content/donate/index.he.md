@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-אפליקציית Organic Maps היא _חופשית לכולם_ תודות ל-**[תרומות][stripe]** שלכם ב-**[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+אפליקציית Organic Maps היא _חופשית לכולם_ תודות ל-**[תרומות][stripe]** שלכם ב-**[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - ללא פרסומות
 - ללא מעקבים

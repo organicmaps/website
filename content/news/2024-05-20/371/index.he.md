@@ -1,5 +1,5 @@
 ---
-title: "אנו עובדים על פיתוח תכונת \"רצועות אחרונות\" עבור Android ו\"הקלט רצועה\" עבור iOS ו-Android."
+title: "אנו עובדים על פיתוח תכונת \"מסלול אחרון\" עבור Android ו\"הקלטת מסלול\" עבור iOS ו-Android."
 date: 2024-05-20T09:32:17+00:00
 slug: "we-are-working-on-the-recent-track-feature-for-android-and-record-track-for-ios-and-android"
 ---

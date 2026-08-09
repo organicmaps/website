@@ -15,7 +15,13 @@ extra:
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Yürüyüş', loading='eager', fetchpriority='high') }} {{ screenshot(src='/images/screenshots/prague.jpg', alt='Prag') }} {{ screenshot(src='/images/screenshots/search.jpg', alt='Çevrimdışı Arama') }} {{ screenshot(src='/images/screenshots/dark.jpg', alt='Koyu modda navigasyon') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Yürüyüş', loading='eager', fetchpriority='high') }}
+
+{{ screenshot(src='/images/screenshots/prague.jpg', alt='Prag') }}
+
+{{ screenshot(src='/images/screenshots/search.jpg', alt='Çevrimdışı Arama') }}
+
+{{ screenshot(src='/images/screenshots/dark.jpg', alt='Koyu modda navigasyon') }}
 
 ## Özellikler
 

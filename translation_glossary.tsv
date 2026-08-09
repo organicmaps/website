@@ -29,12 +29,18 @@ tram	ar	ترام
 subway	ar	مترو الأنفاق
 public transport	ar	النقل العام
 track recording	ar	تسجيل المسار
+track	ar	المسار المسجل
+tracks	ar	المسارات المسجلة
+bookmark	ar	الإشارة المرجعية
+bookmarks	ar	الإشارات المرجعية
 voice guidance	ar	الإرشاد الصوتي
 team	ar	فريق
 
 # ----------------------------------------------------------------- Czech (cs)
 bookmark	cs	záložka
 bookmarks	cs	záložky
+track	cs	stopa
+tracks	cs	stopy
 route	cs	trasa
 routes	cs	trasy
 icon	cs	ikona
@@ -68,6 +74,8 @@ antimeridian	de	Antimeridian
 # ----------------------------------------------------------------- Greek (el)
 bookmark	el	σελιδοδείκτης
 bookmarks	el	σελιδοδείκτες
+track	el	ίχνος
+tracks	el	ίχνη
 route	el	διαδρομή
 routes	el	διαδρομές
 icon	el	εικονίδιο
@@ -495,22 +503,25 @@ team	af	span
 # NEEDS NATIVE REVIEW — deliberately NOT in the glossary above
 # =============================================================================
 #
-# 1. track / route collapse (ar, cs, el, he)
-#    In these languages the proofread corpus renders BOTH "track" and "route"
-#    with the same word, so the corpus cannot supply a distinct "track":
-#        ar  track = المسار   route = المسار
-#        cs  track = trasa    route = trasa
-#        el  track = διαδρομή route = διαδρομή
-#        he  track = מסלול    route = מסלול
-#    "route" is entered above for cs/el (the settled sense); "track" is omitted
-#    everywhere here. A native speaker should pick a distinct recorded-GPS-track
-#    term. Candidates to evaluate, NOT yet approved:
-#        cs stopa,  el ίχνος,  he מסלול מוקלט,  ar المسار المسجل
+# 1. track / route collapse (he only — ar, cs and el are RESOLVED)
+#    Re-measured against the lines where the English mentions BOTH senses,
+#    which is where a language that distinguishes them has to show it:
+#        EN  "Tracks, bookmarks & routes"
+#        ar  المسارات المسجلة والإشارات المرجعية ومسارات التنقل
+#        cs  Záznamy tras, záložky a plánované trasy
+#        el  Ίχνη, σελιδοδείκτες και διαδρομές
+#    Each distinguishing term appears in 0 of the route-only lines, so the
+#    three candidates are confirmed and now entered above:
+#        ar المسار المسجل (8)   cs stopa (10)   el ίχνος (46)
 #
-# 2. Arabic "bookmark" — corpus and prior guidance disagree
-#    corpus: العلامات المرجعية (18 hits)   vs   الإشارات المرجعية (5 hits)
-#    Earlier release-note review recorded الإشارات المرجعية as canonical.
-#    Omitted until one is confirmed.
+#    Hebrew is genuinely collapsed and still needs a native speaker: מסלול
+#    covers 105 of 115 track lines AND 86 of 93 route lines, and the proposed
+#    מסלול מוקלט has zero attestations in the corpus.
+#
+# 2. Arabic "bookmark" — RESOLVED, entered above
+#    The disagreement came from measuring the news posts alone. Over the whole
+#    corpus الإشارات المرجعية leads 37 to 15, agreeing with the earlier
+#    release-note review, so it is canonical.
 #
 # 3. Split evidence, no clear winner — omitted
 #    es crash   fallo (6) / bloqueo (6)

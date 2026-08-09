@@ -56,7 +56,6 @@ Organic Maps neobsahuje sledovací zařízení a další špatné věci:
 - Bez reklam
 - Žádné sledování
 - Žádný sběr dat
-- Žádné telefonování domů
 - Žádná obtěžující registrace
 - Žádné povinné výukové programy
 - Žádný hlučný e-mailový spam

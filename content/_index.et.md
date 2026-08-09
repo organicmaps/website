@@ -56,7 +56,6 @@ Organic Maps rakenduses pole midagi, mis sinu tegevust jälgiks:
 - Pole reklaame
 - Pole jälgimist
 - Pole andmekogumist
-- Pole helistamist teenusepakkujale koju
 - Pole tüütut registreerimist
 - Pole kohustuslikke juhendmaterjale
 - Pole pidevat spämmi sinu e-posti aadressile

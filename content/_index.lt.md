@@ -56,7 +56,6 @@ Organic Maps programėlė nenaudoja seklių ir neturi kitų kenksmingų savybių
 - Jokių reklamų
 - Jokio sekimo
 - Jokio duomenų rinkimo
-- Jokio duomenų siuntimo programėlės kūrėjams
 - Jokios registracijos
 - Jokios priverstinės pamokėlių peržiūros
 - Jokio el. pašto šlamšto

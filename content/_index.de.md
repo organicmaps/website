@@ -55,7 +55,6 @@ Organic Maps ist frei von Trackern und schlechten Dingen:
 - Keine Werbung
 - Kein Tracking
 - Keine Datenerfassung
-- Kein Telefonieren nach Hause
 - Keine lästige Registrierung
 - Keine obligatorischen Tutorials
 - Kein lästiger E-Mail-Spam

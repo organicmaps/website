@@ -55,7 +55,6 @@ Organic Maps is vry van naspoorders en ander slegte dinge:
 - Geen advertensies
 - Geen nasporing
 - Geen dataversameling
-- Geen ‘huis toe bel’ nie
 - Geen irriterende registrasie
 - Geen verpligte tutoriale
 - Geen opdringerige gemorspos

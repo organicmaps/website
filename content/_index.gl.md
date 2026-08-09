@@ -54,7 +54,6 @@ Organic Maps está libre de rastreadores e outras cousas malas:
 - Sen publicidade
 - Sen seguimento
 - Sen recollida de datos
-- Sen conexións externas
 - Sen rexistro molesto
 - Sen titoriais obrigatorios
 - Sen correos lixo

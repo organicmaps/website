@@ -56,7 +56,6 @@ L'aplicacion Organic Maps escapa ais espiadors e autreis seguidors malins:
 - Sensa anóncias
 - Conten pas d'espiadors
 - Sensa culhida de donadas
-- Se connècta pas d'escondons en ges de servidor
 - Sensa enregistraments penibles
 - Ges de tutoriaus obligatòris
 - Sensa spam per corrier electronic

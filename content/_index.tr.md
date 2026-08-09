@@ -52,7 +52,6 @@ Organic Maps uygulaması izleyicilerden ve diğer kötü şeylerden arındırıl
 - Reklam yok
 - İzleme yok
 - Veri toplama yok
-- Evi aramak yok
 - Rahatsız edici kayıt yok
 - Zorunlu öğretici yok
 - Gürültülü e-posta spam yok

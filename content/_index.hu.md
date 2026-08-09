@@ -56,7 +56,6 @@ Az Organic Maps alkalmazás mentes a nyomkövetőktől és egyéb rossz dolgokt�
 - Nincsenek hirdetések
 - Nincs nyomkövetés
 - Nincs adatgyűjtés
-- Nincs hazatelefonálás
 - Nincs bosszantó regisztráció
 - Nincsenek kötelező oktatóprogramok
 - Nem küld kéretlen tartalmakat e-mailben

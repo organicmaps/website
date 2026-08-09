@@ -55,7 +55,6 @@ Organic Maps is vrij van trackers en andere slechte dingen:
 - Geen advertenties
 - Geen tracking
 - Geen dataverzameling
-- Geen 'naar huis bellen'
 - Geen irritante aanmelding
 - Geen verplichte instructies
 - Geen opdringerige spam-emails

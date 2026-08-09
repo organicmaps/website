@@ -54,7 +54,6 @@ L'app Organic Maps è priva di tracker e di altri elementi negativi:
 - Nessuna pubblicità
 - Nessun tracciamento
 - Nessuna raccolta dati
-- Nessuna chiamata a casa
 - Nessuna registrazione fastidiosa
 - Nessun tutorial obbligatorio
 - Nessuno spam via email

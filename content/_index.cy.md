@@ -56,7 +56,6 @@ Does dim tracwyr na phethau drwg arall yn yr ap Organic Maps:
 - Dim hysbysebion
 - Dim tracio
 - Dim casgliad data
-- Dim galw adref
 - Dim angen cofrestru
 - Dim tiwtorial gorfodol
 - Dim sbam e-bost swnllyd

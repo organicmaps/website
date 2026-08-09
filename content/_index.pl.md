@@ -57,7 +57,6 @@ Aplikacja Organic Maps jest wolna od mechanizmów śledzących i innych złych r
 - Brak reklam
 - Brak śledzenia
 - Brak gromadzenia danych
-- Brak ukrytego łączenia się z serwerami
 - Brak irytującej rejestracji
 - Brak obowiązkowych samouczków
 - Brak hałaśliwego spamu pocztowego

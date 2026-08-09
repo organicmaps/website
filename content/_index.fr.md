@@ -54,7 +54,6 @@ L'application Organic Maps est exempte de traceurs et d'autres éléments indés
 - Pas de publicité
 - Pas de pistage
 - Pas de collecte de données
-- Pas de connexion cachée à un serveur
 - Pas d'inscription fastidieuse
 - Pas de tutoriels obligatoires
 - Pas de spam par e-mail bruyant

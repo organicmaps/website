@@ -56,7 +56,6 @@ La aplicación Organic Maps está libre de rastreadores y otras cosas malas:
 - Sin anuncios
 - Sin rastreadores
 - Sin recolección de datos
-- No se conecta en secreto a ningún servidor
 - Sin registros molestos
 - Sin tutoriales obligatorios
 - Sin spam por correo electrónico

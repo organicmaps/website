@@ -19,7 +19,6 @@ Organic Map is **free from trackers and other bad stuff**:
 - ✅ No ads
 - ✅ No tracking
 - ✅ No data collection
-- ✅ No phoning home
 - ✅ No annoying registration
 - ✅ No mandatory tutorials
 - ✅ No noisy email spam

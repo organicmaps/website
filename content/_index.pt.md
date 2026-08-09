@@ -56,7 +56,6 @@ A aplicação Organic Maps não tem rastreadores de terceiros nem outras coisas 
 - Sem anúncios
 - Sem deixar rasto
 - Sem recolha de dados
-- Sem conexões para servidores externos
 - Sem registos desnecessários e irritantes
 - Sem tutoriais obrigatórios
 - Sem lixo eletrónico enviado para o email

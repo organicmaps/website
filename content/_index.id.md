@@ -56,7 +56,6 @@ Aplikasi Organic Maps bebas dari pelacak dan hal-hal buruk lainnya:
 - Tanpa iklan
 - Tanpa pelacakan
 - Tanpa pengumpulan data
-- Tanpa menelepon ke rumah
 - Tanpa pendaftaran mengganggu
 - Tanpa panduan wajib
 - Tanpa spam surel berisik

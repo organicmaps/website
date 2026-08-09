@@ -56,7 +56,6 @@ Organic Maps app är fri från spårare och andra dåliga saker:
 - Inga annonser
 - Ingen spårning
 - Ingen data samling
-- Ingen uppringning hem
 - Ingen irriterande registrering
 - Inga obligatoriska handledningar
 - Ingen brusig email spam

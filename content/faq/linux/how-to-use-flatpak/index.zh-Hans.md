@@ -11,7 +11,7 @@ aliases:
   - /zh-Hans/faq/linux/how-to-use-flatpak/
 ---
 
-要使用 flatpak 在 Linux 上安装 OM，请打开终端并输入“flatpak install flathub app.organicmaps.desktop”
+要使用 flatpak 在 Linux 上安装 OM，请打开终端并输入`flatpak install flathub app.organicmaps.desktop`
 
 安装应用程序后，你可以使用鼠标滚轮或右侧菜单栏上的控件放大你想要导航的区域，以便下载该区域的地图。你也可以点击右下角的“下载”图标。下载你关心的地区的地图后，即使没有互联网连接，该应用程序也应该可以运行。 
 

@@ -2,7 +2,7 @@
 description: "Condicións de uso da aplicación Organic Maps"
 extra:
   menu_title: Termos
-title: "Organic Maps: termoss"
+title: "Organic Maps: termos"
 weight: 1000
 ---
 

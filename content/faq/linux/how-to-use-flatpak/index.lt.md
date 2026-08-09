@@ -11,7 +11,7 @@ aliases:
   - /lt/faq/linux/how-to-use-flatpak/
 ---
 
-Norėdamas įdiegti OM sistemoje „Linux“ su „flatpak“, atidaryk terminalą ir įvesk „flatpak install flathub app.organicmaps.desktop“.
+Norėdamas įdiegti OM sistemoje „Linux“ su „flatpak“, atidaryk terminalą ir įvesk `flatpak install flathub app.organicmaps.desktop`.
 
 Įdiegęs programą gali naudoti pelės slinkties ratuką arba dešinėje meniu juostoje esančius valdiklius, kad priartintum sritį, kurioje nori naršyti, kad atsisiųstum tos srities žemėlapius. Taip pat gali spustelėti apatiniame dešiniajame kampe esančią piktogramą „atsisiųsti“. Atsisiuntęs tau rūpimų regionų žemėlapius, programa turėtų veikti net be interneto ryšio. 
 

@@ -1,6 +1,6 @@
 ---
 title: Organic Maps ന്റെ വികസനത്തെ പിന്തുണയ്ക്കുക
-description: Different ways to support the development of our free application
+description: ഞങ്ങളുടെ സൗജന്യ പ്രയോഗത്തിന്റെ വികസനത്തെ പിന്തുണയ്ക്കാനുള്ള വിവിധ മാർഗ്ഗങ്ങൾ
 weight: 20
 extra:
   menu_title: ഞങ്ങളെ പിന്തുണയ്ക്കുക
@@ -11,15 +11,15 @@ Organic Maps ഒരു സൗജന്യ ഓപ്പൺ സോഴ്‌സ് 
 
 വികസനത്തെ പിന്തുണയ്ക്കുന്നതിന് വ്യത്യസ്ത മാർഗങ്ങളുണ്ട്:
 
-- [സംഭാവനചെയ്യുക](@/donate/index.ml.md)! Every dollar or euro counts and helps us to pay for servers and scale.
-- Report bugs and share ideas on our [GitHub][github] or via [email][email].
-- Help us to [fix bugs][contributing] and do code reviews if you are a developer. Every fixed small issue makes someone happier.
-- [Translate][translations] missing strings in the app's interface.
-- Translate [App Store][translations_appstore] and [Android][translations_googleplay] descriptions into your language.
-- [Translate][translations_website] our web site into your language.
-- Join the [OpenStreetMap][openstreetmap] community and contribute to the maps data.
-- Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app.
-- Support other users on [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
+- [സംഭാവനചെയ്യുക](@/donate/index.ml.md)! ഓരോ ഡോളറും യൂറോയും വിലപ്പെട്ടതാണ്, സെർവറുകൾക്കുള്ള ചെലവ് വഹിക്കാനും ഞങ്ങളുടെ പ്രവർത്തനം വികസിപ്പിക്കാനും അത് സഹായിക്കുന്നു.
+- ഞങ്ങളുടെ [GitHub][github]-ൽ അല്ലെങ്കിൽ [ഇമെയിൽ][email] വഴി ബഗ്ഗുകൾ റിപ്പോർട്ട് ചെയ്യുകയും ആശയങ്ങൾ പങ്കുവെക്കുകയും ചെയ്യുക.
+- നിങ്ങളൊരു ഡെവലപ്പർ ആണെങ്കിൽ, [ബഗ്ഗുകൾ പരിഹരിക്കാനും][contributing] കോഡ് റിവ്യൂ ചെയ്യാനും ഞങ്ങളെ സഹായിക്കുക. പരിഹരിക്കപ്പെടുന്ന ഓരോ ചെറിയ പ്രശ്നവും ആരെയെങ്കിലും സന്തോഷിപ്പിക്കുന്നു.
+- ആപ്പിന്റെ ഇന്റർഫേസിൽ വിവർത്തനം ചെയ്യാത്ത സ്ട്രിംഗുകൾ [വിവർത്തനം ചെയ്യുക][translations].
+- [App Store][translations_appstore], [Android][translations_googleplay] എന്നിവയുടെ വിവരണങ്ങൾ നിങ്ങളുടെ ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുക.
+- ഞങ്ങളുടെ വെബ്സൈറ്റ് നിങ്ങളുടെ ഭാഷയിലേക്ക് [വിവർത്തനം ചെയ്യുക][translations_website].
+- [OpenStreetMap][openstreetmap] സമൂഹത്തിൽ ചേരുകയും മാപ്പ് ഡാറ്റയിലേക്ക് സംഭാവന നൽകുകയും ചെയ്യുക.
+- ആപ്പിൽ സബ്‌വേകളും ലൈറ്റ് റെയിലുകളും പ്രവർത്തിക്കുന്നതിനായി, ഞങ്ങളുടെ [പബ്ലിക് ട്രാൻസ്‌പോർട്ട് വാലിഡേറ്റർ][public_transport_validator] കണ്ടെത്തിയ ചുവന്ന നഗരങ്ങൾ ശരിയാക്കുക.
+- [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] എന്നിവയിൽ മറ്റ് ഉപയോക്താക്കളെ പിന്തുണയ്ക്കുക.
 - Organic Maps നെക്കുറിച്ച് എല്ലാവരോടും പറയുക. ഒരു വലിയ സമൂഹം ശക്തമായ ഒരു സമൂഹമാണ്.
 - ഞങ്ങളെ വിലയിരുത്തുക [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - ഏത് സഹായവും സ്വാഗതം ചെയ്യുന്നു!

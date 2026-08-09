@@ -60,7 +60,7 @@ L'aplicacion Organic Maps escapa ais espiadors e autreis seguidors malins:
 - Sensa enregistraments penibles
 - Ges de tutoriaus obligatòris
 - Sensa spam per corrier electronic
-- Push notifications
+- Sensa notificacions push
 - Sensa complements complicats
 - ~~Sensa pesticides~~ Completament organic!
 
@@ -68,7 +68,7 @@ L'aplicacion es verificada per lo [Projecte Exodus Privacy][exodus]:
 
 {{ exodus_screenshot() }}
 
-The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
+L'aplicacion iOS es verificada per [TrackerControl per iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -90,7 +90,7 @@ Rebutar la susvelhança. Assegurar la libertat.
 
 L'aplicacion es a gratis per totei. Se vòles [donar](@/donate/index.oc.md) per nos ajudar!
 
-To donate conveniently, click on your preferred payment method icon below:
+Per donar aisidament, clica sus l'icòna de ton metòde de pagament preferit çai-sota:
 
 {{ donate_buttons() }}
 

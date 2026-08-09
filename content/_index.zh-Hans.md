@@ -88,7 +88,7 @@ Organic Maps 无需过多权限：
 
 本应用免费。但请通过[捐赠](@/donate/index.zh-Hans.md)支持我们！
 
-To donate conveniently, click on your preferred payment method icon below:
+如需便捷捐赠，请点击下方你喜欢的支付方式图标：
 
 {{ donate_buttons() }}
 

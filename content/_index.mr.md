@@ -67,7 +67,7 @@ Organic Maps अॅप माहिती चोरांपासून आण�
 
 {{ exodus_screenshot() }}
 
-The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
+[iOS साठी TrackerControl][trackercontrol] कडून तपासलेले iOS ऍप:
 
 {{ trackercontrol_screenshot() }}
 
@@ -81,7 +81,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
 - बिग टेकच्या गुप्तहेरी नजरेपासून आम्ही तुमचे रक्षण करतो
 - तुम्ही जिथे कुठे असाल तिथे सुरक्षित रहा
 
-Reject surveillance - embrace your freedom.
+गुप्तहेरी नाकारा - तुमचे स्वातंत्र्य स्वीकारा.
 
 **[Organic Maps वापरुन बघा!](#install)**
 
@@ -89,7 +89,7 @@ Reject surveillance - embrace your freedom.
 
 हे ऍप सर्वांसाठी विमानुल्य आहे. आम्हाला पाठिंबा द्यायला कृपया [देणगी द्या](@/donate/index.mr.md)!
 
-To donate conveniently, click on your preferred payment method icon below:
+सोयीस्करपणे देणगी देण्यासाठी, खाली दिलेल्या तुमच्या पसंतीच्या पेमेंट पद्धतीच्या चिन्हावर क्लिक करा:
 
 {{ donate_buttons() }}
 

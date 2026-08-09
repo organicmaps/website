@@ -13,14 +13,14 @@ I a diferéntei manieras d’ajudar au desvelopament:
 
 - [Donar](@/donate/index.oc.md)! Cada dòlar o euro còmpta e nos ajuda a pagar lei servidors e ganhar d’escala.
 - Senhalar d'errors e partejar d’idèas dins nòstre [GitHub][github] ò per [email][email].
-- Ajuda-nos a [fix bugs][contributing] e repassar lo còde se siás desvelopaire. Cada dificultat reglada fa plaser en quauqu’un.
-- [Translate][translations] cadenas mancan dins l’interfàcia de l’aplicacion.
+- Ajuda-nos a [reglar leis errors][contributing] e repassar lo còde se siás desvelopaire. Cada dificultat reglada fa plaser en quauqu’un.
+- [Traduir][translations] lei cadenas que mancan dins l’interfàcia de l’aplicacion.
 - Tradurre lei descripcions de [App Store][translations_appstore] e [Android][translations_googleplay] dins ta lenga.
 - [Traduir][translations_website] nòstre site internet dins ta lenga.
 - Jonh-te a la comunautat [OpenStreetMap][openstreetmap] e collabòra a la mapa.
-- Fix red cities found by our [public transport validator][public_transport_validator], for subways and light rails to work in the app.
+- Corregir lei vilas rojas trobadas per nòstre [validador de transpòrt public][public_transport_validator], per que lei metròs e lei tramvais foncionen dins l’aplicacion.
 - Ajuda leis autreis utilizators dins [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
-- Tell everyone about Organic Maps. A bigger community is a stronger community.
+- Parla d’Organic Maps a tot lo monde. Una comunautat mai granda es una comunautat mai fòrta.
 - Avalora-nos dins [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
 - Un pauc d’ajuda fa grand ben !
 

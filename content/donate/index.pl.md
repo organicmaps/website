@@ -22,7 +22,7 @@ Kliknij ikonę preferowanej metody płatności poniżej:
 ## Dlaczego warto przekazać darowiznę na rzecz Organic Maps?
 
 1. Naszym celem jest zapewnienie skoncentrowanej na prywatności, szybkiej i łatwej w użyciu alternatywy do Map Google i Apple Maps.
-2. Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal.
+2. Kolejnym naszym celem jest ulepszanie publicznych danych mapowych dla wielu stron internetowych, aplikacji i platform, które korzystają z OpenStreetMap, oraz zachęcanie większej liczby osób do dzielenia się informacjami o mapach.
 3. Polegamy na Twoich darowiznach, aby realizować naszą misję polegającą na utrzymaniu Organic Maps otwartymi i wolnymi. I wolnymi od reklam.
 4. Kochamy to co robimy i kochamy naszych użytkowników ❤️.
 

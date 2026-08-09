@@ -150,8 +150,8 @@ Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache
   - [Linux darbalaukio Beta (paketai)][repology]
 - Pranešk apie klaidas ar problemas į [klaidų sekimo sistemą][issues] arba [rašyk mums el. paštu][email].
 - [Aptark][ideas] idėjas arba siūlyk naujų funkcijų prašymus.
-- Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.
-- Join our [Telegram Group][telegram_chat] to discuss with other users.
+- Prenumeruok mūsų [Telegram kanalą][telegram] arba [Matrix erdvę][matrix], kad gautum naujienas.
+- Prisijunk prie mūsų [Telegram grupės][telegram_chat] ir diskutuok su kitais vartotojais.
 - Apsilankyk mūsų [GitHub puslapyje][github].
 - Sek mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 

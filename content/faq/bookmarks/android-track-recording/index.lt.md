@@ -17,7 +17,7 @@ aliases:
 
 Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti „Organic Maps“ programą fone.
 
-This is especially true for modern Android versions:
+Tai ypač aktualu šiuolaikinėms „Android“ versijoms:
 - Android 16
 - Android 15
 - Android 14

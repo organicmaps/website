@@ -7,49 +7,49 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+**[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** എന്നിവയിലുള്ള നിങ്ങളുടെ **[സംഭാവനകൾ][stripe]** കൊണ്ടാണ് Organic Maps ആപ്പ് _എല്ലാവർക്കും സൗജന്യമായിരിക്കുന്നത്_:
 
 - പരസ്യങ്ങളില്ല
-- No trackers
-- നികുതി രജിസ്ട്രേഷൻ
-- Push notifications
-- Open source
+- ട്രാക്കറുകളില്ല
+- രജിസ്ട്രേഷനില്ല
+- പുഷ് നോട്ടിഫിക്കേഷനുകളില്ല
+- ഓപ്പൺ സോഴ്‌സ്
 
-Click on your preferred payment method icon below:
+താഴെ നിങ്ങളുടെ ഇഷ്ടപ്പെട്ട പേയ്‌മെന്റ് രീതിയുടെ ഐക്കണിൽ ക്ലിക്ക് ചെയ്യുക:
 
 {{ donate_buttons() }}
 
-## Why donate to Organic Maps?
+## എന്തുകൊണ്ട് Organic Maps-ന് സംഭാവന നൽകണം?
 
-1. Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps.
-2. Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal.
-3. We rely on your donations to keep Organic Maps open and free for everyone. And free from ads.
-4. We love what we do, and we love our users ❤️.
+1. Google Maps-നും Apple Maps-നും പകരമായി, സ്വകാര്യതയ്ക്ക് പ്രാധാന്യം നൽകുന്നതും വേഗതയേറിയതും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതുമായ ഒരു ബദൽ നൽകുക എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം.
+2. OpenStreetMap ഉപയോഗിക്കുന്ന നിരവധി വെബ്‌സൈറ്റുകൾക്കും ആപ്പുകൾക്കും പ്ലാറ്റ്‌ഫോമുകൾക്കും വേണ്ടി പൊതു മാപ്പ് ഡാറ്റ മെച്ചപ്പെടുത്തുന്നതും, മാപ്പ് വിവരങ്ങൾ നൽകുന്നതിൽ കൂടുതൽ ആളുകളെ പങ്കാളികളാക്കുന്നതും ഞങ്ങളുടെ മറ്റൊരു ലക്ഷ്യമാണ്.
+3. എല്ലാവർക്കുമായി Organic Maps തുറന്നതും സൗജന്യവുമായി നിലനിർത്താൻ ഞങ്ങൾ നിങ്ങളുടെ സംഭാവനകളെ ആശ്രയിക്കുന്നു. പരസ്യങ്ങളിൽ നിന്നും മുക്തമായി.
+4. ഞങ്ങൾ ചെയ്യുന്നത് ഞങ്ങൾക്ക് ഇഷ്ടമാണ്, ഞങ്ങളുടെ ഉപയോക്താക്കളെയും ഞങ്ങൾക്ക് ഇഷ്ടമാണ് ❤️.
 
-## Why a free project needs money?
+## ഒരു സൗജന്യ പദ്ധതിക്ക് എന്തിനാണ് പണം വേണ്ടത്?
 
-1. In 2023, Organic Maps got its first million users. Our servers provide free, fast and frequent map updates all over the world.
-2. User support, bugfixing and publishing quality app updates are at the top of our priorities. There are [~2000 bug reports and feature requests on GitHub][github issues], and this number is growing every day. AppStore, Google Play, and support emails are overflooded with comments and bugs. We want to deliver a high-quality product.
-3. With enough money, new features can be developed. To name a few:
-   - Backup and sync bookmarks and tracks
-   - GPS track recorder with GPX export
-   - Satellite imagery
+1. 2023-ൽ Organic Maps-ന് അതിന്റെ ആദ്യ ദശലക്ഷം ഉപയോക്താക്കളെ ലഭിച്ചു. ഞങ്ങളുടെ സെർവറുകൾ ലോകമെമ്പാടും സൗജന്യവും വേഗതയേറിയതും പതിവായതുമായ മാപ്പ് അപ്‌ഡേറ്റുകൾ നൽകുന്നു.
+2. ഉപയോക്തൃ പിന്തുണ, ബഗ്ഗുകൾ പരിഹരിക്കൽ, ഗുണമേന്മയുള്ള ആപ്പ് അപ്‌ഡേറ്റുകൾ പ്രസിദ്ധീകരിക്കൽ എന്നിവയാണ് ഞങ്ങളുടെ പ്രധാന മുൻഗണനകൾ. [GitHub-ൽ ഏകദേശം 2000 ബഗ് റിപ്പോർട്ടുകളും സവിശേഷതകൾക്കുള്ള അഭ്യർത്ഥനകളും][github issues] ഉണ്ട്, ഈ എണ്ണം ഓരോ ദിവസവും വർദ്ധിച്ചുകൊണ്ടിരിക്കുന്നു. AppStore, Google Play, സപ്പോർട്ട് ഇമെയിലുകൾ എന്നിവ കമന്റുകളും ബഗ്ഗുകളും കൊണ്ട് നിറഞ്ഞിരിക്കുകയാണ്. ഉയർന്ന നിലവാരമുള്ള ഒരു ഉൽപ്പന്നം നൽകാൻ ഞങ്ങൾ ആഗ്രഹിക്കുന്നു.
+3. മതിയായ പണം ഉണ്ടെങ്കിൽ, പുതിയ സവിശേഷതകൾ വികസിപ്പിക്കാൻ കഴിയും. ചിലത് പറയാം:
+   - ബുക്ക്‌മാർക്കുകളും ട്രാക്കുകളും ബാക്കപ്പ് ചെയ്യലും സിങ്ക് ചെയ്യലും
+   - GPX എക്സ്പോർട്ട് ഉള്ള GPS ട്രാക്ക് റെക്കോർഡർ
+   - ഉപഗ്രഹ ചിത്രങ്ങൾ
    - പൊതു ഗതാഗതം
-   - Traffic and accident reporting
-   - Photos and Reviews
-   - Map styles for different activities
-   - Hill shading and 3D terrain
-   - More advanced OpenStreetMap editor
-   - Better offline address search, routing, and navigation
-   - … and [many other][github issues] features you want and love
+   - ഗതാഗതവും അപകടങ്ങളും റിപ്പോർട്ട് ചെയ്യൽ
+   - ഫോട്ടോകളും അവലോകനങ്ങളും
+   - വിവിധ പ്രവർത്തനങ്ങൾക്കുള്ള മാപ്പ് ശൈലികൾ
+   - മലനിരകളുടെ നിഴൽപ്പാടും 3D ഭൂപ്രദേശവും
+   - കൂടുതൽ നൂതനമായ OpenStreetMap എഡിറ്റർ
+   - മെച്ചപ്പെട്ട ഓഫ്‌ലൈൻ വിലാസ തിരയൽ, റൂട്ടിംഗ്, നാവിഗേഷൻ
+   - … നിങ്ങൾ ആഗ്രഹിക്കുകയും ഇഷ്ടപ്പെടുകയും ചെയ്യുന്ന [മറ്റ് നിരവധി][github issues] സവിശേഷതകളും
 
 ## എങ്ങനെ സംഭാവന ചെയ്യാം?
 
-Click on your preferred payment method icon below:
+താഴെ നിങ്ങളുടെ ഇഷ്ടപ്പെട്ട പേയ്‌മെന്റ് രീതിയുടെ ഐക്കണിൽ ക്ലിക്ക് ചെയ്യുക:
 
 {{ donate_buttons() }}
 
-Recurring donations are the best way to ensure a relatively stable income for the project and motivate us for long-term tasks and goals. One-time donations are appreciated too.
+പദ്ധതിക്ക് താരതമ്യേന സ്ഥിരമായ വരുമാനം ഉറപ്പാക്കാനും ദീർഘകാല ജോലികൾക്കും ലക്ഷ്യങ്ങൾക്കുമായി ഞങ്ങളെ പ്രോത്സാഹിപ്പിക്കാനുമുള്ള ഏറ്റവും മികച്ച മാർഗം ആവർത്തന സംഭാവനകളാണ്. ഒറ്റത്തവണ സംഭാവനകളും ഞങ്ങൾ വിലമതിക്കുന്നു.
 
 ### ബാങ്ക് കൈമാറ്റം
 
@@ -63,6 +63,6 @@ Recurring donations are the best way to ensure a relatively stable income for th
 
 ## മറ്റേതെങ്കിലും വിധത്തിൽ ഞങ്ങളെ സഹായിക്കാമോ?
 
-Yes! There are many ways to support Organic Maps. Please see [ഞങ്ങളെ പിന്തുണയ്ക്കുക](@/contribute/index.ml.md) page for more details.
+അതെ! Organic Maps-നെ പിന്തുണയ്ക്കാൻ നിരവധി മാർഗങ്ങളുണ്ട്. കൂടുതൽ വിവരങ്ങൾക്ക് ദയവായി [ഞങ്ങളെ പിന്തുണയ്ക്കുക](@/contribute/index.ml.md) പേജ് കാണുക.
 
 {{ references() }}

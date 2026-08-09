@@ -21,14 +21,14 @@ Feu clic a la icona de pagament preferit:
 
 ## Per què fer donatius a l’Organic Maps?
 
-1. Our goal is to provide a privacy-focused, fast and easy-to-use alternative to Google Maps and Apple Maps.
-2. Improving public map data for the numerous websites, apps and platforms which use OpenStreetMap, and involving more people in contributing map info is our another goal.
+1. El nostre objectiu és oferir una alternativa a Google Maps i Apple Maps centrada en la privacitat, ràpida i fàcil d'utilitzar.
+2. Un altre dels nostres objectius és millorar les dades cartogràfiques públiques per als nombrosos llocs web, aplicacions i plataformes que utilitzen OpenStreetMap, i implicar més gent a contribuir amb informació cartogràfica.
 3. Depenem dels vostres donatius per a continuar amb la nostra missió de mantenir l'Organic Maps obert i gratuït. I lliure d'anuncis.
 4. Ens encanta el que fem i estimem els nostres usuaris ❤️.
 
 ## Per què un projecte gratuït necessita diners?
 
-1. In 2023, Organic Maps got its first million users. Our servers provide free, fast and frequent map updates all over the world.
+1. El 2023, l'Organic Maps va assolir el seu primer milió d'usuaris. Els nostres servidors proporcionen actualitzacions de mapes gratuïtes, ràpides i freqüents arreu del món.
 2. L'assistència als usuaris, correcció d'errors i millora d'estabilitat de l'aplicació són les nostres prioritats principals. Hi ha més de [2000 informes al GitHub][github issues] i, aquest número creix cada dia. L'AppStore, el PlayStore i els correus d'atenció estan inundats amb comentaris i informes. Volem lliurar un producte de qualitat.
 3. Amb suficients diners, poden desenvolupar-se més ràpidament prestacions noves, com ara:
    - Còpia de seguretat i sincronització de marcadors i recorreguts

@@ -58,7 +58,7 @@ Organic Maps ആപ്പ് ട്രാക്കറുകളിൽ നിന�
 - ശല്യപ്പെടുത്തുന്ന രജിസ്ട്രേഷൻ ഇല്ല
 - നിർബന്ധിത ട്യൂട്ടോറിയലുകളൊന്നുമില്ല
 - ശബ്ദായമാനമായ ഇമെയിൽ സ്പാം ഇല്ല
-- Push notifications
+- പുഷ് നോട്ടിഫിക്കേഷനുകളില്ല
 - ക്രാപ്പ്വെയർ ഇല്ല
 - ~~കീടനാശിനികൾ ഇല്ല~~ പൂർണ്ണമായും ജൈവ!
 
@@ -66,7 +66,7 @@ Organic Maps ആപ്പ് ട്രാക്കറുകളിൽ നിന�
 
 {{ exodus_screenshot() }}
 
-The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
+iOS പ്രയോഗം [iOS-നുള്ള TrackerControl][trackercontrol] പരിശോധിച്ചുറപ്പിച്ചതാണ്:
 
 {{ trackercontrol_screenshot() }}
 
@@ -88,7 +88,7 @@ The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
 
 ഈ പ്രയോഗം എല്ലാവർക്കും സൗജന്യമാണ്. ഞങ്ങളെ പിന്തുണയ്ക്കാൻ ദയവായി [സംഭാവന](@/donate/index.ml.md)!
 
-To donate conveniently, click on your preferred payment method icon below:
+സൗകര്യപ്രദമായി സംഭാവന നൽകാൻ, താഴെ നിങ്ങളുടെ ഇഷ്ടപ്പെട്ട പേയ്‌മെന്റ് രീതിയുടെ ഐക്കണിൽ ക്ലിക്ക് ചെയ്യുക:
 
 {{ donate_buttons() }}
 
@@ -139,16 +139,16 @@ To donate conveniently, click on your preferred payment method icon below:
 
 ## സമൂഹം
 
-Organic Maps is an [open-source software][github] licensed under the Apache License 2.0.
+Apache License 2.0 പ്രകാരം ലൈസൻസ് ചെയ്ത ഒരു [ഓപ്പൺ സോഴ്‌സ് സോഫ്റ്റ്‌വെയർ][github] ആണ് Organic Maps.
 
-- Please join our beta program, suggest your features, and report bugs:
+- ദയവായി ഞങ്ങളുടെ ബീറ്റ പ്രോഗ്രാമിൽ ചേരുക, നിങ്ങൾക്ക് വേണ്ട സവിശേഷതകൾ നിർദ്ദേശിക്കുക, ബഗ്ഗുകൾ റിപ്പോർട്ട് ചെയ്യുക:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
   - [Linux Desktop Beta (packages)][repology]
-- Report bugs or issues to [the issue tracker][issues] or [email us][email].
-- [Discuss][ideas] ideas or propose feature requests.
-- Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.
+- ബഗ്ഗുകളോ പ്രശ്നങ്ങളോ [ഇഷ്യൂ ട്രാക്കറിൽ][issues] റിപ്പോർട്ട് ചെയ്യുക, അല്ലെങ്കിൽ [ഞങ്ങൾക്ക് ഇമെയിൽ അയയ്ക്കുക][email].
+- [ആശയങ്ങൾ ചർച്ച ചെയ്യുക][ideas], അല്ലെങ്കിൽ പുതിയ സവിശേഷതകൾ നിർദ്ദേശിക്കുക.
+- പുതിയ വിവരങ്ങൾക്കായി ഞങ്ങളുടെ [Telegram ചാനൽ][telegram] അല്ലെങ്കിൽ [Matrix സ്പേസ്][matrix] സബ്സ്ക്രൈബ് ചെയ്യുക.
 - മറ്റ് ഉപയോക്താക്കളുമായി ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ [Telegram Group][telegram_chat] ചേരുക.
 - ഞങ്ങളുടെ [GitHub page][github] സന്ദർശിക്കുക.
 - [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] എന്നിവയിൽ ഞങ്ങളുടെ അപ്ഡേറ്റുകൾ പിന്തുടരുക.

@@ -60,7 +60,7 @@ L'aplicació Organic Maps està lliure de rastrejadors i altres coses dolentes:
 - Sense registres incòmodes
 - No hi ha tutorials obligatoris
 - No us enviem correu brossa per correu electrònic
-- Notificacions emergents
+- Sense notificacions emergents
 - Sense components brossa
 - ~~Sense pesticides~~ Completament orgànic!
 

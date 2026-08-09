@@ -1,7 +1,7 @@
 ---
 title: Jak utworzyć trasę i rozpocząć nawigację
 slug: jak-utworzyć-trasę-i-rozpocząć-nawigację
-description: ""
+description: "Poradnik tworzenia trasy i poruszania się po mapie"
 updated: "2024-07-15"
 
 taxonomies:

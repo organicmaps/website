@@ -1,7 +1,7 @@
 ---
 title: Wie erstelle ich eine Route und starte die Navigation
 slug: wie-erstelle-ich-eine-route-und-starte-die-navigation
-description: ""
+description: "Anleitung zum Erstellen einer Route und zur Navigation mithilfe der Karte"
 updated: "2025-12-31"
 
 taxonomies:

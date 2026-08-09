@@ -1,7 +1,7 @@
 ---
 title: La recherche ne trouve pas le lieu sur la carte
 slug: la-recherche-ne-trouve-pas-le-lieu-sur-la-carte
-description: ""
+description: "Guide pour améliorer les résultats de recherche et résoudre les problèmes liés à la localisation d'objets sur la carte"
 updated: "2024-06-12"
 
 taxonomies:

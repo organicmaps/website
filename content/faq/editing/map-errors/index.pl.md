@@ -1,7 +1,7 @@
 ---
 title: Brakuje niektórych miejsc na mapie lub mają nieprawidłowe nazwy
 slug: brakuje-niektórych-miejsc-na-mapie-lub-mają-nieprawidłowe-nazwy
-description: ""
+description: "Porady dotyczące poprawiania błędów na mapach oraz wprowadzania zmian i aktualizacji obiektów bezpośrednio w Organic Maps lub za pośrednictwem OpenStreetMap.org"
 updated: "2024-06-12"
 
 taxonomies:

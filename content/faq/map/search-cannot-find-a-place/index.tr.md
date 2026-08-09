@@ -1,7 +1,7 @@
 ---
 title: Arama, haritada bir yer bulamıyor
 slug: arama-haritada-bir-yer-bulamıyor
-description: ""
+description: "Arama sonuçlarını iyileştirme ve haritada nesneleri bulma sorunlarını çözme kılavuzu"
 updated: "2024-06-12"
 
 taxonomies:

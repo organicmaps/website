@@ -1,7 +1,7 @@
 ---
 title: Wie kann ich Lesezeichen und Tracks importieren?
 slug: wie-kann-ich-lesezeichen-und-tracks-importieren
-description: ""
+description: "Schritt-für-Schritt-Anleitung zum Importieren von Lesezeichen und Tracks, die mit dir als KML-, KMZ-, KMB-, GPX- oder GeoJSON- (JSON-)Dateien geteilt wurden, in Organic Maps"
 updated: "2026-01-03"
 
 taxonomies:

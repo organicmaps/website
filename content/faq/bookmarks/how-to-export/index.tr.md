@@ -1,7 +1,7 @@
 ---
 title: Yer imleri nasıl paylaşılır/dışa aktarılır?
 slug: yer-imleri-nasıl-paylaşılırdışa-aktarılır
-description: ""
+description: "Organic Maps'ten yer imlerini ve izleri diğer uygulamalara aktarmak ve kişilerle paylaşmak için adım adım kılavuz"
 updated: "2026-01-03"
 
 taxonomies:

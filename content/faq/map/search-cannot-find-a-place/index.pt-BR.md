@@ -1,7 +1,7 @@
 ---
 title: A pesquisa não pode encontrar um lugar no mapa
 slug: a-pesquisa-não-pode-encontrar-um-lugar-no-mapa
-description: ""
+description: "Guia para melhorar os resultados da busca e resolver problemas ao localizar objetos no mapa"
 updated: "2024-06-12"
 
 taxonomies:

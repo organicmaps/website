@@ -1,7 +1,7 @@
 ---
 title: Wie kann ich Lesezeichen und Tracks teilen (exportieren)?
 slug: wie-kann-ich-lesezeichen-und-tracks-teilen-exportieren
-description: ""
+description: "Schritt-für-Schritt-Anleitung zum Exportieren von Lesezeichen und Tracks aus Organic Maps in andere Apps und zum Teilen mit deinen Kontakten"
 updated: "2025-12-31"
 
 taxonomies:

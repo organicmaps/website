@@ -1,7 +1,7 @@
 ---
 title: Não consigo ouvir instruções de voz
 slug: não-consigo-ouvir-instruções-de-voz
-description: ""
+description: "Guia de solução de problemas para instruções de voz na navegação"
 updated: "2024-07-22"
 
 taxonomies:

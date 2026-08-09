@@ -1,7 +1,7 @@
 ---
 title: Ich kann keine Karten herunterladen (oder aktualisieren)
 slug: ich-kann-keine-karten-herunterladen-oder-aktualisieren
-description: ""
+description: "Was tun, wenn Organic Maps keine Karten aus dem Internet herunterladen oder aktualisieren kann?"
 updated: "2025-12-31"
 
 taxonomies:

@@ -1,7 +1,7 @@
 ---
 title: A pesquisa não encontrou um lugar no mapa
 slug: a-pesquisa-não-encontrou-um-lugar-no-mapa
-description: ""
+description: "Guia para melhorar os resultados da pesquisa e resolver problemas na localização de objetos no mapa"
 updated: "2024-06-12"
 
 taxonomies:

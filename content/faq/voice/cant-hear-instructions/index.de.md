@@ -1,7 +1,7 @@
 ---
 title: Ich höre keine Sprachanweisungen
 slug: ich-höre-keine-sprachanweisungen
-description: ""
+description: "Anleitung zur Fehlerbehebung bei Sprachansagen in der Navigation"
 updated: "2025-12-31"
 
 taxonomies:

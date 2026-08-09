@@ -1,7 +1,7 @@
 ---
 title: 如何创建路线并开始导航
 slug: 如何创建路线并开始导航
-description: ""
+description: "使用地图规划路线和导航的指南"
 updated: "2024-07-15"
 
 taxonomies:

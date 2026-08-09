@@ -1,7 +1,7 @@
 ---
 title: Je n'arrive pas à entendre les instructions vocales
 slug: je-narrive-pas-à-entendre-les-instructions-vocales
-description: ""
+description: "Guide de dépannage pour les instructions vocales de la navigation"
 updated: "2024-07-22"
 
 taxonomies:

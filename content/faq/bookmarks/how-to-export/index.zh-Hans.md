@@ -1,7 +1,7 @@
 ---
 title: 如何分享（或导出）书签
 slug: 如何分享或导出书签
-description: ""
+description: "将 Organic Maps 中的书签和轨迹导出到其他应用程序并与联系人分享的分步指南"
 updated: "2026-01-03"
 
 taxonomies:

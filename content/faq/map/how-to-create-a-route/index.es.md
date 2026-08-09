@@ -1,7 +1,7 @@
 ---
 title: Cómo crear una ruta e iniciar la navegación
 slug: cómo-crear-una-ruta-e-iniciar-la-navegación
-description: ""
+description: "Guía para crear una ruta y navegar con el mapa"
 updated: "2024-07-15"
 
 taxonomies:

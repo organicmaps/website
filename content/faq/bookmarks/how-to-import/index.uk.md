@@ -1,7 +1,7 @@
 ---
 title: Як імпортувати мітки?
 slug: як-імпортувати-мітки
-description: ""
+description: "Покрокова інструкція з імпортування міток та треків, якими з вами поділилися, у вигляді файлів KML, KMZ, KMB, GPX або GeoJSON (JSON) у додаток Organic Maps"
 updated: "2026-01-03"
 
 taxonomies:

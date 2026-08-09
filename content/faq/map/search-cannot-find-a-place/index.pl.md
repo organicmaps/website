@@ -1,7 +1,7 @@
 ---
 title: Wyszukiwanie nie może znaleźć miejsca na mapie
 slug: wyszukiwanie-nie-może-znaleźć-miejsca-na-mapie
-description: ""
+description: "Poradnik dotyczący poprawiania wyników wyszukiwania i rozwiązywania problemów z lokalizowaniem obiektów na mapie"
 updated: "2024-06-12"
 
 taxonomies:

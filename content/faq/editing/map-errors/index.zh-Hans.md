@@ -1,7 +1,7 @@
 ---
 title: 地图上有些地方缺失或名称有误
 slug: 地图上有些地方缺失或名称有误
-description: ""
+description: "关于在 Organic Maps 中直接或通过 OpenStreetMap.org 更正地图错误、修改和更新对象的提示"
 updated: "2024-06-12"
 
 taxonomies:

@@ -1,7 +1,7 @@
 ---
 title: Nasıl rota oluşturulur ve navigasyonu başlatma
 slug: nasıl-rota-oluşturulur-ve-navigasyonu-başlatma
-description: ""
+description: "Harita kullanarak rota oluşturma ve yol bulma kılavuzu"
 updated: "2024-07-15"
 
 taxonomies:

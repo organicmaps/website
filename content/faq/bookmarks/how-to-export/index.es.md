@@ -1,7 +1,7 @@
 ---
 title: Cómo puedo exportar los marcadores?
 slug: cómo-puedo-exportar-los-marcadores
-description: ""
+description: "Guía paso a paso para exportar marcadores y tracks de Organic Maps a otras aplicaciones y compartirlos con tus contactos"
 updated: "2026-01-03"
 
 taxonomies:

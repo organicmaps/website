@@ -1,7 +1,7 @@
 ---
 title: Algunos lugares no aparecen en el mapa o tienen un nombre incorrecto
 slug: algunos-lugares-no-aparecen-en-el-mapa-o-tienen-un-nombre-incorrecto
-description: ""
+description: "Consejos para corregir errores en los mapas y realizar cambios y actualizaciones en los objetos directamente en Organic Maps o a través de OpenStreetMap.org"
 updated: "2024-06-12"
 
 taxonomies:

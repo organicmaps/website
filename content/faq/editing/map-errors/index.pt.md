@@ -1,7 +1,7 @@
 ---
 title: Faltam alguns lugares no mapa ou têm nomes errados
 slug: faltam-alguns-lugares-no-mapa-ou-têm-nomes-errados
-description: ""
+description: "Dicas para corrigir erros nos mapas e fazer alterações e atualizações nos objetos diretamente em Organic Maps ou através do OpenStreetMap.org"
 updated: "2024-06-12"
 
 taxonomies:

@@ -1,7 +1,7 @@
 ---
 title: La función de búsqueda no encuentra un lugar en el mapa
 slug: la-función-de-búsqueda-no-encuentra-un-lugar-en-el-mapa
-description: ""
+description: "Guía para mejorar los resultados de búsqueda y resolver problemas a la hora de encontrar lugares en el mapa"
 updated: "2024-06-12"
 
 taxonomies:

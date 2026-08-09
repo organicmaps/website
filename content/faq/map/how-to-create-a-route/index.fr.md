@@ -1,7 +1,7 @@
 ---
 title: Comment créer un itinéraire et commencer la navigation
 slug: comment-créer-un-itinéraire-et-commencer-la-navigation
-description: ""
+description: "Guide pour créer un itinéraire et s'orienter à l'aide de la carte"
 updated: "2024-07-15"
 
 taxonomies:

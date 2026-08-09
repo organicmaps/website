@@ -1,7 +1,7 @@
 ---
 title: Nie słyszę instrukcji głosowych
 slug: nie-słyszę-instrukcji-głosowych
-description: ""
+description: "Poradnik rozwiązywania problemów z komunikatami głosowymi w nawigacji"
 updated: "2024-07-22"
 
 taxonomies:

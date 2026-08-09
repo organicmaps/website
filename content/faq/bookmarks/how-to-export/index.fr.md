@@ -1,7 +1,7 @@
 ---
 title: Comment partager (exporter) des signets?
 slug: comment-partager-exporter-des-signets
-description: ""
+description: "Guide étape par étape pour exporter des signets et des traces depuis Organic Maps vers d'autres applications et les partager avec tes contacts"
 updated: "2026-01-03"
 
 taxonomies:

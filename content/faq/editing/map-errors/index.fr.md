@@ -1,7 +1,7 @@
 ---
 title: Quelques lieux sont absents de la carte ou mal orthographiés
 slug: quelques-lieux-sont-absents-de-la-carte-ou-mal-orthographiés
-description: ""
+description: "Conseils pour corriger les erreurs sur les cartes, modifier et mettre à jour des objets directement dans Organic Maps ou via OpenStreetMap.org"
 updated: "2024-06-12"
 
 taxonomies:

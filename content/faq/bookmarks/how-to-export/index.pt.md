@@ -1,7 +1,7 @@
 ---
 title: Como partilhar (exportar) favoritos?
 slug: como-partilhar-exportar-favoritos
-description: ""
+description: "Guia passo a passo para exportares favoritos e trilhos do Organic Maps para outras aplicações e partilhá-los com os teus contactos"
 updated: "2026-01-03"
 
 taxonomies:

@@ -1,7 +1,7 @@
 ---
 title: No oigo las instrucciones de voz
 slug: no-oigo-las-instrucciones-de-voz
-description: ""
+description: "Guía de resolución de problemas para las instrucciones de voz en la navegación"
 updated: "2024-07-22"
 
 taxonomies:

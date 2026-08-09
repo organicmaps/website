@@ -1,7 +1,7 @@
 ---
 title: Haritada bazı yerler eksik veya yanlış adlara sahip
 slug: haritada-bazı-yerler-eksik-veya-yanlış-adlara-sahip
-description: ""
+description: "Haritalardaki hataları düzeltmek, nesnelerde değişiklikler ve güncellemeler yapmak için Organic Maps'te doğrudan veya OpenStreetMap.org üzerinden yararlanabileceğiniz ipuçları"
 updated: "2024-06-12"
 
 taxonomies:

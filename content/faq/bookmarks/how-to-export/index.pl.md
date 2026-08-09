@@ -1,7 +1,7 @@
 ---
 title: Jak udostępniać (eksportować) zakładki?
 slug: jak-udostępniać-eksportować-zakładki
-description: ""
+description: "Przewodnik krok po kroku, jak wyeksportować zakładki i ślady z Organic Maps do innych aplikacji oraz udostępnić je znajomym"
 updated: "2026-01-03"
 
 taxonomies:

@@ -17,7 +17,13 @@ _Organic Maps_ поддерживает 100% функций без активн�
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Пеший поход', loading='eager', fetchpriority='high') }} {{ screenshot(src='/images/screenshots/prague.jpg', alt='Прага') }} {{ screenshot(src='/images/screenshots/search.jpg', alt='Офлайн поиск') }} {{ screenshot(src='/images/screenshots/dark.jpg', alt='Навигация в ночном режиме') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Пеший поход', loading='eager', fetchpriority='high') }}
+
+{{ screenshot(src='/images/screenshots/prague.jpg', alt='Прага') }}
+
+{{ screenshot(src='/images/screenshots/search.jpg', alt='Офлайн поиск') }}
+
+{{ screenshot(src='/images/screenshots/dark.jpg', alt='Навигация в ночном режиме') }}
 
 ## Возможности
 

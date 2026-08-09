@@ -10,21 +10,21 @@ New GitHub page 🗺
 
 Organic Maps is pure and organic, **made with love**:
 
-☘ Respects your privacy
-🌱 Saves your battery
-🍃 No unexpected mobile data charges
+- ☘ Respects your privacy
+- 🌱 Saves your battery
+- 🍃 No unexpected mobile data charges
 
 Organic Map is **free from trackers and other bad stuff**:
 
-✅ No ads
-✅ No tracking
-✅ No data collection
-✅ No phoning home
-✅ No annoying registration
-✅ No mandatory tutorials
-✅ No noisy email spam
-✅ No push notifications
-✅ No crapware
-✅ No pesticides 😇
+- ✅ No ads
+- ✅ No tracking
+- ✅ No data collection
+- ✅ No phoning home
+- ✅ No annoying registration
+- ✅ No mandatory tutorials
+- ✅ No noisy email spam
+- ✅ No push notifications
+- ✅ No crapware
+- ✅ No pesticides 😇
 
 👉 Reject surveillance - spread the word about Organic Maps!

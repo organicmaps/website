@@ -56,7 +56,7 @@ Organic Maps app-ak ez du tracker edo beste trikimailu zikinik:
 - Iragarkirik gabe
 - Jarraipenik ez
 - Datu bilketarik gabe
-- Zure datuak ez ditugu biltzen
+- Zerbitzarietarako ezkutuko konexiorik ez
 - Izen-emate astunik ez
 - Erabilera tutorial beharrik ez
 - Eposta spamik ez

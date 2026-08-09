@@ -267,6 +267,68 @@ def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
     return added
 
 
+# ----------------------------------------------------------------- emphasis
+
+# Only the two-character delimiters are checkable. A lone `*` or `_` is
+# ordinary text far too often here — `cuisine=*`, `opening_hours=*`,
+# `stripe_eur`, `base_url()` — and a lone `~` means "approximately" in
+# `~2000 bug reports`. `**`, `__` and `~~` have no other meaning in prose.
+_EMPH = ("**", "__", "~~")
+
+
+def _checkable(text: str) -> str:
+    """Drop the regions where these characters are not markup."""
+    text = re.sub(r"`[^`\n]*`", " ", text)          # code spans
+    text = re.sub(r"\{\{[^}]*\}\}", " ", text)      # shortcode arguments
+    text = re.sub(r"<[^>]+>", " ", text)            # inline HTML
+    text = re.sub(r"\]\([^)\s]*\)", "]( )", text)   # link targets
+    return re.sub(r"(?m)^\[[^\]]+\]:.*$", " ", text)  # reference definitions
+
+
+def emphasis_faults(body: str) -> list[str]:
+    """Emphasis that CommonMark will not close, leaving the raw characters.
+
+    Three shapes, each seen in this corpus and each invisible until someone
+    looks at the built page:
+
+        ~~Dim plaladdwyr ~~     a closer after whitespace is not right-flanking
+        ~~कीटकनाशक नाही~~~      `~~~` is not an inline delimiter
+        ** Android **           an opener before whitespace is not left-flanking
+
+    `***x***` and `___x___` are valid strong+emphasis and are left alone; only
+    a run of four or more asterisks or underscores is wrong. Tildes have no
+    triple form, so three is already wrong.
+    """
+    faults: list[str] = []
+    for para in re.split(r"\n\s*\n", body):
+        p = _checkable(para)
+        for d in _EMPH:
+            ch = d[0]
+            if ch == "~" and re.search(r"~{3,}", p):
+                faults.append(f"'~~~' is not an inline delimiter")
+                continue
+            if ch != "~" and re.search(re.escape(ch) + r"{4,}", p):
+                faults.append(f"run of four or more '{ch}'")
+                continue
+            n = len(re.findall(re.escape(d), p))
+            if not n:
+                continue
+            if n % 2:
+                faults.append(f"{n} '{d}' delimiters — one is never closed")
+                continue
+            # Pair the delimiters in order — 1st with 2nd, 3rd with 4th — as
+            # CommonMark does. Scanning for `**(.+?)**` instead matches the gap
+            # *between* two spans, so `**A** en **B**` reports a phantom
+            # `** en **`; that cost two false positives out of five.
+            spots = [m.start() for m in re.finditer(re.escape(d), p)]
+            for open_at, close_at in zip(spots[::2], spots[1::2]):
+                inner = p[open_at + len(d):close_at]
+                if inner[:1].isspace() or inner[-1:].isspace():
+                    faults.append(f"'{d}' with a space beside it: "
+                                  f"{p[open_at:close_at + len(d)][:36]!r}")
+    return faults
+
+
 # ------------------------------------------------------------------- checks
 
 def check_translation(src: str, out: str, lang: str) -> list[Problem]:
@@ -501,6 +563,10 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             WARN, "ascii-quotes",
             "straight \" quotes present; use the language's native marks"))
 
+    # 10b. Emphasis that will not close, so the markers show on the page.
+    for fault in emphasis_faults(out_body):
+        problems.append(Problem(ERROR, "emphasis-broken", fault))
+
     # 11. Ellipsis style.
     if "..." in out_body:
         problems.append(Problem(WARN, "ellipsis", "'...' should be '…'"))
@@ -582,7 +648,24 @@ def main() -> None:
     ap.add_argument("--errors-only", action="store_true")
     ap.add_argument("--all", action="store_true",
                     help="check every translated page in content/")
+    ap.add_argument("--syntax", nargs="*", metavar="FILE",
+                    help="language-independent syntax only, on the given files "
+                         "or all of content/; covers the English source too, "
+                         "which --all never sees because it has no source to "
+                         "compare against")
     args = ap.parse_args()
+
+    if args.syntax is not None:
+        paths = ([Path(p) for p in args.syntax] if args.syntax
+                 else sorted(Path("content").rglob("*.md")))
+        bad = 0
+        for path in paths:
+            body, _ = strip_frontmatter(path.read_text(encoding="utf-8"))
+            for fault in emphasis_faults(body):
+                print(f"{path}: {fault}")
+                bad += 1
+        print(f"\n{bad} emphasis fault(s) in {len(paths)} file(s)")
+        sys.exit(1 if bad else 0)
 
     if args.all:
         sys.exit(check_all(args.errors_only))

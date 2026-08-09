@@ -22,7 +22,7 @@ Die amptelike aanbeveling van Organic Maps is [RHVoice](https://rhvoice.org/), w
 - Maak die Instellings-toepassing op jou Android-toestel oop
 - Kies Addisionele instellings en kies dan Toeganklikheid
 - Kies jou voorkeurenjin, spraaktempo en toonhoogte
-- ** Herbegin Organic Maps-toepassing**
+- **Herbegin Organic Maps-toepassing**
 - Maak instellings oop => steminstruksies in Organic Maps en stel dit op
 - Herbegin Organic Maps-toepassing weer (of herlaai die toestel) as die stem nie werk nie
 

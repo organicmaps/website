@@ -34,6 +34,15 @@ if [ -n "$spaced" ]; then
 fi
 
 # Heading anchors are identifiers; a translated one breaks every link to it.
+# Emphasis that will not close leaves the raw ** or ~~ on the page. Needs
+# paragraph-level logic, so it lives in translate_check rather than a grep.
+emph=$(echo "$staged_md" | xargs python3 translate_check.py --syntax 2>/dev/null | grep -v '^$\|fault(s) in' || true)
+if [ -n "$emph" ]; then
+  echo "error: emphasis markers that will not render:"
+  echo "$emph" | sed 's/^/    /'
+  exit 1
+fi
+
 anchor=$(echo "$staged_md" | xargs grep -nE '\{#[^}]*[^ -~][^}]*\}' 2>/dev/null || true)
 if [ -n "$anchor" ]; then
   echo "error: non-ASCII heading anchor — anchors are identifiers, keep them as in the English source:"

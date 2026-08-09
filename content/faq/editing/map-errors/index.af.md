@@ -19,7 +19,7 @@ As jy verkeerde inligting sien, of as jy vind dat sommige voorwerpe op die kaart
 
 Hoe meer mense bydra, hoe meer gedetailleerde kaarte kry almal. Ons glo dat die mees gedetailleerde kaart van die hele wêreld, geskep deur die oop gemeenskap, net 'n kwessie van tyd is.
 
-** Notas:**
+**Notas:**
 
 * Jy kan ook nuwe plekke byvoeg, bestaande PVB en gebou-inligting (adresse, openingstye, name) direk in Organic Maps wysig. Sodra jy met OSM-rekening ingeteken het, sal jou wysigings outomaties na OSM opgelaai word. Wees asseblief versigtig wanneer jy redigeer, aangesien jou wysigings vir alle ander gebruikers sigbaar sal wees.
 

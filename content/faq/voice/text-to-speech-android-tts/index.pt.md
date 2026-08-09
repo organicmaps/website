@@ -61,6 +61,6 @@ Se estiveres tendo problemas para inicializar o mecanismo RHVoice TTS no Lineage
 
 ## Teste
 
-Para testar as instruções de voz, podes tocar em "Testar instruções de voz (TTS, Text-To-Speech)" no menu OM "Configurações → Instruções de voz" ou podes realmente iniciar uma navegação para receber qualquer saída de voz. O Organic Maps não fornecerá instruções de voz enquanto estiveres parado.
+Para testar as instruções de voz, podes tocar em «Testar instruções de voz (TTS, Text-To-Speech)» no menu OM «Configurações → Instruções de voz» ou podes realmente iniciar uma navegação para receber qualquer saída de voz. O Organic Maps não fornecerá instruções de voz enquanto estiveres parado.
 
 ![Teste TTS](tts_test.png "Teste TTS")

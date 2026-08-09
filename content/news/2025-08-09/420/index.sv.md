@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installera augustiutgåvan av Organic Maps, ladda ner de senaste kartorna och upptäck populära vandring- och cykelrutter över hela världen! Tryck på knappen "Lager" uppe till vänster för att visa färgade cykel- och MTB-rutter, samt officiella vandring- och promenadstigar. Ser du inget i närheten? Då är det dags att lägga till den saknade informationen på OpenStreetMap.org, eftersom all kartdata i Organic Maps kommer från det öppna, gratis och gemenskapsdrivna projektet.
+Installera augustiutgåvan av Organic Maps, ladda ner de senaste kartorna och upptäck populära vandring- och cykelrutter över hela världen! Tryck på knappen “Lager” uppe till vänster för att visa färgade cykel- och MTB-rutter, samt officiella vandring- och promenadstigar. Ser du inget i närheten? Då är det dags att lägga till den saknade informationen på OpenStreetMap.org, eftersom all kartdata i Organic Maps kommer från det öppna, gratis och gemenskapsdrivna projektet.
 
 Visste du att alla inspelade eller importerade GPX/KML-spår på kartan kan väljas? Spår med höjddata visar sin höjdgraf.
 
@@ -52,7 +52,7 @@ P.S. …och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de
 
 #### Diverse förbättringar
 
-- Att skriva "cop" i sökningen hittar polisbyrås, medan "film" eller "movie theater" hittar biografer (theadventurer62)
+- Att skriva “cop” i sökningen hittar polisbyrås, medan “film” eller “movie theater” hittar biografer (theadventurer62)
 - Öppna i annan app visar nu den valda punkten i Google Maps (Alexander Borsuk)
 - Spansk översättning för fler sökkategorier (David Martinez)
 - Uppdaterade olika översättningar (Weblate-bidragsgivare)

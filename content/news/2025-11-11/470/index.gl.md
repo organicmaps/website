@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Despois de eliminar unha lista de marcadores ou de rutas (a través do botón "Máis"), a aplicación agora volve correctamente á pantalla anterior (Kiryl Kaveryn)
-- Engadidas as ligazóns ás redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] na pantalla "Sobre" (Kiryl Kaveryn)
-- Engadido "Informar dun erro" ás accións rápidas da icona da aplicación na pantalla de inicio (Kiryl Kaveryn)
+- Despois de eliminar unha lista de marcadores ou de rutas (a través do botón «Máis»), a aplicación agora volve correctamente á pantalla anterior (Kiryl Kaveryn)
+- Engadidas as ligazóns ás redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] na pantalla «Sobre» (Kiryl Kaveryn)
+- Engadido «Informar dun erro» ás accións rápidas da icona da aplicación na pantalla de inicio (Kiryl Kaveryn)
 - Corrixidos varios peches inesperados da aplicación e de CarPlay (Kiryl Kaveryn)
 
 ### Android

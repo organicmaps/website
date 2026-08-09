@@ -12,7 +12,7 @@ As-tu déjà [installé](https://omaps.app/get) la version d'Organic Maps du moi
 Il existe une heuristique pour décider quand utiliser les données TIGER et quand utiliser les données OpenStreetMap existantes.
 La taille de la carte pour l'ensemble des États-Unis est passée de 10 Go à 13 Go (y compris Wikipedia et les données d'élévation, il y a quelques [idées](https://github.com/organicmaps/organicmaps/issues/8672) pour [la diviser](https://github.com/organicmaps/organicmaps/issues/5912) afin d'améliorer [les mises à jour incrémentielles de la carte](https://github.com/organicmaps/organicmaps/issues/2317)).
 
-2. Rendu correct des textes en alphabet indien (Devanagari, Bengali, Gujarati, Gurmukhi, Kannada, Malayalam, Oriya, Tamil, Telugu), arabe (N'Ko, syriaque, mongol), thaï et lao, khmer, myanmar, tibétain, hangul, hébreu, [implémenté](https://github.com/organicmaps/organicmaps/issues/4281) par Alexander Borsuk en intégrant la bibliothèque de mise en forme de texte [Harfbuzz](https://harfbuzz.github.io/) avec le moteur de rendu d'Organic Maps (appelé "Drape").
+2. Rendu correct des textes en alphabet indien (Devanagari, Bengali, Gujarati, Gurmukhi, Kannada, Malayalam, Oriya, Tamil, Telugu), arabe (N'Ko, syriaque, mongol), thaï et lao, khmer, myanmar, tibétain, hangul, hébreu, [implémenté](https://github.com/organicmaps/organicmaps/issues/4281) par Alexander Borsuk en intégrant la bibliothèque de mise en forme de texte [Harfbuzz](https://harfbuzz.github.io/) avec le moteur de rendu d'Organic Maps (appelé «Drape»).
 
 D'autres améliorations notables ont été apportées grâce à nos contributeurs bien-aimés:
 
@@ -41,7 +41,7 @@ Android:
 
 iOS (un grand merci à Kiryl Kaveryn):
 * Utilise le bouton Importer dans la boîte de dialogue Signets et traces pour charger des fichiers KML, KMZ, GPX.
-* Correction de l'importation des signets et des traces via l'application "Fichiers" lors d'un démarrage à froid (tu peux appuyer sur un fichier KML, KMZ, GPX ou KMB dans n'importe quelle application, puis sur le bouton "partager" , et enfin choisir l'icône Organic Maps dans la liste des applications).
+* Correction de l'importation des signets et des traces via l'application «Fichiers» lors d'un démarrage à froid (tu peux appuyer sur un fichier KML, KMZ, GPX ou KMB dans n'importe quelle application, puis sur le bouton «partager» , et enfin choisir l'icône Organic Maps dans la liste des applications).
 * Ajout d'un bouton de test de la synthèse vocale dans les paramètres de navigation -- par Fabian Wüthrich
 * Tu peux activer les journaux dans les paramètres pour nous aider à résoudre les bugs.
 * Ouverture des liens vers les médias sociaux dans les applications installées

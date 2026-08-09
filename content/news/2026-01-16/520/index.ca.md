@@ -14,7 +14,7 @@ Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots e
 * Dades actualitzades d'OpenStreetMap (11 de gener) (Viktor Govako)
 * S'ha afegit guia de veu albanesa (TTS) (Alexander Borsuk)
 * S'han afegit sinònims de cerca búlgars (Clippy)
-* S'han exclòs els casinos de la categoria "Entreteniment" (Clippy)
+* S'han exclòs els casinos de la categoria «Entreteniment» (Clippy)
 * S'ha reduït el gruix de les línies de metro (Manik)
 * S'ha afegit informació de capacitat als resultats de cerca per a aparcament de motocicletes, lloguer de bicicletes, càrrega de bicicletes i càrrega de cotxes (David Martinez)
 * S'ha afegit el nivell de planta als resultats de cerca (David Martinez)
@@ -25,7 +25,7 @@ Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots e
 * S'han actualitzat les PMF i s'han afegit traduccions de PMF per a àrab, txec, neerlandès, farsi, grec, hebreu, hindi, hongarès, indonesi, italià, lituà, marathi, suec, telugu (Alexander Borsuk)
 * S'han millorat les traduccions de l'aplicació i les PMF en alemany (DaN0mic)
 * S'han millorat les traduccions de l'aplicació en espanyol llatinoamericà (Alexander Borsuk)
-* S'ha reanomenat el paràmetre "Botons de zoom" per claredat (Alexander Borsuk)
+* S'ha reanomenat el paràmetre «Botons de zoom» per claredat (Alexander Borsuk)
 * Correccions de traducció dels col·laboradors de Weblate per a diversos idiomes (Viktor Govako)
 
 ### Canvis només per a iOS
@@ -35,7 +35,7 @@ Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots e
 ### Canvis només per a Android
 
 * S'ha afegit suport de l'Assistent de Google per a navegació i cerca (skirm-tech)
-* S'ha actualitzat el paràmetre del tema de navegació "Automàtic" per seguir el mode fosc/clar del sistema (Dzmitry Strekha)
+* S'ha actualitzat el paràmetre del tema de navegació «Automàtic» per seguir el mode fosc/clar del sistema (Dzmitry Strekha)
 * S'ha corregit una fallada en iniciar la navegació (Owm Dubey)
 * S'ha corregit una fallada en pujar notes a OpenStreetMap (Prakamy Awasthi)
 * S'ha corregit una fallada a Android Auto (Alexander Borsuk)

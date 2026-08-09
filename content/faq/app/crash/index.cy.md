@@ -28,4 +28,4 @@ Neu fel arall:
 1. Galluogi recordio log yn gosodiadau'r ap.
 2. Gorfodi ailgychwyn yr ap.
 3. Atgynhyrchu'r chwalfa.
-4. Anfona'r ffeil log atom trwy "Adrodd nam" yn y sgrin About ac ychwanegu disgrifiad byr o'r chwalfa.
+4. Anfona'r ffeil log atom trwy ‘Adrodd nam’ yn y sgrin About ac ychwanegu disgrifiad byr o'r chwalfa.

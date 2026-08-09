@@ -62,6 +62,6 @@ Ha problémáid vannak az RHVoice TTS motor inicializálásával LineageOS-en va
 
 ## Tesztelés
 
-A hangutasítások teszteléséhez érintsd meg a "Hangutasítások tesztelése (TTS, Text-To-Speech)" elemet az OM "Beállítások → Hangutasítások" menüben, vagy elindíthatsz egy navigációt bármilyen hangkimenet fogadásához. Az Organic Maps nem ad hangutasításokat, amíg egy helyben állsz.
+A hangutasítások teszteléséhez érintsd meg a „Hangutasítások tesztelése (TTS, Text-To-Speech)“ elemet az OM „Beállítások → Hangutasítások“ menüben, vagy elindíthatsz egy navigációt bármilyen hangkimenet fogadásához. Az Organic Maps nem ad hangutasításokat, amíg egy helyben állsz.
 
 ![TTS-teszt](tts_test.png "TTS-teszt")

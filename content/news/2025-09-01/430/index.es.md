@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Ahora, cuando selecciones una parada de autobús o tranvía, puedes ver los números de ruta del transporte público. ¡Este es solo el primer paso! A continuación, planeamos mostrar las rutas de transporte público directamente en el mapa. Los usuarios de iOS también pueden disfrutar de los botones de contribución de OpenStreetMap rediseñados ("Agregar lugar" y "Editar lugar").
+Ahora, cuando selecciones una parada de autobús o tranvía, puedes ver los números de ruta del transporte público. ¡Este es solo el primer paso! A continuación, planeamos mostrar las rutas de transporte público directamente en el mapa. Los usuarios de iOS también pueden disfrutar de los botones de contribución de OpenStreetMap rediseñados («Agregar lugar» y «Editar lugar»).
 
 Estamos agradecidos ❤️ con nuestros colaboradores, así como por [tus donaciones](@/donate/index.es.md) y [tu apoyo](@/contribute/index.es.md).
 
@@ -28,14 +28,14 @@ Estamos agradecidos ❤️ con nuestros colaboradores, así como por [tus donaci
 
 #### iOS
 
-- ¡NUEVO! Botones "Agregar lugar a OpenStreetMap" y "Editar lugar" rediseñados (Kiryl Kaveryn)
+- ¡NUEVO! Botones «Agregar lugar a OpenStreetMap» y «Editar lugar» rediseñados (Kiryl Kaveryn)
 - Retícula saltarina corregida al agregar un nuevo lugar a OpenStreetMap (Kiryl Kaveryn)
 - Nuevos iconos para capas de mapa y menú (Kiryl Kaveryn, @euf)
 - Actualizaciones de elevación redundantes eliminadas durante la grabación de rutas (Kiryl Kaveryn)
 - Los títulos multilínea ahora son compatibles en el selector de lista de marcadores (David Martinez) y en la página de información del lugar (Kiryl Kaveryn)
 - Las actualizaciones de inicio/parada de grabación de rutas y puntos ahora son más confiables (Kiryl Kaveryn)
 - Todos los iconos tocables en la página de detalles del lugar ahora usan un color azul unificado (Kiryl Kaveryn)
-- El botón "Actualizar mapas para contribuir" ahora se muestra en el menú cuando los mapas están demasiado desactualizados (Kiryl Kaveryn)
+- El botón «Actualizar mapas para contribuir» ahora se muestra en el menú cuando los mapas están demasiado desactualizados (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Estamos agradecidos ❤️ con nuestros colaboradores, así como por [tus donaci
 - Fallo corregido al guardar ciertas rutas y fallo raro al iniciar (Viktor Govako)
 - La guía de carril se ha corregido en algunos casos de navegación (Andrei Shkrob)
 - Orden original de colores predefinidos de marcadores/rutas restaurado (Andrei Shkrob)
-- Botón "Limpiar búsqueda" corregido al editar cocinas (Ansh Jain)
+- Botón «Limpiar búsqueda» corregido al editar cocinas (Ansh Jain)
 
 Obtén la última versión de septiembre de Organic Maps desde la [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], y [F-Droid][fdroid].
 

@@ -30,7 +30,7 @@ Android:
 - Fixade felaktig användargränssnitts-layout på vissa enheter (_Sergiy Kozyr_)
 - Visa OSM-inloggning och lösenord om webbläsarinloggning misslyckas/inte är tillgänglig (_Sergiy Kozyr_)
 - Fixade hoppande hårkors när objekt läggs till i OpenStreetMap (_@hemanggs_)
-- Fixade "Försök igen misslyckad nedladdning"-knapp (_Kavi Khalique_)
+- Fixade “Försök igen misslyckad nedladdning”-knapp (_Kavi Khalique_)
 - Fixade startskärm som överlappar systemknappar (_Vraj Shah_)
 - Fixade vissa krascher (_Devarsh Vasani_)
 - Fixade EACCESS PermissionDenied-fel när KML eller GPX importeras på Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS-ändringar, all kredit till _Kiryl Kaveryn_:
 - Nu kan du redigera eller ta bort det inspelade spåret omedelbart efter att ha sparat det
 - Utökat tryckområde för knappar
 - Fixade hoppande OSM-anteckningar när text skrivs
-- Visa "Lägg till plats"-knapp för företag
+- Visa “Lägg till plats”-knapp för företag
 
 P.S. Om du gillar att läsa detaljerade versionsanteckningar, låt oss veta på våra [sociala nätverk](/#community)
 

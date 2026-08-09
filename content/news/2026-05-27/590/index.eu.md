@@ -46,7 +46,7 @@ Eguneratzea lortu <https://get.omaps.org>-n edo [App Store][appstore], [Google P
 - BERRIA! Ibilbidearen testuak eta HTML deskribapenak onartzen dira orain, markatzaileen deskribapenetan bezala. Sakatu arkatzaren ikonoa deskribapena gehitzeko. _(Mikhail Listratsenka)_
 - BERRIA! Aukeratu nahi duzun edozein kolore ibilbiderako, ez soilik multzo mugatu bat _(Mikhail Listratsenka)_
 - Koreako, Txinako eta Japoniako erabiltzaileek orain gailuaren tokiko ezarpenetan oinarritutako letra-tipo egokiak ikusiko dituzte _(Alexander Borsuk)_
-- Konpondu ibilbidearen kokapen-orrien arazoak eta "Ireki…" botoia _(Mikhail Listratsenka)_
+- Konpondu ibilbidearen kokapen-orrien arazoak eta «Ireki…» botoia _(Mikhail Listratsenka)_
 
 ### Linux eta macOS
 

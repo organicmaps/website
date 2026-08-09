@@ -17,15 +17,15 @@ Piątek! Czas zainstalować nową aktualizację Organic Maps z <https://omaps.ap
 ### iOS
 
 - NOWOŚĆ! Możesz edytować nazwę zakładki lub trasy bezpośrednio na stronie informacji o miejscu, dotykając nazwy. _(Kiryl Kaveryn)_
-- Dodano obsługę iOS 26 i macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Dodano obsługę iOS 26 i macOS 26 „Liquid Glass“. _(Kiryl Kaveryn)_
 - Przytrzymaj nazwę lub adres wybranego miejsca lub zakładki, aby skopiować do schowka. _(Kiryl Kaveryn)_
 - Dotknij nazwy listy na stronie informacji o miejscu, aby wybrać nową listę dla zakładki lub trasy, i użyj nowego wyszukiwania, aby szybko znaleźć żądaną listę. _(Kiryl Kaveryn)_
 - Naprawiono układ mapy podczas nawigacji na iPadzie, aby trasa pozostała wyraźnie widoczna. _(Kiryl Kaveryn)_
-- Naprawiono animacje przycisków bocznych i poprawiono kolor przycisku "Pobierz mapy" w ciemnym motywie. _(Kiryl Kaveryn)_
+- Naprawiono animacje przycisków bocznych i poprawiono kolor przycisku „Pobierz mapy“ w ciemnym motywie. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Dodano paski przewijania do ekranu wyszukiwania i ekranu "Zakładki i Trasy". _(shantanu1k)_
+- Dodano paski przewijania do ekranu wyszukiwania i ekranu „Zakładki i Trasy“. _(shantanu1k)_
 - Ulepszona obsługa odtwarzania dźwięku i przerw. _(Andrei Shkrob)_
 - Naprawiono awarie na ekranie profilu edytora. _(Alexander Borsuk)_
 - Naprawiono awarie podczas pobierania map. _(Viktor Govako)_

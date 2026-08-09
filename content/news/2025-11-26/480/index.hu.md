@@ -17,15 +17,15 @@ Péntek! Ideje telepíteni az új Organic Maps frissítést a <https://omaps.app
 ### iOS
 
 - ÚJ! Szerkesztheted a könyvjelző vagy útvonal nevét közvetlenül a Hely információs oldalon a névre koppintva. _(Kiryl Kaveryn)_
-- iOS 26 és macOS 26 "Liquid Glass" támogatás hozzáadva. _(Kiryl Kaveryn)_
+- iOS 26 és macOS 26 „Liquid Glass“ támogatás hozzáadva. _(Kiryl Kaveryn)_
 - Hosszan érintsd meg a kiválasztott hely vagy könyvjelző nevét vagy címét a vágólapra másoláshoz. _(Kiryl Kaveryn)_
 - Koppints a lista nevére a Hely információs oldalon, hogy új listát válassz a könyvjelzőhöz vagy útvonalhoz, és használd az új keresést a kívánt lista gyors megtalálásához. _(Kiryl Kaveryn)_
 - Javítva a térkép elrendezése navigáció közben iPaden, hogy az útvonal jól látható maradjon. _(Kiryl Kaveryn)_
-- Javítva az oldalsó gombok animációi és a "Térképek letöltése" gomb színe a sötét témában. _(Kiryl Kaveryn)_
+- Javítva az oldalsó gombok animációi és a „Térképek letöltése“ gomb színe a sötét témában. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Görgetősávok hozzáadva a Keresés képernyőhöz és a "Könyvjelzők és Útvonalak" képernyőhöz. _(shantanu1k)_
+- Görgetősávok hozzáadva a Keresés képernyőhöz és a „Könyvjelzők és Útvonalak“ képernyőhöz. _(shantanu1k)_
 - Javított hanglejátszás és megszakítások kezelése. _(Andrei Shkrob)_
 - Összeomlások javítva a Szerkesztő profil képernyőn. _(Alexander Borsuk)_
 - Összeomlások javítva a térképek letöltése közben. _(Viktor Govako)_

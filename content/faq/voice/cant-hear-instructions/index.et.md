@@ -16,7 +16,7 @@ aliases:
 
 Kui sa ei kuule hääljuhiseid:
 
-* Veendu, et sinu seadme heli ei oleks vaigistatud. Helitugevust saad muuta oma seadme helitugevuse nuppudega. Selleks pead võib-olla seadme seadetes → Helid keelama valiku "Muuda nuppudega" (kui see on lubatud).
+* Veendu, et sinu seadme heli ei oleks vaigistatud. Helitugevust saad muuta oma seadme helitugevuse nuppudega. Selleks pead võib-olla seadme seadetes → Helid keelama valiku „Muuda nuppudega“ (kui see on lubatud).
 
 * Teata kõigist Bluetoothi probleemidest meie [GitHubis](https://github.com/organicmaps/organicmaps/issues) koos vajalike üksikasjadega.
 

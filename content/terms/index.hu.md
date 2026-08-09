@@ -6,11 +6,11 @@ title: "Organic Maps: feltételek"
 weight: 1000
 ---
 
-Ezt az alkalmazást az Apache License, Version 2.0 (a "License") licenc alá helyezték; ezt az alkalmazást csak a Licencnek megfelelően használhatod.
+Ezt az alkalmazást az Apache License, Version 2.0 (a „License“) licenc alá helyezték; ezt az alkalmazást csak a Licencnek megfelelően használhatod.
 
 A licenc egy példányát a [http://www.apache.org/licenses/LICENSE-2.0][license] címen szerezheted be
 
-Hacsak a vonatkozó törvények nem írják elő, vagy hacsak írásban nem állapodtak meg, a Licenc alapján terjesztett szoftver "AZONOS" ALAPON kerül terjesztésre, MINDEN KIFEJEZETT, vagy hallgatólagos JÓTÁMOGATÁS ÉS FELTÉTELEK NÉLKÜL. A Licenc szerinti engedélyekre és korlátozásokra vonatkozó konkrét nyelvezetet lásd a Licencben.
+Hacsak a vonatkozó törvények nem írják elő, vagy hacsak írásban nem állapodtak meg, a Licenc alapján terjesztett szoftver „AZONOS“ ALAPON kerül terjesztésre, MINDEN KIFEJEZETT, vagy hallgatólagos JÓTÁMOGATÁS ÉS FELTÉTELEK NÉLKÜL. A Licenc szerinti engedélyekre és korlátozásokra vonatkozó konkrét nyelvezetet lásd a Licencben.
 
 A [GitHub][github] következő tárhelyeiben található könyvtárak többségét más emberek és szervezetek készítették, és különböző módon vannak licencelve:
 

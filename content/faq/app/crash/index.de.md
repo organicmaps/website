@@ -29,4 +29,4 @@ Oder alternativ:
 1. Aktiviere die Protokollierung in den App-Einstellungen.
 2. Erzwinge einen Neustart der App.
 3. Reproduziere den Absturz.
-4. Sende uns die Protokolldatei über "Fehler melden" im Über-Bildschirm und füge eine kurze Beschreibung des Absturzes hinzu.
+4. Sende uns die Protokolldatei über „Fehler melden“ im Über-Bildschirm und füge eine kurze Beschreibung des Absturzes hinzu.

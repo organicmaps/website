@@ -19,9 +19,9 @@ Confirma que se haya establecido tu posición en el mapa y elige el destino. Pue
 * pulsa el botón de marcadores
 * pulsa (pulsa y mantén para las zonas abiertas) cualquier sitio en el mapa
 
-En cuanto has elegido el punto de destino, pulsa el botón "Ruta hasta" en el panel blanco del sitio. La ruta se creará y verás la distancia y tiempo estimado de llegada. Puedes cambiar el tipo de la ruta si pulsas los iconos "En coche", "A pie", "En el Metro", "En bicicleta" o "Regla" situados en la parte superior de la pantalla. Presiona el botón "Empezar" para empezar a moverte. Pulsa el signo de la flecha en la esquina inferior derecha de la pantalla y toca "Detener" para finalizar la ruta.
+En cuanto has elegido el punto de destino, pulsa el botón «Ruta hasta» en el panel blanco del sitio. La ruta se creará y verás la distancia y tiempo estimado de llegada. Puedes cambiar el tipo de la ruta si pulsas los iconos «En coche», «A pie», «En el Metro», «En bicicleta» o «Regla» situados en la parte superior de la pantalla. Presiona el botón «Empezar» para empezar a moverte. Pulsa el signo de la flecha en la esquina inferior derecha de la pantalla y toca «Detener» para finalizar la ruta.
 
-Puedes elegir un punto de partida diferente (el botón "Desde") para ver una ruta de antemano, pero la navegación solo está disponible cuando se crea una ruta desde tu ubicación actual.
+Puedes elegir un punto de partida diferente (el botón «Desde») para ver una ruta de antemano, pero la navegación solo está disponible cuando se crea una ruta desde tu ubicación actual.
 
 Puedes agregar hasta 100 puntos intermedios a una ruta. Para agregar un punto intermedio: crea una ruta entre un inicio y un destino → luego toca un punto en el mapa y toca “Añadir parada”.
 

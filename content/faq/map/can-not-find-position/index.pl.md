@@ -17,7 +17,7 @@ Upewnij się, że Twoje urządzenie ma GPS i ustawienia lokalizacji są włączo
 
 Na twoim urządzeniu otwórz Ustawienia → Lokalizacja. Lepiej jest włączyć tryb wysokiej dokładności.
 
-Jeśli masz trudności z określeniem swojej lokalizacji za pomocą GPS, włącz (wyłącz, jeśli włączone) "Usługi Google Play" w ustawieniach aplikacji.
+Jeśli masz trudności z określeniem swojej lokalizacji za pomocą GPS, włącz (wyłącz, jeśli włączone) „Usługi Google Play“ w ustawieniach aplikacji.
 
 Uwaga: możesz je zobaczyć tylko wtedy, gdy masz zainstalowane (i włączone) usługi Google Play na twoim urządzeniu z Androidem. Usługi Google Play są używane do dokładniejszego określenia lokalizacji, jeśli masz problemy z dokładnością lokalizacji po wyłączeniu opcji, włącz ją.
 
@@ -36,6 +36,6 @@ Jeśli jesteś użytkownikiem iPhone'a lub iPada, sprawdź ustawienia iOS → Pr
 
 **Na mapie pokazana jest nieprawidłowa lokalizacja**
 
-1. Jeśli wokół strzałki lokalizacji na mapie znajduje się duży półprzezroczysty okrąg, oznacza to, że Twoja pozycja jest określana z niską dokładnością, przy użyciu połączenia WiFi lub komórkowego. Upewnij się, że w ustawieniach systemowych włączyłeś "Dokładną" lokalizację dla Organic Maps i spróbuj wyjść na zewnątrz, z dala od wysokich budynków i drzew, aby poprawić odbiór sygnału satelitarnego GPS.
+1. Jeśli wokół strzałki lokalizacji na mapie znajduje się duży półprzezroczysty okrąg, oznacza to, że Twoja pozycja jest określana z niską dokładnością, przy użyciu połączenia WiFi lub komórkowego. Upewnij się, że w ustawieniach systemowych włączyłeś „Dokładną“ lokalizację dla Organic Maps i spróbuj wyjść na zewnątrz, z dala od wysokich budynków i drzew, aby poprawić odbiór sygnału satelitarnego GPS.
 
 2. Jeśli Twoja pozycja jest określana nieprawidłowo (na przykład jesteś w jednym mieście, ale aplikacja pokazuje inne miasto), najprawdopodobniej znajdujesz się w obszarze dotkniętym fałszywym sygnałem GPS (GPS spoofing) z powodu środków walki elektronicznej (EW). W takich przypadkach jedynym rozwiązaniem jest przeniesienie się w inne miejsce.

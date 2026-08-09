@@ -46,7 +46,7 @@ Få uppdateringen på <https://get.omaps.org> eller på [App Store][appstore], [
 - NYTT! Spårtext och HTML-beskrivningar stöds nu, på samma sätt som beskrivningar för bokmärken. Tryck på pennikonen för att lägga till en beskrivning. _(Mikhail Listratsenka)_
 - NYTT! Välj valfri färg för spår, inte bara en begränsad delmängd _(Mikhail Listratsenka)_
 - Koreanska, kinesiska och japanska användare kommer nu att se korrekta teckensnitt baserat på enhetsspråk _(Alexander Borsuk)_
-- Fixade problem med spårplatssidan och "Öppna i"-knappen _(Mikhail Listratsenka)_
+- Fixade problem med spårplatssidan och “Öppna i”-knappen _(Mikhail Listratsenka)_
 
 ### Linux och macOS
 

@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Após excluir uma lista de marcadores ou lista de trilhas (através do botão "Mais"), o app agora retorna corretamente para a tela anterior (Kiryl Kaveryn)
-- Adicionados links de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] na tela "Sobre" (Kiryl Kaveryn)
-- Adicionado "Reportar um bug" às ações rápidas do ícone do app na tela inicial (Kiryl Kaveryn)
+- Após excluir uma lista de marcadores ou lista de trilhas (através do botão “Mais”), o app agora retorna corretamente para a tela anterior (Kiryl Kaveryn)
+- Adicionados links de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] na tela “Sobre” (Kiryl Kaveryn)
+- Adicionado “Reportar um bug” às ações rápidas do ícone do app na tela inicial (Kiryl Kaveryn)
 - Corrigidas várias falhas do app e CarPlay (Kiryl Kaveryn)
 
 ### Android

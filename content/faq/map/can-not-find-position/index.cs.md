@@ -37,6 +37,6 @@ Pokud používáte iPhone nebo iPad, zkontrolujte nastavení iOS → Soukromí �
 
 **Na mapě se zobrazuje nesprávná poloha**
 
-1. Pokud je kolem šipky vaší polohy na mapě velký poloprůhledný kruh, znamená to, že vaše poloha je určena s nízkou přesností pomocí WiFi nebo mobilního připojení. Ujistěte se, že jste v nastavení systému povolili "Přesnou" polohu pro Organic Maps, a zkuste jít ven, pryč od vysokých budov a stromů, abyste zlepšili příjem satelitního signálu GPS.
+1. Pokud je kolem šipky vaší polohy na mapě velký poloprůhledný kruh, znamená to, že vaše poloha je určena s nízkou přesností pomocí WiFi nebo mobilního připojení. Ujistěte se, že jste v nastavení systému povolili „Přesnou“ polohu pro Organic Maps, a zkuste jít ven, pryč od vysokých budov a stromů, abyste zlepšili příjem satelitního signálu GPS.
 
 2. Pokud je vaše poloha určena nesprávně (například jste v jednom městě, ale aplikace ukazuje jiné město), pak jste s největší pravděpodobností v oblasti postižené falešným signálem GPS (GPS spoofing) v důsledku opatření elektronického boje (EW). V takových případech je jediným řešením přesunout se na jiné místo.

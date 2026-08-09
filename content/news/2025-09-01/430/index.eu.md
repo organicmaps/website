@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Orain, autobus edo tranbia geltokia aukeratzerakoan, garraio publikoko bideko zenbakiak ikusiko dituzu. Lehen pausoa baino ez da! Hurrena, garraio publikoko bideak zuzenean mapa gainean erakustea pentsatzen dugu. iOS erabiltzaileek, halaber, OpenStreetMap ekarpen botoien diseinua berritu dugunak gozatu ahal izango dituzte ("Gehitu tokia" eta "Editatu tokia").
+Orain, autobus edo tranbia geltokia aukeratzerakoan, garraio publikoko bideko zenbakiak ikusiko dituzu. Lehen pausoa baino ez da! Hurrena, garraio publikoko bideak zuzenean mapa gainean erakustea pentsatzen dugu. iOS erabiltzaileek, halaber, OpenStreetMap ekarpen botoien diseinua berritu dugunak gozatu ahal izango dituzte («Gehitu tokia» eta «Editatu tokia»).
 
 Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.eu.md) eta [zuen laguntzari](@/contribute/index.eu.md) ere bai.
 
@@ -28,14 +28,14 @@ Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.
 
 #### iOS
 
-- BERRIA! "Gehitu tokia OpenStreetMap-era" eta "Editatu tokia" botoien diseinua berriz egin (Kiryl Kaveryn)
+- BERRIA! «Gehitu tokia OpenStreetMap-era» eta «Editatu tokia» botoien diseinua berriz egin (Kiryl Kaveryn)
 - Jauzi-linea konpondu toki berria OpenStreetMap-era gehitzerakoan (Kiryl Kaveryn)
 - Mapa geruza eta menurako ikono berriak (Kiryl Kaveryn, @euf)
 - Altuera-eguneratze gehiegizkoak kendu pista grabatzerakoan (Kiryl Kaveryn)
 - Lerro anitzeko izenburuak orain sostengatzen laster-marken aukeratzailean (David Martinez) eta tokiaren informazio orrialdean (Kiryl Kaveryn)
 - Pista grabatzearen hasiera/gelditze eta puntuaren eguneratzeak orain fidagarriago (Kiryl Kaveryn)
 - Toki xehetasunen orrialdeko ukigarri ikono guztiek orain urdin kolore bertsua erabiltzen (Kiryl Kaveryn)
-- "Eguneratu mapak ekarpenak egiteko" botoia orain menuan erakusten mapak zaharregietan direnean (Kiryl Kaveryn)
+- «Eguneratu mapak ekarpenak egiteko» botoia orain menuan erakusten mapak zaharregietan direnean (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Gure ekartzaileei ❤️ eskertu egiten diegu, [zuen dohaintzei](@/donate/index.
 - Bide batzuk gordetzean kraxa konpondu eta krampa arrunta aplikazioa abiatzerakoan (Viktor Govako)
 - Bideko gidatze hobetu nabigazioko kasu batzuetan (Andrei Shkrob)
 - Lehenetsitako laster-marka/pista koloreen jatorrizko ordena berrezarri (Andrei Shkrob)
-- "Utzi bilaketa" botoia konpondu sukaldaritzak editatzerakoan (Ansh Jain)
+- «Utzi bilaketa» botoia konpondu sukaldaritzak editatzerakoan (Ansh Jain)
 
 Lortu Organic Maps-en azkeneko iraileko bertsioa [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid] bidez.
 

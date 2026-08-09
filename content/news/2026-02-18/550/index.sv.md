@@ -24,8 +24,8 @@ Om du vill se **tidtabeller för kollektivtrafik i realtid** för din stad i en 
 * Förbättrade rankning av sökresultat för kategorier (Viktor Govako)
 * Lade till uzbekiskt kök (alnzrv)
 * Lade till ziplines på kartan (Rawdyrathaur)
-* Fixade Wikimedia-länkar med "?" i titeln (alnzrv)
-* Stöd för GPX-filer med "+" i koordinater (Alexander Borsuk)
+* Fixade Wikimedia-länkar med “?” i titeln (alnzrv)
+* Stöd för GPX-filer med “+” i koordinater (Alexander Borsuk)
 
 ### iOS
 

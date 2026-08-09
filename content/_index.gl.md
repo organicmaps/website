@@ -41,7 +41,7 @@ Organic Maps é a aplicación complementaria definitiva para viaxeiros, turistas
 - Artigos da Wikipedia para lugares populares
 - Libre e de código aberto
 
-## Por que "Organic"?
+## Por que «Organic»?
 
 Organic Maps é puro e orgánico, feito con amor:
 

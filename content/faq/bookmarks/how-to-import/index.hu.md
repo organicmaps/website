@@ -25,6 +25,6 @@ Egyetlen fájl importálása:
 
 Könyvjelzők és számok kötegelt importálása is lehetséges:
 
-1. Nyisd meg az Organic Maps alkalmazást, és érintsd meg a csillag gombot a könyvjelzők és műsorszámok listájának megnyitásához. Nyomd meg a "Könyvjelzők és számok importálása" gombot.
+1. Nyisd meg az Organic Maps alkalmazást, és érintsd meg a csillag gombot a könyvjelzők és műsorszámok listájának megnyitásához. Nyomd meg a „Könyvjelzők és számok importálása“ gombot.
 
 2. Válassz ki egy mappát KML, KMZ, KMB, GPX, GeoJSON (JSON) fájlokkal. Az Organic Maps átvizsgálja az almappákat is beleértve, és importálja az összes támogatott fájlt könyvjelzőkkel és útvonalakkal. Kiválaszthatod a gyökérmappát a teljes tárhelyen való kereséshez.

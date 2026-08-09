@@ -30,7 +30,7 @@ Android:
 - Memperbaiki tata letak antarmuka pengguna yang salah di beberapa perangkat (_Sergiy Kozyr_)
 - Tampilkan login dan kata sandi OSM jika login browser gagal/tidak tersedia (_Sergiy Kozyr_)
 - Memperbaiki lompatan crosshair saat menambahkan objek ke OpenStreetMap (_@hemanggs_)
-- Memperbaiki tombol "Coba lagi unduhan yang gagal" (_Kavi Khalique_)
+- Memperbaiki tombol “Coba lagi unduhan yang gagal” (_Kavi Khalique_)
 - Memperbaiki layar splash yang tumpang tindih dengan tombol sistem (_Vraj Shah_)
 - Memperbaiki beberapa crash (_Devarsh Vasani_)
 - Memperbaiki kesalahan EACCESS PermissionDenied saat mengimpor KML atau GPX di Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Perubahan iOS, semua pujian untuk _Kiryl Kaveryn_:
 - Sekarang kamu dapat mengedit atau menghapus trek yang direkam segera setelah menyimpannya
 - Area sentuh yang diperluas untuk tombol
 - Memperbaiki catatan OSM yang melompat saat mengetik teks
-- Tampilkan tombol "Tambah Tempat" untuk bisnis
+- Tampilkan tombol “Tambah Tempat” untuk bisnis
 
 P.S. Jika kamu suka membaca catatan rilis yang detail, silakan beri tahu kami di [jaringan sosial](/#community) kami
 

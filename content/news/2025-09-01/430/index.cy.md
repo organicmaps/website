@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nawr, pan ddoi di safle bws neu dram, gelli weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd ("Ychwanegu Lleoliad" a "Golygu Lleoliad").
+Nawr, pan ddoi di safle bws neu dram, gelli weld rhifau llwybrau trafnidiaeth gyhoeddus. Dim ond y cam cyntaf yw hwn! Nesaf, rydym yn bwriadu dangos llwybrau trafnidiaeth gyhoeddus yn uniongyrchol ar y map. Gall defnyddwyr iOS hefyd fwynhau botymau cyfraniad OpenStreetMap a ailgylluniwyd (‘Ychwanegu Lleoliad’ a ‘Golygu Lleoliad’).
 
 Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate/index.cy.md) a dy [gefnogaeth](@/contribute/index.cy.md).
 
@@ -28,14 +28,14 @@ Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate
 
 #### iOS
 
-- NEWYDD! Botymau "Ychwanegu Lleoliad i OpenStreetMap" a "Golygu Lleoliad" wedi'u hailgynllunio (Kiryl Kaveryn)
+- NEWYDD! Botymau ‘Ychwanegu Lleoliad i OpenStreetMap’ a ‘Golygu Lleoliad’ wedi'u hailgynllunio (Kiryl Kaveryn)
 - Croesfaen neidiol wedi'i gywiro wrth ychwanegu lleoliad newydd i OpenStreetMap (Kiryl Kaveryn)
 - Eiconau newydd ar gyfer haenau map a dewislen (Kiryl Kaveryn, @euf)
 - Diweddariadau dringo diangen wedi'u tynnu yn ystod recordio trac (Kiryl Kaveryn)
 - Mae teitlau aml-linell bellach yn cael eu cynnal yn y dewisydd rhestr nodau (David Martinez) ac yn y Dudalen Gwybodaeth Lleoliad (Kiryl Kaveryn)
 - Mae diweddariadau cychwyn/stopio recordio trac a phwynt bellach yn fwy dibynadwy (Kiryl Kaveryn)
 - Mae pob eicon cyffyrddadwy ar y dudalen manylion lleoliad bellach yn defnyddio lliw glas unedig (Kiryl Kaveryn)
-- Mae'r botwm "Diweddaru mapiau i gyfrannu" bellach yn cael ei ddangos yn y ddewislen pan fo mapiau'n rhy hen (Kiryl Kaveryn)
+- Mae'r botwm ‘Diweddaru mapiau i gyfrannu’ bellach yn cael ei ddangos yn y ddewislen pan fo mapiau'n rhy hen (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Rydym yn ddiolchgar ❤️ i'n cyfranwyr, yn ogystal ag am [dy roddion](@/donate
 - Damwain wedi'i chywiro wrth gadw llwybrau penodol a damwain brin wrth gychwyn (Viktor Govako)
 - Mae arweiniad lôn wedi'i gywiro mewn rhai achosion llywio (Andrei Shkrob)
 - Trefn wreiddiol lliwiau nod/trac rhagosodedig wedi'i hadfer (Andrei Shkrob)
-- Botwm "Clirio Chwilio" wedi'i gywiro wrth olygu ceginau (Ansh Jain)
+- Botwm ‘Clirio Chwilio’ wedi'i gywiro wrth olygu ceginau (Ansh Jain)
 
 Cei fersiwn ddiweddaraf Medi o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].
 

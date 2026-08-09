@@ -13,11 +13,11 @@ aliases:
 
 OM Linux-en flatpak-ekin instalatzeko, ireki terminala eta idatzi `flatpak install flathub app.organicmaps.desktop`
 
-Aplikazioa instalatuta dagoenean, saguaren korritze-gurpila edo eskuineko menu-barrako kontrolak erabil ditzakezu nabigatu nahi duzun eremua handitzeko, eremu horretako mapak deskargatzeko. Beheko eskuineko "deskargatu" ikonoan ere klik egin dezakezu. Axola zaizkizun eskualdeetako mapak deskargatu ondoren, aplikazioak Internetera konexiorik gabe ere funtzionatu beharko luke. 
+Aplikazioa instalatuta dagoenean, saguaren korritze-gurpila edo eskuineko menu-barrako kontrolak erabil ditzakezu nabigatu nahi duzun eremua handitzeko, eremu horretako mapak deskargatzeko. Beheko eskuineko «deskargatu» ikonoan ere klik egin dezakezu. Axola zaizkizun eskualdeetako mapak deskargatu ondoren, aplikazioak Internetera konexiorik gabe ere funtzionatu beharko luke. 
 
 Sagua pasa dezakezu ikono ezberdinen gainean laguntza-testu batzuk ikusteko. 
 
-Ibilbidea egiteko eta txandaka nabigatzeko, aukera pare bat dituzu. zure hasierako eta amaierako puntuen GPS koordenatuak ezagutzen badituzu, ezarpenen ikonoan klik egin dezakezu (marka berdearen gainean) eta zure abiapuntuaren eta helmugako koordenatuak sar ditzakezu. Mapan abiapuntua ezartzeko, egin klik nabigazio-ikonoan eta hautatu "hasiera-puntua", gero eduki sakatuta maius tekla eta egin klik ezkerreko botoiarekin mapan. Helmuga ezartzeko, aldatu "amaiera puntura" eta egin klik mapako kokapen batean.
+Ibilbidea egiteko eta txandaka nabigatzeko, aukera pare bat dituzu. zure hasierako eta amaierako puntuen GPS koordenatuak ezagutzen badituzu, ezarpenen ikonoan klik egin dezakezu (marka berdearen gainean) eta zure abiapuntuaren eta helmugako koordenatuak sar ditzakezu. Mapan abiapuntua ezartzeko, egin klik nabigazio-ikonoan eta hautatu «hasiera-puntua», gero eduki sakatuta maius tekla eta egin klik ezkerreko botoiarekin mapan. Helmuga ezartzeko, aldatu «amaiera puntura» eta egin klik mapako kokapen batean.
 
 ![Hasiera-puntua eta amaiera-puntua ezartzea](nav_points.png)
 

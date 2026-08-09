@@ -49,7 +49,7 @@ Voor degenen die het gemist hebben, de [vorige update van 7 oktober](https://org
 
 ## Linux/Mac OS
 
-- POI-details tonen nu "naam | ref"-formaat (Viktor Govako)
+- POI-details tonen nu “naam | ref”-formaat (Viktor Govako)
 - donkere modus synchroniseert automatisch met systeeminstellingen (DeepChirp)
 
 ## Voetnoten

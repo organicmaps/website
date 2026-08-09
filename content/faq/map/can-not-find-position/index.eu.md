@@ -18,7 +18,7 @@ Mesedez, ziurtatu zure gailuak GPSa duela, kokapen-zerbitzuak gaituta daudela et
 
 Zure gailuan ireki Ezarpenak → Kokapena. Hobe da Zehaztasun handiko modua aktibatzea, GPS kokapen zehatza ahalbidetzen baitu.
 
-Zure Android gailuak ezin badu zure kokapena zehaztu, gaitu (edo desgaitu, gaituta badago) "Google Play Zerbitzuak" aukera aplikazioaren ezarpenetan.
+Zure Android gailuak ezin badu zure kokapena zehaztu, gaitu (edo desgaitu, gaituta badago) «Google Play Zerbitzuak» aukera aplikazioaren ezarpenetan.
 
 Oharra: zure Android gailuan Google Play zerbitzuak instalatuta (gaituta) badituzu soilik ikus dezakezu. Google Play zerbitzuak kokapena zehatzago zehazteko erabiltzen dira; aukera desgaitu ondoren kokapenaren zehaztasunarekin arazoak badituzu, aktibatu.
 
@@ -37,6 +37,6 @@ iPhone edo iPad erabiltzailea bazara, egiaztatu iOS ezarpenak → Pribatutasuna 
 
 **Kokapen okerra erakusten da mapan**
 
-1. Mapan zure kokapen-geziaren inguruan zirkulu erdi-garden handi bat badago, zure posizioa zehaztasun txikiarekin zehazten dela esan nahi du, WiFi edo konexio zelularra erabiliz. Ziurtatu Organic Maps-erako kokapen-zehaztasun "Zehata" gaitu duzula sistemaren ezarpenetan, eta saiatu kanpora joaten, eraikin altuetatik eta zuhaitzetatik urrun, satelite bidezko GPS seinalearen harrera hobetzeko.
+1. Mapan zure kokapen-geziaren inguruan zirkulu erdi-garden handi bat badago, zure posizioa zehaztasun txikiarekin zehazten dela esan nahi du, WiFi edo konexio zelularra erabiliz. Ziurtatu Organic Maps-erako kokapen-zehaztasun «Zehata» gaitu duzula sistemaren ezarpenetan, eta saiatu kanpora joaten, eraikin altuetatik eta zuhaitzetatik urrun, satelite bidezko GPS seinalearen harrera hobetzeko.
 
 2. Zure posizioa gaizki zehazten bada (adibidez, hiri batean zaude, baina aplikazioak beste hiri bat erakusten du), ziurrenik GPS seinale faltsu batek (GPS spoofing) eragindako eremu batean zaude gerra elektronikoko (EW) neurrien ondorioz. Kasu horietan, irtenbide bakarra beste kokapen batera mugitzea da.

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nu när du väljer en buss- eller spårvagnshållplats kan du se kollektivtrafikens linjenummer. Detta är bara första steget! Nästa steg är att visa kollektivtrafiklinjer direkt på kartan. iOS-användare kan också njuta av omdesignade OpenStreetMap-bidragsknappar ("Lägg till plats" och "Redigera plats").
+Nu när du väljer en buss- eller spårvagnshållplats kan du se kollektivtrafikens linjenummer. Detta är bara första steget! Nästa steg är att visa kollektivtrafiklinjer direkt på kartan. iOS-användare kan också njuta av omdesignade OpenStreetMap-bidragsknappar (“Lägg till plats” och “Redigera plats”).
 
 Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/donate/index.sv.md) och [ditt stöd](@/contribute/index.sv.md).
 
@@ -28,14 +28,14 @@ Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/
 
 #### iOS
 
-- NYTT! Omdesignade "Lägg till plats i OpenStreetMap" och "Redigera plats"-knappar (Kiryl Kaveryn)
+- NYTT! Omdesignade “Lägg till plats i OpenStreetMap” och “Redigera plats”-knappar (Kiryl Kaveryn)
 - Fixat hoppande hårkors när ny plats läggs till i OpenStreetMap (Kiryl Kaveryn)
 - Nya ikoner för kartlager och meny (Kiryl Kaveryn, @euf)
 - Tog bort överflödiga höjduppdateringar under spårinspelning (Kiryl Kaveryn)
 - Flerradiga titlar stöds nu i bokmärkeslistväljaren (David Martinez) och på platsinformationssidan (Kiryl Kaveryn)
 - Spårinspelning start/stopp och punktuppdateringar är nu mer pålitliga (Kiryl Kaveryn)
 - Alla tryckbara ikoner på platsdetaljsidan använder nu en enhetlig blå färg (Kiryl Kaveryn)
-- Knappen "Uppdatera kartor för att bidra" visas nu i menyn när kartor är för gamla (Kiryl Kaveryn)
+- Knappen “Uppdatera kartor för att bidra” visas nu i menyn när kartor är för gamla (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Vi är tacksamma ❤️ för våra bidragsgivare, samt för [dina donationer](@/
 - Fixat krasch vid sparning av vissa rutter och sällsynt krasch vid uppstart (Viktor Govako)
 - Körfältsguidning har korrigerats i vissa navigationsfall (Andrei Shkrob)
 - Återställt ursprunglig ordning av fördefinierade bokmärkes-/spårfärger (Andrei Shkrob)
-- Fixat "Rensa sökning"-knappen vid redigering av kök (Ansh Jain)
+- Fixat “Rensa sökning”-knappen vid redigering av kök (Ansh Jain)
 
 Hämta den senaste septemberversionen av Organic Maps från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], och [F-Droid][fdroid].
 

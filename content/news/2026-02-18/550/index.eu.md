@@ -24,8 +24,8 @@ Zure hiriko **garraio publikoaren ordutegiak denbora errealean** ikusi nahi badi
 * Bilaketa emaitzen sailkapena hobetu da kategorien arabera (Viktor Govako)
 * Uzbekistango sukaldaritza gehitu da (alnzrv)
 * Tirolinak gehitu dira mapan (Rawdyrathaur)
-* Izenburuan "?" duten Wikimedia estekak konpondu dira (alnzrv)
-* "+" duten GPX fitxategiak onartzen dira koordenatuetan (Alexander Borsuk)
+* Izenburuan «?» duten Wikimedia estekak konpondu dira (alnzrv)
+* «+» duten GPX fitxategiak onartzen dira koordenatuetan (Alexander Borsuk)
 
 ### iOS
 

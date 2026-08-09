@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installeer die Augustus vrystelling van Organic Maps, laai die nuutste kaarte af, en ontdek gewilde stap- en fietsroetes regoor die wêreld! Druk die "Lae" knoppie bo-links om gekleurde fiets- en MTB-roetes te sien, sowel as amptelike stap- en wandelroetes. Sien jy niks naby nie? Dan is dit tyd om die ontbrekende inligting by OpenStreetMap.org te voeg, aangesien alle kaartdata in Organic Maps van daardie oop, gratis en gemeenskap-gedrewe projek kom.
+Installeer die Augustus vrystelling van Organic Maps, laai die nuutste kaarte af, en ontdek gewilde stap- en fietsroetes regoor die wêreld! Druk die “Lae” knoppie bo-links om gekleurde fiets- en MTB-roetes te sien, sowel as amptelike stap- en wandelroetes. Sien jy niks naby nie? Dan is dit tyd om die ontbrekende inligting by OpenStreetMap.org te voeg, aangesien alle kaartdata in Organic Maps van daardie oop, gratis en gemeenskap-gedrewe projek kom.
 
 Het jy geweet dat enige opgenome of ingevoerde GPX/KML roete op die kaart gekies kan word? Roetes met hoogte data sal hul hoogte grafiek wys.
 
@@ -52,7 +52,7 @@ P.S. …en baie meer kom! Jou ondersteuning help en motiveer ons om die beste ka
 
 #### Allerhande Verbeterings
 
-- Tik "cop" in die soek vind polisie stasies, terwyl "film" of "movie theater" bioskope vind (theadventurer62)
+- Tik “cop” in die soek vind polisie stasies, terwyl “film” of “movie theater” bioskope vind (theadventurer62)
 - Maak oop in ander program wys nou die gekose punt in Google Maps (Alexander Borsuk)
 - Spaanse vertaling vir meer soek kategorieë (David Martinez)
 - Opgedateerde verskeie vertalings (Weblate bydraers)

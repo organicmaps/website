@@ -17,15 +17,15 @@ Diòus! Es ora d'installar la nòva mesa a jorn d'Organic Maps dempuèi <https:/
 ### iOS
 
 - NÒU! Podètz modificar lo nom d'un marcapagina o traça directament sus la Pagina d'Informacion del Luòc en tocant lo nom. _(Kiryl Kaveryn)_
-- Apondut lo suòrt per iOS 26 e macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Apondut lo suòrt per iOS 26 e macOS 26 «Liquid Glass». _(Kiryl Kaveryn)_
 - Tocatz long lo nom o l'adreça d'un luòc o marcapagina seleccionat per lo copiar al quicòm-papièrs. _(Kiryl Kaveryn)_
 - Tocatz lo nom de la lista sus la Pagina d'Informacion del Luòc per seleccionar una nòva lista per un marcapagina o traça, e utilizatz la nòva recèrca per trobar rapidament la lista que volètz. _(Kiryl Kaveryn)_
 - Corregit lo dessenh de la mapa pendent la navegacion sus iPad per que l'itinerari reste clarament visible. _(Kiryl Kaveryn)_
-- Corregidas las animacions per los botons laterals e corregida la color del boton "Telecargar Mapas" dins lo tèma escur. _(Kiryl Kaveryn)_
+- Corregidas las animacions per los botons laterals e corregida la color del boton «Telecargar Mapas» dins lo tèma escur. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Apondut barras de desfilament a l'ecran de Recèrca e a l'ecran "Marcapaginas e Traças". _(shantanu1k)_
+- Apondut barras de desfilament a l'ecran de Recèrca e a l'ecran «Marcapaginas e Traças». _(shantanu1k)_
 - Gestion melhorada de la lectura àudio e de las interrupcions. _(Andrei Shkrob)_
 - Corregits los plantaments sus l'ecran de Perfil de l'Editor. _(Alexander Borsuk)_
 - Corregits los plantaments pendent lo telecargament de mapas. _(Viktor Govako)_

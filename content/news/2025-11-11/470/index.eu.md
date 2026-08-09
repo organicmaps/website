@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Laster-marken zerrenda edo ibilbideen zerrenda bat ezabatu ondoren ("Gehiago" botoiaren bidez), aplikazioa behar bezala itzultzen da aurreko pantailara (Kiryl Kaveryn)
-- [TikTok][tiktok], [Threads][threads] eta [Bluesky][bluesky] sare sozialen estekak gehitu dira "Honi buruz" pantailan (Kiryl Kaveryn)
-- "Akats baten berri eman" gehitu da aplikazioaren ikonoaren hasierako pantailako ekintza azkarretara (Kiryl Kaveryn)
+- Laster-marken zerrenda edo ibilbideen zerrenda bat ezabatu ondoren («Gehiago» botoiaren bidez), aplikazioa behar bezala itzultzen da aurreko pantailara (Kiryl Kaveryn)
+- [TikTok][tiktok], [Threads][threads] eta [Bluesky][bluesky] sare sozialen estekak gehitu dira «Honi buruz» pantailan (Kiryl Kaveryn)
+- «Akats baten berri eman» gehitu da aplikazioaren ikonoaren hasierako pantailako ekintza azkarretara (Kiryl Kaveryn)
 - Konpondu dira aplikazioaren eta CarPlay-ren hainbat hutsegite (Kiryl Kaveryn)
 
 ### Android

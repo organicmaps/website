@@ -29,7 +29,7 @@ Installi see aadressilt [get.omaps.org](https://get.omaps.org) või [App Store][
 * Parandatud marsruutimise tööriistariba kattumine väikestel ekraanidel _(Anton P)_
 * Parandatud otsingu krahhimine Android 5 ja 6 seadmetes _(Alexander Borsuk)_
 * Parandatud KKK tõlked Android 5 seadmetes _(Alexander Borsuk)_
-* Parandatud "Pole piisavalt vaba ruumi" viga kaartide värskendamisel _(Alexander Borsuk)_
+* Parandatud „Pole piisavalt vaba ruumi“ viga kaartide värskendamisel _(Alexander Borsuk)_
 
 ### Tõlked
 

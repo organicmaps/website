@@ -36,6 +36,6 @@ S'utilizas un iPhone o un iPad, verifica los paramètres d'iOS → Confidenciali
 
 **Un emplaçament incorrècte es mostrat sus la mapa**
 
-1. Se i a un grand cercle semitransparent a l'entorn de ta flècha de localizacion sus la mapa, aquò significa que ta posicion es determinada amb una precision febla, en utilizant una connexion WiFi o cellulara. Assegura-te qu'as activat la precision de localizacion "Precisa" per Organic Maps dins los paramètres del sistèma, e ensaja d'anar defòra, luènh dels grands bastiments e dels arbres, per melhorar la recepcion del senhal GPS per satellit.
+1. Se i a un grand cercle semitransparent a l'entorn de ta flècha de localizacion sus la mapa, aquò significa que ta posicion es determinada amb una precision febla, en utilizant una connexion WiFi o cellulara. Assegura-te qu'as activat la precision de localizacion «Precisa» per Organic Maps dins los paramètres del sistèma, e ensaja d'anar defòra, luènh dels grands bastiments e dels arbres, per melhorar la recepcion del senhal GPS per satellit.
 
 2. Se ta posicion es determinada d'un biais incorrècte (per exemple, siás dins una vila, mas l'aplicacion mòstra una autra vila), siás fòrça probablament dins una zòna afectada per un fals senhal GPS (usurpacion GPS) a causa de mesuras de guèrra electronica (EW). Dins tals cases, la sola solucion es de se desplaçar cap a un autre emplaçament.

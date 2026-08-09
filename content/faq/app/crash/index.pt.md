@@ -25,4 +25,4 @@ Ou alternativamente:
 1. Ativa a gravação de registos nas definições da aplicação.
 2. Força o reinício da aplicação.
 3. Reproduz a falha.
-4. Envia-nos o ficheiro de registo via "Reportar um erro" no ecrã Sobre e adiciona uma breve descrição da falha.
+4. Envia-nos o ficheiro de registo via «Reportar um erro» no ecrã Sobre e adiciona uma breve descrição da falha.

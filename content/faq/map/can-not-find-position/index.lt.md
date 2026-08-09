@@ -37,6 +37,6 @@ Jei esate iPhone arba iPad naudotojas, patikrinkite iOS nustatymus → Privatuma
 
 **Žemėlapyje rodoma neteisinga vieta**
 
-1. Jei aplink jūsų vietos rodyklę žemėlapyje yra didelis pusiau permatomas apskritimas, tai reiškia, kad jūsų padėtis nustatoma mažai tiksliai, naudojant WiFi arba korinį ryšį. Įsitikinkite, kad sistemos nustatymuose įjungėte "Tikslų" vietos tikslumą Organic Maps, ir pabandykite išeiti į lauką, toliau nuo aukštų pastatų ir medžių, kad pagerintumėte palydovinio GPS signalo priėmimą.
+1. Jei aplink jūsų vietos rodyklę žemėlapyje yra didelis pusiau permatomas apskritimas, tai reiškia, kad jūsų padėtis nustatoma mažai tiksliai, naudojant WiFi arba korinį ryšį. Įsitikinkite, kad sistemos nustatymuose įjungėte „Tikslų“ vietos tikslumą Organic Maps, ir pabandykite išeiti į lauką, toliau nuo aukštų pastatų ir medžių, kad pagerintumėte palydovinio GPS signalo priėmimą.
 
 2. Jei jūsų padėtis nustatoma neteisingai (pavyzdžiui, esate viename mieste, bet programėlė rodo kitą miestą), greičiausiai esate zonoje, kurią veikia klaidingas GPS signalas (GPS klastojimas) dėl elektroninės kovos (EW) priemonių. Tokiais atvejais vienintelis sprendimas yra persikelti į kitą vietą.

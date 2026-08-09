@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Zainstaluj sierpniową wersję Organic Maps, pobierz najnowsze mapy i odkryj popularne szlaki piesze i rowerowe na całym świecie! Naciśnij przycisk "Warstwy" w lewym górnym rogu, aby zobaczyć kolorowe trasy rowerowe i MTB, a także oficjalne szlaki piesze i spacerowe. Nie widzisz niczego w pobliżu? To czas, aby dodać brakujące informacje do OpenStreetMap.org, ponieważ wszystkie dane mapowe w Organic Maps pochodzą z tego otwartego, bezpłatnego i tworzonego przez społeczność projektu.
+Zainstaluj sierpniową wersję Organic Maps, pobierz najnowsze mapy i odkryj popularne szlaki piesze i rowerowe na całym świecie! Naciśnij przycisk „Warstwy“ w lewym górnym rogu, aby zobaczyć kolorowe trasy rowerowe i MTB, a także oficjalne szlaki piesze i spacerowe. Nie widzisz niczego w pobliżu? To czas, aby dodać brakujące informacje do OpenStreetMap.org, ponieważ wszystkie dane mapowe w Organic Maps pochodzą z tego otwartego, bezpłatnego i tworzonego przez społeczność projektu.
 
 Czy wiesz, że każdy nagrany lub zaimportowany ślad GPX/KML na mapie może być wybrany? Ślady z danymi wysokości wyświetlą swój wykres wysokości.
 
@@ -52,7 +52,7 @@ P.S. …i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 
 #### Różne ulepszenia
 
-- Wpisanie "cop" w wyszukiwarce znajduje posterunki policji, podczas gdy "film" lub "movie theater" lokalizuje kina (theadventurer62)
+- Wpisanie „cop“ w wyszukiwarce znajduje posterunki policji, podczas gdy „film“ lub „movie theater“ lokalizuje kina (theadventurer62)
 - Otwieranie w innej aplikacji teraz wyświetla wybrany punkt w Mapach Google (Alexander Borsuk)
 - Hiszpańskie tłumaczenie dla większej liczby kategorii wyszukiwania (David Martinez)
 - Zaktualizowano różne tłumaczenia (współtwórcy Weblate)

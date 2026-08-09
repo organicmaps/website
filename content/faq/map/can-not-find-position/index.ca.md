@@ -18,7 +18,7 @@ Assegureu-vos que el vostre dispositiu tingui GPS, que els serveis d'ubicació e
 
 Al dispositiu, obriu Configuració → Ubicació. És millor activar el mode d'alta precisió, ja que permet una ubicació GPS precisa.
 
-Si el vostre dispositiu Android no pot determinar la vostra ubicació, activeu (o desactiveu, si està activat) l'opció "Google Play Services" a la configuració de l'aplicació.
+Si el vostre dispositiu Android no pot determinar la vostra ubicació, activeu (o desactiveu, si està activat) l'opció «Google Play Services» a la configuració de l'aplicació.
 
 Nota: només el podeu veure si teniu els serveis de Google Play instal·lats (activats) al vostre dispositiu Android. Els serveis de Google Play s'utilitzen per determinar la ubicació amb més precisió; si teniu problemes amb la precisió de la ubicació després d'haver desactivat l'opció, activeu-la.
 
@@ -37,6 +37,6 @@ Si sou un usuari d'iPhone o iPad, comproveu la configuració d'iOS → Privadesa
 
 **Es mostra una ubicació incorrecta al mapa**
 
-1. Si hi ha un gran cercle semitransparent al voltant de la fletxa de la vostra ubicació al mapa, significa que la vostra posició es determina amb poca precisió, utilitzant WiFi o connexió mòbil. Assegureu-vos que heu activat la precisió de la ubicació "Precisa" per a Organic Maps a la configuració del sistema i proveu de sortir a l'exterior, lluny d'edificis alts i arbres, per millorar la recepció del senyal GPS per satèl·lit.
+1. Si hi ha un gran cercle semitransparent al voltant de la fletxa de la vostra ubicació al mapa, significa que la vostra posició es determina amb poca precisió, utilitzant WiFi o connexió mòbil. Assegureu-vos que heu activat la precisió de la ubicació «Precisa» per a Organic Maps a la configuració del sistema i proveu de sortir a l'exterior, lluny d'edificis alts i arbres, per millorar la recepció del senyal GPS per satèl·lit.
 
 2. Si la vostra posició es determina incorrectament (per exemple, sou a una ciutat, però l'aplicació mostra una altra ciutat), és molt probable que us trobeu en una zona afectada per un senyal GPS fals (suplantació de GPS) a causa de mesures de guerra electrònica (EW). En aquests casos, l'única solució és moure's a una altra ubicació.

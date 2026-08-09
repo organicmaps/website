@@ -13,6 +13,6 @@ aliases:
   - /af/faq/bookmarks/how-to-export/
 ---
 
-Tik 'n boekmerk op die kaart of in die lys, en tik dan die "Deel"-knoppie op die plekbladsy.
+Tik 'n boekmerk op die kaart of in die lys, en tik dan die “Deel”-knoppie op die plekbladsy.
 
-Om alle boekmerke en snitte in 'n lys vanaf die Boekmerke en snitte-bladsy te deel, tik die ikoon met drie kolletjies regs van die naam van die lys en kies "Voer KMZ uit" of "Voer GPX uit".
+Om alle boekmerke en snitte in 'n lys vanaf die Boekmerke en snitte-bladsy te deel, tik die ikoon met drie kolletjies regs van die naam van die lys en kies “Voer KMZ uit” of “Voer GPX uit”.

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instal·la la versió d'agost d'Organic Maps, descarrega els mapes més recents i descobreix rutes populars de senderisme i ciclisme a tot el món! Prem el botó "Capes" a la part superior esquerra per veure rutes de bicicleta i BTT acolorides, així com senders oficials per caminar i passejar. No veus res a prop? Llavors és moment d'afegir la informació que falta a OpenStreetMap.org, ja que totes les dades de mapes a Organic Maps provenen d'aquest projecte obert, gratuït i impulsat per la comunitat.
+Instal·la la versió d'agost d'Organic Maps, descarrega els mapes més recents i descobreix rutes populars de senderisme i ciclisme a tot el món! Prem el botó «Capes» a la part superior esquerra per veure rutes de bicicleta i BTT acolorides, així com senders oficials per caminar i passejar. No veus res a prop? Llavors és moment d'afegir la informació que falta a OpenStreetMap.org, ja que totes les dades de mapes a Organic Maps provenen d'aquest projecte obert, gratuït i impulsat per la comunitat.
 
 Sabies que qualsevol track gravat o importat GPX/KML al mapa pot ser seleccionat? Els tracks amb dades d'altitud mostraran el seu gràfic d'elevació.
 
@@ -52,7 +52,7 @@ P.D. …i molt més està per venir! El vostre suport ens ajuda i ens motiva per
 
 #### Millores diverses
 
-- Escrivint "cop" a la cerca troba comissaries de policia, mentre que "film" o "movie theater" localitza cinemes (theadventurer62)
+- Escrivint «cop» a la cerca troba comissaries de policia, mentre que «film» o «movie theater» localitza cinemes (theadventurer62)
 - Obrir en una altra aplicació ara mostra el punt seleccionat a Google Maps (Alexander Borsuk)
 - Traducció a l'espanyol per a més categories de cerca (David Martinez)
 - S'han actualitzat diverses traduccions (col·laboradors de Weblate)

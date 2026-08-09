@@ -46,7 +46,7 @@ Consigue la actualización en <https://get.omaps.org> o en [App Store][appstore]
 - ¡NUEVO! Ahora se admiten descripciones de texto y HTML para los tracks, del mismo modo que las descripciones de los marcadores. Pulsa el icono del lápiz para añadir una descripción. _(Mikhail Listratsenka)_
 - ¡NUEVO! Elige cualquier color para los tracks, no solo un subconjunto limitado _(Mikhail Listratsenka)_
 - Los usuarios coreanos, chinos y japoneses verán ahora las fuentes adecuadas según la configuración regional del dispositivo _(Alexander Borsuk)_
-- Arreglados los problemas con la página de ubicación de los tracks y el botón "Abrir en" _(Mikhail Listratsenka)_
+- Arreglados los problemas con la página de ubicación de los tracks y el botón «Abrir en» _(Mikhail Listratsenka)_
 
 ### Linux y macOS
 

@@ -6,11 +6,11 @@ title: "Organic Maps: Nutzungsbedingungen"
 weight: 1000
 ---
 
-Diese App ist unter der Apache License, Version 2.0 (die "Lizenz") lizenziert; du darfst diese Anwendung nur in Übereinstimmung mit der Lizenz verwenden.
+Diese App ist unter der Apache License, Version 2.0 (die „Lizenz“) lizenziert; du darfst diese Anwendung nur in Übereinstimmung mit der Lizenz verwenden.
 
 Du kannst eine Kopie der Lizenz unter [http://www.apache.org/licenses/LICENSE-2.0][license] erhalten.
 
-Sofern nicht durch geltendes Recht vorgeschrieben oder schriftlich vereinbart, wird Software, die unter dieser Lizenz vertrieben wird, auf einer "Ist-Zustand"-BASIS, OHNE GARANTIEN ODER BEDINGUNGEN JEGLICHER ART, weder explizit noch implizit, angeboten. Nähere Informationen, die genaue Formulierung, Berechtigungen und Einschränkungen findest du in der Lizenz.
+Sofern nicht durch geltendes Recht vorgeschrieben oder schriftlich vereinbart, wird Software, die unter dieser Lizenz vertrieben wird, auf einer „Ist-Zustand“-BASIS, OHNE GARANTIEN ODER BEDINGUNGEN JEGLICHER ART, weder explizit noch implizit, angeboten. Nähere Informationen, die genaue Formulierung, Berechtigungen und Einschränkungen findest du in der Lizenz.
 
 Die meisten Bibliotheken in den folgenden Verzeichnissen auf [GitHub][github] stammen von anderen Personen und Organisationen und sind auf unterschiedliche Weise lizenziert:
 

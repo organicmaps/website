@@ -19,7 +19,7 @@ Norėdami importuoti vieną failą:
 
 1. Raskite bendrinamą KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis, išsiųstomis el. paštu, momentinių pranešimų programa arba debesies saugykla, pvz., „iCloud“ arba „Google“ diske.
 
-2. Bakstelėkite vieną kartą arba bakstelėkite ir palaikykite KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis ir iššokančiajame lange pasirinkite Atidaryti naudojant Organic Maps (Android) arba "Importuoti naudojant Organic Maps" (iOS).
+2. Bakstelėkite vieną kartą arba bakstelėkite ir palaikykite KML, KMZ, KMB, GPX, GeoJSON (JSON) failą su žymėmis ir iššokančiajame lange pasirinkite Atidaryti naudojant Organic Maps (Android) arba „Importuoti naudojant Organic Maps“ (iOS).
 
 3. Jis bus atidarytas naudojant Organic Maps ir pamatysite „Žymės įkeltos sėkmingai!“. Juos galite rasti žemėlapyje arba žymių meniu ekrane.
 

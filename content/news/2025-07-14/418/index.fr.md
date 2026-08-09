@@ -30,7 +30,7 @@ Android :
 - Correction de la mise en page incorrecte de l'interface utilisateur sur certains appareils (_Sergiy Kozyr_)
 - Afficher la connexion et le mot de passe OSM si la connexion du navigateur échoue/n'est pas disponible (_Sergiy Kozyr_)
 - Correction du saut de réticule lors de l'ajout d'objets à OpenStreetMap (_@hemanggs_)
-- Correction du bouton "Réessayer le téléchargement échoué" (_Kavi Khalique_)
+- Correction du bouton «Réessayer le téléchargement échoué» (_Kavi Khalique_)
 - Correction de l'écran de démarrage qui se superpose aux boutons système (_Vraj Shah_)
 - Correction de certains plantages (_Devarsh Vasani_)
 - Correction de l'erreur EACCESS PermissionDenied lors de l'importation de KML ou GPX sur Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Changements iOS, tous les mérites à _Kiryl Kaveryn_ :
 - Maintenant tu peux éditer ou supprimer la piste enregistrée immédiatement après l'avoir sauvegardée
 - Zone de toucher élargie pour les boutons
 - Correction des notes OSM qui sautaient lors de la saisie de texte
-- Afficher le bouton "Ajouter un Lieu" pour les entreprises
+- Afficher le bouton «Ajouter un Lieu» pour les entreprises
 
 P.S. Si tu aimes lire des notes de version détaillées, merci de nous le faire savoir sur nos [réseaux sociaux](/fr/#communaute)
 

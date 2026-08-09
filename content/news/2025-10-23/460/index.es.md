@@ -49,7 +49,7 @@ Para aquellos que se lo perdieron, la [actualización anterior del 7 de octubre]
 
 ## Linux/Mac OS
 
-- Los detalles de POI ahora muestran el formato "nombre | ref" (Viktor Govako)
+- Los detalles de POI ahora muestran el formato «nombre | ref» (Viktor Govako)
 - el modo oscuro se sincroniza automáticamente con la configuración del sistema (DeepChirp)
 
 ## Notas al pie

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instal rilis Agustus Organic Maps, unduh peta terbaru, dan temukan rute hiking dan bersepeda populer di seluruh dunia! Tekan tombol "Lapisan" di kiri atas untuk melihat rute sepeda dan MTB berwarna, serta jalur hiking dan jalan kaki resmi. Tidak melihat apa pun di dekat kamu? Maka saatnya menambahkan informasi yang hilang ke OpenStreetMap.org, karena semua data peta di Organic Maps berasal dari proyek terbuka, gratis, dan berbasis komunitas tersebut.
+Instal rilis Agustus Organic Maps, unduh peta terbaru, dan temukan rute hiking dan bersepeda populer di seluruh dunia! Tekan tombol “Lapisan” di kiri atas untuk melihat rute sepeda dan MTB berwarna, serta jalur hiking dan jalan kaki resmi. Tidak melihat apa pun di dekat kamu? Maka saatnya menambahkan informasi yang hilang ke OpenStreetMap.org, karena semua data peta di Organic Maps berasal dari proyek terbuka, gratis, dan berbasis komunitas tersebut.
 
 Tahukah kamu bahwa trek GPX/KML yang direkam atau diimpor di peta dapat dipilih? Trek dengan data ketinggian akan menampilkan grafik elevasinya.
 
@@ -52,7 +52,7 @@ P.S. …dan masih banyak lagi yang akan datang! Dukungan kamu membantu dan memot
 
 #### Peningkatan Lainnya
 
-- Mengetik "cop" di pencarian menemukan kantor polisi, sementara "film" atau "movie theater" menemukan bioskop (theadventurer62)
+- Mengetik “cop” di pencarian menemukan kantor polisi, sementara “film” atau “movie theater” menemukan bioskop (theadventurer62)
 - Buka di aplikasi lain sekarang menampilkan titik yang dipilih di Google Maps (Alexander Borsuk)
 - Terjemahan Spanyol untuk lebih banyak kategori pencarian (David Martinez)
 - Berbagai terjemahan diperbarui (Kontributor Weblate)

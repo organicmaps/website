@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Setelah menghapus daftar markah atau daftar trek (melalui tombol "Lainnya"), aplikasi sekarang kembali ke layar sebelumnya dengan benar (Kiryl Kaveryn)
-- Menambahkan tautan media sosial [TikTok][tiktok], [Threads][threads], dan [Bluesky][bluesky] ke layar "Tentang" (Kiryl Kaveryn)
-- Menambahkan "Laporkan bug" ke tindakan cepat ikon aplikasi di layar beranda (Kiryl Kaveryn)
+- Setelah menghapus daftar markah atau daftar trek (melalui tombol “Lainnya”), aplikasi sekarang kembali ke layar sebelumnya dengan benar (Kiryl Kaveryn)
+- Menambahkan tautan media sosial [TikTok][tiktok], [Threads][threads], dan [Bluesky][bluesky] ke layar “Tentang” (Kiryl Kaveryn)
+- Menambahkan “Laporkan bug” ke tindakan cepat ikon aplikasi di layar beranda (Kiryl Kaveryn)
 - Memperbaiki berbagai kerusakan aplikasi dan CarPlay (Kiryl Kaveryn)
 
 ### Android

@@ -62,6 +62,6 @@ Os wyt ti'n cael trafferth cychwyn yr injan RHVoice TTS ar LineageOS neu ROMs ar
 
 ## Profi
 
-Er mwyn profi'r cyfarwyddiadau llais, gelli di tapio ar "Test Voice Directions (TTS, Text-To-Speech)" yn newislen OM "Settings → Voice Instructions" neu gelli di ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Organic Maps yn rhoi unrhyw gyfarwyddiadau llais i ti tra byddi'n sefyll yn llonydd.
+Er mwyn profi'r cyfarwyddiadau llais, gelli di tapio ar ‘Test Voice Directions (TTS, Text-To-Speech)’ yn newislen OM ‘Settings → Voice Instructions’ neu gelli di ddechrau llywio i dderbyn unrhyw allbwn llais. Ni fydd Organic Maps yn rhoi unrhyw gyfarwyddiadau llais i ti tra byddi'n sefyll yn llonydd.
 
 ![TTS Prawf](tts_test.png "Prawf TTS")

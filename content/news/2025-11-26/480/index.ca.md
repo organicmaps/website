@@ -17,15 +17,15 @@ Divendres! És hora d'instal·lar la nova actualització d'Organic Maps des de <
 ### iOS
 
 - NOU! Podeu editar el nom d'un marcador o traça directament a la pàgina d'informació del lloc tocant el nom. _(Kiryl Kaveryn)_
-- S'ha afegit suport per a iOS 26 i macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- S'ha afegit suport per a iOS 26 i macOS 26 «Liquid Glass». _(Kiryl Kaveryn)_
 - Mantingueu premut el nom o l'adreça d'un lloc o marcador seleccionat per copiar-lo al porta-retalls. _(Kiryl Kaveryn)_
 - Toqueu el nom de la llista a la pàgina d'informació del lloc per seleccionar una nova llista per a un marcador o traça, i utilitzeu la nova cerca per trobar ràpidament la llista que voleu. _(Kiryl Kaveryn)_
 - S'ha corregit el disseny del mapa durant la navegació a l'iPad perquè la ruta es mantingui clarament visible. _(Kiryl Kaveryn)_
-- S'han corregit les animacions dels botons laterals i el color del botó "Descarregar Mapes" en el tema fosc. _(Kiryl Kaveryn)_
+- S'han corregit les animacions dels botons laterals i el color del botó «Descarregar Mapes» en el tema fosc. _(Kiryl Kaveryn)_
 
 ### Android
 
-- S'han afegit barres de desplaçament a la pantalla de cerca i a la pantalla de "Marcadors i Traces". _(shantanu1k)_
+- S'han afegit barres de desplaçament a la pantalla de cerca i a la pantalla de «Marcadors i Traces». _(shantanu1k)_
 - S'ha millorat la gestió de la reproducció d'àudio i les interrupcions. _(Andrei Shkrob)_
 - S'han corregit els errors a la pantalla del perfil de l'editor. _(Alexander Borsuk)_
 - S'han corregit els errors durant les descàrregues de mapes. _(Viktor Govako)_

@@ -13,11 +13,11 @@ aliases:
 
 Para instalar OM en Linux con flatpak, abre la terminal e ingresa `flatpak install flathub app.organicmaps.desktop`
 
-Una vez instalada la aplicación, puedes usar la rueda de desplazamiento del mouse o los controles en la barra de menú derecha para acercar el área en la que deseas navegar y descargar mapas para esa área. También puedes hacer clic en el icono "descargar" en la parte inferior derecha. Una vez que hayas descargado mapas de las regiones que te interesan, la aplicación debería funcionar incluso sin conexión a Internet. 
+Una vez instalada la aplicación, puedes usar la rueda de desplazamiento del mouse o los controles en la barra de menú derecha para acercar el área en la que deseas navegar y descargar mapas para esa área. También puedes hacer clic en el icono «descargar» en la parte inferior derecha. Una vez que hayas descargado mapas de las regiones que te interesan, la aplicación debería funcionar incluso sin conexión a Internet. 
 
 Puedes pasar el mouse sobre los distintos íconos para ver texto de ayuda. 
 
-Para realizar rutas y navegación paso a paso, tienes un par de opciones. Si conoces las coordenadas GPS de tus puntos inicial y final, puedes hacer clic en el ícono de configuración (arriba de la marca de verificación verde) e ingresar las coordenadas de tu punto inicial y destino. Para establecer el punto de inicio en el mapa, haz clic en el icono de navegación y selecciona "punto de inicio", luego mantén presionada la tecla Mayús y haz clic izquierdo en el mapa. Para establecer el destino, cambia a "punto final" y haz clic en una ubicación en el mapa.
+Para realizar rutas y navegación paso a paso, tienes un par de opciones. Si conoces las coordenadas GPS de tus puntos inicial y final, puedes hacer clic en el ícono de configuración (arriba de la marca de verificación verde) e ingresar las coordenadas de tu punto inicial y destino. Para establecer el punto de inicio en el mapa, haz clic en el icono de navegación y selecciona «punto de inicio», luego mantén presionada la tecla Mayús y haz clic izquierdo en el mapa. Para establecer el destino, cambia a «punto final» y haz clic en una ubicación en el mapa.
 
 ![Configuración del punto de inicio y punto final](nav_points.png)
 

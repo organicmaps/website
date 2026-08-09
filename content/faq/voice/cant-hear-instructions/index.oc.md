@@ -16,7 +16,7 @@ aliases:
 
 Se ausisses pas las instruccions vocalas:
 
-* Verifica que lo volum de ton aparelh siá pas mutat. Pòdes cambiar lo nivèl de volum amb los botons de volum de ton aparelh. Per o far, benlèu caldrà desactivar l'opcion "Cambiar amb los botons" (s'es activada) dins los paramètres de l'aparelh → Sons.
+* Verifica que lo volum de ton aparelh siá pas mutat. Pòdes cambiar lo nivèl de volum amb los botons de volum de ton aparelh. Per o far, benlèu caldrà desactivar l'opcion «Cambiar amb los botons» (s'es activada) dins los paramètres de l'aparelh → Sons.
 
 * Mercé de senhalar tot problèma Bluetooth amb los detalhs necessaris sus nòstre [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat "Kihid" nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.
+Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat „Kihid“ nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.
 
 Kas teadsid, et mistahes salvestatud või imporditud GPX/KML-rada kaardil saab valida? Kõrgusandmetega rajad näitavad oma kõrgusgraafikut.
 
@@ -52,7 +52,7 @@ P.S. …ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama
 
 #### Mitmesugused täiustused
 
-- "cop" sisestamine otsingus leiab politseijaoskonnad, samas kui "film" või "movie theater" leiab kinod (theadventurer62)
+- „cop“ sisestamine otsingus leiab politseijaoskonnad, samas kui „film“ või „movie theater“ leiab kinod (theadventurer62)
 - Ava teises rakenduses näitab nüüd valitud punkti Google Maps-is (Alexander Borsuk)
 - Hispaaniakeelne tõlge rohkematele otsingukategooriatele (David Martinez)
 - Värskendatud erinevaid tõlkeid (Weblate kaastöötajad)

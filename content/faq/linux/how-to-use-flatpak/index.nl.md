@@ -13,11 +13,11 @@ aliases:
 
 Om OM op Linux met flatpak te installeren, open je de terminal en voer je `flatpak install flathub app.organicmaps.desktop` in
 
-Zodra de app is geïnstalleerd, kun je het scrollwiel van je muis of de bedieningselementen in de rechtermenubalk gebruiken om in te zoomen op het gebied waarin je wilt navigeren en zo kaarten voor dat gebied te downloaden. Je kunt ook rechtsonder op het pictogram "downloaden" klikken. Nadat je kaarten hebt gedownload voor de regio's die je interesseren, zou de app zelfs zonder internetverbinding moeten werken. 
+Zodra de app is geïnstalleerd, kun je het scrollwiel van je muis of de bedieningselementen in de rechtermenubalk gebruiken om in te zoomen op het gebied waarin je wilt navigeren en zo kaarten voor dat gebied te downloaden. Je kunt ook rechtsonder op het pictogram “downloaden” klikken. Nadat je kaarten hebt gedownload voor de regio's die je interesseren, zou de app zelfs zonder internetverbinding moeten werken. 
 
 Je kunt met je muis over de verschillende pictogrammen bewegen om wat hulptekst te zien. 
 
-Om routes uit te voeren en stapsgewijze navigatie uit te voeren, heb je een aantal opties. Als je de GPS-coördinaten van je start- en eindpunt kent, kun je op het instellingenpictogram (boven het groene vinkje) klikken en de coördinaten van je startpunt en bestemming invoeren. Om het startpunt op de kaart in te stellen, klik je op het navigatiepictogram en selecteer je 'startpunt'. Houd vervolgens de Shift-toets ingedrukt en klik met de linkermuisknop op de kaart. Om de bestemming in te stellen, wijzig je naar "eindpunt" en klik je op een locatie op de kaart.
+Om routes uit te voeren en stapsgewijze navigatie uit te voeren, heb je een aantal opties. Als je de GPS-coördinaten van je start- en eindpunt kent, kun je op het instellingenpictogram (boven het groene vinkje) klikken en de coördinaten van je startpunt en bestemming invoeren. Om het startpunt op de kaart in te stellen, klik je op het navigatiepictogram en selecteer je 'startpunt'. Houd vervolgens de Shift-toets ingedrukt en klik met de linkermuisknop op de kaart. Om de bestemming in te stellen, wijzig je naar “eindpunt” en klik je op een locatie op de kaart.
 
 ![Beginpunt en eindpunt instellen](nav_points.png)
 

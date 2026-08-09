@@ -17,7 +17,7 @@ Asegúrate de que tu dispositivo tenga configurados el GPS y la ubicación.
 
 En tu dispositivo, abre Configuración → Ubicación. Es mejor activar el modo de alta precisión.
 
-Si tienes dificultades para determinar tu ubicación con GPS, habilita (deshabilita, si está habilitado) "Servicios de Google Play" en la configuración de la aplicación.
+Si tienes dificultades para determinar tu ubicación con GPS, habilita (deshabilita, si está habilitado) «Servicios de Google Play» en la configuración de la aplicación.
 
 Nota: puedes verlo solo si tienes los servicios de Google Play instalados (habilitados) en tu dispositivo Android. Los servicios de Google play se usan para determinar la ubicación de manera más precisa; si tienes problemas con la precisión de la ubicación después de deshabilitar la opción, actívala.
 
@@ -36,6 +36,6 @@ Si eres un usuario de iPhone o iPad, verifica la configuración de iOS → Priva
 
 **Se muestra una ubicación incorrecta en el mapa**
 
-1. Si hay un gran círculo semitransparente alrededor de la flecha de tu ubicación en el mapa, significa que tu posición se determina con baja precisión, utilizando conexión WiFi o celular. Asegúrate de haber habilitado la precisión de ubicación "Precisa" para Organic Maps en la configuración del sistema e intenta salir al exterior, lejos de edificios altos y árboles, para mejorar la recepción de la señal GPS satelital.
+1. Si hay un gran círculo semitransparente alrededor de la flecha de tu ubicación en el mapa, significa que tu posición se determina con baja precisión, utilizando conexión WiFi o celular. Asegúrate de haber habilitado la precisión de ubicación «Precisa» para Organic Maps en la configuración del sistema e intenta salir al exterior, lejos de edificios altos y árboles, para mejorar la recepción de la señal GPS satelital.
 
 2. Si tu posición se determina incorrectamente (por ejemplo, estás en una ciudad, pero la aplicación muestra otra ciudad), lo más probable es que te encuentres en un área afectada por una señal GPS falsa (suplantación de GPS) debido a medidas de guerra electrónica (EW). En tales casos, la única solución es moverse a otra ubicación.

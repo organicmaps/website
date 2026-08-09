@@ -62,6 +62,6 @@ Se você estiver tendo problemas para inicializar o mecanismo RHVoice TTS no Lin
 
 ## Teste
 
-Para testar as instruções de voz, você pode tocar em "Testar instruções de voz (TTS, Text-To-Speech)" no menu OM "Configurações → Instruções de voz" ou pode realmente iniciar uma navegação para receber qualquer saída de voz. O Organic Maps não fornecerá instruções de voz enquanto você estiver parado.
+Para testar as instruções de voz, você pode tocar em “Testar instruções de voz (TTS, Text-To-Speech)” no menu OM “Configurações → Instruções de voz” ou pode realmente iniciar uma navegação para receber qualquer saída de voz. O Organic Maps não fornecerá instruções de voz enquanto você estiver parado.
 
 ![Teste TTS](tts_test.png "Teste TTS")

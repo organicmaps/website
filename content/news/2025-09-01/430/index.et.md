@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nüüd, kui valid bussi- või trammipeatuse, saad näha ühistranspordi marsruudinumbreid. See on ainult esimene samm! Järgmisena kavatseme näidata ühistranspordi marsruute otse kaardil. iOS kasutajad saavad samuti nautida ümber kujundatud OpenStreetMap panustamise nuppe ("Lisa koht" ja "Redigeeri kohta").
+Nüüd, kui valid bussi- või trammipeatuse, saad näha ühistranspordi marsruudinumbreid. See on ainult esimene samm! Järgmisena kavatseme näidata ühistranspordi marsruute otse kaardil. iOS kasutajad saavad samuti nautida ümber kujundatud OpenStreetMap panustamise nuppe („Lisa koht“ ja „Redigeeri kohta“).
 
 Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/index.et.md) ja [sinu toe](@/contribute/index.et.md) eest.
 
@@ -28,14 +28,14 @@ Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/inde
 
 #### iOS
 
-- UUS! Ümber kujundatud "Lisa koht OpenStreetMap-i" ja "Redigeeri kohta" nupud (Kiryl Kaveryn)
+- UUS! Ümber kujundatud „Lisa koht OpenStreetMap-i“ ja „Redigeeri kohta“ nupud (Kiryl Kaveryn)
 - Parandatud hüppav ristjoon uue koha OpenStreetMap-i lisamisel (Kiryl Kaveryn)
 - Uued ikoonid kaardi kihtide ja menüü jaoks (Kiryl Kaveryn, @euf)
 - Eemaldatud üleliigsed kõrguse värskendused raja salvestamise ajal (Kiryl Kaveryn)
 - Mitmerealised pealkirjad on nüüd toetatud järjehoidjate nimekirja valijas (David Martinez) ja koha teabe lehel (Kiryl Kaveryn)
 - Raja salvestamise alustamine/peatamine ja punkti värskendused on nüüd usaldusväärsemad (Kiryl Kaveryn)
 - Kõik puudutavad ikoonid koha üksikasjaleheküljel kasutavad nüüd ühtset sinist värvi (Kiryl Kaveryn)
-- "Värskenda kaarte panustamiseks" nupp kuvatakse nüüd menüüs, kui kaardid on liiga aegunud (Kiryl Kaveryn)
+- „Värskenda kaarte panustamiseks“ nupp kuvatakse nüüd menüüs, kui kaardid on liiga aegunud (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Oleme tänulikud ❤️ oma panustajatele, samuti [sinu annetuste](@/donate/inde
 - Parandatud krahh teatud marsruutide salvestamisel ja harv krahh käivitamisel (Viktor Govako)
 - Sõidurea juhendamine on parandatud mõnedes navigeerimise juhtudel (Andrei Shkrob)
 - Taastatud eelmääratletud järjehoidja/raja värvide algne järjekord (Andrei Shkrob)
-- Parandatud "Tühista otsing" nupp köökide redigeerimisel (Ansh Jain)
+- Parandatud „Tühista otsing“ nupp köökide redigeerimisel (Ansh Jain)
 
 Hangi Organic Maps-i uusim septembri versioon [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid] kaudu.
 

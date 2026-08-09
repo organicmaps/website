@@ -19,7 +19,7 @@ Võid kasutada ühte järgmistest viisidest.
 * puuduta järjehoidjate nuppu
 * puuduta mis tahes kohta kaardil
 
-Kui oled sihtpunkti valinud, vajuta allosas nuppu "Marsruut". Marsruut luuakse ja näed vahemaad ja hinnangulist reisiaega. Saad muuta marsruudi tüüpi, vajutades ekraani ülaosas ikooni auto, jalakäija, metroo, jalgratas või joonlaud. Marsruudi jälgimise alustamiseks puuduta nuppu "Alusta". Vajuta noolemärki ekraani paremas alanurgas ja puuduta marsruudi lõpetamiseks Stopp.
+Kui oled sihtpunkti valinud, vajuta allosas nuppu „Marsruut“. Marsruut luuakse ja näed vahemaad ja hinnangulist reisiaega. Saad muuta marsruudi tüüpi, vajutades ekraani ülaosas ikooni auto, jalakäija, metroo, jalgratas või joonlaud. Marsruudi jälgimise alustamiseks puuduta nuppu „Alusta“. Vajuta noolemärki ekraani paremas alanurgas ja puuduta marsruudi lõpetamiseks Stopp.
 
 Marsruudi eelvaate kuvamiseks saad valida erineva alguspunkti (nupp „Marsruut asukohast“, kuid navigeerimine on saadaval ainult sinu praegusest asukohast).
 

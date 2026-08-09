@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Egy könyvjelzőlista vagy útvonallista törlése után (a "Több" gombbal) az alkalmazás most már helyesen visszatér az előző képernyőre (Kiryl Kaveryn)
-- Hozzáadva a [TikTok][tiktok], [Threads][threads] és [Bluesky][bluesky] közösségi média linkek a "Névjegy" képernyőhöz (Kiryl Kaveryn)
-- Hozzáadva a "Hiba bejelentése" az alkalmazás ikonjának gyorsműveleteihez a kezdőképernyőn (Kiryl Kaveryn)
+- Egy könyvjelzőlista vagy útvonallista törlése után (a „Több“ gombbal) az alkalmazás most már helyesen visszatér az előző képernyőre (Kiryl Kaveryn)
+- Hozzáadva a [TikTok][tiktok], [Threads][threads] és [Bluesky][bluesky] közösségi média linkek a „Névjegy“ képernyőhöz (Kiryl Kaveryn)
+- Hozzáadva a „Hiba bejelentése“ az alkalmazás ikonjának gyorsműveleteihez a kezdőképernyőn (Kiryl Kaveryn)
 - Különböző alkalmazás- és CarPlay-összeomlások javítása (Kiryl Kaveryn)
 
 ### Android

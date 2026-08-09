@@ -25,6 +25,6 @@ Chcete-li importovat jeden soubor:
 
 Import záložek a skladeb v dávce je také možný:
 
-1. Otevřete Organic Maps a klepnutím na tlačítko hvězdička otevřete seznam záložek a tras. Stiskněte tlačítko "Importovat záložky a stopy".
+1. Otevřete Organic Maps a klepnutím na tlačítko hvězdička otevřete seznam záložek a tras. Stiskněte tlačítko „Importovat záložky a stopy“.
 
 2. Vyberte složku se soubory KML, KMZ, KMB, GPX, GeoJSON (JSON). Organic Maps jej naskenuje včetně podsložek a importuje všechny podporované soubory se záložkami a trasami. Můžete si vybrat kořenovou složku pro prohledávání celého úložiště.

@@ -62,6 +62,6 @@ Om du har problem med att initiera RHVoice TTS-motorn på LineageOS eller andra 
 
 ## Testning
 
-För att testa röstinstruktionerna kan du trycka på "Testa röstanvisningar (TTS, text-till-tal)" i OM-menyn "Inställningar → Röstinstruktioner" eller så kan du faktiskt starta en navigering för att ta emot röstutdata. Organic Maps ger dig inga röstinstruktioner medan du står still.
+För att testa röstinstruktionerna kan du trycka på “Testa röstanvisningar (TTS, text-till-tal)” i OM-menyn “Inställningar → Röstinstruktioner” eller så kan du faktiskt starta en navigering för att ta emot röstutdata. Organic Maps ger dig inga röstinstruktioner medan du står still.
 
 ![TTS-test](tts_test.png "TTS-test")

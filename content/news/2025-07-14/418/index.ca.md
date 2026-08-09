@@ -30,7 +30,7 @@ Android:
 - Corregida la disposició incorrecta de la interfície d'usuari en alguns dispositius (_Sergiy Kozyr_)
 - Mostrar l'inici de sessió i contrasenya d'OSM si l'inici de sessió del navegador falla/no està disponible (_Sergiy Kozyr_)
 - Corregit el salt de la creu quan s'afegeixen objectes a OpenStreetMap (_@hemanggs_)
-- Corregit el botó "Tornar a intentar descàrrega fallida" (_Kavi Khalique_)
+- Corregit el botó «Tornar a intentar descàrrega fallida» (_Kavi Khalique_)
 - Corregida la pantalla de benvinguda que se superposa amb els botons del sistema (_Vraj Shah_)
 - Corregits alguns bloqueigs (_Devarsh Vasani_)
 - Corregit l'error EACCESS PermissionDenied quan s'importen KML o GPX a Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Canvis d'iOS, tots els mèrits per _Kiryl Kaveryn_:
 - Ara podeu editar o eliminar la ruta enregistrada immediatament després de guardar-la
 - Àrea de toc ampliada per als botons
 - Corregides les notes OSM que saltaven quan s'escriu text
-- Mostrar el botó "Afegir Lloc" per a empreses
+- Mostrar el botó «Afegir Lloc» per a empreses
 
 P.D. Si us agrada llegir notes de llançament detallades, si us plau feu-nos-ho saber a les nostres [xarxes socials](/ca/#comunitat)
 

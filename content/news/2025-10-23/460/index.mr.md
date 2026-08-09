@@ -49,7 +49,7 @@ taxonomies:
 
 ## Linux/Mac OS
 
-- POI तपशील आता "नाव | ref" स्वरूप दाखवतात (Viktor Govako)
+- POI तपशील आता “नाव | ref” स्वरूप दाखवतात (Viktor Govako)
 - गडद मोड आपोआप सिस्टम सेटिंग्जसह समक्रमित होतो (DeepChirp)
 
 ## तळटीप

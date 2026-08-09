@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installeer de augustus release van Organic Maps, download de nieuwste kaarten en ontdek populaire wandel- en fietsroutes over de hele wereld! Druk op de knop "Lagen" linksboven om gekleurde fiets- en MTB-routes te bekijken, evenals officiële wandel- en loopaden. Zie je niets in de buurt? Dan is het tijd om de ontbrekende informatie toe te voegen aan OpenStreetMap.org, omdat alle kaartdata in Organic Maps afkomstig is van dat open, gratis en gemeenschapsgestuurde project.
+Installeer de augustus release van Organic Maps, download de nieuwste kaarten en ontdek populaire wandel- en fietsroutes over de hele wereld! Druk op de knop “Lagen” linksboven om gekleurde fiets- en MTB-routes te bekijken, evenals officiële wandel- en loopaden. Zie je niets in de buurt? Dan is het tijd om de ontbrekende informatie toe te voegen aan OpenStreetMap.org, omdat alle kaartdata in Organic Maps afkomstig is van dat open, gratis en gemeenschapsgestuurde project.
 
 Wist je dat elke opgenomen of geïmporteerde GPX/KML track op de kaart geselecteerd kan worden? Tracks met hoogtedata tonen hun hoogtegrafiek.
 
@@ -52,7 +52,7 @@ P.S. …en er komt nog veel meer! Jouw steun helpt en motiveert ons om samen de 
 
 #### Diverse Verbeteringen
 
-- Het typen van "cop" in de zoekfunctie vindt politiebureaus, terwijl "film" of "movie theater" bioscopen vindt (theadventurer62)
+- Het typen van “cop” in de zoekfunctie vindt politiebureaus, terwijl “film” of “movie theater” bioscopen vindt (theadventurer62)
 - Openen in andere app toont nu het geselecteerde punt in Google Maps (Alexander Borsuk)
 - Spaanse vertaling voor meer zoekcategorieën (David Martinez)
 - Verschillende vertalingen bijgewerkt (Weblate bijdragers)

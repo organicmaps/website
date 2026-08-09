@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Nach dem Löschen einer Lesezeichen- oder Trackliste (über die Schaltfläche "Mehr") kehrt die App nun korrekt zum vorherigen Bildschirm zurück (Kiryl Kaveryn)
-- Social-Media-Links für [TikTok][tiktok], [Threads][threads] und [Bluesky][bluesky] zum "Über"-Bildschirm hinzugefügt (Kiryl Kaveryn)
-- "Fehler melden" zu den Schnellaktionen des App-Symbols auf dem Startbildschirm hinzugefügt (Kiryl Kaveryn)
+- Nach dem Löschen einer Lesezeichen- oder Trackliste (über die Schaltfläche „Mehr“) kehrt die App nun korrekt zum vorherigen Bildschirm zurück (Kiryl Kaveryn)
+- Social-Media-Links für [TikTok][tiktok], [Threads][threads] und [Bluesky][bluesky] zum „Über“-Bildschirm hinzugefügt (Kiryl Kaveryn)
+- „Fehler melden“ zu den Schnellaktionen des App-Symbols auf dem Startbildschirm hinzugefügt (Kiryl Kaveryn)
 - Verschiedene App- und CarPlay-Abstürze wurden behoben (Kiryl Kaveryn)
 
 ### Android

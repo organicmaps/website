@@ -18,7 +18,7 @@ aliases:
 
 Wenn du keine Sprachanweisungen hören kannst:
 
-* Stelle bitte sicher, dass die Lautstärke deines Geräts nicht stummgeschaltet ist. Du kannst die Lautstärke mit den Lautstärketasten deines Geräts ändern. Dazu muss möglicherweise die Option "Mit Tasten ändern" (falls aktiviert) in den Geräteeinstellungen → Töne & Vibration deaktiviert werden.
+* Stelle bitte sicher, dass die Lautstärke deines Geräts nicht stummgeschaltet ist. Du kannst die Lautstärke mit den Lautstärketasten deines Geräts ändern. Dazu muss möglicherweise die Option „Mit Tasten ändern“ (falls aktiviert) in den Geräteeinstellungen → Töne & Vibration deaktiviert werden.
 
 * Melde uns bitte Bluetooth Probleme inklusive aller Details auf unserem [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

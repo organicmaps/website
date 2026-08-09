@@ -17,15 +17,15 @@ Fredag! Det är dags att installera den nya Organic Maps-uppdateringen från <ht
 ### iOS
 
 - NYTT! Du kan redigera ett bokmärke eller spårnamn direkt på platsinformationssidan genom att trycka på namnet. _(Kiryl Kaveryn)_
-- Lade till stöd för iOS 26 och macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Lade till stöd för iOS 26 och macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Tryck länge på namnet eller adressen för en vald plats eller bokmärke för att kopiera det till urklipp. _(Kiryl Kaveryn)_
 - Tryck på listnamnet på platsinformationssidan för att välja en ny lista för ett bokmärke eller spår, och använd den nya sökningen för att snabbt hitta den lista du vill ha. _(Kiryl Kaveryn)_
 - Fixade kartlayouten under navigering på iPad så att rutten förblir tydligt synlig. _(Kiryl Kaveryn)_
-- Fixade animationer för sidoknappar och korrigerade färgen på knappen "Ladda ner kartor" i det mörka temat. _(Kiryl Kaveryn)_
+- Fixade animationer för sidoknappar och korrigerade färgen på knappen “Ladda ner kartor” i det mörka temat. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Lade till rullningslister till sökskärmen och skärmen "Bokmärken och spår". _(shantanu1k)_
+- Lade till rullningslister till sökskärmen och skärmen “Bokmärken och spår”. _(shantanu1k)_
 - Förbättrad hantering av ljuduppspelning och avbrott. _(Andrei Shkrob)_
 - Fixade krascher på redigerarprofilskärmen. _(Alexander Borsuk)_
 - Fixade krascher under kartnedladdningar. _(Viktor Govako)_

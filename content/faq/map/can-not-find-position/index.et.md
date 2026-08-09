@@ -37,6 +37,6 @@ Kui oled iPhone'i või iPadi kasutaja, kontrolli iOS-i seadeid → Privaatsus �
 
 **Kaardil kuvatakse vale asukoht**
 
-1. Kui sinu asukohanoole ümber kaardil on suur poolläbipaistev ring, tähendab see, et sinu asukoht on määratud madala täpsusega, kasutades WiFi- või mobiilsideühendust. Veendu, et oled süsteemisätetes lubanud Organic Mapsi jaoks "Täpse" asukoha täpsuse, ja proovi minna õue, eemale kõrgetest hoonetest ja puudest, et parandada satelliit-GPS-signaali vastuvõttu.
+1. Kui sinu asukohanoole ümber kaardil on suur poolläbipaistev ring, tähendab see, et sinu asukoht on määratud madala täpsusega, kasutades WiFi- või mobiilsideühendust. Veendu, et oled süsteemisätetes lubanud Organic Mapsi jaoks „Täpse“ asukoha täpsuse, ja proovi minna õue, eemale kõrgetest hoonetest ja puudest, et parandada satelliit-GPS-signaali vastuvõttu.
 
 2. Kui sinu asukoht on määratud valesti (näiteks oled ühes linnas, kuid rakendus näitab teist linna), siis oled tõenäoliselt piirkonnas, mida mõjutab vale GPS-signaal (GPS-i võltsimine) elektroonilise sõjapidamise (EW) meetmete tõttu. Sellistel juhtudel on ainus lahendus liikuda teise asukohta.

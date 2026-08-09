@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Nadat ’n lys met boekmerke of roetes (via die "More"-knoppie) uitgevee is, keer die app nou korrek terug na die vorige skerm (Kiryl Kaveryn)
-- [TikTok][tiktok]-, [Threads][threads]- en [Bluesky][bluesky]-sosiale media-skakels is by die "About"-skerm gevoeg (Kiryl Kaveryn)
-- "Report a bug" is by die vinnige aksies van die tuisskerm-ikoon gevoeg (Kiryl Kaveryn)
+- Nadat ’n lys met boekmerke of roetes (via die “More”-knoppie) uitgevee is, keer die app nou korrek terug na die vorige skerm (Kiryl Kaveryn)
+- [TikTok][tiktok]-, [Threads][threads]- en [Bluesky][bluesky]-sosiale media-skakels is by die “About”-skerm gevoeg (Kiryl Kaveryn)
+- “Report a bug” is by die vinnige aksies van die tuisskerm-ikoon gevoeg (Kiryl Kaveryn)
 - Verskeie toepassings- en CarPlay-ongelukke is reggestel (Kiryl Kaveryn)
 
 ### Android

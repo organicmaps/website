@@ -17,15 +17,15 @@ Vendredi ! Il est temps d'installer la nouvelle mise à jour d'Organic Maps depu
 ### iOS
 
 - NOUVEAU ! Tu peux modifier le nom d'un signet ou d'un tracé directement sur la page d'informations du lieu en appuyant sur le nom. _(Kiryl Kaveryn)_
-- Ajout de la prise en charge d'iOS 26 et macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Ajout de la prise en charge d'iOS 26 et macOS 26 «Liquid Glass». _(Kiryl Kaveryn)_
 - Appuie longuement sur le nom ou l'adresse d'un lieu ou signet sélectionné pour le copier dans le presse-papiers. _(Kiryl Kaveryn)_
 - Appuie sur le nom de la liste sur la page d'informations du lieu pour sélectionner une nouvelle liste pour un signet ou un tracé, et utilise la nouvelle recherche pour trouver rapidement la liste souhaitée. _(Kiryl Kaveryn)_
 - Correction de la disposition de la carte pendant la navigation sur iPad pour que l'itinéraire reste clairement visible. _(Kiryl Kaveryn)_
-- Correction des animations des boutons latéraux et de la couleur du bouton "Télécharger les cartes" dans le thème sombre. _(Kiryl Kaveryn)_
+- Correction des animations des boutons latéraux et de la couleur du bouton «Télécharger les cartes» dans le thème sombre. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Ajout de barres de défilement à l'écran de recherche et à l'écran "Signets et Tracés". _(shantanu1k)_
+- Ajout de barres de défilement à l'écran de recherche et à l'écran «Signets et Tracés». _(shantanu1k)_
 - Amélioration de la gestion de la lecture audio et des interruptions. _(Andrei Shkrob)_
 - Correction des plantages sur l'écran du profil de l'éditeur. _(Alexander Borsuk)_
 - Correction des plantages lors du téléchargement des cartes. _(Viktor Govako)_

@@ -49,7 +49,7 @@ taxonomies:
 
 ## Linux/Mac OS
 
-- POI विवरण अब "नाम | ref" प्रारूप दिखाते हैं (Viktor Govako)
+- POI विवरण अब “नाम | ref” प्रारूप दिखाते हैं (Viktor Govako)
 - डार्क मोड स्वचालित रूप से सिस्टम सेटिंग्स के साथ सिंक होता है (DeepChirp)
 
 ## फुटनोट्स

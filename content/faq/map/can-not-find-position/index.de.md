@@ -18,7 +18,7 @@ Bitte stelle sicher, dass dein Gerät über GPS verfügt, die Standorteinstellun
 
 Öffne auf deinem Gerät Einstellungen → Standort. Es ist besser, den Modus Hohe Genauigkeit einzuschalten.
 
-Wenn dein Android-Gerät deinen Standort nicht bestimmen kann, aktiviere (oder deaktiviere, falls aktiviert) "Google Play-Dienste" in den App-Einstellungen.
+Wenn dein Android-Gerät deinen Standort nicht bestimmen kann, aktiviere (oder deaktiviere, falls aktiviert) „Google Play-Dienste“ in den App-Einstellungen.
 
 Hinweis: Die Einstellung kannst du nur sehen, wenn auf deinem Android-Gerät Google Play-Dienste installiert (und aktiviert) sind. Google Play-Dienste werden verwendet, um den Standort genauer zu bestimmen. Wenn Probleme mit der Ortsgenauigkeit auftreten, nachdem du die Option deaktiviert hast, aktiviere sie.
 
@@ -38,6 +38,6 @@ Wenn du ein iPhone oder iPad Nutzer bist, überprüfe bitte iOS-Einstellungen �
 
 **Falscher Standort wird auf der Karte angezeigt**
 
-1. Wenn sich ein großer halbtransparenter Kreis um deinen Standortpfeil auf der Karte befindet, bedeutet dies, dass deine Position mit geringer Genauigkeit unter Verwendung von WLAN oder Mobilfunkverbindung bestimmt wird. Stelle sicher, dass du in den Systemeinstellungen die Standortgenauigkeit "Genau" für Organic Maps aktiviert hast, und versuche, nach draußen zu gehen, weg von hohen Gebäuden und Bäumen, um den Empfang des GPS-Satellitensignals zu verbessern.
+1. Wenn sich ein großer halbtransparenter Kreis um deinen Standortpfeil auf der Karte befindet, bedeutet dies, dass deine Position mit geringer Genauigkeit unter Verwendung von WLAN oder Mobilfunkverbindung bestimmt wird. Stelle sicher, dass du in den Systemeinstellungen die Standortgenauigkeit „Genau“ für Organic Maps aktiviert hast, und versuche, nach draußen zu gehen, weg von hohen Gebäuden und Bäumen, um den Empfang des GPS-Satellitensignals zu verbessern.
 
 2. Wenn deine Position falsch bestimmt wird (zum Beispiel bist du in einer Stadt, aber die App zeigt eine andere Stadt an), befindest du dich höchstwahrscheinlich in einem Gebiet, das von einem falschen GPS-Signal (GPS-Spoofing) aufgrund von Maßnahmen der elektronischen Kriegsführung (EW) betroffen ist. In solchen Fällen ist die einzige Lösung, sich an einen anderen Ort zu begeben.

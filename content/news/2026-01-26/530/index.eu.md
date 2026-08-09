@@ -29,7 +29,7 @@ Instalatu [get.omaps.org](https://get.omaps.org)-tik edo [App Store][appstore], 
 * Zuzendu da ibilbide-tresna-barraren gainjartzea pantaila txikietan _(Anton P)_
 * Zuzendu da bilaketa hutsegitea Android 5 eta 6-tan _(Alexander Borsuk)_
 * Zuzendu dira FAQ itzulpenak Android 5-en _(Alexander Borsuk)_
-* Zuzendu da "Ez dago leku libre nahikorik" errorea mapak eguneratzean _(Alexander Borsuk)_
+* Zuzendu da «Ez dago leku libre nahikorik» errorea mapak eguneratzean _(Alexander Borsuk)_
 
 ### Itzulpenak
 

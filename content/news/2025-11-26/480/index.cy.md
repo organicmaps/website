@@ -17,15 +17,15 @@ Dydd Gwener! Mae'n bryd gosod diweddariad Organic Maps newydd o <https://omaps.a
 ### iOS
 
 - NEWYDD! Gelli olygu enw nod tudalen neu drac yn uniongyrchol ar y Dudalen Gwybodaeth Lleoliad trwy dapio'r enw. _(Kiryl Kaveryn)_
-- Ychwanegwyd cefnogaeth ar gyfer iOS 26 a macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Ychwanegwyd cefnogaeth ar gyfer iOS 26 a macOS 26 ‘Liquid Glass’. _(Kiryl Kaveryn)_
 - Tap hir ar enw neu gyfeiriad lleoliad neu nod tudalen a ddewiswyd i'w gopïo i'r clipfwrdd. _(Kiryl Kaveryn)_
 - Tapia enw'r rhestr ar y Dudalen Gwybodaeth Lleoliad i ddewis rhestr newydd ar gyfer nod tudalen neu drac, a defnyddia'r chwiliad newydd i ddod o hyd i'r rhestr rwyt ti ei heisiau'n gyflym. _(Kiryl Kaveryn)_
 - Trwsiwyd cynllun y map wrth lywio ar iPad fel bod y llwybr yn aros yn glir weladwy. _(Kiryl Kaveryn)_
-- Trwsiwyd animeiddiadau ar gyfer botymau ochr a chywirwyd lliw'r botwm "Lawrlwytho Mapiau" yn y thema dywyll. _(Kiryl Kaveryn)_
+- Trwsiwyd animeiddiadau ar gyfer botymau ochr a chywirwyd lliw'r botwm ‘Lawrlwytho Mapiau’ yn y thema dywyll. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Ychwanegwyd barau sgrolio i'r sgrin Chwilio a'r sgrin "Nodau Tudalen a Thraciau". _(shantanu1k)_
+- Ychwanegwyd barau sgrolio i'r sgrin Chwilio a'r sgrin ‘Nodau Tudalen a Thraciau’. _(shantanu1k)_
 - Gwell trin chwarae sain ac ymyriadau. _(Andrei Shkrob)_
 - Trwsiwyd damweiniau ar y sgrin Proffil Golygydd. _(Alexander Borsuk)_
 - Trwsiwyd damweiniau wrth lawrlwytho mapiau. _(Viktor Govako)_

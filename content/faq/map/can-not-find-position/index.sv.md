@@ -18,7 +18,7 @@ Se till att din enhet har GPS, att platstjänster är aktiverade och att platsbe
 
 Öppna Inställningar → Plats på din enhet. Det är bättre att slå på högprecisionsläget, eftersom det möjliggör exakt GPS-position.
 
-Om din Android-enhet inte kan fastställa din plats, aktivera (eller inaktivera, om aktiverat) alternativet "Google Play Services" i appinställningarna.
+Om din Android-enhet inte kan fastställa din plats, aktivera (eller inaktivera, om aktiverat) alternativet “Google Play Services” i appinställningarna.
 
 Obs: du kan bara se det om du har Google Play-tjänster installerade (aktiverade) på din Android-enhet. Google play-tjänster används för att bestämma plats mer exakt. Om du upplever problem med platsnoggrannheten efter att du inaktiverat alternativet, aktivera det.
 
@@ -37,6 +37,6 @@ Om du använder iPhone eller iPad, kontrollera iOS-inställningar → Sekretess 
 
 **Felaktig plats visas på kartan**
 
-1. Om det finns en stor halvgenomskinlig cirkel runt din platspil på kartan betyder det att din position bestäms med låg noggrannhet, med hjälp av WiFi eller mobilanslutning. Se till att du har aktiverat "Exakt" platsnoggrannhet för Organic Maps i systeminställningarna, och försök att gå utomhus, bort från höga byggnader och träd, för att förbättra mottagningen av satellit-GPS-signaler.
+1. Om det finns en stor halvgenomskinlig cirkel runt din platspil på kartan betyder det att din position bestäms med låg noggrannhet, med hjälp av WiFi eller mobilanslutning. Se till att du har aktiverat “Exakt” platsnoggrannhet för Organic Maps i systeminställningarna, och försök att gå utomhus, bort från höga byggnader och träd, för att förbättra mottagningen av satellit-GPS-signaler.
 
 2. Om din position bestäms felaktigt (till exempel är du i en stad, men appen visar en annan stad), befinner du dig troligen i ett område som påverkas av en falsk GPS-signal (GPS-spoofing) på grund av åtgärder för elektronisk krigföring (EW). I sådana fall är den enda lösningen att flytta till en annan plats.

@@ -16,7 +16,7 @@ aliases:
 
 Si no pots escoltar les instruccions de veu:
 
-* Assegureu-vos que el volum del vostre dispositiu no estigui silenciat. Podeu canviar el nivell de volum amb els botons de volum del vostre dispositiu. Per fer-ho, potser haureu de desactivar l'opció "Canvia amb botons" (si està activada) a la configuració del dispositiu → Sons.
+* Assegureu-vos que el volum del vostre dispositiu no estigui silenciat. Podeu canviar el nivell de volum amb els botons de volum del vostre dispositiu. Per fer-ho, potser haureu de desactivar l'opció «Canvia amb botons» (si està activada) a la configuració del dispositiu → Sons.
 
 * Informeu qualsevol problema de Bluetooth amb els detalls necessaris al nostre [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

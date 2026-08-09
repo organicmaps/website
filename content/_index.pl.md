@@ -35,7 +35,7 @@ Organic Maps to doskonała aplikacja towarzysząca dla podróżników, turystów
 - Szczegółowe mapy offline z miejscami, które nie istnieją na innych mapach, dzięki [OpenStreetMap][openstreetmap]
 - Trasy rowerowe, szlaki turystyczne, ścieżki spacerowe
 - Linie konturowe, profile wysokościowe, szczyty i zbocza
-- Nawigacja piesza, rowerowa i samochodowa "zakręt po zakręcie" ze wskazówkami głosowymi, CarPlay/Android Auto
+- Nawigacja piesza, rowerowa i samochodowa „zakręt po zakręcie“ ze wskazówkami głosowymi, CarPlay/Android Auto
 - Mapy metra
 - Szybkie wyszukiwanie offline na mapie
 - Zakładki i ścieżki w formatach KML, KMZ, GPX, GeoJSON
@@ -61,7 +61,7 @@ Aplikacja Organic Maps jest wolna od mechanizmów śledzących i innych złych r
 - Brak obowiązkowych samouczków
 - Brak hałaśliwego spamu pocztowego
 - Brak wyskakujących powiadomień push
-- Brak programów typu "crapware"
+- Brak programów typu „crapware“
 - ~~Brak pestycydów~~ Czysto organiczne!
 
 Aplikacja jest weryfikowana przez [Projekt Prywatności Exodus][exodus]:

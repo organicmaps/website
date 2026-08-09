@@ -6,7 +6,7 @@ extra:
   menu_title: Tèrmes
 ---
 
-Aquesta aplicacion es sota la Licéncia Apache, Version 2.0 (la "Licéncia"); se pòt pas servir d’aquesta aplicacion s’acceptatz pas amb la Licéncia.
+Aquesta aplicacion es sota la Licéncia Apache, Version 2.0 (la «Licéncia»); se pòt pas servir d’aquesta aplicacion s’acceptatz pas amb la Licéncia.
 
 Podètz obténer una còpia de la Licéncia a [http://www.apache.org/licenses/LICENSE-2.0][license]
 

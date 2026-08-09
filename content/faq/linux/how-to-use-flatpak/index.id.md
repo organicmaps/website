@@ -13,11 +13,11 @@ aliases:
 
 Untuk menginstal OM di Linux dengan flatpak, buka terminal dan masukkan `flatpak install flathub app.organicmaps.desktop`
 
-Setelah aplikasi terinstal, kamu dapat menggunakan roda gulir mouse atau kontrol di bilah menu kanan untuk memperbesar area yang ingin kamu navigasi guna mengunduh peta untuk area tersebut. Kamu juga dapat mengklik ikon "unduh" di kanan bawah. Setelah kamu mengunduh peta untuk wilayah yang kamu minati, aplikasi akan berfungsi bahkan tanpa koneksi internet. 
+Setelah aplikasi terinstal, kamu dapat menggunakan roda gulir mouse atau kontrol di bilah menu kanan untuk memperbesar area yang ingin kamu navigasi guna mengunduh peta untuk area tersebut. Kamu juga dapat mengklik ikon “unduh” di kanan bawah. Setelah kamu mengunduh peta untuk wilayah yang kamu minati, aplikasi akan berfungsi bahkan tanpa koneksi internet. 
 
 Kamu dapat mengarahkan mouse ke berbagai ikon untuk melihat beberapa teks bantuan. 
 
-Untuk melakukan perutean dan navigasi belokan demi belokan, kamu memiliki beberapa opsi. jika kamu mengetahui koordinat GPS titik awal dan akhir, kamu dapat mengklik ikon pengaturan (di atas tanda centang hijau) dan memasukkan koordinat titik awal dan tujuan kamu. Untuk menetapkan titik awal pada peta, klik ikon navigasi dan pilih "titik awal", lalu tahan tombol shift dan klik kiri pada peta. Untuk menetapkan tujuan, ubah ke "titik akhir" dan klik lokasi di peta.
+Untuk melakukan perutean dan navigasi belokan demi belokan, kamu memiliki beberapa opsi. jika kamu mengetahui koordinat GPS titik awal dan akhir, kamu dapat mengklik ikon pengaturan (di atas tanda centang hijau) dan memasukkan koordinat titik awal dan tujuan kamu. Untuk menetapkan titik awal pada peta, klik ikon navigasi dan pilih “titik awal”, lalu tahan tombol shift dan klik kiri pada peta. Untuk menetapkan tujuan, ubah ke “titik akhir” dan klik lokasi di peta.
 
 ![Mengatur titik awal dan titik akhir](nav_points.png)
 

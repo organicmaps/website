@@ -49,7 +49,7 @@ Vir diegene wat gemis het, die [vorige 7 Oktober opdatering](https://organicmaps
 
 ## Linux/Mac OS
 
-- POI besonderhede wys nou "naam | ref" formaat (Viktor Govako)
+- POI besonderhede wys nou “naam | ref” formaat (Viktor Govako)
 - donker modus sinkroniseer outomaties met stelsel instellings (DeepChirp)
 
 ## Voetnote

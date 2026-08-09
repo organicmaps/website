@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instala a versión de agosto de Organic Maps, descarga os últimos mapas e descobre rutas populares de sendeirismo e ciclismo en todo o mundo! Preme o botón "Capas" na parte superior esquerda para ver rutas coloreadas de bicicleta e BTT, así como sendeiros oficiais para camiñar e pasear. Non ves nada cerca? Entón é momento de engadir a información que falta a OpenStreetMap.org, xa que todos os datos do mapa en Organic Maps proveñen dese proxecto aberto, gratuíto e impulsado pola comunidade.
+Instala a versión de agosto de Organic Maps, descarga os últimos mapas e descobre rutas populares de sendeirismo e ciclismo en todo o mundo! Preme o botón «Capas» na parte superior esquerda para ver rutas coloreadas de bicicleta e BTT, así como sendeiros oficiais para camiñar e pasear. Non ves nada cerca? Entón é momento de engadir a información que falta a OpenStreetMap.org, xa que todos os datos do mapa en Organic Maps proveñen dese proxecto aberto, gratuíto e impulsado pola comunidade.
 
 Sabías que calquera traxecto gravado ou importado GPX/KML no mapa pode ser seleccionado? Os traxectos con datos de altitude mostrarán o seu gráfico de elevación.
 
@@ -52,7 +52,7 @@ P.D. …e moito máis está por vir! O teu apoio axúdanos e motívanos para con
 
 #### Melloras diversas
 
-- Escribindo "cop" na busca atopas comisarías de policía, mentres que "film" ou "movie theater" localiza cines (theadventurer62)
+- Escribindo «cop» na busca atopas comisarías de policía, mentres que «film» ou «movie theater» localiza cines (theadventurer62)
 - Abrir noutra aplicación agora amosa o punto seleccionado en Google Maps (Alexander Borsuk)
 - Tradución ao español para máis categorías de busca (David Martinez)
 - Actualizáronse varias traducións (colaboradores de Weblate)

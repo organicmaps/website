@@ -30,7 +30,7 @@ Android:
 - Javítva a hibás felhasználói felület elrendezés egyes eszközökön (_Sergiy Kozyr_)
 - OSM bejelentkezés és jelszó megjelenítése, ha a böngésző bejelentkezés sikertelen/nem elérhető (_Sergiy Kozyr_)
 - Javítva a szálkereszt ugrás objektumok OpenStreetMap-hez való hozzáadásakor (_@hemanggs_)
-- Javítva a "Sikertelen letöltés újrapróbálása" gomb (_Kavi Khalique_)
+- Javítva a „Sikertelen letöltés újrapróbálása“ gomb (_Kavi Khalique_)
 - Javítva a rendszergombokkal átfedő indítóképernyő (_Vraj Shah_)
 - Javítva néhány összeomlás (_Devarsh Vasani_)
 - Javítva az EACCESS PermissionDenied hiba KML vagy GPX importálásakor Android 5-ön (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS változások, minden elismerés _Kiryl Kaveryn_-nek:
 - Most szerkesztheted vagy törölheted a rögzített útvonalat közvetlenül mentés után
 - Kibővített érintési terület a gombokhoz
 - Javítva az OSM jegyzetek ugrálása szöveg gépelése során
-- "Hely hozzáadása" gomb megjelenítése vállalkozásokhoz
+- „Hely hozzáadása“ gomb megjelenítése vállalkozásokhoz
 
 Ui. Ha szereted olvasni a részletes kiadási jegyzeteket, kérjük, jelezd a [közösségi hálózatainkon](/hu/#kozosseg)
 

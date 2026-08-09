@@ -6,11 +6,11 @@ title: "Organic Maps: termos"
 weight: 1000
 ---
 
-Este app é licenciado sob a Licença Apache, Versão 2.0 (a "Licença"); você não pode utilizar este aplicativo, exceto em conformidade com a Licença.
+Este app é licenciado sob a Licença Apache, Versão 2.0 (a “Licença”); você não pode utilizar este aplicativo, exceto em conformidade com a Licença.
 
 Você pode obter uma cópia da Licença em [http://www.apache.org/licenses/LICENSE-2.0][license]
 
-A menos que exigido pela lei aplicável ou acordado por escrito, o software distribuído sob a Licença é distribuído "COMO ESTÁ", SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, seja expresso ou implícito. Consulte a Licença para a linguagem específica que rege as permissões e limitações sob a Licença.
+A menos que exigido pela lei aplicável ou acordado por escrito, o software distribuído sob a Licença é distribuído “COMO ESTÁ”, SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, seja expresso ou implícito. Consulte a Licença para a linguagem específica que rege as permissões e limitações sob a Licença.
 
 A maioria das bibliotecas nos seguintes diretórios no [GitHub][github] foram feitos por outras pessoas e organizações e licenciados de diferentes maneiras:
 

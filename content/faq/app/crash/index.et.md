@@ -28,4 +28,4 @@ Või alternatiivina:
 1. Luba logide salvestamine rakenduse seadetes.
 2. Sundtaaskäivita rakendus.
 3. Korda krahhi.
-4. Saada meile logifail "Teata veast" kaudu Teave ekraanil ja lisa lühike krahhi kirjeldus.
+4. Saada meile logifail „Teata veast“ kaudu Teave ekraanil ja lisa lühike krahhi kirjeldus.

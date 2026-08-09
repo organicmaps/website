@@ -17,15 +17,15 @@ Penktadienis! Laikas įdiegti naują Organic Maps atnaujinimą iš <https://omap
 ### iOS
 
 - NAUJA! Galite redaguoti žymės arba maršruto pavadinimą tiesiogiai vietos informacijos puslapyje, paliesdami pavadinimą. _(Kiryl Kaveryn)_
-- Pridėta iOS 26 ir macOS 26 "Liquid Glass" palaikymas. _(Kiryl Kaveryn)_
+- Pridėta iOS 26 ir macOS 26 „Liquid Glass“ palaikymas. _(Kiryl Kaveryn)_
 - Ilgai palaikykite pasirinktos vietos arba žymės pavadinimą ar adresą, kad nukopijuotumėte jį į iškarpinę. _(Kiryl Kaveryn)_
 - Palieskite sąrašo pavadinimą vietos informacijos puslapyje, kad pasirinktumėte naują sąrašą žymei arba maršrutui, ir naudokite naują paiešką, kad greitai rastumėte norimą sąrašą. _(Kiryl Kaveryn)_
 - Ištaisytas žemėlapio išdėstymas navigacijos metu iPad, kad maršrutas išliktų aiškiai matomas. _(Kiryl Kaveryn)_
-- Ištaisytos šoninių mygtukų animacijos ir ištaisyta "Atsisiųsti žemėlapius" mygtuko spalva tamsioje temoje. _(Kiryl Kaveryn)_
+- Ištaisytos šoninių mygtukų animacijos ir ištaisyta „Atsisiųsti žemėlapius“ mygtuko spalva tamsioje temoje. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Pridėtos slinkties juostos paieškos ekranui ir "Žymės ir maršrutai" ekranui. _(shantanu1k)_
+- Pridėtos slinkties juostos paieškos ekranui ir „Žymės ir maršrutai“ ekranui. _(shantanu1k)_
 - Patobulinta garso atkūrimo ir pertraukimų valdymas. _(Andrei Shkrob)_
 - Ištaisyti gedimai redaktoriaus profilio ekrane. _(Alexander Borsuk)_
 - Ištaisyti gedimai atsisiunčiant žemėlapius. _(Viktor Govako)_

@@ -27,4 +27,4 @@ Ou alternativement :
 1. Active l'enregistrement des journaux dans les paramètres de l'application.
 2. Force le redémarrage de l'application.
 3. Reproduis le plantage.
-4. Envoie-nous le fichier journal via "Signaler un bug" dans l'écran À propos et ajoute une brève description du plantage.
+4. Envoie-nous le fichier journal via «Signaler un bug» dans l'écran À propos et ajoute une brève description du plantage.

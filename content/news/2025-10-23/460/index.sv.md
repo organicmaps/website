@@ -49,7 +49,7 @@ För dem som missade, den [tidigare uppdateringen den 7 oktober](https://organic
 
 ## Linux/Mac OS
 
-- POI-detaljer visar nu formatet "namn | ref" (Viktor Govako)
+- POI-detaljer visar nu formatet “namn | ref” (Viktor Govako)
 - mörkt läge synkroniseras automatiskt med systeminställningar (DeepChirp)
 
 ## Fotnoter

@@ -49,7 +49,7 @@ I'r rhai a gollodd, ychwanegodd y [diweddariad blaenorol ar 7 Hydref](https://or
 
 ## Linux/Mac OS
 
-- Mae manylion POI nawr yn dangos fformat "enw | ref" (Viktor Govako)
+- Mae manylion POI nawr yn dangos fformat ‘enw | ref’ (Viktor Govako)
 - mae modd tywyll yn cysoni'n awtomatig â gosodiadau system (DeepChirp)
 
 ## Troednodiadau

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Telepítsd az Organic Maps augusztusi kiadását, töltsd le a legfrissebb térképeket, és fedezd fel a világ népszerű túra- és kerékpárútvonalait! Nyomd meg a bal felső "Rétegek" gombot a színes kerékpáros és MTB útvonalak, valamint a hivatalos túra- és sétaútvonalak megtekintéséhez. Nem látsz semmit a közelben? Akkor itt az ideje, hogy hozzáadd a hiányzó információkat az OpenStreetMap.org-hoz, mivel az Organic Maps összes térképadata ebből a nyílt, ingyenes és közösség által vezérelt projektből származik.
+Telepítsd az Organic Maps augusztusi kiadását, töltsd le a legfrissebb térképeket, és fedezd fel a világ népszerű túra- és kerékpárútvonalait! Nyomd meg a bal felső „Rétegek“ gombot a színes kerékpáros és MTB útvonalak, valamint a hivatalos túra- és sétaútvonalak megtekintéséhez. Nem látsz semmit a közelben? Akkor itt az ideje, hogy hozzáadd a hiányzó információkat az OpenStreetMap.org-hoz, mivel az Organic Maps összes térképadata ebből a nyílt, ingyenes és közösség által vezérelt projektből származik.
 
 Tudtad, hogy a térképen bármely rögzített vagy importált GPX/KML útvonal kiválasztható? A magassági adatokkal rendelkező útvonalak megjeleníti a magassági grafikonjukat.
 
@@ -52,7 +52,7 @@ P.S. …és még sok minden érkezik! A támogatásod segít és motivál minket
 
 #### Vegyes fejlesztések
 
-- A "cop" beírása a keresésben rendőrállomásokat talál, míg a "film" vagy "movie theater" mozikat keres (theadventurer62)
+- A „cop“ beírása a keresésben rendőrállomásokat talál, míg a „film“ vagy „movie theater“ mozikat keres (theadventurer62)
 - Megnyitás másik alkalmazásban most megjeleníti a kiválasztott pontot Google Maps-ben (Alexander Borsuk)
 - Spanyol fordítás több keresési kategóriához (David Martinez)
 - Frissített különböző fordítások (Weblate közreműködők)

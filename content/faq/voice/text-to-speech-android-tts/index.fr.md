@@ -62,6 +62,6 @@ Si tu as des difficultés à initialiser le moteur TTS de RHVoice sur LineageOS 
 
 ## Tests
 
-Pour tester les instructions vocales, tu peux cliquer sur "Tester les instructions vocales (TTS, Text-To-Speech)" dans le menu OM "Paramètres → Instructions vocales" ou tu peux démarrer la navigation pour entendre des instructions vocales. Organic Maps ne te donnera pas d'instructions vocales tant que tu es à l'arrêt.
+Pour tester les instructions vocales, tu peux cliquer sur «Tester les instructions vocales (TTS, Text-To-Speech)» dans le menu OM «Paramètres → Instructions vocales» ou tu peux démarrer la navigation pour entendre des instructions vocales. Organic Maps ne te donnera pas d'instructions vocales tant que tu es à l'arrêt.
 
 ![Test TTS](tts_test.fr.png "Test TTS")

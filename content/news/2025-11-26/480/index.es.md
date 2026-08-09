@@ -17,15 +17,15 @@ taxonomies:
 ### iOS
 
 - ¡NUEVO! Puedes editar el nombre de un marcador o ruta directamente en la Página de Información del Lugar tocando el nombre. _(Kiryl Kaveryn)_
-- Se añadió soporte para iOS 26 y macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Se añadió soporte para iOS 26 y macOS 26 «Liquid Glass». _(Kiryl Kaveryn)_
 - Mantén pulsado el nombre o la dirección de un lugar o marcador seleccionado para copiarlo al portapapeles. _(Kiryl Kaveryn)_
 - Toca el nombre de la lista en la Página de Información del Lugar para seleccionar una nueva lista para un marcador o ruta, y usa la nueva búsqueda para encontrar rápidamente la lista que deseas. _(Kiryl Kaveryn)_
 - Se corrigió el diseño del mapa durante la navegación en iPad para que la ruta permanezca claramente visible. _(Kiryl Kaveryn)_
-- Se corrigieron las animaciones de los botones laterales y el color del botón "Descargar Mapas" en el tema oscuro. _(Kiryl Kaveryn)_
+- Se corrigieron las animaciones de los botones laterales y el color del botón «Descargar Mapas» en el tema oscuro. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Se añadieron barras de desplazamiento a la pantalla de Búsqueda y a la pantalla de "Marcadores y Rutas". _(shantanu1k)_
+- Se añadieron barras de desplazamiento a la pantalla de Búsqueda y a la pantalla de «Marcadores y Rutas». _(shantanu1k)_
 - Mejora en el manejo de reproducción de audio e interrupciones. _(Andrei Shkrob)_
 - Se corrigieron bloqueos en la pantalla de Perfil del Editor. _(Alexander Borsuk)_
 - Se corrigieron bloqueos durante las descargas de mapas. _(Viktor Govako)_

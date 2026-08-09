@@ -49,7 +49,7 @@ Per a aquells que es van perdre, l'[actualització anterior del 7 d'octubre](htt
 
 ## Linux/Mac OS
 
-- Els detalls de POI ara mostren el format "nom | ref" (Viktor Govako)
+- Els detalls de POI ara mostren el format «nom | ref» (Viktor Govako)
 - el mode fosc se sincronitza automàticament amb la configuració del sistema (DeepChirp)
 
 ## Notes a peu

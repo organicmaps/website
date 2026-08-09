@@ -49,7 +49,7 @@ Neile, kes jäid ilma, [eelmine 7. oktoobri uuendus](https://organicmaps.app/new
 
 ## Linux/Mac OS
 
-- POI üksikasjad näitavad nüüd "nimi | ref" formaati (Viktor Govako)
+- POI üksikasjad näitavad nüüd „nimi | ref“ formaati (Viktor Govako)
 - tume režiim sünkroniseerib automaatselt süsteemi seadetega (DeepChirp)
 
 ## Allmärkused

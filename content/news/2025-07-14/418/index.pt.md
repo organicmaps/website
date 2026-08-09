@@ -30,7 +30,7 @@ Android:
 - Corrigido layout incorreto da interface do utilizador em alguns dispositivos (_Sergiy Kozyr_)
 - Mostrar início de sessão e palavra-passe OSM se o início de sessão do navegador falhar/não estiver disponível (_Sergiy Kozyr_)
 - Corrigido salto do retículo ao adicionar objetos ao OpenStreetMap (_@hemanggs_)
-- Corrigido botão "Tentar novamente download falhado" (_Kavi Khalique_)
+- Corrigido botão «Tentar novamente download falhado» (_Kavi Khalique_)
 - Corrigido ecrã inicial sobrepondo botões do sistema (_Vraj Shah_)
 - Corrigidas algumas falhas (_Devarsh Vasani_)
 - Corrigido erro EACCESS PermissionDenied ao importar KML ou GPX no Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Alterações do iOS, todos os créditos para _Kiryl Kaveryn_:
 - Agora podes editar ou eliminar o percurso gravado imediatamente após o guardar
 - Área de toque expandida para botões
 - Corrigidas notas OSM saltitantes ao escrever texto
-- Mostrar botão "Adicionar Local" para empresas
+- Mostrar botão «Adicionar Local» para empresas
 
 P.S. Se gostas de ler notas de lançamento detalhadas, por favor informa-nos nas nossas [redes sociais](/#community)
 

@@ -46,7 +46,7 @@ Saad uuenduse aadressil <https://get.omaps.org> või [App Store][appstore], [Goo
 - UUS! Raja tekst ja HTML kirjeldused on nüüd toetatud, samamoodi nagu järjehoidjate kirjeldused. Kirjelduse lisamiseks vajuta pliiatsi ikooni. _(Mikhail Listratsenka)_
 - UUS! Vali radade jaoks mis tahes värvi, mitte ainult piiratud alamhulk _(Mikhail Listratsenka)_
 - Korea, hiina ja jaapani keele kasutajad näevad nüüd õigeid kirjatüüpe vastavalt seadme asukohale _(Alexander Borsuk)_
-- Parandatud raja kohalehekülje probleemid ja "Ava sisse" nupp _(Mikhail Listratsenka)_
+- Parandatud raja kohalehekülje probleemid ja „Ava sisse“ nupp _(Mikhail Listratsenka)_
 
 ### Linux ja macOS
 

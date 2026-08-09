@@ -62,6 +62,6 @@ As jy probleme ondervind om die RHVoice TTS-enjin op LineageOS of ander pasgemaa
 
 ## Toets
 
-Om die steminstruksies te toets, kan jy op "Toets stemaanwysings (TTS, teks-na-spraak)" in OM "Instellings → Steminstruksies"-kieslys tik of jy kan eintlik 'n navigasie begin om enige stemuitset te ontvang. Organic Maps sal jou geen steminstruksies gee terwyl jy stilstaan ​​nie.
+Om die steminstruksies te toets, kan jy op “Toets stemaanwysings (TTS, teks-na-spraak)” in OM “Instellings → Steminstruksies”-kieslys tik of jy kan eintlik 'n navigasie begin om enige stemuitset te ontvang. Organic Maps sal jou geen steminstruksies gee terwyl jy stilstaan ​​nie.
 
 ![TTS-toets](tts_test.png "TTS-toets")

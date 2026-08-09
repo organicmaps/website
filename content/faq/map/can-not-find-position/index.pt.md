@@ -17,7 +17,7 @@ Por favor, verifica se o teu dispositivo tem GPS e as configurações de localiz
 
 No teu dispositivo, abre Configurações → Localização. É recomendável ligar o modo de alta precisão (GPS assistido ou A-GPS).
 
-Se tiveres dificuldade em determinar a tua localização com o GPS, ativa (ou desativa, se já estiver ativado) o "Google Play Services" nas configurações da aplicação.
+Se tiveres dificuldade em determinar a tua localização com o GPS, ativa (ou desativa, se já estiver ativado) o «Google Play Services» nas configurações da aplicação.
 
 Nota: só podes usar a localização com maior precisão ver se tiveres o Google Play Services instalado (ativado) no teu dispositivo Android. Os serviços do Google são usados para determinar a localização com mais precisão. Se tiveres problemas com a precisão da localização depois de desativares a opção, ativa-a novamente.
 
@@ -36,6 +36,6 @@ Se tens um iPhone ou iPad, Por favor, verifica as configurações do iOS → Pri
 
 **É mostrada uma localização incorreta no mapa**
 
-1. Se houver um grande círculo semitransparente à volta da seta da tua localização no mapa, significa que a tua posição é determinada com baixa precisão, utilizando ligação WiFi ou móvel. Certifica-te de que ativaste a precisão de localização "Precisa" para o Organic Maps nas definições do sistema e tenta ir para o exterior, longe de edifícios altos e árvores, para melhorar a receção do sinal GPS por satélite.
+1. Se houver um grande círculo semitransparente à volta da seta da tua localização no mapa, significa que a tua posição é determinada com baixa precisão, utilizando ligação WiFi ou móvel. Certifica-te de que ativaste a precisão de localização «Precisa» para o Organic Maps nas definições do sistema e tenta ir para o exterior, longe de edifícios altos e árvores, para melhorar a receção do sinal GPS por satélite.
 
 2. Se a tua posição for determinada incorretamente (por exemplo, estás numa cidade, mas a aplicação mostra outra cidade), é muito provável que estejas numa área afetada por um sinal GPS falso (spoofing de GPS) devido a medidas de guerra eletrónica (EW). Nesses casos, a única solução é mudar para outro local.

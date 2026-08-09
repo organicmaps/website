@@ -30,7 +30,7 @@ Android:
 - Parandatud vale kasutajaliidese paigutus mõnedes seadmetes (_Sergiy Kozyr_)
 - Kuva OSM sisselogimine ja parool, kui brauseri sisselogimine ebaõnnestub/pole saadaval (_Sergiy Kozyr_)
 - Parandatud ristjuukse hüppamine objektide lisamisel OpenStreetMap'i (_@hemanggs_)
-- Parandatud "Korda ebaõnnestunud allalaadimist" nupp (_Kavi Khalique_)
+- Parandatud „Korda ebaõnnestunud allalaadimist“ nupp (_Kavi Khalique_)
 - Parandatud käivitusekraan, mis katab süsteeminuppe (_Vraj Shah_)
 - Parandatud mõned kokkujooksmised (_Devarsh Vasani_)
 - Parandatud EACCESS PermissionDenied viga KML või GPX importimisel Android 5-s (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS muudatused, kõik tunnustused _Kiryl Kaveryn_'ile:
 - Nüüd saad salvestatud jälge kohe pärast salvestamist redigeerida või kustutada
 - Laiendatud puudutusala nuppude jaoks
 - Parandatud OSM märkused, mis hüppasid teksti tippimisel
-- Kuva "Lisa koht" nupp ettevõtete jaoks
+- Kuva „Lisa koht“ nupp ettevõtete jaoks
 
 P.S. Kui sulle meeldib lugeda üksikasjalikke väljalaskemärkusi, palun anna meile teada meie [sotsiaalvõrgustikes](/et/#kogukond)
 

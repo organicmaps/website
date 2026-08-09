@@ -17,15 +17,15 @@ Vrydag! Dit is tyd om die nuwe Organic Maps-opdatering te installeer vanaf <http
 ### iOS
 
 - NUUT! Jy kan 'n boekmerk- of snitspoor-naam direk op die Plekinligtingbladsy wysig deur op die naam te tik. _(Kiryl Kaveryn)_
-- Ondersteuning bygevoeg vir iOS 26 en macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Ondersteuning bygevoeg vir iOS 26 en macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Langdruk op die naam of adres van 'n geselekteerde plek of boekmerk om dit na die knipbord te kopieer. _(Kiryl Kaveryn)_
 - Tik op die lysnaam op die Plekinligtingbladsy om 'n nuwe lys vir 'n boekmerk of snitspoor te kies, en gebruik die nuwe soek om vinnig die lys te vind wat jy wil hê. _(Kiryl Kaveryn)_
 - Die kaartuitleg tydens navigasie op iPad reggestel sodat die roete duidelik sigbaar bly. _(Kiryl Kaveryn)_
-- Animasies vir syknoppies reggestel en die kleur van die "Laai Kaarte Af"-knoppie in die donker tema reggestel. _(Kiryl Kaveryn)_
+- Animasies vir syknoppies reggestel en die kleur van die “Laai Kaarte Af”-knoppie in die donker tema reggestel. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Rolbalke bygevoeg by die Soekskerm en die "Boekmerke en Snitspore"-skerm. _(shantanu1k)_
+- Rolbalke bygevoeg by die Soekskerm en die “Boekmerke en Snitspore”-skerm. _(shantanu1k)_
 - Verbeterde hantering van oudioterugspeel en onderbrekings. _(Andrei Shkrob)_
 - Ineenstortings op die Redigeerder Profiel-skerm reggestel. _(Alexander Borsuk)_
 - Ineenstortings tydens kaartaflaai reggestel. _(Viktor Govako)_

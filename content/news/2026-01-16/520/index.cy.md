@@ -14,7 +14,7 @@ Gad i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein 
 * Data OpenStreetMap wedi'i ddiweddaru (Ionawr 11) (Viktor Govako)
 * Ychwanegwyd arweiniad llais Albaneg (TTS) (Alexander Borsuk)
 * Ychwanegwyd cyfystyron chwilio Bwlgareg (Clippy)
-* Casinôs wedi'u heithrio o'r categori "Adloniant" (Clippy)
+* Casinôs wedi'u heithrio o'r categori ‘Adloniant’ (Clippy)
 * Lleihawyd trwch llinellau'r metro (Manik)
 * Ychwanegwyd gwybodaeth capasiti i ganlyniadau chwilio ar gyfer parcio beiciau modur, rhentu beiciau, gwefru beiciau, a gwefru ceir (David Martinez)
 * Ychwanegwyd lefel llawr i ganlyniadau chwilio (David Martinez)
@@ -25,7 +25,7 @@ Gad i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein 
 * Diweddarwyd y Cwestiynau Cyffredin ac ychwanegwyd cyfieithiadau Cwestiynau Cyffredin ar gyfer Arabeg, Tsieceg, Iseldireg, Perseg, Groeg, Hebraeg, Hindi, Hwngareg, Indoneseg, Eidaleg, Lithwaneg, Marathi, Swedeg, Telugu (Alexander Borsuk)
 * Gwellwyd cyfieithiadau'r ap a'r Cwestiynau Cyffredin yn Almaeneg (DaN0mic)
 * Gwellwyd cyfieithiadau'r ap Sbaeneg America Ladin (Alexander Borsuk)
-* Ailenwyd y gosodiad "Botymau chwyddo" er eglurder (Alexander Borsuk)
+* Ailenwyd y gosodiad ‘Botymau chwyddo’ er eglurder (Alexander Borsuk)
 * Atgyweiriadau cyfieithu gan gyfranwyr Weblate ar gyfer amrywiol ieithoedd (Viktor Govako)
 
 ### Newidiadau iOS yn unig
@@ -35,7 +35,7 @@ Gad i ni ddechrau 2026 gyda diweddariad Organic Maps, a wnaed yn bosibl gan ein 
 ### Newidiadau Android yn unig
 
 * Ychwanegwyd cymorth Google Assistant ar gyfer llywio a chwilio (skirm-tech)
-* Diweddarwyd y gosodiad thema llywio "Awtomatig" i ddilyn modd tywyll/golau'r system (Dzmitry Strekha)
+* Diweddarwyd y gosodiad thema llywio ‘Awtomatig’ i ddilyn modd tywyll/golau'r system (Dzmitry Strekha)
 * Trwsiwyd damwain wrth ddechrau llywio (Owm Dubey)
 * Trwsiwyd damwain wrth lwytho nodiadau i OpenStreetMap (Prakamy Awasthi)
 * Trwsiwyd damwain yn Android Auto (Alexander Borsuk)

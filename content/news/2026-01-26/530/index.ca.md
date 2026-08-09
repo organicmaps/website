@@ -29,7 +29,7 @@ Instal·leu-la des de [get.omaps.org](https://get.omaps.org) o des de [App Store
 * Correcció de la superposició de la barra d'eines d'encaminament en pantalles petites _(Anton P)_
 * Correcció d'un bloqueig de cerca a Android 5 i 6 _(Alexander Borsuk)_
 * Correccions de traduccions de PMF a Android 5 _(Alexander Borsuk)_
-* Correcció d'un error "No hi ha prou espai lliure" quan s'actualitzen els mapes _(Alexander Borsuk)_
+* Correcció d'un error «No hi ha prou espai lliure» quan s'actualitzen els mapes _(Alexander Borsuk)_
 
 ### Traduccions
 

@@ -28,4 +28,4 @@ O alternativament :
 1. Activatz l'enregistrament dels jornals dins los paramètres de l'aplicacion.
 2. Forçatz la reaviada de l'aplicacion.
 3. Reprodusètz lo plantatge.
-4. Mandatz-nos lo fichièr jornal via "Senhalar un bug" dins l'ecran A prepaus e apondètz una brèva descripcion del plantatge.
+4. Mandatz-nos lo fichièr jornal via «Senhalar un bug» dins l'ecran A prepaus e apondètz una brèva descripcion del plantatge.

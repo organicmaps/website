@@ -19,7 +19,7 @@ Kamu dapat menggunakan salah satu cara berikut:
 * ketuk tombol bookmark
 * ketuk tempat mana pun di peta
 
-Setelah kamu memilih titik tujuan, tekan tombol “Rute ke” di bagian bawah. Rute akan dibuat dan kamu akan melihat jarak dan perkiraan waktu perjalanan. Kamu dapat mengubah jenis rute dengan menekan ikon Mobil, Pejalan Kaki, Kereta Bawah Tanah, Sepeda, atau Penggaris di bagian atas layar. Untuk mulai mengikuti rute, ketuk tombol "Mulai". Tekan tanda panah di pojok kanan bawah layar dan tap Berhenti untuk menyelesaikan rute.
+Setelah kamu memilih titik tujuan, tekan tombol “Rute ke” di bagian bawah. Rute akan dibuat dan kamu akan melihat jarak dan perkiraan waktu perjalanan. Kamu dapat mengubah jenis rute dengan menekan ikon Mobil, Pejalan Kaki, Kereta Bawah Tanah, Sepeda, atau Penggaris di bagian atas layar. Untuk mulai mengikuti rute, ketuk tombol “Mulai”. Tekan tanda panah di pojok kanan bawah layar dan tap Berhenti untuk menyelesaikan rute.
 
 Kamu dapat memilih titik awal yang berbeda (tombol “Rute Dari”) untuk melihat pratinjau rute, namun navigasi hanya tersedia dari lokasi kamu saat ini.
 

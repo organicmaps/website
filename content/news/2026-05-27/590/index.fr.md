@@ -46,7 +46,7 @@ Obtenez la mise à jour sur <https://get.omaps.org> ou sur les [App Store][appst
 - NOUVEAU ! Le texte des traces et les descriptions HTML sont maintenant pris en charge, de la même manière que les descriptions des signets. Appuie sur l'icône du crayon pour ajouter une description. _(Mikhail Listratsenka)_
 - NOUVEAU ! Choisis n'importe quelle couleur pour les traces, et pas seulement un sous-ensemble limité _(Mikhail Listratsenka)_
 - Les utilisateurs coréens, chinois et japonais verront maintenant les polices appropriées en fonction de la localisation de l'appareil _(Alexander Borsuk)_
-- Correction des problèmes liés à la page de la trace et au bouton "Ouvrir dans" _(Mikhail Listratsenka)_
+- Correction des problèmes liés à la page de la trace et au bouton «Ouvrir dans» _(Mikhail Listratsenka)_
 
 ### Linux et macOS
 

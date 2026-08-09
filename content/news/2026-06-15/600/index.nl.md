@@ -9,7 +9,7 @@ taxonomies:
 Download de nieuwste bètaversie van Organic Maps via <https://beta.omaps.org/> of [download de APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - OSM-kaartgegevens vanaf 12 juni
-- NIEUW! Optionele satellietachtergrondafbeeldingen (ga naar "Kaarttegels" in de OM-instellingen)
+- NIEUW! Optionele satellietachtergrondafbeeldingen (ga naar “Kaarttegels” in de OM-instellingen)
 - NIEUW! Routeplanner voor het openbaar vervoer met metro, lightrail, bus en tram
 - NIEUW! De kortste route als alternatief voor de snelste route
 - NIEUW! Waarschuwingen op de kaart voor trappen, hekken en slagbomen op de route

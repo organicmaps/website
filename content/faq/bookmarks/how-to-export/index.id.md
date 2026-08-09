@@ -13,6 +13,6 @@ aliases:
   - /id/faq/bookmarks/how-to-export/
 ---
 
-Ketuk penanda di peta atau daftar, lalu ketuk tombol "Bagikan" di halaman tempat.
+Ketuk penanda di peta atau daftar, lalu ketuk tombol “Bagikan” di halaman tempat.
 
-Untuk berbagi semua penanda dan trek dalam daftar dari halaman Bookmarks and Tracks, ketuk ikon dengan tiga titik di sebelah kanan nama daftar dan pilih "Ekspor KMZ" atau "Ekspor GPX", "Ekspor GeoJSON".
+Untuk berbagi semua penanda dan trek dalam daftar dari halaman Bookmarks and Tracks, ketuk ikon dengan tiga titik di sebelah kanan nama daftar dan pilih “Ekspor KMZ” atau “Ekspor GPX”, “Ekspor GeoJSON”.

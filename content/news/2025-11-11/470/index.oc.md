@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Aprèp la supression d'una lista de marcapaginas o de traças (via lo boton "Mai"), l'aplicacion tòrna corrèctament a l'ecran precedent (Kiryl Kaveryn)
-- Ajust de ligams cap a [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] sus l'ecran "A prepaus" (Kiryl Kaveryn)
-- Ajust de "Senhalar un bug" a las accions rapidas de l'icòna de l'aplicacion sus l'ecran d'acuèlh (Kiryl Kaveryn)
+- Aprèp la supression d'una lista de marcapaginas o de traças (via lo boton «Mai»), l'aplicacion tòrna corrèctament a l'ecran precedent (Kiryl Kaveryn)
+- Ajust de ligams cap a [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] sus l'ecran «A prepaus» (Kiryl Kaveryn)
+- Ajust de «Senhalar un bug» a las accions rapidas de l'icòna de l'aplicacion sus l'ecran d'acuèlh (Kiryl Kaveryn)
 - Correccion de divèrses plantadas de l'aplicacion e de CarPlay (Kiryl Kaveryn)
 
 ### Android

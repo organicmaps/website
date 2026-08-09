@@ -18,7 +18,7 @@ Maak asseblief seker dat jou toestel GPS het, liggingdienste is geaktiveer en li
 
 Op jou toestel maak Instellings → Ligging oop. Dit is beter om Hoë akkuraatheidsmodus aan te skakel, aangesien dit presiese GPS-ligging moontlik maak.
 
-As jou Android-toestel nie jou ligging kan bepaal nie, aktiveer (of deaktiveer, indien geaktiveer) "Google Play Services"-opsie in die programinstellings.
+As jou Android-toestel nie jou ligging kan bepaal nie, aktiveer (of deaktiveer, indien geaktiveer) “Google Play Services”-opsie in die programinstellings.
 
 Let wel: jy kan dit net sien as jy Google Play-dienste op jou Android-toestel geïnstalleer (geaktiveer) het. Google Play-dienste word gebruik om ligging meer presies te bepaal. As jy probleme ondervind met liggingakkuraatheid nadat jy die opsie gedeaktiveer het, skakel dit aan.
 
@@ -38,6 +38,6 @@ As jy 'n iPhone- of iPad-gebruiker is, gaan asseblief iOS-instellings → Privaa
 
 **Verkeerde ligging word op die kaart gewys**
 
-1. As daar 'n groot half-deursigtige sirkel om jou liggingspyltjie op die kaart is, beteken dit dat jou posisie met lae akkuraatheid bepaal word, deur WiFi of sellulêre verbinding te gebruik. Maak seker dat jy "Presiese" liggingsakkuraatheid vir Organic Maps in stelselinstellings geaktiveer het, en probeer buite gaan, weg van hoë geboue en bome, om satelliet-GPS-seinontvangs te verbeter.
+1. As daar 'n groot half-deursigtige sirkel om jou liggingspyltjie op die kaart is, beteken dit dat jou posisie met lae akkuraatheid bepaal word, deur WiFi of sellulêre verbinding te gebruik. Maak seker dat jy “Presiese” liggingsakkuraatheid vir Organic Maps in stelselinstellings geaktiveer het, en probeer buite gaan, weg van hoë geboue en bome, om satelliet-GPS-seinontvangs te verbeter.
 
 2. As jou posisie verkeerd bepaal word (byvoorbeeld, jy is in een stad, maar die app wys 'n ander stad), dan is jy heel waarskynlik in 'n gebied wat deur 'n valse GPS-sein (GPS-spoofing) geraak word as gevolg van elektroniese oorlogvoering (EW) maatreëls. In sulke gevalle is die enigste oplossing om na 'n ander ligging te beweeg.

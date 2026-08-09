@@ -17,15 +17,15 @@ Ostirala! Organic Maps-en eguneratze berria instalatzeko garaia da <https://omap
 ### iOS
 
 - BERRIA! Laster-marka edo ibilbide izen bat zuzenean Leku Informazio Orrian editatu dezakezu izena sakatuz. _(Kiryl Kaveryn)_
-- iOS 26 eta macOS 26 "Liquid Glass" euskarria gehitu da. _(Kiryl Kaveryn)_
+- iOS 26 eta macOS 26 «Liquid Glass» euskarria gehitu da. _(Kiryl Kaveryn)_
 - Luze sakatu hautatutako leku edo laster-marka baten izena edo helbidea arbelera kopiatzeko. _(Kiryl Kaveryn)_
 - Sakatu zerrendaren izena Leku Informazio Orrian laster-marka edo ibilbide batentzako zerrenda berri bat hautatzeko, eta erabili bilaketa berria nahi duzun zerrenda azkar aurkitzeko. _(Kiryl Kaveryn)_
 - Konponduta mapa diseinua iPad-ean nabigatzean ibilbidea argi ikus dadin. _(Kiryl Kaveryn)_
-- Konponduta alboko botoien animazioak eta "Mapak deskargatu" botoiaren kolorea gai ilunean. _(Kiryl Kaveryn)_
+- Konponduta alboko botoien animazioak eta «Mapak deskargatu» botoiaren kolorea gai ilunean. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Korritze-barrak gehitu dira Bilaketa pantailara eta "Laster-markak eta Ibilbideak" pantailara. _(shantanu1k)_
+- Korritze-barrak gehitu dira Bilaketa pantailara eta «Laster-markak eta Ibilbideak» pantailara. _(shantanu1k)_
 - Audio erreprodukzioaren eta etenen kudeaketa hobetua. _(Andrei Shkrob)_
 - Konponduta blokeoak Editore Profil pantailan. _(Alexander Borsuk)_
 - Konponduta blokeoak mapa deskargetan. _(Viktor Govako)_

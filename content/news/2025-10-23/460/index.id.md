@@ -49,7 +49,7 @@ Bagi yang terlewat, [pembaruan 7 Oktober sebelumnya](https://organicmaps.app/new
 
 ## Linux/Mac OS
 
-- Detail POI sekarang menampilkan format "nama | ref" (Viktor Govako)
+- Detail POI sekarang menampilkan format “nama | ref” (Viktor Govako)
 - mode gelap secara otomatis sinkron dengan pengaturan sistem (DeepChirp)
 
 ## Catatan kaki

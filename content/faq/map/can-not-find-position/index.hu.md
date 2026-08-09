@@ -37,6 +37,6 @@ Ha iPhone vagy iPad felhasználó vagy, kérjük, ellenőrizd az iOS beállítá
 
 **Helytelen hely jelenik meg a térképen**
 
-1. Ha a térképen a helyzetjelző nyíl körül egy nagy, félig átlátszó kör látható, az azt jelenti, hogy a pozíciód alacsony pontossággal, WiFi vagy mobilkapcsolat használatával került meghatározásra. Győződj meg arról, hogy a rendszerbeállításokban engedélyezted a "Pontos" helymeghatározást az Organic Maps számára, és próbálj meg kimenni a szabadba, távol a magas épületektől és fáktól, hogy javítsd a műholdas GPS-jel vételét.
+1. Ha a térképen a helyzetjelző nyíl körül egy nagy, félig átlátszó kör látható, az azt jelenti, hogy a pozíciód alacsony pontossággal, WiFi vagy mobilkapcsolat használatával került meghatározásra. Győződj meg arról, hogy a rendszerbeállításokban engedélyezted a „Pontos“ helymeghatározást az Organic Maps számára, és próbálj meg kimenni a szabadba, távol a magas épületektől és fáktól, hogy javítsd a műholdas GPS-jel vételét.
 
 2. Ha a pozíciód helytelenül van meghatározva (például az egyik városban tartózkodsz, de az alkalmazás egy másik várost mutat), akkor valószínűleg olyan területen tartózkodsz, amelyet elektronikus hadviselési (EW) intézkedések miatt hamis GPS-jel (GPS-hamisítás) érint. Ilyen esetekben az egyetlen megoldás az, ha másik helyre mész.

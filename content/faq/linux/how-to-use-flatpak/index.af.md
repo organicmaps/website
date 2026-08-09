@@ -13,11 +13,11 @@ aliases:
 
 Om OM op Linux met flatpak te installeer, maak die terminale oop en voer `flatpak install flathub app.organicmaps.desktop` in
 
-Sodra die toepassing geïnstalleer is, kan jy die rolwiel van jou muis of die kontroles op die regterkieslysbalk gebruik om in te zoem in die area wat jy wil navigeer om kaarte vir daardie area af te laai. Jy kan ook op die "aflaai"-ikoon regs onder klik. Sodra jy kaarte afgelaai het vir die streke waarvoor jy omgee, behoort die toepassing selfs sonder 'n internetverbinding te werk. 
+Sodra die toepassing geïnstalleer is, kan jy die rolwiel van jou muis of die kontroles op die regterkieslysbalk gebruik om in te zoem in die area wat jy wil navigeer om kaarte vir daardie area af te laai. Jy kan ook op die “aflaai”-ikoon regs onder klik. Sodra jy kaarte afgelaai het vir die streke waarvoor jy omgee, behoort die toepassing selfs sonder 'n internetverbinding te werk. 
 
 Jy kan jou muis oor die verskillende ikone beweeg om hulpteks te sien. 
 
-Om roetering en draai-vir-draai-navigasie uit te voer, het jy 'n paar opsies. as jy die GPS-koördinate van jou begin- en eindpunte ken, kan jy die instellingsikoon (bo die groen regmerkie) klik en die koördinate van jou beginpunt en bestemming invoer. Om die beginpunt op die kaart te stel, klik die navigasie-ikoon en kies "beginpunt", hou dan die shift-sleutel in en links-kliek op die kaart. Om die bestemming te stel, verander na "eindpunt" en klik 'n ligging op die kaart.
+Om roetering en draai-vir-draai-navigasie uit te voer, het jy 'n paar opsies. as jy die GPS-koördinate van jou begin- en eindpunte ken, kan jy die instellingsikoon (bo die groen regmerkie) klik en die koördinate van jou beginpunt en bestemming invoer. Om die beginpunt op die kaart te stel, klik die navigasie-ikoon en kies “beginpunt”, hou dan die shift-sleutel in en links-kliek op die kaart. Om die bestemming te stel, verander na “eindpunt” en klik 'n ligging op die kaart.
 
 ![Stel beginpunt en eindpunt in](nav_points.png)
 

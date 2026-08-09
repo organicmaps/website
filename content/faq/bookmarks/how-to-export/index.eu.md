@@ -13,6 +13,6 @@ aliases:
   - /eu/faq/bookmarks/how-to-export/
 ---
 
-Sakatu laster-marka bat mapan edo zerrendan, eta, gero, sakatu tokiaren orrialdeko "Partekatu" botoia.
+Sakatu laster-marka bat mapan edo zerrendan, eta, gero, sakatu tokiaren orrialdeko «Partekatu» botoia.
 
-Laster-markak eta ibilbideak orrialdeko zerrenda batean laster-markak eta pista guztiak partekatzeko, sakatu zerrendaren izenaren eskuinaldean dagoen hiru puntu dituen ikonoa eta hautatu "Esportatu KMZ" edo "Esportatu GPX", "Esportatu GeoJSON".
+Laster-markak eta ibilbideak orrialdeko zerrenda batean laster-markak eta pista guztiak partekatzeko, sakatu zerrendaren izenaren eskuinaldean dagoen hiru puntu dituen ikonoa eta hautatu «Esportatu KMZ» edo «Esportatu GPX», «Esportatu GeoJSON».

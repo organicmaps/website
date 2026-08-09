@@ -28,4 +28,4 @@ Vagy alternatív megoldásként:
 1. Engedélyezd a naplózást az alkalmazás beállításaiban.
 2. Kényszerítsd az alkalmazás újraindítását.
 3. Reprodukáld az összeomlást.
-4. Küldd el nekünk a naplófájlt a "Hiba jelentése" gombbal a Névjegy képernyőn, és adj hozzá egy rövid leírást az összeomlásról.
+4. Küldd el nekünk a naplófájlt a „Hiba jelentése“ gombbal a Névjegy képernyőn, és adj hozzá egy rövid leírást az összeomlásról.

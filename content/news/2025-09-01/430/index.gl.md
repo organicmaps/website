@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Agora, ao seleccionar unha parada de autobús ou tranvía, verás os números de ruta do transporte público. Isto é só o primeiro paso! A continuación, planeamos mostrar as rutas de transporte público directamente no mapa. Os usuarios de iOS tamén poden gozar dos botóns de contribución OpenStreetMap rediseñados ("Engadir lugar" e "Editar lugar").
+Agora, ao seleccionar unha parada de autobús ou tranvía, verás os números de ruta do transporte público. Isto é só o primeiro paso! A continuación, planeamos mostrar as rutas de transporte público directamente no mapa. Os usuarios de iOS tamén poden gozar dos botóns de contribución OpenStreetMap rediseñados («Engadir lugar» e «Editar lugar»).
 
 Agradecemos ❤️ aos nosos contribuíntes, así como ás [vosas doazóns](@/donate/index.gl.md) e [o voso apoio](@/contribute/index.gl.md).
 
@@ -28,14 +28,14 @@ Agradecemos ❤️ aos nosos contribuíntes, así como ás [vosas doazóns](@/do
 
 #### iOS
 
-- NOVO! Botóns "Engadir lugar a OpenStreetMap" e "Editar lugar" rediseñados (Kiryl Kaveryn)
+- NOVO! Botóns «Engadir lugar a OpenStreetMap» e «Editar lugar» rediseñados (Kiryl Kaveryn)
 - Liña de salto arranxada ao engadir novo lugar a OpenStreetMap (Kiryl Kaveryn)
 - Novas iconas para capas de mapa e menú (Kiryl Kaveryn, @euf)
 - Eliminadas actualizacións de altitude excesivas durante a gravación da pista (Kiryl Kaveryn)
 - Os títulos multilinea agora son compatibles no selector de lista de marcadores (David Martinez) e na páxina de información do lugar (Kiryl Kaveryn)
 - O inicio/parada da gravación da pista e as actualizacións de puntos agora son máis fiables (Kiryl Kaveryn)
 - Todas as iconas táctiles na páxina de detalles do lugar agora usan a mesma cor azul (Kiryl Kaveryn)
-- O botón "Actualizar mapas para contribuír" agora móstrase no menú cando os mapas son demasiado antigos (Kiryl Kaveryn)
+- O botón «Actualizar mapas para contribuír» agora móstrase no menú cando os mapas son demasiado antigos (Kiryl Kaveryn)
 
 #### Android
 
@@ -44,7 +44,7 @@ Agradecemos ❤️ aos nosos contribuíntes, así como ás [vosas doazóns](@/do
 - Fallos arranxados ao gardar certas rutas e fallo raro no inicio (Viktor Govako)
 - Orientación de ruta mellorada nalgúns casos de navegación (Andrei Shkrob)
 - Orde orixinal dos cores predeterminados de marcador/pista restaurada (Andrei Shkrob)
-- Botón "Cancelar busca" arranxado ao editar cociñas (Ansh Jain)
+- Botón «Cancelar busca» arranxado ao editar cociñas (Ansh Jain)
 
 Obtén a última versión de setembro de Organic Maps desde [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 

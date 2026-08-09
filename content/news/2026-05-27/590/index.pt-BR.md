@@ -46,7 +46,7 @@ Obtenha a atualização em <https://get.omaps.org> ou em [App Store][appstore], 
 - NOVO! O texto da trilha e as descrições HTML agora são suportados, da mesma forma que as descrições dos marcadores. Pressione o ícone de lápis para adicionar uma descrição. _(Mikhail Listratsenka)_
 - NOVO! Escolha qualquer cor para as trilhas, não apenas um subconjunto limitado _(Mikhail Listratsenka)_
 - Os usuários coreanos, chineses e japoneses agora verão as fontes adequadas com base na localidade do dispositivo _(Alexander Borsuk)_
-- Corrigidos problemas na página de local da trilha e no botão "Abrir em" _(Mikhail Listratsenka)_
+- Corrigidos problemas na página de local da trilha e no botão “Abrir em” _(Mikhail Listratsenka)_
 
 ### Linux e macOS
 

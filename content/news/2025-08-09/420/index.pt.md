@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instala a versão de agosto do Organic Maps, descarrega os mapas mais recentes e descobre rotas populares de caminhada e ciclismo em todo o mundo! Pressiona o botão "Camadas" no canto superior esquerdo para ver rotas coloridas de bicicleta e BTT, bem como caminhos oficiais de caminhada e passeio. Não vês nada nas proximidades? Então é hora de adicionar a informação em falta ao OpenStreetMap.org, uma vez que todos os dados de mapas no Organic Maps vêm desse projeto aberto, gratuito e gerido pela comunidade.
+Instala a versão de agosto do Organic Maps, descarrega os mapas mais recentes e descobre rotas populares de caminhada e ciclismo em todo o mundo! Pressiona o botão «Camadas» no canto superior esquerdo para ver rotas coloridas de bicicleta e BTT, bem como caminhos oficiais de caminhada e passeio. Não vês nada nas proximidades? Então é hora de adicionar a informação em falta ao OpenStreetMap.org, uma vez que todos os dados de mapas no Organic Maps vêm desse projeto aberto, gratuito e gerido pela comunidade.
 
 Sabias que qualquer percurso gravado ou importado em GPX/KML no mapa pode ser selecionado? Percursos com dados de altitude exibirão o seu gráfico de elevação.
 
@@ -52,7 +52,7 @@ P.S. …e muito mais está para vir! O teu apoio ajuda-nos e motiva-nos a constr
 
 #### Melhorias diversas
 
-- Escrever "cop" na pesquisa encontra esquadras de polícia, enquanto "film" ou "movie theater" localiza cinemas (theadventurer62)
+- Escrever «cop» na pesquisa encontra esquadras de polícia, enquanto «film» ou «movie theater» localiza cinemas (theadventurer62)
 - Abrir noutra aplicação agora exibe o ponto selecionado no Google Maps (Alexander Borsuk)
 - Tradução em espanhol para mais categorias de pesquisa (David Martinez)
 - Atualizadas várias traduções (colaboradores do Weblate)

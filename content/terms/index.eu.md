@@ -6,11 +6,11 @@ title: "Organic Maps: baldintzak"
 weight: 1000
 ---
 
-App hau Apache License, Version 2.0 (the "License") lizentziapean dago; Lizentzia honekin bat eginez bakarrik erabili dezakezu app-a.
+App hau Apache License, Version 2.0 (the «License») lizentziapean dago; Lizentzia honekin bat eginez bakarrik erabili dezakezu app-a.
 
 Lizentziaren kopia bat lor dezakezu hemen: [http://www.apache.org/licenses/LICENSE-2.0][license]
 
-Ez badu dagokion lege batek eskatzen edo idatziz adosten, lizentzia honen pean banatutako softwarea "DAGOEN MODUAN EMATEN DA, INOLAKO GARANTIA EDO BALDINTZARIK GABE", dela adierazitakoak edo barne ulertutakoak. Irakurri lizentzia dagokion baimen edo muga berezietaz gehiago jakiteko.
+Ez badu dagokion lege batek eskatzen edo idatziz adosten, lizentzia honen pean banatutako softwarea «DAGOEN MODUAN EMATEN DA, INOLAKO GARANTIA EDO BALDINTZARIK GABE», dela adierazitakoak edo barne ulertutakoak. Irakurri lizentzia dagokion baimen edo muga berezietaz gehiago jakiteko.
 
 Ondoko karpetetan dauden liburutegi gehienak ([GitHub][github]) beste pertsona eta erakunde batzuek egindakoak eta lizentziatukoak dira, hainbat modutan:
 

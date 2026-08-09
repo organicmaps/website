@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Gosoda ryddhad mis Awst Organic Maps, lawrlwytha'r mapiau diweddaraf, a darganfydda lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasga'r botwm "Haenau" chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
+Gosoda ryddhad mis Awst Organic Maps, lawrlwytha'r mapiau diweddaraf, a darganfydda lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasga'r botwm ‘Haenau’ chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
 
 A oeddet ti'n gwybod y gellir dewis unrhyw drac GPX/KML a gofnodwyd neu a fewnforiwyd ar y map? Bydd traciau gyda data uchder yn dangos eu graff uchder.
 
@@ -52,7 +52,7 @@ P.S. …ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgog
 
 #### Gwelliannau Amrywiol
 
-- Mae teipio "cop" yn y chwiliad yn dod o hyd i orsafoedd heddlu, tra mae "film" neu "movie theater" yn lleoli sinemâu (theadventurer62)
+- Mae teipio ‘cop’ yn y chwiliad yn dod o hyd i orsafoedd heddlu, tra mae ‘film’ neu ‘movie theater’ yn lleoli sinemâu (theadventurer62)
 - Mae agor mewn app arall bellach yn dangos y pwynt a ddewiswyd yn Google Maps (Alexander Borsuk)
 - Cyfieithiad Sbaeneg ar gyfer mwy o gategorïau chwilio (David Martinez)
 - Wedi diweddaru amrywiol gyfieithiadau (cyfranwyr Weblate)

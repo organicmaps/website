@@ -25,4 +25,4 @@ O alternativamente:
 1. Habilita la grabación de registros en la configuración de la aplicación.
 2. Fuerza el reinicio de la aplicación.
 3. Reproduce el bloqueo.
-4. Envíanos el archivo de registro a través de "Informar un error" en la pantalla Acerca de y agrega una breve descripción del bloqueo.
+4. Envíanos el archivo de registro a través de «Informar un error» en la pantalla Acerca de y agrega una breve descripción del bloqueo.

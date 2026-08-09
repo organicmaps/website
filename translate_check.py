@@ -27,7 +27,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from telegram_post import strip_frontmatter
-from translate_md import register_ok, expected_register
+from translate_md import register_ok, expected_register, QUOTE_FOR
 
 ERROR, WARN = "ERROR", "warn"
 
@@ -350,6 +350,13 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     out_body, out_meta = strip_frontmatter(out)
     problems: list[Problem] = []
 
+    # A section _index body is a note to whoever maintains the templates —
+    # "This page is replaced with taxonomy \"faq\" from templates/faq/list.html".
+    # No template renders it, so its typography is nobody's concern, and the
+    # strings it quotes are identifiers that must stay as they are.
+    if re.search(r"templates/\S+\.html", src_body) and "replaced with taxonomy" in src_body:
+        return problems
+
     # 1. Structure must match the source exactly — unless the page says it
     #    deliberately does not. A few translations are not renderings of the
     #    English page but their own edition of it: the Russian homepage runs a
@@ -575,7 +582,11 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     prose = re.sub(r"\{\{[^}]*\}\}", " ", prose)
     prose = re.sub(r"`[^`\n]*`", " ", prose)
     prose = re.sub(r"\]\([^)\s]+\s+\"[^\"]*\"\)", "]()", prose)
-    if re.search(r'(?<![\w=])"[^"\n]{1,120}"', prose):
+    # Only worth saying where we know what the language wants instead. Hebrew,
+    # Italian and Turkish have no pair defined in QUOTES, and Hebrew in
+    # particular uses the straight mark by convention — warning there asks for
+    # a change with no target. That alone was 104 of the 562 warnings.
+    if QUOTE_FOR.get(lang) and re.search(r'(?<![\w=])"[^"\n]{1,120}"', prose):
         problems.append(Problem(
             WARN, "ascii-quotes",
             "straight \" quotes present; use the language's native marks"))

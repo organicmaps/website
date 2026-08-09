@@ -30,7 +30,7 @@ Android:
 - Arranxado o deseño incorrecto da interface de usuario nalgúns dispositivos (_Sergiy Kozyr_)
 - Mostrar inicio de sesión e contrasinal de OSM se o inicio de sesión do navegador falla/non está dispoñible (_Sergiy Kozyr_)
 - Arranxado o salto da cruz ao engadir obxectos a OpenStreetMap (_@hemanggs_)
-- Arranxado o botón "Reintentar descarga fallida" (_Kavi Khalique_)
+- Arranxado o botón «Reintentar descarga fallida» (_Kavi Khalique_)
 - Arranxada a pantalla de inicio que se superpón cos botóns do sistema (_Vraj Shah_)
 - Arranxados algúns fallos (_Devarsh Vasani_)
 - Arranxado o erro EACCESS PermissionDenied ao importar KML ou GPX en Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Cambios de iOS, todos os créditos para _Kiryl Kaveryn_:
 - Agora podes editar ou eliminar a pista gravada inmediatamente despois de gardala
 - Área de toque expandida para botóns
 - Arranxadas as notas OSM que saltaban ao escribir texto
-- Mostrar botón "Engadir Lugar" para negocios
+- Mostrar botón «Engadir Lugar» para negocios
 
 P.D. Se che gusta ler notas de lanzamento detalladas, por favor fáinosllo saber nas nosas [redes sociais](/gl/#comunidade)
 

@@ -28,4 +28,4 @@ Ou alternativamente:
 1. Activa a gravación de rexistros na configuración da aplicación.
 2. Forza o reinicio da aplicación.
 3. Reproduce o fallo.
-4. Envíanos o ficheiro de rexistro a través de "Informar dun erro" na pantalla Acerca de e engade unha breve descrición do fallo.
+4. Envíanos o ficheiro de rexistro a través de «Informar dun erro» na pantalla Acerca de e engade unha breve descrición do fallo.

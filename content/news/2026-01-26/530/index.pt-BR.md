@@ -29,7 +29,7 @@ Instale de [get.omaps.org](https://get.omaps.org) ou da [App Store][appstore], [
 * Corrigida a sobreposição da barra de ferramentas de roteamento em telas pequenas _(Anton P)_
 * Corrigido um travamento de pesquisa no Android 5 e 6 _(Alexander Borsuk)_
 * Corrigidas as traduções de Perguntas Frequentes no Android 5 _(Alexander Borsuk)_
-* Corrigido um erro de "Espaço livre insuficiente" ao atualizar mapas _(Alexander Borsuk)_
+* Corrigido um erro de “Espaço livre insuficiente” ao atualizar mapas _(Alexander Borsuk)_
 
 ### Traduções
 

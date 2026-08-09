@@ -17,7 +17,7 @@ Por favor, verifique se o seu dispositivo tem GPS e as configurações de locali
 
 No seu dispositivo, abra Configurações → Localização. É melhor ligar o modo de alta precisão (GPS assistido, A-GPS).
 
-Se tiver dificuldade em determinar a sua localização com o GPS, ative (desative, se ativada) o "Google Play Services" nas configurações da aplicação.
+Se tiver dificuldade em determinar a sua localização com o GPS, ative (desative, se ativada) o “Google Play Services” nas configurações da aplicação.
 
 Nota: só pode ver se tiver o Google Play Services instalado (ativado) no seu dispositivo Android. Os serviços de reprodução do Google são usados para determinar a localização com mais precisão. Se você tiver problemas com a precisão da localização depois de desativar a opção, ative-a.
 
@@ -37,6 +37,6 @@ Se você é um usuário de iPhone ou iPad, Por favor, verifique as configuraçõ
 
 **Localização incorreta é mostrada no mapa**
 
-1. Se houver um grande círculo semitransparente ao redor da seta de sua localização no mapa, isso significa que sua posição está sendo determinada com baixa precisão, usando conexão WiFi ou celular. Certifique-se de ter ativado a precisão de localização "Precisa" para o Organic Maps nas configurações do sistema e tente ir para fora, longe de edifícios altos e árvores, para melhorar a recepção do sinal de GPS via satélite.
+1. Se houver um grande círculo semitransparente ao redor da seta de sua localização no mapa, isso significa que sua posição está sendo determinada com baixa precisão, usando conexão WiFi ou celular. Certifique-se de ter ativado a precisão de localização “Precisa” para o Organic Maps nas configurações do sistema e tente ir para fora, longe de edifícios altos e árvores, para melhorar a recepção do sinal de GPS via satélite.
 
 2. Se sua posição for determinada incorretamente (por exemplo, você está em uma cidade, mas o aplicativo mostra outra cidade), é muito provável que você esteja em uma área afetada por um sinal de GPS falso (GPS spoofing) devido a medidas de guerra eletrônica (EW). Nesses casos, a única solução é mudar para outro local.

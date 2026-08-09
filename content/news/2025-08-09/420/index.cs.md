@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko "Vrstvy" vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
+Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko „Vrstvy“ vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
 
 Věděli jste, že lze vybrat jakoukoli zaznamenanou nebo importovanou GPX/KML stopu na mapě? Stopy s výškovými údaji zobrazí svůj výškový graf.
 
@@ -52,7 +52,7 @@ P.S. …a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás 
 
 #### Různá vylepšení
 
-- Zadání "cop" do vyhledávání najde policejní stanice, zatímco "film" nebo "movie theater" najde kina (theadventurer62)
+- Zadání „cop“ do vyhledávání najde policejní stanice, zatímco „film“ nebo „movie theater“ najde kina (theadventurer62)
 - Otevření v jiné aplikaci nyní zobrazuje vybraný bod v Google Maps (Alexander Borsuk)
 - Španělský překlad pro více kategorií vyhledávání (David Martinez)
 - Aktualizovány různé překlady (přispěvatelé Weblate)

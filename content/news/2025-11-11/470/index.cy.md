@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Ar ôl dileu rhestr nodau tudalen neu restr traciau (trwy'r botwm "Mwy"), mae'r ap nawr yn dychwelyd yn gywir i'r sgrin flaenorol (Kiryl Kaveryn)
-- Ychwanegwyd dolenni cyfryngau cymdeithasol [TikTok][tiktok], [Threads][threads], a [Bluesky][bluesky] i'r sgrin "Amdanom" (Kiryl Kaveryn)
-- Ychwanegwyd "Rhoi gwybod am nam" i gamau cyflym eicon yr ap ar y sgrin gartref (Kiryl Kaveryn)
+- Ar ôl dileu rhestr nodau tudalen neu restr traciau (trwy'r botwm ‘Mwy’), mae'r ap nawr yn dychwelyd yn gywir i'r sgrin flaenorol (Kiryl Kaveryn)
+- Ychwanegwyd dolenni cyfryngau cymdeithasol [TikTok][tiktok], [Threads][threads], a [Bluesky][bluesky] i'r sgrin ‘Amdanom’ (Kiryl Kaveryn)
+- Ychwanegwyd ‘Rhoi gwybod am nam’ i gamau cyflym eicon yr ap ar y sgrin gartref (Kiryl Kaveryn)
 - Wedi trwsio damweiniau amrywiol yn yr ap a CarPlay (Kiryl Kaveryn)
 
 ### Android

@@ -37,6 +37,6 @@ Jika kamu pengguna iPhone atau iPad, silakan periksa pengaturan iOS → Privasi 
 
 **Lokasi yang salah ditampilkan di peta**
 
-1. Jika ada lingkaran semi-transparan besar di sekitar panah lokasi kamu di peta, itu berarti posisi kamu ditentukan dengan akurasi rendah, menggunakan koneksi WiFi atau seluler. Pastikan kamu mengaktifkan akurasi lokasi "Tepat" untuk Organic Maps di pengaturan sistem, dan cobalah pergi ke luar, jauh dari gedung tinggi dan pohon, untuk meningkatkan penerimaan sinyal GPS satelit.
+1. Jika ada lingkaran semi-transparan besar di sekitar panah lokasi kamu di peta, itu berarti posisi kamu ditentukan dengan akurasi rendah, menggunakan koneksi WiFi atau seluler. Pastikan kamu mengaktifkan akurasi lokasi “Tepat” untuk Organic Maps di pengaturan sistem, dan cobalah pergi ke luar, jauh dari gedung tinggi dan pohon, untuk meningkatkan penerimaan sinyal GPS satelit.
 
 2. Jika posisi kamu ditentukan secara tidak benar (misalnya, kamu berada di satu kota, tetapi aplikasi menunjukkan kota lain), maka kamu kemungkinan besar berada di area yang terpengaruh oleh sinyal GPS palsu (spoofing GPS) karena tindakan peperangan elektronik (EW). Dalam kasus seperti itu, satu-satunya solusi adalah pindah ke lokasi lain.

@@ -37,6 +37,6 @@ Als je een iPhone- of iPad-gebruiker bent, controleer dan de iOS-instellingen �
 
 **Onjuiste locatie wordt op de kaart weergegeven**
 
-1. Als er een grote halfdoorzichtige cirkel rond je locatiepijl op de kaart staat, betekent dit dat je positie met lage nauwkeurigheid wordt bepaald, met behulp van WiFi of mobiele verbinding. Zorg ervoor dat je "Precieze" locatienauwkeurigheid hebt ingeschakeld voor Organic Maps in de systeeminstellingen, en probeer naar buiten te gaan, weg van hoge gebouwen en bomen, om de ontvangst van het GPS-satellietsignaal te verbeteren.
+1. Als er een grote halfdoorzichtige cirkel rond je locatiepijl op de kaart staat, betekent dit dat je positie met lage nauwkeurigheid wordt bepaald, met behulp van WiFi of mobiele verbinding. Zorg ervoor dat je “Precieze” locatienauwkeurigheid hebt ingeschakeld voor Organic Maps in de systeeminstellingen, en probeer naar buiten te gaan, weg van hoge gebouwen en bomen, om de ontvangst van het GPS-satellietsignaal te verbeteren.
 
 2. Als je positie onjuist wordt bepaald (je bent bijvoorbeeld in de ene stad, maar de app toont een andere stad), bevind je je hoogstwaarschijnlijk in een gebied dat wordt beïnvloed door een vals GPS-signaal (GPS-spoofing) als gevolg van maatregelen voor elektronische oorlogsvoering (EW). In dergelijke gevallen is de enige oplossing om naar een andere locatie te gaan.

@@ -6,7 +6,7 @@ extra:
   menu_title: Termes
 ---
 
-La présente application est régie par la licence Apache, version 2.0 (la "licence") ;
+La présente application est régie par la licence Apache, version 2.0 (la «licence») ;
 tu ne peux utiliser cette application qu'en conformité avec la licence.
 
 Tu peux obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0][license].

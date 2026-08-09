@@ -24,8 +24,8 @@ Se pretendes ver **horários de transportes públicos em tempo real** na tua cid
 * Melhor classificação dos resultados de pesquisa para categorias (Viktor Govako)
 * Adicionada culinária uzbeque (alnzrv)
 * Adicionados slide ou zip lines no mapa (Rawdyrathaur)
-* Corrigidos links da Wikimedia com "?" no título (alnzrv)
-* Suporte a ficheiros GPX com "+" nas coordenadas (Alexander Borsuk)
+* Corrigidos links da Wikimedia com «?» no título (alnzrv)
+* Suporte a ficheiros GPX com «+» nas coordenadas (Alexander Borsuk)
 
 ### iOS
 

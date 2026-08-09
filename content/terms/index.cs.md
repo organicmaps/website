@@ -6,7 +6,7 @@ title: "Organic Maps: Podmínky"
 weight: 1000
 ---
 
-Tato aplikace je licencována pod licencí Apache License, verze 2.0 (dále jen "Licence"); tuto aplikaci můžete používat pouze v souladu s Licencí.
+Tato aplikace je licencována pod licencí Apache License, verze 2.0 (dále jen „Licence“); tuto aplikaci můžete používat pouze v souladu s Licencí.
 
 Kopii licence můžete získat na adrese [http://www.apache.org/licenses/LICENSE-2.0][license]
 

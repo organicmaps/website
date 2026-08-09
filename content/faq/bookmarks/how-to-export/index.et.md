@@ -12,6 +12,6 @@ aliases:
   - /et/faq/bookmarks/how-to-export/
 ---
 
-Puuduta järjehoidjat kaardil või loendis ja seejärel puuduta koha lehel nuppu "Jaga".
+Puuduta järjehoidjat kaardil või loendis ja seejärel puuduta koha lehel nuppu „Jaga“.
 
-Kõigi järjehoidjate ja lugude jagamiseks lehe Järjehoidjad ja rajad loendis puuduta kolme punktiga ikooni loendi nimest paremal ja vali "Ekspordi KMZ" või "Ekspordi GPX", "Ekspordi GeoJSON".
+Kõigi järjehoidjate ja lugude jagamiseks lehe Järjehoidjad ja rajad loendis puuduta kolme punktiga ikooni loendi nimest paremal ja vali „Ekspordi KMZ“ või „Ekspordi GPX“, „Ekspordi GeoJSON“.

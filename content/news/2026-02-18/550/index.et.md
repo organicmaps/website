@@ -24,8 +24,8 @@ Kui soovid näha oma linna **reaalajas ühistranspordi sõiduplaane** ühes eels
 * Parandatud otsingutulemuste järjestus kategooriate kaupa (Viktor Govako)
 * Lisatud usbeki köök (alnzrv)
 * Lisatud kaardile zipline'id (Rawdyrathaur)
-* Parandatud Wikimedia lingid, mille pealkirjas on "?" (alnzrv)
-* Toetus GPX-failidele "+" märgiga koordinaatides (Alexander Borsuk)
+* Parandatud Wikimedia lingid, mille pealkirjas on „?“ (alnzrv)
+* Toetus GPX-failidele „+“ märgiga koordinaatides (Alexander Borsuk)
 
 ### iOS
 

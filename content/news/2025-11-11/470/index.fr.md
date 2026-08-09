@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Après la suppression d'une liste de signets ou de traces (via le bouton "Plus"), l'application revient maintenant correctement à l'écran précédent (Kiryl Kaveryn)
-- Ajout des liens vers les réseaux sociaux [TikTok][tiktok], [Threads][threads] et [Bluesky][bluesky] sur l'écran "À propos" (Kiryl Kaveryn)
-- Ajout de "Signaler un bogue" aux actions rapides de l'icône de l'application sur l'écran d'accueil (Kiryl Kaveryn)
+- Après la suppression d'une liste de signets ou de traces (via le bouton «Plus»), l'application revient maintenant correctement à l'écran précédent (Kiryl Kaveryn)
+- Ajout des liens vers les réseaux sociaux [TikTok][tiktok], [Threads][threads] et [Bluesky][bluesky] sur l'écran «À propos» (Kiryl Kaveryn)
+- Ajout de «Signaler un bogue» aux actions rapides de l'icône de l'application sur l'écran d'accueil (Kiryl Kaveryn)
 - Correction de divers plantages de l'application et de CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -37,7 +37,7 @@ Merci de nous faire savoir si tu peux exécuter Organic Maps sur des appareils x
 
 ### Carte & Styles
 
-- Interversion du rendu des voies ferrées "abandonnées" et "désaffectées" (Lukas Hamm)
+- Interversion du rendu des voies ferrées «abandonnées» et «désaffectées» (Lukas Hamm)
 - Ajout des horlogers et des logements étudiants sur la carte (David Martinez)
 - Ajout d'icônes pour les agences de voyage (David Martinez)
 - Changement de la couleur de l'icône des toilettes en gris (David Martinez)

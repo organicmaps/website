@@ -28,4 +28,4 @@ Atau sebagai alternatif:
 1. Aktifkan perekaman log di pengaturan aplikasi.
 2. Paksa mulai ulang aplikasi.
 3. Reproduksi kerusakan.
-4. Kirimkan file log kepada kami melalui "Laporkan bug" di layar Tentang dan tambahkan deskripsi singkat tentang kerusakan tersebut.
+4. Kirimkan file log kepada kami melalui “Laporkan bug” di layar Tentang dan tambahkan deskripsi singkat tentang kerusakan tersebut.

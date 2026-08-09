@@ -19,7 +19,7 @@ Ander noemenswaardige prestasies in 2025 sluit in:
 - 1K [Pull Requests](https://github.com/organicmaps/organicmaps/pulls) geskep en 808 saamgevoeg in 2025 uit 'n totaal van 5K.
 - 800 [nuwe kwessies][github issues] geskep en 482 reggestel/gesluit in 2025 uit 'n totaal van 6K.
 - [1.5K commits](https://github.com/organicmaps/organicmaps/commits) van 100 bydraers in 2025 uit 'n totaal van 8.6K commits sedert die projek in 2020 begin het.
-- Die projek het 1,244 "forks" en 12,411 sterre [op GitHub][github] bereik, wat dui op sterk ontwikkelaarsbelangstelling en werklike gebruik.
+- Die projek het 1,244 “forks” en 12,411 sterre [op GitHub][github] bereik, wat dui op sterk ontwikkelaarsbelangstelling en werklike gebruik.
 
 #### Winkelgraderings en gebruikersbetrokkenheid
 

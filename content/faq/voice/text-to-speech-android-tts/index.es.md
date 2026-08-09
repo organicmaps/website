@@ -27,7 +27,7 @@ La recomendación oficial de Organic Maps es [RHVoice](https://rhvoice.org/), qu
 - Reinicia de nuevo la aplicación Organic Maps (o reinicia el dispositivo) si la voz no funciona.
 
 
-Si no puedes encontrar estos ajustes, abre la aplicación de Ajustes y busca "Instrucciones de voz".
+Si no puedes encontrar estos ajustes, abre la aplicación de Ajustes y busca «Instrucciones de voz».
 
 Aviso: Nota que estas instrucciones pueden variar en función de la marca de tu dispositivo.
 
@@ -63,6 +63,6 @@ Si tienes problemas para inicializar el motor de voz RHVoice en LineageOS o en o
 
 ## Prueba de la síntesis de voz
 
-Para probar las instrucciones de voz, pulsa en "Probar indicaciones de voz (TTS, Text-To-Speech)" en el menú "Ajustes → Instrucciones de voz" de OM, o puedes iniciar una navegación para recibir cualquier salida de voz. Organic Maps no te dará instrucciones de voz si estás parado.
+Para probar las instrucciones de voz, pulsa en «Probar indicaciones de voz (TTS, Text-To-Speech)» en el menú «Ajustes → Instrucciones de voz» de OM, o puedes iniciar una navegación para recibir cualquier salida de voz. Organic Maps no te dará instrucciones de voz si estás parado.
 
 ![Prueba de la funcionalidad de síntesis de voz](tts_test.png "Prueba de la funcionalidad de síntesis de voz")

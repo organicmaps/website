@@ -28,4 +28,4 @@ Of alternatiewelik:
 1. Aktiveer logopname in die programinstellings.
 2. Dwing die program om weer te begin.
 3. Reproduseer die omval.
-4. Stuur vir ons die loglêer via "Rapporteer 'n fout" in die Oor-skerm en voeg 'n kort beskrywing van die omval by.
+4. Stuur vir ons die loglêer via “Rapporteer 'n fout” in die Oor-skerm en voeg 'n kort beskrywing van die omval by.

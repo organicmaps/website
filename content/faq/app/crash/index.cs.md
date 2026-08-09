@@ -28,4 +28,4 @@ Nebo alternativně:
 1. Povolte záznam logů v nastavení aplikace.
 2. Vynutit restart aplikace.
 3. Reprodukujte pád.
-4. Pošlete nám soubor logu přes "Nahlásit chybu" na obrazovce O aplikaci a přidejte krátký popis pádu.
+4. Pošlete nám soubor logu přes „Nahlásit chybu“ na obrazovce O aplikaci a přidejte krátký popis pádu.

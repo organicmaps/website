@@ -28,4 +28,4 @@ O alternativament:
 1. Activeu l'enregistrament de registres a la configuració de l'aplicació.
 2. Forceu el reinici de l'aplicació.
 3. Reproduïu el bloqueig.
-4. Envieu-nos el fitxer de registre mitjançant "Informa d'un error" a la pantalla Quant a i afegiu una breu descripció del bloqueig.
+4. Envieu-nos el fitxer de registre mitjançant «Informa d'un error» a la pantalla Quant a i afegiu una breu descripció del bloqueig.

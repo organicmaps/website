@@ -25,4 +25,4 @@ Ou alternativamente:
 1. Ative a gravação de logs nas configurações do aplicativo.
 2. Force a reinicialização do aplicativo.
 3. Reproduza o travamento.
-4. Envie-nos o arquivo de log via "Relatar um erro" na tela Sobre e adicione uma breve descrição do travamento.
+4. Envie-nos o arquivo de log via “Relatar um erro” na tela Sobre e adicione uma breve descrição do travamento.

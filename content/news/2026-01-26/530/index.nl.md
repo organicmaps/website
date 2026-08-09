@@ -29,7 +29,7 @@ Installeer het vanaf [get.omaps.org](https://get.omaps.org) of vanaf [App Store]
 * Overlapping van routing-werkbalk op kleine schermen opgelost _(Anton P)_
 * Zoekcrash op Android 5 en 6 opgelost _(Alexander Borsuk)_
 * FAQ-vertalingen op Android 5 opgelost _(Alexander Borsuk)_
-* Fout "Niet genoeg vrije ruimte" bij het bijwerken van kaarten opgelost _(Alexander Borsuk)_
+* Fout “Niet genoeg vrije ruimte” bij het bijwerken van kaarten opgelost _(Alexander Borsuk)_
 
 ### Vertalingen
 

@@ -13,11 +13,11 @@ aliases:
 
 Az OM telepítéséhez Linuxra flatpak használatával, nyisd meg a terminált, és írd be a `flatpak install flathub app.organicmaps.desktop` parancsot.
 
-Az alkalmazás telepítése után használhatod az egér görgőjét vagy a jobb oldali menüsorban lévő vezérlőket a navigálni kívánt területre nagyításhoz, hogy térképeket tölthess le az adott területhez. A jobb alsó sarokban található "letöltés" ikonra is kattinthatsz. Miután letöltötted a neked fontos régiók térképeit, az alkalmazásnak internetkapcsolat nélkül is működnie kell. 
+Az alkalmazás telepítése után használhatod az egér görgőjét vagy a jobb oldali menüsorban lévő vezérlőket a navigálni kívánt területre nagyításhoz, hogy térképeket tölthess le az adott területhez. A jobb alsó sarokban található „letöltés“ ikonra is kattinthatsz. Miután letöltötted a neked fontos régiók térképeit, az alkalmazásnak internetkapcsolat nélkül is működnie kell. 
 
 Ha az egeret a különböző ikonok fölé viszed, súgószövegeket szeretnél látni. 
 
-Az útvonaltervezéshez és a turn by turn navigációhoz több lehetőség közül választhatsz. Ha ismered a kiindulási és végpont GPS-koordinátáit, kattints a beállítások ikonra (a zöld pipa felett), és add meg a kiindulási pont és az úti cél koordinátáit. A kiindulópont térképen történő beállításához kattints a navigációs ikonra, és válaszd ki a "kiindulópontot", majd tartsd lenyomva a Shift billentyűt, és kattints a bal egérgombbal a térképre. A cél beállításához válts „végpontra”, és kattints egy helyre a térképen.
+Az útvonaltervezéshez és a turn by turn navigációhoz több lehetőség közül választhatsz. Ha ismered a kiindulási és végpont GPS-koordinátáit, kattints a beállítások ikonra (a zöld pipa felett), és add meg a kiindulási pont és az úti cél koordinátáit. A kiindulópont térképen történő beállításához kattints a navigációs ikonra, és válaszd ki a „kiindulópontot“, majd tartsd lenyomva a Shift billentyűt, és kattints a bal egérgombbal a térképre. A cél beállításához válts „végpontra”, és kattints egy helyre a térképen.
 
 ![A kezdő- és végpont beállítása](nav_points.png)
 

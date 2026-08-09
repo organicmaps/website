@@ -19,12 +19,12 @@ Om 'n enkele lêer in te voer:
 
 1. Vind gedeelde KML-, KMZ-, KMB-, GPX-lêer met boekmerke wat per e-pos, kitsboodskapper of wolkberging gestuur word, byvoorbeeld iCloud of Google Drive.
 
-2. Tik een keer of tik en hou die KML-, KMZ-, KMB-, GPX-lêer met boekmerke en kies Maak oop met Organic Maps (Android) of "Voer in met Organic Maps" (iOS) in die opspringvenster.
+2. Tik een keer of tik en hou die KML-, KMZ-, KMB-, GPX-lêer met boekmerke en kies Maak oop met Organic Maps (Android) of “Voer in met Organic Maps” (iOS) in die opspringvenster.
 
 3. Dit sal oop wees met Organic Maps en jy sal 'Boekmerke suksesvol gelaai!' sien. Jy kan hulle op die kaart of in die Boekmerkkieslys-skerm vind.
 
 Die invoer van boekmerke en snitte in bondel is ook moontlik:
 
-1. Maak Organic Maps oop en tik op sterknoppie om lys van boekmerke en snitte oop te maak. Druk "Voer boekmerke en snitte in" knoppie.
+1. Maak Organic Maps oop en tik op sterknoppie om lys van boekmerke en snitte oop te maak. Druk “Voer boekmerke en snitte in” knoppie.
 
 2. Kies 'n vouer met KML-, KMZ-, KMB-, GPX-lêers. Organic Maps sal dit skandeer insluitend subgidse en alle ondersteunde lêers met boekmerke en snitte invoer. Jy kan die wortelgids kies om oor alle berging te soek.

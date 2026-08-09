@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Após eliminar uma lista de marcadores ou lista de trilhos (através do botão "Mais"), a aplicação agora retorna corretamente ao ecrã anterior (Kiryl Kaveryn)
-- Adicionadas ligações de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] no ecrã "Acerca de" (Kiryl Kaveryn)
-- Adicionado "Reportar um erro" às ações rápidas do ícone da aplicação no ecrã inicial (Kiryl Kaveryn)
+- Após eliminar uma lista de marcadores ou lista de trilhos (através do botão «Mais»), a aplicação agora retorna corretamente ao ecrã anterior (Kiryl Kaveryn)
+- Adicionadas ligações de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] no ecrã «Acerca de» (Kiryl Kaveryn)
+- Adicionado «Reportar um erro» às ações rápidas do ícone da aplicação no ecrã inicial (Kiryl Kaveryn)
 - Corrigidas várias falhas da aplicação e CarPlay (Kiryl Kaveryn)
 
 ### Android

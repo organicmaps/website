@@ -19,12 +19,12 @@ Eén bestand importeren:
 
 1. Zoek een gedeeld KML-, KMZ-, KMB-, GPX-bestand met bladwijzers verzonden per e-mail, instant messenger of cloudopslag, bijvoorbeeld iCloud of Google Drive.
 
-2. Tik één keer of houd het KML-, KMZ-, KMB-, GPX-bestand met bladwijzers ingedrukt en kies Openen met Organic Maps (Android) of "Importeren met Organic Maps" (iOS) in het pop-upvenster.
+2. Tik één keer of houd het KML-, KMZ-, KMB-, GPX-bestand met bladwijzers ingedrukt en kies Openen met Organic Maps (Android) of “Importeren met Organic Maps” (iOS) in het pop-upvenster.
 
 3. Het wordt geopend met Organic Maps en je ziet 'Bladwijzers succesvol geladen!'. Je kunt ze vinden op de kaart of in het bladwijzermenuscherm.
 
 Het is ook mogelijk om bladwijzers en tracks in batch te importeren:
 
-1. Open Organic Maps en tik op de sterknop om de lijst met bladwijzers en nummers te openen. Druk op de knop "Bladwijzers en nummers importeren".
+1. Open Organic Maps en tik op de sterknop om de lijst met bladwijzers en nummers te openen. Druk op de knop “Bladwijzers en nummers importeren”.
 
 2. Selecteer een map met KML-, KMZ-, KMB-, GPX-bestanden. Organic Maps scant het inclusief submappen en importeert alle ondersteunde bestanden met bladwijzers en tracks. Je kunt de hoofdmap kiezen om alle opslagruimte te doorzoeken.

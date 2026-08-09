@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką "Sluoksniai", kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
+Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką „Sluoksniai“, kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
 
 Ar žinojote, kad bet kurį įrašytą ar importuotą GPX/KML takelį žemėlapyje galima pasirinkti? Takeliai su aukščio duomenimis parodys savo aukščio grafiką.
 
@@ -52,7 +52,7 @@ P.S. …ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti 
 
 #### Įvairūs patobulinimai
 
-- Įvedus "cop" paieškoje randamos policijos nuovados, o "film" ar "movie theater" randami kino teatrai (theadventurer62)
+- Įvedus „cop“ paieškoje randamos policijos nuovados, o „film“ ar „movie theater“ randami kino teatrai (theadventurer62)
 - Atidarimas kitoje programoje dabar rodo pasirinktą tašką Google Maps (Alexander Borsuk)
 - Ispanų kalbos vertimas daugiau paieškos kategorijų (David Martinez)
 - Atnaujinti įvairūs vertimai (Weblate bendradarbiai)

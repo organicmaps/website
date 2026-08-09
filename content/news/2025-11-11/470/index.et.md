@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Pärast järjehoidjate loendi või radade loendi kustutamist (nupu "Rohkem" kaudu) naaseb rakendus nüüd õigesti eelmisele ekraanile (Kiryl Kaveryn)
-- Lisatud [TikTok][tiktok], [Threads][threads] ja [Bluesky][bluesky] sotsiaalmeedia lingid ekraanile "Teave" (Kiryl Kaveryn)
-- Lisatud "Teata veast" rakenduse ikooni kiirtoimingutesse avakuval (Kiryl Kaveryn)
+- Pärast järjehoidjate loendi või radade loendi kustutamist (nupu „Rohkem“ kaudu) naaseb rakendus nüüd õigesti eelmisele ekraanile (Kiryl Kaveryn)
+- Lisatud [TikTok][tiktok], [Threads][threads] ja [Bluesky][bluesky] sotsiaalmeedia lingid ekraanile „Teave“ (Kiryl Kaveryn)
+- Lisatud „Teata veast“ rakenduse ikooni kiirtoimingutesse avakuval (Kiryl Kaveryn)
 - Parandatud mitmesugused rakenduse ja CarPlay kokkujooksmised (Kiryl Kaveryn)
 
 ### Android

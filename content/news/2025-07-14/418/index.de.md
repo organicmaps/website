@@ -30,7 +30,7 @@ Android:
 - Falsches Benutzeroberflächenlayout auf einigen Geräten behoben (_Sergiy Kozyr_)
 - OSM-Anmeldung und Passwort anzeigen, wenn Browser-Anmeldung fehlschlägt/nicht verfügbar ist (_Sergiy Kozyr_)
 - Fadenkreuz-Sprung beim Hinzufügen von Objekten zu OpenStreetMap behoben (_@hemanggs_)
-- "Fehlgeschlagenen Download wiederholen"-Button behoben (_Kavi Khalique_)
+- „Fehlgeschlagenen Download wiederholen“-Button behoben (_Kavi Khalique_)
 - Startbildschirm behoben, der sich mit Systembuttons überlappt (_Vraj Shah_)
 - Einige Abstürze behoben (_Devarsh Vasani_)
 - EACCESS PermissionDenied-Fehler beim Importieren von KML oder GPX auf Android 5 behoben (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS-Änderungen, alle Anerkennung an _Kiryl Kaveryn_:
 - Jetzt kannst du den aufgezeichneten Track sofort nach dem Speichern bearbeiten oder löschen
 - Erweiterte Tippfläche für Buttons
 - Springende OSM-Notizen beim Tippen von Text behoben
-- "Ort hinzufügen"-Button für Unternehmen anzeigen
+- „Ort hinzufügen“-Button für Unternehmen anzeigen
 
 P.S. Wenn du gerne detaillierte Versionshinweise liest, lass es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
 

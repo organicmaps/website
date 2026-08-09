@@ -29,7 +29,7 @@ Installeer dit vanaf [get.omaps.org](https://get.omaps.org) of vanaf [App Store]
 * Reggestel navigasie nutsbalkoorbloeding op klein skerms _(Anton P)_
 * Reggestel 'n soektongeluk op Android 5 en 6 _(Alexander Borsuk)_
 * Reggestel FAQ vertalings op Android 5 _(Alexander Borsuk)_
-* Reggestel 'n "Nie genoeg gratis spasie" fout wanneer kaarte opgedateer word _(Alexander Borsuk)_
+* Reggestel 'n “Nie genoeg gratis spasie” fout wanneer kaarte opgedateer word _(Alexander Borsuk)_
 
 ### Vertalings
 

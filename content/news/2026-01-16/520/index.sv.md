@@ -14,7 +14,7 @@ Låt oss börja 2026 med en Organic Maps-uppdatering, möjliggjord av alla våra
 * Uppdaterad OpenStreetMap-data (11 januari) (Viktor Govako)
 * Lagt till albansk röstvägledning (TTS) (Alexander Borsuk)
 * Lagt till bulgariska söksynonymer (Clippy)
-* Uteslutit kasinon från kategorin "Underhållning" (Clippy)
+* Uteslutit kasinon från kategorin “Underhållning” (Clippy)
 * Minskat tjockleken på tunnelbanelinjer (Manik)
 * Lagt till kapacitetsinformation i sökresultaten för motorcykelparkering, cykeluthyrning, cykelladdning och billaddning (David Martinez)
 * Lagt till våningsplan i sökresultaten (David Martinez)
@@ -25,7 +25,7 @@ Låt oss börja 2026 med en Organic Maps-uppdatering, möjliggjord av alla våra
 * Uppdaterat FAQ och lagt till FAQ-översättningar för arabiska, tjeckiska, nederländska, persiska, grekiska, hebreiska, hindi, ungerska, indonesiska, italienska, litauiska, marathi, svenska, telugu (Alexander Borsuk)
 * Förbättrade tyska app- och FAQ-översättningar (DaN0mic)
 * Förbättrade latinamerikanska spanska appöversättningar (Alexander Borsuk)
-* Omdöpt inställningen "Zoomknappar" för tydlighet (Alexander Borsuk)
+* Omdöpt inställningen “Zoomknappar” för tydlighet (Alexander Borsuk)
 * Översättningskorrigeringar från Weblate-bidragsgivare för olika språk (Viktor Govako)
 
 ### Endast iOS-ändringar
@@ -35,7 +35,7 @@ Låt oss börja 2026 med en Organic Maps-uppdatering, möjliggjord av alla våra
 ### Endast Android-ändringar
 
 * Lagt till Google Assistant-stöd för navigering och sökning (skirm-tech)
-* Uppdaterat inställningen för navigeringstema "Automatisk" för att följa systemets mörka/ljusa läge (Dzmitry Strekha)
+* Uppdaterat inställningen för navigeringstema “Automatisk” för att följa systemets mörka/ljusa läge (Dzmitry Strekha)
 * Åtgärdat en krasch vid start av navigering (Owm Dubey)
 * Åtgärdat en krasch vid uppladdning av anteckningar till OpenStreetMap (Prakamy Awasthi)
 * Åtgärdat en krasch i Android Auto (Alexander Borsuk)

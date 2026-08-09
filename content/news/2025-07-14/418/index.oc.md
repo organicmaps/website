@@ -30,7 +30,7 @@ Android:
 - Correccions de la mesa en pagina incorrècta de l'interfàcia utilizaire sus qualques aparelhs (_Sergiy Kozyr_)
 - Afichar la connexion e lo senhal OSM se la connexion del navegador fracassa/es pas disponibla (_Sergiy Kozyr_)
 - Correccions del saut de reticul quand s'ajustan objèctes a OpenStreetMap (_@hemanggs_)
-- Correccions del boton "Tornar ensajar lo telecargament fracassat" (_Kavi Khalique_)
+- Correccions del boton «Tornar ensajar lo telecargament fracassat» (_Kavi Khalique_)
 - Correccions de l'ecran d'aviada que se superpòne als botons del sistèma (_Vraj Shah_)
 - Correccions de qualques plantatges (_Devarsh Vasani_)
 - Correccions de l'error EACCESS PermissionDenied quand s'importan KML o GPX sus Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Cambiaments iOS, totes los merits a _Kiryl Kaveryn_:
 - Ara pòdes editar o suprimir la pista enregistrada immediatament aprèp l'aver salvada
 - Zona de tocar espandida pels botons
 - Correccions de las nòtas OSM que sautavan quand se picava de tèxte
-- Afichar lo boton "Ajustar un Luòc" per las entrepresas
+- Afichar lo boton «Ajustar un Luòc» per las entrepresas
 
 P.S. Se t'agrada legir de nòtas de version detalhadas, fai-nos-o saber sus nòstras [rets socialas](/#community)
 

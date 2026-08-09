@@ -17,15 +17,15 @@ Jumat! Saatnya menginstal pembaruan Organic Maps baru dari <https://omaps.app/ge
 ### iOS
 
 - BARU! Kamu dapat mengedit nama penanda atau trek langsung di Halaman Informasi Tempat dengan mengetuk nama. _(Kiryl Kaveryn)_
-- Menambahkan dukungan untuk iOS 26 dan macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Menambahkan dukungan untuk iOS 26 dan macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Ketuk lama nama atau alamat tempat atau penanda yang dipilih untuk menyalinnya ke clipboard. _(Kiryl Kaveryn)_
 - Ketuk nama daftar di Halaman Informasi Tempat untuk memilih daftar baru untuk penanda atau trek, dan gunakan pencarian baru untuk menemukan daftar yang kamu inginkan dengan cepat. _(Kiryl Kaveryn)_
 - Memperbaiki tata letak peta selama navigasi di iPad agar rute tetap terlihat jelas. _(Kiryl Kaveryn)_
-- Memperbaiki animasi untuk tombol samping dan memperbaiki warna tombol "Unduh Peta" dalam tema gelap. _(Kiryl Kaveryn)_
+- Memperbaiki animasi untuk tombol samping dan memperbaiki warna tombol “Unduh Peta” dalam tema gelap. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Menambahkan scrollbar ke layar Pencarian dan layar "Penanda dan Trek". _(shantanu1k)_
+- Menambahkan scrollbar ke layar Pencarian dan layar “Penanda dan Trek”. _(shantanu1k)_
 - Penanganan pemutaran audio dan interupsi yang ditingkatkan. _(Andrei Shkrob)_
 - Memperbaiki crash di layar Profil Editor. _(Alexander Borsuk)_
 - Memperbaiki crash selama pengunduhan peta. _(Viktor Govako)_

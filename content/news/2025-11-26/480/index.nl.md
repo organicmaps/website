@@ -17,15 +17,15 @@ Vrijdag! Het is tijd om de nieuwe Organic Maps-update te installeren vanaf <http
 ### iOS
 
 - NIEUW! Je kunt een bladwijzer- of routenaam direct op de Plaatsinformatiepagina bewerken door op de naam te tikken. _(Kiryl Kaveryn)_
-- Ondersteuning toegevoegd voor iOS 26 en macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Ondersteuning toegevoegd voor iOS 26 en macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Houd de naam of het adres van een geselecteerde plaats of bladwijzer lang ingedrukt om deze naar het klembord te kopiëren. _(Kiryl Kaveryn)_
 - Tik op de lijstnaam op de Plaatsinformatiepagina om een nieuwe lijst te selecteren voor een bladwijzer of route, en gebruik de nieuwe zoekfunctie om snel de gewenste lijst te vinden. _(Kiryl Kaveryn)_
 - De kaartindeling tijdens navigatie op iPad is gecorrigeerd zodat de route duidelijk zichtbaar blijft. _(Kiryl Kaveryn)_
-- Animaties voor zijknoppen gecorrigeerd en de kleur van de "Kaarten downloaden"-knop in het donkere thema gecorrigeerd. _(Kiryl Kaveryn)_
+- Animaties voor zijknoppen gecorrigeerd en de kleur van de “Kaarten downloaden”-knop in het donkere thema gecorrigeerd. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Schuifbalken toegevoegd aan het zoekscherm en het scherm "Bladwijzers en Routes". _(shantanu1k)_
+- Schuifbalken toegevoegd aan het zoekscherm en het scherm “Bladwijzers en Routes”. _(shantanu1k)_
 - Verbeterde afhandeling van audio-afspelen en onderbrekingen. _(Andrei Shkrob)_
 - Crashes op het Editor-profielscherm opgelost. _(Alexander Borsuk)_
 - Crashes tijdens het downloaden van kaarten opgelost. _(Viktor Govako)_

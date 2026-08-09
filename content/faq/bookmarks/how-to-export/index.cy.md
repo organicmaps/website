@@ -12,6 +12,6 @@ aliases:
   - /cy/faq/bookmarks/how-to-export/
 ---
 
-Tapia nod tudalen ar y map neu yn y rhestr, ac yna tapia'r botwm "Rhannu" ar y dudalen lle.
+Tapia nod tudalen ar y map neu yn y rhestr, ac yna tapia'r botwm ‘Rhannu’ ar y dudalen lle.
 
-I rannu'r holl nodau tudalen a thraciau mewn rhestr o'r dudalen Nodau Tudalen a Thraciau, tapia'r eicon gyda thri dot i'r dde o enw'r rhestr a dewisa "Allforio KMZ" neu "Allforio GPX", "Allforio GeoJSON".
+I rannu'r holl nodau tudalen a thraciau mewn rhestr o'r dudalen Nodau Tudalen a Thraciau, tapia'r eicon gyda thri dot i'r dde o enw'r rhestr a dewisa ‘Allforio KMZ’ neu ‘Allforio GPX’, ‘Allforio GeoJSON’.

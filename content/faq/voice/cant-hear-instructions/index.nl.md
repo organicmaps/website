@@ -16,7 +16,7 @@ aliases:
 
 Als je geen gesproken instructies kunt horen:
 
-* Zorg ervoor dat het volume van je apparaat niet gedempt is. Je kunt het volumeniveau wijzigen met de volumeknoppen van je apparaat. Om dat te doen, moet je mogelijk de optie "Wijzigen met knoppen" (indien ingeschakeld) uitschakelen in de apparaatinstellingen → Geluiden.
+* Zorg ervoor dat het volume van je apparaat niet gedempt is. Je kunt het volumeniveau wijzigen met de volumeknoppen van je apparaat. Om dat te doen, moet je mogelijk de optie “Wijzigen met knoppen” (indien ingeschakeld) uitschakelen in de apparaatinstellingen → Geluiden.
 
 * Rapporteer eventuele Bluetooth-problemen met de nodige details op onze [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

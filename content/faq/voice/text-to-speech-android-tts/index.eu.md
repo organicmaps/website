@@ -62,6 +62,6 @@ LineageOS edo bestelako ROM pertsonalizatuetan RHVoice TTS motorra hasieratzeko 
 
 ## Probak
 
-Ahots-argibideak probatzeko, OM "Ezarpenak → Ahots-argibideak" menuan "Probatu ahots-jarraibideak (TTS, testu-hizketa)" sakatu edo nabigazio bat has dezakezu edozein ahots-irteera jasotzeko. Organic Maps-ek ez dizu ahots-argibiderik emango geldirik zauden bitartean.
+Ahots-argibideak probatzeko, OM «Ezarpenak → Ahots-argibideak» menuan «Probatu ahots-jarraibideak (TTS, testu-hizketa)» sakatu edo nabigazio bat has dezakezu edozein ahots-irteera jasotzeko. Organic Maps-ek ez dizu ahots-argibiderik emango geldirik zauden bitartean.
 
 ![TTS Test](tts_test.png "TTS Test")

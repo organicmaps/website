@@ -6,11 +6,11 @@ title: "Organic Maps: voorwaarden"
 weight: 1000
 ---
 
-Deze app is gelicentieerd onder de Apache Licence, Versie 2.0 (de "licentie"); je mag deze applicatie alleen gebruiken in overeenstemming met de licentie.
+Deze app is gelicentieerd onder de Apache Licence, Versie 2.0 (de “licentie”); je mag deze applicatie alleen gebruiken in overeenstemming met de licentie.
 
 Je kunt een kopie van de licentie bemachtigen op [http://www.apache.org/licenses/LICENSE-2.0][license]
 
-Tenzij vereist door toepasbaar recht of onder schriftelijke overeenkomst, wordt de onder de licentie gedistribueerde software gedistribueerd op een "AS IS"-BASIS, ZONDER GARANTIES OF ENIGE BEDINGINGEN, ofwel expres ofwel geïmpliceerd. Zie de licentie voor de specifieke tekst wat betreft toestemmingen en grenzen van de licentie.
+Tenzij vereist door toepasbaar recht of onder schriftelijke overeenkomst, wordt de onder de licentie gedistribueerde software gedistribueerd op een “AS IS”-BASIS, ZONDER GARANTIES OF ENIGE BEDINGINGEN, ofwel expres ofwel geïmpliceerd. Zie de licentie voor de specifieke tekst wat betreft toestemmingen en grenzen van de licentie.
 
 De meeste bibliotheken in de volgende mappen op [GitHub][github] zijn gemaakt door andere mensen en organisaties en op andere wijzen gelicentieerd:
 

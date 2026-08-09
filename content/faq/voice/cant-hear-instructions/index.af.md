@@ -16,7 +16,7 @@ aliases:
 
 As jy nie steminstruksies kan hoor nie:
 
-* Maak asseblief seker dat jou toestel se volume nie gedemp is nie. Jy kan die volumevlak verander met jou toestel se volumeknoppies. Om dit te doen, moet jy dalk die opsie "Verander met knoppies" deaktiveer (indien geaktiveer) in die toestelinstellings → Klanke.
+* Maak asseblief seker dat jou toestel se volume nie gedemp is nie. Jy kan die volumevlak verander met jou toestel se volumeknoppies. Om dit te doen, moet jy dalk die opsie “Verander met knoppies” deaktiveer (indien geaktiveer) in die toestelinstellings → Klanke.
 
 * Rapporteer asseblief enige Bluetooth-kwessies met die nodige besonderhede op ons [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

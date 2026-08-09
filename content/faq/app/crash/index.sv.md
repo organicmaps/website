@@ -28,4 +28,4 @@ Eller alternativt:
 1. Aktivera logginspelning i appinställningarna.
 2. Tvinga omstart av appen.
 3. Reproducera kraschen.
-4. Skicka loggfilen till oss via "Rapportera ett fel" på Om-skärmen och lägg till en kort beskrivning av kraschen.
+4. Skicka loggfilen till oss via “Rapportera ett fel” på Om-skärmen och lägg till en kort beskrivning av kraschen.

@@ -62,6 +62,6 @@ Probeer deze oplossing als je problemen ondervindt bij het initialiseren van de 
 
 ## Testen
 
-Om de gesproken instructies te testen, kun je tikken op "Test stemaanwijzingen (TTS, tekst-naar-spraak)" in het OM-menu "Instellingen → Gesproken instructies" of je kunt daadwerkelijk een navigatie starten om stemuitvoer te ontvangen. Organic Maps geeft je geen gesproken instructies terwijl je stilstaat.
+Om de gesproken instructies te testen, kun je tikken op “Test stemaanwijzingen (TTS, tekst-naar-spraak)” in het OM-menu “Instellingen → Gesproken instructies” of je kunt daadwerkelijk een navigatie starten om stemuitvoer te ontvangen. Organic Maps geeft je geen gesproken instructies terwijl je stilstaat.
 
 ![TTS-test](tts_test.png "TTS-test")

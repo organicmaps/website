@@ -62,6 +62,6 @@ Jika kamu mengalami masalah saat menginisialisasi mesin RHVoice TTS di LineageOS
 
 ## Pengujian
 
-Untuk menguji instruksi suara, kamu dapat mengetuk "Uji Arah Suara (TTS, Text-To-Speech)" di menu OM "Pengaturan → Petunjuk Suara" atau kamu dapat memulai navigasi untuk menerima keluaran suara apa pun. Organic Maps tidak akan memberi kamu instruksi suara apa pun saat kamu diam.
+Untuk menguji instruksi suara, kamu dapat mengetuk “Uji Arah Suara (TTS, Text-To-Speech)” di menu OM “Pengaturan → Petunjuk Suara” atau kamu dapat memulai navigasi untuk menerima keluaran suara apa pun. Organic Maps tidak akan memberi kamu instruksi suara apa pun saat kamu diam.
 
 ![Tes TTS](tts_test.png "Tes TTS")

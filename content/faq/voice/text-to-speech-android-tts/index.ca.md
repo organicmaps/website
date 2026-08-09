@@ -62,6 +62,6 @@ Si teniu problemes per inicialitzar el motor RHVoice TTS a LineageOS o altres RO
 
 ## Prova
 
-Per provar les instruccions de veu, podeu tocar "Prova les indicacions de veu (TTS, text a veu)" al menú OM "Configuració → Instruccions de veu" o bé podeu iniciar una navegació per rebre qualsevol sortida de veu. Organic Maps no us donarà instruccions de veu mentre esteu parat.
+Per provar les instruccions de veu, podeu tocar «Prova les indicacions de veu (TTS, text a veu)» al menú OM «Configuració → Instruccions de veu» o bé podeu iniciar una navegació per rebre qualsevol sortida de veu. Organic Maps no us donarà instruccions de veu mentre esteu parat.
 
 ![Prova TTS](tts_test.png "Prova TTS")

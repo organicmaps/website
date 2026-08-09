@@ -14,7 +14,7 @@ Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por tod
 * Dados do OpenStreetMap atualizados (11 de janeiro) (Viktor Govako)
 * Adicionada orientação por voz em albanês (TTS) (Alexander Borsuk)
 * Adicionados sinónimos de pesquisa em búlgaro (Clippy)
-* Casinos excluídos da categoria "Entretenimento" (Clippy)
+* Casinos excluídos da categoria «Entretenimento» (Clippy)
 * Reduzida a espessura das linhas de metro (Manik)
 * Adicionadas informações de capacidade aos resultados de pesquisa para estacionamento de motociclos, aluguer de bicicletas, carregamento de bicicletas e carregamento de automóveis (David Martinez)
 * Adicionado nível do piso aos resultados de pesquisa (David Martinez)
@@ -25,7 +25,7 @@ Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por tod
 * Atualizadas as perguntas frequentes e adicionadas traduções de perguntas frequentes para árabe, checo, holandês, persa, grego, hebraico, hindi, húngaro, indonésio, italiano, lituano, marata, sueco, telugu (Alexander Borsuk)
 * Melhoradas as traduções da aplicação e das perguntas frequentes em alemão (DaN0mic)
 * Melhoradas as traduções da aplicação em espanhol latino-americano (Alexander Borsuk)
-* Renomeada a configuração "Botões de zoom" para maior clareza (Alexander Borsuk)
+* Renomeada a configuração «Botões de zoom» para maior clareza (Alexander Borsuk)
 * Correções de tradução dos colaboradores do Weblate para vários idiomas (Viktor Govako)
 
 ### Alterações apenas para iOS
@@ -35,7 +35,7 @@ Vamos começar 2026 com uma atualização do Organic Maps, possibilitada por tod
 ### Alterações apenas para Android
 
 * Adicionado suporte do Assistente Google para navegação e pesquisa (skirm-tech)
-* Atualizada a configuração de tema de navegação "Automático" para seguir o modo escuro/claro do sistema (Dzmitry Strekha)
+* Atualizada a configuração de tema de navegação «Automático» para seguir o modo escuro/claro do sistema (Dzmitry Strekha)
 * Corrigida uma falha ao iniciar a navegação (Owm Dubey)
 * Corrigida uma falha ao carregar notas para o OpenStreetMap (Prakamy Awasthi)
 * Corrigida uma falha no Android Auto (Alexander Borsuk)

@@ -28,4 +28,4 @@ Of als alternatief:
 1. Schakel logboekregistratie in de app-instellingen in.
 2. Forceer het opnieuw opstarten van de app.
 3. Reproduceer de crash.
-4. Stuur ons het logbestand via "Een bug melden" in het scherm Over en voeg een korte beschrijving van de crash toe.
+4. Stuur ons het logbestand via “Een bug melden” in het scherm Over en voeg een korte beschrijving van de crash toe.

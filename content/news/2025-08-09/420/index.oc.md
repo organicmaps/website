@@ -52,7 +52,7 @@ P.S. …e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per 
 
 #### Melhoraments divèrses
 
-- Escriure "cop" dins la recèrca tròba los commissariats de polícia, mentre que "film" o "movie theater" localiza los cinemas (theadventurer62)
+- Escriure «cop» dins la recèrca tròba los commissariats de polícia, mentre que «film» o «movie theater» localiza los cinemas (theadventurer62)
 - Dobrir dins una autra aplicacion aficha ara lo punt seleccionat dins Google Maps (Alexander Borsuk)
 - Traduccion espanhòla per mai de categorias de recèrca (David Martinez)
 - Mesa a jorn de divèrsas traduccions (contributors de Weblate)

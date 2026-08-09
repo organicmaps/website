@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Instalatu Organic Maps-en abuztuko bertsioa, deskargatu azken mapak, eta aurkitu mendi-ibilbide eta txirrindularitza-bide ospetsuak mundu osoan zehar! Sakatu goiko ezkerreko "Geruzak" botoia bizikleta eta MTB ibilbide koloreztatuak, bai eta mendi-ibilbide eta oinezko bide ofizialak ikusteko. Ez duzu ezer ikusten inguruan? Orduan, OpenStreetMap.org-en informazio falta gehitzeko garaia da, Organic Maps-eko mapa-datu guztiak proiektu ireki, dohaineko eta komunitateak bultzatutako horretatik datozelako.
+Instalatu Organic Maps-en abuztuko bertsioa, deskargatu azken mapak, eta aurkitu mendi-ibilbide eta txirrindularitza-bide ospetsuak mundu osoan zehar! Sakatu goiko ezkerreko «Geruzak» botoia bizikleta eta MTB ibilbide koloreztatuak, bai eta mendi-ibilbide eta oinezko bide ofizialak ikusteko. Ez duzu ezer ikusten inguruan? Orduan, OpenStreetMap.org-en informazio falta gehitzeko garaia da, Organic Maps-eko mapa-datu guztiak proiektu ireki, dohaineko eta komunitateak bultzatutako horretatik datozelako.
 
 Ba al zenekien mapan erregistratutako edo inportatutako edozein GPX/KML track aukeratu daitekeela? Altuerari buruzko datuak dituzten track-ek beren altuera-grafikoa erakutsiko dute.
 
@@ -52,7 +52,7 @@ P.S. …eta askoz gehiago dator! Zure laguntzak mapa onenak eraikitzen laguntzen
 
 #### Bestelako hobekuntzak
 
-- "cop" idaztean bilaketan polizia-etxeak bilatzen ditu, eta "film" edo "movie theater" idaztean zinemak (theadventurer62)
+- «cop» idaztean bilaketan polizia-etxeak bilatzen ditu, eta «film» edo «movie theater» idaztean zinemak (theadventurer62)
 - Beste aplikazio batean irekitzeak orain hautatutako puntua Google Maps-en erakusten du (Alexander Borsuk)
 - Bilaketa kategoria gehiagorentzat gaztelaniazko itzulpena (David Martinez)
 - Hainbat itzulpen eguneratu (Weblate laguntzaileak)

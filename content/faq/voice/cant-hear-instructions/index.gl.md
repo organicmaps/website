@@ -16,7 +16,7 @@ aliases:
 
 Se non podes escoitar as instrucións de voz:
 
-* Asegúrate de que o volume do teu dispositivo non estea silenciado. Podes cambiar o nivel de volume cos botóns de volume do teu dispositivo. Para iso, é posible que teñas que desactivar a opción "Cambiar con botóns" (se está activada) na configuración do dispositivo → Sons.
+* Asegúrate de que o volume do teu dispositivo non estea silenciado. Podes cambiar o nivel de volume cos botóns de volume do teu dispositivo. Para iso, é posible que teñas que desactivar a opción «Cambiar con botóns» (se está activada) na configuración do dispositivo → Sons.
 
 * Informa calquera problema de Bluetooth cos detalles necesarios no noso [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

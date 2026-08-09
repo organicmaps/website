@@ -17,15 +17,15 @@ Sexta-feira! É hora de instalar a nova atualização do Organic Maps em <https:
 ### iOS
 
 - NOVO! Você pode editar o nome de um marcador ou trilha diretamente na Página de Informações do Local tocando no nome. _(Kiryl Kaveryn)_
-- Adicionado suporte para iOS 26 e macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Adicionado suporte para iOS 26 e macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Toque longo no nome ou endereço de um local ou marcador selecionado para copiá-lo para a área de transferência. _(Kiryl Kaveryn)_
 - Toque no nome da lista na Página de Informações do Local para selecionar uma nova lista para um marcador ou trilha, e use a nova busca para encontrar rapidamente a lista desejada. _(Kiryl Kaveryn)_
 - Corrigido o layout do mapa durante a navegação no iPad para que a rota permaneça claramente visível. _(Kiryl Kaveryn)_
-- Corrigidas as animações dos botões laterais e a cor do botão "Baixar Mapas" no tema escuro. _(Kiryl Kaveryn)_
+- Corrigidas as animações dos botões laterais e a cor do botão “Baixar Mapas” no tema escuro. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Adicionadas barras de rolagem à tela de Busca e à tela "Marcadores e Trilhas". _(shantanu1k)_
+- Adicionadas barras de rolagem à tela de Busca e à tela “Marcadores e Trilhas”. _(shantanu1k)_
 - Melhor tratamento da reprodução de áudio e interrupções. _(Andrei Shkrob)_
 - Corrigidos travamentos na tela de Perfil do Editor. _(Alexander Borsuk)_
 - Corrigidos travamentos durante o download de mapas. _(Viktor Govako)_

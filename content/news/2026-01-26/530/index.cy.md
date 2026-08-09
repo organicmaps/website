@@ -29,7 +29,7 @@ Gosoda ef o [get.omaps.org](https://get.omaps.org) neu o [App Store][appstore], 
 * Gorgyffwrdd bar offer llywio wedi'i drwsio ar sgriniau bach _(Anton P)_
 * Damwain chwilio wedi'i thrwsio ar Android 5 a 6 _(Alexander Borsuk)_
 * Cyfieithiadau Cwestiynau Cyffredin wedi'u trwsio ar Android 5 _(Alexander Borsuk)_
-* Gwall "Dim Digon o Le Rhydd" wedi'i drwsio wrth ddiweddaru mapiau _(Alexander Borsuk)_
+* Gwall ‘Dim Digon o Le Rhydd’ wedi'i drwsio wrth ddiweddaru mapiau _(Alexander Borsuk)_
 
 ### Cyfieithiadau
 

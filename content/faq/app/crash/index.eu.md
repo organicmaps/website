@@ -28,4 +28,4 @@ Edo bestela:
 1. Gaitu erregistroen grabazioa aplikazioaren ezarpenetan.
 2. Behartu aplikazioa berrabiaraztera.
 3. Errepikatu hutsegitea.
-4. Bidali erregistro-fitxategia "Eman errore baten berri" bidez Honi buruz pantailan eta gehitu hutsegitearen deskribapen laburra.
+4. Bidali erregistro-fitxategia «Eman errore baten berri» bidez Honi buruz pantailan eta gehitu hutsegitearen deskribapen laburra.

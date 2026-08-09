@@ -16,7 +16,7 @@ aliases:
 
 Ahots-argibideak entzuten ez badituzu:
 
-* Mesedez, ziurtatu zure gailuaren bolumena ez dagoela isilduta. Bolumen-maila alda dezakezu zure gailuaren bolumen-botoiekin. Horretarako, baliteke "Aldatu botoiekin" aukera desgaitu behar izatea (gaituta badago) gailuaren ezarpenetan → Soinuak.
+* Mesedez, ziurtatu zure gailuaren bolumena ez dagoela isilduta. Bolumen-maila alda dezakezu zure gailuaren bolumen-botoiekin. Horretarako, baliteke «Aldatu botoiekin» aukera desgaitu behar izatea (gaituta badago) gailuaren ezarpenetan → Soinuak.
 
 * Mesedez, jakinarazi Bluetooth-a arazoren bat beharrezko xehetasunekin gure [GitHub]-en (https://github.com/organicmaps/organicmaps/issues)
 

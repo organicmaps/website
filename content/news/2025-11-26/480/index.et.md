@@ -17,15 +17,15 @@ Reede! On aeg paigaldada uus Organic Mapsi värskendus aadressilt <https://omaps
 ### iOS
 
 - UUS! Saad järjehoidja või raja nime muuta otse koha teabelehel, puudutades nime. _(Kiryl Kaveryn)_
-- Lisati tugi iOS 26 ja macOS 26 "Liquid Glass" jaoks. _(Kiryl Kaveryn)_
+- Lisati tugi iOS 26 ja macOS 26 „Liquid Glass“ jaoks. _(Kiryl Kaveryn)_
 - Pikk puudutus valitud koha või järjehoidja nimel või aadressil kopeerib selle lõikelauale. _(Kiryl Kaveryn)_
 - Puuduta koha teabelehel loendi nime, et valida järjehoidjale või rajale uus loend, ja kasuta uut otsingut, et kiiresti leida soovitud loend. _(Kiryl Kaveryn)_
 - Parandati kaardi paigutus navigeerimise ajal iPadis, et marsruut jääks selgelt nähtavaks. _(Kiryl Kaveryn)_
-- Parandati küljenuppude animatsioonid ja "Laadi kaardid alla" nupu värv tumedas teemas. _(Kiryl Kaveryn)_
+- Parandati küljenuppude animatsioonid ja „Laadi kaardid alla“ nupu värv tumedas teemas. _(Kiryl Kaveryn)_
 
 ### Android
 
-- Lisati kerimisribad otsingukuvale ja "Järjehoidjad ja rajad" kuvale. _(shantanu1k)_
+- Lisati kerimisribad otsingukuvale ja „Järjehoidjad ja rajad“ kuvale. _(shantanu1k)_
 - Täiustatud heli taasesituse ja katkestuste käsitlemine. _(Andrei Shkrob)_
 - Parandati kokkujooksmised redaktori profiili kuval. _(Alexander Borsuk)_
 - Parandati kokkujooksmised kaartide allalaadimisel. _(Viktor Govako)_

@@ -17,7 +17,7 @@ Depois que o aplicativo estiver instalado, podes usar a roda de rolagem do mouse
 
 Podes passar o mouse sobre os vários ícones para ver algum texto de ajuda. 
 
-Para realizar roteamento e navegação passo a passo, tens algumas opções. se conheces as coordenadas GPS dos teus pontos inicial e final, podes clicar no ícone de configurações (acima da marca de seleção verde) e inserir as coordenadas do teu ponto inicial e destino. Para definir o ponto inicial no mapa, clica no ícone de navegação e seleciona "ponto inicial", mantém pressionada a tecla Shift e clica com o botão esquerdo no mapa. Para definir o destino, muda para “ponto final” e clica em um local no mapa.
+Para realizar roteamento e navegação passo a passo, tens algumas opções. se conheces as coordenadas GPS dos teus pontos inicial e final, podes clicar no ícone de configurações (acima da marca de seleção verde) e inserir as coordenadas do teu ponto inicial e destino. Para definir o ponto inicial no mapa, clica no ícone de navegação e seleciona «ponto inicial», mantém pressionada a tecla Shift e clica com o botão esquerdo no mapa. Para definir o destino, muda para “ponto final” e clica em um local no mapa.
 
 ![Definindo ponto inicial e ponto final](nav_points.png)
 

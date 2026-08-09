@@ -19,10 +19,10 @@ Podes usar unha das seguintes formas:
 * toca o botón de marcadores
 * Toca calquera lugar do mapa
 
-Unha vez escollido o punto de destino, preme o botón "Ruta a" na parte inferior. Crearase a ruta e verás a distancia e o tempo estimado da viaxe. Podes cambiar o tipo de ruta premendo a icona Coche, Peón, Metro, Bicicleta ou Regra na parte superior da pantalla. Para comezar a seguir a ruta, toca o botón "Inicio". Preme o sinal de frecha na esquina inferior dereita da pantalla e toca Deter para rematar a ruta.
+Unha vez escollido o punto de destino, preme o botón «Ruta a» na parte inferior. Crearase a ruta e verás a distancia e o tempo estimado da viaxe. Podes cambiar o tipo de ruta premendo a icona Coche, Peón, Metro, Bicicleta ou Regra na parte superior da pantalla. Para comezar a seguir a ruta, toca o botón «Inicio». Preme o sinal de frecha na esquina inferior dereita da pantalla e toca Deter para rematar a ruta.
 
-Podes escoller un punto de partida diferente (botón "Ruta Desde") para previsualizar unha ruta, pero a navegación só está dispoñible desde a túa localización actual.
+Podes escoller un punto de partida diferente (botón «Ruta Desde») para previsualizar unha ruta, pero a navegación só está dispoñible desde a túa localización actual.
 
-Podes engadir ata 100 puntos intermedios a unha ruta. Para engadir un punto intermedio, crea unha ruta entre o inicio e o destino, despois toca un punto no mapa (ou selecciónao dos marcadores/mediante a busca) e toca "Engadir parada".
+Podes engadir ata 100 puntos intermedios a unha ruta. Para engadir un punto intermedio, crea unha ruta entre o inicio e o destino, despois toca un punto no mapa (ou selecciónao dos marcadores/mediante a busca) e toca «Engadir parada».
 
 Podes cambiar a configuración da ruta do coche e seleccionar os tipos de estradas que desexas evitar (peaxes, estradas sen asfaltar, autoestradas, ferris). Abre a configuración da aplicación → Opcións de enrutamento → Activar as opcións necesarias. As opcións de evitar tamén se mostran cando se constrúe a ruta se cambiar algunha das opcións pode cambiar a ruta.

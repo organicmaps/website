@@ -30,7 +30,7 @@ Android:
 - Gefikseerde verkeerde gebruikersintervlak-uitleg op sommige toestelle (_Sergiy Kozyr_)
 - Toon OSM-aanmelding en wagwoord as blaaier-aanmelding faal/nie beskikbaar is nie (_Sergiy Kozyr_)
 - Gefikseerde kruishaar-sprong wanneer objekte by OpenStreetMap gevoeg word (_@hemanggs_)
-- Gefikseerde "Herprobeer gefaalde aflaai" knoppie (_Kavi Khalique_)
+- Gefikseerde “Herprobeer gefaalde aflaai” knoppie (_Kavi Khalique_)
 - Gefikseerde spatsker wat oorvleuel met stelselknoppies (_Vraj Shah_)
 - Gefikseerde sommige ongelukke (_Devarsh Vasani_)
 - Gefikseerde EACCESS PermissionDenied fout wanneer KML of GPX op Android 5 ingevoer word (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS-veranderinge, alle lof aan _Kiryl Kaveryn_:
 - Nou kan jy die opgenome spoor onmiddellik wysig of uitvee nadat dit gestoor is
 - Uitgebreide tik-area vir knoppies
 - Gefikseerde springende OSM-notas wanneer teks getik word
-- Toon "Voeg Plek by" knoppie vir besighede
+- Toon “Voeg Plek by” knoppie vir besighede
 
 P.S. As jy daarvan hou om gedetailleerde vrystellingsnotas te lees, laat ons asseblief weet op ons [sosiale netwerke](/#community)
 

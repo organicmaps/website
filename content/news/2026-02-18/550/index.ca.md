@@ -24,8 +24,8 @@ Si voleu veure **horaris de transport públic en temps real** a la vostra ciutat
 * Millorada la classificació dels resultats de cerca per a categories (Viktor Govako)
 * Afegida cuina uzbeka (alnzrv)
 * Afegides tirolines al mapa (Rawdyrathaur)
-* Corregits enllaços de Wikimedia amb "?" al títol (alnzrv)
-* Suport per a fitxers GPX amb "+" a les coordenades (Alexander Borsuk)
+* Corregits enllaços de Wikimedia amb «?» al títol (alnzrv)
+* Suport per a fitxers GPX amb «+» a les coordenades (Alexander Borsuk)
 
 ### iOS
 

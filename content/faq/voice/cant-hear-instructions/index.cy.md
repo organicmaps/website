@@ -16,7 +16,7 @@ aliases:
 
 Os na elli glywed cyfarwyddiadau llais:
 
-* Gwna'n siŵr nad yw cyfaint dy ddyfais wedi'i dawelu. Gelli di newid lefel y sain gyda botymau cyfaint dy ddyfais. I wneud hynny, efallai y bydd angen i ti analluogi opsiwn "Newid gyda Botymau" (os yw wedi'i alluogi) yn y gosodiadau dyfais → Sounds.
+* Gwna'n siŵr nad yw cyfaint dy ddyfais wedi'i dawelu. Gelli di newid lefel y sain gyda botymau cyfaint dy ddyfais. I wneud hynny, efallai y bydd angen i ti analluogi opsiwn ‘Newid gyda Botymau’ (os yw wedi'i alluogi) yn y gosodiadau dyfais → Sounds.
 
 * Rho wybod am unrhyw broblemau Bluetooth gyda'r manylion angenrheidiol ar ein [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

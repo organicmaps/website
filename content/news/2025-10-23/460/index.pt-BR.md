@@ -49,7 +49,7 @@ Para quem perdeu, a [atualização anterior de 7 de outubro](https://organicmaps
 
 ## Linux/Mac OS
 
-- Detalhes de POI agora mostram o formato "nome | ref" (Viktor Govako)
+- Detalhes de POI agora mostram o formato “nome | ref” (Viktor Govako)
 - modo escuro sincroniza automaticamente com as configurações do sistema (DeepChirp)
 
 ## Notas de rodapé

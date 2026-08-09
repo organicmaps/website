@@ -62,6 +62,6 @@ Kui sul on probleeme RHVoice TTS-mootori käivitamisega LineageOS-is või muudes
 
 ## Testimine
 
-Hääljuhiste testimiseks võid puudutada OM-i menüüs "Seaded → Hääljuhised" valikut "Testi hääljuhiseid (TTS, tekst kõneks muutmine)" või saad tegelikult alustada navigeerimist, et saada mis tahes häälväljundit. Organic Maps ei anna sulle paigal seistes hääljuhiseid.
+Hääljuhiste testimiseks võid puudutada OM-i menüüs „Seaded → Hääljuhised“ valikut „Testi hääljuhiseid (TTS, tekst kõneks muutmine)“ või saad tegelikult alustada navigeerimist, et saada mis tahes häälväljundit. Organic Maps ei anna sulle paigal seistes hääljuhiseid.
 
 ![TTS-test](tts_test.png "TTS-test")

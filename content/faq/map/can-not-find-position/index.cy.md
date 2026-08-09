@@ -18,7 +18,7 @@ Sicrha fod gan dy ddyfais GPS, bod gwasanaethau lleoliad wedi'u galluogi, a bod 
 
 Ar dy ddyfais agora Gosodiadau → Lleoliad. Mae'n well troi modd cywirdeb uchel ymlaen, gan ei fod yn galluogi lleoliad GPS manwl gywir.
 
-Os na all dy ddyfais Android benderfynu ar dy leoliad, galluogi (neu analluogi, os yw wedi'i alluogi) opsiwn "Google Play Services" yng ngosodiadau'r app.
+Os na all dy ddyfais Android benderfynu ar dy leoliad, galluogi (neu analluogi, os yw wedi'i alluogi) opsiwn ‘Google Play Services’ yng ngosodiadau'r app.
 
 Nodyn: dim ond os oes gennyt ti wasanaethau Google Play wedi'u gosod (wedi'u galluogi) ar dy ddyfais Android y gelli di ei weld. Defnyddir gwasanaethau chwarae Google i bennu lleoliad yn fwy manwl gywir, os cei broblemau gyda chywirdeb lleoliad ar ôl i ti analluogi'r opsiwn, tro ef ymlaen.
 
@@ -37,6 +37,6 @@ Os wyt ti'n ddefnyddiwr iPhone neu iPad, gwiria osodiadau iOS → Preifatrwydd �
 
 **Dangosir lleoliad anghywir ar y map**
 
-1. Os oes cylch lled-dryloyw mawr o amgylch dy saeth lleoliad ar y map, mae'n golygu bod dy safle yn cael ei bennu gyda chywirdeb isel, gan ddefnyddio cysylltiad WiFi neu gellog. Gwna'n siŵr dy fod wedi galluogi cywirdeb lleoliad "Manwl" ar gyfer Organic Maps yn gosodiadau'r system, a cheisia fynd allan, i ffwrdd o adeiladau uchel a choed, i wella derbyniad signal GPS lloeren.
+1. Os oes cylch lled-dryloyw mawr o amgylch dy saeth lleoliad ar y map, mae'n golygu bod dy safle yn cael ei bennu gyda chywirdeb isel, gan ddefnyddio cysylltiad WiFi neu gellog. Gwna'n siŵr dy fod wedi galluogi cywirdeb lleoliad ‘Manwl’ ar gyfer Organic Maps yn gosodiadau'r system, a cheisia fynd allan, i ffwrdd o adeiladau uchel a choed, i wella derbyniad signal GPS lloeren.
 
 2. Os yw dy safle yn cael ei bennu'n anghywir (er enghraifft, rwyt ti mewn un ddinas, ond mae'r ap yn dangos dinas arall), yna rwyt ti'n fwyaf tebygol mewn ardal sy'n cael ei heffeithio gan signal GPS ffug (GPS spoofing) oherwydd mesurau rhyfela electronig (EW). Mewn achosion o'r fath, yr unig ateb yw symud i leoliad arall.

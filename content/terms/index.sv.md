@@ -6,7 +6,7 @@ title: "Organic Maps: Användarvillkor"
 weight: 1000
 ---
 
-Den här appen är licensierad enligt Apachelicensen, version 2.0 ("Licensen"); du får inte använda den här applikationen annat än i enlighet med Licensen.
+Den här appen är licensierad enligt Apachelicensen, version 2.0 (“Licensen”); du får inte använda den här applikationen annat än i enlighet med Licensen.
 
 Du kan erhålla en kopia av Licensen på [http://www.apache.org/licenses/LICENSE-2.0][license]
 

@@ -19,7 +19,7 @@ Gelli ddefnyddio un o'r ffyrdd canlynol:
 * tapia'r botwm llyfrnodau
 * tapia unrhyw le ar y map
 
-Unwaith y byddi wedi dewis pwynt cyrchfan, pwysa'r botwm “Llwybr i” ar y gwaelod. Bydd y llwybr yn cael ei greu a byddi'n gweld pellter ac amser teithio amcangyfrifedig. Gelli newid y math o lwybr trwy wasgu'r eicon Car, Cerddwr, Isffordd, Beic neu Ruler ar frig y sgrin. I ddechrau dilyn y llwybr, tapia'r botwm "Cychwyn". Pwysa'r arwydd saeth yng nghornel dde isaf y sgrin a thapio Stop i orffen y llwybr.
+Unwaith y byddi wedi dewis pwynt cyrchfan, pwysa'r botwm “Llwybr i” ar y gwaelod. Bydd y llwybr yn cael ei greu a byddi'n gweld pellter ac amser teithio amcangyfrifedig. Gelli newid y math o lwybr trwy wasgu'r eicon Car, Cerddwr, Isffordd, Beic neu Ruler ar frig y sgrin. I ddechrau dilyn y llwybr, tapia'r botwm ‘Cychwyn’. Pwysa'r arwydd saeth yng nghornel dde isaf y sgrin a thapio Stop i orffen y llwybr.
 
 Gelli ddewis man cychwyn gwahanol (“botwm Llwybr Oddi”) i gael rhagolwg o lwybr, ond dim ond o dy leoliad presennol y mae llywio ar gael.
 

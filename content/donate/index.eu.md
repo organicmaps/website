@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps aplikazioa _doakoa da guztiontzat_ zure **[emaitzak][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** bidez:
+Organic Maps aplikazioa _doakoa da guztiontzat_ zure **[emaitzak][stripe]** **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** bidez:
 
 - Iragarkirik ez
 - Jarraitzailerik ez

@@ -7,7 +7,7 @@ title: "Spende, um die Entwicklung von Organic Maps zu unterstützen"
 weight: 10
 ---
 
-Organic Maps ist _kostenlos für alle_ dank deiner **[donations][stripe]**:
+Organic Maps ist _kostenlos für alle_ dank deiner **[Spenden][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Keine Werbung
 - Keine Tracker
@@ -29,7 +29,7 @@ Klicke unten auf das Symbol einer bevorzugten Zahlungsmethode:
 ## Warum ein kostenloses Projekt Geld braucht?
 
 1. Im Jahr 2023 hat Organic Maps seine ersten Millionen Nutzer. Unsere Server bieten kostenlose, schnelle und häufige Kartenaktualisierungen auf der ganzen Welt.
-2. Benutzerunterstützung, Bugfixing und die Verbesserung der Stabilität der App stehen ganz oben auf unserer Prioritätenliste. Es gibt mehr als 2000 Probleme auf GitHub, und diese Zahl wächst täglich. AppStore, Google Play und Support-E-Mails werden mit Kommentaren und Fehlern überflutet. Wir wollen ein hochwertiges Produkt liefern.
+2. Benutzerunterstützung, Bugfixing und die Verbesserung der Stabilität der App stehen ganz oben auf unserer Prioritätenliste. Es gibt [~2000 Fehlerberichte und Funktionswünsche auf GitHub][github issues], und diese Zahl wächst täglich. AppStore, Google Play und Support-E-Mails werden mit Kommentaren und Fehlern überflutet. Wir wollen ein hochwertiges Produkt liefern.
 3. Mit genügend Geld können neue Funktionen schneller entwickelt werden, zum Beispiel:
    - Sichere und synchronisiere Lesezeichen und Strecken
    - GPS-Kursaufzeichnung mit GPX-Unterstützung

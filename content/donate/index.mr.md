@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps अ‍ॅप _सर्वांसाठी मोफत_ आहे, तुमच्या **[दान][stripe]** मुळे **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Organic Maps अ‍ॅप _सर्वांसाठी मोफत_ आहे, तुमच्या **[दान][stripe]** मुळे **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - जाहिराती नाहीत
 - ट्रॅकर्स नाहीत

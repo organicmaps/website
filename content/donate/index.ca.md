@@ -7,7 +7,7 @@ title: "Doneu per a ajudar al desenvolupament de l'Organic Maps"
 weight: 10
 ---
 
-L'Organic Maps és _gratis per a tothom_ gràcies a les seves **[donacions][stripe]**:
+L'Organic Maps és _gratis per a tothom_ gràcies a les seves **[donacions][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Sense anuncis
 - Sense rastrejadors

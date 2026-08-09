@@ -7,7 +7,7 @@ title: "Faz uma doação para apoiar o desenvolvimento do Organic Maps"
 weight: 10
 ---
 
-O app Organic Maps é _gratuito para todos_ graças às tuas **[doações][stripe]**:
+O app Organic Maps é _gratuito para todos_ graças às tuas **[doações][stripe]** em **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Sem anúncios
 - Sem rastreadores

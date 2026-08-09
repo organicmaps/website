@@ -7,7 +7,7 @@ title: "Υποστήριξε την ανάπτυξη του Organic Maps"
 weight: 10
 ---
 
-Η εφαρμογή Organic Maps είναι _δωρεάν για όλους_ χάρη στις **[δωρεές][stripe]** σου σε **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Η εφαρμογή Organic Maps είναι _δωρεάν για όλους_ χάρη στις **[δωρεές][stripe]** σου σε **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - Χωρίς διαφημίσεις
 - Χωρίς ιχνηλάτες

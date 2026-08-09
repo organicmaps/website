@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps ऐप _सभी के लिए मुफ्त_ है, आपके **[दान][stripe]** के कारण **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Organic Maps ऐप _सभी के लिए मुफ्त_ है, आपके **[दान][stripe]** के कारण **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - कोई विज्ञापन नहीं
 - कोई ट्रैकर नहीं

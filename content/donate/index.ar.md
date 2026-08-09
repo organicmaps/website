@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-تطبيق Organic Maps _مجاني للجميع_ بفضل **[تبرعاتكم][stripe]** بعملات **[اليورو][stripe_eur]، [الدولار][stripe_usd]، [الجنيه الإسترليني][stripe_GBP]، [الفرنك السويسري][stripe_chf]، [الهريفنيا الأوكرانية][stripe_uah]، [الزلوتي البولندي][stripe_pln]**:
+تطبيق Organic Maps _مجاني للجميع_ بفضل **[تبرعاتكم][stripe]** بعملات **[اليورو][stripe_eur]، [الدولار][stripe_usd]، [الجنيه الإسترليني][stripe_GBP]، [الفرنك السويسري][stripe_chf]، [الهريفنيا الأوكرانية][stripe_uah]، [الزلوتي البولندي][stripe_pln]، [الروبل الروسي][stripe_rub]**:
 
 - بدون إعلانات
 - بدون متعقبات

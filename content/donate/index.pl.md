@@ -7,7 +7,7 @@ title: "Przekaż darowiznę, aby wesprzeć rozwój Organic Maps"
 weight: 10
 ---
 
-Aplikacja Organic Maps jest _darmowa dla wszystkich_ dzięki Waszym **[donacjom][stripe]**:
+Aplikacja Organic Maps jest _darmowa dla wszystkich_ dzięki Waszym **[donacjom][stripe]** w **[PLN][stripe_pln], [EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [RUB][stripe_rub]**:
 
 - Brak reklam
 - Brak mechanizmów śledzących

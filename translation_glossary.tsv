@@ -147,6 +147,11 @@ voice guidance	fr	guidage vocal
 # ---------------------------------------------------------------- Hebrew (he)
 bookmark	he	סימנייה
 bookmarks	he	סימניות
+track	he	מסלול GPS
+tracks	he	מסלולי GPS
+route	he	מסלול
+routes	he	מסלולים
+track recording	he	הקלטת מסלול
 icon	he	סמל
 subway	he	רכבת תחתית
 public transport	he	תחבורה ציבורית
@@ -503,7 +508,7 @@ team	af	span
 # NEEDS NATIVE REVIEW — deliberately NOT in the glossary above
 # =============================================================================
 #
-# 1. track / route collapse (he only — ar, cs and el are RESOLVED)
+# 1. track / route collapse — RESOLVED for ar, cs, el and now he
 #    Re-measured against the lines where the English mentions BOTH senses,
 #    which is where a language that distinguishes them has to show it:
 #        EN  "Tracks, bookmarks & routes"
@@ -514,9 +519,38 @@ team	af	span
 #    three candidates are confirmed and now entered above:
 #        ar المسار المسجل (8)   cs stopa (10)   el ίχνος (46)
 #
-#    Hebrew is genuinely collapsed and still needs a native speaker: מסלול
-#    covers 105 of 115 track lines AND 86 of 93 route lines, and the proposed
-#    מסלול מוקלט has zero attestations in the corpus.
+#    Hebrew was genuinely collapsed — מסלול covered 105 of 115 track lines
+#    AND 86 of 93 route lines — and is now settled by native review rather
+#    than by corpus evidence, because the corpus had none to give.
+#
+#    Hebrew has no pair of single words that reproduces the distinction, and
+#    forcing one produces worse Hebrew than qualifying the shared noun. So
+#    מסלול stays the word for both senses and the sense is carried by a
+#    modifier:
+#        route            מסלול            (bare, the default reading)
+#        navigation route מסלול ניווט      (only when contrasted with tracks)
+#        planned route    מסלול מתוכנן
+#        track            מסלול GPS        (generic — provenance unknown)
+#        recorded track   מסלול מוקלט      (only when known to be recorded)
+#        track recording  הקלטת מסלול
+#        the line itself  תוואי / תוואי המסלול
+#
+#    `track` is entered as מסלול GPS rather than מסלול מוקלט on purpose: GPX
+#    permits a <trk> that was drawn, imported or simplified rather than
+#    recorded, so מוקלט would assert something untrue of it. Reserve מוקלט
+#    for tracks the app itself recorded.
+#
+#    Rejected, with reasons: נתיב reads as a traffic lane and would collide
+#    with lane guidance; עקבה is forensic-sounding and unpointed is
+#    indistinguishable from the place name Aqaba; רצועה is a strip or media
+#    track; טרק is a hiking trip; מסילה is a railway; שביל is a physical
+#    trail, which a GPS track need not follow; מעקב is the act of tracking,
+#    not the recorded path.
+#
+#    Grammar for proofreading: מסלול and תוואי are masculine (מסלולים,
+#    תוואים). Note המסלול המוקלט ("the recorded track") against המסלול מוקלט
+#    ("the track is recorded"), and the construct הקלטת מסלול — never
+#    ההקלטת מסלול.
 #
 # 2. Arabic "bookmark" — RESOLVED, entered above
 #    The disagreement came from measuring the news posts alone. Over the whole

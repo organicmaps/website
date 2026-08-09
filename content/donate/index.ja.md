@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps アプリは、あなたの **[寄付][stripe]** のおかげで **_[すべての人にとって無料]_** です (**[EUR][stripe_eur]、[USD][stripe_usd]、[GBP][stripe_GBP]、[CHF][stripe_chf]、[UAH][stripe_uah]、[PLN][stripe_pln]** に対応):
+Organic Maps アプリは、あなたの **[寄付][stripe]** のおかげで **_[すべての人にとって無料]_** です (**[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** に対応):
 
 - 広告なし
 - トラッカーなし

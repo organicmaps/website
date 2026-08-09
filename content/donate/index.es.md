@@ -7,7 +7,7 @@ title: "Dona para apoyar al desarrollo de Organic Maps"
 weight: 10
 ---
 
-La aplicación Organic Maps es _gratuita para todos_ gracias a tus **[donaciones][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+La aplicación Organic Maps es _gratuita para todos_ gracias a tus **[donaciones][stripe]** en **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - Sin anuncios
 - Sin rastreadores

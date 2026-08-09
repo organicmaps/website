@@ -61,7 +61,8 @@ FORMALITY_SUPPORTED = {"DE", "ES", "FR", "IT", "NL", "PL", "PT-PT", "PT-BR",
 # a product using them reads as condescending rather than friendly. Organic
 # Maps' own app strings already agree: hi 73 formal vs 1 informal marker,
 # mr 29 vs 0, fa 49 vs 0 in data/strings/strings.txt.
-FORMAL_LANGUAGES = {"ru", "uk", "be", "hi", "mr", "te", "ml", "fa-IR"}
+FORMAL_LANGUAGES = {"ru", "uk", "be", "hi", "mr", "te", "ml", "fa-IR",
+                    "cs", "lt"}
 
 
 def expected_register(lang: str) -> str:

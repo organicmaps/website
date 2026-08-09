@@ -7,7 +7,7 @@ title: "Berdonasi untuk mendukung pengembangan Organic Maps"
 weight: 10
 ---
 
-Aplikasi Organic Maps _gratis untuk semua orang_ berkat **[donasi][stripe]**:
+Aplikasi Organic Maps _gratis untuk semua orang_ berkat **[donasi][stripe]** dalam **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Tanpa iklan
 - Tanpa pelacak

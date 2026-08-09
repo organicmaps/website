@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Благодаря вашим **[пожертвованиям][stripe]** в **[RUB][stripe_rub]**, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **Organic Maps**:
+Благодаря вашим **[пожертвованиям][stripe]** в **[RUB][stripe_rub]**, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **Organic Maps**:
 
 - Бесплатны для всех;
 - Без рекламы;

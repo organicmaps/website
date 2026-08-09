@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-اپلیکیشن Organic Maps به لطف **[کمک‌های مالی شما][stripe]** در **[یورو][stripe_eur]، [دلار][stripe_usd]، [پوند][stripe_GBP]، [فرانک سوئیس][stripe_chf]، [هریونا اوکراین][stripe_uah]، [زلوتی لهستان][stripe_pln]** برای همه _رایگان_ است:
+اپلیکیشن Organic Maps به لطف **[کمک‌های مالی شما][stripe]** در **[یورو][stripe_eur]، [دلار][stripe_usd]، [پوند][stripe_GBP]، [فرانک سوئیس][stripe_chf]، [هریونا اوکراین][stripe_uah]، [زلوتی لهستان][stripe_pln]، [روبل روسیه][stripe_rub]** برای همه _رایگان_ است:
 
 - بدون تبلیغات
 - بدون ردیاب

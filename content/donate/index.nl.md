@@ -7,7 +7,7 @@ title: "Doneer om de ontwikkeling van Organic Maps te ondersteunen"
 weight: 10
 ---
 
-Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]**:
+Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Geen advertenties
 - Geen trackers

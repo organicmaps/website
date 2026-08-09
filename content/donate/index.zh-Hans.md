@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[美元][stripe_usd]、[英镑][stripe_GBP]、[瑞士法郎][stripe_chf]、[乌克兰格里夫纳][stripe_uah]、[波兰兹罗提][stripe_pln]**）而对所有人 _免费_：
+Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[美元][stripe_usd]、[英镑][stripe_GBP]、[瑞士法郎][stripe_chf]、[乌克兰格里夫纳][stripe_uah]、[波兰兹罗提][stripe_pln]、[俄罗斯卢布][stripe_rub]**）而对所有人 _免费_：
 
 - 无广告
 - 无跟踪器

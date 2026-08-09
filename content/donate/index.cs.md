@@ -1,13 +1,13 @@
 ---
-description: "Z tvých peněz se hradí všechny výdaje spojené s projektem a motivují nás ke zlepšování Organic Maps."
+description: "Z vašich peněz se hradí všechny výdaje spojené s projektem a motivují nás ke zlepšování Organic Maps."
 extra:
-  menu_title: Přispěj
+  menu_title: Přispějte
   preview_image: donate/donate.png
-title: "Přispěj na podporu vývoje Organic Maps"
+title: "Přispějte na podporu vývoje Organic Maps"
 weight: 10
 ---
 
-Aplikace Organic Maps je pro všechny _zdarma_ díky tvým **[darům][stripe]**:
+Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]**:
 
 - Bez reklam
 - Žádné sledovací zařízení
@@ -15,15 +15,15 @@ Aplikace Organic Maps je pro všechny _zdarma_ díky tvým **[darům][stripe]**:
 - Žádná vyskakovací oznámení
 - Open source
 
-Klikni na ikonu preferovaného způsobu platby níže:
+Klikněte na ikonu preferovaného způsobu platby níže:
 
 {{ donate_buttons() }}
 
 ## Proč darovat Organic Maps?
 
-1. Naším cílem je poskytovat rychlou alternativu k Mapám Google a Apple Maps, která se jednoduše používá a bere ohled na tvoje soukromí.
+1. Naším cílem je poskytovat rychlou alternativu k Mapám Google a Apple Maps, která se jednoduše používá a bere ohled na vaše soukromí.
 2. Naším druhým cílem je vylepšování mapových dat pro velké množství webů, aplikací a platform, které používají službu OpenStreetMap, a zapojit více lidí do přispívání informací do map.
-3. Při plnění našeho poslání udržovat Organic Maps otevřené a svobodné spoléháme na tvoje dary. A bez reklam.
+3. Při plnění našeho poslání udržovat Organic Maps otevřené a svobodné spoléháme na vaše dary. A bez reklam.
 4. Máme rádi to, co děláme, a máme rádi naše uživatele ❤️.
 
 ## Proč potřebuje bezplatný projekt peníze?
@@ -41,15 +41,15 @@ Klikni na ikonu preferovaného způsobu platby níže:
    - Stínování kopců a 3D terén
    - Vylepšení editoru OpenStreetMap
    - Lepší offline vyhledávání adres, směrování a navigace
-   - ... a [mnoho dalších][github issues] funkcí, které chceš a máš rád
+   - ... a [mnoho dalších][github issues] funkcí, které chcete a máte rádi
 
 ## Jak darovat?
 
-Klikni na ikonu preferovaného způsobu platby níže:
+Klikněte na ikonu preferovaného způsobu platby níže:
 
 {{ donate_buttons() }}
 
-Opakované dary jsou nejlepším způsobem, jak zajistit relativně stabilní příjem projektu a motivovat nás k dlouhodobým úkolům a cílům. Můžeš však přispět i jednorázově.
+Opakované dary jsou nejlepším způsobem, jak zajistit relativně stabilní příjem projektu a motivovat nás k dlouhodobým úkolům a cílům. Můžete však přispět i jednorázově.
 
 ### Bankovním převodem
 
@@ -57,12 +57,12 @@ Opakované dary jsou nejlepším způsobem, jak zajistit relativně stabilní p�
 
 ### Kryptoměna
 
-Zvaž prosím možnost ročního příspěvku, abys snížil celkové poplatky.
+Zvažte prosím možnost ročního příspěvku, abyste snížili celkové poplatky.
 
 {{ crypto_table() }}
 
-## Můžeš nám pomoci i jinak?
+## Můžete nám pomoci i jinak?
 
-Ano! Existuje mnoho způsobů, jak podpořit Organic Maps. Více informací najdeš na stránce [Podpoř nás](@/contribute/index.cs.md).
+Ano! Existuje mnoho způsobů, jak podpořit Organic Maps. Více informací naleznete na stránce [Podpořte nás](@/contribute/index.cs.md).
 
 {{ references() }}

@@ -7,7 +7,7 @@ title: "Adományozz az Organic Maps fejlesztésének támogatására"
 weight: 10
 ---
 
-Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][stripe]** köszönhetően :
+Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][stripe]** köszönhetően, **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]** pénznemben:
 
 - Nincsenek hirdetések
 - Nincsenek nyomkövetők

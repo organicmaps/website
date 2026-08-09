@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - Dim hysbysebion
 - Dim traciwr

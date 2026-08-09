@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-L'app Organic Maps è _gratuita per tutti_ grazie alle tue **[donazioni][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+L'app Organic Maps è _gratuita per tutti_ grazie alle tue **[donazioni][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - Nessuna pubblicità
 - Nessun tracker

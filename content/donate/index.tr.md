@@ -7,7 +7,7 @@ extra:
   preview_image: donate/bağış.png
 ---
 
-Organic Maps, **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** cinsinden yaptığın **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_:
+Organic Maps, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** cinsinden yaptığın **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_:
 
 - Reklam yok
 - Takipçi yok

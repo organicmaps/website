@@ -7,7 +7,7 @@ title: "Пожертвуйте, щоб підтримати розвиток Org
 weight: 10
 ---
 
-Organic Maps є _безкоштовним для всіх_ завдяки вашим **[пожертвам][stripe]**:
+Organic Maps є _безкоштовним для всіх_ завдяки вашим **[пожертвам][stripe]** у **[UAH][stripe_uah], [EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln]**:
 
 - Без реклами
 - Без відстеження

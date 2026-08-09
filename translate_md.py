@@ -89,11 +89,18 @@ REGISTER_FIXES = {
 # back polite, and to catch texts that mix both registers in one post.
 REGISTER_MARKERS = {
     "af": (r"\bu\b|\bU\b", r"\bjy\b|\bjou\b|\bJy\b"),
-    "ca": (r"\bvostè\b|\bvós\b", r"\btu\b|\bteu\b|\bteva\b"),
-    "cs": (r"\bvy\b|\bVy\b|\bváš|\bvaše|\bvám\b|\bvás\b|ete\b", r"\bty\b|\btvůj|\btvo|eš\b"),
+    # Catalan is pro-drop, so the formal register shows in the verb far
+    # more often than in a pronoun: the whole corpus was vós-register
+    # (feu, doneu, premeu, vostre) with barely a "vostè" in sight, and
+    # a pronoun-only pattern never noticed.
+    "ca": (r"\bvostè\b|\bvós\b|\bvostr[ae]s?\b|"
+           r"\b(?:[Ff]eu|[Dd]oneu|[Pp]remeu|[Aa]neu|[Tt]rieu|[Cc]onsulteu|"
+           r"[Oo]briu|[Tt]oqueu|[Ss]eleccioneu|[Pp]odeu|[Tt]eniu|[Vv]oleu|[Uu]tilitzeu|[Cc]omproveu|[Vv]egeu)\b",
+           r"\btu\b|\bteu\b|\bteva\b|\bteus\b|\bteves\b"),
+    "cs": (r"\bvy\b|\bVy\b|\bváš|\bvaše|\bvám\b|\bvás\b|ete\b", r"\btvůj|\btvoj|\btvá\b|\btvé\b|\btvým|eš\b"),
     "cy": (r"\bchi\b|\bchwi\b|\beich\b", r"\bti\b|\bdy\b|\bdi\b"),
     "de": (r"\bSie\b|\bIhre?[nmrs]?\b|\bIhnen\b", r"\bdu\b|\bDu\b|\bdein|\bdir\b|\bdich\b"),
-    "el": (r"\bεσείς\b|\bσας\b|είτε\b", r"\bεσύ\b|\bσου\b|εις\b"),
+    "el": (r"\bεσείς\b|\bσας\b|(?<=[α-ωά-ώ])είτε\b", r"\bεσύ\b|\bσου\b|εις\b"),
     "es": (r"\busted\b|\bUsted\b", r"\btú\b|\btu\b|\btus\b|\bti\b"),
     # "teid" is the partitive plural of "tee" (road) as often as it is the
     # pronoun — "ei saa lisada teid, järvi" is "cannot add roads, lakes" — and
@@ -118,7 +125,7 @@ REGISTER_MARKERS = {
            r"(?<![ऀ-ॣ०-ॿ])(?:तुम|तुझ)|(?<![ऀ-ॣ०-ॿ])तू(?![ऀ-ॣ०-ॿ])"),
     # Hungarian marks the informal imperative with -d/-sd, which is how a text
     # ends up mixed: "szerkesztheti" (formal) beside "Töltsd le" (informal).
-    "hu": (r"\bÖn\b|\bÖnök\b|\bÖnnek\b|heti\b|hatja\b", r"\bte\b|\bti\b|\bneked\b|hetsz\b|\w+sd\b|\w+dd\b"),
+    "hu": (r"\bÖn\b|\bÖnök\b|\bÖnnek\b|\bÖnt\b", r"\bte\b|\bti\b|\bneked\b|hetsz\b|\w+sd\b|\w+dd\b"),
     "id": (r"\bAnda\b", r"\bkamu\b|\bmu\b"),
     "it": (r"\bLei\b|\bSuo\b|\bSua\b", r"\btu\b|\btuo|\btua|\bti\b"),
     "lt": (r"\bjūs\b|\bJūs\b|\bjūsų\b|kite\b", r"\btu\b|\btavo\b|\btave\b"),
@@ -132,8 +139,8 @@ REGISTER_MARKERS = {
     "pl": (r"\bPan\b|\bPani\b|\bPaństw", r"\bty\b|\btwoj|\bcię\b|sz\b"),
     "pt": (r"\bvocê\b|\bvocês\b|\bo senhor\b", r"\btu\b|\bteu|\btua"),
     "pt-BR": (r"\bo senhor\b|\bvós\b", r"\bvocê\b|\bseu\b|\bsua\b"),
-    "ru": (r"\bВы\b|\bвы\b|\bваш|\bвас\b|\bвам\b", r"\bты\b|\bтво|\bтебя\b|шь\b"),
-    "sv": (r"\bni\b|\bNi\b|\ber\b", r"\bdu\b|\bDu\b|\bdin\b|\bdig\b"),
+    "ru": (r"\bВы\b|\bвы\b|\bваш|\bвас\b|\bвам\b", r"\bты\b|\bтво|\bтебя\b|(?<!мы)(?<!ли)шь\b"),
+    "sv": (r"\bni\b|\bNi\b|(?<!:)\ber\b", r"\bdu\b|\bDu\b|\bdin\b|\bdig\b"),
     # Bare నీ / నీ- also begins నీలం (blue), నీటి (water), నీడ (shade).
     "te": (r"(?<![ఀ-౿])(?:మీరు|మీకు|మీతో|మిమ్మల్ని)|(?<![ఀ-౿])మీ(?![ఀ-౿])",
            r"(?<![ఀ-౿])(?:నువ్వు|నీవు|నిన్ను|నీకు|నీతో)|(?<![ఀ-౿])నీ(?![ఀ-౿])"),

@@ -625,9 +625,11 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     if out_meta:
         src_meta = strip_frontmatter(src)[1]
         for key in ("title", "description"):
+            # A title with no letters is the same in every language: post 39
+            # is called "19:36", a timestamp.
             if (isinstance(src_meta.get(key), str)
                     and src_meta.get(key) == out_meta.get(key)
-                    and src_meta[key].strip()):
+                    and any(c.isalpha() for c in src_meta[key])):
                 problems.append(Problem(
                     WARN, "untranslated-frontmatter",
                     f"'{key}' is identical to the English source"))

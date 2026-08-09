@@ -5,6 +5,12 @@ page_template: index.html
 sort_by: weight
 extra:
   menu_title: Главная
+  # This page is its own edition rather than a rendering of the English
+  # one, so translate_check does not compare their structure.
+  translation_diverges: "Carries a volunteer-recruitment section and a
+    second donate appeal that English does not have, rewrites the community
+    list around the Russian chat and Matrix room, and orders the Exodus and
+    TrackerControl blocks the other way round."
 ---
 
 **Organic Maps** — это бесплатные офлайн-карты с навигацией для iOS и Android, созданные для путешественников, туристов, велосипедистов и водителей. Без рекламы, без слежки, полностью бесплатно. Разработано с любовью open-source сообществом и теми же людьми, которые создали приложение [MapsWithMe][mapswithme]/Maps.Me. Основано на данных [OpenStreetMap][openstreetmap].

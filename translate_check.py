@@ -275,13 +275,29 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     out_body, out_meta = strip_frontmatter(out)
     problems: list[Problem] = []
 
-    # 1. Structure must match the source exactly. Report *what* differs, not
-    #    just the counts: "42 vs 35 reference links" is unactionable, whereas
-    #    naming the missing ids points straight at the drift.
+    # 1. Structure must match the source exactly — unless the page says it
+    #    deliberately does not. A few translations are not renderings of the
+    #    English page but their own edition of it: the Russian homepage runs a
+    #    volunteer-recruitment section English has never had and rewrites the
+    #    community list around its own chats. Reporting that forever as
+    #    "structure" errors trains people to ignore the check, and worse, it
+    #    hides real losses behind noise that is known to be fine.
+    #
+    #    Declaring it costs a sentence in the page's own frontmatter:
+    #
+    #        extra:
+    #          translation_diverges: "Carries a volunteer section English lacks."
+    #
+    #    The reason is mandatory — an empty flag does nothing — so the
+    #    exemption cannot be added silently. Only the structural comparison is
+    #    waived. Everything that catches actual damage still runs: lost brands,
+    #    translated anchors, spliced alphabets, orphaned links, leftover XML
+    #    tags and register.
+    diverges = (out_meta.get("extra") or {}).get("translation_diverges")
     a, b = fingerprint(src_body), fingerprint(out_body)
     localised = _localised_refs(src_body, out_body, lang)
     b["ref_links"] -= sum(localised.values())
-    for key in a:
+    for key in ([] if isinstance(diverges, str) and diverges.strip() else a):
         if a[key] == b[key]:
             continue
         detail = ""
@@ -471,8 +487,16 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                     WARN, "untranslated-frontmatter",
                     f"'{key}' is identical to the English source"))
 
-    # 10. Straight ASCII quotes where the language wants its own marks.
-    if re.search(r'(?<![\w=])"[^"\n]{1,120}"', out_body):
+    # 10. Straight ASCII quotes where the language wants its own marks — but
+    #     only in prose. HTML attributes, shortcode arguments, code spans and
+    #     markdown link titles all *require* a straight quote, so warning about
+    #     them asks for something that would break the page. The Russian
+    #     homepage was warned on nothing but its sponsor table's `width="200"`.
+    prose = re.sub(r"(?s)<[^>]+>", " ", out_body)
+    prose = re.sub(r"\{\{[^}]*\}\}", " ", prose)
+    prose = re.sub(r"`[^`\n]*`", " ", prose)
+    prose = re.sub(r"\]\([^)\s]+\s+\"[^\"]*\"\)", "]()", prose)
+    if re.search(r'(?<![\w=])"[^"\n]{1,120}"', prose):
         problems.append(Problem(
             WARN, "ascii-quotes",
             "straight \" quotes present; use the language's native marks"))

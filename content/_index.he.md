@@ -13,11 +13,17 @@ extra:
 
 > בדצמבר 2025, Organic Maps [הגיעה ל-6 מיליון התקנות](@/news/2025-12-31/500/index.he.md). [עזרו לנו](@/donate/index.he.md) לגדול!
 
-### הורידו והתקינו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### הורידו והתקינו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [FDroid][fdroid] {#install}
 
 {{ badges() }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='טיולי הליכה', loading='eager', fetchpriority='high') }} {{ screenshot(src='/images/screenshots/prague.jpg', alt='פראג') }} {{ screenshot(src='/images/screenshots/search.jpg', alt='חיפוש אופליין') }} {{ screenshot(src='/images/screenshots/dark.jpg', alt='ניווט במצב כהה') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='טיולי הליכה', loading='eager', fetchpriority='high') }}
+
+{{ screenshot(src='/images/screenshots/prague.jpg', alt='פראג') }}
+
+{{ screenshot(src='/images/screenshots/search.jpg', alt='חיפוש אופליין') }}
+
+{{ screenshot(src='/images/screenshots/dark.jpg', alt='ניווט במצב כהה') }}
 
 ## תכונות
 

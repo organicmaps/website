@@ -26,6 +26,12 @@ Nota: só podes velo se tes os servizos de Google Play instalados (activados) no
 
 Se es un usuario de iPhone ou iPad, comprobe a configuración de iOS → Privacidade → Servizos de localización. O uso compartido de datos de xeolocalización debería estar activado para Organic Maps.
 
+**Móstrase unha localización incorrecta no mapa**
+
+1. Se hai un gran círculo semitransparente arredor da frecha da túa localización no mapa, significa que a túa posición se determina con baixa precisión, usando conexión WiFi ou móbil. Asegúrate de ter activada a precisión de localización «Precisa» para Organic Maps na configuración do sistema e proba a saír ao exterior, lonxe de edificios altos e árbores, para mellorar a recepción do sinal GPS por satélite.
+
+2. Se a túa posición se determina incorrectamente (por exemplo, estás nunha cidade, pero a aplicación mostra outra cidade), o máis probable é que esteas nunha zona afectada por un sinal GPS falso (suplantación de GPS) debido a medidas de guerra electrónica (EW). Nestes casos, a única solución é moverse a outra localización.
+
 **Notas:**
 
 * Para evitar datos non desexados durante a itinerancia, podes desactivar todos os datos móbiles, activar un modo de voo ou desactivar os datos móbiles para Organic Maps na configuración do teu dispositivo. Os dispositivos Android e iOS poden usar o GPS no modo voo.
@@ -33,10 +39,3 @@ Se es un usuario de iPhone ou iPad, comprobe a configuración de iOS → Privaci
 * Algúns dispositivos móbiles non teñen receptores GPS integrados, como o iPod Touch, o iPad só con WiFi, Amazon Kindle Fire/Kindle Fire HD 7 e algunhas tabletas Android. Nestes dispositivos, todas as aplicacións mostrarán a túa localización aproximada detectada mediante unha rede wifi, sempre que esteas conectado a Internet.
 
 * A detección de localización con satélites GPS (cando a WiFi e as redes móbiles están desactivadas) pode levar algún tempo. Canto máis tempo non se use o GPS, máis tempo leva. A velocidade de detección de localización depende do dispositivo, non da aplicación. O funcionamento do GPS tamén está influenciado polo tempo: funciona mellor ao aire libre cando o ceo está despexado. Poden xurdir problemas ao intentar localizarse no interior, nunha rúa estreita ou ao conducir un coche, con moito metal ao redor ou cun metal/imán na carcasa do dispositivo.
-
-
-**Móstrase unha localización incorrecta no mapa**
-
-1. Se hai un gran círculo semitransparente arredor da frecha da túa localización no mapa, significa que a túa posición se determina con baixa precisión, usando conexión WiFi ou móbil. Asegúrate de ter activada a precisión de localización «Precisa» para Organic Maps na configuración do sistema e proba a saír ao exterior, lonxe de edificios altos e árbores, para mellorar a recepción do sinal GPS por satélite.
-
-2. Se a túa posición se determina incorrectamente (por exemplo, estás nunha cidade, pero a aplicación mostra outra cidade), o máis probable é que esteas nunha zona afectada por un sinal GPS falso (suplantación de GPS) debido a medidas de guerra electrónica (EW). Nestes casos, a única solución é moverse a outra localización.

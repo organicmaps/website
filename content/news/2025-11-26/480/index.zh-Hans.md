@@ -17,7 +17,7 @@ taxonomies:
 ### iOS
 
 - 新功能！你可以通过点击名称直接在地点信息页面上编辑书签或轨迹名称。 _(Kiryl Kaveryn)_
-- 添加了对 iOS 26 和 macOS 26 「Liquid Glass」 的支持。 _(Kiryl Kaveryn)_
+- 添加了对 iOS 26 和 macOS 26 “Liquid Glass” 的支持。 _(Kiryl Kaveryn)_
 - 长按所选地点或书签的名称或地址以将其复制到剪贴板。 _(Kiryl Kaveryn)_
 - 点击地点信息页面上的列表名称以为书签或轨迹选择新列表，并使用新搜索功能快速找到所需的列表。 _(Kiryl Kaveryn)_
 - 修复了 iPad 上导航期间的地图布局，使路线保持清晰可见。 _(Kiryl Kaveryn)_

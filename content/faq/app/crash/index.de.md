@@ -11,19 +11,17 @@ aliases:
   - /de/faq/app/crash/
 ---
 
-Es ist wahrscheinlich unser Fehler und wir werden ihn gerne im nächsten Update beheben.
+Wenn du auf Android deine Karten auf einer SD-Karte speicherst, ist die wahrscheinlichste Ursache eine fehlerhafte SD-Karte. Du kannst:
+1. Alle heruntergeladenen Karten löschen und erneut auf die SD-Karte herunterladen (funktioniert möglicherweise nicht).
+2. Alle heruntergeladenen Karten löschen, den internen Gerätespeicher auswählen und die Karten erneut herunterladen.
+3. Die SD-Karte formatieren und die Karten erneut herunterladen.
+4. Eine neue SD-Karte kaufen (empfohlen)
 
-Android: Wenn du deine Karten auf einer SD-Karte speicherst, ist die wahrscheinlichste Ursache eine fehlerhafte SD-Karte. Du kannst:
-1. Alle Karten löschen und sie erneut auf die SD-Karte herunterladen(funktioniert möglicherweise nicht).
-2. Alle Karten löschen, Internen Speicher auswählen, und erneut herunterladen.
-3. Deine SD-Karte formatieren und die Karten erneut herunterladen
-4. Sie durch eine neue SD-Karte ersetzen (empfohlen)
+Wenn die App weiterhin abstürzt, schau bitte auf [unserem GitHub](https://github.com/organicmaps/organicmaps/issues/) nach ähnlichen Problemen, [kontaktiere uns](mailto:support@organicmaps.app) und gib uns Folgendes an:
 
-Wenn das Problem weiterhin besteht, [kontaktiere uns bitte](mailto:support@organicmaps.app) und gib uns:
-
-* Eine kurze Beschreibung des Problems mit Schritten zur Reproduktion
+* Eine detaillierte Beschreibung des Problems und die Schritte, um es zu reproduzieren
 * Die Organic Maps Version
-* Dein Gerätemodell und Betriebssystemversion (Android oder iOS).
+* Dein Gerätemodell und die Betriebssystemversion (Android oder iOS)
 
 Oder alternativ:
 1. Aktiviere die Protokollierung in den App-Einstellungen.

@@ -15,11 +15,11 @@ aliases:
 
 Az Organic Maps tartalmaz egy egyszerű és könnyen használható szerkesztőt, amellyel szerkesztheted a térképet. A szerkesztő azonban korlátozott, és csak egyszerű pontjellemzők hozzáadását teszi lehetővé, ami azt jelenti, hogy nincsenek épületek körvonalai, utak, tavak, városok stb. Ha olyan dolgot szeretnél megváltoztatni, amelyet nem szerkeszthetsz a beépített szerkesztővel, akkor ez a megfelelő GYIK oldal.
 
-Mivel az Organic Maps-ben használt összes térképadat az [OpenStreetMap.org (OSM)] webhelyről (https://www.openstreetmap.org) származik, ott közvetlenül frissítheted a térképet. A módosítások ezután a következő térképfrissítéssel bekerülnek az Organic Maps-be.
+Mivel az Organic Maps-ben használt összes térképadat az [OpenStreetMap.org (OSM)](https://www.openstreetmap.org) webhelyről származik, ott közvetlenül frissítheted a térképet. A módosítások ezután a következő térképfrissítéssel bekerülnek az Organic Maps-be.
 
 ## OpenStreetMap szerkesztők
 
-Az OSM szerkesztéséhez több lehetőség is van. Ha van kéznél laptopod vagy asztali számítógéped, jobb, ha a böngésződben futó [ID Editor]-t (https://www.openstreetmap.org/edit) használod. Az ID Editor a kezdők számára egyszerű, a nagyobb képernyő, az egér és a billentyűzet pedig megkönnyíti a térképszerkesztést.
+Az OSM szerkesztéséhez több lehetőség is van. Ha van kéznél laptopod vagy asztali számítógéped, jobb, ha a böngésződben futó [ID Editor](https://www.openstreetmap.org/edit)-t használod. Az ID Editor a kezdők számára egyszerű, a nagyobb képernyő, az egér és a billentyűzet pedig megkönnyíti a térképszerkesztést.
 
 Ha speciális térképszerkesztést szeretnél végezni mobileszközről, használd a [Go Map](https://apps.apple.com/us/app/go-map/id592990211) alkalmazást iOS rendszeren vagy a [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) alkalmazást Android esetén. A Go Map a kezdők számára egyszerű, míg a Vespucci a haladóbb felhasználókat célozza meg. A LearnOSM oktatóanyagokat biztosít a [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) és a [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/) számára.
 
@@ -29,7 +29,7 @@ Az egyszerűbb és szórakoztatóbb szerkesztések érdekében kipróbálhatod a
 
 Az OpenStreetMap azonosítóval történő szerkesztéséhez kövesd az alábbi lépéseket:
 
-1. Hozz létre egy új fiókot, vagy jelentkezz be az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org)
+1. Hozz létre egy új fiókot, vagy jelentkezz be az [OpenStreetMap.org](https://www.openstreetmap.org) oldalon
 2. Keresd meg a szerkeszteni kívánt helyet az OpenStreetMap.org oldalon, és kattints a felül található *Szerkesztés* gombra.
 3. *Indítsd el a Walkthrough-t*, és kövesd az ID Editor-t ismertető rövid útmutatót
 4. Szerkeszd a térképet
@@ -61,9 +61,9 @@ Az ID Editor-ben megtekintheted az azonosító által elrejtett címkéket, ha k
 
 Ha nincs időd, vagy a probléma túl bonyolult ahhoz, hogy magad szerkeszd az OSM-adatokat, az OSM Notes ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) a megfelelő út. Elhelyezhetsz egy ilyen megjegyzést a térképhiba helyén, és részletesen leírhatod a problémát. Más OSM önkéntesek segíthetnek és megoldhatják a problémát. E-mail értesítést kapsz az OSM-fiókodon keresztül, ha további kérdéseik vannak, vagy az OSM Note megoldódik.
 
-1. Hozz létre egy új fiókot, vagy jelentkezz be az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org)
+1. Hozz létre egy új fiókot, vagy jelentkezz be az [OpenStreetMap.org](https://www.openstreetmap.org) oldalon
    > Névtelen jegyzeteket is megnyithatsz, de ez nem ajánlott, mivel nem kapsz értesítést, ha a probléma megoldódott, vagy további kérdések merülnek fel.
-2. Nagyítsd ki a térkép helyét az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org), majd nyomd meg a *Jegyzet hozzáadása a térképhez* gombot (a második ikon alulról a jobb oldali menüben). Ezután húzd a kék térképjelzőt a pontos helyre.
+2. Nagyítsd ki a térkép helyét az [OpenStreetMap.org](https://www.openstreetmap.org) oldalon, majd nyomd meg a *Jegyzet hozzáadása a térképhez* gombot (a második ikon alulról a jobb oldali menüben). Ezután húzd a kék térképjelzőt a pontos helyre.
    > Próbálj meg a lehető legpontosabban fogalmazni.
 3. Add meg a térképprobléma részletes leírását, majd nyomd meg a *Megjegyzés* gombot.
    > Boltok számára pl. add meg a nevet, és említsd meg, hogy mit árulnak ott, vagy milyen szolgáltatásokat kínálnak.

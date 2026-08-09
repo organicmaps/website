@@ -15,7 +15,7 @@ aliases:
 
 Mae Organic Maps yn defnyddio'r peiriant testun-i-leferydd system (TTS) ar gyfer cyfarwyddiadau llais. Mae'r peiriannau rhagosodedig yn amrywio yn ôl dyfais. Gall y dewisiadau gynnwys Google Text-to Speech, injan gwneuthurwr dyfeisiau neu un trydydd parti.
 
-Yr argymhelliad swyddogol gan Organic Maps yw [RHVoice](https://rhvoice.org/), sef peiriant lleferydd ffynhonnell agored am ddim y gellir ei lawrlwytho o [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) a [F-Droid]( https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/ ).
+Yr argymhelliad swyddogol gan Organic Maps yw [RHVoice](https://rhvoice.org/), sef peiriant lleferydd ffynhonnell agored am ddim y gellir ei lawrlwytho o [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) a [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Cyfarwyddiadau
 
@@ -48,7 +48,7 @@ Isod mae rhestr gynhwysfawr yn dangos nifer o beiriannau a'r ieithoedd y maent y
 
 Os wyt ti'n cael trafferth cychwyn yr injan RHVoice TTS ar LineageOS neu ROMs arferol eraill, rho gynnig ar y datrysiad hwn. Efallai na fydd RHVoice yn cychwyn yn iawn a gall yr ap chwalu, yn enwedig os nad wyt wedi defnyddio unrhyw injan TTS ar dy ffôn o'r blaen (e.e., gosodiad newydd, ailosod ffatri, ac ati). Os wyt ti'n defnyddio ROM personol fel LineageOS <ins>heb wasanaethau Google Play a Gwasanaethau Lleferydd gan Google</ins>, a dy fod am ddefnyddio RHVoice fel dy beiriant TTS dewisol, dilyna'r cyfarwyddiadau isod fel ateb:
 
-1. Gosoda'r [injan eSpeak TTS] ( https://f-droid.org/en/packages/com.reecedunn.espeak ) sydd ar gael ar F-Droid
+1. Gosoda'r [injan eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) sydd ar gael ar F-Droid
 2. Gosoda ef fel yr injan system a ffefrir
     - Dos i brif **Gosodiadau** LineageOS.
     - Sgrolia i lawr i **Hygyrchedd**.

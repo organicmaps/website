@@ -18,11 +18,11 @@ Ahots-argibideak entzuten ez badituzu:
 
 * Mesedez, ziurtatu zure gailuaren bolumena ez dagoela isilduta. Bolumen-maila alda dezakezu zure gailuaren bolumen-botoiekin. Horretarako, baliteke «Aldatu botoiekin» aukera desgaitu behar izatea (gaituta badago) gailuaren ezarpenetan → Soinuak.
 
-* Mesedez, jakinarazi Bluetooth-a arazoren bat beharrezko xehetasunekin gure [GitHub]-en (https://github.com/organicmaps/organicmaps/issues)
+* Mesedez, jakinarazi Bluetooth arazoren bat beharrezko xehetasunekin gure [GitHub-en](https://github.com/organicmaps/organicmaps/issues)
 
 * Android erabiltzailea bazara eta aukera desgaituta badago (edo onartzen diren hizkuntza batzuk ez daude erabilgarri), egiaztatu [TTS ezarpenak](@/faq/voice/text-to-speech-android-tts/index.eu.md).
 
-Android-en ahots-argibideak 39 hizkuntzatan daude eskuragarri: ingelesa, arabiera, euskara, bielorrusiera, katalana, txinera (sinplifikatua eta tradizionala), kroaziera, txekiera, daniera, nederlandera, finlandiera, frantsesa, alemana, greziar, hindia, hungariera, indonesiera, italiera, japoniera, koreera, marathi, norvegiera, persiera (farsi), poloniera, portugesa, portugesa (Brasil), errumaniera, errumaniera, gaztelania, suediera, suediera, eslovakiera, ukrainera, errumaniera, suediera, suediera, eslovakiera, ukrainera. Vietnamera.
+Android-en ahots-argibideak 39 hizkuntzatan daude eskuragarri: ingelesa, arabiera, euskara, bielorrusiera, katalana, txinera (sinplifikatua eta tradizionala), kroaziera, txekiera, daniera, nederlandera, finlandiera, frantsesa, alemana, grekoa, hindia, hungariera, indonesiera, italiera, japoniera, koreera, marathi, norvegiera, persiera (farsi), poloniera, portugesa, portugesa (Brasil), errumaniera, errusiera, serbiera, eslovakiera, gaztelania, gaztelania (Mexiko), swahilia, suediera, thailandiera, turkiera, ukrainera, vietnamera.
 
 Google TTS-k zerrendatutako hizkuntza guztiak onartzen ditu arabiera eta persiera (farsi) izan ezik. Baliteke hizkuntza horietarako hirugarrenen TTS (adibidez, eSpeak TTS, Vocalizer TTS edo SVOX Classic TTS) eta aplikazioen dendako hizkuntza pakete bat (Google Play Store, Galaxy Store, etab.) instalatu behar izatea.
 

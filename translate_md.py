@@ -206,8 +206,11 @@ QUOTES = {
     "«»": ["fr", "es", "ca", "gl", "el", "oc", "ru", "uk", "pt", "ar", "fa-IR",
            "eu"],
     "„“": ["de", "cs", "pl", "hu", "et", "lt"],
-    "“”": ["nl", "sv", "pt-BR", "id", "hi", "mr", "ml", "te", "af"],
-    "「」": ["zh-Hans", "ja"],
+    "“”": ["nl", "sv", "pt-BR", "id", "hi", "mr", "ml", "te", "af",
+           # Simplified Chinese uses “ ”; the corner brackets are
+           # Traditional Chinese and Japanese. The corpus agrees, 55 to 5.
+           "zh-Hans"],
+    "「」": ["ja"],
     "‘’": ["cy"],
 }
 QUOTE_FOR = {lang: pair for pair, langs in QUOTES.items() for lang in langs}

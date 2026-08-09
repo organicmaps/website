@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps از موتور سیستم تبدیل متن به گفتار (TTS) برای دستورالعمل‌های صوتی استفاده می‌کند. موتورهای پیش فرض بسته به دستگاه متفاوت است. این انتخاب‌ها می‌تواند شامل Google Text to Speech، موتور سازنده دستگاه یا یک شخص ثالث باشد.
 
-توصیه رسمی از Organic Maps [RHVoice](https://rhvoice.org/) است که یک موتور گفتاری رایگان و منبع باز است که می‌توان آن را از [Google Play] دانلود کرد (https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) و [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+توصیه رسمی از Organic Maps [RHVoice](https://rhvoice.org/) است که یک موتور گفتاری رایگان و منبع باز است که می‌توان آن را از [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) دانلود کرد و [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## دستورالعمل
 

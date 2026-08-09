@@ -26,6 +26,11 @@ Hinweis: Die Einstellung kannst du nur sehen, wenn auf deinem Android-Gerät Goo
 
 Wenn du ein iPhone oder iPad Nutzer bist, überprüfe bitte iOS-Einstellungen → Datenschutz → Standortdienste. Geolocation-Datenfreigabe sollte für Organic Maps aktiviert sein.
 
+**Falscher Standort wird auf der Karte angezeigt**
+
+1. Wenn sich ein großer halbtransparenter Kreis um deinen Standortpfeil auf der Karte befindet, bedeutet dies, dass deine Position mit geringer Genauigkeit unter Verwendung von WLAN oder Mobilfunkverbindung bestimmt wird. Stelle sicher, dass du in den Systemeinstellungen die Standortgenauigkeit „Genau“ für Organic Maps aktiviert hast, und versuche, nach draußen zu gehen, weg von hohen Gebäuden und Bäumen, um den Empfang des GPS-Satellitensignals zu verbessern.
+
+2. Wenn deine Position falsch bestimmt wird (zum Beispiel bist du in einer Stadt, aber die App zeigt eine andere Stadt an), befindest du dich höchstwahrscheinlich in einem Gebiet, das von einem falschen GPS-Signal (GPS-Spoofing) aufgrund von Maßnahmen der elektronischen Kriegsführung (EW) betroffen ist. In solchen Fällen ist die einzige Lösung, sich an einen anderen Ort zu begeben.
 
 **Anmerkungen:**
 
@@ -34,10 +39,3 @@ Wenn du ein iPhone oder iPad Nutzer bist, überprüfe bitte iOS-Einstellungen �
 * Einige Mobilgeräte verfügen nicht über integrierte GPS-Empfänger. Dies betrifft z.B. iPod Touch, reine Wlan-iPads, Amazon Kindle Fire/Kindle Fire HD 7, und einige Android-Tablets. Auf diesen Geräten zeigen alle Anwendungen deinen ungefähren Standort basierend auf WLAN-Netzwerken an, solange du mit dem Internet verbunden bist.
 
 * Die Standortbestimmung mit GPS (wenn WLAN und Mobilfunknetz deaktiviert sind) kann einige Zeit dauern. Je länger das GPS nicht genutzt wurde, desto mehr Zeit wird benötigt. Die Geschwindigkeit der Standortbestimmung hängt vom Gerät ab, nicht der App. Die GPS-Funktion wird auch vom Wetter beeinflusst - am besten funktioniert es draußen bei freiem Himmel. Probleme können auftreten wenn du dich versuchst zu orten in Gebäuden, in engen Straße, beim Fahren eines Autos mit einer Menge Metall um dich herum, oder sich Metall/Magneten in der Schützhülle des Geräts befinden.
-
-
-**Falscher Standort wird auf der Karte angezeigt**
-
-1. Wenn sich ein großer halbtransparenter Kreis um deinen Standortpfeil auf der Karte befindet, bedeutet dies, dass deine Position mit geringer Genauigkeit unter Verwendung von WLAN oder Mobilfunkverbindung bestimmt wird. Stelle sicher, dass du in den Systemeinstellungen die Standortgenauigkeit „Genau“ für Organic Maps aktiviert hast, und versuche, nach draußen zu gehen, weg von hohen Gebäuden und Bäumen, um den Empfang des GPS-Satellitensignals zu verbessern.
-
-2. Wenn deine Position falsch bestimmt wird (zum Beispiel bist du in einer Stadt, aber die App zeigt eine andere Stadt an), befindest du dich höchstwahrscheinlich in einem Gebiet, das von einem falschen GPS-Signal (GPS-Spoofing) aufgrund von Maßnahmen der elektronischen Kriegsführung (EW) betroffen ist. In solchen Fällen ist die einzige Lösung, sich an einen anderen Ort zu begeben.

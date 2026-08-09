@@ -1,8 +1,8 @@
 ---
-title: Cómo puedo importar los marcadores?
+title: ¿Cómo importar marcadores y tracks en formato KML, KMZ, KMB, GPX o GeoJSON (JSON)?
 slug: cómo-puedo-importar-los-marcadores
-description: ""
-updated: "2024-06-20"
+description: Instrucciones paso a paso para importar en Organic Maps marcadores y tracks que te hayan compartido como archivos KML, KMZ, KMB, GPX o GeoJSON (JSON)
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["marcadores-y-rutas"]
@@ -13,9 +13,15 @@ aliases:
   - /es/faq/bookmarks/how-to-import/
 ---
 
-Puedes importar marcadores enviados desde Organic Maps o aplicaciones de terceros si exportan marcadores en formato KML, KMZ, KMB, GPX, GeoJSON (JSON):
+Puedes importar marcadores y/o tracks enviados desde Organic Maps o aplicaciones de terceros, siempre que estas exporten los marcadores en formatos KML, KMZ, KMB, GPX o GeoJSON (JSON).
 
-1. Puedes importar marcadores desde carpetas y aplicaciones (incluido Maps.Me). Presiona un botón de estrella para abrir marcadores, presiona «Importar marcadores y trazas» y selecciona la unidad o carpeta con archivos KML, KMZ, KMB, GPX, GeoJSON (JSON).
-2. Envía a ti mismo los archivos KML, KMZ, KMB, GPX, GeoJSON (JSON) por correo electrónico. También puedes usar mensajería instantánea o almacenamiento en la nube, como iCloud o Google Drive.
-3. Pulsa un archivo y elige “Copiar en Organic Maps” (iOS) o «Abrir con Organic Maps» (Android).
-4. El archivo se abrirá con Organic Maps y verás “¡Los favoritos se han cargado con éxito! Puedes encontrarlos en el mapa o en la pantalla de Gestión de favoritos.”
+Para importar un solo archivo:
+
+1. Busca el archivo KML, KMZ, KMB, GPX o GeoJSON (JSON) descargado o compartido que te hayan enviado por correo electrónico, mensajería instantánea o almacenamiento en la nube, como, por ejemplo, iCloud o Google Drive.
+2. Toca una vez o mantén pulsado el archivo KML, KMZ, KMB, GPX o GeoJSON (JSON) y selecciona «Abrir con Organic Maps» (Android) o «Importar con Organic Maps» (un icono con un cuadrado y una flecha en iOS) en la ventana emergente.
+3. Organic Maps debería abrirse y deberías ver el mensaje «¡Marcadores cargados correctamente!». Puedes ver los marcadores y/o tracks importados en el mapa y en la pantalla «Marcadores y tracks».
+
+También es posible importar marcadores y tracks de forma masiva:
+
+1. Abre Organic Maps y pulsa el botón de las «estrellas con puntos» para abrir los marcadores y los tracks. Pulsa el botón «Importar marcadores y tracks».
+2. Selecciona una carpeta con archivos KML, KMZ, KMB, GPX o GeoJSON (JSON). En Android, Organic Maps la explorará, incluidas las subcarpetas, e importará todos los archivos compatibles que contengan marcadores y tracks. Puedes elegir la carpeta raíz para buscar en todo el almacenamiento.

@@ -11,7 +11,7 @@ aliases:
   - /tr/faq/map/can-not-find-position/
 ---
 
-Lütfen cihazının GPS'i olduğundan ve konum ayarlarının açık olduğundan emin ol.
+Lütfen cihazında GPS bulunduğundan, konum hizmetlerinin açık olduğundan ve Organic Maps uygulamasına konum izinlerinin verildiğinden emin ol.
 
 **Android**
 
@@ -25,6 +25,12 @@ Not: bunu yalnızca Android cihazında Google Play hizmetleri yüklüyse (etkins
 
 Bir iPhone veya iPad kullanıcısıysan, lütfen iOS ayarları → Gizlilik → Konum hizmetlerini kontrol et. Organic Maps için coğrafi konum veri paylaşımı etkinleştirilmelidir.
 
+**Haritada yanlış konum gösteriliyor**
+
+1. Haritada konum okunun etrafında büyük, yarı saydam bir daire varsa, bu, konumunun WiFi veya hücresel bağlantı kullanılarak düşük doğrulukla belirlendiği anlamına gelir. Sistem ayarlarında Organic Maps için "Tam" konum doğruluğunu etkinleştirdiğinden emin ol ve uydu GPS sinyali alımını iyileştirmek için yüksek binalardan ve ağaçlardan uzakta dışarı çıkmayı dene.
+
+2. Konumun yanlış belirlenirse (örneğin, bir şehirdesin ancak uygulama başka bir şehir gösteriyor), büyük olasılıkla elektronik harp (EW) önlemleri nedeniyle sahte bir GPS sinyalinden (GPS sahtekarlığı) etkilenen bir bölgedesin. Bu gibi durumlarda tek çözüm başka bir yere taşınmaktır.
+
 **Notlar:**
 
 * Dolaşımdayken istenmeyen verileri önlemek için tüm mobil veriyi kapatabilir, uçak modunu açabilir veya cihaz ayarlarında Organic Maps için mobil veriyi devre dışı bırakabilirsin. Android ve iOS cihazlar uçak modunda GPS kullanabilir.
@@ -32,10 +38,3 @@ Bir iPhone veya iPad kullanıcısıysan, lütfen iOS ayarları → Gizlilik → 
 * iPod Touch, sadece Wi-Fi destekli iPad, Amazon Kindle Fire/Kindle Fire HD 7 ve bazı Android tabletler gibi bazı mobil cihazlar dahili GPS alıcılarına sahip değildir. Bu cihazlarda sen internete bağlanana kadar uygulamamız yaklaşık konumunu gösterecektir.
 
 * Son olarak, lütfen GPS (WiFi ile ve Mobil Ağ kapalı) ile konumunu tespit etmenin biraz zaman alabileceğini unutma. GPS uzun süre kullanılmazsa bu daha fazla zaman alır. Konumunu tespit etme hızı uygulamaya değil, cihazına bağlıdır. GPS'in çalışması hava koşullarından da etkilenir – en iyi hava açıkken dışarıda çalışır. Sorunlar kendini kapalı alanda bulmaya çalışırken, dar bir sokakta veya araba sürerken meydana gelebilir.
-
-
-**Haritada yanlış konum gösteriliyor**
-
-1. Haritada konum okunun etrafında büyük, yarı saydam bir daire varsa, bu, konumunun WiFi veya hücresel bağlantı kullanılarak düşük doğrulukla belirlendiği anlamına gelir. Sistem ayarlarında Organic Maps için "Tam" konum doğruluğunu etkinleştirdiğinden emin ol ve uydu GPS sinyali alımını iyileştirmek için yüksek binalardan ve ağaçlardan uzakta dışarı çıkmayı dene.
-
-2. Konumun yanlış belirlenirse (örneğin, bir şehirdesin ancak uygulama başka bir şehir gösteriyor), büyük olasılıkla elektronik harp (EW) önlemleri nedeniyle sahte bir GPS sinyalinden (GPS sahtekarlığı) etkilenen bir bölgedesin. Bu gibi durumlarda tek çözüm başka bir yere taşınmaktır.

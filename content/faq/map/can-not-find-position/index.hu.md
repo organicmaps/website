@@ -26,6 +26,12 @@ Megjegyzés: csak akkor láthatod, ha a Google Play-szolgáltatások telepítve 
 
 Ha iPhone vagy iPad felhasználó vagy, kérjük, ellenőrizd az iOS beállításait → Adatvédelem → Helymeghatározási szolgáltatások. A földrajzi helyadatok megosztását engedélyezni kell az Organic Maps-hez.
 
+**Helytelen hely jelenik meg a térképen**
+
+1. Ha a térképen a helyzetjelző nyíl körül egy nagy, félig átlátszó kör látható, az azt jelenti, hogy a pozíciód alacsony pontossággal, WiFi vagy mobilkapcsolat használatával került meghatározásra. Győződj meg arról, hogy a rendszerbeállításokban engedélyezted a „Pontos“ helymeghatározást az Organic Maps számára, és próbálj meg kimenni a szabadba, távol a magas épületektől és fáktól, hogy javítsd a műholdas GPS-jel vételét.
+
+2. Ha a pozíciód helytelenül van meghatározva (például az egyik városban tartózkodsz, de az alkalmazás egy másik várost mutat), akkor valószínűleg olyan területen tartózkodsz, amelyet elektronikus hadviselési (EW) intézkedések miatt hamis GPS-jel (GPS-hamisítás) érint. Ilyen esetekben az egyetlen megoldás az, ha másik helyre mész.
+
 **Megjegyzések:**
 
 * A barangolás közbeni nem kívánt adatforgalom elkerülése érdekében az eszközöd beállításaiban kikapcsolhatod az összes mobiladat-forgalmat, aktiválhatsz egy repülési módot, vagy letilthatod a mobiladatokat az Organic Maps-hez. Az Android és iOS eszközök repülési módban használhatják a GPS-t.
@@ -33,10 +39,3 @@ Ha iPhone vagy iPad felhasználó vagy, kérjük, ellenőrizd az iOS beállítá
 * Egyes mobileszközök nem rendelkeznek beépített GPS-vevővel, például az iPod Touch, a csak WiFi-t használó iPad, az Amazon Kindle Fire/Kindle Fire HD 7 és néhány Android táblagép. Ezeken az eszközökön minden alkalmazás megjeleníti a hozzávetőleges tartózkodási helyedet a Wi-Fi hálózaton keresztül, mindaddig, amíg csatlakozol az internethez.
 
 * A helyérzékelés GPS-műholdakkal (ha a WiFi és a mobilhálózatok le vannak tiltva) eltarthat egy ideig. Minél hosszabb ideig nem használod a GPS-t, annál több időt vesz igénybe. A helyérzékelés sebessége az eszköztől függ, nem az alkalmazástól. A GPS működését az időjárás is befolyásolja – szabadban működik a legjobban, ha tiszta az ég. Problémák adódhatnak, ha beltérben, szűk utcán próbálunk elhelyezkedni, vagy ha autót vezetünk, ha sok fém van körülötte, vagy fém/mágnes van a készülék házán.
-
-
-**Helytelen hely jelenik meg a térképen**
-
-1. Ha a térképen a helyzetjelző nyíl körül egy nagy, félig átlátszó kör látható, az azt jelenti, hogy a pozíciód alacsony pontossággal, WiFi vagy mobilkapcsolat használatával került meghatározásra. Győződj meg arról, hogy a rendszerbeállításokban engedélyezted a „Pontos“ helymeghatározást az Organic Maps számára, és próbálj meg kimenni a szabadba, távol a magas épületektől és fáktól, hogy javítsd a műholdas GPS-jel vételét.
-
-2. Ha a pozíciód helytelenül van meghatározva (például az egyik városban tartózkodsz, de az alkalmazás egy másik várost mutat), akkor valószínűleg olyan területen tartózkodsz, amelyet elektronikus hadviselési (EW) intézkedések miatt hamis GPS-jel (GPS-hamisítás) érint. Ilyen esetekben az egyetlen megoldás az, ha másik helyre mész.

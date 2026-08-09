@@ -17,7 +17,7 @@ Az Organic Maps-szel egyszerűen hozzáadhatsz hiányzó helyeket a térképhez,
 Mivel az Organic Maps térképadatainak elsődleges forrása az [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap), az általad végzett módosítások elküldésre kerülnek az OSM-nek. Az OSM egy közösségi projekt egy ingyenes és nyílt térkép felépítésére. A Wikipédiához hasonlóan működik, így minden, amit szerkesztesz, több millió felhasználó számára elérhetővé válik szerte a világon. Csatlakozz a közösséghez, és segíts jobb térképet készíteni mindenki számára!
 
 **Az OpenStreetMap szerkesztése az Organic Maps alkalmazásból:**
-1. Hozz létre egy fiókot az [OpenStreetMap.org] oldalon (https://www.openstreetmap.org/user/new)
+1. Hozz létre egy fiókot az [OpenStreetMap.org](https://www.openstreetmap.org/user/new) oldalon
 2. Jelentkezz be a fiókodba az Organic Maps szolgáltatásban (hamburger ikon -> *beállítások* -> *OpenStreetMap-Profile*)
 3. Most már szerkesztheted a meglévő helyeket, vagy hozzáadhatsz újakat
 	- Meglévő hely szerkesztése

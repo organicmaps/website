@@ -25,4 +25,4 @@ aliases:
 - Android 12
 - Android 11
 
-Τα ακριβή βήματα σχετικά με τον τρόπο λειτουργίας των οργανικών χαρτών (και άλλων εφαρμογών) στο παρασκήνιο παρατίθενται εδώ: [dontkillmyapp.com](https://dontkillmyapp.com)
+Τα ακριβή βήματα για το πώς θα λειτουργεί το Organic Maps (και άλλες εφαρμογές) στο παρασκήνιο παρατίθενται εδώ: [dontkillmyapp.com](https://dontkillmyapp.com)

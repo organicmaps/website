@@ -21,7 +21,7 @@ Gan fod yr holl ddata map a ddefnyddir yn Organic Maps yn dod o [OpenStreetMap.o
 
 Ar gyfer golygu OSM, mae yna sawl opsiwn. Os oes gennyt liniadur neu gyfrifiadur pen desg wrth law, mae'n well defnyddio'r [ID Editor](https://www.openstreetmap.org/edit) sy'n rhedeg yn dy borwr. Mae'r ID Editor yn hawdd i ddechreuwyr, ac mae sgrin fwy, llygoden a bysellfwrdd yn ei gwneud hi'n haws golygu mapiau.
 
-Ar gyfer golygu mapiau datblygedig o ddyfais symudol, defnyddia [Go Map]( https://apps.apple.com/us/app/go-map/id592990211 ) ar gyfer iOS neu [Vespucci]( https://play.google.com/store/apps/details?id=de.blau.android) ar gyfer Android. Mae Go Map yn hawdd i ddechreuwyr, tra bod Vespucci yn targedu defnyddwyr mwy datblygedig. Mae LearnOSM yn darparu tiwtorialau ar gyfer [Go Map] ( https://learnosm.org/en/mobile-mapping/gomap/ ) a [Vespucci]( https://learnosm.org/en/mobile-mapping/vespucci/ ).
+Ar gyfer golygu mapiau datblygedig o ddyfais symudol, defnyddia [Go Map](https://apps.apple.com/us/app/go-map/id592990211) ar gyfer iOS neu [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) ar gyfer Android. Mae Go Map yn hawdd i ddechreuwyr, tra bod Vespucci yn targedu defnyddwyr mwy datblygedig. Mae LearnOSM yn darparu tiwtorialau ar gyfer [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) a [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Ar gyfer golygiadau symlach gyda mwy o hwyl, gelli hefyd roi cynnig ar [Every Door app](https://every-door.app/) ar gyfer iOS ac Android ac [ap StreetComplete](https://streetcomplete.app/) ar gyfer Android.
 
@@ -29,7 +29,7 @@ Ar gyfer golygiadau symlach gyda mwy o hwyl, gelli hefyd roi cynnig ar [Every Do
 
 I olygu OpenStreetMap ag ID dilyna'r camau hyn:
 
-1. Creu cyfrif newydd neu fewngofnodi yn [OpenStreetMap.org]( https://www.openstreetmap.org )
+1. Creu cyfrif newydd neu fewngofnodi yn [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Pora i'r lleoliad rwyt am ei olygu ar OpenStreetMap.org a chlicia ar *Golygu* ar y brig
 3. *Dechreua'r Teithiau Cerdded* a dilyna'r tiwtorial byr sy'n esbonio'r ID Editor
 4. Golygu'r map
@@ -61,7 +61,7 @@ Yn yr ID Editor, gelli weld y Tagiau y mae ID yn eu cuddio oddi wrthyt trwy ehan
 
 Os nad oes gennyt amser neu os yw'r broblem yn rhy gymhleth ar gyfer golygu'r data OSM dy hun OSM Notes ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) yw'r ffordd i fynd. Gelli osod nodyn o'r fath yn lleoliad y gwall map a disgrifio'r broblem yn fanwl. Yna gall gwirfoddolwyr OSM eraill helpu a datrys y mater. Byddi'n cael hysbysiadau e-bost trwy dy gyfrif OSM rhag ofn bod ganddynt gwestiynau pellach neu fod y Nodyn OSM wedi'i ddatrys.
 
-1. Creu cyfrif newydd neu fewngofnodi yn [OpenStreetMap.org]( https://www.openstreetmap.org )
+1. Creu cyfrif newydd neu fewngofnodi yn [OpenStreetMap.org](https://www.openstreetmap.org)
    > Gelli hefyd agor Nodiadau dienw, ond nid yw hyn yn cael ei argymell gan na fyddi'n cael gwybod pan fydd y mater wedi'i ddatrys neu pan fydd cwestiynau pellach.
 2. Chwyddo i leoliad y map ar [OpenStreetMap.org](https://www.openstreetmap.org) a gwasga *Ychwanegu nodyn at y map* (ail eicon o'r gwaelod ar y ddewislen ar y dde). Yna llusga'r marciwr map glas i'r union leoliad.
    > Ceisia fod mor fanwl ag y gelli.

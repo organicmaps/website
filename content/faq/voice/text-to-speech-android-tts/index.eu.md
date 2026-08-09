@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps-ek sistemako testu-hizketarako (TTS) motorra erabiltzen du ahots-argibideetarako. Motor lehenetsiak gailuaren arabera aldatzen dira. Aukerak Google Text-to Speech, gailuaren fabrikatzailearen motorra edo hirugarrenen bat izan daitezke.
 
-Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [Google Play]-tik deskargatu daitekeen kode irekiko ahots-motorra (https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) eta [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)-tik deskargatu daitekeen kode irekiko ahots-motorra eta [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Argibideak
 

@@ -11,15 +11,17 @@ aliases:
   - /pt-BR/faq/app/crash/
 ---
 
-É provavelmente o nosso bug e ficaremos felizes em corrigi-lo na próxima atualização.
+No Android, se você armazenar seus mapas em um cartão SD, a causa mais provável é um cartão SD defeituoso. Você pode:
+1. Apagar todos os mapas baixados e baixá-los novamente para o cartão SD (pode não funcionar de novo).
+2. Apagar todos os mapas baixados, selecionar o armazenamento interno do dispositivo e baixar os mapas novamente.
+3. Formatar o cartão SD e baixar os mapas novamente.
+4. Comprar um novo cartão SD (recomendado)
 
-Android: se você armazenar seus mapas em um cartão SD, a causa mais provável é um cartão SD defeituoso. Você pode formatar seu cartão SD ou, melhor ainda, substituí-lo por um novo. Se você moveu o aplicativo para o cartão SD, mova-o de volta para o armazenamento interno (dispositivo).
+Se o aplicativo continuar travando, confira [o nosso GitHub](https://github.com/organicmaps/organicmaps/issues/) para ver se há problemas parecidos, [entre em contato conosco](mailto:support@organicmaps.app) e forneça as seguintes informações:
 
-Se o problema persistir, entre em [contato](mailto:support@organicmaps.app) conosco e forneça as seguintes informações:
-
-* descrição do problema e etapas para recriá-lo
+* Uma descrição detalhada do problema e os passos para reproduzi-lo
 * Versão do Organic Maps
-* modelo de dispositivo e versão do sistema operacional (Android ou iOS).
+* Modelo do dispositivo e versão do sistema operacional (Android ou iOS)
 
 Ou alternativamente:
 1. Ative a gravação de logs nas configurações do aplicativo.

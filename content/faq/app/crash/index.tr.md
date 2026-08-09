@@ -11,8 +11,6 @@ aliases:
   - /tr/faq/app/crash/
 ---
 
-Bu muhtemelen bizim hatamız ve bir sonraki güncellemede bunu düzeltmekten mutluluk duyacağız.
-
 Android'de haritalarını SD karta kaydettiysen, en olası neden SD kartın arızalı olmasıdır. Şunları yapabilirsin:
 1. İndirilen tüm haritaları sil ve SD karta yeniden indir (tekrar çalışmayabilir).
 2. İndirilen tüm haritaları sil, Dahili cihaz depolama alanını seç ve haritaları yeniden indir.

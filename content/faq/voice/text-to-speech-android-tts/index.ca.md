@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps utilitza el motor de text a veu (TTS) del sistema per a instruccions de veu. Els motors predeterminats varien segons el dispositiu. Les opcions poden incloure Google Text-to-Speech, el motor del fabricant del dispositiu o un de tercers.
 
-La recomanació oficial d'Orgànic Maps és [RHVoice](https://rhvoice.org/), que és un motor de veu gratuït i de codi obert que es pot descarregar de [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) i [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+La recomanació oficial d'Organic Maps és [RHVoice](https://rhvoice.org/), que és un motor de veu gratuït i de codi obert que es pot descarregar de [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) i [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Instruccions
 

@@ -11,7 +11,7 @@ taxonomies:
 ### Totes les plataformes
 
 - *NOU!* Regions descarregades ressaltades al mapa del món (Viktor Govako)
-- *NOU!* Vegeu i cerqueu reserves naturals, parcs nacionals, àrees protegides, terres aborígens, zones de perill i llacs al mapa del món a partir del nivell de zoom 8 (Viktor Govako)
+- *NOU!* Mira i cerca reserves naturals, parcs nacionals, àrees protegides, terres aborígens, zones de perill i llacs al mapa del món a partir del nivell de zoom 8 (Viktor Govako)
 - *NOU!* L'encaminament ara admet horaris de tancament de carreteres (Viktor Govako)
 
 - Dades d'OpenStreetMap a data de 9 de novembre de 2025 (Viktor Govako)
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto sempre utilitza el mode d'encaminament per a cotxes (Andrei Shkrob)
 - S'utilitzen traduccions al xinès tradicional per a les regions de Hong Kong (zh-HK) i Macau (zh-MO) (Alexander Borsuk)
 
-Si us plau, feu-nos saber si podeu executar Organic Maps en qualsevol dispositiu x86 (inclosos els Chromebooks) amb suport per a OpenGL ES 3.
+Si us plau, fes-nos saber si pots executar Organic Maps en qualsevol dispositiu x86 (inclosos els Chromebooks) amb suport per a OpenGL ES 3.
 
 ### Mapa i estils
 
@@ -62,9 +62,9 @@ Si us plau, feu-nos saber si podeu executar Organic Maps en qualsevol dispositiu
 
 Notes de la versió anterior: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Obteniu la darrera versió d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+Obtén la darrera versió d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
-P.D. Uniu-vos a les proves beta per a les funcions anticipades i ajudeu-nos a trobar errors i problemes:
+P.D. Uneix-te a les proves beta per a les funcions anticipades i ajuda'ns a trobar errors i problemes:
 - [iOS][testflight]
 - [Android][firebase].
 

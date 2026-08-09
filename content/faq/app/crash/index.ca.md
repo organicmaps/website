@@ -12,20 +12,20 @@ aliases:
   - /ca/faq/app/crash/
 ---
 
-A Android, si emmagatzemeu els vostres mapes en una targeta SD, la causa més probable és una targeta SD defectuosa. Pots:
+A Android, si emmagatzemes els teus mapes en una targeta SD, la causa més probable és una targeta SD defectuosa. Pots:
 1. Suprimeix tots els mapes baixats i torna a baixar-los a la targeta SD (pot ser que no torni a funcionar).
 2. Suprimeix tots els mapes baixats, selecciona Emmagatzematge intern del dispositiu i torna a baixar els mapes.
-3. Formateu la targeta SD i torneu a baixar els mapes.
+3. Formata la targeta SD i torna a baixar els mapes.
 4. Compra una targeta SD nova (recomanat)
 
-Si l'aplicació encara es bloqueja, consulteu [el nostre GitHub](https://github.com/organicmaps/organicmaps/issues/) per problemes similars i [contacteu amb nosaltres](mailto:support@organicmaps.app) i proporcioneu el següent:
+Si l'aplicació encara es bloqueja, consulta [el nostre GitHub](https://github.com/organicmaps/organicmaps/issues/) per problemes similars i [contacta amb nosaltres](mailto:support@organicmaps.app) i proporciona el següent:
 
 * Una descripció detallada del problema i els passos per reproduir-lo
 * Versió d'Organic Maps
 * Model de dispositiu i versió del sistema operatiu (Android o iOS)
 
 O alternativament:
-1. Activeu l'enregistrament de registres a la configuració de l'aplicació.
-2. Forceu el reinici de l'aplicació.
-3. Reproduïu el bloqueig.
-4. Envieu-nos el fitxer de registre mitjançant «Informa d'un error» a la pantalla Quant a i afegiu una breu descripció del bloqueig.
+1. Activa l'enregistrament de registres a la configuració de l'aplicació.
+2. Força el reinici de l'aplicació.
+3. Reprodueix el bloqueig.
+4. Envia'ns el fitxer de registre mitjançant «Informa d'un error» a la pantalla Quant a i afegeix una breu descripció del bloqueig.

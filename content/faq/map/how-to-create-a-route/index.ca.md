@@ -12,17 +12,17 @@ aliases:
   - /ca/faq/map/how-to-create-a-route/
 ---
 
-Un cop determinada la vostra ubicació al mapa, trieu la vostra destinació.
-Podeu utilitzar una de les maneres següents:
+Un cop determinada la teva ubicació al mapa, tria la teva destinació.
+Pots utilitzar una de les maneres següents:
 
-* toqueu el botó de cerca
-* toqueu el botó d'adreces d'interès
-* Toqueu qualsevol lloc del mapa
+* toca el botó de cerca
+* toca el botó d'adreces d'interès
+* Toca qualsevol lloc del mapa
 
-Un cop hàgiu escollit el punt de destinació, premeu el botó «Ruta a» a la part inferior. Es crearà la ruta i veureu la distància i el temps de viatge estimat. Podeu canviar el tipus de ruta prement la icona Cotxe, Viat, Metro, Bicicleta o Regla a la part superior de la pantalla. Per començar a seguir la ruta, toqueu el botó «Inici». Premeu el signe de fletxa a l'extrem inferior dret de la pantalla i toqueu Atura per acabar la ruta.
+Un cop hagis escollit el punt de destinació, prem el botó «Ruta a» a la part inferior. Es crearà la ruta i veuràs la distància i el temps de viatge estimat. Pots canviar el tipus de ruta prement la icona Cotxe, Viat, Metro, Bicicleta o Regla a la part superior de la pantalla. Per començar a seguir la ruta, toca el botó «Inici». Prem el signe de fletxa a l'extrem inferior dret de la pantalla i toca Atura per acabar la ruta.
 
-Podeu triar un punt de partida diferent (botó «Ruta des de») per previsualitzar una ruta, però la navegació només està disponible des de la vostra ubicació actual.
+Pots triar un punt de partida diferent (botó «Ruta des de») per previsualitzar una ruta, però la navegació només està disponible des de la teva ubicació actual.
 
-Podeu afegir fins a 100 punts intermedis a una ruta. Per afegir un punt intermedi, creeu una ruta entre l'inici i la destinació, després toqueu un punt al mapa (o seleccioneu-lo entre les adreces d'interès/utilitzant la cerca) i toqueu «Afegeix parada».
+Pots afegir fins a 100 punts intermedis a una ruta. Per afegir un punt intermedi, crea una ruta entre l'inici i la destinació, després toca un punt al mapa (o selecciona'l entre les adreces d'interès/utilitzant la cerca) i toca «Afegeix parada».
 
-Podeu canviar la configuració de la ruta del cotxe i seleccionar els tipus de carreteres que voleu evitar (peatges, carreteres sense asfaltar, autopistes, ferris). Obriu la configuració de l'aplicació → Opcions d'encaminament → Activa les opcions necessàries. Les opcions d'evitar també es mostren quan es construeix la ruta si canviar alguna de les opcions pot canviar la ruta.
+Pots canviar la configuració de la ruta del cotxe i seleccionar els tipus de carreteres que vols evitar (peatges, carreteres sense asfaltar, autopistes, ferris). Obre la configuració de l'aplicació → Opcions d'encaminament → Activa les opcions necessàries. Les opcions d'evitar també es mostren quan es construeix la ruta si canviar alguna de les opcions pot canviar la ruta.

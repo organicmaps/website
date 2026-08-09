@@ -13,6 +13,6 @@ aliases:
   - /ca/faq/bookmarks/how-to-export/
 ---
 
-Toqueu una adreça d'interès al mapa o a la llista i, a continuació, toqueu el botó «Comparteix» a la pàgina del lloc.
+Toca una adreça d'interès al mapa o a la llista i, a continuació, toca el botó «Comparteix» a la pàgina del lloc.
 
-Per compartir tots els marcadors i pistes d'una llista des de la pàgina Adreces d'interès i pistes, toqueu la icona amb tres punts a la dreta del nom de la llista i seleccioneu «Exporta KMZ» o «Exporta GPX», «Exporta GeoJSON».
+Per compartir tots els marcadors i pistes d'una llista des de la pàgina Adreces d'interès i pistes, toca la icona amb tres punts a la dreta del nom de la llista i selecciona «Exporta KMZ» o «Exporta GPX», «Exporta GeoJSON».

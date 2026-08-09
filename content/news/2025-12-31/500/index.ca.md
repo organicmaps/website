@@ -4,7 +4,7 @@ date: 2025-12-31
 slug: "organic-maps-2025-resum-de-lany"
 ---
 
-A mesura que el 2025 arriba a la seva fi, ens agradaria mirar enrere, reflexionar sobre els nostres èxits i compartir algunes idees amb vosaltres.
+A mesura que el 2025 arriba a la seva fi, ens agradaria mirar enrere, reflexionar sobre els nostres èxits i compartir algunes idees amb tu.
 
 Malgrat molts reptes, hem tornat al bon camí i hem publicat [13 versions de l'aplicació](/news/releases/) aquest any amb moltes millores.
 S'han introduït diverses funcions notables, incloent [rutes globals de senderisme i ciclisme d'OpenStreetMap](@/news/2025-08-09/420/index.ca.md) i el primer pas cap a la navegació en transport públic [mostrant els números d'autobús a les parades](@/news/2025-09-01/430/index.ca.md). El treball continu en l'Android SDK (que complementa l'[API][api] existent), el motor de renderització i altres components bàsics ens permetrà introduir noves funcions el 2026.
@@ -23,14 +23,14 @@ Altres èxits notables el 2025 inclouen:
 
 #### Valoracions a les botigues i participació dels usuaris
 
-- Al llarg del 2025, les valoracions totals a l'App Store han augmentat de 4.1K a 11.100, la qual cosa significa que l'aplicació ha rebut més del doble de noves valoracions el 2025 que en tots els anys anteriors junts, reflectint una forta apreciació per part vostra, els nostres estimats usuaris.
+- Al llarg del 2025, les valoracions totals a l'App Store han augmentat de 4.1K a 11.100, la qual cosa significa que l'aplicació ha rebut més del doble de noves valoracions el 2025 que en tots els anys anteriors junts, reflectint una forta apreciació per part teva, el nostre estimat usuari.
 - Els usuaris d'Android també han mostrat un augment de la participació, amb 5.3K noves valoracions el 2025, arribant a un total de 16.5K ❤️
 - Hem enviat 4K correus electrònics de suport i hem respost a 2.5K ressenyes a Google Play i App Store el 2025.
 - 10 petabytes de dades de mapes han estat descarregats per usuaris de tot el món des dels nostres servidors el 2025.
 
 #### Xarxes socials i comunitat
 
-- Gràcies a vosaltres, les nostres estadístiques a les xarxes socials també estan creixent (seguiu-nos si encara no ho heu fet! 😊):
+- Gràcies a tu, les nostres estadístiques a les xarxes socials també estan creixent (segueix-nos si encara no ho has fet! 😊):
    - [13K a Fosstodon][FOSStodon]
    - [6K a Telegram][telegram]
    - [5K a X (Twitter)][twitter]
@@ -42,11 +42,11 @@ Altres èxits notables el 2025 inclouen:
    - [355 a Threads][threads]
    - [275 a TikTok][tiktok]
    - [251 a BlueSky][bluesky]
-- Uniu-vos a 2.6K provadors beta [a iOS][testflight] i gairebé 2K [a Android][firebase] que ens ajuden a provar noves funcions i informar de problemes.
+- Uneix-te a 2.6K provadors beta [a iOS][testflight] i gairebé 2K [a Android][firebase] que ens ajuden a provar noves funcions i informar de problemes.
 - Gairebé 1K usuaris han participat [en l'enquesta per a la funció més sol·licitada que falta](https://t.me/OrganicMapsApp/568), amb el Transport Públic en 1r lloc, Informació de Trànsit en 2n, i Millor Cerca en 3r.
-- Donem suport a les comunitats locals d'Organic Maps a Telegram. Uniu-vos a les nostres comunitats de parla [anglesa][telegram_chat], [alemanya][telegram_chat_de], [francesa][telegram_chat_fr], [italiana][telegram_chat_it], [espanyola][telegram_chat_es], [turca][telegram_chat_tr], [ucraïnesa][telegram_chat_uk], [russa][telegram_chat_ru], [xinesa][telegram_chat_zh], [àrab][telegram_chat_ar], i [persa][telegram_chat_fa].
+- Donem suport a les comunitats locals d'Organic Maps a Telegram. Uneix-te a les nostres comunitats de parla [anglesa][telegram_chat], [alemanya][telegram_chat_de], [francesa][telegram_chat_fr], [italiana][telegram_chat_it], [espanyola][telegram_chat_es], [turca][telegram_chat_tr], [ucraïnesa][telegram_chat_uk], [russa][telegram_chat_ru], [xinesa][telegram_chat_zh], [àrab][telegram_chat_ar], i [persa][telegram_chat_fa].
 
-Res d'això s'hauria pogut aconseguir sense vosaltres: els nostres usuaris, els nostres [col·laboradors](@/contribute/index.ca.md), els nostres seguidors. Cada commit, correcció d'errors, [donació](@/donate/index.ca.md), i fins i tot una estrella a GitHub, un vot a Telegram, o una valoració a la botiga ens ajuda a apropar-nos al nostre objectiu de fer mapes gratuïts, de codi obert i que respectin la privadesa més accessibles per a tothom. Gràcies!
+Res d'això s'hauria pogut aconseguir sense tu: els nostres usuaris, els nostres [col·laboradors](@/contribute/index.ca.md), els nostres seguidors. Cada commit, correcció d'errors, [donació](@/donate/index.ca.md), i fins i tot una estrella a GitHub, un vot a Telegram, o una valoració a la botiga ens ajuda a apropar-nos al nostre objectiu de fer mapes gratuïts, de codi obert i que respectin la privadesa més accessibles per a tothom. Gràcies!
 
 Feliç Any Nou 2026! 🎄🎁🎉
 

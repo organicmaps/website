@@ -95,7 +95,7 @@ REGISTER_MARKERS = {
     # a pronoun-only pattern never noticed.
     "ca": (r"\bvostè\b|\bvós\b|\bvostr[ae]s?\b|"
            r"\b(?:[Ff]eu|[Dd]oneu|[Pp]remeu|[Aa]neu|[Tt]rieu|[Cc]onsulteu|"
-           r"[Oo]briu|[Tt]oqueu|[Ss]eleccioneu|[Pp]odeu|[Tt]eniu|[Vv]oleu|[Uu]tilitzeu|[Cc]omproveu|[Vv]egeu)\b",
+           r"[Oo]briu|[Tt]oqueu|[Ss]eleccioneu|[Pp]odeu|[Tt]eniu|[Vv]oleu|[Uu]tilitzeu|[Cc]omproveu|[Vv]egeu|[Uu]niu|[Oo]bteniu|[Dd]escarregueu|[Cc]erqueu|[Ss]eguiu|[Ee]scriviu|[Aa]fegiu|[Ii]nformeu|[Ee]nvieu|[Aa]judeu|[Pp]untueu|[Aa]ssegureu|[Ss]ou\b|[Vv]osaltres)\b",
            r"\btu\b|\bteu\b|\bteva\b|\bteus\b|\bteves\b"),
     "cs": (r"\bvy\b|\bVy\b|\bváš|\bvaše|\bvám\b|\bvás\b|ete\b", r"\btvůj|\btvoj|\btvá\b|\btvé\b|\btvým|eš\b"),
     "cy": (r"\bchi\b|\bchwi\b|\beich\b", r"\bti\b|\bdy\b|\bdi\b"),

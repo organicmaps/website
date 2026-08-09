@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots els nostres col·laboradors! Instal·leu-la des de <https://omaps.app/get> o des de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
+Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots els nostres col·laboradors! Instal·la-la des de <https://omaps.app/get> o des de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
 
 ### Notes de la versió (totes les plataformes)
 
@@ -42,7 +42,7 @@ Comencem el 2026 amb una actualització d'Organic Maps, feta possible per tots e
 * S'han corregit els anuncis de guia de veu TTS que faltaven (Alexander Borsuk)
 
 
-Uniu-vos a les proves beta per provar funcions primerenques i informar de problemes:
+Uneix-te a les proves beta per provar funcions primerenques i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Aquesta actualització d'octubre d'Organic Maps afegeix la visualització del límit de velocitat a Android Auto, la importació de GeoJSON, les estadístiques de gravació de rutes, mostra les etiquetes de descripció d'OSM (escriviu `?description` al quadre de cerca per veure-les) i desa un punt d'interès en una ruta a iOS. També hi ha moltes millores a la interfície d'usuari, l'edició d'OpenStreetMap i diverses correccions d'errors a totes les plataformes, inclosa la correcció del bloqueig a l'inici en alguns dispositius Android.
+Aquesta actualització d'octubre d'Organic Maps afegeix la visualització del límit de velocitat a Android Auto, la importació de GeoJSON, les estadístiques de gravació de rutes, mostra les etiquetes de descripció d'OSM (escriu `?description` al quadre de cerca per veure-les) i desa un punt d'interès en una ruta a iOS. També hi ha moltes millores a la interfície d'usuari, l'edició d'OpenStreetMap i diverses correccions d'errors a totes les plataformes, inclosa la correcció del bloqueig a l'inici en alguns dispositius Android.
 
-Organic Maps és possible gràcies ❤️ als nostres col·laboradors, [les vostres donacions](@/donate/index.ca.md) i [el vostre suport](@/contribute/index.ca.md).
+Organic Maps és possible gràcies ❤️ als nostres col·laboradors, [les teves donacions](@/donate/index.ca.md) i [el teu suport](@/contribute/index.ca.md).
 
 ### Notes de llançament detallades (incloent els canvis de l'actualització menor anterior)
 
@@ -68,17 +68,17 @@ Organic Maps és possible gràcies ❤️ als nostres col·laboradors, [les vost
 - Opció per cancel·lar la descàrrega (Viktor Govako)
 - Mostrar tipus de geometria al menú contextual (Viktor Govako)
 
-### Funcions llançades recentment que podríeu haver perdut
+### Funcions llançades recentment que podries haver perdut
 
 - Números de ruta de transport públic en seleccionar una parada d'autobús
-- Rutes de senderisme i ciclisme (activeu-les amb el botó Capes a l'extrem superior esquerre)
+- Rutes de senderisme i ciclisme (activa-les amb el botó Capes a l'extrem superior esquerre)
 - Veure noms de punts d'interès al mapa activant-ho a la Configuració de l'aplicació
 - La icona de llapis ✎ ofereix una manera ràpida d'editar punts d'interès
 
 ### Instal·lar Organic Maps
 
-Obteniu l'última versió d'Organic Maps des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+Obtén l'última versió d'Organic Maps des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
-Uniu-vos a les proves beta per a funcions primerenques: [iOS][testflight] / [Android][firebase].
+Uneix-te a les proves beta per a funcions primerenques: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

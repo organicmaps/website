@@ -11,9 +11,9 @@ Sabies que qualsevol track gravat o importat GPX/KML al mapa pot ser seleccionat
 
 Per veure els noms dels marcadors al mapa, activa aquesta nova característica a la configuració d'Organic Maps.
 
-Gràcies als nostres col·laboradors ❤️ i a les vostres [donacions](@/donate/index.ca.md), hi ha molt més en aquesta actualització.
+Gràcies als nostres col·laboradors ❤️ i a les teves [donacions](@/donate/index.ca.md), hi ha molt més en aquesta actualització.
 
-P.D. …i molt més està per venir! El vostre suport ens ajuda i ens motiva per construir els millors mapes – junts.
+P.D. …i molt més està per venir! El teu suport ens ajuda i ens motiva per construir els millors mapes – junts.
 
 ### Notes detallades de la versió
 

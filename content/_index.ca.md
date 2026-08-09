@@ -9,11 +9,11 @@ title: "Organic Maps: passejos, bici, rutes i GPS sense connexió"
 
 **Organic Maps** és una aplicació de mapes fora de línia i GPS centrada en la privadesa per a senderisme, ciclisme i conducció. Totalment gratuïta. Sense anuncis. No inclou rastrejadors. Desenvolupada amb estima per la comunitat de codi obert i les mateixes persones que van crear l'aplicació [**MapsWithMe**][mapswithme]/**Maps.Me**. Funciona amb dades d'[OpenStreetMap][openstreetmap].
 
-L’**Organic Maps** és una de les poques aplicacions actuals que admet fer servir totes les seves funcions sense una connexió a Internet activa. Instal·leu l’Organic Maps, baixeu mapes, llenceu la vostra targeta SIM (per cert, el vostre operador us rastreja constantment) i feu un viatge setmanal amb una sola càrrega de bateria sense que cap byte s’enviï a la xarxa.
+L’**Organic Maps** és una de les poques aplicacions actuals que admet fer servir totes les seves funcions sense una connexió a Internet activa. Instal·la l’Organic Maps, baixa mapes, llença la teva targeta SIM (per cert, el teu operador et rastreja constantment) i fes un viatge setmanal amb una sola càrrega de bateria sense que cap byte s’enviï a la xarxa.
 
 > El desembre de 2025, Organic Maps va [arribar als 6M d'instal·lacions](@/news/2025-12-31/500/index.ca.md). [Ajuda'ns](@/donate/index.ca.md) a créixer!
 
-### Baixeu i instal·leu l’Organic Maps des de l’[AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid] o [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
+### Baixa i instal·la l’Organic Maps des de l’[AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid] o [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -38,7 +38,7 @@ L’Organic Maps és l’aplicació definitiva per a viatgers, turistes, excursi
 - Mapes de metro
 - Cerques ràpides al mapa, sense connexió
 - Marcadors i rutes en format KML, KMZ i GPX, GeoJSON
-- Mode fosc per a protegir els vostres ulls
+- Mode fosc per a protegir els teus ulls
 - Els països i les regions usen poc espai
 - Articles de la Viquipèdia per a llocs populars
 - De codi lliure i obert
@@ -47,7 +47,7 @@ L’Organic Maps és l’aplicació definitiva per a viatgers, turistes, excursi
 
 L’Organic Maps és pur i orgànic i el fem amb amor:
 
-- Respecta la vostra privadesa
+- Respecta la teva privadesa
 - Estalvia la bateria
 - Sense càrrecs d'ús de dades inesperades
 
@@ -58,7 +58,7 @@ L'aplicació Organic Maps està lliure de rastrejadors i altres coses dolentes:
 - Sense recol·lecció de dades
 - Sense registres incòmodes
 - No hi ha tutorials obligatoris
-- No us enviem correu brossa per correu electrònic
+- No t'enviem correu brossa per correu electrònic
 - Sense notificacions emergents
 - Sense components brossa
 - ~~Sense pesticides~~ Completament orgànic!
@@ -71,25 +71,25 @@ L'aplicació iOS està verificada per[ TrackerControl per a iOS][trackercontrol]
 
 {{ trackercontrol_screenshot() }}
 
-L'Organic Maps no us espia ni demana permisos excessius:
+L'Organic Maps no t'espia ni demana permisos excessius:
 
 {{ privacy_screenshots() }}
 
 En Organic Maps, creiem que la privadesa és un dret humà fonamental:
 
 - Organic Maps és un projecte independent, comunitari i obert
-- Protegim la vostra privadesa de la mirada espia de les grans tecnològiques
-- Utilització segura sense importar on sou
+- Protegim la teva privadesa de la mirada espia de les grans tecnològiques
+- Utilització segura sense importar on ets
 
-Rebutgeu la vigilància. Assumiu la vostra llibertat.
+Rebutja la vigilància. Assumeix la teva llibertat.
 
-**[Proveu l'Organic Maps!](#install)**
+**[Prova l'Organic Maps!](#install)**
 
 ## Qui paga per l'aplicació gratuïta?
 
-L'aplicació és gratuïta per a tothom. Si us plau, [doneu](@/donate/index.ca.md) per a ajudar-nos!
+L'aplicació és gratuïta per a tothom. Si us plau, [dona](@/donate/index.ca.md) per a ajudar-nos!
 
-Per a fer un donatiu immediatament, feu clic a la icona del mètode de pagament preferit:
+Per a fer un donatiu immediatament, fes clic a la icona del mètode de pagament preferit:
 
 {{ donate_buttons() }}
 
@@ -142,17 +142,17 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
 
 Organic Maps és un [programa lliure][github] disponible en virtut de la Llicència Apache 2.0.
 
-- Uniu-vos al nostre programa beta i suggeriu funcionalitats o informeu d'errors:
+- Uneix-te al nostre programa beta i suggereix funcionalitats o informa d'errors:
   - [Beta d'iOS (TestFlight)][testflight]
   - [Beta d'Android (Firebase)][firebase]
   - [Beta de PC Linux (Flatpak)][flatpak]
   - [Beta de PC Linux (paquets)][repology]
-- Informeu d'errors o problemes mitjançant el [rastrejador d'errors][issues] o [enviant-nos un correu electrònic][email].
-- [Debateu][ideas] idees o proposeu característiques.
-- Uniu-vos al nostre [canal del Telegram][telegram] o al [Matrix][matrix] per a estar al dia.
-- Uniu-vos al nostre [grup del Telegram][telegram_chat] i converseu amb altres usuaris.
-- Visiteu el nostre [GitHub][github].
-- Seguiu les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Informa d'errors o problemes mitjançant el [rastrejador d'errors][issues] o [enviant-nos un correu electrònic][email].
+- [Debat][ideas] idees o proposa característiques.
+- Uneix-te al nostre [canal del Telegram][telegram] o al [Matrix][matrix] per a estar al dia.
+- Uneix-te al nostre [grup del Telegram][telegram_chat] i conversa amb altres usuaris.
+- Visita el nostre [GitHub][github].
+- Segueix les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://ca.wikipedia.org/wiki/Fork
 

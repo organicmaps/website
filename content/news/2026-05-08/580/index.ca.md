@@ -8,7 +8,7 @@ taxonomies:
 
 L'actualització de maig acosta Organic Maps un pas més al suport complet del transport públic. Una parada d'autobús, tren, ferri o tramvia és el punt de partida de les línies de transport públic que hi passen; per això, quan ara toques una ruta en una parada, aquesta línia es mostra amb el seu propi color al llarg de tot el mapa. També arribaran horaris reals en línia; no oblidis [afegir o actualitzar les dades del transport públic d'OSM](https://gtfs-osm-matcher.organicmaps.app/) a la teva zona si encara no ho has fet!
 
-Com sempre, moltes gràcies als nostres col·laboradors, les vostres bones ressenyes, [donacions](@/donate/index.ca.md) i [suport](@/contribute/index.ca.md).
+Com sempre, moltes gràcies als nostres col·laboradors, les teves bones ressenyes, [donacions](@/donate/index.ca.md) i [suport](@/contribute/index.ca.md).
 
 Aconsegueix l'actualització de maig a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 

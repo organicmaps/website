@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Bon Nadal i Feliç Any Nou de part de l'equip d'Organic Maps. Busqueu esperit nadalenc? Cerqueu `Mercat de Nadal` o `Arbre de Nadal` per veure'ls al mapa. Si no apareix res a la vostra zona, afegiu les característiques que falten a OpenStreetMap.org i milloreu el mapa per a tothom!
+Bon Nadal i Feliç Any Nou de part de l'equip d'Organic Maps. Busques esperit nadalenc? Cerca `Mercat de Nadal` o `Arbre de Nadal` per veure'ls al mapa. Si no apareix res a la teva zona, afegeix les característiques que falten a OpenStreetMap.org i millora el mapa per a tothom!
 
-Instal·leu Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
+Instal·la Organic Maps des de <https://omaps.app/get> o des de l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid]
 
 ### Notes de la versió
 
@@ -36,11 +36,11 @@ Instal·leu Organic Maps des de <https://omaps.app/get> o des de l'[App Store][a
 - El sensor d'ubicació del cotxe a Android Auto està desactivat per evitar problemes d'ubicació (Andrei Shkrob)
 - L'enregistrament de rutes continua encara que l'aplicació es tanqui o s'aturi (Alexander Borsuk)
 
-Uniu-vos a la prova beta per provar les primeres funcions i informar de problemes:
+Uneix-te a la prova beta per provar les primeres funcions i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existeix gràcies a les vostres [donacions](@/donate/index.ca.md) i [contribucions](@/contribute/index.ca.md). Gràcies! ❤️
+Organic Maps existeix gràcies a les teves [donacions](@/donate/index.ca.md) i [contribucions](@/contribute/index.ca.md). Gràcies! ❤️
 
 L'equip d'Organic Maps
 

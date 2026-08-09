@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-L'actualització de març d'Organic Maps ha trigat més temps a causa de les correccions urgents i la revisió de Google Play. L'actualització d'[Accrescent][accrescent] encara no està llesta a causa de problemes amb la botiga d'aplicacions Accrescent. Obteniu l'actualització a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+L'actualització de març d'Organic Maps ha trigat més temps a causa de les correccions urgents i la revisió de Google Play. L'actualització d'[Accrescent][accrescent] encara no està llesta a causa de problemes amb la botiga d'aplicacions Accrescent. Obtén l'actualització a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
-P.D. Contacteu-nos per correu electrònic a <sdk@organicmaps.app> si esteu interessats en un SDK per a iOS/Android/Linux/MacOS/Windows amb mapes fora de línia que podeu reutilitzar als vostres projectes.
+P.D. Contacta'ns per correu electrònic a <sdk@organicmaps.app> si estàs interessat en un SDK per a iOS/Android/Linux/MacOS/Windows amb mapes fora de línia que pots reutilitzar als teus projectes.
 
-P.P.D. Sabíeu que ja podeu utilitzar l'API a la vostra aplicació si Organic Maps també està instal·lada? Consulteu-ho aquí: <https://omaps.app/api>
+P.P.D. Sabies que ja pots utilitzar l'API a la teva aplicació si Organic Maps també està instal·lada? Consulta-ho aquí: <https://omaps.app/api>
 
 ### Notes de la versió
 
@@ -44,7 +44,7 @@ P.P.D. Sabíeu que ja podeu utilitzar l'API a la vostra aplicació si Organic Ma
 * Actualitzades les traduccions dels col·laboradors de Weblate (Viktor Govako)
 * Corregida la traducció a l'ucraïnès (Nnifria)
 
-Uniu-vos a la prova beta per provar funcions noves i informar de problemes:
+Uneix-te a la prova beta per provar funcions noves i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 

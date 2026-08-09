@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Ara, quan seleccioneu una parada d'autobús o tramvia, podeu veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats («Afegir lloc» i «Editar lloc»).
+Ara, quan selecciones una parada d'autobús o tramvia, pots veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats («Afegir lloc» i «Editar lloc»).
 
-Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres donacions](@/donate/index.ca.md) i el [vostre suport](@/contribute/index.ca.md).
+Estem agraïts ❤️ als nostres col·laboradors, així com per les [teves donacions](@/donate/index.ca.md) i el [teu suport](@/contribute/index.ca.md).
 
 ### Notes detallades de la versió
 
@@ -46,10 +46,10 @@ Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres do
 - Restaurat l'ordre original dels colors predefinits de marcadors/pistes (Andrei Shkrob)
 - Corregit el botó «Esborrar cerca» en editar cuines (Ansh Jain)
 
-Obtingueu la darrera versió de setembre d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
+Obtén la darrera versió de setembre d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
 
-Si encara no ho heu provat, ara podeu activar una funció a la configuració d'Organic Maps per veure noms de marcadors al mapa. A més, ara s'utilitza una icona de llapis ✎ com a manera més ràpida d'editar marcadors.
+Si encara no ho has provat, ara pots activar una funció a la configuració d'Organic Maps per veure noms de marcadors al mapa. A més, ara s'utilitza una icona de llapis ✎ com a manera més ràpida d'editar marcadors.
 
-P.D. No oblideu, podeu registrar-vos al nostre programa de proves beta per obtenir accés primerenc a funcions experimentals i futures—[per a iOS][testflight] i [per a Android][firebase].
+P.D. No oblidis, pots registrar-te al nostre programa de proves beta per obtenir accés primerenc a funcions experimentals i futures—[per a iOS][testflight] i [per a Android][firebase].
 
 {{ references() }}

@@ -252,8 +252,8 @@ crash	pl	awaria
 team	pl	zespół
 
 # --------------------------------------------------- Portuguese, European (pt)
-bookmark	pt	marcador
-bookmarks	pt	marcadores
+bookmark	pt	favorito
+bookmarks	pt	favoritos
 track	pt	trilho
 tracks	pt	trilhos
 route	pt	rota
@@ -275,8 +275,8 @@ voice guidance	pt	orientação por voz
 # ------------------------------------------------ Portuguese, Brazilian (pt-BR)
 # DeepL glossaries are keyed by base language code, so pt and pt-BR may not be
 # able to coexist. deepl_glossary.py verifies this at sync time and reports it.
-bookmark	pt-BR	marcador
-bookmarks	pt-BR	marcadores
+bookmark	pt-BR	favorito
+bookmarks	pt-BR	favoritos
 track	pt-BR	trilha
 tracks	pt-BR	trilhas
 route	pt-BR	rota
@@ -529,6 +529,13 @@ team	af	span
 #    it crash   kept as "crash" (13) / arresto anomalo (5)
 #    pt track   trilho (11) / percurso (6)  — trilho entered, worth confirming
 #    hu track recording  "útvonalrögzítés" uses útvonal (route), not nyomvonal
+#    pt track — three competing terms, no winner:
+#        news posts  trilho (39)      FAQ pages  trilhas (4)
+#        the app itself uses percurso, and uses it for "route" as well
+#        ("Quer recalcular o percurso?" and "Gravação de percurso"), so the
+#        product collapses the two senses in European Portuguese.
+#        `trilho` is entered above on the news evidence; a native speaker
+#        should decide whether the site should follow the app instead.
 #
 # 4. No corpus coverage
 #    ja — only one translated news post on the site, too little to align.

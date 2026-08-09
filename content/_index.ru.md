@@ -8,9 +8,8 @@ extra:
   # This page is its own edition rather than a rendering of the English
   # one, so translate_check does not compare their structure.
   translation_diverges: "Carries a volunteer-recruitment section and a
-    second donate appeal that English does not have, rewrites the community
-    list around the Russian chat and Matrix room, and orders the Exodus and
-    TrackerControl blocks the other way round."
+    second donate appeal that English does not have, and rewrites the
+    community list around the Russian chat and Matrix room."
 ---
 
 **Organic Maps** — это бесплатные офлайн-карты с навигацией для iOS и Android, созданные для путешественников, туристов, велосипедистов и водителей. Без рекламы, без слежки, полностью бесплатно. Разработано с любовью open-source сообществом и теми же людьми, которые создали приложение [MapsWithMe][mapswithme]/Maps.Me. Основано на данных [OpenStreetMap][openstreetmap].
@@ -67,13 +66,13 @@ Organic Maps — это офлайн-карты здорового челове�
 - Без мусорного ПО
 - ~~Без пестицидов~~ Полностью органические!
 
-[TrackerControl][trackercontrol] проверил iOS приложение на наличие трекеров:
-
-{{ trackercontrol_screenshot() }}
-
 [Exodus Privacy Project][exodus] проверил Android приложение на наличие трекеров:
 
 {{ exodus_screenshot() }}
+
+[TrackerControl][trackercontrol] проверил iOS приложение на наличие трекеров:
+
+{{ trackercontrol_screenshot() }}
 
 Organic Maps не запрашивает чрезмерных разрешений, чтобы шпионить за вами, только то, что нужно для карт:
 

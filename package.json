@@ -23,6 +23,7 @@
     "format": "stylelint --fix ./sass/*.scss && prettier --write \"*.md\" \"content/**/*.md\" && js-beautify -r templates/base.html",
     "hooks:install": "git config core.hooksPath .githooks",
     "news": "node update_news.js",
+    "test": "python3 tmp/test_tooling.py && python3 tmp/test_xml_roundtrip.py",
     "upgrade": "npx npm-check-updates -u && npm install"
   },
   "repository": {

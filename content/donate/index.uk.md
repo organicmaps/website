@@ -3,6 +3,7 @@ description: "Ваші гроші покривають усі витрати, п
 extra:
   menu_title: Пожертвувати
   preview_image: donate/donate.png
+  translation_omits_refs: ["stripe_rub"]
 title: "Пожертвуйте, щоб підтримати розвиток Organic Maps"
 weight: 10
 ---

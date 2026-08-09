@@ -32,7 +32,7 @@ import re
 import sys
 from pathlib import Path
 
-from markdown_xml import to_xml, from_xml
+from markdown_xml import to_xml, from_xml, find_balanced_close
 from deepl_glossary import (
     translate as deepl_translate,
     get_glossary_id,
@@ -40,7 +40,7 @@ from deepl_glossary import (
     apply_repairs,
     DEEPL_TARGET,
 )
-from telegram_post import strip_frontmatter
+from markdown_frontmatter import strip_frontmatter
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 BATCH = 45  # DeepL accepts 50 text params per request
@@ -159,6 +159,20 @@ def detect_register(text: str, lang: str) -> tuple[str, int, int]:
     markers = REGISTER_MARKERS.get(lang)
     if not markers:
         return "n-a", 0, 0
+    # A quotation reports somebody else's register, not the way Organic Maps
+    # addresses its reader. For example, Turkish "Hepinize" is correctly
+    # plural in a doctor's message thanking all map contributors.
+    text = re.sub(r'"[^"\n]*"', " ", text)
+    for opening, closing in (
+        ("«", "»"),
+        ("„", "“"),
+        ("“", "”"),
+        ("‘", "’"),
+        ("「", "」"),
+    ):
+        text = re.sub(
+            re.escape(opening) + r"[^\n]*?" + re.escape(closing), " ", text
+        )
     formal, informal = markers
     nf = len(re.findall(formal, text))
     ni = len(re.findall(informal, text))
@@ -239,6 +253,49 @@ def telegram_languages() -> list[str]:
 
 # --------------------------------------------------------------- tidy passes
 
+_LINK_LABEL_PUNCTUATION = ",.;:!?、，。；：！？"
+
+
+def _is_escaped(text: str, index: int) -> bool:
+    backslashes = 0
+    index -= 1
+    while index >= 0 and text[index] == "\\":
+        backslashes += 1
+        index -= 1
+    return backslashes % 2 == 1
+
+
+def _move_link_label_punctuation(text: str) -> str:
+    """Move punctuation from the end of a label to after its inline link."""
+    out: list[str] = []
+    copied = 0
+    search = 0
+    while True:
+        start = text.find("[", search)
+        if start < 0:
+            break
+        if _is_escaped(text, start) or (start > 0 and text[start - 1] == "!"):
+            search = start + 1
+            continue
+        label_end = find_balanced_close(text, start, "[", "]")
+        if label_end < 0 or label_end + 1 >= len(text) or text[label_end + 1] != "(":
+            search = start + 1
+            continue
+        target_end = find_balanced_close(text, label_end + 1, "(", ")")
+        label = text[start + 1:label_end]
+        if target_end < 0 or not label or label[-1] not in _LINK_LABEL_PUNCTUATION:
+            search = start + 1
+            continue
+
+        punctuation = label[-1]
+        out.append(text[copied:start])
+        out.append(f"[{label[:-1]}]{text[label_end + 1:target_end + 1]}{punctuation}")
+        copied = target_end + 1
+        search = copied
+    out.append(text[copied:])
+    return "".join(out)
+
+
 def tidy(text: str, lang: str) -> str:
     """Repair the predictable damage a translator does to markdown."""
     # DeepL emits "[label ](url)" and "[ label](url)".
@@ -246,7 +303,7 @@ def tidy(text: str, lang: str) -> str:
     text = re.sub(r"\[[  ]+", "[", text)
 
     # Punctuation dragged inside a link label: "[下载，](url)" -> "[下载](url)，"
-    text = re.sub(r"\[([^\]]*?)([,.;:!?、，。；：！？])\]\(", r"[\1](", text)
+    text = _move_link_label_punctuation(text)
 
     # The translator adds a space after the ignored list/heading marker token,
     # leaving "-  item" and "##  Heading".
@@ -302,7 +359,24 @@ def _segments(body: str, visible_brands: bool = True) -> tuple[list[str], list[t
     """Split into translatable payloads plus a plan to rebuild the text."""
     payloads: list[str] = []
     plan: list[tuple] = []
+    fence: tuple[str, int] | None = None
     for line in body.split("\n"):
+        if fence is not None:
+            plan.append(("verbatim", line))
+            char, length = fence
+            if re.match(rf"^ {{0,3}}{re.escape(char)}{{{length},}}[ \t]*$", line):
+                fence = None
+            continue
+
+        opening = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
+        if opening and not (
+            opening.group(1).startswith("`") and "`" in opening.group(2)
+        ):
+            marker = opening.group(1)
+            fence = (marker[0], len(marker))
+            plan.append(("verbatim", line))
+            continue
+
         if not line.strip():
             plan.append(("blank",))
             continue
@@ -423,7 +497,11 @@ def main() -> None:
         sys.exit(1)
 
     if args.langs:
-        langs = [l.strip() for l in args.langs.split(",") if l.strip()]
+        langs = [
+            language.strip()
+            for language in args.langs.split(",")
+            if language.strip()
+        ]
     elif args.telegram:
         langs = telegram_languages()
     elif args.all:

@@ -20,14 +20,15 @@ a publish step.
 
 import argparse
 import re
+import subprocess
 import sys
 import unicodedata
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
-from telegram_post import strip_frontmatter
-from translate_md import register_ok, expected_register, QUOTE_FOR
+from markdown_frontmatter import strip_frontmatter
+from translate_md import QUOTE_FOR, register_ok
 
 ERROR, WARN = "ERROR", "warn"
 
@@ -280,6 +281,60 @@ def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
     return added
 
 
+# Intentional, page-local reference omissions. A translation must declare one
+# of these in `extra.translation_omits_refs`; the allowlist prevents that narrow
+# mechanism from becoming a general-purpose way to hide lost links.
+PERMITTED_REF_OMISSIONS = {
+    "ru": {"stripe_uah"},
+    "uk": {"stripe_rub"},
+}
+
+
+def _declared_ref_omissions(
+    src_body: str, out_body: str, out_meta: dict, lang: str
+) -> tuple[Counter, list[Problem]]:
+    """Validate and return explicitly permitted missing reference ids."""
+    extra = out_meta.get("extra") or {}
+    declared = extra.get("translation_omits_refs")
+    if declared is None:
+        return Counter(), []
+
+    problems: list[Problem] = []
+    if not isinstance(declared, list) or not all(
+        isinstance(ref, str) and ref for ref in declared
+    ):
+        return Counter(), [Problem(
+            ERROR, "ref-omission-invalid",
+            "extra.translation_omits_refs must be a list of reference ids",
+        )]
+    if len(declared) != len(set(declared)):
+        problems.append(Problem(
+            ERROR, "ref-omission-invalid",
+            "extra.translation_omits_refs contains a duplicate id",
+        ))
+
+    permitted = PERMITTED_REF_OMISSIONS.get(lang, set())
+    src_ids = Counter(re.findall(r"\]\[([^\]]+)\]", src_body))
+    out_ids = Counter(re.findall(r"\]\[([^\]]+)\]", out_body))
+    valid: Counter = Counter()
+    donate_page = src_body.count("{{ donate_buttons() }}") == 2
+
+    for ref in dict.fromkeys(declared):
+        if ref not in permitted or not donate_page:
+            problems.append(Problem(
+                ERROR, "ref-omission-invalid",
+                f"reference [{ref}] is not an allowed omission for {lang}",
+            ))
+        elif src_ids[ref] <= out_ids[ref]:
+            problems.append(Problem(
+                ERROR, "ref-omission-stale",
+                f"reference [{ref}] is declared omitted but is not missing",
+            ))
+        else:
+            valid[ref] = 1
+    return valid, problems
+
+
 # ----------------------------------------------------------------- emphasis
 
 # Only the two-character delimiters are checkable. A lone `*` or `_` is
@@ -291,10 +346,13 @@ _EMPH = ("**", "__", "~~")
 
 def _checkable(text: str) -> str:
     """Drop the regions where these characters are not markup."""
-    text = re.sub(r"`[^`\n]*`", " ", text)          # code spans
-    text = re.sub(r"\{\{[^}]*\}\}", " ", text)      # shortcode arguments
-    text = re.sub(r"<[^>]+>", " ", text)            # inline HTML
-    text = re.sub(r"\]\([^)\s]*\)", "]( )", text)   # link targets
+    # Use a visible non-whitespace placeholder so protected content inside
+    # emphasis keeps the delimiter flanking of the original Markdown. Replacing
+    # `code` with a space made valid **`code` plus prose** look like `** prose`.
+    text = re.sub(r"`[^`\n]*`", "x", text)          # code spans
+    text = re.sub(r"\{\{[^}]*\}\}", "x", text)      # shortcode arguments
+    text = re.sub(r"<[^>]+>", "x", text)            # inline HTML
+    text = re.sub(r"\]\([^)\s]*\)", "](x)", text)   # link targets
     return re.sub(r"(?m)^\[[^\]]+\]:.*$", " ", text)  # reference definitions
 
 
@@ -317,6 +375,12 @@ def syntax_faults(path: Path, text: str, shared_refs: set[str]) -> list[str]:
     """
     body, _ = strip_frontmatter(text)
     out = [f"emphasis: {f}" for f in emphasis_faults(body)]
+
+    for match in re.finditer(r"\]\s+\((?:https?://|@/|/|mailto:|#)", body):
+        out.append(f"inline link with a space: {match.group(0)[:40]!r}")
+    for anchor in re.findall(r"\{#([^}\s]+)\}", body):
+        if not anchor.isascii():
+            out.append(f"non-ASCII heading anchor: {{#{anchor}}}")
 
     # A space between label and id stops a reference link parsing, exactly as
     # it does for the inline form the grep guard already covers.
@@ -377,7 +441,7 @@ def emphasis_faults(body: str) -> list[str]:
         for d in _EMPH:
             ch = d[0]
             if ch == "~" and re.search(r"~{3,}", p):
-                faults.append(f"'~~~' is not an inline delimiter")
+                faults.append("'~~~' is not an inline delimiter")
                 continue
             if ch != "~" and re.search(re.escape(ch) + r"{4,}", p):
                 faults.append(f"run of four or more '{ch}'")
@@ -435,8 +499,13 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     #    translated anchors, spliced alphabets, orphaned links, leftover XML
     #    tags and register.
     diverges = (out_meta.get("extra") or {}).get("translation_diverges")
+    omitted_refs, omission_problems = _declared_ref_omissions(
+        src_body, out_body, out_meta, lang
+    )
+    problems.extend(omission_problems)
     a, b = fingerprint(src_body), fingerprint(out_body)
     localised = _localised_refs(src_body, out_body, lang)
+    a["ref_links"] -= sum(omitted_refs.values())
     b["ref_links"] -= sum(localised.values())
     for key in ([] if isinstance(diverges, str) and diverges.strip() else a):
         if a[key] == b[key]:
@@ -445,7 +514,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
         if key in ("ref_links", "inline_links"):
             if key == "ref_links":
                 pat = r"\]\[([^\]]+)\]"
-                src_ids = Counter(re.findall(pat, src_body))
+                src_ids = Counter(re.findall(pat, src_body)) - omitted_refs
                 out_ids = Counter(re.findall(pat, out_body)) - localised
             else:
                 src_ids = _inline_targets(src_body)
@@ -459,11 +528,16 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                 bits.append(f"extra {extra[:6]}")
             detail = "; ".join(bits)
         elif key == "blocks":
-            kind = lambda t: Counter(
-                "bullet" if b.lstrip().startswith(("-", "*", "+")) else
-                "heading" if b.lstrip().startswith("#") else
-                "html" if b.lstrip().startswith("<") else "paragraph"
-                for b in re.split(r"\n\s*\n", t) if b.strip())
+            def kind(text: str) -> Counter:
+                return Counter(
+                    "bullet" if block.lstrip().startswith(("-", "*", "+"))
+                    else "heading" if block.lstrip().startswith("#")
+                    else "html" if block.lstrip().startswith("<")
+                    else "paragraph"
+                    for block in re.split(r"\n\s*\n", text)
+                    if block.strip()
+                )
+
             ks, ko = kind(src_body), kind(out_body)
             detail = ", ".join(f"{k}: {ko[k] - ks[k]:+d}"
                                for k in sorted(set(ks) | set(ko)) if ks[k] != ko[k])
@@ -671,6 +745,13 @@ def _lang_of(path: Path) -> str | None:
     return m.group(1) if m else None
 
 
+def _index_text(path: Path) -> str | None:
+    result = subprocess.run(
+        ["git", "show", f":{path.as_posix()}"], capture_output=True, text=True
+    )
+    return result.stdout if result.returncode == 0 else None
+
+
 def check_folder(folder: Path, errors_only: bool = False) -> int:
     src_path = folder / "index.md"
     if not src_path.is_file():
@@ -743,18 +824,38 @@ def main() -> None:
                          "or all of content/; covers the English source too, "
                          "which --all never sees because it has no source to "
                          "compare against")
+    ap.add_argument("--cached", action="store_true",
+                    help="with --syntax, read staged index blobs instead of "
+                         "working-tree files")
     args = ap.parse_args()
 
     if args.syntax is not None:
-        paths = ([Path(p) for p in args.syntax] if args.syntax
-                 else sorted(Path("content").rglob("*.md")))
+        if args.cached and not args.syntax:
+            staged = subprocess.check_output(
+                ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
+                text=True,
+            ).splitlines()
+            paths = [Path(path) for path in staged if path.endswith(".md")]
+        else:
+            paths = ([Path(p) for p in args.syntax] if args.syntax
+                     else sorted(Path("content").rglob("*.md")))
         refs = Path("templates/shortcodes/references.md")
-        shared = set(re.findall(r"(?m)^\[([^\]]+)\]:", refs.read_text(encoding="utf-8"))
-                     ) if refs.is_file() else set()
+        refs_text = _index_text(refs) if args.cached else (
+            refs.read_text(encoding="utf-8") if refs.is_file() else None
+        )
+        shared = set(re.findall(r"(?m)^\[([^\]]+)\]:", refs_text or ""))
         bad = 0
         for path in paths:
-            text = path.read_text(encoding="utf-8")
-            for fault in syntax_faults(path, text, shared):
+            contents = (
+                _index_text(path)
+                if args.cached
+                else path.read_text(encoding="utf-8")
+            )
+            if contents is None:
+                print(f"{path}: unable to read staged blob")
+                bad += 1
+                continue
+            for fault in syntax_faults(path, contents, shared):
                 print(f"{path}: {fault}")
                 bad += 1
         print(f"\n{bad} syntax fault(s) in {len(paths)} file(s)")

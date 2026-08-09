@@ -7,7 +7,7 @@ title: "Unterstützung der Entwicklung von Organic Maps"
 weight: 20
 ---
 
-Organic Maps ist eine kostenlose, quelloffene App. Sie ist frei von Werbung, sie sammelt keine persönlichen Daten und sie wird von Enthusiasten mit Hilfe der Gemeinschaft entwickelt.
+Organic Maps ist eine kostenlose, quelloffene App ohne Werbung, die keine persönlichen Daten sammelt und von Enthusiasten mit Unterstützung der Gemeinschaft entwickelt wird.
 
 Es gibt verschiedene Möglichkeiten, die Entwicklung zu unterstützen:
 

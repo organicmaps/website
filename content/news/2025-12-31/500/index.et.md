@@ -22,7 +22,7 @@ Muud märkimisväärsed saavutused 2025. aastal on:
 
 #### Poe hinnangud ja kasutajate aktiivsus
 
-- 2025. aasta jooksul kasvasid App Store'i hinnangud 4100-lt 11 100-le, mis tähendab, et rakendus sai 2025. aastal rohkem kui kaks korda rohkem uusi hinnanguid kui kõigil eelnevatel aastatel kokku, peegeldades tugevat tunnustust teilt, meie armastatud kasutajad.
+- 2025. aasta jooksul kasvasid App Store'i hinnangud 4100-lt 11 100-le, mis tähendab, et rakendus sai 2025. aastal rohkem kui kaks korda rohkem uusi hinnanguid kui kõigil eelnevatel aastatel kokku, mis näitab, kui väga sina, meie armas kasutaja, rakendust hindad.
 - Androidi kasutajad näitasid samuti suurenenud aktiivsust, andes 2025. aastal 5300 uut hinnangut, jõudes kokku 16 500-ni ❤️
 - Saatsime 2025. aastal 4000 tugimeili ja vastasime 2500 arvustusele Google Play's ja App Store'is.
 - Kasutajad üle maailma laadisid 2025. aastal meie serveritest alla 10 petabaiti kaardiandmeid.
@@ -45,7 +45,7 @@ Muud märkimisväärsed saavutused 2025. aastal on:
 - Peaaegu 1000 kasutajat osales [küsitluses enim soovitud puuduva funktsiooni kohta](https://t.me/OrganicMapsApp/568), kus ühistransport oli 1. kohal, liiklusinfo 2. kohal ja parem otsing 3. kohal.
 - Toetame kohalikke Organic Mapsi kogukondi Telegramis. Liitu meie [inglise][telegram_chat], [saksa][telegram_chat_de], [prantsuse][telegram_chat_fr], [itaalia][telegram_chat_it], [hispaania][telegram_chat_es], [türgi][telegram_chat_tr], [ukraina][telegram_chat_uk], [vene][telegram_chat_ru], [hiina][telegram_chat_zh], [araabia][telegram_chat_ar] ja [pärsia][telegram_chat_fa] keelt kõnelevate kogukondadega.
 
-Midagi sellest poleks saavutatud ilma teieta: meie kasutajad, meie [kaastöötajad](@/contribute/index.et.md), meie toetajad. Iga commit, veaparandus, [annetus](@/donate/index.et.md) ja isegi tärn GitHubis, hääl Telegramis või poe hinnang aitab meil jõuda lähemale meie eesmärgile muuta tasuta, avatud lähtekoodiga ja privaatsust austavad kaardid kõigile kättesaadavamaks. Aitäh!
+Midagi sellest poleks saavutatud ilma sinuta — meie kasutaja, [kaastöötaja](@/contribute/index.et.md) või toetajana. Iga commit, veaparandus, [annetus](@/donate/index.et.md) ja isegi tärn GitHubis, hääl Telegramis või poe hinnang aitab meil jõuda lähemale meie eesmärgile muuta tasuta, avatud lähtekoodiga ja privaatsust austavad kaardid kõigile kättesaadavamaks. Aitäh!
 
 Head uut aastat 2026! 🎄🎁🎉
 

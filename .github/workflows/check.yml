@@ -34,7 +34,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install --quiet pyyaml
+        run: pip install --quiet -r requirements-telegram.txt
+
+      - name: Translation and publishing tool tests
+        run: npm test
 
       # Syntax defects that Zola cannot see: a link with a space between ] and
       # ( renders as literal text rather than a link, and a translated heading

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Publish formatted markdown text with optional images/videos to a Telegram group.
+Publish formatted markdown text with optional images, videos, or audio to a
+Telegram group.
 
 Usage:
     python telegram_post.py --group "@my_group" --text post.md [--media img1.jpg video.mp4 ...]
@@ -16,16 +17,18 @@ The script will:
 
 import argparse
 import json
+import mimetypes
 import os
 import re
 import subprocess
 import sys
 import tempfile
-import mimetypes
 from pathlib import Path
 
-import yaml
 import requests
+
+from markdown_frontmatter import strip_frontmatter
+from markdown_xml import find_balanced_close
 
 BASE_URL = "https://api.telegram.org/bot{token}"
 
@@ -39,22 +42,6 @@ def get_token() -> str:
 
 
 SPECIAL_CHARS = set(r"_*[]()~`>#+-=|{}.!")
-
-
-def strip_frontmatter(text: str) -> tuple[str, dict]:
-    """
-    Remove YAML frontmatter (--- delimited) from markdown.
-    Returns (body, metadata_dict).
-    """
-    m = re.match(r"^---\s*\n(.*?\n)---\s*\n", text, re.DOTALL)
-    if not m:
-        return text, {}
-    try:
-        meta = yaml.safe_load(m.group(1)) or {}
-    except yaml.YAMLError:
-        meta = {}
-    body = text[m.end() :]
-    return body, meta
 
 
 BUILTIN_REFERENCES: dict[str, tuple[str, str]] = {
@@ -310,18 +297,27 @@ def visible_text(formatted: str) -> str:
     Extract the visible/rendered text from a MarkdownV2 string by stripping
     formatting markers and escape backslashes.
     """
-    # Remove code blocks — keep inner text
-    s = re.sub(r"```\w*\n?([\s\S]*?)```", r"\1", formatted)
-    # Remove inline code markers
-    s = re.sub(r"`([^`]+)`", r"\1", s)
-    # Remove link markup [text](url) → text
-    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    stash: list[str] = []
+
+    def keep(value: str) -> str:
+        stash.append(value)
+        return f"\x00V{len(stash) - 1}\x00"
+
+    # Code contents are visible but their punctuation is not formatting.
+    s = re.sub(r"```\w*\n?([\s\S]*?)```", lambda m: keep(m.group(1)), formatted)
+    s = re.sub(r"`([^`]+)`", lambda m: keep(m.group(1)), s)
+    # Remove balanced link markup [text](url) → text.
+    s = _replace_inline_links(
+        s, lambda label, _target: label, telegram_targets=True
+    )
+    # Preserve escaped MarkdownV2 characters before stripping real markers.
+    s = re.sub(r"\\(.)", lambda m: keep(m.group(1)), s)
     # Remove formatting pairs: * _ ~ ||
     s = re.sub(r"\|\|", "", s)
     for ch in "*_~":
         s = s.replace(ch, "")
-    # Remove escape backslashes
-    s = re.sub(r"\\(.)", r"\1", s)
+    for index, value in enumerate(stash):
+        s = s.replace(f"\x00V{index}\x00", value)
     return s
 
 
@@ -344,9 +340,10 @@ def plain_text_fallback(formatted: str) -> str:
         return f"\x00U{len(stash) - 1}\x00"
 
     # Inline links "[label](url)" → "label (url)", target preserved verbatim.
-    s = re.sub(
-        r"\[([^\]]*)\]\(([^)]*)\)", lambda m: f"{m.group(1)} ({keep(m.group(2))})",
+    s = _replace_inline_links(
         formatted,
+        lambda label, target: f"{label} ({keep(target)})",
+        telegram_targets=True,
     )
     # Bare URLs left in the text.
     s = re.sub(r"https?://\S+", lambda m: keep(m.group(0)), s)
@@ -361,6 +358,62 @@ def plain_text_fallback(formatted: str) -> str:
 def escape_chars(text: str) -> str:
     """Escape all MarkdownV2 special characters in plain text."""
     return "".join(f"\\{ch}" if ch in SPECIAL_CHARS else ch for ch in text)
+
+
+def _escaped_at(text: str, index: int) -> bool:
+    backslashes = 0
+    index -= 1
+    while index >= 0 and text[index] == "\\":
+        backslashes += 1
+        index -= 1
+    return backslashes % 2 == 1
+
+
+def _find_unescaped_close(text: str, start: int, delimiter: str) -> int:
+    """Return the first unescaped delimiter at or after ``start``."""
+    index = start
+    while index < len(text):
+        if text[index] == delimiter and not _escaped_at(text, index):
+            return index
+        index += 1
+    return -1
+
+
+def _replace_inline_links(text: str, replace, telegram_targets: bool = False) -> str:
+    """Replace inline Markdown links without truncating parenthesized targets.
+
+    Standard Markdown balances parentheses in destinations. Telegram
+    MarkdownV2 instead escapes every destination ``)`` and leaves only the
+    entity-closing parenthesis unescaped, so its converted links need a
+    different closing-delimiter scan.
+    """
+    out: list[str] = []
+    copied = 0
+    search = 0
+    while True:
+        start = text.find("[", search)
+        if start < 0:
+            break
+        if _escaped_at(text, start) or (start > 0 and text[start - 1] == "!"):
+            search = start + 1
+            continue
+        label_end = find_balanced_close(text, start, "[", "]")
+        if label_end < 0 or label_end + 1 >= len(text) or text[label_end + 1] != "(":
+            search = start + 1
+            continue
+        if telegram_targets:
+            target_end = _find_unescaped_close(text, label_end + 2, ")")
+        else:
+            target_end = find_balanced_close(text, label_end + 1, "(", ")")
+        if target_end < 0:
+            search = start + 1
+            continue
+        out.append(text[copied:start])
+        out.append(replace(text[start + 1:label_end], text[label_end + 2:target_end]))
+        copied = target_end + 1
+        search = copied
+    out.append(text[copied:])
+    return "".join(out)
 
 
 def convert_markdown_to_telegramv2(text: str) -> str:
@@ -395,15 +448,14 @@ def convert_markdown_to_telegramv2(text: str) -> str:
 
     # --- Links [text](url) — strip optional "title" since Telegram
     #     MarkdownV2 does not support link titles ---
-    def repl_link(m: re.Match) -> str:
-        link_text = escape_chars(m.group(1))
-        raw_url = m.group(2)
+    def repl_link(link_label: str, raw_url: str) -> str:
+        link_text = escape_chars(link_label)
         # Remove trailing  "title" or 'title' from URL
         url = re.sub(r"""\s+["'].*["']\s*$""", "", raw_url)
-        url = url.replace(")", "\\)").replace("\\", "\\\\")
+        url = url.replace("\\", "\\\\").replace(")", "\\)")
         return ph(f"[{link_text}]({url})")
 
-    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", repl_link, text)
+    text = _replace_inline_links(text, repl_link)
 
     # --- Bold+Italic ***text*** → *_text_* ---
     def repl_bold_italic(m: re.Match) -> str:
@@ -469,6 +521,45 @@ def convert_markdown_to_telegramv2(text: str) -> str:
     return "".join(result)
 
 
+def _contains_unescaped_markup(text: str) -> bool:
+    index = 0
+    while index < len(text):
+        if text[index] == "\\" and index + 1 < len(text):
+            index += 2
+            continue
+        if text[index] in "*_~`[|":
+            return True
+        index += 1
+    return False
+
+
+def _hard_split_markdownv2_line(line: str, max_len: int) -> list[str]:
+    """Split one oversized line without breaking escapes or UTF-16 pairs.
+
+    Formatting on an exceptionally long single line is downgraded to escaped
+    plain text. This is safer than cutting an open MarkdownV2 entity in half.
+    """
+    if _contains_unescaped_markup(line):
+        line = escape_chars(plain_text_fallback(line))
+
+    atoms = re.findall(r"\\.|[\s\S]", line)
+    chunks: list[str] = []
+    current: list[str] = []
+    used = 0
+    for atom in atoms:
+        visible = atom[1:] if atom.startswith("\\") and len(atom) == 2 else atom
+        units = utf16_len(visible)
+        if current and used + units > max_len:
+            chunks.append("".join(current))
+            current = []
+            used = 0
+        current.append(atom)
+        used += units
+    if current:
+        chunks.append("".join(current))
+    return chunks
+
+
 def split_text(text: str, max_len: int = 4096) -> list[str]:
     """
     Split MarkdownV2 text into chunks at paragraph boundaries.
@@ -522,15 +613,19 @@ def split_text(text: str, max_len: int = 4096) -> list[str]:
             # Line doesn't fit in current chunk — start a new one
             current = flush(current, chunks)
 
-            # If a single line still exceeds max_len, hard-split it
+            # If a single line still exceeds max_len, split it at UTF-16-safe
+            # MarkdownV2 atom boundaries.
             if vlen(line) > max_len:
-                while vlen(line) > max_len:
-                    chunks.append(line[:max_len])
-                    line = line[max_len:]
-            current = line
+                pieces = _hard_split_markdownv2_line(line, max_len)
+                chunks.extend(pieces[:-1])
+                current = pieces[-1]
+            else:
+                current = line
 
     flush(current, chunks)
 
+    if any(vlen(chunk) > max_len for chunk in chunks):
+        raise ValueError("unable to split Telegram text within its UTF-16 limit")
     return chunks
 
 
@@ -558,8 +653,13 @@ def resolve_chat_id(token: str, group: str) -> str:
     return str(data["result"]["id"])
 
 
+AUDIO_EXTENSIONS = {".m4a", ".mp3"}
+
+
 def classify_media(path: Path) -> str | None:
-    """Return 'photo' or 'video' based on mime type, or None if unsupported."""
+    """Return Telegram's photo/video/audio kind, or None if unsupported."""
+    if path.suffix.lower() in AUDIO_EXTENSIONS:
+        return "audio"
     mime, _ = mimetypes.guess_type(str(path))
     if not mime:
         return None
@@ -567,6 +667,22 @@ def classify_media(path: Path) -> str | None:
         return "photo"
     if mime.startswith("video/"):
         return "video"
+    return None
+
+
+def validate_media_set(media_paths: list[Path]) -> str | None:
+    """Validate one Telegram upload before any part of the post is published."""
+    if len(media_paths) > 10:
+        return "Telegram media albums support at most 10 files"
+    kinds = [classify_media(path) for path in media_paths]
+    unsupported = [
+        path.name for path, kind in zip(media_paths, kinds) if kind is None
+    ]
+    if unsupported:
+        return "unsupported media file(s): " + ", ".join(unsupported)
+    distinct = set(kinds)
+    if "audio" in distinct and len(distinct) > 1:
+        return "Telegram audio albums must contain audio files only"
     return None
 
 
@@ -823,12 +939,18 @@ def extract_thumbnail(video: Path, out: Path, attached_pic_index: int | None) ->
 
 
 def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
-    """Send a group of photos/videos as a media group.
+    """Send 2–10 photos/videos or a homogeneous audio album.
 
     For .mp4/.mov videos, probes width/height/duration via ffprobe and
     attaches a thumbnail (embedded poster or extracted frame) so Telegram
     renders the correct aspect ratio instead of a square placeholder.
     """
+    problem = validate_media_set(media_paths)
+    if problem:
+        return {"ok": False, "description": problem}
+    if len(media_paths) < 2:
+        return {"ok": False, "description": "a media group needs at least 2 files"}
+
     url = f"{BASE_URL.format(token=token)}/sendMediaGroup"
     media_json: list[dict] = []
     files: dict[str, tuple[str, bytes, str]] = {}
@@ -898,6 +1020,50 @@ def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
         return data
 
 
+def send_single_media(token: str, chat_id: str, path: Path) -> dict:
+    """Send one photo, video or audio file through its dedicated endpoint."""
+    kind = classify_media(path)
+    if kind is None:
+        return {"ok": False, "description": f"unsupported media file: {path.name}"}
+    endpoint = {
+        "photo": "sendPhoto",
+        "video": "sendVideo",
+        "audio": "sendAudio",
+    }[kind]
+    mime, _ = mimetypes.guess_type(str(path))
+    print(f"Sending {kind} {path.name}...")
+    response = requests.post(
+        f"{BASE_URL.format(token=token)}/{endpoint}",
+        data={"chat_id": chat_id},
+        files={
+            kind: (
+                path.name,
+                path.read_bytes(),
+                mime or "application/octet-stream",
+            )
+        },
+    )
+    data = response.json()
+    if not data.get("ok"):
+        print(f"Error sending {kind}: {data.get('description')}", file=sys.stderr)
+    else:
+        print(f"{kind.capitalize()} sent successfully.")
+    return data
+
+
+def send_media(token: str, chat_id: str, media_paths: list[Path]) -> dict:
+    """Dispatch a validated single file or Telegram media album."""
+    problem = validate_media_set(media_paths)
+    if problem:
+        print(f"Error: {problem}", file=sys.stderr)
+        return {"ok": False, "description": problem}
+    if not media_paths:
+        return {"ok": True, "result": []}
+    if len(media_paths) == 1:
+        return send_single_media(token, chat_id, media_paths[0])
+    return send_media_group(token, chat_id, media_paths)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Publish a markdown post with optional media to a Telegram group."
@@ -917,7 +1083,7 @@ def main():
         nargs="*",
         type=Path,
         default=[],
-        help="Paths to image/video files to attach",
+        help="Paths to image/video/audio files to attach",
     )
     parser.add_argument(
         "--yes",
@@ -941,6 +1107,10 @@ def main():
         if not mp.is_file():
             print(f"Error: media file not found: {mp}", file=sys.stderr)
             sys.exit(1)
+    media_problem = validate_media_set(args.media)
+    if media_problem:
+        print(f"Error: {media_problem}", file=sys.stderr)
+        sys.exit(1)
 
     token = get_token()
     chat_id = resolve_chat_id(token, args.group)
@@ -1028,7 +1198,14 @@ def main():
         )
 
     if args.media:
-        send_media_group(token, chat_id, args.media)
+        media_result = send_media(token, chat_id, args.media)
+        if not media_result.get("ok"):
+            print(
+                "FATAL: text was posted, but media failed. Resend only the "
+                "media manually; rerunning this command would duplicate the text.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
 
     print("\nDone.")
 

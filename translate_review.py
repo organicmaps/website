@@ -29,7 +29,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-from telegram_post import strip_frontmatter
 from translate_check import check_translation, ERROR
 from translate_md import expected_register, detect_register
 from deepl_glossary import load_terms, get_review_terms
@@ -180,7 +179,11 @@ def main() -> None:
             print(f"Error: no index.md in {args.target}", file=sys.stderr)
             sys.exit(2)
         src = src_path.read_text(encoding="utf-8")
-        only = {l.strip() for l in args.langs.split(",")} if args.langs else None
+        only = (
+            {language.strip() for language in args.langs.split(",")}
+            if args.langs
+            else None
+        )
         paths = [p for p in sorted(args.target.glob("index.*.md"))
                  if _lang_of(p) and (not only or _lang_of(p) in only)]
     else:

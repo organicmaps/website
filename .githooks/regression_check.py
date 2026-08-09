@@ -11,7 +11,6 @@ Exit 1 if the change makes things worse.
 """
 import subprocess
 import sys
-import tempfile
 from collections import Counter
 from pathlib import Path
 
@@ -33,10 +32,19 @@ def at_head(path: str) -> str | None:
     return r.stdout if r.returncode == 0 else None
 
 
+def at_index(path: str) -> str | None:
+    r = subprocess.run(["git", "show", f":{path}"],
+                       capture_output=True, text=True)
+    return r.stdout if r.returncode == 0 else None
+
+
 def main() -> int:
     src_path, out_path, lang = sys.argv[1], sys.argv[2], sys.argv[3]
-    src_now = Path(src_path).read_text(encoding="utf-8")
-    out_now = Path(out_path).read_text(encoding="utf-8")
+    src_now = at_index(src_path)
+    out_now = at_index(out_path)
+    if src_now is None or out_now is None:
+        print(f"error: unable to read staged translation inputs for {out_path}")
+        return 1
     now = codes(src_now, out_now, lang)
 
     out_head = at_head(out_path)

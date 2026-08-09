@@ -24,32 +24,14 @@ fail=0
 # the unformatted English source. Format deliberately with `npm run format`,
 # as its own commit, not as a side effect of committing something else.
 
-# --- cheap syntax guards --------------------------------------------------
-# "[label] (target)" does not parse as a link; it renders as literal text.
-spaced=$(echo "$staged_md" | xargs grep -nE '\]\s+\((https?://|@/|/|mailto:|#)' 2>/dev/null || true)
-if [ -n "$spaced" ]; then
-  echo "error: markdown link with a space between ] and ( — it will not render as a link:"
-  echo "$spaced" | sed 's/^/    /'
-  fail=1
-fi
-
-# Heading anchors are identifiers; a translated one breaks every link to it.
-# Mechanical defects decidable from the file alone: emphasis that will not
-# close, reference links that resolve to nothing, list markers markdown does
-# not recognise, homoglyphs in a brand name, cross-language links. Needs
-# more than a grep, so it lives in translate_check.
-emph=$(echo "$staged_md" | xargs python3 translate_check.py --syntax 2>/dev/null | grep -v '^$\|fault(s) in' || true)
-if [ -n "$emph" ]; then
+# --- syntax guards, against the staged blobs ------------------------------
+# Includes spaced links, translated anchors, broken emphasis, undefined
+# references, malformed list markers, homoglyphs and cross-language links.
+syntax=$(python3 translate_check.py --cached --syntax $staged_md 2>/dev/null | grep -v '^$\|fault(s) in' || true)
+if [ -n "$syntax" ]; then
   echo "error: markdown that will not render as intended:"
-  echo "$emph" | sed 's/^/    /'
+  echo "$syntax" | sed 's/^/    /'
   exit 1
-fi
-
-anchor=$(echo "$staged_md" | xargs grep -nE '\{#[^}]*[^ -~][^}]*\}' 2>/dev/null || true)
-if [ -n "$anchor" ]; then
-  echo "error: non-ASCII heading anchor — anchors are identifiers, keep them as in the English source:"
-  echo "$anchor" | sed 's/^/    /'
-  fail=1
 fi
 
 # --- translation invariants ----------------------------------------------
@@ -68,7 +50,8 @@ for f in $staged_md; do
     _index.*) src="$dir/_index.md" ;;
     *)        src="$dir/index.md" ;;
   esac
-  [ -f "$src" ] || continue
+  # The hook validates the commit-to-be, not an unstaged working-tree copy.
+  git cat-file -e ":$src" 2>/dev/null || continue
 
   python3 "$(dirname "$0")/regression_check.py" "$src" "$f" "$lang" || fail=1
 done

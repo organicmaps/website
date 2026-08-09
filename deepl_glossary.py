@@ -213,9 +213,12 @@ def find_ours() -> dict | None:
 
 
 def _same_but_for_accents(a: str, b: str) -> bool:
-    strip = lambda s: "".join(
-        c for c in unicodedata.normalize("NFD", s.lower())
-        if unicodedata.category(c) != "Mn")
+    def strip(value: str) -> str:
+        return "".join(
+            char for char in unicodedata.normalize("NFD", value.lower())
+            if unicodedata.category(char) != "Mn"
+        )
+
     return strip(a) == strip(b)
 
 
@@ -248,7 +251,10 @@ def split_uploadable(terms, langs):
 
     dicts = []
     for code, group in sorted(by_code.items()):
-        primary = next((l for l in group if l == code), sorted(group)[0])
+        primary = next(
+            (language for language in group if language == code),
+            sorted(group)[0],
+        )
         merged = dict(terms[primary])
         for lang in group:
             if lang == primary:
@@ -274,6 +280,24 @@ def split_uploadable(terms, langs):
                 "entries_format": "tsv",
             })
     return dicts, variant_fixes, review_terms
+
+
+def dictionary_for_probe(terms, lang: str) -> tuple[list[dict], str]:
+    """Build one raw dictionary even when support for its target is unknown."""
+    target = DICT_LANG.get(lang, lang.split("-", 1)[0].lower())
+    entries = terms.get(lang, {})
+    dictionaries = []
+    if entries:
+        dictionaries.append({
+            "source_lang": "en",
+            "target_lang": target,
+            "entries": "\n".join(
+                f"{source}\t{translated}"
+                for source, translated in sorted(entries.items())
+            ),
+            "entries_format": "tsv",
+        })
+    return dictionaries, target
 
 
 def get_variant_fixes(site_lang: str) -> dict[str, str]:
@@ -388,7 +412,7 @@ def cmd_probe() -> None:
 
     ok, bad = [], []
     for lang in sorted(terms):
-        dicts = dictionaries_for(terms, [lang])
+        dicts, target = dictionary_for_probe(terms, lang)
         created, err = jreq("/v3/glossaries",
                             {"name": f"probe-{lang}", "dictionaries": dicts})
         if err:
@@ -396,12 +420,12 @@ def cmd_probe() -> None:
             print(f"  {lang:8s} REJECTED: {err}")
             continue
         ok.append(lang)
-        print(f"  {lang:8s} ok ({DICT_LANG[lang]})")
+        print(f"  {lang:8s} ok ({target})")
         jreq(f"/v3/glossaries/{created['glossary_id']}", method="DELETE")
 
     print(f"\n{len(ok)} supported, {len(bad)} rejected")
     if bad:
-        print("Rejected:", ", ".join(l for l, _ in bad))
+        print("Rejected:", ", ".join(language for language, _ in bad))
 
 
 def cmd_check(langs: list[str] | None = None) -> None:

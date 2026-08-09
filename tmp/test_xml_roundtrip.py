@@ -13,8 +13,8 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from markdown_xml import to_xml, from_xml, xml_escape  # noqa: E402
-from telegram_post import strip_frontmatter  # noqa: E402
+from markdown_xml import to_xml, from_xml  # noqa: E402
+from markdown_frontmatter import strip_frontmatter  # noqa: E402
 
 VERBOSE = "-v" in sys.argv
 passed = failed = 0

@@ -28,7 +28,7 @@ same mapping serves Telegram posts, site articles and release notes alike.
 import re
 
 __all__ = ["to_xml", "from_xml", "Context", "xml_escape", "xml_unescape",
-           "PROTECTED_BRANDS"]
+           "find_balanced_close", "PROTECTED_BRANDS"]
 
 # Brand and product names that must stay verbatim in every language. DeepL
 # transliterates these into non-Latin scripts otherwise.
@@ -73,7 +73,7 @@ def xml_unescape(text: str) -> str:
 # Scanning helpers
 # --------------------------------------------------------------------------
 
-def _find_close(s: str, start: int, open_ch: str, close_ch: str) -> int:
+def find_balanced_close(s: str, start: int, open_ch: str, close_ch: str) -> int:
     """Index of the balanced closing delimiter, or -1.
 
     Backslash-escaped delimiters do not count — the corpus contains
@@ -207,9 +207,9 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
 
         # --- images and links -------------------------------------------
         if c == "!" and i + 1 < n and s[i + 1] == "[":
-            close = _find_close(s, i + 1, "[", "]")
+            close = find_balanced_close(s, i + 1, "[", "]")
             if close != -1 and close + 1 < n and s[close + 1] == "(":
-                paren = _find_close(s, close + 1, "(", ")")
+                paren = find_balanced_close(s, close + 1, "(", ")")
                 if paren != -1:
                     emit_plain(i)
                     out.append(ctx.protect(s[i:paren + 1]))
@@ -217,18 +217,18 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
                     continue
 
         if c == "[":
-            close = _find_close(s, i, "[", "]")
+            close = find_balanced_close(s, i, "[", "]")
             if close != -1:
                 label = s[i + 1:close]
                 after = close + 1
                 tail = None
                 if after < n and s[after] == "(":
-                    paren = _find_close(s, after, "(", ")")
+                    paren = find_balanced_close(s, after, "(", ")")
                     if paren != -1:
                         tail = s[close:paren + 1]      # "](url)"
                         end = paren + 1
                 elif after < n and s[after] == "[":
-                    brack = _find_close(s, after, "[", "]")
+                    brack = find_balanced_close(s, after, "[", "]")
                     if brack != -1:
                         tail = s[close:brack + 1]      # "][id]"
                         end = brack + 1

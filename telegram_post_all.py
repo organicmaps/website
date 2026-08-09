@@ -8,7 +8,7 @@ Usage:
     python telegram_post_all.py <folder> --skip ru
 
 The folder should contain markdown files like index.ru.md, index.fr.md, etc.
-and optionally media files (images/videos) to attach to every post.
+and optionally media files (images/videos/audio) to attach to every post.
 
 Posting stops at the first failure. Use --only with the channels listed in the
 "Resume with" hint to continue without double-posting to channels that already
@@ -19,15 +19,17 @@ Environment:
 """
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
+from markdown_frontmatter import strip_frontmatter
 from telegram_post import (
     get_token,
     resolve_chat_id,
     send_text_messages,
-    send_media_group,
-    strip_frontmatter,
+    send_media,
+    validate_media_set,
     load_references,
     resolve_references,
     find_unresolved_references,
@@ -35,7 +37,6 @@ from telegram_post import (
     resolve_zola_references,
     ZOLA_FILENAME_RE,
 )
-import re
 
 # Telegram group → markdown filename
 GROUPS: dict[str, str] = {
@@ -53,7 +54,16 @@ GROUPS: dict[str, str] = {
     "@OrganicMapsZH": "index.zh-Hans.md",
 }
 
-MEDIA_EXTENSIONS = {".jpeg", ".jpg", ".png", ".webp", ".mp4", ".mp3", ".m4a"}
+MEDIA_EXTENSIONS = {
+    ".jpeg",
+    ".jpg",
+    ".m4a",
+    ".mov",
+    ".mp3",
+    ".mp4",
+    ".png",
+    ".webp",
+}
 
 
 def group_lang(filename: str) -> str:
@@ -194,12 +204,17 @@ def main() -> None:
         print("Error: no channels left after --only/--skip.", file=sys.stderr)
         sys.exit(1)
 
-    # A dry run never talks to the API, so it must not require a token.
-    token = "" if args.dry_run else get_token()
     script_dir = Path(__file__).resolve().parent
 
     # Discover media files
     media = find_media(args.folder)
+    media_problem = validate_media_set(media)
+    if media_problem:
+        print(f"Error: {media_problem}", file=sys.stderr)
+        sys.exit(1)
+
+    # A dry run never talks to the API, so it must not require a token.
+    token = "" if args.dry_run else get_token()
 
     # Discover which groups have matching markdown files, and render each post
     # once — prepare_text() is not free and its warnings should print once.
@@ -323,7 +338,7 @@ def main() -> None:
                 )
 
         if media:
-            media_result = send_media_group(token, chat_id, media)
+            media_result = send_media(token, chat_id, media)
             if not media_result.get("ok"):
                 desc = media_result.get("description", "unknown error")
                 # The text is already published, so resuming this channel would

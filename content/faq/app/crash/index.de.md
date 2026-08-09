@@ -26,7 +26,7 @@ Wenn das Problem weiterhin besteht, [kontaktiere uns bitte](mailto:support@organ
 * Dein Gerätemodell und Betriebssystemversion (Android oder iOS).
 
 Oder alternativ:
-1. Aktivieren Sie die Protokollierung in den App-Einstellungen.
-2. Erzwingen Sie einen Neustart der App.
-3. Reproduzieren Sie den Absturz.
-4. Senden Sie uns die Protokolldatei über "Fehler melden" im Über-Bildschirm und fügen Sie eine kurze Beschreibung des Absturzes hinzu.
+1. Aktiviere die Protokollierung in den App-Einstellungen.
+2. Erzwinge einen Neustart der App.
+3. Reproduziere den Absturz.
+4. Sende uns die Protokolldatei über "Fehler melden" im Über-Bildschirm und füge eine kurze Beschreibung des Absturzes hinzu.

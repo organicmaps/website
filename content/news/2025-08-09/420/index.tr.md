@@ -13,7 +13,7 @@ Haritada yer imi isimlerini görmek için Organic Maps ayarlarında bu yeni öze
 
 Katkıda bulunanlarımız ❤️ ve [bağışların](@/donate/index.tr.md) sayesinde bu güncellemede çok daha fazlası var.
 
-P.S. ...ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
+P.S. …ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
 
 ### Ayrıntılı Sürüm Notları
 

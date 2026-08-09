@@ -41,7 +41,7 @@ Klikněte na ikonu preferovaného způsobu platby níže:
    - Stínování kopců a 3D terén
    - Vylepšení editoru OpenStreetMap
    - Lepší offline vyhledávání adres, směrování a navigace
-   - ... a [mnoho dalších][github issues] funkcí, které chcete a máte rádi
+   - … a [mnoho dalších][github issues] funkcí, které chcete a máte rádi
 
 ## Jak darovat?
 

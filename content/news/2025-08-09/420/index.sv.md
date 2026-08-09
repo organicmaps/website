@@ -13,7 +13,7 @@ För att se bokmärkesnamn på kartan, aktivera denna nya funktion i Organic Map
 
 Tack vare våra bidragsgivare ❤️ och era [donationer](@/donate/index.sv.md) finns det mycket mer i denna uppdatering.
 
-P.S. ...och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de bästa kartorna – tillsammans.
+P.S. …och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de bästa kartorna – tillsammans.
 
 ### Detaljerade utgivningsanteckningar
 

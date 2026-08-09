@@ -62,13 +62,13 @@ Bitte lass uns wissen, ob du Organic Maps auf x86-Geräten (einschließlich Chro
 
 Frühere Versionshinweise: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Holen Sie sich die neueste Version von Organic Maps aus dem [App Store][appstore], [Google Play][googleplay], der [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
+Hol dir die neueste Version von Organic Maps aus dem [App Store][appstore], [Google Play][googleplay], der [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
 
-P.S. Nehmen Sie am Betatest teil, um frühe Funktionen zu erhalten und uns zu helfen, Fehler und Probleme zu finden:
+P.S. Nimm am Betatest teil, um frühe Funktionen zu erhalten und uns zu helfen, Fehler und Probleme zu finden:
 - [iOS][testflight]
 - [Android][firebase].
 
-Vielen Dank, dass Sie Organic Maps verwenden und das Projekt unterstützen!
+Vielen Dank, dass du Organic Maps verwendest und das Projekt unterstützt!
 
 Das Organic Maps Team
 

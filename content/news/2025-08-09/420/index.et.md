@@ -13,7 +13,7 @@ Järjehoidjate nimede nägemiseks kaardil lülita see uus funktsioon sisse Organ
 
 Tänu meie kaastöötajatele ❤️ ja sinu [annetustele](@/donate/index.et.md) on selles värskenduses palju enamat.
 
-P.S. ...ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
+P.S. …ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
 
 ### Üksikasjalikud väljalaskemärkused
 

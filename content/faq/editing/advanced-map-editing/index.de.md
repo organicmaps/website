@@ -62,7 +62,7 @@ Wenn du keine Zeit hast oder das Problem zu kompliziert ist, um die OSM-Daten se
 
 1. Erstelle ein neues Konto oder melde dich bei [OpenStreetMap.org](https://www.openstreetmap.org) an.
    > Du kannst auch anonyme Hinweise öffnen. Dies wird jedoch nicht empfohlen, da du nicht benachrichtigt wirst, wenn das Problem gelöst wurde oder weitere Fragen bestehen.
-2. Zoome auf den Kartenstandort auf [OpenStreetMap.org](https://www.openstreetmap.org) und drücken Sie *Einen Fehler/Hinweis zu den Kartendaten melden* (zweites Symbol von unten im rechten Menü). Ziehe dann die blaue Kartenmarkierung an die genaue Position.
+2. Zoome auf den Kartenstandort auf [OpenStreetMap.org](https://www.openstreetmap.org) und drücke *Einen Fehler/Hinweis zu den Kartendaten melden* (zweites Symbol von unten im rechten Menü). Ziehe dann die blaue Kartenmarkierung an die genaue Position.
    > Versuche, so präzise wie möglich zu sein.
 3. Gib eine detaillierte Beschreibung des Kartenproblems ein und klicke auf *Hinweis/Fehler melden*
    > Für Geschäfte z.B. gebe den Namen an und erwähne, was dort verkauft oder welche Dienstleistungen angeboten werden.

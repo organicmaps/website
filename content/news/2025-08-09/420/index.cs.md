@@ -13,7 +13,7 @@ Pro zobrazení názvů záložek na mapě povolte tuto novou funkci v nastavení
 
 Díky našim přispěvatelům ❤️ a vašim [darům](@/donate/index.cs.md) je v této aktualizaci mnohem více.
 
-P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
+P.S. …a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
 
 ### Podrobné poznámky k vydání
 

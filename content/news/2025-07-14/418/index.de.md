@@ -20,7 +20,7 @@ Die vollständige Liste der Änderungen:
 - Neues Lesezeichen- und Track-Symbol auf der Karte, um Benutzern beim Finden ihrer aufgezeichneten oder importierten Tracks zu helfen (_@euf_)
 - Ladestationen haben jetzt ihr eigenes unterscheidbares Symbol auf der Karte und in der Suche (_David Martinez_)
 - Höhe/Altitude speichern (_falls vorhanden_) beim Speichern einer Route (_Kiryl Kaveryn_)
-- Aktualisierte Übersetzungen, Sie können helfen, falsche oder fehlende Übersetzungen zu korrigieren [bei Weblate][weblate]
+- Aktualisierte Übersetzungen, du kannst helfen, falsche oder fehlende Übersetzungen zu korrigieren [bei Weblate][weblate]
 
 Android:
 - Nicht funktionierenden Zurück-Button auf Android 16 behoben (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 iOS-Änderungen, alle Anerkennung an _Kiryl Kaveryn_:
 - Verbesserte Lesezeichen- und Track-Bearbeitung: Farbe und Liste direkt von der Track-Informationsseite ändern
-- Jetzt können Sie den aufgezeichneten Track sofort nach dem Speichern bearbeiten oder löschen
+- Jetzt kannst du den aufgezeichneten Track sofort nach dem Speichern bearbeiten oder löschen
 - Erweiterte Tippfläche für Buttons
 - Springende OSM-Notizen beim Tippen von Text behoben
 - "Ort hinzufügen"-Button für Unternehmen anzeigen
 
-P.S. Wenn Sie gerne detaillierte Versionshinweise lesen, lassen Sie es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
+P.S. Wenn du gerne detaillierte Versionshinweise liest, lass es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
 
 {{ references() }}

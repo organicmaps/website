@@ -13,7 +13,7 @@ A könyvjelző nevek térképen való megjelenítéséhez engedélyezd ezt az ú
 
 Köszönjük közreműködőinknek ❤️ és [adományaitoknak](@/donate/index.hu.md), ennél sokkal több van ebben a frissítésben.
 
-P.S. ...és még sok minden érkezik! A támogatásod segít és motivál minket a legjobb térképek építésében – együtt.
+P.S. …és még sok minden érkezik! A támogatásod segít és motivál minket a legjobb térképek építésében – együtt.
 
 ### Részletes kiadási megjegyzések
 

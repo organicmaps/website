@@ -2,7 +2,7 @@
 title: Yer imleri nasıl paylaşılır/dışa aktarılır?
 slug: yer-imleri-nasıl-paylaşılırdışa-aktarılır
 description: ""
-updated: "2024-06-12"
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["yer-imleri-ve-kayıtlar"]
@@ -13,4 +13,6 @@ aliases:
   - /tr/faq/bookmarks/how-to-export/
 ---
 
-Haritada bir yer imi seçin, ona dokunun ve ardından yer bilgileri sayfasındaki "Paylaş" düğmesine dokunun. Bir listedeki tüm yer imlerini bir kerede paylaşmak için, ana ekranda yıldız simgesine dokunun, yer imlerinin bulunduğu listenin adının önündeki üç noktaya dokunun ve açılır pencereden Dosyayı Dışa Aktar'a dokunun.
+Haritada veya listede bir yer imine ya da ize dokun, ardından yer sayfasındaki (alt panel) “Paylaş” düğmesine dokun.
+
+Bir listedeki tüm yer imlerini ve izleri “Yer İmleri ve İzler” ekranından paylaşmak için listenin adının sağındaki üç noktalı simgeye dokun ve “KMZ Olarak Dışa Aktar”, “GPX Olarak Dışa Aktar” ya da “GeoJSON Olarak Dışa Aktar” seçeneğini seç.

@@ -2,7 +2,7 @@
 title: Comment partager (exporter) des signets?
 slug: comment-partager-exporter-des-signets
 description: ""
-updated: "2024-06-12"
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["signets-et-parcours"]
@@ -13,4 +13,6 @@ aliases:
   - /fr/faq/bookmarks/how-to-export/
 ---
 
-Choisissez un signet sur la carte, appuyez dessus, puis appuyez sur le bouton "Partager" dans la page d'accueil. Pour partager tous les signets dans une liste à la fois, appuyez sur le symbole étoile double sur l'écran principal, appuyez sur l'icône avec trois points devant le nom de la liste avec des signets et appuyez sur "Fichier d'exportation" dans la fenêtre pop-up.
+Appuie sur un signet ou une trace sur la carte ou dans la liste, puis appuie sur le bouton « Partager » sur la page du lieu (panneau du bas).
+
+Pour partager tous les signets et traces d'une liste depuis l'écran « Signets et traces », appuie sur l'icône avec trois points à droite du nom de la liste et sélectionne « Exporter KMZ », « Exporter GPX » ou « Exporter GeoJSON ».

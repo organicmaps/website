@@ -45,7 +45,7 @@ Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
    - Mendien itzaldura eta 3D lurraldea
    - OpenStreetMap editore aurreratua
    - Lineaz kanpoko helbide bilaketa, ibilbideak eta nabigazioa hobetua
-   - ... eta [beste hainbat][github issues] funtzio nahi eta maite dituzunak
+   - … eta [beste hainbat][github issues] funtzio nahi eta maite dituzunak
 
 ## Nola eman?
 

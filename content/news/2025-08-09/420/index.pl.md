@@ -13,7 +13,7 @@ Aby zobaczyć nazwy zakładek na mapie, włącz tę nową funkcję w ustawieniac
 
 Dzięki naszym współtwórcom ❤️ i Twoim [darowiznom](@/donate/index.pl.md), w tej aktualizacji jest znacznie więcej.
 
-P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworzenia najlepszych map – razem.
+P.S. …i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworzenia najlepszych map – razem.
 
 ### Szczegółowe informacje o wydaniu
 

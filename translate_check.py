@@ -68,6 +68,11 @@ BRANDS = ["Organic Maps", "OpenStreetMap", "ID Editor", "Google Play",
           "App Store", "F-Droid", "Obtainium", "Accrescent", "TestFlight",
           "Huawei AppGallery", "AppGallery", "Weblate", "TestFlight"]
 QUOTE_CHARS = "\"'«»„“”‘’《》〈〉「」〔〕"
+# Opening/closing marks that genuinely pair, so a stray apostrophe used as
+# a suffix separator is not mistaken for a closing quote.
+QUOTE_PAIRS = [('"', '"'), ("'", "'"), ("«", "»"), ("„", "“"), ("„", "”"),
+               ("“", "”"), ("‘", "’"), ("《", "》"), ("〈", "〉"),
+               ("「", "」"), ("〔", "〕")]
 
 # Which brands a language is allowed to transliterate. Measured, not assumed:
 # he/ar/fa-IR keep Organic Maps, OpenStreetMap and iOS in Latin but render
@@ -116,7 +121,15 @@ TRANSLATED_BRAND_EXEMPT = {"mr": ("Why organic", "सेंद्रिय")}
 
 # Scripts that do not put spaces between words: text running straight into a
 # link is normal there, so the suffix-outside-link check does not apply.
-NO_SPACE_SCRIPTS = {"zh-Hans", "ja", "th", "lo", "my", "km"}
+#
+# The Indic languages are here for a different reason. They do use spaces, but
+# they attach case markers and postpositions directly to the preceding word,
+# and that word may be a link label: Telugu writes `[ID Editor](url)ని` exactly
+# as it writes `ఎడిటర్‌ని`. The marker `ని` appears attached to an ordinary
+# word 396 times in this corpus, so a link is no different. Twenty of the
+# twenty-two warnings this check produced were that, correctly written.
+NO_SPACE_SCRIPTS = {"zh-Hans", "ja", "th", "lo", "my", "km",
+                    "te", "ml", "mr", "hi", "ta", "kn"}
 
 
 # Writing systems that combine several Unicode scripts by design: Japanese
@@ -519,8 +532,12 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                     ERROR, "brand-lost",
                     f"'{brand}' appears {n_src}x in source but {n_out}x here",
                 ))
+    # The two marks must actually pair. Turkish writes the shipped label
+    # "OpenStreetMap'e Yer Ekle", where the apostrophe attaches the case suffix
+    # and the quotes belong to the whole label, not to the brand.
     for brand in BRANDS:
-        if re.search(f"[{QUOTE_CHARS}]{re.escape(brand)}[{QUOTE_CHARS}]", out_body):
+        if any(re.search(f"{re.escape(o)}{re.escape(brand)}{re.escape(c)}", out_body)
+               for o, c in QUOTE_PAIRS):
             problems.append(Problem(
                 WARN, "brand-quoted",
                 f"'{brand}' is wrapped in quotation marks"))
@@ -567,8 +584,9 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     for fault in emphasis_faults(out_body):
         problems.append(Problem(ERROR, "emphasis-broken", fault))
 
-    # 11. Ellipsis style.
-    if "..." in out_body:
+    # 11. Ellipsis style, in prose only. GitHub's compare URLs put `...`
+    #     between two refs, and a code span may contain it literally.
+    if "..." in _checkable(out_body):
         problems.append(Problem(WARN, "ellipsis", "'...' should be '…'"))
 
     return problems

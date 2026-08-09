@@ -13,7 +13,7 @@ Laster-marken izenak mapan ikusteko, gaitu ezaugarri berri hau Organic Maps-en e
 
 Gure laguntzaileei ❤️ eta zure [dohaintzei](@/donate/index.eu.md) esker, gauza asko daude eguneratze honetan.
 
-P.S. ...eta askoz gehiago dator! Zure laguntzak mapa onenak eraikitzen laguntzen eta motibatzen gaitu - elkarrekin.
+P.S. …eta askoz gehiago dator! Zure laguntzak mapa onenak eraikitzen laguntzen eta motibatzen gaitu - elkarrekin.
 
 ### Bertsio-ohar xehatuak
 

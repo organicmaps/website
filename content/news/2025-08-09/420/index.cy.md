@@ -13,7 +13,7 @@ I weld enwau nodau ar y map, galluoga'r nodwedd newydd hon yn osodiadau Organic 
 
 Diolch i'n cyfranwyr ❤️ a dy [roddion](@/donate/index.cy.md), mae llawer mwy yn y diweddariad hwn.
 
-P.S. ...ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
+P.S. …ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
 
 ### Nodiadau Rhyddhad Manwl
 

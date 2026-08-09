@@ -41,7 +41,7 @@ Clique no método preferido de pagamento abaixo:
    - Relevo e terreno 3D
    - Melhorar o editor do OpenStreetMap
    - Melhor busca de endereços offline, roteamento e navegação
-   - ... e [muitas outras][github issues] funcionalidades que você quer e ama
+   - … e [muitas outras][github issues] funcionalidades que você quer e ama
 
 ## Como doar?
 

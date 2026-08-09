@@ -1,14 +1,14 @@
 ---
-title: "„Organic Maps“ Kalėdinis leidimas gruodžio 16 d. versijoje"
+title: "Organic Maps Kalėdinis leidimas gruodžio 16 d. versijoje"
 date: 2025-12-16
 slug: "organic-maps-kaledinis-leidimas-gruodzio-16-versija"
 taxonomies:
   news: ["releases"]
 ---
 
-Linksmų Kalėdų ir laimingų Naujųjų metų nuo „Organic Maps“ komandos. Ieškote šventinės nuotaikos? Ieškokite `Christmas market` arba `Christmas tree`, kad pamatytumėte jas žemėlapyje. Jei jūsų vietovėje nieko nerodoma, pridėkite trūkstamus objektus OpenStreetMap.org ir pagerinkite žemėlapį visiems!
+Linksmų Kalėdų ir laimingų Naujųjų metų nuo Organic Maps komandos. Ieškote šventinės nuotaikos? Ieškokite `Christmas market` arba `Christmas tree`, kad pamatytumėte jas žemėlapyje. Jei jūsų vietovėje nieko nerodoma, pridėkite trūkstamus objektus OpenStreetMap.org ir pagerinkite žemėlapį visiems!
 
-Įdiekite „Organic Maps“ iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
+Įdiekite Organic Maps iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Laidos pastabos
 
@@ -40,8 +40,8 @@ Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir pra
 - [iOS][testflight]
 - [Android][firebase]
 
-„Organic Maps“ egzistuoja jūsų [aukų](@/donate/index.lt.md) ir [indėlio](@/contribute/index.lt.md) dėka. Ačiū! ❤️
+Organic Maps egzistuoja jūsų [aukų](@/donate/index.lt.md) ir [indėlio](@/contribute/index.lt.md) dėka. Ačiū! ❤️
 
-„Organic Maps“ komanda
+Organic Maps komanda
 
 {{ references() }}

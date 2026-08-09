@@ -41,7 +41,7 @@ Haz clic en el icono del método de pago que prefieras:
    - Sombreado de colinas y terreno 3D
    - Editor OpenStreetMap más avanzado
    - Mejor búsqueda de direcciones sin conexión, enrutamiento y navegación
-   - ... y [muchas otras][github issues] funcionalidades que deseas
+   - … y [muchas otras][github issues] funcionalidades que deseas
 
 ## ¿Cómo donar?
 

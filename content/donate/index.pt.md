@@ -41,7 +41,7 @@ Clica no ícone do teu método de pagamento preferido abaixo:
    - Sombreamento de colinas e terreno 3D
    - Melhorar o editor do OpenStreetMap
    - Melhor pesquisa de endereços offline, roteamento e navegação
-   - ... e [muitas outras][github issues] funcionalidades que desejas e adoras
+   - … e [muitas outras][github issues] funcionalidades que desejas e adoras
 
 ## Como fazer um donativo?
 

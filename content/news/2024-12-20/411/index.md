@@ -35,7 +35,7 @@ As happens time and again, in Nov 2014 the original owners [sold the company](ht
 
 The Big Tech conglomerate invested millions and millions more, hired more and more engineers, and delivered [tons of cool features](https://vk.company/en/press/releases/10100/) we all love in the Organic Maps today. In 2015, one year after the purchase, they made a bold decision to [open-source the app under the Apache 2.0 license](https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source). The [official statement](https://www.businesswire.com/news/home/20150930005526/en/MAPS.ME-Goes-Open-Source) was:
 
-> “We are happy to share our vision of open and free software available for communities around the globe. The whole team at MAPS.ME appreciates the opportunity to contribute in HOT’s humanitarian missions and help to serve in areas of disasters and political crises,” ... “Opening MAPS.ME is an important step not just for us, but for the whole free mapping community, as OSM will become even more accessible for a wider audience, which, I hope, will attract new editors to join this outstanding movement.”
+> “We are happy to share our vision of open and free software available for communities around the globe. The whole team at MAPS.ME appreciates the opportunity to contribute in HOT’s humanitarian missions and help to serve in areas of disasters and political crises,” … “Opening MAPS.ME is an important step not just for us, but for the whole free mapping community, as OSM will become even more accessible for a wider audience, which, I hope, will attract new editors to join this outstanding movement.”
 
 ### CryptoWithoutMaps
 
@@ -45,13 +45,15 @@ The new FinTech owners, as [reported by Guardian](https://www.theguardian.com/te
 
 Back to our story. On **December 20, 2020**, version 2.0 of the MAPS.ME app was pushed to the Apple App Store. The new update de-facto was a brand-new app, completely re-done from scratch using the MapBox SDK (which itself was pretty great). Unsurprisingly, [some if not all old users were a bit disappointed](https://www.reddit.com/r/openstreetmap/comments/khsjqx/mapsme_seems_have_reached_its_end/).
 
+[Alexander Borsuk](https://github.com/biodranik) and [Viktor Govako](https://github.com/vng), co-founders of the original MapsWithMe, also were disappointed. On the next day, on **December 21, 2020**, they registered [organicmaps.app](https://organicmaps.app) domain and [organicmaps github org](https://github.com/organicmaps/), and started to work on the last open-source version of MAPS.ME under a new name.
+
 ### OriginalMapsMe
 
-One of the frustrated users drafted a post named ["MAPS.ME is gone. We must bring it back"](https://telegra.ph/What-happened-to-the-old-MAPSME-12-20) which shared a link to a Telegram group. Open-source ethusiasts started to gather together in the group to brainstorm how to bring MAPS.ME back. Dozens of open-source forks popped up during the first week by different people. Let a thousand flowers bloom!
+Independently, one of the frustrated users drafted a post named ["MAPS.ME is gone. We must bring it back"](https://telegra.ph/What-happened-to-the-old-MAPSME-12-20) which shared a link to a Telegram group. Open-source ethusiasts started to gather together in the group to brainstorm how to bring MAPS.ME back. Dozens of open-source forks popped up during the first week by different people. Let a thousand flowers bloom!
 
 Just to recall, the original MapsWithMe was **100% proprietary**. Although Big Tech later licensed the source code under Apache 2.0 and moved developemnt to the GitHub, the development process still followed the enterprise-style approaches, relying on an internal decision-making process, internal trackers, and infrastructure. The project had never gained self-governance and was always managed by full-time employees of the corporation.
 
-Endless brainstorming on this and other topics in the Telegram group eventually led to a lengthy voice call between [Roman Tsisyk and Alexey Naumenko](https://github.com/organicmaps/community/wiki/Members), that resulted in the kick-start of **this project**. The intention was to create a proper, community-driven open-source project, open to any parties willing to participate. This is how **this project** was born.
+Endless brainstorming on this and other topics in the Telegram group eventually led to a lengthy voice call between [Roman Tsisyk and Alexey Naumenko](https://github.com/organicmaps/community/wiki/Members), that resulted in the parallel kick-start of **this project**. The intention was to create a proper, community-driven open-source project, open to any parties willing to participate.
 
 ### OMaps
 
@@ -75,6 +77,10 @@ Everyone was invited to join forces on the community-driven open-source project.
 ### Further Development
 
 The first Android release under the "app.omaps" application identifier was finally approved by Google Play on **January 3, 2021**. The data was initially sourced from the old [Axet's fork](https://gitlab.com/axet/omim/-/tree/master/tracking). The first ever bug-report from an user was received on **January 5, 2021**.
+
+### Joined efforts
+
+On January 7, 2021, Alexey Naumenko organized a call between Roman, Alexander and Viktor. And the three of them agreed to join forces and work together on the new project.
 
 This is how it all got started. There was still a long road ahead, but it is a story for another time. This fork was the right one and it has survived the evolution. Now 10k+ GitHub stars and 100+ contributors. This is what the "Fork" button is all about.
 

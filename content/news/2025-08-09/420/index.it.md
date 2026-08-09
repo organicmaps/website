@@ -13,7 +13,7 @@ Per vedere i nomi dei segnalibri sulla mappa, abilita questa nuova funzione nell
 
 Grazie ai nostri collaboratori ❤️ e alle vostre [donazioni](@/donate/index.it.md), c'è molto di più in questo aggiornamento.
 
-P.S. ...e molto altro sta arrivando! Il vostro supporto ci aiuta e ci motiva a costruire le migliori mappe – insieme.
+P.S. …e molto altro sta arrivando! Il vostro supporto ci aiuta e ci motiva a costruire le migliori mappe – insieme.
 
 ### Note di rilascio dettagliate
 

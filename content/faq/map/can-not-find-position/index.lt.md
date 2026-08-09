@@ -20,7 +20,7 @@ aliases:
 
 Jei jūsų „Android“ įrenginys negali nustatyti jūsų vietos, programos nustatymuose įgalinkite (arba išjunkite, jei įjungta) parinktį „Google Play Services“.
 
-Pastaba: jį galite matyti tik tada, jei „Android“ įrenginyje įdiegėte (įjungėte) „Google Play“ paslaugas. „Google Play“ paslaugos naudojamos norint tiksliau nustatyti vietą. Jei išjungus parinktį kyla problemų dėl vietovės tikslumo, įjunkite ją.
+Pastaba: jį galite matyti tik tada, jei „Android“ įrenginyje įdiegėte (įjungėte) Google Play paslaugas. Google Play paslaugos naudojamos norint tiksliau nustatyti vietą. Jei išjungus parinktį kyla problemų dėl vietovės tikslumo, įjunkite ją.
 
 **iOS**
 

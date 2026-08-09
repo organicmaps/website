@@ -24,7 +24,7 @@ Oficiali Organic Maps rekomendacija yra [RHVoice](https://rhvoice.org/), kuri yr
 - Pasirinkite pageidaujamą variklį, kalbos greitį ir toną
 - **Iš naujo paleiskite Organic Maps programą**
 - Atidarykite Nustatymai => Balso instrukcijos Organic Maps programėlėje ir nustatykite
-- Jei balsas neveikia, iš naujo paleiskite „Organic Maps“ programą (arba iš naujo paleiskite įrenginį).
+- Jei balsas neveikia, iš naujo paleiskite Organic Maps programą (arba iš naujo paleiskite įrenginį).
 
 Jei nerandate atitinkamo nustatymo, atidarykite nustatymų programą ir ieškokite Tekstas į kalbą.
 
@@ -46,7 +46,7 @@ Minėtos parinktys gali nebūti rodomos, jei jūsų įrenginyje dar neįdiegta T
 
 ## Sprendimai
 
-Jei kyla problemų inicijuojant RHVoice TTS variklį LineageOS ar kituose tinkintuose ROM, išbandykite šį sprendimą. „RHVoice“ gali netinkamai inicijuoti ir programa gali sugesti, ypač jei anksčiau savo telefone nenaudojote jokio TTS variklio (pvz., naujai įdiegėte, atkūrėte gamyklinius nustatymus ir pan.). Jei naudojate tinkintą ROM, pvz., „LineageOS“, <ins>be „Google Play“ paslaugų ir „Google“ kalbėjimo paslaugų</ins> ir norite naudoti „RHVoice“ kaip pageidaujamą TTS variklį, vadovaukitės toliau pateiktomis instrukcijomis.
+Jei kyla problemų inicijuojant RHVoice TTS variklį LineageOS ar kituose tinkintuose ROM, išbandykite šį sprendimą. „RHVoice“ gali netinkamai inicijuoti ir programa gali sugesti, ypač jei anksčiau savo telefone nenaudojote jokio TTS variklio (pvz., naujai įdiegėte, atkūrėte gamyklinius nustatymus ir pan.). Jei naudojate tinkintą ROM, pvz., „LineageOS“, <ins>be Google Play paslaugų ir „Google“ kalbėjimo paslaugų</ins> ir norite naudoti „RHVoice“ kaip pageidaujamą TTS variklį, vadovaukitės toliau pateiktomis instrukcijomis.
 
 1. Įdiekite [eSpeak TTS modulį](https://f-droid.org/en/packages/com.reecedunn.espeak), pasiekiamą F-Droid
 2. Nustatykite jį kaip pageidaujamą sistemos variklį

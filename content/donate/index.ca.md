@@ -41,7 +41,7 @@ Feu clic a la icona de pagament preferit:
    - Ombreig de pujols i terreny 3D
    - Editor OpenStreetMap més avançat
    - Millor cerca de direccions sense connexió, encaminament i navegació
-   - ... i [moltes altres][github issues] funcionalitats que vulgueu
+   - … i [moltes altres][github issues] funcionalitats que vulgueu
 
 ## Com donar?
 

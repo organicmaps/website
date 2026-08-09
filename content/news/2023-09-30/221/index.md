@@ -26,7 +26,7 @@ Another new Android feature is background voice directions. Now Organic Maps can
 
 Android
 * Background voice and directions, thanks to Roman [@rtsisyk](https://github.com/rtsisyk)
-* Fixed "Wait..." dialog on startup on Android 13 with many downloaded maps on SD card (thanks to Viktar again!)
+* Fixed "Wait…" dialog on startup on Android 13 with many downloaded maps on SD card (thanks to Viktar again!)
 * Fixed distance on the route preview panel (thanks to Sergiy again!)
 * Fixed the blue arrow icon on the location button on Android 5 and 6 devices, thanks to Michał [@RicoElectrico](https://github.com/RicoElectrico)
 * Voice test in the settings menu (again, thanks to Gonzalo!)

@@ -13,7 +13,7 @@ Per veure els noms dels marcadors al mapa, activa aquesta nova característica a
 
 Gràcies als nostres col·laboradors ❤️ i a les vostres [donacions](@/donate/index.ca.md), hi ha molt més en aquesta actualització.
 
-P.D. ...i molt més està per venir! El vostre suport ens ajuda i ens motiva per construir els millors mapes – junts.
+P.D. …i molt més està per venir! El vostre suport ens ajuda i ens motiva per construir els millors mapes – junts.
 
 ### Notes detallades de la versió
 

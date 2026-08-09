@@ -13,7 +13,7 @@ Untuk melihat nama bookmark di peta, aktifkan fitur baru ini di pengaturan Organ
 
 Terima kasih kepada kontributor kami ❤️ dan [donasi kamu](@/donate/index.id.md), masih banyak lagi di pembaruan ini.
 
-P.S. ...dan masih banyak lagi yang akan datang! Dukungan kamu membantu dan memotivasi kami untuk membangun peta terbaik – bersama.
+P.S. …dan masih banyak lagi yang akan datang! Dukungan kamu membantu dan memotivasi kami untuk membangun peta terbaik – bersama.
 
 ### Catatan Rilis Detail
 

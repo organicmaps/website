@@ -45,7 +45,7 @@ Clicia ar dy ddull talu dewisol isod:
    - Cysgodi bryniau a thirwedd 3D
    - Golygydd OpenStreetMap mwy datblygedig
    - Gwell chwilio cyfeiriad all-lein, llwybro a llywio
-   - ... a [llawer o nodweddion eraill][github issues] rwyt ti eisiau ac yn eu caru
+   - … a [llawer o nodweddion eraill][github issues] rwyt ti eisiau ac yn eu caru
 
 ## Sut i roi?
 

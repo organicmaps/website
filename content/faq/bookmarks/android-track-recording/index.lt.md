@@ -4,7 +4,7 @@ slug: kodėl-takeliai-nėra-patikimai-įrašomi-fone-android
 description: Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“,
   „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“,
   „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba
-  užmušti „Organic Maps“ programą fone.
+  užmušti Organic Maps programą fone.
 updated: '2024-10-05'
 taxonomies:
   faq:
@@ -15,7 +15,7 @@ aliases:
   - /lt/faq/bookmarks/android-track-recording/
 ---
 
-Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti „Organic Maps“ programą fone.
+Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti Organic Maps programą fone.
 
 Tai ypač aktualu šiuolaikinėms „Android“ versijoms:
 - Android 16

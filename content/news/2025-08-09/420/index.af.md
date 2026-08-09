@@ -13,7 +13,7 @@ Om boekmerk name op die kaart te sien, aktiveer hierdie nuwe funksie in die Orga
 
 Dankie aan ons bydraers ❤️ en jou [skenkings](@/donate/index.af.md), daar's baie meer in hierdie opdatering.
 
-P.S. ...en baie meer kom! Jou ondersteuning help en motiveer ons om die beste kaarte te bou – saam.
+P.S. …en baie meer kom! Jou ondersteuning help en motiveer ons om die beste kaarte te bou – saam.
 
 ### Gedetailleerde Vrystelling Notas
 

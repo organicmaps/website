@@ -8,7 +8,7 @@ taxonomies:
 
 With the help of our community ❤️, in the 21.08.26 update we:
 
-* Increased maximum number of intermediate stops from 3 to... try to guess 🙂
+* Increased maximum number of intermediate stops from 3 to… try to guess 🙂
 * Fixed rare crash when downloading maps
 * Made farmlands more visible on the map
 * Updated 🇧🇷 Brazil and 🇵🇹 Portuguese translations

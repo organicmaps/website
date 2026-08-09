@@ -13,7 +13,7 @@ Pour voir les noms des favoris sur la carte, active cette nouvelle fonctionnalit
 
 Merci à nos contributeurs ❤️ et à tes [dons](@/donate/index.fr.md), il y a bien plus dans cette mise à jour.
 
-P.S. ...et bien plus arrive ! Ton soutien nous aide et nous motive à construire ensemble les meilleures cartes.
+P.S. …et bien plus arrive ! Ton soutien nous aide et nous motive à construire ensemble les meilleures cartes.
 
 ### Notes de version détaillées
 

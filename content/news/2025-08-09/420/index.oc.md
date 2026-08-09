@@ -13,7 +13,7 @@ Per veire los noms dels marcapaginas sus la mapa, activatz aquesta foncion novè
 
 Mercés als nòstres contributors ❤️ e a vòstras [donacions](@/donate/index.oc.md), i a plan mai dins aquesta mesa a jorn.
 
-P.S. ...e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per bastir las melhoras mapas – ensemble.
+P.S. …e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per bastir las melhoras mapas – ensemble.
 
 ### Nòtas detalhadas de version
 

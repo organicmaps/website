@@ -45,7 +45,7 @@ Klik op jou voorkeur betaalmetode-ikoon hieronder:
    - Heuwelskadu en 3D-terrein
    - Meer gevorderde OpenStreetMap-redigeerder
    - Beter vanlyn adressoektog, roetering en navigasie
-   - ... en [baie ander][github issues] kenmerke wat jy wil hê en van hou
+   - … en [baie ander][github issues] kenmerke wat jy wil hê en van hou
 
 ## Hoe om te skenk?
 

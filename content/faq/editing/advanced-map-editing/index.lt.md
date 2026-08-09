@@ -1,7 +1,7 @@
 ---
 title: Kaip galiu atlikti sudėtingesnį žemėlapio redagavimą?
 slug: kaip-galiu-atlikti-sudėtingesnį-žemėlapio-redagavimą
-description: „OpenStreetMap“ redagavimo naudojant pažangesnius įrankius, pvz., ID,
+description: OpenStreetMap redagavimo naudojant pažangesnius įrankius, pvz., ID,
   „Go Map“ ir „Vespucci“ mokymo programa
 updated: '2024-06-20'
 taxonomies:
@@ -49,7 +49,7 @@ OpenStreetMap yra bendruomenė. Jei jums reikia pagalbos arba turite klausimų, 
 
 ## Žymos – kaip veikia OSM duomenų modelis
 
-„OpenStreetMap“ duomenų bazėje yra tokių objektų kaip mazgai, keliai, sritys ir ryšiai, kurie atsiriboja nuo realaus pasaulio funkcijų. Šie objektai turi atributų, vadinamųjų žymų, skirtų toliau juos apibūdinti. Žyma yra rakto ir vertės derinys.
+OpenStreetMap duomenų bazėje yra tokių objektų kaip mazgai, keliai, sritys ir ryšiai, kurie atsiriboja nuo realaus pasaulio funkcijų. Šie objektai turi atributų, vadinamųjų žymų, skirtų toliau juos apibūdinti. Žyma yra rakto ir vertės derinys.
 
 Kadangi tai skamba sudėtingiau nei yra, pateiksime pavyzdį:
 Restoranas yra pvz. susietas kaip pastaba arba sritis su žyma `amenity=restaurant`. Tada galima naudoti kitas žymas, pvz., `cuisine=*` arba `opening_hours=*`, kad gautumėte daugiau informacijos.

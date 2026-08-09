@@ -13,7 +13,7 @@ Norėdami matyti žymių pavadinimus žemėlapyje, įjunkite šią naują funkci
 
 Dėkojame mūsų bendradarbiams ❤️ ir jūsų [aukoms](@/donate/index.lt.md), šiame atnaujinime yra daug daugiau.
 
-P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
+P.S. …ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
 
 ### Išsamūs leidimo pastabos
 

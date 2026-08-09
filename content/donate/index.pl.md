@@ -41,7 +41,7 @@ Kliknij ikonę preferowanej metody płatności poniżej:
    - Cieniowanie wzgórz i teren 3D
    - Bardziej zaawansowany edytor OpenStreetMap
    - Lepsze wyszukiwanie adresów w trybie offline, wyznaczanie tras i nawigacja
-   - ... i [wiele innych][github issues] funkcji, które chcesz i kochasz
+   - … i [wiele innych][github issues] funkcji, które chcesz i kochasz
 
 ## Jak przekazać darowiznę?
 

@@ -13,7 +13,7 @@ Om bladwijzernamen op de kaart te zien, schakel deze nieuwe functie in in de Org
 
 Dankzij onze bijdragers ❤️ en je [donaties](@/donate/index.nl.md) is er veel meer in deze update.
 
-P.S. ...en er komt nog veel meer! Jouw steun helpt en motiveert ons om samen de beste kaarten te bouwen.
+P.S. …en er komt nog veel meer! Jouw steun helpt en motiveert ons om samen de beste kaarten te bouwen.
 
 ### Gedetailleerde Release Notes
 

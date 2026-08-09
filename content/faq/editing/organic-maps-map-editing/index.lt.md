@@ -1,7 +1,7 @@
 ---
 title: Kaip galiu redaguoti žemėlapį Organic Maps programėlėje?
 slug: kaip-galiu-redaguoti-žemėlapį-natūraliuose-žemėlapiuose
-description: „OpenStreetMap“ redagavimo iš „Organic Maps“ programos mokymo programa
+description: OpenStreetMap redagavimo iš Organic Maps programos mokymo programa
 updated: '2025-01-05'
 taxonomies:
   faq:

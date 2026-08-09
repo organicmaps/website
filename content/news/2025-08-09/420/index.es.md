@@ -13,7 +13,7 @@ Para ver los nombres de los marcadores en el mapa, activa esta nueva función en
 
 Gracias a nuestros colaboradores ❤️ y a tus [donaciones](@/donate/index.es.md), hay mucho más en esta actualización.
 
-P.D. ...¡y mucho más está por venir! Tu apoyo nos ayuda y motiva a construir los mejores mapas juntos.
+P.D. …¡y mucho más está por venir! Tu apoyo nos ayuda y motiva a construir los mejores mapas juntos.
 
 ### Notas detalladas de la versión
 

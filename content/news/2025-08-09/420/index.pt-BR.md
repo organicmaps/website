@@ -13,7 +13,7 @@ Para ver os nomes dos favoritos no mapa, habilite esse novo recurso nas configur
 
 Graças aos nossos colaboradores ❤️ e às suas [doações](@/donate/index.pt-BR.md), há muito mais nesta atualização.
 
-P.S. ...e muito mais está por vir! Seu apoio nos ajuda e nos motiva a construir os melhores mapas – juntos.
+P.S. …e muito mais está por vir! Seu apoio nos ajuda e nos motiva a construir os melhores mapas – juntos.
 
 ### Notas detalhadas da versão
 

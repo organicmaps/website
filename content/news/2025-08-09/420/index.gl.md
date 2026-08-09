@@ -13,7 +13,7 @@ Para ver os nomes dos marcadores no mapa, activa esta nova característica na co
 
 Grazas aos nosos colaboradores ❤️ e ás túas [doazóns](@/donate/index.gl.md), hai moito máis nesta actualización.
 
-P.D. ...e moito máis está por vir! O teu apoio axúdanos e motívanos para construír os mellores mapas – xuntos.
+P.D. …e moito máis está por vir! O teu apoio axúdanos e motívanos para construír os mellores mapas – xuntos.
 
 ### Notas detalladas da versión
 

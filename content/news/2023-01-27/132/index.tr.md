@@ -7,6 +7,7 @@ taxonomies:
 ---
 
 Organic Maps'in Ocak 2023 güncellemesiyle tanış! Umarız harika bir tatil geçirmişsindir ve seyahat etmekten, ilginç yerleri görmekten, başka kültürlere sahip insanlarla tanışmaktan keyif almışsındır. İşte bu güncellemedeki tüm yenilikler:
+
 * 21 Ocak 2023 tarihine ait yeni OpenStreetMap harita verileri
 * Bazı KML dosyalarının içe aktarılmasında oluşan hatalar düzeltildi
 * Geçerli konum artık 8 saat yerine 30 saatlik hareketsizlikten sonra otomatik olarak aranıyor

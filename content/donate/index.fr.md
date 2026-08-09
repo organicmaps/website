@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[donations][stripe]** :
+L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[donations][stripe]** en **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** :
 
 - Pas de publicité
 - Pas de trackers
@@ -15,15 +15,16 @@ L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[do
 - Pas de notifications push
 - Open-source
 
+Clique sur l'icône correspondant au mode de paiement de ton choix ci-dessous :
+
 {{ donate_buttons() }}
 
 ## Pourquoi faire un don à Organic Maps ?
 
-1. Nous comptons sur tes dons pour mener à bien notre mission, à savoir maintenir Organic Maps ouvert et gratuit.
-   Et libre de toute publicité.
-2. Nous sommes quelques passionnés qui consacrent leur temps libre et l'argent de leurs familles à ce projet.
-   Nous aimons ce que nous faisons, et nous aimons nos utilisateurs ❤️.
-3. Avec ton soutien, nous voulons devenir une version de Google Maps meilleure et respectueuse de la vie privée.
+1. Notre objectif est de proposer une alternative à Google Maps et Apple Maps qui soit respectueuse de la vie privée, rapide et facile à utiliser.
+2. Notre autre objectif est d'améliorer les données cartographiques publiques pour les nombreux sites web, applications et plateformes qui utilisent OpenStreetMap, et d'inciter davantage de personnes à y contribuer.
+3. Nous comptons sur tes dons pour garder Organic Maps ouvert et gratuit pour tout le monde. Et sans publicité.
+4. Nous aimons ce que nous faisons, et nous aimons nos utilisateurs ❤️.
 
 ## A quoi servira l'argent ?
 
@@ -41,7 +42,7 @@ L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[do
    - Amélioration de l'éditeur OpenStreetMap
    - Amélioration de la recherche d'adresses, du routage et de la navigation hors ligne
    - Transport public
-   - ... et [beaucoup d'autres][github issues] fonctionnalités que tu veux et aimes.
+   - … et [beaucoup d'autres][github issues] fonctionnalités que tu veux et aimes.
 
 ## Comment faire un don ?
 

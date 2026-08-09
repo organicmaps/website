@@ -7,7 +7,7 @@ extra:
   preview_image: donate/bağış.png
 ---
 
-Organic Maps, **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_:
+Organic Maps, **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** cinsinden yaptığın **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_:
 
 - Reklam yok
 - Takipçi yok
@@ -15,13 +15,16 @@ Organic Maps, **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_
 - Push bildirimleri yok
 - Açık kaynak
 
+Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
+
 {{ donate_buttons() }}
 
 ## Neden Organic Maps'e bağış yapmalıyım?
 
-1. Organic Maps'i aktif ve ücretsiz tutma misyonumuzu yerine getirmek için bağışlarına güveniyoruz. Ve tek bir reklam dahi yok.
-2. Boş zamanlarımızda katkıda bulunan ve ailelerimizin parasını bu projeye harcayan birkaç teknoloji tutkunuyuz. Yaptığımız işi ve kullanıcılarımızı seviyoruz ❤️.
-3. Desteğinle, Google Haritalar'ın daha iyi, gizlilik odaklı bir sürümü olmak istiyoruz.
+1. Amacımız, Google Maps ve Apple Maps'e gizlilik odaklı, hızlı ve kullanımı kolay bir alternatif sunmak.
+2. Bir diğer amacımız da OpenStreetMap kullanan sayısız web sitesi, uygulama ve platform için kamuya açık harita verilerini iyileştirmek ve daha fazla kişiyi harita bilgisi eklemeye teşvik etmek.
+3. Organic Maps'i herkes için açık ve ücretsiz tutabilmek için bağışlarına güveniyoruz. Ve reklamsız.
+4. Yaptığımız işi seviyoruz ve kullanıcılarımızı seviyoruz ❤️.
 
 ## Paralar ne için kullanılacak?
 
@@ -39,6 +42,8 @@ Organic Maps, **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_
    - … ve isteyeceğin ve seveceğin [diğer birçok][github issues] özellik
 
 ## Nasıl bağış yapabilirim?
+
+Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
 
 {{ donate_buttons() }}
 

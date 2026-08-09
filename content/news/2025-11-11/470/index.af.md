@@ -8,11 +8,11 @@ taxonomies:
 
 ## Vrystellingsnotas
 
-### Alle platforms
-
 - *NUUT!* Gemerkte afgelaaide streke op die Wêreldkaart (Viktor Govako)
 - *NUUT!* Sien en soek na natuurreservate, nasionale parke, beskermde gebiede, Aboriginal-gebiede, gevaarsones en mere op die Wêreldkaart vanaf zoemvlak 8 (Viktor Govako)
 - *NUUT!* Roetering ondersteun nou padsluitingstye (Viktor Govako)
+
+### Alle platforms
 
 - OpenStreetMap-data soos op 9 November 2025 (Viktor Govako)
 - ’n Fout met verstek- en gelokaliseerde straatname wanneer adresse geredigeer en veranderinge na OpenStreetMap opgelaai word, is reggestel (Viktor Govako)
@@ -68,6 +68,7 @@ P.S. Sluit by beta-toetsing aan vir vroeë funksies en help ons om foute en prob
 - [Android][firebase].
 
 Dankie dat jy Organic Maps gebruik en die projek ondersteun!
+
 Die Organic Maps-span
 
 {{ references() }}

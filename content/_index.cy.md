@@ -61,7 +61,7 @@ Does dim tracwyr na phethau drwg arall yn yr ap Organic Maps:
 - Dim sbam e-bost swnllyd
 - Dim hysbysiadau push
 - Dim 'crapware'
-- ~~Dim plaladdwyr ~~ Yn hollol organig!
+- ~~Dim plaladdwyr~~ Yn hollol organig!
 
 Mae'r ap wedi cael ei wirio gan [Exodus Preifatrwydd Project][exodus]:
 

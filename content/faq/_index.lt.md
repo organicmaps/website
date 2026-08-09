@@ -1,6 +1,6 @@
 ---
 title: Dažniausiai užduodami klausimai
-description: Šiame DUK rasi atsakymus į daugelį klausimų apie „Organic Maps“ programėlę, mūsų bendradarbius ir projektą
+description: Šiame DUK rasite atsakymus į daugelį klausimų apie „Organic Maps“ programėlę, mūsų bendradarbius ir projektą
 extra:
   menu_title: DUK
 ---

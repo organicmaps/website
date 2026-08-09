@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Antrasis rugsėjo leidimas pateikia atnaujintą maršruto planavimo ekraną ir galimybę iOS įrenginiuose peržiūrėti OpenStreetMap `description` žymos turinį. Kad rastum vietas su šia žyma, paieškos laukelyje įvesk `?description` (panašiai kaip `?wiki` su Wikipedia susietoms vietoms).
+Antrasis rugsėjo leidimas pateikia atnaujintą maršruto planavimo ekraną ir galimybę iOS įrenginiuose peržiūrėti OpenStreetMap `description` žymos turinį. Kad rastumėte vietas su šia žyma, paieškos laukelyje įveskite `?description` (panašiai kaip `?wiki` su Wikipedia susietoms vietoms).
 
 Taip pat yra daug pataisymų ir patobulinimų iOS ir Android (išsamiau žemiau).
 
-Ir, žinoma, priminimas apie kitas naujoves, kurias galbūt praleidai:
+Ir, žinoma, priminimas apie kitas naujoves, kurias galbūt praleidote:
 - Viešojo transporto maršrutų numeriai pasirinkus stotelę
-- Žygių ir dviračių maršrutai (įjunk juos Sluoksnių mygtuku kairėje viršuje)
-- Žymų pavadinimai žemėlapyje (įjunk programėlės Nustatymuose)
+- Žygių ir dviračių maršrutai (įjunkite juos Sluoksnių mygtuku kairėje viršuje)
+- Žymų pavadinimai žemėlapyje (įjunkite programėlės Nustatymuose)
 - ✎ pieštuko piktograma leidžia greitai redaguoti žymas
 
-Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) ir [tavo palaikymo](@/contribute/index.lt.md).
+Organic Maps įmanomas dėka bendradarbių, [jūsų aukų](@/donate/index.lt.md) ir [jūsų palaikymo](@/contribute/index.lt.md).
 
 ### Išsamios leidimo pastabos
 
@@ -38,7 +38,7 @@ Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) i
 
 #### iOS
 
-- NAUJA: rodyti OSM `description` žymos turinį (išbandyk įvesdamas `?description` paieškos laukelyje) (Kiryl Kaveryn, Viktor Govako)
+- NAUJA: rodyti OSM `description` žymos turinį (išbandykite įvesdami `?description` paieškos laukelyje) (Kiryl Kaveryn, Viktor Govako)
 - NAUJA: atnaujintas maršrutų planavimo ekranas (Kiryl Kaveryn)
 
 #### Android
@@ -50,10 +50,10 @@ Organic Maps įmanomas dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) i
 - Pataisytas pozicijos atnaujinimas navigacijoje pritaikytuose ROM (pvz., Lineage + MicroG) (Viktor Govako)
 - Mėlyna pieštuko (redagavimo) piktograma žymoms (Alexander Borsuk)
 - Sumažintas vietos informacijos peržiūros vertikalus aukštis (Alexander Borsuk)
-- Pašalintas azimuto į šiaurę kampas iš vietos informacijos peržiūros (bakstelėk mėlyną rodyklę su atstumu, kad jį pamatytum) (Alexander Borsuk)
+- Pašalintas azimuto į šiaurę kampas iš vietos informacijos peržiūros (bakstelėkite mėlyną rodyklę su atstumu, kad jį pamatytumėte) (Alexander Borsuk)
 
-Atsisiųsk naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Atsisiųskite naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-P.S. Prisijunk prie beta testavimo, kad naujoves išbandytum pirmas: [iOS][testflight] / [Android][firebase].
+P.S. Prisijunkite prie beta testavimo, kad naujoves išbandytumėte pirmi: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -12,10 +12,10 @@ aliases:
   - /cs/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Ke spuštění aplikace potřebuješ alespoň iOS 12 nebo Android 5. Zařízení s novějšími verzemi mohou používat Organic Maps.
+Ke spuštění aplikace potřebujete alespoň iOS 12 nebo Android 5. Zařízení s novějšími verzemi mohou používat Organic Maps.
 
 V systému Android může Organic Maps fungovat na zařízeních s nainstalovanými službami Google a bez podpory Google.
 
 Aby zařízení s operačním systémem Android fungovala, musí podporovat OpenGL ES 3.0 nebo novější verzi, případně rozhraní Vulkan API.
 
-Chceš-li používat OM s Android Auto, zkontroluj požadavky [zde](../how-to-use-android-auto/).
+Chcete-li používat OM s Android Auto, zkontrolujte požadavky [zde](../how-to-use-android-auto/).

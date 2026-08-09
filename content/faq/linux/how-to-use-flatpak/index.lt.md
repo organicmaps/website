@@ -11,23 +11,23 @@ aliases:
   - /lt/faq/linux/how-to-use-flatpak/
 ---
 
-Norėdamas įdiegti OM sistemoje „Linux“ su „flatpak“, atidaryk terminalą ir įvesk `flatpak install flathub app.organicmaps.desktop`.
+Norėdami įdiegti OM sistemoje „Linux“ su „flatpak“, atidarykite terminalą ir įveskite `flatpak install flathub app.organicmaps.desktop`.
 
-Įdiegęs programą gali naudoti pelės slinkties ratuką arba dešinėje meniu juostoje esančius valdiklius, kad priartintum sritį, kurioje nori naršyti, kad atsisiųstum tos srities žemėlapius. Taip pat gali spustelėti apatiniame dešiniajame kampe esančią piktogramą „atsisiųsti“. Atsisiuntęs tau rūpimų regionų žemėlapius, programa turėtų veikti net be interneto ryšio. 
+Įdiegę programą galite naudoti pelės slinkties ratuką arba dešinėje meniu juostoje esančius valdiklius, kad priartintumėte sritį, kurioje norite naršyti, kad atsisiųstumėte tos srities žemėlapius. Taip pat galite spustelėti apatiniame dešiniajame kampe esančią piktogramą „atsisiųsti“. Atsisiuntę jums rūpimų regionų žemėlapius, programa turėtų veikti net be interneto ryšio. 
 
-Norėdamas pamatyti pagalbos tekstą, užvesk pelės žymeklį ant įvairių piktogramų. 
+Norėdami pamatyti pagalbos tekstą, užveskite pelės žymeklį ant įvairių piktogramų. 
 
-Norėdamas atlikti maršrutą ir naršymą posūkis po posūkio, turi keletą parinkčių. jei žinai savo pradžios ir pabaigos taškų GPS koordinates, gali spustelėti nustatymų piktogramą (virš žalios varnelės) ir įvesti pradžios taško bei kelionės tikslo koordinates. Norėdamas nustatyti pradžios tašką žemėlapyje, spustelėk navigacijos piktogramą ir pasirink „pradžios taškas“, tada laikyk nuspaudęs klavišą „Shift“ ir spustelėk žemėlapį kairiuoju pelės klavišu. Norėdamas nustatyti kelionės tikslą, pakeisk į „galinis taškas“ ir spustelėk vietą žemėlapyje.
+Norėdami atlikti maršrutą ir naršymą posūkis po posūkio, turite keletą parinkčių. jei žinote savo pradžios ir pabaigos taškų GPS koordinates, galite spustelėti nustatymų piktogramą (virš žalios varnelės) ir įvesti pradžios taško bei kelionės tikslo koordinates. Norėdami nustatyti pradžios tašką žemėlapyje, spustelėkite navigacijos piktogramą ir pasirinkite „pradžios taškas“, tada laikykite nuspaudę klavišą „Shift“ ir spustelėkite žemėlapį kairiuoju pelės klavišu. Norėdami nustatyti kelionės tikslą, pakeiskite į „galinis taškas“ ir spustelėkite vietą žemėlapyje.
 
 ![Pradžios ir pabaigos taško nustatymas](nav_points.png)
 
-Norėdamas išvalyti naršymą, gali spustelėti mėlyną piktogramą tiesiai virš nustatymų piktogramos. 
+Norėdami išvalyti naršymą, galite spustelėti mėlyną piktogramą tiesiai virš nustatymų piktogramos. 
 
 ![išvalyti navigaciją](clear_route.png)
 
-Norėdamas ieškoti adresų ir paskirties vietų, spustelėk didinamąjį stiklą ir įvesk adresą arba paieškos terminą.
+Norėdami ieškoti adresų ir paskirties vietų, spustelėkite didinamąjį stiklą ir įveskite adresą arba paieškos terminą.
 
-Norėdamas pažymėti vietą, laikyk nuspaudęs klavišą Alt ir dešiniuoju pelės mygtuku spustelėk vietą, kurią nori pažymėti. Žymė gali būti nematoma iš karto. Norėdamas peržiūrėti ir tvarkyti žymes, turi spustelėti raudonos žvaigždės piktogramą. 
+Norėdami pažymėti vietą, laikykite nuspaudę klavišą Alt ir dešiniuoju pelės mygtuku spustelėkite vietą, kurią norite pažymėti. Žymė gali būti nematoma iš karto. Norėdami peržiūrėti ir tvarkyti žymes, turite spustelėti raudonos žvaigždės piktogramą. 
 
 ![žiūriu žymes](view_bookmarks.png)
 

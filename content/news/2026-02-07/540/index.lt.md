@@ -7,7 +7,7 @@ slug: kaip-priartinti-ar-nutolinti-viena-ranka-organic-maps-programėlėje
 ## Kaip priartinti ar nutolinti viena ranka Organic Maps programėlėje
 
 
-1. Greitai bakstelėk du kartus bet kurioje žemėlapio vietoje, bet po 2-ojo bakstelėjimo nekelk piršto.
-2. Judink pirštą aukštyn arba žemyn, kad nutolintum arba priartintum.
+1. Greitai bakstelėkite du kartus bet kurioje žemėlapio vietoje, bet po 2-ojo bakstelėjimo nekelkite piršto.
+2. Judinkite pirštą aukštyn arba žemyn, kad nutolintumėte arba priartintumėte.
 
 Ilgo bakstelėjimo gestas: rodo arba slepia sąsają.

@@ -9,11 +9,11 @@ title: "Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija"
 
 **Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės ir [**MapsWithMe**][mapswithme]/**Maps.Me** programėlės įkūrėjų. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
 
-**Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiek Organic Maps, atsisiųsk žemėlapius, išmesk SIM kortelę (atmink, kad tavo ryšio operatorius nuolat seka tave) ir išvyk į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
+**Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atminkite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
 
-> 2025 m. gruodį „Organic Maps“ [pasiekė 6 mln. įdiegimų](@/news/2025-12-31/500/index.lt.md). [Padėk mums](@/donate/index.lt.md) augti!
+> 2025 m. gruodį „Organic Maps“ [pasiekė 6 mln. įdiegimų](@/news/2025-12-31/500/index.lt.md). [Padėkite mums](@/donate/index.lt.md) augti!
 
-### Atsisiųsk ir įsidiek „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid], [Accrescent][accrescent] {#install}
+### Atsisiųskite ir įsidiekite „Organic Maps“ iš [„AppStore“][appstore], [„Google Play“][googleplay], [„Huawei AppGallery“][appgallery], [„Obtainium“][obtainium], [„FDroid“][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -31,14 +31,14 @@ režimu') }}
 
 Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams, žygeiviams ir dviratininkams:
 
-- Detalūs žemėlapiai be interneto su vietomis, kurių nerasi kituose žemėlapiuose, dėka [OpenStreetMap][openstreetmap]
+- Detalūs žemėlapiai be interneto su vietomis, kurių nerasite kituose žemėlapiuose, dėka [OpenStreetMap][openstreetmap]
 - Dviračių, žygių ir pėsčiųjų takai
 - Reljefo kontūrai, pakilimo profiliai, viršukalnės ir šlaitai
 - Nuosekli navigacija pėstiesiems, dviratininkams ir automobilių vairuotojams su nurodymais balsu ir CarPlay/Android Auto
 - Metro žemėlapiai
 - Sparti paieška žemėlapyje neprisijungus
 - Žymelės ir takai KML, KMZ ir GPX formatais, GeoJSON
-- Tamsus režimas apsaugos tavo akis
+- Tamsus režimas apsaugos jūsų akis
 - Šalys ir regionai neužima daug vietos
 - Vikipedijos straipsniai apie populiarias vietas
 - Nemokama ir atvirojo kodo
@@ -47,8 +47,8 @@ Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams, žygei
 
 Organic Maps yra tyra ir ekologiška, sukurta su meile:
 
-- Gerbia tavo privatumą
-- Tausoja tavo bateriją
+- Gerbia jūsų privatumą
+- Tausoja jūsų bateriją
 - Jokių netikėtų mokesčių už mobilius duomenis
 
 Organic Maps programėlė nenaudoja seklių ir neturi kitų kenksmingų savybių:
@@ -72,25 +72,25 @@ iOS programėlė yra patikrinta [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps neprašo perdėtų leidimų, kurie leistų tave šnipinėti:
+Organic Maps neprašo perdėtų leidimų, kurie leistų jus šnipinėti:
 
 {{ privacy_screenshots() }}
 
 Mes, iš Organic Maps, tikime, kad privatumas yra pamatinė žmogaus teisė:
 
 - Organic Maps yra nekomercinis bendruomenės prižiūrimas atvirojo kodo projektas
-- Mes saugome tavo privatumą nuo didžiųjų įmonių sekimo
-- Lik saugus nesvarbu, kur esi
+- Mes saugome jūsų privatumą nuo didžiųjų įmonių sekimo
+- Likite saugūs nesvarbu, kur esate
 
-Atmesk sekimą – rinkis laisvę.
+Atmeskite sekimą – rinkitės laisvę.
 
-**[Išbandyk Organic Maps!](#install)**
+**[Išbandykite Organic Maps!](#install)**
 
 ## Kas moka už nemokamą programėlę?
 
-Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.lt.md), kad paremtum mus!
+Programėlė yra nemokama visiems. Prašome [paaukoti](@/donate/index.lt.md), kad paremtumėt mus!
 
-Paaukok iškart, spausk ant norimo mokėjimo metodo ženklelio apačioje:
+Paaukokite iškart, spauskite ant norimo mokėjimo metodo ženklelio apačioje:
 
 {{ donate_buttons() }}
 
@@ -148,12 +148,12 @@ Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache
   - [Android Beta (Firebase)][firebase]
   - [Linux darbalaukio Beta (Flatpak)][flatpak]
   - [Linux darbalaukio Beta (paketai)][repology]
-- Pranešk apie klaidas ar problemas į [klaidų sekimo sistemą][issues] arba [rašyk mums el. paštu][email].
-- [Aptark][ideas] idėjas arba siūlyk naujų funkcijų prašymus.
-- Prenumeruok mūsų [Telegram kanalą][telegram] arba [Matrix erdvę][matrix], kad gautum naujienas.
-- Prisijunk prie mūsų [Telegram grupės][telegram_chat] ir diskutuok su kitais vartotojais.
-- Apsilankyk mūsų [GitHub puslapyje][github].
-- Sek mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Praneškite apie klaidas ar problemas į [klaidų sekimo sistemą][issues] arba [rašykite mums el. paštu][email].
+- [Aptarkite][ideas] idėjas arba siūlykite naujų funkcijų prašymus.
+- Prenumeruokite mūsų [Telegram kanalą][telegram] arba [Matrix erdvę][matrix], kad gautumėte naujienas.
+- Prisijunkite prie mūsų [Telegram grupės][telegram_chat] ir diskutuokite su kitais vartotojais.
+- Apsilankykite mūsų [GitHub puslapyje][github].
+- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

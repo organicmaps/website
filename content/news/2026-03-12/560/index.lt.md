@@ -6,11 +6,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Kovo mėnesio Organic Maps atnaujinimas užtruko ilgiau dėl karštųjų pataisymų ir Google Play peržiūros. [Accrescent][accrescent] atnaujinimas vis dar neparengtas dėl Accrescent programėlių parduotuvės problemų. Gauk atnaujinimą adresu <https://get.omaps.org> arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Kovo mėnesio Organic Maps atnaujinimas užtruko ilgiau dėl karštųjų pataisymų ir Google Play peržiūros. [Accrescent][accrescent] atnaujinimas vis dar neparengtas dėl Accrescent programėlių parduotuvės problemų. Gaukite atnaujinimą adresu <https://get.omaps.org> arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-P.S. Susisiek su mumis el. paštu <sdk@organicmaps.app>, jei tave domina iOS / Android / Linux / MacOS / Windows SDK su neprisijungus veikiančiais žemėlapiais, kuriuos gali pakartotinai naudoti savo projektuose.
+P.S. Susisiekite su mumis el. paštu <sdk@organicmaps.app>, jei jus domina iOS / Android / Linux / MacOS / Windows SDK su neprisijungus veikiančiais žemėlapiais, kuriuos galite pakartotinai naudoti savo projektuose.
 
-P.P.S. Ar žinojai apie API, kurią jau gali naudoti savo programėlėje, jei įdiegta ir Organic Maps programa? Pasižiūrėk ją čia: <https://omaps.app/api>
+P.P.S. Ar žinojote apie API, kurią jau galite naudoti savo programėlėje, jei įdiegta ir Organic Maps programa? Pasižiūrėkite ją čia: <https://omaps.app/api>
 
 ### Išleidimo pastabos
 
@@ -44,7 +44,7 @@ P.P.S. Ar žinojai apie API, kurią jau gali naudoti savo programėlėje, jei į
 * Atnaujinti Weblate autorių vertimai (Viktor Govako)
 * Ištaisytas ukrainiečių kalbos vertimas (Nnifria)
 
-Prisijunk prie beta testavimo, kad išbandytum ankstyvąsias funkcijas ir praneštum apie problemas:
+Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvąsias funkcijas ir praneštumėte apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

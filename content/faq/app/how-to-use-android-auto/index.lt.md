@@ -12,6 +12,6 @@ aliases:
   - /lt/faq/app/how-to-use-android-auto/
 ---
 
-Norint naudoti OM su „Android Auto“, reikia bent 8.0 („Oreo“) ar naujesnės versijos „Android“. Be to, turi atsisiųsti Organic Maps iš „Google Play“ parduotuvės, nes „Google“ leidžia tik „Google“ patvirtintas programas „Android Auto“.
+Norint naudoti OM su „Android Auto“, reikia bent 8.0 („Oreo“) ar naujesnės versijos „Android“. Be to, turite atsisiųsti Organic Maps iš „Google Play“ parduotuvės, nes „Google“ leidžia tik „Google“ patvirtintas programas „Android Auto“.
 
-Daugiau informacijos rasi [Android Auto svetainėje](https://www.android.com/auto/).
+Daugiau informacijos rasite [Android Auto svetainėje](https://www.android.com/auto/).

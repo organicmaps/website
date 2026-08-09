@@ -19,18 +19,18 @@ Oficiální doporučení od Organic Maps je [RHVoice](https://rhvoice.org/), co�
 
 ## Pokyny
 
-- Otevři na svém zařízení Android aplikaci Nastavení
-- Vyber Další nastavení a poté vyber Usnadnění
-- Vyber si preferovaný motor, rychlost řeči a výšku
-- **Restartuj aplikaci Organic Maps**
-- Otevři Nastavení => Hlasové pokyny v Organic Maps a nastav je
-- Pokud hlas nefunguje, znovu spusť aplikaci Organic Maps (nebo restartuj zařízení).
+- Otevřete na svém zařízení Android aplikaci Nastavení
+- Vyberte Další nastavení a poté vyberte Usnadnění
+- Vyberte si preferovaný motor, rychlost řeči a výšku
+- **Restartujte aplikaci Organic Maps**
+- Otevřete Nastavení => Hlasové pokyny v Organic Maps a nastavte je
+- Pokud hlas nefunguje, znovu spusťte aplikaci Organic Maps (nebo restartujte zařízení).
 
-Pokud nemůžeš najít příslušné nastavení, otevři aplikaci nastavení a vyhledej Převod textu na řeč.
+Pokud nemůžete najít příslušné nastavení, otevřete aplikaci nastavení a vyhledejte Převod textu na řeč.
 
-P.S: Upozorňujeme, že tyto kroky se budou lišit v závislosti na značce telefonu, který používáš.
+P.S: Upozorňujeme, že tyto kroky se budou lišit v závislosti na značce telefonu, který používáte.
 
-Uvedené možnosti se nemusí zobrazit, pokud v zařízení ještě nemáš nainstalované TTS. Chceš-li nainstalovat kterýkoli z nich, který podporuje tvůj rodný jazyk, podívej se do tabulky níže.
+Uvedené možnosti se nemusí zobrazit, pokud v zařízení ještě nemáte nainstalované TTS. Chcete-li nainstalovat kterýkoli z nich, který podporuje váš rodný jazyk, podívejte se do tabulky níže.
 
 ## Snímky obrazovky
 
@@ -40,28 +40,28 @@ Uvedené možnosti se nemusí zobrazit, pokud v zařízení ještě nemáš nain
 
 ## Motory {#engines}
 
-Níže je uveden úplný seznam několika motorů a jazyků, které podporují (odkazy ke stažení najdeš za tabulkou):
+Níže je uveden úplný seznam několika motorů a jazyků, které podporují (odkazy ke stažení naleznete za tabulkou):
 
 {{ tts_table() }}
 
 ## Řešení
 
-Pokud máš potíže s inicializací enginu RHVoice TTS na LineageOS nebo jiných vlastních ROM, vyzkoušej toto řešení. RHVoice se nemusí správně inicializovat a aplikace může selhat, zejména pokud jsi v telefonu dosud nepoužil žádný modul TTS (např. nová instalace, obnovení továrního nastavení atd.). Pokud používáš vlastní ROM, jako je LineageOS <ins>bez služeb Google Play a Speech Services od společnosti Google</ins>, a chceš používat RHVoice jako preferovaný modul TTS, postupuj podle pokynů níže:
+Pokud máte potíže s inicializací enginu RHVoice TTS na LineageOS nebo jiných vlastních ROM, vyzkoušejte toto řešení. RHVoice se nemusí správně inicializovat a aplikace může selhat, zejména pokud jste v telefonu dosud nepoužili žádný modul TTS (např. nová instalace, obnovení továrního nastavení atd.). Pokud používáte vlastní ROM, jako je LineageOS <ins>bez služeb Google Play a Speech Services od společnosti Google</ins>, a chcete používat RHVoice jako preferovaný modul TTS, postupujte podle pokynů níže:
 
-1. Nainstaluj [eSpeak TTS engine](https://f-droid.org/en/packages/com.reecedunn.espeak) dostupný na F-Droid
-2. Nastav jej jako preferovaný systémový modul
-    - Přejdi na hlavní **Nastavení** LineageOS.
-    - Přejdi dolů na **Přístupnost**.
-    - Vyber **výstup převodu textu na řeč** a **Preferovaný modul** (levá strana) a ujisti se, že je vybrána možnost **eSpeak**.
-3. Vrať se a stiskni **přehrát**, abys zjistil, zda to funguje
-4. Nainstaluj [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) dostupný na F-droid.
-    - Otevři jej, vyber jazyk, který chceš použít, klepnutím na ikonu cloudu (zcela vlevo) stáhni hlasy.
-    - Stisknutím tlačítka přehrávání ověř, zda funguje
-5. Nastav **RHVoice** jako preferovaný motor (viz krok 2)
-6. Nyní bys měl být schopen bez problémů používat RHVoice
+1. Nainstalujte [eSpeak TTS engine](https://f-droid.org/en/packages/com.reecedunn.espeak) dostupný na F-Droid
+2. Nastavte jej jako preferovaný systémový modul
+    - Přejděte na hlavní **Nastavení** LineageOS.
+    - Přejděte dolů na **Přístupnost**.
+    - Vyberte **výstup převodu textu na řeč** a **Preferovaný modul** (levá strana) a ujistěte se, že je vybrána možnost **eSpeak**.
+3. Vraťte se a stiskněte **přehrát**, abyste zjistili, zda to funguje
+4. Nainstalujte [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) dostupný na F-droid.
+    - Otevřete jej, vyberte jazyk, který chcete použít, klepnutím na ikonu cloudu (zcela vlevo) stáhněte hlasy.
+    - Stisknutím tlačítka přehrávání ověřte, zda funguje
+5. Nastavte **RHVoice** jako preferovaný motor (viz krok 2)
+6. Nyní byste měli být schopni bez problémů používat RHVoice
 
 ## Testování
 
-Chceš-li otestovat hlasové pokyny, můžeš klepnout na „Testovat hlasové pokyny (TTS, Text-To-Speech)“ v nabídce OM „Nastavení → Hlasové pokyny“ nebo můžeš skutečně spustit navigaci a přijímat jakýkoli hlasový výstup. Organic Maps ti neposkytne žádné hlasové pokyny, když budeš stát na místě.
+Chcete-li otestovat hlasové pokyny, můžete klepnout na „Testovat hlasové pokyny (TTS, Text-To-Speech)“ v nabídce OM „Nastavení → Hlasové pokyny“ nebo můžete skutečně spustit navigaci a přijímat jakýkoli hlasový výstup. Organic Maps vám neposkytne žádné hlasové pokyny, když budete stát na místě.
 
 ![Test TTS](tts_test.png "Test TTS")

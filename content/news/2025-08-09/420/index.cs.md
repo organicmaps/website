@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nainstaluj srpnové vydání Organic Maps, stáhni nejnovější mapy a objev oblíbené turistické a cyklistické trasy po celém světě! Stiskni tlačítko "Vrstvy" vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíš nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
+Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko "Vrstvy" vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
 
-Věděl jsi, že lze vybrat jakoukoli zaznamenanou nebo importovanou GPX/KML stopu na mapě? Stopy s výškovými údaji zobrazí svůj výškový graf.
+Věděli jste, že lze vybrat jakoukoli zaznamenanou nebo importovanou GPX/KML stopu na mapě? Stopy s výškovými údaji zobrazí svůj výškový graf.
 
-Pro zobrazení názvů záložek na mapě povol tuto novou funkci v nastavení Organic Maps.
+Pro zobrazení názvů záložek na mapě povolte tuto novou funkci v nastavení Organic Maps.
 
-Díky našim přispěvatelům ❤️ a tvým [darům](@/donate/index.cs.md) je v této aktualizaci mnohem více.
+Díky našim přispěvatelům ❤️ a vašim [darům](@/donate/index.cs.md) je v této aktualizaci mnohem více.
 
-P.S. ...a přichází mnohem více! Tvoje podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
+P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
 
 ### Podrobné poznámky k vydání
 
@@ -57,6 +57,6 @@ P.S. ...a přichází mnohem více! Tvoje podpora nám pomáhá a motivuje nás 
 - Španělský překlad pro více kategorií vyhledávání (David Martinez)
 - Aktualizovány různé překlady (přispěvatelé Weblate)
 
-Získej Organic Maps z [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [FDroid][fdroid].
+Získejte Organic Maps z [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [FDroid][fdroid].
 
 {{ references() }}

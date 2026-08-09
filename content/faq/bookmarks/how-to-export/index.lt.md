@@ -12,6 +12,6 @@ aliases:
   - /lt/faq/bookmarks/how-to-export/
 ---
 
-Žemėlapyje arba sąraše bakstelėk žymę, tada vietos puslapyje bakstelėk mygtuką „Bendrinti“.
+Žemėlapyje arba sąraše bakstelėkite žymę, tada vietos puslapyje bakstelėkite mygtuką „Bendrinti“.
 
-Norėdamas bendrinti visas žymes ir takelius sąraše iš puslapio Žymės ir takeliai, sąrašo pavadinimo dešinėje bakstelėk piktogramą su trimis taškais ir pasirink „Eksportuoti KMZ“ arba „Eksportuoti GPX“.
+Norėdami bendrinti visas žymes ir takelius sąraše iš puslapio Žymės ir takeliai, sąrašo pavadinimo dešinėje bakstelėkite piktogramą su trimis taškais ir pasirinkite „Eksportuoti KMZ“ arba „Eksportuoti GPX“.

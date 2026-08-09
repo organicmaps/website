@@ -13,19 +13,19 @@ Birželio Organic Maps atnaujinime yra daug naujų įdomių funkcijų ir klaidų
 - Nauja paieškos ir maršrutų planavimo sąsaja Android
 - Didelių prieinamumo šriftų palaikymas iOS
 
-Gauk jį adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid], ir pranešk, ką manai!
+Gaukite jį adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid], ir praneškite, ką manote!
 
 ## Išsamus pakeitimų žurnalas
 
 - NAUJA! Viešojo transporto maršrutų planavimas metro, lengvuoju geležinkeliu, autobusu ir tramvajumi _(Viktor Govako)_
 - NAUJA! Alternatyvūs maršrutai: be greičiausio maršruto, programa dabar rodo ir trumpiausią maršrutą _(Viktor Govako)_
 - NAUJA! Pėsčiųjų ir dviračių maršrutų įspėjimai apie laiptus, vartus ir pakeliamas užtvaras kelyje _(Viktor Govako)_
-- NAUJA! Pasirink bet kokią žymių spalvą _(Alexander Borsuk, Mikhail Listratsenka)_
+- NAUJA! Pasirinkite bet kokią žymių spalvą _(Alexander Borsuk, Mikhail Listratsenka)_
 - NAUJA! British National Grid (OS Grid), Irish Grid ir Irish Transverse Mercator (ITM) koordinačių palaikymas _(Alexander Borsuk)_
-- EKSPERIMENTINĖ FUNKCIJA: įjunk palydovinius vaizdus Organic Maps nustatymuose naudodamas pasirinktinį rastrinių plytelių serverio URL. Vis dar dirbame prie savo serverio, todėl kol kas rask viešai prieinamą serverį, kurio URL yra `{x}`, `{y}`, `{z}` vietaženkliai _(Viktor Govako, renderexpert)_
+- EKSPERIMENTINĖ FUNKCIJA: įjunkite palydovinius vaizdus Organic Maps nustatymuose naudodami pasirinktinį rastrinių plytelių serverio URL. Vis dar dirbame prie savo serverio, todėl kol kas raskite viešai prieinamą serverį, kurio URL yra `{x}`, `{y}`, `{z}` vietaženkliai _(Viktor Govako, renderexpert)_
 - OpenStreetMap duomenys atnaujinti iki birželio 24 d. _(Viktor Govako)_
 - Wikipedia duomenys atnaujinti iki birželio 20 d., įskaitant straipsnius italų kalba _(Alexander Borsuk)_
-- Paieškos lange įvesk `?map-download-server:https://your-server.com/`, kad perrašytum Organic Maps žemėlapių atsisiuntimo serverius. Įvesk `?no-map-download-server`, kad perrašymą pašalintum _(Alexander Borsuk)_
+- Paieškos lange įveskite `?map-download-server:https://your-server.com/`, kad perrašytumėte Organic Maps žemėlapių atsisiuntimo serverius. Įveskite `?no-map-download-server`, kad perrašymą pašalintumėte _(Alexander Borsuk)_
 
 #### Žemėlapio atvaizdavimas ir stiliai
 
@@ -48,7 +48,7 @@ Gauk jį adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google 
 ### iOS
 
 - NAUJA! Prieinamumo palaikymas Dynamic Type ir dideliems šriftams _(Kiryl Kaveryn)_
-- NAUJA! Paliesk, kad pasirinktum tarp persidengiančių trasų ir maršrutų _(Kiryl Kaveryn)_
+- NAUJA! Palieskite, kad pasirinktumėte tarp persidengiančių trasų ir maršrutų _(Kiryl Kaveryn)_
 - Patobulintas žymių ir trasų aprašymų HTML atvaizdavimas _(Kiryl Kaveryn)_
 - Švaresnis lentelių stilius sąsajoje _(Kiryl Kaveryn)_
 
@@ -77,7 +77,7 @@ Gauk jį adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google 
 - Atnaujinti vokiečių ir prancūzų vertimai _(Wuzzy, Alexander Borsuk)_
 - Ištaisyti neteisingi „onto street“ balso nurodymų vertimai į kinų, serbų ir katalonų kalbas _(Alexander Borsuk)_
 
-## Prisijunk prie beta testavimo, kad išbandytum ankstyvas funkcijas ir praneštum apie problemas:
+## Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir praneštumėte apie problemas:
 
 - [iOS][testflight]
 - [Android][firebase]

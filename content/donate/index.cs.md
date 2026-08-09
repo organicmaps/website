@@ -7,7 +7,7 @@ title: "Přispějte na podporu vývoje Organic Maps"
 weight: 10
 ---
 
-Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]**:
+Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]** v měnách **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Bez reklam
 - Žádné sledovací zařízení
@@ -29,7 +29,7 @@ Klikněte na ikonu preferovaného způsobu platby níže:
 ## Proč potřebuje bezplatný projekt peníze?
 
 1. V roce 2023 získaly Organic Maps první milion uživatelů. Naše servery poskytují bezplatné, rychlé a časté aktualizace map po celém světě.
-2. Podpora uživatelů, oprava chyb a zlepšování stability aplikace jsou našimi hlavními prioritami. Na GitHubu je [2000+ issues] [github issues] a toto číslo každým dnem roste. AppStore, Google Play a e-maily podpory jsou zaplaveny komentáři a chybami. Chceme dodávat vysoce kvalitní produkt.
+2. Podpora uživatelů, oprava chyb a zlepšování stability aplikace jsou našimi hlavními prioritami. Na GitHubu je [2000+ issues][github issues] a toto číslo každým dnem roste. AppStore, Google Play a e-maily podpory jsou zaplaveny komentáři a chybami. Chceme dodávat vysoce kvalitní produkt.
 3. S dostatkem peněz lze například rychleji vyvíjet nové funkce:
    - Zálohování a synchronizace záložek a tras
    - Záznamník stop GPS s podporou GPX

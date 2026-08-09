@@ -13,6 +13,6 @@ aliases:
   - /cs/faq/bookmarks/how-to-export/
 ---
 
-Klepni na záložku na mapě nebo v seznamu a potom klepni na tlačítko „Sdílet“ na stránce místa.
+Klepněte na záložku na mapě nebo v seznamu a potom klepněte na tlačítko „Sdílet“ na stránce místa.
 
-Chceš-li sdílet všechny záložky a trasy v seznamu ze stránky Záložky a trasy, klepni na ikonu se třemi tečkami napravo od názvu seznamu a vyber „Exportovat KMZ“ nebo „Exportovat GPX“.
+Chcete-li sdílet všechny záložky a trasy v seznamu ze stránky Záložky a trasy, klepněte na ikonu se třemi tečkami napravo od názvu seznamu a vyberte „Exportovat KMZ“ nebo „Exportovat GPX“.

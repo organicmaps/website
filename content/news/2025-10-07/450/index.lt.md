@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Šis spalio 7 d. Organic Maps atnaujinimas prideda greičio ribojimo rodymą Android Auto, GeoJSON importą, įrašomos trasos statistiką, rodo OSM aprašymo žymas (kad jas pamatytum, paieškos laukelyje įvesk `?description`) ir leidžia išsaugoti žymą ant trasos iOS. Taip pat yra daug naudotojo sąsajos ir OpenStreetMap redagavimo patobulinimų bei įvairių klaidų pataisymų visose platformose, įskaitant strigtį paleidžiant kai kuriuose Android įrenginiuose.
+Šis spalio 7 d. Organic Maps atnaujinimas prideda greičio ribojimo rodymą Android Auto, GeoJSON importą, įrašomos trasos statistiką, rodo OSM aprašymo žymas (kad jas pamatytumėte, paieškos laukelyje įveskite `?description`) ir leidžia išsaugoti žymą ant trasos iOS. Taip pat yra daug naudotojo sąsajos ir OpenStreetMap redagavimo patobulinimų bei įvairių klaidų pataisymų visose platformose, įskaitant strigtį paleidžiant kai kuriuose Android įrenginiuose.
 
-Organic Maps įmanomas ❤️ dėka bendradarbių, [tavo aukų](@/donate/index.lt.md) ir [tavo palaikymo](@/contribute/index.lt.md).
+Organic Maps įmanomas ❤️ dėka bendradarbių, [jūsų aukų](@/donate/index.lt.md) ir [jūsų palaikymo](@/contribute/index.lt.md).
 
 ### Išsamios leidimo pastabos (įskaitant ankstesnio nedidelio atnaujinimo pakeitimus)
 
@@ -68,17 +68,17 @@ Organic Maps įmanomas ❤️ dėka bendradarbių, [tavo aukų](@/donate/index.l
 - Atsisiuntimo atšaukimo parinktis (Viktor Govako)
 - Geometrijos tipo rodymas kontekstiniame meniu (Viktor Govako)
 
-### Neseniai išleistos funkcijos, kurias galbūt praleidai
+### Neseniai išleistos funkcijos, kurias galbūt praleidote
 
 - Viešojo transporto maršrutų numeriai pasirinkus autobusų stotelę
-- Žygių ir dviračių maršrutai (įjunk juos Sluoksnių mygtuku kairėje viršuje)
-- Žymų pavadinimus žemėlapyje pamatysi juos įjungęs programėlės Nustatymuose
+- Žygių ir dviračių maršrutai (įjunkite juos Sluoksnių mygtuku kairėje viršuje)
+- Žymų pavadinimus žemėlapyje pamatysite juos įjungę programėlės Nustatymuose
 - ✎ pieštuko piktograma leidžia greitai redaguoti žymas
 
-### Įdiek Organic Maps
+### Įdiekite Organic Maps
 
-Atsisiųsk naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Atsisiųskite naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-Prisijunk prie beta testavimo, kad naujoves išbandytum anksčiau: [iOS][testflight] / [Android][firebase].
+Prisijunkite prie beta testavimo, kad naujoves išbandytumėte anksčiau: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

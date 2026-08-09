@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Veselé Vánoce a šťastný nový rok od týmu Organic Maps. Hledáš vánoční atmosféru? Vyhledej `Vánoční trh` nebo `Vánoční stromek` a zobraz si je na mapě. Pokud se ve tvé oblasti nic nezobrazí, přidej chybějící prvky na OpenStreetMap.org a vylepši mapu pro všechny!
+Veselé Vánoce a šťastný nový rok od týmu Organic Maps. Hledáte vánoční atmosféru? Vyhledejte `Vánoční trh` nebo `Vánoční stromek` a zobrazte si je na mapě. Pokud se ve vaší oblasti nic nezobrazí, přidejte chybějící prvky na OpenStreetMap.org a vylepšete mapu pro všechny!
 
-Nainstaluj si Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
+Nainstalujte si Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
 
 ### Poznámky k vydání
 
@@ -36,11 +36,11 @@ Nainstaluj si Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore
 - Senzor polohy auta v Android Auto je deaktivován, aby se předešlo problémům s polohou (Andrei Shkrob)
 - Nahrávání trasy pokračuje, i když je aplikace ukončena nebo zavřena (Alexander Borsuk)
 
-Připoj se k beta testování, vyzkoušej rané funkce a nahlas problémy:
+Připojte se k beta testování, vyzkoušejte rané funkce a nahlaste problémy:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existuje díky tvým [darům](@/donate/index.cs.md) a [příspěvkům](@/contribute/index.cs.md). Děkujeme! ❤️
+Organic Maps existuje díky vašim [darům](@/donate/index.cs.md) a [příspěvkům](@/contribute/index.cs.md). Děkujeme! ❤️
 
 Tým Organic Maps
 

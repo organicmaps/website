@@ -4,6 +4,6 @@ date: 2026-01-10
 slug: "google-summer-of-code-2026-vyzva-pro-mentory-a-studenty"
 ---
 
-Pokud máš zájem zapojit se do programu Google Summer of Code (GSoC) 2026, podívej se prosím na některé nápady na projekty [zde](https://github.com/organicmaps/organicmaps/wiki/GSoC-2026-ideas) nebo předlož své vlastní. Uchazeči s již sloučenými pull requesty budou mít větší šanci na přijetí 😉
+Pokud máte zájem zapojit se do programu Google Summer of Code (GSoC) 2026, podívejte se prosím na některé nápady na projekty [zde](https://github.com/organicmaps/organicmaps/wiki/GSoC-2026-ideas) nebo předložte své vlastní. Uchazeči s již sloučenými pull requesty budou mít větší šanci na přijetí 😉
 
-Pokud dobře znáš Organic Maps a máš zájem mentorovat studenty GSoC, ozvi se nám také!
+Pokud dobře znáte Organic Maps a máte zájem mentorovat studenty GSoC, ozvěte se nám také!

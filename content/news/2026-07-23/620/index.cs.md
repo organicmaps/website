@@ -8,9 +8,9 @@ extra:
   preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
 ---
 
-Jak sis možná už všiml, byla vydána červencová aktualizace Organic Maps. Stáhni si ji na adrese <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Jak jste si možná už všimli, byla vydána červencová aktualizace Organic Maps. Stáhněte si ji na adrese <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Díky tvým [příspěvkům](@/donate/index.cs.md) a [zpětné vazbě](@/contribute/index.cs.md) jsme se v červenci zaměřili na opravy chyb a vylepšení. Pokud ti to uniklo, jsou k dispozici také následující funkce z [předchozího červnového vydání](@/news/2026-06-29/610/index.cs.md):
+Díky vašim [příspěvkům](@/donate/index.cs.md) a [zpětné vazbě](@/contribute/index.cs.md) jsme se v červenci zaměřili na opravy chyb a vylepšení. Pokud vám to uniklo, jsou k dispozici také následující funkce z [předchozího červnového vydání](@/news/2026-06-29/610/index.cs.md):
 - Trasy veřejné dopravy (aktuální jízdní řády se připravují)
 - Satelitní snímky
 - Alternativní trasy pro jízdu autem, pěší turistiku a cyklistiku
@@ -22,7 +22,7 @@ Díky tvým [příspěvkům](@/donate/index.cs.md) a [zpětné vazbě](@/contrib
 ### Mapa a místa
 
 - Data OpenStreetMap aktualizována k 14. červenci
-- Poznámky nahlášené do [OpenStreetMap](https://www.openstreetmap.org) se nyní umisťují přesně na místo, které jsi vybral, a nikoli do středu celé ulice nebo oblasti _(Alexander Borsuk)_
+- Poznámky nahlášené do [OpenStreetMap](https://www.openstreetmap.org) se nyní umisťují přesně na místo, které jste vybrali, a nikoli do středu celé ulice nebo oblasti _(Alexander Borsuk)_
 - Vylepšený výběr míst při klepnutí na mapu v oblastech, které protínají 180. poledník _(Viktor Govako)_
 - Výškové profily záznamů tras už po smazání záznamu nezobrazují zastaralé ani prázdné grafy _(Kiryl Kaveryn)_
 
@@ -40,10 +40,10 @@ Díky tvým [příspěvkům](@/donate/index.cs.md) a [zpětné vazbě](@/contrib
 
 ### iOS
 
-- Nové nastavení „Uložit historii vyhledávání“, které ti umožní historii vypnout a skrýt, pokud si ji nechceš uchovávat _(Kiryl Kaveryn)_
+- Nové nastavení „Uložit historii vyhledávání“, které vám umožní historii vypnout a skrýt, pokud si ji nechcete uchovávat _(Kiryl Kaveryn)_
 - Nové tlačítko „Upravit“ pro snadnější odstranění záložek _(Kiryl Kaveryn)_
 - Záložky se nyní ukládají automaticky při opuštění obrazovky _(Kiryl Kaveryn)_
-- Paleta barev nyní nabízí předdefinované barvy a umožní ti vybrat si libovolnou vlastní barvu _(Kiryl Kaveryn)_
+- Paleta barev nyní nabízí předdefinované barvy a umožní vám vybrat si libovolnou vlastní barvu _(Kiryl Kaveryn)_
 - Byl vylepšen prázdný stav grafu nadmořské výšky pro zaznamenanou trasu _(Kiryl Kaveryn)_
 - Bylo vylepšeno zobrazení postupu trasy na tlačítku „Start“ _(Kiryl Kaveryn)_
 - Změna pořadí zastávek na trase již nezpůsobuje poskakování seznamu _(Kiryl Kaveryn)_
@@ -68,7 +68,7 @@ Díky tvým [příspěvkům](@/donate/index.cs.md) a [zpětné vazbě](@/contrib
 - Aktualizované ukrajinské překlady _(Nnifria)_
 - Opraveny italské překlady názvů oblastí na mapě _(Vittorio Bertola)_
 
-## Zapoj se do beta testování, vyzkoušej si nové funkce v předstihu a nahlas problémy:
+## Zapojte se do beta testování, vyzkoušejte si nové funkce v předstihu a nahlaste problémy:
 
 Tip: Beta verze obsahuje nové stínování terénu, vylepšená výšková data s podporou stop a metrů a další skvělé funkce!
 

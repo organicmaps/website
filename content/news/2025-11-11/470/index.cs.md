@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto vždy používá režim trasování pro automobily (Andrei Shkrob)
 - Použití překladů do tradiční čínštiny pro regiony Hongkong (zh-HK) a Macao (zh-MO) (Alexander Borsuk)
 
-Dej nám prosím vědět, zda můžeš spustit Organic Maps na jakémkoli zařízení x86 (včetně Chromebooků) s podporou OpenGL ES 3.
+Dejte nám prosím vědět, zda můžete spustit Organic Maps na jakémkoli zařízení x86 (včetně Chromebooků) s podporou OpenGL ES 3.
 
 ### Mapa a styly
 
@@ -62,13 +62,13 @@ Dej nám prosím vědět, zda můžeš spustit Organic Maps na jakémkoli zaří
 
 Předchozí poznámky k vydání: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Získej nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Získejte nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-P.S. Připoj se k beta testování, získej přístup k novým funkcím a pomoz nám najít chyby a problémy:
+P.S. Připojte se k beta testování, získejte přístup k novým funkcím a pomozte nám najít chyby a problémy:
 - [iOS][testflight]
 - [Android][firebase].
 
-Děkujeme, že používáš Organic Maps a podporuješ projekt!
+Děkujeme, že používáte Organic Maps a podporujete projekt!
 
 Tým Organic Maps
 

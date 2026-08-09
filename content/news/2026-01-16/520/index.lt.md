@@ -6,7 +6,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendraautoriai! Įdiek jį iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
+Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendraautoriai! Įdiekite jį iš <https://omaps.app/get> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid]
 
 ### Leidimo pastabos (visos platformos)
 
@@ -42,11 +42,11 @@ Pradėkime 2026 m. su Organic Maps atnaujinimu, kurį įgalino visi mūsų bendr
 * Ištaisyti trūkstami TTS balso vedimo pranešimai (Alexander Borsuk)
 
 
-Prisijunk prie beta testavimo, kad išbandytum ankstyvąsias funkcijas ir praneštum apie problemas:
+Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvąsias funkcijas ir praneštumėte apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps egzistuoja dėka tavo [aukų](@/donate/index.lt.md) ir [indėlių](@/contribute/index.lt.md) ❤️
+Organic Maps egzistuoja dėka jūsų [aukų](@/donate/index.lt.md) ir [indėlių](@/contribute/index.lt.md) ❤️
 
 Organic Maps komanda
 

@@ -1,13 +1,13 @@
 ---
-title: "Paaukok, kad paremtum Organic Maps plėtrą"
-description: "Tavo pinigai padengia visas su projektu susijusias išlaidas ir skatina mus tobulinti Organic Maps."
+title: "Paaukokite, kad paremtumėte Organic Maps plėtrą"
+description: "Jūsų pinigai padengia visas su projektu susijusias išlaidas ir skatina mus tobulinti Organic Maps."
 weight: 10
 extra:
-  menu_title: Paremk
+  menu_title: Paremkite
   preview_image: donate/donate.png
 ---
 
-Organic Maps programa _visiems_ yra _nemokama_ dėka tavo **[aukų][stripe]** eurais (**[EUR][stripe_eur]**)**, [JAV doleriais (USD][stripe_usd]), [Didžiosios Britanijos svarais (GBP)][stripe_GBP], [Šveicarijos frankais (CHF)][stripe_chf], [Ukrainos grivomis (UAH)][stripe_uah] ir [Lenkijos zlotais (PLN)][stripe_pln]**:
+Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]** valiutomis:
 
 - Be reklamų
 - Jokių sekimo įrenginių
@@ -15,7 +15,7 @@ Organic Maps programa _visiems_ yra _nemokama_ dėka tavo **[aukų][stripe]** eu
 - Nėra pranešimų
 - Atvirojo kodo
 
-Spustelėk žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
+Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
 {{ donate_buttons() }}
 
@@ -23,7 +23,7 @@ Spustelėk žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
 1. Mūsų tikslas – pasiūlyti į privatumą orientuotą, greitą ir patogią naudoti alternatyvą „Google Maps“ ir „Apple Maps“.
 2. Kitas mūsų tikslas – tobulinti viešus žemėlapių duomenis daugybei interneto svetainių, programėlių ir platformų, kurios naudoja OpenStreetMap, bei įtraukti daugiau žmonių į žemėlapių informacijos teikimą.
-3. Norėdami, kad Organic Maps ir toliau veiktų bei būtų nemokama visiems, mes remiamės tavo aukomis. Be to, ji yra be reklamų.
+3. Norėdami, kad Organic Maps ir toliau veiktų bei būtų nemokama visiems, mes remiamės jūsų aukomis. Be to, ji yra be reklamų.
 4. Mums patinka tai, ką darome, ir mes mylime savo vartotojus ❤️.
 
 ## Kodėl nemokamam projektui reikia pinigų?
@@ -41,11 +41,11 @@ Spustelėk žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
    - Reljefo šešėliavimas ir 3D reljefas
    - Išplėstinis OpenStreetMap redaktorius
    - Geresnė adresų paieška, maršrutų planavimas ir navigacija neprisijungus prie interneto
-  - … ir [daugybė kitų][github issues] funkcijų, kurių nori ir kurias mėgsti
+  - … ir [daugybė kitų][github issues] funkcijų, kurių norite ir kurias mėgstate
 
 ## Kaip paaukoti?
 
-Spustelėk žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
+Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
 {{ donate_buttons() }}
 
@@ -63,6 +63,6 @@ Prašome apsvarstyti galimybę kasmet aukoti, kad būtų sumažinti bendri mokes
 
 ## Ar galėtumėte mums padėti kokiu nors kitu būdu?
 
-Taip! Yra daug būdų, kaip paremti Organic Maps. Daugiau informacijos rasi puslapyje [„Prisidėk“](@/contribute/index.lt.md).
+Taip! Yra daug būdų, kaip paremti Organic Maps. Daugiau informacijos rasite puslapyje [„Prisidėkite“](@/contribute/index.lt.md).
 
 {{ references() }}

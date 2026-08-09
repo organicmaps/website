@@ -138,7 +138,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
 
 ## コミュニティ
 
-Organic Maps は [Apache License 2.0][github] の下でライセンスされた [オープンソースソフトウェア][github] です。
+Organic Maps は Apache License 2.0 の下でライセンスされた [オープンソースソフトウェア][github] です。
 
 - ベータプログラムにご参加いただき、機能の提案やバグの報告をお願いします:
   - [iOS ベータ (TestFlight)][testflight]

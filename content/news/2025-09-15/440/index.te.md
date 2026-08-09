@@ -52,7 +52,7 @@ Organic Maps మా కాంట్రిబ్యూటర్లకు, [మీ
 - స్థలం సమాచారం ప్రివ్యూ నిలువు ఎత్తు తగ్గించారు (Alexander Borsuk)
 - ప్రివ్యూ నుండి ఉత్తర దిశ అజిముత్ కోణం తొలగించారు (నీలి బాణాన్ని తాకండి) (Alexander Borsuk)
 
-తాజా వెర్షన్ పొందండి: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+తాజా Organic Maps వెర్షన్ పొందండి: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 బీటా పరీక్షలో చేరండి: [iOS][testflight] / [Android][firebase].
 

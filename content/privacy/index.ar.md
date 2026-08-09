@@ -14,6 +14,6 @@ Organic Maps يحترم خصوصيتك ولا يتتبعك.
 
 ابتعد عن عيون المتطفلين لدى شركات التقنيات الكبيرة!
 
-إذا كانت لديك أي أسئلة أو اقتراحات، يرجى التواصل معنا على [legal@organicmaps.app (mailto:legal@organicmaps.app).
+إذا كانت لديك أي أسئلة أو اقتراحات، يرجى التواصل معنا على [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>هذه السياسة سارية اعتبارًا من 2021-04-24.</sub>

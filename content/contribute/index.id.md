@@ -12,7 +12,7 @@ Organic Maps adalah aplikasi sumber terbuka bebas. Aplikasi ini bebas dari iklan
 Ada berbagai cara untuk mendukung pengembangan:
 
 - [Donasi](@/donate/index.id.md)! Setiap dolar atau euro sangat berarti dan membantu kami membayar peladen dan skala.
-- Laporkan kutu dan bagikan ide di [GitHub][github][github] atau melalui [surel][email].
+- Laporkan kutu dan bagikan ide di [GitHub][github] atau melalui [surel][email].
 - Bantu kami untuk [memperbaiki kutu][contributing] dan melakukan tinjauan kode jika kamu seorang pengembang. Setiap masalah kecil yang diperbaiki membuat seseorang lebih bahagia.
 - [Terjemahkan][translations] string yang belum ada di antarmuka aplikasi.
 - Terjemahkan deskripsi [App Store][translations_appstore] dan [Android][translations_googleplay] ke dalam bahasa kamu.

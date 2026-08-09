@@ -20,7 +20,7 @@ Garapenean laguntzeko hainbat modu daude:
 - Parte hartu [OpenStreetMap][openstreetmap] komunitatean eta hobetu mapako datuak.
 - Konpondu gure [garraio publikoaren balidatzaileak][public_transport_validator] aurkitutako hiri gorriak, metro eta tranbiak ondo funtzionatu dezan app-ean.
 - Lagundu beste erabiltzaileei hemen: [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
-- Jende guztiari kontatu guri buruz. Komunitate handiago bat indartsuagoa izango da.
+- Kontatu jende guztiari Organic Maps-i buruz. Komunitate handiago bat indartsuagoa izango da.
 - Baloratu gaitzazu [Google Play][googleplay_review], [Apple Store][appstore_review], eta [Huawei Appgallery][appgallery_review]-n.
 - Edozein laguntza da ongi-etorria!
 

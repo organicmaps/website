@@ -29,7 +29,7 @@ Feu clic a la icona de pagament preferit:
 ## Per què un projecte gratuït necessita diners?
 
 1. El 2023, l'Organic Maps va assolir el seu primer milió d'usuaris. Els nostres servidors proporcionen actualitzacions de mapes gratuïtes, ràpides i freqüents arreu del món.
-2. L'assistència als usuaris, correcció d'errors i millora d'estabilitat de l'aplicació són les nostres prioritats principals. Hi ha més de [2000 informes al GitHub][github issues] i, aquest número creix cada dia. L'AppStore, el PlayStore i els correus d'atenció estan inundats amb comentaris i informes. Volem lliurar un producte de qualitat.
+2. L'assistència als usuaris, correcció d'errors i millora d'estabilitat de l'aplicació són les nostres prioritats principals. Hi ha més de [2000 informes al GitHub][github issues] i, aquest número creix cada dia. L'AppStore, Google Play i els correus d'atenció estan inundats amb comentaris i informes. Volem lliurar un producte de qualitat.
 3. Amb suficients diners, poden desenvolupar-se més ràpidament prestacions noves, com ara:
    - Còpia de seguretat i sincronització de marcadors i recorreguts
    - Gravadora GPS amb compatibilitat per a GPX

@@ -15,7 +15,7 @@ Hi ha diferents formes d'ajudar al desenvolupament:
 - Informeu d'errors i compartiu idees al nostre [GitHub][github] o mitjançant el [correu-e][email].
 - Ajudeu-nos a [corregir errors][contributing] i fer revisions de codi si en sabeu programar. Cada petit problema solucionat farà més feliç a alguna persona.
 - [Traduïu][translations] i milloreu les cadenes de la interfície de l'aplicació.
-- Traduïu les descripcions de l'[AppStore][translations_appstore] i l'[Android][translations_googleplay] a la vostra llengua.
+- Traduïu les descripcions de l'[App Store][translations_appstore] i l'[Android][translations_googleplay] a la vostra llengua.
 - [Traduïu][translations_website] el web a la vostra llengua.
 - Uniu-vos a la comunitat de l'[OpenStreetMap][openstreetmap] i contribuïu amb dades dels mapes.
 - Corregiu les ciutats marcades en vermell que ha trobat el nostre [validador de transport públic][public_transport_validator], perquè el metro i tramvies funcionin a l'aplicació.

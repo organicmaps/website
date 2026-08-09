@@ -28,17 +28,19 @@ Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
 
 ## Paralar ne için kullanılacak?
 
-1. Daha hızlı sunucular için ödeme yapıyoruz, böylece dünyadaki herkes ücretsiz harita güncellemelerini gecikme olmadan indirebiliyor. Aylık yüzlerce terabayt harita indiriliyor ve bu rakam her geçen gün artıyor.
-2. Kullanıcı desteği, hata düzeltme ve uygulamanın kararlılığını iyileştirme, önceliklerimizin başında geliyor. [GitHub sayfamızda 1800'den fazla sorun][github issues] var ve bu sayı her geçen gün artıyor. App Store, Google Play ve destek e-postamız; yorum ve hatalarla dolu. Yüksek kaliteli bir ürün sunmak istiyoruz.
-3. Yeterli para ile yeni özellikler daha hızlı geliştirilebilir, örneğin:
-   - Haftalık ve otomatik harita güncellemeleri
-   - Yer imleri yedekleme ve senkronizasyon
-   - GPX desteği sunan bir GPS kaydedici
-   - Farklı etkinlikler için daha iyi harita stilleri
-   - Tepe gölgeleri ve 3B arazi görünümü
-   - Geliştirilmil OpenStreetMap editörü
-   - Daha iyi çevrimdışı adres arama, rota ve navigasyon
+1. 2023 yılında Organic Maps ilk milyon kullanıcısına ulaştı. Sunucularımız dünyanın her yerinde ücretsiz, hızlı ve sık harita güncellemeleri sunuyor.
+2. Kullanıcı desteği, hata düzeltme ve kaliteli uygulama güncellemeleri yayınlamak önceliklerimizin başında geliyor. [GitHub'da yaklaşık 2000 hata raporu ve özellik isteği][github issues] var ve bu sayı her geçen gün artıyor. AppStore, Google Play ve destek e-postalarımız yorum ve hatalarla dolup taşıyor. Yüksek kaliteli bir ürün sunmak istiyoruz.
+3. Yeterli para ile yeni özellikler geliştirilebilir. Bunlardan birkaçı:
+   - Yer imlerini ve izleri yedekleme ve senkronize etme
+   - GPX dışa aktarma özellikli GPS iz kaydedici
+   - Uydu görüntüleri
    - Toplu taşıma
+   - Trafik ve kaza bildirimi
+   - Fotoğraflar ve yorumlar
+   - Farklı etkinlikler için harita stilleri
+   - Tepe gölgeleri ve 3B arazi görünümü
+   - Daha gelişmiş OpenStreetMap düzenleyicisi
+   - Daha iyi çevrimdışı adres arama, rota ve navigasyon
    - … ve isteyeceğin ve seveceğin [diğer birçok][github issues] özellik
 
 ## Nasıl bağış yapabilirim?
@@ -59,7 +61,7 @@ Lütfen toplam ücretleri azaltmak için yıllık bağış yapmayı düşün.
 
 {{ crypto_table() }}
 
-## Sana başka bir şekilde yardımcı olabilir miyim?
+## Bize başka bir şekilde yardım edebilir misin?
 
 Evet! Organic Maps'i desteklemenin birçok yolu var. Daha fazla detay için lütfen [Bizi Destekle](@/contribute/index.tr.md) sayfasına bak.
 

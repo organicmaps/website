@@ -21,7 +21,7 @@ weight: 1000
 
 راجع أيضًا ملف [data / copyright.html][copyright] للحصول على قائمة كاملة بإشعارات حقوق النشر الخاصة بتطبيق Organic Maps.
 
-إذا كانت لديك أي أسئلة أو اقتراحات، يرجى التواصل معنا على [legal@organicmaps.app (mailto:legal@organicmaps.app).
+إذا كانت لديك أي أسئلة أو اقتراحات، يرجى التواصل معنا على [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 [github]: https://github.com/organicmaps/organicmaps/issues
 [license]: http://www.apache.org/licenses/LICENSE-2.0

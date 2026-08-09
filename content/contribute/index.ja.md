@@ -15,7 +15,7 @@ Organic Maps は無料のオープンソースアプリです。広告がなく�
 - [GitHub][github] または [メール][email] でバグを報告し、アイデアを共有する。
 - 開発者であれば、[バグ修正][contributing] とコードレビューを支援する。小さな問題を1つ修正するごとに、誰かが幸せになります。
 - アプリのインターフェースで [翻訳][translations] が足りない部分を翻訳する。
-- アプリの説明文をあなたの言語に [翻訳][translations_appstore] ([App Store][translations_appstore] / [Android][translations_googleplay]) する。
+- [App Store][translations_appstore] と [Android][translations_googleplay] の説明文をあなたの言語に翻訳する。
 - 私たちの [ウェブサイト][translations_website] をあなたの言語に翻訳する。
 - [OpenStreetMap][openstreetmap] コミュニティに参加し、地図データに貢献する。
 - [公共交通バリデーター][public_transport_validator] で見つかった赤い都市を修正し、アプリ内の地下鉄とライトレールが機能するようにする。

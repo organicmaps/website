@@ -52,7 +52,7 @@ Organic Maps हमारे योगदानकर्ताओं, [आपक
 - स्थान जानकारी प्रीव्यू की ऊँचाई कम (Alexander Borsuk)
 - प्रीव्यू से उत्तर की ओर अज़ीमुथ कोण हटाया (नीले तीर पर टैप करें) (Alexander Borsuk)
 
-नवीनतम संस्करण प्राप्त करें: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
+नवीनतम Organic Maps संस्करण प्राप्त करें: [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid].
 
 बीटा परीक्षण में शामिल हों: [iOS][testflight] / [Android][firebase].
 

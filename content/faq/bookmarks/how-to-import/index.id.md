@@ -19,13 +19,10 @@ Kamu dapat mengimpor bookmark yang dikirim dari Organic Maps atau aplikasi pihak
 Untuk mengimpor satu file:
 
 1. Temukan file KML, KMZ, KMB, GPX, GeoJSON (JSON) bersama dengan bookmark yang dikirim melalui email, pesan instan, atau penyimpanan cloud, misalnya iCloud atau Google Drive.
-
 2. Ketuk sekali atau ketuk dan tahan file KML, KMZ, KMB, GPX, GeoJSON (JSON) dengan bookmark dan pilih Buka dengan Organic Maps (Android) atau “Impor dengan Organic Maps” (iOS) di jendela pop-up.
-
 3. Ini akan terbuka dengan Organic Maps dan kamu akan melihat 'Bookmark berhasil dimuat!'. Kamu dapat menemukannya di peta atau di layar Menu Bookmark.
 
 Mengimpor bookmark dan trek secara berkelompok juga dimungkinkan:
 
 1. Buka Organic Maps dan ketuk tombol bintang untuk membuka daftar penanda dan trek. Tekan tombol “Impor Bookmark dan Trek”.
-
 2. Pilih folder dengan file KML, KMZ, KMB, GPX, GeoJSON (JSON). Organic Maps akan memindainya termasuk subfolder dan mengimpor semua file yang didukung dengan bookmark dan trek. Kamu dapat memilih folder root untuk mencari di seluruh penyimpanan.

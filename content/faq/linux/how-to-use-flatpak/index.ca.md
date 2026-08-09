@@ -11,7 +11,7 @@ aliases:
   - /ca/faq/linux/how-to-use-flatpak/
 ---
 
-Per instal·lar OM a Linux amb flatpak, obriu el terminal i introduïu «flatpak install flathub app.organicmaps.desktop»
+Per instal·lar OM a Linux amb flatpak, obriu el terminal i introduïu `flatpak install flathub app.organicmaps.desktop`
 
 Un cop instal·lada l'aplicació, podeu utilitzar la roda de desplaçament del ratolí o els controls de la barra de menú dreta per ampliar l'àrea per la qual voleu navegar per descarregar mapes d'aquesta àrea. També podeu fer clic a la icona «descarrega» a la part inferior dreta. Un cop hàgiu baixat els mapes de les regions que us importen, l'aplicació hauria de funcionar fins i tot sense connexió a Internet. 
 

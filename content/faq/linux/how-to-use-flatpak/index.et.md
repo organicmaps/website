@@ -11,7 +11,7 @@ aliases:
   - /et/faq/linux/how-to-use-flatpak/
 ---
 
-OM-i installimiseks Linuxile koos flatpakiga ava terminal ja sisesta käsk „flatpak install flathub app.organicmaps.desktop“.
+OM-i installimiseks Linuxile koos flatpakiga ava terminal ja sisesta käsk `flatpak install flathub app.organicmaps.desktop`.
 
 Kui rakendus on installitud, saad selle piirkonna kaartide allalaadimiseks kasutada hiire kerimisratast või parempoolsel menüüribal olevaid juhtnuppe, et suumida piirkonda, kus soovid navigeerida. Samuti võid klõpsata paremas alanurgas ikooni „allalaadimine“. Kui oled sulle oluliste piirkondade kaardid alla laadinud, peaks rakendus töötama ka ilma Interneti-ühenduseta. 
 

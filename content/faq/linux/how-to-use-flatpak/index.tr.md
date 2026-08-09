@@ -11,7 +11,7 @@ aliases:
   - /tr/faq/linux/how-to-use-flatpak/
 ---
 
-OM'yi Linux'a flatpak ile kurmak için terminali aç ve 'flatpak install flathub app.organicmaps.desktop' yaz
+OM'yi Linux'a flatpak ile kurmak için terminali aç ve `flatpak install flathub app.organicmaps.desktop` yaz
 
 Uygulama yüklendikten sonra farenin kaydırma tekerleğini veya sağ menü çubuğundaki kontrolleri kullanarak gezinmek istediğin alanı yakınlaştırıp o bölgeye ait haritaları indirebilirsin. Ayrıca sağ alt kısımdaki "indir" simgesine de tıklayabilirsin. İlgilendiğin bölgelerin haritalarını indirdikten sonra uygulama internet bağlantısı olmasa bile çalışmalıdır. 
 

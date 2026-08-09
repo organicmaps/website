@@ -50,7 +50,7 @@ jobs:
             fail=1
           fi
           if ! python3 translate_check.py --syntax; then
-            echo "::error::emphasis markers that will not render — the raw ** or ~~ shows on the page"
+            echo "::error::markdown that will not render as intended (emphasis, references, list markers, homoglyphs)"
             fail=1
           fi
           anchor=$(grep -rnE '\{#[^}]*[^ -~][^}]*\}' content/ || true)

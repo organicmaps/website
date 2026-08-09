@@ -298,6 +298,65 @@ def _checkable(text: str) -> str:
     return re.sub(r"(?m)^\[[^\]]+\]:.*$", " ", text)  # reference definitions
 
 
+# Homoglyphs: a Cyrillic or Greek capital that is indistinguishable from its
+# Latin twin. The Greek homepage carried `Οrganic Maps` with an omicron, which
+# renders identically and matches nothing that searches for the brand.
+_HOMOGLYPHS = {"О": "O", "А": "A", "Е": "E", "Р": "P", "С": "C", "Т": "T",
+               "М": "M", "К": "K", "Х": "X", "В": "B", "Н": "H",
+               "Ο": "O", "Α": "A", "Ρ": "P", "Τ": "T", "Μ": "M", "Ε": "E",
+               "Κ": "K", "Χ": "X", "Β": "B", "Η": "H", "Ν": "N", "Ι": "I"}
+
+
+def syntax_faults(path: Path, text: str, shared_refs: set[str]) -> list[str]:
+    """Mechanical defects that need no English source to judge.
+
+    Everything here is decidable from the file alone (plus the shared
+    reference definitions), so it belongs in a commit hook rather than in the
+    translation comparison. Every one of these was a real defect in this
+    corpus, and each rendered as visibly broken output.
+    """
+    body, _ = strip_frontmatter(text)
+    out = [f"emphasis: {f}" for f in emphasis_faults(body)]
+
+    # A space between label and id stops a reference link parsing, exactly as
+    # it does for the inline form the grep guard already covers.
+    local = {m.lower() for m in re.findall(r"(?m)^\[([^\]]+)\]:", body)}
+    avail = local | ({s.lower() for s in shared_refs} if "references()" in text else set())
+    for m in re.finditer(r"\]\s+\[([^\]\n]+)\]", body):
+        if m.group(1).lower() in avail:
+            out.append(f"reference link with a space: {m.group(0)[:40]!r}")
+    for ref in re.findall(r"\]\[([^\]]+)\]", body):
+        if ref.lower() not in avail:
+            out.append(f"reference [{ref}] is never defined")
+
+    # A link that sends the reader to another language's page.
+    m = re.match(r".*\.([A-Za-z-]+)\.md$", path.name)
+    if m and m.group(1) != "md":
+        for tgt in re.findall(r"\(@/[^)]*index\.([A-Za-z-]+)\.md", body):
+            if tgt != m.group(1):
+                out.append(f"links to the {tgt} page from a {m.group(1)} page")
+
+    # List markers that markdown will not recognise, so the item renders as
+    # a paragraph: a non-ASCII digit, a missing space, an en dash.
+    for pat, why in (
+            (r"(?m)^[ \t]*[\u0660-\u0669\u06f0-\u06f9\u0966-\u096f\u0be6-\u0bef\u0c66-\u0c6f]+\.[ \t]",
+             "list marker written with non-ASCII digits"),
+            (r"(?m)^[ \t]*\d{1,2}\.(?=[^\s\d])", "list marker with no space after it"),
+            (r"(?m)^[ \t]*[\u2013\u2014][ \t]+\S", "en dash used as a list marker")):
+        for _ in re.finditer(pat, body):
+            out.append(why)
+
+    for bad, good in _HOMOGLYPHS.items():
+        for brand in BRANDS:
+            corrupt = brand.replace(good, bad, 1)
+            if corrupt != brand and corrupt in body:
+                out.append(f"{brand!r} written with a {bad!r} homoglyph")
+
+    if any(len(re.findall(r"\{\{", line)) > 1 for line in body.split("\n")):
+        out.append("two or more shortcodes share one line")
+    return out
+
+
 def emphasis_faults(body: str) -> list[str]:
     """Emphasis that CommonMark will not close, leaving the raw characters.
 
@@ -687,13 +746,16 @@ def main() -> None:
     if args.syntax is not None:
         paths = ([Path(p) for p in args.syntax] if args.syntax
                  else sorted(Path("content").rglob("*.md")))
+        refs = Path("templates/shortcodes/references.md")
+        shared = set(re.findall(r"(?m)^\[([^\]]+)\]:", refs.read_text(encoding="utf-8"))
+                     ) if refs.is_file() else set()
         bad = 0
         for path in paths:
-            body, _ = strip_frontmatter(path.read_text(encoding="utf-8"))
-            for fault in emphasis_faults(body):
+            text = path.read_text(encoding="utf-8")
+            for fault in syntax_faults(path, text, shared):
                 print(f"{path}: {fault}")
                 bad += 1
-        print(f"\n{bad} emphasis fault(s) in {len(paths)} file(s)")
+        print(f"\n{bad} syntax fault(s) in {len(paths)} file(s)")
         sys.exit(1 if bad else 0)
 
     if args.all:

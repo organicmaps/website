@@ -34,11 +34,13 @@ if [ -n "$spaced" ]; then
 fi
 
 # Heading anchors are identifiers; a translated one breaks every link to it.
-# Emphasis that will not close leaves the raw ** or ~~ on the page. Needs
-# paragraph-level logic, so it lives in translate_check rather than a grep.
+# Mechanical defects decidable from the file alone: emphasis that will not
+# close, reference links that resolve to nothing, list markers markdown does
+# not recognise, homoglyphs in a brand name, cross-language links. Needs
+# more than a grep, so it lives in translate_check.
 emph=$(echo "$staged_md" | xargs python3 translate_check.py --syntax 2>/dev/null | grep -v '^$\|fault(s) in' || true)
 if [ -n "$emph" ]; then
-  echo "error: emphasis markers that will not render:"
+  echo "error: markdown that will not render as intended:"
   echo "$emph" | sed 's/^/    /'
   exit 1
 fi

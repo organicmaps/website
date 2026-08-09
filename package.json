@@ -18,11 +18,10 @@
     "stylelint-scss": "^6.12.1"
   },
   "scripts": {
-    "check": "python3 translate_check.py --all --errors-only",
-    "check:all": "python3 translate_check.py --all",
+    "check": "python3 tools/translate_check.py --all --errors-only",
+    "check:all": "python3 tools/translate_check.py --all",
     "format": "stylelint --fix ./sass/*.scss && prettier --write \"*.md\" \"content/**/*.md\" && js-beautify -r templates/base.html",
     "hooks:install": "git config core.hooksPath .githooks",
-    "news": "node update_news.js",
     "test": "python3 tmp/test_tooling.py && python3 tmp/test_xml_roundtrip.py",
     "upgrade": "npx npm-check-updates -u && npm install"
   },

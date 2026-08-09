@@ -3,9 +3,9 @@
 Post localized markdown content with optional media to multiple Telegram groups.
 
 Usage:
-    python telegram_post_all.py <path_to_content_folder> [--dry-run] [--yes]
-    python telegram_post_all.py <folder> --only @OrganicMapsRu,de,zh-Hans
-    python telegram_post_all.py <folder> --skip ru
+    python3 tools/telegram_post_all.py <path_to_content_folder> [--dry-run] [--yes]
+    python3 tools/telegram_post_all.py <folder> --only @OrganicMapsRu,de,zh-Hans
+    python3 tools/telegram_post_all.py <folder> --skip ru
 
 The folder should contain markdown files like index.ru.md, index.fr.md, etc.
 and optionally media files (images/videos/audio) to attach to every post.
@@ -123,7 +123,7 @@ def find_media(folder: Path) -> list[Path]:
     return media
 
 
-def prepare_text(md_path: Path, script_dir: Path) -> str:
+def prepare_text(md_path: Path, site_root: Path) -> str:
     """Read markdown file, strip frontmatter, resolve references, clean up."""
     raw = md_path.read_text(encoding="utf-8")
 
@@ -143,12 +143,12 @@ def prepare_text(md_path: Path, script_dir: Path) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text)
 
     # Resolve markdown reference-style links
-    refs = load_references(script_dir)
+    refs = load_references(site_root)
     text = resolve_references(text, refs)
 
     # Resolve Zola @/-style internal references → absolute site URLs.
-    base_url = load_base_url(script_dir)
-    text, zola_unresolved = resolve_zola_references(text, script_dir, base_url)
+    base_url = load_base_url(site_root)
+    text, zola_unresolved = resolve_zola_references(text, site_root, base_url)
     if zola_unresolved:
         print(
             f"Warning: {md_path.name} has "
@@ -204,7 +204,8 @@ def main() -> None:
         print("Error: no channels left after --only/--skip.", file=sys.stderr)
         sys.exit(1)
 
-    script_dir = Path(__file__).resolve().parent
+    # tools/ lives one level below the site root
+    site_root = Path(__file__).resolve().parent.parent
 
     # Discover media files
     media = find_media(args.folder)
@@ -222,7 +223,7 @@ def main() -> None:
     for group, filename in groups.items():
         md_path = args.folder / filename
         if md_path.is_file():
-            tasks.append((group, md_path, prepare_text(md_path, script_dir)))
+            tasks.append((group, md_path, prepare_text(md_path, site_root)))
 
     if not tasks:
         print("No matching markdown files found in the folder.", file=sys.stderr)

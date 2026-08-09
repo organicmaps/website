@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 from xml.etree import ElementTree
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 from markdown_xml import to_xml, from_xml  # noqa: E402
 from markdown_frontmatter import strip_frontmatter  # noqa: E402
 

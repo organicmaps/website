@@ -12,6 +12,10 @@ Run `npm i && npm run format` when you want to pretty-format the Markdown and SC
 
 Upgrade npm dependencies with `npm run upgrade`, make sure that you have installed `npm-check-updates` package.
 
+The translation and publishing scripts live in [`tools/`](tools/) and are meant to be run from the repository root,
+e.g. `python3 tools/translate_check.py --all`. Install their Python dependencies with
+`pip install -r tools/requirements-telegram.txt`.
+
 ## Deployment
 
 Every PR deploys a preview version of the site at unique url.

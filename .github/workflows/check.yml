@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install --quiet -r requirements-telegram.txt
+        run: pip install --quiet -r tools/requirements-telegram.txt
 
       - name: Translation and publishing tool tests
         run: npm test
@@ -52,7 +52,7 @@ jobs:
             echo "$spaced"
             fail=1
           fi
-          if ! python3 translate_check.py --syntax; then
+          if ! python3 tools/translate_check.py --syntax; then
             echo "::error::markdown that will not render as intended (emphasis, references, list markers, homoglyphs)"
             fail=1
           fi
@@ -70,4 +70,4 @@ jobs:
       # section in CLAUDE.md), so failing here would block every PR.
       - name: Translation checks (report only)
         continue-on-error: true
-        run: python3 translate_check.py --all --errors-only
+        run: python3 tools/translate_check.py --all --errors-only

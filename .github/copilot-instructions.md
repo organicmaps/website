@@ -71,9 +71,23 @@ npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
 ```
 
-Install Python dependencies from `requirements-check.txt` for translation
-checks, or `requirements-telegram.txt` (which includes the check dependencies)
+Install Python dependencies from `tools/requirements-check.txt` for translation
+checks, or `tools/requirements-telegram.txt` (which includes the check dependencies)
 for Telegram publishing and the complete test suite.
+
+### Where the tooling lives
+
+Every helper script is in `tools/`, and they are **run from the repository
+root** — `python3 tools/translate_check.py --all`, not `cd tools`. Each one
+locates the corpus from its own file position rather than from the working
+directory, so a sweep launched from elsewhere still reads the whole site
+instead of quietly finding nothing; but the paths you pass in, and the paths
+they print, are relative to the root.
+
+The modules import each other by bare name (`from translate_check import …`),
+which works because `tools/` is on `sys.path` whenever one of them is the
+script being run. Anything outside `tools/` that imports them — the commit
+hook, the test suite — adds `tools/` to `sys.path` explicitly.
 
 ### Adding Content
 
@@ -103,7 +117,7 @@ for Telegram publishing and the complete test suite.
    taxonomies:
      news: ["Releases"] # or ["Press"] for external links
    ```
-3. **CRITICAL**: Run `./fix_news_translations.sh` after adding translated news files
+3. **CRITICAL**: Run `./tools/fix_news_translations.sh` after adding translated news files
    - Creates required `_index.XX.md` files for proper translation processing
 
 #### New Language
@@ -177,10 +191,10 @@ OpenGraph images auto-detected from `resource.extra.preview_image` or first asse
 `translate_md.py` translates any markdown file — with or without frontmatter — into the site's languages, preserving every link, list marker, attribution and shortcode. Use it for Telegram posts, site articles and release notes alike.
 
 ```bash
-python3 translate_md.py post.md --langs ru,de,fr
-python3 translate_md.py post.md --telegram -o tmp/tg-post/   # channel languages
-python3 translate_md.py content/news/2026-08-04/630/index.md --all
-python3 translate_md.py post.md --langs ru --dry-run         # cost, no API call
+python3 tools/translate_md.py post.md --langs ru,de,fr
+python3 tools/translate_md.py post.md --telegram -o tmp/tg-post/   # channel languages
+python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
+python3 tools/translate_md.py post.md --langs ru --dry-run         # cost, no API call
 ```
 
 It translates `title:` and `description:`, leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, informal register where DeepL supports it). **Output is a draft**: the slug and the informal register in `tr`/`uk`/`fa-IR` still need the proofreading pass.
@@ -192,7 +206,7 @@ Two behaviours worth knowing, both established by measurement:
 
 ## Keeping translations correct
 
-These are the invariants a translated markdown file must hold. Each one was broken somewhere in this repo and cost a repair pass; `translate_check.py` enforces most of them.
+These are the invariants a translated markdown file must hold. Each one was broken somewhere in this repo and cost a repair pass; `tools/translate_check.py` enforces most of them.
 
 **Identifiers are not prose. Never translate:**
 
@@ -232,7 +246,7 @@ counts `translate_check` compares against the unformatted English source. Run
 `npm run format` deliberately, as its own commit.
 
 CI (`.github/workflows/check.yml`) enforces the two syntax guards corpus-wide
-and runs `npm run check` (`translate_check.py --all`) as a report, alongside
+and runs `npm run check` (`tools/translate_check.py --all`) as a report, alongside
 the Zola build.
 
 ## Validating a translation
@@ -240,8 +254,8 @@ the Zola build.
 `translate_check.py` compares a translation against its English source and reports what broke. `translate_md.py` runs it automatically after each language and exits non-zero if anything is ERROR-level, so it can gate a publish step.
 
 ```bash
-python3 translate_check.py content/news/2026-08-04/630/   # whole folder
-python3 translate_check.py index.md index.ar.md ar        # one file
+python3 tools/translate_check.py content/news/2026-08-04/630/   # whole folder
+python3 tools/translate_check.py index.md index.ar.md ar        # one file
 ```
 
 ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, shortcodes), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
@@ -256,12 +270,12 @@ Calibrated against the 383 human-proofread translations of the 2026 posts: 380 p
 
 ## Terminology glossary
 
-`translation_glossary.tsv` is the source of truth for domain terminology in every language. It was mined from the site's own proofread translations (see `tmp/glossary_extract.py`) and is enforced automatically when translating with DeepL — it is what stops "bookmarks" becoming _закладки_ or "tracks" collapsing into "routes".
+`tools/translation_glossary.tsv` is the source of truth for domain terminology in every language. It was mined from the site's own proofread translations (see `tmp/glossary_extract.py`) and is enforced automatically when translating with DeepL — it is what stops "bookmarks" becoming _закладки_ or "tracks" collapsing into "routes".
 
 ```bash
-python3 deepl_glossary.py sync     # upload/refresh from the TSV
-python3 deepl_glossary.py check    # show what it changes, per language
-python3 deepl_glossary.py list     # what DeepL currently stores
+python3 tools/deepl_glossary.py sync     # upload/refresh from the TSV
+python3 tools/deepl_glossary.py check    # show what it changes, per language
+python3 tools/deepl_glossary.py list     # what DeepL currently stores
 ```
 
 From any translation script:

@@ -10,9 +10,9 @@ compares a translation against its English source and reports what broke.
     problems = check_translation(english_md, translated_md, "ar")
 
 Usage:
-    python3 translate_check.py source.md translated.md ar
-    python3 translate_check.py content/news/2026-07-23/620/     # whole folder
-    python3 translate_check.py <folder> --errors-only
+    python3 tools/translate_check.py source.md translated.md ar
+    python3 tools/translate_check.py content/news/2026-07-23/620/  # whole folder
+    python3 tools/translate_check.py <folder> --errors-only
 
 Exit code is 1 if any ERROR-level problem is found, 0 otherwise, so it can gate
 a publish step.
@@ -31,6 +31,19 @@ from markdown_frontmatter import strip_frontmatter
 from translate_md import QUOTE_FOR, register_ok
 
 ERROR, WARN = "ERROR", "warn"
+
+# The corpus is found relative to this file, not to the working directory, so
+# a sweep launched from anywhere reads the whole site instead of quietly
+# finding nothing and reporting success.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _display(path: Path) -> str:
+    """Repo-relative path for output, whatever directory we were run from."""
+    try:
+        return path.resolve().relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 @dataclass
@@ -784,10 +797,9 @@ def check_folder(folder: Path, errors_only: bool = False) -> int:
 
 def check_all(errors_only: bool = True) -> int:
     """Sweep every translated page that has an English sibling."""
-    import glob
     n = bad = 0
-    for f in sorted(glob.glob("content/**/*.md", recursive=True)):
-        p = Path(f)
+    for p in sorted((REPO_ROOT / "content").rglob("*.md")):
+        f = _display(p)
         m = re.search(r"\.([a-zA-Z-]+)\.md$", p.name)
         if not m:
             continue
@@ -838,10 +850,12 @@ def main() -> None:
             paths = [Path(path) for path in staged if path.endswith(".md")]
         else:
             paths = ([Path(p) for p in args.syntax] if args.syntax
-                     else sorted(Path("content").rglob("*.md")))
+                     else sorted((REPO_ROOT / "content").rglob("*.md")))
+        # git wants the repo-relative path; a direct read wants the real one.
         refs = Path("templates/shortcodes/references.md")
         refs_text = _index_text(refs) if args.cached else (
-            refs.read_text(encoding="utf-8") if refs.is_file() else None
+            (REPO_ROOT / refs).read_text(encoding="utf-8")
+            if (REPO_ROOT / refs).is_file() else None
         )
         shared = set(re.findall(r"(?m)^\[([^\]]+)\]:", refs_text or ""))
         bad = 0
@@ -852,11 +866,11 @@ def main() -> None:
                 else path.read_text(encoding="utf-8")
             )
             if contents is None:
-                print(f"{path}: unable to read staged blob")
+                print(f"{_display(path)}: unable to read staged blob")
                 bad += 1
                 continue
             for fault in syntax_faults(path, contents, shared):
-                print(f"{path}: {fault}")
+                print(f"{_display(path)}: {fault}")
                 bad += 1
         print(f"\n{bad} syntax fault(s) in {len(paths)} file(s)")
         sys.exit(1 if bad else 0)

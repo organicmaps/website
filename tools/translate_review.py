@@ -16,9 +16,9 @@ reported. A proofreader that breaks markdown is worse than none.
     fixed, note = review_translation(src_md, translated_md, "tr")
 
 Usage:
-    python3 translate_review.py source.md translated.md tr          # in place
-    python3 translate_review.py <folder>                            # every lang
-    python3 translate_review.py <folder> --langs tr,uk --dry-run
+    python3 tools/translate_review.py source.md translated.md tr          # in place
+    python3 tools/translate_review.py <folder>                            # every lang
+    python3 tools/translate_review.py <folder> --langs tr,uk --dry-run
 
 Requires the `claude` CLI on PATH.
 """

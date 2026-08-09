@@ -14,7 +14,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 try:
     from translate_check import check_translation, ERROR
 except Exception:                      # tooling missing: never block a commit

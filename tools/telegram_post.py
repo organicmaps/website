@@ -4,7 +4,7 @@ Publish formatted markdown text with optional images, videos, or audio to a
 Telegram group.
 
 Usage:
-    python telegram_post.py --group "@my_group" --text post.md [--media img1.jpg video.mp4 ...]
+    python3 tools/telegram_post.py --group "@my_group" --text post.md [--media img1.jpg video.mp4 ...]
 
 Environment:
     TELEGRAM_BOT_TOKEN - your bot token from @BotFather
@@ -77,7 +77,7 @@ BUILTIN_REFERENCES: dict[str, tuple[str, str]] = {
 }
 
 
-def load_references(script_dir: Path) -> dict[str, tuple[str, str]]:
+def load_references(site_root: Path) -> dict[str, tuple[str, str]]:
     """
     Load markdown reference definitions from templates/shortcodes/references.md
     relative to the script directory, merged with built-in references.
@@ -88,7 +88,7 @@ def load_references(script_dir: Path) -> dict[str, tuple[str, str]]:
     """
     refs: dict[str, tuple[str, str]] = dict(BUILTIN_REFERENCES)
 
-    ref_path = script_dir / "templates" / "shortcodes" / "references.md"
+    ref_path = site_root / "templates" / "shortcodes" / "references.md"
     if not ref_path.is_file():
         return refs
 
@@ -171,9 +171,9 @@ def resolve_references(text: str, refs: dict[str, tuple[str, str]]) -> str:
     return text
 
 
-def load_base_url(script_dir: Path) -> str:
+def load_base_url(site_root: Path) -> str:
     """Read the site's base_url from config.toml. Falls back to organicmaps.app."""
-    config_path = script_dir / "config.toml"
+    config_path = site_root / "config.toml"
     if config_path.is_file():
         for line in config_path.read_text(encoding="utf-8").splitlines():
             m = re.match(r'^\s*base_url\s*=\s*"([^"]+)"\s*$', line)
@@ -192,7 +192,7 @@ ZOLA_FILENAME_RE = re.compile(
 
 
 def _zola_target_url(
-    target: str, script_dir: Path, base_url: str
+    target: str, site_root: Path, base_url: str
 ) -> str | None:
     """
     Resolve a Zola @/-style path like "donate/index.ru.md" to a site URL.
@@ -202,7 +202,7 @@ def _zola_target_url(
     Returns None if the file can't be found.
     """
     target = target.lstrip("/")
-    file_path = script_dir / "content" / target
+    file_path = site_root / "content" / target
 
     parts = target.split("/")
     if not parts:
@@ -246,7 +246,7 @@ def _zola_target_url(
 
 
 def resolve_zola_references(
-    text: str, script_dir: Path, base_url: str
+    text: str, site_root: Path, base_url: str
 ) -> tuple[str, list[str]]:
     """
     Replace Zola @/-style internal references like
@@ -257,7 +257,7 @@ def resolve_zola_references(
 
     def repl(m: re.Match) -> str:
         target = m.group(1)
-        url = _zola_target_url(target, script_dir, base_url)
+        url = _zola_target_url(target, site_root, base_url)
         if url is None:
             unresolved.append(target)
             return m.group(0)
@@ -1135,15 +1135,16 @@ def main():
     text = re.sub(r"\n{3,}", "\n\n", text)
 
     # Resolve markdown reference-style links
-    script_dir = Path(__file__).resolve().parent
-    refs = load_references(script_dir)
+    # tools/ lives one level below the site root
+    site_root = Path(__file__).resolve().parent.parent
+    refs = load_references(site_root)
     text = resolve_references(text, refs)
     if refs:
         print(f"Loaded {len(refs)} reference(s) from references.md")
 
     # Resolve Zola @/-style internal references → absolute site URLs.
-    base_url = load_base_url(script_dir)
-    text, zola_unresolved = resolve_zola_references(text, script_dir, base_url)
+    base_url = load_base_url(site_root)
+    text, zola_unresolved = resolve_zola_references(text, site_root, base_url)
     if zola_unresolved:
         print(
             f"\nWarning: {len(zola_unresolved)} Zola @/-reference(s) could not be resolved:",

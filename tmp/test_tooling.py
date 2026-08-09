@@ -10,7 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
 from telegram_post import (  # noqa: E402
@@ -46,7 +46,8 @@ sys.meta_path.insert(0, Block())
 import translate_check, translate_md
 """
         result = subprocess.run(
-            [sys.executable, "-c", code], cwd=ROOT, capture_output=True, text=True
+            [sys.executable, "-c", code], cwd=ROOT / "tools",
+            capture_output=True, text=True,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
 
@@ -208,7 +209,7 @@ class StagedHookTests(unittest.TestCase):
             self.run_git(folder, "add", "sample.md")
             sample.write_text("[good](https://example.com)\n", encoding="utf-8")
             syntax = subprocess.run(
-                [sys.executable, str(ROOT / "translate_check.py"),
+                [sys.executable, str(ROOT / "tools/translate_check.py"),
                  "--cached", "--syntax", "sample.md"],
                 cwd=folder, capture_output=True, text=True,
             )

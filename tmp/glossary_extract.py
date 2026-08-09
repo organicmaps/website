@@ -19,7 +19,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 from telegram_post import strip_frontmatter  # noqa: E402
 
 # Languages whose scripts have no spaces — score character n-grams instead.

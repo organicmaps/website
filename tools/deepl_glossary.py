@@ -14,12 +14,12 @@ covers every language at once. Its ID works in ordinary v2 /translate calls;
 DeepL picks the dictionary matching the request's target_lang.
 
 Usage:
-    python3 deepl_glossary.py sync            # build/refresh the glossary
-    python3 deepl_glossary.py sync ru de      # only these languages
-    python3 deepl_glossary.py list            # what DeepL currently holds
-    python3 deepl_glossary.py check           # verify it changes output
-    python3 deepl_glossary.py probe           # find unsupported languages
-    python3 deepl_glossary.py clean           # delete it
+    python3 tools/deepl_glossary.py sync            # build/refresh the glossary
+    python3 tools/deepl_glossary.py sync ru de      # only these languages
+    python3 tools/deepl_glossary.py list            # what DeepL currently holds
+    python3 tools/deepl_glossary.py check           # verify it changes output
+    python3 tools/deepl_glossary.py probe           # find unsupported languages
+    python3 tools/deepl_glossary.py clean           # delete it
 
 From another script:
     from deepl_glossary import get_glossary_id
@@ -188,7 +188,7 @@ def get_glossary_id(site_lang: str) -> str | None:
     """Glossary ID to use for a site language, or None if it has no dictionary.
 
     Callers should treat None as "translate without a glossary", not an error.
-    Run `deepl_glossary.py sync` to populate the cache.
+    Run `tools/deepl_glossary.py sync` to populate the cache.
     """
     cache = load_cache()
     if site_lang in cache.get("languages", []):
@@ -336,13 +336,13 @@ def sync(langs: list[str] | None = None) -> None:
         if "Quota" in err or "Too many" in err:
             print(
                 "\nThe DeepL Free plan stores only one glossary and another one "
-                "is occupying the slot. Run 'deepl_glossary.py list' to see it.",
+                "is occupying the slot. Run 'tools/deepl_glossary.py list' to see it.",
                 file=sys.stderr,
             )
         else:
             print(
                 "\nOne of the dictionaries may use an unsupported language. "
-                "Run 'deepl_glossary.py probe' to find which.",
+                "Run 'tools/deepl_glossary.py probe' to find which.",
                 file=sys.stderr,
             )
         sys.exit(1)
@@ -391,7 +391,7 @@ def cmd_list() -> None:
         sys.exit(1)
     gs = listed.get("glossaries", [])
     if not gs:
-        print("No glossaries stored. Run: deepl_glossary.py sync")
+        print("No glossaries stored. Run: tools/deepl_glossary.py sync")
         return
     for g in gs:
         mine = " (ours)" if g.get("name") == GLOSSARY_NAME else ""
@@ -406,7 +406,7 @@ def cmd_probe() -> None:
     terms = load_terms()
     existing = find_ours()
     if existing:
-        print("Delete the current glossary first: deepl_glossary.py clean",
+        print("Delete the current glossary first: tools/deepl_glossary.py clean",
               file=sys.stderr)
         sys.exit(1)
 
@@ -432,7 +432,7 @@ def cmd_check(langs: list[str] | None = None) -> None:
     cache = load_cache()
     gid = cache.get("glossary_id")
     if not gid:
-        print("No glossary cached. Run: deepl_glossary.py sync")
+        print("No glossary cached. Run: tools/deepl_glossary.py sync")
         return
     terms = load_terms()
     probe = "Bookmarks and tracks can now be edited on the route screen."

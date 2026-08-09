@@ -10,10 +10,10 @@ Works on any markdown — a Telegram post with no frontmatter, a site article, a
 monthly release note — so the same tool serves all of them.
 
 Usage:
-    python3 translate_md.py post.md --langs ru,de,fr
-    python3 translate_md.py post.md --telegram -o tmp/tg-post/
-    python3 translate_md.py content/news/2026-08-04/630/index.md --all
-    python3 translate_md.py post.md --langs ru --dry-run
+    python3 tools/translate_md.py post.md --langs ru,de,fr
+    python3 tools/translate_md.py post.md --telegram -o tmp/tg-post/
+    python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
+    python3 tools/translate_md.py post.md --langs ru --dry-run
 
 Options:
     --langs a,b,c   explicit language list
@@ -42,7 +42,7 @@ from deepl_glossary import (
 )
 from markdown_frontmatter import strip_frontmatter
 
-SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parent.parent  # tools/ sits below it
 BATCH = 45  # DeepL accepts 50 text params per request
 
 # DeepL supports a formality preference for these targets only; the rest need
@@ -239,7 +239,7 @@ QUOTE_FOR = {lang: pair for pair, langs in QUOTES.items() for lang in langs}
 
 def site_languages() -> list[str]:
     """Language codes configured in config.toml."""
-    cfg = SCRIPT_DIR / "config.toml"
+    cfg = REPO_ROOT / "config.toml"
     if not cfg.is_file():
         return []
     return re.findall(r"^\[languages\.([A-Za-z-]+)\]",
@@ -346,7 +346,7 @@ def localize_zola_links(text: str, lang: str) -> str:
         if re.search(r"\.[a-zA-Z-]+\.md$", target):
             return m.group(0)  # already localized
         candidate = target[:-3] + f".{lang}.md"
-        if (SCRIPT_DIR / "content" / candidate).is_file():
+        if (REPO_ROOT / "content" / candidate).is_file():
             return f"@/{candidate}"
         return m.group(0)
 
@@ -564,7 +564,7 @@ def main() -> None:
     if blocked:
         print(f"\n{len(blocked)} translation(s) have ERRORS and should not be "
               f"published as-is: {', '.join(blocked)}", file=sys.stderr)
-        print(f"Inspect with: translate_check.py {args.source} "
+        print(f"Inspect with: tools/translate_check.py {args.source} "
               f"{out_dir}/{stem}.<lang>.md <lang>", file=sys.stderr)
     if failures:
         print(f"Failed: {', '.join(failures)}", file=sys.stderr)

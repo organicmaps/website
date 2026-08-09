@@ -27,7 +27,7 @@ fail=0
 # --- syntax guards, against the staged blobs ------------------------------
 # Includes spaced links, translated anchors, broken emphasis, undefined
 # references, malformed list markers, homoglyphs and cross-language links.
-syntax=$(python3 translate_check.py --cached --syntax $staged_md 2>/dev/null | grep -v '^$\|fault(s) in' || true)
+syntax=$(python3 "$(dirname "$0")/../tools/translate_check.py" --cached --syntax $staged_md 2>/dev/null | grep -v '^$\|fault(s) in' || true)
 if [ -n "$syntax" ]; then
   echo "error: markdown that will not render as intended:"
   echo "$syntax" | sed 's/^/    /'

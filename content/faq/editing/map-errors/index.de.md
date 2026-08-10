@@ -1,7 +1,7 @@
 ---
 title: Auf der Karte fehlen Orte oder haben falsche Namen
 slug: auf-der-karte-fehlen-orte-oder-haben-falsche-namen
-description: ""
+description: "Tipps zum Korrigieren von Fehlern in Karten sowie zum Vornehmen von Änderungen und Aktualisierungen an Objekten direkt in Organic Maps oder über OpenStreetMap.org"
 updated: "2025-12-31"
 
 taxonomies:

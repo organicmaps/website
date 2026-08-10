@@ -6,10 +6,10 @@ taxonomies:
   news: ["beta"]
 ---
 
-Obteniu l'última beta de Organic Maps a <https://beta.omaps.org/> o [descarregueu l'APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
+Obtén l'última beta de Organic Maps a <https://beta.omaps.org/> o [descarrega l'APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - Dades del mapa OSM a data del 12 de juny
-- NOU! Imatges de fons de satèl·lit opcionals (cerqueu «Tessel·les del mapa» a la configuració d'OM)
+- NOU! Imatges de fons de satèl·lit opcionals (cerca «Tessel·les del mapa» a la configuració d'OM)
 - NOU! Rutes de transport públic amb metro, tren lleuger, autobús i tramvia
 - NOU! La ruta més curta com a alternativa a la ruta més ràpida
 - NOU! Avisos de ruta al mapa per a escales, portes i barreres de pas elevables

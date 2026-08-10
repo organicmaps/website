@@ -15,23 +15,23 @@ aliases:
 
 Organic Maps-ek mapa editatzeko erabil dezakezun editore sinple eta erabilerraza dakar. Editorea, ordea, mugatua da eta puntu-funtzio sinpleak gehitzeko aukera ematen du, horrek esan nahi du ez dela eraikinen eskemarik, errepiderik, aintzirarik, herririk, etab. Eraikitutako editorearekin editatu ezin den zerbait aldatu nahi baduzu, hau da irakurtzeko FAQ orri egokia.
 
-Organic Maps-en erabiltzen diren mapa-datu guztiak [OpenStreetMap.org (OSM)](https://www.openstreetmap.org)-tik datozenez), zuzenean egunera dezakezu mapa bertan. Ondoren, zure aldaketak Map organikoetan sartuko dira hurrengo mapa eguneratzean.
+Organic Maps-en erabiltzen diren mapa-datu guztiak [OpenStreetMap.org (OSM)](https://www.openstreetmap.org)-tik datozenez), zuzenean egunera dezakezu mapa bertan. Ondoren, zure aldaketak Organic Maps-en sartuko dira hurrengo mapa eguneratzean.
 
 ## OpenStreetMap editoreak
 
-OSM editatzeko, hainbat aukera daude. Eskuartean ordenagailu eramangarri bat edo mahaigaineko ordenagailu bat baduzu, hobe da zure arakatzailean exekutatzen den [ID editorea](https://www.openstreetmap.org/edit) erabiltzea. ID editorea erraza da hasiberrientzat, eta pantaila, sagua eta teklatu handiagoak mapak editatzea errazten du.
+OSM editatzeko, hainbat aukera daude. Eskuartean ordenagailu eramangarri bat edo mahaigaineko ordenagailu bat baduzu, hobe da zure arakatzailean exekutatzen den [ID Editor](https://www.openstreetmap.org/edit) erabiltzea. ID Editor erraza da hasiberrientzat, eta pantaila, sagua eta teklatu handiagoak mapak editatzea errazten du.
 
-Gailu mugikor batetik mapak editatzeko, erabili [Go Map](https://apps.apple.com/us/app/go-map/id592990211) iOSerako edo [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) Androiderako. Go Map erraza da hasiberrientzat, Vespucci erabiltzaile aurreratuagoentzat zuzenduta dagoen bitartean. LearnOSM-k [Go Map] (https://learnosm.org/en/mobile-mapping/gomap/) eta [Vespucci] (https://learnosm.org/en/mobile-mapping/vespucci/) tutorialak eskaintzen ditu.
+Gailu mugikor batetik mapak editatzeko, erabili [Go Map](https://apps.apple.com/us/app/go-map/id592990211) iOSerako edo [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) Androiderako. Go Map erraza da hasiberrientzat, Vespucci erabiltzaile aurreratuagoentzat zuzenduta dagoen bitartean. LearnOSM-k [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) eta [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/) tutorialak eskaintzen ditu.
 
 Dibertigarriagoa eta errazagoa den edizioetarako, [Every Door aplikazioa](https://every-door.app/) iOS eta Androiderako eta [StreetComplete aplikazioa](https://streetcomplete.app/) Androiderako ere proba dezakezu.
 
-#### ID editorea
+#### ID Editor
 
 OpenStreetMap IDarekin editatzeko, jarraitu urrats hauek:
 
 1. Sortu kontu berri bat edo hasi saioa [OpenStreetMap.org](https://www.openstreetmap.org) helbidean
 2. Arakatu editatu nahi duzun kokapenera OpenStreetMap.org-en eta egin klik goian *Editatu*.
-3. *Hasi Ibilbidea* eta jarraitu ID Editorea azaltzen duen tutorial laburra
+3. *Hasi Ibilbidea* eta jarraitu ID Editor azaltzen duen tutorial laburra
 4. Editatu mapa
 5. Kargatu zure aldaketak
 
@@ -54,8 +54,8 @@ OpenStreetMap datu-baseak nodoak, bideak, eremuak eta harremanak bezalako objekt
 Honek baino konplikatuagoa dirudienez adibide bat jarriko dugu:
 Jatetxe bat adibidez. `amenity=restaurant` etiketa duen Ohar edo Eremu gisa mapatua. Ondoren, `cuisine=*` edo `opening_hours=*` bezalako etiketa gehiago erabil daitezke xehetasun gehiago lortzeko.
 
-> Kontuan izan ID editoreak barneko datuen egitura ezkutatzen diela erabiltzaileei, hasiberrientzako atseginagoa izan dadin. Baina Wikiaren dokumentazioa irakurtzeko lagungarria da datuen egituraren ikuspegi laburra ematea.
-ID editorean, ID ezkutatzen dizun etiketak ikus ditzakezu *Etiketak* atala zabalduz *Editatu eginbidea* alboko panelean.
+> Kontuan izan ID editor-ek barneko datuen egitura ezkutatzen diela erabiltzaileei, hasiberrientzako atseginagoa izan dadin. Baina Wikiaren dokumentazioa irakurtzeko lagungarria da datuen egituraren ikuspegi laburra ematea.
+ID Editor-ean, ID ezkutatzen dizun etiketak ikus ditzakezu *Etiketak* atala zabalduz *Editatu eginbidea* alboko panelean.
 
 ## OSM oharrak {#osm-note}
 

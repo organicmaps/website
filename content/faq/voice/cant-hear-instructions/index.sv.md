@@ -16,7 +16,7 @@ aliases:
 
 Om du inte kan höra röstinstruktioner:
 
-* Se till att enhetens volym inte är avstängd. Du kan ändra volymnivån med enhetens volymknappar. För att göra det kan du behöva inaktivera alternativet "Ändra med knappar" (om aktiverat) i enhetsinställningarna → Ljud.
+* Se till att enhetens volym inte är avstängd. Du kan ändra volymnivån med enhetens volymknappar. För att göra det kan du behöva inaktivera alternativet “Ändra med knappar” (om aktiverat) i enhetsinställningarna → Ljud.
 
 * Rapportera eventuella Bluetooth-problem med nödvändig information på vår [GitHub](https://github.com/organicmaps/organicmaps/issues)
 

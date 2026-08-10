@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-با تشکر از مشارکت‌کنندگان ما، **جمعه زمان خوبی برای به‌روزرسانی Organic Maps است!** به‌روزرسانی را از [https://get.omaps.org](https://get.omaps.org) یا در [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] دریافت کن.
+با تشکر از مشارکت‌کنندگان ما، **جمعه زمان خوبی برای به‌روزرسانی Organic Maps است!** به‌روزرسانی را از [https://get.omaps.org](https://get.omaps.org) یا در [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent]، و [F-Droid][fdroid] دریافت کنید.
 
 اگر می‌خواهی **برنامه‌های حمل‌ونقل عمومی در زمان واقعی** شهر خود را در یکی از به‌روزرسانی‌های آینده ببینی، لطفاً:
 
-1. **فیدهای GTFS استاتیک و در زمان واقعی** آژانس‌های حمل‌ونقل محلی خود را برای ما [ارسال کن](https://github.com/organicmaps/gtfs-osm-matcher/issues) تا بتوانیم آنها را آزمایش و ادغام کنیم.
-2. بررسی کن که آیا **داده‌های OpenStreetMap** در منطقهٔ تو شامل تمام ایستگاه‌های اتوبوس/تراموا/قطار با برچسب‌های لازم در [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) است یا خیر.
+1. **فیدهای GTFS استاتیک و در زمان واقعی** آژانس‌های حمل‌ونقل محلی خود را برای ما [ارسال کنید](https://github.com/organicmaps/gtfs-osm-matcher/issues) تا بتوانیم آنها را آزمایش و ادغام کنیم.
+2. بررسی کنید که آیا **داده‌های OpenStreetMap** در منطقهٔ شما شامل تمام ایستگاه‌های اتوبوس/تراموا/قطار با برچسب‌های لازم در [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) است یا خیر.
 
 ### یادداشت‌های انتشار
 
@@ -57,7 +57,7 @@ taxonomies:
 * به‌روزرسانی ترجمه‌ها از مشارکت‌کنندگان Weblate (Viktor Govako)
 
 
-برای آزمایش ویژگی‌های اولیه و گزارش مشکلات به آزمایش بتا بپیوند:
+برای آزمایش ویژگی‌های اولیه و گزارش مشکلات به آزمایش بتا بپیوندید:
 - [iOS][testflight]
 - [Android][firebase]
 

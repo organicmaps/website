@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps'in ağustos sürümünü yükleyin, en son haritaları indirin ve dünyanın dört bir yanındaki popüler yürüyüş ve bisiklet rotalarını keşfedin! Renkli bisiklet ve MTB rotalarının yanı sıra resmi yürüyüş ve yürüyüş yollarını görüntülemek için sol üstteki "Katmanlar" düğmesine basın. Yakınlarda hiçbir şey görmüyor musunuz? O zaman eksik bilgileri OpenStreetMap.org'a ekleme zamanı, çünkü Organic Maps'teki tüm harita verileri bu açık, ücretsiz ve topluluk odaklı projeden geliyor.
+Organic Maps'in ağustos sürümünü yükle, en son haritaları indir ve dünyanın dört bir yanındaki popüler yürüyüş ve bisiklet rotalarını keşfet! Renkli bisiklet ve MTB rotalarının yanı sıra resmi yürüyüş ve yürüyüş yollarını görüntülemek için sol üstteki "Katmanlar" düğmesine bas. Yakınlarda hiçbir şey görmüyor musun? O zaman eksik bilgileri OpenStreetMap.org'a ekleme zamanı, çünkü Organic Maps'teki tüm harita verileri bu açık, ücretsiz ve topluluk odaklı projeden geliyor.
 
-Haritadaki herhangi bir kaydedilmiş veya içe aktarılmış GPX/KML izinin seçilebileceğini biliyor muydunuz? Yükseklik verilerine sahip izler yükseklik grafiklerini gösterecektir.
+Haritadaki herhangi bir kaydedilmiş veya içe aktarılmış GPX/KML izinin seçilebileceğini biliyor muydun? Yükseklik verilerine sahip izler yükseklik grafiklerini gösterecektir.
 
-Haritada yer imi isimlerini görmek için Organic Maps ayarlarında bu yeni özelliği etkinleştirin.
+Haritada yer imi isimlerini görmek için Organic Maps ayarlarında bu yeni özelliği etkinleştir.
 
-Katkıda bulunanlarımız ❤️ ve [bağışlarınız](@/donate/index.tr.md) sayesinde bu güncellemede çok daha fazlası var.
+Katkıda bulunanlarımız ❤️ ve [bağışların](@/donate/index.tr.md) sayesinde bu güncellemede çok daha fazlası var.
 
-P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
+P.S. …ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmamıza yardımcı oluyor ve bizi motive ediyor – birlikte.
 
 ### Ayrıntılı Sürüm Notları
 
@@ -24,6 +24,7 @@ P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturma
 - Tarım ve orman yolları artık rotalamadan hariç tutuldu (Viktor Govako)
 
 #### iOS
+
 - Birkaç çökme çözüldü ve iCloud senkronizasyon kararlılığı iyileştirildi (Kiryl Kaveryn)
 - Yer imi listelerinde çok satırlı başlıklar tanıtıldı (David Martinez)
 - İz seçimini kaldırırken yakınlaştırma sorunu düzeltildi (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturma
 - Eksik çeviriler İngilizce alternatiflerle değiştirildi (Viktor Govako)
 
 #### Android
+
 - Haritaya iz yükseklik grafiği ve iz seçimi eklendi (Kavi Khalique)
 - Yeni eklenen ilgi noktası (POI) Organic Maps'te henüz desteklenmiyorsa OpenStreetMap notu bırak (hemanggs)
 - OpenGL ES 2.0 desteği OpenGL ES 3.0 lehine kaldırıldı (renderexpert)
 - Renk seçicide yer imi simgelerini göster (Andrei Shkrob)
 
 #### Stil ve Simge İyileştirmeleri
+
 - Yemek alanları için çatal ve bıçak simgesi (David Martinez)
 - Sulak alanlar yatay taramalarla işaretlendi (Viktor Govako)
 - Arama sonuçlarında ve yer imlerinde fast food ve bisiklet simgeleri (David Martinez)
@@ -48,11 +51,12 @@ P.S. ...ve çok daha fazlası geliyor! Desteğiniz en iyi haritaları oluşturma
 - Diplomatik ofisler için öncelik ayarları düzeltildi (Viktor Govako)
 
 #### Çeşitli İyileştirmeler
+
 - Arama kutusuna "cop" yazmak polis karakollarını bulur, "film" veya "movie theater" ise sinemaları bulur (theadventurer62)
 - Başka uygulamada aç artık seçilen noktayı Google Maps'te gösteriyor (Alexander Borsuk)
 - Daha fazla arama kategorisi için İspanyolca çeviri (David Martinez)
 - Çeşitli çeviriler güncellendi (Weblate katkıda bulunanları)
 
-Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [FDroid][fdroid]'den edinin.
+Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [FDroid][fdroid]'den edin.
 
 {{ references() }}

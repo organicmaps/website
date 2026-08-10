@@ -1,8 +1,7 @@
 ---
 title: Como criar uma rota e iniciar a navegação
 slug: como-criar-uma-rota-e-iniciar-a-navegação
-description: 
-updated: "2024-07-15"
+description: "Guia para criar uma rota e navegar usando o mapa"
 
 taxonomies:
   faq: ["mapa"]

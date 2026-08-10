@@ -24,8 +24,8 @@ Si quieres ver los **horarios de transporte público en tiempo real** de tu ciud
 * Mejorada la clasificación de resultados de búsqueda por categorías (Viktor Govako)
 * Añadida cocina uzbeka (alnzrv)
 * Añaditas tirolinas en el mapa (Rawdyrathaur)
-* Corregidos los enlaces de Wikimedia con "?" en el título (alnzrv)
-* Soporte para archivos GPX con "+" en las coordenadas (Alexander Borsuk)
+* Corregidos los enlaces de Wikimedia con «?» en el título (alnzrv)
+* Soporte para archivos GPX con «+» en las coordenadas (Alexander Borsuk)
 
 ### iOS
 

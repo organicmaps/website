@@ -27,6 +27,7 @@ Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/do
 - Aktualisierte Übersetzungen (Weblate-Mitwirkende)
 
 #### iOS
+
 - NEU! Neu gestaltete „Ort zu OpenStreetMap hinzufügen" und „Ort bearbeiten" Schaltflächen (Kiryl Kaveryn)
 - Springendes Fadenkreuz beim Hinzufügen eines neuen Ortes zu OpenStreetMap behoben (Kiryl Kaveryn)
 - Neue Symbole für Kartenebenen und Menü (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/do
 - Die Schaltfläche „Karten aktualisieren zum Beitragen" wird jetzt im Menü angezeigt, wenn Karten zu veraltet sind (Kiryl Kaveryn)
 
 #### Android
+
 - Neue Ebenensymbole (Andrei Shkrob, @euf)
 - Der Berührungsbereich für das Symbol zum Bearbeiten von Lesezeichen (Stift) ist jetzt größer (Kavi Khalique)
 - Absturz beim Speichern bestimmter Routen und seltenen Absturz beim Start behoben (Viktor Govako)
@@ -44,10 +46,10 @@ Wir sind dankbar ❤️ für unsere Mitwirkenden sowie für [deine Spenden](@/do
 - Ursprüngliche Reihenfolge der vordefinierten Lesezeichen-/Spurfarben wiederhergestellt (Andrei Shkrob)
 - Schaltfläche „Suche löschen" beim Bearbeiten von Küchen behoben (Ansh Jain)
 
-Holen Sie sich die neueste September-Version von Organic Maps aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
+Hol dir die neueste September-Version von Organic Maps aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid].
 
-Falls Sie es noch nicht ausprobiert haben, können Sie jetzt eine Funktion in den Organic Maps-Einstellungen aktivieren, um Lesezeichennamen auf der Karte zu sehen. Außerdem wird jetzt ein Stift-Symbol ✎ als schnellere Methode zum Bearbeiten von Lesezeichen verwendet.
+Falls du es noch nicht ausprobiert hast, kannst du jetzt eine Funktion in den Organic Maps-Einstellungen aktivieren, um Lesezeichennamen auf der Karte zu sehen. Außerdem wird jetzt ein Stift-Symbol ✎ als schnellere Methode zum Bearbeiten von Lesezeichen verwendet.
 
-P.S. Vergessen Sie nicht, dass Sie sich für unser Beta-Testprogramm anmelden können, um frühen Zugang zu experimentellen und kommenden Funktionen zu erhalten – [für iOS][testflight] und [für Android][firebase].
+P.S. Vergiss nicht, dass du dich für unser Beta-Testprogramm anmelden kannst, um frühen Zugang zu experimentellen und kommenden Funktionen zu erhalten – [für iOS][testflight] und [für Android][firebase].
 
 {{ references() }}

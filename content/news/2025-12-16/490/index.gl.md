@@ -11,6 +11,7 @@ Bo Nadal e Feliz Aninovo de parte do equipo de Organic Maps. Buscas o espírito 
 Instala Organic Maps desde <https://omaps.app/get> ou desde a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid]
 
 ### Notas da versión
+
 - As árbores e os mercados de Nadal aparecen agora no mapa (Viktor Govako)
 - Os datos de OpenStreetMap están actualizados a 14 de decembro de 2025 (Viktor Govako)
 - Os límites e as etiquetas dos parques nacionais son menos prominentes no mapa do mundo (Viktor Govako)
@@ -20,6 +21,7 @@ Instala Organic Maps desde <https://omaps.app/get> ou desde a [App Store][appsto
 - Corrixíronse as indicacións de voz TTS das rotondas en croata (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Os resultados da busca mostran agora a capacidade de aparcamento mediante emojis (David Martinez)
 - Solucionouse un problema de CarPlay en iOS 12 (Kiryl Kaveryn)
 - Solucionáronse varios problemas visuais en iPhone e iPad (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Instala Organic Maps desde <https://omaps.app/get> ou desde a [App Store][appsto
 - Eliminouse a mensaxe de recordatorio das curvas de nivel ao iniciar a aplicación (Kiryl Kaveryn)
 
 ### Android
+
 - Os resultados da busca mostran agora a capacidade de aparcamento (Bicky Rawdyrathaur, David Martinez)
 - O sensor de localización do coche en Android Auto está desactivado para evitar problemas de localización (Andrei Shkrob)
 - A gravación da ruta continúa aínda que a aplicación se peche ou se deteña (Alexander Borsuk)

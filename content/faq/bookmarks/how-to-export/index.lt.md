@@ -1,8 +1,7 @@
 ---
 title: Kaip bendrinti (eksportuoti) žymes ir takelius?
 slug: kaip-bendrinti-eksportuoti-žymes-ir-takelius
-description: Žingsnis po žingsnio vadovas, kaip eksportuoti žymes ir takelius iš natūralių
-  žemėlapių į kitas programas ir bendrinti su kontaktais
+description: Žingsnis po žingsnio vadovas, kaip eksportuoti žymes ir takelius iš Organic Maps į kitas programas ir bendrinti su kontaktais
 updated: '2024-06-20'
 taxonomies:
   faq:

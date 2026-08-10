@@ -16,4 +16,6 @@ Necesitas polo menos iOS 12 ou Android 5 para executar a aplicación. Os disposi
 
 En Android, Organic Maps pode funcionar en dispositivos con servizos de Google instalados e sen soporte de Google.
 
+Os dispositivos Android deben soportar OpenGL ES 3.0 ou superior, ou a API Vulkan, para funcionar.
+
 Para usar OM con Android Auto, consulta os requisitos [aquí](../how-to-use-android-auto/).

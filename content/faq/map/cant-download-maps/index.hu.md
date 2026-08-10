@@ -13,6 +13,6 @@ aliases:
   - /hu/faq/map/cant-download-maps/
 ---
 
-A letöltés átmeneti hálózati hiba vagy meghatározott hálózati szolgáltató/router beállítások (tűzfalblokkolás) miatt meghiúsulhat. Kérjük, próbálja újra később, vagy használjon másik Wi-Fi hozzáférési pontot. Ezenkívül győződjön meg arról, hogy van elég szabad helye a térképek letöltéséhez.
+A letöltés átmeneti hálózati hiba vagy meghatározott hálózati szolgáltató/router beállítások (tűzfalblokkolás) miatt meghiúsulhat. Kérjük, próbáld újra később, vagy használj másik Wi-Fi hozzáférési pontot. Ezenkívül győződj meg arról, hogy van elég szabad helyed a térképek letöltéséhez.
 
-Továbbá, ha nagyon elavult térképei vannak, és az alkalmazás nem tudja frissíteni őket, akkor az elavult térképek törlése és újbóli letöltése segíthet.
+Továbbá, ha nagyon elavult térképeid vannak, és az alkalmazás nem tudja frissíteni őket, akkor az elavult térképek törlése és újbóli letöltése segíthet.

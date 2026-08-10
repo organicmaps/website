@@ -13,7 +13,7 @@ V červnové aktualizaci Organic Maps je k vyzkoušení spousta zajímavých nov
 - Nové rozhraní vyhledávání a plánování tras pro Android
 - Podpora velkých písem pro zpřístupnění v iOS
 
-Získej ji na adrese <https://get.omaps.org> nebo v obchodech [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid] a dej nám vědět, co si myslíš!
+Získejte ji na adrese <https://get.omaps.org> nebo v obchodech [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid] a dejte nám vědět, co si myslíte!
 
 ## Podrobný seznam změn
 
@@ -22,10 +22,10 @@ Získej ji na adrese <https://get.omaps.org> nebo v obchodech [App Store][appsto
 - NOVÉ! Upozornění na schody, brány a závory na pěších a cyklistických trasách _(Viktor Govako)_
 - NOVÉ! Pro záložky lze vybrat libovolnou barvu _(Alexander Borsuk, Mikhail Listratsenka)_
 - NOVÉ! Podpora souřadnicových systémů British National Grid (OS Grid), Irish Grid a Irish Transverse Mercator (ITM) _(Alexander Borsuk)_
-- EXPERIMENTÁLNÍ: Satelitní snímky zapneš v nastavení Organic Maps zadáním vlastní adresy URL serveru rastrových dlaždic. Na vlastním serveru stále pracujeme, proto prosím najdi veřejně dostupný server, jehož URL obsahuje zástupné symboly `{x}`, `{y}`, `{z}` _(Viktor Govako, renderexpert)_
+- EXPERIMENTÁLNÍ: Satelitní snímky zapnete v nastavení Organic Maps zadáním vlastní adresy URL serveru rastrových dlaždic. Na vlastním serveru stále pracujeme, proto prosím najděte veřejně dostupný server, jehož URL obsahuje zástupné symboly `{x}`, `{y}`, `{z}` _(Viktor Govako, renderexpert)_
 - Data OpenStreetMap aktualizována k 24. červnu _(Viktor Govako)_
 - Data Wikipedie aktualizována k 20. červnu, včetně článků v italštině _(Alexander Borsuk)_
-- Zadáním `?map-download-server:https://your-server.com/` do vyhledávacího okna přepíšeš servery Organic Maps pro stahování map. Zadáním `?no-map-download-server` toto přepsání odebereš _(Alexander Borsuk)_
+- Zadáním `?map-download-server:https://your-server.com/` do vyhledávacího okna přepíšete servery Organic Maps pro stahování map. Zadáním `?no-map-download-server` toto přepsání odeberete _(Alexander Borsuk)_
 
 #### Vykreslování mapy a styly
 
@@ -77,7 +77,7 @@ Získej ji na adrese <https://get.omaps.org> nebo v obchodech [App Store][appsto
 - Aktualizované německé a francouzské překlady _(Wuzzy, Alexander Borsuk)_
 - Opraveny nesprávné překlady hlasového pokynu „na ulici“ pro čínštinu, srbštinu a katalánštinu _(Alexander Borsuk)_
 
-## Zapoj se do beta testování, vyzkoušej si nové funkce v předstihu a nahlas problémy:
+## Zapojte se do beta testování, vyzkoušejte si nové funkce v předstihu a nahlaste problémy:
 
 - [iOS][testflight]
 - [Android][firebase]

@@ -1,7 +1,7 @@
 ---
 title: Die Suche kann einen Ort auf der Karte nicht finden
 slug: die-suche-kann-einen-ort-auf-der-karte-nicht-finden
-description: ""
+description: "Anleitung zur Verbesserung der Suchergebnisse und zur Behebung von Problemen beim Auffinden von Objekten auf der Karte"
 updated: "2025-12-31"
 
 taxonomies:

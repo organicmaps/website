@@ -20,22 +20,26 @@ Dank deiner [Spenden](@/donate/index.de.md) und deines [Feedbacks](@/contribute/
 ## Ausführliches Änderungsprotokoll
 
 ### Karte & Orte
+
 - OpenStreetMap-Daten mit Stand vom 14. Juli
 - Notizen, die an [OpenStreetMap](https://www.openstreetmap.org) gemeldet werden, werden nun genau an der von dir ausgewählten Stelle platziert und nicht mehr in der Mitte der gesamten Straße oder des gesamten Gebiets _(Alexander Borsuk)_
 - Verbesserte Ortsauswahl beim Antippen der Karte in Regionen, die den 180°-Antimeridian überqueren _(Viktor Govako)_
 - Höhenprofile von Tracks zeigen nach dem Löschen eines Tracks keine veralteten oder leeren Diagramme mehr an _(Kiryl Kaveryn)_
 
 ### Öffentliche Verkehrsmittel
+
 - Haltestellen-, Umsteige- und Bahnhofsnamen sind nun weiß umrandet, damit sie sowohl im hellen als auch im dunklen Design gut lesbar bleiben _(Viktor Govako)_
 - Die U-Bahn-Ebene wird wieder korrekt angezeigt, nachdem du die Vorschau einer Route mit öffentlichen Verkehrsmitteln geschlossen hast _(Mikhail Listratsenka)_
 
 ### Routenplanung und Navigation
+
 - Für alle Alternativrouten werden nun Routenhinweise (Maut, Fähren, unbefestigte Straßen, Stufen usw.) angezeigt _(Viktor Govako)_
 - Ein selten auftretendes Einfrieren beim Erstellen einer Route wurde behoben _(Viktor Govako)_
 - Verbesserte Behandlung von Sackgassen sowie von Start- und Endpunkten auf Straßen mit Verkehrsbeschränkungen _(Viktor Govako)_
 - Falsche und fehlende Abbiegehinweise wurden korrigiert _(Alexander Borsuk)_
 
 ### iOS
+
 - Neue Einstellung „Suchverlauf speichern“, mit der du den Verlauf deaktivieren und ausblenden kannst, falls du ihn lieber nicht behalten möchtest _(Kiryl Kaveryn)_
 - Neue Schaltfläche „Bearbeiten“ zum einfacheren Löschen von Lesezeichen _(Kiryl Kaveryn)_
 - Lesezeichen werden nun automatisch gespeichert, wenn du den Bildschirm verlässt _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Dank deiner [Spenden](@/donate/index.de.md) und deines [Feedbacks](@/contribute/
 - Weitere kleinere Verbesserungen an der Benutzeroberfläche _(Kiryl Kaveryn)_
 
 ### Android
+
 - Die Öffnungszeiten zeigen nun geteilte Schichten (z. B. eine Mittagspause), beginnen mit dem heutigen Tag und zeigen die ganze Woche ohne separaten Bildlaufbereich _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Eine übersichtlichere Suchleiste mit einer kombinierten Schaltfläche zum Löschen und zur Sprachsteuerung, einem Symbol zum Löschen, das sich nicht mehr verschiebt, sowie Layout-Korrekturen für Querformat und Drehung des Telefons _(Mikhail Listratsenka)_
 - Überarbeiteter Lesezeichen- und Track-Editor _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Dank deiner [Spenden](@/donate/index.de.md) und deines [Feedbacks](@/contribute/
 - Abstürze behoben _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Die Liste der zum Download verfügbaren Karten ist nun alphabetisch sortiert _(goncalo109560)_
 
 ### Übersetzungen
+
 - Verbesserter chinesischer Wortlaut _(Chenxi Zhao)_
 - Aktualisierte ukrainische Übersetzungen _(Nnifria)_
 - Die italienischen Übersetzungen der Namen der Kartenregionen wurden korrigiert _(Vittorio Bertola)_

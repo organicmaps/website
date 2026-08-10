@@ -27,4 +27,4 @@ Lub alternatywnie:
 1. Włącz rejestrowanie logów w ustawieniach aplikacji.
 2. Wymuś ponowne uruchomienie aplikacji.
 3. Zreprodukuje awarię.
-4. Wyślij nam plik logu za pomocą "Zgłoś błąd" na ekranie O aplikacji i dodaj krótki opis awarii.
+4. Wyślij nam plik logu za pomocą „Zgłoś błąd“ na ekranie O aplikacji i dodaj krótki opis awarii.

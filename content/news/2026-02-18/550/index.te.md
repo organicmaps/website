@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-మా కంట్రిబ్యూటర్లకు ధన్యవాదాలు, **Organic Maps‌ని అప్‌డేట్ చేయడానికి శుక్రవారం మంచి సమయం!** అప్‌డేట్‌ను [https://get.omaps.org](https://get.omaps.org) వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందు.
+మా కంట్రిబ్యూటర్లకు ధన్యవాదాలు, **Organic Maps‌ని అప్‌డేట్ చేయడానికి శుక్రవారం మంచి సమయం!** అప్‌డేట్‌ను [https://get.omaps.org](https://get.omaps.org) వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందండి.
 
-నువ్వు రాబోయే అప్‌డేట్‌లలో నీ నగరంలో **రియల్-టైమ్ పబ్లిక్ ట్రాన్స్‌పోర్ట్ షెడ్యూల్‌లను** చూడాలనుకుంటే, దయచేసి:
+మీరు రాబోయే అప్‌డేట్‌లలో మీ నగరంలో **రియల్-టైమ్ పబ్లిక్ ట్రాన్స్‌పోర్ట్ షెడ్యూల్‌లను** చూడాలనుకుంటే, దయచేసి:
 
-1. నీ స్థానిక రవాణా ఏజెన్సీల నుండి **స్టాటిక్ మరియు రియల్-టైమ్ GTFS ఫీడ్ సోర్స్‌లను** [మాకు పంపు](https://github.com/organicmaps/gtfs-osm-matcher/issues), తద్వారా మేము వాటిని పరీక్షించి ఇంటిగ్రేట్ చేయగలము.
-2. నీ ప్రాంతంలోని **OpenStreetMap డేటా**లో అన్ని బస్సు/ట్రామ్/రైలు స్టాప్‌లు అవసరమైన ట్యాగ్‌లతో ఉన్నాయో లేదో [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) వద్ద తనిఖీ చేయి.
+1. మీ స్థానిక రవాణా ఏజెన్సీల నుండి **స్టాటిక్ మరియు రియల్-టైమ్ GTFS ఫీడ్ సోర్స్‌లను** [మాకు పంపండి](https://github.com/organicmaps/gtfs-osm-matcher/issues), తద్వారా మేము వాటిని పరీక్షించి ఇంటిగ్రేట్ చేయగలము.
+2. మీ ప్రాంతంలోని **OpenStreetMap డేటా**లో అన్ని బస్సు/ట్రామ్/రైలు స్టాప్‌లు అవసరమైన ట్యాగ్‌లతో ఉన్నాయో లేదో [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) వద్ద తనిఖీ చేయండి.
 
 ### విడుదల నోట్స్
 
@@ -54,10 +54,10 @@ taxonomies:
 * రొమేనియన్ భాషలో దేశం అనువాదం సరిచేయబడింది (Eugen Dedu)
 * లావో మరియు అర్మేనియన్ అనువాదాలు జోడించబడ్డాయి (Viktor Govako)
 * తప్పిపోయిన అర్మేనియన్ అనువాదాలు జోడించబడ్డాయి (Alexander Borsuk)
-* వెబ్‌లేట్ కంట్రిబ్యూటర్ల నుండి అనువాదాలు నవీకరించబడ్డాయి (Viktor Govako)
+* Weblate కంట్రిబ్యూటర్ల నుండి అనువాదాలు నవీకరించబడ్డాయి (Viktor Govako)
 
 
-ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరు:
+ముందస్తు ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా టెస్టింగ్‌లో చేరండి:
 - [iOS][testflight]
 - [Android][firebase]
 

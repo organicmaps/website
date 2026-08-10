@@ -20,22 +20,26 @@ Zure [dohaintzei](@/donate/index.eu.md) eta [iradokizunei](@/contribute/index.eu
 ## Aldaketen erregistro xehea
 
 ### Mapa eta lekuak
+
 - OpenStreetMap datuak uztailaren 14koak dira
 - [OpenStreetMap](https://www.openstreetmap.org)-era bidalitako oharrak orain zuk hautatutako leku zehatzean jartzen dira, kale edo eremu osoaren erdian jarri beharrean _(Alexander Borsuk)_
 - 180°ko antimeridianoa zeharkatzen duten eskualdeetan mapan sakatzean lekuaren hautaketa hobetu da _(Viktor Govako)_
 - Track-en altuera-profilek ez dute jada grafiko zaharkiturik edo hutsik erakusten track bat ezabatu ondoren _(Kiryl Kaveryn)_
 
 ### Garraio publikoa
+
 - Orain geldialdien, transferentzien eta geltokien izenek ingerada zuria dute, gai argian nahiz ilunean irakurgarri izan daitezen _(Viktor Govako)_
 - Metroko geruza berriro behar bezala agertzen da garraio publikoaren ibilbidearen aurrebista itxi ondoren _(Mikhail Listratsenka)_
 
 ### Ibilbideak eta nabigazioa
+
 - Ibilbide alternatibo guztietarako ibilbide-oharrak (bidesariak, ferryak, asfaltatu gabeko errepideak, eskailerak eta abar) orain erakusten dira _(Viktor Govako)_
 - Ibilbide bat sortzean bakanka gertatzen zen izozte bat konpondu da _(Viktor Govako)_
 - Itsu-kaleen eta bide mugatuetako hasiera- eta amaiera-puntuen kudeaketa hobetua _(Viktor Govako)_
 - Txarto zeuden eta falta ziren bira-argibideak zuzendu dira _(Alexander Borsuk)_
 
 ### iOS
+
 - «Gorde bilaketa-historia» ezarpen berria, historia desgaitu eta ezkutatu ahal izateko, gorde nahi ez baduzu _(Kiryl Kaveryn)_
 - Laster-markak errazago kentzeko «Editatu» botoi berria _(Kiryl Kaveryn)_
 - Orain laster-markak automatikoki gordetzen dira pantailatik irteten zarenean _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Zure [dohaintzei](@/donate/index.eu.md) eta [iradokizunei](@/contribute/index.eu
 - Beste interfaze-hobekuntza txiki batzuk _(Kiryl Kaveryn)_
 
 ### Android
+
 - Ordutegiek orain txanda zatituak erakusten dituzte (hala nola bazkari-atsedena), gaurko egunetik hasita, eta aste osoa bistaratzen dute korritze-eremu bereizirik gabe _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Bilaketa-barra garbiagoa, garbitzeko eta ahots-bilaketarako botoiak bateratuta, mugitzen ez den garbitzeko ikono batekin, eta diseinu-zuzenketak paisaia modurako eta telefonoaren biraketarako _(Mikhail Listratsenka)_
 - Berritu da laster-marken eta track-en editorea _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Zure [dohaintzei](@/donate/index.eu.md) eta [iradokizunei](@/contribute/index.eu
 - Kraskadurak konpondu dira _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Deskargatzeko eskuragarri dauden mapen zerrenda orain alfabetikoki ordenatuta dago _(goncalo109560)_
 
 ### Itzulpenak
+
 - Txinerazko idazkera hobetua _(Chenxi Zhao)_
 - Eguneratutako ukrainierazko itzulpenak _(Nnifria)_
 - Mapako eskualde-izenen italierazko itzulpenak zuzendu dira _(Vittorio Bertola)_

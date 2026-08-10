@@ -21,11 +21,11 @@ Pokud v systému Android ukládáte mapy na kartu SD, nejpravděpodobnější p�
 Pokud aplikace stále selhává, vyhledejte podobné problémy na [našem GitHubu](https://github.com/organicmaps/organicmaps/issues/) a [kontaktujte nás](mailto:support@organicmaps.app) a uveďte následující:
 
 * Podrobný popis problému a kroky k jeho reprodukci
-* Verze organických map
+* Verze Organic Maps
 * Model zařízení a verze operačního systému (Android nebo iOS)
 
 Nebo alternativně:
 1. Povolte záznam logů v nastavení aplikace.
 2. Vynutit restart aplikace.
 3. Reprodukujte pád.
-4. Pošlete nám soubor logu přes "Nahlásit chybu" na obrazovce O aplikaci a přidejte krátký popis pádu.
+4. Pošlete nám soubor logu přes „Nahlásit chybu“ na obrazovce O aplikaci a přidejte krátký popis pádu.

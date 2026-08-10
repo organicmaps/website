@@ -54,7 +54,6 @@ L'app Organic Maps è priva di tracker e di altri elementi negativi:
 - Nessuna pubblicità
 - Nessun tracciamento
 - Nessuna raccolta dati
-- Nessuna chiamata a casa
 - Nessuna registrazione fastidiosa
 - Nessun tutorial obbligatorio
 - Nessuno spam via email
@@ -142,17 +141,16 @@ I cari sponsor istituzionali elencati di seguito hanno fornito sovvenzioni mirat
 Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 
 - Partecipa al nostro programma beta, suggerisci funzionalità e segnala bug:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - Segnala bug o problemi tramite il [tracker dei problemi][issues] o [inviaci un'email][email].
 - [Discuti][ideas] idee o proponi richieste di funzionalità.
 - Iscriviti al nostro [Canale Telegram][telegram] o allo spazio [matrix][matrix] per ricevere aggiornamenti.
-- Unisciti al nostro [Gruppo Telegram][telegram_chat_it] per discutere con altri utenti.
+- Unisciti al nostro [Gruppo Telegram in italiano][telegram_chat_it] o al [gruppo in inglese][telegram_chat] per discutere con altri utenti.
 - Visita la nostra [pagina GitHub][github].
 - Segui i nostri aggiornamenti su [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Unisciti alle comunità locali: chat Telegram in [ungherese (stanza Matrix)](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [inglese][telegram_chat_en], [tedesco][telegram_chat_de], [cinese][telegram_chat_zh], [francese][telegram_chat_fr], [spagnolo][telegram_chat_es], [russo][telegram_chat_ru], [ucraino][telegram_chat_uk], [turco][telegram_chat_tr], [arabo][telegram_chat_ar], [persiano][telegram_chat_fa].
 
 [fork]: https://it.wikipedia.org/wiki/Fork_(sviluppo_software)
 

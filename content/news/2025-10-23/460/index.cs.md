@@ -43,12 +43,13 @@ Pro ty, kteří to zmeškali, [předchozí aktualizace ze 7. října](https://or
 - Lepší úvodní obrazovka při spuštění (Andrei Shkrob)
 
 ### Android Auto
+
 - Obnovení trasy po zrušení (Andrei Shkrob)
 - Opraveny pády na některých zařízeních (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- Podrobnosti POI nyní zobrazují formát "název | ref" (Viktor Govako)
+- Podrobnosti POI nyní zobrazují formát „název | ref“ (Viktor Govako)
 - tmavý režim se automaticky synchronizuje s nastavením systému (DeepChirp)
 
 ## Poznámky pod čarou

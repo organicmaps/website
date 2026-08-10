@@ -1,8 +1,8 @@
 ---
-title: Jak importować zakładki?
+title: Jak zaimportować zakładki i ślady w formatach KML, KMZ, KMB, GPX lub GeoJSON (JSON)?
 slug: jak-importować-zakładki
-description: ""
-updated: "2024-06-20"
+description: Instrukcja krok po kroku, jak zaimportować do Organic Maps zakładki i ślady udostępnione ci w formatach KML, KMZ, KMB, GPX lub GeoJSON (JSON)
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["zakładki-i-trasy"]
@@ -13,12 +13,15 @@ aliases:
   - /pl/faq/bookmarks/how-to-import/
 ---
 
-Możesz importować zakładki wysyłane z aplikacji Organic Maps lub innych firm, jeśli eksportują zakładki w formacie KML:
+Możesz zaimportować zakładki i/lub ślady przesłane z Organic Maps lub aplikacji innych firm, o ile eksportują one zakładki w formatach KML, KMZ, KMB, GPX lub GeoJSON (JSON).
 
-1. Możesz importować zakładki z folderów i aplikacji (w tym Maps.Me). Naciśnij przycisk gwiazdki aby otworzyć zakładki, naciśnij „Importuj zakładki i trasy” i wybierz dysk lub folder z plikami KML, KMZ, KMB, GPX, GeoJSON (JSON).
+Aby zaimportować pojedynczy plik:
 
-2. Otwórz udostępniony plik KML, KMZ, KMB, GPX, GeoJSON (JSON) z zakładkami wysyłanymi przez e-mail, komunikator lub chmurę pamięć masowa, na przykład iCloud lub Dysk Google.
+1. Znajdź pobrany lub udostępniony plik KML, KMZ, KMB, GPX, GeoJSON (JSON) przesłany e-mailem, przez komunikator lub przez chmurę, na przykład iCloud czy Google Drive.
+2. Dotknij raz lub naciśnij i przytrzymaj plik KML, KMZ, KMB, GPX, GeoJSON (JSON), a następnie w wyskakującym okienku wybierz „Otwórz w Organic Maps” (Android) albo „Importuj do Organic Maps” (ikona z kwadratem i strzałką w iOS).
+3. Powinna uruchomić się aplikacja Organic Maps i powinien pojawić się komunikat „Zakładki załadowano pomyślnie!”. Zaimportowane zakładki i/lub ślady możesz zobaczyć na mapie oraz na ekranie „Zakładki i ślady”.
 
-3. Stuknij raz lub stuknij i przytrzymaj plik KML, KMZ, KMB, GPX, GeoJSON (JSON) z zakładkami i wybierz Otwórz za pomocą Organic Maps (Android) lub „Importuj z Organic Maps” (iOS) w wyskakującym oknie.
+Można też importować zakładki i ślady zbiorczo:
 
-4. Zostanie otwarty z Organic Maps, a zobaczysz „Zakładki załadowane pomyślnie!”. Możesz znajdź je na mapie lub na ekranie menu zakładek.
+1. Otwórz Organic Maps i dotknij przycisku „gwiazdki z kropkami”, aby wyświetlić zakładki i ślady. Naciśnij przycisk „Importuj zakładki i ślady”.
+2. Wybierz folder z plikami KML, KMZ, KMB, GPX, GeoJSON (JSON). Na Androidzie Organic Maps przeszuka go wraz z podfolderami i zaimportuje wszystkie obsługiwane pliki z zakładkami i śladami. Możesz wybrać folder główny, aby przeszukać całą pamięć.

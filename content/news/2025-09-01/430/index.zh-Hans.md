@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-现在，当您选择公交或电车站时，可以看到公共交通线路号码。这只是第一步！接下来，我们计划直接在地图上显示公共交通路线。iOS 用户还可以享受重新设计的 OpenStreetMap 贡献按钮（"添加地点"和"编辑地点"）。
+现在，当你选择公交或电车站时，可以看到公共交通线路号码。这只是第一步！接下来，我们计划直接在地图上显示公共交通路线。iOS 用户还可以享受重新设计的 OpenStreetMap 贡献按钮（“添加地点”和"编辑地点"）。
 
-我们感谢 ❤️ 我们的贡献者，以及[您的捐赠](@/donate/index.zh-Hans.md)和[您的支持](@/contribute/index.zh-Hans.md)。
+我们感谢 ❤️ 我们的贡献者，以及[你的捐赠](@/donate/index.zh-Hans.md)和[你的支持](@/contribute/index.zh-Hans.md)。
 
 ### 详细版本说明
 
@@ -27,6 +27,7 @@ taxonomies:
 - 更新翻译（Weblate 贡献者）
 
 #### iOS
+
 - 新功能！重新设计的"向 OpenStreetMap 添加地点"和"编辑地点"按钮（Kiryl Kaveryn）
 - 修复向 OpenStreetMap 添加新地点时跳跃的十字线（Kiryl Kaveryn）
 - 地图图层和菜单的新图标（Kiryl Kaveryn, @euf）
@@ -37,6 +38,7 @@ taxonomies:
 - 当地图过于过时时，菜单中现在显示"更新地图以贡献"按钮（Kiryl Kaveryn）
 
 #### Android
+
 - 新的图层图标（Andrei Shkrob, @euf）
 - 编辑书签（铅笔）图标的触摸区域现在更大（Kavi Khalique）
 - 修复保存某些路线时的崩溃和启动时的罕见崩溃（Viktor Govako）
@@ -46,8 +48,8 @@ taxonomies:
 
 从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新的九月版 Organic Maps。
 
-如果您还没有尝试过，现在可以在 Organic Maps 设置中启用一个功能来在地图上查看书签名称。此外，现在使用铅笔图标 ✎ 作为编辑书签的更快方式。
+如果你还没有尝试过，现在可以在 Organic Maps 设置中启用一个功能来在地图上查看书签名称。此外，现在使用铅笔图标 ✎ 作为编辑书签的更快方式。
 
-附注：别忘了，您可以注册我们的测试版计划，以提前获得实验性和即将推出的功能——[iOS 版][testflight]和 [Android 版][firebase]。
+附注：别忘了，你可以注册我们的测试版计划，以提前获得实验性和即将推出的功能——[iOS 版][testflight]和 [Android 版][firebase]。
 
 {{ references() }}

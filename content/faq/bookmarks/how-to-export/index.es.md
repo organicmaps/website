@@ -1,8 +1,8 @@
 ---
 title: Cómo puedo exportar los marcadores?
 slug: cómo-puedo-exportar-los-marcadores
-description: ""
-updated: "2024-06-12"
+description: "Guía paso a paso para exportar marcadores y tracks de Organic Maps a otras aplicaciones y compartirlos con tus contactos"
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["marcadores-y-rutas"]
@@ -13,4 +13,6 @@ aliases:
   - /es/faq/bookmarks/how-to-export/
 ---
 
-Elige el marcador en el mapa y pulsa “Compartir”. Para compartir todos los marcadores en una lista de una vez, toque el símbolo de la estrella doble en la pantalla principal, toque el icono con tres puntos delante del nombre de la lista con marcadores y toque "Exportar el archivo" en la ventana emergente.
+Toca un marcador o un track en el mapa o en la lista y, a continuación, toca el botón «Compartir» en la página del lugar (panel inferior).
+
+Para compartir todos los marcadores y tracks de una lista desde la pantalla «Marcadores y tracks», toca el icono con tres puntos a la derecha del nombre de la lista y selecciona «Exportar KMZ», «Exportar GPX» o «Exportar GeoJSON».

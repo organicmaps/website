@@ -19,18 +19,18 @@ La recommandation officielle d'Organic Maps est [RHVoice](https://rhvoice.org/),
 
 ## Instructions
 
-- Ouvrez l'application Paramètres sur votre appareil Android
-- Sélectionnez Paramètres supplémentaires, puis Accessibilité
-- Choisissez votre moteur, la vitesse d'élocution et la tonalité
-- **Redémarrez l'application Organic Maps**
-- Ouvrez Paramètres => Instructions vocales dans Organic Maps et configurez-les.
-- Redémarrez l'application Organic Maps (ou redémarrez l'appareil) si la voix ne fonctionne pas.
+- Ouvre l'application Paramètres sur ton appareil Android
+- Sélectionne Paramètres supplémentaires, puis Accessibilité
+- Choisis ton moteur, la vitesse d'élocution et la tonalité
+- **Redémarre l'application Organic Maps**
+- Ouvre Paramètres => Instructions vocales dans Organic Maps et configure-les.
+- Redémarre l'application Organic Maps (ou redémarre l'appareil) si la voix ne fonctionne pas.
 
-Si vous ne trouvez pas le paramètre approprié, ouvrez l'application Paramètres et recherchez Text-to-speech.
+Si tu ne trouves pas le paramètre approprié, ouvre l'application Paramètres et recherche Text-to-speech.
 
-P.S : Notez que ces étapes varient en fonction de la marque du téléphone que vous utilisez.
+P.S : Note que ces étapes varient en fonction de la marque du téléphone que tu utilises.
 
-Ces options peuvent ne pas apparaître si aucun TTS n'est installé sur votre appareil. Reportez-vous au tableau ci-dessous pour installer l'un d'entre eux qui prend en charge votre langue maternelle.
+Ces options peuvent ne pas apparaître si aucun TTS n'est installé sur ton appareil. Reporte-toi au tableau ci-dessous pour installer l'un d'entre eux qui prend en charge ta langue maternelle.
 
 ## Captures d'écran
 
@@ -40,28 +40,28 @@ Ces options peuvent ne pas apparaître si aucun TTS n'est installé sur votre ap
 
 ## Moteurs de synthèse vocale {#engines}
 
-Vous trouverez ci-dessous une liste de plusieurs langues et moteurs et supportées (les liens de téléchargement se trouvent après le tableau) :
+Tu trouveras ci-dessous une liste de plusieurs langues et moteurs et supportées (les liens de téléchargement se trouvent après le tableau) :
 
 {{ tts_table() }}
 
 ## Solutions alternatives
 
-Si vous avez des difficultés à initialiser le moteur TTS de RHVoice sur LineageOS ou d'autres ROMs personnalisées, essayez cette solution alternative. RHVoice peut ne pas s'initialiser correctement et l'application peut se bloquer, en particulier si vous n'avez jamais utilisé de moteur de synthèse vocale sur votre téléphone (nouvelle installation, réinitialisation d'usine, etc.). Si vous utilisez une ROM personnalisée comme LineageOS <ins>sans les services Google Play et Speech Services by Google</ins>, et que vous souhaitez utiliser RHVoice comme moteur TTS préféré, suivez les instructions ci-dessous comme solution de contournement :
+Si tu as des difficultés à initialiser le moteur TTS de RHVoice sur LineageOS ou d'autres ROMs personnalisées, essaie cette solution alternative. RHVoice peut ne pas s'initialiser correctement et l'application peut se bloquer, en particulier si tu n'as jamais utilisé de moteur de synthèse vocale sur ton téléphone (nouvelle installation, réinitialisation d'usine, etc.). Si tu utilises une ROM personnalisée comme LineageOS <ins>sans les services Google Play et Speech Services by Google</ins>, et que tu souhaites utiliser RHVoice comme moteur TTS préféré, suis les instructions ci-dessous comme solution de contournement :
 
-1. Installez le [moteur eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible sur F-Droid
-2. Définissez le comme le moteur préféré du système
-    - Allez dans les **Paramètres** de LineageOS.
-    - Descendez jusqu'à **Accessibilité**.
-    - Sélectionnez **Sortie de la synthèse vocale** et **Moteur préféré** (à gauche) et assurez-vous que **eSpeak** est sélectionné.
-3. Revenez en arrière et appuyez sur **Lire** pour vérifier que cela fonctionne.
-4. Installez [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) disponible sur F-droid.
-    - Ouvrez l'application, sélectionnez la langue que vous souhaitez utiliser et appuyez sur l'icône du nuage (à gauche) pour télécharger les voix.
-    - Appuyez sur le bouton de lecture pour vérifier qu'il fonctionne
-5. Définissez **RHVoice** comme moteur préféré (voir étape 2)
-6. Vous devriez maintenant pouvoir utiliser RHVoice sans problème.
+1. Installe le [moteur eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible sur F-Droid
+2. Définis le comme le moteur préféré du système
+    - Va dans les **Paramètres** de LineageOS.
+    - Descends jusqu'à **Accessibilité**.
+    - Sélectionne **Sortie de la synthèse vocale** et **Moteur préféré** (à gauche) et assure-toi que **eSpeak** est sélectionné.
+3. Reviens en arrière et appuie sur **Lire** pour vérifier que cela fonctionne.
+4. Installe [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) disponible sur F-droid.
+    - Ouvre l'application, sélectionne la langue que tu souhaites utiliser et appuie sur l'icône du nuage (à gauche) pour télécharger les voix.
+    - Appuie sur le bouton de lecture pour vérifier qu'il fonctionne
+5. Définis **RHVoice** comme moteur préféré (voir étape 2)
+6. Tu devrais maintenant pouvoir utiliser RHVoice sans problème.
 
 ## Tests
 
-Pour tester les instructions vocales, vous pouvez cliquer sur "Tester les instructions vocales (TTS, Text-To-Speech)" dans le menu OM "Paramètres → Instructions vocales" ou vous pouvez démarrer la navigation pour entendre des instructions vocales. Organic Maps ne vous donnera pas d'instructions vocales tant que vous êtes à l'arrêt.
+Pour tester les instructions vocales, tu peux cliquer sur «Tester les instructions vocales (TTS, Text-To-Speech)» dans le menu OM «Paramètres → Instructions vocales» ou tu peux démarrer la navigation pour entendre des instructions vocales. Organic Maps ne te donnera pas d'instructions vocales tant que tu es à l'arrêt.
 
 ![Test TTS](tts_test.fr.png "Test TTS")

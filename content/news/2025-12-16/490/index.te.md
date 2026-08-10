@@ -1,16 +1,17 @@
 ---
-title: "డిసెంబర్ 16 విడుదలలో ఆర్గానిక్ మ్యాప్స్ క్రిస్మస్ ఎడిషన్"
+title: "డిసెంబర్ 16 విడుదలలో Organic Maps క్రిస్మస్ ఎడిషన్"
 date: 2025-12-16
 slug: "organic-maps-christmas-edition-december-16-release"
 taxonomies:
   news: ["releases"]
 ---
 
-ఆర్గానిక్ మ్యాప్స్ బృందం నుండి క్రిస్మస్ మరియు నూతన సంవత్సర శుభాకాంక్షలు. పండుగ ఉత్సాహం కోసం చూస్తున్నారా? మ్యాప్‌లో చూడటానికి `Christmas Market` లేదా `Christmas Tree` కోసం వెతకండి. మీ ప్రాంతంలో ఏమీ కనిపించకపోతే, దయచేసి OpenStreetMap.orgలో తప్పిపోయిన వివరాలను జోడించి, అందరి కోసం మ్యాప్‌ను మెరుగుపరచండి!
+Organic Maps బృందం నుండి క్రిస్మస్ మరియు నూతన సంవత్సర శుభాకాంక్షలు. పండుగ ఉత్సాహం కోసం చూస్తున్నారా? మ్యాప్‌లో చూడటానికి `Christmas Market` లేదా `Christmas Tree` కోసం వెతకండి. మీ ప్రాంతంలో ఏమీ కనిపించకపోతే, దయచేసి OpenStreetMap.orgలో తప్పిపోయిన వివరాలను జోడించి, అందరి కోసం మ్యాప్‌ను మెరుగుపరచండి!
 
 Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] నుండి ఇన్‌స్టాల్ చేయండి
 
 ### విడుదల గమనికలు
+
 - క్రిస్మస్ చెట్లు మరియు మార్కెట్లు ఇప్పుడు మ్యాప్‌లో కనిపిస్తాయి (Viktor Govako)
 - OpenStreetMap డేటా డిసెంబర్ 14, 2025 నాటికి తాజాకరించబడింది (Viktor Govako)
 - ప్రపంచ మ్యాప్‌లో జాతీయ ఉద్యానవన సరిహద్దులు మరియు లేబుల్‌లు తక్కువగా కనిపిస్తాయి (Viktor Govako)
@@ -20,6 +21,7 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - క్రొయేషియన్ భాషలో రౌండ్‌అబౌట్ వాయిస్ సూచనలు సరిచేయబడ్డాయి (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - శోధన ఫలితాలు ఇప్పుడు ఎమోజీని ఉపయోగించి పార్కింగ్ సామర్థ్యాన్ని చూపుతాయి (David Martinez)
 - iOS 12లో CarPlay సమస్య పరిష్కరించబడింది (Kiryl Kaveryn)
 - iPhone మరియు iPadలో అనేక దృశ్య సమస్యలు పరిష్కరించబడ్డాయి (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - యాప్ ప్రారంభంలో ఐసోలైన్స్ రిమైండర్ సందేశం తొలగించబడింది (Kiryl Kaveryn)
 
 ### Android
+
 - శోధన ఫలితాలు ఇప్పుడు పార్కింగ్ సామర్థ్యాన్ని చూపుతాయి (Bicky Rawdyrathaur, David Martinez)
 - లొకేషన్ సమస్యలను నివారించడానికి Android Autoలో కార్ లొకేషన్ సెన్సార్ నిలిపివేయబడింది (Andrei Shkrob)
 - యాప్ క్లోజ్ చేసినా లేదా ఆపివేసినా ట్రాక్ రికార్డింగ్ కొనసాగుతుంది (Alexander Borsuk)
@@ -37,8 +40,8 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 - [iOS][testflight]
 - [Android][firebase]
 
-మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) వల్లే ఆర్గానిక్ మ్యాప్స్ మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
+మీ [విరాళాలు](@/donate/index.te.md) మరియు [సహకారం](@/contribute/index.te.md) వల్లే Organic Maps మనుగడ సాగిస్తోంది. ధన్యవాదాలు! ❤️
 
-ఆర్గానిక్ మ్యాప్స్ బృందం
+Organic Maps బృందం
 
 {{ references() }}

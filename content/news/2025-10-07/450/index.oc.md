@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Aquesta actualizacion d'octobre d'Organic Maps apond la visualizacion del limit de velocitat dins Android Auto, l'importacion de GeoJSON, las estatisticas d'enregistrament de percors, mòstra las etiquetas de descripcion d'OSM (picatz `?description` dins la bóstia de recèrca per las veire), e enregistra un marcapagina sus un percors sus iOS. I a tanben fòrça melhoraments de l'interfàcia d'utilizaire, l'edicion d'OpenStreetMap e diversas correccions de bugs sus totas las plataformas, includent la correccion del plantatge a l'aviada sus d'unes aparelhs Android.
+Aquesta actualizacion d'octobre d'Organic Maps apond la visualizacion del limit de velocitat dins Android Auto, l'importacion de GeoJSON, las estatisticas d'enregistrament de percors, mòstra las etiquetas de descripcion d'OSM (pica `?description` dins la bóstia de recèrca per las veire), e enregistra un marcapagina sus un percors sus iOS. I a tanben fòrça melhoraments de l'interfàcia d'utilizaire, l'edicion d'OpenStreetMap e diversas correccions de bugs sus totas las plataformas, includent la correccion del plantatge a l'aviada sus d'unes aparelhs Android.
 
-Organic Maps es possible gràcias ❤️ a nòstres contributors, [vòstras donacions](@/donate/index.oc.md) e [vòstre sosten](@/contribute/index.oc.md).
+Organic Maps es possible gràcias ❤️ a nòstres contributors, [tas donacions](@/donate/index.oc.md) e [ton sosten](@/contribute/index.oc.md).
 
 ### Nòtas de sortida detalhadas (incluses los cambiaments de l'actualizacion menora anteriora)
 
@@ -68,17 +68,17 @@ Organic Maps es possible gràcias ❤️ a nòstres contributors, [vòstras dona
 - Opcion per anullar lo telecargament (Viktor Govako)
 - Mostrar lo tipe de geometria dins lo menú contextual (Viktor Govako)
 
-### Foncionalitats publicadas recentament que auretz benlèu mancadas
+### Foncionalitats publicadas recentament que auràs benlèu mancadas
 
 - Numèros de linha de transpòrt public en seleccionant un arrèst d'autobús
-- Percors de randonnada e de ciclisme (activatz-los amb lo boton Calques en naut a man esquèrra)
+- Percors de randonnada e de ciclisme (activa-los amb lo boton Calques en naut a man esquèrra)
 - Veire los noms de marcapaginas sus la mapa en l'activant dins los Paramètres de l'aplicacion
 - L'icòna de gredon ✎ ofrís un biais rapid de modificar los marcapaginas
 
 ### Installar Organic Maps
 
-Obtenètz la darrièra version d'Organic Maps dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obten la darrièra version d'Organic Maps dempuèi l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Jonhètz-vos als tèsts bèta per las foncionalitats primieras: [iOS][testflight] / [Android][firebase].
+Jonh-te als tèsts bèta per las foncionalitats primieras: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

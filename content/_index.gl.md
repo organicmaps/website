@@ -1,10 +1,10 @@
 ---
-description: 'Mapas sen conexión, rápidos e detallados para viaxeiros, turistas, condutores, sendeiristas e ciclistas creados polos fundadores de MapsWithMe (Maps.Me).'
+description: "Mapas sen conexión, rápidos e detallados para viaxeiros, turistas, condutores, sendeiristas e ciclistas creados polos fundadores de MapsWithMe (Maps.Me)."
 extra:
   menu_title: Casa
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
+title: "Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación"
 ---
 
 **Organic Maps** é unha aplicación de mapas e GPS sen conexión centrada na privacidade para sendeirismo, ciclismo, bicicleta e condución. Completamente gratuíta. Sen publicidade. Sen seguimento. Desenvolvida con amor pola comunidade de código aberto e as mesmas persoas que crearon a aplicación [**MapsWithMe**][mapswithme]/**Maps.Me**. Impulsada por datos de [OpenStreetMap][openstreetmap].
@@ -13,7 +13,7 @@ title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
 
 > En decembro de 2025, Organic Maps [alcanzou 6M de instalacións](@/news/2025-12-31/500/index.gl.md). [Axúdanos](@/donate/index.gl.md) a crecer!
 
-### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -27,11 +27,9 @@ title: 'Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación'
 
 ## Características
 
-Organic Maps é a aplicación complementaria definitiva para viaxeiros,
-turistas, sendeiristas e ciclistas:
+Organic Maps é a aplicación complementaria definitiva para viaxeiros, turistas, sendeiristas e ciclistas:
 
-- Mapas detallados sen conexión con lugares que non existen noutros mapas,
-  grazas a [OpenStreetMap][openstreetmap]
+- Mapas detallados sen conexión con lugares que non existen noutros mapas, grazas a [OpenStreetMap][openstreetmap]
 - Rutas ciclistas, rutas de sendeirismo e camiños a pé
 - Curvas de nivel, perfís de elevación, cumes e pendentes
 - Navegación paso a paso, andando en bicicleta e en coche con guía de voz, CarPlay/Android Auto
@@ -43,7 +41,7 @@ turistas, sendeiristas e ciclistas:
 - Artigos da Wikipedia para lugares populares
 - Libre e de código aberto
 
-## Por que "Organic"?
+## Por que «Organic»?
 
 Organic Maps é puro e orgánico, feito con amor:
 
@@ -56,7 +54,6 @@ Organic Maps está libre de rastreadores e outras cousas malas:
 - Sen publicidade
 - Sen seguimento
 - Sen recollida de datos
-- Sen conexións externas
 - Sen rexistro molesto
 - Sen titoriais obrigatorios
 - Sen correos lixo
@@ -144,17 +141,16 @@ Os queridos patrocinadores institucionais a continuación proporcionaron subvenc
 Organic Maps é un [software de código aberto][github] licenciado baixo a licenza Apache 2.0.
 
 - Únete ao noso programa beta, suxire funcións e informa de erros:
-  * [Beta de iOS (TestFlight)][testflight]
-  * [Beta de Android (Firebase)][firebase]
-  * [Beta de Linux Desktop (Flatpak)][flatpak]
-  * [Linux Desktop Beta (paquetería)][repology]
+  - [Beta de iOS (TestFlight)][testflight]
+  - [Beta de Android (Firebase)][firebase]
+  - [Beta de Linux Desktop (Flatpak)][flatpak]
+  - [Linux Desktop Beta (paquetería)][repology]
 - Informa de erros ou problemas no [rastreador de incidencias][issues] ou [envíanos un correo][email].
 - [Debate][ideas] ideas ou propón solicitudes de funcións.
 - Subscríbete ao noso [canle de Telegram][telegram] ou ao [espazo matrix][matrix] para obter actualizacións.
 - Únete ao noso [grupo de Telegram][telegram_chat] para falar con outros usuarios.
 - Visita a nosa [páxina de GitHub][github].
 - Síguenos en [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Únete (ou crea e avísanos) ás comunidades locais: [Sala Matrix de húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats de Telegram en [chinés][telegram_chat_zh], [francés][telegram_chat_fr], [ruso][telegram_chat_ru] ou [turco][telegram_chat_tr].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(desenvolvemento%20de%20software)
 

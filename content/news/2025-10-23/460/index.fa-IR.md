@@ -43,12 +43,13 @@ taxonomies:
 - صفحه شروع بهتر در هنگام راه‌اندازی (Andrei Shkrob)
 
 ### Android Auto
+
 - بازیابی مسیر پس از لغو (Andrei Shkrob)
 - رفع کرش‌ها در برخی دستگاه‌ها (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- جزئیات POI اکنون قالب "نام | ref" را نشان می‌دهند (Viktor Govako)
+- جزئیات POI اکنون قالب «نام | ref» را نشان می‌دهند (Viktor Govako)
 - حالت تاریک به طور خودکار با تنظیمات سیستم هماهنگ می‌شود (DeepChirp)
 
 ## پانوشت‌ها

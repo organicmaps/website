@@ -1,10 +1,10 @@
 ---
-description: 'Rychlé podrobné offline mapy pro cestovatele, turisty, řidiče, výletníky a cyklisty vytvořené zakladateli aplikace MapsWithMe (Maps.Me).'
+description: "Rychlé podrobné offline mapy pro cestovatele, turisty, řidiče, výletníky a cyklisty vytvořené zakladateli aplikace MapsWithMe (Maps.Me)."
 extra:
   menu_title: Domů
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace'
+title: "Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace"
 ---
 
 **Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source a stejnými lidmi, kteří vytvořili aplikaci [**MapsWithMe**][mapswithme]/**Maps.Me**. Využívá data [OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ režimu') }}
 
 ## Vlastnosti
 
-Organic Maps je dokonalá aplikace pro cestovatele, turisty, pěší turisty a
-cyklisty:
+Organic Maps je dokonalá aplikace pro cestovatele, turisty, pěší turisty a cyklisty:
 
-- Podrobné offline mapy s místy, která na jiných mapách neexistují, díky
-  [OpenStreetMap][openstreetmap]
+- Podrobné offline mapy s místy, která na jiných mapách neexistují, díky [OpenStreetMap][openstreetmap]
 - Cyklistické trasy, turistické stezky a pěší trasy
 - Vrstevnice, výškové profily, vrcholy a svahy
-- Pěší, cyklistická a automobilová navigace krok za krokem s hlasovými
-  pokyny, CarPlay/Android Auto
+- Pěší, cyklistická a automobilová navigace krok za krokem s hlasovými pokyny, CarPlay/Android Auto
 - Mapy metra
 - Rychlé offline vyhledávání na mapě
 - Export a import záložek ve formátech KML/KMZ, import GPX, GeoJSON
@@ -59,7 +56,6 @@ Organic Maps neobsahuje sledovací zařízení a další špatné věci:
 - Bez reklam
 - Žádné sledování
 - Žádný sběr dat
-- Žádné telefonování domů
 - Žádná obtěžující registrace
 - Žádné povinné výukové programy
 - Žádný hlučný e-mailový spam
@@ -81,8 +77,7 @@ Organic Maps nevyžaduje nadměrná oprávnění ke špehování:
 
 V Organic Maps věříme, že soukromí je základním lidským právem:
 
-- Organic Maps je nezávislý projekt s otevřeným zdrojovým kódem, který je
-  řízen komunitou
+- Organic Maps je nezávislý projekt s otevřeným zdrojovým kódem, který je řízen komunitou
 - Chráníme vaše soukromí před zvědavýma očima velkých technologických firem
 - Zůstaňte v bezpečí, ať jste kdekoli
 
@@ -92,17 +87,13 @@ Odmítněte dohled - přijměte svou svobodu.
 
 ## Kdo platí za bezplatnou aplikaci?
 
-Aplikace je pro všechny zdarma. Podpořte nás prosím
-[donate](@/donate/index.cs.md)!
+Aplikace je pro všechny zdarma. Podpořte nás prosím [donate](@/donate/index.cs.md)!
 
-Chcete-li přispět okamžitě, klikněte na ikonu preferovaného způsobu platby
-níže:
+Chcete-li přispět okamžitě, klikněte na ikonu preferovaného způsobu platby níže:
 
 {{ donate_buttons() }}
 
-Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých
-nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
-
+Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -149,31 +140,19 @@ nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 
 ## Komunita
 
-Organic Maps je [open-source software][github] licencovaný pod Apache
-License 2.0.
+Organic Maps je [open-source software][github] licencovaný pod Apache License 2.0.
 
-- Zapojte se prosím do našeho beta programu, navrhujte funkce a nahlašujte
-  chyby:
-  * [iOS Beta (TestFlight)] [testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)] [flatpak]
-  * [Linux Desktop Beta (balíčky)][repology]
-- Chyby nebo problémy nahlaste na [issue tracker][issues] nebo [na
-  e-mail][email].
+- Zapojte se prosím do našeho beta programu, navrhujte funkce a nahlašujte chyby:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (balíčky)][repology]
+- Chyby nebo problémy nahlaste na [issue tracker][issues] nebo [na e-mail][email].
 - [Diskutujte][ideas] nápady nebo navrhněte požadavky na funkce.
-- Přihlaste se k odběru novinek na našem [Telegram kanálu][telegram] nebo na
-  [matrix space][matrix].
-- Připojte se k naší [Telegram skupině][telegram_chat] a diskutujte s
-  ostatními uživateli.
+- Přihlaste se k odběru novinek na našem [Telegram kanálu][telegram] nebo na [matrix space][matrix].
+- Připojte se k naší [Telegram skupině][telegram_chat] a diskutujte s ostatními uživateli.
 - Navštivte náš [GitHub][github].
-- Sledujte naše aktualizace na [FOSStodon][fosstodon],
-  [Facebooku][facebook], [Twitteru][twitter],
-  [Instagramu][instagram], [Bluesky][bluesky], [Threads][threads], [Redditu][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Připojte se (nebo vytvořte vlastní a dejte nám vědět) k lokálním
-  komunitám: [maďarská místnost Matrix maďarských
-  překladatelů](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Čínský][telegram_chat_zh], [Francouzský][telegram_chat_fr],
-  [Ruský][telegram_chat_ru], [Turecký][telegram_chat_tr] chat na Telegramu.
+- Sledujte naše aktualizace na [FOSStodon][fosstodon], [Facebooku][facebook], [Twitteru][twitter], [Instagramu][instagram], [Bluesky][bluesky], [Threads][threads], [Redditu][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://cs.wikipedia.org/wiki/Fork
 

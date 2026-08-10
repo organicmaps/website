@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Ara, quan seleccioneu una parada d'autobús o tramvia, podeu veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats ("Afegir lloc" i "Editar lloc").
+Ara, quan selecciones una parada d'autobús o tramvia, pots veure els números de línia del transport públic. Aquest és només el primer pas! A continuació, tenim previst mostrar les rutes de transport públic directament al mapa. Els usuaris d'iOS també poden gaudir dels botons de contribució d'OpenStreetMap redissenyats («Afegir lloc» i «Editar lloc»).
 
-Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres donacions](@/donate/index.ca.md) i el [vostre suport](@/contribute/index.ca.md).
+Estem agraïts ❤️ als nostres col·laboradors, així com per les [teves donacions](@/donate/index.ca.md) i el [teu suport](@/contribute/index.ca.md).
 
 ### Notes detallades de la versió
 
@@ -27,27 +27,29 @@ Estem agraïts ❤️ als nostres col·laboradors, així com per les [vostres do
 - Traduccions actualitzades (col·laboradors de Weblate)
 
 #### iOS
-- NOU! Botons "Afegir lloc a OpenStreetMap" i "Editar lloc" redissenyats (Kiryl Kaveryn)
+
+- NOU! Botons «Afegir lloc a OpenStreetMap» i «Editar lloc» redissenyats (Kiryl Kaveryn)
 - Mira saltant corregida en afegir un nou lloc a OpenStreetMap (Kiryl Kaveryn)
 - Noves icones per a capes del mapa i menú (Kiryl Kaveryn, @euf)
 - Actualitzacions d'elevació redundants eliminades durant l'enregistrament de pista (Kiryl Kaveryn)
 - Els títols multilínia ara són compatibles al selector de llista de marcadors (David Martinez) i a la pàgina d'informació del lloc (Kiryl Kaveryn)
 - Les actualitzacions d'inici/aturada d'enregistrament de pista i punts ara són més fiables (Kiryl Kaveryn)
 - Totes les icones tocables a la pàgina de detalls del lloc ara utilitzen un color blau unificat (Kiryl Kaveryn)
-- El botó "Actualitzar mapes per contribuir" ara es mostra al menú quan els mapes són massa obsolets (Kiryl Kaveryn)
+- El botó «Actualitzar mapes per contribuir» ara es mostra al menú quan els mapes són massa obsolets (Kiryl Kaveryn)
 
 #### Android
+
 - Noves icones de capa (Andrei Shkrob, @euf)
 - L'àrea tàctil per a la icona d'editar marcador (llapis) ara és més gran (Kavi Khalique)
 - Corregit bloqueig en desar certes rutes i bloqueig rar a l'inici (Viktor Govako)
 - La guia de carril s'ha corregit en alguns casos de navegació (Andrei Shkrob)
 - Restaurat l'ordre original dels colors predefinits de marcadors/pistes (Andrei Shkrob)
-- Corregit el botó "Esborrar cerca" en editar cuines (Ansh Jain)
+- Corregit el botó «Esborrar cerca» en editar cuines (Ansh Jain)
 
-Obtingueu la darrera versió de setembre d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
+Obtén la darrera versió de setembre d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
 
-Si encara no ho heu provat, ara podeu activar una funció a la configuració d'Organic Maps per veure noms de marcadors al mapa. A més, ara s'utilitza una icona de llapis ✎ com a manera més ràpida d'editar marcadors.
+Si encara no ho has provat, ara pots activar una funció a la configuració d'Organic Maps per veure noms de marcadors al mapa. A més, ara s'utilitza una icona de llapis ✎ com a manera més ràpida d'editar marcadors.
 
-P.D. No oblideu, podeu registrar-vos al nostre programa de proves beta per obtenir accés primerenc a funcions experimentals i futures—[per a iOS][testflight] i [per a Android][firebase].
+P.D. No oblidis, pots registrar-te al nostre programa de proves beta per obtenir accés primerenc a funcions experimentals i futures—[per a iOS][testflight] i [per a Android][firebase].
 
 {{ references() }}

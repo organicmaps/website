@@ -24,8 +24,8 @@ As jy **intydse openbare vervoerskedules** in jou stad in een van die komende op
 * Verbeterde soekresultate-rangorde vir kategorieë (Viktor Govako)
 * Oezbeekse kookkuns bygevoeg (alnzrv)
 * Zip-lyne op die kaart bygevoeg (Rawdyrathaur)
-* Wikimedia-skakels met "?" in die titel reggestel (alnzrv)
-* Ondersteuning vir GPX-lêers met "+" in koördinate (Alexander Borsuk)
+* Wikimedia-skakels met “?” in die titel reggestel (alnzrv)
+* Ondersteuning vir GPX-lêers met “+” in koördinate (Alexander Borsuk)
 
 ### iOS
 

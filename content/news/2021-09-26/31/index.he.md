@@ -6,11 +6,7 @@ slug: "here-is-the-list-of-openstreetmap-metro-subways-validation-results"
 
 להלן רשימת תוצאות האימות של OpenStreetMap למטרו/רכבת תחתית:
 
-<https://cdn.organicmaps.app/subway/> (מדי שעה)
-או
-<https://maps.mail.ru/osm/tools/subways/latest/>
-או
-<https://alexey-zakharenkov.github.io/subways/rapid/>
+<https://cdn.organicmaps.app/subway/> (מדי שעה) או <https://maps.mail.ru/osm/tools/subways/latest/> או <https://alexey-zakharenkov.github.io/subways/rapid/>
 
 אתם יכולים לעזור לנו על ידי תיקון קווי המטרו האדומים ישירות ב-OpenStreetMap. אז לכל משתמש [@OrganicMaps](https://t.me/OrganicMaps) תהיה מפת תחבורה ציבורית מעודכנת (נכון לעכשיו, רכבות תחתית ו-S-Bahn).
 

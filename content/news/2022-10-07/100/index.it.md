@@ -1,5 +1,5 @@
 ---
-title: "Organic Maps is participating in Hacktoberfest"
+title: "Organic Maps partecipa all'Hacktoberfest"
 date: 2022-10-07T06:58:50+00:00
 slug: "organic-maps-is-participating-in-hacktoberfest"
 ---

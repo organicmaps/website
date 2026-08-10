@@ -26,4 +26,4 @@ Ciò è particolarmente vero per le moderne versioni di Android:
 - Android 12
 - Android 11
 
-I passaggi esatti su come far funzionare le mappe organiche (e altre app) in background sono elencati qui: [dontkillmyapp.com](https://dontkillmyapp.com)
+I passaggi esatti su come far funzionare Organic Maps (e altre app) in background sono elencati qui: [dontkillmyapp.com](https://dontkillmyapp.com)

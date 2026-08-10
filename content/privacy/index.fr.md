@@ -6,14 +6,14 @@ extra:
   menu_title: Confidentialité
 ---
 
-Organic Maps respecte votre vie privée et NE VOUS ESPIONNE PAS.
+Organic Maps respecte ta vie privée et NE T'ESPIONNE PAS.
 
-Unlike most other applications, in Organic Maps there is no tracking, no ads, no spyware: no collection of location or statistical or personal data from your device whatsoever.
+Contrairement à la plupart des autres applications, Organic Maps ne trace pas, ne contient pas de pubs ni de logiciels espions : aucune collecte de données de localisation, statistiques ou personnelles n'est effectuée à partir de ton appareil.
 
-Refusez la surveillance - adoptez votre liberté.
+Refuse la surveillance - adopte ta liberté.
 
-Restez à l'abri des regards indiscrets des GAFAM !
+Reste à l'abri des regards indiscrets des GAFAM !
 
-Si vous avez des questions ou des suggestions, veuillez nous contacter à [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Si tu as des questions ou des suggestions, merci de nous contacter à [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Cette politique est effective à compter du 24/04/2021.</sub>

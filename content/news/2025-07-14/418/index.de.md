@@ -20,7 +20,7 @@ Die vollständige Liste der Änderungen:
 - Neues Lesezeichen- und Track-Symbol auf der Karte, um Benutzern beim Finden ihrer aufgezeichneten oder importierten Tracks zu helfen (_@euf_)
 - Ladestationen haben jetzt ihr eigenes unterscheidbares Symbol auf der Karte und in der Suche (_David Martinez_)
 - Höhe/Altitude speichern (_falls vorhanden_) beim Speichern einer Route (_Kiryl Kaveryn_)
-- Aktualisierte Übersetzungen, Sie können helfen, falsche oder fehlende Übersetzungen zu korrigieren [bei Weblate][weblate]
+- Aktualisierte Übersetzungen, du kannst helfen, falsche oder fehlende Übersetzungen zu korrigieren [bei Weblate][weblate]
 
 Android:
 - Nicht funktionierenden Zurück-Button auf Android 16 behoben (_Andrei Shkrob_)
@@ -30,18 +30,18 @@ Android:
 - Falsches Benutzeroberflächenlayout auf einigen Geräten behoben (_Sergiy Kozyr_)
 - OSM-Anmeldung und Passwort anzeigen, wenn Browser-Anmeldung fehlschlägt/nicht verfügbar ist (_Sergiy Kozyr_)
 - Fadenkreuz-Sprung beim Hinzufügen von Objekten zu OpenStreetMap behoben (_@hemanggs_)
-- "Fehlgeschlagenen Download wiederholen"-Button behoben (_Kavi Khalique_)
+- „Fehlgeschlagenen Download wiederholen“-Button behoben (_Kavi Khalique_)
 - Startbildschirm behoben, der sich mit Systembuttons überlappt (_Vraj Shah_)
 - Einige Abstürze behoben (_Devarsh Vasani_)
 - EACCESS PermissionDenied-Fehler beim Importieren von KML oder GPX auf Android 5 behoben (_Alexander Borsuk_)
 
 iOS-Änderungen, alle Anerkennung an _Kiryl Kaveryn_:
 - Verbesserte Lesezeichen- und Track-Bearbeitung: Farbe und Liste direkt von der Track-Informationsseite ändern
-- Jetzt können Sie den aufgezeichneten Track sofort nach dem Speichern bearbeiten oder löschen
+- Jetzt kannst du den aufgezeichneten Track sofort nach dem Speichern bearbeiten oder löschen
 - Erweiterte Tippfläche für Buttons
 - Springende OSM-Notizen beim Tippen von Text behoben
-- "Ort hinzufügen"-Button für Unternehmen anzeigen
+- „Ort hinzufügen“-Button für Unternehmen anzeigen
 
-P.S. Wenn Sie gerne detaillierte Versionshinweise lesen, lassen Sie es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
+P.S. Wenn du gerne detaillierte Versionshinweise liest, lass es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
 
 {{ references() }}

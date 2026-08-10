@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-Yn y rhyddhad ar 23 Hydref, fe wnaethon ni ganolbwyntio ar drwsiadau a gwelliannau. Gwiriwch y rhestr fanwl isod.
+Yn y rhyddhad ar 23 Hydref, fe wnaethon ni ganolbwyntio ar drwsiadau a gwelliannau. Gwiria'r rhestr fanwl isod.
 
 I'r rhai a gollodd, ychwanegodd y [diweddariad blaenorol ar 7 Hydref](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) fewnforio GeoJSON, ystadegau recordio trac, arddangosiad terfyn cyflymder yn Android Auto, arddangos tagiau disgrifiad OSM (teipiwch `?description` yn y blwch chwilio i'w gweld), cadw nod tudalen ar drac ar iOS, a llawer o welliannau eraill.
+) fewnforio GeoJSON, ystadegau recordio trac, arddangosiad terfyn cyflymder yn Android Auto, arddangos tagiau disgrifiad OSM (teipia `?description` yn y blwch chwilio i'w gweld), cadw nod tudalen ar drac ar iOS, a llawer o welliannau eraill.
 
 ## Pob Platfform
 
@@ -32,7 +32,7 @@ I'r rhai a gollodd, ychwanegodd y [diweddariad blaenorol ar 7 Hydref](https://or
 - Trwsio bar statws gwyn-ar-wyn mewn modd llywio (Kiryl Kaveryn)
 - Cynyddu maint botwm Dechrau Llywio (Kiryl Kaveryn)
 - Tynnu gofod gwag wrth gynllunio llwybr ar iPad (Kiryl Kaveryn)
-- Efallai y bydd Organic Maps yn gofyn i chi ei raddio yn yr App Store. Mae eich adolygiadau da yn ysgogi ein tîm!
+- Efallai y bydd Organic Maps yn gofyn i ti ei raddio yn yr App Store. Mae dy adolygiadau da yn ysgogi ein tîm!
 
 ## Android
 
@@ -43,21 +43,22 @@ I'r rhai a gollodd, ychwanegodd y [diweddariad blaenorol ar 7 Hydref](https://or
 - Sgrin tasgu gwell wrth gychwyn (Andrei Shkrob)
 
 ### Android Auto
+
 - Adfer y llwybr ar ôl canslo (Andrei Shkrob)
 - Trwsio damweiniau ar rai dyfeisiau (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- Mae manylion POI nawr yn dangos fformat "enw | ref" (Viktor Govako)
+- Mae manylion POI nawr yn dangos fformat ‘enw | ref’ (Viktor Govako)
 - mae modd tywyll yn cysoni'n awtomatig â gosodiadau system (DeepChirp)
 
 ## Troednodiadau
 
-Mae Organic Maps yn bosibl diolch ❤️ i'n cyfranwyr, [eich rhoddion](@/donate/index.cy.md), a [eich cefnogaeth](@/contribute/index.cy.md).
+Mae Organic Maps yn bosibl diolch ❤️ i'n cyfranwyr, [dy roddion](@/donate/index.cy.md), a [dy gefnogaeth](@/contribute/index.cy.md).
 
 Cael y fersiwn diweddaraf o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ac [F-Droid][fdroid].
 
-P.S. Ymunwch â phrofi beta ar gyfer nodweddion cynnar:
+P.S. Ymuna â phrofi beta ar gyfer nodweddion cynnar:
 - [iOS][testflight]
 - [Android][firebase].
 

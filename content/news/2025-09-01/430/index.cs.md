@@ -27,6 +27,7 @@ Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/don
 - Aktualizované překlady (přispěvatelé Weblate)
 
 #### iOS
+
 - NOVÉ! Přepracovaná tlačítka „Přidat místo do OpenStreetMap" a „Upravit místo" (Kiryl Kaveryn)
 - Opravený skákající zaměřovač při přidávání nového místa do OpenStreetMap (Kiryl Kaveryn)
 - Nové ikony pro vrstvy mapy a nabídku (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Jsme vděčni ❤️ našim přispěvatelům, stejně jako za [vaše dary](@/don
 - Tlačítko „Aktualizovat mapy pro přispívání" je nyní zobrazeno v nabídce, když jsou mapy příliš zastaralé (Kiryl Kaveryn)
 
 #### Android
+
 - Nové ikony vrstev (Andrei Shkrob, @euf)
 - Oblast dotyku pro ikonu úpravy záložky (tužka) je nyní větší (Kavi Khalique)
 - Opraveno padání při ukládání určitých tras a vzácné padání při spuštění (Viktor Govako)

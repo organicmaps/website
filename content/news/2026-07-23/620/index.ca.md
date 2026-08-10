@@ -20,22 +20,26 @@ Gràcies a les seves [donacions](@/donate/index.ca.md) i als seus [comentaris](@
 ## Registre de canvis detallat
 
 ### Mapa i llocs
+
 - Dades d'OpenStreetMap actualitzades a 14 de juliol
 - Les notes enviades a [OpenStreetMap](https://www.openstreetmap.org) ara es col·loquen exactament al lloc que ha seleccionat, en lloc del mig de tot el carrer o de la zona _(Alexander Borsuk)_
 - Millora de la selecció de llocs en tocar el mapa a les regions que travessen l'antimeridià de 180° _(Viktor Govako)_
 - Els perfils d'altitud de les traces ja no mostren gràfics obsolets o buits després d'eliminar una traça _(Kiryl Kaveryn)_
 
 ### Transport públic
+
 - Els noms de parades, transbordaments i estacions ara tenen un contorn blanc per mantenir-se llegibles tant en temes clars com foscos _(Viktor Govako)_
 - La capa del metro reapareix correctament després que tanqui la previsualització d'una ruta de transport públic _(Mikhail Listratsenka)_
 
 ### Rutes i navegació
+
 - Els avisos de ruta (peatges, ferris, carreteres sense asfaltar, esglaons, etc.) ara es mostren per a totes les rutes alternatives _(Viktor Govako)_
 - S'ha corregit un bloqueig poc freqüent en crear una ruta _(Viktor Govako)_
 - Millora de la gestió dels carrers sense sortida i dels punts d'inici i final en vies restringides _(Viktor Govako)_
 - Correcció d'instruccions de gir incorrectes i absents _(Alexander Borsuk)_
 
 ### iOS
+
 - Nou paràmetre «Desa l'historial de cerques» que li permet desactivar l'historial i amagar-lo si prefereix no conservar-lo _(Kiryl Kaveryn)_
 - Nou botó «Edita» per eliminar marcadors més fàcilment _(Kiryl Kaveryn)_
 - Els marcadors ara es guarden automàticament quan surt de la pantalla _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Gràcies a les seves [donacions](@/donate/index.ca.md) i als seus [comentaris](@
 - Altres millores menors de la interfície _(Kiryl Kaveryn)_
 
 ### Android
+
 - L'horari d'obertura ara mostra torns partits (com ara la pausa per dinar), comença pel dia actual i mostra tota la setmana sense una àrea de desplaçament a part _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Barra de cerca més neta amb un botó combinat d'esborrar i de veu, una icona d'esborrar que ja no es mou, i correccions de disposició per al mode horitzontal i la rotació del telèfon _(Mikhail Listratsenka)_
 - Redisseny de l'editor de marcadors i de traces _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Gràcies a les seves [donacions](@/donate/index.ca.md) i als seus [comentaris](@
 - S'han corregit diverses fallades _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - La llista de mapes disponibles per a descarregar ja està ordenada alfabèticament _(goncalo109560)_
 
 ### Traduccions
+
 - Millora de la redacció en xinès _(Chenxi Zhao)_
 - Traduccions ucraïneses actualitzades _(Nnifria)_
 - Correcció de les traduccions italianes dels noms de les regions del mapa _(Vittorio Bertola)_

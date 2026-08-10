@@ -30,7 +30,7 @@ Android:
 - Konponduta erabiltzaile interfazearen antolaketa okerra gailu batzuetan (_Sergiy Kozyr_)
 - Erakutsi OSM saio hasiera eta pasahitza arakatzailearen saio hasierak huts egiten badu/eskuragarri ez badago (_Sergiy Kozyr_)
 - Konponduta gurutze hariak salto egitea objektuak OpenStreetMap-era gehitzerakoan (_@hemanggs_)
-- Konponduta "Saiatu berriro huts egindako deskarga" botoia (_Kavi Khalique_)
+- Konponduta «Saiatu berriro huts egindako deskarga» botoia (_Kavi Khalique_)
 - Konponduta hasiera pantaila sistemaren botoiekin gainjarrita (_Vraj Shah_)
 - Konponduta hondamendi batzuk (_Devarsh Vasani_)
 - Konponduta EACCESS PermissionDenied errorea KML edo GPX inportatzerakoan Android 5ean (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS aldaketak, kreditu guztiak _Kiryl Kaveryn_-rentzat:
 - Orain grabatutako pista gorde eta berehala editatu edo ezabatu dezakezu
 - Hedatutako ukitze area botoientzat
 - Konponduta OSM oharrak testua idazterakoan salto egitea
-- Erakutsi "Gehitu Lekua" botoia negozioentzat
+- Erakutsi «Gehitu Lekua» botoia negozioentzat
 
 O.A. Argitalpen ohar xehatuak irakurtzea gustatzen bazaizu, mesedez jakinarazi gure [sare sozialetan](/eu/#komunitatea)
 

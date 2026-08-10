@@ -1,35 +1,35 @@
 ---
-title: "Bakstelėk viešojo transporto stotelę, kad žemėlapyje pamatytum maršrutus; žymų pavadinimai nebesidengia; gegužės mėnesio Organic Maps atnaujinime mažesni atsisiunčiami Vietnamo, Malaizijos ir pietų Kinijos regionai"
+title: "Bakstelėkite viešojo transporto stotelę, kad žemėlapyje pamatytumėte maršrutus; žymų pavadinimai nebesidengia; gegužės mėnesio Organic Maps atnaujinime mažesni atsisiunčiami Vietnamo, Malaizijos ir pietų Kinijos regionai"
 date: 2026-05-08
 slug: "viesojo-transporto-stoteles-pasirinkimas-nesidengiantys-zymiu-pavadinimai-vietnamo-malaizijos-kinijos-regionu-skaidymas"
 taxonomies:
   news: ["releases"]
 ---
 
-Gegužės mėnesio atnaujinimas dar labiau priartina Organic Maps prie visaverčio viešojo transporto palaikymo. Autobuso, traukinio, kelto ar tramvajaus stotelė yra per ją einančių viešojo transporto linijų pradžios taškas, todėl dabar, bakstelėjus maršrutą stotelėje, ta linija savo spalva rodoma per visą žemėlapį. Netrukus bus ir tikri internetiniai tvarkaraščiai, tad nepamiršk [pridėti ar atnaujinti OSM viešojo transporto duomenų](https://gtfs-osm-matcher.organicmaps.app/) savo vietovėje, jei to dar nepadarei!
+Gegužės mėnesio atnaujinimas dar labiau priartina Organic Maps prie visaverčio viešojo transporto palaikymo. Autobuso, traukinio, kelto ar tramvajaus stotelė yra per ją einančių viešojo transporto linijų pradžios taškas, todėl dabar, bakstelėjus maršrutą stotelėje, ta linija savo spalva rodoma per visą žemėlapį. Netrukus bus ir tikri internetiniai tvarkaraščiai, tad nepamirškite [pridėti ar atnaujinti OSM viešojo transporto duomenų](https://gtfs-osm-matcher.organicmaps.app/) savo vietovėje, jei to dar nepadarėte!
 
-Kaip visada, labai dėkojame mūsų bendraautoriams, už tavo gerus atsiliepimus, [aukas](@/donate/index.lt.md) ir [palaikymą](@/contribute/index.lt.md).
+Kaip visada, labai dėkojame mūsų bendraautoriams, už jūsų gerus atsiliepimus, [aukas](@/donate/index.lt.md) ir [palaikymą](@/contribute/index.lt.md).
 
-Gegužės mėnesio atnaujinimą gali gauti adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Gegužės mėnesio atnaujinimą galite gauti adresu <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
 ## Svarbiausios naujovės
 
-- **Bakstelėk autobusų, tramvajų, traukinių ar keltų stotelę žemėlapyje,** ir Organic Maps paryškins visą viešojo transporto liniją, pasirenkamą iš rodomų linijų ir maršrutų sąrašo.
+- **Bakstelėkite autobusų, tramvajų, traukinių ar keltų stotelę žemėlapyje,** ir Organic Maps paryškins visą viešojo transporto liniją, pasirenkamą iš rodomų linijų ir maršrutų sąrašo.
 - **Aiškesni žymų pavadinimai ir lengviau skaitomas žemėlapis.** Dėl naujo pavadinimų išdėstymo žymų pavadinimai nebeužgožia vieni kitų, pėsčiųjų zonos yra šiek tiek tamsesnės, o maršrutų spalvos pritaikytos taip, kad kontrastas būtų geresnis tiek šviesioje, tiek tamsioje temoje.
-- **Smulkesni regionai visoje Azijoje.** Vietnamas ir Malaizija dabar suskirstyti į mažesnius žemėlapius, todėl gali atsisiųsti tik reikiamą sritį, o Honkongas, Makao ir Hainanas dabar atskirti nuo Guangdongo.
+- **Smulkesni regionai visoje Azijoje.** Vietnamas ir Malaizija dabar suskirstyti į mažesnius žemėlapius, todėl galite atsisiųsti tik reikiamą sritį, o Honkongas, Makao ir Hainanas dabar atskirti nuo Guangdongo.
 
 ## Išleidimo pastabos
 
 ### Visos platformos
 
-- NAUJA! Bakstelėk viešojo transporto stotelę ir pasirink maršruto numerį, kad žemėlapyje būtų paryškintas visas viešojo transporto maršrutas, kaip ir metro žemėlapio sluoksnyje (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NAUJA! Bakstelėkite viešojo transporto stotelę ir pasirinkite maršruto numerį, kad žemėlapyje būtų paryškintas visas viešojo transporto maršrutas, kaip ir metro žemėlapio sluoksnyje (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NAUJA! Žemėlapyje žymų pavadinimai nebesidengia (Viktor Govako)
 - Ištaisyti aukščio sumažėjimo ir padidėjimo skaičiavimai trasų grafikuose, kad jie geriau atitiktų kitų populiarių programėlių rodomas vertes (Viktor Govako)
 - Tolimojo susisiekimo viešasis transportas ir kiti žemėlapio ryšiai dabar per žemėlapio ribas sujungiami į vieną ištisinę liniją (Viktor Govako)
 - Vietnamas ir Malaizija suskirstyti į mažesnius, atskirai atsisiunčiamus regionus (Viktor Govako)
 - Honkongas, Makao ir Hainanas atskirti nuo Guangdongo, atnaujintos kaimyninių regionų ribos (Viktor Govako)
 - Atnaujintos Indonezijos, Malaizijos, Tanzanijos, Tailando ir Vietnamo izolinijos (kontūro linijos) (Viktor Govako)
-- Maršrutų planavimas: tęsiami maršrutai dabar pašalina tarpinius taškus, kuriuos jau pravažiavai (Viktor Govako)
+- Maršrutų planavimas: tęsiami maršrutai dabar pašalina tarpinius taškus, kuriuos jau pravažiavote (Viktor Govako)
 - Pridėtos aktyvių ugnikalnių ir vandens kelių prieigos taškų piktogramos; dabar galima ieškoti slipų (David Martinez)
 - Pridėti kaljanų barai (alnzrv)
 - Pridėti statomi pastatai (Viktor Govako)
@@ -76,7 +76,7 @@ Gegužės mėnesio atnaujinimą gali gauti adresu <https://get.omaps.org> arba i
 - Sklandžiai išjungus programą, žemėlapių atsisiuntimas tęsiamas nuo tos vietos, kurioje buvo sustabdytas (Alexander Borsuk)
 - Organic Maps dabar veikia su OpenGL ES 3.0 tvarkyklėmis (Alexander Borsuk)
 
-Prisijunk prie beta versijų testavimo, kad išbandytum naujas funkcijas ir praneštum apie problemas:
+Prisijunkite prie beta versijų testavimo, kad išbandytumėte naujas funkcijas ir praneštumėte apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -8,11 +8,11 @@ taxonomies:
 
 ## Vrystellingsnotas
 
-### Alle platforms
-
 - *NUUT!* Gemerkte afgelaaide streke op die Wêreldkaart (Viktor Govako)
 - *NUUT!* Sien en soek na natuurreservate, nasionale parke, beskermde gebiede, Aboriginal-gebiede, gevaarsones en mere op die Wêreldkaart vanaf zoemvlak 8 (Viktor Govako)
 - *NUUT!* Roetering ondersteun nou padsluitingstye (Viktor Govako)
+
+### Alle platforms
 
 - OpenStreetMap-data soos op 9 November 2025 (Viktor Govako)
 - ’n Fout met verstek- en gelokaliseerde straatname wanneer adresse geredigeer en veranderinge na OpenStreetMap opgelaai word, is reggestel (Viktor Govako)
@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Nadat ’n lys met boekmerke of roetes (via die "More"-knoppie) uitgevee is, keer die app nou korrek terug na die vorige skerm (Kiryl Kaveryn)
-- [TikTok][tiktok]-, [Threads][threads]- en [Bluesky][bluesky]-sosiale media-skakels is by die "About"-skerm gevoeg (Kiryl Kaveryn)
-- "Report a bug" is by die vinnige aksies van die tuisskerm-ikoon gevoeg (Kiryl Kaveryn)
+- Nadat ’n lys met boekmerke of roetes (via die “More”-knoppie) uitgevee is, keer die app nou korrek terug na die vorige skerm (Kiryl Kaveryn)
+- [TikTok][tiktok]-, [Threads][threads]- en [Bluesky][bluesky]-sosiale media-skakels is by die “About”-skerm gevoeg (Kiryl Kaveryn)
+- “Report a bug” is by die vinnige aksies van die tuisskerm-ikoon gevoeg (Kiryl Kaveryn)
 - Verskeie toepassings- en CarPlay-ongelukke is reggestel (Kiryl Kaveryn)
 
 ### Android
@@ -68,6 +68,7 @@ P.S. Sluit by beta-toetsing aan vir vroeë funksies en help ons om foute en prob
 - [Android][firebase].
 
 Dankie dat jy Organic Maps gebruik en die projek ondersteun!
+
 Die Organic Maps-span
 
 {{ references() }}

@@ -43,6 +43,7 @@ taxonomies:
 - מסך פתיחה משופר בעת ההפעלה (Andrei Shkrob)
 
 ### Android Auto
+
 - שחזור המסלול לאחר ביטול (Andrei Shkrob)
 - תוקנו קריסות במכשירים מסוימים (Andrei Shkrob)
 

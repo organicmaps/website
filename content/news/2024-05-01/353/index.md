@@ -6,9 +6,7 @@ slug: "summit-serenity-with-organic-maps-song"
 description: "Public transit, just the road ahead, Organic Maps, my guide, my thread. Contours and elevations, guide my pace, With each step, I find my grace."
 ---
 
-Another song about Organic Maps, now in a calmer tempo.
-You can enjoy all 3 songs here: [@OrganicMaps\_song](https://t.me/OrganicMaps%5Fsong)
-or check them in our previous news posts:
+Another song about Organic Maps, now in a calmer tempo. You can enjoy all 3 songs here: [@OrganicMaps_song](https://t.me/OrganicMaps%5Fsong) or check them in our previous news posts:
 
 - [Travel with Organic Maps](@/news/2024-04-26/344/index.md)
 - [Privacy and freedom Anthem](@/news/2024-04-27/347/index.md)

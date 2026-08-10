@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Dėka mūsų bendradarbių, **penktadienis yra puikus laikas atnaujinti Organic Maps!** Gauk atnaujinimą adresu [https://get.omaps.org](https://get.omaps.org) arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Dėka mūsų bendradarbių, **penktadienis yra puikus laikas atnaujinti Organic Maps!** Gaukite atnaujinimą adresu [https://get.omaps.org](https://get.omaps.org) arba [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
-Jei nori matyti **realaus laiko viešojo transporto tvarkaraščius** savo mieste viename iš būsimų atnaujinimų, prašome:
+Jei norite matyti **realaus laiko viešojo transporto tvarkaraščius** savo mieste viename iš būsimų atnaujinimų, prašome:
 
 1. [Atsiųsti mums](https://github.com/organicmaps/gtfs-osm-matcher/issues) **statinio ir realaus laiko GTFS srauto šaltinius** iš vietinių transporto agentūrų, kad galėtume juos išbandyti ir integruoti.
-2. Patikrinti, ar **OpenStreetMap duomenys** tavo vietovėje apima visas autobusų/tramvajų/traukinių stoteles su reikiamomis žymomis adresu [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+2. Patikrinti, ar **OpenStreetMap duomenys** jūsų vietovėje apima visas autobusų/tramvajų/traukinių stoteles su reikiamomis žymomis adresu [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Išleidimo pastabos
 
@@ -57,7 +57,7 @@ Jei nori matyti **realaus laiko viešojo transporto tvarkaraščius** savo miest
 * Atnaujinti vertimai iš Weblate bendradarbių (Viktor Govako)
 
 
-Prisijunk prie beta testavimo, kad išbandytum ankstyvas funkcijas ir praneštum apie problemas:
+Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvas funkcijas ir praneštumėte apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

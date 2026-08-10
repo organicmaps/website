@@ -14,7 +14,7 @@ Has dezagun 2026a Organic Maps eguneratze batekin, gure laguntzaile guztien esku
 * Eguneratutako OpenStreetMap datuak (urtarrilak 11) (Viktor Govako)
 * Albanierazko ahots gidatze gehitua (TTS) (Alexander Borsuk)
 * Bulgarierazko bilaketa sinonimoak gehitua (Clippy)
-* Kasinoak "Entretenimendua" kategoriatik kanporatua (Clippy)
+* Kasinoak «Entretenimendua» kategoriatik kanporatua (Clippy)
 * Metroko lineen lodiera murriztua (Manik)
 * Edukiera informazioa gehitua bilaketa emaitzetan motorraren aparkalekuentzat, bizikleten alokairuarentzat, bizikleten kargarentzat, eta autoen kargarentzat (David Martinez)
 * Pisuko maila gehitua bilaketa emaitzetan (David Martinez)
@@ -25,7 +25,7 @@ Has dezagun 2026a Organic Maps eguneratze batekin, gure laguntzaile guztien esku
 * FAQ eguneratuta eta FAQ itzulpenak gehituta arabiera, txekiera, nederlandera, persiera, greziera, hebreera, hindia, hungariera, indonesiera, italiera, lituaniera, marathia, suediera, teluguerentzat (Alexander Borsuk)
 * Alemanezko aplikazioaren eta FAQren itzulpenak hobetuak (DaN0mic)
 * Latinoamerikako gaztelaniazko aplikazioaren itzulpenak hobetuak (Alexander Borsuk)
-* "Zoom botoiak" ezarpena berrizendatua argitasunerako (Alexander Borsuk)
+* «Zoom botoiak» ezarpena berrizendatua argitasunerako (Alexander Borsuk)
 * Itzulpen zuzenketak Weblate laguntzaileetatik hizkuntza desberdinetarako (Viktor Govako)
 
 ### iOS aldaketak soilik
@@ -35,7 +35,7 @@ Has dezagun 2026a Organic Maps eguneratze batekin, gure laguntzaile guztien esku
 ### Android aldaketak soilik
 
 * Google Assistant euskarria gehitua nabigaziorako eta bilaketarako (skirm-tech)
-* "Automatikoa" nabigazio gaiaren ezarpena eguneratua sistemaren modu iluna/argia jarraitzeko (Dzmitry Strekha)
+* «Automatikoa» nabigazio gaiaren ezarpena eguneratua sistemaren modu iluna/argia jarraitzeko (Dzmitry Strekha)
 * Konpondutako kraskadura nabigazioa abiaraztean (Owm Dubey)
 * Konpondutako kraskadura oharrak OpenStreetMapera igotzerakoan (Prakamy Awasthi)
 * Konpondutako kraskadura Android Auton (Alexander Borsuk)

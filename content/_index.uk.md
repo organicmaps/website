@@ -1,10 +1,10 @@
 ---
-description: 'Швидкі та детальні офлайн-карти для мандрівників, туристів, водіїв, пішоходів та велосипедистів, створені засновниками застосунку MapsWithMe (Maps.Me).'
+description: "Швидкі та детальні офлайн-карти для мандрівників, туристів, водіїв, пішоходів та велосипедистів, створені засновниками застосунку MapsWithMe (Maps.Me)."
 extra:
   menu_title: Головна
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Офлайн карти та GPS навігація'
+title: "Organic Maps: Офлайн карти та GPS навігація"
 ---
 
 **Organic Maps** — це орієнтовані на приватність автономні мапи та GPS-застосунок для піших і велопрогулянок, автонавігації та спорту. Абсолютно безкоштовно. Без реклами. Жодного відстеження. Розроблено з любов'ю спільнотою з відкритим вихідним кодом та засновниками застосунку [**MapsWithMe**][mapswithme]/**Maps.Me**. Працює на основі даних [OpenStreetMap][openstreetmap].
@@ -29,15 +29,12 @@ title: 'Organic Maps: Офлайн карти та GPS навігація'
 
 ## Особливості
 
-Organic Maps - це незамінний застосунок-компаньйон для мандрівників,
-туристів, пішоходів та велосипедистів:
+Organic Maps - це незамінний застосунок-компаньйон для мандрівників, туристів, пішоходів та велосипедистів:
 
-- Детальні офлайн-мапи з місцями, яких немає на інших мапах, завдяки
-  [OpenStreetMap][openstreetmap]
+- Детальні офлайн-мапи з місцями, яких немає на інших мапах, завдяки [OpenStreetMap][openstreetmap]
 - Велосипедні маршрути, туристичні стежки та пішохідні доріжки
 - Контурні лінії, профілі висот, піки та схили
-- Покрокові інструкції для пішоходів, велосипедистів та автомобільна
-  навігація з голосовим супроводом, CarPlay/Android Auto
+- Покрокові інструкції для пішоходів, велосипедистів та автомобільна навігація з голосовим супроводом, CarPlay/Android Auto
 - Схеми метро
 - Швидкий офлайн-пошук на мапі
 - Експорт та імпорт міток та треків у форматах KML/KMZ та GPX, GeoJSON
@@ -59,7 +56,6 @@ Organic Maps не містить відстеження та інших пога
 - Без реклами
 - Без відстеження
 - Без збору даних
-- Без передачі даних
 - Без дратівливої реєстрації
 - Без обов’язкових навчальних посібників
 - Без спаму на електронну пошту
@@ -71,8 +67,7 @@ Organic Maps не містить відстеження та інших пога
 
 {{ exodus_screenshot() }}
 
-Застосунок для iOS перевірено за допомогою [TrackerControl for
-iOS][trackercontrol]:
+Застосунок для iOS перевірено за допомогою [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -80,11 +75,9 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 
 {{ privacy_screenshots() }}
 
-В Organic Maps ми віримо, що конфіденційність є фундаментальним правом
-людини:
+В Organic Maps ми віримо, що конфіденційність є фундаментальним правом людини:
 
-- Organic Maps - це незалежний проєкт із відкритим початковим кодом,
-  керований спільнотою
+- Organic Maps - це незалежний проєкт із відкритим початковим кодом, керований спільнотою
 - Ми захищаємо вашу конфіденційність від сторонніх очей великих компаній
 - Залишайтеся в безпеці, де б ви не були
 
@@ -94,11 +87,9 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 
 ## Хто платить за безкоштовний застосунок?
 
-Застосунок безкоштовний для всіх. Будь ласка,
-[пожертвуйте](@/donate/index.uk.md), щоб підтримати нас!
+Застосунок безкоштовний для всіх. Будь ласка, [пожертвуйте](@/donate/index.uk.md), щоб підтримати нас!
 
-Щоб зробити пожертву відразу, натисніть на іконку бажаного способу оплати
-нижче:
+Щоб зробити пожертву відразу, натисніть на іконку бажаного способу оплати нижче:
 
 {{ donate_buttons() }}
 
@@ -151,29 +142,17 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 
 Organic Maps - це [ПЗ з відкритим початковим кодом][github], ліцензоване за ліцензією Apache License 2.0.
 
-- Будь ласка, приєднуйтесь до нашої бета-програми, пропонуйте свої функції
-  та повідомляйте про помилки:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
-- Повідомляйте про помилки або проблеми на [GitHub][issues] або через
-  [ел. пошту][email].
+- Будь ласка, приєднуйтесь до нашої бета-програми, пропонуйте свої функції та повідомляйте про помилки:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
+- Повідомляйте про помилки або проблеми на [GitHub][issues] або через [ел. пошту][email].
 - [Обговорюйте][ideas] ідеї або пропонуйте запити на нові функції.
-- Підписуйтесь на наш [Telegram канал][telegram] або на [matrix
-  space][matrix].
-- Приєднуйтесь до нашої [Telegram групи][telegram_chat_uk], щоб подискутувати з іншими користувачами.
+- Підписуйтесь на наш [Telegram канал][telegram] або на [matrix space][matrix].
+- Приєднуйтесь до нашої [україномовної Telegram групи][telegram_chat_uk] або до [англомовної групи][telegram_chat], щоб подискутувати з іншими користувачами.
 - Відвідайте нашу [сторінку на GitHub][github].
-- Слідкуйте за нами у [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Приєднуйтесь (або створіть і повідомте нам) до місцевої спільноти:
-  [Кімната Matrix угорських
-  перекладачів](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [китайсько-][telegram_chat_zh], [французько-][telegram_chat_fr],
-  [російсько-][telegram_chat_ru], [турецько-][telegram_chat_tr]мовні
-  Telegram-чати.
-- Приєднуйтесь до місцевих спільнот: [Угорська кімната Matrix](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [українська][telegram_chat_uk], [англомовна][telegram_chat_en], [німецька][telegram_chat_de], [китайська][telegram_chat_zh], [французька][telegram_chat_fr], [італійська][telegram_chat_it], [іспанська][telegram_chat_es], [російська][telegram_chat_ru], [арабська][telegram_chat_ar], [перська][telegram_chat_fa], [турецька][telegram_chat_tr] чати Telegram.
+- Слідкуйте за нами у [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://uk.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA
 

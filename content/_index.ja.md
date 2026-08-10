@@ -54,7 +54,6 @@ Organic Maps アプリはトラッカーやその他の不要な要素から解�
 - 広告なし
 - 追跡なし
 - データ収集なし
-- 本社への通信なし
 - 煩わしい登録なし
 - 必須のチュートリアルなし
 - うるさいメールスパムなし
@@ -139,20 +138,19 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
 
 ## コミュニティ
 
-Organic Maps は [Apache License 2.0][github] の下でライセンスされた [オープンソースソフトウェア][github] です。
+Organic Maps は Apache License 2.0 の下でライセンスされた [オープンソースソフトウェア][github] です。
 
 - ベータプログラムにご参加いただき、機能の提案やバグの報告をお願いします:
-  * [iOS ベータ (TestFlight)][testflight]
-  * [Android ベータ (Firebase)][firebase]
-  * [Linux Desktop ベータ (Flatpak)][flatpak]
-  * [Linux Desktop ベータ (パッケージ)][repology]
+  - [iOS ベータ (TestFlight)][testflight]
+  - [Android ベータ (Firebase)][firebase]
+  - [Linux Desktop ベータ (Flatpak)][flatpak]
+  - [Linux Desktop ベータ (パッケージ)][repology]
 - バグや問題は [issue トラッカー][issues] または [メール][email] でご報告ください。
 - アイデアについて[議論][ideas]するか、機能リクエストを提案してください。
 - アップデート情報を得るには、[Telegram チャンネル][telegram] または [matrix space][matrix] を購読してください。
 - 他のユーザーと議論するには [Telegram グループ][telegram_chat] にご参加ください。
 - [GitHub ページ][github] をご覧ください。
 - アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
-- 地域のコミュニティにご参加ください: [ハンガリー語 Matrix ルーム](https://matrix.to/#/#organicmapstranslate_hu:matrix.org)、[ドイツ語][telegram_chat_de]、[中国語][telegram_chat_zh]、[フランス語][telegram_chat_fr]、[イタリア語][telegram_chat_it]、[スペイン語][telegram_chat_es]、[ロシア語][telegram_chat_ru]、[ウクライナ語][telegram_chat_uk]、[アラビア語][telegram_chat_ar]、[ペルシア語][telegram_chat_fa]、[トルコ語][telegram_chat_tr] の Telegram チャット。
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

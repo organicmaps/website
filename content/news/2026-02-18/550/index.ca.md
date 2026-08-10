@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Gràcies als nostres col·laboradors, **divendres és un bon moment per actualitzar Organic Maps!** Aconseguiu l'actualització a [https://get.omaps.org](https://get.omaps.org) o a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
+Gràcies als nostres col·laboradors, **divendres és un bon moment per actualitzar Organic Maps!** Aconsegueix l'actualització a [https://get.omaps.org](https://get.omaps.org) o a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], i [F-Droid][fdroid].
 
-Si voleu veure **horaris de transport públic en temps real** a la vostra ciutat en una de les properes actualitzacions, si us plau:
+Si vols veure **horaris de transport públic en temps real** a la teva ciutat en una de les properes actualitzacions, si us plau:
 
-1. [Envieu-nos](https://github.com/organicmaps/gtfs-osm-matcher/issues) les **fonts de dades GTFS estàtiques i en temps real** de les vostres agències de transport locals perquè puguem provar-les i integrar-les.
-2. Comproveu si les **dades d'OpenStreetMap** a la vostra zona inclouen totes les parades d'autobús/tramvia/tren amb les etiquetes necessàries a [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Envia'ns](https://github.com/organicmaps/gtfs-osm-matcher/issues) les **fonts de dades GTFS estàtiques i en temps real** de les teves agències de transport locals perquè puguem provar-les i integrar-les.
+2. Comprova si les **dades d'OpenStreetMap** a la teva zona inclouen totes les parades d'autobús/tramvia/tren amb les etiquetes necessàries a [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Notes de la versió
 
@@ -24,8 +24,8 @@ Si voleu veure **horaris de transport públic en temps real** a la vostra ciutat
 * Millorada la classificació dels resultats de cerca per a categories (Viktor Govako)
 * Afegida cuina uzbeka (alnzrv)
 * Afegides tirolines al mapa (Rawdyrathaur)
-* Corregits enllaços de Wikimedia amb "?" al títol (alnzrv)
-* Suport per a fitxers GPX amb "+" a les coordenades (Alexander Borsuk)
+* Corregits enllaços de Wikimedia amb «?» al títol (alnzrv)
+* Suport per a fitxers GPX amb «+» a les coordenades (Alexander Borsuk)
 
 ### iOS
 
@@ -57,7 +57,7 @@ Si voleu veure **horaris de transport públic en temps real** a la vostra ciutat
 * Actualitzades les traduccions dels col·laboradors de Weblate (Viktor Govako)
 
 
-Uniu-vos a les proves beta per provar funcions primerenques i informar de problemes:
+Uneix-te a les proves beta per provar funcions primerenques i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 

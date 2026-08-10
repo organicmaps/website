@@ -30,7 +30,7 @@ Android:
 - Opraveno nesprávné rozvržení uživatelského rozhraní na některých zařízeních (_Sergiy Kozyr_)
 - Zobrazení přihlášení a hesla OSM, pokud přihlášení v prohlížeči selže/není dostupné (_Sergiy Kozyr_)
 - Opraven skok nitkového kříže při přidávání objektů do OpenStreetMap (_@hemanggs_)
-- Opraveno tlačítko "Opakovat neúspěšné stahování" (_Kavi Khalique_)
+- Opraveno tlačítko „Opakovat neúspěšné stahování“ (_Kavi Khalique_)
 - Opravena úvodní obrazovka překrývající systémová tlačítka (_Vraj Shah_)
 - Opraveny některé pády (_Devarsh Vasani_)
 - Opravena chyba EACCESS PermissionDenied při importu KML nebo GPX na Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Změny iOS, všechny zásluhy _Kiryl Kaveryn_:
 - Nyní můžete upravit nebo smazat zaznamenanou stopu ihned po jejím uložení
 - Rozšířená oblast klepnutí pro tlačítka
 - Opraveny skákající OSM poznámky při psaní textu
-- Zobrazení tlačítka "Přidat místo" pro podniky
+- Zobrazení tlačítka „Přidat místo“ pro podniky
 
 P.S. Pokud rádi čtete podrobné poznámky k vydání, dejte nám prosím vědět na našich [sociálních sítích](/cs/#komunita)
 

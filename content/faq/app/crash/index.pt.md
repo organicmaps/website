@@ -11,18 +11,20 @@ aliases:
   - /pt/faq/app/crash/
 ---
 
-É provavelmente um erro inesperado e ficaremos contentes em corrigi-lo na próxima atualização.
+No Android, se guardares os teus mapas num cartão SD, a causa mais provável é um cartão SD defeituoso. Podes:
+1. Apagar todos os mapas descarregados e voltar a descarregá-los para o cartão SD (pode não voltar a funcionar).
+2. Apagar todos os mapas descarregados, selecionar o armazenamento interno do dispositivo e voltar a descarregar os mapas.
+3. Formatar o cartão SD e voltar a descarregar os mapas.
+4. Comprar um cartão SD novo (recomendado)
 
-Android: se armazena os mapas num cartão SD, a causa mais provável é ser um cartão SD defeituoso. Pode tentar formatar o cartão SD ou melhor ainda, substituí-lo por um novo. Se moveu a aplicação para o cartão SD, mova-o novamente no sentido inverso para o armazenamento interno (dispositivo).
+Se a aplicação continuar a bloquear, consulta [o nosso GitHub](https://github.com/organicmaps/organicmaps/issues/) para veres se há problemas semelhantes, [contacta-nos](mailto:support@organicmaps.app) e fornece as seguintes informações:
 
-Se mesmo assim o problema persistir, por favor [contacte-nos](mailto:support@organicmaps.app) e forneça as seguintes informações:
-
-* descrição do problema e etapas para o recriar
+* Uma descrição detalhada do problema e os passos para o reproduzir
 * Versão do Organic Maps
-* modelo do dispositivo e versão do sistema operativo (Android ou iOS).
+* Modelo do dispositivo e versão do sistema operativo (Android ou iOS)
 
 Ou alternativamente:
-1. Ative a gravação de registos nas definições da aplicação.
-2. Force o reinício da aplicação.
-3. Reproduza a falha.
-4. Envie-nos o ficheiro de registo via "Reportar um erro" no ecrã Sobre e adicione uma breve descrição da falha.
+1. Ativa a gravação de registos nas definições da aplicação.
+2. Força o reinício da aplicação.
+3. Reproduz a falha.
+4. Envia-nos o ficheiro de registo via «Reportar um erro» no ecrã Sobre e adiciona uma breve descrição da falha.

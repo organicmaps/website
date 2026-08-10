@@ -1,5 +1,5 @@
 ---
-title: "Išsamesnis pasaulio žemėlapis su paryškintais atsisiųstų žemėlapių regionais, sąlyginio maršruto parinkimo palaikymu ir dar daugiau 2025 m. lapkričio 11 d. „Organic Maps“ leidime"
+title: "Išsamesnis pasaulio žemėlapis su paryškintais atsisiųstų žemėlapių regionais, sąlyginio maršruto parinkimo palaikymu ir dar daugiau 2025 m. lapkričio 11 d. Organic Maps leidime"
 date: 2025-11-11
 slug: "issamesnis-pasaulio-zemelapis-paryskinti-atsisiusti-regionai-salyginis-marsrutas-carplay-android-auto-chromebook"
 taxonomies:
@@ -33,7 +33,7 @@ taxonomies:
 - „Android Auto“ visada naudoja automobilio maršruto režimą (Andrei Shkrob)
 - Naudojami tradicinės kinų kalbos vertimai Honkongo (zh-HK) ir Makao (zh-MO) regionams (Alexander Borsuk)
 
-Praneškite mums, jei galite paleisti „Organic Maps“ bet kuriame x86 įrenginyje (įskaitant „Chromebook“) su „OpenGL ES 3“ palaikymu.
+Praneškite mums, jei galite paleisti Organic Maps bet kuriame x86 įrenginyje (įskaitant „Chromebook“) su „OpenGL ES 3“ palaikymu.
 
 ### Žemėlapis ir stiliai
 
@@ -62,14 +62,14 @@ Praneškite mums, jei galite paleisti „Organic Maps“ bet kuriame x86 įrengi
 
 Ankstesnės leidimo pastabos: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Gaukite naujausią „Organic Maps“ versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Gaukite naujausią Organic Maps versiją iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
 P.S. Prisijunkite prie beta testavimo, kad gautumėte ankstyvąsias funkcijas ir padėtumėte mums rasti klaidų ir problemų:
 - [iOS][testflight]
 - [Android][firebase].
 
-Dėkojame, kad naudojatės „Organic Maps“ ir remiate projektą!
+Dėkojame, kad naudojatės Organic Maps ir remiate projektą!
 
-„Organic Maps“ komanda
+Organic Maps komanda
 
 {{ references() }}

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko "Vrstvy" vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
+Nainstalujte srpnové vydání Organic Maps, stáhněte nejnovější mapy a objevte oblíbené turistické a cyklistické trasy po celém světě! Stiskněte tlačítko „Vrstvy“ vlevo nahoře pro zobrazení barevných cyklistických a MTB tras, stejně jako oficiálních turistických a pěších cest. Nevidíte nic poblíž? Pak je čas přidat chybějící informace na OpenStreetMap.org, protože všechna mapová data v Organic Maps pocházejí z tohoto otevřeného, bezplatného a komunitou řízeného projektu.
 
 Věděli jste, že lze vybrat jakoukoli zaznamenanou nebo importovanou GPX/KML stopu na mapě? Stopy s výškovými údaji zobrazí svůj výškový graf.
 
@@ -13,7 +13,7 @@ Pro zobrazení názvů záložek na mapě povolte tuto novou funkci v nastavení
 
 Díky našim přispěvatelům ❤️ a vašim [darům](@/donate/index.cs.md) je v této aktualizaci mnohem více.
 
-P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
+P.S. …a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás k vytváření nejlepších map – společně.
 
 ### Podrobné poznámky k vydání
 
@@ -24,6 +24,7 @@ P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás 
 - Zemědělské a lesní cesty jsou nyní vyloučeny z navigace (Viktor Govako)
 
 #### iOS
+
 - Vyřešeno několik pádů a zlepšena stabilita iCloud synchronizace (Kiryl Kaveryn)
 - Představeny víceřádkové titulky v seznamech záložek (David Martinez)
 - Opraven problém s přibližováním při zrušení výběru stopy (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás 
 - Chybějící překlady nahrazeny anglickými alternativami (Viktor Govako)
 
 #### Android
+
 - Přidán výškový graf stopy a výběr stopy na mapě (Kavi Khalique)
 - Zanechat OpenStreetMap poznámku, pokud nově přidaný bod zájmu (POI) ještě není podporován v Organic Maps (hemanggs)
 - Odstraněna podpora OpenGL ES 2.0 ve prospěch OpenGL ES 3.0 (renderexpert)
 - Zobrazení ikon záložek v barevném voliči (Andrei Shkrob)
 
 #### Vylepšení stylů a ikon
+
 - Ikona vidličky a nože pro food courty (David Martinez)
 - Mokřady označené horizontálním šrafováním (Viktor Govako)
 - Ikony pro rychlé občerstvení a kola ve výsledcích vyhledávání a záložkách (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...a přichází mnohem více! Vaše podpora nám pomáhá a motivuje nás 
 - Opravena nastavení priority pro diplomatické úřady (Viktor Govako)
 
 #### Různá vylepšení
-- Zadání "cop" do vyhledávání najde policejní stanice, zatímco "film" nebo "movie theater" najde kina (theadventurer62)
+
+- Zadání „cop“ do vyhledávání najde policejní stanice, zatímco „film“ nebo „movie theater“ najde kina (theadventurer62)
 - Otevření v jiné aplikaci nyní zobrazuje vybraný bod v Google Maps (Alexander Borsuk)
 - Španělský překlad pro více kategorií vyhledávání (David Martinez)
 - Aktualizovány různé překlady (přispěvatelé Weblate)

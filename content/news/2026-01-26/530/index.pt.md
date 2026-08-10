@@ -8,7 +8,7 @@ taxonomies:
 
 Hora de atualizar o Organic Maps! Rotas transfronteiriças e inter-regionais mais rápidas, dados de mapas OSM atualizados e muitas correções de erros para Android na segunda atualização da aplicação em 2026.
 
-Instale a partir de [get.omaps.org](https://get.omaps.org) ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Instala a partir de [get.omaps.org](https://get.omaps.org) ou da [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ### Novidades
 
@@ -29,7 +29,7 @@ Instale a partir de [get.omaps.org](https://get.omaps.org) ou da [App Store][app
 * Corrigida a sobreposição da barra de ferramentas de encaminhamento em ecrãs pequenos _(Anton P)_
 * Corrigida uma falha de pesquisa no Android 5 e 6 _(Alexander Borsuk)_
 * Corrigidas as traduções de Perguntas Frequentes no Android 5 _(Alexander Borsuk)_
-* Corrigido um erro de "Espaço livre insuficiente" ao atualizar mapas _(Alexander Borsuk)_
+* Corrigido um erro de «Espaço livre insuficiente» ao atualizar mapas _(Alexander Borsuk)_
 
 ### Traduções
 
@@ -40,11 +40,11 @@ Instale a partir de [get.omaps.org](https://get.omaps.org) ou da [App Store][app
 * Adicionadas traduções em falta para pontes desativadas _(Alexander Borsuk)_
 
 
-Junte-se aos testes beta para experimentar funcionalidades iniciais e reportar problemas:
+Junta-te aos testes beta para experimentar funcionalidades iniciais e reportar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Doe](@/donate/index.pt.md) e [contribua](@/contribute/index.pt.md) para construir uma melhor alternativa focada na privacidade para os mapas da Apple e da Google.
+[Doa](@/donate/index.pt.md) e [contribui](@/contribute/index.pt.md) para construir uma melhor alternativa focada na privacidade para os mapas da Apple e da Google.
 
 Com amor,
 A equipa do Organic Maps

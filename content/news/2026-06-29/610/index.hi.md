@@ -13,19 +13,19 @@ Organic Maps के जून अपडेट में आज़माने �
 - Android के लिए खोज और मार्ग योजना का नया इंटरफ़ेस
 - iOS में बड़े फ़ॉन्ट के लिए पहुँच-योग्यता समर्थन
 
-इसे <https://get.omaps.org> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] और [F-Droid][fdroid] से डाउनलोड करो, और हमें बताओ कि तुम्हें यह कैसा लगा!
+इसे <https://get.omaps.org> से या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] और [F-Droid][fdroid] से डाउनलोड करें, और हमें बताएँ कि आपको यह कैसा लगा!
 
 ## विस्तृत बदलाव सूची
 
 - नया! मेट्रो, लाइट रेल, बस और ट्राम के लिए सार्वजनिक परिवहन मार्गदर्शन _(Viktor Govako)_
 - नया! वैकल्पिक मार्ग: सबसे तेज़ मार्ग के अलावा, ऐप अब सबसे छोटा मार्ग भी दिखाता है _(Viktor Govako)_
 - नया! पैदल और साइकिल मार्गों पर रास्ते में आने वाली सीढ़ियों, गेट और लिफ़्ट गेट के बारे में चेतावनियाँ _(Viktor Govako)_
-- नया! बुकमार्क के लिए कोई भी रंग चुनो _(Alexander Borsuk, Mikhail Listratsenka)_
+- नया! बुकमार्क के लिए कोई भी रंग चुनें _(Alexander Borsuk, Mikhail Listratsenka)_
 - नया! British National Grid (OS Grid), Irish Grid और Irish Transverse Mercator (ITM) निर्देशांकों का समर्थन _(Alexander Borsuk)_
-- प्रयोगात्मक: Organic Maps की सेटिंग्स में अपने रास्टर टाइल सर्वर URL से सैटेलाइट चित्र चालू करो। हम अभी अपने सर्वर पर काम कर रहे हैं, इसलिए कृपया ऐसा सार्वजनिक रूप से उपलब्ध सर्वर खोजो जिसके URL में `{x}`, `{y}`, `{z}` स्थानधारक हों _(Viktor Govako, renderexpert)_
+- प्रयोगात्मक: Organic Maps की सेटिंग्स में अपने रास्टर टाइल सर्वर URL से सैटेलाइट चित्र चालू करें। हम अभी अपने सर्वर पर काम कर रहे हैं, इसलिए कृपया ऐसा सार्वजनिक रूप से उपलब्ध सर्वर खोजो जिसके URL में `{x}`, `{y}`, `{z}` स्थानधारक हों _(Viktor Govako, renderexpert)_
 - OpenStreetMap डेटा 24 जून तक अपडेट किया गया _(Viktor Govako)_
 - Wikipedia डेटा 20 जून तक अपडेट किया गया, इतालवी लेखों सहित _(Alexander Borsuk)_
-- Organic Maps के मानचित्र डाउनलोड सर्वर को बदलने के लिए खोज विंडो में `?map-download-server:https://your-server.com/` टाइप करो। यह बदलाव हटाने के लिए `?no-map-download-server` टाइप करो _(Alexander Borsuk)_
+- Organic Maps के मानचित्र डाउनलोड सर्वर को बदलने के लिए खोज विंडो में `?map-download-server:https://your-server.com/` टाइप करें। यह बदलाव हटाने के लिए `?no-map-download-server` टाइप करें _(Alexander Borsuk)_
 
 #### मानचित्र प्रदर्शन और शैलियाँ
 
@@ -48,7 +48,7 @@ Organic Maps के जून अपडेट में आज़माने �
 ### iOS
 
 - नया! Dynamic Type और बड़े फ़ॉन्ट के लिए पहुँच-योग्यता समर्थन _(Kiryl Kaveryn)_
-- नया! एक-दूसरे पर चढ़े ट्रैक और मार्गों में से चुनने के लिए टैप करो _(Kiryl Kaveryn)_
+- नया! एक-दूसरे पर चढ़े ट्रैक और मार्गों में से चुनने के लिए टैप करें _(Kiryl Kaveryn)_
 - बुकमार्क और ट्रैक विवरणों का HTML प्रदर्शन सुधारा गया _(Kiryl Kaveryn)_
 - UI में तालिकाओं की शैली अधिक साफ़-सुथरी की गई _(Kiryl Kaveryn)_
 
@@ -77,7 +77,7 @@ Organic Maps के जून अपडेट में आज़माने �
 - जर्मन और फ़्रेंच अनुवाद अपडेट किए गए _(Wuzzy, Alexander Borsuk)_
 - चीनी, सर्बियाई और कैटलन के लिए गलत “onto street” आवाज़ मार्गदर्शन अनुवाद ठीक किए गए _(Alexander Borsuk)_
 
-## शुरुआती सुविधाएँ आज़माने और समस्याओं की सूचना देने के लिए बीटा परीक्षण में शामिल हो जाओ:
+## शुरुआती सुविधाएँ आज़माने और समस्याओं की सूचना देने के लिए बीटा परीक्षण में शामिल हों:
 
 - [iOS][testflight]
 - [Android][firebase]

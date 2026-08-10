@@ -20,7 +20,7 @@ Su Android, se memorizzi le tue mappe su una scheda SD, la causa più probabile 
 Se l'app continua a bloccarsi, controlla [il nostro GitHub](https://github.com/organicmaps/organicmaps/issues/) per problemi simili e [contattaci](mailto:support@organicmaps.app) e fornisci quanto segue:
 
 * Una descrizione dettagliata del problema e i passaggi per riprodurlo
-* Versione di mappe organiche
+* Versione di Organic Maps
 * Modello del dispositivo e versione del sistema operativo (Android o iOS)
 
 O in alternativa:

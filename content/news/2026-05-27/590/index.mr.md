@@ -8,7 +8,7 @@ taxonomies:
 
 दुसऱ्या Organic Maps मे अपडेटमध्ये फिक्स आणि सुधारणांसह भेट (अधिक तपशील खाली). Organic Maps टीम प्रकल्पाला पाठिंबा देणाऱ्या, [देणगी देणाऱ्या](@/donate/index.mr.md), शब्द पसरवणाऱ्या, चांगली पुनरावलोकने लिहिणाऱ्या आणि [योगदान देणाऱ्या](@/contribute/index.mr.md) प्रत्येकाची आभारी आहे. सुधारित [सार्वजनिक वाहतूक](@/news/2026-05-08/580/index.mr.md)सह आणखी नवीन वैशिष्ट्ये येणार आहेत, ट्यून राहा!
 
-<https://get.omaps.org> वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर अपडेट मिळव.
+<https://get.omaps.org> वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर अपडेट मिळवा.
 
 ### सर्व प्लॅटफॉर्म
 
@@ -49,15 +49,16 @@ taxonomies:
 - ट्रॅक प्लेस-पेजच्या समस्या आणि “Open In” बटण दुरुस्त केले _(Mikhail Listratsenka)_
 
 ### Linux आणि macOS
+
 - `.desktop` फाइल टिप्पण्यांमध्ये चिनी भाषांतर जोडले _(DeepChirp)_
 
-## लवकर वैशिष्ट्ये वापरण्यासाठी आणि समस्या अहवाल करण्यासाठी बीटा चाचणीत सामील हो:
+## लवकर वैशिष्ट्ये वापरण्यासाठी आणि समस्या अहवाल करण्यासाठी बीटा चाचणीत सामील व्हा:
 
 - [iOS][testflight]
 - [Android][firebase]
 - [Flathub/Flatpak][flathub]
 
-Organic Maps सोबत सहज प्रवास कर, आणि तुझ्या साहसांना शोध! ✈️🚅🚌🚢🌴🗺️🌎
+Organic Maps सोबत सहज प्रवास करा, आणि तुमच्या साहसांना शोधा! ✈️🚅🚌🚢🌴🗺️🌎
 
 Organic Maps टीम
 

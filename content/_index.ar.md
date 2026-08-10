@@ -1,10 +1,10 @@
 ---
-description: 'خرائط مفصلة بدون إنترنت لأجل المسافرين، السياح، السائقين، المتنزهين و راكبي الدراجات، انشأت من قبل مؤسسي تطبيق MapsWithMe (Maps.Me).'
+description: "خرائط مفصلة بدون إنترنت لأجل المسافرين، السياح، السائقين، المتنزهين و راكبي الدراجات، انشأت من قبل مؤسسي تطبيق MapsWithMe (Maps.Me)."
 extra:
   menu_title: الرئيسية
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال حيثما أردت بدون الإنترنت'
+title: "Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال حيثما أردت بدون الإنترنت"
 ---
 
 **Organic Maps** هو تطبيق خرائط ونظام تحديد المواقع العالمي (GPS) بدون اتصال يركز على الخصوصية للمشي لمسافات طويلة وركوب الدراجات والقيادة. مجاني تمامًا. بدون إعلانات. لا تتبع أو تجسس. تم تطويره بحب من قبل مجتمع المصادر المفتوحة ونفس الأشخاص الذين أنشأوا تطبيق [**MapsWithMe**][mapswithme]/**Maps.Me**. مدعوم ببيانات [OpenStreetMap][openstreetmap].
@@ -13,7 +13,7 @@ title: 'Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال
 
 > في ديسمبر 2025، وصلت Organic Maps إلى [6 ملايين تثبيت](@/news/2025-12-31/500/index.ar.md). [ساعدنا](@/donate/index.ar.md) لنتوسع!
 
-### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery]، [Accrescent][accrescent] {#install}
+### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery], [Obtainium][obtainium]، [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -30,15 +30,12 @@ title: 'Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال
 
 ## المميزات
 
-تطبيق Organic Maps هو الرفيق الأفضل للمسافرين، السياح، المتنزهين و راكبي
-الدراجات:
+تطبيق Organic Maps هو الرفيق الأفضل للمسافرين، السياح، المتنزهين و راكبي الدراجات:
 
-- خرائط تفصيلية بدون إنترنت مع أماكن غير متواجدة في تطبيقات أخرى، بفضل
-  [OpenStreetMap][openstreetmap]
+- خرائط تفصيلية بدون إنترنت مع أماكن غير متواجدة في تطبيقات أخرى، بفضل [OpenStreetMap][openstreetmap]
 - مسارات الدراجات، مسارات للتنزه، ومسارات للمشي
 - الخطوط الكنتورية، المرتفعات، القمم والمنحدرات
-- المشي خطوة بخطوة وركوب الدراجة وقيادة السيارة مع التوجيه الصوتي وAndroid
-  Auto
+- المشي خطوة بخطوة وركوب الدراجة وقيادة السيارة مع التوجيه الصوتي وAndroid Auto
 - خرائط المترو/الأنفاق
 - بحث سريع في الخريطة بدون الحاجة لإنترنت
 - الإشارات المرجعية والمسارات بتنسيقات KML، KMZ، GPX, GeoJSON
@@ -60,7 +57,6 @@ Organic Maps خالصٌ وعضوي! صنع بحبٍ:
 - بدون إعلانات
 - لا تتبع أو تجسس
 - لا يجمع بيانات المستخدمين
-- لا يتصل سرً بأي خادم
 - لاحاجة للتسجيل
 - لا تعليمات اجبارية
 - لا بريد إلكتروني مزعج
@@ -148,25 +144,16 @@ Organic Maps لا يطلب أذونات مفرطة للتجسس عليك:
 Organic Maps هو [برنامج مفتوح المصدر][github] مرخّص تحت ترخيص Apache 2.0.
 
 - يرجى الانضمام إلى برنامجنا التجريبي، واقتراح ميزاتك، والإبلاغ عن الأخطاء:
-  * [iOS تجريبي (TestFlight)][testflight]
-  * [أندرويد تجريبي (Firebase)][firebase]
-  * [سطح مكتب Linux تجريبي (Flatpak)][flatpak]
-  * [سطح مكتب Linux تجريبي (حزم)][repology]
-- أبلغ عن الأخطاء أو المشكلات إلى [متعقب المشكلات][issues] أو [مراسلتنا عبر
-  البريد الإلكتروني][email].
+  - [iOS تجريبي (TestFlight)][testflight]
+  - [أندرويد تجريبي (Firebase)][firebase]
+  - [سطح مكتب Linux تجريبي (Flatpak)][flatpak]
+  - [سطح مكتب Linux تجريبي (حزم)][repology]
+- أبلغ عن الأخطاء أو المشكلات إلى [متعقب المشكلات][issues] أو [مراسلتنا عبر البريد الإلكتروني][email].
 - [مناقشة][ideas] الأفكار أو اقتراح طلبات الميزات.
-- اشترك في [قناة Telegram][telegram] أو في [فضاء ماتركس][matrix] للحصول على
-  التحديثات.
-- انضم إلى [مجموعة Telegram][telegram_chat_ar] للمناقشة مع المستخدمين الآخرين.
+- اشترك في [قناة Telegram][telegram] أو في [فضاء ماتركس][matrix] للحصول على التحديثات.
+- انضم إلى [مجموعة Telegram العربية][telegram_chat_ar] أو [المجموعة الإنجليزية][telegram_chat] للمناقشة مع المستخدمين الآخرين.
 - زُر [صفحة Github][github].
-- تابع تحديثاتنا في [فيسبوك][facebook]،
-  [تويتر][twitter]، [Instagram][instagram]، [Reddit][reddit]،
-  [FOSStodon][fosstodon]، [Bluesky][bluesky]، [Threads][threads]، [LinkedIn][LinkedIn]، [TikTok][tiktok].
-- انضم (أو أنشئ وأخبرنا) إلى المجتمعات المحلية: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- تابع تحديثاتنا في [فيسبوك][facebook]، [تويتر][twitter]، [Instagram][instagram]، [Reddit][reddit]، [FOSStodon][fosstodon]، [Bluesky][bluesky]، [Threads][threads]، [LinkedIn][LinkedIn]، [TikTok][tiktok].
 
 [fork]: https://ar.wikipedia.org/wiki/تفرع_معدل_(برمجة)
 

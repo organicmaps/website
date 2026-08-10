@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nou, wanneer jy 'n bus- of tramhalte kies, kan jy die openbare vervoer roetenommers sien. Dit is net die eerste stap! Volgende beplan ons om openbare vervoer roetes direk op die kaart te wys. iOS gebruikers kan ook die herontwerpe OpenStreetMap bydrae knoppies geniet ("Voeg Plek By" en "Redigeer Plek").
+Nou, wanneer jy 'n bus- of tramhalte kies, kan jy die openbare vervoer roetenommers sien. Dit is net die eerste stap! Volgende beplan ons om openbare vervoer roetes direk op die kaart te wys. iOS gebruikers kan ook die herontwerpe OpenStreetMap bydrae knoppies geniet (“Voeg Plek By” en “Redigeer Plek”).
 
 Ons is dankbaar ❤️ vir ons bydraers, sowel as vir [julle donasies](@/donate/index.af.md) en [julle ondersteuning](@/contribute/index.af.md).
 
@@ -27,22 +27,24 @@ Ons is dankbaar ❤️ vir ons bydraers, sowel as vir [julle donasies](@/donate/
 - Bygewerkte vertalings (Weblate bydraers)
 
 #### iOS
-- NUUT! Herontwerpe "Voeg Plek by OpenStreetMap" en "Redigeer Plek" knoppies (Kiryl Kaveryn)
+
+- NUUT! Herontwerpe “Voeg Plek by OpenStreetMap” en “Redigeer Plek” knoppies (Kiryl Kaveryn)
 - Reggestelde springende kruishare wanneer nuwe plek by OpenStreetMap gevoeg word (Kiryl Kaveryn)
 - Nuwe ikone vir kaart lae en kieslys (Kiryl Kaveryn, @euf)
 - Oortollige hoogte bywerkings verwyder tydens spoor opname (Kiryl Kaveryn)
 - Veelvuldige lyn titels word nou ondersteun in die boekmerk lys kieser (David Martinez) en in die Plek Inligting Bladsy (Kiryl Kaveryn)
 - Spoor opname begin/stop en punt bywerkings is nou meer betroubaar (Kiryl Kaveryn)
 - Alle raakbare ikone op die plek besonderhede bladsy gebruik nou 'n eenvormige blou kleur (Kiryl Kaveryn)
-- Die "Werk kaarte by om by te dra" knoppie word nou in die kieslys gewys wanneer kaarte te verouderd is (Kiryl Kaveryn)
+- Die “Werk kaarte by om by te dra” knoppie word nou in die kieslys gewys wanneer kaarte te verouderd is (Kiryl Kaveryn)
 
 #### Android
+
 - Nuwe laag ikone (Andrei Shkrob, @euf)
 - Die raak area vir die redigeer boekmerk (potlood) ikoon is nou groter (Kavi Khalique)
 - Reggestelde ineenstorting wanneer sekere roetes gestoor word en seldsame ineenstorting by opstart (Viktor Govako)
 - Baan leiding is reggestel in sommige navigasie gevalle (Andrei Shkrob)
 - Oorspronklike volgorde van vooraf bepaalde boekmerk/spoor kleure herstel (Andrei Shkrob)
-- Reggestelde "Maak Soektog Skoon" knoppie wanneer kombuise geredigeer word (Ansh Jain)
+- Reggestelde “Maak Soektog Skoon” knoppie wanneer kombuise geredigeer word (Ansh Jain)
 
 Kry die nuutste September weergawe van Organic Maps van die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid].
 

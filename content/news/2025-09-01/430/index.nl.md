@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Nu kun je, wanneer je een bus- of tramhalte selecteert, de lijnnummers van het openbaar vervoer zien. Dit is slechts de eerste stap! Vervolgens zijn we van plan openbaar vervoer routes direct op de kaart te tonen. iOS-gebruikers kunnen ook genieten van de opnieuw ontworpen OpenStreetMap bijdrage-knoppen ("Plaats toevoegen" en "Plaats bewerken").
+Nu kun je, wanneer je een bus- of tramhalte selecteert, de lijnnummers van het openbaar vervoer zien. Dit is slechts de eerste stap! Vervolgens zijn we van plan openbaar vervoer routes direct op de kaart te tonen. iOS-gebruikers kunnen ook genieten van de opnieuw ontworpen OpenStreetMap bijdrage-knoppen (“Plaats toevoegen” en “Plaats bewerken”).
 
 We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/donate/index.nl.md) en [jullie steun](@/contribute/index.nl.md).
 
@@ -27,22 +27,24 @@ We zijn dankbaar ❤️ voor onze bijdragers, evenals voor [jullie donaties](@/d
 - Bijgewerkte vertalingen (Weblate bijdragers)
 
 #### iOS
-- NIEUW! Opnieuw ontworpen "Plaats toevoegen aan OpenStreetMap" en "Plaats bewerken" knoppen (Kiryl Kaveryn)
+
+- NIEUW! Opnieuw ontworpen “Plaats toevoegen aan OpenStreetMap” en “Plaats bewerken” knoppen (Kiryl Kaveryn)
 - Springend dradenkruis gecorrigeerd bij het toevoegen van een nieuwe plaats aan OpenStreetMap (Kiryl Kaveryn)
 - Nieuwe pictogrammen voor kaartlagen en menu (Kiryl Kaveryn, @euf)
 - Overbodige hoogte-updates weggenomen tijdens track-opname (Kiryl Kaveryn)
 - Meerregelige titels worden nu ondersteund in de bladwijzerlijst-selector (David Martinez) en in de plaatsinformatiepagina (Kiryl Kaveryn)
 - Track-opname start/stop en punt-updates zijn nu betrouwbaarder (Kiryl Kaveryn)
 - Alle aantikbare pictogrammen op de plaatsdetailpagina gebruiken nu een uniforme blauwe kleur (Kiryl Kaveryn)
-- De "Kaarten bijwerken om bij te dragen" knop wordt nu getoond in het menu wanneer kaarten te verouderd zijn (Kiryl Kaveryn)
+- De “Kaarten bijwerken om bij te dragen” knop wordt nu getoond in het menu wanneer kaarten te verouderd zijn (Kiryl Kaveryn)
 
 #### Android
+
 - Nieuwe laagpictogrammen (Andrei Shkrob, @euf)
 - Het aanraakgebied voor het bladwijzer bewerken (potlood) pictogram is nu groter (Kavi Khalique)
 - Crash gecorrigeerd bij het opslaan van bepaalde routes en zeldzame crash bij opstarten (Viktor Govako)
 - Rijstrook-begeleiding is gecorrigeerd in sommige navigatiegevallen (Andrei Shkrob)
 - Oorspronkelijke volgorde van voorgedefinieerde bladwijzer/track kleuren hersteld (Andrei Shkrob)
-- "Zoekopdracht wissen" knop gecorrigeerd bij het bewerken van keukens (Ansh Jain)
+- “Zoekopdracht wissen” knop gecorrigeerd bij het bewerken van keukens (Ansh Jain)
 
 Haal de nieuwste september-versie van Organic Maps op van de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid].
 

@@ -4,7 +4,7 @@ slug: kodėl-takeliai-nėra-patikimai-įrašomi-fone-android
 description: Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“,
   „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“,
   „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba
-  užmušti „Organic Maps“ programą fone.
+  užmušti Organic Maps programą fone.
 updated: '2024-10-05'
 taxonomies:
   faq:
@@ -15,9 +15,9 @@ aliases:
   - /lt/faq/bookmarks/android-track-recording/
 ---
 
-Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti „Organic Maps“ programą fone.
+Numatytieji akumuliatoriaus optimizavimo nustatymai „Samsung“, „Huawei“, „Google“, „Xiaomi“, „OnePlus“, „Meizu“, „Asus“, „Wiko“, „Lenovo“, „Oppo“, „Vivo“, „Realme“, „Sony“, „Motorola“, „HTC“ ir kituose įrenginiuose gali sustabdyti arba užmušti Organic Maps programą fone.
 
-This is especially true for modern Android versions:
+Tai ypač aktualu šiuolaikinėms „Android“ versijoms:
 - Android 16
 - Android 15
 - Android 14
@@ -25,4 +25,4 @@ This is especially true for modern Android versions:
 - Android 12
 - Android 11
 
-Tikslūs veiksmai, kaip priversti natūralius žemėlapius (ir kitas programas) veikti fone, išvardyti čia: [dontkillmyapp.com](https://dontkillmyapp.com)
+Tikslūs veiksmai, kaip priversti Organic Maps programą (ir kitas programas) veikti fone, išvardyti čia: [dontkillmyapp.com](https://dontkillmyapp.com)

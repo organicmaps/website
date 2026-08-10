@@ -13,6 +13,7 @@ P.S. Kontakta oss via e-post på <sdk@organicmaps.app> om du är intresserad av 
 P.P.S. Visste du om API: et som du redan kan använda i din app om Organic Maps-appen också är installerad? Kolla in det här: <https://omaps.app/api>
 
 ### Release anteckningar
+
 * OSM-kartdata från och med 10 mars
 * Wikipedia-data från och med den 1 mars
 * Mer detaljerade höjdisolinjer för kinesiska provinser (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Visste du om API: et som du redan kan använda i din app om Organic Maps-
 * Fixat flera krascher, förbättrat stabilitet och prestanda (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Lagt till historik över nyligen använda kategorier i redigeraren (Rahul Kolluru)
 * Förbättrad svep-upp-gest på skärmen för ruttplanering (Kiryl Kaveryn)
 * Fast position för linjal för CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Förbättrad visning av öppettider för företag (Anton P)
 * Lagt till grå ikon för dolda listor (Alexander Borsuk)
 
 ### Översättningar
+
 * Förbättrade beskrivningar av länder (alnzrv)
 * Tillämpade rumänska översättningsfixar av Eugen Dedu (Alexander Borsuk)
 * Uppdaterade namn på länder (Viktor Govako)

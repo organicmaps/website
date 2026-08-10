@@ -43,12 +43,13 @@ För dem som missade, den [tidigare uppdateringen den 7 oktober](https://organic
 - Bättre startskärm vid uppstart (Andrei Shkrob)
 
 ### Android Auto
+
 - Återställ rutten efter avbokning (Andrei Shkrob)
 - Fixade krascher på vissa enheter (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- POI-detaljer visar nu formatet "namn | ref" (Viktor Govako)
+- POI-detaljer visar nu formatet “namn | ref” (Viktor Govako)
 - mörkt läge synkroniseras automatiskt med systeminställningar (DeepChirp)
 
 ## Fotnoter

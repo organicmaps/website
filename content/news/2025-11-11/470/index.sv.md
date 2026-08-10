@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Efter radering av en bokmärkeslista eller spårlista (via knappen "Mer") återgår appen nu korrekt till föregående skärm (Kiryl Kaveryn)
-- Lade till länkar till sociala medier [TikTok][tiktok], [Threads][threads] och [Bluesky][bluesky] på skärmen "Om" (Kiryl Kaveryn)
-- Lade till "Rapportera ett fel" till appikons snabbåtgärder på hemskärmen (Kiryl Kaveryn)
+- Efter radering av en bokmärkeslista eller spårlista (via knappen “Mer”) återgår appen nu korrekt till föregående skärm (Kiryl Kaveryn)
+- Lade till länkar till sociala medier [TikTok][tiktok], [Threads][threads] och [Bluesky][bluesky] på skärmen “Om” (Kiryl Kaveryn)
+- Lade till “Rapportera ett fel” till appikons snabbåtgärder på hemskärmen (Kiryl Kaveryn)
 - Åtgärdat olika app- och CarPlay-krascher (Kiryl Kaveryn)
 
 ### Android

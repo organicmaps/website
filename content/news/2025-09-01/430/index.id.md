@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Sekarang, ketika Anda memilih halte bus atau tram, Anda dapat melihat nomor rute transportasi umum. Ini hanya langkah pertama! Selanjutnya, kami berencana menampilkan rute transportasi umum langsung di peta. Pengguna iOS juga dapat menikmati tombol kontribusi OpenStreetMap yang didesain ulang ("Tambah Tempat" dan "Edit Tempat").
+Sekarang, ketika kamu memilih halte bus atau tram, kamu dapat melihat nomor rute transportasi umum. Ini hanya langkah pertama! Selanjutnya, kami berencana menampilkan rute transportasi umum langsung di peta. Pengguna iOS juga dapat menikmati tombol kontribusi OpenStreetMap yang didesain ulang (“Tambah Tempat” dan “Edit Tempat”).
 
-Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi Anda](@/donate/index.id.md) dan [dukungan Anda](@/contribute/index.id.md).
+Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi kamu](@/donate/index.id.md) dan [dukungan kamu](@/contribute/index.id.md).
 
 ### Catatan Rilis Terperinci
 
@@ -27,27 +27,29 @@ Kami berterima kasih ❤️ kepada kontributor kami, serta atas [donasi Anda](@/
 - Terjemahan diperbarui (kontributor Weblate)
 
 #### iOS
-- BARU! Tombol "Tambah Tempat ke OpenStreetMap" dan "Edit Tempat" yang didesain ulang (Kiryl Kaveryn)
+
+- BARU! Tombol “Tambah Tempat ke OpenStreetMap” dan “Edit Tempat” yang didesain ulang (Kiryl Kaveryn)
 - Garis bidik yang melompat diperbaiki saat menambah tempat baru ke OpenStreetMap (Kiryl Kaveryn)
 - Ikon baru untuk lapisan peta dan menu (Kiryl Kaveryn, @euf)
 - Pembaruan elevasi yang berlebihan dihapus selama perekaman trek (Kiryl Kaveryn)
 - Judul multi-baris sekarang didukung dalam pemilih daftar bookmark (David Martinez) dan di Halaman Informasi Tempat (Kiryl Kaveryn)
 - Pembaruan mulai/berhenti perekaman trek dan titik sekarang lebih andal (Kiryl Kaveryn)
 - Semua ikon yang dapat disentuh di halaman detail tempat sekarang menggunakan warna biru yang seragam (Kiryl Kaveryn)
-- Tombol "Perbarui peta untuk berkontribusi" sekarang ditampilkan di menu ketika peta terlalu usang (Kiryl Kaveryn)
+- Tombol “Perbarui peta untuk berkontribusi” sekarang ditampilkan di menu ketika peta terlalu usang (Kiryl Kaveryn)
 
 #### Android
+
 - Ikon lapisan baru (Andrei Shkrob, @euf)
 - Area sentuh untuk ikon edit bookmark (pensil) sekarang lebih besar (Kavi Khalique)
 - Crash diperbaiki saat menyimpan rute tertentu dan crash langka saat startup (Viktor Govako)
 - Panduan jalur telah diperbaiki dalam beberapa kasus navigasi (Andrei Shkrob)
 - Urutan asli warna bookmark/trek yang telah ditentukan dipulihkan (Andrei Shkrob)
-- Tombol "Hapus Pencarian" diperbaiki saat mengedit masakan (Ansh Jain)
+- Tombol “Hapus Pencarian” diperbaiki saat mengedit masakan (Ansh Jain)
 
 Dapatkan versi September terbaru Organic Maps dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 
-Jika Anda belum mencobanya, sekarang Anda dapat mengaktifkan fitur di pengaturan Organic Maps untuk melihat nama bookmark di peta. Selain itu, ikon pensil ✎ sekarang digunakan sebagai cara yang lebih cepat untuk mengedit bookmark.
+Jika kamu belum mencobanya, sekarang kamu dapat mengaktifkan fitur di pengaturan Organic Maps untuk melihat nama bookmark di peta. Selain itu, ikon pensil ✎ sekarang digunakan sebagai cara yang lebih cepat untuk mengedit bookmark.
 
-P.S. Jangan lupa, Anda dapat mendaftar untuk program beta testing kami untuk mendapatkan akses awal ke fitur eksperimental dan yang akan datang—[untuk iOS][testflight] dan [untuk Android][firebase].
+P.S. Jangan lupa, kamu dapat mendaftar untuk program beta testing kami untuk mendapatkan akses awal ke fitur eksperimental dan yang akan datang—[untuk iOS][testflight] dan [untuk Android][firebase].
 
 {{ references() }}

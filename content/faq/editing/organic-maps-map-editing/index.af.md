@@ -13,7 +13,7 @@ aliases:
   - /af/faq/editing/organic-maps-map-editing/
 ---
 
-Met Organiese kaarte kan jy maklik ontbrekende plekke by die kaart voeg, bykomende besonderhede soos openingstye byvoeg of verkeerde inskrywings regmaak. Deur dit te doen, verbeter jy die kaartdata vir alle gebruikers.
+Met Organic Maps kan jy maklik ontbrekende plekke by die kaart voeg, bykomende besonderhede soos openingstye byvoeg of verkeerde inskrywings regmaak. Deur dit te doen, verbeter jy die kaartdata vir alle gebruikers.
 
 Aangesien [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) die primêre bron van kaartdata in Organic Maps is, word die wysigings wat jy maak na OSM gestuur. OSM is 'n gemeenskapsprojek om 'n gratis en oop kaart te bou. Dit werk soortgelyk aan Wikipedia, so alles wat jy redigeer word beskikbaar vir miljoene gebruikers regoor die wêreld. Sluit aan by die gemeenskap en help om 'n beter kaart vir almal te maak!
 

@@ -20,22 +20,26 @@ Ahogyan talán már észrevetted, megjelent a júliusi Organic Maps frissítés.
 ## Részletes változásnapló
 
 ### Térkép és helyek
+
 - OpenStreetMap-adatok frissítve július 14-i állapotra
 - Az [OpenStreetMap](https://www.openstreetmap.org)-re beküldött jegyzetek mostantól pontosan az általad kiválasztott helyre kerülnek, nem pedig az egész utca vagy terület közepére _(Alexander Borsuk)_
 - Javított helyválasztás a térkép megérintésekor azokon a területeken, amelyek átnyúlnak a 180°-os antimeridiánon _(Viktor Govako)_
 - A nyomvonalak magassági profiljai már nem mutatnak elavult vagy üres grafikont a nyomvonal törlése után _(Kiryl Kaveryn)_
 
 ### Tömegközlekedés
+
 - A megálló-, átszállóhely- és állomásnevek mostantól fehér kontúrral jelennek meg, hogy világos és sötét témákban egyaránt jól olvashatók legyenek _(Viktor Govako)_
 - A metróréteg helyesen jelenik meg újra, miután bezárod a tömegközlekedési útvonal előnézetét _(Mikhail Listratsenka)_
 
 ### Útvonaltervezés és navigáció
+
 - Az útvonalra vonatkozó figyelmeztetések (útdíjak, kompok, földutak, lépcsők stb.) mostantól minden alternatív útvonal esetében megjelennek _(Viktor Govako)_
 - Kijavítottuk az útvonal létrehozása közben ritkán előforduló lefagyást _(Viktor Govako)_
 - A zsákutcák, valamint a korlátozott forgalmú utak kiindulási és végpontjainak kezelésének javítása _(Viktor Govako)_
 - Kijavítottuk a hibás és hiányzó kanyarodási utasításokat _(Alexander Borsuk)_
 
 ### iOS
+
 - Új „Keresési előzmények mentése” beállítás, amely lehetővé teszi az előzmények kikapcsolását és elrejtését, ha nem szeretnéd megőrizni őket _(Kiryl Kaveryn)_
 - Új „Szerkesztés” gomb a könyvjelzők egyszerűbb eltávolításához _(Kiryl Kaveryn)_
 - A könyvjelzők mostantól automatikusan elmentődnek, amikor elhagyod a képernyőt _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Ahogyan talán már észrevetted, megjelent a júliusi Organic Maps frissítés.
 - Egyéb kisebb felületi fejlesztések _(Kiryl Kaveryn)_
 
 ### Android
+
 - A nyitvatartási idők mostantól osztott műszakokat is mutatnak (például az ebédszünetet), a mai nappal kezdődnek, és a teljes hetet külön görgetési terület nélkül jelenítik meg _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Tisztább keresősáv, amelyben a törlés és a hangvezérlés gombjai egybeolvadtak, a törlés ikon már nem mozog, valamint elrendezési javítások fekvő módhoz és a telefon elforgatásához _(Mikhail Listratsenka)_
 - Átdolgozott könyvjelző- és nyomvonalszerkesztő _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Ahogyan talán már észrevetted, megjelent a júliusi Organic Maps frissítés.
 - Kijavított összeomlások _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - A letölthető térképek mostantól ábécé sorrendben jelennek meg _(goncalo109560)_
 
 ### Fordítások
+
 - Javított kínai megfogalmazás _(Chenxi Zhao)_
 - Frissített ukrán fordítások _(Nnifria)_
 - Kijavítottuk a térkép régióneveinek olasz fordításait _(Vittorio Bertola)_

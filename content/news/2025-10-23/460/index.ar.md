@@ -43,12 +43,13 @@ taxonomies:
 - شاشة بداية أفضل عند بدء التشغيل (Andrei Shkrob)
 
 ### Android Auto
+
 - استعادة المسار بعد الإلغاء (Andrei Shkrob)
 - إصلاح الأعطال على بعض الأجهزة (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- تفاصيل POI تظهر الآن بتنسيق "الاسم | المرجع" (Viktor Govako)
+- تفاصيل POI تظهر الآن بتنسيق «الاسم | المرجع» (Viktor Govako)
 - الوضع الداكن يتزامن تلقائيًا مع إعدادات النظام (DeepChirp)
 
 ## حواشي

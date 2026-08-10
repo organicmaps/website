@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installeer die Augustus vrystelling van Organic Maps, laai die nuutste kaarte af, en ontdek gewilde stap- en fietsroetes regoor die wêreld! Druk die "Lae" knoppie bo-links om gekleurde fiets- en MTB-roetes te sien, sowel as amptelike stap- en wandelroetes. Sien jy niks naby nie? Dan is dit tyd om die ontbrekende inligting by OpenStreetMap.org te voeg, aangesien alle kaartdata in Organic Maps van daardie oop, gratis en gemeenskap-gedrewe projek kom.
+Installeer die Augustus vrystelling van Organic Maps, laai die nuutste kaarte af, en ontdek gewilde stap- en fietsroetes regoor die wêreld! Druk die “Lae” knoppie bo-links om gekleurde fiets- en MTB-roetes te sien, sowel as amptelike stap- en wandelroetes. Sien jy niks naby nie? Dan is dit tyd om die ontbrekende inligting by OpenStreetMap.org te voeg, aangesien alle kaartdata in Organic Maps van daardie oop, gratis en gemeenskap-gedrewe projek kom.
 
 Het jy geweet dat enige opgenome of ingevoerde GPX/KML roete op die kaart gekies kan word? Roetes met hoogte data sal hul hoogte grafiek wys.
 
@@ -13,7 +13,7 @@ Om boekmerk name op die kaart te sien, aktiveer hierdie nuwe funksie in die Orga
 
 Dankie aan ons bydraers ❤️ en jou [skenkings](@/donate/index.af.md), daar's baie meer in hierdie opdatering.
 
-P.S. ...en baie meer kom! Jou ondersteuning help en motiveer ons om die beste kaarte te bou – saam.
+P.S. …en baie meer kom! Jou ondersteuning help en motiveer ons om die beste kaarte te bou – saam.
 
 ### Gedetailleerde Vrystelling Notas
 
@@ -24,6 +24,7 @@ P.S. ...en baie meer kom! Jou ondersteuning help en motiveer ons om die beste ka
 - Landbou en bosbou paaie is nou uitgesluit van roete beplanning (Viktor Govako)
 
 #### iOS
+
 - Opgelos verskeie ongelukke en verbeterde iCloud sinkronisasie stabiliteit (Kiryl Kaveryn)
 - Bekendgestel multi-lyn titels in boekmerk lyste (David Martinez)
 - Reggestel die zoom probleem wanneer 'n roete gedeselekteer word (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...en baie meer kom! Jou ondersteuning help en motiveer ons om die beste ka
 - Vervang ontbrekende vertalings met Engelse alternatiewe (Viktor Govako)
 
 #### Android
+
 - Bygevoeg roete hoogte grafiek en roete seleksie op die kaart (Kavi Khalique)
 - Los 'n OpenStreetMap nota as 'n nuut bygevoegde interessepunt (POI) nog nie ondersteun word in Organic Maps nie (hemanggs)
 - Verwyder OpenGL ES 2.0 ondersteuning ten gunste van OpenGL ES 3.0 (renderexpert)
 - Wys boekmerk ikone in die kleur kieser (Andrei Shkrob)
 
 #### Styl & Ikoon Verbeterings
+
 - Vurk en mes ikoon vir kos hawens (David Martinez)
 - Gemerk vleilande met horisontale strepe (Viktor Govako)
 - Ikone vir kitskos en fietse in soek resultate en boekmerke (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...en baie meer kom! Jou ondersteuning help en motiveer ons om die beste ka
 - Reggestel prioriteit instellings vir diplomatiese kantore (Viktor Govako)
 
 #### Allerhande Verbeterings
-- Tik "cop" in die soek vind polisie stasies, terwyl "film" of "movie theater" bioskope vind (theadventurer62)
+
+- Tik “cop” in die soek vind polisie stasies, terwyl “film” of “movie theater” bioskope vind (theadventurer62)
 - Maak oop in ander program wys nou die gekose punt in Google Maps (Alexander Borsuk)
 - Spaanse vertaling vir meer soek kategorieë (David Martinez)
 - Opgedateerde verskeie vertalings (Weblate bydraers)

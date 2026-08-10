@@ -6,13 +6,14 @@ taxonomies:
   news: ["releases"]
 ---
 
-L'actualització de març d'Organic Maps ha trigat més temps a causa de les correccions urgents i la revisió de Google Play. L'actualització d'[Accrescent][accrescent] encara no està llesta a causa de problemes amb la botiga d'aplicacions Accrescent. Obteniu l'actualització a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+L'actualització de març d'Organic Maps ha trigat més temps a causa de les correccions urgents i la revisió de Google Play. L'actualització d'[Accrescent][accrescent] encara no està llesta a causa de problemes amb la botiga d'aplicacions Accrescent. Obtén l'actualització a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
-P.D. Contacteu-nos per correu electrònic a <sdk@organicmaps.app> si esteu interessats en un SDK per a iOS/Android/Linux/MacOS/Windows amb mapes fora de línia que podeu reutilitzar als vostres projectes.
+P.D. Contacta'ns per correu electrònic a <sdk@organicmaps.app> si estàs interessat en un SDK per a iOS/Android/Linux/MacOS/Windows amb mapes fora de línia que pots reutilitzar als teus projectes.
 
-P.P.D. Sabíeu que ja podeu utilitzar l'API a la vostra aplicació si Organic Maps també està instal·lada? Consulteu-ho aquí: <https://omaps.app/api>
+P.P.D. Sabies que ja pots utilitzar l'API a la teva aplicació si Organic Maps també està instal·lada? Consulta-ho aquí: <https://omaps.app/api>
 
 ### Notes de la versió
+
 * Dades del mapa OSM a 10 de març
 * Dades de Wikipedia a 1 de març
 * Isolínies d'elevació més detallades per a les províncies xineses (ZiyiGaoCN)
@@ -25,22 +26,25 @@ P.P.D. Sabíeu que ja podeu utilitzar l'API a la vostra aplicació si Organic Ma
 * Corregits diversos errors fatals, millorada l'estabilitat i el rendiment (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Afegit l'historial de categories utilitzades recentment a l'Editor (Rahul Kolluru)
 * Millorat el gest de lliscar cap amunt a la pantalla de planificació de rutes (Kiryl Kaveryn)
 * Corregida la posició del regle per a CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Millorada la visualització dels horaris d'obertura dels comerços (Anton P)
 * Afegida icona grisa per a les llistes ocultes (Alexander Borsuk)
 
 ### Traduccions
+
 * Millorades les descripcions de països (alnzrv)
 * Aplicades les correccions de traducció al romanès d'Eugen Dedu (Alexander Borsuk)
 * Actualitzats els noms de països (Viktor Govako)
 * Actualitzades les traduccions dels col·laboradors de Weblate (Viktor Govako)
 * Corregida la traducció a l'ucraïnès (Nnifria)
 
-Uniu-vos a la prova beta per provar funcions noves i informar de problemes:
+Uneix-te a la prova beta per provar funcions noves i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 

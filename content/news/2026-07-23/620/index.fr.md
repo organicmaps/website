@@ -20,22 +20,26 @@ Grâce à tes [dons](@/donate/index.fr.md) et à tes [commentaires](@/contribute
 ## Journal des modifications détaillé
 
 ### Carte et lieux
+
 - Données OpenStreetMap mises à jour au 14 juillet
 - Les notes signalées à [OpenStreetMap](https://www.openstreetmap.org) sont désormais placées à l’endroit précis que tu as sélectionné, et non plus au milieu de la rue ou de la zone concernée _(Alexander Borsuk)_
 - Amélioration de la sélection des lieux lorsque l’on appuie sur la carte dans les régions qui traversent l’antiméridien de 180° _(Viktor Govako)_
 - Les profils d’altitude des traces n’affichent plus de graphiques obsolètes ou vides après la suppression d’une trace _(Kiryl Kaveryn)_
 
 ### Transports en commun
+
 - Les noms des arrêts, des correspondances et des stations sont désormais entourés d’un contour blanc afin de rester lisibles aussi bien avec le thème clair qu’avec le thème sombre _(Viktor Govako)_
 - La couche « Métro » s’affiche à nouveau correctement une fois que tu as fermé l’aperçu d’un itinéraire en transports en commun _(Mikhail Listratsenka)_
 
 ### Itinéraires et navigation
+
 - Les avertissements relatifs à l’itinéraire (péages, ferries, routes non goudronnées, marches, etc.) s’affichent désormais pour tous les itinéraires alternatifs _(Viktor Govako)_
 - Correction d’un blocage rare lors de la création d’un itinéraire _(Viktor Govako)_
 - Amélioration de la gestion des impasses ainsi que des points de départ et d’arrivée sur les routes à circulation restreinte _(Viktor Govako)_
 - Correction des instructions de virage erronées ou manquantes _(Alexander Borsuk)_
 
 ### iOS
+
 - Nouveau paramètre « Enregistrer l’historique de recherche » qui te permet de désactiver l’historique et de le masquer si tu préfères ne pas le conserver _(Kiryl Kaveryn)_
 - Nouveau bouton « Modifier » pour supprimer plus facilement les signets _(Kiryl Kaveryn)_
 - Les signets sont désormais enregistrés automatiquement lorsque tu quittes l’écran _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Grâce à tes [dons](@/donate/index.fr.md) et à tes [commentaires](@/contribute
 - Autres améliorations mineures de l’interface _(Kiryl Kaveryn)_
 
 ### Android
+
 - Les horaires d’ouverture indiquent désormais les horaires coupés (comme la pause déjeuner), commencent au jour actuel et affichent toute la semaine sans zone de défilement distincte _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Une barre de recherche plus épurée, dotée d’un bouton combiné « Effacer » et « Commande vocale », d’une icône « Effacer » qui ne bouge plus, ainsi que de corrections de mise en page en mode paysage et après la rotation du téléphone _(Mikhail Listratsenka)_
 - Éditeur de signets et de traces remanié _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Grâce à tes [dons](@/donate/index.fr.md) et à tes [commentaires](@/contribute
 - Correction de plantages _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Bureau
+
 - La liste des cartes disponibles au téléchargement est désormais classée par ordre alphabétique _(goncalo109560)_
 
 ### Traductions
+
 - Formulation chinoise améliorée _(Chenxi Zhao)_
 - Traductions en ukrainien mises à jour _(Nnifria)_
 - Correction des traductions en italien des noms des régions de la carte _(Vittorio Bertola)_

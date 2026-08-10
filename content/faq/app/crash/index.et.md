@@ -12,20 +12,20 @@ aliases:
   - /et/faq/app/crash/
 ---
 
-Kui salvestate kaardid Androidis SD-kaardile, on kõige tõenäolisem põhjus vigane SD-kaart. Saate teha järgmist.
-1. Kustutage kõik allalaaditud kaardid ja laadige need uuesti SD-kaardile alla (ei pruugi uuesti töötada).
-2. Kustutage kõik allalaaditud kaardid, valige Seadme sisemälu ja laadige kaardid uuesti alla.
-3. Vormindage SD-kaart ja laadige kaardid uuesti alla.
-4. Ostke uus SD-kaart (soovitatav)
+Kui salvestad kaardid Androidis SD-kaardile, on kõige tõenäolisem põhjus vigane SD-kaart. Saad teha järgmist.
+1. Kustuta kõik allalaaditud kaardid ja laadi need uuesti SD-kaardile alla (ei pruugi uuesti töötada).
+2. Kustuta kõik allalaaditud kaardid, vali Seadme sisemälu ja laadi kaardid uuesti alla.
+3. Vorminda SD-kaart ja laadi kaardid uuesti alla.
+4. Osta uus SD-kaart (soovitatav)
 
-Kui rakendus ikka jookseb kokku, kontrollige sarnaste probleemide osas [meie GitHubit](https://github.com/organicmaps/organicmaps/issues/) ja [võtke meiega ühendust](mailto:support@organicmaps.app) ja esitage järgmine teave.
+Kui rakendus ikka jookseb kokku, kontrolli sarnaste probleemide osas [meie GitHubit](https://github.com/organicmaps/organicmaps/issues/) ja [võta meiega ühendust](mailto:support@organicmaps.app) ja esita järgmine teave.
 
 * Probleemi üksikasjalik kirjeldus ja sammud selle taasesitamiseks
-* Orgaaniliste kaartide versioon
+* Organic Mapsi versioon
 * Seadme mudel ja operatsioonisüsteemi versioon (Android või iOS)
 
 Või alternatiivina:
 1. Luba logide salvestamine rakenduse seadetes.
 2. Sundtaaskäivita rakendus.
 3. Korda krahhi.
-4. Saada meile logifail "Teata veast" kaudu Teave ekraanil ja lisa lühike krahhi kirjeldus.
+4. Saada meile logifail „Teata veast“ kaudu Teave ekraanil ja lisa lühike krahhi kirjeldus.

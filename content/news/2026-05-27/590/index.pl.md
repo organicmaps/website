@@ -49,6 +49,7 @@ Pobierz aktualizację na <https://get.omaps.org> lub w [App Store][appstore], [G
 - Naprawiono problemy ze stroną miejsca śladu i przyciskiem „Otwórz w" _(Mikhail Listratsenka)_
 
 ### Linux i macOS
+
 - Dodano chińskie tłumaczenia do komentarzy pliku `.desktop` _(DeepChirp)_
 
 ## Dołącz do testów wersji beta, aby wypróbować wcześniejsze funkcje i zgłosić problemy:

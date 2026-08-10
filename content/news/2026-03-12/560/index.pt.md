@@ -6,13 +6,14 @@ taxonomies:
   news: ["releases"]
 ---
 
-A atualização de março dos Organic Maps demorou mais tempo devido a correcções e à revisão do Google Play. A atualização [Accrescent][accrescent] ainda não está pronta devido a problemas com a loja de aplicações Accrescent. Obtenha a atualização em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
+A atualização de março dos Organic Maps demorou mais tempo devido a correcções e à revisão do Google Play. A atualização [Accrescent][accrescent] ainda não está pronta devido a problemas com a loja de aplicações Accrescent. Obtém a atualização em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
 
-P.S. Contacte-nos por email para <sdk@organicmaps.app> se estiver interessado em iOS/Android/Linux/MacOS/Windows SDK com mapas offline que possa reutilizar nos seus projectos.
+P.S. Contacta-nos por email para <sdk@organicmaps.app> se estiveres interessado em iOS/Android/Linux/MacOS/Windows SDK com mapas offline que possas reutilizar nos teus projectos.
 
 P.P.S. Sabias da API que já podes utilizar na tua aplicação se a aplicação Organic Maps também estiver instalada? Vê aqui: <https://omaps.app/api>
 
 ### Notas de lançamento
+
 * Dados do mapa OSM a partir de 10 de março
 * Dados da Wikipedia a partir de 1 de março
 * Isolinhas de elevação mais detalhadas para as províncias chinesas (ZiyiGaoCN)
@@ -25,22 +26,25 @@ P.P.S. Sabias da API que já podes utilizar na tua aplicação se a aplicação 
 * Corrigidas várias falhas, melhorada a estabilidade e o desempenho (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Adicionado histórico de categorias utilizadas recentemente no Editor (Rahul Kolluru)
 * Melhorado o gesto de deslizar para cima no ecrã de planeamento do itinerário (Kiryl Kaveryn)
 * Posição da régua corrigida para CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Melhoria da apresentação do horário de funcionamento das empresas (Anton P)
 * Adicionado ícone cinzento para listas ocultas (Alexander Borsuk)
 
 ### Traduções
+
 * Descrições de países melhoradas (alnzrv)
 * Correcções aplicadas à tradução romena por Eugen Dedu (Alexander Borsuk)
 * Nomes de países actualizados (Viktor Govako)
 * Atualização das traduções dos colaboradores do Weblate (Viktor Govako)
 * Correção da tradução para ucraniano (Nnifria)
 
-Participe nos testes beta para experimentar as primeiras funcionalidades e comunicar problemas:
+Participa nos testes beta para experimentar as primeiras funcionalidades e comunicar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Ώρα να ενημερώσετε το Organic Maps! Ταχύτερες διασυνοριακές και διαπεριφερειακές διαδρομές, φρέσκα δεδομένα χάρτη OSM και πολλές διορθώσεις σφαλμάτων για Android στη δεύτερη ενημέρωση εφαρμογής του 2026.
+Ώρα να ενημερώσεις το Organic Maps! Ταχύτερες διασυνοριακές και διαπεριφερειακές διαδρομές, φρέσκα δεδομένα χάρτη OSM και πολλές διορθώσεις σφαλμάτων για Android στη δεύτερη ενημέρωση εφαρμογής του 2026.
 
-Εγκαταστήστε το από το [get.omaps.org](https://get.omaps.org) ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
+Εγκατάστησέ το από το [get.omaps.org](https://get.omaps.org) ή από το [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].
 
 ### Τι νέο υπάρχει
 

@@ -18,19 +18,19 @@ Da alle in Organic Maps verwendeten Kartendaten von [OpenStreetMap.org (OSM)](ht
 
 ## OpenStreetMap-Editoren
 
-Für die Bearbeitung von OSM gibt es mehrere Möglichkeiten. Wenn du einen Laptop oder Desktop-Computer verfügbar hast, verwende besser den [ID-Editor](https://www.openstreetmap.org/edit), der im Browser benutzt werden kann. Der ID-Editor ist für Anfänger einfach zu bedienen und ein größerer Bildschirm, eine größere Maus und Tastatur erleichtern die Kartenbearbeitung.
+Für die Bearbeitung von OSM gibt es mehrere Möglichkeiten. Wenn du einen Laptop oder Desktop-Computer verfügbar hast, verwende besser den [ID Editor](https://www.openstreetmap.org/edit), der im Browser benutzt werden kann. Der ID Editor ist für Anfänger einfach zu bedienen und ein größerer Bildschirm, eine größere Maus und Tastatur erleichtern die Kartenbearbeitung.
 
 Für die erweiterte Kartenbearbeitung von einem Mobilgerät aus verwende [Go Map](https://apps.apple.com/us/app/go-map/id592990211) für iOS oder [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) für Android. Go Map ist für Anfänger einfach, während Vespucci sich an fortgeschrittenere Benutzer richtet. LearnOSM bietet Tutorials für [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) und [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
 Für einfachere Bearbeitungen mit mehr Spaß kannst du auch die [Every Door-App](https://every-door.app/) für iOS und Android und die [StreetComplete-App](https://streetcomplete.app/) für Android ausprobieren.
 
-#### ID-Editor
+#### ID Editor
 
 Um OpenStreetMap mit ID zu bearbeiten, nutze folgende Schritte:
 
 1. Erstelle ein neues Konto oder melde dich bei [OpenStreetMap.org](https://www.openstreetmap.org) an.
 2. Finde den Ort, den du auf OpenStreetMap.org bearbeiten möchtest, und klicke oben auf *Bearbeiten*
-3. *Starte den Rundgang* und folge dem kurzen Tutorial, das den ID-Editor erklärt
+3. *Starte den Rundgang* und folge dem kurzen Tutorial, das den ID Editor erklärt
 4. Bearbeite die Karte
 5. Lade deine Änderungen hoch
 
@@ -53,8 +53,8 @@ Die OpenStreetMap-Datenbank enthält Objekte wie Knoten, Wege, Flächen und Bezi
 Da dies komplizierter klingt als es ist, geben wir ein Beispiel:
 Ein Restaurant ist z.B. als Knoten oder Fläche mit dem Tag `amenity=restaurant` zugeordnet. Weitere Tags wie `cuisine=*` oder `opening_hours=*` können dann für weitere Details verwendet werden.
 
-> Beachte, dass der ID-Editor die interne Datenstruktur vor den Benutzern versteckt, um die Benutzerfreundlichkeit zu erhöhen. Aber zum Lesen der Wiki-Dokumentation ist ein kurzer Überblick über die Datenstruktur hilfreich.
-Im ID-Editor kannst du die Tags sehen, die ID versteckt hat, indem du den Abschnitt *Eigenschaften* im Seitenbereich *Bearbeite Objekt* ausklappst.
+> Beachte, dass der ID editor die interne Datenstruktur vor den Benutzern versteckt, um die Benutzerfreundlichkeit zu erhöhen. Aber zum Lesen der Wiki-Dokumentation ist ein kurzer Überblick über die Datenstruktur hilfreich.
+Im ID Editor kannst du die Tags sehen, die ID versteckt hat, indem du den Abschnitt *Eigenschaften* im Seitenbereich *Bearbeite Objekt* ausklappst.
 
 ## OSM-Notizen {#osm-note}
 
@@ -62,7 +62,7 @@ Wenn du keine Zeit hast oder das Problem zu kompliziert ist, um die OSM-Daten se
 
 1. Erstelle ein neues Konto oder melde dich bei [OpenStreetMap.org](https://www.openstreetmap.org) an.
    > Du kannst auch anonyme Hinweise öffnen. Dies wird jedoch nicht empfohlen, da du nicht benachrichtigt wirst, wenn das Problem gelöst wurde oder weitere Fragen bestehen.
-2. Zoome auf den Kartenstandort auf [OpenStreetMap.org](https://www.openstreetmap.org) und drücken Sie *Einen Fehler/Hinweis zu den Kartendaten melden* (zweites Symbol von unten im rechten Menü). Ziehe dann die blaue Kartenmarkierung an die genaue Position.
+2. Zoome auf den Kartenstandort auf [OpenStreetMap.org](https://www.openstreetmap.org) und drücke *Einen Fehler/Hinweis zu den Kartendaten melden* (zweites Symbol von unten im rechten Menü). Ziehe dann die blaue Kartenmarkierung an die genaue Position.
    > Versuche, so präzise wie möglich zu sein.
 3. Gib eine detaillierte Beschreibung des Kartenproblems ein und klicke auf *Hinweis/Fehler melden*
    > Für Geschäfte z.B. gebe den Namen an und erwähne, was dort verkauft oder welche Dienstleistungen angeboten werden.

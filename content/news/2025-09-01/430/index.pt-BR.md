@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Agora, quando você seleciona um ponto de ônibus ou bonde, pode ver os números das linhas de transporte público. Este é apenas o primeiro passo! Em seguida, planejamos mostrar as rotas de transporte público diretamente no mapa. Usuários do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar lugar" e "Editar lugar").
+Agora, quando você seleciona um ponto de ônibus ou bonde, pode ver os números das linhas de transporte público. Este é apenas o primeiro passo! Em seguida, planejamos mostrar as rotas de transporte público diretamente no mapa. Usuários do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados (“Adicionar lugar” e “Editar lugar”).
 
 Somos gratos ❤️ aos nossos colaboradores, assim como pelas [suas doações](@/donate/index.pt-BR.md) e [seu apoio](@/contribute/index.pt-BR.md).
 
@@ -27,22 +27,24 @@ Somos gratos ❤️ aos nossos colaboradores, assim como pelas [suas doações](
 - Traduções atualizadas (colaboradores Weblate)
 
 #### iOS
-- NOVO! Botões "Adicionar lugar ao OpenStreetMap" e "Editar lugar" redesenhados (Kiryl Kaveryn)
+
+- NOVO! Botões “Adicionar lugar ao OpenStreetMap” e “Editar lugar” redesenhados (Kiryl Kaveryn)
 - Mira saltitante corrigida ao adicionar um novo lugar ao OpenStreetMap (Kiryl Kaveryn)
 - Novos ícones para camadas do mapa e menu (Kiryl Kaveryn, @euf)
 - Atualizações de elevação redundantes removidas durante a gravação de trilha (Kiryl Kaveryn)
 - Títulos de múltiplas linhas agora são suportados no seletor de lista de favoritos (David Martinez) e na página de informações do local (Kiryl Kaveryn)
 - Atualizações de início/parada de gravação de trilha e pontos agora são mais confiáveis (Kiryl Kaveryn)
 - Todos os ícones tocáveis na página de detalhes do local agora usam uma cor azul unificada (Kiryl Kaveryn)
-- O botão "Atualizar mapas para contribuir" agora é mostrado no menu quando os mapas estão muito desatualizados (Kiryl Kaveryn)
+- O botão “Atualizar mapas para contribuir” agora é mostrado no menu quando os mapas estão muito desatualizados (Kiryl Kaveryn)
 
 #### Android
+
 - Novos ícones de camada (Andrei Shkrob, @euf)
 - A área de toque para o ícone de editar favorito (lápis) agora é maior (Kavi Khalique)
 - Travamento corrigido ao salvar certas rotas e travamento raro na inicialização (Viktor Govako)
 - Orientação de faixa foi corrigida em alguns casos de navegação (Andrei Shkrob)
 - Ordem original de cores predefinidas de favoritos/trilhas restaurada (Andrei Shkrob)
-- Botão "Limpar busca" corrigido ao editar culinárias (Ansh Jain)
+- Botão “Limpar busca” corrigido ao editar culinárias (Ansh Jain)
 
 Obtenha a versão mais recente de setembro do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
 

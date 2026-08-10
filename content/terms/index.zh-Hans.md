@@ -8,7 +8,7 @@ weight: 1000
 
 本应用程序根据Apache许可协议2.0版（“许可证”）授权；除非遵守许可协议的规定，否则不得使用。
 
-您可以在[http://www.apache.org/licenses/LICENSE-2.0][license]获得许可协议副本
+你可以在[http://www.apache.org/licenses/LICENSE-2.0][license]获得许可协议副本
 
 除非适用法律要求或者书面同意，否则根据许可协议分发的软件均按照“原样”分发，不附带任何明示或暗示的担保或条件。有关许可协议下针对特定语言的管理许可和限制，请查阅许可协议。
 

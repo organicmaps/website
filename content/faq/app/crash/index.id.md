@@ -12,7 +12,7 @@ aliases:
   - /id/faq/app/crash/
 ---
 
-Di Android, jika Anda menyimpan peta di kartu SD, kemungkinan besar penyebabnya adalah kartu SD yang rusak. Anda dapat:
+Di Android, jika kamu menyimpan peta di kartu SD, kemungkinan besar penyebabnya adalah kartu SD yang rusak. Kamu dapat:
 1. Hapus semua peta yang diunduh dan unduh ulang lagi ke kartu SD (mungkin tidak berfungsi lagi).
 2. Hapus semua peta yang diunduh, pilih Penyimpanan perangkat internal, dan unduh ulang peta.
 3. Format kartu SD dan unduh ulang peta.
@@ -21,11 +21,11 @@ Di Android, jika Anda menyimpan peta di kartu SD, kemungkinan besar penyebabnya 
 Jika aplikasi masih mogok, silakan periksa [Github kami](https://github.com/organicmaps/organicmaps/issues/) untuk masalah serupa, dan [hubungi kami](mailto:support@organicmaps.app) dan berikan yang berikut:
 
 * Penjelasan rinci tentang masalah dan langkah-langkah untuk mereproduksinya
-* Versi Peta Organik
+* Versi Organic Maps
 * Model perangkat dan versi OS (Android atau iOS)
 
 Atau sebagai alternatif:
 1. Aktifkan perekaman log di pengaturan aplikasi.
 2. Paksa mulai ulang aplikasi.
 3. Reproduksi kerusakan.
-4. Kirimkan file log kepada kami melalui "Laporkan bug" di layar Tentang dan tambahkan deskripsi singkat tentang kerusakan tersebut.
+4. Kirimkan file log kepada kami melalui “Laporkan bug” di layar Tentang dan tambahkan deskripsi singkat tentang kerusakan tersebut.

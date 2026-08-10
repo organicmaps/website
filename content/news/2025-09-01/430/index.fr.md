@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Maintenant, lorsque vous sélectionnez un arrêt de bus ou de tramway, vous pouvez voir les numéros de ligne des transports publics. Ce n'est que la première étape ! Ensuite, nous prévoyons d'afficher les itinéraires de transport public directement sur la carte. Les utilisateurs iOS peuvent également profiter des boutons de contribution OpenStreetMap redessinés (« Ajouter un lieu » et « Modifier le lieu »).
+Maintenant, lorsque tu sélectionnes un arrêt de bus ou de tramway, tu peux voir les numéros de ligne des transports publics. Ce n'est que la première étape ! Ensuite, nous prévoyons d'afficher les itinéraires de transport public directement sur la carte. Les utilisateurs iOS peuvent également profiter des boutons de contribution OpenStreetMap redessinés (« Ajouter un lieu » et « Modifier le lieu »).
 
-Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos dons](@/donate/index.fr.md) et [votre soutien](@/contribute/index.fr.md).
+Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.fr.md).
 
 ### Notes de version détaillées
 
@@ -27,6 +27,7 @@ Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos 
 - Traductions mises à jour (contributeurs Weblate)
 
 #### iOS
+
 - NOUVEAU ! Boutons « Ajouter un lieu à OpenStreetMap » et « Modifier le lieu » redessinés (Kiryl Kaveryn)
 - Réticule sautant corrigé lors de l'ajout d'un nouveau lieu à OpenStreetMap (Kiryl Kaveryn)
 - Nouvelles icônes pour les couches de carte et le menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos 
 - Le bouton « Mettre à jour les cartes pour contribuer » est maintenant affiché dans le menu lorsque les cartes sont trop obsolètes (Kiryl Kaveryn)
 
 #### Android
+
 - Nouvelles icônes de couche (Andrei Shkrob, @euf)
 - La zone tactile pour l'icône de modification de signet (crayon) est maintenant plus grande (Kavi Khalique)
 - Plantage corrigé lors de la sauvegarde de certains itinéraires et plantage rare au démarrage (Viktor Govako)
@@ -44,10 +46,10 @@ Nous sommes reconnaissants ❤️ envers nos contributeurs, ainsi que pour [vos 
 - Ordre original des couleurs prédéfinies de signets/pistes restauré (Andrei Shkrob)
 - Bouton « Effacer la recherche » corrigé lors de la modification des cuisines (Ansh Jain)
 
-Obtenez la dernière version de septembre d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid].
+Obtiens la dernière version de septembre d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid].
 
-Si vous ne l'avez pas encore essayé, vous pouvez maintenant activer une fonctionnalité dans les paramètres d'Organic Maps pour voir les noms de signets sur la carte. De plus, une icône crayon ✎ est maintenant utilisée comme moyen plus rapide de modifier les signets.
+Si tu ne l'as pas encore essayé, tu peux maintenant activer une fonctionnalité dans les paramètres d'Organic Maps pour voir les noms de signets sur la carte. De plus, une icône crayon ✎ est maintenant utilisée comme moyen plus rapide de modifier les signets.
 
-P.S. N'oubliez pas, vous pouvez vous inscrire à notre programme de test bêta pour obtenir un accès anticipé aux fonctionnalités expérimentales et à venir—[pour iOS][testflight] et [pour Android][firebase].
+P.S. N'oublie pas, tu peux t'inscrire à notre programme de test bêta pour obtenir un accès anticipé aux fonctionnalités expérimentales et à venir—[pour iOS][testflight] et [pour Android][firebase].
 
 {{ references() }}

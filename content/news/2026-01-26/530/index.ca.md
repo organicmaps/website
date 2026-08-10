@@ -8,7 +8,7 @@ taxonomies:
 
 És hora d'actualitzar Organic Maps! Rutes més ràpides entre països i regions, dades de mapa OSM actualitzades i moltes correccions d'errors per a Android a la segona actualització de l'aplicació del 2026.
 
-Instal·leu-la des de [get.omaps.org](https://get.omaps.org) o des de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+Instal·la-la des de [get.omaps.org](https://get.omaps.org) o des de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
 ### Novetats
 
@@ -29,7 +29,7 @@ Instal·leu-la des de [get.omaps.org](https://get.omaps.org) o des de [App Store
 * Correcció de la superposició de la barra d'eines d'encaminament en pantalles petites _(Anton P)_
 * Correcció d'un bloqueig de cerca a Android 5 i 6 _(Alexander Borsuk)_
 * Correccions de traduccions de PMF a Android 5 _(Alexander Borsuk)_
-* Correcció d'un error "No hi ha prou espai lliure" quan s'actualitzen els mapes _(Alexander Borsuk)_
+* Correcció d'un error «No hi ha prou espai lliure» quan s'actualitzen els mapes _(Alexander Borsuk)_
 
 ### Traduccions
 
@@ -40,11 +40,11 @@ Instal·leu-la des de [get.omaps.org](https://get.omaps.org) o des de [App Store
 * Afegides traduccions que faltaven per a ponts en desús _(Alexander Borsuk)_
 
 
-Uniu-vos a les proves beta per provar funcions primerenques i informar de problemes:
+Uneix-te a les proves beta per provar funcions primerenques i informar de problemes:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Feu una donació](@/donate/index.ca.md) i [col·laboreu](@/contribute/index.ca.md) per crear una millor alternativa centrada en la privadesa als mapes d'Apple i Google.
+[Fes una donació](@/donate/index.ca.md) i [col·labora](@/contribute/index.ca.md) per crear una millor alternativa centrada en la privadesa als mapes d'Apple i Google.
 
 Amb estima,
 L'equip d'Organic Maps

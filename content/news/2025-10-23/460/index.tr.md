@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-23 Ekim sürümünde düzeltmeler ve iyileştirmelere odaklandık. Aşağıdaki ayrıntılı listeye göz atın.
+23 Ekim sürümünde düzeltmeler ve iyileştirmelere odaklandık. Aşağıdaki ayrıntılı listeye göz at.
 
 Kaçıranlar için, [önceki 7 Ekim güncellemesi](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) GeoJSON içe aktarma, kayıt izi istatistikleri, Android Auto'da hız sınırı görüntüleme, OSM açıklama etiketlerini görüntüleme (bunları görmek için arama kutusuna `?description` yazın), iOS'ta bir iz üzerinde yer imi kaydetme ve daha birçok iyileştirme ekledi.
+) GeoJSON içe aktarma, kayıt izi istatistikleri, Android Auto'da hız sınırı görüntüleme, OSM açıklama etiketlerini görüntüleme (bunları görmek için arama kutusuna `?description` yaz), iOS'ta bir iz üzerinde yer imi kaydetme ve daha birçok iyileştirme ekledi.
 
 ## Tüm Platformlar
 
@@ -32,7 +32,7 @@ Kaçıranlar için, [önceki 7 Ekim güncellemesi](https://organicmaps.app/news/
 - Navigasyon modunda beyaz üzerine beyaz durum çubuğu düzeltildi (Kiryl Kaveryn)
 - Navigasyonu Başlat düğmesi boyutu artırıldı (Kiryl Kaveryn)
 - iPad'de rota planlarken boş alan kaldırıldı (Kiryl Kaveryn)
-- Organic Maps sizden App Store'da değerlendirmenizi isteyebilir. İyi yorumlarınız ekibimizi motive ediyor!
+- Organic Maps senden App Store'da değerlendirmeni isteyebilir. İyi yorumların ekibimizi motive ediyor!
 
 ## Android
 
@@ -43,6 +43,7 @@ Kaçıranlar için, [önceki 7 Ekim güncellemesi](https://organicmaps.app/news/
 - Başlangıçta daha iyi açılış ekranı (Andrei Shkrob)
 
 ### Android Auto
+
 - İptalden sonra rotayı geri yükle (Andrei Shkrob)
 - Bazı cihazlarda çökmeler düzeltildi (Andrei Shkrob)
 
@@ -53,11 +54,11 @@ Kaçıranlar için, [önceki 7 Ekim güncellemesi](https://organicmaps.app/news/
 
 ## Dipnotlar
 
-Organic Maps mümkün ❤️ katkıda bulunanlarımız, [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md) sayesinde.
+Organic Maps mümkün ❤️ katkıda bulunanlarımız, [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.tr.md) sayesinde.
 
-En son Organic Maps sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edinin.
+En son Organic Maps sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edin.
 
-Not: Erken özellikler için beta testine katılın:
+Not: Erken özellikler için beta testine katıl:
 - [iOS][testflight]
 - [Android][firebase].
 

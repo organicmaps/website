@@ -20,22 +20,26 @@ Tack vare dina [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/
 ## Detaljerad ändringslogg
 
 ### Karta och platser
+
 - OpenStreetMap-data är uppdaterade per den 14 juli
 - Anteckningar som skickas till [OpenStreetMap](https://www.openstreetmap.org) placeras nu exakt på den plats du valt, istället för mitt på hela gatan eller området _(Alexander Borsuk)_
 - Förbättrat platsval när man trycker på kartan i områden som sträcker sig över 180°-antimeridianen _(Viktor Govako)_
 - Höjdprofilerna för spår visar inte längre föråldrade eller tomma diagram efter att ett spår har raderats _(Kiryl Kaveryn)_
 
 ### Kollektivtrafik
+
 - Namnen på hållplatser, byten och stationer har nu en vit kontur för att vara läsbara både i ljusa och mörka teman _(Viktor Govako)_
 - Tunnelbanelagret visas igen på rätt sätt när du stänger förhandsvisningen av en kollektivtrafikrutt _(Mikhail Listratsenka)_
 
 ### Ruttplanering och navigering
+
 - Vägvarningar (vägtullar, färjor, oasfalterade vägar, trappsteg och så vidare) visas nu för alla alternativa rutter _(Viktor Govako)_
 - Ett sällsynt problem som orsakade att programmet hängde sig vid skapandet av en rutt har åtgärdats _(Viktor Govako)_
 - Förbättrad hantering av återvändsgränder samt start- och målpunkter på vägar med trafikbegränsningar _(Viktor Govako)_
 - Rättat felaktiga och saknade svänganvisningar _(Alexander Borsuk)_
 
 ### iOS
+
 - Ny inställning ”Spara sökhistorik” som gör att du kan stänga av historiken och dölja den om du hellre inte vill spara den _(Kiryl Kaveryn)_
 - Ny knapp ”Redigera” för att enklare ta bort bokmärken _(Kiryl Kaveryn)_
 - Bokmärken sparas nu automatiskt när du lämnar skärmen _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Tack vare dina [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/
 - Andra mindre förbättringar av gränssnittet _(Kiryl Kaveryn)_
 
 ### Android
+
 - Öppettiderna visar nu delade arbetspass (till exempel lunchrast), börjar med dagens datum och visar hela veckan utan ett separat rullningsområde _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Ett överskådligare sökfält med en kombinerad rensnings- och röstknapp, en rensningsikon som inte längre flyttar sig samt layoutkorrigeringar för liggande läge och telefonrotation _(Mikhail Listratsenka)_
 - Omarbetad bokmärkes- och spårredigerare _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Tack vare dina [donationer](@/donate/index.sv.md) och [synpunkter](@/contribute/
 - Krascher har åtgärdats _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Listan över kartor som går att ladda ner är nu sorterad i alfabetisk ordning _(goncalo109560)_
 
 ### Översättningar
+
 - Förbättrad kinesisk formulering _(Chenxi Zhao)_
 - Uppdaterade ukrainska översättningar _(Nnifria)_
 - Korrigeringar av de italienska översättningarna av kartregionernas namn _(Vittorio Bertola)_

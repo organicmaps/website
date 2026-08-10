@@ -43,6 +43,7 @@ Für diejenigen, die es verpasst haben: Das [vorherige Update vom 7. Oktober](ht
 - Besserer Startbildschirm beim Start (Andrei Shkrob)
 
 ### Android Auto
+
 - Route nach Abbruch wiederherstellen (Andrei Shkrob)
 - Korrigierte Abstürze auf einigen Geräten (Andrei Shkrob)
 

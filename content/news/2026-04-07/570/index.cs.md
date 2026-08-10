@@ -6,29 +6,29 @@ taxonomies:
   news: ["releases"]
 ---
 
-Tato dubnová verze je kromě mnoha oprav chyb a vylepšení postavena na třech jednoduchých pravdách: turisté chtějí vědět, kolik nastoupají, každý chce, aby vyhledávání adres prostě fungovalo, a nikdo by neměl mít pocit, že padá z okraje mapy. Díky našim přispěvatelům, tvým skvělým recenzím, [darům](@/donate/index.cs.md) a [podpoře](@/contribute/index.cs.md) jsme zvládli vyřešit všechny tři — a ještě mnohem víc.
+Tato dubnová verze je kromě mnoha oprav chyb a vylepšení postavena na třech jednoduchých pravdách: turisté chtějí vědět, kolik nastoupají, každý chce, aby vyhledávání adres prostě fungovalo, a nikdo by neměl mít pocit, že padá z okraje mapy. Díky našim přispěvatelům, vašim skvělým recenzím, [darům](@/donate/index.cs.md) a [podpoře](@/contribute/index.cs.md) jsme zvládli vyřešit všechny tři — a ještě mnohem víc.
 
-Ať už tě jaro láká na nové stezky, nebo podzim na jižní polokouli vyzývá k poslední dlouhé vyjížďce, doufáme, že ti tato aktualizace usnadní a zkrášlí další cestu.
+Ať už vás jaro láká na nové stezky, nebo podzim na jižní polokouli vyzývá k poslední dlouhé vyjížďce, doufáme, že vám tato aktualizace usnadní a zkrášlí další cestu.
 
-Dubnovou aktualizaci si stáhneš na adrese <https://get.omaps.org> nebo v obchodech [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Dubnovou aktualizaci si stáhnete na adrese <https://get.omaps.org> nebo v obchodech [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
 ## Nejdůležitější novinky
 
-- **Klepni na trasu a uvidíš stoupání.** Pěší a cyklistické trasy lze nyní vybírat přímo na mapě. Klepnutím na trasu ji zvýrazníš a okamžitě uvidíš její výškový profil.
-- **Dva miliony dalších adres v USA a chytřejší vyhledávání.** V aplikaci jsou nyní k dispozici další adresy zpracované z dat sčítání lidu TIGER. Kromě chytřejšího porovnávání čísel domů to zlepšuje výsledky vyhledávání všude. Nezapomeň, že přidání chybějících adres do [OpenStreetMap](https://www.openstreetmap.org) je vždy nejlepší způsob, jak vyhledávání zlepšit.
-- **Mapa bez okrajů.** Organic Maps nyní plynule přechází přes antimeridián (±180° zeměpisné délky). Přetahuj a otáčej mezi Čukotkou a Aljaškou nebo mezi Novým Zélandem a Fidži bez neviditelných stěn a nepříjemných resetů — Tichý oceán konečně působí kulatě.
-- **Přebarvi celou kategorii najednou.** Jedním klepnutím změníš barvu všech záložek a/nebo tras v kategorii — drobnost, která promění nepřehledný archiv výletů z minulého léta v něco, co skutečně chceš znovu otevřít.
+- **Klepněte na trasu a uvidíte stoupání.** Pěší a cyklistické trasy lze nyní vybírat přímo na mapě. Klepnutím na trasu ji zvýrazníte a okamžitě uvidíte její výškový profil.
+- **Dva miliony dalších adres v USA a chytřejší vyhledávání.** V aplikaci jsou nyní k dispozici další adresy zpracované z dat sčítání lidu TIGER. Kromě chytřejšího porovnávání čísel domů to zlepšuje výsledky vyhledávání všude. Nezapomeňte, že přidání chybějících adres do [OpenStreetMap](https://www.openstreetmap.org) je vždy nejlepší způsob, jak vyhledávání zlepšit.
+- **Mapa bez okrajů.** Organic Maps nyní plynule přechází přes antimeridián (±180° zeměpisné délky). Přetahujte a otáčejte mezi Čukotkou a Aljaškou nebo mezi Novým Zélandem a Fidži bez neviditelných stěn a nepříjemných resetů — Tichý oceán konečně působí kulatě.
+- **Přebarvěte celou kategorii najednou.** Jedním klepnutím změníte barvu všech záložek a/nebo tras v kategorii — drobnost, která promění nepřehledný archiv výletů z minulého léta v něco, co skutečně chcete znovu otevřít.
 
 ## Poznámky k vydání
 
 ### Všechny platformy
 
 - NOVINKA! Lepší vyhledávání v USA díky dalším dvěma milionům adres zpracovaných z dat sčítání lidu TIGER (Viktor Govako)
-- NOVINKA! Vylepšené vícebarevné vykreslování pěších a cyklistických tras; klepnutím na trasu ji vybereš a zobrazíš její výškový graf (Viktor Govako)
+- NOVINKA! Vylepšené vícebarevné vykreslování pěších a cyklistických tras; klepnutím na trasu ji vyberete a zobrazíte její výškový graf (Viktor Govako)
 - Data OpenStreetMap aktualizována k 4. dubnu
 - Data Wikipedie aktualizována k 1. dubnu
 - Upravena aproximace nastoupaných a naklesaných metrů v grafech tras tak, aby lépe odpovídala hodnotám zobrazeným v jiných aplikacích (Viktor Govako)
-- Po výběru aktuální polohy na mapě můžeš nyní do OpenStreetMap přidat nové místo (Mikhail Listratsenka)
+- Po výběru aktuální polohy na mapě můžete nyní do OpenStreetMap přidat nové místo (Mikhail Listratsenka)
 - Přidány ikony pro food courty a městské brány (David Martinez)
 - Přidány podkategorie obchodů s oblečením: dámské, pánské, dětské, svatební, sportovní a spodní prádlo, a také typy kanceláří (Viktor Govako)
 - Aktualizované kategorie vyhledávání: přidán „Chléb“ pro pekárny, kuchyně „shawarma“ a další vylepšení synonym (Viktor Govako)
@@ -56,7 +56,7 @@ Dubnovou aktualizaci si stáhneš na adrese <https://get.omaps.org> nebo v obcho
 - Přidány svislé oddělovače pro vícesegmentové trasy ve výškovém grafu (Kiryl Kaveryn)
 - Opraven výběr bodu ve výškovém grafu pro interpolované body (Kiryl Kaveryn)
 - Vylepšená gesta modálních oken: přichycení k nejbližšímu kroku, zavření při posunu od okraje a obnovení předchozího stavu při opětovném otevření (Kiryl Kaveryn)
-- Nyní můžeš spustit platnou trasu, i když jsi vyzván ke stažení dalších map (Kiryl Kaveryn)
+- Nyní můžete spustit platnou trasu, i když jste vyzváni ke stažení dalších map (Kiryl Kaveryn)
 - Zvětšena dotyková plocha tlačítek v navigační liště „Přidat místo“ (Noahdyn)
 - Opraven pád při exportu tras (Alexander Borsuk, Kiryl Kaveryn)
 - Opraveno vyhledávání v seznamu záložek a tras při klepnutí z detailu místa (Kiryl Kaveryn)
@@ -80,7 +80,7 @@ Dubnovou aktualizaci si stáhneš na adrese <https://get.omaps.org> nebo v obcho
 - Opraveno ukládání nebo export záložek a tras, který v některých jazykových prostředích vytvářel nefunkční soubory kvůli desetinným oddělovačům závislým na místním nastavení (Alexander Borsuk)
 
 
-Zapoj se do beta testování, vyzkoušej si nové funkce a nahlas problémy:
+Zapojte se do beta testování, vyzkoušejte si nové funkce a nahlaste problémy:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -46,9 +46,10 @@ Kry die opdatering by <https://get.omaps.org> of op die [App Store][appstore], [
 - NUUT! Spoortekste en HTML-beskrywings word nou ondersteun, op dieselfde wyse as beskrywings vir boekmerke. Druk die potlood-ikoon om 'n beskrywing by te voeg. _(Mikhail Listratsenka)_
 - NUUT! Kies enige kleur vir spore, nie net 'n beperkte stel nie _(Mikhail Listratsenka)_
 - Koreaanse, Chinese en Japannese gebruikers sal nou behoorlike lettertipes sien, gebaseer op die toestel se lokalisering _(Alexander Borsuk)_
-- Spoor-plekbladsy-probleme en die "Open in"-knoppie is reggestel _(Mikhail Listratsenka)_
+- Spoor-plekbladsy-probleme en die “Open in”-knoppie is reggestel _(Mikhail Listratsenka)_
 
 ### Linux en macOS
+
 - Chinese vertalings bygevoeg tot die `.desktop`-lêeropmerkings _(DeepChirp)_
 
 ## Sluit aan by beta-toetsing om vroeë funksies te probeer en probleme aan te meld:

@@ -43,12 +43,13 @@ Galdu zutenendako, [aurreko urriaren 7ko eguneraketak](https://organicmaps.app/n
 - Hasiera pantaila hobea abioan (Andrei Shkrob)
 
 ### Android Auto
+
 - Leheneratu bidea ezeztatu ondoren (Andrei Shkrob)
 - Konponduta kraskak gailu batzuetan (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- POI xehetasunek orain "izena | ref" formatua erakusten dute (Viktor Govako)
+- POI xehetasunek orain «izena | ref» formatua erakusten dute (Viktor Govako)
 - modu iluna automatikoki sinkronizatzen da sistemaren ezarpenekin (DeepChirp)
 
 ## Oin-oharrak

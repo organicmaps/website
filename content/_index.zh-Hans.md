@@ -4,7 +4,7 @@ extra:
   menu_title: 主页
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
+title: "Organic Maps：离线的远足、自行车、登山和导航地图"
 ---
 
 **Organic Maps** 是一款注重隐私的离线地图和GPS应用程序，适用于徒步旅行、骑行和驾驶。完全免费。无广告。无跟踪器。由开源社区和 [**MapsWithMe**][mapswithme]/**Maps.Me** 应用程序的创始人倾情打造。由 [OpenStreetMap][openstreetmap] 数据驱动。
@@ -13,7 +13,7 @@ title: 'Organic Maps：离线的远足、自行车、登山和导航地图'
 
 > 2025年12月，Organic Maps [达到了600万次安装](@/news/2025-12-31/500/index.zh-Hans.md). [帮助我们](@/donate/index.zh-Hans.md) 扩展！
 
-### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[华为 AppGallery][appgallery]、[Accrescent][accrescent] 下载并安装Organic Maps {#install}
+### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 下载并安装Organic Maps {#install}
 
 {{ badges() }}
 
@@ -36,7 +36,7 @@ Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣�
 - 地铁地图
 - 地图上的快速离线搜索
 - 以KML/KMZ格式导出和导入书签，GPX 导入, GeoJSON
-- 保护您眼睛的黑暗模式
+- 保护你眼睛的黑暗模式
 - 国家和地区不会占用太大的空间
 - 热门地点的维基百科文章
 - 自由且开源
@@ -45,7 +45,7 @@ Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣�
 
 Organic Maps 既纯粹而有机，用爱发电：
 
-- 尊重您的隐私
+- 尊重你的隐私
 - 省电
 - 没有意外的移动数据费用
 
@@ -54,7 +54,6 @@ Organic Maps 应用没有跟踪器和其他糟糕的东西：
 - 无广告
 - 无跟踪器
 - 不收集数据
-- 不电话打扰
 - 无需烦琐注册
 - 无强制教程
 - 无推送邮件
@@ -77,8 +76,8 @@ Organic Maps 无需过多权限：
 在Organic Maps，我们相信隐私是一项基本人权：
 
 - Organic Maps是一个独立的社区驱动的开源项目
-- 我们保护您的隐私不受大型科技公司的窥视
-- 无论身处何处，安全在您左右
+- 我们保护你的隐私不受大型科技公司的窥视
+- 无论身处何处，安全在你左右
 
 拒绝监视 - 拥抱自由。
 
@@ -88,7 +87,7 @@ Organic Maps 无需过多权限：
 
 本应用免费。但请通过[捐赠](@/donate/index.zh-Hans.md)支持我们！
 
-To donate conveniently, click on your preferred payment method icon below:
+如需便捷捐赠，请点击下方你喜欢的支付方式图标：
 
 {{ donate_buttons() }}
 
@@ -141,22 +140,17 @@ To donate conveniently, click on your preferred payment method icon below:
 
 Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 
-- 邀您加入测试计划，提出建议、反馈问题：
-  * [iOS测试版（TestFlight）][testflight]
-  * [安卓测试版（Firebase）][firebase]
-  * [Linux 桌面端 Beta (Flatpak)][flatpak]
-  * [Linux桌面测试版（软件包）][Repology]
+- 邀你加入测试计划，提出建议、反馈问题：
+  - [iOS测试版（TestFlight）][testflight]
+  - [安卓测试版（Firebase）][firebase]
+  - [Linux 桌面端 Beta (Flatpak)][flatpak]
+  - [Linux桌面测试版（软件包）][Repology]
 - 报告bug、跟踪问题 [the issue tracker][issues]或联系我们[email us][email]。
 - [Discuss][ideas]创意点子、功能需求。
 - 订阅我们的[Telegram频道][telegram]或[matrix空间][matrix]以获取最新信息。
-- 加入我们的[Telegram组][telegram_chat_zh]，与其他用户讨论。
+- 加入我们的[中文Telegram组][telegram_chat_zh]或[英文组][telegram_chat]，与其他用户讨论。
 - 访问我们的[GitHub页面][github]。
 - 在[FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok]关注我们的更新。
-- 加入（或创建并告诉我们）本地社区：[Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [English-][telegram_chat_en], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
 
 [fork]: https://zh.wikipedia.org/wiki/%E5%88%86%E5%8F%89_(%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91)
 

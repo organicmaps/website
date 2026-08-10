@@ -43,6 +43,7 @@ Dla tych, którzy przegapili, [poprzednia aktualizacja z 7 października](https:
 - Lepszy ekran powitalny podczas uruchamiania (Andrei Shkrob)
 
 ### Android Auto
+
 - Przywracanie trasy po anulowaniu (Andrei Shkrob)
 - Naprawiono awarie na niektórych urządzeniach (Andrei Shkrob)
 

@@ -29,7 +29,7 @@ Installera den från [get.omaps.org](https://get.omaps.org) eller från [App Sto
 * Fixad överlappning av routingverktygsfältet på små skärmar _(Anton P)_
 * Fixad en sökkrasch på Android 5 och 6 _(Alexander Borsuk)_
 * Fixade FAQ-översättningar på Android 5 _(Alexander Borsuk)_
-* Fixat ett "Inte tillräckligt med fritt utrymme"-fel när kartor uppdateras _(Alexander Borsuk)_
+* Fixat ett “Inte tillräckligt med fritt utrymme”-fel när kartor uppdateras _(Alexander Borsuk)_
 
 ### Översättningar
 

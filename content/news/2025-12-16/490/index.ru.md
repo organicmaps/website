@@ -11,6 +11,7 @@ taxonomies:
 Установите Organic Maps с <https://omaps.app/get> или из [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid]
 
 ### Примечания к выпуску
+
 - Новогодние ёлки и ярмарки теперь отображаются на карте (Viktor Govako)
 - Данные OpenStreetMap обновлены по состоянию на 14 декабря 2025 года (Viktor Govako)
 - Границы и подписи национальных парков стали менее заметными на карте мира (Viktor Govako)
@@ -20,6 +21,7 @@ taxonomies:
 - Исправлены голосовые подсказки TTS для кругового движения на хорватском языке (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - В результатах поиска теперь отображается вместимость парковок с помощью эмодзи (David Martinez)
 - Исправлена проблема с CarPlay на iOS 12 (Kiryl Kaveryn)
 - Исправлено несколько визуальных проблем на iPhone и iPad (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ taxonomies:
 - Убрано напоминание об изолиниях при запуске приложения (Kiryl Kaveryn)
 
 ### Android
+
 - В результатах поиска теперь отображается вместимость парковок (Bicky Rawdyrathaur, David Martinez)
 - Датчик местоположения автомобиля в Android Auto отключен во избежание проблем с определением местоположения (Andrei Shkrob)
 - Запись трека продолжается, даже если приложение принудительно остановлено или закрыто (Alexander Borsuk)

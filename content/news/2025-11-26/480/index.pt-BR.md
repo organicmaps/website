@@ -9,25 +9,29 @@ taxonomies:
 Sexta-feira! É hora de instalar a nova atualização do Organic Maps em <https://omaps.app/get> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ## Notas da versão
+
 - Artigos da Wikipédia para lugares agora estão disponíveis em turco, japonês e chinês. Digite `?wiki` na busca para encontrar lugares com artigos no mapa. _(Alexander Borsuk)_
 - Adicionada uma configuração que destaca visualmente as regiões baixadas no mapa em roxo. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - Dados do OpenStreetMap atualizados até 23 de novembro de 2025. _(Viktor Govako)_
 
 ### iOS
+
 - NOVO! Você pode editar o nome de um marcador ou trilha diretamente na Página de Informações do Local tocando no nome. _(Kiryl Kaveryn)_
-- Adicionado suporte para iOS 26 e macOS 26 "Liquid Glass". _(Kiryl Kaveryn)_
+- Adicionado suporte para iOS 26 e macOS 26 “Liquid Glass”. _(Kiryl Kaveryn)_
 - Toque longo no nome ou endereço de um local ou marcador selecionado para copiá-lo para a área de transferência. _(Kiryl Kaveryn)_
 - Toque no nome da lista na Página de Informações do Local para selecionar uma nova lista para um marcador ou trilha, e use a nova busca para encontrar rapidamente a lista desejada. _(Kiryl Kaveryn)_
 - Corrigido o layout do mapa durante a navegação no iPad para que a rota permaneça claramente visível. _(Kiryl Kaveryn)_
-- Corrigidas as animações dos botões laterais e a cor do botão "Baixar Mapas" no tema escuro. _(Kiryl Kaveryn)_
+- Corrigidas as animações dos botões laterais e a cor do botão “Baixar Mapas” no tema escuro. _(Kiryl Kaveryn)_
 
 ### Android
-- Adicionadas barras de rolagem à tela de Busca e à tela "Marcadores e Trilhas". _(shantanu1k)_
+
+- Adicionadas barras de rolagem à tela de Busca e à tela “Marcadores e Trilhas”. _(shantanu1k)_
 - Melhor tratamento da reprodução de áudio e interrupções. _(Andrei Shkrob)_
 - Corrigidos travamentos na tela de Perfil do Editor. _(Alexander Borsuk)_
 - Corrigidos travamentos durante o download de mapas. _(Viktor Govako)_
 
 ### Outras melhorias
+
 - Adicionados emojis personalizados na Página de Informações do Local. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Aumentado o brilho e contraste das estradas no modo de veículo escuro. _(Manish Rathaur)_
 - O roteamento de bicicleta agora ignora ruas residenciais de mão única na Áustria. _(Viktor Govako)_

@@ -1,10 +1,10 @@
 ---
-description: 'Snabba detaljerade offline-kartor för resenärer, turister, förare, vandrare och cyklister skapade av grundarna av appen MapsWithMe (Maps.Me).'
+description: "Snabba detaljerade offline-kartor för resenärer, turister, förare, vandrare och cyklister skapade av grundarna av appen MapsWithMe (Maps.Me)."
 extra:
   menu_title: Hem
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
+title: "Organic Maps: Offline Vandring, Cykling, Leder och Navigering"
 ---
 
 **Organic Maps** är en integritets-fokuserad offline-kart och GPS-app för vandring, cykling och bilkörning. Helt gratis. Inga annonser. Ingen spårning. Utvecklad med kärlek av open source-gemenskapen och grundarna av appen [**MapsWithMe**][mapswithme]/**Maps.Me**. Drivs av [OpenStreetMap][openstreetmap]-data.
@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline Vandring, Cykling, Leder och Navigering'
 
 > I december 2025 nådde Organic Maps [6 miljoner installationer](@/news/2025-12-31/500/index.sv.md). [Hjälp oss](@/donate/index.sv.md) att växa!
 
-### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Ladda ner och installera Organic Maps från [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,15 +29,12 @@ läge') }}
 
 ## Funktioner
 
-Organic Maps är den ultimata appen för resenärer, turister, vandrare och
-cyklister:
+Organic Maps är den ultimata appen för resenärer, turister, vandrare och cyklister:
 
-- Detaljerade offline-kartor med platser som inte finns på andra kartor,
-  tack vare [OpenStreetMap][openstreetmap]
+- Detaljerade offline-kartor med platser som inte finns på andra kartor, tack vare [OpenStreetMap][openstreetmap]
 - Cykelvägar, vandringsleder och promenadvägar
 - Konturlinjer, höjdprofiler, toppar och sluttningar
-- Tur-för-tur-navigering för promenader, cykling och bilnavigering med
-  röststyrning, CarPlay/Android Auto
+- Tur-för-tur-navigering för promenader, cykling och bilnavigering med röststyrning, CarPlay/Android Auto
 - Tunnelbanekartor
 - Snabb offline-sökning på kartan
 - Export och import av bokmärken i KML/KMZ-format, importera GPX, GeoJSON
@@ -59,7 +56,6 @@ Organic Maps app är fri från spårare och andra dåliga saker:
 - Inga annonser
 - Ingen spårning
 - Ingen data samling
-- Ingen uppringning hem
 - Ingen irriterande registrering
 - Inga obligatoriska handledningar
 - Ingen brusig email spam
@@ -71,8 +67,7 @@ Ansökan verifieras av [Exodus Privacy Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-iOS-applikationen har verifierats av [TrackerControl för
-iOS][trackercontrol]:
+iOS-applikationen har verifierats av [TrackerControl för iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
@@ -80,8 +75,7 @@ Organic Maps begär inte överdrivna behörigheter för att spionera på dig:
 
 {{ privacy_screenshots() }}
 
-På Organic Maps anser vi att integritet är en grundläggande mänsklig
-rättighet:
+På Organic Maps anser vi att integritet är en grundläggande mänsklig rättighet:
 
 - Organic Maps är ett indiegemenskapsdrivet projekt med öppen källkod
 - Vi skyddar din integritet från Big Techs nyfikna ögon
@@ -93,11 +87,9 @@ Vägra övervakning. Välkomna friheten.
 
 ## Vem betalar för den kostnadsfria appen?
 
-Appen är gratis för alla. Vänligen [donera](@/donate/index.sv.md) för att
-stödja oss!
+Appen är gratis för alla. Vänligen [donera](@/donate/index.sv.md) för att stödja oss!
 
-För att donera omedelbart, klicka på en ikon för önskad betalningsmetod
-nedan:
+För att donera omedelbart, klicka på en ikon för önskad betalningsmetod nedan:
 
 {{ donate_buttons() }}
 
@@ -148,30 +140,19 @@ nedan:
 
 ## Gemenskap
 
-Organic Maps är en [programvara med öppen källkod][github] licensierad under
-Apache License 2.0.
+Organic Maps är en [programvara med öppen källkod][github] licensierad under Apache License 2.0.
 
 - Gå med i vårt betaprogram, föreslå funktioner och rapportera fel:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (paket)][repology]
-- Rapportera fel eller problem till [problemspåraren][issues] eller [mejla
-  oss][email].
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (paket)][repology]
+- Rapportera fel eller problem till [problemspåraren][issues] eller [mejla oss][email].
 - [Diskutera][ideas] idéer eller föreslå önskemål om funktioner.
-- Prenumerera på vår [Telegram Channel][telegram] eller på [matrix
-  space][matrix] för uppdateringar.
-- Gå med i vår [Telegramgrupp][telegram_chat] för att diskutera med andra
-  användare.
+- Prenumerera på vår [Telegram Channel][telegram] eller på [matrix space][matrix] för uppdateringar.
+- Gå med i vår [Telegramgrupp][telegram_chat] för att diskutera med andra användare.
 - Besök vår [GitHub-sida][github].
-- Följ våra uppdateringar på [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Gå med i (eller skapa och låt oss veta) lokala gemenskaper: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Följ våra uppdateringar på [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://sv.wikipedia.org/wiki/Fork
 

@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-23. oktoobri väljalaskes keskendusime paranduste ja täiustuste tegemisele. Vaadake üksikasjalikku loendit allpool.
+23. oktoobri väljalaskes keskendusime paranduste ja täiustuste tegemisele. Vaata üksikasjalikku loendit allpool.
 
 Neile, kes jäid ilma, [eelmine 7. oktoobri uuendus](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) lisas GeoJSON-i impordi, rada salvestamise statistika, kiiruspiirangu kuvamise Android Auto's, OSM-i kirjeldussildi kuvamise (trükkige otsingukasti `?description`, et neid näha), järjehoidja salvestamise rajale iOS-is ning palju muid täiustusi.
+) lisas GeoJSON-i impordi, rada salvestamise statistika, kiiruspiirangu kuvamise Android Auto's, OSM-i kirjeldussildi kuvamise (trüki otsingukasti `?description`, et neid näha), järjehoidja salvestamise rajale iOS-is ning palju muid täiustusi.
 
 ## Kõik platvormid
 
@@ -32,7 +32,7 @@ Neile, kes jäid ilma, [eelmine 7. oktoobri uuendus](https://organicmaps.app/new
 - Parandatud valge-valgel olekuriba navigeerimisrežiimis (Kiryl Kaveryn)
 - Suurendatud Alusta navigeerimist nupu suurus (Kiryl Kaveryn)
 - Eemaldatud tühi ruum marsruudi planeerimisel iPadis (Kiryl Kaveryn)
-- Organic Maps võib paluda teil seda App Store'is hinnata. Teie head arvustused motiveerivad meie meeskonda!
+- Organic Maps võib paluda sul seda App Store'is hinnata. Sinu head arvustused motiveerivad meie meeskonda!
 
 ## Android
 
@@ -43,21 +43,22 @@ Neile, kes jäid ilma, [eelmine 7. oktoobri uuendus](https://organicmaps.app/new
 - Parem algusekraan käivitamisel (Andrei Shkrob)
 
 ### Android Auto
+
 - Taasta marsruut pärast tühistamist (Andrei Shkrob)
 - Parandatud kokkujooksmised mõnedel seadmetel (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- POI üksikasjad näitavad nüüd "nimi | ref" formaati (Viktor Govako)
+- POI üksikasjad näitavad nüüd „nimi | ref“ formaati (Viktor Govako)
 - tume režiim sünkroniseerib automaatselt süsteemi seadetega (DeepChirp)
 
 ## Allmärkused
 
-Organic Maps on võimalik tänu ❤️ meie kaastöötajatele, [teie annetustele](@/donate/index.et.md) ja [teie toetusele](@/contribute/index.et.md).
+Organic Maps on võimalik tänu ❤️ meie kaastöötajatele, [sinu annetustele](@/donate/index.et.md) ja [sinu toetusele](@/contribute/index.et.md).
 
-Hankige Organic Maps'i uusim versioon [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
+Hangi Organic Maps'i uusim versioon [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
 
-P.S. Liituge beeta testimisega varajaste funktsioonide saamiseks:
+P.S. Liitu beeta testimisega varajaste funktsioonide saamiseks:
 - [iOS][testflight]
 - [Android][firebase].
 

@@ -1,8 +1,8 @@
 ---
 title: Como compartilhar (exportar) favoritos?
 slug: como-compartilhar-exportar-favoritos
-description: ""
-updated: "2024-06-12"
+description: "Guia passo a passo para exportar favoritos e trilhas do Organic Maps para outros aplicativos e compartilhar com seus contatos"
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["favoritos-e-trilhas"]
@@ -13,4 +13,6 @@ aliases:
   - /pt-BR/faq/bookmarks/how-to-export/
 ---
 
-Escolha um favorito no mapa, toque nele e toque no botão "Compartilhar" na parte inferior. Para compartilhar todos os favoritos em uma lista de uma só vez, toque no símbolo de estrela na tela principal sem nada selecionado, depois toque no ícone com três pontos à frente do nome da lista com favoritos e toque em "Exportar arquivo" no menu que aparece.
+Toque em um favorito ou em uma trilha no mapa ou na lista e, em seguida, toque no botão “Compartilhar” na página do local (painel inferior).
+
+Para compartilhar todos os favoritos e trilhas de uma lista a partir da tela “Favoritos e trilhas”, toque no ícone com três pontos à direita do nome da lista e selecione “Exportar KMZ”, “Exportar GPX” ou “Exportar GeoJSON”.

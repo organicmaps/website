@@ -29,7 +29,7 @@ Instálaa desde [get.omaps.org](https://get.omaps.org) ou desde [App Store][apps
 * Corrixida a superposición da barra de ferramentas de enrutamento en pantallas pequenas _(Anton P)_
 * Corrixido un fallo de busca en Android 5 e 6 _(Alexander Borsuk)_
 * Corrixidas as traducións de preguntas frecuentes en Android 5 _(Alexander Borsuk)_
-* Corrixido un erro de "Espazo libre insuficiente" ao actualizar mapas _(Alexander Borsuk)_
+* Corrixido un erro de «Espazo libre insuficiente» ao actualizar mapas _(Alexander Borsuk)_
 
 ### Traducións
 

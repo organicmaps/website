@@ -43,12 +43,13 @@ taxonomies:
 - स्टार्टअप पर बेहतर स्प्लैश स्क्रीन (Andrei Shkrob)
 
 ### Android Auto
+
 - रद्द करने के बाद रूट को पुनर्स्थापित करें (Andrei Shkrob)
 - कुछ डिवाइस पर क्रैश को ठीक किया गया (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- POI विवरण अब "नाम | ref" प्रारूप दिखाते हैं (Viktor Govako)
+- POI विवरण अब “नाम | ref” प्रारूप दिखाते हैं (Viktor Govako)
 - डार्क मोड स्वचालित रूप से सिस्टम सेटिंग्स के साथ सिंक होता है (DeepChirp)
 
 ## फुटनोट्स

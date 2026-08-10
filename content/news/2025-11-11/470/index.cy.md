@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Ar ôl dileu rhestr nodau tudalen neu restr traciau (trwy'r botwm "Mwy"), mae'r ap nawr yn dychwelyd yn gywir i'r sgrin flaenorol (Kiryl Kaveryn)
-- Ychwanegwyd dolenni cyfryngau cymdeithasol [TikTok][tiktok], [Threads][threads], a [Bluesky][bluesky] i'r sgrin "Amdanom" (Kiryl Kaveryn)
-- Ychwanegwyd "Rhoi gwybod am nam" i gamau cyflym eicon yr ap ar y sgrin gartref (Kiryl Kaveryn)
+- Ar ôl dileu rhestr nodau tudalen neu restr traciau (trwy'r botwm ‘Mwy’), mae'r ap nawr yn dychwelyd yn gywir i'r sgrin flaenorol (Kiryl Kaveryn)
+- Ychwanegwyd dolenni cyfryngau cymdeithasol [TikTok][tiktok], [Threads][threads], a [Bluesky][bluesky] i'r sgrin ‘Amdanom’ (Kiryl Kaveryn)
+- Ychwanegwyd ‘Rhoi gwybod am nam’ i gamau cyflym eicon yr ap ar y sgrin gartref (Kiryl Kaveryn)
 - Wedi trwsio damweiniau amrywiol yn yr ap a CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -33,7 +33,7 @@ taxonomies:
 - Mae Android Auto bob amser yn defnyddio'r modd llwybro car (Andrei Shkrob)
 - Defnyddio cyfieithiadau Tsieinëeg Traddodiadol ar gyfer rhanbarthau Hong Kong (zh-HK) a Macau (zh-MO) (Alexander Borsuk)
 
-Rhowch wybod i ni os gallwch chi redeg Organic Maps ar unrhyw ddyfeisiau x86 (gan gynnwys Chromebooks) gyda chefnogaeth OpenGL ES 3.
+Rho wybod i ni os gelli di redeg Organic Maps ar unrhyw ddyfeisiau x86 (gan gynnwys Chromebooks) gyda chefnogaeth OpenGL ES 3.
 
 ### Map ac Arddulliau
 
@@ -62,9 +62,9 @@ Rhowch wybod i ni os gallwch chi redeg Organic Maps ar unrhyw ddyfeisiau x86 (ga
 
 Nodiadau rhyddhau blaenorol: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Mynnwch y fersiwn diweddaraf o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ac [F-Droid][fdroid].
+Mynna'r fersiwn diweddaraf o Organic Maps o'r [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], ac [F-Droid][fdroid].
 
-P.S. Ymunwch â phrofion beta i gael nodweddion cynnar a'n helpu i ddod o hyd i namau a phroblemau:
+P.S. Ymuna â phrofion beta i gael nodweddion cynnar a'n helpu i ddod o hyd i namau a phroblemau:
 - [iOS][testflight]
 - [Android][firebase].
 

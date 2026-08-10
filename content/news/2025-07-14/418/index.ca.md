@@ -7,9 +7,9 @@ taxonomies:
 
 Coneix l'actualització de juliol d'Organic Maps amb moltes correccions i millores, gràcies als nostres col·laboradors ❤️💪! L'actualització ja està disponible a l'[AppStore][appstore], [Obtainium][obtainium] i [Accrescent][accrescent], i estarà preparada a [Google Play][googleplay], [Huawei AppGallery][appgallery] i [FDroid][fdroid] en uns dies.
 
-[Les vostres donacions](@/donate/index.ca.md) i [suport](@/contribute/index.ca.md), [informes d'errors][github issues] i [millores][github] ens ajuden a fer millors mapes junts!
+[Les teves donacions](@/donate/index.ca.md) i [suport](@/contribute/index.ca.md), [informes d'errors][github issues] i [millores][github] ens ajuden a fer millors mapes junts!
 
-No oblideu que podeu registrar-vos al programa de proves beta per obtenir accés anticipat a funcions experimentals i futures [per a iOS][testflight] i [per a Android][firebase].
+No oblidis que pots registrar-te al programa de proves beta per obtenir accés anticipat a funcions experimentals i futures [per a iOS][testflight] i [per a Android][firebase].
 
 La llista completa de canvis:
 - Noves dades de mapes OSM del 8 de juliol, dades de Wikipedia de l'1 de juliol
@@ -20,7 +20,7 @@ La llista completa de canvis:
 - Nova icona de Marcadors i Rutes al mapa per ajudar els usuaris a trobar les seves rutes enregistrades o importades (_@euf_)
 - Les estacions de càrrega ara tenen la seva pròpia icona distintiva al mapa i a la cerca (_David Martinez_)
 - Guardar elevació/altitud (_si està present_) quan es guarda una ruta (_Kiryl Kaveryn_)
-- Traduccions actualitzades, podeu ajudar a corregir traduccions incorrectes o que falten [a Weblate][weblate]
+- Traduccions actualitzades, pots ajudar a corregir traduccions incorrectes o que falten [a Weblate][weblate]
 
 Android:
 - Corregit el botó Enrere que no funcionava a Android 16 (_Andrei Shkrob_)
@@ -30,18 +30,18 @@ Android:
 - Corregida la disposició incorrecta de la interfície d'usuari en alguns dispositius (_Sergiy Kozyr_)
 - Mostrar l'inici de sessió i contrasenya d'OSM si l'inici de sessió del navegador falla/no està disponible (_Sergiy Kozyr_)
 - Corregit el salt de la creu quan s'afegeixen objectes a OpenStreetMap (_@hemanggs_)
-- Corregit el botó "Tornar a intentar descàrrega fallida" (_Kavi Khalique_)
+- Corregit el botó «Tornar a intentar descàrrega fallida» (_Kavi Khalique_)
 - Corregida la pantalla de benvinguda que se superposa amb els botons del sistema (_Vraj Shah_)
 - Corregits alguns bloqueigs (_Devarsh Vasani_)
 - Corregit l'error EACCESS PermissionDenied quan s'importen KML o GPX a Android 5 (_Alexander Borsuk_)
 
 Canvis d'iOS, tots els mèrits per _Kiryl Kaveryn_:
 - Millor edició de marcadors i rutes: canviar el color i la llista directament des de la Pàgina d'Informació de la Ruta
-- Ara podeu editar o eliminar la ruta enregistrada immediatament després de guardar-la
+- Ara pots editar o eliminar la ruta enregistrada immediatament després de guardar-la
 - Àrea de toc ampliada per als botons
 - Corregides les notes OSM que saltaven quan s'escriu text
-- Mostrar el botó "Afegir Lloc" per a empreses
+- Mostrar el botó «Afegir Lloc» per a empreses
 
-P.D. Si us agrada llegir notes de llançament detallades, si us plau feu-nos-ho saber a les nostres [xarxes socials](/ca/#comunitat)
+P.D. Si t'agrada llegir notes de llançament detallades, si us plau fes-nos-ho saber a les nostres [xarxes socials](/ca/#comunitat)
 
 {{ references() }}

@@ -6,10 +6,10 @@ taxonomies:
   news: ["releases"]
 ---
 
-En la versió del 23 d'octubre ens hem centrat en correccions i millores. Consulteu la llista detallada a continuació.
+En la versió del 23 d'octubre ens hem centrat en correccions i millores. Consulta la llista detallada a continuació.
 
 Per a aquells que es van perdre, l'[actualització anterior del 7 d'octubre](https://organicmaps.app/news/2025-10-07/android-auto-speed-limit-geojson-support-recording-track-statistics-osm-description-display/
-) va afegir importació de GeoJSON, estadístiques d'enregistrament de rutes, visualització del límit de velocitat a Android Auto, visualització d'etiquetes de descripció d'OSM (escriviu `?description` al quadre de cerca per veure-les), desar una marca a una ruta a iOS i moltes altres millores.
+) va afegir importació de GeoJSON, estadístiques d'enregistrament de rutes, visualització del límit de velocitat a Android Auto, visualització d'etiquetes de descripció d'OSM (escriu `?description` al quadre de cerca per veure-les), desar una marca a una ruta a iOS i moltes altres millores.
 
 ## Totes les plataformes
 
@@ -32,7 +32,7 @@ Per a aquells que es van perdre, l'[actualització anterior del 7 d'octubre](htt
 - Corregida la barra d'estat blanc sobre blanc en mode de navegació (Kiryl Kaveryn)
 - Augmentat el tamany del botó Iniciar navegació (Kiryl Kaveryn)
 - Eliminat l'espai buit en planificar una ruta a l'iPad (Kiryl Kaveryn)
-- Organic Maps pot demanar-vos que el valoreu a l'App Store. Les vostres bones valoracions motiven el nostre equip!
+- Organic Maps pot demanar-te que el valoris a l'App Store. Les teves bones valoracions motiven el nostre equip!
 
 ## Android
 
@@ -43,21 +43,22 @@ Per a aquells que es van perdre, l'[actualització anterior del 7 d'octubre](htt
 - Millor pantalla de presentació a l'inici (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar la ruta després de la cancel·lació (Andrei Shkrob)
 - Corregits els errors en alguns dispositius (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- Els detalls de POI ara mostren el format "nom | ref" (Viktor Govako)
+- Els detalls de POI ara mostren el format «nom | ref» (Viktor Govako)
 - el mode fosc se sincronitza automàticament amb la configuració del sistema (DeepChirp)
 
 ## Notes a peu
 
-Organic Maps és possible gràcies ❤️ als nostres col·laboradors, [les vostres donacions](@/donate/index.ca.md) i [el vostre suport](@/contribute/index.ca.md).
+Organic Maps és possible gràcies ❤️ als nostres col·laboradors, [les teves donacions](@/donate/index.ca.md) i [el teu suport](@/contribute/index.ca.md).
 
-Obteniu la versió més recent d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
+Obtén la versió més recent d'Organic Maps a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].
 
-P.D. Uniu-vos a les proves beta per a funcions avançades:
+P.D. Uneix-te a les proves beta per a funcions avançades:
 - [iOS][testflight]
 - [Android][firebase].
 

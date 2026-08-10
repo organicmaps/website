@@ -1,19 +1,19 @@
 ---
-description: 'Vinnige, gedetailleerde, vanlyn kaarte vir reisigers, toeriste, motorbestuurders, wandelaars en fietsers geskep deur die oprigters van MapsWithMe (Maps.Me).'
+description: "Vinnige, gedetailleerde, vanlyn kaarte vir reisigers, toeriste, motorbestuurders, wandelaars en fietsers geskep deur die oprigters van MapsWithMe (Maps.Me)."
 extra:
   menu_title: Tuis
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie'
+title: "Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie"
 ---
 
 **Organic Maps** is ’n privaatheidgefokusde, vanlyn kaarte- en GPS-toep vir voetslaan, fietsry en motorbestuur. Absoluut gratis. Geen advertensies. Geen nasporing. Met liefde ontwikkel deur die oopbrongemeenskap en dieselfde mense wat die [**MapsWithMe**][mapswithme]/**Maps.Me**-toep geskep het. Aangedryf deur [OpenStreetMap][openstreetmap]-data.
 
-**Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi u SIM-kaart weg (trouens, u verskaffer spoor u altyd na), en gaan ’n week op pad sonder om u battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
+**Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi jou SIM-kaart weg (trouens, jou verskaffer spoor jou altyd na), en gaan ’n week op pad sonder om jou battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
 
 > In Desember 2025 het Organic Maps [6M installasies bereik](@/news/2025-12-31/500/index.af.md). [Help ons](@/donate/index.af.md) om te groei!
 
-### Laai af en installeer Organic Maps in die [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Laai af en installeer Organic Maps in die [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -28,19 +28,16 @@ donkermodus') }}
 
 ## Funksies
 
-Organic Maps is die topkameraadtoep vir reisigers, toeriste, voetslaners en
-fietsers:
+Organic Maps is die topkameraadtoep vir reisigers, toeriste, voetslaners en fietsers:
 
-- Gedetailleerde vanlyn kaarte met plekke wat nie op ander kaarte bestaan
-  nie, danksy [OpenStreetMap][openstreetmap]
+- Gedetailleerde vanlyn kaarte met plekke wat nie op ander kaarte bestaan nie, danksy [OpenStreetMap][openstreetmap]
 - Fietsroetes, voetslaanroetes en -paaie
 - Kontoerlyne, hoogteprofiele, pieke en hellings
-- Roetebegeleiding vir voetslaan en fietsry en motornavigasie met
-  stembegeleiding, CarPlay/Android Auto
+- Roetebegeleiding vir voetslaan en fietsry en motornavigasie met stembegeleiding, CarPlay/Android Auto
 - Metro/moltreinkaarte
 - Soek vinnig vanlyn op die kaart
 - Stuur boekmerke uit en voer dit in in KML/KMZ-formate, voer GPX in, GeoJSON
-- Donkermodus om u oë te beskerm
+- Donkermodus om jou oë te beskerm
 - Lande en streke neem nie baie spasie op nie
 - Wikipedia-artikels vir gewilde plekke
 - Gratis en oopbron
@@ -49,8 +46,8 @@ fietsers:
 
 Organic Maps is suiwer en organies, met liefde gemaak:
 
-- Eerbiedig u privaatheid
-- Bespaar u battery
+- Eerbiedig jou privaatheid
+- Bespaar jou battery
 - Geen onverwagte mobieledatarekeninge
 
 Organic Maps is vry van naspoorders en ander slegte dinge:
@@ -58,7 +55,6 @@ Organic Maps is vry van naspoorders en ander slegte dinge:
 - Geen advertensies
 - Geen nasporing
 - Geen dataversameling
-- Geen ‘huis toe bel’ nie
 - Geen irriterende registrasie
 - Geen verpligte tutoriale
 - Geen opdringerige gemorspos
@@ -70,36 +66,33 @@ Die toepassing is geverifieer deur [Exodus Privaatheid Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-Die iOS-toepassing is geverifieer deur [TrackerControl for
-iOS][trackercontrol]:
+Die iOS-toepassing is geverifieer deur [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps vra nie om oordrewe magtigings om op u te spioeneer nie:
+Organic Maps vra nie om oordrewe magtigings om op jou te spioeneer nie:
 
 {{ privacy_screenshots() }}
 
 By Organic Maps glo ons dat privaatheid ’n fundamentele mensereg is:
 
 - Organic Maps is ’n onafhanklike gemeenskapsgedrewe oopbronprojek
-- Ons beskerm u privaatheid van tegnoreuse se nuuskierige oë
-- Bly veilig, waar u ook al is
+- Ons beskerm jou privaatheid van tegnoreuse se nuuskierige oë
+- Bly veilig, waar jy ook al is
 
-Weier waarneming – omarm u vryheid.
+Weier waarneming – omarm jou vryheid.
 
 **[Probeer Organic Maps gerus!](#install)**
 
 ## Wie betaal vir die gratis toep?
 
-Die toep is gratis vir almal. [Skenk](@/donate/index.nl.md) asseblief om ons
-te ondersteun!
+Die toep is gratis vir almal. [Skenk](@/donate/index.af.md) asseblief om ons te ondersteun!
 
-Om onmiddellik te skenk kan u op ’n voorkeurbetaalmetode hier onder klik:
+Om onmiddellik te skenk kan jy op ’n voorkeurbetaalmetode hier onder klik:
 
 {{ donate_buttons() }}
 
 Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommige infrastruktuurkoste te dek en die ontwikkeling van nuwe gekose funksies te befonds:
-
 
 <table style="border-spacing: 20px">
   <tr>
@@ -146,31 +139,19 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
 
 ## Gemeenskap
 
-Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die
-Apache Lisensie 2.0.
+Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die Apache Lisensie 2.0.
 
-- Sluit asseblief aan by ons beta-program, stel funksies voor en rapporteer
-  foute:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
-- Rapporteer foute of probleme d.m.v. [die probleemspoorder][issues] of
-  [stuur ’n e-pos][email].
+- Sluit asseblief aan by ons beta-program, stel funksies voor en rapporteer foute:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
+- Rapporteer foute of probleme d.m.v. [die probleemspoorder][issues] of [stuur ’n e-pos][email].
 - [Bespreek][ideas] ideë of stel funksieversoeke voor.
-- Teken in op ons [Telegram-kanaal][telegram] of op die
-  [matrix-ruimte][matrix] vir opdaterings.
-- Sluit aan by ons [Telegram-groep][telegram_chat] om met ander gebruikers
-  te bespreek.
+- Teken in op ons [Telegram-kanaal][telegram] of op die [matrix-ruimte][matrix] vir opdaterings.
+- Sluit aan by ons [Telegram-groep][telegram_chat] om met ander gebruikers te bespreek.
 - Besoek ons [GitHub-blad][github].
-- Volg ons opdaterings op [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Sluit aan by (of skep en laat ons weet) plaaslike gemeenskappe: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Volg ons opdaterings op [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

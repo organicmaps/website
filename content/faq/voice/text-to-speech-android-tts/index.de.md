@@ -19,10 +19,10 @@ Die offizielle Empfehlung von Organic Maps ist [RHVoice](https://rhvoice.org/), 
 ## Anleitung
 
 - Öffne die Einstellungen-App auf deinem Android-Gerät
-- Wähle "Allgemeine Verwaltung" und dann "Text-zu-Sprache"
+- Wähle „Allgemeine Verwaltung“ und dann „Text-zu-Sprache“
 - Wähle deine bevorzugte Engine, Sprechgeschwindigkeit und Tonhöhe
 - **Organic Maps neu starten**
-- Öffne in Organic Maps Einstellungen => "Sprachanweisungen" und konfiguriere es
+- Öffne in Organic Maps Einstellungen => „Sprachanweisungen“ und konfiguriere es
 - Starte Organic Maps erneut (oder starte das Gerät neu), wenn die Sprachanweisungen nicht funktionieren
 
 Wenn du die entsprechende Einstellung nicht finden kannst, öffne die Einstellungs-App und suche nach Sprachausgabe/Text-zu-Sprache.

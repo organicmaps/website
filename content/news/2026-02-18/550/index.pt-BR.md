@@ -24,8 +24,8 @@ Se você deseja ver **horários de transporte público em tempo real** na sua ci
 * Melhor classificação dos resultados de pesquisa para categorias (Viktor Govako)
 * Adicionada culinária uzbeque (alnzrv)
 * Adicionadas tirolesas no mapa (Rawdyrathaur)
-* Corrigidos links da Wikimedia com "?" no título (alnzrv)
-* Suporte a arquivos GPX com "+" nas coordenadas (Alexander Borsuk)
+* Corrigidos links da Wikimedia com “?” no título (alnzrv)
+* Suporte a arquivos GPX com “+” nas coordenadas (Alexander Borsuk)
 
 ### iOS
 

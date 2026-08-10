@@ -24,8 +24,8 @@ Als je **realtime dienstregelingen voor het openbaar vervoer** in jouw stad wilt
 * Verbeterde rangschikking van zoekresultaten voor categorieën (Viktor Govako)
 * Oezbeekse keuken toegevoegd (alnzrv)
 * Tokkelbanen op de kaart toegevoegd (Rawdyrathaur)
-* Wikimedia-links met "?" in de titel opgelost (alnzrv)
-* Ondersteuning voor GPX-bestanden met "+" in coördinaten (Alexander Borsuk)
+* Wikimedia-links met “?” in de titel opgelost (alnzrv)
+* Ondersteuning voor GPX-bestanden met “+” in coördinaten (Alexander Borsuk)
 
 ### iOS
 

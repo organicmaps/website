@@ -1,0 +1,64 @@
+#!/bin/sh
+# Format and validate staged markdown before it is committed.
+#
+# Enable with:  npm run hooks:install     (sets core.hooksPath to .githooks)
+# Skip once with: git commit --no-verify
+#
+# Only staged files are examined, and only errors a change INTRODUCES are
+# reported, so this stays fast and does not punish you for pre-existing drift
+# in a file you happened to touch. The whole-corpus sweep and the Zola build
+# run in CI instead.
+
+set -eu
+
+staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.md$' || true)
+[ -z "$staged_md" ] && exit 0
+
+fail=0
+
+# --- formatting is deliberately NOT done here ------------------------------
+# Running prettier from the hook was tried and removed. The corpus is not
+# prettier-clean (2,887 files would change), so formatting on commit rewrites
+# whatever you happen to touch, and prettier's proseWrap: never merges soft
+# line breaks - which shifts the block counts translate_check compares against
+# the unformatted English source. Format deliberately with `npm run format`,
+# as its own commit, not as a side effect of committing something else.
+
+# --- syntax guards, against the staged blobs ------------------------------
+# Includes spaced links, translated anchors, broken emphasis, undefined
+# references, malformed list markers, homoglyphs and cross-language links.
+syntax=$(python3 "$(dirname "$0")/../tools/translate_check.py" --cached --syntax $staged_md 2>/dev/null | grep -v '^$\|fault(s) in' || true)
+if [ -n "$syntax" ]; then
+  echo "error: markdown that will not render as intended:"
+  echo "$syntax" | sed 's/^/    /'
+  exit 1
+fi
+
+# --- translation invariants ----------------------------------------------
+# Only translated files with an English sibling, and only errors this change
+# INTRODUCES. Much of the corpus still carries known drift; blocking on that
+# would stop anyone touching those files for unrelated reasons.
+for f in $staged_md; do
+  case "$f" in
+    content/*) ;;
+    *) continue ;;
+  esac
+  lang=$(printf '%s' "$f" | sed -nE 's/.*\.([a-zA-Z-]+)\.md$/\1/p')
+  [ -z "$lang" ] && continue
+  dir=$(dirname "$f")
+  case "$(basename "$f")" in
+    _index.*) src="$dir/_index.md" ;;
+    *)        src="$dir/index.md" ;;
+  esac
+  # The hook validates the commit-to-be, not an unstaged working-tree copy.
+  git cat-file -e ":$src" 2>/dev/null || continue
+
+  python3 "$(dirname "$0")/regression_check.py" "$src" "$f" "$lang" || fail=1
+done
+
+if [ "$fail" -ne 0 ]; then
+  echo
+  echo "pre-commit checks failed. Fix the above, or bypass with: git commit --no-verify"
+  exit 1
+fi
+exit 0

@@ -24,7 +24,7 @@ Hier ist das vollständige Changelog:
 
 Android
 * GPX-Dateien werden von einigen Mailprogrammen und Dateibrowsern geöffnet
-* Die Schaltfläche "Teilen" wurde auf die Ortsseite verschoben.
+* Die Schaltfläche „Teilen“ wurde auf die Ortsseite verschoben.
 * Absturz bei Lesezeichen behoben, wenn die Ortsseite geschlossen wird
 
 iOS

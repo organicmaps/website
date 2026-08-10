@@ -1,8 +1,7 @@
 ---
 title: Kuidas jagada (eksportida) järjehoidjaid ja lugusid?
 slug: kuidas-jagada-eksportida-järjehoidjaid-ja-lugusid
-description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks orgaanilistest
-  kaartidest teistesse rakendustesse ning kontaktidega jagamiseks
+description: Samm-sammuline juhend järjehoidjate ja radade eksportimiseks Organic Mapsist teistesse rakendustesse ning kontaktidega jagamiseks
 updated: "2026-01-03"
 taxonomies:
   faq:
@@ -13,6 +12,6 @@ aliases:
   - /et/faq/bookmarks/how-to-export/
 ---
 
-Puudutage järjehoidjat kaardil või loendis ja seejärel puudutage koha lehel nuppu "Jaga".
+Puuduta järjehoidjat kaardil või loendis ja seejärel puuduta koha lehel nuppu „Jaga“.
 
-Kõigi järjehoidjate ja lugude jagamiseks lehe Järjehoidjad ja rajad loendis puudutage kolme punktiga ikooni loendi nimest paremal ja valige "Ekspordi KMZ" või "Ekspordi GPX", "Ekspordi GeoJSON".
+Kõigi järjehoidjate ja lugude jagamiseks lehe Järjehoidjad ja rajad loendis puuduta kolme punktiga ikooni loendi nimest paremal ja vali „Ekspordi KMZ“ või „Ekspordi GPX“, „Ekspordi GeoJSON“.

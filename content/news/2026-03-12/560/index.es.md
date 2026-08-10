@@ -8,11 +8,12 @@ taxonomies:
 
 La actualización de Organic Maps de marzo tardó más tiempo debido a las correcciones y a la revisión de Google Play. La actualización de [Accrescent][accrescent] aún no está lista debido a los problemas de la tienda de aplicaciones de Accrescent. Consigue la actualización en <https://get.omaps.org> o en [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [F-Droid][fdroid].
 
-P.D. Contacte con nosotros por correo electrónico en <sdk@organicmaps.app> si está interesado en iOS/Android/Linux/MacOS/Windows SDK con mapas offline que pueda reutilizar en sus proyectos.
+P.D. Contacta con nosotros por correo electrónico en <sdk@organicmaps.app> si estás interesado en iOS/Android/Linux/MacOS/Windows SDK con mapas offline que puedas reutilizar en tus proyectos.
 
 P.P.S. ¿Sabías de la API que ya puedes usar en tu aplicación si la aplicación Organic Maps también está instalada? Compruébalo aquí: <https://omaps.app/api>
 
 ### Notas de la versión
+
 * Datos de mapas OSM a partir del 10 de marzo
 * Datos de Wikipedia a 1 de marzo
 * Isolíneas de elevación más detalladas para las provincias chinas (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. ¿Sabías de la API que ya puedes usar en tu aplicación si la aplicació
 * Corregidos varios cuelgues, mejorada la estabilidad y el rendimiento (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Añadido el historial de categorías utilizadas recientemente en el Editor (Rahul Kolluru)
 * Mejora del gesto de deslizar hacia arriba en la pantalla de planificación de rutas (Kiryl Kaveryn)
 * Corregida la posición de la regla para CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Mejorada la visualización de los horarios de apertura de los negocios (Anton P)
 * Añadido un icono gris para las listas ocultas (Alexander Borsuk)
 
 ### Traducciones
+
 * Mejoradas las descripciones de los países (alnzrv)
 * Aplicadas correcciones de traducción al rumano por Eugen Dedu (Alexander Borsuk)
 * Nombres de países actualizados (Viktor Govako)

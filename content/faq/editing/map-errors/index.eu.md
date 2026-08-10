@@ -21,6 +21,6 @@ Zenbat eta jende gehiagok lagundu, orduan eta mapa zehatzagoak lortuko dituzte d
 
 **Oharrak:**
 
-* Leku berriak gehi ditzakezu, lehendik dauden POI eta eraikinaren informazioa (helbideak, ordutegia, izenak) zuzenean editatu Maps Organikoetan. OSM kontuarekin saioa hasten duzunean, zure aldaketak automatikoki igoko dira OSMra. Mesedez, kontuz editatzerakoan, zure aldaketak beste erabiltzaile guztiek ikusgai izango baitituzte.
+* Leku berriak gehi ditzakezu, lehendik dauden POI eta eraikinaren informazioa (helbideak, ordutegia, izenak) zuzenean editatu Organic Maps-en. OSM kontuarekin saioa hasten duzunean, zure aldaketak automatikoki igoko dira OSMra. Mesedez, kontuz editatzerakoan, zure aldaketak beste erabiltzaile guztiek ikusgai izango baitituzte.
 
 * OpenStreetMap datu-basea minuturo eguneratzen da. Aplikazioko mapak hilabetean 1-4 aldiz eguneratzea dugu helburu. OSMn zerbait aldatu baduzu, zure aldaketak etorkizuneko mapen eguneraketetan agertuko dira.

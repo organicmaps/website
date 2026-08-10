@@ -43,6 +43,7 @@ Tiems, kas praleido, [ankstesnis spalio 7 d. atnaujinimas](https://organicmaps.a
 - Geresnis pradžios ekranas paleidžiant (Andrei Shkrob)
 
 ### Android Auto
+
 - Atkurti maršrutą po atšaukimo (Andrei Shkrob)
 - Pataisytos avarijos kai kuriuose įrenginiuose (Andrei Shkrob)
 

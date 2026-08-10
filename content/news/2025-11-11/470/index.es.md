@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Después de eliminar una lista de marcadores o una lista de rutas (a través del botón "Más"), la aplicación ahora vuelve correctamente a la pantalla anterior (Kiryl Kaveryn)
-- Se han añadido los enlaces a las redes sociales [TikTok][tiktok], [Threads][threads] y [Bluesky][bluesky] en la pantalla "Acerca de" (Kiryl Kaveryn)
-- Se ha añadido "Informar de un error" a las acciones rápidas del icono de la aplicación en la pantalla de inicio (Kiryl Kaveryn)
+- Después de eliminar una lista de marcadores o una lista de rutas (a través del botón «Más»), la aplicación ahora vuelve correctamente a la pantalla anterior (Kiryl Kaveryn)
+- Se han añadido los enlaces a las redes sociales [TikTok][tiktok], [Threads][threads] y [Bluesky][bluesky] en la pantalla «Acerca de» (Kiryl Kaveryn)
+- Se ha añadido «Informar de un error» a las acciones rápidas del icono de la aplicación en la pantalla de inicio (Kiryl Kaveryn)
 - Se han corregido varios fallos de la aplicación y de CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -37,7 +37,7 @@ Por favor, haznos saber si puedes ejecutar Organic Maps en cualquier dispositivo
 
 ### Mapa y estilos
 
-- Se ha intercambiado la representación de las vías férreas "abandonadas" y "en desuso" (Lukas Hamm)
+- Se ha intercambiado la representación de las vías férreas «abandonadas» y «en desuso» (Lukas Hamm)
 - Se han añadido al mapa relojerías y alojamientos para estudiantes (David Martinez)
 - Se han añadido iconos de agencias de viajes (David Martinez)
 - Se ha cambiado el color del icono del aseo a gris (David Martinez)

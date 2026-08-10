@@ -6,13 +6,14 @@ taxonomies:
   news: ["releases"]
 ---
 
-Organic Maps märtsivärskendus võttis rohkem aega, kuna tehti hotfix'eid ja Google Play läbivaatamine. [Accrescent][accrescent] värskendus ei ole endiselt valmis Accrescenti rakenduste poe probleemide tõttu. Hankige värskendus aadressil <https://get.omaps.org> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
+Organic Maps märtsivärskendus võttis rohkem aega, kuna tehti hotfix'eid ja Google Play läbivaatamine. [Accrescent][accrescent] värskendus ei ole endiselt valmis Accrescenti rakenduste poe probleemide tõttu. Hangi värskendus aadressil <https://get.omaps.org> või [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [F-Droid][fdroid].
 
-P.S. Võtke meiega ühendust e-posti aadressil <sdk@organicmaps.app>, kui olete huvitatud iOS/Android/Linux/MacOS/Windows SDK-st koos offline-kaartidega, mida saate oma projektides uuesti kasutada.
+P.S. Võta meiega ühendust e-posti aadressil <sdk@organicmaps.app>, kui oled huvitatud iOS/Android/Linux/MacOS/Windows SDK-st koos offline-kaartidega, mida saad oma projektides uuesti kasutada.
 
-P.P.S. Kas teadsite API-st, mida saate oma rakenduses juba kasutada, kui on paigaldatud ka Organic Maps rakendus? Vaadake seda siin: <https://omaps.app/api>
+P.P.S. Kas teadsid API-st, mida saad oma rakenduses juba kasutada, kui on paigaldatud ka Organic Maps rakendus? Vaata seda siin: <https://omaps.app/api>
 
 ### Väljaandmismärkused
+
 * OSMi kaardiandmed seisuga 10. märts
 * Vikipeedia andmed seisuga 1. märts
 * Hiina provintside üksikasjalikumad kõrgusjooned (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Kas teadsite API-st, mida saate oma rakenduses juba kasutada, kui on paig
 * Parandatud mitmeid tõrkeid, parandatud stabiilsust ja jõudlust (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Lisatud hiljuti kasutatud kategooriate ajalugu redaktoris (Rahul Kolluru)
 * Parandatud ülespoole pühkimise žesti marsruudi planeerimise ekraanil (Kiryl Kaveryn)
 * Parandatud joonlaua asukoht CarPlay jaoks (Kiryl Kaveryn)
 
 ### Android
+
 * Parandatud ettevõtete lahtiolekuaegade kuvamist (Anton P)
 * Lisatud hall ikoon peidetud nimekirjade jaoks (Alexander Borsuk)
 
 ### Tõlked
+
 * Parandatud riikide kirjeldusi (alnzrv)
 * Rakendatud Eugen Dedu poolt tehtud rumeenia keele tõlke parandused (Alexander Borsuk)
 * Uuendatud riikide nimed (Viktor Govako)

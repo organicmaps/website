@@ -13,7 +13,7 @@ aliases:
   - /sv/faq/editing/advanced-map-editing/
 ---
 
-Organiska kartor innehåller en enkel och lättanvänd redigerare som du kan använda för att redigera kartan. Redaktören är dock begränsad och tillåter bara att lägga till enkla punktfunktioner, det vill säga inga byggnadskonturer, vägar, sjöar, städer etc. Om du vill ändra något som inte går att redigera med den inbyggda editorn är detta rätt FAQ-sida att läsa.
+Organic Maps innehåller en enkel och lättanvänd redigerare som du kan använda för att redigera kartan. Redaktören är dock begränsad och tillåter bara att lägga till enkla punktfunktioner, det vill säga inga byggnadskonturer, vägar, sjöar, städer etc. Om du vill ändra något som inte går att redigera med den inbyggda editorn är detta rätt FAQ-sida att läsa.
 
 Eftersom all kartdata som används i Organic Maps kommer från [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), kan du uppdatera kartan direkt där. Dina ändringar kommer sedan att inkluderas i Organic Maps med nästa kartuppdatering.
 
@@ -31,7 +31,7 @@ Följ dessa steg för att redigera OpenStreetMap med ID:
 
 1. Skapa ett nytt konto eller logga in på [OpenStreetMap.org](https://www.openstreetmap.org)
 2. Bläddra till platsen du vill redigera på OpenStreetMap.org och klicka på *Redigera* längst upp
-3. *Starta genomgången* och följ den korta handledningen som förklarar ID-redigeraren
+3. *Starta genomgången* och följ den korta handledningen som förklarar ID Editor
 4. Redigera kartan
 5. Ladda upp dina ändringar
 
@@ -54,7 +54,7 @@ OpenStreetMap-databasen innehåller objekt som noder, sätt, områden och relati
 Eftersom detta låter mer komplicerat än vad det är kommer vi att ge ett exempel:
 En Restaurang är t.ex. mappas som en anteckning eller område med taggen `amenity=restaurant`. Ytterligare taggar som `cuisine=*` eller `opening_hours=*` kan sedan användas för ytterligare information.
 
-> Observera att ID-redigeraren döljer den interna datastrukturen för användarna för att vara mer nybörjarvänlig. Men för att läsa Wiki-dokumentationen är en kort översikt över datastrukturen till hjälp.
+> Observera att ID Editor döljer den interna datastrukturen för användarna för att vara mer nybörjarvänlig. Men för att läsa Wiki-dokumentationen är en kort översikt över datastrukturen till hjälp.
 I ID Editor kan du se taggar som ID döljer för dig genom att expandera avsnittet *Taggar* i sidopanelen *Redigera funktion*.
 
 ## OSM-anteckningar {#osm-note}

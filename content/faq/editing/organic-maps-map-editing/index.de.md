@@ -16,7 +16,7 @@ Mit Organic Maps kannst du ganz einfach fehlende Orte zur Karte hinzufügen, zus
 
 Da [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) die primäre Quelle für Kartendaten in Organic Maps ist, werden deine vorgenommenen Änderungen an OSM gesendet. OSM ist ein Community-Projekt zur Erstellung einer kostenlosen und offenen Karte. Es funktioniert ähnlich wie Wikipedia, wodruch deine Bearbeitungen für Millionen von Benutzern auf der ganzen Welt zur Verfügung stehen. Trete der Community bei und hilf dabei, eine bessere Karte für alle zu erstellen!
 
-**So bearbeiten Sie OpenStreetMap über Ihre Organic Maps-App:**
+**So bearbeitest du OpenStreetMap über deine Organic Maps-App:**
 1. Erstelle ein Konto bei [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
 2. Melde dich mit deinem Konto in Organic Maps an (Burger-Menü -> *Einstellungen* -> *OpenStreetMap-Profil*)
 3. Nun kannst du bestehende Orte bearbeiten oder neue hinzufügen

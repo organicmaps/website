@@ -20,22 +20,26 @@ Tänu sinu [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 ## Üksikasjalik muudatuste logi
 
 ### Kaart ja kohad
+
 - OpenStreetMapi andmed on ajakohastatud seisuga 14. juuli
 - [OpenStreetMapi](https://www.openstreetmap.org) edastatud märkused paigutatakse nüüd täpselt sinu valitud kohale, mitte enam kogu tänava või piirkonna keskele _(Alexander Borsuk)_
 - Parandatud kohavalik kaardile koputamisel piirkondades, mis ületavad 180° antimeridiaani _(Viktor Govako)_
 - Radade kõrgusprofiilides ei kuvata enam aegunud ega tühje graafikuid pärast raja kustutamist _(Kiryl Kaveryn)_
 
 ### Ühistransport
+
 - Peatuste, ümberistumiskohtade ja jaamade nimedel on nüüd valge ääris, et need oleksid loetavad nii heledas kui ka tumedas teemas _(Viktor Govako)_
 - Pärast ühistranspordi marsruudi eelvaate sulgemist kuvatakse metrookiht uuesti õigesti _(Mikhail Listratsenka)_
 
 ### Marsruudi planeerimine ja navigeerimine
+
 - Kõigi alternatiivsete marsruutide puhul kuvatakse nüüd marsruudihoiatusi (teemaksud, parvlaevad, kruusateed, astmed jne) _(Viktor Govako)_
 - Parandati harva esinev süsteemi hangumine marsruudi koostamise ajal _(Viktor Govako)_
 - Tõhusam umbteede ning piirangutega teede algus- ja lõpp-punktide käsitlemine _(Viktor Govako)_
 - Parandati valesid ja puuduvaid pööramisjuhiseid _(Alexander Borsuk)_
 
 ### iOS
+
 - Uus säte „Salvesta otsinguajalugu“, mis võimaldab ajaloo välja lülitada ja peita, kui sa seda pigem säilitada ei soovi _(Kiryl Kaveryn)_
 - Uus nupp „Muuda“, mis võimaldab järjehoidjaid hõlpsamalt eemaldada _(Kiryl Kaveryn)_
 - Järjehoidjad salvestatakse nüüd automaatselt, kui ekraanilt lahkud _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ Tänu sinu [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 - Muud väiksemad kasutajaliidese täiustused _(Kiryl Kaveryn)_
 
 ### Android
+
 - Lahtiolekuajad näitavad nüüd jagatud vahetusi (näiteks lõunapausi), algavad tänasest päevast ning kuvavad kogu nädala ilma eraldi kerimisalata _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - Ülevaatlikum otsinguriba, millel on ühendatud tühjendus- ja häälkäskluse nupp, tühjendusikoon, mis enam ei liigu, ning paigutuse parandused horisontaalrežiimi ja telefoni pööramise jaoks _(Mikhail Listratsenka)_
 - Uuendatud järjehoidjate ja radade redaktor _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ Tänu sinu [annetustele](@/donate/index.et.md) ja [tagasisidele](@/contribute/in
 - Parandatud krahhid _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### Desktop
+
 - Allalaadimiseks saadaval olevate kaartide nimekiri on nüüd tähestikulises järjekorras _(goncalo109560)_
 
 ### Tõlked
+
 - Parandatud hiinakeelne sõnastus _(Chenxi Zhao)_
 - Ajakohastatud ukrainakeelsed tõlked _(Nnifria)_
 - Parandati kaardipiirkondade nimede itaaliakeelseid tõlkeid _(Vittorio Bertola)_

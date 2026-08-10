@@ -13,6 +13,7 @@ P.S. Hubungi kami melalui email di <sdk@organicmaps.app> kalau kamu tertarik den
 P.P.S. Tahukah kamu tentang API yang sudah bisa kamu gunakan di aplikasimu kalau aplikasi Organic Maps juga sudah terpasang? Periksa di sini: <https://omaps.app/api>
 
 ### Catatan rilis
+
 * Data peta OSM per tanggal 10 Maret
 * Data Wikipedia per tanggal 1 Maret
 * Garis kontur ketinggian yang lebih rinci untuk provinsi-provinsi di Tiongkok (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Tahukah kamu tentang API yang sudah bisa kamu gunakan di aplikasimu kalau
 * Memperbaiki beberapa kerusakan, meningkatkan stabilitas dan kinerja (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Menambahkan riwayat kategori yang baru-baru ini digunakan di Editor (Rahul Kolluru)
 * Peningkatan gerakan menggeser ke atas pada layar perencanaan rute (Kiryl Kaveryn)
 * Memperbaiki posisi penggaris untuk CarPlay (Kiryl Kaveryn)
 
 ### Android
+
 * Tampilan jam buka bisnis yang lebih baik (Anton P)
 * Menambahkan ikon abu-abu untuk daftar tersembunyi (Alexander Borsuk)
 
 ### Terjemahan
+
 * Deskripsi negara yang lebih baik (alnzrv)
 * Perbaikan terjemahan bahasa Rumania yang diterapkan oleh Eugen Dedu (Alexander Borsuk)
 * Nama-nama negara yang telah diperbarui (Viktor Govako)

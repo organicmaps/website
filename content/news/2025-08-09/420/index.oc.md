@@ -13,7 +13,7 @@ Per veire los noms dels marcapaginas sus la mapa, activatz aquesta foncion novè
 
 Mercés als nòstres contributors ❤️ e a vòstras [donacions](@/donate/index.oc.md), i a plan mai dins aquesta mesa a jorn.
 
-P.S. ...e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per bastir las melhoras mapas – ensemble.
+P.S. …e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per bastir las melhoras mapas – ensemble.
 
 ### Nòtas detalhadas de version
 
@@ -24,6 +24,7 @@ P.S. ...e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per 
 - Las rotas agricòlas e forestièras son ara exclosas del calcul d'itinerari (Viktor Govako)
 
 #### iOS
+
 - Resolucion de divèrses plantaments e melhora de l'estabilitat de la sincronizacion iCloud (Kiryl Kaveryn)
 - Introduccion de títols multi-linhas dins las listas de marcapaginas (David Martinez)
 - Correccion del problèma de zoom en deseleccionant una traça (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per 
 - Remplaçament de traduccions mancantas per d'alternativas en anglés (Viktor Govako)
 
 #### Android
+
 - Ajust d'un grafic d'elevacion de traça e de la seleccion de traça sus la mapa (Kavi Khalique)
 - Daissar una nòta sus OpenStreetMap se un punt d'interès (POI) novèlament ajustat es pas encara compatible amb Organic Maps (hemanggs)
 - Supression del supòrt d'OpenGL ES 2.0 en favor d'OpenGL ES 3.0 (renderexpert)
 - Afichatge d'icònas de marcapaginas dins lo selector de colors (Andrei Shkrob)
 
 #### Melhoraments d'estils e d'icònas
+
 - Icòna de forqueta e cotèl pels espaci de restauracion (David Martinez)
 - Marcatge de las zonas umidas amb de raiaduras orizontalas (Viktor Govako)
 - Icònas pel fast food e las bicicletas dins los resultats de recèrca e los marcapaginas (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...e n'i aurà encara plan mai ! Vòstre sosten nos ajuda e nos motiva per 
 - Correccion dels paramètres de prioritat pels burèus diplomatics (Viktor Govako)
 
 #### Melhoraments divèrses
-- Escriure "cop" dins la recèrca tròba los commissariats de polícia, mentre que "film" o "movie theater" localiza los cinemas (theadventurer62)
+
+- Escriure «cop» dins la recèrca tròba los commissariats de polícia, mentre que «film» o «movie theater» localiza los cinemas (theadventurer62)
 - Dobrir dins una autra aplicacion aficha ara lo punt seleccionat dins Google Maps (Alexander Borsuk)
 - Traduccion espanhòla per mai de categorias de recèrca (David Martinez)
 - Mesa a jorn de divèrsas traduccions (contributors de Weblate)

@@ -6,11 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Joyeux Noël et Bonne Année de la part de l'équipe Organic Maps. Vous cherchez l'esprit des fêtes ? Recherchez `Marché de Noël` ou `Arbre de Noël` pour les voir sur la carte. Si rien n'apparaît dans votre région, veuillez ajouter les éléments manquants sur OpenStreetMap.org et améliorer la carte pour tout le monde !
+Joyeux Noël et Bonne Année de la part de l'équipe Organic Maps. Tu cherches l'esprit des fêtes ? Recherche `Marché de Noël` ou `Arbre de Noël` pour les voir sur la carte. Si rien n'apparaît dans ta région, merci d'ajouter les éléments manquants sur OpenStreetMap.org et d'améliorer la carte pour tout le monde !
 
-Installez Organic Maps depuis <https://omaps.app/get> ou depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid]
+Installe Organic Maps depuis <https://omaps.app/get> ou depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], et [F-Droid][fdroid]
 
 ### Notes de version
+
 - Les sapins et marchés de Noël apparaissent désormais sur la carte (Viktor Govako)
 - Les données OpenStreetMap sont à jour au 14 décembre 2025 (Viktor Govako)
 - Les frontières et les étiquettes des parcs nationaux sont moins proéminentes sur la carte du monde (Viktor Govako)
@@ -20,6 +21,7 @@ Installez Organic Maps depuis <https://omaps.app/get> ou depuis l'[App Store][ap
 - Les instructions vocales TTS pour les ronds-points en croate sont corrigées (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Les résultats de recherche affichent désormais la capacité de stationnement à l'aide d'emojis (David Martinez)
 - Un problème CarPlay sur iOS 12 est corrigé (Kiryl Kaveryn)
 - Plusieurs problèmes visuels sur iPhone et iPad sont corrigés (Kiryl Kaveryn)
@@ -29,15 +31,16 @@ Installez Organic Maps depuis <https://omaps.app/get> ou depuis l'[App Store][ap
 - Le message de rappel des courbes de niveau au lancement de l'application est supprimé (Kiryl Kaveryn)
 
 ### Android
+
 - Les résultats de recherche affichent désormais la capacité de stationnement (Bicky Rawdyrathaur, David Martinez)
 - Le capteur de localisation de la voiture dans Android Auto est désactivé pour éviter les problèmes de localisation (Andrei Shkrob)
 - L'enregistrement de la trace continue même si l'application est tuée ou fermée (Alexander Borsuk)
 
-Rejoignez les tests bêta pour essayer les fonctionnalités en avant-première et signaler les problèmes :
+Rejoins les tests bêta pour essayer les fonctionnalités en avant-première et signaler les problèmes :
 - [iOS][testflight]
 - [Android][firebase]
 
-Organic Maps existe grâce à vos [dons](@/donate/index.fr.md) et [contributions](@/contribute/index.fr.md). Merci ! ❤️
+Organic Maps existe grâce à tes [dons](@/donate/index.fr.md) et [contributions](@/contribute/index.fr.md). Merci ! ❤️
 
 L'équipe Organic Maps
 

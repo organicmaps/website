@@ -1,13 +1,13 @@
 ---
 title: 捐赠以支持 Organic Maps 的开发
-description: 您的资金用于支付所有项目相关费用，并激励我们改进 Organic Maps。
+description: 你的资金用于支付所有项目相关费用，并激励我们改进 Organic Maps。
 weight: 10
 extra:
   menu_title: 捐赠
   preview_image: donate/donate.png
 ---
 
-Organic Maps 应用因您的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[美元][stripe_usd]、[英镑][stripe_GBP]、[瑞士法郎][stripe_chf]、[乌克兰格里夫纳][stripe_uah]、[波兰兹罗提][stripe_pln]**）而对所有人 _免费_：
+Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[美元][stripe_usd]、[英镑][stripe_GBP]、[瑞士法郎][stripe_chf]、[乌克兰格里夫纳][stripe_uah]、[波兰兹罗提][stripe_pln]、[俄罗斯卢布][stripe_rub]**）而对所有人 _免费_：
 
 - 无广告
 - 无跟踪器
@@ -15,7 +15,7 @@ Organic Maps 应用因您的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
 - 无推送通知
 - 开源
 
-请点击下方您喜欢的支付方式图标：
+请点击下方你喜欢的支付方式图标：
 
 {{ donate_buttons() }}
 
@@ -23,7 +23,7 @@ Organic Maps 应用因您的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
 
 1. 我们的目标是为 Google Maps 和 Apple Maps 提供一个注重隐私、快速且易用的替代方案。
 2. 改善众多使用 OpenStreetMap 的网站、应用和平台的公共地图数据，并让更多人参与地图信息贡献也是我们的目标之一。
-3. 我们依靠您的捐赠让 Organic Maps 对所有人开放且免费。
+3. 我们依靠你的捐赠让 Organic Maps 对所有人开放且免费。
    并且无广告。
 4. 我们热爱我们的工作，也热爱我们的用户 ❤️。
 
@@ -45,11 +45,11 @@ Organic Maps 应用因您的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
    - 山体阴影和 3D 地形
    - 更高级的 OpenStreetMap 编辑器
    - 更好的离线地址搜索、路线规划和导航
-   - ……以及 [许多其他][github issues] 您想要和喜欢的功能
+   - ……以及 [许多其他][github issues] 你想要和喜欢的功能
 
 ## 如何捐赠？
 
-请点击下方您喜欢的支付方式图标：
+请点击下方你喜欢的支付方式图标：
 
 {{ donate_buttons() }}
 

@@ -5,9 +5,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Agora, quando seleciona uma paragem de autocarro ou elétrico, pode ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados ("Adicionar local" e "Editar local").
+Agora, quando selecionas uma paragem de autocarro ou elétrico, podes ver os números de linha dos transportes públicos. Este é apenas o primeiro passo! A seguir, planeamos mostrar rotas de transportes públicos diretamente no mapa. Os utilizadores do iOS também podem desfrutar dos botões de contribuição do OpenStreetMap redesenhados («Adicionar local» e «Editar local»).
 
-Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações](@/donate/index.pt.md) e [vosso apoio](@/contribute/index.pt.md).
+Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [tuas doações](@/donate/index.pt.md) e [teu apoio](@/contribute/index.pt.md).
 
 ### Notas detalhadas da versão
 
@@ -27,27 +27,29 @@ Estamos gratos ❤️ aos nossos colaboradores, bem como pelas [vossas doações
 - Traduções atualizadas (colaboradores Weblate)
 
 #### iOS
-- NOVO! Botões "Adicionar local ao OpenStreetMap" e "Editar local" redesenhados (Kiryl Kaveryn)
+
+- NOVO! Botões «Adicionar local ao OpenStreetMap» e «Editar local» redesenhados (Kiryl Kaveryn)
 - Mira saltitante corrigida ao adicionar um novo local ao OpenStreetMap (Kiryl Kaveryn)
 - Novos ícones para camadas do mapa e menu (Kiryl Kaveryn, @euf)
 - Atualizações de elevação redundantes removidas durante a gravação de percurso (Kiryl Kaveryn)
 - Títulos de múltiplas linhas são agora suportados no seletor de lista de marcadores (David Martinez) e na página de informações do local (Kiryl Kaveryn)
 - Atualizações de início/paragem de gravação de percurso e pontos são agora mais fiáveis (Kiryl Kaveryn)
 - Todos os ícones tocáveis na página de detalhes do local agora usam uma cor azul unificada (Kiryl Kaveryn)
-- O botão "Atualizar mapas para contribuir" é agora mostrado no menu quando os mapas estão demasiado desatualizados (Kiryl Kaveryn)
+- O botão «Atualizar mapas para contribuir» é agora mostrado no menu quando os mapas estão demasiado desatualizados (Kiryl Kaveryn)
 
 #### Android
+
 - Novos ícones de camada (Andrei Shkrob, @euf)
 - A área de toque para o ícone de editar marcador (lápis) é agora maior (Kavi Khalique)
 - Corrigido erro ao guardar certas rotas e erro raro no arranque (Viktor Govako)
 - Orientação de faixa foi corrigida em alguns casos de navegação (Andrei Shkrob)
 - Ordem original de cores predefinidas de marcadores/percursos restaurada (Andrei Shkrob)
-- Botão "Limpar pesquisa" corrigido ao editar cozinhas (Ansh Jain)
+- Botão «Limpar pesquisa» corrigido ao editar cozinhas (Ansh Jain)
 
-Obtenha a versão mais recente de setembro do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
+Obtém a versão mais recente de setembro do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], e [F-Droid][fdroid].
 
-Se ainda não experimentou, pode agora ativar uma funcionalidade nas definições do Organic Maps para ver nomes de marcadores no mapa. Além disso, um ícone de lápis ✎ é agora usado como uma forma mais rápida de editar marcadores.
+Se ainda não experimentaste, podes agora ativar uma funcionalidade nas definições do Organic Maps para ver nomes de marcadores no mapa. Além disso, um ícone de lápis ✎ é agora usado como uma forma mais rápida de editar marcadores.
 
-P.S. Não se esqueça, pode inscrever-se no nosso programa de testes beta para obter acesso antecipado a funcionalidades experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
+P.S. Não te esqueças, podes inscrever-te no nosso programa de testes beta para obter acesso antecipado a funcionalidades experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
 
 {{ references() }}

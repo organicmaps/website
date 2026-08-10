@@ -11,6 +11,7 @@ Veselé Vánoce a šťastný nový rok od týmu Organic Maps. Hledáte vánočn�
 Nainstalujte si Organic Maps z <https://omaps.app/get> nebo z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid]
 
 ### Poznámky k vydání
+
 - Vánoční stromky a trhy se nyní zobrazují na mapě (Viktor Govako)
 - Data OpenStreetMap jsou aktuální k 14. prosinci 2025 (Viktor Govako)
 - Hranice a popisky národních parků jsou na mapě světa méně výrazné (Viktor Govako)
@@ -20,6 +21,7 @@ Nainstalujte si Organic Maps z <https://omaps.app/get> nebo z [App Store][appsto
 - Hlasové pokyny TTS pro kruhové objezdy v chorvatštině jsou opraveny (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Výsledky vyhledávání nyní zobrazují kapacitu parkoviště pomocí emoji (David Martinez)
 - Opraven problém s CarPlay na iOS 12 (Kiryl Kaveryn)
 - Opraveno několik vizuálních problémů na iPhonu a iPadu (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Nainstalujte si Organic Maps z <https://omaps.app/get> nebo z [App Store][appsto
 - Zpráva s připomenutím vrstevnic při spuštění aplikace je odstraněna (Kiryl Kaveryn)
 
 ### Android
+
 - Výsledky vyhledávání nyní zobrazují kapacitu parkoviště (Bicky Rawdyrathaur, David Martinez)
 - Senzor polohy auta v Android Auto je deaktivován, aby se předešlo problémům s polohou (Andrei Shkrob)
 - Nahrávání trasy pokračuje, i když je aplikace ukončena nebo zavřena (Alexander Borsuk)

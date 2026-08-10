@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps is _gratis vir almal_ danksy jou **[skenkings][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Organic Maps is _gratis vir almal_ danksy jou **[skenkings][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - Geen advertensies
 - Geen opspoorders
@@ -45,7 +45,7 @@ Klik op jou voorkeur betaalmetode-ikoon hieronder:
    - Heuwelskadu en 3D-terrein
    - Meer gevorderde OpenStreetMap-redigeerder
    - Beter vanlyn adressoektog, roetering en navigasie
-   - ... en [baie ander][github issues] kenmerke wat jy wil hê en van hou
+   - … en [baie ander][github issues] kenmerke wat jy wil hê en van hou
 
 ## Hoe om te skenk?
 

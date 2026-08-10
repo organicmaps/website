@@ -5,17 +5,17 @@ taxonomies:
   news: ["releases"]
 ---
 
-Toto druhé zářijové vydání přináší přepracovanou obrazovku plánování trasy a zobrazení obsahu tagu OpenStreetMap `description` na iOS. Chceš-li najít místa s tímto tagem, zadej do vyhledávání `?description` (podobně jako `?wiki` u míst propojených s Wikipedií).
+Toto druhé zářijové vydání přináší přepracovanou obrazovku plánování trasy a zobrazení obsahu tagu OpenStreetMap `description` na iOS. Chcete-li najít místa s tímto tagem, zadejte do vyhledávání `?description` (podobně jako `?wiki` u míst propojených s Wikipedií).
 
 Obsahuje také mnoho oprav a vylepšení pro iOS a Android (viz níže).
 
-A samozřejmě připomínka dalších nedávných funkcí, které ti mohly uniknout:
+A samozřejmě připomínka dalších nedávných funkcí, které vám mohly uniknout:
 - Čísla linek veřejné dopravy při výběru zastávky
-- Pěší a cyklistické trasy (aktivuj je tlačítkem Vrstvy vlevo nahoře)
-- Zobrazení názvů záložek na mapě (zapni v Nastavení aplikace)
+- Pěší a cyklistické trasy (aktivujte je tlačítkem Vrstvy vlevo nahoře)
+- Zobrazení názvů záložek na mapě (zapněte v Nastavení aplikace)
 - Ikona tužky ✎ umožňuje rychlou úpravu záložek
 
-Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs.md) a [tvé podpoře](@/contribute/index.cs.md).
+Organic Maps je možný díky přispěvatelům, [vašim darům](@/donate/index.cs.md) a [vaší podpoře](@/contribute/index.cs.md).
 
 ### Podrobné poznámky k vydání
 
@@ -38,7 +38,7 @@ Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs
 
 #### iOS
 
-- NOVÉ: zobrazení obsahu tagu OSM `description` (vyzkoušej zadáním `?description` do vyhledávání) (Kiryl Kaveryn, Viktor Govako)
+- NOVÉ: zobrazení obsahu tagu OSM `description` (vyzkoušejte zadáním `?description` do vyhledávání) (Kiryl Kaveryn, Viktor Govako)
 - NOVÉ: přepracovaná obrazovka plánování trasy (Kiryl Kaveryn)
 
 #### Android
@@ -50,10 +50,10 @@ Organic Maps je možný díky přispěvatelům, [tvým darům](@/donate/index.cs
 - Opravená aktualizace polohy v navigaci na custom ROM (např. Lineage + MicroG) (Viktor Govako)
 - Modrá ikona tužky (úpravy) pro záložky (Alexander Borsuk)
 - Snížená vertikální výška náhledu informací o místě (Alexander Borsuk)
-- Odstraněn azimutální úhel k severu z náhledu informací o místě (klepni na modrou šipku se vzdáleností a uvidíš ho) (Alexander Borsuk)
+- Odstraněn azimutální úhel k severu z náhledu informací o místě (klepněte na modrou šipku se vzdáleností a uvidíte ho) (Alexander Borsuk)
 
-Stáhni si nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Stáhněte si nejnovější verzi Organic Maps z [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-P.S. Připoj se k beta testování a vyzkoušej novinky dřív: [iOS][testflight] / [Android][firebase].
+P.S. Připojte se k beta testování a vyzkoušejte novinky dřív: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

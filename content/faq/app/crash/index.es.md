@@ -11,18 +11,20 @@ aliases:
   - /es/faq/app/crash/
 ---
 
-Probablemente sea nuestro error y estaremos encantados de solucionarlo en la próxima actualización.
+En Android, si guardas tus mapas en una tarjeta SD, la causa más probable es que la tarjeta SD esté defectuosa. Puedes:
+1. Eliminar todos los mapas descargados y volver a descargarlos en la tarjeta SD (puede que no vuelva a funcionar).
+2. Eliminar todos los mapas descargados, seleccionar el almacenamiento interno del dispositivo y volver a descargar los mapas.
+3. Formatear la tarjeta SD y volver a descargar los mapas.
+4. Comprar una tarjeta SD nueva (recomendado)
 
-Android: Si almacenas los mapas en una tarjeta SD, lo más probable es que el error se deba a un fallo de la tarjeta. Puedes formatear la tarjeta SD o, mejor aún, cambiarla por otra nueva. Si has movido la app a la tarjeta SD, muévela al almacenamiento interno (de tu dispositivo).
+Si la aplicación sigue fallando, consulta [nuestro GitHub](https://github.com/organicmaps/organicmaps/issues/) para ver si hay problemas similares, [ponte en contacto con nosotros](mailto:support@organicmaps.app) y facilítanos la siguiente información:
 
-Si el problema persiste [ponte en contacto con nosotros](mailto:support@organicmaps.app) y especifica por favor:
-
-* la descripción corta del problema
-* la version de Organic Maps
-* el modelo de dispositivo y la versión de OS (Android o iOS).
+* Una descripción detallada del problema y los pasos para reproducirlo
+* Versión de Organic Maps
+* Modelo del dispositivo y versión del sistema operativo (Android o iOS)
 
 O alternativamente:
-1. Habilite la grabación de registros en la configuración de la aplicación.
-2. Fuerce el reinicio de la aplicación.
-3. Reproduzca el bloqueo.
-4. Envíenos el archivo de registro a través de "Informar un error" en la pantalla Acerca de y agregue una breve descripción del bloqueo.
+1. Habilita la grabación de registros en la configuración de la aplicación.
+2. Fuerza el reinicio de la aplicación.
+3. Reproduce el bloqueo.
+4. Envíanos el archivo de registro a través de «Informar un error» en la pantalla Acerca de y agrega una breve descripción del bloqueo.

@@ -43,6 +43,7 @@ Per coloro che se lo sono perso, l'[aggiornamento precedente del 7 ottobre](http
 - Migliore schermata iniziale all'avvio (Andrei Shkrob)
 
 ### Android Auto
+
 - Ripristino del percorso dopo l'annullamento (Andrei Shkrob)
 - Corretti i crash su alcuni dispositivi (Andrei Shkrob)
 

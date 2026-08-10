@@ -46,9 +46,10 @@ Download de update op <https://get.omaps.org> of op de [App Store][appstore], [G
 - NIEUW! Tracktekst en HTML-beschrijvingen worden nu ondersteund, op dezelfde manier als beschrijvingen voor bladwijzers. Druk op het potloodpictogram om een beschrijving toe te voegen. _(Mikhail Listratsenka)_
 - NIEUW! Kies elke kleur voor tracks, niet alleen een beperkte subset _(Mikhail Listratsenka)_
 - Koreaanse, Chinese en Japanse gebruikers zien nu de juiste lettertypen op basis van de landinstelling van het apparaat _(Alexander Borsuk)_
-- Problemen met de trackplaatspagina en de knop "Open In" opgelost _(Mikhail Listratsenka)_
+- Problemen met de trackplaatspagina en de knop “Open In” opgelost _(Mikhail Listratsenka)_
 
 ### Linux en macOS
+
 - Chinese vertalingen toegevoegd aan het `.desktop`-bestandsopmerkingen _(DeepChirp)_
 
 ## Doe mee aan bètatests om vroege functies uit te proberen en problemen te melden:

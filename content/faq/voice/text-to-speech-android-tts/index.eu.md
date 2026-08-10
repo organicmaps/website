@@ -15,7 +15,7 @@ aliases:
 
 Organic Maps-ek sistemako testu-hizketarako (TTS) motorra erabiltzen du ahots-argibideetarako. Motor lehenetsiak gailuaren arabera aldatzen dira. Aukerak Google Text-to Speech, gailuaren fabrikatzailearen motorra edo hirugarrenen bat izan daitezke.
 
-Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [Google Play]-tik deskargatu daitekeen kode irekiko ahots-motorra (https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) eta [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)-tik deskargatu daitekeen kode irekiko ahots-motorra eta [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## Argibideak
 
@@ -23,7 +23,7 @@ Organic Maps-en gomendio ofiziala [RHVoice](https://rhvoice.org/) da, hau da, [G
 - Hautatu Ezarpen gehigarriak eta, gero, hautatu Irisgarritasuna
 - Aukeratu nahi duzun motorra, hizketa-abiadura eta tonua
 - **Berrabiarazi Organic Maps aplikazioa**
-- Ireki Ezarpenak => Ahots-argibideak Mapa organikoetan eta konfiguratu
+- Ireki Ezarpenak => Ahots-argibideak Organic Maps-en eta konfiguratu
 - Berrabiarazi Organic Maps aplikazioa berriro (edo berrabiarazi gailua) ahotsak funtzionatzen ez badu
 
 Ezin baduzu dagokion ezarpena aurkitzen, ireki ezarpenen aplikazioa eta bilatu Text-to-speech.
@@ -38,7 +38,7 @@ Baliteke aukera horiek ez agertzea zure gailuan TTSrik instalatuta ez baduzu. Me
 | ----------- | ----------- |
 ![Ezarpenak](tts_config_1.png "Ezarpenak") | ![Erisgarritasuna](tts_config_2.png "Irisgarritasuna")
 
-## Motorrak {#motorrak}
+## Motorrak {#engines}
 
 Jarraian, hainbat motor eta onartzen dituzten hizkuntzak erakusten dituen zerrenda zabala dago (deskargarako estekak taularen ondoren aurki daitezke):
 
@@ -62,6 +62,6 @@ LineageOS edo bestelako ROM pertsonalizatuetan RHVoice TTS motorra hasieratzeko 
 
 ## Probak
 
-Ahots-argibideak probatzeko, OM "Ezarpenak → Ahots-argibideak" menuan "Probatu ahots-jarraibideak (TTS, testu-hizketa)" sakatu edo nabigazio bat has dezakezu edozein ahots-irteera jasotzeko. Organic Maps-ek ez dizu ahots-argibiderik emango geldirik zauden bitartean.
+Ahots-argibideak probatzeko, OM «Ezarpenak → Ahots-argibideak» menuan «Probatu ahots-jarraibideak (TTS, testu-hizketa)» sakatu edo nabigazio bat has dezakezu edozein ahots-irteera jasotzeko. Organic Maps-ek ez dizu ahots-argibiderik emango geldirik zauden bitartean.
 
 ![TTS Test](tts_test.png "TTS Test")

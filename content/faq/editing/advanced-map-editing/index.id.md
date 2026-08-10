@@ -13,39 +13,39 @@ aliases:
   - /id/faq/editing/advanced-map-editing/
 ---
 
-Peta Organik menyertakan editor sederhana dan mudah digunakan yang dapat Anda gunakan untuk mengedit peta. Namun editornya terbatas dan hanya mengizinkan penambahan fitur titik sederhana, yang berarti tidak boleh ada garis besar bangunan, jalan, danau, kota, dll. Jika Anda ingin mengubah sesuatu yang tidak dapat diedit dengan editor bawaan, ini adalah halaman FAQ yang tepat untuk dibaca.
+Organic Maps menyertakan editor sederhana dan mudah digunakan yang dapat kamu gunakan untuk mengedit peta. Namun editornya terbatas dan hanya mengizinkan penambahan fitur titik sederhana, yang berarti tidak boleh ada garis besar bangunan, jalan, danau, kota, dll. Jika kamu ingin mengubah sesuatu yang tidak dapat diedit dengan editor bawaan, ini adalah halaman FAQ yang tepat untuk dibaca.
 
-Karena semua data peta yang digunakan di Peta Organik berasal dari [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), Anda dapat langsung memperbarui peta di sana. Modifikasi Anda kemudian akan dimasukkan ke dalam Peta Organik pada pembaruan peta berikutnya.
+Karena semua data peta yang digunakan di Organic Maps berasal dari [OpenStreetMap.org (OSM)](https://www.openstreetmap.org), kamu dapat langsung memperbarui peta di sana. Modifikasi kamu kemudian akan dimasukkan ke dalam Organic Maps pada pembaruan peta berikutnya.
 
 ## Editor OpenStreetMap
 
-Untuk mengedit OSM, ada beberapa pilihan. Jika Anda memiliki laptop atau komputer desktop, lebih baik gunakan [ID Editor](https://www.openstreetmap.org/edit) yang berjalan di browser Anda. Editor ID mudah untuk pemula, dan layar, mouse, dan keyboard yang lebih besar membuat pengeditan peta menjadi lebih mudah.
+Untuk mengedit OSM, ada beberapa pilihan. Jika kamu memiliki laptop atau komputer desktop, lebih baik gunakan [ID Editor](https://www.openstreetmap.org/edit) yang berjalan di browser kamu. ID Editor mudah untuk pemula, dan layar, mouse, dan keyboard yang lebih besar membuat pengeditan peta menjadi lebih mudah.
 
 Untuk pengeditan peta tingkat lanjut dari perangkat seluler, gunakan [Go Map](https://apps.apple.com/us/app/go-map/id592990211) untuk iOS atau [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android) untuk Android. Go Map mudah untuk pemula, sedangkan Vespucci menargetkan pengguna yang lebih mahir. LearnOSM menyediakan tutorial untuk [Go Map](https://learnosm.org/en/mobile-mapping/gomap/) dan [Vespucci](https://learnosm.org/en/mobile-mapping/vespucci/).
 
-Untuk pengeditan yang lebih sederhana dan lebih seru, Anda juga dapat mencoba [aplikasi Every Door](https://every-door.app/) untuk iOS dan Android serta [aplikasi StreetComplete](https://streetcomplete.app/) untuk Android.
+Untuk pengeditan yang lebih sederhana dan lebih seru, kamu juga dapat mencoba [aplikasi Every Door](https://every-door.app/) untuk iOS dan Android serta [aplikasi StreetComplete](https://streetcomplete.app/) untuk Android.
 
-#### Penyunting Identitas
+#### ID Editor
 
 Untuk mengedit OpenStreetMap dengan ID ikuti langkah-langkah berikut:
 
 1. Buat akun baru atau masuk ke [OpenStreetMap.org](https://www.openstreetmap.org)
-2. Telusuri lokasi yang ingin Anda edit di OpenStreetMap.org dan klik *Edit* di bagian atas
-3. *Mulai Panduan* dan ikuti tutorial singkat yang menjelaskan Editor ID
+2. Telusuri lokasi yang ingin kamu edit di OpenStreetMap.org dan klik *Edit* di bagian atas
+3. *Mulai Panduan* dan ikuti tutorial singkat yang menjelaskan ID Editor
 4. Edit peta
-5. Unggah perubahan Anda
+5. Unggah perubahan kamu
 
-Itu saja, Anda sekarang menjadi bagian dari komunitas OSM.
+Itu saja, kamu sekarang menjadi bagian dari komunitas OSM.
 
 ## Apa yang terjadi dengan hasil edit saya?
 
-Setelah Anda menekan *Unggah* perubahan Anda akan langsung ditambahkan ke database OSM publik. Jadi berhati-hatilah saat mengedit. Di Peta Organik, perubahan Anda akan terlihat setelah pembaruan peta bulanan berikutnya.
+Setelah kamu menekan *Unggah* perubahan kamu akan langsung ditambahkan ke database OSM publik. Jadi berhati-hatilah saat mengedit. Di Organic Maps, perubahan kamu akan terlihat setelah pembaruan peta bulanan berikutnya.
 
-Email Anda tidak dipublikasikan, namun orang lain akan dapat melihat nama pengguna OSM Anda. Karena OSM menawarkan kemungkinan untuk mendiskusikan perubahan, Anda mungkin mendapat pertanyaan tentang hasil edit Anda dari kontributor OSM lainnya. Anda akan diberitahu tentang hal ini melalui alamat email yang Anda gunakan untuk mendaftarkan akun OSM Anda. Karena OSM adalah proyek komunitas yang dibangun berdasarkan kolaborasi, Anda harus selalu menjawab pertanyaan-pertanyaan tersebut.
+Email kamu tidak dipublikasikan, namun orang lain akan dapat melihat nama pengguna OSM kamu. Karena OSM menawarkan kemungkinan untuk mendiskusikan perubahan, kamu mungkin mendapat pertanyaan tentang hasil edit kamu dari kontributor OSM lainnya. Kamu akan diberitahu tentang hal ini melalui alamat email yang kamu gunakan untuk mendaftarkan akun OSM kamu. Karena OSM adalah proyek komunitas yang dibangun berdasarkan kolaborasi, kamu harus selalu menjawab pertanyaan-pertanyaan tersebut.
 
 ## Komunitas dan Wiki
 
-OpenStreetMap adalah sebuah komunitas. Jika Anda memerlukan bantuan atau memiliki pertanyaan, Anda dapat bertanya di [Forum OSM](https://community.openstreetmap.org/c/help-and-support) atau lihat dokumentasi [OSM Wiki](https://wiki.openstreetmap.org/).
+OpenStreetMap adalah sebuah komunitas. Jika kamu memerlukan bantuan atau memiliki pertanyaan, kamu dapat bertanya di [Forum OSM](https://community.openstreetmap.org/c/help-and-support) atau lihat dokumentasi [OSM Wiki](https://wiki.openstreetmap.org/).
 
 ## Tag - Cara kerja model data OSM
 
@@ -54,15 +54,15 @@ Basis data OpenStreetMap berisi Objek seperti Node, Jalan, Area, dan Relasi yang
 Karena ini terdengar lebih rumit, kami akan memberikan contoh:
 Sebuah Restoran misalnya. dipetakan sebagai Catatan atau Area dengan Tag `amenity=restaurant`. Tag lebih lanjut seperti `cuisine=*` atau `opening_hours=*` kemudian dapat digunakan untuk detail lebih lanjut.
 
-> Perhatikan bahwa editor ID menyembunyikan struktur data internal dari pengguna agar lebih ramah bagi pemula. Namun untuk membaca dokumentasi Wiki, memberikan gambaran singkat tentang struktur data sangat membantu.
-Di Editor ID, Anda dapat melihat Tag yang ID sembunyikan dari Anda dengan memperluas bagian *Tag* di panel samping *Fitur Edit*.
+> Perhatikan bahwa ID editor menyembunyikan struktur data internal dari pengguna agar lebih ramah bagi pemula. Namun untuk membaca dokumentasi Wiki, memberikan gambaran singkat tentang struktur data sangat membantu.
+Di ID Editor, kamu dapat melihat Tag yang ID sembunyikan dari kamu dengan memperluas bagian *Tag* di panel samping *Fitur Edit*.
 
 ## Catatan OSM {#osm-note}
 
-Jika Anda tidak punya waktu atau masalahnya terlalu rumit untuk mengedit sendiri data OSM Catatan OSM ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) adalah cara yang tepat. Anda dapat menempatkan catatan seperti itu di lokasi kesalahan peta dan menjelaskan masalahnya secara rinci. Relawan OSM lainnya kemudian dapat membantu dan memecahkan masalah tersebut. Anda akan mendapatkan notifikasi email melalui akun OSM Anda jika ada pertanyaan lebih lanjut atau Catatan OSM terselesaikan.
+Jika kamu tidak punya waktu atau masalahnya terlalu rumit untuk mengedit sendiri data OSM Catatan OSM ([Wiki](https://wiki.openstreetmap.org/wiki/Notes)) adalah cara yang tepat. Kamu dapat menempatkan catatan seperti itu di lokasi kesalahan peta dan menjelaskan masalahnya secara rinci. Relawan OSM lainnya kemudian dapat membantu dan memecahkan masalah tersebut. Kamu akan mendapatkan notifikasi email melalui akun OSM kamu jika ada pertanyaan lebih lanjut atau Catatan OSM terselesaikan.
 
 1. Buat akun baru atau masuk ke [OpenStreetMap.org](https://www.openstreetmap.org)
-   > Anda juga dapat membuka Catatan anonim, namun hal ini tidak disarankan karena Anda tidak akan diberi tahu ketika masalah telah teratasi atau ada pertanyaan lebih lanjut.
+   > kamu juga dapat membuka Catatan anonim, namun hal ini tidak disarankan karena kamu tidak akan diberi tahu ketika masalah telah teratasi atau ada pertanyaan lebih lanjut.
 2. Perbesar lokasi peta di [OpenStreetMap.org](https://www.openstreetmap.org) dan tekan *Tambahkan catatan ke peta* (ikon kedua dari bawah di menu kanan). Kemudian seret penanda peta biru ke lokasi yang tepat.
    > Cobalah untuk menjadi setepat mungkin.
 3. Berikan penjelasan rinci tentang masalah peta dan tekan *Tambahkan Catatan*

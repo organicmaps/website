@@ -9,7 +9,7 @@ taxonomies:
 Dapatkan versi beta Organic Maps terbaru di <https://beta.omaps.org/> atau [unduh APK](http://cdn.organicmaps.app/apk/2026.06.15-54-Google-beta.apk):
 
 - Data peta OSM per 12 Juni
-- BARU! Gambar latar belakang satelit opsional (cari "Ubin peta" di pengaturan OM)
+- BARU! Gambar latar belakang satelit opsional (cari “Ubin peta” di pengaturan OM)
 - BARU! Rute transportasi umum dengan kereta bawah tanah, kereta ringan, BUS, dan TRAM
 - BARU! Rute terpendek sebagai alternatif dari rute tercepat
 - BARU! Peringatan rute untuk tangga, gerbang, dan palang pintu di peta

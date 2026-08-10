@@ -20,7 +20,7 @@ Pokud neslyšíte hlasové pokyny:
 
 * Veškeré problémy s Bluetooth nahlaste s potřebnými podrobnostmi na našem [GitHubu](https://github.com/organicmaps/organicmaps/issues)
 
-* Pokud jste uživatelem systému Android a tato možnost je zakázána (nebo některé z podporovaných jazyků nejsou k dispozici), zkontrolujte [nastavení TTS] (@/faq/voice/text-to-speech-android-tts/index.cs.md).
+* Pokud jste uživatelem systému Android a tato možnost je zakázána (nebo některé z podporovaných jazyků nejsou k dispozici), zkontrolujte [nastavení TTS](@/faq/voice/text-to-speech-android-tts/index.cs.md).
 
 V systému Android jsou hlasové pokyny k dispozici ve 39 jazycích: angličtina, arabština, baskičtina, běloruština, katalánština, čínština (zjednodušená a tradiční), chorvatština, čeština, dánština, holandština, finština, francouzština, němčina, řečtina, hindština, maďarština, indonéština, italština, japonština, korejština, maráthština, norština, perština (farsí), polština, portugalština, portugalština, ruština, ruština, španělština, rumunština, portugalština, ruština, ruština, španělština, rumunština svahilština, švédština, thajština, turečtina, ukrajinština, vietnamština.
 

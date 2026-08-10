@@ -1,7 +1,7 @@
 ---
 title: Hangi iOS ve Android sürümleri destekleniyor?
 slug: hangi-ios-ve-android-sürümleri-destekleniyor
-description: Organik Haritalar'ı Android ve iOS cihazlarda çalıştırmak için minimum gereksinimler
+description: Organic Maps'i Android ve iOS cihazlarda çalıştırmak için minimum gereksinimler
 updated: '2024-06-20'
 taxonomies:
   faq: ["uygulama"]
@@ -11,8 +11,10 @@ aliases:
   - /tr/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Uygulamayı çalıştırmak için en az iOS 12 veya Android 5'e ihtiyacınız var. Daha sonraki sürümlere sahip cihazlar Organik Haritalar'ı çalıştırabilir.
+Uygulamayı çalıştırmak için en az iOS 12 veya Android 5'e ihtiyacın var. Daha sonraki sürümlere sahip cihazlar Organic Maps'i çalıştırabilir.
 
-Android'de Organik Haritalar, Google Hizmetlerinin yüklü olduğu ve Google desteğinin olmadığı cihazlarda çalışabilir.
+Android'de Organic Maps, Google Hizmetlerinin yüklü olduğu ve Google desteğinin olmadığı cihazlarda çalışabilir.
 
-OM'yi Android Auto ile kullanmak için lütfen [buradan](../how-to-use-android-auto/) gereksinimleri kontrol edin.
+Android cihazların çalışabilmesi için OpenGL ES 3.0 veya üstü sürümünü ya da Vulkan API'sini desteklemesi gerekir.
+
+OM'yi Android Auto ile kullanmak için lütfen [buradan](../how-to-use-android-auto/) gereksinimleri kontrol et.

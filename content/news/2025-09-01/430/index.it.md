@@ -27,6 +27,7 @@ Siamo grati ❤️ ai nostri collaboratori, così come per le [vostre donazioni]
 - Traduzioni aggiornate (collaboratori Weblate)
 
 #### iOS
+
 - NUOVO! Pulsanti "Aggiungi luogo a OpenStreetMap" e "Modifica luogo" riprogettati (Kiryl Kaveryn)
 - Mirino saltellante corretto quando si aggiunge un nuovo luogo a OpenStreetMap (Kiryl Kaveryn)
 - Nuove icone per livelli mappa e menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Siamo grati ❤️ ai nostri collaboratori, così come per le [vostre donazioni]
 - Il pulsante "Aggiorna mappe per contribuire" ora è mostrato nel menu quando le mappe sono troppo datate (Kiryl Kaveryn)
 
 #### Android
+
 - Nuove icone di livello (Andrei Shkrob, @euf)
 - L'area touch per l'icona modifica segnalibro (matita) ora è più grande (Kavi Khalique)
 - Crash corretto quando si salvano certe rotte e crash raro all'avvio (Viktor Govako)

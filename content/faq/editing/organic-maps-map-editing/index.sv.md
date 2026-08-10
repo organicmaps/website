@@ -12,9 +12,9 @@ aliases:
   - /sv/faq/editing/organic-maps-map-editing/
 ---
 
-Med organiska kartor kan du enkelt lägga till platser som saknas på kartan, lägga till ytterligare information som öppettider eller åtgärda felaktiga poster. Genom att göra detta förbättrar du kartdata för alla användare.
+Med Organic Maps kan du enkelt lägga till platser som saknas på kartan, lägga till ytterligare information som öppettider eller åtgärda felaktiga poster. Genom att göra detta förbättrar du kartdata för alla användare.
 
-Eftersom [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) är den primära källan till kartdata i organiska kartor, skickas redigeringarna du gör till OSM. OSM är ett samhällsprojekt för att bygga en fri och öppen karta. Det fungerar på samma sätt som Wikipedia, så allt du redigerar blir tillgängligt för miljontals användare över hela världen. Gå med i gemenskapen och hjälp till att göra en bättre karta för alla!
+Eftersom [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) är den primära källan till kartdata i Organic Maps, skickas redigeringarna du gör till OSM. OSM är ett samhällsprojekt för att bygga en fri och öppen karta. Det fungerar på samma sätt som Wikipedia, så allt du redigerar blir tillgängligt för miljontals användare över hela världen. Gå med i gemenskapen och hjälp till att göra en bättre karta för alla!
 
 **Så här redigerar du OpenStreetMap från din Organic Maps-app:**
 1. Skapa ett konto på [OpenStreetMap.org](https://www.openstreetmap.org/user/new)

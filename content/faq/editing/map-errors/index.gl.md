@@ -21,6 +21,6 @@ Cantas máis persoas contribúan, máis mapas detallados terán todos. Cremos qu
 
 **Notas:**
 
-* Tamén pode engadir novos lugares, editar POI existentes e información do edificio (enderezos, horarios de apertura, nomes) directamente en Organic Maps. Unha vez que inicie sesión coa conta OSM, as súas edicións cargaranse automaticamente en OSM. Teña coidado ao editar, xa que as súas edicións serán visibles para todos os demais usuarios.
+* Tamén podes engadir novos lugares, editar POI existentes e información do edificio (enderezos, horarios de apertura, nomes) directamente en Organic Maps. Unha vez que inicies sesión coa conta OSM, as túas edicións cargaranse automaticamente en OSM. Ten coidado ao editar, xa que as túas edicións serán visibles para todos os demais usuarios.
 
 * A base de datos OpenStreetMap actualízase cada minuto. Pretendemos actualizar os mapas na aplicación 1-4 veces ao mes. Se modificaches algo en OSM, as túas edicións aparecerán nas futuras actualizacións de mapas.

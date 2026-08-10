@@ -15,6 +15,7 @@ extra:
 4. לקנות כרטיס SD חדש (מומלץ)
 
 אם האפליקציה עדיין קורסת, אנא בדקו ב-[GitHub שלנו](https://github.com/organicmaps/organicmaps/issues/) עבור בעיות דומות, [צרו קשר](mailto:support@organicmaps.app) וספקו את הפרטים הבאים:
+
 * תיאור מפורט של הבעיה וצעדים לשחזור
 * גרסת Organic Maps
 * דגם המכשיר וגרסת מערכת ההפעלה (אנדרואיד או iOS)

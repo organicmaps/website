@@ -54,7 +54,6 @@ Organic Maps ऐप ट्रैकर्स और अन्य खराब �
 - कोई विज्ञापन नहीं
 - कोई ट्रैकिंग नहीं
 - कोई डेटा संग्रह नहीं
-- कोई फोनिंग होम नहीं
 - कोई कष्टप्रद पंजीकरण नहीं
 - कोई अनिवार्य ट्यूटोरियल नहीं
 - कोई ईमेल स्पैम नहीं
@@ -142,17 +141,16 @@ Organic Maps में, हम मानते हैं कि गोपनी�
 Organic Maps एक [ओपन-सोर्स सॉफ्टवेयर][github] है जिसे Apache License 2.0 के तहत लाइसेंस दिया गया है।
 
 - कृपया हमारे बीटा प्रोग्राम में शामिल हों, अपनी सुविधाओं का सुझाव दें, और बग्स को रिपोर्ट करें:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - [समस्या ट्रैकर][issues] या [हमें ईमेल करें][email] पर बग या मुद्दों की रिपोर्ट करें।
 - विचारों पर [चर्चा करें][ideas] या सुविधा अनुरोधों का प्रस्ताव करें।
 - अपडेट के लिए हमारे [Telegram Channel][telegram] या [matrix space][matrix] की सदस्यता लें।
 - अन्य उपयोगकर्ताओं के साथ चर्चा करने के लिए हमारे [Telegram Group][telegram_chat] में शामिल हों।
 - हमारे [GitHub पेज][github] पर जाएं।
 - [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] पर हमारे अपडेट का पालन करें।
-- स्थानीय समुदायों में शामिल हों: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [German-][telegram_chat_de], [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Italian-][telegram_chat_it], [Spanish-][telegram_chat_es], [Russian-][telegram_chat_ru], [Ukrainian-][telegram_chat_uk], [Arabic-][telegram_chat_ar], [Persian-][telegram_chat_fa], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

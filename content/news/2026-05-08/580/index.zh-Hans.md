@@ -33,8 +33,8 @@ taxonomies:
 - 新增活火山和水上通道入口图标；船台现在可被搜索（David Martinez）
 - 新增水烟馆（alnzrv）
 - 新增在建建筑物（Viktor Govako）
-- 新增「Lookout」作为观景点的搜索同义词（alnzrv）
-- 新增「pkwy」作为美国街道名称的同义词（Viktor Govako）
+- 新增“Lookout”作为观景点的搜索同义词（alnzrv）
+- 新增“pkwy”作为美国街道名称的同义词（Viktor Govako）
 - 步行区颜色略微加深，提升可读性（Viktor Govako）
 - 地图上的多行文字现在会被整洁地裁剪（Viktor Govako）
 - 街道名称不再包含重复部分（Viktor Govako）
@@ -49,7 +49,7 @@ taxonomies:
 - 新增！导航仪表盘新增两个显示层级，可提供更精细的海拔与路线信息（Kiryl Kaveryn）
 - 更新了导航仪表盘中的海拔图样式，并正确渲染包含负海拔的轨迹（Kiryl Kaveryn）
 - 修复 TestFlight 版本中显示错误书签列表的问题（Alexander Borsuk）
-- 加大了「停止」按钮，并增大了导航底部面板按钮的触摸区域：TTS 静音、设置、轨迹录制（Kiryl Kaveryn）
+- 加大了“停止”按钮，并增大了导航底部面板按钮的触摸区域：TTS 静音、设置、轨迹录制（Kiryl Kaveryn）
 - 优化了地点页面中可展开描述区域的动画（Kiryl Kaveryn）
 - 地点页面在海拔图拖动结束时不再关闭，不再意外回弹，使用键盘编辑时标题也会保持可见（Kiryl Kaveryn）
 - 修复了系统外观切换时海拔图和环形进度条颜色异常的问题（Kiryl Kaveryn）

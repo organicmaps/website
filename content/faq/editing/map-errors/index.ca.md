@@ -15,12 +15,12 @@ aliases:
 
 La nostra font de dades de mapes és [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Aquest és un projecte de mapeig similar a la Viquipèdia, però per a mapes, on qualsevol pot crear i editar el mapa del món.
 
-Si veieu informació incorrecta o si trobeu que falten alguns objectes al mapa, podeu [deixar una nota](https://www.openstreetmap.org/note/new) per als voluntaris de l'OSM o [registrar-vos](https://www.openstreetmap.org/user/new) i editar el mapa.
+Si veus informació incorrecta o si trobes que falten alguns objectes al mapa, pots [deixar una nota](https://www.openstreetmap.org/note/new) per als voluntaris de l'OSM o [registrar-te](https://www.openstreetmap.org/user/new) i editar el mapa.
 
 Com més gent contribueixi, més mapes detallats obtindran tothom. Creiem que el mapa més detallat de tot el món, creat per la comunitat oberta, és només qüestió de temps.
 
 **Notes:**
 
-* També podeu afegir llocs nous, editar els POI existents i la informació de l'edifici (adreces, horaris d'obertura, noms) directament a Organic Maps. Un cop inicieu sessió amb el compte OSM, les vostres edicions es carregaran automàticament a OSM. Si us plau, aneu amb compte quan editeu, ja que els vostres canvis seran visibles per a tots els altres usuaris.
+* També pots afegir llocs nous, editar els POI existents i la informació de l'edifici (adreces, horaris d'obertura, noms) directament a Organic Maps. Un cop iniciïs sessió amb el compte OSM, les teves edicions es carregaran automàticament a OSM. Si us plau, ves amb compte quan editis, ja que els teus canvis seran visibles per a tots els altres usuaris.
 
-* La base de dades OpenStreetMap s'actualitza cada minut. El nostre objectiu és actualitzar els mapes de l'aplicació 1-4 vegades al mes. Si heu modificat alguna cosa a OSM, les vostres edicions apareixeran en futures actualitzacions de mapes.
+* La base de dades OpenStreetMap s'actualitza cada minut. El nostre objectiu és actualitzar els mapes de l'aplicació 1-4 vegades al mes. Si has modificat alguna cosa a OSM, les teves edicions apareixeran en futures actualitzacions de mapes.

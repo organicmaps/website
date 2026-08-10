@@ -25,4 +25,4 @@ Això és especialment cert per a les versions modernes d'Android:
 - Android 12
 - Android 11
 
-Els passos exactes sobre com fer que els mapes orgànics (i altres aplicacions) funcionin en segon pla es mostren aquí: [dontkillmyapp.com](https://dontkillmyapp.com)
+Els passos exactes sobre com fer que Organic Maps (i altres aplicacions) funcionin en segon pla es mostren aquí: [dontkillmyapp.com](https://dontkillmyapp.com)

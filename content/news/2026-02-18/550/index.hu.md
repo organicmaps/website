@@ -24,8 +24,8 @@ Ha látni szeretnéd a **valós idejű tömegközlekedési menetrendeket** a vá
 * Keresési eredmények rangsorolásának javítása kategóriák esetén (Viktor Govako)
 * Üzbég konyha hozzáadva (alnzrv)
 * Kötélpályák (zip line) hozzáadva a térképhez (Rawdyrathaur)
-* "?"-et tartalmazó című Wikimédia linkek javítása (alnzrv)
-* "+" jelet tartalmazó koordinátákkal rendelkező GPX fájlok támogatása (Alexander Borsuk)
+* „?“-et tartalmazó című Wikimédia linkek javítása (alnzrv)
+* „+“ jelet tartalmazó koordinátákkal rendelkező GPX fájlok támogatása (Alexander Borsuk)
 
 ### iOS
 

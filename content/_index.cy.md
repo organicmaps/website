@@ -4,16 +4,16 @@ extra:
   menu_title: Hafan
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein'
+title: "Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein"
 ---
 
 **Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored a'r un bobl a greodd ap [**MapsWithMe**][mapswithme]/**Maps.Me**. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
 
-**Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosodwch Organic Maps, lawrlwythwch mapiau, a chael gwared ar eich cerdyn SIM , a chewch fynd ar drip am wythnos heb angen gwefru eich ffôn, a heb ddanfon beit i'r rhwydwaith.
+**Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosoda Organic Maps, lawrlwytha mapiau, a chael gwared ar dy gerdyn SIM , a chei fynd ar drip am wythnos heb angen gwefru dy ffôn, a heb ddanfon beit i'r rhwydwaith.
 
-> Ym mis Rhagfyr 2025, cyrhaeddodd Organic Maps [6M o osodiadau](@/news/2025-12-31/500/index.cy.md). [Helpwch ni](@/donate/index.cy.md) i ehangu!
+> Ym mis Rhagfyr 2025, cyrhaeddodd Organic Maps [6M o osodiadau](@/news/2025-12-31/500/index.cy.md). [Helpa ni](@/donate/index.cy.md) i ehangu!
 
-### Lawrlwythwch a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Lawrlwytha a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,19 +29,16 @@ lliw tywyll') }}
 
 ## Nodweddion
 
-Organic Maps yw'r ap gorau ar gyfer teithwyr, twristiaid, heicwyr a
-seiclwyr:
+Organic Maps yw'r ap gorau ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr:
 
-- Mapiau manwl all-lein gyda lleoliadau sydd ddim yn bodoli ar fapiau
-  eraill, diolch i [OpenStreetMap][openstreetmap]
+- Mapiau manwl all-lein gyda lleoliadau sydd ddim yn bodoli ar fapiau eraill, diolch i [OpenStreetMap][openstreetmap]
 - Llwybrau seiclo, heicio, a cherdded
 - Cyfuchlinau, proffeiliau dyrchafiad, copaon, a llethrau
-- Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a
-  gyrru gydag arweiniad llais ac CarPlay/Android Auto
+- Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a gyrru gydag arweiniad llais ac CarPlay/Android Auto
 - Mapiau metro/isffordd
 - Chwilio all-lein cyflym ar y map
 - Llyfrnodau ac olion yn fformatiau KML, KMZ, a GPX, GeoJSON
-- Thema lliw tywyll i amddiffyn eich llygaid
+- Thema lliw tywyll i amddiffyn dy lygaid
 - Gwledydd ac ardaloedd sydd ddim yn defnyddio llawer o gof
 - Erthyglau Wicipedia ar gyfer lleoedd poblogaidd
 - Ffynhonnell agored ac am ddim
@@ -50,8 +47,8 @@ seiclwyr:
 
 Mae Organic Maps yn bur ac yn organig, ac wedi'i greu â chariad:
 
-- Yn parchu eich preifatrwydd
-- Yn arbed eich batri
+- Yn parchu dy breifatrwydd
+- Yn arbed dy fatri
 - Dim taliadau data annisgwyl
 
 Does dim tracwyr na phethau drwg arall yn yr ap Organic Maps:
@@ -59,45 +56,40 @@ Does dim tracwyr na phethau drwg arall yn yr ap Organic Maps:
 - Dim hysbysebion
 - Dim tracio
 - Dim casgliad data
-- Dim galw adref
 - Dim angen cofrestru
 - Dim tiwtorial gorfodol
 - Dim sbam e-bost swnllyd
 - Dim hysbysiadau push
 - Dim 'crapware'
-- ~~Dim plaladdwyr ~~ Yn hollol organig!
+- ~~Dim plaladdwyr~~ Yn hollol organig!
 
 Mae'r ap wedi cael ei wirio gan [Exodus Preifatrwydd Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-Mae'r ap iOS wedi cael ei wirio gan [TrackerControl for
-iOS][trackercontrol]:
+Mae'r ap iOS wedi cael ei wirio gan [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Dydy Organic Maps ddim yn gofyn am ormod o ganiatadau i ysbïo arnoch chi:
+Dydy Organic Maps ddim yn gofyn am ormod o ganiatadau i ysbïo arnat ti:
 
 {{ privacy_screenshots() }}
 
 At Organic Maps, credwn fod preifatrwydd yn hawl dynol sylfaenol:
 
-- Mae Organic Maps yn brosiect ffynhonnell agored annibynnol sydd wedi'i
-  yrru gan y gymuned
-- Rydym yn amddiffyn eich preifatrwydd o lygaid cwmnïoedd technoleg fawr
-- Arhoswch yn ddiogel ble bynnag yr ydych
+- Mae Organic Maps yn brosiect ffynhonnell agored annibynnol sydd wedi'i yrru gan y gymuned
+- Rydym yn amddiffyn dy breifatrwydd o lygaid cwmnïoedd technoleg fawr
+- Aros yn ddiogel ble bynnag yr wyt
 
-Gwrthodwch wyliadwriaeth - mwynhewch eich rhyddid.
+Gwrthoda wyliadwriaeth - mwynha dy ryddid.
 
-**[Triwch Organic Maps!](#install)**
+**[Tria Organic Maps!](#install)**
 
 ## Pwy sy'n talu am yr ap am ddim?
 
-Mae'r ap am ddim i bawb. Os gwelwch yn dda, [cyfrannwch yn
-ariannol](@/donate/index.cy.md) i'n cynorthwyo!
+Mae'r ap am ddim i bawb. Os gweli'n dda, [cyfranna yn ariannol](@/donate/index.cy.md) i'n cynorthwyo!
 
-I'n cynorthwyo'n ariannol yn gyfleus, cliciwch ar eicon eich hoff ffordd o
-dalu isod:
+I'n cynorthwyo'n ariannol yn gyfleus, clicia ar eicon dy hoff ffordd o dalu isod:
 
 {{ donate_buttons() }}
 
@@ -148,30 +140,19 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
 
 ## Cymuned
 
-Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i
-thrwyddedu o dan y drwydded Apache License 2.0.
+Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i thrwyddedu o dan y drwydded Apache License 2.0.
 
-- Os gwelwch yn dda, ymunwch â'n system profi beta, awgrymwch eich syniadau,
-  ac adroddwch broblemau:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Bwrdd Gwaith Linux Beta (Flatpak)][flatpak]
-  * [Bwrdd Gwaith Linux Beta (packages)][repology]
-- Adroddwch broblemau i'r [olrhain problemau][issues] neu [anfonwch e-bost
-  aton ni][email].
-- [Trafodwch][ideas] syniadau neu gofynnwch am nodweddion newydd.
-- Tanysgrifiwch i'n [sianel Telegram][telegram] neu i'r [gofod
-  matrix][matrix] ar gyfer newyddion.
-- Ymunwch â'n [grŵp Telegram][telegram_chat] i drafod gyda defnyddwyr arall.
+- Os gweli'n dda, ymuna â'n system profi beta, awgryma dy syniadau, ac adrodda broblemau:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Bwrdd Gwaith Linux Beta (Flatpak)][flatpak]
+  - [Bwrdd Gwaith Linux Beta (packages)][repology]
+- Adrodda broblemau i'r [olrhain problemau][issues] neu [anfona e-bost aton ni][email].
+- [Trafoda][ideas] syniadau neu gofynna am nodweddion newydd.
+- Tanysgrifia i'n [sianel Telegram][telegram] neu i'r [gofod matrix][matrix] ar gyfer newyddion.
+- Ymuna â'n [grŵp Telegram][telegram_chat] i drafod gyda defnyddwyr arall.
 - Ymweld â'n [tudalen GitHub][github].
-- Dilynwch ein newyddion ar [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Ymunwch â (neu crëwch a rhowch wybod i ni) cymunedau lleol: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Dilyna ein newyddion ar [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

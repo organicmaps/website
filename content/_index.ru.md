@@ -5,11 +5,16 @@ page_template: index.html
 sort_by: weight
 extra:
   menu_title: Главная
+  # This page is its own edition rather than a rendering of the English
+  # one, so translate_check does not compare their structure.
+  translation_diverges: "Carries a volunteer-recruitment section and a
+    second donate appeal that English does not have, and rewrites the
+    community list around the Russian chat and Matrix room."
 ---
 
 **Organic Maps** — это бесплатные офлайн-карты с навигацией для iOS и Android, созданные для путешественников, туристов, велосипедистов и водителей. Без рекламы, без слежки, полностью бесплатно. Разработано с любовью open-source сообществом и теми же людьми, которые создали приложение [MapsWithMe][mapswithme]/Maps.Me. Основано на данных [OpenStreetMap][openstreetmap].
 
-*Organic Maps* поддерживает 100% функций без активного Интернет-подключения. Загрузите нужные карты, выбросьте SIM-карту (кстати, ваш оператор постоянно отслеживает вас) и отправляйтесь в недельное путешествие на одном заряде батареи.
+_Organic Maps_ поддерживает 100% функций без активного Интернет-подключения. Загрузите нужные карты, выбросьте SIM-карту (кстати, ваш оператор постоянно отслеживает вас) и отправляйтесь в недельное путешествие на одном заряде батареи.
 
 > В декабре 2025 года Organic Maps [достиг 6 млн установок](@/news/2025-12-31/500/index.ru.md). [Помогите нам](@/donate/index.ru.md) развиваться!
 
@@ -18,8 +23,11 @@ extra:
 {{ badges() }}
 
 {{ screenshot(src='/images/screenshots/hiking.jpg', alt='Пеший поход', loading='eager', fetchpriority='high') }}
+
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='Прага') }}
+
 {{ screenshot(src='/images/screenshots/search.jpg', alt='Офлайн поиск') }}
+
 {{ screenshot(src='/images/screenshots/dark.jpg', alt='Навигация в ночном режиме') }}
 
 ## Возможности
@@ -58,13 +66,13 @@ Organic Maps — это офлайн-карты здорового челове�
 - Без мусорного ПО
 - ~~Без пестицидов~~ Полностью органические!
 
-[TrackerControl][trackercontrol] проверил iOS приложение на наличие трекеров:
-
-{{ trackercontrol_screenshot() }}
-
 [Exodus Privacy Project][exodus] проверил Android приложение на наличие трекеров:
 
 {{ exodus_screenshot() }}
+
+[TrackerControl][trackercontrol] проверил iOS приложение на наличие трекеров:
+
+{{ trackercontrol_screenshot() }}
 
 Organic Maps не запрашивает чрезмерных разрешений, чтобы шпионить за вами, только то, что нужно для карт:
 
@@ -83,6 +91,8 @@ Organic Maps не запрашивает чрезмерных разрешени
 ## Помощь проекту
 
 Organic Maps развивается сообществом энтузиастов благодаря вашей поддержке.
+
+Чтобы сделать пожертвование, нажмите на иконку удобного вам способа оплаты ниже:
 
 {{ donate_buttons() }}
 
@@ -131,18 +141,19 @@ Organic Maps развивается сообществом энтузиасто�
   </tr>
 </table>
 
-
 Помогите проекту [финансово](@/donate/index.ru.md "поддержать деньгами") чтобы приложение могло жить и развиваться.
 
 ## Сообщество
 
+Organic Maps — это [программное обеспечение с открытым исходным кодом][github], распространяемое по лицензии Apache License 2.0.
+
 - Подписывайтесь на наш [канал новостей в Telegram][telegram];
-- Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat_ru], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
+- Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
 - Подключайтесь к программе тестирования бета-версий:
-  * [iOS Бета (TestFlight)][testflight]
-  * [Android Бета (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)](https://flathub.org/apps/details/app.organicmaps.desktop)
-  * [Linux Desktop Beta (packages)](https://repology.org/project/organicmaps/versions)
+  - [iOS Бета (TestFlight)][testflight]
+  - [Android Бета (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)](https://flathub.org/apps/details/app.organicmaps.desktop)
+  - [Linux Desktop Beta (packages)](https://repology.org/project/organicmaps/versions)
 - Сообщайте о проблемах и предлагайте новые идеи [на GitHub][issues] или [по почте][email];
 - Нарисуйте свой дом и район вокруг в [OpenStreetMap](https://openstreetmap.org);
 - Помогите с [переводом](https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md) приложения и веб-сайта на другие языки.
@@ -151,6 +162,7 @@ Organic Maps развивается сообществом энтузиасто�
 - Расскажите своим друзьям и знакомым.
 
 Так же мы ищем волонтёров, с возможностью стать частью команды, создающей лучшие в мире карты:
+
 - для iOS и Android разработки;
 - с хорошим знанием C++;
 - для поддержки пользователей;

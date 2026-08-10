@@ -43,12 +43,13 @@ Para aquellos que se lo perdieron, la [actualización anterior del 7 de octubre]
 - Mejor pantalla de inicio al arrancar (Andrei Shkrob)
 
 ### Android Auto
+
 - Restaurar la ruta después de la cancelación (Andrei Shkrob)
 - Corregidos los bloqueos en algunos dispositivos (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- Los detalles de POI ahora muestran el formato "nombre | ref" (Viktor Govako)
+- Los detalles de POI ahora muestran el formato «nombre | ref» (Viktor Govako)
 - el modo oscuro se sincroniza automáticamente con la configuración del sistema (DeepChirp)
 
 ## Notas al pie

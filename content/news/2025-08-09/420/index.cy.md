@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Gosodwch ryddhad mis Awst Organic Maps, lawrlwythwch y mapiau diweddaraf, a darganfyddwch lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasgwch y botwm "Haenau" chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
+Gosoda ryddhad mis Awst Organic Maps, lawrlwytha'r mapiau diweddaraf, a darganfydda lwybrau cerdded a beicio poblogaidd ledled y byd! Gwasga'r botwm ‘Haenau’ chwith-uchaf i weld llwybrau beicio a MTB lliw, yn ogystal â llwybrau cerdded a cherdded swyddogol. Ddim yn gweld dim yn agos? Yna mae'n amser ychwanegu'r wybodaeth sydd ar goll i OpenStreetMap.org, gan fod holl ddata map Organic Maps yn dod o'r prosiect agored, rhad ac am ddim a chymunedol hwnnw.
 
-A oeddech chi'n gwybod y gellir dewis unrhyw drac GPX/KML a gofnodwyd neu a fewnforiwyd ar y map? Bydd traciau gyda data uchder yn dangos eu graff uchder.
+A oeddet ti'n gwybod y gellir dewis unrhyw drac GPX/KML a gofnodwyd neu a fewnforiwyd ar y map? Bydd traciau gyda data uchder yn dangos eu graff uchder.
 
-I weld enwau nodau ar y map, galluogwch y nodwedd newydd hon yn osodiadau Organic Maps.
+I weld enwau nodau ar y map, galluoga'r nodwedd newydd hon yn osodiadau Organic Maps.
 
-Diolch i'n cyfranwyr ❤️ a'ch [rhoddion](@/donate/index.cy.md), mae llawer mwy yn y diweddariad hwn.
+Diolch i'n cyfranwyr ❤️ a dy [roddion](@/donate/index.cy.md), mae llawer mwy yn y diweddariad hwn.
 
-P.S. ...ac mae llawer mwy yn dod! Mae eich cefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
+P.S. …ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgogi i adeiladu'r mapiau gorau - gyda'n gilydd.
 
 ### Nodiadau Rhyddhad Manwl
 
@@ -24,6 +24,7 @@ P.S. ...ac mae llawer mwy yn dod! Mae eich cefnogaeth yn ein helpu ac yn ein ysg
 - Mae ffyrdd amaethyddol a choedwigaeth bellach wedi'u heithrio o lwybrau (Viktor Govako)
 
 #### iOS
+
 - Wedi datrys sawl damwain a gwella sefydlogrwydd cydamseru iCloud (Kiryl Kaveryn)
 - Cyflwyno teitlau aml-linell mewn rhestrau nodau (David Martinez)
 - Wedi trwsio'r broblem chwyddo wrth ddad-ddewis trac (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ac mae llawer mwy yn dod! Mae eich cefnogaeth yn ein helpu ac yn ein ysg
 - Wedi amnewid cyfieithiadau coll gydag opsiynau Saesneg (Viktor Govako)
 
 #### Android
+
 - Wedi ychwanegu graff uchder trac a dewis trac ar y map (Kavi Khalique)
 - Gadael nodyn OpenStreetMap os nad yw pwynt diddordeb (POI) newydd eto'n cael ei gefnogi yn Organic Maps (hemanggs)
 - Wedi tynnu cefnogaeth OpenGL ES 2.0 o blaid OpenGL ES 3.0 (renderexpert)
 - Dangos eiconau nodau yn y dewisydd lliw (Andrei Shkrob)
 
 #### Gwelliannau Arddulliau ac Eiconau
+
 - Eicon fforc a chyllell ar gyfer cyrtiau bwyd (David Martinez)
 - Wedi marcio gwlyptiroedd gyda hatshio llorweddol (Viktor Govako)
 - Eiconau ar gyfer bwyd cyflym a beiciau mewn canlyniadau chwilio a nodau (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...ac mae llawer mwy yn dod! Mae eich cefnogaeth yn ein helpu ac yn ein ysg
 - Wedi cywiro gosodiadau blaenoriaeth ar gyfer swyddfeydd diplomataidd (Viktor Govako)
 
 #### Gwelliannau Amrywiol
-- Mae teipio "cop" yn y chwiliad yn dod o hyd i orsafoedd heddlu, tra mae "film" neu "movie theater" yn lleoli sinemâu (theadventurer62)
+
+- Mae teipio ‘cop’ yn y chwiliad yn dod o hyd i orsafoedd heddlu, tra mae ‘film’ neu ‘movie theater’ yn lleoli sinemâu (theadventurer62)
 - Mae agor mewn app arall bellach yn dangos y pwynt a ddewiswyd yn Google Maps (Alexander Borsuk)
 - Cyfieithiad Sbaeneg ar gyfer mwy o gategorïau chwilio (David Martinez)
 - Wedi diweddaru amrywiol gyfieithiadau (cyfranwyr Weblate)

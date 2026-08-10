@@ -6,30 +6,30 @@ taxonomies:
   news: ["releases"]
 ---
 
-A atualização de maio aproxima-nos ainda mais do suporte completo para transportes públicos no Organic Maps. Uma paragem de autocarro, comboio, ferry ou elétrico é um ponto das linhas de transporte que passam por ela — por isso, ao tocar numa linha numa paragem, essa linha é agora apresentada, com a sua própria cor, ao longo de todo o mapa. Os horários online reais também estão a caminho; não se esqueça de [adicionar/atualizar os dados de transportes públicos do OSM](https://gtfs-osm-matcher.organicmaps.app/) na sua área, caso ainda não o tenha feito!
+A atualização de maio aproxima-nos ainda mais do suporte completo para transportes públicos no Organic Maps. Uma paragem de autocarro, comboio, ferry ou elétrico é um ponto das linhas de transporte que passam por ela — por isso, ao tocar numa linha numa paragem, essa linha é agora apresentada, com a sua própria cor, ao longo de todo o mapa. Os horários online reais também estão a caminho; não te esqueças de [adicionar/atualizar os dados de transportes públicos do OSM](https://gtfs-osm-matcher.organicmaps.app/) na tua área, caso ainda não o tenhas feito!
 
-Como sempre, muito obrigado aos nossos colaboradores, às vossas boas avaliações, [doações](@/donate/index.pt.md) e [apoio](@/contribute/index.pt.md).
+Como sempre, muito obrigado aos nossos colaboradores, às tuas boas avaliações, [doações](@/donate/index.pt.md) e [apoio](@/contribute/index.pt.md).
 
-Obtenha a atualização de maio em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obtém a atualização de maio em <https://get.omaps.org> ou na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
 ## Destaques
 
-- **Toque numa paragem de autocarro, elétrico, comboio ou ferry no mapa,** e o Organic Maps destaca toda a linha de transporte, selecionável a partir da lista de linhas e rotas apresentadas.
+- **Toca numa paragem de autocarro, elétrico, comboio ou ferry no mapa,** e o Organic Maps destaca toda a linha de transporte, selecionável a partir da lista de linhas e rotas apresentadas.
 - **Etiquetas de marcadores mais claras e um mapa mais legível.** A nova disposição das etiquetas evita que os títulos dos marcadores se sobreponham, as zonas pedonais estão ligeiramente mais escuras e as cores das rotas foram ajustadas para um melhor contraste tanto em temas claros como escuros.
-- **Regiões mais detalhadas em toda a Ásia.** O Vietname e a Malásia estão agora divididos em mapas mais pequenos para que possa descarregar apenas a área de que necessita, e Hong Kong, Macau e Hainan estão agora separados de Guangdong.
+- **Regiões mais detalhadas em toda a Ásia.** O Vietname e a Malásia estão agora divididos em mapas mais pequenos para que possas descarregar apenas a área de que necessitas, e Hong Kong, Macau e Hainan estão agora separados de Guangdong.
 
 ## Notas de lançamento
 
 ### Todas as plataformas
 
-- NOVO! Toque numa paragem de transportes públicos e selecione um número de linha para destacar todo o percurso dessa linha no mapa, tal como na camada do mapa de metro (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NOVO! Toca numa paragem de transportes públicos e seleciona um número de linha para destacar todo o percurso dessa linha no mapa, tal como na camada do mapa de metro (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NOVO! As etiquetas dos marcadores no mapa não se sobrepõem (Viktor Govako)
 - Corrigidos os cálculos de perda e ganho de elevação nos gráficos dos trilhos para corresponderem melhor aos valores de outras aplicações populares (Viktor Govako)
 - Os transportes públicos de longa distância e outras relações do mapa estão agora unidos através dos limites dos mapas numa única linha contínua (Viktor Govako)
 - O Vietname e a Malásia foram divididos em regiões mais pequenas, que podem ser descarregadas individualmente (Viktor Govako)
 - Hong Kong, Macau e Hainan estão separados de Guangdong, com as fronteiras vizinhas atualizadas (Viktor Govako)
 - Isolinhas (linhas de contorno) atualizadas para a Indonésia, Malásia, Tanzânia, Tailândia e Vietname (Viktor Govako)
-- Rotas: as rotas retomadas removem agora os pontos intermédios pelos quais já passou (Viktor Govako)
+- Rotas: as rotas retomadas removem agora os pontos intermédios pelos quais já passaste (Viktor Govako)
 - Adicionados ícones para vulcões ativos e pontos de acesso a cursos de água; as rampas de acesso à água são agora pesquisáveis (David Martinez)
 - Adicionados bares de shisha (alnzrv)
 - Adicionados edifícios em construção (Viktor Govako)
@@ -76,7 +76,7 @@ Obtenha a atualização de maio em <https://get.omaps.org> ou na [App Store][app
 - As transferências de mapas retomam de onde ficaram após um encerramento normal (Alexander Borsuk)
 - O Organic Maps funciona agora com controladores OpenGL ES 3.0 (Alexander Borsuk)
 
-Junte-se aos testes beta para experimentar funcionalidades antecipadas e comunicar problemas:
+Junta-te aos testes beta para experimentar funcionalidades antecipadas e comunicar problemas:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką "Sluoksniai", kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
+Įdiekite rugpjūčio Organic Maps leidimą, atsisiųskite naujausius žemėlapius ir atraskite populiarius žygių ir dviračių maršrutus visame pasaulyje! Paspauskite viršuje kairėje esantį mygtuką „Sluoksniai“, kad pamatytumėte spalvotus dviračių ir MTB maršrutus, taip pat oficialius žygių ir pėsčiųjų takus. Nematote nieko šalia? Tada atėjo laikas pridėti trūkstamą informaciją į OpenStreetMap.org, nes visi Organic Maps žemėlapių duomenys ateina iš šio atviro, nemokamo ir bendruomenės kuriamo projekto.
 
 Ar žinojote, kad bet kurį įrašytą ar importuotą GPX/KML takelį žemėlapyje galima pasirinkti? Takeliai su aukščio duomenimis parodys savo aukščio grafiką.
 
@@ -13,7 +13,7 @@ Norėdami matyti žymių pavadinimus žemėlapyje, įjunkite šią naują funkci
 
 Dėkojame mūsų bendradarbiams ❤️ ir jūsų [aukoms](@/donate/index.lt.md), šiame atnaujinime yra daug daugiau.
 
-P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
+P.S. …ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti geriausius žemėlapius – kartu.
 
 ### Išsamūs leidimo pastabos
 
@@ -24,6 +24,7 @@ P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti 
 - Žemės ūkio ir miškų keliai dabar išskirti iš maršrutų sudarymo (Viktor Govako)
 
 #### iOS
+
 - Išspręsti keli gedimai ir pagerinta iCloud sinchronizavimo stabilumas (Kiryl Kaveryn)
 - Pristatomos kelių eilučių antraštės žymių sąrašuose (David Martinez)
 - Ištaisyta mastelio keitimo problema atšaukiant takelio pasirinkimą (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti 
 - Trūkstami vertimai pakeisti anglų kalbos alternatyvomis (Viktor Govako)
 
 #### Android
+
 - Pridėtas takelio aukščio grafikas ir takelio pasirinkimas žemėlapyje (Kavi Khalique)
 - Palikti OpenStreetMap pastabą, jei naujai pridėtas pominutės taškas (POI) dar nepalaikomas Organic Maps (hemanggs)
 - Pašalinta OpenGL ES 2.0 parama OpenGL ES 3.0 naudai (renderexpert)
 - Rodyti žymių piktogramas spalvų rinkiklyje (Andrei Shkrob)
 
 #### Stilių ir piktogramų patobulinimai
+
 - Šakutės ir peilio piktograma maisto kiemams (David Martinez)
 - Pažymėtos pelkės horizontaliu brūkšniavimu (Viktor Govako)
 - Greitojo maisto ir dviračių piktogramos paieškos rezultatuose ir žymėse (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...ir daug daugiau ateina! Jūsų palaikymas padeda ir motyvuoja mus kurti 
 - Ištaisyti prioriteto nustatymai diplomatiniams biurams (Viktor Govako)
 
 #### Įvairūs patobulinimai
-- Įvedus "cop" paieškoje randamos policijos nuovados, o "film" ar "movie theater" randami kino teatrai (theadventurer62)
+
+- Įvedus „cop“ paieškoje randamos policijos nuovados, o „film“ ar „movie theater“ randami kino teatrai (theadventurer62)
 - Atidarimas kitoje programoje dabar rodo pasirinktą tašką Google Maps (Alexander Borsuk)
 - Ispanų kalbos vertimas daugiau paieškos kategorijų (David Martinez)
 - Atnaujinti įvairūs vertimai (Weblate bendradarbiai)

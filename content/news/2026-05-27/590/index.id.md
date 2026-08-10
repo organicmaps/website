@@ -49,6 +49,7 @@ Dapatkan pembaruan di <https://get.omaps.org> atau di [App Store][appstore], [Go
 - Memperbaiki masalah halaman tempat trek dan tombol “Buka Dalam” _(Mikhail Listratsenka)_
 
 ### Linux dan macOS
+
 - Menambahkan terjemahan bahasa Mandarin ke komentar file `.desktop` _(DeepChirp)_
 
 ## Bergabunglah dengan pengujian beta untuk mencoba fitur awal dan melaporkan masalah:

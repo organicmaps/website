@@ -8,7 +8,7 @@ taxonomies:
 
 به‌روزرسانی ۷ اکتبر Organic Maps نمایش محدودیت سرعت در Android Auto، درون‌ریزی GeoJSON و آمار مسیر در حال ضبط را اضافه می‌کند، برچسب‌های description در OSM را نشان می‌دهد (برای دیدنشان `?description` را در کادر جستجو بنویس) و در iOS نشانک را روی یک مسیر ضبط‌شده ذخیره می‌کند. بهبودهای فراوانی هم در رابط کاربری و ویرایش OpenStreetMap و رفع اشکال‌های گوناگون در همهٔ پلتفرم‌ها انجام شده است، از جمله رفع کرش هنگام راه‌اندازی در برخی دستگاه‌های Android.
 
-Organic Maps به لطف ❤️ مشارکت‌کنندگان ما، [کمک‌های مالی تو](@/donate/index.fa-IR.md) و [حمایت تو](@/contribute/index.fa-IR.md) ممکن شده است.
+Organic Maps به لطف ❤️ مشارکت‌کنندگان ما، [کمک‌های مالی شما](@/donate/index.fa-IR.md) و [حمایت شما](@/contribute/index.fa-IR.md) ممکن شده است.
 
 ### یادداشت‌های تفصیلی انتشار (شامل تغییرات به‌روزرسانی جزئی پیشین)
 
@@ -68,17 +68,17 @@ Organic Maps به لطف ❤️ مشارکت‌کنندگان ما، [کمک‌�
 - گزینهٔ لغو دانلود (Viktor Govako)
 - نمایش نوع هندسه در منوی زمینه (Viktor Govako)
 
-### ویژگی‌های اخیر که شاید از دست داده باشی
+### ویژگی‌های اخیر که شاید از دست داده باشید
 
 - شمارهٔ خطوط حمل‌ونقل عمومی هنگام انتخاب ایستگاه اتوبوس
-- مسیرهای پیاده‌روی و دوچرخه‌سواری (با دکمهٔ لایه‌ها در بالا سمت چپ روشن و خاموشش کن)
+- مسیرهای پیاده‌روی و دوچرخه‌سواری (با دکمهٔ لایه‌ها در بالا سمت چپ روشن و خاموشش کنید)
 - دیدن نام نشانک‌ها روی نقشه با فعال کردن آن در تنظیمات برنامه
 - آیکون مداد ✎ راهی سریع برای ویرایش نشانک‌ها در اختیارت می‌گذارد
 
 ### نصب Organic Maps
 
-آخرین نسخهٔ Organic Maps را از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کن.
+آخرین نسخهٔ Organic Maps را از [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کنید.
 
-برای دسترسی زودهنگام به قابلیت‌ها به آزمایش بتا بپیوند: [iOS][testflight] / [Android][firebase].
+برای دسترسی زودهنگام به قابلیت‌ها به آزمایش بتا بپیوندید: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

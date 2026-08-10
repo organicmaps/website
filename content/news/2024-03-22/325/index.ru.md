@@ -10,19 +10,19 @@ slug: "lets-build-the-best-maps-app-together"
 
 #### Visa, MasterCard, Apple Pay, Google Pay, PayPal:
 
-* € 💶 [Евро EUR](https://donate.organicmaps.app/?currency=eur)
-* $ 💵 [Доллар США USD](https://donate.organicmaps.app/?currency=usd)
-* £ 💷 [Британский фунт стерлингов](https://donate.organicmaps.app/?currency=gbp)
-* ₣ 🇨🇭 [Швейцарский франк CHF](https://donate.organicmaps.app/?currency=chf)
+- € 💶 [Евро EUR](https://donate.organicmaps.app/?currency=eur)
+- $ 💵 [Доллар США USD](https://donate.organicmaps.app/?currency=usd)
+- £ 💷 [Британский фунт стерлингов](https://donate.organicmaps.app/?currency=gbp)
+- ₣ 🇨🇭 [Швейцарский франк CHF](https://donate.organicmaps.app/?currency=chf)
 
 #### S€PA 🇪🇺 банковский перевод без комиссии:
 
-|   |   |
-|---|---|
-SWIFT/BIC:      | TRWIBEB1XXX
-IBAN:           | BE39 9672 0031 0319
-Название банка: | Wise
-Адрес банка:    | Rue du Trône 100, 3 floor, Brussels, 1050, Belgium
+|                 |                                                    |
+| --------------- | -------------------------------------------------- |
+| SWIFT/BIC:      | TRWIBEB1XXX                                        |
+| IBAN:           | BE39 9672 0031 0319                                |
+| Название банка: | Wise                                               |
+| Адрес банка:    | Rue du Trône 100, 3 floor, Brussels, 1050, Belgium |
 
 Переводы в других валютах доступны [здесь](https://organicmaps.app/donate/#crypto).
 
@@ -40,7 +40,6 @@ USDT+TRX: TNQGZwAUCpwy1cuVSyu1vc6AT19nsmWqRF
 
 ---
 
-Ваши пожертвования способствуют развитию и масштабированию Organic Maps, а так же сильно мотивируют нашу команду.
-Без вашей поддержки мы бы не справились с более чем [миллионом пользователей](@/news/2023-12-23/281/index.md).
+Ваши пожертвования способствуют развитию и масштабированию Organic Maps, а так же сильно мотивируют нашу команду. Без вашей поддержки мы бы не справились с более чем [миллионом пользователей](@/news/2023-12-23/281/index.md).
 
 Не можете пожертвовать сейчас? Посмотрите [другие способы поддержать проект](@/contribute/index.ru.md) или присоединяйтесь к нашей команде контрибьюторов!

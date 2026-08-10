@@ -8,7 +8,7 @@ taxonomies:
 
 Laikas atnaujinti Organic Maps! Greitesni tarpvalstybiniai ir tarpregioniniai maršrutai, naujausi OSM žemėlapio duomenys ir daug klaidų taisymų Android sistemai antrajame programos atnaujinime 2026 m.
 
-Įdiek jį iš [get.omaps.org](https://get.omaps.org) arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
+Įdiekite jį iš [get.omaps.org](https://get.omaps.org) arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].
 
 ### Kas naujo
 
@@ -40,11 +40,11 @@ Laikas atnaujinti Organic Maps! Greitesni tarpvalstybiniai ir tarpregioniniai ma
 * Pridėti trūkstami vertimai nenaudojamiems tiltams _(Alexander Borsuk)_
 
 
-Prisijunk prie beta testavimo, kad išbandytum ankstyvąsias funkcijas ir praneštum apie problemas:
+Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvąsias funkcijas ir praneštumėte apie problemas:
 - [iOS][testflight]
 - [Android][firebase]
 
-[Paaukok](@/donate/index.lt.md) ir [prisidėk](@/contribute/index.lt.md), kad sukurtume geresnę, privatumui skirtą alternatyvą Apple ir Google žemėlapiams.
+[Paaukokite](@/donate/index.lt.md) ir [prisidėkite](@/contribute/index.lt.md), kad sukurtume geresnę, privatumui skirtą alternatyvą Apple ir Google žemėlapiams.
 
 Su meile,
 Organic Maps komanda

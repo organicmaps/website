@@ -6,30 +6,30 @@ taxonomies:
   news: ["releases"]
 ---
 
-Květnová aktualizace posouvá Organic Maps o krok blíž k plné podpoře veřejné dopravy. Zastávka autobusu, vlaku, trajektu nebo tramvaje je výchozím bodem pro linky, které přes ni vedou – když tedy na zastávce klepneš na linku, zobrazí se tato linka vlastní barvou po celé délce na mapě. Připravujeme také skutečné online jízdní řády, takže nezapomeň [přidat nebo aktualizovat data o veřejné dopravě v OSM](https://gtfs-osm-matcher.organicmaps.app/) ve svém okolí, pokud jsi to ještě neudělal!
+Květnová aktualizace posouvá Organic Maps o krok blíž k plné podpoře veřejné dopravy. Zastávka autobusu, vlaku, trajektu nebo tramvaje je výchozím bodem pro linky, které přes ni vedou – když tedy na zastávce klepnete na linku, zobrazí se tato linka vlastní barvou po celé délce na mapě. Připravujeme také skutečné online jízdní řády, takže nezapomeňte [přidat nebo aktualizovat data o veřejné dopravě v OSM](https://gtfs-osm-matcher.organicmaps.app/) ve svém okolí, pokud jste to ještě neudělali!
 
-Jako vždy moc děkujeme našim přispěvatelům a tobě za kladné recenze, [dary](@/donate/index.cs.md) a [podporu](@/contribute/index.cs.md).
+Jako vždy moc děkujeme našim přispěvatelům a vám za kladné recenze, [dary](@/donate/index.cs.md) a [podporu](@/contribute/index.cs.md).
 
-Stáhni si květnovou aktualizaci na <https://get.omaps.org> nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Stáhněte si květnovou aktualizaci na <https://get.omaps.org> nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
 ## Hlavní novinky
 
-- **Klepni na mapě na zastávku autobusu, tramvaje, vlaku nebo trajektu** a Organic Maps zvýrazní celou linku veřejné dopravy, kterou lze vybrat ze seznamu zobrazených linek a tras.
+- **Klepněte na mapě na zastávku autobusu, tramvaje, vlaku nebo trajektu** a Organic Maps zvýrazní celou linku veřejné dopravy, kterou lze vybrat ze seznamu zobrazených linek a tras.
 - **Přehlednější popisky záložek a čitelnější mapa.** Nové umístění popisků zabraňuje tomu, aby se názvy záložek navzájem překrývaly, pěší zóny jsou o něco tmavší a barvy tras byly upraveny pro lepší kontrast jak na světlém, tak na tmavém motivu.
-- **Jemnější rozdělení regionů v Asii.** Vietnam a Malajsie jsou nyní rozděleny na menší mapy, takže si můžeš stáhnout pouze oblast, kterou potřebuješ, a Hongkong, Macao a Hainan jsou nyní odděleny od provincie Kuang-tung.
+- **Jemnější rozdělení regionů v Asii.** Vietnam a Malajsie jsou nyní rozděleny na menší mapy, takže si můžete stáhnout pouze oblast, kterou potřebujete, a Hongkong, Macao a Hainan jsou nyní odděleny od provincie Kuang-tung.
 
 ## Poznámky k vydání
 
 ### Všechny platformy
 
-- NOVÉ! Klepni na zastávku veřejné dopravy a vyber číslo linky, aby se na mapě zvýraznila celá trasa veřejné dopravy, podobně jako ve vrstvě mapy metra (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
+- NOVÉ! Klepněte na zastávku veřejné dopravy a vyberte číslo linky, aby se na mapě zvýraznila celá trasa veřejné dopravy, podobně jako ve vrstvě mapy metra (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - NOVÉ! Popisky záložek na mapě se nepřekrývají (Viktor Govako)
 - Opraveny výpočty nastoupaných a sestoupaných metrů v grafech tras, aby lépe odpovídaly hodnotám z jiných oblíbených aplikací (Viktor Govako)
 - Dálkové linky veřejné dopravy a další mapové relace jsou nyní přes hranice map spojeny do jedné souvislé linie (Viktor Govako)
 - Vietnam a Malajsie jsou rozděleny na menší, samostatně stahovatelné regiony (Viktor Govako)
 - Hongkong, Macao a Hainan jsou odděleny od provincie Kuang-tung a sousední hranice byly aktualizovány (Viktor Govako)
 - Aktualizovány izolinie (vrstevnice) pro Indonésii, Malajsii, Tanzanii, Thajsko a Vietnam (Viktor Govako)
-- Navigace: obnovené trasy nyní vynechávají průjezdní body, které jsi již minul (Viktor Govako)
+- Navigace: obnovené trasy nyní vynechávají průjezdní body, které jste již minuli (Viktor Govako)
 - Přidány ikony pro aktivní sopky a přístupová místa k vodním cestám; lodní rampy jsou nyní vyhledatelné (David Martinez)
 - Přidány vodní dýmkárny (alnzrv)
 - Přidány budovy ve výstavbě (Viktor Govako)
@@ -76,7 +76,7 @@ Stáhni si květnovou aktualizaci na <https://get.omaps.org> nebo v [App Store][
 - Stahování map pokračuje tam, kde bylo přerušeno při řádném vypnutí (Alexander Borsuk)
 - Organic Maps nyní funguje na ovladačích OpenGL ES 3.0 (Alexander Borsuk)
 
-Zapoj se do beta testování, vyzkoušej si nové funkce a nahlas nám případné problémy:
+Zapojte se do beta testování, vyzkoušejte si nové funkce a nahlaste nám případné problémy:
 - [iOS][testflight]
 - [Android][firebase]
 

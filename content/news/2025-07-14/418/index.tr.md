@@ -5,11 +5,11 @@ taxonomies:
   news: ["releases"]
 ---
 
-Katkıda bulunanlarımız sayesinde ❤️💪 birçok düzeltme ve iyileştirme içeren Organic Maps Temmuz güncellemesi ile tanışın! Güncelleme [AppStore][appstore], [Obtainium][obtainium] ve [Accrescent][accrescent]'te zaten mevcut ve birkaç gün içinde [Google Play][googleplay], [Huawei AppGallery][appgallery] ve [FDroid][fdroid]'de hazır olacak.
+Katkıda bulunanlarımız sayesinde ❤️💪 birçok düzeltme ve iyileştirme içeren Organic Maps Temmuz güncellemesi ile tanış! Güncelleme [AppStore][appstore], [Obtainium][obtainium] ve [Accrescent][accrescent]'te zaten mevcut ve birkaç gün içinde [Google Play][googleplay], [Huawei AppGallery][appgallery] ve [FDroid][fdroid]'de hazır olacak.
 
-[Bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md), [hata raporları][github issues] ve [iyileştirmeler][github] birlikte daha iyi haritalar yapmamıza yardımcı oluyor!
+[Bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.tr.md), [hata raporları][github issues] ve [iyileştirmeler][github] birlikte daha iyi haritalar yapmamıza yardımcı oluyor!
 
-Deneysel ve gelecek özellikler için erken erişim sağlamak üzere beta test programına kaydolabileceğinizi unutmayın [iOS için][testflight] ve [Android için][firebase].
+Deneysel ve gelecek özellikler için erken erişim sağlamak üzere beta test programına kaydolabileceğini unutma [iOS için][testflight] ve [Android için][firebase].
 
 Değişikliklerin tam listesi:
 - 8 Temmuz itibariyle yeni OSM harita verileri, 1 Temmuz itibariyle Wikipedia verileri
@@ -20,7 +20,7 @@ Değişikliklerin tam listesi:
 - Kullanıcıların kaydettiği veya içe aktardığı rotaları bulmalarına yardımcı olmak için haritada yeni Yer İmleri ve Rotalar simgesi (_@euf_)
 - Şarj istasyonları artık haritada ve aramada kendi ayırt edici simgelerine sahip (_David Martinez_)
 - Rota kaydetme sırasında yükseklik/rakım kaydet (_mevcutsa_) (_Kiryl Kaveryn_)
-- Güncellenmiş çeviriler, yanlış veya eksik çevirileri düzeltmede yardımcı olabilirsiniz [Weblate'te][weblate]
+- Güncellenmiş çeviriler, yanlış veya eksik çevirileri düzeltmede yardımcı olabilirsin [Weblate'te][weblate]
 
 Android:
 - Android 16'da çalışmayan Geri düğmesi düzeltildi (_Andrei Shkrob_)
@@ -37,11 +37,11 @@ Android:
 
 iOS değişiklikleri, tüm kredi _Kiryl Kaveryn_'e:
 - Geliştirilmiş yer imi ve rota düzenleme: Rota Bilgi Sayfasından doğrudan renk ve listeyi değiştir
-- Artık kaydedilen rotayı kaydettikten hemen sonra düzenleyebilir veya silebilirsiniz
+- Artık kaydedilen rotayı kaydettikten hemen sonra düzenleyebilir veya silebilirsin
 - Düğmeler için genişletilmiş dokunma alanı
 - Metin yazarken zıplayan OSM notları düzeltildi
 - İşletmeler için "Yer Ekle" düğmesini göster
 
-Not: Detaylı sürüm notlarını okumayı seviyorsanız, lütfen [sosyal ağlarımızda](/#community) bize bildirin
+Not: Detaylı sürüm notlarını okumayı seviyorsan, lütfen [sosyal ağlarımızda](/#community) bize bildir
 
 {{ references() }}

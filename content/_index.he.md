@@ -13,13 +13,16 @@ extra:
 
 > בדצמבר 2025, Organic Maps [הגיעה ל-6 מיליון התקנות](@/news/2025-12-31/500/index.he.md). [עזרו לנו](@/donate/index.he.md) לגדול!
 
-### הורידו והתקינו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid] {#install}
+### הורידו והתקינו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [FDroid][fdroid] {#install}
 
 {{ badges() }}
 
 {{ screenshot(src='/images/screenshots/hiking.jpg', alt='טיולי הליכה', loading='eager', fetchpriority='high') }}
+
 {{ screenshot(src='/images/screenshots/prague.jpg', alt='פראג') }}
+
 {{ screenshot(src='/images/screenshots/search.jpg', alt='חיפוש אופליין') }}
+
 {{ screenshot(src='/images/screenshots/dark.jpg', alt='ניווט במצב כהה') }}
 
 ## תכונות
@@ -51,7 +54,6 @@ Organic Maps היא טהורה ואורגנית, עשויה באהבה:
 - ללא פרסומות
 - ללא מעקב
 - ללא איסוף נתונים
-- ללא שליחת נתונים לשרתים ("phoning home")
 - ללא הרשמה מציקה
 - ללא מדריכים חובה
 - ללא דואר זבל רועש
@@ -139,17 +141,16 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
 Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache License 2.0.
 
 - אנא הצטרפו לתוכנית הבטא שלנו, הציעו תכונות ודווחו על באגים:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - דווחו על באגים או בעיות ל-[issue tracker][issues] או [שלחו לנו דוא"ל][email].
 - [דונו][ideas] ברעיונות או הציעו בקשות לתכונות.
 - הירשמו ל-[ערוץ הטלגרם][telegram] שלנו או ל-[matrix space][matrix] לעדכונים.
 - הצטרפו ל-[קבוצת הטלגרם][telegram_chat] שלנו לדיון עם משתמשים אחרים.
 - בקרו ב-[דף ה-GitHub][github] שלנו.
 - עקבו אחר העדכונים שלנו ב-[FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- הצטרפו לקהילות מקומיות: [חדר Matrix הונגרי](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), קבוצות טלגרם דוברות [גרמנית][telegram_chat_de], [סינית][telegram_chat_zh], [צרפתית][telegram_chat_fr], [איטלקית][telegram_chat_it], [ספרדית][telegram_chat_es], [רוסית][telegram_chat_ru], [אוקראינית][telegram_chat_uk], [ערבית][telegram_chat_ar], [פרסית][telegram_chat_fa], [טורקית][telegram_chat_tr].
 
 [fork]: https://he.wikipedia.org/wiki/פיצול_(פיתוח_תוכנה)
 

@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Esta atualização de outubro do Organic Maps adiciona a visualização do limite de velocidade no Android Auto, importação de GeoJSON, estatísticas de gravação de percurso, mostra as etiquetas de descrição do OSM (escreva `?description` na caixa de pesquisa para as ver) e guarda um marcador num percurso no iOS. Também existem muitas melhorias na interface do utilizador, edição do OpenStreetMap e várias correções de erros em todas as plataformas, incluindo a correção da falha no arranque em alguns dispositivos Android.
+Esta atualização de outubro do Organic Maps adiciona a visualização do limite de velocidade no Android Auto, importação de GeoJSON, estatísticas de gravação de percurso, mostra as etiquetas de descrição do OSM (escreve `?description` na caixa de pesquisa para as ver) e guarda um marcador num percurso no iOS. Também existem muitas melhorias na interface do utilizador, edição do OpenStreetMap e várias correções de erros em todas as plataformas, incluindo a correção da falha no arranque em alguns dispositivos Android.
 
-O Organic Maps é possível graças ❤️ aos nossos colaboradores, [as suas doações](@/donate/index.pt.md) e [o seu apoio](@/contribute/index.pt.md).
+O Organic Maps é possível graças ❤️ aos nossos colaboradores, [as tuas doações](@/donate/index.pt.md) e [o teu apoio](@/contribute/index.pt.md).
 
 ### Notas de lançamento detalhadas (incluindo as alterações da atualização menor anterior)
 
@@ -68,17 +68,17 @@ O Organic Maps é possível graças ❤️ aos nossos colaboradores, [as suas do
 - Opção para cancelar a transferência (Viktor Govako)
 - Mostrar tipo de geometria no menu de contexto (Viktor Govako)
 
-### Funcionalidades lançadas recentemente que pode ter perdido
+### Funcionalidades lançadas recentemente que podes ter perdido
 
 - Números de rota de transporte público ao selecionar uma paragem de autocarro
-- Rotas de caminhada e ciclismo (ative-as através do botão Camadas no canto superior esquerdo)
+- Rotas de caminhada e ciclismo (ativa-as através do botão Camadas no canto superior esquerdo)
 - Ver nomes de marcadores no mapa ativando-o nas Definições da aplicação
 - O ícone de lápis ✎ oferece uma forma rápida de editar marcadores
 
 ### Instalar o Organic Maps
 
-Obtenha a versão mais recente do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obtém a versão mais recente do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Participe nos testes beta para funcionalidades antecipadas: [iOS][testflight] / [Android][firebase].
+Participa nos testes beta para funcionalidades antecipadas: [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -13,7 +13,7 @@ aliases:
 
 ## Opsomming
 
-Organiese kaarte gebruik die stelsel teks-na-spraak (TTS)-enjin vir steminstruksies. Die verstek enjins verskil volgens toestel. Die keuses kan Google teks-na-spraak, toestelvervaardiger se enjin of 'n derdeparty een insluit.
+Organic Maps gebruik die stelsel teks-na-spraak (TTS)-enjin vir steminstruksies. Die verstek enjins verskil volgens toestel. Die keuses kan Google teks-na-spraak, toestelvervaardiger se enjin of 'n derdeparty een insluit.
 
 Die amptelike aanbeveling van Organic Maps is [RHVoice](https://rhvoice.org/), wat 'n gratis en oopbron-spraakenjin is wat afgelaai kan word vanaf [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) en [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
@@ -22,8 +22,8 @@ Die amptelike aanbeveling van Organic Maps is [RHVoice](https://rhvoice.org/), w
 - Maak die Instellings-toepassing op jou Android-toestel oop
 - Kies Addisionele instellings en kies dan Toeganklikheid
 - Kies jou voorkeurenjin, spraaktempo en toonhoogte
-- ** Herbegin Organic Maps-toepassing**
-- Maak instellings oop => steminstruksies in organiese kaarte en stel dit op
+- **Herbegin Organic Maps-toepassing**
+- Maak instellings oop => steminstruksies in Organic Maps en stel dit op
 - Herbegin Organic Maps-toepassing weer (of herlaai die toestel) as die stem nie werk nie
 
 As jy nie die toepaslike instelling kan kry nie, maak die instellingsprogram oop en soek vir Teks-na-spraak.
@@ -38,7 +38,7 @@ Genoemde opsies sal dalk nie verskyn as jy nie reeds 'n TTS op jou toestel geïn
 | ---------- | ---------- |
 ![Settings](tts_config_1.png "Instellings") | ![Toeganklikheid](tts_config_2.png "Toeganklikheid")
 
-## Enjins {#enjins}
+## Enjins {#engines}
 
 Hieronder is 'n omvattende lys met verskeie enjins en die tale wat hulle ondersteun (aflaaiskakels kan na die tabel gevind word):
 
@@ -62,6 +62,6 @@ As jy probleme ondervind om die RHVoice TTS-enjin op LineageOS of ander pasgemaa
 
 ## Toets
 
-Om die steminstruksies te toets, kan jy op "Toets stemaanwysings (TTS, teks-na-spraak)" in OM "Instellings → Steminstruksies"-kieslys tik of jy kan eintlik 'n navigasie begin om enige stemuitset te ontvang. Organiese kaarte sal jou geen steminstruksies gee terwyl jy stilstaan ​​nie.
+Om die steminstruksies te toets, kan jy op “Toets stemaanwysings (TTS, teks-na-spraak)” in OM “Instellings → Steminstruksies”-kieslys tik of jy kan eintlik 'n navigasie begin om enige stemuitset te ontvang. Organic Maps sal jou geen steminstruksies gee terwyl jy stilstaan ​​nie.
 
 ![TTS-toets](tts_test.png "TTS-toets")

@@ -2,7 +2,7 @@
 title: "אנא תהנו ושתפו שיר נוסף על Organic Maps 🎶"
 date: 2024-04-27T08:24:02+00:00
 slug: "organic-maps-privacy-and-freedom-anthem-driven-by-community"
-description: "No tracking! No crapware! No pesticides! Organic Maps, where freedom resides! Navigate with privacy, feel the vibe, community-driven, let's take the ride."
+description: "ללא מעקב! ללא תוכנות זבל! ללא חומרי הדברה! Organic Maps – המקום שבו שוכנת החירות! נווטו תוך שמירה על פרטיותכם, הרגישו את האווירה, מונחה קהילה – בואו נצא לדרך."
 ---
 
 אנא תהנו ושתפו שיר נוסף שנוצר על ידי [אחד המשתמשים שלנו](https://t.me/organicmaps/39839) אודות Organic Maps, הפעם בסגנון שונה 🎶

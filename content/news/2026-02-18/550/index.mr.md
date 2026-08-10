@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-आमच्या योगदानकर्त्यांना धन्यवाद, **Organic Maps अपडेट करण्यासाठी शुक्रवार ही चांगली वेळ आहे!** अपडेट [https://get.omaps.org](https://get.omaps.org) वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर मिळव.
+आमच्या योगदानकर्त्यांना धन्यवाद, **Organic Maps अपडेट करण्यासाठी शुक्रवार ही चांगली वेळ आहे!** अपडेट [https://get.omaps.org](https://get.omaps.org) वर किंवा [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [F-Droid][fdroid] वर मिळवा.
 
-जर तुला आगामी अपडेट्सपैकी एका अपडेटमध्ये तुझ्या शहरातील **रिअल-टाइम सार्वजनिक वाहतूक वेळापत्रक** पहायचे असेल, तर कृपया:
+जर तुम्हाला आगामी अपडेट्सपैकी एका अपडेटमध्ये तुमच्या शहरातील **रिअल-टाइम सार्वजनिक वाहतूक वेळापत्रक** पहायचे असेल, तर कृपया:
 
-1. तुझ्या स्थानिक वाहतूक संस्थांकडून **स्टॅटिक आणि रिअल-टाइम GTFS फीड स्रोत** [आम्हाला पाठव](https://github.com/organicmaps/gtfs-osm-matcher/issues) जेणेकरून आम्ही त्यांची चाचणी आणि एकत्रीकरण करू शकू.
-2. तुझ्या क्षेत्रातील **OpenStreetMap डेटा**मध्ये सर्व बस/ट्राम/ट्रेन थांब्यांचा आवश्यक टॅगसह समावेश आहे की नाही ते [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) वर तपास.
+1. तुमच्या स्थानिक वाहतूक संस्थांकडून **स्टॅटिक आणि रिअल-टाइम GTFS फीड स्रोत** [आम्हाला पाठवा](https://github.com/organicmaps/gtfs-osm-matcher/issues) जेणेकरून आम्ही त्यांची चाचणी आणि एकत्रीकरण करू शकू.
+2. तुमच्या क्षेत्रातील **OpenStreetMap डेटा**मध्ये सर्व बस/ट्राम/ट्रेन थांब्यांचा आवश्यक टॅगसह समावेश आहे की नाही ते [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/) वर तपासा.
 
 ### प्रकाशन नोट्स
 
@@ -57,7 +57,7 @@ taxonomies:
 * Weblate योगदानकर्त्यांकडून भाषांतरे अद्यतनित केली (Viktor Govako)
 
 
-प्रारंभिक वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा चाचणीमध्ये सामील हो:
+प्रारंभिक वैशिष्ट्ये वापरून पाहण्यासाठी आणि समस्यांची तक्रार करण्यासाठी बीटा चाचणीमध्ये सामील व्हा:
 - [iOS][testflight]
 - [Android][firebase]
 

@@ -13,7 +13,7 @@ Organic Maps జూన్ నవీకరణలో ప్రయత్నిం�
 - Android కోసం కొత్త శోధన మరియు మార్గ ప్రణాళిక ఇంటర్‌ఫేస్
 - iOSలో పెద్ద అందుబాటు ఫాంట్‌లకు మద్దతు
 
-దీన్ని <https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందు, నీ అభిప్రాయాన్ని మాకు తెలియజేయి!
+దీన్ని <https://get.omaps.org> వద్ద లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] మరియు [F-Droid][fdroid]లో పొందండి, మీ అభిప్రాయాన్ని మాకు తెలియజేయండి!
 
 ## వివరణాత్మక మార్పుల జాబితా
 
@@ -77,7 +77,7 @@ Organic Maps జూన్ నవీకరణలో ప్రయత్నిం�
 - జర్మన్ మరియు ఫ్రెంచ్ అనువాదాలు నవీకరించబడ్డాయి _(Wuzzy, Alexander Borsuk)_
 - చైనీస్, సెర్బియన్ మరియు కాటలాన్ కోసం తప్పు “onto street” వాయిస్ మార్గనిర్దేశం అనువాదాలు పరిష్కరించబడ్డాయి _(Alexander Borsuk)_
 
-## ప్రారంభ ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరు:
+## ప్రారంభ ఫీచర్‌లను ప్రయత్నించడానికి మరియు సమస్యలను నివేదించడానికి బీటా పరీక్షలో చేరండి:
 
 - [iOS][testflight]
 - [Android][firebase]

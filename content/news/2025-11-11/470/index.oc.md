@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Aprèp la supression d'una lista de marcapaginas o de traças (via lo boton "Mai"), l'aplicacion tòrna corrèctament a l'ecran precedent (Kiryl Kaveryn)
-- Ajust de ligams cap a [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] sus l'ecran "A prepaus" (Kiryl Kaveryn)
-- Ajust de "Senhalar un bug" a las accions rapidas de l'icòna de l'aplicacion sus l'ecran d'acuèlh (Kiryl Kaveryn)
+- Aprèp la supression d'una lista de marcapaginas o de traças (via lo boton «Mai»), l'aplicacion tòrna corrèctament a l'ecran precedent (Kiryl Kaveryn)
+- Ajust de ligams cap a [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] sus l'ecran «A prepaus» (Kiryl Kaveryn)
+- Ajust de «Senhalar un bug» a las accions rapidas de l'icòna de l'aplicacion sus l'ecran d'acuèlh (Kiryl Kaveryn)
 - Correccion de divèrses plantadas de l'aplicacion e de CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -33,7 +33,7 @@ taxonomies:
 - Android Auto utiliza totjorn lo mòde de rotatge en voitura (Andrei Shkrob)
 - Utilizacion de las traduccions en chinés tradicional per las regions de Hong Kong (zh-HK) e Macau (zh-MO) (Alexander Borsuk)
 
-Mercés de nos dire se podètz executar Organic Maps sus de periferics x86 (Chromebooks incluses) amb supòrt OpenGL ES 3.
+Mercés de nos dire se pòdes executar Organic Maps sus de periferics x86 (Chromebooks incluses) amb supòrt OpenGL ES 3.
 
 ### Mapa & Estils
 
@@ -62,9 +62,9 @@ Mercés de nos dire se podètz executar Organic Maps sus de periferics x86 (Chro
 
 Nòtas de version precedentas : [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Obtenètz la darrièra version d'Organic Maps sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obten la darrièra version d'Organic Maps sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-P.S. Juntatz-vos als tèsts beta per accedir a las novèlas foncionalitats en primièr e nos ajudar a trobar de bugs e de problèmas :
+P.S. Junta-te als tèsts beta per accedir a las novèlas foncionalitats en primièr e nos ajudar a trobar de bugs e de problèmas :
 - [iOS][testflight]
 - [Android][firebase].
 

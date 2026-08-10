@@ -1,7 +1,7 @@
 ---
 title: ¿Cómo uso la versión flatpak de la aplicación?
 slug: cómo-uso-la-versión-flatpak-de-la-aplicación
-description: Preguntas frecuentes para la aplicación de Mapas Orgánicos
+description: Preguntas frecuentes para la aplicación Organic Maps
 taxonomies:
   faq:
   - linux
@@ -11,23 +11,23 @@ aliases:
   - /es/faq/linux/how-to-use-flatpak/
 ---
 
-Para instalar OM en Linux con flatpak, abra la terminal e ingrese `flatpak install flathub app.organicmaps.desktop`
+Para instalar OM en Linux con flatpak, abre la terminal e ingresa `flatpak install flathub app.organicmaps.desktop`
 
-Una vez instalada la aplicación, puede usar la rueda de desplazamiento del mouse o los controles en la barra de menú derecha para acercar el área en la que desea navegar y descargar mapas para esa área. También puedes hacer clic en el icono "descargar" en la parte inferior derecha. Una vez que haya descargado mapas de las regiones que le interesan, la aplicación debería funcionar incluso sin conexión a Internet. 
+Una vez instalada la aplicación, puedes usar la rueda de desplazamiento del mouse o los controles en la barra de menú derecha para acercar el área en la que deseas navegar y descargar mapas para esa área. También puedes hacer clic en el icono «descargar» en la parte inferior derecha. Una vez que hayas descargado mapas de las regiones que te interesan, la aplicación debería funcionar incluso sin conexión a Internet.
 
-Puede pasar el mouse sobre los distintos íconos para ver texto de ayuda. 
+Puedes pasar el mouse sobre los distintos íconos para ver texto de ayuda.
 
-Para realizar rutas y navegación paso a paso, tiene un par de opciones. Si conoce las coordenadas GPS de sus puntos inicial y final, puede hacer clic en el ícono de configuración (arriba de la marca de verificación verde) e ingresar las coordenadas de su punto inicial y destino. Para establecer el punto de inicio en el mapa, haga clic en el icono de navegación y seleccione "punto de inicio", luego mantenga presionada la tecla Mayús y haga clic izquierdo en el mapa. Para establecer el destino, cambie a "punto final" y haga clic en una ubicación en el mapa.
+Para realizar rutas y navegación paso a paso, tienes un par de opciones. Si conoces las coordenadas GPS de tus puntos inicial y final, puedes hacer clic en el ícono de configuración (arriba de la marca de verificación verde) e ingresar las coordenadas de tu punto inicial y destino. Para establecer el punto de inicio en el mapa, haz clic en el icono de navegación y selecciona «punto de inicio», luego mantén presionada la tecla Mayús y haz clic izquierdo en el mapa. Para establecer el destino, cambia a «punto final» y haz clic en una ubicación en el mapa.
 
 ![Configuración del punto de inicio y punto final](nav_points.png)
 
-Puede hacer clic en el ícono azul directamente encima del ícono de configuración para borrar la navegación. 
+Puedes hacer clic en el ícono azul directamente encima del ícono de configuración para borrar la navegación.
 
 ![borrar navegación](clear_route.png)
 
-Para buscar direcciones y destinos, haga clic en la lupa e ingrese la dirección o el término de búsqueda.
+Para buscar direcciones y destinos, haz clic en la lupa e ingresa la dirección o el término de búsqueda.
 
-Para marcar una ubicación, mantenga presionada la tecla Alt y haga clic derecho en el lugar que desea marcar. Es posible que el marcador no sea visible de inmediato; para verlos y administrarlos, debe hacer clic en el ícono de estrella roja. 
+Para marcar una ubicación, mantén presionada la tecla Alt y haz clic derecho en el lugar que deseas marcar. Es posible que el marcador no sea visible de inmediato; para verlos y administrarlos, debes hacer clic en el ícono de estrella roja.
 
 ![ver marcadores](view_bookmarks.png)
 

@@ -15,14 +15,14 @@ aliases:
 
 Organic Maps از موتور سیستم تبدیل متن به گفتار (TTS) برای دستورالعمل‌های صوتی استفاده می‌کند. موتورهای پیش فرض بسته به دستگاه متفاوت است. این انتخاب‌ها می‌تواند شامل Google Text to Speech، موتور سازنده دستگاه یا یک شخص ثالث باشد.
 
-توصیه رسمی از Organic Maps [RHVoice] (https://rhvoice.org/) است که یک موتور گفتاری رایگان و منبع باز است که می‌توان آن را از [Google Play] دانلود کرد (https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) و [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+توصیه رسمی از Organic Maps [RHVoice](https://rhvoice.org/) است که یک موتور گفتاری رایگان و منبع باز است که می‌توان آن را از [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) دانلود کرد و [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
 
 ## دستورالعمل
 
 - برنامه تنظیمات را در دستگاه اندروید خود باز کنید
 - گزینه Additional Settings و سپس Accessibility را انتخاب کنید
 - موتور، سرعت گفتار و زمین دلخواه خود را انتخاب کنید
-- ** برنامه Organic Maps را راه اندازی مجدد کنید**
+- **برنامه Organic Maps را راه اندازی مجدد کنید**
 - تنظیمات => دستورالعمل های صوتی را در Organic Maps باز کنید و آن را تنظیم کنید
 - اگر صدا کار نمی کند، برنامه Organic Maps را دوباره راه اندازی کنید (یا دستگاه را راه اندازی مجدد کنید).
 
@@ -38,7 +38,7 @@ P.S: توجه داشته باشید که این مراحل بر اساس برن�
 | ----------- | ----------- |
 ![تنظیمات](tts_config_1.png "تنظیمات") | ![دسترسی](tts_config_2.png "دسترسی")
 
-## موتورها {#موتورها}
+## موتورها {#engines}
 
 در زیر یک لیست جامع وجود دارد که چندین موتور و زبان هایی را که پشتیبانی می کنند نشان می دهد (لینک های دانلود را می توانید بعد از جدول پیدا کنید):
 
@@ -48,13 +48,13 @@ P.S: توجه داشته باشید که این مراحل بر اساس برن�
 
 اگر در تنظیم اولیه موتور RHVoice TTS در LineageOS یا سایر رام های سفارشی مشکل دارید، این راه حل را امتحان کنید. RHVoice ممکن است به درستی مقداردهی اولیه نشود و برنامه ممکن است خراب شود، به خصوص اگر قبلاً از هیچ موتور TTS در تلفن خود استفاده نکرده باشید (به عنوان مثال، نصب جدید، بازنشانی کارخانه و غیره). اگر از یک رام سفارشی مانند LineageOS <ins>بدون خدمات Google Play و خدمات گفتار Google</ins> استفاده می‌کنید، و می‌خواهید از RHVoice به عنوان موتور TTS ترجیحی خود استفاده کنید، دستورالعمل‌های زیر را به عنوان راه‌حل دنبال کنید:
 
-1. [eSpeak TTS engine] (https://f-droid.org/en/packages/com.reecedunn.espeak) موجود در F-Droid را نصب کنید
+1. [eSpeak TTS engine](https://f-droid.org/en/packages/com.reecedunn.espeak) موجود در F-Droid را نصب کنید
 2. آن را به عنوان موتور سیستم ترجیحی تنظیم کنید
     - به **تنظیمات** اصلی LineageOS بروید.
     - به سمت پایین به **دسترسی** بروید.
     - **خروجی متن به گفتار** و **موتور ترجیحی** (سمت چپ) را انتخاب کنید و مطمئن شوید که **eSpeak** انتخاب شده است.
 3. برگردید و **play** را فشار دهید تا ببینید آیا کار می کند یا خیر
-4. [RHVoice] (https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) را که در F-droid موجود است نصب کنید.
+4. [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) را که در F-droid موجود است نصب کنید.
     - آن را باز کنید، زبانی را که می خواهید استفاده کنید انتخاب کنید، روی نماد ابر (در سمت چپ) ضربه بزنید تا صداها را دانلود کنید.
     - دکمه پخش را فشار دهید تا بررسی کنید که آیا کار می کند یا خیر
 5. **RHVoice** را به عنوان موتور ترجیحی تنظیم کنید (مرحله 2 را ببینید)

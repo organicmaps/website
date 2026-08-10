@@ -11,6 +11,7 @@ Geseënde Kersfees en 'n Voorspoedige Nuwejaar van die Organic Maps-span. Op soe
 Installeer Organic Maps vanaf <https://omaps.app/get> of vanaf [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [F-Droid][fdroid]
 
 ### Vrystellingsnotas
+
 - Kersbome en markte verskyn nou op die kaart (Viktor Govako)
 - OpenStreetMap-data is op datum soos op 14 Desember 2025 (Viktor Govako)
 - Nasionale parkgrense en etikette is minder prominent op die wêreldkaart (Viktor Govako)
@@ -20,6 +21,7 @@ Installeer Organic Maps vanaf <https://omaps.app/get> of vanaf [App Store][appst
 - Rotonde TTS-stemaanwysings in Kroaties is reggestel (@chupocro, Alexander Borsuk)
 
 ### iOS
+
 - Soekresultate wys nou parkeerkapasiteit met emoji (David Martinez)
 - 'n CarPlay-kwessie op iOS 12 is reggestel (Kiryl Kaveryn)
 - Verskeie visuele probleme op iPhone en iPad is reggestel (Kiryl Kaveryn)
@@ -29,6 +31,7 @@ Installeer Organic Maps vanaf <https://omaps.app/get> of vanaf [App Store][appst
 - Die isolyne-herinneringboodskap by die begin van die program is verwyder (Kiryl Kaveryn)
 
 ### Android
+
 - Soekresultate wys nou parkeerkapasiteit (Bicky Rawdyrathaur, David Martinez)
 - Die motorliggingsensor in Android Auto is gedeaktiveer om liggingskwessies te vermy (Andrei Shkrob)
 - Snitopname gaan voort selfs as die toepassing gestop of gesluit word (Alexander Borsuk)

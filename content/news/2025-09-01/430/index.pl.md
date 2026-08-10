@@ -27,6 +27,7 @@ Jesteśmy wdzięczni ❤️ naszym współtwórcom, a także za [wasze darowizny
 - Zaktualizowane tłumaczenia (współtwórcy Weblate)
 
 #### iOS
+
 - NOWOŚĆ! Przeprojektowane przyciski „Dodaj miejsce do OpenStreetMap" i „Edytuj miejsce" (Kiryl Kaveryn)
 - Naprawiono skaczącą krzyżową siatkę przy dodawaniu nowego miejsca do OpenStreetMap (Kiryl Kaveryn)
 - Nowe ikony dla warstw mapy i menu (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Jesteśmy wdzięczni ❤️ naszym współtwórcom, a także za [wasze darowizny
 - Przycisk „Zaktualizuj mapy aby wnosić wkład" jest teraz pokazywany w menu, gdy mapy są zbyt przestarzałe (Kiryl Kaveryn)
 
 #### Android
+
 - Nowe ikony warstw (Andrei Shkrob, @euf)
 - Obszar dotykowy dla ikony edycji zakładki (ołówek) jest teraz większy (Kavi Khalique)
 - Naprawiono awarię przy zapisywaniu niektórych tras i rzadką awarię przy uruchomieniu (Viktor Govako)

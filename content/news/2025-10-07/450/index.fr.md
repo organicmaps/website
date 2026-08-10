@@ -6,9 +6,9 @@ taxonomies:
   news: ["releases"]
 ---
 
-Cette mise à jour d'octobre d'Organic Maps ajoute l'affichage de la limite de vitesse dans Android Auto, l'importation de GeoJSON, les statistiques d'enregistrement de parcours, affiche les balises de description OSM (tapez `?description` dans la zone de recherche pour les voir), et enregistre un signet sur une trace sur iOS. Il y a également de nombreuses améliorations de l'interface utilisateur, de l'édition OpenStreetMap et diverses corrections de bogues sur toutes les plateformes, y compris la correction du plantage au démarrage sur certains appareils Android.
+Cette mise à jour d'octobre d'Organic Maps ajoute l'affichage de la limite de vitesse dans Android Auto, l'importation de GeoJSON, les statistiques d'enregistrement de parcours, affiche les balises de description OSM (tape `?description` dans la zone de recherche pour les voir), et enregistre un signet sur une trace sur iOS. Il y a également de nombreuses améliorations de l'interface utilisateur, de l'édition OpenStreetMap et diverses corrections de bogues sur toutes les plateformes, y compris la correction du plantage au démarrage sur certains appareils Android.
 
-Organic Maps est possible grâce ❤️ à nos contributeurs, [vos dons](@/donate/index.fr.md) et [votre soutien](@/contribute/index.fr.md).
+Organic Maps est possible grâce ❤️ à nos contributeurs, [tes dons](@/donate/index.fr.md) et [ton soutien](@/contribute/index.fr.md).
 
 ### Notes de version détaillées (y compris les modifications de la mise à jour mineure précédente)
 
@@ -68,17 +68,17 @@ Organic Maps est possible grâce ❤️ à nos contributeurs, [vos dons](@/donat
 - Option pour annuler le téléchargement (Viktor Govako)
 - Afficher le type de géométrie dans le menu contextuel (Viktor Govako)
 
-### Fonctionnalités récemment publiées que vous avez peut-être manquées
+### Fonctionnalités récemment publiées que tu as peut-être manquées
 
 - Numéros de ligne de transport public lors de la sélection d'un arrêt de bus
-- Itinéraires de randonnée et de vélo (activez-les via le bouton Calques en haut à gauche)
+- Itinéraires de randonnée et de vélo (active-les via le bouton Calques en haut à gauche)
 - Voir les noms de signets sur la carte en l'activant dans les paramètres de l'application
 - L'icône de crayon ✎ offre un moyen rapide de modifier les signets
 
 ### Installer Organic Maps
 
-Obtenez la dernière version d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
+Obtiens la dernière version d'Organic Maps depuis l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].
 
-Rejoignez les tests bêta pour les fonctionnalités précoces : [iOS][testflight] / [Android][firebase].
+Rejoins les tests bêta pour les fonctionnalités précoces : [iOS][testflight] / [Android][firebase].
 
 {{ references() }}

@@ -1,13 +1,13 @@
 ---
-title: "Otobüs duraklarında rota numaralarını görün ve daha fazlası: Eylül sürümü öne çıkanları"
+title: "Otobüs duraklarında rota numaralarını gör ve daha fazlası: Eylül sürümü öne çıkanları"
 date: 2025-09-01T10:00:00+00:00
 taxonomies:
   news: ["releases"]
 ---
 
-Artık bir otobüs veya tramvay durağı seçtiğinizde, toplu taşıma rota numaralarını görebilirsiniz. Bu sadece ilk adım! Daha sonra toplu taşıma rotalarını doğrudan harita üzerinde göstermeyi planlıyoruz. iOS kullanıcıları ayrıca yeniden tasarlanan OpenStreetMap katkı düğmelerinin ("Yer Ekle" ve "Yer Düzenle") keyfini çıkarabilir.
+Artık bir otobüs veya tramvay durağı seçtiğinde, toplu taşıma rota numaralarını görebilirsin. Bu sadece ilk adım! Daha sonra toplu taşıma rotalarını doğrudan harita üzerinde göstermeyi planlıyoruz. iOS kullanıcıları ayrıca yeniden tasarlanan OpenStreetMap katkı düğmelerinin ("Yer Ekle" ve "Yer Düzenle") keyfini çıkarabilir.
 
-Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.tr.md) ve [desteğiniz](@/contribute/index.tr.md) için minnettarız.
+Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışların](@/donate/index.tr.md) ve [desteğin](@/contribute/index.tr.md) için minnettarız.
 
 ### Detaylı Sürüm Notları
 
@@ -27,6 +27,7 @@ Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.
 - Güncellenmiş çeviriler (Weblate katkıda bulunanları)
 
 #### iOS
+
 - YENİ! Yeniden tasarlanan "OpenStreetMap'e Yer Ekle" ve "Yer Düzenle" düğmeleri (Kiryl Kaveryn)
 - OpenStreetMap'e yeni yer eklerken zıplayan artı işareti düzeltildi (Kiryl Kaveryn)
 - Harita katmanları ve menü için yeni simgeler (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.
 - "Katkıda bulunmak için haritaları güncelle" düğmesi artık haritalar çok eski olduğunda menüde gösteriliyor (Kiryl Kaveryn)
 
 #### Android
+
 - Yeni katman simgeleri (Andrei Shkrob, @euf)
 - Yer imi düzenleme (kalem) simgesi için dokunma alanı artık daha büyük (Kavi Khalique)
 - Belirli rotaları kaydetme sırasında çökme ve başlangıçta nadir çökme düzeltildi (Viktor Govako)
@@ -44,10 +46,10 @@ Katkıda bulunanlarımıza ❤️ ve ayrıca [bağışlarınız](@/donate/index.
 - Önceden tanımlanmış yer imi/iz renklerinin orijinal sırası geri yüklendi (Andrei Shkrob)
 - Mutfakları düzenlerken "Aramayı Temizle" düğmesi düzeltildi (Ansh Jain)
 
-Organic Maps'in en son eylül sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edinin.
+Organic Maps'in en son eylül sürümünü [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid]'den edin.
 
-Henüz denemediyseniz, artık Organic Maps ayarlarında haritada yer imi isimlerini görmek için bir özelliği etkinleştirebilirsiniz. Ayrıca, yer imlerini düzenlemenin daha hızlı bir yolu olarak artık bir kalem simgesi ✎ kullanılıyor.
+Henüz denemediysen, artık Organic Maps ayarlarında haritada yer imi isimlerini görmek için bir özelliği etkinleştirebilirsin. Ayrıca, yer imlerini düzenlemenin daha hızlı bir yolu olarak artık bir kalem simgesi ✎ kullanılıyor.
 
-Not: Unutmayın, deneysel ve yaklaşan özelliklere erken erişim sağlamak için beta test programımıza kaydolabilirsiniz—[iOS için][testflight] ve [Android için][firebase].
+Not: Unutma, deneysel ve yaklaşan özelliklere erken erişim sağlamak için beta test programımıza kaydolabilirsin—[iOS için][testflight] ve [Android için][firebase].
 
 {{ references() }}

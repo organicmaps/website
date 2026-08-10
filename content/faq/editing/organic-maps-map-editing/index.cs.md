@@ -1,5 +1,5 @@
 ---
-title: Jak mohu upravit mapu v organických mapách?
+title: Jak mohu upravit mapu v Organic Maps?
 slug: jak-mohu-upravit-mapu-v-organických-mapách
 description: Výukový program pro úpravu OpenStreetMap z aplikace Organic Maps více
 updated: '2025-01-05'
@@ -12,11 +12,11 @@ aliases:
   - /cs/faq/editing/organic-maps-map-editing/
 ---
 
-Pomocí organických map můžete snadno přidat chybějící místa do mapy, přidat další podrobnosti, jako je otevírací doba, nebo opravit nesprávné položky. Tímto způsobem zlepšíte mapová data pro všechny uživatele.
+Pomocí Organic Maps můžete snadno přidat chybějící místa do mapy, přidat další podrobnosti, jako je otevírací doba, nebo opravit nesprávné položky. Tímto způsobem zlepšíte mapová data pro všechny uživatele.
 
-Protože [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) je primárním zdrojem mapových dat v organických mapách, provedené úpravy se odesílají do OSM. OSM je komunitní projekt pro vytvoření bezplatné a otevřené mapy. Funguje podobně jako Wikipedie, takže vše, co upravíte, bude dostupné milionům uživatelů po celém světě. Připojte se ke komunitě a pomozte vytvořit lepší mapu pro všechny!
+Protože [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) je primárním zdrojem mapových dat v Organic Maps, provedené úpravy se odesílají do OSM. OSM je komunitní projekt pro vytvoření bezplatné a otevřené mapy. Funguje podobně jako Wikipedie, takže vše, co upravíte, bude dostupné milionům uživatelů po celém světě. Připojte se ke komunitě a pomozte vytvořit lepší mapu pro všechny!
 
-**Úprava OpenStreetMap z aplikace Organické mapy:**
+**Úprava OpenStreetMap z aplikace Organic Maps:**
 1. Vytvořte si účet na [OpenStreetMap.org](https://www.openstreetmap.org/user/new)
 2. Přihlaste se ke svému účtu v Organic Maps (ikona burgeru -> *nastavení* -> *OpenStreetMap-Profile*)
 3. Nyní můžete upravit stávající místa nebo přidat nová
@@ -33,4 +33,4 @@ Protože [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_OpenStre
 		- Přidejte další informace, jako je název, otevírací doba a webové stránky
 		- Uložte změny a ukončete pomocí šipky zaškrtnutí
 
-Pamatujte, že editor je navržen jako jednoduchý editor POI, a proto je omezen na POI. Můžete např. nepřidávat silnice, jezera, obrysy budov atd. Navíc není možné přesunout místa na nové místo. Pokud nemůžete něco upravit pomocí organických map, podívejte se na stránku [Pokročilejší úpravy map](@/faq/editing/advanced-map-editing/index.cs.md).
+Pamatujte, že editor je navržen jako jednoduchý editor POI, a proto je omezen na POI. Můžete např. nepřidávat silnice, jezera, obrysy budov atd. Navíc není možné přesunout místa na nové místo. Pokud nemůžete něco upravit pomocí Organic Maps, podívejte se na stránku [Pokročilejší úpravy map](@/faq/editing/advanced-map-editing/index.cs.md).

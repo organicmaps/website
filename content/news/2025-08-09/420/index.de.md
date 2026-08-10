@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Installiere das August-Update von Organic Maps, lade die neuesten Karten herunter und entdecke beliebte Wander- und Fahrradrouten auf der ganzen Welt! Drücke auf die Schaltfläche "Ebenen" oben links, um farbige Fahrrad- und MTB-Routen sowie offizielle Wander- und Spazierwege anzuzeigen. Siehst du nichts in deiner Nähe? Dann ist es Zeit, die fehlenden Informationen zu OpenStreetMap.org hinzuzufügen, denn alle Kartendaten in Organic Maps stammen aus diesem offenen, kostenlosen und gemeinschaftsbasierten Projekt.
+Installiere das August-Update von Organic Maps, lade die neuesten Karten herunter und entdecke beliebte Wander- und Fahrradrouten auf der ganzen Welt! Drücke auf die Schaltfläche „Ebenen“ oben links, um farbige Fahrrad- und MTB-Routen sowie offizielle Wander- und Spazierwege anzuzeigen. Siehst du nichts in deiner Nähe? Dann ist es Zeit, die fehlenden Informationen zu OpenStreetMap.org hinzuzufügen, denn alle Kartendaten in Organic Maps stammen aus diesem offenen, kostenlosen und gemeinschaftsbasierten Projekt.
 
 Wusstest du, dass jede aufgezeichnete oder importierte GPX/KML-Route auf der Karte ausgewählt werden kann? Tracks mit Höhendaten zeigen ihr Höhenprofil an.
 
@@ -24,6 +24,7 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Landwirtschafts- und Forststraßen sind jetzt vom Routing ausgeschlossen (Viktor Govako)
 
 #### iOS
+
 - Mehrere Abstürze behoben und iCloud-Synchronisation stabilisiert (Kiryl Kaveryn)
 - Mehrzeilige Titel in Lesezeichenlisten eingeführt (David Martinez)
 - Zoomproblem beim Abwählen eines Tracks behoben (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Fehlende Übersetzungen durch englische Alternativen ersetzt (Viktor Govako)
 
 #### Android
+
 - Höhenprofil und Track-Auswahl auf der Karte hinzugefügt (Kavi Khalique)
 - OpenStreetMap-Notiz hinterlassen, wenn ein neu hinzugefügter POI noch nicht in Organic Maps unterstützt wird (hemanggs)
 - OpenGL ES 2.0 Unterstützung entfernt zugunsten von OpenGL ES 3.0 (renderexpert)
 - Lesezeichen-Symbole im Farbwähler angezeigt (Andrei Shkrob)
 
 #### Verbesserungen bei Stilen & Symbolen
+
 - Gabel-und-Messer-Symbol für Food Courts (David Martinez)
 - Feuchtgebiete mit horizontaler Schraffur markiert (Viktor Govako)
 - Symbole für Fast Food und Fahrräder in Suchergebnissen und Lesezeichen (David Martinez)
@@ -48,8 +51,9 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 - Korrektur der Prioritätseinstellungen für diplomatische Vertretungen (Viktor Govako)
 
 #### Sonstige Verbesserungen
-- Die Eingabe von "cop" findet Polizeistationen, während "film" oder "movie theater" Kinos findet (theadventurer62)
-- "In einer anderen App öffnen" zeigt jetzt den ausgewählten Punkt in Google Maps an (Alexander Borsuk)
+
+- Die Eingabe von „cop“ findet Polizeistationen, während „film“ oder „movie theater“ Kinos findet (theadventurer62)
+- „In einer anderen App öffnen“ zeigt jetzt den ausgewählten Punkt in Google Maps an (Alexander Borsuk)
 - Spanische Übersetzung für weitere Suchkategorien (David Martinez)
 - Verschiedene Übersetzungen aktualisiert (Weblate-Mitwirkende)
 

@@ -20,22 +20,26 @@ extra:
 ## 详细更新日志
 
 ### 地图与地点
+
 - OpenStreetMap 数据更新至 7 月 14 日
 - 报告至 [OpenStreetMap](https://www.openstreetmap.org) 的备注现已放置在你选定的精确位置，而非整条街道或区域的中间 _(Alexander Borsuk)_
 - 在跨越 180° 对经线的区域点击地图时，地点选择已得到改进 _(Viktor Govako)_
 - 删除轨迹后，轨迹海拔剖面图将不再显示过时或空白的图表 _(Kiryl Kaveryn)_
 
 ### 公共交通
+
 - 停靠站、换乘站和车站名称现在带有白色轮廓，以便在浅色和深色主题下均能清晰显示 _(Viktor Govako)_
 - 关闭公共交通路线预览后，地铁图层会正确重新显示 _(Mikhail Listratsenka)_
 
 ### 路线规划与导航
+
 - 现在，所有替代路线都会显示路线提示（如收费路段、渡轮、未铺装道路、台阶等） _(Viktor Govako)_
 - 修复了在构建路线时罕见的卡死问题 _(Viktor Govako)_
 - 改进了在限制通行道路上对死胡同以及起点和终点的处理方式 _(Viktor Govako)_
 - 修复了错误和缺失的转弯说明 _(Alexander Borsuk)_
 
 ### iOS
+
 - 新增“保存搜索记录”设置，如果你不希望保留搜索记录，可以关闭该功能并将其隐藏 _(Kiryl Kaveryn)_
 - 新增“编辑”按钮，可更轻松地删除书签 _(Kiryl Kaveryn)_
 - 现在，当你离开屏幕时，书签会自动保存 _(Kiryl Kaveryn)_
@@ -46,6 +50,7 @@ extra:
 - 其他一些较小的界面改进 _(Kiryl Kaveryn)_
 
 ### Android
+
 - 营业时间现在会显示分段班次（例如午休时间），从今天开始排列，并以整周形式展示，无需单独的滚动区域 _(Owm Dubey, Alexander Borsuk, Mikhail Listratsenka)_
 - 更简洁的搜索栏，集成了“清除”和“语音”按钮；“清除”图标不再移动；横屏模式下以及旋转手机后的布局已得到修复 _(Mikhail Listratsenka)_
 - 重新设计的书签和轨迹编辑器 _(Mikhail Listratsenka)_
@@ -54,9 +59,11 @@ extra:
 - 修复了崩溃问题 _(Alexander Borsuk, Mikhail Listratsenka)_
 
 ### 桌面
+
 - 可供下载的地图列表现已按字母顺序排序 _(goncalo109560)_
 
 ### 翻译
+
 - 改进了中文表述 _(Chenxi Zhao)_
 - 更新了乌克兰语翻译 _(Nnifria)_
 - 修复了地图区域名称的意大利语翻译 _(Vittorio Bertola)_

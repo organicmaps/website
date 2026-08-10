@@ -1,19 +1,19 @@
 ---
-description: 'MapsWithMe (Maps.Me) च्या संस्थापकांनी प्रवाशी, पर्यटक, चालक, गिर्यारोहक व सायकल चालकांसाठी तयार केलेले जलद, संविस्तर ऑफलाईन नकाशे.'
+description: "MapsWithMe (Maps.Me) च्या संस्थापकांनी प्रवाशी, पर्यटक, चालक, गिर्यारोहक व सायकल चालकांसाठी तयार केलेले जलद, संविस्तर ऑफलाईन नकाशे."
 extra:
   menu_title: घर
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन'
+title: "Organic Maps : ऑफलाईन भटकंती, सायकल व मार्गनिर्देशन"
 ---
 
 **Organic Maps** हा हायकिंग, सायकलिंग आणि ड्रायव्हिंगसाठी गोपनीयता-केंद्रित ऑफलाइन नकाशे आणि GPS अॅप आहे. पूर्णपणे विनामूल्य. विना जाहिराती. महितीचा मागोवा नाही. मुक्त स्रोत समुदायाने आणि [**MapsWithMe**][mapswithme]/**Maps.Me** च्या संस्थापकांनी प्रेमाने विकसित केले. [OpenStreetMap][openstreetmap] डेटाद्वारे समर्थित.
 
-**Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे.
+**Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे. Organic Maps इन्स्टॉल करा, नकाशे डाऊनलोड करा, तुमचे सिम कार्ड टाकून द्या आणि नेटवर्कवर एकही बाइट न पाठवता एकाच बॅटरी चार्जवर आठवडाभराच्या प्रवासाला निघा.
 
 > डिसेंबर 2025 मध्ये, Organic Maps ने [60 लाख इन्स्टॉल्सचा टप्पा गाठला](@/news/2025-12-31/500/index.mr.md). आम्हाला वाढण्यास [मदत करा](@/donate/index.mr.md)!
 
-### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -28,15 +28,12 @@ title: 'Organic Maps : ऑफलाईन भटकंती, सायकल �
 
 ## वैशिष्ट्ये
 
-प्रवाशी, पर्यटक, गिर्यारोहक व सायकल चालकांसाठी Organic Maps हे अत्यंत
-ऊपयुक्त ऍप आहे:
+प्रवाशी, पर्यटक, गिर्यारोहक व सायकल चालकांसाठी Organic Maps हे अत्यंत ऊपयुक्त ऍप आहे:
 
-- [OpenStreetMap][openstreetmap] च्या आभारे, इतर नकाशांवर अस्तित्वात
-  नसलेल्या ठिकाणांसोबत सखोल ऑफलाईन नकाशे
+- [OpenStreetMap][openstreetmap] च्या आभारे, इतर नकाशांवर अस्तित्वात नसलेल्या ठिकाणांसोबत सखोल ऑफलाईन नकाशे
 - सायकलिंग मार्ग, भटकंती व चालण्याचे मार्ग
 - समोच्च रेषा, उंची प्रोफाइल, शिखरे व चढ-उतार
-- व्हॉइस मार्गदर्शन आणि CarPlay/Android Auto सह कार, सायकली आणि चालण्यासाठी
-  टर्न-बाय-टर्न दिशानिर्देश
+- व्हॉइस मार्गदर्शन आणि CarPlay/Android Auto सह कार, सायकली आणि चालण्यासाठी टर्न-बाय-टर्न दिशानिर्देश
 - मेट्रो/सबवे नकाशे
 - नकाशावर वेगवान ऑफलाईन शोध
 - KML, KMZ, GPX फॉरमॅटमध्ये बुकमार्क आणि ट्रॅक, GeoJSON
@@ -58,19 +55,18 @@ Organic Maps अॅप माहिती चोरांपासून आण�
 - विना जाहिराती
 - महितीचा मागोवा नाही
 - डेटा संग्रह नाही
-- घरी फोन येणार नाही
 - त्रासदायक नोंदणी नाही
 - कोणतीही अनिवार्य शिकवणी नाही
 - त्रासदायक ईमेल नाही
 - अधिसूचना नाही
 - कचरासॉफ्टवेयर नाही
-- ~~कीटकनाशक नाही~~~ शुद्ध व सेंद्रिय!
+- ~~कीटकनाशक नाही~~ शुद्ध व सेंद्रिय!
 
 [Exodus गोपनीयता Project][exodus] कडून तपासलेले ऍप:
 
 {{ exodus_screenshot() }}
 
-The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
+[iOS साठी TrackerControl][trackercontrol] कडून तपासलेले iOS ऍप:
 
 {{ trackercontrol_screenshot() }}
 
@@ -78,23 +74,21 @@ The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
 
 {{ privacy_screenshots() }}
 
-Organic Maps मध्ये आम्ही ह्या विचारांचे आहोत की गोपनीयता हा प्रत्येकाचा
-मानवी हक्क आहे:
+Organic Maps मध्ये आम्ही ह्या विचारांचे आहोत की गोपनीयता हा प्रत्येकाचा मानवी हक्क आहे:
 
 - Organic Maps हे एक समुदाय चलित मुक्त स्रोत प्रकल्प आहे
 - बिग टेकच्या गुप्तहेरी नजरेपासून आम्ही तुमचे रक्षण करतो
 - तुम्ही जिथे कुठे असाल तिथे सुरक्षित रहा
 
-Reject surveillance - embrace your freedom.
+गुप्तहेरी नाकारा - तुमचे स्वातंत्र्य स्वीकारा.
 
 **[Organic Maps वापरुन बघा!](#install)**
 
 ## ह्या निःशुल्क ऍपचा खर्च कोण काढत आहे?
 
-हे ऍप सर्वांसाठी विमानुल्य आहे. आम्हाला पाठिंबा द्यायला कृपया [देणगी
-द्या](@/donate/index.mr.md)!
+हे ऍप सर्वांसाठी विमानुल्य आहे. आम्हाला पाठिंबा द्यायला कृपया [देणगी द्या](@/donate/index.mr.md)!
 
-To donate conveniently, click on your preferred payment method icon below:
+सोयीस्करपणे देणगी देण्यासाठी, खाली दिलेल्या तुमच्या पसंतीच्या पेमेंट पद्धतीच्या चिन्हावर क्लिक करा:
 
 {{ donate_buttons() }}
 
@@ -145,30 +139,19 @@ To donate conveniently, click on your preferred payment method icon below:
 
 ## समुदाय
 
-Apache License 2.0 परवान्य अंतर्गत Organic Maps हे एक [मुक्त स्रोत
-सॉफ्टवेअर][github] आहे.
+Apache License 2.0 परवान्य अंतर्गत Organic Maps हे एक [मुक्त स्रोत सॉफ्टवेअर][github] आहे.
 
-- आमच्या बीटा कार्यक्रमात सहभागी होऊन, ऍप वैशिष्ट्ये सुचवा, व आम्हाला
-  बग(त्रुटी) कळवा:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+- आमच्या बीटा कार्यक्रमात सहभागी होऊन, ऍप वैशिष्ट्ये सुचवा, व आम्हाला बग(त्रुटी) कळवा:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - बग किंवा त्रुटी आम्हाला [इशू ट्रॅकर][issues] or [ईमेल द्वारे][email] कळवा.
 - नवीन कल्पना किंवा वैशिष्ट्ये सुचवण्यासाठी [चर्चा करा][ideas].
-- नविनतम माहितीसाठी आमच्या [टेलिग्राम चॅनल][telegram] किंवा [मैट्रिक्स
-  स्पेस][matrix] चे सदस्य व्हा.
-- इतर वापरकर्त्यांसोबत चर्चा करायला आमच्या [टेलिग्राम गटात][telegram_chat]
-  सहभागी व्हा.
+- नविनतम माहितीसाठी आमच्या [टेलिग्राम चॅनल][telegram] किंवा [मैट्रिक्स स्पेस][matrix] चे सदस्य व्हा.
+- इतर वापरकर्त्यांसोबत चर्चा करायला आमच्या [टेलिग्राम गटात][telegram_chat] सहभागी व्हा.
 - आमच्या [GitHub पृष्ठावर][github] भेट द्या.
-- [FOSStodon][fosstodon], [Facebook][facebook],
-  [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit],
-  [LinkedIn][LinkedIn], [TikTok][tiktok] वरुन आमची माहिती मिळवा.
-- स्थानिक समुदायांमध्ये सामील व्हा (किंवा तयार करा आणि आम्हाला कळवा): [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] वरुन आमची माहिती मिळवा.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

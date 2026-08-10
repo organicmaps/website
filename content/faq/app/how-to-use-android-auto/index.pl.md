@@ -1,7 +1,7 @@
 ---
 title: Jak korzystać z Androida Auto?
 slug: jak-korzystać-z-androida-auto
-description: Minimalne wymagania do uruchomienia organicznych map w Android Auto
+description: Minimalne wymagania do uruchomienia Organic Maps w Android Auto
 updated: '2024-06-20'
 taxonomies:
   faq: ["aplikacja"]
@@ -11,6 +11,6 @@ aliases:
   - /pl/faq/app/how-to-use-android-auto/
 ---
 
-Aby używać OM z Android Auto, potrzebujesz systemu Android w wersji co najmniej 8.0 (Oreo) lub nowszej. Co więcej, musisz pobrać mapy organiczne ze sklepu Google Play, ponieważ Google zezwala na korzystanie z Android Auto tylko z aplikacjami zatwierdzonymi przez Google.
+Aby używać OM z Android Auto, potrzebujesz systemu Android w wersji co najmniej 8.0 (Oreo) lub nowszej. Co więcej, musisz pobrać Organic Maps ze sklepu Google Play, ponieważ Google zezwala na korzystanie z Android Auto tylko z aplikacjami zatwierdzonymi przez Google.
 
 Więcej informacji znajdziesz na [stronie Android Auto](https://www.android.com/auto/).

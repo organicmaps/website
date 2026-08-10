@@ -54,7 +54,6 @@ Organic Maps app is free from trackers and other bad stuff:
 - No ads
 - No tracking
 - No data collection
-- No phoning home
 - No annoying registration
 - No mandatory tutorials
 - No noisy email spam
@@ -142,17 +141,16 @@ Beloved institutional sponsors below have provided targeted grants to cover some
 Organic Maps is an [open-source software][github] licensed under the Apache License 2.0.
 
 - Please join our beta program, suggest your features, and report bugs:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
 - Report bugs or issues to [the issue tracker][issues] or [email us][email].
 - [Discuss][ideas] ideas or propose feature requests.
 - Subscribe to our [Telegram Channel][telegram] or to the [matrix space][matrix] for updates.
 - Join our [Telegram Group][telegram_chat] to discuss with other users.
 - Visit our [GitHub page][github].
 - Follow our updates in [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Join local communities: [Hungarian Matrix room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), [German-][telegram_chat_de], [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr], [Italian-][telegram_chat_it], [Spanish-][telegram_chat_es], [Russian-][telegram_chat_ru], [Ukrainian-][telegram_chat_uk], [Arabic-][telegram_chat_ar], [Persian-][telegram_chat_fa], [Turkish-][telegram_chat_tr]speaking Telegram chats.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

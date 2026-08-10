@@ -1,8 +1,8 @@
 ---
 title: Jak udostępniać (eksportować) zakładki?
 slug: jak-udostępniać-eksportować-zakładki
-description: ""
-updated: "2024-06-12"
+description: "Przewodnik krok po kroku, jak wyeksportować zakładki i ślady z Organic Maps do innych aplikacji oraz udostępnić je znajomym"
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["zakładki-i-trasy"]
@@ -13,4 +13,6 @@ aliases:
   - /pl/faq/bookmarks/how-to-export/
 ---
 
-Wybierz zakładkę na mapie, stuknij ją, a następnie stuknij przycisk „Udostępnij” na stronie miejsca. Aby jednocześnie udostępnić wszystkie zakładki na liście, stuknij symbol podwójnej gwiazdy na ekranie głównym, stuknij ikona z trzema kropkami przed nazwą listy z zakładkami i dotknij Eksportuj plik w wyskakującym okienku okno.
+Dotknij zakładki lub śladu na mapie albo na liście, a następnie dotknij przycisku „Udostępnij” na stronie miejsca (dolny panel).
+
+Aby udostępnić wszystkie zakładki i ślady z listy na ekranie „Zakładki i ślady”, dotknij ikony z trzema kropkami po prawej stronie nazwy listy i wybierz „Eksportuj KMZ”, „Eksportuj GPX” lub „Eksportuj GeoJSON”.

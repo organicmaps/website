@@ -32,7 +32,7 @@ taxonomies:
 - 修复了导航模式下白底白字的状态栏（Kiryl Kaveryn）
 - 增加了开始导航按钮的大小（Kiryl Kaveryn）
 - 删除了在 iPad 上规划路线时的空白空间（Kiryl Kaveryn）
-- Organic Maps 可能会要求您在 App Store 中对其进行评分。您的好评会激励我们的团队！
+- Organic Maps 可能会要求你在 App Store 中对其进行评分。你的好评会激励我们的团队！
 
 ## Android
 
@@ -43,6 +43,7 @@ taxonomies:
 - 启动时更好的启动画面（Andrei Shkrob）
 
 ### Android Auto
+
 - 取消后恢复路线（Andrei Shkrob）
 - 修复了某些设备上的崩溃问题（Andrei Shkrob）
 
@@ -53,7 +54,7 @@ taxonomies:
 
 ## 脚注
 
-Organic Maps 的实现要感谢 ❤️ 我们的贡献者、[您的捐款](@/donate/index.zh-Hans.md)和[您的支持](@/contribute/index.zh-Hans.md)。
+Organic Maps 的实现要感谢 ❤️ 我们的贡献者、[你的捐款](@/donate/index.zh-Hans.md)和[你的支持](@/contribute/index.zh-Hans.md)。
 
 从 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [F-Droid][fdroid] 获取最新的 Organic Maps 版本。
 

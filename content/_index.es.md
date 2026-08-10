@@ -1,19 +1,19 @@
 ---
-description: 'Mapas rápidos y detallados sin conexión para viajantes, turistas, conductores, senderistas y ciclistas creados por los fundadores de MapsWithMe (Maps.Me).'
+description: "Mapas rápidos y detallados sin conexión para viajantes, turistas, conductores, senderistas y ciclistas creados por los fundadores de MapsWithMe (Maps.Me)."
 extra:
   menu_title: Inicio
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: senderismo, ciclismo y GPS sin conexión'
+title: "Organic Maps: senderismo, ciclismo y GPS sin conexión"
 ---
 
 **Organic Maps** es una aplicación GPS y de mapas sin conexión centrada en la privacidad para practicar senderismo, ciclismo y conducción. Totalmente gratuita. Sin publicidad. Sin rastreadores. Desarrollada con amor por la comunidad de código abierto y las mismas personas que crearon la aplicación [**MapsWithMe**][mapswithme]/**Maps.Me**. Basada en datos de [OpenStreetMap][openstreetmap].
 
-**Organic Maps** es una de las pocas aplicaciones que hoy en día permiten usar todas las funcionalidades sin una conexión a Internet activa. Instale Organic Maps, descargue mapas, deseche su tarjeta SIM (por cierto, su operadora le rastrea constantemente) y emprenda un viaje semanal con una única carga sin ningún byte enviado a la red.
+**Organic Maps** es una de las pocas aplicaciones que hoy en día permiten usar todas las funcionalidades sin una conexión a Internet activa. Instala Organic Maps, descarga mapas, desecha tu tarjeta SIM (por cierto, tu operadora te rastrea constantemente) y emprende un viaje semanal con una única carga sin ningún byte enviado a la red.
 
 > En diciembre de 2025, Organic Maps [alcanzó 6M de instalaciones](@/news/2025-12-31/500/index.es.md). [Ayúdanos](@/donate/index.es.md) a crecer!
 
-### Descargue e instale Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
+### Descarga e instala Organic Maps desde el [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,20 +29,16 @@ oscuro') }}
 
 ## Funcionalidades
 
-Organic Maps es la aplicación definitiva para viajantes, turistas,
-senderistas y ciclistas:
+Organic Maps es la aplicación definitiva para viajantes, turistas, senderistas y ciclistas:
 
-- Mapas detallados sin conexión con lugares que no existen en otros mapas,
-  gracias a [OpenStreetMap][openstreetmap]
+- Mapas detallados sin conexión con lugares que no existen en otros mapas, gracias a [OpenStreetMap][openstreetmap]
 - Rutas ciclistas, pistas de senderismo y caminos
 - Líneas de contorno, perfiles de elevación, picos y pendientes
-- Navegación paso a paso con guía por voz a pie, en bici y en coche, Android
-  Auto
+- Navegación paso a paso con guía por voz a pie, en bici y en coche, Android Auto
 - Mapas de metro
 - Búsqueda rápida en el mapa y sin conexión
-- Los marcadores se exportan e importan en los formatos KML/KMZ, importan, GeoJSON
-  GPX, GeoJSON
-- Modo oscuro para proteger sus ojos
+- Los marcadores se exportan e importan en los formatos KML/KMZ, importan, GeoJSON GPX, GeoJSON
+- Modo oscuro para proteger tus ojos
 - Los países y regiones no ocupan demasiado espacio
 - Artículos de Wikipedia para lugares populares
 - Libre y de código abierto
@@ -51,7 +47,7 @@ senderistas y ciclistas:
 
 Organic Maps es pura y orgánica, hecha con amor:
 
-- Respeta su privacidad
+- Respeta tu privacidad
 - Ahorra batería
 - Sin cargos de uso de datos inesperados
 
@@ -60,7 +56,6 @@ La aplicación Organic Maps está libre de rastreadores y otras cosas malas:
 - Sin anuncios
 - Sin rastreadores
 - Sin recolección de datos
-- No se conecta en secreto a ningún servidor
 - Sin registros molestos
 - Sin tutoriales obligatorios
 - Sin spam por correo electrónico
@@ -72,39 +67,33 @@ La aplicación está verificada por el [Proyecto Exodus Privacidad][exodus]:
 
 {{ exodus_screenshot() }}
 
-La aplicación iOS es verificada por [TrackerControl para
-iOS][trackercontrol]:
+La aplicación iOS es verificada por [TrackerControl para iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps no pide permisos excesivos para espiarle:
+Organic Maps no pide permisos excesivos para espiarte:
 
 {{ privacy_screenshots() }}
 
 En Organic Maps, creemos que la privacidad es un derecho humano fundamental:
 
 - Organic Maps es un proyecto independiente, comunitario y abierto
-- Protegemos su privacidad de los ojos espías de las grandes tecnológicas
-- Manténgase a salvo sin importar dónde esté
+- Protegemos tu privacidad de los ojos espías de las grandes tecnológicas
+- Mantente a salvo sin importar dónde estés
 
-Rechace la vigilancia. Asuma su libertad.
+Rechaza la vigilancia. Asume tu libertad.
 
-**[¡Pruebe Organic Maps!](#install)**
+**[¡Prueba Organic Maps!](#install)**
 
 ## ¿Quién paga por la aplicación gratuita?
 
-La aplicación es gratis para todo el mundo. ¡[Haga una
-donación](@/donate/index.es.md) para apoyarnos!
+La aplicación es gratis para todo el mundo. ¡[Haz una donación](@/donate/index.es.md) para apoyarnos!
 
-Para donar inmediatamente, haz clic en el icono del método de pago que
-prefieras:
+Para donar inmediatamente, haz clic en el icono del método de pago que prefieras:
 
 {{ donate_buttons() }}
 
-A continuación se indican los apreciados patrocinadores institucionales que
-han proporcionado subvenciones específicas para cubrir algunos costes de
-infraestructura y financiar el desarrollo de nuevas características
-seleccionadas:
+A continuación se indican los apreciados patrocinadores institucionales que han proporcionado subvenciones específicas para cubrir algunos costes de infraestructura y financiar el desarrollo de nuevas características seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -151,31 +140,19 @@ seleccionadas:
 
 ## Comunidad
 
-Organic Maps es un [programa libre][github] disponible en virtud de la
-Licencia Apache 2.0.
+Organic Maps es un [programa libre][github] disponible en virtud de la Licencia Apache 2.0.
 
-- Incorpórese a nuestro programa beta para sugerir funcionalidades e
-  informar de defectos:
-  * [Beta de iOS (TestFlight)][testflight]
-  * [Beta de Android (Firebase)][firebase]
-  * [Beta de PC Linux (Flatpak)][flatpak]
-  * [Beta de PC Linux (paquetes)][repology]
-- Informe de defectos o problemas al [rastreador de errores][issues] o
-  [mándenos un correo electrónico][email].
-- [Debata][ideas] ideas o haga peticiones de funcionalidades.
-- Suscríbase a nuestro [canal de Telegram][telegram] o al [espacio de
-  Matrix][matrix] para recibir noticias.
-- Únase a nuestro [grupo de Telegram][telegram_chat_es] para hablar con otros
-  usuarios.
-- Visite nuestra [página de GitHub][github].
-- Siga nuestras novedades en [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Únase (o cree una y háganoslo saber) a las comunidades locales: [Sala
-  Matrix de
-  húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats
-  de Telegram en [inglés][telegram_chat_en], [chino][telegram_chat_zh], [francés][telegram_chat_fr],
-  [ruso][telegram_chat_ru] o [turco][telegram_chat_tr].
+- Incorpórate a nuestro programa beta para sugerir funcionalidades e informar de defectos:
+  - [Beta de iOS (TestFlight)][testflight]
+  - [Beta de Android (Firebase)][firebase]
+  - [Beta de PC Linux (Flatpak)][flatpak]
+  - [Beta de PC Linux (paquetes)][repology]
+- Informa de defectos o problemas al [rastreador de errores][issues] o [mándanos un correo electrónico][email].
+- [Debate][ideas] ideas o haz peticiones de funcionalidades.
+- Suscríbete a nuestro [canal de Telegram][telegram] o al [espacio de Matrix][matrix] para recibir noticias.
+- Únete a nuestro [grupo de Telegram en español][telegram_chat_es] o al [grupo en inglés][telegram_chat] para hablar con otros usuarios.
+- Visita nuestra [página de GitHub][github].
+- Sigue nuestras novedades en [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)
 

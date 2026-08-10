@@ -1,7 +1,7 @@
 ---
 title: Hogyan kell használni az Android Auto-t?
 slug: hogyan-kell-használni-az-android-auto-t
-description: Minimális követelmények az Organikus térképek Android Auto rendszerrel való futtatásához
+description: Minimális követelmények az Organic Maps Android Auto rendszerrel való futtatásához
 updated: '2024-06-20'
 taxonomies:
   faq:

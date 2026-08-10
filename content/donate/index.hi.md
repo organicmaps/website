@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps ऐप _सभी के लिए मुफ्त_ है, आपके **[दान][stripe]** के कारण **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]**:
+Organic Maps ऐप _सभी के लिए मुफ्त_ है, आपके **[दान][stripe]** के कारण **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
 
 - कोई विज्ञापन नहीं
 - कोई ट्रैकर नहीं
@@ -45,7 +45,7 @@ Organic Maps ऐप _सभी के लिए मुफ्त_ है, आप�
    - पहाड़ी छायांकन और 3D स्थलाकृति
    - अधिक उन्नत OpenStreetMap संपादक
    - बेहतर ऑफ़लाइन पता खोज, रूटिंग और नेविगेशन
-   - ... और [कई अन्य][github issues] सुविधाएँ जो आप चाहते हैं और पसंद करते हैं
+   - … और [कई अन्य][github issues] सुविधाएँ जो आप चाहते हैं और पसंद करते हैं
 
 ## दान कैसे करें?
 

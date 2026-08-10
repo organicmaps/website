@@ -30,7 +30,7 @@ Android:
 - Verkeerde gebruikersinterface-indeling op sommige apparaten opgelost (_Sergiy Kozyr_)
 - OSM inloggegevens en wachtwoord tonen als browserlogin mislukt/niet beschikbaar is (_Sergiy Kozyr_)
 - Kruisdraadsprong opgelost bij het toevoegen van objecten aan OpenStreetMap (_@hemanggs_)
-- "Mislukte download opnieuw proberen" knop opgelost (_Kavi Khalique_)
+- “Mislukte download opnieuw proberen” knop opgelost (_Kavi Khalique_)
 - Splashscherm dat overlapt met systeemknoppen opgelost (_Vraj Shah_)
 - Enkele crashes opgelost (_Devarsh Vasani_)
 - EACCESS PermissionDenied fout bij het importeren van KML of GPX op Android 5 opgelost (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS wijzigingen, alle credits naar _Kiryl Kaveryn_:
 - Nu kun je de opgenomen route direct na het opslaan bewerken of verwijderen
 - Uitgebreide aanraakgebied voor knoppen
 - Springende OSM notities bij het typen van tekst opgelost
-- "Plaats toevoegen" knop tonen voor bedrijven
+- “Plaats toevoegen” knop tonen voor bedrijven
 
 P.S. Als je graag gedetailleerde release notes leest, laat het ons weten op onze [sociale netwerken](/#community)
 

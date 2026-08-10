@@ -1,8 +1,8 @@
 ---
-title: Comment importer des signets?
+title: Comment importer des signets et des traces au format KML, KMZ, KMB, GPX ou GeoJSON (JSON) ?
 slug: comment-importer-des-signets
-description: ""
-updated: "2024-06-20"
+description: Instructions étape par étape pour importer dans Organic Maps des signets et des traces partagés avec toi sous forme de fichiers KML, KMZ, KMB, GPX ou GeoJSON (JSON)
+updated: "2026-01-03"
 
 taxonomies:
   faq: ["signets-et-parcours"]
@@ -13,12 +13,15 @@ aliases:
   - /fr/faq/bookmarks/how-to-import/
 ---
 
-Vous pouvez importer des signets envoyés depuis Organic Maps ou des applications tierces exportés au format KML:
+Tu peux importer des signets et/ou des traces envoyés depuis Organic Maps ou des applications tierces, à condition qu'elles exportent les signets aux formats KML, KMZ, KMB, GPX ou GeoJSON (JSON).
 
-1. Vous pouvez importer des favoris à partir de dossiers et d'applications (y compris Maps.Me). Appuyez sur un bouton étoile pour ouvrir les favoris, appuyez sur "Importer des signets et des parcours" et sélectionnez le lecteur ou le dossier contenant les fichiers KML, KMZ, KMB, GPX, GeoJSON (JSON).
+Pour importer un seul fichier :
 
-2. Ouvrez un fichier KML, KMZ, KMB, GPX, GeoJSON (JSON) partagé avec des signets envoyés par e-mail, messagerie instantanée ou cloud stockage, par exemple, iCloud ou Google Drive.
+1. Trouve le fichier KML, KMZ, KMB, GPX ou GeoJSON (JSON) que tu as téléchargé ou qui t'a été envoyé par e-mail, messagerie instantanée ou via un service de stockage en ligne, comme iCloud ou Google Drive.
+2. Appuie une fois ou appuie longuement sur le fichier KML, KMZ, KMB, GPX ou GeoJSON (JSON), puis choisis « Ouvrir avec Organic Maps » (Android) ou « Importer avec Organic Maps » (une icône représentant un carré et une flèche sur iOS) dans la fenêtre contextuelle.
+3. Organic Maps devrait se lancer et le message « Signets chargés avec succès ! » devrait s'afficher. Tu peux voir les signets et/ou les traces importés sur la carte et sur l'écran « Signets et traces ».
 
-3. Appuyez une fois ou appuyez et maintenez le fichier KML, KMZ, KMB, GPX, GeoJSON (JSON) avec des signets et choisissez Ouvrir avec Organic Maps (Android) ou "Importer avec Organic Maps" (iOS) dans la fenêtre contextuelle.
+Il est aussi possible d'importer des signets et des traces par lot :
 
-4. Il sera ouvert avec Organic Maps et vous verrez 'Signets chargés avec succès!'. Vous les trouverez sur la carte ou dans l'écran du menu Signets.
+1. Ouvre Organic Maps et appuie sur le bouton « étoiles avec des points » pour ouvrir les signets et les traces. Appuie sur le bouton « Importer les signets et les traces ».
+2. Sélectionne un dossier contenant des fichiers KML, KMZ, KMB, GPX ou GeoJSON (JSON). Sur Android, Organic Maps l'analysera, y compris les sous-dossiers, et importera tous les fichiers pris en charge contenant des signets et des traces. Tu peux choisir le dossier racine pour effectuer une recherche dans tout l'espace de stockage.

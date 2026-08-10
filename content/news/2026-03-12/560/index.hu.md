@@ -6,13 +6,14 @@ taxonomies:
   news: ["releases"]
 ---
 
-A márciusi Organic Maps frissítés több időt vett igénybe a javítások és a Google Play felülvizsgálata miatt. Az [Accrescent][accrescent] frissítés még mindig nem készült el az Accrescent alkalmazásbolt problémái miatt. A frissítést a <https://get.omaps.org> oldalon vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalakon szerezze be.
+A márciusi Organic Maps frissítés több időt vett igénybe a javítások és a Google Play felülvizsgálata miatt. Az [Accrescent][accrescent] frissítés még mindig nem készült el az Accrescent alkalmazásbolt problémái miatt. A frissítést a <https://get.omaps.org> oldalon vagy az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] oldalakon szerezd be.
 
-P.S. Lépjen kapcsolatba velünk e-mailben az <sdk@organicmaps.app> címen, ha érdekli az iOS/Android/Linux/MacOS/Windows SDK offline térképekkel, amelyeket újra felhasználhat a projektjeiben.
+P.S. Lépj kapcsolatba velünk e-mailben az <sdk@organicmaps.app> címen, ha érdekel az iOS/Android/Linux/MacOS/Windows SDK offline térképekkel, amelyeket újra felhasználhatsz a projektjeidben.
 
 P.P.S. Tudtad, hogy az API-t már használhatod az alkalmazásodban, ha az Organic Maps alkalmazás is telepítve van? Nézd meg itt: <https://omaps.app/api>
 
 ### Kiadási megjegyzések
+
 * OSM térképadatok március 10-től
 * Wikipedia adatok március 1-től
 * A kínai tartományok részletesebb magassági elszigetelései (ZiyiGaoCN)
@@ -25,15 +26,18 @@ P.P.S. Tudtad, hogy az API-t már használhatod az alkalmazásodban, ha az Organ
 * Több összeomlás javítása, stabilitás és teljesítmény javítása (Alexander Borsuk, Viktor Govako)
 
 ### iOS
+
 * Hozzáadva a legutóbb használt kategóriák előzményeit a szerkesztőben (Rahul Kolluru)
 * Javítottuk az útvonaltervező képernyőn a felfelé húzás gesztusát (Kiryl Kaveryn)
 * Javítottuk a vonalzó pozícióját CarPlay esetén (Kiryl Kaveryn)
 
 ### Android
+
 * Javítottuk az üzletek nyitvatartási idejének megjelenítését (Anton P)
 * Szürke ikon hozzáadása a rejtett listákhoz (Alexander Borsuk)
 
 ### Fordítások
+
 * Javított országleírások (alnzrv)
 * Eugen Dedu által készített román fordítási javítások alkalmazása (Alexander Borsuk)
 * Frissített országnevek (Viktor Govako)

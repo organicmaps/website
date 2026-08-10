@@ -1,5 +1,5 @@
 ---
-description: "Seguiu les novetats de l'Organic Maps, notícies i actualitzacions del nostre equip"
+description: "Segueix les novetats de l'Organic Maps, notícies i actualitzacions del nostre equip"
 extra:
   menu_title: Notícies
 page_template: news/page.html

@@ -5,7 +5,7 @@ taxonomies:
   news: ["releases"]
 ---
 
-Zainstaluj sierpniową wersję Organic Maps, pobierz najnowsze mapy i odkryj popularne szlaki piesze i rowerowe na całym świecie! Naciśnij przycisk "Warstwy" w lewym górnym rogu, aby zobaczyć kolorowe trasy rowerowe i MTB, a także oficjalne szlaki piesze i spacerowe. Nie widzisz niczego w pobliżu? To czas, aby dodać brakujące informacje do OpenStreetMap.org, ponieważ wszystkie dane mapowe w Organic Maps pochodzą z tego otwartego, bezpłatnego i tworzonego przez społeczność projektu.
+Zainstaluj sierpniową wersję Organic Maps, pobierz najnowsze mapy i odkryj popularne szlaki piesze i rowerowe na całym świecie! Naciśnij przycisk „Warstwy“ w lewym górnym rogu, aby zobaczyć kolorowe trasy rowerowe i MTB, a także oficjalne szlaki piesze i spacerowe. Nie widzisz niczego w pobliżu? To czas, aby dodać brakujące informacje do OpenStreetMap.org, ponieważ wszystkie dane mapowe w Organic Maps pochodzą z tego otwartego, bezpłatnego i tworzonego przez społeczność projektu.
 
 Czy wiesz, że każdy nagrany lub zaimportowany ślad GPX/KML na mapie może być wybrany? Ślady z danymi wysokości wyświetlą swój wykres wysokości.
 
@@ -13,7 +13,7 @@ Aby zobaczyć nazwy zakładek na mapie, włącz tę nową funkcję w ustawieniac
 
 Dzięki naszym współtwórcom ❤️ i Twoim [darowiznom](@/donate/index.pl.md), w tej aktualizacji jest znacznie więcej.
 
-P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworzenia najlepszych map – razem.
+P.S. …i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworzenia najlepszych map – razem.
 
 ### Szczegółowe informacje o wydaniu
 
@@ -24,6 +24,7 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Drogi rolnicze i leśne są teraz wykluczone z wyznaczania tras (Viktor Govako)
 
 #### iOS
+
 - Rozwiązano kilka awarii i poprawiono stabilność synchronizacji iCloud (Kiryl Kaveryn)
 - Wprowadzono wielowierszowe tytuły na listach zakładek (David Martinez)
 - Naprawiono problem z powiększeniem podczas odznaczania śladu (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Zastąpiono brakujące tłumaczenia alternatywami w języku angielskim (Viktor Govako)
 
 #### Android
+
 - Dodano wykres wysokości śladu i wybór śladu na mapie (Kavi Khalique)
 - Możliwość pozostawienia notatki w OpenStreetMap, jeśli nowo dodany punkt zainteresowania (POI) nie jest jeszcze obsługiwany w Organic Maps (hemanggs)
 - Usunięto obsługę OpenGL ES 2.0 na rzecz OpenGL ES 3.0 (renderexpert)
 - Pokazanie ikon zakładek w selektorze kolorów (Andrei Shkrob)
 
 #### Ulepszenia stylów i ikon
+
 - Ikona widelca i noża dla stref gastronomicznych (David Martinez)
 - Oznaczenie terenów podmokłych poziomym kreskowaniem (Viktor Govako)
 - Ikony dla fast foodów i rowerów w wynikach wyszukiwania i zakładkach (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...i dużo więcej nadchodzi! Twoje wsparcie pomaga nam i motywuje do tworz
 - Poprawiono ustawienia priorytetów dla placówek dyplomatycznych (Viktor Govako)
 
 #### Różne ulepszenia
-- Wpisanie "cop" w wyszukiwarce znajduje posterunki policji, podczas gdy "film" lub "movie theater" lokalizuje kina (theadventurer62)
+
+- Wpisanie „cop“ w wyszukiwarce znajduje posterunki policji, podczas gdy „film“ lub „movie theater“ lokalizuje kina (theadventurer62)
 - Otwieranie w innej aplikacji teraz wyświetla wybrany punkt w Mapach Google (Alexander Borsuk)
 - Hiszpańskie tłumaczenie dla większej liczby kategorii wyszukiwania (David Martinez)
 - Zaktualizowano różne tłumaczenia (współtwórcy Weblate)

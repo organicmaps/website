@@ -9,37 +9,41 @@ taxonomies:
 Freitag! Es ist Zeit, das neue Organic Maps Update von <https://omaps.app/get> oder aus dem [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid] zu installieren.
 
 ## Versionshinweise
-- Wikipedia-Artikel für Orte sind jetzt auf Türkisch, Japanisch und Chinesisch verfügbar. Geben Sie `?wiki` in die Suche ein, um Orte mit Artikeln auf der Karte zu finden. _(Alexander Borsuk)_
+
+- Wikipedia-Artikel für Orte sind jetzt auf Türkisch, Japanisch und Chinesisch verfügbar. Gib `?wiki` in die Suche ein, um Orte mit Artikeln auf der Karte zu finden. _(Alexander Borsuk)_
 - Eine Einstellung hinzugefügt, die heruntergeladene Regionen auf der Karte visuell in Lila hervorhebt. _(Viktor Govako, Kiryl Kaveryn, Alexander Borsuk)_
 - OpenStreetMap-Daten aktualisiert auf den Stand vom 23. November 2025. _(Viktor Govako)_
 
 ### iOS
-- NEU! Sie können einen Lesezeichen- oder Track-Namen direkt auf der Ortsinformationsseite bearbeiten, indem Sie auf den Namen tippen. _(Kiryl Kaveryn)_
+
+- NEU! Du kannst einen Lesezeichen- oder Track-Namen direkt auf der Ortsinformationsseite bearbeiten, indem du auf den Namen tippst. _(Kiryl Kaveryn)_
 - Unterstützung für iOS 26 und macOS 26 „Liquid Glass" hinzugefügt. _(Kiryl Kaveryn)_
-- Tippen Sie lange auf den Namen oder die Adresse eines ausgewählten Ortes oder Lesezeichens, um es in die Zwischenablage zu kopieren. _(Kiryl Kaveryn)_
-- Tippen Sie auf den Listennamen auf der Ortsinformationsseite, um eine neue Liste für ein Lesezeichen oder einen Track auszuwählen, und verwenden Sie die neue Suche, um die gewünschte Liste schnell zu finden. _(Kiryl Kaveryn)_
+- Tippe lange auf den Namen oder die Adresse eines ausgewählten Ortes oder Lesezeichens, um es in die Zwischenablage zu kopieren. _(Kiryl Kaveryn)_
+- Tippe auf den Listennamen auf der Ortsinformationsseite, um eine neue Liste für ein Lesezeichen oder einen Track auszuwählen, und verwende die neue Suche, um die gewünschte Liste schnell zu finden. _(Kiryl Kaveryn)_
 - Das Kartenlayout während der Navigation auf dem iPad wurde korrigiert, damit die Route klar sichtbar bleibt. _(Kiryl Kaveryn)_
 - Animationen für Seitentasten korrigiert und die Farbe der Schaltfläche „Karten herunterladen" im dunklen Thema korrigiert. _(Kiryl Kaveryn)_
 
 ### Android
+
 - Scrollleisten zum Suchbildschirm und zum Bildschirm „Lesezeichen und Tracks" hinzugefügt. _(shantanu1k)_
 - Verbesserte Handhabung der Audiowiedergabe und Unterbrechungen. _(Andrei Shkrob)_
 - Abstürze auf dem Editor-Profilbildschirm behoben. _(Alexander Borsuk)_
 - Abstürze beim Herunterladen von Karten behoben. _(Viktor Govako)_
 
 ### Weitere Verbesserungen
+
 - Benutzerdefinierte Emojis auf der Ortsinformationsseite hinzugefügt. _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - Straßenhelligkeit und Kontrast im dunklen Fahrzeugmodus erhöht. _(Manish Rathaur)_
 - Fahrradrouting überspringt jetzt Einbahnstraßen in Wohngebieten in Österreich. _(Viktor Govako)_
 - Verbesserter GeoJSON-Import, einschließlich `Saved Places.json`-Lesezeichen aus [Google Takeout](https://takeout.google.com/) _(Sergiy Kozyr)_
 - `.json`-Dateien können jetzt auch als `.geojson`-Dateien importiert werden. _(Alexander Borsuk)_
-- Wenn Sie einen Track in eine Liste verschieben, wird diese Liste zum Standard für neue Lesezeichen und Tracks. _(Kiryl Kaveryn)_
+- Wenn du einen Track in eine Liste verschiebst, wird diese Liste zum Standard für neue Lesezeichen und Tracks. _(Kiryl Kaveryn)_
 - Übersetzungen für mehrere Sprachen aktualisiert, einschließlich einer Korrektur für Hebräisch. _(Alexander Borsuk, Michael Zeevi)_
 - Vereinfachte Kreisverkehrsanweisungen. _(Viktor Govako)_
 
 ### Frühere Versionshinweise
 
-Lesen Sie die [vorherigen Versionshinweise](@/news/2025-11-11/470/index.de.md), falls Sie sie verpasst haben.
+Lies die [vorherigen Versionshinweise](@/news/2025-11-11/470/index.de.md), falls du sie verpasst hast.
 
 ### Beta-Testprogramm
 

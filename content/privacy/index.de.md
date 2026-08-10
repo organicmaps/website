@@ -8,14 +8,12 @@ weight: 900
 
 Organic Maps respektiert deine Privatsphäre und spürt dich nicht auf.
 
-Im Gegensatz zu den meisten anderen Anwendungen gibt es in Organic Maps kein
-Tracking, keine Werbung, keine Spyware, keine Daten- und Statistiksammlung.
+Im Gegensatz zu den meisten anderen Apps gibt es bei Organic Maps kein Tracking, keine Werbung und keine Spyware: Es werden keinerlei Standortdaten, statistische Daten oder personenbezogene Daten von deinem Gerät erfasst.
 
 Lehne Überwachung ab - lebe deine Freiheit.
 
 Halte dich von den neugierigen Augen der großen Technologiekonzernen fern!
 
-Wenn du Fragen oder Anregungen hast, kontaktiere uns bitte unter
-[legal@organicmaps.app](mailto:legal@organicmaps.app).
+Wenn du Fragen oder Anregungen hast, kontaktiere uns bitte unter [legal@organicmaps.app](mailto:legal@organicmaps.app).
 
 <sub>Diese Richtlinie ist ab dem 24.04.2021 gültig.</sub>

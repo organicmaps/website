@@ -1,19 +1,19 @@
 ---
-description: 'De mapas detalhadas, rapidas e sensa connexion per lei viatgaires, lei toristas, leis automobilistas, leis caminaires e lei ciclistas creadas per lei fondators de l’aplicacion MapsWithMe (Maps.Me).'
+description: "De mapas detalhadas, rapidas e sensa connexion per lei viatgaires, lei toristas, leis automobilistas, leis caminaires e lei ciclistas creadas per lei fondators de l’aplicacion MapsWithMe (Maps.Me)."
 extra:
   menu_title: Acuèlh
 page_template: index.html
 sort_by: weight
-title: 'De Mapas Organicas : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha'
+title: "Organic Maps : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha"
 ---
 
 **Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
 
-N’i a gaire a l’ora d’ara d’aplicacions coma **Mapas Organicas** que foncionan entierament sensa la connexion a Internet activa. Installatz Mapas Organicas, teledescargatz de mapas, escampatz vòstra carteta SIM (que, o sabètz, vòstre operator vos es a l’après de lònga) e partètz per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
+N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installa Organic Maps, teledescarga de mapas, escampa ta carteta SIM (que, o sabes, ton operator t’es a l’après de lònga) e parte per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajudatz-nos](@/donate/index.oc.md) a créisser!
+> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajuda-nos](@/donate/index.oc.md) a créisser!
 
-### Teledescargatz e installatz Mapas Organicas de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
+### Teledescarga e installa Organic Maps de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,42 +29,37 @@ fosc') }}
 
 ## Foncionalitats
 
-Mapas Organicas es l’aplicacion ultima per lei viatjaires, lei caminaires e
-lei ciclistas :
+Organic Maps es l’aplicacion ultima per lei viatjaires, lei caminaires e lei ciclistas :
 
-- De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis
-  autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
+- De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
 - Percors ciclistes, draias d’escorregudas e caminaments
 - Linhas de contorn, perfius d’elevacion, cimas e pendents
-- Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de
-  votz, CarPlay/Android Auto
+- Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de votz, CarPlay/Android Auto
 - Mapas de mètro
 - Recèrcas rapidas sus la mapa e fòra de linha
 - Marcas de libre e traças en formats KML, KMZ, GPX, GeoJSON
-- Mòde fosc per protegir vòstreis uelhs
+- Mòde fosc per protegir teis uelhs
 - Lei país e lei regions utilizan gaire d'espaci
 - Articles de Wikipèdia per luòcs populars
 - De còde liure e dobèrt
 
 ## Perque chausir Organic?
 
-Mapas Organicas es pur e organic e mai o fasèm amb amor:
+Organic Maps es pur e organic e mai o fasèm amb amor:
 
-- Respècta vòstra vida privada
+- Respècta ta vida privada
 - Esparnha la batariá
 - A pas besonh de cargar una quantitat de donadas inesperadas
 
-L'aplicacion Mapas Organicas escapa ais espiadors e autreis seguidors
-malins:
+L'aplicacion Organic Maps escapa ais espiadors e autreis seguidors malins:
 
 - Sensa anóncias
 - Conten pas d'espiadors
 - Sensa culhida de donadas
-- Se connècta pas d'escondons en ges de servidor
 - Sensa enregistraments penibles
 - Ges de tutoriaus obligatòris
 - Sensa spam per corrier electronic
-- Push notifications
+- Sensa notificacions push
 - Sensa complements complicats
 - ~~Sensa pesticides~~ Completament organic!
 
@@ -72,31 +67,29 @@ L'aplicacion es verificada per lo [Projecte Exodus Privacy][exodus]:
 
 {{ exodus_screenshot() }}
 
-The iOS application is verified by [TrackerControl for iOS][trackercontrol]:
+L'aplicacion iOS es verificada per [TrackerControl per iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Mapas Organicas demanda pas de permissions excessivas per vos espiar:
+Organic Maps demanda pas de permissions excessivas per t’espiar:
 
 {{ privacy_screenshots() }}
 
-En cò de Mapas Organicas, cresèm que la vida privada es un drech uman
-fondamentau:
+En cò d'Organic Maps, cresèm que la vida privada es un drech uman fondamentau:
 
-- Mapas Organicas es un projècte independent, comunautari e dobèrt
+- Organic Maps es un projècte independent, comunautari e dobèrt
 - Gardam la vida privada de cadun deis espiadors dei Grandei Tecnologias
-- Gardatz-vos sauves e segurs onte que vos trobètz
+- Garda-te sauve e segur onte que te tròbes
 
 Rebutar la susvelhança. Assegurar la libertat.
 
-**[¡Assaja Mapas Organicas!](#install)**
+**[¡Assaja Organic Maps!](#install)**
 
 ## Cu paga per l'aplicacion a gratis?
 
-L'aplicacion es a gratis per totei. Se volètz [donar](@/donate/index.ca.md)
-per nos ajudar!
+L'aplicacion es a gratis per totei. Se vòles [donar](@/donate/index.oc.md) per nos ajudar!
 
-To donate conveniently, click on your preferred payment method icon below:
+Per donar aisidament, clica sus l'icòna de ton metòde de pagament preferit çai-sota:
 
 {{ donate_buttons() }}
 
@@ -147,31 +140,19 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
 
 ## Comunautat
 
-Mapas Organicas es un [programa liure][github] disponible en vertut de la
-Licéncia Apatxe 2.0.
+Organic Maps es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 
-- Rejonhètz nòstre programa beta per suggerir de fonccionalitats e avertir
-  d’errors:
-  * [Beta de iOS (TestFlight)][testflight]
-  * [Beta de Android (Firebase)][firebase]
-  * [Beta de PC Linux (Flatpak)][flatpak]
-  * [Beta de PC Linux (paquets)][repology]
-- Senhalatz d'errors ò de dificultats per lo [seguidor d'errors][issues] ò
-  [mandatz-nos un corrier electronic][email].
+- Rejonh nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
+  - [Beta de iOS (TestFlight)][testflight]
+  - [Beta de Android (Firebase)][firebase]
+  - [Beta de PC Linux (Flatpak)][flatpak]
+  - [Beta de PC Linux (paquets)][repology]
+- Senhala d'errors ò de dificultats per lo [seguidor d'errors][issues] ò [manda-nos un corrier electronic][email].
 - [Debatre][ideas] d'idèas ò prepausar de foncions.
-- Marcatz-vos a nòstre [canau Telegram][telegram] ò a l’ [espaci
-  matritz][matrix] per èstre au corrent.
-- Rejonhètz nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei
-  utilizators.
-- Visitatz nòstra [pagina GitHub][github].
-- Seguissètz lei noveutats sus [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
-- Rejuntatz (o creatz e diguetz-nos-o) lei comunautats localas: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Marca-te a nòstre [canau Telegram][telegram] ò a l’ [espaci matritz][matrix] per èstre au corrent.
+- Rejonh nòstre [grop Telegram][telegram_chat] per charrar amb d’autrei utilizators.
+- Visita nòstra [pagina GitHub][github].
+- Seguís lei noveutats sus [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

@@ -6,25 +6,24 @@ extra:
   menu_title: Termes
 ---
 
-La présente application est régie par la licence Apache, version 2.0 (la "licence") ;
-vous ne pouvez utiliser cette application qu'en conformité avec la licence.
+La présente application est régie par la licence Apache, version 2.0 (la «licence») ;
+tu ne peux utiliser cette application qu'en conformité avec la licence.
 
-Vous pouvez obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Tu peux obtenir une copie de la licence à l'adresse [http://www.apache.org/licenses/LICENSE-2.0][license].
 
-Sauf si la loi applicable l'exige ou si un accord écrit est conclu, le logiciel distribué sous la
-licence est distribué "EN L'ÉTAT", SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, que ce soit en termes
-CONDITIONS DE QUELQUE NATURE QUE CE SOIT, explicites ou implicites. Voir la Licence pour les
-pour connaître les termes spécifiques régissant les permissions et les limitations de la Licence.
+Sauf si la loi applicable l'exige ou si un accord écrit le prévoit, le logiciel distribué sous la Licence est distribué « EN L'ÉTAT », SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, expresses ou implicites. Voir la Licence pour connaître les termes spécifiques régissant les autorisations et les limitations prévues par la Licence.
 
-La plupart des bibliothèques présentes dans les répertoires suivants sur [GitHub](https://github.com/organicmaps/organicmaps)
-ont été créées par d'autres personnes et organisations et font l'objet de différentes licences :
+La plupart des bibliothèques présentes dans les répertoires suivants sur [GitHub][github] ont été créées par d'autres personnes et organisations et font l'objet de différentes licences :
 
-- des tiers
-- outils
+- 3party
+- tools
 
-Veuillez vous référer à leurs fichiers LICENCE, COPYING ou NOTICE pour connaître les conditions d'utilisation.
+Merci de te référer à leurs fichiers LICENCE, COPYING ou NOTICE pour connaître les conditions d'utilisation.
 
-Voir également [data/copyright.html](https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html)
-pour une liste complète des avis de droits d'auteur pour l'application Organic Maps.
+Voir également le fichier [data/copyright.html][copyright] pour une liste complète des avis de droits d'auteur pour l'application Organic Maps.
 
-Si vous avez des questions ou des suggestions, veuillez nous contacter à l'adresse [legal@organicmaps.app](mailto:legal@organicmaps.app).
+Si tu as des questions ou des suggestions, merci de nous contacter à l'adresse [legal@organicmaps.app](mailto:legal@organicmaps.app).
+
+[github]: https://github.com/organicmaps/organicmaps
+[license]: http://www.apache.org/licenses/LICENSE-2.0
+[copyright]: https://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/master/data/copyright.html

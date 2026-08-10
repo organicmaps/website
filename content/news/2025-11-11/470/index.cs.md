@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Po smazání seznamu záložek nebo seznamu tras (pomocí tlačítka "Více") se aplikace nyní správně vrací na předchozí obrazovku (Kiryl Kaveryn)
-- Přidány odkazy na sociální sítě [TikTok][tiktok], [Threads][threads] a [Bluesky][bluesky] na obrazovku "O aplikaci" (Kiryl Kaveryn)
-- Přidána možnost "Nahlásit chybu" do rychlých akcí ikony aplikace na domovské obrazovce (Kiryl Kaveryn)
+- Po smazání seznamu záložek nebo seznamu tras (pomocí tlačítka „Více“) se aplikace nyní správně vrací na předchozí obrazovku (Kiryl Kaveryn)
+- Přidány odkazy na sociální sítě [TikTok][tiktok], [Threads][threads] a [Bluesky][bluesky] na obrazovku „O aplikaci“ (Kiryl Kaveryn)
+- Přidána možnost „Nahlásit chybu“ do rychlých akcí ikony aplikace na domovské obrazovce (Kiryl Kaveryn)
 - Opraveny různé pády aplikace a CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -37,7 +37,7 @@ Dejte nám prosím vědět, zda můžete spustit Organic Maps na jakémkoli zař
 
 ### Mapa a styly
 
-- Prohozeno vykreslování "opuštěných" a "nepoužívaných" železnic (Lukas Hamm)
+- Prohozeno vykreslování „opuštěných“ a „nepoužívaných“ železnic (Lukas Hamm)
 - Do mapy přidáni hodináři a studentské ubytovny (David Martinez)
 - Přidány ikony cestovních kanceláří (David Martinez)
 - Změněna barva ikony toalety na šedou (David Martinez)

@@ -1,7 +1,7 @@
 ---
 title: ما هي إصدارات iOS وAndroid المدعومة؟
 slug: ما-هي-إصدارات-ios-وandroid-المدعومة
-description: الحد الأدنى من المتطلبات لتشغيل الخرائط العضوية على أجهزة Android وiOS
+description: الحد الأدنى من المتطلبات لتشغيل Organic Maps على أجهزة Android وiOS
 updated: '2024-06-20'
 taxonomies:
   faq:
@@ -12,8 +12,10 @@ aliases:
   - /ar/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-تحتاج إلى iOS 12 أو Android 5 على الأقل لتشغيل التطبيق. يمكن للأجهزة ذات الإصدارات الأحدث تشغيل الخرائط العضوية.
+تحتاج إلى iOS 12 أو Android 5 على الأقل لتشغيل التطبيق. يمكن للأجهزة ذات الإصدارات الأحدث تشغيل Organic Maps.
 
-في Android، يمكن للخرائط العضوية أن تعمل على الأجهزة المثبت عليها خدمات Google وبدون دعم Google.
+في Android، يمكن لـ Organic Maps أن يعمل على الأجهزة المثبت عليها خدمات Google وبدون دعم Google.
+
+يجب أن تدعم أجهزة Android معيار OpenGL ES 3.0 أو إصدارًا أحدث، أو واجهة برمجة التطبيقات (API) Vulkan حتى تعمل.
 
 لاستخدام OM مع Android Auto، يرجى التحقق من المتطلبات [هنا](../how-to-use-android-auto/).

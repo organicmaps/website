@@ -30,7 +30,7 @@ Android:
 - Naprawiono nieprawidłowy układ interfejsu użytkownika na niektórych urządzeniach (_Sergiy Kozyr_)
 - Pokazywanie loginu i hasła OSM jeśli logowanie przez przeglądarkę nie powiedzie się/nie jest dostępne (_Sergiy Kozyr_)
 - Naprawiono skok celownika podczas dodawania obiektów do OpenStreetMap (_@hemanggs_)
-- Naprawiono przycisk "Ponów nieudane pobieranie" (_Kavi Khalique_)
+- Naprawiono przycisk „Ponów nieudane pobieranie“ (_Kavi Khalique_)
 - Naprawiono ekran powitalny nakładający się na przyciski systemowe (_Vraj Shah_)
 - Naprawiono niektóre awarie (_Devarsh Vasani_)
 - Naprawiono błąd EACCESS PermissionDenied podczas importowania KML lub GPX na Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ Zmiany iOS, wszystkie zasługi dla _Kiryl Kaveryn_:
 - Teraz możesz edytować lub usunąć nagraną trasę natychmiast po jej zapisaniu
 - Rozszerzony obszar dotykowy dla przycisków
 - Naprawiono skaczące notatki OSM podczas pisania tekstu
-- Pokazywanie przycisku "Dodaj miejsce" dla firm
+- Pokazywanie przycisku „Dodaj miejsce“ dla firm
 
 P.S. Jeśli lubicie czytać szczegółowe notatki o wydaniu, dajcie nam znać w naszych [sieciach społecznościowych](/#community)
 

@@ -13,6 +13,6 @@ aliases:
   - /gl/faq/bookmarks/how-to-export/
 ---
 
-Toca un marcador no mapa ou na lista e, a continuación, toca o botón "Compartir" na páxina do lugar.
+Toca un marcador no mapa ou na lista e, a continuación, toca o botón «Compartir» na páxina do lugar.
 
-Para compartir todos os marcadores e pistas nunha lista desde a páxina Marcadores e pistas, toque a icona con tres puntos á dereita do nome da lista e seleccione "Exportar KMZ" ou "Exportar GPX", "Exportar GeoJSON".
+Para compartir todos os marcadores e pistas nunha lista desde a páxina Marcadores e pistas, toque a icona con tres puntos á dereita do nome da lista e seleccione «Exportar KMZ» ou «Exportar GPX», «Exportar GeoJSON».

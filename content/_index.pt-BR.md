@@ -1,10 +1,10 @@
 ---
-description: 'Mapas offline rápidos e detalhados para viajantes, turistas, motoristas, caminhantes e ciclistas criados pelos fundadores do app MapsWithMe (Maps.Me).'
+description: "Mapas offline rápidos e detalhados para viajantes, turistas, motoristas, caminhantes e ciclistas criados pelos fundadores do app MapsWithMe (Maps.Me)."
 extra:
   menu_title: Início
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Caminhada, Ciclismo, Trilhas e Navegação Offline'
+title: "Organic Maps: Caminhada, Ciclismo, Trilhas e Navegação Offline"
 ---
 
 **Organic Maps** é um aplicativo de mapas offline e GPS focado em privacidade para caminhadas, ciclismo e direção. Absolutamente gratuito. Sem anúncios. Sem rastreamento. Desenvolvido com amor pela comunidade de código aberto e pelos fundadores do app [**MapsWithMe**][mapswithme]/**Maps.Me**. Alimentado por dados do [OpenStreetMap][openstreetmap].
@@ -28,15 +28,12 @@ escuro') }}
 
 ## Recursos
 
-Organic Maps é o app companheiro ideal para viajantes, turistas, caminhantes
-e ciclistas:
+Organic Maps é o app companheiro ideal para viajantes, turistas, caminhantes e ciclistas:
 
-- Mapas offline detalhados com lugares que não existem em outros mapas,
-  graças ao [OpenStreetMap][openstreetmap]
+- Mapas offline detalhados com lugares que não existem em outros mapas, graças ao [OpenStreetMap][openstreetmap]
 - Rotas de ciclismo, trilhas para caminhadas e caminhos para pedestres
 - Curvas de nível, perfis de elevação, picos e encostas
-- Navegação passo a passo a pé, bicicleta e carro, com orientação por voz e
-  CarPlay/Android Auto
+- Navegação passo a passo a pé, bicicleta e carro, com orientação por voz e CarPlay/Android Auto
 - Mapas de metrô
 - Busca rápida offline no mapa
 - Exportação e importação de marcadores nos formatos KML/KMZ, importação GPX, GeoJSON
@@ -58,7 +55,6 @@ O app Organic Maps está livre de rastreadores e outras coisas ruins:
 - Sem anúncios
 - Sem rastreamento
 - Sem coleta de dados
-- Sem conexões para servidores externos
 - Sem registros desnecessários
 - Sem tutoriais obrigatórios
 - Sem lixo eletrônico por e-mail
@@ -78,8 +74,7 @@ Organic Maps não solicita permissões excessivas para espioná-lo:
 
 {{ privacy_screenshots() }}
 
-No Organic Maps, acreditamos que a privacidade é um direito humano
-fundamental:
+No Organic Maps, acreditamos que a privacidade é um direito humano fundamental:
 
 - Organic Maps é um projeto independente voltado para a comunidade
 - Protegemos a sua privacidade dos olhos curiosos das grandes empresas
@@ -91,16 +86,13 @@ Rejeite a vigilância - abrace sua liberdade.
 
 ## Quem está pagando pelo app gratuito?
 
-O app é gratuito para todos. Por favor [faça uma
-doação](@/donate/index.pt-BR.md) para nos apoiar!
+O app é gratuito para todos. Por favor [faça uma doação](@/donate/index.pt-BR.md) para nos apoiar!
 
 Para doar imediatamente, clique no método preferido de pagamento abaixo:
 
 {{ donate_buttons() }}
 
-Os patrocinadores institucionais abaixo forneceram subsídios direcionados
-para cobrir alguns custos de infraestrutura e financiar o desenvolvimento de
-novos recursos selecionados:
+Os patrocinadores institucionais abaixo forneceram subsídios direcionados para cobrir alguns custos de infraestrutura e financiar o desenvolvimento de novos recursos selecionados:
 
 <table style="border-spacing: 20px">
   <tr>
@@ -147,30 +139,19 @@ novos recursos selecionados:
 
 ## Comunidade
 
-Organic Maps é um [software de código aberto][github] licenciado sob a
-Licença Apache 2.0.
+Organic Maps é um [software de código aberto][github] licenciado sob a Licença Apache 2.0.
 
-- Por favor, junte-se ao nosso programa beta, faça suas sugestões e relate
-  erros:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
-- Relate erros ou problemas no [rastreador de problemas][issues] ou por
-  [e-mail][email].
+- Por favor, junte-se ao nosso programa beta, faça suas sugestões e relate erros:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
+- Relate erros ou problemas no [rastreador de problemas][issues] ou por [e-mail][email].
 - [Discuta][ideas] ideias ou proponha novos recursos.
-- Inscreva-se em nosso [canal do Telegram][telegram] ou no [espaço
-  matrix][matrix] para novidades.
-- Junte-se ao nosso [grupo do Telegram][telegram_chat] para conversar com
-  outros usuários.
+- Inscreva-se em nosso [canal do Telegram][telegram] ou no [espaço matrix][matrix] para novidades.
+- Junte-se ao nosso [grupo do Telegram][telegram_chat] para conversar com outros usuários.
 - Visite nossa [página no GitHub][github].
-- Siga nossas atualizações no [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
-- Junte-se (ou crie e nos diga) às comunidades locais: [Sala Matrix de
-  húngaro](https://matrix.to/#/#organicmapstranslate_hu:matrix.org), chats
-  de Telegram em [chinês][telegram_chat_zh], [francês][telegram_chat_fr],
-  [russo][telegram_chat_RU] ou [turco][telegram_chat_tr].
+- Siga nossas atualizações no [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
 
 [fork]: https://pt.wikipedia.org/wiki/Bifurcação_(desenvolvimento_de_software)
 

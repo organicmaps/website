@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps యాప్ _ప్రతి ఒక్కరికీ ఉచితం_ మీ **[దానాలు][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln]** ద్వారా:
+Organic Maps యాప్ _ప్రతి ఒక్కరికీ ఉచితం_ మీ **[దానాలు][stripe]** **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[UAH][stripe_uah]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** ద్వారా:
 
 - ప్రకటనలు లేవు
 - ట్రాకర్లు లేవు
@@ -45,7 +45,7 @@ Organic Maps యాప్ _ప్రతి ఒక్కరికీ ఉచిత
    - కొండల నీడలు మరియు 3D భూభాగం
    - మెరుగైన OpenStreetMap ఎడిటర్
    - మెరుగైన ఆఫ్‌లైన్ చిరునామా శోధన, రూటింగ్ మరియు నావిగేషన్
-   - ... మరియు [ఇంకా అనేక][github issues] మీరు కోరుకునే మరియు ప్రేమించే ఫీచర్లు
+   - … మరియు [ఇంకా అనేక][github issues] మీరు కోరుకునే మరియు ప్రేమించే ఫీచర్లు
 
 ## ఎలా దానం చేయాలి?
 

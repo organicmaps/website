@@ -27,6 +27,7 @@ Hálásak vagyunk ❤️ közreműködőinknek, valamint [adományaitokért](@/d
 - Frissített fordítások (Weblate közreműködők)
 
 #### iOS
+
 - ÚJ! Újratervezett „Hely hozzáadása az OpenStreetMap-hez" és „Hely szerkesztése" gombok (Kiryl Kaveryn)
 - Javított ugrálós szálkereszt új hely OpenStreetMap-hez való hozzáadásakor (Kiryl Kaveryn)
 - Új ikonok a térképrétegekhez és menühöz (Kiryl Kaveryn, @euf)
@@ -37,6 +38,7 @@ Hálásak vagyunk ❤️ közreműködőinknek, valamint [adományaitokért](@/d
 - A „Térképek frissítése a hozzájáruláshoz" gomb most megjelenik a menüben, amikor a térképek túl elavultak (Kiryl Kaveryn)
 
 #### Android
+
 - Új réteg ikonok (Andrei Shkrob, @euf)
 - A könyvjelző szerkesztése (ceruza) ikon érintési területe most nagyobb (Kavi Khalique)
 - Javított összeomlás bizonyos útvonalak mentésekor és ritka összeomlás indításkor (Viktor Govako)

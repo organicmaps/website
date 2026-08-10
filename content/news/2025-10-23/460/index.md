@@ -43,6 +43,7 @@ For those who missed, the [previous October 7 update](https://organicmaps.app/ne
 - Better splash screen on startup (Andrei Shkrob)
 
 ### Android Auto
+
 - Restore the route after cancellation (Andrei Shkrob)
 - Fixed crashes on some devices (Andrei Shkrob)
 

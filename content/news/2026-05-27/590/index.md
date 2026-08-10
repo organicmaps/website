@@ -42,12 +42,14 @@ Get the update at <https://get.omaps.org> or on the [App Store][appstore], [Goog
 - Fixed crash when adding a bookmark on a hiking or cycling route _(Alexander Borsuk)_
 
 ### Android
+
 - NEW! Track text and HTML descriptions are now supported, the same way as descriptions for bookmarks. Press the pencil icon to add a description. _(Mikhail Listratsenka)_
 - NEW! Choose any color for tracks, not only a limited subset _(Mikhail Listratsenka)_
 - Korean, Chinese, and Japanese users will now see proper fonts based on device locale _(Alexander Borsuk)_
 - Fixed track place-page issues and "Open In" button _(Mikhail Listratsenka)_
 
 ### Linux and macOS
+
 - Added Chinese translations to the `.desktop` file comments _(DeepChirp)_
 
 

@@ -19,19 +19,19 @@ La recomendación oficial de Organic Maps es [RHVoice](https://rhvoice.org/), qu
 
 ## Instrucciones
 
-- Abra la aplicación de Ajustes de su dispositivo Android
-- Vaya a Ajustes Adicionales y después a Accesibilidad
-- Elija su motor preferido, el tono y la velocidad de la voz
-- **Reinicie la aplicación Organic Maps**
-- Abra Ajustes => Instrucciones de voz en Organic Maps y configúrelo
-- Reinicie de nuevo la aplicación Organic Maps (o reinicie el dispositivo) si la voz no funciona.
+- Abre la aplicación de Ajustes de tu dispositivo Android
+- Ve a Ajustes Adicionales y después a Accesibilidad
+- Elige tu motor preferido, el tono y la velocidad de la voz
+- **Reinicia la aplicación Organic Maps**
+- Abre Ajustes => Instrucciones de voz en Organic Maps y configúralo
+- Reinicia de nuevo la aplicación Organic Maps (o reinicia el dispositivo) si la voz no funciona.
 
 
-Si no puede encontrar estos ajustes, abra la aplicación de Ajustes y busque "Instrucciones de voz".
+Si no puedes encontrar estos ajustes, abre la aplicación de Ajustes y busca «Instrucciones de voz».
 
-Aviso: Note que estas instrucciones pueden variar en función de la marca de su dispositivo.
+Aviso: Nota que estas instrucciones pueden variar en función de la marca de tu dispositivo.
 
-Estas opciones pueden que no estén disponibles si no tiene la funcionalidad TTS (Instrucciones de voz) instaladas en su dispositivo. Por favor, revise la tabla más abajo para instalar cualquier motor que soporte su idioma.
+Estas opciones pueden que no estén disponibles si no tienes la funcionalidad TTS (Instrucciones de voz) instaladas en tu dispositivo. Por favor, revisa la tabla más abajo para instalar cualquier motor que soporte tu idioma.
 
 ## Capturas de pantalla
 
@@ -47,22 +47,22 @@ A continuación se muestra una lista completa de los idiomas y los motores sopor
 
 ## Soluciones a problemas con RHVoice
 
-Si tiene problemas para inicializar el motor de voz RHVoice en LineageOS o en otras ROM personalizadas, pruebe esta solución alternativa. Es posible que RHVoice no se inicialice correctamente y que la aplicación falle, especialmente si no ha utilizado ningún motor TTS en su teléfono antes (por ejemplo, una nueva instalación, un restablecimiento de fábrica, etc.). Si está utilizando una ROM personalizada como LineageOS <ins>sin los servicios de Google Play y los Servicios de Voz de Google</ins>, y desea utilizar RHVoice como su motor TTS preferido, siga las siguientes instrucciones como solución alternativa:
+Si tienes problemas para inicializar el motor de voz RHVoice en LineageOS o en otras ROM personalizadas, prueba esta solución alternativa. Es posible que RHVoice no se inicialice correctamente y que la aplicación falle, especialmente si no has utilizado ningún motor TTS en tu teléfono antes (por ejemplo, una nueva instalación, un restablecimiento de fábrica, etc.). Si estás utilizando una ROM personalizada como LineageOS <ins>sin los servicios de Google Play y los Servicios de Voz de Google</ins>, y deseas utilizar RHVoice como tu motor TTS preferido, sigue las siguientes instrucciones como solución alternativa:
 
-1. Instale el [motor eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible en F-Droid.
-2. Configúrelo como el motor del sistema preferido.
-    - Vaya a los **Ajustes** principales de LineageOS.
-    - Desplácese hacia abajo hasta **Accesibilidad**.
-    - Seleccione **Salida de texto a voz** y **Motor preferido** (en el lado izquierdo) y asegúrese de que **eSpeak** esté seleccionado.
-3. Regrese y pulse **Reproducir** para ver si está funcionando.
-4. Instale [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), disponible en F-droid.
-    - Ábralo, seleccione el idioma que desea usar, toque el ícono de la nube (extremo izquierdo) para descargar las voces.
-    - Presione el botón de reproducción para verificar si está funcionando.
-5. Configure **RHVoice** como motor preferido (vea el paso 2).
-6. Ahora, debería poder utilizar RHVoice sin ningún problema.
+1. Instala el [motor eSpeak TTS](https://f-droid.org/en/packages/com.reecedunn.espeak) disponible en F-Droid.
+2. Configúralo como el motor del sistema preferido.
+    - Ve a los **Ajustes** principales de LineageOS.
+    - Desplázate hacia abajo hasta **Accesibilidad**.
+    - Selecciona **Salida de texto a voz** y **Motor preferido** (en el lado izquierdo) y asegúrate de que **eSpeak** esté seleccionado.
+3. Regresa y pulsa **Reproducir** para ver si está funcionando.
+4. Instala [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/), disponible en F-droid.
+    - Ábrelo, selecciona el idioma que deseas usar, toca el ícono de la nube (extremo izquierdo) para descargar las voces.
+    - Presiona el botón de reproducción para verificar si está funcionando.
+5. Configura **RHVoice** como motor preferido (consulta el paso 2).
+6. Ahora, deberías poder utilizar RHVoice sin ningún problema.
 
 ## Prueba de la síntesis de voz
 
-Para probar las instrucciones de voz, pulse en "Probar indicaciones de voz (TTS, Text-To-Speech)" en el menú "Ajustes → Instrucciones de voz" de OM, o puede iniciar una navegación para recibir cualquier salida de voz. Organic Maps no le dará instrucciones de voz si está parado.
+Para probar las instrucciones de voz, pulsa en «Probar indicaciones de voz (TTS, Text-To-Speech)» en el menú «Ajustes → Instrucciones de voz» de OM, o puedes iniciar una navegación para recibir cualquier salida de voz. Organic Maps no te dará instrucciones de voz si estás parado.
 
 ![Prueba de la funcionalidad de síntesis de voz](tts_test.png "Prueba de la funcionalidad de síntesis de voz")

@@ -36,7 +36,7 @@ Consigue a actualización en <https://get.omaps.org> ou en [App Store][appstore]
 ### iOS
 
 - NOVO! Agora se admite o texto dos tracks e as descricións HTML, do mesmo xeito que as descricións para os marcadores. Preme na icona do lápis para engadir unha descrición. _(Kiryl Kaveryn)_
-- Text-to-Speech (TTS) agora elixe a mellor voz instalada para o idioma (Ampliada / Premium). Consulte a configuración de Organic Maps para saber como descargar unha voz de maior calidade. _(Kiryl Kaveryn)_
+- Text-to-Speech (TTS) agora elixe a mellor voz instalada para o idioma (Ampliada / Premium). Consulta a configuración de Organic Maps para saber como descargar unha voz de maior calidade. _(Kiryl Kaveryn)_
 - Corrixiuse un erro ao renomear un track no que o novo nome non se actualizaba correctamente _(Kiryl Kaveryn)_
 - CarPlay: arranxouse o botón de recentrar _(Kiryl Kaveryn)_
 - Arranxouse un fallo que provocaba o peche forzado ao engadir un marcador nunha ruta de sendeirismo ou ciclismo _(Alexander Borsuk)_
@@ -46,9 +46,10 @@ Consigue a actualización en <https://get.omaps.org> ou en [App Store][appstore]
 - NOVO! Agora se admite o texto dos tracks e as descricións HTML, do mesmo xeito que as descricións para marcadores. Preme a icona do lápis para engadir unha descrición. _(Mikhail Listratsenka)_
 - NOVO! Elixe calquera cor para os tracks, non só un subconxunto limitado _(Mikhail Listratsenka)_
 - Os usuarios de coreano, chinés e xaponés agora verán fontes correctas baseadas na configuración rexional do dispositivo _(Alexander Borsuk)_
-- Solucionáronse problemas coa páxina do track e co botón "Abrir en" _(Mikhail Listratsenka)_
+- Solucionáronse problemas coa páxina do track e co botón «Abrir en» _(Mikhail Listratsenka)_
 
 ### Linux e macOS
+
 - Engadíronse traducións ao chinés aos comentarios do ficheiro `.desktop` _(DeepChirp)_
 
 ## Únete ás probas beta para probar funcións anticipadas e informar de problemas:

@@ -49,6 +49,7 @@ Güncellemeyi <https://get.omaps.org> adresinden veya [App Store][appstore], [Go
 - İz yeri sayfası sorunları ve “Şurada Aç” düğmesi düzeltildi _(Mikhail Listratsenka)_
 
 ### Linux ve macOS
+
 - `.desktop` dosya yorumlarına Çince çeviriler eklendi _(DeepChirp)_
 
 ## Yeni özellikleri erkenden denemek ve sorunları bildirmek için beta testine katıl:

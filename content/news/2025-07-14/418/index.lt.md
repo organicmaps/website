@@ -30,7 +30,7 @@ Android:
 - Ištaisytas neteisingas naudotojo sąsajos išdėstymas kai kuriuose įrenginiuose (_Sergiy Kozyr_)
 - Rodyti OSM prisijungimą ir slaptažodį, jei naršyklės prisijungimas nepavyksta/neprieinamas (_Sergiy Kozyr_)
 - Ištaisytas taikinio šuolis pridedant objektus į OpenStreetMap (_@hemanggs_)
-- Ištaisytas "Pakartoti nepavykusį atsisiuntimą" mygtukas (_Kavi Khalique_)
+- Ištaisytas „Pakartoti nepavykusį atsisiuntimą“ mygtukas (_Kavi Khalique_)
 - Ištaisytas pradžios ekranas, kuris persidengia su sistemos mygtukais (_Vraj Shah_)
 - Ištaisyti kai kurie gedimai (_Devarsh Vasani_)
 - Ištaisyta EACCESS PermissionDenied klaida importuojant KML ar GPX Android 5 (_Alexander Borsuk_)
@@ -40,7 +40,7 @@ iOS pakeitimai, visi kreditus _Kiryl Kaveryn_:
 - Dabar galite redaguoti ar ištrinti įrašytą maršrutą iš karto po išsaugojimo
 - Išplėsta paliečiama zona mygtukams
 - Ištaisytos šokančios OSM pastabos rašant tekstą
-- Rodyti "Pridėti vietą" mygtuką verslams
+- Rodyti „Pridėti vietą“ mygtuką verslams
 
 P.S. Jei mėgstate skaityti išsamias leidimo pastabas, praneškite mums mūsų [socialiniuose tinkluose](/#community)
 

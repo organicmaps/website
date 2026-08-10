@@ -21,9 +21,9 @@ taxonomies:
 
 ### iOS
 
-- Após eliminar uma lista de marcadores ou lista de trilhos (através do botão "Mais"), a aplicação agora retorna corretamente ao ecrã anterior (Kiryl Kaveryn)
-- Adicionadas ligações de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] no ecrã "Acerca de" (Kiryl Kaveryn)
-- Adicionado "Reportar um erro" às ações rápidas do ícone da aplicação no ecrã inicial (Kiryl Kaveryn)
+- Após eliminar uma lista de marcadores ou lista de trilhos (através do botão «Mais»), a aplicação agora retorna corretamente ao ecrã anterior (Kiryl Kaveryn)
+- Adicionadas ligações de redes sociais [TikTok][tiktok], [Threads][threads] e [Bluesky][bluesky] no ecrã «Acerca de» (Kiryl Kaveryn)
+- Adicionado «Reportar um erro» às ações rápidas do ícone da aplicação no ecrã inicial (Kiryl Kaveryn)
 - Corrigidas várias falhas da aplicação e CarPlay (Kiryl Kaveryn)
 
 ### Android
@@ -62,9 +62,9 @@ Por favor, informe-nos se consegue executar o Organic Maps em quaisquer disposit
 
 Notas de lançamento anteriores: [organicmaps.app/news/2025-10-23](https://organicmaps.app/news/2025-10-23/october-23-release-organic-maps-default-navigation-app-eu-ios-road-shields-displaying-android-improvements-fixes/)
 
-Obtenha a versão mais recente do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Obtém a versão mais recente do Organic Maps na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-P.S. Participe nos testes beta para aceder antecipadamente a funcionalidades e ajudar-nos a encontrar erros e problemas:
+P.S. Participa nos testes beta para aceder antecipadamente a funcionalidades e ajudar-nos a encontrar erros e problemas:
 - [iOS][testflight]
 - [Android][firebase].
 

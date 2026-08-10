@@ -32,7 +32,7 @@ Bagi yang terlewat, [pembaruan 7 Oktober sebelumnya](https://organicmaps.app/new
 - Perbaikan bilah status putih-pada-putih dalam mode navigasi (Kiryl Kaveryn)
 - Peningkatan ukuran tombol Mulai Navigasi (Kiryl Kaveryn)
 - Menghapus ruang kosong saat merencanakan rute di iPad (Kiryl Kaveryn)
-- Organic Maps mungkin meminta Anda untuk menilainya di App Store. Ulasan baik Anda memotivasi tim kami!
+- Organic Maps mungkin meminta kamu untuk menilainya di App Store. Ulasan baik kamu memotivasi tim kami!
 
 ## Android
 
@@ -43,17 +43,18 @@ Bagi yang terlewat, [pembaruan 7 Oktober sebelumnya](https://organicmaps.app/new
 - Layar splash yang lebih baik saat startup (Andrei Shkrob)
 
 ### Android Auto
+
 - Pulihkan rute setelah pembatalan (Andrei Shkrob)
 - Perbaikan crash pada beberapa perangkat (Andrei Shkrob)
 
 ## Linux/Mac OS
 
-- Detail POI sekarang menampilkan format "nama | ref" (Viktor Govako)
+- Detail POI sekarang menampilkan format “nama | ref” (Viktor Govako)
 - mode gelap secara otomatis sinkron dengan pengaturan sistem (DeepChirp)
 
 ## Catatan kaki
 
-Organic Maps dimungkinkan berkat ❤️ kontributor kami, [donasi Anda](@/donate/index.id.md), dan [dukungan Anda](@/contribute/index.id.md).
+Organic Maps dimungkinkan berkat ❤️ kontributor kami, [donasi kamu](@/donate/index.id.md), dan [dukungan kamu](@/contribute/index.id.md).
 
 Dapatkan versi Organic Maps terbaru dari [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].
 

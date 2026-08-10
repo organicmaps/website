@@ -6,12 +6,12 @@ taxonomies:
   news: ["releases"]
 ---
 
-Díky našim přispěvatelům **je pátek vhodný čas na aktualizaci Organic Maps!** Získej aktualizaci na [https://get.omaps.org](https://get.omaps.org) nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
+Díky našim přispěvatelům **je pátek vhodný čas na aktualizaci Organic Maps!** Získejte aktualizaci na [https://get.omaps.org](https://get.omaps.org) nebo v [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].
 
-Pokud chceš vidět **jízdní řády veřejné dopravy v reálném čase** ve svém městě v jedné z nadcházejících aktualizací, prosím:
+Pokud chcete vidět **jízdní řády veřejné dopravy v reálném čase** ve svém městě v jedné z nadcházejících aktualizací, prosím:
 
-1. [Pošli nám](https://github.com/organicmaps/gtfs-osm-matcher/issues) zdroje **statických a reálných GTFS kanálů** od svých místních dopravních podniků, abychom je mohli otestovat a integrovat.
-2. Zkontroluj, zda **data OpenStreetMap** ve své oblasti zahrnují všechny zastávky autobusu/tramvaje/vlaku s nezbytnými značkami na [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
+1. [Pošlete nám](https://github.com/organicmaps/gtfs-osm-matcher/issues) zdroje **statických a reálných GTFS kanálů** od svých místních dopravních podniků, abychom je mohli otestovat a integrovat.
+2. Zkontrolujte, zda **data OpenStreetMap** ve své oblasti zahrnují všechny zastávky autobusu/tramvaje/vlaku s nezbytnými značkami na [https://gtfs-osm-matcher.organicmaps.app/](https://gtfs-osm-matcher.organicmaps.app/).
 
 ### Poznámky k vydání
 
@@ -57,7 +57,7 @@ Pokud chceš vidět **jízdní řády veřejné dopravy v reálném čase** ve s
 * Aktualizovány překlady od přispěvatelů Weblate (Viktor Govako)
 
 
-Připoj se k beta testování, abys vyzkoušel rané funkce a nahlásil problémy:
+Připojte se k beta testování, abyste vyzkoušeli rané funkce a nahlásili problémy:
 - [iOS][testflight]
 - [Android][firebase]
 

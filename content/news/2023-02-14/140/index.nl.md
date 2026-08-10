@@ -9,7 +9,6 @@ taxonomies:
 Deze versie bevat geüpdatete kaartengegevens voor Turkije en Syrië, inclusief de [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) aanpassingen na de recente aardbeving. Nauwkeurige kaarten zijn cruciaal in ramp-respons, omdat ze helpen bij betere planning en navigatie voor helpers in het veld. We zijn iedereen die ooit heeft bijgedraagd aan OpenStreetMap dankbaar. Als je nu wil beginnen met bijdragen, volg dan [deze link](https://www.openstreetmap.org/user/Heather%20Leson/diary/400951).
 
 De lijst met veranderingen in deze Organic Maps versie:
-
 * Nieuwe OpenStreetMap data sinds 10 februari
 * Filter foute zoekresultaten in de lijst en op de kaart
 * Verbeterde volgende stop-meldingen voor korte afstanden
@@ -21,7 +20,7 @@ Android
 * Opgelost: onzichtbare errormeldingen in de bewerkingsmodus
 
 iOS
-* Opgelost: crash bij het openen van om:// en https://omaps.app/ links
-* We laten nu de gedeelde POI naam zien in om:// en https://omaps.app/ links
+* Opgelost: crash bij het openen van om:// en <https://omaps.app/> links
+* We laten nu de gedeelde POI naam zien in om:// en <https://omaps.app/> links
 
-Kijk voor meer voorbeelden van onze API en URL schema's voor Android en voor iOS ophttps://omaps.app/api
+Kijk voor meer voorbeelden van onze API en URL schema's voor Android en voor iOS op <https://omaps.app/api>

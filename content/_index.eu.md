@@ -1,10 +1,10 @@
 ---
-description: 'Detaile handiko offline mapa azkarrak, bidaiari, turista, gidari, mendizale eta txirrindularientzat, MapsWithMe (Maps.me) app-aren sortzaileek garatutakoa.'
+description: "Detaile handiko offline mapa azkarrak, bidaiari, turista, gidari, mendizale eta txirrindularientzat, MapsWithMe (Maps.me) app-aren sortzaileek garatutakoa."
 extra:
   menu_title: Hasiera
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako'
+title: "Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako"
 ---
 
 **Organic Maps** mendian ibiltzeko, txirrindularitzarako eta gidatzeko pribatutasunean zentratutako lineaz kanpoko mapen eta GPS aplikazioa da. Erabat doakoa. Iragarkirik gabe. Jarraipenik ez. Kode irekiko komunitateak eta [**MapsWithMe**][mapswithme]/**Maps.Me** aplikazioa sortu zuten pertsona berberek maitasunez garatua. [OpenStreetMap][openstreetmap] datuekin elikatua.
@@ -13,7 +13,7 @@ title: 'Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabig
 
 > 2025eko abenduan, Organic Maps-ek [6 milioi instalazio lortu zituen](@/news/2025-12-31/500/index.eu.md). [Lagundu](@/donate/index.eu.md) handitzen!
 
-### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Accrescent][accrescent] {#install}
+### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
 {{ badges() }}
 
@@ -29,19 +29,15 @@ ilunean') }}
 
 ## Berezitasunak
 
-Organic Maps da bidaiari, turista, mendizale eta txirrindularientzat app
-egokiena:
+Organic Maps da bidaiari, turista, mendizale eta txirrindularientzat app egokiena:
 
-- Beste mapetan azaltzen ez diren tokietako offline mapa detailatuak,
-  [OpenStreetMap][openstreetmap]-i esker
+- Beste mapetan azaltzen ez diren tokietako offline mapa detailatuak, [OpenStreetMap][openstreetmap]-i esker
 - Bizikletarako ibilbideak, mendiko zidorrak eta ibiltzeko bideak
 - Profil lerroak, sestra kurbak, gailur eta aldapak
-- Pausoz-pausoko nabigazioa oinez, bizikletan edo autoz ibiltzeko, ahotsaren
-  aukerarekin, CarPlay/Android Auto
+- Pausoz-pausoko nabigazioa oinez, bizikletan edo autoz ibiltzeko, ahotsaren aukerarekin, CarPlay/Android Auto
 - Metro mapak
 - Mapan offline bilaketa azkarra
-- Tokien laster-markak esportatu eta inportatzeko aukera KML/KMZ, GeoJSON
-  formatuetan, inportatzeko GPX, GeoJSON
+- Tokien laster-markak esportatu eta inportatzeko aukera KML/KMZ, GeoJSON formatuetan, inportatzeko GPX, GeoJSON
 - Modu iluna zure begiak babesteko
 - Nazio eta herrialdeek ez dute toki askorik hartzen
 - Leku ezagunetarako Wikipedia artikuluak
@@ -60,7 +56,6 @@ Organic Maps app-ak ez du tracker edo beste trikimailu zikinik:
 - Iragarkirik gabe
 - Jarraipenik ez
 - Datu bilketarik gabe
-- Zure datuak ez ditugu biltzen
 - Izen-emate astunik ez
 - Erabilera tutorial beharrik ez
 - Eposta spamik ez
@@ -82,8 +77,7 @@ Organic Maps-ek ez du zu espiatzeko gehiegizko baimenik eskatzen:
 
 Organic Maps-en sinesten dugu pribatutasuna oinarrizko eskubide bat dela:
 
-- Organic Maps komunitateak bultzatutako kode irekiko proiektu independentea
-  da
+- Organic Maps komunitateak bultzatutako kode irekiko proiektu independentea da
 - Enpresa teknologiko handien begietatik babesten dugu zure pribatutasuna
 - Seguru egon edozein tokitan
 
@@ -93,11 +87,9 @@ Errefusatu jarraipena - besarkatu zure askatasuna.
 
 ## Nork ordaintzen du doako app hau?
 
-App-a denontzat doakoa da. Mesedez [donate](@/donate/index.eu.md) guri
-laguntzeko!
+App-a denontzat doakoa da. Mesedez [donate](@/donate/index.eu.md) guri laguntzeko!
 
-Dohaintza egokia emateko, egin klik behean nahi duzun ordainketa-metodoaren
-ikonoan:
+Dohaintza egokia emateko, egin klik behean nahi duzun ordainketa-metodoaren ikonoan:
 
 {{ donate_buttons() }}
 
@@ -148,31 +140,19 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
 
 ## Komunitatea
 
-Organic Maps [open-source software][github] da, Apache License 2.0
-lizentziapean.
+Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean.
 
-- Mesedez parte-hartu gure beta programan, iradoki zure ideia berriak eta
-  akatsen berri eman:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux Desktop Beta (Flatpak)][flatpak]
-  * [Linux Desktop Beta (packages)][repology]
-- Akats edo arazoen berri eman [issue tracker-ean][issues] edo [idatzi
-  guri][email].
+- Mesedez parte-hartu gure beta programan, iradoki zure ideia berriak eta akatsen berri eman:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux Desktop Beta (Flatpak)][flatpak]
+  - [Linux Desktop Beta (packages)][repology]
+- Akats edo arazoen berri eman [issue tracker-ean][issues] edo [idatzi guri][email].
 - [Eztabaidatu][ideas] ideiak edo proposatu berezitasun berriak.
-- Harpidetu gure [Telegram kanalera][telegram] edo [matrix
-  space][matrix]-era eguneraketak jasotzeko.
-- Sartu gure [Telegram taldean][telegram_chat] beste erabiltzaileekin hitz
-  egiteko.
+- Harpidetu gure [Telegram kanalera][telegram] edo [matrix space][matrix]-era eguneraketak jasotzeko.
+- Sartu gure [Telegram taldean][telegram_chat] beste erabiltzaileekin hitz egiteko.
 - Bisitatu gure [GitHub orria][github].
-- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter],
-  [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
-- Elkartu (edo sortu eta jakinarazi) tokiko komunitateei: [Hungarian Matrix
-  room](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [Chinese-][telegram_chat_zh], [French-][telegram_chat_fr],
-  [Russian-][telegram_chat_ru], [Turkish-][telegram_chat_tr]speaking
-  Telegram chats.
+- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
 
 [fork]: https://eu.wikipedia.org/wiki/Fork
 

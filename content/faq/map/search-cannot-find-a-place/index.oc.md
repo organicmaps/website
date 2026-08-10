@@ -12,8 +12,8 @@ aliases:
   - /oc/faq/map/search-cannot-find-a-place/
 ---
 
-Remembratz-vos que per cercar un endrech dins una zòna especifica, caldrà telecargar una carta pertinenta e far un zoom sus aquela zòna, o vòstra posicion deu èsser prèp d'aquela zòna abans de començar la recèrca. Per exemple, se volètz trobar un endrech en Vietnam e que vòstra posicion es endacòm mai, cal telecargar e dobrir d'en primièr la carta del Vietnam, o mencionar explicitament lo país (Vietnam) o lo nom de la vila, de la comuna o del vilatge desirat dins lo camp de recèrca.
+Remembra-te que per cercar un endrech dins una zòna especifica, caldrà telecargar una carta pertinenta e far un zoom sus aquela zòna, o ta posicion deu èsser prèp d'aquela zòna abans de començar la recèrca. Per exemple, se vòles trobar un endrech en Vietnam e que ta posicion es endacòm mai, cal telecargar e dobrir d'en primièr la carta del Vietnam, o mencionar explicitament lo país (Vietnam) o lo nom de la vila, de la comuna o del vilatge desirat dins lo camp de recèrca.
 
-De mai, es possible que lo luòc siá pas encara estat apondut a la mapa sus [OpenStreetMap.org](https://www.openstreetmap.org/). Se volètz ajudar e melhorar la mapa, consultatz [aquesta guida](https://wiki.openstreetmap.org/wiki/Contribute_map_data) e apondètz vos-meteis las informacions mancantas.
+De mai, es possible que lo luòc siá pas encara estat apondut a la mapa sus [OpenStreetMap.org](https://www.openstreetmap.org/). Se vòles ajudar e melhorar la mapa, consulta [aquesta guida](https://wiki.openstreetmap.org/wiki/Contribute_map_data) e apond tu-meteis las informacions mancantas.
 
-Se lo luòc es afichat sus la mapa dins Organic Maps, mas nòstra recèrca lo pòt pas trobar, [sinhalatz-nos](mailto:support@organicmaps.app) las coordenadas del luòc e un exemple de vòstra requèsta de recèrca.
+Se lo luòc es afichat sus la mapa dins Organic Maps, mas nòstra recèrca lo pòt pas trobar, [sinhala-nos](mailto:support@organicmaps.app) las coordenadas del luòc e un exemple de ta requèsta de recèrca.

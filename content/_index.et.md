@@ -1,10 +1,10 @@
 ---
-description: 'MapsWithMe (Maps.Me) rakenduse asutajate loodud kiire ja detailne võrguühendust mittevajav kaardilahendus reisijatele, turistidele, autojuhtidele, matkajatele ja ratturitele.'
+description: "MapsWithMe (Maps.Me) rakenduse asutajate loodud kiire ja detailne võrguühendust mittevajav kaardilahendus reisijatele, turistidele, autojuhtidele, matkajatele ja ratturitele."
 extra:
   menu_title: Avaleht
 page_template: index.html
 sort_by: weight
-title: 'Organic Maps Offline Hike, Bike, GPS Navigation'
+title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 ---
 
 **Organic Maps** on privaatsuskeskne võrguühendust mittevajav kaardirakendus ja GPS-i asukoha kuvaja matkamise, rattasõidu ja autosõidu jaoks. Saadavalt tasuta ning õiguslikult vaba. Pole reklaame ega jälitamist. Arendatud armastusega avatud lähtekoodi kasutava kogukonna ja samade inimeste poolt, kes lõid [**MapsWithMe**][mapswithme]/**Maps.Me** rakenduse. Kaardiandmed on pärit [OpenStreetMapi][openstreetmap] andmekogust.
@@ -29,14 +29,12 @@ kasutades tumedat vaadet') }}
 
 ## Omadused
 
-Organic Maps on suurepärane rakendus reisijatele, turistidele, matkajatele
-ja ratturitele:
+Organic Maps on suurepärane rakendus reisijatele, turistidele, matkajatele ja ratturitele:
 
 - Tänu [OpenStreetMap'ile][openstreetmap] on meil detailsed kaardid, mille kasutamiseks pole vaja võrguühendust
 - Rattateed, matkarajad ning võimalused jalutamiseks
 - Kontuurjooned, kõrgusprofiilid, tipud ja nõlvad
-- Täpne teekonna juhatamine koos hääljuhistega jalutamisel, rattasõidul ning
-  autoga liikumisel ning CarPlay/Android Auto
+- Täpne teekonna juhatamine koos hääljuhistega jalutamisel, rattasõidul ning autoga liikumisel ning CarPlay/Android Auto
 - Metroo kaardid
 - Kiire kaardiotsing võrguühendust kasutamata
 - Järjehoidjad ja rajad KML-, KMZ-, GPX-vormingus, GeoJSON
@@ -58,7 +56,6 @@ Organic Maps rakenduses pole midagi, mis sinu tegevust jälgiks:
 - Pole reklaame
 - Pole jälgimist
 - Pole andmekogumist
-- Pole helistamist teenusepakkujale koju
 - Pole tüütut registreerimist
 - Pole kohustuslikke juhendmaterjale
 - Pole pidevat spämmi sinu e-posti aadressile
@@ -70,23 +67,18 @@ Meie rakendust on kontrollinud [Exodus Privaatsus Project][exodus]:
 
 {{ exodus_screenshot() }}
 
-OrganicMaps'i iOS rakendus on verifitseeritud - [TrackerControl for
-iOS][trackercontrol]:
+OrganicMaps'i iOS rakendus on verifitseeritud - [TrackerControl for iOS][trackercontrol]:
 
 {{ trackercontrol_screenshot() }}
 
-Organic Maps ei eelda sinu nutiseadmes liigseid õigusi, mis võimaldaks sinu
-tegevust jälgida:
+Organic Maps ei eelda sinu nutiseadmes liigseid õigusi, mis võimaldaks sinu tegevust jälgida:
 
 {{ privacy_screenshots() }}
 
-Organic Maps rakenduse tiimis me eeldame, et privaatsus on põhiline
-inimõigus:
+Organic Maps rakenduse tiimis me eeldame, et privaatsus on põhiline inimõigus:
 
-- Organic Maps on sõltumatu, kogukonnakeskne ja avatud lähtekoodiga
-  tarkvaral põhinev projekt
-- Me kaitseme sinu privaatsust suurte tehnoloogiafirmade uudishimulike
-  silmade eest
+- Organic Maps on sõltumatu, kogukonnakeskne ja avatud lähtekoodiga tarkvaral põhinev projekt
+- Me kaitseme sinu privaatsust suurte tehnoloogiafirmade uudishimulike silmade eest
 - Püsi turvalisena olenemata sellest, kus sa viibid
 
 Keeldu pidevast jälgimisest - võta oma sihiks vabadus.
@@ -95,8 +87,7 @@ Keeldu pidevast jälgimisest - võta oma sihiks vabadus.
 
 ## Kes maksab tasuta rakenduse eest?
 
-Meie rakendus on kõigile tasuta. Aga kui soovid [meid rahaliselt
-toetada](@/donate/index.et.md), siis see on alati hea mõte!
+Meie rakendus on kõigile tasuta. Aga kui soovid [meid rahaliselt toetada](@/donate/index.et.md), siis see on alati hea mõte!
 
 Mugavaks annetamiseks vali alljärgnevast endale sobilik makseviis:
 
@@ -149,32 +140,19 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
 
 ## Kogukond
 
-Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me
-oleme litsentseerinud Apache License 2.0 alusel.
+Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me oleme litsentseerinud Apache License 2.0 alusel.
 
-- Palun liitu meie beetaprogrammiga, paku uusi funktsionaalsusi ning teata
-  vigadest:
-  * [iOS Beta (TestFlight)][testflight]
-  * [Android Beta (Firebase)][firebase]
-  * [Linux'i töölauarakenduse beetaversioon (Flatpak)][flatpak]
-  * [Linux'i töölauarakenduse beetaversioon (pakendatuna)][repology]
-- Teata vigadest või probleemidest meie [veahalduse liideses][issues] või
-  [saada meile e-kiri][email].
-- [Kommenteeri][ideas] juba tehtud ettepanekuid või paku mõni asjalik idee
-  omalt poolt.
-- Viimase teabe saamiseks liitu meie [Telegrami kanaliga][telegram] või
-  [Matrixi kogukonnaga][matrix].
-- Keskustelemaks teiste kasutajatega liitu meie [Telegrami
-  grupiga][telegram_chat].
+- Palun liitu meie beetaprogrammiga, paku uusi funktsionaalsusi ning teata vigadest:
+  - [iOS Beta (TestFlight)][testflight]
+  - [Android Beta (Firebase)][firebase]
+  - [Linux'i töölauarakenduse beetaversioon (Flatpak)][flatpak]
+  - [Linux'i töölauarakenduse beetaversioon (pakendatuna)][repology]
+- Teata vigadest või probleemidest meie [veahalduse liideses][issues] või [saada meile e-kiri][email].
+- [Kommenteeri][ideas] juba tehtud ettepanekuid või paku mõni asjalik idee omalt poolt.
+- Viimase teabe saamiseks liitu meie [Telegrami kanaliga][telegram] või [Matrixi kogukonnaga][matrix].
+- Keskustelemaks teiste kasutajatega liitu meie [Telegrami grupiga][telegram_chat].
 - Vaata meie [arenduskeskkonda GitHubis][github].
-- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon],
-  [Facebook][facebook], [Twitter][twitter], [Instagram][instagram],
-  [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
-- Liitu kohalike kogukondadega: [ungarikeelne Matrixi
-  jututuba](https://matrix.to/#/#organicmapstranslate_hu:matrix.org),
-  [hiina-][telegram_chat_zh], [prantsuse-][telegram_chat_fr],
-  [vene-][telegram_chat_ru] ja [türgikeelne][telegram_chat_tr]jututuba
-  Telegramis. Kui soovid, siis alati saad luua uue kogukonna.
+- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

@@ -29,7 +29,7 @@ Instal dari [get.omaps.org](https://get.omaps.org) atau dari [App Store][appstor
 * Diperbaiki tumpang tindih toolbar routing di layar kecil _(Anton P)_
 * Diperbaiki crash pencarian di Android 5 dan 6 _(Alexander Borsuk)_
 * Diperbaiki terjemahan FAQ di Android 5 _(Alexander Borsuk)_
-* Diperbaiki kesalahan "Tidak Cukup Ruang Kosong" saat peta diperbarui _(Alexander Borsuk)_
+* Diperbaiki kesalahan “Tidak Cukup Ruang Kosong” saat peta diperbarui _(Alexander Borsuk)_
 
 ### Terjemahan
 

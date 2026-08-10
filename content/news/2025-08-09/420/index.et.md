@@ -5,15 +5,15 @@ taxonomies:
   news: ["releases"]
 ---
 
-Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat "Kihid" nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.
+Paigalda Organic Maps-i augusti väljalase, laadi alla uusimad kaardid ja avasta populaarseid matka- ja jalgrattateid üle kogu maailma! Vajuta üleval vasakul asuvat „Kihid“ nuppu, et näha värvilisi jalgratta- ja MTB-teid ning ametlikke matka- ja jalutusradu. Ei näe läheduses midagi? Siis on aeg lisada puuduv teave OpenStreetMap.org-i, kuna kõik Organic Maps-i kaardiandmed pärinevad sellest avatud, tasuta ja kogukonna poolt juhitud projektist.
 
-Kas teadsite, et mistahes salvestatud või imporditud GPX/KML-rada kaardil saab valida? Kõrgusandmetega rajad näitavad oma kõrgusgraafikut.
+Kas teadsid, et mistahes salvestatud või imporditud GPX/KML-rada kaardil saab valida? Kõrgusandmetega rajad näitavad oma kõrgusgraafikut.
 
-Järjehoidjate nimede nägemiseks kaardil lülitage see uus funktsioon sisse Organic Maps-i seadetes.
+Järjehoidjate nimede nägemiseks kaardil lülita see uus funktsioon sisse Organic Maps-i seadetes.
 
-Tänu meie kaastöötajatele ❤️ ja teie [annetustele](@/donate/index.et.md) on selles värskenduses palju enamat.
+Tänu meie kaastöötajatele ❤️ ja sinu [annetustele](@/donate/index.et.md) on selles värskenduses palju enamat.
 
-P.S. ...ja palju enamat on tulemas! Teie toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
+P.S. …ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama parimaid kaarte – koos.
 
 ### Üksikasjalikud väljalaskemärkused
 
@@ -24,6 +24,7 @@ P.S. ...ja palju enamat on tulemas! Teie toetus aitab ja motiveerib meid ehitama
 - Põllumajandus- ja metsateed on nüüd marsruutimisest välja jäetud (Viktor Govako)
 
 #### iOS
+
 - Lahendatud mitu krahhi ja parandatud iCloud sünkroniseerimise stabiilsus (Kiryl Kaveryn)
 - Tutvustatud mitmerealised pealkirjad järjehoidjate loendites (David Martinez)
 - Parandatud suurendamise probleem raja valiku tühistamisel (Kiryl Kaveryn)
@@ -32,12 +33,14 @@ P.S. ...ja palju enamat on tulemas! Teie toetus aitab ja motiveerib meid ehitama
 - Asendatud puuduvad tõlked ingliskeelsete alternatiividega (Viktor Govako)
 
 #### Android
+
 - Lisatud raja kõrgusgraafik ja raja valik kaardil (Kavi Khalique)
 - Jäta OpenStreetMap märkus, kui äsja lisatud huvipunkt (POI) ei ole Organic Maps-is veel toetatud (hemanggs)
 - Eemaldatud OpenGL ES 2.0 tugi OpenGL ES 3.0 kasuks (renderexpert)
 - Näita järjehoidja ikoone värvi valijas (Andrei Shkrob)
 
 #### Stiilide ja ikoonide täiustused
+
 - Kahvli ja noa ikoon toidukohtadele (David Martinez)
 - Märgistatud märgalad horisontaalse viirutamisega (Viktor Govako)
 - Ikoonid kiirtoidule ja jalgrattale otsingutulemites ja järjehoidjates (David Martinez)
@@ -48,7 +51,8 @@ P.S. ...ja palju enamat on tulemas! Teie toetus aitab ja motiveerib meid ehitama
 - Parandatud prioriteedi seaded diplomaatilistele büroodele (Viktor Govako)
 
 #### Mitmesugused täiustused
-- "cop" sisestamine otsingus leiab politseijaoskonnad, samas kui "film" või "movie theater" leiab kinod (theadventurer62)
+
+- „cop“ sisestamine otsingus leiab politseijaoskonnad, samas kui „film“ või „movie theater“ leiab kinod (theadventurer62)
 - Ava teises rakenduses näitab nüüd valitud punkti Google Maps-is (Alexander Borsuk)
 - Hispaaniakeelne tõlge rohkematele otsingukategooriatele (David Martinez)
 - Värskendatud erinevaid tõlkeid (Weblate kaastöötajad)

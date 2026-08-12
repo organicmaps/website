@@ -11,7 +11,11 @@
 
 set -eu
 
-staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.md$' || true)
+# content/ only, which is the scope translate_check.py was written for and the
+# scope CI sweeps. Markdown elsewhere is not prose: templates/shortcodes/*.md
+# are Tera templates whose `{{ lang }}` expressions are not content shortcodes,
+# and checking them reports faults that cannot be fixed. Zola validates those.
+staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^content/.*\.md$' || true)
 [ -z "$staged_md" ] && exit 0
 
 fail=0

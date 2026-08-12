@@ -71,7 +71,7 @@ BUILTIN_REFERENCES: dict[str, tuple[str, str]] = {
         "TestFlight",
     ),
     "firebase": (
-        "https://appdistribution.firebase.dev/i/4c45e28f11e15c43",
+        "https://appdistribution.firebase.dev/i/2f0fee463107b137",
         "Firebase",
     ),
 }

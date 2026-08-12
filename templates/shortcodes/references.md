@@ -10,7 +10,7 @@
 [exodus]: https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/
 [facebook]: https://facebook.com/OrganicMaps
 [fdroid]: https://f-droid.org/{{ lang | truncate(length=2, end="") }}/packages/app.organicmaps/ "{{ trans(key='install-fdroid', lang=lang) }}"
-[firebase]: https://appdistribution.firebase.dev/i/f3e918f9abc40c9c
+[firebase]: https://appdistribution.firebase.dev/i/2f0fee463107b137
 [flathub]: https://github.com/flathub/app.organicmaps.desktop
 [flatpak]: https://flathub.org/apps/details/app.organicmaps.desktop
 [FOSStodon]: https://fosstodon.org/@organicmaps "FOSStodon"

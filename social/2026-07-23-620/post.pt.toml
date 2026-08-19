@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "pt"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Atualização de julho"
+subtitle = "Este mês, fomos à caça de erros. Os transportes públicos, as rotas, a pesquisa e os favoritos ficaram todos mais eficientes."
+
+[[slides]]
+type = "feature"
+eyebrow = "Roteamento"
+title = "Avisos em todas as rotas"
+body = "As portagens, os ferries, as estradas não asfaltadas e os degraus agora também estão assinalados nas rotas alternativas, não só na primeira."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Favoritos"
+title = "Escolhe qualquer cor"
+body = "A paleta oferece agora um conjunto de cores predefinidas e permite-te criar uma paleta totalmente personalizada."
+media = "Colors for bookmarks and tracks.jpg"
+device = "iphone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Favoritos"
+title = "Organiza as tuas listas"
+body = "Um novo botão «Editar» permite remover favoritos rapidamente, e as tuas alterações ficam guardadas automaticamente quando saíres do ecrã."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "iphone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Um dia a dia mais tranquilo"
+items = [
+    "Os horários de funcionamento mostram os turnos divididos e toda a semana de uma só vez",
+    "Uma barra de pesquisa mais simples, com um botão que combina a função de limpar e a de comando de voz",
+    "Editor de favoritos e trilhos reformulado",
+    "Correções no planeamento de rotas e o seletor de cores fecha sozinho",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Também em julho"
+title = "Pequenas coisas que, no final, fazem a diferença"
+items = [
+    "Dados do OpenStreetMap atualizados a 14 de julho",
+    "As notas que marcares aparecem exatamente no sítio que escolheste",
+    "Os nomes das paragens e das estações ficam com um contorno branco, legíveis em ambos os temas",
+    "A camada do metro volta a aparecer depois de fechar uma pré-visualização dos transportes públicos",
+    "Corrigimos um bloqueio raro que ocorria durante a criação de uma rota",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Vê a atualização de julho"
+body = "Grátis, offline, sem anúncios e de código aberto."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

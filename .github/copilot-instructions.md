@@ -73,7 +73,9 @@ npm run upgrade      # Update npm dependencies
 
 Install Python dependencies from `tools/requirements-check.txt` for translation
 checks, or `tools/requirements-telegram.txt` (which includes the check dependencies)
-for Telegram publishing and the complete test suite.
+for Telegram publishing and the complete test suite. Rendering social creatives
+additionally needs Pillow — `tools/requirements-social.txt` — and a Chrome-family
+browser.
 
 ### Where the tooling lives
 
@@ -267,6 +269,54 @@ other language, reference, or page, and rejects it once the reference is no
 longer missing.
 
 Calibrated against the 383 human-proofread translations of the 2026 posts: 380 pass. The three that do not are genuine defects that review missed — `de` and `zh-Hans` both lost the "Join beta testing" heading in the May release, and `mr` dropped "Organic Maps" entirely. Checks were narrowed where the corpus proved them wrong: mixed-script detection applies only to Cyrillic and Greek, since Arabic `وGoogle`, Chinese `上的FAQ翻译` and Telugu `OpenStreetMapలో` are all correct.
+
+## Social creatives
+
+A release announcement goes out as branded images rather than raw screenshots.
+`.claude/skills/om-post/` is the skill that writes the slide script; three
+scripts turn it into what the channels get.
+
+```bash
+# 1. write social/2026-07-23-620/post.toml by hand (the skill's job)
+python3 tools/social_translate.py social/2026-07-23-620 --telegram   # 2. localize
+python3 tools/social_build.py social/2026-07-23-620 --all-langs      # 3. render
+python3 tools/telegram_post_all.py content/news/2026-07-23/620       # 4. post
+```
+
+`post.toml` describes four slide types and four themes; `social_build.py`
+renders each slide through headless Chrome at 2x and downsamples with Pillow,
+writing `export/<lang>/<format>/*.png` plus a per-language contact sheet.
+`social_translate.py` runs the slide copy through the same DeepL path as
+`translate_md.py` — glossary, formality, tidy passes — so terminology matches
+the news post the images accompany. Only prose is translated: `media`,
+`device`, `theme`, `badges` and `url` are identifiers, exactly like a slug.
+
+Four things are load-bearing:
+
+- **A news folder maps to a social folder by name.** `content/news/2026-07-23/620`
+  → `social/2026-07-23-620`, which is how `telegram_post_all.py` finds the
+  creatives with no flag. Screenshots are read from the news folder in place —
+  `source` in `post.toml` points at it — so nothing is duplicated. Neither are
+  the brand assets: the logo and store badges come from `static/`.
+- **Creatives never land in `content/`.** Zola turns every file beside an
+  `index.md` into a published page asset, and the OpenGraph preview picks the
+  first one. Renders live under `social/` and are gitignored; regenerate them
+  rather than committing ~90 PNGs per release.
+- **A channel gets its own language, falling back to English.** A language that
+  was not rendered is reported in the summary before anything is sent. If a
+  post has creatives, its raw screenshots are not posted alongside them — pass
+  `--no-creatives` for the old behaviour.
+- **Translations run long.** German and Russian routinely add a third, so an
+  auto-fit pass in the page shrinks the type scale until the slide fits, down
+  to 62%. It measures the slide's real children, never `scrollHeight`: the
+  watermark is an absolutely positioned `::after` hanging below the canvas on
+  every green slide, and counting it as overflow shrinks every one of them to
+  the floor. `social_translate.py` warns when a string outgrows its English
+  source, because shortening the copy beats shrinking the type.
+
+Rehearse before publishing: `--dry-run` shows the plan, and
+`--to @some_test_channel` sends the real thing to a throwaway group instead of
+the twelve real ones.
 
 ## Terminology glossary
 

@@ -6,9 +6,15 @@ Usage:
     python3 tools/telegram_post_all.py <path_to_content_folder> [--dry-run] [--yes]
     python3 tools/telegram_post_all.py <folder> --only @OrganicMapsRu,de,zh-Hans
     python3 tools/telegram_post_all.py <folder> --skip ru
+    python3 tools/telegram_post_all.py <folder> --only ru --to @my_test_channel
 
 The folder should contain markdown files like index.ru.md, index.fr.md, etc.
 and optionally media files (images/videos/audio) to attach to every post.
+
+If the post has rendered social creatives — social/<release>/export/<lang>/ —
+each channel gets the images in its own language instead of the raw
+screenshots, falling back to English for a language that was not rendered.
+Pass --no-creatives to send the raw screenshots as before.
 
 Posting stops at the first failure. Use --only with the channels listed in the
 "Resume with" hint to continue without double-posting to channels that already
@@ -24,6 +30,7 @@ import sys
 from pathlib import Path
 
 from markdown_frontmatter import strip_frontmatter
+from social_post import social_dir_for
 from telegram_post import (
     get_token,
     resolve_chat_id,
@@ -123,6 +130,34 @@ def find_media(folder: Path) -> list[Path]:
     return media
 
 
+CREATIVES_FORMAT = "4x5"
+
+
+def find_creatives_root(folder: Path, override: Path | None) -> Path | None:
+    """Where this post's rendered creatives live, if it has any.
+
+    By convention a news folder content/news/2026-07-23/620 renders into
+    social/2026-07-23-620/export/<lang>/<format>/. An explicit --creatives
+    path points at the export/ directory directly.
+    """
+    root = override if override is not None else social_dir_for(folder) / "export"
+    return root if root.is_dir() else None
+
+
+def creatives_for(root: Path | None, lang: str, fmt: str) -> list[Path]:
+    """The creatives a channel should get, English standing in for a language
+    that has not been rendered. Empty list if there are none at all."""
+    if root is None:
+        return []
+    for candidate in (lang, "en"):
+        directory = root / candidate / fmt
+        if directory.is_dir():
+            pngs = sorted(p for p in directory.iterdir() if p.is_file())
+            if pngs:
+                return pngs
+    return []
+
+
 def prepare_text(md_path: Path, site_root: Path) -> str:
     """Read markdown file, strip frontmatter, resolve references, clean up."""
     raw = md_path.read_text(encoding="utf-8")
@@ -188,6 +223,28 @@ def main() -> None:
         help="Comma-separated channels or language codes to leave out",
     )
     parser.add_argument(
+        "--to",
+        metavar="CHANNEL",
+        help="send every selected post to this one channel instead of the real "
+        "ones — for rehearsing a post on a throwaway group",
+    )
+    parser.add_argument(
+        "--creatives",
+        type=Path,
+        help="folder of rendered creatives with per-language subfolders "
+        "(default: social/<release>/export next to the news folder)",
+    )
+    parser.add_argument(
+        "--creatives-format",
+        default=CREATIVES_FORMAT,
+        help=f"which rendered format to attach (default: {CREATIVES_FORMAT})",
+    )
+    parser.add_argument(
+        "--no-creatives",
+        action="store_true",
+        help="attach the folder's raw screenshots, ignoring any creatives",
+    )
+    parser.add_argument(
         "--allow-plain-fallback",
         action="store_true",
         help="If Telegram rejects the MarkdownV2 markup, post the message "
@@ -207,11 +264,15 @@ def main() -> None:
     # tools/ lives one level below the site root
     site_root = Path(__file__).resolve().parent.parent
 
-    # Discover media files
-    media = find_media(args.folder)
-    media_problem = validate_media_set(media)
-    if media_problem:
-        print(f"Error: {media_problem}", file=sys.stderr)
+    # Media: rendered creatives per language when the post has them, the
+    # folder's raw screenshots otherwise.
+    raw_media = find_media(args.folder)
+    creatives_root = (
+        None if args.no_creatives
+        else find_creatives_root(args.folder, args.creatives)
+    )
+    if args.creatives is not None and creatives_root is None:
+        print(f"Error: no such creatives folder: {args.creatives}", file=sys.stderr)
         sys.exit(1)
 
     # A dry run never talks to the API, so it must not require a token.
@@ -219,11 +280,35 @@ def main() -> None:
 
     # Discover which groups have matching markdown files, and render each post
     # once — prepare_text() is not free and its warnings should print once.
-    tasks: list[tuple[str, Path, str]] = []
+    tasks: list[tuple[str, Path, str, list[Path]]] = []
     for group, filename in groups.items():
         md_path = args.folder / filename
-        if md_path.is_file():
-            tasks.append((group, md_path, prepare_text(md_path, site_root)))
+        if not md_path.is_file():
+            continue
+
+        lang = group_lang(filename)
+        if creatives_root is None:
+            media = raw_media
+        else:
+            media = creatives_for(creatives_root, lang, args.creatives_format)
+            # Silently posting the raw screenshots here would send an
+            # unbranded album to one channel and creatives to the rest.
+            if not media:
+                print(
+                    f"Error: no {args.creatives_format} creatives for {lang} "
+                    f"(nor English) under {creatives_root}.\n"
+                    f"Render them with tools/social_build.py, or pass "
+                    f"--no-creatives to send the raw screenshots.",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+
+        media_problem = validate_media_set(media)
+        if media_problem:
+            print(f"Error: {group}: {media_problem}", file=sys.stderr)
+            sys.exit(1)
+
+        tasks.append((group, md_path, prepare_text(md_path, site_root), media))
 
     if not tasks:
         print("No matching markdown files found in the folder.", file=sys.stderr)
@@ -232,12 +317,24 @@ def main() -> None:
 
     # Summary
     print(f"Folder: {args.folder}")
-    print(f"Media:  {len(media)} file(s)")
-    for m in media:
-        print(f"  {m.name}")
+    if creatives_root is None:
+        print(f"Media:  {len(raw_media)} raw file(s) from the post folder")
+        for m in raw_media:
+            print(f"  {m.name}")
+    else:
+        print(f"Media:  {args.creatives_format} creatives from {creatives_root}")
     print(f"Posts:  {len(tasks)} group(s)")
-    for group, md_path, _ in tasks:
-        print(f"  {group} ← {md_path.name}")
+    for group, md_path, _, media in tasks:
+        where = ""
+        if creatives_root is not None:
+            # The language shown is the one actually rendered, which is how an
+            # English fallback becomes visible before anything is posted.
+            rendered = media[0].parent.parent.name
+            where = f", {len(media)} × {rendered} image(s)"
+        print(f"  {group} ← {md_path.name}{where}")
+    if args.to:
+        print(f"\nREDIRECTED: every post above goes to {args.to}, "
+              f"not to the channel it names.")
 
     skipped = {fn for fn in groups.values()} - {t[1].name for t in tasks}
     if skipped:
@@ -249,7 +346,7 @@ def main() -> None:
 
     # Check for unresolved references in all files before posting
     has_warnings = False
-    for group, md_path, text in tasks:
+    for group, md_path, text, _ in tasks:
         unresolved = find_unresolved_references(text)
         if unresolved:
             has_warnings = True
@@ -282,8 +379,12 @@ def main() -> None:
     chat_ids: dict[str, str] = {}
     if not args.dry_run:
         print("Resolving channels...")
-        for group, _, _ in tasks:
-            chat_ids[group] = resolve_chat_id(token, group)
+        if args.to:
+            rehearsal = resolve_chat_id(token, args.to)
+            chat_ids = {group: rehearsal for group, _, _, _ in tasks}
+        else:
+            for group, _, _, _ in tasks:
+                chat_ids[group] = resolve_chat_id(token, group)
 
     def abort(message: str, remaining: list[str]) -> None:
         """Report a failure and show how to resume without double-posting."""
@@ -297,7 +398,7 @@ def main() -> None:
         sys.exit(1)
 
     # Post to each group
-    for i, (group, md_path, text) in enumerate(tasks, 1):
+    for i, (group, md_path, text, media) in enumerate(tasks, 1):
         print(f"\n{'='*60}")
         print(f"[{i}/{len(tasks)}] {group} ← {md_path.name}")
         print(f"{'='*60}")

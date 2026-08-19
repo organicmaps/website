@@ -24,7 +24,7 @@ eyebrow = "iOS · Signets"
 title = "Choisis n'importe quelle couleur"
 body = "La palette propose désormais un ensemble de couleurs prédéfinies et te permet de créer une palette entièrement personnalisée."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Signets"
 title = "Mets de l'ordre dans tes listes"
 body = "Un nouveau bouton « Modifier » te permet de supprimer rapidement des signets, et tes modifications sont enregistrées automatiquement quand tu quittes l'écran."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

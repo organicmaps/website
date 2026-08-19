@@ -24,7 +24,7 @@ eyebrow = "iOS · نشانک‌ها"
 title = "هر رنگی را انتخاب کن"
 body = "پالت اکنون مجموعه‌ای از رنگ‌های از پیش تعریف‌شده را ارائه می‌دهد و به شما امکان می‌دهد یک پالت کاملاً سفارشی را تنظیم کنید."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · نشانک‌ها"
 title = "فهرست‌های خود را مرتب کنید"
 body = "یک دکمهٔ ویرایش جدید حذف نشانک‌ها را سریع می‌کند و تغییرات شما هنگام خروج از صفحه به‌طور خودکار ذخیره می‌شوند."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

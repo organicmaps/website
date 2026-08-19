@@ -39,7 +39,10 @@ BADGE_ALIASES = {
 
 SLIDE_TYPES = ("cover", "feature", "list", "cta")
 THEMES = ("green", "blue", "light", "dark")
-DEVICES = ("phone", "desktop", "plain")
+# "phone" is the generic frame; iphone/android add the platform's own corner
+# radius, rim and side buttons. A plain "phone" on a slide whose eyebrow names
+# a platform is upgraded to it at render time.
+DEVICES = ("phone", "iphone", "android", "desktop", "plain")
 
 # Prose. Everything else in a slide is an identifier: a file path, a theme
 # name, a badge name, a pixel count or the short URL — none of which survive

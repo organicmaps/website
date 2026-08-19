@@ -24,7 +24,7 @@ eyebrow = "iOS · Segnalibri"
 title = "Scegli un colore qualsiasi"
 body = "La tavolozza ora offre una serie di colori predefiniti e ti permette di crearne una completamente personalizzata."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Segnalibri"
 title = "Metti in ordine le tue liste"
 body = "Un nuovo pulsante \"Modifica\" ti permette di rimuovere velocemente i segnalibri, e le modifiche vengono salvate automaticamente quando esci dalla schermata."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

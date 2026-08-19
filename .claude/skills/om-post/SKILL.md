@@ -49,7 +49,7 @@ eyebrow = "iOS · Bookmarks"
 title = "Pick any color"
 body = "One sentence. What changed and why the reader cares."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"         # phone | desktop | plain
+device = "iphone"        # iphone | android | phone | desktop | plain
 theme = "blue"           # green | blue | light | dark
 bleed = 120              # optional, see below
 
@@ -71,6 +71,10 @@ badges = ["apple-appstore", "googleplay", "f-droid"]
 Keys are all optional except `type` and `title`. Badge names are the filenames
 in `static/images/badges/`; the logo comes from `static/logos/`. Nothing is
 duplicated into the social folder — these are the assets the website serves.
+
+An iOS screenshot is wrapped in an iPhone, an Android one in an Android phone.
+Leave `device` out and the platform is read off the eyebrow — `iOS · Bookmarks`
+picks the iPhone by itself, in every language.
 
 **`bleed`** controls portrait mockups. By default a phone runs off the bottom
 edge so it reads large instead of shrinking to a sliver. If the feature being

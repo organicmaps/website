@@ -24,7 +24,7 @@ eyebrow = "iOS · Yer imleri"
 title = "İstediğin rengi seç"
 body = "Palet artık önceden tanımlanmış bir renk seti sunuyor ve tamamen size özel bir renk seti oluşturmana olanak tanıyor."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Yer imleri"
 title = "Listelerini düzenle"
 body = "Yeni bir “Düzenle” düğmesi sayesinde yer imlerini hızlı bir şekilde silebilirsin; ayrıca ekrandan çıktığında yaptığın değişiklikler otomatik olarak kaydedilir."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

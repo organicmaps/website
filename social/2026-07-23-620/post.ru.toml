@@ -24,7 +24,7 @@ eyebrow = "iOS · Метки"
 title = "Выберите любой цвет"
 body = "Теперь палитра предлагает набор предустановленных цветов и позволяет создать полностью индивидуальную цветовую схему."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Метки"
 title = "Приведите свои списки в порядок"
 body = "Новая кнопка «Редактировать» позволяет быстро удалять метки, а ваши изменения сохраняются автоматически при выходе с экрана."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

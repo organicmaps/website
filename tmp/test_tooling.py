@@ -419,6 +419,40 @@ class SlideRenderingTests(unittest.TestCase):
         self.assertIn("--bleed:120px", html)
         self.assertIn("slide feature bleed", html)
 
+    def test_the_platform_decides_the_frame(self):
+        cases = [
+            ({"eyebrow": "iOS · Bookmarks"}, "iphone"),
+            ({"eyebrow": "iOS · Метки"}, "iphone"),          # survives translation
+            ({"eyebrow": "Android"}, "android"),
+            ({"eyebrow": "Routing"}, "phone"),               # no platform named
+            ({}, "phone"),
+            # An explicit device is never second-guessed.
+            ({"eyebrow": "iOS · Bookmarks", "device": "phone"}, "iphone"),
+            ({"eyebrow": "iOS · Bookmarks", "device": "android"}, "android"),
+            ({"eyebrow": "Android", "device": "desktop"}, "desktop"),
+        ]
+        for slide, expected in cases:
+            with self.subTest(slide):
+                self.assertEqual(social_build.device_of(dict(slide)), expected)
+
+    def test_a_phone_of_any_platform_bleeds_off_the_canvas(self):
+        for eyebrow, frame in (("iOS", "iphone"), ("Android", "android")):
+            slide = {"type": "feature", "title": "x", "eyebrow": eyebrow,
+                     "media": "Colors for bookmarks and tracks.jpg"}
+            html = self.render(slide)
+            self.assertIn(f'class="device {frame}"', html)
+            self.assertIn("slide feature bleed", html)
+            # The frame is sized from the screenshot's own pixels.
+            self.assertIn("--shot:884/1920", html)
+            # A platform frame puts its camera cutout back.
+            self.assertIn('class="cutout"', html)
+
+    def test_an_unknown_device_gets_no_cutout(self):
+        for device in ("phone", "desktop", "plain"):
+            slide = {"type": "feature", "title": "x", "device": device,
+                     "media": "Colors for bookmarks and tracks.jpg"}
+            self.assertNotIn("cutout", self.render(slide), device)
+
     def test_right_to_left_languages_are_marked_as_such(self):
         slide = {"type": "list", "title": "قائمة"}
         self.assertIn("dir='rtl'", self.render(slide, rtl=True))

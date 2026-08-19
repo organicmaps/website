@@ -21,12 +21,34 @@ Keys: `eyebrow`, `title`, `body`, `media`, `device`, `theme`, `bleed`.
 
 `device`:
 
-- `phone` — portrait shot. Thin dark bezel via box-shadow, bleeds off the
-  bottom edge by default so it reads large.
+- `iphone` — portrait iOS shot. Continuous corners, a bright titanium rim,
+  volume rocker on the left and the side button opposite.
+- `android` — portrait Android shot. Tighter corners, graphite rim, power
+  above the volume rocker, both on the right.
+- `phone` — portrait shot on no particular platform. The plain dark bezel.
 - `desktop` — landscape shot. Rounded corners and a drop shadow only; the
   macOS traffic lights are already inside the screenshot. Runs nearly full
   canvas width.
 - `plain` — rounded card, no device pretence. For diagrams or crops.
+
+All three phone frames bleed off the bottom edge by default.
+
+**The platform is usually inferred.** A slide with no `device`, or with
+`device = "phone"`, whose eyebrow names iOS or Android gets that platform's
+frame — `eyebrow = "iOS · Bookmarks"` is enough. Both names stay Latin in
+every translation, so this holds for `post.ar.toml` as much as for the English
+source. Set `device` explicitly when the eyebrow says something else, or to
+force the generic frame on a platform slide.
+
+The camera cutout is drawn back in — a Dynamic Island for `iphone`, a
+punch-hole for `android` — sized as a share of the screen off the real
+hardware, so it holds at any rendered size. It is not decoration on top of the
+screenshot: the cutout is a hole in the display, neither system draws into it,
+and the screenshot has an empty gap in the status bar exactly where it belongs.
+
+That is also why `phone` has none. It exists for a screenshot whose device is
+unknown, and putting a Dynamic Island on an iPhone SE shot would be worse than
+drawing nothing.
 
 ## `list`
 

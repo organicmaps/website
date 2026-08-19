@@ -18,6 +18,7 @@ Requires Pillow (tools/requirements-check.txt) and Google Chrome or Chromium.
 import argparse
 import html
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -132,16 +133,61 @@ AUTOFIT_JS = """
 """
 
 
+# iOS and Android are brand names: they survive translation as Latin in every
+# channel language, so reading the platform off a slide's eyebrow works on
+# post.ru.toml and post.ar.toml as well as on the English source.
+PLATFORM_FRAMES = (
+    (re.compile(r"\b(?:iOS|iPhone|iPad)\b", re.IGNORECASE), "iphone"),
+    (re.compile(r"\bAndroid\b", re.IGNORECASE), "android"),
+)
+
+# Frames that hold a portrait screenshot and may bleed off the bottom edge.
+PHONE_FRAMES = {"phone", "iphone", "android"}
+
+# Frames that get a camera cutout drawn back in. The generic "phone" does not:
+# it exists for screenshots whose device is unknown, and guessing a Dynamic
+# Island onto an iPhone SE shot would be worse than drawing nothing.
+CUTOUT_FRAMES = {"iphone", "android"}
+
+
+def device_of(slide: dict) -> str:
+    """Which frame the screenshot is wrapped in.
+
+    An explicit `device` always wins. A plain `phone` is upgraded to the
+    platform its eyebrow names, so a slide about an iOS feature gets an iPhone
+    without having to say so twice.
+    """
+    device = slide.get("device", "phone")
+    if device != "phone":
+        return device
+    eyebrow = slide.get("eyebrow", "")
+    for pattern, frame in PLATFORM_FRAMES:
+        if pattern.search(eyebrow):
+            return frame
+    return "phone"
+
+
 def render_media(post: dict, slide: dict, post_dir: Path) -> str:
     media = slide.get("media")
     if not media:
         return ""
-    device = slide.get("device", "phone")
+    device = device_of(slide)
     src = resolve_media(post, post_dir, media)
+    # The frame wraps the screenshot so it can carry side buttons, which a
+    # box-shadow cannot draw. Handing it the screenshot's own aspect ratio
+    # keeps it exactly the size the image would have been, so the fit-inside
+    # behaviour is still the image's and not something reimplemented here.
+    with Image.open(src) as im:
+        ratio = f"{im.width}/{im.height}"
+    # The camera cutout is hardware: the screenshot has a gap where it sits,
+    # because neither iOS nor Android draws over its own cutout. Putting it
+    # back is what makes the frame read as the device it is.
+    cutout = '<span class="cutout"></span>' if device in CUTOUT_FRAMES else ""
     return (
         f'<div class="media">'
-        f'<img class="device {esc(device)}" src="{furl(src)}" alt="">'
-        f"</div>"
+        f'<div class="device {esc(device)}" style="--shot:{ratio}">'
+        f'<img src="{furl(src)}" alt="">{cutout}'
+        f"</div></div>"
     )
 
 
@@ -206,9 +252,9 @@ def layout(slide: dict) -> tuple[str, str]:
     the phone is allowed off-canvas — useful when the feature being shown sits
     low in the screenshot.
     """
-    device = slide.get("device", "phone") if slide.get("media") else None
+    device = device_of(slide) if slide.get("media") else None
     bleed = slide.get("bleed", True)
-    if device == "phone" and bleed is not False:
+    if device in PHONE_FRAMES and bleed is not False:
         style = f" style='--bleed:{int(bleed)}px'" if bleed is not True else ""
         return " bleed", style
     if device == "desktop":

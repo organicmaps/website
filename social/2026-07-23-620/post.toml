@@ -24,7 +24,7 @@ eyebrow = "iOS · Bookmarks"
 title = "Pick any color"
 body = "The palette now offers a set of predefined colors and lets you dial in a fully custom one."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Bookmarks"
 title = "Tidy up your lists"
 body = "A new Edit button makes removing bookmarks quick, and your changes save themselves when you leave the screen."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

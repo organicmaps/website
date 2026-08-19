@@ -24,7 +24,7 @@ eyebrow = "iOS · Marcadores"
 title = "Elige cualquier color"
 body = "La paleta ahora ofrece un conjunto de colores predefinidos y te permite crear uno totalmente personalizado."
 media = "Colors for bookmarks and tracks.jpg"
-device = "phone"
+device = "iphone"
 theme = "blue"
 
 [[slides]]
@@ -33,7 +33,7 @@ eyebrow = "iOS · Marcadores"
 title = "Pon en orden tus listas"
 body = "Un nuevo botón «Editar» te permite eliminar marcadores rápidamente, y los cambios se guardan automáticamente al salir de la pantalla."
 media = "Mass bookmarks and tracks editing.jpg"
-device = "phone"
+device = "iphone"
 theme = "green"
 
 [[slides]]

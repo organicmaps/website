@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "de"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Juli-Update"
+subtitle = "Diesen Monat haben wir uns auf die Suche nach Fehlern gemacht. Öffentliche Verkehrsmittel, Route, Suche und Lesezeichen – all das wurde noch besser."
+
+[[slides]]
+type = "feature"
+eyebrow = "Routing"
+title = "Warnungen auf jeder Route"
+body = "Mautstellen, Fähren, unbefestigte Straßen und Stufen werden jetzt auch auf den alternativen Routen markiert, nicht nur auf der ersten."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Lesezeichen"
+title = "Such dir eine beliebige Farbe aus"
+body = "Die Palette bietet jetzt eine Auswahl an vordefinierten Farben und ermöglicht es dir, eine ganz individuelle Farbpalette zusammenzustellen."
+media = "Colors for bookmarks and tracks.jpg"
+device = "phone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Lesezeichen"
+title = "Bring Ordnung in deine Listen"
+body = "Mit der neuen Schaltfläche „Bearbeiten“ kannst du Lesezeichen schnell entfernen, und deine Änderungen werden automatisch gespeichert, sobald du den Bildschirm verlässt."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "phone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Ein entspannterer Alltag"
+items = [
+    "Die Öffnungszeiten zeigen sowohl geteilte Schichten als auch die gesamte Woche auf einen Blick",
+    "Übersichtlichere Suchleiste mit einer kombinierten Schaltfläche zum Löschen und zur Sprachsteuerung",
+    "Überarbeiteter Lesezeichen- und Track-Editor",
+    "Korrekturen bei der Planung von Routen, und der Farbwähler schließt sich von selbst",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Ebenfalls im Juli"
+title = "Kleine Dinge, die sich summieren"
+items = [
+    "OpenStreetMap-Daten, aktualisiert am 14. Juli",
+    "Die Notizen, die du meldest, erscheinen genau an der Stelle, die du ausgewählt hast",
+    "Haltestellen- und Bahnhofsnamen werden mit einem weißen Umriss versehen, der in beiden Designs gut lesbar ist",
+    "Die U-Bahn-Ebene wird nach dem Schließen einer Transit-Vorschau wieder angezeigt",
+    "Ein seltener Absturz beim Erstellen einer Route wurde behoben",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Hol dir das Juli-Update"
+body = "Kostenlos, offline, werbefrei und Open Source."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

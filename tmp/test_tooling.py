@@ -13,6 +13,14 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
+from social_post import (  # noqa: E402
+    PostError,
+    dump_post,
+    load_post,
+    resolve_media,
+    social_dir_for,
+    text_fields,
+)
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
@@ -24,6 +32,11 @@ from telegram_post import (  # noqa: E402
 )
 from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
 from translate_md import _segments, register_ok, tidy  # noqa: E402
+
+try:  # Pillow is only needed to render, not to check the slide script
+    import social_build  # noqa: E402
+except ImportError:  # pragma: no cover
+    social_build = None
 
 
 class FakeResponse:
@@ -239,6 +252,132 @@ class StagedHookTests(unittest.TestCase):
             self.assertEqual(
                 regression.returncode, 0, regression.stdout + regression.stderr
             )
+
+
+SAMPLE_POST = """\
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "en"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "July Update"
+subtitle = "One sentence."
+
+[[slides]]
+type = "feature"
+eyebrow = "Routing"
+title = "Warnings on every route"
+body = "Tolls and ferries are flagged."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "list"
+title = "Smoother day to day"
+items = ["Opening hours", "Cleaner search bar"]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Get the July update"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay"]
+"""
+
+
+class SocialPostTests(unittest.TestCase):
+    def write_post(self, folder: Path, text: str = SAMPLE_POST) -> Path:
+        path = folder / "post.toml"
+        path.write_text(text, encoding="utf-8")
+        return path
+
+    def test_dumped_post_parses_back_identically(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self.write_post(Path(tmp))
+            post = load_post(path)
+            path.write_text(dump_post(post), encoding="utf-8")
+            self.assertEqual(load_post(path), post)
+
+    def test_only_prose_is_offered_for_translation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            post = load_post(self.write_post(Path(tmp)))
+            translatable = {
+                value
+                for slide in post["slides"]
+                for _, _, value in text_fields(slide)
+            }
+            self.assertIn("Warnings on every route", translatable)
+            self.assertIn("Opening hours", translatable)
+            # A translated file path, theme, badge or short URL would break the
+            # render or point the reader somewhere else.
+            for identifier in (
+                "Barriers on a route.jpg", "desktop", "green",
+                "get.omaps.org", "apple-appstore",
+            ):
+                self.assertNotIn(identifier, translatable)
+
+    def test_a_broken_slide_script_is_rejected_before_rendering(self):
+        cases = {
+            "unknown type": SAMPLE_POST.replace('type = "cover"', 'type = "hero"'),
+            "no title": SAMPLE_POST.replace('title = "July Update"\n', ""),
+            "unknown theme": SAMPLE_POST.replace('theme = "light"', 'theme = "teal"'),
+            "unknown badge": SAMPLE_POST.replace('"googleplay"', '"playstore"'),
+            "no slides": 'release = "x"\n',
+        }
+        for name, text in cases.items():
+            with self.subTest(name), tempfile.TemporaryDirectory() as tmp:
+                path = self.write_post(Path(tmp), text)
+                with self.assertRaises(PostError):
+                    load_post(path)
+
+    def test_media_is_found_in_the_news_folder_it_came_from(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            post = load_post(self.write_post(Path(tmp)))
+            found = resolve_media(post, Path(tmp), "Barriers on a route.jpg")
+            self.assertEqual(
+                found,
+                ROOT / "content/news/2026-07-23/620/Barriers on a route.jpg",
+            )
+            with self.assertRaises(PostError):
+                resolve_media(post, Path(tmp), "nothing-here.jpg")
+
+    def test_a_news_folder_maps_to_its_social_folder(self):
+        self.assertEqual(
+            social_dir_for(ROOT / "content/news/2026-07-23/620"),
+            ROOT / "social/2026-07-23-620",
+        )
+
+
+@unittest.skipIf(social_build is None, "Pillow is not installed")
+class SlideRenderingTests(unittest.TestCase):
+    def render(self, slide: dict, fmt: str = "4x5", **kwargs) -> str:
+        post = {"slides": [slide], "source": "content/news/2026-07-23/620"}
+        return social_build.render_html(
+            post, slide, ROOT / "social/2026-07-23-620", fmt, 1, 1, **kwargs
+        )
+
+    def test_copy_is_escaped_rather_than_injected(self):
+        html = self.render({"type": "list", "title": 'Tracks & "routes" <b>'})
+        self.assertIn("Tracks &amp; &quot;routes&quot; &lt;b&gt;", html)
+        self.assertNotIn("<b>", html)
+
+    def test_a_bleeding_phone_keeps_its_pixel_override(self):
+        html = self.render({
+            "type": "feature", "title": "Pick any color",
+            "media": "Colors for bookmarks and tracks.jpg",
+            "device": "phone", "bleed": 120,
+        })
+        self.assertIn("--bleed:120px", html)
+        self.assertIn("slide feature bleed", html)
+
+    def test_right_to_left_languages_are_marked_as_such(self):
+        slide = {"type": "list", "title": "قائمة"}
+        self.assertIn("dir='rtl'", self.render(slide, rtl=True))
+        self.assertNotIn("dir='rtl'", self.render(slide))
 
 
 if __name__ == "__main__":

@@ -73,7 +73,9 @@ npm run upgrade      # Update npm dependencies
 
 Install Python dependencies from `tools/requirements-check.txt` for translation
 checks, or `tools/requirements-telegram.txt` (which includes the check dependencies)
-for Telegram publishing and the complete test suite.
+for Telegram publishing and the complete test suite. Rendering social creatives
+additionally needs Pillow — `tools/requirements-social.txt` — and a Chrome-family
+browser.
 
 ### Where the tooling lives
 

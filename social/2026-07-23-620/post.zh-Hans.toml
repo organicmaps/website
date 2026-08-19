@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "zh-Hans"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "7月更新"
+subtitle = "本月，我们展开了一次“抓 bug”行动。公共交通、路线规划、搜索和书签功能都得到了进一步优化。"
+
+[[slides]]
+type = "feature"
+eyebrow = "路线"
+title = "每条路线上的警告"
+body = "现在，不仅第一条替代路线，其他替代路线上的收费站、渡轮、未铺装道路和台阶也已标注出来。"
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · 书签"
+title = "任选一种颜色"
+body = "该调色板现在提供了一组预设颜色，并允许你设置完全自定义的颜色。"
+media = "Colors for bookmarks and tracks.jpg"
+device = "phone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · 书签"
+title = "整理一下你的列表"
+body = "新增的“编辑”按钮可让你快速删除书签，且当你离开该屏幕时，所做的更改会自动保存。"
+media = "Mass bookmarks and tracks editing.jpg"
+device = "phone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "让日常生活更顺畅"
+items = [
+    "营业时间显示分段班次及整周安排",
+    "更简洁的搜索栏，集“清除”和“语音”按钮于一体",
+    "重新设计的书签和轨迹编辑器",
+    "路线规划问题已修复，且颜色选择器会自动关闭",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "同样在7月"
+title = "点滴积少成多"
+items = [
+    "OpenStreetMap 数据更新至 7 月 14 日",
+    "你报告的笔记会显示在你选定的确切位置",
+    "车站和站点名称会显示白色边框，在两种主题下均清晰可读",
+    "关闭交通预览后，地铁图层会重新显示",
+    "修复了在构建路线时偶尔出现的卡死问题",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "获取7月更新"
+body = "免费、离线、无广告且开源。"
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

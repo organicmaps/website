@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "es"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Actualización de julio"
+subtitle = "Este mes nos hemos dedicado a buscar errores. El transporte público, las rutas, la búsqueda y los marcadores han mejorado bastante."
+
+[[slides]]
+type = "feature"
+eyebrow = "Enrutamiento"
+title = "Advertencias en todas las rutas"
+body = "Ahora también se indican los peajes, los transbordadores, las carreteras sin asfaltar y los escalones en las rutas alternativas, no solo en la primera."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Marcadores"
+title = "Elige cualquier color"
+body = "La paleta ahora ofrece un conjunto de colores predefinidos y te permite crear uno totalmente personalizado."
+media = "Colors for bookmarks and tracks.jpg"
+device = "phone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Marcadores"
+title = "Pon en orden tus listas"
+body = "Un nuevo botón «Editar» te permite eliminar marcadores rápidamente, y los cambios se guardan automáticamente al salir de la pantalla."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "phone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Un día a día más tranquilo"
+items = [
+    "El horario muestra los turnos divididos y toda la semana de una sola vez",
+    "Una barra de búsqueda más sencilla con un botón combinado para borrar y para la función de voz",
+    "Editor de marcadores y tracks renovado",
+    "Se han solucionado los problemas con la planificación de rutas, y el selector de colores se cierra solo",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "También en julio"
+title = "Pequeñas cosas que, al final, suman"
+items = [
+    "Datos de OpenStreetMap actualizados a fecha de 14 de julio",
+    "Las notas que marques aparecerán exactamente en el lugar que hayas elegido",
+    "Los nombres de las paradas y estaciones aparecen con un contorno blanco, legibles en ambos temas",
+    "La capa del metro vuelve a aparecer tras cerrar una vista previa del transporte público",
+    "Se ha solucionado un fallo poco frecuente que provocaba que el programa se colgara al crear una ruta",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Consigue la actualización de julio"
+body = "Gratis, sin conexión, sin anuncios y de código abierto."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

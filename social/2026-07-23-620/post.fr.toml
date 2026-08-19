@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "fr"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Mise à jour de juillet"
+subtitle = "Ce mois-ci, on est partis à la chasse aux bugs. Les transports en commun, le calcul d'itinéraires, la recherche et les signets ont tous été améliorés."
+
+[[slides]]
+type = "feature"
+eyebrow = "Routage"
+title = "Des avertissements sur chaque itinéraire"
+body = "Les péages, les ferries, les itinéraires non goudronnés et les marches sont désormais signalés sur les itinéraires alternatifs aussi, pas seulement sur le premier."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Signets"
+title = "Choisis n'importe quelle couleur"
+body = "La palette propose désormais un ensemble de couleurs prédéfinies et te permet de créer une palette entièrement personnalisée."
+media = "Colors for bookmarks and tracks.jpg"
+device = "phone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Signets"
+title = "Mets de l'ordre dans tes listes"
+body = "Un nouveau bouton « Modifier » te permet de supprimer rapidement des signets, et tes modifications sont enregistrées automatiquement quand tu quittes l'écran."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "phone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Un quotidien plus serein"
+items = [
+    "Les horaires d'ouverture indiquent les horaires fractionnés et toute la semaine d'un seul coup",
+    "Une barre de recherche plus épurée, avec un bouton combiné « Effacer » et « Commande vocale »",
+    "Éditeur de signets et de traces repensé",
+    "Corrections apportées au calcul d'itinéraire, et le sélecteur de couleurs se ferme tout seul",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Aussi en juillet"
+title = "Les petits détails qui font la différence"
+items = [
+    "Données OpenStreetMap mises à jour au 14 juillet",
+    "Les notes que tu signales apparaissent exactement là où tu les as choisies",
+    "Les noms des arrêts et des gares sont soulignés d'un contour blanc, lisible dans les deux thèmes",
+    "La couche « Métro » réapparaît après la fermeture d'un aperçu des transports en commun",
+    "On a corrigé un problème rare de blocage du jeu lors de la création d'un itinéraire",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Télécharge la mise à jour de juillet"
+body = "Gratuit, hors ligne, sans pub et open source."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

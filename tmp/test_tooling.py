@@ -30,6 +30,7 @@ from telegram_post import (  # noqa: E402
     validate_media_set,
     visible_text,
 )
+from telegram_post_all import creatives_for, find_creatives_root  # noqa: E402
 from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
 from translate_md import _segments, register_ok, tidy  # noqa: E402
 
@@ -350,6 +351,50 @@ class SocialPostTests(unittest.TestCase):
             social_dir_for(ROOT / "content/news/2026-07-23/620"),
             ROOT / "social/2026-07-23-620",
         )
+
+
+class CreativeSelectionTests(unittest.TestCase):
+    """Which images each Telegram channel is handed."""
+
+    def make_export(self, root: Path, langs: tuple[str, ...]) -> Path:
+        export = root / "export"
+        for lang in langs:
+            folder = export / lang / "4x5"
+            folder.mkdir(parents=True)
+            for name in ("01-cover.png", "02-feature.png"):
+                (folder / name).write_bytes(b"png")
+        # The contact sheet sits beside the format folder precisely so it is
+        # never posted as one of the slides.
+        for lang in langs:
+            (export / lang / "sheet-4x5.png").write_bytes(b"png")
+        return export
+
+    def test_a_channel_gets_its_own_language(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            export = self.make_export(Path(tmp), ("en", "ru"))
+            picked = creatives_for(export, "ru", "4x5")
+            self.assertEqual([p.name for p in picked],
+                             ["01-cover.png", "02-feature.png"])
+            self.assertTrue(all(p.parent.parent.name == "ru" for p in picked))
+
+    def test_an_unrendered_language_falls_back_to_english(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            export = self.make_export(Path(tmp), ("en",))
+            picked = creatives_for(export, "tr", "4x5")
+            self.assertTrue(picked)
+            self.assertTrue(all(p.parent.parent.name == "en" for p in picked))
+
+    def test_nothing_rendered_means_nothing_picked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            export = self.make_export(Path(tmp), ("de",))
+            self.assertEqual(creatives_for(export, "tr", "4x5"), [])
+            self.assertEqual(creatives_for(None, "de", "4x5"), [])
+            # A format that was not rendered is not silently swapped either.
+            self.assertEqual(creatives_for(export, "de", "9x16"), [])
+
+    def test_a_post_without_creatives_reports_none(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertIsNone(find_creatives_root(Path(tmp), None))
 
 
 @unittest.skipIf(social_build is None, "Pillow is not installed")

@@ -67,7 +67,11 @@ CASES = {
     "image": "![A screenshot](/images/shot.png) above.",
     "code span": "Use the `--dry-run` flag.",
     "fenced code": "```python\nprint('hi')\n```",
-    "shortcode": "{{ references() }}",
+    "component": "{{ <references lang /> }}",
+    "component inside html": (
+        '<img src="{{ <asset_url config path=\'/sponsors/futo.svg\' /> }}" '
+        'alt="FUTO">'
+    ),
     "bold": "This is **very** important.",
     "italic underscore": "This is _subtle_ emphasis.",
     "italic star": "This is *subtle* emphasis.",
@@ -119,7 +123,7 @@ except ValueError:
 NEVER_TRANSLATED = {
     "url": ("See [docs](https://organicmaps.app/a_b) now.", "https://organicmaps.app/a_b"),
     "code": ("Use `--dry-run` now.", "--dry-run"),
-    "shortcode": ("{{ references() }}", "references()"),
+    "component": ("{{ <references lang /> }}", "<references lang"),
     "attribution": ("- Fixed _(Kiryl Kaveryn)_", "Kiryl Kaveryn"),
     "brand": ("Organic Maps is great", "Organic Maps"),
     "html": ("No ads<br/>", "<br/>"),
@@ -173,7 +177,7 @@ FORBIDDEN = [
     ("a URL", re.compile(r"https?://|www\.")),
     ("a markdown link", re.compile(r"\]\(|\]\[")),
     ("a code span", re.compile(r"`")),
-    ("a shortcode", re.compile(r"\{\{|\}\}")),
+    ("a Tera expression/component", re.compile(r"\{\{|\}\}")),
     ("bold markers", re.compile(r"\*\*")),
     ("strikethrough markers", re.compile(r"~~")),
     ("an attribution", re.compile(r"_\([^)]*\)_")),
@@ -206,7 +210,7 @@ PURITY_CASES = {
     "bare url": "Mirror at https://cdn.organicmaps.app/f_a.zip ok.",
     "autolink": "Visit <https://organicmaps.app> now.",
     "code span": "Use the `--dry-run` flag.",
-    "shortcode": "{{ references() }}",
+    "component": "{{ <references lang /> }}",
     "attribution": "- Fixed a crash _(Kiryl Kaveryn)_",
     "brand": "Organic Maps uses OpenStreetMap data.",
     "raw html": "✅ No ads<br/>",
@@ -237,7 +241,12 @@ EXACT = {
     "attribution is fully protected": ("_(Kiryl Kaveryn)_", "<x>0</x>"),
     "autolink is fully protected": ("<https://organicmaps.app>", "<x>0</x>"),
     "code span is fully protected": ("`--dry-run`", "<x>0</x>"),
-    "shortcode is fully protected": ("{{ references() }}", "<x>0</x>"),
+    "component is fully protected": ("{{ <references lang /> }}", "<x>0</x>"),
+    "html containing a component is fully protected": (
+        '<img src="{{ <asset_url config path=\'/sponsors/futo.svg\' /> }}" '
+        'alt="FUTO">',
+        "<x>0</x>",
+    ),
     "brand is fully protected": ("Organic Maps", "<x>0</x>"),
     "image is fully protected": ("![alt](/a.png)", "<x>0</x>"),
     "bare url is fully protected": ("https://a.example/x", "<x>0</x>"),

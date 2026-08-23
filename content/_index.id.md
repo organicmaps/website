@@ -97,7 +97,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Proyek peningkatan Pencarian & Sumber</a> telah <a href="https://nlnet.nl/project/OrganicMaps/">didanai</a> melalui Dana NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Dana NGI0 Entrust</a> didirikan oleh <a href="https://nlnet.nl/">Yayasan NLnet</a> dengan dukungan keuangan dari program <a href="https://www.ngi.eu/">Next Generation Internet</a> Komisi Eropa, di bawah naungan DG Communications Networks, Content and Technology berdasarkan perjanjian hibah No 101069594.
@@ -105,7 +105,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> mendukung proyek siswa dalam program Google Summer of Code selama program <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Proyek-proyek penting termasuk Android Auto, Ekstraktor dump Wikipedia, Perekaman trek Android.
@@ -113,7 +113,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">menyediakan</a> dua server virtual dengan bandwidth gratis hingga 400 TB/bulan untuk menampung dan melayani unduhan dan pembaruan peta.
@@ -121,7 +121,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">menyediakan</a> server khusus gratis senilai sekitar $12.000/tahun untuk melayani peta di Vietnam dan Asia Tenggara.
@@ -129,7 +129,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">memberikan hibah mikro $1000</a> kepada Organic Maps pada Februari 2023.

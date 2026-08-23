@@ -97,7 +97,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Mae'r prosiect gwella Chwilio a Ffontiau</a> wedi cael ei <a href="https://nlnet.nl/project/OrganicMaps/">ariannu</a> trwy Gronfa NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Sefydlir Cronfa NGI0 Entrust</a> gan y <a href="https://nlnet.nl/">Sefydliad NLnet</a> gyda chefnogaeth ariannol gan raglen <a href="https://www.ngi.eu/">Next Generation Internet</a> y Comisiwn Ewropeaidd, o dan nawdd DG Rhwydweithiau Cyfathrebu, Cynnwys a Thechnoleg o dan gytundeb grant Rhif 101069594.
@@ -105,7 +105,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> cefnogodd brosiectau myfyrwyr yn rhaglen Google Summer of Code yn ystod rhaglenni <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Roedd prosiectau nodedig yn cynnwys Android Auto, Echdynnwr Dympio Wicipedia, Recordio Traciau ar gyfer Android.
@@ -113,7 +113,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Mae ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">yn darparu i ni</a> ddau weinydd rhithwir gyda hyd at 400 TB/mis o led band am ddim i gynnal a gweini lawrlwythiadau a diweddariadau mapiau.
@@ -121,7 +121,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> yn <a href="https://44plus.vn/organicmaps">darparu i ni</a> weinydd pwrpasol am ddim gwerth tua $12,000/flwyddyn i weini mapiau ar draws Fietnam a De-ddwyrain Asia.
@@ -129,7 +129,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> wedi <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">dyfarnu micro-grant o $1000</a> i Organic Maps ym mis Chwefror 2023.

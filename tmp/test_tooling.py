@@ -18,6 +18,7 @@ from telegram_post import (  # noqa: E402
     convert_markdown_to_telegramv2,
     send_media,
     split_text,
+    strip_tera_blocks,
     utf16_len,
     validate_media_set,
     visible_text,
@@ -112,6 +113,15 @@ import translate_check, translate_md
 
 
 class TelegramToolingTests(unittest.TestCase):
+    def test_current_tera_components_are_removed_from_posts(self):
+        text = (
+            "Before\n\n{{ <screenshot\n"
+            "  src='/image.jpg'\n"
+            "  alt='Map'\n"
+            "/> }}\n\nAfter"
+        )
+        self.assertEqual(strip_tera_blocks(text), "Before\n\n\n\nAfter")
+
     def test_parenthesized_url_is_complete_and_escaped(self):
         converted = convert_markdown_to_telegramv2(
             "[x](https://example.com/a_(b))"

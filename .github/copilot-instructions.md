@@ -36,13 +36,13 @@ Zola uses taxonomies to auto-generate category pages:
 - `news/single.html`, `faq/single.html`: Taxonomy term pages
 - `news/page.html`: Individual news post
 
-### Shortcodes (Reusable Components)
+### Tera Components
 
-In content Markdown, use `{{ shortcode_name() }}` syntax:
+In content Markdown, call components with `{{ <name arguments /> }}` syntax:
 
-- `{{ badges() }}` → App store download badges
-- `{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking') }}` → Responsive image
-- Located in `templates/shortcodes/` as `.html` or `.md` files
+- `{{ <badges lang /> }}` → App store download badges
+- `{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Hiking' /> }}` → Responsive image
+- Component templates remain in `templates/shortcodes/` as `.html` or `.md` files and declare their interface with `{% component ... %}`
 
 ### Resource References in Templates
 
@@ -183,12 +183,12 @@ OpenGraph images auto-detected from `resource.extra.preview_image` or first asse
 - **File naming**: Use `index.md` for pages, `_index.md` for sections
 - **Date format**: ISO 8601 with timezone (`2024-03-18T17:45:35+00:00`)
 - **Slugs**: Lowercase with hyphens, translated appropriately
-- **Image optimization**: Store content-related images at the same content folder. Store global images in `static/images/`, use shortcodes for consistent rendering
+- **Image optimization**: Store content-related images at the same content folder. Store global images in `static/images/`, use components for consistent rendering
 - **Config order**: Sort language sections and translation keys alphabetically in `config.toml`
 
 ## Translating markdown
 
-`translate_md.py` translates any markdown file — with or without frontmatter — into the site's languages, preserving every link, list marker, attribution and shortcode. Use it for Telegram posts, site articles and release notes alike.
+`translate_md.py` translates any markdown file — with or without frontmatter — into the site's languages, preserving every link, list marker, attribution and Tera expression or component call. Use it for Telegram posts, site articles and release notes alike.
 
 ```bash
 python3 tools/translate_md.py post.md --langs ru,de,fr
@@ -214,7 +214,7 @@ These are the invariants a translated markdown file must hold. Each one was brok
 - Contributor names in `_(Name)_`, `(Name)` and `-- Name` credit lines.
 - Heading anchors — `{#osm-note}`, `{#engines}`, `{#install}`. A translated anchor breaks every link pointing at it and fails the Zola build.
 - OSM tags and values — `craft=*`, `parking_entrance`, `healthcare=*`.
-- Anything inside a code span, a `{{ shortcode }}`, or a URL.
+- Anything inside a code span, a Tera expression or component call (`{{ ... }}`), or a URL.
 
 **Never change `slug:` or `aliases:`.** They are published URLs. Several slugs contain a translated brand; they stay that way.
 
@@ -258,7 +258,7 @@ python3 tools/translate_check.py content/news/2026-08-04/630/   # whole folder
 python3 tools/translate_check.py index.md index.ar.md ar        # one file
 ```
 
-ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, shortcodes), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
+ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
 
 The Russian donation page intentionally omits the UAH payment reference and
 the Ukrainian page intentionally omits RUB. They declare those exact omissions

@@ -97,7 +97,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Bilaketa eta Letra-tipoak hobetzeko proiektua</a> NGI0 Entrust Funtsaren bidez <a href="https://nlnet.nl/project/OrganicMaps/">finantzatu</a> da. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Funtsa</a> <a href="https://nlnet.nl/">NLnet Fundazioak</a> ezarri du Europako Batzordearen <a href="https://www.ngi.eu/">Next Generation Internet programaren</a> laguntza ekonomikoarekin, Komunikazio Sareen, Edukien eta Teknologiaren Zuzendaritza Nagusiaren babespean 101069594 zenbakiko diru-laguntza hitzarmenaren arabera.
@@ -105,7 +105,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google-k</a> ikasleen proiektuak babestu zituen Google Summer of Code programan <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programetan. Proiektu aipagarrien artean Android Auto, Wikipedia Dump Extractor, Androiderako Ibilbide Grabaketa zeuden.
@@ -113,7 +113,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP-ak <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">ematen dizkigu</a> bi zerbitzari birtual hilean 400 TB arteko banda-zabalera doakoarekin mapen deskargak eta eguneraketak ostatatzeko eta zerbitzatzeko.
@@ -121,7 +121,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies-ek</a> <a href="https://44plus.vn/organicmaps">ematen digu</a> urtean 12.000 $ inguruko balioa duen zerbitzari dedikatu doako bat Vietnam eta Hego-ekialdeko Asian mapak zerbitzatzeko.
@@ -129,7 +129,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO-k</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 $-ko mikro-diru-laguntza eman zion</a> Organic Maps-i 2023ko otsailean.

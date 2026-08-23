@@ -13,9 +13,9 @@ does.
 
 Two kinds of tag come out:
 
-  <x>N</x>      Content that must never be translated: code, URLs, shortcodes,
-                contributor attributions, raw HTML, brand names, list markers.
-                Send with DeepL's ignore_tags=x.
+  <x>N</x>      Content that must never be translated: code, URLs, Tera
+                expressions/components, contributor attributions, raw HTML,
+                brand names, list markers. Send with DeepL's ignore_tags=x.
   <b0> <i1>     Formatting wrappers whose *content* is translatable: bold,
   <a2> <s3>     italic, strikethrough, link labels. Indexed so the original
                 delimiters and link targets survive even when the translator
@@ -98,14 +98,14 @@ def find_balanced_close(s: str, start: int, open_ch: str, close_ch: str) -> int:
 
 _FENCE_RE = re.compile(r"```[\s\S]*?```")
 _CODE_RE = re.compile(r"`[^`\n]+`")
-_SHORTCODE_RE = re.compile(r"\{\{[^}]*\}\}")
+_TERA_RE = re.compile(r"\{\{[^}]*\}\}")
 # Autolinks cover URLs, explicit schemes and bare e-mail addresses. The corpus
 # contains <sdk@organicmaps.app>, which no HTML-tag pattern matches.
 _AUTOLINK_RE = re.compile(
     r"<(?:[a-zA-Z][a-zA-Z0-9+.-]*:[^>\s]*|[^\s<>@]+@[^\s<>]+)>"
 )
 _HTML_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(?:\s(?:\{\{[^}]*\}\}|[^>])*)?/?>")
-# A link-definition URL may embed a shortcode containing spaces, as in
+# A link-definition URL may embed a Tera expression containing spaces, as in
 # "[appgallery]: https://…?local={{ lang }} "…"" — so \S+ is not enough.
 _LINKDEF_RE = re.compile(
     r"(?m)^\[[^\]]+\]:[ \t]+(?:\{\{[^}]*\}\}|\S)+"
@@ -193,7 +193,7 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
 
         # --- spans that are protected wholesale -------------------------
         matched = None
-        for rx in (_FENCE_RE, _CODE_RE, _SHORTCODE_RE, _AUTOLINK_RE,
+        for rx in (_FENCE_RE, _CODE_RE, _TERA_RE, _AUTOLINK_RE,
                    _LINKDEF_RE, _ATTRIB_RE, _HTML_RE):
             m = rx.match(s, i)
             if m:

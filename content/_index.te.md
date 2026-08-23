@@ -96,7 +96,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">శోధన మరియు మూలాల మెరుగుదల ప్రాజెక్ట్</a> NGI0 ఎంట్రస్ట్ ఫండ్ <a href="https://nlnet.nl/project/OrganicMaps/">ద్వారా</a> నిధులు సమకూర్చబడింది. <a href="https://nlnet.nl/entrust/">NGI0 ఎంట్రస్ట్ ఫండ్</a> <a href="https://nlnet.nl/">NLnet ఫౌండేషన్</a> ద్వారా స్థాపించబడింది, ఇది యూరోపియన్ కమిషన్ యొక్క <a href="https://www.ngi.eu/">నెక్స్ట్ జనరేషన్ ఇంటర్నెట్</a> ప్రోగ్రామ్ నుండి ఆర్థిక సహాయంతో, గ్రాంట్ ఒప్పందం నం 101069594 కింద DG కమ్యూనికేషన్స్ నెట్‌వర్క్స్, కంటెంట్ మరియు టెక్నాలజీ ఆధ్వర్యంలో ఉంది.
@@ -104,7 +104,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> ప్రోగ్రామ్‌ల సమయంలో Google సమ్మర్ ఆఫ్ కోడ్ ప్రోగ్రామ్‌లో విద్యార్థి ప్రాజెక్ట్‌లకు మద్దతు ఇచ్చింది. ఆండ్రాయిడ్ ఆటో, వికీపీడియా డంప్ ఎక్స్‌ట్రాక్టర్, ఆండ్రాయిడ్ ట్రాక్ రికార్డింగ్ వంటి ముఖ్యమైన ప్రాజెక్ట్‌లు ఉన్నాయి.
@@ -112,7 +112,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> మ్యాప్ డౌన్‌లోడ్‌లు మరియు అప్‌డేట్‌లను హోస్ట్ చేయడానికి మరియు అందించడానికి 400 TB/నెల వరకు ఉచిత బ్యాండ్‌విడ్త్‌తో రెండు వర్చువల్ సర్వర్‌లను మాకు <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">అందిస్తుంది</a>.
@@ -120,7 +120,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> వియత్నాం మరియు ఆగ్నేయాసియాలో మ్యాప్‌లను అందించడానికి సంవత్సరానికి సుమారు $12,000 విలువైన ఉచిత డెడికేటెడ్ సర్వర్‌ను మాకు <a href="https://44plus.vn/organicmaps">అందిస్తుంది</a>.
@@ -128,7 +128,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ఫిబ్రవరి 2023లో Organic Maps కు <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 మైక్రో-గ్రాంట్‌ను మంజూరు చేసింది</a>.

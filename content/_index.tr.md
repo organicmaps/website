@@ -96,7 +96,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Arama ve Kaynaklar iyileştirme projesi</a> NGI0 Entrust Fonu <a href="https://nlnet.nl/project/OrganicMaps/">aracılığıyla</a> finanse edildi. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fonu</a>, Avrupa Komisyonu'nun <a href="https://www.ngi.eu/">Yeni Nesil İnternet</a> programının mali desteğiyle, İletişim Ağları, İçerik ve Teknoloji Genel Müdürlüğü'nün himayesinde 101069594 sayılı hibe sözleşmesi kapsamında <a href="https://nlnet.nl/">NLnet Vakfı</a> tarafından kurulmuştur.
@@ -104,7 +104,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a>, <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programlarında Google Summer of Code programındaki öğrenci projelerini destekledi. Önemli projeler arasında Android Auto, Wikipedia döküm çıkarıcı, Android iz kaydı yer aldı.
@@ -112,7 +112,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       İSS <a href="https://www.mythic-beasts.com/">Mythic Beasts</a>, harita indirmelerini ve güncellemelerini barındırmak ve sunmak için bize 400 TB/ay'a kadar ücretsiz bant genişliğine sahip iki sanal sunucu <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">sağlıyor</a>.
@@ -120,7 +120,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a>, Vietnam ve Güneydoğu Asya'da harita sunmak için bize yılda yaklaşık 12.000 $ değerinde ücretsiz bir özel sunucu <a href="https://44plus.vn/organicmaps">sağlıyor</a>.
@@ -128,7 +128,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a>, Şubat 2023'te Organic Maps'e <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 $'lık bir mikro hibe verdi</a>.

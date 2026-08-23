@@ -136,6 +136,16 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
    ```
 2. Create translated content files with `.XX.md` suffix
 3. Add to RTL list in `base.html` if right-to-left language
+4. If `content/donate/subscribe/index.XX.md` is one of them, two things do **not**
+   follow automatically:
+   - `translate_md.py` does not touch `extra:`, so all ~21 `extra.form.*` labels
+     must be translated by hand — `{amount}`, `{min}` and `{max}` are placeholders
+     the JS substitutes and must survive verbatim. `translate_check.py` warns on
+     any that are still English.
+   - `SITE_LANGS` in the sibling `donate-api/src/config.ts` must list `XX` too.
+     It is what `sitePathPrefix()` uses to build the return URLs, so a language
+     missing there sends the donor back to the English `/donate/thanks/` after
+     paying, with no error anywhere.
 
 ### Menu & Navigation
 
@@ -207,7 +217,7 @@ python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
 python3 tools/translate_md.py post.md --langs ru --dry-run         # cost, no API call
 ```
 
-It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (a section's `extra.menu_title`, for instance) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
+It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (`extra.menu_title`, the donation form's twenty-odd `extra.form.*` labels) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
 
 Two behaviours worth knowing, both established by measurement:
 

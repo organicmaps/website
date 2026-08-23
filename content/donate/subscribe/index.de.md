@@ -5,6 +5,8 @@ template: donate-subscribe.html
 weight: 110
 extra:
   preview_image: donate/donate.png
+  # "Name (optional)" is already German.
+  translation_keeps_source: ["extra.form.name_label"]
   form:
     interval_label: Wie oft?
     once: Einmalig

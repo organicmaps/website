@@ -79,6 +79,84 @@ import translate_check, translate_md
                 {p.code for p in check_translation(source, invalid, lang)},
             )
 
+    def test_nested_frontmatter_prose_and_placeholders_are_checked(self):
+        source = """---
+title: Support
+description: Donation form
+template: donate-subscribe.html
+extra:
+  preview_image: donate/donate.png
+  form:
+    interval_label: How often?
+    submit_once: Donate {amount}
+    error_range: Between {min} and {max}
+---
+
+Organic Maps.
+"""
+        translated = """---
+title: 支援
+description: 寄付フォーム
+template: donate-subscribe.html
+extra:
+  preview_image: donate/donate.png
+  form:
+    interval_label: How often?
+    submit_once: 寄付する {sum}
+    error_range: "{min} から {max}"
+---
+
+Organic Maps。
+"""
+        problems = check_translation(source, translated, "ja")
+        self.assertTrue(
+            any(
+                "extra.form.interval_label" in p.message
+                for p in problems
+                if p.code == "untranslated-frontmatter"
+            ),
+            problems,
+        )
+        self.assertEqual(
+            [p.message for p in problems if p.code == "placeholder-mismatch"],
+            ["'extra.form.submit_once' must keep the placeholder(s) verbatim"],
+        )
+
+    def test_source_keep_declarations_are_verified(self):
+        source = """---
+title: Privacy
+extra:
+  menu_title: Privacy
+---
+
+Organic Maps.
+"""
+        valid = """---
+title: プライバシー
+extra:
+  menu_title: Privacy
+  translation_keeps_source: ["extra.menu_title"]
+---
+
+Organic Maps。
+"""
+        self.assertNotIn(
+            "untranslated-frontmatter",
+            {p.code for p in check_translation(source, valid, "ja")},
+        )
+
+        stale = valid.replace("menu_title: Privacy", "menu_title: プライバシー")
+        self.assertIn(
+            "translation-keeps-source",
+            {p.code for p in check_translation(source, stale, "ja")},
+        )
+
+        unknown = valid.replace("extra.menu_title", "extra.missing")
+        self.assertIn(
+            "translation-keeps-source",
+            {p.code for p in check_translation(source, unknown, "ja")},
+        )
+
     def test_estonian_page_uses_informal_singular(self):
         text = (ROOT / "content/news/2025-12-31/500/index.et.md").read_text(
             encoding="utf-8"

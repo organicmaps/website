@@ -3,7 +3,7 @@ title: "Fai una donazione per sostenere lo sviluppo di Organic Maps"
 description: "I tuoi soldi coprono tutte le spese relative al progetto e ci spingono a migliorare Organic Maps."
 weight: 10
 extra:
-  menu_title: Donate
+  menu_title: "Fai una donazione"
   preview_image: donate/donate.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: "Sensa corsejament, anóncias, reculhiment de donadas, estatisticas ò programa espia"
 extra:
-  menu_title: Privacy
+  menu_title: Privadesa
 title: "Organic Maps: Politica de Privadesa"
 weight: 900
 ---

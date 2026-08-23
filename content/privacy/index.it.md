@@ -4,6 +4,9 @@ description: "Nessun tracciamento, nessuna pubblicità, nessuna raccolta di dati
 weight: 900
 extra:
   menu_title: Privacy
+  # "Privacy" is the ordinary Italian word here — the data-protection
+  # authority itself is the "Garante per la protezione dei dati personali".
+  translation_keeps_source: ["extra.menu_title"]
 ---
 
 Organic Maps rispetta la vostra privacy e NON VI TRACCIA.

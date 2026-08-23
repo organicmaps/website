@@ -2,6 +2,8 @@
 description: "Geen tracking, geen advertenties, geen dataverzameling, geen statistiekenverzameling, geen spyware"
 extra:
   menu_title: Privacy
+  # "Privacy" is the ordinary Dutch word; the body uses it too.
+  translation_keeps_source: ["extra.menu_title"]
 title: "Organic Maps: pricavyovereenkomst"
 weight: 900
 ---

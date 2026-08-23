@@ -5,6 +5,8 @@ page_template: index.html
 sort_by: weight
 extra:
   menu_title: Home
+  # Italian web usage keeps the English word for a nav "home" link.
+  translation_keeps_source: ["extra.menu_title"]
 ---
 
 **Organic Maps** è un'app offline incentrata sulla privacy che offre mappe e GPS per escursioni a piedi, in bicicletta e in auto. Completamente gratuita. Nessuna pubblicità. Nessun tracciamento. Sviluppata con amore dalla comunità open source e dalle stesse persone che hanno creato l'app [**MapsWithMe**][mapswithme]/**Maps.Me**. Basata sui dati di [OpenStreetMap][openstreetmap].

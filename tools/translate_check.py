@@ -479,6 +479,88 @@ def emphasis_faults(body: str) -> list[str]:
 
 # ------------------------------------------------------------------- checks
 
+# Frontmatter keys whose value is deliberately the same in every language:
+# a page-relative image path, and a note left for whoever reviews the
+# translation rather than text the reader ever sees.
+VERBATIM_EXTRA_KEYS = {
+    "preview_image",
+    "translation_diverges",
+    "translation_keeps_source",
+    "translation_omits_refs",
+}
+
+# `{amount}`, `{min}`, `{max}` — substituted at runtime by donate-subscribe.js,
+# so they are identifiers rather than prose. Deliberately narrow: a lone `{`
+# in ordinary text, and Tera's doubled `{{ … }}`, must not match.
+PLACEHOLDER_RE = re.compile(r"(?<!\{)\{[a-z_][a-z0-9_]*\}(?!\})")
+
+
+def _frontmatter_prose(meta: dict) -> dict[str, str]:
+    """Reader-visible frontmatter strings, keyed by dotted path.
+
+    `extra` carries prose as well as data — a section's `menu_title`, and the
+    twenty-odd form labels the donation pages keep under `extra.form` — and
+    nothing in the pipeline translates it: `translate_md.py` rewrites `title`
+    and `description` and leaves the rest verbatim. Without this a new
+    language passes every other check while shipping English buttons.
+    """
+    fields: dict[str, str] = {}
+    for key in ("title", "description"):
+        if isinstance(meta.get(key), str):
+            fields[key] = meta[key]
+
+    def walk(node: dict, prefix: str) -> None:
+        for key, value in node.items():
+            if key in VERBATIM_EXTRA_KEYS:
+                continue
+            if isinstance(value, dict):
+                walk(value, f"{prefix}{key}.")
+            elif isinstance(value, str):
+                fields[f"{prefix}{key}"] = value
+
+    extra = meta.get("extra")
+    if isinstance(extra, dict):
+        walk(extra, "extra.")
+    return fields
+
+
+def _declared_source_keeps(
+    out_meta: dict, src_fields: dict[str, str], out_fields: dict[str, str],
+) -> tuple[set[str], list[Problem]]:
+    """Read `extra.translation_keeps_source`, rejecting a declaration that no longer holds.
+
+    Returns the paths whose sameness is accounted for, plus any problems with
+    the declaration itself. A stale entry is an ERROR rather than a warning:
+    left unchecked it would silently re-hide the field it was meant to excuse
+    once someone finally translates it and moves on.
+    """
+    declared = (out_meta.get("extra") or {}).get("translation_keeps_source")
+    if declared is None:
+        return set(), []
+    if not isinstance(declared, list) or not all(isinstance(k, str) for k in declared):
+        return set(), [Problem(
+            ERROR, "translation-keeps-source",
+            "extra.translation_keeps_source must be a list of frontmatter paths")]
+
+    keeps: set[str] = set()
+    faults: list[Problem] = []
+    for key in declared:
+        if key in keeps:
+            faults.append(Problem(
+                ERROR, "translation-keeps-source", f"'{key}' is declared twice"))
+        elif key not in src_fields:
+            faults.append(Problem(
+                ERROR, "translation-keeps-source",
+                f"'{key}' is declared but the English source has no such field"))
+        elif out_fields.get(key) != src_fields[key]:
+            faults.append(Problem(
+                ERROR, "translation-keeps-source",
+                f"'{key}' is declared but no longer matches the English source; drop the declaration"))
+        else:
+            keeps.add(key)
+    return keeps, faults
+
+
 def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     """Compare a translated markdown body against its English source."""
     src_body, _ = strip_frontmatter(src)
@@ -707,18 +789,52 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     if not ok:
         problems.append(Problem(WARN, "register", msg))
 
-    # 9. Untranslated frontmatter fields.
+    # 9. Untranslated frontmatter fields, `extra` included.
     if out_meta:
-        src_meta = strip_frontmatter(src)[1]
-        for key in ("title", "description"):
-            # A title with no letters is the same in every language: post 39
+        src_fields = _frontmatter_prose(strip_frontmatter(src)[1] or {})
+        out_fields = _frontmatter_prose(out_meta)
+
+        # Some words really are the same in both languages — Dutch and Italian
+        # write "Privacy", German writes "Name (optional)" — and no textual test
+        # can tell those from a field the translator simply skipped: Italian
+        # "Donate" and Occitan "News" were exactly that, and looked identical.
+        # So the page declares the ones it means, the same way the donation
+        # pages declare a missing payment reference:
+        #
+        #     extra:
+        #       translation_keeps_source: ["extra.menu_title"]
+        #
+        # Paste the path out of the warning. The declaration is verified, not
+        # merely obeyed: it must name a field that exists and is still identical,
+        # so it cannot outlive the situation it describes.
+        declared, faults = _declared_source_keeps(out_meta, src_fields, out_fields)
+        problems.extend(faults)
+
+        for key, value in src_fields.items():
+            # A value with no letters reads the same in every language: post 39
             # is called "19:36", a timestamp.
-            if (isinstance(src_meta.get(key), str)
-                    and src_meta.get(key) == out_meta.get(key)
-                    and any(c.isalpha() for c in src_meta[key])):
+            if (key not in declared
+                    and out_fields.get(key) == value
+                    and any(c.isalpha() for c in value)):
                 problems.append(Problem(
                     WARN, "untranslated-frontmatter",
                     f"'{key}' is identical to the English source"))
+
+        # 9a. Runtime placeholders in those same fields. `donate-subscribe.js`
+        #     fills the submit label and the range error by literal string
+        #     replace — `pattern.replace('{amount}', …)` — so a placeholder the
+        #     translator inflected, spaced or dropped does not raise anything:
+        #     the button just reads "Doe {amount}" to every donor in that
+        #     language. Parity with the source is the whole contract, so a
+        #     mismatch is an ERROR.
+        for key, value in src_fields.items():
+            want = sorted(PLACEHOLDER_RE.findall(value))
+            got = sorted(PLACEHOLDER_RE.findall(out_fields.get(key, "")))
+            if want != got:
+                problems.append(Problem(
+                    ERROR, "placeholder-mismatch",
+                    f"'{key}' must keep the placeholder(s) verbatim",
+                    f"source has {want or 'none'}, translation has {got or 'none'}"))
 
     # 10. Straight ASCII quotes where the language wants its own marks — but
     #     only in prose. HTML attributes, Tera expressions, code spans and

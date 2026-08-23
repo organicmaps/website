@@ -141,7 +141,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 
 - Top menu built dynamically in `templates/top_menu.html`
 - Reads pages via `get_section()` and `get_page()`
-- Finds translations via `page.translations | filter(attribute='lang', value=lang)`
+- Finds translations via `[t for t in page.translations if t.lang == lang] | first` because Tera v2 has no `filter` filter
 - Menu titles from `extra.menu_title` in content frontmatter
 
 ### Styling
@@ -155,7 +155,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 ### Static Assets
 
 - `static/_redirects`: Cloudflare redirect rules (e.g., `/support-us → /contribute/`)
-- `static/_headers`: Cloudflare headers (noindex for preview deployments)
+- `static/_headers`: Cloudflare security headers and `noindex` for the production `pages.dev` alias (Pages adds it to previews)
 - `static/images/`, `static/logos/`, `static/sponsors/`: Media assets
 
 ## Common Patterns
@@ -171,6 +171,16 @@ Pure CSS dropdown using hidden checkbox trick (`input.lang-menu-trigger`). JavaS
 ### Preview Images
 
 OpenGraph images auto-detected from `resource.extra.preview_image` or first asset in `resource.assets[]`, fallback to `images/screenshots/prague.jpg`.
+
+### Matching substrings in templates
+
+Use containing, not matching, use pat="substring" argument (no regexes), detailed Tera documentation: https://keats.github.io/tera/
+
+```tera
+{% if path is containing(pat="xXx") or path starting_with(pat="prefix/") or path ending_with(pat="/suffix") %}
+    Bad
+{% endif %}
+```
 
 ## Deployment
 
@@ -197,12 +207,12 @@ python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
 python3 tools/translate_md.py post.md --langs ru --dry-run         # cost, no API call
 ```
 
-It translates `title:` and `description:`, leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, informal register where DeepL supports it). **Output is a draft**: the slug and the informal register in `tr`/`uk`/`fa-IR` still need the proofreading pass.
+It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (a section's `extra.menu_title`, for instance) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
 
 Two behaviours worth knowing, both established by measurement:
 
 - **Brands stay visible to the translator.** Hiding them behind placeholders wrecks word order — "OpenStreetMap data as of August 4" came back as "OpenStreetMap Теперь включены данные…". Identity entries in the glossary keep them Latin instead. Languages that transliterate brands and have no glossary (`hi`, `ml`, `te`, `fa-IR`) keep placeholder protection.
-- **Formality** is requested where DeepL supports it — `prefer_less` for most languages, `prefer_more` for ru/uk/be, which take the polite address. Chinese and Indonesian are fixed mechanically (您→你, Anda→kamu) because their polite form is a bare pronoun with no verb agreement. The other 11 formal-by-default languages need the review pass, since informalising them means rewriting verb morphology. `detect_register()` and `register_ok()` report which.
+- **Formality** is requested for every DeepL target that supports the option — `prefer_more` for Russian and `prefer_less` for the other supported languages. The other formal-by-default languages (`uk`, `be`, `cs`, `lt`, `hi`, `mr`, `te`, `ml`, `fa-IR`) need the review pass because DeepL cannot request their expected register. Chinese and Indonesian are made informal mechanically (您→你, Anda→kamu) because their polite form is a bare pronoun with no verb agreement. `detect_register()` and `register_ok()` report the result.
 
 ## Keeping translations correct
 
@@ -216,7 +226,7 @@ These are the invariants a translated markdown file must hold. Each one was brok
 - OSM tags and values — `craft=*`, `parking_entrance`, `healthcare=*`.
 - Anything inside a code span, a Tera expression or component call (`{{ ... }}`), or a URL.
 
-**Never change `slug:` or `aliases:`.** They are published URLs. Several slugs contain a translated brand; they stay that way.
+**Never change `slug:` or `aliases:`.** They are published URLs. Corrections can be added by new aliases or redirects.
 
 **Structure must match the English source** line for line: same paragraphs, bullets, headings, links, and `_(Contributor)_` attributions, each attribution at the end of its bullet.
 
@@ -264,6 +274,15 @@ The Ukrainian donation page intentionally omits the RUB payment reference. It
 declares that exact omission with `extra.translation_omits_refs`; the checker
 rejects that field for every other language, reference, or page, and rejects it
 once the reference is no longer missing.
+
+A frontmatter string that is genuinely the same word in both languages —
+Dutch and Italian "Privacy", German "Name (optional)" — declares itself the
+same way, with `extra.translation_keeps_source: ["extra.menu_title"]`, pasting
+the path out of the warning. It is verified rather than obeyed: naming a field
+the English source lacks, or one that is no longer identical, is an ERROR, so
+the declaration cannot outlive the situation it describes. Reach for it only
+when the word really is the translation — Italian "Donate" and Occitan "News"
+looked exactly like this and were simply untranslated.
 
 Calibrated against the 383 human-proofread translations of the 2026 posts: 380 pass. The three that do not are genuine defects that review missed — `de` and `zh-Hans` both lost the "Join beta testing" heading in the May release, and `mr` dropped "Organic Maps" entirely. Checks were narrowed where the corpus proved them wrong: mixed-script detection applies only to Cyrillic and Greek, since Arabic `وGoogle`, Chinese `上的FAQ翻译` and Telugu `OpenStreetMapలో` are all correct.
 

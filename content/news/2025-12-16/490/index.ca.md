@@ -44,4 +44,4 @@ Organic Maps existeix gràcies a les teves [donacions](@/donate/index.ca.md) i [
 
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

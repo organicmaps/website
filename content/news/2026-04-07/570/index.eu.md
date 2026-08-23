@@ -87,4 +87,4 @@ Sartu beta probetan eginbide goiztiarrak probatzeko eta arazoen berri emateko:
 Maitasun eta arretaz ❤️
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

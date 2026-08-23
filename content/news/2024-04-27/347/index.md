@@ -11,7 +11,7 @@ Did you like the [previous one](@/news/2024-04-26/344/index.md)?
 
 ### The anthem of community-driven privacy and freedom
 
-{{ audio(title="The anthem of community-driven privacy and freedom", url="/news/2024-04-27/organic-maps-privacy-and-freedom-anthem-driven-by-community/The Organic Maps Anthem of community-driven privacy and freedom.mp3") }}
+{{ <audio title="The anthem of community-driven privacy and freedom" url="/news/2024-04-27/organic-maps-privacy-and-freedom-anthem-driven-by-community/The Organic Maps Anthem of community-driven privacy and freedom.mp3" /> }}
 
 <pre>
 (Verse 1)

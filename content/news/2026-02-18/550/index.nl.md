@@ -66,4 +66,4 @@ Elke [donatie](@/donate/index.nl.md) en [bijdrage](@/contribute/index.nl.md) hel
 Met zorg en liefde,
 Het Organic Maps-team
 
-{{ references() }}
+{{ <references lang /> }}

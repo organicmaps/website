@@ -49,4 +49,4 @@ Apple, Google മാപ്പുകൾക്ക് സ്വകാര്യത �
 സ്നേഹത്തോടെ,
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

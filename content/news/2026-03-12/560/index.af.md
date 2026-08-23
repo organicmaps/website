@@ -53,4 +53,4 @@ Elke [skenking](@/donate/index.af.md) en [bydrae](@/contribute/index.af.md) help
 Soos altyd, met liefde en sorg ❤️
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

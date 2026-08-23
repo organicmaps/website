@@ -88,4 +88,4 @@ Agradecemos a todos os nosos usuarios e colaboradores, ás persoas que [doan](@/
 Con agarimo,
 O equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

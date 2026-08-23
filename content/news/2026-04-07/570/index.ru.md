@@ -87,4 +87,4 @@ taxonomies:
 С любовью и заботой ❤️
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

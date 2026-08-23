@@ -65,4 +65,4 @@ P.S. Liitu beeta testimisega varajaste funktsioonide saamiseks:
 Armastusega meie kasutajatele ja kogukonnale
 Organic Maps meeskond
 
-{{ references() }}
+{{ <references lang /> }}

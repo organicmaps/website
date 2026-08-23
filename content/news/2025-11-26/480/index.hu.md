@@ -56,4 +56,4 @@ Az Organic Maps nem lenne lehetséges az [adományaid](@/donate/index.hu.md), [h
 Gondoskodással és szeretettel,
 Az Organic Maps csapat
 
-{{ references() }}
+{{ <references lang /> }}

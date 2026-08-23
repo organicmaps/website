@@ -81,4 +81,4 @@ Kry die nuutste Organic Maps-weergawe vanaf die [App Store][appstore], [Google P
 
 Sluit aan by beta-toetsing vir vroeë kenmerke: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

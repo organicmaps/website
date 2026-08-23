@@ -81,4 +81,4 @@ Obten la darrièra version d'Organic Maps dempuèi l'[App Store][appstore], [Goo
 
 Jonh-te als tèsts bèta per las foncionalitats primieras: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

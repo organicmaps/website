@@ -59,4 +59,4 @@ P.S. …eta askoz gehiago dator! Zure laguntzak mapa onenak eraikitzen laguntzen
 
 Lortu Organic Maps [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], eta [FDroid][fdroid] bidez.
 
-{{ references() }}
+{{ <references lang /> }}

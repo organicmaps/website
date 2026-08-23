@@ -65,4 +65,4 @@ P.S. Rejoinís los tèsts bèta per las foncionalitats anticipadas :
 Amb amor per nòstres utilizaires e nòstra comunitat
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

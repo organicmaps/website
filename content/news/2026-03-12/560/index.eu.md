@@ -53,4 +53,4 @@ Sartu beta probetan funtzio goiztiarrak probatzeko eta arazoen berri emateko:
 Beti bezala, maitasunez eta ardurarekin ❤️
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

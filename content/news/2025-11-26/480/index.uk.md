@@ -56,4 +56,4 @@ Organic Maps був би неможливий без ваших [пожертв]
 З турботою та любов'ю,
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

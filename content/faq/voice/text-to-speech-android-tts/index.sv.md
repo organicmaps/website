@@ -42,7 +42,7 @@ Nämnda alternativ kanske inte visas om du inte redan har en TTS installerad på
 
 Nedan finns en omfattande lista som visar flera motorer och de språk de stöder (nedladdningslänkar finns efter tabellen):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Lösningar
 

@@ -15,15 +15,15 @@ extra:
 
 ### Organic Maps をダウンロード & インストール [AppStore][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、[FDroid][fdroid] から {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='ハイキング', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='ハイキング' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='プラハ') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='プラハ' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='オフライン検索') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='オフライン検索' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='ダークモードでのナビゲーション') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='ダークモードでのナビゲーション' /> }}
 
 ## 機能
 
@@ -63,15 +63,15 @@ Organic Maps アプリはトラッカーやその他の不要な要素から解�
 
 このアプリケーションは [Exodus Privacy Project][exodus] によって検証されています:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 iOS アプリケーションは [TrackerControl for iOS][trackercontrol] によって検証されています:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps はあなたのスパイするために過剰な権限を要求しません:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 Organic Maps では、プライバシーは基本的な人権であると考えています:
 
@@ -89,14 +89,14 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
 
 便利に寄付するには、お好みの支払い方法アイコンをクリックしてください:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 私たちの大切な法人スポンサーは、一部のインフラコストをまかない、新しい選定された機能の開発資金を提供するため、以下のような目的に絞った助成金を提供してくれました:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
@@ -104,7 +104,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> backed student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programs. Noteworthy projects included Android Auto, Wikipedia Dump Extractor, Track Recording for Android.
@@ -112,7 +112,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with up to 400 TB/month of free bandwidth to host and serve maps downloads and updates.
@@ -120,7 +120,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
@@ -128,7 +128,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
@@ -154,4 +154,4 @@ Organic Maps は Apache License 2.0 の下でライセンスされた [オープ
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 
-{{ references() }}
+{{ <references lang /> }}

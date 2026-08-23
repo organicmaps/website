@@ -59,4 +59,4 @@ taxonomies:
 
 Organic Maps را از [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [FDroid][fdroid] دریافت کنید.
 
-{{ references() }}
+{{ <references lang /> }}

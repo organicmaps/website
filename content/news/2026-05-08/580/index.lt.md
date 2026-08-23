@@ -84,4 +84,4 @@ Mes mylime savo naudotojus ❤️ ir mylime tai, ką darome
 
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

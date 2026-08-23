@@ -59,4 +59,4 @@ P.S. …а ещё больше впереди! Ваша поддержка по�
 
 Загрузите Organic Maps из [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

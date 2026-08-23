@@ -17,7 +17,7 @@ L'Organic Maps és _gratis per a tothom_ gràcies a les teves **[donacions][stri
 
 Fes clic a la icona de pagament preferit:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Per què fer donatius a l’Organic Maps?
 
@@ -47,22 +47,22 @@ Fes clic a la icona de pagament preferit:
 
 Fes clic a la icona de pagament preferit:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Les donacions recurrents són la millor manera d'assegurar un ingrés periòdic per al projecte i ens motiva per a tasques i objectius a llarg termini. Però també pots fer donació una vegada.
 
 ### Transferència bancària
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Criptomonedes
 
 Si us plau, considera fer donacions anuals per a reduir les quotes totals.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Vols ajudar-nos de cap altra forma?
 
 Perfecte! Hi ha diverses maneres d'ajudar a l'Organic Maps. Consulta la pàgina [Suport](@/contribute/index.ca.md) per a més informació.
 
-{{ references() }}
+{{ <references lang /> }}

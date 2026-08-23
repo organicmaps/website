@@ -53,4 +53,4 @@ taxonomies:
 Όπως πάντα, με αγάπη και φροντίδα ❤️
 Η ομάδα Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

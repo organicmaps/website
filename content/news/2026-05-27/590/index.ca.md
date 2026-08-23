@@ -62,4 +62,4 @@ Viatja amb facilitat i troba les teves aventures amb Organic Maps! ✈️🚅�
 
 L'equip de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

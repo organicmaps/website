@@ -50,4 +50,4 @@ Organic Maps existuje díky vašim [darům](@/donate/index.cs.md) a [příspěvk
 
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

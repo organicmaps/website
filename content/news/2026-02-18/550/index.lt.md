@@ -66,4 +66,4 @@ Kiekviena [auka](@/donate/index.lt.md) ir [indėlis](@/contribute/index.lt.md) p
 Su rūpesčiu ir meile,
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

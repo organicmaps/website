@@ -42,7 +42,7 @@ Minėtos parinktys gali nebūti rodomos, jei jūsų įrenginyje dar neįdiegta T
 
 Žemiau pateikiamas išsamus sąrašas, kuriame rodomi keli varikliai ir jų palaikomos kalbos (atsisiuntimo nuorodas rasite po lentele):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Sprendimai
 

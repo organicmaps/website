@@ -88,4 +88,4 @@ Kami berterima kasih kepada semua pengguna dan kontributor kami, kepada mereka y
 Dengan cinta,
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

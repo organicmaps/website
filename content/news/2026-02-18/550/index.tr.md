@@ -66,4 +66,4 @@ Her [bağış](@/donate/index.tr.md) ve [katkı](@/contribute/index.tr.md), Appl
 Sevgi ve ilgiyle,
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

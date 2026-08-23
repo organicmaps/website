@@ -49,4 +49,4 @@ Bat egin beta probekin funtzio goiztiarrak probatzeko eta arazoak jakinarazteko:
 Maitasunez,
 Organic Maps taldea
 
-{{ references() }}
+{{ <references lang /> }}

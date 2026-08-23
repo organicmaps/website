@@ -87,4 +87,4 @@ Obtén a actualización de abril en <https://get.omaps.org> ou na [App Store][ap
 Con cariño e coidado ❤️
 O equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

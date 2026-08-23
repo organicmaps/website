@@ -44,4 +44,4 @@ Organic Maps zure [dohaintzei](@/donate/index.eu.md) eta [ekarpenei](@/contribut
 
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

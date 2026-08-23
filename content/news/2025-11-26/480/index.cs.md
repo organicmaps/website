@@ -56,4 +56,4 @@ Organic Maps by nebylo možné bez vašich [darů](@/donate/index.cs.md), [pří
 S péčí a láskou,
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -13,7 +13,7 @@ Another song about Organic Maps, now in a calmer tempo. You can enjoy all 3 song
 
 ### Summit Serenity with Organic Maps
 
-{{ audio(title="Summit Serenity with Organic Maps", url="/news/2024-05-01/summit-serenity-with-organic-maps-song/Summit Serenity with Organic Maps.mp3") }}
+{{ <audio title="Summit Serenity with Organic Maps" url="/news/2024-05-01/summit-serenity-with-organic-maps-song/Summit Serenity with Organic Maps.mp3" /> }}
 
 <pre>
 (Verse)

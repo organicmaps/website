@@ -17,7 +17,7 @@ L’aplicacion Organic Maps es _gratuita per totes_ gràcias a tos **[donatius][
 
 Clica sus l’icòna de ta metòde de pagament preferida çai jos:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Perqué donar a Organic Maps?
 
@@ -51,22 +51,22 @@ Clica sus l’icòna de ta metòde de pagament preferida çai jos:
 
 Clica sus l’icòna de ta metòde de pagament preferida çai jos:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Los donatius recurrents son lo melhor biais d’assegurar un revengut relativament estable pel projècte e nos motivar per de tascas e objectius a long tèrme. Los donatius ponctuals son tanben apreciats.
 
 ### Transferéncia bancària
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Cripto
 
 Mercé de considerar de donar annalament per redusir las taxas totalas.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Pòdes ajudar d’un autre biais?
 
 Òc! I a mantun biais de sosténer Organic Maps. Consulta la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.
 
-{{ references() }}
+{{ <references lang /> }}

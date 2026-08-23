@@ -53,4 +53,4 @@ Minden [adomány](@/donate/index.hu.md) és [hozzájárulás](@/contribute/index
 Mint mindig, szeretettel és gondoskodással ❤️
 Az Organic Maps csapata
 
-{{ references() }}
+{{ <references lang /> }}

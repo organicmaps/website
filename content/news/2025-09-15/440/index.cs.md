@@ -56,4 +56,4 @@ Stáhněte si nejnovější verzi Organic Maps z [App Store][appstore], [Google 
 
 P.S. Připojte se k beta testování a vyzkoušejte novinky dřív: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

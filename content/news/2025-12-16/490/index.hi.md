@@ -44,4 +44,4 @@ Organic Maps आपके [दान](@/donate/index.hi.md) और [योगद
 
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

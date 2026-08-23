@@ -79,4 +79,4 @@ extra:
 उन्हाळ्याच्या शुभेच्छा!
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

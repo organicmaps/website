@@ -15,15 +15,15 @@ title: "Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación"
 
 ### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Sendeirismo', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Sendeirismo' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Praga') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='Praga' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Procura sen conexión') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='Procura sen conexión' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navegación en modo escuro') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='Navegación en modo escuro' /> }}
 
 ## Características
 
@@ -63,15 +63,15 @@ Organic Maps está libre de rastreadores e outras cousas malas:
 
 Esta aplicación foi verificada por [Exodus Privacy Project][exodus]:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 A aplicación de iOS foi verificada por [TrackerControl for iOS][trackercontrol]:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps non solicita permisos excesivos para espiarte:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 En Organic Maps, cremos que a privacidade é un dereito humano fundamental:
 
@@ -89,14 +89,14 @@ A aplicación é gratuíta para todos. Por favor, [fai unha doazón](@/donate/in
 
 Para doar inmediatamente, fai clic na icona do método de pago preferido a continuación:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Os queridos patrocinadores institucionais a continuación proporcionaron subvencións específicas para cubrir algúns custos de infraestrutura e financiar o desenvolvemento de novas funcións seleccionadas:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">O proxecto de mellora de Busca e Fontes</a> foi <a href="https://nlnet.nl/project/OrganicMaps/">financiado</a> a través do Fondo NGI0 Entrust. <a href="https://nlnet.nl/entrust/">O Fondo NGI0 Entrust</a> está establecido pola <a href="https://nlnet.nl/">Fundación NLnet</a> con apoio financeiro do programa <a href="https://www.ngi.eu/">Next Generation Internet</a> da Comisión Europea, baixo a égida da DG Redes de Comunicación, Contido e Tecnoloxía baixo o acordo de subvención No 101069594.
@@ -104,7 +104,7 @@ Os queridos patrocinadores institucionais a continuación proporcionaron subvenc
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> apoiou proxectos de estudantes no programa Google Summer of Code durante os programas <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Proxectos notables incluíron Android Auto, Extractor de envorcados da Wikipedia, Gravación de pistas para Android.
@@ -112,7 +112,7 @@ Os queridos patrocinadores institucionais a continuación proporcionaron subvenc
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       O ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">proporciónanos</a> dous servidores virtuais con ata 400 TB/mes de ancho de banda gratuíto para aloxar e servir descargas e actualizacións de mapas.
@@ -120,7 +120,7 @@ Os queridos patrocinadores institucionais a continuación proporcionaron subvenc
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">proporciónanos</a> un servidor dedicado gratuíto por valor de arredor de $12,000/ano para servir mapas en Vietnam e o sueste asiático.
@@ -128,7 +128,7 @@ Os queridos patrocinadores institucionais a continuación proporcionaron subvenc
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">concedeu unha micro-subvención de $1000</a> a Organic Maps en febreiro de 2023.
@@ -154,4 +154,4 @@ Organic Maps é un [software de código aberto][github] licenciado baixo a licen
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(desenvolvemento%20de%20software)
 
-{{references()}}
+{{ <references lang /> }}

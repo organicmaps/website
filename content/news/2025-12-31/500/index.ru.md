@@ -52,4 +52,4 @@ slug: "organic-maps-2025-itogi-goda"
 
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

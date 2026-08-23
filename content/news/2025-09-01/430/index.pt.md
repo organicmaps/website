@@ -52,4 +52,4 @@ Se ainda não experimentaste, podes agora ativar uma funcionalidade nas definiç
 
 P.S. Não te esqueças, podes inscrever-te no nosso programa de testes beta para obter acesso antecipado a funcionalidades experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

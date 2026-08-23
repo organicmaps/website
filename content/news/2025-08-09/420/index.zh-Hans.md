@@ -59,4 +59,4 @@ taxonomies:
 
 从 [AppStore][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 和 [FDroid][fdroid] 获取 Organic Maps。
 
-{{ references() }}
+{{ <references lang /> }}

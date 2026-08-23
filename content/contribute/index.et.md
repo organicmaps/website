@@ -26,4 +26,4 @@ Arenduses osalemiseks on palju erinevaid võimalust:
 
 Meie väikene tiim on väga tänulik sinu tagasiside ja toe eest. Ilma kasutajateta poleks Organic Mapsi olemas ❤️.
 
-{{ references() }}
+{{ <references lang /> }}

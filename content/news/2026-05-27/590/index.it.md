@@ -62,4 +62,4 @@ Viaggia facile e trova le tue avventure con Organic Maps! ✈️🚅🚌🚢🌴
 
 Il team Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

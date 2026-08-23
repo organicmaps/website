@@ -52,4 +52,4 @@ Se você ainda não experimentou, agora pode habilitar um recurso nas configura�
 
 P.S. Não se esqueça, você pode se inscrever em nosso programa de teste beta para obter acesso antecipado a recursos experimentais e futuros—[para iOS][testflight] e [para Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

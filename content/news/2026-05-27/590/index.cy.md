@@ -62,4 +62,4 @@ Teithia'n rhwydd, a darganfydda dy anturiaethau gyda Organic Maps! ✈️🚅�
 
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

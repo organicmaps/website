@@ -79,4 +79,4 @@ extra:
 Καλό καλοκαίρι!
 Η ομάδα του Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

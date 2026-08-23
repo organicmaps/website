@@ -52,4 +52,4 @@ Os nad wyt wedi'i roi cynnig arni eto, gelli nawr alluogi nodwedd yn osodiadau O
 
 P.S. Paid ag anghofio, gelli gofrestru ar gyfer ein rhaglen profi beta i gael mynediad cynnar i nodweddion arbrofol a'r rhai sydd i ddod—[ar gyfer iOS][testflight] ac [ar gyfer Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

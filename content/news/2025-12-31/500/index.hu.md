@@ -51,4 +51,4 @@ Boldog Új Évet 2026! 🎄🎁🎉
 
 Az Organic Maps Csapata
 
-{{ references() }}
+{{ <references lang /> }}

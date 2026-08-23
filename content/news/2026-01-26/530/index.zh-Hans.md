@@ -49,4 +49,4 @@ taxonomies:
 致以爱意，
 Organic Maps团队
 
-{{ references() }}
+{{ <references lang /> }}

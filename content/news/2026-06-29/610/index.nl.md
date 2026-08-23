@@ -88,4 +88,4 @@ We zijn al onze gebruikers en bijdragers dankbaar, iedereen die [doneert](@/dona
 Met liefde,
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

@@ -52,4 +52,4 @@ Se aínda non o probiches, agora podes activar a función para ver nomes de marc
 
 P.S. Non esquezas, podes rexistrarte no noso programa de probas beta para obter acceso temperán a funcións experimentais e futuras—[para iOS][testflight] e [para Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

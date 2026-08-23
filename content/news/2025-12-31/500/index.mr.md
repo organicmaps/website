@@ -52,4 +52,4 @@ slug: "organic-maps-2025-varshacha-adhava"
 
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

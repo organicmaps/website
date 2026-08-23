@@ -52,4 +52,4 @@ slug: "organic-maps-2025-year-in-review"
 
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

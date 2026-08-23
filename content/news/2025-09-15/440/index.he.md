@@ -56,4 +56,4 @@ Organic Maps מתאפשרת הודות לתורמים שלנו, [לתרומות 
 
 נ.ב. הצטרפו לבדיקת בטא כדי ליהנות מתכונות חדשות: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

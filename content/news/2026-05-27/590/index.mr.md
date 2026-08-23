@@ -62,4 +62,4 @@ Organic Maps सोबत सहज प्रवास करा, आणि त�
 
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

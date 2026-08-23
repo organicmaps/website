@@ -79,4 +79,4 @@ Tip: de bètaversie bevat nieuwe reliëfschaduw, verbeterde hoogtegegevens met o
 Fijne zomer!
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

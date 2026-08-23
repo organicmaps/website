@@ -53,4 +53,4 @@ Iga [annetus](@/donate/index.et.md) ja [panus](@/contribute/index.et.md) aitab m
 Nagu alati, armastuse ja hoolega ❤️
 Organic Maps meeskond
 
-{{ references() }}
+{{ <references lang /> }}

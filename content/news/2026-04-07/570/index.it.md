@@ -87,4 +87,4 @@ Partecipate al beta testing per provare in anteprima le nuove funzionalità e se
 Con amore e cura ❤️
 Il team di Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

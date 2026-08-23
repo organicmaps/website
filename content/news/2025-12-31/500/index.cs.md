@@ -51,4 +51,4 @@ Nic z toho by nebylo možné bez vás: našich uživatelů, našich [přispěvat
 
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

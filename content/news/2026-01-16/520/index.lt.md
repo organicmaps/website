@@ -50,4 +50,4 @@ Organic Maps egzistuoja dėka jūsų [aukų](@/donate/index.lt.md) ir [indėlių
 
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

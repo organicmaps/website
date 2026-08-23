@@ -11,7 +11,7 @@ description: "אז בואו נרקוד יחד, בטיסה קסומה זו, עם 
 
 ### שיר "Travel with Organic Maps"
 
-{{ audio(title="Travel with Organic Maps", url="/news/2024-04-26/travel-with-organic-maps-song/Travel with Organic Maps.mp3") }}
+{{ <audio title="Travel with Organic Maps" url="/news/2024-04-26/travel-with-organic-maps-song/Travel with Organic Maps.mp3" /> }}
 
 <pre>
 (בית 1)

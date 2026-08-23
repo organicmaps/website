@@ -42,7 +42,7 @@ Opsi tersebut mungkin tidak muncul jika kamu belum menginstal TTS di perangkat k
 
 Di bawah ini adalah daftar lengkap yang menunjukkan beberapa mesin dan bahasa yang didukungnya (tautan unduhan dapat ditemukan setelah tabel):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Solusi
 

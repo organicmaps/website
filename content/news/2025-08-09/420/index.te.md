@@ -59,4 +59,4 @@ P.S. …మరియు చాలా వస్తోంది! మీ మద్�
 
 [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [FDroid][fdroid] నుండి Organic Maps పొందండి.
 
-{{ references() }}
+{{ <references lang /> }}

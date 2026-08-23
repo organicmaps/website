@@ -49,4 +49,4 @@ Apple ve Google Haritalar'a daha iyi, gizlilik odaklı bir alternatif oluşturma
 Sevgiyle,
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

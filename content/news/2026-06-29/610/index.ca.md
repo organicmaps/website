@@ -88,4 +88,4 @@ Agraïm a tots els nostres usuaris i col·laboradors, a tots els qui [fan donaci
 Amb afecte,
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

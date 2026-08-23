@@ -53,4 +53,4 @@ Varje [donation](@/donate/index.sv.md) och [bidrag](@/contribute/index.sv.md) hj
 Som alltid, med kärlek och omtanke ❤️
 Organic Maps-teamet
 
-{{ references() }}
+{{ <references lang /> }}

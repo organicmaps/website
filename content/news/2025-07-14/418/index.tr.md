@@ -44,4 +44,4 @@ iOS değişiklikleri, tüm kredi _Kiryl Kaveryn_'e:
 
 Not: Detaylı sürüm notlarını okumayı seviyorsan, lütfen [sosyal ağlarımızda](/#community) bize bildir
 
-{{ references() }}
+{{ <references lang /> }}

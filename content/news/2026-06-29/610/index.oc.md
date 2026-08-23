@@ -88,4 +88,4 @@ Sèm reconeissents a totes los nòstres utilizaires e contributors, a totes los 
 Amb amor,
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

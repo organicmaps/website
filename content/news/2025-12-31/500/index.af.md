@@ -52,4 +52,4 @@ Gelukkige Nuwe Jaar 2026! 🎄🎁🎉
 
 Die Organic Maps Span
 
-{{ references() }}
+{{ <references lang /> }}

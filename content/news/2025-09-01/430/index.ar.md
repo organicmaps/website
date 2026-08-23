@@ -52,4 +52,4 @@ taxonomies:
 
 ملاحظة: لا تنس، يمكنك التسجيل في برنامج الاختبار التجريبي للحصول على وصول مبكر للميزات التجريبية والقادمة—[لـ iOS][testflight] و [لـ Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

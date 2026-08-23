@@ -84,4 +84,4 @@ taxonomies:
 
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

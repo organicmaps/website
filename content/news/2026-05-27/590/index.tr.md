@@ -62,4 +62,4 @@ Organic Maps ile kolayca seyahat et ve maceralarını bul! ✈️🚅🚌🚢�
 
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

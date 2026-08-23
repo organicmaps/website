@@ -79,4 +79,4 @@ Indici : la version beta a un nòu ombratge del relèu, de donadas d'elevacion m
 Bon estiu!
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

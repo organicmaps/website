@@ -52,4 +52,4 @@ Bona annada 2026 ! 🎄🎁🎉
 
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

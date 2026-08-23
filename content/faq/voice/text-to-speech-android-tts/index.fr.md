@@ -42,7 +42,7 @@ Ces options peuvent ne pas apparaître si aucun TTS n'est installé sur ton appa
 
 Tu trouveras ci-dessous une liste de plusieurs langues et moteurs et supportées (les liens de téléchargement se trouvent après le tableau) :
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Solutions alternatives
 

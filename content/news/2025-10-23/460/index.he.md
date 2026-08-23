@@ -65,4 +65,4 @@ Organic Maps מתאפשר הודות ❤️ לתורמים שלנו, [לתרומ
 באהבה למשתמשים ולקהילה שלנו
 צוות Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -62,4 +62,4 @@ Viatja facil, e tròba tas aventuras amb Organic Maps! ✈️🚅🚌🚢🌴�
 
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

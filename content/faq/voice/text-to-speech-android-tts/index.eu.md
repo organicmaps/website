@@ -42,7 +42,7 @@ Baliteke aukera horiek ez agertzea zure gailuan TTSrik instalatuta ez baduzu. Me
 
 Jarraian, hainbat motor eta onartzen dituzten hizkuntzak erakusten dituen zerrenda zabala dago (deskargarako estekak taularen ondoren aurki daitezke):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Konponbideak
 

@@ -84,4 +84,4 @@ We love our users ❤️ and we love what we do
 
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

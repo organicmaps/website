@@ -87,4 +87,4 @@ Uneix-te a les proves beta per provar les funcions abans d'hora i informar de pr
 Amb amor i cura ❤️
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

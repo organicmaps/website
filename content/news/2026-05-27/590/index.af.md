@@ -62,4 +62,4 @@ Reis gerieflik, en vind jou avonture met Organic Maps! ✈️🚅🚌🚢🌴�
 
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

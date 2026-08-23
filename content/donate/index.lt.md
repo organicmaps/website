@@ -17,7 +17,7 @@ Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** 
 
 Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Kodėl verta paaukoti Organic Maps?
 
@@ -47,22 +47,22 @@ Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
 Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Reguliarios aukos – tai geriausias būdas užtikrinti palyginti stabilias projekto pajamas ir mus motyvuoti siekti ilgalaikių uždavinių bei tikslų. Taip pat dėkojame už vienkartines aukas.
 
 ### Bankinis pavedimas
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kriptovaliuta
 
 Prašome apsvarstyti galimybę kasmet aukoti, kad būtų sumažinti bendri mokesčiai.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Ar galėtumėte mums padėti kokiu nors kitu būdu?
 
 Taip! Yra daug būdų, kaip paremti Organic Maps. Daugiau informacijos rasite puslapyje [„Prisidėkite“](@/contribute/index.lt.md).
 
-{{ references() }}
+{{ <references lang /> }}

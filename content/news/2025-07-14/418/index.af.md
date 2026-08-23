@@ -44,4 +44,4 @@ iOS-veranderinge, alle lof aan _Kiryl Kaveryn_:
 
 P.S. As jy daarvan hou om gedetailleerde vrystellingsnotas te lees, laat ons asseblief weet op ons [sosiale netwerke](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

@@ -51,4 +51,4 @@ slug: "organic-maps-2025-anaskopisi-tis-chronias"
 
 Η Ομάδα του Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

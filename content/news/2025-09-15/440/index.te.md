@@ -56,4 +56,4 @@ Organic Maps మా కాంట్రిబ్యూటర్లకు, [మీ
 
 బీటా పరీక్షలో చేరండి: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

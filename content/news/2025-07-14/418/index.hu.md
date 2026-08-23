@@ -44,4 +44,4 @@ iOS változások, minden elismerés _Kiryl Kaveryn_-nek:
 
 Ui. Ha szereted olvasni a részletes kiadási jegyzeteket, kérjük, jelezd a [közösségi hálózatainkon](/hu/#kozosseg)
 
-{{ references() }}
+{{ <references lang /> }}

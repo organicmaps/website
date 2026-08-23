@@ -87,4 +87,4 @@ Ymuna â'r profion beta i roi cynnig ar nodweddion cynnar ac i adrodd am broblem
 Gyda chariad a gofal ❤️
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

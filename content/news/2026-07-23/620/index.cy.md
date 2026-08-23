@@ -79,4 +79,4 @@ Awgrym: mae gan y fersiwn beta gysgodi bryniau newydd, data uchder gwell gyda ch
 Haf hapus!
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -8,4 +8,4 @@ slug: "we-are-working-on-the-recent-track-feature-for-android-and-record-track-f
 
 אנו מברכים גם על הרעיונות והדוגמאות הטובים ביותר מאפליקציות אחרות. אנו מעריכים כל משוב ב-[Telegram][], [Matrix][] או ב-[דוא"ל](mailto:support@organicmaps.app) ❤️❤️❤️
 
-{{ references() }}
+{{ <references lang /> }}

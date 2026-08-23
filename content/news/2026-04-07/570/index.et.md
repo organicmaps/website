@@ -87,4 +87,4 @@ Liitu beetatestimisega, et proovida uusi funktsioone varem ja anda probleemidest
 Armastuse ja hoolega ❤️
 Organic Mapsi meeskond
 
-{{ references() }}
+{{ <references lang /> }}

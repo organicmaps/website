@@ -17,7 +17,7 @@ Organic Maps is _gratis vir almal_ danksy jou **[skenkings][stripe]** in **[EUR]
 
 Klik op jou voorkeur betaalmetode-ikoon hieronder:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Hoekom skenk aan Organic Maps?
 
@@ -51,22 +51,22 @@ Klik op jou voorkeur betaalmetode-ikoon hieronder:
 
 Klik op jou voorkeur betaalmetode-ikoon hieronder:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Herhalende skenkings is die beste manier om 'n relatief stabiele inkomste vir die projek te verseker en ons te motiveer vir langtermyn take en doelwitte. Eenmalige skenkings word ook waardeer.
 
 ### Bankoorplasing
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kripto
 
 Oorweeg asseblief om jaarliks te skenk om totale fooie te verminder.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Kan jy op enige ander manier help?
 
 Ja! Daar is baie maniere om Organic Maps te ondersteun. Sien asseblief die [Dra by](@/contribute/index.af.md) bladsy vir meer besonderhede.
 
-{{ references() }}
+{{ <references lang /> }}

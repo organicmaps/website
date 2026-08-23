@@ -56,4 +56,4 @@ Organic Maps sou nie moontlik wees sonder jou [skenkings](@/donate/index.af.md),
 Met sorg en liefde,
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

@@ -84,4 +84,4 @@ Ons is lief vir ons gebruikers ❤️ en ons hou van wat ons doen
 
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

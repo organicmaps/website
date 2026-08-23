@@ -52,4 +52,4 @@ slug: "organic-maps-2025-hasad-al-am"
 
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

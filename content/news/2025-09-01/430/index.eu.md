@@ -52,4 +52,4 @@ Ez baduzu oraindik probatu, orain Organic Maps-en ezarpenetan laster-marken izen
 
 P.S. Ez ahaztu, gure beta probaren programan erregistratu zaitezke esperimentalen eta etorriko diren funtzioen sarbide goiztiarra lortzeko—[iOS-rako][testflight] eta [Android-erako][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

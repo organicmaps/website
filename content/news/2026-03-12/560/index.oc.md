@@ -53,4 +53,4 @@ Cada [donacion](@/donate/index.oc.md) e [contribucion](@/contribute/index.oc.md)
 Coma totjorn, amb amor e atencion ❤️
 L'equipa d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

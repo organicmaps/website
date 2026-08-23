@@ -62,4 +62,4 @@ Bepergian dengan mudah, dan temukan petualanganmu dengan Organic Maps! ✈️�
 
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

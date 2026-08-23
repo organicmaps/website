@@ -79,4 +79,4 @@ Tips: Betaversionen har ny skuggning av terrängen, förbättrade höjddata med 
 Ha en trevlig sommar!
 Organic Maps-teamet
 
-{{ references() }}
+{{ <references lang /> }}

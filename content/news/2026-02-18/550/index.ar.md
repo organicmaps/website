@@ -66,4 +66,4 @@ taxonomies:
 بكل عناية وحب،
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

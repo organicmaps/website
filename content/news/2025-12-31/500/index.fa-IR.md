@@ -51,4 +51,4 @@ slug: "organic-maps-2025-moroor-sal"
 
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

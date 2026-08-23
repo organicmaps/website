@@ -79,4 +79,4 @@ extra:
 వేసవి శుభాకాంక్షలు!
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

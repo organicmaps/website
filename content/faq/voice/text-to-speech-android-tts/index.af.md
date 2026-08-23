@@ -42,7 +42,7 @@ Genoemde opsies sal dalk nie verskyn as jy nie reeds 'n TTS op jou toestel geïn
 
 Hieronder is 'n omvattende lys met verskeie enjins en die tale wat hulle ondersteun (aflaaiskakels kan na die tabel gevind word):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Oplossings
 

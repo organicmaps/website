@@ -87,4 +87,4 @@ Yeni özellikleri erkenden denemek ve sorunları bildirmek için beta testine ka
 Sevgi ve özenle ❤️
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

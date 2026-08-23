@@ -42,7 +42,7 @@ P.S.: Ten en conta que estes pasos variarán segundo a marca do teléfono que es
 
 A continuación móstrase unha lista completa que mostra varios motores e os idiomas que admiten (as ligazóns de descarga pódense atopar despois da táboa):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Solucións alternativas
 

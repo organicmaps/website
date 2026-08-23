@@ -88,4 +88,4 @@ taxonomies:
 Με αγάπη,
 Η ομάδα του Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

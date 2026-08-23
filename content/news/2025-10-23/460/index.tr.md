@@ -65,4 +65,4 @@ Not: Erken özellikler için beta testine katıl:
 Kullanıcılarımıza ve topluluğumuza sevgiyle
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

@@ -59,4 +59,4 @@ P.S. …und es kommt noch viel mehr! Deine Unterstützung hilft und motiviert un
 
 Hole dir Organic Maps aus dem [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

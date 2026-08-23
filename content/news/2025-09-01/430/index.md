@@ -52,4 +52,4 @@ If you haven't tried it yet, you can now enable a bookmark names on the map in O
 
 P.S. Don't forget, you can sign up for our beta testing program to get early access to experimental and upcoming features [for iOS][testflight] and [for Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

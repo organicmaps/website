@@ -50,4 +50,4 @@ Organic Maps existeix gràcies a les teves [donacions](@/donate/index.ca.md) i [
 
 L'Equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

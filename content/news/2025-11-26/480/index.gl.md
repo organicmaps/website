@@ -56,4 +56,4 @@ Organic Maps non sería posible sen as túas [doazóns](@/donate/index.gl.md), [
 Con cariño e amor,
 O equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

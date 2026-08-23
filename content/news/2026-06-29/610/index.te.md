@@ -88,4 +88,4 @@ Organic Maps జూన్ నవీకరణలో ప్రయత్నిం�
 ప్రేమతో,
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

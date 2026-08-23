@@ -63,4 +63,4 @@ Keliaukite lengvai ir ieškokite nuotykių su Organic Maps! ✈️🚅🚌🚢�
 
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

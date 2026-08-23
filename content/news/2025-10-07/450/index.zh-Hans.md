@@ -81,4 +81,4 @@ Organic Maps 得以存在，要感谢 ❤️ 我们的贡献者、[你的捐赠]
 
 加入测试版，抢先体验新功能：[iOS][testflight] / [Android][firebase]。
 
-{{ references() }}
+{{ <references lang /> }}

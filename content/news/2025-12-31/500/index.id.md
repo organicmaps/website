@@ -52,4 +52,4 @@ Selamat Tahun Baru 2026! 🎄🎁🎉
 
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

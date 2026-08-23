@@ -56,4 +56,4 @@ Organic Maps 得益于贡献者、[你的捐赠](@/donate/index.zh-Hans.md) 与 
 
 加入测试版：[iOS][testflight] / [Android][firebase]。
 
-{{ references() }}
+{{ <references lang /> }}

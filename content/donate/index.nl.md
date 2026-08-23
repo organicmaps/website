@@ -17,7 +17,7 @@ Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]**
 
 Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Waarom doneren aan Organic Maps?
 
@@ -47,22 +47,22 @@ Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
 
 Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Terugkerende donaties zijn de beste manier om een relatief stabiel inkomen voor het project te verzorgen en motiveren ons voor lange termijn taken en doelen. Maar je kan ook eenmalig doneren.
 
 ### Bankoverschrijving
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Crypto
 
 Overweeg alsjeblieft om jaarlijs te doneren om de totale kosten te reduceren.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Kun je ons op een andere manier helpen?
 
 Ja! Er zijn vele manieren om Organic Maps te ondersteunen. Kijk alsjeblieft op de pagina [Steun ons](@/contribute/index.nl.md) voor meer details.
 
-{{ references() }}
+{{ <references lang /> }}

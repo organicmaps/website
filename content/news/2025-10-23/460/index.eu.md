@@ -65,4 +65,4 @@ P.D. Elkartu beta probarako eginbide goiztizetarako:
 Maitasunez gure erabiltzaile eta komunitatearendako
 Organic Maps taldea
 
-{{ references() }}
+{{ <references lang /> }}

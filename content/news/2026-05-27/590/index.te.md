@@ -63,4 +63,4 @@ taxonomies:
 
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

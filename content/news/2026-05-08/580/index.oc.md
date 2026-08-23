@@ -84,4 +84,4 @@ Aimam los nòstres utilizaires ❤️ e aimam çò que fasèm
 
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

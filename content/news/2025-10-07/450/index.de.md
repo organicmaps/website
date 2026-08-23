@@ -81,4 +81,4 @@ Hol dir die neueste Version von Organic Maps aus dem [App Store][appstore], [Goo
 
 Tritt den Betatests für frühe Funktionen bei: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

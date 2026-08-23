@@ -59,4 +59,4 @@ taxonomies:
 
 Απόκτησε το Organic Maps από το [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], και [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -42,7 +42,7 @@ Said options may not appear if you don't have a TTS already installed on your de
 
 Below is a comprehensive list showing several engines and the languages they support (download links can be found after the table):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Workarounds
 

@@ -72,4 +72,4 @@ Dėkojame, kad naudojatės Organic Maps ir remiate projektą!
 
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

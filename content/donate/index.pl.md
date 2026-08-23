@@ -17,7 +17,7 @@ Aplikacja Organic Maps jest _darmowa dla wszystkich_ dzięki Waszym **[donacjom]
 
 Kliknij ikonę preferowanej metody płatności poniżej:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Dlaczego warto przekazać darowiznę na rzecz Organic Maps?
 
@@ -47,22 +47,22 @@ Kliknij ikonę preferowanej metody płatności poniżej:
 
 Kliknij ikonę preferowanej metody płatności poniżej:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Powtarzające się darowizny to najlepszy sposób na zapewnienie względnie stabilnego dochodu dla projektu i zmotywowanie nas do realizacji długoterminowych zadań i celów. Ale możesz też przekazać darowiznę jednorazowo.
 
 ### Przelew bankowy
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kryptowaluta
 
 Proszę rozważyć coroczną darowiznę, aby zmniejszyć całkowite opłaty.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Czy można nam pomóc w jakiś inny sposób?
 
 Tak! Istnieje wiele sposobów na wsparcie Organic Maps. Więcej szczegółów znajdziesz na stronie [Wesprzyj nas](@/contribute/index.pl.md).
 
-{{ references() }}
+{{ <references lang /> }}

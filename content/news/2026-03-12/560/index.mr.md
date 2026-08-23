@@ -53,4 +53,4 @@ taxonomies:
 नेहमीप्रमाणे, प्रेम आणि काळजीने ❤️
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

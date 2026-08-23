@@ -42,7 +42,7 @@ Mae'n bosibl na fydd yr opsiynau a ddywedwyd yn ymddangos os nad oes gennyt TTS 
 
 Isod mae rhestr gynhwysfawr yn dangos nifer o beiriannau a'r ieithoedd y maent yn eu cefnogi (gellir dod o hyd i ddolenni lawrlwytho ar ôl y tabl):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Workarounds
 

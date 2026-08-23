@@ -50,4 +50,4 @@ Organic Maps is driven by your [donations](@/donate/index.md) and [contributions
 
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

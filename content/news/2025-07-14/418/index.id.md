@@ -44,4 +44,4 @@ Perubahan iOS, semua pujian untuk _Kiryl Kaveryn_:
 
 P.S. Jika kamu suka membaca catatan rilis yang detail, silakan beri tahu kami di [jaringan sosial](/#community) kami
 
-{{ references() }}
+{{ <references lang /> }}

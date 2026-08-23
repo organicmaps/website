@@ -79,4 +79,4 @@ Belki de fark etmişsindir, Temmuz ayı Organic Maps güncellemesi yayınlandı.
 Mutlu yazlar!
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

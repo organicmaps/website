@@ -84,4 +84,4 @@ taxonomies:
 
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

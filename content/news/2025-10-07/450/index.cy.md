@@ -81,4 +81,4 @@ Lawrlwytha'r fersiwn ddiweddaraf o Organic Maps o'r [App Store][appstore], [Goog
 
 Ymuna â'r profion beta i gael nodweddion cynnar: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

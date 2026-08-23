@@ -24,4 +24,4 @@ iOS:
 
 - [Apple TestFlight][testflight]
 
-{{ references() }}
+{{ <references lang /> }}

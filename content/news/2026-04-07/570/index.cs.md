@@ -87,4 +87,4 @@ Zapojte se do beta testování, vyzkoušejte si nové funkce a nahlaste problém
 S láskou a péčí ❤️
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

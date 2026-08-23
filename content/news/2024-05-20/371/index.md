@@ -8,4 +8,4 @@ As we're working now on the Recent Track for Android and Track Recorder for iOS 
 
 The best ideas and examples from other apps are also welcome. Any feedback in our [Telegram][], [Matrix][] or by [email](mailto:support@organicmaps.app) is appreciated ❤️❤️❤️
 
-{{ references() }}
+{{ <references lang /> }}

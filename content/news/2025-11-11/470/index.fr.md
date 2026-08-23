@@ -72,4 +72,4 @@ Merci d'utiliser Organic Maps et de soutenir le projet !
 
 L'équipe d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

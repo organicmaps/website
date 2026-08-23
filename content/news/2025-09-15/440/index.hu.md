@@ -56,4 +56,4 @@ Töltsd le a legújabb Organic Maps verziót: [App Store][appstore], [Google Pla
 
 Csatlakozz a béta teszteléshez: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

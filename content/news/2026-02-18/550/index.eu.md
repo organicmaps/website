@@ -66,4 +66,4 @@ Sartu beta probetan funtzio goiztiarrak probatzeko eta arazoen berri emateko:
 Zaintza eta maitasunez,
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

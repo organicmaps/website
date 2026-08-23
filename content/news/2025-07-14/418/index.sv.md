@@ -44,4 +44,4 @@ iOS-ändringar, all kredit till _Kiryl Kaveryn_:
 
 P.S. Om du gillar att läsa detaljerade versionsanteckningar, låt oss veta på våra [sociala nätverk](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

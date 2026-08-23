@@ -87,4 +87,4 @@ Csatlakozz a bétateszteléshez, hogy kipróbálhasd a korai funkciókat és jel
 Szeretettel és gondoskodással ❤️
 Az Organic Maps csapata
 
-{{ references() }}
+{{ <references lang /> }}

@@ -15,17 +15,16 @@ title: "Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabig
 
 ### Deskargatu eta instalatu Organic Maps hemendik: [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Mendian', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Mendian' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Praga') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='Praga' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Offline bilaketa')
-}}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='Offline bilaketa' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Nabigazioa modu
-ilunean') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='Nabigazioa modu
+ilunean' /> }}
 
 ## Berezitasunak
 
@@ -65,15 +64,15 @@ Organic Maps app-ak ez du tracker edo beste trikimailu zikinik:
 
 Aplikazio hau [Exodus Pribatutasuna Project][exodus]-ek egiaztatzen du:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 iOS aplikazioa [TrackerControl iOS-erako][trackercontrol]-ek egiaztatzen du:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps-ek ez du zu espiatzeko gehiegizko baimenik eskatzen:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 Organic Maps-en sinesten dugu pribatutasuna oinarrizko eskubide bat dela:
 
@@ -91,14 +90,14 @@ App-a denontzat doakoa da. Mesedez [donate](@/donate/index.eu.md) guri laguntzek
 
 Dohaintza egokia emateko, egin klik behean nahi duzun ordainketa-metodoaren ikonoan:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegitura-kostu batzuk estaltzeko eta hautatutako ezaugarri berrien garapena finantzatzeko:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Bilaketa eta Letra-tipoak hobetzeko proiektua</a> NGI0 Entrust Funtsaren bidez <a href="https://nlnet.nl/project/OrganicMaps/">finantzatu</a> da. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Funtsa</a> <a href="https://nlnet.nl/">NLnet Fundazioak</a> ezarri du Europako Batzordearen <a href="https://www.ngi.eu/">Next Generation Internet programaren</a> laguntza ekonomikoarekin, Komunikazio Sareen, Edukien eta Teknologiaren Zuzendaritza Nagusiaren babespean 101069594 zenbakiko diru-laguntza hitzarmenaren arabera.
@@ -106,7 +105,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google-k</a> ikasleen proiektuak babestu zituen Google Summer of Code programan <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> programetan. Proiektu aipagarrien artean Android Auto, Wikipedia Dump Extractor, Androiderako Ibilbide Grabaketa zeuden.
@@ -114,7 +113,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP-ak <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">ematen dizkigu</a> bi zerbitzari birtual hilean 400 TB arteko banda-zabalera doakoarekin mapen deskargak eta eguneraketak ostatatzeko eta zerbitzatzeko.
@@ -122,7 +121,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies-ek</a> <a href="https://44plus.vn/organicmaps">ematen digu</a> urtean 12.000 $ inguruko balioa duen zerbitzari dedikatu doako bat Vietnam eta Hego-ekialdeko Asian mapak zerbitzatzeko.
@@ -130,7 +129,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO-k</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">1000 $-ko mikro-diru-laguntza eman zion</a> Organic Maps-i 2023ko otsailean.
@@ -156,4 +155,4 @@ Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean
 
 [fork]: https://eu.wikipedia.org/wiki/Fork
 
-{{ references() }}
+{{ <references lang /> }}

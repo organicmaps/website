@@ -53,4 +53,4 @@ taxonomies:
 مثل همیشه، با عشق و توجه ❤️
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

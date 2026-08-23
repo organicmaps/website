@@ -56,4 +56,4 @@ Laadi alla uusim Organic Maps versioon: [App Store][appstore], [Google Play][goo
 
 Liitu beetaga: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

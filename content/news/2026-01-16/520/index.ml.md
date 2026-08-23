@@ -50,4 +50,4 @@ taxonomies:
 
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

@@ -52,4 +52,4 @@ slug: "organic-maps-2025-samvatsara-sameeksha"
 
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

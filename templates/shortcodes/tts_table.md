@@ -1,3 +1,4 @@
+{% component tts_table(lang) -%}
 <div class="tts-table">
 
 {{ trans(key='language-word', lang=lang) }} | &emsp; {{ trans(key='engines', lang=lang) }}
@@ -112,3 +113,4 @@ Welsh (Cymraeg, GB)| &emsp; eSpeak, SherpaTTS
 - [Vocalizer (Code Factory)](https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts)
 - [Vocalizer 2 (Nuance)](https://nvda.ru/sintezatory-rechi-vocalizer-expressive2-dlja-nvda#)
 - [Yandex SpeechKit TTS](https://4pda.to/forum/index.php?showtopic=200728&st=4200#download)
+{%- endcomponent tts_table %}

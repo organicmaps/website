@@ -41,7 +41,7 @@ Diese Optionen werden möglicherweise nicht angezeigt, wenn auf deinem Gerät no
 
 Nachfolgend findest du eine umfassende Liste mit mehreren Engines und den von ihnen unterstützten Sprachen (Download-Links findest du nach der Tabelle):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Problemumgehungen
 

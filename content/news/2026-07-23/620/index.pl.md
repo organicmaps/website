@@ -79,4 +79,4 @@ Wskazówka: wersja beta zawiera nowe cieniowanie terenu, ulepszone dane dotyczą
 Miłego lata!
 Zespół Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -59,4 +59,4 @@ P.S. …en baie meer kom! Jou ondersteuning help en motiveer ons om die beste ka
 
 Kry Organic Maps van die [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], en [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

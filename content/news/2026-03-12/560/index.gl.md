@@ -53,4 +53,4 @@ Cada [doazón](@/donate/index.gl.md) e [contribución](@/contribute/index.gl.md)
 Como sempre, con amor e coidado ❤️
 O equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

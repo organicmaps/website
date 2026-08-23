@@ -59,4 +59,4 @@ P.S. …ac mae llawer mwy yn dod! Mae dy gefnogaeth yn ein helpu ac yn ein ysgog
 
 Cael Organic Maps o'r [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

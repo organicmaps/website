@@ -56,4 +56,4 @@ taxonomies:
 శ్రద్ధ మరియు ప్రేమతో,
 Organic Maps టీమ్
 
-{{ references() }}
+{{ <references lang /> }}

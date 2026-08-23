@@ -59,4 +59,4 @@ P.S. …és még sok minden érkezik! A támogatásod segít és motivál minket
 
 Szerezd be az Organic Maps-et az [AppStore][appstore]-ból, [Google Play][googleplay]-ről, [Huawei AppGallery][appgallery]-ből, [Obtainium][obtainium]-ból, [Accrescent][accrescent]-ből és [FDroid][fdroid]-ról.
 
-{{ references() }}
+{{ <references lang /> }}

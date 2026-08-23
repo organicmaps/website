@@ -15,17 +15,17 @@ title: "Organic Maps: Offline pěší turistika, cykloturistika, stezky a naviga
 
 ### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Turistika', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Turistika' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Praha') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='Praha' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Offline
-vyhledávání') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='Offline
+vyhledávání' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Navigace v tmavém
-režimu') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='Navigace v tmavém
+režimu' /> }}
 
 ## Vlastnosti
 
@@ -65,15 +65,15 @@ Organic Maps neobsahuje sledovací zařízení a další špatné věci:
 
 Aplikace je ověřena od [Exodus Soukromí Project][exodus]:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 Aplikace pro iOS je ověřena pomocí [TrackerControl for iOS][trackercontrol]:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps nevyžaduje nadměrná oprávnění ke špehování:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 V Organic Maps věříme, že soukromí je základním lidským právem:
 
@@ -91,14 +91,14 @@ Aplikace je pro všechny zdarma. Podpořte nás prosím [donate](@/donate/index.
 
 Chcete-li přispět okamžitě, klikněte na ikonu preferovaného způsobu platby níže:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí některých nákladů na infrastrukturu a financování vývoje nových vybraných funkcí:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Projekt vylepšení vyhledávání a písem</a> byl <a href="https://nlnet.nl/project/OrganicMaps/">financován</a> prostřednictvím fondu NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Fond NGI0 Entrust</a> je zřízen <a href="https://nlnet.nl/">nadací NLnet</a> s finanční podporou programu Evropské komise <a href="https://www.ngi.eu/">Next Generation Internet</a>, pod záštitou GŘ pro komunikační sítě, obsah a technologie na základě grantové dohody č. 101069594.
@@ -106,7 +106,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> podpořil studentské projekty v programu Google Summer of Code během programů <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Mezi pozoruhodné projekty patřily Android Auto, extraktor výpisů Wikipedie, záznam trasy pro Android.
@@ -114,7 +114,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">nám poskytuje</a> dva virtuální servery s až 400 TB/měsíc bezplatné šířky pásma pro hostování a poskytování stahování a aktualizací map.
@@ -122,7 +122,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> nám <a href="https://44plus.vn/organicmaps">poskytuje</a> bezplatný dedikovaný server v hodnotě přibližně 12 000 $/rok pro poskytování map ve Vietnamu a jihovýchodní Asii.
@@ -130,7 +130,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">udělilo mikrogrant ve výši 1000 $</a> pro Organic Maps v únoru 2023.
@@ -156,4 +156,4 @@ Organic Maps je [open-source software][github] licencovaný pod Apache License 2
 
 [fork]: https://cs.wikipedia.org/wiki/Fork
 
-{{ references() }}
+{{ <references lang /> }}

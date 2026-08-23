@@ -42,7 +42,7 @@ PD: Tingues en compte que aquests passos variaran en funció de la marca de tel�
 
 A continuació es mostra una llista completa que mostra diversos motors i els idiomes que admeten (els enllaços de descàrrega es poden trobar després de la taula):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Solucions alternatives
 

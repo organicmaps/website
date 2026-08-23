@@ -53,4 +53,4 @@ Každý [dar](@/donate/index.cs.md) a [příspěvek](@/contribute/index.cs.md) n
 Jako vždy, s láskou a péčí ❤️
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

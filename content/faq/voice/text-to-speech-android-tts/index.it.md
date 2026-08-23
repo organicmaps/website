@@ -42,7 +42,7 @@ Le suddette opzioni potrebbero non essere presenti se sul dispositivo non è gi�
 
 Di seguito è riportato un elenco completo di diversi motori di sintesi vocale e delle lingue supportate (i link per il download si trovano dopo la tabella):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Risoluzione dei problemi
 

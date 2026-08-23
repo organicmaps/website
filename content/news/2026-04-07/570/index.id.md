@@ -88,4 +88,4 @@ Bergabunglah dengan pengujian beta untuk mencoba fitur-fitur awal dan melaporkan
 Dengan cinta dan perhatian ❤️
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -56,4 +56,4 @@ Organic Maps [bağışların](@/donate/index.tr.md), [katkıların ve desteğin]
 Özen ve sevgiyle,
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

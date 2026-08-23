@@ -65,4 +65,4 @@ P.S. Bergabunglah dengan pengujian beta untuk fitur awal:
 Dengan cinta untuk pengguna dan komunitas kami
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -52,4 +52,4 @@ Buon Anno 2026! 🎄🎁🎉
 
 Il team di Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

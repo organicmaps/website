@@ -79,4 +79,4 @@ extra:
 गर्मियों की शुभकामनाएँ!
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

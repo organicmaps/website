@@ -15,15 +15,15 @@ extra:
 
 ### دانلود و نصب Organic Maps از طریق [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [اف‌دروید][fdroid]، [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='پیاده‌روی', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='پیاده‌روی' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='شهر پراگ') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='شهر پراگ' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='جستجوی آفلاین') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='جستجوی آفلاین' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='مسیریابی در حالت تیره') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='مسیریابی در حالت تیره' /> }}
 
 ## قابلیت‌ها
 
@@ -63,15 +63,15 @@ Organic Maps کاملا خالص و اورگانیک است، ساخته‌شد�
 
 این برنامه توسط [پروژه حفظ حریم خصوصی اگزودوس][exodus] تایید شده است:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 نسخه iOS این برنامه نیز توسط [TrackerControl برای iOS][trackercontrol] تایید شده است:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا شما را زیر نظر بگیرد:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 در Organic Maps، ما معتقدیم که حفظ حریم خصوصی یک حق اساسی انسانی است:
 
@@ -89,14 +89,14 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
 
 برای کمک مالی به‌راحتی، روی آیکون روش پرداخت مورد نظر خود در زیر کلیک کنید:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 حامیان محترم نهادی زیر، کمک‌های مالی هدفمندی را برای پوشش بخشی از هزینه‌های زیرساخت و تامین بودجه توسعه ویژگی‌های جدید ارائه کرده‌اند:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="بنیاد NLnet" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="بنیاد NLnet" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">پروژه بهبود جستجو و فونت‌ها</a> از طریق صندوق NGI0 Entrust <a href="https://nlnet.nl/project/OrganicMaps/">تامین مالی</a> شده است. <a href="https://nlnet.nl/entrust/">صندوق NGI0 Entrust</a> توسط <a href="https://nlnet.nl/">بنیاد NLnet</a> با حمایت مالی برنامه <a href="https://www.ngi.eu/">اینترنت نسل آینده</a> کمیسیون اروپا، تحت نظارت اداره کل شبکه‌های ارتباطی، محتوا و فناوری تحت توافقنامه کمک مالی شماره 101069594 تاسیس شده است.
@@ -104,7 +104,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">گوگل</a> از پروژه‌های دانشجویی در برنامه Google Summer of Code در طول برنامه‌های <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>، <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>، <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>، <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> حمایت کرد. پروژه‌های قابل توجه شامل Android Auto، استخراج‌کننده دامپ ویکی‌پدیا، ضبط مسیر برای اندروید بود.
@@ -112,7 +112,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ارائه‌دهنده خدمات اینترنتی <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">به ما</a> دو سرور مجازی با حداکثر 400 ترابایت در ماه پهنای باند رایگان برای میزبانی و ارائه دانلودها و به‌روزرسانی‌های نقشه‌ها ارائه می‌دهد.
@@ -120,7 +120,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">به ما</a> یک سرور اختصاصی رایگان به ارزش حدود 12000 دلار در سال برای ارائه نقشه‌ها در ویتنام و آسیای جنوب شرقی ارائه می‌دهد.
@@ -128,7 +128,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> در فوریه 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">یک کمک مالی خرد 1000 دلاری</a> به Organic Maps اعطا کرده است.
@@ -154,4 +154,4 @@ Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز 
 
 [fork]: https://fa.wikipedia.org/wiki/انشعاب_(توسعه_نرم‌افزار)
 
-{{ references() }}
+{{ <references lang /> }}

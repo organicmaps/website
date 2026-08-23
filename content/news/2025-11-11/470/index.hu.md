@@ -72,4 +72,4 @@ Köszönjük, hogy az Organic Maps-et használod és támogatod a projektet!
 
 Az Organic Maps csapata
 
-{{ references() }}
+{{ <references lang /> }}

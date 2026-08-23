@@ -8,4 +8,4 @@ slug: "a-new-experimental-android-beta-version-with-improved-map-downloader-is-a
 
 גרסה זו אמורה לפתור אחת ולתמיד את בעיית ההורדה של 0%! אנא הודיעו לנו אם אתם עדיין נתקלים בבעיות בהורדת מפות או בבעיות אחרות. אנו נתקן אותן בהקדם האפשרי!
 
-{{ references() }}
+{{ <references lang /> }}

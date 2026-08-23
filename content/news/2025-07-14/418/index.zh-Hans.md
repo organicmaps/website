@@ -44,4 +44,4 @@ iOS更改，所有功劳归于 _Kiryl Kaveryn_：
 
 附言：如果你喜欢阅读详细的发布说明，请在我们的[社交网络](/#community)上告诉我们
 
-{{ references() }}
+{{ <references lang /> }}

@@ -41,7 +41,7 @@ Wspomniane opcje mogą się nie pojawić, jeśli nie masz jeszcze zainstalowaneg
 
 Poniżej znajduje się obszerna lista pokazująca kilka silników i obsługiwane przez nie języki (linki do pobrania znajdują się pod tabelą):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Obejścia
 

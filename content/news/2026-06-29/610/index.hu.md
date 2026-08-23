@@ -88,4 +88,4 @@ Hálásak vagyunk minden felhasználónknak és közreműködőnknek, azoknak, a
 Szeretettel,
 Az Organic Maps csapat
 
-{{ references() }}
+{{ <references lang /> }}

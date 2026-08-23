@@ -81,4 +81,4 @@ En son Organic Maps sürümünü şuralardan edin: [App Store][appstore], [Googl
 
 Yeni özellikleri erken denemek için beta testine katıl: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -51,4 +51,4 @@ Mutlu Yıllar 2026! 🎄🎁🎉
 
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

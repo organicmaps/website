@@ -49,4 +49,4 @@ Csatlakozz a béta teszteléshez, hogy kipróbáld a korai funkciókat és jelen
 Szeretettel,
 Az Organic Maps csapat
 
-{{ references() }}
+{{ <references lang /> }}

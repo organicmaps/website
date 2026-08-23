@@ -20,4 +20,4 @@ June release is already in progress. It has some cool features and new bugfixes,
 * [iOS Beta (TestFlight)][testflight]
 * [Android Beta (Firebase)][firebase]
 
-{{ references() }}
+{{ <references lang /> }}

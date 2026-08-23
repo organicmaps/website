@@ -59,4 +59,4 @@ P.S. …और भी बहुत कुछ आने वाला है! आ�
 
 Organic Maps प्राप्त करें [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [FDroid][fdroid] से।
 
-{{ references() }}
+{{ <references lang /> }}

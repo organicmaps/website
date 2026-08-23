@@ -88,4 +88,4 @@ Eskerrak eman nahi dizkiegu gure erabiltzaile eta laguntzaile guztiei, [dohaintz
 Maitasunez,
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

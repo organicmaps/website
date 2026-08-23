@@ -1,3 +1,4 @@
+{% component references(lang) -%}
 [accrescent]: https://accrescent.app/app/app.organicmaps "Organic Maps in Accrescent"
 [api]: https://omaps.app/api "Organic Maps API"
 [appgallery]: https://appgallery.huawei.com/#/app/C104325611?local={{ lang }} "{{ trans(key='install-appgallery', lang=lang) }}"
@@ -66,3 +67,4 @@
 [translations_website]: https://hosted.weblate.org/projects/organicmaps/website/
 [twitter]: https://x.com/OrganicMapsApp
 [weblate]: https://hosted.weblate.org/projects/organicmaps/
+{%- endcomponent references %}

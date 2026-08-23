@@ -15,16 +15,16 @@ title: "Organic Maps : ऑफलाईन भटकंती, सायकल �
 
 ### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='भटकंती', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='भटकंती' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='प्राग') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='प्राग' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='ऑफलाईन शोध') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='ऑफलाईन शोध' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='गडद मोड मध्ये
-मार्गनिर्देशन') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='गडद मोड मध्ये
+मार्गनिर्देशन' /> }}
 
 ## वैशिष्ट्ये
 
@@ -64,15 +64,15 @@ Organic Maps अॅप माहिती चोरांपासून आण�
 
 [Exodus गोपनीयता Project][exodus] कडून तपासलेले ऍप:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 [iOS साठी TrackerControl][trackercontrol] कडून तपासलेले iOS ऍप:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 तुमच्यावर गुप्तहेरी करायला Organic Maps अनावश्यक परवानग्या मागत नाही:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 Organic Maps मध्ये आम्ही ह्या विचारांचे आहोत की गोपनीयता हा प्रत्येकाचा मानवी हक्क आहे:
 
@@ -90,14 +90,14 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
 
 सोयीस्करपणे देणगी देण्यासाठी, खाली दिलेल्या तुमच्या पसंतीच्या पेमेंट पद्धतीच्या चिन्हावर क्लिक करा:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 खालील प्रिय संस्थात्मक प्रायोजकांनी काही पायाभूत सुविधा खर्च कव्हर करण्यासाठी आणि निवडलेल्या नवीन वैशिष्ट्यांच्या विकासाला निधी देण्यासाठी लक्ष्यित अनुदान प्रदान केले आहे:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">शोध आणि स्रोत सुधारणा प्रकल्प</a> NGI0 Entrust Fund द्वारे <a href="https://nlnet.nl/project/OrganicMaps/">निधीत</a> केला गेला. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> ची स्थापना <a href="https://nlnet.nl/">NLnet Foundation</a> ने युरोपियन कमिशनच्या <a href="https://www.ngi.eu/">Next Generation Internet</a> कार्यक्रमाच्या आर्थिक पाठिंब्याने, DG Communications Networks, Content and Technology च्या अंतर्गत अनुदान करार क्रमांक 101069594 अंतर्गत केली आहे.
@@ -105,7 +105,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> ने <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> कार्यक्रमांदरम्यान Google Summer of Code कार्यक्रमात विद्यार्थी प्रकल्पांना पाठिंबा दिला. उल्लेखनीय प्रकल्पांमध्ये Android Auto, विकिपीडिया डंप एक्स्ट्रॅक्टर, Android ट्रॅक रेकॉर्डिंग यांचा समावेश आहे.
@@ -113,7 +113,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> आम्हाला नकाशा डाउनलोड आणि अपडेट्स होस्ट करण्यासाठी आणि सर्व्ह करण्यासाठी 400 TB/महिना पर्यंत मोफत बँडविड्थसह दोन व्हर्च्युअल सर्व्हर <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">प्रदान करतो</a>.
@@ -121,7 +121,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> आम्हाला व्हिएतनाम आणि दक्षिण पूर्व आशियामध्ये नकाशे सर्व्ह करण्यासाठी सुमारे $12,000/वर्ष किमतीचा एक मोफत समर्पित सर्व्हर <a href="https://44plus.vn/organicmaps">प्रदान करतो</a>.
@@ -129,7 +129,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ने फेब्रुवारी 2023 मध्ये Organic Maps ला <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 चे सूक्ष्म अनुदान दिले</a>.
@@ -155,4 +155,4 @@ Apache License 2.0 परवान्य अंतर्गत Organic Maps ह�
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 
-{{ references() }}
+{{ <references lang /> }}

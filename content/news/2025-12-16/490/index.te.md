@@ -44,4 +44,4 @@ Organic Mapsని <https://omaps.app/get> నుండి లేదా [App Sto
 
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

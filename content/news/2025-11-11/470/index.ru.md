@@ -72,4 +72,4 @@ P.S. Присоединяйтесь к бета-тестированию для 
 
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

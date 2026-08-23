@@ -52,4 +52,4 @@ taxonomies:
 
 附注：别忘了，你可以注册我们的测试版计划，以提前获得实验性和即将推出的功能——[iOS 版][testflight]和 [Android 版][firebase]。
 
-{{ references() }}
+{{ <references lang /> }}

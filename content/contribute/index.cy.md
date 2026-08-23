@@ -26,4 +26,4 @@ Mae yna nifer o ffyrdd gwahanol o gefnogi'r datblygiad:
 
 Mae ein tîm bach yn werthfawr iawn o dy adborth a dy gefnogaeth. Ni fydd Organic Maps yn bosib heb ein defnyddwyr ❤️.
 
-{{ references() }}
+{{ <references lang /> }}

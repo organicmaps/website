@@ -52,4 +52,4 @@ Om du inte har provat det än kan du nu aktivera en funktion i Organic Maps-inst
 
 P.S. Glöm inte att du kan registrera dig för vårt betatestprogram för tidig åtkomst till experimentella och kommande funktioner—[för iOS][testflight] och [för Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

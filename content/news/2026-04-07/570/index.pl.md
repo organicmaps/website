@@ -87,4 +87,4 @@ Dołącz do testów beta, aby wypróbować wczesne funkcje i zgłaszać problemy
 Z miłością i troską ❤️
 Zespół Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

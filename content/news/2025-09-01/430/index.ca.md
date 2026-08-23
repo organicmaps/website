@@ -52,4 +52,4 @@ Si encara no ho has provat, ara pots activar una funció a la configuració d'Or
 
 P.D. No oblidis, pots registrar-te al nostre programa de proves beta per obtenir accés primerenc a funcions experimentals i futures—[per a iOS][testflight] i [per a Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

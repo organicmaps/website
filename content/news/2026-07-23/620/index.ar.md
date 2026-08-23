@@ -79,4 +79,4 @@ extra:
 صيفاً سعيداً!
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

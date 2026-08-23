@@ -44,4 +44,4 @@ Organic Maps bestaan danksy jou [skenkings](@/donate/index.af.md) en [bydraes](@
 
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

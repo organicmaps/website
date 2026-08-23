@@ -52,4 +52,4 @@ Si aún no lo has probado, ahora puedes habilitar una función en la configuraci
 
 P.D. No olvides, puedes registrarte en nuestro programa de pruebas beta para obtener acceso temprano a funciones experimentales y próximas—[para iOS][testflight] y [para Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

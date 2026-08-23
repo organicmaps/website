@@ -11,7 +11,7 @@ Update: there is also [another song in a different style](@/news/2024-04-27/347/
 
 ### Travel with Organic Maps song
 
-{{ audio(title="Travel with Organic Maps", url="/news/2024-04-26/travel-with-organic-maps-song/Travel with Organic Maps.mp3") }}
+{{ <audio title="Travel with Organic Maps" url="/news/2024-04-26/travel-with-organic-maps-song/Travel with Organic Maps.mp3" /> }}
 
 <pre>
 (Verse 1)

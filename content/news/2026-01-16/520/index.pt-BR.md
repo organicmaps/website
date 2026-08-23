@@ -50,4 +50,4 @@ O Organic Maps existe graças às suas [doações](@/donate/index.pt-BR.md) e [c
 
 A Equipe do Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

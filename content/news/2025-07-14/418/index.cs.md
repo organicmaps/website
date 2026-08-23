@@ -44,4 +44,4 @@ Změny iOS, všechny zásluhy _Kiryl Kaveryn_:
 
 P.S. Pokud rádi čtete podrobné poznámky k vydání, dejte nám prosím vědět na našich [sociálních sítích](/cs/#komunita)
 
-{{ references() }}
+{{ <references lang /> }}

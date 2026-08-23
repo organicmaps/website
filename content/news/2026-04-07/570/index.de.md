@@ -87,4 +87,4 @@ Nimm an den Betatests teil, um erste Funktionen auszuprobieren und Probleme zu m
 Mit Liebe und Sorgfalt ❤️
 Das Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

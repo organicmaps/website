@@ -66,4 +66,4 @@ Cada [donacion](@/donate/index.oc.md) e [contribution](@/contribute/index.oc.md)
 Amb suènh e amor,
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -59,4 +59,4 @@ taxonomies:
 
 הורידו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

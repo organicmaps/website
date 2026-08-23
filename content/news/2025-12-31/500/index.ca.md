@@ -52,4 +52,4 @@ Feliç Any Nou 2026! 🎄🎁🎉
 
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

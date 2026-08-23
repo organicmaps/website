@@ -52,4 +52,4 @@ Nada de esto se podría haber logrado sin vosotros: nuestros usuarios, nuestros 
 
 El equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -50,4 +50,4 @@ Organic Maps existís gràcias a vòstres [dons](@/donate/index.oc.md) e [contri
 
 L'equipa d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

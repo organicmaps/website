@@ -104,7 +104,7 @@ _SHORTCODE_RE = re.compile(r"\{\{[^}]*\}\}")
 _AUTOLINK_RE = re.compile(
     r"<(?:[a-zA-Z][a-zA-Z0-9+.-]*:[^>\s]*|[^\s<>@]+@[^\s<>]+)>"
 )
-_HTML_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(?:\s[^>]*)?/?>")
+_HTML_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(?:\s(?:\{\{[^}]*\}\}|[^>])*)?/?>")
 # A link-definition URL may embed a shortcode containing spaces, as in
 # "[appgallery]: https://…?local={{ lang }} "…"" — so \S+ is not enough.
 _LINKDEF_RE = re.compile(

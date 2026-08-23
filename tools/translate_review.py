@@ -55,6 +55,11 @@ def build_prompt(src: str, out: str, lang: str) -> str:
         "target, a Tera expression/component (`{{ ... }}`), a `code span`, "
         "or a contributor name.",
         "2. Every `_(Name)_` attribution stays at the END of its bullet.",
+        "2b. A single-brace placeholder — `{amount}`, `{min}`, `{max}` — is "
+        "substituted at runtime by literal string replace. Reproduce it "
+        "character for character: never translate, inflect, space out or drop "
+        "one, and never wrap it in quotation marks. Word order around it is "
+        "free.",
         "3. Keep these product names in Latin script, unquoted: Organic Maps, "
         "OpenStreetMap, ID Editor, Android, iOS, Google Play, App Store, "
         "F-Droid.",

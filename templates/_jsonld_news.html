@@ -2,7 +2,7 @@
    Required by Google for Top Stories / Discover eligibility. #}
 {%- if has_article_image -%}
 {%- set preview_image_url = preview_image -%}
-{%- if preview_image_url and not (preview_image_url is starting_with(pat="http")) -%}
+{%- if preview_image_url and not (preview_image_url is starting_with(pat='http')) -%}
 {%- set preview_image_url = get_url(path=preview_image_url) -%}
 {%- endif -%}
 {%- endif -%}

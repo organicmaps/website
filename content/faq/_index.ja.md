@@ -1,4 +1,5 @@
 ---
+render: false
 title: よくある質問
 description: Organic Maps アプリ、貢献者、プロジェクトに関する多くの質問にお答えします
 extra:

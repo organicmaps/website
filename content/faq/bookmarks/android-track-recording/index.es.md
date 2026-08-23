@@ -5,10 +5,10 @@ description: La configuración predeterminada de optimización de la batería en
 updated: "2024-10-05"
 
 taxonomies:
-faq: ["marcadores-y-rutas"]
+  faq: ["marcadores-y-rutas"]
 
 extra:
-order: 30
+  order: 30
 aliases:
   - /es/faq/bookmarks/android-track-recording/
 ---

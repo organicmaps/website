@@ -45,11 +45,7 @@
       {%- set term_description = trans(key="faq-term-description", lang=lang) | replace(from="{}", to=term_name) -%}
     {%- endif -%}
   {%- elif taxonomy.name == "news" -%}
-    {%- if lang == config.default_language -%}
-      {%- set news_section = get_section(path="news/_index.md") -%}
-    {%- else -%}
-      {%- set news_section = get_section(path="news/_index.md", lang=lang) -%}
-    {%- endif -%}
+    {%- set news_section = get_section(path="news/_index.md", lang=lang) -%}
     {%- set section_label = news_section.extra.menu_title -%}
     {%- if use_term_name -%}
       {%- set term_description = trans(key="news-term-description", lang=lang) | replace(from="{}", to=term_name) -%}

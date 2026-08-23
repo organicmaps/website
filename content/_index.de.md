@@ -97,7 +97,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Das Projekt zur Verbesserung von Suche und Schriftarten</a> wurde durch den NGI0 Entrust Fund <a href="https://nlnet.nl/project/OrganicMaps/">finanziert</a>. <a href="https://nlnet.nl/entrust/">Der NGI0 Entrust Fund</a> wurde von der <a href="https://nlnet.nl/">NLnet Foundation</a> mit finanzieller Unterstützung des Programms <a href="https://www.ngi.eu/">Next Generation Internet</a> der Europäischen Kommission unter der Schirmherrschaft der GD Kommunikationsnetze, Inhalte und Technologien im Rahmen der Finanzhilfevereinbarung Nr. 101069594 eingerichtet.
@@ -105,7 +105,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> unterstützte Studentenprojekte im Google Summer of Code-Programm während der Programme <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Zu den bemerkenswerten Projekten gehörten Android Auto, Wikipedia Dump Extractor, Track Recording für Android.
@@ -113,7 +113,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Der ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">stellt uns</a> zwei virtuelle Server mit bis zu 400 TB/Monat kostenloser Bandbreite zur Verfügung, um Karten-Downloads und -Updates zu hosten und bereitzustellen.
@@ -121,7 +121,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">stellt uns</a> einen kostenlosen dedizierten Server im Wert von rund 12.000 $/Jahr zur Verfügung, um Karten in Vietnam und Südostasien bereitzustellen.
@@ -129,7 +129,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> hat Organic Maps im Februar 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">einen Microgrant von 1000 $ gewährt</a>.

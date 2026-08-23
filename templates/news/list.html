@@ -5,9 +5,8 @@
 
 <h1>{{ resource.title }}</h1>
 
-{# Iterate and use en sections by default and use localized versions only if they are present #}
-{% set enNewsSectionTranslation = [t for t in resource.translations if t.lang == 'en'] | first %}
-{% set enNewsSection = get_section(path=enNewsSectionTranslation.path, lang=config.default_language) %}
+{# Use the English section as the canonical date-folder inventory. #}
+{% set enNewsSection = get_section(path="news/_index.md", lang=config.default_language) %}
 
 {% for sectionStr in enNewsSection.subsections | sort | reverse %}
 {% set section = get_section(path=sectionStr, lang=config.default_language) %}

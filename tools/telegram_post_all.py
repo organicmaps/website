@@ -35,6 +35,7 @@ from telegram_post import (
     find_unresolved_references,
     load_base_url,
     resolve_zola_references,
+    strip_tera_blocks,
     ZOLA_FILENAME_RE,
 )
 
@@ -132,9 +133,8 @@ def prepare_text(md_path: Path, site_root: Path) -> str:
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
 
-    # Remove template shortcodes
-    text = re.sub(r"^\s*\{\{.*?\}\}\s*$", "", text, flags=re.MULTILINE)
-    text = re.sub(r"\{\{.*?\}\}", "", text)
+    # Tera expressions and components are site-only and do not belong in posts.
+    text = strip_tera_blocks(text)
 
     # Strip angle brackets from bare URLs
     text = re.sub(r"<(https?://[^>]+)>", r"\1", text)

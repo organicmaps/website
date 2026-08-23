@@ -96,7 +96,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">खोज और फ़ॉन्ट्स सुधार परियोजना</a> को NGI0 Entrust Fund के माध्यम से <a href="https://nlnet.nl/project/OrganicMaps/">वित्त पोषित</a> किया गया है। <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> की स्थापना <a href="https://nlnet.nl/">NLnet Foundation</a> द्वारा यूरोपीय आयोग के <a href="https://www.ngi.eu/">Next Generation Internet कार्यक्रम</a> के वित्तीय सहयोग से की गई है, जो DG Communications Networks, Content and Technology के तत्वावधान में अनुदान समझौता संख्या 101069594 के तहत है।
@@ -104,7 +104,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> ने <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> कार्यक्रमों के दौरान Google Summer of Code कार्यक्रम में छात्र परियोजनाओं का समर्थन किया। उल्लेखनीय परियोजनाओं में Android Auto, Wikipedia डंप एक्सट्रैक्टर, Android ट्रैक रिकॉर्डिंग शामिल हैं।
@@ -112,7 +112,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">हमें</a> मानचित्र डाउनलोड और अपडेट को होस्ट करने और सेवा देने के लिए 400 TB/माह तक के मुफ्त बैंडविड्थ के साथ दो वर्चुअल सर्वर प्रदान करता है।
@@ -120,7 +120,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">हमें</a> वियतनाम और दक्षिण पूर्व एशिया में मानचित्रों की सेवा के लिए लगभग $12,000/वर्ष मूल्य का एक मुफ्त समर्पित सर्वर प्रदान कर रहा है।
@@ -128,7 +128,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ने फरवरी 2023 में Organic Maps को <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 का सूक्ष्म अनुदान दिया</a> है।

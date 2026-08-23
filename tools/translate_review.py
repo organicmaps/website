@@ -52,7 +52,8 @@ def build_prompt(src: str, out: str, lang: str) -> str:
         "1. PRESERVE STRUCTURE EXACTLY. Same number of lines, bullets, "
         "headings, links, and `_(Contributor Name)_` attributions as the "
         "English source. Never translate, reorder or reformat a URL, a link "
-        "target, a `{{ shortcode }}`, a `code span`, or a contributor name.",
+        "target, a Tera expression/component (`{{ ... }}`), a `code span`, "
+        "or a contributor name.",
         "2. Every `_(Name)_` attribution stays at the END of its bullet.",
         "3. Keep these product names in Latin script, unquoted: Organic Maps, "
         "OpenStreetMap, ID Editor, Android, iOS, Google Play, App Store, "

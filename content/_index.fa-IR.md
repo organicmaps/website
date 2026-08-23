@@ -96,7 +96,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="بنیاد NLnet" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="/sponsors/nlnet.svg" alt="بنیاد NLnet" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">پروژه بهبود جستجو و فونت‌ها</a> از طریق صندوق NGI0 Entrust <a href="https://nlnet.nl/project/OrganicMaps/">تامین مالی</a> شده است. <a href="https://nlnet.nl/entrust/">صندوق NGI0 Entrust</a> توسط <a href="https://nlnet.nl/">بنیاد NLnet</a> با حمایت مالی برنامه <a href="https://www.ngi.eu/">اینترنت نسل آینده</a> کمیسیون اروپا، تحت نظارت اداره کل شبکه‌های ارتباطی، محتوا و فناوری تحت توافقنامه کمک مالی شماره 101069594 تاسیس شده است.
@@ -104,7 +104,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">گوگل</a> از پروژه‌های دانشجویی در برنامه Google Summer of Code در طول برنامه‌های <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>، <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>، <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>، <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> حمایت کرد. پروژه‌های قابل توجه شامل Android Auto، استخراج‌کننده دامپ ویکی‌پدیا، ضبط مسیر برای اندروید بود.
@@ -112,7 +112,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ارائه‌دهنده خدمات اینترنتی <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">به ما</a> دو سرور مجازی با حداکثر 400 ترابایت در ماه پهنای باند رایگان برای میزبانی و ارائه دانلودها و به‌روزرسانی‌های نقشه‌ها ارائه می‌دهد.
@@ -120,7 +120,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">به ما</a> یک سرور اختصاصی رایگان به ارزش حدود 12000 دلار در سال برای ارائه نقشه‌ها در ویتنام و آسیای جنوب شرقی ارائه می‌دهد.
@@ -128,7 +128,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> در فوریه 2023 <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">یک کمک مالی خرد 1000 دلاری</a> به Organic Maps اعطا کرده است.

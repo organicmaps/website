@@ -44,6 +44,14 @@ def get_token() -> str:
 SPECIAL_CHARS = set(r"_*[]()~`>#+-=|{}.!")
 
 
+_TERA_BLOCK_RE = re.compile(r"\{\{.*?\}\}", re.DOTALL)
+
+
+def strip_tera_blocks(text: str) -> str:
+    """Remove Tera expressions and component calls before Telegram rendering."""
+    return _TERA_BLOCK_RE.sub("", text)
+
+
 BUILTIN_REFERENCES: dict[str, tuple[str, str]] = {
     "fdroid": ("https://f-droid.org/packages/app.organicmaps/", "F-Droid"),
     "googleplay": (
@@ -1122,16 +1130,13 @@ def main():
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
 
-    # Remove template shortcodes like {{ references() }}
-    # First try to remove whole lines containing only a shortcode
-    text = re.sub(r"^\s*\{\{.*?\}\}\s*$", "", text, flags=re.MULTILINE)
-    # Then remove any remaining inline shortcodes
-    text = re.sub(r"\{\{.*?\}\}", "", text)
+    # Tera expressions and components are site-only and do not belong in posts.
+    text = strip_tera_blocks(text)
 
     # Strip angle brackets from bare URLs: <https://...> → https://...
     text = re.sub(r"<(https?://[^>]+)>", r"\1", text)
 
-    # Clean up blank lines left by removed shortcodes
+    # Clean up blank lines left by removed Tera blocks.
     text = re.sub(r"\n{3,}", "\n\n", text)
 
     # Resolve markdown reference-style links

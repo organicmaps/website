@@ -72,7 +72,7 @@ def fingerprint(text: str) -> dict[str, int]:
         "inline_links": len(re.findall(r"\]\(", text)),
         "ref_links": len(re.findall(r"\]\[", text)),
         "attributions": len(re.findall(r"_\([^)\n]+\)_", text)),
-        "shortcodes": len(re.findall(r"\{\{", text)),
+        "tera_expressions": len(re.findall(r"\{\{", text)),
         "code_spans": len(re.findall(r"`[^`\n]+`", text)),
         "images": len(re.findall(r"!\[", text)),
     }
@@ -363,7 +363,7 @@ def _checkable(text: str) -> str:
     # emphasis keeps the delimiter flanking of the original Markdown. Replacing
     # `code` with a space made valid **`code` plus prose** look like `** prose`.
     text = re.sub(r"`[^`\n]*`", "x", text)          # code spans
-    text = re.sub(r"\{\{[^}]*\}\}", "x", text)      # shortcode arguments
+    text = re.sub(r"\{\{[^}]*\}\}", "x", text)      # Tera expressions/components
     text = re.sub(r"<[^>]+>", "x", text)            # inline HTML
     text = re.sub(r"\]\([^)\s]*\)", "](x)", text)   # link targets
     return re.sub(r"(?m)^\[[^\]]+\]:.*$", " ", text)  # reference definitions
@@ -430,7 +430,7 @@ def syntax_faults(path: Path, text: str, shared_refs: set[str]) -> list[str]:
                 out.append(f"{brand!r} written with a {bad!r} homoglyph")
 
     if any(len(re.findall(r"\{\{", line)) > 1 for line in body.split("\n")):
-        out.append("two or more shortcodes share one line")
+        out.append("two or more Tera expression blocks share one line")
     return out
 
 
@@ -722,7 +722,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                     f"'{key}' is identical to the English source"))
 
     # 10. Straight ASCII quotes where the language wants its own marks — but
-    #     only in prose. HTML attributes, shortcode arguments, code spans and
+    #     only in prose. HTML attributes, Tera expressions, code spans and
     #     markdown link titles all *require* a straight quote, so warning about
     #     them asks for something that would break the page. The Russian
     #     homepage was warned on nothing but its sponsor table's `width="200"`.

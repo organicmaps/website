@@ -1,9 +1,9 @@
-{% set home = get_section(path='_index.md') %}
-{% set news = get_section(path='news/_index.md') %}
+{% set home = get_section(path='_index.md', lang=config.default_language) %}
+{% set news = get_section(path='news/_index.md', lang=config.default_language) %}
 
 <nav id="bottom-menu" role="navigation">
-  {% for page in [home, news] | concat(with=home.pages) %}
-  {% set translated = page.translations | filter(attribute='lang', value=lang) | first %}
+  {% for page in [home, news, ...home.pages] %}
+  {% set translated = [t for t in page.translations if t.lang == lang] | first %}
   {% if translated %}
     {% if "_index" in translated.path %}
       {% set page = get_section(path=translated.path) %}

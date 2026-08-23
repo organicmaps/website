@@ -7,10 +7,10 @@
         {%- if entry.updated %}
         <lastmod>{{ entry.updated }}</lastmod>
         {%- endif %}
-        {%- if entry.extra.preview_image %}
-        {%- set img = entry.extra.preview_image | trim_start_matches(pat='/') -%}
+        {%- if entry.extra is defined and entry.extra.preview_image %}
+        {%- set img = entry.extra.preview_image | trim_start(pat='/') -%}
         <image:image>
-            {%- if img is starting_with("http") %}
+            {%- if img is starting_with(pat="http") %}
             <image:loc>{{ img | escape_xml | safe }}</image:loc>
             {%- else %}
             <image:loc>https://organicmaps.app/{{ img | escape_xml | safe }}</image:loc>

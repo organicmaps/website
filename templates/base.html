@@ -48,7 +48,7 @@
     {%- if lang == config.default_language -%}
       {%- set news_section = get_section(path="news/_index.md") -%}
     {%- else -%}
-      {%- set news_section = get_section(path="news/_index." ~ lang ~ ".md") -%}
+      {%- set news_section = get_section(path="news/_index.md", lang=lang) -%}
     {%- endif -%}
     {%- set section_label = news_section.extra.menu_title -%}
     {%- if use_term_name -%}
@@ -56,7 +56,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if section_label -%}
-    {%- set brand = config.title | default(value="Organic Maps") -%}
+    {%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
     {%- if use_term_name -%}
       {%- set page_title = term_name ~ " – " ~ section_label ~ " – " ~ brand -%}
     {%- else -%}
@@ -120,7 +120,7 @@
 
   {%- set preview_image = 'images/screenshots/prague.jpg' -%}
   {%- set has_article_image = false -%}
-  {%- if resource.extra.preview_image -%}
+  {%- if resource.extra is defined and resource.extra.preview_image -%}
   {%- set preview_image = resource.extra.preview_image -%}
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
@@ -184,14 +184,14 @@
   </header>
 
   <main>
-    {% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
+    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
     {% include 'faq/faq-breadcrumbs.html' %}
     {% endif %}
     {% block content %}{% endblock %}
   </main>
 
   <footer>
-    {% if page.taxonomies and page.taxonomies.faq %}{# Show FAQ editing link #}
+    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ editing link #}
     {% include 'faq/github_edit_link.html' %}
     {% endif %}
 

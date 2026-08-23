@@ -7,7 +7,7 @@ extra:
   preview_image: donate/donate.png
 ---
 
-Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]** valiutomis:
+Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]** valiutomis:
 
 - Be reklamų
 - Jokių sekimo įrenginių

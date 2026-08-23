@@ -7,7 +7,7 @@ title: "Přispějte na podporu vývoje Organic Maps"
 weight: 10
 ---
 
-Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]** v měnách **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
+Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]** v měnách **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Bez reklam
 - Žádné sledovací zařízení

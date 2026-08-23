@@ -41,7 +41,6 @@
 [stripe_gbp]: https://donate.organicmaps.app/?currency=gbp "Donate in GBP"
 [stripe_pln]: https://donate.organicmaps.app/?currency=pln "Przekaż złotówki"
 [stripe_rub]: https://t.me/tribute/app?startapp=dxGM "Поддержать проект рублями"
-[stripe_uah]: https://donate.organicmaps.app/?currency=uah "Пожертвуйте в гривнях"
 [stripe_usd]: https://donate.organicmaps.app/?currency=usd "Donate in USD"
 [telegram]: https://t.me/OrganicMapsApp "Organic Maps news"
 [telegram_chat]: https://t.me/OrganicMaps "Organic Maps chat"

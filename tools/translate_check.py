@@ -298,7 +298,6 @@ def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
 # of these in `extra.translation_omits_refs`; the allowlist prevents that narrow
 # mechanism from becoming a general-purpose way to hide lost links.
 PERMITTED_REF_OMISSIONS = {
-    "ru": {"stripe_uah"},
     "uk": {"stripe_rub"},
 }
 

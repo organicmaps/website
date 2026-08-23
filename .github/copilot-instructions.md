@@ -260,11 +260,10 @@ python3 tools/translate_check.py index.md index.ar.md ar        # one file
 
 ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
 
-The Russian donation page intentionally omits the UAH payment reference and
-the Ukrainian page intentionally omits RUB. They declare those exact omissions
-with `extra.translation_omits_refs`; the checker rejects that field for every
-other language, reference, or page, and rejects it once the reference is no
-longer missing.
+The Ukrainian donation page intentionally omits the RUB payment reference. It
+declares that exact omission with `extra.translation_omits_refs`; the checker
+rejects that field for every other language, reference, or page, and rejects it
+once the reference is no longer missing.
 
 Calibrated against the 383 human-proofread translations of the 2026 posts: 380 pass. The three that do not are genuine defects that review missed — `de` and `zh-Hans` both lost the "Join beta testing" heading in the May release, and `mr` dropped "Organic Maps" entirely. Checks were narrowed where the corpus proved them wrong: mixed-script detection applies only to Cyrillic and Greek, since Arabic `وGoogle`, Chinese `上的FAQ翻译` and Telugu `OpenStreetMapలో` are all correct.
 

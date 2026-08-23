@@ -54,7 +54,7 @@ import translate_check, translate_md
 
     def test_only_declared_currency_references_may_be_omitted(self):
         source = (ROOT / "content/donate/index.md").read_text(encoding="utf-8")
-        cases = (("ru", "stripe_uah"), ("uk", "stripe_rub"))
+        cases = (("uk", "stripe_rub"),)
         for lang, omitted in cases:
             translated = (ROOT / f"content/donate/index.{lang}.md").read_text(
                 encoding="utf-8"

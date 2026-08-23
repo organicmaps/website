@@ -7,7 +7,7 @@ title: "Spende, um die Entwicklung von Organic Maps zu unterstützen"
 weight: 10
 ---
 
-Organic Maps ist _kostenlos für alle_ dank deiner **[Spenden][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [UAH][stripe_uah], [PLN][stripe_pln], [RUB][stripe_rub]**:
+Organic Maps ist _kostenlos für alle_ dank deiner **[Spenden][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
 
 - Keine Werbung
 - Keine Tracker

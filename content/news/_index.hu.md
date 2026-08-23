@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Legyél naprakész csapatunk legújabb Organic Maps kiadásaival, híreivel, frissítéseivel kapcsolatban"
 extra:
   menu_title: Hírek

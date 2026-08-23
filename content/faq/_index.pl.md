@@ -1,4 +1,5 @@
 ---
+render: false
 title: Pytania i odpowiedzi
 description: Ten FAQ zawiera odpowiedzi na wiele pytań dotyczących aplikacji Organic Maps, naszych współpracowników i naszego projektu
 extra:

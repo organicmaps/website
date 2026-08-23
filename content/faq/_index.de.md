@@ -1,4 +1,5 @@
 ---
+render: false
 title: Häufige Fragen und Antworten
 description: In dieser FAQ findest du Antworten auf viele Fragen zur Organic Maps App, zu unseren Mitarbeitern und zu unserem Projekt
 extra:

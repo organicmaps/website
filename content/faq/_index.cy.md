@@ -1,4 +1,5 @@
 ---
+render: false
 title: Cwestiynau Cyffredin
 description: Mae'r CC hwn yn cynnwys atebion i lawer o gwestiynau am ap Organic Maps, ein cyfranwyr, a'n prosiect
 extra:

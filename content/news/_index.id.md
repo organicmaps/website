@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Tetap terhubung dengan rilis Organic Maps terbaru, berita dan pembaruan dari tim kami"
 extra:
   menu_title: Berita

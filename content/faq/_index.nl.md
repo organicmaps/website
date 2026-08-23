@@ -1,4 +1,5 @@
 ---
+render: false
 title: Veelgestelde vragen
 description: Deze FAQ bevat antwoorden op veel vragen over de Organic Maps-app, onze bijdragers en ons project
 extra:

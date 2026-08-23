@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Bądź na bieżąco z najnowszymi wydaniami Organic Maps, wiadomościami i aktualizacjami od naszego zespołu"
 extra:
   menu_title: Nowości

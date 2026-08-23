@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Segueix les novetats de l'Organic Maps, notícies i actualitzacions del nostre equip"
 extra:
   menu_title: Notícies

@@ -1,4 +1,5 @@
 ---
+render: false
 title: Справка и часто задаваемые вопросы
 description: В этом разделе есть ответы на многие вопросы о приложении Organic Maps
 extra:

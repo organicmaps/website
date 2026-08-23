@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Blijf op de hoogte van nieuwe Organic Maps versies, nieuws en updates van ons team"
 extra:
   menu_title: Nieuws

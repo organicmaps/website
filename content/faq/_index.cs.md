@@ -1,4 +1,5 @@
 ---
+render: false
 title: Často kladené otázky
 description: Toto FAQ obsahuje odpovědi na mnoho otázek o aplikaci Organic Maps, našich přispěvatelích a našem projektu
 extra:

@@ -1,4 +1,5 @@
 ---
+render: false
 title: Foire aux questions
 description: Cette FAQ répond à de nombreuses questions sur l'application Organic Maps, nos contributeurs et notre projet.
 extra:

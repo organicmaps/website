@@ -33,8 +33,9 @@
   {% endif %}
 {% endfor %}
 
+{% set news_root = get_taxonomy(kind='news', lang=lang) %}
 <div class="back_to_news">
-  <a href="{{ get_url(path="@/news/_index.md", lang=lang) }}">{{ trans(key='back', lang=lang) }}</a>
+  <a href="{{ news_root.permalink }}">{{ trans(key='back', lang=lang) }}</a>
 </div>
 
 {% endblock content %}

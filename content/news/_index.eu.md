@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Mantendu informatuta gure taldearen azken bertsio-publikazio, albiste eta eguneraketekin"
 extra:
   menu_title: Albisteak

@@ -542,8 +542,8 @@ token = "Token"
 # Language: ja (Japanese / 日本語)
 [languages.ja]
 taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
+  {name = "faq", feed = false, render = false},
+  {name = "news", feed = true, render = false},
 ]
 [languages.ja.translations]
 address = "住所"

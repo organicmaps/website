@@ -1,4 +1,5 @@
 ---
+render: false
 title: Vanliga frågor
 description: Denna FAQ har svar på många frågor om appen Organic Maps, våra bidragsgivare och vårt projekt
 extra:

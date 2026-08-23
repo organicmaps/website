@@ -1,4 +1,5 @@
 ---
+render: false
 title: الأسئلة الشائعة
 description: يحتوي هذا القسم على إجابات للعديد من الأسئلة حول تطبيق Organic Maps والمساهمين ومشروعنا
 extra:

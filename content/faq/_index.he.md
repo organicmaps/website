@@ -1,4 +1,5 @@
 ---
+render: false
 title: שאלות נפוצות
 description: לדף זה יש תשובות לשאלות רבות על אפליקציית Organic Maps, התורמים שלנו והפרויקט שלנו
 extra:

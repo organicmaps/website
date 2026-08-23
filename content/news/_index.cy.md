@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Aros mewn cysylltiad gyda chyhoeddiadau o fersiynau newydd o Organic Maps a newyddion o'n tîm"
 extra:
   menu_title: Newyddion

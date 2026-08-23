@@ -1,7 +1,7 @@
 name: Check site validity
 
 env:
-  ZOLA_VERSION: 0.22.1
+  ZOLA_VERSION: 0.23.4
 
 on:
   pull_request:

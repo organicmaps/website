@@ -15,7 +15,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 ### Κατέβασε και εγκατάστησε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
-{{ εμβλήματα() }}
+{{ badges() }}
 
 {{ screenshot(src='/images/screenshots/hiking.jpg', alt='Πεζοπορία', loading='eager', fetchpriority='high') }}
 

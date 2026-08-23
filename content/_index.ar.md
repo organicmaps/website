@@ -19,8 +19,7 @@ title: "Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال
 
 {{ screenshot(src='/images/screenshots/hiking.jpg', alt='Hiking', loading='eager', fetchpriority='high') }}
 
-{{ لقطة شاشة(src='/images/screenshots/hiking.jpg', alt='محبي المشي لمسافات
-طويلة') }}
+{{ screenshot(src='/images/screenshots/hiking.jpg', alt='محبي المشي لمسافات طويلة') }}
 
 {{ screenshot(src='/images/screenshots/search.jpg', alt='البحث دون اتصال')
 }}

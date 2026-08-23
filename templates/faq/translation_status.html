@@ -40,7 +40,7 @@
 <body>
 
 {% set all_categories = get_taxonomy(kind='faq', lang = 'en') %} {# Use English as list of all FAQ categories and questions #}
-{% set faq_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"] %} {# Predefined list of translation languages #}
+{% set faq_languages = config.extra.faq_translation_status_languages %} {# Curated status-table languages #}
 
     <table class="status">
         <tr class="header">
@@ -54,7 +54,7 @@
                 <td colspan="100%">{{ faq_category.name | replace(from="-", to=" ") | capitalize }}</td>
             </tr>
             {%- for faq_page in faq_category.pages | sort(attribute="extra.order") -%}
-            {% set eng_page_updated = faq_page | get(key="updated", defaut="") %}
+            {% set eng_page_updated = faq_page | get(key="updated", default="") %}
             {% if eng_page_updated %}
                 {% set eng_page_updated_int = eng_page_updated | date(format="%s") | int %}
             {% endif %}

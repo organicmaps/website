@@ -25,17 +25,16 @@
     Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
     "{Term} – {Section label} – {Brand}" so the title is unique and
     branded; everything else uses the resource's own title verbatim.
-    On non-default-language pages, only use the term name when it
-    contains non-ASCII characters (i.e. it was actually localized):
-    the term slug is otherwise the untranslated English form and
-    emitting it would mix languages in the title. -#}
+    On non-default-language pages, an ASCII-only term is usually an
+    untranslated English label, so omit it rather than mix languages.
+    Language-neutral names such as Linux are explicitly allowed in config. -#}
 {%- set page_title = resource_title -%}
 {%- set term_description = "" -%}
 {%- if term -%}
   {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
   {%- set use_term_name = lang == config.default_language -%}
   {%- if not use_term_name -%}
-    {%- if term.name | regex_replace(pattern="[a-zA-Z0-9-]", rep="") | length > 0 -%}
+    {%- if term.name in config.extra.language_neutral_taxonomy_terms or term.name | regex_replace(pattern="[a-zA-Z0-9-]", rep="") | length > 0 -%}
       {%- set use_term_name = true -%}
     {%- endif -%}
   {%- endif -%}

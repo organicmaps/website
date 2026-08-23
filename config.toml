@@ -37,6 +37,15 @@ btc = "bc1qxnn9j9z5xywqz5sdqxaq327vw0x22nhsxc67ld"
 doge = "DEapg7Jh4SPn6wo9UE2n6fXNs7kcQNdVrs"
 dot = "1ca7BmqwQ49WhPmYYBELUb8Gpaf6kMocGzNmTnqAgbdxkuG"
 eth = "0xC36A638DD2274BDe6097DFD62B3EB5Aa8A67Ec54"
+# These are curated subsets: the embedded page excludes some languages to keep
+# the app-bundled HTML small, while the status page tracks the translation teams
+# that actively use it. Templates deliberately fail when a listed embedded
+# language is missing one of the selected questions.
+faq_embedded_languages = ["ar", "cs", "de", "el", "es", "fa-IR", "fr", "he", "hi", "hu", "id", "it", "ja", "lt", "mr", "nl", "pl", "pt", "pt-BR", "ru", "sv", "te", "tr", "uk", "zh-Hans"]
+faq_translation_status_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"]
+# Latin-only taxonomy terms normally indicate untranslated labels on localized
+# pages. These names are valid unchanged in every supported language.
+language_neutral_taxonomy_terms = ["linux"]
 lnurl = "stellarchin694@walletofsatoshi.com"
 ltc = "LU3PAUrAx57v6NPWxzjPkyDmkfDzfZfYq8"
 nano = "nano_3591q1zr5i5jkkj97aw1dze4ki1pkkcrux3srzgyup845pwkeqtjpx4zitaf"

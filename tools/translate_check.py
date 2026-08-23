@@ -330,7 +330,7 @@ def _declared_ref_omissions(
     src_ids = Counter(re.findall(r"\]\[([^\]]+)\]", src_body))
     out_ids = Counter(re.findall(r"\]\[([^\]]+)\]", out_body))
     valid: Counter = Counter()
-    donate_page = src_body.count("{{ donate_buttons() }}") == 2
+    donate_page = src_body.count("{{ <donate_buttons lang /> }}") == 2
 
     for ref in dict.fromkeys(declared):
         if ref not in permitted or not donate_page:
@@ -398,7 +398,7 @@ def syntax_faults(path: Path, text: str, shared_refs: set[str]) -> list[str]:
     # A space between label and id stops a reference link parsing, exactly as
     # it does for the inline form the grep guard already covers.
     local = {m.lower() for m in re.findall(r"(?m)^\[([^\]]+)\]:", body)}
-    avail = local | ({s.lower() for s in shared_refs} if "references()" in text else set())
+    avail = local | ({s.lower() for s in shared_refs} if "<references" in text else set())
     for m in re.finditer(r"\]\s+\[([^\]\n]+)\]", body):
         if m.group(1).lower() in avail:
             out.append(f"reference link with a space: {m.group(0)[:40]!r}")

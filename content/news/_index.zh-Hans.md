@@ -1,4 +1,5 @@
 ---
+render: false
 description: "关注Organic Maps新版发布、新闻和更新"
 extra:
   menu_title: 新闻

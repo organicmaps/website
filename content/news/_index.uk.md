@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Залишайтеся на зв'язку з останніми випусками Organic Maps, новинами та оновленнями від нашої команди"
 extra:
   menu_title: Новини

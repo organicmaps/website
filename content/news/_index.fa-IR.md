@@ -1,4 +1,5 @@
 ---
+render: false
 title: "Organic Maps: آخرین اخبار و به‌روزرسانی‌های تیم ما"
 description: "با آخرین نسخه‌های Organic Maps، اخبار و به‌روزرسانی‌های تیم ما در ارتباط باشید."
 template: news/list.html

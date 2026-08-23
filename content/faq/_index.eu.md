@@ -1,4 +1,5 @@
 ---
+render: false
 title: Ohiko Galderak
 description: FAQ honek Organic Maps aplikazioari, gure laguntzaileei eta gure proiektuari buruzko galdera askoren erantzunak ditu
 extra:

@@ -1,4 +1,5 @@
 ---
+render: false
 title: Gereelde Vrae
 description: Hierdie FAQ het antwoorde op baie vrae oor die Organic Maps-toepassing, ons bydraers en ons projek
 extra:

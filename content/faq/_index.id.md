@@ -1,4 +1,5 @@
 ---
+render: false
 title: Pertanyaan yang Sering Diajukan
 description: FAQ ini memiliki jawaban atas banyak pertanyaan tentang aplikasi Organic Maps, kontributor kami, dan proyek kami
 extra:

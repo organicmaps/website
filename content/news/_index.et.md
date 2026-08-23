@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Jälgi, mis muutused on lisandunud Organic Mapsi viimase versiooniga, mida on meil uudist ning millest põnevast teavitab arendustiim"
 extra:
   menu_title: Uudised

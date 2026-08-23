@@ -1,4 +1,5 @@
 ---
+render: false
 description: "Fique atualizado com os últimos lançamentos, notícias e atualizações do Organic Maps"
 extra:
   menu_title: Notícias

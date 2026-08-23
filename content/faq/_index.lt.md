@@ -1,4 +1,5 @@
 ---
+render: false
 title: Dažniausiai užduodami klausimai
 description: Šiame DUK rasite atsakymus į daugelį klausimų apie Organic Maps programėlę, mūsų bendradarbius ir projektą
 extra:

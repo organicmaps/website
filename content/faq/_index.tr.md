@@ -1,4 +1,5 @@
 ---
+render: false
 title: Sıkça Sorulan Sorular
 description: Bu SSS, Organic Maps uygulaması, katkıda bulunanlarımız ve projemiz hakkında birçok sorunun yanıtını içermektedir
 extra:

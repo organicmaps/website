@@ -1,4 +1,5 @@
 ---
+render: false
 title: Gyakran Ismételt Kérdések
 description: Ez a GYIK választ ad számos kérdésre az Organic Maps alkalmazással, közreműködőinkkel és projektünkkel kapcsolatban
 extra:

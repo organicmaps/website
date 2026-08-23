@@ -1,4 +1,5 @@
 ---
+render: false
 title: Domande frequenti
 description: Questa sezione contiene le risposte a molte domande sull'applicazione Organic Maps, sui nostri collaboratori e sul nostro progetto
 extra:

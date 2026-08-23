@@ -1,4 +1,5 @@
 ---
+render: false
 description: "हमारी टीम के आधुनिकतम Organic Maps रिलीज़, समाचार, एवम अपडेट के संपर्क में रहें"
 extra:
   menu_title: समाचार

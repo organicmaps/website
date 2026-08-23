@@ -1,4 +1,5 @@
 ---
+render: false
 title: Questions Frequentas
 description: Aquesta FAQ ten responsas a fòrça questions sus l'aplicacion Organic Maps, nòstres contributors e nòstre projècte
 extra:

@@ -1,4 +1,5 @@
 ---
+render: false
 title: Korduma Kippuvad Küsimused
 description: Siit leiad vastused paljudele küsimustele Organic Maps rakenduse, meie kaastöötajate ja projekti kohta
 extra:

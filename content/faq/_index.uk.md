@@ -1,4 +1,5 @@
 ---
+render: false
 title: Довідка та часті питання
 description: Відповіді на поширені запитання стосовно застосунка Organic Maps
 extra:

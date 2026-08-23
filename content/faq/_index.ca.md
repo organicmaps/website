@@ -1,4 +1,5 @@
 ---
+render: false
 title: Preguntes Freqüents
 description: Aquestes PMF tenen respostes a moltes preguntes sobre l'aplicació Organic Maps, els nostres col·laboradors i el nostre projecte
 extra:

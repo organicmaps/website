@@ -1,7 +1,7 @@
 ---
 title: The app can't find my position on the map or shows incorrect location
 description: Troubleshooting guide for solving problems with location and current GPS position on the map for iOS and Android devices
-updated: "2026-01-04"
+updated: "2026-08-23"
 taxonomies:
   faq: ["map"]
 extra:
@@ -12,15 +12,15 @@ Please make sure your device has GPS, location services are enabled, and locatio
 
 **Android**
 
-On your device open Settings → Location. It is better to switch on High accuracy mode, as it enables precise GPS location.
+On Android 12 or later, open Settings → Location → Location services → Location Accuracy and turn on Improve Location Accuracy. On Android 9–11, open Settings → Location → Advanced → Location Accuracy. On Android 8.1 or earlier, choose High accuracy under Location mode. Menu names can vary by device manufacturer. Also make sure that the app has permission to use your precise location.
 
-If your Android device can not determine your location, enable (or disable, if enabled) “Google Play Services” option in the app settings.
+If your Android device can not determine your location, enable (or disable, if enabled) the “Google Play Location Services” option in the app settings.
 
-Note: you can see it only if you have Google Play services installed (enabled) on your Android device. Google play services are used to determine location more precisely, if you experience issues with location accuracy after you disabled the option, turn it on.
+Note: you can see it only if you have Google Play services installed (enabled) on your Android device. They are used to determine location more precisely. If you experience issues with location accuracy after disabling the option, turn it on again.
 
 **iOS**
 
-If you are an iPhone or iPad user, please check iOS settings → Privacy → Location services. Geolocation data sharing should be enabled for Organic Maps.
+If you are an iPhone or iPad user, open iOS Settings → Privacy & Security → Location Services → Organic Maps. Location access and Precise Location should be enabled.
 
 **Incorrect location is shown on the map**
 

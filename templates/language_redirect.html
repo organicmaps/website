@@ -1,7 +1,7 @@
 <script>
-// Supports partially translated pages.
-// Redirects a user to his preferred language page translation only if
-// there were no previous redirects or explicit language selections before (see language_seletor.html)
+(function () {
+// Supports partially translated pages. Redirect only when there has been no earlier automatic
+// redirect or explicit choice (see language_selector.html).
 if (window.localStorage.getItem('lang') === null) {
   // Map of language codes to their actual URLs (handles different slugs per language)
   var pageTranslations = {
@@ -18,20 +18,39 @@ if (window.localStorage.getItem('lang') === null) {
   var userPreferredLanguages = navigator.languages ? navigator.languages : [navigator.language];
   var redirected = false;
 
-  for (var i = 0; i < userPreferredLanguages.length && !redirected; i++) {
-    for (var langCode in pageTranslations) {
-      if (pageTranslations.hasOwnProperty(langCode)) {
-        if (userPreferredLanguages[i].indexOf(langCode) === 0) {
-          window.localStorage.setItem('lang', langCode);
-          // Do not redirect the default 'en' language.
-          if (langCode !== '{{ config.default_language }}') {
-            window.location.href = pageTranslations[langCode];
-          }
-          redirected = true;
-          break;
-        }
+  // Prefer the complete browser tag before falling back to its primary language. This preserves
+  // regional variants such as pt-BR independently of the generated object's key order.
+  function availableLanguage(preferred) {
+    var tag = String(preferred || '').replace(/_/g, '-').toLowerCase();
+    var primary = tag.split('-')[0];
+    var langCode;
+
+    for (langCode in pageTranslations) {
+      if (pageTranslations.hasOwnProperty(langCode) && langCode.toLowerCase() === tag) return langCode;
+    }
+    if (pageTranslations.hasOwnProperty(primary)) return primary;
+    for (langCode in pageTranslations) {
+      if (pageTranslations.hasOwnProperty(langCode) && langCode.toLowerCase().split('-')[0] === primary) {
+        return langCode;
       }
+    }
+    return null;
+  }
+
+  for (var i = 0; i < userPreferredLanguages.length && !redirected; i++) {
+    var langCode = availableLanguage(userPreferredLanguages[i]);
+    if (langCode !== null) {
+      window.localStorage.setItem('lang', langCode);
+      // Do not redirect the default 'en' language.
+      if (langCode !== '{{ config.default_language }}') {
+        // Carry the query string and fragment across: a link into a specific section
+        // (#install, #crypto) or a page prefilled from its parameters (the donation
+        // form's ?amount=&interval=) must survive the language redirect intact.
+        window.location.href = pageTranslations[langCode] + window.location.search + window.location.hash;
+      }
+      redirected = true;
     }
   }
 }
+})();
 </script>

@@ -79,4 +79,4 @@ Tipp: A béta verzió új domborzati árnyékolással, továbbfejlesztett magass
 Kellemes nyarat!
 Az Organic Maps csapat
 
-{{ references() }}
+{{ <references lang /> }}

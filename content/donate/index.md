@@ -17,7 +17,7 @@ Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** i
 
 Click on your preferred payment method icon below:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Why donate to Organic Maps?
 
@@ -47,22 +47,22 @@ Click on your preferred payment method icon below:
 
 Click on your preferred payment method icon below:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Recurring donations are the best way to ensure a relatively stable income for the project and motivate us for long-term tasks and goals. One-time donations are appreciated too.
 
 ### Bank Transfer
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Crypto
 
 Please consider donating annually to reduce total fees.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Can you help us in any other way?
 
 Yes! There are many ways to support Organic Maps. Please see [Contribute](@/contribute/index.md) page for more details.
 
-{{ references() }}
+{{ <references lang /> }}

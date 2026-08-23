@@ -15,17 +15,17 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 ### Κατέβασε και εγκατάστησε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Πεζοπορία', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Πεζοπορία' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Πράγα') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='Πράγα' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Αναζήτηση Εκτός
-Σύνδεσης') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='Αναζήτηση Εκτός
+Σύνδεσης' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Πλοήγηση σε σκοτεινή
-λειτουργία') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='Πλοήγηση σε σκοτεινή
+λειτουργία' /> }}
 
 ## Χαρακτηριστικά
 
@@ -65,15 +65,15 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 Αυτή η εφαρμογή έχει επαληθευτεί από το [Έργο Απορρήτου Exodus ][exodus]:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 Η iOS εφαρμογή έχει επαληθευτεί από το [TrackerControl για iOS][trackercontrol]:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Οι Organic Maps δεν ζητούν υπερβολικά πολλά δικαιώματα για να σε κατασκοπεύουν:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 Στο Organic Maps, πιστεύουμε ότι η ιδιωτικότητα είναι θεμελιώδες ανθρώπινο δικαίωμα:
 
@@ -91,14 +91,14 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 Για να κάνεις δωρεά με ευκολία, κάνε κλικ στο εικονίδιο της προτιμώμενης μεθόδου πληρωμής παρακάτω:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Οι αγαπημένοι θεσμικοί χορηγοί παρακάτω παρείχαν στοχευμένες επιχορηγήσεις για την κάλυψη ορισμένων εξόδων υποδομής και τη χρηματοδότηση της ανάπτυξης νέων επιλεγμένων χαρακτηριστικών:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Το έργο βελτίωσης Αναζήτησης & Γραμματοσειρών</a> έχει <a href="https://nlnet.nl/project/OrganicMaps/">χρηματοδοτηθεί</a> μέσω του Ταμείου NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Το Ταμείο NGI0 Entrust</a> ιδρύθηκε από το <a href="https://nlnet.nl/">Ίδρυμα NLnet</a> με οικονομική υποστήριξη από το πρόγραμμα <a href="https://www.ngi.eu/">Next Generation Internet</a> της Ευρωπαϊκής Επιτροπής, υπό την αιγίδα της ΓΔ Επικοινωνιακών Δικτύων, Περιεχομένου και Τεχνολογίας βάσει της συμφωνίας επιχορήγησης αριθ. 101069594.
@@ -106,7 +106,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Η <a href="https://summerofcode.withgoogle.com/">Google</a> υποστήριξε φοιτητικά έργα στο πρόγραμμα Google Summer of Code κατά τη διάρκεια των προγραμμάτων <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a>. Αξιοσημείωτα έργα περιλάμβαναν το Android Auto, τον Εξαγωγέα Dump της Wikipedia, την Καταγραφή Διαδρομής για Android.
@@ -114,7 +114,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Ο πάροχος υπηρεσιών διαδικτύου <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">μας παρέχει</a> δύο εικονικούς διακομιστές με έως και 400 TB/μήνα δωρεάν εύρος ζώνης για τη φιλοξενία και την εξυπηρέτηση λήψεων και ενημερώσεων χαρτών.
@@ -122,7 +122,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Η <a href="https://44plus.vn">44+ Technologies</a> μας <a href="https://44plus.vn/organicmaps">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών στο Βιετνάμ και τη Νοτιοανατολική Ασία.
@@ -130,7 +130,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Η <a href="https://futo.org">FUTO</a> έχει <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">απονείμει μικρο-επιχορήγηση $1000</a> στο Organic Maps τον Φεβρουάριο του 2023.
@@ -156,4 +156,4 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 [fork]: https://el.wikipedia.org/wiki/Παρακλάδι_(πληροφορική)
 
-{{ references() }}
+{{ <references lang /> }}

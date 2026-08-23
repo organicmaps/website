@@ -26,4 +26,4 @@ Yra įvairių būdų palaikyti plėtrą:
 
 Mūsų maža komanda labai dėkinga už jūsų atsiliepimus ir palaikymą. Organic Maps nebūtų įmanomi be mūsų vartotojų ❤️.
 
-{{ references() }}
+{{ <references lang /> }}

@@ -59,4 +59,4 @@ taxonomies:
 
 احصل على Organic Maps من [AppStore][appstore] و[Google Play][googleplay] و[Huawei AppGallery][appgallery] و[Obtainium][obtainium] و[Accrescent][accrescent] و[FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

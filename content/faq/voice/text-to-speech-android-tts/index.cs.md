@@ -42,7 +42,7 @@ Uvedené možnosti se nemusí zobrazit, pokud v zařízení ještě nemáte nain
 
 Níže je uveden úplný seznam několika motorů a jazyků, které podporují (odkazy ke stažení naleznete za tabulkou):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Řešení
 

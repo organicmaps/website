@@ -53,4 +53,4 @@ Mae pob [rhodd](@/donate/index.cy.md) a [chyfraniad](@/contribute/index.cy.md) y
 Fel bob amser, gyda chariad a gofal ❤️
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

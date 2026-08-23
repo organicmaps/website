@@ -11,7 +11,7 @@ description: "ללא מעקב! ללא תוכנות זבל! ללא חומרי ה�
 
 ### ההמנון של פרטיות וחופש מונעים על ידי הקהילה
 
-{{ audio(title="ההמנון של פרטיות וחופש מונעים על ידי הקהילה", url="/news/2024-04-27/organic-maps-privacy-and-freedom-anthem-driven-by-community/The Organic Maps Anthem of community-driven privacy and freedom.mp3") }}
+{{ <audio title="ההמנון של פרטיות וחופש מונעים על ידי הקהילה" url="/news/2024-04-27/organic-maps-privacy-and-freedom-anthem-driven-by-community/The Organic Maps Anthem of community-driven privacy and freedom.mp3" /> }}
 
 <pre>
 (בית 1)

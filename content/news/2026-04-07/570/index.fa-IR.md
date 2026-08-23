@@ -87,4 +87,4 @@ taxonomies:
 با عشق و دقت ❤️
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

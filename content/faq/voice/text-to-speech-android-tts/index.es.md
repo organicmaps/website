@@ -43,7 +43,7 @@ Estas opciones pueden que no estén disponibles si no tienes la funcionalidad TT
 
 A continuación se muestra una lista completa de los idiomas y los motores soportados para cada uno de ellos (los enlaces de descarga de cada motor se pueden encontrar después de la tabla):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Soluciones a problemas con RHVoice
 

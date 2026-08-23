@@ -53,4 +53,4 @@ Cada [donació](@/donate/index.ca.md) i [contribució](@/contribute/index.ca.md)
 Com sempre, amb amor i cura ❤️
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

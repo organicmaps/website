@@ -59,4 +59,4 @@ Organic Maps चे ऑगस्ट रिलीझ इन्स्टॉल क
 
 [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], आणि [FDroid][fdroid] वरून Organic Maps मिळवा.
 
-{{ references() }}
+{{ <references lang /> }}

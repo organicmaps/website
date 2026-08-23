@@ -81,4 +81,4 @@ Töltsd le a legújabb Organic Maps verziót innen: [App Store][appstore], [Goog
 
 Csatlakozz a béta teszteléshez, hogy elsőként próbálhasd ki az újdonságokat: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

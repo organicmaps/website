@@ -44,4 +44,4 @@ iOS-Änderungen, alle Anerkennung an _Kiryl Kaveryn_:
 
 P.S. Wenn du gerne detaillierte Versionshinweise liest, lass es uns bitte in unseren [sozialen Netzwerken](/#gemeinschaft) wissen
 
-{{ references() }}
+{{ <references lang /> }}

@@ -56,4 +56,4 @@ Organic Maps ez litzateke posible izango zure [dohaintzak](@/donate/index.eu.md)
 Arduraz eta maitasunez,
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

@@ -66,4 +66,4 @@ Iga [annetus](@/donate/index.et.md) ja [kaastöö](@/contribute/index.et.md) ait
 Hoolivuse ja armastusega,
 Organic Mapsi meeskond
 
-{{ references() }}
+{{ <references lang /> }}

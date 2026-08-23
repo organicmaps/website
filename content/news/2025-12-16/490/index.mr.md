@@ -44,4 +44,4 @@ Organic Maps तुमच्या [देणग्या](@/donate/index.mr.md)
 
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

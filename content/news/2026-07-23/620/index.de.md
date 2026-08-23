@@ -79,4 +79,4 @@ Tipp: Die Beta-Version bietet eine neue Geländeschattierung, verbesserte Höhen
 Einen schönen Sommer!
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

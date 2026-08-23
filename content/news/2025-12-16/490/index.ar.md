@@ -44,4 +44,4 @@ Organic Maps موجود بفضل [تبرعاتكم](@/donate/index.ar.md) و [م
 
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

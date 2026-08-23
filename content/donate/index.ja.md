@@ -17,7 +17,7 @@ Organic Maps アプリは、あなたの **[寄付][stripe]** のおかげで **
 
 お好みの支払い方法のアイコンをクリックしてください:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## なぜ Organic Maps に寄付するのですか?
 
@@ -51,23 +51,23 @@ Organic Maps アプリは、あなたの **[寄付][stripe]** のおかげで **
 
 お好みの支払い方法のアイコンをクリックしてください:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 継続的な寄付は、プロジェクトにとって比較的安定した収入を確保し、長期的なタスクと目標に対する私たちの動機付けとなります。一度きりの寄付も大変ありがたく思います。
 
 ### 銀行振込
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### 暗号通貨
 
 手数料の総額を削減するため、年間での寄付をご検討ください。
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## 他に支援する方法はありますか?
 
 はい! Organic Maps を支援する方法はたくさんあります。詳細については
 [貢献する](@/contribute/index.ja.md) ページをご覧ください。
 
-{{ references() }}
+{{ <references lang /> }}

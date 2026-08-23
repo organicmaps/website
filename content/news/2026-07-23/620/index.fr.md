@@ -79,4 +79,4 @@ Astuce : la version bêta propose un nouvel ombrage du relief, des données alti
 Bon été !
 L’équipe Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

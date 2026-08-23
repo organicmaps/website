@@ -52,4 +52,4 @@ Feliz Ano Novo 2026! 🎄🎁🎉
 
 A Equipe Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

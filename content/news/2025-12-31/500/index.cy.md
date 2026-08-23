@@ -51,4 +51,4 @@ Blwyddyn Newydd Dda 2026! 🎄🎁🎉
 
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

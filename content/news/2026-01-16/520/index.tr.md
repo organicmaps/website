@@ -50,4 +50,4 @@ Organic Maps senin [bağışların](@/donate/index.tr.md) ve [katkıların](@/co
 
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

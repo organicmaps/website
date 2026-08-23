@@ -52,4 +52,4 @@ Henüz denemediysen, artık Organic Maps ayarlarında haritada yer imi isimlerin
 
 Not: Unutma, deneysel ve yaklaşan özelliklere erken erişim sağlamak için beta test programımıza kaydolabilirsin—[iOS için][testflight] ve [Android için][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

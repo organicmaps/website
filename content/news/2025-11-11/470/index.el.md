@@ -72,4 +72,4 @@ taxonomies:
 
 Η ομάδα του Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -17,7 +17,7 @@ Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][s
 
 Kattints a kívánt fizetési mód ikonjára lentebb:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Miért adományozz az Organic Maps-nek?
 
@@ -47,22 +47,22 @@ Kattints a kívánt fizetési mód ikonjára lentebb:
 
 Kattints a kívánt fizetési mód ikonjára lentebb:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Az ismétlődő adományok a legjobb módja annak, hogy viszonylag stabil bevételt biztosítsunk a projekt számára és motiváljanak minket a hosszú távú feladatok és célok megvalósításában. De egyszeri adományozásra is van lehetőség.
 
 ### Banki átutalás
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kriptovaluta
 
 Fontold meg az éves adományozást, hogy csökkentsd a teljes díjat.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Tudsz más módon is segíteni nekünk?
 
 Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért tekintsd meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
 
-{{ references() }}
+{{ <references lang /> }}

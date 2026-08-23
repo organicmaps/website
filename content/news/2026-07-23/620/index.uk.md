@@ -79,4 +79,4 @@ extra:
 Гарного літа!
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -79,4 +79,4 @@ extra:
 祝大家夏天快乐！
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

@@ -88,4 +88,4 @@ Oleme tänulikud kõigile meie kasutajatele ja panustajatele, neile, kes [anneta
 Armastusega,
 Organic Maps meeskond
 
-{{ references() }}
+{{ <references lang /> }}

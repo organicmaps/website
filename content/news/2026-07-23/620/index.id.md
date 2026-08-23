@@ -79,4 +79,4 @@ Petunjuk: versi beta ini memiliki efek bayangan relief baru, data ketinggian yan
 Selamat menikmati musim panas!
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

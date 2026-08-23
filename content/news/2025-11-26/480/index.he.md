@@ -56,4 +56,4 @@ Organic Maps לא הייתה מתאפשרת ללא [התרומות](@/donate/ind
 באהבה ובכבוד,
 צוות Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

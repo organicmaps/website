@@ -26,4 +26,4 @@ Organic Maps是一个免费的、开源的应用程序，没有广告，不收�
 
 我们的小团队非常感谢你的反馈和支持。离开用户❤️，Organic Maps无法存在。
 
-{{ references() }}
+{{ <references lang /> }}

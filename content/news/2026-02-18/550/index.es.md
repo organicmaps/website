@@ -66,4 +66,4 @@ Cada [donación](@/donate/index.es.md) y [contribución](@/contribute/index.es.m
 Con cuidado y amor,
 El equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

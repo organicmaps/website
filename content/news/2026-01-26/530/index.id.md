@@ -49,4 +49,4 @@ Bergabunglah dengan pengujian beta untuk mencoba fitur awal dan melaporkan masal
 Dengan cinta,
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

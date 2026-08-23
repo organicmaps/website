@@ -66,4 +66,4 @@ taxonomies:
 జాగ్రత్త మరియు ప్రేమతో,
 Organic Maps టీమ్
 
-{{ references() }}
+{{ <references lang /> }}

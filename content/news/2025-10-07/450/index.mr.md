@@ -81,4 +81,4 @@ Organic Maps आमच्या योगदानकर्त्यांमु
 
 लवकर वैशिष्ट्ये मिळवण्यासाठी बीटा चाचणीत सामील व्हा: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -88,4 +88,4 @@ taxonomies:
 مع المحبة،
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -44,4 +44,4 @@ iOS changes, all kudos to _Kiryl Kaveryn_:
 
 P.S. If you like reading detailed release notes, please let us know on our [social networks](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

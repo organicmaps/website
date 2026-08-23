@@ -52,4 +52,4 @@ Se l'as pas encara ensajat, ara pòdes activar la foncion per veire los noms de 
 
 P.S. Oblides pas, pòdes t'inscriure dins nòstre programa de tèst bèta per obténer un accès primièr a las foncions experimentalassas e futuras—[per iOS][testflight] e [per Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -49,4 +49,4 @@ Unisciti ai test beta per provare le funzionalità in anteprima e segnalare prob
 Con amore,
 Il team di Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

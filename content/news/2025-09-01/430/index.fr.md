@@ -52,4 +52,4 @@ Si tu ne l'as pas encore essayé, tu peux maintenant activer une fonctionnalité
 
 P.S. N'oublie pas, tu peux t'inscrire à notre programme de test bêta pour obtenir un accès anticipé aux fonctionnalités expérimentales et à venir—[pour iOS][testflight] et [pour Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

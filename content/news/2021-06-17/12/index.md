@@ -44,4 +44,4 @@ Organic Maps is pure and organic, and **free from trackers and other bad stuff**
 - 🔗 [Our website](https://organicmaps.app/)
 - 🔗 [Our GitHub][github]
 
-{{ references() }}
+{{ <references lang /> }}

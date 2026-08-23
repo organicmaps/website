@@ -59,4 +59,4 @@ P.S. …ja palju enamat on tulemas! Sinu toetus aitab ja motiveerib meid ehitama
 
 Hangi Organic Maps [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ja [FDroid][fdroid] kaudu.
 
-{{ references() }}
+{{ <references lang /> }}

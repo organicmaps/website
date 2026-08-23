@@ -62,4 +62,4 @@ taxonomies:
 
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

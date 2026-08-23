@@ -88,4 +88,4 @@ Siamo grati a tutti i nostri utenti e collaboratori, a chi [dona](@/donate/index
 Con affetto,
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

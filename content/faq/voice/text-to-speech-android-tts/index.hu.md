@@ -42,7 +42,7 @@ Előfordulhat, hogy az említett opciók nem jelennek meg, ha még nincs TTS tel
 
 Az alábbiakban egy átfogó lista több motort és az általuk támogatott nyelveket mutatja be (a letöltési hivatkozások a táblázat után találhatók):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Megoldások
 

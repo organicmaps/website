@@ -44,4 +44,4 @@ Organic Maps esiste grazie alle tue [donazioni](@/donate/index.it.md) e [contrib
 
 Il Team di Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -81,4 +81,4 @@ Organic Maps हमारे योगदानकर्ताओं, [आपक
 
 शुरुआती सुविधाओं के लिए बीटा परीक्षण में शामिल हों: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

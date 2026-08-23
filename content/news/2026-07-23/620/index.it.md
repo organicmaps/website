@@ -79,4 +79,4 @@ Suggerimento: la versione beta presenta una nuova tecnica di ombreggiatura del r
 Buona estate!
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

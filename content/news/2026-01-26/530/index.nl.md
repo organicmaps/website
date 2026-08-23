@@ -49,4 +49,4 @@ Doe mee aan bètatesten om vroege functies te proberen en problemen te melden:
 Met liefde,
 Het Organic Maps-team
 
-{{ references() }}
+{{ <references lang /> }}

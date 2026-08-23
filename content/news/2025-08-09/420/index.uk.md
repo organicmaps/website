@@ -59,4 +59,4 @@ P.S. …і набагато більше наближається! Ваша пі
 
 Отримайте Organic Maps з [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

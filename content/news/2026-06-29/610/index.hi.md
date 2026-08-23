@@ -88,4 +88,4 @@ Organic Maps के जून अपडेट में आज़माने �
 सप्रेम,
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

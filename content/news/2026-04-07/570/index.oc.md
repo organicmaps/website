@@ -87,4 +87,4 @@ Rejonh las pròvas bèta per ensajar las foncionalitats en avança e senhalar lo
 Amb amor e suènh ❤️
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

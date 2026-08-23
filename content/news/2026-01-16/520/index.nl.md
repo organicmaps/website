@@ -50,4 +50,4 @@ Organic Maps bestaat dankzij jouw [donaties](@/donate/index.nl.md) en [bijdragen
 
 Het Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

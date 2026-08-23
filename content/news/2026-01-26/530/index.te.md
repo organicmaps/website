@@ -49,4 +49,4 @@ Apple మరియు Google Maps కు మెరుగైన, గోప్య�
 ప్రేమతో,
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

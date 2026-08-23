@@ -52,4 +52,4 @@ Falls du es noch nicht ausprobiert hast, kannst du jetzt eine Funktion in den Or
 
 P.S. Vergiss nicht, dass du dich für unser Beta-Testprogramm anmelden kannst, um frühen Zugang zu experimentellen und kommenden Funktionen zu erhalten – [für iOS][testflight] und [für Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

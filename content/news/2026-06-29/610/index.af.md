@@ -88,4 +88,4 @@ Ons is dankbaar teenoor al ons gebruikers en bydraers, teenoor diegene wat [sken
 Met liefde,
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

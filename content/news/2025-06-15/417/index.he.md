@@ -57,4 +57,4 @@ Android:
 
 תודה לכולם על [התרומות](@/donate/index.he.md) וה[תמיכה](@/contribute/index.he.md), [דיווחי הבאגים][github issues] וה[שיפורים][github], על הפצת הבשורה ועל שיפור המפות ביחד!
 
-{{ references() }}
+{{ <references lang /> }}

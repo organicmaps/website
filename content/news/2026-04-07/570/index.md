@@ -87,4 +87,4 @@ Join beta testing to try early features and report issues:
 With love and care ❤️
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

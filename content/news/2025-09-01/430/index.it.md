@@ -52,4 +52,4 @@ Se non l'hai ancora provato, ora puoi abilitare una funzione nelle impostazioni 
 
 P.S. Non dimenticare, puoi iscriverti al nostro programma di beta testing per ottenere accesso anticipato a funzioni sperimentali e future—[per iOS][testflight] e [per Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

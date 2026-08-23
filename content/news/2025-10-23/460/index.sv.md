@@ -65,4 +65,4 @@ P.S. Delta i betatestning för tidiga funktioner:
 Med kärlek till våra användare och community
 Organic Maps-teamet
 
-{{ references() }}
+{{ <references lang /> }}

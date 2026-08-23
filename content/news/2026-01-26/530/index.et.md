@@ -49,4 +49,4 @@ Liitu beetatestimisega, et proovida varajasi funktsioone ja teatada probleemides
 Armastusega,
 Organic Maps meeskond
 
-{{ references() }}
+{{ <references lang /> }}

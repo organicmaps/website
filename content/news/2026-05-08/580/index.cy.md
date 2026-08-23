@@ -84,4 +84,4 @@ Rydym yn caru ein defnyddwyr ❤️ ac rydym yn caru'r hyn rydym yn ei wneud
 
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

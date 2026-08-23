@@ -24,4 +24,4 @@ Install from [TestFlight][testflight]
 Get it on [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 Download [APK from GitHub](https://github.com/organicmaps/organicmaps/releases/tag/2021-05-08)
 
-{{ references() }}
+{{ <references lang /> }}

@@ -50,4 +50,4 @@ Organic Maps istnieje dzięki Twoim [darowiznom](@/donate/index.pl.md) i [wkład
 
 Zespół Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

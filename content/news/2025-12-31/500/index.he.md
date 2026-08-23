@@ -51,4 +51,4 @@ slug: "organic-maps-2025-year-in-review"
 
 צוות Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

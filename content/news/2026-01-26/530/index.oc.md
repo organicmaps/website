@@ -49,4 +49,4 @@ Jonh-te als tèstes bèta per assajar de foncionalitats precoças e senhalar de 
 Amb afeccion,
 L'equipa d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

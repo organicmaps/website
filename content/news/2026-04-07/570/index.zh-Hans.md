@@ -87,4 +87,4 @@ taxonomies:
 致以爱与关怀 ❤️
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

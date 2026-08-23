@@ -53,4 +53,4 @@ Elke [donatie](@/donate/index.nl.md) en [bijdrage](@/contribute/index.nl.md) hel
 Zoals altijd, met liefde en zorg ❤️
 Het Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

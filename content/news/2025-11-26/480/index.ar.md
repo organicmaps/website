@@ -56,4 +56,4 @@ taxonomies:
 مع الرعاية والحب،
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

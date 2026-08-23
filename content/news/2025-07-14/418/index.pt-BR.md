@@ -44,4 +44,4 @@ Mudanças do iOS, todos os créditos para _Kiryl Kaveryn_:
 
 P.S. Se vocês gostam de ler notas de lançamento detalhadas, por favor nos avisem em nossas [redes sociais](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

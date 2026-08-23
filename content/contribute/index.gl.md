@@ -26,4 +26,4 @@ Hai diferentes formas de apoiar o desenvolvemento:
 
 O noso pequeno equipo está moi agradecido polos teus comentarios e apoio. Organic Maps non sería posible sen os nosos usuarios ❤️.
 
-{{references()}}
+{{ <references lang /> }}

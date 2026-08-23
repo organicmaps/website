@@ -79,4 +79,4 @@ Wenk: die beta-weergawe het nuwe heuwelskadu, verbeterde hoogtedata met onderste
 Lekker somer!
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

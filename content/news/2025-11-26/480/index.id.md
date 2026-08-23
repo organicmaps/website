@@ -56,4 +56,4 @@ Organic Maps tidak akan mungkin tanpa [donasi](@/donate/index.id.md), [kontribus
 Dengan perhatian dan cinta,
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -88,4 +88,4 @@ Organic Maps 六月更新中有许多值得一试的精彩新功能和错误修�
 满怀爱意，
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

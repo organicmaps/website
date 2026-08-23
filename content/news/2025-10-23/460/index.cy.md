@@ -65,4 +65,4 @@ P.S. Ymuna â phrofi beta ar gyfer nodweddion cynnar:
 Gyda chariad at ein defnyddwyr a'n cymuned
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

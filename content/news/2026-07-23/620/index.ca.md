@@ -79,4 +79,4 @@ Pista: la versió beta inclou un nou ombrejat del relleu, dades d'elevació mill
 Bon estiu!
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -79,4 +79,4 @@ Tip: Beta verze obsahuje nové stínování terénu, vylepšená výšková data
 Hezké léto!
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

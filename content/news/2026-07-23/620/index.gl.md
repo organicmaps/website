@@ -79,4 +79,4 @@ Pista: a versión beta ten un novo sombreado do relevo, datos de elevación mell
 Feliz verán!
 O equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

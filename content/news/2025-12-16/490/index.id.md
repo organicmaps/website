@@ -44,4 +44,4 @@ Organic Maps ada berkat [donasi](@/donate/index.id.md) dan [kontribusi](@/contri
 
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

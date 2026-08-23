@@ -50,4 +50,4 @@ Organic Maps existitzen da zure [dohaintzei](@/donate/index.eu.md) eta [ekarpent
 
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

@@ -26,4 +26,4 @@ Bizi desteklemenin farklı yolları var:
 
 Küçük ekibimiz, geri bildirimlerin ve desteğin için çok minnettar. Organic Maps, kullanıcılarımız olmadan mümkün olamazdı❤️.
 
-{{ references() }}
+{{ <references lang /> }}

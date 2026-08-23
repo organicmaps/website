@@ -56,4 +56,4 @@ Atsisiųskite naujausią Organic Maps versiją iš [App Store][appstore], [Googl
 
 P.S. Prisijunkite prie beta testavimo, kad naujoves išbandytumėte pirmi: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -50,4 +50,4 @@ Organic Maps bestaan danksy jou [donasies](@/donate/index.af.md) en [bydraes](@/
 
 Die Organic Maps Span
 
-{{ references() }}
+{{ <references lang /> }}

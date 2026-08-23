@@ -62,4 +62,4 @@ Consigue la actualización en <https://get.omaps.org> o en [App Store][appstore]
 
 El equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

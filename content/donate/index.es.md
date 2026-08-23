@@ -17,7 +17,7 @@ La aplicación Organic Maps es _gratuita para todos_ gracias a tus **[donaciones
 
 Haz clic en el icono del método de pago que prefieras:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## ¿Por qué donar a Organic Maps?
 
@@ -47,22 +47,22 @@ Haz clic en el icono del método de pago que prefieras:
 
 Haz clic en el icono del método de pago que prefieras:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Las donaciones recurrentes son la mejor manera de asegurar un ingreso periódico para el proyecto y nos motiva para tareas y objetivos a largo plazo. Pero también puedes donar una vez.
 
 ### Transferencia bancaria
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Criptomonedas
 
 Considera donar anualmente para reducir las tarifas totales.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## ¿Puedes ayudarnos de alguna otra manera?
 
 ¡Sí! Hay varias maneras de apoyar a Organic Maps. Consulta la página [Contribuir](@/contribute/index.es.md) para más detalles.
 
-{{ references() }}
+{{ <references lang /> }}

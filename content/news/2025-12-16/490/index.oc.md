@@ -44,4 +44,4 @@ Organic Maps existís gràcias a tos [dons](@/donate/index.oc.md) e [contribucio
 
 L'equipa Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

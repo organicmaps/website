@@ -87,4 +87,4 @@ taxonomies:
 مع الحب والعناية ❤️
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

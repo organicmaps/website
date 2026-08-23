@@ -50,4 +50,4 @@ Organic Maps існує завдяки вашим [пожертвам](@/donate/
 
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

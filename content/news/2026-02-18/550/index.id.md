@@ -66,4 +66,4 @@ Setiap [donasi](@/donate/index.id.md) dan [kontribusi](@/contribute/index.id.md)
 Dengan perhatian dan cinta,
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -20,4 +20,4 @@ taxonomies:
 * [iOS Beta (TestFlight)][testflight]
 * [Android Beta (Firebase)][firebase]
 
-{{ references() }}
+{{ <references lang /> }}

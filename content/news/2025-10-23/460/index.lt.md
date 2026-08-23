@@ -65,4 +65,4 @@ P.S. Prisijunkite prie beta testavimo ankstyvoms funkcijoms:
 Su meile mūsų vartotojams ir bendruomenei
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

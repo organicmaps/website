@@ -56,4 +56,4 @@ Organic Maps would not be possible without your [donations](@/donate/index.md), 
 With care and love,
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

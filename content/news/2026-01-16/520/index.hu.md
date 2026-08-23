@@ -50,4 +50,4 @@ Az Organic Maps az ön [adományainak](@/donate/index.hu.md) és [hozzájárulá
 
 Az Organic Maps Csapata
 
-{{ references() }}
+{{ <references lang /> }}

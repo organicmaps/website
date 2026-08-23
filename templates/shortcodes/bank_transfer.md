@@ -1,3 +1,4 @@
+{% component bank_transfer() -%}
 |   |   |
 |---|---|
 Account holder for all currencies: | Organic Maps OÜ
@@ -40,3 +41,4 @@ SWIFT/BIC:      | TRWIGB2L
 IBAN:     | TR740010300000000047306089
 Ad Soyad: | Organic Maps OÜ (Birleşik Ödeme Hizmetleri ve Elektronik Para A.Ş)
 Açıklama: | Donation
+{%- endcomponent bank_transfer %}

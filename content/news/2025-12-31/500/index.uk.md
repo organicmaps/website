@@ -52,4 +52,4 @@ slug: "organic-maps-2025-pidsumky-roku"
 
 Команда Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

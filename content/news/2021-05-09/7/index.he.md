@@ -24,4 +24,4 @@ taxonomies:
 הורידו ב-[Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 הורידו [APK מ-GitHub](https://github.com/organicmaps/organicmaps/releases/tag/2021-05-08)
 
-{{ references() }}
+{{ <references lang /> }}

@@ -62,4 +62,4 @@ Utazz könnyedén, és találd meg a kalandokat az Organic Maps segítségével!
 
 Az Organic Maps csapat
 
-{{ references() }}
+{{ <references lang /> }}

@@ -52,4 +52,4 @@ Ha még nem próbáltad, most engedélyezhetsz egy funkciót az Organic Maps be�
 
 P.S. Ne felejtsd el, feliratkozhatsz béta tesztelési programunkra, hogy korai hozzáférést kapj kísérleti és közelgő funkciókhoz—[iOS-hez][testflight] és [Androidhoz][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

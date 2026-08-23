@@ -79,4 +79,4 @@ extra:
 تابستان خوش!
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

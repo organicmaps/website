@@ -44,4 +44,4 @@ Mae Organic Maps yn bodoli diolch i dy [roddion](@/donate/index.cy.md) a dy [gyf
 
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -44,4 +44,4 @@ Organic Maps קיים בזכות [התרומות](@/donate/index.he.md) ו[הת�
 
 צוות Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

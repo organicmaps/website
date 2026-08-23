@@ -84,4 +84,4 @@ Kami menyayangi para pengguna kami ❤️ dan kami menyukai apa yang kami lakuka
 
 Tim Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -65,4 +65,4 @@ taxonomies:
 Με αγάπη προς τους χρήστες και την κοινότητά μας
 Η ομάδα Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

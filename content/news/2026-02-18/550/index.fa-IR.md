@@ -66,4 +66,4 @@ taxonomies:
 با مراقبت و عشق،
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

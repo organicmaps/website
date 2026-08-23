@@ -88,4 +88,4 @@ Wir sind all unseren Nutzern und Mitwirkenden dankbar, allen, die [spenden](@/do
 Mit Liebe,
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

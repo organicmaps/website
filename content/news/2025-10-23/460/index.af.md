@@ -65,4 +65,4 @@ P.S. Sluit aan by beta toetsing vir vroeë funksies:
 Met liefde vir ons gebruikers en gemeenskap
 Die Organic Maps Span
 
-{{ references() }}
+{{ <references lang /> }}

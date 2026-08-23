@@ -56,4 +56,4 @@ taxonomies:
 
 Υ.Γ. Μπες στη δοκιμαστική έκδοση beta: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

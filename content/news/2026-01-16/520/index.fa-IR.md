@@ -50,4 +50,4 @@ Organic Maps به لطف [کمک‌های مالی](@/donate/index.fa-IR.md) و 
 
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

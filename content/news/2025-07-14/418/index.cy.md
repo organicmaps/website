@@ -44,4 +44,4 @@ Newidiadau iOS, pob clod i _Kiryl Kaveryn_:
 
 O.N. Os wyt ti'n hoffi darllen nodiadau rhyddhau manwl, rho wybod i ni ar ein [rhwydweithiau cymdeithasol](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

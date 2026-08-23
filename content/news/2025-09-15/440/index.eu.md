@@ -56,4 +56,4 @@ Deskargatu Organic Maps-en azken bertsioa: [App Store][appstore], [Google Play][
 
 P.S. Batu beta probetara ezaugarri berriak lehenago probatzeko: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

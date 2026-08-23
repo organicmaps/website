@@ -41,7 +41,7 @@ Cihazında önceden bir TTS kurulu değilse söz konusu seçenekler görünmeyeb
 
 Aşağıda çeşitli motorları ve destekledikleri dilleri gösteren kapsamlı bir liste bulunmaktadır (indirme bağlantıları tablodan sonra bulunabilir):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Geçici Çözümler
 

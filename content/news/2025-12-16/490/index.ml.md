@@ -44,4 +44,4 @@ Organic Maps <https://omaps.app/get> ൽ നിന്നോ [App Store][appstore
 
 The Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

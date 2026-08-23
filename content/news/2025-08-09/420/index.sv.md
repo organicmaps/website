@@ -59,4 +59,4 @@ P.S. …och mycket mer kommer! Ert stöd hjälper och motiverar oss att bygga de
 
 Skaffa Organic Maps från [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -66,4 +66,4 @@ Chaque [don](@/donate/index.fr.md) et [contribution](@/contribute/index.fr.md) n
 Avec soin et amour,
 L'équipe Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

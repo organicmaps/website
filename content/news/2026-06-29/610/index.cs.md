@@ -88,4 +88,4 @@ Děkujeme všem našim uživatelům a přispěvatelům, i těm, kteří [darují
 S láskou,
 Tým Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

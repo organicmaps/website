@@ -59,4 +59,4 @@ P.D. …¡y mucho más está por venir! Tu apoyo nos ayuda y motiva a construir 
 
 Obtén Organic Maps en [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] y [FDroid][fdroid].
 
-{{ references() }}
+{{ <references lang /> }}

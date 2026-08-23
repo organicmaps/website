@@ -66,4 +66,4 @@ Mae pob [rhodd](@/donate/index.cy.md) a [chyfraniad](@/contribute/index.cy.md) y
 Gyda gofal a chariad,
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

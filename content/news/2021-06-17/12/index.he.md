@@ -44,4 +44,4 @@ Organic Maps היא אפליקציה טהורה ואורגנית, **ללא מע�
 - 🔗 [האתר שלנו](https://organicmaps.app/)
 - 🔗 [GitHub שלנו][github]
 
-{{ references() }}
+{{ <references lang /> }}

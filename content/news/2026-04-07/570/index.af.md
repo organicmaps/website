@@ -87,4 +87,4 @@ Sluit aan by beta-toetsing om vroeë kenmerke te probeer en kwessies aan te meld
 Met liefde en sorg ❤️
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

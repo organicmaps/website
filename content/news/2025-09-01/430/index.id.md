@@ -52,4 +52,4 @@ Jika kamu belum mencobanya, sekarang kamu dapat mengaktifkan fitur di pengaturan
 
 P.S. Jangan lupa, kamu dapat mendaftar untuk program beta testing kami untuk mendapatkan akses awal ke fitur eksperimental dan yang akan datang—[untuk iOS][testflight] dan [untuk Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -66,4 +66,4 @@ Minden [adomány](@/donate/index.hu.md) és [hozzájárulás](@/contribute/index
 Gondoskodással és szeretettel,
 Az Organic Maps Csapat
 
-{{ references() }}
+{{ <references lang /> }}

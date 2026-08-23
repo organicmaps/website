@@ -81,4 +81,4 @@ taxonomies:
 
 Μπες στις δοκιμές beta για να αποκτήσεις νωρίτερα τις νέες λειτουργίες: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

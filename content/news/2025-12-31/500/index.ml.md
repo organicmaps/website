@@ -52,4 +52,4 @@ slug: "organic-maps-2025-varshavalokanam"
 
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

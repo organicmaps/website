@@ -53,4 +53,4 @@ taxonomies:
 ఎప్పటిలాగే, ప్రేమ మరియు శ్రద్ధతో ❤️
 Organic Maps టీమ్
 
-{{ references() }}
+{{ <references lang /> }}

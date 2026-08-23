@@ -44,4 +44,4 @@ iOS pakeitimai, visi kreditus _Kiryl Kaveryn_:
 
 P.S. Jei mėgstate skaityti išsamias leidimo pastabas, praneškite mums mūsų [socialiniuose tinkluose](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

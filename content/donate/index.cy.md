@@ -17,7 +17,7 @@ Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[
 
 Clicia ar dy ddull talu dewisol isod:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Pam rhoi i Organic Maps?
 
@@ -51,22 +51,22 @@ Clicia ar dy ddull talu dewisol isod:
 
 Clicia ar dy ddull talu dewisol isod:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Rhoddion ailadroddus yw'r ffordd orau o sicrhau incwm cymharol sefydlog i'r prosiect ac i'n cymell ar gyfer tasgau a nodau tymor hir. Mae rhoddion untro hefyd yn cael eu gwerthfawrogi.
 
 ### Trosglwyddiad Banc
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Crypto
 
 Ystyria roi'n flynyddol i leihau cyfanswm y ffioedd.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Elli di helpu mewn unrhyw ffordd arall?
 
 Gelli! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.
 
-{{ references() }}
+{{ <references lang /> }}

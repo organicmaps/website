@@ -49,4 +49,4 @@ Ymuna â phrofi beta i roi cynnig ar nodweddion cynnar ac adrodd ar broblemau:
 Gyda chariad,
 Y Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

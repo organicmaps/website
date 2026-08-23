@@ -42,7 +42,7 @@ Nimetatud valikuid ei pruugita kuvada, kui sinu seadmesse pole juba TTS-i instal
 
 Allpool on põhjalik loend, mis näitab mitut mootorit ja nende toetatavaid keeli (allalaadimislingid leiad pärast tabelit):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Lahendused
 

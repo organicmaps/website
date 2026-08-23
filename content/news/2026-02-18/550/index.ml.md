@@ -66,4 +66,4 @@ taxonomies:
 കരുതലോടെയും സ്നേഹത്തോടെയും,
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

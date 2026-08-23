@@ -66,4 +66,4 @@ Elke [skenking](@/donate/index.af.md) en [bydrae](@/contribute/index.af.md) help
 Met sorg en liefde,
 Die Organic Maps Span
 
-{{ references() }}
+{{ <references lang /> }}

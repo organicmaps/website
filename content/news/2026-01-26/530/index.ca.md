@@ -49,4 +49,4 @@ Uneix-te a les proves beta per provar funcions primerenques i informar de proble
 Amb estima,
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

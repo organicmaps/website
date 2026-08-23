@@ -44,4 +44,4 @@ Organic Maps eksisteerib tänu sinu [annetustele](@/donate/index.et.md) ja [panu
 
 Organic Mapsi meeskond
 
-{{ references() }}
+{{ <references lang /> }}

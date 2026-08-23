@@ -56,4 +56,4 @@ taxonomies:
 用心和爱，
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

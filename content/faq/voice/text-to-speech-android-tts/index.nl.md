@@ -42,7 +42,7 @@ Deze opties verschijnen mogelijk niet als er nog geen TTS op je apparaat is geï
 
 Hieronder vind je een uitgebreide lijst met verschillende zoekmachines en de talen die ze ondersteunen (downloadlinks vind je na de tabel):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Oplossingen
 

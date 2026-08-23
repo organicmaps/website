@@ -42,7 +42,7 @@ Essas opções podem não aparecer se você ainda não tiver um TTS instalado no
 
 Abaixo está uma lista abrangente mostrando vários mecanismos e os idiomas que eles suportam (links para download podem ser encontrados após a tabela):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Soluções alternativas
 

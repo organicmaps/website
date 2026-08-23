@@ -56,4 +56,4 @@ Organic Maps بدون [کمک‌های مالی](@/donate/index.fa-IR.md)، [م�
 با مراقبت و عشق،
 تیم Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

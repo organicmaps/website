@@ -13,7 +13,7 @@ description: "תחבורה ציבורית, רק הדרך שלפניי, Organic M
 
 ### שלווה בפסגה עם Organic Maps
 
-{{ audio(title="שלווה בפסגה עם Organic Maps", url="/news/2024-05-01/summit-serenity-with-organic-maps-song/Summit Serenity with Organic Maps.mp3") }}
+{{ <audio title="שלווה בפסגה עם Organic Maps" url="/news/2024-05-01/summit-serenity-with-organic-maps-song/Summit Serenity with Organic Maps.mp3" /> }}
 
 <pre>
 (בית)

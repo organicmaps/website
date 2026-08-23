@@ -62,4 +62,4 @@ Reis gemakkelijk en vind je avonturen met Organic Maps! ✈️🚅🚌🚢🌴�
 
 Het Organic Maps-team
 
-{{ references() }}
+{{ <references lang /> }}

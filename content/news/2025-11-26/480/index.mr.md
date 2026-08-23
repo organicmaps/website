@@ -56,4 +56,4 @@ taxonomies:
 काळजी आणि प्रेमाने,
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

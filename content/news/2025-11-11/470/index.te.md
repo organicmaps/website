@@ -72,4 +72,4 @@ Organic Maps ఉపయోగించినందుకు మరియు ప�
 
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

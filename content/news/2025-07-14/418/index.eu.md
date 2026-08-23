@@ -44,4 +44,4 @@ iOS aldaketak, kreditu guztiak _Kiryl Kaveryn_-rentzat:
 
 O.A. Argitalpen ohar xehatuak irakurtzea gustatzen bazaizu, mesedez jakinarazi gure [sare sozialetan](/eu/#komunitatea)
 
-{{ references() }}
+{{ <references lang /> }}

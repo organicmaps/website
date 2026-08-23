@@ -72,4 +72,4 @@ Diolch am ddefnyddio Organic Maps a chefnogi'r prosiect!
 
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

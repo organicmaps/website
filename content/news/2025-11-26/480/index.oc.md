@@ -56,4 +56,4 @@ Organic Maps seriá pas possible sens vòstres [dons](@/donate/index.oc.md), [co
 Amb atencion e amor,
 L'equipa d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

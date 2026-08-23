@@ -56,4 +56,4 @@ Ni fyddai Organic Maps yn bosibl heb dy [roddion](@/donate/index.cy.md), [cyfran
 Gyda gofal a chariad,
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

@@ -26,4 +26,4 @@ I a diferéntei manieras d’ajudar au desvelopament:
 
 Tei comentaris e ajuda fan un gròs plaser a nòstra chormeta. Organic Maps seriá pas possible sensa nòstreis utilisators ❤️.
 
-{{ references() }}
+{{ <references lang /> }}

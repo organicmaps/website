@@ -44,4 +44,4 @@ iOS muudatused, kõik tunnustused _Kiryl Kaveryn_'ile:
 
 P.S. Kui sulle meeldib lugeda üksikasjalikke väljalaskemärkusi, palun anna meile teada meie [sotsiaalvõrgustikes](/et/#kogukond)
 
-{{ references() }}
+{{ <references lang /> }}

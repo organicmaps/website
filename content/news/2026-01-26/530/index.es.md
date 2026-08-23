@@ -49,4 +49,4 @@ Instálala desde [get.omaps.org](https://get.omaps.org) o desde [App Store][apps
 Con amor,
 El equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

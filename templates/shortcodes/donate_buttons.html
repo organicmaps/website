@@ -1,3 +1,4 @@
+{% component donate_buttons(lang) -%}
 {% if lang == 'en' %}
 {% set stripe = 'https://donate.organicmaps.app' %}
 {% else %}
@@ -28,6 +29,7 @@
   <a href="{{ stripe }}" title="MB Way/Multibanko"><img id="multibanco" src="/images/donates/multibanco.svg" alt="MB Way/Multibanko"></a>
   <a href="/donate#crypto" title="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bitcoin.svg" alt="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"></a>
 </div>
+
 <script>
   // Check if Apple Pay JS API is available.
   // https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability
@@ -74,3 +76,4 @@
     if (applePayLink) applePayLink.remove();
   }
 </script>
+{%- endcomponent donate_buttons %}

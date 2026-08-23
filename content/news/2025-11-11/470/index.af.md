@@ -71,4 +71,4 @@ Dankie dat jy Organic Maps gebruik en die projek ondersteun!
 
 Die Organic Maps-span
 
-{{ references() }}
+{{ <references lang /> }}

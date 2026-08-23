@@ -49,4 +49,4 @@ taxonomies:
 مع الحب،
 فريق Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

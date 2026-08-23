@@ -88,4 +88,4 @@ Esame dėkingi visiems naudotojams ir bendradarbiams, tiems, kurie [aukoja](@/do
 Su meile,
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

@@ -79,4 +79,4 @@ extra:
 קיץ שמח!
 צוות Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

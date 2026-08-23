@@ -53,4 +53,4 @@ Jede [Spende](@/donate/index.de.md) und jeder [Beitrag](@/contribute/index.de.md
 Wie immer, mit Liebe und Sorgfalt ❤️
 Das Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

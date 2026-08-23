@@ -81,4 +81,4 @@ Obtenha a versão mais recente do Organic Maps na [App Store][appstore], [Google
 
 Participe dos testes beta para recursos antecipados: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

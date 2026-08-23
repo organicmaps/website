@@ -56,4 +56,4 @@ Haal de nieuwste Organic Maps-versie op uit de [App Store][appstore], [Google Pl
 
 P.S. Doe mee met bètatesten voor vroege toegang tot nieuwe functies: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -52,4 +52,4 @@ slug: "organic-maps-2025-niandu-huigu"
 
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

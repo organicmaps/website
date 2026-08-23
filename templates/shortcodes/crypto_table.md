@@ -1,3 +1,4 @@
+{% component crypto_table(lang, config) -%}
 <p id="crypto-table">
 
 <div id="notif" style="z-index: 1000; border-radius: 25px; padding: 5px; padding-left: 10px; padding-right: 10px; overflow-wrap: break-word; box-shadow: 0 3px 10px 0 #00000030; visibility: hidden; background-color: #FFF; color: #449f33; position: fixed; transform: translateX(-50%); left: 50%; top: 10%; animation: fadein 0.5s, fadeout 0.5s 1s;">Copied to clipboard</div>
@@ -45,3 +46,4 @@ Polkadot      | DOT  | [{{ config.extra.dot }}](polkadot:{{ config.extra.dot }})
 </script>
 
 </p>
+{%- endcomponent crypto_table %}

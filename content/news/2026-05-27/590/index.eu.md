@@ -62,4 +62,4 @@ Bidaiatu erraz, eta aurkitu zure abenturak Organic Maps-rekin! ✈️🚅🚌�
 
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

@@ -88,4 +88,4 @@ Tüm kullanıcılarımıza ve katkıda bulunanlara, [bağış yapanlara](@/donat
 Sevgilerle,
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

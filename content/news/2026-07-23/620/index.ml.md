@@ -79,4 +79,4 @@ extra:
 സന്തോഷകരമായ വേനൽക്കാലം!
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

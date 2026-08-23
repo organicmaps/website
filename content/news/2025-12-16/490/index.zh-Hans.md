@@ -44,4 +44,4 @@ Organic Maps 的存在归功于你的 [捐赠](@/donate/index.zh-Hans.md) 和 [�
 
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

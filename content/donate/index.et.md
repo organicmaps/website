@@ -17,7 +17,7 @@ Organic Maps on _tasuta kõigi jaoks_ tänu sinu **[rahalisele toetusele][stripe
 
 Palun vali alljärgnevast sobilik makseviis:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Miks peaksid Organic Mapsile annetama?
 
@@ -47,22 +47,22 @@ Palun vali alljärgnevast sobilik makseviis:
 
 Palun vali alljärgnevast sobilik makseviis:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Korduvad annetused on parim viis projekti jaoks püsiva rahavoo tagamiseks ning meie motiveerimiseks pikaajaliste eesmärkide täitmise nimel. Ka ühekordsed annetused on suurepärased.
 
 ### Pangaülekanne
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Krüptoraha
 
 Teenustasude vähendamiseks tee võimaluse korral krüptorahas annetusi korda aastas.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Kas saan ka mõnel muul viisil aidata?
 
 Justnimelt! Organic Mapsi aitamiseks on palju muid viise. Lisateavet leiad [Kaastöö](@/contribute/index.et.md) lehelt.
 
-{{ references() }}
+{{ <references lang /> }}

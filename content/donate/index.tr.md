@@ -17,7 +17,7 @@ Organic Maps, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]*
 
 Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Neden Organic Maps'e bağış yapmalıyım?
 
@@ -47,22 +47,22 @@ Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
 
 Aşağıda tercih ettiğin ödeme yönteminin simgesine tıkla:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Yinelenen bağışlar, nispeten istikrarlı bir gelir sağlamak için en iyi yoldur ve bizi uzun vadeli görevler ve hedefler için motive eder. Ancak tek seferlik bağış da yapabilirsin.
 
 ### Banka Havalesi
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kripto
 
 Lütfen toplam ücretleri azaltmak için yıllık bağış yapmayı düşün.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Bize başka bir şekilde yardım edebilir misin?
 
 Evet! Organic Maps'i desteklemenin birçok yolu var. Daha fazla detay için lütfen [Bizi Destekle](@/contribute/index.tr.md) sayfasına bak.
 
-{{ references() }}
+{{ <references lang /> }}

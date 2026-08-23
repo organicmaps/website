@@ -81,4 +81,4 @@ Eskuratu Organic Maps-en azken bertsioa [App Store][appstore], [Google Play][goo
 
 Batu beta probetara ezaugarriak lehenago probatzeko: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

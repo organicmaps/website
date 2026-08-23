@@ -56,4 +56,4 @@ Organic Maps आपके [दान](@/donate/index.hi.md), [योगदान
 देखभाल और प्यार के साथ,
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

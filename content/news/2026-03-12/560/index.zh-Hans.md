@@ -53,4 +53,4 @@ taxonomies:
 一如既往，满怀爱与关怀 ❤️
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

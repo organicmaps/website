@@ -56,4 +56,4 @@ Telecarga la darrièra version d’Organic Maps: [App Store][appstore], [Google 
 
 Rejonh la beta: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

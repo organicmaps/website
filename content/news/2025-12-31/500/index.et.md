@@ -51,4 +51,4 @@ Head uut aastat 2026! 🎄🎁🎉
 
 Organic Mapsi meeskond
 
-{{ references() }}
+{{ <references lang /> }}

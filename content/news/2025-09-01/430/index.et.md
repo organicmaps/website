@@ -52,4 +52,4 @@ Kui sa pole seda veel proovinud, saad nüüd Organic Maps-i seadetes lubada funk
 
 P.S. Ära unusta, saad registreeruda meie beetatestimise programmi, et saada varajast ligipääsu eksperimentaalsetele ja tulemas olevatele funktsioonidele—[iOS-ile][testflight] ja [Androidile][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

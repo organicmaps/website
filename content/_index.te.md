@@ -15,15 +15,15 @@ title: "Organic Maps: ఆఫ్‌లైన్ హైక్, బైక్, ట�
 
 ### [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] నుండి Organic Maps ను డౌన్‌లోడ్ చేసి ఇన్‌స్టాల్ చేయండి. {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='హైకింగ్', loading='eager', fetchpriority='high') }}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='హైకింగ్' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='ప్రేగ్ పట్నం') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='ప్రేగ్ పట్నం' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='ఆఫ్‌లైన్ సెర్చ్') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='ఆఫ్‌లైన్ సెర్చ్' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='డార్క్ మోడ్‌లో నావిగేషన్') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='డార్క్ మోడ్‌లో నావిగేషన్' /> }}
 
 ## ఫీచర్స్
 
@@ -63,15 +63,15 @@ Organic Maps యాప్ ట్రాకర్‌లు మరియు ఇత�
 
 ఈ అప్లికేషన్ [ఎక్సోడస్ ప్రైవసీ ప్రాజెక్ట్][exodus] ద్వారా ధృవీకరించబడింది.
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 iOS అనువర్తనం [TrackerControl for iOS][trackercontrol] ద్వారా ధృవీకరించబడింది.
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అనవసరమైన అనుమతులు అడగదు
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 ఈ Organic Maps లో , మేము మీ గోప్యతను ప్రాధమిక హక్కుగా భావిస్తాము .
 
@@ -89,14 +89,14 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
 
 సులభంగా విరాళం ఇచ్చేందుకు, మీకు నచ్చిన చెల్లింపు విధానం యొక్క ఐకాన్ పై నొక్కండి:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 దిగువన ఉన్న సంస్థాగత స్పాన్సర్‌లు కొన్ని మౌలిక సదుపాయాల ఖర్చులను కవర్ చేయడానికి మరియు ఎంచుకున్న కొత్త ఫీచర్‌ల అభివృద్ధికి నిధులు సమకూర్చడానికి లక్ష్య గ్రాంట్‌లను అందించారు:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">శోధన మరియు మూలాల మెరుగుదల ప్రాజెక్ట్</a> NGI0 ఎంట్రస్ట్ ఫండ్ <a href="https://nlnet.nl/project/OrganicMaps/">ద్వారా</a> నిధులు సమకూర్చబడింది. <a href="https://nlnet.nl/entrust/">NGI0 ఎంట్రస్ట్ ఫండ్</a> <a href="https://nlnet.nl/">NLnet ఫౌండేషన్</a> ద్వారా స్థాపించబడింది, ఇది యూరోపియన్ కమిషన్ యొక్క <a href="https://www.ngi.eu/">నెక్స్ట్ జనరేషన్ ఇంటర్నెట్</a> ప్రోగ్రామ్ నుండి ఆర్థిక సహాయంతో, గ్రాంట్ ఒప్పందం నం 101069594 కింద DG కమ్యూనికేషన్స్ నెట్‌వర్క్స్, కంటెంట్ మరియు టెక్నాలజీ ఆధ్వర్యంలో ఉంది.
@@ -104,7 +104,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> ప్రోగ్రామ్‌ల సమయంలో Google సమ్మర్ ఆఫ్ కోడ్ ప్రోగ్రామ్‌లో విద్యార్థి ప్రాజెక్ట్‌లకు మద్దతు ఇచ్చింది. ఆండ్రాయిడ్ ఆటో, వికీపీడియా డంప్ ఎక్స్‌ట్రాక్టర్, ఆండ్రాయిడ్ ట్రాక్ రికార్డింగ్ వంటి ముఖ్యమైన ప్రాజెక్ట్‌లు ఉన్నాయి.
@@ -112,7 +112,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       ISP <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> మ్యాప్ డౌన్‌లోడ్‌లు మరియు అప్‌డేట్‌లను హోస్ట్ చేయడానికి మరియు అందించడానికి 400 TB/నెల వరకు ఉచిత బ్యాండ్‌విడ్త్‌తో రెండు వర్చువల్ సర్వర్‌లను మాకు <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">అందిస్తుంది</a>.
@@ -120,7 +120,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> వియత్నాం మరియు ఆగ్నేయాసియాలో మ్యాప్‌లను అందించడానికి సంవత్సరానికి సుమారు $12,000 విలువైన ఉచిత డెడికేటెడ్ సర్వర్‌ను మాకు <a href="https://44plus.vn/organicmaps">అందిస్తుంది</a>.
@@ -128,7 +128,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> ఫిబ్రవరి 2023లో Organic Maps కు <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">$1000 మైక్రో-గ్రాంట్‌ను మంజూరు చేసింది</a>.
@@ -154,4 +154,4 @@ Organic Maps, అపాచీ లైసెన్స్ 2.0 గల ఒక [స్
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 
-{{ references() }}
+{{ <references lang /> }}

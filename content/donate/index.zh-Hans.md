@@ -17,7 +17,7 @@ Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
 
 请点击下方你喜欢的支付方式图标：
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## 为什么要捐赠给 Organic Maps？
 
@@ -51,22 +51,22 @@ Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[�
 
 请点击下方你喜欢的支付方式图标：
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 定期捐赠是确保项目有相对稳定收入并激励我们长期任务和目标的最佳方式。一次性捐赠也非常感谢。
 
 ### 银行转账
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### 加密货币
 
 请考虑每年捐赠以减少总费用。
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## 还有其他方式可以帮助我们吗？
 
 有！支持 Organic Maps 的方式有很多。详情请参见 [贡献](@/contribute/index.zh-Hans.md) 页面。
 
-{{ references() }}
+{{ <references lang /> }}

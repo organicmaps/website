@@ -49,4 +49,4 @@ Prisijunkite prie beta testavimo, kad išbandytumėte ankstyvąsias funkcijas ir
 Su meile,
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

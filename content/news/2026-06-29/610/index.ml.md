@@ -88,4 +88,4 @@ Organic Maps-ന്റെ ജൂൺ അപ്‌ഡേറ്റിൽ പരീ�
 സ്നേഹത്തോടെ,
 Organic Maps ടീം
 
-{{ references() }}
+{{ <references lang /> }}

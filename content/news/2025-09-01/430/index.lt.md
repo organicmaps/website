@@ -52,4 +52,4 @@ Jei dar nebandėte, dabar galite įjungti funkciją Organic Maps nustatymuose, k
 
 P.S. Nepamirškite, galite registruotis mūsų beta testavimo programoje, kad gautumėte ankstyvą prieigą prie eksperimentinių ir būsimų funkcijų—[iOS][testflight] ir [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

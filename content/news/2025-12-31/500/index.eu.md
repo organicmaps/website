@@ -52,4 +52,4 @@ Urte Berri On 2026! 🎄🎁🎉
 
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

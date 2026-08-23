@@ -56,4 +56,4 @@ Organic Maps skulle inte vara möjligt utan era [donationer](@/donate/index.sv.m
 Med omsorg och kärlek,
 Organic Maps-teamet
 
-{{ references() }}
+{{ <references lang /> }}

@@ -66,4 +66,4 @@ Każda [darowizna](@/donate/index.pl.md) i [wkład](@/contribute/index.pl.md) po
 Z troską i miłością,
 Zespół Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

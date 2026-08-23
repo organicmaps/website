@@ -56,4 +56,4 @@ Organic Maps no seria possible sense les teves [donacions](@/donate/index.ca.md)
 Amb cura i amor,
 L'equip d'Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

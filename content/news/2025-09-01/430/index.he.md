@@ -52,4 +52,4 @@ taxonomies:
 
 נ.ב. אל תשכחו, אתם יכולים להירשם לתוכנית הבטא שלנו כדי לקבל גישה מוקדמת לתכונות ניסיוניות ועתידיות [ל-iOS][testflight] ו-[ל-Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

@@ -65,4 +65,4 @@ Organic Maps 的实现要感谢 ❤️ 我们的贡献者、[你的捐款](@/don
 向我们的用户和社区致以爱意
 Organic Maps 团队
 
-{{ references() }}
+{{ <references lang /> }}

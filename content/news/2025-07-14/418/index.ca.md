@@ -44,4 +44,4 @@ Canvis d'iOS, tots els mèrits per _Kiryl Kaveryn_:
 
 P.D. Si t'agrada llegir notes de llançament detallades, si us plau fes-nos-ho saber a les nostres [xarxes socials](/ca/#comunitat)
 
-{{ references() }}
+{{ <references lang /> }}

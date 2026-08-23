@@ -17,7 +17,7 @@ Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]**
 
 Klikněte na ikonu preferovaného způsobu platby níže:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Proč darovat Organic Maps?
 
@@ -47,22 +47,22 @@ Klikněte na ikonu preferovaného způsobu platby níže:
 
 Klikněte na ikonu preferovaného způsobu platby níže:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Opakované dary jsou nejlepším způsobem, jak zajistit relativně stabilní příjem projektu a motivovat nás k dlouhodobým úkolům a cílům. Můžete však přispět i jednorázově.
 
 ### Bankovním převodem
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kryptoměna
 
 Zvažte prosím možnost ročního příspěvku, abyste snížili celkové poplatky.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Můžete nám pomoci i jinak?
 
 Ano! Existuje mnoho způsobů, jak podpořit Organic Maps. Více informací naleznete na stránce [Podpořte nás](@/contribute/index.cs.md).
 
-{{ references() }}
+{{ <references lang /> }}

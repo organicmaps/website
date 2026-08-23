@@ -56,4 +56,4 @@ En son Organic Maps sürümünü şuradan edin: [App Store][appstore], [Google P
 
 Betaya katıl: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

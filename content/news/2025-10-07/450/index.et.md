@@ -81,4 +81,4 @@ Hangi uusim Organic Mapsi versioon: [App Store][appstore], [Google Play][googlep
 
 Liitu beetatestimisega, et saada uusi funktsioone varem: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

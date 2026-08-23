@@ -52,4 +52,4 @@ As jy dit nog nie probeer het nie, kan jy nou 'n funksie in Organic Maps instell
 
 P.S. Moenie vergeet nie, jy kan aanmeld vir ons beta toets program om vroeë toegang tot eksperimentele en komende funksies te kry—[vir iOS][testflight] en [vir Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

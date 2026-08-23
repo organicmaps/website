@@ -44,4 +44,4 @@ Cambiaments iOS, totes los merits a _Kiryl Kaveryn_:
 
 P.S. Se t'agrada legir de nòtas de version detalhadas, fai-nos-o saber sus nòstras [rets socialas](/#community)
 
-{{ references() }}
+{{ <references lang /> }}

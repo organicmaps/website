@@ -51,4 +51,4 @@ Laimingų Naujųjų 2026 metų! 🎄🎁🎉
 
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

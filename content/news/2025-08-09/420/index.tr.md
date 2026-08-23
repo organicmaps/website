@@ -59,4 +59,4 @@ P.S. …ve çok daha fazlası geliyor! Desteğin en iyi haritaları oluşturmam�
 
 Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [FDroid][fdroid]'den edin.
 
-{{ references() }}
+{{ <references lang /> }}

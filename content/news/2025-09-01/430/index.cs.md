@@ -52,4 +52,4 @@ Pokud jste to ještě nezkusili, nyní můžete povolit funkci v nastavení Orga
 
 P.S. Nezapomeňte, můžete se zaregistrovat do našeho beta testovacího programu pro získání včasného přístupu k experimentálním a nadcházejícím funkcím—[pro iOS][testflight] a [pro Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

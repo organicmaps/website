@@ -56,4 +56,4 @@ Organic Maps poleks võimalik ilma sinu [annetuste](@/donate/index.et.md), [panu
 Hoolimise ja armastusega,
 Organic Mapsi meeskond
 
-{{ references() }}
+{{ <references lang /> }}

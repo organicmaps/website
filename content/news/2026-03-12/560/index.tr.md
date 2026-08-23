@@ -53,4 +53,4 @@ Her [bağış](@/donate/index.tr.md) ve [katkı](@/contribute/index.tr.md), Appl
 Her zaman olduğu gibi, sevgi ve ilgiyle ❤️
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

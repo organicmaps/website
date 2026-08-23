@@ -50,4 +50,4 @@ Organic Maps మీ [విరాళాలు](@/donate/index.te.md) మరి�
 
 Organic Maps బృందం
 
-{{ references() }}
+{{ <references lang /> }}

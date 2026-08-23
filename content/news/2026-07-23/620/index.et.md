@@ -79,4 +79,4 @@ Vihje: beetaversioonis on uus reljeefivarjutus, täiustatud kõrgusandmed, mis t
 Ilusat suve!
 Organic Maps meeskond
 
-{{ references() }}
+{{ <references lang /> }}

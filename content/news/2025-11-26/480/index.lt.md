@@ -56,4 +56,4 @@ Organic Maps nebūtų įmanomas be jūsų [aukų](@/donate/index.lt.md), [indėl
 Su rūpesčiu ir meile,
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

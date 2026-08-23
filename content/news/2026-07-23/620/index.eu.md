@@ -79,4 +79,4 @@ Aholkua: beta bertsioak erliebe-itzaldura berria du, oinetarako eta metroetarako
 Uda on!
 Organic Maps Taldea
 
-{{ references() }}
+{{ <references lang /> }}

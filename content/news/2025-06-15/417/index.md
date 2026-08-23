@@ -57,4 +57,4 @@ Desktop:
 
 Thanks everyone for [donations](@/donate/index.md) and [support](@/contribute/index.md), [bug reports][github issues] and [improvements][github], spreading the word and making maps better together!
 
-{{ references() }}
+{{ <references lang /> }}

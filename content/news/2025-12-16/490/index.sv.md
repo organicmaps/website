@@ -44,4 +44,4 @@ Organic Maps finns tack vare dina [donationer](@/donate/index.sv.md) och [bidrag
 
 Organic Maps-teamet
 
-{{ references() }}
+{{ <references lang /> }}

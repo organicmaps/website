@@ -53,4 +53,4 @@ Każda [darowizna](@/donate/index.pl.md) i [wkład](@/contribute/index.pl.md) po
 Jak zawsze, z miłością i troską ❤️
 Zespół Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

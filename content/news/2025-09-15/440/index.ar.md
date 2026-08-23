@@ -56,4 +56,4 @@ taxonomies:
 
 انضم للاختبار التجريبي: [iOS][testflight] / [Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

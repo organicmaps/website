@@ -52,4 +52,4 @@ Gelukkig Nieuwjaar 2026! 🎄🎁🎉
 
 Het Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

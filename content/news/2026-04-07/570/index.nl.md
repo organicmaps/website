@@ -87,4 +87,4 @@ Doe mee aan bètatests om vroege functies te proberen en problemen te melden:
 Met liefde en zorg ❤️
 Het Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

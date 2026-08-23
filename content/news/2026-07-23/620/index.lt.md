@@ -79,4 +79,4 @@ Patarimas: beta versijoje yra naujas reljefo šešėliavimas, patobulinti aukš�
 Linksmos vasaros!
 Organic Maps komanda
 
-{{ references() }}
+{{ <references lang /> }}

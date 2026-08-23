@@ -17,7 +17,7 @@ Organic Maps aplikazioa _doakoa da guztiontzat_ zure **[emaitzak][stripe]** **[E
 
 Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 ## Zergatik eman Organic Maps-i?
 
@@ -51,22 +51,22 @@ Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
 
 Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Emaitza errepikakorrak dira proiektuaren diru-sarrera egonkorra bermatzeko eta epe luzeko zeregin eta helburuetarako motibazioa emateko modurik onena. Behin-behineko emaitzak ere eskertzen dira.
 
 ### Banku transferentzia
 
-{{ bank_transfer() }}
+{{ <bank_transfer /> }}
 
 ### Kriptomoneta
 
 Mesedez, kontuan hartu urtero ematea, guztizko tasak murrizteko.
 
-{{ crypto_table() }}
+{{ <crypto_table lang config /> }}
 
 ## Beste modu batean lagundu dezakezu?
 
 Bai! Organic Maps laguntzeko hainbat modu daude. Ikusi [Lagundu](@/contribute/index.eu.md) orria xehetasun gehiagorako.
 
-{{ references() }}
+{{ <references lang /> }}

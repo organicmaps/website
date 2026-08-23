@@ -79,4 +79,4 @@ Hint: the beta version has new hillshading, improved elevation data with support
 Happy summer!
 Organic Maps Team
 
-{{ references() }}
+{{ <references lang /> }}

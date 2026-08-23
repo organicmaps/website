@@ -49,4 +49,4 @@ Apple आणि Google Maps साठी चांगला, गोपनीय�
 प्रेमाने,
 Organic Maps टीम
 
-{{ references() }}
+{{ <references lang /> }}

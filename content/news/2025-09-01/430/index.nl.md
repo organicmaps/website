@@ -52,4 +52,4 @@ Als je het nog niet hebt geprobeerd, kun je nu een functie inschakelen in de Org
 
 P.S. Vergeet niet, je kunt je aanmelden voor ons bèta-testprogramma om vroege toegang te krijgen tot experimentele en aankomende functies—[voor iOS][testflight] en [voor Android][firebase].
 
-{{ references() }}
+{{ <references lang /> }}

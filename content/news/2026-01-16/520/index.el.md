@@ -50,4 +50,4 @@ taxonomies:
 
 Η ομάδα Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

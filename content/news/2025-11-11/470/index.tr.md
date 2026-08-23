@@ -72,4 +72,4 @@ Organic Maps'i kullandığın ve projeyi desteklediğin için teşekkür ederiz!
 
 Organic Maps Ekibi
 
-{{ references() }}
+{{ <references lang /> }}

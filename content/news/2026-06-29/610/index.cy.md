@@ -88,4 +88,4 @@ Rydym yn ddiolchgar i'n holl ddefnyddwyr a chyfranwyr, i'r rhai sy'n [rhoi](@/do
 Gyda chariad,
 Tîm Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

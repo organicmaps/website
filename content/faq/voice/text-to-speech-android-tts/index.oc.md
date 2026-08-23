@@ -42,7 +42,7 @@ Aquestas opcions poirián pas aparéisser s'as pas ja un TTS installat sus ton a
 
 Çaijós trobaràs una lista completa que mòstra plusors motors e las lengas que supòrtan (los ligams de telecargament se tròban après la taula):
 
-{{ tts_table() }}
+{{ <tts_table lang /> }}
 
 ## Solucions de contornament
 

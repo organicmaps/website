@@ -15,17 +15,16 @@ title: "Organic Maps: Офлайн карти та GPS навігація"
 
 ### Завантажте та встановіть Organic Maps з [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 
-{{ badges() }}
+{{ <badges lang /> }}
 
-{{ screenshot(src='/images/screenshots/hiking.jpg', alt='Піші прогулянки', loading='eager', fetchpriority='high')
-}}
+{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Піші прогулянки' loading='eager' fetchpriority='high' /> }}
 
-{{ screenshot(src='/images/screenshots/prague.jpg', alt='Прага') }}
+{{ <screenshot src='/images/screenshots/prague.jpg' alt='Прага' /> }}
 
-{{ screenshot(src='/images/screenshots/search.jpg', alt='Офлайн пошук') }}
+{{ <screenshot src='/images/screenshots/search.jpg' alt='Офлайн пошук' /> }}
 
-{{ screenshot(src='/images/screenshots/dark.jpg', alt='Навігація в нічному
-режимі') }}
+{{ <screenshot src='/images/screenshots/dark.jpg' alt='Навігація в нічному
+режимі' /> }}
 
 ## Особливості
 
@@ -65,15 +64,15 @@ Organic Maps не містить відстеження та інших пога
 
 Застосунок перевірений [Exodus Privacy Project][exodus]:
 
-{{ exodus_screenshot() }}
+{{ <exodus_screenshot /> }}
 
 Застосунок для iOS перевірено за допомогою [TrackerControl for iOS][trackercontrol]:
 
-{{ trackercontrol_screenshot() }}
+{{ <trackercontrol_screenshot /> }}
 
 Organic Maps не запитує надмірних дозволів, щоб шпигувати за вами:
 
-{{ privacy_screenshots() }}
+{{ <privacy_screenshots /> }}
 
 В Organic Maps ми віримо, що конфіденційність є фундаментальним правом людини:
 
@@ -91,14 +90,14 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
 
 Щоб зробити пожертву відразу, натисніть на іконку бажаного способу оплати нижче:
 
-{{ donate_buttons() }}
+{{ <donate_buttons lang /> }}
 
 Наведені нижче шановні інституційні спонсори надали цільові гранти для покриття деяких витрат на інфраструктуру та фінансування розробки нових обраних функцій:
 
 <table style="border-spacing: 20px">
   <tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="{{ base_url() }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://nlnet.nl/"><img src="{{ <base_url config /> }}/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://github.com/organicmaps/organicmaps/milestone/7">Проєкт покращення пошуку та джерел</a> був <a href="https://nlnet.nl/project/OrganicMaps/">профінансований</a> через фонд NGI0 Entrust. <a href="https://nlnet.nl/entrust/">Фонд NGI0 Entrust</a> заснований <a href="https://nlnet.nl/">фондом NLnet</a> за фінансової підтримки програми Європейської комісії <a href="https://www.ngi.eu/">Next Generation Internet</a> під егідою Генерального директорату з комунікаційних мереж, контенту та технологій згідно з грантовою угодою № 101069594.
@@ -106,7 +105,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="{{ base_url() }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://summerofcode.withgoogle.com/"><img src="{{ <base_url config /> }}/sponsors/gsoc.svg" alt="Google Summer of Code" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://summerofcode.withgoogle.com/">Google</a> підтримав студентські проєкти в програмі Google Summer of Code протягом <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a>, <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a>, <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/organic-maps">2024</a>, <a href="https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps">2025</a> років. Серед визначних проєктів: Android Auto, екстрактор дампів Вікіпедії, запис треків для Android.
@@ -114,7 +113,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="{{ base_url() }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://www.mythic-beasts.com/"><img src="{{ <base_url config /> }}/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       Інтернет-провайдер <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">надає</a> нам два віртуальні сервери з безкоштовною пропускною здатністю до 400 ТБ/місяць для розміщення та обслуговування завантажень карт і оновлень.
@@ -122,7 +121,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="{{ base_url() }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://44plus.vn"><img src="{{ <base_url config /> }}/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">надає</a> нам безкоштовний виділений сервер вартістю близько $12 000 на рік для обслуговування карт у В’єтнамі та Південно-Східній Азії.
@@ -130,7 +129,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="{{ base_url() }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
+      <a href="https://futo.org"><img src="{{ <base_url config /> }}/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
       <a href="https://futo.org">FUTO</a> <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">надав мікрогрант у розмірі $1000</a> для Organic Maps у лютому 2023 року.
@@ -156,4 +155,4 @@ Organic Maps - це [ПЗ з відкритим початковим кодом]
 
 [fork]: https://uk.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA
 
-{{ references() }}
+{{ <references lang /> }}

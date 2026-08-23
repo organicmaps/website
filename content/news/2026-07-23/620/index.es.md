@@ -79,4 +79,4 @@ Consejo: ¡la versión beta incluye un nuevo sombreado de relieve, datos de alti
 ¡Feliz verano!
 El equipo de Organic Maps
 
-{{ references() }}
+{{ <references lang /> }}

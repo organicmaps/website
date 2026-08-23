@@ -1,7 +1,5 @@
 /support-us /contribute/ 301
 /support-us/ /contribute/ 301
-/:code/support-us /:code/contribute/ 301
-/:code/support-us/ /:code/contribute/ 301
 
 # Transliterated FAQ taxonomy URLs (pre-Jan-2026 slugify, non-Latin scripts)
 # After switching to localized Unicode URLs, these old ASCII forms need redirects.
@@ -65,3 +63,9 @@
 /tr/faq/yer-imleri-ve-kayitlar/ /tr/faq/yer-imleri-ve-kayıtlar/ 301
 /tr/faq/sesli-yonlendirme/     /tr/faq/sesli-yönlendirme/     301
 /tr/faq/harita-duzenleme/      /tr/faq/harita-düzenleme/      301
+
+# Placeholder rule kept last: Cloudflare Pages can only hashmap-match static
+# rules that appear above every splat/placeholder rule in the file, so this
+# stays below everything else on purpose.
+/:code/support-us /:code/contribute/ 301
+/:code/support-us/ /:code/contribute/ 301

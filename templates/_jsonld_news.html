@@ -2,7 +2,7 @@
    Required by Google for Top Stories / Discover eligibility. #}
 {%- if has_article_image -%}
 {%- set preview_image_url = preview_image -%}
-{%- if preview_image_url and not (preview_image_url is starting_with("http")) -%}
+{%- if preview_image_url and not (preview_image_url is starting_with(pat="http")) -%}
 {%- set preview_image_url = get_url(path=preview_image_url) -%}
 {%- endif -%}
 {%- endif -%}
@@ -11,11 +11,11 @@
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": {{ page.title | json_encode | safe }},
-  "datePublished": {{ page.date | date(format="%+") | json_encode | safe }},
+  "datePublished": {{ page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") | json_encode | safe }},
   {%- if page.updated %}
-  "dateModified": {{ page.updated | date(format="%+") | json_encode | safe }},
+  "dateModified": {{ page.updated | date(format="%Y-%m-%dT%H:%M:%S%:z") | json_encode | safe }},
   {%- else %}
-  "dateModified": {{ page.date | date(format="%+") | json_encode | safe }},
+  "dateModified": {{ page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") | json_encode | safe }},
   {%- endif %}
   {%- if has_article_image %}
   "image": [{{ preview_image_url | json_encode | safe }}],

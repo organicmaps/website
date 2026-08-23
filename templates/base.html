@@ -80,7 +80,7 @@
   {%- elif resource.description -%}
   {% set description = resource.description %}
   {% elif resource.content -%}
-  {% set description = resource.content | trim | striptags | linebreaksbr | safe | replace(from="<br>", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | truncate(length=160) %}
+  {% set description = resource.content | trim | striptags | newlines_to_br | safe | replace(from="<br>", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | replace(from="  ", to=" ") | truncate(length=160) %}
   {% endif -%}
   {%- if description -%}
   <meta name="description" content="{{ description }}">
@@ -125,7 +125,7 @@
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
   {%- set basename = resource.assets[0] | split(pat='/') | last %}
-  {%- if basename is ending_with('.jpg') or basename is ending_with('.jpeg') or basename is ending_with('.png') or basename is ending_with('.webp') %}
+  {%- if basename is ending_with(pat='.jpg') or basename is ending_with(pat='.jpeg') or basename is ending_with(pat='.png') or basename is ending_with(pat='.webp') %}
   {%- set preview_image = resource_path ~ basename -%}
   {%- set has_article_image = true -%}
   {%- endif %}

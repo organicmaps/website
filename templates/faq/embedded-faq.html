@@ -183,7 +183,7 @@
         <a lang="en" href="#{{ faq_slug }}">{{ faq_page_en.title }}</a>
         {#- Add translated pages -#}
         {% for lang in faq_languages -%}
-        {% set translated_faq_page = faq_page_en.translations | filter(attribute="lang", value=lang) | first -%}
+        {% set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first -%}
         {% if not translated_faq_page -%}
         {{ throw(message="Page 'faq/" ~ faq_slug ~ "/index.md' is not translated into '" ~ lang ~ "'") -}}
         {%- endif %}
@@ -210,7 +210,7 @@
       <h3 lang="en">{{ faq_page_en.title }}</h3>
       {#- Add translations -#}
       {% for lang in faq_languages -%}
-      {%- set translated_faq_page = faq_page_en.translations | filter(attribute="lang", value=lang) | first %}
+      {%- set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first %}
       <h3 lang="{{ lang | replace(from="-Hans", to="") | replace(from="-IR", to="") }}">{{ translated_faq_page.title }}</h3>
       {%- endfor %}
     </dt>
@@ -220,7 +220,7 @@
     </dd>
     {# Add translations -#}
     {% for lang in faq_languages -%}
-    {% set translated_faq_page = faq_page_en.translations | filter(attribute="lang", value=lang) | first -%}
+    {% set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first -%}
     {% set translated_faq_page = get_page(path=translated_faq_page.path) -%}
     <dd lang="{{ lang | replace(from="-Hans", to="") | replace(from="-IR", to="") }}">
       {{ translated_faq_page.content | safe }}

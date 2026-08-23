@@ -61,10 +61,10 @@
             <tr class="faq_page">
                 <td>
                     <a href="{{ faq_page.permalink }}" target="_blank">{{ faq_page.title }}</a>
-                    <span class="updated-label" title="Updated date">Update: <span class="updated-date">{{ faq_page.updated | default(value="[Unknown]") }}</span></span>
+                    <span class="updated-label" title="Updated date">Update: <span class="updated-date">{{ faq_page.updated | default(value="[Unknown]", boolean=true) }}</span></span>
                 </td>
                 {% for lang in faq_languages %}
-                    {% set page_trans = faq_page.translations | filter(attribute="lang", value=lang) %}
+                    {% set page_trans = [t for t in faq_page.translations if t.lang == lang] %}
                     {% if page_trans | length == 0 %}
                         <td>&#x274C;</td> <!-- Translation not found -->
                     {% else %}

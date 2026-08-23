@@ -11,7 +11,7 @@
       get_page(path="contribute/index.md"),
       get_section(path="faq/_index.md"),
     ] %}
-    {% set translated = page.translations | filter(attribute='lang', value=lang) | first %}
+    {% set translated = [t for t in page.translations if t.lang == lang] | first %}
     {% if translated %}
       {% if "_index" in translated.path %}
         {% set page = get_section(path=translated.path) %}

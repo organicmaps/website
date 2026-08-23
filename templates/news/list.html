@@ -24,7 +24,7 @@
 {# Display wide images below the text instead of to the right. #}
 {% set_global noflex = '' %}
 {% for photo in page.assets %}
-  {% if photo is not matching("\.mp[34]$") %}
+  {% if photo is not matching(pat="\\.mp[34]$") %}
     {% set meta = get_image_metadata(path=photo) %}
     {# TODO: How to get dimensions of video? #}
     {% if meta.width > meta.height %}
@@ -40,8 +40,8 @@
 
 <span class="news_images">
 {% for media in page.assets | sort %}
-  {% if media is matching("\.mp3$") %}
-  {% elif media is matching("\.mp4$") %}
+  {% if media is matching(pat="\\.mp3$") %}
+  {% elif media is matching(pat="\\.mp4$") %}
     <video class="news_video" controls>
       <source src="{{ page.permalink }}/{{ media | split(pat='/') | last }}" type="video/mp4">
     </video>

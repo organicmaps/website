@@ -13,6 +13,10 @@ The script will:
   1. Read the markdown file and split into chunks of <=4096 chars (at paragraph boundaries).
   2. Send each chunk as a separate message with MarkdownV2 formatting.
   3. If media files are provided, send them as a media group immediately after.
+
+With --rich the post goes out instead as a single Bot API rich message: real
+headings, lists and tables, media inside the post, and a 32768-character limit,
+so nothing is escaped or split.
 """
 
 import argparse
@@ -23,6 +27,7 @@ import re
 import subprocess
 import sys
 import tempfile
+from collections.abc import Sequence
 from pathlib import Path
 
 import requests
@@ -298,24 +303,47 @@ def find_unresolved_references(text: str) -> list[tuple[str, str, int]]:
 # how a literal "<br/>" reached the channels in the 2026-08-31 release post.
 BR_RE = re.compile(r"[ \t]*<br\s*/?>[ \t]*\n?", re.IGNORECASE)
 
+# A fenced block or an inline span. Code is content, not markup: neither the
+# <br> rewrite nor the tag report may touch what is inside one.
+CODE_PATTERN = r"```[\s\S]*?```|`[^`\n]+`"
+CODE_RE = re.compile(CODE_PATTERN)
+
+
+def blank_code(text: str) -> str:
+    """Blank out code, keeping every newline so line numbers still line up."""
+    return CODE_RE.sub(lambda m: re.sub(r"[^\n]", " ", m.group(0)), text)
+
 # Anything tag-shaped that is not an autolink: "<https://…>" has no space or
 # ">" before its colon, so it never matches.
-HTML_TAG_RE = re.compile(r"</?[A-Za-z][A-Za-z0-9-]*(?:\s[^<>]*)?/?>")
+HTML_TAG_RE = re.compile(r"</?(?P<name>[A-Za-z][A-Za-z0-9-]*)(?:\s[^<>]*)?/?>")
+
+# Tags the Rich HTML style parses. A rich message may carry these; anything
+# else is still worth reporting, since unsupported markup is dropped silently.
+RICH_HTML_TAGS = frozenset(
+    """a aside audio b blockquote cite code del details em figcaption figure
+    footer h1 h2 h3 h4 h5 h6 hr i img input ins li mark ol p pre s strike
+    strong sub summary sup table td tg-button tg-button-row tg-collage
+    tg-document tg-emoji tg-map tg-math tg-math-block tg-reference
+    tg-slideshow tg-spoiler tg-thinking tg-time th tr u ul video""".split()
+)
 
 
-def find_raw_html(text: str) -> list[tuple[str, int]]:
-    """Find HTML tags MarkdownV2 cannot render. Returns (tag, line_number).
+def find_raw_html(text: str, rich: bool = False) -> list[tuple[str, int]]:
+    """Find HTML tags Telegram cannot render. Returns (tag, line_number).
 
     Runs on the source markdown, so it reports what an editor wrote rather
-    than what the converter made of it. <br> is excluded: the converter turns
-    it into a line break.
+    than what the converter made of it. Tags inside code are content and are
+    never reported; nor is <br>, which both send paths turn into a line
+    break. In rich mode the tags Telegram's Rich HTML style parses are
+    excluded too.
     """
     found: list[tuple[str, int]] = []
-    for lineno, line in enumerate(text.splitlines(), 1):
-        line = re.sub(r"`[^`]+`", "", line)  # code spans are verbatim
+    for lineno, line in enumerate(blank_code(text).splitlines(), 1):
         for m in HTML_TAG_RE.finditer(line):
-            if not BR_RE.fullmatch(m.group(0)):
-                found.append((m.group(0), lineno))
+            name = m.group("name").lower()
+            if name == "br" or (rich and name in RICH_HTML_TAGS):
+                continue
+            found.append((m.group(0), lineno))
     return found
 
 
@@ -979,6 +1007,45 @@ def extract_thumbnail(video: Path, out: Path, attached_pic_index: int | None) ->
     return False
 
 
+def video_metadata(
+    path: Path,
+    index: int,
+    files: dict[str, tuple[str, bytes, str]],
+    tmp_dir: Path,
+) -> dict:
+    """InputMedia fields that make Telegram render a video correctly.
+
+    Probes width/height/duration and attaches a poster frame, without which
+    Telegram shows a square placeholder instead of the right aspect ratio.
+    Returns {} for anything that is not a probe-able video. A thumbnail, when
+    one could be extracted, is registered in `files` so it uploads in the same
+    multipart request as the video.
+    """
+    if classify_media(path) != "video":
+        return {}
+    if path.suffix.lower() not in VIDEO_METADATA_EXTENSIONS:
+        return {}
+    meta = probe_video(path)
+    if not meta:
+        return {}
+
+    attached_idx = meta.pop("attached_pic_index", None)
+    fields: dict = {**meta, "supports_streaming": True}
+
+    thumb_path = tmp_dir / f"thumb{index}.jpg"
+    if extract_thumbnail(path, thumb_path, attached_idx):
+        thumb_key = f"thumb{index}"
+        files[thumb_key] = (thumb_path.name, thumb_path.read_bytes(), "image/jpeg")
+        fields["thumbnail"] = f"attach://{thumb_key}"
+
+    print(
+        f"  Video {path.name}: {meta['width']}x{meta['height']}, "
+        f"{meta['duration']}s"
+        f"{' (with thumbnail)' if 'thumbnail' in fields else ''}"
+    )
+    return fields
+
+
 def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
     """Send 2–10 photos/videos or a homogeneous audio album.
 
@@ -1013,28 +1080,7 @@ def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
                 mime or "application/octet-stream",
             )
             entry: dict = {"type": kind, "media": f"attach://{attach_key}"}
-
-            if kind == "video" and path.suffix.lower() in VIDEO_METADATA_EXTENSIONS:
-                meta = probe_video(path)
-                if meta:
-                    attached_idx = meta.pop("attached_pic_index", None)
-                    entry.update(meta)
-                    entry["supports_streaming"] = True
-
-                    thumb_path = tmp_dir / f"thumb{i}.jpg"
-                    if extract_thumbnail(path, thumb_path, attached_idx):
-                        thumb_key = f"thumb{i}"
-                        files[thumb_key] = (
-                            thumb_path.name,
-                            thumb_path.read_bytes(),
-                            "image/jpeg",
-                        )
-                        entry["thumbnail"] = f"attach://{thumb_key}"
-                    print(
-                        f"  Video {path.name}: "
-                        f"{meta['width']}x{meta['height']}, {meta['duration']}s"
-                        f"{' (with thumbnail)' if 'thumbnail' in entry else ''}"
-                    )
+            entry.update(video_metadata(path, i, files, tmp_dir))
 
             media_json.append(entry)
 
@@ -1105,6 +1151,182 @@ def send_media(token: str, chat_id: str, media_paths: list[Path]) -> dict:
     return send_media_group(token, chat_id, media_paths)
 
 
+# --- Rich messages (Bot API 10.1+) -----------------------------------------
+#
+# sendRichMessage takes GitHub-Flavored Markdown in one field and renders it
+# natively: headings stay headings, lists stay lists, media sits in the post
+# rather than in a trailing album, and the 4096-character sendMessage limit
+# becomes 32768 — a release post is one message instead of the two or three
+# MarkdownV2 splits it into. Nothing needs escaping, so this path bypasses the
+# convert/escape/split machinery above rather than reusing it.
+
+# Code first, so build_rich_markdown() rewrites only the <br> tags in prose.
+CODE_OR_BR_RE = re.compile(
+    f"(?P<code>{CODE_PATTERN})|(?P<br>{BR_RE.pattern})", re.IGNORECASE
+)
+
+RICH_TEXT_LIMIT = 32768  # "Up to 32768 UTF-8 characters in the rich message text"
+RICH_MEDIA_LIMIT = 50  # "Up to 50 media attachments in total"
+
+# tg:// scheme per media kind, for the "![](tg://photo?id=...)" media blocks.
+RICH_MEDIA_SCHEMES = {"photo": "photo", "video": "video", "audio": "audio"}
+
+# Languages base.html lays out right-to-left; is_rtl does the same for a post.
+RTL_LANGS = frozenset(
+    ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"]
+)
+
+
+def is_rtl_lang(lang: str) -> bool:
+    """Whether a post in this language must be laid out right-to-left."""
+    return lang in RTL_LANGS or lang.split("-")[0] in RTL_LANGS
+
+
+def rich_media_id(path: Path, index: int) -> str:
+    """A tg:// media id for one file: 1-64 chars of A-Z, a-z, 0-9, _ and -.
+
+    The index keeps ids unique — two files can share a stem ("a.jpg", "a.png")
+    — while the cleaned stem keeps the generated markdown readable.
+    """
+    stem = re.sub(r"[^A-Za-z0-9_-]", "-", path.stem)
+    return f"m{index}-{stem}"[:64]
+
+
+def build_rich_markdown(text: str, media_paths: Sequence[Path] = ()) -> str:
+    """Render prepared post markdown as Telegram Rich Markdown.
+
+    Rich Markdown is GFM, so the text passes through almost unchanged. Two
+    things do not survive as they are:
+
+    - <br/>, which Zola renders but Telegram does not list among the tags it
+      parses, becomes a Markdown hard break (two trailing spaces). A bare
+      newline would not do: Rich Markdown joins consecutive lines into one,
+      exactly as CommonMark does. Two spaces degrade to a single space where
+      a passed-through tag would degrade to a visible "<br/>" — the defect
+      this replaces. A <br/> inside code is left alone, as in the MarkdownV2
+      path: a post documenting HTML must survive being published.
+    - Media, which "can be specified only as a separate block", is appended
+      one block per file, in the order the site shows the post's assets.
+    """
+    # Code alternates first, so a match inside it is returned unchanged and
+    # only the <br> tags in prose reach the replacement.
+    text = CODE_OR_BR_RE.sub(
+        lambda m: m.group("code") if m.group("code") else "  \n", text
+    ).rstrip()
+
+    blocks = []
+    for index, path in enumerate(media_paths):
+        scheme = RICH_MEDIA_SCHEMES.get(classify_media(path))
+        if scheme is None:
+            print(f"Skipping unsupported file: {path}", file=sys.stderr)
+            continue
+        blocks.append(f"![](tg://{scheme}?id={rich_media_id(path, index)})")
+
+    return "\n\n".join([text, *blocks]) if blocks else text
+
+
+def validate_rich_media(media_paths: Sequence[Path]) -> str | None:
+    """Validate a rich message's attachments before any of it is published.
+
+    Rich messages have neither the 10-file album cap nor the homogeneous-audio
+    rule of sendMediaGroup, so validate_media_set() does not apply here.
+    """
+    if len(media_paths) > RICH_MEDIA_LIMIT:
+        return (
+            f"{len(media_paths)} media files, over Telegram's limit of "
+            f"{RICH_MEDIA_LIMIT}"
+        )
+    unsupported = [p.name for p in media_paths if classify_media(p) is None]
+    if unsupported:
+        return "unsupported media file(s): " + ", ".join(unsupported)
+    return None
+
+
+def validate_rich_message(
+    markdown: str, media_paths: Sequence[Path]
+) -> str | None:
+    """Check the limits sendRichMessage enforces, before anything is sent."""
+    if not markdown.strip():
+        return "the rich message is empty"
+
+    # "UTF-8 characters" reads as code points but could mean bytes, and the
+    # docs settle it nowhere. Both are checked: a post that passes here and is
+    # refused by the API would abort a run that has already published to
+    # earlier channels, where a false rejection is merely loud and early.
+    characters = len(markdown)
+    utf8_bytes = len(markdown.encode("utf-8"))
+    if max(characters, utf8_bytes) > RICH_TEXT_LIMIT:
+        return (
+            f"rich message is {characters} characters / {utf8_bytes} UTF-8 "
+            f"bytes, over Telegram's limit of {RICH_TEXT_LIMIT}"
+        )
+    return validate_rich_media(media_paths)
+
+
+def send_rich_message(
+    token: str,
+    chat_id: str,
+    text: str,
+    media_paths: Sequence[Path] = (),
+    is_rtl: bool = False,
+) -> dict:
+    """Send one post as a single rich message. Returns the API response.
+
+    Unlike the MarkdownV2 path there is nothing to split and no unformatted
+    fallback: the post either lands whole or does not land at all, so a
+    failure never leaves a channel half-published.
+    """
+    media_paths = list(media_paths)
+    markdown = build_rich_markdown(text, media_paths)
+
+    problem = validate_rich_message(markdown, media_paths)
+    if problem:
+        print(f"Error: {problem}", file=sys.stderr)
+        return {"ok": False, "description": problem}
+
+    print(
+        f"Rich message: {len(markdown)} characters, "
+        f"{len(media_paths)} media file(s){', RTL' if is_rtl else ''}"
+    )
+
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_dir = Path(tmp)
+        files: dict[str, tuple[str, bytes, str]] = {}
+        media_json: list[dict] = []
+
+        for index, path in enumerate(media_paths):
+            attach_key = f"file{index}"
+            mime, _ = mimetypes.guess_type(str(path))
+            files[attach_key] = (
+                path.name,
+                path.read_bytes(),
+                mime or "application/octet-stream",
+            )
+            entry: dict = {
+                "type": classify_media(path),
+                "media": f"attach://{attach_key}",
+            }
+            entry.update(video_metadata(path, index, files, tmp_dir))
+            media_json.append({"id": rich_media_id(path, index), "media": entry})
+
+        payload: dict = {"markdown": markdown}
+        if media_json:
+            payload["media"] = media_json
+        if is_rtl:
+            payload["is_rtl"] = True
+
+        resp = requests.post(
+            f"{BASE_URL.format(token=token)}/sendRichMessage",
+            data={"chat_id": chat_id, "rich_message": json.dumps(payload)},
+            files=files,
+        )
+        data = resp.json()
+
+    if not data.get("ok"):
+        print(f"  Error: {data.get('description')}", file=sys.stderr)
+    return data
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Publish a markdown post with optional media to a Telegram group."
@@ -1138,6 +1360,12 @@ def main():
         help="Abort if Telegram rejects the MarkdownV2 markup, instead of "
         "falling back to unformatted plain text",
     )
+    parser.add_argument(
+        "--rich",
+        action="store_true",
+        help="Send one Bot API rich message (real headings, lists and inline "
+        "media, 32768-character limit) instead of chunked MarkdownV2",
+    )
     args = parser.parse_args()
 
     if not args.text.is_file():
@@ -1161,7 +1389,9 @@ def main():
     text, meta = strip_frontmatter(raw_text)
     title = meta.get("title", "")
     if title:
-        text = f"**{title}**\n\n{text.lstrip()}"
+        # Rich messages render headings; MarkdownV2 can only fake one in bold.
+        heading = f"# {title}" if args.rich else f"**{title}**"
+        text = f"{heading}\n\n{text.lstrip()}"
 
     # Tera expressions and components are site-only and do not belong in posts.
     text = strip_tera_blocks(text)
@@ -1192,7 +1422,7 @@ def main():
             print(f"  @/{target}", file=sys.stderr)
         print(file=sys.stderr)
 
-    raw_html = find_raw_html(text)
+    raw_html = find_raw_html(text, rich=args.rich)
     if raw_html:
         print(
             f"\nWarning: {len(raw_html)} HTML tag(s) Telegram will show "
@@ -1229,6 +1459,21 @@ def main():
         print(f"Title: {title}")
     print(f"Media files: {len(args.media)}")
     print()
+
+    if args.rich:
+        lang = ZOLA_FILENAME_RE.match(args.text.name)
+        result = send_rich_message(
+            token,
+            chat_id,
+            text,
+            args.media,
+            is_rtl=is_rtl_lang((lang.group("lang") if lang else None) or "en"),
+        )
+        if not result.get("ok"):
+            print("\nFATAL: the rich message was not sent.", file=sys.stderr)
+            sys.exit(1)
+        print("\nDone.")
+        return
 
     results = send_text_messages(token, chat_id, text, strict=args.strict)
 

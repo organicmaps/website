@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Focused, offline regressions for translation, hooks and Telegram tooling."""
 
+import argparse
 import json
+import re
 import subprocess
 import sys
 import tempfile
@@ -14,16 +16,23 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
 from telegram_post import (  # noqa: E402
+    RTL_LANGS,
+    build_rich_markdown,
     classify_media,
     convert_markdown_to_telegramv2,
     find_raw_html,
+    is_rtl_lang,
+    rich_media_id,
     send_media,
+    send_rich_message,
     split_text,
     strip_tera_blocks,
     utf16_len,
     validate_media_set,
+    validate_rich_message,
     visible_text,
 )
+from telegram_post_all import format_flags  # noqa: E402
 from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
 from translate_md import _segments, register_ok, tidy  # noqa: E402
 
@@ -294,6 +303,190 @@ class TelegramToolingTests(unittest.TestCase):
             ):
                 result = send_media("token", "chat", [audio])
         self.assertFalse(result["ok"])
+
+
+class RichMessageTests(unittest.TestCase):
+    """Bot API 10.1 rich messages: one GFM message instead of escaped chunks."""
+
+    def test_structure_survives_and_media_becomes_blocks(self):
+        markdown = build_rich_markdown(
+            "# Title\n\n## Section\n\n- item\n\nSigned,<br/>\nThe Team",
+            [Path("a.jpg"), Path("clip.mp4")],
+        )
+        self.assertEqual(
+            markdown,
+            "# Title\n\n## Section\n\n- item\n\nSigned,  \nThe Team\n\n"
+            "![](tg://photo?id=m0-a)\n\n![](tg://video?id=m1-clip)",
+        )
+
+    def test_line_break_becomes_a_hard_break_not_a_soft_one(self):
+        # Rich Markdown joins consecutive lines like CommonMark, so a bare
+        # newline would silently turn the signature into one run-on line.
+        self.assertEqual(build_rich_markdown("a<br/>\nb"), "a  \nb")
+        self.assertEqual(build_rich_markdown("a<br>b"), "a  \nb")
+        self.assertEqual(build_rich_markdown("a<br/>"), "a")
+
+    def test_media_ids_are_unique_and_use_the_allowed_alphabet(self):
+        ids = [
+            rich_media_id(Path(name), i)
+            for i, name in enumerate(["a.jpg", "a.png", "01-car dash.jpg"])
+        ]
+        self.assertEqual(len(set(ids)), 3)
+        for value in ids:
+            self.assertRegex(value, r"^[A-Za-z0-9_-]{1,64}$")
+        long_id = rich_media_id(Path("x" * 200 + ".jpg"), 7)
+        self.assertTrue(long_id.startswith("m7-"))
+        self.assertEqual(len(long_id), 64)
+
+    def test_rtl_languages_match_the_site_template(self):
+        template = (ROOT / "templates" / "base.html").read_text(encoding="utf-8")
+        declared = re.search(r"set rtl_langs = \[(.*?)\]", template, re.S)
+        self.assertIsNotNone(declared)
+        self.assertEqual(
+            set(re.findall(r'"([^"]+)"', declared.group(1))), set(RTL_LANGS)
+        )
+        self.assertTrue(is_rtl_lang("ar"))
+        self.assertTrue(is_rtl_lang("fa-IR"))
+        self.assertFalse(is_rtl_lang("ru"))
+        self.assertFalse(is_rtl_lang("en"))
+
+    def test_payload_carries_markdown_media_and_direction(self):
+        posted = {}
+
+        def fake_post(url, data=None, files=None, **kwargs):
+            posted.update(url=url, data=data, files=files)
+            return FakeResponse({"ok": True, "result": {"message_id": 1}})
+
+        with tempfile.TemporaryDirectory() as tmp:
+            photo = Path(tmp) / "shot.jpg"
+            photo.write_bytes(b"\xff\xd8\xff")
+            with patch("telegram_post.requests.post", fake_post):
+                result = send_rich_message(
+                    "TOKEN", "@chan", "Hello", [photo], is_rtl=True
+                )
+
+        self.assertTrue(result["ok"])
+        self.assertTrue(posted["url"].endswith("/sendRichMessage"))
+        self.assertEqual(posted["data"]["chat_id"], "@chan")
+        payload = json.loads(posted["data"]["rich_message"])
+        self.assertEqual(
+            payload["markdown"], "Hello\n\n![](tg://photo?id=m0-shot)"
+        )
+        self.assertEqual(
+            payload["media"],
+            [
+                {
+                    "id": "m0-shot",
+                    "media": {"type": "photo", "media": "attach://file0"},
+                }
+            ],
+        )
+        self.assertIs(payload["is_rtl"], True)
+        self.assertEqual(posted["files"]["file0"][0], "shot.jpg")
+
+    def test_direction_and_media_are_omitted_when_absent(self):
+        posted = {}
+
+        def fake_post(url, data=None, files=None, **kwargs):
+            posted.update(data=data)
+            return FakeResponse({"ok": True})
+
+        with patch("telegram_post.requests.post", fake_post):
+            send_rich_message("TOKEN", "@chan", "Hello")
+        payload = json.loads(posted["data"]["rich_message"])
+        self.assertNotIn("is_rtl", payload)
+        self.assertNotIn("media", payload)
+
+    def test_limits_are_refused_before_anything_is_published(self):
+        self.assertIsNone(validate_rich_message("Hello", []))
+        self.assertIn("empty", validate_rich_message("  \n", []))
+        self.assertIn(
+            "over Telegram's limit", validate_rich_message("x" * 32769, [])
+        )
+        self.assertIn(
+            "unsupported media file(s): notes.txt",
+            validate_rich_message("Hello", [Path("notes.txt")]),
+        )
+
+        def explode(*args, **kwargs):
+            raise AssertionError("an invalid rich message must not be sent")
+
+        with patch("telegram_post.requests.post", explode):
+            result = send_rich_message("TOKEN", "@chan", "x" * 32769)
+        self.assertFalse(result["ok"])
+
+    def test_code_is_content_not_markup(self):
+        # The MarkdownV2 path protects code; the rich path must too, or a post
+        # documenting HTML loses the very tag it is documenting.
+        self.assertEqual(
+            build_rich_markdown("Use `<br/>` for a break"),
+            "Use `<br/>` for a break",
+        )
+        self.assertEqual(
+            build_rich_markdown("```html\n<br/>\n```"), "```html\n<br/>\n```"
+        )
+        self.assertEqual(
+            build_rich_markdown("`<br>` then a<br/>\nb"), "`<br>` then a  \nb"
+        )
+
+    def test_tags_in_code_are_not_reported_and_line_numbers_hold(self):
+        found = find_raw_html("```html\n<div>x</div>\n```\n<marquee>y</marquee>")
+        self.assertEqual(found, [("<marquee>", 4), ("</marquee>", 4)])
+
+    def test_length_is_refused_under_either_reading_of_the_limit(self):
+        # "32768 UTF-8 characters" reads as code points but may mean bytes.
+        under_both = "a" * 32768
+        self.assertIsNone(validate_rich_message(under_both, []))
+        over_bytes_only = "я" * 20000  # 20000 characters, 40000 UTF-8 bytes
+        self.assertIn(
+            "over Telegram's limit",
+            validate_rich_message(over_bytes_only, []),
+        )
+
+    def test_resume_hint_carries_the_flags_that_set_the_format(self):
+        def flags(**kwargs):
+            defaults = {"rich": False, "allow_plain_fallback": False}
+            return format_flags(argparse.Namespace(**{**defaults, **kwargs}))
+
+        self.assertEqual(flags(), "")
+        self.assertEqual(flags(rich=True), " --rich")
+        self.assertEqual(
+            flags(allow_plain_fallback=True), " --allow-plain-fallback"
+        )
+
+    def test_an_oversized_post_is_refused_before_any_channel_is_posted(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            (folder / "index.md").write_text(
+                "---\ntitle: Too long\n---\n\n" + "word " * 8000,
+                encoding="utf-8",
+            )
+            run = subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "tools/telegram_post_all.py"),
+                    str(folder),
+                    "--rich",
+                    "--dry-run",
+                    "--yes",
+                ],
+                capture_output=True,
+                text=True,
+            )
+        self.assertEqual(run.returncode, 1, run.stdout + run.stderr)
+        self.assertIn("Telegram would reject", run.stderr)
+        self.assertNotIn("Would send", run.stdout)
+
+    def test_supported_html_is_reported_only_outside_rich_mode(self):
+        text = "<u>a</u> and <marquee>b</marquee>"
+        self.assertEqual(
+            [tag for tag, _ in find_raw_html(text)],
+            ["<u>", "</u>", "<marquee>", "</marquee>"],
+        )
+        self.assertEqual(
+            [tag for tag, _ in find_raw_html(text, rich=True)],
+            ["<marquee>", "</marquee>"],
+        )
 
 
 class StagedHookTests(unittest.TestCase):

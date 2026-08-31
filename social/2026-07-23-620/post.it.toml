@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "it"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Aggiornamento di luglio"
+subtitle = "Questo mese siamo andati a caccia di bug. Il trasporto pubblico, il calcolo dei percorsi, la ricerca e i segnalibri sono stati tutti migliorati."
+
+[[slides]]
+type = "feature"
+eyebrow = "Routing"
+title = "Avvisi su ogni percorso"
+body = "I pedaggi, i traghetti, le strade sterrate e le scale ora sono segnalati anche sui percorsi alternativi, non solo sul primo."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Segnalibri"
+title = "Scegli un colore qualsiasi"
+body = "La tavolozza ora offre una serie di colori predefiniti e ti permette di crearne una completamente personalizzata."
+media = "Colors for bookmarks and tracks.jpg"
+device = "iphone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Segnalibri"
+title = "Metti in ordine le tue liste"
+body = "Un nuovo pulsante \"Modifica\" ti permette di rimuovere velocemente i segnalibri, e le modifiche vengono salvate automaticamente quando esci dalla schermata."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "iphone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Una vita quotidiana più serena"
+items = [
+    "Gli orari di apertura mostrano i turni frazionati e l'intera settimana in un colpo solo",
+    "Una barra di ricerca più pulita con un pulsante combinato per cancellare e per la ricerca vocale",
+    "Editor dei segnalibri e delle tracce rinnovato",
+    "Sono state risolte alcune problemi nella pianificazione del percorso e il selettore di colori si chiude da solo",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Sempre a luglio"
+title = "Piccole cose che fanno la differenza"
+items = [
+    "Dati OpenStreetMap aggiornati al 14 luglio",
+    "Le note che inserisci compaiono esattamente nel punto che hai scelto",
+    "I nomi delle fermate e delle stazioni hanno un contorno bianco, leggibile in entrambi i temi",
+    "Il livello della metropolitana riappare dopo aver chiuso un'anteprima dei trasporti",
+    "Risolto un raro blocco del sistema durante la creazione di un percorso",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Scarica l'aggiornamento di luglio"
+body = "Gratis, offline, senza pubblicità e open source."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

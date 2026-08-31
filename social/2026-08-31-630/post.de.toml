@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "de"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "August-Update"
+subtitle = "Mehrfachauswahl für Lesezeichen und Tracks, ein CarPlay-Dashboard und Links zum Teilen, die man auch wirklich lesen kann."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "CarPlay-Dashboard"
+body = "Karte, nächste Abbiegung und Wiedergabesteuerung liegen jetzt nebeneinander auf dem Autobildschirm."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Lesezeichen und Tracks"
+title = "Mehrere gleichzeitig bearbeiten"
+body = "Wähle mehrere Lesezeichen und Tracks aus, um dann ihre Farbe zu ändern, sie gemeinsam zu verschieben oder zu löschen."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Tracks"
+title = "Einen beliebigen Track ausblenden"
+body = "Tippe auf das Augensymbol in der Liste oder auf dem Track-Bildschirm, um einen einzelnen Track von der Karte zu entfernen."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Teilen"
+title = "Links, die man lesen kann"
+items = [
+    "Ein geteilter Ort, ein Lesezeichen oder eine Position enthält jetzt nützliche Informationen",
+    "AirDrop auf iOS und die „Teilen“-Funktion auf dem Desktop",
+    "Exportierte Lesezeichen behalten ihre ursprünglichen Namen und Beschreibungen",
+    "Gemeinsame Listen verwenden den Namen, den du ihnen gegeben hast, und keinen Dateinamen",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Ebenfalls im August"
+title = "Kleine Dinge, die sich summieren"
+items = [
+    "OpenStreetMap-Daten, aktualisiert am 26. August",
+    "Wikipedia-Artikel in 19 Sprachen",
+    "Sprachführung auf Armenisch und Laotisch",
+    "Die Öffnungszeiten werden an viel mehr Stellen korrekt angezeigt",
+    "Routen für öffentliche Verkehrsmittel werden schneller geplant",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Hol dir das August-Update"
+body = "Kostenlos, offline, werbefrei und Open Source."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

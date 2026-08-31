@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "pt"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Atualização de agosto"
+subtitle = "Seleção múltipla de favoritos e trilhos, um painel do CarPlay e links para partilhar que as pessoas consigam mesmo ler."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "Painel do CarPlay"
+body = "O mapa, o teu próximo viragem e os controlos de reprodução aparecem agora lado a lado no ecrã do carro."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Favoritos e Trilhos"
+title = "Editar vários de uma vez"
+body = "Seleciona vários favoritos e trilhos e, depois, altera a cor deles, move-os ou apaga-os todos ao mesmo tempo."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Trilhos"
+title = "Ocultar qualquer trilho"
+body = "Toca no ícone do olho na lista ou no ecrã do trilho para remover um único trilho do mapa."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Partilha"
+title = "Links que as pessoas podem ler"
+items = [
+    "Um local, um favorito ou uma posição partilhados agora contêm informações úteis",
+    "O AirDrop no iOS e a ação «Partilhar» no computador",
+    "Os favoritos exportados mantêm os seus nomes e descrições originais",
+    "As listas partilhadas usam o nome que lhes atribuíste, e não um nome de ficheiro",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Também em agosto"
+title = "Pequenas coisas que fazem a diferença"
+items = [
+    "Dados do OpenStreetMap atualizados a 26 de agosto",
+    "Artigos da Wikipédia em 19 idiomas",
+    "Orientação por voz em arménio e laosiano",
+    "Os horários de funcionamento aparecem corretamente em muito mais sítios",
+    "As rotas dos transportes públicos são planeadas mais depressa",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Vê a atualização de agosto"
+body = "Grátis, offline, sem anúncios e de código aberto."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

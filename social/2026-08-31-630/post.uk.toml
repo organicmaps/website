@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "uk"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Оновлення за серпень"
+subtitle = "Можливість вибору декількох міток і треків, панель управління CarPlay та посилання для обміну, які люди дійсно зможуть прочитати."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "Панель управління CarPlay"
+body = "Мапа, ваш наступний поворот та елементи керування відтворенням тепер розташовані поруч на екрані автомобіля."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Мітки та треки"
+title = "Редагувати кілька одночасно"
+body = "Виберіть кілька міток і треків, а потім змініть їхній колір, перемістіть або видаліть їх одночасно."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Треки"
+title = "Приховати будь-який трек"
+body = "Натисніть на іконку у вигляді ока у списку або на екрані треку, щоб прибрати окремий трек з мапи."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Поділитися"
+title = "Посилання, які можна переглянути"
+items = [
+    "Тепер спільне місце, мітка або позиція містять корисну інформацію",
+    "AirDrop на iOS та функція «Поділитися» на настільному комп’ютері",
+    "Експортовані мітки зберігають свої оригінальні назви та описи",
+    "Спільні списки використовують назву, яку ви їм дали, а не ім’я файлу",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Також у серпні"
+title = "Дрібниці, які мають значення"
+items = [
+    "Дані OpenStreetMap оновлено станом на 26 серпня",
+    "Статті Вікіпедії 19 мовами",
+    "Голосові вказівки вірменською та лаоською мовами",
+    "Час роботи відображається правильно у набагато більшій кількості місць",
+    "Маршрути громадського транспорту планують швидше",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Завантажте серпневе оновлення"
+body = "Безкоштовний, офлайн, без реклами та з відкритим кодом."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

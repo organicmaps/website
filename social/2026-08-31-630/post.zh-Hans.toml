@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "zh-Hans"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "8月更新"
+subtitle = "书签和轨迹的多选功能、CarPlay 仪表盘，以及人们真正能看懂的分享链接。"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "CarPlay 仪表盘"
+body = "地图、你的下一个转向操作以及回放控制按钮现在并排显示在车载屏幕上。"
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "书签和轨迹"
+title = "批量编辑"
+body = "选择多个书签和轨迹，然后统一更改其颜色、移动或删除它们。"
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · 轨迹"
+title = "隐藏任意轨迹"
+body = "点击列表或路线屏幕中的眼睛图标，即可将单条轨迹从地图上移除。"
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "分享"
+title = "可供阅读的链接"
+items = [
+    "共享的位置、书签或坐标现在都包含有用的信息",
+    "iOS 上的 AirDrop 和桌面端的“分享”操作",
+    "导出的书签会保留其原始名称和描述",
+    "共享列表使用你为其命名的名称，而不是文件名",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "同样是在8月"
+title = "点滴积少成多"
+items = [
+    "OpenStreetMap 数据已更新至 8 月 26 日",
+    "19种语言的维基百科条目",
+    "亚美尼亚语和老挝语的语音导航",
+    "在更多地方，营业时间显示正确了",
+    "公共交通路线的规划速度更快了",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "获取8月份的更新"
+body = "免费、离线、无广告且开源。"
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

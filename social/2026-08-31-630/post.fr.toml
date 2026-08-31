@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "fr"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Mise à jour du mois d'août"
+subtitle = "Sélection multiple des signets et des traces, un tableau de bord CarPlay et des liens à partager que les gens peuvent vraiment lire."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "Tableau de bord CarPlay"
+body = "La carte, ton prochain virage et les commandes de lecture s'affichent désormais côte à côte sur l'écran de la voiture."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Signets et traces"
+title = "Modifier plusieurs éléments à la fois"
+body = "Sélectionne plusieurs signets et traces, puis change leur couleur, déplace-les ou supprime-les tous en même temps."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Traces"
+title = "Masquer n'importe quelle trace"
+body = "Appuie sur l'icône en forme d'œil dans la liste ou sur l'écran du parcours pour retirer une trace de la carte."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Partager"
+title = "Des liens à consulter"
+items = [
+    "Un lieu, un signet ou une position partagés contiennent désormais des infos utiles",
+    "AirDrop sur iOS et l'action « Partager » sur ordinateur",
+    "Les signets exportés conservent leurs noms et descriptions d'origine",
+    "Les listes partagées utilisent le nom que tu leur as donné, pas un nom de fichier",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Aussi en août"
+title = "Les petits détails qui font la différence"
+items = [
+    "Données OpenStreetMap mises à jour au 26 août",
+    "Des articles Wikipédia en 19 langues",
+    "Guidage vocal en arménien et en laotien",
+    "Les horaires d'ouverture s'affichent correctement à bien plus d'endroits",
+    "Les itinéraires des transports en commun sont planifiés plus rapidement",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Télécharge la mise à jour du mois d'août"
+body = "Gratuit, hors ligne, sans pub et open source."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

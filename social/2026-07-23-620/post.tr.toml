@@ -1,0 +1,70 @@
+release = "2026-07-23-620"
+source = "content/news/2026-07-23/620"
+lang = "tr"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Temmuz Güncellemesi"
+subtitle = "Bu ay hata avına çıktık. Toplu taşıma, rota belirleme, arama ve yer imleri özelliklerinin tümü daha da iyileştirildi."
+
+[[slides]]
+type = "feature"
+eyebrow = "Yönlendirme"
+title = "Her rota üzerinde uyarılar"
+body = "Artık sadece ilk alternatif rota üzerinde değil, diğer alternatif rotalarda da gişeler, feribotlar, asfaltsız yollar ve merdivenler işaretlenmiştir."
+media = "Barriers on a route.jpg"
+device = "desktop"
+theme = "green"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Yer imleri"
+title = "İstediğin rengi seç"
+body = "Palet artık önceden tanımlanmış bir renk seti sunuyor ve tamamen size özel bir renk seti oluşturmana olanak tanıyor."
+media = "Colors for bookmarks and tracks.jpg"
+device = "iphone"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · Yer imleri"
+title = "Listelerini düzenle"
+body = "Yeni bir “Düzenle” düğmesi sayesinde yer imlerini hızlı bir şekilde silebilirsin; ayrıca ekrandan çıktığında yaptığın değişiklikler otomatik olarak kaydedilir."
+media = "Mass bookmarks and tracks editing.jpg"
+device = "iphone"
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Android"
+title = "Günlük yaşamda daha sorunsuz"
+items = [
+    "Çalışma saatleri, bölünmüş vardiyaları ve tüm haftayı bir arada gösterir",
+    "Temizle ve sesli arama düğmelerinin birleştirildiği daha temiz bir arama çubuğu",
+    "Yeniden tasarlanan yer imi ve iz düzenleyicisi",
+    "Rota planlamasında yapılan düzeltmeler ve renk seçicinin kendiliğinden kapanması",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Yine Temmuz ayında"
+title = "Küçük şeyler, birikince büyük fark yaratır"
+items = [
+    "14 Temmuz itibarıyla güncellenen OpenStreetMap verileri",
+    "Bildirdiğin notlar, seçtiğin tam noktada görünür",
+    "Durak ve istasyon adlarının kenarları beyaz bir çerçeveyle çevrelenir; bu çerçeve her iki temada da okunaklıdır",
+    "Toplu taşıma önizlemesi kapatıldıktan sonra metro katmanı yeniden görüntülenir",
+    "Bir rota oluşturulurken nadiren yaşanan donma sorunu giderildi",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Temmuz güncellemesini indir"
+body = "Ücretsiz, çevrimdışı, reklamsız ve açık kaynaklı."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

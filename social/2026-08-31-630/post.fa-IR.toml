@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "fa-IR"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "به‌روزرسانی ماه اوت"
+subtitle = "انتخاب چندگانه برای نشانک‌ها و ترک‌ها، داشبورد CarPlay، و لینک‌های اشتراک‌گذاری که مردم واقعاً می‌توانند بخوانند."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "CarPlay داشبورد"
+body = "نقشه، نوبت بعدی شما و کنترل‌های پخش اکنون در کنار هم روی صفحهٔ خودرو قرار دارند."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "نشانک‌ها و مسیرها"
+title = "ویرایش همزمان چندین مورد"
+body = "چند نشانک و مسیر را انتخاب کنید، سپس رنگ آن‌ها را تغییر دهید، جابه‌جا کنید یا به‌صورت دسته‌ای حذف نمایید."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · ردیابی‌ها"
+title = "پنهان کردن هر ترک"
+body = "برای برداشتن یک مسیر از نقشه، روی آیکون چشم در فهرست یا صفحهٔ مسیر ضربه بزنید."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "اشتراک‌گذاری"
+title = "لینک‌هایی که مردم می‌توانند بخوانند"
+items = [
+    "یک مکان مشترک، نشانک یا موقعیت اکنون حاوی اطلاعات مفید است.",
+    "AirDrop در iOS و یک اقدام اشتراک‌گذاری در دسکتاپ",
+    "نشانک‌های صادرشده نام‌ها و توضیحات اصلی خود را حفظ می‌کنند.",
+    "فهرست‌های مشترک از نامی که شما به آن‌ها داده‌اید استفاده می‌کنند، نه از نام یک فایل.",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "همچنین در ماه اوت"
+title = "چیزهای کوچک که جمع می‌شوند"
+items = [
+    "OpenStreetMap داده‌ها تا تاریخ ۲۶ اوت به‌روزرسانی شده‌اند",
+    "Wikipedia مقالات به ۱۹ زبان",
+    "راهنمایی صوتی به زبان‌های ارمنی و لائو",
+    "ساعات کاری در مکان‌های بسیار بیشتری به‌درستی نمایش داده می‌شوند.",
+    "مسیرهای حمل‌ونقل عمومی سریع‌تر برنامه‌ریزی می‌شوند",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "به‌روزرسانی ماه اوت را دریافت کنید"
+body = "رایگان، آفلاین، بدون تبلیغات و متن‌باز"
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

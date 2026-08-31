@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "ru"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Августовское обновление"
+subtitle = "Множественный выбор меток и треков, панель CarPlay и понятные ссылки, которыми не стыдно поделиться."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "Панель управления CarPlay"
+body = "Карта, следующий поворот и управление воспроизведением теперь рядом на экране автомобиля."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Метки и треки"
+title = "Редактируйте сразу несколько"
+body = "Выберите несколько меток и треков, чтобы разом изменить их цвет, переместить или удалить."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Треки"
+title = "Скрыть любой трек"
+body = "Нажмите на иконку в виде глаза в списке или на экране трека, чтобы удалить отдельный трек с карты."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Обмен информацией"
+title = "Ссылки, которые можно прочитать"
+items = [
+    "Ссылка на место, метку или позицию теперь содержит полезные сведения",
+    "AirDrop в iOS и «Поделиться» на компьютере",
+    "Экспортированные метки сохраняют свои исходные названия и описания",
+    "Общие списки используют данное вами имя, а не имя файла",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Также в августе"
+title = "Мелочи, которые складываются"
+items = [
+    "Данные OpenStreetMap обновлены по состоянию на 26 августа",
+    "Статьи Википедии на 19 языках",
+    "Голосовые подсказки на армянском и лаосском языках",
+    "Время работы отображается верно гораздо чаще",
+    "Маршруты общественного транспорта планируются быстрее",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Получите августовское обновление"
+body = "Бесплатно, офлайн, без рекламы и с открытым кодом."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

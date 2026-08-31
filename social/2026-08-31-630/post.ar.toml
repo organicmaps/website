@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "ar"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "تحديث شهر أغسطس"
+subtitle = "الاختيار المتعدد للإشارات المرجعية والمسارات المسجلة، ولوحة تحكم CarPlay، وروابط مشاركة يمكن للناس قراءتها فعليًّا."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "لوحة التحكم في CarPlay"
+body = "أصبحت الخريطة ودورك التالي وأزرار التحكم في التشغيل تظهر الآن جنبًا إلى جنب على شاشة السيارة."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "الإشارات المرجعية والمسارات المسجلة"
+title = "تحرير عدة عناصر في آن واحد"
+body = "حدد عدة إشارات مرجعية ومسارات مسجلة، ثم قم بتغيير لونها أو نقلها أو حذفها معًا."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · المسارات المسجلة"
+title = "إخفاء أي مسار مسجل"
+body = "اضغط على أيقونة العين الموجودة في القائمة أو على شاشة المسار المسجل لإزالة مسار واحد من الخريطة."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "المشاركة"
+title = "روابط يمكن للناس الاطلاع عليها"
+items = [
+    "أصبح كل مكان أو إشارة مرجعية أو موقع مشترك يحمل الآن معلومات مفيدة",
+    "ميزة AirDrop في iOS، وإجراء «مشاركة» على سطح المكتب",
+    "تحتفظ الإشارات المرجعية التي تم تصديرها بأسمائها وأوصافها الأصلية",
+    "تستخدم القوائم المشتركة الاسم الذي أطلقتَه عليها، وليس اسم الملف",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "وفي شهر أغسطس أيضًا"
+title = "الأمور الصغيرة التي تتراكم"
+items = [
+    "تم تحديث بيانات OpenStreetMap بتاريخ 26 أغسطس",
+    "مقالات ويكيبيديا بـ 19 لغة",
+    "الإرشاد الصوتي باللغتين الأرمينية واللاوية",
+    "يتم عرض ساعات العمل بشكل صحيح في عدد أكبر بكثير من الأماكن",
+    "يتم التخطيط لمسارات النقل العام بسرعة أكبر",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "احصل على تحديث شهر أغسطس"
+body = "مجاني، ويعمل دون اتصال بالإنترنت، وخالٍ من الإعلانات، ومفتوح المصدر."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

@@ -177,15 +177,18 @@ def render_media(post: dict, slide: dict, post_dir: Path) -> str:
     # box-shadow cannot draw. Handing it the screenshot's own aspect ratio
     # keeps it exactly the size the image would have been, so the fit-inside
     # behaviour is still the image's and not something reimplemented here.
+    # --ar is the same ratio as a bare number, which `min()` and `calc()` can
+    # divide by; `aspect-ratio` cannot take that form, hence both.
     with Image.open(src) as im:
         ratio = f"{im.width}/{im.height}"
+        ar = f"{im.width / im.height:.6f}"
     # The camera cutout is hardware: the screenshot has a gap where it sits,
     # because neither iOS nor Android draws over its own cutout. Putting it
     # back is what makes the frame read as the device it is.
     cutout = '<span class="cutout"></span>' if device in CUTOUT_FRAMES else ""
     return (
         f'<div class="media">'
-        f'<div class="device {esc(device)}" style="--shot:{ratio}">'
+        f'<div class="device {esc(device)}" style="--shot:{ratio};--ar:{ar}">'
         f'<img src="{furl(src)}" alt="">{cutout}'
         f"</div></div>"
     )

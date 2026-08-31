@@ -308,6 +308,18 @@ body {
 .slide.wide .media {
   margin-left: calc(40px - var(--pad));
   margin-right: calc(40px - var(--pad));
+  container-type: size;
+}
+
+/* A portrait frame is capped by the media box's height and never comes near
+   its width, so height:100% is all it needs. A landscape one hits the width
+   first — and CSS drops the aspect ratio rather than shrinking a height that
+   is already definite, which stretches the screenshot vertically. Size it
+   from whichever container axis binds first, so neither cap ever clamps. */
+.slide.wide .device {
+  height: min(100cqh, calc(100cqw / var(--ar)));
+  max-width: none;
+  max-height: none;
 }
 
 /* ---------- cover ---------- */

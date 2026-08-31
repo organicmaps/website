@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "en"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "August Update"
+subtitle = "Multi-selection for bookmarks and tracks, a CarPlay dashboard, and share links people can actually read."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "CarPlay dashboard"
+body = "The map, your next turn and playback controls now sit side by side on the car screen."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Bookmarks and Tracks"
+title = "Edit many at once"
+body = "Select several bookmarks and tracks, then change their color, move or delete them together."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+bleed = false
+theme = "light"
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · Tracks"
+title = "Hide any track"
+body = "Tap the eye icon in the list or on the track screen to take a single track off the map."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+bleed = 120
+theme = "green"
+
+[[slides]]
+type = "list"
+eyebrow = "Sharing"
+title = "Links people can read"
+items = [
+    "A shared place, bookmark or position now carries useful information",
+    "AirDrop on iOS, and a Share action on Desktop",
+    "Exported bookmarks keep their original names and descriptions",
+    "Shared lists use the name you gave them, not a file name",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Also in August"
+title = "Small things that add up"
+items = [
+    "OpenStreetMap data updated as of August 26",
+    "Wikipedia articles in 19 languages",
+    "Voice guidance in Armenian and Lao",
+    "Opening hours are displayed correctly in many more places",
+    "Public transport routes are planned faster",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Get the August update"
+body = "Free, offline, ad-free and open source."
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]
+theme = "green"

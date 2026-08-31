@@ -1,0 +1,72 @@
+release = "2026-08-31-630"
+source = "social/2026-08-31-630/screens"
+lang = "tr"
+formats = ["4x5"]
+
+[[slides]]
+type = "cover"
+kicker = "Organic Maps"
+title = "Ağustos Güncellemesi"
+subtitle = "Yer imleri ve izler için çoklu seçim, bir CarPlay kontrol paneli ve insanların gerçekten okuyabileceği paylaşım bağlantıları."
+
+[[slides]]
+type = "feature"
+eyebrow = "iOS · CarPlay"
+title = "CarPlay gösterge paneli"
+body = "Harita, sıradaki dönüşün ve oynatma kontrolleri artık araç ekranında yan yana yer alıyor."
+media = "01 CarPlay Dashboard.jpg"
+device = "desktop"
+theme = "blue"
+
+[[slides]]
+type = "feature"
+eyebrow = "Yer imleri ve İzler"
+title = "Birden çok öğeyi aynı anda düzenle"
+body = "Birkaç yer imi ve iz seç, sonra renklerini değiştir, hepsini birlikte taşı veya sil."
+media = "02 Bookmarks and tracks multi-selection move, change color, delete.jpg"
+device = "android"
+theme = "light"
+bleed = false
+
+[[slides]]
+type = "feature"
+eyebrow = "Android · İzler"
+title = "Herhangi bir izi gizle"
+body = "Haritadan tek bir izi kaldırmak için listedeki veya iz ekranındaki göz simgesine dokun."
+media = "03 Hide individual track in the list.jpg"
+device = "android"
+theme = "green"
+bleed = 120
+
+[[slides]]
+type = "list"
+eyebrow = "Paylaşma"
+title = "İnsanların okuyabileceği bağlantılar"
+items = [
+    "Artık paylaşılan bir yer, yer imi veya konum, faydalı bilgiler içeriyor",
+    "iOS'ta AirDrop ve masaüstünde Paylaş seçeneği",
+    "Dışa aktarılan yer imleri, orijinal adlarını ve açıklamalarını korur",
+    "Paylaşılan listeler, dosya adı yerine onlara verdiğin adı kullanır",
+]
+theme = "light"
+
+[[slides]]
+type = "list"
+eyebrow = "Ağustos ayında da"
+title = "Küçük şeyler birikince…"
+items = [
+    "26 Ağustos itibarıyla güncellenen OpenStreetMap verileri",
+    "19 dilde Wikipedia maddeleri",
+    "Ermenice ve Lao dilinde sesli yönlendirme",
+    "Çalışma saatleri çok daha fazla yerde doğru şekilde gösteriliyor",
+    "Toplu taşıma rotaları daha hızlı planlanıyor",
+]
+theme = "light"
+
+[[slides]]
+type = "cta"
+title = "Ağustos güncellemesini indir"
+body = "Ücretsiz, çevrimdışı, reklamsız ve açık kaynaklı."
+theme = "green"
+url = "get.omaps.org"
+badges = ["apple-appstore", "googleplay", "f-droid"]

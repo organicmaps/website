@@ -16,6 +16,7 @@ from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
+    find_raw_html,
     send_media,
     split_text,
     strip_tera_blocks,
@@ -199,6 +200,32 @@ class TelegramToolingTests(unittest.TestCase):
             "/> }}\n\nAfter"
         )
         self.assertEqual(strip_tera_blocks(text), "Before\n\n\n\nAfter")
+
+    def test_line_break_tag_becomes_a_line_break(self):
+        # Zola renders <br/>; MarkdownV2 has no HTML and would escape it, which
+        # printed a literal "<br/>" in every channel of the 2026-08-31 release.
+        converted = convert_markdown_to_telegramv2(
+            "With love and gratitude,<br/>\nOrganic Maps Team"
+        )
+        self.assertEqual(
+            converted, "With love and gratitude,\nOrganic Maps Team"
+        )
+        self.assertEqual(convert_markdown_to_telegramv2("a<br>b"), "a\nb")
+        self.assertEqual(
+            convert_markdown_to_telegramv2("a<br /><br/>b"), "a\n\nb"
+        )
+        # A tag inside a code span is content, not markup.
+        self.assertEqual(
+            convert_markdown_to_telegramv2("`<br/>`"), "`<br/>`"
+        )
+
+    def test_raw_html_is_reported_but_autolinks_are_not(self):
+        found = find_raw_html(
+            "<pre>\ntext <u>a</u> <https://omaps.app/> `<i>` <br/>"
+        )
+        self.assertEqual(
+            found, [("<pre>", 1), ("<u>", 2), ("</u>", 2)]
+        )
 
     def test_parenthesized_url_is_complete_and_escaped(self):
         converted = convert_markdown_to_telegramv2(

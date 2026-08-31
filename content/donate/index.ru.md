@@ -4,7 +4,7 @@ description: Помогите проекту финансово
 weight: 10
 extra:
   menu_title: Поддержать деньгами
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Приложение Organic Maps _бесплатно для всех_ благодаря вашим **[пожертвованиям][stripe]** в **[RUB][stripe_rub]**, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**:

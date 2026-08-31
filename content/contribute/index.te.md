@@ -4,7 +4,7 @@ description: మా ఉచిత అప్లికేషన్ అభివృ�
 weight: 20
 extra:
   menu_title: సహకరించండి
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps ఉచిత, ఓపెన్-సోర్స్ యాప్. ఇది ప్రకటనలు లేనిది, మీ వ్యక్తిగత సమాచారాన్ని సేకరించదు, మరియు కమ్యూనిటీ సహాయంతో కొంతమంది ఉత్సాహవంతులచే అభివృద్ధి చేయబడుతోంది.

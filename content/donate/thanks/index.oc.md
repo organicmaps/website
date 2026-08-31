@@ -4,7 +4,7 @@ description: "Ta donacion ajuda a manténer Organic Maps gratuit, sens publicita
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Venes d'ajudar a manténer Organic Maps **gratuit e sens publicitat** per tot lo mond.

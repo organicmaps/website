@@ -4,7 +4,7 @@ description: "നിങ്ങളുടെ സംഭാവന Organic Maps-നെ
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 ലോകമെമ്പാടുമുള്ള എല്ലാവർക്കും Organic Maps **സൗജന്യവും പരസ്യരഹിതവുമായി** നിലനിർത്താൻ നിങ്ങൾ സഹായിച്ചു.

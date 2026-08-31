@@ -1,11 +1,5 @@
 {# NewsArticle structured data for individual news posts.
-   Required by Google for Top Stories / Discover eligibility. #}
-{%- if has_article_image -%}
-{%- set preview_image_url = preview_image -%}
-{%- if preview_image_url and not (preview_image_url is starting_with(pat='http')) -%}
-{%- set preview_image_url = get_url(path=preview_image_url) -%}
-{%- endif -%}
-{%- endif -%}
+   Required by Google for Top Stories / Discover eligibility. -#}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -18,7 +12,8 @@
   "dateModified": {{ page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") | json_encode | safe }},
   {%- endif %}
   {%- if has_article_image %}
-  "image": [{{ preview_image_url | json_encode | safe }}],
+  {#- preview_image is already an absolute URL, resolved in base.html. #}
+  "image": [{{ preview_image | json_encode | safe }}],
   {%- endif %}
   "author": {
     "@type": "Organization",

@@ -4,7 +4,7 @@ description: तुमचे पैसे सर्व प्रकल्प-स
 weight: 10
 extra:
   menu_title: समर्थन द्या
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps अ‍ॅप _सर्वांसाठी मोफत_ आहे, तुमच्या **[दान][stripe]** मुळे **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

@@ -2,7 +2,7 @@
 description: "Τα χρήματά σου καλύπτουν όλα τα έξοδα που σχετίζονται με το έργο και μας δίνουν κίνητρο να βελτιώσουμε τους Organic Maps."
 extra:
   menu_title: Δώρισε
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Υποστήριξε την ανάπτυξη του Organic Maps"
 weight: 10
 ---

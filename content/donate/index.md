@@ -4,7 +4,7 @@ description: Your money pays for all project-related expenses and motivates us t
 weight: 10
 extra:
   menu_title: Donate
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps app is _free for everyone_ thanks to your **[donations][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

@@ -13,7 +13,7 @@
   <div class="news_content">{{ page.content | safe }}</div>
 {% endif %}
 {% for photo in page.assets %}
-<img class="news_image" src="{{ page.path | safe }}{{ photo | split(pat='/') | last }}" />
+<img class="news_image" src="{{ page.path | safe }}{{ photo | split(pat='/') | last | urlencode }}" />
 {% endfor %}
 </div>
 {% endfor %}

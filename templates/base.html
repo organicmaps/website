@@ -113,28 +113,23 @@
   {%- endif %}
   {%- endif %}
 
-  {%- set preview_image = 'images/screenshots/prague.jpg' -%}
+  {#- Pick the preview image, then hand the value to the preview_url component,
+      which owns the site-root / colocated-asset rule for every consumer. -#}
+  {%- set preview_value = '/images/screenshots/prague.jpg' -%}
   {%- set has_article_image = false -%}
   {%- if resource.extra is defined and resource.extra.preview_image -%}
-  {# A bare filename is one of the page's own colocated assets. Zola copies
-     those into each page's output directory, which is per-language and keyed
-     by slug, so resolve it against resource_path rather than the site root -
-     a site-root path like 'news/2026-08-31/630/x.jpg' never exists in public/.
-     A value containing a slash is taken as a site-root path as before.
-     urlencode because asset filenames may hold spaces or non-ASCII. #}
-  {%- set preview_image = resource.extra.preview_image -%}
-  {%- if not (preview_image is containing(pat='/')) -%}
-  {%- set preview_image = resource_path ~ (preview_image | urlencode) -%}
-  {%- endif -%}
+  {%- set preview_value = resource.extra.preview_image -%}
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
   {%- set basename = resource.assets[0] | split(pat='/') | last %}
   {%- if basename is ending_with(pat='.jpg') or basename is ending_with(pat='.jpeg') or basename is ending_with(pat='.png') or basename is ending_with(pat='.webp') %}
-  {%- set preview_image = resource_path ~ (basename | urlencode) -%}
+  {%- set preview_value = basename -%}
   {%- set has_article_image = true -%}
   {%- endif %}
   {%- endif %}
-  <meta property="og:image" content="{{ get_url(path=preview_image) }}">
+  {%- set preview_base = config.base_url ~ resource_path -%}
+  {%- set preview_image %}{{ <preview_url value={preview_value} page_url={preview_base} site_url={config.base_url} /> }}{% endset %}
+  <meta property="og:image" content="{{ preview_image | safe }}">
   {# TODO: Add og:video support #}
   <meta property="og:url" content="{{ current_url | safe }}">
   <meta property="og:type" content="{% block og_type %}website{% endblock %}">

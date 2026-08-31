@@ -4,7 +4,7 @@ description: "Ваш внесок допомагає зберігати Organic 
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Ви щойно допомогли зберегти Organic Maps **безкоштовними і без реклами** для всіх у всьому світі.

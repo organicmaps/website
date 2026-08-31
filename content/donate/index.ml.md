@@ -4,7 +4,7 @@ description: നിങ്ങളുടെ പണം പദ്ധതിയുമ�
 weight: 10
 extra:
   menu_title: സംഭാവനചെയ്യുക
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** എന്നിവയിലുള്ള നിങ്ങളുടെ **[സംഭാവനകൾ][stripe]** കൊണ്ടാണ് Organic Maps ആപ്പ് _എല്ലാവർക്കും സൗജന്യമായിരിക്കുന്നത്_:

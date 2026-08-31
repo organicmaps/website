@@ -2,7 +2,7 @@
 description: "Mitmed viisid meie tasuta rakenduse arenduse toetamiseks"
 extra:
   menu_title: "Tee kaastööd"
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Toeta Organic Mapsi arendust"
 weight: 20
 ---

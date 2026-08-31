@@ -4,7 +4,7 @@ description: "Din donation bidrar till att Organic Maps kan förbli gratis, rekl
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Du har just bidragit till att Organic Maps kan förbli **gratis och reklamfritt** för alla över hela världen.

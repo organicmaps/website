@@ -4,7 +4,7 @@ description: Jou geld betaal vir alle projekverwante uitgawes en motiveer ons om
 weight: 10
 extra:
   menu_title: Skenk
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps is _gratis vir almal_ danksy jou **[skenkings][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

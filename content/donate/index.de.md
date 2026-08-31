@@ -2,7 +2,7 @@
 description: "Dein Geld finanziert alle projektbezogenen Kosten und motiviert uns, Organic Maps zu verbessern."
 extra:
   menu_title: Spenden
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Spende, um die Entwicklung von Organic Maps zu unterstützen"
 weight: 10
 ---

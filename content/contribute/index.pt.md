@@ -2,7 +2,7 @@
 description: "Diferentes formas de apoiar o desenvolvimento da nossa aplicação gratuita"
 extra:
   menu_title: Contribuir
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Apoia o desenvolvimento do Organic Maps"
 weight: 20
 ---

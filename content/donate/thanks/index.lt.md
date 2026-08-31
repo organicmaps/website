@@ -4,7 +4,7 @@ description: "Jūsų auka padeda užtikrinti, kad Organic Maps visame pasaulyje 
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Jūs ką tik padėjote užtikrinti, kad Organic Maps ir toliau būtų **nemokama ir be reklamų** visiems pasaulio vartotojams.

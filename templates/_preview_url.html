@@ -1,0 +1,27 @@
+{# Resolve a preview-image value to an absolute URL. One rule, three callers:
+   base.html (og:image), _jsonld_news.html (NewsArticle "image") and
+   sitemap.xml (<image:loc>).
+
+     https://…   an external URL, used verbatim
+     /path.png   a site-root path, resolved against site_url
+     file.png    a colocated asset of this page. Zola copies those into the
+                 page's own output directory, which is per-language and keyed
+                 by slug, so it hangs off page_url rather than the site root.
+
+   The leading slash is the explicit site-root marker. "Contains a slash" would
+   read 'donate/donate.png' as site-root, which is true only because the content
+   directory name happens to equal the English URL path - and it would point
+   every translation at the English copy of its own colocated asset.
+
+   urlencode because asset filenames may hold spaces or non-ASCII. Tera's safe
+   set keeps '/' but percent-encodes ':', so it must only ever touch a filename,
+   never an already-assembled URL.
+
+   Tera v2 replaced macros with components, and a component gets an isolated
+   context - hence site_url as an explicit argument rather than config.base_url. #}
+{% component preview_url(value, page_url, site_url) -%}
+{%- if value is starting_with(pat='http') -%}{{ value }}
+{%- elif value is starting_with(pat='/') -%}{{ site_url }}{{ value }}
+{%- else -%}{{ page_url }}{{ value | urlencode }}
+{%- endif -%}
+{%- endcomponent preview_url %}

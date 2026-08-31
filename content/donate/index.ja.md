@@ -4,7 +4,7 @@ description: あなたの資金はプロジェクト関連のすべての費用�
 weight: 10
 extra:
   menu_title: 寄付
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps アプリは、あなたの **[寄付][stripe]** のおかげで **_[すべての人にとって無料]_** です (**[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** に対応):

@@ -4,7 +4,7 @@ description: כספכם משלם עבור כל ההוצאות הקשורות ל�
 weight: 10
 extra:
   menu_title: תרומה
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 אפליקציית Organic Maps היא _חופשית לכולם_ תודות ל-**[תרומות][stripe]** שלכם ב-**[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:

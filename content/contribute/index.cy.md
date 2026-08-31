@@ -2,7 +2,7 @@
 description: "Ffyrdd gwahanol o gynorthwyo’r datblygiad o'n hap am ddim"
 extra:
   menu_title: "Cefnogi Ni"
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Cefnoga ddatblygiad Organic Maps"
 weight: 20
 ---

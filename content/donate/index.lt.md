@@ -4,7 +4,7 @@ description: "Jūsų pinigai padengia visas su projektu susijusias išlaidas ir 
 weight: 10
 extra:
   menu_title: Paremkite
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]** valiutomis:

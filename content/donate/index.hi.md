@@ -4,7 +4,7 @@ description: आपकी धनराशि सभी परियोजना-
 weight: 10
 extra:
   menu_title: दान करें
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps ऐप _सभी के लिए मुफ्त_ है, आपके **[दान][stripe]** के कारण **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

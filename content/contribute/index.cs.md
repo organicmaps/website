@@ -2,7 +2,7 @@
 description: "Různé způsoby podpory vývoje naší bezplatné aplikace"
 extra:
   menu_title: "Podpořte nás"
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Podpora vývoje Organic Maps"
 weight: 20
 ---

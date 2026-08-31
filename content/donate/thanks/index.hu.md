@@ -4,7 +4,7 @@ description: "Adományoddal hozzájárulsz ahhoz, hogy az Organic Maps világsze
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Segítettél abban, hogy az Organic Maps **ingyenes és hirdetésmentes** maradjon mindenki számára világszerte.

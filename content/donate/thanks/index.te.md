@@ -4,7 +4,7 @@ description: "మీ విరాళం Organic Maps‌ను ప్రపంచ
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 మీరు ప్రపంచవ్యాప్తంగా ప్రతిఒక్కరికీ Organic Maps-ను **ఉచితంగా మరియు ప్రకటనలు లేకుండా** ఉంచడంలో సహాయం చేశారు.

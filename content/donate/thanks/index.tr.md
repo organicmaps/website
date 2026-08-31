@@ -4,7 +4,7 @@ description: "Bağışın, Organic Maps'in dünya genelindeki herkes için ücre
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Organic Maps'in dünyanın her yerinden herkes için **ücretsiz ve reklamsız** kalmasına katkıda bulundun.

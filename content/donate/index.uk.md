@@ -2,7 +2,7 @@
 description: "Ваші гроші покривають усі витрати, пов'язані з проєктом, і мотивують нас вдосконалювати Organic Maps."
 extra:
   menu_title: Пожертвувати
-  preview_image: donate/donate.png
+  preview_image: donate.png
   translation_omits_refs: ["stripe_rub"]
 title: "Пожертвуйте, щоб підтримати розвиток Organic Maps"
 weight: 10

@@ -2,7 +2,7 @@
 description: "Sinu annetatud raha eest tasume projektikulusid ning see motiveerib meid Organic Mapsi edasi arendama."
 extra:
   menu_title: "Toeta rahaliselt"
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Toeta rahaliselt Organic Mapsi arendust"
 weight: 10
 ---

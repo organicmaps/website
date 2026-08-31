@@ -4,7 +4,7 @@ description: "Deine Spende trägt dazu bei, dass Organic Maps für alle Menschen
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Du hast gerade dazu beigetragen, dass Organic Maps für alle Menschen weltweit **kostenlos und werbefrei** bleibt.

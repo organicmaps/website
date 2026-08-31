@@ -2,7 +2,7 @@
 description: 支持我们免费应用程序开发的不同方式
 extra:
   menu_title: 支持我们
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "支持Organic Maps发展"
 weight: 20
 ---

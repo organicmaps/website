@@ -4,7 +4,7 @@ description: "کمک مالی شما کمک می‌کند Organic Maps برای 
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 شما همین حالا کمک کردید تا Organic Maps برای همه مردم سراسر جهان **رایگان و بدون تبلیغات** باقی بماند.

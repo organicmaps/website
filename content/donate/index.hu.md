@@ -2,7 +2,7 @@
 description: "A pénzed fedezi a projekttel kapcsolatos összes kiadást, és motivál bennünket az Organic Maps jobbá tételéhez."
 extra:
   menu_title: Adományozás
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Adományozz az Organic Maps fejlesztésének támogatására"
 weight: 10
 ---

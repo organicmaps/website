@@ -4,7 +4,7 @@ description: "Zure dohaintzak Organic Maps mundu osoko guztientzat doan, iragark
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Oraintxe lagundu duzu mundu osoko guztientzat Organic Maps **doan eta iragarkirik gabe** mantentzen.

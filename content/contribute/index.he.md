@@ -4,7 +4,7 @@ description: דרכים שונות לתמוך בפיתוח האפליקציה ה
 weight: 20
 extra:
   menu_title: איך לעזור
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps היא אפליקציה חינמית בקוד פתוח. היא נקייה מפרסומות, אינה אוספת את המידע האישי שלכם, ומפותחת על ידי מספר חובבים בעזרת הקהילה.

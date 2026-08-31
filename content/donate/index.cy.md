@@ -4,7 +4,7 @@ description: Mae dy arian yn talu am bob cost sy'n gysylltiedig â'r prosiect ac
 weight: 10
 extra:
   menu_title: Rhodda
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

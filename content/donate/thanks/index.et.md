@@ -4,7 +4,7 @@ description: "Sinu annetus aitab hoida Organic Mapsi kõigile üle maailma tasut
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Sa aitasid just kaasa sellele, et Organic Maps jääks **tasuta ja reklaamivabaks** kõigile üle maailma.

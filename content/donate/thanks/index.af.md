@@ -4,7 +4,7 @@ description: "Jou donasie help om Organic Maps gratis, advertensievry en privaat
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Jy het pas gehelp om Organic Maps vir almal regoor die wêreld **gratis en sonder advertensies** te hou.

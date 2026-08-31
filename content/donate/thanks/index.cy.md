@@ -4,7 +4,7 @@ description: "Mae dy rodd yn helpu i gadw Organic Maps yn rhad ac am ddim, heb h
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Rwyt ti newydd helpu i gadw Organic Maps yn **rhad ac am ddim a di-hysbyseb** i bawb ledled y byd.

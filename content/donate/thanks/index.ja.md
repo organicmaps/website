@@ -4,7 +4,7 @@ description: "あなたの寄付は、世界中の誰もが Organic Maps を無�
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 今ご支援いただき、Organic Maps を**無料で・広告なし**のものとして、世界中の皆さまで保ち続ける一助となりました。

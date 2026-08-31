@@ -2,7 +2,7 @@
 description: "Z vašich peněz se hradí všechny výdaje spojené s projektem a motivují nás ke zlepšování Organic Maps."
 extra:
   menu_title: Přispějte
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Přispějte na podporu vývoje Organic Maps"
 weight: 10
 ---

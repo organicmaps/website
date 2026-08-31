@@ -4,7 +4,7 @@ description: پول شما تمام هزینه‌های مربوط به پروژ
 weight: 10
 extra:
   menu_title: کمک مالی
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 اپلیکیشن Organic Maps به لطف **[کمک‌های مالی شما][stripe]** در **[یورو][stripe_eur]، [دلار][stripe_usd]، [پوند][stripe_GBP]، [فرانک سوئیس][stripe_chf]، [زلوتی لهستان][stripe_pln]، [روبل روسیه][stripe_rub]** برای همه _رایگان_ است:

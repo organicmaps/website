@@ -4,7 +4,7 @@ description: "तुमच्या देणगीमुळे Organic Maps ज
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 तुम्ही नुकताच संपूर्ण जगभरातील सर्वांसाठी Organic Maps **मोफत आणि जाहिरातमुक्त** ठेवण्यास मदत केली.

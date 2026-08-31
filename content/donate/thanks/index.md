@@ -4,7 +4,7 @@ description: Your donation helps keep Organic Maps free, ad-free, and privacy-fo
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 You just helped keep Organic Maps **free and ad-free** for everyone around the world.

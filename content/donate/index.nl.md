@@ -2,7 +2,7 @@
 description: "Je geld betaalt voor alle project-gerelateerde uitgaven en motiveert ons om Organic Maps te verbeteren."
 extra:
   menu_title: Doneer
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Doneer om de ontwikkeling van Organic Maps te ondersteunen"
 weight: 10
 ---

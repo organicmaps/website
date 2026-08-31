@@ -4,7 +4,7 @@ description: 私たちの無料アプリケーションの開発を支援する�
 weight: 20
 extra:
   menu_title: 貢献する
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps は無料のオープンソースアプリです。広告がなく、個人情報も収集せず、コミュニティの助けを借りた少数の愛好家によって開発されています。

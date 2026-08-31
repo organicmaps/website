@@ -4,7 +4,7 @@ description: "I tuoi soldi coprono tutte le spese relative al progetto e ci spin
 weight: 10
 extra:
   menu_title: "Fai una donazione"
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 L'app Organic Maps è _gratuita per tutti_ grazie alle tue **[donazioni][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

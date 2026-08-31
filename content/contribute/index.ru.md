@@ -4,7 +4,7 @@ description: Различные способы поддержать проект
 weight: 20
 extra:
   menu_title: Помочь проекту
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps – это бесплатное приложение с открытым исходным кодом. В нем нет рекламы, оно не собирает вашу личную информацию и разрабатывается несколькими энтузиастами с при поддержке сообщества.

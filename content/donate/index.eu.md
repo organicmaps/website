@@ -4,7 +4,7 @@ description: Zure diruak proiektuarekin lotutako gastu guztiak ordaintzen ditu e
 weight: 10
 extra:
   menu_title: Eman
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps aplikazioa _doakoa da guztiontzat_ zure **[emaitzak][stripe]** **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** bidez:

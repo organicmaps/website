@@ -4,7 +4,7 @@ description: Skirtingi būdai palaikyti mūsų nemokamos programos plėtrą
 weight: 20
 extra:
   menu_title: Prisidėti
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps yra nemokama atvirojo kodo programa. Ji neturi reklamų, nerenka jūsų asmeninės informacijos ir yra kuriama kelių entuziastų kartu su bendruomene.

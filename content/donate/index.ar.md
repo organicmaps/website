@@ -4,7 +4,7 @@ description: تساهم أموالك في تغطية جميع نفقات الم�
 weight: 10
 extra:
   menu_title: تبرع
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 تطبيق Organic Maps _مجاني للجميع_ بفضل **[تبرعاتكم][stripe]** بعملات **[اليورو][stripe_eur]، [الدولار][stripe_usd]، [الجنيه الإسترليني][stripe_GBP]، [الفرنك السويسري][stripe_chf]، [الزلوتي البولندي][stripe_pln]، [الروبل الروسي][stripe_rub]**:

@@ -42,11 +42,11 @@
   {% if media is matching(pat="\\.mp3$") %}
   {% elif media is matching(pat="\\.mp4$") %}
     <video class="news_video" controls>
-      <source src="{{ page.permalink }}/{{ media | split(pat='/') | last }}" type="video/mp4">
+      <source src="{{ page.path | safe }}{{ media | split(pat='/') | last | urlencode }}" type="video/mp4">
     </video>
   {% else %} {# It's images #}
     {% set meta = get_image_metadata(path=media) %}
-    <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ page.path | safe }}{{ media | split(pat='/') | last }}" />
+    <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ page.path | safe }}{{ media | split(pat='/') | last | urlencode }}" />
   {% endif %}
 {% endfor %}
 </span>

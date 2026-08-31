@@ -2,7 +2,7 @@
 description: "O teu dinheiro paga todas as despesas relacionadas com o projeto e motiva-nos a melhorar o Organic Maps."
 extra:
   menu_title: Doar
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Faz uma doação para apoiar o desenvolvimento do Organic Maps"
 weight: 10
 ---

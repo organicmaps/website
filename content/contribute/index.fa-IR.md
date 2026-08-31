@@ -4,7 +4,7 @@ description: روش‌های مختلف برای حمایت از توسعه بر
 weight: 20
 extra:
   menu_title: مشارکت
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps یک برنامه رایگان و متن‌باز است. بدون تبلیغات، بدون جمع‌آوری اطلاعات شخصی، و توسعه‌یافته توسط چند علاقه‌مند با کمک اجتماع.

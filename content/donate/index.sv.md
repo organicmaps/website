@@ -4,7 +4,7 @@ description: Dina pengar betalar för alla projektkostnader och motiverar oss at
 weight: 10
 extra:
   menu_title: Donera
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 Organic Maps-appen är _gratis för alla_ tack vare dina **[donationer][stripe]** i **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

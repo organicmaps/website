@@ -4,7 +4,7 @@ description: "A túa doazón axuda a manter Organic Maps gratuíto, sen anuncios
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Acabaches de axudar a manter Organic Maps **gratuíto e sen anuncios** para todas as persoas do mundo.

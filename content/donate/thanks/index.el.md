@@ -4,7 +4,7 @@ description: "Η δωρεά σου συμβάλλει στο να παραμεί
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Μόλις βοήθησες να παραμείνει το Organic Maps **δωρεάν και χωρίς διαφημίσεις** για όλους σε όλο τον κόσμο.

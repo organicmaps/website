@@ -4,7 +4,7 @@ description: "Ваши пожертвования помогают сохран�
 template: donate-thanks.html
 weight: 100
 extra:
-  preview_image: donate/donate.png
+  preview_image: /donate/donate.png
 ---
 
 Благодаря вам, карты Organic Maps остаются **бесплатными и без рекламы** для всех.

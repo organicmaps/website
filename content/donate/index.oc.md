@@ -4,7 +4,7 @@ description: Tos donatius pagon totas las despensas del projècte e nos motivan 
 weight: 10
 extra:
   menu_title: Donar
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 L’aplicacion Organic Maps es _gratuita per totes_ gràcias a tos **[donatius][stripe]** en **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:

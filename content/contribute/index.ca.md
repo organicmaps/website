@@ -2,7 +2,7 @@
 description: "Diferents maneres de donar suport al desenvolupament de la nostra aplicació lliure"
 extra:
   menu_title: "Dona suport"
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Dona suport al desenvolupament de l'Organic Maps"
 weight: 20
 ---

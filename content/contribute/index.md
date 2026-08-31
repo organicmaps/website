@@ -4,7 +4,7 @@ description: Different ways to support the development of our free application
 weight: 20
 extra:
   menu_title: Contribute
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps is a free, open-source app. It is free from ads, it does not collect your personal information, and it is developed by a few enthusiasts with the help of the community.

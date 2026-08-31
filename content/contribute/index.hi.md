@@ -2,7 +2,7 @@
 description: "हमारे मुफ्त एप्लिकेशन के विकास का समर्थन करने के विभिन्न तरीके"
 extra:
   menu_title: "हमारा सहयोग करें"
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 title: "Organic Maps के विकास का समर्थन करें"
 weight: 20
 ---

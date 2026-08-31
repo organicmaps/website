@@ -4,7 +4,7 @@ description: आमच्या मोफत अॅप्लिकेशनच�
 weight: 20
 extra:
   menu_title: योगदान द्या
-  preview_image: contribute/contribute.jpg
+  preview_image: contribute.jpg
 ---
 
 Organic Maps हे एक मोफत, मुक्त-स्रोत अॅप आहे. त्यात जाहिराती नाहीत, ते तुमची वैयक्तिक माहिती गोळा करत नाही, आणि समुदायाच्या मदतीने काही उत्साही लोकांद्वारे विकसित केले जाते.

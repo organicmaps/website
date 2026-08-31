@@ -2,7 +2,7 @@
 description: "Twoje pieniądze pokrywają wszystkie wydatki związane z projektem i motywują nas do ulepszania Organic Maps."
 extra:
   menu_title: "Wspomóż finansowo"
-  preview_image: donate/donate.png
+  preview_image: donate.png
 title: "Przekaż darowiznę, aby wesprzeć rozwój Organic Maps"
 weight: 10
 ---

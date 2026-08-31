@@ -4,7 +4,7 @@ description: "Ton argent permet de couvrir toutes les dépenses liées au projet
 weight: 10
 extra:
   menu_title: Faire un don
-  preview_image: donate/donate.png
+  preview_image: donate.png
 ---
 
 L'application Organic Maps est _gratuite pour tout le monde_ grâce à tes **[donations][stripe]** en **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** :

@@ -5,7 +5,7 @@ slug: "klaidu-taisymai-patobulinimai-viesasis-transportas-marsrutai-paieska-zyme
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Kaip galbūt jau pastebėjote, pasirodė liepos mėnesio Organic Maps atnaujinimas. Jį galite atsisiųsti iš <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ir [F-Droid][fdroid].

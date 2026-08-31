@@ -4,7 +4,7 @@ description: Paran, projeyle ilgili tüm masrafları karşılamamızı sağlıyo
 weight: 10
 extra:
   menu_title: Bağış Yap
-  preview_image: donate/bağış.png
+  preview_image: bağış.png
 ---
 
 Organic Maps, **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** cinsinden yaptığın **[bağışların][stripe]** sayesinde _herkes için ücretsizdir_:

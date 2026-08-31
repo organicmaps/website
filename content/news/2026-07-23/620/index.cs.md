@@ -5,7 +5,7 @@ slug: "opravy-chyb-vylepseni-verejna-doprava-planovani-tras-vyhledavani-zalozky-
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Jak jste si možná už všimli, byla vydána červencová aktualizace Organic Maps. Stáhněte si ji na adrese <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] a [F-Droid][fdroid].

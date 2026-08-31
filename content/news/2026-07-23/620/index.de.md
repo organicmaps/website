@@ -5,7 +5,7 @@ slug: "fehlerbehebungen-verbesserungen-oepnv-routenplanung-suche-lesezeichen-jul
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Wie du vielleicht schon bemerkt hast, ist das Juli-Update von Organic Maps erschienen. Du kannst es unter <https://get.omaps.org> oder auf [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] und [F-Droid][fdroid] herunterladen.

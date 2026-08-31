@@ -5,7 +5,7 @@ slug: "poprawki-bledow-ulepszenia-transport-publiczny-trasy-wyszukiwanie-zakladk
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Jak być może już zauważyłeś, ukazała się lipcowa aktualizacja Organic Maps. Możesz ją pobrać ze strony <https://get.omaps.org> lub z serwisów [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] oraz [F-Droid][fdroid].

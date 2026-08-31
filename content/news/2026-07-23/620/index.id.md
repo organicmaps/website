@@ -5,7 +5,7 @@ slug: "perbaikan-bug-peningkatan-transportasi-umum-rute-pencarian-penanda-juli-2
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Seperti yang mungkin sudah kamu ketahui, pembaruan Organic Maps bulan Juli telah dirilis. Unduh di <https://get.omaps.org> atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], dan [F-Droid][fdroid].

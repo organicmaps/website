@@ -5,7 +5,7 @@ slug: "diorthoseis-sfalmaton-veltioseis-dimosies-sygkoinonies-diadromes-anazitis
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Όπως ίσως έχεις ήδη παρατηρήσει, η ενημέρωση του Ιουλίου για το Organic Maps είναι διαθέσιμη. Μπορείς να την κατεβάσεις από τη διεύθυνση <https://get.omaps.org> ή από τα [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] και [F-Droid][fdroid].

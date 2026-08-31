@@ -4,7 +4,7 @@ description: Ücretsiz uygulamamızın gelişimini desteklemenin farklı yollar�
 weight: 20
 extra:
   menu_title: Bizi Destekle
-  preview_image: support-us/Destekle.png
+  preview_image: Destekle.png
 ---
 
 Organic Maps ücretsiz, açık kaynaklı bir uygulamadır. Reklam içermez, kişisel bilgilerini toplamaz ve topluluğun yardımıyla teknoloji tutkunları tarafından geliştirilir.

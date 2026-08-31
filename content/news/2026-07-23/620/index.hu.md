@@ -5,7 +5,7 @@ slug: "hibajavitasok-fejlesztesek-tomegkozlekedes-utvonaltervezes-kereses-konyvj
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Ahogyan talán már észrevetted, megjelent a júliusi Organic Maps frissítés. Letöltheted a <https://get.omaps.org> oldalról, illetve az [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] és [F-Droid][fdroid] weboldalakon.

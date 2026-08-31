@@ -5,7 +5,7 @@ slug: "رفع-اشکالات-و-بهبودها-حمل‌ونقل-عمومی-مس
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 همان‌طور که احتمالاً متوجه شده‌اید، به‌روزرسانی ماه ژوئیهٔ Organic Maps منتشر شده است. آن را از <https://get.omaps.org> یا در [App Store][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [Accrescent][accrescent] و [F-Droid][fdroid] دریافت کنید.

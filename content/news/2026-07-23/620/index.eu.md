@@ -5,7 +5,7 @@ slug: "akats-zuzenketak-hobekuntzak-garraio-publikoa-ibilbideak-bilaketa-laster-
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Agian jada ohartu zaren bezala, uztaileko Organic Maps eguneraketa kaleratu da. Lortu hemen: <https://get.omaps.org> edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] eta [F-Droid][fdroid].

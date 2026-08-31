@@ -5,7 +5,7 @@ slug: "hata-duzeltmeleri-iyilestirmeler-toplu-tasima-rota-arama-yer-imleri-temmu
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Belki de fark etmişsindir, Temmuz ayı Organic Maps güncellemesi yayınlandı. Güncellemeyi <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ve [F-Droid][fdroid] mağazalarından indirebilirsin.

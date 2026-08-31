@@ -5,7 +5,7 @@ slug: "bug-parishkaralu-mempulu-praja-ravana-margalu-sodhana-bookmarklu-july-202
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 మీరు ఇప్పటికే గమనించి ఉండవచ్చు, జూలై నెల Organic Maps అప్‌డేట్ విడుదలైంది. దీనిని <https://get.omaps.org> లో లేదా [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], మరియు [F-Droid][fdroid] లలో పొందండి.

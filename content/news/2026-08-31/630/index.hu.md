@@ -11,10 +11,10 @@ extra:
 Töltsd le a 2026. augusztusi Organic Maps kiadást a <https://get.omaps.org> oldalról, illetve az [App Store][appstore], a [Google Play][googleplay], a [Huawei AppGallery][appgallery] és az [Obtainium][obtainium] áruházból (az [Accrescent][accrescent] és az [F-Droid][fdroid] is hamarosan elérhető lesz).
 
 Miért érdemes frissíteni?
-- Többelemű kijelölés a Könyvjelzők és Nyomvonalak listában, tömeges törléssel, áthelyezéssel és színmódosítással
+- Több könyvjelző és nyomvonal egyidejű törlése, áthelyezése és színének módosítása
 - CarPlay-műszerfal
 - Egyes nyomvonalak elrejtése a térképen
-- Olvasható megosztási linkek helyekhez, könyvjelzőkhöz és az aktuális pozícióhoz – emellett AirDrop iOS-en és „Share” művelet az asztali alkalmazásban
+- Olvasható megosztási linkek helyekhez, könyvjelzőkhöz és az aktuális pozícióhoz
 - Hangos útmutatás örmény és lao nyelven
 - Wikipédia-cikkek 19 nyelven
 …és számos további fejlesztés, hibajavítás, valamint frissített térképadat az alábbiakban.
@@ -64,7 +64,7 @@ Ne felejtsd el megnézni a korábbi [júniusi kiadás](@/news/2026-06-29/610/ind
 
 ### iOS
 
-- ÚJ: Többelemű kijelöléssel bővült a Könyvjelzők és Nyomvonalak lista, csoportos műveletekkel a kijelölt elemek törléséhez, áthelyezéséhez és színük megváltoztatásához, valamint „Összes kijelölése” és „Kijelölés megszüntetése” lehetőséggel _(Kiryl Kaveryn)_
+- ÚJ: Több könyvjelző és nyomvonal egyidejű törlése, áthelyezése és színének módosítása, valamint az „Összes kijelölése” és a „Kijelölés megszüntetése” lehetőség _(Kiryl Kaveryn)_
 - ÚJ: Hozzáadtunk egy CarPlay-műszerfalat _(Kiryl Kaveryn)_
 - Hozzáadtuk az AirDrop-támogatást a helyek megosztásához _(Kiryl Kaveryn)_
 - Több CarPlay-problémát kijavítottunk _(Kiryl Kaveryn, Alexander Borsuk)_

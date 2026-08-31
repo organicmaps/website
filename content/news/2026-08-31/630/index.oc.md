@@ -11,10 +11,10 @@ extra:
 Obtén la version d'agost de 2026 d'Organic Maps sus <https://get.omaps.org> o sus l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] ([Accrescent][accrescent] e [F-Droid][fdroid] arribaràn lèu tanben).
 
 Perqué metre a jorn?
-- Seleccion multipla dins los marcadors e las traças amb supression, desplaçament e cambiament de color en massa
+- Suprimir, desplaçar e cambiar la color de mantuns marcadors e traças a l'encòp
 - Tablèu de bòrd CarPlay
 - Amagar de traças individualas sus la mapa
-- Ligams de partatge legibles pels luòcs, los marcadors e ta posicion actuala — e tanben AirDrop sus iOS e una accion «Share» sus l'escriptòri
+- Ligams de partatge legibles pels luòcs, los marcadors e ta posicion actuala
 - Guidatge vocal en armèni e en lao
 - Articles de Wikipèdia en 19 lengas
 …e fòrça autres melhoraments, correccions de bugs e donadas de mapa actualizadas çai-jos.
@@ -64,7 +64,7 @@ Doblides pas tanpauc de consultar las nòtas de las versions precedentas de [jun
 
 ### iOS
 
-- NÒU: Apondut la seleccion multipla a la lista de marcadors e de traças, amb d'accions en massa per suprimir, desplaçar e cambiar la color dels elements seleccionats, e tanben «Seleccionar tot» e «Deseleccionar tot» _(Kiryl Kaveryn)_
+- NÒU: Suprimir, desplaçar e cambiar la color de mantuns marcadors e traças a l'encòp, e tanben «Seleccionar tot» e «Deseleccionar tot» _(Kiryl Kaveryn)_
 - NÒU: Apondut un tablèu de bòrd CarPlay _(Kiryl Kaveryn)_
 - Apondut lo supòrt d'AirDrop per partejar de luòcs _(Kiryl Kaveryn)_
 - Correccion de mantuns problèmas de CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

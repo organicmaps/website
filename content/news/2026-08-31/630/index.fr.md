@@ -11,10 +11,10 @@ extra:
 Télécharge la version d'août 2026 d'Organic Maps sur <https://get.omaps.org> ou sur l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] ([Accrescent][accrescent] et [F-Droid][fdroid] arrivent bientôt eux aussi).
 
 Pourquoi mettre à jour ?
-- Sélection multiple dans les signets et les traces, avec suppression, déplacement et changement de couleur groupés
+- Supprimer, déplacer et changer la couleur de plusieurs signets et traces à la fois
 - Tableau de bord CarPlay
 - Masquage de traces individuelles sur la carte
-- Liens de partage lisibles pour les lieux, les signets et ta position actuelle — sans oublier AirDrop sur iOS et une action « Share » sur ordinateur
+- Liens de partage lisibles pour les lieux, les signets et ta position actuelle
 - Guidage vocal en arménien et en lao
 - Articles Wikipédia en 19 langues
 …et bien d'autres améliorations, corrections de bugs et données cartographiques mises à jour ci-dessous.
@@ -64,7 +64,7 @@ N'oublie pas non plus de consulter les notes des versions précédentes de [juin
 
 ### iOS
 
-- NOUVEAU : ajout de la sélection multiple dans la liste des signets et des traces, avec des actions groupées pour supprimer, déplacer et changer la couleur des éléments sélectionnés, ainsi que les options « Tout sélectionner » et « Tout désélectionner » _(Kiryl Kaveryn)_
+- NOUVEAU : supprimer, déplacer et changer la couleur de plusieurs signets et traces à la fois, avec les options « Tout sélectionner » et « Tout désélectionner » _(Kiryl Kaveryn)_
 - NOUVEAU : ajout d'un tableau de bord CarPlay _(Kiryl Kaveryn)_
 - Ajout de la prise en charge d'AirDrop pour partager des lieux _(Kiryl Kaveryn)_
 - Correction de plusieurs problèmes liés à CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

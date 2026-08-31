@@ -11,10 +11,10 @@ extra:
 Ağustos 2026 tarihli Organic Maps sürümünü <https://get.omaps.org> adresinden veya [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] ve [Obtainium][obtainium] üzerinden edinebilirsin ([Accrescent][accrescent] ve [F-Droid][fdroid] de yakında kullanıma sunulacak).
 
 Neden güncellemelisin?
-- Yer İmleri ve İzler’de toplu silme, taşıma ve renk değiştirme ile çoklu seçim
+- Birden fazla yer imini ve izi aynı anda silme, taşıma ve renklerini değiştirme
 - CarPlay gösterge paneli
 - Haritada tek tek izleri gizleme
-- Yerler, yer imleri ve mevcut konum için okunabilir paylaşım bağlantıları — ayrıca iOS’ta AirDrop ve Desktop’ta “Share” eylemi
+- Yerler, yer imleri ve mevcut konum için okunabilir paylaşım bağlantıları
 - Ermenice ve Lao dilinde sesli yönlendirme
 - 19 dilde Vikipedi maddeleri
 …ve aşağıda yer alan diğer birçok iyileştirme, hata düzeltmesi ve güncellenmiş harita verileri.
@@ -64,7 +64,7 @@ Neden güncellemelisin?
 
 ### iOS
 
-- YENİ: Yer İmleri ve İzler listesine çoklu seçim eklendi; seçilen öğeleri toplu olarak silme, taşıma ve renklerini değiştirme işlemlerinin yanı sıra “Tümünü seç” ve “Seçimi kaldır” seçenekleri de var _(Kiryl Kaveryn)_
+- YENİ: Birden fazla yer imini ve izi aynı anda silme, taşıma ve renklerini değiştirme, ayrıca “Tümünü seç” ve “Seçimi kaldır” seçenekleri _(Kiryl Kaveryn)_
 - YENİ: CarPlay gösterge paneli eklendi _(Kiryl Kaveryn)_
 - Yer paylaşımı için AirDrop desteği eklendi _(Kiryl Kaveryn)_
 - Birden fazla CarPlay sorunu giderildi _(Kiryl Kaveryn, Alexander Borsuk)_

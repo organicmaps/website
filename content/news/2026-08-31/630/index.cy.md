@@ -11,10 +11,10 @@ extra:
 Gelli gael fersiwn Awst 2026 o Organic Maps yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] (mae [Accrescent][accrescent] ac [F-Droid][fdroid] ar ddod yn fuan hefyd).
 
 Pam diweddaru?
-- Aml-ddewis yn y rhestr Nodau Tudalen a Thraciau, gyda dileu, symud a newid lliw fesul swp
+- Dileu, symud a newid lliw nifer o nodau tudalen a thraciau ar unwaith
 - Dangosfwrdd CarPlay
 - Cuddio traciau unigol ar y map
-- Dolenni rhannu darllenadwy ar gyfer lleoedd, nodau tudalen a'r lleoliad presennol — ynghyd ag AirDrop ar iOS a gweithred “Share” ar y bwrdd gwaith
+- Dolenni rhannu darllenadwy ar gyfer lleoedd, nodau tudalen a'r lleoliad presennol
 - Arweiniad llais yn Armeneg a Lao
 - Erthyglau Wicipedia mewn 19 iaith
 …a llawer o welliannau eraill, namau wedi'u trwsio, a data map wedi'i ddiweddaru isod.
@@ -64,7 +64,7 @@ Paid ag anghofio darllen nodiadau'r fersiynau blaenorol ar gyfer [Mehefin](@/new
 
 ### iOS
 
-- NEWYDD: Ychwanegwyd aml-ddewis at y rhestr Nodau Tudalen a Thraciau, gyda gweithredoedd swp i ddileu, symud a newid lliw'r eitemau a ddewiswyd, ynghyd â ‘Dewis y Cyfan’ a ‘Dad-ddewis y Cyfan’ _(Kiryl Kaveryn)_
+- NEWYDD: Dileu, symud a newid lliw nifer o nodau tudalen a thraciau ar unwaith, ynghyd â ‘Dewis y Cyfan’ a ‘Dad-ddewis y Cyfan’ _(Kiryl Kaveryn)_
 - NEWYDD: Ychwanegwyd dangosfwrdd CarPlay _(Kiryl Kaveryn)_
 - Ychwanegwyd cefnogaeth AirDrop ar gyfer rhannu lleoedd _(Kiryl Kaveryn)_
 - Trwsiwyd sawl problem CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

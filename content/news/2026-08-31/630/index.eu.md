@@ -11,10 +11,10 @@ extra:
 Lortu Organic Maps-en 2026ko abuztuko bertsioa <https://get.omaps.org> helbidean edo [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] eta [Obtainium][obtainium] dendetan ([Accrescent][accrescent] eta [F-Droid][fdroid] ere laster iritsiko dira).
 
 Zergatik eguneratu?
-- Hautaketa anitza laster-marken eta track-en zerrendan, multzoka ezabatzeko, mugitzeko eta kolorez aldatzeko
+- Hainbat laster-marka eta track aldi berean ezabatzea, mugitzea eta kolorez aldatzea
 - CarPlay-ko kontrol-taula
 - Track-ak banaka ezkutatzea mapan
-- Partekatzeko esteka irakurgarriak lekuentzat, laster-markentzat eta uneko kokapenarentzat — eta, gainera, AirDrop iOS-en eta «Share» ekintza bat mahaigaineko bertsioan
+- Partekatzeko esteka irakurgarriak lekuentzat, laster-markentzat eta uneko kokapenarentzat
 - Ahots-gida armenieraz eta laoseraz
 - Wikipediako artikuluak 19 hizkuntzatan
 …eta behean beste hainbat hobekuntza, akats-zuzenketa eta eguneratutako mapa-datu.
@@ -64,7 +64,7 @@ Ez ahaztu aurreko bertsioen oharrak ere irakurtzea: [ekainekoa](@/news/2026-06-2
 
 ### iOS
 
-- BERRIA: Laster-marken eta track-en zerrendan hautaketa anitza gehitu da, hautatutako elementuak multzoka ezabatzeko, mugitzeko eta kolorez aldatzeko ekintzekin, baita «Hautatu dena» eta «Kendu hautapena» aukerekin ere _(Kiryl Kaveryn)_
+- BERRIA: Hainbat laster-marka eta track aldi berean ezabatzea, mugitzea eta kolorez aldatzea, baita «Hautatu dena» eta «Kendu hautapena» aukerekin ere _(Kiryl Kaveryn)_
 - BERRIA: CarPlay-ko kontrol-taula bat gehitu da _(Kiryl Kaveryn)_
 - Lekuak partekatzeko AirDrop euskarria gehitu da _(Kiryl Kaveryn)_
 - CarPlay-ko hainbat arazo konpondu dira _(Kiryl Kaveryn, Alexander Borsuk)_

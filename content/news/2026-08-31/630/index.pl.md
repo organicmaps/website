@@ -11,10 +11,10 @@ extra:
 Pobierz aktualizację Organic Maps z sierpnia 2026 r. ze strony <https://get.omaps.org> lub ze sklepów [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] i [Obtainium][obtainium] (wkrótce pojawi się też w [Accrescent][accrescent] i [F-Droid][fdroid]).
 
 Po co aktualizować?
-- Zaznaczanie wielu pozycji na liście zakładek i śladów z możliwością zbiorczego usuwania, przenoszenia i zmiany koloru
+- Jednoczesne usuwanie, przenoszenie i zmienianie koloru wielu zakładek i śladów
 - Pulpit CarPlay
 - Ukrywanie poszczególnych śladów na mapie
-- Czytelne linki do udostępniania miejsc, zakładek i aktualnej lokalizacji — a do tego AirDrop na iOS i akcja „Share” w wersji Desktop
+- Czytelne linki do udostępniania miejsc, zakładek i aktualnej lokalizacji
 - Wskazówki głosowe w języku ormiańskim i laotańskim
 - Artykuły z Wikipedii w 19 językach
 …oraz wiele innych ulepszeń, poprawek błędów i zaktualizowane dane map — szczegóły poniżej.
@@ -64,7 +64,7 @@ Nie zapomnij też zajrzeć do informacji o poprzednich wydaniach — [czerwcowym
 
 ### iOS
 
-- NOWOŚĆ: Na liście zakładek i śladów można teraz zaznaczać wiele pozycji, z opcjami zbiorczego usuwania, przenoszenia i zmiany koloru zaznaczonych elementów oraz przyciskami „Zaznacz wszystko” i „Odznacz wszystko” _(Kiryl Kaveryn)_
+- NOWOŚĆ: Jednoczesne usuwanie, przenoszenie i zmienianie koloru wielu zakładek i śladów oraz przyciski „Zaznacz wszystko” i „Odznacz wszystko” _(Kiryl Kaveryn)_
 - NOWOŚĆ: Dodano pulpit CarPlay _(Kiryl Kaveryn)_
 - Dodano obsługę AirDrop do udostępniania miejsc _(Kiryl Kaveryn)_
 - Naprawiono kilka błędów związanych z CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

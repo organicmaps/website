@@ -11,10 +11,10 @@ extra:
 Aktualizaci Organic Maps ze srpna 2026 si stáhněte na adrese <https://get.omaps.org> nebo na [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] (brzy bude k dispozici také na [Accrescent][accrescent] a [F-Droid][fdroid]).
 
 Proč aktualizovat?
-- Vícenásobný výběr v seznamu záložek a stop s hromadným mazáním, přesouváním a změnou barvy
+- Mazání, přesouvání a změna barvy několika záložek a stop najednou
 - Panel CarPlay
 - Skrývání jednotlivých stop na mapě
-- Čitelné odkazy pro sdílení míst, záložek a aktuální polohy – a k tomu AirDrop na iOS a akce „Share“ na Desktopu
+- Čitelné odkazy pro sdílení míst, záložek a aktuální polohy
 - Hlasové pokyny v arménštině a laoštině
 - Články z Wikipedie v 19 jazycích
 …a mnoho dalších vylepšení, oprav chyb a aktualizovaných mapových dat níže.
@@ -64,7 +64,7 @@ Nezapomeňte se také podívat na poznámky k předchozím verzím za [červen](
 
 ### iOS
 
-- NOVINKA: Do seznamu záložek a stop byl přidán vícenásobný výběr s hromadnými akcemi pro mazání, přesouvání a změnu barvy vybraných položek a s tlačítky „Vybrat vše“ a „Zrušit výběr“ _(Kiryl Kaveryn)_
+- NOVINKA: Mazání, přesouvání a změna barvy několika záložek a stop najednou a tlačítka „Vybrat vše“ a „Zrušit výběr“ _(Kiryl Kaveryn)_
 - NOVINKA: Přidán panel CarPlay _(Kiryl Kaveryn)_
 - Přidána podpora AirDropu pro sdílení míst _(Kiryl Kaveryn)_
 - Opraveno několik problémů s CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

@@ -11,10 +11,10 @@ extra:
 你可以通过 <https://get.omaps.org> 或在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium] 下载 2026 年 8 月版的 Organic Maps（[Accrescent][accrescent] 和 [F-Droid][fdroid] 版本也即将上线）。
 
 为什么要更新？
-- 在“书签”和“轨迹”中支持多选，可批量删除、移动和更改颜色
+- 同时删除、移动多个书签和轨迹并更改它们的颜色
 - CarPlay 仪表盘
 - 在地图上隐藏单个轨迹
-- 地点、书签和当前位置的可读分享链接——此外，iOS 支持 AirDrop，桌面版新增“Share”操作
+- 地点、书签和当前位置的可读分享链接
 - 亚美尼亚语和老挝语的语音导航
 - 19 种语言的维基百科条目
 ……以及下面列出的许多其他改进、错误修复和更新的地图数据。
@@ -64,7 +64,7 @@ extra:
 
 ### iOS
 
-- 新功能：在“书签”和“轨迹”列表中新增了多选，可对选中的项目批量删除、移动和更改颜色，并新增了“全选”和“取消全选” _(Kiryl Kaveryn)_
+- 新功能：同时删除、移动多个书签和轨迹并更改它们的颜色，另有“全选”和“取消全选” _(Kiryl Kaveryn)_
 - 新功能：新增了 CarPlay 仪表盘 _(Kiryl Kaveryn)_
 - 新增了通过 AirDrop 分享地点的功能 _(Kiryl Kaveryn)_
 - 修复了多个 CarPlay 问题 _(Kiryl Kaveryn, Alexander Borsuk)_

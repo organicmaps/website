@@ -11,10 +11,10 @@ extra:
 Aconsegueix la versió d'agost de 2026 d'Organic Maps a <https://get.omaps.org> o a l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] ([Accrescent][accrescent] i [F-Droid][fdroid] també arribaran aviat).
 
 Per què actualitzar?
-- Selecció múltiple a «Marcadors» i «Traces», amb eliminació, desplaçament i canvi de color per lots
+- Eliminar, moure i canviar el color de diversos marcadors i traces alhora
 - Tauler de CarPlay
 - Amagar traces concretes al mapa
-- Enllaços per compartir llegibles per a llocs, marcadors i la teva posició actual — a més d'AirDrop a iOS i d'una acció «Share» a l'escriptori
+- Enllaços per compartir llegibles per a llocs, marcadors i la teva posició actual
 - Guia per veu en armeni i laosià
 - Articles de la Viquipèdia en 19 idiomes
 …i moltes altres millores, correccions d'errors i dades de mapa actualitzades a continuació.
@@ -64,7 +64,7 @@ Tampoc no t'oblidis de consultar les notes de versions anteriors del [juny](@/ne
 
 ### iOS
 
-- NOU: S'ha afegit la selecció múltiple a la llista de marcadors i traces, amb accions per lots per eliminar, moure i canviar el color dels elements seleccionats, a més de «Selecciona-ho tot» i «Desselecciona-ho tot» _(Kiryl Kaveryn)_
+- NOU: Eliminar, moure i canviar el color de diversos marcadors i traces alhora, a més de «Selecciona-ho tot» i «Desselecciona-ho tot» _(Kiryl Kaveryn)_
 - NOU: S'ha afegit un tauler de CarPlay _(Kiryl Kaveryn)_
 - S'ha afegit compatibilitat amb AirDrop per compartir llocs _(Kiryl Kaveryn)_
 - S'han solucionat diversos problemes de CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

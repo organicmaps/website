@@ -116,12 +116,21 @@
   {%- set preview_image = 'images/screenshots/prague.jpg' -%}
   {%- set has_article_image = false -%}
   {%- if resource.extra is defined and resource.extra.preview_image -%}
+  {# A bare filename is one of the page's own colocated assets. Zola copies
+     those into each page's output directory, which is per-language and keyed
+     by slug, so resolve it against resource_path rather than the site root -
+     a site-root path like 'news/2026-08-31/630/x.jpg' never exists in public/.
+     A value containing a slash is taken as a site-root path as before.
+     urlencode because asset filenames may hold spaces or non-ASCII. #}
   {%- set preview_image = resource.extra.preview_image -%}
+  {%- if not (preview_image is containing(pat='/')) -%}
+  {%- set preview_image = resource_path ~ (preview_image | urlencode) -%}
+  {%- endif -%}
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
   {%- set basename = resource.assets[0] | split(pat='/') | last %}
   {%- if basename is ending_with(pat='.jpg') or basename is ending_with(pat='.jpeg') or basename is ending_with(pat='.png') or basename is ending_with(pat='.webp') %}
-  {%- set preview_image = resource_path ~ basename -%}
+  {%- set preview_image = resource_path ~ (basename | urlencode) -%}
   {%- set has_article_image = true -%}
   {%- endif %}
   {%- endif %}

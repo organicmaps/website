@@ -11,10 +11,10 @@ extra:
 Dapatkan rilis Organic Maps bulan Agustus 2026 di <https://get.omaps.org> atau di [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], dan [Obtainium][obtainium] ([Accrescent][accrescent] dan [F-Droid][fdroid] juga akan segera tersedia).
 
 Mengapa perlu memperbarui?
-- Pemilihan ganda di Penanda dan Trek dengan penghapusan, pemindahan, dan perubahan warna secara massal
+- Menghapus, memindahkan, dan mengubah warna beberapa penanda dan trek sekaligus
 - Dasbor CarPlay
 - Menyembunyikan masing-masing trek di peta
-- Tautan berbagi yang mudah dibaca untuk tempat, penanda, dan posisi saat ini — ditambah AirDrop di iOS dan tindakan “Share” di Desktop
+- Tautan berbagi yang mudah dibaca untuk tempat, penanda, dan posisi saat ini
 - Panduan suara dalam bahasa Armenia dan Laos
 - Artikel Wikipedia dalam 19 bahasa
 …serta berbagai peningkatan lainnya, perbaikan bug, dan data peta yang diperbarui seperti tercantum di bawah ini.
@@ -64,7 +64,7 @@ Jangan lupa juga untuk membaca catatan rilis sebelumnya untuk [Juni](@/news/2026
 
 ### iOS
 
-- BARU: Telah ditambahkan fitur pemilihan ganda pada daftar Penanda dan Trek, lengkap dengan tindakan massal untuk menghapus, memindahkan, dan mengubah warna item yang dipilih, serta opsi “Pilih semua” dan “Batalkan pilihan” _(Kiryl Kaveryn)_
+- BARU: Menghapus, memindahkan, dan mengubah warna beberapa penanda dan trek sekaligus, ditambah opsi “Pilih semua” dan “Batalkan pilihan” _(Kiryl Kaveryn)_
 - BARU: Telah ditambahkan dasbor CarPlay _(Kiryl Kaveryn)_
 - Telah ditambahkan dukungan AirDrop untuk berbagi tempat _(Kiryl Kaveryn)_
 - Telah diperbaiki beberapa masalah CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

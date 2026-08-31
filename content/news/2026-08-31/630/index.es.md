@@ -11,10 +11,10 @@ extra:
 Consigue la versión de agosto de 2026 de Organic Maps en <https://get.omaps.org> o en la [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] ([Accrescent][accrescent] y [F-Droid][fdroid] también llegarán muy pronto).
 
 ¿Por qué actualizar?
-- Selección múltiple en «Marcadores» y «Tracks», con opciones para eliminar, mover y cambiar el color en bloque
+- Eliminar, mover y cambiar el color de varios marcadores y tracks a la vez
 - Panel de CarPlay
 - Ocultar tracks concretos en el mapa
-- Enlaces para compartir fáciles de leer para lugares, marcadores y tu ubicación actual, además de AirDrop en iOS y una acción «Share» en la versión de escritorio
+- Enlaces para compartir fáciles de leer para lugares, marcadores y tu ubicación actual
 - Guía por voz en armenio y laosiano
 - Artículos de Wikipedia en 19 idiomas
 …y muchas otras mejoras, correcciones de errores y datos de mapas actualizados a continuación.
@@ -64,7 +64,7 @@ No olvides consultar también las notas de las versiones anteriores de [junio](@
 
 ### iOS
 
-- NUEVO: Se ha añadido la selección múltiple a la lista de marcadores y tracks, con acciones en bloque para eliminar, mover y cambiar el color de los elementos seleccionados, además de «Seleccionar todo» y «Deseleccionar todo» _(Kiryl Kaveryn)_
+- NUEVO: Eliminar, mover y cambiar el color de varios marcadores y tracks a la vez, además de «Seleccionar todo» y «Deseleccionar todo» _(Kiryl Kaveryn)_
 - NUEVO: Se ha añadido un panel de CarPlay _(Kiryl Kaveryn)_
 - Se ha añadido compatibilidad con AirDrop para compartir lugares _(Kiryl Kaveryn)_
 - Se han solucionado varios problemas con CarPlay _(Kiryl Kaveryn, Alexander Borsuk)_

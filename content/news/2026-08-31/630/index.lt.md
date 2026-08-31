@@ -11,10 +11,10 @@ extra:
 Atsisiųskite 2026 m. rugpjūčio Organic Maps atnaujinimą iš <https://get.omaps.org> arba iš [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] (netrukus jis pasirodys ir [Accrescent][accrescent] bei [F-Droid][fdroid]).
 
 Kodėl verta atnaujinti?
-- Kelių žymų ir trasų pažymėjimas sąraše su galimybe iš karto ištrinti, perkelti ar pakeisti spalvą
+- Kelių žymų ir trasų ištrynimas, perkėlimas ir spalvos keitimas vienu metu
 - CarPlay skydelis
 - Atskirų trasų slėpimas žemėlapyje
-- Aiškios nuorodos dalijantis vietomis, žymomis ir dabartine buvimo vieta – taip pat AirDrop iOS sistemoje ir veiksmas „Share“ Desktop versijoje
+- Aiškios nuorodos dalijantis vietomis, žymomis ir dabartine buvimo vieta
 - Balso nurodymai armėnų ir laosiečių kalbomis
 - Vikipedijos straipsniai 19 kalbų
 …ir daugybė kitų patobulinimų, klaidų taisymų bei atnaujintų žemėlapių duomenų, aprašytų žemiau.
@@ -64,7 +64,7 @@ Taip pat nepamirškite peržiūrėti ankstesnių [birželio leidimo](@/news/2026
 
 ### iOS
 
-- NAUJOVĖ: Žymų ir trasų sąraše atsirado galimybė pažymėti kelis elementus ir iš karto ištrinti, perkelti ar pakeisti pažymėtų elementų spalvą, taip pat mygtukai „Pasirinkti viską“ ir „Atšaukti pasirinkimą“ _(Kiryl Kaveryn)_
+- NAUJOVĖ: Kelių žymų ir trasų ištrynimas, perkėlimas ir spalvos keitimas vienu metu, taip pat mygtukai „Pasirinkti viską“ ir „Atšaukti pasirinkimą“ _(Kiryl Kaveryn)_
 - NAUJOVĖ: Pridėtas CarPlay skydelis _(Kiryl Kaveryn)_
 - Pridėtas AirDrop palaikymas dalijantis vietomis _(Kiryl Kaveryn)_
 - Ištaisyta keletas CarPlay problemų _(Kiryl Kaveryn, Alexander Borsuk)_

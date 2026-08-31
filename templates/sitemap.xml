@@ -8,13 +8,19 @@
         <lastmod>{{ entry.updated }}</lastmod>
         {%- endif %}
         {%- if entry.extra is defined and entry.extra.preview_image %}
-        {%- set img = entry.extra.preview_image | trim_start(pat='/') -%}
+        {%- set img = entry.extra.preview_image %}
+        {#- Same resolution as base.html: a bare filename is one of the page's
+            own colocated assets, which Zola copies into the page's own output
+            directory, so it hangs off the permalink rather than the site root. -#}
+        {%- if img is starting_with(pat='http') %}
+        {%- set img_loc = img -%}
+        {%- elif img is containing(pat='/') %}
+        {%- set img_loc = config.base_url ~ '/' ~ (img | trim_start(pat='/')) -%}
+        {%- else %}
+        {%- set img_loc = entry.permalink ~ (img | urlencode) -%}
+        {%- endif %}
         <image:image>
-            {%- if img is starting_with(pat='http') %}
-            <image:loc>{{ img | escape_xml | safe }}</image:loc>
-            {%- else %}
-            <image:loc>https://organicmaps.app/{{ img | escape_xml | safe }}</image:loc>
-            {%- endif %}
+            <image:loc>{{ img_loc | escape_xml | safe }}</image:loc>
         </image:image>
         {%- endif %}
     </url>

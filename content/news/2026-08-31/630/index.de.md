@@ -11,10 +11,10 @@ extra:
 Hol dir die Organic Maps-Version vom August 2026 unter <https://get.omaps.org> oder im [App Store][appstore], bei [Google Play][googleplay], in der [Huawei AppGallery][appgallery] und bei [Obtainium][obtainium] ([Accrescent][accrescent] und [F-Droid][fdroid] folgen in Kürze).
 
 Warum aktualisieren?
-- Mehrfachauswahl in Lesezeichen und Tracks mit Sammelaktionen zum Löschen, Verschieben und Ändern der Farbe
+- Mehrere Lesezeichen und Tracks gleichzeitig löschen, verschieben und farblich ändern
 - CarPlay-Dashboard
 - Einzelne Tracks auf der Karte ausblenden
-- Lesbare Links zum Teilen von Orten, Lesezeichen und dem aktuellen Standort – dazu AirDrop auf iOS und eine „Share“-Aktion auf dem Desktop
+- Lesbare Links zum Teilen von Orten, Lesezeichen und dem aktuellen Standort
 - Sprachführung auf Armenisch und Laotisch
 - Wikipedia-Artikel in 19 Sprachen
 …und viele weitere Verbesserungen, Fehlerbehebungen und aktualisierte Kartendaten findest du weiter unten.
@@ -64,7 +64,7 @@ Vergiss auch nicht, die früheren Versionshinweise für [Juni](@/news/2026-06-29
 
 ### iOS
 
-- NEU: Die Lesezeichen- und Track-Liste unterstützt jetzt die Mehrfachauswahl – mit Sammelaktionen zum Löschen, Verschieben und Ändern der Farbe ausgewählter Einträge sowie den Optionen „Alle auswählen“ und „Auswahl aufheben“ _(Kiryl Kaveryn)_
+- NEU: Mehrere Lesezeichen und Tracks gleichzeitig löschen, verschieben und farblich ändern, dazu „Alle auswählen“ und „Auswahl aufheben“ _(Kiryl Kaveryn)_
 - NEU: Ein CarPlay-Dashboard wurde hinzugefügt _(Kiryl Kaveryn)_
 - AirDrop-Unterstützung für das Teilen von Orten hinzugefügt _(Kiryl Kaveryn)_
 - Mehrere CarPlay-Probleme wurden behoben _(Kiryl Kaveryn, Alexander Borsuk)_

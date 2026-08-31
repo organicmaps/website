@@ -11,10 +11,10 @@ extra:
 Lae alla Organic Mapsi 2026. aasta augusti versioon aadressilt <https://get.omaps.org> või poodidest [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] ja [Obtainium][obtainium] ([Accrescent][accrescent] ja [F-Droid][fdroid] lisanduvad peagi).
 
 Miks uuendada?
-- Mitme elemendi korraga valimine järjehoidjate ja radade loendis koos hulgikustutamise, teisaldamise ja värvimuutmisega
+- Mitme järjehoidja ja raja korraga kustutamine, teisaldamine ja värvi muutmine
 - CarPlay juhtpaneel
 - Üksikute radade peitmine kaardil
-- Loetavad jagamislingid kohtade, järjehoidjate ja praeguse asukoha jaoks – lisaks AirDrop iOS-is ja toiming „Share“ arvutiversioonis
+- Loetavad jagamislingid kohtade, järjehoidjate ja praeguse asukoha jaoks
 - Hääljuhised armeenia ja lao keeles
 - Vikipeedia artiklid 19 keeles
 …ning allpool veel palju muid täiustusi, veaparandusi ja uuendatud kaardiandmeid.
@@ -64,7 +64,7 @@ Vaata kindlasti ka eelmiste versioonide väljalaskemärkmeid: [juuni](@/news/202
 
 ### iOS
 
-- UUS: Järjehoidjate ja radade loendisse lisati mitme elemendi valimine koos hulgitoimingutega valitud elementide kustutamiseks, teisaldamiseks ja värvi muutmiseks, samuti valikud „Vali kõik“ ja „Tühista valik“ _(Kiryl Kaveryn)_
+- UUS: Mitme järjehoidja ja raja korraga kustutamine, teisaldamine ja värvi muutmine, samuti valikud „Vali kõik“ ja „Tühista valik“ _(Kiryl Kaveryn)_
 - UUS: Lisati CarPlay juhtpaneel _(Kiryl Kaveryn)_
 - Lisati AirDropi tugi kohtade jagamiseks _(Kiryl Kaveryn)_
 - Parandati mitu CarPlayga seotud probleemi _(Kiryl Kaveryn, Alexander Borsuk)_

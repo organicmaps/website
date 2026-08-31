@@ -11,10 +11,10 @@ extra:
 Get the August 2026 Organic Maps release at <https://get.omaps.org> or on the [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium] ([Accrescent][accrescent] and [F-Droid][fdroid] are coming soon too).
 
 Why update?
-- Multi-selection in Bookmarks and Tracks with batch delete, move, and color change
+- Delete, move, and change the color of multiple bookmarks and tracks at once
 - CarPlay dashboard
 - Hiding individual tracks on the map
-- Readable share links for places, bookmarks, and current position — plus AirDrop on iOS and a Share action on Desktop
+- Readable share links for places, bookmarks, and current position
 - Voice guidance in Armenian and Lao
 - Wikipedia articles in 19 languages
 …and many other improvements, bug fixes, and updated map data below.
@@ -64,7 +64,7 @@ Also, don't forget to check the previous release notes for [June](@/news/2026-06
 
 ### iOS
 
-- NEW: Added multi-selection to the Bookmarks and Tracks list, with batch actions to delete, move, and change the color of selected items, plus Select All and Deselect All _(Kiryl Kaveryn)_
+- NEW: Delete, move, and change the color of multiple bookmarks and tracks at once, plus Select All and Deselect All _(Kiryl Kaveryn)_
 - NEW: Added a CarPlay dashboard _(Kiryl Kaveryn)_
 - Added AirDrop support for sharing places _(Kiryl Kaveryn)_
 - Fixed multiple CarPlay issues _(Kiryl Kaveryn, Alexander Borsuk)_

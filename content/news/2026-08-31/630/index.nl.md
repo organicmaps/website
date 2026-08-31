@@ -11,10 +11,10 @@ extra:
 Download de Organic Maps-release van augustus 2026 via <https://get.omaps.org> of in de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] en [Obtainium][obtainium] ([Accrescent][accrescent] en [F-Droid][fdroid] volgen binnenkort ook).
 
 Waarom updaten?
-- Meervoudige selectie in Bladwijzers en Tracks, met batchacties om ze in één keer te verwijderen, te verplaatsen en van kleur te veranderen
+- Meerdere bladwijzers en tracks tegelijk verwijderen, verplaatsen en van kleur veranderen
 - CarPlay-dashboard
 - Afzonderlijke tracks op de kaart verbergen
-- Leesbare links om plaatsen, bladwijzers en je huidige positie te delen — plus AirDrop op iOS en een ‘Share’-actie op Desktop
+- Leesbare links om plaatsen, bladwijzers en je huidige positie te delen
 - Spraakbegeleiding in het Armeens en Laotiaans
 - Wikipedia-artikelen in 19 talen
 …en nog veel meer verbeteringen, bugfixes en bijgewerkte kaartgegevens vind je hieronder.
@@ -64,7 +64,7 @@ Vergeet ook niet de eerdere releaseopmerkingen voor [juni](@/news/2026-06-29/610
 
 ### iOS
 
-- NIEUW: Meervoudige selectie toegevoegd aan de lijst met bladwijzers en tracks, met batchacties om geselecteerde items te verwijderen, te verplaatsen en van kleur te veranderen, plus ‘Alles selecteren’ en ‘Selectie opheffen’ _(Kiryl Kaveryn)_
+- NIEUW: Meerdere bladwijzers en tracks tegelijk verwijderen, verplaatsen en van kleur veranderen, plus ‘Alles selecteren’ en ‘Selectie opheffen’ _(Kiryl Kaveryn)_
 - NIEUW: Er is een CarPlay-dashboard toegevoegd _(Kiryl Kaveryn)_
 - AirDrop-ondersteuning toegevoegd voor het delen van locaties _(Kiryl Kaveryn)_
 - Er zijn verschillende CarPlay-problemen opgelost _(Kiryl Kaveryn, Alexander Borsuk)_

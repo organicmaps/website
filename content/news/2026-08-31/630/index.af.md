@@ -11,10 +11,10 @@ extra:
 Kry die Augustus 2026-vrystelling van Organic Maps by <https://get.omaps.org> of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery] en [Obtainium][obtainium] ([Accrescent][accrescent] en [F-Droid][fdroid] kom binnekort ook).
 
 Hoekom opdateer?
-- Meervoudige keuse in Boekmerke en Spore, met bondelaksies om items te verwyder, te skuif en hul kleur te verander
+- Verskeie boekmerke en spore tegelyk verwyder, skuif en van kleur verander
 - CarPlay-dashboard
 - Verberg individuele spore op die kaart
-- Leesbare deelskakels vir plekke, boekmerke en jou huidige posisie — plus AirDrop op iOS en 'n “Share”-aksie op Desktop
+- Leesbare deelskakels vir plekke, boekmerke en jou huidige posisie
 - Stemleiding in Armeens en Laotiaans
 - Wikipedia-artikels in 19 tale
 …en baie ander verbeterings, foutregstellings en bygewerkte kaartdata hieronder.
@@ -64,7 +64,7 @@ Moet ook nie vergeet om die vorige vrystellingnotas vir [Junie](@/news/2026-06-2
 
 ### iOS
 
-- NUUT: Meervoudige keuse is by die Boekmerke- en Spore-lys gevoeg, met bondelaksies om gekose items te verwyder, te skuif en hul kleur te verander, plus “Kies alles” en “Ontkies alles” _(Kiryl Kaveryn)_
+- NUUT: Verwyder, skuif en verander die kleur van verskeie boekmerke en spore tegelyk, plus “Kies alles” en “Ontkies alles” _(Kiryl Kaveryn)_
 - NUUT: 'n CarPlay-dashboard is bygevoeg _(Kiryl Kaveryn)_
 - AirDrop-ondersteuning vir die deel van plekke bygevoeg _(Kiryl Kaveryn)_
 - Verskeie CarPlay-probleme is opgelos _(Kiryl Kaveryn, Alexander Borsuk)_

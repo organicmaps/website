@@ -11,10 +11,10 @@ extra:
 2026年8月版の Organic Maps は、<https://get.omaps.org> または [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium] から入手できます（[Accrescent][accrescent] と [F-Droid][fdroid] でも近日中に配信予定です）。
 
 アップデートする理由は？
-- 「ブックマークとトラック」での複数選択と、まとめて削除・移動・色変更する操作
+- 複数のブックマークとトラックをまとめて削除・移動・色変更
 - CarPlay のダッシュボード
 - 地図上で個々のトラックを非表示にする機能
-- 場所、ブックマーク、現在地の読みやすい共有リンク——さらに iOS の AirDrop と、デスクトップの「Share」操作
+- 場所、ブックマーク、現在地の読みやすい共有リンク
 - アルメニア語とラオス語の音声案内
 - 19言語のウィキペディア記事
 …そのほかにも、以下のとおり多くの改善、バグ修正、地図データの更新があります。
@@ -64,7 +64,7 @@ extra:
 
 ### iOS
 
-- 新機能：「ブックマークとトラック」のリストに複数選択を追加しました。選んだ項目をまとめて削除・移動・色変更できるほか、「すべて選択」と「選択を解除」も使えます _(Kiryl Kaveryn)_
+- 新機能：複数のブックマークとトラックをまとめて削除・移動・色変更できるほか、「すべて選択」と「選択を解除」も使えます _(Kiryl Kaveryn)_
 - 新機能：CarPlay のダッシュボードを追加しました _(Kiryl Kaveryn)_
 - 場所の共有に AirDrop 対応を追加しました _(Kiryl Kaveryn)_
 - CarPlay の複数の不具合を修正しました _(Kiryl Kaveryn, Alexander Borsuk)_

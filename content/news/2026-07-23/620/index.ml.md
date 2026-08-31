@@ -5,7 +5,7 @@ slug: "bug-parihaarangal-melmelinnangal-pothugathagatham-routukal-thirayal-bookm
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 നിങ്ങൾ ഇതിനകം ശ്രദ്ധിച്ചിരിക്കുമല്ലോ, ജൂലൈ മാസത്തെ Organic Maps അപ്ഡേറ്റ് പുറത്തിറങ്ങിയിട്ടുണ്ട്. ഇത് <https://get.omaps.org> എന്ന വെബ്സൈറ്റിൽ നിന്നോ, അല്ലെങ്കിൽ [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid] എന്നീ വിലാസങ്ങളിൽ നിന്നോ ഡൗൺലോഡ് ചെയ്യാവുന്നതാണ്.

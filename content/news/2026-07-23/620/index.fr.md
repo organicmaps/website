@@ -5,7 +5,7 @@ slug: "corrections-bugs-ameliorations-transports-publics-itineraires-recherche-s
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Comme tu l’as peut-être déjà remarqué, la mise à jour de juillet d’Organic Maps est disponible. Tu peux la télécharger sur <https://get.omaps.org> ou sur [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] et [F-Droid][fdroid].

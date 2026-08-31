@@ -5,7 +5,7 @@ slug: "correccions-errors-millores-transport-public-rutes-cerca-marcadors-juliol
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Com potser ja ha notat, ja està disponible l'actualització de juliol d'Organic Maps. Obtingui-la a <https://get.omaps.org> o a [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] i [F-Droid][fdroid].

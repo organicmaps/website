@@ -5,7 +5,7 @@ slug: bugfixes-and-improvements-for-public-transport-routing-search-and-bookmark
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 As you may have already noticed, the July Organic Maps update is out. Get it at <https://get.omaps.org> or on the [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], and [F-Droid][fdroid].

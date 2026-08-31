@@ -5,7 +5,7 @@ slug: "cuowu-xiufu-gaijin-gonggong-jiaotong-luxian-guihua-sousuo-shuqian-2026-qi
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 你可能已经注意到，7 月份的 Organic Maps 更新现已发布。你可以通过 <https://get.omaps.org> 或在 [App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 以及 [F-Droid][fdroid] 下载。

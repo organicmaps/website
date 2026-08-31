@@ -5,12 +5,12 @@ slug: "correzioni-bug-miglioramenti-trasporto-pubblico-percorsi-ricerca-segnalib
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
-Come avrà forse già notato, è disponibile l'aggiornamento di luglio di Organic Maps. Può scaricarlo all'indirizzo <https://get.omaps.org> oppure su [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
+Come avrai forse già notato, è disponibile l'aggiornamento di luglio di Organic Maps. Puoi scaricarlo all'indirizzo <https://get.omaps.org> oppure su [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].
 
-Grazie alle sue [donazioni](@/donate/index.it.md) e ai suoi [commenti](@/contribute/index.it.md), nel mese di luglio ci siamo concentrati sulla correzione di bug e su alcuni miglioramenti. Nel caso se lo fosse perso, sono disponibili anche le seguenti funzionalità della [precedente versione di giugno](@/news/2026-06-29/610/index.it.md):
+Grazie alle tue [donazioni](@/donate/index.it.md) e ai tuoi [commenti](@/contribute/index.it.md), nel mese di luglio ci siamo concentrati sulla correzione di bug e su alcuni miglioramenti. Nel caso te lo fossi perso, sono disponibili anche le seguenti funzionalità della [precedente versione di giugno](@/news/2026-06-29/610/index.it.md):
 - Percorsi con i mezzi pubblici (gli orari in tempo reale sono in fase di sviluppo)
 - Immagini satellitari
 - Percorsi alternativi per auto, escursioni a piedi e in bicicletta
@@ -22,7 +22,7 @@ Grazie alle sue [donazioni](@/donate/index.it.md) e ai suoi [commenti](@/contrib
 ### Mappa e luoghi
 
 - Dati OpenStreetMap aggiornati al 14 luglio
-- Le note segnalate a [OpenStreetMap](https://www.openstreetmap.org) vengono ora posizionate nel punto esatto che ha selezionato, anziché al centro dell'intera strada o area _(Alexander Borsuk)_
+- Le note segnalate a [OpenStreetMap](https://www.openstreetmap.org) vengono ora posizionate nel punto esatto che hai selezionato, anziché al centro dell'intera strada o area _(Alexander Borsuk)_
 - Miglioramento della selezione dei luoghi quando si tocca la mappa in regioni che attraversano l'antimeridiano di 180° _(Viktor Govako)_
 - I profili altimetrici delle tracce non mostrano più grafici obsoleti o vuoti dopo l'eliminazione di una traccia _(Kiryl Kaveryn)_
 
@@ -40,10 +40,10 @@ Grazie alle sue [donazioni](@/donate/index.it.md) e ai suoi [commenti](@/contrib
 
 ### iOS
 
-- Nuova impostazione «Salva cronologia ricerche» che le consente di disattivare la cronologia e nasconderla se preferisce non conservarla _(Kiryl Kaveryn)_
+- Nuova impostazione «Salva cronologia ricerche» che ti consente di disattivare la cronologia e nasconderla se preferisci non conservarla _(Kiryl Kaveryn)_
 - Nuovo pulsante «Modifica» per rimuovere più facilmente i segnalibri _(Kiryl Kaveryn)_
-- I segnalibri vengono ora salvati automaticamente quando esce dalla schermata _(Kiryl Kaveryn)_
-- La tavolozza dei colori offre ora colori predefiniti e le consente di scegliere qualsiasi colore personalizzato _(Kiryl Kaveryn)_
+- I segnalibri vengono ora salvati automaticamente quando esci dalla schermata _(Kiryl Kaveryn)_
+- La tavolozza dei colori offre ora colori predefiniti e ti consente di scegliere qualsiasi colore personalizzato _(Kiryl Kaveryn)_
 - Miglioramento dello stato vuoto del grafico di altitudine per una traccia registrata _(Kiryl Kaveryn)_
 - È stata migliorata la visualizzazione dell'avanzamento del percorso sul pulsante «Avvia» _(Kiryl Kaveryn)_
 - Il riordino delle fermate del percorso non provoca più salti nell'elenco _(Kiryl Kaveryn)_
@@ -68,7 +68,7 @@ Grazie alle sue [donazioni](@/donate/index.it.md) e ai suoi [commenti](@/contrib
 - Traduzioni in ucraino aggiornate _(Nnifria)_
 - Corrette le traduzioni in italiano dei nomi delle regioni delle mappe _(Vittorio Bertola)_
 
-## Partecipi ai test beta per provare le funzioni in anticipo e segnalare problemi:
+## Partecipa ai test beta per provare le funzioni in anticipo e segnalare problemi:
 
 Suggerimento: la versione beta presenta una nuova tecnica di ombreggiatura del rilievo, dati altimetrici migliorati con supporto per i piedi e i metri e altre fantastiche funzionalità!
 

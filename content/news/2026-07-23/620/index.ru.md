@@ -5,7 +5,7 @@ slug: "ispravleniya-oshibok-uluchsheniya-obshchestvennyy-transport-marshruty-poi
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Как вы, возможно, уже заметили, вышло июльское обновление Organic Maps. Скачайте его по адресу <https://get.omaps.org> или в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] и [F-Droid][fdroid].

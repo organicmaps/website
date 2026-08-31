@@ -5,7 +5,7 @@ slug: "trwsio-namau-gwelliannau-trafnidiaeth-gyhoeddus-llwybrau-chwilio-nodau-tu
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Fel rwyt ti efallai wedi sylwi'n barod, mae diweddariad Gorffennaf o Organic Maps allan. Gelli ei gael yn <https://get.omaps.org> neu ar yr [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], a [F-Droid][fdroid].

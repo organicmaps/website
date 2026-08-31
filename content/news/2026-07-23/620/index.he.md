@@ -5,7 +5,7 @@ slug: "tikunei-bagim-shipurim-tachbura-tziburit-nivut-chipush-simaniyot-juli-202
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 כפי שבוודאי כבר הבחנתם, העדכון של Organic Maps לחודש יולי כבר יצא. ניתן להוריד אותו בכתובת <https://get.omaps.org> או ב-[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] ו-[F-Droid][fdroid].

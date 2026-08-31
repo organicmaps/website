@@ -5,7 +5,7 @@ slug: "foutregstellings-verbeterings-openbare-vervoer-roetes-soektog-boekmerke-j
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Soos jy dalk reeds opgemerk het, is die Julie-opdatering van Organic Maps uit. Kry dit by <https://get.omaps.org> of op die [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].

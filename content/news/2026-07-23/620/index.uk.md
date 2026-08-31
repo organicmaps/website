@@ -5,7 +5,7 @@ slug: "vypravlennya-pomylok-pokrashchennya-hromadskyy-transport-marshruty-poshuk
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Як ви, мабуть, вже помітили, вийшло липневе оновлення Organic Maps. Завантажити його можна за адресою <https://get.omaps.org> або в [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] та [F-Droid][fdroid].

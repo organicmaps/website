@@ -5,7 +5,7 @@ slug: "bug-sudhar-behtari-sarvajanik-parivahan-marg-khoj-bookmark-july-2026"
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 जैसा कि आपने शायद पहले ही देखा होगा, जुलाई का Organic Maps अपडेट जारी हो गया है। इसे <https://get.omaps.org> पर या [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], और [F-Droid][fdroid] पर प्राप्त करें।

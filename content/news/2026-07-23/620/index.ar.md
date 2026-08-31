@@ -5,7 +5,7 @@ slug: "تصحيحات-الأخطاء-وتحسينات-النقل-العام-وت
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 كما لاحظتم ربما، تم إصدار تحديث Organic Maps لشهر يوليو. يمكنكم الحصول عليه من الموقع <https://get.omaps.org> أو من متاجر [App Store][appstore] و[Google Play][googleplay] و[Huawei AppGallery][appgallery] و[Obtainium][obtainium] و[Accrescent][accrescent] و[F-Droid][fdroid].

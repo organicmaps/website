@@ -5,7 +5,7 @@ slug: "corregiments-errors-melhoraments-transports-publics-itineraris-recerca-ma
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Coma as ja pogut remarcar, la mesa a jorn de julhet d'Organic Maps es sortida. Obtén-la sus <https://get.omaps.org> o sus [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] e [F-Droid][fdroid].

@@ -5,7 +5,7 @@ slug: "bugfixes-verbeteringen-openbaar-vervoer-routes-zoeken-bladwijzers-juli-20
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Zoals je misschien al hebt gemerkt, is de juli-update van Organic Maps nu beschikbaar. Je kunt hem downloaden via <https://get.omaps.org> of via de [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] en [F-Droid][fdroid].

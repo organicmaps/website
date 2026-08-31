@@ -5,7 +5,7 @@ slug: "buggfixar-forbattringar-kollektivtrafik-rutter-sokning-bokmarken-juli-202
 taxonomies:
   news: ["releases"]
 extra:
-  preview_image: "news/2026-07-23/620/Barriers on a route.jpg"
+  preview_image: "Barriers on a route.jpg"
 ---
 
 Som du kanske redan har märkt har juli-uppdateringen av Organic Maps släppts. Ladda ner den på <https://get.omaps.org> eller från [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] och [F-Droid][fdroid].

@@ -236,6 +236,13 @@ footer {
   white-space: nowrap;
 }
 
+.tts-table {
+  th + th,
+  td + td {
+    padding-inline-start: 2em;
+  }
+}
+
 .news_date {
   display: flex;
   flex-basis: 100%;

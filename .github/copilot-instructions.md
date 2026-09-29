@@ -168,6 +168,13 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 - `static/_headers`: Cloudflare security headers and `noindex` for the production `pages.dev` alias (Pages adds it to previews)
 - `static/images/`, `static/logos/`, `static/sponsors/`: Media assets
 
+### URLs across production and previews
+
+- Use root-relative URLs for browser navigation and assets hosted by this site (`/main.css`, `/js/…`, `/de/faq/`). A path relative to the current page, such as `main.css`, breaks on localized and nested pages.
+- In templates, use a resource's `.path` for an internal link. When only `.permalink` is available, strip `config.base_url` from that known site permalink. For a cache-busted asset, use `get_url(path="…", cachebust=true) | replace(from=config.base_url, to="") | safe` so the hash remains but the browser loads the asset from the current deployment.
+- Keep absolute URLs where the consumer needs them: canonical and hreflang tags, OpenGraph and structured data, sitemaps, external services, and the donation form's cross-origin API action. A preview that tests payments must explicitly target a staging API; a relative form action would hit the Pages site instead.
+- Do not hard-code `https://organicmaps.app` for new same-site links. Markdown `@/…` links are still required for translation-aware cross-references; Zola expands them using `base_url`, so preview builds need a deployment-specific `base_url` if those links must stay on the preview. Do not blindly replace URLs in rendered Markdown: an article may intentionally quote or link to the public site.
+
 ## Common Patterns
 
 ### Embedded FAQ

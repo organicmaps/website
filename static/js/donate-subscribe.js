@@ -24,12 +24,16 @@
   var currencySelect = document.getElementById('currency');
   var customInput = document.getElementById('amount-custom');
   var emailInput = document.getElementById('email');
+  var nameInput = document.getElementById('donor-name');
   var emailWarning = document.getElementById('email-warning');
   var amountError = document.getElementById('amount-error');
   var submitButton = document.getElementById('donate-submit');
   var defaultSubmitLabel = submitButton.textContent;
   var presetInputs = form.querySelectorAll('input[name="amount"]');
   var intervalInputs = form.querySelectorAll('input[name="interval"]');
+  var DRAFT_KEY = 'organicmaps-donate-checkout-draft-v2';
+  // This limits restoration, not browser storage retention: sessionStorage has no expiry.
+  var DRAFT_RESTORE_WINDOW = 30 * 60 * 1000;
   // The preset labels are static markup, so resolve them once instead of re-querying the form
   // on every refresh (interval change, currency change, page load).
   var presetLabels = [];
@@ -310,21 +314,43 @@
     return null;
   }
 
-  // Prefill from query parameters (the app's place-page buttons link with these).
+  // A canceled Mollie checkout returns with a fixed marker. Restore the draft within this
+  // tab, then consume it; no donor-entered values need to travel in the return URL. Remove
+  // expired drafts on any form visit, since sessionStorage does not expire entries itself.
+  var returnDraft = null;
+  var canceledCheckout = queryParam('checkout') === 'canceled';
+  try {
+    var savedDraft = sessionStorage.getItem(DRAFT_KEY);
+    if (savedDraft) {
+      var parsedDraft = JSON.parse(savedDraft);
+      var restorable = parsedDraft && typeof parsedDraft.expiresAt === 'number' && parsedDraft.expiresAt > Date.now();
+      if (!restorable || canceledCheckout) sessionStorage.removeItem(DRAFT_KEY);
+      if (restorable && canceledCheckout) returnDraft = parsedDraft;
+    }
+  } catch (e) {
+    // Malformed data or disabled storage must not break the form.
+    try { sessionStorage.removeItem(DRAFT_KEY); } catch (ignored) {}
+  }
+
+  // Ordinary links still prefill from query parameters (the app's place-page buttons use these).
   var qInterval = queryParam('interval');
+  if (returnDraft && typeof returnDraft.interval === 'string') qInterval = returnDraft.interval;
   // Public links may use the human-readable names; the form and API use month/year.
   if (qInterval === 'monthly') qInterval = 'month';
   if (qInterval === 'yearly') qInterval = 'year';
   if (qInterval === 'month' || qInterval === 'year' || qInterval === 'once') {
     for (var i = 0; i < intervalInputs.length; i++) intervalInputs[i].checked = intervalInputs[i].value === qInterval;
   }
-  var qCurrency = (queryParam('currency') || '').toUpperCase();
+  var qCurrency = queryParam('currency') || '';
+  if (returnDraft && typeof returnDraft.currency === 'string') qCurrency = returnDraft.currency;
+  qCurrency = qCurrency.toUpperCase();
   var defaultCurrency = hasCurrency(qCurrency) ? qCurrency : regionCurrency() || LANG_CURRENCY[pageLang] || 'EUR';
   // REGION_CURRENCY follows CURRENCIES, which mirrors the server, but the <select> is the only
   // list this form can actually submit — never assign a code it does not offer.
   if (hasCurrency(defaultCurrency)) currencySelect.value = defaultCurrency;
   refresh();
   var qAmount = queryParam('amount');
+  if (returnDraft && typeof returnDraft.amount === 'string') qAmount = returnDraft.amount;
   if (qAmount) {
     var preset = null;
     for (var i = 0; i < presetInputs.length; i++) {
@@ -337,6 +363,12 @@
       uncheckPresets();
     }
     refreshSubmitLabel();
+  }
+
+  if (returnDraft) {
+    if (typeof returnDraft.email === 'string' && returnDraft.email) emailInput.value = returnDraft.email;
+    if (typeof returnDraft.name === 'string' && returnDraft.name) nameInput.value = returnDraft.name;
+    refreshEmailWarning();
   }
 
   function onPresetChange() {
@@ -365,6 +397,21 @@
       event.preventDefault();
       customInput.focus();
       return;
+    }
+    try {
+      sessionStorage.setItem(
+        DRAFT_KEY,
+        JSON.stringify({
+          amount: selectedAmount(),
+          interval: selectedInterval(),
+          currency: currencySelect.value,
+          email: emailInput.value,
+          name: nameInput.value,
+          expiresAt: Date.now() + DRAFT_RESTORE_WINDOW
+        })
+      );
+    } catch (e) {
+      // Storage can be disabled; checkout still works without draft restoration.
     }
     submitButton.disabled = true;
     var loading = submitButton.getAttribute('data-label-loading');

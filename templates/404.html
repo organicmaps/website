@@ -14,7 +14,7 @@
 
   <link rel="canonical" href="{{ config.base_url | safe }}/404.html">
 
-  <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
+  <link href="{{ get_url(path="main.css", cachebust=true) | replace(from=config.base_url, to="") | safe }}" rel="stylesheet" type="text/css">
 
   <title>Page not found – Organic Maps</title>
 </head>

@@ -5,6 +5,6 @@
   {# TODO: Show articles tagged for the en language if they are missing for the other language #}
   <h1>{{ term_name }} – {{ section_label }}</h1>
   {%- for page in term.pages -%}
-  <h2>{{ page.date | date(format='%B %e, %Y') }} <a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+  <h2>{{ page.date | date(format='%B %e, %Y') }} <a href="{{ page.path | safe }}">{{ page.title }}</a></h2>
   {%- endfor -%}
 {% endblock %}

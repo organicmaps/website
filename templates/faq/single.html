@@ -4,6 +4,6 @@
   {% include 'faq/faq-breadcrumbs.html' %}
   <h1>{{ term_name }} – {{ section_label }}</h1>
   {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
-  <h2><a href="{{ faq_page.permalink }}">{{ faq_page.title }}</a></h2>
+  <h2><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a></h2>
   {%- endfor -%}
 {% endblock %}

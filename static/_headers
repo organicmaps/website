@@ -4,8 +4,8 @@ https://:project.pages.dev/*
   X-Robots-Tag: noindex
 
 # Donation pages: lock down where forms can post and scripts can come from.
-# Production host only: preview deployments reference production assets by absolute URL
-# (get_url), which 'self' would block, leaving the preview unstyled and without the JS.
+# Production host only: preview deployments use their own root-relative assets, while these
+# narrow production rules keep scripts and styles on the same origin.
 # 'unsafe-inline' covers the templates' small language/redirect scripts, JSON-LD, and existing
 # inline styles; executable and visual resources otherwise stay same-origin.
 # form-action: Chrome also applies it to the 303 after the POST, i.e. to Mollie's checkout

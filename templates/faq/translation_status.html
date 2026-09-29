@@ -60,7 +60,7 @@
             {% endif %}
             <tr class="faq_page">
                 <td>
-                    <a href="{{ faq_page.permalink }}" target="_blank">{{ faq_page.title }}</a>
+                    <a href="{{ faq_page.path | safe }}" target="_blank">{{ faq_page.title }}</a>
                     <span class="updated-label" title="Updated date">Update: <span class="updated-date">{{ faq_page.updated | default(value="[Unknown]", boolean=true) }}</span></span>
                 </td>
                 {% for lang in faq_languages %}
@@ -83,7 +83,7 @@
                         {% endif %}
 
                         <td class="{{ cell_class }}">
-                            <a href="{{ translated_page.permalink }}" target="_blank">{{ translated_page.title }}</a>
+                            <a href="{{ translated_page.path | safe }}" target="_blank">{{ translated_page.title }}</a>
                             <span class="updated-label" title="Updated date">Update: <span class="updated-date">{% if page_updated %}{{page_updated}}{% else %}[Unknown]{% endif %}</span></span>
                         </td>
                     {%  endif %}

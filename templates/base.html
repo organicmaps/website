@@ -84,7 +84,7 @@
   {%- endblock -%}
 
   {% block rss -%}
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
   {% endblock -%}
 
   <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">
@@ -173,7 +173,7 @@
   <link rel="dns-prefetch" href="//f-droid.org">
   <link rel="dns-prefetch" href="//donate.organicmaps.app">
 
-  <link href="{{ get_url(path="main.css", cachebust=true) }}" rel="stylesheet" type="text/css">
+  <link href="{{ get_url(path="main.css", cachebust=true) | replace(from=config.base_url, to="") | safe }}" rel="stylesheet" type="text/css">
 
   <title>{{ page_title }}</title>
 

@@ -3,10 +3,10 @@
 {% block content %}
   <h1>{{ resource.title }}</h1>
   {%- for term in terms -%}
-  <h2><a href="{{term.permalink}}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
+  <h2><a href="{{ term.path | safe }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
   <ul>
     {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
-      <li><a href="{{ faq_page.permalink }}">{{ faq_page.title }}</a></li>
+      <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a></li>
     {%- endfor -%}
   </ul>
   {%- endfor -%}

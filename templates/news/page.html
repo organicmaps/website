@@ -35,7 +35,7 @@
 
 {% set news_root = get_taxonomy(kind='news', lang=lang) %}
 <div class="back_to_news">
-  <a href="{{ news_root.permalink }}">{{ trans(key='back', lang=lang) }}</a>
+  <a href="{{ news_root.permalink | replace(from=config.base_url, to="") | safe }}">{{ trans(key='back', lang=lang) }}</a>
 </div>
 
 {% endblock content %}

@@ -106,5 +106,5 @@
     <p class="donate-alt"><a href="{{ donate.permalink | replace(from=config.base_url, to="") | safe }}">{{ f.other_ways }}</a></p>
   </form>
 </section>
-<script src="{{ get_url(path="js/donate-subscribe.js", cachebust=true) }}" defer></script>
+<script src="{{ get_url(path="js/donate-subscribe.js", cachebust=true) | replace(from=config.base_url, to="") | safe }}" defer></script>
 {% endblock content %}

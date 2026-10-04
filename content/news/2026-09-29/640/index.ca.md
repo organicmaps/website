@@ -1,7 +1,8 @@
 ---
 title: "Optimització de la ruta, rutes alternatives millorades, ocultació de traces individuals i zones d’aigua intermitent a l’actualització de setembre de 2026"
 date: 2026-09-29
-slug: "seleccio-multiple-marcadors-traces-tauler-carplay-amagar-traces-enllacos-compartir-agost-2026"
+slug: "optimitzacio-rutes-rutes-alternatives-amagar-traces-individuals-zones-aigua-intermitent-setembre-2026"
+aliases: ["/ca/news/2026-09-29/seleccio-multiple-marcadors-traces-tauler-carplay-amagar-traces-enllacos-compartir-agost-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -26,9 +27,9 @@ Si t’has perdut les nostres actualitzacions anteriors, fes un cop d’ull a le
 ### Mapa
 
 - Dades d'OpenStreetMap a 28 de setembre de 2026
-- Dades de la Viquipèdia a data de 21 de setembre de 2026
+- Dades de la Viquipèdia a 21 de setembre de 2026
 - S'han corregit les cerques quan l'àrea visible del mapa creua el meridià 180° (±180° de longitud) _(Viktor Govako)_
-- Les àrees d'aigua intermitents ara es mostren amb un patró de punts, similar al que s'utilitza per a la sorra _(Alexander Borsuk)_
+- Les zones d’aigua intermitent ara es mostren amb un patró de punts, similar al que s'utilitza per a la sorra _(Alexander Borsuk)_
 - Els embassaments ara són visibles quan s’allunya més la vista _(Alexander Borsuk)_
 - Els túnels d'aigua ja no apareixen al mapa _(Alexander Borsuk)_
 - S’han corregit les icones de les estacions i les entrades del metro de Suzhou _(Alexander Borsuk)_
@@ -71,7 +72,7 @@ Si t’has perdut les nostres actualitzacions anteriors, fes un cop d’ull a le
 - S’ha corregit la representació del gràfic d’altitud per a traces planes i en interfícies de dreta a esquerra _(Mikhail Listratsenka)_
 - S’ha corregit el problema que feia que les barres del sistema retallessin els botons del mapa _(Mikhail Listratsenka)_
 - S'han corregit errors i s'ha millorat el suport per a Android Auto _(Andrei Shkrob)_
-- S'ha solucionat un bloqueig durant el renderitzat de mapes _(Viktor Govako)_
+- S'ha solucionat una fallada durant el renderitzat de mapes _(Viktor Govako)_
 
 ### Escriptori
 

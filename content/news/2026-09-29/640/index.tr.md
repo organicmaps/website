@@ -1,7 +1,8 @@
 ---
 title: "Eylül 2026 güncellemesinde rota optimizasyonu, geliştirilmiş alternatif rotalar, izleri tek tek gizleme ve dönemsel su alanları"
 date: 2026-09-29
-slug: "coklu-secim-yer-imleri-izler-carplay-gosterge-paneli-izleri-gizleme-paylasim-baglantilari-agustos-2026"
+slug: "rota-optimizasyonu-alternatif-rotalar-izleri-tek-tek-gizleme-donemsel-su-alanlari-eylul-2026"
+aliases: ["/tr/news/2026-09-29/coklu-secim-yer-imleri-izler-carplay-gosterge-paneli-izleri-gizleme-paylasim-baglantilari-agustos-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -31,7 +32,7 @@ Organic Maps uygulamasını <https://get.omaps.org>, [App Store][appstore], [Goo
 - Zaman zaman su bulunan alanlar artık haritada kum için kullanılan desene benzer noktalı bir desenle gösteriliyor _(Alexander Borsuk)_
 - Su rezervuarları artık harita daha fazla uzaklaştırıldığında da görülebiliyor _(Alexander Borsuk)_
 - Su tünelleri artık haritada gösterilmiyor _(Alexander Borsuk)_
-- Suzhou Metro istasyon ve giriş simgeleri düzeltildi _(Alexander Borsuk)_
+- Suzhou Metrosu istasyon ve giriş simgeleri düzeltildi _(Alexander Borsuk)_
 - Metro haritası katmanında etiketlerin yerinden kaydığı nadir durumlar düzeltildi _(Viktor Govako)_
 
 ### Rota planlama ve navigasyon
@@ -45,7 +46,7 @@ Organic Maps uygulamasını <https://get.omaps.org>, [App Store][appstore], [Goo
 - Çalışma saatlerinde artık 12:00 yerine “Öğle”, 00:00 veya 24:00 yerine “Gece yarısı” gösteriliyor _(Alexander Borsuk)_
 - Hatalar düzeltildi ve iz kaydı iyileştirildi _(Alexander Borsuk)_
 - KMB dosyalarının içe aktarılması sorunu giderildi _(Alexander Borsuk)_
-- Fransızca ve Asturca çeviriler düzeltildi _(Alexander Borsuk)_
+- Fransızca ve Asturyasça çeviriler düzeltildi _(Alexander Borsuk)_
 - İngilizce metindeki bir yazım hatası düzeltildi _(Carl Morris)_
 
 ### iOS
@@ -68,7 +69,7 @@ Organic Maps uygulamasını <https://get.omaps.org>, [App Store][appstore], [Goo
 - OpenStreetMap düzenleyicisinden değişikliklerin yüklenmesi iyileştirildi _(Owm)_
 - Kullanıcı arayüzü tasarımı güncellendi _(Mikhail Listratsenka)_
 - Yer imi düzenleyicisi ve diğer iletişim kutuları artık navigasyon sırasında açık kalıyor _(Mikhail Listratsenka)_
-- Yükseklik değişimi az olan izlerde ve sağdan sola yerleşimli arayüzlerde yükseklik grafiğinin görüntülenmesi sorunu düzeltildi _(Mikhail Listratsenka)_
+- Yükseklik değişimi olmayan izlerde ve sağdan sola yerleşimli arayüzlerde yükseklik grafiğinin görüntülenmesi sorunu düzeltildi _(Mikhail Listratsenka)_
 - Harita düğmelerinin sistem çubukları tarafından kesilmesi sorunu giderildi _(Mikhail Listratsenka)_
 - Hatalar düzeltildi ve Android Auto desteği iyileştirildi _(Andrei Shkrob)_
 - Harita işleme sırasında meydana gelen çökme sorunu düzeltildi _(Viktor Govako)_

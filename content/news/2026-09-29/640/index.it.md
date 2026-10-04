@@ -1,14 +1,15 @@
 ---
 title: "Ottimizzazione dei percorsi, percorsi alternativi migliorati, possibilità di nascondere le singole tracce e aree con acqua intermittente nell'aggiornamento di settembre 2026"
 date: 2026-09-29
-slug: "selezione-multipla-segnalibri-tracce-dashboard-carplay-nascondere-tracce-link-condivisione-agosto-2026"
+slug: "ottimizzazione-percorsi-percorsi-alternativi-nascondere-tracce-singole-acqua-intermittente-settembre-2026"
+aliases: ["/it/news/2026-09-29/selezione-multipla-segnalibri-tracce-dashboard-carplay-nascondere-tracce-link-condivisione-agosto-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
   preview_image: 00-intermittent-water.png
 ---
 
-Si parte? L’aggiornamento di settembre introduce percorsi alternativi migliorati, un’impostazione per ottimizzare l’ordine delle tappe del percorso, indicazioni più chiare per le zone con presenza intermittente di acqua e un’icona a forma di occhio per nascondere singole tracce, oltre a tante altre correzioni e miglioramenti (vedi sotto).
+Si parte? L’aggiornamento di settembre introduce percorsi alternativi migliorati, un’impostazione per ottimizzare l’ordine delle tappe del percorso, una rappresentazione più chiara delle zone con presenza intermittente di acqua e un’icona a forma di occhio per nascondere singole tracce, oltre a tante altre correzioni e miglioramenti (vedi sotto).
 
 Installa o aggiorna Organic Maps tramite <https://get.omaps.org>, l'[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] o [F-Droid][fdroid].
 
@@ -43,9 +44,9 @@ Se ti sei perso i nostri aggiornamenti precedenti, dai un’occhiata alle funzio
 ### Altri miglioramenti
 
 - Gli orari di apertura ora indicano “Mezzogiorno” per le 12:00 e “Mezzanotte” per le 00:00 o le 24:00 _(Alexander Borsuk)_
-- Sono stati corretti alcuni bug e migliorata la registrazione della traccia _(Alexander Borsuk)_
+- Corretti alcuni bug e migliorata la registrazione della traccia _(Alexander Borsuk)_
 - Risolto il problema con l'importazione dei file KMB _(Alexander Borsuk)_
-- Traduzioni corrette in francese e asturiano _(Alexander Borsuk)_
+- Corrette le traduzioni in francese e asturiano _(Alexander Borsuk)_
 - Corretto un errore di battitura in inglese _(Carl Morris)_
 
 ### iOS
@@ -67,10 +68,10 @@ Se ti sei perso i nostri aggiornamenti precedenti, dai un’occhiata alle funzio
 - Il pulsante “Aggiungi sosta” ora aggiunge una tappa dopo quelle già presenti, prima della destinazione _(Mikhail Listratsenka)_
 - Miglioramenti al caricamento dei dati dall'editor di OpenStreetMap _(Owm)_
 - Abbiamo aggiornato il design dell'interfaccia utente _(Mikhail Listratsenka)_
-- L'editor dei segnalibri e le altre finestre di dialogo ora rimangono aperte durante la navigazione _(Mikhail Listratsenka)_
-- Risolto il problema di visualizzazione del grafico di altitudine per le tracce pianeggianti e nelle interfacce con orientamento da destra a sinistra _(Mikhail Listratsenka)_
+- L'editor dei segnalibri e le altre finestre di dialogo ora rimangono aperti durante la navigazione _(Mikhail Listratsenka)_
+- Risolto il problema di visualizzazione del grafico altimetrico per le tracce pianeggianti e nelle interfacce con orientamento da destra a sinistra _(Mikhail Listratsenka)_
 - Risolto il problema dei pulsanti della mappa che venivano troncati dalle barre di sistema _(Mikhail Listratsenka)_
-- Sono stati corretti alcuni bug e migliorato il supporto per Android Auto _(Andrei Shkrob)_
+- Corretti alcuni bug e migliorato il supporto per Android Auto _(Andrei Shkrob)_
 - Risolto un crash durante il rendering della mappa _(Viktor Govako)_
 
 ### Desktop

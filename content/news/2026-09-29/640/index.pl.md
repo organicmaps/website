@@ -1,7 +1,8 @@
 ---
 title: "Optymalizacja tras, ulepszone trasy alternatywne, ukrywanie poszczególnych śladów i obszary okresowo pokryte wodą w aktualizacji z września 2026 r."
 date: 2026-09-29
-slug: "zaznaczanie-wielu-zakladek-sladow-pulpit-carplay-ukrywanie-sladow-linki-sierpien-2026"
+slug: "optymalizacja-tras-trasy-alternatywne-ukrywanie-poszczegolnych-sladow-obszary-okresowo-pokryte-woda-wrzesien-2026"
+aliases: ["/pl/news/2026-09-29/zaznaczanie-wielu-zakladek-sladow-pulpit-carplay-ukrywanie-sladow-linki-sierpien-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -12,7 +13,7 @@ Ruszamy? We wrześniowej aktualizacji znajdziesz ulepszone trasy alternatywne, o
 
 Zainstaluj lub zaktualizuj Organic Maps przez stronę <https://get.omaps.org>, [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] albo [F-Droid][fdroid].
 
-Jeśli przegapiłeś nasze poprzednie aktualizacje, sprawdź nowości wprowadzone w [czerwcu](@/news/2026-06-29/610/index.pl.md), [lipcu](@/news/2026-07-23/620/index.pl.md) i [sierpniu](@/news/2026-08-31/630/index.pl.md). Wielkie brawa dla naszych współpracowników i użytkowników, dzięki którym te aktualizacje stały się możliwe!
+Jeśli przegapiłeś nasze poprzednie aktualizacje, sprawdź nowości wprowadzone w [czerwcu](@/news/2026-06-29/610/index.pl.md), [lipcu](@/news/2026-07-23/620/index.pl.md) i [sierpniu](@/news/2026-08-31/630/index.pl.md). Wielkie brawa dla naszych współtwórców i użytkowników, dzięki którym te aktualizacje stały się możliwe!
 
 ## Jak wesprzeć Organic Maps
 
@@ -30,7 +31,7 @@ Jeśli przegapiłeś nasze poprzednie aktualizacje, sprawdź nowości wprowadzon
 - Naprawiono błąd w wyszukiwaniu, gdy widoczny obszar mapy przecina południk 180° (długość geograficzna ±180°) _(Viktor Govako)_
 - Obszary z okresowym występowaniem wody są teraz zaznaczone wzorem kropkowanym, podobnym do tego, którego używa się dla piasku _(Alexander Borsuk)_
 - Zbiorniki wodne są teraz widoczne po dalszym oddaleniu widoku _(Alexander Borsuk)_
-- Tunele wodne nie są już pokazane na mapie _(Alexander Borsuk)_
+- Tunele wodne nie są już wyświetlane na mapie _(Alexander Borsuk)_
 - Poprawiono ikony stacji metra w Suzhou i wejść do nich _(Alexander Borsuk)_
 - Naprawiono rzadkie przypadki, w których etykiety przesuwały się z miejsca na warstwie mapy metra _(Viktor Govako)_
 
@@ -45,7 +46,7 @@ Jeśli przegapiłeś nasze poprzednie aktualizacje, sprawdź nowości wprowadzon
 - W godzinach otwarcia godzina 12:00 jest teraz oznaczona jako „Południe”, a godzina 00:00 lub 24:00 jako „Północ” _(Alexander Borsuk)_
 - Naprawiono błędy i ulepszono funkcję nagrywania śladu _(Alexander Borsuk)_
 - Naprawiono import plików KMB _(Alexander Borsuk)_
-- Poprawione tłumaczenia na francuski i asturyjski _(Alexander Borsuk)_
+- Poprawiono tłumaczenia na francuski i asturyjski _(Alexander Borsuk)_
 - Poprawiono literówkę w angielskiej wersji _(Carl Morris)_
 
 ### iOS
@@ -68,7 +69,7 @@ Jeśli przegapiłeś nasze poprzednie aktualizacje, sprawdź nowości wprowadzon
 - Ulepszono przesyłanie danych z edytora OpenStreetMap _(Owm)_
 - Zaktualizowano projekt interfejsu użytkownika _(Mikhail Listratsenka)_
 - Edytor zakładek i inne okna dialogowe pozostają teraz otwarte podczas nawigacji _(Mikhail Listratsenka)_
-- Naprawiono wyświetlanie wykresu wysokości dla śladów bez większych zmian wysokości oraz w interfejsach z układem od prawej do lewej _(Mikhail Listratsenka)_
+- Naprawiono wyświetlanie wykresu wysokości dla śladów bez zmian wysokości oraz w interfejsach z układem od prawej do lewej _(Mikhail Listratsenka)_
 - Naprawiono problem z przyciskami na mapie, które były przycinane przez paski systemowe _(Mikhail Listratsenka)_
 - Naprawiono błędy i ulepszono obsługę Android Auto _(Andrei Shkrob)_
 - Naprawiono awarię podczas renderowania mapy _(Viktor Govako)_

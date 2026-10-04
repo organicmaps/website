@@ -1,7 +1,8 @@
 ---
-title: "Optimeiddio llwybrau, gwell llwybrau amgen, cuddio traciau unigol, ac ardaloedd dŵr ysbeidiol yn ddiweddariad Medi 2026"
+title: "Optimeiddio llwybrau, gwell llwybrau amgen, cuddio traciau unigol, ac ardaloedd dŵr ysbeidiol yn niweddariad Medi 2026"
 date: 2026-09-29
-slug: "aml-ddewis-nodau-tudalen-traciau-dangosfwrdd-carplay-cuddio-traciau-dolenni-rhannu-awst-2026"
+slug: "optimeiddio-llwybrau-llwybrau-amgen-cuddio-traciau-unigol-ardaloedd-dwr-ysbeidiol-medi-2026"
+aliases: ["/cy/news/2026-09-29/aml-ddewis-nodau-tudalen-traciau-dangosfwrdd-carplay-cuddio-traciau-dolenni-rhannu-awst-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -18,15 +19,15 @@ Os wnest ti fethu ein diweddariadau blaenorol, edrycha ar y nodweddion a ryddhaw
 
 - [Rho rodd](@/donate/index.cy.md) i gefnogi datblygiad a thalu costau cynnal y mapiau
 - [Anfon dy adborth a chyfranna](@/contribute/index.cy.md) at y prosiect
-- Ymun â’r profion beta i roi cynnig ar nodweddion newydd yn gynnar ac adrodd am broblemau ar [iOS][testflight], [Android][firebase] a [chyfrifiaduron][flathub]
+- Ymuna â’r profion beta i roi cynnig ar nodweddion newydd yn gynnar ac adrodd am broblemau ar [iOS][testflight], [Android][firebase] a [chyfrifiaduron][flathub]
 - Lledaena’r gair a helpa ni i adeiladu dewis gwell yn lle mapiau’r cwmnïau technoleg mawr!
 
 ## Nodiadau rhyddhau
 
 ### Map
 
-- Data OpenStreetMap o 28 Medi, 2026
-- Data Wicipedia o 21 Medi, 2026
+- Data OpenStreetMap o 28 Medi 2026
+- Data Wicipedia o 21 Medi 2026
 - Trwsiwyd chwiliadau pan fydd ardal weladwy’r map yn croesi’r meridian 180° (±180° hydred) _(Viktor Govako)_
 - Mae ardaloedd dŵr ysbeidiol bellach yn cael eu dangos gyda phatrwm dotiau, yn debyg i'r un a ddefnyddir ar gyfer tywod _(Alexander Borsuk)_
 - Mae cronfeydd dŵr bellach yn weladwy wrth chwyddo allan ymhellach _(Alexander Borsuk)_
@@ -45,7 +46,7 @@ Os wnest ti fethu ein diweddariadau blaenorol, edrycha ar y nodweddion a ryddhaw
 - Mae oriau agor bellach yn dangos ‘Canol dydd’ ar gyfer 12:00 a ‘Canol nos’ ar gyfer 00:00 neu 24:00 _(Alexander Borsuk)_
 - Trwsiwyd bygiau a gwellwyd recordio traciau _(Alexander Borsuk)_
 - Trwsiwyd mewnforio ffeiliau KMB _(Alexander Borsuk)_
-- Cyfieithiadau Ffrangeg ac Astwreg wedi'u cywiro _(Alexander Borsuk)_
+- Cyfieithiadau Ffrangeg ac Astwrianeg wedi'u cywiro _(Alexander Borsuk)_
 - Cywirwyd gwall teipio yn Saesneg _(Carl Morris)_
 
 ### iOS
@@ -55,7 +56,7 @@ Os wnest ti fethu ein diweddariadau blaenorol, edrycha ar y nodweddion a ryddhaw
 - Ychwanegwyd gosodiad i optimeiddio trefn yr arosfannau canolradd ar y llwybr _(Kiryl Kaveryn)_
 - Ychwanegwyd cyfarwyddiadau ar gyfer symudiadau llywio at arddangosfeydd pen-i-fyny (HUDs) cydnaws mewn ceir a dangosfwrdd CarPlay _(Kiryl Kaveryn)_
 - Trwsiwyd botymau CarPlay a’r chwilio _(Alexander Borsuk)_
-- Atgyweirwyd amryw o fygiau a gwellawyd y rhyngwyneb defnyddiwr _(Kiryl Kaveryn, Alexander Borsuk)_
+- Atgyweirwyd amryw o fygiau a gwellwyd y rhyngwyneb defnyddiwr _(Kiryl Kaveryn, Alexander Borsuk)_
 - Ychwanegwyd cefnogaeth i ddewis llais llywio sydd wedi’i osod a gwrando ar sampl ohono _(Kiryl Kaveryn, Alexander Borsuk)_
 - Adferwyd chwilio yn ôl categori yn Spotlight _(Kiryl Kaveryn)_
 
@@ -70,14 +71,14 @@ Os wnest ti fethu ein diweddariadau blaenorol, edrycha ar y nodweddion a ryddhaw
 - Mae'r golygydd nodau tudalen a deialogau eraill bellach yn aros ar agor wrth lywio _(Mikhail Listratsenka)_
 - Trwsiwyd rendro’r siart uchder ar gyfer traciau gwastad ac mewn rhyngwynebau o’r dde i’r chwith _(Mikhail Listratsenka)_
 - Trwsiwyd y broblem lle roedd bariau’r system yn torri botymau’r map i ffwrdd _(Mikhail Listratsenka)_
-- Atgyweirwyd bygiau a gwellawyd cefnogaeth i Android Auto _(Andrei Shkrob)_
+- Atgyweirwyd bygiau a gwellwyd cefnogaeth i Android Auto _(Andrei Shkrob)_
 - Trwsiwyd chwalfa wrth rendro’r map _(Viktor Govako)_
 
 ### Bwrdd gwaith
 
 - Ailenwyd y ffeil weithredadwy bwrdd gwaith a'r bwndel ap macOS i `OrganicMaps` _(Alexander Borsuk)_
-- Datrysiwyd problemau yn ap Windows _(Osyotr, Alexander Borsuk)_
-- Mae’r arg `--lang` ar y llinell orchymyn bellach yn diystyru gosodiad iaith yr ap _(Alexander Borsuk)_
+- Datryswyd problemau yn ap Windows _(Osyotr, Alexander Borsuk)_
+- Mae’r opsiwn `--lang` ar y llinell orchymyn bellach yn diystyru gosodiad iaith yr ap _(Alexander Borsuk)_
 
 Gyda llawenydd ac angerdd,
 

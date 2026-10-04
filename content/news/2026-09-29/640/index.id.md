@@ -1,7 +1,8 @@
 ---
 title: "Pengoptimalan rute, rute alternatif yang lebih baik, penyembunyian trek satu per satu, dan area yang tidak selalu berair dalam pembaruan September 2026"
 date: 2026-09-29
-slug: "pemilihan-ganda-penanda-trek-dasbor-carplay-sembunyikan-trek-tautan-berbagi-agustus-2026"
+slug: "pengoptimalan-rute-rute-alternatif-sembunyikan-trek-area-tidak-selalu-berair-september-2026"
+aliases: ["/id/news/2026-09-29/pemilihan-ganda-penanda-trek-dasbor-carplay-sembunyikan-trek-tautan-berbagi-agustus-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -27,16 +28,16 @@ Jika kamu melewatkan pembaruan kami sebelumnya, lihat fitur-fitur yang dirilis p
 
 - Data OpenStreetMap per 28 September 2026
 - Data Wikipedia per 21 September 2026
-- Telah diperbaiki masalah pencarian saat area peta yang terlihat melintasi meridian 180° (±180° bujur) _(Viktor Govako)_
+- Telah diperbaiki masalah pencarian saat area peta yang terlihat melintasi meridian 180° (bujur ±180°) _(Viktor Govako)_
 - Area yang tidak selalu berair kini ditampilkan dengan pola titik-titik, mirip dengan pola yang digunakan untuk pasir _(Alexander Borsuk)_
 - Waduk kini terlihat saat tampilan peta diperkecil lebih jauh _(Alexander Borsuk)_
 - Terowongan air tidak lagi ditampilkan di peta _(Alexander Borsuk)_
 - Ikon stasiun dan pintu masuk Kereta Bawah Tanah Suzhou telah diperbaiki _(Alexander Borsuk)_
-- Telah diperbaiki beberapa kasus langka di mana label bergeser dari posisinya pada lapisan peta Metro _(Viktor Govako)_
+- Telah diperbaiki beberapa kasus langka ketika label bergeser dari posisinya pada lapisan peta metro _(Viktor Govako)_
 
 ### Perutean dan navigasi
 
-- Rute alternatif yang telah diperbaiki beserta perkiraan waktu kedatangan _(Alexander Borsuk, Viktor Govako)_
+- Rute alternatif dan perkiraan waktu kedatangannya kini lebih baik _(Alexander Borsuk, Viktor Govako)_
 - Rute alternatif yang dipilih kini tetap dipertahankan saat navigasi menghitung ulang rute _(Alexander Borsuk)_
 - Urutan perhentian rute kini dipulihkan setelah aplikasi dimulai ulang _(Kiryl Kaveryn)_
 
@@ -45,7 +46,7 @@ Jika kamu melewatkan pembaruan kami sebelumnya, lihat fitur-fitur yang dirilis p
 - Jam buka kini menampilkan “Tengah hari” untuk pukul 12:00 dan “Tengah malam” untuk pukul 00:00 atau 24:00 _(Alexander Borsuk)_
 - Memperbaiki bug dan meningkatkan fitur perekaman trek _(Alexander Borsuk)_
 - Masalah impor berkas KMB telah diperbaiki _(Alexander Borsuk)_
-- Terjemahan bahasa Prancis dan Asturia yang telah diperbaiki _(Alexander Borsuk)_
+- Terjemahan bahasa Prancis dan Asturia telah diperbaiki _(Alexander Borsuk)_
 - Memperbaiki kesalahan ketik dalam bahasa Inggris _(Carl Morris)_
 
 ### iOS
@@ -68,12 +69,12 @@ Jika kamu melewatkan pembaruan kami sebelumnya, lihat fitur-fitur yang dirilis p
 - Peningkatan proses unggah dari editor OpenStreetMap _(Owm)_
 - Desain antarmuka pengguna telah diperbarui _(Mikhail Listratsenka)_
 - Editor penanda dan kotak dialog lainnya kini tetap terbuka selama navigasi _(Mikhail Listratsenka)_
-- Perbaikan penampilan grafik ketinggian untuk trek datar dan pada antarmuka yang menggunakan arah kanan-ke-kiri _(Mikhail Listratsenka)_
+- Perbaikan tampilan grafik ketinggian untuk trek datar dan pada antarmuka yang menggunakan arah kanan-ke-kiri _(Mikhail Listratsenka)_
 - Masalah tombol peta yang terpotong oleh bilah sistem telah diperbaiki _(Mikhail Listratsenka)_
 - Memperbaiki bug dan meningkatkan dukungan Android Auto _(Andrei Shkrob)_
 - Telah diperbaiki masalah crash saat proses rendering peta _(Viktor Govako)_
 
-### Komputer Meja
+### Desktop
 
 - Nama file eksekusi desktop dan paket aplikasi macOS telah diubah menjadi `OrganicMaps` _(Alexander Borsuk)_
 - Masalah pada aplikasi Windows telah diperbaiki _(Osyotr, Alexander Borsuk)_

@@ -1,7 +1,8 @@
 ---
 title: "Routeoptimalisatie, verbeterde alternatieve routes, het verbergen van afzonderlijke tracks en tijdelijk met water bedekte gebieden in de update van september 2026"
 date: 2026-09-29
-slug: "meervoudige-selectie-bladwijzers-tracks-carplay-dashboard-tracks-verbergen-links-delen-augustus-2026"
+slug: "routeoptimalisatie-alternatieve-routes-afzonderlijke-tracks-verbergen-tijdelijk-met-water-bedekte-gebieden-september-2026"
+aliases: ["/nl/news/2026-09-29/meervoudige-selectie-bladwijzers-tracks-carplay-dashboard-tracks-verbergen-links-delen-augustus-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -27,8 +28,8 @@ Mocht je onze eerdere updates gemist hebben, bekijk dan eens de functies die in 
 
 - OpenStreetMap-gegevens per 28 september 2026
 - Gegevens uit Wikipedia per 21 september 2026
-- Zoekopdrachten aangepast wanneer het zichtbare kaartgebied de 180°-meridiaan (±180° lengtegraad) overschrijdt _(Viktor Govako)_
-- Gebieden met af en toe water worden nu weergegeven met een stippelpatroon, net zoals bij zand _(Alexander Borsuk)_
+- Probleem met zoeken verholpen wanneer het zichtbare kaartgebied de 180°-meridiaan (±180° lengtegraad) overschrijdt _(Viktor Govako)_
+- Tijdelijk met water bedekte gebieden worden nu weergegeven met een stippelpatroon, net zoals bij zand _(Alexander Borsuk)_
 - Waterreservoirs zijn nu zichtbaar als je verder uitzoomt _(Alexander Borsuk)_
 - De watertunnels staan niet meer op de kaart _(Alexander Borsuk)_
 - De pictogrammen voor de metrostations en ingangen in Suzhou zijn gecorrigeerd _(Alexander Borsuk)_
@@ -57,7 +58,7 @@ Mocht je onze eerdere updates gemist hebben, bekijk dan eens de functies die in 
 - Fouten in de CarPlay-knoppen en de zoekfunctie verholpen _(Alexander Borsuk)_
 - Er zijn verschillende bugs verholpen en de gebruikersinterface is verbeterd _(Kiryl Kaveryn, Alexander Borsuk)_
 - Ondersteuning toegevoegd voor het kiezen van een geïnstalleerde navigatiestem en het beluisteren van een voorbeeld _(Kiryl Kaveryn, Alexander Borsuk)_
-- Zoeken op categorie in Spotlight weer in orde _(Kiryl Kaveryn)_
+- Zoeken op categorie in Spotlight hersteld _(Kiryl Kaveryn)_
 
 ### Android
 

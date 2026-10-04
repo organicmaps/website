@@ -1,7 +1,8 @@
 ---
 title: "Otimização de rotas, rotas alternativas melhoradas, ocultação de trilhos individuais e zonas com presença intermitente de água na atualização de setembro de 2026"
 date: 2026-09-29
-slug: "selecao-multipla-favoritos-trilhos-painel-carplay-ocultar-trilhos-links-partilha-agosto-2026"
+slug: "otimizacao-rotas-rotas-alternativas-ocultar-trilhos-individuais-zonas-agua-intermitente-setembro-2026"
+aliases: ["/pt/news/2026-09-29/selecao-multipla-favoritos-trilhos-painel-carplay-ocultar-trilhos-links-partilha-agosto-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -19,7 +20,7 @@ Se não viste as nossas atualizações anteriores, dá uma vista de olhos nas fu
 - [Faz uma doação](@/donate/index.pt.md) para apoiar o desenvolvimento e cobrir os custos de alojamento dos mapas
 - [Envia os teus comentários e contribui](@/contribute/index.pt.md) para o projeto
 - Junta-te ao teste beta para experimentares as novas funcionalidades em primeira mão e reportares problemas no [iOS][testflight], [Android][firebase] e [no computador][flathub]
-- Espalha a palavra e ajuda-nos a criar uma alternativa melhor aos mapas das grandes empresas tecnológicas!
+- Passa a palavra e ajuda-nos a criar uma alternativa melhor aos mapas das grandes empresas tecnológicas!
 
 ## Notas de lançamento
 
@@ -32,7 +33,7 @@ Se não viste as nossas atualizações anteriores, dá uma vista de olhos nas fu
 - Os reservatórios de água já são visíveis quando se afasta mais o zoom _(Alexander Borsuk)_
 - Os túneis de água já não aparecem no mapa _(Alexander Borsuk)_
 - Corrigimos os ícones das estações e das entradas do metro de Suzhou _(Alexander Borsuk)_
-- Corrigimos alguns casos raros em que as legendas ficavam deslocadas na camada do mapa do metro _(Viktor Govako)_
+- Corrigimos alguns casos raros em que os rótulos ficavam deslocados na camada do mapa do metro _(Viktor Govako)_
 
 ### Planeamento de rotas e navegação
 
@@ -53,7 +54,7 @@ Se não viste as nossas atualizações anteriores, dá uma vista de olhos nas fu
 - Adicionámos um ícone de olho para ocultar trilhos individuais _(Kiryl Kaveryn)_
 - Adicionámos botões para adicionar ou substituir uma paragem numa rota planeada _(Kiryl Kaveryn)_
 - Adicionámos uma opção para otimizar a ordem das paragens intermédias da rota _(Kiryl Kaveryn)_
-- Adicionámos instruções de manobra aos ecrãs head-up (HUD) dos carros compatíveis e ao painel de instrumentos do CarPlay _(Kiryl Kaveryn)_
+- Adicionámos instruções de manobra aos ecrãs head-up (HUD) dos carros compatíveis e ao painel do CarPlay _(Kiryl Kaveryn)_
 - Corrigimos os botões e a pesquisa do CarPlay _(Alexander Borsuk)_
 - Corrigimos vários erros e melhorámos a interface do utilizador _(Kiryl Kaveryn, Alexander Borsuk)_
 - Adicionámos a possibilidade de escolher e ouvir uma amostra de uma voz de navegação instalada _(Kiryl Kaveryn, Alexander Borsuk)_
@@ -69,7 +70,7 @@ Se não viste as nossas atualizações anteriores, dá uma vista de olhos nas fu
 - Atualizámos o design da interface do utilizador _(Mikhail Listratsenka)_
 - O editor de favoritos e outras caixas de diálogo agora ficam abertos durante a navegação _(Mikhail Listratsenka)_
 - Corrigida a renderização do gráfico de elevação em trilhos planos e em interfaces da direita para a esquerda _(Mikhail Listratsenka)_
-- Corrigido o problema dos botões do mapa ficarem cortados pelas barras do sistema _(Mikhail Listratsenka)_
+- Corrigido o problema em que os botões do mapa ficavam cortados pelas barras do sistema _(Mikhail Listratsenka)_
 - Corrigimos alguns erros e melhorámos a compatibilidade com o Android Auto _(Andrei Shkrob)_
 - Corrigimos uma falha que causava o encerramento do programa durante a renderização do mapa _(Viktor Govako)_
 

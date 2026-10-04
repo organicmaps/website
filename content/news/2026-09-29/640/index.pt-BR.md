@@ -1,7 +1,8 @@
 ---
 title: "Otimização de rotas, rotas alternativas aprimoradas, ocultação de trilhas individuais e áreas com presença intermitente de água na atualização de setembro de 2026"
 date: 2026-09-29
-slug: "selecao-multipla-favoritos-trilhas-painel-carplay-ocultar-trilhas-links-compartilhamento-agosto-2026"
+slug: "otimizacao-rotas-rotas-alternativas-ocultar-trilhas-individuais-areas-agua-intermitente-setembro-2026"
+aliases: ["/pt-BR/news/2026-09-29/selecao-multipla-favoritos-trilhas-painel-carplay-ocultar-trilhas-links-compartilhamento-agosto-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -18,7 +19,7 @@ Se você perdeu nossas atualizações anteriores, dê uma olhada nos recursos la
 
 - [Faça uma doação](@/donate/index.pt-BR.md) para apoiar o desenvolvimento e cobrir os custos de hospedagem dos mapas
 - [Envie seus comentários e contribua](@/contribute/index.pt-BR.md) com o projeto
-- Participe dos testes beta para experimentar novos recursos mais cedo e relatar problemas no [iOS][testflight], no [Android][firebase] e no [computador][flathub]
+- Participe dos testes beta para experimentar novos recursos mais cedo e relatar problemas no [iOS][testflight], no [Android][firebase] e no [desktop][flathub]
 - Divulgue e nos ajude a criar uma alternativa melhor aos mapas das grandes empresas de tecnologia!
 
 ## Notas de lançamento
@@ -32,7 +33,7 @@ Se você perdeu nossas atualizações anteriores, dê uma olhada nos recursos la
 - Agora os reservatórios de água ficam visíveis ao diminuir ainda mais o zoom _(Alexander Borsuk)_
 - Os túneis de água não aparecem mais no mapa _(Alexander Borsuk)_
 - Corrigimos os ícones das estações e entradas do Metrô de Suzhou _(Alexander Borsuk)_
-- Corrigimos alguns casos raros em que as legendas ficavam deslocadas na camada do mapa do metrô _(Viktor Govako)_
+- Corrigimos alguns casos raros em que os rótulos ficavam deslocados na camada do mapa do metrô _(Viktor Govako)_
 
 ### Roteamento e navegação
 
@@ -71,11 +72,11 @@ Se você perdeu nossas atualizações anteriores, dê uma olhada nos recursos la
 - Corrigimos a exibição do gráfico de elevação em trilhas planas e em interfaces da direita para a esquerda _(Mikhail Listratsenka)_
 - Corrigimos o problema dos botões do mapa ficarem cortados pelas barras do sistema _(Mikhail Listratsenka)_
 - Corrigimos alguns bugs e melhoramos o suporte ao Android Auto _(Andrei Shkrob)_
-- Corrigimos um travamento durante a renderização do mapa _(Viktor Govako)_
+- Corrigimos uma falha durante a renderização do mapa _(Viktor Govako)_
 
 ### Desktop
 
-- Renomeamos o executável para desktop e o pacote do aplicativo para macOS para `OrganicMaps` _(Alexander Borsuk)_
+- Renomeamos o executável para desktop e o pacote do aplicativo macOS para `OrganicMaps` _(Alexander Borsuk)_
 - Corrigimos alguns problemas no aplicativo para Windows _(Osyotr, Alexander Borsuk)_
 - O argumento de linha de comando `--lang` agora tem prioridade sobre a configuração de idioma do aplicativo _(Alexander Borsuk)_
 

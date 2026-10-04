@@ -1,7 +1,8 @@
 ---
 title: "Optimización da ruta, rutas alternativas melloradas, ocultación de tracks individuais e zonas de auga intermitente na actualización de setembro de 2026"
 date: 2026-09-29
-slug: "seleccion-multiple-marcadores-tracks-panel-carplay-ocultar-tracks-ligazons-compartir-agosto-2026"
+slug: "optimizacion-rutas-rutas-alternativas-ocultar-tracks-individuais-zonas-auga-intermitente-setembro-2026"
+aliases: ["/gl/news/2026-09-29/seleccion-multiple-marcadores-tracks-panel-carplay-ocultar-tracks-ligazons-compartir-agosto-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -18,7 +19,7 @@ Se perdiches as nosas actualizacións anteriores, bota unha ollada ás funcións
 
 - [Doa](@/donate/index.gl.md) para apoiar o desenvolvemento e cubrir os custos de aloxamento do mapa
 - [Envía os teus comentarios e contribúe](@/contribute/index.gl.md) ao proxecto
-- Participa nas probas beta para probar as novas funcións canto antes e informar de problemas en [iOS][testflight], [Android][firebase] e [escritorio][flathub].
+- Participa nas probas beta para probar as novas funcións canto antes e informar de problemas en [iOS][testflight], [Android][firebase] e [escritorio][flathub]
 - Espalla a nova e axúdanos a construír unha alternativa mellor aos mapas das grandes empresas tecnolóxicas!
 
 ## Notas de versión
@@ -53,7 +54,7 @@ Se perdiches as nosas actualizacións anteriores, bota unha ollada ás funcións
 - Engadiuse unha icona de ollo para ocultar tracks individuais _(Kiryl Kaveryn)_
 - Engadíronse botóns para engadir ou substituír unha parada nunha ruta planificada _(Kiryl Kaveryn)_
 - Engadiuse un axuste para optimizar a orde das paradas intermedias da ruta _(Kiryl Kaveryn)_
-- Engadíronse instrucións de manobra ás pantallas head-up (HUD) dos vehículos compatibles e ao cadro de instrumentos de CarPlay _(Kiryl Kaveryn)_
+- Engadíronse instrucións de manobra ás pantallas head-up (HUD) dos vehículos compatibles e ao panel de CarPlay _(Kiryl Kaveryn)_
 - Corrixíronse os botóns e a busca de CarPlay _(Alexander Borsuk)_
 - Arranxáronse varios erros e mellorouse a interface de usuario _(Kiryl Kaveryn, Alexander Borsuk)_
 - Engadiuse a posibilidade de escoller unha voz de navegación instalada e escoitar unha mostra dela _(Kiryl Kaveryn, Alexander Borsuk)_
@@ -61,13 +62,13 @@ Se perdiches as nosas actualizacións anteriores, bota unha ollada ás funcións
 
 ### Android
 
-- Engadiuse unha configuración para optimizar a orde das paradas intermedias da ruta _(Mikhail Listratsenka)_
+- Engadiuse un axuste para optimizar a orde das paradas intermedias da ruta _(Mikhail Listratsenka)_
 - Engadíronse botóns para engadir ou substituír unha parada nunha ruta planificada _(Mikhail Listratsenka)_
 - Engadiuse a posibilidade de deter a gravación dun track e gardalo desde a notificación _(Alexander Borsuk)_
 - O botón «Engadir parada» engade agora unha parada despois das paradas existentes, antes do destino _(Mikhail Listratsenka)_
 - Melloras nas subidas desde o editor de OpenStreetMap _(Owm)_
 - Actualizouse o deseño da interface de usuario _(Mikhail Listratsenka)_
-- O editor de marcadores e outros cadros de diálogo agora permanecen abertos durante a navegación _(Mikhail Listratsenka)_
+- O editor de marcadores e outras caixas de diálogo agora permanecen abertos durante a navegación _(Mikhail Listratsenka)_
 - Corrixiuse a representación do gráfico de elevación para tracks planos e en interfaces de dereita a esquerda _(Mikhail Listratsenka)_
 - Corrixiuse o problema que facía que as barras do sistema recortasen os botóns do mapa _(Mikhail Listratsenka)_
 - Arranxáronse erros e mellorouse o soporte de Android Auto _(Andrei Shkrob)_
@@ -75,7 +76,7 @@ Se perdiches as nosas actualizacións anteriores, bota unha ollada ás funcións
 
 ### Escritorio
 
-- Renomeouse o executábel de escritorio e o paquete de aplicacións para macOS a `OrganicMaps` _(Alexander Borsuk)_
+- Renomeouse o executábel de escritorio e o paquete da aplicación para macOS a `OrganicMaps` _(Alexander Borsuk)_
 - Solucionáronse problemas na aplicación de Windows _(Osyotr, Alexander Borsuk)_
 - O argumento de liña de comandos `--lang` agora anula o idioma da aplicación _(Alexander Borsuk)_
 

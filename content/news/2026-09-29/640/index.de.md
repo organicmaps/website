@@ -1,7 +1,8 @@
 ---
 title: "Routenoptimierung, verbesserte Alternativrouten, das Ausblenden einzelner Tracks und zeitweise wasserführende Flächen im September-Update 2026"
 date: 2026-09-29
-slug: "mehrfachauswahl-lesezeichen-tracks-carplay-dashboard-tracks-ausblenden-links-teilen-august-2026"
+slug: "routenoptimierung-alternativrouten-einzelne-tracks-ausblenden-zeitweise-wasserfuehrende-flaechen-september-2026"
+aliases: ["/de/news/2026-09-29/mehrfachauswahl-lesezeichen-tracks-carplay-dashboard-tracks-ausblenden-links-teilen-august-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -27,7 +28,7 @@ Falls du unsere bisherigen Updates verpasst hast, schau dir die im [Juni](@/news
 
 - OpenStreetMap-Daten vom 28. September 2026
 - Wikipedia-Daten vom 21. September 2026
-- Die Suche wurde korrigiert, wenn der sichtbare Kartenbereich den 180°-Meridian (±180° Längengrad) überschreitet _(Viktor Govako)_
+- Die Suche funktioniert jetzt korrekt, wenn der sichtbare Kartenbereich den 180°-Meridian (±180° Längengrad) überschreitet _(Viktor Govako)_
 - Zeitweise wasserführende Flächen werden nun mit einem gepunkteten Muster dargestellt, ähnlich dem Muster für Sand _(Alexander Borsuk)_
 - Wasserreservoirs sind jetzt sichtbar, wenn man weiter herauszoomt _(Alexander Borsuk)_
 - Wassertunnel werden auf der Karte nicht mehr angezeigt _(Alexander Borsuk)_
@@ -69,8 +70,8 @@ Falls du unsere bisherigen Updates verpasst hast, schau dir die im [Juni](@/news
 - Das Design der Benutzeroberfläche wurde aktualisiert _(Mikhail Listratsenka)_
 - Der Lesezeichen-Editor und andere Dialoge bleiben jetzt während der Navigation geöffnet _(Mikhail Listratsenka)_
 - Darstellung von Höhenprofilen für flache Tracks und in von rechts nach links verlaufenden Benutzeroberflächen korrigiert _(Mikhail Listratsenka)_
-- Problem behoben, bei dem die Schaltflächen auf der Karte von den Systembalken abgeschnitten wurden _(Mikhail Listratsenka)_
-- Fehler behoben und die Android Auto-Unterstützung verbessert _(Andrei Shkrob)_
+- Problem behoben, bei dem die Schaltflächen auf der Karte von den Systemleisten abgeschnitten wurden _(Mikhail Listratsenka)_
+- Fehler behoben und die Android-Auto-Unterstützung verbessert _(Andrei Shkrob)_
 - Ein Absturz beim Rendern der Karte wurde behoben _(Viktor Govako)_
 
 ### Desktop

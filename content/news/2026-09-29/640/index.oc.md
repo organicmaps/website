@@ -1,14 +1,15 @@
 ---
 title: "Optimizacion de l’itinerari, itineraris alternatius melhorats, amagament de traças individualas e zònas d’aiga intermitenta dins la mesa a jorn de setembre de 2026"
 date: 2026-09-29
-slug: "seleccion-multipla-marcadors-tracas-tableu-bord-carplay-amagar-tracas-ligams-partatge-agost-2026"
+slug: "optimizacion-itinerari-itineraris-alternatius-amagar-tracas-individualas-zonas-aiga-intermitenta-setembre-2026"
+aliases: ["/oc/news/2026-09-29/seleccion-multipla-marcadors-tracas-tableu-bord-carplay-amagar-tracas-ligams-partatge-agost-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
   preview_image: 00-intermittent-water.png
 ---
 
-Prèst per partir? La mesa a jorn de setembre aporta d’itineraris alternatius melhorats, un paramètre per optimizar l’òrdre de las paradas de l’itinerari, de marcas mai claras per las zònas d’aiga intermitenta e una icòna d’uèlh per amagar de traças individualas, amb fòrça autras correccions e melhoraments (veire çai jos).
+Prèst per partir? La mesa a jorn de setembre aporta d’itineraris alternatius melhorats, un paramètre per optimizar l’òrdre de las paradas de l’itinerari, de marcas mai claras per las zònas d’aiga intermitenta e una icòna d’uèlh per amagar de traças individualas, amb fòrça autras correccions e melhoraments (veire çai-jos).
 
 Installa o met a jorn Organic Maps via <https://get.omaps.org>, l’[App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] o [F-Droid][fdroid].
 
@@ -19,7 +20,7 @@ Se as mancat nòstras mesas a jorn precedentas, consulta las foncionalitats publ
 - [Fai un don](@/donate/index.oc.md) per sosténer lo desvolopament e cobrir los còstes d’albergament de las mapas
 - [Manda tos comentaris e contribuís](@/contribute/index.oc.md) al projècte
 - Participa als tèsts beta per ensajar las novèlas foncionalitats en avança e senhalar los problèmas sus [iOS][testflight], [Android][firebase] e [ordinator][flathub]
-- Fai córrer la novèla e ajuda-nos a bastir una melhora alternativa a las mapas de las grandas entrepresas tecnologicas!
+- Fai córrer la novèla e ajuda-nos a bastir una melhor alternativa a las mapas de las grandas entrepresas tecnologicas!
 
 ## Nòtas de version
 
@@ -32,7 +33,7 @@ Se as mancat nòstras mesas a jorn precedentas, consulta las foncionalitats publ
 - Los reservatòris d'aiga son ara visibles quand se fa un zoom mai larg _(Alexander Borsuk)_
 - Los tunèls d'aiga son pus mostrats sus la mapa _(Alexander Borsuk)_
 - Correccion de las icònas de las estacions e de las entradas del mètro de Suzhou _(Alexander Borsuk)_
-- Se son corregits de cas rars ont las etiquetas se desplaçavan de lor posicion dins la capa de la mapa del metro _(Viktor Govako)_
+- Se son corregits de cas rars ont las etiquetas se desplaçavan de lor posicion dins la capa de la mapa del mètro _(Viktor Govako)_
 
 ### Planificacion d’itineraris e navigacion
 
@@ -55,7 +56,7 @@ Se as mancat nòstras mesas a jorn precedentas, consulta las foncionalitats publ
 - Un paramètre es estat apondut per optimizar l’òrdre de las paradas intermediàrias de l’itinerari _(Kiryl Kaveryn)_
 - Instruccions de manòbra apondudas als ecrans cap-amont (HUD) dels veïculs compatibles e al tablèu de bòrd CarPlay _(Kiryl Kaveryn)_
 - Correccion dels botons e de la recèrca de CarPlay _(Alexander Borsuk)_
-- Se son corregits divèrses errors e ameliorada l'interfàcia d'utilizaire _(Kiryl Kaveryn, Alexander Borsuk)_
+- Correccion de divèrsas errors e melhorament de l’interfàcia d'utilizaire _(Kiryl Kaveryn, Alexander Borsuk)_
 - La possibilitat de causir una votz de navigacion installada e d’escotar un escantilh d’aquela votz es estada aponduda _(Kiryl Kaveryn, Alexander Borsuk)_
 - Restablida la recèrca per categoria dins Spotlight _(Kiryl Kaveryn)_
 

@@ -1,7 +1,8 @@
 ---
 title: "सितंबर 2026 अपडेट में मार्ग अनुकूलन, बेहतर वैकल्पिक मार्ग, अलग-अलग ट्रैक छिपाने की सुविधा और अस्थायी जल क्षेत्र"
 date: 2026-09-29
-slug: "bahu-chayan-bookmark-track-carplay-dashboard-track-chipana-share-link-august-2026"
+slug: "marg-anukulan-vaikalpik-marg-alag-alag-track-chipana-asthayi-jal-kshetra-september-2026"
+aliases: ["/hi/news/2026-09-29/bahu-chayan-bookmark-track-carplay-dashboard-track-chipana-share-link-august-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -12,13 +13,13 @@ extra:
 
 Organic Maps को <https://get.omaps.org>, [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], या [F-Droid][fdroid] के माध्यम से इंस्टॉल या अपडेट करें।
 
-यदि आपने हमारे पिछले अपडेट्स मिस कर दिए हैं, तो [जून](@/news/2026-06-29/610/index.hi.md), [जुलाई](@/news/2026-07-23/620/index.hi.md) और [अगस्त](@/news/2026-08-31/630/index.hi.md) में जारी की गई सुविधाएँ देखें। इन अपडेट्स को संभव बनाने वाले हमारे योगदानकर्ताओं और उपयोगकर्ताओं को बधाई!
+यदि आपने हमारे पिछले अपडेट्स मिस कर दिए हैं, तो [जून](@/news/2026-06-29/610/index.hi.md), [जुलाई](@/news/2026-07-23/620/index.hi.md) और [अगस्त](@/news/2026-08-31/630/index.hi.md) में जारी की गई सुविधाएँ देखें। इन अपडेट्स को संभव बनाने वाले हमारे योगदानकर्ताओं और उपयोगकर्ताओं का आभार!
 
 ## Organic Maps का समर्थन कैसे करें
 
 - विकास में सहयोग देने और नक्शों की होस्टिंग का खर्च उठाने के लिए [दान करें](@/donate/index.hi.md)
 - [अपनी प्रतिक्रिया भेजें और परियोजना में योगदान दें](@/contribute/index.hi.md)
-- नए फीचर्स जल्दी आज़माने और [iOS][testflight], [Android][firebase], और [डेस्कटॉप][flathub] पर समस्याएँ रिपोर्ट करने के लिए बीटा टेस्टिंग में शामिल हों।
+- नए फीचर्स जल्दी आज़माने और [iOS][testflight], [Android][firebase], और [डेस्कटॉप][flathub] पर समस्याएँ रिपोर्ट करने के लिए बीटा टेस्टिंग में शामिल हों
 - दूसरों को इसके बारे में बताएँ और बड़ी टेक कंपनियों के नक्शों का बेहतर विकल्प बनाने में हमारी मदद करें!
 
 ## रिलीज़ नोट्स
@@ -30,9 +31,9 @@ Organic Maps को <https://get.omaps.org>, [App Store][appstore], [Google Play
 - दिखाई दे रहे नक्शे के क्षेत्र के 180° देशांतर रेखा (±180° देशांतर) को पार करने पर खोज में आने वाली समस्या ठीक की गई _(Viktor Govako)_
 - समय-समय पर पानी से भरे रहने वाले क्षेत्र अब बिंदुओं वाले पैटर्न से दिखाए जाते हैं, जो नक्शे पर रेत के लिए इस्तेमाल किए जाने वाले पैटर्न जैसा है _(Alexander Borsuk)_
 - अब और अधिक ज़ूम आउट करने पर भी जलाशय दिखाई देते हैं _(Alexander Borsuk)_
-- जल सुरंगें अब मानचित्र पर नहीं दिखाई जाती हैं _(Alexander Borsuk)_
+- जल सुरंगें अब नक्शे पर नहीं दिखाई जाती हैं _(Alexander Borsuk)_
 - सूझोउ मेट्रो के स्टेशनों और प्रवेश द्वारों के आइकन ठीक किए गए _(Alexander Borsuk)_
-- मेट्रो मानचित्र परत पर लेबल के स्थिति से हटने की दुर्लभ समस्या को ठीक किया गया _(Viktor Govako)_
+- मेट्रो नक्शे की परत पर लेबल के स्थिति से हटने की दुर्लभ समस्या को ठीक किया गया _(Viktor Govako)_
 
 ### रूटिंग और नेविगेशन
 
@@ -68,7 +69,7 @@ Organic Maps को <https://get.omaps.org>, [App Store][appstore], [Google Play
 - OpenStreetMap संपादक से किए जाने वाले अपलोड में सुधार किया गया _(Owm)_
 - उपयोगकर्ता इंटरफ़ेस डिज़ाइन को अपडेट किया गया _(Mikhail Listratsenka)_
 - बुकमार्क संपादक और अन्य संवाद अब नेविगेशन के दौरान खुले रहते हैं _(Mikhail Listratsenka)_
-- कम ऊँचाई परिवर्तन वाले ट्रैक और दाएँ-से-बाएँ इंटरफ़ेस में ऊँचाई का चार्ट दिखाने की समस्या ठीक की गई _(Mikhail Listratsenka)_
+- ऊँचाई में बदलाव न होने वाले ट्रैक और दाएँ-से-बाएँ इंटरफ़ेस में ऊँचाई का चार्ट दिखाने की समस्या ठीक की गई _(Mikhail Listratsenka)_
 - सिस्टम बार की वजह से नक्शे के बटन कटने की समस्या ठीक की गई _(Mikhail Listratsenka)_
 - त्रुटियाँ ठीक की गईं और Android Auto के समर्थन में सुधार किया गया _(Andrei Shkrob)_
 - नक्शा रेंडरिंग के दौरान क्रैश ठीक किया गया _(Viktor Govako)_

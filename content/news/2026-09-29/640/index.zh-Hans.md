@@ -1,7 +1,8 @@
 ---
 title: "2026 年 9 月更新：路线优化、替代路线改进、单条轨迹隐藏和间歇性水域"
 date: 2026-09-29
-slug: "shuqian-guiji-duoxuan-carplay-yibiaopan-yincang-guiji-fenxiang-lianjie-2026-bayue"
+slug: "luxian-youhua-tidai-luxian-gaijin-dantiao-guiji-yincang-jianxiexing-shuiyu-2026-jiuyue"
+aliases: ["/zh-Hans/news/2026-09-29/shuqian-guiji-duoxuan-carplay-yibiaopan-yincang-guiji-fenxiang-lianjie-2026-bayue/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -30,8 +31,8 @@ extra:
 - 修复了可见地图区域跨越 180° 经线（±180° 经度）时的搜索问题 _(Viktor Govako)_
 - 间歇性水域现在以点状图案显示，与地图上沙地所用的图案类似 _(Alexander Borsuk)_
 - 现在进一步缩小地图时也能看到水库 _(Alexander Borsuk)_
-- 地图上不再显示水隧道 _(Alexander Borsuk)_
-- 修复了苏州地铁站和入口图标 _(Alexander Borsuk)_
+- 地图上不再显示输水隧洞 _(Alexander Borsuk)_
+- 修复了苏州地铁的车站和出入口图标 _(Alexander Borsuk)_
 - 修复了地铁地图图层中标签位置偏移的极少数情况 _(Viktor Govako)_
 
 ### 路线规划与导航
@@ -65,7 +66,7 @@ extra:
 - 添加了用于在计划路线中添加或替换途经点的按钮 _(Mikhail Listratsenka)_
 - 新增了通过通知停止轨迹录制并保存轨迹的功能 _(Alexander Borsuk)_
 - “添加途经点”按钮现在会在现有途经点之后、目的地之前添加一个途经点 _(Mikhail Listratsenka)_
-- 改进 OpenStreetMap 编辑器的上传功能 _(Owm)_
+- 改进了 OpenStreetMap 编辑器的上传功能 _(Owm)_
 - 更新了用户界面设计 _(Mikhail Listratsenka)_
 - 书签编辑器和其他对话框现在在导航过程中会保持打开状态 _(Mikhail Listratsenka)_
 - 修复了平坦轨迹及从右到左布局的界面中海拔图的渲染问题 _(Mikhail Listratsenka)_

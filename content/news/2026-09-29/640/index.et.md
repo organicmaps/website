@@ -1,16 +1,17 @@
 ---
-title: "Marsruudi optimeerimine, täiustatud alternatiivsed marsruudid, üksikute radade peitmine ja ajutised veealad 2026. aasta septembri värskenduses"
+title: "Marsruudi optimeerimine, täiustatud alternatiivsed marsruudid, üksikute radade peitmine ja ajutised veealad 2026. aasta septembri uuenduses"
 date: 2026-09-29
-slug: "mitme-valimine-jarjehoidjad-rajad-carplay-juhtpaneel-radade-peitmine-jagamislingid-august-2026"
+slug: "marsruudi-optimeerimine-alternatiivsed-marsruudid-radade-peitmine-ajutised-veealad-september-2026"
+aliases: ["/et/news/2026-09-29/mitme-valimine-jarjehoidjad-rajad-carplay-juhtpaneel-radade-peitmine-jagamislingid-august-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
   preview_image: 00-intermittent-water.png
 ---
 
-Kas oled valmis teele asuma? Septembri värskendus toob kaasa täiustatud alternatiivmarsruudid, seadistuse marsruudi peatuste järjekorra optimeerimiseks, selgemad märgistused ajutiste veealade jaoks ning silmaikooni üksikute radade peitmiseks, lisaks paljudele muudele parandustele ja täiustustele (vt allpool).
+Kas oled valmis teele asuma? Septembri uuendus toob kaasa täiustatud alternatiivmarsruudid, seadistuse marsruudi peatuste järjekorra optimeerimiseks, selgemad märgistused ajutiste veealade jaoks ning silmaikooni üksikute radade peitmiseks, lisaks paljudele muudele parandustele ja täiustustele (vt allpool).
 
-Paigalda või uuenda Organic Mapsi veebilehe <https://get.omaps.org> kaudu, [App Store’ist][appstore], [Google Playst][googleplay], [Huawei AppGallery’st][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] või [F-Droidist][fdroid].
+Paigalda või uuenda Organic Mapsi veebilehe <https://get.omaps.org> kaudu, [App Store’ist][appstore], [Google Playst][googleplay], [Huawei AppGalleryst][appgallery], [Obtainiumist][obtainium], [Accrescentist][accrescent] või [F-Droidist][fdroid].
 
 Kui sul jäid meie eelmised uuendused märkamata, vaata [juunis](@/news/2026-06-29/610/index.et.md), [juulis](@/news/2026-07-23/620/index.et.md) ja [augustis](@/news/2026-08-31/630/index.et.md) avaldatud funktsioone. Suur tänu meie kaastöötajatele ja kasutajatele, kes need uuendused võimalikuks tegid!
 
@@ -29,7 +30,7 @@ Kui sul jäid meie eelmised uuendused märkamata, vaata [juunis](@/news/2026-06-
 - Vikipeedia andmed seisuga 21. september 2026
 - Parandati otsinguid, kui nähtav kaardiala ületab 180° meridiaani (±180° pikkuskraadi) _(Viktor Govako)_
 - Ajutised veealad on nüüd kujutatud täpilise mustriga, sarnaselt liiva kujutamiseks kasutatava mustriga _(Alexander Borsuk)_
-- Veereservuaarid on nüüd nähtavad, kui kaarti veelgi välja suumida _(Alexander Borsuk)_
+- Veehoidlad on nüüd nähtavad, kui kaarti veelgi välja suumida _(Alexander Borsuk)_
 - Veetunneleid ei kuvata enam kaardil _(Alexander Borsuk)_
 - Parandati Suzhou metroojaamade ja sissepääsude ikoonid _(Alexander Borsuk)_
 - Parandati haruldased juhtumid, kus metrookaardi kihil nihkusid sildid paigast ära _(Viktor Govako)_
@@ -45,7 +46,7 @@ Kui sul jäid meie eelmised uuendused märkamata, vaata [juunis](@/news/2026-06-
 - Lahtiolekuaegades kuvatakse nüüd kella 12:00 asemel „Keskpäev“ ja kella 00:00 või 24:00 asemel „Kesköö“ _(Alexander Borsuk)_
 - Parandatud vead ja täiustatud raja salvestamine _(Alexander Borsuk)_
 - Parandatud KMB-failide importimine _(Alexander Borsuk)_
-- Parandatud prantsuse- ja astuuria keele tõlked _(Alexander Borsuk)_
+- Parandatud prantsuse ja astuuria keele tõlked _(Alexander Borsuk)_
 - Parandati trükiviga inglise keeles _(Carl Morris)_
 
 ### iOS

@@ -1,7 +1,8 @@
 ---
 title: "Maršruto optimizavimas, patobulinti alternatyvūs maršrutai, atskirų trasų slėpimas ir protarpiais vandeniu padengti plotai 2026 m. rugsėjo atnaujinime"
 date: 2026-09-29
-slug: "keliu-zymu-trasu-pazymejimas-carplay-skydelis-trasu-slepimas-nuorodos-rugpjutis-2026"
+slug: "marsruto-optimizavimas-alternatyvus-marsrutai-atskiru-trasu-slepimas-protarpiais-vandeniu-padengti-plotai-rugsejis-2026"
+aliases: ["/lt/news/2026-09-29/keliu-zymu-trasu-pazymejimas-carplay-skydelis-trasu-slepimas-nuorodos-rugpjutis-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -42,7 +43,7 @@ Jei praleidote mūsų ankstesnius atnaujinimus, susipažinkite su [birželio](@/
 
 ### Kiti patobulinimai
 
-- Darbo valandose dabar vietoj 12:00 rodoma „Vidurdienis“, o vietoj 00:00 arba 24:00 – „Vidurnaktis“ _(Alexander Borsuk)_
+- Darbo laiko informacijoje dabar vietoj 12:00 rodoma „Vidurdienis“, o vietoj 00:00 arba 24:00 – „Vidurnaktis“ _(Alexander Borsuk)_
 - Ištaisytos klaidos ir patobulintas trasų įrašymas _(Alexander Borsuk)_
 - Ištaisytas KMB failų importavimas _(Alexander Borsuk)_
 - Ištaisyti vertimai į prancūzų ir astūrų kalbas _(Alexander Borsuk)_
@@ -53,7 +54,7 @@ Jei praleidote mūsų ankstesnius atnaujinimus, susipažinkite su [birželio](@/
 - Pridėta akies piktograma, leidžianti paslėpti atskiras trasas _(Kiryl Kaveryn)_
 - Pridėti mygtukai, leidžiantys įtraukti arba pakeisti sustojimą suplanuotame maršrute _(Kiryl Kaveryn)_
 - Pridėtas nustatymas tarpinių maršruto sustojimų tvarkai optimizuoti _(Kiryl Kaveryn)_
-- Pridėti manevrų nurodymai palaikomuose automobilių projekciniuose ekranuose (HUD) ir CarPlay prietaisų skydelyje _(Kiryl Kaveryn)_
+- Pridėti manevrų nurodymai palaikomuose automobilių projekciniuose ekranuose (HUD) ir CarPlay skydelyje _(Kiryl Kaveryn)_
 - Ištaisyti CarPlay mygtukai ir paieška _(Alexander Borsuk)_
 - Ištaisyta įvairių klaidų ir patobulinta vartotojo sąsaja _(Kiryl Kaveryn, Alexander Borsuk)_
 - Pridėta galimybė pasirinkti įdiegtą navigacijos balsą ir išklausyti jo pavyzdį _(Kiryl Kaveryn, Alexander Borsuk)_
@@ -64,16 +65,16 @@ Jei praleidote mūsų ankstesnius atnaujinimus, susipažinkite su [birželio](@/
 - Pridėtas nustatymas tarpinių maršruto sustojimų tvarkai optimizuoti _(Mikhail Listratsenka)_
 - Pridėti mygtukai, leidžiantys įtraukti arba pakeisti sustojimą suplanuotame maršrute _(Mikhail Listratsenka)_
 - Pridėta galimybė sustabdyti trasos įrašymą ir išsaugoti trasą iš pranešimo _(Alexander Borsuk)_
-- Mygtukas „Pridėti stotelę“ dabar įterpia stotelę po esamų stotelių, prieš paskirties vietą _(Mikhail Listratsenka)_
+- Mygtukas „Pridėti stotelę“ dabar įterpia sustojimą po esamų sustojimų, prieš paskirties vietą _(Mikhail Listratsenka)_
 - Patobulintas pakeitimų įkėlimas iš OpenStreetMap redaktoriaus _(Owm)_
 - Atnaujintas vartotojo sąsajos dizainas _(Mikhail Listratsenka)_
 - Žymų redaktorius ir kiti dialogo langai dabar lieka atidaryti navigacijos metu _(Mikhail Listratsenka)_
-- Ištaisyta aukščio diagramos atvaizdavimo problema lygiosiose trasose ir sąsajose, kuriose tekstas rodomas iš dešinės į kairę _(Mikhail Listratsenka)_
+- Ištaisyta aukščio diagramos atvaizdavimo problema lygiose trasose ir sąsajose, kuriose tekstas rodomas iš dešinės į kairę _(Mikhail Listratsenka)_
 - Ištaisyta problema, dėl kurios sistemos juostos nukirpdavo žemėlapio mygtukus _(Mikhail Listratsenka)_
 - Ištaisytos klaidos ir patobulintas Android Auto palaikymas _(Andrei Shkrob)_
 - Ištaisyta programos strigtis, įvykstanti atvaizduojant žemėlapį _(Viktor Govako)_
 
-### Darbalaukis
+### Kompiuteriams
 
 - Kompiuteriams skirtas vykdomasis failas ir macOS programos paketas pervadinti į `OrganicMaps` _(Alexander Borsuk)_
 - Ištaisytos Windows programėlės klaidos _(Osyotr, Alexander Borsuk)_

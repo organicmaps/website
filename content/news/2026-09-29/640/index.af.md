@@ -1,7 +1,8 @@
 ---
 title: "Roete-optimering, verbeterde alternatiewe roetes, die verberging van individuele spore en watergebiede wat net soms water bevat in die September 2026-opdatering"
 date: 2026-09-29
-slug: "meervoudige-keuse-boekmerke-spore-carplay-dashboard-spore-verberg-deelskakels-augustus-2026"
+slug: "roete-optimering-alternatiewe-roetes-individuele-spore-verberg-watergebiede-wat-net-soms-water-bevat-september-2026"
+aliases: ["/af/news/2026-09-29/meervoudige-keuse-boekmerke-spore-carplay-dashboard-spore-verberg-deelskakels-augustus-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -29,10 +30,10 @@ As jy ons vorige opdaterings gemis het, kyk gerus na die funksies wat in [Junie]
 - Wikipedia-data per 21 September 2026
 - Soektogte reggestel wanneer die sigbare kaartgebied die 180°-meridiaan kruis (±180° lengtegraad) _(Viktor Govako)_
 - Watergebiede wat net soms water bevat, word nou met ’n gestippelde patroon aangedui, soortgelyk aan dié wat vir sand gebruik word _(Alexander Borsuk)_
-- Waterreservoirs is nou sigbaar wanneer jy verder uitzoom _(Alexander Borsuk)_
+- Waterreservoirs is nou sigbaar wanneer jy verder uitzoem _(Alexander Borsuk)_
 - Watertonnels word nie meer op die kaart gewys nie _(Alexander Borsuk)_
 - Ikone vir Suzhou Metro se stasies en ingange reggestel _(Alexander Borsuk)_
-- Seldsame gevalle reggestel waar etikette op die metrokaartlaag uit posisie geskuif het _(Viktor Govako)_
+- Seldsame gevalle reggestel waar etikette op die moltreinkaartlaag uit posisie geskuif het _(Viktor Govako)_
 
 ### Roetebeplanning en navigasie
 
@@ -53,7 +54,7 @@ As jy ons vorige opdaterings gemis het, kyk gerus na die funksies wat in [Junie]
 - ’n Oogikoon bygevoeg om individuele spore te verberg _(Kiryl Kaveryn)_
 - Knoppies bygevoeg om 'n stop in 'n beplande roete by te voeg of te vervang _(Kiryl Kaveryn)_
 - ’n Instelling bygevoeg om die volgorde van tussenstoppe op die roete te optimeer _(Kiryl Kaveryn)_
-- Manoeuvre-instruksies bygevoeg op ondersteunde kop-op-skerms (HUDs) in motors en die CarPlay-dashboard _(Kiryl Kaveryn)_
+- Manoeuvre-instruksies bygevoeg op ondersteunde kop-op-skerms (HUD's) in motors en die CarPlay-dashboard _(Kiryl Kaveryn)_
 - CarPlay-knoppies en soektogte reggestel _(Alexander Borsuk)_
 - Verskeie foute reggestel en die gebruikerskoppelvlak verbeter _(Kiryl Kaveryn, Alexander Borsuk)_
 - Ondersteuning bygevoeg om ’n geïnstalleerde navigasiestem te kies en na ’n voorbeeld daarvan te luister _(Kiryl Kaveryn, Alexander Borsuk)_
@@ -64,11 +65,11 @@ As jy ons vorige opdaterings gemis het, kyk gerus na die funksies wat in [Junie]
 - ’n Instelling bygevoeg om die volgorde van tussenstoppe op die roete te optimeer _(Mikhail Listratsenka)_
 - Knoppies bygevoeg om 'n stop in 'n beplande roete by te voeg of te vervang _(Mikhail Listratsenka)_
 - Die vermoë bygevoeg om spooropname te stop en die spoor vanaf die kennisgewing te stoor _(Alexander Borsuk)_
-- Die knoppie “Voeg stop by” voeg nou 'n stop ná die bestaande stops by, voor die bestemming _(Mikhail Listratsenka)_
+- Die knoppie “Voeg stop by” voeg nou 'n stop ná die bestaande stoppe by, voor die bestemming _(Mikhail Listratsenka)_
 - Oplaai van wysigings vanuit die OpenStreetMap-redigeerder verbeter _(Owm)_
 - Die gebruikerskoppelvlakontwerp is bygewerk _(Mikhail Listratsenka)_
 - Die boekmerkredigeerder en ander dialoogvensters bly nou oop tydens navigasie _(Mikhail Listratsenka)_
-- Die weergawe van hoogtegrafieke vir spore met min of geen hoogteverskil en in regs-na-links-koppelvlakke reggestel _(Mikhail Listratsenka)_
+- Die weergawe van hoogtegrafieke vir spore sonder hoogteverskil en in regs-na-links-koppelvlakke reggestel _(Mikhail Listratsenka)_
 - Die probleem reggestel waar kaartknoppies deur stelselbalke afgesny is _(Mikhail Listratsenka)_
 - Foute reggestel en Android Auto-ondersteuning verbeter _(Andrei Shkrob)_
 - ’n Vasloop tydens kaartweergawe reggestel _(Viktor Govako)_

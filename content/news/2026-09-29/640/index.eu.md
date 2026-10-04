@@ -1,7 +1,8 @@
 ---
 title: "Ibilbidearen optimizazioa, ibilbide alternatibo hobetuak, trackak banaka ezkutatzea eta aldizka ura duten eremuak 2026ko iraileko eguneratzean"
 date: 2026-09-29
-slug: "hautaketa-anitza-laster-markak-trackak-carplay-kontrol-taula-trackak-ezkutatzea-partekatze-estekak-abuztua-2026"
+slug: "ibilbidearen-optimizazioa-ibilbide-alternatiboak-trackak-ezkutatzea-aldizka-ura-duten-eremuak-iraila-2026"
+aliases: ["/eu/news/2026-09-29/hautaketa-anitza-laster-markak-trackak-carplay-kontrol-taula-trackak-ezkutatzea-partekatze-estekak-abuztua-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -32,7 +33,7 @@ Gure aurreko eguneratzeak galdu badituzu, begiratu [ekainean](@/news/2026-06-29/
 - Urtegiak orain ikus daitezke mapa gehiago urruntzean _(Alexander Borsuk)_
 - Ur-tunelak ez dira mapan agertzen jada _(Alexander Borsuk)_
 - Suzhouko metro-geltokien eta sarreren ikonoak zuzendu dira _(Alexander Borsuk)_
-- Metro-mapa geruzan etiketak posiziotik kanpo mugitzen ziren kasu arraro batzuk konpondu ziren _(Viktor Govako)_
+- Metro-mapa geruzan etiketak posiziotik kanpo mugitzen ziren kasu arraro batzuk konpondu dira _(Viktor Govako)_
 
 ### Ibilbideen plangintza eta nabigazioa
 
@@ -53,7 +54,7 @@ Gure aurreko eguneratzeak galdu badituzu, begiratu [ekainean](@/news/2026-06-29/
 - Trackak banaka ezkutatzeko begi-ikono bat gehitu da _(Kiryl Kaveryn)_
 - Planifikatutako ibilbide batean geldialdi bat gehitzeko edo ordezkatzeko botoiak gehitu dira _(Kiryl Kaveryn)_
 - Ibilbideko tarteko geldialdien ordena optimizatzeko ezarpen bat gehitu da _(Kiryl Kaveryn)_
-- Maniobra-argibideak gehitu dira autoetako aurreko bistaratze-pantaila (HUD) bateragarrietan eta CarPlay-ren aginte-panelean _(Kiryl Kaveryn)_
+- Maniobra-argibideak gehitu dira autoetako aurreko bistaratze-pantaila (HUD) bateragarrietan eta CarPlay-ko kontrol-taulan _(Kiryl Kaveryn)_
 - CarPlay-ren botoiak eta bilaketa konpondu dira _(Alexander Borsuk)_
 - Hainbat akats konpondu eta erabiltzaile-interfazea hobetu da _(Kiryl Kaveryn, Alexander Borsuk)_
 - Instalatutako nabigazio-ahots bat aukeratzeko eta haren lagin bat entzuteko aukera gehitu da _(Kiryl Kaveryn, Alexander Borsuk)_
@@ -71,7 +72,7 @@ Gure aurreko eguneratzeak galdu badituzu, begiratu [ekainean](@/news/2026-06-29/
 - Track lauen eta eskuinetik ezkerrera doazen interfazeen altuera-grafikoaren bistaratzea konpondu da _(Mikhail Listratsenka)_
 - Sistema-barrek mapa-botoiak moztea eragiten zuen arazoa konpondu da _(Mikhail Listratsenka)_
 - Akatsak konpondu eta Android Auto-ren euskarria hobetu da _(Andrei Shkrob)_
-- Mapa bistaratzean izandako erorketa konpondu da _(Viktor Govako)_
+- Mapa bistaratzean izandako kraskadura konpondu da _(Viktor Govako)_
 
 ### Mahaigaina
 

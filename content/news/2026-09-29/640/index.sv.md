@@ -1,7 +1,8 @@
 ---
-title: "Ruttoptimering, förbättrade alternativa rutter, möjlighet att dölja enskilda spår och områden med sporadiska vattenförekomster i uppdateringen från september 2026"
+title: "Ruttoptimering, förbättrade alternativa rutter, möjlighet att dölja enskilda spår och områden där vatten förekommer periodvis i uppdateringen från september 2026"
 date: 2026-09-29
-slug: "flerval-bokmarken-spar-carplay-instrumentpanel-dolja-spar-delningslankar-augusti-2026"
+slug: "ruttoptimering-alternativa-rutter-dolja-enskilda-spar-omraden-dar-vatten-forekommer-periodvis-september-2026"
+aliases: ["/sv/news/2026-09-29/flerval-bokmarken-spar-carplay-instrumentpanel-dolja-spar-delningslankar-augusti-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -16,10 +17,10 @@ Om du har missat våra tidigare uppdateringar kan du ta en titt på de funktione
 
 ## Så här kan du stödja Organic Maps
 
-- [Donera](@/donate/index.sv.md) för att stödja utvecklingen och täcka kostnaderna för kartvärdtjänsten
+- [Donera](@/donate/index.sv.md) för att stödja utvecklingen och täcka kostnaderna för kartservrarna
 - [Skicka dina synpunkter och bidra](@/contribute/index.sv.md) till projektet
 - Delta i betatestningen för att testa nya funktioner i förväg och rapportera problem på [iOS][testflight], [Android][firebase] och [datorn][flathub]
-- Sprid budskapet och hjälp oss att skapa ett bättre alternativ till de stora tech-företagens kartor!
+- Sprid budskapet och hjälp oss att skapa ett bättre alternativ till de stora techföretagens kartor!
 
 ## Versionsinformation
 
@@ -28,11 +29,11 @@ Om du har missat våra tidigare uppdateringar kan du ta en titt på de funktione
 - Data från OpenStreetMap per den 28 september 2026
 - Uppgifter från Wikipedia per den 21 september 2026
 - Åtgärdat problemet med sökningar när det synliga kartområdet passerar 180°-meridianen (±180° longitud) _(Viktor Govako)_
-- Områden med tillfälliga vattenförekomster visas nu med ett prickmönster, liknande det som används för sand _(Alexander Borsuk)_
+- Områden där vatten förekommer periodvis visas nu med ett prickmönster, liknande det som används för sand _(Alexander Borsuk)_
 - Vattenreservoarerna syns nu när man zoomar ut ytterligare _(Alexander Borsuk)_
 - Vattentunnlar visas inte längre på kartan _(Alexander Borsuk)_
 - Ikonerna för tunnelbanestationer och ingångar i Suzhou har korrigerats _(Alexander Borsuk)_
-- Man har åtgärdat några sällsynta fall där etiketterna hamnade fel på metrokartlagret _(Viktor Govako)_
+- Åtgärdat några sällsynta fall där etiketterna hamnade fel i tunnelbanelagret _(Viktor Govako)_
 
 ### Ruttplanering och navigering
 
@@ -69,13 +70,13 @@ Om du har missat våra tidigare uppdateringar kan du ta en titt på de funktione
 - Uppdaterad design av användargränssnittet _(Mikhail Listratsenka)_
 - Bokmärkesredigeraren och andra dialogrutor förblir nu öppna under navigering _(Mikhail Listratsenka)_
 - Renderingen av höjddiagrammet för plana spår och i gränssnitt med layout från höger till vänster har åtgärdats _(Mikhail Listratsenka)_
-- Åtgärdat problemet med att kartknapparna skärs av av systemfältet _(Mikhail Listratsenka)_
+- Åtgärdat ett problem där systemfälten skar av kartknapparna _(Mikhail Listratsenka)_
 - Buggar har åtgärdats och stödet för Android Auto har förbättrats _(Andrei Shkrob)_
 - En krasch vid kartrendering har åtgärdats _(Viktor Govako)_
 
 ### Dator
 
-- Har bytt namn på den körbara filen för skrivbordet och app-paketet för macOS till `OrganicMaps` _(Alexander Borsuk)_
+- Bytt namn på den körbara filen för skrivbordet och app-paketet för macOS till `OrganicMaps` _(Alexander Borsuk)_
 - Problem i Windows-appen har åtgärdats _(Osyotr, Alexander Borsuk)_
 - Kommandoradsargumentet `--lang` åsidosätter nu appens språkinställning _(Alexander Borsuk)_
 

@@ -1,7 +1,8 @@
 ---
 title: "2026年9月のアップデート：ルートの最適化、代替ルートの改善、個々のトラックの非表示、一時的に水がある水域の表示"
 date: 2026-09-29
-slug: "bukkumaku-torakku-fukusu-sentaku-carplay-dasshubodo-torakku-hihyoji-kyoyu-rinku-2026-hachigatsu"
+slug: "ruto-saitekika-daitai-ruto-kaizen-koko-no-torakku-hihyoji-ichijiteki-ni-mizu-ga-aru-suiiki-2026-kugatsu"
+aliases: ["/ja/news/2026-09-29/bukkumaku-torakku-fukusu-sentaku-carplay-dasshubodo-torakku-hihyoji-kyoyu-rinku-2026-hachigatsu/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -12,7 +13,7 @@ extra:
 
 <https://get.omaps.org>、[App Store][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、または[F-Droid][fdroid]から、Organic Mapsをインストールまたはアップデートしよう。
 
-前のアップデートを見逃したら、[6月](@/news/2026-06-29/610/index.md)、[7月](@/news/2026-07-23/620/index.md)、[8月](@/news/2026-08-31/630/index.ja.md)にリリースされた新機能もチェックしてみてね。これらのアップデートを実現してくれた貢献者やユーザーのみんなに感謝！
+前のアップデートを見逃していたら、[6月](@/news/2026-06-29/610/index.md)、[7月](@/news/2026-07-23/620/index.md)、[8月](@/news/2026-08-31/630/index.ja.md)にリリースされた新機能もチェックしよう。これらのアップデートを実現してくれた貢献者やユーザーのみんなに感謝！
 
 ## Organic Maps を支援する方法
 
@@ -32,7 +33,7 @@ extra:
 - さらにズームアウトしても貯水池が表示されるようになった _(Alexander Borsuk)_
 - 水路トンネルを地図に表示しなくなった _(Alexander Borsuk)_
 - 蘇州地下鉄の駅と入口のアイコンを修正した _(Alexander Borsuk)_
-- メトロ地図レイヤー上でラベルの位置がずれてしまうという、ごくまれに発生していた不具合を修正した _(Viktor Govako)_
+- 地下鉄レイヤー上でラベルの位置がずれてしまうという、ごくまれに発生していた不具合を修正した _(Viktor Govako)_
 
 ### 経路設定とナビゲーション
 
@@ -45,7 +46,7 @@ extra:
 - 営業時間の表示で、12:00は「正午」、00:00または24:00は「午前0時」と表示されるようになった _(Alexander Borsuk)_
 - バグを修正し、トラックの記録機能を改善した _(Alexander Borsuk)_
 - KMBファイルのインポートに関する問題を修正した _(Alexander Borsuk)_
-- 修正済みのフランス語およびアストゥリアス語訳 _(Alexander Borsuk)_
+- フランス語とアストゥリアス語の翻訳を修正した _(Alexander Borsuk)_
 - 英語の誤字を修正した _(Carl Morris)_
 
 ### iOS
@@ -68,8 +69,8 @@ extra:
 - OpenStreetMapエディタからのアップロード機能が改善された _(Owm)_
 - ユーザーインターフェースのデザインを更新した _(Mikhail Listratsenka)_
 - ブックマークエディタやその他のダイアログが、ナビゲーション中も開いたままになるようになった _(Mikhail Listratsenka)_
-- 高低差の少ないトラックと、右から左へ表示するインターフェースでの標高グラフの描画を修正した _(Mikhail Listratsenka)_
-- システムバーによってマップボタンが切り取られる問題を修正した _(Mikhail Listratsenka)_
+- 高低差のないトラックと、右から左へ表示するインターフェースでの標高グラフの描画を修正した _(Mikhail Listratsenka)_
+- マップボタンがシステムバーに隠れる問題を修正した _(Mikhail Listratsenka)_
 - バグを修正し、Android Autoの対応を改善した _(Andrei Shkrob)_
 - マップのレンダリング中に発生していたクラッシュを修正した _(Viktor Govako)_
 

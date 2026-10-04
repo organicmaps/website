@@ -1,7 +1,8 @@
 ---
 title: "Optimalizace tras, vylepšené alternativní trasy, skrývání jednotlivých stop a nestálé vodní plochy v aktualizaci ze září 2026"
 date: 2026-09-29
-slug: "vicenasobny-vyber-zalozek-stop-panel-carplay-skryvani-stop-odkazy-srpen-2026"
+slug: "optimalizace-tras-alternativni-trasy-skryvani-jednotlivych-stop-nestale-vodni-plochy-zari-2026"
+aliases: ["/cs/news/2026-09-29/vicenasobny-vyber-zalozek-stop-panel-carplay-skryvani-stop-odkazy-srpen-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
@@ -34,7 +35,7 @@ Pokud vám unikly naše předchozí aktualizace, podívejte se na funkce, které
 - Opraveny ikony stanic a vchodů do metra v Su-čou _(Alexander Borsuk)_
 - Byly opraveny ojedinělé případy, kdy se popisky na vrstvě mapy metra posunuly mimo správnou polohu _(Viktor Govako)_
 
-### Trasování a navigace
+### Plánování tras a navigace
 
 - Vylepšené alternativní trasy a jejich odhadované časy příjezdu _(Alexander Borsuk, Viktor Govako)_
 - Vybraná alternativní trasa se nyní zachová i při přepočítání trasy navigací _(Alexander Borsuk)_
@@ -42,10 +43,10 @@ Pokud vám unikly naše předchozí aktualizace, podívejte se na funkce, které
 
 ### Další vylepšení
 
-- V otevíracích hodinách se nyní místo 12:00 zobrazuje „Poledne“ a místo 00:00 nebo 24:00 „Půlnoc“ _(Alexander Borsuk)_
+- V otevírací době se nyní místo 12:00 zobrazuje „Poledne“ a místo 00:00 nebo 24:00 „Půlnoc“ _(Alexander Borsuk)_
 - Opraveny chyby a vylepšen záznam stop _(Alexander Borsuk)_
 - Opraven import souborů KMB _(Alexander Borsuk)_
-- Opravené francouzské a asturské překlady _(Alexander Borsuk)_
+- Opraveny francouzské a asturské překlady _(Alexander Borsuk)_
 - Opraven překlep v angličtině _(Carl Morris)_
 
 ### iOS
@@ -64,11 +65,11 @@ Pokud vám unikly naše předchozí aktualizace, podívejte se na funkce, které
 - Bylo přidáno nastavení pro optimalizaci pořadí mezilehlých zastávek na trase _(Mikhail Listratsenka)_
 - Byla přidána tlačítka pro přidání nebo nahrazení zastávky v naplánované trase _(Mikhail Listratsenka)_
 - Přidána možnost zastavit záznam stopy a uložit ji přímo z oznámení _(Alexander Borsuk)_
-- Tlačítko „Přidat zastávku“ nyní přidá zastávku za stávajícími zastávkami, před cílovou zastávkou _(Mikhail Listratsenka)_
-- Vylepšené nahrávání dat z editoru OpenStreetMap _(Owm)_
+- Tlačítko „Přidat zastávku“ nyní přidá zastávku za stávajícími zastávkami, před cílem _(Mikhail Listratsenka)_
+- Vylepšeno nahrávání dat z editoru OpenStreetMap _(Owm)_
 - Aktualizován design uživatelského rozhraní _(Mikhail Listratsenka)_
 - Editor záložek a další dialogová okna nyní zůstávají otevřená i během navigace _(Mikhail Listratsenka)_
-- Opraveno vykreslování grafu nadmořské výšky u stop bez výrazných výškových změn a v rozhraních s orientací zprava doleva _(Mikhail Listratsenka)_
+- Opraveno vykreslování grafu nadmořské výšky u stop bez výškových změn a v rozhraních s orientací zprava doleva _(Mikhail Listratsenka)_
 - Opraveno ořezávání tlačítek na mapě systémovými lištami _(Mikhail Listratsenka)_
 - Opraveny chyby a vylepšena podpora Android Auto _(Andrei Shkrob)_
 - Byla opravena chyba způsobující pád aplikace při vykreslování mapy _(Viktor Govako)_

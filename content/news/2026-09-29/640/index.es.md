@@ -1,14 +1,15 @@
 ---
 title: "Optimización de rutas, rutas alternativas mejoradas, ocultación de tracks individuales y zonas de agua intermitentes en la actualización de septiembre de 2026"
 date: 2026-09-29
-slug: "seleccion-multiple-marcadores-tracks-panel-carplay-ocultar-tracks-enlaces-compartir-agosto-2026"
+slug: "optimizacion-rutas-rutas-alternativas-ocultar-tracks-individuales-zonas-agua-intermitente-septiembre-2026"
+aliases: ["/es/news/2026-09-29/seleccion-multiple-marcadores-tracks-panel-carplay-ocultar-tracks-enlaces-compartir-agosto-2026/"]
 taxonomies:
   news: ["releases"]
 extra:
   preview_image: 00-intermittent-water.png
 ---
 
-¿Listo para salir? La actualización de septiembre incluye rutas alternativas mejoradas, una opción para optimizar el orden de las paradas de la ruta, indicaciones más claras para las zonas con agua intermitente y un icono con forma de ojo para ocultar tracks individuales, además de muchas otras correcciones y mejoras (mira más abajo).
+¿Listo para salir? La actualización de septiembre incluye rutas alternativas mejoradas, una opción para optimizar el orden de las paradas de la ruta, una representación más clara de las zonas con agua intermitente y un icono con forma de ojo para ocultar tracks individuales, además de muchas otras correcciones y mejoras (mira más abajo).
 
 Instala o actualiza Organic Maps a través de <https://get.omaps.org>, la [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] o [F-Droid][fdroid].
 
@@ -71,7 +72,7 @@ Si te has perdido nuestras últimas novedades, echa un vistazo a las funciones l
 - Se ha corregido la representación de los gráficos de elevación para tracks planos y en interfaces de derecha a izquierda _(Mikhail Listratsenka)_
 - Se ha solucionado el problema por el que las barras del sistema cortaban los botones del mapa _(Mikhail Listratsenka)_
 - Se han corregido errores y se ha mejorado la compatibilidad con Android Auto _(Andrei Shkrob)_
-- Se ha solucionado un fallo que provocaba que el programa se colgara durante el renderizado del mapa _(Viktor Govako)_
+- Se ha solucionado un cierre inesperado durante el renderizado del mapa _(Viktor Govako)_
 
 ### Escritorio
 

@@ -33,6 +33,7 @@ from telegram_post import (
     load_references,
     resolve_references,
     find_unresolved_references,
+    find_raw_html,
     load_base_url,
     resolve_zola_references,
     strip_tera_blocks,
@@ -141,6 +142,16 @@ def prepare_text(md_path: Path, site_root: Path) -> str:
 
     # Clean up blank lines
     text = re.sub(r"\n{3,}", "\n\n", text)
+
+    raw_html = find_raw_html(text)
+    if raw_html:
+        print(
+            f"Warning: {md_path.name} has {len(raw_html)} HTML tag(s) "
+            f"Telegram will show literally:",
+            file=sys.stderr,
+        )
+        for tag, lineno in raw_html:
+            print(f"  line {lineno}: {tag}", file=sys.stderr)
 
     # Resolve markdown reference-style links
     refs = load_references(site_root)

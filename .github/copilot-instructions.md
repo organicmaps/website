@@ -76,6 +76,7 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
 npm test             # Offline translation, hook and Telegram regressions
+npm run test:browser # Donation checkout regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
 ```
@@ -83,6 +84,12 @@ npm run upgrade      # Update npm dependencies
 Install Python dependencies from `tools/requirements-check.txt` for translation
 checks, or `tools/requirements-telegram.txt` (which includes the check dependencies)
 for Telegram publishing and the complete test suite.
+
+For the browser tests, install Node dependencies with `npm ci`, then install
+Chromium once with `npx playwright install chromium`. Run `zola build` before
+`npm run test:browser`. The suite reads the rendered site and declared security
+headers, mocks payment requests, and uses Zola to check invalid layout markers.
+Set `ZOLA_BIN` when the Zola executable is not on `PATH`.
 
 ### Where the tooling lives
 

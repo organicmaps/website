@@ -10,6 +10,7 @@
     "js-beautify": "^1.15.4",
     "node-html-markdown": "^2.0.0",
     "node-html-parser": "^7.0.1",
+    "playwright": "1.59.1",
     "postcss-scss": "^4.0.9",
     "prettier": "^3.6.2",
     "stylelint": "^16.25.0",
@@ -23,6 +24,7 @@
     "format": "stylelint --fix ./sass/*.scss && prettier --write \"*.md\" \"content/**/*.md\" && js-beautify -r templates/base.html",
     "hooks:install": "git config core.hooksPath .githooks",
     "test": "python3 tmp/test_tooling.py && python3 tmp/test_xml_roundtrip.py",
+    "test:browser": "node --test tools/donate_browser.test.cjs",
     "upgrade": "npx npm-check-updates -u && npm install"
   },
   "repository": {

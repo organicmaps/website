@@ -96,9 +96,10 @@ def find_balanced_close(s: str, start: int, open_ch: str, close_ch: str) -> int:
     return -1
 
 
-_FENCE_RE = re.compile(r"```[\s\S]*?```")
-_CODE_RE = re.compile(r"`[^`\n]+`")
-_TERA_RE = re.compile(r"\{\{[^}]*\}\}")
+_FENCE_RE = re.compile(r"(?m)^ {0,3}(`{3,}|~{3,})([^\n]*)(?:\n|$)")
+_CODE_RE = re.compile(r"(`+)(?!`)([^\n]*?)(?<!`)\1(?!`)")
+_COMMENT_RE = re.compile(r"<!--[\s\S]*?-->")
+_ANCHOR_RE = re.compile(r"\{#[^}\n]+\}")
 # Autolinks cover URLs, explicit schemes and bare e-mail addresses. The corpus
 # contains <sdk@organicmaps.app>, which no HTML-tag pattern matches.
 _AUTOLINK_RE = re.compile(
@@ -146,6 +147,45 @@ def _protect_markers(md: str, ctx: Context) -> str:
     return _MARKER_RE.sub(repl, md)
 
 
+def _tera_end(text: str, start: int) -> int:
+    """End of an expression with nested component arguments and quoted braces."""
+    depth = 0
+    quote = None
+    i = start
+    while i < len(text):
+        char = text[i]
+        if char == "\\":
+            i += 2
+            continue
+        if quote:
+            if char == quote:
+                quote = None
+        elif char in "\"'":
+            quote = char
+        elif char == "{":
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth == 0:
+                return i + 1 if text[i - 1:i + 1] == "}}" else -1
+        i += 1
+    return -1
+
+
+def _fence_end(text: str, start: int) -> int:
+    """End of a Markdown fence, including an unclosed block at end of input."""
+    opening = _FENCE_RE.match(text, start)
+    if not opening:
+        return -1
+    marker, info = opening.groups()
+    if marker[0] == "`" and "`" in info:
+        return -1
+    closing = re.compile(
+        rf"(?m)^ {{0,3}}{re.escape(marker[0])}{{{len(marker)},}}[ \t]*(?=\n|$)",
+    ).search(text, opening.end())
+    return closing.end() if closing else len(text)
+
+
 def to_xml(md: str, protect_brands: bool = True) -> tuple[str, Context]:
     """Convert markdown to an XML payload plus the context to reverse it."""
     if "<x>" in md or "</x>" in md:
@@ -175,6 +215,12 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
             out.append(flush_text(s[plain_start:upto]))
         plain_start = upto
 
+    def protect_span(text: str) -> str:
+        # Heading/list markers were protected before scanning. Restore any inside a
+        # wholesale span so comments/code never retain a nested placeholder on return.
+        original = re.sub(r"<x>(\d+)</x>", lambda m: ctx.stash[int(m[1])], text)
+        return ctx.protect(original)
+
     while i < n:
         c = s[i]
 
@@ -192,16 +238,22 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
             continue
 
         # --- spans that are protected wholesale -------------------------
+        end = _tera_end(s, i) if s.startswith("{{", i) else _fence_end(s, i)
+        if end != -1:
+            emit_plain(i)
+            out.append(protect_span(s[i:end]))
+            i = plain_start = end
+            continue
         matched = None
-        for rx in (_FENCE_RE, _CODE_RE, _TERA_RE, _AUTOLINK_RE,
-                   _LINKDEF_RE, _ATTRIB_RE, _HTML_RE):
+        for rx in (_CODE_RE, _AUTOLINK_RE,
+                   _LINKDEF_RE, _ATTRIB_RE, _COMMENT_RE, _ANCHOR_RE, _HTML_RE):
             m = rx.match(s, i)
             if m:
                 matched = m
                 break
         if matched:
             emit_plain(i)
-            out.append(ctx.protect(matched.group(0)))
+            out.append(protect_span(matched.group(0)))
             i = plain_start = matched.end()
             continue
 

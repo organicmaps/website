@@ -8,6 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
@@ -24,7 +25,9 @@ from telegram_post import (  # noqa: E402
     visible_text,
 )
 from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
-from translate_md import _segments, register_ok, tidy  # noqa: E402
+from translate_md import (  # noqa: E402
+    _segments, localize_zola_links, register_ok, tidy, translate_post, translate_text,
+)
 
 
 class FakeResponse:
@@ -122,6 +125,98 @@ Organic Maps。
             ["'extra.form.submit_once' must keep the placeholder(s) verbatim"],
         )
 
+    def test_sentence_initial_occitan_address_is_detected(self):
+        self.assertFalse(register_ok("Vòstre pagament es estat anullat.", "oc")[0])
+        self.assertTrue(register_ok("Ton pagament es estat anullat.", "oc")[0])
+
+    def test_translation_pipeline_preserves_ignored_spans_and_repairs_prose(self):
+        source = '''"Hello"... Use `print("hello...")` and ``a ` b``.
+
+Before {{ value | replace(from="}}", to="{done}") }} after.
+
+<!--
+## Internal heading
+- Internal item
+-->
+
+{{ <screenshot
+  src="/internal.png"
+  alt="Internal alt"
+/> }}
+
+~~~text
+## Internal code
+print("hello...")
+~~~
+
+````text
+```
+Internal code
+```
+````
+
+Read [ the docs， ](https://example.com/a_(b)?next=...) now.
+'''
+        expected = source.replace('"Hello"...', '“Hello”…').replace(
+            '[ the docs， ](https://example.com/a_(b)?next=...)',
+            '[the docs](https://example.com/a_(b)?next=...)，',
+        )
+
+        def identity(payloads, *args, **kwargs):
+            for payload in payloads:
+                ElementTree.fromstring(f"<root>{payload}</root>")
+                self.assertNotIn("Internal", payload)
+                self.assertNotIn('print(', payload)
+                self.assertNotIn('replace(', payload)
+                self.assertNotIn('https://', payload)
+            return payloads, None
+
+        with patch("translate_md.brands_visible", return_value=False), \
+             patch("translate_md.deepl_translate", side_effect=identity):
+            self.assertEqual(translate_text(source, "zh-Hans", use_glossary=False), expected)
+
+    def test_soft_line_break_inside_formatting_keeps_api_text_valid_xml(self):
+        source = "Before **two\nlines** after.\n\nNext paragraph."
+        with patch("translate_md.brands_visible", return_value=False), \
+             patch("translate_md.deepl_translate", side_effect=lambda texts, *a, **k: (texts, None)) as request:
+            self.assertEqual(translate_text(source, "fr", use_glossary=False), source)
+        for payload in request.call_args.args[0]:
+            ElementTree.fromstring(f"<root>{payload}</root>")
+
+    def test_frontmatter_cleanup_preserves_code_and_extra_fields(self):
+        source = '''---
+title: 'Use `print("hello...")`'
+extra:
+  label: "Leave this field unchanged..."
+---
+
+Body.
+'''
+        with patch("translate_md.brands_visible", return_value=False), \
+             patch("translate_md.get_glossary_id", return_value=None), \
+             patch("translate_md.deepl_translate", side_effect=lambda texts, *a, **k: (texts, None)):
+            translated = translate_post(source, "fr", use_glossary=False)
+        from markdown_frontmatter import strip_frontmatter
+        self.assertEqual(strip_frontmatter(source)[1], strip_frontmatter(translated)[1])
+
+    def test_links_localize_without_translating_protected_examples(self):
+        target = "@/contribute/index.md"
+        source = f'[Organic Maps]({target})\n\n`[example]({target})`'
+        with patch("translate_md.brands_visible", return_value=False), \
+             patch("translate_md.deepl_translate") as request:
+            translated = translate_text(source, "fr", use_glossary=False)
+        self.assertEqual(translated, f'[Organic Maps](@/contribute/index.fr.md)\n\n`[example]({target})`')
+        request.assert_not_called()
+        for literal in [f'[docs](https://example.com "Example {target}")',
+                        f'<a href="{target}">example</a>']:
+            self.assertEqual(localize_zola_links(literal, "fr"), literal)
+
+    def test_tidy_keeps_literal_spans_while_unquoting_brands(self):
+        self.assertEqual(
+            tidy('"Organic Maps" says "hello"... `print("hello...")`', "fr"),
+            'Organic Maps says «hello»… `print("hello...")`',
+        )
+
     def test_source_keep_declarations_are_verified(self):
         source = """---
 title: Privacy
@@ -179,8 +274,12 @@ Organic Maps。
         )
 
     def test_fenced_code_never_enters_translation_payload(self):
-        payloads, _ = _segments("Before\n```bash\necho hello\n```\nAfter")
-        self.assertEqual(payloads, ["Before", "After"])
+        for fence in ["```bash\necho hello\n```", "~~~bash\necho hello\n~~~",
+                      "````\n```\nInternal\n```\n````"]:
+            with self.subTest(fence=fence):
+                payloads, _ = _segments(f"Before\n{fence}\nAfter")
+                self.assertEqual(payloads, ["Before", "After"])
+        self.assertEqual(_segments("Before\n~~~bash\nInternal")[0], ["Before"])
 
     def test_probe_builds_unknown_and_variant_targets(self):
         terms = load_terms()

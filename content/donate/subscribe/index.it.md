@@ -13,9 +13,9 @@ extra:
     amount_label: Importo
     other_label: Altro importo
     currency_label: Valuta
-    email_label: E-mail (consigliata)
-    email_why: Ti invieremo una conferma, un promemoria prima di ogni addebito e un link per annullare con un clic. Nient’altro — niente marketing.
-    email_warning: Senza e-mail non possiamo inviare promemoria di pagamento né un link di annullamento — per annullare dovresti contattarci.
+    email_label: "Email (facoltativa)"
+    email_why: "Ricevi una conferma, dei promemoria e un link per annullare l’iscrizione. Niente pubblicità."
+    email_warning: "Senza un indirizzo e-mail, contattaci per annullare la tua donazione ricorrente."
     name_label: Nome (facoltativo)
     name_why: Per rivolgerci a te nell’e-mail di ringraziamento.
     submit: Continua al pagamento sicuro
@@ -23,10 +23,17 @@ extra:
     submit_month: Dona {amount} al mese
     submit_year: Dona {amount} all’anno
     submit_loading: Reindirizzamento al pagamento sicuro…
-    secure_note: Completerai il pagamento su Mollie, il nostro fornitore di pagamenti. I dati della carta non toccano mai i nostri server.
+    secure_note: "Pagamento sicuro con Mollie. I dati della carta non passano mai dai nostri server."
     error_amount: Inserisci un importo valido.
     error_amount_range: Inserisci un importo tra {min} e {max}.
-    other_ways: Altri modi per donare (PayPal, bonifico, cripto…)
+    other_ways: "Altri modi per donare"
+    form_title: "Fai una donazione"
+    other_preset_label: "Altro"
+    email_why_once: "Per ricevere la conferma della donazione. Nessuna comunicazione commerciale."
+    recurrence_once: "{amount} · Una tantum"
+    recurrence_month: "{amount} ora, poi ogni mese fino all’annullamento della donazione."
+    recurrence_year: "{amount} ora, poi ogni anno fino all’annullamento della donazione."
+    canceled_notice: "Il tuo pagamento è stato annullato. Puoi riprovare oppure scegliere un altro modo per fare una donazione."
 ---
 
 L’app Organic Maps è gratuita per tutti grazie alle tue donazioni. Nessuna pubblicità. Nessun tracker. Open-source.

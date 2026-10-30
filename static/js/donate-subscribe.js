@@ -1,4 +1,4 @@
-// Progressive enhancement for /donate/subscribe/. The form works without this file:
+// Shared enhancement for /donate/ and /donate/subscribe/. The form works without this file:
 // plain POST to donate-api, which redirects to Mollie hosted checkout.
 (function () {
   'use strict';
@@ -22,15 +22,22 @@
 
   var pageLang = document.documentElement.lang || 'en';
   var currencySelect = document.getElementById('currency');
+  currencySelect.disabled = false;
+  document.getElementById('currency-fallback').disabled = true;
   var customInput = document.getElementById('amount-custom');
   var emailInput = document.getElementById('email');
   var nameInput = document.getElementById('donor-name');
+  var otherButton = document.getElementById('amount-other');
+  var customRow = document.getElementById('donate-custom-row');
+  var recurrence = document.getElementById('donate-recurrence');
+  var emailBenefits = document.getElementById('email-benefits');
   var emailWarning = document.getElementById('email-warning');
   var amountError = document.getElementById('amount-error');
   var submitButton = document.getElementById('donate-submit');
   var defaultSubmitLabel = submitButton.textContent;
   var presetInputs = form.querySelectorAll('input[name="amount"]');
   var intervalInputs = form.querySelectorAll('input[name="interval"]');
+  var customActive = customInput.value.trim() !== '';
   var DRAFT_KEY = 'organicmaps-donate-checkout-draft-v2';
   // This limits restoration, not browser storage retention: sessionStorage has no expiry.
   var DRAFT_RESTORE_WINDOW = 30 * 60 * 1000;
@@ -42,7 +49,7 @@
   }
 
   // Preset amounts per interval, in EUR-equivalent units. Index 1 is the default.
-  var PRESETS = { once: [5, 10, 25, 50], month: [3, 5, 10], year: [25, 35, 70] };
+  var PRESETS = { once: [5, 10, 25, 50], month: [3, 5, 10, 20], year: [25, 35, 50, 70] };
   // Per-currency rules mirrored from donate-api config.ts (CURRENCIES): inclusive min/max in
   // major units and the decimals Mollie accepts. `whole` marks a currency the donor may only
   // enter in whole units — PayPal has no sub-unit for HUF or TWD, and Mollie rounds such an
@@ -213,20 +220,15 @@
     for (var i = 0; i < presetInputs.length; i++) {
       var input = presetInputs[i];
       var label = presetLabels[i];
-      var visible = i < presets.length;
-      input.hidden = !visible;
-      if (label) label.hidden = !visible;
-      if (visible) {
-        var value = scalePreset(presets[i], currency);
-        input.value = String(value);
-        if (label) label.textContent = formatAmount(value, currency);
-      } else {
-        input.checked = false;
-      }
+      var value = scalePreset(presets[i], currency);
+      input.value = String(value);
+      label.textContent = formatAmount(value, currency);
     }
-    // Keep the donor's pick across currency/interval changes; otherwise the middle preset.
-    if (customInput.value.trim() === '') {
-      presetInputs[keep >= 0 && keep < presets.length ? keep : 1].checked = true;
+    // Keep the donor's pick across currency/interval changes; otherwise use the default.
+    if (!customActive) {
+      presetInputs[keep >= 0 ? keep : 1].checked = true;
+    } else {
+      uncheckPresets();
     }
   }
 
@@ -245,14 +247,23 @@
     var pattern = submitButton.getAttribute('data-label-' + selectedInterval());
     submitButton.textContent =
       isNaN(num) || !pattern ? defaultSubmitLabel : pattern.replace('{amount}', formatAmount(num, currencySelect.value));
+    var summary = recurrence.getAttribute('data-label-' + selectedInterval());
+    recurrence.hidden = isNaN(num) || !summary;
+    recurrence.textContent = recurrence.hidden ? '' : summary.replace('{amount}', formatAmount(num, currencySelect.value));
   }
 
   function refreshEmailWarning() {
     var show = selectedInterval() !== 'once' && emailInput.value.trim() === '';
     emailWarning.hidden = !show;
-    // Hidden elements referenced by aria-describedby are still read out, so only reference
-    // the warning while it is shown.
-    emailInput.setAttribute('aria-describedby', show ? 'email-why email-warning' : 'email-why');
+    // The warning lives within the helper, rather than being referenced separately and
+    // announced twice. One-time donations only need a confirmation address.
+    emailBenefits.textContent = emailBenefits.getAttribute(selectedInterval() === 'once' ? 'data-once' : 'data-recurring');
+  }
+
+  function refreshCustomVisibility() {
+    otherButton.hidden = false;
+    otherButton.setAttribute('aria-pressed', customActive ? 'true' : 'false');
+    customRow.hidden = !customActive;
   }
 
   function showAmountError(message) {
@@ -296,6 +307,7 @@
     refreshPlaceholder();
     refreshSubmitLabel();
     refreshEmailWarning();
+    refreshCustomVisibility();
   }
 
   function hasCurrency(code) {
@@ -354,15 +366,20 @@
   if (qAmount) {
     var preset = null;
     for (var i = 0; i < presetInputs.length; i++) {
-      if (!presetInputs[i].hidden && presetInputs[i].value === qAmount) preset = presetInputs[i];
+      if (presetInputs[i].value === qAmount) preset = presetInputs[i];
     }
     // Checking a radio clears the rest of its group, so one assignment covers either branch.
-    if (preset) preset.checked = true;
-    else {
+    if (preset) {
+      customInput.value = '';
+      customActive = false;
+      preset.checked = true;
+    } else {
       customInput.value = qAmount;
+      customActive = true;
       uncheckPresets();
     }
     refreshSubmitLabel();
+    refreshCustomVisibility();
   }
 
   if (returnDraft) {
@@ -370,11 +387,14 @@
     if (typeof returnDraft.name === 'string' && returnDraft.name) nameInput.value = returnDraft.name;
     refreshEmailWarning();
   }
+  document.getElementById('donate-canceled').hidden = !canceledCheckout;
 
   function onPresetChange() {
     customInput.value = '';
+    customActive = false;
     hideAmountError();
     refreshSubmitLabel();
+    refreshCustomVisibility();
   }
 
   for (var i = 0; i < intervalInputs.length; i++) intervalInputs[i].addEventListener('change', refresh);
@@ -385,16 +405,26 @@
     if (!amountError.hidden) validateAmount();
   });
   customInput.addEventListener('input', function () {
-    if (customInput.value.trim() !== '') uncheckPresets();
-    else if (checkedPreset() === -1) presetInputs[1].checked = true; // never leave nothing chosen
+    customActive = true;
+    uncheckPresets();
     hideAmountError();
     refreshSubmitLabel();
+  });
+  otherButton.addEventListener('click', function () {
+    customActive = true;
+    uncheckPresets();
+    hideAmountError();
+    refreshCustomVisibility();
+    refreshSubmitLabel();
+    customInput.focus();
   });
   emailInput.addEventListener('input', refreshEmailWarning);
 
   form.addEventListener('submit', function (event) {
     if (!validateAmount()) {
       event.preventDefault();
+      customActive = true;
+      refreshCustomVisibility();
       customInput.focus();
       return;
     }
@@ -426,4 +456,25 @@
       refreshSubmitLabel();
     }
   });
+
+  // A section fragment must reveal its target inside a collapsed disclosure.
+  function revealDonationSection() {
+    var target;
+    try { target = document.getElementById(decodeURIComponent(window.location.hash.substring(1))); } catch (e) {}
+    var section = target;
+    while (section && section.tagName.toLowerCase() !== 'details') section = section.parentElement;
+    if (!section || (' ' + section.className + ' ').indexOf(' donate-method-details ') === -1) return;
+    section.open = true;
+    target.scrollIntoView();
+  }
+  revealDonationSection();
+  window.addEventListener('hashchange', revealDonationSection);
+  // Clicking the same fragment again does not emit hashchange. Reopen a disclosure
+  // that the donor closed after following its payment-method shortcut.
+  var sectionLinks = document.querySelectorAll('.donate-methods a[href^="#"]');
+  for (var i = 0; i < sectionLinks.length; i++) {
+    sectionLinks[i].addEventListener('click', function () {
+      if (this.getAttribute('href') === window.location.hash) revealDonationSection();
+    });
+  }
 })();

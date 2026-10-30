@@ -13,9 +13,9 @@ extra:
     amount_label: Swm
     other_label: Swm arall
     currency_label: Arian cyfred
-    email_label: E-bost (argymhellir)
-    email_why: Byddwn yn anfon cadarnhad, yn dy atgoffa cyn pob tâl, ac yn rhoi dolen canslo un clic i ti. Dim byd arall — dim marchnata.
-    email_warning: Heb e-bost, ni allwn anfon nodiadau atgoffa am daliad na dolen canslo — byddai angen i ti gysylltu â ni i ganslo.
+    email_label: "E-bost (dewisol)"
+    email_why: "Cael cadarnhad, negeseuon atgoffa a dolen ganslo. Dim marchnata."
+    email_warning: "Heb e-bost, cysyllta â ni i ganslo dy rodd reolaidd."
     name_label: Enw (dewisol)
     name_why: Er mwyn i ni allu dy annerch yn yr e-bost diolch.
     submit: Parhau i dalu’n ddiogel
@@ -23,10 +23,17 @@ extra:
     submit_month: Rhoi {amount} yn fisol
     submit_year: Rhoi {amount} yn flynyddol
     submit_loading: Ailgyfeirio i dalu’n ddiogel…
-    secure_note: Byddi di’n cwblhau’r taliad ar Mollie, ein darparwr taliadau. Nid yw manylion dy gerdyn byth yn cyrraedd ein gweinyddion.
+    secure_note: "Taliad diogel gyda Mollie. Nid yw manylion dy gerdyn byth yn cyrraedd ein gweinyddion."
     error_amount: Rho swm dilys.
     error_amount_range: Rho swm rhwng {min} a {max}.
-    other_ways: Ffyrdd eraill o gyfrannu (PayPal, trosglwyddiad banc, crypto…)
+    other_ways: "Ffyrdd eraill o gyfrannu"
+    form_title: "Gwna rodd"
+    other_preset_label: "Arall"
+    email_why_once: "I gadarnhau rhodd. Dim marchnata."
+    recurrence_once: "{amount} · Un-tro"
+    recurrence_month: "{amount} nawr, yna bob mis nes i ti ganslo."
+    recurrence_year: "{amount} nawr, yna bob blwyddyn nes i ti ganslo."
+    canceled_notice: "Cafodd dy daliad ei ganslo. Galli di roi cynnig arall arni neu ddewis ffordd arall o gyfrannu."
 ---
 
 Mae Organic Maps am ddim i bawb diolch i dy roddion. Dim hysbysebion. Dim olrhainwyr. Ffynhonnell agored.

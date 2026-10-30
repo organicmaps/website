@@ -13,9 +13,9 @@ extra:
     amount_label: Import
     other_label: Un altre import
     currency_label: Moneda
-    email_label: Correu electrònic (recomanat)
-    email_why: T’enviarem una confirmació, un recordatori abans de cada càrrec i un enllaç per cancel·lar amb un clic. Res més — sense màrqueting.
-    email_warning: Sense correu no podem enviar recordatoris de pagament ni un enllaç de cancel·lació — hauries de contactar-nos per cancel·lar.
+    email_label: "Correu electrònic (opcional)"
+    email_why: "Rebràs una confirmació, recordatoris i un enllaç per cancel·lar. Sense publicitat."
+    email_warning: "Si no indiques el correu electrònic, contacta amb nosaltres per cancel·lar la donació periòdica."
     name_label: Nom (opcional)
     name_why: Per poder adreçar-nos a tu al correu d’agraïment.
     submit: Continua al pagament segur
@@ -23,10 +23,17 @@ extra:
     submit_month: Dona {amount} al mes
     submit_year: Dona {amount} a l’any
     submit_loading: Redirigint al pagament segur…
-    secure_note: Completaràs el pagament a Mollie, el nostre proveïdor de pagaments. Les dades de la targeta mai no toquen els nostres servidors.
+    secure_note: "Pagament segur amb Mollie. Les dades de la targeta mai no arriben als nostres servidors."
     error_amount: Introdueix un import vàlid.
     error_amount_range: Introdueix un import entre {min} i {max}.
-    other_ways: Altres maneres de donar (PayPal, transferència, cripto…)
+    other_ways: "Altres maneres de donar"
+    form_title: "Fes una donació"
+    other_preset_label: "Altra"
+    email_why_once: "Per a la confirmació de la donació. Sense màrqueting."
+    recurrence_once: "{amount} · Únic"
+    recurrence_month: "{amount} ara, i després cada mes fins que cancel·lis la donació."
+    recurrence_year: "{amount} ara, i després cada any fins que cancel·lis la donació."
+    canceled_notice: "El teu pagament s'ha cancel·lat. Pots tornar-ho a provar o triar una altra manera de fer una donació."
 ---
 
 L’aplicació Organic Maps és gratuïta per a tothom gràcies als teus donatius. Sense anuncis. Sense rastrejadors. Codi obert.

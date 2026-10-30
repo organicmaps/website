@@ -13,9 +13,9 @@ extra:
     amount_label: Summa
     other_label: Muu summa
     currency_label: Valuuta
-    email_label: E-post (soovitatav)
-    email_why: Saadame sulle kinnituse, tuletame enne iga makset meelde ja anname ühe klõpsuga tühistamislingi. Ei midagi muud – mingit turundust.
-    email_warning: Ilma e-posti aadressita ei saa me saata maksemeeldetuletusi ega tühistamislinki – tühistamiseks peaksid meiega ühendust võtma.
+    email_label: "E-post (vabatahtlik)"
+    email_why: "Saad kinnituse, meeldetuletused ja tühistamislingi. Ei mingit reklaami."
+    email_warning: "Kui sa e-posti aadressi ei lisa, võta korduva annetuse tühistamiseks meiega ühendust."
     name_label: Nimi (valikuline)
     name_why: Et saaksime sinu poole tänukirjas nimepidi pöörduda.
     submit: Jätka turvalise makse sooritamisega
@@ -23,10 +23,17 @@ extra:
     submit_month: Anneta {amount} kuus
     submit_year: Anneta {amount} aastas
     submit_loading: Suunatakse edasi turvalisele maksele…
-    secure_note: Makse lõpetad meie maksevahendaja Mollie lehel. Kaardiandmed ei jõua kunagi meie serveritesse.
+    secure_note: "Turvaline maksmine teenuse Mollie kaudu. Kaardiandmed ei jõua kunagi meie serveritesse."
     error_amount: Palun sisesta kehtiv summa.
     error_amount_range: Sisesta summa vahemikus {min} kuni {max}.
-    other_ways: Muud annetusvõimalused (PayPal, pangaülekanne, krüptovaluuta…)
+    other_ways: "Muud annetusvõimalused"
+    form_title: "Tee annetus"
+    other_preset_label: "Muu"
+    email_why_once: "Annetuse kinnituse saamiseks. Ei mingit turundust."
+    recurrence_once: "{amount} · Ühekordne"
+    recurrence_month: "{amount} nüüd, seejärel iga kuu, kuni annetuse tühistad."
+    recurrence_year: "{amount} nüüd, seejärel igal aastal, kuni annetuse tühistad."
+    canceled_notice: "Sinu makse tühistati. Võid proovida uuesti või valida mõne muu annetamisviisi."
 ---
 
 Tänu sinu annetustele on Organic Maps kõigile tasuta. Ilma reklaamideta. Ilma jälgijateta. Avatud lähtekoodiga.

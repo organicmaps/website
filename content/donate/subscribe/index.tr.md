@@ -13,9 +13,9 @@ extra:
     amount_label: Tutar
     other_label: Başka bir tutar
     currency_label: Para birimi
-    email_label: E-posta (önerilir)
-    email_why: Sana bir onay mesajı göndereceğiz, her ödeme öncesinde hatırlatma yapacağız ve tek tıklamayla iptal edebileceğin bir bağlantı sunacağız. Başka hiçbir şey yok — pazarlama yok.
-    email_warning: E-posta adresin olmadan ödeme hatırlatmaları veya iptal bağlantısı gönderemeyiz; iptal etmek için bizimle iletişime geçmen gerekir.
+    email_label: "E-posta (isteğe bağlı)"
+    email_why: "Onay, hatırlatmalar ve iptal bağlantısı al. Pazarlama mesajı yok."
+    email_warning: "E-posta adresi vermezsen düzenli bağışını iptal etmek için bizimle iletişime geç."
     name_label: Ad (isteğe bağlı)
     name_why: Böylece teşekkür e-postasında sana hitap edebiliriz.
     submit: Güvenli ödemeye devam et
@@ -23,10 +23,17 @@ extra:
     submit_month: Aylık {amount} bağış yap
     submit_year: Yıllık {amount} bağış yap
     submit_loading: Güvenli ödeme sayfasına yönlendiriliyor…
-    secure_note: Ödeme işlemini ödeme sağlayıcımız olan Mollie üzerinden tamamlayacaksın. Kart bilgileri hiçbir zaman sunucularımıza ulaşmaz.
+    secure_note: "Mollie ile güvenli ödeme. Kart bilgilerin sunucularımıza asla ulaşmaz."
     error_amount: Lütfen geçerli bir tutar gir.
     error_amount_range: "{min} ile {max} arasında bir tutar gir."
-    other_ways: Bağış yapmanın diğer yolları (PayPal, banka havalesi, kripto para…)
+    other_ways: "Bağış yapmanın diğer yolları"
+    form_title: "Bağış yap"
+    other_preset_label: "Diğer"
+    email_why_once: "Bağış teyidi için. Pazarlama amaçlı değildir."
+    recurrence_once: "{amount} · Tek seferlik"
+    recurrence_month: "{amount} şimdi, ardından bağışı iptal edene kadar her ay."
+    recurrence_year: "{amount} şimdi, ardından bağışı iptal edene kadar her yıl."
+    canceled_notice: "Ödemen iptal edildi. Tekrar deneyebilir veya başka bir bağış yöntemi seçebilirsin."
 ---
 
 Organic Maps, bağışların sayesinde herkes için ücretsizdir. Reklam yok. İzleme araçları yok. Açık kaynak.

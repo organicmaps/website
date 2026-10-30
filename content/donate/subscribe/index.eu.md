@@ -13,9 +13,9 @@ extra:
     amount_label: Zenbatekoa
     other_label: Beste zenbateko bat
     currency_label: Moneta
-    email_label: Posta elektronikoa (gomendatua)
-    email_why: Berrespen bat bidaliko dizugu, kobrantza bakoitzaren aurretik gogoraraziko dizugu eta klik bakarreko ezeztatzeko esteka bat emango dizugu. Beste ezer ez — marketinik gabe.
-    email_warning: Posta elektronikorik gabe ezin ditugu ordainketa-gogorarazpenak edo ezeztatzeko esteka bidali — ezeztatzeko gurekin harremanetan jarri beharko zenuke.
+    email_label: "Posta elektronikoa (aukerakoa)"
+    email_why: "Jasoko duzu baieztapen bat, gogorarazpenak eta bertan behera uzteko esteka bat. Ez dago marketinerik."
+    email_warning: "Helbide elektronikorik gabe, jar zaitez gurekin harremanetan aldizkako dohaintza bertan behera uzteko."
     name_label: Izena (aukerakoa)
     name_why: Eskerrak emateko mezuan izenez zuzendu ahal izateko.
     submit: Jarraitu ordainketa segurura
@@ -23,10 +23,17 @@ extra:
     submit_month: Eman {amount} hilero
     submit_year: Eman {amount} urtero
     submit_loading: Ordainketa segurura birbideratzen…
-    secure_note: Ordainketa Mollie-n amaituko duzu, gure ordainketa-hornitzailean. Txartelaren datuak ez dira inoiz gure zerbitzarietatik pasatzen.
+    secure_note: "Mollie bidezko ordainketa segurua. Txartelaren xehetasunak inoiz ez dira gure zerbitzarietara iristen."
     error_amount: Mesedez, sartu baliozko zenbateko bat.
     error_amount_range: Sartu {min} eta {max} arteko zenbateko bat.
-    other_ways: Dohaintza egiteko beste modu batzuk (PayPal, banku-transferentzia, kriptoa…)
+    other_ways: "Doneatzeko beste modu batzuk"
+    form_title: "Egin dohaintza"
+    other_preset_label: "Besteak"
+    email_why_once: "Dohaintza-berrespenarako. Ez marketinerako."
+    recurrence_once: "{amount} · Behin bakarrik"
+    recurrence_month: "{amount} orain, eta gero hilero, dohaintza bertan behera utzi arte."
+    recurrence_year: "{amount} orain, eta gero urtero, dohaintza bertan behera utzi arte."
+    canceled_notice: "Zure ordainketa bertan behera utzi da. Berriro saiatu zaitezke edo beste modu bat aukeratu dohaintza egiteko."
 ---
 
 Organic Maps doakoa da denontzat, zure dohaintzei esker. Iragarkirik gabe. Jarraipen-tresnarik gabe. Iturburu irekia.

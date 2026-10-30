@@ -13,9 +13,9 @@ extra:
     amount_label: Valor
     other_label: Outro valor
     currency_label: Moeda
-    email_label: E-mail (recomendado)
-    email_why: Vamos te enviar uma confirmação, te lembrar antes de cada cobrança e te dar um link para cancelar com um clique. Só isso — nada de marketing.
-    email_warning: Sem um e-mail, não podemos enviar lembretes de pagamento nem um link de cancelamento — você precisaria entrar em contato conosco para cancelar.
+    email_label: "E-mail (opcional)"
+    email_why: "Receba uma confirmação, lembretes e um link para cancelar. Sem propaganda."
+    email_warning: "Sem endereço de e-mail, entre em contato conosco para cancelar sua doação recorrente."
     name_label: Nome (opcional)
     name_why: Assim, podemos nos dirigir a você no e-mail de agradecimento.
     submit: Continuar para o pagamento seguro
@@ -23,10 +23,17 @@ extra:
     submit_month: Doar {amount} por mês
     submit_year: Doar {amount} por ano
     submit_loading: Redirecionando para o pagamento seguro…
-    secure_note: Você vai concluir o pagamento no Mollie, nosso provedor de pagamentos. Os dados do cartão nunca passam pelos nossos servidores.
+    secure_note: "Pagamento seguro com o Mollie. Os dados do cartão nunca passam pelos nossos servidores."
     error_amount: Por favor, digite um valor válido.
     error_amount_range: Digite um valor entre {min} e {max}.
-    other_ways: Outras formas de doar (PayPal, transferência bancária, criptomoedas…)
+    other_ways: "Outras formas de doar"
+    form_title: "Faça uma doação"
+    other_preset_label: "Outro"
+    email_why_once: "Para receber uma confirmação da doação. Sem marketing."
+    recurrence_once: "{amount} · Única"
+    recurrence_month: "{amount} agora, depois todos os meses até você cancelar a doação."
+    recurrence_year: "{amount} agora, depois todos os anos até você cancelar a doação."
+    canceled_notice: "Seu pagamento foi cancelado. Você pode tentar de novo ou escolher outra forma de doar."
 ---
 
 Organic Maps é gratuito para todo mundo graças às suas doações. Sem anúncios. Sem rastreadores. Código aberto.

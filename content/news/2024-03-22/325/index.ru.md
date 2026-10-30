@@ -29,9 +29,9 @@ slug: "lets-build-the-best-maps-app-together"
 #### Криптовалюты:
 
 ```
-BTC: bc1qjkq3tpy2gutsfdlcvys8slkempywk230u8rc8u
-ETH: 0x1D59bBe5d4332e34116DccDE5c1a8c736E1C2810
-USDT+TRX: TNQGZwAUCpwy1cuVSyu1vc6AT19nsmWqRF
+BTC: bc1qxnn9j9z5xywqz5sdqxaq327vw0x22nhsxc67ld
+ETH: 0xC36A638DD2274BDe6097DFD62B3EB5Aa8A67Ec54
+USDT+TRX: THfds4xfMXWBSBBHHAZAmdjBcLMEzESHq5
 ```
 
 Больше различных криптовалют [здесь](https://organicmaps.app/donate/#crypto).

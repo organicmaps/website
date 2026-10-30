@@ -32,7 +32,7 @@ import re
 import sys
 from pathlib import Path
 
-from markdown_xml import to_xml, from_xml, find_balanced_close
+from markdown_xml import Context, to_xml, from_xml
 from deepl_glossary import (
     translate as deepl_translate,
     get_glossary_id,
@@ -135,7 +135,7 @@ REGISTER_MARKERS = {
     "mr": (r"(?<![ऀ-ॣ०-ॿ])(?:तुम्ही|तुमच|तुम्हा|आपण|आपल)",
            r"(?<![ऀ-ॣ०-ॿ])(?:तुझ|तुला)|(?<![ऀ-ॣ०-ॿ])तू(?![ऀ-ॣ०-ॿ])"),
     "nl": (r"\bu\b|\bU\b|\buw\b", r"\bje\b|\bjij\b|\bjouw\b"),
-    "oc": (r"\bvos\b|\bvòstre\b|\bvòstra\b", r"\btu\b|\bton\b|\bta\b"),
+    "oc": (r"\b[Vv]os\b|\b[Vv]òstr[ea]\b", r"\b[Tt]u\b|\b[Tt]on\b|\b[Tt]a\b"),
     "pl": (r"\bPan\b|\bPani\b|\bPaństw", r"\bty\b|\btwoj|\bcię\b|sz\b"),
     "pt": (r"\bvocê\b|\bvocês\b|\bo senhor\b", r"\btu\b|\bteu|\btua"),
     "pt-BR": (r"\bo senhor\b|\bvós\b", r"\bvocê\b|\bseu\b|\bsua\b"),
@@ -256,54 +256,36 @@ def telegram_languages() -> list[str]:
 _LINK_LABEL_PUNCTUATION = ",.;:!?、，。；：！？"
 
 
-def _is_escaped(text: str, index: int) -> bool:
-    backslashes = 0
-    index -= 1
-    while index >= 0 and text[index] == "\\":
-        backslashes += 1
-        index -= 1
-    return backslashes % 2 == 1
-
-
-def _move_link_label_punctuation(text: str) -> str:
-    """Move punctuation from the end of a label to after its inline link."""
-    out: list[str] = []
-    copied = 0
-    search = 0
-    while True:
-        start = text.find("[", search)
-        if start < 0:
-            break
-        if _is_escaped(text, start) or (start > 0 and text[start - 1] == "!"):
-            search = start + 1
-            continue
-        label_end = find_balanced_close(text, start, "[", "]")
-        if label_end < 0 or label_end + 1 >= len(text) or text[label_end + 1] != "(":
-            search = start + 1
-            continue
-        target_end = find_balanced_close(text, label_end + 1, "(", ")")
-        label = text[start + 1:label_end]
-        if target_end < 0 or not label or label[-1] not in _LINK_LABEL_PUNCTUATION:
-            search = start + 1
-            continue
-
-        punctuation = label[-1]
-        out.append(text[copied:start])
-        out.append(f"[{label[:-1]}]{text[label_end + 1:target_end + 1]}{punctuation}")
-        copied = target_end + 1
-        search = copied
-    out.append(text[copied:])
-    return "".join(out)
-
-
 def tidy(text: str, lang: str) -> str:
-    """Repair the predictable damage a translator does to markdown."""
-    # DeepL emits "[label ](url)" and "[ label](url)".
-    text = re.sub(r"[  ]+\]\(", "](", text)
-    text = re.sub(r"\[[  ]+", "[", text)
+    """Repair translated prose while preserving literal Markdown spans."""
+    payload, ctx = to_xml(text, protect_brands=False)
+    return from_xml(_tidy_payload(payload, ctx, lang), ctx)
 
-    # Punctuation dragged inside a link label: "[下载，](url)" -> "[下载](url)，"
-    text = _move_link_label_punctuation(text)
+
+def _tidy_payload(text: str, ctx: Context, lang: str) -> str:
+    """Keep ignored code, URLs and components opaque until repairs finish."""
+    def readable(m: re.Match) -> str:
+        original = ctx.stash[int(m[1])]
+        # Markers need whitespace cleanup; brands need surrounding quotes removed.
+        # Their literal values are safe prose here. All other ignored spans stay hidden.
+        if original in BRANDS_TO_UNQUOTE or re.fullmatch(r"(?:[-*+]|#{1,6}|\d+\.)[ \t]+", original):
+            return original
+        return m.group(0)
+
+    text = re.sub(r"<x>(\d+)</x>", readable, text)
+    text = re.sub(r"(<a\d+>)[  ]+", r"\1", text)
+    text = re.sub(r"[  ]+(</a\d+>)", r"\1", text)
+
+    def move_punctuation(m: re.Match) -> str:
+        punctuation, tag = m.groups()
+        if ctx.wrappers[tag][1].startswith("]("):
+            return f"</{tag}>{punctuation}"
+        return m.group(0)
+
+    text = re.sub(
+        rf"([{re.escape(_LINK_LABEL_PUNCTUATION)}])</(a\d+)>",
+        move_punctuation, text,
+    )
 
     # The translator adds a space after the ignored list/heading marker token,
     # leaving "-  item" and "##  Heading".
@@ -340,53 +322,54 @@ def tidy(text: str, lang: str) -> str:
 
 
 def localize_zola_links(text: str, lang: str) -> str:
-    """Point @/… links at the translated page when that page exists."""
+    """Localize Markdown link targets without touching code or HTML attributes."""
     def repl(m: re.Match) -> str:
-        target = m.group(1)
+        target = m.group(2)
         if re.search(r"\.[a-zA-Z-]+\.md$", target):
             return m.group(0)  # already localized
         candidate = target[:-3] + f".{lang}.md"
         if (REPO_ROOT / "content" / candidate).is_file():
-            return f"@/{candidate}"
+            return f"{m.group(1)}{candidate}"
         return m.group(0)
 
-    return re.sub(r"@/([^)\s]+?\.md)", repl, text)
+    payload, ctx = to_xml(text, protect_brands=False)
+    for tag, (opening, closing) in ctx.wrappers.items():
+        if tag.startswith("a") and closing.startswith("]("):
+            ctx.wrappers[tag] = (opening, re.sub(
+                r"^(\]\([ \t]*@/)([^\s]+?\.md)(?=[#?\s)])", repl, closing,
+            ))
+    return from_xml(payload, ctx)
 
 
 # ------------------------------------------------------------- the translator
 
 def _segments(body: str, visible_brands: bool = True) -> tuple[list[str], list[tuple]]:
-    """Split into translatable payloads plus a plan to rebuild the text."""
+    """Protect complete spans, then split at newlines outside formatting tags."""
     payloads: list[str] = []
     plan: list[tuple] = []
-    fence: tuple[str, int] | None = None
-    for line in body.split("\n"):
-        if fence is not None:
-            plan.append(("verbatim", line))
-            char, length = fence
-            if re.match(rf"^ {{0,3}}{re.escape(char)}{{{length},}}[ \t]*$", line):
-                fence = None
-            continue
-
-        opening = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
-        if opening and not (
-            opening.group(1).startswith("`") and "`" in opening.group(2)
-        ):
-            marker = opening.group(1)
-            fence = (marker[0], len(marker))
-            plan.append(("verbatim", line))
-            continue
-
+    payload, ctx = to_xml(body, protect_brands=not visible_brands)
+    chunks: list[str] = []
+    depth = start = 0
+    # A formatting span may cross a soft line break. Each API text must still be
+    # well-formed XML, so keep that span together as one translation unit.
+    for m in re.finditer(r"</?[a-z]+\d+>|\n", payload):
+        if m[0] == "\n":
+            if depth == 0:
+                chunks.append(payload[start:m.start()])
+                start = m.end()
+        else:
+            depth += -1 if m[0].startswith("</") else 1
+    chunks.append(payload[start:])
+    for line in chunks:
         if not line.strip():
             plan.append(("blank",))
             continue
-        payload, ctx = to_xml(line, protect_brands=not visible_brands)
         # A line with nothing but protected spans needs no translation.
-        if not re.sub(r"<x>\d+</x>|</?[a-z]+\d+>", "", payload).strip():
-            plan.append(("verbatim", line))
+        if not re.sub(r"<x>\d+</x>|</?[a-z]+\d+>", "", line).strip():
+            plan.append(("verbatim", from_xml(line, ctx)))
             continue
         plan.append(("text", len(payloads), ctx))
-        payloads.append(payload)
+        payloads.append(line)
     return payloads, plan
 
 
@@ -399,7 +382,7 @@ def _rebuild(plan: list[tuple], translated: list[str], lang: str) -> str:
             out.append(step[1])
         else:
             _, idx, ctx = step
-            out.append(tidy(from_xml(translated[idx], ctx), lang))
+            out.append(from_xml(_tidy_payload(translated[idx], ctx, lang), ctx))
     return "\n".join(out)
 
 
@@ -407,7 +390,7 @@ def translate_text(body: str, lang: str, use_glossary: bool = True) -> str:
     """Translate markdown body text into `lang`, preserving all structure."""
     payloads, plan = _segments(body, brands_visible(lang))
     if not payloads:
-        return body
+        return localize_zola_links(body, lang)
 
     target = DEEPL_TARGET.get(lang, lang.upper())
     extra = [("tag_handling", "xml"), ("ignore_tags", "x")]
@@ -457,7 +440,7 @@ def translate_post(raw: str, lang: str, use_glossary: bool = True) -> str:
         if err:
             raise RuntimeError(f"DeepL failed for {lang} frontmatter: {err}")
         for (key, _), ctx, res in zip(fields, ctxs, out):
-            new_values[key] = tidy(from_xml(res, ctx), lang)
+            new_values[key] = from_xml(_tidy_payload(res, ctx, lang), ctx)
 
     # Rewrite the frontmatter line-wise so unrelated fields keep their exact
     # formatting — round-tripping through a YAML dumper would reflow them.

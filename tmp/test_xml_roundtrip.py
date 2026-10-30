@@ -67,7 +67,15 @@ CASES = {
     "image": "![A screenshot](/images/shot.png) above.",
     "code span": "Use the `--dry-run` flag.",
     "fenced code": "```python\nprint('hi')\n```",
+    "tilde fence": "~~~python\nprint('hi')\n~~~",
+    "longer fence containing backticks": "````\n```\ncode\n```\n````",
+    "unclosed fence": "~~~python\nprint('hi')",
     "component": "{{ <references lang /> }}",
+    "component expression arguments": "{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}",
+    "Tera quoted closing braces": '{{ value | replace(from="}}", to="{done}") }}',
+    "layout comment": "<!-- donation-methods -->",
+    "multiline comment with markers": "<!--\n## Internal heading\n- Internal item\n-->",
+    "heading anchor": "## Other ways to donate {#other-ways}",
     "component inside html": (
         '<img src="{{ <asset_url config path=\'/sponsors/futo.svg\' /> }}" '
         'alt="FUTO">'
@@ -153,7 +161,8 @@ for name, md in CASES.items():
         ok, detail = False, f"        {e}\n        payload: {payload[:160]!r}"
     check(f"valid XML: {name}", ok, detail)
 
-# Stash indices must each be referenced exactly once.
+# Used stash indices must be valid and unique. Protecting a whole span can
+# leave intermediate heading/list marker entries unused.
 for name, md in CASES.items():
     payload, ctx = to_xml(md)
     used = [int(i) for i in re.findall(r"<x>(\d+)</x>", payload)]
@@ -184,6 +193,8 @@ FORBIDDEN = [
     ("raw HTML", re.compile(r"&lt;/?(?:br|pre|sdk|div|span|img|table)\b")),
     ("a list marker", re.compile(r"(?m)^[ \t]*[-*+][ \t]+")),
     ("a heading marker", re.compile(r"(?m)^[ \t]*#{1,6}[ \t]+")),
+    ("a heading anchor", re.compile(r"\{#[^\s}]+\}")),
+    ("an HTML comment", re.compile(r"&lt;!--")),
     ("a brand name", re.compile("|".join(
         re.escape(b) for b in ["Organic Maps", "OpenStreetMap", "ID Editor",
                                "Google Play", "App Store", "F-Droid"]))),
@@ -211,6 +222,10 @@ PURITY_CASES = {
     "autolink": "Visit <https://organicmaps.app> now.",
     "code span": "Use the `--dry-run` flag.",
     "component": "{{ <references lang /> }}",
+    "component expression arguments": "{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}",
+    "Tera quoted closing braces": '{{ value | replace(from="}}", to="{done}") }}',
+    "layout comment": "<!-- donation-methods -->",
+    "heading anchor": "## Other ways to donate {#other-ways}",
     "attribution": "- Fixed a crash _(Kiryl Kaveryn)_",
     "brand": "Organic Maps uses OpenStreetMap data.",
     "raw html": "✅ No ads<br/>",

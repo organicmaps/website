@@ -294,59 +294,6 @@ def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
     return added
 
 
-# Intentional, page-local reference omissions. A translation must declare one
-# of these in `extra.translation_omits_refs`; the allowlist prevents that narrow
-# mechanism from becoming a general-purpose way to hide lost links.
-PERMITTED_REF_OMISSIONS = {
-    "uk": {"stripe_rub"},
-}
-
-
-def _declared_ref_omissions(
-    src_body: str, out_body: str, out_meta: dict, lang: str
-) -> tuple[Counter, list[Problem]]:
-    """Validate and return explicitly permitted missing reference ids."""
-    extra = out_meta.get("extra") or {}
-    declared = extra.get("translation_omits_refs")
-    if declared is None:
-        return Counter(), []
-
-    problems: list[Problem] = []
-    if not isinstance(declared, list) or not all(
-        isinstance(ref, str) and ref for ref in declared
-    ):
-        return Counter(), [Problem(
-            ERROR, "ref-omission-invalid",
-            "extra.translation_omits_refs must be a list of reference ids",
-        )]
-    if len(declared) != len(set(declared)):
-        problems.append(Problem(
-            ERROR, "ref-omission-invalid",
-            "extra.translation_omits_refs contains a duplicate id",
-        ))
-
-    permitted = PERMITTED_REF_OMISSIONS.get(lang, set())
-    src_ids = Counter(re.findall(r"\]\[([^\]]+)\]", src_body))
-    out_ids = Counter(re.findall(r"\]\[([^\]]+)\]", out_body))
-    valid: Counter = Counter()
-    donate_page = src_body.count("{{ <donate_buttons lang /> }}") == 2
-
-    for ref in dict.fromkeys(declared):
-        if ref not in permitted or not donate_page:
-            problems.append(Problem(
-                ERROR, "ref-omission-invalid",
-                f"reference [{ref}] is not an allowed omission for {lang}",
-            ))
-        elif src_ids[ref] <= out_ids[ref]:
-            problems.append(Problem(
-                ERROR, "ref-omission-stale",
-                f"reference [{ref}] is declared omitted but is not missing",
-            ))
-        else:
-            valid[ref] = 1
-    return valid, problems
-
-
 # ----------------------------------------------------------------- emphasis
 
 # Only the two-character delimiters are checkable. A lone `*` or `_` is
@@ -486,7 +433,6 @@ VERBATIM_EXTRA_KEYS = {
     "preview_image",
     "translation_diverges",
     "translation_keeps_source",
-    "translation_omits_refs",
 }
 
 # `{amount}`, `{min}`, `{max}` — substituted at runtime by donate-subscribe.js,
@@ -593,13 +539,8 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     #    translated anchors, spliced alphabets, orphaned links, leftover XML
     #    tags and register.
     diverges = (out_meta.get("extra") or {}).get("translation_diverges")
-    omitted_refs, omission_problems = _declared_ref_omissions(
-        src_body, out_body, out_meta, lang
-    )
-    problems.extend(omission_problems)
     a, b = fingerprint(src_body), fingerprint(out_body)
     localised = _localised_refs(src_body, out_body, lang)
-    a["ref_links"] -= sum(omitted_refs.values())
     b["ref_links"] -= sum(localised.values())
     for key in ([] if isinstance(diverges, str) and diverges.strip() else a):
         if a[key] == b[key]:
@@ -608,7 +549,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
         if key in ("ref_links", "inline_links"):
             if key == "ref_links":
                 pat = r"\]\[([^\]]+)\]"
-                src_ids = Counter(re.findall(pat, src_body)) - omitted_refs
+                src_ids = Counter(re.findall(pat, src_body))
                 out_ids = Counter(re.findall(pat, out_body)) - localised
             else:
                 src_ids = _inline_targets(src_body)
@@ -794,12 +735,16 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
         src_fields = _frontmatter_prose(strip_frontmatter(src)[1] or {})
         out_fields = _frontmatter_prose(out_meta)
 
+        for key, value in out_fields.items():
+            ok, msg = register_ok(value, lang)
+            if not ok:
+                problems.append(Problem(WARN, "register-frontmatter", f"'{key}': {msg}"))
+
         # Some words really are the same in both languages — Dutch and Italian
         # write "Privacy", German writes "Name (optional)" — and no textual test
         # can tell those from a field the translator simply skipped: Italian
         # "Donate" and Occitan "News" were exactly that, and looked identical.
-        # So the page declares the ones it means, the same way the donation
-        # pages declare a missing payment reference:
+        # The page declares the fields whose source wording is intentional:
         #
         #     extra:
         #       translation_keeps_source: ["extra.menu_title"]

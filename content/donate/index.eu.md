@@ -1,72 +1,41 @@
 ---
-title: Eman Organic Maps garapena babesteko
-description: Zure diruak proiektuarekin lotutako gastu guztiak ordaintzen ditu eta Organic Maps hobetzeko motibazioa ematen digu.
+template: donate.html
+title: "Mantendu Organic Maps denontzat doan"
+description: "Zure dohaintzak mapen eguneratzeak, konponketak eta garapen independentea ordaintzen ditu. Egin Organic Maps-i hileroko, urteko edo behin-behineko dohaintza batekin."
 weight: 10
 extra:
   menu_title: Eman
   preview_image: donate/donate.png
+  bank_transfer_title: "Banku transferentzia"
+  crypto_title: "Kriptomoneta"
 ---
 
-Organic Maps aplikazioa _doakoa da guztiontzat_ zure **[emaitzak][stripe]** **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]** bidez:
+Zure dohaintzak mapen eguneratzeak, konponketak eta garapena ordaintzen ditu. Lagundu Organic Maps denontzat doan izaten.
 
-- Iragarkirik ez
-- Jarraitzailerik ez
-- Erregistrorik ez
-- Push jakinarazpenik ez
-- Kode irekia
+**Ez iragarkirik. Ez jarraipenik. Iturri irekia.**
 
-Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Zer babesten du zure dohaintzak
 
-## Zergatik eman Organic Maps-i?
+- **Lineaz kanpoko mapa eguneratuak.** Lagundu mundu osoan mapen eguneratzeak maiz eskaintzen.
+- **Aplikazio hobea.** Babestu akatsen zuzenketak, nabigazioaren hobekuntzak eta funtzio berriak.
+- **Garapen independentea.** Lagundu Organic Maps guztiontzat doan eta irekita mantentzen.
 
-1. Gure helburua pribatutasunean oinarritutako, azkarra eta erabiltzeko erraza den alternatiba bat eskaintzea da Google Maps eta Apple Maps-entzat.
-2. OpenStreetMap erabiltzen duten webgune, aplikazio eta plataformetarako mapa publikoen datuak hobetzea eta jende gehiago maparen informazioa ematera animatzea beste helburu bat da.
-3. Zure emaitzak behar ditugu Organic Maps guztiontzat irekia eta doakoa izaten jarraitzeko.
-   Eta iragarkirik gabe.
-4. Gure lana maite dugu, eta erabiltzaileak ere bai ❤️.
+Ohiko dohaintzek epe luzerako hobekuntzak planifikatzen laguntzen digute. Behin-behineko dohaintzak ere eskertzen dira.
 
-## Zergatik behar du dirua proiektu doako batek?
+<!-- donation-methods -->
 
-1. 2023an, Organic Maps-ek bere lehen milioi erabiltzaile lortu zituen.
-   Gure zerbitzariek doako, azkar eta maiz eguneratzen dituzte mapak mundu osoan.
-2. Erabiltzailearen laguntza, akatsen konponketa eta kalitatezko aplikazio eguneratzeak gure lehentasun nagusiak dira.
-   [~2000 akats-txosten eta funtzionalitate-eskaera daude GitHub-en][github issues], eta kopuru hori egunero hazten ari da.
-   AppStore, Google Play eta laguntza-emailak iruzkin eta akatsez gainezka daude. Kalitate handiko produktua eskaini nahi dugu.
-3. Diru nahikoa izanez gero, funtzio berriak garatu daitezke. Adibidez:
-   - Laster-markak eta ibilbideak babestu eta sinkronizatu
-   - GPS ibilbide-erregistratzailea GPX esportazioarekin
-   - Satelite irudiak
-   - Garraio publikoa
-   - Trafiko eta istripuen berri ematea
-   - Argazkiak eta iritziak
-   - Jarduera desberdinetarako mapa estiloak
-   - Mendien itzaldura eta 3D lurraldea
-   - OpenStreetMap editore aurreratua
-   - Lineaz kanpoko helbide bilaketa, ibilbideak eta nabigazioa hobetua
-   - … eta [beste hainbat][github issues] funtzio nahi eta maite dituzunak
+## Dohaintza egiteko beste modu batzuk {#other-ways}
 
-## Nola eman?
+Zuretzako egokia den ordainketa-bide bat hautatu.
 
-Klikatu zure ordainketa-metodo gustukoenaren ikonoan behean:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Emaitza errepikakorrak dira proiektuaren diru-sarrera egonkorra bermatzeko eta epe luzeko zeregin eta helburuetarako motibazioa emateko modurik onena. Behin-behineko emaitzak ere eskertzen dira.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Banku transferentzia
+## Beste modu batean lagundu al gaitzakezu?
 
-{{ <bank_transfer /> }}
-
-### Kriptomoneta
-
-Mesedez, kontuan hartu urtero ematea, guztizko tasak murrizteko.
-
-{{ <crypto_table lang config /> }}
-
-## Beste modu batean lagundu dezakezu?
-
-Bai! Organic Maps laguntzeko hainbat modu daude. Ikusi [Lagundu](@/contribute/index.eu.md) orria xehetasun gehiagorako.
-
-{{ <references lang /> }}
+Bai! Organic Maps babesteko modu asko daude. Xehetasun gehiago jakiteko, ikusi [Ekarpen](@/contribute/index.eu.md) orria.

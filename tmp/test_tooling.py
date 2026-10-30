@@ -55,33 +55,6 @@ import translate_check, translate_md
         )
         self.assertEqual(result.returncode, 0, result.stderr)
 
-    def test_only_declared_currency_references_may_be_omitted(self):
-        source = (ROOT / "content/donate/index.md").read_text(encoding="utf-8")
-        cases = (("uk", "stripe_rub"),)
-        for lang, omitted in cases:
-            translated = (ROOT / f"content/donate/index.{lang}.md").read_text(
-                encoding="utf-8"
-            )
-            errors = [
-                p for p in check_translation(source, translated, lang)
-                if p.level == ERROR
-            ]
-            self.assertEqual(errors, [], lang)
-
-            undeclared = translated.replace(
-                f'  translation_omits_refs: ["{omitted}"]\n', ""
-            )
-            self.assertIn(
-                "structure",
-                {p.code for p in check_translation(source, undeclared, lang)},
-            )
-
-            invalid = translated.replace(omitted, "github", 1)
-            self.assertIn(
-                "ref-omission-invalid",
-                {p.code for p in check_translation(source, invalid, lang)},
-            )
-
     def test_nested_frontmatter_prose_and_placeholders_are_checked(self):
         source = """---
 title: Support
@@ -124,6 +97,17 @@ Organic Maps。
             [p.message for p in problems if p.code == "placeholder-mismatch"],
             ["'extra.form.submit_once' must keep the placeholder(s) verbatim"],
         )
+
+    def test_register_is_checked_in_reader_visible_frontmatter(self):
+        source = "---\ntitle: Support\nextra:\n  form:\n    canceled_notice: Your payment was canceled.\n---\n\nOrganic Maps.\n"
+        translated = "---\ntitle: Unterstütze uns\nextra:\n  form:\n    canceled_notice: Ihre Zahlung wurde storniert.\n---\n\nOrganic Maps.\n"
+        warnings = [p for p in check_translation(source, translated, "de")
+                    if p.code == "register-frontmatter"]
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("extra.form.canceled_notice", warnings[0].message)
+        self.assertFalse(any(p.code == "register-frontmatter"
+                             for p in check_translation(
+                                 source, translated.replace("Ihre", "Deine"), "de")))
 
     def test_sentence_initial_occitan_address_is_detected(self):
         self.assertFalse(register_ok("Vòstre pagament es estat anullat.", "oc")[0])

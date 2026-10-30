@@ -1,0 +1,21 @@
+{% component donate_methods(lang, bank_title, crypto_title) -%}
+{% if lang == 'en' %}{% set stripe = 'https://donate.organicmaps.app' %}
+{% else %}{% set stripe = 'https://donate.organicmaps.app/?locale=' ~ lang %}{% endif %}
+<div class="donate-methods">
+  <form action="https://www.paypal.com/donate" method="post" target="_blank">
+    <input type="hidden" name="hosted_button_id" value="JYM34AADM87V8">
+    <button type="submit"><img src="/images/donates/paypal.svg" width="32" height="32" alt="" loading="lazy" decoding="async">PayPal</button>
+  </form>
+  <a href="https://wise.com/pay/business/organicmapsou?Donate%20to%20support%20Organic%20Maps%20project"><img src="/images/donates/wise.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Wise</a>
+  <a href="{{ stripe }}"><img src="/images/donates/visa_mc.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Visa / Mastercard</a>
+  {%- if lang == 'ru' %}
+  <a href="https://t.me/tribute/app?startapp=dxGM"><img src="/images/donates/mir.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Карты в рублях, включая МИР</a>
+  {% endif -%}
+  <a href="https://github.com/sponsors/organicmaps/"><img src="/images/donates/github.svg" width="32" height="32" alt="" loading="lazy" decoding="async">GitHub Sponsors</a>
+  <a href="https://liberapay.com/OrganicMaps"><img src="/images/donates/liberapay.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Liberapay</a>
+  <a href="https://opencollective.com/organicmaps"><img src="/images/donates/opencollective.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Open Collective</a>
+  <a href="https://www.patreon.com/OrganicMaps"><img src="/images/donates/patreon.svg" width="32" height="32" alt="" loading="lazy" decoding="async">Patreon</a>
+  <a href="#bank-transfer"><img src="/images/donates/bank.svg" width="32" height="32" alt="" loading="lazy" decoding="async">{{ bank_title }}</a>
+  <a href="#crypto"><img src="/images/donates/bitcoin.svg" width="32" height="32" alt="" loading="lazy" decoding="async">{{ crypto_title }}</a>
+</div>
+{%- endcomponent donate_methods %}

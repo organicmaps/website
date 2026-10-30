@@ -55,6 +55,15 @@ Zola distinguishes resource types:
 
 Access with `get_page(path="donate/index.md")` or `get_section(path="news/_index.md")`.
 
+### Donation Checkout
+
+The main donation page and focused `/donate/subscribe/` landing page include
+`templates/_donate_form.html`. Both take localized labels from the subscribe
+page's `extra.form`. The main page's Markdown contains `<!-- donation-impact -->`
+and `<!-- donation-methods -->` exactly once, in that order; its template rejects
+missing, duplicate or reordered markers. JavaScript enables currency selection
+and scales presets together; without it, the form submits EUR consistently.
+
 ### Translation Function
 
 Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from `config.toml` `[translations]` sections.
@@ -138,7 +147,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 3. Add to RTL list in `base.html` if right-to-left language
 4. If `content/donate/subscribe/index.XX.md` is one of them, two things do **not**
    follow automatically:
-   - `translate_md.py` does not touch `extra:`, so all ~21 `extra.form.*` labels
+   - `translate_md.py` does not touch `extra:`, so all `extra.form.*` labels
      must be translated by hand — `{amount}`, `{min}` and `{max}` are placeholders
      the JS substitutes and must survive verbatim. `translate_check.py` warns on
      any that are still English.
@@ -160,7 +169,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 - Modular imports: `sass/_language_selector.scss`, `sass/_top_menu.scss`
 - Dark mode: `@media (prefers-color-scheme: dark)` blocks
 - RTL support: `dir="rtl"` on `<html>` for RTL languages
-- Responsive design: Mobile-first, uses flexbox for layout
+- Responsive design: Flexbox and grid layouts with narrow-screen overrides
 
 ### Static Assets
 
@@ -224,7 +233,13 @@ python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
 python3 tools/translate_md.py post.md --langs ru --dry-run         # cost, no API call
 ```
 
-It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (`extra.menu_title`, the donation form's twenty-odd `extra.form.*` labels) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
+It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (`extra.menu_title`, the donation form's `extra.form.*` labels) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
+
+Complete code blocks, comments and Tera expressions are protected before
+segmentation, and formatting that crosses a soft line break stays in one valid
+XML payload. Cleanup repairs prose and link labels while code, URLs, anchors
+and component arguments remain protected. Link localization applies only to
+Markdown link targets so examples inside code retain their literal contents.
 
 Two behaviours worth knowing, both established by measurement:
 
@@ -285,16 +300,11 @@ python3 tools/translate_check.py content/news/2026-08-04/630/   # whole folder
 python3 tools/translate_check.py index.md index.ar.md ar        # one file
 ```
 
-ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
-
-The Ukrainian donation page intentionally omits the RUB payment reference. It
-declares that exact omission with `extra.translation_omits_refs`; the checker
-rejects that field for every other language, reference, or page, and rejects it
-once the reference is no longer missing.
+ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register in the body and reader-visible frontmatter, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
 
 A frontmatter string that is genuinely the same word in both languages —
-Dutch and Italian "Privacy", German "Name (optional)" — declares itself the
-same way, with `extra.translation_keeps_source: ["extra.menu_title"]`, pasting
+Dutch and Italian "Privacy", German "Name (optional)" — declares it explicitly
+with `extra.translation_keeps_source: ["extra.menu_title"]`, pasting
 the path out of the warning. It is verified rather than obeyed: naming a field
 the English source lacks, or one that is no longer identical, is an ERROR, so
 the declaration cannot outlive the situation it describes. Reach for it only

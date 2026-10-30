@@ -1,68 +1,41 @@
 ---
-description: "Z vašich peněz se hradí všechny výdaje spojené s projektem a motivují nás ke zlepšování Organic Maps."
+template: donate.html
+description: "Váš příspěvek slouží k financování aktualizací map, oprav a nezávislého vývoje. Podpořte Organic Maps měsíčním, ročním nebo jednorázovým příspěvkem."
 extra:
   menu_title: Přispějte
   preview_image: donate/donate.png
-title: "Přispějte na podporu vývoje Organic Maps"
+  bank_transfer_title: "Bankovním převodem"
+  crypto_title: "Kryptoměna"
+title: "Ať jsou Organic Maps i nadále zdarma pro všechny"
 weight: 10
 ---
 
-Aplikace Organic Maps je pro všechny _zdarma_ díky vašim **[darům][stripe]** v měnách **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
+Váš příspěvek přispívá k financování aktualizací map, oprav a dalšího vývoje. Pomozte nám zajistit, aby aplikace Organic Maps zůstala pro všechny zdarma.
 
-- Bez reklam
-- Žádné sledovací zařízení
-- Žádná registrace
-- Žádná vyskakovací oznámení
-- Open source
+**Žádné reklamy. Žádné sledovací nástroje. Otevřený zdrojový kód.**
 
-Klikněte na ikonu preferovaného způsobu platby níže:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Co váš příspěvek podporuje
 
-## Proč darovat Organic Maps?
+- **Aktuální offline mapy.** Pomozte zajistit časté aktualizace map po celém světě.
+- **Lepší aplikace.** Podpořte opravy chyb, vylepšení navigace a nové funkce.
+- **Nezávislý vývoj.** Pomozte udržet Organic Maps bezplatné a otevřené pro všechny.
 
-1. Naším cílem je poskytovat rychlou alternativu k Mapám Google a Apple Maps, která se jednoduše používá a bere ohled na vaše soukromí.
-2. Naším druhým cílem je vylepšování mapových dat pro velké množství webů, aplikací a platform, které používají službu OpenStreetMap, a zapojit více lidí do přispívání informací do map.
-3. Při plnění našeho poslání udržovat Organic Maps otevřené a svobodné spoléháme na vaše dary. A bez reklam.
-4. Máme rádi to, co děláme, a máme rádi naše uživatele ❤️.
+Pravidelné příspěvky nám pomáhají plánovat dlouhodobá vylepšení. Jednorázové příspěvky jsou rovněž vítány.
 
-## Proč potřebuje bezplatný projekt peníze?
+<!-- donation-methods -->
 
-1. V roce 2023 získaly Organic Maps první milion uživatelů. Naše servery poskytují bezplatné, rychlé a časté aktualizace map po celém světě.
-2. Podpora uživatelů, oprava chyb a zlepšování stability aplikace jsou našimi hlavními prioritami. Na GitHubu je [2000+ issues][github issues] a toto číslo každým dnem roste. AppStore, Google Play a e-maily podpory jsou zaplaveny komentáři a chybami. Chceme dodávat vysoce kvalitní produkt.
-3. S dostatkem peněz lze například rychleji vyvíjet nové funkce:
-   - Zálohování a synchronizace záložek a tras
-   - Záznamník stop GPS s podporou GPX
-   - Satelitní mapy
-   - Veřejná doprava
-   - Hlášení o dopravě a nehodách
-   - Fotky a recenze
-   - Lepší styly map pro různé činnosti
-   - Stínování kopců a 3D terén
-   - Vylepšení editoru OpenStreetMap
-   - Lepší offline vyhledávání adres, směrování a navigace
-   - … a [mnoho dalších][github issues] funkcí, které chcete a máte rádi
+## Další způsoby, jak přispět {#other-ways}
 
-## Jak darovat?
+Vyberte si způsob platby, který vám vyhovuje.
 
-Klikněte na ikonu preferovaného způsobu platby níže:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Opakované dary jsou nejlepším způsobem, jak zajistit relativně stabilní příjem projektu a motivovat nás k dlouhodobým úkolům a cílům. Můžete však přispět i jednorázově.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Bankovním převodem
+## Můžete nám pomoci nějakým jiným způsobem?
 
-{{ <bank_transfer /> }}
-
-### Kryptoměna
-
-Zvažte prosím možnost ročního příspěvku, abyste snížili celkové poplatky.
-
-{{ <crypto_table lang config /> }}
-
-## Můžete nám pomoci i jinak?
-
-Ano! Existuje mnoho způsobů, jak podpořit Organic Maps. Více informací naleznete na stránce [Podpořte nás](@/contribute/index.cs.md).
-
-{{ <references lang /> }}
+Ano! Existuje mnoho způsobů, jak podpořit Organic Maps. Další podrobnosti najdete na stránce [Přispějte](@/contribute/index.cs.md).

@@ -1,72 +1,41 @@
 ---
-title: 捐赠以支持 Organic Maps 的开发
-description: 你的资金用于支付所有项目相关费用，并激励我们改进 Organic Maps。
+template: donate.html
+title: "让 Organic Maps 继续对所有人免费"
+description: "你的捐款将用于地图更新、错误修复和独立开发。你可以通过每月、每年或一次性捐款来支持 Organic Maps。"
 weight: 10
 extra:
   menu_title: 捐赠
   preview_image: donate/donate.png
+  bank_transfer_title: "银行转账"
+  crypto_title: "加密货币"
 ---
 
-Organic Maps 应用因你的 **[捐赠][stripe]**（**[欧元][stripe_eur]、[美元][stripe_usd]、[英镑][stripe_GBP]、[瑞士法郎][stripe_chf]、[波兰兹罗提][stripe_pln]、[俄罗斯卢布][stripe_rub]**）而对所有人 _免费_：
+你的捐款将用于地图的更新、修复和开发。请帮助我们让 Organic Maps 继续免费服务于所有人。
 
-- 无广告
-- 无跟踪器
-- 无注册
-- 无推送通知
-- 开源
+**无广告。无追踪器。开源。**
 
-请点击下方你喜欢的支付方式图标：
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## 你的捐款支持什么
 
-## 为什么要捐赠给 Organic Maps？
+- **最新的离线地图。**帮助我们向世界各地提供定期地图更新。
+- **更好用的应用。**支持修复问题、改进导航和开发新功能。
+- **独立开发。**帮助 Organic Maps 为所有人保持免费和开放。
 
-1. 我们的目标是为 Google Maps 和 Apple Maps 提供一个注重隐私、快速且易用的替代方案。
-2. 改善众多使用 OpenStreetMap 的网站、应用和平台的公共地图数据，并让更多人参与地图信息贡献也是我们的目标之一。
-3. 我们依靠你的捐赠让 Organic Maps 对所有人开放且免费。
-   并且无广告。
-4. 我们热爱我们的工作，也热爱我们的用户 ❤️。
+定期捐款有助于我们规划长期改进措施。我们也非常感谢你的单笔捐款。
 
-## 为什么免费项目需要资金？
+<!-- donation-methods -->
 
-1. 2023 年，Organic Maps 获得了第一个百万用户。
-   我们的服务器为全球提供免费、快速且频繁的地图更新。
-2. 用户支持、修复 bug 和发布高质量应用更新是我们的首要任务。
-   GitHub 上有约 [2000 个 bug 报告和功能请求][github issues]，且每天都在增长。
-   AppStore、Google Play 和支持邮箱充满了评论和 bug。我们希望提供高质量的产品。
-3. 有了足够的资金，可以开发新功能。例如：
-   - 书签和轨迹的备份与同步
-   - 带 GPX 导出的 GPS 轨迹记录器
-   - 卫星影像
-   - 公共交通
-   - 交通和事故报告
-   - 照片和评论
-   - 不同活动的地图样式
-   - 山体阴影和 3D 地形
-   - 更高级的 OpenStreetMap 编辑器
-   - 更好的离线地址搜索、路线规划和导航
-   - ……以及 [许多其他][github issues] 你想要和喜欢的功能
+## 其他捐赠方式 {#other-ways}
 
-## 如何捐赠？
+选择一种适合你的支付路线。
 
-请点击下方你喜欢的支付方式图标：
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-定期捐赠是确保项目有相对稳定收入并激励我们长期任务和目标的最佳方式。一次性捐赠也非常感谢。
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### 银行转账
+## 你还能以其他方式帮助我们吗？
 
-{{ <bank_transfer /> }}
-
-### 加密货币
-
-请考虑每年捐赠以减少总费用。
-
-{{ <crypto_table lang config /> }}
-
-## 还有其他方式可以帮助我们吗？
-
-有！支持 Organic Maps 的方式有很多。详情请参见 [贡献](@/contribute/index.zh-Hans.md) 页面。
-
-{{ <references lang /> }}
+没错！支持 Organic Maps 的方式有很多。更多详情请参见[贡献](@/contribute/index.zh-Hans.md)页面。

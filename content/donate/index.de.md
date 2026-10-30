@@ -1,68 +1,41 @@
 ---
-description: "Dein Geld finanziert alle projektbezogenen Kosten und motiviert uns, Organic Maps zu verbessern."
+template: donate.html
+description: "Mit deiner Spende finanzieren wir Kartenaktualisierungen, Fehlerbehebungen und die eigenständige Weiterentwicklung. Unterstütze Organic Maps mit einer monatlichen, jährlichen oder einmaligen Spende."
 extra:
   menu_title: Spenden
   preview_image: donate/donate.png
-title: "Spende, um die Entwicklung von Organic Maps zu unterstützen"
+  bank_transfer_title: "Banküberweisung"
+  crypto_title: "Krypto"
+title: "Organic Maps soll für alle kostenlos bleiben"
 weight: 10
 ---
 
-Organic Maps ist _kostenlos für alle_ dank deiner **[Spenden][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
+Mit deiner Spende finanzieren wir Kartenaktualisierungen, Fehlerbehebungen und die Weiterentwicklung. Hilf mit, dass Organic Maps für alle kostenlos bleibt.
 
-- Keine Werbung
-- Keine Tracker
-- Keine Registrierung
-- Keine Push-Benachrichtigungen
-- Open Source
+**Keine Werbung. Keine Tracker. Open Source.**
 
-Klicke unten auf das Symbol einer bevorzugten Zahlungsmethode:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Was deine Spende ermöglicht
 
-## Warum für Organic Maps spenden?
+- **Aktuelle Offline-Karten.** Hilf uns, regelmäßige Kartenupdates weltweit bereitzustellen.
+- **Eine bessere App.** Unterstütze Fehlerbehebungen, bessere Navigation und neue Funktionen.
+- **Unabhängige Entwicklung.** Hilf, Organic Maps kostenlos und für alle offen zu halten.
 
-1. Unser Ziel ist es, eine datenschutzorientierte, schnelle und benutzerfreundliche Alternative zu Google Maps und Apple Maps zu bieten.
-2. Die Verbesserung öffentlicher Kartendaten für die zahlreichen Websites, Apps und Plattformen, die OpenStreetMap nutzen, und die Einbeziehung weiterer Personen in die Bereitstellung von Karteninformationen ist ein weiteres unserer Ziele.
-3. Wir sind auf deine Spenden angewiesen, damit wir Organic Maps offen und kostenlos halten können. Und frei von Werbung.
-4. Wir lieben was wir tun, und wir lieben unsere Nutzer ❤️.
+Regelmäßige Spenden helfen uns dabei, langfristige Verbesserungen zu planen. Auch einmalige Spenden nehmen wir gerne entgegen.
 
-## Warum ein kostenloses Projekt Geld braucht?
+<!-- donation-methods -->
 
-1. Im Jahr 2023 hat Organic Maps seine ersten Millionen Nutzer. Unsere Server bieten kostenlose, schnelle und häufige Kartenaktualisierungen auf der ganzen Welt.
-2. Benutzerunterstützung, Bugfixing und die Verbesserung der Stabilität der App stehen ganz oben auf unserer Prioritätenliste. Es gibt [~2000 Fehlerberichte und Funktionswünsche auf GitHub][github issues], und diese Zahl wächst täglich. AppStore, Google Play und Support-E-Mails werden mit Kommentaren und Fehlern überflutet. Wir wollen ein hochwertiges Produkt liefern.
-3. Mit genügend Geld können neue Funktionen schneller entwickelt werden, zum Beispiel:
-   - Sichere und synchronisiere Lesezeichen und Strecken
-   - GPS-Kursaufzeichnung mit GPX-Unterstützung
-   - Satellitenbilder
-   - Öffentlicher Verkehr
-   - Verkehrs- und Unfallmeldung
-   - Fotos und Bewertungen
-   - Bessere Kartenstile für verschiedene Aktivitäten
-   - Hügelschattierung und 3D-Gelände
-   - Verbesserung des OpenStreetMap-Editors
-   - Bessere Offline-Adressensuche, Routing und Navigation
-   - … und [viele andere][github issues] Funktionen, die du haben willst und liebst
+## Andere Möglichkeiten zu spenden {#other-ways}
 
-## Wie kann man spenden?
+Wähle eine Zahlungsroute, die zu dir passt.
 
-Klicke unten auf das Symbol einer bevorzugten Zahlungsmethode:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Wiederkehrende Spenden sind der beste Weg, um ein relativ stabiles Einkommen für das Projekt zu sichern und uns für langfristige Aufgaben und Ziele zu motivieren. Du kannst aber auch gern einmalig spenden.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Banküberweisung
+## Kannst du uns noch irgendwie anders helfen?
 
-{{ <bank_transfer /> }}
-
-### Krypto
-
-Bitte ziehe es in Erwägung, jährlich zu spenden, um die enstehenden Gebühren zu reduzieren.
-
-{{ <crypto_table lang config /> }}
-
-## Kannst du uns auf andere Weise helfen?
-
-Ja! Es gibt viele Möglichkeiten, Organic Maps zu unterstützen. Weitere Details findest du auf der [Beitragen](@/contribute/index.de.md) Seite.
-
-{{ <references lang /> }}
+Ja! Es gibt viele Möglichkeiten, Organic Maps zu unterstützen. Weitere Informationen findest du auf der Seite [Mitwirken](@/contribute/index.de.md).

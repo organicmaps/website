@@ -1,68 +1,41 @@
 ---
-description: "Twoje pieniądze pokrywają wszystkie wydatki związane z projektem i motywują nas do ulepszania Organic Maps."
+template: donate.html
+description: "Twoja darowizna pozwala nam finansować aktualizacje map, poprawki i niezależny rozwój aplikacji. Wesprzyj Organic Maps, przekazując darowiznę miesięczną, roczną lub jednorazową."
 extra:
   menu_title: "Wspomóż finansowo"
   preview_image: donate/donate.png
-title: "Przekaż darowiznę, aby wesprzeć rozwój Organic Maps"
+  bank_transfer_title: "Przelew bankowy"
+  crypto_title: "Kryptowaluta"
+title: "Niech Organic Maps pozostanie darmowe dla wszystkich"
 weight: 10
 ---
 
-Aplikacja Organic Maps jest _darmowa dla wszystkich_ dzięki Waszym **[donacjom][stripe]** w **[PLN][stripe_pln], [EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [RUB][stripe_rub]**:
+Twoja darowizna pozwala na aktualizacje map, poprawki i dalszy rozwój. Pomóż nam, by Organic Maps pozostało darmowe dla wszystkich.
 
-- Brak reklam
-- Brak mechanizmów śledzących
-- Brak rejestracji
-- Brak wyskakujących powiadomień push
-- Otwarte źródła
+**Bez reklam. Bez modułów śledzących. Open source.**
 
-Kliknij ikonę preferowanej metody płatności poniżej:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Co umożliwia twoja darowizna
 
-## Dlaczego warto przekazać darowiznę na rzecz Organic Maps?
+- **Aktualne mapy offline.** Pomóż udostępniać częste aktualizacje map na całym świecie.
+- **Lepsza aplikacja.** Wspieraj poprawki błędów, ulepszenia nawigacji i nowe funkcje.
+- **Niezależny rozwój.** Pomóż utrzymać Organic Maps jako aplikację darmową i otwartą dla wszystkich.
 
-1. Naszym celem jest zapewnienie skoncentrowanej na prywatności, szybkiej i łatwej w użyciu alternatywy do Map Google i Apple Maps.
-2. Kolejnym naszym celem jest ulepszanie publicznych danych mapowych dla wielu stron internetowych, aplikacji i platform, które korzystają z OpenStreetMap, oraz zachęcanie większej liczby osób do dzielenia się informacjami o mapach.
-3. Polegamy na Twoich darowiznach, aby realizować naszą misję polegającą na utrzymaniu Organic Maps otwartymi i wolnymi. I wolnymi od reklam.
-4. Kochamy to co robimy i kochamy naszych użytkowników ❤️.
+Regularne darowizny pomagają nam planować długoterminowe ulepszenia. Jednorazowe darowizny też są mile widziane.
 
-## Dlaczego darmowy projekt potrzebuje pieniędzy?
+<!-- donation-methods -->
 
-1. W roku 2023 Organic Maps zyskało swój pierwszy milion użytkowników. Nasze serwery zapewniają darmowe, szybkie i częste aktualizacje map na całym świecie.
-2. Wsparcie użytkowników, usuwanie błędów i poprawa stabilności aplikacji są na szczycie naszych priorytetów. Mamy [ponad 1800 zgłoszonych na GitHubie problemów do rozwiązania][github issues], a liczba ta rośnie każdego dnia. AppStore, Google Play i e-maile wsparcia są zalane komentarzami i błędami. Chcemy dostarczać produkt wysokiej jakości.
-3. Mając wystarczająco dużo pieniędzy, można na przykład szybciej rozwijać nowe funkcje:
-   - Tworzenie kopii zapasowych i synchronizacja zakładek oraz tras
-   - Rejestrator śladów GPS z obsługą GPX
-   - Zdjęcia satelitarne
-   - Transport publiczny
-   - Raportowanie ruchu drogowego i wypadków
-   - Zdjęcia i opinie
-   - Lepsze style map dla różnych działań
-   - Cieniowanie wzgórz i teren 3D
-   - Bardziej zaawansowany edytor OpenStreetMap
-   - Lepsze wyszukiwanie adresów w trybie offline, wyznaczanie tras i nawigacja
-   - … i [wiele innych][github issues] funkcji, które chcesz i kochasz
+## Inne sposoby przekazania darowizny {#other-ways}
 
-## Jak przekazać darowiznę?
+Wybierz sposób płatności, który Ci odpowiada.
 
-Kliknij ikonę preferowanej metody płatności poniżej:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Powtarzające się darowizny to najlepszy sposób na zapewnienie względnie stabilnego dochodu dla projektu i zmotywowanie nas do realizacji długoterminowych zadań i celów. Ale możesz też przekazać darowiznę jednorazowo.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Przelew bankowy
+## Czy możesz nam pomóc w jakiś inny sposób?
 
-{{ <bank_transfer /> }}
-
-### Kryptowaluta
-
-Proszę rozważyć coroczną darowiznę, aby zmniejszyć całkowite opłaty.
-
-{{ <crypto_table lang config /> }}
-
-## Czy można nam pomóc w jakiś inny sposób?
-
-Tak! Istnieje wiele sposobów na wsparcie Organic Maps. Więcej szczegółów znajdziesz na stronie [Wesprzyj nas](@/contribute/index.pl.md).
-
-{{ <references lang /> }}
+Tak! Jest wiele sposobów, by wesprzeć Organic Maps. Więcej szczegółów znajdziesz na stronie [Współtwórz](@/contribute/index.pl.md).

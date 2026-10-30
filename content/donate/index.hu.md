@@ -1,68 +1,41 @@
 ---
-description: "A pénzed fedezi a projekttel kapcsolatos összes kiadást, és motivál bennünket az Organic Maps jobbá tételéhez."
+template: donate.html
+description: "Adományoddal a térképfrissítéseket, a hibajavításokat és a független fejlesztést támogatod. Támogasd az Organic Maps-et havi, éves vagy egyszeri adománnyal."
 extra:
   menu_title: Adományozás
   preview_image: donate/donate.png
-title: "Adományozz az Organic Maps fejlesztésének támogatására"
+  bank_transfer_title: "Banki átutalás"
+  crypto_title: "Kriptovaluta"
+title: "Segíts, hogy az Organic Maps mindenki számára ingyenes maradjon"
 weight: 10
 ---
 
-Az Organic Maps alkalmazás _mindenki számára ingyenes_ az **[adományoknak][stripe]** köszönhetően, **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]** pénznemben:
+Adományoddal hozzájárulsz a térképek frissítéséhez, hibajavításához és fejlesztéséhez. Segíts abban, hogy Organic Maps mindenki számára ingyenes maradjon!
 
-- Nincsenek hirdetések
-- Nincsenek nyomkövetők
-- Nincs regisztráció
-- Nincsenek leküldéses értesítések
-- Nyílt forráskódú
+**Nincs reklám. Nincs nyomkövető. Nyílt forráskódú.**
 
-Kattints a kívánt fizetési mód ikonjára lentebb:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Mit támogat az adományod
 
-## Miért adományozz az Organic Maps-nek?
+- **Friss offline térképek.** Segíts a rendszeres térképfrissítések eljuttatásában a világ minden tájára.
+- **Jobb alkalmazás.** Támogasd a hibajavításokat, a navigáció fejlesztését és az új funkciókat.
+- **Független fejlesztés.** Segíts, hogy az Organic Maps mindenki számára ingyenes és nyílt maradjon.
 
-1. Célunk, hogy egy adatvédelmi szempontokat figyelembe vevő, gyors és könnyen használható alternatíváját nyújtsuk a Google Maps és az Apple Maps helyett.
-2. További célunk az OpenStreetMapet használó számos weboldal, alkalmazás és platform nyilvános térképadatainak javítása, valamint több ember bevonása a térképadatok szerkesztésébe.
-3. Az adományaidra támaszkodunk, hogy teljesíteni tudjuk küldetésünket, hogy az Organic Maps nyitott és szabad maradjon. MIndezt hirdetések nélkül.
-4. Szeretjük, amit csinálunk, és szeretjük a felhasználóinkat ❤️.
+A rendszeres adományok segítenek nekünk a hosszú távú fejlesztések megtervezésében. Az egyszeri adományokat is nagyra értékeljük.
 
-## Miért kell pénz egy ingyenes projekthez?
+<!-- donation-methods -->
 
-1. 2023-ban az Organic Maps elérte az első egymillió regisztrált felhasználóját. Kiszolgálóink ingyenes, gyors és gyakori térképfrissítéseket biztosítanak a világ minden tájáról.
-2. A felhasználói segítség, a hibajavítás és az alkalmazás stabilitásának javítása a prioritások között az első helyen áll. GitHubon [1800+ hibanapló van megnyitva][github issues], és ez a szám napról napra nő. Az AppStore, a Google Play és a támogatási e-maileket elárasztják a megjegyzések és a hibák. Minőségi terméket akarunk előállítani.
-3. Elegendő pénzzel például gyorsabban tudunk új funkciókat fejleszteni, mint például:
-   - Biztonsági mentés, továbbá a könyvjelzők- és nyomvonalak szinkronizálása
-   - GPS-nyomvonalrögzítés GPX-támogatással
-   - Műholdképek
-   - Tömegközlekedés
-   - Forgalmi és baleseti jelentések
-   - Képek és vélemények
-   - Jobb térképtémák a különböző tevékenységekhez
-   - Domborzatárnyékolás és 3D terep
-   - Fejlettebb OpenStreetMap szerkesztő
-   - Jobb offline címkeresés, útvonaltervezés és navigáció
-   - … és még [sok más][github issues] funkciót, amit ismersz és szeretnél
+## Egyéb adományozási lehetőségek {#other-ways}
 
-## Hogyan adományozhatsz?
+Válaszd a neked megfelelő fizetési módot.
 
-Kattints a kívánt fizetési mód ikonjára lentebb:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Az ismétlődő adományok a legjobb módja annak, hogy viszonylag stabil bevételt biztosítsunk a projekt számára és motiváljanak minket a hosszú távú feladatok és célok megvalósításában. De egyszeri adományozásra is van lehetőség.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Banki átutalás
+## Tudsz más módon is segíteni?
 
-{{ <bank_transfer /> }}
-
-### Kriptovaluta
-
-Fontold meg az éves adományozást, hogy csökkentsd a teljes díjat.
-
-{{ <crypto_table lang config /> }}
-
-## Tudsz más módon is segíteni nekünk?
-
-Igen! Sokféleképpen lehet támogatni az Organic Maps-et. További részletekért tekintsd meg a [Közreműködés](@/contribute/index.hu.md) oldalt.
-
-{{ <references lang /> }}
+Igen! Számos módon támogathatod az Organic Maps-et. További részletekért nézd meg a [Közreműködés](@/contribute/index.hu.md) oldalt.

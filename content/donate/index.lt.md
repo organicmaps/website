@@ -1,68 +1,41 @@
 ---
-title: "Paaukokite, kad paremtumėte Organic Maps plėtrą"
-description: "Jūsų pinigai padengia visas su projektu susijusias išlaidas ir skatina mus tobulinti Organic Maps."
+template: donate.html
+title: "Kad Organic Maps liktų nemokama visiems"
+description: "Jūsų auka padeda finansuoti žemėlapių atnaujinimus, klaidų taisymą ir nepriklausomą plėtrą. Paremkite Organic Maps mėnesine, metine arba vienkartine auka."
 weight: 10
 extra:
   menu_title: Paremkite
   preview_image: donate/donate.png
+  bank_transfer_title: "Bankinis pavedimas"
+  crypto_title: "Kriptovaliuta"
 ---
 
-Organic Maps programa _visiems_ yra _nemokama_ dėka jūsų **[aukų][stripe]** **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]** valiutomis:
+Jūsų auka padeda finansuoti žemėlapių atnaujinimus, klaidų taisymą ir tobulinimą. Padėkite užtikrinti, kad Organic Maps ir toliau būtų nemokama visiems.
 
-- Be reklamų
-- Jokių sekimo įrenginių
-- Nereikia registruotis
-- Nėra pranešimų
-- Atvirojo kodo
+**Be reklamų. Be sekimo programų. Atvirojo kodo.**
 
-Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Ką padeda finansuoti jūsų auka
 
-## Kodėl verta paaukoti Organic Maps?
+- **Aktualūs žemėlapiai be interneto ryšio.** Padėkite teikti dažnus žemėlapių atnaujinimus visame pasaulyje.
+- **Geresnė programėlė.** Remkite klaidų taisymą, navigacijos tobulinimą ir naujas funkcijas.
+- **Nepriklausomas vystymas.** Padėkite išlaikyti Organic Maps nemokamą ir atvirą visiems.
 
-1. Mūsų tikslas – pasiūlyti į privatumą orientuotą, greitą ir patogią naudoti alternatyvą „Google Maps“ ir „Apple Maps“.
-2. Kitas mūsų tikslas – tobulinti viešus žemėlapių duomenis daugybei interneto svetainių, programėlių ir platformų, kurios naudoja OpenStreetMap, bei įtraukti daugiau žmonių į žemėlapių informacijos teikimą.
-3. Norėdami, kad Organic Maps ir toliau veiktų bei būtų nemokama visiems, mes remiamės jūsų aukomis. Be to, ji yra be reklamų.
-4. Mums patinka tai, ką darome, ir mes mylime savo vartotojus ❤️.
+Reguliarios aukos padeda mums planuoti ilgalaikius patobulinimus. Taip pat dėkojame už vienkartines aukas.
 
-## Kodėl nemokamam projektui reikia pinigų?
+<!-- donation-methods -->
 
-1. 2023 m. Organic Maps pasiekė pirmąjį milijoną vartotojų. Mūsų serveriai visame pasaulyje teikia nemokamus, greitus ir dažnus žemėlapių atnaujinimus.
-2. Vartotojų palaikymas, klaidų taisymas ir kokybiškų programėlės atnaujinimų išleidimas yra mūsų pagrindiniai prioritetai. „GitHub“ yra [apie 2000 pranešimų apie klaidas ir pageidavimų dėl naujų funkcijų][github issues], o šis skaičius kasdien auga. App Store, Google Play ir palaikymo el. pašto dėžutės yra užtvindytos komentarais ir pranešimais apie klaidas. Norime pateikti aukštos kokybės produktą.
-3. Turint pakankamai lėšų, galima kurti naujas funkcijas. Pateiksiu keletą pavyzdžių:
-   - Žymių ir trasų atsarginės kopijos kūrimas ir sinchronizavimas
-   - GPS maršruto įrašymo įrenginys su GPX eksporto funkcija
-   - Palydovinės nuotraukos
-   - Viešasis transportas
-   - Pranešimai apie eismo situaciją ir eismo įvykius
-   - Nuotraukos ir atsiliepimai
-   - Žemėlapių stiliai skirtingoms veikloms
-   - Reljefo šešėliavimas ir 3D reljefas
-   - Išplėstinis OpenStreetMap redaktorius
-   - Geresnė adresų paieška, maršrutų planavimas ir navigacija neprisijungus prie interneto
-  - … ir [daugybė kitų][github issues] funkcijų, kurių norite ir kurias mėgstate
+## Kiti būdai paaukoti {#other-ways}
 
-## Kaip paaukoti?
+Pasirinkite jums tinkamą mokėjimo maršrutą.
 
-Spustelėkite žemiau esančią pageidaujamo mokėjimo būdo piktogramą:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Reguliarios aukos – tai geriausias būdas užtikrinti palyginti stabilias projekto pajamas ir mus motyvuoti siekti ilgalaikių uždavinių bei tikslų. Taip pat dėkojame už vienkartines aukas.
-
-### Bankinis pavedimas
-
-{{ <bank_transfer /> }}
-
-### Kriptovaliuta
-
-Prašome apsvarstyti galimybę kasmet aukoti, kad būtų sumažinti bendri mokesčiai.
-
-{{ <crypto_table lang config /> }}
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
 ## Ar galėtumėte mums padėti kokiu nors kitu būdu?
 
-Taip! Yra daug būdų, kaip paremti Organic Maps. Daugiau informacijos rasite puslapyje [„Prisidėkite“](@/contribute/index.lt.md).
-
-{{ <references lang /> }}
+Taip! Yra daugybė būdų, kaip paremti Organic Maps. Daugiau informacijos rasite puslapyje [Prisidėkite](@/contribute/index.lt.md).

@@ -1,72 +1,41 @@
 ---
-title: Donera för att stödja utvecklingen av Organic Maps
-description: Dina pengar betalar för alla projektkostnader och motiverar oss att förbättra Organic Maps.
+template: donate.html
+title: "Se till att Organic Maps förblir gratis för alla"
+description: "Din donation finansierar kartuppdateringar, felkorrigeringar och oberoende utveckling. Stöd Organic Maps genom att ge en månatlig, årlig eller engångsdonation."
 weight: 10
 extra:
   menu_title: Donera
   preview_image: donate/donate.png
+  bank_transfer_title: "Banköverföring"
+  crypto_title: "Kryptovaluta"
 ---
 
-Organic Maps-appen är _gratis för alla_ tack vare dina **[donationer][stripe]** i **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
+Din donation finansierar kartuppdateringar, felkorrigeringar och vidareutveckling. Hjälp till att se till att Organic Maps förblir gratis för alla.
 
-- Inga annonser
-- Inga spårare
-- Ingen registrering
-- Inga push-notiser
-- Öppen källkod
+**Inga annonser. Inga spårningsverktyg. Öppen källkod.**
 
-Klicka på din föredragna betalningsmetod nedan:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Vad din donation bidrar till
 
-## Varför donera till Organic Maps?
+- **Aktuella offlinekartor.** Hjälp oss att leverera regelbundna kartuppdateringar över hela världen.
+- **En bättre app.** Stöd buggfixar, bättre navigering och nya funktioner.
+- **Oberoende utveckling.** Hjälp oss att hålla Organic Maps gratis och öppet för alla.
 
-1. Vårt mål är att erbjuda ett integritetsfokuserat, snabbt och lättanvänt alternativ till Google Maps och Apple Maps.
-2. Att förbättra offentliga kartdata för de många webbplatser, appar och plattformar som använder OpenStreetMap, och att engagera fler människor i att bidra med kartinformation är ett annat mål.
-3. Vi är beroende av dina donationer för att hålla Organic Maps öppet och gratis för alla.
-   Och fritt från annonser.
-4. Vi älskar det vi gör, och vi älskar våra användare ❤️.
+Regelbundna donationer hjälper oss att planera för långsiktiga förbättringar. Engångsdonationer är också välkomna.
 
-## Varför behöver ett gratis projekt pengar?
+<!-- donation-methods -->
 
-1. År 2023 fick Organic Maps sin första miljon användare.
-   Våra servrar tillhandahåller gratis, snabba och frekventa kartuppdateringar över hela världen.
-2. Användarstöd, buggfixar och publicering av kvalitativa appuppdateringar är högsta prioritet.
-   Det finns [~2000 buggrapporter och funktionsförfrågningar på GitHub][github issues], och detta antal ökar varje dag.
-   AppStore, Google Play och supportmail är överfulla med kommentarer och buggar. Vi vill leverera en högkvalitativ produkt.
-3. Med tillräckligt med pengar kan nya funktioner utvecklas. Några exempel:
-   - Säkerhetskopiera och synkronisera bokmärken och spår
-   - GPS-spårinspelare med GPX-export
-   - Satellitbilder
-   - Kollektivtrafik
-   - Trafik- och olycksrapportering
-   - Foton och recensioner
-   - Kartstilar för olika aktiviteter
-   - Höjdskuggning och 3D-terräng
-   - Mer avancerad OpenStreetMap-redigerare
-   - Bättre offline-adressökning, ruttplanering och navigation
-   - … och [många andra][github issues] funktioner du vill ha och älskar
+## Andra sätt att donera {#other-ways}
 
-## Hur donerar man?
+Välj ett betalningssätt som passar dig.
 
-Klicka på din föredragna betalningsmetod nedan:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Återkommande donationer är det bästa sättet att säkerställa en relativt stabil inkomst för projektet och motivera oss för långsiktiga uppgifter och mål. Engångsdonationer uppskattas också.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Banköverföring
-
-{{ <bank_transfer /> }}
-
-### Kryptovaluta
-
-Överväg att donera årligen för att minska totala avgifter.
-
-{{ <crypto_table lang config /> }}
-
-## Kan du hjälpa till på något annat sätt?
+## Kan du hjälpa oss på något annat sätt?
 
 Ja! Det finns många sätt att stödja Organic Maps. Se sidan [Bidra](@/contribute/index.sv.md) för mer information.
-
-{{ <references lang /> }}

@@ -10,11 +10,20 @@ https://:project.pages.dev/*
 # inline styles; executable and visual resources otherwise stay same-origin.
 # form-action: Chrome also applies it to the 303 after the POST, i.e. to Mollie's checkout
 # host — hence the mollie.com wildcard rather than today's www.mollie.com.
-# The paths stay narrow because /donate/* would cover /donate/ itself, whose donate_buttons
-# shortcode posts to www.paypal.com, and this form-action would block that button.
+# Main donation pages also offer PayPal through donate_methods. Keep their policy separate
+# so the focused checkout and management pages retain narrower form-action allowlists.
 # Cloudflare gives _headers no include mechanism and allows one wildcard per rule, and :lang
-# cannot match zero segments —
-# so the English and localized subscribe paths genuinely need two rules.
+# cannot match zero segments, so English and localized paths need separate rules.
+https://organicmaps.app/donate/
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app https://*.mollie.com https://www.paypal.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
+https://organicmaps.app/:lang/donate/
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app https://*.mollie.com https://www.paypal.com; base-uri 'none'; frame-ancestors 'none'
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+
 https://organicmaps.app/donate/subscribe/*
   Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src https://donate-api.organicmaps.app; form-action 'self' https://donate-api.organicmaps.app https://*.mollie.com; base-uri 'none'; frame-ancestors 'none'
   Referrer-Policy: same-origin

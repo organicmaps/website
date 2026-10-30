@@ -1,68 +1,41 @@
 ---
-description: "O teu dinheiro paga todas as despesas relacionadas com o projeto e motiva-nos a melhorar o Organic Maps."
+template: donate.html
+description: "A tua doação ajuda a financiar atualizações de mapas, correções e desenvolvimento independente. Apoia Organic Maps com uma doação mensal, anual ou pontual."
 extra:
   menu_title: Doar
   preview_image: donate/donate.png
-title: "Faz uma doação para apoiar o desenvolvimento do Organic Maps"
+  bank_transfer_title: "Transferência bancária"
+  crypto_title: "Criptomoeda"
+title: "Mantém o Organic Maps gratuito para toda a gente"
 weight: 10
 ---
 
-O app Organic Maps é _gratuito para todos_ graças às tuas **[doações][stripe]** em **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
+A tua doação ajuda a financiar as atualizações, correções e desenvolvimento dos mapas. Ajuda a manter Organic Maps gratuito para toda a gente.
 
-- Sem anúncios
-- Sem rastreadores
-- Sem registo
-- Sem notificações
-- Código-fonte aberto
+**Sem anúncios. Sem rastreadores. Código aberto.**
 
-Clica no ícone do teu método de pagamento preferido abaixo:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## O que o teu donativo apoia
 
-## Porquê doar ao Organic Maps?
+- **Mapas offline atualizados.** Ajuda a disponibilizar atualizações frequentes dos mapas em todo o mundo.
+- **Uma aplicação melhor.** Apoia as correções de erros, as melhorias de navegação e as novas funcionalidades.
+- **Desenvolvimento independente.** Ajuda a manter o Organic Maps gratuito e aberto a todos.
 
-1. O nosso objetivo é fornecer uma alternativa ao Google Maps e ao Apple Maps centrada na privacidade, rápida e fácil de utilizar.
-2. Melhorar os dados de mapas públicos para os inúmeros sítios web, aplicações e plataformas que utilizam o OpenStreetMap e envolver mais pessoas na contribuição de informações de mapas é outro dos nossos objetivos.
-3. Contamos com os teus donativos para levar a cabo a nossa missão de manter o Organic Maps aberto e livre. E livre de anúncios.
-4. Adoramos o que fazemos e adoramos os nossos utilizadores ❤️.
+As doações regulares ajudam-nos a planear melhorias a longo prazo. As doações pontuais também são muito bem-vindas.
 
-## Porque é que um projeto gratuito precisa de dinheiro?
+<!-- donation-methods -->
 
-1. Em 2023, o Organic Maps obteve o seu primeiro milhão de utilizadores. Os nossos servidores fornecem atualizações de mapas gratuitas, rápidas e frequentes em todo o mundo.
-2. O apoio ao utilizador, a correção de erros e a melhoria da estabilidade da aplicação estão no topo das nossas prioridades. Existem [mais de 1800 problemas no GitHub][github issues], e este número está a aumentar todos os dias. A AppStore, o Google Play e os e-mails de apoio estão inundados de comentários e erros. Queremos fornecer um produto de alta qualidade.
-3. Com dinheiro suficiente, as novas funcionalidades podem ser desenvolvidas mais rapidamente, por exemplo:
-   - Cópia de segurança e sincronização de marcadores e trilhos
-   - Gravador de trajetos GPS com suporte de GPX
-   - Imagens de satélite
-   - Transporte público
-   - Informação sobre tráfego e acidentes
-   - Fotografias e avaliações
-   - Melhores estilos de mapas para diferentes atividades
-   - Sombreamento de colinas e terreno 3D
-   - Melhorar o editor do OpenStreetMap
-   - Melhor pesquisa de endereços offline, roteamento e navegação
-   - … e [muitas outras][github issues] funcionalidades que desejas e adoras
+## Outras formas de fazer doações {#other-ways}
 
-## Como fazer um donativo?
+Escolhe a forma de pagamento que te for mais conveniente.
 
-Clica no ícone do teu método de pagamento preferido abaixo:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Os donativos recorrentes são a melhor forma de garantir um rendimento relativamente estável para o projeto e de nos motivar para tarefas e objetivos a longo prazo. Mas também podes fazer um donativo único.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Transferência bancária
+## Podes ajudar-nos de alguma outra forma?
 
-{{ <bank_transfer /> }}
-
-### Criptomoeda
-
-Considera a possibilidade de efetuar um donativo anual para reduzir as taxas totais.
-
-{{ <crypto_table lang config /> }}
-
-## Podes ajudar-nos de outra forma?
-
-Sim! Há muitas maneiras de apoiar o Organic Maps. Por favor, consulta a página [Contribuir](@/contribute/index.pt.md) para mais detalhes.
-
-{{ <references lang /> }}
+Sim! Há muitas formas de apoiar o Organic Maps. Consulta a página [Contribuir](@/contribute/index.pt.md) para saberes mais.

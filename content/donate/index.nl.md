@@ -1,68 +1,42 @@
 ---
-description: "Je geld betaalt voor alle project-gerelateerde uitgaven en motiveert ons om Organic Maps te verbeteren."
+template: donate.html
+description: "Met jouw donatie worden kaartupdates, bugfixes en onafhankelijke ontwikkeling gefinancierd. Steun Organic Maps met een maandelijkse, jaarlijkse of eenmalige donatie."
 extra:
+  translation_keeps_source: ["extra.crypto_title"]
   menu_title: Doneer
   preview_image: donate/donate.png
-title: "Doneer om de ontwikkeling van Organic Maps te ondersteunen"
+  bank_transfer_title: "Bankoverschrijving"
+  crypto_title: "Crypto"
+title: "Zorg dat Organic Maps voor iedereen gratis blijft"
 weight: 10
 ---
 
-Organic Maps app is _gratis voor iedereen_ dankzij jullie **[donaties][stripe]** in **[EUR][stripe_eur], [USD][stripe_usd], [GBP][stripe_GBP], [CHF][stripe_chf], [PLN][stripe_pln], [RUB][stripe_rub]**:
+Met jouw donatie worden kaartupdates, verbeteringen en verdere ontwikkeling gefinancierd. Help mee om Organic Maps voor iedereen gratis te houden.
 
-- Geen advertenties
-- Geen trackers
-- Geen registratie
-- Geen pushmeldingen
-- Open source
+**Geen advertenties. Geen trackers. Open source.**
 
-Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Wat je donatie mogelijk maakt
 
-## Waarom doneren aan Organic Maps?
+- **Actuele offline kaarten.** Help regelmatige kaartupdates wereldwijd beschikbaar te maken.
+- **Een betere app.** Steun het oplossen van bugs, betere navigatie en nieuwe functies.
+- **Onafhankelijke ontwikkeling.** Help Organic Maps gratis en open te houden voor iedereen.
 
-1. Ons doel is om een privacy-gefocust, snel en makkelijk te gebruiken alternatief voor Google Maps en Apple Maps te bieden.
-2. Publieke kaartendata verbeteren voor de verschillende websites, apps en platforms die OpenStreetMap gebruiken, en meer mensen betrokken krijgen bij het bijdragen aan kaartendata is ons andere doel.
-3. We zijn op jullie donaties aangewezen om onze missie te volbrengen om Organic Maps open en gratis te houden. En vrij van advertenties.
-4. We houden van wat we doen, en we houden van onze gebruikers ❤️.
+Regelmatige donaties helpen ons bij het plannen van verbeteringen op de lange termijn. Ook eenmalige donaties zijn van harte welkom.
 
-## Waarom heeft een gratis project geld nodig?
+<!-- donation-methods -->
 
-1. In 2023 kreeg Organic Maps zijn eerste miljoen gebruikers. Onze servers zorgen voor gratis, snelle en frequente kaartenupdates over de hele wereld.
-2. Gebruikersondersteuning, bugs fixen, en de stabiliteit van de app verbeteren zijn onze topprioriteiten. Er zijn [1800+ issues op GitHub][github issues], en dit aantal neemt elke dag toe. De AppStore, Google Play, en support email-adressen worden overspoeld met reacties en fouten. We willen een product van een hoge kwaliteit leveren.
-3. Met genoeg geld kunnen nieuwe functies sneller worden ontwikkeld, zoals:
-   - Backup en synchroniseer bladwijzers en routes
-   - GPS-pad-opnames met GPX ondersteuning
-   - Satellietbeelden
-   - Openbaar vervoer
-   - Verkeers- en ongelukkencontrole
-   - Foto's en beoordelingen
-   - Betere kaartenstijlen voor verschillende activiteiten
-   - Reliëfschaduwen en 3D-terreinen
-   - Verbetering van de OpenStreetMap-bewerker
-   - Betere offline adressen-zoekfunctie, routes, en navigatie
-   - … en [vele andere][github issues] functies die jullie willen en waar jullie van houden
+## Andere manieren om te doneren {#other-ways}
 
-## Hoe kan je doneren?
+Kies een betaalroute die bij je past.
 
-Klik hieronder op het icoon van je voorkeurs-betalingsmethode:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Terugkerende donaties zijn de beste manier om een relatief stabiel inkomen voor het project te verzorgen en motiveren ons voor lange termijn taken en doelen. Maar je kan ook eenmalig doneren.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Bankoverschrijving
+## Kun je ons nog op een andere manier helpen?
 
-{{ <bank_transfer /> }}
-
-### Crypto
-
-Overweeg alsjeblieft om jaarlijs te doneren om de totale kosten te reduceren.
-
-{{ <crypto_table lang config /> }}
-
-## Kun je ons op een andere manier helpen?
-
-Ja! Er zijn vele manieren om Organic Maps te ondersteunen. Kijk alsjeblieft op de pagina [Steun ons](@/contribute/index.nl.md) voor meer details.
-
-{{ <references lang /> }}
+Ja! Er zijn allerlei manieren om Organic Maps te steunen. Kijk op de pagina [Bijdragen](@/contribute/index.nl.md) voor meer info.

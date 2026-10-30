@@ -1,72 +1,42 @@
 ---
-title: Rhodda i gefnogi datblygiad Organic Maps
-description: Mae dy arian yn talu am bob cost sy'n gysylltiedig â'r prosiect ac yn ein cymell i wella Organic Maps.
+template: donate.html
+title: "Cadwa Organic Maps yn rhad ac am ddim i bawb"
+description: "Mae dy rodd yn talu am ddiweddariadau mapiau, trwsio bygiau a datblygiad annibynnol. Cefnoga Organic Maps gyda rhodd fisol, flynyddol neu untro."
 weight: 10
 extra:
+  translation_keeps_source: ["extra.crypto_title"]
   menu_title: Rhodda
   preview_image: donate/donate.png
+  bank_transfer_title: "Trosglwyddiad Banc"
+  crypto_title: "Crypto"
 ---
 
-Mae ap Organic Maps yn _rhwydd i bawb_ diolch i dy **[rhoddion][stripe]** yn **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
+Mae dy rodd yn talu am ddiweddariadau mapiau, trwsio bygiau a datblygu. Helpa i gadw Organic Maps yn rhad ac am ddim i bawb.
 
-- Dim hysbysebion
-- Dim traciwr
-- Dim cofrestru
-- Dim hysbysiadau gwthio
-- Cod agored
+**Dim hysbysebion. Dim olrhainwyr. Ffynhonnell agored.**
 
-Clicia ar dy ddull talu dewisol isod:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Beth mae dy rodd yn ei gefnogi
 
-## Pam rhoi i Organic Maps?
+- **Mapiau all-lein cyfredol.** Helpa i ddarparu diweddariadau mapiau rheolaidd ledled y byd.
+- **Ap gwell.** Cefnoga drwsio bygiau, gwella llywio a datblygu nodweddion newydd.
+- **Datblygiad annibynnol.** Helpa i gadw Organic Maps yn rhad ac am ddim ac yn agored i bawb.
 
-1. Ein nod yw darparu dewis amgen sy'n canolbwyntio ar breifatrwydd, yn gyflym ac yn hawdd i'w ddefnyddio i Google Maps ac Apple Maps.
-2. Gwella data map cyhoeddus ar gyfer y nifer o wefannau, apiau a llwyfannau sy'n defnyddio OpenStreetMap, ac annog mwy o bobl i gyfrannu gwybodaeth map yw ein nod arall.
-3. Rydym yn dibynnu ar dy roddion i gadw Organic Maps yn agored ac yn rhydd i bawb.
-   Ac yn rhydd o hysbysebion.
-4. Rydym yn caru'r hyn rydym yn ei wneud, ac yn caru ein defnyddwyr ❤️.
+Mae rhoddion rheolaidd yn ein helpu i gynllunio gwelliannau hirdymor. Rydym hefyd yn gwerthfawrogi rhoddion untro.
 
-## Pam mae angen arian ar brosiect rhad ac am ddim?
+<!-- donation-methods -->
 
-1. Yn 2023, cafodd Organic Maps ei filiwn cyntaf o ddefnyddwyr.
-   Mae ein gweinyddwyr yn darparu diweddariadau map rhad ac am ddim, cyflym ac aml ledled y byd.
-2. Cefnogaeth defnyddwyr, trwsio bygiau a chyhoeddi diweddariadau ap o ansawdd yw ein blaenoriaeth uchaf.
-   Mae [~2000 adroddiad byg a chais nodwedd ar GitHub][github issues], ac mae'r nifer hwn yn cynyddu bob dydd.
-   Mae AppStore, Google Play, ac e-byst cymorth yn llawn sylwadau a bygiau. Rydym am ddarparu cynnyrch o ansawdd uchel.
-3. Gyda digon o arian, gellir datblygu nodweddion newydd. Er enghraifft:
-   - Gwarchod a chysoni nodau tudalen a llwybrau
-   - Recordydd trac GPS gyda allforio GPX
-   - Delweddau lloeren
-   - Trafnidiaeth gyhoeddus
-   - Adrodd am draffig a damweiniau
-   - Lluniau ac adolygiadau
-   - Arddulliau map ar gyfer gwahanol weithgareddau
-   - Cysgodi bryniau a thirwedd 3D
-   - Golygydd OpenStreetMap mwy datblygedig
-   - Gwell chwilio cyfeiriad all-lein, llwybro a llywio
-   - … a [llawer o nodweddion eraill][github issues] rwyt ti eisiau ac yn eu caru
+## Ffyrdd eraill i gyfrannu {#other-ways}
 
-## Sut i roi?
+Dewisa ddull talu sy’n gweithio i ti.
 
-Clicia ar dy ddull talu dewisol isod:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Rhoddion ailadroddus yw'r ffordd orau o sicrhau incwm cymharol sefydlog i'r prosiect ac i'n cymell ar gyfer tasgau a nodau tymor hir. Mae rhoddion untro hefyd yn cael eu gwerthfawrogi.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Trosglwyddiad Banc
+## Alli di ein helpu mewn ffordd arall?
 
-{{ <bank_transfer /> }}
-
-### Crypto
-
-Ystyria roi'n flynyddol i leihau cyfanswm y ffioedd.
-
-{{ <crypto_table lang config /> }}
-
-## Elli di helpu mewn unrhyw ffordd arall?
-
-Gelli! Mae sawl ffordd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.
-
-{{ <references lang /> }}
+Oes! Mae llawer o ffyrdd i gefnogi Organic Maps. Gweler y dudalen [Cyfrannu](@/contribute/index.cy.md) am fwy o fanylion.

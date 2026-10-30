@@ -1,72 +1,41 @@
 ---
-title: Dona per sosténer lo desvolopament d’Organic Maps
-description: Tos donatius pagon totas las despensas del projècte e nos motivan a melhorar Organic Maps.
+template: donate.html
+title: "Garda Organic Maps gratuit per totes"
+description: "Ton don finança las actualizacions de las mapas, las correccions e lo desvolopament independent. Sosten Organic Maps amb un don mensual, anual o unic."
 weight: 10
 extra:
   menu_title: Donar
   preview_image: donate/donate.png
+  bank_transfer_title: "Transferéncia bancària"
+  crypto_title: "Cripto"
 ---
 
-L’aplicacion Organic Maps es _gratuita per totes_ gràcias a tos **[donatius][stripe]** en **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
+Ton don finança las actualizacions de las mapas, las correccions e lo desvolopament. Ajuda a gardar Organic Maps gratuit per totes.
 
-- Pas de publicitat
-- Pas de traçadors
-- Pas d’inscripcion
-- Pas de notificacions push
-- Còdi font liure
+**Pas de publicitat. Pas de pistaires. Còdi font dubèrt.**
 
-Clica sus l’icòna de ta metòde de pagament preferida çai jos:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Çò que ton don finança
 
-## Perqué donar a Organic Maps?
+- **Mapas fòra linha actualizadas.** Ajuda a provesir d’actualizacions frequentas de las mapas dins lo mond entièr.
+- **Una aplicacion melhora.** Sosten las correccions d’errors, las melhoras de navigacion e las foncionalitats novèlas.
+- **Desvolopament independent.** Ajuda a gardar Organic Maps gratuit e dobèrt a totes.
 
-1. Nòstre objectiu es de provesir una alternativa centrada sus la confidencialitat, rapida e aisida d’utilizar a Google Maps e Apple Maps.
-2. Melhorar las donadas publicas de mapas per los nombroses sites web, aplicacions e plataformas que utilizan OpenStreetMap, e implicar mai de monde dins la contribucion d’informacions de mapas es un autre objectiu.
-3. Dependèm de tos donatius per manténer Organic Maps dobèrt e gratuit per totes.
-   E sens publicitat.
-4. Aimam çò que fasèm, e aimam nòstres utilizaires ❤️.
+Los dons regulars nos ajudan a planificar d'amelhoraments a long tèrme. Los dons unics son tanben apreciats.
 
-## Perqué un projècte gratuit a besonh de moneda?
+<!-- donation-methods -->
 
-1. En 2023, Organic Maps a agut son primièr milion d’utilizaires.
-   Nòstres servidors provesisson de mesas a jorn de mapas gratuitas, rapid e frequentas dins lo monde entièr.
-2. Lo sosten als utilizaires, la correccion de bugs e la publicacion de mesas a jorn de qualitat son nòstras prioritats.
-   I a [~2000 rapòrts de bugs e demandas de foncionalitats sus GitHub][github issues], e aqueste nombre creis cada jorn.
-   AppStore, Google Play, e los emails de sosten son desbordats de comentaris e de bugs. Volèm provesir un produch de nauta qualitat.
-3. Amb pro de moneda, de foncionalitats novèlas pòdon èsser desvolopadas. Per exemple:
-   - Sauvegarda e sincronizacion de marcapaginas e trajèctes
-   - Enregistrador de trajèctes GPS amb export GPX
-   - Imatges satellits
-   - Transpòrt public
-   - Rapòrt de trafec e d’accidents
-   - Fòtos e avis
-   - Estils de mapa per activitats diferentas
-   - Ombra de relèu e terren 3D
-   - Editor OpenStreetMap mai avançat
-   - Melhor recèrca d’adreça hors linha, itinerari e navigacion
-   - … e [mai d’autras][github issues] foncionalitats que vòles e aimas
+## Autras manièras de donar {#other-ways}
 
-## Cossí donar?
+Causís lo mejan de pagament que te conven.
 
-Clica sus l’icòna de ta metòde de pagament preferida çai jos:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Los donatius recurrents son lo melhor biais d’assegurar un revengut relativament estable pel projècte e nos motivar per de tascas e objectius a long tèrme. Los donatius ponctuals son tanben apreciats.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Transferéncia bancària
+## Nos pòdes ajudar d’un autre biais?
 
-{{ <bank_transfer /> }}
-
-### Cripto
-
-Mercé de considerar de donar annalament per redusir las taxas totalas.
-
-{{ <crypto_table lang config /> }}
-
-## Pòdes ajudar d’un autre biais?
-
-Òc! I a mantun biais de sosténer Organic Maps. Consulta la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.
-
-{{ <references lang /> }}
+Òc! I a fòrça biais de sosténer Organic Maps. Consulta la pagina [Contribuir](@/contribute/index.oc.md) per mai de detalhs.

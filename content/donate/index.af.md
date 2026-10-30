@@ -1,72 +1,41 @@
 ---
-title: Skenk om die ontwikkeling van Organic Maps te ondersteun
-description: Jou geld betaal vir alle projekverwante uitgawes en motiveer ons om Organic Maps te verbeter.
+template: donate.html
+title: "Hou Organic Maps gratis vir almal"
+description: "Jou donasie betaal vir kaartopdaterings, regstellings en onafhanklike ontwikkeling. Ondersteun Organic Maps met 'n maandelikse, jaarlikse of eenmalige donasie."
 weight: 10
 extra:
   menu_title: Skenk
   preview_image: donate/donate.png
+  bank_transfer_title: "Bankoorplasing"
+  crypto_title: "Kripto"
 ---
 
-Organic Maps is _gratis vir almal_ danksy jou **[skenkings][stripe]** in **[EUR][stripe_eur]**, **[USD][stripe_usd]**, **[GBP][stripe_GBP]**, **[CHF][stripe_chf]**, **[PLN][stripe_pln]**, **[RUB][stripe_rub]**:
+Jou donasie betaal vir kaartopdaterings, regstellings en ontwikkeling. Help om Organic Maps vir almal gratis te hou.
 
-- Geen advertensies
-- Geen opspoorders
-- Geen registrasie
-- Geen stootkennisgewings
-- Oopbron
+**Geen advertensies. Geen opsporing. Oopbron.**
 
-Klik op jou voorkeur betaalmetode-ikoon hieronder:
+<!-- donation-impact -->
 
-{{ <donate_buttons lang /> }}
+## Wat jou skenking ondersteun
 
-## Hoekom skenk aan Organic Maps?
+- **Vars vanlynkaarte.** Help om gereelde kaartopdaterings wêreldwyd te lewer.
+- **’n Beter app.** Ondersteun foutregstellings, navigasieverbeterings en nuwe funksies.
+- **Onafhanklike ontwikkeling.** Hou Organic Maps gratis en oop vir almal.
 
-1. Ons doel is om 'n privaatheid-gefokusde, vinnige en maklike alternatief vir Google Maps en Apple Maps te bied.
-2. Om openbare kaartdata vir die talle webwerwe, apps en platforms wat OpenStreetMap gebruik te verbeter, en meer mense te betrek om kaartinligting by te dra, is ons ander doel.
-3. Ons is afhanklik van jou skenkings om Organic Maps oop en gratis vir almal te hou.
-   En vry van advertensies.
-4. Ons is lief vir wat ons doen, en ons is lief vir ons gebruikers ❤️.
+Regelmatige skenkings help ons om langtermynverbeterings te beplan. Eenmalige skenkings word ook waardeer.
 
-## Hoekom het 'n gratis projek geld nodig?
+<!-- donation-methods -->
 
-1. In 2023 het Organic Maps sy eerste miljoen gebruikers gekry.
-   Ons bedieners verskaf gratis, vinnige en gereelde kaartopdaterings wêreldwyd.
-2. Gebruikerondersteuning, foutoplossing en die publisering van kwaliteit app-opdaterings is ons hoogste prioriteite.
-   Daar is [~2000 foutverslae en kenmerkversoeke op GitHub][github issues], en hierdie getal groei daagliks.
-   AppStore, Google Play, en ondersteunings-e-posse is oorstroom met kommentaar en foute. Ons wil 'n hoë kwaliteit produk lewer.
-3. Met genoeg geld kan nuwe kenmerke ontwikkel word. 'n Paar voorbeelde:
-   - Rugsteun en sinkroniseer boekmerke en roetes
-   - GPS-roete-opnemer met GPX-uitvoer
-   - Satellietbeelde
-   - Openbare vervoer
-   - Verkeers- en ongelukverslaggewing
-   - Foto's en resensies
-   - Kaartstyle vir verskillende aktiwiteite
-   - Heuwelskadu en 3D-terrein
-   - Meer gevorderde OpenStreetMap-redigeerder
-   - Beter vanlyn adressoektog, roetering en navigasie
-   - … en [baie ander][github issues] kenmerke wat jy wil hê en van hou
+## Ander maniere om te skenk {#other-ways}
 
-## Hoe om te skenk?
+Kies 'n betaalroete wat vir jou werk.
 
-Klik op jou voorkeur betaalmetode-ikoon hieronder:
+{{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <donate_buttons lang /> }}
+{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
 
-Herhalende skenkings is die beste manier om 'n relatief stabiele inkomste vir die projek te verseker en ons te motiveer vir langtermyn take en doelwitte. Eenmalige skenkings word ook waardeer.
+{{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 
-### Bankoorplasing
+## Kan jy ons op enige ander manier help?
 
-{{ <bank_transfer /> }}
-
-### Kripto
-
-Oorweeg asseblief om jaarliks te skenk om totale fooie te verminder.
-
-{{ <crypto_table lang config /> }}
-
-## Kan jy op enige ander manier help?
-
-Ja! Daar is baie maniere om Organic Maps te ondersteun. Sien asseblief die [Dra by](@/contribute/index.af.md) bladsy vir meer besonderhede.
-
-{{ <references lang /> }}
+Ja! Daar is baie maniere om Organic Maps te ondersteun. Sien die [Bydraepagina](@/contribute/index.af.md) vir meer besonderhede.

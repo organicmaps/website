@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% set subscribe = get_page(path="donate/subscribe/index.md") %}
+{% set translated = [t for t in subscribe.translations if t.lang == lang] | first %}
+{% if translated %}{% set subscribe = get_page(path=translated.path) %}{% endif %}
+{% set f = subscribe.extra.form %}
+{% set donate = resource %}
+{% set return_to = "donate" %}
+{# Stable comments divide translated prose without depending on translated heading text. #}
+{% set parts = resource.content | split(pat="<!-- donation-methods -->") %}
+{% set story = parts | first | split(pat="<!-- donation-impact -->") %}
+{% if parts | length != 2 or story | length != 2 or resource.content | split(pat="<!-- donation-impact -->") | length != 2 %}
+  {{ throw(message="Donation content must contain donation-impact and donation-methods exactly once, in that order.") }}
+{% endif %}
+<div class="donate-page">
+  <section class="donate-layout" aria-labelledby="donate-title">
+    <div class="donate-intro">
+      <h1 id="donate-title">{{ resource.title }}</h1>
+      {{ story | first | safe }}
+    </div>
+    <section id="donation" class="donate-card" aria-labelledby="donate-card-title">
+      <h2 id="donate-card-title">{{ f.form_title }}</h2>
+      {% include '_donate_form.html' %}
+    </section>
+    <div class="donate-impact">{{ story | nth(n=1) | safe }}</div>
+  </section>
+  <div class="donate-alternatives">{{ parts | nth(n=1) | safe }}</div>
+</div>
+<script src="{{ get_url(path="js/donate-subscribe.js", cachebust=true) | replace(from=config.base_url, to="") | safe }}" defer></script>
+{% endblock content %}

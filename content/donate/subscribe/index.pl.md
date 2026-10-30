@@ -13,9 +13,9 @@ extra:
     amount_label: Kwota
     other_label: Inna kwota
     currency_label: Waluta
-    email_label: E-mail (zalecany)
-    email_why: Wyślemy potwierdzenie, przypomnienie przed każdym obciążeniem i link do anulowania jednym kliknięciem. Nic więcej — żadnego marketingu.
-    email_warning: Bez adresu e-mail nie możemy wysyłać przypomnień o płatnościach ani linku do anulowania — aby zrezygnować, trzeba by się z nami skontaktować.
+    email_label: "E-mail (opcjonalnie)"
+    email_why: "Otrzymasz potwierdzenie, przypomnienia i link do anulowania. Żadnych wiadomości marketingowych."
+    email_warning: "Bez adresu e-mail skontaktuj się z nami, aby anulować regularną darowiznę."
     name_label: Imię (opcjonalnie)
     name_why: Abyśmy mogli zwrócić się do Ciebie w wiadomości z podziękowaniem.
     submit: Przejdź do bezpiecznej płatności
@@ -23,10 +23,17 @@ extra:
     submit_month: Przekazuj {amount} miesięcznie
     submit_year: Przekazuj {amount} rocznie
     submit_loading: Przekierowywanie do bezpiecznej płatności…
-    secure_note: Płatność dokończysz w Mollie, naszym operatorze płatności. Dane karty nigdy nie trafiają na nasze serwery.
+    secure_note: "Bezpieczna płatność przez Mollie. Dane karty nigdy nie trafiają na nasze serwery."
     error_amount: Podaj prawidłową kwotę.
     error_amount_range: Podaj kwotę od {min} do {max}.
-    other_ways: Inne sposoby wsparcia (PayPal, przelew, kryptowaluty…)
+    other_ways: "Inne sposoby przekazania darowizny"
+    form_title: "Przekaż darowiznę"
+    other_preset_label: "Inne"
+    email_why_once: "Potwierdzenie wpłaty. Żadnych wiadomości marketingowych."
+    recurrence_once: "{amount} · Jednorazowo"
+    recurrence_month: "{amount} teraz, potem co miesiąc, aż anulujesz darowiznę."
+    recurrence_year: "{amount} teraz, potem co rok, aż anulujesz darowiznę."
+    canceled_notice: "Twoja płatność została anulowana. Możesz spróbować jeszcze raz albo wybrać inną formę wpłaty."
 ---
 
 Aplikacja Organic Maps jest darmowa dla wszystkich dzięki twoim darowiznom. Bez reklam. Bez śledzenia. Open source.

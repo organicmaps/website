@@ -13,9 +13,9 @@ extra:
     amount_label: Valor
     other_label: Outro valor
     currency_label: Moeda
-    email_label: E-mail (recomendado)
-    email_why: Enviaremos uma confirmação, um lembrete antes de cada cobrança e um link para cancelar com um clique. Nada mais — sem marketing.
-    email_warning: Sem e-mail não podemos enviar lembretes de pagamento nem um link de cancelamento — para cancelar terias de nos contactar.
+    email_label: "E-mail (opcional)"
+    email_why: "Recebe uma confirmação, lembretes e um link para cancelar. Sem publicidade."
+    email_warning: "Sem endereço de e-mail, contacta-nos para cancelar o teu donativo recorrente."
     name_label: Nome (opcional)
     name_why: Para nos dirigirmos a ti no e-mail de agradecimento.
     submit: Continuar para o pagamento seguro
@@ -23,10 +23,17 @@ extra:
     submit_month: Doar {amount} por mês
     submit_year: Doar {amount} por ano
     submit_loading: A redirecionar para o pagamento seguro…
-    secure_note: Concluirás o pagamento na Mollie, o nosso fornecedor de pagamentos. Os dados do cartão nunca tocam os nossos servidores.
+    secure_note: "Pagamento seguro através do Mollie. Os dados do cartão nunca passam pelos nossos servidores."
     error_amount: Introduz um valor válido.
     error_amount_range: Introduz um valor entre {min} e {max}.
-    other_ways: Outras formas de doar (PayPal, transferência, cripto…)
+    other_ways: "Outras formas de fazer uma doação"
+    form_title: "Faz uma doação"
+    other_preset_label: "Outro"
+    email_why_once: "Para receberes uma confirmação da doação. Sem publicidade."
+    recurrence_once: "{amount} · Única"
+    recurrence_month: "{amount} agora, depois todos os meses até cancelares o donativo."
+    recurrence_year: "{amount} agora, depois todos os anos até cancelares o donativo."
+    canceled_notice: "O teu pagamento foi cancelado. Podes tentar novamente ou escolher outra forma de fazer uma doação."
 ---
 
 A app Organic Maps é gratuita para todos graças às tuas doações. Sem anúncios. Sem rastreadores. Código aberto.

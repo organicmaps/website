@@ -13,9 +13,9 @@ extra:
     amount_label: Bedrag
     other_label: Ander bedrag
     currency_label: Valuta
-    email_label: E-mail (aanbevolen)
-    email_why: We sturen je een bevestiging, herinneren je vóór elke afschrijving en geven je een opzeglink met één klik. Verder niets — geen marketing.
-    email_warning: Zonder e-mail kunnen we geen betalingsherinneringen of opzeglink sturen — om op te zeggen zou je contact met ons moeten opnemen.
+    email_label: "E-mail (optioneel)"
+    email_why: "Je krijgt een bevestiging, herinneringen en een link om af te melden. Geen marketing."
+    email_warning: "Zonder e-mailadres moet je contact met ons opnemen om je periodieke donatie stop te zetten."
     name_label: Naam (optioneel)
     name_why: Zodat we je persoonlijk kunnen bedanken in de e-mail.
     submit: Doorgaan naar veilige betaling
@@ -23,10 +23,17 @@ extra:
     submit_month: Doneer {amount} per maand
     submit_year: Doneer {amount} per jaar
     submit_loading: Doorsturen naar veilige betaling…
-    secure_note: Je rondt de betaling af bij Mollie, onze betaalprovider. Kaartgegevens bereiken onze servers nooit.
+    secure_note: "Veilig betalen via Mollie. Je kaartgegevens komen nooit op onze servers terecht."
     error_amount: Voer een geldig bedrag in.
     error_amount_range: Voer een bedrag in tussen {min} en {max}.
-    other_ways: Andere manieren om te doneren (PayPal, overschrijving, crypto…)
+    other_ways: "Andere manieren om te doneren"
+    form_title: "Doneer"
+    other_preset_label: "Overig"
+    email_why_once: "Voor een donatiebevestiging. Geen reclame."
+    recurrence_once: "{amount} · Eenmalig"
+    recurrence_month: "{amount} nu, daarna elke maand totdat je de donatie stopzet."
+    recurrence_year: "{amount} nu, daarna elk jaar totdat je de donatie stopzet."
+    canceled_notice: "Je betaling is geannuleerd. Je kunt het nog eens proberen of een andere manier kiezen om te doneren."
 ---
 
 De Organic Maps app is gratis voor iedereen dankzij je donaties. Geen advertenties. Geen trackers. Open-source.

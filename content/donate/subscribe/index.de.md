@@ -15,9 +15,9 @@ extra:
     amount_label: Betrag
     other_label: Anderer Betrag
     currency_label: Währung
-    email_label: E-Mail (empfohlen)
-    email_why: Wir senden dir eine Bestätigung, erinnern dich vor jeder Abbuchung und geben dir einen Abbrechen-Link mit einem Klick. Sonst nichts — kein Marketing.
-    email_warning: Ohne E-Mail können wir keine Zahlungserinnerungen und keinen Kündigungslink senden — zum Beenden müsstest du uns kontaktieren.
+    email_label: "E-Mail (optional)"
+    email_why: "Bestätigung, Erinnerungen und Kündigungslink. Keine Werbung."
+    email_warning: "Ohne E-Mail-Adresse musst du uns zum Kündigen deiner regelmäßigen Spende kontaktieren."
     name_label: Name (optional)
     name_why: Damit wir dich in der Dankes-E-Mail ansprechen können.
     submit: Weiter zur sicheren Zahlung
@@ -25,10 +25,17 @@ extra:
     submit_month: '{amount} monatlich spenden'
     submit_year: '{amount} jährlich spenden'
     submit_loading: Weiterleitung zur sicheren Zahlung…
-    secure_note: Du schließt die Zahlung bei Mollie ab, unserem Zahlungsanbieter. Kartendaten erreichen unsere Server nie.
+    secure_note: "Sichere Zahlung über Mollie. Deine Kartendaten werden niemals auf unseren Servern gespeichert."
     error_amount: Bitte gib einen gültigen Betrag ein.
     error_amount_range: Bitte gib einen Betrag zwischen {min} und {max} ein.
-    other_ways: Weitere Spendenmöglichkeiten (PayPal, Überweisung, Krypto…)
+    other_ways: "Weitere Spendenmöglichkeiten"
+    form_title: "Jetzt spenden"
+    other_preset_label: "Andere"
+    email_why_once: "Für eine Spendenbestätigung. Keine Werbung."
+    recurrence_once: "{amount} · Einmalig"
+    recurrence_month: "{amount} jetzt, danach monatlich, bis du kündigst."
+    recurrence_year: "{amount} jetzt, danach jährlich, bis du kündigst."
+    canceled_notice: "Deine Zahlung wurde storniert. Du kannst es erneut versuchen oder eine andere Spendenmöglichkeit wählen."
 ---
 
 Organic Maps ist dank deiner Spenden für alle kostenlos. Keine Werbung. Keine Tracker. Open Source.

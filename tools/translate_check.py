@@ -508,15 +508,49 @@ def _declared_source_keeps(
 
 
 def check_translation(src: str, out: str, lang: str) -> list[Problem]:
-    """Compare a translated markdown body against its English source."""
-    src_body, _ = strip_frontmatter(src)
+    """Compare translated Markdown and reader-visible metadata against English."""
+    src_body, src_meta = strip_frontmatter(src)
     out_body, out_meta = strip_frontmatter(out)
     problems: list[Problem] = []
 
-    # A section _index body is a note to whoever maintains the templates —
-    # "This page is replaced with taxonomy \"faq\" from templates/faq/list.html".
-    # No template renders it, so its typography is nobody's concern, and the
-    # strings it quotes are identifiers that must stay as they are.
+    # Titles, descriptions and menu labels remain visible even when a section
+    # body is only a maintenance note, so validate metadata before body exemptions.
+    if out_meta:
+        src_fields = _frontmatter_prose(src_meta)
+        out_fields = _frontmatter_prose(out_meta)
+
+        for key, value in out_fields.items():
+            ok, msg = register_ok(value, lang)
+            if not ok:
+                problems.append(Problem(WARN, "register-frontmatter", f"'{key}': {msg}"))
+
+        # A label can legitimately match English. Its declaration must name an
+        # existing field that still matches, so stale exemptions are rejected.
+        declared, faults = _declared_source_keeps(out_meta, src_fields, out_fields)
+        problems.extend(faults)
+
+        for key, value in src_fields.items():
+            # A value with no letters reads the same in every language.
+            if (key not in declared
+                    and out_fields.get(key) == value
+                    and any(c.isalpha() for c in value)):
+                problems.append(Problem(
+                    WARN, "untranslated-frontmatter",
+                    f"'{key}' is identical to the English source"))
+
+        # Runtime placeholders are literal replacement keys in donation form
+        # strings; translating or dropping one leaves a broken label or error.
+        for key, value in src_fields.items():
+            want = sorted(PLACEHOLDER_RE.findall(value))
+            got = sorted(PLACEHOLDER_RE.findall(out_fields.get(key, "")))
+            if want != got:
+                problems.append(Problem(
+                    ERROR, "placeholder-mismatch",
+                    f"'{key}' must keep the placeholder(s) verbatim",
+                    f"source has {want or 'none'}, translation has {got or 'none'}"))
+
+    # FAQ section bodies explain their taxonomy template to maintainers. The
+    # body is not rendered, and its quoted strings are template identifiers.
     if re.search(r"templates/\S+\.html", src_body) and "replaced with taxonomy" in src_body:
         return problems
 
@@ -729,57 +763,6 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     ok, msg = register_ok(out_body, lang)
     if not ok:
         problems.append(Problem(WARN, "register", msg))
-
-    # 9. Untranslated frontmatter fields, `extra` included.
-    if out_meta:
-        src_fields = _frontmatter_prose(strip_frontmatter(src)[1] or {})
-        out_fields = _frontmatter_prose(out_meta)
-
-        for key, value in out_fields.items():
-            ok, msg = register_ok(value, lang)
-            if not ok:
-                problems.append(Problem(WARN, "register-frontmatter", f"'{key}': {msg}"))
-
-        # Some words really are the same in both languages — Dutch and Italian
-        # write "Privacy", German writes "Name (optional)" — and no textual test
-        # can tell those from a field the translator simply skipped: Italian
-        # "Donate" and Occitan "News" were exactly that, and looked identical.
-        # The page declares the fields whose source wording is intentional:
-        #
-        #     extra:
-        #       translation_keeps_source: ["extra.menu_title"]
-        #
-        # Paste the path out of the warning. The declaration is verified, not
-        # merely obeyed: it must name a field that exists and is still identical,
-        # so it cannot outlive the situation it describes.
-        declared, faults = _declared_source_keeps(out_meta, src_fields, out_fields)
-        problems.extend(faults)
-
-        for key, value in src_fields.items():
-            # A value with no letters reads the same in every language: post 39
-            # is called "19:36", a timestamp.
-            if (key not in declared
-                    and out_fields.get(key) == value
-                    and any(c.isalpha() for c in value)):
-                problems.append(Problem(
-                    WARN, "untranslated-frontmatter",
-                    f"'{key}' is identical to the English source"))
-
-        # 9a. Runtime placeholders in those same fields. `donate-subscribe.js`
-        #     fills the submit label and the range error by literal string
-        #     replace — `pattern.replace('{amount}', …)` — so a placeholder the
-        #     translator inflected, spaced or dropped does not raise anything:
-        #     the button just reads "Doe {amount}" to every donor in that
-        #     language. Parity with the source is the whole contract, so a
-        #     mismatch is an ERROR.
-        for key, value in src_fields.items():
-            want = sorted(PLACEHOLDER_RE.findall(value))
-            got = sorted(PLACEHOLDER_RE.findall(out_fields.get(key, "")))
-            if want != got:
-                problems.append(Problem(
-                    ERROR, "placeholder-mismatch",
-                    f"'{key}' must keep the placeholder(s) verbatim",
-                    f"source has {want or 'none'}, translation has {got or 'none'}"))
 
     # 10. Straight ASCII quotes where the language wants its own marks — but
     #     only in prose. HTML attributes, Tera expressions, code spans and

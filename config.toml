@@ -15,10 +15,7 @@ build_search_index = false
 
 ignored_content = [".DS_Store"]
 
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 
 [markdown]
 external_links_target_blank = true
@@ -41,8 +38,48 @@ eth = "0xC36A638DD2274BDe6097DFD62B3EB5Aa8A67Ec54"
 # the app-bundled HTML small, while the status page tracks the translation teams
 # that actively use it. Templates deliberately fail when a listed embedded
 # language is missing one of the selected questions.
-faq_embedded_languages = ["ar", "cs", "de", "el", "es", "fa-IR", "fr", "he", "hi", "hu", "id", "it", "ja", "lt", "mr", "nl", "pl", "pt", "pt-BR", "ru", "sv", "te", "tr", "uk", "zh-Hans"]
-faq_translation_status_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"]
+faq_embedded_languages = [
+  "ar",
+  "cs",
+  "de",
+  "el",
+  "es",
+  "fa-IR",
+  "fr",
+  "he",
+  "hi",
+  "hu",
+  "id",
+  "it",
+  "ja",
+  "lt",
+  "mr",
+  "nl",
+  "pl",
+  "pt",
+  "pt-BR",
+  "ru",
+  "sv",
+  "te",
+  "tr",
+  "uk",
+  "zh-Hans",
+]
+faq_translation_status_languages = [
+  "ru",
+  "de",
+  "es",
+  "fa-IR",
+  "fr",
+  "it",
+  "ja",
+  "pl",
+  "pt",
+  "pt-BR",
+  "tr",
+  "uk",
+  "zh-Hans",
+]
 # Latin-only taxonomy terms normally indicate untranslated labels on localized
 # pages. These names are valid unchanged in every supported language.
 language_neutral_taxonomy_terms = ["linux"]
@@ -69,7 +106,7 @@ go-to-top = "Go to Top"
 install-appgallery = "Install Organic Maps from Huawei AppGallery"
 install-appstore = "Install Organic Maps from the AppStore"
 install-googleplay = "Install Organic Maps from Google Play"
-install-fdroid="Install Organic Maps from F-Droid"
+install-fdroid = "Install Organic Maps from F-Droid"
 language = "English"
 language-word = "Language"
 more-info-om = "For more information please visit our web-site"
@@ -82,10 +119,7 @@ token = "Token"
 
 # Language: af (Afrikaans / Afrikaans)
 [languages.af]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.af.translations]
 address = "Adres"
 back = "Terug na nuus"
@@ -108,10 +142,7 @@ token = "Teken"
 
 # Language: ar (Arabic / العربية)
 [languages.ar]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.ar.translations]
 address = "العنوان"
 back = "العودة إلى الأخبار"
@@ -134,10 +165,7 @@ token = "رمز"
 
 # Language: ca (Catalan / Català)
 [languages.ca]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.ca.translations]
 address = "Adreça"
 back = "Torna a Notícies"
@@ -160,10 +188,7 @@ token = "Testimoni"
 
 # Language: cs (Czech / Čeština)
 [languages.cs]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.cs.translations]
 address = "Adresa"
 back = "Zpět na novinky"
@@ -186,10 +211,7 @@ token = "Token"
 
 # Language: cy (Welsh / Cymraeg)
 [languages.cy]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.cy.translations]
 address = "Cyfeiriad"
 back = "Yn ôl i Newyddion"
@@ -212,10 +234,7 @@ token = "Tocyn"
 
 # Language: de (German / Deutsch)
 [languages.de]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.de.translations]
 address = "Adresse"
 back = "Zurück zu den Neuigkeiten"
@@ -238,10 +257,7 @@ token = "Token"
 
 # Language: el (Greek / Ελληνικά)
 [languages.el]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.el.translations]
 address = "Διεύθυνση"
 back = "Πίσω στα Νέα"
@@ -264,10 +280,7 @@ token = "Token"
 
 # Language: es (Spanish / Español)
 [languages.es]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.es.translations]
 address = "Dirección"
 back = "Volver a Noticias"
@@ -290,10 +303,7 @@ token = "Ficha"
 
 # Language: et (Estonian / Eesti)
 [languages.et]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.et.translations]
 address = "Aadress"
 back = "Tagasi uudiste loendisse"
@@ -316,10 +326,7 @@ token = "Tunnusluba"
 
 # Language: eu (Basque / Euskara)
 [languages.eu]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.eu.translations]
 address = "Helbidea"
 back = "Itzuli Berriak-era"
@@ -342,10 +349,7 @@ token = "token"
 
 # Language: fa-IR (Persian / فارسی)
 [languages.fa-IR]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.fa-IR.translations]
 address = "نشانی"
 back = "بازگشت به اخبار"
@@ -368,10 +372,7 @@ token = "توکن"
 
 # Language: fr (French / Français)
 [languages.fr]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.fr.translations]
 address = "Adresse"
 back = "Retour aux actualités"
@@ -394,10 +395,7 @@ token = "Jeton"
 
 # Language: gl (Galician / Gallego)
 [languages.gl]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.gl.translations]
 address = "Direccións"
 back = "Volver a Noticias"
@@ -421,8 +419,8 @@ token = "Token"
 # Language: he (Hebrew / עברית)
 [languages.he]
 taxonomies = [
-  {name = "faq", feed = false, lang = "he"},
-  {name = "news", feed = true, lang = "he"},
+  { name = "faq", feed = false, lang = "he" },
+  { name = "news", feed = true, lang = "he" },
 ]
 [languages.he.translations]
 address = "כתובת"
@@ -446,10 +444,7 @@ token = "טוקן"
 
 # Language: hi (Hindi / हिंदी)
 [languages.hi]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.hi.translations]
 address = "पता"
 back = "ख़बरों पर वापस जाएं"
@@ -472,10 +467,7 @@ token = "टोकन/Token"
 
 # Language: hu (Hungarian / Magyar)
 [languages.hu]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.hu.translations]
 address = "Cím"
 back = "Vissza a hírekhez"
@@ -498,10 +490,7 @@ token = "Token"
 
 # Language: id (Indonesian / Bahasa Indonesia)
 [languages.id]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.id.translations]
 address = "Alamat"
 back = "Kembali ke Berita"
@@ -524,10 +513,7 @@ token = "Token"
 
 # Language: it (Italian / Italiano)
 [languages.it]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.it.translations]
 address = "Indirizzo"
 back = "Torna alle novità"
@@ -551,8 +537,8 @@ token = "Token"
 # Language: ja (Japanese / 日本語)
 [languages.ja]
 taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true, render = false},
+  { name = "faq", feed = false },
+  { name = "news", feed = true, render = false },
 ]
 [languages.ja.translations]
 address = "住所"
@@ -574,12 +560,31 @@ name = "名前"
 news-term-description = "Organic Maps の「{}」に関するニュースと更新情報。"
 token = "トークン"
 
+[languages.ko]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
+[languages.ko.translations]
+address = "주소"
+back = "뉴스로 돌아가기"
+contact = "문의하기"
+edit-on-github = "GitHub 에서 수정하기"
+engines = "Supported TTS Engines 지원하는 TTS 엔진들"
+faq-menu-title = "Help"
+faq-term-description = "Frequently asked questions about {} in Organic Maps."
+go-to-top = "Go to Top"
+install-appgallery = "Install Organic Maps from Huawei AppGallery"
+install-appstore = "Install Organic Maps from the AppStore"
+install-googleplay = "Install Organic Maps from Google Play"
+install-fdroid = "Install Organic Maps from F-Droid"
+language = "English"
+language-word = "Language"
+more-info-om = "For more information please visit our web-site"
+name = "Name"
+news-term-description = "{} news and updates from Organic Maps."
+token = "Token"
+
 # Language: mr (Marathi / मराठी)
 [languages.mr]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.mr.translations]
 address = "पत्ता"
 back = "बातम्यांवर परता"
@@ -602,10 +607,7 @@ token = "Token"
 
 # Language: lt (Lithuanian / Lietuvių kalba)
 [languages.lt]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.lt.translations]
 address = "Adresas"
 back = "Grįžti į naujienas"
@@ -628,10 +630,7 @@ token = "Žetonas"
 
 # Language: ml (Malayalam / മലയാളം)
 [languages.ml]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.ml.translations]
 address = "വിലാസം"
 back = "വാർത്തയിലേക്ക് മടങ്ങുക"
@@ -654,10 +653,7 @@ token = "ടോക്കൺ"
 
 # Language: nl (Dutch / Nederlands)
 [languages.nl]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.nl.translations]
 address = "Adres"
 back = "Terug naar Nieuws"
@@ -680,10 +676,7 @@ token = "Token"
 
 # Language: oc (Occitan / Occitan)
 [languages.oc]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.oc.translations]
 address = "Adreça"
 back = "Tornar a las Novetats"
@@ -706,10 +699,7 @@ token = "geton"
 
 # Language: pl (Polish / Polski)
 [languages.pl]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.pl.translations]
 address = "Adres"
 back = "Powrót do Nowości"
@@ -732,10 +722,7 @@ token = "Token"
 
 # Language: pt-BR (Portuguese (Brazil) / Português (Brasil))
 [languages.pt-BR]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.pt-BR.translations]
 address = "Endereço"
 back = "Voltar às Notícias"
@@ -758,10 +745,7 @@ token = "Token"
 
 # Language: pt (Portuguese / Português)
 [languages.pt]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.pt.translations]
 address = "Endereço"
 back = "Voltar às notícias"
@@ -784,10 +768,7 @@ token = "Token"
 
 # Language: ru (Russian / Русский)
 [languages.ru]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.ru.translations]
 address = "Адрес"
 back = "Назад к новостям"
@@ -810,10 +791,7 @@ token = "Токен"
 
 # Language: sv (Swedish / Svenska)
 [languages.sv]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.sv.translations]
 address = "Adress"
 back = "Tillbaka till nyheter"
@@ -836,10 +814,7 @@ token = "Token"
 
 # Language: te (Telugu / తెలుగు)
 [languages.te]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.te.translations]
 address = "చిరునామా"
 back = "వార్తలకు తిరిగి వెళ్ళండి"
@@ -862,10 +837,7 @@ token = "టోకెన్"
 
 # Language: tr (Turkish / Türkçe)
 [languages.tr]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.tr.translations]
 address = "Adres"
 back = "Haberlere geri dön"
@@ -888,10 +860,7 @@ token = "Belirteç"
 
 # Language: uk (Ukrainian / Українська)
 [languages.uk]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.uk.translations]
 address = "Адреса"
 back = "Назад до Новин"
@@ -914,10 +883,7 @@ token = "Токен"
 
 # Language: zh-Hans (Chinese (Simplified) / 简体中文)
 [languages.zh-Hans]
-taxonomies = [
-  {name = "faq", feed = false},
-  {name = "news", feed = true},
-]
+taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
 [languages.zh-Hans.translations]
 address = "地址"
 back = "返回到新闻"

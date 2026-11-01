@@ -6,10 +6,10 @@
   <a href="{{ langPathPrefix | safe }}/"><span class="top_menu_logo"></span></a>
   <span>
     {% for page in [
-      get_section(path="news/_index.md"),
-      get_page(path="donate/index.md"),
-      get_page(path="contribute/index.md"),
-      get_section(path="faq/_index.md"),
+      get_section(path="news/_index.md", lang=config.default_language),
+      get_page(path="donate/index.md", lang=config.default_language),
+      get_page(path="contribute/index.md", lang=config.default_language),
+      get_section(path="faq/_index.md", lang=config.default_language),
     ] %}
     {% set translated = [t for t in page.translations if t.lang == lang] | first %}
     {% if translated %}

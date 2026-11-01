@@ -22,6 +22,9 @@ jobs:
           tar -zxvf zola.tar.gz
           ./zola build
 
+      - name: Navigation template regressions
+        run: PATH="$PWD:$PATH" python3 tools/test_navigation.py
+
       - uses: actions/setup-node@v6
         with:
           node-version: "24"

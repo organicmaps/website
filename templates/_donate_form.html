@@ -99,7 +99,3 @@
   <p class="donate-secure-note">{{ f.secure_note }}</p>
   <p class="donate-alt"><a href="{{ donate.permalink | replace(from=config.base_url, to="") | safe }}#other-ways">{{ f.other_ways }}</a></p>
 </form>
-{% set manage = get_page(path="donate/manage/index.md") %}
-{% set translated = [t for t in manage.translations if t.lang == lang] | first %}
-{% if translated %}{% set manage = translated %}{% endif %}
-<p class="donate-manage-link"><a href="{{ manage.permalink | replace(from=config.base_url, to="") | safe }}">{{ manage.title }}</a></p>

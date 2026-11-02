@@ -124,6 +124,7 @@ $donateAccentDark: #4caf50;
 
 .donate-form {
   margin-block-start: 1rem;
+  margin-block-end: 1rem;
 
   .donate-fieldset {
     border: 0;
@@ -174,6 +175,7 @@ $donateAccentDark: #4caf50;
     select {
       max-width: 8rem;
       padding-inline: 0.35rem;
+      text-align: center;
     }
   }
 

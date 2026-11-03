@@ -11,7 +11,7 @@ title: "Organic Maps : escorregudas ciclistas, caminadas, itineraris e percors g
 
 N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installa Organic Maps, teledescarga de mapas, escampa ta carteta SIM (que, o sabes, ton operator t’es a l’après de lònga) e parte per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
 
-> En decembre de 2025, Organic Maps a [agut 6 milions d'installacions](@/news/2025-12-31/500/index.oc.md). [Ajuda-nos](@/donate/index.oc.md) a créisser!
+> En octobre de 2026, Organic Maps a [superat los 12 milions d'installacions](@/news/2026-11-03/641/index.oc.md). [Ajuda-nos](@/donate/index.oc.md) a créisser!
 
 ### Teledescarga e installa Organic Maps de l’[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 

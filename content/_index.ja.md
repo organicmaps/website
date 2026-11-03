@@ -11,7 +11,7 @@ extra:
 
 **Organic Maps** は、インターネット接続なしで 100% の機能をサポートする数少ないアプリの一つです。Organic Maps をインストールし、地図をダウンロードし、SIM カードを捨てて、ネットワークに 1 バイトも送らず、1 回の充電で 1 週間の旅に出かけましょう。
 
-> 2025年12月、Organic Maps は [600万インストールに到達しました](@/news/2025-12-31/500/index.ja.md)。スケールアップのため[ご支援をお願いします](@/donate/index.ja.md)!
+> 2026年10月、Organic Mapsの[累計インストール数が1,200万件を突破](@/news/2026-11-03/641/index.ja.md)。これからも成長を続けられるよう、[力を貸して](@/donate/index.ja.md)！
 
 ### Organic Maps をダウンロード & インストール [AppStore][appstore]、[Google Play][googleplay]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent]、[FDroid][fdroid] から {#install}
 

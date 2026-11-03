@@ -11,7 +11,7 @@ title: "Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring"
 
 **Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM kamu (ngomong-ngomong, operator kamu terus melacak kamu), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
 
-> Pada Desember 2025, Organic Maps [mencapai 6 juta instalasi](@/news/2025-12-31/500/index.id.md). [Bantu kami](@/donate/index.id.md) untuk berkembang!
+> Pada Oktober 2026, Organic Maps [mencapai lebih dari 12 juta instalasi](@/news/2026-11-03/641/index.id.md). [Bantu kami](@/donate/index.id.md) berkembang!
 
 ### Unduh dan instal Organic Maps dari [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

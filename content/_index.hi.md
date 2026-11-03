@@ -11,7 +11,7 @@ extra:
 
 **Organic Maps** आजकल के उन कुछ एप्लिकेशन्स में से एक है जो सक्रिय इंटरनेट कनेक्शन के बिना 100% सुविधाओं का समर्थन करता है। Organic Maps इंस्टॉल करें, मानचित्र डाउनलोड करें, अपना सिम कार्ड फेंक दें, और नेटवर्क पर एक भी बाइट भेजे बिना सिर्फ एक बैटरी चार्ज पर सप्ताह भर की यात्रा के लिए जाएं।
 
-> दिसंबर 2025 में, Organic Maps ने [60 लाख इंस्टॉल पूरे किए](@/news/2025-12-31/500/index.hi.md)। [हमें बढ़ने में मदद करें](@/donate/index.hi.md)!
+> अक्टूबर 2026 में, Organic Maps ने [12 मिलियन इंस्टॉल का आँकड़ा पार किया](@/news/2026-11-03/641/index.hi.md)। [हमें बढ़ने में मदद करें](@/donate/index.hi.md)!
 
 ### [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] से Organic Maps डाउनलोड और इंस्टॉल करें {#install}
 

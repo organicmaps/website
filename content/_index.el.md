@@ -11,7 +11,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 **Οι Organic Maps** είναι μία από τις λίγες εφαρμογές που υποστηρίζουν το 100% των λειτουργιών χωρίς ενεργή σύνδεση στο Διαδίκτυο. Εγκατάστησε τους Organic Maps, κατέβασε χάρτες, πέταξε την κάρτα SIM και κάνε ένα ταξίδι μιας εβδομάδας με μία μόνο φόρτιση της μπαταρίας, χωρίς να στείλεις κανένα byte στο δίκτυο.
 
-> Τον Δεκέμβριο του 2025, το Organic Maps [έφτασε τις 6 εκ. εγκαταστάσεις](@/news/2025-12-31/500/index.el.md). [Βοήθησέ μας](@/donate/index.el.md) να επεκταθούμε!
+> Τον Οκτώβριο του 2026, οι εγκαταστάσεις του Organic Maps [ξεπέρασαν τα 12 εκατομμύρια](@/news/2026-11-03/641/index.el.md). [Βοήθησέ μας](@/donate/index.el.md) να επεκταθούμε!
 
 ### Κατέβασε και εγκατάστησε τους Organic Maps από [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 

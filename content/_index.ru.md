@@ -16,7 +16,7 @@ extra:
 
 _Organic Maps_ поддерживает 100% функций без активного Интернет-подключения. Загрузите нужные карты, выбросьте SIM-карту (кстати, ваш оператор постоянно отслеживает вас) и отправляйтесь в недельное путешествие на одном заряде батареи.
 
-> В декабре 2025 года Organic Maps [достиг 6 млн установок](@/news/2025-12-31/500/index.ru.md). [Помогите нам](@/donate/index.ru.md) развиваться!
+> В октябре 2026 года число установок Organic Maps [превысило 12 млн](@/news/2026-11-03/641/index.ru.md). [Помогите нам](@/donate/index.ru.md) развиваться!
 
 ### Загрузить и установить Organic Maps из [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 

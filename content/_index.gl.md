@@ -11,7 +11,7 @@ title: "Organic Maps: camiñadas sen conexión, bicicletas, rutas e navegación"
 
 **Organic Maps** é unha das poucas aplicacións de hoxe en día que admite o 100 % das funcións sen unha conexión activa a Internet. Instala Organic Maps, descarga mapas, tira a tarxeta SIM (por certo, o teu operador rastrexache constantemente) e fai unha viaxe dunha semana cunha soa carga de batería sen que se envíe ningún byte á rede.
 
-> En decembro de 2025, Organic Maps [alcanzou 6M de instalacións](@/news/2025-12-31/500/index.gl.md). [Axúdanos](@/donate/index.gl.md) a crecer!
+> En outubro de 2026, Organic Maps [superou os 12 millóns de instalacións](@/news/2026-11-03/641/index.gl.md). [Axúdanos](@/donate/index.gl.md) a medrar!
 
 ### Descarga e instala Organic Maps desde [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

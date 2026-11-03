@@ -11,7 +11,7 @@ title: "Organic Maps: passejos, bici, rutes i GPS sense connexió"
 
 L’**Organic Maps** és una de les poques aplicacions actuals que admet fer servir totes les seves funcions sense una connexió a Internet activa. Instal·la l’Organic Maps, baixa mapes, llença la teva targeta SIM (per cert, el teu operador et rastreja constantment) i fes un viatge setmanal amb una sola càrrega de bateria sense que cap byte s’enviï a la xarxa.
 
-> El desembre de 2025, Organic Maps va [arribar als 6M d'instal·lacions](@/news/2025-12-31/500/index.ca.md). [Ajuda'ns](@/donate/index.ca.md) a créixer!
+> L'octubre de 2026, Organic Maps va [superar els 12 milions d'instal·lacions](@/news/2026-11-03/641/index.ca.md). [Ajuda'ns](@/donate/index.ca.md) a créixer!
 
 ### Baixa i instal·la l’Organic Maps des de l’[AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid] o [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

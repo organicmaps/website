@@ -11,7 +11,7 @@ title: "Organic Maps : ऑफलाईन भटकंती, सायकल �
 
 **Organic Maps** हे आजकाल विनाइंटरनेटचे सर्व वैशिष्ट्यांसकट चालणाऱ्या मोजक्या अॅप पैकी एक अॅप आहे. Organic Maps इन्स्टॉल करा, नकाशे डाऊनलोड करा, तुमचे सिम कार्ड टाकून द्या आणि नेटवर्कवर एकही बाइट न पाठवता एकाच बॅटरी चार्जवर आठवडाभराच्या प्रवासाला निघा.
 
-> डिसेंबर 2025 मध्ये, Organic Maps ने [60 लाख इन्स्टॉल्सचा टप्पा गाठला](@/news/2025-12-31/500/index.mr.md). आम्हाला वाढण्यास [मदत करा](@/donate/index.mr.md)!
+> ऑक्टोबर २०२६ मध्ये Organic Maps च्या [इन्स्टॉलची संख्या १२ दशलक्षांहून अधिक झाली](@/news/2026-11-03/641/index.mr.md). आम्हाला वाढण्यास [मदत करा](@/donate/index.mr.md)!
 
 ### Organic Maps इथून डाऊनलोड व स्थापीत करा : [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

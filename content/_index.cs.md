@@ -11,7 +11,7 @@ title: "Organic Maps: Offline pěší turistika, cykloturistika, stezky a naviga
 
 **Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
 
-> V prosinci 2025 Organic Maps [dosáhly 6 milionů instalací](@/news/2025-12-31/500/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
+> V říjnu 2026 aplikace Organic Maps [překročila 12 milionů instalací](@/news/2026-11-03/641/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
 
 ### Stáhněte a nainstalujte si Organic Maps z obchodů [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [F-Droid][fdroid], [Accrescent][accrescent] {#install}
 

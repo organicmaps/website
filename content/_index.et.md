@@ -11,7 +11,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 
 **Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mille 100% funktsionaalsustest toimivad ilma internetiühenduseta. Paigalda nutiseadmesse Organic Maps, laadi alla vajalikud kaardid, jäta SIM-kaart laualaekasse ja mine nädalapikkusele reisile, mil piisab ühest aku laadimiskorrast ja ühtegi baiti ei saadeta võrgu suunas.
 
-> Detsembris 2025 jõudis Organic Maps [6 miljoni installini](@/news/2025-12-31/500/index.et.md). [Aita meil](@/donate/index.et.md) kasvada!
+> Oktoobris 2026 ületas Organic Maps [12 miljoni paigalduse piiri](@/news/2026-11-03/641/index.et.md). [Aita meil](@/donate/index.et.md) kasvada!
 
 ### Paigalda Organic Maps järgmistest rakendustepoodidest: [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] {#install}
 

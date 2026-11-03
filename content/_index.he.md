@@ -11,7 +11,7 @@ extra:
 
 **Organic Maps** היא אחת מהאפליקציות הבודדות כיום התומכת ב-100% מהתכונות ללא חיבור פעיל לאינטרנט. התקינו את Organic Maps, הורידו מפות, זרקו את כרטיס ה-SIM וצאו לטיול של שבוע ללא צורך בשליחת בייט אחד לרשת, הכל בטעינת סוללה אחת.
 
-> בדצמבר 2025, Organic Maps [הגיעה ל-6 מיליון התקנות](@/news/2025-12-31/500/index.he.md). [עזרו לנו](@/donate/index.he.md) לגדול!
+> באוקטובר 2026, Organic Maps [עברה את רף 12 מיליון ההתקנות](@/news/2026-11-03/641/index.he.md). [עזרו לנו](@/donate/index.he.md) לגדול!
 
 ### הורידו והתקינו את Organic Maps מ-[AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [FDroid][fdroid] {#install}
 

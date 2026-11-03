@@ -11,7 +11,7 @@ extra:
 
 **Organic Maps** یکی از معدود برنامه‌هایی است که امروزه بدون اتصال فعال به اینترنت، تمامی قابلیت‌ها را پشتیبانی می‌کند. Organic Maps را نصب کنید، نقشه‌ها را دانلود کنید، سیم‌کارت خود را کنار بگذارید، و با یک بار شارژ باتری، بدون ارسال حتی یک بایت داده به اینترنت، یک سفر یک‌هفته‌ای را تجربه کنید.
 
-> در دسامبر 2025، Organic Maps به [6 میلیون نصب رسید](@/news/2025-12-31/500/index.fa-IR.md). [به ما کمک کنید](@/donate/index.fa-IR.md) تا گسترش یابیم!
+> در اکتبر ۲۰۲۶، Organic Maps [به بیش از ۱۲ میلیون نصب رسید](@/news/2026-11-03/641/index.fa-IR.md). [به ما کمک کنید](@/donate/index.fa-IR.md) تا رشد کنیم!
 
 ### دانلود و نصب Organic Maps از طریق [AppStore][appstore]، [Google Play][googleplay]، [Huawei AppGallery][appgallery]، [Obtainium][obtainium]، [اف‌دروید][fdroid]، [Accrescent][accrescent] {#install}
 

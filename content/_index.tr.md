@@ -11,7 +11,7 @@ extra:
 
 **Organic Maps**, günümüzde aktif bir internet bağlantısı olmadan özelliklerinin %100'ünü destekleyen az sayıdaki uygulamadan biridir. Organic Maps'i yükle, haritaları indir, SIM kartını çöpe at ve ağa tek bir bayt bile göndermeden tek şarjla bir haftalık yolculuğa çık.
 
-> Aralık 2025'te Organic Maps [6 milyon yüklemeye ulaştı](@/news/2025-12-31/500/index.tr.md). Büyümemize [yardım et](@/donate/index.tr.md)!
+> Ekim 2026'da Organic Maps’in [yükleme sayısı 12 milyonu aştı](@/news/2026-11-03/641/index.tr.md). Büyümemize [yardım et](@/donate/index.tr.md)!
 
 ### Organic Maps'i [AppStore][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [FDroid][fdroid], [Accrescent][accrescent] adresinden indir ve yükle {#install}
 

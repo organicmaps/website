@@ -11,7 +11,7 @@ title: "Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein"
 
 **Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosoda Organic Maps, lawrlwytha mapiau, a chael gwared ar dy gerdyn SIM , a chei fynd ar drip am wythnos heb angen gwefru dy ffôn, a heb ddanfon beit i'r rhwydwaith.
 
-> Ym mis Rhagfyr 2025, cyrhaeddodd Organic Maps [6M o osodiadau](@/news/2025-12-31/500/index.cy.md). [Helpa ni](@/donate/index.cy.md) i ehangu!
+> Ym mis Hydref 2026, cyrhaeddodd Organic Maps [dros 12 miliwn o osodiadau](@/news/2026-11-03/641/index.cy.md). [Helpa ni](@/donate/index.cy.md) i ehangu!
 
 ### Lawrlwytha a gosod Organic Maps o [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

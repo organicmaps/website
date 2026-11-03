@@ -11,7 +11,7 @@ title: "Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie"
 
 **Organic Maps** is één van de weinige apps heden ten dage die 100% van de functionaliteit heeft zonder actieve internetverbinding. Installeer Organic Maps, download kaarten, gooi je SIM kaart weg (trouwens, je provider trackt je altijd), en ga een week op pad zonder je batterij op te laden en zonder dat er één byte naar het netwerk verzonden wordt.
 
-> In december 2025 bereikte Organic Maps [6 miljoen installaties](@/news/2025-12-31/500/index.nl.md). [Help ons](@/donate/index.nl.md) te groeien!
+> In oktober 2026 bereikte Organic Maps [meer dan 12 miljoen installaties](@/news/2026-11-03/641/index.nl.md). [Help ons](@/donate/index.nl.md) te groeien!
 
 ### Download en installeer Organic Maps in de [AppStore][appstore], [Google Play][googleplay], [FDroid][fdroid], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent] {#install}
 

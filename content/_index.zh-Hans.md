@@ -11,7 +11,7 @@ title: "Organic Maps：离线的远足、自行车、登山和导航地图"
 
 **Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
 
-> 2025年12月，Organic Maps [达到了600万次安装](@/news/2025-12-31/500/index.zh-Hans.md). [帮助我们](@/donate/index.zh-Hans.md) 扩展！
+> 2026年10月，Organic Maps 的[总安装量突破 1200 万次](@/news/2026-11-03/641/index.zh-Hans.md)。[帮助我们](@/donate/index.zh-Hans.md)继续成长！
 
 ### 从 [AppStore][appstore]、[Google Play][googleplay]、[FDroid][fdroid]、[Huawei AppGallery][appgallery]、[Obtainium][obtainium]、[Accrescent][accrescent] 下载并安装Organic Maps {#install}
 

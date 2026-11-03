@@ -11,7 +11,7 @@ title: "Organic Maps: تنزَّه وقد دراجتك وشُدَّ الرحال
 
 **Organic Maps** من التطبيقات القليلة في يومنا هذا التي توفر 100% من المزايا بدون اتصال مباشر بشبكة الإنترنت. ثبّت Organic Maps، نزل الخرائط، ارمي بطاقة الشبكة خاصتك (بالمناسبة، مزود الخدمة يتتبعك باستمرار)، واذهب في رحلة اسبوعية بشحن البطارية مرة واحدة ودون أي بايت مرسل من خلال الشبكة.
 
-> في ديسمبر 2025، وصلت Organic Maps إلى [6 ملايين تثبيت](@/news/2025-12-31/500/index.ar.md). [ساعدنا](@/donate/index.ar.md) لنتوسع!
+> في أكتوبر 2026، وصل تطبيق Organic Maps إلى [أكثر من 12 مليون عملية تثبيت](@/news/2026-11-03/641/index.ar.md). [ساعدنا](@/donate/index.ar.md) لنتوسع!
 
 ### نزّل و ثبت Organic Maps من [AppStore][appstore]، [Google Play][googleplay]، [FDroid][fdroid]، [Huawei AppGallery][appgallery], [Obtainium][obtainium]، [Accrescent][accrescent] {#install}
 

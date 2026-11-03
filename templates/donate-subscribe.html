@@ -9,8 +9,8 @@
 
 {% block content %}
 {% set f = resource.extra.form %}
-{# Same translated-page lookup as top_menu.html / bottom_menu.html, falling back to English. #}
-{% set donate = get_page(path="donate/index.md") %}
+{# The main donation page may be untranslated even when this landing page exists. #}
+{% set donate = get_page(path="donate/index.md", lang=config.default_language) %}
 {% set translated = [t for t in donate.translations if t.lang == lang] | first %}
 {% if translated %}{% set donate = translated %}{% endif %}
 {% set return_to = "subscribe" %}

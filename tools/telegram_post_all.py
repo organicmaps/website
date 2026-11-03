@@ -23,7 +23,7 @@ import re
 import sys
 from pathlib import Path
 
-from markdown_frontmatter import strip_frontmatter
+from markdown_frontmatter import FrontmatterError, strip_frontmatter
 from telegram_post import (
     get_token,
     resolve_chat_id,
@@ -128,7 +128,10 @@ def prepare_text(md_path: Path, site_root: Path) -> str:
     """Read markdown file, strip frontmatter, resolve references, clean up."""
     raw = md_path.read_text(encoding="utf-8")
 
-    text, meta = strip_frontmatter(raw)
+    try:
+        text, meta = strip_frontmatter(raw)
+    except FrontmatterError as error:
+        raise FrontmatterError(f"{md_path}: {error}") from error
     title = meta.get("title", "")
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
@@ -214,16 +217,17 @@ def main() -> None:
         print(f"Error: {media_problem}", file=sys.stderr)
         sys.exit(1)
 
-    # A dry run never talks to the API, so it must not require a token.
-    token = "" if args.dry_run else get_token()
-
     # Discover which groups have matching markdown files, and render each post
     # once — prepare_text() is not free and its warnings should print once.
     tasks: list[tuple[str, Path, str]] = []
     for group, filename in groups.items():
         md_path = args.folder / filename
         if md_path.is_file():
-            tasks.append((group, md_path, prepare_text(md_path, site_root)))
+            try:
+                text = prepare_text(md_path, site_root)
+            except FrontmatterError as error:
+                parser.error(str(error))
+            tasks.append((group, md_path, text))
 
     if not tasks:
         print("No matching markdown files found in the folder.", file=sys.stderr)
@@ -276,9 +280,10 @@ def main() -> None:
             print("Aborted.")
             sys.exit(0)
 
-    # Resolve every chat up front. resolve_chat_id() exits on an unknown
-    # channel, and doing that mid-run would leave a half-published post with
-    # nothing posted yet, this is a safe abort.
+    # Prepare all files and resolve all chats before sending anything, so a
+    # bad header or unknown channel cannot leave a partly published post.
+    # A dry run needs neither credentials nor API calls.
+    token = "" if args.dry_run else get_token()
     chat_ids: dict[str, str] = {}
     if not args.dry_run:
         print("Resolving channels...")

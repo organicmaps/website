@@ -127,3 +127,5 @@ Markdown files in the content directly can be [edited directly on GitHub](https:
 (synchronize the translated file structure with the English `index.md` source). Or create an issue/ [send us](mailto:hello@organicmaps.app) the text, and we'll add translations.
 
 New language should be also added in `config.toml`.
+
+Run `python3 tools/translate_check.py source.md translated.md LANG` before publishing a translation. The checker reports malformed YAML, missing or empty reader-visible metadata, and changed product names or runtime placeholders. Frontmatter and its `extra` field must be mappings. The FAQ section's maintenance note is exempt from body checks only with `render: false` in both the source and translation; its visible metadata is always checked. Translation and Telegram commands reject malformed frontmatter before making API calls.

@@ -27,7 +27,7 @@ from pathlib import Path
 
 import requests
 
-from markdown_frontmatter import strip_frontmatter
+from markdown_frontmatter import FrontmatterError, strip_frontmatter
 from markdown_xml import find_balanced_close
 
 BASE_URL = "https://api.telegram.org/bot{token}"
@@ -207,7 +207,8 @@ def _zola_target_url(
 
     Reads the target file's frontmatter to honor a `slug` override and
     prepends the language code as a URL prefix for non-default languages.
-    Returns None if the file can't be found.
+    Returns None if the file can't be found. Malformed target metadata raises
+    FrontmatterError because its slug cannot be resolved reliably.
     """
     target = target.lstrip("/")
     file_path = site_root / "content" / target
@@ -234,6 +235,8 @@ def _zola_target_url(
             slug = raw_slug.strip()
     except OSError:
         pass
+    except FrontmatterError as error:
+        raise FrontmatterError(f"{file_path}: {error}") from error
 
     # Determine the trailing path segment:
     # - If the file is an _index.* (section) or index.* (page), the URL is the directory.
@@ -1120,12 +1123,13 @@ def main():
         print(f"Error: {media_problem}", file=sys.stderr)
         sys.exit(1)
 
-    token = get_token()
-    chat_id = resolve_chat_id(token, args.group)
     raw_text = args.text.read_text(encoding="utf-8")
 
     # Strip frontmatter; use "title" field as a bold header
-    text, meta = strip_frontmatter(raw_text)
+    try:
+        text, meta = strip_frontmatter(raw_text)
+    except FrontmatterError as error:
+        parser.error(f"{args.text}: {error}")
     title = meta.get("title", "")
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
@@ -1149,7 +1153,10 @@ def main():
 
     # Resolve Zola @/-style internal references → absolute site URLs.
     base_url = load_base_url(site_root)
-    text, zola_unresolved = resolve_zola_references(text, site_root, base_url)
+    try:
+        text, zola_unresolved = resolve_zola_references(text, site_root, base_url)
+    except FrontmatterError as error:
+        parser.error(str(error))
     if zola_unresolved:
         print(
             f"\nWarning: {len(zola_unresolved)} Zola @/-reference(s) could not be resolved:",
@@ -1180,6 +1187,8 @@ def main():
                 print("Aborted.")
                 sys.exit(0)
 
+    token = get_token()
+    chat_id = resolve_chat_id(token, args.group)
     print(f"Target chat: {chat_id}")
     if title:
         print(f"Title: {title}")

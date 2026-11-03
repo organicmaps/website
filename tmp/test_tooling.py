@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Focused, offline regressions for translation, hooks and Telegram tooling."""
 
+import io
 import json
 import subprocess
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stderr
 from pathlib import Path
 from unittest.mock import patch
 from xml.etree import ElementTree
@@ -14,6 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
+from markdown_frontmatter import FrontmatterError, strip_frontmatter  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
@@ -24,7 +27,9 @@ from telegram_post import (  # noqa: E402
     validate_media_set,
     visible_text,
 )
-from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
+from translate_check import (  # noqa: E402
+    ERROR, check_translation, emphasis_faults, syntax_faults,
+)
 from translate_md import (  # noqa: E402
     _segments, localize_zola_links, register_ok, tidy, translate_post, translate_text,
 )
@@ -39,6 +44,140 @@ class FakeResponse:
 
 
 class TranslationToolingTests(unittest.TestCase):
+    def test_malformed_frontmatter_is_rejected_in_both_documents(self):
+        source = "---\ntitle: Help\n---\n\nOrganic Maps.\n"
+        for header in ("title: [unclosed", "date: 2026-13-01", "- Help", "[]", "false", "0",
+                       "extra: [Help]", "extra: false", "extra: null"):
+            with self.subTest(header=header):
+                broken = f"---\n{header}\n---\n\nOrganic Maps.\n"
+                with self.assertRaises(FrontmatterError):
+                    strip_frontmatter(broken)
+                with self.assertRaises(FrontmatterError):
+                    strip_frontmatter(f"---\n{header}\n---")
+                self.assertTrue(syntax_faults(Path("index.md"), broken, set()))
+                for src, out in ((source, broken), (broken, source)):
+                    problems = check_translation(src, out, "de")
+                    self.assertEqual([(p.level, p.code) for p in problems],
+                                     [(ERROR, "frontmatter")])
+        self.assertEqual(strip_frontmatter("Organic Maps.\n"),
+                         ("Organic Maps.\n", {}))
+        self.assertEqual(strip_frontmatter("---\n---\nOrganic Maps.\n"),
+                         ("Organic Maps.\n", {}))
+        self.assertEqual(strip_frontmatter("---\r\ntitle: Help\r\n---"),
+                         ("", {"title": "Help"}))
+        self.assertEqual(check_translation("Organic Maps.\n", "Organic Maps.\n", "de"), [])
+
+    def test_source_frontmatter_strings_must_remain_present(self):
+        source = """---
+title: Help
+extra:
+  form:
+    submit_once: Donate {amount}
+---
+
+Organic Maps.
+"""
+        for header in ("", "---\n\n---\n\n", "---\nrender: false\n---\n\n"):
+            with self.subTest(header=header):
+                problems = check_translation(source, header + "Organic Maps.\n", "de")
+                self.assertEqual(
+                    {(p.level, p.code, p.message) for p in problems},
+                    {(ERROR, "frontmatter-field", f"'{key}' is missing or is not a string")
+                     for key in ("title", "extra.form.submit_once")},
+                )
+        for title in ('title: ""', 'title: "  "', "title: 42", "Название: Hilfe"):
+            with self.subTest(title=title):
+                translated = source.replace("title: Help", title).replace(
+                    "Donate {amount}", "Spende {amount}")
+                problems = check_translation(source, translated, "de")
+                self.assertEqual([(p.level, p.code) for p in problems],
+                                 [(ERROR, "frontmatter-field")])
+
+    def test_brands_are_checked_in_metadata_and_keep_their_field_context(self):
+        source = """---
+title: Organic Maps
+description: Organic Maps
+extra:
+  preview_image: Organic Maps.png
+  translation_diverges: Organic Maps
+  form:
+    help: Organic Maps
+---
+
+Organic Maps.
+"""
+        for original, replacement, field in (
+            ("title: Organic Maps", "title: Organische Karten", "title"),
+            ("description: Organic Maps", "description: Karten", "description"),
+            ("help: Organic Maps", "help: Karten", "extra.form.help"),
+        ):
+            with self.subTest(field=field):
+                problems = check_translation(source, source.replace(original, replacement), "de")
+                errors = [p for p in problems if p.level == ERROR]
+                self.assertEqual([p.code for p in errors], ["brand-lost"])
+                self.assertIn(f"'{field}'", errors[0].message)
+        translated = source.replace("Organic Maps.png", "Karten.png").replace(
+            "translation_diverges: Organic Maps", "translation_diverges: Andere Fassung")
+        self.assertFalse(any(p.level == ERROR for p in check_translation(source, translated, "de")))
+        quoted = source.replace("title: Organic Maps", "title: '«Organic Maps»'")
+        self.assertIn("brand-quoted", {p.code for p in check_translation(source, quoted, "de")})
+        translated_brand = source.replace(
+            "description: Organic Maps", "description: Organic Maps e mappe organiche")
+        self.assertIn("brand-translated", {
+            p.code for p in check_translation(source, translated_brand, "it")})
+
+    def test_only_unrendered_taxonomy_notes_skip_body_checks(self):
+        source = """---
+render: false
+title: Help
+---
+
+### This page is replaced with taxonomy "faq" from templates/faq/list.html
+"""
+        translated = source.replace("title: Help", "title: Hilfe")
+        self.assertEqual(check_translation(source, translated, "de"), [])
+        for source_render, target_render in (
+            ("render: true", "render: true"),
+            ("render: 'false'", "render: 'false'"),
+            ("", ""),
+            ("render: false", "render: true"),
+            ("render: false", ""),
+        ):
+            with self.subTest(source_render=source_render, target_render=target_render):
+                rendered = source.replace("render: false", source_render)
+                missing = translated.replace("render: false", target_render).split("###")[0]
+                self.assertIn("structure", {p.code for p in check_translation(rendered, missing, "de")})
+        missing_metadata = "---\nrender: false\n---\n\n" + translated.split("---\n", 2)[2]
+        self.assertIn("frontmatter-field", {
+            p.code for p in check_translation(source, missing_metadata, "de")})
+
+    def test_translation_cli_rejects_invalid_source_before_api_calls(self):
+        import translate_md
+        with tempfile.TemporaryDirectory() as folder:
+            source = Path(folder) / "index.md"
+            source.write_text("---\ntitle: [unclosed\n---\n\nBody.\n", encoding="utf-8")
+            errors = io.StringIO()
+            with patch.object(sys, "argv", ["translate_md.py", str(source), "--langs", "de"]), \
+                 patch("translate_md.get_glossary_id", return_value=None) as glossary, \
+                 patch("translate_md.deepl_translate") as request, redirect_stderr(errors):
+                with self.assertRaises(SystemExit) as exit:
+                    translate_md.main()
+            self.assertEqual(exit.exception.code, 2)
+            self.assertIn(str(source), errors.getvalue())
+            glossary.assert_not_called()
+            request.assert_not_called()
+            self.assertFalse(source.with_name("index.de.md").exists())
+
+    def test_proofreading_rejects_invalid_source_before_calling_the_model(self):
+        from translate_review import review_translation
+        source = "---\n- invalid metadata\n---\n\nOrganic Maps.\n"
+        draft = "Organic Maps.\n"
+        with patch("translate_review.subprocess.run") as request:
+            fixed, note = review_translation(source, draft, "de")
+        self.assertEqual(fixed, draft)
+        self.assertIn("invalid source frontmatter", note)
+        request.assert_not_called()
+
     def test_translation_imports_do_not_require_requests(self):
         code = """
 import importlib.abc, sys
@@ -176,12 +315,13 @@ extra:
 
 Body.
 '''
-        with patch("translate_md.brands_visible", return_value=False), \
-             patch("translate_md.get_glossary_id", return_value=None), \
-             patch("translate_md.deepl_translate", side_effect=lambda texts, *a, **k: (texts, None)):
-            translated = translate_post(source, "fr", use_glossary=False)
-        from markdown_frontmatter import strip_frontmatter
-        self.assertEqual(strip_frontmatter(source)[1], strip_frontmatter(translated)[1])
+        for document in (source, source.split("---\n\nBody.")[0] + "---"):
+            with self.subTest(document=document):
+                with patch("translate_md.brands_visible", return_value=False), \
+                     patch("translate_md.get_glossary_id", return_value=None), \
+                     patch("translate_md.deepl_translate", side_effect=lambda texts, *a, **k: (texts, None)):
+                    translated = translate_post(document, "fr", use_glossary=False)
+                self.assertEqual(strip_frontmatter(document)[1], strip_frontmatter(translated)[1])
 
     def test_links_localize_without_translating_protected_examples(self):
         target = "@/contribute/index.md"
@@ -274,6 +414,37 @@ Organic Maps。
 
 
 class TelegramToolingTests(unittest.TestCase):
+    def test_invalid_frontmatter_aborts_all_posts_before_api_calls(self):
+        import telegram_post
+        import telegram_post_all
+        with tempfile.TemporaryDirectory() as folder:
+            folder = Path(folder)
+            (folder / "index.md").write_text("Organic Maps.\n", encoding="utf-8")
+            broken = folder / "index.de.md"
+            bad_header = "---\nextra: [invalid]\n---\n\nBody.\n"
+            target = folder / "content/target/index.md"
+            target.parent.mkdir(parents=True)
+            target.write_text(bad_header, encoding="utf-8")
+            for content, invalid_path in (
+                (bad_header, broken),
+                ("Read [the page](@/target/index.md).\n", target),
+            ):
+                broken.write_text(content, encoding="utf-8")
+                for module, args in (
+                    (telegram_post, ["--text", str(broken), "--group", "@example", "--yes"]),
+                    (telegram_post_all, [str(folder), "--only", "en,de", "--yes"]),
+                ):
+                    with self.subTest(module=module.__name__, invalid_path=invalid_path):
+                        errors = io.StringIO()
+                        with patch.object(sys, "argv", [module.__name__, *args]), \
+                             patch.object(module, "__file__", str(folder / "tools/post.py")), \
+                             patch("telegram_post.requests.post") as request, redirect_stderr(errors):
+                            with self.assertRaises(SystemExit) as exit:
+                                module.main()
+                        self.assertEqual(exit.exception.code, 2)
+                        self.assertIn(str(invalid_path), errors.getvalue())
+                        request.assert_not_called()
+
     def test_current_tera_components_are_removed_from_posts(self):
         text = (
             "Before\n\n{{ <screenshot\n"

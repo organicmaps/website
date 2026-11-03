@@ -27,7 +27,7 @@ from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
-from markdown_frontmatter import strip_frontmatter
+from markdown_frontmatter import FrontmatterError, strip_frontmatter
 from translate_md import QUOTE_FOR, register_ok
 
 ERROR, WARN = "ERROR", "warn"
@@ -80,24 +80,13 @@ def fingerprint(text: str) -> dict[str, int]:
 
 BRANDS = ["Organic Maps", "OpenStreetMap", "ID Editor", "Google Play",
           "App Store", "F-Droid", "Obtainium", "Accrescent", "TestFlight",
-          "Huawei AppGallery", "AppGallery", "Weblate", "TestFlight"]
+          "Huawei AppGallery", "AppGallery", "Weblate"]
 QUOTE_CHARS = "\"'«»„“”‘’《》〈〉「」〔〕"
 # Opening/closing marks that genuinely pair, so a stray apostrophe used as
 # a suffix separator is not mistaken for a closing quote.
 QUOTE_PAIRS = [('"', '"'), ("'", "'"), ("«", "»"), ("„", "“"), ("„", "”"),
                ("“", "”"), ("‘", "’"), ("《", "》"), ("〈", "〉"),
                ("「", "」"), ("〔", "〕")]
-
-# Which brands a language is allowed to transliterate. Measured, not assumed:
-# he/ar/fa-IR keep Organic Maps, OpenStreetMap and iOS in Latin but render
-# Android natively; the Indic scripts transliterate everything.
-BRAND_TRANSLITERATING = {
-    "he": {"Android"}, "ar": {"Android"}, "fa-IR": {"Android"},
-    # hi, ml and te used to be exempt from every brand check because they
-    # transliterated the product name. That was decided against: they now keep
-    # Latin brands like everyone else, so only Android stays exempt.
-    "hi": {"Android"}, "ml": {"Android"}, "te": {"Android"},
-}
 
 # The product name rendered as translated words rather than kept in Latin.
 # Every pattern here was observed in the corpus, not guessed: a review pass
@@ -332,7 +321,10 @@ def syntax_faults(path: Path, text: str, shared_refs: set[str]) -> list[str]:
     translation comparison. Every one of these was a real defect in this
     corpus, and each rendered as visibly broken output.
     """
-    body, _ = strip_frontmatter(text)
+    try:
+        body, _ = strip_frontmatter(text)
+    except FrontmatterError as error:
+        return [f"frontmatter: {error}"]
     out = [f"emphasis: {f}" for f in emphasis_faults(body)]
 
     for match in re.finditer(r"\]\s+\((?:https?://|@/|/|mailto:|#)", body):
@@ -507,17 +499,95 @@ def _declared_source_keeps(
     return keeps, faults
 
 
-def check_translation(src: str, out: str, lang: str) -> list[Problem]:
-    """Compare a translated markdown body against its English source."""
-    src_body, _ = strip_frontmatter(src)
-    out_body, out_meta = strip_frontmatter(out)
+def _brand_problems(src: str, out: str, lang: str) -> list[Problem]:
+    """Product names stay Latin and unquoted in body text and metadata."""
     problems: list[Problem] = []
+    pat = TRANSLATED_BRAND.get(lang)
+    if pat and not (lang in TRANSLATED_BRAND_EXEMPT
+                    and TRANSLATED_BRAND_EXEMPT[lang][0] in src):
+        found = re.findall(pat, out, re.IGNORECASE)
+        if found:
+            problems.append(Problem(
+                ERROR, "brand-translated",
+                f"the product name appears translated {len(found)}x, not as "
+                f"'Organic Maps'",
+                str(sorted({f if isinstance(f, str) else " ".join(f)
+                            for f in found})[:3])))
 
-    # A section _index body is a note to whoever maintains the templates —
-    # "This page is replaced with taxonomy \"faq\" from templates/faq/list.html".
-    # No template renders it, so its typography is nobody's concern, and the
-    # strings it quotes are identifiers that must stay as they are.
-    if re.search(r"templates/\S+\.html", src_body) and "replaced with taxonomy" in src_body:
+    for brand in BRANDS:
+        n_src, n_out = src.count(brand), out.count(brand)
+        if n_src > n_out:
+            problems.append(Problem(
+                ERROR, "brand-lost",
+                f"'{brand}' appears {n_src}x in source but {n_out}x here"))
+        # Paired marks quote a brand; a Turkish case apostrophe does not.
+        if n_out and any(re.search(f"{re.escape(o)}{re.escape(brand)}{re.escape(c)}", out)
+                         for o, c in QUOTE_PAIRS):
+            problems.append(Problem(
+                WARN, "brand-quoted", f"'{brand}' is wrapped in quotation marks"))
+    return problems
+
+
+def _frontmatter_problems(src_meta: dict, out_meta: dict, lang: str) -> list[Problem]:
+    """Validate visible strings independently of whether the body is rendered."""
+    problems: list[Problem] = []
+    src_fields = _frontmatter_prose(src_meta)
+    out_fields = _frontmatter_prose(out_meta)
+    for key, value in out_fields.items():
+        if not value.strip():
+            continue
+        ok, msg = register_ok(value, lang)
+        if not ok:
+            problems.append(Problem(WARN, "register-frontmatter", f"'{key}': {msg}"))
+        for problem in _brand_problems(src_fields.get(key, ""), value, lang):
+            problem.message = f"'{key}': {problem.message}"
+            problems.append(problem)
+
+    declared, faults = _declared_source_keeps(out_meta, src_fields, out_fields)
+    problems.extend(faults)
+    for key, value in src_fields.items():
+        if key not in out_fields:
+            problems.append(Problem(
+                ERROR, "frontmatter-field", f"'{key}' is missing or is not a string"))
+            continue
+        translated = out_fields[key]
+        if value.strip() and not translated.strip():
+            problems.append(Problem(
+                ERROR, "frontmatter-field", f"'{key}' must not be empty"))
+            continue
+        if (key not in declared and translated == value
+                and any(c.isalpha() for c in value)):
+            problems.append(Problem(
+                WARN, "untranslated-frontmatter",
+                f"'{key}' is identical to the English source"))
+        # Form placeholders are literal keys substituted at runtime.
+        want = sorted(PLACEHOLDER_RE.findall(value))
+        got = sorted(PLACEHOLDER_RE.findall(translated))
+        if want != got:
+            problems.append(Problem(
+                ERROR, "placeholder-mismatch",
+                f"'{key}' must keep the placeholder(s) verbatim",
+                f"source has {want or 'none'}, translation has {got or 'none'}"))
+    return problems
+
+
+def check_translation(src: str, out: str, lang: str) -> list[Problem]:
+    """Compare translated Markdown and reader-visible metadata against English."""
+    parsed = []
+    for label, text in (("source", src), ("translation", out)):
+        try:
+            parsed.append(strip_frontmatter(text))
+        except FrontmatterError as error:
+            return [Problem(ERROR, "frontmatter", f"{label}: {error}")]
+    (src_body, src_meta), (out_body, out_meta) = parsed
+    problems = _frontmatter_problems(src_meta, out_meta, lang)
+
+    # An unrendered FAQ section documents the taxonomy that owns its URL.
+    # Rendered content still needs body checks even when it quotes that note.
+    if (src_meta.get("render") is False
+            and out_meta.get("render") is False
+            and re.search(r"templates/\S+\.html", src_body)
+            and "replaced with taxonomy" in src_body):
         return problems
 
     # 1. Structure must match the source exactly — unless the page says it
@@ -680,42 +750,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                 ERROR, "contributor-name-lost",
                 f"contributor '{name}' from the source does not appear here"))
 
-    # 5d. The product name translated into local words. Distinct from
-    #     brand-lost: the page may also use the Latin form elsewhere, so a
-    #     count check cannot see it.
-    pat = TRANSLATED_BRAND.get(lang)
-    if pat and not (lang in TRANSLATED_BRAND_EXEMPT
-                    and TRANSLATED_BRAND_EXEMPT[lang][0] in src_body):
-        found = re.findall(pat, out_body, re.IGNORECASE)
-        if found:
-            problems.append(Problem(
-                ERROR, "brand-translated",
-                f"the product name appears translated {len(found)}x, not as "
-                f"'Organic Maps'",
-                str(sorted({f if isinstance(f, str) else " ".join(f)
-                            for f in found})[:3])))
-
-    # 6. Brands: same count, Latin, and never wrapped in quotes.
-    exempt = BRAND_TRANSLITERATING.get(lang, set())
-    if exempt is not None:
-        for brand in BRANDS:
-            if brand in exempt:
-                continue
-            n_src, n_out = src_body.count(brand), out_body.count(brand)
-            if n_src and n_out < n_src:
-                problems.append(Problem(
-                    ERROR, "brand-lost",
-                    f"'{brand}' appears {n_src}x in source but {n_out}x here",
-                ))
-    # The two marks must actually pair. Turkish writes the shipped label
-    # "OpenStreetMap'e Yer Ekle", where the apostrophe attaches the case suffix
-    # and the quotes belong to the whole label, not to the brand.
-    for brand in BRANDS:
-        if any(re.search(f"{re.escape(o)}{re.escape(brand)}{re.escape(c)}", out_body)
-               for o, c in QUOTE_PAIRS):
-            problems.append(Problem(
-                WARN, "brand-quoted",
-                f"'{brand}' is wrapped in quotation marks"))
+    problems.extend(_brand_problems(src_body, out_body, lang))
 
     # 7. Words spliced from two alphabets.
     mixed = mixed_script_words(out_body)
@@ -729,57 +764,6 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     ok, msg = register_ok(out_body, lang)
     if not ok:
         problems.append(Problem(WARN, "register", msg))
-
-    # 9. Untranslated frontmatter fields, `extra` included.
-    if out_meta:
-        src_fields = _frontmatter_prose(strip_frontmatter(src)[1] or {})
-        out_fields = _frontmatter_prose(out_meta)
-
-        for key, value in out_fields.items():
-            ok, msg = register_ok(value, lang)
-            if not ok:
-                problems.append(Problem(WARN, "register-frontmatter", f"'{key}': {msg}"))
-
-        # Some words really are the same in both languages — Dutch and Italian
-        # write "Privacy", German writes "Name (optional)" — and no textual test
-        # can tell those from a field the translator simply skipped: Italian
-        # "Donate" and Occitan "News" were exactly that, and looked identical.
-        # The page declares the fields whose source wording is intentional:
-        #
-        #     extra:
-        #       translation_keeps_source: ["extra.menu_title"]
-        #
-        # Paste the path out of the warning. The declaration is verified, not
-        # merely obeyed: it must name a field that exists and is still identical,
-        # so it cannot outlive the situation it describes.
-        declared, faults = _declared_source_keeps(out_meta, src_fields, out_fields)
-        problems.extend(faults)
-
-        for key, value in src_fields.items():
-            # A value with no letters reads the same in every language: post 39
-            # is called "19:36", a timestamp.
-            if (key not in declared
-                    and out_fields.get(key) == value
-                    and any(c.isalpha() for c in value)):
-                problems.append(Problem(
-                    WARN, "untranslated-frontmatter",
-                    f"'{key}' is identical to the English source"))
-
-        # 9a. Runtime placeholders in those same fields. `donate-subscribe.js`
-        #     fills the submit label and the range error by literal string
-        #     replace — `pattern.replace('{amount}', …)` — so a placeholder the
-        #     translator inflected, spaced or dropped does not raise anything:
-        #     the button just reads "Doe {amount}" to every donor in that
-        #     language. Parity with the source is the whole contract, so a
-        #     mismatch is an ERROR.
-        for key, value in src_fields.items():
-            want = sorted(PLACEHOLDER_RE.findall(value))
-            got = sorted(PLACEHOLDER_RE.findall(out_fields.get(key, "")))
-            if want != got:
-                problems.append(Problem(
-                    ERROR, "placeholder-mismatch",
-                    f"'{key}' must keep the placeholder(s) verbatim",
-                    f"source has {want or 'none'}, translation has {got or 'none'}"))
 
     # 10. Straight ASCII quotes where the language wants its own marks — but
     #     only in prose. HTML attributes, Tera expressions, code spans and

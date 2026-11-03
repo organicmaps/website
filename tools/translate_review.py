@@ -9,7 +9,7 @@ glossary and the concrete findings from translate_check, and asks for a
 corrected version.
 
 The result is validated before it is accepted: if the review introduces a
-structural error the draft did not have, the draft is kept and the failure is
+validation error the draft did not have, the draft is kept and the failure is
 reported. A proofreader that breaks markdown is worse than none.
 
     from translate_review import review_translation
@@ -29,6 +29,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+from markdown_frontmatter import FrontmatterError, strip_frontmatter
 from translate_check import check_translation, ERROR
 from translate_md import expected_register, detect_register
 from deepl_glossary import load_terms, get_review_terms
@@ -131,9 +132,13 @@ def review_translation(src: str, out: str, lang: str,
     """Proofread one translation. Returns (text, note).
 
     The draft is returned unchanged whenever the review cannot be trusted:
-    the CLI failed, the output was empty, or it introduced a structural error
-    the draft did not already have.
+    the source metadata is invalid, the CLI failed, the output was empty, or
+    it introduced an error the draft did not already have.
     """
+    try:
+        strip_frontmatter(src)
+    except FrontmatterError as error:
+        return out, f"invalid source frontmatter: {error}"
     prompt = build_prompt(src, out, lang)
     try:
         proc = subprocess.run(

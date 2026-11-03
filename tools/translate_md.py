@@ -40,7 +40,7 @@ from deepl_glossary import (
     apply_repairs,
     DEEPL_TARGET,
 )
-from markdown_frontmatter import strip_frontmatter
+from markdown_frontmatter import FRONTMATTER_RE, FrontmatterError, strip_frontmatter
 
 REPO_ROOT = Path(__file__).resolve().parent.parent  # tools/ sits below it
 BATCH = 45  # DeepL accepts 50 text params per request
@@ -414,7 +414,7 @@ _FM_TRANSLATE = ("title", "description")
 
 
 def translate_post(raw: str, lang: str, use_glossary: bool = True) -> str:
-    """Translate a whole markdown file, frontmatter included if present."""
+    """Translate Markdown, rejecting malformed frontmatter before API calls."""
     body, meta = strip_frontmatter(raw)
     if not meta:
         return translate_text(raw, lang, use_glossary)
@@ -444,7 +444,7 @@ def translate_post(raw: str, lang: str, use_glossary: bool = True) -> str:
 
     # Rewrite the frontmatter line-wise so unrelated fields keep their exact
     # formatting — round-tripping through a YAML dumper would reflow them.
-    m = re.match(r"^---\s*\n(.*?\n)---\s*\n", raw, re.DOTALL)
+    m = FRONTMATTER_RE.match(raw)
     fm_text = m.group(1)
     for key, value in new_values.items():
         escaped = value.replace("\\", "\\\\").replace('"', '\\"')
@@ -494,11 +494,13 @@ def main() -> None:
         sys.exit(1)
 
     out_dir = args.out or args.source.parent
-    out_dir.mkdir(parents=True, exist_ok=True)
     raw = args.source.read_text(encoding="utf-8")
     stem = args.source.name[:-3] if args.source.name.endswith(".md") else args.source.stem
 
-    body, meta = strip_frontmatter(raw)
+    try:
+        body, meta = strip_frontmatter(raw)
+    except FrontmatterError as error:
+        ap.error(f"{args.source}: {error}")
     payloads, _ = _segments(body if meta else raw, brands_visible(langs[0]))
     chars = sum(len(p) for p in payloads)
     print(f"Source:    {args.source}")
@@ -516,6 +518,7 @@ def main() -> None:
             print(f"  {p[:150]}")
         return
 
+    out_dir.mkdir(parents=True, exist_ok=True)
     failures, blocked = [], []
     for i, lang in enumerate(langs, 1):
         dest = out_dir / f"{stem}.{lang}.md"

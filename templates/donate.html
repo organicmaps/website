@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-{% set subscribe = get_page(path="donate/subscribe/index.md") %}
+{% set subscribe = get_page(path="donate/subscribe/index.md", lang=config.default_language) %}
 {% set translated = [t for t in subscribe.translations if t.lang == lang] | first %}
 {% if translated %}{% set subscribe = get_page(path=translated.path) %}{% endif %}
 {% set f = subscribe.extra.form %}

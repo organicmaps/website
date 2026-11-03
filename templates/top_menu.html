@@ -5,18 +5,16 @@
 <nav id="menu" role="navigation">
   <a href="{{ langPathPrefix | safe }}/"><span class="top_menu_logo"></span></a>
   <span>
-    {% for page in [
-      get_section(path="news/_index.md", lang=config.default_language),
-      get_page(path="donate/index.md", lang=config.default_language),
-      get_page(path="contribute/index.md", lang=config.default_language),
-      get_section(path="faq/_index.md", lang=config.default_language),
-    ] %}
-    {% set translated = [t for t in page.translations if t.lang == lang] | first %}
-    {% if translated %}
-      {% if "_index" in translated.path %}
-        {% set page = get_section(path=translated.path) %}
-      {% else %}
-        {% set page = get_page(path=translated.path) %}
+    {% for path in ["news/_index.md", "donate/index.md", "contribute/index.md", "faq/_index.md"] %}
+    {% if path is ending_with(pat="_index.md") %}
+      {% set page = get_section(path=path, lang=lang, allow_missing=true) %}
+      {% if not page %}
+        {% set page = get_section(path=path, lang=config.default_language) %}
+      {% endif %}
+    {% else %}
+      {% set page = get_page(path=path, lang=lang, allow_missing=true) %}
+      {% if not page %}
+        {% set page = get_page(path=path, lang=config.default_language) %}
       {% endif %}
     {% endif %}
     <span class="top_menu_{{ page.path | split(pat="/") | reverse | nth(n=1) }} top_menu_item{% if page.path != resource_path %}">

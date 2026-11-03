@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-{% set subscribe = get_page(path="donate/subscribe/index.md", lang=config.default_language) %}
-{% set translated = [t for t in subscribe.translations if t.lang == lang] | first %}
-{% if translated %}{% set subscribe = get_page(path=translated.path) %}{% endif %}
+{% set subscribe = get_page(path="donate/subscribe/index.md", lang=lang, allow_missing=true) %}
+{% if not subscribe %}
+  {% set subscribe = get_page(path="donate/subscribe/index.md", lang=config.default_language) %}
+{% endif %}
 {% set f = subscribe.extra.form %}
 {% set donate = resource %}
 {% set return_to = "donate" %}
@@ -19,7 +20,7 @@
       <h1 id="donate-title">{{ resource.title }}</h1>
       {{ story | first | safe }}
     </div>
-    <section id="donation" class="donate-card" aria-labelledby="donate-card-title">
+    <section id="donation" lang="{{ subscribe.lang }}" class="donate-card" aria-labelledby="donate-card-title">
       <h2 id="donate-card-title">{{ f.form_title }}</h2>
       {% include '_donate_form.html' %}
     </section>

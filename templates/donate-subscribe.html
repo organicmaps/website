@@ -10,9 +10,10 @@
 {% block content %}
 {% set f = resource.extra.form %}
 {# The main donation page may be untranslated even when this landing page exists. #}
-{% set donate = get_page(path="donate/index.md", lang=config.default_language) %}
-{% set translated = [t for t in donate.translations if t.lang == lang] | first %}
-{% if translated %}{% set donate = translated %}{% endif %}
+{% set donate = get_page(path="donate/index.md", lang=lang, allow_missing=true) %}
+{% if not donate %}
+  {% set donate = get_page(path="donate/index.md", lang=config.default_language) %}
+{% endif %}
 {% set return_to = "subscribe" %}
 <section class="donate-form-page donate-focused-page">
   <h1>{{ resource.title }}</h1>

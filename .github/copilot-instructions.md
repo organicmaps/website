@@ -76,6 +76,7 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
 npm test             # Offline translation, hook and Telegram regressions
+python3 tools/test_navigation.py # Navigation and donation language fallbacks (requires Zola)
 npm run test:browser # Donation checkout regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
@@ -167,7 +168,9 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 
 - Top menu built dynamically in `templates/top_menu.html`
 - Reads pages via `get_section()` and `get_page()`
-- Finds translations via `[t for t in page.translations if t.lang == lang] | first` because Tera v2 has no `filter` filter
+- The top menu looks up each destination with `lang=lang, allow_missing=true`, then strictly loads the default-language resource if its translation is absent. Missing required default resources stop the build.
+- The bottom menu selects translations from the default-language inventory via `[t for t in page.translations if t.lang == lang] | first` because Tera v2 has no `filter` filter.
+- Top-menu fallback links and donation checkout text declare the selected resource's language so assistive technology can pronounce them correctly. The checkout API still receives the donation page's language for its return URLs.
 - Menu titles from `extra.menu_title` in content frontmatter
 
 ### Styling

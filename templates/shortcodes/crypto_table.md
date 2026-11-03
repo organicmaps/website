@@ -9,26 +9,26 @@
 
 {{ trans(key='name', lang=lang) }} | {{ trans(key='token', lang=lang) }} | {{ trans(key='address', lang=lang) }}
 :-------------|:-----|:----------------------------------------------------------
-Bitcoin       | BTC  | [{{ config.extra.btc }}](bitcoin:{{ config.extra.btc }}?message=Donation) <button onClick="copyToClipboard(this)">copy</button>
-Ethereum      | ETH  | [{{ config.extra.eth }}](ethereum:{{ config.extra.eth }}) <button onClick="copyToClipboard(this)">copy</button>
-Tether/ERC20  | USDT | {{ config.extra.eth }} <button onClick="copyToClipboard(this)">copy</button>
-Tron          | TRX  | [{{ config.extra.trx }}](tron:{{ config.extra.trx }}) <button onClick="copyToClipboard(this)">copy</button>
-Tether/TRC20  | USDT | {{ config.extra.trx }} <button onClick="copyToClipboard(this)">copy</button>
-Litecoin      | LTC  | [{{ config.extra.ltc }}](litecoin:{{ config.extra.ltc }}) <button onClick="copyToClipboard(this)">copy</button>
-Bitcoin Cash  | BCH  | [{{ config.extra.bch }}](bitcoincash:{{ config.extra.bch }}) <button onClick="copyToClipboard(this)">copy</button>
-Telegram      | TON  | [{{ config.extra.ton }}](ton://transfer/{{ config.extra.ton }}) <button onClick="copyToClipboard(this)">copy</button>
-Lighting (Satoshi)| SAT | [{{ config.extra.lnurl }}](lightning:{{ config.extra.lnurl }}) <button onClick="copyToClipboard(this)">copy</button>
-Binance Coin  | BNB  | [{{ config.extra.bnb }}](bnb:{{ config.extra.bnb }}) <button onClick="copyToClipboard(this)">copy</button>
-Algorand      | ALGO | [{{ config.extra.algo }}](algorand://{{ config.extra.algo }}) <button onClick="copyToClipboard(this)">copy</button>
-Cardano       | ADA  | [{{ config.extra.ada }}](cardano:{{ config.extra.ada }}) <button onClick="copyToClipboard(this)">copy</button>
-XRP           | XRP  | [{{ config.extra.xrp }}](ripple:{{ config.extra.xrp }}) <button onClick="copyToClipboard(this)">copy</button>
-Solana        | SOL  | {{ config.extra.sol }} <button onClick="copyToClipboard(this)">copy</button>
-ShibaINU/ERC20| SHIB | {{ config.extra.eth }} <button onClick="copyToClipboard(this)">copy</button>
-Dogecoin      | DOGE | [{{ config.extra.doge }}](dogecoin:{{ config.extra.doge }}) <button onClick="copyToClipboard(this)">copy</button>
-Monero        | XMR  | [{{ config.extra.xmr }}](monero:{{ config.extra.xmr }}) <button onClick="copyToClipboard(this)">copy</button>
-ZCash         | ZEC  | [{{ config.extra.zec }}](zcash:{{ config.extra.zec }}) <button onClick="copyToClipboard(this)">copy</button>
-Nano (XNO)    | NANO | [{{ config.extra.nano }}](nano:{{ config.extra.nano }}) <button onClick="copyToClipboard(this)">copy</button>
-Polkadot      | DOT  | [{{ config.extra.dot }}](polkadot:{{ config.extra.dot }}) <button onClick="copyToClipboard(this)">copy</button>
+Bitcoin       | BTC  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.btc }}](bitcoin:{{ config.extra.btc }}?message=Donation)
+Ethereum      | ETH  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.eth }}](ethereum:{{ config.extra.eth }})
+Tether/ERC20  | USDT | <button onClick="copyToClipboard(this)">copy</button> {{ config.extra.eth }}
+Tron          | TRX  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.trx }}](tron:{{ config.extra.trx }})
+Tether/TRC20  | USDT | <button onClick="copyToClipboard(this)">copy</button> {{ config.extra.trx }}
+Litecoin      | LTC  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.ltc }}](litecoin:{{ config.extra.ltc }})
+Bitcoin Cash  | BCH  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.bch }}](bitcoincash:{{ config.extra.bch }})
+Telegram      | TON  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.ton }}](ton://transfer/{{ config.extra.ton }})
+Lighting (Satoshi)| SAT | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.lnurl }}](lightning:{{ config.extra.lnurl }})
+Binance Coin  | BNB  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.bnb }}](bnb:{{ config.extra.bnb }})
+Algorand      | ALGO | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.algo }}](algorand://{{ config.extra.algo }})
+Cardano       | ADA  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.ada }}](cardano:{{ config.extra.ada }})
+XRP           | XRP  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.xrp }}](ripple:{{ config.extra.xrp }})
+Solana        | SOL  | <button onClick="copyToClipboard(this)">copy</button> {{ config.extra.sol }}
+ShibaINU/ERC20| SHIB | <button onClick="copyToClipboard(this)">copy</button> {{ config.extra.eth }}
+Dogecoin      | DOGE | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.doge }}](dogecoin:{{ config.extra.doge }})
+Monero        | XMR  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.xmr }}](monero:{{ config.extra.xmr }})
+ZCash         | ZEC  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.zec }}](zcash:{{ config.extra.zec }})
+Nano (XNO)    | NANO | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.nano }}](nano:{{ config.extra.nano }})
+Polkadot      | DOT  | <button onClick="copyToClipboard(this)">copy</button> [{{ config.extra.dot }}](polkadot:{{ config.extra.dot }})
 
 <script>
   function copyToClipboard(button) {

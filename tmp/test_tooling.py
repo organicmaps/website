@@ -201,6 +201,48 @@ Body.
             'Organic Maps says «hello»… `print("hello...")`',
         )
 
+    def test_section_note_skips_only_body_checks(self):
+        source = """---
+render: false
+title: Frequently Asked Questions
+description: Questions about Organic Maps
+extra:
+  menu_title: Help
+---
+
+### This page is replaced with taxonomy "faq" from templates/faq/list.html
+"""
+        problems = check_translation(source, source, "de")
+        self.assertEqual(
+            {p.message for p in problems if p.code == "untranslated-frontmatter"},
+            {f"'{key}' is identical to the English source"
+             for key in ("title", "description", "extra.menu_title")},
+        )
+
+        translated = (source
+                      .replace("title: Frequently Asked Questions", "title: Häufige Fragen")
+                      .replace("description: Questions about Organic Maps", "description: Fragen zu Organic Maps")
+                      .replace("menu_title: Help", "menu_title: Hilfe"))
+        self.assertEqual(check_translation(source, translated, "de"), [])
+
+        formal = translated.replace("description: Fragen", "description: Ihre Fragen")
+        self.assertEqual(
+            [p.code for p in check_translation(source, formal, "de")],
+            ["register-frontmatter"],
+        )
+
+        declared = translated.replace(
+            "  menu_title: Hilfe",
+            '  menu_title: Help\n  translation_keeps_source: ["extra.menu_title"]',
+        )
+        self.assertEqual(check_translation(source, declared, "de"), [])
+
+        stale = declared.replace("menu_title: Help", "menu_title: Hilfe")
+        self.assertEqual(
+            [(p.level, p.code) for p in check_translation(source, stale, "de")],
+            [(ERROR, "translation-keeps-source")],
+        )
+
     def test_source_keep_declarations_are_verified(self):
         source = """---
 title: Privacy

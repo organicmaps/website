@@ -1,5 +1,5 @@
 #!/bin/sh
-# Format and validate staged markdown before it is committed.
+# Validate staged Markdown before it is committed.
 #
 # Enable with:  npm run hooks:install     (sets core.hooksPath to .githooks)
 # Skip once with: git commit --no-verify
@@ -20,13 +20,9 @@ staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^content/
 
 fail=0
 
-# --- formatting is deliberately NOT done here ------------------------------
-# Running prettier from the hook was tried and removed. The corpus is not
-# prettier-clean (2,887 files would change), so formatting on commit rewrites
-# whatever you happen to touch, and prettier's proseWrap: never merges soft
-# line breaks - which shifts the block counts translate_check compares against
-# the unformatted English source. Format deliberately with `npm run format`,
-# as its own commit, not as a side effect of committing something else.
+# Format deliberately with `npm run format`, as its own commit. Formatting
+# here would add unrelated changes to the staged content. Translation checks
+# count blank-line-separated blocks, so joining soft line breaks is harmless.
 
 # --- syntax guards, against the staged blobs ------------------------------
 # Includes spaced links, translated anchors, broken emphasis, undefined

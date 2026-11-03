@@ -203,6 +203,7 @@ Body.
 
     def test_section_note_skips_only_body_checks(self):
         source = """---
+render: false
 title: Frequently Asked Questions
 description: Questions about Organic Maps
 extra:
@@ -228,6 +229,18 @@ extra:
         self.assertEqual(
             [p.code for p in check_translation(source, formal, "de")],
             ["register-frontmatter"],
+        )
+
+        declared = translated.replace(
+            "  menu_title: Hilfe",
+            '  menu_title: Help\n  translation_keeps_source: ["extra.menu_title"]',
+        )
+        self.assertEqual(check_translation(source, declared, "de"), [])
+
+        stale = declared.replace("menu_title: Help", "menu_title: Hilfe")
+        self.assertEqual(
+            [(p.level, p.code) for p in check_translation(source, stale, "de")],
+            [(ERROR, "translation-keeps-source")],
         )
 
     def test_source_keep_declarations_are_verified(self):

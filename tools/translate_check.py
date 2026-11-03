@@ -538,9 +538,8 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
                     WARN, "untranslated-frontmatter",
                     f"'{key}' is identical to the English source"))
 
-        # Runtime placeholders are literal replacement keys in donation form
-        # strings; translating or dropping one leaves a broken label or error.
-        for key, value in src_fields.items():
+            # Runtime placeholders are literal replacement keys in donation
+            # form strings; translating or dropping one breaks the label.
             want = sorted(PLACEHOLDER_RE.findall(value))
             got = sorted(PLACEHOLDER_RE.findall(out_fields.get(key, "")))
             if want != got:

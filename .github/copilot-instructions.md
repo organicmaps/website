@@ -288,10 +288,9 @@ link with a space, rejects a non-ASCII heading anchor, and runs
 much of the corpus carries known drift and blocking on that would stop anyone
 editing those files for unrelated reasons. Bypass once with `--no-verify`.
 
-The hook deliberately does **not** format. Running prettier from it was tried
-and removed: the corpus is not prettier-clean, so it rewrites whatever you
-touch, and `proseWrap: never` merges soft line breaks, which shifts the block
-counts `translate_check` compares against the unformatted English source. Run
+The hook deliberately does **not** format: formatting would add unrelated
+changes to the staged content. Translation checks count blank-line-separated
+blocks, so joining soft line breaks does not change the fingerprint. Run
 `npm run format` deliberately, as its own commit.
 
 CI (`.github/workflows/check.yml`) enforces the two syntax guards corpus-wide

@@ -13,6 +13,7 @@ DESTINATIONS = {
     "news/_index.md": ("News", "Neuigkeiten"),
     "donate/index.md": ("Donate", "Spenden"),
     "contribute/index.md": ("Contribute", "Mitmachen"),
+    "team/index.md": ("Team", "Team"),
     "faq/_index.md": ("Help", "Hilfe"),
 }
 
@@ -97,7 +98,7 @@ class NavigationTests(unittest.TestCase):
                 self.build(root)
                 parser = MenuLinks()
                 parser.feed((root / "public/de/index.html").read_text())
-                self.assertEqual(parser.links[:5], expected)
+                self.assertEqual(parser.links[:len(expected)], expected)
                 for href, _ in expected:
                     self.assertTrue((root / "public" / href.strip("/") / "index.html").is_file(), href)
 

@@ -1,0 +1,19 @@
+{#- One person on the team page; `p` is the entry from extra.founders, extra.members or extra.contributors. -#}
+<li class="team-person">
+  <figure class="team-print">
+    {% if p.photo %}
+    <img src="{{ resource.path }}{{ p.photo }}" alt="{{ p.name }}" width="320" height="320" loading="lazy">
+    {% else %}
+    <span class="team-blank" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4.5 20.5a7.5 6.5 0 0 1 15 0"/></svg></span>
+    {% endif %}
+  </figure>
+  <div class="team-about">
+    <h3>{{ p.name }}</h3>
+    <p class="team-role">{{ p.role }}</p>
+    {% if p.bio %}<p class="team-bio">{{ p.bio }}</p>{% endif %}
+    <p class="team-meta">
+      {%- if p.github %}<a class="team-handle" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">@{{ p.github }}</a>{% endif -%}
+      {%- for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor -%}
+    </p>
+  </div>
+</li>

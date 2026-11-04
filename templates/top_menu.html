@@ -5,7 +5,7 @@
 <nav id="menu" role="navigation">
   <a href="{{ langPathPrefix | safe }}/"><span class="top_menu_logo"></span></a>
   <span>
-    {% for path in ["news/_index.md", "donate/index.md", "contribute/index.md", "faq/_index.md"] %}
+    {% for path in ["news/_index.md", "donate/index.md", "contribute/index.md", "team/index.md", "faq/_index.md"] %}
     {% if path is ending_with(pat="_index.md") %}
       {% set page = get_section(path=path, lang=lang, allow_missing=true) %}
       {% if not page %}

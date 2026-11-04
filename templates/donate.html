@@ -20,7 +20,8 @@
       <h1 id="donate-title">{{ resource.title }}</h1>
       {{ story | first | safe }}
     </div>
-    <section id="donation" lang="{{ subscribe.lang }}" class="donate-card" aria-labelledby="donate-card-title">
+    {# Checkout labels can use a different writing direction from the surrounding page. #}
+    <section id="donation" lang="{{ subscribe.lang }}" dir="auto" class="donate-card" aria-labelledby="donate-card-title">
       <h2 id="donate-card-title">{{ f.form_title }}</h2>
       {% include '_donate_form.html' %}
     </section>

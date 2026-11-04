@@ -205,6 +205,23 @@ test('declared main-page CSP permits payment forms and includes Mollie redirect 
   assert.deepEqual(posted.map(p => p.host), ['donate-api.organicmaps.app', 'www.paypal.com']);
 });
 
+test('English checkout keeps its text direction inside an Arabic page', { timeout: 30000 }, async t => {
+  const { page } = await openPage(t, { javaScriptEnabled: false });
+  await page.goto(origin + '/ar/donate/');
+  const direction = selector => page.locator(selector).evaluate(e => getComputedStyle(e).direction);
+  assert.equal(await direction('#donate-form'), 'rtl');
+
+  // Use the rendered English card to exercise fallback labels inside an RTL document.
+  await page.evaluate(html => {
+    const english = new DOMParser().parseFromString(html, 'text/html');
+    document.getElementById('donation').replaceWith(english.getElementById('donation'));
+  }, fs.readFileSync(path.join(output, 'donate/index.html'), 'utf8'));
+  assert.equal(await page.locator('html').getAttribute('dir'), 'rtl');
+  assert.equal(await page.locator('#donate-form').evaluate(form => form.closest('[lang]').lang), 'en');
+  assert.equal(await direction('#donate-form'), 'ltr');
+  assert.equal(await direction('#amount-custom'), 'ltr');
+});
+
 test('the real donation template rejects missing, duplicate and reordered layout markers', { timeout: 30000 }, () => {
   const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'donate-markers-'));
   try {

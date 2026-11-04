@@ -63,6 +63,8 @@ page's `extra.form`. The main page's Markdown contains `<!-- donation-impact -->
 and `<!-- donation-methods -->` exactly once, in that order; its template rejects
 missing, duplicate or reordered markers. JavaScript enables currency selection
 and scales presets together; without it, the form submits EUR consistently.
+The checkout card detects direction from its own labels so an English fallback
+stays left-to-right inside a right-to-left page.
 
 ### Translation Function
 

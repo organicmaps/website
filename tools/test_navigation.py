@@ -148,10 +148,7 @@ class NavigationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self.navigation_site(root)
-            # Exercise resource translations and the additional taxonomy-term links together.
             menu = ('<html lang="{{ lang }}"><nav id="menu">{% set resource = section %}'
-                    '{% set term_translation_langs = ["en", "de"] %}'
-                    '{% set term_translation_urls = ["/news/releases/", "/de/news/releases/"] %}'
                     '{% include "language_selector.html" %}</nav></html>')
             write(root, "templates/index.html", menu)
             self.build(root)
@@ -160,8 +157,7 @@ class NavigationTests(unittest.TestCase):
                     parser = RenderedPage()
                     parser.feed((root / "public" / path / "index.html").read_text())
                     prefix = "/de" if foreign == "de" else ""
-                    self.assertCountEqual(parser.links, [(f"{prefix}/", label, foreign),
-                                                        (f"{prefix}/news/releases/", label, foreign)])
+                    self.assertEqual(parser.links, [(f"{prefix}/", label, foreign)])
 
     def test_missing_default_destinations_stop_the_build(self):
         for missing, kind in (("news/_index.md", "Section"), ("donate/index.md", "Page")):

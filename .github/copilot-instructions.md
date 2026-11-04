@@ -273,9 +273,9 @@ These are the invariants a translated markdown file must hold. Each one was brok
 
 **Never change `slug:` or `aliases:`.** They are published URLs. Corrections can be added by new aliases or redirects.
 
-**Structure must match the English source** line for line: same paragraphs, bullets, headings, links, and `_(Contributor)_` attributions, each attribution at the end of its bullet.
+**Structure must match the English source**: same paragraphs, bullets, headings, links, and `_(Contributor)_` attributions, each attribution at the end of its bullet.
 
-**Write one paragraph per line.** Do not hard-wrap prose. Wrapped text makes line-based tooling read every paragraph as a structural mismatch, and in CJK a soft line break renders as a visible space.
+**Write one paragraph per line.** Do not hard-wrap prose. This keeps content edits easy to review and avoids visible spaces from soft line breaks in CJK. Structural checks compare blank-line-separated blocks, so soft wrapping alone does not change the fingerprint.
 
 **`[label](target)` takes no space.** `[label] (target)` does not parse — it renders as literal text, which happened to 78 links here.
 
@@ -312,7 +312,7 @@ python3 tools/translate_check.py content/news/2026-08-04/630/   # whole folder
 python3 tools/translate_check.py index.md index.ar.md ar        # one file
 ```
 
-ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register in the body and reader-visible frontmatter, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
+ERROR blocks publication — structural mismatch against the source (blocks, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register in the body and reader-visible frontmatter, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
 
 A frontmatter string that is genuinely the same word in both languages —
 Dutch and Italian "Privacy", German "Name (optional)" — declares it explicitly
@@ -362,7 +362,7 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 ## When translating content from English:
 
 - The glossary above covers these mechanically for DeepL; the notes below still apply to manual and LLM proofreading.
-- "bookmark" or "bookmarks" (favorite place, saved by user) , use word "метка" or "метки" for Russian, use word "мітка" or "міткі" for Ukrainian
+- For "bookmark" or "bookmarks" (a saved favorite place), use "метка" or "метки" in Russian and "мітка" or "мітки" in Ukrainian.
 - "track" (recorded path on the map that user walked) to Russian, use word "трек"; for Lithuanian, use word "trasa"
 - "route" to Russian, use word "маршрут"
 - "icon" or "icons" (place's image symbol on the map), use word "иконка" или "иконки" for Russian
@@ -370,9 +370,9 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 - "map" use "мапа" for Ukrainian and Belarusian.
 - use "…" instead of "..."
 - use the informal / familiar second-person address (the casual "you" a brand uses to speak to a single user) consistently in every language that distinguishes formal from informal — e.g. French tu (not vous), German du (not Sie), Spanish tú (not usted), Italian tu (not Lei), Catalan/Occitan tu, Polish ty, Turkish sen, Hungarian te, Greek εσύ, European Portuguese tu. Never mix registers within a text. Exception: Brazilian Portuguese (pt-BR) informal form is "você" — keep it.
-- **Ten languages are the exception: use the FORMAL/polite address.** Russian вы (not ты), Ukrainian ви (not ти), Belarusian вы (not ты), Czech vy (not ty), Lithuanian jūs (not tu), Hindi आप (not तुम/तू), Marathi तुम्ही (not तू), Telugu మీరు (not నువ్వు), Malayalam നിങ്ങൾ (not നീ), Persian شما (not تو) — with the matching verb forms. This overrides the informal rule above for those languages only. `translate_md.py` requests `formality=prefer_more` for them and `prefer_less` for everyone else; `register_ok()` checks the result against the language's expected register.
+- **Ten languages are the exception: use the FORMAL/polite address.** Russian вы (not ты), Ukrainian ви (not ти), Belarusian вы (not ты), Czech vy (not ty), Lithuanian jūs (not tu), Hindi आप (not तुम/तू), Marathi तुम्ही (not तू), Telugu మీరు (not నువ్వు), Malayalam നിങ്ങൾ (not നീ), Persian شما (not تو) — with the matching verb forms. This overrides the informal rule above for those languages only. For DeepL targets that support the option, `translate_md.py` requests `formality=prefer_more` for these languages and `prefer_less` for the others; `register_ok()` checks the result against the language's expected register.
 
-  Russian, Ukrainian and Belarusian take the polite address by convention; Czech and Lithuanian were added by the project owner after the site had been converted the other way, so treat the informal forms you may still find in older commits as superseded. A practical benefit came with it: the informal singular forces a grammatical gender that the polite plural does not, so those two languages no longer address every reader as male. The other five are a different case: their familiar forms are for children, intimates and subordinates, so the polite form is the _unmarked_ way to address an adult stranger rather than a stiff alternative to a warm one — the opposite of French `tu` or German `du`. The app's own shipped strings settle it, addressing users formally in Hindi (66 markers to 1), Marathi (51 to 0) and Persian (49 to 0); Telugu and Malayalam have too few second-person strings to judge and follow their siblings.
+  Russian, Ukrainian, Belarusian, Czech and Lithuanian use polite address by project convention. In Hindi, Marathi, Telugu, Malayalam and Persian, the polite form is the neutral way to address an adult stranger; familiar forms imply a closer social relationship. Keep pronouns and verb forms consistent, and avoid gender-specific wording when addressing an unspecified reader.
 - prefer the target language's native quotation marks (« » for French, Spanish, Catalan, Galician, Greek, Occitan, Russian and European Portuguese; „ " for German, Czech, Polish, Hungarian, Estonian and Lithuanian; full-width quotes for Chinese; etc.) instead of straight ASCII "" or '' (programmer's) quotes.
 - use ё instead е in Russian where applicable
 - do not translate Organic Maps and ID Editor

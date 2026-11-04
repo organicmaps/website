@@ -1,0 +1,424 @@
+/* Team page, styled as the margin of a printed topographic map: a sheet with
+   contour lines and a trail in its corner, a book serif for names and
+   headings, small caps where a map would print its annotations, and people
+   listed like a map legend rather than as a grid of cards. Photos sit on the
+   sheet as small prints, toned alike so GitHub avatars of every kind read as
+   one set, and come back to full colour on hover.
+   The colours are the app's own, from organicmaps/organicmaps
+   data/styles/default/{light,dark}/colors.mapcss: the sheet is the map
+   background, contours are @isoline, the trail and annotations @path, text
+   the map's label greys. Only the annotation rust is a shade deeper than
+   @path, which falls just short of 4.5:1 for small text.
+   Plain CSS inside the partial — custom properties, nesting, block comments.
+   Logical properties for RTL, dark mode at the bottom. */
+
+.team-page {
+  --team-paper: #e3e1d2;       /* @background */
+  --team-ink: #222;            /* @label_dark */
+  --team-ink-soft: #444;       /* @label_light */
+  --team-annotation: #924810;  /* @path #a05012, deepened for contrast */
+  --team-contour: rgb(86 117 86 / 62%);  /* @isoline10 #567556 */
+  --team-trail: #a05012;       /* @path */
+  --team-rule: rgb(34 34 34 / 20%);
+  --team-green: #006c35;
+  --team-print: #fbfaf4;
+  --team-blank: #cfccba;
+  --team-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Charter, "Bitstream Charter", Georgia, serif;
+  --team-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  margin-block: 0.5rem 2.5rem;
+  color: var(--team-ink);
+}
+
+/* ---------- the sheet ---------- */
+
+.team-sheet {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: clamp(1.5rem, 5vw, 4.5rem) clamp(1.25rem, 5vw, 4.5rem) clamp(2rem, 5vw, 4rem);
+  border-radius: 4px;
+  background-color: var(--team-paper);
+  /* a faint speckle, so the sheet reads as paper rather than a flat fill */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .2 0 0 0 0 .22 0 0 0 0 .15 0 0 0 .1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  box-shadow:
+    0 1px 0 rgb(30 34 20 / 6%),
+    0 28px 60px -30px rgb(30 34 20 / 40%);
+
+  /* contour lines in the top corner, coloured through a mask so dark mode can
+     recolour the same file */
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* sized and lifted to stay in the title area and fade out by the founders */
+    inset-block-start: -6rem;
+    inset-inline-end: -5rem;
+    width: min(50rem, 115%);
+    aspect-ratio: 1000 / 760;
+    background: var(--team-contour);
+    mask: url("/images/team/contours.svg") center / contain no-repeat;
+    pointer-events: none;
+  }
+
+  /* the trail and summit on the same spot, in the map's path colour */
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset-block-start: -6rem;
+    inset-inline-end: -5rem;
+    width: min(50rem, 115%);
+    aspect-ratio: 1000 / 760;
+    background: var(--team-trail);
+    mask: url("/images/team/trail.svg") center / contain no-repeat;
+    pointer-events: none;
+  }
+}
+
+/* ---------- title block ---------- */
+
+.team-hero {
+  max-width: 40rem;
+  text-align: start;  /* main.scss centres every <header> */
+  margin-block-end: clamp(2.5rem, 6vw, 4.5rem);
+
+  h1 {
+    margin: 1.25rem 0 1.25rem;
+    padding: 0;
+    border: 0;
+    font-family: var(--team-serif);
+    font-size: clamp(2.5rem, 7vw, 4.6rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+}
+
+/* the strip a printed sheet carries above its title */
+.team-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  color: var(--team-annotation);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  span + span::before {
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 1px;
+    margin-inline-end: 0.75rem;
+    vertical-align: middle;
+    background: currentcolor;
+  }
+}
+
+.team-lead p {
+  margin: 0;
+  color: var(--team-ink-soft);
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  line-height: 1.55;
+  text-wrap: pretty;
+}
+
+/* ---------- groups, set like a map legend ---------- */
+
+.team-group {
+  margin-block-start: clamp(2.5rem, 5vw, 3.5rem);
+
+  h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0 0 0.25rem;
+    padding: 0;
+    border: 0;
+    font-family: var(--team-serif);
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    font-weight: 600;
+
+    &::after {
+      content: "";
+      flex: 1;
+      align-self: center;
+      height: 1px;
+      background: var(--team-ink);
+      opacity: 0.55;
+    }
+  }
+}
+
+.team-count {
+  color: var(--team-annotation);
+  font-family: var(--team-mono);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.team-group-lead {
+  max-width: 34rem;
+  margin: 0.5rem 0 0;
+  color: var(--team-ink-soft);
+}
+
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr));
+  column-gap: clamp(1.5rem, 4vw, 3.5rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-person {
+  --tilt: -1.4deg;
+
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  padding-block: 1.5rem;
+  border-block-end: 1px dashed var(--team-rule);
+
+  &:nth-child(3n + 2) {
+    --tilt: 1.1deg;
+  }
+
+  &:nth-child(3n) {
+    --tilt: -0.5deg;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: var(--team-serif);
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+/* ---------- photo prints ---------- */
+
+.team-print {
+  display: block;
+  margin: 0.15rem 0 0;
+  padding: 5px 5px 14px;
+  background: var(--team-print);
+  box-shadow:
+    0 1px 1px rgb(30 34 20 / 20%),
+    0 8px 16px -8px rgb(30 34 20 / 38%);
+  transform: rotate(var(--tilt));
+  transition: transform 0.35s ease;
+
+  img,
+  .team-blank {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    /* toned alike, so a photo, a cat and pixel art sit together on the sheet */
+    filter: grayscale(1) sepia(0.18) contrast(1.06) brightness(1.04);
+    transition: filter 0.35s ease;
+  }
+}
+
+.team-person:hover .team-print {
+  transform: rotate(0);
+
+  img {
+    filter: none;
+  }
+}
+
+.team-blank {
+  display: grid;
+  place-items: center;
+  background: var(--team-blank);
+
+  svg {
+    width: 50%;
+    fill: none;
+    stroke: var(--team-ink-soft);
+    stroke-width: 1.3;
+  }
+}
+
+/* the open place at the end of the contributors */
+.team-plus {
+  position: relative;
+  border: 1.5px dashed var(--team-annotation);
+  background: transparent;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 50% auto auto 50%;
+    width: 30%;
+    height: 2px;
+    background: var(--team-annotation);
+    transform: translate(-50%, -50%);
+  }
+
+  &::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+.team-join .team-print {
+  padding-block-end: 5px;
+}
+
+/* ---------- the words beside each print ---------- */
+
+.team-role {
+  margin: 0.3rem 0 0.55rem;
+  color: var(--team-annotation);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.team-bio {
+  margin: 0;
+  color: var(--team-ink-soft);
+  font-size: 0.97rem;
+  line-height: 1.55;
+  text-wrap: pretty;
+}
+
+.team-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: 0.65rem 0 0;
+  font-size: 0.85rem;
+
+  &:empty {
+    display: none;
+  }
+
+  a {
+    color: var(--team-green);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+}
+
+.team-handle {
+  font-family: var(--team-mono);
+  font-size: 0.8rem;
+}
+
+/* ---------- founders: larger prints ---------- */
+
+.team-founders .team-person {
+  grid-template-columns: 9rem 1fr;
+  gap: 1.5rem;
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ---------- community note ---------- */
+
+.team-community {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+  gap: 0.5rem clamp(1.5rem, 5vw, 4rem);
+  margin-block-start: clamp(3rem, 6vw, 4.5rem);
+  padding-block-start: 1.75rem;
+  border-block-start: 2px solid var(--team-ink);
+
+  h2 {
+    grid-row: span 2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: var(--team-serif);
+    font-size: clamp(1.6rem, 3.6vw, 2.2rem);
+    font-weight: 600;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  p {
+    margin: 0;
+    color: var(--team-ink-soft);
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  /* the closing line of links */
+  p:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.75rem;
+    margin-block-start: 0.75rem;
+
+    a {
+      color: var(--team-green);
+      font-weight: 650;
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 4px;
+
+      &::after {
+        content: " →";
+      }
+    }
+  }
+}
+
+@media (max-width: 40rem) {
+  .team-person {
+    grid-template-columns: 5rem 1fr;
+    gap: 1rem;
+  }
+
+  .team-founders .team-person {
+    grid-template-columns: 6.5rem 1fr;
+  }
+
+  .team-community {
+    grid-template-columns: 1fr;
+
+    h2 {
+      grid-row: auto;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .team-page {
+    --team-paper: #181915;       /* between the dark @background and @forest */
+    --team-ink: #e3e1d2;         /* the light map background, as text */
+    --team-ink-soft: #a1a1a1;    /* dark @label_dark */
+    --team-annotation: #d2884f;  /* dark @path #944a12, lifted for contrast */
+    --team-contour: rgb(86 117 86 / 75%);
+    --team-trail: #b8642a;
+    --team-rule: rgb(227 225 210 / 16%);
+    --team-green: #79c98f;
+    --team-print: #d8d5c6;
+    --team-blank: #b9b6a6;
+  }
+
+  .team-sheet {
+    box-shadow: 0 0 0 1px rgb(227 225 210 / 7%);
+  }
+}

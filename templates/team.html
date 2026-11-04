@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{# Stable comment divides the translated intro from the community note, the same way the donation page splits its prose. #}
+{% set parts = resource.content | split(pat="<!-- team -->") %}
+{% if parts | length != 2 %}
+  {{ throw(message="Team content must contain <!-- team --> exactly once.") }}
+{% endif %}
+{% set contribute = get_page(path="contribute/index.md") %}
+{% set translated = [t for t in contribute.translations if t.lang == lang] | first %}
+{% if translated %}{% set contribute = get_page(path=translated.path) %}{% endif %}
+<div class="team-page">
+  <div class="team-sheet">
+    <header class="team-hero">
+      <p class="team-kicker"><span>Organic Maps</span><span>{{ resource.extra.eyebrow }}</span></p>
+      <h1>{{ resource.title }}</h1>
+      <div class="team-lead">{{ parts | first | safe }}</div>
+    </header>
+
+    <section class="team-group team-founders" aria-labelledby="team-founders-title">
+      <h2 id="team-founders-title">{{ resource.extra.founders_title }} <span class="team-count">{{ resource.extra.founders | length }}</span></h2>
+      <ul class="team-list" role="list">
+        {% for p in resource.extra.founders %}{% include '_team_card.html' %}{% endfor %}
+      </ul>
+    </section>
+
+    <section class="team-group" aria-labelledby="team-core-title">
+      <h2 id="team-core-title">{{ resource.extra.core_title }} <span class="team-count">{{ resource.extra.members | length }}</span></h2>
+      <ul class="team-list" role="list">
+        {% for p in resource.extra.members %}{% include '_team_card.html' %}{% endfor %}
+      </ul>
+    </section>
+
+    {% if resource.extra.contributors %}
+    <section class="team-group team-contributors" aria-labelledby="team-contributors-title">
+      <h2 id="team-contributors-title">{{ resource.extra.contributors_title }} <span class="team-count">{{ resource.extra.contributors | length }}</span></h2>
+      <p class="team-group-lead">{{ resource.extra.contributors_text }}</p>
+      <ul class="team-list" role="list">
+        {% for p in resource.extra.contributors %}{% include '_team_card.html' %}{% endfor %}
+        <li class="team-person team-join">
+          <a class="team-print" href="{{ contribute.permalink | replace(from=config.base_url, to="") | safe }}" aria-hidden="true" tabindex="-1"><span class="team-blank team-plus"></span></a>
+          <div class="team-about">
+            <h3><a href="{{ contribute.permalink | replace(from=config.base_url, to="") | safe }}">{{ resource.extra.join_title }}</a></h3>
+            <p class="team-bio">{{ resource.extra.join_text }}</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    {% endif %}
+
+    <section class="team-community">{{ parts | nth(n=1) | safe }}</section>
+  </div>
+</div>
+{% endblock content %}

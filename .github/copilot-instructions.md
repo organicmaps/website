@@ -63,8 +63,9 @@ page's `extra.form`. The main page's Markdown contains `<!-- donation-impact -->
 and `<!-- donation-methods -->` exactly once, in that order; its template rejects
 missing, duplicate or reordered markers. JavaScript enables currency selection
 and scales presets together; without it, the form submits EUR consistently.
-The checkout card detects direction from its own labels so an English fallback
-stays left-to-right inside a right-to-left page.
+The checkout card uses the subscribe page's language and the shared
+`extra.rtl_languages` setting for direction, so English fallback labels remain
+left-to-right inside a right-to-left page.
 
 ### Translation Function
 
@@ -154,7 +155,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
    # ... other translation keys
    ```
 2. Create translated content files with `.XX.md` suffix
-3. Add to RTL list in `base.html` if right-to-left language
+3. Add the language to `extra.rtl_languages` in `config.toml` if it is right-to-left.
 4. If `content/donate/subscribe/index.XX.md` is one of them, two things do **not**
    follow automatically:
    - `translate_md.py` does not touch `extra:`, so all `extra.form.*` labels
@@ -180,7 +181,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 - Main styles: `sass/main.scss`
 - Modular imports: `sass/_language_selector.scss`, `sass/_top_menu.scss`
 - Dark mode: `@media (prefers-color-scheme: dark)` blocks
-- RTL support: `dir="rtl"` on `<html>` for RTL languages
+- RTL support: `extra.rtl_languages` in `config.toml` controls document and checkout direction.
 - Responsive design: Flexbox and grid layouts with narrow-screen overrides
 
 ### Static Assets

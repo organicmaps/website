@@ -203,19 +203,27 @@ test('declared main-page CSP permits payment forms and includes Mollie redirect 
   assert.deepEqual(posted.map(p => p.host), ['donate-api.organicmaps.app', 'www.paypal.com']);
 });
 
-test('English checkout keeps its text direction inside an Arabic page', { timeout: 30000 }, async t => {
+test('checkout direction follows its language with Latin brand names and English fallbacks', { timeout: 30000 }, async t => {
   const { page } = await openPage(t, { javaScriptEnabled: false });
   await page.goto(origin + '/ar/donate/');
   const direction = selector => page.locator(selector).evaluate(e => getComputedStyle(e).direction);
   assert.equal(await direction('#donate-form'), 'rtl');
+  await page.locator('#donate-card-title').evaluate(e => { e.textContent = 'Organic Maps — ' + e.textContent; });
+  assert.equal(await direction('#donate-form'), 'rtl');
 
-  // Use the rendered English card to exercise fallback labels inside an RTL document.
+  // Use the English card's language and direction while payment returns stay Arabic.
   await page.evaluate(html => {
     const english = new DOMParser().parseFromString(html, 'text/html');
-    document.getElementById('donation').replaceWith(english.getElementById('donation'));
+    const card = document.getElementById('donation');
+    const englishCard = english.getElementById('donation');
+    card.lang = englishCard.lang;
+    card.dir = englishCard.dir;
+    card.replaceChildren(...englishCard.childNodes);
+    card.querySelector('input[name="lang"]').value = document.documentElement.lang;
   }, fs.readFileSync(path.join(output, 'donate/index.html'), 'utf8'));
   assert.equal(await page.locator('html').getAttribute('dir'), 'rtl');
   assert.equal(await page.locator('#donate-form').evaluate(form => form.closest('[lang]').lang), 'en');
+  assert.equal((await fields(page)).lang, 'ar');
   assert.equal(await direction('#donate-form'), 'ltr');
   assert.equal(await direction('#amount-custom'), 'ltr');
 });

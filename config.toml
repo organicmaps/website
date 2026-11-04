@@ -49,6 +49,8 @@ language_neutral_taxonomy_terms = ["linux"]
 lnurl = "stellarchin694@walletofsatoshi.com"
 ltc = "LU3PAUrAx57v6NPWxzjPkyDmkfDzfZfYq8"
 nano = "nano_3591q1zr5i5jkkj97aw1dze4ki1pkkcrux3srzgyup845pwkeqtjpx4zitaf"
+# Shared by document layout and checkout labels, whose languages can differ.
+rtl_languages = ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"]
 sol = "9Fcm6Gw5PsivSCcpxCh9GVfj9jcPgQ8Q5mZJhsEuRHJV"
 ton = "UQAOoxybV-VFPq-a_BlRh3DHyg28Yo49nL05WO3GGRzPMU7t"
 trx = "THfds4xfMXWBSBBHHAZAmdjBcLMEzESHq5"

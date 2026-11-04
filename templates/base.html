@@ -61,8 +61,7 @@
 {%- endif -%}
 
 <!DOCTYPE html>
-{%- set rtl_langs = ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"] -%}
-<html lang="{{ lang }}" {%- if lang in rtl_langs -%} dir="rtl" {%- endif -%}>
+<html lang="{{ lang }}" {%- if lang in config.extra.rtl_languages -%} dir="rtl" {%- endif -%}>
 
 <head>
   <meta charset="utf-8">

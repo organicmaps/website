@@ -7,6 +7,7 @@ import subprocess
 import tempfile
 import unittest
 from html.parser import HTMLParser
+from itertools import product
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,6 +18,7 @@ DESTINATIONS = {
     "faq/_index.md": ("Help", "Hilfe"),
 }
 CONFIG = ('base_url = "https://example.org"\n'
+          '[extra]\nrtl_languages = ["ar"]\n'
           '[languages.de]\n[translations]\nlanguage = "English"\ncontact = "Contact"\n'
           '[languages.de.translations]\nlanguage = "Deutsch"\ncontact = "Kontakt"\n')
 
@@ -43,6 +45,7 @@ class RenderedPage(HTMLParser):
         self.form_language = None
         self.heading_language = None
         self.checkout_language = None
+        self.card_direction = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -57,6 +60,8 @@ class RenderedPage(HTMLParser):
             self.form_language = language
         if attrs.get("id") == "donate-card-title":
             self.heading_language = language
+        if attrs.get("id") == "donation":
+            self.card_direction = attrs.get("dir")
         if tag == "input" and attrs.get("name") == "lang":
             self.checkout_language = attrs["value"]
         if tag not in self.VOID_TAGS:
@@ -172,10 +177,15 @@ class NavigationTests(unittest.TestCase):
                 self.build(root, expected_error=f"{kind} `{missing}` not found.")
 
     def test_donation_pages_select_companions_and_form_language(self):
-        for missing in ((), ("donate/index.md",), ("donate/subscribe/index.md",)):
-            with self.subTest(missing=missing), tempfile.TemporaryDirectory() as tmp:
+        cases = ((), ("donate/index.md",), ("donate/subscribe/index.md",))
+        for lang, missing in product(("de", "ar"), cases):
+            with self.subTest(lang=lang, missing=missing), tempfile.TemporaryDirectory() as tmp:
                 root = Path(tmp)
-                write(root, "config.toml", CONFIG)
+                config = CONFIG.replace("languages.de", f"languages.{lang}")
+                if lang == "ar":
+                    config = config.replace('language = "Deutsch"', 'language = "العربية"')
+                    config = config.replace('contact = "Kontakt"', 'contact = "اتصل بنا"')
+                write(root, "config.toml", config)
                 write(root, "templates/base.html", '<html lang="{{ lang }}">{% set resource = page %}'
                       '{% block header %}{% endblock %}{% block content %}{% endblock %}</html>')
                 write(root, "static/js/donate-subscribe.js", "")
@@ -190,37 +200,45 @@ class NavigationTests(unittest.TestCase):
                 subscribe = re.sub(r"(?m)^    other_ways:.*$", "    other_ways: Default alternatives", subscribe)
                 write(root, "content/donate/index.md", donate)
                 write(root, "content/donate/subscribe/index.md", subscribe)
+                donate_title = "Spenden" if lang == "de" else "تبرع"
+                donate_slug = "spenden" if lang == "de" else "support"
+                donate_path = f"/{lang}/{donate_slug}/"
+                # A Latin brand name can precede an RTL checkout heading.
+                localized_title = "Localized checkout" if lang == "de" else "Organic Maps — تبرع"
                 if "donate/index.md" not in missing:
-                    write(root, "content/donate/index.de.md",
-                          donate.replace("title: Donate", "title: Spenden\nslug: spenden"))
+                    write(root, f"content/donate/index.{lang}.md",
+                          donate.replace("title: Donate", f"title: {donate_title}\nslug: {donate_slug}"))
                 if "donate/subscribe/index.md" not in missing:
-                    write(root, "content/donate/subscribe/index.de.md",
-                          subscribe.replace("Default", "Localized"))
+                    write(root, f"content/donate/subscribe/index.{lang}.md",
+                          subscribe.replace("Default", "Localized").replace("Localized checkout", localized_title))
 
                 self.build(root)
-                expected_path = "/donate/" if "donate/index.md" in missing else "/de/spenden/"
+                expected_path = "/donate/" if "donate/index.md" in missing else donate_path
+                label = "Default" if "donate/subscribe/index.md" in missing else "Localized"
+                form_lang = "en" if label == "Default" else lang
                 for page in ("donate/index.md", "donate/subscribe/index.md"):
                     if page in missing:
                         continue
                     with self.subTest(page=page):
-                        path = "/de/spenden/" if page == "donate/index.md" else "/de/donate/subscribe/"
+                        path = donate_path if page == "donate/index.md" else f"/{lang}/donate/subscribe/"
                         output = (root / "public" / path.strip("/") / "index.html").read_text()
-                        label = "Default" if "donate/subscribe/index.md" in missing else "Localized"
                         self.assertIn(f'href="{expected_path}#other-ways">{label} alternatives</a>', output)
                         if page == "donate/index.md":
-                            self.assertIn(f'>{label} checkout</h2>', output)
+                            title = "Default checkout" if label == "Default" else localized_title
+                            self.assertIn(f'>{title}</h2>', output)
                         parser = RenderedPage()
                         parser.feed(output)
-                        self.assertEqual(parser.form_language, "en" if label == "Default" else "de")
+                        self.assertEqual(parser.form_language, form_lang)
                         if page == "donate/index.md":
-                            self.assertEqual(parser.heading_language, "en" if label == "Default" else "de")
-                        self.assertEqual(parser.checkout_language, "de")
+                            self.assertEqual(parser.heading_language, form_lang)
+                            self.assertEqual(parser.card_direction, "rtl" if form_lang == "ar" else "ltr")
+                        self.assertEqual(parser.checkout_language, lang)
                         self.assertTrue((root / "public" / expected_path.strip("/") / "index.html").is_file())
 
     def test_donation_layout_markers(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            write(root, "config.toml", 'base_url = "https://example.invalid"\n')
+            write(root, "config.toml", 'base_url = "https://example.invalid"\n[extra]\nrtl_languages = []\n')
             write(root, "templates/donate.html", (ROOT / "templates/donate.html").read_text())
             write(root, "templates/base.html", '{% set resource = page %}{% block content %}{% endblock %}')
             write(root, "templates/_donate_form.html", "")

@@ -17,8 +17,8 @@ DESTINATIONS = {
     "faq/_index.md": ("Help", "Hilfe"),
 }
 CONFIG = ('base_url = "https://example.org"\n'
-          '[languages.de]\n[translations]\nlanguage = "English"\n'
-          '[languages.de.translations]\nlanguage = "Deutsch"\n')
+          '[languages.de]\n[translations]\nlanguage = "English"\ncontact = "Contact"\n'
+          '[languages.de.translations]\nlanguage = "Deutsch"\ncontact = "Kontakt"\n')
 
 
 def write(root, path, text):
@@ -31,9 +31,10 @@ class RenderedPage(HTMLParser):
     VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input",
                  "link", "meta", "param", "source", "track", "wbr"}
 
-    def __init__(self):
+    def __init__(self, menu_id="menu"):
         super().__init__()
         self.stack = []
+        self.menu_id = menu_id
         self.in_menu = False
         self.href = None
         self.link_language = None
@@ -47,7 +48,7 @@ class RenderedPage(HTMLParser):
         attrs = dict(attrs)
         language = attrs.get("lang", self.stack[-1][1] if self.stack else None)
         if tag == "nav":
-            self.in_menu = attrs.get("id") == "menu"
+            self.in_menu = attrs.get("id") == self.menu_id
         if tag == "a" and self.in_menu:
             self.href = attrs["href"]
             self.link_language = language
@@ -96,11 +97,11 @@ class NavigationTests(unittest.TestCase):
         write(root, "config.toml", CONFIG)
         menu = ('<html lang="{{ lang }}">{% set resource = section %}'
                 '{% set resource_path = section.path %}'
-                '{% include "top_menu.html" %}</html>')
+                '{% include "top_menu.html" %}{% include "bottom_menu.html" %}</html>')
         write(root, "templates/index.html", menu)
         write(root, "templates/section.html", menu)
         write(root, "templates/page.html", "{{ page.title }}")
-        for template in ("top_menu.html", "language_selector.html"):
+        for template in ("top_menu.html", "bottom_menu.html", "language_selector.html"):
             write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
         for suffix, title in (("", "Home"), (".de", "Start")):
             write(root, f"content/_index{suffix}.md", f"---\ntitle: {title}\n---\n")
@@ -133,6 +134,29 @@ class NavigationTests(unittest.TestCase):
                 self.assertEqual(parser.links[:5], expected)
                 for href, _, _ in expected:
                     self.assertTrue((root / "public" / href.strip("/") / "index.html").is_file(), href)
+                footer = RenderedPage(menu_id="bottom-menu")
+                footer.feed((root / "public/de/index.html").read_text())
+                self.assertCountEqual([link for link in footer.links if link[0].startswith("/")],
+                                      expected[1:4])
+
+    def test_language_selector_declares_name_languages(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.navigation_site(root)
+            # Exercise resource translations and the additional taxonomy-term links together.
+            menu = ('<html lang="{{ lang }}"><nav id="menu">{% set resource = section %}'
+                    '{% set term_translation_langs = ["en", "de"] %}'
+                    '{% set term_translation_urls = ["/news/releases/", "/de/news/releases/"] %}'
+                    '{% include "language_selector.html" %}</nav></html>')
+            write(root, "templates/index.html", menu)
+            self.build(root)
+            for path, foreign, label in (("", "de", "Deutsch"), ("de/", "en", "English")):
+                with self.subTest(path=path):
+                    parser = RenderedPage()
+                    parser.feed((root / "public" / path / "index.html").read_text())
+                    prefix = "/de" if foreign == "de" else ""
+                    self.assertCountEqual(parser.links, [(f"{prefix}/", label, foreign),
+                                                        (f"{prefix}/news/releases/", label, foreign)])
 
     def test_missing_default_destinations_stop_the_build(self):
         for missing, kind in (("news/_index.md", "Section"), ("donate/index.md", "Page")):

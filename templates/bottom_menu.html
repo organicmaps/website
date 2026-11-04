@@ -13,7 +13,7 @@
   {% endif %}
 
   {% if page.extra.menu_title %}
-  {% if resource_path != page.path %}<a href="{{ page.permalink | replace(from=config.base_url, to="") | safe }}">{% endif %}
+  {% if resource_path != page.path %}<a lang="{{ page.lang }}" href="{{ page.permalink | replace(from=config.base_url, to="") | safe }}">{% endif %}
     <span>{{ page.extra.menu_title }}</span>
     {%- if resource_path != page.path %}</a>{% endif %}
   &nbsp;

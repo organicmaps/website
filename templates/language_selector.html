@@ -19,7 +19,7 @@
     {% for translation in translations | sort(attribute="lang") %}
     {% if lang != translation.lang %}
     <li class="lang-menu-item" role="menuitem">
-      <a class="lang-menu-link" onclick="return onLanguageClick('{{ translation.lang }}');" href="{{ translation.permalink | replace(from=config.base_url, to="") | safe }}">
+      <a lang="{{ translation.lang }}" class="lang-menu-link" onclick="return onLanguageClick('{{ translation.lang }}');" href="{{ translation.permalink | replace(from=config.base_url, to="") | safe }}">
         {{ trans(key="language", lang=translation.lang) }}
       </a>
     </li>
@@ -29,7 +29,7 @@
     {%- for i in range(end=term_translation_langs | length) -%}
     {%- if term_translation_langs[i] != lang %}
     <li class="lang-menu-item" role="menuitem">
-      <a class="lang-menu-link" onclick="return onLanguageClick('{{ term_translation_langs[i] }}');" href="{{ term_translation_urls[i] | replace(from=config.base_url, to="") | safe }}">
+      <a lang="{{ term_translation_langs[i] }}" class="lang-menu-link" onclick="return onLanguageClick('{{ term_translation_langs[i] }}');" href="{{ term_translation_urls[i] | replace(from=config.base_url, to="") | safe }}">
         {{ trans(key="language", lang=term_translation_langs[i]) }}
       </a>
     </li>

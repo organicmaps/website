@@ -292,6 +292,33 @@ def find_unresolved_references(text: str) -> list[tuple[str, str, int]]:
     return unresolved
 
 
+# Markdown files here are rendered by Zola, which passes raw HTML through, so
+# a page can carry a tag that means nothing to Telegram. MarkdownV2 has no HTML
+# at all: an unhandled tag is escaped and shown to readers verbatim, which is
+# how a literal "<br/>" reached the channels in the 2026-08-31 release post.
+BR_RE = re.compile(r"[ \t]*<br\s*/?>[ \t]*\n?", re.IGNORECASE)
+
+# Anything tag-shaped that is not an autolink: "<https://…>" has no space or
+# ">" before its colon, so it never matches.
+HTML_TAG_RE = re.compile(r"</?[A-Za-z][A-Za-z0-9-]*(?:\s[^<>]*)?/?>")
+
+
+def find_raw_html(text: str) -> list[tuple[str, int]]:
+    """Find HTML tags MarkdownV2 cannot render. Returns (tag, line_number).
+
+    Runs on the source markdown, so it reports what an editor wrote rather
+    than what the converter made of it. <br> is excluded: the converter turns
+    it into a line break.
+    """
+    found: list[tuple[str, int]] = []
+    for lineno, line in enumerate(text.splitlines(), 1):
+        line = re.sub(r"`[^`]+`", "", line)  # code spans are verbatim
+        for m in HTML_TAG_RE.finditer(line):
+            if not BR_RE.fullmatch(m.group(0)):
+                found.append((m.group(0), lineno))
+    return found
+
+
 def utf16_len(text: str) -> int:
     """
     Count UTF-16 code units — this is how Telegram measures message length.
@@ -453,6 +480,12 @@ def convert_markdown_to_telegramv2(text: str) -> str:
         return ph(f"`{m.group(1)}`")
 
     text = re.sub(r"`([^`]+)`", repl_code, text)
+
+    # --- Line breaks: <br>, <br/>, <br /> → newline (Zola renders these; a
+    #     literal tag would otherwise be escaped and shown to readers). A tag
+    #     that already ends its line consumes that newline instead of adding
+    #     a second one, so a soft break does not become a paragraph break. ---
+    text = BR_RE.sub("\n", text)
 
     # --- Links [text](url) — strip optional "title" since Telegram
     #     MarkdownV2 does not support link titles ---
@@ -1157,6 +1190,17 @@ def main():
         )
         for target in zola_unresolved:
             print(f"  @/{target}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    raw_html = find_raw_html(text)
+    if raw_html:
+        print(
+            f"\nWarning: {len(raw_html)} HTML tag(s) Telegram will show "
+            f"literally:",
+            file=sys.stderr,
+        )
+        for tag, lineno in raw_html:
+            print(f"  line {lineno}: {tag}", file=sys.stderr)
         print(file=sys.stderr)
 
     # Warn about any unresolved references

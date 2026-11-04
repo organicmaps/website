@@ -116,7 +116,8 @@ class NavigationTests(unittest.TestCase):
         # other destinations must still use their available translations.
         cases = [(), tuple(DESTINATIONS), *((path,) for path in DESTINATIONS)]
         for missing in cases:
-            with self.subTest(missing=missing), tempfile.TemporaryDirectory() as tmp:
+            # Resource kinds must not depend on the checkout directory's name.
+            with self.subTest(missing=missing), tempfile.TemporaryDirectory(prefix="navigation_index-") as tmp:
                 root = Path(tmp)
 
                 def content(path, title):
@@ -132,17 +133,24 @@ class NavigationTests(unittest.TestCase):
                     expected.append((f"{prefix}/{path.split('/')[0]}/",
                                      english if path in missing else german,
                                      "en" if path in missing else "de"))
+                # An ordinary page can contain "_index" in its filename and have a translated slug.
+                content("content/guide_index.md", "Guide")
+                write(root, "content/guide_index.de.md",
+                      '---\ntitle: Anleitung\nslug: anleitung\nextra:\n  menu_title: Anleitung\n---\n')
+                guide = ("/de/anleitung/", "Anleitung", "de")
 
                 self.build(root)
                 parser = RenderedPage()
                 parser.feed((root / "public/de/index.html").read_text())
                 self.assertEqual(parser.links[:5], expected)
-                for href, _, _ in expected:
+                for href, _, _ in [*expected, guide]:
                     self.assertTrue((root / "public" / href.strip("/") / "index.html").is_file(), href)
                 footer = RenderedPage(menu_id="bottom-menu")
                 footer.feed((root / "public/de/index.html").read_text())
                 self.assertCountEqual([link for link in footer.links if link[0].startswith("/")],
-                                      expected[1:4])
+                                      [*expected[1:4], guide])
+                # The API link's tooltip is English on every page.
+                self.assertIn(("https://omaps.app/api", "API", "en"), footer.links)
 
     def test_language_selector_declares_name_languages(self):
         with tempfile.TemporaryDirectory() as tmp:

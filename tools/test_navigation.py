@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build small multilingual sites to test navigation with the real Zola templates."""
+"""Build small sites to test navigation and donation templates with real Zola."""
 
 import re
 import shutil
@@ -216,6 +216,33 @@ class NavigationTests(unittest.TestCase):
                             self.assertEqual(parser.heading_language, "en" if label == "Default" else "de")
                         self.assertEqual(parser.checkout_language, "de")
                         self.assertTrue((root / "public" / expected_path.strip("/") / "index.html").is_file())
+
+    def test_donation_layout_markers(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write(root, "config.toml", 'base_url = "https://example.invalid"\n')
+            write(root, "templates/donate.html", (ROOT / "templates/donate.html").read_text())
+            write(root, "templates/base.html", '{% set resource = page %}{% block content %}{% endblock %}')
+            write(root, "templates/_donate_form.html", "")
+            write(root, "static/js/donate-subscribe.js", "")
+            write(root, "content/donate/subscribe/index.md",
+                  '---\ntitle: Support\nextra:\n  form:\n    form_title: Donate\n---\n')
+            impact = "<!-- donation-impact -->"
+            methods = "<!-- donation-methods -->"
+            valid = f"Intro\n\n{impact}\n\nImpact\n\n{methods}\n\nMethods"
+            cases = {
+                "valid": valid,
+                "missing impact": valid.replace(impact, ""),
+                "missing methods": valid.replace(methods, ""),
+                "duplicate impact": valid + "\n" + impact,
+                "duplicate methods": valid + "\n" + methods,
+                "reordered": f"Intro\n\n{methods}\n\nMethods\n\n{impact}\n\nImpact",
+            }
+            for name, body in cases.items():
+                with self.subTest(layout=name):
+                    write(root, "content/donate/index.md",
+                          '---\ntitle: Donate\ntemplate: donate.html\n---\n\n' + body)
+                    self.build(root, expected_error=None if name == "valid" else "exactly once, in that order")
 
 
 if __name__ == "__main__":

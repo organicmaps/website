@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="f" cx="0.66" cy="0.42" r="0.62"><stop offset="0.55" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="m"><rect width="1000" height="760" fill="url(#f)"/></mask></defs>
+<g mask="url(#m)">
+<path stroke-width="2.2" stroke-dasharray="2 9" d="M 180 720 C 300 650, 330 560, 440 520 S 560 470, 600 400 S 630 350, 640 332"/>
+<path fill="#000" stroke="none" d="M640 318 L651 337 L629 337 Z"/>
+</g></svg>

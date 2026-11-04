@@ -230,7 +230,7 @@ Use containing, not matching, use pat="substring" argument (no regexes), detaile
 
 - **File naming**: Use `index.md` for pages, `_index.md` for sections
 - **Date format**: ISO 8601 with timezone (`2024-03-18T17:45:35+00:00`)
-- **Slugs**: Lowercase with hyphens, translated appropriately
+- **Slugs**: Lowercase with hyphens; preserve published values
 - **Image optimization**: Store content-related images at the same content folder. Store global images in `static/images/`, use components for consistent rendering
 - **Config order**: Sort language sections and translation keys alphabetically in `config.toml`
 
@@ -377,6 +377,5 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 - do not translate Organic Maps and ID Editor
 - do not replace amounts like 5K with zeroes (5.000), either leave it (if it is a normal language practice) or use "5 thousands" equivalent (like 5 тыс. in Russian)
 - do not insert newlines (do not split) for a yaml value in markdown frontmatters
-- replace markdown links starting with @/ and ending with index.md with index.LANGUAGE.md in each translated file.
-- also translate markdown header, including title:, description: and slug: fields
-- Replace /index.md in any links that start with @/ with /index.LANGCODE.md so links in the translated markdown file can point to the related translated page in LANGCODE language.
+- translate `title:` and `description:` in Markdown frontmatter; preserve `slug:` and `aliases:` because they define published URLs.
+- localize Markdown link targets from `@/…/index.md` to `@/…/index.LANGCODE.md` only when that translated page exists.

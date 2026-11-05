@@ -63,6 +63,9 @@ page's `extra.form`. The main page's Markdown contains `<!-- donation-impact -->
 and `<!-- donation-methods -->` exactly once, in that order; its template rejects
 missing, duplicate or reordered markers. JavaScript enables currency selection
 and scales presets together; without it, the form submits EUR consistently.
+The checkout card uses the subscribe page's language and the shared
+`extra.rtl_languages` setting for direction, so English fallback labels remain
+left-to-right inside a right-to-left page.
 
 ### Translation Function
 
@@ -76,6 +79,7 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
 npm test             # Offline translation, hook and Telegram regressions
+python3 tools/test_navigation.py # Navigation and donation template regressions (requires Zola)
 npm run test:browser # Donation checkout regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
@@ -88,8 +92,8 @@ for Telegram publishing and the complete test suite.
 For the browser tests, install Node dependencies with `npm ci`, then install
 Chromium once with `npx playwright install chromium`. Run `zola build` before
 `npm run test:browser`. The suite reads the rendered site and declared security
-headers, mocks payment requests, and uses Zola to check invalid layout markers.
-Set `ZOLA_BIN` when the Zola executable is not on `PATH`.
+headers and mocks payment requests. The Python navigation suite uses Zola to
+check invalid donation layout markers.
 
 ### Where the tooling lives
 
@@ -151,7 +155,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
    # ... other translation keys
    ```
 2. Create translated content files with `.XX.md` suffix
-3. Add to RTL list in `base.html` if right-to-left language
+3. Add the language to `extra.rtl_languages` in `config.toml` if it is right-to-left.
 4. If `content/donate/subscribe/index.XX.md` is one of them, two things do **not**
    follow automatically:
    - `translate_md.py` does not touch `extra:`, so all `extra.form.*` labels
@@ -167,7 +171,9 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 
 - Top menu built dynamically in `templates/top_menu.html`
 - Reads pages via `get_section()` and `get_page()`
-- Finds translations via `[t for t in page.translations if t.lang == lang] | first` because Tera v2 has no `filter` filter
+- The top menu looks up each destination with `lang=lang, allow_missing=true`, then strictly loads the default-language resource if its translation is absent. Missing required default resources stop the build.
+- The bottom menu builds its inventory from default-language resources, then looks up each translation directly using the resource's `relative_path`. Missing translations retain the default resource. The source filename distinguishes sections from pages independently of the checkout directory and translated URL.
+- Menu labels, language-selector names and donation checkout text declare their own language so assistive technology can pronounce them correctly. The checkout API still receives the donation page's language for its return URLs.
 - Menu titles from `extra.menu_title` in content frontmatter
 
 ### Styling
@@ -175,7 +181,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 - Main styles: `sass/main.scss`
 - Modular imports: `sass/_language_selector.scss`, `sass/_top_menu.scss`
 - Dark mode: `@media (prefers-color-scheme: dark)` blocks
-- RTL support: `dir="rtl"` on `<html>` for RTL languages
+- RTL support: `extra.rtl_languages` in `config.toml` controls document and checkout direction.
 - Responsive design: Flexbox and grid layouts with narrow-screen overrides
 
 ### Static Assets
@@ -187,7 +193,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 ### URLs across production and previews
 
 - Use root-relative URLs for browser navigation and assets hosted by this site (`/main.css`, `/js/…`, `/de/faq/`). A path relative to the current page, such as `main.css`, breaks on localized and nested pages.
-- In templates, use a resource's `.path` for an internal link. When only `.permalink` is available, strip `config.base_url` from that known site permalink. For a cache-busted asset, use `get_url(path="…", cachebust=true) | replace(from=config.base_url, to="") | safe` so the hash remains but the browser loads the asset from the current deployment.
+- In templates, use a full resource's `.path` for an internal link. Entries in `.translations` are summaries: their `.path` identifies a content file, so use their `.permalink` with `config.base_url` stripped for browser navigation. For a cache-busted asset, use `get_url(path="…", cachebust=true) | replace(from=config.base_url, to="") | safe` so the hash remains but the browser loads the asset from the current deployment.
 - Keep absolute URLs where the consumer needs them: canonical and hreflang tags, OpenGraph and structured data, sitemaps, external services, and the donation form's cross-origin API action. A preview that tests payments must explicitly target a staging API; a relative form action would hit the Pages site instead.
 - Do not hard-code `https://organicmaps.app` for new same-site links. Markdown `@/…` links are still required for translation-aware cross-references; Zola expands them using `base_url`, so preview builds need a deployment-specific `base_url` if those links must stay on the preview. Do not blindly replace URLs in rendered Markdown: an article may intentionally quote or link to the public site.
 
@@ -225,7 +231,7 @@ Use containing, not matching, use pat="substring" argument (no regexes), detaile
 
 - **File naming**: Use `index.md` for pages, `_index.md` for sections
 - **Date format**: ISO 8601 with timezone (`2024-03-18T17:45:35+00:00`)
-- **Slugs**: Lowercase with hyphens, translated appropriately
+- **Slugs**: Lowercase with hyphens; preserve published values
 - **Image optimization**: Store content-related images at the same content folder. Store global images in `static/images/`, use components for consistent rendering
 - **Config order**: Sort language sections and translation keys alphabetically in `config.toml`
 
@@ -267,9 +273,9 @@ These are the invariants a translated markdown file must hold. Each one was brok
 
 **Never change `slug:` or `aliases:`.** They are published URLs. Corrections can be added by new aliases or redirects.
 
-**Structure must match the English source** line for line: same paragraphs, bullets, headings, links, and `_(Contributor)_` attributions, each attribution at the end of its bullet.
+**Structure must match the English source**: same paragraphs, bullets, headings, links, and `_(Contributor)_` attributions, each attribution at the end of its bullet.
 
-**Write one paragraph per line.** Do not hard-wrap prose. Wrapped text makes line-based tooling read every paragraph as a structural mismatch, and in CJK a soft line break renders as a visible space.
+**Write one paragraph per line.** Do not hard-wrap prose. This keeps content edits easy to review and avoids visible spaces from soft line breaks in CJK. Structural checks compare blank-line-separated blocks, so soft wrapping alone does not change the fingerprint.
 
 **`[label](target)` takes no space.** `[label] (target)` does not parse — it renders as literal text, which happened to 78 links here.
 
@@ -306,7 +312,7 @@ python3 tools/translate_check.py content/news/2026-08-04/630/   # whole folder
 python3 tools/translate_check.py index.md index.ar.md ar        # one file
 ```
 
-ERROR blocks publication — structural mismatch against the source (lines, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register in the body and reader-visible frontmatter, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
+ERROR blocks publication — structural mismatch against the source (blocks, bullets, headings, links, attributions, Tera expressions/components), leftover `<x>`/`<a0>` tags, a link that lost its opening `[`, an attribution moved out of its bullet, a lost brand, or a word spliced from two alphabets. Warnings cover polish: register in the body and reader-visible frontmatter, straight quotes, `...`, quoted brands, and suffixes stranded outside a link.
 
 A frontmatter string that is genuinely the same word in both languages —
 Dutch and Italian "Privacy", German "Name (optional)" — declares it explicitly
@@ -356,7 +362,7 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 ## When translating content from English:
 
 - The glossary above covers these mechanically for DeepL; the notes below still apply to manual and LLM proofreading.
-- "bookmark" or "bookmarks" (favorite place, saved by user) , use word "метка" or "метки" for Russian, use word "мітка" or "міткі" for Ukrainian
+- For "bookmark" or "bookmarks" (a saved favorite place), use "метка" or "метки" in Russian and "мітка" or "мітки" in Ukrainian.
 - "track" (recorded path on the map that user walked) to Russian, use word "трек"; for Lithuanian, use word "trasa"
 - "route" to Russian, use word "маршрут"
 - "icon" or "icons" (place's image symbol on the map), use word "иконка" или "иконки" for Russian
@@ -364,14 +370,13 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 - "map" use "мапа" for Ukrainian and Belarusian.
 - use "…" instead of "..."
 - use the informal / familiar second-person address (the casual "you" a brand uses to speak to a single user) consistently in every language that distinguishes formal from informal — e.g. French tu (not vous), German du (not Sie), Spanish tú (not usted), Italian tu (not Lei), Catalan/Occitan tu, Polish ty, Turkish sen, Hungarian te, Greek εσύ, European Portuguese tu. Never mix registers within a text. Exception: Brazilian Portuguese (pt-BR) informal form is "você" — keep it.
-- **Ten languages are the exception: use the FORMAL/polite address.** Russian вы (not ты), Ukrainian ви (not ти), Belarusian вы (not ты), Czech vy (not ty), Lithuanian jūs (not tu), Hindi आप (not तुम/तू), Marathi तुम्ही (not तू), Telugu మీరు (not నువ్వు), Malayalam നിങ്ങൾ (not നീ), Persian شما (not تو) — with the matching verb forms. This overrides the informal rule above for those languages only. `translate_md.py` requests `formality=prefer_more` for them and `prefer_less` for everyone else; `register_ok()` checks the result against the language's expected register.
+- **Ten languages are the exception: use the FORMAL/polite address.** Russian вы (not ты), Ukrainian ви (not ти), Belarusian вы (not ты), Czech vy (not ty), Lithuanian jūs (not tu), Hindi आप (not तुम/तू), Marathi तुम्ही (not तू), Telugu మీరు (not నువ్వు), Malayalam നിങ്ങൾ (not നീ), Persian شما (not تو) — with the matching verb forms. This overrides the informal rule above for those languages only. For DeepL targets that support the option, `translate_md.py` requests `formality=prefer_more` for these languages and `prefer_less` for the others; `register_ok()` checks the result against the language's expected register.
 
-  Russian, Ukrainian and Belarusian take the polite address by convention; Czech and Lithuanian were added by the project owner after the site had been converted the other way, so treat the informal forms you may still find in older commits as superseded. A practical benefit came with it: the informal singular forces a grammatical gender that the polite plural does not, so those two languages no longer address every reader as male. The other five are a different case: their familiar forms are for children, intimates and subordinates, so the polite form is the _unmarked_ way to address an adult stranger rather than a stiff alternative to a warm one — the opposite of French `tu` or German `du`. The app's own shipped strings settle it, addressing users formally in Hindi (66 markers to 1), Marathi (51 to 0) and Persian (49 to 0); Telugu and Malayalam have too few second-person strings to judge and follow their siblings.
+  Russian, Ukrainian, Belarusian, Czech and Lithuanian use polite address by project convention. In Hindi, Marathi, Telugu, Malayalam and Persian, the polite form is the neutral way to address an adult stranger; familiar forms imply a closer social relationship. Keep pronouns and verb forms consistent, and avoid gender-specific wording when addressing an unspecified reader.
 - prefer the target language's native quotation marks (« » for French, Spanish, Catalan, Galician, Greek, Occitan, Russian and European Portuguese; „ " for German, Czech, Polish, Hungarian, Estonian and Lithuanian; full-width quotes for Chinese; etc.) instead of straight ASCII "" or '' (programmer's) quotes.
 - use ё instead е in Russian where applicable
 - do not translate Organic Maps and ID Editor
 - do not replace amounts like 5K with zeroes (5.000), either leave it (if it is a normal language practice) or use "5 thousands" equivalent (like 5 тыс. in Russian)
 - do not insert newlines (do not split) for a yaml value in markdown frontmatters
-- replace markdown links starting with @/ and ending with index.md with index.LANGUAGE.md in each translated file.
-- also translate markdown header, including title:, description: and slug: fields
-- Replace /index.md in any links that start with @/ with /index.LANGCODE.md so links in the translated markdown file can point to the related translated page in LANGCODE language.
+- translate `title:` and `description:` in Markdown frontmatter; preserve `slug:` and `aliases:` because they define published URLs.
+- localize Markdown link targets from `@/…/index.md` to `@/…/index.LANGCODE.md` only when that translated page exists.

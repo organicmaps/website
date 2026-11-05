@@ -97,5 +97,5 @@
           data-label-once="{{ f.submit_once }}" data-label-month="{{ f.submit_month }}"
           data-label-year="{{ f.submit_year }}" data-label-loading="{{ f.submit_loading }}">{{ f.submit }}</button>
   <p class="donate-secure-note">{{ f.secure_note }}</p>
-  <p class="donate-alt"><a href="{{ donate.permalink | replace(from=config.base_url, to="") | safe }}#other-ways">{{ f.other_ways }}</a></p>
+  <p class="donate-alt"><a href="{{ donate.path | safe }}#other-ways">{{ f.other_ways }}</a></p>
 </form>

@@ -61,8 +61,7 @@
 {%- endif -%}
 
 <!DOCTYPE html>
-{%- set rtl_langs = ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"] -%}
-<html lang="{{ lang }}" {%- if lang in rtl_langs -%} dir="rtl" {%- endif -%}>
+<html lang="{{ lang }}" {%- if lang in config.extra.rtl_languages -%} dir="rtl" {%- endif -%}>
 
 <head>
   <meta charset="utf-8">
@@ -120,7 +119,7 @@
      those into each page's output directory, which is per-language and keyed
      by slug, so resolve it against resource_path rather than the site root -
      a site-root path like 'news/2026-08-31/630/x.jpg' never exists in public/.
-     A value containing a slash is taken as a site-root path as before.
+     A value containing a slash is taken as a site-root path.
      urlencode because asset filenames may hold spaces or non-ASCII. #}
   {%- set preview_image = resource.extra.preview_image -%}
   {%- if not (preview_image is containing(pat='/')) -%}

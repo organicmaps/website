@@ -22,7 +22,7 @@ jobs:
           tar -zxvf zola.tar.gz
           ./zola build
 
-      - name: Navigation template regressions
+      - name: Navigation and donation template regressions
         run: PATH="$PWD:$PATH" python3 tools/test_navigation.py
 
       - uses: actions/setup-node@v6
@@ -36,8 +36,6 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Donation checkout browser regressions
-        env:
-          ZOLA_BIN: ./zola
         run: npm run test:browser
 
   markdown:

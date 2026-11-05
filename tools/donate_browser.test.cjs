@@ -4,8 +4,6 @@ const { test, before, after } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const os = require('node:os');
-const { spawnSync } = require('node:child_process');
 const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '..');
@@ -205,31 +203,27 @@ test('declared main-page CSP permits payment forms and includes Mollie redirect 
   assert.deepEqual(posted.map(p => p.host), ['donate-api.organicmaps.app', 'www.paypal.com']);
 });
 
-test('the real donation template rejects missing, duplicate and reordered layout markers', { timeout: 30000 }, () => {
-  const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'donate-markers-'));
-  try {
-    for (const dir of ['templates', 'content/donate/subscribe', 'static/js']) fs.mkdirSync(path.join(fixture, dir), { recursive: true });
-    fs.writeFileSync(path.join(fixture, 'config.toml'), 'base_url = "https://example.invalid"\n');
-    fs.copyFileSync(path.join(root, 'templates/donate.html'), path.join(fixture, 'templates/donate.html'));
-    fs.writeFileSync(path.join(fixture, 'templates/base.html'), '{% set resource = page %}{% block content %}{% endblock %}');
-    fs.writeFileSync(path.join(fixture, 'templates/_donate_form.html'), '');
-    fs.writeFileSync(path.join(fixture, 'static/js/donate-subscribe.js'), '');
-    fs.writeFileSync(path.join(fixture, 'content/donate/subscribe/index.md'), '---\ntitle: Support\nextra:\n  form:\n    form_title: Donate\n---\n');
-    const impact = '<!-- donation-impact -->';
-    const methods = '<!-- donation-methods -->';
-    const valid = `Intro\n\n${impact}\n\nImpact\n\n${methods}\n\nMethods`;
-    for (const body of [valid, valid.replace(impact, ''), valid.replace(methods, ''), valid + '\n' + impact,
-      valid + '\n' + methods, `Intro\n\n${methods}\n\nMethods\n\n${impact}\n\nImpact`]) {
-      fs.writeFileSync(path.join(fixture, 'content/donate/index.md'), '---\ntitle: Donate\ntemplate: donate.html\n---\n\n' + body);
-      const result = spawnSync(process.env.ZOLA_BIN || 'zola', ['--root', fixture, 'build', '--force'], { encoding: 'utf8', timeout: 10000 });
-      if (result.error) throw result.error;
-      if (body === valid) assert.equal(result.status, 0, result.stdout + result.stderr);
-      else {
-        assert.notEqual(result.status, 0);
-        assert.match(result.stdout + result.stderr, /exactly once, in that order/);
-      }
-    }
-  } finally {
-    fs.rmSync(fixture, { recursive: true, force: true });
-  }
+test('checkout direction follows its language with Latin brand names and English fallbacks', { timeout: 30000 }, async t => {
+  const { page } = await openPage(t, { javaScriptEnabled: false });
+  await page.goto(origin + '/ar/donate/');
+  const direction = selector => page.locator(selector).evaluate(e => getComputedStyle(e).direction);
+  assert.equal(await direction('#donate-form'), 'rtl');
+  await page.locator('#donate-card-title').evaluate(e => { e.textContent = 'Organic Maps — ' + e.textContent; });
+  assert.equal(await direction('#donate-form'), 'rtl');
+
+  // Use the English card's language and direction while payment returns stay Arabic.
+  await page.evaluate(html => {
+    const english = new DOMParser().parseFromString(html, 'text/html');
+    const card = document.getElementById('donation');
+    const englishCard = english.getElementById('donation');
+    card.lang = englishCard.lang;
+    card.dir = englishCard.dir;
+    card.replaceChildren(...englishCard.childNodes);
+    card.querySelector('input[name="lang"]').value = document.documentElement.lang;
+  }, fs.readFileSync(path.join(output, 'donate/index.html'), 'utf8'));
+  assert.equal(await page.locator('html').getAttribute('dir'), 'rtl');
+  assert.equal(await page.locator('#donate-form').evaluate(form => form.closest('[lang]').lang), 'en');
+  assert.equal((await fields(page)).lang, 'ar');
+  assert.equal(await direction('#donate-form'), 'ltr');
+  assert.equal(await direction('#amount-custom'), 'ltr');
 });

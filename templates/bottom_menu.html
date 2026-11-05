@@ -3,24 +3,23 @@
 
 <nav id="bottom-menu" role="navigation">
   {% for page in [home, news, ...home.pages] %}
-  {% set translated = [t for t in page.translations if t.lang == lang] | first %}
-  {% if translated %}
-    {% if "_index" in translated.path %}
-      {% set page = get_section(path=translated.path) %}
-    {% else %}
-      {% set page = get_page(path=translated.path) %}
-    {% endif %}
+  {# Default-language sections use the exact filename _index.md; guide_index.md is a page. #}
+  {% if page.relative_path | split(pat="/") | last == "_index.md" %}
+    {% set translated = get_section(path=page.relative_path, lang=lang, allow_missing=true) %}
+  {% else %}
+    {% set translated = get_page(path=page.relative_path, lang=lang, allow_missing=true) %}
   {% endif %}
+  {% if translated %}{% set page = translated %}{% endif %}
 
   {% if page.extra.menu_title %}
-  {% if resource_path != page.path %}<a href="{{ page.permalink | replace(from=config.base_url, to="") | safe }}">{% endif %}
+  {% if resource_path != page.path %}<a lang="{{ page.lang }}" href="{{ page.path | safe }}">{% endif %}
     <span>{{ page.extra.menu_title }}</span>
     {%- if resource_path != page.path %}</a>{% endif %}
   &nbsp;
   {% endif %}
   {% endfor %}
 
-  <a href="https://omaps.app/api" title="How to open Organic Maps from other apps and pass the data back">API</a>
+  <a lang="en" href="https://omaps.app/api" title="How to open Organic Maps from other apps and pass the data back">API</a>
   &nbsp;
   <a href="mailto:hello@organicmaps.app">{{ trans(key='contact', lang=lang) }}</a>
 </nav>

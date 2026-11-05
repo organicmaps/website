@@ -120,14 +120,6 @@ Organic Maps 无需过多权限：
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">为我们提供</a>了一台价值约 12,000 美元/年的免费专用服务器，用于在越南和东南亚提供地图服务。
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

@@ -122,14 +122,6 @@ A continuación se indican los apreciados patrocinadores institucionales que han
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> nos <a href="https://44plus.vn/organicmaps">proporciona</a> un servidor dedicado gratuito por valor de alrededor de $12,000/año para servir mapas en Vietnam y el sudeste asiático.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

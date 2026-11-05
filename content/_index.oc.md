@@ -122,14 +122,6 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> nos <a href="https://44plus.vn/organicmaps">fornís</a> un servidor dedicat gratuit d'una valor d'environ $12,000/an per servir de mapas al Vietnam e en Asia del Sud-Èst.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

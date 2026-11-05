@@ -121,14 +121,6 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies-ek</a> <a href="https://44plus.vn/organicmaps">ematen digu</a> urtean 12.000 $ inguruko balioa duen zerbitzari dedikatu doako bat Vietnam eta Hego-ekialdeko Asian mapak zerbitzatzeko.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

@@ -120,14 +120,6 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">מספקת לנו</a> שרת ייעודי חינם בשווי של כ-$12,000 לשנה להגשת מפות ברחבי וייטנאם ודרום מזרח אסיה.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

@@ -120,14 +120,6 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> వియత్నాం మరియు ఆగ్నేయాసియాలో మ్యాప్‌లను అందించడానికి సంవత్సరానికి సుమారు $12,000 విలువైన ఉచిత డెడికేటెడ్ సర్వర్‌ను మాకు <a href="https://44plus.vn/organicmaps">అందిస్తుంది</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

@@ -121,14 +121,6 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> yn <a href="https://44plus.vn/organicmaps">darparu i ni</a> weinydd pwrpasol am ddim gwerth tua $12,000/flwyddyn i weini mapiau ar draws Fietnam a De-ddwyrain Asia.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

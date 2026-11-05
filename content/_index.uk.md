@@ -121,14 +121,6 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">надає</a> нам безкоштовний виділений сервер вартістю близько $12 000 на рік для обслуговування карт у В’єтнамі та Південно-Східній Азії.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

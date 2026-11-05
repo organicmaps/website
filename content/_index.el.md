@@ -122,14 +122,6 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      Η <a href="https://44plus.vn">44+ Technologies</a> μας <a href="https://44plus.vn/organicmaps">παρέχει</a> έναν δωρεάν αποκλειστικό διακομιστή αξίας περίπου $12.000/έτος για την εξυπηρέτηση χαρτών στο Βιετνάμ και τη Νοτιοανατολική Ασία.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

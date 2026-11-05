@@ -120,14 +120,6 @@ iOS പ്രയോഗം [iOS-നുള്ള TrackerControl][trackercontrol] �
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> വിയറ്റ്നാമിലും തെക്കുകിഴക്കൻ ഏഷ്യയിലും മാപ്പുകൾ സേവിക്കുന്നതിനായി ഏകദേശം $12,000/വർഷം വിലമതിക്കുന്ന ഒരു സൗജന്യ ഡെഡിക്കേറ്റഡ് സെർവർ നമുക്ക് <a href="https://44plus.vn/organicmaps">നൽകുന്നു</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

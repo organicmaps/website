@@ -122,14 +122,6 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">pakub meile</a> tasuta pühendatud serverit väärtusega umbes 12 000 dollarit aastas kaartide serveerimiseks Vietnamis ja Kagu-Aasias.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

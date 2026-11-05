@@ -121,14 +121,6 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">menyediakan</a> server khusus gratis senilai sekitar $12.000/tahun untuk melayani peta di Vietnam dan Asia Tenggara.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

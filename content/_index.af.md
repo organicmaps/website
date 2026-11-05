@@ -121,14 +121,6 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">verskaf aan ons</a> 'n gratis toegewyde bediener ter waarde van ongeveer $12,000/jaar om kaarte oor Viëtnam & Suidoos-Asië te bedien.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

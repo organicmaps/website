@@ -121,14 +121,6 @@ Organic Maps لا يطلب أذونات مفرطة للتجسس عليك:
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">توفر لنا</a> خادمًا مخصصًا مجانيًا بقيمة حوالي 12,000 دولار سنويًا لتقديم الخرائط عبر فيتنام وجنوب شرق آسيا.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

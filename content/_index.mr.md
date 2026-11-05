@@ -121,14 +121,6 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> आम्हाला व्हिएतनाम आणि दक्षिण पूर्व आशियामध्ये नकाशे सर्व्ह करण्यासाठी सुमारे $12,000/वर्ष किमतीचा एक मोफत समर्पित सर्व्हर <a href="https://44plus.vn/organicmaps">प्रदान करतो</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

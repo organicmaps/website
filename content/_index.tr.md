@@ -120,14 +120,6 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a>, Vietnam ve Güneydoğu Asya'da harita sunmak için bize yılda yaklaşık 12.000 $ değerinde ücretsiz bir özel sunucu <a href="https://44plus.vn/organicmaps">sağlıyor</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

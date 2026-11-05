@@ -120,14 +120,6 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">हमें</a> वियतनाम और दक्षिण पूर्व एशिया में मानचित्रों की सेवा के लिए लगभग $12,000/वर्ष मूल्य का एक मुफ्त समर्पित सर्वर प्रदान कर रहा है।
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>

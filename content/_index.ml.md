@@ -142,7 +142,7 @@ Apache License 2.0 പ്രകാരം ലൈസൻസ് ചെയ്ത ഒ�
 - പുതിയ വിവരങ്ങൾക്കായി ഞങ്ങളുടെ [Telegram ചാനൽ][telegram] അല്ലെങ്കിൽ [Matrix സ്പേസ്][matrix] സബ്സ്ക്രൈബ് ചെയ്യുക.
 - മറ്റ് ഉപയോക്താക്കളുമായി ചർച്ച ചെയ്യാൻ ഞങ്ങളുടെ [Telegram Group][telegram_chat] ചേരുക.
 - ഞങ്ങളുടെ [GitHub page][github] സന്ദർശിക്കുക.
-- [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] എന്നിവയിൽ ഞങ്ങളുടെ അപ്ഡേറ്റുകൾ പിന്തുടരുക.
+- [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] എന്നിവയിൽ ഞങ്ങളുടെ അപ്ഡേറ്റുകൾ പിന്തുടരുക.
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

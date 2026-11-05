@@ -142,7 +142,7 @@ Organic Maps एक [ओपन-सोर्स सॉफ्टवेयर][gith
 - अपडेट के लिए हमारे [Telegram Channel][telegram] या [matrix space][matrix] की सदस्यता लें।
 - अन्य उपयोगकर्ताओं के साथ चर्चा करने के लिए हमारे [Telegram Group][telegram_chat] में शामिल हों।
 - हमारे [GitHub पेज][github] पर जाएं।
-- [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] पर हमारे अपडेट का पालन करें।
+- [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] पर हमारे अपडेट का पालन करें।
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

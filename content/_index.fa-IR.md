@@ -140,9 +140,9 @@ Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز 
 - مشکلات یا ایرادات را به [ردیاب مشکلات][issues] گزارش دهید یا [به ما ایمیل بزنید][email].
 - [ایده‌های خودتون را مطرح کنید][ideas] یا درخواست ویژگی‌های جدید پیشنهاد دهید.
 - برای دریافت به‌روزرسانی‌ها، به [کانال تلگرام ما][telegram] یا [فضای ماتریکس][matrix] بپیوندید.
-- به [گروه تلگرام فارسی ما][telegram_chat_fa] یا [گروه انگلیسی][telegram_chat] بپیوندید تا با سایر کاربران بحث کنید.
+- به [گروه تلگرام فارسی ما][telegram_chat_fa] بپیوندید تا با سایر کاربران بحث کنید.
 - از [صفحه گیت‌هاب ما][github] دیدن کنید.
-- برای اطلاع از به‌روزرسانی‌ها ما را در [FOSStodon][fosstodon]، [فیسبوک][facebook]، [توییتر][twitter]، [اینستاگرام][instagram]، [Bluesky][bluesky]، [Threads][threads]، [ردیت][reddit]، [لینکدین][linkedin]، [TikTok][tiktok] دنبال کنید.
+- برای اطلاع از به‌روزرسانی‌ها ما را در [FOSStodon][fosstodon]، [فیسبوک][facebook]، [توییتر][twitter]، [اینستاگرام][instagram]، [Bluesky][bluesky]، [Threads][threads]، [Patreon][patreon]، [YouTube][youtube]، [ردیت][reddit]، [لینکدین][linkedin]، [TikTok][tiktok] دنبال کنید.
 
 [fork]: https://fa.wikipedia.org/wiki/انشعاب_(توسعه_نرم‌افزار)
 

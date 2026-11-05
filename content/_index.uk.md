@@ -141,9 +141,9 @@ Organic Maps - це [ПЗ з відкритим початковим кодом]
 - Повідомляйте про помилки або проблеми на [GitHub][issues] або через [ел. пошту][email].
 - [Обговорюйте][ideas] ідеї або пропонуйте запити на нові функції.
 - Підписуйтесь на наш [Telegram канал][telegram] або на [matrix space][matrix].
-- Приєднуйтесь до нашої [україномовної Telegram групи][telegram_chat_uk] або до [англомовної групи][telegram_chat], щоб подискутувати з іншими користувачами.
+- Приєднуйтесь до нашої [україномовної Telegram-групи][telegram_chat_uk], щоб подискутувати з іншими користувачами.
 - Відвідайте нашу [сторінку на GitHub][github].
-- Слідкуйте за нами у [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Слідкуйте за нами у [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://uk.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BA
 

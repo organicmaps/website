@@ -32,6 +32,7 @@
 [mythic_beasts]: https://www.mythic-beasts.com/
 [obtainium]: https://github.com/organicmaps/organicmaps/wiki/Installing-Organic-Maps-from-GitHub-using-Obtainium "Organic Maps from GitHub Releases"
 [openstreetmap]: https://www.openstreetmap.org/about "OpenStreetMap"
+[patreon]: https://www.patreon.com/OrganicMaps/
 [public_transport_validator]: https://cdn.organicmaps.app/subway/
 [reddit]: https://www.reddit.com/r/organicmaps/
 [repology]: https://repology.org/project/organicmaps/versions
@@ -44,18 +45,18 @@
 [stripe_usd]: https://donate.organicmaps.app/?currency=usd "Donate in USD"
 [telegram]: https://t.me/OrganicMapsApp "Organic Maps news"
 [telegram_chat]: https://t.me/OrganicMaps "Organic Maps chat"
-[telegram_chat_ar]: https://t.me/OrganicMapsAr "Organic Maps المحادثة"
+[telegram_chat_ar]: https://t.me/OrganicMapsAR "Organic Maps المحادثة"
 [telegram_chat_de]: https://t.me/OrganicMapsDeutsch "Organic Maps-Chat"
 [telegram_chat_en]: https://t.me/OrganicMaps "Organic Maps chat"
-[telegram_chat_es]: https://t.me/OrganicMapsEs "Chat de Organic Maps"
+[telegram_chat_es]: https://t.me/OrganicMapsES "Chat de Organic Maps"
 [telegram_chat_fa]: https://t.me/OrganicMapsPersian "Organic Maps گفتگو"
-[telegram_chat_fr]: https://t.me/OrganicMapsFr "Discussion sur les Organic Maps"
-[telegram_chat_it]: https://t.me/OrganicMapsIt "Chat di Organic Maps"
+[telegram_chat_fr]: https://t.me/OrganicMapsFR "Discussion sur les Organic Maps"
+[telegram_chat_it]: https://t.me/OrganicMapsIT "Chat di Organic Maps"
 [telegram_chat_pt]: https://t.me/OrganicMapsPT "Conversa do Organic Maps"
 [telegram_chat_ru]: https://t.me/OrganicMapsRu "Organic Maps чат"
-[telegram_chat_tr]: https://t.me/OrganicMapsTr "Organic Maps'la sohbet et"
-[telegram_chat_uk]: https://t.me/OrganicMapsUa "Organic Maps українською"
-[telegram_chat_zh]: https://t.me/OrganicMapsZh "Organic Maps 聊天"
+[telegram_chat_tr]: https://t.me/OrganicMapsTR "Organic Maps'la sohbet et"
+[telegram_chat_uk]: https://t.me/OrganicMapsUA "Organic Maps українською"
+[telegram_chat_zh]: https://t.me/OrganicMapsZH "Organic Maps 聊天"
 [testflight]: https://testflight.apple.com/join/lrKCl08I
 [threads]: https://www.threads.net/@organicmaps "Organic Maps on Threads"
 [tiktok]: https://www.tiktok.com/@organicmaps "Organic Maps on TikTok"
@@ -66,4 +67,5 @@
 [translations_website]: https://hosted.weblate.org/projects/organicmaps/website/
 [twitter]: https://x.com/OrganicMapsApp
 [weblate]: https://hosted.weblate.org/projects/organicmaps/
+[youtube]: https://www.youtube.com/@OrganicMaps/
 {%- endcomponent references %}

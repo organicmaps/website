@@ -140,9 +140,9 @@ Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı y
 - Hataları veya sorunları [sorun izleyicisine][issues] bildir ya da [bize e-posta gönder][email].
 - Fikirleri [tartış][ideas] ya da özellik istekleri öner.
 - Güncellemeler için [Telegram Kanalımıza][telegram] veya [matrix alanına][matrix] abone ol.
-- Diğer kullanıcılarla tartışmak için [Türkçe Telegram Grubumuza][telegram_chat_tr] ya da [İngilizce gruba][telegram_chat] katıl.
+- Diğer kullanıcılarla tartışmak için [Türkçe Telegram Grubumuza][telegram_chat_tr] katıl.
 - [GitHub sayfamızı][github] ziyaret et.
-- Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] üzerinden takip et.
+- Güncellemelerimizi [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok] üzerinden takip et.
 
 [fork]: https://tr.wikipedia.org/wiki/%C3%87atal_(yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme)
 

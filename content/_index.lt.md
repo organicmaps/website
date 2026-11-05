@@ -144,7 +144,7 @@ Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache
 - Prenumeruokite mūsų [Telegram kanalą][telegram] arba [Matrix erdvę][matrix], kad gautumėte naujienas.
 - Prisijunkite prie mūsų [Telegram grupės][telegram_chat] ir diskutuokite su kitais vartotojais.
 - Apsilankykite mūsų [GitHub puslapyje][github].
-- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

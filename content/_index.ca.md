@@ -144,7 +144,7 @@ Organic Maps és un [programa lliure][github] disponible en virtut de la Llicèn
 - Uneix-te al nostre [canal del Telegram][telegram] o al [Matrix][matrix] per a estar al dia.
 - Uneix-te al nostre [grup del Telegram][telegram_chat] i conversa amb altres usuaris.
 - Visita el nostre [GitHub][github].
-- Segueix les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Segueix les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://ca.wikipedia.org/wiki/Fork
 

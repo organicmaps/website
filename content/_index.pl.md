@@ -144,7 +144,7 @@ Organic Maps to oprogramowanie [otwarte][github] licencjonowane na Apache Licens
 - Subskrybuj nasz [kanał Telegram][telegram] lub [przestrzeń matrix][matrix] dla aktualizacji.
 - Dołącz do naszej [grupy Telegram][telegram_chat], aby dyskutować z innymi użytkownikami.
 - Odwiedź naszą stronę [GitHub][github].
-- Śledź nasze aktualizacje na [FOSStodonie][fosstodon], [Facebooku][facebook], [Twitterze][twitter], [Instagramie][instagram], [Bluesky][bluesky], [Threads][threads], [Reddicie][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Śledź nasze aktualizacje na [FOSStodonie][fosstodon], [Facebooku][facebook], [Twitterze][twitter], [Instagramie][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddicie][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://pl.wikipedia.org/wiki/Fork
 

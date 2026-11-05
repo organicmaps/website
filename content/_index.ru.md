@@ -140,7 +140,7 @@ Organic Maps развивается сообществом энтузиасто�
 Organic Maps — это [программное обеспечение с открытым исходным кодом][github], распространяемое по лицензии Apache License 2.0.
 
 - Подписывайтесь на наш [канал новостей в Telegram][telegram];
-- Присоединяйтесь к [русскоязычной][telegram_chat_ru] или [англоязычной группе в Telegram][telegram_chat], или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
+- Присоединяйтесь к [русскоязычной группе в Telegram][telegram_chat_ru] или [Matrix space на русском][matrix_ru] или [на английском][matrix] для обратной связи и помощи;
 - Подключайтесь к программе тестирования бета-версий:
   - [iOS Бета (TestFlight)][testflight]
   - [Android Бета (Firebase)][firebase]
@@ -150,7 +150,7 @@ Organic Maps — это [программное обеспечение с отк
 - Нарисуйте свой дом и район вокруг в [OpenStreetMap](https://openstreetmap.org);
 - Помогите с [переводом](https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md) приложения и веб-сайта на другие языки.
 - Поучаствуйте в [разработке][contributing] приложения под Android и iOS;
-- Подпишитесь на нас в [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Подпишитесь на нас в [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 - Расскажите своим друзьям и знакомым.
 
 Так же мы ищем волонтёров, с возможностью стать частью команды, создающей лучшие в мире карты:

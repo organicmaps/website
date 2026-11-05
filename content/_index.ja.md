@@ -142,7 +142,7 @@ Organic Maps は Apache License 2.0 の下でライセンスされた [オープ
 - アップデート情報を得るには、[Telegram チャンネル][telegram] または [matrix space][matrix] を購読してください。
 - 他のユーザーと議論するには [Telegram グループ][telegram_chat] にご参加ください。
 - [GitHub ページ][github] をご覧ください。
-- アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
+- アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Patreon][patreon]、[YouTube][youtube]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

@@ -144,7 +144,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 - Εγγράψου στο [Telegram Channel][telegram] ή στο [matrix space][matrix] για ενημερώσεις.
 - Γίνε μέλος της [Telegram Group][telegram_chat] για να συζητήσεις με άλλους χρήστες.
 - Επισκέψου την [GitHub σελίδα][github] μας.
-- Ακολούθησε τις ενημερώσεις μας σε [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Ακολούθησε τις ενημερώσεις μας σε [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://el.wikipedia.org/wiki/Παρακλάδι_(πληροφορική)
 

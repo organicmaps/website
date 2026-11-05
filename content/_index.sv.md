@@ -143,7 +143,7 @@ Organic Maps är en [programvara med öppen källkod][github] licensierad under 
 - Prenumerera på vår [Telegram Channel][telegram] eller på [matrix space][matrix] för uppdateringar.
 - Gå med i vår [Telegramgrupp][telegram_chat] för att diskutera med andra användare.
 - Besök vår [GitHub-sida][github].
-- Följ våra uppdateringar på [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Följ våra uppdateringar på [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://sv.wikipedia.org/wiki/Fork
 

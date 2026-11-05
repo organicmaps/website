@@ -143,7 +143,7 @@ Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean
 - Harpidetu gure [Telegram kanalera][telegram] edo [matrix space][matrix]-era eguneraketak jasotzeko.
 - Sartu gure [Telegram taldean][telegram_chat] beste erabiltzaileekin hitz egiteko.
 - Bisitatu gure [GitHub orria][github].
-- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
+- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
 
 [fork]: https://eu.wikipedia.org/wiki/Fork
 

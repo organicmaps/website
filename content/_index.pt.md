@@ -141,9 +141,9 @@ O Organic Maps é um [software de código aberto][github] licenciado sob a Licen
 - Reporta erros ou problemas no [rastreador de problemas][issues] ou por [e-mail][email].
 - [Discute][ideas] ideias ou propõe novas funcionalidades.
 - Inscreve-te no nosso [canal do Telegram][telegram] ou no [espaço matrix][matrix] para receber notícias.
-- Junta-te ao nosso [grupo do Telegram em português][telegram_chat_pt] ou ao [grupo em inglês][telegram_chat] para conversar com outros utilizadores.
+- Junta-te ao nosso [grupo do Telegram em português][telegram_chat_pt] para conversar com outros utilizadores.
 - Visita a nossa [página no GitHub][github].
-- Segue as nossas atualizações no [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
+- Segue as nossas atualizações no [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn] e [TikTok][tiktok].
 
 [fork]: https://pt.wikipedia.org/wiki/Bifurcação_(desenvolvimento_de_software)
 

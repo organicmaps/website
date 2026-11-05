@@ -79,7 +79,7 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
 npm test             # Offline translation, hook and Telegram regressions
-python3 tools/test_navigation.py # Navigation and donation template regressions (requires Zola)
+python3 tools/test_navigation.py # Homepage, navigation and donation regressions (requires Zola)
 npm run test:browser # Donation checkout regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies

@@ -141,9 +141,9 @@ Organic Maps ist eine [Open-Source-Software][github], die unter der Apache Licen
 - Melde Bugs oder Probleme an den [Issue Tracker][issues] oder per [E-Mail an uns][email].
 - [Diskutiere][ideas] Ideen oder äußere Funktionswünsche.
 - Abonniere unseren [Telegram-Channel][telegram] oder den [Matrix-Raum][matrix] für Neuigkeiten.
-- Tritt unserer [deutschsprachigen Telegram-Gruppe][telegram_chat_de] oder der [englischsprachigen Gruppe][telegram_chat] bei, um mit anderen Benutzern zu diskutieren.
+- Tritt unserer [deutschsprachigen Telegram-Gruppe][telegram_chat_de] bei, um mit anderen Benutzern zu diskutieren.
 - Besuche unsere [GitHub-Seite][github].
-- Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Verfolge unsere Neuigkeiten auf [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)
 

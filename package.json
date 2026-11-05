@@ -23,7 +23,7 @@
     "check:all": "python3 tools/translate_check.py --all",
     "format": "stylelint --fix ./sass/*.scss && prettier --write \"*.md\" \"content/**/*.md\" && js-beautify -r templates/base.html",
     "hooks:install": "git config core.hooksPath .githooks",
-    "test": "python3 tmp/test_tooling.py && python3 tmp/test_xml_roundtrip.py",
+    "test": "python3 tools/test_navigation.py && python3 tmp/test_tooling.py && python3 tmp/test_xml_roundtrip.py",
     "test:browser": "node --test tools/donate_browser.test.cjs",
     "upgrade": "npx npm-check-updates -u && npm install"
   },

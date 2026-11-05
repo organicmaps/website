@@ -22,13 +22,16 @@ jobs:
           tar -zxvf zola.tar.gz
           ./zola build
 
-      - name: Navigation template regressions
-        run: PATH="$PWD:$PATH" python3 tools/test_navigation.py
-
       - uses: actions/setup-node@v6
         with:
           node-version: "24"
           cache: npm
+
+      - name: Install Python test dependencies
+        run: pip install --quiet -r tools/requirements-telegram.txt
+
+      - name: Template and tooling regressions
+        run: PATH="$PWD:$PATH" npm test
 
       - name: Install browser test dependencies
         run: |
@@ -52,11 +55,8 @@ jobs:
 #        with:
 #          python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install --quiet -r tools/requirements-telegram.txt
-
-      - name: Translation and publishing tool tests
-        run: npm test
+      - name: Install translation-check dependencies
+        run: pip install --quiet -r tools/requirements-check.txt
 
       # Syntax defects that Zola cannot see: a link with a space between ] and
       # ( renders as literal text rather than a link, and a translated heading

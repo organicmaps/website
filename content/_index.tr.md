@@ -1,15 +1,15 @@
 ---
 title: "Organic Maps: Çevrimdışı Yürüyüş, Bisiklet, Parkurlar ve Navigasyon"
-description: OpenStreetMap'e dayanan ve MapsWithMe'nin (Maps.Me) kurucuları tarafından sevgiyle yapılan. Gezginler, turistler, yürüyüşçüler ve bisikletçiler için hızlı ve ayrıntılı çevrimdışı harita uygulaması.
+description: "Ücretsiz çevrimdışı yürüyüş, bisiklet ve seyahat haritaları; GPS navigasyonu, iz kaydı, rota planlama ve toplu taşıma rotaları. Reklam ve takip yok."
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: Ana sayfa
 ---
 
-**Organic Maps**, yürüyüş, bisiklet ve araç kullanımı için gizlilik odaklı bir çevrimdışı harita ve GPS uygulamasıdır. Tamamen ücretsiz. Reklam yok. İzleme yok. Açık kaynak topluluğu ve [**MapsWithMe**][mapswithme]/**Maps.Me** uygulamasını geliştiren aynı kişiler tarafından sevgiyle geliştirildi. [OpenStreetMap][openstreetmap] verileriyle güçlendirildi.
+**Organic Maps**, yürüyüş, bisiklet, koşu ve araba sürme için GPS navigasyonu, iz kaydı ve rota planlama sunan, gizlilik odaklı bir çevrimdışı harita uygulamasıdır. Tamamen ücretsiz. Reklam yok. Takip yok. Açık kaynak topluluğu ve [**MapsWithMe**][mapswithme]/**Maps.Me** uygulamasını yaratan aynı kişiler tarafından sevgiyle geliştirildi. [OpenStreetMap][openstreetmap] verilerini kullanır.
 
-**Organic Maps**, günümüzde aktif bir internet bağlantısı olmadan özelliklerinin %100'ünü destekleyen az sayıdaki uygulamadan biridir. Organic Maps'i yükle, haritaları indir, SIM kartını çöpe at ve ağa tek bir bayt bile göndermeden tek şarjla bir haftalık yolculuğa çık.
+Haritaları indirdikten sonra **Organic Maps** ile yer arayabilir, rota planlayabilir, GPS izlerini kaydedebilir ve internet bağlantısı olmadan yolunu bulabilirsin. Mobil veri kullanmadan veya dolaşım ücreti ödemeden uzak patikaları keşfet ya da yurt dışına seyahat et.
 
 > Ekim 2026'da Organic Maps’in [yükleme sayısı 12 milyonu aştı](@/news/2026-11-03/641/index.tr.md). Büyümemize [yardım et](@/donate/index.tr.md)!
 
@@ -27,19 +27,28 @@ extra:
 
 ## Özellikler
 
-Organic Maps gezginler, turistler, yürüyüşçüler ve bisikletçiler için mükemmel bir uygulamadır:
+Organic Maps ile seyahatlerini planla, yolunu bul ve keşfe çık:
 
 - [OpenStreetMap][openstreetmap] sayesinde diğer haritalarda bulunmayan yerleri içeren ayrıntılı çevrimdışı haritalar
-- Bisiklet yolları, doğa yürüyüşü parkurları ve yürüyüş yolları
-- Eş yükselti çizgileri, yükseklik profilleri, tepe noktaları ve eğimler
+- Anlık istatistiklerle [GPS iz kaydı](@/news/2024-09-19/405/index.md)
+- [Birden fazla durak içeren rota planlama](@/news/2026-09-29/640/index.tr.md) ve durak sırasının otomatik optimizasyonu
+- [En hızlı ve en kısa rotalar arasında seçim yap](@/news/2026-06-29/610/index.tr.md)
 - Sesli yönlendirmelerle adım adım yürüyüş, bisiklet ve araç navigasyonu, CarPlay/Android Auto
-- Metro haritaları
+- Otobüs, tramvay, metro ve hafif raylı sistemler için [toplu taşıma rotası planlama](@/news/2026-06-29/610/index.tr.md)
 - Haritada hızlı ve çevrimdışı arama
-- Yer imlerini KML/KMZ, GPX, GeoJSON formatlarında içe veya dışa aktarma
+- [Yürüyüş, bisiklet ve dağ bisikleti rotası katmanları](@/news/2025-08-09/420/index.tr.md)
+- Patikaları, kamp alanlarını, dağ kulübelerini, barınakları ve su kaynaklarını öne çıkaran doğa etkinliklerine özel harita stili
+- Eşyükselti eğrileri, zirveler, eğimler ve rakım verisi bulunan rotalar ile izler için [yükseklik profilleri](@/news/2026-04-07/570/index.tr.md)
+- [Planladığın rotaları kaydet](@/news/2025-06-15/417/index.md) ve gelecekteki seyahatlerinde kullan
+- Yer imlerini ve GPS izlerini KML/KMZ, GPX ve GeoJSON biçimlerinde [içe aktar](@/faq/bookmarks/how-to-import/index.tr.md), [dışa aktar](@/faq/bookmarks/how-to-export/index.tr.md) ve paylaş
+- Google Takeout’un `Saved Places.json` dosyasından [Google Maps’te kayıtlı yerleri içe aktar](@/news/2025-11-26/480/index.tr.md)
+- [iCloud yedekleme ve senkronizasyon (iOS)](@/news/2024-06-22/380/index.md)
+- Doğrudan OpenStreetMap’te [yer ekle ve düzenle](@/faq/editing/organic-maps-map-editing/index.tr.md)
+- Cetvel aracıyla [kuş uçuşu mesafeleri ölç](@/news/2023-09-30/221/index.md)
 - Gözlerini korumak için Koyu Mod
-- Fazla depolama alanı kaplamayan ülke ve bölgeler
 - Popüler yerler için Wikipedia makaleleri
-- Özgür ve açık kaynak kodlu
+- Girdiğin harita karo sunucusu URL’siyle deneysel [uydu görüntüleri](@/news/2026-06-29/610/index.tr.md)
+- Ücretsiz ve açık kaynaklı
 
 ## Neden Organic?
 
@@ -132,7 +141,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
 
 Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı yazılımdır][github].
 
-- Lütfen beta programımıza katıl, yeni özellikler öner ve hataları bildir:
+- Yeni özellikleri denemek, iyileştirme önerilerinde bulunmak ve hataları bildirmek için beta programımıza katıl:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

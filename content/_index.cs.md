@@ -1,5 +1,5 @@
 ---
-description: "Rychlé podrobné offline mapy pro cestovatele, turisty, řidiče, výletníky a cyklisty vytvořené zakladateli aplikace MapsWithMe (Maps.Me)."
+description: "Bezplatné offline mapy pro pěší turistiku, cyklistiku a cestování s GPS navigací, záznamem stop, plánováním tras a trasami veřejné dopravy. Bez reklam a sledování."
 extra:
   menu_title: Domů
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Offline pěší turistika, cykloturistika, stezky a navigace"
 ---
 
-**Organic Maps** jsou offline mapy a aplikace GPS pro pěší turistiku, cyklistiku, jízdu na kole a řízení. Zcela zdarma. Bez reklam. Žádné sledování. Vyvinuto s láskou komunitou open-source a stejnými lidmi, kteří vytvořili aplikaci [**MapsWithMe**][mapswithme]/**Maps.Me**. Využívá data [OpenStreetMap][openstreetmap].
+**Organic Maps** je aplikace s offline mapami zaměřená na ochranu soukromí, která nabízí GPS navigaci, záznam stop a plánování tras pro pěší turistiku, cyklistiku, běh a jízdu autem. Zcela zdarma. Bez reklam. Bez sledování. S láskou vyvinuta komunitou open source a stejnými lidmi, kteří vytvořili aplikaci [**MapsWithMe**][mapswithme]/**Maps.Me**. Využívá data z [OpenStreetMap][openstreetmap].
 
-**Organic Maps** je jednou z mála aplikací, která v dnešní době podporuje 100 % funkcí bez aktivního připojení k internetu. Nainstalujte si Organic Maps, stáhněte si mapy, zahoďte SIM kartu (mimochodem, váš operátor vás neustále sleduje) a vyrazte na týdenní výlet na jedno nabití baterie bez jakéhokoli bajtu odeslaného do sítě.
+Po stažení map vám **Organic Maps** umožňuje vyhledávat místa, plánovat trasy, zaznamenávat GPS stopy a navigovat i bez připojení k internetu. Prozkoumejte odlehlé stezky nebo cestujte do zahraničí bez mobilních dat a poplatků za roaming.
 
 > V říjnu 2026 aplikace Organic Maps [překročila 12 milionů instalací](@/news/2026-11-03/641/index.cs.md). [Pomozte nám](@/donate/index.cs.md) růst!
 
@@ -29,19 +29,28 @@ režimu' /> }}
 
 ## Vlastnosti
 
-Organic Maps je dokonalá aplikace pro cestovatele, turisty, pěší turisty a cyklisty:
+Plánujte výlety, navigujte a objevujte s aplikací Organic Maps:
 
 - Podrobné offline mapy s místy, která na jiných mapách neexistují, díky [OpenStreetMap][openstreetmap]
-- Cyklistické trasy, turistické stezky a pěší trasy
-- Vrstevnice, výškové profily, vrcholy a svahy
+- [Záznam GPS stop](@/news/2024-09-19/405/index.md) se statistikami v reálném čase
+- [Plánování trasy s více zastávkami](@/news/2026-09-29/640/index.cs.md) a automatickou optimalizací pořadí zastávek
+- [Vyberte si mezi nejrychlejší a nejkratší trasou](@/news/2026-06-29/610/index.cs.md)
 - Pěší, cyklistická a automobilová navigace krok za krokem s hlasovými pokyny, CarPlay/Android Auto
-- Mapy metra
+- [Plánování tras veřejné dopravy](@/news/2026-06-29/610/index.cs.md) autobusem, tramvají, metrem a lehkou kolejovou dopravou
 - Rychlé offline vyhledávání na mapě
-- Export a import záložek ve formátech KML/KMZ, import GPX, GeoJSON
+- [Vrstvy tras pro pěší turistiku, cyklistiku a jízdu na horských kolech](@/news/2025-08-09/420/index.cs.md)
+- Speciální mapový styl pro outdoorové aktivity, který zvýrazňuje stezky, kempy, horské chaty, přístřešky a vodní zdroje
+- Vrstevnice, vrcholy, svahy a [výškové profily](@/news/2026-04-07/570/index.cs.md) tras a stop s údaji o nadmořské výšce
+- [Uložte si naplánované trasy](@/news/2025-06-15/417/index.md), abyste je měli k dispozici pro budoucí výlety
+- [Import](@/faq/bookmarks/how-to-import/index.cs.md), [export](@/faq/bookmarks/how-to-export/index.cs.md) a sdílení záložek a stop GPS ve formátech KML/KMZ, GPX a GeoJSON
+- [Importujte místa uložená v Google Maps](@/news/2025-11-26/480/index.cs.md) ze souboru `Saved Places.json` ze služby Google Takeout
+- [Zálohování a synchronizace v iCloudu (iOS)](@/news/2024-06-22/380/index.md)
+- [Přidávejte a upravujte místa](@/faq/editing/organic-maps-map-editing/index.cs.md) přímo v OpenStreetMap
+- [Měření přímkových vzdáleností](@/news/2023-09-30/221/index.md) pomocí nástroje Pravítko
 - Tmavý režim pro ochranu očí
-- Země a regiony nezabírají mnoho místa
 - Články z Wikipedie pro oblíbená místa
-- Svobodný a otevřený zdrojový kód
+- Experimentální [satelitní snímky](@/news/2026-06-29/610/index.cs.md) s adresou URL serveru mapových dlaždic, kterou zadáte
+- Zdarma a s otevřeným zdrojovým kódem
 
 ## Proč Organic?
 
@@ -134,7 +143,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
 
 Organic Maps je [open-source software][github] licencovaný pod Apache License 2.0.
 
-- Zapojte se prosím do našeho beta programu, navrhujte funkce a nahlašujte chyby:
+- Zapojte se do našeho beta programu, abyste mohli vyzkoušet nové funkce, navrhnout vylepšení a nahlásit chyby:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

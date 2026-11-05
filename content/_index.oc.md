@@ -1,5 +1,5 @@
 ---
-description: "De mapas detalhadas, rapidas e sensa connexion per lei viatgaires, lei toristas, leis automobilistas, leis caminaires e lei ciclistas creadas per lei fondators de l’aplicacion MapsWithMe (Maps.Me)."
+description: "Mapas gratuitas fòra linha per las caminadas, lo ciclisme e los viatges, amb navigacion GPS, enregistrament de traças, planificacion d’itineraris e itineraris de transpòrt public. Sens publicitat ni seguiment."
 extra:
   menu_title: Acuèlh
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps : escorregudas ciclistas, caminadas, itineraris e percors guidats fòra de linha"
 ---
 
-**Organic Maps** es una aplicacion de mapas fòra linha e GPS centrada sus la confidencialitat per las caminadas, lo ciclisme e la conduch. Totalament gratuita. Sensa anóncias. Conten pas d'espiadors. Desvolopada amb amor per la comunautat del logicial liure e lei fondators de l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Fonciona amb las donadas d'[OpenStreetMap][openstreetmap].
+**Organic Maps** es una aplicacion de mapas fòra linha centrada sus la confidencialitat, amb navigacion GPS, enregistrament de traças e planificacion d’itineraris per las caminadas, lo ciclisme, la corsa a pè e la conducha. Completament gratuita. Sens publicitat. Sens seguiment. Desvolopada amb amor per la comunautat del logicial liure e las meteissas personas qu’an creat l’aplicacion [**MapsWithMe**][mapswithme]/**Maps.Me**. Utiliza las donadas d’[OpenStreetMap][openstreetmap].
 
-N’i a gaire a l’ora d’ara d’aplicacions coma **Organic Maps** que foncionan entierament sensa la connexion a Internet activa. Installa Organic Maps, teledescarga de mapas, escampa ta carteta SIM (que, o sabes, ton operator t’es a l’après de lònga) e parte per una setmana de viatge amb un solet plen de batariá sensa un bit mandat au malhum.
+Un còp las mapas telecargadas, **Organic Maps** te permet de cercar de luòcs, planificar d’itineraris, enregistrar de traças GPS e navegar sens connexion a internet. Explòra de sendièrs isolats o viatja a l’estrangièr sens donadas mobilas ni còstes d’itinerància.
 
 > En octobre de 2026, Organic Maps a [superat los 12 milions d'installacions](@/news/2026-11-03/641/index.oc.md). [Ajuda-nos](@/donate/index.oc.md) a créisser!
 
@@ -29,19 +29,28 @@ fosc' /> }}
 
 ## Foncionalitats
 
-Organic Maps es l’aplicacion ultima per lei viatjaires, lei caminaires e lei ciclistas :
+Planifica de viatges, navega e explòra amb Organic Maps:
 
 - De mapas detalhadas fòra de linha amb de luòcs que se tròban pas sus leis autreis mapas, gràcias a [OpenStreetMap][openstreetmap]
-- Percors ciclistes, draias d’escorregudas e caminaments
-- Linhas de contorn, perfius d’elevacion, cimas e pendents
+- [Enregistrament de traças GPS](@/news/2024-09-19/405/index.md) amb d’estatisticas en temps real
+- [Planificacion d’itineraris amb mantuns arrèsts](@/news/2026-09-29/640/index.oc.md) e optimizacion automatica de lor òrdre
+- [Causís entre l’itinerari mai rapid e lo mai cort](@/news/2026-06-29/610/index.oc.md)
 - Navigacion pas a pas d’a pès, amb la bicicleta, l’automobila e guida de votz, CarPlay/Android Auto
-- Mapas de mètro
+- [Planificacion d’itineraris de transpòrt public](@/news/2026-06-29/610/index.oc.md) en autobús, tramvai, mètro e tren leugièr
 - Recèrcas rapidas sus la mapa e fòra de linha
-- Marcas de libre e traças en formats KML, KMZ, GPX, GeoJSON
+- [Jaças d’itineraris de caminada, de ciclisme e de BTT](@/news/2025-08-09/420/index.oc.md)
+- Estil de mapa dedicat a las activitats de plen aire que met en evidéncia sendièrs, terrens de campatge, cabanas, abrics e fonts d’aiga
+- Corbas de nivèl, cimas, pendents e [perfils d’altitud](@/news/2026-04-07/570/index.oc.md) per d’itineraris e de traças amb de donadas d’altitud
+- [Enregistra los itineraris planificats](@/news/2025-06-15/417/index.md) per de viatges futurs
+- [Impòrta](@/faq/bookmarks/how-to-import/index.oc.md), [expòrta](@/faq/bookmarks/how-to-export/index.oc.md) e parteja de marcapaginas e de traças GPS als formats KML/KMZ, GPX e GeoJSON
+- [Impòrta los luòcs enregistrats dins Google Maps](@/news/2025-11-26/480/index.oc.md) dempuèi lo fichièr `Saved Places.json` de Google Takeout
+- [Còpia de seguretat e sincronizacion amb iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Apond e modifica de luòcs](@/faq/editing/organic-maps-map-editing/index.oc.md) dirèctament dins OpenStreetMap
+- [Mesura de distàncias en linha drecha](@/news/2023-09-30/221/index.md) amb l’aisina Règla
 - Mòde fosc per protegir teis uelhs
-- Lei país e lei regions utilizan gaire d'espaci
 - Articles de Wikipèdia per luòcs populars
-- De còde liure e dobèrt
+- [Imatges satellitàrias](@/news/2026-06-29/610/index.oc.md) experimentalas amb l’URL d’un servidor de teulas que tu indicas
+- Gratuit e de còde dobèrt
 
 ## Perque chausir Organic?
 
@@ -134,7 +143,7 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
 
 Organic Maps es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 
-- Rejonh nòstre programa beta per suggerir de fonccionalitats e avertir d’errors:
+- Rejonh nòstre programa beta per ensajar de foncionalitats novèlas, suggerir d’amelhoraments e senhalar d’errors:
   - [Beta de iOS (TestFlight)][testflight]
   - [Beta de Android (Firebase)][firebase]
   - [Beta de PC Linux (Flatpak)][flatpak]

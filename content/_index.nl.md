@@ -1,5 +1,5 @@
 ---
-description: "Snelle, gedetailleerde, offline kaarten voor reizigers, toeristen, automobilisten, wandelaars, en fietsers gemaakt door de oprichters van de app MapsWithMe (Maps.Me)."
+description: "Gratis offline kaarten voor wandelen, fietsen en reizen, met GPS-navigatie, trackopname, routeplanning en routes voor het openbaar vervoer. Geen advertenties of tracking."
 extra:
   menu_title: Start
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Offline Wandelen, Fietsen, Routes en Navigatie"
 ---
 
-**Organic Maps** is een op privacy gerichte offline kaarten & GPS-app voor wandelen, fietsen en autorijden. Absoluut gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-source gemeenschap en de oprichters van de app [**MapsWithMe**][mapswithme]/**Maps.Me**. Aangedreven door [OpenStreetMap][openstreetmap]-gegevens.
+**Organic Maps** is een privacygerichte app voor offline kaarten met GPS-navigatie, trackopname en routeplanning voor wandelen, fietsen, hardlopen en autorijden. Helemaal gratis. Geen advertenties. Geen tracking. Met liefde ontwikkeld door de open-sourcegemeenschap en dezelfde mensen die de app [**MapsWithMe**][mapswithme]/**Maps.Me** hebben gemaakt. Gebaseerd op gegevens van [OpenStreetMap][openstreetmap].
 
-**Organic Maps** is één van de weinige apps heden ten dage die 100% van de functionaliteit heeft zonder actieve internetverbinding. Installeer Organic Maps, download kaarten, gooi je SIM kaart weg (trouwens, je provider trackt je altijd), en ga een week op pad zonder je batterij op te laden en zonder dat er één byte naar het netwerk verzonden wordt.
+Nadat je de kaarten hebt gedownload, kun je met **Organic Maps** naar plekken zoeken, routes plannen, GPS-tracks vastleggen en navigeren zonder internetverbinding. Verken afgelegen wandelpaden of ga op reis naar het buitenland zonder mobiele data of roamingkosten.
 
 > In oktober 2026 bereikte Organic Maps [meer dan 12 miljoen installaties](@/news/2026-11-03/641/index.nl.md). [Help ons](@/donate/index.nl.md) te groeien!
 
@@ -28,18 +28,27 @@ stand' /> }}
 
 ## Functies
 
-Organic Maps is als app de ultieme metgezel voor reizigers, toeristen, wandelaars en fietsers:
+Plan uitstapjes, navigeer en ga op ontdekkingstocht met Organic Maps:
 
 - Gedetailleerde offline kaarten met plaatsen die niet bestaan op andere kaarten, dankzij [OpenStreetMap][openstreetmap]
-- Fietsroutes, wandelroutes en -paden
-- Contourlijnen, hoogteprofielen, pieken en hellingen
+- [GPS-trackopname](@/news/2024-09-19/405/index.md) met realtime statistieken
+- [Routeplanning met meerdere tussenstops](@/news/2026-09-29/640/index.nl.md) en automatische optimalisatie van de volgorde
+- [Kies tussen de snelste en de kortste route](@/news/2026-06-29/610/index.nl.md)
 - Routebegeleiding voor wandelen en fietsen en autonavigatie met stembegeleiding en CarPlay/Android Auto
-- Metrokaarten
+- [Routeplanning voor het openbaar vervoer](@/news/2026-06-29/610/index.nl.md) met bus, tram, metro en lightrail
 - Snel offline zoeken op de kaart
-- Bladwijzers exporteren en importeren in KML/KMZ formats, importeren GPX, GeoJSON
+- [Kaartlagen met wandel-, fiets- en mountainbikeroutes](@/news/2025-08-09/420/index.nl.md)
+- Speciale kaartstijl voor buitenactiviteiten, met wandelpaden, kampeerplaatsen, berghutten, schuilplaatsen en waterbronnen
+- Hoogtelijnen, toppen, hellingen en [hoogteprofielen](@/news/2026-04-07/570/index.nl.md) voor routes en tracks met hoogtegegevens
+- [Sla geplande routes op](@/news/2025-06-15/417/index.md) voor toekomstige reizen
+- [Importeer](@/faq/bookmarks/how-to-import/index.nl.md), [exporteer](@/faq/bookmarks/how-to-export/index.nl.md) en deel bladwijzers en GPS-tracks in de formaten KML/KMZ, GPX en GeoJSON
+- [Importeer opgeslagen plaatsen uit Google Maps](@/news/2025-11-26/480/index.nl.md) uit het bestand `Saved Places.json` van Google Takeout
+- [iCloud-back-up en synchronisatie (iOS)](@/news/2024-06-22/380/index.md)
+- [Voeg plaatsen toe en bewerk ze](@/faq/editing/organic-maps-map-editing/index.nl.md) rechtstreeks in OpenStreetMap
+- [Meet afstanden in een rechte lijn](@/news/2023-09-30/221/index.md) met het liniaalgereedschap
 - Donkere stand om je ogen te beschermen
-- Landen en regio's nemen niet veel ruimte in beslag
 - Wikipedia-artikelen voor populaire plaatsen
+- Experimentele [satellietbeelden](@/news/2026-06-29/610/index.nl.md) met een tegelserver-URL die je zelf opgeeft
 - Gratis en open source
 
 ## Waarom 'Organic'?
@@ -133,7 +142,7 @@ De geliefde institutionele sponsoren hieronder hebben gerichte beurzen beschikba
 
 Organic Maps is [open-source software][github], die gelicenseerd is onder de Apache License 2.0.
 
-- Neem alsjeblieft deel aan ons beta-programma, suggereer je functies en rapporteer fouten:
+- Doe mee aan ons bètaprogramma om nieuwe functies uit te proberen, verbeteringen voor te stellen en fouten te melden:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

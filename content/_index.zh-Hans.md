@@ -1,5 +1,5 @@
 ---
-description: 由MapsWithMe（Maps.Me）应用程序的创始人为旅行者、游客、司机、徒步旅行者和骑行者创建的细致而快速的离线地图。
+description: "适用于徒步、骑行和旅行的免费离线地图，支持 GPS 导航、轨迹记录、路线规划和公共交通路线查询。无广告，无追踪。"
 extra:
   menu_title: 主页
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps：离线的远足、自行车、登山和导航地图"
 ---
 
-**Organic Maps** 是一款注重隐私的离线地图和GPS应用程序，适用于徒步旅行、骑行和驾驶。完全免费。无广告。无跟踪器。由开源社区和 [**MapsWithMe**][mapswithme]/**Maps.Me** 应用程序的创始人倾情打造。由 [OpenStreetMap][openstreetmap] 数据驱动。
+**Organic Maps** 是一款注重隐私的离线地图应用，提供 GPS 导航、轨迹记录和路线规划功能，适用于徒步、骑行、跑步和驾车。完全免费。无广告。无追踪。由开源社区和 [**MapsWithMe**][mapswithme]/**Maps.Me** 应用的原开发者用心打造。采用 [OpenStreetMap][openstreetmap] 数据。
 
-**Organic Maps** 是目前少数几个不需要持续互联网连接就能支持100%功能的应用程序之一。安装Organic Maps，下载地图，扔掉你的SIM卡（顺便说一下，你的运营商会不断地跟踪你），充一次电池就可以出去旅行一周而不需要通过网络发送哪怕一个字节。
+下载地图后，**Organic Maps** 允许你在离线状态下搜索地点、规划路线、记录 GPS 轨迹并进行导航。无论是在偏远的小径上探险，还是出国旅行，都无需使用移动数据，也无需支付漫游费。
 
 > 2026年10月，Organic Maps 的[总安装量突破 1200 万次](@/news/2026-11-03/641/index.zh-Hans.md)。[帮助我们](@/donate/index.zh-Hans.md)继续成长！
 
@@ -27,19 +27,28 @@ title: "Organic Maps：离线的远足、自行车、登山和导航地图"
 
 ## 功能
 
-Organic Maps 是旅行者、游客、徒步旅行者和骑行者的终极伴侣应用：
+使用 Organic Maps 规划行程、导航和探索：
 
 - 详细的离线地图，有其他地图上没有的地方，感谢[OpenStreetMap][openstreetmap]
-- 骑行路线、远足小径和步行道
-- 等高线、高程剖面、山峰和山坡
-- 弯弯绕的步行、骑行和汽车导航都有语音向导，CarPlay/Android Auto 安卓汽车
-- 地铁地图
+- [GPS 轨迹录制](@/news/2024-09-19/405/index.md)，附带实时统计数据
+- [多途经点路线规划](@/news/2026-09-29/640/index.zh-Hans.md)，自动优化途经点顺序
+- [在最快路线和最短路线之间进行选择](@/news/2026-06-29/610/index.zh-Hans.md)
+- 支持步行、骑行和驾车的逐向导航，提供语音引导，并支持 CarPlay/Android Auto
+- 公交、有轨电车、地铁和轻轨的[公共交通路线规划](@/news/2026-06-29/610/index.zh-Hans.md)
 - 地图上的快速离线搜索
-- 以KML/KMZ格式导出和导入书签，GPX 导入, GeoJSON
-- 保护你眼睛的黑暗模式
-- 国家和地区不会占用太大的空间
+- [徒步、骑行和山地自行车路线图层](@/news/2025-08-09/420/index.zh-Hans.md)
+- 专为户外活动设计的地图样式，突出显示步道、露营地、山间小屋、庇护所和水源
+- 等高线、山峰、坡度，以及带有海拔数据的路线和轨迹的[海拔曲线图](@/news/2026-04-07/570/index.zh-Hans.md)
+- [保存规划好的路线](@/news/2025-06-15/417/index.md)，供日后旅行使用
+- [导入](@/faq/bookmarks/how-to-import/index.zh-Hans.md)、[导出](@/faq/bookmarks/how-to-export/index.zh-Hans.md)和分享 KML/KMZ、GPX、GeoJSON 格式的书签和 GPS 轨迹
+- 从 Google Takeout 的 `Saved Places.json` 文件中[导入 Google Maps 中保存的地点](@/news/2025-11-26/480/index.zh-Hans.md)
+- [iCloud 备份与同步（iOS）](@/news/2024-06-22/380/index.md)
+- 直接在 OpenStreetMap 中[添加和编辑地点](@/faq/editing/organic-maps-map-editing/index.zh-Hans.md)
+- 使用“直尺”工具[测量直线距离](@/news/2023-09-30/221/index.md)
+- 保护眼睛的深色模式
 - 热门地点的维基百科文章
-- 自由且开源
+- 使用你提供的图块服务器 URL 显示的实验性[卫星影像](@/news/2026-06-29/610/index.zh-Hans.md)
+- 免费且开源
 
 ## 为什么选择Organic Maps？
 
@@ -132,7 +141,7 @@ Organic Maps 无需过多权限：
 
 Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 
-- 邀你加入测试计划，提出建议、反馈问题：
+- 加入我们的测试计划，体验新功能、提出改进建议并报告错误：
   - [iOS测试版（TestFlight）][testflight]
   - [安卓测试版（Firebase）][firebase]
   - [Linux 桌面端 Beta (Flatpak)][flatpak]

@@ -1,5 +1,5 @@
 ---
-description: "A MapsWithMe (Maps.Me) alkalmazás alapítói által készített gyors, részletes, offline térképek utazók, turisták, sofőrök, túrázók és kerékpárosok számára."
+description: "Ingyenes offline térképek túrázáshoz, kerékpározáshoz és utazáshoz, GPS-navigációval, nyomvonalrögzítéssel, útvonaltervezéssel és tömegközlekedési útvonalakkal. Reklámok és nyomon követés nélkül."
 extra:
   menu_title: Kezdőlap
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: offline túrázás, kerékpározás, turistautak és navigáció"
 ---
 
-Az **Organic Maps** egy adatvédelemre összpontosító, offline, térkép- és GPS-alkalmazás túrázáshoz, kerékpározáshoz, motorozáshoz és vezetéshez. Teljesen ingyenes és hirdetésmentes. Nincs nyomon követés. A közösség és a [**MapsWithMe**][mapswithme]/**Maps.Me** alapítói fejlesztik és nyílt forráskódú, továbbá az [OpenStreetMap][openstreetmap] térképeire támaszkodik.
+Az **Organic Maps** adatvédelemre összpontosító offline térképalkalmazás, amely GPS-navigációt, nyomvonalrögzítést és útvonaltervezést kínál túrázáshoz, kerékpározáshoz, futáshoz és autózáshoz. Teljesen ingyenes. Reklámok és nyomon követés nélkül. Szeretettel fejlesztette a nyílt forráskódú közösség és ugyanazok az emberek, akik a [**MapsWithMe**][mapswithme]/**Maps.Me** alkalmazást is létrehozták. Az [OpenStreetMap][openstreetmap] adataira épül.
 
-**Az Organic Maps** egyike azon kevés alkalmazásoknak, amelyek manapság 100%-ban támogatják a funkciókat aktív internetkapcsolat nélkül. Telepítsd az Organic Maps-et, töltsd le a térképeket, dobd el a SIM-kártyádat (máskülönben a szolgáltatód folyamatosan nyomon követ téged), és egyetlen akkumulátortöltéssel, a hálózatra küldött egyetlen byte nélkül indulj el egy egyhetes útra.
+A térképek letöltése után az **Organic Maps** segítségével helyeket kereshetsz, útvonalakat tervezhetsz, GPS-nyomvonalakat rögzíthetsz és internetkapcsolat nélkül navigálhatsz. Fedezd fel a távoli ösvényeket, vagy utazz külföldre mobiladat-használat és roamingdíjak nélkül.
 
 > 2026 októberében az Organic Maps telepítéseinek száma [meghaladta a 12 milliót](@/news/2026-11-03/641/index.hu.md). [Segíts nekünk](@/donate/index.hu.md) növekedni!
 
@@ -28,18 +28,27 @@ módban' /> }}
 
 ## Funkciók
 
-Az Organic Maps tökéletes társa az utazóknak, turistáknak, kirándulóknak és kerékpárosoknak:
+Tervezz utazásokat, navigálj és fedezd fel a világot az Organic Maps segítségével:
 
 - Részletes offline térképek olyan helyekkel, amelyek más térképeken nem léteznek, az [OpenStreetMap][openstreetmap] jóvoltából
-- Kerékpárutak, túraútvonalak és sétaútvonalak
-- Szintvonalak, magassági profilok, csúcsok és lejtők
+- [GPS-nyomvonalak rögzítése](@/news/2024-09-19/405/index.md) valós idejű statisztikákkal
+- [Több megállós útvonaltervezés](@/news/2026-09-29/640/index.hu.md) a megállók sorrendjének automatikus optimalizálásával
+- [Válassz a leggyorsabb és a legrövidebb útvonal között](@/news/2026-06-29/610/index.hu.md)
 - Részletes gyalogos, kerékpáros és autós navigáció hangutasítással, CarPlay/Android Auto
-- Metró térképek
+- [Tömegközlekedési útvonalok tervezése](@/news/2026-06-29/610/index.hu.md) busszal, villamossal, metróval és könnyűvasúttal
 - Gyors offline keresés a térképen
-- KML/KMZ-könyvjelzők exportálása/importálása, továbbá GPX-fájlok, GeoJSON importálása
+- [Gyalogos, kerékpáros és hegyikerékpáros útvonalak térképrétegei](@/news/2025-08-09/420/index.hu.md)
+- Szabadtéri tevékenységekhez kialakított térképstílus, amely kiemeli az ösvényeket, kempingeket, hegyi kunyhókat, menedékhelyeket és vízforrásokat
+- Szintvonalak, csúcsok, lejtők és [magassági profilok](@/news/2026-04-07/570/index.hu.md) a magasságadatokat tartalmazó útvonalakhoz és nyomvonalakhoz
+- [Mentsd el a megtervezett útvonalakat](@/news/2025-06-15/417/index.md) későbbi utazásokhoz
+- Könyvjelzők és GPS-nyomvonalak [importálása](@/faq/bookmarks/how-to-import/index.hu.md), [exportálása](@/faq/bookmarks/how-to-export/index.hu.md) és megosztása KML/KMZ, GPX és GeoJSON formátumban
+- [Importáld a Google Maps-ben mentett helyeket](@/news/2025-11-26/480/index.hu.md) a Google Takeout `Saved Places.json` fájljából
+- [iCloud-biztonsági mentés és szinkronizálás (iOS)](@/news/2024-06-22/380/index.md)
+- [Helyek hozzáadása és szerkesztése](@/faq/editing/organic-maps-map-editing/index.hu.md) közvetlenül az OpenStreetMapben
+- [Mérj légvonalbeli távolságokat](@/news/2023-09-30/221/index.md) a Vonalzó eszközzel
 - Sötét mód a szem védelme érdekében
-- Az országok és régiók adatai nem foglalnak el sok helyet
 - Wikipédia cikkek népszerű helyekről
+- Kísérleti [műholdas felvételek](@/news/2026-06-29/610/index.hu.md) az általad megadott csempeszerver-URL használatával
 - Ingyenes és nyílt forráskódú
 
 ## Miért válaszd az Organic Mapset?
@@ -133,7 +142,7 @@ Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak b
 
 Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache License 2.0-t használja.
 
-- Csatlakozz a béta programunkhoz, javasolj funkciókat, és jelezd a hibákat:
+- Csatlakozz a bétaprogramunkhoz, hogy kipróbálhasd az új funkciókat, javaslatokat tehess a fejlesztésekre, és hibákat jelenthess:
   - [iOS – béta (TestFlight)][testflight]
   - [Android – béta (Firebase)][firebase]
   - [Linuxos alkalmazás számítógépre – béta (Flatpak)][flatpak]

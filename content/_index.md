@@ -1,15 +1,15 @@
 ---
 title: "Organic Maps: Offline Hike, Bike, Trails and Navigation"
-description: Free, open-source, fast, privacy-focused, detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe/Maps.Me app founders
+description: Free offline maps for hiking, cycling and travel, with GPS navigation, track recording, route planning and public transport routes. No ads or tracking.
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: Home
 ---
 
-**Organic Maps** is a privacy-focused offline maps & GPS app for hiking, cycling, biking, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community and the same people, who created [**MapsWithMe**][mapswithme]/**Maps.Me** app. Powered by [OpenStreetMap][openstreetmap] data.
+**Organic Maps** is a privacy-focused offline maps app with GPS navigation, track recording, and route planning for hiking, cycling, running, and driving. Absolutely free. No ads. No tracking. Developed with love by the open-source community and the same people who created [**MapsWithMe**][mapswithme]/**Maps.Me** app. Powered by [OpenStreetMap][openstreetmap] data.
 
-**Organic Maps** is one of the few applications nowadays that supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network.
+After downloading maps, **Organic Maps** lets you search for places, plan routes, record GPS tracks, and navigate without an internet connection. Explore remote trails or travel abroad without mobile data or roaming charges.
 
 > In October 2026, Organic Maps [reached 12M+ installs](@/news/2026-11-03/641/index.md). [Help us](@/donate/index.md) to scale!
 
@@ -27,18 +27,27 @@ extra:
 
 ## Features
 
-Organic Maps is the ultimate companion app for travelers, tourists, hikers, drivers, and cyclists:
+Plan trips, navigate, and explore with Organic Maps:
 
 - Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap][openstreetmap]
-- Cycling routes, hiking trails, and walking paths
-- Contour lines, elevation profiles, peaks, and slopes
+- [GPS track recording](@/news/2024-09-19/405/index.md) with live statistics
+- [Multi-stop route planning](@/news/2026-09-29/640/index.md) with automatic optimization of stop order
+- [Choose between fastest and shortest routes](@/news/2026-06-29/610/index.md)
 - Turn-by-turn walking, cycling, and car navigation with voice guidance and CarPlay/Android Auto support
-- Metro/subway maps
+- [Public transport routing](@/news/2026-06-29/610/index.md) by bus, tram, subway, and light rail
 - Fast offline search on the downloaded maps
-- Import or export bookmarks in KML/KMZ, GPX, GeoJSON formats
+- [Hiking, cycling, and mountain-bike route layers](@/news/2025-08-09/420/index.md)
+- Dedicated Outdoors map style highlighting trails, campsites, huts, shelters, and water sources
+- Contour lines, peaks, slopes, and [elevation profiles](@/news/2026-04-07/570/index.md) for routes and tracks with altitude data
+- [Save planned routes](@/news/2025-06-15/417/index.md) to keep them for future trips
+- [Import](@/faq/bookmarks/how-to-import/index.md), [export](@/faq/bookmarks/how-to-export/index.md), and share bookmarks and GPS tracks in KML/KMZ, GPX, and GeoJSON formats
+- [Import Google Maps saved places](@/news/2025-11-26/480/index.md) from Google Takeout's `Saved Places.json` file
+- [iCloud backup and synchronization (iOS)](@/news/2024-06-22/380/index.md)
+- [Add and edit places](@/faq/editing/organic-maps-map-editing/index.md) directly in OpenStreetMap
+- [Measure straight-line distances](@/news/2023-09-30/221/index.md) with the Ruler tool
 - Dark Mode to protect your eyes
-- Countries and regions don't take a lot of space
 - Wikipedia articles for popular places
+- Experimental [satellite imagery](@/news/2026-06-29/610/index.md) using a tile-server URL you provide
 - Free and open-source
 
 ## Why Organic?
@@ -132,7 +141,7 @@ Beloved institutional sponsors below have provided targeted grants to cover some
 
 Organic Maps is an [open-source software][github] licensed under the Apache License 2.0.
 
-- Please join our beta program, suggest your features, and report bugs:
+- Join our beta program to try new features, suggest improvements, and report bugs:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

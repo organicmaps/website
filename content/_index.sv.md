@@ -1,5 +1,5 @@
 ---
-description: "Snabba detaljerade offline-kartor för resenärer, turister, förare, vandrare och cyklister skapade av grundarna av appen MapsWithMe (Maps.Me)."
+description: "Gratis offlinekartor för vandring, cykling och resor, med GPS-navigering, spårinspelning, ruttplanering och kollektivtrafikrutter. Inga annonser eller spårning."
 extra:
   menu_title: Hem
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Offline Vandring, Cykling, Leder och Navigering"
 ---
 
-**Organic Maps** är en integritets-fokuserad offline-kart och GPS-app för vandring, cykling och bilkörning. Helt gratis. Inga annonser. Ingen spårning. Utvecklad med kärlek av open source-gemenskapen och grundarna av appen [**MapsWithMe**][mapswithme]/**Maps.Me**. Drivs av [OpenStreetMap][openstreetmap]-data.
+**Organic Maps** är en integritetsinriktad app med offlinekartor, GPS-navigering, spårinspelning och ruttplanering för vandring, cykling, löpning och bilkörning. Helt gratis. Inga annonser. Ingen spårning. Utvecklad med kärlek av open source-gemenskapen och samma personer som skapade appen [**MapsWithMe**][mapswithme]/**Maps.Me**. Bygger på data från [OpenStreetMap][openstreetmap].
 
-**Organic Maps** är ett av få program som numera stöder 100 % av funktionerna utan en aktiv internetanslutning. Installera Organic Maps, ladda ner kartor, släng ditt SIM-kort (din operatör spårar dig förresten hela tiden) och gör en veckolång resa med en enda batteriladdning utan att någon byte skickas till nätet.
+När du har laddat ner kartorna kan du med **Organic Maps** söka efter platser, planera rutter, spela in GPS-spår och navigera utan internetuppkoppling. Utforska avlägsna vandringsleder eller res utomlands utan mobildata eller roamingavgifter.
 
 > I oktober 2026 nådde Organic Maps [över 12 miljoner installationer](@/news/2026-11-03/641/index.sv.md). [Hjälp oss](@/donate/index.sv.md) att växa!
 
@@ -28,18 +28,27 @@ läge' /> }}
 
 ## Funktioner
 
-Organic Maps är den ultimata appen för resenärer, turister, vandrare och cyklister:
+Planera resor, navigera och utforska med Organic Maps:
 
 - Detaljerade offline-kartor med platser som inte finns på andra kartor, tack vare [OpenStreetMap][openstreetmap]
-- Cykelvägar, vandringsleder och promenadvägar
-- Konturlinjer, höjdprofiler, toppar och sluttningar
-- Tur-för-tur-navigering för promenader, cykling och bilnavigering med röststyrning, CarPlay/Android Auto
-- Tunnelbanekartor
+- [GPS-spårinspelning](@/news/2024-09-19/405/index.md) med statistik i realtid
+- [Ruttplanering med flera stopp](@/news/2026-09-29/640/index.sv.md) och automatisk optimering av stoppordningen
+- [Välj mellan den snabbaste och den kortaste rutten](@/news/2026-06-29/610/index.sv.md)
+- Sväng-för-sväng-navigering för promenader, cykling och bilkörning med röstinstruktioner och stöd för CarPlay/Android Auto
+- [Ruttplanering för kollektivtrafik](@/news/2026-06-29/610/index.sv.md) med buss, spårvagn, tunnelbana och lättbana
 - Snabb offline-sökning på kartan
-- Export och import av bokmärken i KML/KMZ-format, importera GPX, GeoJSON
+- [Kartlager med vandrings-, cykel- och mountainbikerutter](@/news/2025-08-09/420/index.sv.md)
+- Kartstil särskilt avsedd för friluftsliv som markerar vandringsleder, campingplatser, stugor, vindskydd och vattenkällor
+- Höjdkurvor, toppar, sluttningar och [höjdprofiler](@/news/2026-04-07/570/index.sv.md) för rutter och spår med höjddata
+- [Spara planerade rutter](@/news/2025-06-15/417/index.md) så att du kan använda dem vid framtida resor
+- [Importera](@/faq/bookmarks/how-to-import/index.sv.md), [exportera](@/faq/bookmarks/how-to-export/index.sv.md) och dela bokmärken och GPS-spår i formaten KML/KMZ, GPX och GeoJSON
+- [Importera sparade platser från Google Maps](@/news/2025-11-26/480/index.sv.md) från filen `Saved Places.json` i Google Takeout
+- [Säkerhetskopiering och synkronisering med iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Lägg till och redigera platser](@/faq/editing/organic-maps-map-editing/index.sv.md) direkt i OpenStreetMap
+- [Mät avstånd i rak linje](@/news/2023-09-30/221/index.md) med linjalverktyget
 - Mörkt läge för att skydda dina ögon
-- Länder och regioner tar inte mycket plats
 - Wikipedia-artiklar för populära platser
+- Experimentella [satellitbilder](@/news/2026-06-29/610/index.sv.md) med en tile-server-URL som du anger själv
 - Gratis och öppen källkod
 
 ## Varför Organisk?
@@ -133,7 +142,7 @@ För att donera omedelbart, klicka på en ikon för önskad betalningsmetod neda
 
 Organic Maps är en [programvara med öppen källkod][github] licensierad under Apache License 2.0.
 
-- Gå med i vårt betaprogram, föreslå funktioner och rapportera fel:
+- Delta i vårt betaprogram för att testa nya funktioner, föreslå förbättringar och rapportera fel:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

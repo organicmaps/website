@@ -1,5 +1,5 @@
 ---
-description: "Mapiau manwl cyflym all-lein ar gyfer teithwyr, twristiaid, gyrwyr, heicwyr a seiclwyr wedi'i chreu gan sylfaenwyr MapsWithMe (Maps.Me)."
+description: "Mapiau all-lein am ddim ar gyfer heicio, beicio a theithio, gyda llywio GPS, cofnodi traciau, cynllunio llwybrau a llwybrau trafnidiaeth gyhoeddus. Dim hysbysebion na thracio."
 extra:
   menu_title: Hafan
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Crwydro, Seiclo, Llwybrau a Llywio All-lein"
 ---
 
-**Organic Maps** yn ap mapiau all-lein a GPS sy'n canolbwyntio ar breifatrwydd ar gyfer heicio, seiclo a gyrru. Cwbl am ddim. Dim hysbysebion. Dim tracio. Wedi'i ddatblygu gyda chariad gan y gymuned cod agored a'r un bobl a greodd ap [**MapsWithMe**][mapswithme]/**Maps.Me**. Wedi'i bweru gan ddata [OpenStreetMap][openstreetmap].
+Mae **Organic Maps** yn ap mapiau all-lein sy’n canolbwyntio ar breifatrwydd, gyda llywio GPS, cofnodi traciau a chynllunio llwybrau ar gyfer heicio, beicio, rhedeg a gyrru. Hollol rhad ac am ddim. Dim hysbysebion. Dim olrhain. Wedi’i ddatblygu gyda chariad gan y gymuned cod agored a’r un bobl a greodd yr ap [**MapsWithMe**][mapswithme]/**Maps.Me**. Yn defnyddio data [OpenStreetMap][openstreetmap].
 
-**Organic Maps** yw un o'r ychydig apiau y dyddiau hyn sy'n cefnogi 100% o nodweddion heb angen cysylltiad rhyngrwyd. Gosoda Organic Maps, lawrlwytha mapiau, a chael gwared ar dy gerdyn SIM , a chei fynd ar drip am wythnos heb angen gwefru dy ffôn, a heb ddanfon beit i'r rhwydwaith.
+Ar ôl lawrlwytho’r mapiau, mae **Organic Maps** yn gadael i ti chwilio am leoedd, cynllunio llwybrau, cofnodi traciau GPS a llywio heb gysylltiad â’r rhyngrwyd. Archwilia lwybrau anghysbell neu deithia dramor heb ddata symudol na thaliadau crwydro.
 
 > Ym mis Hydref 2026, cyrhaeddodd Organic Maps [dros 12 miliwn o osodiadau](@/news/2026-11-03/641/index.cy.md). [Helpa ni](@/donate/index.cy.md) i ehangu!
 
@@ -28,18 +28,27 @@ lliw tywyll' /> }}
 
 ## Nodweddion
 
-Organic Maps yw'r ap gorau ar gyfer teithwyr, twristiaid, heicwyr a seiclwyr:
+Cynllunia dy deithiau, llywia ac archwilia gydag Organic Maps:
 
 - Mapiau manwl all-lein gyda lleoliadau sydd ddim yn bodoli ar fapiau eraill, diolch i [OpenStreetMap][openstreetmap]
-- Llwybrau seiclo, heicio, a cherdded
-- Cyfuchlinau, proffeiliau dyrchafiad, copaon, a llethrau
-- Cyfeiriadau troell-wrth-droell ar gyfer llywio wrth gerdded, seiclo, a gyrru gydag arweiniad llais ac CarPlay/Android Auto
-- Mapiau metro/isffordd
+- [Cofnodi traciau GPS](@/news/2024-09-19/405/index.md) gydag ystadegau amser real
+- [Cynllunio llwybrau aml-arhosfan](@/news/2026-09-29/640/index.cy.md) gyda hoptimeiddio awtomatig o drefn yr arosfannau
+- [Dewisa rhwng y llwybr cyflymaf a’r llwybr byrraf](@/news/2026-06-29/610/index.cy.md)
+- Llywio tro-wrth-dro ar gyfer cerdded, beicio a gyrru, gydag arweiniad llais a chefnogaeth CarPlay/Android Auto
+- [Llwybro trafnidiaeth gyhoeddus](@/news/2026-06-29/610/index.cy.md) ar fws, tram, isffordd, a rheilffordd ysgafn
 - Chwilio all-lein cyflym ar y map
-- Llyfrnodau ac olion yn fformatiau KML, KMZ, a GPX, GeoJSON
+- [Haenau llwybrau cerdded, beicio a beicio mynydd](@/news/2025-08-09/420/index.cy.md)
+- Arddull map ar gyfer gweithgareddau awyr agored sy’n amlygu llwybrau, meysydd gwersylla, cytiau, cysgodfeydd a ffynonellau dŵr
+- Cyfuchliniau, copaon, llethrau a [phroffiliau uchder](@/news/2026-04-07/570/index.cy.md) ar gyfer llwybrau a thraciau sydd â data uchder
+- [Cadwa lwybrau sydd wedi’u cynllunio](@/news/2025-06-15/417/index.md) ar gyfer teithiau yn y dyfodol
+- [Mewnforia](@/faq/bookmarks/how-to-import/index.cy.md), [allforia](@/faq/bookmarks/how-to-export/index.cy.md) a rhanna nodau tudalen a thraciau GPS mewn fformatau KML/KMZ, GPX a GeoJSON
+- [Mewnforia leoedd sydd wedi’u cadw yn Google Maps](@/news/2025-11-26/480/index.cy.md) o ffeil `Saved Places.json` Google Takeout
+- [Copïau wrth gefn a chydamseru ag iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Ychwanega a golyga leoedd](@/faq/editing/organic-maps-map-editing/index.cy.md) yn uniongyrchol yn OpenStreetMap
+- [Mesura bellteroedd mewn llinell syth](@/news/2023-09-30/221/index.md) gyda’r teclyn Pren Mesur
 - Thema lliw tywyll i amddiffyn dy lygaid
-- Gwledydd ac ardaloedd sydd ddim yn defnyddio llawer o gof
 - Erthyglau Wicipedia ar gyfer lleoedd poblogaidd
+- [Delweddau lloeren](@/news/2026-06-29/610/index.cy.md) arbrofol gan ddefnyddio URL gweinydd teils rwyt ti’n ei ddarparu
 - Ffynhonnell agored ac am ddim
 
 ## Pam Organic?
@@ -133,7 +142,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
 
 Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i thrwyddedu o dan y drwydded Apache License 2.0.
 
-- Os gweli'n dda, ymuna â'n system profi beta, awgryma dy syniadau, ac adrodda broblemau:
+- Ymuna â’n rhaglen beta i roi cynnig ar nodweddion newydd, awgrymu gwelliannau a rhoi gwybod am wallau:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Bwrdd Gwaith Linux Beta (Flatpak)][flatpak]

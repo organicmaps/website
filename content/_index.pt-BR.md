@@ -1,5 +1,5 @@
 ---
-description: "Mapas offline rápidos e detalhados para viajantes, turistas, motoristas, caminhantes e ciclistas criados pelos fundadores do app MapsWithMe (Maps.Me)."
+description: "Mapas offline gratuitos para caminhadas, ciclismo e viagens, com navegação GPS, gravação de trilhas, planejamento de rotas e rotas de transporte público. Sem anúncios nem rastreamento."
 extra:
   menu_title: Início
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Caminhada, Ciclismo, Trilhas e Navegação Offline"
 ---
 
-**Organic Maps** é um aplicativo de mapas offline e GPS focado em privacidade para caminhadas, ciclismo e direção. Absolutamente gratuito. Sem anúncios. Sem rastreamento. Desenvolvido com amor pela comunidade de código aberto e pelos fundadores do app [**MapsWithMe**][mapswithme]/**Maps.Me**. Alimentado por dados do [OpenStreetMap][openstreetmap].
+**Organic Maps** é um aplicativo de mapas offline que prioriza a sua privacidade, com navegação GPS, gravação de trilhas e planejamento de rotas para caminhadas, ciclismo, corrida e viagens de carro. Totalmente grátis. Sem anúncios. Sem rastreamento. Desenvolvido com carinho pela comunidade de código aberto e pelas mesmas pessoas que criaram o aplicativo [**MapsWithMe**][mapswithme]/**Maps.Me**. Usa dados do [OpenStreetMap][openstreetmap].
 
-**Organic Maps** é atualmente um dos poucos apps que suporta 100% das suas funcionalidades sem uma conexão ativa com a internet. Instale Organic Maps, baixe mapas, jogue fora seu chip (a propósito, sua operadora o rastreia constantemente), e faça uma viagem no fim de semana com uma única carga de bateria sem nenhum byte enviado para a rede.
+Depois de baixar os mapas, **Organic Maps** permite que você procure lugares, planeje rotas, grave trilhas GPS e navegue sem conexão com a internet. Explore trilhas remotas ou viaje para o exterior sem precisar de dados móveis nem pagar taxas de roaming.
 
 > Em outubro de 2026, o Organic Maps [ultrapassou 12 milhões de instalações](@/news/2026-11-03/641/index.pt-BR.md). [Ajude-nos](@/donate/index.pt-BR.md) a crescer!
 
@@ -28,19 +28,28 @@ escuro' /> }}
 
 ## Recursos
 
-Organic Maps é o app companheiro ideal para viajantes, turistas, caminhantes e ciclistas:
+Planeje viagens, navegue e explore com o Organic Maps:
 
 - Mapas offline detalhados com lugares que não existem em outros mapas, graças ao [OpenStreetMap][openstreetmap]
-- Rotas de ciclismo, trilhas para caminhadas e caminhos para pedestres
-- Curvas de nível, perfis de elevação, picos e encostas
+- [Gravação de trilhas GPS](@/news/2024-09-19/405/index.md) com estatísticas em tempo real
+- [Planejamento de rotas com várias paradas](@/news/2026-09-29/640/index.pt-BR.md) e otimização automática da sua ordem
+- [Escolha entre as rotas mais rápidas e as mais curtas](@/news/2026-06-29/610/index.pt-BR.md)
 - Navegação passo a passo a pé, bicicleta e carro, com orientação por voz e CarPlay/Android Auto
-- Mapas de metrô
+- [Planejamento de rotas de transporte público](@/news/2026-06-29/610/index.pt-BR.md) com ônibus, bondes, metrô e veículos leves sobre trilhos
 - Busca rápida offline no mapa
-- Exportação e importação de marcadores nos formatos KML/KMZ, importação GPX, GeoJSON
+- [Camadas de rotas para caminhada, ciclismo e mountain bike](@/news/2025-08-09/420/index.pt-BR.md)
+- Estilo de mapa para atividades ao ar livre que destaca trilhas, áreas de camping, cabanas, abrigos e fontes de água
+- Curvas de nível, picos, encostas e [perfis de altitude](@/news/2026-04-07/570/index.pt-BR.md) de rotas e trilhas com dados de altitude
+- [Salve as rotas planejadas](@/news/2025-06-15/417/index.md) para viagens futuras
+- [Importe](@/faq/bookmarks/how-to-import/index.pt-BR.md), [exporte](@/faq/bookmarks/how-to-export/index.pt-BR.md) e compartilhe favoritos e trilhas GPS nos formatos KML/KMZ, GPX e GeoJSON
+- [Importe os locais salvos no Google Maps](@/news/2025-11-26/480/index.pt-BR.md) do arquivo `Saved Places.json` do Google Takeout
+- [Backup e sincronização do iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Adicione e edite lugares](@/faq/editing/organic-maps-map-editing/index.pt-BR.md) diretamente no OpenStreetMap
+- [Meça distâncias em linha reta](@/news/2023-09-30/221/index.md) com a ferramenta Régua
 - Modo escuro para proteger seus olhos
-- Países e regiões não ocupam muito espaço
 - Artigos da Wikipedia para lugares populares
-- Livre e de código aberto
+- [Imagens de satélite](@/news/2026-06-29/610/index.pt-BR.md) experimentais usando um URL de servidor de mosaicos que você fornece
+- Grátis e de código aberto
 
 ## Por que orgânico?
 
@@ -133,7 +142,7 @@ Os patrocinadores institucionais abaixo forneceram subsídios direcionados para 
 
 Organic Maps é um [software de código aberto][github] licenciado sob a Licença Apache 2.0.
 
-- Por favor, junte-se ao nosso programa beta, faça suas sugestões e relate erros:
+- Participe do nosso programa beta para testar novos recursos, sugerir melhorias e relatar bugs:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]

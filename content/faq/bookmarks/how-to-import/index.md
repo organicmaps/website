@@ -1,22 +1,23 @@
 ---
-title: How to import bookmarks and tracks in KML, KMZ, KMB, GPX or GeoJSON (JSON) format?
-description: Step-by-step instructions for importing bookmarks and tracks shared with you as KML, KMZ, KMB, GPX or GeoJSON (JSON) files into Organic Maps
-updated: "2026-01-03"
+title: "How do I import bookmarks and GPX tracks into Organic Maps?"
+description: "Import KML, KMZ, KMB, GPX, GeoJSON and supported Google Takeout files into Organic Maps, with steps for Android and iOS."
+updated: "2026-11-06"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
 extra:
-  order: 20
+  order: 30
 ---
 
-You can import bookmarks and/or tracks sent from Organic Maps or third party apps if they export bookmarks in KML, KMZ, KMB, GPX or GeoJSON (JSON) formats.
+Organic Maps imports KML, KMZ, KMB, GPX, and GeoJSON files. Supported JSON imports also include Google Takeout's **Saved Places.json**; this does not mean that every JSON file or every Google Maps export layout is supported. [KML polygon import, export, and rendering](@/faq/bookmarks/how-to-import/index.md#kml-polygons) are being prepared for an upcoming release.
 
-To import a single file:
+Download the file to your device, then use its **Open with** or **Share** action and choose Organic Maps. You can also use **Import Bookmarks and Tracks** inside the app. On iOS, choose one supported file in the file picker; a KMZ backup can contain several lists. On Android, you can choose a folder and import supported files from it and its subfolders, subject to Android's storage-access restrictions.
 
-1. Locate downloaded or shared KML, KMZ, KMB, GPX, GeoJSON (JSON) file sent by email, instant messenger or cloud storage, for example, iCloud or Google Drive.
-2. Tap once or tap and hold the KML, KMZ, KMB, GPX, GeoJSON (JSON) file and choose "Open with Organic Maps" (Android) or "Import with Organic Maps" (an icon with a square box and an arrow on iOS) in the pop-up window.
-3. Organic Maps should be launched, and you should see "Bookmarks loaded successfully!" message. You can see imported Bookmarks and/or Tracks on the map and on the "Bookmarks and Tracks" screen.
+Check the imported list in **Bookmarks and Tracks**. If a file will not open, make sure it is downloaded locally, update the app, and retry through the app's import control. If it still fails, [report the format, error, and a non-private example file](@/faq/app/report-a-bug/index.md). Reimporting can create duplicates; check the list before repeating it.
 
-Importing bookmarks and tracks in batch is also possible:
+For exports from another app, see [moving saved places from Google Maps or MAPS.ME](@/faq/bookmarks/import-from-google-maps-and-mapsme/index.md). To use an imported GPX file, see [tracks and navigation](@/faq/navigation/navigate-gpx-track/index.md).
 
-1. Open Organic Maps and tap "stars with dots" button to open bookmarks and tracks. Press "Import Bookmarks and Tracks" button.
-2. Select a folder with KML, KMZ, KMB, GPX, GeoJSON (JSON) files. On Android, Organic Maps will scan it including subfolders and import all supported files with bookmarks and tracks. You can choose root folder to search over all storage.
+## Can I import, display, and export KML polygons? {#kml-polygons}
+
+KML polygon support is being prepared for an upcoming release: importing, rendering, and exporting polygons have been implemented and merged into master. Polygons represent areas, such as a park boundary or a survey area, and this feature will display those shapes on the map alongside saved places and tracks.
+
+Use KML or KMZ to preserve polygon areas when sharing or backing up this data. GPX does not support polygon areas.

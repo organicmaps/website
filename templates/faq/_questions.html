@@ -1,0 +1,12 @@
+{# Direct links to the related questions in one consolidated FAQ answer.
+   Keep translations unchanged until their content is updated. #}
+{% if lang == config.default_language %}
+{% set questions = [heading for heading in faq_page.toc if heading.level == 2] %}
+{% if questions %}
+<ul>
+  {% for question in questions %}
+  <li><a href="{{ question.permalink | replace(from=config.base_url, to="") | safe }}">{{ question.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endif %}

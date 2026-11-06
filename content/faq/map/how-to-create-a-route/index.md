@@ -1,26 +1,29 @@
 ---
-title: How to create a route and start navigation
-description: Guide for building a route and navigating using the map
-updated: "2024-07-22"
-
+title: "How do I plan a route and start navigation?"
+description: "Plan an Organic Maps route, start navigation, add or reorder stops and avoid tolls, motorways, ferries or unpaved roads."
+updated: "2026-11-06"
 taxonomies:
-  faq: ["map"]
-
+  faq: ["routes-and-navigation"]
 extra:
-  order: 40
+  order: 10
 ---
 
-Once your location is determined on the map, choose your destination.
-You can use one of the following ways:
+Select a destination using search, a bookmark, or a tap on the map, then tap **Route to**. Choose driving, walking, cycling, or public transport. The preview shows the distance and estimated travel time. Tap **Start** to navigate from your current position.
 
-* tap the search button
-* tap the bookmarks button
-* tap any place on the map
+To preview a trip from another place, select it and use **Route from**. You do not need to be at the start to plan a route. Navigation starts from your current position, so the phone must be able to [determine your location](@/faq/map/can-not-find-position/index.md). [Download all regions along the route](@/faq/app/offline-maps/index.md#download-maps) first.
 
-Once you have chosen point of destination, press “Route to” button at the bottom. The route will be created and you will see distance and estimated travel time. You can change the route type by pressing the Car, Pedestrian, Subway, Bike or Ruler icon at the top of the screen. To start following the route tap “Start” button. Press the arrow sign in the lower right corner of the screen and tap Stop to finish the route.
+Jump to [adding or reordering stops](@/faq/map/how-to-create-a-route/index.md#route-stops) or [avoiding road types](@/faq/map/how-to-create-a-route/index.md#avoid-roads).
 
-You can choose a different starting point (“Route From“ button) to preview a route, but navigation is only available from your current location.
+## How do I add, reorder, or optimize stops? {#route-stops}
 
-You can add up to 100 intermediate points to a route. To add an intermediate point, create a route between the start and destination, then tap a point on the map (or select it from bookmarks/using the search) and tap “Add stop”.
+After creating a route, select another place and tap **Add stop**. You can use map points, search results, or bookmarks. Up to 100 intermediate stops are supported.
 
-You can change the settings of the car route and select road types that you would like to avoid (tolls, unpaved roads, motorways, ferries). Open the app settings → Routing options → Toggle On needed options. Avoid options are also displayed when the route is built if changing any of the options may change the route.
+Both Android and iOS let you change the order of route points in the route-management interface. Current releases also have a setting to optimize the order of intermediate stops. Turn optimization off when you need to visit stops in a specific order, then arrange them yourself. Optimization changes the stop order; it does not add live traffic information.
+
+## How do I avoid tolls, motorways, ferries, or unpaved roads? {#avoid-roads}
+
+Open **Settings → Routing options** and enable the road types you want to avoid for car routing. Relevant shortcuts may also appear in the route preview when they can affect the route.
+
+Check the resulting route before starting. These settings depend on OpenStreetMap tags and do not provide a custom avoidance area or a guarantee about every road surface. For a particular detour, add intermediate stops on the roads you want to use.
+
+See also [route troubleshooting and alternatives](@/faq/navigation/routing-problems/index.md), [public transport coverage](@/faq/navigation/public-transport/index.md), and [saving a route for later](@/faq/navigation/navigate-gpx-track/index.md#save-route).

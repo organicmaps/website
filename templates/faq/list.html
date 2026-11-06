@@ -2,11 +2,31 @@
 
 {% block content %}
   <h1>{{ resource.title }}</h1>
+  {% if lang == config.default_language %}
+  {% if resource.extra.start_here %}
+  <h2>Start here</h2>
+  <ul>
+    {% for source in resource.extra.start_here %}
+    {% set start_page = get_page(path=source) %}
+    <li><a href="{{ start_page.path | safe }}">{{ start_page.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <nav aria-label="FAQ topics">
+    <p><strong>Browse topics:</strong>
+      {% for term in terms %}
+      {% if not loop.first %} · {% endif %}<a href="#faq-{{ term.slug }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a>
+      {% endfor %}
+    </p>
+  </nav>
+  {% endif %}
   {%- for term in terms -%}
-  <h2><a href="{{ term.path | safe }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
+  <h2{% if lang == config.default_language %} id="faq-{{ term.slug }}"{% endif %}><a href="{{ term.path | safe }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
   <ul>
     {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
-      <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a></li>
+      <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a>
+        {% include 'faq/_questions.html' %}
+      </li>
     {%- endfor -%}
   </ul>
   {%- endfor -%}

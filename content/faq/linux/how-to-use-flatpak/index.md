@@ -1,6 +1,6 @@
 ---
-title: How do I use the flatpak version of the app?
-description: "Frequently asked questions for Organic Maps application"
+title: How do I install and use Organic Maps on Linux with Flatpak?
+description: "Install Organic Maps with Flatpak on Linux, download offline maps, plan routes and manage bookmarks using the desktop controls."
 
 taxonomies:
   faq: ["linux"]
@@ -9,7 +9,7 @@ extra:
   order: 10
 ---
 
-To install OM on Linux with flatpak, open the terminal and input `flatpak install flathub app.organicmaps.desktop`
+To install Organic Maps on Linux with Flatpak, open the terminal and enter `flatpak install flathub app.organicmaps.desktop`.
 
 Once the app is installed you can use the scroll wheel of your mouse or the controls on the right menu bar to zoom into the area you wish to navigate in order to download maps for that area. You can also click the "download" icon in the lower right. Once you have downloaded maps for the regions you care about, the app should work even without an internet connection.
 

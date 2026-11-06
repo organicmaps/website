@@ -1,6 +1,7 @@
 ---
-title: Text-to-Speech (TTS) and voice directions on Android
-description: Guide on how to setup TTS voice directions on Android
+title: "How do I set up offline text-to-speech on Android?"
+description: "Set up Android text-to-speech for offline Organic Maps navigation, select a voice engine and test downloaded language packs."
+updated: "2026-11-07"
 slug: text-to-speech-tts-and-voice-directions-on-android
 aliases:
   - /faq/voice/text-to-speech-android-tts/
@@ -8,60 +9,55 @@ aliases:
 taxonomies:
   faq: ["voice-directions"]
 extra:
-  order: 10
+  order: 20
 ---
 
-## Summary
+Open Android settings and search for **Text-to-speech**. Choose an installed engine, download a voice for your language, and use its sample playback to check it. Then select a matching voice language in Organic Maps and use the app's voice test. Restart Organic Maps after changing the system engine if the new voice does not work.
 
-Organic Maps uses the system text-to-speech (TTS) engine for voice instructions. The default engines vary by device. The choices can include Google Text-to Speech, device manufacturer's engine or a third-party one.
+<details>
+<summary>Example Android settings screens</summary>
 
-The official recommendation from Organic Maps is [RHVoice](https://rhvoice.org/), which is a free and open source speech engine that can be downloaded from [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) and [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/).
+These screenshots show one device's **Accessibility → Text-to-speech output** settings. Menu names and locations vary by Android version and manufacturer; searching settings for **Text-to-speech** is usually the easiest way to find them.
 
-## Instructions
+| Android settings | Accessibility settings |
+| --- | --- |
+| ![Android settings with Accessibility highlighted](tts_config_1.png) | ![Accessibility settings with Text-to-speech output highlighted](tts_config_2.png) |
 
-- Open the Settings app on your Android device
-- Select Additional Settings and then select Accessibility
-- Choose your preferred engine, speech rate and pitch
-- **Restart Organic Maps app**
-- Open Settings => Voice Instructions in Organic Maps and set it up
-- Restart Organic Maps app again (or reboot the device) if the voice is not working
-
-If you cannot find the relevant setting, open the settings app and search for Text-to-speech.
-
-P.S: Do note that these steps will vary based on the phone brand you are using.
-
-Said options may not appear if you don't have a TTS already installed on your device. Please refer to the table below to install any one of them that supports your native language.
-
-## Screenshots
-
-|             |             |
-| ----------- | ----------- |
-![Settings](tts_config_1.png "Settings") | ![Accessibility](tts_config_2.png "Accessibility")
+</details>
 
 ## Engines {#engines}
 
-Below is a comprehensive list showing several engines and the languages they support (download links can be found after the table):
+Engines and offline language packs differ by device. Google Speech Services, a manufacturer's engine, or an open-source engine such as [RHVoice](https://rhvoice.org/) may be suitable. RHVoice is available from [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) and [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/). [Open RHVoice and download a voice](https://rhvoice.org/installation/) before selecting it as the system engine. Speech rate and pitch are usually controlled in the system or engine settings.
+
+Use the comparison below to find engines for your language, then check the engine's current voice catalogue and offline support before installing. The table is a reference, not a guarantee for every device or installed version; some entries describe support being prepared for a future release.
+
+<details>
+<summary>Compare speech engines by language</summary>
 
 {{ <tts_table lang /> }}
 
-## Workarounds
+</details>
 
-If you’re having trouble initializing the RHVoice TTS engine on LineageOS or other custom ROMs, try this workaround. RHVoice may not initialize properly and the app may crash, especially if you haven’t used any TTS engine on your phone before (e.g., new installation, factory reset, etc.). If you’re using a custom ROM like LineageOS <ins>without Google Play services and Speech Services by Google</ins>, and you want to use RHVoice as your preferred TTS engine, follow the instructions below as a workaround:
+## Test the voice offline
 
-1. Install the [eSpeak TTS engine](https://f-droid.org/en/packages/com.reecedunn.espeak) available on F-Droid
-2. Set it as the preferred system engine
-    - Go to LineageOS main **Settings**.
-    - Scroll down to **Accessibility**.
-    - Select **text-to-speech output** and **Preferred engine** (left side) and make sure **eSpeak** is selected.
-3. Go back and press **play** to see if it is working
-4. Install [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/) available on F-droid.
-    - Open it, select the language you want to use, tap on the cloud icon (far left) to download voices.
-    - Press play button to verify if it is working
-5. Set **RHVoice** as preferred engine (see step 2)
-6. Now, you should be able to use RHVoice without any problems
+Test with the network disconnected before travelling. In Organic Maps, open **Settings → Voice Instructions** and use **Test Voice Directions**. If the test is silent, check the system engine's sample playback, downloaded voice, media volume and Bluetooth output. See [voice-guidance troubleshooting](@/faq/voice/cant-hear-instructions/index.md) if speech still fails or stops with the screen off.
 
-## Testing
+<details>
+<summary>Example Organic Maps voice-test screen</summary>
 
-In order to test the voice instructions, you can tap on "Test Voice Directions (TTS, Text-To-Speech)" in OM "Settings → Voice Instructions" menu or you can actually start a navigation to receive any voice output. Organic Maps will not give you any voice instructions while you're standing still.
+The screenshot shows the voice-test control; its appearance may differ in your app version.
 
-![TTS Test](tts_test.png "TTS Test")
+![Organic Maps settings with Test Voice Directions highlighted](tts_test.png)
+
+</details>
+
+## What if Text-to-speech settings crash on LineageOS?
+
+Some LineageOS versions have a [reported Settings crash when only one TTS engine is installed](https://gitlab.com/LineageOS/issues/android/-/issues/3678). If opening **Text-to-speech output** crashes Settings while RHVoice is installed, try this workaround:
+
+1. Install a second engine, such as [eSpeak](https://f-droid.org/en/packages/com.reecedunn.espeak/), alongside RHVoice.
+2. Reopen **Text-to-speech output**, select eSpeak as the preferred engine, and test its sample playback.
+3. Open RHVoice, download and test a voice for your language, then select RHVoice as the preferred system engine.
+4. Test speech in Android settings and Organic Maps again.
+
+This workaround has helped affected devices but does not fix every TTS problem. If Settings still crashes, include your device and LineageOS version when reporting the problem to LineageOS. If system speech works but Organic Maps is silent, follow the [voice-guidance checks](@/faq/voice/cant-hear-instructions/index.md).

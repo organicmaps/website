@@ -252,48 +252,6 @@ def _inline_targets(text: str) -> Counter:
     return targets
 
 
-def _localised_refs(src_body: str, out_body: str, lang: str) -> Counter:
-    """Reference ids a translation may legitimately add to its source.
-
-    A translation localises a community link one of two ways, and only one of
-    them changes the reference count:
-
-    - It *substitutes*: `contribute` points a German reader at
-      `[telegram_chat_de]` where English has `[telegram_chat]`. One reference
-      either way, so the counts already agree and nothing is needed here.
-    - It *adds*: the homepage sends every reader to the English chat and, where
-      one exists, to their own language's chat too, so `de` carries
-      `[telegram_chat]` *and* `[telegram_chat_de]`, and `ru` adds `[matrix_ru]`
-      beside `[matrix]`. That is deliberately one reference more than the
-      source.
-
-    Only the second case is an allowance, and it needs two guards:
-
-    - `X` must be present alongside `X_<lang>`, or every substituting page
-      becomes a phantom "missing X" — 10 of them across `contribute`.
-    - Only the *surplus* over the source's own count is discounted. The 500
-      release notes list every language's chat in the English source, so
-      `telegram_chat_de` appears on both sides there and is not an addition
-      at all; discounting it regardless invented a missing reference on 10
-      more pages.
-    """
-    base = lang.split("-")[0]
-    src_ids = Counter(re.findall(r"\]\[([^\]]+)\]", src_body))
-    out_ids = Counter(re.findall(r"\]\[([^\]]+)\]", out_body))
-
-    added: Counter = Counter()
-    for ref, n in out_ids.items():
-        if not ref.endswith(f"_{base}"):
-            continue
-        stem = ref[:-len(base) - 1]
-        if stem not in src_ids or stem not in out_ids:
-            continue
-        surplus = n - src_ids[ref]
-        if surplus > 0:
-            added[ref] = surplus
-    return added
-
-
 # ----------------------------------------------------------------- emphasis
 
 # Only the two-character delimiters are checkable. A lone `*` or `_` is
@@ -553,28 +511,11 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     if re.search(r"templates/\S+\.html", src_body) and "replaced with taxonomy" in src_body:
         return problems
 
-    # 1. Structure must match the source exactly — unless the page says it
-    #    deliberately does not. A few translations are not renderings of the
-    #    English page but their own edition of it: the Russian homepage runs a
-    #    volunteer-recruitment section English has never had and rewrites the
-    #    community list around its own chats. Reporting that forever as
-    #    "structure" errors trains people to ignore the check, and worse, it
-    #    hides real losses behind noise that is known to be fine.
-    #
-    #    Declaring it costs a sentence in the page's own frontmatter:
-    #
-    #        extra:
-    #          translation_diverges: "Carries a volunteer section English lacks."
-    #
-    #    The reason is mandatory — an empty flag does nothing — so the
-    #    exemption cannot be added silently. Only the structural comparison is
-    #    waived. Everything that catches actual damage still runs: lost brands,
-    #    translated anchors, spliced alphabets, orphaned links, leftover XML
-    #    tags and register.
+    # Independently edited translations can explain structural differences in
+    # extra.translation_diverges. Require a non-empty reason; brand, anchor,
+    # link syntax and register checks still apply.
     diverges = (out_meta.get("extra") or {}).get("translation_diverges")
     a, b = fingerprint(src_body), fingerprint(out_body)
-    localised = _localised_refs(src_body, out_body, lang)
-    b["ref_links"] -= sum(localised.values())
     for key in ([] if isinstance(diverges, str) and diverges.strip() else a):
         if a[key] == b[key]:
             continue
@@ -583,7 +524,7 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             if key == "ref_links":
                 pat = r"\]\[([^\]]+)\]"
                 src_ids = Counter(re.findall(pat, src_body))
-                out_ids = Counter(re.findall(pat, out_body)) - localised
+                out_ids = Counter(re.findall(pat, out_body))
             else:
                 src_ids = _inline_targets(src_body)
                 out_ids = _inline_targets(out_body)

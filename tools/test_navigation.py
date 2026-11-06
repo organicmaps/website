@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build small sites to test navigation and donation templates with real Zola."""
+"""Test homepage links, navigation and donation templates with real Zola."""
 
 import re
 import shutil
@@ -83,13 +83,35 @@ class RenderedPage(HTMLParser):
                 break
 
 
+class MainLinks(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_main = False
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "main":
+            self.in_main = True
+        elif tag == "a" and self.in_main:
+            href = dict(attrs).get("href")
+            if href is not None:
+                self.links.append(href)
+
+    def handle_endtag(self, tag):
+        if tag == "main":
+            self.in_main = False
+
+
 class NavigationTests(unittest.TestCase):
     def setUp(self):
         self.zola = shutil.which("zola")
         self.assertIsNotNone(self.zola, "Install Zola to run navigation tests")
 
-    def build(self, root, *, expected_error=None):
-        result = subprocess.run([self.zola, "build"], cwd=root,
+    def build(self, root, *, expected_error=None, output_dir=None):
+        command = [self.zola, "build"]
+        if output_dir is not None:
+            command.extend(["--output-dir", str(output_dir)])
+        result = subprocess.run(command, cwd=root,
                                 capture_output=True, text=True)
         output = result.stdout + result.stderr
         if expected_error is None:
@@ -97,6 +119,26 @@ class NavigationTests(unittest.TestCase):
         else:
             self.assertNotEqual(result.returncode, 0, output)
             self.assertIn(expected_error, output)
+
+    def test_homepages_link_news_and_language_chat(self):
+        references = (ROOT / "templates/shortcodes/references.md").read_text()
+        chats = dict(re.findall(
+            r"(?m)^\[(telegram(?:_chat(?:_[a-z]+)?)?)\]:\s+(\S+)", references,
+        ))
+        with tempfile.TemporaryDirectory() as output:
+            public = Path(output) / "public"
+            self.build(ROOT, output_dir=public)
+            for home in sorted((ROOT / "content").glob("_index*.md")):
+                lang = "en" if home.name == "_index.md" else home.name[7:-3]
+                with self.subTest(lang=lang):
+                    prefix = "" if lang == "en" else lang
+                    parser = MainLinks()
+                    parser.feed((public / prefix / "index.html").read_text())
+                    group = chats.get(f"telegram_chat_{lang.split('-')[0]}", chats["telegram_chat"])
+                    self.assertCountEqual(
+                        [href for href in parser.links if href in chats.values()],
+                        [chats["telegram"], group],
+                    )
 
     def navigation_site(self, root):
         write(root, "config.toml", CONFIG)

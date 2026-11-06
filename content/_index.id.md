@@ -1,5 +1,5 @@
 ---
-description: "Peta luring cepat terperinci untuk pelancong, turis, pengemudi, pejalan kaki, dan pengendara sepeda yang dibuat oleh pendiri aplikasi MapsWithMe (Maps.Me)."
+description: "Peta offline gratis untuk mendaki, bersepeda, dan bepergian, dilengkapi navigasi GPS, perekaman trek, perencanaan rute, serta rute transportasi umum. Tanpa iklan atau pelacakan."
 extra:
   menu_title: "Halaman depan"
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Pendakian, Bersepeda, Jalan Setapak, dan Navigasi Luring"
 ---
 
-**Organic Maps** adalah aplikasi peta offline & GPS yang berfokus pada privasi untuk hiking, bersepeda, dan berkendara. Benar-benar gratis. Tanpa iklan. Tanpa pelacakan. Dikembangkan dengan cinta oleh komunitas sumber terbuka dan pendiri aplikasi [**MapsWithMe**][mapswithme]/**Maps.Me**. Didukung oleh data [OpenStreetMap][openstreetmap].
+**Organic Maps** adalah aplikasi peta offline yang mengutamakan privasi, dilengkapi navigasi GPS, perekaman trek, dan perencanaan rute untuk mendaki, bersepeda, berlari, dan berkendara. Sepenuhnya gratis. Tanpa iklan. Tanpa pelacakan. Dikembangkan dengan penuh cinta oleh komunitas sumber terbuka dan orang-orang yang juga menciptakan aplikasi [**MapsWithMe**][mapswithme]/**Maps.Me**. Menggunakan data [OpenStreetMap][openstreetmap].
 
-**Organic Maps** adalah salah satu dari sedikit aplikasi saat ini yang mendukung 100% fitur tanpa koneksi Internet aktif. Instal Organic Maps, unduh peta, buang kartu SIM kamu (ngomong-ngomong, operator kamu terus melacak kamu), dan lakukan perjalanan mingguan dengan satu kali pengisian baterai tanpa bita apa pun yang dikirim ke jaringan.
+Setelah mengunduh peta, **Organic Maps** memungkinkan kamu mencari lokasi, merencanakan rute, merekam trek GPS, dan bernavigasi tanpa koneksi internet. Jelajahi jalur terpencil atau bepergian ke luar negeri tanpa data seluler maupun biaya roaming.
 
 > Pada Oktober 2026, Organic Maps [mencapai lebih dari 12 juta instalasi](@/news/2026-11-03/641/index.id.md). [Bantu kami](@/donate/index.id.md) berkembang!
 
@@ -28,19 +28,28 @@ gelap' /> }}
 
 ## Fitur
 
-Organic Maps adalah aplikasi pendamping terlengkap bagi para pelancong, turis, pejalan kaki, dan pengendara sepeda:
+Rencanakan perjalanan, temukan arah, dan jelajahi bersama Organic Maps:
 
 - Peta luring terperinci dengan tempat-tempat yang tidak ada di peta lain, berkat [OpenStreetMap][openstreetmap]
-- Rute bersepeda, jalur pendakian, dan jalur pejalan kaki
-- Garis kontur, profil ketinggian, puncak, dan lereng
+- [Perekaman trek GPS](@/news/2024-09-19/405/index.md) dengan statistik waktu nyata
+- [Perencanaan rute multi-perhentian](@/news/2026-09-29/640/index.id.md) dengan optimalisasi urutan perhentian secara otomatis
+- [Pilih antara rute tercepat dan rute terpendek](@/news/2026-06-29/610/index.id.md)
 - Navigasi berjalan kaki, bersepeda, dan mobil belok demi belok dengan panduan suara dan CarPlay/Android Auto
-- Peta metro/kereta bawah tanah
+- [Perencanaan rute transportasi umum](@/news/2026-06-29/610/index.id.md) dengan bus, trem, kereta bawah tanah, dan kereta ringan
 - Pencarian luring cepat pada peta
-- Bookmark dan trek dalam format KML, KMZ, GPX, GeoJSON
+- [Lapisan rute pendakian, bersepeda, dan bersepeda gunung](@/news/2025-08-09/420/index.id.md)
+- Gaya peta khusus untuk kegiatan luar ruangan yang menampilkan jalur pendakian, lokasi perkemahan, pondok, tempat berteduh, dan sumber air
+- Garis kontur, puncak, lereng, dan [profil elevasi](@/news/2026-04-07/570/index.id.md) untuk rute serta trek dengan data ketinggian
+- [Simpan rute yang telah direncanakan](@/news/2025-06-15/417/index.md) agar dapat digunakan untuk perjalanan di masa mendatang
+- [Impor](@/faq/bookmarks/how-to-import/index.id.md), [ekspor](@/faq/bookmarks/how-to-export/index.id.md), dan bagikan penanda serta trek GPS dalam format KML/KMZ, GPX, dan GeoJSON
+- [Impor lokasi yang disimpan di Google Maps](@/news/2025-11-26/480/index.id.md) dari berkas `Saved Places.json` di Google Takeout
+- [Pencadangan dan sinkronisasi iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Tambahkan dan edit lokasi](@/faq/editing/organic-maps-map-editing/index.id.md) langsung di OpenStreetMap
+- [Ukur jarak garis lurus](@/news/2023-09-30/221/index.md) dengan alat Penggaris
 - Mode Gelap untuk melindungi mata kamu
-- Negara dan wilayah tidak memakan banyak ruang
 - Artikel Wikipedia untuk tempat-tempat populer
-- Bebas dan sumber terbuka
+- [Citra satelit](@/news/2026-06-29/610/index.id.md) eksperimental menggunakan URL server ubin yang kamu masukkan
+- Gratis dengan kode sumber terbuka
 
 ## Mengapa Organik?
 
@@ -121,14 +130,6 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">menyediakan</a> server khusus gratis senilai sekitar $12.000/tahun untuk melayani peta di Vietnam dan Asia Tenggara.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -141,7 +142,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
 
 Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan di bawah lisensi Apache 2.0.
 
-- Silakan bergabung dengan program beta kami, sarankan fitur kamu, dan laporkan kutu:
+- Bergabunglah dengan program beta kami untuk mencoba fitur-fitur baru, memberikan saran perbaikan, dan melaporkan bug:
   - [Beta iOS (TestFlight)][testflight]
   - [Beta Android (Firebase)][firebase]
   - [Beta Desktop Linux (Flatpak)][flatpak]
@@ -151,7 +152,7 @@ Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan d
 - Berlangganan ke [saluran Telegram][telegram] atau ke [space Matrix][matrix] untuk pembaruan.
 - Bergabunglah dengan [grup Telegram][telegram_chat] kami untuk berdiskusi dengan pengguna lain.
 - Kunjungi [laman GitHub][github] kami.
-- Ikuti pembaruan kami di [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Ikuti pembaruan kami di [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://id.wikipedia.org/wiki/Fork_(pengembangan_perangkat_lunak)
 

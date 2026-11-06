@@ -1,5 +1,5 @@
 ---
-description: "Detaile handiko offline mapa azkarrak, bidaiari, turista, gidari, mendizale eta txirrindularientzat, MapsWithMe (Maps.me) app-aren sortzaileek garatutakoa."
+description: "Mendi-ibiliak, txirrindularitza eta bidaiak egiteko doako lineaz kanpoko mapak, GPS nabigazioarekin, arrastoen grabaketarekin, ibilbideen plangintzarekin eta garraio publikoko ibilbideekin. Iragarkirik eta jarraipenik gabe."
 extra:
   menu_title: Hasiera
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Offline mapak mendizale, txirrindulari, ibiltari eta nabigaziorako"
 ---
 
-**Organic Maps** mendian ibiltzeko, txirrindularitzarako eta gidatzeko pribatutasunean zentratutako lineaz kanpoko mapen eta GPS aplikazioa da. Erabat doakoa. Iragarkirik gabe. Jarraipenik ez. Kode irekiko komunitateak eta [**MapsWithMe**][mapswithme]/**Maps.Me** aplikazioa sortu zuten pertsona berberek maitasunez garatua. [OpenStreetMap][openstreetmap] datuekin elikatua.
+**Organic Maps** pribatutasuna zaintzen duen lineaz kanpoko mapen aplikazioa da, GPS nabigazioa, arrastoen grabaketa eta ibilbideen plangintza eskaintzen dituena mendi-ibiliak egiteko, bizikletaz ibiltzeko, korrika egiteko eta gidatzeko. Guztiz doakoa. Iragarkirik gabe. Jarraipenik gabe. Kode irekiko komunitateak eta [**MapsWithMe**][mapswithme]/**Maps.Me** aplikazioa sortu zuten pertsona berberek maitasunez garatua. [OpenStreetMap][openstreetmap] datuetan oinarritua.
 
-**Organic Maps** da konexiorik gabe %100-ean funtzionatzen duen aplikazio gutxietako bat. Instalatu Organic Maps, deskargatu mapak eta bota zaborretara zure SIM txartela (bide batez, zure telefono konpainiak uneoro jarraipena egiten dizu), eta joan asteroko ibilaldira bateria karga batekin eta sarera byte bakarra ere bidali gabe.
+Mapak deskargatu ondoren, **Organic Maps**-ek lekuak bilatzeko, ibilbideak planifikatzeko, GPS arrastoak grabatzeko eta interneteko konexiorik gabe nabigatzeko aukera ematen dizu. Arakatu urruneko bidexkak edo bidaiatu atzerrira datu mugikorrik eta ibiltaritza-kosturik gabe.
 
 > 2026ko urrian, Organic Maps-ek [12 milioi instalazio baino gehiago lortu zituen](@/news/2026-11-03/641/index.eu.md). [Lagundu iezaguzu](@/donate/index.eu.md) hazten!
 
@@ -28,18 +28,27 @@ ilunean' /> }}
 
 ## Berezitasunak
 
-Organic Maps da bidaiari, turista, mendizale eta txirrindularientzat app egokiena:
+Antolatu bidaiak, nabigatu eta esploratu Organic Maps-ekin:
 
 - Beste mapetan azaltzen ez diren tokietako offline mapa detailatuak, [OpenStreetMap][openstreetmap]-i esker
-- Bizikletarako ibilbideak, mendiko zidorrak eta ibiltzeko bideak
-- Profil lerroak, sestra kurbak, gailur eta aldapak
+- [GPS arrastoen grabaketa](@/news/2024-09-19/405/index.md) denbora errealeko estatistikekin
+- [Hainbat geldialdiko ibilbideen plangintza](@/news/2026-09-29/640/index.eu.md), geldialdien ordena automatikoki optimizatuz
+- [Aukeratu ibilbiderik azkarrenaren eta laburrenaren artean](@/news/2026-06-29/610/index.eu.md)
 - Pausoz-pausoko nabigazioa oinez, bizikletan edo autoz ibiltzeko, ahotsaren aukerarekin, CarPlay/Android Auto
-- Metro mapak
+- [Garraio publikoko ibilbideen plangintza](@/news/2026-06-29/610/index.eu.md): autobusa, tranbia, metroa eta tren arina
 - Mapan offline bilaketa azkarra
-- Tokien laster-markak esportatu eta inportatzeko aukera KML/KMZ, GeoJSON formatuetan, inportatzeko GPX, GeoJSON
+- [Mendi-ibilietarako, txirrindularitzarako eta mendiko bizikletarako ibilbideen geruzak](@/news/2025-08-09/420/index.eu.md)
+- Aire zabaleko jardueretarako mapa-estiloa, bidexkak, kanpalekuak, txabolak, aterpeak eta ur-iturriak nabarmentzen dituena
+- Sestra-kurbak, tontorrak, maldak eta altitude-datuak dituzten ibilbideen eta arrastoen [altuera-profilak](@/news/2026-04-07/570/index.eu.md)
+- [Gorde planifikatutako ibilbideak](@/news/2025-06-15/417/index.md) etorkizuneko bidaietarako
+- [Inportatu](@/faq/bookmarks/how-to-import/index.eu.md), [esportatu](@/faq/bookmarks/how-to-export/index.eu.md) eta partekatu laster-markak eta GPS arrastoak KML/KMZ, GPX eta GeoJSON formatuetan
+- [Inportatu Google Maps-en gordetako lekuak](@/news/2025-11-26/480/index.eu.md) Google Takeout-eko `Saved Places.json` fitxategitik
+- [iCloud bidezko babeskopiak eta sinkronizazioa (iOS)](@/news/2024-06-22/380/index.md)
+- [Gehitu eta editatu lekuak](@/faq/editing/organic-maps-map-editing/index.eu.md) zuzenean OpenStreetMap-en
+- [Neurtu distantziak lerro zuzenean](@/news/2023-09-30/221/index.md) Erregela tresnarekin
 - Modu iluna zure begiak babesteko
-- Nazio eta herrialdeek ez dute toki askorik hartzen
 - Leku ezagunetarako Wikipedia artikuluak
+- [Satelite-irudi](@/news/2026-06-29/610/index.eu.md) esperimentalak, zuk emandako lauza-zerbitzari baten URLa erabiliz
 - Librea eta kode irekikoa
 
 ## Zergatik Organic?
@@ -121,14 +130,6 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies-ek</a> <a href="https://44plus.vn/organicmaps">ematen digu</a> urtean 12.000 $ inguruko balioa duen zerbitzari dedikatu doako bat Vietnam eta Hego-ekialdeko Asian mapak zerbitzatzeko.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -141,7 +142,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
 
 Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean.
 
-- Mesedez parte-hartu gure beta programan, iradoki zure ideia berriak eta akatsen berri eman:
+- Gure beta programan parte hartu ezaugarri berriak probatzeko, hobekuntzak iradokitzeko eta akatsak jakinarazteko:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
@@ -151,7 +152,7 @@ Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean
 - Harpidetu gure [Telegram kanalera][telegram] edo [matrix space][matrix]-era eguneraketak jasotzeko.
 - Sartu gure [Telegram taldean][telegram_chat] beste erabiltzaileekin hitz egiteko.
 - Bisitatu gure [GitHub orria][github].
-- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
+- Jarrai itzazu gure eguneraketak [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit]-en, [LinkedIn][LinkedIn] eta [TikTok][tiktok].
 
 [fork]: https://eu.wikipedia.org/wiki/Fork
 

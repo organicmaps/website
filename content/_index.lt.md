@@ -1,5 +1,5 @@
 ---
-description: "Sparčiai be interneto veikiantys detalūs žemėlapiai keliautojams, turistams, vairuotojams, žygeiviams ir dviratininkams, sukurti MapsWithMe (Maps.Me) programėlės įkūrėjų."
+description: "Nemokami neprisijungus veikiantys žemėlapiai žygiams, važiavimui dviračiu ir kelionėms su GPS navigacija, trasų įrašymu, maršrutų planavimu ir viešojo transporto maršrutais. Be reklamų ir sekimo."
 extra:
   menu_title: Pagrindinis
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: žygių takai pėsčiomis, dviračiu ir navigacija"
 ---
 
-**Organic Maps** yra privatumą orientuota neprisijungus veikianti žemėlapių ir GPS programėlė žygių, dviračių ir vairavimo mėgėjams. Visiškai nemokama. Jokių reklamų. Jokio sekimo. Su meile sukurta atvirojo kodo bendruomenės ir [**MapsWithMe**][mapswithme]/**Maps.Me** programėlės įkūrėjų. Veikia su [OpenStreetMap][openstreetmap] duomenimis.
+**Organic Maps** – tai privatumą sauganti neprisijungus veikianti žemėlapių programėlė su GPS navigacija, trasų įrašymu ir maršrutų planavimu žygiams, važiavimui dviračiu, bėgimui ir kelionėms automobiliu. Visiškai nemokama. Be reklamų. Be sekimo. Su meile sukurta atvirojo kodo bendruomenės ir tų pačių žmonių, kurie sukūrė programėlę [**MapsWithMe**][mapswithme]/**Maps.Me**. Naudoja [OpenStreetMap][openstreetmap] duomenis.
 
-**Organic Maps** yra viena iš nedaugelio programų, kurios 100% funkcijų šiais laikais veikia be interneto ryšio. Įsidiekite Organic Maps, atsisiųskite žemėlapius, išmeskite SIM kortelę (atminkite, kad jūsų ryšio operatorius nuolat seka jus) ir išvykite į savaitės trukmės kelionę su vienu baterijos pakrovimu ir neišsiuntę nė vieno baito į internetą.
+Atsisiuntus žemėlapius, **Organic Maps** leidžia ieškoti vietų, planuoti maršrutus, įrašyti GPS trasas ir naudotis navigacija be interneto ryšio. Tyrinėkite atokius takus arba keliaukite užsienyje be mobiliojo duomenų perdavimo ar tarptinklinio ryšio mokesčių.
 
 > 2026 m. spalį Organic Maps įdiegimų skaičius [viršijo 12 mln](@/news/2026-11-03/641/index.lt.md). [Padėkite mums](@/donate/index.lt.md) augti!
 
@@ -29,18 +29,27 @@ režimu' /> }}
 
 ## Funkcijos
 
-Organic Maps programėlė yra nuostabi palydovė keliautojams, turistams, žygeiviams ir dviratininkams:
+Planuokite keliones, naudokitės navigacija ir tyrinėkite su Organic Maps:
 
 - Detalūs žemėlapiai be interneto su vietomis, kurių nerasite kituose žemėlapiuose, dėka [OpenStreetMap][openstreetmap]
-- Dviračių, žygių ir pėsčiųjų takai
-- Reljefo kontūrai, pakilimo profiliai, viršukalnės ir šlaitai
+- [GPS trasų įrašymas](@/news/2024-09-19/405/index.md) su statistika realiuoju laiku
+- [Maršrutų su keliais sustojimais planavimas](@/news/2026-09-29/640/index.lt.md) ir automatinis sustojimų eilės optimizavimas
+- [Pasirinkite greičiausią arba trumpiausią maršrutą](@/news/2026-06-29/610/index.lt.md)
 - Nuosekli navigacija pėstiesiems, dviratininkams ir automobilių vairuotojams su nurodymais balsu ir CarPlay/Android Auto
-- Metro žemėlapiai
+- [Viešojo transporto maršrutų planavimas](@/news/2026-06-29/610/index.lt.md) autobusais, tramvajais, metro ir lengvuoju geležinkeliu
 - Sparti paieška žemėlapyje neprisijungus
-- Žymelės ir takai KML, KMZ ir GPX formatais, GeoJSON
+- [Žygių, dviračių ir kalnų dviračių maršrutų sluoksniai](@/news/2025-08-09/420/index.lt.md)
+- Specialus žemėlapio stilius veiklai gamtoje, išryškinantis takus, kempingus, kalnų trobeles, pastoges ir vandens šaltinius
+- Horizontalės, viršūnės, šlaitai ir [aukščio profiliai](@/news/2026-04-07/570/index.lt.md) maršrutams bei trasoms su aukščio duomenimis
+- [Išsaugokite suplanuotus maršrutus](@/news/2025-06-15/417/index.md) būsimoms kelionėms
+- [Importuokite](@/faq/bookmarks/how-to-import/index.lt.md), [eksportuokite](@/faq/bookmarks/how-to-export/index.lt.md) ir bendrinkite žymas bei GPS trasas KML/KMZ, GPX ir GeoJSON formatais
+- [Importuokite Google Maps išsaugotas vietas](@/news/2025-11-26/480/index.lt.md) iš Google Takeout failo `Saved Places.json`
+- [Atsarginės kopijos ir sinchronizavimas su iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Pridėkite ir redaguokite vietas](@/faq/editing/organic-maps-map-editing/index.lt.md) tiesiogiai OpenStreetMap
+- [Matuokite atstumus tiesia linija](@/news/2023-09-30/221/index.md) naudodami liniuotės įrankį
 - Tamsus režimas apsaugos jūsų akis
-- Šalys ir regionai neužima daug vietos
 - Vikipedijos straipsniai apie populiarias vietas
+- Eksperimentiniai [palydoviniai vaizdai](@/news/2026-06-29/610/index.lt.md) naudojant jūsų nurodytą žemėlapių plytelių serverio URL
 - Nemokama ir atvirojo kodo
 
 ## Kodėl Organic?
@@ -122,14 +131,6 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">suteikia mums</a> nemokamą dedikuotą serverį, kurio vertė apie 12 000 USD per metus, žemėlapiams teikti Vietname ir Pietryčių Azijoje.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -142,7 +143,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
 
 Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache License 2.0 licenzija.
 
-- Kviečiame prisijungti prie beta testuotojų programos, siūlyti savo funkcijas ir pranešti riktus:
+- Prisijunkite prie mūsų beta programos, kad išbandytumėte naujas funkcijas, pasiūlytumėte patobulinimus ir praneštumėte apie klaidas:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux darbalaukio Beta (Flatpak)][flatpak]
@@ -152,7 +153,7 @@ Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache
 - Prenumeruokite mūsų [Telegram kanalą][telegram] arba [Matrix erdvę][matrix], kad gautumėte naujienas.
 - Prisijunkite prie mūsų [Telegram grupės][telegram_chat] ir diskutuokite su kitais vartotojais.
 - Apsilankykite mūsų [GitHub puslapyje][github].
-- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Sekite mūsų naujienas [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

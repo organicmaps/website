@@ -209,15 +209,16 @@
       {%- endfor %}
     </dt>
 
+    {# Zola expands self-links against standalone pages; bundled jumps need local fragments. #}
     <dd lang="en">
-      {{ faq_page_en.content | safe -}}
+      {{ faq_page_en.content | replace(from='href="' ~ faq_page_en.permalink ~ '#', to='href="#') | safe -}}
     </dd>
     {# Add translations -#}
     {% for lang in faq_languages -%}
     {% set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first -%}
     {% set translated_faq_page = get_page(path=translated_faq_page.path) -%}
     <dd lang="{{ lang | replace(from="-Hans", to="") | replace(from="-IR", to="") }}">
-      {{ translated_faq_page.content | safe }}
+      {{ translated_faq_page.content | replace(from='href="' ~ translated_faq_page.permalink ~ '#', to='href="#') | safe }}
     </dd>
     {%- endfor %}
   </dl>

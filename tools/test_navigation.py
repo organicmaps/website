@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Test homepage links, navigation and donation templates with real Zola."""
+"""Test homepage links, navigation, FAQ and donation templates with real Zola."""
 
 import re
 import shutil
@@ -152,6 +152,45 @@ class NavigationTests(unittest.TestCase):
             write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
         for suffix, title in (("", "Home"), (".de", "Start")):
             write(root, f"content/_index{suffix}.md", f"---\ntitle: {title}\n---\n")
+
+    def test_faq_listings_link_related_questions(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write(root, "config.toml", 'base_url = "https://example.org"\n'
+                  'taxonomies = [{name = "faq"}]\n'
+                  '[languages.de]\ntaxonomies = [{name = "faq"}]\n')
+            write(root, "templates/base.html",
+                  '{% set resource = get_section(path="faq/_index.md", lang=lang) %}'
+                  '{% if term %}{% set term_name = term.name %}{% endif %}'
+                  '{% set section_label = resource.title %}'
+                  '<main>{% block content %}{% endblock %}</main>')
+            write(root, "templates/page.html", "{{ page.content | safe }}")
+            for template in ("list.html", "single.html", "_questions.html", "faq-breadcrumbs.html"):
+                write(root, f"templates/faq/{template}", (ROOT / "templates/faq" / template).read_text())
+            write(root, "content/faq/_index.md",
+                  '---\nrender: false\ntitle: Help\nextra:\n'
+                  '  start_here: ["faq/app/route/index.md"]\n---\n')
+            write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n---\n')
+            write(root, "content/faq/app/route/index.md",
+                  '---\ntitle: Plan a route\ntaxonomies:\n  faq: ["app"]\n'
+                  'extra:\n  order: 10\n---\n\n## Add stops {#stops}\n\nChoose a stop.\n')
+            write(root, "content/faq/app/route/index.de.md",
+                  '---\ntitle: Route planen\nslug: strecke\ntaxonomies:\n  faq: ["reisen"]\n'
+                  'extra:\n  order: 10\n---\n\n## Zwischenziele {#stops}\n\nWähle ein Ziel.\n')
+
+            self.build(root)
+            for listing in ("faq/index.html", "faq/app/index.html"):
+                with self.subTest(listing=listing):
+                    parser = MainLinks()
+                    parser.feed((root / "public" / listing).read_text())
+                    self.assertIn("/faq/app/route/#stops", parser.links)
+            self.assertIn('id="stops"', (root / "public/faq/app/route/index.html").read_text())
+            for listing in ("de/faq/index.html", "de/faq/reisen/index.html"):
+                with self.subTest(listing=listing):
+                    parser = MainLinks()
+                    parser.feed((root / "public" / listing).read_text())
+                    self.assertIn("/de/faq/app/strecke/", parser.links)
+                    self.assertFalse(any("#stops" in href for href in parser.links))
 
     def test_missing_translations_use_default_language_destinations(self):
         # Each lookup must work when its own translation is absent, while the

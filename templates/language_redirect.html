@@ -1,5 +1,9 @@
 <script>
 (function () {
+{% if (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") %}
+// A FAQ translation may omit the requested section.
+if (window.location.hash) return;
+{% endif %}
 // Supports partially translated pages. Redirect only when there has been no earlier automatic
 // redirect or explicit choice (see language_selector.html).
 if (window.localStorage.getItem('lang') === null) {

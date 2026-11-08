@@ -1,5 +1,5 @@
 ---
-description: "MapsWithMe (Maps.Me) rakenduse asutajate loodud kiire ja detailne võrguühendust mittevajav kaardilahendus reisijatele, turistidele, autojuhtidele, matkajatele ja ratturitele."
+description: "Tasuta võrguühenduseta kaardid matkamiseks, jalgrattasõiduks ja reisimiseks koos GPS-navigatsiooni, radade salvestamise, marsruutide planeerimise ja ühistranspordi marsruutidega. Ilma reklaamide ja jälgimiseta."
 extra:
   menu_title: Avaleht
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps Offline Hike, Bike, GPS Navigation"
 ---
 
-**Organic Maps** on privaatsuskeskne võrguühendust mittevajav kaardirakendus ja GPS-i asukoha kuvaja matkamise, rattasõidu ja autosõidu jaoks. Saadavalt tasuta ning õiguslikult vaba. Pole reklaame ega jälitamist. Arendatud armastusega avatud lähtekoodi kasutava kogukonna ja samade inimeste poolt, kes lõid [**MapsWithMe**][mapswithme]/**Maps.Me** rakenduse. Kaardiandmed on pärit [OpenStreetMapi][openstreetmap] andmekogust.
+**Organic Maps** on privaatsust austav võrguühenduseta kaardirakendus, mis pakub GPS-navigatsiooni, radade salvestamist ja marsruutide planeerimist matkamiseks, jalgrattasõiduks, jooksmiseks ja autoga sõitmiseks. Täiesti tasuta. Ilma reklaamideta. Ilma jälgimiseta. Loodud armastusega avatud lähtekoodi kogukonna ja samade inimeste poolt, kes lõid rakenduse [**MapsWithMe**][mapswithme]/**Maps.Me**. Kasutab [OpenStreetMapi][openstreetmap] andmeid.
 
-**Organic Maps** on üks väheseid tänapäevaseid suuri rakendusi, mille 100% funktsionaalsustest toimivad ilma internetiühenduseta. Paigalda nutiseadmesse Organic Maps, laadi alla vajalikud kaardid, jäta SIM-kaart laualaekasse ja mine nädalapikkusele reisile, mil piisab ühest aku laadimiskorrast ja ühtegi baiti ei saadeta võrgu suunas.
+Pärast kaartide allalaadimist võimaldab **Organic Maps** otsida kohti, planeerida marsruute, salvestada GPS-radu ja navigeerida ilma internetiühenduseta. Avasta kaugeid matkaradu või reisi välismaale ilma mobiilse andmeside ja rändlustasudeta.
 
 > Oktoobris 2026 ületas Organic Maps [12 miljoni paigalduse piiri](@/news/2026-11-03/641/index.et.md). [Aita meil](@/donate/index.et.md) kasvada!
 
@@ -29,18 +29,27 @@ kasutades tumedat vaadet' /> }}
 
 ## Omadused
 
-Organic Maps on suurepärane rakendus reisijatele, turistidele, matkajatele ja ratturitele:
+Planeeri reise, navigeeri ja avasta Organic Mapsi abil:
 
-- Tänu [OpenStreetMap'ile][openstreetmap] on meil detailsed kaardid, mille kasutamiseks pole vaja võrguühendust
-- Rattateed, matkarajad ning võimalused jalutamiseks
-- Kontuurjooned, kõrgusprofiilid, tipud ja nõlvad
+- Detailsed võrguühenduseta kaardid kohtadega, mida teistelt kaartidelt ei leia, tänu [OpenStreetMapile][openstreetmap]
+- [GPS-radade salvestamine](@/news/2024-09-19/405/index.md) reaalajas statistikaga
+- [Mitme peatusega marsruutide planeerimine](@/news/2026-09-29/640/index.et.md) koos peatuste järjekorra automaatse optimeerimisega
+- [Vali kiireima ja lühima marsruudi vahel](@/news/2026-06-29/610/index.et.md)
 - Täpne teekonna juhatamine koos hääljuhistega jalutamisel, rattasõidul ning autoga liikumisel ning CarPlay/Android Auto
-- Metroo kaardid
+- [Ühistranspordimarsruutide planeerimine](@/news/2026-06-29/610/index.et.md) bussi, trammi, metroo ja kergraudteega
 - Kiire kaardiotsing võrguühendust kasutamata
-- Järjehoidjad ja rajad KML-, KMZ-, GPX-vormingus, GeoJSON
+- [Matka-, jalgratta- ja mägirattamarsruutide kaardikihid](@/news/2025-08-09/420/index.et.md)
+- Spetsiaalne välitegevuste kaardistiil, mis toob esile rajad, telkimisplatsid, matkamajad, varjualused ja veeallikad
+- Samakõrgusjooned, tipud, nõlvad ja [kõrgusprofiilid](@/news/2026-04-07/570/index.et.md) kõrgusandmetega marsruutidele ja radadele
+- [Salvesta planeeritud marsruudid](@/news/2025-06-15/417/index.md) tulevasteks reisideks
+- [Impordi](@/faq/bookmarks/how-to-import/index.et.md), [ekspordi](@/faq/bookmarks/how-to-export/index.et.md) ja jaga järjehoidjaid ning GPS-radu KML/KMZ-, GPX- ja GeoJSON-vormingus
+- [Impordi Google Mapsi salvestatud kohad](@/news/2025-11-26/480/index.et.md) Google Takeouti failist `Saved Places.json`
+- [iCloudi varundamine ja sünkroniseerimine (iOS)](@/news/2024-06-22/380/index.md)
+- [Lisa ja muuda kohti](@/faq/editing/organic-maps-map-editing/index.et.md) otse OpenStreetMapis
+- [Mõõda vahemaid sirgjooneliselt](@/news/2023-09-30/221/index.md) joonlauatööriistaga
 - Tavavaate kõrval ka silmadesäästlik tume kaardivaade
-- Riikide ja piirkondade andmekogud ei võta palju andmeruumi
 - Vikipeedia artiklid populaarsete kohtade kohta
+- Eksperimentaalsed [satelliidipildid](@/news/2026-06-29/610/index.et.md) sinu sisestatud kaardipaanide serveri URL-i kaudu
 - Avatud lähtekoodiga ja tasuta tarkvara
 
 ## Miks Organic Maps?
@@ -122,14 +131,6 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">pakub meile</a> tasuta pühendatud serverit väärtusega umbes 12 000 dollarit aastas kaartide serveerimiseks Vietnamis ja Kagu-Aasias.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -142,7 +143,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
 
 Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me oleme litsentseerinud Apache License 2.0 alusel.
 
-- Palun liitu meie beetaprogrammiga, paku uusi funktsionaalsusi ning teata vigadest:
+- Liitu meie beetaprogrammiga, et proovida uusi funktsioone, teha parandusettepanekuid ja teatada vigadest:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux'i töölauarakenduse beetaversioon (Flatpak)][flatpak]
@@ -152,7 +153,7 @@ Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me oleme 
 - Viimase teabe saamiseks liitu meie [Telegrami kanaliga][telegram] või [Matrixi kogukonnaga][matrix].
 - Keskustelemaks teiste kasutajatega liitu meie [Telegrami grupiga][telegram_chat].
 - Vaata meie [arenduskeskkonda GitHubis][github].
-- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Jälgi meid sotsiaalmeedias: [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

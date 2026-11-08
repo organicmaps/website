@@ -1,5 +1,5 @@
 ---
-description: "Mapes detallats, ràpids i sense connexió per a viatgers, turistes, conductors, excursionistes i ciclistes creats pels fundadors de l’aplicació MapsWithMe (Maps.Me)."
+description: "Mapes gratuïts sense connexió per fer senderisme, anar amb bicicleta i viatjar, amb navegació GPS, enregistrament de traces, planificació de rutes i rutes de transport públic. Sense anuncis ni seguiment."
 extra:
   menu_title: Inici
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: passejos, bici, rutes i GPS sense connexió"
 ---
 
-**Organic Maps** és una aplicació de mapes fora de línia i GPS centrada en la privadesa per a senderisme, ciclisme i conducció. Totalment gratuïta. Sense anuncis. No inclou rastrejadors. Desenvolupada amb estima per la comunitat de codi obert i les mateixes persones que van crear l'aplicació [**MapsWithMe**][mapswithme]/**Maps.Me**. Funciona amb dades d'[OpenStreetMap][openstreetmap].
+**Organic Maps** és una aplicació de mapes sense connexió centrada en la privacitat, amb navegació GPS, enregistrament de traces i planificació de rutes per fer senderisme, anar amb bicicleta, córrer i conduir. Totalment gratuïta. Sense anuncis. Sense seguiment. Desenvolupada amb amor per la comunitat de codi obert i les mateixes persones que van crear l’aplicació [**MapsWithMe**][mapswithme]/**Maps.Me**. Utilitza dades d’[OpenStreetMap][openstreetmap].
 
-L’**Organic Maps** és una de les poques aplicacions actuals que admet fer servir totes les seves funcions sense una connexió a Internet activa. Instal·la l’Organic Maps, baixa mapes, llença la teva targeta SIM (per cert, el teu operador et rastreja constantment) i fes un viatge setmanal amb una sola càrrega de bateria sense que cap byte s’enviï a la xarxa.
+Després de descarregar els mapes, **Organic Maps** et permet cercar llocs, planificar rutes, enregistrar traces GPS i navegar sense connexió a internet. Explora senders remots o viatja a l’estranger sense dades mòbils ni despeses d’itinerància.
 
 > L'octubre de 2026, Organic Maps va [superar els 12 milions d'instal·lacions](@/news/2026-11-03/641/index.ca.md). [Ajuda'ns](@/donate/index.ca.md) a créixer!
 
@@ -29,19 +29,28 @@ fosc' /> }}
 
 ## Funcionalitats
 
-L’Organic Maps és l’aplicació definitiva per a viatgers, turistes, excursionistes i ciclistes:
+Planifica viatges, navega i explora amb Organic Maps:
 
 - Mapes detallats fora de línia amb llocs que no existeixen en altres mapes, gràcies a l'[OpenStreetMap][openstreetmap]
-- Rutes ciclistes, pistes de senderisme i camins
-- Línies de contorn, perfils d'elevació, pics i pendents
+- [Enregistrament de traces GPS](@/news/2024-09-19/405/index.md) amb estadístiques en temps real
+- [Planificació de rutes amb diverses parades](@/news/2026-09-29/640/index.ca.md) amb optimització automàtica de l'ordre de les parades
+- [Tria entre les rutes més ràpides i més curtes](@/news/2026-06-29/610/index.ca.md)
 - Navegació pas a pas a peu, amb bicicleta i amb cotxe amb guia de veu, CarPlay/Android Auto
-- Mapes de metro
+- [Rutes de transport públic](@/news/2026-06-29/610/index.ca.md) amb autobús, tramvia, metro i tren lleuger
 - Cerques ràpides al mapa, sense connexió
-- Marcadors i rutes en format KML, KMZ i GPX, GeoJSON
+- [Capes de rutes de senderisme, ciclisme i bicicleta de muntanya](@/news/2025-08-09/420/index.ca.md)
+- Estil de mapa per a activitats a l’aire lliure que destaca senders, zones d’acampada, cabanes, refugis i fonts d’aigua
+- Corbes de nivell, cims, pendents i [perfils d’altitud](@/news/2026-04-07/570/index.ca.md) per a rutes i traces amb dades d’altitud
+- [Desa les rutes planificades](@/news/2025-06-15/417/index.md) per conservar-les per a futurs viatges
+- [Importa](@/faq/bookmarks/how-to-import/index.ca.md), [exporta](@/faq/bookmarks/how-to-export/index.ca.md) i comparteix marcadors i traces GPS en formats KML/KMZ, GPX i GeoJSON
+- [Importa els llocs desats de Google Maps](@/news/2025-11-26/480/index.ca.md) des del fitxer `Saved Places.json` de Google Takeout
+- [Còpia de seguretat i sincronització amb iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Afegeix i edita llocs](@/faq/editing/organic-maps-map-editing/index.ca.md) directament a OpenStreetMap
+- [Mesura distàncies en línia recta](@/news/2023-09-30/221/index.md) amb l’eina Regle
 - Mode fosc per a protegir els teus ulls
-- Els països i les regions usen poc espai
 - Articles de la Viquipèdia per a llocs populars
-- De codi lliure i obert
+- [Imatges per satèl·lit](@/news/2026-06-29/610/index.ca.md) experimentals amb un URL de servidor de tessel·les que indiquis
+- Gratis i de codi obert
 
 ## Per què triar l’Organic?
 
@@ -122,14 +131,6 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> ens <a href="https://44plus.vn/organicmaps">proporciona</a> un servidor dedicat gratuït per valor d'uns 12.000 $/any per servir mapes a Vietnam i el sud-est asiàtic.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -142,7 +143,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
 
 Organic Maps és un [programa lliure][github] disponible en virtut de la Llicència Apache 2.0.
 
-- Uneix-te al nostre programa beta i suggereix funcionalitats o informa d'errors:
+- Uneix-te al nostre programa beta per provar noves funcions, suggerir millores i informar d'errors:
   - [Beta d'iOS (TestFlight)][testflight]
   - [Beta d'Android (Firebase)][firebase]
   - [Beta de PC Linux (Flatpak)][flatpak]
@@ -152,7 +153,7 @@ Organic Maps és un [programa lliure][github] disponible en virtut de la Llicèn
 - Uneix-te al nostre [canal del Telegram][telegram] o al [Matrix][matrix] per a estar al dia.
 - Uneix-te al nostre [grup del Telegram][telegram_chat] i conversa amb altres usuaris.
 - Visita el nostre [GitHub][github].
-- Segueix les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Segueix les nostres novetats al [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://ca.wikipedia.org/wiki/Fork
 

@@ -1,15 +1,15 @@
 ---
 title: "Organic Maps: オフラインのハイキング、バイク、トレイル、ナビゲーション"
-description: プライバシーを重視した、無料でオープンソースの高速オフライン地図アプリ。旅行者、観光客、ドライバー、ハイカー、サイクリスト向け。MapsWithMe/Maps.Me アプリの創始者によって作成
+description: "ハイキング、サイクリング、旅行向けの無料オフライン地図。GPSナビゲーション、軌跡記録、ルート計画、公共交通機関のルート情報を搭載。広告や追跡機能はない。"
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: ホーム
 ---
 
-**Organic Maps** は、ハイキング、サイクリング、バイク、ドライブのためのプライバシーに焦点を当てたオフライン地図 & GPS アプリです。完全無料。広告なし、追跡なし。[**MapsWithMe**][mapswithme]/**Maps.Me** アプリを作った同じ人々により、オープンソースコミュニティへの愛を込めて開発されています。[OpenStreetMap][openstreetmap] のデータを利用しています。
+**Organic Maps**は、プライバシーを大切にするオフライン地図アプリ。GPSナビゲーション、移動軌跡の記録、ルート計画に対応し、ハイキング、サイクリング、ランニング、ドライブに役立つ。完全無料。広告なし。追跡なし。オープンソースコミュニティと、[**MapsWithMe**][mapswithme]/**Maps.Me**アプリを作った人々が愛情を込めて開発。[OpenStreetMap][openstreetmap]のデータを使用。
 
-**Organic Maps** は、インターネット接続なしで 100% の機能をサポートする数少ないアプリの一つです。Organic Maps をインストールし、地図をダウンロードし、SIM カードを捨てて、ネットワークに 1 バイトも送らず、1 回の充電で 1 週間の旅に出かけましょう。
+地図をダウンロードすれば、**Organic Maps**で場所の検索、ルート計画、GPS軌跡の記録、ナビゲーションをインターネット接続なしで利用できる。モバイルデータ通信やローミング料金なしで、人里離れたトレイルの探索や海外旅行を楽しもう。
 
 > 2026年10月、Organic Mapsの[累計インストール数が1,200万件を突破](@/news/2026-11-03/641/index.ja.md)。これからも成長を続けられるよう、[力を貸して](@/donate/index.ja.md)！
 
@@ -27,18 +27,27 @@ extra:
 
 ## 機能
 
-Organic Maps は、旅行者、観光客、ハイカー、ドライバー、サイクリストのための究極のコンパニオンアプリです:
+Organic Mapsを使って、旅行の計画を立て、道案内を受け、探索しよう：
 
 - [OpenStreetMap][openstreetmap] のおかげで、他の地図には存在しない場所を含む詳細なオフライン地図
-- 自転車ルート、ハイキングコース、ウォーキングパス
-- 等高線、標高プロファイル、山頂、斜面
+- リアルタイムの統計情報付き[GPS軌跡記録](@/news/2024-09-19/405/index.md)
+- 立ち寄る順序を自動で最適化する[複数の経由地を含むルート計画](@/news/2026-09-29/640/index.ja.md)
+- [最速ルートと最短ルートのどちらかを選ぶ](@/news/2026-06-29/610/index.md)
 - 音声案内と CarPlay/Android Auto サポート付きの、ウォーキング、サイクリング、車のターンバイターンナビゲーション
-- 地下鉄/メトロの路線図
+- バス、路面電車、地下鉄、ライトレールによる[公共交通機関の経路検索](@/news/2026-06-29/610/index.md)
 - ダウンロードした地図に対する高速オフライン検索
-- KML/KMZ、GPX、GeoJSON 形式でのブックマークのインポート/エクスポート
+- [ハイキング、サイクリング、マウンテンバイクのルートレイヤー](@/news/2025-08-09/420/index.md)
+- トレイル、キャンプ場、山小屋、シェルター、水源を強調表示した専用のアウトドア用マップスタイル
+- 等高線、山頂、斜面と、高度データを持つルートや軌跡の[標高プロファイル](@/news/2026-04-07/570/index.md)
+- [計画したルートを保存](@/news/2025-06-15/417/index.md)して、次の旅行に活用
+- ブックマークとGPS軌跡をKML/KMZ、GPX、GeoJSON形式で[インポート](@/faq/bookmarks/how-to-import/index.ja.md)、[エクスポート](@/faq/bookmarks/how-to-export/index.ja.md)、共有
+- Google Takeoutの`Saved Places.json`ファイルから[Google Mapsに保存した場所をインポート](@/news/2025-11-26/480/index.md)
+- [iCloudのバックアップと同期（iOS）](@/news/2024-06-22/380/index.md)
+- OpenStreetMapで直接[場所を追加・編集](@/faq/editing/organic-maps-map-editing/index.ja.md)
+- 「定規」ツールを使って[直線距離を測定する](@/news/2023-09-30/221/index.md)
 - 目を保護するダークモード
-- 国や地域は容量をあまり取らない
 - 有名な場所の Wikipedia 記事
+- 指定したタイルサーバーのURLを使う実験的な[衛星画像](@/news/2026-06-29/610/index.md)表示
 - 無料でオープンソース
 
 ## なぜ Organic?
@@ -120,14 +129,6 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> is <a href="https://44plus.vn/organicmaps">providing us </a>with a free dedicated server worth around $12,000/year to serve maps across Vietnam & Southeast Asia.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -140,7 +141,7 @@ Organic Maps では、プライバシーは基本的な人権であると考え�
 
 Organic Maps は Apache License 2.0 の下でライセンスされた [オープンソースソフトウェア][github] です。
 
-- ベータプログラムにご参加いただき、機能の提案やバグの報告をお願いします:
+- ベータプログラムに参加して、新機能を試したり、改善案を提案したり、不具合を報告したりしよう：
   - [iOS ベータ (TestFlight)][testflight]
   - [Android ベータ (Firebase)][firebase]
   - [Linux Desktop ベータ (Flatpak)][flatpak]
@@ -150,7 +151,7 @@ Organic Maps は Apache License 2.0 の下でライセンスされた [オープ
 - アップデート情報を得るには、[Telegram チャンネル][telegram] または [matrix space][matrix] を購読してください。
 - 他のユーザーと議論するには [Telegram グループ][telegram_chat] にご参加ください。
 - [GitHub ページ][github] をご覧ください。
-- アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
+- アップデート情報を [FOSStodon][fosstodon]、[Facebook][facebook]、[Twitter][twitter]、[Instagram][instagram]、[Bluesky][bluesky]、[Threads][threads]、[Patreon][patreon]、[YouTube][youtube]、[Reddit][reddit]、[LinkedIn][LinkedIn]、[TikTok][tiktok] でフォローしてください。
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

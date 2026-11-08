@@ -1,6 +1,6 @@
 ---
 title: "Organic Maps: Escursioni, Bici, Sentieri e Navigazione Offline"
-description: Mappe offline gratuite, open-source, veloci, incentrate sulla privacy e dettagliate per viaggiatori, turisti, automobilisti, escursionisti e ciclisti create dai fondatori dell'app MapsWithMe/Maps.Me
+description: "Mappe offline gratuite per escursioni, gite in bici e viaggi, con navigazione GPS, registrazione di tracce, pianificazione di percorsi e itinerari con i mezzi pubblici. Senza pubblicità né tracciamento."
 page_template: index.html
 sort_by: weight
 extra:
@@ -9,9 +9,9 @@ extra:
   translation_keeps_source: ["extra.menu_title"]
 ---
 
-**Organic Maps** è un'app offline incentrata sulla privacy che offre mappe e GPS per escursioni a piedi, in bicicletta e in auto. Completamente gratuita. Nessuna pubblicità. Nessun tracciamento. Sviluppata con amore dalla comunità open source e dalle stesse persone che hanno creato l'app [**MapsWithMe**][mapswithme]/**Maps.Me**. Basata sui dati di [OpenStreetMap][openstreetmap].
+**Organic Maps** è un’app di mappe offline che mette al primo posto la privacy, con navigazione GPS, registrazione di tracce e pianificazione di percorsi per escursioni a piedi, gite in bici, corsa e viaggi in auto. Completamente gratuita. Senza pubblicità. Senza tracciamento. Sviluppata con passione dalla comunità open source e dalle stesse persone che hanno creato l’app [**MapsWithMe**][mapswithme]/**Maps.Me**. Basata sui dati di [OpenStreetMap][openstreetmap].
 
-**Organic Maps** è una delle poche applicazioni attualmente disponibili che supporta il 100% delle funzionalità senza una connessione Internet attiva. Installa Organic Maps, scarica le mappe, butta via la tua scheda SIM e parti per un viaggio di una settimana con una sola ricarica della batteria senza inviare alcun byte alla rete.
+Dopo aver scaricato le mappe, **Organic Maps** ti permette di cercare luoghi, pianificare percorsi, registrare tracce GPS e navigare senza connessione a Internet. Esplora sentieri sperduti o viaggia all’estero senza dati mobili né costi di roaming.
 
 > A ottobre 2026, Organic Maps [ha superato i 12 milioni di installazioni](@/news/2026-11-03/641/index.it.md). [Aiutaci](@/donate/index.it.md) a crescere!
 
@@ -29,19 +29,28 @@ extra:
 
 ## Funzionalità
 
-Organic Maps è l'applicazione definitiva per viaggiatori, turisti, escursionisti, automobilisti e ciclisti:
+Organizza i tuoi viaggi, orientati ed esplora con Organic Maps:
 
 - Mappe offline dettagliate con luoghi che non esistono su altre mappe, grazie a [OpenStreetMap][openstreetmap]
-- Percorsi ciclabili, sentieri escursionistici e percorsi pedonali
-- Curve di livello, profili altimetrici, picchi e pendenze
+- [Registrazione di tracce GPS](@/news/2024-09-19/405/index.md) con statistiche in tempo reale
+- [Pianificazione di percorsi con più tappe](@/news/2026-09-29/640/index.it.md) con ottimizzazione automatica del loro ordine
+- [Scegli tra il percorso più veloce e quello più breve](@/news/2026-06-29/610/index.it.md)
 - Navigazione a piedi, in bicicletta e in auto con guida vocale, svolta per svolta, e supporto CarPlay/Android Auto
-- Mappe della metropolitana
+- [Pianificazione di percorsi con i mezzi pubblici](@/news/2026-06-29/610/index.it.md): autobus, tram, metropolitana e metropolitana leggera
 - Ricerca veloce offline sulle mappe scaricate
-- Importazione ed esportazione di segnalibri nei formati KML/KMZ, GPX, GeoJSON
+- [Livelli con percorsi per escursioni a piedi, in bici e in mountain bike](@/news/2025-08-09/420/index.it.md)
+- Stile di mappa per attività all’aperto che mette in evidenza sentieri, campeggi, rifugi, ripari e fonti d’acqua
+- Curve di livello, cime, pendenze e [profili altimetrici](@/news/2026-04-07/570/index.it.md) per percorsi e tracce con dati altimetrici
+- [Salva i percorsi pianificati](@/news/2025-06-15/417/index.md) per i tuoi prossimi viaggi
+- [Importa](@/faq/bookmarks/how-to-import/index.it.md), [esporta](@/faq/bookmarks/how-to-export/index.it.md) e condividi segnalibri e tracce GPS nei formati KML/KMZ, GPX e GeoJSON
+- [Importa i luoghi salvati su Google Maps](@/news/2025-11-26/480/index.it.md) dal file `Saved Places.json` di Google Takeout
+- [Backup e sincronizzazione su iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Aggiungi e modifica luoghi](@/faq/editing/organic-maps-map-editing/index.it.md) direttamente in OpenStreetMap
+- [Misura le distanze in linea retta](@/news/2023-09-30/221/index.md) con lo strumento Righello
 - Modalità scura per proteggere gli occhi
-- I paesi e le regioni non occupano molto spazio
 - Articoli di Wikipedia per luoghi popolari
-- Gratuito e open-source
+- [Immagini satellitari](@/news/2026-06-29/610/index.it.md) sperimentali con un URL di un server di tile che fornisci tu
+- Gratis e open source
 
 ## Perché Organic?
 
@@ -122,14 +131,6 @@ I cari sponsor istituzionali elencati di seguito hanno fornito sovvenzioni mirat
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> ci <a href="https://44plus.vn/organicmaps">fornisce</a> un server dedicato gratuito del valore di circa $12.000/anno per servire mappe in Vietnam e nel sud-est asiatico.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -142,7 +143,7 @@ I cari sponsor istituzionali elencati di seguito hanno fornito sovvenzioni mirat
 
 Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 
-- Partecipa al nostro programma beta, suggerisci funzionalità e segnala bug:
+- Partecipa al nostro programma beta per provare le nuove funzionalità, suggerire miglioramenti e segnalare bug:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
@@ -150,9 +151,9 @@ Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 - Segnala bug o problemi tramite il [tracker dei problemi][issues] o [inviaci un'email][email].
 - [Discuti][ideas] idee o proponi richieste di funzionalità.
 - Iscriviti al nostro [Canale Telegram][telegram] o allo spazio [matrix][matrix] per ricevere aggiornamenti.
-- Unisciti al nostro [Gruppo Telegram in italiano][telegram_chat_it] o al [gruppo in inglese][telegram_chat] per discutere con altri utenti.
+- Unisciti al nostro [gruppo Telegram in italiano][telegram_chat_it] per discutere con altri utenti.
 - Visita la nostra [pagina GitHub][github].
-- Segui i nostri aggiornamenti su [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Segui i nostri aggiornamenti su [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://it.wikipedia.org/wiki/Fork_(sviluppo_software)
 

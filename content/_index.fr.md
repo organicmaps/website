@@ -1,15 +1,15 @@
 ---
 title: "Organic Maps: Randonnée, Vélo, Sentiers et Navigation Hors Ligne"
-description: Cartes hors ligne gratuites, open-source, rapides, axées sur la confidentialité et détaillées pour les voyageurs, touristes, conducteurs, randonneurs et cyclistes, créées par les fondateurs de l'application MapsWithMe/Maps.Me
+description: "Des cartes hors ligne gratuites pour la randonnée, le vélo et les voyages, avec navigation GPS, enregistrement de traces et calcul d’itinéraires, y compris en transports en commun. Sans publicité ni suivi."
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: Accueil
 ---
 
-**Organic Maps** est une application de cartes hors ligne et de GPS axée sur la confidentialité pour la randonnée, le vélo et la conduite. Absolument gratuit. Pas de publicité. Pas de suivi. Développé avec amour par la communauté open-source et les mêmes personnes qui ont créé l'application [**MapsWithMe**][mapswithme]/**Maps.Me**. Basé sur les données [OpenStreetMap][openstreetmap].
+**Organic Maps** est une appli de cartes hors ligne respectueuse de ta vie privée, avec navigation GPS, enregistrement de traces et planification d’itinéraires pour la randonnée, le vélo, la course à pied et la conduite. Entièrement gratuite. Sans publicité. Sans suivi. Développée avec amour par la communauté open source et les mêmes personnes qui ont créé l’appli [**MapsWithMe**][mapswithme]/**Maps.Me**. Elle utilise les données d’[OpenStreetMap][openstreetmap].
 
-**Organic Maps** est l'une des rares applications actuelles à prendre en charge 100 % des fonctionnalités sans connexion Internet active. Installe Organic Maps, télécharge des cartes, jette ta carte SIM (d'ailleurs, ton opérateur te suit constamment), et pars pour un voyage d'une semaine sur une seule charge de batterie sans aucun octet envoyé au réseau.
+Une fois les cartes téléchargées, **Organic Maps** te permet de rechercher des lieux, de planifier des itinéraires, d'enregistrer des traces GPS et de naviguer sans connexion Internet. Explore des sentiers isolés ou voyage à l'étranger sans données mobiles ni frais d'itinérance.
 
 > En octobre 2026, Organic Maps a [dépassé les 12 millions d'installations](@/news/2026-11-03/641/index.fr.md). [Aide-nous](@/donate/index.fr.md) à grandir !
 
@@ -27,18 +27,27 @@ extra:
 
 ## Fonctionnalités
 
-Organic Maps est l'application idéale pour les voyageurs, les touristes, les randonneurs, les conducteurs et les cyclistes :
+Organise tes sorties, utilise la fonction de navigation et pars à la découverte avec Organic Maps :
 
 - Cartes détaillées hors ligne avec des lieux qui n'existent pas sur d'autres cartes, grâce à [OpenStreetMap][openstreetmap]
-- Itinéraires cyclables, sentiers de randonnée et chemins de promenade
-- Courbes de niveau, profils d'élévation, sommets et pentes
+- [Enregistrement de traces GPS](@/news/2024-09-19/405/index.md) avec statistiques en temps réel
+- [Planification d'itinéraires à arrêts multiples](@/news/2026-09-29/640/index.fr.md) avec optimisation automatique de l'ordre des arrêts
+- [Choisis entre l'itinéraire le plus rapide et le plus court](@/news/2026-06-29/610/index.fr.md)
 - Navigation à pied, à vélo et en voiture, virage par virage, avec guidage vocal et prise en charge de CarPlay/Android Auto
-- Plans de métro
+- [Calcul d’itinéraires en transports en commun](@/news/2026-06-29/610/index.fr.md) : bus, tramway, métro et métro léger
 - Recherche rapide hors ligne sur les cartes téléchargées
-- Importation et exportation de signets aux formats KML/KMZ, GPX, GeoJSON
+- [Couches d’itinéraires de randonnée, de vélo et de VTT](@/news/2025-08-09/420/index.fr.md)
+- Un style de carte dédié aux activités de plein air, qui met en évidence les sentiers, campings, refuges, abris et points d’eau
+- Courbes de niveau, sommets, pentes et [profils d’altitude](@/news/2026-04-07/570/index.fr.md) pour les itinéraires et les traces comportant des données d’altitude
+- [Enregistre les itinéraires planifiés](@/news/2025-06-15/417/index.md) pour tes prochains voyages
+- [Importe](@/faq/bookmarks/how-to-import/index.fr.md), [exporte](@/faq/bookmarks/how-to-export/index.fr.md) et partage des signets et des traces GPS aux formats KML/KMZ, GPX et GeoJSON
+- [Importe les lieux enregistrés dans Google Maps](@/news/2025-11-26/480/index.fr.md) à partir du fichier `Saved Places.json` de Google Takeout
+- [Sauvegarde et synchronisation iCloud (iOS)](@/news/2024-06-22/380/index.md)
+- [Ajoute et modifie des lieux](@/faq/editing/organic-maps-map-editing/index.fr.md) directement dans OpenStreetMap
+- [Mesure les distances à vol d’oiseau](@/news/2023-09-30/221/index.md) avec l’outil Règle
 - Mode sombre pour protéger tes yeux
-- Les pays et les régions ne prennent pas beaucoup de place
 - Articles Wikipédia pour les lieux populaires
+- [Imagerie satellite](@/news/2026-06-29/610/index.fr.md) expérimentale avec une URL de serveur de tuiles que tu fournis
 - Gratuit et open-source
 
 ## Pourquoi Organic ?
@@ -120,14 +129,6 @@ Les sponsors institutionnels bien-aimés ci-dessous ont fourni des subventions c
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> nous <a href="https://44plus.vn/organicmaps">fournit</a> un serveur dédié gratuit d'une valeur d'environ 12 000 $/an pour servir des cartes au Vietnam et en Asie du Sud-Est.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -140,7 +141,7 @@ Les sponsors institutionnels bien-aimés ci-dessous ont fourni des subventions c
 
 Organic Maps est un [logiciel open-source][github] sous licence Apache 2.0.
 
-- Merci de rejoindre notre programme bêta, suggérer tes fonctionnalités et signaler les bugs :
+- Rejoins notre programme bêta pour tester les nouvelles fonctionnalités, proposer des améliorations et signaler des bugs :
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
@@ -148,9 +149,9 @@ Organic Maps est un [logiciel open-source][github] sous licence Apache 2.0.
 - Signale les bugs ou les problèmes sur [le suivi des problèmes][issues] ou [envoie-nous un e-mail][email].
 - [Discute][ideas] des idées ou propose des demandes de fonctionnalités.
 - Abonne-toi à notre [Canal Telegram][telegram] ou à l'espace [matrix][matrix] pour les mises à jour.
-- Rejoins notre [Chat Telegram en français][telegram_chat_fr] ou [en anglais][telegram_chat] pour discuter avec d'autres utilisateurs.
+- Rejoins notre [groupe Telegram en français][telegram_chat_fr] pour discuter avec d'autres utilisateurs.
 - Visite notre [page GitHub][github].
-- Suis nos mises à jour sur [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Suis nos mises à jour sur [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://fr.wikipedia.org/wiki/Fourche_(d%C3%A9veloppement_de_logiciel)
 

@@ -1,15 +1,15 @@
 ---
 title: "Organic Maps: ניווט, שבילים, הליכה ורכיבה אופליין"
-description: מפות אופליין חופשיות, בקוד פתוח, מהירות, פרטיות ומפורטות למטיילים, תיירים, נהגים, הולכי רגל ורוכבי אופניים, שנוצרו על ידי מייסדי MapsWithMe/Maps.Me.
+description: "מפות לא מקוונות חינמיות לטיולים רגליים, רכיבה על אופניים ונסיעות, הכוללות ניווט GPS, הקלטת מסלולים, תכנון מסלולים ומסלולי תחבורה ציבורית. ללא פרסומות או מעקב."
 page_template: index.html
 sort_by: weight
 extra:
   menu_title: דף הבית
 ---
 
-**Organic Maps** היא אפליקציית מפות ו-GPS המתמקדת בפרטיות עבור הליכה, רכיבה על אופניים ונהיגה באופליין. חינם לחלוטין. ללא פרסומות. ללא מעקב. פותחה באהבה על ידי קהילת הקוד הפתוח ואותם אנשים שיצרו את אפליקציית [**MapsWithMe**][mapswithme]/**Maps.Me**. מבוסס על נתוני [OpenStreetMap][openstreetmap].
+**Organic Maps** היא אפליקציית מפות לא מקוונת המתמקדת בפרטיות, הכוללת ניווט GPS, הקלטת מסלולים ותכנון מסלולים לטיולים רגליים, רכיבה על אופניים, ריצה ונסיעה ברכב. חינמית לחלוטין. ללא פרסומות. ללא מעקב. פותחה באהבה על ידי קהילת הקוד הפתוח ואותם אנשים שיצרו את אפליקציית [**MapsWithMe**][mapswithme]/**Maps.Me**. מבוססת על נתוני [OpenStreetMap][openstreetmap].
 
-**Organic Maps** היא אחת מהאפליקציות הבודדות כיום התומכת ב-100% מהתכונות ללא חיבור פעיל לאינטרנט. התקינו את Organic Maps, הורידו מפות, זרקו את כרטיס ה-SIM וצאו לטיול של שבוע ללא צורך בשליחת בייט אחד לרשת, הכל בטעינת סוללה אחת.
+לאחר הורדת המפות, **Organic Maps** מאפשרת לכם לחפש מקומות, לתכנן מסלולים, להקליט מסלולי GPS ולנווט ללא חיבור לאינטרנט. צאו לחקור שבילים נידחים או טיילו בחו״ל ללא נתונים סלולריים וללא חיובי נדידה.
 
 > באוקטובר 2026, Organic Maps [עברה את רף 12 מיליון ההתקנות](@/news/2026-11-03/641/index.he.md). [עזרו לנו](@/donate/index.he.md) לגדול!
 
@@ -27,18 +27,27 @@ extra:
 
 ## תכונות
 
-Organic Maps היא האפליקציה המלווה האולטימטיבית למטיילים, תיירים, הולכי רגל, נהגים ורוכבי אופניים:
+תכננו טיולים, נווטו וחקרו את הסביבה עם Organic Maps:
 
 - מפות אופליין מפורטות עם מקומות שאינם קיימים במפות אחרות, הודות ל-[OpenStreetMap][openstreetmap]
-- מסלולי רכיבה על אופניים, שבילי הליכה ומסלולי צעידה
-- קווי גובה, פרופילי גבהים, פסגות ושיפועים
+- [הקלטת מסלולי GPS](@/news/2024-09-19/405/index.he.md) עם נתונים סטטיסטיים בזמן אמת
+- [תכנון מסלול עם מספר עצירות](@/news/2026-09-29/640/index.he.md) ואופטימיזציה אוטומטית של סדר העצירות
+- [בחרו בין המסלול המהיר ביותר למסלול הקצר ביותר](@/news/2026-06-29/610/index.he.md)
 - ניווט קולי צעד-אחר-צעד להליכה, רכיבה ונהיגה עם תמיכה ב-CarPlay/Android Auto
-- מפות רכבת תחתית/מטרו
+- [תכנון מסלולי תחבורה ציבורית](@/news/2026-06-29/610/index.he.md) באוטובוס, בחשמלית, ברכבת תחתית וברכבת הקלה
 - חיפוש מהיר באופליין במפות שהורדו
-- ייצוא וייבוא סימניות בפורמטים KML/KMZ, GPX, GeoJSON
+- [שכבות מסלולי הליכה, רכיבה על אופניים ורכיבה על אופני הרים](@/news/2025-08-09/420/index.he.md)
+- סגנון מפה ייעודי לטיולים בטבע, המדגיש מסלולי הליכה, אתרי קמפינג, בקתות, מקלטים ומקורות מים
+- קווי גובה, פסגות, מדרונות ו[פרופילי גובה](@/news/2026-04-07/570/index.he.md) למסלולים ולמסלולי GPS הכוללים נתוני גובה
+- [שמרו מסלולים מתוכננים](@/news/2025-06-15/417/index.he.md) לטיולים עתידיים
+- [ייבוא](@/faq/bookmarks/how-to-import/index.he.md), [ייצוא](@/faq/bookmarks/how-to-export/index.he.md) ושיתוף של סימניות ומסלולי GPS בפורמטים KML/KMZ, GPX ו-GeoJSON
+- [ייבוא מקומות שנשמרו ב-Google Maps](@/news/2025-11-26/480/index.he.md) מהקובץ `Saved Places.json` של Google Takeout
+- [גיבוי וסנכרון ב-iCloud (iOS)](@/news/2024-06-22/380/index.he.md)
+- [הוספה ועריכה של מקומות](@/faq/editing/organic-maps-map-editing/index.he.md) ישירות ב-OpenStreetMap
+- [מדידת מרחקים בקו ישר](@/news/2023-09-30/221/index.he.md) באמצעות כלי הסרגל
 - מצב כהה להגנה על העיניים
-- מדינות ואזורים אינם תופסים מקום רב
 - מאמרי ויקיפדיה למקומות פופולריים
+- [תמונות לוויין](@/news/2026-06-29/610/index.he.md) ניסיוניות באמצעות כתובת URL של שרת אריחים לבחירתך
 - חינם ובקוד פתוח
 
 ## למה Organic?
@@ -120,14 +129,6 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">מספקת לנו</a> שרת ייעודי חינם בשווי של כ-$12,000 לשנה להגשת מפות ברחבי וייטנאם ודרום מזרח אסיה.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -140,7 +141,7 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
 
 Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache License 2.0.
 
-- אנא הצטרפו לתוכנית הבטא שלנו, הציעו תכונות ודווחו על באגים:
+- הצטרפו לתוכנית הבטא שלנו כדי לנסות תכונות חדשות, להציע שיפורים ולדווח על באגים:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
@@ -150,7 +151,7 @@ Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache L
 - הירשמו ל-[ערוץ הטלגרם][telegram] שלנו או ל-[matrix space][matrix] לעדכונים.
 - הצטרפו ל-[קבוצת הטלגרם][telegram_chat] שלנו לדיון עם משתמשים אחרים.
 - בקרו ב-[דף ה-GitHub][github] שלנו.
-- עקבו אחר העדכונים שלנו ב-[FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- עקבו אחר העדכונים שלנו ב-[FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://he.wikipedia.org/wiki/פיצול_(פיתוח_תוכנה)
 

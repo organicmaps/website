@@ -1,5 +1,5 @@
 ---
-description: "Vinnige, gedetailleerde, vanlyn kaarte vir reisigers, toeriste, motorbestuurders, wandelaars en fietsers geskep deur die oprigters van MapsWithMe (Maps.Me)."
+description: "Gratis vanlyn kaarte vir staptoere, fietsry en reis, met GPS-navigasie, spooropname, roetebeplanning en roetes vir openbare vervoer. Geen advertensies of nasporing nie."
 extra:
   menu_title: Tuis
 page_template: index.html
@@ -7,9 +7,9 @@ sort_by: weight
 title: "Organic Maps: Vanlyn voetslaan, fietsry, roetes en navigasie"
 ---
 
-**Organic Maps** is ’n privaatheidgefokusde, vanlyn kaarte- en GPS-toep vir voetslaan, fietsry en motorbestuur. Absoluut gratis. Geen advertensies. Geen nasporing. Met liefde ontwikkel deur die oopbrongemeenskap en dieselfde mense wat die [**MapsWithMe**][mapswithme]/**Maps.Me**-toep geskep het. Aangedryf deur [OpenStreetMap][openstreetmap]-data.
+**Organic Maps** is ’n privaatheidsgerigte vanlyn kaarttoep met GPS-navigasie, spooropname en roetebeplanning vir staptoere, fietsry, hardloop en bestuur. Heeltemal gratis. Geen advertensies. Geen nasporing. Met liefde ontwikkel deur die oopbrongemeenskap en dieselfde mense wat die [**MapsWithMe**][mapswithme]/**Maps.Me**-toep geskep het. Gebruik data van [OpenStreetMap][openstreetmap].
 
-**Organic Maps** is een van die min toeps deesdae wat 100% van die funksionaliteit het sonder ’n aktiewe internetverbinding. Installeer Organic Maps, laai kaarte af, gooi jou SIM-kaart weg (trouens, jou verskaffer spoor jou altyd na), en gaan ’n week op pad sonder om jou battery te moet laai en sonder dat daar een greep na die netwerk verstuur word.
+Nadat jy kaarte afgelaai het, laat **Organic Maps** jou toe om plekke te soek, roetes te beplan, GPS-spore op te teken en sonder 'n internetverbinding te navigeer. Verken afgeleë roetes of reis oorsee sonder mobiele data of roamingfooie.
 
 > In Oktober 2026 het Organic Maps [meer as 12 miljoen installasies bereik](@/news/2026-11-03/641/index.af.md). [Help ons](@/donate/index.af.md) om te groei!
 
@@ -28,18 +28,27 @@ donkermodus' /> }}
 
 ## Funksies
 
-Organic Maps is die topkameraadtoep vir reisigers, toeriste, voetslaners en fietsers:
+Beplan reise, navigeer en verken met Organic Maps:
 
 - Gedetailleerde vanlyn kaarte met plekke wat nie op ander kaarte bestaan nie, danksy [OpenStreetMap][openstreetmap]
-- Fietsroetes, voetslaanroetes en -paaie
-- Kontoerlyne, hoogteprofiele, pieke en hellings
+- [GPS-spooropname](@/news/2024-09-19/405/index.md) met intydse statistieke
+- [Roetebeplanning met verskeie stopplekke](@/news/2026-09-29/640/index.af.md) en outomatiese optimalisering van hul volgorde
+- [Kies tussen die vinnigste en die kortste roetes](@/news/2026-06-29/610/index.af.md)
 - Roetebegeleiding vir voetslaan en fietsry en motornavigasie met stembegeleiding, CarPlay/Android Auto
-- Metro/moltreinkaarte
+- [Roetebeplanning vir openbare vervoer](@/news/2026-06-29/610/index.af.md) per bus, trem, metro en ligspoor
 - Soek vinnig vanlyn op die kaart
-- Stuur boekmerke uit en voer dit in in KML/KMZ-formate, voer GPX in, GeoJSON
+- [Kaartlae vir stap-, fiets- en bergfietsroetes](@/news/2025-08-09/420/index.af.md)
+- Toegewyde buitelugkaartstyl wat roetes, kampeerterreine, hutte, skuilings en waterbronne uitlig
+- Kontoerlyne, pieke, hellings en [hoogteprofiele](@/news/2026-04-07/570/index.af.md) vir roetes en spore met hoogtedata
+- [Stoor beplande roetes](@/news/2025-06-15/417/index.md) vir toekomstige reise
+- [Voer boekmerke en GPS-spore in](@/faq/bookmarks/how-to-import/index.af.md), [voer dit uit](@/faq/bookmarks/how-to-export/index.af.md) en deel dit in KML/KMZ-, GPX- en GeoJSON-formate
+- [Voer gestoorde plekke uit Google Maps in](@/news/2025-11-26/480/index.af.md) vanuit Google Takeout se `Saved Places.json`-lêer
+- [iCloud-rugsteun en sinkronisering (iOS)](@/news/2024-06-22/380/index.md)
+- [Voeg plekke by en wysig hulle](@/faq/editing/organic-maps-map-editing/index.af.md) direk in OpenStreetMap
+- [Meet reguitlyndistansies](@/news/2023-09-30/221/index.md) met die liniaal-instrument
 - Donkermodus om jou oë te beskerm
-- Lande en streke neem nie baie spasie op nie
 - Wikipedia-artikels vir gewilde plekke
+- Eksperimentele [satellietbeelde](@/news/2026-06-29/610/index.af.md) met ’n teëlbediener-URL wat jy self verskaf
 - Gratis en oopbron
 
 ## Waarom ‘Organic’?
@@ -121,14 +130,6 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
   <tr>
     <td>
-      <a href="https://44plus.vn"><img src="/sponsors/44plus.svg" alt="44+ Technologies" width="200" loading="lazy" decoding="async"></a>
-    </td>
-    <td>
-      <a href="https://44plus.vn">44+ Technologies</a> <a href="https://44plus.vn/organicmaps">verskaf aan ons</a> 'n gratis toegewyde bediener ter waarde van ongeveer $12,000/jaar om kaarte oor Viëtnam & Suidoos-Asië te bedien.
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://futo.org"><img src="/sponsors/futo.svg" alt="FUTO" width="200" loading="lazy" decoding="async"></a>
     </td>
     <td>
@@ -141,7 +142,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
 
 Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die Apache Lisensie 2.0.
 
-- Sluit asseblief aan by ons beta-program, stel funksies voor en rapporteer foute:
+- Sluit aan by ons beta-program om nuwe funksies te probeer, verbeterings voor te stel en foute aan te meld:
   - [iOS Beta (TestFlight)][testflight]
   - [Android Beta (Firebase)][firebase]
   - [Linux Desktop Beta (Flatpak)][flatpak]
@@ -151,7 +152,7 @@ Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die Apa
 - Teken in op ons [Telegram-kanaal][telegram] of op die [matrix-ruimte][matrix] vir opdaterings.
 - Sluit aan by ons [Telegram-groep][telegram_chat] om met ander gebruikers te bespreek.
 - Besoek ons [GitHub-blad][github].
-- Volg ons opdaterings op [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
+- Volg ons opdaterings op [FOSStodon][fosstodon], [Facebook][facebook], [Twitter][twitter], [Instagram][instagram], [Bluesky][bluesky], [Threads][threads], [Patreon][patreon], [YouTube][youtube], [Reddit][reddit], [LinkedIn][LinkedIn], [TikTok][tiktok].
 
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 

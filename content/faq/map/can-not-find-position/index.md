@@ -1,37 +1,33 @@
 ---
-title: The app can't find my position on the map or shows incorrect location
-description: Troubleshooting guide for solving problems with location and current GPS position on the map for iOS and Android devices
-updated: "2026-08-23"
+title: "Why can Organic Maps not find my location, or only show an approximate position?"
+description: "Fix missing or approximate GPS location in Organic Maps and understand precise-location permissions, the accuracy circle and direction arrow."
+updated: "2026-11-06"
 taxonomies:
-  faq: ["map"]
+  faq: ["location-and-compass"]
 extra:
   order: 10
 ---
 
-Please make sure your device has GPS, location services are enabled, and location permissions are given to Organic Maps.
+Turn on device location services and allow Organic Maps to use precise location. Go outdoors with a clear view of the sky and wait for a satellite fix; buildings and terrain can obstruct signals. An internet connection can help the device obtain an initial location more quickly, but offline GPS does not require mobile data.
 
-**Android**
+Check whether another location app has the same problem. Some tablets have no satellite positioning receiver; hardware capabilities vary by model. If the problem only appears with the screen off, check background permissions and battery restrictions. Include these observations when reporting a problem.
 
-On Android 12 or later, open Settings → Location → Location services → Location Accuracy and turn on Improve Location Accuracy. On Android 9–11, open Settings → Location → Advanced → Location Accuracy. On Android 8.1 or earlier, choose High accuracy under Location mode. Menu names can vary by device manufacturer. Also make sure that the app has permission to use your precise location.
+## Android location settings
 
-If your Android device can not determine your location, enable (or disable, if enabled) the “Google Play Location Services” option in the app settings.
+In your device's app permissions, allow Organic Maps to use your location and enable **Precise location** when that choice is available. On Android 12 or later, device location accuracy settings are usually under **Settings → Location → Location services → Location Accuracy**. On Android 9–11, look under **Location → Advanced → Location Accuracy**; on older versions, look for **High accuracy** under **Location mode**. Menu names vary by manufacturer.
 
-Note: you can see it only if you have Google Play services installed (enabled) on your Android device. They are used to determine location more precisely. If you experience issues with location accuracy after disabling the option, turn it on again.
+If your build and device offer **Google Play Location Services** in Organic Maps settings, try changing that option to see whether it helps. It appears only on compatible devices with Google Play services available; turn it back on if disabling it makes location accuracy worse.
 
-**iOS**
+## iPhone and iPad location settings
 
-If you are an iPhone or iPad user, open iOS Settings → Privacy & Security → Location Services → Organic Maps. Location access and Precise Location should be enabled.
+Open **Settings → Privacy & Security → Location Services → Organic Maps**. Enable location access and **Precise Location**. Some iPad models do not have a satellite positioning receiver, so check the hardware capabilities of your model.
 
-**Incorrect location is shown on the map**
+If the problem only happens with the screen off, see [background recording and location restrictions](@/faq/bookmarks/android-track-recording/index.md). If it continues with the app open, [report your device, settings and observations](@/faq/app/report-a-bug/index.md).
 
-1. If there is a large semi-transparent circle around your location arrow on the map, it means that your position is determined with low accuracy, using WiFi or cellular connection. Make sure that you enabled "Precise" location accuracy for Organic Maps in system settings, and try going outside, away from tall buildings and trees, to improve satellite GPS signal reception.
+## What does the circle around my position mean? Why is there a dot instead of an arrow? {#accuracy-circle}
 
-2. If your position is determined incorrectly (for example, you are in one city, but the app shows another city), then you are most likely in an area affected by a false GPS signal (GPS spoofing) due to electronic warfare (EW) measures. In such cases, the only solution is to move to another location.
+The circle shows the device's estimated location uncertainty. A larger circle means lower confidence; it is an estimate, not a guarantee that your true position lies inside it.
 
-**Notes:**
+A position dot without a direction arrow can mean that the device has no usable heading information. This is different from location accuracy: a device may know where it is without knowing which way it is facing. Some devices lack a compass; this is not true of all tablets.
 
-* To avoid unwanted data while roaming, you can turn off all mobile data, activate a flight mode or disable mobile data for Organic Maps in your device settings. Android and iOS devices can use GPS in the flight mode.
-
-* Some mobile devices do not have built-in GPS receivers, such as the iPod Touch, WiFi-only iPad, Amazon Kindle Fire/Kindle Fire HD 7, and some Android tablets. On these devices, all apps will show your approximate location detected using a Wi-Fi network, as long as you are connected to the internet.
-
-* Location detection with GPS satellites (when WiFi and Mobile Networks are disabled) may take some time. The longer the GPS has not been used, the more time it takes. The speed of location detection depends on the device, not the app. The GPS operation is influenced by the weather as well – it works best outdoors when the sky is clear. Problems may arise when trying to locate yourself indoors, on a narrow street, or when driving a car, with a lot of metal around or with a metal/magnet on the device's case.
+If your position is correct but the arrow points the wrong way, see [compass troubleshooting](@/faq/location/compass-and-orientation/index.md).

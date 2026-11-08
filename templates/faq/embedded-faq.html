@@ -209,16 +209,28 @@
       {%- endfor %}
     </dt>
 
-    {# Zola expands self-links against standalone pages; bundled jumps need local fragments. #}
+    {# Match Markdown's encoded URLs so in-answer jumps stay in the bundled document. #}
+    {% set english_faq_url = faq_page_en.permalink | urlencode | replace(from="%3A", to=":") %}
     <dd lang="en">
-      {{ faq_page_en.content | replace(from='href="' ~ faq_page_en.permalink ~ '#', to='href="#') | safe -}}
+      {{ faq_page_en.content | replace(from='href="' ~ english_faq_url ~ '#', to='href="#') | safe -}}
     </dd>
     {# Add translations -#}
     {% for lang in faq_languages -%}
     {% set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first -%}
     {% set translated_faq_page = get_page(path=translated_faq_page.path) -%}
+    {% set translated_faq_url = translated_faq_page.permalink | urlencode | replace(from="%3A", to=":") %}
+    {# Self-linked headings need distinct IDs to avoid hidden English targets.
+       The accumulator must outlive the heading loop's local scope. #}
+    {% set_global embedded_content = translated_faq_page.content %}
+    {% for heading in translated_faq_page.toc %}
+      {% set self_link = 'href="' ~ translated_faq_url ~ '#' ~ (heading.id | urlencode) ~ '"' %}
+      {% if embedded_content is containing(pat=self_link) %}
+        {% set fragment = (lang | replace(from="-Hans", to="") | replace(from="-IR", to="")) ~ '-' ~ heading.id %}
+        {% set_global embedded_content = embedded_content | replace(from=self_link, to='href="#' ~ (fragment | urlencode) ~ '"') | replace(from=' id="' ~ heading.id ~ '"', to=' id="' ~ fragment ~ '"') %}
+      {% endif %}
+    {% endfor %}
     <dd lang="{{ lang | replace(from="-Hans", to="") | replace(from="-IR", to="") }}">
-      {{ translated_faq_page.content | replace(from='href="' ~ translated_faq_page.permalink ~ '#', to='href="#') | safe }}
+      {{ embedded_content | replace(from='href="' ~ translated_faq_url ~ '#', to='href="#') | safe }}
     </dd>
     {%- endfor %}
   </dl>

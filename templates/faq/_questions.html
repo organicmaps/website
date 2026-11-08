@@ -1,4 +1,4 @@
-{# Only English answers use H2 headings as the expanded discovery inventory. #}
+{# Subquestion discovery is limited to the complete English FAQ inventory. #}
 {% if lang == config.default_language %}
 {% set questions = [heading for heading in faq_page.toc if heading.level == 2] %}
 {% if questions %}

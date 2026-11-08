@@ -45,21 +45,27 @@ async function openPage(t, locale = 'en-US') {
 
 test('embedded FAQ jumps stay in the bundled document', async t => {
   const page = await openPage(t);
-  const embedded = origin + '/faq/embedded-faq/?lang=en';
-  for (const [label, fragment] of [
-    ['adding or reordering stops', 'route-stops'],
-    ['avoiding road types', 'avoid-roads'],
-    ['KML polygon import, export, and rendering', 'kml-polygons'],
-  ]) {
-    await page.goto(embedded);
-    const documents = [];
-    const trackDocument = request => { if (request.isNavigationRequest()) documents.push(request.url()); };
-    page.on('request', trackDocument);
-    await page.getByRole('link', { name: label, exact: true }).click();
-    assert.equal(page.url(), embedded + '#' + fragment);
-    assert.equal(await page.locator('dd[lang="en"] #' + fragment).count(), 1);
-    assert.deepEqual(documents, [], 'An in-answer jump must not request another document');
-    page.off('request', trackDocument);
+  for (const lang of ['en', 'ru']) {
+    const embedded = origin + '/faq/embedded-faq/?lang=' + lang;
+    for (const fragment of ['route-stops', 'avoid-roads', 'kml-polygons']) {
+      await page.goto(embedded);
+      const targetId = (lang === 'en' ? '' : lang + '-') + fragment;
+      const link = page.locator('dd[lang="' + lang + '"] a[href="#' + targetId + '"]');
+      assert.equal(await link.count(), 1);
+      await link.evaluate(element => element.scrollIntoView({ block: 'start' }));
+      const documents = [];
+      const trackDocument = request => { if (request.isNavigationRequest()) documents.push(request.url()); };
+      page.on('request', trackDocument);
+      await link.click();
+      assert.equal(page.url(), embedded + '#' + targetId);
+      const target = page.locator('dd[lang="' + lang + '"] #' + targetId);
+      assert.equal(await target.count(), 1);
+      await page.evaluate(() => new Promise(requestAnimationFrame));
+      assert.ok(Math.abs(await target.evaluate(element => element.getBoundingClientRect().top)) < 2,
+        'The fragment must scroll to the visible language');
+      assert.deepEqual(documents, [], 'An in-answer jump must not request another document');
+      page.off('request', trackDocument);
+    }
   }
 });
 

@@ -1,7 +1,7 @@
 ---
 title: "What is the Organic Maps project goal and roadmap?"
 description: "Explore the Organic Maps project goal, features being prepared for release and future plans for offline maps and navigation."
-updated: "2026-11-06"
+updated: "2026-11-09"
 taxonomies:
   faq: ["app"]
 extra:
@@ -16,11 +16,9 @@ See [features in development](@/faq/app/project-goal-and-roadmap/index.md#featur
 
 Several major features are being prepared for release:
 
-| Feature | Status |
-|---|---|
-| [Worldwide 3D terrain, hill shading, sea and ocean depths, elevation at any point, and detailed contour lines in meters and feet](@/faq/map/3d-terrain-and-ocean-depth/index.md) | Already implemented; merge expected soon in PR #13952 |
-| [KML polygon import, export, and rendering](@/faq/bookmarks/how-to-import/index.md#kml-polygons) | Merged into master |
-| [Follow Track navigation](@/faq/navigation/navigate-gpx-track/index.md) | Almost ready |
+- [Worldwide 3D terrain, hill shading, sea and ocean depths, elevation at any point, and detailed contour lines in meters and feet](@/faq/map/3d-terrain-and-ocean-depth/index.md)
+- [KML polygon import, export, and rendering](@/faq/bookmarks/how-to-import/index.md#kml-polygons)
+- [Follow Track navigation](@/faq/navigation/navigate-gpx-track/index.md)
 
 Other features in development include:
 

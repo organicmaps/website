@@ -1,7 +1,7 @@
 ---
 title: "How do I import bookmarks and GPX tracks into Organic Maps?"
 description: "Import KML, KMZ, KMB, GPX, GeoJSON and supported Google Takeout files into Organic Maps, with steps for Android and iOS."
-updated: "2026-11-06"
+updated: "2026-11-09"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
 extra:
@@ -18,6 +18,6 @@ For exports from another app, see [moving saved places from Google Maps or MAPS.
 
 ## Can I import, display, and export KML polygons? {#kml-polygons}
 
-KML polygon support is being prepared for an upcoming release: importing, rendering, and exporting polygons have been implemented and merged into master. Polygons represent areas, such as a park boundary or a survey area, and this feature will display those shapes on the map alongside saved places and tracks.
+KML polygon support is being prepared for release. Polygons represent areas, such as a park boundary or a survey area, and this feature will display those shapes on the map alongside saved places and tracks.
 
 Use KML or KMZ to preserve polygon areas when sharing or backing up this data. GPX does not support polygon areas.

@@ -1,7 +1,7 @@
 ---
 title: "What is the difference between a route and a track? Can I navigate a GPX file?"
 description: "Understand routes versus GPX tracks, save a planned Organic Maps route and check the status of Follow Track navigation."
-updated: "2026-11-06"
+updated: "2026-11-09"
 taxonomies:
   faq: ["routes-and-navigation"]
 extra:
@@ -10,7 +10,7 @@ extra:
 
 In the current published mobile release, you can [import a GPX track](@/faq/bookmarks/how-to-import/index.md) and display it alongside your position. To build a navigation route, select points on the track and check where the calculated route differs from the original line.
 
-The **Follow Track** feature for navigating along imported or saved tracks is almost ready, but is not yet available in the published release.
+The **Follow Track** feature for navigating along imported or saved tracks is in development and is not available in the published release.
 
 A route is calculated between a start, destination, and optional stops using the selected travel mode and map data. A track is a line made from a sequence of coordinates, usually recorded with GPS or created by another planning tool.
 

@@ -6,7 +6,7 @@ updated: '2024-06-20'
 taxonomies:
   faq: ["додаток"]
 extra:
-  order: 10
+  order: 40
 aliases:
   - /uk/faq/app/which-ios-and-android-versions-are-supported/
 ---

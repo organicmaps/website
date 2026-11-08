@@ -5,7 +5,7 @@ description: "Посібник з покращення результатів п
 updated: "2024-06-12"
 
 taxonomies:
-  faq: ["мапа"]
+  faq: ["пошук"]
 
 extra:
   order: 20

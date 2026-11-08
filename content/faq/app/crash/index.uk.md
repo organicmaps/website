@@ -6,7 +6,7 @@ updated: "2026-01-04"
 taxonomies:
   faq: ["додаток"]
 extra:
-  order: 30
+  order: 70
 aliases:
   - /uk/faq/app/crash/
 ---

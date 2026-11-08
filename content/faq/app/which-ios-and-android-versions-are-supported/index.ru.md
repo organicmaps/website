@@ -6,7 +6,7 @@ updated: "2026-01-04"
 taxonomies:
   faq: ["приложение"]
 extra:
-  order: 10
+  order: 40
 aliases:
   - /ru/faq/app/which-ios-and-android-versions-are-supported/
 ---

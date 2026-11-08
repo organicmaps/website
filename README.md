@@ -84,6 +84,8 @@ extra:
 
 Zola will add your question to specific F.A.Q. sub-page.
 
+Use a distinct `extra.order` within each category and language; `npm test` checks these values across the FAQ corpus.
+
 English answers can group related questions under H2 headings, which both FAQ listings link to directly. The landing page's `extra.start_here` lists source paths and uses each answer's title for its link label. Keep published heading fragments stable when editing answers; an alias anchor can preserve a fragment alongside a descriptive heading.
 
 If you need to translate the FAQ to a new language please add next lines to config.toml:

@@ -4,9 +4,9 @@ slug: як-користуватися-android-auto
 description: Мінімальні вимоги для запуску Organic Maps з Android Auto
 updated: '2024-06-20'
 taxonomies:
-  faq: ["додаток"]
+  faq: ["голосові-інструкції"]
 extra:
-  order: 20
+  order: 30
 aliases:
   - /uk/faq/app/how-to-use-android-auto/
 ---

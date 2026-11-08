@@ -6,9 +6,9 @@ slug: как-использовать-android-auto
 aliases:
   - /ru/faq/app/how-to-use-android-auto/
 taxonomies:
-  faq: ["приложение"]
+  faq: ["голосовые-подсказки"]
 extra:
-  order: 20
+  order: 30
 ---
 
 Чтобы использовать OM с Android Auto, вам потребуется Android версии 8.0 (Oreo) или более поздней версии. Кроме того, вам необходимо загрузить Organic Maps из магазина Google Play, поскольку Google разрешает использовать только одобренные Google приложения на Android Auto.

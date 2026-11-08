@@ -59,6 +59,8 @@ test('embedded FAQ jumps stay in the bundled document', async t => {
       await link.click();
       assert.equal(page.url(), embedded + '#' + targetId);
       const target = page.locator('dd[lang="' + lang + '"] #' + targetId);
+      assert.equal(await page.locator('[id="' + targetId + '"]').count(), 1,
+        'A jump target must be unique across the combined document');
       assert.equal(await target.count(), 1);
       await page.evaluate(() => new Promise(requestAnimationFrame));
       assert.ok(Math.abs(await target.evaluate(element => element.getBoundingClientRect().top)) < 2,
@@ -80,6 +82,11 @@ test('explicit English FAQ fragments survive a German browser preference', async
     assert.equal(page.url(), url);
     assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     assert.equal(await page.locator('#' + fragment).count(), 1);
+    assert.equal(await page.evaluate(() => localStorage.getItem('lang')), null);
+    await page.goto(origin + pathname, { waitUntil: 'commit' });
+    await page.waitForURL(url => url.pathname.startsWith('/de/faq/'));
+    assert.equal(await page.locator('html').getAttribute('lang'), 'de');
+    assert.equal(await page.evaluate(() => localStorage.getItem('lang')), 'de');
   }
 });
 

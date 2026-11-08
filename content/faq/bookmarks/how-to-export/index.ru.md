@@ -6,7 +6,7 @@ updated: "2026-01-04"
 taxonomies:
   faq: ["метки-и-треки"]
 extra:
-  order: 10
+  order: 20
 aliases:
   - /ru/faq/bookmarks/how-to-export/
   - /ru/faq/bookmarks/как-экспортировать-метки/

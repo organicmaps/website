@@ -1,7 +1,8 @@
 <script>
 (function () {
 {% if (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") %}
-// A FAQ translation may omit the requested section.
+// Treat every FAQ fragment as explicit intent; translations may omit its target.
+// Skip automatic preference storage so the next visit without a fragment can choose a language.
 if (window.location.hash) return;
 {% endif %}
 // Supports partially translated pages. Redirect only when there has been no earlier automatic

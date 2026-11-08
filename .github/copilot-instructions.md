@@ -78,7 +78,7 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 ```bash
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
-npm test             # Offline translation, hook and Telegram regressions
+npm test             # Offline FAQ metadata, translation, hook and Telegram regressions
 python3 tools/test_navigation.py # Homepage, navigation, FAQ and donation regressions (requires Zola)
 npm run test:browser # Donation checkout and FAQ regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)

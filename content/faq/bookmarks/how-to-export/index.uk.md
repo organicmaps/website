@@ -8,7 +8,7 @@ taxonomies:
   faq: ["мітки-та-маршрути"]
 
 extra:
-  order: 10
+  order: 20
 aliases:
   - /uk/faq/bookmarks/how-to-export/
 ---

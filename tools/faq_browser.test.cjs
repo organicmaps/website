@@ -45,7 +45,7 @@ async function openPage(t, locale = 'en-US') {
 
 test('embedded FAQ jumps stay in the bundled document', async t => {
   const page = await openPage(t);
-  for (const lang of ['en', 'ru']) {
+  for (const lang of ['en', 'ru', 'uk']) {
     const embedded = origin + '/faq/embedded-faq/?lang=' + lang;
     for (const fragment of ['route-stops', 'avoid-roads', 'kml-polygons']) {
       await page.goto(embedded);

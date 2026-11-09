@@ -24,11 +24,20 @@
 {#- Build a descriptive page_title for <title>, og:title, twitter:title.
     Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
     "{Term} – {Section label} – {Brand}" so the title is unique and
-    branded; everything else uses the resource's own title verbatim.
+    branded. English FAQ answers also include the brand when absent;
+    everything else uses the resource's own title verbatim.
     On non-default-language pages, an ASCII-only term is usually an
     untranslated English label, so omit it rather than mix languages.
     Language-neutral names such as Linux are explicitly allowed in config. -#}
 {%- set page_title = resource_title -%}
+{%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
+{%- if lang == config.default_language and page and page.taxonomies.faq -%}
+  {%- set normalized_title = resource_title | lower -%}
+  {%- set normalized_brand = brand | lower -%}
+  {%- if not (normalized_title is containing(pat=normalized_brand)) -%}
+    {%- set page_title = resource_title ~ " – " ~ brand -%}
+  {%- endif -%}
+{%- endif -%}
 {%- set term_description = "" -%}
 {%- if term -%}
   {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
@@ -51,7 +60,6 @@
     {%- endif -%}
   {%- endif -%}
   {%- if section_label -%}
-    {%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
     {%- if use_term_name -%}
       {%- set page_title = term_name ~ " – " ~ section_label ~ " – " ~ brand -%}
     {%- else -%}

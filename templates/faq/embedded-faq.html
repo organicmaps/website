@@ -209,15 +209,18 @@
       {%- endfor %}
     </dt>
 
+    {% set embedded_page = faq_page_en %}
+    {% set html_lang = "en" %}
     <dd lang="en">
-      {{ faq_page_en.content | safe -}}
+      {% include 'faq/_embedded_content.html' %}
     </dd>
     {# Add translations -#}
     {% for lang in faq_languages -%}
     {% set translated_faq_page = [t for t in faq_page_en.translations if t.lang == lang] | first -%}
-    {% set translated_faq_page = get_page(path=translated_faq_page.path) -%}
-    <dd lang="{{ lang | replace(from="-Hans", to="") | replace(from="-IR", to="") }}">
-      {{ translated_faq_page.content | safe }}
+    {% set embedded_page = get_page(path=translated_faq_page.path) -%}
+    {% set html_lang = lang | replace(from="-Hans", to="") | replace(from="-IR", to="") %}
+    <dd lang="{{ html_lang }}">
+      {% include 'faq/_embedded_content.html' %}
     </dd>
     {%- endfor %}
   </dl>

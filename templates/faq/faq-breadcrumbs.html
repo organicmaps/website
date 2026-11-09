@@ -1,20 +1,36 @@
-{# Build breadcrumbs in form:
-F.A.Q. Android • Bookmarks • General • iOS • Map • Routing • TTS
-
-If we generate /faq/android/, or /faq/general, or etc page then `term` variable is
-available with selected FAQ term.
-#}
-<p class="faq-breadcrumbs">
-    {% set faq_root = get_taxonomy(kind='faq', lang=lang) %}
-    <a href="{{ faq_root.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-title">{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}{{ faq_section.title }}</a>
-    {% set categories = faq_root | get(key="items") %}
-    {% for item in categories %}
-        {% set display_name = item.name | replace(from="-", to=" ") | capitalize %}
-        •
-        {% if term and term.name == item.name %} {# Do not show link for current FAQ term #}
-            <span class="faq-taxonomy">{{ display_name }}</span>
-        {% else %}
-            <a href="{{ item.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-taxonomy">{{ display_name }}</a>
+{# English answers use a compact trail; other languages use the full category menu. #}
+{% set faq_root = get_taxonomy(kind='faq', lang=lang) %}
+{% set faq_categories = faq_root | get(key="items") %}
+{% set linux_page = get_page(path="faq/linux/how-to-use-flatpak/index.md", lang=lang, allow_missing=true) %}
+{% if linux_page %}
+  {% set linux_category = linux_page.taxonomies.faq[0] %}
+  {% set faq_categories = [
+    ...[t for t in faq_categories if t.name != linux_category],
+    ...[t for t in faq_categories if t.name == linux_category]
+  ] %}
+{% endif %}
+{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
+{% set faq_label = faq_section.title %}
+{% if lang == config.default_language %}
+  {% set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) %}
+{% endif %}
+{% set current_category = "" %}
+{% if page and page.taxonomies.faq %}
+  {% set current_category = page.taxonomies.faq[0] %}
+{% elif term %}
+  {% set current_category = term.name %}
+{% endif %}
+<nav class="faq-breadcrumbs" aria-label="{{ faq_section.title }}">
+    <a href="{{ faq_root.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-title">{{ faq_label }}</a>
+    {% for item in faq_categories %}
+        {% if lang != config.default_language or item.name == current_category %}
+            <span aria-hidden="true">{% if lang == config.default_language %} › {% else %} • {% endif %}</span>
+            {% set display_name = item.name | replace(from="-", to=" ") | capitalize %}
+            {% if term and item.name == current_category %}
+                <span class="faq-taxonomy" aria-current="page">{{ display_name }}</span>
+            {% else %}
+                <a href="{{ item.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-taxonomy">{{ display_name }}</a>
+            {% endif %}
         {% endif %}
     {% endfor %}
-</p>
+</nav>

@@ -6,7 +6,7 @@ updated: "2026-01-04"
 taxonomies:
   faq: ["метки-и-треки"]
 extra:
-  order: 30
+  order: 70
 aliases:
   - /ru/faq/bookmarks/android-track-recording/
 ---

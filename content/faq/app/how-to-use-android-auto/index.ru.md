@@ -1,16 +1,18 @@
 ---
-title: Как использовать Android Auto?
-description: Минимальные требования для запуска Organic Maps с Android Auto
-updated: '2024-06-20'
+title: Как использовать Organic Maps с Android Auto?
+description: Используйте Organic Maps с Android Auto, проверьте требования к телефону и автомобилю и загрузите карты перед поездкой.
+updated: "2026-11-09"
 slug: как-использовать-android-auto
 aliases:
   - /ru/faq/app/how-to-use-android-auto/
 taxonomies:
-  faq: ["приложение"]
+  faq: ["голосовые-подсказки"]
 extra:
-  order: 20
+  order: 30
 ---
 
-Чтобы использовать OM с Android Auto, вам потребуется Android версии 8.0 (Oreo) или более поздней версии. Кроме того, вам необходимо загрузить Organic Maps из магазина Google Play, поскольку Google разрешает использовать только одобренные Google приложения на Android Auto.
+Для работы с Android Auto установите Organic Maps из Google Play. Подключите телефон к совместимому автомобилю или автомобильной мультимедийной системе и откройте Organic Maps на экране автомобиля. Заранее загрузите на телефон карты регионов, через которые пройдёт маршрут.
 
-Дополнительную информацию можно найти на [веб-сайте Android Auto](https://www.android.com/auto/).
+Сейчас Google требует Android 11 или новее для проводного подключения Android Auto, а для беспроводного действуют дополнительные требования. Проверьте [требования Android Auto](https://support.google.com/androidauto/answer/6348019) для вашего телефона и автомобиля. Они не связаны с минимальной версией Android 5, которая нужна самому Organic Maps. Android Auto и Android Automotive OS — разные системы: поддержка подключения телефона не означает, что приложение можно установить прямо в любой автомобиль.
+
+Перед поездкой ознакомьтесь с [подготовкой к поездке в режиме офлайн](@/faq/app/offline-maps/index.ru.md). Если голосовые подсказки не слышны, воспользуйтесь [советами по устранению проблем со звуком](@/faq/voice/cant-hear-instructions/index.ru.md).

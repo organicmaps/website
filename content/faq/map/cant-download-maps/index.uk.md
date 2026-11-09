@@ -8,7 +8,7 @@ taxonomies:
   faq: ["мапа"]
 
 extra:
-  order: 30
+  order: 20
 aliases:
   - /uk/faq/map/cant-download-maps/
 ---

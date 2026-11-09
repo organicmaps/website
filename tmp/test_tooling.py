@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Focused, offline regressions for translation, hooks and Telegram tooling."""
+"""Focused, offline regressions for FAQ metadata, translation, hooks and Telegram."""
 
 import json
 import subprocess
@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
+from markdown_frontmatter import strip_frontmatter  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
@@ -180,7 +181,6 @@ Body.
              patch("translate_md.get_glossary_id", return_value=None), \
              patch("translate_md.deepl_translate", side_effect=lambda texts, *a, **k: (texts, None)):
             translated = translate_post(source, "fr", use_glossary=False)
-        from markdown_frontmatter import strip_frontmatter
         self.assertEqual(strip_frontmatter(source)[1], strip_frontmatter(translated)[1])
 
     def test_links_localize_without_translating_protected_examples(self):
@@ -313,6 +313,24 @@ Organic Maps。
         pt_br, pt_target = dictionary_for_probe(terms, "pt-BR")
         self.assertEqual((af_target, len(af)), ("af", 1))
         self.assertEqual((pt_target, len(pt_br)), ("pt", 1))
+
+
+class FaqMetadataTests(unittest.TestCase):
+    def test_faq_category_order_is_unique(self):
+        seen = {}
+        for path in sorted((ROOT / "content/faq").rglob("index*.md")):
+            _, meta = strip_frontmatter(path.read_text(encoding="utf-8"))
+            categories = meta.get("taxonomies", {}).get("faq", [])
+            if not categories:
+                continue
+            order = meta.get("extra", {}).get("order")
+            self.assertIsInstance(order, int, str(path.relative_to(ROOT)))
+            for category in categories:
+                key = (path.name, category, order)
+                self.assertIsNone(seen.get(key),
+                                  f"{path.relative_to(ROOT)} shares {category!r} order {order} "
+                                  f"with {seen.get(key)}")
+                seen[key] = path.relative_to(ROOT)
 
 
 class TelegramToolingTests(unittest.TestCase):

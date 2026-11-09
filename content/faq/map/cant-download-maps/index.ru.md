@@ -8,7 +8,7 @@ taxonomies:
   faq: ["карта"]
 
 extra:
-  order: 30
+  order: 20
 aliases:
   - /ru/faq/map/cant-download-maps/
 ---

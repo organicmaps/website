@@ -10,7 +10,7 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'public');
 const origin = 'https://donation.test';
 const draftKey = 'organicmaps-donate-checkout-draft-v2';
-const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg' };
+const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ico': 'image/x-icon', '.json': 'application/json' };
 const headerRules = [];
 let rule;
 for (const line of fs.readFileSync(path.join(root, 'static/_headers'), 'utf8').split('\n')) {
@@ -58,6 +58,7 @@ async function openPage(t, options = {}) {
       return route.abort();
     }
     const file = path.join(output, decodeURIComponent(url.pathname), url.pathname.endsWith('/') ? 'index.html' : '');
+    assert.ok(file.startsWith(output + path.sep), 'Asset path must stay within the build output');
     if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: 'Not found' });
     return route.fulfill({ body: fs.readFileSync(file), contentType: mime[path.extname(file)] || 'application/octet-stream', headers: headersFor(url.pathname) });
   });

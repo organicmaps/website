@@ -6,7 +6,7 @@ updated: "2026-01-04"
 taxonomies:
   faq: ["приложение"]
 extra:
-  order: 30
+  order: 70
 aliases:
   - /ru/faq/app/crash/
 ---

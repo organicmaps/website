@@ -40,6 +40,11 @@
 <body>
 
 {% set all_categories = get_taxonomy(kind='faq', lang = 'en') %} {# Use English as list of all FAQ categories and questions #}
+{% set faq_categories = all_categories | get(key="items") %}
+{% set faq_categories = [
+  ...[t for t in faq_categories if t.name != "linux"],
+  ...[t for t in faq_categories if t.name == "linux"]
+] %}
 {% set faq_languages = config.extra.faq_translation_status_languages %} {# Curated status-table languages #}
 
     <table class="status">
@@ -49,7 +54,7 @@
                 <td>{{ lang }}</td>
             {%- endfor -%}
         </tr>
-        {% for faq_category in all_categories | get(key="items") %}
+        {% for faq_category in faq_categories %}
             <tr class="faq_category">
                 <td colspan="100%">{{ faq_category.name | replace(from="-", to=" ") | capitalize }}</td>
             </tr>

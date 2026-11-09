@@ -1,0 +1,18 @@
+{# Match Markdown's encoded URLs. English fragments remain public targets;
+   translated self-linked headings need distinct IDs in this combined document.
+   Only top-level TOC headings are rewritten; selected answers keep self-link
+   targets at that level. #}
+{% set embedded_url = embedded_page.permalink | urlencode | replace(from="%3A", to=":") %}
+{% set_global embedded_content = embedded_page.content %}
+{% if html_lang != "en" %}
+  {# The accumulator must outlive the heading loop's local scope. #}
+  {% for heading in embedded_page.toc %}
+    {% set self_link = 'href="' ~ embedded_url ~ '#' ~ (heading.id | urlencode) ~ '"' %}
+    {% if embedded_content is containing(pat=self_link) %}
+      {% set fragment = html_lang ~ '-' ~ heading.id %}
+      {% set heading_tag = '<h' ~ heading.level ~ ' id="' %}
+      {% set_global embedded_content = embedded_content | replace(from=self_link, to='href="#' ~ (fragment | urlencode) ~ '"') | replace(from=heading_tag ~ heading.id ~ '"', to=heading_tag ~ fragment ~ '"') %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{{ embedded_content | replace(from='href="' ~ embedded_url ~ '#', to='href="#') | safe }}

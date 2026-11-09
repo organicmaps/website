@@ -8,7 +8,7 @@ taxonomies:
   faq: ["мітки-та-маршрути"]
 
 extra:
-  order: 30
+  order: 70
 aliases:
   - /uk/faq/bookmarks/android-track-recording/
 ---

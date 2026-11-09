@@ -1,8 +1,8 @@
 ---
-title: Які версії iOS і Android підтримуються?
+title: Які версії iOS, iPadOS та Android підтримуються?
 slug: які-версії-ios-і-android-підтримуються
-description: Мінімальні вимоги для запуску Organic Maps на пристроях Android та iOS
-updated: '2024-06-20'
+description: Перевірте вимоги Organic Maps до iOS, iPadOS, Android і графіки, зокрема для роботи без сервісів Google Play.
+updated: "2026-11-09"
 taxonomies:
   faq: ["додаток"]
 extra:
@@ -11,10 +11,6 @@ aliases:
   - /uk/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Для запуску програми вам потрібна принаймні iOS 12 або Android 5. Пристрої з пізнішими версіями можуть запускати Organic Maps.
+Мінімальні вимоги для поточних версій застосунку — iOS 15, iPadOS 15 або Android 5.0. Пристроям Android також потрібна сумісна підтримка графіки, наприклад OpenGL ES 3.0 або Vulkan. Перевірте сумісність із вашим пристроєм на офіційній сторінці застосунку в магазині.
 
-В Android Organic Maps може працювати на пристроях із встановленими службами Google і без підтримки Google.
-
-Для роботи пристрої на базі Android повинні підтримувати OpenGL ES 3.0 або новішу версію, або API Vulkan.
-
-Щоб використовувати OM з Android Auto, перегляньте вимоги [тут](../how-to-use-android-auto/).
+Organic Maps може працювати на Android без сервісів Google Play. Для Android Auto діють окремі, вищі вимоги; див. [використання Organic Maps в автомобілі](@/faq/app/how-to-use-android-auto/index.uk.md).

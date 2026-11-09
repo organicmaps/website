@@ -1,14 +1,14 @@
 ---
 title: "How can I support Organic Maps?"
 description: "Support Organic Maps, join beta testing, follow release news and suggest features with useful examples."
-updated: "2026-11-06"
+updated: "2026-11-09"
 taxonomies:
   faq: ["app"]
 extra:
   order: 110
 ---
 
-You can [donate](@/donate/index.md), improve OpenStreetMap, translate the app or website, test beta versions, help other users, report reproducible problems, or contribute code and design. Reviews and recommendations also help people discover the app.
+You can [donate](@/donate/index.md), improve OpenStreetMap, translate the app or website, test beta versions, help other users, report reproducible problems, or contribute code and design. Store reviews and recommendations to friends also help people discover Organic Maps.
 
 Start with the [contribution page](@/contribute/index.md) for current tools and community links. For code, use the [project repository](https://github.com/organicmaps/organicmaps) and its development instructions. For a UI proposal, show the user problem and an example of the proposed behavior.
 

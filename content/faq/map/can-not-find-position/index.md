@@ -1,7 +1,7 @@
 ---
 title: "Why can Organic Maps not find my location, or only show an approximate position?"
 description: "Fix missing or approximate GPS location in Organic Maps and understand precise-location permissions, the accuracy circle and direction arrow."
-updated: "2026-11-06"
+updated: "2026-11-09"
 taxonomies:
   faq: ["location-and-compass"]
 extra:
@@ -16,7 +16,7 @@ Check whether another location app has the same problem. Some tablets have no sa
 
 In your device's app permissions, allow Organic Maps to use your location and enable **Precise location** when that choice is available. On Android 12 or later, device location accuracy settings are usually under **Settings → Location → Location services → Location Accuracy**. On Android 9–11, look under **Location → Advanced → Location Accuracy**; on older versions, look for **High accuracy** under **Location mode**. Menu names vary by manufacturer.
 
-If your build and device offer **Google Play Location Services** in Organic Maps settings, try changing that option to see whether it helps. It appears only on compatible devices with Google Play services available; turn it back on if disabling it makes location accuracy worse.
+If **Google Play Location Services** is available in Organic Maps settings, try disabling it and restarting the app if location is missing or stops updating. Enable it again if accuracy gets worse. In F-Droid, the option can appear even when no compatible service is installed.
 
 ## iPhone and iPad location settings
 

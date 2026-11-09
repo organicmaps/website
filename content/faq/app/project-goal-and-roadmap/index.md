@@ -43,5 +43,6 @@ Planned features include:
 - Street view
 - Broader address coverage using additional sources such as OpenAddresses
 - An [iOS SDK for embedding Organic Maps in other apps](@/faq/developers/sdk/index.md)
+- …and more!
 
-These plans support the goal of building a better version of Google Maps. Development priorities and release timing depend on implementation, testing, and contributions.
+We can't promise exactly when a feature will be ready, but your [donations](@/donate/index.md) and [support](@/contribute/index.md) can help speed up development.

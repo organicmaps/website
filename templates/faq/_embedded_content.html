@@ -1,5 +1,7 @@
 {# Match Markdown's encoded URLs. English fragments remain public targets;
-   translated self-linked headings need distinct IDs in this combined document. #}
+   translated self-linked headings need distinct IDs in this combined document.
+   Only top-level TOC headings are rewritten; selected answers keep self-link
+   targets at that level. #}
 {% set embedded_url = embedded_page.permalink | urlencode | replace(from="%3A", to=":") %}
 {% set_global embedded_content = embedded_page.content %}
 {% if html_lang != "en" %}

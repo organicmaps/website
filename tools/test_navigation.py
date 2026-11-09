@@ -160,9 +160,9 @@ class NavigationTests(unittest.TestCase):
               f'title = {json.dumps(brand)}\n'
               'taxonomies = [{name = "faq"}]\n'
               '[extra]\nrtl_languages = []\nlanguage_neutral_taxonomy_terms = ["linux"]\n'
-              '[translations]\nfaq-menu-title = "Help"\nfaq-term-description = "FAQ about {}"\n'
+              '[translations]\nfaq-menu-title = "Help"\nfaq-start-here = "Start here"\nfaq-term-description = "FAQ about {}"\n'
               '[languages.de]\ntaxonomies = [{name = "faq"}]\n'
-              '[languages.de.translations]\nfaq-menu-title = "Hilfe"\nfaq-term-description = "Fragen zu {}"\n')
+              '[languages.de.translations]\nfaq-menu-title = "Hilfe"\nfaq-start-here = "Erste Schritte"\nfaq-term-description = "Fragen zu {}"\n')
         for template in ("base.html", "page.html", "language_redirect.html", "_jsonld_faq.html",
                          "faq/list.html", "faq/single.html", "faq/_questions.html", "faq/faq-breadcrumbs.html"):
             write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
@@ -202,6 +202,7 @@ class NavigationTests(unittest.TestCase):
                     parser.feed((root / "public" / listing).read_text())
                     self.assertIn("/de/faq/app/strecke/", parser.links)
                     self.assertFalse(any("#stops" in href for href in parser.links))
+            self.assertNotIn("Erste Schritte", (root / "public/de/faq/index.html").read_text())
 
             english = (root / "public/faq/app/route/index.html").read_text()
             breadcrumbs = RenderedPage(menu_id=None)
@@ -219,11 +220,17 @@ class NavigationTests(unittest.TestCase):
 
             article = root / "content/faq/app/route/index.md"
             article.write_text(article.read_text().replace("Plan a route", "Plan your journey"))
+            write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n'
+                  'extra:\n  start_here: ["faq/app/route/index.md"]\n---\n')
             self.build(root)
             landing = (root / "public/faq/index.html").read_text()
             start_here = re.search(r"<h2>Start here</h2>(.*?)</ul>", landing, re.S).group(1)
             self.assertIn('href="/faq/app/route/">Plan your journey</a>', start_here)
             self.assertNotIn(">Plan a route</a>", landing)
+            german = (root / "public/de/faq/index.html").read_text()
+            start_here = re.search(r"<h2>Erste Schritte</h2>(.*?)</ul>", german, re.S).group(1)
+            self.assertIn('href="/de/faq/app/strecke/">Route planen</a>', start_here)
+            self.assertNotIn("/faq/app/route/", start_here)
 
     def test_faq_answer_titles_use_configured_brand(self):
         cases = (("Trail Atlas", "Plan a route", "Plan a route – Trail Atlas"),

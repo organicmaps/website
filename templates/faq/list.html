@@ -2,16 +2,16 @@
 
 {% block content %}
   <h1>{{ resource.title }}</h1>
-  {% if lang == config.default_language %}
   {% if resource.extra.start_here %}
-  <h2>Start here</h2>
+  <h2>{{ trans(key="faq-start-here", lang=lang) }}</h2>
   <ul>
     {% for source in resource.extra.start_here %}
-    {% set start_page = get_page(path=source) %}
+    {% set start_page = get_page(path=source, lang=lang) %}
     <li><a href="{{ start_page.path | safe }}">{{ start_page.title }}</a></li>
     {% endfor %}
   </ul>
   {% endif %}
+  {% if lang == config.default_language %}
   <nav aria-label="FAQ topics">
     <p><strong>Browse topics:</strong>
       {% for term in terms %}

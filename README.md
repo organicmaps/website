@@ -103,7 +103,7 @@ faq-term-description = "{Description containing a {} placeholder for the categor
 
 Each translated FAQ page uses a localized taxonomy value, or a language-neutral name such as `linux`. The corresponding `content/faq/_index.XX.md` has `render: false`, allowing the translated FAQ taxonomy to own `/XX/faq/` without colliding with the section page.
 
-**Limitation**: F.A.Q. categories are sorted alphabetically by their localized taxonomy values and cannot be manually reordered.
+F.A.Q. categories keep Zola's alphabetical order, with Linux placed last in listings and category menus. Templates identify its localized category through the translated Flatpak article.
 
 **Limitation**: Each F.A.Q. category has only a name; Zola taxonomies do not provide per-term content or icons.
 

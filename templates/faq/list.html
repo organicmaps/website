@@ -1,6 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
+  {% set faq_categories = terms %}
+  {# Mobile help comes first; the article identifies Linux's localized category. #}
+  {% set linux_page = get_page(path="faq/linux/how-to-use-flatpak/index.md", lang=lang, allow_missing=true) %}
+  {% if linux_page %}
+    {% set linux_category = linux_page.taxonomies.faq[0] %}
+    {% set faq_categories = [
+      ...[t for t in faq_categories if t.name != linux_category],
+      ...[t for t in faq_categories if t.name == linux_category]
+    ] %}
+  {% endif %}
   <h1>{{ resource.title }}</h1>
   {% if resource.extra.start_here %}
   <h2>{{ trans(key="faq-start-here", lang=lang) }}</h2>
@@ -14,13 +24,13 @@
   {% if lang == config.default_language %}
   <nav aria-label="FAQ topics">
     <p><strong>Browse topics:</strong>
-      {% for term in terms %}
+      {% for term in faq_categories %}
       {% if not loop.first %} · {% endif %}<a href="#faq-{{ term.slug }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a>
       {% endfor %}
     </p>
   </nav>
   {% endif %}
-  {%- for term in terms -%}
+  {%- for term in faq_categories -%}
   <h2{% if lang == config.default_language %} id="faq-{{ term.slug }}"{% endif %}><a href="{{ term.path | safe }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
   <ul>
     {%- for faq_page in term.pages | sort(attribute="extra.order") -%}

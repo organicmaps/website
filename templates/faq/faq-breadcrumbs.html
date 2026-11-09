@@ -1,5 +1,14 @@
 {# English answers use a compact trail; other languages use the full category menu. #}
 {% set faq_root = get_taxonomy(kind='faq', lang=lang) %}
+{% set faq_categories = faq_root | get(key="items") %}
+{% set linux_page = get_page(path="faq/linux/how-to-use-flatpak/index.md", lang=lang, allow_missing=true) %}
+{% if linux_page %}
+  {% set linux_category = linux_page.taxonomies.faq[0] %}
+  {% set faq_categories = [
+    ...[t for t in faq_categories if t.name != linux_category],
+    ...[t for t in faq_categories if t.name == linux_category]
+  ] %}
+{% endif %}
 {% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
 {% set faq_label = faq_section.title %}
 {% if lang == config.default_language %}
@@ -13,7 +22,7 @@
 {% endif %}
 <nav class="faq-breadcrumbs" aria-label="{{ faq_section.title }}">
     <a href="{{ faq_root.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-title">{{ faq_label }}</a>
-    {% for item in faq_root | get(key="items") %}
+    {% for item in faq_categories %}
         {% if lang != config.default_language or item.name == current_category %}
             <span aria-hidden="true">{% if lang == config.default_language %} › {% else %} • {% endif %}</span>
             {% set display_name = item.name | replace(from="-", to=" ") | capitalize %}

@@ -26,7 +26,7 @@ Zola uses taxonomies to auto-generate category pages:
    - Auto-generates category pages like `/news/releases/`
    - Date-based folders: `content/news/2024-03-18/323/index.md`
 
-**Limitation**: Taxonomy values are sorted alphabetically, cannot be reordered manually.
+Zola supplies taxonomy values alphabetically. FAQ templates place Linux last in listings and category menus, identifying its localized category through the translated Flatpak article.
 
 ### Template Hierarchy
 

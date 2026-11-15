@@ -27,7 +27,7 @@ Assamese             | eSpeak
 Azerbaijani          | eSpeak, Offline Translator
 Bashkir              | eSpeak
 Basque               | Vocalizer, Nuance, eSpeak, AhoTTS, Offline Translator
-Belarusian           | RHVoice, eSpeak, Offline Translator
+Belarusian           | RuVoice TTS, RHVoice, eSpeak, Offline Translator
 Bengali              | Vocalizer, Google, Nuance, eSpeak, SherpaTTS, TTSLexx, Offline Translator
 Bhojpuri             | Vocalizer, Nuance
 Bishnupriya Manipuri | eSpeak
@@ -109,7 +109,7 @@ Portuguese (PT)      | Vocalizer, Google, Acapela, Ivona, Nuance, eSpeak, Sherpa
 Punjabi              | eSpeak
 Quechua              | eSpeak
 Romanian             | Vocalizer, Ivona, Nuance, RHVoice, eSpeak, SherpaTTS, Supertonic, Offline Translator
-Russian              | Vocalizer, Google, Acapela, Ivona, Yandex, RHVoice, eSpeak, SherpaTTS, TTSLexx, Supertonic, Offline Translator
+Russian              | RuVoice TTS, Vocalizer, Google, Acapela, Ivona, Yandex, RHVoice, eSpeak, SherpaTTS, TTSLexx, Supertonic, Offline Translator
 Scottish Gaelic      | eSpeak
 Serbian              | RHVoice, eSpeak, SherpaTTS, Offline Translator
 Setswana             | RHVoice, eSpeak
@@ -135,7 +135,7 @@ Telugu               | Vocalizer, eSpeak, TTSLexx, Offline Translator
 Thai                 | Vocalizer, Google, Nuance, eSpeak, TTSLexx, Offline Translator
 Turkish              | Vocalizer, Google, Acapela, Ivona, Yandex, Nuance, eSpeak, SherpaTTS, TTSLexx, Supertonic, Offline Translator
 Turkmen              | RHVoice, eSpeak
-Ukrainian            | Vocalizer, Nuance, RHVoice, eSpeak, SherpaTTS, TTSLexx, Supertonic, Offline Translator
+Ukrainian            | RuVoice TTS, Vocalizer, Nuance, RHVoice, eSpeak, SherpaTTS, TTSLexx, Supertonic, Offline Translator
 Urdu                 | eSpeak, TTSLexx, Offline Translator
 Uyghur               | eSpeak, Offline Translator
 Uzbek                | RHVoice, eSpeak
@@ -156,6 +156,7 @@ Welsh (Cymraeg, GB)  | eSpeak, SherpaTTS
 - [neurokone_app TTS](https://github.com/TartuNLP/neurokone_app)
 - [Offline Translator](https://f-droid.org/en/packages/dev.davidv.translator/)
 - [RHVoice TTS](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)
+- [RuVoice TTS](https://github.com/kost-t-human/ruvoice-tts/releases/)
 - [SherpaTTS](https://f-droid.org/en/packages/org.woheller69.ttsengine/)
 - [Supertonic TTS](https://f-droid.org/en/packages/com.brahmadeo.supertonic.tts/)
 - [TTSLexx](https://play.google.com/store/apps/details?id=sia.netttsengine.ttslexx)

@@ -6,6 +6,7 @@ Usage:
     python3 tools/telegram_post_all.py <path_to_content_folder> [--dry-run] [--yes]
     python3 tools/telegram_post_all.py <folder> --only @OrganicMapsRu,de,zh-Hans
     python3 tools/telegram_post_all.py <folder> --skip ru
+    python3 tools/telegram_post_all.py <folder> --rich
 
 The folder should contain markdown files like index.ru.md, index.fr.md, etc.
 and optionally media files (images/videos/audio) to attach to every post.
@@ -13,6 +14,11 @@ and optionally media files (images/videos/audio) to attach to every post.
 Posting stops at the first failure. Use --only with the channels listed in the
 "Resume with" hint to continue without double-posting to channels that already
 succeeded.
+
+With --rich each post goes out as a single Bot API rich message: real headings,
+lists and tables, media inside the post instead of a trailing album, right-to-
+left layout for the Arabic and Persian channels, and a 32768-character limit,
+so nothing is escaped or split across messages.
 
 Environment:
     TELEGRAM_BOT_TOKEN - your bot token from @BotFather
@@ -28,8 +34,13 @@ from telegram_post import (
     get_token,
     resolve_chat_id,
     send_text_messages,
+    send_rich_message,
     send_media,
+    build_rich_markdown,
+    is_rtl_lang,
     validate_media_set,
+    validate_rich_media,
+    validate_rich_message,
     load_references,
     resolve_references,
     find_unresolved_references,
@@ -115,6 +126,23 @@ def select_groups(only: str | None, skip: str | None) -> dict[str, str]:
     return {g: f for g, f in GROUPS.items() if g in keep and g not in drop}
 
 
+def format_flags(args: argparse.Namespace) -> str:
+    """The flags that decide a post's format, for the "Resume with" hint.
+
+    Dropping them would republish the remaining channels in the other format,
+    leaving one post live in two shapes across the channel set — invisible
+    without opening every channel.
+    """
+    return "".join(
+        f" {flag}"
+        for flag, enabled in (
+            ("--rich", args.rich),
+            ("--allow-plain-fallback", args.allow_plain_fallback),
+        )
+        if enabled
+    )
+
+
 def find_media(folder: Path) -> list[Path]:
     """Find all media files in the folder."""
     media = sorted(
@@ -125,14 +153,16 @@ def find_media(folder: Path) -> list[Path]:
     return media
 
 
-def prepare_text(md_path: Path, site_root: Path) -> str:
+def prepare_text(md_path: Path, site_root: Path, rich: bool = False) -> str:
     """Read markdown file, strip frontmatter, resolve references, clean up."""
     raw = md_path.read_text(encoding="utf-8")
 
     text, meta = strip_frontmatter(raw)
     title = meta.get("title", "")
     if title:
-        text = f"**{title}**\n\n{text.lstrip()}"
+        # Rich messages render headings; MarkdownV2 can only fake one in bold.
+        heading = f"# {title}" if rich else f"**{title}**"
+        text = f"{heading}\n\n{text.lstrip()}"
 
     # Tera expressions and components are site-only and do not belong in posts.
     text = strip_tera_blocks(text)
@@ -143,7 +173,7 @@ def prepare_text(md_path: Path, site_root: Path) -> str:
     # Clean up blank lines
     text = re.sub(r"\n{3,}", "\n\n", text)
 
-    raw_html = find_raw_html(text)
+    raw_html = find_raw_html(text, rich=rich)
     if raw_html:
         print(
             f"Warning: {md_path.name} has {len(raw_html)} HTML tag(s) "
@@ -204,10 +234,26 @@ def main() -> None:
         help="If Telegram rejects the MarkdownV2 markup, post the message "
         "unformatted instead of aborting (default: abort)",
     )
+    parser.add_argument(
+        "--rich",
+        action="store_true",
+        help="Send each post as one Bot API rich message (real headings, "
+        "lists and inline media, 32768-character limit) instead of chunked "
+        "MarkdownV2",
+    )
     args = parser.parse_args()
 
     if not args.folder.is_dir():
         print(f"Error: not a directory: {args.folder}", file=sys.stderr)
+        sys.exit(1)
+
+    if args.rich and args.allow_plain_fallback:
+        # There is no MarkdownV2 markup to reject, so the flag would only give
+        # a false sense of having a fallback.
+        print(
+            "Error: --allow-plain-fallback does not apply to --rich.",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     groups = select_groups(args.only, args.skip)
@@ -220,7 +266,9 @@ def main() -> None:
 
     # Discover media files
     media = find_media(args.folder)
-    media_problem = validate_media_set(media)
+    media_problem = (
+        validate_rich_media(media) if args.rich else validate_media_set(media)
+    )
     if media_problem:
         print(f"Error: {media_problem}", file=sys.stderr)
         sys.exit(1)
@@ -234,7 +282,9 @@ def main() -> None:
     for group, filename in groups.items():
         md_path = args.folder / filename
         if md_path.is_file():
-            tasks.append((group, md_path, prepare_text(md_path, site_root)))
+            tasks.append(
+                (group, md_path, prepare_text(md_path, site_root, rich=args.rich))
+            )
 
     if not tasks:
         print("No matching markdown files found in the folder.", file=sys.stderr)
@@ -257,6 +307,26 @@ def main() -> None:
     if excluded:
         print(f"Excluded by --only/--skip: {', '.join(sorted(excluded))}")
     print()
+
+    # A rich post is a single message with a hard size limit, and translations
+    # routinely run longer than the English source. Checking every task up
+    # front — not each one at its own send — keeps one over-long translation
+    # from aborting a run that has already published to earlier channels.
+    if args.rich:
+        rejected: list[str] = []
+        for group, md_path, text in tasks:
+            problem = validate_rich_message(build_rich_markdown(text, media), media)
+            if problem:
+                rejected.append(f"{group} ({md_path.name}): {problem}")
+        if rejected:
+            print(
+                f"Error: Telegram would reject {len(rejected)} of "
+                f"{len(tasks)} post(s):",
+                file=sys.stderr,
+            )
+            for line in rejected:
+                print(f"  {line}", file=sys.stderr)
+            sys.exit(1)
 
     # Check for unresolved references in all files before posting
     has_warnings = False
@@ -302,7 +372,8 @@ def main() -> None:
         if remaining:
             print(
                 f"\nResume with:\n"
-                f"  {sys.argv[0]} {args.folder} --only {','.join(remaining)}",
+                f"  {sys.argv[0]} {args.folder}{format_flags(args)} "
+                f"--only {','.join(remaining)}",
                 file=sys.stderr,
             )
         sys.exit(1)
@@ -317,13 +388,39 @@ def main() -> None:
         remaining = [t[0] for t in tasks[i - 1 :]]
 
         if args.dry_run:
-            print(
-                f"  [DRY RUN] Would send text ({len(text)} chars)"
-                f" + {len(media)} media file(s)"
-            )
+            if args.rich:
+                markdown = build_rich_markdown(text, media)
+                print(
+                    f"  [DRY RUN] Would send one rich message "
+                    f"({len(markdown)} chars, {len(media)} media file(s))"
+                )
+            else:
+                print(
+                    f"  [DRY RUN] Would send text ({len(text)} chars)"
+                    f" + {len(media)} media file(s)"
+                )
             continue
 
         chat_id = chat_ids[group]
+
+        if args.rich:
+            result = send_rich_message(
+                token,
+                chat_id,
+                text,
+                media,
+                is_rtl=is_rtl_lang(group_lang(md_path.name)),
+            )
+            if not result.get("ok"):
+                # A rich post is one message, so a failure published nothing
+                # to this channel and it is safe to resume from here.
+                abort(
+                    f"Failed to post to {group}: "
+                    f"{result.get('description', 'unknown error')}",
+                    remaining,
+                )
+            print(f"  Done: {group}")
+            continue
 
         results = send_text_messages(
             token, chat_id, text, strict=not args.allow_plain_fallback

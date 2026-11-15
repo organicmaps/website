@@ -78,9 +78,9 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 ```bash
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
-npm test             # Offline translation, hook and Telegram regressions
-python3 tools/test_navigation.py # Homepage, navigation and donation regressions (requires Zola)
-npm run test:browser # Donation checkout regressions against public/ (build first)
+npm test             # Offline tooling regressions
+python3 tools/test_navigation.py # Template and navigation regressions (requires Zola)
+npm run test:browser # Browser regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
 ```
@@ -91,9 +91,10 @@ for Telegram publishing and the complete test suite.
 
 For the browser tests, install Node dependencies with `npm ci`, then install
 Chromium once with `npx playwright install chromium`. Run `zola build` before
-`npm run test:browser`. The suite reads the rendered site and declared security
-headers and mocks payment requests. The Python navigation suite uses Zola to
-check invalid donation layout markers.
+`npm run test:browser`. The browser suites exercise the rendered site with local
+request mocks or an offline local file. Checkout tests also read the declared
+security headers. The Python navigation suite builds isolated fixtures and the
+site with Zola.
 
 ### Where the tooling lives
 

@@ -162,6 +162,13 @@
   </script>
 </head>
 
+{# App assets cannot follow site redirects. The replacement is literal HTML,
+   so its attribute quotes must survive Tera's argument escaping. #}
+{% set bundled_android_auto = 'href="#app-how-to-use-android-auto"' | safe -%}
+{% filter replace(from='href="../how-to-use-android-auto/"', to=bundled_android_auto)
+  | replace(from='href="../come-si-usa-android-auto/"', to=bundled_android_auto)
+  | replace(from='href="../comment-utiliser-android-auto/"', to=bundled_android_auto)
+  | replace(from='href="../como-utilizar-android-auto/"', to=bundled_android_auto) | safe %}
 <body onload="showLanguage()">
 
   <div class="faq">
@@ -229,5 +236,6 @@
   {% endfor %}
 
 </body>
+{% endfilter %}
 
 </html>

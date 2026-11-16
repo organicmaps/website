@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from itertools import product
 from pathlib import Path
@@ -141,7 +142,7 @@ class NavigationTests(unittest.TestCase):
                         [chats["telegram"], group],
                     )
 
-    def test_webp_images_and_previews(self):
+    def test_news_images_and_preview_resolution(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             write(root, "config.toml", 'base_url = "https://example.org"\n'
@@ -150,7 +151,7 @@ class NavigationTests(unittest.TestCase):
                   '[translations]\nback = "Back"\n'
                   '[languages.de]\ntaxonomies = [{name = "news"}]\n'
                   '[languages.de.translations]\nback = "Zurück"\n')
-            for template in ("base.html", "_jsonld_news.html", "sitemap.xml",
+            for template in ("base.html", "_jsonld_news.html", "_news_preview.html", "sitemap.xml",
                              "news/page.html", "news/list.html", "news/date_section.html",
                              "shortcodes/screenshot.html"):
                 write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
@@ -162,46 +163,75 @@ class NavigationTests(unittest.TestCase):
             write(root, "templates/news/single.html", "{{ term.name }}")
             write(root, "static/main.css", "")
             image = (ROOT / "tools/fixtures/preview-test.webp").read_bytes()
+            jpeg = (ROOT / "tools/fixtures/preview-test.jpg").read_bytes()
             (root / "static/images").mkdir()
             (root / "static/images/map.WEBP").write_bytes(image)
+            (root / "content").mkdir()
+            (root / "content/home-cover.jpg").write_bytes(jpeg)
+            (root / "static/http-assets").mkdir()
+            (root / "static/http-assets/cover.jpg").write_bytes(jpeg)
+            cases = {
+                "auto": ("", "auto", "01-preview.WEBP"),
+                "chosen": ("extra:\n  preview_image: cover.webp\n", "chosen", "cover.webp"),
+                "parent": ("", "custom-slug", "/news/2024-01-01/parent-preview.jpg"),
+                "override": ("extra:\n  preview_image: cover.webp\n", "override", "cover.webp"),
+                "site-root": ("extra:\n  preview_image: /images/map.WEBP\n", "site-root", "/images/map.WEBP"),
+                "local-http-name": ("extra:\n  preview_image: http-cover.jpg\n", "local-http-name", "http-cover.jpg"),
+                "local-http-path": ("extra:\n  preview_image: http-assets/cover.jpg\n", "local-http-path", "/http-assets/cover.jpg"),
+                "fallback": ("", "fallback", None),
+            }
             for suffix in ("", ".de"):
-                write(root, f"content/_index{suffix}.md", '---\ntitle: Home\n---\n'
+                write(root, f"content/_index{suffix}.md", '---\ntitle: Home\nextra:\n'
+                      '  preview_image: home-cover.jpg\n---\n'
                       '{{ <screenshot src="/images/map.WEBP" alt="Map" /> }}\n')
                 write(root, f"content/news/_index{suffix}.md", '---\ntitle: News\n'
                       'render: false\npage_template: news/page.html\n---\n')
                 write(root, f"content/news/2024-01-01/_index{suffix}.md", '---\ntitle: News\n'
                       'template: news/date_section.html\nsort_by: date\n---\n')
-                for name, extra in (("auto", ""), ("chosen", "extra:\n  preview_image: cover.webp\n"),
-                                    ("fallback", "")):
-                    slug = name if not suffix else f"{name}-de"
+                for name, (extra, slug, _) in cases.items():
+                    slug = slug if not suffix else f"{slug}-de"
                     write(root, f"content/news/2024-01-01/{name}/index{suffix}.md",
                           f'---\ntitle: {name}\ndate: 2024-01-01\nslug: {slug}\n'
                           f'taxonomies:\n  news: ["Releases"]\n{extra}---\nNews.\n')
-            for name in ("auto", "chosen", "fallback"):
+            parent = root / "content/news/2024-01-01"
+            for name in ("parent", "override"):
+                (parent / f"{name}-preview.jpg").write_bytes(jpeg)
+            # The convention has an exact filename, even on case-insensitive filesystems.
+            (parent / "auto-preview.JPG").write_bytes(jpeg)
+            for name in cases:
                 folder = root / "content/news/2024-01-01" / name
                 (folder / "00-video.mp4").write_bytes(b"video")
                 if name != "fallback":
                     (folder / "01-preview.WEBP").write_bytes(image)
                     (folder / "02-detail.webp").write_bytes(image)
-                if name == "chosen":
+                if name in ("chosen", "override"):
                     (folder / "cover.webp").write_bytes(image)
+                if name == "local-http-name":
+                    (folder / "http-cover.jpg").write_bytes(jpeg)
 
             self.build(root)
             public = root / "public"
             sitemap = (public / "sitemap.xml").read_text()
+            namespaces = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9",
+                          "i": "http://www.google.com/schemas/sitemaps-image/0.9"}
+            sitemap_images = {
+                entry.findtext("s:loc", namespaces=namespaces):
+                    entry.findtext("i:image/i:loc", namespaces=namespaces)
+                for entry in ET.fromstring(sitemap).findall("s:url", namespaces)
+            }
             for prefix, suffix in (("", ""), ("/de", "-de")):
                 home = (public / prefix.strip("/") / "index.html").read_text()
                 self.assertIn('src="/images/map.WEBP"', home)
                 self.assertIn('width="2" height="1"', home)
+                self.assertIn(f'content="https://example.org{prefix}/home-cover.jpg"', home)
                 listing = (public / prefix.strip("/") / "news/index.html").read_text()
                 dated = (public / prefix.strip("/") / "news/2024-01-01/index.html").read_text()
-                for name, preview in (("auto", "01-preview.WEBP"), ("chosen", "cover.webp"),
-                                      ("fallback", None)):
+                for name, (_, slug, preview) in cases.items():
                     with self.subTest(language=prefix or "en", post=name):
-                        path = f"{prefix}/news/2024-01-01/{name}{suffix}/"
+                        path = f"{prefix}/news/2024-01-01/{slug}{suffix}/"
                         html = (public / path.strip("/") / "index.html").read_text()
-                        expected = (f"https://example.org{path}{preview}" if preview else
-                                    "https://example.org/images/screenshots/prague.jpg")
+                        expected = ("https://example.org" + (preview if preview.startswith("/") else path + preview)
+                                    if preview else "https://example.org/images/screenshots/prague.jpg")
                         self.assertIn(f'<meta property="og:image" content="{expected}">', html)
                         article = json.loads(re.search(
                             r'<script type="application/ld\+json">(.*?)</script>', html, re.S,
@@ -221,8 +251,29 @@ class NavigationTests(unittest.TestCase):
                                 self.assertIn('decoding="async"', image_tag)
                         else:
                             self.assertNotIn("image", article)
-                        if name == "chosen":
-                            self.assertIn(f"<image:loc>{expected}</image:loc>", sitemap)
+                        expected_count = 0 if name == "fallback" else 3 if name in ("chosen", "override", "local-http-name") else 2
+                        self.assertEqual(len(re.findall(r'<img class="news_image(?:_landscape)?"', html)), expected_count)
+                        if name in ("chosen", "parent", "override", "site-root", "local-http-name", "local-http-path"):
+                            self.assertEqual(sitemap_images["https://example.org" + path], expected)
+                        else:
+                            self.assertIsNone(sitemap_images["https://example.org" + path])
+                for name in ("parent", "override"):
+                    filename = f"/news/2024-01-01/{name}-preview.jpg"
+                    self.assertTrue((public / filename.lstrip("/")).is_file())
+                    for output in (listing, dated):
+                        self.assertNotRegex(output, r'<img[^>]*src="[^"]*/' + re.escape(name) + r'-preview\.jpg"')
+
+            # Explicit mistakes must fail even when a valid automatic cover exists.
+            overridden = parent / "override/index.md"
+            original = overridden.read_text()
+            for invalid, error in (("missing.webp", "missing.webp"),
+                                   ("images/missing.jpg", "images/missing.jpg"),
+                                   ("https://example.org/cover.jpg", "get_image_metadata")):
+                overridden.write_text(original.replace("preview_image: cover.webp", f"preview_image: {invalid}"))
+                self.build(root, expected_error=error)
+            overridden.write_text(original)
+            (parent / "parent-preview.jpg").write_bytes(b"not a valid image")
+            self.build(root, expected_error="get_image_metadata")
 
     def navigation_site(self, root):
         write(root, "config.toml", CONFIG)

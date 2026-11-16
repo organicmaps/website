@@ -123,8 +123,18 @@
      urlencode because asset filenames may hold spaces or non-ASCII. #}
   {%- set preview_image = resource.extra.preview_image -%}
   {%- if not (preview_image is containing(pat='/')) -%}
+  {%- set source_file = resource.relative_path | split(pat='/') | last -%}
+  {%- set source_dir = resource.relative_path | trim_end(pat=source_file) -%}
+  {%- set _preview_exists = get_image_metadata(path=source_dir ~ preview_image) -%}
   {%- set preview_image = resource_path ~ (preview_image | urlencode) -%}
+  {%- else -%}
+  {%- set _preview_exists = get_image_metadata(path=preview_image | trim_start(pat='/')) -%}
   {%- endif -%}
+  {%- set has_article_image = true -%}
+  {%- else -%}
+  {%- set parent_preview = <news_parent_preview resource default_language={config.default_language} /> -%}
+  {%- if parent_preview -%}
+  {%- set preview_image = parent_preview -%}
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
   {# Pick the first supported image, skipping audio/video and preserving filename case. #}
@@ -137,6 +147,7 @@
   {%- break %}
   {%- endif %}
   {%- endfor %}
+  {%- endif %}
   {%- endif %}
   <meta property="og:image" content="{{ get_url(path=preview_image) }}">
   {# TODO: Add og:video support #}

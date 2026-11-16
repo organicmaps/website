@@ -44,10 +44,21 @@ taxonomies:
 ```
 
 JPEG, PNG and WebP images stored alongside a news post are rendered automatically.
-The first supported image in filename order supplies the social preview, with
-case-insensitive extension detection. Set `extra.preview_image` to a colocated
-filename or a site-root path to choose a different preview; the sitemap includes
-explicit previews too. Telegram media discovery also recognizes `.webp` files.
+Social previews use this order:
+
+1. An explicit `extra.preview_image` (a colocated filename or site-root path).
+2. A parent-folder JPEG named `<article-folder>-preview.jpg` for a bundled news post.
+3. The first supported article image in filename order, detecting extensions case-insensitively.
+4. The default site image.
+
+For example, `content/news/2026-11-11/650-preview.jpg` is automatically used by
+`content/news/2026-11-11/650/index.md` and its translations, without any preview
+YAML. The name comes from the source folder, not the public slug. The image
+stays out of the article gallery and Telegram album. Explicit and automatic
+parent previews are included in the image sitemap. Missing explicit local
+previews stop the build instead of publishing broken image URLs.
+
+Telegram media discovery also recognizes `.webp` files.
 For shared images in `static/`, the `screenshot` component accepts WebP paths and
 reads their dimensions just as it does for JPEG and PNG.
 

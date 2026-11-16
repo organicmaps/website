@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemaps-image/0.9">
+{# Sitemap entries lack source paths. Index parent covers from the canonical
+   news inventory once, including each post's translated permalinks. #}
+{%- set_global parent_previews = [] -%}
+{%- set news = get_section(path="news/_index.md", lang=config.default_language, allow_missing=true) -%}
+{%- if news -%}
+  {%- for section_path in news.subsections -%}
+    {%- set dated = get_section(path=section_path, lang=config.default_language) -%}
+    {%- for post in dated.pages -%}
+      {%- set image = <news_parent_preview resource={post} default_language={config.default_language} /> -%}
+      {%- if image -%}
+        {%- set_global parent_previews = [...parent_previews, {"permalink": post.permalink, "image": image}] -%}
+        {%- for translation in post.translations -%}
+          {%- if translation.permalink != post.permalink -%}
+            {%- set_global parent_previews = [...parent_previews, {"permalink": translation.permalink, "image": image}] -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- set parent_previews = parent_previews | group_by(attribute="permalink") -%}
 {%- for entry in entries %}
     <url>
         <loc>{{ entry.permalink | escape_xml | safe }}</loc>
@@ -12,9 +33,7 @@
         {#- Same resolution as base.html: a bare filename is one of the page's
             own colocated assets, which Zola copies into the page's own output
             directory, so it hangs off the permalink rather than the site root. -#}
-        {%- if img is starting_with(pat='http') %}
-        {%- set img_loc = img -%}
-        {%- elif img is containing(pat='/') %}
+        {%- if img is containing(pat='/') %}
         {%- set img_loc = config.base_url ~ '/' ~ (img | trim_start(pat='/')) -%}
         {%- else %}
         {%- set img_loc = entry.permalink ~ (img | urlencode) -%}
@@ -22,6 +41,13 @@
         <image:image>
             <image:loc>{{ img_loc | escape_xml | safe }}</image:loc>
         </image:image>
+        {%- else %}
+        {%- set parent_preview = parent_previews | get(key=entry.permalink, default=[]) | first %}
+        {%- if parent_preview %}
+        <image:image>
+            <image:loc>{{ get_url(path=parent_preview.image) | escape_xml | safe }}</image:loc>
+        </image:image>
+        {%- endif %}
         {%- endif %}
     </url>
 {%- endfor %}

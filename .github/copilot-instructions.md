@@ -42,7 +42,7 @@ In content Markdown, call components with `{{ <name arguments /> }}` syntax:
 
 - `{{ <badges lang /> }}` → App store download badges
 - `{{ <screenshot src='/images/screenshots/hiking.jpg' alt='Hiking' /> }}` → Responsive image
-- Component templates remain in `templates/shortcodes/` as `.html` or `.md` files and declare their interface with `{% component ... %}`
+- Content component templates live in `templates/shortcodes/` as `.html` or `.md` files and declare their interface with `{% component ... %}`. Shared template components also live directly in `templates/`: `_news_media.html` renders news galleries and `_news_preview.html` resolves parent-folder covers.
 
 ### Resource References in Templates
 
@@ -248,7 +248,7 @@ python3 tools/translate_md.py content/news/2026-08-04/630/index.md --all
 python3 tools/translate_md.py post.md --langs ru --dry-run         # cost, no API call
 ```
 
-It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (`extra.menu_title`, the donation form's `extra.form.*` labels) needs those translated by hand. `translate_check.py` warns when one is still identical to English. It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
+It translates `title:` and `description:` **and nothing else in the frontmatter** — `extra:` is copied verbatim, so a page that keeps user-visible text there (`extra.menu_title`, the donation form's `extra.form.*` labels, news image descriptions in `extra.media_alt`) needs those translated by hand. `translate_check.py` warns when one is still identical to English, and when a translation omits an English `extra.media_alt` entry (including an empty value for a decorative image). It leaves `date:`/`slug:`/`taxonomies:` verbatim, rewrites `@/…/index.md` links to the translated page when that page exists, applies the glossary below, and runs the tidy-up passes (native quotes, brand unquoting, ellipsis, link-label hygiene, register where DeepL supports it). **Output is a draft**: wording and the expected target-language register still need the proofreading pass.
 
 Complete code blocks, comments and Tera expressions are protected before
 segmentation, and formatting that crosses a soft line break stays in one valid

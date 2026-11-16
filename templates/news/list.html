@@ -21,39 +21,17 @@
 <div class="news_date">&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format='%B %e, %Y') }}</a>&nbsp;</div>
 <h1>{{ page.title | safe }}</h1>
 {# Display wide images below the text instead of to the right. #}
-{% set_global noflex = '' %}
-{% for photo in page.assets %}
-  {% if photo is not matching(pat="\\.mp[34]$") %}
-    {% set meta = get_image_metadata(path=photo) %}
-    {# TODO: How to get dimensions of video? #}
-    {% if meta.width > meta.height %}
-      {% set_global noflex = '_noflex' %}
-      {% break %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-<div class="news_content_image{{ noflex }}">
+{% set has_landscape = <news_has_landscape resource={page} /> %}
+<div class="news_content_image{% if has_landscape %}_noflex{% endif %}">
 {% if page.content %}
   <div class="news_content">{{ page.content | safe }}</div>
 {% endif %}
 
 <span class="news_images">
-{% for media in page.assets | sort %}
-  {% if media is matching(pat="\\.mp3$") %}
-  {% elif media is matching(pat="\\.mp4$") %}
-    <video class="news_video" controls>
-      <source src="{{ page.path | safe }}{{ media | split(pat='/') | last }}" type="video/mp4">
-    </video>
-  {% else %} {# It's images #}
-    {% set meta = get_image_metadata(path=media) %}
-    <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ page.path | safe }}{{ media | split(pat='/') | last }}" />
-  {% endif %}
-{% endfor %}
+{{ <news_media resource={page} /> }}
 </span>
-
-</section>
-
 </div>
+</section>
 {% endfor %}
 {% endfor %}
 

@@ -12,9 +12,9 @@
 {% if page.content %}
   <div class="news_content">{{ page.content | safe }}</div>
 {% endif %}
-{% for photo in page.assets %}
-<img class="news_image" src="{{ page.path | safe }}{{ photo | split(pat='/') | last }}" />
-{% endfor %}
+<span class="news_images">
+{{ <news_media resource={page} /> }}
+</span>
 </div>
 {% endfor %}
 

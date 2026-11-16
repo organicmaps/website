@@ -24,7 +24,7 @@ from telegram_post import (  # noqa: E402
     validate_media_set,
     visible_text,
 )
-from translate_check import ERROR, check_translation, emphasis_faults  # noqa: E402
+from translate_check import ERROR, WARN, check_translation, emphasis_faults  # noqa: E402
 from translate_md import (  # noqa: E402
     _segments, localize_zola_links, register_ok, tidy, translate_post, translate_text,
 )
@@ -108,6 +108,46 @@ Organic Maps。
         self.assertFalse(any(p.code == "register-frontmatter"
                              for p in check_translation(
                                  source, translated.replace("Ihre", "Deine"), "de")))
+
+    def test_missing_image_descriptions_are_reported(self):
+        source = ('---\ntitle: News\nextra:\n  menu_title: News\n  media_alt:\n'
+                  '    "map.webp": Mountain trails\n    "decoration.png": ""\n'
+                  '---\n\nOrganic Maps.\n')
+        cases = {
+            "no extra": ('---\ntitle: Neuigkeiten\n---\n\nOrganic Maps.\n',
+                         ["map.webp", "decoration.png"]),
+            "no media_alt": ('---\ntitle: Neuigkeiten\nextra:\n  menu_title: Neuigkeiten\n'
+                             '---\n\nOrganic Maps.\n', ["map.webp", "decoration.png"]),
+            "empty media_alt": ('---\ntitle: Neuigkeiten\nextra:\n  media_alt: {}\n'
+                               '---\n\nOrganic Maps.\n', ["map.webp", "decoration.png"]),
+            "no frontmatter": ('Organic Maps.\n', ["map.webp", "decoration.png"]),
+            "missing decorative entry": ('---\ntitle: Neuigkeiten\nextra:\n  media_alt:\n'
+                                         '    "map.webp": Bergpfade\n---\n\nOrganic Maps.\n',
+                                         ["decoration.png"]),
+            "missing descriptive entry": ('---\ntitle: Neuigkeiten\nextra:\n  media_alt:\n'
+                                          '    "decoration.png": ""\n---\n\nOrganic Maps.\n',
+                                          ["map.webp"]),
+        }
+        for case, (translated, missing) in cases.items():
+            with self.subTest(case=case):
+                problems = check_translation(source, translated, "de")
+                warnings = [p for p in problems if p.code == "missing-media-alt"]
+                self.assertCountEqual([p.message for p in warnings],
+                                      [f"'extra.media_alt.{name}' is missing from the translation"
+                                       for name in missing])
+                self.assertTrue(all(p.level == WARN for p in warnings))
+                self.assertFalse(any(p.level == ERROR for p in problems), problems)
+
+    def test_complete_image_descriptions_preserve_empty_values_and_source_keeps(self):
+        source = ('---\ntitle: News\nextra:\n  media_alt:\n'
+                  '    "map.webp": Panorama\n    "decoration.png": ""\n'
+                  '---\n\nOrganic Maps.\n')
+        translated = source.replace("title: News", "title: Neuigkeiten")
+        self.assertEqual(check_translation(source, translated.replace("Panorama", "Berglandschaft"), "de"), [])
+        declared = translated.replace('  media_alt:', '  translation_keeps_source: ["extra.media_alt.map.webp"]\n  media_alt:')
+        self.assertEqual(check_translation(source, declared, "de"), [])
+        self.assertEqual([p.code for p in check_translation(source, translated, "de")],
+                         ["untranslated-frontmatter"])
 
     def test_sentence_initial_occitan_address_is_detected(self):
         self.assertFalse(register_ok("Vòstre pagament es estat anullat.", "oc")[0])

@@ -43,6 +43,14 @@ taxonomies:
   news: ["Press"]
 ```
 
+JPEG, PNG and WebP images stored alongside a news post are rendered automatically.
+The first supported image in filename order supplies the social preview, with
+case-insensitive extension detection. Set `extra.preview_image` to a colocated
+filename or a site-root path to choose a different preview; the sitemap includes
+explicit previews too. Telegram media discovery also recognizes `.webp` files.
+For shared images in `static/`, the `screenshot` component accepts WebP paths and
+reads their dimensions just as it does for JPEG and PNG.
+
 ## Taxonomy and F.A.Q. architecture
 
 Each MD page in `/faq/` has one or more taxonomy defined in header. E.g.:

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Test homepage links, navigation and donation templates with real Zola."""
+"""Test homepage links, navigation, images and donation templates with real Zola."""
 
+import json
 import re
 import shutil
 import subprocess
@@ -139,6 +140,89 @@ class NavigationTests(unittest.TestCase):
                         [href for href in parser.links if href in chats.values()],
                         [chats["telegram"], group],
                     )
+
+    def test_webp_images_and_previews(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write(root, "config.toml", 'base_url = "https://example.org"\n'
+                  'taxonomies = [{name = "news"}]\n'
+                  '[extra]\nrtl_languages = []\n'
+                  '[translations]\nback = "Back"\n'
+                  '[languages.de]\ntaxonomies = [{name = "news"}]\n'
+                  '[languages.de.translations]\nback = "Zurück"\n')
+            for template in ("base.html", "_jsonld_news.html", "sitemap.xml",
+                             "news/page.html", "news/list.html", "news/date_section.html",
+                             "shortcodes/screenshot.html"):
+                write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
+            for template in ("top_menu.html", "bottom_menu.html", "language_redirect.html",
+                             "faq/faq-breadcrumbs.html", "faq/github_edit_link.html"):
+                write(root, f"templates/{template}", "")
+            write(root, "templates/index.html", '{% extends "base.html" %}'
+                  '{% block content %}{{ resource.content | safe }}{% endblock %}')
+            write(root, "templates/news/single.html", "{{ term.name }}")
+            write(root, "static/main.css", "")
+            image = (ROOT / "tools/fixtures/preview-test.webp").read_bytes()
+            (root / "static/images").mkdir()
+            (root / "static/images/map.WEBP").write_bytes(image)
+            for suffix in ("", ".de"):
+                write(root, f"content/_index{suffix}.md", '---\ntitle: Home\n---\n'
+                      '{{ <screenshot src="/images/map.WEBP" alt="Map" /> }}\n')
+                write(root, f"content/news/_index{suffix}.md", '---\ntitle: News\n'
+                      'render: false\npage_template: news/page.html\n---\n')
+                write(root, f"content/news/2024-01-01/_index{suffix}.md", '---\ntitle: News\n'
+                      'template: news/date_section.html\nsort_by: date\n---\n')
+                for name, extra in (("auto", ""), ("chosen", "extra:\n  preview_image: cover.webp\n"),
+                                    ("fallback", "")):
+                    slug = name if not suffix else f"{name}-de"
+                    write(root, f"content/news/2024-01-01/{name}/index{suffix}.md",
+                          f'---\ntitle: {name}\ndate: 2024-01-01\nslug: {slug}\n'
+                          f'taxonomies:\n  news: ["Releases"]\n{extra}---\nNews.\n')
+            for name in ("auto", "chosen", "fallback"):
+                folder = root / "content/news/2024-01-01" / name
+                (folder / "00-video.mp4").write_bytes(b"video")
+                if name != "fallback":
+                    (folder / "01-preview.WEBP").write_bytes(image)
+                    (folder / "02-detail.webp").write_bytes(image)
+                if name == "chosen":
+                    (folder / "cover.webp").write_bytes(image)
+
+            self.build(root)
+            public = root / "public"
+            sitemap = (public / "sitemap.xml").read_text()
+            for prefix, suffix in (("", ""), ("/de", "-de")):
+                home = (public / prefix.strip("/") / "index.html").read_text()
+                self.assertIn('src="/images/map.WEBP"', home)
+                self.assertIn('width="2" height="1"', home)
+                listing = (public / prefix.strip("/") / "news/index.html").read_text()
+                dated = (public / prefix.strip("/") / "news/2024-01-01/index.html").read_text()
+                for name, preview in (("auto", "01-preview.WEBP"), ("chosen", "cover.webp"),
+                                      ("fallback", None)):
+                    with self.subTest(language=prefix or "en", post=name):
+                        path = f"{prefix}/news/2024-01-01/{name}{suffix}/"
+                        html = (public / path.strip("/") / "index.html").read_text()
+                        expected = (f"https://example.org{path}{preview}" if preview else
+                                    "https://example.org/images/screenshots/prague.jpg")
+                        self.assertIn(f'<meta property="og:image" content="{expected}">', html)
+                        article = json.loads(re.search(
+                            r'<script type="application/ld\+json">(.*?)</script>', html, re.S,
+                        ).group(1))
+                        if preview:
+                            self.assertEqual(article["image"], [expected])
+                            for filename in ("01-preview.WEBP", "02-detail.webp"):
+                                self.assertTrue((public / path.strip("/") / filename).is_file())
+                                for output in (html, listing):
+                                    self.assertIn(f'class="news_image_landscape" src="{path}{filename}"', output)
+                                self.assertIn(f'src="{path}{filename}"', dated)
+                                image_tag = re.search(
+                                    r'<img\b[^>]*src="' + re.escape(path + filename) + r'"[^>]*>', html,
+                                ).group(0)
+                                self.assertIn('width="2" height="1"', image_tag)
+                                self.assertRegex(image_tag, r'loading="(?:eager|lazy)"')
+                                self.assertIn('decoding="async"', image_tag)
+                        else:
+                            self.assertNotIn("image", article)
+                        if name == "chosen":
+                            self.assertIn(f"<image:loc>{expected}</image:loc>", sitemap)
 
     def navigation_site(self, root):
         write(root, "config.toml", CONFIG)

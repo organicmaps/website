@@ -127,11 +127,16 @@
   {%- endif -%}
   {%- set has_article_image = true -%}
   {%- elif resource.assets %}
-  {%- set basename = resource.assets[0] | split(pat='/') | last %}
-  {%- if basename is ending_with(pat='.jpg') or basename is ending_with(pat='.jpeg') or basename is ending_with(pat='.png') or basename is ending_with(pat='.webp') %}
-  {%- set preview_image = resource_path ~ (basename | urlencode) -%}
-  {%- set has_article_image = true -%}
+  {# Pick the first supported image, skipping audio/video and preserving filename case. #}
+  {%- for asset in resource.assets | sort %}
+  {%- set basename = asset | split(pat='/') | last %}
+  {%- set extension = basename | split(pat='.') | last | lower %}
+  {%- if extension in ['jpg', 'jpeg', 'png', 'webp'] %}
+  {%- set_global preview_image = resource_path ~ (basename | urlencode) -%}
+  {%- set_global has_article_image = true -%}
+  {%- break %}
   {%- endif %}
+  {%- endfor %}
   {%- endif %}
   <meta property="og:image" content="{{ get_url(path=preview_image) }}">
   {# TODO: Add og:video support #}

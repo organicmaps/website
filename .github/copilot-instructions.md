@@ -209,7 +209,7 @@ Pure CSS dropdown using hidden checkbox trick (`input.lang-menu-trigger`). JavaS
 
 ### Preview Images
 
-OpenGraph images auto-detected from `resource.extra.preview_image` or first asset in `resource.assets[]`, fallback to `images/screenshots/prague.jpg`.
+OpenGraph images use `resource.extra.preview_image`, otherwise the first JPEG/PNG/WebP asset in sorted filename order, falling back to `images/screenshots/prague.jpg`.
 
 ### Matching substrings in templates
 

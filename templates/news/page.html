@@ -29,7 +29,7 @@
   {% elif media is ending_with(pat=".mp3") %}
   {% else %} {# Match remaining file types as images #}
   {% set meta = get_image_metadata(path=media) %}
-  <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ resource_path | safe }}{{ media | split(pat='/') | last }}" />
+  <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ resource_path | safe }}{{ media | split(pat='/') | last }}" width="{{ meta.width }}" height="{{ meta.height }}" loading="{% if loop.first %}eager{% else %}lazy{% endif %}" decoding="async" />
   {% endif %}
 {% endfor %}
 

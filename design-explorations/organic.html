@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en" data-direction="organic">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team — Organic Maps</title>
+<!--
+  Exploration 4: "Organic". The team as a bookmark list in Organic Maps.
+  A static prototype, not wired into Zola.
+
+  Every colour comes from the app (see the organic block in tokens.css): the
+  map is a made-up town drawn in the light map style, people are the app's
+  own bookmark pins in the bookmark colours, the list copies the bookmark
+  list's grouping, dividers and green toolbar without its rounded cards.
+
+  Districts are directions (1 Android, 2 iOS, 3 C++ core, 4 Map data,
+  5 Design, 6 Community); the founders stand in the town centre. A person's
+  pin goes to the district of their first direction, in the next free slot
+  of a ring around the district label, so the map grows with the team. The
+  places are invented on purpose: the data has no locations.
+
+  Data: content/team/index.md, extra.founders / extra.members / extra.contributors,
+  plus a new per-person key, lines (derived from role here).
+
+  Wiring to keep when this replaces the page: templates/team.html (route
+  /team/, template: team.html), templates/_team_card.html, the
+  "team/index.md" entry in templates/top_menu.html, tools/test_navigation.py.
+
+  Onest comes from Google Fonts here. The site's CSP is font-src 'self', so
+  the real page must self-host it (OFL).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;800&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--color-surface); color: var(--color-ink); }
+body { margin: 0; font: 400 var(--step-0)/var(--leading-text) var(--font-text); }
+a { color: var(--color-link); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+:focus-visible { outline: 3px solid var(--color-link); outline-offset: 2px; }
+
+/* Toolbar: the app's green bar with the list's name. */
+.toolbar { background: var(--color-toolbar); color: #fff; padding: var(--space-4) var(--grid-margin) var(--space-5); }
+.toolbar a { color: inherit; }
+.toolbar :focus-visible { outline-color: #fff; }
+.brand { display: inline-flex; align-items: center; gap: var(--space-2); font-weight: 600; text-decoration: none; }
+.brand img { width: 28px; height: 28px; }
+h1 { margin: var(--space-5) 0 0; font: 800 var(--step-4)/1.02 var(--font-display); letter-spacing: -0.02em; }
+.meta { margin: var(--space-2) 0 0; font-size: var(--step--1); opacity: 0.85; }
+
+/* Map. The town is drawn past the viewBox, so a wide or tall frame shows
+   more town instead of empty margins. */
+.map-frame { position: relative; overflow: hidden; background: var(--color-map); aspect-ratio: 6 / 5; }
+.map { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.m-meadow { fill: var(--map-meadow); } .m-forest { fill: var(--color-forest); } .m-field { fill: var(--map-field); }
+.m-water { fill: var(--color-water); } .m-river { fill: none; stroke: var(--color-water); stroke-width: 24; stroke-linecap: round; }
+.m-casing { fill: none; stroke: var(--map-casing); stroke-linecap: round; }
+.m-street { fill: none; stroke: var(--map-street); stroke-width: 7; stroke-linecap: round; }
+.m-street-casing { stroke-width: 9.5; }
+.m-primary { fill: none; stroke: var(--map-primary); stroke-width: 9; stroke-linecap: round; }
+.m-primary-casing { stroke-width: 12; stroke: #d0661c; }
+.m-ring { fill: none; stroke: var(--map-secondary); stroke-width: 7; }
+.m-ring-casing { fill: none; stroke: #d39220; stroke-width: 9.5; }
+.m-rail { fill: none; stroke: var(--map-railway); stroke-width: 4; }
+.m-rail-dash { fill: none; stroke: #eee; stroke-width: 2; stroke-dasharray: 10 10; }
+.m-path { fill: none; stroke: var(--map-path); stroke-width: 2; stroke-dasharray: 6 5; }
+.m-building { fill: var(--map-building); stroke: var(--map-building-line); stroke-width: 0.8; }
+.label { font-family: var(--font-display); paint-order: stroke; stroke: var(--map-halo); stroke-linejoin: round; }
+.label-town { font-size: 30px; font-weight: 800; fill: var(--map-label); stroke-width: 5px; text-anchor: middle; }
+.label-district { font-size: 15px; font-weight: 600; fill: var(--map-label-light); stroke-width: 4px; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.14em; }
+.label-count { font-size: 12px; font-weight: 500; fill: var(--map-label-light); stroke-width: 3px; text-anchor: middle; }
+.pin-body { transform-box: fill-box; transform-origin: 50% 100%; }
+.row-pin g { transform: none; }
+.pin-name { font: 600 15px/1 var(--font-display); fill: var(--map-label); paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+.pin-open .pin-body { opacity: 0.9; }
+
+/* The selected bookmark grows, as it does in the app. */
+.team:has(.row[data-id="biodranik"]:is(:hover, :focus-within)) .pin[data-for="biodranik"] .pin-body,
+.team:has(.row[data-id="vng"]:is(:hover, :focus-within)) .pin[data-for="vng"] .pin-body,
+.team:has(.row[data-id="kirylkaveryn"]:is(:hover, :focus-within)) .pin[data-for="kirylkaveryn"] .pin-body,
+.team:has(.row[data-id="strider-dunadan"]:is(:hover, :focus-within)) .pin[data-for="strider-dunadan"] .pin-body { scale: 1.3; }
+.team:has(.row[data-id="biodranik"]:is(:hover, :focus-within)) .pin[data-for="biodranik"] .pin-name,
+.team:has(.row[data-id="vng"]:is(:hover, :focus-within)) .pin[data-for="vng"] .pin-name,
+.team:has(.row[data-id="kirylkaveryn"]:is(:hover, :focus-within)) .pin[data-for="kirylkaveryn"] .pin-name,
+.team:has(.row[data-id="strider-dunadan"]:is(:hover, :focus-within)) .pin[data-for="strider-dunadan"] .pin-name { font-weight: 800; font-size: 17px; }
+/* A crowded map keeps names for the selected pin only. */
+.team:has(.row:nth-of-type(13)) .pin-name { display: none; }
+.team:has(.row[data-id="biodranik"]:is(:hover, :focus-within)) .pin[data-for="biodranik"] .pin-name,
+.team:has(.row[data-id="vng"]:is(:hover, :focus-within)) .pin[data-for="vng"] .pin-name,
+.team:has(.row[data-id="kirylkaveryn"]:is(:hover, :focus-within)) .pin[data-for="kirylkaveryn"] .pin-name,
+.team:has(.row[data-id="strider-dunadan"]:is(:hover, :focus-within)) .pin[data-for="strider-dunadan"] .pin-name { display: inline; }
+
+/* List: grouped like the app's bookmark list. */
+.panel { background: var(--color-surface); }
+.intro { margin: 0; padding: var(--space-5) var(--grid-margin); max-width: var(--measure); font-size: var(--step-1); line-height: 1.4; }
+.group-title, .section-title { margin: 0; padding: var(--space-2) var(--grid-margin); background: var(--color-window); color: var(--color-ink-2); font: 600 13px/1.6 var(--font-text); letter-spacing: 0.06em; text-transform: uppercase; }
+.group-lead { margin: 0; padding: var(--space-3) var(--grid-margin) 0; color: var(--color-ink-2); font-size: var(--step--1); }
+.rows, .dirs { list-style: none; margin: 0; padding: 0; }
+.row { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: var(--space-4); padding: var(--space-4) var(--grid-margin); border-bottom: 1px solid var(--color-divider); }
+.row:last-child { border-bottom: 0; }
+.row:hover, .row:focus-within { background: color-mix(in srgb, var(--color-window) 60%, #fff); }
+.row-pin { width: 34px; height: 48px; }
+.row-name { margin: 0; font: 600 var(--step-1)/1.2 var(--font-display); }
+.row-name a { color: inherit; }
+.row-sub { margin: 2px 0 0; color: var(--color-ink-2); font-size: var(--step--1); }
+.row-bio { margin: var(--space-2) 0 0; }
+.row-links { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); margin: var(--space-2) 0 0; font-weight: 500; overflow-wrap: anywhere; }
+.dir { white-space: nowrap; }
+.dot { display: inline-block; width: 9px; height: 9px; margin-right: 5px; background: var(--c); transform: rotate(45deg) translateY(-1px); }
+.row.open .row-name a { color: var(--color-link); }
+
+/* Contributors: one compact line each. */
+.group-contributors .row { grid-template-columns: 20px minmax(0, 1fr); align-items: center; padding-block: var(--space-2); }
+.group-contributors .row-pin { width: 20px; height: 28px; }
+.group-contributors .row-name { font-size: var(--step-0); }
+.group-contributors .row-links { margin-top: 0; font-size: var(--step--1); }
+.dirs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3) var(--space-4); padding: var(--space-4) var(--grid-margin) var(--space-5); }
+.dirs li { display: grid; grid-template-columns: 16px minmax(0, 1fr); align-items: center; gap: var(--space-2); }
+.dirs .row-pin { width: 16px; height: 23px; }
+.dirs span { display: block; font-weight: 500; }
+.dirs small { display: block; color: var(--color-ink-2); font-size: var(--step--1); }
+
+.community { padding: 0 0 var(--space-7); }
+.community h2 { margin: 0; padding: var(--space-6) var(--grid-margin) 0; font: 800 var(--step-2)/1.15 var(--font-display); }
+.community p { margin: var(--space-3) 0 0; padding-inline: var(--grid-margin); max-width: calc(var(--measure) + 2 * var(--grid-margin)); }
+.community .links { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-5); font-weight: 500; }
+
+/* Phone and tablet: toolbar, then the map, then the list. */
+@media (max-width: 1119px) {
+  .team { display: flex; flex-direction: column; }
+  .side { display: contents; }
+  .toolbar { order: 0; }
+  .map-col { order: 1; }
+  .panel { order: 2; }
+}
+
+@media (max-width: 719px) {
+  .pin-body { scale: 1.3; }
+  .team:has(.row[data-id="biodranik"]:is(:hover, :focus-within)) .pin[data-for="biodranik"] .pin-body,
+  .team:has(.row[data-id="vng"]:is(:hover, :focus-within)) .pin[data-for="vng"] .pin-body,
+  .team:has(.row[data-id="kirylkaveryn"]:is(:hover, :focus-within)) .pin[data-for="kirylkaveryn"] .pin-body,
+  .team:has(.row[data-id="strider-dunadan"]:is(:hover, :focus-within)) .pin[data-for="strider-dunadan"] .pin-body { scale: 1.7; }
+  .pin-name { display: none; }
+  .label-district { font-size: 34px; stroke-width: 7px; }
+  .label-town { font-size: 52px; stroke-width: 8px; }
+  .label-count { display: none; }
+}
+
+@media (min-width: 1120px) {
+  .team { display: grid; grid-template-columns: 440px minmax(0, 1fr); min-height: 100vh; }
+  .side { border-right: 1px solid var(--color-divider); }
+  .map-col { position: relative; overflow: clip; background: var(--color-map); }
+  .map-frame { position: sticky; top: 0; height: 100vh; aspect-ratio: auto; overflow: visible; }
+  .toolbar { padding-inline: var(--space-6); }
+  .intro, .group-title, .section-title, .group-lead, .row, .dirs, .community h2, .community p { padding-inline: var(--space-6); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .pin { animation: drop 520ms var(--ease) both; animation-delay: calc(250ms + var(--i, 0) * 90ms); }
+  @keyframes drop { from { opacity: 0; translate: 0 -40px; } }
+  .pin-body { transition: scale var(--dur-short) var(--ease); }
+}
+</style>
+</head>
+<body>
+<div class="team">
+  <div class="side">
+    <header class="toolbar">
+      <a class="brand" href="/"><img src="../static/logos/white-on-transparent.svg" alt="" width="28" height="28"><span>Organic Maps</span></a>
+      <h1>The people behind Organic Maps</h1>
+      <p class="meta">4 people · 6 directions</p>
+    </header>
+
+    <main class="panel">
+      <p class="intro">We are a small team of enthusiasts building a free, open-source maps app that works offline, shows no ads and does not track you.</p>
+
+      <section aria-labelledby="dirs-title">
+        <h2 class="section-title" id="dirs-title">Directions</h2>
+        <ul class="dirs">
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-1)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>Android</span><small>1 person</small></div></li>
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-2)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>iOS</span><small>1 person</small></div></li>
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-3)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>C++ core</span><small>Open</small></div></li>
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-4)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>Map data</span><small>Open</small></div></li>
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-5)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>Design</span><small>Open</small></div></li>
+          <li><svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-6)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            
+          </g></svg><div><span>Community</span><small>Open</small></div></li>
+        </ul>
+      </section>
+
+      <section class="group group-founders" aria-labelledby="founders-title">
+        <h2 class="group-title" id="founders-title">Founders</h2>
+        <ul class="rows">
+          <li class="row" data-id="biodranik">
+            <svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-founders)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/biodranik.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></svg>
+            <div class="row-text">
+              <h3 class="row-name">Alexander Borsuk</h3>
+              <p class="row-sub">Co-founder<span class="sep" aria-hidden="true"> · </span>All directions</p>
+              <p class="row-bio">Co-founder of Organic Maps and creator of MAPS.ME.</p>
+              <p class="row-links">
+              <a href="https://github.com/biodranik" rel="noopener" target="_blank">@biodranik</a>
+              <a href="https://alex.bio/" rel="noopener" target="_blank">Website</a>
+              </p>
+            </div>
+          </li>
+          <li class="row" data-id="vng">
+            <svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-founders)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/vng.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></svg>
+            <div class="row-text">
+              <h3 class="row-name">Viktor Havaka</h3>
+              <p class="row-sub">Co-founder<span class="sep" aria-hidden="true"> · </span>All directions</p>
+              <p class="row-bio">Co-founder of Organic Maps. Worked on MAPS.ME before that.</p>
+              <p class="row-links">
+              <a href="https://github.com/vng" rel="noopener" target="_blank">@vng</a>
+              <a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">LinkedIn</a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="group group-core" aria-labelledby="core-title">
+        <h2 class="group-title" id="core-title">Core team</h2>
+        <ul class="rows">
+          <li class="row" data-id="kirylkaveryn">
+            <svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-2)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/kirylkaveryn.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></svg>
+            <div class="row-text">
+              <h3 class="row-name">Kiryl Kaveryn</h3>
+              <p class="row-sub">iOS</p>
+              <p class="row-bio">The team's iOS expert, working across the whole iOS app.</p>
+              <p class="row-links">
+              <a href="https://github.com/kirylkaveryn" rel="noopener" target="_blank">@kirylkaveryn</a>
+              </p>
+            </div>
+          </li>
+          <li class="row" data-id="strider-dunadan">
+            <svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><g transform="">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-1)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/strider-dunadan.png" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></svg>
+            <div class="row-text">
+              <h3 class="row-name">Mikhail Listratsenka</h3>
+              <p class="row-sub">Android &amp; Wear OS</p>
+              <p class="row-bio">Works across the whole Android app and the Wear OS watch app.</p>
+              <p class="row-links">
+              <a href="https://github.com/strider-dunadan" rel="noopener" target="_blank">@strider-dunadan</a>
+              <a href="https://www.linkedin.com/in/mikhail-listratsenka-395798115/" rel="noopener" target="_blank">LinkedIn</a>
+              </p>
+            </div>
+          </li>
+          <li class="row open">
+            <svg class="row-pin" viewBox="-1 -1 23 32" aria-hidden="true" focusable="false"><path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="#fff" stroke="var(--color-ink-2)" stroke-width="0.9" stroke-dasharray="2 1.6"/><path d="M10.5 6.5v8M6.5 10.5h8" stroke="var(--color-ink-2)" stroke-width="1.4"/></svg>
+            <div class="row-text">
+              <h3 class="row-name"><a href="/contribute/">This could be you</a></h3>
+              <p class="row-bio">Code, translations, map edits or helping other users — every contribution counts.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="community" aria-labelledby="community-title">
+        <h2 id="community-title">Built together with the community</h2>
+        <p>Organic Maps would not exist without volunteers from all over the world: developers who send fixes, translators, testers, and OpenStreetMap mappers who keep the map up to date.</p>
+        <p class="links">
+          <a href="https://github.com/organicmaps/organicmaps/graphs/contributors" rel="noopener" target="_blank">See everyone who contributed</a>
+          <a href="/contribute/">Find out how you can help</a>
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <div class="map-col">
+    <div class="map-frame">
+      <svg class="map" viewBox="0 0 1200 1000" aria-hidden="true" focusable="false">
+        <defs><clipPath id="pin-head"><circle cx="10.5" cy="10.5" r="7.3"/></clipPath></defs>
+        <rect x="-1400" y="-1000" width="4000" height="4000" fill="var(--color-map)"/>
+        <!-- Land cover -->
+        <path class="m-meadow" d="M-900 160 C -300 120, -40 200, 70 330 S 60 470, -120 500 S -700 480, -900 470 Z"/>
+        <path class="m-forest" d="M-1400 -1000 H 520 C 560 -620, 470 -260, 420 -60 C 380 70, 210 90, 120 40 C -60 -60, -300 20, -1400 40 Z"/>
+        <path class="m-forest" d="M560 -1000 H 2600 V 120 C 1500 160, 1250 60, 1130 40 C 1000 20, 930 70, 860 20 C 760 -40, 640 -40, 600 -180 Z"/>
+        <path class="m-forest" d="M1060 660 C 1180 640, 1500 690, 2600 640 V 3000 H 1000 C 1040 2000, 980 1400, 980 1060 C 980 900, 960 720, 1060 660 Z"/>
+        <path class="m-forest" d="M-1400 620 C -400 600, 0 600, 110 660 C 200 710, 190 830, 140 920 C 90 1020, 160 1300, 120 3000 H -1400 Z"/>
+        <path class="m-field" d="M470 900 C 560 880, 690 900, 720 960 C 750 1040, 720 1300, 760 3000 H 260 C 300 1600, 260 1200, 300 1040 C 320 960, 390 920, 470 900 Z"/>
+        <path class="m-meadow" d="M1150 380 C 1300 360, 1700 420, 2600 400 V 560 C 1700 600, 1300 560, 1160 520 C 1110 500, 1100 400, 1150 380 Z"/>
+        <path class="m-water" d="M890 250 C 880 160, 990 110, 1070 140 C 1150 170, 1190 240, 1160 310 C 1130 380, 1030 400, 960 370 C 910 350, 895 300, 890 250 Z"/>
+        <path class="m-river" d="M960 360 C 860 430, 790 610, 650 650 C 520 690, 420 640, 300 700 C 180 760, 60 900, -600 960"/>
+        <!-- Rail and paths -->
+        <path class="m-rail" d="M-1400 380 C -200 360, 200 360, 420 370 C 700 382, 900 330, 2600 300"/>
+        <path class="m-rail-dash" d="M-1400 380 C -200 360, 200 360, 420 370 C 700 382, 900 330, 2600 300"/>
+        <path class="m-path" d="M830 860 C 900 920, 1000 900, 1080 960 S 1200 1080, 1300 1120 S 1500 1300, 1700 1500"/>
+        <path class="m-path" d="M330 230 C 250 150, 300 60, 220 -20 S 60 -160, -100 -300"/>
+        <!-- Streets of the town and the districts -->
+        <g class="m-casing m-street-casing"><path d="M456 437V563M498 398V602M540 379V621M582 371V629M624 371V629M666 381V619M708 402V598M750 446V554M510 391H690M459 433H741M438 475H762M436 517H764M453 559H747M496 601H704M154 487V565M192 469V583M230 467V585M268 481V571M157 485H273M135 523H295M150 561H280M269 217V295M307 199V313M345 197V315M383 211V301M272 215H388M250 253H410M265 291H395M674 152V230M712 134V248M750 132V250M788 146V236M677 150H793M655 188H815M670 226H800M914 542V620M952 524V638M990 522V640M1028 536V626M917 540H1033M895 578H1055M910 616H1040M769 797V875M807 779V893M845 777V895M883 791V881M772 795H888M750 833H910M765 871H895M294 782V860M332 764V878M370 762V880M408 776V866M297 780H413M275 818H435M290 856H420"/></g>
+        <g class="m-street"><path d="M456 437V563M498 398V602M540 379V621M582 371V629M624 371V629M666 381V619M708 402V598M750 446V554M510 391H690M459 433H741M438 475H762M436 517H764M453 559H747M496 601H704M154 487V565M192 469V583M230 467V585M268 481V571M157 485H273M135 523H295M150 561H280M269 217V295M307 199V313M345 197V315M383 211V301M272 215H388M250 253H410M265 291H395M674 152V230M712 134V248M750 132V250M788 146V236M677 150H793M655 188H815M670 226H800M914 542V620M952 524V638M990 522V640M1028 536V626M917 540H1033M895 578H1055M910 616H1040M769 797V875M807 779V893M845 777V895M883 791V881M772 795H888M750 833H910M765 871H895M294 782V860M332 764V878M370 762V880M408 776V866M297 780H413M275 818H435M290 856H420"/></g>
+        <!-- Ring road and the six roads out of the centre -->
+        <ellipse class="m-ring-casing" cx="600" cy="500" rx="215" ry="170"/>
+        <ellipse class="m-ring" cx="600" cy="500" rx="215" ry="170"/>
+        <path class="m-casing m-primary-casing" d="M600 500 Q 409.9 556.2 215 520 T -632 564"/><path class="m-casing m-primary-casing" d="M600 500 Q 435 407.4 330 250 T -264 -300"/><path class="m-casing m-primary-casing" d="M600 500 Q 629.7 326.3 735 185 T 1032 -508"/><path class="m-casing m-primary-casing" d="M600 500 Q 796.5 492.5 975 575 T 1800 740"/><path class="m-casing m-primary-casing" d="M600 500 Q 754.6 637.4 830 830 T 1336 1556"/><path class="m-casing m-primary-casing" d="M600 500 Q 515.3 686.9 355 815 T -184 1508"/>
+        <path class="m-primary" d="M600 500 Q 409.9 556.2 215 520 T -632 564"/><path class="m-primary" d="M600 500 Q 435 407.4 330 250 T -264 -300"/><path class="m-primary" d="M600 500 Q 629.7 326.3 735 185 T 1032 -508"/><path class="m-primary" d="M600 500 Q 796.5 492.5 975 575 T 1800 740"/><path class="m-primary" d="M600 500 Q 754.6 637.4 830 830 T 1336 1556"/><path class="m-primary" d="M600 500 Q 515.3 686.9 355 815 T -184 1508"/>
+        <!-- Buildings -->
+        <g class="m-building"><rect x="470" y="451" width="20" height="12"/><rect x="472.5" y="475.5" width="15" height="11"/><rect x="471.5" y="522" width="17" height="14"/><rect x="470.5" y="547.5" width="19" height="11"/><rect x="500.5" y="475" width="19" height="12"/><rect x="501.5" y="547.5" width="17" height="11"/><rect x="499" y="570" width="22" height="14"/><rect x="530.5" y="402.5" width="19" height="13"/><rect x="532.5" y="474.5" width="15" height="13"/><rect x="530" y="523" width="20" height="12"/><rect x="560.5" y="402" width="19" height="14"/><rect x="559" y="569.5" width="22" height="15"/><rect x="559.5" y="594" width="21" height="14"/><rect x="592" y="379" width="16" height="12"/><rect x="591.5" y="427.5" width="17" height="11"/><rect x="591.5" y="451.5" width="17" height="11"/><rect x="590" y="521.5" width="20" height="15"/><rect x="591" y="546.5" width="18" height="13"/><rect x="591" y="570.5" width="18" height="13"/><rect x="590.5" y="593" width="19" height="16"/><rect x="621.5" y="474.5" width="17" height="13"/><rect x="621.5" y="570.5" width="17" height="13"/><rect x="621.5" y="594.5" width="17" height="13"/><rect x="651.5" y="402" width="17" height="14"/><rect x="650" y="425.5" width="20" height="15"/><rect x="652.5" y="474.5" width="15" height="13"/><rect x="652.5" y="522" width="15" height="14"/><rect x="649" y="546.5" width="22" height="13"/><rect x="680" y="426.5" width="20" height="13"/><rect x="682" y="452" width="16" height="10"/><rect x="681.5" y="476" width="17" height="10"/><rect x="681.5" y="546.5" width="17" height="13"/><rect x="680" y="569.5" width="20" height="15"/><rect x="711" y="473.5" width="18" height="15"/><rect x="710" y="498.5" width="20" height="13"/><rect x="163" y="491.4" width="20" height="10"/><rect x="163.5" y="534.6999999999999" width="19" height="13"/><rect x="166" y="558.5999999999999" width="14" height="10"/><rect x="191" y="535.6999999999999" width="20" height="11"/><rect x="191.5" y="557.0999999999999" width="19" height="13"/><rect x="219" y="490.4" width="20" height="12"/><rect x="218" y="534.6999999999999" width="22" height="13"/><rect x="218.5" y="558.0999999999999" width="21" height="11"/><rect x="247" y="488.9" width="20" height="15"/><rect x="246.5" y="536.1999999999999" width="21" height="10"/><rect x="246.5" y="557.5999999999999" width="21" height="12"/><rect x="279.5" y="241.3" width="17" height="15"/><rect x="277" y="264.2" width="22" height="14"/><rect x="308" y="265.7" width="16" height="11"/><rect x="335.5" y="218.4" width="17" height="16"/><rect x="364.5" y="241.8" width="15" height="14"/><rect x="686" y="154.4" width="14" height="14"/><rect x="684" y="176.3" width="18" height="15"/><rect x="682.5" y="200.20000000000002" width="21" height="12"/><rect x="682.5" y="222.60000000000002" width="21" height="12"/><rect x="713" y="156.4" width="16" height="10"/><rect x="741" y="201.20000000000002" width="16" height="10"/><rect x="740" y="222.60000000000002" width="18" height="12"/><rect x="768.5" y="154.9" width="17" height="13"/><rect x="769" y="221.10000000000002" width="16" height="15"/><rect x="925.5" y="612.0999999999999" width="15" height="13"/><rect x="950.5" y="543.9" width="21" height="15"/><rect x="952" y="589.1999999999999" width="18" height="14"/><rect x="952" y="613.5999999999999" width="18" height="10"/><rect x="980.5" y="545.9" width="17" height="11"/><rect x="980.5" y="589.6999999999999" width="17" height="13"/><rect x="1007" y="545.9" width="20" height="11"/><rect x="1007.5" y="612.5999999999999" width="19" height="12"/><rect x="778.5" y="799.9" width="19" height="13"/><rect x="779.5" y="820.8" width="17" height="16"/><rect x="779.5" y="844.6999999999999" width="17" height="13"/><rect x="778" y="867.5999999999999" width="20" height="12"/><rect x="808.5" y="845.6999999999999" width="15" height="11"/><rect x="806.5" y="867.5999999999999" width="19" height="12"/><rect x="835.5" y="801.4" width="17" height="10"/><rect x="865" y="798.4" width="14" height="16"/><rect x="864.5" y="823.8" width="15" height="10"/><rect x="303.5" y="806.8" width="19" height="14"/><rect x="332.5" y="786.4" width="17" height="10"/><rect x="360" y="830.6999999999999" width="18" height="11"/><rect x="360.5" y="851.0999999999999" width="17" height="15"/><rect x="386" y="851.0999999999999" width="22" height="15"/></g>
+        <!-- Labels -->
+        <text class="label label-town" x="600" y="546">Organic Maps</text>
+        <text class="label label-district" x="215" y="548">Android</text>
+        <text class="label label-district" x="330" y="278">iOS</text>
+        <text class="label label-district" x="735" y="213">C++ core</text>
+        <text class="label label-district" x="975" y="603">Map data</text>
+        <text class="label label-district" x="830" y="858">Design</text>
+        <text class="label label-district" x="355" y="843">Community</text>
+        <!-- Pins -->
+        <g class="pin pin-open" transform="translate(735 163)">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)"><path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="#fff" stroke="var(--color-ink-2)" stroke-width="0.9" stroke-dasharray="2 1.6"/><path d="M10.5 6.5v8M6.5 10.5h8" stroke="var(--color-ink-2)" stroke-width="1.4"/></g></g>
+        </g>
+        <g class="pin pin-open" transform="translate(975 553)">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)"><path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="#fff" stroke="var(--color-ink-2)" stroke-width="0.9" stroke-dasharray="2 1.6"/><path d="M10.5 6.5v8M6.5 10.5h8" stroke="var(--color-ink-2)" stroke-width="1.4"/></g></g>
+        </g>
+        <g class="pin pin-open" transform="translate(830 808)">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)"><path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="#fff" stroke="var(--color-ink-2)" stroke-width="0.9" stroke-dasharray="2 1.6"/><path d="M10.5 6.5v8M6.5 10.5h8" stroke="var(--color-ink-2)" stroke-width="1.4"/></g></g>
+        </g>
+        <g class="pin pin-open" transform="translate(355 793)">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)"><path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="#fff" stroke="var(--color-ink-2)" stroke-width="0.9" stroke-dasharray="2 1.6"/><path d="M10.5 6.5v8M6.5 10.5h8" stroke="var(--color-ink-2)" stroke-width="1.4"/></g></g>
+        </g>
+        <g class="pin" data-for="biodranik" transform="translate(552 472)" style="--i:0">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-founders)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/biodranik.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></g>
+          <text class="pin-name" x="-32" y="-52" text-anchor="end">Alexander Borsuk</text>
+        </g>
+        <g class="pin" data-for="vng" transform="translate(648 482)" style="--i:1">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-founders)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/vng.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></g>
+          <text class="pin-name" x="32" y="-52">Viktor Havaka</text>
+        </g>
+        <g class="pin" data-for="kirylkaveryn" transform="translate(330 228)" style="--i:2">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-2)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/kirylkaveryn.jpg" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></g>
+          <text class="pin-name" x="32" y="-52">Kiryl Kaveryn</text>
+        </g>
+        <g class="pin" data-for="strider-dunadan" transform="translate(215 498)" style="--i:3">
+          <g class="pin-body"><g transform="translate(-27.3 -78) scale(2.6)">
+            <path d="m10.5 1c5.2629 0 9.4999 4.242 9.5 9.4746-0.0083 2.5763-1.0654 5.0381-2.9277 6.8184-2.8606 2.7598-7.4159 4.3931-4.7988 8.4316 0.22302 0.34368 0.34173 0.7446 0.3418 1.1543-5.5e-5 1.1714-0.94381 2.121-2.1152 2.1211-1.1714-5.5e-5 -2.1152-0.94967-2.1152-2.1211 6.83e-5 -0.4097 0.11878-0.81061 0.3418-1.1543 2.6171-4.0385-1.9382-5.6718-4.7988-8.4316-1.8623-1.7802-2.9194-4.242-2.9277-6.8184 5.52e-5 -5.2327 4.2371-9.4746 9.5-9.4746z" fill="var(--pin-1)" stroke="#fff" stroke-width="1.4" paint-order="stroke"/>
+            <image href="../content/team/strider-dunadan.png" x="3" y="3" width="15" height="15" clip-path="url(#pin-head)" preserveAspectRatio="xMidYMid slice"/>
+          </g></g>
+          <text class="pin-name" x="32" y="-52">Mikhail Listratsenka</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+</body>
+</html>

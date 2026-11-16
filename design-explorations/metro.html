@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en" data-direction="metro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team — Organic Maps</title>
+<!--
+  Exploration 1 of 3: "Metro". A static prototype, not wired into Zola.
+
+  Data: content/team/index.md, extra.founders / extra.members / extra.contributors,
+  the intro above the "team" marker comment and the community note below it.
+  One key is new: lines (1 Android, 2 iOS, 3 C++ core, 4 Map data, 5 Design,
+  6 Community). Here it is derived from role; founders are the interchange
+  of every line.
+
+  Every stop has the same markup. CSS draws stations from data-lines, sizes
+  the interchange from --from/--to (lowest and highest line, zero-based) and
+  dashes the lines in data-building, so a Tera loop can emit it unchanged.
+
+  Wiring to keep when this replaces the page: templates/team.html (route
+  /team/, template: team.html), templates/_team_card.html, the
+  "team/index.md" entry in templates/top_menu.html, tools/test_navigation.py.
+
+  Fonts come from Google Fonts here. The site's CSP is font-src 'self', so
+  the real page must self-host them (both are OFL).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&family=Overpass+Mono:wght@600&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--color-paper); color: var(--color-ink); }
+body { margin: 0; font: 400 var(--step-0)/var(--leading-text) var(--font-text); }
+img { display: block; }
+a { color: inherit; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+a:hover { color: var(--color-accent); }
+:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.wrap { max-width: var(--grid-max); margin-inline: auto; padding-inline: var(--grid-margin); }
+
+/* Masthead: a station sign strip. */
+.masthead { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding-block: var(--space-4); border-bottom: var(--rule) solid var(--color-ink); }
+.brand { display: flex; align-items: center; gap: var(--space-3); font: 800 var(--step-1)/1 var(--font-display); text-decoration: none; }
+.brand img { width: 36px; height: 36px; }
+.kicker { margin: 0; font: 600 var(--step--1)/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* Title on a track: the green bar runs off both edges of the page. */
+.hero { padding-block: var(--space-7) var(--space-6); }
+h1 { margin: 0; max-width: 14ch; font: 800 var(--step-5)/var(--leading-tight) var(--font-display); letter-spacing: -0.02em; }
+.hero-track { height: var(--rule-heavy); margin-block: var(--space-5); background: var(--color-accent); }
+.lead { margin: 0; max-width: var(--measure); font-size: var(--step-1); line-height: 1.4; }
+
+/* Line key. */
+.key { padding-block: var(--space-5) var(--space-7); }
+.key-title, .zone-no, .served, .line-status, .role { font-family: var(--font-mono); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: var(--step--1); }
+.key-title { margin: 0 0 var(--space-3); }
+.lines { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2) var(--space-6); grid-template-columns: minmax(0, 1fr); }
+.line { display: grid; grid-template-columns: 24px minmax(5.5em, auto) minmax(32px, 1fr); grid-template-rows: 32px auto; align-items: center; column-gap: var(--space-3); align-content: start; }
+.line-name { font-weight: 800; }
+.swatch { width: 100%; height: 12px; }
+.line-status { grid-column: 2 / -1; }
+
+.badges { display: inline-flex; gap: 3px; vertical-align: middle; margin-right: var(--space-2); }
+.badge { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; font: 600 13px/1 var(--font-mono); color: var(--color-paper); background: var(--b); border: 2.5px solid var(--b); }
+.badges .badge { width: 18px; height: 18px; font-size: 10px; border-width: 2px; }
+.b1 { --b: var(--line-1); } .b2 { --b: var(--line-2); } .b3 { --b: var(--line-3); }
+.b4 { --b: var(--line-4); color: var(--color-ink); }
+.b5, .b6 { color: var(--color-ink); background: var(--color-paper); }
+.b5 { --b: var(--line-5); } .b6 { --b: var(--line-6); }
+
+/* Tracks. Five and six are cased: a paper line inside a coloured one. */
+.t { stroke-width: 9; }
+.t1 { stroke: var(--line-1); } .t2 { stroke: var(--line-2); } .t3 { stroke: var(--line-3); }
+.t4 { stroke: var(--line-4); } .t5 { stroke: var(--line-5); } .t6 { stroke: var(--line-6); }
+.ti { stroke: var(--color-paper); stroke-width: 3.5; }
+.zone-1 .ti { stroke: var(--color-zone); }
+.route[data-building~="1"] .t1,
+.route[data-building~="2"] .t2,
+.route[data-building~="3"] .t3,
+.route[data-building~="4"] .t4,
+.route[data-building~="5"] .t5,
+.route[data-building~="6"] .t6,
+.join .t { stroke-dasharray: 14 8; }
+.xfer { fill: var(--color-paper); stroke: var(--color-ink); stroke-width: 4; }
+.join .xfer { stroke-dasharray: 5 4; }
+.d { fill: var(--color-ink); display: none; }
+.stop[data-lines~="1"] .d1,
+.stop[data-lines~="2"] .d2,
+.stop[data-lines~="3"] .d3,
+.stop[data-lines~="4"] .d4,
+.stop[data-lines~="5"] .d5,
+.stop[data-lines~="6"] .d6 { display: inline; }
+.start-mask { fill: var(--color-zone); }
+.end-mask { fill: var(--color-paper); }
+
+/* Route, phone first: the drawing turns vertical, like the strip over a carriage door. */
+.route { list-style: none; margin: 0; padding: 0; }
+.stop { position: relative; display: grid; grid-template-columns: 96px minmax(0, 1fr); padding-block: var(--space-4) var(--space-6); --sy: 44px; }
+.stop.first-in-zone { --sy: 84px; }
+.stop > .zone, .stop > .station { grid-column: 2; }
+.zone-1 { background: var(--color-zone); }
+.track { position: absolute; top: 0; left: 0; overflow: hidden; }
+.track-h { display: none; }
+.track-v { width: 96px; height: 100%; }
+.track-v .xfer { x: calc(var(--from) * 12px + 8px); y: calc(var(--sy) - 10px); width: calc((var(--to) - var(--from)) * 12px + 20px); height: 20px; rx: 10px; stroke-width: 3; }
+.track-v .d { cy: var(--sy); }
+.track-v .t { stroke-width: 6; }
+.track-v .join .t, .join .track-v .t { stroke-dasharray: 9 6; }
+.track-v .ti { stroke-width: 2.5; }
+.track-v .start-mask { height: calc(var(--sy)); }
+.track-v .end-mask { y: calc(var(--sy) + 12px); }
+.first-in-zone:not(.zone-1)::before { content: ""; position: absolute; inset: 0 0 auto 0; border-top: var(--rule) dashed var(--color-ink); }
+
+.zone { display: flex; align-items: baseline; gap: var(--space-3); height: 28px; margin: 0 0 var(--space-3); font: 800 var(--step-1)/28px var(--font-display); }
+.zone-no { font-size: 11px; }
+.station { min-width: 0; padding-right: var(--space-2); }
+.station-head { display: flex; align-items: center; gap: var(--space-3); min-height: 56px; }
+.photo { flex: none; width: 56px; height: 56px; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.name { margin: 0; font: 800 var(--step-1)/1.1 var(--font-display); letter-spacing: -0.01em; }
+.role { margin: var(--space-1) 0 0; }
+.served { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-1); margin: var(--space-3) 0 0; }
+.bio { margin: var(--space-2) 0 0; max-width: 40ch; }
+.links { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); margin: var(--space-3) 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.join .station { padding-top: 10px; }
+.join .name a { text-decoration-thickness: 3px; }
+
+@media (min-width: 720px) {
+  .lines { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .route { display: grid; grid-template-columns: repeat(auto-fill, minmax(216px, 1fr)); row-gap: var(--space-7); }
+  .stop { display: block; padding: calc(36px + 156px + var(--space-4)) var(--space-4) var(--space-6) 22px; }
+  .track-v { display: none; }
+  .track-h { display: block; top: 36px; width: 100%; height: 156px; }
+  .track-h .xfer { x: 22px; y: calc(var(--from) * 24px + 4px); width: 28px; height: calc((var(--to) - var(--from)) * 24px + 28px); rx: 14px; }
+  .zone { position: absolute; top: 0; left: 22px; right: var(--space-2); height: 36px; margin: 0; line-height: 36px; white-space: nowrap; }
+  .first-in-zone:not(.zone-1)::before { inset: 0 auto 0 0; border-top: 0; border-left: var(--rule) dashed var(--color-ink); }
+  .station-head { display: block; }
+  .photo { width: 72px; height: 72px; margin-bottom: var(--space-3); }
+  .join .station { padding-top: 0; }
+}
+
+/* Highlight the lines of whoever is hovered or focused. */
+.route:has(.stop:is(:hover, :focus-within):not([data-lines~="1"])) .t1,
+  .route:has(.stop:is(:hover, :focus-within):not([data-lines~="2"])) .t2,
+  .route:has(.stop:is(:hover, :focus-within):not([data-lines~="3"])) .t3,
+  .route:has(.stop:is(:hover, :focus-within):not([data-lines~="4"])) .t4,
+  .route:has(.stop:is(:hover, :focus-within):not([data-lines~="5"])) .t5,
+  .route:has(.stop:is(:hover, :focus-within):not([data-lines~="6"])) .t6 { opacity: 0.15; }
+.route:has(.stop:is(:hover, :focus-within)) .stop:not(:hover, :focus-within) :is(.xfer, .d) { opacity: 0.3; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .t, .xfer, .d { transition: opacity var(--dur-short) var(--ease); }
+  .track-h { animation: draw-h var(--dur-draw) var(--ease) both; animation-delay: calc(var(--i) * 140ms); }
+  .track-v { animation: draw-v var(--dur-draw) var(--ease) both; animation-delay: calc(var(--i) * 140ms); }
+  @keyframes draw-h { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0); } }
+  @keyframes draw-v { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0); } }
+}
+
+/* Community: a service notice at the end of the line. */
+.community { margin-block: var(--space-8) 0; padding-block: var(--space-6) var(--space-7); background: var(--color-ink); color: var(--color-paper); }
+.community h2 { margin: 0 0 var(--space-4); max-width: 20ch; font: 800 var(--step-3)/var(--leading-tight) var(--font-display); }
+.community p { margin: 0; max-width: var(--measure); }
+.community .links { margin-top: var(--space-5); gap: var(--space-3) var(--space-6); }
+.community a:hover { color: var(--color-paper); text-decoration-color: var(--color-accent); }
+.community :focus-visible { outline-color: var(--color-paper); }
+</style>
+</head>
+<body>
+<header class="wrap masthead">
+  <a class="brand" href="/"><img src="../static/logos/green-on-transparent.svg" alt="" width="36" height="36"><span>Organic Maps</span></a>
+  <p class="kicker">Team</p>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>The people behind Organic Maps</h1>
+    <div class="hero-track" aria-hidden="true"></div>
+    <p class="lead">We are a small team of enthusiasts building a free, open-source maps app that works offline, shows no ads and does not track you.</p>
+  </div>
+
+  <section class="wrap key" aria-labelledby="key-title">
+    <h2 class="key-title" id="key-title">Lines</h2>
+    <ol class="lines">
+      <li class="line" data-line="1">
+        <span class="badge b1" aria-hidden="true">1</span>
+        <span class="line-name">Android</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t1" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        
+      </li>
+      <li class="line" data-line="2">
+        <span class="badge b2" aria-hidden="true">2</span>
+        <span class="line-name">iOS</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t2" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        
+      </li>
+      <li class="line building" data-line="3">
+        <span class="badge b3" aria-hidden="true">3</span>
+        <span class="line-name">C++ core</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t3" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        <span class="line-status">Under construction</span>
+      </li>
+      <li class="line building" data-line="4">
+        <span class="badge b4" aria-hidden="true">4</span>
+        <span class="line-name">Map data</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t4" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        <span class="line-status">Under construction</span>
+      </li>
+      <li class="line building" data-line="5">
+        <span class="badge b5" aria-hidden="true">5</span>
+        <span class="line-name">Design</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t5" x1="0" x2="100%" y1="6" y2="6"/><line class="ti" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        <span class="line-status">Under construction</span>
+      </li>
+      <li class="line building" data-line="6">
+        <span class="badge b6" aria-hidden="true">6</span>
+        <span class="line-name">Community</span>
+        <svg class="swatch" aria-hidden="true" focusable="false"><line class="t t6" x1="0" x2="100%" y1="6" y2="6"/><line class="ti" x1="0" x2="100%" y1="6" y2="6"/></svg>
+        <span class="line-status">Under construction</span>
+      </li>
+    </ol>
+  </section>
+
+  <section class="wrap" aria-label="Route diagram: people as stations on the lines they work on">
+  <ol class="route" data-building="3 4 5 6">
+    <li class="stop first-in-zone zone-1 origin" data-lines="1 2 3 4 5 6" style="--from:0;--to:5;--i:0">
+      <svg class="track track-h" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="0" x2="100%" y1="18" y2="18"/>
+        <line class="t t2" x1="0" x2="100%" y1="42" y2="42"/>
+        <line class="t t3" x1="0" x2="100%" y1="66" y2="66"/>
+        <line class="t t4" x1="0" x2="100%" y1="90" y2="90"/>
+        <line class="t t5" x1="0" x2="100%" y1="114" y2="114"/><line class="ti" x1="0" x2="100%" y1="114" y2="114"/>
+        <line class="t t6" x1="0" x2="100%" y1="138" y2="138"/><line class="ti" x1="0" x2="100%" y1="138" y2="138"/>
+        <rect class="start-mask" x="0" y="0" width="36" height="100%"/>
+        <rect class="xfer"/>
+        <circle class="d d1" cx="36" cy="18" r="4.5"/><circle class="d d2" cx="36" cy="42" r="4.5"/><circle class="d d3" cx="36" cy="66" r="4.5"/><circle class="d d4" cx="36" cy="90" r="4.5"/><circle class="d d5" cx="36" cy="114" r="4.5"/><circle class="d d6" cx="36" cy="138" r="4.5"/>
+      </svg>
+      <svg class="track track-v" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="18" x2="18" y1="0" y2="100%"/>
+        <line class="t t2" x1="30" x2="30" y1="0" y2="100%"/>
+        <line class="t t3" x1="42" x2="42" y1="0" y2="100%"/>
+        <line class="t t4" x1="54" x2="54" y1="0" y2="100%"/>
+        <line class="t t5" x1="66" x2="66" y1="0" y2="100%"/><line class="ti" x1="66" x2="66" y1="0" y2="100%"/>
+        <line class="t t6" x1="78" x2="78" y1="0" y2="100%"/><line class="ti" x1="78" x2="78" y1="0" y2="100%"/>
+        <rect class="start-mask" x="0" y="0" width="100%"/>
+        <rect class="xfer"/>
+        <circle class="d d1" cx="18" r="3"/><circle class="d d2" cx="30" r="3"/><circle class="d d3" cx="42" r="3"/><circle class="d d4" cx="54" r="3"/><circle class="d d5" cx="66" r="3"/><circle class="d d6" cx="78" r="3"/>
+      </svg>
+      <h2 class="zone"><span class="zone-no">Zone 1</span> Founders</h2>
+      <div class="station">
+        <div class="station-head">
+          <img class="photo" src="../content/team/biodranik.jpg" alt="" width="72" height="72" loading="lazy">
+          <div>
+            <h3 class="name">Alexander Borsuk</h3>
+            <p class="role">Co-founder</p>
+          </div>
+        </div>
+        <p class="served"><span class="badges" aria-hidden="true"><span class="badge b1">1</span><span class="badge b2">2</span><span class="badge b3">3</span><span class="badge b4">4</span><span class="badge b5">5</span><span class="badge b6">6</span></span><span>Interchange, all lines</span></p>
+        <p class="bio">Co-founder of Organic Maps and creator of MAPS.ME.</p>
+        <p class="links">
+            <a href="https://github.com/biodranik" rel="noopener" target="_blank">@biodranik</a>
+            <a href="https://alex.bio/" rel="noopener" target="_blank">Website</a>
+        </p>
+      </div>
+    </li>
+    <li class="stop zone-1" data-lines="1 2 3 4 5 6" style="--from:0;--to:5;--i:1">
+      <svg class="track track-h" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="0" x2="100%" y1="18" y2="18"/>
+        <line class="t t2" x1="0" x2="100%" y1="42" y2="42"/>
+        <line class="t t3" x1="0" x2="100%" y1="66" y2="66"/>
+        <line class="t t4" x1="0" x2="100%" y1="90" y2="90"/>
+        <line class="t t5" x1="0" x2="100%" y1="114" y2="114"/><line class="ti" x1="0" x2="100%" y1="114" y2="114"/>
+        <line class="t t6" x1="0" x2="100%" y1="138" y2="138"/><line class="ti" x1="0" x2="100%" y1="138" y2="138"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="36" cy="18" r="4.5"/><circle class="d d2" cx="36" cy="42" r="4.5"/><circle class="d d3" cx="36" cy="66" r="4.5"/><circle class="d d4" cx="36" cy="90" r="4.5"/><circle class="d d5" cx="36" cy="114" r="4.5"/><circle class="d d6" cx="36" cy="138" r="4.5"/>
+      </svg>
+      <svg class="track track-v" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="18" x2="18" y1="0" y2="100%"/>
+        <line class="t t2" x1="30" x2="30" y1="0" y2="100%"/>
+        <line class="t t3" x1="42" x2="42" y1="0" y2="100%"/>
+        <line class="t t4" x1="54" x2="54" y1="0" y2="100%"/>
+        <line class="t t5" x1="66" x2="66" y1="0" y2="100%"/><line class="ti" x1="66" x2="66" y1="0" y2="100%"/>
+        <line class="t t6" x1="78" x2="78" y1="0" y2="100%"/><line class="ti" x1="78" x2="78" y1="0" y2="100%"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="18" r="3"/><circle class="d d2" cx="30" r="3"/><circle class="d d3" cx="42" r="3"/><circle class="d d4" cx="54" r="3"/><circle class="d d5" cx="66" r="3"/><circle class="d d6" cx="78" r="3"/>
+      </svg>
+      <div class="station">
+        <div class="station-head">
+          <img class="photo" src="../content/team/vng.jpg" alt="" width="72" height="72" loading="lazy">
+          <div>
+            <h3 class="name">Viktor Havaka</h3>
+            <p class="role">Co-founder</p>
+          </div>
+        </div>
+        <p class="served"><span class="badges" aria-hidden="true"><span class="badge b1">1</span><span class="badge b2">2</span><span class="badge b3">3</span><span class="badge b4">4</span><span class="badge b5">5</span><span class="badge b6">6</span></span><span>Interchange, all lines</span></p>
+        <p class="bio">Co-founder of Organic Maps. Worked on MAPS.ME before that.</p>
+        <p class="links">
+            <a href="https://github.com/vng" rel="noopener" target="_blank">@vng</a>
+            <a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </li>
+    <li class="stop first-in-zone" data-lines="2" style="--from:1;--to:1;--i:2">
+      <svg class="track track-h" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="0" x2="100%" y1="18" y2="18"/>
+        <line class="t t2" x1="0" x2="100%" y1="42" y2="42"/>
+        <line class="t t3" x1="0" x2="100%" y1="66" y2="66"/>
+        <line class="t t4" x1="0" x2="100%" y1="90" y2="90"/>
+        <line class="t t5" x1="0" x2="100%" y1="114" y2="114"/><line class="ti" x1="0" x2="100%" y1="114" y2="114"/>
+        <line class="t t6" x1="0" x2="100%" y1="138" y2="138"/><line class="ti" x1="0" x2="100%" y1="138" y2="138"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="36" cy="18" r="4.5"/><circle class="d d2" cx="36" cy="42" r="4.5"/><circle class="d d3" cx="36" cy="66" r="4.5"/><circle class="d d4" cx="36" cy="90" r="4.5"/><circle class="d d5" cx="36" cy="114" r="4.5"/><circle class="d d6" cx="36" cy="138" r="4.5"/>
+      </svg>
+      <svg class="track track-v" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="18" x2="18" y1="0" y2="100%"/>
+        <line class="t t2" x1="30" x2="30" y1="0" y2="100%"/>
+        <line class="t t3" x1="42" x2="42" y1="0" y2="100%"/>
+        <line class="t t4" x1="54" x2="54" y1="0" y2="100%"/>
+        <line class="t t5" x1="66" x2="66" y1="0" y2="100%"/><line class="ti" x1="66" x2="66" y1="0" y2="100%"/>
+        <line class="t t6" x1="78" x2="78" y1="0" y2="100%"/><line class="ti" x1="78" x2="78" y1="0" y2="100%"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="18" r="3"/><circle class="d d2" cx="30" r="3"/><circle class="d d3" cx="42" r="3"/><circle class="d d4" cx="54" r="3"/><circle class="d d5" cx="66" r="3"/><circle class="d d6" cx="78" r="3"/>
+      </svg>
+      <h2 class="zone"><span class="zone-no">Zone 2</span> Core team</h2>
+      <div class="station">
+        <div class="station-head">
+          <img class="photo" src="../content/team/kirylkaveryn.jpg" alt="" width="72" height="72" loading="lazy">
+          <div>
+            <h3 class="name">Kiryl Kaveryn</h3>
+            <p class="role">iOS</p>
+          </div>
+        </div>
+        <p class="served"><span class="badges" aria-hidden="true"><span class="badge b2">2</span></span><span>Line 2 · iOS</span></p>
+        <p class="bio">The team's iOS expert, working across the whole iOS app.</p>
+        <p class="links">
+            <a href="https://github.com/kirylkaveryn" rel="noopener" target="_blank">@kirylkaveryn</a>
+        </p>
+      </div>
+    </li>
+    <li class="stop" data-lines="1" style="--from:0;--to:0;--i:3">
+      <svg class="track track-h" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="0" x2="100%" y1="18" y2="18"/>
+        <line class="t t2" x1="0" x2="100%" y1="42" y2="42"/>
+        <line class="t t3" x1="0" x2="100%" y1="66" y2="66"/>
+        <line class="t t4" x1="0" x2="100%" y1="90" y2="90"/>
+        <line class="t t5" x1="0" x2="100%" y1="114" y2="114"/><line class="ti" x1="0" x2="100%" y1="114" y2="114"/>
+        <line class="t t6" x1="0" x2="100%" y1="138" y2="138"/><line class="ti" x1="0" x2="100%" y1="138" y2="138"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="36" cy="18" r="4.5"/><circle class="d d2" cx="36" cy="42" r="4.5"/><circle class="d d3" cx="36" cy="66" r="4.5"/><circle class="d d4" cx="36" cy="90" r="4.5"/><circle class="d d5" cx="36" cy="114" r="4.5"/><circle class="d d6" cx="36" cy="138" r="4.5"/>
+      </svg>
+      <svg class="track track-v" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="18" x2="18" y1="0" y2="100%"/>
+        <line class="t t2" x1="30" x2="30" y1="0" y2="100%"/>
+        <line class="t t3" x1="42" x2="42" y1="0" y2="100%"/>
+        <line class="t t4" x1="54" x2="54" y1="0" y2="100%"/>
+        <line class="t t5" x1="66" x2="66" y1="0" y2="100%"/><line class="ti" x1="66" x2="66" y1="0" y2="100%"/>
+        <line class="t t6" x1="78" x2="78" y1="0" y2="100%"/><line class="ti" x1="78" x2="78" y1="0" y2="100%"/>
+        
+        <rect class="xfer"/>
+        <circle class="d d1" cx="18" r="3"/><circle class="d d2" cx="30" r="3"/><circle class="d d3" cx="42" r="3"/><circle class="d d4" cx="54" r="3"/><circle class="d d5" cx="66" r="3"/><circle class="d d6" cx="78" r="3"/>
+      </svg>
+      <div class="station">
+        <div class="station-head">
+          <img class="photo" src="../content/team/strider-dunadan.png" alt="" width="72" height="72" loading="lazy">
+          <div>
+            <h3 class="name">Mikhail Listratsenka</h3>
+            <p class="role">Android &amp; Wear OS</p>
+          </div>
+        </div>
+        <p class="served"><span class="badges" aria-hidden="true"><span class="badge b1">1</span></span><span>Line 1 · Android</span></p>
+        <p class="bio">Works across the whole Android app and the Wear OS watch app.</p>
+        <p class="links">
+            <a href="https://github.com/strider-dunadan" rel="noopener" target="_blank">@strider-dunadan</a>
+            <a href="https://www.linkedin.com/in/mikhail-listratsenka-395798115/" rel="noopener" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </li>
+    <li class="stop join" data-lines="" style="--from:0;--to:5;--i:4">
+      <svg class="track track-h" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="0" x2="100%" y1="18" y2="18"/>
+        <line class="t t2" x1="0" x2="100%" y1="42" y2="42"/>
+        <line class="t t3" x1="0" x2="100%" y1="66" y2="66"/>
+        <line class="t t4" x1="0" x2="100%" y1="90" y2="90"/>
+        <line class="t t5" x1="0" x2="100%" y1="114" y2="114"/><line class="ti" x1="0" x2="100%" y1="114" y2="114"/>
+        <line class="t t6" x1="0" x2="100%" y1="138" y2="138"/><line class="ti" x1="0" x2="100%" y1="138" y2="138"/>
+        <rect class="end-mask" x="52" y="0" width="100%" height="100%"/>
+        <rect class="xfer"/>
+        <circle class="d d1" cx="36" cy="18" r="4.5"/><circle class="d d2" cx="36" cy="42" r="4.5"/><circle class="d d3" cx="36" cy="66" r="4.5"/><circle class="d d4" cx="36" cy="90" r="4.5"/><circle class="d d5" cx="36" cy="114" r="4.5"/><circle class="d d6" cx="36" cy="138" r="4.5"/>
+      </svg>
+      <svg class="track track-v" aria-hidden="true" focusable="false">
+        <line class="t t1" x1="18" x2="18" y1="0" y2="100%"/>
+        <line class="t t2" x1="30" x2="30" y1="0" y2="100%"/>
+        <line class="t t3" x1="42" x2="42" y1="0" y2="100%"/>
+        <line class="t t4" x1="54" x2="54" y1="0" y2="100%"/>
+        <line class="t t5" x1="66" x2="66" y1="0" y2="100%"/><line class="ti" x1="66" x2="66" y1="0" y2="100%"/>
+        <line class="t t6" x1="78" x2="78" y1="0" y2="100%"/><line class="ti" x1="78" x2="78" y1="0" y2="100%"/>
+        <rect class="end-mask" x="0" width="100%" height="100%"/>
+        <rect class="xfer"/>
+        <circle class="d d1" cx="18" r="3"/><circle class="d d2" cx="30" r="3"/><circle class="d d3" cx="42" r="3"/><circle class="d d4" cx="54" r="3"/><circle class="d d5" cx="66" r="3"/><circle class="d d6" cx="78" r="3"/>
+      </svg>
+      <div class="station">
+        <h3 class="name"><a href="/contribute/">This could be you</a></h3>
+        <p class="served"><span>Open station, every line</span></p>
+        <p class="bio">Code, translations, map edits or helping other users — every contribution counts.</p>
+      </div>
+    </li>
+  </ol>
+  </section>
+
+  <section class="community">
+    <div class="wrap">
+      <h2>Built together with the community</h2>
+      <p>Organic Maps would not exist without volunteers from all over the world: developers who send fixes, translators, testers, and OpenStreetMap mappers who keep the map up to date.</p>
+      <p class="links">
+        <a href="https://github.com/organicmaps/organicmaps/graphs/contributors" rel="noopener" target="_blank">See everyone who contributed</a>
+        <a href="/contribute/">Find out how you can help</a>
+      </p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

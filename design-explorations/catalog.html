@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" data-direction="catalog">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team — Organic Maps</title>
+<!--
+  Exploration 5: "Catalog", in the manner of teenage.engineering: people
+  listed like products, a numbered index, a spec sheet per person.
+  A static prototype, not wired into Zola.
+
+  Data: content/team/index.md, extra.founders / extra.members / extra.contributors,
+  the intro above the "team" marker comment and the community note below it.
+  No new keys. Contributors, when there are any, are a compact spec table.
+
+  Wiring to keep when this replaces the page: templates/team.html (route
+  /team/, template: team.html), templates/_team_card.html, the
+  "team/index.md" entry in templates/top_menu.html, tools/test_navigation.py.
+
+  Geist and Geist Mono come from Google Fonts here. The site's CSP is
+  font-src 'self', so the real page must self-host them (both are OFL).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--color-paper); color: var(--color-ink); }
+body { margin: 0; font: 400 15px/1.45 var(--font-text); -webkit-font-smoothing: antialiased; }
+img { display: block; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--color-accent); }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.mono { font-family: var(--font-mono); font-size: 13px; }
+
+/* Brand colour fields, full bleed: the toolbar green on top, the status-bar
+   green at the bottom, as in the app. */
+.brandblock, .deepblock { margin-inline: calc(-1 * var(--grid-margin)); padding-inline: var(--grid-margin); color: #fff; }
+.brandblock { background: var(--color-accent); }
+.deepblock { background: var(--color-brand-deep); }
+.brandblock a:hover, .deepblock a:hover { color: #fff; text-decoration: underline; }
+.brandblock :focus-visible, .deepblock :focus-visible { outline-color: #fff; }
+.top.brandblock .nav { color: var(--color-on-brand-2); }
+.top.brandblock .nav [aria-current] { color: #fff; }
+.hero.brandblock .intro, .hero.brandblock .facts span { color: var(--color-on-brand-2); }
+.page { padding-inline: var(--grid-margin); }
+.grid { display: grid; grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); column-gap: var(--grid-gutter); }
+
+/* Header: wordmark left, the site's menu right, all lowercase. */
+.top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); flex-wrap: wrap; padding-block: var(--space-4); }
+.brand { display: flex; align-items: center; gap: var(--space-2); font-weight: 500; }
+.brand img { width: 22px; height: 22px; }
+.nav { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); margin: 0; padding: 0; list-style: none; font-family: var(--font-mono); font-size: 13px; color: var(--color-ink-2); }
+.nav [aria-current] { color: var(--color-ink); text-decoration: underline; text-underline-offset: 4px; }
+
+/* Title. */
+.hero { margin-bottom: var(--space-7); padding-block: var(--space-8) var(--space-8); row-gap: var(--space-5); align-items: end; }
+h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5rem)/0.98 var(--font-display); letter-spacing: -0.035em; text-wrap: balance; }
+.intro { grid-column: 1 / -1; margin: 0; max-width: 40ch; color: var(--color-ink-2); }
+.facts { grid-column: 1 / -1; display: flex; gap: var(--space-6); margin: 0; padding: 0; list-style: none; }
+.facts li { display: grid; }
+.facts b { font: 500 32px/1 var(--font-display); letter-spacing: -0.02em; }
+.facts span { color: var(--color-ink-2); font-family: var(--font-mono); font-size: 13px; }
+
+/* Groups and people. */
+.group-head { display: flex; justify-content: space-between; margin: 0; padding-block: var(--space-3); border-top: 2px solid var(--color-accent); font: 500 13px/1 var(--font-mono); }
+.count { color: var(--color-accent); }
+.group + .group { margin-top: var(--space-8); }
+.people { list-style: none; margin: 0; padding: 0; }
+.person { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: var(--space-4); row-gap: var(--space-4); padding-block: var(--space-4) var(--space-6); border-top: 1px solid var(--color-rule); }
+.group-head + .people > .person:first-child { border-top: 0; }
+.idx { grid-column: 1 / -1; font: 500 13px/1 var(--font-mono); color: var(--color-accent); }
+.tile { background: var(--color-tile); aspect-ratio: 1; overflow: hidden; }
+.tile img { width: 100%; height: 100%; object-fit: cover; }
+.tile-empty { background: var(--color-accent); }
+.tile-empty svg { width: 100%; height: 100%; fill: none; stroke: #fff; stroke-width: 0.8; }
+.about { min-width: 0; }
+.name { margin: 0; font: 500 24px/1.1 var(--font-display); letter-spacing: -0.02em; }
+.bio { margin: var(--space-2) 0 0; color: var(--color-ink-2); max-width: 38ch; }
+.spec { grid-column: 1 / -1; list-style: none; margin: 0; padding: 0; font: 400 13px/1.4 var(--font-mono); }
+.spec li { display: flex; align-items: baseline; gap: var(--space-2); padding-block: 3px; }
+.k { flex: none; color: var(--color-ink-2); }
+.dots { flex: 1; min-width: var(--space-4); border-bottom: 1px dotted var(--color-ink-2); transform: translateY(-3px); }
+.v { min-width: 0; max-width: 70%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right; }
+.v a { text-decoration: underline; text-decoration-color: var(--color-rule); text-underline-offset: 3px; }
+.v a:hover { text-decoration-color: currentColor; }
+.join .name a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.person:is(:hover, :focus-within) .name { color: var(--color-accent); }
+
+/* Contributors: one line each, the same columns as a spec sheet. */
+.contribs { list-style: none; margin: 0; padding: 0; font: 400 13px/1.4 var(--font-mono); }
+.contribs li { display: grid; grid-template-columns: 3ch minmax(0, 1fr) auto; gap: var(--space-3); padding-block: var(--space-2); border-top: 1px solid var(--color-rule); }
+.contribs .what { color: var(--color-ink-2); }
+
+/* Community and footer. */
+.community { margin-top: var(--space-9); padding-block: var(--space-6) var(--space-8); row-gap: var(--space-4); }
+.community .label { grid-column: 1 / -1; margin: 0; font: 500 13px/1 var(--font-mono); }
+.community h2 { grid-column: 1 / -1; margin: var(--space-5) 0 0; font: 500 clamp(1.75rem, 1.3rem + 2vw, 3rem)/1.02 var(--font-display); letter-spacing: -0.03em; max-width: 16ch; }
+.community p.text { grid-column: 1 / -1; margin: 0; color: var(--color-on-brand-2); max-width: 46ch; }
+.community .links { grid-column: 1 / -1; list-style: none; margin: 0; padding: 0; font: 400 13px/1.4 var(--font-mono); }
+.community .links a { display: flex; justify-content: space-between; gap: var(--space-4); padding-block: var(--space-3); border-top: 1px solid rgb(255 255 255 / 0.3); }
+.foot { display: flex; justify-content: space-between; gap: var(--space-4); padding-block: var(--space-4) var(--space-5); border-top: 1px solid rgb(255 255 255 / 0.3); color: var(--color-on-brand-2); font: 400 13px/1 var(--font-mono); }
+
+@media (min-width: 720px) {
+  .intro { grid-column: 1 / 6; }
+  .facts { grid-column: 6 / -1; justify-content: flex-end; }
+  .person { grid-template-columns: repeat(8, minmax(0, 1fr)); column-gap: var(--grid-gutter); padding-block: var(--space-5) var(--space-6); }
+  .idx { grid-column: 1; }
+  .tile { grid-column: 2 / 4; grid-row: 1 / span 2; }
+  .about { grid-column: 4 / -1; }
+  .spec { grid-column: 4 / -1; align-self: end; }
+  .community h2 { grid-column: 1 / 5; margin-top: 0; }
+  .community p.text { grid-column: 5 / -1; }
+  .community .links { grid-column: 5 / -1; }
+}
+
+@media (min-width: 1120px) {
+  .hero { padding-block: var(--space-9) var(--space-9); }
+  h1 { grid-column: 1 / 11; }
+  .intro { grid-column: 1 / 5; }
+  .facts { grid-column: 9 / -1; }
+  .person { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .idx { grid-column: 1; }
+  .tile { grid-column: 2 / 5; grid-row: 1; }
+  .about { grid-column: 5 / 9; }
+  .name { font-size: 32px; }
+  .spec { grid-column: 9 / -1; align-self: start; }
+  .community .label { grid-column: 1; }
+  .community h2 { grid-column: 2 / 7; }
+  .community p.text { grid-column: 9 / -1; }
+  .community .links { grid-column: 9 / -1; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .person { animation: rise 600ms var(--ease) both; animation-delay: calc(var(--i) * 70ms); }
+  @keyframes rise { from { opacity: 0; translate: 0 12px; } }
+  .tile img { transition: scale 400ms var(--ease); }
+  .person:hover .tile img { scale: 1.03; }
+  .idx { transition: color var(--dur-short) var(--ease); }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="top brandblock">
+    <a class="brand" href="/"><img src="../static/logos/white-on-transparent.svg" alt="" width="22" height="22"><span>organic maps</span></a>
+    <nav aria-label="Site">
+      <ul class="nav"><li><a href="/news/">news</a></li><li><a href="/donate/">donate</a></li><li><a href="/contribute/">contribute</a></li><li><a href="/team/" aria-current="page">team</a></li><li><a href="/faq/">faq</a></li></ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="grid hero brandblock">
+      <h1>The people behind Organic Maps.</h1>
+      <p class="intro">We are a small team of enthusiasts building a free, open-source maps app that works offline, shows no ads and does not track you.</p>
+      <ul class="facts">
+        <li><b>02</b><span>founders</span></li>
+        <li><b>02</b><span>core team</span></li>
+      </ul>
+    </div>
+
+    <section class="group" aria-labelledby="founders-title">
+      <h2 class="group-head" id="founders-title"><span>founders</span><span class="count">(02)</span></h2>
+      <ol class="people">
+        <li class="person" style="--i:1">
+          <span class="idx" aria-hidden="true">01</span>
+          <div class="tile"><img src="../content/team/biodranik.jpg" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Alexander Borsuk</h3>
+            <p class="bio">Co-founder of Organic Maps and creator of MAPS.ME.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">co-founder</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">founders</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/biodranik" rel="noopener" target="_blank">@biodranik</a></span></li>
+                <li><span class="k">website</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://alex.bio/" rel="noopener" target="_blank">alex.bio</a></span></li>
+          </ul>
+        </li>
+        <li class="person" style="--i:2">
+          <span class="idx" aria-hidden="true">02</span>
+          <div class="tile"><img src="../content/team/vng.jpg" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Viktor Havaka</h3>
+            <p class="bio">Co-founder of Organic Maps. Worked on MAPS.ME before that.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">co-founder</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">founders</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/vng" rel="noopener" target="_blank">@vng</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">linkedin.com/in/vng</a></span></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="group" aria-labelledby="core-title">
+      <h2 class="group-head" id="core-title"><span>core team</span><span class="count">(02)</span></h2>
+      <ol class="people">
+        <li class="person" style="--i:3">
+          <span class="idx" aria-hidden="true">03</span>
+          <div class="tile"><img src="../content/team/kirylkaveryn.jpg" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Kiryl Kaveryn</h3>
+            <p class="bio">The team's iOS expert, working across the whole iOS app.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">ios</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/kirylkaveryn" rel="noopener" target="_blank">@kirylkaveryn</a></span></li>
+          </ul>
+        </li>
+        <li class="person" style="--i:4">
+          <span class="idx" aria-hidden="true">04</span>
+          <div class="tile"><img src="../content/team/strider-dunadan.png" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Mikhail Listratsenka</h3>
+            <p class="bio">Works across the whole Android app and the Wear OS watch app.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">android &amp; wear os</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/strider-dunadan" rel="noopener" target="_blank">@strider-dunadan</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/mikhail-listratsenka-395798115/" rel="noopener" target="_blank">linkedin.com/in/mikhail-listratsenka-395798115</a></span></li>
+          </ul>
+        </li>
+        <li class="person join" style="--i:5">
+          <span class="idx" aria-hidden="true">05</span>
+          <div class="tile tile-empty" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><path d="M50 38v24M38 50h24"/></svg></div>
+          <div class="about">
+            <h3 class="name"><a href="/contribute/">This could be you</a></h3>
+            <p class="bio">Code, translations, map edits or helping other users — every contribution counts.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">open</span></li>
+                <li><span class="k">how</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="/contribute/">contribute</a></span></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <div class="deepblock">
+    <section class="grid community" aria-labelledby="community-title">
+      <p class="label" aria-hidden="true">community</p>
+      <h2 id="community-title">Built together with the community</h2>
+      <p class="text">Organic Maps would not exist without volunteers from all over the world: developers who send fixes, translators, testers, and OpenStreetMap mappers who keep the map up to date.</p>
+      <ul class="links">
+        <li><a href="https://github.com/organicmaps/organicmaps/graphs/contributors" rel="noopener" target="_blank"><span>see everyone who contributed</span><span aria-hidden="true">→</span></a></li>
+        <li><a href="/contribute/"><span>find out how you can help</span><span aria-hidden="true">→</span></a></li>
+      </ul>
+    </section>
+    </div>
+  </main>
+
+  <footer class="foot deepblock"><span>organic maps / team</span><span>(04)</span></footer>
+</div>
+</body>
+</html>

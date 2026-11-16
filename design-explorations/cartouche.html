@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en" data-direction="cartouche">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team — Organic Maps</title>
+<!--
+  Exploration 2 of 3: "Cartouche". A static prototype, not wired into Zola.
+
+  Data: content/team/index.md, extra.founders / extra.members / extra.contributors,
+  the intro above the "team" marker comment and the community note below it.
+  Epithets ("Topographer of the iOS sheet") are derived: founders are the
+  compilers and publishers, everyone else is a topographer of the sheet their
+  role names. The data's own role is always printed beside the epithet.
+
+  Founders get medallions (a fixed pair). The core team is an Explanation list
+  that goes to two columns from seven entries; contributors, when there are
+  any, are one run-in imprint line, so the sheet holds hundreds of names.
+
+  Wiring to keep when this replaces the page: templates/team.html (route
+  /team/, template: team.html), templates/_team_card.html, the
+  "team/index.md" entry in templates/top_menu.html, tools/test_navigation.py.
+
+  Fonts come from Google Fonts here. The site's CSP is font-src 'self', so
+  the real page must self-host them (both are OFL).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--color-paper); color: var(--color-ink); }
+body { margin: 0; padding: var(--space-3); font: 400 var(--step-0)/var(--leading-text) var(--font-text); }
+img { display: block; }
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--color-rubric); }
+:focus-visible { outline: 2px solid var(--color-rubric); outline-offset: 2px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.caps { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.16em; }
+
+/* The sheet: hairline, graduated "zebra" border, hairline, then a band of
+   green wash as if the border had been coloured by hand. */
+.sheet { max-width: var(--grid-max); margin-inline: auto; border: var(--rule-hair) solid var(--color-ink); padding: 3px; }
+.zebra { border: 6px dashed var(--color-ink); border-width: 5px 0; }
+.wash { border: var(--rule-hair) solid var(--color-ink); border-top: 7px solid var(--wash); --wash: color-mix(in srgb, var(--color-accent) 30%, var(--color-paper)); }
+.plate { padding: var(--space-4) var(--space-4) var(--space-7); }
+
+.margin-top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding-bottom: var(--space-3); border-bottom: var(--rule-hair) solid var(--color-ink); font-size: var(--step--1); }
+.brand { display: flex; align-items: center; gap: var(--space-2); color: var(--color-ink); text-decoration: none; }
+.brand img { width: 28px; height: 28px; }
+
+/* Frontispiece: cartouche in the middle, founders' medallions either side. */
+.frontis { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-6); padding-top: var(--space-7); }
+.compass { display: none; }
+
+.cartouche { position: relative; padding: var(--space-6) var(--space-5); background: var(--color-plate); border: var(--rule-hair) solid var(--color-ink); outline: var(--rule) solid var(--color-ink); outline-offset: 5px; margin: 6px; text-align: center; }
+.corner { position: absolute; width: 44px; height: 44px; fill: none; stroke: var(--color-ink); stroke-width: 1; }
+.corner-fill { fill: var(--color-paper); stroke: none; }
+.corner.tl { top: -7px; left: -7px; }
+.corner.tr { top: -7px; right: -7px; transform: scaleX(-1); }
+.corner.bl { bottom: -7px; left: -7px; transform: scaleY(-1); }
+.corner.br { bottom: -7px; right: -7px; transform: scale(-1); }
+.cartouche-kicker { margin: 0; font-size: var(--step--1); }
+h1 { margin: var(--space-4) 0 0; font-weight: 400; }
+.h1-small { display: block; font: italic 400 var(--step-2)/1.1 var(--font-text); }
+.h1-big { display: block; margin-top: var(--space-2); font: 400 var(--step-5)/0.95 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; }
+.flourish { display: block; width: min(220px, 70%); height: 18px; margin: var(--space-4) auto; fill: none; stroke: var(--color-ink); stroke-width: 1; }
+.lead { margin: 0 auto; max-width: 36ch; font-style: italic; }
+
+.founders { display: grid; gap: var(--space-5); }
+.founders h2, .explanation h2, .community h2 { margin: 0; text-align: center; font: 400 var(--step-1)/1.2 var(--font-display); text-transform: uppercase; letter-spacing: 0.22em; }
+.founders h2::before, .founders h2::after { content: "\2014\2009"; color: var(--color-rubric); letter-spacing: 0; }
+.founders h2::after { content: "\2009\2014"; }
+.founders ul, .explanation ul { list-style: none; margin: 0; padding: 0; }
+.founders ul { display: grid; gap: var(--space-6); }
+.founder { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: var(--space-4); align-items: start; }
+.founder:nth-child(2) { grid-template-columns: minmax(0, 1fr) 104px; text-align: right; }
+.founder:nth-child(2) .medallion { order: 2; }
+.medallion { position: relative; aspect-ratio: 4 / 5; }
+.medallion img { width: 100%; height: 100%; object-fit: cover; clip-path: ellipse(43.75% 45% at 50% 50%); filter: url(#engrave); }
+.medallion svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.hatch { fill: url(#hatching); }
+.ring { fill: none; stroke: var(--color-ink); stroke-width: 1.2; }
+.ring-wide { stroke-width: 0.8; }
+.beads { fill: none; stroke: var(--color-ink); stroke-width: 3; stroke-dasharray: 0.1 6; stroke-linecap: round; }
+
+.name { margin: 0; font: 700 var(--step-0)/1.25 var(--font-text); text-transform: uppercase; letter-spacing: 0.14em; }
+.epithet { margin: var(--space-1) 0 0; font-style: italic; color: var(--color-rubric); }
+.role { margin: var(--space-1) 0 0; font-size: var(--step--1); }
+.bio { margin: var(--space-2) 0 0; }
+.links { margin: var(--space-2) 0 0; overflow-wrap: anywhere; }
+.links a + a { margin-left: var(--space-3); }
+
+/* Explanation: the core team as a key with dotted leaders. */
+.explanation { position: relative; margin-top: var(--space-8); }
+.explanation-frame { max-width: 860px; margin: var(--space-4) auto 0; border-block: var(--rule-hair) solid var(--color-ink); padding-block: 3px; }
+.explanation-frame > ul { border-block: var(--rule) solid var(--color-ink); padding-block: var(--space-4); }
+.entry { position: relative; display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: var(--space-3); padding: var(--space-3) 0; break-inside: avoid; }
+.entry + .entry { border-top: var(--rule-hair) solid color-mix(in srgb, var(--color-ink) 35%, var(--color-paper)); }
+.vignette { width: 52px; height: 52px; object-fit: cover; filter: url(#engrave); outline: var(--rule-hair) solid var(--color-ink); outline-offset: 2px; }
+.entry-line { display: block; margin: 0; }
+.entry-line .name { display: block; }
+.leader { display: none; }
+.entry-line .epithet { display: block; margin: 0; }
+.entry .role { margin-top: var(--space-1); }
+.entry.join .vignette-blank { width: 52px; height: 52px; border: var(--rule-hair) dashed var(--color-ink); }
+.hand { position: absolute; left: -54px; top: 18px; width: 44px; height: 22px; fill: none; stroke: var(--color-rubric); stroke-width: 1.1; stroke-linejoin: round; opacity: 0; }
+
+.contributors { margin-top: var(--space-7); text-align: center; }
+.contributors h2 { margin: 0; font: 400 var(--step-1)/1.2 var(--font-display); text-transform: uppercase; letter-spacing: 0.22em; }
+.contributors-lead { margin: var(--space-2) auto 0; max-width: 52ch; font-style: italic; }
+.run-in { list-style: none; max-width: 76ch; margin: var(--space-4) auto 0; padding: 0; line-height: 1.9; }
+.run-in li { display: inline; }
+.run-in li + li::before { content: " · "; color: var(--color-rubric); }
+.run-in a { color: var(--color-ink); text-transform: uppercase; letter-spacing: 0.08em; font-size: var(--step--1); }
+.run-in .what { font-style: italic; font-size: var(--step--1); }
+.rule-scale { display: block; width: min(320px, 80%); height: 10px; margin: var(--space-7) auto 0; }
+.rule-scale rect { fill: var(--color-ink); }
+.rule-scale .frame { fill: none; stroke: var(--color-ink); stroke-width: 1; }
+
+.community { margin-top: var(--space-6); text-align: center; }
+.community p { margin: var(--space-3) auto 0; max-width: 58ch; }
+.community .links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2) var(--space-5); margin-top: var(--space-4); }
+.community .links a + a { margin-left: 0; }
+.imprint { margin: var(--space-7) 0 0; text-align: center; font-size: var(--step--1); font-style: italic; }
+
+@media (min-width: 720px) {
+  body { padding: var(--space-6); }
+  .zebra { border-width: 7px; }
+  .wash { border: var(--rule-hair) solid var(--color-ink); outline: 9px solid var(--wash); outline-offset: -10px; }
+  .plate { padding: var(--space-6) var(--space-7) var(--space-8); }
+  .entry-line { display: flex; align-items: baseline; gap: var(--space-2); }
+  .entry-line .name, .entry-line .epithet { display: inline; flex: 0 1 auto; min-width: 0; }
+  .entry-line .name { flex: none; max-width: 55%; }
+  .entry-line .epithet { text-align: right; }
+  .leader { display: block; flex: 1; min-width: var(--space-6); border-bottom: 2px dotted var(--color-ink); transform: translateY(-0.25em); }
+  .entry { grid-template-columns: 64px minmax(0, 1fr); gap: var(--space-4); }
+  .vignette, .entry.join .vignette-blank { width: 64px; height: 64px; }
+  .explanation-frame > ul:has(> li:nth-child(7)) { columns: 2; column-gap: var(--space-7); column-rule: var(--rule-hair) solid var(--color-ink); }
+}
+
+@media (min-width: 1120px) {
+  .frontis { grid-template-columns: minmax(0, 1fr) minmax(0, 34rem) minmax(0, 1fr); grid-template-rows: auto auto; column-gap: var(--space-6); row-gap: var(--space-4); }
+  .cartouche { grid-column: 2; grid-row: 1; align-self: center; }
+  .founders { grid-column: 1 / -1; grid-row: 1 / 3; grid-template-columns: subgrid; grid-template-rows: subgrid; }
+  .founders h2 { grid-column: 2; grid-row: 2; }
+  .founders { pointer-events: none; }
+  .founders h2, .founder { pointer-events: auto; }
+  .founders ul { grid-column: 1 / -1; grid-row: 1 / 3; grid-template-columns: subgrid; grid-template-rows: subgrid; }
+  .founder { grid-row: 1 / 3; grid-template-columns: minmax(0, 1fr); align-content: center; text-align: right; justify-items: end; }
+  .founder:first-child { grid-column: 1; }
+  .founder:nth-child(2) { grid-column: 3; grid-template-columns: minmax(0, 1fr); text-align: left; justify-items: start; }
+  .founder:nth-child(2) .medallion { order: 0; }
+  .founder .medallion { width: 176px; }
+  .founder-text { max-width: 30ch; }
+  .compass { display: block; position: absolute; top: var(--space-6); right: 0; width: 128px; height: 128px; }
+  .compass circle { fill: none; stroke: var(--color-ink); stroke-width: 0.8; }
+  .compass line { stroke: var(--color-ink); stroke-width: 0.6; }
+  .compass .dark { fill: var(--color-ink); }
+  .compass .light { fill: var(--color-paper); stroke: var(--color-ink); stroke-width: 0.6; }
+  .compass-n { font: 400 11px/1 var(--font-display); text-anchor: middle; fill: var(--color-ink); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .needle { animation: settle 2.4s var(--ease) both; transform-origin: 0 0; }
+  @keyframes settle { 0% { transform: rotate(-24deg); } 60% { transform: rotate(4deg); } 100% { transform: rotate(0); } }
+  .hand { transition: opacity var(--dur-short) var(--ease), transform var(--dur-short) var(--ease); transform: translateX(-6px); }
+  .entry:is(:hover, :focus-within) .hand { transform: none; }
+}
+.entry:is(:hover, :focus-within) .hand { opacity: 1; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Four-tone sepia, like an aquatint pulled in the page's own ink. -->
+    <filter id="engrave" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0.169 0.38 0.65 0.929"/>
+        <feFuncG type="discrete" tableValues="0.125 0.30 0.58 0.890"/>
+        <feFuncB type="discrete" tableValues="0.090 0.22 0.47 0.796"/>
+      </feComponentTransfer>
+    </filter>
+    <pattern id="hatching" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#2b2017" stroke-width="0.7" stroke-opacity="0.32"/>
+    </pattern>
+  </defs>
+</svg>
+
+<div class="sheet"><div class="zebra"><div class="wash"><div class="plate">
+  <header class="margin-top caps">
+    <a class="brand" href="/"><img src="../static/logos/green-on-transparent.svg" alt="" width="28" height="28"><span>Organic Maps</span></a>
+    <span>Team</span>
+  </header>
+
+  <main>
+    <div class="frontis">
+    <div class="cartouche">
+      <svg class="corner tl" viewBox="0 0 56 56" aria-hidden="true" focusable="false">
+        <path class="corner-fill" d="M0 0h40a40 40 0 0 1-40 40z"/>
+        <path d="M15 0a15 15 0 0 1-15 15 M9 0a9 9 0 0 1-9 9 M23 0a23 23 0 0 1-23 23"/>
+        <path d="M23 0c0 10 6 16 14 16 6 0 8-6 3-8-3-1-5 1-4 3 M0 23c10 0 16 6 16 14 0 6-6 8-8 3-1-3 1-5 3-4"/>
+      </svg>
+      <svg class="corner tr" viewBox="0 0 56 56" aria-hidden="true" focusable="false">
+        <path class="corner-fill" d="M0 0h40a40 40 0 0 1-40 40z"/>
+        <path d="M15 0a15 15 0 0 1-15 15 M9 0a9 9 0 0 1-9 9 M23 0a23 23 0 0 1-23 23"/>
+        <path d="M23 0c0 10 6 16 14 16 6 0 8-6 3-8-3-1-5 1-4 3 M0 23c10 0 16 6 16 14 0 6-6 8-8 3-1-3 1-5 3-4"/>
+      </svg>
+      <svg class="corner bl" viewBox="0 0 56 56" aria-hidden="true" focusable="false">
+        <path class="corner-fill" d="M0 0h40a40 40 0 0 1-40 40z"/>
+        <path d="M15 0a15 15 0 0 1-15 15 M9 0a9 9 0 0 1-9 9 M23 0a23 23 0 0 1-23 23"/>
+        <path d="M23 0c0 10 6 16 14 16 6 0 8-6 3-8-3-1-5 1-4 3 M0 23c10 0 16 6 16 14 0 6-6 8-8 3-1-3 1-5 3-4"/>
+      </svg>
+      <svg class="corner br" viewBox="0 0 56 56" aria-hidden="true" focusable="false">
+        <path class="corner-fill" d="M0 0h40a40 40 0 0 1-40 40z"/>
+        <path d="M15 0a15 15 0 0 1-15 15 M9 0a9 9 0 0 1-9 9 M23 0a23 23 0 0 1-23 23"/>
+        <path d="M23 0c0 10 6 16 14 16 6 0 8-6 3-8-3-1-5 1-4 3 M0 23c10 0 16 6 16 14 0 6-6 8-8 3-1-3 1-5 3-4"/>
+      </svg>
+      <p class="cartouche-kicker caps">Organic Maps</p>
+      <h1><span class="h1-small">The people behind</span> <span class="h1-big">Organic Maps</span></h1>
+      <svg class="flourish" viewBox="0 0 220 18" aria-hidden="true" focusable="false"><path d="M0 9h86 M134 9h86 M86 9c6-8 14-8 16 0s-10 8-10 0 M134 9c-6-8-14-8-16 0s10 8 10 0 M102 9c2-6 6-6 8-0s6 6 8 0"/><circle cx="110" cy="9" r="1.8" fill="currentColor"/></svg>
+      <p class="lead">We are a small team of enthusiasts building a free, open-source maps app that works offline, shows no ads and does not track you.</p>
+    </div>
+
+    <section class="founders" aria-labelledby="founders-title">
+      <h2 id="founders-title">Founders</h2>
+      <ul>
+        <li class="founder">
+          <div class="medallion">
+            <img src="../content/team/biodranik.jpg" alt="" width="160" height="200" loading="lazy">
+            <svg viewBox="0 0 160 200" aria-hidden="true" focusable="false">
+              <ellipse class="hatch" cx="80" cy="100" rx="70" ry="90"/>
+              <ellipse class="ring" cx="80" cy="100" rx="71" ry="91"/>
+              <ellipse class="ring ring-wide" cx="80" cy="100" rx="77" ry="97"/>
+              <ellipse class="beads" cx="80" cy="100" rx="74" ry="94"/>
+            </svg>
+          </div>
+          <div class="founder-text">
+            <h3 class="name">Alexander Borsuk</h3>
+            <p class="epithet">Compiler &amp; publisher</p>
+            <p class="role">Co-founder</p>
+            <p class="bio">Co-founder of Organic Maps and creator of MAPS.ME.</p>
+            <p class="links"><a href="https://github.com/biodranik" rel="noopener" target="_blank">@biodranik</a> <a href="https://alex.bio/" rel="noopener" target="_blank">Website</a></p>
+          </div>
+        </li>
+        <li class="founder">
+          <div class="medallion">
+            <img src="../content/team/vng.jpg" alt="" width="160" height="200" loading="lazy">
+            <svg viewBox="0 0 160 200" aria-hidden="true" focusable="false">
+              <ellipse class="hatch" cx="80" cy="100" rx="70" ry="90"/>
+              <ellipse class="ring" cx="80" cy="100" rx="71" ry="91"/>
+              <ellipse class="ring ring-wide" cx="80" cy="100" rx="77" ry="97"/>
+              <ellipse class="beads" cx="80" cy="100" rx="74" ry="94"/>
+            </svg>
+          </div>
+          <div class="founder-text">
+            <h3 class="name">Viktor Havaka</h3>
+            <p class="epithet">Compiler &amp; publisher</p>
+            <p class="role">Co-founder</p>
+            <p class="bio">Co-founder of Organic Maps. Worked on MAPS.ME before that.</p>
+            <p class="links"><a href="https://github.com/vng" rel="noopener" target="_blank">@vng</a> <a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">LinkedIn</a></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    </div>
+
+    <section class="explanation" aria-labelledby="core-title">
+      <svg class="compass" viewBox="-60 -60 120 120" aria-hidden="true" focusable="false">
+      <circle r="52"/><circle r="47"/><circle r="20"/>
+      <g class="compass-ticks"><line y1="-47" y2="-40" transform="rotate(0)"/><line y1="-47" y2="-43" transform="rotate(11.25)"/><line y1="-47" y2="-43" transform="rotate(22.5)"/><line y1="-47" y2="-43" transform="rotate(33.75)"/><line y1="-47" y2="-40" transform="rotate(45)"/><line y1="-47" y2="-43" transform="rotate(56.25)"/><line y1="-47" y2="-43" transform="rotate(67.5)"/><line y1="-47" y2="-43" transform="rotate(78.75)"/><line y1="-47" y2="-40" transform="rotate(90)"/><line y1="-47" y2="-43" transform="rotate(101.25)"/><line y1="-47" y2="-43" transform="rotate(112.5)"/><line y1="-47" y2="-43" transform="rotate(123.75)"/><line y1="-47" y2="-40" transform="rotate(135)"/><line y1="-47" y2="-43" transform="rotate(146.25)"/><line y1="-47" y2="-43" transform="rotate(157.5)"/><line y1="-47" y2="-43" transform="rotate(168.75)"/><line y1="-47" y2="-40" transform="rotate(180)"/><line y1="-47" y2="-43" transform="rotate(191.25)"/><line y1="-47" y2="-43" transform="rotate(202.5)"/><line y1="-47" y2="-43" transform="rotate(213.75)"/><line y1="-47" y2="-40" transform="rotate(225)"/><line y1="-47" y2="-43" transform="rotate(236.25)"/><line y1="-47" y2="-43" transform="rotate(247.5)"/><line y1="-47" y2="-43" transform="rotate(258.75)"/><line y1="-47" y2="-40" transform="rotate(270)"/><line y1="-47" y2="-43" transform="rotate(281.25)"/><line y1="-47" y2="-43" transform="rotate(292.5)"/><line y1="-47" y2="-43" transform="rotate(303.75)"/><line y1="-47" y2="-40" transform="rotate(315)"/><line y1="-47" y2="-43" transform="rotate(326.25)"/><line y1="-47" y2="-43" transform="rotate(337.5)"/><line y1="-47" y2="-43" transform="rotate(348.75)"/></g>
+      <g class="needle">
+        <path class="dark" d="M0 -44 6 -6 0 0z M0 44 -6 6 0 0z M44 0 6 6 0 0z M-44 0 -6 -6 0 0z"/>
+        <path class="light" d="M0 -44 -6 -6 0 0z M0 44 6 6 0 0z M44 0 6 -6 0 0z M-44 0 -6 6 0 0z"/>
+        <path class="light" d="M0 -30 3 -3 0 0 -3 -3z" transform="rotate(45)"/><path class="light" d="M0 -30 3 -3 0 0 -3 -3z" transform="rotate(135)"/>
+        <path class="light" d="M0 -30 3 -3 0 0 -3 -3z" transform="rotate(225)"/><path class="light" d="M0 -30 3 -3 0 0 -3 -3z" transform="rotate(315)"/>
+      </g>
+      <text y="-52" class="compass-n">N</text>
+    </svg>
+      <h2 id="core-title">Core team</h2>
+      <div class="explanation-frame">
+      <ul>
+        <li class="entry">
+          <img class="vignette" src="../content/team/kirylkaveryn.jpg" alt="" width="64" height="64" loading="lazy">
+          <div class="entry-text">
+            <p class="entry-line"><span class="name">Kiryl Kaveryn</span><span class="leader" aria-hidden="true"></span><span class="epithet">Topographer of the iOS sheet</span></p>
+            <p class="role">iOS · <a href="https://github.com/kirylkaveryn" rel="noopener" target="_blank">@kirylkaveryn</a></p>
+            <p class="bio">The team's iOS expert, working across the whole iOS app.</p>
+          </div>
+          <svg class="hand" viewBox="0 0 48 24" aria-hidden="true" focusable="false"><path d="M1 7h9v11H1z M3 7v11 M5.5 7v11 M8 7v11"/><path d="M10 8.5c3-1.5 6-2.5 9-2.5h20c2 0 2 3 0 3H25 M23 9c4 0 4 2.6 0 2.6 M22 11.6c4 0 4 2.6 0 2.6 M20.5 14.2c3.6 0 3.6 2.6 0 2.6H13l-3-1"/></svg>
+        </li>
+        <li class="entry">
+          <img class="vignette" src="../content/team/strider-dunadan.png" alt="" width="64" height="64" loading="lazy">
+          <div class="entry-text">
+            <p class="entry-line"><span class="name">Mikhail Listratsenka</span><span class="leader" aria-hidden="true"></span><span class="epithet">Topographer of the Android &amp; Wear OS sheets</span></p>
+            <p class="role">Android &amp; Wear OS · <a href="https://github.com/strider-dunadan" rel="noopener" target="_blank">@strider-dunadan</a> <a href="https://www.linkedin.com/in/mikhail-listratsenka-395798115/" rel="noopener" target="_blank">LinkedIn</a></p>
+            <p class="bio">Works across the whole Android app and the Wear OS watch app.</p>
+          </div>
+          <svg class="hand" viewBox="0 0 48 24" aria-hidden="true" focusable="false"><path d="M1 7h9v11H1z M3 7v11 M5.5 7v11 M8 7v11"/><path d="M10 8.5c3-1.5 6-2.5 9-2.5h20c2 0 2 3 0 3H25 M23 9c4 0 4 2.6 0 2.6 M22 11.6c4 0 4 2.6 0 2.6 M20.5 14.2c3.6 0 3.6 2.6 0 2.6H13l-3-1"/></svg>
+        </li>
+        <li class="entry join">
+          <span class="vignette-blank" aria-hidden="true"></span>
+          <div class="entry-text">
+            <p class="entry-line"><a class="name" href="/contribute/">This could be you</a><span class="leader" aria-hidden="true"></span><span class="epithet">Sheet not yet surveyed</span></p>
+            <p class="bio">Code, translations, map edits or helping other users — every contribution counts.</p>
+          </div>
+          <svg class="hand" viewBox="0 0 48 24" aria-hidden="true" focusable="false"><path d="M1 7h9v11H1z M3 7v11 M5.5 7v11 M8 7v11"/><path d="M10 8.5c3-1.5 6-2.5 9-2.5h20c2 0 2 3 0 3H25 M23 9c4 0 4 2.6 0 2.6 M22 11.6c4 0 4 2.6 0 2.6 M20.5 14.2c3.6 0 3.6 2.6 0 2.6H13l-3-1"/></svg>
+        </li>
+      </ul>
+      </div>
+    </section>
+
+    
+
+    <svg class="rule-scale" viewBox="0 0 320 10" aria-hidden="true" focusable="false"><rect class="frame" x="0.5" y="0.5" width="319" height="9"/><rect x="0" y="0" width="20" height="5"/><rect x="40" y="5" width="20" height="5"/><rect x="80" y="0" width="20" height="5"/><rect x="120" y="5" width="20" height="5"/><rect x="160" y="0" width="20" height="5"/><rect x="200" y="5" width="20" height="5"/><rect x="240" y="0" width="20" height="5"/><rect x="280" y="5" width="20" height="5"/></svg>
+
+    <section class="community" aria-labelledby="community-title">
+      <h2 id="community-title">Built together with the community</h2>
+      <p>Organic Maps would not exist without volunteers from all over the world: developers who send fixes, translators, testers, and OpenStreetMap mappers who keep the map up to date.</p>
+      <p class="links">
+        <a href="https://github.com/organicmaps/organicmaps/graphs/contributors" rel="noopener" target="_blank">See everyone who contributed</a>
+        <a href="/contribute/">Find out how you can help</a>
+      </p>
+    </section>
+  </main>
+  <footer><p class="imprint">Organic Maps · Team</p></footer>
+</div></div></div></div>
+</body>
+</html>

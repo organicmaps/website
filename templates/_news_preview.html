@@ -1,0 +1,21 @@
+{% component news_parent_preview(resource, default_language) -%}
+{# Source folders, unlike public slugs, are shared by every translation. #}
+{%- set source_dir = resource | get(key="colocated_path", default="") -%}
+{%- set source_file = resource | get(key="relative_path", default="") -%}
+{%- if source_dir and source_file is starting_with(pat="news/") -%}
+  {%- set folder = source_dir | trim_end(pat="/") -%}
+  {%- set article_id = folder | split(pat="/") | last -%}
+  {%- set parent_dir = folder | trim_end(pat=article_id) -%}
+  {%- set filename = article_id ~ "-preview.jpg" -%}
+  {%- set parent = get_section(path=parent_dir ~ "_index.md", lang=default_language, allow_missing=true) -%}
+  {%- if parent -%}
+    {%- for asset in parent.assets -%}
+      {%- if asset | split(pat="/") | last == filename -%}
+        {%- set _preview_exists = get_image_metadata(path=asset) -%}
+        {{- parent.path ~ (filename | urlencode) -}}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}
+{%- endcomponent news_parent_preview %}

@@ -1,0 +1,40 @@
+{% component news_has_landscape(resource) -%}
+{%- for media in resource.assets -%}
+  {%- set extension = media | split(pat=".") | last | lower -%}
+  {%- if extension in ["jpg", "jpeg", "png", "webp"] -%}
+    {%- set meta = get_image_metadata(path=media) -%}
+    {%- if meta.width > meta.height -%}true{%- break -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcomponent news_has_landscape %}
+
+{% component news_media(resource, eager_first_image=false, autoplay=false) -%}
+{%- set alts = resource.extra | get(key="media_alt", default={}) -%}
+{%- set_global first_image = true -%}
+{%- set_global image_filenames = [] -%}
+{%- for media in resource.assets | sort -%}
+  {%- set filename = media | split(pat="/") | last -%}
+  {%- set extension = filename | split(pat=".") | last | lower -%}
+  {%- set url = resource.path ~ (filename | urlencode) -%}
+  {%- if extension == "mp4" %}
+<video class="news_video" controls{% if autoplay %} autoplay muted{% else %} preload="metadata"{% endif %}>
+  <source src="{{ url }}" type="video/mp4">
+</video>
+  {%- elif extension in ["jpg", "jpeg", "png", "webp"] -%}
+    {%- set meta = get_image_metadata(path=media) -%}
+    {%- set_global image_filenames = [...image_filenames, filename] -%}
+    {%- set alt = alts | get(key=filename, default=resource.title) %}
+<img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ url }}" width="{{ meta.width }}" height="{{ meta.height }}" alt="{{ alt }}" loading="{% if eager_first_image and first_image %}eager{% else %}lazy{% endif %}" decoding="async" />
+    {%- set_global first_image = false -%}
+  {#- The audio component embeds MP3s in the article text. Any other type
+      would be missing from the site without a signal, so it stops the build. -#}
+  {%- elif extension != "mp3" -%}
+    {{- throw(message="Unsupported news asset '" ~ media ~ "'") -}}
+  {%- endif -%}
+{%- endfor -%}
+{%- for filename, _description in alts -%}
+  {%- if filename not in image_filenames -%}
+    {{- throw(message="media_alt key '" ~ filename ~ "' matches no image asset of " ~ resource.relative_path) -}}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcomponent news_media %}

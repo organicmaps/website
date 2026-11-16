@@ -470,13 +470,20 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
     src_body, src_meta = strip_frontmatter(src)
     out_body, out_meta = strip_frontmatter(out)
     problems: list[Problem] = []
+    src_fields = _frontmatter_prose(src_meta)
+    out_fields = _frontmatter_prose(out_meta)
+
+    # Empty descriptions mark decorative images, so their presence matters too.
+    # Missing entries otherwise silently fall back to the translated page title.
+    for key in src_fields:
+        if key.startswith("extra.media_alt.") and key not in out_fields:
+            problems.append(Problem(
+                WARN, "missing-media-alt",
+                f"'{key}' is missing from the translation"))
 
     # Titles, descriptions and menu labels remain visible even when a section
     # body is only a maintenance note, so validate metadata before body exemptions.
     if out_meta:
-        src_fields = _frontmatter_prose(src_meta)
-        out_fields = _frontmatter_prose(out_meta)
-
         for key, value in out_fields.items():
             ok, msg = register_ok(value, lang)
             if not ok:

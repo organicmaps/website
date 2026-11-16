@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from itertools import product
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 DESTINATIONS = {
@@ -104,6 +105,32 @@ class MainLinks(HTMLParser):
             self.in_main = False
 
 
+class NewsMedia(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.images = []
+        self.videos = []
+        self.sources = []
+        self.audio = []
+        self.order = []
+        self.layouts = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "img" and attrs.get("class", "").startswith("news_image"):
+            self.images.append(attrs)
+            self.order.append(attrs["src"])
+        elif tag == "video":
+            self.videos.append(attrs)
+        elif tag == "source":
+            self.sources.append(attrs)
+            self.order.append(attrs["src"])
+        elif tag == "audio":
+            self.audio.append(attrs)
+        elif tag == "div" and attrs.get("class", "").startswith("news_content_image"):
+            self.layouts.append(attrs["class"])
+
+
 class NavigationTests(unittest.TestCase):
     def setUp(self):
         self.zola = shutil.which("zola")
@@ -151,7 +178,7 @@ class NavigationTests(unittest.TestCase):
                   '[translations]\nback = "Back"\n'
                   '[languages.de]\ntaxonomies = [{name = "news"}]\n'
                   '[languages.de.translations]\nback = "Zurück"\n')
-            for template in ("base.html", "_jsonld_news.html", "_news_preview.html", "sitemap.xml",
+            for template in ("base.html", "_jsonld_news.html", "_news_preview.html", "_news_media.html", "sitemap.xml",
                              "news/page.html", "news/list.html", "news/date_section.html",
                              "shortcodes/screenshot.html"):
                 write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
@@ -274,6 +301,114 @@ class NavigationTests(unittest.TestCase):
             overridden.write_text(original)
             (parent / "parent-preview.jpg").write_bytes(b"not a valid image")
             self.build(root, expected_error="get_image_metadata")
+
+    def test_news_media_in_articles_listings_and_date_archives(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write(root, "config.toml", 'base_url = "https://example.org"\n'
+                  'taxonomies = [{name = "news"}]\n'
+                  '[translations]\nback = "Back"\n'
+                  '[languages.de]\ntaxonomies = [{name = "news"}]\n'
+                  '[languages.de.translations]\nback = "Zurück"\n')
+            write(root, "templates/base.html", '{% if page %}{% set resource = page %}'
+                  '{% elif section %}{% set resource = section %}'
+                  '{% else %}{% set resource = get_section(path="news/_index.md", lang=lang) %}{% endif %}'
+                  '{% set resource_path = resource.path %}'
+                  '{% block og_type %}{% endblock %}{% block article_meta %}{% endblock %}'
+                  '{% block content %}{% endblock %}')
+            write(root, "templates/_jsonld_news.html", "")
+            write(root, "templates/index.html", '{% extends "base.html" %}')
+            write(root, "templates/news/single.html", "{{ term.name }}")
+            for template in ("_news_media.html", "news/page.html", "news/list.html",
+                             "news/date_section.html", "shortcodes/audio.html"):
+                write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
+            for suffix, title, slug, description in (
+                ("", 'Maps & mountains', "mixed", 'Ridges & valleys at "sunset" <detail>'),
+                (".de", 'Karten & Berge', "gemischt", 'Berge & Täler bei "Sonnenuntergang" <Detail>'),
+            ):
+                write(root, f"content/_index{suffix}.md", "---\ntitle: Home\n---\n")
+                write(root, f"content/news/_index{suffix}.md", '---\ntitle: News\n'
+                      'render: false\npage_template: news/page.html\n---\n')
+                write(root, f"content/news/2024-01-01/_index{suffix}.md", '---\ntitle: News\n'
+                      'template: news/date_section.html\n---\n')
+                write(root, f"content/news/2024-01-01/1/index{suffix}.md",
+                      f'---\ntitle: {title}\nslug: {slug}\ndate: 2024-01-01\n'
+                      'taxonomies:\n  news: ["Releases"]\nextra:\n  media_alt:\n'
+                      f'    "01-cover.WEBP": \'{description}\'\n'
+                      '    "04-decoration.png": ""\n---\n'
+                      '{{ <audio title="Song" url="/news/2024-01-01/mixed/06-voice.MP3" /> }}\n')
+                write(root, f"content/news/2024-01-01/2/index{suffix}.md",
+                      '---\ntitle: Portrait\nslug: portrait\ndate: 2024-01-01\n'
+                      'taxonomies:\n  news: ["Releases"]\n---\nPortrait.\n')
+            folder = root / "content/news/2024-01-01/1"
+            fixtures = ROOT / "tools/fixtures"
+            (root / "content/news/2024-01-01/2/portrait.png").write_bytes((fixtures / "portrait-test.png").read_bytes())
+            files = {
+                "00-video.MP4": b"video",
+                "01-cover.WEBP": (fixtures / "preview-test.webp").read_bytes(),
+                "02-detail.jpeg": (fixtures / "preview-test.jpg").read_bytes(),
+                "03-portrait.PNG": (fixtures / "portrait-test.png").read_bytes(),
+                "04-decoration.png": (fixtures / "portrait-test.png").read_bytes(),
+                "05-spaced #image.JPG": (fixtures / "preview-test.jpg").read_bytes(),
+                "06-voice.MP3": b"audio",
+            }
+            for name in reversed(files):
+                (folder / name).write_bytes(files[name])
+            self.build(root)
+            for prefix, slug, title, description in (
+                ("", "mixed", 'Maps & mountains', 'Ridges & valleys at "sunset" <detail>'),
+                ("de/", "gemischt", 'Karten & Berge', 'Berge & Täler bei "Sonnenuntergang" <Detail>'),
+            ):
+                path = f"/{prefix}news/2024-01-01/{slug}/"
+                views = {"article": f"{path.lstrip('/')}index.html",
+                         "listing": f"{prefix}news/index.html",
+                         "date": f"{prefix}news/2024-01-01/index.html"}
+                for view, output in views.items():
+                    with self.subTest(language=prefix or "en", view=view):
+                        html = (root / "public" / output).read_text()
+                        parser = NewsMedia()
+                        parser.feed(html)
+                        self.assertEqual([src for src in parser.order if src.startswith(path)],
+                                         [path + quote(name, safe="") for name in sorted(files)[:6]])
+                        self.assertEqual(len(parser.videos), 1)
+                        self.assertIn("controls", parser.videos[0])
+                        if view != "article":
+                            self.assertEqual(parser.videos[0]["preload"], "metadata")
+                        self.assertEqual("autoplay" in parser.videos[0], view == "article")
+                        self.assertEqual(parser.sources[0]["type"], "video/mp4")
+                        # MP3s are embedded by the article's audio component, once.
+                        self.assertEqual(len(parser.audio), 1)
+                        images = [image for image in parser.images if image["src"].startswith(path)]
+                        self.assertEqual(len(images), 5)
+                        for index, image in enumerate(images):
+                            self.assertEqual(image["loading"], "eager" if view == "article" and index == 0 else "lazy")
+                            self.assertEqual(image["decoding"], "async")
+                            portrait = index in (2, 3)
+                            self.assertEqual((image["width"], image["height"]), ("1", "2") if portrait else ("2", "1"))
+                            self.assertEqual(image["class"], "news_image" if portrait else "news_image_landscape")
+                            self.assertEqual(image["alt"], description if index == 0 else "" if index == 3 else title)
+                        self.assertNotIn('alt="Ridges & valleys at "sunset"', html)
+                        if view == "listing":
+                            self.assertCountEqual(parser.layouts, ["news_content_image_noflex", "news_content_image"])
+
+            for extension in ("PDF", "svg", "mov", "m4a", "gif", "avif", "webm"):
+                with self.subTest(unsupported=extension):
+                    unsupported = folder / f"unsupported.{extension}"
+                    unsupported.write_bytes(b"unsupported")
+                    try:
+                        self.build(root, expected_error=f"Unsupported news asset '/news/2024-01-01/1/unsupported.{extension}'")
+                    finally:
+                        unsupported.unlink()
+
+            source = folder / "index.md"
+            original = source.read_text()
+            for key in ("01-cover.webp", "stale.webp", "00-video.MP4", "06-voice.MP3"):
+                with self.subTest(invalid_alt_key=key):
+                    source.write_text(original.replace('"01-cover.WEBP"', f'"{key}"'))
+                    try:
+                        self.build(root, expected_error=f"media_alt key '{key}' matches no image asset")
+                    finally:
+                        source.write_text(original)
 
     def navigation_site(self, root):
         write(root, "config.toml", CONFIG)

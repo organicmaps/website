@@ -44,6 +44,30 @@ taxonomies:
 ```
 
 JPEG, PNG and WebP images stored alongside a news post are rendered automatically.
+The article, news listing and date archive share one media renderer. Filenames
+are sorted and extensions are case-insensitive. MP4 files render as videos;
+MP3 files can be embedded in the text with the `audio` component. Other file
+types stop the build. Images reserve their dimensions and use async decoding;
+listing and archive images load lazily. Articles keep their first image eager.
+Listing and archive videos preload metadata so their previews and dimensions
+are available before playback.
+
+Add specific image descriptions in each translation's frontmatter:
+
+```yaml
+extra:
+  media_alt:
+    "01-map.webp": "Mountain trails and contour lines around the summit"
+    "02-decoration.png": ""
+```
+
+Keys must match image filenames exactly or the build stops. An image without
+a `media_alt` entry uses the localized article title; use an empty description
+only for decorative or redundant images. Translate `extra.media_alt` manually,
+because `translate_md.py` copies `extra` unchanged. `translate_check.py` warns
+when an entry from the English source is missing (including an empty entry
+for a decorative image), or a description is still identical to English.
+
 Social previews use this order:
 
 1. An explicit `extra.preview_image` (a colocated filename or site-root path).
@@ -58,7 +82,9 @@ stays out of the article gallery and Telegram album. Explicit and automatic
 parent previews are included in the image sitemap. Missing explicit local
 previews stop the build instead of publishing broken image URLs.
 
-Telegram media discovery also recognizes `.webp` files.
+Telegram media discovery also recognizes `.webp` files. Standalone Telegram
+folders can include `.mov` and `.m4a`; news folders must use the website's
+supported formats listed above.
 For shared images in `static/`, the `screenshot` component accepts WebP paths and
 reads their dimensions just as it does for JPEG and PNG.
 

@@ -366,6 +366,7 @@ When adding a term, prefer one that is unambiguous in every context: whole-word 
 - The glossary above covers these mechanically for DeepL; the notes below still apply to manual and LLM proofreading.
 - For "bookmark" or "bookmarks" (a saved favorite place), use "метка" or "метки" in Russian and "мітка" or "мітки" in Ukrainian.
 - "track" (recorded path on the map that user walked) to Russian, use word "трек"; for Lithuanian, use word "trasa"
+- For imported polygon areas, read and follow the [shared terminology](https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md#polygon-areas). When the sibling app checkout is available, read `../omim/docs/TRANSLATIONS.md` locally (path relative to this repository's root).
 - "route" to Russian, use word "маршрут"
 - "icon" or "icons" (place's image symbol on the map), use word "иконка" или "иконки" for Russian
 - "outdoors" or "outdoors style" or "outdoors map style" use "стиль для активного отдыха" for Russian, use "режим Активний відпочинок" for Ukrainian.

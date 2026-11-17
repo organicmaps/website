@@ -115,13 +115,17 @@ def select_groups(only: str | None, skip: str | None) -> dict[str, str]:
 
 
 def find_media(folder: Path) -> list[Path]:
-    """Find all media files in the folder."""
+    """Find media, preferring lowercase .webp siblings over JPEG and PNG originals."""
     media = sorted(
         p
         for p in folder.iterdir()
         if p.is_file() and p.suffix.lower() in MEDIA_EXTENSIONS
     )
-    return media
+    webp_names = {p.name for p in media if p.suffix == ".webp"}
+    return [
+        p for p in media
+        if not (p.suffix.lower() in {".jpg", ".jpeg", ".png"} and p.with_suffix(".webp").name in webp_names)
+    ]
 
 
 def prepare_text(md_path: Path, site_root: Path) -> str:

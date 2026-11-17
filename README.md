@@ -52,6 +52,32 @@ listing and archive images load lazily. Articles keep their first image eager.
 Listing and archive videos preload metadata so their previews and dimensions
 are available before playback.
 
+For new posts, publish WebP images once and reuse them for both the website and
+sharing previews. The first image is used automatically, or `extra.preview_image`
+can select another published image. Keep a separate sharing cover only when it
+needs different artwork or framing, using the parent-folder convention below.
+Do not add JPEG/PNG duplicates for new posts or introduce redirects or aliases
+when converting news images.
+
+Already-published posts retain their original preview filenames, paths and
+`extra.preview_image` values. An original preview may remain alongside a lowercase
+`.webp` with the same filename stem. The gallery and Telegram use the WebP.
+Key `extra.media_alt` by the filename shown in the gallery.
+
+For image optimization, install `cwebp` from libwebp and prepare a temporary
+candidate outside the article folder:
+
+```bash
+cwebp -lossless -q 100 -m 6 -exact -metadata icc source.png -o /tmp/news-candidate.webp
+cwebp -q 90 -m 6 -sharp_yuv -metadata icc source.jpg -o /tmp/news-candidate.webp
+```
+
+These settings preserve image dimensions and ICC profiles. WebP is 8-bit, so
+16-bit PNG sources are reduced to 8-bit before lossless encoding. Compare size
+and visual quality, then publish the WebP in the article folder when it is
+smaller. Update filename references in every translation when you replace an
+original.
+
 Add specific image descriptions in each translation's frontmatter:
 
 ```yaml
@@ -71,16 +97,16 @@ for a decorative image), or a description is still identical to English.
 Social previews use this order:
 
 1. An explicit `extra.preview_image` (a colocated filename or site-root path).
-2. A parent-folder JPEG named `<article-folder>-preview.jpg` for a bundled news post.
+2. A parent-folder cover named `<article-folder>-preview.jpg` or `<article-folder>-preview.webp` for a bundled news post. Existing JPEG covers take priority.
 3. The first supported article image in filename order, detecting extensions case-insensitively.
 4. The default site image.
 
-For example, `content/news/2026-11-11/650-preview.jpg` is automatically used by
-`content/news/2026-11-11/650/index.md` and its translations, without any preview
-YAML. The name comes from the source folder, not the public slug. The image
-stays out of the article gallery and Telegram album. Explicit and automatic
-parent previews are included in the image sitemap. Missing explicit local
-previews stop the build instead of publishing broken image URLs.
+A new post in `content/news/YYYY-MM-DD/NNN/` can use
+`content/news/YYYY-MM-DD/NNN-preview.webp` as its separate cover. Zola finds it
+by source folder name and uses it for translations without preview YAML. The
+cover stays out of the article gallery and Telegram album. The image sitemap
+includes explicit and automatic parent previews. A missing explicit local
+preview stops the build.
 
 Telegram media discovery also recognizes `.webp` files. Standalone Telegram
 folders can include `.mov` and `.m4a`; news folders must use the website's

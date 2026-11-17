@@ -199,8 +199,10 @@ class NavigationTests(unittest.TestCase):
             (root / "static/http-assets/cover.jpg").write_bytes(jpeg)
             cases = {
                 "auto": ("", "auto", "01-preview.WEBP"),
+                "legacy": ("", "legacy", "01-preview.jpg"),
                 "chosen": ("extra:\n  preview_image: cover.webp\n", "chosen", "cover.webp"),
                 "parent": ("", "custom-slug", "/news/2024-01-01/parent-preview.jpg"),
+                "parent-webp": ("", "parent-webp", "/news/2024-01-01/parent-webp-preview.webp"),
                 "override": ("extra:\n  preview_image: cover.webp\n", "override", "cover.webp"),
                 "site-root": ("extra:\n  preview_image: /images/map.WEBP\n", "site-root", "/images/map.WEBP"),
                 "local-http-name": ("extra:\n  preview_image: http-cover.jpg\n", "local-http-name", "http-cover.jpg"),
@@ -223,16 +225,21 @@ class NavigationTests(unittest.TestCase):
             parent = root / "content/news/2024-01-01"
             for name in ("parent", "override"):
                 (parent / f"{name}-preview.jpg").write_bytes(jpeg)
+                (parent / f"{name}-preview.webp").write_bytes(image)
+            (parent / "parent-webp-preview.webp").write_bytes(image)
             # The convention has an exact filename, even on case-insensitive filesystems.
             (parent / "auto-preview.JPG").write_bytes(jpeg)
             for name in cases:
                 folder = root / "content/news/2024-01-01" / name
                 (folder / "00-video.mp4").write_bytes(b"video")
                 if name != "fallback":
-                    (folder / "01-preview.WEBP").write_bytes(image)
+                    gallery_cover = "01-preview.webp" if name == "legacy" else "01-preview.WEBP"
+                    (folder / gallery_cover).write_bytes(image)
                     (folder / "02-detail.webp").write_bytes(image)
                 if name in ("chosen", "override"):
                     (folder / "cover.webp").write_bytes(image)
+                if name == "legacy":
+                    (folder / "01-preview.jpg").write_bytes(jpeg)
                 if name == "local-http-name":
                     (folder / "http-cover.jpg").write_bytes(jpeg)
 
@@ -265,7 +272,8 @@ class NavigationTests(unittest.TestCase):
                         ).group(1))
                         if preview:
                             self.assertEqual(article["image"], [expected])
-                            for filename in ("01-preview.WEBP", "02-detail.webp"):
+                            gallery_cover = "01-preview.webp" if name == "legacy" else "01-preview.WEBP"
+                            for filename in (gallery_cover, "02-detail.webp"):
                                 self.assertTrue((public / path.strip("/") / filename).is_file())
                                 for output in (html, listing):
                                     self.assertIn(f'class="news_image_landscape" src="{path}{filename}"', output)
@@ -280,10 +288,14 @@ class NavigationTests(unittest.TestCase):
                             self.assertNotIn("image", article)
                         expected_count = 0 if name == "fallback" else 3 if name in ("chosen", "override", "local-http-name") else 2
                         self.assertEqual(len(re.findall(r'<img class="news_image(?:_landscape)?"', html)), expected_count)
-                        if name in ("chosen", "parent", "override", "site-root", "local-http-name", "local-http-path"):
+                        if name in ("chosen", "parent", "parent-webp", "override", "site-root", "local-http-name", "local-http-path"):
                             self.assertEqual(sitemap_images["https://example.org" + path], expected)
                         else:
                             self.assertIsNone(sitemap_images["https://example.org" + path])
+                        if name == "legacy":
+                            self.assertEqual((public / path.strip("/") / "01-preview.jpg").read_bytes(), jpeg)
+                            for output in (html, listing, dated):
+                                self.assertNotRegex(output, r'<img[^>]*src="' + re.escape(path + '01-preview.jpg') + r'"')
                 for name in ("parent", "override"):
                     filename = f"/news/2024-01-01/{name}-preview.jpg"
                     self.assertTrue((public / filename.lstrip("/")).is_file())
@@ -334,7 +346,7 @@ class NavigationTests(unittest.TestCase):
                 write(root, f"content/news/2024-01-01/1/index{suffix}.md",
                       f'---\ntitle: {title}\nslug: {slug}\ndate: 2024-01-01\n'
                       'taxonomies:\n  news: ["Releases"]\nextra:\n  media_alt:\n'
-                      f'    "01-cover.WEBP": \'{description}\'\n'
+                      f'    "01-cover.webp": \'{description}\'\n'
                       '    "04-decoration.png": ""\n---\n'
                       '{{ <audio title="Song" url="/news/2024-01-01/mixed/06-voice.MP3" /> }}\n')
                 write(root, f"content/news/2024-01-01/2/index{suffix}.md",
@@ -345,11 +357,12 @@ class NavigationTests(unittest.TestCase):
             (root / "content/news/2024-01-01/2/portrait.png").write_bytes((fixtures / "portrait-test.png").read_bytes())
             files = {
                 "00-video.MP4": b"video",
-                "01-cover.WEBP": (fixtures / "preview-test.webp").read_bytes(),
+                "01-cover.webp": (fixtures / "preview-test.webp").read_bytes(),
+                "01-cover.jpg": (fixtures / "preview-test.jpg").read_bytes(),
                 "02-detail.jpeg": (fixtures / "preview-test.jpg").read_bytes(),
                 "03-portrait.PNG": (fixtures / "portrait-test.png").read_bytes(),
                 "04-decoration.png": (fixtures / "portrait-test.png").read_bytes(),
-                "05-spaced #image.JPG": (fixtures / "preview-test.jpg").read_bytes(),
+                "05-spaced #image.webp": (fixtures / "preview-test.webp").read_bytes(),
                 "06-voice.MP3": b"audio",
             }
             for name in reversed(files):
@@ -369,7 +382,8 @@ class NavigationTests(unittest.TestCase):
                         parser = NewsMedia()
                         parser.feed(html)
                         self.assertEqual([src for src in parser.order if src.startswith(path)],
-                                         [path + quote(name, safe="") for name in sorted(files)[:6]])
+                                         [path + quote(name, safe="") for name in sorted(files)
+                                          if name not in ("01-cover.jpg", "06-voice.MP3")])
                         self.assertEqual(len(parser.videos), 1)
                         self.assertIn("controls", parser.videos[0])
                         if view != "article":
@@ -390,6 +404,10 @@ class NavigationTests(unittest.TestCase):
                         self.assertNotIn('alt="Ridges & valleys at "sunset"', html)
                         if view == "listing":
                             self.assertCountEqual(parser.layouts, ["news_content_image_noflex", "news_content_image"])
+                self.assertEqual((root / "public" / path.lstrip("/") / "05-spaced #image.webp").read_bytes(),
+                                 files["05-spaced #image.webp"])
+                self.assertEqual((root / "public" / path.lstrip("/") / "01-cover.jpg").read_bytes(),
+                                 files["01-cover.jpg"])
 
             for extension in ("PDF", "svg", "mov", "m4a", "gif", "avif", "webm"):
                 with self.subTest(unsupported=extension):
@@ -402,11 +420,11 @@ class NavigationTests(unittest.TestCase):
 
             source = folder / "index.md"
             original = source.read_text()
-            for key in ("01-cover.webp", "stale.webp", "00-video.MP4", "06-voice.MP3"):
+            for key in ("01-cover.jpg", "01-cover.WEBP", "stale.webp", "00-video.MP4", "06-voice.MP3"):
                 with self.subTest(invalid_alt_key=key):
-                    source.write_text(original.replace('"01-cover.WEBP"', f'"{key}"'))
+                    source.write_text(original.replace('"01-cover.webp"', f'"{key}"'))
                     try:
-                        self.build(root, expected_error=f"media_alt key '{key}' matches no image asset")
+                        self.build(root, expected_error=f"media_alt key '{key}' matches no gallery image")
                     finally:
                         source.write_text(original)
 

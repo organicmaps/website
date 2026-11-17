@@ -6,11 +6,12 @@
   {%- set folder = source_dir | trim_end(pat="/") -%}
   {%- set article_id = folder | split(pat="/") | last -%}
   {%- set parent_dir = folder | trim_end(pat=article_id) -%}
-  {%- set filename = article_id ~ "-preview.jpg" -%}
   {%- set parent = get_section(path=parent_dir ~ "_index.md", lang=default_language, allow_missing=true) -%}
   {%- if parent -%}
-    {%- for asset in parent.assets -%}
-      {%- if asset | split(pat="/") | last == filename -%}
+    {# Existing JPEG cover URLs take priority; new covers can be WebP. #}
+    {%- for filename in [article_id ~ "-preview.jpg", article_id ~ "-preview.webp"] -%}
+      {%- set asset = "/" ~ parent_dir ~ filename -%}
+      {%- if asset in parent.assets -%}
         {%- set _preview_exists = get_image_metadata(path=asset) -%}
         {{- parent.path ~ (filename | urlencode) -}}
         {%- break -%}

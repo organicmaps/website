@@ -24,6 +24,7 @@ from telegram_post import (  # noqa: E402
     validate_media_set,
     visible_text,
 )
+from telegram_post_all import find_media  # noqa: E402
 from translate_check import ERROR, WARN, check_translation, emphasis_faults  # noqa: E402
 from translate_md import (  # noqa: E402
     _segments, localize_zola_links, register_ok, tidy, translate_post, translate_text,
@@ -356,6 +357,15 @@ Organic Maps。
 
 
 class TelegramToolingTests(unittest.TestCase):
+    def test_media_discovery_prefers_webp_over_retained_preview_originals(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            for name in ("01-cover.JPG", "01-cover.WEBP", "02-map.PNG", "02-map.jpeg",
+                         "02-map.webp", "03-legacy.PNG", "04-video.mp4", "05-audio.mp3", "notes.txt"):
+                (folder / name).write_bytes(b"media")
+            self.assertEqual([path.name for path in find_media(folder)],
+                             ["01-cover.JPG", "01-cover.WEBP", "02-map.webp", "03-legacy.PNG", "04-video.mp4", "05-audio.mp3"])
+
     def test_current_tera_components_are_removed_from_posts(self):
         text = (
             "Before\n\n{{ <screenshot\n"

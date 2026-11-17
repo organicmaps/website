@@ -209,9 +209,9 @@ Pure CSS dropdown using hidden checkbox trick (`input.lang-menu-trigger`). JavaS
 
 ### Preview Images
 
-OpenGraph images use `resource.extra.preview_image` first, then an automatic parent-folder news preview, then the first JPEG/PNG/WebP asset in sorted filename order, falling back to `images/screenshots/prague.jpg`. Explicit local previews must exist or the build stops.
+OpenGraph images use `resource.extra.preview_image` first, then an automatic parent-folder news preview, then the first JPEG/PNG/WebP asset in sorted filename order, falling back to `images/screenshots/prague.jpg`. Explicit local previews must exist or the build stops. When a published JPEG/PNG preview has a lowercase `.webp` sibling with the same filename stem, keep the published preview URL for sharing. Galleries and Telegram use the WebP. Key `extra.media_alt` by the gallery filename.
 
-For a bundled news post in `content/news/YYYY-MM-DD/NNN/`, put its sharing cover at `content/news/YYYY-MM-DD/NNN-preview.jpg` (this exact filename convention). The shared `news_parent_preview` component finds it using the source folder ID, independently of translated public slugs. No preview YAML is needed in any language. The cover stays out of article galleries and Telegram media discovery, and is included in the image sitemap. Keep the lookup shared between page metadata and sitemap generation.
+If a bundled post in `content/news/YYYY-MM-DD/NNN/` needs a separate sharing cover, use `content/news/YYYY-MM-DD/NNN-preview.webp`. An existing `NNN-preview.jpg` takes priority. The shared `news_parent_preview` component finds it using the source folder ID, independently of translated public slugs. No preview YAML is needed in any language. The cover stays out of article galleries and Telegram media discovery, and is included in the image sitemap. Keep the lookup shared between page metadata and sitemap generation.
 
 ### Matching substrings in templates
 

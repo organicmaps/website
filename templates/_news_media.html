@@ -14,15 +14,21 @@
 {%- set_global image_filenames = [] -%}
 {%- for media in resource.assets | sort -%}
   {%- set filename = media | split(pat="/") | last -%}
-  {%- set extension = filename | split(pat=".") | last | lower -%}
+  {%- set filename_extension = filename | split(pat=".") | last -%}
+  {%- set extension = filename_extension | lower -%}
   {%- set url = resource.path ~ (filename | urlencode) -%}
   {%- if extension == "mp4" %}
 <video class="news_video" controls{% if autoplay %} autoplay muted{% else %} preload="metadata"{% endif %}>
   <source src="{{ url }}" type="video/mp4">
 </video>
   {%- elif extension in ["jpg", "jpeg", "png", "webp"] -%}
-    {%- set meta = get_image_metadata(path=media) -%}
+    {#- Keep sharing previews published and show their WebP siblings in the gallery. -#}
+    {%- if extension != "webp" -%}
+      {%- set webp_path = (media | trim_end(pat=filename_extension)) ~ "webp" -%}
+      {%- if webp_path in resource.assets -%}{%- continue -%}{%- endif -%}
+    {%- endif -%}
     {%- set_global image_filenames = [...image_filenames, filename] -%}
+    {%- set meta = get_image_metadata(path=media) -%}
     {%- set alt = alts | get(key=filename, default=resource.title) %}
 <img class="news_image{% if meta.width > meta.height %}_landscape{% endif %}" src="{{ url }}" width="{{ meta.width }}" height="{{ meta.height }}" alt="{{ alt }}" loading="{% if eager_first_image and first_image %}eager{% else %}lazy{% endif %}" decoding="async" />
     {%- set_global first_image = false -%}
@@ -34,7 +40,7 @@
 {%- endfor -%}
 {%- for filename, _description in alts -%}
   {%- if filename not in image_filenames -%}
-    {{- throw(message="media_alt key '" ~ filename ~ "' matches no image asset of " ~ resource.relative_path) -}}
+    {{- throw(message="media_alt key '" ~ filename ~ "' matches no gallery image of " ~ resource.relative_path) -}}
   {%- endif -%}
 {%- endfor -%}
 {%- endcomponent news_media %}

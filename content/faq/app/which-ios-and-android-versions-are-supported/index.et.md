@@ -18,4 +18,4 @@ Androidis saab Organic Maps töötada seadmetes, kuhu on installitud Google'i te
 
 Android-seadmed peavad töötamiseks toetama OpenGL ES 3.0 või uuemat versiooni või Vulkan API-d.
 
-OM-i kasutamiseks koos Android Autoga vaata nõudeid [siin](../how-to-use-android-auto/).
+OM-i kasutamiseks koos Android Autoga vaata nõudeid [siin](@/faq/app/how-to-use-android-auto/index.et.md).

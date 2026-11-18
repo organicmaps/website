@@ -4,14 +4,13 @@ slug: android-auto-कस-वपरव
 description: Android Auto सह Organic Maps चालवण्यासाठी किमान आवश्यकता
 updated: '2024-06-20'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:
   - /mr/faq/app/how-to-use-android-auto/
 ---
 
-Android Auto सह OM वापरण्यासाठी, तुम्हाला किमान Android आवृत्ती 8.0 (Oreo) किंवा नंतरची आवश्यकता आहे. शिवाय तुम्हाला Google Play Store वरून Organic Maps डाउनलोड करणे आवश्यक आहे कारण Google फक्त Android Auto वर Google मंजूर ॲप्सना परवानगी देतो.
+केबलने Android Auto वापरण्यासाठी Android 11 किंवा त्यानंतरची आवृत्ती आवश्यक आहे. शिवाय तुम्हाला Google Play Store वरून Organic Maps डाउनलोड करणे आवश्यक आहे कारण Google फक्त Android Auto वर Google मंजूर ॲप्सना परवानगी देतो.
 
-कृपया अधिक तपशीलांसाठी [Android Auto वेबसाइट](https://www.android.com/auto/) तपासा.
+कृपया अधिक तपशीलांसाठी [Android Auto वेबसाइट](https://support.google.com/androidauto/answer/6348019) तपासा.

@@ -17,4 +17,4 @@ Android では、Organic Maps は Google サービス搭載端末でも、Google
 
 Android 端末では、動作させるために OpenGL ES 3.0 以降または Vulkan API への対応が必要です。
 
-Android Auto で Organic Maps を利用する場合の要件は[こちら](../how-to-use-android-auto/)をご確認ください。
+Android Auto で Organic Maps を利用する場合の要件は[こちら](@/faq/app/how-to-use-android-auto/index.ja.md)をご確認ください。

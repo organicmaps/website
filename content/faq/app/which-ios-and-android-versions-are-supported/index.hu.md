@@ -18,4 +18,4 @@ Android rendszeren az Organic Maps olyan eszközökön is működhet, amelyekre 
 
 Az Android-eszközöknek az OpenGL ES 3.0 vagy újabb verzióját, illetve a Vulkan API-t kell támogatniuk a működéshez.
 
-Az OM Android Auto rendszerrel való használatához ellenőrizd a követelményeket [itt](../how-to-use-android-auto/).
+Az OM Android Auto rendszerrel való használatához ellenőrizd a követelményeket [itt](@/faq/app/how-to-use-android-auto/index.hu.md).

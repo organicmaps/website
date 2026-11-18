@@ -19,7 +19,7 @@ Haritada konumun belirlendikten sonra hedefini seç. Aşağıdaki yollardan biri
 * yer imleri düğmesine dokun
 * haritada herhangi bir yere dokun (boş alanlar için basılı tut)
 
-Varış noktasını seçtikten sonra, yer bilgileri sayfasındaki “Varış Yeri” düğmesine bas. Rota oluşturulacak ve mesafeyi ve tahmini seyahat süresini göreceksin. Ekranın üst kısmındaki Araba, Yaya, Metro, Bisiklet veya Cetvel simgesine basarak rota türünü değiştirebilirsin. Rotayı başlatmak için “Başla” düğmesine dokun. Rotayı bitirmek için ekranın sağ alt köşesindeki ok işaretine bas ve Durdur'a dokun.
+Varış noktasını seçtikten sonra, yer bilgileri sayfasındaki “Varış Yeri” düğmesine bas. Rota oluşturulacak ve mesafeyi ve tahmini seyahat süresini göreceksin. Ekranın üst kısmındaki Araba, Yaya, Metro, Bisiklet veya Cetvel simgesine basarak rota türünü değiştirebilirsin. Toplu taşıma modu güzergâhın önizlemesini gösterir. Arabayla, yürüyerek veya bisikletle navigasyonu başlatmak için “Başla” düğmesine dokun. Rotayı bitirmek için ekranın sağ alt köşesindeki ok işaretine bas ve Durdur'a dokun.
 
 Bir rotayı önizlemek için farklı bir başlangıç noktası (Başlangıç Yeri düğmesi) seçebilirsin, ancak navigasyon yalnızca mevcut konumundan kullanılabilir.
 

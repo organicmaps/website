@@ -19,7 +19,7 @@ Galite naudoti vieną iš šių būdų:
 * bakstelėkite žymių mygtuką
 * Bakstelėkite bet kurią vietą žemėlapyje
 
-Pasirinkę kelionės tikslą, apačioje paspauskite mygtuką „Maršrutas į“. Maršrutas bus sukurtas ir matysite atstumą bei numatomą kelionės laiką. Galite pakeisti maršruto tipą ekrano viršuje paspausdami automobilio, pėsčiųjų, metro, dviračio ar liniuotės piktogramą. Norėdami pradėti sekti maršrutą, bakstelėkite mygtuką „Pradėti“. Paspauskite rodyklės ženklą apatiniame dešiniajame ekrano kampe ir bakstelėkite Stabdyti, kad užbaigtumėte maršrutą.
+Pasirinkę kelionės tikslą, apačioje paspauskite mygtuką „Maršrutas į“. Maršrutas bus sukurtas ir matysite atstumą bei numatomą kelionės laiką. Galite pakeisti maršruto tipą ekrano viršuje paspausdami automobilio, pėsčiųjų, metro, dviračio ar liniuotės piktogramą. Viešojo transporto režimu galite peržiūrėti maršrutą. Norėdami pradėti navigaciją automobiliu, pėsčiomis ar dviračiu, bakstelėkite „Pradėti“. Paspauskite rodyklės ženklą apatiniame dešiniajame ekrano kampe ir bakstelėkite Stabdyti, kad užbaigtumėte maršrutą.
 
 Galite pasirinkti kitą pradžios tašką (mygtukas „Maršrutas iš“), kad peržiūrėtumėte maršrutą, tačiau navigacija galima tik iš jūsų dabartinės vietos.
 

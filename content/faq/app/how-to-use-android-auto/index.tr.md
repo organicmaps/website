@@ -4,13 +4,13 @@ slug: android-auto-nasıl-kullanılır
 description: Organic Maps'i Android Auto ile çalıştırmak için minimum gereksinimler
 updated: '2024-06-20'
 taxonomies:
-  faq: ["uygulama"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:
   - /tr/faq/app/how-to-use-android-auto/
 ---
 
-OM'yi Android Auto ile kullanmak için en az Android 8.0 (Oreo) veya üzeri bir sürüme ihtiyacın vardır. Üstelik Google, Android Auto'da yalnızca Google onaylı uygulamalara izin verdiği için Google Play Store'dan Organic Maps'i indirmen gerekiyor.
+Android Auto’yu kabloyla kullanmak için Android 11 veya daha yeni bir sürüm gerekir. Üstelik Google, Android Auto'da yalnızca Google onaylı uygulamalara izin verdiği için Google Play Store'dan Organic Maps'i indirmen gerekiyor.
 
-Daha fazla ayrıntı için lütfen [Android Auto web sitesini](https://www.android.com/auto/) kontrol et.
+Daha fazla ayrıntı için lütfen [Android Auto web sitesini](https://support.google.com/androidauto/answer/6348019) kontrol et.

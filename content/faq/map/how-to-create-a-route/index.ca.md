@@ -19,7 +19,7 @@ Pots utilitzar una de les maneres següents:
 * toca el botó d'adreces d'interès
 * Toca qualsevol lloc del mapa
 
-Un cop hagis escollit el punt de destinació, prem el botó «Ruta a» a la part inferior. Es crearà la ruta i veuràs la distància i el temps de viatge estimat. Pots canviar el tipus de ruta prement la icona Cotxe, Viat, Metro, Bicicleta o Regla a la part superior de la pantalla. Per començar a seguir la ruta, toca el botó «Inici». Prem el signe de fletxa a l'extrem inferior dret de la pantalla i toca Atura per acabar la ruta.
+Un cop hagis escollit el punt de destinació, prem el botó «Ruta a» a la part inferior. Es crearà la ruta i veuràs la distància i el temps de viatge estimat. Pots canviar el tipus de ruta prement la icona Cotxe, Viat, Metro, Bicicleta o Regla a la part superior de la pantalla. Amb el mode de transport públic pots consultar l’itinerari. Per iniciar la navegació en cotxe, a peu o en bicicleta, toca el botó «Inicia». Prem el signe de fletxa a l'extrem inferior dret de la pantalla i toca Atura per acabar la ruta.
 
 Pots triar un punt de partida diferent (botó «Ruta des de») per previsualitzar una ruta, però la navegació només està disponible des de la teva ubicació actual.
 

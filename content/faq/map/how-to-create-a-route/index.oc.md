@@ -19,7 +19,7 @@ Pòdes utilizar una de las manièras seguentas:
 * pica sul boton dels marcapaginas
 * pica sus un endrech quin que siá de la mapa
 
-Un còp qu'as causit lo punt de destinacion, quicha sul boton « Itinerari cap a » en bas. L'itinerari serà creat e veiràs la distància e lo temps de viatge estimat. Pòdes cambiar lo tipe d'itinerari en quichant sus l'icòna Auto, Peon, Mètro, Bicicleta o Regle en naut de l'ecran. Per començar de seguir l'itinerari, quicha sul boton « Començar ». Quicha sul signe de la flècha dins lo canton inferior drech de l'ecran e quicha sus « Arrestar » per acabar l'itinerari.
+Un còp qu'as causit lo punt de destinacion, quicha sul boton « Itinerari cap a » en bas. L'itinerari serà creat e veiràs la distància e lo temps de viatge estimat. Pòdes cambiar lo tipe d'itinerari en quichant sus l'icòna Auto, Peon, Mètro, Bicicleta o Regle en naut de l'ecran. Lo mòde de transpòrt public aficha un apercebut de l’itinerari. Per lançar la navigacion en veitura, a pè o en bicicleta, quicha sul boton « Començar ». Quicha sul signe de la flècha dins lo canton inferior drech de l'ecran e quicha sus « Arrestar » per acabar l'itinerari.
 
 Pòdes causir un punt de partença diferent (boton « Itinerari dempuèi ») per previsualizar un itinerari, mas la navigacion es solament disponibla dempuèi ta posicion actuala.
 

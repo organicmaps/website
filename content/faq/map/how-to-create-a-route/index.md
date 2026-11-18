@@ -1,26 +1,29 @@
 ---
-title: How to create a route and start navigation
-description: Guide for building a route and navigating using the map
-updated: "2026-11-27"
-
+title: "How do I plan a route and start navigation?"
+description: "Plan an Organic Maps route, start navigation, add or reorder stops and avoid tolls, motorways, ferries or unpaved roads."
+updated: "2026-11-28"
 taxonomies:
-  faq: ["map"]
-
+  faq: ["routes-and-navigation"]
 extra:
-  order: 40
+  order: 10
 ---
 
-Once your location is determined on the map, choose your destination.
-You can use one of the following ways:
+Select a destination using search, a bookmark, or a tap on the map, then tap **Route to**. The preview shows the distance and estimated travel time. In driving, walking, or cycling mode, tap **Start** to navigate from your current position. Public transport mode provides an itinerary preview. To end navigation, open the route menu and tap **Stop**.
 
-* tap the search button
-* tap the bookmarks button
-* tap any place on the map
+To preview a trip from another place, select it and use **Route from**. You do not need to be at the start to plan a route. Navigation starts from your current position, so the phone must be able to [determine your location](@/faq/map/can-not-find-position/index.md). [Download all regions along the route](@/faq/app/offline-maps/index.md#download-maps) first.
 
-Once you have chosen point of destination, press “Route to” button at the bottom. The route will be created and you will see distance and estimated travel time. You can change the route type by pressing the Car, Pedestrian, Subway, Bike or Ruler icon at the top of the screen. Public transport shows an itinerary, and the ruler measures distances. Tap “Start” to navigate by car, on foot, or by bicycle. Press the arrow sign in the lower right corner of the screen and tap Stop to finish the route.
+Jump to [adding or reordering stops](@/faq/map/how-to-create-a-route/index.md#route-stops) or [avoiding road types](@/faq/map/how-to-create-a-route/index.md#avoid-roads).
 
-You can choose a different starting point (“Route From“ button) to preview a route, but navigation is only available from your current location.
+## How do I add, reorder, reverse, or optimize stops? {#route-stops}
 
-You can add up to 100 intermediate points to a route. To add an intermediate point, create a route between the start and destination, then tap a point on the map (or select it from bookmarks/using the search) and tap “Add stop”.
+After creating a route, select another place and tap **Add stop**. You can use map points, search results, or bookmarks. Up to 100 intermediate stops are supported.
 
-You can change the settings of the car route and select road types that you would like to avoid (tolls, unpaved roads, motorways, ferries). Open the app settings → Routing options → Toggle On needed options. Avoid options are also displayed when the route is built if changing any of the options may change the route.
+Both Android and iOS let you change the order of route points in the route-management interface. Use **Reverse route** to reverse the entire route, including all intermediate stops. You can also remove any route point, including the start or destination. The stop-optimization setting automatically chooses the order of intermediate stops; turn it off when you need a specific order. Optimization does not add live traffic information.
+
+## How do I avoid tolls, motorways, ferries, or unpaved roads? {#avoid-roads}
+
+Open routing options in **Settings** and choose driving, cycling, or walking. Each mode has its own avoidance settings; Android shows separate tabs for the modes. Enable the available road types you want to avoid for that mode. Relevant shortcuts may also appear in the route preview.
+
+Check the resulting route before starting. These settings depend on OpenStreetMap tags and do not provide a custom avoidance area or a guarantee about every road surface. For a particular detour, add intermediate stops on the roads you want to use.
+
+See also [route troubleshooting and alternatives](@/faq/navigation/routing-problems/index.md), [public transport coverage](@/faq/navigation/public-transport/index.md), and [saving a route for later](@/faq/navigation/navigate-gpx-track/index.md#save-route).

@@ -17,8 +17,13 @@
   <ul class="lang-menu no-print" role="navigation">
     {% for translation in translations | sort(attribute="lang") %}
     {% if lang != translation.lang %}
+    {% set skip_topic = false %}
+    {% if is_faq and not page and not term %}
+      {% set destination = get_section(path="faq/_index.md", lang=translation.lang) %}
+      {% set skip_topic = not destination.extra.start_here %}
+    {% endif %}
     <li class="lang-menu-item" role="menuitem">
-      <a lang="{{ translation.lang }}" class="lang-menu-link" onclick="return onLanguageClick('{{ translation.lang }}');" href="{{ translation.permalink | replace(from=config.base_url, to="") | safe }}">
+      <a lang="{{ translation.lang }}" class="lang-menu-link"{% if skip_topic %} data-skip-faq-topic{% endif %} onclick="return onLanguageClick('{{ translation.lang }}');" href="{{ translation.permalink | replace(from=config.base_url, to="") | safe }}">
         {{ trans(key="language", lang=translation.lang) }}
       </a>
     </li>
@@ -27,14 +32,21 @@
   </ul>
   <script>
     (function () {
-      // Put the query string and fragment in each real href as soon as the links exist. That makes
-      // a section link (#install, #crypto) or prefilled donation form (?amount=&interval=) survive
-      // left-click, middle-click, keyboard activation, and the browser's "Open in new tab" command.
-      var languageLinks = document.querySelectorAll('.lang-menu-link');
-      for (var i = 0; i < languageLinks.length; i++) {
-        var path = languageLinks[i].getAttribute('href').split('#')[0].split('?')[0];
-        languageLinks[i].setAttribute('href', path + window.location.search + window.location.hash);
+      // Keep hrefs current for keyboard activation and opening links in a new tab.
+      function syncLanguageLinks() {
+        var languageLinks = document.querySelectorAll('.lang-menu-link');
+        var fragment = window.location.hash;
+        var isTopicJump = fragment.indexOf('#faq-') === 0;
+        for (var i = 0; i < languageLinks.length; i++) {
+          var link = languageLinks[i];
+          var path = link.getAttribute('href').split('#')[0].split('?')[0];
+          // A partial FAQ index has no topic shortcuts.
+          var hash = isTopicJump && link.hasAttribute('data-skip-faq-topic') ? '' : fragment;
+          link.setAttribute('href', path + window.location.search + hash);
+        }
       }
+      syncLanguageLinks();
+      window.addEventListener('hashchange', syncLanguageLinks);
     })();
   </script>
 </span>

@@ -1,0 +1,27 @@
+{#- Use the same URL encoding as Markdown. Qualify shared and self-linked
+    translated headings at the top level of the answer's table of contents. -#}
+{%- set embedded_url = embedded_page.permalink | urlencode | replace(from="%3A", to=":") -%}
+{%- set_global embedded_content = embedded_page.content -%}
+{%- if html_lang != "en" -%}
+  {%- set shared_heading_ids = [heading.id for heading in faq_page_en.toc] -%}
+  {%- for heading in embedded_page.toc -%}
+    {%- set self_link = 'href="' ~ embedded_url ~ '#' ~ (heading.id | urlencode) ~ '"' -%}
+    {%- if heading.id in shared_heading_ids or embedded_content is containing(pat=self_link) -%}
+      {%- set fragment = html_lang ~ '-' ~ heading.id -%}
+      {%- set heading_tag = '<h' ~ heading.level ~ ' id="' -%}
+      {%- set_global embedded_content = embedded_content | replace(from=self_link, to='href="#' ~ (fragment | urlencode) ~ '"') | replace(from=heading_tag ~ heading.id ~ '"', to=heading_tag ~ fragment ~ '"') -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{#- Bundled answers and shared headings are reachable without the website. -#}
+{%- for bundled in faq_bundled_pages -%}
+  {%- set translation = [t for t in bundled.page.translations if t.lang == embedded_page.lang] | first -%}
+  {%- set bundled_url = translation.permalink | urlencode | replace(from="%3A", to=":") -%}
+  {%- set_global embedded_content = embedded_content | replace(from='href="' ~ bundled_url ~ '"', to='href="#' ~ bundled.id ~ '"') -%}
+  {%- for heading in bundled.page.toc -%}
+    {%- set fragment = heading.id -%}
+    {%- if html_lang != "en" %}{% set fragment = html_lang ~ '-' ~ heading.id %}{% endif -%}
+    {%- set_global embedded_content = embedded_content | replace(from='href="' ~ bundled_url ~ '#' ~ (heading.id | urlencode) ~ '"', to='href="#' ~ (fragment | urlencode) ~ '"') -%}
+  {%- endfor -%}
+{%- endfor -%}
+{{- embedded_content | replace(from='href="' ~ embedded_url ~ '#', to='href="#') | safe -}}

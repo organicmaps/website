@@ -4,8 +4,7 @@ slug: hogyan-kell-használni-az-android-auto-t
 description: Minimális követelmények az Organic Maps Android Auto rendszerrel való futtatásához
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

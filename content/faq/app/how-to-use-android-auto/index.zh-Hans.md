@@ -4,7 +4,7 @@ slug: 如何使用android-auto
 description: 使用 Android Auto 运行 Organic Maps 的最低要求
 updated: '2026-11-27'
 taxonomies:
-  faq: ["应用"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

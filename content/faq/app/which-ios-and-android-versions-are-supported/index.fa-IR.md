@@ -18,4 +18,4 @@ aliases:
 
 دستگاه‌های Android باید برای کار، از OpenGL ES 3.0 یا بالاتر، یا Vulkan API پشتیبانی کنند.
 
-برای استفاده از OM با Android Auto، لطفاً شرایط مورد نیاز را [اینجا](../how-to-use-android-auto/) بررسی کنید.
+برای استفاده از OM با Android Auto، لطفاً شرایط مورد نیاز را [اینجا](@/faq/app/how-to-use-android-auto/index.fa-IR.md) بررسی کنید.

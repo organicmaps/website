@@ -14,4 +14,4 @@ extra:
 
 מכשירי אנדרואיד חייבים לתמוך ב-OpenGL ES 3.0 או גבוה יותר, או ב-Vulkan API כדי לפעול.
 
-כדי להשתמש ב-OM עם Android Auto, אנא בדקו את הדרישות [כאן](../how-to-use-android-auto/).
+כדי להשתמש ב-OM עם Android Auto, אנא בדקו את הדרישות [כאן](@/faq/app/how-to-use-android-auto/index.he.md).

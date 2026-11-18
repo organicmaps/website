@@ -4,7 +4,7 @@ slug: como-usar-o-android-auto
 description: Requisitos mínimos para executar o Organic Maps com Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq: ["aplicativo"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

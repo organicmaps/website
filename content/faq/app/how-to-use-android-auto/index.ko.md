@@ -3,7 +3,7 @@ title: Android Auto에서 Organic Maps를 어떻게 사용하나요?
 description: Android Auto에서 Organic Maps를 사용하는 데 필요한 최소 요구 사항입니다.
 updated: "2026-11-27"
 taxonomies:
-  faq: ["앱"]
+  faq: ["android-auto"]
 extra:
   order: 20
 ---

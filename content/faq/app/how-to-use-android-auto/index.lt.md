@@ -4,8 +4,7 @@ slug: kaip-naudoti-android-auto
 description: Minimalūs reikalavimai, norint paleisti Organic Maps naudojant „Android Auto“.
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

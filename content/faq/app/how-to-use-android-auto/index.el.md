@@ -4,8 +4,7 @@ slug: πώς-να-χρησιμοποιήσετε-το-android-auto
 description: Ελάχιστες απαιτήσεις για την εκτέλεση του Organic Maps με το Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

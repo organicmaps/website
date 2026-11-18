@@ -4,8 +4,7 @@ slug: hoe-android-auto-gebruiken
 description: Minimale vereisten om Organic Maps uit te voeren met Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

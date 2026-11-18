@@ -4,8 +4,7 @@ slug: ആൻഡരയഡ-ഓടട-എങങന-ഉപയഗകക
 description: ആൻഡ്രോയിഡ് ഓട്ടോ ഉപയോഗിച്ച് Organic Maps പ്രവർത്തിപ്പിക്കുന്നതിനുള്ള ഏറ്റവും കുറഞ്ഞ ആവശ്യകതകൾ
 updated: "2026-11-27"
 taxonomies:
-  faq:
-    - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

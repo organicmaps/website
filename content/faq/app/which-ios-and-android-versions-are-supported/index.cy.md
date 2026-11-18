@@ -18,4 +18,4 @@ Yn Android, gall Organic Maps weithio ar ddyfeisiau gyda Gwasanaethau Google wed
 
 Rhaid i ddyfeisiau Android gefnogi OpenGL ES 3.0 neu uwch, neu'r API Vulkan, er mwyn gweithio.
 
-I ddefnyddio OM gyda Android Auto, gwiria'r gofynion [yma](../how-to-use-android-auto/).
+I ddefnyddio OM gyda Android Auto, gwiria'r gofynion [yma](@/faq/app/how-to-use-android-auto/index.cy.md).

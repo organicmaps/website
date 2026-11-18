@@ -4,7 +4,7 @@ description: "Domande frequenti sull'applicazione Organic Maps"
 slug: come-si-usa-android-auto
 updated: "2026-11-27"
 taxonomies:
-  faq: ["applicazione"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

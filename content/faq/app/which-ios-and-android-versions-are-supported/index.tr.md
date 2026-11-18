@@ -17,4 +17,4 @@ Android'de Organic Maps, Google Hizmetlerinin yüklü olduğu ve Google desteği
 
 Android cihazların çalışabilmesi için OpenGL ES 3.0 veya üstü sürümünü ya da Vulkan API'sini desteklemesi gerekir.
 
-OM'yi Android Auto ile kullanmak için lütfen [buradan](../how-to-use-android-auto/) gereksinimleri kontrol et.
+OM'yi Android Auto ile kullanmak için lütfen [buradan](@/faq/app/how-to-use-android-auto/index.tr.md) gereksinimleri kontrol et.

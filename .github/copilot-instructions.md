@@ -26,7 +26,7 @@ Zola uses taxonomies to auto-generate category pages:
    - Auto-generates category pages like `/news/releases/`
    - Date-based folders: `content/news/2024-03-18/323/index.md`
 
-**Limitation**: Taxonomy values are sorted alphabetically, cannot be reordered manually.
+Zola supplies taxonomy values alphabetically. FAQ listings, menus and translation status place `extra.faq_last_categories` last. Include every localized Linux category ID in that config list. `extra.faq_category_titles` preserves Android Auto and Apple CarPlay capitalization in their separate topics without changing answer URLs.
 
 ### Template Hierarchy
 
@@ -78,9 +78,9 @@ Use `{{ trans(key='faq-menu-title', lang=lang) }}` to get localized strings from
 ```bash
 zola serve           # Live preview at http://127.0.0.1:1111
 zola build           # Generate static site in public/
-npm test             # Offline translation, hook and Telegram regressions
-python3 tools/test_navigation.py # Homepage, navigation and donation regressions (requires Zola)
-npm run test:browser # Donation checkout regressions against public/ (build first)
+npm test             # Offline tooling regressions
+python3 tools/test_navigation.py # Template and navigation regressions (requires Zola)
+npm run test:browser # Browser regressions against public/ (build first)
 npm run format       # Format MD + SCSS (stylelint + prettier + js-beautify)
 npm run upgrade      # Update npm dependencies
 ```
@@ -91,9 +91,10 @@ for Telegram publishing and the complete test suite.
 
 For the browser tests, install Node dependencies with `npm ci`, then install
 Chromium once with `npx playwright install chromium`. Run `zola build` before
-`npm run test:browser`. The suite reads the rendered site and declared security
-headers and mocks payment requests. The Python navigation suite uses Zola to
-check invalid donation layout markers.
+`npm run test:browser`. The browser suites exercise the rendered site with local
+request mocks or an offline local file. Checkout tests also read the declared
+security headers. The Python navigation suite builds isolated fixtures and the
+site with Zola.
 
 ### Where the tooling lives
 
@@ -196,6 +197,7 @@ hook, the test suite — adds `tools/` to `sys.path` explicitly.
 - In templates, use a full resource's `.path` for an internal link. Entries in `.translations` are summaries: their `.path` identifies a content file, so use their `.permalink` with `config.base_url` stripped for browser navigation. For a cache-busted asset, use `get_url(path="…", cachebust=true) | replace(from=config.base_url, to="") | safe` so the hash remains but the browser loads the asset from the current deployment.
 - Keep absolute URLs where the consumer needs them: canonical and hreflang tags, OpenGraph and structured data, sitemaps, external services, and the donation form's cross-origin API action. A preview that tests payments must explicitly target a staging API; a relative form action would hit the Pages site instead.
 - Do not hard-code `https://organicmaps.app` for new same-site links. Markdown `@/…` links are still required for translation-aware cross-references; Zola expands them using `base_url`, so preview builds need a deployment-specific `base_url` if those links must stay on the preview. Do not blindly replace URLs in rendered Markdown: an article may intentionally quote or link to the public site.
+- News and FAQ landing pages are taxonomy output, with non-rendered section stubs. In Markdown, resolve a landing URL with `get_url(path="news", lang=lang, trailing_slash=true)` and strip `config.base_url`. Keep the label outside the expression for translation, and check the rendered destination in the navigation suite.
 
 ## Common Patterns
 

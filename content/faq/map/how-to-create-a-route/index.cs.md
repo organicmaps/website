@@ -19,7 +19,7 @@ Můžete použít jeden z následujících způsobů:
 * klepněte na tlačítko záložek
 * klepněte na libovolné místo na mapě
 
-Jakmile vyberete cílový bod, stiskněte tlačítko „Route to“ ve spodní části. Trasa se vytvoří a uvidíte vzdálenost a odhadovanou dobu cesty. Typ trasy můžete změnit stisknutím ikony Auto, Chodec, Metro, Kolo nebo Pravítko v horní části obrazovky. Chcete-li začít sledovat trasu, klepněte na tlačítko „Start“. Stiskněte šipku v pravém dolním rohu obrazovky a dokončete trasu klepnutím na Zastavit.
+Jakmile vyberete cílový bod, stiskněte tlačítko „Route to“ ve spodní části. Trasa se vytvoří a uvidíte vzdálenost a odhadovanou dobu cesty. Typ trasy můžete změnit stisknutím ikony Auto, Chodec, Metro, Kolo nebo Pravítko v horní části obrazovky. V režimu veřejné dopravy si můžete zobrazit náhled trasy. Chcete-li spustit navigaci autem, pěšky nebo na kole, klepněte na tlačítko „Start“. Stiskněte šipku v pravém dolním rohu obrazovky a dokončete trasu klepnutím na Zastavit.
 
 Chcete-li zobrazit náhled trasy, můžete si vybrat jiný výchozí bod (tlačítko „Trasa z“), ale navigace je dostupná pouze z vaší aktuální polohy.
 

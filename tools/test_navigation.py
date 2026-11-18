@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Test homepage links, navigation, images and donation templates with real Zola."""
+"""Test homepage links, navigation, news media, FAQ and donations with real Zola."""
 
 import json
 import re
@@ -149,7 +149,7 @@ class NavigationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0, output)
             self.assertIn(expected_error, output)
 
-    def test_homepages_link_news_and_language_chat(self):
+    def test_homepage_and_faq_destinations(self):
         references = (ROOT / "templates/shortcodes/references.md").read_text()
         chats = dict(re.findall(
             r"(?m)^\[(telegram(?:_chat(?:_[a-z]+)?)?)\]:\s+(\S+)", references,
@@ -168,6 +168,35 @@ class NavigationTests(unittest.TestCase):
                         [href for href in parser.links if href in chats.values()],
                         [chats["telegram"], group],
                     )
+            for prefix in ("", "ru/", "uk/"):
+                for topic in ("app/contribute-and-follow-updates", "app/project-goal-and-roadmap",
+                              "map/3d-terrain-and-ocean-depth"):
+                    with self.subTest(language=prefix, topic=topic):
+                        parser = MainLinks()
+                        parser.feed((public / prefix / "faq" / topic / "index.html").read_text())
+                        self.assertIn(f"/{prefix}news/", parser.links)
+                        self.assertTrue((public / prefix / "news/index.html").is_file())
+
+            topic_ids = []
+            for prefix in ("", "ru/", "uk/"):
+                landing = (public / prefix / "faq/index.html").read_text()
+                ids = re.findall(r'<h2 id="(faq-[^"]+)">', landing)
+                self.assertTrue(ids, prefix)
+                self.assertEqual(len(ids), len(set(ids)), prefix)
+                topic_ids.append(ids)
+            for ids in topic_ids[1:]:
+                self.assertCountEqual(ids, topic_ids[0])
+
+            redirects = [line.split() for line in (public / "_redirects").read_text().splitlines()
+                         if line.startswith("/uk/faq/")]
+            destination = "/uk/faq/мітки-та-треки/"
+            self.assertTrue((public / destination.strip("/") / "index.html").is_file())
+            for legacy in ("mitki-ta-marshruti", "мітки-та-маршрути"):
+                for suffix in ("", "/"):
+                    source = f"/uk/faq/{legacy}{suffix}"
+                    with self.subTest(legacy=source):
+                        self.assertEqual([rule for rule in redirects if rule[0] == source],
+                                         [[source, destination, "301"]])
 
     def test_news_images_and_preview_resolution(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -440,6 +469,191 @@ class NavigationTests(unittest.TestCase):
             write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
         for suffix, title in (("", "Home"), (".de", "Start")):
             write(root, f"content/_index{suffix}.md", f"---\ntitle: {title}\n---\n")
+
+    def faq_site(self, root, *, brand="Organic Maps", answer_title="Plan a route"):
+        write(root, "config.toml", 'base_url = "https://example.org"\n'
+              f'title = {json.dumps(brand)}\n'
+              'taxonomies = [{name = "faq"}]\n'
+              '[extra]\nrtl_languages = []\nlanguage_neutral_taxonomy_terms = ["android-auto", "apple-carplay", "linux"]\n'
+              'faq_category_titles = {android-auto = "Android Auto", apple-carplay = "Apple CarPlay"}\n'
+              'faq_last_categories = ["linux"]\n'
+              'faq_topic_ids = {karte = "map", reisen = "app"}\n'
+              '[translations]\nfaq-menu-title = "Help"\nfaq-start-here = "Start here"\nfaq-term-description = "FAQ about {}"\n'
+              'faq-browse-topics = "Browse topics:"\nfaq-topics = "FAQ topics"\n'
+              '[languages.de]\ntaxonomies = [{name = "faq"}]\n'
+              '[languages.de.translations]\nfaq-menu-title = "Hilfe"\nfaq-start-here = "Erste Schritte"\nfaq-term-description = "Fragen zu {}"\n'
+              'faq-browse-topics = "Themen:"\nfaq-topics = "FAQ-Themen"\n')
+        for template in ("base.html", "page.html", "language_redirect.html", "_jsonld_faq.html", "_news_preview.html",
+                         "faq/list.html", "faq/single.html", "faq/_questions.html", "faq/faq-breadcrumbs.html"):
+            write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
+        # Unrelated menus have their own fixtures; keep this one on FAQ rendering.
+        for template in ("top_menu.html", "bottom_menu.html", "faq/github_edit_link.html"):
+            write(root, f"templates/{template}", "")
+        write(root, "static/main.css", "")
+        write(root, "content/faq/_index.md",
+              '---\nrender: false\ntitle: Answers\nextra:\n  menu_title: Support\n'
+              '  start_here: ["faq/app/route/index.md"]\n---\n')
+        write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n---\n')
+        write(root, "content/faq/app/route/index.md",
+              f'---\ntitle: {json.dumps(answer_title)}\ntaxonomies:\n  faq: ["app"]\n'
+              'extra:\n  order: 10\n---\n\n## Add stops {#stops}\n\nChoose a stop.\n')
+        write(root, "content/faq/app/route/index.de.md",
+              '---\ntitle: Route planen\nslug: strecke\ntaxonomies:\n  faq: ["reisen"]\n'
+              'extra:\n  order: 10\n---\n\n## Zwischenziele {#stops}\n\nWähle ein Ziel.\n')
+        for suffix, title, category in (("", "Find a place", "map"), (".de", "Ort finden", "karte")):
+            write(root, f"content/faq/map/place/index{suffix}.md",
+                  f'---\ntitle: {title}\ntaxonomies:\n  faq: ["{category}"]\n'
+                  'extra:\n  order: 10\n---\n')
+
+    def test_faq_listings_link_related_questions(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.faq_site(root)
+            self.build(root)
+            for listing in ("faq/index.html", "faq/app/index.html"):
+                with self.subTest(listing=listing):
+                    parser = MainLinks()
+                    parser.feed((root / "public" / listing).read_text())
+                    self.assertIn("/faq/app/route/#stops", parser.links)
+            self.assertIn('id="stops"', (root / "public/faq/app/route/index.html").read_text())
+            for listing in ("de/faq/index.html", "de/faq/reisen/index.html"):
+                with self.subTest(listing=listing):
+                    parser = MainLinks()
+                    parser.feed((root / "public" / listing).read_text())
+                    self.assertIn("/de/faq/app/strecke/", parser.links)
+                    self.assertFalse(any("#stops" in href for href in parser.links))
+            self.assertNotIn("Erste Schritte", (root / "public/de/faq/index.html").read_text())
+
+            english = (root / "public/faq/app/route/index.html").read_text()
+            breadcrumbs = RenderedPage(menu_id=None)
+            breadcrumbs.feed(english)
+            self.assertEqual(breadcrumbs.links, [("/faq/", "Support", "en"), ("/faq/app/", "App", "en")])
+            english_term = (root / "public/faq/app/index.html").read_text()
+            self.assertEqual(english_term.count('aria-current="page"'), 1)
+            german_term = (root / "public/de/faq/reisen/index.html").read_text()
+            breadcrumbs = RenderedPage(menu_id=None)
+            breadcrumbs.feed(german_term)
+            self.assertEqual(breadcrumbs.links, [("/de/faq/", "Hilfe", "de"), ("/de/faq/karte/", "Karte", "de")])
+            self.assertEqual(german_term.count('aria-current="page"'), 1)
+
+            article = root / "content/faq/app/route/index.md"
+            article.write_text(article.read_text().replace("Plan a route", "Plan your journey"))
+            write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n'
+                  'extra:\n  start_here: ["faq/app/route/index.md"]\n---\n')
+            self.build(root)
+            landing = (root / "public/faq/index.html").read_text()
+            start_here = re.search(r"<h2>Start here</h2>(.*?)</ul>", landing, re.S).group(1)
+            self.assertIn('href="/faq/app/route/">Plan your journey</a>', start_here)
+            self.assertNotIn(">Plan a route</a>", landing)
+            german = (root / "public/de/faq/index.html").read_text()
+            start_here = re.search(r"<h2>Erste Schritte</h2>(.*?)</ul>", german, re.S).group(1)
+            self.assertIn('href="/de/faq/app/strecke/">Route planen</a>', start_here)
+            self.assertNotIn("/faq/app/route/", start_here)
+            self.assertIn('aria-label="FAQ-Themen"', german)
+            self.assertIn('href="/de/faq/app/strecke/#stops"', german)
+            breadcrumbs = RenderedPage(menu_id=None)
+            breadcrumbs.feed((root / "public/de/faq/app/strecke/index.html").read_text())
+            self.assertEqual(breadcrumbs.links, [("/de/faq/", "Hilfe", "de"),
+                                                ("/de/faq/reisen/", "Reisen", "de")])
+
+    def test_faq_answer_titles_use_configured_brand(self):
+        cases = (("Trail Atlas", "Plan a route", "Plan a route – Trail Atlas"),
+                 ("", "Plan a route", "Plan a route – Organic Maps"),
+                 ("Organic Maps", "How does ORGANIC MAPS work?", "How does ORGANIC MAPS work?"))
+        for brand, title, expected in cases:
+            with self.subTest(brand=brand, title=title), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                self.faq_site(root, brand=brand, answer_title=title)
+                self.build(root)
+                output = (root / "public/faq/app/route/index.html").read_text()
+                self.assertIn(f"<title>{expected}</title>", output)
+
+    def test_linux_faq_follows_mobile_topics_in_every_listing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.faq_site(root)
+            config = root / "config.toml"
+            config.write_text(config.read_text().replace(
+                "[extra]\n", '[extra]\nfaq_translation_status_languages = ["de"]\n').replace(
+                'faq_last_categories = ["linux"]', 'faq_last_categories = ["linux", "aaa-linux-übersetzt"]')
+                + '\n[slugify]\ntaxonomies = "safe"\n')
+            write(root, "templates/faq/translation_status.html",
+                  (ROOT / "templates/faq/translation_status.html").read_text())
+            write(root, "content/faq/status.md",
+                  '---\ntitle: Status\ntemplate: faq/translation_status.html\n---\n')
+            # A configured localized category must move last even when it sorts first.
+            for suffix, category in (("", "linux"), (".de", "aaa-linux-übersetzt")):
+                write(root, f"content/faq/linux/how-to-use-flatpak/index{suffix}.md",
+                      f'---\ntitle: Flatpak\ntaxonomies:\n  faq: ["{category}"]\n'
+                      'extra:\n  order: 10\n---\n')
+            self.build(root)
+            for prefix, categories in (("", ["app", "map", "linux"]),
+                                       ("de/", ["karte", "reisen", "aaa-linux-übersetzt"])):
+                landing = (root / "public" / prefix / "faq/index.html").read_text()
+                links = re.findall(r'<h2[^>]*><a href="([^"]+)"', landing)
+                self.assertEqual(links, [f"/{prefix}faq/{category}/" for category in categories])
+
+            for page in ("de/faq/app/strecke/index.html", "de/faq/reisen/index.html",
+                         "de/faq/aaa-linux-übersetzt/index.html"):
+                output = (root / "public" / page).read_text()
+                menu = re.search(r'<nav class="faq-breadcrumbs".*?</nav>', output, re.S).group()
+                labels = re.findall(r'class="faq-taxonomy"[^>]*>([^<]+)</(?:a|span)>', menu)
+                self.assertEqual(labels, ["Karte", "Reisen", "Aaa linux übersetzt"])
+
+            status = (root / "public/faq/status/index.html").read_text()
+            categories = re.findall(r'<tr class="faq_category">\s*<td[^>]*>([^<]+)</td>', status)
+            self.assertEqual(categories, ["App", "Map", "Linux"])
+
+    def test_car_display_topics_keep_branding_and_answer_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.faq_site(root)
+            topics = {"android-auto": ("app/how-to-use-android-auto", "Android Auto"),
+                      "apple-carplay": ("voice/carplay", "Apple CarPlay")}
+            for topic, (answer, label) in topics.items():
+                for suffix in ("", ".de"):
+                    write(root, f"content/faq/{answer}/index{suffix}.md",
+                          f'---\ntitle: {label} setup\ntaxonomies:\n  faq: ["{topic}"]\n'
+                          'extra:\n  order: 10\n---\n\nConnect a compatible car.\n')
+            self.build(root)
+            for prefix, section in (("", "Help"), ("de/", "Hilfe")):
+                landing = (root / "public" / prefix / "faq/index.html").read_text()
+                for topic, (answer, label) in topics.items():
+                    with self.subTest(language=prefix, topic=topic):
+                        topic_path = f"/{prefix}faq/{topic}/"
+                        article_path = f"/{prefix}faq/{answer}/"
+                        term = (root / "public" / topic_path.strip("/") / "index.html").read_text()
+                        self.assertIn(f"<title>{label} – {section} – Organic Maps</title>", term)
+                        self.assertIn(f'href="{topic_path}">{label}</a>', landing)
+                        self.assertIn(f'href="{article_path}"', term)
+                        article = (root / "public" / article_path.strip("/") / "index.html").read_text()
+                        data = [json.loads(value) for value in re.findall(
+                            r'<script type="application/ld\+json">(.*?)</script>', article, re.S)]
+                        crumbs = next(value for value in data if value["@type"] == "BreadcrumbList")
+                        self.assertEqual(crumbs["itemListElement"][1], {
+                            "@type": "ListItem", "position": 2, "name": label,
+                            "item": "https://example.org" + topic_path})
+                        self.assertIn(f'href="{topic_path}" class="faq-taxonomy">{label}</a>', article)
+
+    def test_embedded_faq_rewrites_headings_and_retains_aliases(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write(root, "config.toml", 'base_url = "https://example.org"\n'
+                  '[slugify]\npaths = "safe"\n[languages.ru]\n')
+            write(root, "templates/page.html", '{% set embedded_page = page %}'
+                  '{% set faq_page_en = get_page(path="route.md") %}'
+                  '{% set html_lang = lang %}{% set faq_bundled_pages = [] %}'
+                  '{% include "faq/_embedded_content.html" %}')
+            write(root, "templates/faq/_embedded_content.html",
+                  (ROOT / "templates/faq/_embedded_content.html").read_text())
+            body = '[Jump](#target)\n\n## Heading {#target}\n\n<span id="target"></span>\n'
+            write(root, "content/route.md", '---\ntitle: Route\n---\n\n' + body)
+            write(root, "content/route.ru.md", '---\ntitle: Маршрут\nslug: маршрут\n---\n\n' + body)
+            self.build(root)
+            output = (root / "public/ru/маршрут/index.html").read_text()
+            self.assertIn('href="#ru-target"', output)
+            self.assertIn('<h2 id="ru-target">', output)
+            self.assertIn('<span id="target">', output)
 
     def test_missing_translations_use_default_language_destinations(self):
         # Each lookup must work when its own translation is absent, while the

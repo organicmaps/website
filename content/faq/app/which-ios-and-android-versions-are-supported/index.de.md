@@ -17,4 +17,4 @@ Bei Android funktioniert Organic Maps auf Geräten mit Google Services und auch 
 
 Android-Geräte müssen OpenGL ES 3.0 oder höher oder die Vulkan-API unterstützen, damit sie funktionieren.
 
-Um Oragnic Maps mit Android Auto zu nutzen, überprüfe bitte die Anforderungen [hier](../how-to-use-android-auto/).
+Um Organic Maps mit Android Auto zu nutzen, überprüfe bitte die Anforderungen [hier](@/faq/app/how-to-use-android-auto/index.de.md).

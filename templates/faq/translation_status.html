@@ -40,6 +40,11 @@
 <body>
 
 {% set all_categories = get_taxonomy(kind='faq', lang = 'en') %} {# Use English as list of all FAQ categories and questions #}
+{% set faq_categories = all_categories | get(key="items") %}
+{% set faq_categories = [
+  ...[t for t in faq_categories if t.name not in config.extra.faq_last_categories],
+  ...[t for t in faq_categories if t.name in config.extra.faq_last_categories]
+] %}
 {% set faq_languages = config.extra.faq_translation_status_languages %} {# Curated status-table languages #}
 
     <table class="status">
@@ -49,9 +54,9 @@
                 <td>{{ lang }}</td>
             {%- endfor -%}
         </tr>
-        {% for faq_category in all_categories | get(key="items") %}
+        {% for faq_category in faq_categories %}
             <tr class="faq_category">
-                <td colspan="100%">{{ faq_category.name | replace(from="-", to=" ") | capitalize }}</td>
+                <td colspan="{{ (faq_languages | length) + 1 }}">{{ config.extra.faq_category_titles | get(key=faq_category.name, default=(faq_category.name | replace(from="-", to=" ") | capitalize)) }}</td>
             </tr>
             {%- for faq_page in faq_category.pages | sort(attribute="extra.order") -%}
             {% set eng_page_updated = faq_page | get(key="updated", default="") %}

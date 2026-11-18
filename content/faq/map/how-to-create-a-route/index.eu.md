@@ -19,7 +19,7 @@ Modu hauetako bat erabil dezakezu:
 * sakatu laster-marken botoia
 * Sakatu mapako edozein leku
 
-Helmuga-puntua aukeratu ondoren, sakatu beheko «Ibilbidea» botoia. Ibilbidea sortuko da eta distantzia eta bidaiaren denbora estimatua ikusiko dituzu. Ibilbide mota alda dezakezu pantailaren goialdean dagoen Kotxea, Oinezkoa, Metroa, Bizikleta edo Erregela ikonoa sakatuta. Ibilbidea jarraitzen hasteko, sakatu «Hasi» botoia. Sakatu pantailaren beheko eskuineko izkinan dagoen gezi-ikurra eta ukitu Gelditu ibilbidea amaitzeko.
+Helmuga-puntua aukeratu ondoren, sakatu beheko «Ibilbidea» botoia. Ibilbidea sortuko da eta distantzia eta bidaiaren denbora estimatua ikusiko dituzu. Ibilbide mota alda dezakezu pantailaren goialdean dagoen Kotxea, Oinezkoa, Metroa, Bizikleta edo Erregela ikonoa sakatuta. Garraio publikoaren moduan, ibilbidearen aurrebista ikus dezakezu. Autoz, oinez edo bizikletaz nabigatzen hasteko, sakatu «Hasi» botoia. Sakatu pantailaren beheko eskuineko izkinan dagoen gezi-ikurra eta ukitu Gelditu ibilbidea amaitzeko.
 
 Beste abiapuntu bat aukera dezakezu («Ibilbidetik» botoia) ibilbide bat aurreikusteko, baina nabigazioa zure uneko kokapenetik soilik dago erabilgarri.
 

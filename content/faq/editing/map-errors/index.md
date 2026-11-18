@@ -1,23 +1,17 @@
 ---
-title: Some places are missing on the map or have wrong names
-description: Tips for correcting errors in maps, making changes and updates to objects directly in Organic Maps or through OpenStreetMap.org
-updated: "2024-06-20"
-
+title: "How do I report a missing place or an error on the map?"
+description: "Report missing places or wrong map details with an OpenStreetMap note, or choose the right editing tool to correct the map."
+updated: "2026-11-06"
 taxonomies:
   faq: ["map-editing"]
-
 extra:
-  order: 30
+  order: 10
 ---
 
-Our map data source is [OpenStreetMap](https://www.openstreetmap.org/) (OSM). This is a mapping project similar to Wikipedia, but for maps, where anybody can create and edit the map of the World.
+Add an OpenStreetMap note at the exact location and describe what is wrong and how you know. You can use [OpenStreetMap.org](https://www.openstreetmap.org/), or the reporting option offered for the selected place in Organic Maps. Provide details that another mapper can check, such as the correct business name or a missing path connection. See the [steps for adding a note](@/faq/editing/advanced-map-editing/index.md#osm-note).
 
-If you see incorrect information, or if you find that some objects are missing on the map, you can [leave a note](https://www.openstreetmap.org/note/new) for OSM volunteers or [register](https://www.openstreetmap.org/user/new) and edit the map.
+Notes are public and may take time for a volunteer to resolve. Signing into OpenStreetMap helps you follow replies. Do not include private contact details or confuse a note with a personal bookmark.
 
-The more people contribute, the more detailed maps everyone gets. We believe that the most detailed map of the whole world, created by the open community, is just a matter of time.
+If you know the correction, you can [edit or add a place in Organic Maps](@/faq/editing/organic-maps-map-editing/index.md). To change a road, path, building outline or an existing place's position, use an [OpenStreetMap editor](@/faq/editing/advanced-map-editing/index.md).
 
-**Notes:**
-
-* You can also add new places, edit existing POI and building info (addresses, opening hours, names) directly in Organic Maps. Once you log in with OSM account, your edits will be automatically uploaded to OSM. Please be careful when editing, as your edits will be visible to all other users.
-
-* The OpenStreetMap database is updated every minute. We aim to update maps in the app 1-4 times per month. If you modified something in OSM, your edits will appear in future maps updates.
+Update your downloaded map before reporting an error. Organic Maps uses a snapshot of OpenStreetMap, so a recent correction may already exist online but still need a [later map-data release](@/faq/map/update-offline-maps/index.md#map-data-date).

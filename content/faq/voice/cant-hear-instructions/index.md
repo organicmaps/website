@@ -1,27 +1,19 @@
 ---
-title: I can't hear voice instructions
-description: Troubleshooting guide for voice instructions in navigation
-updated: "2024-07-22"
-
+title: "Why can I not hear navigation instructions?"
+description: "Restore Organic Maps voice guidance by checking navigation volume, Bluetooth output, offline voices and background permissions."
+updated: "2026-11-06"
 taxonomies:
   faq: ["voice-directions"]
-
 extra:
-  order: 20
+  order: 10
 ---
 
-**Note:** voice instruction are available for car and cycling routes. For now, you can hear voice instructions only while driving and when the screen is on.
+Voice directions are available for driving, cycling, and walking, and can continue with the screen off when the device permits background location and audio. Public transport does not provide the same spoken turn-by-turn guidance.
 
-If you can't hear voice instructions:
+Start navigation, enable voice instructions in Organic Maps, and check the media/navigation volume and the selected audio output. Sound may be going to a Bluetooth headset or car instead of the phone. Use the voice-test or preview control in the app's settings to check speech without driving.
 
-* Please make sure that your device's volume is not muted. You can change the volume level with your device's volume buttons. To do that, you may need to disable "Change with Buttons" option (if enabled) in the device settings → Sounds.
+On Android, install and select a working text-to-speech engine and download a voice for the language you selected. Test the voice in Android settings, then restart Organic Maps if you changed the engine. On iOS, current releases let you choose and preview an installed navigation voice.
 
-* Please report any Bluetooth issues with necessary details on our [GitHub](https://github.com/organicmaps/organicmaps/issues)
+If speech stops when the screen is locked, check background location and battery restrictions. Android's Accessibility **Select to Speak → Read in background** setting controls a different feature and is not the switch for Organic Maps navigation.
 
-* If you are an Android user and the option is disabled (or some of the supported languages are unavailable), please check [TTS settings](@/faq/voice/text-to-speech-android-tts/index.md).
-
-On Android voice instructions are available in 39 languages: English, Arabic, Basque, Belarusian, Catalan, Chinese (Simplified and Traditional), Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Marathi, Norwegian, Persian (Farsi), Polish, Portuguese, Portuguese (Brasil), Romanian, Russian, Serbian, Slovak, Spanish, Spanish (Mexico), Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese.
-
-Google TTS supports all listed languages except of Arabic and Persian (Farsi). For these languages you may need to install third party TTS (for example, eSpeak TTS, Vocalizer TTS or SVOX Classic TTS) and a language pack from app store (Google Play Store, Galaxy Store, etc).
-
-On iOS voice instructions are available in 26 languages: English, Arabic, Chinese (Traditional and Simplified), Czech, Danish, Dutch, Finnish, French, German, Greek, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Romanian, Russian, Slovak, Spanish, Swedish, Thai, Turkish.
+For Android setup, see [offline text-to-speech engines and voices](@/faq/voice/text-to-speech-android-tts/index.md). For car displays, see [Android Auto](@/faq/app/how-to-use-android-auto/index.md) or [Apple CarPlay](@/faq/voice/carplay/index.md).

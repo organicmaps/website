@@ -19,7 +19,7 @@ Une fois ta position déterminée sur la carte, choisis ta destination. Tu peux 
 * appuie sur le bouton des favoris
 * appuie sur (appuie et maintiens pour les zones vides) n'importe quel endroit sur la carte
 
-Une fois que tu as choisi le point de destination, appuie sur le bouton «Route vers» de la page d'accueil. L'itinéraire sera créé et tu verras la distance et le temps de trajet estimé. Tu peux changer le type de route en appuyant sur l'icône Voiture, Piéton, Métro, Vélo ou Règle en haut de l'écran. Pour commencer à suivre l'itinéraire touche le bouton «Démarrer». Appuie sur le signe fléché dans le coin inférieur droit de l'écran et appuie sur Arrête-toi pour terminer l'itinéraire.
+Une fois que tu as choisi le point de destination, appuie sur le bouton «Route vers» de la page d'accueil. L'itinéraire sera créé et tu verras la distance et le temps de trajet estimé. Tu peux changer le type de route en appuyant sur l'icône Voiture, Piéton, Métro, Vélo ou Règle en haut de l'écran. En mode transports en commun, tu peux consulter l’aperçu de l’itinéraire. Pour lancer la navigation en voiture, à pied ou à vélo, touche le bouton « Démarrer ». Appuie sur le signe fléché dans le coin inférieur droit de l'écran et appuie sur Arrête-toi pour terminer l'itinéraire.
 
 Tu peux choisir un point de départ différent (Itinéraire à partir du bouton) pour prévisualiser un itinéraire, mais la navigation est seulement disponible à partir de ton emplacement actuel.
 

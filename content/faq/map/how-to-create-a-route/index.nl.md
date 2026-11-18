@@ -20,7 +20,7 @@ Je kunt een van de volgende manieren gebruiken:
 * tik op de bladwijzerknop
 * tik op een willekeurige plaats op de kaart
 
-Nadat je het bestemmingspunt hebt gekozen, druk je onderaan op de knop 'Route naar'. De route wordt aangemaakt en je ziet de afstand en de geschatte reistijd. Je kunt het routetype wijzigen door bovenaan het scherm op het pictogram Auto, Voetganger, Metro, Fiets of Liniaal te drukken. Om de route te volgen, tik je op de knop “Start”. Druk op het pijlteken in de rechterbenedenhoek van het scherm en tik op Stop om de route te voltooien.
+Nadat je het bestemmingspunt hebt gekozen, druk je onderaan op de knop 'Route naar'. De route wordt aangemaakt en je ziet de afstand en de geschatte reistijd. Je kunt het routetype wijzigen door bovenaan het scherm op het pictogram Auto, Voetganger, Metro, Fiets of Liniaal te drukken. In de modus voor openbaar vervoer krijg je een overzicht van de reisroute. Tik bij een auto-, wandel- of fietsroute op ‘Start’ om te navigeren. Druk op het pijlteken in de rechterbenedenhoek van het scherm en tik op Stop om de route te voltooien.
 
 Je kunt een ander startpunt kiezen (knop 'Route vanaf') om een ​​voorbeeld van een route te bekijken, maar navigatie is alleen beschikbaar vanaf je huidige locatie.
 

@@ -14,6 +14,6 @@ Tu dois avoir au mininum iOS 12 ou Android 5 sur ton appareil pour utiliser l'ap
 
 Sur Android, Organic Maps peut fonctionner sur des appareils avec ou sans les Services Google Play d'installées.
 
-Pour utiliser Organic Maps sur Android Auto, merci de vérifier les prérequis [ici](../comment-utiliser-android-auto/).
+Pour utiliser Organic Maps sur Android Auto, merci de vérifier les prérequis [ici](@/faq/app/how-to-use-android-auto/index.fr.md).
 
 Pour que ça marche, les appareils Android doivent prendre en charge OpenGL ES 3.0 ou une version supérieure, ou l'API Vulkan.

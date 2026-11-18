@@ -18,4 +18,4 @@ V systému Android může Organic Maps fungovat na zařízeních s nainstalovan�
 
 Aby zařízení s operačním systémem Android fungovala, musí podporovat OpenGL ES 3.0 nebo novější verzi, případně rozhraní Vulkan API.
 
-Chcete-li používat OM s Android Auto, zkontrolujte požadavky [zde](../how-to-use-android-auto/).
+Chcete-li používat OM s Android Auto, zkontrolujte požadavky [zde](@/faq/app/how-to-use-android-auto/index.cs.md).

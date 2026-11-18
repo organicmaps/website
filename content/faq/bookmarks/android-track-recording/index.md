@@ -1,23 +1,15 @@
 ---
-title: Why tracks are not recorded reliably in background on Android?
-description: Default battery optimization settings on Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC and other devices may stop or kill Organic Maps app in the background.
-updated: "2024-10-05"
-
+title: "Why does track recording stop or have gaps with the screen off?"
+description: "Fix Organic Maps track recording gaps with the screen off by checking location access, Android battery restrictions and GPS reception."
+updated: "2026-11-06"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
-
 extra:
-  order: 30
+  order: 70
 ---
 
-Default battery optimization settings on Samsung, Huawei, Google, Xiaomi, OnePlus, Meizu, Asus, Wiko, Lenovo, Oppo, Vivo, Realme, Sony, Motorola, HTC and other devices may stop or kill Organic Maps app in the background.
+On Android, battery optimization or background restrictions may stop Organic Maps. In the device's app settings, allow the location access needed for recording and remove battery or background restrictions for Organic Maps. Menu names vary by manufacturer; [Don't kill my app](https://dontkillmyapp.com/) provides device-specific instructions, including for Samsung, Huawei, Xiaomi and other Android brands.
 
-This is especially true for modern Android versions:
-- Android 16
-- Android 15
-- Android 14
-- Android 13
-- Android 12
-- Android 11
+On either platform, keep location services enabled and avoid force-closing the app while recording. Poor satellite reception can also cause missing or inaccurate points. Test a short recording with the phone locked before relying on a longer one. If it still fails, [report the device, OS version, permissions, and whether the failure occurs only in the background](@/faq/app/report-a-bug/index.md).
 
-The exact steps on how to make Organic Maps (and other apps) work in the background are listed here: [dontkillmyapp.com](https://dontkillmyapp.com)
+For the basic recording and saving steps on Android and iPhone, see [how to record a journey](@/faq/bookmarks/record-a-track/index.md). If the position is also inaccurate with the app open, check [location troubleshooting](@/faq/map/can-not-find-position/index.md).

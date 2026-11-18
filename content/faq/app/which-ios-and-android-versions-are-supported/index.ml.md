@@ -18,4 +18,4 @@ Android-ൽ, Google സേവനങ്ങൾ ഇൻസ്റ്റാൾ ചെ�
 
 പ്രവർത്തിക്കുന്നതിന്, Android ഉപകരണങ്ങൾ OpenGL ES 3.0 അല്ലെങ്കിൽ അതിന് മുകളിലുള്ളതോ, അല്ലെങ്കിൽ Vulkan API-യെ പിന്തുണയ്‌ക്കേണ്ടതുണ്ട്.
 
-Android Auto-യിൽ OM ഉപയോഗിക്കുന്നതിന്, ആവശ്യകതകൾ [ഇവിടെ](../how-to-use-android-auto/) പരിശോധിക്കുക.
+Android Auto-യിൽ OM ഉപയോഗിക്കുന്നതിന്, ആവശ്യകതകൾ [ഇവിടെ](@/faq/app/how-to-use-android-auto/index.ml.md) പരിശോധിക്കുക.

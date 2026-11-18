@@ -1,3 +1,4 @@
+{%- set is_faq = (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") -%}
 {%- if page %}
 {%- set resource = page %}
 {%- set resource_title = resource.title %}
@@ -10,6 +11,9 @@
 {%- set resource = term %}{# taxonomy term has only 'name', 'slug' and 'path' properties #}
 {%- set resource_path = resource.path %}
 {%- set resource_title = resource.name | replace(from="-", to=" ") | capitalize %}
+{%- if is_faq %}
+{%- set resource_title = config.extra.faq_category_titles | get(key=term.name, default=resource_title) %}
+{%- endif %}
 {%- elif taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
 {% if lang == 'en' %}
 {% set resource = taxonomy.name ~ "/_index.md" %}
@@ -24,14 +28,23 @@
 {#- Build a descriptive page_title for <title>, og:title, twitter:title.
     Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
     "{Term} – {Section label} – {Brand}" so the title is unique and
-    branded; everything else uses the resource's own title verbatim.
+    branded. English FAQ answers also include the brand when absent;
+    everything else uses the resource's own title verbatim.
     On non-default-language pages, an ASCII-only term is usually an
     untranslated English label, so omit it rather than mix languages.
     Language-neutral names such as Linux are explicitly allowed in config. -#}
 {%- set page_title = resource_title -%}
+{%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
+{%- if lang == config.default_language and page and is_faq -%}
+  {%- set normalized_title = resource_title | lower -%}
+  {%- set normalized_brand = brand | lower -%}
+  {%- if not (normalized_title is containing(pat=normalized_brand)) -%}
+    {%- set page_title = resource_title ~ " – " ~ brand -%}
+  {%- endif -%}
+{%- endif -%}
 {%- set term_description = "" -%}
 {%- if term -%}
-  {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
+  {%- set term_name = resource_title -%}
   {%- set use_term_name = lang == config.default_language -%}
   {%- if not use_term_name -%}
     {%- if term.name in config.extra.language_neutral_taxonomy_terms or term.name | regex_replace(pattern="[a-zA-Z0-9-]", rep="") | length > 0 -%}
@@ -51,7 +64,6 @@
     {%- endif -%}
   {%- endif -%}
   {%- if section_label -%}
-    {%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
     {%- if use_term_name -%}
       {%- set page_title = term_name ~ " – " ~ section_label ~ " – " ~ brand -%}
     {%- else -%}
@@ -59,6 +71,26 @@
     {%- endif -%}
   {%- endif -%}
 {%- endif -%}
+
+{% if is_faq %}
+{% set faq_root = get_taxonomy(kind="faq", lang=lang) %}
+{% set faq_categories = [
+  ...[t for t in faq_root.items if t.name not in config.extra.faq_last_categories],
+  ...[t for t in faq_root.items if t.name in config.extra.faq_last_categories]
+] %}
+{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
+{% set faq_label = faq_section.title %}
+{% if lang == config.default_language %}
+  {% set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) %}
+{% endif %}
+{% set current_category = "" %}
+{% if page %}
+  {% set current_category = page.taxonomies.faq[0] %}
+{% elif term %}
+  {% set current_category = term.name %}
+{% endif %}
+{% set faq_category_title = config.extra.faq_category_titles | get(key=current_category, default=(current_category | replace(from="-", to=" ") | capitalize)) %}
+{% endif %}
 
 <!DOCTYPE html>
 <html lang="{{ lang }}" {%- if lang in config.extra.rtl_languages -%} dir="rtl" {%- endif -%}>
@@ -205,14 +237,14 @@
   </header>
 
   <main>
-    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
+    {% if page and is_faq %}
     {% include 'faq/faq-breadcrumbs.html' %}
     {% endif %}
     {% block content %}{% endblock %}
   </main>
 
   <footer>
-    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ editing link #}
+    {% if page and is_faq %}
     {% include 'faq/github_edit_link.html' %}
     {% endif %}
 

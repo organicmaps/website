@@ -5,12 +5,12 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require('playwright');
+const { assetResponse } = require('./browser_assets.cjs');
 
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'public');
 const origin = 'https://donation.test';
 const draftKey = 'organicmaps-donate-checkout-draft-v2';
-const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp' };
 const headerRules = [];
 let rule;
 for (const line of fs.readFileSync(path.join(root, 'static/_headers'), 'utf8').split('\n')) {
@@ -57,9 +57,9 @@ async function openPage(t, options = {}) {
       unexpected.push(url.href);
       return route.abort();
     }
-    const file = path.join(output, decodeURIComponent(url.pathname), url.pathname.endsWith('/') ? 'index.html' : '');
-    if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: 'Not found' });
-    return route.fulfill({ body: fs.readFileSync(file), contentType: mime[path.extname(file).toLowerCase()] || 'application/octet-stream', headers: headersFor(url.pathname) });
+    const asset = assetResponse(output, url.pathname);
+    if (!asset) return route.fulfill({ status: 404, body: 'Not found' });
+    return route.fulfill({ ...asset, headers: headersFor(url.pathname) });
   });
   const page = await context.newPage();
   page.on('pageerror', error => errors.push(error.message));

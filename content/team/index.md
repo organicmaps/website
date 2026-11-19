@@ -25,15 +25,21 @@ extra:
   join_role: Open
   how_label: How
   community_label: Community
-  # Every person keeps all six keys. github is the login, shown as @login and
-  # linked to the profile. photo is a square image saved next to this file —
-  # for now the GitHub avatar, named after the login — or "" for the
-  # silhouette. links holds anything beyond GitHub, and may be []; the page
-  # shows each url without its scheme. Keep bio in double quotes: a colon
-  # followed by a space breaks an unquoted YAML value.
+  # Every person keeps all seven keys. location is where they are, a city and
+  # country or just a country, shown with a pin under the bio; "" leaves it
+  # out. It is its own key so that the bio stays about their work. github is
+  # the login, shown as @login and linked to the profile. photo is a square
+  # image, 640 px, saved next to this file and named after the login: a photo
+  # the person sent or their GitHub avatar, with its metadata stripped, or ""
+  # for the silhouette. Keep only photos in use here, since Zola publishes
+  # every file next to this page. links holds anything beyond GitHub, and may
+  # be []; the page shows each url without its scheme. Keep bio and
+  # location in double quotes: a colon followed by a space breaks an unquoted
+  # YAML value.
   founders:
     - name: Alexander Borsuk
       role: Co-founder
+      location: "Zürich, Switzerland"
       github: biodranik
       bio: "Co-founder of Organic Maps and creator of MAPS.ME."
       photo: biodranik.jpg
@@ -41,25 +47,44 @@ extra:
         - { label: Website, url: "https://alex.bio/" }
     - name: Viktor Havaka
       role: Co-founder
+      location: "Buenos Aires, Argentina"
       github: vng
-      bio: "Co-founder of Organic Maps. Worked on MAPS.ME before that."
+      bio: "Former MAPS.ME co-founder, former Mapboxer."
       photo: vng.jpg
       links:
         - { label: LinkedIn, url: "https://www.linkedin.com/in/vng/" }
   members:
     - name: Kiryl Kaveryn
       role: iOS
+      location: "Poland"
       github: kirylkaveryn
       bio: "The team's iOS expert, working across the whole iOS app."
       photo: kirylkaveryn.jpg
-      links: []
+      links:
+        - { label: LinkedIn, url: "https://www.linkedin.com/in/kiryl-kaveryn/" }
     - name: Mikhail Listratsenka
       role: Android & Wear OS
+      location: "Warsaw, Poland"
       github: strider-dunadan
       bio: "Works across the whole Android app and the Wear OS watch app."
-      photo: strider-dunadan.png
+      photo: strider-dunadan.jpg
       links:
-        - { label: LinkedIn, url: "https://www.linkedin.com/in/mikhail-listratsenka-395798115/" }
+        - { label: LinkedIn, url: "https://www.linkedin.com/in/mikelijordan/" }
+    - name: Dina Barysevich
+      role: User support
+      location: "Lithuania"
+      github: dinabarysevich
+      bio: "Helps Organic Maps users with their questions and problems, and passes their reports on to the developers."
+      photo: dinabarysevich.jpg
+      links: []
+    - name: Natalia Yakavenka
+      role: App stores & social media
+      location: "Tbilisi, Georgia"
+      github: yanatalia
+      bio: "Optimises the app's App Store and Google Play listings, helping Organic Maps get more users."
+      photo: yanatalia.jpg
+      links:
+        - { label: LinkedIn, url: "https://www.linkedin.com/in/yakavenkan/" }
   # Contributors, one line each: name, role (what they help with) and github,
   # or the first of their links when they have no github. The section is
   # hidden while the list is empty.

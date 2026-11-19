@@ -73,8 +73,12 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
 .idx { grid-column: 1 / -1; font: 500 13px/1 var(--font-mono); color: var(--color-accent); }
 .tile { background: var(--color-tile); aspect-ratio: 1; overflow: hidden; }
 .tile img { width: 100%; height: 100%; object-fit: cover; }
-.tile-empty { background: var(--color-accent); }
-.tile-empty svg { width: 100%; height: 100%; fill: none; stroke: #fff; stroke-width: 0.8; }
+/* The open place: a white tile with a green plus, outlined so it holds its
+   square on the white page. */
+.tile-empty { background: var(--color-paper); box-shadow: inset 0 0 0 1px var(--color-rule); }
+.tile-empty svg { width: 100%; height: 100%; fill: none; stroke: var(--color-accent); stroke-width: 0.8; }
+/* No photo yet: the window grey with a thin silhouette. */
+.tile-blank svg { width: 100%; height: 100%; fill: none; stroke: var(--color-ink-2); stroke-width: 0.24; }
 .about { min-width: 0; }
 .name { margin: 0; font: 500 24px/1.1 var(--font-display); letter-spacing: -0.02em; }
 .bio { margin: var(--space-2) 0 0; color: var(--color-ink-2); max-width: 38ch; }
@@ -156,7 +160,7 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
       <p class="intro">We are a small team of enthusiasts building a free, open-source maps app that works offline, shows no ads and does not track you.</p>
       <ul class="facts">
         <li><b>02</b><span>founders</span></li>
-        <li><b>02</b><span>core team</span></li>
+        <li><b>04</b><span>core team</span></li>
       </ul>
     </div>
 
@@ -182,20 +186,20 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
           <div class="tile"><img src="../content/team/vng.jpg" alt="" width="320" height="320" loading="lazy"></div>
           <div class="about">
             <h3 class="name">Viktor Havaka</h3>
-            <p class="bio">Co-founder of Organic Maps. Worked on MAPS.ME before that.</p>
+            <p class="bio">Former MAPS.ME co-founder, former Mapboxer.</p>
           </div>
           <ul class="spec">
                 <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">co-founder</span></li>
                 <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">founders</span></li>
                 <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/vng" rel="noopener" target="_blank">@vng</a></span></li>
-                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">linkedin.com/in/vng</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/vng/" rel="noopener" target="_blank">@vng</a></span></li>
           </ul>
         </li>
       </ol>
     </section>
 
     <section class="group" aria-labelledby="core-title">
-      <h2 class="group-head" id="core-title"><span>core team</span><span class="count">(02)</span></h2>
+      <h2 class="group-head" id="core-title"><span>core team</span><span class="count">(04)</span></h2>
       <ol class="people">
         <li class="person" style="--i:3">
           <span class="idx" aria-hidden="true">03</span>
@@ -208,11 +212,12 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
                 <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">ios</span></li>
                 <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
                 <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/kirylkaveryn" rel="noopener" target="_blank">@kirylkaveryn</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/kiryl-kaveryn/" rel="noopener" target="_blank">@kiryl-kaveryn</a></span></li>
           </ul>
         </li>
         <li class="person" style="--i:4">
           <span class="idx" aria-hidden="true">04</span>
-          <div class="tile"><img src="../content/team/strider-dunadan.png" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="tile"><img src="../content/team/strider-dunadan.jpg" alt="" width="320" height="320" loading="lazy"></div>
           <div class="about">
             <h3 class="name">Mikhail Listratsenka</h3>
             <p class="bio">Works across the whole Android app and the Wear OS watch app.</p>
@@ -221,11 +226,38 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
                 <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">android &amp; wear os</span></li>
                 <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
                 <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/strider-dunadan" rel="noopener" target="_blank">@strider-dunadan</a></span></li>
-                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/mikhail-listratsenka-395798115/" rel="noopener" target="_blank">linkedin.com/in/mikhail-listratsenka-395798115</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/mikelijordan/" rel="noopener" target="_blank">@mikelijordan</a></span></li>
           </ul>
         </li>
-        <li class="person join" style="--i:5">
+        <li class="person" style="--i:5">
           <span class="idx" aria-hidden="true">05</span>
+          <div class="tile"><img src="../content/team/dinabarysevich.jpg" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Dina Barysevich</h3>
+            <p class="bio">Helps Organic Maps users with their questions and problems, and passes their reports on to the developers.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">user support</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/dinabarysevich" rel="noopener" target="_blank">@dinabarysevich</a></span></li>
+          </ul>
+        </li>
+        <li class="person" style="--i:6">
+          <span class="idx" aria-hidden="true">06</span>
+          <div class="tile"><img src="../content/team/yanatalia.jpg" alt="" width="320" height="320" loading="lazy"></div>
+          <div class="about">
+            <h3 class="name">Natalia Yakavenka</h3>
+            <p class="bio">Optimises the app's App Store and Google Play listings, helping Organic Maps get more users.</p>
+          </div>
+          <ul class="spec">
+                <li><span class="k">role</span><span class="dots" aria-hidden="true"></span><span class="v">app stores &amp; social media</span></li>
+                <li><span class="k">team</span><span class="dots" aria-hidden="true"></span><span class="v">core team</span></li>
+                <li><span class="k">github</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://github.com/yanatalia" rel="noopener" target="_blank">@yanatalia</a></span></li>
+                <li><span class="k">linkedin</span><span class="dots" aria-hidden="true"></span><span class="v"><a href="https://www.linkedin.com/in/yakavenkan/" rel="noopener" target="_blank">@yakavenkan</a></span></li>
+          </ul>
+        </li>
+        <li class="person join" style="--i:7">
+          <span class="idx" aria-hidden="true">07</span>
           <div class="tile tile-empty" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><path d="M50 38v24M38 50h24"/></svg></div>
           <div class="about">
             <h3 class="name"><a href="/contribute/">This could be you</a></h3>
@@ -252,7 +284,7 @@ h1 { grid-column: 1 / -1; margin: 0; font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5
     </div>
   </main>
 
-  <footer class="foot deepblock"><span>organic maps / team</span><span>(04)</span></footer>
+  <footer class="foot deepblock"><span>organic maps / team</span><span>(06)</span></footer>
 </div>
 </body>
 </html>

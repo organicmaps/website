@@ -9,6 +9,7 @@
   <div class="team-about">
     <h3 class="team-name">{{ p.name }}</h3>
     {% if p.bio %}<p class="team-bio">{{ p.bio }}</p>{% endif %}
+    {% if p.location %}<p class="team-place"><svg class="team-pin" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Z"/></svg>{{ p.location }}</p>{% endif %}
   </div>
   <ul class="team-spec" role="list">
     <li><span class="team-k">{{ resource.extra.role_label }}</span><span class="team-dots" aria-hidden="true"></span><span class="team-v team-lower">{{ p.role }}</span></li>
@@ -17,7 +18,11 @@
     <li><span class="team-k">github</span><span class="team-dots" aria-hidden="true"></span><span class="team-v"><a href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">@{{ p.github }}</a></span></li>
     {%- endif %}
     {%- for l in p.links %}
-    <li><span class="team-k">{{ l.label }}</span><span class="team-dots" aria-hidden="true"></span><span class="team-v"><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.url | replace(from="https://", to="") | replace(from="http://", to="") | replace(from="www.", to="") | trim_end(pat="/") }}</a></span></li>
+    {#- A LinkedIn profile shows as @handle, like GitHub; any other link as its bare address. #}
+    <li><span class="team-k">{{ l.label }}</span><span class="team-dots" aria-hidden="true"></span><span class="team-v"><a href="{{ l.url }}" target="_blank" rel="noopener">
+      {%- if l.url is containing(pat="linkedin.com/in/") %}@{{ l.url | trim_end(pat="/") | split(pat="/") | last }}
+      {%- else %}{{ l.url | replace(from="https://", to="") | replace(from="http://", to="") | replace(from="www.", to="") | trim_end(pat="/") }}{% endif -%}
+    </a></span></li>
     {%- endfor %}
   </ul>
 </li>

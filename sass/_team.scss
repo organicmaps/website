@@ -362,6 +362,22 @@
   }
 }
 
+/* Where the person is, under the bio: a pin in the page's one colour and
+   the place in the spec sheet's type, capitalised as written. */
+.team-place {
+  margin: 12px 0 0;
+  font: 400 13px/1.4 var(--team-mono);
+}
+
+.team-pin {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  margin-inline-end: 3px;
+  fill: var(--team-accent);
+  vertical-align: -0.2em;
+}
+
 /* Contributors: one line each, in the columns of a spec sheet. */
 .team-contribs {
   margin: 0;

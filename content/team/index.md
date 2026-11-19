@@ -10,18 +10,27 @@ extra:
   # Without this the link preview takes the first image next to this file,
   # which is somebody's avatar. The site-wide default until a team image exists.
   preview_image: images/screenshots/prague.jpg
-  eyebrow: Team
   founders_title: Founders
   core_title: Core team
   contributors_title: Contributors
   contributors_text: People who regularly help with code, translations, maps, testing and support.
   join_title: This could be you
   join_text: Code, translations, map edits or helping other users — every contribution counts.
+  # Labels of each person's spec sheet. The page prints them in lowercase, like
+  # the group titles above. "github" and the label of each link are not here:
+  # they are names. The open place says join_role under role_label and links
+  # how_label to the contribute page, under that page's own menu title.
+  role_label: Role
+  team_label: Team
+  join_role: Open
+  how_label: How
+  community_label: Community
   # Every person keeps all six keys. github is the login, shown as @login and
   # linked to the profile. photo is a square image saved next to this file —
   # for now the GitHub avatar, named after the login — or "" for the
-  # silhouette. links holds anything beyond GitHub, and may be []. Keep bio in
-  # double quotes: a colon followed by a space breaks an unquoted YAML value.
+  # silhouette. links holds anything beyond GitHub, and may be []; the page
+  # shows each url without its scheme. Keep bio in double quotes: a colon
+  # followed by a space breaks an unquoted YAML value.
   founders:
     - name: Alexander Borsuk
       role: Co-founder
@@ -51,8 +60,9 @@ extra:
       photo: strider-dunadan.png
       links:
         - { label: LinkedIn, url: "https://www.linkedin.com/in/mikhail-listratsenka-395798115/" }
-  # Contributors, a shorter card: name, role (what they help with), github,
-  # photo, links. The section is hidden while the list is empty.
+  # Contributors, one line each: name, role (what they help with) and github,
+  # or the first of their links when they have no github. The section is
+  # hidden while the list is empty.
   contributors: []
 ---
 

@@ -1,0 +1,188 @@
+/*
+ * Design tokens for the team page explorations.
+ *
+ * Shared scales live on :root. Colour and type are per direction: a page
+ * opts in with <html data-direction="organic|metro|cartouche|atlas"> and reads only
+ * semantic names (--color-paper, --font-display…), so a layout never
+ * mentions a hex value or a family.
+ *
+ * Breakpoints, which custom properties cannot express in a media query:
+ *   720px  — tablet: grids open up, maps get labels
+ *   1120px — desktop: full column count, wide margins
+ */
+
+:root {
+  /* Space: a 4px base, roughly doubling. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Type: ratio 1.2 at 320px growing to 1.333 at 1440px. */
+  --step--1: 0.84rem;
+  --step-0: clamp(1rem, 0.964rem + 0.179vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.114rem + 0.429vw, 1.5rem);
+  --step-2: clamp(1.44rem, 1.28rem + 0.8vw, 2rem);
+  --step-3: clamp(1.728rem, 1.461rem + 1.338vw, 2.665rem);
+  --step-4: clamp(2.074rem, 1.651rem + 2.113vw, 3.553rem);
+  --step-5: clamp(2.488rem, 1.846rem + 3.21vw, 4.736rem);
+  --leading-tight: 1.05;
+  --leading-text: 1.5;
+  --measure: 62ch;
+
+  /* Grid: 4 / 8 / 12 columns. */
+  --grid-columns: 4;
+  --grid-gutter: 16px;
+  --grid-margin: 16px;
+  --grid-max: 1344px;
+
+  /* Rules, from hairline engraving to a metro track. */
+  --rule-hair: 0.75px;
+  --rule: 1.5px;
+  --rule-heavy: 6px;
+
+  /* Motion. Every use sits inside prefers-reduced-motion: no-preference. */
+  --dur-short: 160ms;
+  --dur-draw: 900ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --brand-green: #006c35;
+}
+
+@media (min-width: 720px) {
+  :root {
+    --grid-columns: 8;
+    --grid-gutter: 24px;
+    --grid-margin: 32px;
+  }
+}
+
+@media (min-width: 1120px) {
+  :root {
+    --grid-columns: 12;
+    --grid-gutter: 32px;
+    --grid-margin: 48px;
+  }
+}
+
+/* 1 — Metro: a pocket transit diagram. Wayfinding sans, flat colour. */
+[data-direction="metro"] {
+  --color-paper: #f5f2e9;
+  --color-ink: #1c1e1d;
+  --color-accent: var(--brand-green);
+  --color-water: #2f6f9f;
+  --color-relief: #c7802a;
+  --color-zone: color-mix(in srgb, var(--color-ink) 5%, var(--color-paper));
+
+  /* Six lines from five colours: 5 and 6 are cased, paper in the middle. */
+  --line-1: var(--color-accent); /* Android */
+  --line-2: var(--color-ink); /* iOS */
+  --line-3: var(--color-water); /* C++ core */
+  --line-4: var(--color-relief); /* Map data */
+  --line-5: var(--color-ink); /* Design, cased */
+  --line-6: var(--color-accent); /* Community, cased */
+
+  --font-display: "Overpass", "Arial Narrow", sans-serif;
+  --font-text: "Overpass", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Overpass Mono", ui-monospace, monospace;
+}
+
+/* 2 — Cartouche: an engraved sheet. Inscriptional caps, 19th-century text. */
+[data-direction="cartouche"] {
+  --color-paper: #ede3cb;
+  --color-ink: #2b2017;
+  --color-plate: #d8c9a6;
+  --color-rubric: #973a27;
+  --color-accent: var(--brand-green);
+
+  --font-display: "Forum", "Trajan Pro", Georgia, serif;
+  --font-text: "Old Standard TT", "Times New Roman", serif;
+  --font-mono: "Old Standard TT", serif;
+}
+
+/*
+ * 5 — Catalog: a product catalogue in the manner of teenage.engineering.
+ * White, ink, one grey for secondary text, the app's window grey under the
+ * photos, and the brand green as the only colour.
+ */
+[data-direction="catalog"] {
+  --color-paper: #ffffff;
+  --color-ink: #000000;
+  --color-ink-2: #6b6b6b;
+  --color-tile: #eeeeee; /* bg_window in the app */
+  --color-rule: #dcdcdc;
+  --color-accent: var(--brand-green); /* bg_primary: the toolbar */
+  --color-brand-deep: #004120; /* bg_statusbar */
+  --color-on-brand-2: rgb(255 255 255 / 0.82); /* secondary text on either green */
+
+  --font-display: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-text: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+}
+
+/*
+ * 4 — Organic: the app itself. Every value is taken from organicmaps/organicmaps:
+ * UI from android/app/src/main/res/values/colors.xml, map from
+ * data/styles/default/light/colors.mapcss, pins from kml::ColorFromPredefinedColor
+ * (libs/kml/types.hpp). Five base colours; the pin colours only code directions.
+ */
+[data-direction="organic"] {
+  --color-toolbar: var(--brand-green); /* bg_primary */
+  --color-statusbar: #004120; /* bg_statusbar */
+  --color-surface: #ffffff; /* bg_cards */
+  --color-window: #eeeeee; /* bg_window */
+  --color-map: #e3e1d2; /* @background */
+  --color-water: #8bd3e0; /* @water */
+  --color-forest: #aabf65; /* @forest */
+
+  --color-ink: #212121; /* text_dark, 87% black on white */
+  --color-ink-2: #616161; /* subtitle, darkened from 54% black for AA on bg_window */
+  --color-link: #0066cc; /* bookmark Blue: base_accent #249CF2 fails AA on white */
+  --color-divider: #e0e0e0; /* divider, 12% black on white */
+
+  /* Map style. */
+  --map-meadow: #c6cf93; /* @green1 */
+  --map-field: #e4dead; /* @farmland */
+  --map-building: #c9c8bb; /* @building0 */
+  --map-building-line: #a1a096; /* @building_border0 */
+  --map-primary: #ff8726; /* @primary0 */
+  --map-secondary: #ffb226; /* @secondary0 */
+  --map-street: #f7f7f7; /* @tertiary */
+  --map-casing: #b5b3a3;
+  --map-path: #a05012; /* @path */
+  --map-railway: #969586; /* @railway */
+  --map-label: #222222; /* @label_dark */
+  --map-label-light: #444444; /* @label_light */
+  --map-halo: #edebdb; /* @label_halo_medium */
+
+  /* Bookmark colours, one per direction; founders get the default red. */
+  --pin-founders: #e51b23; /* Red */
+  --pin-1: #3c8c3c; /* Green — Android */
+  --pin-2: #0066cc; /* Blue — iOS */
+  --pin-3: #6639bf; /* DeepPurple — C++ core */
+  --pin-4: #00a58c; /* Teal — Map data */
+  --pin-5: #ff4182; /* Pink — Design */
+  --pin-6: #ff9600; /* Orange — Community */
+
+  --font-display: "Onest", "Helvetica Neue", Arial, sans-serif;
+  --font-text: "Onest", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Onest", sans-serif;
+}
+
+/* 3 — Atlas: a physical world map. Humanist small caps, chart numerals. */
+[data-direction="atlas"] {
+  --color-paper: #f1ecdc; /* land */
+  --color-water: #c8d9d4;
+  --color-ink: #23383d; /* deep water: text, waterlines, graticule */
+  --color-relief: #b98a55;
+  --color-accent: var(--brand-green);
+
+  --font-display: "Alegreya Sans SC", "Gill Sans", sans-serif;
+  --font-text: "Alegreya Sans", "Gill Sans", sans-serif;
+  --font-mono: "Martian Mono", ui-monospace, monospace;
+}

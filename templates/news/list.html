@@ -16,9 +16,9 @@
   {% set page = get_page(path=translatedPage.path) %}
 {% endif %}
 
-<section{% if page.translations | length <= 1 %} dir="auto"{% endif %} class="{% for taxonomy, terms in page.taxonomies %}{% for term in terms%}{{ term }} {% endfor %}{% else %}News{% endfor %}">
+<section{% if page.lang != lang %} lang="{{ page.lang }}"{% endif %}{% if page.translations | length <= 1 %} dir="auto"{% endif %} class="{% for taxonomy, terms in page.taxonomies %}{% for term in terms%}{{ term }} {% endfor %}{% else %}News{% endfor %}">
 
-<div class="news_date">&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format='%B %e, %Y') }}</a>&nbsp;</div>
+<div class="news_date"{% if page.lang != news_date_lang %} lang="{{ news_date_lang }}"{% endif %}>&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format=news_date_format) }}</a>&nbsp;</div>
 <h1>{{ page.title | safe }}</h1>
 {# Display wide images below the text instead of to the right. #}
 {% set has_landscape = <news_has_landscape resource={page} /> %}

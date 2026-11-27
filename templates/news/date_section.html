@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>{{ resource.title }}</h1>
+<h1>{{ resource_title | default(value=resource.title) }}</h1>
 {% for page in section.pages %}
 {% set translatedPage = [t for t in page.translations if t.lang == lang] | first %}
 {% if translatedPage %}
   {% set page = get_page(path=translatedPage.path) %}
 {% endif %}
-<div class="news_date">&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format='%B %e, %Y') }}</a>&nbsp;</div>
+<div class="news_date"{% if news_date_lang != lang %} lang="{{ news_date_lang }}"{% endif %}>&nbsp;<a href="{{ page.path | safe }}">{{ page.date | date(format=news_date_format) }}</a>&nbsp;</div>
 <div class="news_content_image">
 {% if page.content %}
   <div class="news_content">{{ page.content | safe }}</div>

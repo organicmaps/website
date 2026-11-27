@@ -46,6 +46,7 @@ class RenderedPage(HTMLParser):
         self.label = []
         self.links = []
         self.form_language = None
+        self.document_language = None
         self.heading_language = None
         self.checkout_language = None
         self.card_direction = None
@@ -53,6 +54,8 @@ class RenderedPage(HTMLParser):
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         language = attrs.get("lang", self.stack[-1][1] if self.stack else None)
+        if tag == "html":
+            self.document_language = language
         if tag == "nav":
             self.in_menu = attrs.get("id") == self.menu_id
         if tag == "a" and self.in_menu:
@@ -140,11 +143,8 @@ class NavigationTests(unittest.TestCase):
         self.zola = shutil.which("zola")
         self.assertIsNotNone(self.zola, "Install Zola to run navigation tests")
 
-    def build(self, root, *, expected_error=None, output_dir=None):
-        command = [self.zola, "build"]
-        if output_dir is not None:
-            command.extend(["--output-dir", str(output_dir)])
-        result = subprocess.run(command, cwd=root,
+    def build(self, root, *options, expected_error=None):
+        result = subprocess.run([self.zola, "build", *options], cwd=root,
                                 capture_output=True, text=True)
         output = result.stdout + result.stderr
         if expected_error is None:
@@ -153,14 +153,22 @@ class NavigationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0, output)
             self.assertIn(expected_error, output)
 
-    def test_homepage_links_and_community_anchor(self):
+    def assert_feed_website(self, folder, expected_url):
+        rss = ET.parse(folder / "rss.xml")
+        self.assertEqual(rss.findtext("channel/link"), expected_url)
+        atom = ET.parse(folder / "atom.xml")
+        alternate = atom.find("{http://www.w3.org/2005/Atom}link[@rel='alternate']")
+        self.assertEqual(alternate.get("href"), expected_url)
+
+    def test_published_homepage_and_feed_links(self):
         references = (ROOT / "templates/shortcodes/references.md").read_text()
         chats = dict(re.findall(
             r"(?m)^\[(telegram(?:_chat(?:_[a-z]+)?)?)\]:\s+(\S+)", references,
         ))
         with tempfile.TemporaryDirectory() as output:
             public = Path(output) / "public"
-            self.build(ROOT, output_dir=public)
+            base_url = "https://preview.example.org"
+            self.build(ROOT, "--output-dir", public, "--base-url", base_url)
             for home in sorted((ROOT / "content").glob("_index*.md")):
                 lang = "en" if home.name == "_index.md" else home.name[7:-3]
                 with self.subTest(lang=lang):
@@ -176,17 +184,18 @@ class NavigationTests(unittest.TestCase):
                         [href for href in parser.links if href in chats.values()],
                         [chats["telegram"], group],
                     )
+            self.assert_feed_website(public, base_url)
 
-    def test_news_images_and_preview_resolution(self):
+    def test_news_previews_and_localized_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            write(root, "config.toml", 'base_url = "https://example.org"\n'
+            write(root, "config.toml", 'base_url = "https://example.org"\ntitle = "Organic Maps"\n'
                   'taxonomies = [{name = "news"}]\n'
-                  '[extra]\nrtl_languages = []\n'
+                  '[extra]\nrtl_languages = []\nnews_date_formats = {de = "%d.%m.%Y"}\n'
                   '[translations]\nback = "Back"\n'
-                  '[languages.de]\ntaxonomies = [{name = "news"}]\n'
+                  '[languages.de]\ngenerate_feeds = true\nfeed_filenames = ["rss.xml", "atom.xml"]\ntaxonomies = [{name = "news"}]\n'
                   '[languages.de.translations]\nback = "Zurück"\n')
-            for template in ("base.html", "_jsonld_news.html", "_news_preview.html", "_news_media.html", "sitemap.xml",
+            for template in ("base.html", "_jsonld_news.html", "_news_preview.html", "_news_media.html", "sitemap.xml", "rss.xml", "atom.xml",
                              "news/page.html", "news/list.html", "news/date_section.html",
                              "shortcodes/screenshot.html"):
                 write(root, f"templates/{template}", (ROOT / "templates" / template).read_text())
@@ -222,8 +231,8 @@ class NavigationTests(unittest.TestCase):
                       '  preview_image: home-cover.jpg\n---\n'
                       '{{ <screenshot src="/images/map.WEBP" alt="Map" /> }}\n')
                 write(root, f"content/news/_index{suffix}.md", '---\ntitle: News\n'
-                      'render: false\npage_template: news/page.html\n---\n')
-                write(root, f"content/news/2024-01-01/_index{suffix}.md", '---\ntitle: News\n'
+                      'render: false\npage_template: news/page.html\nextra:\n  menu_title: News\n---\n')
+                write(root, f"content/news/2024-01-01/_index{suffix}.md", '---\n'
                       'template: news/date_section.html\nsort_by: date\n---\n')
                 for name, (extra, slug, _) in cases.items():
                     slug = slug if not suffix else f"{slug}-de"
@@ -253,6 +262,10 @@ class NavigationTests(unittest.TestCase):
 
             self.build(root)
             public = root / "public"
+            self.assert_feed_website(public / "de", "https://example.org/de/news/")
+            archive = (public / "de/news/2024-01-01/index.html").read_text()
+            self.assertIn("<h1>Organic Maps News · 01.01.2024</h1>", archive)
+
             sitemap = (public / "sitemap.xml").read_text()
             namespaces = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9",
                           "i": "http://www.google.com/schemas/sitemaps-image/0.9"}
@@ -334,6 +347,7 @@ class NavigationTests(unittest.TestCase):
                   '{% elif section %}{% set resource = section %}'
                   '{% else %}{% set resource = get_section(path="news/_index.md", lang=lang) %}{% endif %}'
                   '{% set resource_path = resource.path %}'
+                  '{% set news_date_format = "%B %e, %Y" %}{% set news_date_lang = "en" %}'
                   '{% block og_type %}{% endblock %}{% block article_meta %}{% endblock %}'
                   '{% block content %}{% endblock %}')
             write(root, "templates/_jsonld_news.html", "")
@@ -503,6 +517,7 @@ class NavigationTests(unittest.TestCase):
                     parser = RenderedPage()
                     parser.feed((root / "public" / path / "index.html").read_text())
                     prefix = "/de" if foreign == "de" else ""
+                    self.assertEqual(parser.document_language, path.strip("/") or "en")
                     self.assertEqual(parser.links, [(f"{prefix}/", label, foreign)])
 
     def test_missing_default_destinations_stop_the_build(self):

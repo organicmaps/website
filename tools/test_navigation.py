@@ -184,7 +184,7 @@ class NavigationTests(unittest.TestCase):
                         [href for href in parser.links if href in chats.values()],
                         [chats["telegram"], group],
                     )
-            self.assert_feed_website(public, base_url)
+            self.assert_feed_website(public, base_url + "/news/")
 
     def test_news_previews_and_localized_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -263,8 +263,12 @@ class NavigationTests(unittest.TestCase):
             self.build(root)
             public = root / "public"
             self.assert_feed_website(public / "de", "https://example.org/de/news/")
-            archive = (public / "de/news/2024-01-01/index.html").read_text()
-            self.assertIn("<h1>Organic Maps News · 01.01.2024</h1>", archive)
+            for prefix, day in (("", "January 1, 2024"), ("de/", "01.01.2024")):
+                with self.subTest(archive_language=prefix or "en"):
+                    archive = (public / prefix / "news/2024-01-01/index.html").read_text()
+                    title = f"Organic Maps News · {day}"
+                    self.assertIn(f"<title>{title}</title>", archive)
+                    self.assertIn(f"<h1>{title}</h1>", archive)
 
             sitemap = (public / "sitemap.xml").read_text()
             namespaces = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9",
@@ -347,7 +351,7 @@ class NavigationTests(unittest.TestCase):
                   '{% elif section %}{% set resource = section %}'
                   '{% else %}{% set resource = get_section(path="news/_index.md", lang=lang) %}{% endif %}'
                   '{% set resource_path = resource.path %}'
-                  '{% set news_date_format = "%B %e, %Y" %}{% set news_date_lang = "en" %}'
+                  '{% set news_date_format = "%B %-d, %Y" %}{% set news_date_lang = "en" %}'
                   '{% block og_type %}{% endblock %}{% block article_meta %}{% endblock %}'
                   '{% block content %}{% endblock %}')
             write(root, "templates/_jsonld_news.html", "")

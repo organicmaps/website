@@ -141,14 +141,10 @@ TRANSLATED_BRAND_EXEMPT = {"mr": ("Why organic", "सेंद्रिय")}
 # Scripts that do not put spaces between words: text running straight into a
 # link is normal there, so the suffix-outside-link check does not apply.
 #
-# The Indic languages are here for a different reason. They do use spaces, but
-# they attach case markers and postpositions directly to the preceding word,
-# and that word may be a link label: Telugu writes `[ID Editor](url)ని` exactly
-# as it writes `ఎడిటర్‌ని`. The marker `ని` appears attached to an ordinary
-# word 396 times in this corpus, so a link is no different. Twenty of the
-# twenty-two warnings this check produced were that, correctly written.
-NO_SPACE_SCRIPTS = {"zh-Hans", "ja", "th", "lo", "my", "km",
-                    "te", "ml", "mr", "hi", "ta", "kn"}
+# Some languages use spaces but attach particles directly to a link label,
+# as in Telugu `[ID Editor](url)ని`.
+LANGUAGES_WITH_LINK_SUFFIXES = {"zh-Hans", "ja", "th", "lo", "my", "km",
+                               "te", "ml", "mr", "hi", "ta", "kn"}
 
 
 # Writing systems that combine several Unicode scripts by design: Japanese
@@ -612,12 +608,9 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             i += 1
 
     # 4. A word character glued onto a link's closing paren: the translator put
-    #    a suffix outside the label, as in "[تبرعات](url)كم". Skipped for
-    #    scripts that do not separate words with spaces, where text following a
-    #    link immediately is completely normal. A warning rather than an error:
-    #    Indic and Turkic case markers land here routinely and human reviewers
-    #    have accepted them, so it is a polish issue, not a correctness one.
-    if lang not in NO_SPACE_SCRIPTS:
+    #    a suffix outside the label, as in "[تبرعات](url)كم". Skip languages
+    #    where text or grammatical particles routinely follow links directly.
+    if lang not in LANGUAGES_WITH_LINK_SUFFIXES:
         for m in re.finditer(r"\]\([^)]*\)(\w+)", out_body):
             problems.append(Problem(
                 WARN, "suffix-outside-link",

@@ -67,9 +67,9 @@ FORMAL_LANGUAGES = {"ru", "uk", "be", "hi", "mr", "te", "ml", "fa-IR",
 
 def expected_register(lang: str) -> str:
     """The register a translation of `lang` is supposed to use."""
-    if lang not in REGISTER_MARKERS:
-        return "n-a"
-    return "formal" if lang in FORMAL_LANGUAGES else "informal"
+    if lang in FORMAL_LANGUAGES:
+        return "formal"
+    return "informal" if lang in REGISTER_MARKERS else "n-a"
 
 
 def formality_pref(lang: str) -> str:

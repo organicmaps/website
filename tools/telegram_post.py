@@ -23,6 +23,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 import requests
@@ -31,6 +32,7 @@ from markdown_frontmatter import strip_frontmatter
 from markdown_xml import SPONSORED_LINK_RE, SPONSORED_URL_RE, find_balanced_close
 
 BASE_URL = "https://api.telegram.org/bot{token}"
+SESSION = requests.Session()
 
 
 def get_token() -> str:
@@ -639,6 +641,60 @@ def split_text(text: str, max_len: int = 4096) -> list[str]:
     return chunks
 
 
+def telegram_request(token: str, method: str, *, replayable: bool = False, **kwargs) -> dict:
+    """Return a Bot API response with a boolean "ok" field.
+
+    Replayable lookups retry request errors, HTTP 5xx, and rate limits with
+    waits of up to 60 seconds. A longer rate limit ends the lookup. Sends get
+    one attempt. A server error or an unusable reply marks a send
+    "_delivery_unknown" because it may have posted.
+    """
+    url = f"{BASE_URL.format(token=token)}/{method}"
+    attempts = 3 if replayable else 1
+    for attempt in range(1, attempts + 1):
+        delay = attempt
+        try:
+            response = SESSION.post(url, timeout=(10, 120), allow_redirects=False, **kwargs)
+            data = response.json()
+        except requests.RequestException as exc:
+            # The exception text can include the bot token in the URL.
+            problem = f"{method} failed ({type(exc).__name__})."
+        else:
+            status = response.status_code
+            server_error = 500 <= status < 600
+            if server_error and not replayable:
+                problem = f"{method} failed (HTTP {status})."
+                break
+            retryable = status == 429 or server_error
+            if isinstance(data, dict) and isinstance(data.get("ok"), bool):
+                if data["ok"] or not retryable or attempt == attempts:
+                    return data
+                problem = f"{method} failed (HTTP {status})."
+                parameters = data.get("parameters")
+                if status == 429 and isinstance(parameters, dict):
+                    retry_after = parameters.get("retry_after")
+                    if type(retry_after) is int and retry_after > 0:
+                        if retry_after > 60:
+                            return data
+                        delay = retry_after
+            else:
+                problem = f"{method} returned an unexpected response (HTTP {status})."
+                if not retryable:
+                    break
+
+        if attempt < attempts:
+            print(f"{problem} Retrying in {delay}s...", file=sys.stderr)
+            time.sleep(delay)
+
+    if replayable:
+        return {"ok": False, "description": problem}
+    return {
+        "ok": False,
+        "description": f"{problem} Delivery is unconfirmed.",
+        "_delivery_unknown": True,
+    }
+
+
 def resolve_chat_id(token: str, group: str) -> str:
     """
     Resolve a group identifier. If it looks like a numeric ID, return as-is.
@@ -650,10 +706,8 @@ def resolve_chat_id(token: str, group: str) -> str:
     if not group.startswith("@"):
         group = f"@{group}"
 
-    url = f"{BASE_URL.format(token=token)}/getChat"
-    resp = requests.post(url, json={"chat_id": group})
-    data = resp.json()
-    if not data.get("ok"):
+    data = telegram_request(token, "getChat", replayable=True, json={"chat_id": group})
+    if not data["ok"]:
         print(
             f"Error resolving group '{group}': {data.get('description')}",
             file=sys.stderr,
@@ -699,18 +753,11 @@ def validate_media_set(media_paths: list[Path]) -> str | None:
 def send_text_messages(
     token: str, chat_id: str, text: str, strict: bool = False
 ) -> list[dict]:
-    """Send one or more text messages. Returns list of API responses.
+    """Return a response per attempted text chunk, stopping if a chunk fails.
 
-    `text` should be raw markdown (will be converted to MarkdownV2).
-
-    If Telegram rejects a chunk's MarkdownV2 markup:
-      - strict=True  → give up immediately and return the error response, so the
-        caller can abort before the same broken post reaches more channels.
-      - strict=False → resend the chunk as plain text with the markup stripped
-        (never the raw MarkdownV2, which would show escape backslashes and
-        stray asterisks to readers). The response is tagged with
-        "_markdown_fallback": True so callers can tell a degraded post from a
-        clean one — `ok` alone is not enough.
+    Convert raw Markdown to MarkdownV2 before sending.
+    With strict=False, a formatting error allows one plain-text attempt.
+    Its successful response is marked with "_markdown_fallback".
     """
     converted = convert_markdown_to_telegramv2(text)
     vis = visible_text(converted)
@@ -722,7 +769,7 @@ def send_text_messages(
     )
 
     chunks = split_text(converted)
-    url = f"{BASE_URL.format(token=token)}/sendMessage"
+    payload = {"chat_id": chat_id, "disable_web_page_preview": True}
     results = []
 
     for i, chunk in enumerate(chunks, 1):
@@ -731,54 +778,44 @@ def send_text_messages(
             f"Sending text message {i}/{len(chunks)} "
             f"({chunk_vis_len} visible / {len(chunk)} raw chars)..."
         )
-        resp = requests.post(
-            url,
-            json={
-                "chat_id": chat_id,
-                "text": chunk,
-                "parse_mode": "MarkdownV2",
-                "disable_web_page_preview": True,
-            },
+        data = telegram_request(
+            token, "sendMessage",
+            json={**payload, "text": chunk, "parse_mode": "MarkdownV2"},
         )
-        data = resp.json()
-        if not data.get("ok"):
+        description = data.get("description")
+        if (
+            not data["ok"]
+            and not strict
+            and isinstance(description, str)
+            and description.lower().removeprefix("bad request: ").startswith("can't parse entities")
+        ):
             print(
-                f"  MarkdownV2 rejected by Telegram: {data.get('description')}",
+                f"  Telegram rejected the MarkdownV2 formatting: {description}",
                 file=sys.stderr,
             )
-            if strict:
-                print(
-                    f"  Aborting chunk {i}/{len(chunks)} (strict mode): "
-                    f"fix the markup instead of posting it unformatted.",
-                    file=sys.stderr,
-                )
-                results.append(data)
-                return results
-
-            # Retry as plain text with the markup stripped — sending the raw
-            # MarkdownV2 would leak escape backslashes into the message.
             print("  Retrying as plain text (formatting will be lost)...")
-            resp = requests.post(
-                url,
-                json={
-                    "chat_id": chat_id,
-                    "text": plain_text_fallback(chunk),
-                    "disable_web_page_preview": True,
-                },
+            data = telegram_request(
+                token, "sendMessage",
+                json={**payload, "text": plain_text_fallback(chunk)},
             )
-            data = resp.json()
-            if data.get("ok"):
+            if data["ok"]:
                 data["_markdown_fallback"] = True
                 print(
                     "  Warning: posted WITHOUT formatting (links are now bare "
                     "text).",
                     file=sys.stderr,
                 )
-            else:
-                print(f"  Error: {data.get('description')}", file=sys.stderr)
         results.append(data)
+        if not data["ok"]:
+            print(f"  Message {i}/{len(chunks)}: {data.get('description')}", file=sys.stderr)
+            break
 
     return results
+
+
+def failed_text_may_have_reached_channel(results: list[dict]) -> bool:
+    """Check for successful chunks or uncertain delivery before resuming a failed post."""
+    return len(results) > 1 or results[-1].get("_delivery_unknown", False)
 
 
 VIDEO_METADATA_EXTENSIONS = {".mp4", ".mov"}
@@ -961,7 +998,6 @@ def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
     if len(media_paths) < 2:
         return {"ok": False, "description": "a media group needs at least 2 files"}
 
-    url = f"{BASE_URL.format(token=token)}/sendMediaGroup"
     media_json: list[dict] = []
     files: dict[str, tuple[str, bytes, str]] = {}
 
@@ -1008,21 +1044,21 @@ def send_media_group(token: str, chat_id: str, media_paths: list[Path]) -> dict:
             media_json.append(entry)
 
         if not media_json:
-            print("No valid media files to send.", file=sys.stderr)
-            return {}
+            problem = "No valid media files to send."
+            print(problem, file=sys.stderr)
+            return {"ok": False, "description": problem}
 
         print(f"Sending media group ({len(media_json)} files)...")
-        resp = requests.post(
-            url,
+        data = telegram_request(
+            token, "sendMediaGroup",
             data={
                 "chat_id": chat_id,
                 "media": json.dumps(media_json),
             },
             files=files,
         )
-        data = resp.json()
 
-        if not data.get("ok"):
+        if not data["ok"]:
             print(f"Error sending media: {data.get('description')}", file=sys.stderr)
         else:
             print("Media group sent successfully.")
@@ -1042,8 +1078,8 @@ def send_single_media(token: str, chat_id: str, path: Path) -> dict:
     }[kind]
     mime, _ = mimetypes.guess_type(str(path))
     print(f"Sending {kind} {path.name}...")
-    response = requests.post(
-        f"{BASE_URL.format(token=token)}/{endpoint}",
+    data = telegram_request(
+        token, endpoint,
         data={"chat_id": chat_id},
         files={
             kind: (
@@ -1053,8 +1089,7 @@ def send_single_media(token: str, chat_id: str, path: Path) -> dict:
             )
         },
     )
-    data = response.json()
-    if not data.get("ok"):
+    if not data["ok"]:
         print(f"Error sending {kind}: {data.get('description')}", file=sys.stderr)
     else:
         print(f"{kind.capitalize()} sent successfully.")
@@ -1189,27 +1224,24 @@ def main():
 
     results = send_text_messages(token, chat_id, text, strict=args.strict)
 
-    failed = [r for r in results if not r.get("ok")]
-    if failed:
-        print(
-            f"\nFATAL: {len(failed)} message(s) failed to send.", file=sys.stderr
-        )
+    if results and not results[-1]["ok"]:
+        print("\nFATAL: Posting stopped.", file=sys.stderr)
+        if failed_text_may_have_reached_channel(results):
+            print("Check the channel and send only missing parts.", file=sys.stderr)
         sys.exit(1)
 
     degraded = [r for r in results if r.get("_markdown_fallback")]
     if degraded:
         print(
-            f"\nWarning: {len(degraded)} message(s) were posted without "
-            f"formatting. Re-run with --strict to catch this before posting.",
+            f"\nWarning: {len(degraded)} message(s) were posted without formatting.",
             file=sys.stderr,
         )
 
     if args.media:
         media_result = send_media(token, chat_id, args.media)
-        if not media_result.get("ok"):
+        if not media_result["ok"]:
             print(
-                "FATAL: text was posted, but media failed. Resend only the "
-                "media manually; rerunning this command would duplicate the text.",
+                "FATAL: text was posted. Check the channel and resend only missing media.",
                 file=sys.stderr,
             )
             sys.exit(1)

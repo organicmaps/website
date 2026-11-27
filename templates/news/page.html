@@ -15,7 +15,7 @@
 {% block content %}
 
 <h1>{{ resource.title }}</h1>
-<p>{{ resource.date | date(format='%B %e, %Y') }}</p>
+<p{% if news_date_lang != lang %} lang="{{ news_date_lang }}"{% endif %}>{{ resource.date | date(format=news_date_format) }}</p>
 
 <div class="news_content"{% if resource.translations | length <= 1 %} dir="auto"{% endif %}>
   {{ resource.content | safe }}

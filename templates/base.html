@@ -23,13 +23,13 @@
 
 {#- Build a descriptive page_title for <title>, og:title, twitter:title.
     Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
-    "{Term} – {Section label} – {Brand}" so the title is unique and
-    branded; everything else uses the resource's own title verbatim.
+    "{Term} – {Section label} – {Brand}" to identify the topic and its section.
     On non-default-language pages, an ASCII-only term is usually an
     untranslated English label, so omit it rather than mix languages.
     Language-neutral names such as Linux are explicitly allowed in config. -#}
 {%- set page_title = resource_title -%}
 {%- set term_description = "" -%}
+{%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
 {%- if term -%}
   {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
   {%- set use_term_name = lang == config.default_language -%}
@@ -51,12 +51,24 @@
     {%- endif -%}
   {%- endif -%}
   {%- if section_label -%}
-    {%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
     {%- if use_term_name -%}
       {%- set page_title = term_name ~ " – " ~ section_label ~ " – " ~ brand -%}
     {%- else -%}
       {%- set page_title = section_label ~ " – " ~ brand -%}
     {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- set date_formats = config.extra.news_date_formats | default(value={}) -%}
+{%- set news_date_format = date_formats | get(key=lang, default="%B %e, %Y") -%}
+{%- set news_date_lang = "en" -%}
+{%- if lang in date_formats -%}
+  {%- set news_date_lang = lang -%}
+  {%- if section and not resource_title and section.pages and resource.relative_path is starting_with(pat="news/") -%}
+    {%- set news = get_section(path="news/_index.md", lang=lang) -%}
+    {%- set post = section.pages | first -%}
+    {%- set resource_title = brand ~ " " ~ news.extra.menu_title ~ " · " ~ (post.date | date(format=news_date_format)) -%}
+    {%- set page_title = resource_title -%}
   {%- endif -%}
 {%- endif -%}
 
@@ -83,7 +95,7 @@
   {%- endblock -%}
 
   {% block rss -%}
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{% if config.generate_feeds and "rss.xml" in config.feed_filenames and lang != config.default_language %}/{{ lang }}{% endif %}/rss.xml">
   {% endblock -%}
 
   <link rel="canonical" href="{{ config.base_url | safe }}{{ resource_path | safe }}">

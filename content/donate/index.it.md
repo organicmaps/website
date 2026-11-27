@@ -32,7 +32,7 @@ Scegli il percorso di pagamento che fa per te.
 
 {{ <donate_methods lang bank_title={page.extra.bank_transfer_title} crypto_title={page.extra.crypto_title} /> }}
 
-{{ <bank_transfer title={page.extra.bank_transfer_title} /> }}
+{{ <bank_transfer lang title={page.extra.bank_transfer_title} /> }}
 
 {{ <crypto_table lang config title={page.extra.crypto_title} /> }}
 

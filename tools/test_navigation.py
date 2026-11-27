@@ -18,6 +18,7 @@ DESTINATIONS = {
     "news/_index.md": ("News", "Neuigkeiten"),
     "donate/index.md": ("Donate", "Spenden"),
     "contribute/index.md": ("Contribute", "Mitmachen"),
+    "team/index.md": ("Team", "Team"),
     "faq/_index.md": ("Help", "Hilfe"),
 }
 CONFIG = ('base_url = "https://example.org"\n'
@@ -480,13 +481,14 @@ class NavigationTests(unittest.TestCase):
                 self.build(root)
                 parser = RenderedPage()
                 parser.feed((root / "public/de/index.html").read_text())
-                self.assertEqual(parser.links[:5], expected)
+                self.assertEqual(parser.links[:len(expected)], expected)
                 for href, _, _ in [*expected, guide]:
                     self.assertTrue((root / "public" / href.strip("/") / "index.html").is_file(), href)
                 footer = RenderedPage(menu_id="bottom-menu")
                 footer.feed((root / "public/de/index.html").read_text())
+                # The footer lists News and the home section's pages: no logo, no Help section.
                 self.assertCountEqual([link for link in footer.links if link[0].startswith("/")],
-                                      [*expected[1:4], guide])
+                                      [*expected[1:-1], guide])
                 # The API link's tooltip is English on every page.
                 self.assertIn(("https://omaps.app/api", "API", "en"), footer.links)
 

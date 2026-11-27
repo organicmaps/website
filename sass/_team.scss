@@ -1,0 +1,617 @@
+/* Team page, a product catalogue in the manner of teenage.engineering: people
+   listed like products, numbered through the page, each with a photo tile, a
+   name and bio, and a spec sheet of role, team and links. White, ink, one
+   grey for secondary text, the app's window grey under a missing photo, and
+   the brand green as the only colour, which also fills the head and foot of
+   the page edge to edge like the app's toolbar and status bar. The colours
+   are organicmaps/organicmaps android/app/src/main/res/values/colors.xml:
+   bg_primary, bg_statusbar and bg_window.
+   Geist and Geist Mono are self-hosted in static/fonts/geist (OFL), because
+   the CSP takes fonts only from the site itself; each family is one variable
+   font split by script, and a browser fetches a file only for text in it.
+   Plain CSS inside the partial — custom properties, nesting, block comments.
+   Logical properties for RTL, dark mode at the bottom. */
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-cyrillic-wght-normal.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-mono-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-mono-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist/geist-mono-cyrillic-wght-normal.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+.team-page {
+  --team-paper: #fff;
+  --team-ink: #000;
+  --team-ink-2: #6b6b6b;
+  --team-tile: #eee;            /* bg_window */
+  --team-rule: #dcdcdc;
+  --team-accent: #006c35;       /* green for text and lines on the page */
+  --team-green: #006c35;        /* bg_primary: the toolbar */
+  --team-green-deep: #004120;   /* bg_statusbar */
+  --team-on-green: #fff;
+  --team-on-green-2: rgb(255 255 255 / 82%);
+  --team-sans: Geist, "Helvetica Neue", Arial, sans-serif;
+  --team-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --team-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --team-columns: 4;
+  --team-gutter: 16px;
+
+  color: var(--team-ink);
+  font: 400 15px/1.45 var(--team-sans);
+
+  /* The site rules off headings in dark mode and colours links; the
+     catalogue does neither. */
+  h1,
+  h2,
+  h3 {
+    border-block-end: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--team-accent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--team-accent);
+    outline-offset: 2px;
+  }
+}
+
+.team-lower {
+  text-transform: lowercase;
+}
+
+/* ---------- green fields, edge to edge ---------- */
+
+/* The box stays in the column, so the text lines up with the people below;
+   the shadow carries the colour out to the window edges, and the clip keeps
+   it from spilling above or below. Nothing grows wider than the window. */
+.team-hero,
+.team-community {
+  display: grid;
+  grid-template-columns: repeat(var(--team-columns), minmax(0, 1fr));
+  column-gap: var(--team-gutter);
+  background: var(--team-field);
+  box-shadow: 0 0 0 100vmax var(--team-field);
+  clip-path: inset(0 -100vmax);
+  color: var(--team-on-green);
+
+  > * {
+    grid-column: 1 / -1;
+  }
+
+  a:hover {
+    color: var(--team-on-green);
+    text-decoration: underline;
+  }
+
+  :focus-visible {
+    outline-color: var(--team-on-green);
+  }
+}
+
+/* ---------- title ---------- */
+
+.team-hero {
+  --team-field: var(--team-green);
+
+  row-gap: 24px;
+  text-align: start; /* the site centres every <header> */
+  align-items: end;
+  margin-block-end: 48px;
+  padding-block: 64px;
+
+  h1 {
+    margin: 0;
+    color: inherit;
+    font: 500 clamp(2.5rem, 1.6rem + 4.2vw, 5.5rem) / 0.98 var(--team-sans);
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+  }
+}
+
+.team-intro {
+  max-width: 40ch;
+  color: var(--team-on-green-2);
+
+  p {
+    margin: 0;
+  }
+}
+
+.team-facts {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+  }
+
+  b {
+    font: 500 32px/1 var(--team-sans);
+    letter-spacing: -0.02em;
+  }
+
+  span {
+    color: var(--team-on-green-2);
+    font: 400 13px/1.45 var(--team-mono);
+    text-transform: lowercase;
+  }
+}
+
+/* ---------- groups and people ---------- */
+
+.team-group + .team-group {
+  margin-block-start: 64px;
+}
+
+.team-group-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-block: 12px;
+  border-block-start: 2px solid var(--team-accent);
+  font: 500 13px/1 var(--team-mono);
+  text-transform: lowercase;
+}
+
+.team-count {
+  color: var(--team-accent);
+}
+
+.team-group-lead {
+  max-width: 46ch;
+  margin: 0 0 16px;
+  color: var(--team-ink-2);
+}
+
+.team-people {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-person {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 16px;
+  padding-block: 16px 32px;
+  border-block-start: 1px solid var(--team-rule);
+
+  &:first-child {
+    border-block-start: 0;
+  }
+
+  &:is(:hover, :focus-within) .team-name {
+    color: var(--team-accent);
+  }
+}
+
+.team-idx {
+  grid-column: 1 / -1;
+  color: var(--team-accent);
+  font: 500 13px/1 var(--team-mono);
+}
+
+.team-tile {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: var(--team-tile);
+
+  img,
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* a hairline over the photo, so one shot on a white background still
+     shows its square on the white page */
+  img {
+    outline: 1px solid var(--team-rule);
+    outline-offset: -1px;
+    object-fit: cover;
+  }
+
+  svg {
+    fill: none;
+  }
+}
+
+/* No photo yet: a thin silhouette on the window grey. */
+.team-blank {
+  stroke: var(--team-ink-2);
+  stroke-width: 0.24;
+}
+
+/* The open place: a white tile with a green plus, outlined so it keeps its
+   square on the white page. */
+.team-plus {
+  background: var(--team-paper);
+  box-shadow: inset 0 0 0 1px var(--team-rule);
+
+  svg {
+    stroke: var(--team-accent);
+    stroke-width: 0.8;
+  }
+}
+
+.team-about {
+  min-width: 0;
+}
+
+.team-name {
+  margin: 0;
+  font: 500 24px/1.1 var(--team-sans);
+  letter-spacing: -0.02em;
+}
+
+.team-join .team-name a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.team-bio {
+  max-width: 38ch;
+  margin: 8px 0 0;
+  color: var(--team-ink-2);
+}
+
+/* Spec sheet: a label, a dotted leader and a value, as in a product listing. */
+.team-spec {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0;
+  font: 400 13px/1.4 var(--team-mono);
+  list-style: none;
+
+  li {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    padding-block: 3px;
+  }
+}
+
+.team-k {
+  flex: none;
+  color: var(--team-ink-2);
+  text-transform: lowercase;
+}
+
+.team-dots {
+  flex: 1;
+  min-width: 16px;
+  border-block-end: 1px dotted var(--team-ink-2);
+  transform: translateY(-3px);
+}
+
+.team-v {
+  overflow: hidden;
+  min-width: 0;
+  max-width: 70%;
+  text-align: end;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--team-rule);
+    text-underline-offset: 3px;
+
+    &:hover {
+      text-decoration-color: currentcolor;
+    }
+  }
+}
+
+/* Where the person is, under the bio: a pin in the page's one colour and
+   the place in the spec sheet's type, capitalised as written. */
+.team-place {
+  margin: 12px 0 0;
+  font: 400 13px/1.4 var(--team-mono);
+}
+
+.team-pin {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  margin-inline-end: 3px;
+  fill: var(--team-accent);
+  vertical-align: -0.2em;
+}
+
+/* Contributors: one line each, in the columns of a spec sheet. */
+.team-contribs {
+  margin: 0;
+  padding: 0;
+  font: 400 13px/1.4 var(--team-mono);
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 3ch minmax(0, 1fr) auto;
+    gap: 12px;
+    padding-block: 8px;
+    border-block-start: 1px solid var(--team-rule);
+  }
+
+  .team-idx {
+    grid-column: auto;
+    font-size: inherit;
+  }
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--team-rule);
+    text-underline-offset: 3px;
+  }
+}
+
+.team-contrib-role {
+  color: var(--team-ink-2);
+}
+
+/* ---------- community ---------- */
+
+/* The Markdown below the team marker: a heading, a paragraph, and a
+   paragraph of links, which become a list of rows with arrows. */
+.team-community {
+  --team-field: var(--team-green-deep);
+
+  row-gap: 16px;
+  margin-block-start: 96px;
+  padding-block: 32px 64px;
+
+  h2 {
+    max-width: 16ch;
+    margin: 24px 0 0;
+    padding: 0;
+    color: inherit;
+    font: 500 clamp(1.75rem, 1.3rem + 2vw, 3rem) / 1.02 var(--team-sans);
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    max-width: 46ch;
+    margin: 0;
+    color: var(--team-on-green-2);
+  }
+
+  p:last-child {
+    display: grid;
+    max-width: none;
+    color: var(--team-on-green);
+    font: 400 13px/1.4 var(--team-mono);
+
+    a {
+      display: flex;
+      gap: 16px;
+      justify-content: space-between;
+      padding-block: 12px;
+      border-block-start: 1px solid rgb(255 255 255 / 30%);
+      text-transform: lowercase;
+
+      &::after {
+        content: "→";
+      }
+
+      &:dir(rtl)::after {
+        content: "←";
+      }
+    }
+  }
+}
+
+.team-community-label {
+  margin: 0;
+  font: 500 13px/1 var(--team-mono);
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+
+/* ---------- wider screens ---------- */
+
+@media (width >= 720px) {
+  .team-page {
+    --team-columns: 8;
+    --team-gutter: 24px;
+  }
+
+  .team-intro {
+    grid-column: 1 / 6;
+  }
+
+  .team-facts {
+    grid-column: 6 / -1;
+    justify-content: flex-end;
+  }
+
+  .team-person {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    column-gap: var(--team-gutter);
+    padding-block: 24px 32px;
+  }
+
+  .team-idx {
+    grid-column: 1;
+  }
+
+  .team-tile {
+    grid-column: 2 / 4;
+    grid-row: 1 / span 2;
+  }
+
+  .team-about,
+  .team-spec {
+    grid-column: 4 / -1;
+  }
+
+  .team-spec {
+    align-self: end;
+  }
+
+  .team-community {
+    h2 {
+      grid-column: 1 / 5;
+      margin-block-start: 0;
+    }
+
+    p {
+      grid-column: 5 / -1;
+    }
+  }
+}
+
+@media (width >= 1120px) {
+  .team-page {
+    --team-columns: 12;
+    --team-gutter: 32px;
+  }
+
+  .team-hero {
+    padding-block: 96px;
+
+    h1 {
+      grid-column: 1 / 11;
+    }
+  }
+
+  .team-intro {
+    grid-column: 1 / 5;
+  }
+
+  .team-facts {
+    grid-column: 9 / -1;
+  }
+
+  .team-person {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .team-tile {
+    grid-column: 2 / 5;
+    grid-row: 1;
+  }
+
+  .team-about {
+    grid-column: 5 / 9;
+  }
+
+  .team-name {
+    font-size: 32px;
+  }
+
+  .team-spec {
+    grid-column: 9 / -1;
+    align-self: start;
+  }
+
+  .team-community {
+    .team-community-label {
+      grid-column: 1;
+    }
+
+    h2 {
+      grid-column: 2 / 7;
+    }
+
+    p {
+      grid-column: 9 / -1;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .team-person {
+    animation: team-rise 600ms var(--team-ease) both;
+    animation-delay: calc(var(--i, 0) * 70ms);
+  }
+
+  .team-tile img {
+    transition: scale 400ms var(--team-ease);
+  }
+
+  .team-person:hover .team-tile img {
+    scale: 1.03;
+  }
+}
+
+@keyframes team-rise {
+  from {
+    opacity: 0;
+    translate: 0 12px;
+  }
+}
+
+/* ---------- dark mode ---------- */
+
+/* The page takes the site's dark background; the green fields stay as they
+   are, and green text on the page turns lighter to stay readable. */
+@media (prefers-color-scheme: dark) {
+  .team-page {
+    --team-paper: #121212;
+    --team-ink: #ececec;
+    --team-ink-2: #9e9e9e;
+    --team-tile: #232323;
+    --team-rule: #333;
+    --team-accent: #79c98f;
+  }
+}

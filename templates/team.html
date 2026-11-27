@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{# Stable comment divides the translated intro from the community note, the same way the donation page splits its prose. #}
+{% set parts = resource.content | split(pat="<!-- team -->") %}
+{% if parts | length != 2 %}
+  {{ throw(message="Team content must contain <!-- team --> exactly once.") }}
+{% endif %}
+{% set contribute = get_page(path="contribute/index.md") %}
+{% set translated = [t for t in contribute.translations if t.lang == lang] | first %}
+{% if translated %}{% set contribute = get_page(path=translated.path) %}{% endif %}
+{% set contribute_url = contribute.permalink | replace(from=config.base_url, to="") %}
+{% set x = resource.extra %}
+{% set founders = x.founders | length %}
+{% set members = x.members | length %}
+{% set contributors = x.contributors | length %}
+{# People are numbered through the whole page, like items in a catalogue; the open place follows the core team. #}
+{% set join_idx = founders + members + 1 %}
+<div class="team-page">
+  <header class="team-hero">
+    <h1>{{ resource.title }}</h1>
+    <div class="team-intro">{{ parts | first | safe }}</div>
+    <ul class="team-facts" role="list">
+      <li><b>{% if founders < 10 %}0{% endif %}{{ founders }}</b><span>{{ x.founders_title }}</span></li>
+      <li><b>{% if members < 10 %}0{% endif %}{{ members }}</b><span>{{ x.core_title }}</span></li>
+      {% if contributors %}<li><b>{% if contributors < 10 %}0{% endif %}{{ contributors }}</b><span>{{ x.contributors_title }}</span></li>{% endif %}
+    </ul>
+  </header>
+
+  <section class="team-group" aria-labelledby="team-founders-title">
+    <h2 class="team-group-head" id="team-founders-title"><span>{{ x.founders_title }}</span><span class="team-count">({% if founders < 10 %}0{% endif %}{{ founders }})</span></h2>
+    <ol class="team-people" role="list">
+      {% set group = x.founders_title %}
+      {% for p in x.founders %}{% set idx = loop.index %}{% include '_team_card.html' %}{% endfor %}
+    </ol>
+  </section>
+
+  <section class="team-group" aria-labelledby="team-core-title">
+    <h2 class="team-group-head" id="team-core-title"><span>{{ x.core_title }}</span><span class="team-count">({% if members < 10 %}0{% endif %}{{ members }})</span></h2>
+    <ol class="team-people" role="list">
+      {% set group = x.core_title %}
+      {% for p in x.members %}{% set idx = founders + loop.index %}{% include '_team_card.html' %}{% endfor %}
+      <li class="team-person team-join" style="--i: {{ join_idx }}">
+        <span class="team-idx" aria-hidden="true">{% if join_idx < 10 %}0{% endif %}{{ join_idx }}</span>
+        <a class="team-tile team-plus" href="{{ contribute_url | safe }}" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 100 100" focusable="false"><path d="M50 38v24M38 50h24"/></svg></a>
+        <div class="team-about">
+          <h3 class="team-name"><a href="{{ contribute_url | safe }}">{{ x.join_title }}</a></h3>
+          <p class="team-bio">{{ x.join_text }}</p>
+        </div>
+        <ul class="team-spec" role="list">
+          <li><span class="team-k">{{ x.role_label }}</span><span class="team-dots" aria-hidden="true"></span><span class="team-v team-lower">{{ x.join_role }}</span></li>
+          <li><span class="team-k">{{ x.how_label }}</span><span class="team-dots" aria-hidden="true"></span><span class="team-v team-lower"><a href="{{ contribute_url | safe }}">{{ contribute.extra.menu_title }}</a></span></li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  {% if contributors %}
+  <section class="team-group" aria-labelledby="team-contributors-title">
+    <h2 class="team-group-head" id="team-contributors-title"><span>{{ x.contributors_title }}</span><span class="team-count">({% if contributors < 10 %}0{% endif %}{{ contributors }})</span></h2>
+    <p class="team-group-lead">{{ x.contributors_text }}</p>
+    <ol class="team-contribs" role="list">
+      {% for p in x.contributors %}
+      {% set idx = join_idx + loop.index %}
+      <li>
+        <span class="team-idx" aria-hidden="true">{% if idx < 10 %}0{% endif %}{{ idx }}</span>
+        <span><span class="team-contrib-name">{{ p.name }}</span> <span class="team-contrib-role team-lower">{{ p.role }}</span></span>
+        {%- if p.github %}<a href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">@{{ p.github }}</a>
+        {%- elif p.links %}<a href="{{ p.links[0].url }}" target="_blank" rel="noopener">{{ p.links[0].label }}</a>
+        {%- else %}<span></span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <section class="team-community">
+    <div class="team-community-label" aria-hidden="true">{{ x.community_label }}</div>
+    {{ parts | nth(n=1) | safe }}
+  </section>
+</div>
+{% endblock content %}

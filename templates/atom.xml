@@ -1,5 +1,5 @@
 {# Supply only the news permalink so the built-in template keeps the site feed title. #}
-{%- if lang != config.default_language and not section and not term -%}
+{%- if not section and not term -%}
   {%- set section = {"permalink": get_url(path="news", lang=lang, trailing_slash=true)} -%}
 {%- endif -%}
 {% include "__zola_builtins/atom.xml" -%}

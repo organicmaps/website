@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>{{ resource_title | default(value=resource.title) }}</h1>
+<h1>{% if archive_date and news_date_lang != lang -%}
+  {{ archive_label }} · <span lang="{{ news_date_lang }}">{{ archive_date }}</span>
+{%- else -%}
+  {{ page_title | default(value=resource.title) }}
+{%- endif %}</h1>
 {% for page in section.pages %}
 {% set translatedPage = [t for t in page.translations if t.lang == lang] | first %}
 {% if translatedPage %}

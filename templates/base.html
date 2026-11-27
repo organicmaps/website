@@ -60,16 +60,19 @@
 {%- endif -%}
 
 {%- set date_formats = config.extra.news_date_formats | default(value={}) -%}
-{%- set news_date_format = date_formats | get(key=lang, default="%B %e, %Y") -%}
+{%- set news_date_format = date_formats | get(key=lang, default="%B %-d, %Y") -%}
 {%- set news_date_lang = "en" -%}
 {%- if lang in date_formats -%}
   {%- set news_date_lang = lang -%}
-  {%- if section and not resource_title and section.pages and resource.relative_path is starting_with(pat="news/") -%}
-    {%- set news = get_section(path="news/_index.md", lang=lang) -%}
-    {%- set post = section.pages | first -%}
-    {%- set resource_title = brand ~ " " ~ news.extra.menu_title ~ " · " ~ (post.date | date(format=news_date_format)) -%}
-    {%- set page_title = resource_title -%}
-  {%- endif -%}
+{%- endif -%}
+{%- if section and not resource_title and resource.relative_path is starting_with(pat="news/") -%}
+  {%- set news = get_section(path="news/_index.md", lang=lang) -%}
+  {%- set post = section.pages | first -%}
+  {#- An archive containing only drafts has no published date to read. -#}
+  {%- set archive_day = post.date | default(value=section.components | last) -%}
+  {%- set archive_date = archive_day | date(format=news_date_format) -%}
+  {%- set archive_label = brand ~ " " ~ news.extra.menu_title -%}
+  {%- set page_title = archive_label ~ " · " ~ archive_date -%}
 {%- endif -%}
 
 <!DOCTYPE html>

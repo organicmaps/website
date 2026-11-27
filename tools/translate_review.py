@@ -69,10 +69,8 @@ def build_prompt(src: str, out: str, lang: str) -> str:
 
     if want == "formal":
         lines.append(
-            f"5. REGISTER: address the reader with the POLITE/FORMAL second "
-            f"person throughout ({lang} uses the V-form: Russian вы, "
-            f"Ukrainian ви, Belarusian вы), with matching verb forms. Be "
-            f"consistent — never mix registers."
+            "5. REGISTER: address readers politely throughout, using the "
+            "appropriate pronouns and verb endings for the target language."
         )
     elif want == "informal":
         lines.append(

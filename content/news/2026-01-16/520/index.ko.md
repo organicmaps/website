@@ -14,7 +14,7 @@ taxonomies:
 * 1월 11일 기준 OpenStreetMap 데이터로 업데이트 (Viktor Govako)
 * 알바니아어 음성 안내(TTS) 추가 (Alexander Borsuk)
 * 불가리아어 검색 동의어 추가 (Clippy)
-* ‘오락’ 카테고리에서 카지노 제외 (Clippy)
+* ‘엔터테인먼트’ 카테고리에서 카지노 제외 (Clippy)
 * 지하철 노선 표시를 더 가늘게 조정 (Manik)
 * 검색 결과에 오토바이 주차, 자전거 대여 및 충전, 자동차 충전 시설의 수용 규모 표시 (David Martinez)
 * 검색 결과에 층 정보 표시 (David Martinez)

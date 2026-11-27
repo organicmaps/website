@@ -10,7 +10,7 @@ taxonomies:
 
 덧붙여, 프로젝트에 오프라인 지도를 넣을 수 있는 iOS, Android, Linux, macOS, Windows용 SDK에 관심이 있으시면 <sdk@organicmaps.app>으로 문의해 주세요.
 
-Organic Maps가 설치되어 있다면 사용하시는 앱에서 지금도 API를 이용할 수 있습니다. <https://omaps.app/api>에서 확인하세요.
+하나 더, Organic Maps 앱이 함께 설치되어 있다면 여러분이 만드는 앱에서 지금 바로 쓸 수 있는 API가 있다는 것을 알고 계셨나요? <https://omaps.app/api>에서 확인해보세요.
 
 ### 업데이트 내역
 
@@ -29,7 +29,7 @@ Organic Maps가 설치되어 있다면 사용하시는 앱에서 지금도 API�
 
 * 편집기에 최근 사용한 카테고리 기록 추가 (Rahul Kolluru)
 * 경로 계획 화면에서 위로 쓸어 올리는 제스처 개선 (Kiryl Kaveryn)
-* CarPlay의 자 도구 위치 수정 (Kiryl Kaveryn)
+* CarPlay의 축척 표시 위치 수정 (Kiryl Kaveryn)
 
 ### Android
 

@@ -23,7 +23,7 @@ rows = [
   { en = "Basque", ko = "바스크어", engines = "Vocalizer, Nuance, eSpeak, AhoTTS, Offline Translator" },
   { en = "Belarusian", ko = "벨라루스어", engines = "RuVoice TTS, RHVoice, eSpeak, Offline Translator" },
   { en = "Bengali", ko = "벵골어", engines = "Vocalizer, Google, Nuance, eSpeak, SherpaTTS, TTSLexx, Offline Translator" },
-  { en = "Bhojpuri", ko = "호즈푸리어", engines = "Vocalizer, Nuance" },
+  { en = "Bhojpuri", ko = "보지푸르어", engines = "Vocalizer, Nuance" },
   { en = "Bishnupriya Manipuri", ko = "비슈누프리야 마니푸르어", engines = "eSpeak" },
   { en = "Bosnian", ko = "보스니아어", engines = "eSpeak, Offline Translator" },
   { en = "Bulgarian", ko = "불가리아어", engines = "Vocalizer, Nuance, eSpeak, SherpaTTS, Supertonic, Offline Translator" },

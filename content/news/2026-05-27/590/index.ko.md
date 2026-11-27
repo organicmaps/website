@@ -13,7 +13,7 @@ taxonomies:
 ### 모든 플랫폼
 
 - 2026년 5월 27일 기준 OSM 지도 데이터 _(Viktor Govako)_
-- 불 경기, 자전거, 모터스포츠 시설 아이콘 추가 _(Viktor Govako)_
+- 페탕크, 자전거, 모터스포츠 시설 아이콘 추가 _(Viktor Govako)_
 - 기념문, 워터 슬라이드, 테마파크, 롤러코스터 추가 _(David Martinez)_
 - 호주와 뉴질랜드의 도로 번호 표지 수정 _(Viktor Govako)_
 - 길 안내 중 원근 보기에서 손가락 제스처로 지도를 조작하는 동작 개선 _(Viktor Govako)_

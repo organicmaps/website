@@ -35,7 +35,7 @@ Organic Maps 7월 업데이트가 나왔습니다. <https://get.omaps.org>, [App
 
 - 모든 대체 경로에 유료 도로, 페리, 비포장도로, 계단 등 경로 관련 주의 사항 표시 _(Viktor Govako)_
 - 경로를 만드는 동안 드물게 앱이 멈추던 문제 수정 _(Viktor Govako)_
-- 막다른길 및 통행이 제한된 도로 위의 출발지와 목적지 처리 개선 _(Viktor Govako)_
+- 막다른 길 및 통행이 제한된 도로 위의 출발지와 목적지 처리 개선 _(Viktor Govako)_
 - 진행 방향 안내가 틀리거나 누락되던 문제 수정 _(Alexander Borsuk)_
 
 ### iOS

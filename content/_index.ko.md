@@ -1,6 +1,6 @@
 ---
 title: "Organic Maps: 등산, 자전거, 여행을 위한 오프라인 지도와 길 안내"
-description: 등산, 자전거 여행, 일상 이동을 위한 무료 오프라인 지도입니다. 광고나 추적 없이 GPS 길 안내, 트랙 기록, 경로 계획, 대중교통 경로를 이용할 수 있습니다.
+description: 등산, 자전거, 여행을 위한 무료 오프라인 지도입니다. 광고나 추적 없이 GPS 길 안내, 트랙 기록, 경로 계획, 대중교통 경로를 이용할 수 있습니다.
 page_template: index.html
 sort_by: weight
 extra:
@@ -11,7 +11,7 @@ extra:
 
 지도를 내려받으면 인터넷에 연결하지 않아도 **Organic Maps**에서 장소를 검색하고, 경로를 짜고, GPS 트랙을 기록하고, 길 안내를 받을 수 있습니다. 모바일 데이터나 로밍 요금 걱정 없이 외딴 등산로를 탐험하거나 해외를 여행하세요.
 
-> 2026년 10월, Organic Maps의 [누적 설치 수가 1,200만 건을 넘었습니다](@/news/2026-11-03/641/index.ko.md). 더 많은 곳에 지도를 제공할 수 있도록 [후원해 주세요](@/donate/index.ko.md)!
+> 2026년 10월, Organic Maps의 [누적 설치 수가 1,200만 건을 넘었습니다](@/news/2026-11-03/641/index.ko.md). 프로젝트가 계속 성장할 수 있도록 [후원해 주세요](@/donate/index.ko.md)!
 
 ### [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid]에서 Organic Maps 다운로드 및 설치 {#install}
 
@@ -37,7 +37,7 @@ Organic Maps로 여행을 계획하고, 길 안내를 받고, 새로운 곳을 �
 - 버스, 트램, 지하철, 경전철을 이용하는 [대중교통 경로 안내](@/news/2026-06-29/610/index.ko.md)
 - 다운로드한 지도에서 빠른 오프라인 검색
 - [등산 및 자전거·산악자전거 경로 레이어](@/news/2025-08-09/420/index.ko.md)
-- 등산로, 캠핑장, 산장, 대피소, 물을 구할 수 있는 곳을 강조하는 야외 활동 지도 스타일
+- 등산로, 캠핑장, 산장, 대피소, 물을 구할 수 있는 곳을 강조하는 아웃도어 지도 스타일
 - 등고선, 봉우리, 경사와 고도 데이터가 있는 경로 및 트랙의 [고도 프로필](@/news/2026-04-07/570/index.ko.md)
 - 다음 여행을 위해 [계획한 경로 저장](@/news/2025-06-15/417/index.ko.md)
 - KML/KMZ, GPX, GeoJSON 형식으로 북마크와 GPS 트랙 [가져오기](@/faq/bookmarks/how-to-import/index.ko.md), [내보내기](@/faq/bookmarks/how-to-export/index.ko.md), 공유

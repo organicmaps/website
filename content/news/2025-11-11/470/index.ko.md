@@ -15,7 +15,7 @@ taxonomies:
 ### 모든 플랫폼
 
 - 2025년 11월 9일 기준 OpenStreetMap 데이터 (Viktor Govako)
-- 주소를 편집하거나 OpenStreetMap에 변경 사항을 올릴 때 기본 도로명과 현지어 도로명에 생기던 문제 수정 (Viktor Govako)
+- 주소를 편집하거나 OpenStreetMap에 변경 사항을 올릴 때 기본 도로명과 번역된 도로명에 생기던 문제 수정 (Viktor Govako)
 - 세계 지도에서 검색 결과를 눌렀을 때 적용되는 확대 수준 수정 (Viktor Govako)
 - 길 안내 중 자동 확대 설정이 작동하지 않던 경우를 수정 (Viktor Govako)
 

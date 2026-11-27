@@ -70,7 +70,7 @@ extra:
 - CarPlay의 여러 문제 수정 _(Kiryl Kaveryn, Alexander Borsuk)_
 - 지도에서 북마크를 선택할 때 HTML 설명이 올바르게 표시되도록 수정 _(Kiryl Kaveryn)_
 - 자동차 길 안내용 지도 스타일 적용 문제 수정 _(Kiryl Kaveryn, Alexander Borsuk)_
-- 설정을 일반 설정, 지도, 길 안내, 네트워크, 개인정보 보호로 재구성 _(Kiryl Kaveryn)_
+- 설정을 일반 설정, 지도, 내비게이션, 네트워크, 개인정보 보호로 재구성 _(Kiryl Kaveryn)_
 - 나침반을 자동으로 보정하므로 수동 보정 설정 항목 제거 _(Kiryl Kaveryn)_
 - 색상 팔레트 팝업에서 사용자 지정 색상 선택 도구 복원 _(Kiryl Kaveryn)_
 - 도보나 자전거 경로의 미리 보기에서 고도 프로필을 따라 드래그하면 해당 지점을 지도에 표시 _(Kiryl Kaveryn)_

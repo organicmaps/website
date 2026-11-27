@@ -14,8 +14,8 @@ taxonomies:
 
 - 2025년 10월 21일 기준 최신 OpenStreetMap 데이터 (Viktor Govako)
 - 지도에 지하철 출입구 이름 표시 (Viktor Govako)
-- 관측소, 교통섬, 크나이프 수치료 시설, 미니어처 철도 등 관심 지점 유형과 아이콘 추가 (Viktor Govako). 야외 활동 스타일의 캠핑 구획, 공항 터미널, 실내 놀이 시설, 통신 매장, 보트 대여 시설, 보트 진수로를 추가하고 폐기물 처리장과 매립지 아이콘 업데이트 (David Martinez)
-- 앱 화면의 슬로베니아어 번역 (Alexander Borsuk) 및 길 안내 음성(TTS) 지원 (Erik Bucik)
+- 관측소, 교통섬, 크나이프 수치료 시설, 미니어처 철도 등 관심 지점 유형과 아이콘 추가 (Viktor Govako). 캠핑 구획(야외 활동 스타일), 공항 터미널, 실내 놀이 시설, 통신 매장, 보트 대여 시설, 보트 진수로를 추가하고 폐기물 처리장과 매립지 아이콘 업데이트 (David Martinez)
+- 슬로베니아어 앱 화면 번역 (Alexander Borsuk) 및 슬로베니아어 길 안내 음성(TTS) 지원 (Erik Bucik)
 - 일부 기기나 화면에서 도심 지도를 덜 복잡하게 표시 (Viktor Govako)
 - 도보 길 안내 중 나침반 센서가 부정확할 때 지도가 돌아가던 문제 수정 (Viktor Govako)
 - 강이나 물길의 일부를 선택했을 때 표시하는 정보 개선 (Viktor Govako)

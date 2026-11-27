@@ -22,7 +22,7 @@ Organic Maps 6월 업데이트에서는 오류를 수정하고 다음과 같은 
 - 신규: 도보 및 자전거 경로에 계단, 출입문, 차단기 주의 표시 _(Viktor Govako)_
 - 신규: 북마크 색상을 자유롭게 선택 _(Alexander Borsuk, Mikhail Listratsenka)_
 - 신규: 영국 국가 격자(OS Grid), 아일랜드 격자(Irish Grid), 아일랜드 횡메르카토르(ITM) 좌표 지원 _(Alexander Borsuk)_
-- 실험 기능: Organic Maps 설정에서 사용자 지정 래스터 타일 서버 URL을 입력해 위성 영상을 켤 수 있습니다. 자체 서버는 준비 중이므로 URL에 `{x}`, `{y}`, `{z}` 자리표시자가 포함된 공개 서버를 찾아 이용해 주세요. _(Viktor Govako, renderexpert)_
+- 실험 기능: Organic Maps 설정의 ‘위성 이미지’에서 사용자 지정 래스터 타일 서버 URL을 입력해 위성 영상을 켤 수 있습니다. 자체 서버는 준비 중이므로 URL에 `{x}`, `{y}`, `{z}` 자리표시자가 포함된 공개 서버를 찾아 이용해 주세요. _(Viktor Govako, renderexpert)_
 - 6월 24일 기준 OpenStreetMap 데이터로 업데이트 _(Viktor Govako)_
 - 이탈리아어 문서를 포함해 6월 20일 기준 위키백과 데이터로 업데이트 _(Alexander Borsuk)_
 - 검색란에 `?map-download-server:https://your-server.com/`을 입력하면 Organic Maps의 기본 지도 다운로드 서버를 바꿀 수 있습니다. `?no-map-download-server`를 입력하면 기본 서버로 되돌립니다. _(Alexander Borsuk)_

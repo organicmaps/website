@@ -6,7 +6,7 @@ taxonomies:
   news: ["업데이트"]
 ---
 
-Organic Maps 팀에서 즐거운 성탄절과 새해 인사를 전합니다. 연말 분위기를 느껴 보고 싶다면 `Christmas Market`이나 `Christmas Tree`를 검색해 지도에서 찾아보세요. 주변에 아무것도 표시되지 않는다면 OpenStreetMap.org에 빠진 장소를 추가해 모두를 위한 지도를 개선해 주세요!
+Organic Maps 팀에서 즐거운 성탄절과 새해 인사를 전합니다. 연말 분위기를 느껴 보고 싶다면 `크리스마스 마켓`이나 `크리스마스 트리`를 검색해 지도에서 찾아보세요. 주변에 아무것도 표시되지 않는다면 OpenStreetMap.org에 빠진 장소를 추가해 모두를 위한 지도를 개선해 주세요!
 
 <https://omaps.app/get>, [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid]에서 Organic Maps를 설치하세요.
 

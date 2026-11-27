@@ -35,13 +35,13 @@ taxonomies:
 - 북마크 목록 선택 화면 (David Martinez)과 장소 정보 화면 (Kiryl Kaveryn)에서 여러 줄 제목 지원
 - 트랙 기록의 시작 및 중지와 위치 갱신의 안정성 개선 (Kiryl Kaveryn)
 - 장소 정보에서 누를 수 있는 모든 아이콘을 같은 파란색으로 통일 (Kiryl Kaveryn)
-- 지도가 너무 오래된 경우 메뉴에 ‘기여하려면 지도 업데이트’ 버튼 표시 (Kiryl Kaveryn)
+- 지도가 너무 오래된 경우 메뉴에 ‘기여하려면 지도를 업데이트하세요’ 버튼 표시 (Kiryl Kaveryn)
 
 #### Android
 
 - 새 레이어 아이콘 (Andrei Shkrob, @euf)
 - 북마크 편집용 연필 아이콘을 누를 수 있는 영역 확대 (Kavi Khalique)
-- 특정 경로를 저장할 때와 드물게 시작할 때 발생하던 비정상 종료 문제 수정 (Viktor Govako)
+- 특정 경로를 저장할 때 발생하던 비정상 종료와 앱 시작 시 드물게 발생하던 비정상 종료 문제 수정 (Viktor Govako)
 - 일부 길 안내에서 차로 안내 수정 (Andrei Shkrob)
 - 북마크와 트랙의 기본 색상 순서를 원래대로 복원 (Andrei Shkrob)
 - 요리 종류를 편집할 때 ‘검색 지우기’ 버튼 문제 수정 (Ansh Jain)

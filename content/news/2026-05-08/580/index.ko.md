@@ -25,7 +25,7 @@ taxonomies:
 - 신규: 대중교통 정류장을 누르고 노선 번호를 선택하면 지하철 지도 레이어처럼 지도에 전체 노선이 강조 표시됨 (Viktor Govako, Kiryl Kaveryn, Mikhail Listratsenka)
 - 신규: 지도에서 북마크 이름이 겹치지 않도록 개선 (Viktor Govako)
 - 다른 지도 앱과 비슷한 값이 나오도록 트랙 그래프의 누적 상승 및 하강 고도 계산을 조정 (Viktor Govako)
-- 장거리 대중교통 노선과 그 밖의 지도 관계를 지도 경계를 넘어 하나로 이어진 선으로 표시 (Viktor Govako)
+- 장거리 대중교통 노선과 그 밖의 OSM 관계(relation)를 지도 경계를 넘어 하나로 이어진 선으로 표시 (Viktor Govako)
 - 베트남과 말레이시아를 개별적으로 다운로드할 수 있는 작은 지역으로 나눔 (Viktor Govako)
 - 홍콩, 마카오, 하이난을 광둥성과 분리하고 인접 지역 경계 업데이트 (Viktor Govako)
 - 인도네시아, 말레이시아, 탄자니아, 태국, 베트남의 등고선 업데이트 (Viktor Govako)
@@ -59,7 +59,7 @@ taxonomies:
 
 - 신규: 계속 표시되는 고도 대시보드와 개선된 경로 고도 프로필. 오른쪽에서 왼쪽으로 읽는 언어의 화면 배치도 지원 (Eric Jau, Mikhail Listratsenka)
 - 기기를 회전해도 저장된 경로 상태 유지 (Mikhail Listratsenka)
-- 장소 정보의 경로 안내선을 하나로 통일 (Mikhail Listratsenka)
+- 장소 정보에서 노선 번호를 한 줄로 표시 (Mikhail Listratsenka)
 - 하단 시트, 버튼, 그래픽 요소의 모서리를 더 둥글게 해 화면 디자인의 일관성 개선 (Mikhail Listratsenka)
 - 시스템 바와 내비게이션 바 주변의 화면 배치 문제 수정 (Mikhail Listratsenka)
 - 위키백과 문서의 서식, 시스템 색상, 다크 모드 표시 개선 (DeshDeepakKant, Mikhail Listratsenka)

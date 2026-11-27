@@ -9,13 +9,13 @@ taxonomies:
 
 6월 대규모 업데이트와 OSM 지도 데이터만 갱신하는 후속 업데이트(iOS 앱이 멈추는 문제의 긴급 수정 포함)를 배포했습니다. [모든 앱 스토어](https://omaps.app/get)와 [GitHub](https://github.com/organicmaps/organicmaps/releases/)에서 받을 수 있습니다.
 
-Viktar Havaka 덕분에 이제 미국과 영국 우편번호를 검색할 수 있습니다! 주소 데이터는 TIGER 데이터베이스와 영국 국가지리원(Ordnance Survey)에서 가져와 OpenStreetMap 검색에 쓰이는 [Nominatim 프로젝트](https://nominatim.org/)로 전처리했습니다.
+Viktar Havaka 덕분에 이제 미국과 영국 우편번호를 검색할 수 있습니다! 주소 데이터는 TIGER 데이터베이스와 영국 국가지리원(Ordnance Survey)에서 가져온 것으로, OpenStreetMap 검색에 쓰이는 [Nominatim 프로젝트](https://nominatim.org/)에서 전처리한 데이터입니다.
 
 Will Bradley가 길 안내 중 도로 이름을 읽어 주는 기능을 추가했습니다. Organic Maps 설정에서 켜 보시고 문제를 발견하면 알려 주세요.
 
 Kiryl Kaveryn 덕분에 오랫동안 기다려 온 iOS iCloud 동기화도 이용할 수 있습니다. Organic Maps 설정에서 활성화하세요. 설정 중 모든 북마크와 트랙을 먼저 백업할 수 있습니다. 문제가 생기면 알려 주세요.
 
-기존 KML(KMZ) 외에 GPX로도 북마크와 트랙을 내보낼 수 있습니다. 오랫동안 개발해 온 트랙 기록 기능을 완성하면 더욱 유용해질 것입니다. cyber-toad에게 감사드립니다!
+기존 KML(KMZ) 외에 GPX로도 북마크와 트랙을 내보낼 수 있습니다. 오랫동안 기다려 온 트랙 기록 기능을 완성하면 더욱 유용해질 것입니다. cyber-toad에게 감사드립니다!
 
 늘 기여해 주시고 [후원](@/donate/index.ko.md), [지원](@/contribute/index.ko.md), 좋은 후기를 보내 주시는 모든 분께 감사드립니다. 여러분 덕분에 개발팀이 힘을 얻습니다!
 

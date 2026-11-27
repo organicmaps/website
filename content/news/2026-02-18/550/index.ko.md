@@ -6,7 +6,7 @@ taxonomies:
   news: ["업데이트"]
 ---
 
-기여자 여러분 덕분에 **금요일에 Organic Maps를 업데이트할 수 있습니다!** [https://get.omaps.org](https://get.omaps.org), [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid]에서 업데이트를 받아 보세요.
+기여자 여러분께 감사드리며, **금요일은 Organic Maps를 업데이트하기 좋은 날이죠!** [https://get.omaps.org](https://get.omaps.org), [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid]에서 업데이트를 받아 보세요.
 
 앞으로 출시될 업데이트에서 사는 도시의 **실시간 대중교통 시간표**를 보고 싶다면 다음과 같이 도와주세요.
 

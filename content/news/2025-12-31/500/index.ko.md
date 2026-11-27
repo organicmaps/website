@@ -16,7 +16,7 @@ slug: "organic-maps-2025-year-in-review"
 
 - 누적 [풀 리퀘스트](https://github.com/organicmaps/organicmaps/pulls) 5천 건 가운데 2025년에 1천 건이 등록되고 808건이 병합되었습니다.
 - 누적 이슈 6천 건 가운데 2025년에 [새 이슈][github issues] 800건이 등록되고 482건이 해결되거나 닫혔습니다.
-- 2020년 프로젝트를 시작한 뒤 기록한 커밋 8천 6백 건 가운데 [1천 5백 건](https://github.com/organicmaps/organicmaps/commits)을 2025년에 기여자 100명이 올렸습니다.
+- 2020년 프로젝트를 시작한 뒤 기록한 커밋 8,600건 가운데 [1,500건](https://github.com/organicmaps/organicmaps/commits)을 2025년에 기여자 100명이 올렸습니다.
 - [GitHub][github]에서 포크 1,244건과 별 12,411개를 기록했습니다. 많은 개발자가 관심을 갖고 실제로 사용하고 있다는 뜻입니다.
 
 #### 스토어 평가와 사용자 활동

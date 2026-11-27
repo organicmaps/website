@@ -34,7 +34,7 @@ taxonomies:
 
 - 장소 정보 화면에 맞춤 이모지 추가 _(David Martinez, Manish Rathaur, Andrei Shkrob)_
 - 차량용 다크 모드에서 도로의 밝기와 대비를 높임 _(Manish Rathaur)_
-- 오스트리아에서 자전거 경로를 계산할 때 일방통행 생활도로를 제외 _(Viktor Govako)_
+- 오스트리아의 일방통행 생활도로에서 자전거의 양방향 통행을 허용 _(Viktor Govako)_
 - [Google Takeout](https://takeout.google.com/)의 `Saved Places.json`에 저장된 북마크를 포함해 GeoJSON 가져오기 개선 _(Sergiy Kozyr)_
 - `.json` 파일을 `.geojson` 파일과 같은 방식으로 가져올 수 있음 _(Alexander Borsuk)_
 - 트랙을 다른 목록으로 옮기면 해당 목록이 새 북마크와 트랙을 저장하는 기본 목록으로 설정됨 _(Kiryl Kaveryn)_

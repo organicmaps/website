@@ -21,7 +21,7 @@ extra:
     email_warning: 이메일을 입력하지 않으면 정기 후원을 해지할 때 저희에게 직접 문의해야 합니다.
     name_label: 이름(선택)
     name_why: 감사 메일에 입력하신 이름을 사용합니다.
-    submit: 안전한 결제로 계속하기
+    submit: 안전한 결제 페이지로 이동
     submit_once: "{amount} 후원하기"
     submit_month: "매월 {amount} 후원하기"
     submit_year: "매년 {amount} 후원하기"

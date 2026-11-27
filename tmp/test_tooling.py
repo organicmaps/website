@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
 from markdown_xml import from_xml, to_xml  # noqa: E402
+from translate_review import build_prompt  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
@@ -51,6 +52,17 @@ class FakeResponse:
 
 
 class TranslationToolingTests(unittest.TestCase):
+    def test_review_prompt_identifies_register_mismatches(self):
+        for lang, draft, detected, expected in (
+            ("ru", "Ты можешь выбрать карту.", "informal", "formal"),
+            ("ru", "Ты видишь карту. Вы можете выбрать её.", "mixed", "formal"),
+            ("de", "Sie können die Karte wählen.", "formal", "informal"),
+        ):
+            with self.subTest(lang=lang, detected=detected):
+                prompt = build_prompt("Choose a map.", draft, lang)
+                self.assertIn(f"draft's register is {detected}", prompt)
+                self.assertIn(f"consistently {expected}", prompt)
+
     def test_sponsored_link_label_is_translatable_and_target_is_preserved(self):
         source = ('Join {% <sponsored_link url="https://example.org/ref"> %}our program'
                   '{% </sponsored_link> %} ({{ <sponsored_link url="https://example.org/ref" /> }}).')

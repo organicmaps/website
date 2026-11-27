@@ -50,30 +50,23 @@ BATCH = 45  # DeepL accepts 50 text params per request
 FORMALITY_SUPPORTED = {"DE", "ES", "FR", "IT", "NL", "PL", "PT-PT", "PT-BR",
                        "RU", "JA"}
 
-# CLAUDE.md requires the informal second person everywhere EXCEPT these, which
-# address the reader politely (ru вы, uk ви, be вы). Maintainer decision.
-#
-# hi/mr/te/ml/fa-IR are formal for a different reason: in these languages the
-# polite form is the UNMARKED way to address an adult stranger, not a stiff
-# alternative to a warm one. Hindi आप, Marathi तुम्ही, Telugu మీరు, Malayalam
-# നിങ്ങൾ and Persian شما are what every consumer app uses; the familiar forms
-# (तुम/तू, तू, నువ్వు, നീ, تو) are for children, intimates and subordinates, so
-# a product using them reads as condescending rather than friendly. Organic
-# Maps' own app strings already agree: hi 73 formal vs 1 informal marker,
-# mr 29 vs 0, fa 49 vs 0 in data/strings/strings.txt.
-FORMAL_LANGUAGES = {"ru", "uk", "be", "hi", "mr", "te", "ml", "fa-IR",
-                    "cs", "lt"}
+# Polite address is the website convention for these languages. The proofreading
+# prompt uses the examples even for languages without automatic register markers.
+POLITE_ADDRESS = {
+    "be": "вы", "cs": "vy", "fa-IR": "شما", "hi": "आप", "lt": "jūs",
+    "ml": "നിങ്ങൾ", "mr": "तुम्ही", "ru": "вы", "te": "మీరు", "uk": "ви",
+}
 
 
 def expected_register(lang: str) -> str:
     """The register a translation of `lang` is supposed to use."""
-    if lang in FORMAL_LANGUAGES:
+    if lang in POLITE_ADDRESS:
         return "formal"
     return "informal" if lang in REGISTER_MARKERS else "n-a"
 
 
 def formality_pref(lang: str) -> str:
-    return "prefer_more" if lang in FORMAL_LANGUAGES else "prefer_less"
+    return "prefer_more" if lang in POLITE_ADDRESS else "prefer_less"
 
 # Purely mechanical register fixes, safe ONLY for languages where the polite
 # form is a bare pronoun swap with no verb agreement to follow. Chinese and

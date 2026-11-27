@@ -30,7 +30,7 @@ import sys
 from pathlib import Path
 
 from translate_check import check_translation, ERROR
-from translate_md import expected_register, detect_register
+from translate_md import POLITE_ADDRESS, expected_register, detect_register
 from deepl_glossary import load_terms, get_review_terms
 
 MODEL_TIMEOUT = 300
@@ -69,8 +69,8 @@ def build_prompt(src: str, out: str, lang: str) -> str:
 
     if want == "formal":
         lines.append(
-            "5. REGISTER: address readers politely throughout, using the "
-            "appropriate pronouns and verb endings for the target language."
+            f"5. REGISTER: address readers politely throughout, using {POLITE_ADDRESS[lang]} "
+            "and the corresponding verb forms."
         )
     elif want == "informal":
         lines.append(
@@ -80,16 +80,8 @@ def build_prompt(src: str, out: str, lang: str) -> str:
             "statement and imperative. Leave first-person 'we' and "
             "third-person description alone. Never mix registers."
         )
-        if got == "formal":
-            lines.append(
-                "   The draft is currently FORMAL. This is the main thing to "
-                "fix."
-            )
-        elif got == "mixed":
-            lines.append(
-                "   The draft MIXES both registers. Make it consistently "
-                "informal."
-            )
+    if got in ("formal", "informal", "mixed") and got != want:
+        lines.append(f"   The draft's register is {got}. Make reader-facing text consistently {want}.")
 
     if terms:
         lines += ["", "## Required terminology (English -> " + lang + ")"]

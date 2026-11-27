@@ -186,6 +186,20 @@ class NavigationTests(unittest.TestCase):
                     )
             self.assert_feed_website(public, base_url + "/news/")
 
+            # A section stub can appear in the menu even when Zola has no
+            # localized articles to generate the corresponding taxonomy page.
+            menu = RenderedPage()
+            menu.feed((public / "ko/index.html").read_text())
+            for section in ("faq", "news"):
+                with self.subTest(section=section):
+                    destination = f"/ko/{section}/"
+                    self.assertIn((destination, "ko"), [(href, tag) for href, _, tag in menu.links])
+                    document = RenderedPage()
+                    document.feed((public / destination.strip("/") / "index.html").read_text())
+                    self.assertEqual(document.document_language, "ko")
+
+            self.assert_feed_website(public / "ko", base_url + "/ko/news/")
+
     def test_news_previews_and_localized_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

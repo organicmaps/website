@@ -72,6 +72,11 @@ def build_prompt(src: str, out: str, lang: str) -> str:
             f"5. REGISTER: address readers politely throughout, using {POLITE_ADDRESS[lang]} "
             "and the corresponding verb forms."
         )
+        if lang == "ko":
+            lines.append(
+                "   Use 합니다 for explanations and 하세요 for instructions. "
+                "Short UI labels and changelog bullets may use noun phrases."
+            )
     elif want == "informal":
         lines.append(
             "5. REGISTER: address the reader with the INFORMAL/familiar "

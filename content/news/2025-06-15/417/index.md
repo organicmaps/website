@@ -1,6 +1,6 @@
 ---
 title: "Save planned routes in June Organic Maps update"
-date: 2025-07-14T20:00:00+00:00
+date: 2025-06-15
 slug: "save-planned-routes-in-june-2025-update"
 taxonomies:
   news: ["releases"]

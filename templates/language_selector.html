@@ -27,6 +27,8 @@
   </ul>
   <script>
     (function () {
+      // Update the href itself so keyboard activation and opening a new tab use the current section.
+      // Fragment jumps and Back/Forward between them all fire hashchange.
       var links = document.querySelectorAll('.lang-menu-link');
       function syncLanguageLinks() {
         for (var i = 0; i < links.length; i++) {

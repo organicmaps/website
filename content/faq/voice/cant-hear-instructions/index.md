@@ -1,5 +1,5 @@
 ---
-title: "Why can I not hear navigation instructions?"
+title: "Why can't I hear navigation instructions?"
 description: "Restore Organic Maps voice guidance by checking navigation volume, Bluetooth output, offline voices and background permissions."
 updated: "2026-11-28"
 taxonomies:
@@ -16,4 +16,4 @@ On Android, install and select a working text-to-speech engine and download a vo
 
 If speech stops when the screen is locked, check background location and battery restrictions. Android's Accessibility **Select to Speak → Read in background** setting controls a different feature and is not the switch for Organic Maps navigation.
 
-For Android setup, see [offline text-to-speech engines and voices](@/faq/voice/text-to-speech-android-tts/index.md). For car displays, see [Android Auto](@/faq/app/how-to-use-android-auto/index.md) or [Apple CarPlay](@/faq/voice/carplay/index.md).
+For Android setup, see [offline text-to-speech engines and voices](@/faq/voice/text-to-speech-android-tts/index.md). For car displays, see [Android Auto](@/faq/app/how-to-use-android-auto/index.md) or [Apple CarPlay](@/faq/app/carplay/index.md).

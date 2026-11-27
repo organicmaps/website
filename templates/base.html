@@ -1,4 +1,32 @@
 {%- set is_faq = (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") -%}
+{% if is_faq %}
+{% set faq_root = get_taxonomy(kind="faq", lang=lang) %}
+{%- set terms = [
+  ...[t for t in faq_root.items if t.name not in config.extra.faq_last_categories],
+  ...[t for t in faq_root.items if t.name in config.extra.faq_last_categories]
+] -%}
+{%- set faq_topics = [
+  {
+    "term": t,
+    "id": "faq-" ~ (config.extra.faq_topic_ids | get(key=t.slug, default=t.slug)),
+    "title": config.extra.faq_category_titles | get(key=t.name, default=(t.name | replace(from="-", to=" ") | capitalize))
+  }
+  for t in terms
+] -%}
+{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
+{% set faq_label = faq_section.title %}
+{% if lang == config.default_language %}
+  {% set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) %}
+{% endif %}
+{% if page %}
+  {% set current_category = page.taxonomies.faq[0] %}
+{% elif term %}
+  {% set current_category = term.name %}
+{% endif %}
+{% if page or term %}
+  {% set current_topic = [topic for topic in faq_topics if topic.term.name == current_category] | first %}
+{% endif %}
+{% endif %}
 {%- if page %}
 {%- set resource = page %}
 {%- set resource_title = resource.title %}
@@ -12,7 +40,7 @@
 {%- set resource_path = resource.path %}
 {%- set resource_title = resource.name | replace(from="-", to=" ") | capitalize %}
 {%- if is_faq %}
-{%- set resource_title = config.extra.faq_category_titles | get(key=term.name, default=resource_title) %}
+{%- set resource_title = current_topic.title %}
 {%- endif %}
 {%- elif taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
 {% if lang == 'en' %}
@@ -87,25 +115,6 @@
   {%- set page_title = archive_label ~ " · " ~ archive_date -%}
 {%- endif -%}
 
-{% if is_faq %}
-{% set faq_root = get_taxonomy(kind="faq", lang=lang) %}
-{% set faq_categories = [
-  ...[t for t in faq_root.items if t.name not in config.extra.faq_last_categories],
-  ...[t for t in faq_root.items if t.name in config.extra.faq_last_categories]
-] %}
-{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
-{% set faq_label = faq_section.title %}
-{% if lang == config.default_language %}
-  {% set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) %}
-{% endif %}
-{% set current_category = "" %}
-{% if page %}
-  {% set current_category = page.taxonomies.faq[0] %}
-{% elif term %}
-  {% set current_category = term.name %}
-{% endif %}
-{% set faq_category_title = config.extra.faq_category_titles | get(key=current_category, default=(current_category | replace(from="-", to=" ") | capitalize)) %}
-{% endif %}
 
 <!DOCTYPE html>
 <html lang="{{ lang }}" {%- if lang in config.extra.rtl_languages -%} dir="rtl" {%- endif -%}>

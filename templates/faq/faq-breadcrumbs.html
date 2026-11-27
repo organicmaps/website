@@ -2,14 +2,13 @@
 {% set compact = lang == config.default_language or faq_section.extra.start_here %}
 <nav class="faq-breadcrumbs" aria-label="{{ faq_section.title }}">
     <a href="{{ faq_root.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-title">{{ faq_label }}</a>
-    {% for item in faq_categories %}
-        {% if not compact or item.name == current_category %}
+    {% for topic in faq_topics %}
+        {% if not compact or topic.term.name == current_category %}
             <span aria-hidden="true">{% if compact %} › {% else %} • {% endif %}</span>
-            {% set display_name = config.extra.faq_category_titles | get(key=item.name, default=(item.name | replace(from="-", to=" ") | capitalize)) %}
-            {% if term and item.name == current_category %}
-                <span class="faq-taxonomy" aria-current="page">{{ display_name }}</span>
+            {% if term and topic.term.name == current_category %}
+                <span class="faq-taxonomy" aria-current="page">{{ topic.title }}</span>
             {% else %}
-                <a href="{{ item.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-taxonomy">{{ display_name }}</a>
+                <a href="{{ topic.term.path | safe }}" class="faq-taxonomy">{{ topic.title }}</a>
             {% endif %}
         {% endif %}
     {% endfor %}

@@ -18,6 +18,6 @@ For exports from another app, see [moving saved places from Google Maps or MAPS.
 
 ## Can I import, display, and export polygon areas? {#kml-polygons}
 
-Yes. Import areas from KML, KMZ, or GeoJSON files to display them alongside saved places and tracks. Areas can have coloured outlines, fills, and holes; for example, a park boundary or a survey area.
+Yes. Import areas from KML, KMZ, or GeoJSON files to display them alongside saved places and tracks. Areas can have colored outlines, fills, and holes; for example, a park boundary or a survey area.
 
 Use KML or KMZ to preserve polygon areas when sharing or backing up this data. GPX does not support polygon areas.

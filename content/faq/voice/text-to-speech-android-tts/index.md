@@ -29,7 +29,7 @@ These screenshots show one device's **Accessibility → Text-to-speech output** 
 
 Engines and offline language packs differ by device. Google Speech Services, a manufacturer's engine, or an open-source engine such as [RHVoice](https://rhvoice.org/) may be suitable. RHVoice is available from [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) and [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/). [Open RHVoice and download a voice](https://rhvoice.org/installation/) before selecting it as the system engine. Speech rate and pitch are usually controlled in the system or engine settings.
 
-Use the comparison below to find engines for your language, then check the engine's current voice catalogue and offline support before installing. The table is a reference, not a guarantee for every device or installed version; some entries describe support being prepared for a future release.
+Use the comparison below to find engines for your language, then check the engine's current voice catalog and offline support before installing. The table is a reference, not a guarantee for every device or installed version; some entries describe support being prepared for a future release.
 
 <details>
 <summary>Compare speech engines by language</summary>
@@ -40,7 +40,7 @@ Use the comparison below to find engines for your language, then check the engin
 
 ## Test the voice offline {#testing}
 
-Test with the network disconnected before travelling. In Organic Maps, open **Settings → Voice Instructions** and use **Test Voice Directions (TTS, Text-To-Speech)**. If the test is silent, check the system engine's sample playback, downloaded voice, media volume and Bluetooth output. See [voice-guidance troubleshooting](@/faq/voice/cant-hear-instructions/index.md) if speech still fails or stops with the screen off.
+Test with the network disconnected before traveling. In Organic Maps, open **Settings → Voice Instructions** and use **Test Voice Directions (TTS, Text-To-Speech)**. If the test is silent, check the system engine's sample playback, downloaded voice, media volume and Bluetooth output. See [voice-guidance troubleshooting](@/faq/voice/cant-hear-instructions/index.md) if speech still fails or stops with the screen off.
 
 <details>
 <summary>Example Organic Maps voice-test screen</summary>

@@ -1,5 +1,4 @@
 {# One published question per article; its H2 subtopics remain part of the answer. #}
-{%- set term_url = get_taxonomy_url(kind="faq", term=current_category, lang=lang) -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,8 +27,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": {{ faq_category_title | json_encode | safe }},
-      "item": {{ term_url | json_encode | safe }}
+      "name": {{ current_topic.title | json_encode | safe }},
+      "item": {{ current_topic.term.permalink | json_encode | safe }}
     },
     {
       "@type": "ListItem",

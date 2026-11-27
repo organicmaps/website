@@ -168,7 +168,7 @@ Use a distinct `extra.order` within each category and language; `npm test` check
 
 Answers can group related questions under H2 headings. A landing page's `extra.start_here` opts its complete localized inventory into topic shortcuts and subquestion links; its source paths resolve in that language and use the localized titles. Translate the discovery labels with `faq-start-here`, `faq-browse-topics` and `faq-topics` in `config.toml`. Keep published heading fragments stable when editing answers; an alias anchor can preserve a fragment alongside a descriptive heading.
 
-Language-selector links follow fragment changes, including browser Back and Forward. Complete FAQ inventories use shared heading fragments and topic IDs so readers can stay on the same section when switching languages. Map localized topic slugs to their shared IDs in `extra.faq_topic_ids`. A switch to an index without topic shortcuts opens the index itself.
+Language-selector links follow fragment changes, including browser Back and Forward. Complete FAQ inventories use shared heading fragments and topic IDs so readers can stay on the same section when switching languages. Map localized topic slugs to their shared IDs in `extra.faq_topic_ids`. The build checks that every index with topic shortcuts has the same IDs as the default language. A switch to an index without topic shortcuts opens the index itself.
 
 News is a taxonomy landing page. Inside Markdown, resolve it with `get_url(path="news", lang=lang, trailing_slash=true)`, stripping `config.base_url` for browser navigation. Keep the label outside the expression so translation tools can translate it; the navigation suite checks the rendered destinations.
 

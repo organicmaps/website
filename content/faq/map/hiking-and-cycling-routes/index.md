@@ -20,4 +20,4 @@ Yes, walking and cycling route previews can show an elevation profile. Use it to
 
 For imported or recorded tracks, available elevation information depends on the track data. A route preview and an imported track can therefore show different profiles. See [routes versus tracks](@/faq/navigation/navigate-gpx-track/index.md) for how to use each one.
 
-For worldwide relief, hill shading, ocean depths, and detailed contour lines in metres and feet, see [3D terrain and ocean-depth maps](@/faq/map/3d-terrain-and-ocean-depth/index.md).
+For worldwide relief, hill shading, ocean depths, and detailed contour lines in meters and feet, see [3D terrain and ocean-depth maps](@/faq/map/3d-terrain-and-ocean-depth/index.md).

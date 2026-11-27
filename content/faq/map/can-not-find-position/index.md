@@ -1,5 +1,5 @@
 ---
-title: "Why can Organic Maps not find my location, or only show an approximate position?"
+title: "Why is my location missing or approximate in Organic Maps?"
 description: "Fix missing or approximate GPS location in Organic Maps and understand precise-location permissions, the accuracy circle and direction arrow."
 updated: "2026-11-28"
 taxonomies:
@@ -10,7 +10,7 @@ extra:
 
 Turn on device location services and allow Organic Maps to use precise location. Go outdoors with a clear view of the sky and wait for a satellite fix; buildings and terrain can obstruct signals. An internet connection can help the device obtain an initial location more quickly, but offline GPS does not require mobile data.
 
-Check whether another location app has the same problem. Some tablets have no satellite positioning receiver; hardware capabilities vary by model. If the problem only appears with the screen off, check background permissions and battery restrictions. Include these observations when reporting a problem. For the position circle and arrow, see [location accuracy](@/faq/map/can-not-find-position/index.md#accuracy-circle).
+Check whether another location app has the same problem. Some tablets have no satellite positioning receiver; hardware capabilities vary by model. For the position circle and arrow, see [location accuracy](@/faq/map/can-not-find-position/index.md#accuracy-circle).
 
 ## Android location settings {#android-location-settings}
 
@@ -28,6 +28,6 @@ If the problem only happens with the screen off, see [background recording and l
 
 The circle shows the device's estimated location uncertainty. A larger circle means lower confidence; it is an estimate, not a guarantee that your true position lies inside it.
 
-A position dot without a direction arrow can mean that the device has no usable heading information. This is different from location accuracy: a device may know where it is without knowing which way it is facing. Some devices lack a compass; this is not true of all tablets.
+A position dot without a direction arrow can mean that the device has no usable heading information. This is different from location accuracy: a device may know where it is without knowing which way it is facing. Some devices, including some tablets, have no compass.
 
 If your position is correct but the arrow points the wrong way, see [compass troubleshooting](@/faq/location/compass-and-orientation/index.md).

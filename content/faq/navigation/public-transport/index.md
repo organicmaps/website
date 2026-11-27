@@ -10,4 +10,4 @@ extra:
 
 Public transport routing supports subway, light rail, bus, and tram routes where the necessary OpenStreetMap data is available. Download the region and select the public transport mode to preview the itinerary. On Android, the November 2026 update adds a full-screen preview with boarding stops, transfers, exits, and expandable lists of intermediate stops.
 
-Live public transport schedules are in development. Until they are available, check the operator's current timetable and service information before travelling. Coverage varies by place, and the published routing feature should not be treated as a complete timetable planner for every train or bus.
+Live public transport schedules are in development. Until they are available, check the operator's current timetable and service information before traveling. Coverage varies by place, and the published routing feature should not be treated as a complete timetable planner for every train or bus.

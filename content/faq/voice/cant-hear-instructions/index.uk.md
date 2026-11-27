@@ -19,4 +19,4 @@ aliases:
 
 Якщо мовлення припиняється після блокування екрана, перевірте дозволи фонової геолокації й обмеження батареї. У спеціальних можливостях Android налаштування **Озвучення вибраного → Читати у фоновому режимі** керує іншою функцією, а не навігацією Organic Maps.
 
-Про налаштування Android читайте в розділі [офлайн-рушії синтезу мовлення й голоси](@/faq/voice/text-to-speech-android-tts/index.uk.md). Про дисплеї автомобілів — у розділах [Android Auto](@/faq/app/how-to-use-android-auto/index.uk.md) та [Apple CarPlay](@/faq/voice/carplay/index.uk.md).
+Про налаштування Android читайте в розділі [офлайн-рушії синтезу мовлення й голоси](@/faq/voice/text-to-speech-android-tts/index.uk.md). Про дисплеї автомобілів — у розділах [Android Auto](@/faq/app/how-to-use-android-auto/index.uk.md) та [Apple CarPlay](@/faq/app/carplay/index.uk.md).

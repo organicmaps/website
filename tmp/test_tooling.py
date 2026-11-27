@@ -393,7 +393,7 @@ Organic Maps。
 class FaqMetadataTests(unittest.TestCase):
     def test_car_display_answers_have_distinct_topics(self):
         for folder, topic in (("app/how-to-use-android-auto", "android-auto"),
-                              ("voice/carplay", "apple-carplay")):
+                              ("app/carplay", "apple-carplay")):
             pages = sorted((ROOT / "content/faq" / folder).glob("index*.md"))
             self.assertTrue(pages, folder)
             for path in pages:

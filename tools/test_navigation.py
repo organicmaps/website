@@ -195,16 +195,6 @@ class NavigationTests(unittest.TestCase):
                         self.assertIn(f"/{prefix}news/", parser.links)
                         self.assertTrue((public / prefix / "news/index.html").is_file())
 
-            topic_ids = []
-            for prefix in ("", "ru/", "uk/"):
-                landing = (public / prefix / "faq/index.html").read_text()
-                ids = re.findall(r'<h2 id="(faq-[^"]+)">', landing)
-                self.assertTrue(ids, prefix)
-                self.assertEqual(len(ids), len(set(ids)), prefix)
-                topic_ids.append(ids)
-            for ids in topic_ids[1:]:
-                self.assertCountEqual(ids, topic_ids[0])
-
             redirects = [line.split() for line in (public / "_redirects").read_text().splitlines()
                          if line.startswith("/uk/faq/")]
             destination = "/uk/faq/мітки-та-треки/"
@@ -590,12 +580,21 @@ class NavigationTests(unittest.TestCase):
             start_here = re.search(r"<h2>Erste Schritte</h2>(.*?)</ul>", german, re.S).group(1)
             self.assertIn('href="/de/faq/app/strecke/">Route planen</a>', start_here)
             self.assertNotIn("/faq/app/route/", start_here)
+            for index in (landing, german):
+                self.assertCountEqual(re.findall(r'<h2 id="(faq-[^"]+)">', index), ["faq-app", "faq-map"])
             self.assertIn('aria-label="FAQ-Themen"', german)
             self.assertIn('href="/de/faq/app/strecke/#stops"', german)
             breadcrumbs = RenderedPage(menu_id=None)
             breadcrumbs.feed((root / "public/de/faq/app/strecke/index.html").read_text())
             self.assertEqual(breadcrumbs.links, [("/de/faq/", "Hilfe", "de"),
                                                 ("/de/faq/reisen/", "Reisen", "de")])
+
+            config = root / "config.toml"
+            original = config.read_text()
+            for mapping in ('', 'karte = "app", '):
+                with self.subTest(mapping=mapping):
+                    config.write_text(original.replace('karte = "map", ', mapping))
+                    self.build(root, expected_error="Check extra.faq_topic_ids for de")
 
     def test_faq_answer_titles_use_configured_brand(self):
         cases = (("Trail Atlas", "Plan a route", "Plan a route – Trail Atlas"),
@@ -650,7 +649,7 @@ class NavigationTests(unittest.TestCase):
             root = Path(tmp)
             self.faq_site(root)
             topics = {"android-auto": ("app/how-to-use-android-auto", "Android Auto"),
-                      "apple-carplay": ("voice/carplay", "Apple CarPlay")}
+                      "apple-carplay": ("app/carplay", "Apple CarPlay")}
             for topic, (answer, label) in topics.items():
                 for suffix in ("", ".de"):
                     write(root, f"content/faq/{answer}/index{suffix}.md",

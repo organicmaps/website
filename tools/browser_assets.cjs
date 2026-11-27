@@ -1,4 +1,3 @@
-const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -17,9 +16,15 @@ const mime = {
 };
 
 function assetResponse(output, pathname) {
-  const file = path.join(output, decodeURIComponent(pathname), pathname.endsWith('/') ? 'index.html' : '');
-  assert.ok(file.startsWith(output + path.sep), 'Asset path must stay within the build output');
-  if (!fs.existsSync(file)) return null;
+  let decoded;
+  try {
+    decoded = decodeURIComponent(pathname);
+  } catch {
+    return null;
+  }
+  const file = path.join(output, decoded, decoded.endsWith('/') ? 'index.html' : '');
+  if (file.includes('\0') || !file.startsWith(output + path.sep)) return null;
+  if (!fs.statSync(file, { throwIfNoEntry: false })?.isFile()) return null;
   return { body: fs.readFileSync(file), contentType: mime[path.extname(file).toLowerCase()] || 'application/octet-stream' };
 }
 

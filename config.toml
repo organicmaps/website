@@ -41,13 +41,14 @@ eth = "0xC36A638DD2274BDe6097DFD62B3EB5Aa8A67Ec54"
 # the app-bundled HTML small, while the status page tracks the translation teams
 # that actively use it. Templates deliberately fail when a listed embedded
 # language is missing one of the selected questions.
-faq_embedded_languages = ["ar", "cs", "de", "el", "es", "fa-IR", "fr", "he", "hi", "hu", "id", "it", "ja", "lt", "mr", "nl", "pl", "pt", "pt-BR", "ru", "sv", "te", "tr", "uk", "zh-Hans"]
-faq_translation_status_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"]
+faq_embedded_languages = ["ar", "cs", "de", "el", "es", "fa-IR", "fr", "he", "hi", "hu", "id", "it", "ja", "ko", "lt", "mr", "nl", "pl", "pt", "pt-BR", "ru", "sv", "te", "tr", "uk", "zh-Hans"]
+faq_translation_status_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "ko", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"]
 # Latin-only taxonomy terms normally indicate untranslated labels on localized
 # pages. These names are valid unchanged in every supported language.
 language_neutral_taxonomy_terms = ["linux"]
 lnurl = "stellarchin694@walletofsatoshi.com"
 ltc = "LU3PAUrAx57v6NPWxzjPkyDmkfDzfZfYq8"
+news_date_formats = {ko = "%Y년 %-m월 %-d일"}
 nano = "nano_3591q1zr5i5jkkj97aw1dze4ki1pkkcrux3srzgyup845pwkeqtjpx4zitaf"
 # Shared by document layout and checkout labels, whose languages can differ.
 rtl_languages = ["ar", "arc", "dv", "fa", "fa-IR", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"]
@@ -639,25 +640,35 @@ token = "トークン"
 
 # Language: ko (Korean / 한국어)
 [languages.ko]
-taxonomies = [{ name = "faq", feed = false }, { name = "news", feed = true }]
+title = "Organic Maps"
+description = "Organic Maps의 최신 버전과 프로젝트 소식"
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+taxonomies = [
+  {name = "faq", feed = false},
+  {name = "news", feed = true},
+]
 [languages.ko.translations]
 address = "주소"
-back = "뉴스로 돌아가기"
+back = "소식 목록으로 돌아가기"
 contact = "문의하기"
-edit-on-github = "GitHub 에서 수정하기"
-engines = "지원하는 TTS 엔진 목록"
+crypto-copied = "주소를 클립보드에 복사했습니다."
+crypto-copy = "복사"
+crypto-copy-failed = "주소를 선택해 직접 복사해 주세요."
+edit-on-github = "GitHub에서 수정하기"
+engines = "지원 TTS 엔진"
 faq-menu-title = "자주 묻는 질문"
-faq-term-description = "Organic Maps에서 {} 에 대해 자주 묻는 질문"
-go-to-top = "맨 위로 돌아가기"
-install-appgallery = "Huawei AppGallery 에서 Organic Maps 을 설치하세요"
-install-appstore = "AppStore 에서 Organic Maps 을 설치하세요"
-install-googleplay = "Google Play에서 Organic Maps 을 설치하세요"
-install-fdroid = "F-Droid에서 Organic Maps 을 설치하세요"
+faq-term-description = "Organic Maps의 ‘{}’ 관련 자주 묻는 질문입니다."
+go-to-top = "맨 위로"
+install-appgallery = "Huawei AppGallery에서 Organic Maps 설치"
+install-appstore = "App Store에서 Organic Maps 설치"
+install-fdroid = "F-Droid에서 Organic Maps 설치"
+install-googleplay = "Google Play에서 Organic Maps 설치"
 language = "한국어"
 language-word = "언어"
-more-info-om = "더 자세한 정보는 저희 웹사이트에서 확인하실 수 있습니다"
+more-info-om = "자세한 내용은 Organic Maps 웹사이트에서 확인하세요."
 name = "이름"
-news-term-description = "{} Organic Maps 의 새로운 소식 및 업데이트"
+news-term-description = "Organic Maps의 ‘{}’ 관련 소식을 확인하세요."
 token = "토큰"
 
 # Language: mr (Marathi / मराठी)

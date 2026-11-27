@@ -141,7 +141,7 @@ TRANSLATED_BRAND_EXEMPT = {"mr": ("Why organic", "सेंद्रिय")}
 # Text may directly follow a link in unspaced scripts and in languages that
 # attach particles to the label, such as Telugu `[ID Editor](url)ని`.
 LINK_SUFFIX_EXEMPT = {"zh-Hans", "ja", "th", "lo", "my", "km",
-                      "te", "ml", "mr", "hi", "ta", "kn"}
+                      "ko", "te", "ml", "mr", "hi", "ta", "kn"}
 
 
 # Writing systems that combine several Unicode scripts by design: Japanese

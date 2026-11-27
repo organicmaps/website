@@ -138,13 +138,10 @@ TRANSLATED_BRAND = {
 # The homepage's "Why organic?" section uses the adjective legitimately.
 TRANSLATED_BRAND_EXEMPT = {"mr": ("Why organic", "सेंद्रिय")}
 
-# Scripts that do not put spaces between words: text running straight into a
-# link is normal there, so the suffix-outside-link check does not apply.
-#
-# Some languages use spaces but attach particles directly to a link label,
-# as in Telugu `[ID Editor](url)ని`.
-LANGUAGES_WITH_LINK_SUFFIXES = {"zh-Hans", "ja", "th", "lo", "my", "km",
-                               "te", "ml", "mr", "hi", "ta", "kn"}
+# Text may directly follow a link in unspaced scripts and in languages that
+# attach particles to the label, such as Telugu `[ID Editor](url)ని`.
+LINK_SUFFIX_EXEMPT = {"zh-Hans", "ja", "th", "lo", "my", "km",
+                      "te", "ml", "mr", "hi", "ta", "kn"}
 
 
 # Writing systems that combine several Unicode scripts by design: Japanese
@@ -608,9 +605,9 @@ def check_translation(src: str, out: str, lang: str) -> list[Problem]:
             i += 1
 
     # 4. A word character glued onto a link's closing paren: the translator put
-    #    a suffix outside the label, as in "[تبرعات](url)كم". Skip languages
-    #    where text or grammatical particles routinely follow links directly.
-    if lang not in LANGUAGES_WITH_LINK_SUFFIXES:
+    #    a suffix outside the label, as in "[تبرعات](url)كم". Warn because
+    #    a case ending outside the link can also be intentional, e.g. in Turkish.
+    if lang not in LINK_SUFFIX_EXEMPT:
         for m in re.finditer(r"\]\([^)]*\)(\w+)", out_body):
             problems.append(Problem(
                 WARN, "suffix-outside-link",

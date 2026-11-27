@@ -138,7 +138,7 @@ Organic Maps не запитує надмірних дозволів, щоб ш�
   </tr>
 </table>
 
-## Спільнота
+## Спільнота <span id="community"></span>
 
 Organic Maps - це [ПЗ з відкритим початковим кодом][github], ліцензоване за ліцензією Apache License 2.0.
 

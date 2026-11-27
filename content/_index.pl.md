@@ -139,7 +139,7 @@ Ukochani sponsorzy instytucjonalni poniżej przekazali celowe granty na pokrycie
   </tr>
 </table>
 
-## Społeczność
+## Społeczność <span id="community"></span>
 
 Organic Maps to oprogramowanie [otwarte][github] licencjonowane na Apache License 2.0.
 

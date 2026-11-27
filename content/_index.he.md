@@ -137,7 +137,7 @@ Organic Maps אינה דורשת הרשאות מוגזמות כדי לרגל א�
   </tr>
 </table>
 
-## קהילה
+## קהילה <span id="community"></span>
 
 Organic Maps היא [תוכנת קוד פתוח][github] ברישיון Apache License 2.0.
 

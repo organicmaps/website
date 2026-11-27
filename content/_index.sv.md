@@ -138,7 +138,7 @@ För att donera omedelbart, klicka på en ikon för önskad betalningsmetod neda
   </tr>
 </table>
 
-## Gemenskap
+## Gemenskap <span id="community"></span>
 
 Organic Maps är en [programvara med öppen källkod][github] licensierad under Apache License 2.0.
 

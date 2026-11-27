@@ -138,7 +138,7 @@ De geliefde institutionele sponsoren hieronder hebben gerichte beurzen beschikba
   </tr>
 </table>
 
-## Gemeenschap
+## Gemeenschap <span id="community"></span>
 
 Organic Maps is [open-source software][github], die gelicenseerd is onder de Apache License 2.0.
 

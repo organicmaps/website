@@ -75,6 +75,32 @@ function fields(page) {
   return page.locator('#donate-form').evaluate(form => Object.fromEntries(new FormData(form)));
 }
 
+test('crypto buttons copy the displayed address and report clipboard failures', async t => {
+  const { page } = await openPage(t);
+  await page.goto(origin + '/donate/#crypto');
+  await page.evaluate(() => {
+    Object.defineProperty(navigator, 'clipboard', {
+      value: { writeText: async address => { window.copiedAddress = address; } },
+    });
+  });
+  const rows = page.locator('#crypto tbody tr');
+  const status = page.locator('#crypto').getByRole('status');
+  for (const token of ['BTC', 'USDT']) {
+    const row = rows.filter({ has: page.getByRole('cell', { name: token, exact: true }) }).first();
+    const cell = row.getByRole('cell').last();
+    const button = cell.getByRole('button');
+    const address = (await cell.innerText()).replace(await button.innerText(), '').trim();
+    await button.click();
+    assert.equal(await page.evaluate(() => window.copiedAddress), address);
+    assert.equal(await status.innerText(), (await status.getAttribute('data-copied')).replace('{address}', address));
+  }
+  await page.evaluate(() => {
+    navigator.clipboard.writeText = async () => { throw new Error('Clipboard unavailable'); };
+  });
+  await rows.first().getByRole('button').click();
+  assert.equal(await status.innerText(), await status.getAttribute('data-copy-failed'));
+});
+
 test('app links prefill preset and custom amounts; returning to a preset clears custom state', { timeout: 30000 }, async t => {
   const { page } = await openPage(t);
   await page.goto(origin + '/donate/subscribe/?amount=7.5&interval=monthly&currency=CHF');

@@ -139,7 +139,7 @@ Armastatud institutsionaalsed sponsorid allpool on andnud sihtotstarbelisi toetu
   </tr>
 </table>
 
-## Kogukond
+## Kogukond <span id="community"></span>
 
 Organic Maps on [avatud lähtekoodil põhinev tarkvara][github], mille me oleme litsentseerinud Apache License 2.0 alusel.
 

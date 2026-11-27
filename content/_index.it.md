@@ -139,7 +139,7 @@ I cari sponsor istituzionali elencati di seguito hanno fornito sovvenzioni mirat
   </tr>
 </table>
 
-## Comunità
+## Comunità <span id="community"></span>
 
 Organic Maps è un [software open-source][github] con licenza Apache 2.0.
 

@@ -138,7 +138,7 @@ Az alábbi kedves intézményi szponzorok célzott támogatásokat nyújtottak b
   </tr>
 </table>
 
-## Közösség
+## Közösség <span id="community"></span>
 
 Az Organic Maps egy [nyílt forráskódú szoftver][github], amely az Apache License 2.0-t használja.
 

@@ -139,7 +139,7 @@ Mylimi instituciniai rėmėjai toliau pateikė tiksliai skirtas dotacijas infras
   </tr>
 </table>
 
-## Bendruomenė
+## Bendruomenė <span id="community"></span>
 
 Organic Maps yra [atvirojo kodo programinė įranga][github] platinama su Apache License 2.0 licenzija.
 

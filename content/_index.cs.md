@@ -139,7 +139,7 @@ Níže uvedení štědří sponzoři poskytli cílené granty na pokrytí někte
   </tr>
 </table>
 
-## Komunita
+## Komunita <span id="community"></span>
 
 Organic Maps je [open-source software][github] licencovaný pod Apache License 2.0.
 

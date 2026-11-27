@@ -139,7 +139,7 @@ title: "Organic Maps Offline Hike, Bike, GPS Navigation"
   </tr>
 </table>
 
-## Κοινότητα
+## Κοινότητα <span id="community"></span>
 
 Οι Organic Maps είναι ένα [λογισμικό ανοικτού κώδικα][github] με άδεια χρήσης υπό την Άδεια Apache License 2.0.
 

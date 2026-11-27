@@ -138,7 +138,7 @@ Die unten aufgeführten, von uns sehr geschätzten institutionellen Sponsoren ha
   </tr>
 </table>
 
-## Gemeinschaft
+## Gemeinschaft <span id="community"></span>
 
 Organic Maps ist eine [Open-Source-Software][github], die unter der Apache License 2.0 lizenziert ist.
 

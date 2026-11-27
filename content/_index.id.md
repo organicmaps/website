@@ -138,7 +138,7 @@ Sponsor institusional tercinta di bawah ini telah memberikan hibah yang ditarget
   </tr>
 </table>
 
-## Komunitas
+## Komunitas <span id="community"></span>
 
 Organic Maps adalah [perangkat lunak sumber terbuka][github] yang dilisensikan di bawah lisensi Apache 2.0.
 

@@ -137,7 +137,7 @@ iOS പ്രയോഗം [iOS-നുള്ള TrackerControl][trackercontrol] �
   </tr>
 </table>
 
-## സമൂഹം
+## സമൂഹം <span id="community"></span>
 
 Apache License 2.0 പ്രകാരം ലൈസൻസ് ചെയ്ത ഒരു [ഓപ്പൺ സോഴ്‌സ് സോഫ്റ്റ്‌വെയർ][github] ആണ് Organic Maps.
 

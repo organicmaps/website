@@ -137,7 +137,7 @@ Organic Maps مجوزهای اضافی را درخواست نمی‌کند تا 
   </tr>
 </table>
 
-## اجتماع
+## اجتماع <span id="community"></span>
 
 Organic Maps یک [نرم‌افزار متن‌باز][github] تحت مجوز Apache License 2.0 است.
 

@@ -138,7 +138,7 @@ Mae noddwyr sefydliadol annwyl isod wedi darparu grantiau wedi'u targedu i dalu 
   </tr>
 </table>
 
-## Cymuned
+## Cymuned <span id="community"></span>
 
 Mae Organic Maps yn [feddalwedd ffynhonnell agored][github] sydd wedi'i thrwyddedu o dan y drwydded Apache License 2.0.
 

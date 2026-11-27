@@ -139,7 +139,7 @@ A continuación se indican los apreciados patrocinadores institucionales que han
   </tr>
 </table>
 
-## Comunidad
+## Comunidad <span id="community"></span>
 
 Organic Maps es un [programa libre][github] disponible en virtud de la Licencia Apache 2.0.
 

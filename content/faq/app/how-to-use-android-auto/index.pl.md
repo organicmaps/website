@@ -11,6 +11,6 @@ aliases:
   - /pl/faq/app/how-to-use-android-auto/
 ---
 
-Aby korzystać z Android Auto przez kabel, potrzebujesz systemu Android 11 lub nowszego. Co więcej, musisz pobrać Organic Maps ze sklepu Google Play, ponieważ Google zezwala na korzystanie z Android Auto tylko z aplikacjami zatwierdzonymi przez Google.
+Aby korzystać z Android Auto przez kabel, potrzebujesz systemu Android 11 lub nowszego. Zainstaluj Organic Maps z Google Play. Android Auto wyświetla tylko aplikacje nawigacyjne zainstalowane z zaufanego źródła.
 
 Więcej informacji znajdziesz na [stronie Android Auto](https://support.google.com/androidauto/answer/6348019).

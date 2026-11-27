@@ -11,6 +11,6 @@ aliases:
   - /zh-Hans/faq/app/how-to-use-android-auto/
 ---
 
-通过 USB 连接使用 Android Auto 需要 Android 11 或更高版本。此外，你需要从 Google Play 商店下载 Organic Maps，因为 Google 只允许在 Android Auto 上使用 Google 批准的应用程序。
+通过 USB 连接使用 Android Auto 需要 Android 11 或更高版本。请从 Google Play 安装 Organic Maps。Android Auto 只显示从可信来源安装的导航应用。
 
 请查看 [Android Auto 网站](https://support.google.com/androidauto/answer/6348019) 了解更多详情。

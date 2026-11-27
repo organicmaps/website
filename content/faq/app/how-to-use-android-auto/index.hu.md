@@ -12,6 +12,6 @@ aliases:
   - /hu/faq/app/how-to-use-android-auto/
 ---
 
-Az Android Auto vezetékes használatához legalább Android 11-es verzióra van szükséged. Ezenkívül le kell töltened az Organic Maps alkalmazást a Google Play Áruházból, mivel a Google csak a Google által jóváhagyott alkalmazásokat engedélyezi az Android Auto rendszeren.
+Az Android Auto vezetékes használatához legalább Android 11-es verzióra van szükséged. A Google Play áruházból telepítsd az Organic Maps alkalmazást, mert az Android Auto csak megbízható forrásból telepített navigációs alkalmazásokat jelenít meg.
 
 További részletekért keresd fel az [Android Auto webhelyét](https://support.google.com/androidauto/answer/6348019).

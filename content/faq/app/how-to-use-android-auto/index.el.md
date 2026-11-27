@@ -12,6 +12,6 @@ aliases:
   - /el/faq/app/how-to-use-android-auto/
 ---
 
-Για ενσύρματη σύνδεση με το Android Auto, χρειάζεσαι Android 11 ή νεότερη έκδοση. Επιπλέον, πρέπει να κατεβάσεις το Organic Maps από το Google Play Store, καθώς η Google επιτρέπει μόνο εγκεκριμένες από την Google εφαρμογές στο Android Auto.
+Για ενσύρματη σύνδεση με το Android Auto, χρειάζεσαι Android 11 ή νεότερη έκδοση. Εγκατάστησε το Organic Maps από το Google Play, γιατί το Android Auto εμφανίζει μόνο εφαρμογές πλοήγησης που έχουν εγκατασταθεί από αξιόπιστη πηγή.
 
 Έλεγξε τον [ιστότοπο Android Auto](https://support.google.com/androidauto/answer/6348019) για περισσότερες λεπτομέρειες.

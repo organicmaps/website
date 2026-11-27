@@ -12,6 +12,6 @@ aliases:
   - /ar/faq/app/how-to-use-android-auto/
 ---
 
-لاستخدام Android Auto عبر اتصال سلكي، تحتاج إلى Android 11 أو إصدار أحدث. علاوة على ذلك، يتعين عليك تنزيل Organic Maps من متجر Google Play، حيث تسمح Google فقط بالتطبيقات المعتمدة من Google على Android Auto.
+لاستخدام Android Auto عبر اتصال سلكي، تحتاج إلى Android 11 أو إصدار أحدث. ثبّت Organic Maps من Google Play، لأن Android Auto لا يعرض إلا تطبيقات الملاحة المثبّتة من مصدر موثوق.
 
 يرجى مراجعة [موقع Android Auto الإلكتروني](https://support.google.com/androidauto/answer/6348019) للحصول على مزيد من التفاصيل.

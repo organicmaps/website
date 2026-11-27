@@ -11,6 +11,6 @@ aliases:
   - /ja/faq/app/how-to-use-android-auto/
 ---
 
-Android Auto を有線で利用するには、Android 11 以降が必要です。また、Google は Android Auto 上で Google が承認したアプリしか許可していないため、Organic Maps は Google Play ストアからダウンロードする必要があります。
+Android Auto を有線で利用するには、Android 11 以降が必要です。Organic Maps は Google Play からインストールしてください。Android Auto に表示されるのは、信頼できる提供元からインストールされたナビアプリのみです。
 
 詳しくは [Android Auto のウェブサイト](https://support.google.com/androidauto/answer/6348019)をご覧ください。

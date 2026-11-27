@@ -12,6 +12,6 @@ aliases:
   - /te/faq/app/how-to-use-android-auto/
 ---
 
-కేబుల్ ద్వారా Android Auto ఉపయోగించడానికి Android 11 లేదా ఆ తర్వాతి వెర్షన్ అవసరం. ఆండ్రాయిడ్ ఆటోలో Google ఆమోదించిన యాప్‌లను మాత్రమే Google అనుమతిస్తుంది కాబట్టి మీరు Google Play Store నుండి Organic Maps ని డౌన్‌లోడ్ చేసుకోవాలి.
+కేబుల్ ద్వారా Android Auto ఉపయోగించడానికి Android 11 లేదా ఆ తర్వాతి వెర్షన్ అవసరం. Google Play నుంచి Organic Maps ఇన్‌స్టాల్ చేయండి. విశ్వసనీయ మూలం నుంచి ఇన్‌స్టాల్ చేసిన నావిగేషన్ యాప్‌లను మాత్రమే Android Auto చూపిస్తుంది.
 
 దయచేసి మరిన్ని వివరాల కోసం [Android Auto వెబ్‌సైట్](https://support.google.com/androidauto/answer/6348019)ని తనిఖీ చేయండి.

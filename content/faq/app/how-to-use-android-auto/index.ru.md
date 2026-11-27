@@ -11,6 +11,6 @@ extra:
   order: 20
 ---
 
-Для проводного подключения Android Auto требуется Android 11 или новее. Чтобы пользоваться Organic Maps на совместимом экране автомобиля, установите приложение из Google Play.
+Для проводного подключения Android Auto требуется Android 11 или новее. Установите Organic Maps из Google Play. Android Auto показывает только навигационные приложения, установленные из надёжного источника.
 
 Дополнительную информацию можно найти на [веб-сайте Android Auto](https://support.google.com/androidauto/answer/6348019).

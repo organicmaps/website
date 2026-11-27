@@ -11,6 +11,6 @@ aliases:
   - /it/faq/app/how-to-use-android-auto/
 ---
 
-Per usare Android Auto con un cavo, ti serve Android 11 o una versione successiva. Inoltre devi scaricare Organic Maps dal Google Play Store, dato che Google permette solo le app approvate da Google su Android Auto.
+Per usare Android Auto con un cavo, ti serve Android 11 o una versione successiva. Installa Organic Maps da Google Play. Android Auto mostra solo le app di navigazione installate da una fonte attendibile.
 
 Per ulteriori informazioni, consulta il [sito web di Android Auto](https://support.google.com/androidauto/answer/6348019).

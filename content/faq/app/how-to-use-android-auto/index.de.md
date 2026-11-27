@@ -11,6 +11,6 @@ aliases:
   - /de/faq/app/how-to-use-android-auto/
 ---
 
-Für eine Kabelverbindung mit Android Auto brauchst du Android 11 oder neuer. Lade Organic Maps aus dem Google Play Store herunter, da Android Auto nur von Google freigegebene Apps zulässt.
+Für eine Kabelverbindung mit Android Auto brauchst du Android 11 oder neuer. Installiere Organic Maps über Google Play. Android Auto zeigt nur Navigations-Apps an, die aus einer vertrauenswürdigen Quelle installiert wurden.
 
 Bitte besuche die [Android Auto Website](https://support.google.com/androidauto/answer/6348019) für weitere Informationen.

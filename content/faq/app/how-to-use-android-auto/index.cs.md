@@ -12,6 +12,6 @@ aliases:
   - /cs/faq/app/how-to-use-android-auto/
 ---
 
-Pro kabelové připojení k Android Auto potřebujete Android 11 nebo novější. Kromě toho si musíte stáhnout Organic Maps z obchodu Google Play, protože Google povoluje pouze aplikace schválené společností Google pro Android Auto.
+Pro kabelové připojení k Android Auto potřebujete Android 11 nebo novější. Nainstalujte si Organic Maps z Google Play, protože Android Auto zobrazuje pouze navigační aplikace nainstalované z důvěryhodného zdroje.
 
 Další podrobnosti naleznete na [webu Android Auto](https://support.google.com/androidauto/answer/6348019).

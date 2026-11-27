@@ -12,6 +12,6 @@ aliases:
   - /eu/faq/app/how-to-use-android-auto/
 ---
 
-Android Auto kable bidez erabiltzeko, Android 11 edo berriagoa behar duzu. Gainera, Google Play Store-tik Organic Maps deskargatu behar duzu Google-k onartutako aplikazioak soilik onartzen dituelako Android Auto-n.
+Android Auto kable bidez erabiltzeko, Android 11 edo berriagoa behar duzu. Instalatu Organic Maps Google Play dendatik. Android Auto-k iturri fidagarrietatik instalatutako nabigazio-aplikazioak soilik erakusten ditu.
 
 Mesedez, begiratu [Android Auto webgunea](https://support.google.com/androidauto/answer/6348019) xehetasun gehiago lortzeko.

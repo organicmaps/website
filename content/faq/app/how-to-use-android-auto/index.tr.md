@@ -11,6 +11,6 @@ aliases:
   - /tr/faq/app/how-to-use-android-auto/
 ---
 
-Android Auto’yu kabloyla kullanmak için Android 11 veya daha yeni bir sürüm gerekir. Üstelik Google, Android Auto'da yalnızca Google onaylı uygulamalara izin verdiği için Google Play Store'dan Organic Maps'i indirmen gerekiyor.
+Android Auto’yu kabloyla kullanmak için Android 11 veya daha yeni bir sürüm gerekir. Organic Maps’i Google Play’den yükle. Android Auto yalnızca güvenilir bir kaynaktan yüklenen navigasyon uygulamalarını gösterir.
 
 Daha fazla ayrıntı için lütfen [Android Auto web sitesini](https://support.google.com/androidauto/answer/6348019) kontrol et.

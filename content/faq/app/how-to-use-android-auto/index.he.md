@@ -8,6 +8,6 @@ extra:
   order: 20
 ---
 
-כדי להתחבר ל-Android Auto באמצעות כבל, נדרש מכשיר עם Android 11 ואילך. בנוסף, עליכם להוריד את Organic Maps מחנות Google Play מכיוון שגוגל מאפשרת רק אפליקציות המאושרות על ידה ב-Android Auto.
+כדי להתחבר ל-Android Auto באמצעות כבל, נדרש מכשיר עם Android 11 ואילך. יש להתקין את Organic Maps דרך Google Play, כי Android Auto מציג רק אפליקציות ניווט שהותקנו ממקור מהימן.
 
 אנא בדקו את [אתר Android Auto](https://support.google.com/androidauto/answer/6348019) לפרטים נוספים.

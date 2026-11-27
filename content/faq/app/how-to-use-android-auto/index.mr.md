@@ -12,6 +12,6 @@ aliases:
   - /mr/faq/app/how-to-use-android-auto/
 ---
 
-केबलने Android Auto वापरण्यासाठी Android 11 किंवा त्यानंतरची आवृत्ती आवश्यक आहे. शिवाय तुम्हाला Google Play Store वरून Organic Maps डाउनलोड करणे आवश्यक आहे कारण Google फक्त Android Auto वर Google मंजूर ॲप्सना परवानगी देतो.
+केबलने Android Auto वापरण्यासाठी Android 11 किंवा त्यानंतरची आवृत्ती आवश्यक आहे. Google Play वरून Organic Maps इंस्टॉल करा. Android Auto फक्त विश्वासार्ह स्रोतावरून इंस्टॉल केलेली नेव्हिगेशन ॲप्स दाखवते.
 
 कृपया अधिक तपशीलांसाठी [Android Auto वेबसाइट](https://support.google.com/androidauto/answer/6348019) तपासा.

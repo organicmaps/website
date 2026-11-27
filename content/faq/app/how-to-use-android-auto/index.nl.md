@@ -12,6 +12,6 @@ aliases:
   - /nl/faq/app/how-to-use-android-auto/
 ---
 
-Voor Android Auto via een kabel heb je Android 11 of hoger nodig. Bovendien moet je Organic Maps downloaden uit de Google Play Store, aangezien Google alleen door Google goedgekeurde apps op Android Auto toestaat.
+Voor Android Auto via een kabel heb je Android 11 of hoger nodig. Installeer Organic Maps via Google Play. Android Auto toont alleen navigatie-apps die via een vertrouwde bron zijn geïnstalleerd.
 
 Raadpleeg de [Android Auto-website](https://support.google.com/androidauto/answer/6348019) voor meer informatie.

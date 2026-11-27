@@ -12,6 +12,6 @@ aliases:
   - /oc/faq/app/how-to-use-android-auto/
 ---
 
-Per utilizar Android Auto amb un cable, te cal Android 11 o una version ulteriora. Cal tanben telecargar Organic Maps des de Google Play Store, ja que Google només permet aplicacions aprovades per Google a Android Auto.
+Per utilizar Android Auto amb un cable, te cal Android 11 o una version ulteriora. Installa Organic Maps dempuèi Google Play. Android Auto aficha sonque las aplicacions de navigacion installadas dempuèi una font de fisança.
 
 Consulta el [lloc web d'Android Auto](https://support.google.com/androidauto/answer/6348019) per obtenir més detalls.

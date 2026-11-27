@@ -8,6 +8,6 @@ extra:
   order: 20
 ---
 
-Wired Android Auto requires Android 11 or later. Install Organic Maps from Google Play to use it on a compatible car display.
+Wired Android Auto requires Android 11 or later. Install Organic Maps from Google Play. Android Auto only shows navigation apps installed from a trusted source.
 
 Please check the [Android Auto website](https://support.google.com/androidauto/answer/6348019) for further details.

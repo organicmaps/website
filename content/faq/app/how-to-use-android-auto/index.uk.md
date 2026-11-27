@@ -11,6 +11,6 @@ aliases:
   - /uk/faq/app/how-to-use-android-auto/
 ---
 
-Для дротового підключення Android Auto потрібен Android 11 або новішої версії. Щоб користуватися Organic Maps на сумісному екрані автомобіля, установіть застосунок із Google Play.
+Для дротового підключення до Android Auto потрібен Android 11 або новіший. Установіть Organic Maps із Google Play. Android Auto показує лише навігаційні застосунки, установлені з надійного джерела.
 
 Перегляньте [веб-сайт Android Auto](https://support.google.com/androidauto/answer/6348019), щоб дізнатися більше.

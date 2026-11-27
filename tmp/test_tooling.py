@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """Focused, offline regressions for translation, hooks and Telegram tooling."""
 
+import io
 import json
+import shlex
 import subprocess
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 from xml.etree import ElementTree
+
+import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
@@ -18,14 +23,18 @@ from markdown_xml import from_xml, to_xml  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
+    resolve_chat_id,
     send_media,
+    send_text_messages,
     split_text,
     strip_tera_blocks,
     utf16_len,
     validate_media_set,
     visible_text,
 )
+from telegram_post import main as publish_one  # noqa: E402
 from telegram_post_all import find_media  # noqa: E402
+from telegram_post_all import main as publish_all  # noqa: E402
 from translate_check import ERROR, WARN, check_translation, emphasis_faults  # noqa: E402
 from translate_md import (  # noqa: E402
     _segments, localize_zola_links, register_ok, tidy, translate_post, translate_text,
@@ -33,8 +42,9 @@ from translate_md import (  # noqa: E402
 
 
 class FakeResponse:
-    def __init__(self, payload: dict):
+    def __init__(self, payload: dict, status_code: int = 200):
         self.payload = payload
+        self.status_code = status_code
 
     def json(self) -> dict:
         return self.payload
@@ -369,6 +379,189 @@ Organic Maps。
 
 
 class TelegramToolingTests(unittest.TestCase):
+    def test_lookup_recovers_from_connection_errors(self):
+        with (
+            patch("telegram_post.SESSION.post", side_effect=[
+                requests.ConnectionError(),
+                requests.exceptions.ChunkedEncodingError(),
+                FakeResponse({"ok": True, "result": {"id": 123}}),
+            ]) as post,
+            patch("telegram_post.time.sleep") as sleep,
+        ):
+            self.assertEqual(resolve_chat_id("token", "@channel"), "123")
+        self.assertEqual(post.call_count, 3)
+        self.assertTrue(all(c.args[0].endswith("/getChat") for c in post.call_args_list))
+        self.assertEqual([c.args for c in sleep.call_args_list], [(1,), (2,)])
+
+    def test_lookup_retries_gateway_errors_and_honors_rate_limit(self):
+        html_error = requests.Response()
+        html_error.status_code = 502
+        html_error._content = b"<html>Bad Gateway</html>"
+        json_error = FakeResponse({"ok": False, "description": "Gateway Timeout"}, 504)
+        rate_limit = FakeResponse({
+            "ok": False,
+            "description": "Too Many Requests: retry after 5",
+            "parameters": {"retry_after": 5},
+        }, 429)
+        found = FakeResponse({"ok": True, "result": {"id": 123}})
+        for gateway_error in (html_error, json_error):
+            with (
+                self.subTest(status=gateway_error.status_code),
+                patch("telegram_post.SESSION.post", side_effect=[gateway_error, rate_limit, found]) as post,
+                patch("telegram_post.time.sleep") as sleep,
+            ):
+                self.assertEqual(resolve_chat_id("token", "@channel"), "123")
+                self.assertEqual(post.call_count, 3)
+                self.assertEqual([c.args for c in sleep.call_args_list], [(1,), (5,)])
+
+    def test_lookup_stops_for_missing_chat_or_long_rate_limit(self):
+        for response in (
+            FakeResponse({"ok": False, "description": "Bad Request: chat not found"}, 400),
+            FakeResponse({
+                "ok": False,
+                "description": "Too Many Requests: retry after 99999",
+                "parameters": {"retry_after": 99999},
+            }, 429),
+        ):
+            with self.subTest(status=response.status_code):
+                with (
+                    patch("telegram_post.SESSION.post", return_value=response) as post,
+                    patch("telegram_post.time.sleep") as sleep,
+                    redirect_stderr(io.StringIO()) as errors,
+                    self.assertRaises(SystemExit),
+                ):
+                    resolve_chat_id("token", "@channel")
+                post.assert_called_once()
+                sleep.assert_not_called()
+                self.assertIn(response.payload["description"], errors.getvalue())
+
+    def test_lookup_stops_before_publishing_after_three_resets(self):
+        with tempfile.TemporaryDirectory() as folder:
+            (Path(folder) / "index.md").write_text("Hello")
+            errors = io.StringIO()
+            with (
+                patch("sys.argv", ["publish", folder, "--yes"]),
+                patch("telegram_post_all.get_token", return_value="secret-token"),
+                patch("telegram_post.SESSION.post", side_effect=requests.ConnectionError(
+                    "https://api.telegram.org/botsecret-token/getChat"
+                )) as post,
+                patch("telegram_post.time.sleep"),
+                redirect_stdout(io.StringIO()), redirect_stderr(errors),
+                self.assertRaises(SystemExit) as stopped,
+            ):
+                publish_all()
+        self.assertEqual(stopped.exception.code, 1)
+        self.assertEqual(post.call_count, 3)
+        self.assertTrue(all(c.args[0].endswith("/getChat") for c in post.call_args_list))
+        self.assertIn("@OrganicMapsApp", errors.getvalue())
+        self.assertNotIn("secret-token", errors.getvalue())
+
+    def test_unconfirmed_text_is_never_resent_as_plain_text(self):
+        with patch("telegram_post.SESSION.post", side_effect=requests.ReadTimeout()) as post:
+            results = send_text_messages("token", "chat", "a" * 5000)
+        post.assert_called_once()
+        self.assertTrue(results[0]["_delivery_unknown"])
+
+    def test_unrelated_send_rejections_do_not_use_plain_text(self):
+        for status, description in (
+            (429, "Too Many Requests: retry after 5"),
+            (403, "Forbidden: bot was kicked"),
+            (400, "Bad Request: chat not found"),
+        ):
+            rejected = {"ok": False, "error_code": status, "description": description}
+            with (
+                self.subTest(status=status),
+                patch("telegram_post.SESSION.post", return_value=FakeResponse(rejected, status)) as post,
+                patch("telegram_post.time.sleep") as sleep,
+            ):
+                self.assertEqual(send_text_messages("token", "chat", "**Hello**"), [rejected])
+                post.assert_called_once()
+                self.assertEqual(post.call_args.kwargs["json"]["parse_mode"], "MarkdownV2")
+                sleep.assert_not_called()
+
+    def test_entity_parse_rejection_allows_plain_text_in_non_strict_mode(self):
+        rejected = {
+            "ok": False,
+            "error_code": 400,
+            "description": "Bad Request: can't parse entities: unmatched delimiter",
+        }
+        sent = FakeResponse({"ok": True, "result": {"message_id": 456}})
+        for strict in (False, True):
+            with (
+                self.subTest(strict=strict),
+                patch("telegram_post.SESSION.post", side_effect=[FakeResponse(rejected, 400), sent]) as post,
+            ):
+                result, = send_text_messages("token", "chat", "**Hello**", strict=strict)
+                if strict:
+                    self.assertEqual(result, rejected)
+                    post.assert_called_once()
+                else:
+                    self.assertTrue(result["_markdown_fallback"])
+                    self.assertEqual(post.call_count, 2)
+                    self.assertEqual(post.call_args.kwargs["json"]["text"], "Hello")
+                    self.assertNotIn("parse_mode", post.call_args.kwargs["json"])
+
+    def test_partial_single_channel_post_reports_how_to_resume(self):
+        with tempfile.TemporaryDirectory() as folder:
+            markdown = Path(folder) / "index.md"
+            markdown.write_text("a" * 5000)
+            errors = io.StringIO()
+            with (
+                patch("sys.argv", ["publish", "--group", "123", "--text", str(markdown), "--strict"]),
+                patch("telegram_post.get_token", return_value="token"),
+                patch("telegram_post.SESSION.post", side_effect=[
+                    FakeResponse({"ok": True, "result": {"message_id": 456}}),
+                    FakeResponse({"ok": False, "description": "rejected"}),
+                ]) as post,
+                redirect_stdout(io.StringIO()), redirect_stderr(errors),
+                self.assertRaises(SystemExit) as stopped,
+            ):
+                publish_one()
+        self.assertEqual(stopped.exception.code, 1)
+        self.assertEqual(post.call_count, 2)
+        self.assertIn("Check the channel and send only missing parts.", errors.getvalue())
+
+    def test_unconfirmed_send_resumes_only_untouched_channels(self):
+        lookup = FakeResponse({"ok": True, "result": {"id": 123}})
+        sent = FakeResponse({"ok": True, "result": {"message_id": 456}})
+        server_error = FakeResponse({"ok": False, "description": "Internal Server Error"}, 500)
+        for method, failure in (
+            ("sendMessage", requests.ConnectionError()),
+            ("sendMessage", server_error),
+            ("sendPhoto", requests.ConnectionError()),
+        ):
+            with (
+                self.subTest(method=method, failure=type(failure).__name__),
+                tempfile.TemporaryDirectory() as tmp,
+            ):
+                folder = Path(tmp) / "post folder"
+                folder.mkdir()
+                for name in ("index.md", "index.ar.md"):
+                    (folder / name).write_text("Hello")
+                (folder / "photo.webp").write_bytes(b"photo")
+                responses = [lookup, lookup]
+                if method == "sendPhoto":
+                    responses.append(sent)
+                responses.append(failure)
+                errors = io.StringIO()
+                with (
+                    patch("sys.argv", ["publish", str(folder), "--yes", "--allow-plain-fallback"]),
+                    patch("telegram_post_all.get_token", return_value="token"),
+                    patch("telegram_post.SESSION.post", side_effect=responses) as post,
+                    redirect_stdout(io.StringIO()), redirect_stderr(errors),
+                    self.assertRaises(SystemExit) as stopped,
+                ):
+                    publish_all()
+                self.assertEqual(stopped.exception.code, 1)
+                self.assertEqual(post.call_count, len(responses))
+                self.assertTrue(post.call_args.args[0].endswith("/" + method))
+                self.assertIn("Delivery is unconfirmed", errors.getvalue())
+                resume = errors.getvalue().split("Resume with:\n", 1)[1]
+                self.assertEqual(shlex.split(resume), [
+                    sys.executable, "publish", str(folder), "--only", "@OrganicMapsAR",
+                    "--allow-plain-fallback",
+                ])
+
     def test_sponsored_links_survive_in_telegram(self):
         text = ("Voici {% <sponsored_link url='https://example.org/ref'> %}notre lien"
                 "{% </sponsored_link> %} ({{ <sponsored_link url='https://example.org/ref' /> }}).")
@@ -427,7 +620,7 @@ class TelegramToolingTests(unittest.TestCase):
             audio = Path(folder) / "clip.mp3"
             audio.write_bytes(b"audio")
             with patch(
-                "telegram_post.requests.post",
+                "telegram_post.SESSION.post",
                 return_value=FakeResponse({"ok": True, "result": {}}),
             ) as request:
                 result = send_media("token", "chat", [audio])
@@ -441,7 +634,7 @@ class TelegramToolingTests(unittest.TestCase):
             for path in paths:
                 path.write_bytes(b"audio")
             with patch(
-                "telegram_post.requests.post",
+                "telegram_post.SESSION.post",
                 return_value=FakeResponse({"ok": True, "result": []}),
             ) as request:
                 result = send_media("token", "chat", paths)
@@ -455,7 +648,7 @@ class TelegramToolingTests(unittest.TestCase):
             audio = Path(folder) / "clip.mp3"
             audio.write_bytes(b"audio")
             with patch(
-                "telegram_post.requests.post",
+                "telegram_post.SESSION.post",
                 return_value=FakeResponse({"ok": False, "description": "rejected"}),
             ):
                 result = send_media("token", "chat", [audio])

@@ -20,11 +20,13 @@ Environment:
 
 import argparse
 import re
+import shlex
 import sys
 from pathlib import Path
 
 from markdown_frontmatter import strip_frontmatter
 from telegram_post import (
+    failed_text_may_have_reached_channel,
     get_token,
     resolve_chat_id,
     send_text_messages,
@@ -280,33 +282,31 @@ def main() -> None:
             sys.exit(0)
 
     # Resolve every chat up front. resolve_chat_id() exits on an unknown
-    # channel, and doing that mid-run would leave a half-published post with
-    # nothing posted yet, this is a safe abort.
+    # channel or a failed lookup, before any messages have been sent.
     chat_ids: dict[str, str] = {}
     if not args.dry_run:
-        print("Resolving channels...")
+        print("Resolving channels before posting...")
         for group, _, _ in tasks:
             chat_ids[group] = resolve_chat_id(token, group)
 
-    def abort(message: str, remaining: list[str]) -> None:
+    def abort(message: str, resume_at: int) -> None:
         """Report a failure and show how to resume without double-posting."""
         print(f"\nFATAL: {message}", file=sys.stderr)
+        remaining = [group for group, _, _ in tasks[resume_at:]]
         if remaining:
-            print(
-                f"\nResume with:\n"
-                f"  {sys.argv[0]} {args.folder} --only {','.join(remaining)}",
-                file=sys.stderr,
-            )
+            command = [
+                sys.executable, sys.argv[0], str(args.folder), "--only", ",".join(remaining),
+            ]
+            if args.allow_plain_fallback:
+                command.append("--allow-plain-fallback")
+            print(f"\nResume with:\n  {shlex.join(command)}", file=sys.stderr)
         sys.exit(1)
 
     # Post to each group
-    for i, (group, md_path, text) in enumerate(tasks, 1):
+    for index, (group, md_path, text) in enumerate(tasks):
         print(f"\n{'='*60}")
-        print(f"[{i}/{len(tasks)}] {group} ← {md_path.name}")
+        print(f"[{index + 1}/{len(tasks)}] {group} ← {md_path.name}")
         print(f"{'='*60}")
-
-        # Channels not yet posted to, including the current one.
-        remaining = [t[0] for t in tasks[i - 1 :]]
 
         if args.dry_run:
             print(
@@ -320,38 +320,30 @@ def main() -> None:
         results = send_text_messages(
             token, chat_id, text, strict=not args.allow_plain_fallback
         )
-        for result in results:
-            if not result.get("ok"):
-                desc = result.get("description", "unknown error")
-                # A long post is several messages; if earlier ones already
-                # landed, re-posting this channel would duplicate them.
-                sent_ok = sum(1 for r in results if r.get("ok"))
-                if sent_ok:
-                    abort(
-                        f"Failed to post to {group}: {desc}\n"
-                        f"NOTE: {sent_ok} message(s) of this post already "
-                        f"reached {group}; resuming it would duplicate them. "
-                        f"Send the remainder by hand, then resume the rest.",
-                        remaining[1:],
-                    )
-                abort(f"Failed to post to {group}: {desc}", remaining)
-            if result.get("_markdown_fallback"):
-                print(
-                    f"  Warning: {group} was posted WITHOUT formatting.",
-                    file=sys.stderr,
-                )
+        if results and not results[-1]["ok"]:
+            desc = results[-1].get("description", "unknown error")
+            message = f"{group}, text message {len(results)}: {desc}"
+            resume_at = index
+            if failed_text_may_have_reached_channel(results):
+                message += "\nCheck the channel and send only missing parts."
+                resume_at += 1
+            abort(message, resume_at)
+        if any(result.get("_markdown_fallback") for result in results):
+            print(
+                f"  Warning: {group} was posted WITHOUT formatting.",
+                file=sys.stderr,
+            )
 
         if media:
             media_result = send_media(token, chat_id, media)
-            if not media_result.get("ok"):
+            if not media_result["ok"]:
                 desc = media_result.get("description", "unknown error")
                 # The text is already published, so resuming this channel would
                 # duplicate it — only the media needs re-sending by hand.
                 abort(
-                    f"Failed to send media to {group}: {desc}\n"
-                    f"NOTE: the text of {group} was posted successfully; "
-                    f"do NOT include it when resuming.",
-                    remaining[1:],
+                    f"Media for {group}: {desc}\n"
+                    "The text was posted. Check the channel and send only missing media.",
+                    index + 1,
                 )
 
         print(f"  Done: {group}")

@@ -2,7 +2,7 @@
 title: Které verze iOS a Android jsou podporovány?
 slug: které-verze-ios-a-android-jsou-podporovány
 description: Minimální požadavky pro spuštění Organic Maps na zařízeních Android a iOS
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,7 +12,7 @@ aliases:
   - /cs/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Ke spuštění aplikace potřebujete alespoň iOS 12 nebo Android 5. Zařízení s novějšími verzemi mohou používat Organic Maps.
+Ke spuštění aplikace potřebujete alespoň iOS 15 nebo Android 5. Zařízení s novějšími verzemi mohou používat Organic Maps.
 
 V systému Android může Organic Maps fungovat na zařízeních s nainstalovanými službami Google a bez podpory Google.
 

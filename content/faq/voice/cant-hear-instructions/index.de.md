@@ -2,7 +2,7 @@
 title: Ich höre keine Sprachanweisungen
 slug: ich-höre-keine-sprachanweisungen
 description: "Anleitung zur Fehlerbehebung bei Sprachansagen in der Navigation"
-updated: "2025-12-31"
+updated: "2026-11-27"
 
 taxonomies:
   faq: ["sprachanweisungen"]
@@ -13,8 +13,7 @@ aliases:
   - /de/faq/voice/cant-hear-instructions/
 ---
 
-
-**Hinweis:** Sprachanweisungen sind für Auto- und Fahrradrouten verfügbar. Zur Zeit kannst du Sprachanweisungen nur während der Fahrt und nur bei eingeschaltetem Bildschirm hören.
+Sprachanweisungen gibt es für Fahrten mit dem Auto oder Fahrrad und für Fußwege. Auch bei ausgeschaltetem Bildschirm kannst du sie hören, wenn dein Smartphone Standortzugriff und Audiowiedergabe im Hintergrund erlaubt.
 
 Wenn du keine Sprachanweisungen hören kannst:
 
@@ -24,8 +23,4 @@ Wenn du keine Sprachanweisungen hören kannst:
 
 * Wenn du Android verwendest und die Einstellung deaktiviert ist (oder einige der unterstützten Sprachen nicht verfügbar sind), überprüfe die [System TTS(Text-zu-Sprache) Einstellungen](@/faq/voice/text-to-speech-android-tts/index.de.md).
 
-Auf Android sind Sprachanweisungen in 39 Sprachen verfügbar: Arabisch, Baskisch, Chinesisch (vereinfacht und traditionell), Dänisch, **Deutsch**, Englisch, Finnisch, Französisch, Griechisch, Hindi, Indonesisch, Italienisch, Japanisch, Katalanisch, Koreanisch, Kroatisch, Marathi, Niederländisch, Norwegisch, Persisch (Farsi), Polnisch, Portugiesisch, Portugiesisch (Brasilien), Rumänisch, Russisch, Schwedisch, Serbisch, Slowakisch, Spanisch, Spanisch (Mexiko), Swahili, Thailändisch, Tschechisch, Türkisch, Ukrainisch, Ungarisch, Vietnamesisch, Weißrussisch.
-
-Google TTS unterstützt alle aufgeführten Sprachen außer Arabisch und Persisch (Farsi). Für diese Sprachen musst du TTS von Drittanbietern (z. B. eSpeak TTS, Vocalizer TTS oder SVOX Classic TTS) und ein Sprachpaket aus einem App Store (Google Play Store, Galaxy Store, usw.) installieren.
-
-Unter iOS sind die Sprachanweisungen in 26 Sprachen verfügbar: Arabisch, Chinesisch (traditionell und vereinfacht), Dänisch, **Deutsch**, Englisch, Finnisch, Französisch, Griechisch, Hindi, Indonesisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Polnisch, Portugiesisch, Rumänisch, Russisch, Schwedisch, Slowakisch, Spanisch, Thailändisch, Tschechisch, Türkisch, Ungarisch.
+Die verfügbaren Stimmen findest du in den Einstellungen für Sprachanweisungen in der App. Fehlt deine Sprache, installiere eine Stimme dafür in den Einstellungen für die Sprachausgabe deines Smartphones.

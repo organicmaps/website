@@ -2,7 +2,7 @@
 title: ما هي إصدارات iOS وAndroid المدعومة؟
 slug: ما-هي-إصدارات-ios-وandroid-المدعومة
 description: الحد الأدنى من المتطلبات لتشغيل Organic Maps على أجهزة Android وiOS
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,7 +12,7 @@ aliases:
   - /ar/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-تحتاج إلى iOS 12 أو Android 5 على الأقل لتشغيل التطبيق. يمكن للأجهزة ذات الإصدارات الأحدث تشغيل Organic Maps.
+تحتاج إلى iOS 15 أو Android 5 على الأقل لتشغيل التطبيق. يمكن للأجهزة ذات الإصدارات الأحدث تشغيل Organic Maps.
 
 في Android، يمكن لـ Organic Maps أن يعمل على الأجهزة المثبت عليها خدمات Google وبدون دعم Google.
 

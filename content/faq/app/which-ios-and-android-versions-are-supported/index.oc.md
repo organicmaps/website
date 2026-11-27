@@ -2,7 +2,7 @@
 title: Quinas versions d'iOS e d'Android son suportadas?
 slug: quinas-versions-dios-e-dandroid-son-suportadas
 description: Requisits minimals per executar Organic Maps sus aparelhs Android e iOS
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,10 +12,10 @@ aliases:
   - /oc/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Vos cal almens iOS 12 o Android 5 per far foncionar l'aplicacion. Los aparelhs amb de versions ulterioras pòdon far foncionar Organic Maps.
+Te cal almens iOS 15 o Android 5 per far foncionar l'aplicacion. Los aparelhs amb de versions ulterioras pòdon far foncionar Organic Maps.
 
 Suls aparelhs Android, Organic Maps pòt foncionar amb los Servicis Google installats e sens supòrt de Google.
 
 Los aparelhs Android devon suportar OpenGL ES 3.0 o una version mai recenta, o l'API Vulkan, per foncionar.
 
-Per utilizar OM amb Android Auto, consultatz las exigéncias [aicí](../how-to-use-android-auto/).
+Per utilizar OM amb Android Auto, consulta las exigéncias [aicí](../how-to-use-android-auto/).

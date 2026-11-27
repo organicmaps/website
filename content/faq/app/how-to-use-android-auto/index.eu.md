@@ -2,7 +2,7 @@
 title: Nola erabili Android Auto?
 slug: nola-erabili-android-auto
 description: Organic Maps Android Auto-rekin exekutatzeko gutxieneko baldintzak
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,6 +12,6 @@ aliases:
   - /eu/faq/app/how-to-use-android-auto/
 ---
 
-OM Android Auto-rekin erabiltzeko, gutxienez Android 8.0 (Oreo) edo berriagoa behar duzu. Gainera, Google Play Store-tik Organic Maps deskargatu behar duzu Google-k Google-k onartutako aplikazioak soilik onartzen dituelako Android Auto-n.
+Android Auto kable bidez erabiltzeko, Android 11 edo berriagoa behar duzu. Gainera, Google Play Store-tik Organic Maps deskargatu behar duzu Google-k onartutako aplikazioak soilik onartzen dituelako Android Auto-n.
 
-Mesedez, begiratu [Android Auto webgunea](https://www.android.com/auto/) xehetasun gehiago lortzeko.
+Mesedez, begiratu [Android Auto webgunea](https://support.google.com/androidauto/answer/6348019) xehetasun gehiago lortzeko.

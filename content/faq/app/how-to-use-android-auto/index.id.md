@@ -2,7 +2,7 @@
 title: Bagaimana cara menggunakan Android Otomatis?
 slug: bagaimana-cara-menggunakan-android-otomatis
 description: Persyaratan minimum untuk menjalankan Organic Maps dengan Android Auto
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,6 +12,6 @@ aliases:
   - /id/faq/app/how-to-use-android-auto/
 ---
 
-Untuk menggunakan OM dengan Android Auto, kamu memerlukan setidaknya Android versi 8.0 (Oreo) atau lebih baru. Selain itu, kamu perlu mengunduh Organic Maps dari Google Play Store karena Google hanya mengizinkan aplikasi yang disetujui Google di Android Auto.
+Untuk menggunakan Android Auto lewat kabel, kamu memerlukan Android 11 atau versi yang lebih baru. Selain itu, kamu perlu mengunduh Organic Maps dari Google Play Store karena Google hanya mengizinkan aplikasi yang disetujui Google di Android Auto.
 
-Silakan periksa [situs web Android Auto](https://www.android.com/auto/) untuk detail lebih lanjut.
+Silakan periksa [situs web Android Auto](https://support.google.com/androidauto/answer/6348019) untuk detail lebih lanjut.

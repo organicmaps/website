@@ -3,6 +3,7 @@ title: Como criar um itinerário e iniciar a navegação
 slug: como-criar-um-itinerário-e-iniciar-a-navegação
 description: "Guia para criar uma rota e navegar usando o mapa"
 
+updated: "2026-11-27"
 taxonomies:
   faq: ["mapa"]
 
@@ -18,7 +19,7 @@ Depois da tua localização ter sido determinada no mapa, escolhe o teu destino.
 * toca no botão de favoritos
 * toca (em áreas vazias toca e mantém pressionado) em qualquer lugar no mapa
 
-Depois de escolheres o ponto de destino, pressiona o botão “Itinerário para” na parte inferior do ecrã. A rota será criada e verás a distância e o tempo estimado da viagem. Podes alterar o tipo de rota tocando no ícone Carro, Pedestre, Metropolitano, Bicicleta ou Régua na parte superior do ecrã. Para começar a seguir o percurso, toca no botão “Iniciar”. Toca no sinal de seta no canto inferior direito do ecrã e toca em “Parar” para terminar a rota.
+Depois de escolheres o ponto de destino, pressiona o botão “Itinerário para” na parte inferior do ecrã. A rota será criada e verás a distância e o tempo estimado da viagem. Podes alterar o tipo de rota tocando no ícone Carro, Pedestre, Metropolitano, Bicicleta ou Régua na parte superior do ecrã. O modo de transportes públicos apresenta uma pré-visualização do percurso. Para iniciar a navegação de carro, a pé ou de bicicleta, toca no botão «Iniciar». Toca no sinal de seta no canto inferior direito do ecrã e toca em “Parar” para terminar a rota.
 
 Podes escolher um ponto de partida diferente (botão “De”) para ver uma rota, mas a navegação só está disponível a partir da tua localização atual por GPS.
 

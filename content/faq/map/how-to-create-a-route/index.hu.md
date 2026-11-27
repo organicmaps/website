@@ -3,7 +3,7 @@ title: Útvonal létrehozása és a navigáció elindítása
 slug: útvonal-létrehozása-és-a-navigáció-elindítása
 description: Útmutató az útvonal elkészítéséhez és a térkép használatával történő
   navigációhoz
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - map
@@ -20,7 +20,7 @@ Az alábbi módok egyikét használhatod:
 * érintsd meg a könyvjelzők gombot
 * érintsd meg bármelyik helyet a térképen
 
-Miután kiválasztottad a célpontot, nyomd meg az „Útvonal” gombot alul. A rendszer létrehozza az útvonalat, és látni fogod a távolságot és a becsült utazási időt. Az útvonal típusát a képernyő tetején található Autó, Gyalogos, Metró, Kerékpár vagy Vonalzó ikon megnyomásával módosíthatod. Az útvonal követésének megkezdéséhez érintsd meg a „Start” gombot. Nyomd meg a nyíl jelet a képernyő jobb alsó sarkában, és érintsd meg a Stop gombot az útvonal befejezéséhez.
+Miután kiválasztottad a célpontot, nyomd meg az „Útvonal” gombot alul. A rendszer létrehozza az útvonalat, és látni fogod a távolságot és a becsült utazási időt. Az útvonal típusát a képernyő tetején található Autó, Gyalogos, Metró, Kerékpár vagy Vonalzó ikon megnyomásával módosíthatod. A tömegközlekedési mód útvonal-előnézetet ad. Autós, gyalogos vagy kerékpáros navigáció indításához érintsd meg a „Indítás” gombot. Nyomd meg a nyíl jelet a képernyő jobb alsó sarkában, és érintsd meg a Stop gombot az útvonal befejezéséhez.
 
 Az útvonal előnézetéhez választhatsz egy másik kiindulási pontot („Útvonal innen“ gomb), de a navigáció csak az aktuális helyedről érhető el.
 

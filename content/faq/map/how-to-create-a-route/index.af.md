@@ -2,7 +2,7 @@
 title: Hoe om 'n roete te skep en navigasie te begin
 slug: hoe-om-n-roete-te-skep-en-navigasie-te-begin
 description: Gids vir die bou van 'n roete en navigasie met behulp van die kaart
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - map
@@ -19,7 +19,7 @@ Jy kan een van die volgende maniere gebruik:
 * Tik op die boekmerkknoppie
 * Tik enige plek op die kaart
 
-Sodra jy punt van bestemming gekies het, druk “Route to” knoppie onderaan. Die roete sal geskep word en jy sal afstand en geskatte reistyd sien. Jy kan die roetetipe verander deur die motor-, voetganger-, moltrein-, fiets- of liniaal-ikoon aan die bokant van die skerm te druk. Om die roete te begin volg, tik “Begin”-knoppie. Druk die pyltjieteken in die onderste regterhoek van die skerm en tik Stop om die roete te voltooi.
+Sodra jy punt van bestemming gekies het, druk “Route to” knoppie onderaan. Die roete sal geskep word en jy sal afstand en geskatte reistyd sien. Jy kan die roetetipe verander deur die motor-, voetganger-, moltrein-, fiets- of liniaal-ikoon aan die bokant van die skerm te druk. In die modus vir openbare vervoer kan jy die roete vooraf bekyk. Vir motor-, stap- en fietsroetes, tik op die “Begin”-knoppie om navigasie te begin. Druk die pyltjieteken in die onderste regterhoek van die skerm en tik Stop om die roete te voltooi.
 
 Jy kan 'n ander beginpunt kies (“Roete vanaf“-knoppie) om 'n roete voor te sien, maar navigasie is slegs vanaf jou huidige ligging beskikbaar.
 

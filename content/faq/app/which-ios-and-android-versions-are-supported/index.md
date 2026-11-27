@@ -1,14 +1,14 @@
 ---
 title: Which iOS and Android versions are supported?
 description: Minimum requirements to run Organic Maps on Android and iOS devices
-updated: "2026-01-04"
+updated: "2026-11-27"
 taxonomies:
   faq: ["app"]
 extra:
   order: 10
 ---
 
-You need at least iOS 12 or Android 5 to run the app. Devices with later versions can run Organic Maps.
+You need at least iOS 15 or Android 5 to run the app. Devices with later versions can run Organic Maps.
 
 In Android, Organic Maps can work on devices with Google Services installed and without Google support.
 

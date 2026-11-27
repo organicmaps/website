@@ -2,7 +2,7 @@
 title: Hoe Android Auto gebruiken?
 slug: hoe-android-auto-gebruiken
 description: Minimale vereisten om Organic Maps uit te voeren met Android Auto
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,6 +12,6 @@ aliases:
   - /nl/faq/app/how-to-use-android-auto/
 ---
 
-Om OM met Android Auto te gebruiken, heb je minimaal Android-versie 8.0 (Oreo) of hoger nodig. Bovendien moet je Organic Maps downloaden uit de Google Play Store, aangezien Google alleen door Google goedgekeurde apps op Android Auto toestaat.
+Voor Android Auto via een kabel heb je Android 11 of hoger nodig. Bovendien moet je Organic Maps downloaden uit de Google Play Store, aangezien Google alleen door Google goedgekeurde apps op Android Auto toestaat.
 
-Raadpleeg de [Android Auto-website](https://www.android.com/auto/) voor meer informatie.
+Raadpleeg de [Android Auto-website](https://support.google.com/androidauto/answer/6348019) voor meer informatie.

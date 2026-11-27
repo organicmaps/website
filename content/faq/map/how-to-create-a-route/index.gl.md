@@ -2,7 +2,7 @@
 title: Como crear unha ruta e iniciar a navegación
 slug: como-crear-unha-ruta-e-iniciar-a-navegación
 description: Guía para construír unha ruta e navegar mediante o mapa
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - map
@@ -19,7 +19,7 @@ Podes usar unha das seguintes formas:
 * toca o botón de marcadores
 * Toca calquera lugar do mapa
 
-Unha vez escollido o punto de destino, preme o botón «Ruta a» na parte inferior. Crearase a ruta e verás a distancia e o tempo estimado da viaxe. Podes cambiar o tipo de ruta premendo a icona Coche, Peón, Metro, Bicicleta ou Regra na parte superior da pantalla. Para comezar a seguir a ruta, toca o botón «Inicio». Preme o sinal de frecha na esquina inferior dereita da pantalla e toca Deter para rematar a ruta.
+Unha vez escollido o punto de destino, preme o botón «Ruta a» na parte inferior. Crearase a ruta e verás a distancia e o tempo estimado da viaxe. Podes cambiar o tipo de ruta premendo a icona Coche, Peón, Metro, Bicicleta ou Regra na parte superior da pantalla. O modo de transporte público amosa unha vista previa do itinerario. Para iniciar a navegación en coche, a pé ou en bicicleta, toca o botón «Empezar». Preme o sinal de frecha na esquina inferior dereita da pantalla e toca Deter para rematar a ruta.
 
 Podes escoller un punto de partida diferente (botón «Ruta Desde») para previsualizar unha ruta, pero a navegación só está dispoñible desde a túa localización actual.
 

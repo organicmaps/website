@@ -2,7 +2,7 @@
 title: Pòdi pas ausir las instruccions vocalas.
 slug: pòdi-pas-ausir-las-instruccions-vocalas
 description: Guia de solucion de problèmas per las instruccions vocalas dins la navigacion
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - instruccions-de-votz
@@ -12,7 +12,7 @@ aliases:
   - /oc/faq/voice/cant-hear-instructions/
 ---
 
-**Nòta:** las instruccions vocalas son disponiblas per las rotas en veitura e en bicicleta. Per ara, pòdes ausir las instruccions vocalas sonque quand condusès e quand l'ecran es alucat.
+Las indicacions vocalas son disponiblas en veitura, a pè e en bicicleta. Pòdon contunhar quand l’ecran es atudat se lo telefòn permet l’accès a la localizacion e la lectura del son en rèireplan.
 
 Se ausisses pas las instruccions vocalas:
 
@@ -22,8 +22,4 @@ Se ausisses pas las instruccions vocalas:
 
 * S'utilizas Android e que l'opcion es desactivada (o que d'unas de las lengas suportadas son pas disponiblas), mercé de verificar los [parametres TTS](@/faq/voice/text-to-speech-android-tts/index.oc.md).
 
-Sus Android, las instruccions vocalas son disponiblas en 39 lengas: Anglés, Arabe, Basc, Bielorus, Català, Chines (Simplificat e Tradicional), Croat, Tchec, Danés, Neerlandés, Finés, Francés, Alemand, Grèc, Hindi, Ongrés, Indonesian, Italian, Japonés, Corean, Maratí, Norvegian, Persan (Farsi), Polonés, Portugués, Portugués (Brasil), Romanés, Rus, Serb, Eslovac, Espanhòl, Espanhòl (Mexic), Swahili, Suedés, Thai, Turc, Ucrainés, Vietnamian.
-
-Google TTS supòrta totas las lengas listadas levat l'arabi e lo persan (farsi). Per aquestas lengas, caldrà benlèu installar un TTS de tèrça partida (per exemple, eSpeak TTS, Vocalizer TTS o SVOX Classic TTS) e un paquet de lenga dempuèi una botiga d'aplicacions (Google Play Store, Galaxy Store, etc.).
-
-Sus iOS, las instruccions vocalas son disponiblas en 26 lengas: Anglés, Arabe, Chinés (Tradicional e Simplificat), Tchec, Danés, Neerlandés, Finés, Francés, Aleman, Grèc, Hindi, Ongrés, Indonesian, Italian, Japonés, Corean, Polonés, Portugués, Romanés, Rus, Eslovac, Espanhòl, Suedés, Thai, Turc.
+Consulta las voses disponiblas dins los paramètres del guidatge vocal de l’aplicacion. Se ta lenga manca, installa una votz per aquela lenga dins los paramètres de sintèsi vocala del telefòn.

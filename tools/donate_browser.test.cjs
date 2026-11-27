@@ -77,7 +77,7 @@ function fields(page) {
 
 test('crypto buttons copy the displayed address and report clipboard failures', async t => {
   const { page } = await openPage(t);
-  await page.goto(origin + '/donate/#crypto');
+  await page.goto(origin + '/uk/donate/#crypto');
   await page.evaluate(() => {
     Object.defineProperty(navigator, 'clipboard', {
       value: { writeText: async address => { window.copiedAddress = address; } },
@@ -88,7 +88,7 @@ test('crypto buttons copy the displayed address and report clipboard failures', 
   for (const token of ['BTC', 'USDT']) {
     const row = rows.filter({ has: page.getByRole('cell', { name: token, exact: true }) }).first();
     const cell = row.getByRole('cell').last();
-    const button = cell.getByRole('button');
+    const button = cell.getByRole('button', { name: 'Копіювати', exact: true });
     const address = (await cell.innerText()).replace(await button.innerText(), '').trim();
     await button.click();
     assert.equal(await page.evaluate(() => window.copiedAddress), address);

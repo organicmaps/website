@@ -1,7 +1,7 @@
 ---
 title: "Why can search not find a place or address?"
 description: "Find missing places and addresses in Organic Maps by checking downloaded maps, search location, spelling and OpenStreetMap data."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["search"]
 extra:

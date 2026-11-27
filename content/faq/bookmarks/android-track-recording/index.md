@@ -1,7 +1,7 @@
 ---
 title: "Why does track recording stop or have gaps with the screen off?"
 description: "Fix Organic Maps track recording gaps with the screen off by checking location access, Android battery restrictions and GPS reception."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
 extra:

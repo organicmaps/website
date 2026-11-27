@@ -1,7 +1,7 @@
 ---
 title: "Can I add a road, building, path, or move an existing place?"
 description: "Edit roads, paths and buildings with OpenStreetMap editors and understand community review, upload conflicts and map-update delays."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["map-editing"]
 extra:

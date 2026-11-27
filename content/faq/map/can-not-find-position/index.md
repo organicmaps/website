@@ -1,7 +1,7 @@
 ---
 title: "Why can Organic Maps not find my location, or only show an approximate position?"
 description: "Fix missing or approximate GPS location in Organic Maps and understand precise-location permissions, the accuracy circle and direction arrow."
-updated: "2026-11-16"
+updated: "2026-11-28"
 taxonomies:
   faq: ["location-and-compass"]
 extra:

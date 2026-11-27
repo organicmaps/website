@@ -1,7 +1,7 @@
 ---
 title: "How do I import bookmarks and GPX tracks into Organic Maps?"
 description: "Import KML, KMZ, KMB, GPX, GeoJSON and supported Google Takeout files into Organic Maps, with steps for Android and iOS."
-updated: "2026-11-15"
+updated: "2026-11-28"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
 extra:

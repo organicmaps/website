@@ -1,7 +1,7 @@
 ---
 title: "What should I do if Organic Maps crashes or runs slowly?"
 description: "Troubleshoot Organic Maps crashes and slow performance, check storage and protect your bookmarks before reinstalling."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["app"]
 extra:

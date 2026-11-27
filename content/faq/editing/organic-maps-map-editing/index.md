@@ -1,7 +1,7 @@
 ---
 title: "What is OpenStreetMap, and how do I correct a missing or wrong place?"
 description: "Add or correct places in Organic Maps, upload offline edits to OpenStreetMap and troubleshoot unavailable editing or upload errors."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["map-editing"]
 extra:

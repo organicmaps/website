@@ -2,7 +2,7 @@
 title: "Як імпортувати мітки та GPX-треки в Organic Maps?"
 slug: як-імпортувати-мітки
 description: "Імпортуйте файли форматів KML, KMZ, KMB, GPX, GeoJSON та підтримувані файли Google Takeout у застосунок Organic Maps — покрокові інструкції для Android та iOS."
-updated: "2026-11-15"
+updated: "2026-11-28"
 
 taxonomies:
   faq: ["мітки-та-треки"]

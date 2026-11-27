@@ -1,7 +1,7 @@
 ---
 title: "How do I export, share, or back up bookmarks and tracks?"
 description: "Share places, export lists or back up all Organic Maps bookmarks and tracks to a KMZ archive before switching phones."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["bookmarks-and-tracks"]
 extra:

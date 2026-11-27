@@ -1,7 +1,7 @@
 ---
 title: "What should I do if a map will not download or update?"
 description: "Fix failed Organic Maps downloads and updates by checking storage, connections, network filters and Android map storage."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["map"]
 extra:

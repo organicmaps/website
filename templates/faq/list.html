@@ -4,7 +4,11 @@
   <h1>{{ resource.title }}</h1>
   {% set start_here = faq_section.extra.start_here %}
   {% set topics = [
-    {"term": term, "id": "faq-" ~ (config.extra.faq_topic_ids | get(key=term.slug, default=term.slug))}
+    {
+      "term": term,
+      "id": "faq-" ~ (config.extra.faq_topic_ids | get(key=term.slug, default=term.slug)),
+      "title": config.extra.faq_category_titles | get(key=term.name, default=(term.name | replace(from="-", to=" ") | capitalize))
+    }
     for term in faq_categories
   ] %}
   {% if start_here %}
@@ -18,17 +22,15 @@
   <nav aria-label="{{ trans(key="faq-topics", lang=lang) }}">
     <p><strong>{{ trans(key="faq-browse-topics", lang=lang) }}</strong>
       {% for topic in topics %}
-      {% set name = topic.term.name %}
-      {% if not loop.first %} · {% endif %}<a href="#{{ topic.id }}">{{ config.extra.faq_category_titles | get(key=name, default=(name | replace(from="-", to=" ") | capitalize)) }}</a>
+      {% if not loop.first %} · {% endif %}<a href="#{{ topic.id }}">{{ topic.title }}</a>
       {% endfor %}
     </p>
   </nav>
   {% endif %}
   {%- for topic in topics -%}
-  {% set term = topic.term %}
-  <h2{% if start_here %} id="{{ topic.id }}"{% endif %}><a href="{{ term.path | safe }}">{{ config.extra.faq_category_titles | get(key=term.name, default=(term.name | replace(from="-", to=" ") | capitalize)) }}</a></h2>
+  <h2{% if start_here %} id="{{ topic.id }}"{% endif %}><a href="{{ topic.term.path | safe }}">{{ topic.title }}</a></h2>
   <ul>
-    {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
+    {%- for faq_page in topic.term.pages | sort(attribute="extra.order") -%}
       <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a>
         {% include 'faq/_questions.html' %}
       </li>

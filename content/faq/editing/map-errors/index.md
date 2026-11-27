@@ -1,7 +1,7 @@
 ---
 title: "How do I report a missing place or an error on the map?"
 description: "Report missing places or wrong map details with an OpenStreetMap note, or choose the right editing tool to correct the map."
-updated: "2026-11-06"
+updated: "2026-11-28"
 taxonomies:
   faq: ["map-editing"]
 extra:

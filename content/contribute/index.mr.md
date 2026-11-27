@@ -22,6 +22,7 @@ Organic Maps हे एक मोफत, मुक्त-स्रोत अॅ�
 - [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] वर इतर वापरकर्त्यांना समर्थन द्या.
 - सर्वांना Organic Maps बद्दल सांगा. मोठा समुदाय म्हणजे मजबूत समुदाय.
 - आम्हाला [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review] मध्ये रेटिंग द्या.
+- {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton चे सदस्यत्व{% </sponsored_link> %} घेऊन Organic Maps विकसित करण्यासाठी आणि आमच्या सर्व्हरची देखभाल करण्यासाठी आम्हाला मदत करा. Proton देखील तुमच्या गोपनीयतेला महत्त्व देते आणि तुम्ही भरलेल्या रकमेचा काही भाग या प्रकल्पाला देते.
 - कोणतीही मदत स्वागत आहे!
 
 आमची छोटी टीम तुमच्या अभिप्राय आणि समर्थनासाठी खूप आभारी आहे. आमच्या वापरकर्त्यांशिवाय Organic Maps शक्य नसते ❤️.

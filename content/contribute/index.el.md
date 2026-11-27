@@ -22,6 +22,7 @@ weight: 20
 - Υποστήριξε άλλους χρήστες στα [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Πες σε όλους για το Organic Maps. Μια μεγαλύτερη κοινότητα είναι μια ισχυρότερη κοινότητα.
 - Βαθμολόγησέ μας στο [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
+- Απόκτησε μια {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}συνδρομή στην Proton{% </sponsored_link> %} για να μας βοηθήσεις να αναπτύσσουμε το Organic Maps και να συντηρούμε τους διακομιστές μας. Η Proton σέβεται κι αυτή την ιδιωτικότητά σου και διαθέτει στο έργο μας μέρος του ποσού που πληρώνεις.
 - Οποιαδήποτε βοήθεια είναι ευπρόσδεκτη!
 
 Η μικρή μας ομάδα είναι πολύ ευγνώμων για τα σχόλια και την υποστήριξή σου. Το Organic Maps δεν θα ήταν εφικτό χωρίς τους χρήστες μας ❤️.

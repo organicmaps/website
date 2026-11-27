@@ -22,6 +22,7 @@ Organic Maps یک برنامه رایگان و متن‌باز است. بدون 
 - از سایر کاربران در [گیت‌هاب][issues]، [تلگرام][telegram_chat_fa]، [ماتریکس][matrix]، [توییتر][twitter]، [فیسبوک][facebook]، [اینستاگرام][instagram] حمایت کنید.
 - Organic Maps را به دیگران معرفی کنید. یک اجتماع بزرگ‌تر، اجتماع‌ی قوی‌تر است.
 - ما را در [Google Play][googleplay_review]، [Apple Store][appstore_review]، [Huawei AppGallery][appgallery_review] امتیاز دهید.
+- با خرید {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}اشتراک Proton{% </sponsored_link> %} به ما در توسعهٔ Organic Maps و نگهداری از سرورهایمان کمک کنید. Proton هم برای حریم خصوصی شما ارزش قائل است و بخشی از مبلغی را که می‌پردازید به پروژه اختصاص می‌دهد.
 - هر نوع کمکی استقبال می‌شود!
 
 تیم کوچک ما از بازخورد و حمایت شما بسیار سپاسگزار است. Organic Maps بدون کاربرانش امکان‌پذیر نبود ❤️.

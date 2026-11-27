@@ -22,6 +22,7 @@ Organic Maps एक फ्री, ओपन-सोर्स ऐप है | य�
 - [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] पर अन्य उपयोगकर्ताओं का समर्थन करें।
 - Organic Maps के बारे में सभी को बताएं। एक बड़ा समुदाय एक मजबूत समुदाय है।
 - हमें [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review] में रेट करें।
+- Organic Maps को विकसित करने और हमारे सर्वरों के रखरखाव में मदद के लिए {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton की सदस्यता{% </sponsored_link> %} लें। Proton भी आपकी निजता को अहमियत देता है और आपके भुगतान का एक हिस्सा इस परियोजना को देता है।
 - किसी भी मदद का स्वागत है!
 
 आपकी प्रतिक्रिया और समर्थन के लिए हमारी छोटी सी टीम बहुत आभारी है। हमारे उपयोगकर्ताओं ❤️ के बिना Organic Maps संभव ना होता।

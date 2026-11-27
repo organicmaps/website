@@ -22,6 +22,7 @@ Hai diferentes formas de apoiar o desenvolvemento:
 - Soporte a outros usuarios en [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Fala a todos sobre os Organic Maps. Unha comunidade máis grande é unha comunidade máis forte.
 - Califícanos en [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
+- Contrata unha {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}subscrición a Proton{% </sponsored_link> %} para axudarnos a desenvolver Organic Maps e a manter os nosos servidores. Proton tamén valora a túa privacidade e destina ao proxecto unha parte do que pagas.
 - Calquera axuda é benvida!
 
 O noso pequeno equipo está moi agradecido polos teus comentarios e apoio. Organic Maps non sería posible sen os nosos usuarios ❤️.

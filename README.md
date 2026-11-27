@@ -43,6 +43,15 @@ taxonomies:
   news: ["Press"]
 ```
 
+Use the `sponsored_link` component for paid referral links. Its body is the
+localized link label, and the self-closing form displays the URL itself.
+Both forms preserve the link when publishing to Telegram.
+
+```jinja
+{% <sponsored_link url="https://example.org/ref"> %}our referral link{% </sponsored_link> %}
+{{ <sponsored_link url="https://example.org/ref" /> }}
+```
+
 JPEG, PNG and WebP images stored alongside a news post are rendered automatically.
 The article, news listing and date archive share one media renderer. Filenames
 are sorted and extensions are case-insensitive. MP4 files render as videos;

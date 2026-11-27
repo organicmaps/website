@@ -137,7 +137,6 @@ def prepare_text(md_path: Path, site_root: Path) -> str:
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
 
-    # Tera expressions and components are site-only and do not belong in posts.
     text = strip_tera_blocks(text)
 
     # Strip angle brackets from bare URLs

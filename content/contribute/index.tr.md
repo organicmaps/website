@@ -22,6 +22,7 @@ Bizi desteklemenin farklı yolları var:
 - Diğer kullanıcılara [GitHub][issues], [Telegram][telegram_chat_tr], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] üzerinden yardımcı ol.
 - Herkese Organic Maps'ten bahset. Daha büyük bir topluluk daha güçlü bir topluluktur.
 - Bizi [Google Play][googleplay_review], [Apple Store][appstore_review] ve [Huawei Appgallery][appgallery_review]'de değerlendir.
+- {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton aboneliği{% </sponsored_link> %} satın alarak Organic Maps’i geliştirmemize ve sunucularımızın bakımını yapmamıza yardımcı ol. Proton da gizliliğine önem verir ve ödediğin ücretin bir kısmını projeye aktarır.
 - Her türlü yardıma açığız!
 
 Küçük ekibimiz, geri bildirimlerin ve desteğin için çok minnettar. Organic Maps, kullanıcılarımız olmadan mümkün olamazdı❤️.

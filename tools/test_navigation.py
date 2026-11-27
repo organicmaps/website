@@ -91,14 +91,18 @@ class MainLinks(HTMLParser):
         super().__init__()
         self.in_main = False
         self.links = []
+        self.ids = set()
 
     def handle_starttag(self, tag, attrs):
         if tag == "main":
             self.in_main = True
-        elif tag == "a" and self.in_main:
-            href = dict(attrs).get("href")
-            if href is not None:
-                self.links.append(href)
+        if not self.in_main:
+            return
+        attrs = dict(attrs)
+        if "id" in attrs:
+            self.ids.add(attrs["id"])
+        if tag == "a" and "href" in attrs:
+            self.links.append(attrs["href"])
 
     def handle_endtag(self, tag):
         if tag == "main":
@@ -149,7 +153,7 @@ class NavigationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0, output)
             self.assertIn(expected_error, output)
 
-    def test_homepages_link_news_and_language_chat(self):
+    def test_homepage_links_and_community_anchor(self):
         references = (ROOT / "templates/shortcodes/references.md").read_text()
         chats = dict(re.findall(
             r"(?m)^\[(telegram(?:_chat(?:_[a-z]+)?)?)\]:\s+(\S+)", references,
@@ -163,6 +167,10 @@ class NavigationTests(unittest.TestCase):
                     prefix = "" if lang == "en" else lang
                     parser = MainLinks()
                     parser.feed((public / prefix / "index.html").read_text())
+                    donate = f"/{prefix}/donate/" if prefix else "/donate/"
+                    self.assertIn(donate + "#bank-transfer", parser.links)
+                    self.assertIn(donate + "#crypto", parser.links)
+                    self.assertIn("community", parser.ids)
                     group = chats.get(f"telegram_chat_{lang.split('-')[0]}", chats["telegram_chat"])
                     self.assertCountEqual(
                         [href for href in parser.links if href in chats.values()],

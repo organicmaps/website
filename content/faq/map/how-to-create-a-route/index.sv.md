@@ -2,7 +2,7 @@
 title: Hur man skapar en rutt och startar navigering
 slug: hur-man-skapar-en-rutt-och-startar-navigering
 description: Guide för att bygga en rutt och navigera med hjälp av kartan
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - map
@@ -19,7 +19,7 @@ Du kan använda något av följande sätt:
 * tryck på bokmärkesknappen
 * tryck på valfri plats på kartan
 
-När du har valt destination trycker du på knappen “Rutt till” längst ner. Rutten kommer att skapas och du kommer att se avstånd och beräknad restid. Du kan ändra rutttyp genom att trycka på ikonen Bil, Fotgängare, Tunnelbana, Cykel eller Linjal högst upp på skärmen. För att börja följa rutten tryck på “Start”-knappen. Tryck på piltecknet i det nedre högra hörnet av skärmen och tryck på Stopp för att avsluta rutten.
+När du har valt destination trycker du på knappen “Rutt till” längst ner. Rutten kommer att skapas och du kommer att se avstånd och beräknad restid. Du kan ändra rutttyp genom att trycka på ikonen Bil, Fotgängare, Tunnelbana, Cykel eller Linjal högst upp på skärmen. Kollektivtrafikläget visar en förhandsvisning av resan. För att starta navigering med bil, till fots eller med cykel, tryck på ”Start”. Tryck på piltecknet i det nedre högra hörnet av skärmen och tryck på Stopp för att avsluta rutten.
 
 Du kan välja en annan startpunkt (knappen “Rutt från”) för att förhandsgranska en rutt, men navigering är bara tillgänglig från din nuvarande plats.
 

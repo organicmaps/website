@@ -137,7 +137,7 @@ Organic Maps మీ మొయిద నిఘా ఉంచాడనికి అ
   </tr>
 </table>
 
-## సంఘం
+## సంఘం <span id="community"></span>
 
 Organic Maps, అపాచీ లైసెన్స్ 2.0 గల ఒక [స్వేచ్ఛామూలాలు][github] సాఫ్ట్‌వేర్.
 

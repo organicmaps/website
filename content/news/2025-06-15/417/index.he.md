@@ -1,6 +1,6 @@
 ---
 title: "שמור מסלולים מתוכננים בעדכון Organic Maps של חודש יוני"
-date: 2025-07-14T20:00:00+00:00
+date: 2025-06-15
 slug: "save-planned-routes-in-june-2025-update"
 taxonomies:
   news: ["גרסאות"]

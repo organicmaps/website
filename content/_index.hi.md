@@ -137,7 +137,7 @@ Organic Maps में, हम मानते हैं कि गोपनी�
   </tr>
 </table>
 
-## समुदाय
+## समुदाय <span id="community"></span>
 
 Organic Maps एक [ओपन-सोर्स सॉफ्टवेयर][github] है जिसे Apache License 2.0 के तहत लाइसेंस दिया गया है।
 

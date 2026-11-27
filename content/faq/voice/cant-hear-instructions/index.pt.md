@@ -2,7 +2,7 @@
 title: Não consigo ouvir as instruções de voz
 slug: não-consigo-ouvir-as-instruções-de-voz
 description: "Guia de resolução de problemas para as instruções de voz na navegação"
-updated: "2024-07-22"
+updated: "2026-11-27"
 
 taxonomies:
   faq: ["instruções-de-voz"]
@@ -13,7 +13,7 @@ aliases:
   - /pt/faq/voice/cant-hear-instructions/
 ---
 
-**Nota:** as instruções de voz estão disponíveis apenas em rotas de carro e de bicicleta. Neste momento podes ouvir as instruções de voz apenas ao conduzir um veículo e quando o ecrã estiver ligado.
+As instruções de voz estão disponíveis nos percursos de carro, a pé e de bicicleta. Podem continuar com o ecrã desligado se o telemóvel permitir o acesso à localização e a reprodução de áudio em segundo plano.
 
 Se não consegues ouvir as instruções de voz:
 
@@ -23,8 +23,4 @@ Se não consegues ouvir as instruções de voz:
 
 * Se usares o Android e a opção estiver desativada (ou se alguns dos idiomas suportados estiverem indisponíveis), verifica as [definições de TTS](@/faq/voice/text-to-speech-android-tts/index.pt.md).
 
-No Android, as instruções de voz estão disponíveis em 39 idiomas: inglês, árabe, basco, bielorrusso, catalão, chinês (simplificado e tradicional), croata, checo, dinamarquês, neerlandês, finlandês, francês, alemão, grego, hindi, húngaro, indonésio, italiano, japonês, coreano, marata, norueguês, persa (farsi), polaco, português, português (Brasil), romeno, russo, sérvio, eslovaco, espanhol, espanhol (México), suaíli, sueco, tailandês, turco, ucraniano e vietnamita.
-
-O Google TTS suporta todos os idiomas listados, exceto o árabe e o persa (farsi). Para estes idiomas, talvez tenhas de instalar um TTS de terceiros (por exemplo, o eSpeak TTS, o Vocalizer TTS ou o SVOX Classic TTS) e um pacote de idiomas da loja de aplicações (Google Play Store, Galaxy Store, etc.).
-
-No iOS, as instruções de voz estão disponíveis em 26 idiomas: inglês, árabe, chinês (tradicional e simplificado), checo, dinamarquês, neerlandês, finlandês, francês, alemão, grego, hindi, húngaro, indonésio, italiano, japonês, coreano, polaco, português, romeno, russo, eslovaco, espanhol, sueco, tailandês e turco.
+Consulta as vozes disponíveis nas definições de orientação por voz da aplicação. Se faltar o teu idioma, instala uma voz para esse idioma nas definições de síntese de voz do telemóvel.

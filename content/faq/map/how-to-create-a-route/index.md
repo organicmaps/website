@@ -1,7 +1,7 @@
 ---
 title: How to create a route and start navigation
 description: Guide for building a route and navigating using the map
-updated: "2024-07-22"
+updated: "2026-11-27"
 
 taxonomies:
   faq: ["map"]
@@ -17,7 +17,7 @@ You can use one of the following ways:
 * tap the bookmarks button
 * tap any place on the map
 
-Once you have chosen point of destination, press “Route to” button at the bottom. The route will be created and you will see distance and estimated travel time. You can change the route type by pressing the Car, Pedestrian, Subway, Bike or Ruler icon at the top of the screen. To start following the route tap “Start” button. Press the arrow sign in the lower right corner of the screen and tap Stop to finish the route.
+Once you have chosen point of destination, press “Route to” button at the bottom. The route will be created and you will see distance and estimated travel time. You can change the route type by pressing the Car, Pedestrian, Subway, Bike or Ruler icon at the top of the screen. Public transport shows an itinerary, and the ruler measures distances. Tap “Start” to navigate by car, on foot, or by bicycle. Press the arrow sign in the lower right corner of the screen and tap Stop to finish the route.
 
 You can choose a different starting point (“Route From“ button) to preview a route, but navigation is only available from your current location.
 

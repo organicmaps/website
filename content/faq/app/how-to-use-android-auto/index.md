@@ -1,13 +1,13 @@
 ---
 title: How to use Android Auto?
 description: Minimum requirements to run Organic Maps with Android Auto
-updated: "2024-06-20"
+updated: "2026-11-27"
 taxonomies:
   faq: ["app"]
 extra:
   order: 20
 ---
 
-To use OM with Android Auto, you need at least an Android version 8.0 (Oreo) or later. Moreover you need to download Organic Maps from the Google Play Store as Google only allows Google approved apps on Android Auto.
+Wired Android Auto requires Android 11 or later. Install Organic Maps from Google Play. Android Auto only shows navigation apps installed from a trusted source.
 
-Please check the [Android Auto website](https://www.android.com/auto/) for further details.
+Please check the [Android Auto website](https://support.google.com/androidauto/answer/6348019) for further details.

@@ -2,7 +2,7 @@
 title: Какие версии iOS и Android поддерживаются?
 slug: какие-версии-ios-и-android-поддерживаются
 description: Минимальные требования для запуска Organic Maps на устройствах Android и iOS
-updated: "2026-01-04"
+updated: "2026-11-27"
 taxonomies:
   faq: ["приложение"]
 extra:
@@ -11,7 +11,7 @@ aliases:
   - /ru/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Для запуска приложения вам потребуется как минимум iOS 12 или Android 5. Устройства с более поздними версиями могут использовать Organic Maps.
+Для запуска приложения вам потребуется как минимум iOS 15 или Android 5. Устройства с более поздними версиями могут использовать Organic Maps.
 
 Android устройства должны поддерживать OpenGL ES 3.0 или выше, или Vulkan.
 

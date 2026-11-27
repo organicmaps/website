@@ -2,7 +2,7 @@
 title: Non podo escoitar as instrucións de voz
 slug: non-podo-escoitar-as-instrucións-de-voz
 description: Guía de solución de problemas para instrucións de voz na navegación
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /gl/faq/voice/cant-hear-instructions/
 ---
 
-**Nota:** as instrucións de voz están dispoñibles para rutas en coche e en bicicleta. Polo momento, só podes escoitar instrucións de voz mentres conduces e cando a pantalla está acesa.
+Hai indicacións de voz para os percorridos en coche, a pé e en bicicleta. Poden seguir soando coa pantalla apagada se o teléfono permite o acceso á localización e a reprodución de son en segundo plano.
 
 Se non podes escoitar as instrucións de voz:
 
@@ -22,8 +22,4 @@ Se non podes escoitar as instrucións de voz:
 
 * Se es un usuario de Android e a opción está desactivada (ou algúns dos idiomas admitidos non están dispoñibles), comproba [Configuración TTS](@/faq/voice/text-to-speech-android-tts/index.gl.md).
 
-En Android, as instrucións de voz están dispoñibles en 39 idiomas: alemán, árabe, éuscaro, bielorruso, catalán, chinés (simplificado e tradicional), croata, checo, dinamarqués, finlandés, francés, alemán, grego, hindi, húngaro, indonesio, italiano, xaponés, coreano, marathi, noruegués, persa (farsi), polaco, portugués, portugués (Brasil), romanés, eslovaco, español, sueco, suahili, mexicano, ruso, sueco, turco, ucraíno. vietnamita.
-
-Google TTS admite todos os idiomas da lista, excepto o árabe e o persa (farsi). Para estes idiomas, é posible que necesites instalar TTS de terceiros (por exemplo, eSpeak TTS, Vocalizer TTS ou SVOX Classic TTS) e un paquete de idiomas da tenda de aplicacións (Google Play Store, Galaxy Store, etc.).
-
-En iOS, as instrucións de voz están dispoñibles en 26 idiomas: checo, danés, eslovaco, español, finlandés, francés, grego, hindi, húngaro, indonesio, italiano, xaponés, coreano, inglés, árabe, chinés (tradicional e simplificado), eslovaco, sueco, tailandés, turco.
+Consulta as voces dispoñibles nos axustes de indicacións de voz da aplicación. Se falta o teu idioma, instala unha voz para el nos axustes de fala do teléfono.

@@ -2,7 +2,7 @@
 title: Ezin ditut ahots-argibideak entzuten
 slug: ezin-ditut-ahots-argibideak-entzuten
 description: Nabigazioan ahots bidezko argibideetarako arazoak konpontzeko gida
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /eu/faq/voice/cant-hear-instructions/
 ---
 
-**Oharra:** ahots bidezko argibideak auto eta bizikleta ibilbideetarako eskuragarri daude. Oraingoz, gidatzen duzun bitartean eta pantaila piztuta dagoenean soilik entzun ditzakezu ahots-argibideak.
+Ahots bidezko argibideak erabil ditzakezu autoz, oinez edo bizikletaz zoazenean. Pantaila itzalita ere entzun daitezke, telefonoak kokapena atzeko planoan erabiltzea eta soinua erreproduzitzea baimentzen badu.
 
 Ahots-argibideak entzuten ez badituzu:
 
@@ -22,8 +22,4 @@ Ahots-argibideak entzuten ez badituzu:
 
 * Android erabiltzailea bazara eta aukera desgaituta badago (edo onartzen diren hizkuntza batzuk ez daude erabilgarri), egiaztatu [TTS ezarpenak](@/faq/voice/text-to-speech-android-tts/index.eu.md).
 
-Android-en ahots-argibideak 39 hizkuntzatan daude eskuragarri: ingelesa, arabiera, euskara, bielorrusiera, katalana, txinera (sinplifikatua eta tradizionala), kroaziera, txekiera, daniera, nederlandera, finlandiera, frantsesa, alemana, grekoa, hindia, hungariera, indonesiera, italiera, japoniera, koreera, marathi, norvegiera, persiera (farsi), poloniera, portugesa, portugesa (Brasil), errumaniera, errusiera, serbiera, eslovakiera, gaztelania, gaztelania (Mexiko), swahilia, suediera, thailandiera, turkiera, ukrainera, vietnamera.
-
-Google TTS-k zerrendatutako hizkuntza guztiak onartzen ditu arabiera eta persiera (farsi) izan ezik. Baliteke hizkuntza horietarako hirugarrenen TTS (adibidez, eSpeak TTS, Vocalizer TTS edo SVOX Classic TTS) eta aplikazioen dendako hizkuntza pakete bat (Google Play Store, Galaxy Store, etab.) instalatu behar izatea.
-
-iOS-en ahots-argibideak 26 hizkuntzatan daude eskuragarri: ingelesa, arabiera, txinera (tradizionala eta sinplifikatua), txekiera, daniera, finlandiera, frantsesa, alemana, grekoa, hindia, hungariera, indonesiera, italiera, japoniera, koreera, poloniera, portugesa, errumaniera, errusiera, eslovakiera, gaztelania, suediera, thailandiera, turkiera.
+Begiratu zer ahots dauden erabilgarri aplikazioko ahots bidezko gidaritzaren ezarpenetan. Zure hizkuntza falta bada, instalatu hizkuntza horretako ahots bat telefonoaren hizketa-ezarpenetan.

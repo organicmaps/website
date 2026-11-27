@@ -138,7 +138,7 @@ Geliefde institusionele borge hieronder het geteikende toelaes verskaf om sommig
   </tr>
 </table>
 
-## Gemeenskap
+## Gemeenskap <span id="community"></span>
 
 Organic Maps is [oopbronprogrammatuur][github], wat gelisenseer is onder die Apache Lisensie 2.0.
 

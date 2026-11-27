@@ -2,7 +2,7 @@
 title: Jag kan inte höra röstinstruktioner
 slug: jag-kan-inte-höra-röstinstruktioner
 description: Felsökningsguide för röstinstruktioner i navigering
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /sv/faq/voice/cant-hear-instructions/
 ---
 
-**Obs!** röstinstruktioner finns tillgängliga för bil- och cykelvägar. För närvarande kan du bara höra röstinstruktioner när du kör och när skärmen är på.
+Röstvägledning finns för bil-, gång- och cykelrutter. Den kan fortsätta när skärmen är släckt om telefonen tillåter platsåtkomst och ljuduppspelning i bakgrunden.
 
 Om du inte kan höra röstinstruktioner:
 
@@ -22,8 +22,4 @@ Om du inte kan höra röstinstruktioner:
 
 * Om du är en Android-användare och alternativet är inaktiverat (eller om några av de språk som stöds inte är tillgängliga), kontrollera [TTS-inställningar](@/faq/voice/text-to-speech-android-tts/index.sv.md).
 
-På Android finns röstinstruktioner tillgängliga på 39 språk: engelska, arabiska, baskiska, vitryska, katalanska, kinesiska (förenklad och traditionell), kroatiska, tjeckiska, danska, holländska, finska, franska, tyska, grekiska, hindi, ungerska, indonesiska, italienska, japanska, koreanska, marathi, norska, persiska (farsi, portugisiska, portugisiska, portugisiska, ryska, portugisiska, ryska, polska, slovakiska, spanska, spanska (Mexiko), swahili, svenska, thailändska, turkiska, ukrainska, vietnamesiska.
-
-Google TTS stöder alla listade språk utom arabiska och persiska (farsi). För dessa språk kan du behöva installera tredjeparts TTS (till exempel eSpeak TTS, Vocalizer TTS eller SVOX Classic TTS) och ett språkpaket från appbutiken (Google Play Store, Galaxy Store, etc).
-
-På iOS finns röstinstruktioner tillgängliga på 26 språk: engelska, arabiska, kinesiska (traditionell och förenklad), tjeckiska, danska, holländska, finska, franska, tyska, grekiska, hindi, ungerska, indonesiska, italienska, japanska, koreanska, polska, portugisiska, rumänska, ryska, slovakiska, spanska, svenska, thailändska, turkiska.
+Se vilka röster som finns i appens inställningar för röstvägledning. Om ditt språk saknas kan du installera en röst för det i telefonens talsyntesinställningar.

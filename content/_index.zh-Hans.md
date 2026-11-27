@@ -137,7 +137,7 @@ Organic Maps 无需过多权限：
   </tr>
 </table>
 
-## 社区
+## 社区 <span id="community"></span>
 
 Organic Maps是一个以Apache许可证2.0授权的[开源软件][github]。
 

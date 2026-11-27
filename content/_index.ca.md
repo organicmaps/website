@@ -139,7 +139,7 @@ Els estimats patrocinadors institucionals a continuació han proporcionat subven
   </tr>
 </table>
 
-## Comunitat
+## Comunitat <span id="community"></span>
 
 Organic Maps és un [programa lliure][github] disponible en virtut de la Llicència Apache 2.0.
 

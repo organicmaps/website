@@ -2,7 +2,7 @@
 title: Ma ei kuule hääljuhiseid
 slug: ma-ei-kuule-hääljuhiseid
 description: Veaotsingu juhend hääljuhiste jaoks navigeerimisel
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /et/faq/voice/cant-hear-instructions/
 ---
 
-**Märkus:** auto- ja jalgrattamarsruutide jaoks on saadaval hääljuhised. Praegu kuuled hääljuhiseid ainult sõidu ajal ja siis, kui ekraan on sisse lülitatud.
+Hääljuhiseid saab kasutada autoga, jalgsi ja jalgrattaga liikudes. Need võivad jätkuda ka väljalülitatud ekraaniga, kui telefon lubab taustal asukohta kasutada ja heli esitada.
 
 Kui sa ei kuule hääljuhiseid:
 
@@ -22,8 +22,4 @@ Kui sa ei kuule hääljuhiseid:
 
 * Kui oled Androidi kasutaja ja see valik on keelatud (või mõned toetatud keeled pole saadaval), kontrolli [TTS-i seadeid](@/faq/voice/text-to-speech-android-tts/index.et.md).
 
-Androidis on hääljuhised saadaval 39 keeles: inglise, araabia, baski, valgevene, katalaani, hiina (lihtsustatud ja traditsiooniline), horvaadi, tšehhi, taani, hollandi, soome, prantsuse, saksa, kreeka, hindi, ungari, indoneesia, itaalia, jaapani, korea, marati, norra, pärsia (farsi), slovaki, slovaki, vene, serbia, poola, portugali keel. hispaania, hispaania (Mehhiko), suahiili, rootsi, tai, türgi, ukraina, vietnami keel.
-
-Google'i TTS toetab kõiki loetletud keeli, välja arvatud araabia ja pärsia (farsi). Nende keelte jaoks pead võib-olla installima kolmanda osapoole TTS-i (nt eSpeak TTS, Vocalizer TTS või SVOX Classic TTS) ja keelepaketi rakenduste poest (Google Play Store, Galaxy Store jne).
-
-IOS-is on hääljuhised saadaval 26 keeles: inglise, araabia, hiina (traditsiooniline ja lihtsustatud), tšehhi, taani, hollandi, soome, prantsuse, saksa, kreeka, hindi, ungari, indoneesia, itaalia, jaapani, korea, poola, portugali, rumeenia, vene, slovaki, hispaania, rootsi, tai, türgi keeles.
+Vaata saadaolevaid hääli rakenduse hääljuhiste seadetest. Kui sinu keel puudub, paigalda sellele hääl telefoni kõnesünteesi seadetes.

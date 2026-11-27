@@ -1,4 +1,11 @@
 {% component donate_buttons(lang) -%}
+{% set site_root = get_url(path="/") | trim_end(pat="/") %}
+{# Markdown shortcodes run before get_page() can look up translated pages. #}
+{% set donate_lang = lang %}
+{% if lang != "en" and not load_data(path="content/donate/index." ~ lang ~ ".md", format="plain", required=false) %}
+  {% set donate_lang = "en" %}
+{% endif %}
+{% set donate_path = get_url(path="@/donate/index.md", lang=donate_lang) | trim_start(pat=site_root) %}
 {% if lang == 'en' %}
 {% set stripe = 'https://donate.organicmaps.app' %}
 {% else %}
@@ -19,7 +26,7 @@
   </form>
   <a href="{{ stripe }}" title="iDeal"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/ideal.svg" alt="iDeal"></a>
   <a href="{{ stripe }}" title="SEPA"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/sepa.svg" alt="SEPA"></a>
-  <a href="/donate#bank-transfer" title="Bank Transfer"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bank.svg" alt="Bank Transfer"></a>
+  <a href="{{ donate_path | safe }}#bank-transfer" title="Bank Transfer"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bank.svg" alt="Bank Transfer"></a>
   <a href="https://liberapay.com/OrganicMaps" title="LiberaPay"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/liberapay.svg" alt="LiberaPay"></a>
   <a href="https://github.com/sponsors/organicmaps/" title="GitHub Sponsors"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/github.svg" alt="GitHub Sponsors"></a>
   <a href="https://www.patreon.com/OrganicMaps" title="Patreon"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/patreon.svg" alt="Patreon"></a>
@@ -27,7 +34,7 @@
   <a href="{{ stripe }}" title="BanContact"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bancontact.svg" alt="BanContact"></a>
   <a href="{{ stripe }}" title="EPS"><img id="eps" src="/images/donates/eps.svg" alt="EPS"></a>
   <a href="{{ stripe }}" title="MB Way/Multibanko"><img id="multibanco" src="/images/donates/multibanco.svg" alt="MB Way/Multibanko"></a>
-  <a href="/donate#crypto" title="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bitcoin.svg" alt="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"></a>
+  <a href="{{ donate_path | safe }}#crypto" title="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"><img width="48" height="48" loading="lazy" decoding="async" src="/images/donates/bitcoin.svg" alt="Bitcoin, Ethereum, Monero, Tron, ZCash and other crypto"></a>
 </div>
 
 <script>

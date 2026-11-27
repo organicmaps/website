@@ -139,7 +139,7 @@ Lei sponsors institucionals aimats çai-sota an fornit de subvencions ciblaas pe
   </tr>
 </table>
 
-## Comunautat
+## Comunautat <span id="community"></span>
 
 Organic Maps es un [programa liure][github] disponible en vertut de la Licéncia Apatxe 2.0.
 

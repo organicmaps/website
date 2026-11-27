@@ -138,7 +138,7 @@ Organic Maps मध्ये आम्ही ह्या विचारां�
   </tr>
 </table>
 
-## समुदाय
+## समुदाय <span id="community"></span>
 
 Apache License 2.0 परवान्य अंतर्गत Organic Maps हे एक [मुक्त स्रोत सॉफ्टवेअर][github] आहे.
 

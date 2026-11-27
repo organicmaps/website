@@ -2,7 +2,7 @@
 title: Jak utworzyć trasę i rozpocząć nawigację
 slug: jak-utworzyć-trasę-i-rozpocząć-nawigację
 description: "Poradnik tworzenia trasy i poruszania się po mapie"
-updated: "2024-07-15"
+updated: "2026-11-27"
 
 taxonomies:
   faq: ["mapa"]
@@ -19,7 +19,7 @@ Po określeniu lokalizacji na mapie, wybierz miejsce docelowe. Możesz użyć je
 * naciśnij przycisk zakładek
 * naciśnij (przytrzymaj w pustych obszarach) dowolne miejsce na mapie
 
-Po wybraniu punktu docelowego naciśnij przycisk „Trasa do” na stronie miejsca. Trasa będzie utworzona i zobaczysz odległość i szacowany czas podróży. Możesz zmienić typ trasy używając ikon Samochodu, Pieszego, Metro, Rower lub Władca w górnej części ekranu. Aby zacząć śledzić trasę naciśnij przycisk „Start”. Naciśnij znak strzałki w prawym dolnym rogu ekranu i dotknij Zatrzymaj, aby zakończyć trasę.
+Po wybraniu punktu docelowego naciśnij przycisk „Trasa do” na stronie miejsca. Trasa będzie utworzona i zobaczysz odległość i szacowany czas podróży. Możesz zmienić typ trasy używając ikon Samochodu, Pieszego, Metro, Rower lub Władca w górnej części ekranu. Tryb transportu publicznego pokazuje podgląd trasy. Aby rozpocząć nawigację samochodem, pieszo lub rowerem, naciśnij przycisk „Start”. Naciśnij znak strzałki w prawym dolnym rogu ekranu i dotknij Zatrzymaj, aby zakończyć trasę.
 
 Możesz wybrać inny punkt początkowy (przycisk Trasa od), aby wyświetlić podgląd trasy, ale nawigacja jest tylko dostępna od Twojej bieżącej lokalizacji.
 

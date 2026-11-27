@@ -23,7 +23,7 @@ Bank address:   | Rue du Trône 100, 3rd floor, Brussels, 1050, Belgium
 |---|---|
 Receiving fee:  | $4.14
 Bank Address:   | 30 W. 26th Street, Sixth Floor, New York NY 10010, United States
-AHC/Wire Routing number: | 026073150
+ACH/Wire Routing number: | 026073150
 Account number: | 8312564881
 Account type:   | Checking
 SWIFT/BIC:      | CMFGUS33

@@ -138,7 +138,7 @@ Beheko babesle instituzional maiteek diru-laguntza zehatzak eman dituzte azpiegi
   </tr>
 </table>
 
-## Komunitatea
+## Komunitatea <span id="community"></span>
 
 Organic Maps [open-source software][github] da, Apache License 2.0 lizentziapean.
 

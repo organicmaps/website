@@ -2,7 +2,7 @@
 title: Saya tidak dapat mendengar instruksi suara
 slug: saya-tidak-dapat-mendengar-instruksi-suara
 description: Panduan pemecahan masalah untuk instruksi suara dalam navigasi
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /id/faq/voice/cant-hear-instructions/
 ---
 
-**Catatan:** instruksi suara tersedia untuk rute mobil dan bersepeda. Untuk saat ini, kamu hanya dapat mendengar instruksi suara saat mengemudi dan saat layar menyala.
+Panduan suara tersedia untuk rute berkendara, berjalan kaki, dan bersepeda. Panduan ini bisa tetap terdengar saat layar mati jika ponsel mengizinkan akses lokasi dan pemutaran audio di latar belakang.
 
 Jika kamu tidak dapat mendengar instruksi suara:
 
@@ -22,8 +22,4 @@ Jika kamu tidak dapat mendengar instruksi suara:
 
 * Jika kamu pengguna Android dan opsi ini dinonaktifkan (atau beberapa bahasa yang didukung tidak tersedia), silakan periksa [Pengaturan TTS](@/faq/voice/text-to-speech-android-tts/index.id.md).
 
-Di Android, instruksi suara tersedia dalam 39 bahasa: Inggris, Arab, Basque, Belarusia, Catalan, China (Sederhana dan Tradisional), Kroasia, Ceko, Denmark, Belanda, Finlandia, Prancis, Jerman, Yunani, Hindi, Hungaria, Indonesia, Italia, Jepang, Korea, Marathi, Norwegia, Persia (Farsi), Polandia, Portugis, Portugis (Brasil), Rumania, Rusia, Serbia, Slovakia, Spanyol, Spanyol (Meksiko), Swahili, Swedia, Thai, Turki, Ukraina, Vietnam.
-
-Google TTS mendukung semua bahasa yang terdaftar kecuali Arab dan Persia (Farsi). Untuk bahasa ini kamu mungkin perlu menginstal TTS pihak ketiga (misalnya, eSpeak TTS, Vocalizer TTS atau SVOX Classic TTS) dan paket bahasa dari app store (Google Play Store, Galaxy Store, dll).
-
-Di iOS, instruksi suara tersedia dalam 26 bahasa: Inggris, Arab, China (Tradisional dan Sederhana), Ceko, Denmark, Belanda, Finlandia, Prancis, Jerman, Yunani, Hindi, Hongaria, Indonesia, Italia, Jepang, Korea, Polandia, Portugis, Rumania, Rusia, Slovakia, Spanyol, Swedia, Thailand, Turki.
+Lihat pilihan suara di pengaturan panduan suara aplikasi. Jika bahasamu belum tersedia, pasang suara untuk bahasa tersebut melalui pengaturan ucapan di ponsel.

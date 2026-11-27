@@ -3,6 +3,7 @@ title: Como criar uma rota e iniciar a navegação
 slug: como-criar-uma-rota-e-iniciar-a-navegação
 description: "Guia para criar uma rota e navegar usando o mapa"
 
+updated: "2026-11-27"
 taxonomies:
   faq: ["mapa"]
 
@@ -18,7 +19,7 @@ Depois que sua localização for determinada no mapa, escolha seu destino. Você
 * toque no botão de favoritos
 * toque (toque e segure para áreas vazias) em qualquer lugar no mapa
 
-Depois de escolher o ponto de destino, pressione o botão “Itinerário para” na parte inferior da tela. A rota será criada e você verá a distância e o tempo estimado de viagem. Você pode alterar o tipo de rota pressionando o ícone Carro, Pedestre, Metrô, Bicicleta ou Régua na parte superior da tela. Para começar a seguir o percurso, toque no botão “Iniciar”. Pressione o sinal de seta no canto inferior direito da tela e toque em “Parar” para finalizar a rota.
+Depois de escolher o ponto de destino, pressione o botão “Itinerário para” na parte inferior da tela. A rota será criada e você verá a distância e o tempo estimado de viagem. Você pode alterar o tipo de rota pressionando o ícone Carro, Pedestre, Metrô, Bicicleta ou Régua na parte superior da tela. O modo de transporte público mostra uma prévia do itinerário. Para iniciar a navegação de carro, a pé ou de bicicleta, toque no botão “Início”. Pressione o sinal de seta no canto inferior direito da tela e toque em “Parar” para finalizar a rota.
 
 Você pode escolher um ponto de partida diferente (botão “De”) para visualizar uma rota, mas a navegação só está disponível na sua localização atual.
 

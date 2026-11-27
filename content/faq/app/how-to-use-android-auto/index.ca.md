@@ -2,7 +2,7 @@
 title: Com utilitzar Android Auto?
 slug: com-utilitzar-android-auto
 description: Requisits mínims per executar Organic Maps amb Android Auto
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,6 +12,6 @@ aliases:
   - /ca/faq/app/how-to-use-android-auto/
 ---
 
-Per utilitzar OM amb Android Auto, necessites almenys una versió d'Android 8.0 (Oreo) o posterior. A més, cal que baixis Organic Maps de Google Play Store, ja que Google només permet aplicacions aprovades per Google a Android Auto.
+Per connectar-te a Android Auto amb un cable, necessites Android 11 o una versió posterior. Instal·la Organic Maps des de Google Play, perquè Android Auto només mostra les aplicacions de navegació instal·lades des d’una font de confiança.
 
-Consulta el [lloc web d'Android Auto](https://www.android.com/auto/) per obtenir més informació.
+Consulta el [lloc web d'Android Auto](https://support.google.com/androidauto/answer/6348019) per obtenir més informació.

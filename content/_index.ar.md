@@ -138,7 +138,7 @@ Organic Maps لا يطلب أذونات مفرطة للتجسس عليك:
   </tr>
 </table>
 
-## المجتمع
+## المجتمع <span id="community"></span>
 
 Organic Maps هو [برنامج مفتوح المصدر][github] مرخّص تحت ترخيص Apache 2.0.
 

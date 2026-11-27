@@ -2,7 +2,7 @@
 title: Neslyším hlasové pokyny
 slug: neslyším-hlasové-pokyny
 description: Průvodce odstraňováním problémů pro hlasové pokyny v navigaci
-updated: '2024-07-22'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - voice-directions
@@ -12,7 +12,7 @@ aliases:
   - /cs/faq/voice/cant-hear-instructions/
 ---
 
-**Poznámka:** Hlasové pokyny jsou k dispozici pro automobilové a cyklistické trasy. Hlasové pokyny zatím uslyšíte pouze za jízdy a při zapnuté obrazovce.
+Hlasové pokyny jsou k dispozici při jízdě autem, chůzi i jízdě na kole. Fungují také při vypnuté obrazovce, pokud telefon povoluje přístup k poloze a přehrávání zvuku na pozadí.
 
 Pokud neslyšíte hlasové pokyny:
 
@@ -22,8 +22,4 @@ Pokud neslyšíte hlasové pokyny:
 
 * Pokud jste uživatelem systému Android a tato možnost je zakázána (nebo některé z podporovaných jazyků nejsou k dispozici), zkontrolujte [nastavení TTS](@/faq/voice/text-to-speech-android-tts/index.cs.md).
 
-V systému Android jsou hlasové pokyny k dispozici ve 39 jazycích: angličtina, arabština, baskičtina, běloruština, katalánština, čínština (zjednodušená a tradiční), chorvatština, čeština, dánština, holandština, finština, francouzština, němčina, řečtina, hindština, maďarština, indonéština, italština, japonština, korejština, maráthština, norština, perština (farsí), polština, portugalština, portugalština, ruština, ruština, španělština, rumunština, portugalština, ruština, ruština, španělština, rumunština svahilština, švédština, thajština, turečtina, ukrajinština, vietnamština.
-
-Google TTS podporuje všechny uvedené jazyky kromě arabštiny a perštiny (farsí). Pro tyto jazyky možná budete muset nainstalovat TTS třetích stran (například eSpeak TTS, Vocalizer TTS nebo SVOX Classic TTS) a jazykový balíček z obchodu s aplikacemi (Google Play Store, Galaxy Store atd.).
-
-Na iOS jsou hlasové pokyny k dispozici ve 26 jazycích: angličtina, arabština, čínština (tradiční a zjednodušená), čeština, dánština, holandština, finština, francouzština, němčina, řečtina, hindština, maďarština, indonéština, italština, japonština, korejština, polština, portugalština, rumunština, ruština, slovenština, španělština, švédština, thajština, turečtina.
+Dostupné hlasy najdete v nastavení hlasových pokynů v aplikaci. Pokud váš jazyk chybí, nainstalujte pro něj hlas v nastavení řeči telefonu.

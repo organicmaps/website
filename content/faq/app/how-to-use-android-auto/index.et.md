@@ -2,7 +2,7 @@
 title: Kuidas Android Autot kasutada?
 slug: kuidas-android-autot-kasutada
 description: Miinimumnõuded Organic Mapsi käitamiseks Android Autoga
-updated: '2024-06-20'
+updated: '2026-11-27'
 taxonomies:
   faq:
   - app
@@ -12,6 +12,6 @@ aliases:
   - /et/faq/app/how-to-use-android-auto/
 ---
 
-OM-i kasutamiseks koos Android Autoga on sul vaja vähemalt Androidi versiooni 8.0 (Oreo) või uuemat. Lisaks pead Google Play poest alla laadima Organic Mapsi, kuna Google lubab Android Autos ainult Google'i heakskiidetud rakendusi.
+Android Auto kasutamiseks kaabliga on sul vaja Android 11 või uuemat versiooni. Paigalda Organic Maps Google Playst, sest Android Auto kuvab ainult usaldusväärsest allikast paigaldatud navigeerimisrakendusi.
 
-Lisateabe saamiseks vaata [Android Auto veebisaiti](https://www.android.com/auto/).
+Lisateabe saamiseks vaata [Android Auto veebisaiti](https://support.google.com/androidauto/answer/6348019).

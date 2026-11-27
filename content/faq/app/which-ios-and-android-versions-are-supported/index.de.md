@@ -2,7 +2,7 @@
 title: Welche iOS- und Android-Versionen werden unterstützt?
 slug: welche-ios-und-android-versionen-werden-unterstützt
 description: Mindestanforderungen um Organic Maps auf Android- und iOS-Geräten zu benutzen
-updated: "2025-12-31"
+updated: "2026-11-27"
 taxonomies:
   faq: ["app"]
 extra:
@@ -11,10 +11,10 @@ aliases:
   - /de/faq/app/which-ios-and-android-versions-are-supported/
 ---
 
-Es wird mindestens iOS 12 oder Android 5 benötigt um die App zu nutzen. Geräte mit neueren Versionen können Organic Maps benutzen.
+Es wird mindestens iOS 15 oder Android 5 benötigt um die App zu nutzen. Geräte mit neueren Versionen können Organic Maps benutzen.
 
 Bei Android funktioniert Organic Maps auf Geräten mit Google Services und auch ohne Google-Unterstützung.
 
 Android-Geräte müssen OpenGL ES 3.0 oder höher oder die Vulkan-API unterstützen, damit sie funktionieren.
 
-Um Oragnic Maps mit Android Auto zu nutzen, überprüfe bitte die Anforderungen [hier](../how-to-use-android-auto/).
+Um Organic Maps mit Android Auto zu nutzen, überprüfe bitte die Anforderungen [hier](../how-to-use-android-auto/).

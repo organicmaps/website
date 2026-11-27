@@ -230,11 +230,19 @@ footer {
   margin: 0;
 }
 
-#crypto-table + table {
-  font-size: smaller;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+#crypto-copy-status:not(:empty) {
+  position: fixed;
+  z-index: 1000;
+  inset-block-start: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90vw;
+  padding: .4rem .8rem;
+  border-radius: .5rem;
+  background: #fff;
+  color: #232323;
+  box-shadow: 0 3px 10px #0003;
+  overflow-wrap: anywhere;
 }
 
 .tts-table {

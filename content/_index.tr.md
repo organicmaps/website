@@ -137,7 +137,7 @@ Aşağıdaki değerli kurumsal sponsorlar, bazı altyapı maliyetlerini karşıl
   </tr>
 </table>
 
-## Topluluk
+## Topluluk <span id="community"></span>
 
 Organic Maps, Apache License 2.0 altında lisanslanmış bir [açık kaynaklı yazılımdır][github].
 

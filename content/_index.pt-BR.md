@@ -138,7 +138,7 @@ Os patrocinadores institucionais abaixo forneceram subsídios direcionados para 
   </tr>
 </table>
 
-## Comunidade
+## Comunidade <span id="community"></span>
 
 Organic Maps é um [software de código aberto][github] licenciado sob a Licença Apache 2.0.
 

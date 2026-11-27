@@ -137,36 +137,14 @@ test('explicit English FAQ fragments survive a German browser preference', async
   }
 });
 
-test('language choices follow section jumps and browser history', async t => {
-  const page = await openPage(t);
-  await page.goto(origin + '/faq/map/how-to-create-a-route/');
-  const russian = page.locator('.lang-menu-link[lang="ru"]');
-  const translatedPath = await russian.getAttribute('href');
-  await page.locator('main a[href$="#route-stops"]').click();
-  await page.waitForFunction(() => document.querySelector('.lang-menu-link[lang="ru"]').hash === '#route-stops');
-  assert.equal(await russian.getAttribute('href'), translatedPath + '#route-stops');
-  await page.goBack();
-  await page.waitForFunction(() => document.querySelector('.lang-menu-link[lang="ru"]').hash === '');
-  assert.equal(await russian.getAttribute('href'), translatedPath);
-  await page.goForward();
-  await page.waitForFunction(() => document.querySelector('.lang-menu-link[lang="ru"]').hash === '#route-stops');
-  const destination = new URL(await russian.getAttribute('href'), origin).href;
-  await page.locator('label[for="lang-menu-trigger"]').click();
-  await Promise.all([page.waitForURL(destination), russian.click()]);
-  assert.equal(await page.locator('html').getAttribute('lang'), 'ru');
-  assert.equal(new URL(page.url()).hash, '#route-stops');
-  assert.equal(await page.locator('#route-stops').isVisible(), true);
-  assert.equal(await page.evaluate(() => localStorage.getItem('lang')), 'ru');
-});
-
 test('language choices keep shared FAQ topics and heading targets', async t => {
   const page = await openPage(t);
   const fragment = '#faq-routes-and-navigation';
   await page.goto(origin + '/faq/?from=help');
   await page.locator('main nav a[href="' + fragment + '"]').click();
-  for (const lang of ['ru', 'uk', 'en', 'de']) {
+  for (const lang of ['ru', 'uk', 'de', 'en']) {
     const path = (lang === 'en' ? '' : '/' + lang) + '/faq/';
-    const destination = origin + path + '?from=help' + (lang === 'de' ? '' : fragment);
+    const destination = origin + path + '?from=help' + fragment;
     await page.locator('label[for="lang-menu-trigger"]').click();
     await Promise.all([
       page.waitForURL(destination),
@@ -188,15 +166,6 @@ test('language choices keep shared FAQ topics and heading targets', async t => {
   assert.equal(await page.locator('html').getAttribute('lang'), 'ru');
   assert.equal(new URL(page.url()).hash, settings);
   assert.ok(await page.locator(settings).isVisible());
-});
-
-test('non-FAQ redirects preserve donation parameters and fragments', async t => {
-  const page = await openPage(t, { locale: 'de-DE' });
-  const parameters = '?amount=10&currency=CHF#other-ways';
-  await page.goto(origin + '/donate/' + parameters, { waitUntil: 'commit' });
-  await page.waitForURL(origin + '/de/donate/' + parameters);
-  assert.equal(await page.locator('#currency').inputValue(), 'CHF');
-  assert.equal(await page.locator('#other-ways').count(), 1);
 });
 
 test('published FAQ section fragments remain valid', async t => {

@@ -523,7 +523,7 @@ class NavigationTests(unittest.TestCase):
         write(root, "static/main.css", "")
         write(root, "content/faq/_index.md",
               '---\nrender: false\ntitle: Answers\nextra:\n  menu_title: Support\n'
-              '  start_here: ["faq/app/route/index.md"]\n---\n')
+              '  start_here: true\n  start_here_pages: ["faq/app/route/index.md"]\n---\n')
         write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n---\n')
         write(root, "content/faq/app/route/index.md",
               f'---\ntitle: {json.dumps(answer_title)}\ntaxonomies:\n  faq: ["app"]\n'
@@ -570,7 +570,7 @@ class NavigationTests(unittest.TestCase):
             article = root / "content/faq/app/route/index.md"
             article.write_text(article.read_text().replace("Plan a route", "Plan your journey"))
             write(root, "content/faq/_index.de.md", '---\nrender: false\ntitle: Hilfe\n'
-                  'extra:\n  start_here: ["faq/app/route/index.md"]\n---\n')
+                  'extra:\n  start_here: true\n---\n')
             self.build(root)
             landing = (root / "public/faq/index.html").read_text()
             start_here = re.search(r"<h2>Start here</h2>(.*?)</ul>", landing, re.S).group(1)
@@ -656,7 +656,7 @@ class NavigationTests(unittest.TestCase):
                           f'---\ntitle: {label} setup\ntaxonomies:\n  faq: ["{topic}"]\n'
                           'extra:\n  order: 10\n---\n\nConnect a compatible car.\n')
             self.build(root)
-            for prefix, section in (("", "Help"), ("de/", "Hilfe")):
+            for prefix, section in (("", "Support"), ("de/", "Hilfe")):
                 landing = (root / "public" / prefix / "faq/index.html").read_text()
                 for topic, (answer, label) in topics.items():
                     with self.subTest(language=prefix, topic=topic):

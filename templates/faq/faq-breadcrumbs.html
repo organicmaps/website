@@ -1,5 +1,5 @@
 {# Complete FAQ indexes provide topic shortcuts, so answers can show a compact trail. #}
-{% set compact = lang == config.default_language or faq_section.extra.start_here %}
+{% set compact = faq_section.extra.start_here %}
 <nav class="faq-breadcrumbs" aria-label="{{ faq_section.title }}">
     <a href="{{ faq_root.permalink | replace(from=config.base_url, to="") | safe }}" class="faq-title">{{ faq_label }}</a>
     {% for topic in faq_topics %}

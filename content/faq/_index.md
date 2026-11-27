@@ -4,7 +4,8 @@ title: Organic Maps FAQ
 description: Get help with Organic Maps offline maps, navigation, GPS, bookmarks and tracks. Find setup instructions, troubleshooting steps and answers about the app.
 extra:
   menu_title: Help
-  start_here:
+  start_here: true
+  start_here_pages:
     - faq/app/offline-maps/index.md
     - faq/bookmarks/how-to-export/index.md
     - faq/bookmarks/how-to-import/index.md

@@ -1,6 +1,6 @@
 {%- set is_faq = (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") -%}
-{% if is_faq %}
-{% set faq_root = get_taxonomy(kind="faq", lang=lang) %}
+{%- if is_faq -%}
+{%- set faq_root = get_taxonomy(kind="faq", lang=lang) -%}
 {%- set terms = [
   ...[t for t in faq_root.items if t.name not in config.extra.faq_last_categories],
   ...[t for t in faq_root.items if t.name in config.extra.faq_last_categories]
@@ -13,20 +13,20 @@
   }
   for t in terms
 ] -%}
-{% set faq_section = get_section(path="faq/_index.md", lang=lang) %}
-{% set faq_label = faq_section.title %}
-{% if lang == config.default_language %}
-  {% set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) %}
-{% endif %}
-{% if page %}
-  {% set current_category = page.taxonomies.faq[0] %}
-{% elif term %}
-  {% set current_category = term.name %}
-{% endif %}
-{% if page or term %}
-  {% set current_topic = [topic for topic in faq_topics if topic.term.name == current_category] | first %}
-{% endif %}
-{% endif %}
+{%- set faq_section = get_section(path="faq/_index.md", lang=lang) -%}
+{%- set faq_label = faq_section.title -%}
+{%- if faq_section.extra.start_here -%}
+  {%- set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) -%}
+{%- endif -%}
+{%- if page -%}
+  {%- set current_category = page.taxonomies.faq[0] -%}
+{%- elif term -%}
+  {%- set current_category = term.name -%}
+{%- endif -%}
+{%- if page or term -%}
+  {%- set current_topic = [topic for topic in faq_topics if topic.term.name == current_category] | first -%}
+{%- endif -%}
+{%- endif -%}
 {%- if page %}
 {%- set resource = page %}
 {%- set resource_title = resource.title %}
@@ -79,7 +79,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if taxonomy.name == "faq" -%}
-    {%- set section_label = trans(key="faq-menu-title", lang=lang) -%}
+    {%- set section_label = faq_label if faq_section.extra.start_here else trans(key="faq-menu-title", lang=lang) -%}
     {%- if use_term_name -%}
       {%- set term_description = trans(key="faq-term-description", lang=lang) | replace(from="{}", to=term_name) -%}
     {%- endif -%}
@@ -114,7 +114,6 @@
   {%- set archive_label = brand ~ " " ~ news.extra.menu_title -%}
   {%- set page_title = archive_label ~ " · " ~ archive_date -%}
 {%- endif -%}
-
 
 <!DOCTYPE html>
 <html lang="{{ lang }}" {%- if lang in config.extra.rtl_languages -%} dir="rtl" {%- endif -%}>

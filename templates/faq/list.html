@@ -2,8 +2,7 @@
 
 {% block content %}
   <h1>{{ resource.title }}</h1>
-  {% set start_here = faq_section.extra.start_here %}
-  {% if start_here %}
+  {% if faq_section.extra.start_here %}
   {% if lang != config.default_language %}
     {% set default_faq = get_taxonomy(kind="faq", lang=config.default_language) %}
     {% set expected = ["faq-" ~ t.slug for t in default_faq.items] | sort %}
@@ -14,7 +13,8 @@
   {% endif %}
   <h2>{{ trans(key="faq-start-here", lang=lang) }}</h2>
   <ul>
-    {% for source in start_here %}
+    {% set default_section = get_section(path="faq/_index.md", lang=config.default_language) %}
+    {% for source in default_section.extra.start_here_pages %}
     {% set start_page = get_page(path=source, lang=lang) %}
     <li><a href="{{ start_page.path | safe }}">{{ start_page.title }}</a></li>
     {% endfor %}
@@ -28,7 +28,7 @@
   </nav>
   {% endif %}
   {%- for topic in faq_topics -%}
-  <h2{% if start_here %} id="{{ topic.id }}"{% endif %}><a href="{{ topic.term.path | safe }}">{{ topic.title }}</a></h2>
+  <h2{% if faq_section.extra.start_here %} id="{{ topic.id }}"{% endif %}><a href="{{ topic.term.path | safe }}">{{ topic.title }}</a></h2>
   <ul>
     {%- for faq_page in topic.term.pages | sort(attribute="extra.order") -%}
       <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a>

@@ -10,7 +10,7 @@ extra:
   order: 30
 ---
 
-Organic Maps는 [OpenStreetMap](https://www.openstreetmap.org/)(OSM) 데이터를 사용합니다. 위키백과와 비슷하게, 누구나 세계 지도를 만들고 편집할 수 있는 프로젝트입니다.
+Organic Maps는 [OpenStreetMap](https://www.openstreetmap.org/)(OSM) 데이터를 사용합니다. OSM은 위키백과처럼 누구나 세계 지도를 만들고 편집할 수 있는 프로젝트입니다.
 
 잘못되거나 누락된 정보를 발견하면 OSM 자원봉사자에게 [메모를 남기거나](https://www.openstreetmap.org/note/new) [계정을 만들어](https://www.openstreetmap.org/user/new) 직접 수정할 수 있습니다.
 

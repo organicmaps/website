@@ -24,7 +24,7 @@ iOS와 Android 모두에서 여러 오류를 수정하고 기능을 개선했습
 - 주소 상세 정보에 우편번호 표시 (Viktor Govako)
 - 지도의 중앙이 현재 위치에 맞춰지지 않던 문제 수정 (Kiryl Kaveryn, Viktor Govako)
 - GPX를 내보내거나 가져올 때 북마크 색상 유지 (cyber-toad)
-- 번역 업데이트 (Weblate contributors)
+- 번역 업데이트 (Weblate 기여자)
 
 #### 지도 스타일 (Viktor Govako)
 

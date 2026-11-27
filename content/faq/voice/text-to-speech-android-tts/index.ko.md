@@ -15,7 +15,7 @@ extra:
 
 Organic Maps는 음성 안내에 시스템의 텍스트 음성 변환(TTS) 엔진을 사용합니다. 기본 엔진은 기기마다 다릅니다. Google 텍스트 음성 변환, 기기 제조사의 엔진 또는 서드파티 엔진을 사용할 수 있습니다.
 
-Organic Maps에서 공식적으로 권장하는 엔진은 무료 오픈소스 음성 엔진 [RHVoice](https://rhvoice.org/)입니다. [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) 또는 [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/)에서 다운로드할 수 있습니다.
+사용하려는 언어를 지원한다면 Organic Maps에서 권장하는 무료 오픈소스 음성 엔진 [RHVoice](https://rhvoice.org/)를 사용할 수 있습니다. [Google Play](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android) 또는 [F-Droid](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/)에서 다운로드할 수 있습니다. 한국어 음성 안내에는 Google TTS 등 아래 표에서 한국어를 지원하는 엔진을 선택하세요.
 
 ## 설정 방법
 

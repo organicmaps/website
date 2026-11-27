@@ -23,8 +23,8 @@ Organic Maps는 [OpenStreetMap(OSM)](https://wiki.openstreetmap.org/wiki/About_O
      - *장소 편집*을 누르세요.
      - 세부 정보를 추가하세요.
      - 체크 표시를 눌러 수정 사항을 저장하고 편집을 마치세요.
-   - 지도에 장소 추가
-     - 메뉴 아이콘을 누른 후 *OpenStreetMap에 장소 추가*를 선택하세요.
+   - OpenStreetMap에 장소 추가
+     - 메뉴 아이콘을 누른 후 *오픈스트리트맵에 장소 추가*를 선택하세요.
      - 위치를 최대한 정확하게 지정하고 체크 표시를 누르세요.
      - 카테고리를 선택하세요.
        > 알맞은 카테고리가 없다면 [OSM 메모](@/faq/editing/advanced-map-editing/index.ko.md#osm-note)를 남기세요.

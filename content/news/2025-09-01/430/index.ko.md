@@ -24,7 +24,7 @@ taxonomies:
 - 다크 모드에서 갈색 관광 명소 아이콘이 보이도록 개선 (David Martinez)
 - 확대 수준 16부터 도서관 표시 (David Martinez)
 - 경유지를 추가할 때 전체 경로가 보이도록 자동으로 지도 배율을 바꾸던 동작 제거 (Alexander Borsuk)
-- 번역 업데이트 (Weblate contributors)
+- 번역 업데이트 (Weblate 기여자)
 
 #### iOS
 

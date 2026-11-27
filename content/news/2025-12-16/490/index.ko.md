@@ -17,7 +17,7 @@ Organic Maps 팀에서 즐거운 성탄절과 새해 인사를 전합니다. 연
 - 세계 지도에서 국립공원 경계와 이름을 덜 두드러지게 표시 (Viktor Govako)
 - 리투아니아어 검색이 올바르게 작동하도록 수정 (Alexander Borsuk)
 - 우크라이나어 번역 개선 (Nnifria)
-- 독일어, 헝가리어, 리투아니아어, 스페인어, 튀르키예어 번역 개선 (Weblate contributors, Viktor Govako)
+- 독일어, 헝가리어, 리투아니아어, 스페인어, 튀르키예어 번역 개선 (Weblate 기여자, Viktor Govako)
 - 크로아티아어 회전교차로 음성 안내(TTS) 수정 (@chupocro, Alexander Borsuk)
 
 ### iOS

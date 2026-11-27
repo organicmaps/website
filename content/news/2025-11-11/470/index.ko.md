@@ -52,7 +52,7 @@ Chromebook을 포함해 OpenGL ES 3을 지원하는 x86 기기에서 Organic Map
 - 기본 스페인어(es)와 포르투갈어(pt)에 더해 멕시코 스페인어(es-MX) 및 브라질 포르투갈어(pt-BR) 전용 번역 추가 (Alexander Borsuk)
 - 체코어 TTS 음성 안내 수정 (jxsv)
 - 에스토니아어(et), 갈리시아어(gl), 히브리어(he), 리투아니아어(lt) TTS 음성 안내 활성화 (Sergiy Kozyr)
-- 번역 업데이트 (Sergiy Kozyr, Weblate contributors)
+- 번역 업데이트 (Sergiy Kozyr, Weblate 기여자)
 
 ### 데스크톱
 

@@ -17,7 +17,7 @@ Organic Maps의 10월 7일 업데이트에서는 Android Auto 제한 속도 표�
 - 10월 1일 기준 위키백과 데이터
 - 대중교통에 시애틀 경전철 지원 (tjasz)
 - 편집한 OSM 장소를 저장해도 지도에서 해당 장소의 선택 상태를 유지 (Kiryl Kaveryn)
-- 번역 업데이트 (Weblate contributors)
+- 번역 업데이트 (Weblate 기여자)
 
 #### 지도 스타일
 

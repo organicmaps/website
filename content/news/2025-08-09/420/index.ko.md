@@ -55,7 +55,7 @@ Organic Maps 8월 업데이트를 설치하고 최신 지도를 다운로드해 
 - ‘cop’을 검색하면 경찰서가, ‘film’이나 ‘movie theater’를 검색하면 영화관이 표시됨 (theadventurer62)
 - 다른 앱에서 열기를 선택하면 Google Maps에 선택한 지점 표시 (Alexander Borsuk)
 - 더 많은 검색 카테고리에 스페인어 번역 추가 (David Martinez)
-- 여러 번역 업데이트 (Weblate contributors)
+- 여러 번역 업데이트 (Weblate 기여자)
 
 [App Store][appstore], [Google Play][googleplay], [Huawei AppGallery][appgallery], [Obtainium][obtainium], [Accrescent][accrescent], [F-Droid][fdroid]에서 Organic Maps를 다운로드하세요.
 

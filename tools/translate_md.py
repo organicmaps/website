@@ -53,7 +53,7 @@ FORMALITY_SUPPORTED = {"DE", "ES", "FR", "IT", "NL", "PL", "PT-PT", "PT-BR",
 # Polite address is the website convention for these languages. The proofreading
 # prompt uses the examples even for languages without automatic register markers.
 POLITE_ADDRESS = {
-    "be": "вы", "cs": "vy", "fa-IR": "شما", "hi": "आप", "lt": "jūs",
+    "be": "вы", "cs": "vy", "fa-IR": "شما", "hi": "आप", "ko": "존댓말", "lt": "jūs",
     "ml": "നിങ്ങൾ", "mr": "तुम्ही", "ru": "вы", "te": "మీరు", "uk": "ви",
 }
 

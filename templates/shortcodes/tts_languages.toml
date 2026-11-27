@@ -1,6 +1,15 @@
-# Rows follow English alphabetical order. An engine with one voice per language
-# appears on the primary row. Regional rows list engines with distinct voices.
-# eSpeak entries require an Android-selectable voice that can read ordinary map labels.
+# Keep rows in English alphabetical order. Add a translated name as a key such as de = "Deutsch".
+# Engines follow the English (US) row order. RuVoice TTS leads where available.
+# AhoTTS, Hebrew TTS and neurokone_app follow the shared engines, before Supertonic and Offline Translator.
+# For one voice per language, use English (US), Spanish (ES), Portuguese (PT), French (FR),
+# Dutch (NL) and Mandarin (CN). List distinct regional voices on each supported row.
+#
+# eSpeak must be selectable on Android and able to pronounce ordinary OpenStreetMap names.
+# Arabic requires diacritics, Japanese requires kana, and Cherokee requires an annotated pronunciation
+# dictionary. The Hebrew rules need vowel points to reliably pronounce unfamiliar names.
+# Omit accent variants Android does not expose (en-029, en-gb-x-*, fr-ch, ru-lv, vi-vn-x-*, fa-latn, hyw)
+# and fictional, historical and constructed voices, with Esperanto and Lojban as exceptions.
+# A confirmed upcoming voice may precede the engine catalog. Offline Translator added Belarusian TTS in v0.8.4.
 rows = [
   { en = "Afrikaans", engines = "eSpeak" },
   { en = "Albanian", engines = "RHVoice, eSpeak, Offline Translator" },

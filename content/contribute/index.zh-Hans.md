@@ -22,6 +22,7 @@ Organic Maps是一个免费的、开源的应用程序，没有广告，不收�
 - 在[GitHub][issues]、[Telegram][telegram_chat_zh]、[Matrix][matrix]、[Twitter][twitter]、[Facebook][facebook]、[Instagram][instagram]支持其他用户。
 - 传播Organic Maps，助力社区更大更强。
 - 在[Google Play][googleplay_review]、[Apple Store][appstore_review]、[Huawei Appgallery][appgallery_review]为我们评分。
+- 订阅 {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton 的付费服务{% </sponsored_link> %}，帮助我们开发 Organic Maps 和维护服务器。Proton 同样重视你的隐私，并会将你支付的部分订阅费用用于支持这个项目。
 - 欢迎各种帮助！
 
 我们的小团队非常感谢你的反馈和支持。离开用户❤️，Organic Maps无法存在。

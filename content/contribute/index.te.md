@@ -22,6 +22,7 @@ Organic Maps ఉచిత, ఓపెన్-సోర్స్ యాప్. ఇ�
 - [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram]లో ఇతర వినియోగదారులకు మద్దతు ఇవ్వండి.
 - Organic Maps గురించి అందరికీ చెప్పండి. పెద్ద కమ్యూనిటీ బలమైన కమ్యూనిటీ.
 - [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review]లో మాకు రేటింగ్ ఇవ్వండి.
+- Organic Maps అభివృద్ధికి, మా సర్వర్ల నిర్వహణకు తోడ్పడేందుకు {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton చందా{% </sponsored_link> %} తీసుకోండి. Proton కూడా మీ గోప్యతకు విలువనిస్తుంది. మీరు చెల్లించే మొత్తంలో కొంత భాగాన్ని ఈ ప్రాజెక్టుకు అందిస్తుంది.
 - ఏదైనా సహాయం స్వాగతం!
 
 మా చిన్న బృందం మీ అభిప్రాయం మరియు మద్దతుకు చాలా కృతజ్ఞతతో ఉంది. మా వినియోగదారులు లేకుండా Organic Maps సాధ్యం కాదు ❤️.

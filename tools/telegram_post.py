@@ -28,7 +28,7 @@ from pathlib import Path
 import requests
 
 from markdown_frontmatter import strip_frontmatter
-from markdown_xml import find_balanced_close
+from markdown_xml import SPONSORED_LINK_RE, SPONSORED_URL_RE, find_balanced_close
 
 BASE_URL = "https://api.telegram.org/bot{token}"
 
@@ -48,7 +48,9 @@ _TERA_BLOCK_RE = re.compile(r"\{\{.*?\}\}", re.DOTALL)
 
 
 def strip_tera_blocks(text: str) -> str:
-    """Remove Tera expressions and component calls before Telegram rendering."""
+    """Convert sponsored links to Markdown and strip site-only components."""
+    text = SPONSORED_LINK_RE.sub(lambda m: f"[{m['label']}]({m['url']})", text)
+    text = SPONSORED_URL_RE.sub(lambda m: m["url"], text)
     return _TERA_BLOCK_RE.sub("", text)
 
 
@@ -1130,7 +1132,6 @@ def main():
     if title:
         text = f"**{title}**\n\n{text.lstrip()}"
 
-    # Tera expressions and components are site-only and do not belong in posts.
     text = strip_tera_blocks(text)
 
     # Strip angle brackets from bare URLs: <https://...> → https://...

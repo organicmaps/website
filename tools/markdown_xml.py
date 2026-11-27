@@ -21,14 +21,13 @@ Two kinds of tag come out:
                 delimiters and link targets survive even when the translator
                 reorders them (Turkish and Chinese both do).
 
-The module is deliberately free of any DeepL, Telegram or Zola knowledge so the
-same mapping serves Telegram posts, site articles and release notes alike.
+The same mapping serves Telegram posts, site articles and release notes.
 """
 
 import re
 
 __all__ = ["to_xml", "from_xml", "Context", "xml_escape", "xml_unescape",
-           "find_balanced_close", "PROTECTED_BRANDS"]
+           "find_balanced_close", "PROTECTED_BRANDS", "SPONSORED_LINK_RE", "SPONSORED_URL_RE"]
 
 # Brand and product names that must stay verbatim in every language. DeepL
 # transliterates these into non-Latin scripts otherwise.
@@ -113,6 +112,12 @@ _LINKDEF_RE = re.compile(
     r"(?:[ \t]+[\"(](?:\{\{[^}]*\}\}|[^\"())])*[\")])?[ \t]*$"
 )
 _ATTRIB_RE = re.compile(r"_\([^)\n]+\)_")
+# The block form exposes a translatable label. The short form displays the URL.
+_SPONSORED_LINK = r"""<sponsored_link\s+url\s*=\s*(?P<quote>["'])(?P<url>[^\s<>]+?)(?P=quote)\s*"""
+SPONSORED_LINK_RE = re.compile(
+    r"{%\s*" + _SPONSORED_LINK + r">\s*%}(?P<label>.*?){%\s*</sponsored_link>\s*%}", re.DOTALL
+)
+SPONSORED_URL_RE = re.compile(r"\{\{\s*" + _SPONSORED_LINK + r"/>\s*}}")
 _BARE_URL_RE = re.compile(r"https?://[^\s<>\[\]()]+")
 _MARKER_RE = re.compile(r"(?m)^([ \t]*)(?:([-*+])[ \t]+|(#{1,6})[ \t]+|(\d+\.)[ \t]+)")
 _ESCAPE_RE = re.compile(r"\\.")
@@ -235,6 +240,15 @@ def _convert(s: str, ctx: Context, protect_brands: bool) -> str:
         # Backslash escape — copy both characters verbatim.
         if c == "\\" and i + 1 < n:
             i += 2
+            continue
+
+        if s.startswith("{%", i) and (link := SPONSORED_LINK_RE.match(s, i)):
+            emit_plain(i)
+            start, stop = link.span("label")
+            tag = ctx.wrap("a", s[i:start], s[stop:link.end()])
+            label = _convert(link["label"], ctx, protect_brands)
+            out.append(f"<{tag}>{label}</{tag}>")
+            i = plain_start = link.end()
             continue
 
         # --- spans that are protected wholesale -------------------------

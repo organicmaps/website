@@ -22,6 +22,7 @@ Arenduses osalemiseks on palju erinevaid võimalust:
 - Toeta teisi kasutajaid [GitHubis][issues], [Telegramis][telegram_chat], [Matrixis][matrix], [Twitteris][twitter], [Facebookis][facebook] ja [Instagramis][instagram].
 - Tutvusta kõigile Organic Mapsi rakendust. Suurem kogukond on tugevam kogukond.
 - Koosta arvustus rakendustepoodides: [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
+- Vormista {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Protoni tellimus{% </sponsored_link> %}, et aidata meil Organic Mapsi arendada ja oma servereid hooldada. Ka Proton väärtustab sinu privaatsust ja annab osa sinu makstud summast projektile.
 - Igasugune abi on teretulnud!
 
 Meie väikene tiim on väga tänulik sinu tagasiside ja toe eest. Ilma kasutajateta poleks Organic Mapsi olemas ❤️.

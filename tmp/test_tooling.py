@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 from deepl_glossary import dictionary_for_probe, load_terms  # noqa: E402
+from markdown_xml import from_xml, to_xml  # noqa: E402
 from telegram_post import (  # noqa: E402
     classify_media,
     convert_markdown_to_telegramv2,
@@ -40,6 +41,17 @@ class FakeResponse:
 
 
 class TranslationToolingTests(unittest.TestCase):
+    def test_sponsored_link_label_is_translatable_and_target_is_preserved(self):
+        source = ('Join {% <sponsored_link url="https://example.org/ref"> %}our program'
+                  '{% </sponsored_link> %} ({{ <sponsored_link url="https://example.org/ref" /> }}).')
+        payload, context = to_xml(source)
+        self.assertEqual(payload, "Join <a0>our program</a0> (<x>0</x>).")
+        translated = from_xml(payload.replace("our program", "unserem Programm"), context)
+        self.assertEqual(translated, source.replace("our program", "unserem Programm"))
+        wrong_url = translated.replace("example.org/ref", "example.org/other", 1)
+        self.assertTrue(any("sponsored_links" in p.message
+                            for p in check_translation(source, wrong_url, "de")))
+
     def test_translation_imports_do_not_require_requests(self):
         code = """
 import importlib.abc, sys
@@ -357,6 +369,12 @@ Organic Maps。
 
 
 class TelegramToolingTests(unittest.TestCase):
+    def test_sponsored_links_survive_in_telegram(self):
+        text = ("Voici {% <sponsored_link url='https://example.org/ref'> %}notre lien"
+                "{% </sponsored_link> %} ({{ <sponsored_link url='https://example.org/ref' /> }}).")
+        self.assertEqual(strip_tera_blocks(text),
+                         "Voici [notre lien](https://example.org/ref) (https://example.org/ref).")
+
     def test_media_discovery_prefers_webp_over_retained_preview_originals(self):
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)

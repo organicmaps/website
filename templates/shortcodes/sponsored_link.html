@@ -1,0 +1,3 @@
+{% component sponsored_link(url) -%}
+<a href="{{ url }}" rel="sponsored noopener external" target="_blank">{{ body | default(value=url) }}</a>
+{%- endcomponent sponsored_link %}

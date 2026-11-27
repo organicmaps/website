@@ -22,6 +22,7 @@ A fejlesztést különböző módokon lehet támogatni:
 - Támogasd a többi felhasználót a [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram] felületeken.
 - Mesélj mindenkinek az Organic Maps alkalmazásól. A nagyobb közösség, egy erősebb közösség.
 - Értékelj minket a [Google Play][googleplay_review], [App Store][appstore_review], [Huawei Appgallery][appgallery_review] felületeken.
+- Válassz egy {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton-előfizetést{% </sponsored_link> %}, és segíts az Organic Maps fejlesztésében és szervereink karbantartásában. A Proton is fontosnak tartja a magánszférád védelmét, és az előfizetési díjad egy részét a projektnek adja.
 - Bármilyen segítséget szívesen fogadunk!
 
 Kis csapatunk nagyon hálás a visszajelzésekért és a támogatásért. Az Organic Maps nem lenne lehetséges a felhasználóink nélkül ❤️.

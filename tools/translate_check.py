@@ -28,6 +28,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from markdown_frontmatter import strip_frontmatter
+from markdown_xml import SPONSORED_LINK_RE, SPONSORED_URL_RE
 from translate_md import QUOTE_FOR, register_ok
 
 ERROR, WARN = "ERROR", "warn"
@@ -60,7 +61,7 @@ class Problem:
 
 # --------------------------------------------------------------- fingerprints
 
-def fingerprint(text: str) -> dict[str, int]:
+def fingerprint(text: str) -> dict[str, int | list[str]]:
     """Structural features that translation must preserve exactly."""
     return {
         # Blank-line-separated blocks, not raw lines: a soft line break inside
@@ -70,6 +71,10 @@ def fingerprint(text: str) -> dict[str, int]:
         "bullets": len(re.findall(r"(?m)^[ \t]*[-*+][ \t]+", text)),
         "headings": len(re.findall(r"(?m)^[ \t]*#{1,6}[ \t]+", text)),
         "inline_links": len(re.findall(r"\]\(", text)),
+        "sponsored_links": sorted(
+            link["url"] for pattern in (SPONSORED_LINK_RE, SPONSORED_URL_RE)
+            for link in pattern.finditer(text)
+        ),
         "ref_links": len(re.findall(r"\]\[", text)),
         "attributions": len(re.findall(r"_\([^)\n]+\)_", text)),
         "tera_expressions": len(re.findall(r"\{\{", text)),

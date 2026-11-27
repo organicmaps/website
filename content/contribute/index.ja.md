@@ -22,6 +22,7 @@ Organic Maps は無料のオープンソースアプリです。広告がなく�
 - [GitHub][issues]、[Telegram][telegram_chat]、[Matrix][matrix]、[Twitter][twitter]、[Facebook][facebook]、[Instagram][instagram] で他のユーザーをサポートする。
 - みんなに Organic Maps のことを伝える。コミュニティが大きいほど、強くなります。
 - [Google Play][googleplay_review]、[Apple Store][appstore_review]、[Huawei Appgallery][appgallery_review] で評価する。
+- {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}Proton の有料プラン{% </sponsored_link> %}に加入して、Organic Maps の開発とサーバーの維持を支援する。Proton もユーザーのプライバシーを大切にしており、支払った料金の一部がプロジェクトに還元されます。
 - どんな助けも歓迎します!
 
 私たちの小さなチームは、あなたのフィードバックとサポートに大変感謝しています。Organic Maps はユーザーの皆様なしには成り立ちません ❤️。

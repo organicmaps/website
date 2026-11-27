@@ -22,6 +22,7 @@ Mae yna nifer o ffyrdd gwahanol o gefnogi'r datblygiad:
 - Cynorthwya ddefnyddwyr arall ar [GitHub][issues], [Telegram][telegram_chat], [Matrix][matrix], [Twitter][twitter], [Facebook][facebook], [Instagram][instagram].
 - Dyweda wrth bawb am Organic Maps. Mae cymuned ehangach yn gymuned gryfach.
 - Sgoria ni ar [Google Play][googleplay_review], [Apple Store][appstore_review], [Huawei Appgallery][appgallery_review].
+- Pryna {% <sponsored_link url="https://protonvpn.com/organicmaps"> %}danysgrifiad Proton{% </sponsored_link> %} i’n helpu ni i ddatblygu Organic Maps a chynnal ein gweinyddion. Mae Proton hefyd yn gwerthfawrogi dy breifatrwydd ac yn rhoi rhan o dy daliad i’r prosiect.
 - Rydyn ni'n croesawi unrhyw help!
 
 Mae ein tîm bach yn werthfawr iawn o dy adborth a dy gefnogaeth. Ni fydd Organic Maps yn bosib heb ein defnyddwyr ❤️.

@@ -109,11 +109,12 @@ test('language links follow section jumps and history while preserving checkout 
   const translated = '/de/donate/' + query;
   assert.equal(await german.getAttribute('href'), translated + '#other-ways');
 
-  await page.locator('.donate-methods a[href="#bank-transfer"]').click();
   async function expectFragment(fragment) {
     await page.waitForFunction(hash => document.querySelector('.lang-menu-link[lang="de"]').hash === hash,
       fragment, { timeout: 3000 });
   }
+
+  await page.locator('.donate-methods a[href="#bank-transfer"]').click();
   await expectFragment('#bank-transfer');
   await page.goBack();
   await expectFragment('#other-ways');

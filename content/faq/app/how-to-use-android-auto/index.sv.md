@@ -4,8 +4,7 @@ slug: hur-använder-man-android-auto
 description: Minimikrav för att köra Organic Maps med Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

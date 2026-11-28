@@ -3,7 +3,7 @@
 {% extends 'base.html' %}
 
 {% block article_meta %}
-{%- if page.taxonomies.faq -%}
+{%- if is_faq -%}
 {% include '_jsonld_faq.html' %}
 {%- endif -%}
 {% endblock %}

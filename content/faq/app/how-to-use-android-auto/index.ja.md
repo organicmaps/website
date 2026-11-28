@@ -4,7 +4,7 @@ description: Android Auto で Organic Maps を利用するための最小要件
 slug: android-autoの使い方
 updated: "2026-11-27"
 taxonomies:
-  faq: ["アプリ"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

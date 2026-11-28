@@ -4,8 +4,7 @@ slug: एडरइड-ऑट-क-उपयग-कस-कर
 description: एंड्रॉइड ऑटो के साथ Organic Maps चलाने के लिए न्यूनतम आवश्यकताएं
 updated: "2026-11-27"
 taxonomies:
-  faq:
-    - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

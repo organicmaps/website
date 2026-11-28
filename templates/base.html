@@ -1,3 +1,32 @@
+{%- set is_faq = (page and page.taxonomies.faq) or (taxonomy and taxonomy.name == "faq") -%}
+{%- if is_faq -%}
+{%- set faq_root = get_taxonomy(kind="faq", lang=lang) -%}
+{%- set terms = [
+  ...[t for t in faq_root.items if t.name not in config.extra.faq_last_categories],
+  ...[t for t in faq_root.items if t.name in config.extra.faq_last_categories]
+] -%}
+{%- set faq_topics = [
+  {
+    "term": t,
+    "id": "faq-" ~ (config.extra.faq_topic_ids | get(key=t.slug, default=t.slug)),
+    "title": config.extra.faq_category_titles | get(key=t.name, default=(t.name | replace(from="-", to=" ") | capitalize))
+  }
+  for t in terms
+] -%}
+{%- set faq_section = get_section(path="faq/_index.md", lang=lang) -%}
+{%- set faq_label = faq_section.title -%}
+{%- if faq_section.extra.start_here -%}
+  {%- set faq_label = faq_section.extra.menu_title | default(value=faq_section.title, boolean=true) -%}
+{%- endif -%}
+{%- if page -%}
+  {%- set current_category = page.taxonomies.faq[0] -%}
+{%- elif term -%}
+  {%- set current_category = term.name -%}
+{%- endif -%}
+{%- if page or term -%}
+  {%- set current_topic = [topic for topic in faq_topics if topic.term.name == current_category] | first -%}
+{%- endif -%}
+{%- endif -%}
 {%- if page %}
 {%- set resource = page %}
 {%- set resource_title = resource.title %}
@@ -10,6 +39,9 @@
 {%- set resource = term %}{# taxonomy term has only 'name', 'slug' and 'path' properties #}
 {%- set resource_path = resource.path %}
 {%- set resource_title = resource.name | replace(from="-", to=" ") | capitalize %}
+{%- if is_faq %}
+{%- set resource_title = current_topic.title %}
+{%- endif %}
 {%- elif taxonomy %}{# taxonomy has only 'name' and 'slug' properties #}
 {% if lang == 'en' %}
 {% set resource = taxonomy.name ~ "/_index.md" %}
@@ -24,14 +56,22 @@
 {#- Build a descriptive page_title for <title>, og:title, twitter:title.
     Taxonomy term pages (e.g. /faq/app/, /news/releases/) get
     "{Term} – {Section label} – {Brand}" to identify the topic and its section.
+    English FAQ answers include the brand when absent.
     On non-default-language pages, an ASCII-only term is usually an
     untranslated English label, so omit it rather than mix languages.
     Language-neutral names such as Linux are explicitly allowed in config. -#}
 {%- set page_title = resource_title -%}
-{%- set term_description = "" -%}
 {%- set brand = config.title | default(value="Organic Maps", boolean=true) -%}
+{%- if lang == config.default_language and page and is_faq -%}
+  {%- set normalized_title = resource_title | lower -%}
+  {%- set normalized_brand = brand | lower -%}
+  {%- if not (normalized_title is containing(pat=normalized_brand)) -%}
+    {%- set page_title = resource_title ~ " – " ~ brand -%}
+  {%- endif -%}
+{%- endif -%}
+{%- set term_description = "" -%}
 {%- if term -%}
-  {%- set term_name = term.name | replace(from="-", to=" ") | capitalize -%}
+  {%- set term_name = resource_title -%}
   {%- set use_term_name = lang == config.default_language -%}
   {%- if not use_term_name -%}
     {%- if term.name in config.extra.language_neutral_taxonomy_terms or term.name | regex_replace(pattern="[a-zA-Z0-9-]", rep="") | length > 0 -%}
@@ -39,7 +79,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if taxonomy.name == "faq" -%}
-    {%- set section_label = trans(key="faq-menu-title", lang=lang) -%}
+    {%- set section_label = faq_label if faq_section.extra.start_here else trans(key="faq-menu-title", lang=lang) -%}
     {%- if use_term_name -%}
       {%- set term_description = trans(key="faq-term-description", lang=lang) | replace(from="{}", to=term_name) -%}
     {%- endif -%}
@@ -220,14 +260,14 @@
   </header>
 
   <main>
-    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ breadcrumbs #}
+    {% if page and is_faq %}
     {% include 'faq/faq-breadcrumbs.html' %}
     {% endif %}
     {% block content %}{% endblock %}
   </main>
 
   <footer>
-    {% if page is defined and page.taxonomies and page.taxonomies.faq %}{# Show FAQ editing link #}
+    {% if page and is_faq %}
     {% include 'faq/github_edit_link.html' %}
     {% endif %}
 

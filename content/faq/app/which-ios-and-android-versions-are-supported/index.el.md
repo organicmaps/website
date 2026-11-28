@@ -18,4 +18,4 @@ aliases:
 
 Για να λειτουργήσουν, οι συσκευές Android πρέπει να υποστηρίζουν το OpenGL ES 3.0 ή νεότερη έκδοση, ή το API Vulkan.
 
-Για να χρησιμοποιήσεις το OM με το Android Auto, έλεγξε τις απαιτήσεις [εδώ](../how-to-use-android-auto/).
+Για να χρησιμοποιήσεις το OM με το Android Auto, έλεγξε τις απαιτήσεις [εδώ](@/faq/app/how-to-use-android-auto/index.el.md).

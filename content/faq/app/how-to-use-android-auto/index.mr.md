@@ -4,8 +4,7 @@ slug: android-auto-कस-वपरव
 description: Android Auto सह Organic Maps चालवण्यासाठी किमान आवश्यकता
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

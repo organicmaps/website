@@ -4,7 +4,7 @@ slug: android-auto-nasıl-kullanılır
 description: Organic Maps'i Android Auto ile çalıştırmak için minimum gereksinimler
 updated: '2026-11-27'
 taxonomies:
-  faq: ["uygulama"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

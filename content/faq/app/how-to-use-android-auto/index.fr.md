@@ -4,7 +4,7 @@ description: Configuration minimale requise pour utiliser Organic Maps avec Andr
 slug: comment-utiliser-android-auto
 updated: "2026-11-27"
 taxonomies:
-  faq: ["application"]
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

@@ -18,4 +18,4 @@ Suls aparelhs Android, Organic Maps pòt foncionar amb los Servicis Google insta
 
 Los aparelhs Android devon suportar OpenGL ES 3.0 o una version mai recenta, o l'API Vulkan, per foncionar.
 
-Per utilizar OM amb Android Auto, consulta las exigéncias [aicí](../how-to-use-android-auto/).
+Per utilizar OM amb Android Auto, consulta las exigéncias [aicí](@/faq/app/how-to-use-android-auto/index.oc.md).

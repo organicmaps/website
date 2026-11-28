@@ -18,4 +18,4 @@ Androidలో, Google సేవలు ఇన్‌స్టాల్ చేయ�
 
 పని చేయడానికి Android పరికరాలు OpenGL ES 3.0 లేదా అంతకంటే ఎక్కువ, లేదా Vulkan APIని సపోర్ట్ చేయాలి.
 
-Android Autoతో OMని ఉపయోగించడానికి, దయచేసి [ఇక్కడ](../how-to-use-android-auto/) అవసరాలను తనిఖీ చేయండి.
+Android Autoతో OMని ఉపయోగించడానికి, దయచేసి [ఇక్కడ](@/faq/app/how-to-use-android-auto/index.te.md) అవసరాలను తనిఖీ చేయండి.

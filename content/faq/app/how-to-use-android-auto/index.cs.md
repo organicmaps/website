@@ -4,8 +4,7 @@ slug: jak-používat-android-auto
 description: Minimální požadavky pro spuštění Organic Maps s Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

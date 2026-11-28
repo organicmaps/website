@@ -18,4 +18,4 @@ Android मध्ये, Organic Maps Google सेवा स्थापित 
 
 Android उपकरणांनी कार्य करण्यासाठी OpenGL ES 3.0 किंवा त्यापेक्षा उच्च, किंवा Vulkan API समर्थन करणे आवश्यक आहे.
 
-Android Auto सह OM वापरण्यासाठी, कृपया [येथे](../how-to-use-android-auto/) आवश्यकता तपासा.
+Android Auto सह OM वापरण्यासाठी, कृपया [येथे](@/faq/app/how-to-use-android-auto/index.mr.md) आवश्यकता तपासा.

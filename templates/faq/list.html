@@ -2,11 +2,38 @@
 
 {% block content %}
   <h1>{{ resource.title }}</h1>
-  {%- for term in terms -%}
-  <h2><a href="{{ term.path | safe }}">{{ term.name | replace(from="-", to=" ") | capitalize }}</a></h2>
+  {% if faq_section.extra.start_here %}
+  {% if lang != config.default_language %}
+    {% set default_faq = get_taxonomy(kind="faq", lang=config.default_language) %}
+    {% set expected = ["faq-" ~ t.slug for t in default_faq.items] | sort %}
+    {% set actual = [topic.id for topic in faq_topics] | sort %}
+    {% if actual != expected %}
+      {{ throw(message="Check extra.faq_topic_ids for " ~ lang ~ ": expected " ~ (expected | join(sep=", ")) ~ ", found " ~ (actual | join(sep=", "))) }}
+    {% endif %}
+  {% endif %}
+  <h2>{{ trans(key="faq-start-here", lang=lang) }}</h2>
   <ul>
-    {%- for faq_page in term.pages | sort(attribute="extra.order") -%}
-      <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a></li>
+    {% set default_section = get_section(path="faq/_index.md", lang=config.default_language) %}
+    {% for source in default_section.extra.start_here_pages %}
+    {% set start_page = get_page(path=source, lang=lang) %}
+    <li><a href="{{ start_page.path | safe }}">{{ start_page.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <nav aria-label="{{ trans(key="faq-topics", lang=lang) }}">
+    <p><strong>{{ trans(key="faq-browse-topics", lang=lang) }}</strong>
+      {% for topic in faq_topics %}
+      {% if not loop.first %} · {% endif %}<a href="#{{ topic.id }}">{{ topic.title }}</a>
+      {% endfor %}
+    </p>
+  </nav>
+  {% endif %}
+  {%- for topic in faq_topics -%}
+  <h2{% if faq_section.extra.start_here %} id="{{ topic.id }}"{% endif %}><a href="{{ topic.term.path | safe }}">{{ topic.title }}</a></h2>
+  <ul>
+    {%- for faq_page in topic.term.pages | sort(attribute="extra.order") -%}
+      <li><a href="{{ faq_page.path | safe }}">{{ faq_page.title }}</a>
+        {% include 'faq/_questions.html' %}
+      </li>
     {%- endfor -%}
   </ul>
   {%- endfor -%}

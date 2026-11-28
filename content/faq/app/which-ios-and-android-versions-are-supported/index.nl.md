@@ -18,4 +18,4 @@ In Android kan Organic Maps werken op apparaten waarop Google Services is geïns
 
 Android-toestellen moeten OpenGL ES 3.0 of hoger ondersteunen, of de Vulkan-API, om te kunnen werken.
 
-Als je OM met Android Auto wilt gebruiken, controleer je de vereisten [hier](../how-to-use-android-auto/).
+Als je OM met Android Auto wilt gebruiken, controleer je de vereisten [hier](@/faq/app/how-to-use-android-auto/index.nl.md).

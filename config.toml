@@ -37,15 +37,18 @@ btc = "bc1qxnn9j9z5xywqz5sdqxaq327vw0x22nhsxc67ld"
 doge = "DEapg7Jh4SPn6wo9UE2n6fXNs7kcQNdVrs"
 dot = "1ca7BmqwQ49WhPmYYBELUb8Gpaf6kMocGzNmTnqAgbdxkuG"
 eth = "0xC36A638DD2274BDe6097DFD62B3EB5Aa8A67Ec54"
+faq_category_titles = {android-auto = "Android Auto", apple-carplay = "Apple CarPlay"}
 # These are curated subsets: the embedded page excludes some languages to keep
 # the app-bundled HTML small, while the status page tracks the translation teams
 # that actively use it. Templates deliberately fail when a listed embedded
 # language is missing one of the selected questions.
 faq_embedded_languages = ["ar", "cs", "de", "el", "es", "fa-IR", "fr", "he", "hi", "hu", "id", "it", "ja", "ko", "lt", "mr", "nl", "pl", "pt", "pt-BR", "ru", "sv", "te", "tr", "uk", "zh-Hans"]
+# Include each localized category ID that belongs after the mobile topics.
+faq_last_categories = ["linux", "לינוקס"]
 faq_translation_status_languages = ["ru", "de", "es", "fa-IR", "fr", "it", "ja", "ko", "pl", "pt", "pt-BR", "tr", "uk", "zh-Hans"]
 # Latin-only taxonomy terms normally indicate untranslated labels on localized
 # pages. These names are valid unchanged in every supported language.
-language_neutral_taxonomy_terms = ["linux"]
+language_neutral_taxonomy_terms = ["android-auto", "apple-carplay", "linux"]
 lnurl = "stellarchin694@walletofsatoshi.com"
 ltc = "LU3PAUrAx57v6NPWxzjPkyDmkfDzfZfYq8"
 news_date_formats = {ko = "%Y년 %-m월 %-d일"}
@@ -59,6 +62,27 @@ xmr = "4AHUaNcqAzPEC4mdh6njj7Hu3Pt9sFdM7h13vBaMvdzYJ3a5X4rrpVBCggbKCWtDYnh3gPvzH
 xrp = "r41f7ZttZEorx3mSTeLCDJuDW5qhHBYhJ4"
 zec = "t1XFRGUUeu37fxuJHJzHK8rBmhsHuAreJeF"
 
+# Localized taxonomy slugs with a different fragment ID in the FAQ index.
+[extra.faq_topic_ids]
+"голосовые-подсказки" = "voice-directions"
+"голосові-інструкції" = "voice-directions"
+"для-разработчиков" = "developer-integrations"
+"для-розробників" = "developer-integrations"
+"додаток" = "app"
+"карта" = "map"
+"мапа" = "map"
+"маршрути-та-навігація" = "routes-and-navigation"
+"маршруты-и-навигация" = "routes-and-navigation"
+"местоположение-и-компас" = "location-and-compass"
+"метки-и-треки" = "bookmarks-and-tracks"
+"місцезнаходження-та-компас" = "location-and-compass"
+"мітки-та-треки" = "bookmarks-and-tracks"
+"поиск" = "search"
+"пошук" = "search"
+"приложение" = "app"
+"редагування" = "map-editing"
+"редактирование" = "map-editing"
+
 # Default English translation
 [translations]
 address = "Address"
@@ -69,8 +93,11 @@ crypto-copy = "Copy"
 crypto-copy-failed = "Select the address and copy it manually."
 edit-on-github = "Edit on GitHub"
 engines = "Supported TTS Engines"
+faq-browse-topics = "Browse topics:"
 faq-menu-title = "Help"
+faq-start-here = "Start here"
 faq-term-description = "Frequently asked questions about {} in Organic Maps."
+faq-topics = "FAQ topics"
 go-to-top = "Go to Top"
 install-appgallery = "Install Organic Maps from Huawei AppGallery"
 install-appstore = "Install Organic Maps from the AppStore"
@@ -918,8 +945,11 @@ crypto-copy = "Скопировать"
 crypto-copy-failed = "Выделите адрес и скопируйте его вручную."
 edit-on-github = "Редактировать на GitHub"
 engines = "Поддерживаемые синтезаторы речи"
+faq-browse-topics = "Темы справки:"
 faq-menu-title = "Часто задаваемые вопросы"
+faq-start-here = "С чего начать"
 faq-term-description = "Часто задаваемые вопросы о {} в Organic Maps."
+faq-topics = "Темы справки"
 go-to-top = "Наверх"
 install-appgallery = "Установите Organic Maps из Huawei AppGallery"
 install-appstore = "Установите Organic Maps из AppStore"
@@ -1034,8 +1064,11 @@ crypto-copy = "Копіювати"
 crypto-copy-failed = "Виділіть адресу та скопіюйте її вручну."
 edit-on-github = "Редагувати на GitHub"
 engines = "Підтримувані рушії TTS"
+faq-browse-topics = "Теми довідки:"
 faq-menu-title = "ЧаПи"
+faq-start-here = "З чого почати"
 faq-term-description = "Часті запитання про {} в Organic Maps."
+faq-topics = "Теми довідки"
 go-to-top = "Перейти до початку"
 install-appgallery = "Встановіть Organic Maps з Huawei AppGallery"
 install-appstore = "Встановіть Organic Maps з AppStore"

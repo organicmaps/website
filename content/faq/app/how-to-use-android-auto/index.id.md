@@ -4,8 +4,7 @@ slug: bagaimana-cara-menggunakan-android-otomatis
 description: Persyaratan minimum untuk menjalankan Organic Maps dengan Android Auto
 updated: '2026-11-27'
 taxonomies:
-  faq:
-  - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

@@ -27,14 +27,18 @@
   </ul>
   <script>
     (function () {
-      // Put the query string and fragment in each real href as soon as the links exist. That makes
-      // a section link (#install, #crypto) or prefilled donation form (?amount=&interval=) survive
-      // left-click, middle-click, keyboard activation, and the browser's "Open in new tab" command.
-      var languageLinks = document.querySelectorAll('.lang-menu-link');
-      for (var i = 0; i < languageLinks.length; i++) {
-        var path = languageLinks[i].getAttribute('href').split('#')[0].split('?')[0];
-        languageLinks[i].setAttribute('href', path + window.location.search + window.location.hash);
+      // Keep the query (such as checkout parameters) and section in each href for keyboard use and new tabs.
+      // Fragment jumps and Back/Forward fire hashchange. Future pushState or replaceState
+      // navigation would need to refresh these links separately.
+      var links = document.querySelectorAll('.lang-menu-link');
+      function syncLanguageLinks() {
+        for (var i = 0; i < links.length; i++) {
+          var link = links[i];
+          link.setAttribute('href', link.pathname + window.location.search + window.location.hash);
+        }
       }
+      syncLanguageLinks();
+      window.addEventListener('hashchange', syncLanguageLinks);
     })();
   </script>
 </span>

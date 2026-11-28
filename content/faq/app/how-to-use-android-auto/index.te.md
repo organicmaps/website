@@ -4,8 +4,7 @@ slug: ఆడరయడ-ఆటన-ఎల-ఉపయగచల
 description: Android Autoతో Organic Maps ను అమలు చేయడానికి కనీస అవసరాలు
 updated: "2026-11-27"
 taxonomies:
-  faq:
-    - app
+  faq: ["android-auto"]
 extra:
   order: 20
 aliases:

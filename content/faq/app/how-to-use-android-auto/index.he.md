@@ -3,7 +3,7 @@ title: איך להשתמש ב-Android Auto?
 description: "דרישות מינימום להפעלת Organic Maps עם Android Auto"
 updated: "2026-11-27"
 taxonomies:
-  faq: ["אפליקציה"]
+  faq: ["android-auto"]
 extra:
   order: 20
 ---

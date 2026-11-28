@@ -10,7 +10,8 @@
 /ru/faq/redaktirovanie/        /ru/faq/редактирование/        301
 /uk/faq/dodatok/               /uk/faq/додаток/               301
 /uk/faq/mapa/                  /uk/faq/мапа/                  301
-/uk/faq/mitki-ta-marshruti/    /uk/faq/мітки-та-маршрути/     301
+/uk/faq/mitki-ta-marshruti     /uk/faq/мітки-та-треки/        301
+/uk/faq/mitki-ta-marshruti/    /uk/faq/мітки-та-треки/        301
 /uk/faq/golosovi-instruktsiyi/ /uk/faq/голосові-інструкції/   301
 /uk/faq/redaguvannia/          /uk/faq/редагування/           301
 /zh-Hans/faq/ying-yong/        /zh-Hans/faq/应用/              301
@@ -20,6 +21,8 @@
 /zh-Hans/faq/di-tu-bian-ji/    /zh-Hans/faq/地图编辑/           301
 
 # Renamed or removed taxonomy values
+/uk/faq/мітки-та-маршрути      /uk/faq/мітки-та-треки/        301
+/uk/faq/мітки-та-маршрути/     /uk/faq/мітки-та-треки/        301
 /tr/faq/basvuru/               /tr/faq/uygulama/              301
 /de/faq/sprachfuhrung/         /de/faq/sprachanweisungen/     301
 /pt-BR/faq/aplicativa/         /pt-BR/faq/aplicativo/         301

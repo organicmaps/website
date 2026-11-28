@@ -1,16 +1,18 @@
 ---
-title: Як користуватися Android Auto?
+title: Як користуватися Organic Maps з Android Auto?
 slug: як-користуватися-android-auto
-description: Мінімальні вимоги для запуску Organic Maps з Android Auto
-updated: '2026-11-27'
+description: Користуйтеся Organic Maps з Android Auto, перевірте вимоги до телефона й автомобіля та завантажте мапи перед поїздкою.
+updated: "2026-11-28"
 taxonomies:
-  faq: ["додаток"]
+  faq: ["android-auto"]
 extra:
-  order: 20
+  order: 30
 aliases:
   - /uk/faq/app/how-to-use-android-auto/
 ---
 
-Для дротового підключення до Android Auto потрібен Android 11 або новіший. Установіть Organic Maps із Google Play. Android Auto показує лише навігаційні застосунки, установлені з надійного джерела.
+Щоб користуватися Android Auto, встановіть Organic Maps із Google Play. Android Auto показує лише навігаційні застосунки, установлені з надійного джерела. Підключіть телефон до сумісного автомобіля або автомобільної мультимедійної системи й відкрийте Organic Maps на екрані автомобіля. Заздалегідь завантажте на телефон мапи регіонів, через які пролягає маршрут.
 
-Перегляньте [веб-сайт Android Auto](https://support.google.com/androidauto/answer/6348019), щоб дізнатися більше.
+Зараз Google вимагає Android 11 або новішої версії для дротового підключення Android Auto, а для бездротового діють додаткові вимоги. Перевірте [вимоги Android Auto](https://support.google.com/androidauto/answer/6348019) для вашого телефона й автомобіля. Вони не пов’язані з мінімальною версією Android 5, потрібною самому Organic Maps. Android Auto та Android Automotive OS — різні системи: підтримка підключення телефона не означає, що застосунок можна встановити безпосередньо в будь-який автомобіль.
+
+Перед поїздкою ознайомтеся з [підготовкою до поїздки в режимі офлайн](@/faq/app/offline-maps/index.uk.md). Якщо голосових підказок не чути, скористайтеся [порадами щодо усунення проблем зі звуком](@/faq/voice/cant-hear-instructions/index.uk.md).

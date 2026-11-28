@@ -18,4 +18,4 @@ Norint paleisti programą, reikia bent jau „iOS 15“ arba „Android 5“. Į
 
 Kad Android įrenginiai veiktų, jie turi palaikyti „OpenGL ES 3.0“ ar naujesnę versiją arba „Vulkan“ API.
 
-Jei norite naudoti OM su „Android Auto“, patikrinkite reikalavimus [čia](../how-to-use-android-auto/).
+Jei norite naudoti OM su „Android Auto“, patikrinkite reikalavimus [čia](@/faq/app/how-to-use-android-auto/index.lt.md).

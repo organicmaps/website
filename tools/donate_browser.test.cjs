@@ -128,13 +128,13 @@ test('language links follow section jumps and history while preserving checkout 
   assert.equal(await page.locator('#bank-transfer').evaluate(details => details.open), true);
 });
 
-test('automatic language redirects preserve donation parameters and fragments', async t => {
+test('automatic language redirects keep the checkout currency and open the linked payment section', async t => {
   const { page } = await openPage(t, { locale: 'de-DE' });
-  const parameters = '?amount=10&currency=CHF#other-ways';
+  const parameters = '?amount=10&currency=CHF#crypto';
   await page.goto(origin + '/donate/' + parameters, { waitUntil: 'commit' });
   await page.waitForURL(origin + '/de/donate/' + parameters);
   assert.equal(await page.locator('#currency').inputValue(), 'CHF');
-  assert.equal(await page.locator('#other-ways').count(), 1);
+  assert.equal(await page.locator('#crypto').evaluate(details => details.open), true);
 });
 
 test('app links prefill preset and custom amounts; returning to a preset clears custom state', { timeout: 30000 }, async t => {

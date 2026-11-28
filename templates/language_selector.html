@@ -28,8 +28,8 @@
   <script>
     (function () {
       // Keep the query (such as checkout parameters) and section in each href for keyboard use and new tabs.
-      // Fragment jumps and Back/Forward fire hashchange. If navigation starts using pushState or
-      // replaceState, call syncLanguageLinks there too.
+      // Fragment jumps and Back/Forward fire hashchange. Future pushState or replaceState
+      // navigation would need to refresh these links separately.
       var links = document.querySelectorAll('.lang-menu-link');
       function syncLanguageLinks() {
         for (var i = 0; i < links.length; i++) {

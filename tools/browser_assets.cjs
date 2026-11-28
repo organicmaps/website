@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
+// Map a request path to a built file for Playwright, or return null for a 404 response.
 function assetResponse(output, pathname) {
   let decoded;
   try {

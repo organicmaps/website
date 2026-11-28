@@ -206,7 +206,7 @@ Special single-page FAQ at `/faq/embedded-faq/` for in-app display. Template han
 
 ### Language Selector
 
-Pure CSS dropdown using hidden checkbox trick (`input.lang-menu-trigger`). JavaScript stores preference in `localStorage`.
+Pure CSS dropdown using hidden checkbox trick (`input.lang-menu-trigger`). JavaScript stores the selected language in `localStorage` and keeps each translation link’s query and fragment current as readers navigate between sections.
 
 ### Preview Images
 

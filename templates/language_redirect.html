@@ -39,10 +39,9 @@ if (window.localStorage.getItem('lang') === null) {
       window.localStorage.setItem('lang', langCode);
       // Do not redirect the default 'en' language.
       if (langCode !== '{{ config.default_language }}') {
-        // Carry the query string and fragment across: a link into a specific section
-        // (#install, #crypto) or a page prefilled from its parameters (the donation
-        // form's ?amount=&interval=) must survive the language redirect intact.
-        window.location.href = pageTranslations[langCode] + window.location.search + window.location.hash;
+        // Carry the query and fragment so a prefilled checkout opens at the requested section.
+        // Use replace() so Back skips this intermediate page even if the redirect runs after load.
+        window.location.replace(pageTranslations[langCode] + window.location.search + window.location.hash);
       }
       redirected = true;
     }
